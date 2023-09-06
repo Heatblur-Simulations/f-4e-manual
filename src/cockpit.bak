@@ -1,0 +1,552 @@
+.. _cockpitoverview:
+
+Cockpit Overview
+################
+
+
+Pilot Cockpit Layout
+********************     
+
+      +-----+------------------+
+      | 1.  |:ref:`gunsight`   |
+      +-----+------------------+
+      | 2.  |:ref:`overaux`    |
+      +-----+------------------+
+      | 3.  |:ref:`wrcs`       | 
+      +-----+------------------+
+      | 4.  |:ref:`flightdg`   |
+      +-----+------------------+
+      | 5.  |:ref:`indicator`  |
+      +-----+------------------+
+      | 6.  |:ref:`leftsub`    |
+      +-----+------------------+
+      | 7.  |:ref:`leftcons`   |
+      +-----+------------------+
+      | 8.  |:ref:`ped`        |
+      +-----+------------------+
+      | 9.  |:ref:`rightsub`   |
+      +-----+------------------+
+      | 10. |:ref:`rightcons`  |
+      +-----+------------------+
+
+
+      
+.. _gunsight:
+
+Gunsight/Radar Repeater Group
+=============================
+
+Reticle Intensity/Scale Knob
+----------------------------
+
+.. image:: path/RetIntensity.png
+  :width:
+  
+      +---------+--------------------------------------------------------------+
+      | RET INT | Controls the brightness of the reticle.                      |
+      +---------+--------------------------------------------------------------+
+      | SCALE   | Controls the scale light intensity of the front radar scope. |
+      +---------+--------------------------------------------------------------+
+      
+Sight Shutter Lever
+-------------------
+
+.. image:: path/SightShutter.png
+  :width:
+
+Changes the optical sight light source to prevent damage to the optics from high sunlight. 
+
+Reticle Depression Knob
+-----------------------
+
+.. image:: path/RetDepress.png
+  :width:
+
+ Controls manual gunsight depression in one mil increments.
+
+Sight Mode Knob
+---------------
+
+.. image:: path/SightMode.png
+  :width:
+
+Selects the mode of operation for the gunsight.
+
+      +-------+--------------------------------------------------------------------------------------------------------+
+      | OFF   | Turns the system off.                                                                                  |
+      +-------+--------------------------------------------------------------------------------------------------------+
+      | STBY  | Warms up the system.  Reticle remains off.                                                             |
+      +-------+--------------------------------------------------------------------------------------------------------+
+      | CAGE  | Reticle is displayed and caged at the radar boresight line (RBL).                                      |
+      +-------+--------------------------------------------------------------------------------------------------------+
+      | A/G   | Selects air to ground mode. Manual set dpression is referenced from the fuselage reference line (FRL). |
+      +-------+--------------------------------------------------------------------------------------------------------+
+      | A/A   | Selects air to air lead computing mode.  Position is set by the gyro, range, CADC, and can be caged.   |
+      +-------+--------------------------------------------------------------------------------------------------------+
+      | BIT 1 | System self test mode 1.                                                                               |
+      +-------+--------------------------------------------------------------------------------------------------------+
+      | BIT 2 | System self test mode 2.                                                                               |
+      +-------+--------------------------------------------------------------------------------------------------------+
+ 
+OPR ERS/Contrast Knob     
+---------------------
+
+.. image:: path/Contr.png
+  :width:
+  
+Two function (pushbutton inside of knob) control of the front scope display.  
+  
+      +---------+----------------------------------------------------------------------------------------+
+      | OPR/ERS | Button activates or erases display in aircraft with DVST. No function with DSCG scope. |
+      +---------+----------------------------------------------------------------------------------------+
+      | CONTR   | Controls the displayed video/background contrast on the front scope.                   |
+      +---------+----------------------------------------------------------------------------------------+
+      
+
+Brightness Knob/Horizon Line Knob
+---------------------------------
+
+.. image:: path/BrtHrz.png
+  :width:
+             
+Dual knob control of the front scope display settings.
+
+      +--------+------------------------------------------------------------------------+
+      | BRT    | Controls relative brightness of the front scope display.               |
+      +--------+------------------------------------------------------------------------+
+      | HOR LN | Adjusts relative horizion line shown on radar scopes in both cockpits. |
+      +--------+------------------------------------------------------------------------+
+      
+      
+INT Tab
+-------
+
+.. image:: path/Int.png
+  :width:
+  
+The INT tab rotates around the display to alter the relative darkness of the radar display, permitting the pilot to adjust the scope relative to ambient light.  
+      
+
+Red Tab
+-------
+
+.. image:: path/Red.png
+  :width:
+  
+The Red tab is rotated to provide a red scope display for night flying.
+
+
+In Range Light
+--------------
+
+.. image:: path/InRng.png
+  :width: 
+  
+The IN RANGE light illuminates to alert the pilot that the current locked target is within range parameters.
+
+
+Hold Altitude Light
+-------------------   
+
+.. image:: path/HoldAlt.png
+  :width:
+  
+The HOLD ALT light illuminates as an instruction to the pilot from the fire control system to maintain current altitude to assist in a snap-up intercept situation against a target above the fighter.  The predicates are:
+
+A range greater than the weapon can make,
+Altitude in excess than 32,000 feet, and
+The locked taret is greater than 8,000 feet above the fighter.
+
+When the HOLD ALT light is on, the fighter should be flown to center the steering dot relative to azimuth of the ASE circle.  When the HOLD ALT light turns off, the fighter should then snap up in pitch to fully center the steering dot in the ASE circle.   
+      
+
+Range Lights
+------------
+
+.. image:: path/RngLights.png
+  :width:
+
+The Range Lights illuminate relative to range settings selected by the WSO.  Range is provided on the upper right corner of the DSCG scope. 
+
+
+Wheels Light
+------------
+
+.. image:: path/Wheels.png
+  :width:
+  
+The WHEELS lamp illuminates when the aircraft slows below flaps blow-up speed (roughly 230 knots, dependent on altitude) with the gear still raised.
+
+
+
+.. _overaux:
+
+Overhead Auxiliary Indicators
+=============================
+
+SHOOT Lights
+------------
+
+.. image:: path/LftShoot.png
+  :width:
+
+Illuminates when missile firing parameters are met.  Do not illuminate when in VI or A-G modes. 
+
+
+Air Refueling Lights
+--------------------
+
+.. image:: path/AARLights.png
+  :width:
+
+Provide status of the Air Refueling System while in use.
+
+      +------------+------------------------------------------------------------------------------------------------------------------+
+      | READY      | Illuminates when air refuel receptacle is fully extended. Turns off when boom is locked or receptacle retracted. |
+      +------------+------------------------------------------------------------------------------------------------------------------+
+      | DISENGAGED | Illuminates when boom disengages during cycle, and remains lit until refueling system is reset.                  |
+      +------------+------------------------------------------------------------------------------------------------------------------+
+      | L.H. FULL  | Indicates left hand external tank is full.                                                                       |
+      +------------+------------------------------------------------------------------------------------------------------------------+
+      | CTR. FULL  | Indicates centerline external tank is full.                                                                      |
+      +------------+------------------------------------------------------------------------------------------------------------------+
+      | R.H. FULL  | Indicates right hand external tank is full.                                                                      |
+      +------------+------------------------------------------------------------------------------------------------------------------+  
+
+      
+Labs Pull Up Light
+------------------
+
+.. image:: path/LabsPU.png
+  :width: 
+
+Illuminates and disengages during Loft and LABS bombing runs to provide timing sequence information to the pilot. 
+
+
+Standby Magnetic Compass
+------------------------
+
+.. image:: path/StbyMagComp.png
+  :width: 
+
+A standard magnetic compass for backup navigation assistance should the primary flight director systems fail. 
+  
+  
+Angle of Attack Indexer Lights
+------------------------------
+
+.. image:: path/AoA.png
+  :width: 
+    
+Provides quick confirmation of current aircraft AoA state based on illuminated position and color.  
+
+      +--------------+---------------+ 
+      | "center low" | Very slow     |
+      +--------------+---------------+
+      | "low"        | Slightly slow |
+      +--------------+---------------+
+      | "all"        | On speed      |
+      +--------------+---------------+
+      | "high"       | Slightly fast |
+      +--------------+---------------+
+      | "center high | Very fast     |
+      +--------------+---------------+
+
+
+
+.. _wrcs:
+
+WRCS/AWRS/Stores Management
+===========================
+
+Head Up Display Indicators
+--------------------------
+
+.. image:: path/HUD.png
+  :width:
+
+
+The Head Up Display indicator panel provides weapon status for the Master Arm control as well as the current selected air to air weapon based on the postion of the Guns/Missile switch on the left throttle handle.
+
+      +-------+-----------------------------------------------------------------+
+      | RADAR | Illuminates when a radar-guided air to air missile is selected. | 
+      +-------+-----------------------------------------------------------------+
+      | HEAT  | Illuminaes when an IR-guided air to air missile is selected.    |
+      +-------+-----------------------------------------------------------------+
+      | GUN   | Illuminates when the nose gun is selected.                      |
+      +-------+-----------------------------------------------------------------+
+      | ARM   | Illuminates when the Master Arm switch is selected to ARM.      |
+      +-------+-----------------------------------------------------------------+
+      
+
+UHF Remote Channel Indicator
+----------------------------
+
+.. image:: path/UHFInd.png
+  :width:
+  
+Provides the current selected channel value when the radio is set to PRESET.  Otherwise, the indicator displays M if the radio is set to Manual, G when the COMM function is set as GUARD/ADF, or A when the A-3-2-T switch is in A.
+
+
+True Airspeed Indicator
+-----------------------
+
+.. image:: path/TASInd.png
+  :width:
+  
+Provides the aircraft's True Airspeed in knots, and is calibrated from 150 to 1500 knots; airspeeds below this range are thus not reliable. 
+
+
+Flight Instrument Brightness Knob
+---------------------------------
+
+.. image:: path/InstruBright.png
+  :width:
+  
+Controls brightness of the flight instrument cluster.
+
+
+Nose/Tail Arming Switch
+-----------------------
+
+.. image:: path/NTArm.png
+  :width:
+  
+Controls the arming solenoids of the MER and TER racks, selecting what MER/TER position(s) arming lanyards are pulled from released bomb fuzes upon separation, thus making them live.  This function also controls selective low/high drag capability for retarded bombs.
+
+      +-----------+-----------------------------------------------------------------------------------+
+      | SAFE      | No arming solenoids activate; bombs release without fuzing enabled.               |
+      +-----------+-----------------------------------------------------------------------------------+
+      | NOSE      | Forward and center position solenoids activate to hold arming lanyards.           |
+      +-----------+-----------------------------------------------------------------------------------+
+      | TAIL      | Aft position solenoids activate to hold arming lanyards.                          |
+      +-----------+-----------------------------------------------------------------------------------+
+      | NOSE/TAIL | Forward, center, and aft position solenoids all activate to hold arming lanyards. |
+      +-----------+-----------------------------------------------------------------------------------+
+
+
+Station Select Buttons 
+----------------------
+
+.. image:: path/SSBs.png
+  :width: 
+  
+The Station Select Buttons are used to activate air to ground munition stations and the nose gun.  Upon selection of a station, the upper half denoting the position will illuminate green to confirm the station is active.  The lower half will illuminate amber once the necessary mode is selected, the weapon is compatible with the weapon select knob option, the Master Arm is in the ARM position, and any necessary warm up period for the selected weapon type is completed.  L and R positions are left and right, respectively, with O denoting outboard and I denoting inboard stations.  The centerline weapon position is CL, and the nose gun is armed with the GUN station selector button.  A dimmer knob is also provided to raise or lower the lighting of the station select buttons relative to current cockpit conditions.
+
+
+Master Arm Switch
+-----------------
+
+.. image:: path/MArm.png
+  :width:
+  
+Provides master arming function for all aircraft weapons.  
+
+
+Delivery Mode Knob
+------------------
+
+.. image:: path/DelMode.png
+  :width:
+  
+The Delivery Mode Knob sets the fire control system to the desired air to ground weapon release type.  Split into two halves, the left side of the dial references ARBCS (Altitude Reference and Bombing Computer Set) delivery modes, while the right side provides automated release functions using the WRCS (Weapon Release Computer Set) with possible tie-in to the navigation computer, depending on mode.  At the 11 and 12 o'clock positions are the OFF position, which is utilized for air to air weapons (including the gun) and DIRECT, which is used for video-directed weapons such as the AGM-65. The full series of positions is as follows, clockwise from the left:
+
+      +----------+---------------------------------------+
+      | INST O/S | Instantaneous Over the Shoulder       |
+      +----------+---------------------------------------+
+      | LOFT     | Loft                                  |
+      +----------+---------------------------------------+
+      | O/S      | (Timed) Over the Shoulder             |
+      +----------+---------------------------------------+
+      | T LAD    | Timed LADD (Low Angle Drogue Delivery |
+      +----------+---------------------------------------+
+      | TL       | Timed Level                           |
+      +----------+---------------------------------------+
+      | OFF      | Off (Air to Air)                      |
+      +----------+---------------------------------------+
+      | DIRECT   | Manual Direct                         |
+      +----------+---------------------------------------+
+      | TGT FIND | Target Find (Nav mode only)           |
+      +----------+---------------------------------------+
+      | DT       | Dive Toss                             |
+      +----------+---------------------------------------+
+      | DL       | Dive Laydown                          |
+      +----------+---------------------------------------+ 
+      | L        | Laydown                               |
+      +----------+---------------------------------------+
+      | OFF SET  | Offset Bomb                           |
+      +----------+---------------------------------------+
+      | AGM-45   | AGM-45                                |
+      +----------+---------------------------------------+
+
+      
+Weapon Selector Knob
+--------------------
+
+.. image:: path/WSK.png      
+  :width:
+  
+Selected for the type of weapon currently required, providing release signals to the AWRU (Aircraft Weapons Release Unit). ARM and TV positions inhibt air to air weapon firing unless a CAGE signal is active.  ARM and TV positions do not affect tuning status of radar guided weapons.  Positions are as follows:
+
+     +-------------+-----------------------------------------------------------------------------------+
+     | AGM-12      | Not used.                                                                         |
+     +-------------+-----------------------------------------------------------------------------------+
+     | BOMBS       | Bombs (all types).                                                                |
+     +-------------+-----------------------------------------------------------------------------------+
+     | RKTS & DISP | Rockets and dispensers.                                                           |
+     +-------------+-----------------------------------------------------------------------------------+
+     | ARM         | Anti-Radiation Missile (AGM-45).                                                  |
+     +-------------+-----------------------------------------------------------------------------------+
+     | TV          | Electro-optical weapons (AGM-65).                                                 |
+     +-------------+-----------------------------------------------------------------------------------+
+     | C           | Not used; may be utilized as an OFF position.                                     |
+     +-------------+-----------------------------------------------------------------------------------+
+     | B           | Like AIR TO AIR switch in rear cockpit, cancels CAGE requirement.                 |
+     +-------------+-----------------------------------------------------------------------------------+
+     | A           | Simultaneous release mode for CBU, rockets, or dispensers; bombs do not release.  |
+     +-------------+-----------------------------------------------------------------------------------+
+ 
+     
+Aircraft Weapons Release Unit
+-----------------------------         
+     
+.. image:: path/AWRU.png
+  :width:
+  
+
+Provides timed interval release scheduling of single or multiple bombs or rockets and dispensed munitions based on the selections made between the interval knob, the QTY (quantity) knob and the INTRVL switch.
+
+The interval knob provides release pulse sequences between 0.05 second and 1 second.  
+
+The INTRVL switch provides the option of a 10x multiplier of the set value of the interval knob.  In the NORM position, the interval knob value is the trigger timer. 
+The Quantity Knob functions as follows:
+
+Selecting "1" places the AWRU into single manual bombing mode; one push of the bomb release button releases one bomb.  
+
+Selecting a value from "2" to "18" sets the AWRU into single ripple mode; in this mode, the AWRU will release bombs according to the programmed interval until the set number of rounds is dropped, or the bomb button is released.  Upon release, the count is reset, and a subsequent press and hold will drop the programmed number of bombs.
+
+Selecting "C" sets the AWRU into single continuous mode; pressing the bomb release button drops rounds according to the programmed interval until the bomb button is released, or all munitions from the selected pylons are expended.
+
+The "P" setting is for pairs manual mode.  With at least two stations selected, each push of the bomb button will release two bombs; like single manual mode, this does not include an interval function.
+
+Lastly, the "S" setting, for salvo, releases bombs in accordance to the chosen interval from all selected stations simultaneously, until the bomb button is released.  Ergo, if four stations are selected with a 2 second interval (0.2 on the interval dial, X10 INTRVL switch setting), four bombs will be released every two seconds the pickle button is held down.
+
+
+Missile Status Lights
+---------------------
+
+.. image:: path/MSL.png
+  :width:
+  
+The Missile Status Light window provides confirmation of currently installed and configured air to air misiles.
+
+The RDR lights illuminate once AIM-7 missiles are properly tuned with the fire control system; any station that does not carry a Sparrow, does not correctly sync up during tuning, or is launched, will turn off.
+
+The HEAT lights illuminate one at a time, rather than all up upon circuit configuration.  The light of the currently selected station will illuminate beginning at the raising of the gear handle, and remain in that position until the weapon is either cycled using the throttle's Gun/Missile Switch reject option, or is launched.
+
+
+Radar Missile Power Switch
+--------------------------
+
+.. image:: path/RMPS.png
+  :width:
+  
+The Radar Missile Power Switch provides power to the CW tuning drive and monitoring functionality.  
+
+When switched out of the OFF position, power is applied to the circuit 30 seconds after this selction.  
+
+The STBY position maintains warmup power to the missiles and CW tuning drive once the missiles have been tuned.  
+
+The CW ON position allows for constant tuning and missile state monitoring with the radar mode not in TV.  
+
+Tuning can be performed on the ground with the radar in TEST mode to preclude emissions endangering ground crew. 
+
+
+Centerline Tank Aboard Light
+----------------------------
+
+.. image:: path/CTAL.png 
+  :width:
+  
+The forward AIM-7 missiles can be inhibited from launch under certain centerline conditions due to possible separation issues or chance of igniting the contents of the centerline position.  The CL tank light will illuminate if such a possible condition exists.  The conditions that can cause this are as follows:
+
+1. Fuel Tank or MER; the forward Sparrows cannot be launched.  The CL tank light will shut off if the tank or MER is jettisoned, allowing launch or jettison.
+
+2. BRU-5/A with single bomb; the CL tank light will illuminate.  Forward position Sparrows can be launched or jettisoned, however, attention should be paid to eliminate lateral roll movements until the launched weapon is clear.
+
+3. Aero-27/A with Centerline Arming Unit.  The CL tank light will illuminate, however the forward position AIM-7s cannot be jettioned or released until this is removed post-flight.
+  
+
+Interlock Switch
+----------------
+
+.. image:: path/7Intlk.png
+  :width:
+  
+The fire control system provides an inhibitor option for AIM-7 launches to confirm valid paramenters are met, and is accessed with the INTLK switch.  With IN selected, the missile will not release upon trigger down should any of the following not be the case:
+
+1. The IN RANGE lamp illuminated
+2. The target aim dot within the ASE (Allowable Steering Error) circle
+3. The radar knob is not in VI mode
+
+With the INTLK switch in OUT, the AIM-7 can be launched at any time, no matter the condition of the current parameters against the target.
+
+The INTLK switch provides no function for AIM-9 launch.
+
+
+
+.. _flightdg:
+
+Flight Director Group
+=====================
+
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+
+.. _indicator:
+
+Indicator Subgroup
+==================
+
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+
+.. _leftsub:
+
+Left Subpanel
+=============
+
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+
+.. _leftcons:
+
+Left Console Area
+=================
+
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+
+.. _ped:
+
+Pedestal Group
+==============
+
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+
+.. _rightsub:
+
+Right Subpanel
+==============
+
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+
+.. _rightcons:
+
+Right Console Area
+==================
+
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      

@@ -1,0 +1,38 @@
+#jabbers {
+    display: block;
+    margin: 0 auto;
+    border: 0;
+}
+    
+@font-face{
+    font-family: "Cartograph";
+    src: url("./CartographSansCF-Medium.otf");
+}
+
+#.wy-nav-content {
+#    max-width: 1200px !important;
+#}
+
+body {
+#  letter-spacing: -1px;
+}
+
+table.docutils {
+#  font-size: 8px;
+#    width: 100px:
+}
+
+p {
+#  line-height: 115%;
+}
+
+/* override table width restrictions */
+*@media screen and (min-width: 767px) {
+
+/* override table no-wrap */
+.wy-table-responsive table td, .wy-table-responsive table th {
+    white-space: normal;
+}
+ }
+ 
+ 
