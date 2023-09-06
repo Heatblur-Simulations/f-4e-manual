@@ -1,0 +1,29 @@
+name: Build and Deploy Sphinx
+
+on:
+  push:
+    branches:
+      - "master"
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build Sphinx
+        uses: ammaraskar/sphinx-action@master
+        with:
+          docs-folder: "src/"
+          pre-build-command: "pip install sphinx_rtd_theme"
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3.9.1
+        if: ${{ github.ref == 'refs/heads/master' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./target/html
+          publish_branch: html
