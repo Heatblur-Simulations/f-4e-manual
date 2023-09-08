@@ -38,4 +38,4 @@ jobs:
           source-directory: './target/html'
           user-name: GitHub Actions Bot
           target-branch: master
-          target-directory: ext/manual
+          target-directory: ModFolders/Mods/aircraft/F-4E/manual
