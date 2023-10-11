@@ -2353,7 +2353,7 @@ AIM-7 Sparrow
 |                                      |                              |
 |                                      | ON.                          |
 +--------------------------------------+------------------------------+
-| ** Visual Attack (BST Mode)          | If AI transmitter has failed |
+| ** Visual Attack (BST Mode)**        | If AI transmitter has failed |
 |                                      |                              |
 |                                      | radar boresight mode can     |
 |                                      |                              |
@@ -2557,6 +2557,189 @@ SUU-16/A, -23A Gun Pods, GPU-5A Gun Pod on Centerline
 |    (SUU-16, RAT OUT)             |                                  |
 +----------------------------------+----------------------------------+
 | 9. Trigger - SQUEEZE             |                                  |
++----------------------------------+----------------------------------+
+
+
+
+.. _agm45:
+
+AGM-45 Shrike
+*************
+
++----------------------------------+----------------------------------+
+| 1. (WSO) INS mode knob- NAV      |                                  |
++----------------------------------+----------------------------------+
+| 2. Sight mode - A/G (if desired) | The sight reticle may be used as |								  
+|                                  |                                  |
+|                                  | a flashing indicator regarding   |
+|                                  |                                  |
+|                                  | inertial navigation failure.     |
++----------------------------------+----------------------------------+
+| 3. (WSO) Bombing timer- SET AS   |                                  |
+|                                  |                                  |
+| REQUIRED                         |                                  |
+|                                  |                                  |
+| a. Pullup timer - seconds.       |                                  |
++----------------------------------+----------------------------------+
+| 4. (WSO) Release angle - SET     |                                  |
+|                                  |                                  |
+| a. Low angle (LOFT) degrees      |                                  |
++----------------------------------+----------------------------------+
+| 5. (WSO) WRCS Inputs - SET       |                                  |
+|                                  |                                  |
+| a. Target altitude - feet MSL    |                                  |
+|                                  |                                  |
+| b. Release advance - msec.       |                                  |
++----------------------------------+----------------------------------+
+| 6. Delivery mode - SET           |                                  |
+|                                  |                                  |
+| a. For WRCS mode - AGM-45        |                                  |
+|                                  |                                  |
+| b. For AN/AJB-7 mode - LOFT      |                                  |
+|                                  |                                  |
+| c. For Direct mode - DIRECT      |                                  |
++----------------------------------+----------------------------------+
+| 7. Master Arm switch - SAFE      |                                  |
++----------------------------------+----------------------------------+
+| 8. Weapon select - ARM           |                                  |
++----------------------------------+----------------------------------+
+| 9. Station select button(s) -    |                                  |
+|                                  |                                  |
+| PRESS                            |                                  |
+|                                  |                                  |
+| a. Green light(s) - ON           |                                  |
+|                                  |                                  |
+| The missile tone signal and ADI  |                                  |
+|                                  |                                  |
+| pointers now indicate target     |                                  |
+|                                  |                                  |
+| detection for the leftmost       |                                  |
+|                                  |                                  |
+| missile.  If one missile is to   |                                  |
+|                                  |                                  |
+| be fired, select one station.    |                                  |
++----------------------------------+----------------------------------+
+|                                  | NOTE: when the AGM-45 system and |
+|                                  |                                  |
+|                                  | radar set are operated           |
+|                                  |                                  |
+|                                  | simultaneously, a distinct low   |
+|                                  |                                  |
+|                                  | frequency tone is heard and the  |
+|                                  |                                  |
+|                                  | ADI pointers move in a pattern   |
+|                                  |                                  |
+|                                  | corresponding to the antenna     |
+|                                  |                                  |
+|                                  | sweep pattern.  Audible tone     |
+|                                  |                                  |
+|                                  | interference may be caused also  |
+|                                  |                                  |
+|                                  | by the tacan in the T/R mode.    |
+|                                  |                                  |
+|                                  | When interference is encountered |
+|                                  |                                  |
+|                                  | place the radar set in STBY and  |
+|                                  |                                  |
+|                                  | the tacan set in REC until       |
+|                                  |                                  |
+|                                  | AGM-45 operations are complete.  |
++----------------------------------+----------------------------------+
+| CAUTION: to prevent premature    |                                  |                              
+|                                  |                                  |
+| activation of missile thermal    |                                  |
+|                                  |                                  |
+| batteries, do not press the bomb |                                  |
+|                                  |                                  |
+| button until actual intent to    |                                  |
+|                                  |                                  |
+| launch.                          |                                  |
++----------------------------------+----------------------------------+
+| Missile Launch:                  |                                  |
+|                                  |                                  |
+| After target detection, proceed  |                                  |
+|                                  |                                  |
+| as follows:                      |                                  |
+|                                  |                                  |
+| 1. Master arm switch - ARM	   |                                  |
+|                                  |                                  |
+| a. Station ARM light - ON        |                                  |
+|                                  |                                  |
+| b. Head-up ARM light - ON        |                                  |
++----------------------------------+----------------------------------+
+| 2. ADI vertical pointer - NULL   | Steer aircraft to null the       |
+|                                  |                                  |
+|                                  | vertical pointer.                |
++----------------------------------+----------------------------------+
+| 3. Delivery mode - EXECUTE	   |                                  |
++----------------------------------+----------------------------------+
+| Computer Mode, AGM-45            | With azimuth error at null,      |
+|                                  |                                  |
+|                                  | begin a dive to null the         |
+|                                  |                                  |
+|                                  | horizontal pointer. With the     |
+|                                  |                                  |
+|                                  | dive stabilized, press the bomb  |
+|                                  |                                  |
+|                                  | button when one of the maneuver  |
+|                                  |                                  |
+|                                  | lights (in range indication)     |
+|                                  |                                  |
+|                                  | illuminates.  Hold the pickle    |
+|                                  |                                  |
+|                                  | signal and begin the desired     |
+|                                  |                                  |
+|                                  | launch maneuver.  The computer   |
+|                                  |                                  |
+|                                  | delivers the launch signal as    |
+|                                  |                                  |
+|                                  | aircraft reaches an attitude     |
+|                                  |                                  |
+|                                  | compatible with the respective   |
+|                                  |                                  |
+|                                  | maneuver light.  If another      |
+|                                  |                                  |
+|                                  | station is selected, the next    |
+|                                  |                                  |
+|                                  | missile is launched in           |
+|                                  |                                  |
+|                                  | approximately 1 second.          |
++----------------------------------+----------------------------------+
+| Loft Mode                        | During the approach toward the   |
+|                                  |                                  |
+|                                  | IP, steer out azimuth error by   |
+|                                  |                                  |
+|                                  | centering the vertical pointer.  |
+|                                  |                                  |
+|                                  | Over the IP, press the bomb      |
+|                                  |                                  |
+|                                  | button to begin timer countdown; |
+|                                  |                                  |
+|                                  | the pullup light illuminates. At |
+|                                  |                                  |
+|                                  | timer runout, the missile tone   |
+|                                  |                                  |
+|                                  | cutout circuits are energized,   |
+|                                  |                                  |
+|                                  | the LABS steady tone is          |
+|                                  |                                  |
+|                                  | energized, and the pullup and    |
+|                                  |                                  |
+|                                  | sight reticle lights go out.     |
+|                                  |                                  |
+|                                  | Begin the pullup maneuver,       |
+|                                  |                                  |
+|                                  | holding the vertical and         |
+|                                  |                                  |
+|                                  | horizontal needles centered.  As |
+|                                  |                                  |
+|                                  | the aircraft rotates to the      |								   
+|                                  |                                  |
+|                                  | preset angle, the missile fires, |
+|                                  |                                  |
+|                                  | the pullup and reticle lights    |
+|                                  |                                  |
+|                                  | illuminate and the tone ceases.  |
 +----------------------------------+----------------------------------+
 
 
@@ -3626,9 +3809,9 @@ Loft Bombing
 |                                  |                                  |
 |                                  | panel must be positioned to      |
 |                                  |                                  |
-|                                  | NORMAL. . (WSO) Low angle knob - |
-|                                  |                                  |
-|                                  | SET                              |
+|                                  | NORMAL. .                        |
++----------------------------------+----------------------------------+
+| 2. (WSO) Low Angle Knob - SET    |                                  |
 +----------------------------------+----------------------------------+
 | 3. (WSO) Pullup timer - SET      |                                  |
 +----------------------------------+----------------------------------+
@@ -3747,6 +3930,289 @@ Loft Bombing
 |                                  | achieve a 120turn while diving   |
 |                                  |                                  |
 |                                  | toward minimum escape altitude.  |
+|                                  |                                  |
+|                                  | When the bomb button is          |
+|                                  |                                  |
+|                                  | released, a pullup light will go |
+|                                  |                                  |
+|                                  | out and the horizontal pointer   |
+|                                  |                                  |
+|                                  | will move out of view.           |
++----------------------------------+----------------------------------+
+
+
+
+.. _tosbomb:
+
+Timed Over the Shoulder Bombing
+*******************************
+
++----------------------------------+----------------------------------+
+| **Before Bomb Run**              |                                  |
++----------------------------------+----------------------------------+
+| 1. (WSO) Activate switch -       | When the WRCS is not used with   |
+|                                  |                                  |
+| NORMAL                           | the LABS modes, the target find  |
+|                                  |                                  |
+|                                  | switch and/or the activate       |
+|                                  |                                  |
+|                                  | switch on the weapons delivery   |
+|                                  |                                  |
+|                                  | panel must be positioned to      |
+|                                  |                                  |
+|                                  | NORMAL. .                        |
++----------------------------------+----------------------------------+
+| 2. (WSO) High Angle Knob - SET   |                                  |
++----------------------------------+----------------------------------+
+| 3. (WSO) Pullup timer - SET      |                                  |
++----------------------------------+----------------------------------+
+| 4. (WSO) Release timer - SET     |                                  |
+|                                  |                                  |
+| ZERO                             |                                  |
++----------------------------------+----------------------------------+
+| 5. Delivery mode knob - O/S      |                                  |
++----------------------------------+----------------------------------+
+| 6. Weapon select knob - BOMBS    |                                  |
++----------------------------------+----------------------------------+
+| 7. AWRU - SET                    |                                  |
+|                                  |                                  |
+| a. Interval controls - SET       |                                  |
+|                                  |                                  |
+| b. Quantity knob - SET           |                                  |
++----------------------------------+----------------------------------+
+| 8. Nose/tail arm switch - ON (as |                                  |
+|                                  |                                  |
+| required)                        |                                  |
++----------------------------------+----------------------------------+
+| 9. Station select - LOADED       |                                  |
+|                                  |                                  |
+| STATION(S)                       |                                  |
+|                                  |                                  |
+| a. Green light(s) - ON           |                                  |
++----------------------------------+----------------------------------+
+| 10. Master arm switch - ARM      | NOTE: With the weapon select     |
+|                                  |                                  |
+|                                  | knob in BOMBS, the station ARM   |
+|                                  |                                  |
+| a. Head-up ARM light - ON        | (amber) light illuminates only   |
+|                                  |                                  |
+|                                  | if the nose/tail arm switch is   |
+|                                  |                                  |
+| b. Station ARM light(s) - ON     | in one of the ON (armed)         |
+|                                  |                                  |
+|                                  | positions.                       |
++----------------------------------+----------------------------------+
+| **At IP** 1. Bomb button - PRESS | The bomb button must be          |
+|                                  |                                  |
+| and HOLD                         | energized until the final bomb   |
+|                                  |                                  |
+|                                  | is released.                     |
++----------------------------------+----------------------------------+
+| 2. At pullup point - INITIATE    |                                  |
+|                                  |                                  |
+| PULLUP                           |                                  |
++----------------------------------+----------------------------------+
+|                                  | **Timed O/S Bomb Delivery**      |
+|                                  |                                  |
+|                                  | Approach the IP at the           |
+|                                  |                                  |
+|                                  | preplanned altitude and true     |
+|                                  |                                  |
+|                                  | airspeed. When over the IP,      |
+|                                  |                                  |
+|                                  | press and hold the bomb button   |
+|                                  |                                  |
+|                                  | energized until the final bomb   |
+|                                  |                                  |
+|                                  | is released. When the bomb       |
+|                                  |                                  |
+|                                  | button is pressed, the pullup    |
+|                                  |                                  |
+|                                  | light will illuminate, the       |
+|                                  |                                  |
+|                                  | pullup timer will begin, and the |
+|                                  |                                  |
+|                                  | ADI pointers will center. Upon   |
+|                                  |                                  |
+|                                  | completion of the pullup timer,  |
+|                                  |                                  |
+|                                  | the pullup light and reticle     |
+|                                  |                                  |
+|                                  | light will go out and the        |
+|                                  |                                  |
+|                                  | horizontal pointer will begin    |
+|                                  |                                  |
+|                                  | programming a 4G pullup. This is |
+|                                  |                                  |
+|                                  | the signal to the pilot to begin |
+|                                  |                                  |
+|                                  | rotation into the pullup         |
+|                                  |                                  |
+|                                  | maneuver by flying the ADI       |
+|                                  |                                  |
+|                                  | pointers (4G pullup) or the      |
+|                                  |                                  |
+|                                  | accelerometer. Since the sight   |
+|                                  |                                  |
+|                                  | reticle is pitch stabilized, it  |
+|                                  |                                  |
+|                                  | will not be in view above loft   |
+|                                  |                                  |
+|                                  | angles of 20. When the aircraft  |
+|                                  |                                  |
+|                                  | attitude is at the preselected   |
+|                                  |                                  |
+|                                  | release angle, the pullup light  |
+|                                  |                                  |
+|                                  | and the reticle light            |
+|                                  |                                  |
+|                                  | illuminate, and the bombs will   |
+|                                  |                                  |
+|                                  | begin releasing in a ripple      |
+|                                  |                                  |
+|                                  | sequence. After the final bomb   |
+|                                  |                                  |
+|                                  | is released, the bomb button is  |
+|                                  |                                  |
+|                                  | released, and the pilot          |
+|                                  |                                  |
+|                                  | initiates the planned escape.    |
+|                                  |                                  |
+|                                  | When the bomb button is          |
+|                                  |                                  |
+|                                  | released, a pullup light will go |
+|                                  |                                  |
+|                                  | out and the horizontal pointer   |
+|                                  |                                  |
+|                                  | will move out of view.           |
++----------------------------------+----------------------------------+
+
+
+.. _iosbomb:
+
+Instantaneous Over the Shoulder Bombing
+***************************************
+
++----------------------------------+----------------------------------+
+| **Before Bomb Run**              |                                  |
++----------------------------------+----------------------------------+
+| 1. (WSO) Activate switch -       | When the WRCS is not used with   |
+|                                  |                                  |
+| NORMAL                           | the LABS modes, the target find  |
+|                                  |                                  |
+|                                  | switch and/or the activate       |
+|                                  |                                  |
+|                                  | switch on the weapons delivery   |
+|                                  |                                  |
+|                                  | panel must be positioned to      |
+|                                  |                                  |
+|                                  | NORMAL. .                        |
++----------------------------------+----------------------------------+
+| 2. (WSO) High Angle Knob - SET   |                                  |
++----------------------------------+----------------------------------+
+| 3. (WSO) Pullup timer - SET      |                                  |
+|                                  |                                  |
+| ZERO                             |                                  |
++----------------------------------+----------------------------------+
+| 4. (WSO) Release timer - SET     |                                  |
+|                                  |                                  |
+| ZERO                             |                                  |
++----------------------------------+----------------------------------+
+| 5. Delivery mode knob - INST O/S |                                  |
++----------------------------------+----------------------------------+
+| 6. Weapon select knob - BOMBS    |                                  |
++----------------------------------+----------------------------------+
+| 7. AWRU - SET                    |                                  |
+|                                  |                                  |
+| a. Interval controls - SET       |                                  |
+|                                  |                                  |
+| b. Quantity knob - SET           |                                  |
++----------------------------------+----------------------------------+
+| 8. Nose/tail arm switch - ON (as |                                  |
+|                                  |                                  |
+| required)                        |                                  |
++----------------------------------+----------------------------------+
+| 9. Station select - LOADED       |                                  |
+|                                  |                                  |
+| STATION(S)                       |                                  |
+|                                  |                                  |
+| a. Green light(s) - ON           |                                  |
++----------------------------------+----------------------------------+
+| 10. Master arm switch - ARM      | NOTE: With the weapon select     |
+|                                  |                                  |
+|                                  | knob in BOMBS, the station ARM   |
+|                                  |                                  |
+| a. Head-up ARM light - ON        | (amber) light illuminates only   |
+|                                  |                                  |
+|                                  | if the nose/tail arm switch is   |
+|                                  |                                  |
+| b. Station ARM light(s) - ON     | in one of the ON (armed)         |
+|                                  |                                  |
+|                                  | positions.                       |
++----------------------------------+----------------------------------+
+| **Over the Target** 1. Bomb      | The bomb button must be          |
+|                                  |                                  |
+| Button - Press and HOLD          | energized until the final bomb   |
+|                                  |                                  |
+|                                  | is released.                     |
++----------------------------------+----------------------------------+
+| 2. INITIATE PULLUP               |                                  |
++----------------------------------+----------------------------------+
+|                                  | **Instantaneous O/S Bomb**       |
+|                                  |                                  |
+|                                  | **Delivery**                     |
+|                                  |                                  |
+|                                  | Approach the target at the       |
+|                                  |                                  |
+|                                  | preplanned altitude and true     |
+|                                  |                                  |
+|                                  | airspeed. When over the target,  |
+|                                  |                                  |
+|                                  | press and hold the bomb button   |
+|                                  |                                  |
+|                                  | energized until the final bomb   |
+|                                  |                                  |
+|                                  | is released. When the bomb       |
+|                                  |                                  |
+|                                  | button is pressed, the           |
+|                                  |                                  |
+|                                  | horizontal pointer will begin    |
+|                                  |                                  |
+|                                  | programming a 4G pullup. This is |
+|                                  |                                  |
+|                                  | the signal to the pilot to begin |
+|                                  |                                  |
+|                                  | rotation into the pullup         |
+|                                  |                                  |
+|                                  | maneuver by flying the ADI       |
+|                                  |                                  |
+|                                  | pointers (4G pullup) or the      |
+|                                  |                                  |
+|                                  | accelerometer. Since the sight   |
+|                                  |                                  |
+|                                  | reticle is pitch stabilized, it  |
+|                                  |                                  |
+|                                  | will not be in view above loft   |
+|                                  |                                  |
+|                                  | angles of 20. When the aircraft  |
+|                                  |                                  |
+|                                  | attitude is at the preselected   |
+|                                  |                                  |
+|                                  | release angle, the pullup light  |
+|                                  |                                  |
+|                                  | and the reticle light            |
+|                                  |                                  |
+|                                  | illuminate, and the bombs will   |
+|                                  |                                  |
+|                                  | begin releasing in a ripple      |
+|                                  |                                  |
+|                                  | sequence. After the final bomb   |
+|                                  |                                  |
+|                                  | is released, the bomb button is  |
+|                                  |                                  |
+|                                  | released, and the pilot          |
+|                                  |                                  |
+|                                  | initiates the planned escape.    |
 |                                  |                                  |
 |                                  | When the bomb button is          |
 |                                  |                                  |
