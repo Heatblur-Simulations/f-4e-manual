@@ -25,7 +25,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Build Sphinx HTML
-        uses: ammaraskar/sphinx-action@master
+        uses: ferdnyc/sphinx-action@controlled-apt
         with:
           docs-folder: "src/"
           pre-build-command: "pip install sphinx_rtd_theme"
@@ -39,10 +39,10 @@ jobs:
           publish_branch: html
 
       - name: Build Sphinx PDF
-        uses: ammaraskar/sphinx-action@master
+        uses: ferdnyc/sphinx-action@controlled-apt
         with:
           docs-folder: "src/"
-          pre-build-command: "apt-get update -y && apt-get install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended && apt install latexmk"
+          pre-build-command: "apt-get update -y && apt-get install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended"
           build-command: "make latexpdf"
 
       - name: Deploy PDF
