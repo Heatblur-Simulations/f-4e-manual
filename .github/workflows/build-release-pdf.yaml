@@ -25,7 +25,7 @@ jobs:
         uses: ncipollo/release-action@v1.13.0
         with:
           artifactErrorsFailBuild: true
-          artifacts: "f-4manual.pdf"
+          artifacts: "target/latex/f-4manual.pdf"
           artifactContentType: "application/pdf"
           generateReleaseNotes: true
           omitBody: true
