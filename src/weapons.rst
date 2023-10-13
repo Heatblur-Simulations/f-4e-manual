@@ -1,9 +1,9 @@
-.. _weapons;
+.. _weapons:
 
 Weapons and Weapons Employment Overview
 #######################################
 
-.. _m61pd;
+.. _m61pd:
 
 M61A1 Vulcan Cannon - Internal and External
 *******************************************
@@ -43,7 +43,7 @@ To safe the gun pods after combat, prior to deactivating Master Arm, the Auto Cl
 
 
 
-.. _a2aw;
+.. _a2aw:
 
 Air to Air Weapons
 ******************
@@ -140,7 +140,7 @@ To exit CAA, the pilot can select position B on the Weapon Select Knob, or the W
 
 
 
-.. _a2gw;
+.. _a2gw:
 
 Air-to-Ground Weapons
 *********************
@@ -233,7 +233,7 @@ In LOFT mode, the ARBCS programs for a 4.0 G pullup schedule, and will automatic
 
 
 Timed Over the Shoulder - (TIMED) O/S
------------------------------
+-----------------------------------------
 
 Derived from the Loft mode, Timed Over the Shoulder bombing is available for circumstances in which a direct target flyover is possible, originating from a known IP position, with the attack flown at a known altitude and airspeed determined during mission planning.  Setup of the LABS system requires time (calculated using the known distance from the set IP to the target flyover point and the intended airspeed) and calculated release angle for the resulting airspeed and munition, which is entered into the High Angle setting; this value must be in excess of 90 degrees, and the Low Angle and secondary timer settings can be left at any value.  Flying the appropriate heading at the correct speed guarantees target flyover, and upon timer runout an audible tone will be heard to initiate pullup, along with the Pull Up Lamp illuminating.  This timing action is initiated by pressing the bomb button over the IP, and holding it throughout the attack run.  
 

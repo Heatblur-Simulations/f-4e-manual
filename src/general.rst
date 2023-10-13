@@ -53,8 +53,6 @@ Cartridge mode is supplied for operational and emergency needs.  A propellant ch
 Start Switch
 ------------
 
-.. image:: images/startswitch.png
-
 Used only for cartridge start, selecting L or R ignites the cartridge set for the respective engine. 
 
 
@@ -953,25 +951,17 @@ Prelaunch
 7.	Mode switch - C.
 8.	The KY-28 will perform an automatic alarm check when the mode switch is set to C and the power knob is set to On. The check will continue for about 2 seconds after power is applied. During this time a steady, unbroken 1200 Hz tone is heard in the headsets. Upon successful completion of the check, the 1200 Hz tone is interrupted at a 2.3 Hz rate. 
 9.	Momentarily position the microphone button to UHF to clear the interrupted tone. When the microphone button is released, the KY-28 reverts to the standby condition and is ready for either transmission or reception. If the until fails to pass the alarm check, the steady 1200 Hz tone continues and further cipher operation is inhibited.
-10.	
-11.	Note: If the KY-28 fails the alarm check, the power knob must be set to OFF and the mode switch to P (plain) to enable conventional UHF communications. 
-12.	
-13.	To transmit ciphered messages, position the microphone button to UHF and wait until a momentary tone is heard before voice input. With the power knob set to ON, the momentary tone is delayed 0.5 seconds after pressing the microphone button. During this time an encryption check is performed and the sync preamble is transmitted to receiving stations. If the encryption check fails, a 1200 Hz tone interrupted at a 2.3 Hz rate is presented in the headsets and cipher transmission is not possible. If the encryption check succeeds, a momentary tone is heard in the headsets.
-14.	After the momentary tone is heard, establish two-way cipher radio communications with a cooperating station and check for readability and signal strength and/or transmit your message. Upon releasing the microphone button the KY-28 will return into the standby condition. Simultaneous transmission by two or more stations on the same frequency is not possible and may result in garbled messages or loss of synchronization.
-15.	Resume normal, non-crypto communications if desired at any time by setting the mode switch to P (plain) again.
-16.	
-17.	Note: The above procedures may be used to perform an in-flight check of the equipment.
-18.	
-19.	Postlaunch
-20.	
-21.	The speech security equipment shall be operated as briefed.
-22.	
-23.	Warning: If ZEROIZE is pressed during flight, ciphered communication is not possible. The code can only be reset (or changed) through the ground crew communications menu after landing.
-24.	
-25.	After Landing
-26.	
-27.	Zeroize as briefed.
-28.	Power switch - OFF.
+10.	Note: If the KY-28 fails the alarm check, the power knob must be set to OFF and the mode switch to P (plain) to enable conventional UHF communications. 
+11.	To transmit ciphered messages, position the microphone button to UHF and wait until a momentary tone is heard before voice input. With the power knob set to ON, the momentary tone is delayed 0.5 seconds after pressing the microphone button. During this time an encryption check is performed and the sync preamble is transmitted to receiving stations. If the encryption check fails, a 1200 Hz tone interrupted at a 2.3 Hz rate is presented in the headsets and cipher transmission is not possible. If the encryption check succeeds, a momentary tone is heard in the headsets.
+12.	After the momentary tone is heard, establish two-way cipher radio communications with a cooperating station and check for readability and signal strength and/or transmit your message. Upon releasing the microphone button the KY-28 will return into the standby condition. Simultaneous transmission by two or more stations on the same frequency is not possible and may result in garbled messages or loss of synchronization.
+13.	Resume normal, non-crypto communications if desired at any time by setting the mode switch to P (plain) again.
+14.	Note: The above procedures may be used to perform an in-flight check of the equipment.
+15.	Postlaunch
+16.	The speech security equipment shall be operated as briefed.
+17.	Warning: If ZEROIZE is pressed during flight, ciphered communication is not possible. The code can only be reset (or changed) through the ground crew communications menu after landing.
+18.	After Landing
+19.	Zeroize as briefed.
+20.	Power switch - OFF.
 
 
 .. _accsry:
