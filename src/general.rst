@@ -16,7 +16,7 @@ The F-4E Phantom is powered by two J79-GE-17 engines built by General Electric, 
 Fuel Flow Indicators
 --------------------
 
-.. image:: images/ffi.png
+.. image:: images/FFI.png
 
 Each engine has a fuel flow indicator found in the front cockpit instrument panel.  The indicators read in thousands of pounds per hour, from 0 to 12.   The indicators provide flow rate up to Mil power; when afterburner is engaged, a separate fuel delivery system is used to provide fuel directly to the afterburner stage, and the flow rate is approximately 4 times the value shown.
 
