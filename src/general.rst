@@ -16,17 +16,24 @@ The F-4E Phantom is powered by two J79-GE-17 engines built by General Electric, 
 Fuel Flow Indicators
 --------------------
 
+.. image:: images/ffi.png
+
 Each engine has a fuel flow indicator found in the front cockpit instrument panel.  The indicators read in thousands of pounds per hour, from 0 to 12.   The indicators provide flow rate up to Mil power; when afterburner is engaged, a separate fuel delivery system is used to provide fuel directly to the afterburner stage, and the flow rate is approximately 4 times the value shown.
+
 
 Oil Pressure Indicators
 -----------------------
 
+.. image:: images/OilPress.png
+
 Oil pressure indicators are on the front cockpit pedestal panel, and are graduated from 0 to 10, and are presented in 10 lb increments. 
+
 
 Variable Duct Ramp
 ------------------
 
 Optimization of air to the engines is performed by a Variable Duct Ramp system directed by the ADC; this optimization uses a pair of variable ramps to decelerate incoming air to subsonic for best engine performance.  In the event limits are exceeded for inlet temperature, the Duct Temperature High Indicator Light (DUCT TEMP HI) on the telelight panel will illuminate. Permitting the issue to continue can cause permanent engine damage.  
+
 
 Engine Starting System
 ======================
@@ -36,15 +43,21 @@ Pneumatic Mode Starting
 
 The normal mode for starting the Phantom utilizing an auxiliary start cart turns the starter turbine, cranking the engine over.
 
+
 Cartridge Mode Starting
 -----------------------
 
 Cartridge mode is supplied for operational and emergency needs.  A propellant charge is used to turn the starter turbine, which in turn cranks the engine over to initiate startup.
 
+
 Start Switch
 ------------
 
+.. image:: images/startswitch.png
+
 Used only for cartridge start, selecting L or R ignites the cartridge set for the respective engine. 
+
+
 
 Engine Ignition System
 ----------------------
@@ -68,6 +81,8 @@ Engine Controls and Indicators
 
 Exhaust Nozzle Position Indicators
 ----------------------------------
+
+.. image:: images/NPI.png
 
 Directed by the Exhaust Nozzle Control Unit, the paired primary (the convergent, inner nozzle) and secondary (the divergent, outer nozzle) are actuated independently on a schedule to maximize outlet performance versus exhaust gas temperature.  When idle, the engine nozzle will be roughly 7/8ths open, reducing in size as the throttle approaches MIL.  During operation in the MIL and AB regions, the Control Unit moderates the nozzle size relative to throttle position and received EGT to maintain temperatures within design limit.  
 
@@ -97,10 +112,15 @@ The rear throttles only hold a microphone button and speed brake switch.
 Tachometers
 -----------
 
+.. image:: images/Tach.png
+
 Both engines are provided with tachometers on the right side of the front cockpit instrument panel, and the right side of the rear cockpit instrument panel.  The tachometers will function without external power.
+
 
 Exhaust Gas Temperature Indicators
 ----------------------------------
+
+.. image:: images/EGT.png
 
 Exhaust Gas Temperature Indicators are found on the front cockpit instrument panel.  The indicators have two pointers each: a large pointer for the 0 to 12 scale referencing 100 degrees centigrade, and a smaller pointer on a separate scale with 0 to 10 referencing 10 degrees centigrade.  Metering for these values is performed upon exit of the turbine.  
 
@@ -132,6 +152,8 @@ External tank transfer is controlled by the External Transfer Switch; found on t
 Fuel Boost System
 -----------------
 
+.. image:: images/BoostInd.png
+
 Flow from Cell 1 to the engines is performed by a pair of boost pumps.  The pumps are installed at the bottom of the tank to provide fuel in the event of a negative G excursion.  The function of these pumps can be confirmed on the Fuel Boost Pump Pressure Indicators  found in the front cockpit.  Engine idle pump flow rate is 30 PSI, +/- 5 pounds.   To confirm a ground check, a pair of Boost Pump Check switches are found on the fuel control panel.   Holding one of these switches in the CHECK position will perform an engine shutdown, and provide feedback on the respective Pressure Indicator.
 
 Tank Depressurization Switch
@@ -155,6 +177,8 @@ Any time an external fuel tank is detected to not be flowing fuel into the fusel
 External Tanks Full Lights
 --------------------------
 
+.. image:: images/AARLights.png
+
 When air to air refueling, or when on the ground and the tanks have reached a full condition, the External Tanks Full lamps, found under the canopy bow, will light.  
 
 Internal Wing Fuel Dump System
@@ -172,10 +196,15 @@ The F-4E derives electrical power from a pair of AC generators driven by the J79
 Generator Indicator Lights
 --------------------------
 
+.. image:: images/GenInd.png
+
 Three warning indicators are found on the generator control panel: LH GEN OUT, RH GEN OUT, and BUS TIE OPEN.  The respective GEN OUT warning will illuminate in the event the generator in question fails. The indication of BUS TIE OPEN is an acknowledgement that a single functioning generator is providing power to the entire aircraft.  In the event of a generator failure, the Master Caution will also illuminate.  However,  in the event of a dual generator failure, neither GEN OUT light will not illuminate.  
+
 
 Generator Control Switches
 --------------------------
+
+.. image:: images/GenCtl.png
 
 A pair of Generator Control Switches are found on the right console, one for each engine.  These three position switches- ON (Forward), OFF, ON - External (Aft), control the state of each respective generator.  In the event of a possible generator failure, selecting OFF for the generator that is believed to be offline will cause the power bus to provide electricity from the remaining generator to the other half of the electrical system.  The External On setting is used for ground handling purposes when connected to external power, and provides electricity to all but the instruments, the CNI, and AFCS.  
 
@@ -203,7 +232,10 @@ In the event of handover to the stabilator APU, the APU light will illuminate on
 Hydraulic Pressure Indicators
 -----------------------------
 
+.. image:: images/HydPress.png
+
 On the pedestal panel in the front cockpit is a pair of PSI  indicators, one for the PC systems and the other for the Utility system.  The PC system gauge has two pointers, labeled PC-1 and PC-2.  Nominal operating power for all three systems is 3000 PSI +/- 250 PSI.
+
 
 Hydraulic Systems Indicator Lights 
 ----------------------------------
@@ -219,6 +251,8 @@ Also, the Master Caution and CHK HYD GAGES lights can illuminate momentarily on 
 
 Pneumatic System
 ================
+
+.. image:: images/Pneum.png
 
 The pneumatic system provides power for the canopies, as well as emergency operation for the landing gear and slats flaps systems.  A Pneumatic Pressure Indicator is found on the front cockpit pedestal panel to confirm function, and indicates manifold pressure.
 
@@ -242,6 +276,8 @@ The Aileron-Spoiler Control System and the Stabilator Control System both offer 
 
 To confirm current state of the stabilator trim, a Stabilator Trim Position Indicator is provided on the front cockpit left vertical panel.
 
+.. image:: images/StabTrimInd.png
+
 Rudder Control System
 ---------------------
 
@@ -249,6 +285,8 @@ Yaw axis control is directed by the rudder pedals found in both cockpits.  To of
 
 Aileron-Rudder Interconnect (ARI)
 ---------------------------------
+
+.. image:: images/ARIfuse.png
 
 To assist in low speed turn coordination, the Phantom II includes an Aileron-Rudder Interconnect.  The system is engaged automatically with the Slats Flap Switch in the Out and Down position, and below the flap blowup speed of 230 knots.  With the system engaged, the rudder can be driven up to 10 degrees by the interconnect to alleviate pilot workload.  In the event either seat in command requires the ARI deactivated, the system can be disconnected by pulling the Emergency Quick Release switch on their respective control stick.  Releasing the switch will re-engage the ARI.  Function of the ARI can always be overridden through the rudder pedals. 
 
@@ -272,6 +310,8 @@ Slats Flap System
 
 The Slats Flap system is manually selected for takeoff and landing, then automatically controlled relative to AoA for best handling performance in all other flight regimes.  Control is through a three position switch found outboard of the left throttle handle in the front cockpit and driven by the aircraft hydraulic system.  The three switch positions are Norm, Out, and Out and Down, and the resulting command can be moderated based on whether or not the landing gear being deployed. 
 
+.. image:: images/SlatsRelative.png
+
 Norm is the standard in-flight position, locking the Flaps and automatically programming the Slat deployment as a function of AoA.
 
 Out deploys the Slats to their fully deployed position.  Should landing gear be deployed, both the Slats and Flaps will deploy.  
@@ -280,11 +320,17 @@ Out and Down fully deploys both the Slats and the Flaps.  Should the landing gea
 
 Both cockpits have a Slats Flap Indicator, which read In and Out, along with a barberpole reading when the surfaces are in transition. 
 
+.. image:: images/SltFlpInd.png
+
 In the Norm position, Maneuvering Slat deployment is a function of AoA; above 11.5 units they will extend, then retract when the aircraft is reduced below 10.5 units.  Maneuvering Slat operation includes a speed-induced blowback; slats will retract due to air pressure between 568 to 602 knots.   
+
+.. image:: images/SlatsOvrd.png
 
 To the rear of the Fuel Control Panel in the front cockpit is the Slat Override Switch.  Guarded, this switch has two positions: Norm and In.  Defaulted to Norm under the guard, switching to In forces retraction of the Slats no matter the current state of the aircraft- AoA or Slats Flap Switch position.  Actuating the Override will  give a SLATS IN warning on the Telelight Panel and illuminate Master Caution.  
 
 The Slats Flaps system also has an Emergency system; handles are found on the Slats Flaps control panel in the front cockpit, and next to the rear cockpit throttle pair.  The emergency system uses pneumatic pressure, and does not require electrical power to force deployment. The emergency system can only function once, and can be actuated at any airspeed; however, above 230 knots, the Flaps will retract based on air pressure, and the normal Slat retraction speeds also apply.  
+
+
 
 Speed Brakes
 ------------
@@ -301,11 +347,16 @@ To optimize aircraft flight performance, the Angle of Attack System (AoA) provid
 Indicators
 ----------
 
+.. image:: images/AoAInd.png
+
 The Angle of Attack Indicator dials register AoA values from 0 to 30 units, with indications for weight-relative optimum altitude cruise (7.9 units) , approach (19.2 units), and stall (30 units).   A matrix can be found in the appendices to calculate optimum cruise altitude by gross weight. 
+
 It is important to note that the AoA Indicator dials are calibrated for the nose wheel door being open, as flow around the door changes that which reaches the probe.  Therefore, during normal flight operations, the AoA Indicators will read approximately 1 unit low, and the aircraft will be roughly 5 knots fast for an on-speed approach.  
 
 Indexers
 --------
+
+.. image:: images/AoA.png
 
 The AoA Indexers, found on the windshield frame of the front cockpit, and above the instrument panel in the rear, display color coded and directional symbology for the on-speed approach value of 19.2 units once the landing gear have been lowered.  Figure _____ provides a breakdown of the representation.
 
@@ -331,6 +382,8 @@ The F-4 Phantom uses a conventional tricycle landing gear arrangement, driven by
 Landing Gear Control Handle
 ---------------------------
 
+.. image:: images/GearHandle.png
+
 The Landing Gear Control Handle is found on the left instrument panel in the front cockpit, with a wheel-shaped knob for identification. 
  
 Landing Gear Emergency Extension Handles
@@ -347,6 +400,8 @@ On the upper left corner of the front cockpit instrument panel is a WHEELS warni
 
 Landing Gear Position Indicators
 --------------------------------
+
+.. image:: images/GearPos.png
 
 Status indicators for the landing gear system are found in both cockpits on the left subpanel.  The indicators are three windows, one for each gear station.  The position of the gear are shown in their respective windows with the word UP when up and doors are closed, a barber pole (angled white and black bars) when the gear and doors are in transition either closing or opening, and the illustration of a wheel when the gears are down and locked.
 
@@ -406,9 +461,12 @@ Primary Flight Instruments
 True Airspeed Indicators
 ========================
 
+.. image:: images/TASInd.png
+
 True Airspeed Indicators are provided in both cockpits, and carry a calibrated range from 150 to 1500 knots.  While the indicators can read as low as 0 knots, the lack of calibration below the stated range means values less than 150 knots are inaccurate.  
 
 The rear True Airspeed Indicator is removed for DMAS equipment in aircraft so configured; however, TAS is provided as a DMAS function.
+
 
 Ground Speed Indicator
 ======================
@@ -420,30 +478,43 @@ With DMAS installed, the rear ground speed indicator is removed, as GS is a DMAS
 Accelerometers
 ==============
 
+.. image:: images/GGauge.png
+
 Both cockpits retain accelerometers for monitoring G load; the accelerometers carry 3 needles- one for current G loading, and a positive and negative G loading needle for the highest load G load detected since the accelerometer was reset.  To reset the gauge, the PUSH TO SET button will return the recording pointers to positive 1 G. 
 
 Airspeed/Mach Indicators 
 ========================
+.. image:: images/MachInd.png
 
 Found in both cockpits is a combination Airspeed/Mach indicator.  The indicators provide a fixed airspeed scale at the middle of the indicator, reading values from 80 to 850 knots, and a rotating Mach scale number scale to the outside, with readings from 0.4 to 2.5 Mach.  A two position knob offers both an airspeed index with a functional range between 80 and 195 knots, and a Mach index pointer with a range between 225 knots and 850 knots.  
 
 Altimeter
 =========
 
+.. image:: images/Altim.png
+
 Altimeters in both cockpits provide a functional range from 0 to 80,000 feet.  To the outside of the indicator is a pointer scale, gradation in 50 foot units with markings every 100 feet (from 1 to 10).  Left of center is the counter, increasing and decreasing in value in thousand foot increments on the black pair of rollers, hundred foot increments on the white.  Barometric scale adjustment can be performed using a dial.  A three position switch provides the RESET function for the altimeter to draw signals from the air data computer for normal operation, and the STBY (standby) option to only use the pneumatic pressure to determine altitude. Standby mode is noted with a red flag in the indicator.  In the event of an altimeter or air data computer failure in normal operation, the STBY flag will appear, and cannot be reset.  This can also be followed by warnings on the telelight panel.  
 
 Magnetic Compass
 ================
 
+.. image:: images/StbyMagComp.png
+
 A magnetic compass is provided in each cockpit for use in the event of a navigation or electrical system failure. 
+
 
 Vertical Velocity Indicators (VVI)
 ==================================
 
+.. image:: images/VVI.png
+
 VVI Indicators are provided in both cockpits, and show the rate of climb or descent of the aircraft, calculated via atmospheric pressure change using the static pressure system.  
+
 
 Radar Altimeter
 ===============
+
+.. image:: images/RadAlt.png
 
 Found in the front cockpit, the Radar Altimeter has a functional range of 0 to 5000 feet above ground level. The radar altimeter functions from 0 to 30 degrees in bank angle, or 0 to 35 degrees angle in pitch.  The dial scale reads from 0 to 100 feet, and the system includes a red low altitude warning light that illuminates when the aircraft is detected below a pilot-set altitude. 
 
@@ -835,7 +906,7 @@ KY-28 Speech Security Unit
 Speech Security Unit KY-28
 --------------------------
 
-The UHF communication system is capable of providing either conventional or crypto voice transmission and reception. Both UHF and intercom systems can be used in combination with the KY-28 Speech Security Unit, if so desired in a tactical or hostile environment. The KY-28 can either cipher outgoing voice transmissions or decipher received voice transmissions, however these functions cannot be performed simultaneously. The crew can choose between plain or cipher mode of operation. In the cipher mode operation the KY-28 converts voice inputs through the microphone into crypto transmissions and deciphers crypto replies that are being received to the crew’s headsets. In the plain mode operation the UHF functions as a conventional voice transceiver. 
+The UHF communication system is capable of providing either conventional or crypto voice transmission and reception. Both UHF and intercom systems can be used in combination with the KY-28 Speech Security Unit, if so desired in a tactical or hostile environment. The KY-28 can either cipher outgoing voice transmissions or decipher received voice transmissions, however these functions cannot be performed simultaneously. The crew can choose between plain or cipher mode of operation. In the cipher mode operation the KY-28 converts voice inputs through the microphone into crypto transmissions and deciphers crypto replies that are being received to the crews headsets. In the plain mode operation the UHF functions as a conventional voice transceiver. 
 
 KY-28 Controls and Indicators 
 -----------------------------
@@ -858,13 +929,13 @@ KY-28 Modes of Operation
 
 All transmitted and received signals are routed through the KY-28 unit. When the KY-28 mode is set to P (plain), the UHF transceiver operates in the conventional voice manner, whether the KY-28 is powered or not. 
 
-To operate the UHF transceiver in the KY-28’s C (cipher) mode, the KY-28 has to be powered. When operating in the cipher mode, the KY-28 unit functions in either standby, receive, or transmit. 
+To operate the UHF transceiver in the KY-28s C (cipher) mode, the KY-28 has to be powered. When operating in the cipher mode, the KY-28 unit functions in either standby, receive, or transmit. 
 
 All KY-28 units remain in the STANDBY condition until either the microphone button is actuated or a sync preamble is received. Once transmission or reception of the crypto message has been completed the KY-28 automatically reverts to the standby condition. While the KY-28 is in the standby condition the radio equipment also functions as a traditional receiver as all incoming non-crypto transmissions are passed directly to the headsets. 
 
-The unit switches to the cipher RECEIVE condition whenever a sync preamble is received. The sync preamble is generated by other KY-8, KY-28 or KY-38 units when the transmitting stations’s operator actuates the microphone button. The sync preamble ensures that all units in the network are in the cipher receive condition. The enciphered message is received immediately after the sync preamble signal and the message is decoded by the KY-28 and passed to the aircrew headsets in the form of plain language. 
+The unit switches to the cipher RECEIVE condition whenever a sync preamble is received. The sync preamble is generated by other KY-8, KY-28 or KY-38 units when the transmitting stations operator actuates the microphone button. The sync preamble ensures that all units in the network are in the cipher receive condition. The enciphered message is received immediately after the sync preamble signal and the message is decoded by the KY-28 and passed to the aircrew headsets in the form of plain language. 
 
-When the UHF microphone button is set to the UHF position, the KY-28 switches to the TRANSMIT condition. The sync preamble signal is transmitted to all receiving KY stations to switch to the cipher receive condition. After actuating the microphone button, a brief tone is heard in the aircrew headsets. The tone signal indicates that the sync preamble signal has been completed and transmitted, after which the KY-28 is ready to transmit the crew’s voice input. When the mic button is released again, the KY-28 reverts to the standby condition. The WSO must select UHF communications with the radio selector switch to transmit ciphered messages. The UHF transmitter is automatically selected for front cockpit transmissions if the KY-28 is operated in mode C. 
+When the UHF microphone button is set to the UHF position, the KY-28 switches to the TRANSMIT condition. The sync preamble signal is transmitted to all receiving KY stations to switch to the cipher receive condition. After actuating the microphone button, a brief tone is heard in the aircrew headsets. The tone signal indicates that the sync preamble signal has been completed and transmitted, after which the KY-28 is ready to transmit the crews voice input. When the mic button is released again, the KY-28 reverts to the standby condition. The WSO must select UHF communications with the radio selector switch to transmit ciphered messages. The UHF transmitter is automatically selected for front cockpit transmissions if the KY-28 is operated in mode C. 
 
 Note: With the C (cipher) mode selected, the transmit condition overrides the cipher receive condition. Hence during cipher receive operation the UHF microphone button should not be actuated until the incoming message has been completed. 
 
@@ -1612,7 +1683,7 @@ Additionally, the laser is guarded by the nose gear position, which has to be fu
 
 Once ready, the laser is fired during track mode by pressing full action on the Antenna Stick. The status of the laser operation is indicated by the cues on the display being steady or flashing.
 
-The T0 cue indicates intention to fire the laser, while the TTG cue represents the outcome of the laser usage. The slant range measured by the laser is compared to the slant range computed based on INS and WRCS data. If it is not within ±20% of that value, it is rejected.  This is indicated by TTG flashing slow.
+The T0 cue indicates intention to fire the laser, while the TTG cue represents the outcome of the laser usage. The slant range measured by the laser is compared to the slant range computed based on INS and WRCS data. If it is not within plus or minus 20% percent of that value, it is rejected.  This is indicated by TTG flashing slow.
 
 The system can be forced to use the laser range regardless, by pressing the Reject/Override Button.
 
@@ -1698,7 +1769,7 @@ To pilot can assist in telling the WSO that the test position has been reached, 
 
 Bit 4
 
-The system tests the ranging computation by feeding a simulated laser slant range of 2100 ft (±200).  The pilot can confirm this using the Range Indicator readout.
+The system tests the ranging computation by feeding a simulated laser slant range of 2100 ft (plus or minus 200).  The pilot can confirm this using the Range Indicator readout.
 
 After about 8 to 14 seconds, the test is finished and either GO or MALF is lit.
 
@@ -1806,14 +1877,14 @@ Ripple Switch
 
 [image ripple switch]
 
-The ripple switch is guarded. When the guard is lifted and the switch is set to ON, it will initiate flare dispensing regardless of the position of any other switches or mode knobs in the countermeasures system – if the flaps and the speed brakes are retracted. The flares will be dispensed at a rate of 10 flares per second until both left and right pylon dispensers are empty.
+The ripple switch is guarded. When the guard is lifted and the switch is set to ON, it will initiate flare dispensing regardless of the position of any other switches or mode knobs in the countermeasures system- if the flaps and the speed brakes are retracted. The flares will be dispensed at a rate of 10 flares per second until both left and right pylon dispensers are empty.
  
 Dispense Button (Rear Cockpit)
 ------------------------------
 
 [image dispense button WSO]
 
-When pressing the dispense button chaff/flare dispensing is initiated as set on the CCU and AN/ALE-40 programmer – if the flaps and speed brakes are retracted – and provided either or both the chaff/flare mode knobs are in any position other than OFF.
+When pressing the dispense button chaff/flare dispensing is initiated as set on the CCU and AN/ALE-40 programmer if the flaps and speed brakes are retracted, and provided either or both the chaff/flare mode knobs are in any position other than OFF.
  
 AN/ALE-40 Programmer
 --------------------
@@ -1844,14 +1915,14 @@ Flares Select Switch
 
 If the flares select switch is in the NORMAL position, it arms the countermeasures dispenser system and allows for chaffs and flares to be dispensed as set by the CCU and the programmer by pressing either dispense button.
 
-If the flares select switch is in the FLARES position it only affects the front cockpit dispense button by “ignoring” all switches and knobs in the countermeasures system - provided that the flaps and speed brakes are retracted. This allows the pilot to dispense a single flare each time he presses the dispense button. Rear cockpit dispense functions are unaffected by the switch position.
+If the flares select switch is in the FLARES position it only affects the front cockpit dispense button by ignoring all switches and knobs in the countermeasures system, provided that the flaps and speed brakes are retracted. This allows the pilot to dispense a single flare each time he presses the dispense button. Rear cockpit dispense functions are unaffected by the switch position.
 
-Flares Indicator Light (Amber)  
------------------------------
+Flares Indicator Light (Amber)
+------------------------------
 
 [image flares indicator light]
 
-The FLARES indicator light is amber. It illuminates when the flares select switch is set to FLARES. When illuminated, flares can be dispensed by pressing the front cockpit dispense button regardless of programmer and CCU switch and knob positions – if the flaps and speed brakes are retracted.
+The FLARES indicator light is amber. It illuminates when the flares select switch is set to FLARES. When illuminated, flares can be dispensed by pressing the front cockpit dispense button regardless of programmer and CCU switch and knob positions, if the flaps and speed brakes are retracted.
  
 AN/ALE-40 Power On Indicator Light (Green)
 ------------------------------------------
@@ -1865,7 +1936,7 @@ Dispense Button (Front Cockpit)
 
 [image dispense button fcp]
 
-When pressing the dispense button chaff/flare dispensing is initiated as set on the CCU and AN/ALE-40 programmer – if the flaps and speed brakes are retracted – and the flares select switch is set to NORMAL. Additionally single unit flare dispensing can be initiated by a single button press if the flares select switch is set to FLARES.
+When pressing the dispense button chaff/flare dispensing is initiated as set on the CCU and AN/ALE-40 programmer if the flaps and speed brakes are retracted and the flares select switch is set to NORMAL. Additionally single unit flare dispensing can be initiated by a single button press if the flares select switch is set to FLARES.
  
 AN/ALE-40 Dispensers
 --------------------
