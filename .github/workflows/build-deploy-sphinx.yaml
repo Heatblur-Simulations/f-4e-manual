@@ -1,4 +1,4 @@
-name: Build and Deploy Sphinx
+name: Build and Deploy Sphinx HTML
 
 on:
   push:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  deploy:
+  deploy-html:
     runs-on: ubuntu-latest
     steps:
       #- name: Maximize build space
@@ -37,32 +37,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./target/html
           publish_branch: html
-
-      - name: Build Sphinx PDF
-        uses: ferdnyc/sphinx-action@468d403f5919b75235ac919d1f40ea830e601953
-        with:
-          docs-folder: "src/"
-          pre-build-command: "apt-get update -y && apt-get install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended"
-          build-command: "make latexpdf"
-
-      - name: Deploy PDF
-        uses: peaceiris/actions-gh-pages@v3.9.1
-        if: ${{ github.ref == 'refs/heads/master' }}
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./target/latex
-          publish_branch: pdf
-
-      # Runs out of Disk Space during git clone (due to LFS)
-      # For the time being, we have to manually copy from branch 'html'
-      #- name: Publish To Code
-      #  uses: cpina/github-action-push-to-another-repository@v1.7.2
-      #  env:
-      #    SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
-      #  with:
-      #    destination-github-username: 'Heatblur-Simulations'
-      #    destination-repository-name: 'f-4e'
-      #    source-directory: './target/html'
-      #    user-name: GitHub Actions Bot
-      #    target-branch: master
-      #    target-directory: ModFolders/Mods/aircraft/F-4E/manual
