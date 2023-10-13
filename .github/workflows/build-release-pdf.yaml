@@ -23,7 +23,6 @@ jobs:
 
       - name: Release PDF
         uses: ncipollo/release-action@v1.13.0
-        if: ${{ github.ref == 'refs/heads/master' }}
         with:
           artifactErrorsFailBuild: true
           artifacts: "f-4manual.pdf"
