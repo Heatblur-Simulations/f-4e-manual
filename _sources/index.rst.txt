@@ -17,8 +17,6 @@ Heatblur F-4E Phantom II
    cockpit
    general
    weapons
-   employment
-   dcsspecifics
    procedures
 
 Last changed: |today|

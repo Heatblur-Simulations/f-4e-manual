@@ -136,18 +136,13 @@ Dual knob control of the front scope display settings.
 
 INT Tab
 -------
-
-.. image:: images/Int.png
   
   
 The INT tab rotates around the display to alter the relative darkness of the radar display, permitting the pilot to adjust the scope relative to ambient light.  
 
 
 Red Tab
--------
-
-.. image:: images/Red.png
-  
+-------  
   
 The Red tab is rotated to provide a red scope display for night flying.
 
@@ -928,8 +923,6 @@ Used to apply rudder trim adjustment when pressed to the respective side, left o
 Throttles
 ---------
 
-.. image:: images/PilThrottles.png
-
 
 Eject Light/Switch
 ------------------
@@ -1007,8 +1000,6 @@ VOR/ILS Control Panel
 Drag Chute Handle
 -----------------
 
-.. image:: images/DragChute.png
-
 Applied to reduce landing rollout, or as an aid in spin recovery, the drag chute handle is pulled back to deploy the chute, and, once deployed, a button on the handle is pressed while pulling the handle back further to jettison the chute.  Once jettisoned, the handle is released back into its normal position.
 
 
@@ -1053,11 +1044,6 @@ Armament Safety Override Switch
 
 Anti-G Suit Control Valve
 -------------------------
-
-.. image:: images/PilAntiG.png
-
-
-
 
 .. _ped:
 
