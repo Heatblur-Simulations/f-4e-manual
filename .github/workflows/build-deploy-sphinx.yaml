@@ -24,19 +24,34 @@ jobs:
     
       - uses: actions/checkout@v4
 
-      - name: Build Sphinx
+      - name: Build Sphinx HTML
         uses: ammaraskar/sphinx-action@master
         with:
           docs-folder: "src/"
           pre-build-command: "pip install sphinx_rtd_theme"
 
-      - name: Deploy
+      - name: Deploy HTML
         uses: peaceiris/actions-gh-pages@v3.9.1
         if: ${{ github.ref == 'refs/heads/master' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./target/html
           publish_branch: html
+
+      - name: Build Sphinx PDF
+        uses: ammaraskar/sphinx-action@master
+        with:
+          docs-folder: "src/"
+          pre-build-command: "pip install sphinx_rtd_theme && apt-get update -y && apt-get install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended"
+          build-command: "make latexpdf"
+
+      - name: Deploy PDF
+        uses: peaceiris/actions-gh-pages@v3.9.1
+        if: ${{ github.ref == 'refs/heads/master' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./target/latex
+          publish_branch: pdf
 
       # Runs out of Disk Space during git clone (due to LFS)
       # For the time being, we have to manually copy from branch 'html'
