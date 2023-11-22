@@ -612,7 +612,7 @@ Upon startup of the ADI, an OFF warning flag will be displayed until the AN/AJB-
 Bearing Distance Heading Indicator
 ----------------------------------
 
-The Bearing Distance Heading Indicator, or BDHI, presents navigation information to the pilot as entered by the WSO, provided with two needles (termed the No 1 and No 2 pointers).
+The Bearing Distance Heading Indicator, or BDHI, presents navigation information as entered by the WSO, provided with two needles (termed the No 1 and No 2 pointers).
 
 When the upper position is selected by the WSO to TACAN/ADF/UHF, the no. 1 pointer indicates UHF bearing, and the no. 2 pointer indicates the TACAN bearing.  If there is no TACAN signal, both pointers indicate the ADF bearing.  
 
@@ -640,35 +640,6 @@ The respective captured motion signals from the gyroscopes and accelerometers ar
 
 The AN/ASN-63 provides information to other systems in the Phantom from the OSDU, or Output Signal Distribution Unit.  The OSDU provides ground speed, north-south and east-west velocity, total velocity, inertially stabilized altitude, climb angle, true inertial heading, ground track, and drift angle.  The WRCS receives inertial true heading, ground track, drift correction angle, and drift angle for its ballistics computer.  Drift angle is captured for the BDHI, HSI, and FDC.  Drift correction angle is also provided to the radar and LCOSS.  
 
-Inertial Navigation Control
----------------------------
-
-The Inertial Navigation Control Panel provides the rear pilot mode selection and system alignment command selection.
-Mode selector positions are 
-
-+---------+---------------------------------------------------------------------------+
-| OFF     | System off.                                                               |
-+---------+---------------------------------------------------------------------------+
-| STBY    | Standby- power is applied to the heaters and climate control system,      |   
-|         |                                                                           |
-|         | and initiates Coarse alignment if GYRO COMP not selected on the toggle.   | 
-+---------+---------------------------------------------------------------------------+
-| ALIGN   | Performs fine platform and gyro leveling, then, depending on aircrew      |
-|         |                                                                           |
-|         | selection, performs Rapid or Gyrocompassing (Fine) Alignment.             |
-+---------+---------------------------------------------------------------------------+ 
-| NAV	  | Activates the INS for navigation function, performance of which is based  |
-|         |                                                                           |
-|         | on Rapid or Gyrocompass alignment.                                        |
-+---------+---------------------------------------------------------------------------+
-
-**HEAT Lamp**
-
-The HEAT lamp illuminates when the system is placed into STBY mode, and remains illuminated for 110 seconds after the gyros have reached operating temperature.  The system will not align if switched out of STBY before this lamp has shut off.
-
-**ALIGN Lamp**
-
-The ALIGN lamp provides current INS alignment through illuminating steady (BATH or HDG MEM alignment complete), or flashing at the completion of GYRO COMP alignment.  
 
 Alignment Options
 -----------------
