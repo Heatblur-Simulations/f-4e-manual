@@ -274,6 +274,24 @@ Provides quick confirmation of current aircraft AoA state based on illuminated p
 | "center high | Very fast     |
 +--------------+---------------+
 
+Range Indicator
+---------------
+
+.. image:: images/range_indicator.png
+
+This panel provides the pilot with a readout of the slant range measured by the Pave Spike
+Targeting Pod (x100 ft).
+
+When the Test-Button is pressed, the display shows 888, the knob underneath it controls
+the brightness of the readout.
+
+The Mode-Knob allows the pilot to select one of two weapon delivery modes available with the pod:
+
+* WRCS - Automatic Delivery
+* ROR - Release on Range
+
+In the SET position, the display shows the desired release range used in the ROR mode.
+The knob below the readout can be used to adjust this range.
 
 
 .. _mwspanel:
@@ -310,7 +328,9 @@ UHF Remote Channel Indicator
 .. image:: images/UHFInd.png
   
   
-Provides the current selected channel value when the radio is set to PRESET.  Otherwise, the indicator displays M if the radio is set to Manual, G when the COMM function is set as GUARD/ADF, or A when the A-3-2-T switch is in A.
+Provides the current selected channel value when the radio is set to PRESET. 
+Otherwise, the indicator displays M if the radio is set to Manual, G when the COMM function is set
+as GUARD/ADF, or A when the A-3-2-T switch is in A.
 
 
 True Airspeed Indicator
@@ -548,6 +568,14 @@ The Selective Jettison Control knob provides the pilot direct access to dump sto
 | L/R WING    | In conjunction with TV or ARM, jettisons single AGM-65 from wing on PUSH TO JETT. |
 +-------------+-----------------------------------------------------------------------------------+
 
+Recorder Lamp
+-------------
+
+.. image:: images/pilot_recorder_lamp.png
+
+This dimmable lamp is lit to indicate operation of the Airborne-Video-Tape-Recorder (AVTR).
+
+The AVTR system is controlled by the WSO and records the intercom sound, as well as the rear radar screen.
 
 .. _flightdg:
 
@@ -1893,7 +1921,25 @@ ensure maximal availability:
 The Warning Light Test Switch (Marked WARN LT TEST) is a three-position switch;
 in the WARN LT TEST position, confirms function of the various emergency indicators in the cockpit.
 In the STBY COMP position, it illuminates the light for the Standby Compass.
-Both functions are deactivated when the switch is placed in the OFF position. 
+Both functions are deactivated when the switch is placed in the OFF position.
+
+Airborne Video Tape Recorder
+------------------------------
+
+.. image:: images/pilot_avtr.png
+
+The AVTR system is installed in the rear section to the right of the seat. It is primarily controlled by
+the WSO and records the intercom sound, as well as the rear radar screen.
+
+Footage is recorded on a standard u-matic S cassette, which can be removed and replaced using the
+EJECT Button on the top right of the box. The UNTHREAD button next to it is used to unthread the tape of the
+cassette back to the start, causing it to overwrite previously recorded footage.
+
+The cassette can record up to 20 minutes, indicated on the small display labelled ELAPSED TIME.
+
+In DCS, footage is saved in the users Saved Games folder, for example:
+
+``C:\Users\JohnDoe\Saved Games\DCS.openbeta\F-4E\recorders\avtr``
 
 
 WSO Cockpit Layout
