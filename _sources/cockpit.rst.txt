@@ -219,21 +219,21 @@ Air Refueling Lights
 
 Provide status of the Air Refueling System while in use.
 
-+------------+---------------------------------------------------------------------------+
-| READY      | Illuminates when air refuel receptacle is fully extended. Turns off when  |
-|            |                                                                           |
-|            | boom is locked or receptacle retracted.                                   |
-+------------+---------------------------------------------------------------------------+
-| DISENGAGED | Illuminates when boom disengages during cycle, and remains lit until      |
-|            |                                                                           |
-|            | refueling system is reset.                                                |
-+------------+---------------------------------------------------------------------------+
-| L.H. FULL  | Indicates left hand external tank is full.                                |                                       
-+------------+---------------------------------------------------------------------------+
-| CTR. FULL  | Indicates centerline external tank is full.                               |
-+------------+---------------------------------------------------------------------------+
-| R.H. FULL  | Indicates right hand external tank is full.                               |
-+------------+---------------------------------------------------------------------------+  
++------------+------------------------------------------------------------------------------+
+| READY      | Illuminates when air refuel receptacle is fully extended. Turns off when     |
+|            |                                                                              |
+|            | boom is locked or receptacle retracted.                                      |
++------------+------------------------------------------------------------------------------+
+| DISENGAGED | Illuminates when boom disengages during cycle, and remains lit until         |
+|            |                                                                              |
+|            | refueling system is reset.                                                   |
++------------+------------------------------------------------------------------------------+
+| L.H. FULL  | Indicates left hand external tank is full (also while refueling on ground).  |                                       
++------------+------------------------------------------------------------------------------+
+| CTR. FULL  | Indicates centerline external tank is full (also while refueling on ground). |
++------------+------------------------------------------------------------------------------+
+| R.H. FULL  | Indicates right hand external tank is full (also while refueling on ground). |
++------------+------------------------------------------------------------------------------+  
 
 
 Labs Pull Up Light
@@ -330,6 +330,12 @@ Flight Instrument Brightness Knob
   
 Controls brightness of the flight instrument cluster.
 
+Rotating clockwise will increase brightness of all flight instrument lights,
+while at the same time dim indicator and warning lamps.
+
+Flight instrument lights can additionally be controlled individually
+with knobs on the Flight Instrument Lights Intensity Panel, located on the right wall.
+
 
 Nose/Tail Arming Switch
 -----------------------
@@ -356,7 +362,19 @@ Station Select Buttons
 .. image:: images/SSBs.png
    
   
-The Station Select Buttons are used to activate air to ground munition stations and the nose gun.  Upon selection of a station, the upper half denoting the position will illuminate green to confirm the station is active.  The lower half will illuminate amber once the necessary mode is selected, the weapon is compatible with the weapon select knob option, the Master Arm is in the ARM position, and any necessary warm up period for the selected weapon type is completed.  L and R positions are left and right, respectively, with O denoting outboard and I denoting inboard stations.  The centerline weapon position is CL, and the nose gun is armed with the GUN station selector button.  A dimmer knob is also provided to raise or lower the lighting of the station select buttons relative to current cockpit conditions.
+The Station Select Buttons are used to activate air to ground munition stations and the nose gun.
+Upon selection of a station, the upper half denoting the position will illuminate green to confirm the
+station is active.
+The lower half will illuminate amber once the necessary mode is selected,
+the weapon is compatible with the weapon select knob option, the Master Arm is in the ARM position,
+and any necessary warm up period for the selected weapon type is completed.
+L and R positions are left and right, respectively, with O denoting outboard and I 
+denoting inboard stations.
+The centerline weapon position is CL, and the nose gun is armed with the GUN station selector button.
+
+A dimmer knob is also provided to raise or lower the lighting of the station select buttons relative
+to current cockpit conditions. If the Flight Instrument Brightness Knob above it is set to the full CCW position,
+it overrides the dimmer knob and Station Select Buttons are always illuminated at full brightness.
 
 
 Master Arm Switch
@@ -658,10 +676,25 @@ RWR Azimuth Indicator
 .. image:: images/RWRAz.png
 
 
-EO Line of Sight Indicator
---------------------------
+Azimuth-Elevation Indicator
+---------------------------
 
 .. image:: images/EOLos.png
+
+The Azimuth-Elevation Indicator, or also Line-Of-Sight Indicator, is the main instrument for the pilot
+to assess the current attitude of the Pave Spike Targeting Pod in order to keep the line of sight
+within the operational limits.
+
+The needle shows the pods roll position from -160° (CW) to +110° (CCW).
+
+Three flags indicate the elevation:
+
+- green: -120° to -155°
+- yellow: -155° to -160°
+- red: -160° or beyond
+
+If the needle is kept within the green labelled range, or only the green flag is shown,
+the view will not be obstructed by the pod or the aircraft.
 
 Master Caution Light
 --------------------
@@ -677,7 +710,16 @@ Fire Test Button
 .. image:: images/FTB.png
   
   
-When pressed, this button tests for functionality of the FIRE and OVRHT lamps.  Can also be used in conjunction with the Warning Lights Test switch to confirm detection and continuity performance of the fire and overhead warning systems.  Holding the Warning Lights Test switch in the WARN TEST position, then simultaneously pressing and releasing the Fire Test Button performs the test.  Proper system function is confirmed with the four FIRE and OVRHT lamps off while the Fire Test Button is pressed, then illuminating when it is released.
+When pressed, this button tests for functionality of the FIRE and OVRHT lamps. Under normal conditions, all four
+lights should light up as long as the button is pressed down.
+If a lamp does not light up, it is likely broken and cannot be trusted on indicating a fire condition anymore.
+
+The button can also be used in conjunction with the Warning Lights Test switch to confirm detection and continuity
+performance of the fire and overhead warning systems.
+
+Holding the Warning Lights Test switch in the WARN TEST position, then simultaneously pressing and
+releasing the Fire Test Button performs the test. Proper system function is confirmed with the four FIRE
+and OVRHT lamps off while the Fire Test Button is pressed, then illuminating when it is released.
 
 
 Fire/Overheat Warning Lamps
@@ -766,6 +808,8 @@ Landing Gear Handle
   
   
 Actuates the landing gear; raised for gear up, down for gear down.
+
+Pulling the handle out will actuate the Emergency Mode and release the gear.
   
 
 Landing Gear Position Indicators
@@ -860,7 +904,9 @@ Anti-Skid
 Canopy/Low Altitude Warning Volume
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Sets audio level for canopy open and low altitude warnings.
+Sets audio level for canopy open and low altitude voice warnings.
+
+This system is not installed on this variant of the F-4E.
 
 
 Oxygen Control Panel
@@ -889,7 +935,7 @@ Two position switch that cycles between NORMAL oxygen value or 100% OYXGEN level
 Oxygen Quantity Test Button
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Tests oxygen low pressure warning system.  Pressing the button ccles the needles from current oxygen level to zero, which triggers OXYGEN LOW telelight panel warning as needle passes through 1 liter.  Releasing the button returns the needle to current system level and clears OXYGEN LOW warning.
+Tests oxygen low pressure warning system.  Pressing the button cycles the needles from current oxygen level to zero, which triggers OXYGEN LOW telelight panel warning as needle passes through 1 liter.  Releasing the button returns the needle to current system level and clears OXYGEN LOW warning.
 
 
 Oxygen Pressure Gauge
@@ -930,11 +976,25 @@ Communications Antenna Select Switch
 Two position switch commanding which antenna is being utilized for voice communication- UPR (upper) or LWR (lower). 
 
 
-LCOSS Mode Switch
-^^^^^^^^^^^^^^^^^
+LCOSS Switch
+^^^^^^^^^^^^
 
-ARS-107
-ASG-26
+Selects which computer system is installed on this aircraft.
+
+* ARS-107
+* ASG-26
+
+The switch is a leftover and not connected.
+
+DVST Switch
+^^^^^^^^^^^
+
+Selects which radar system is installed on this aircraft.
+
+* APS-107
+* APQ-120
+
+The switch is a leftover and not connected.
 
 
 Inboard Engine Control Panel
@@ -997,7 +1057,10 @@ Eject Light/Switch
 
 .. image:: images/PilEjectLight.png
 
-Pressed by the pilot in an emergency condition requiring ejection from the aircraft, which illuminates the EJECT lamp in the rear cockpit warning the WSO to prepare for immediate ejection.
+Pressed by the pilot in an emergency condition requiring ejection from the aircraft,
+which illuminates the EJECT lamp in the rear cockpit warning the WSO to prepare for immediate ejection.
+
+Also lights up when the WSO presses their respective Eject Light to warn the Pilot for ejection.
 
 
 Slats/Flaps Control Panel
@@ -1049,7 +1112,7 @@ Extra Picture Switch
 
 .. image:: images/ExtraPic.png
 
-Provision to operate the KB-18 camera without the release of weapons, the Extra Picture switch starts the camera at the selected rate.
+Provision to operate the KB-18 gun camera without the release of weapons, the Extra Picture switch starts the camera at the selected rate.
 
 Gun Camera Switch
 -----------------
@@ -1067,13 +1130,22 @@ Fuel Control Panel
 Internal Wing Dump Switch
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Two position switch which, when placed in DUMP, closes off the wing fuel cells from transfer into the fuselage fuel cells and dumps fuel from the valves at the wing fold trailing edge.  Placing the switch back to the NORM position closes the dump vales and reconnects the wing cells for transfer to the fuselage.
+Two position switch which, when placed in DUMP, closes off the wing fuel cells from transfer
+into the fuselage fuel cells and dumps fuel from the valves at the wing fold trailing edge.
+Placing the switch back to the NORM position closes the dump vales and reconnects the wing
+cells for transfer to the fuselage.
+
+The entire fuel is dumped in roughly 15 minutes.
 
 
 Internal Wing Transfer Switch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-A two-position switch which controls flow of wing cell stored fuel to the fuselage fuel tanks; NORMAL permits transfer, whereas STOP TRANS ceases flow from the wings to the fuselage feed tanks.
+A two-position switch which controls flow of wing cell stored fuel to the fuselage fuel tanks;
+NORMAL permits transfer, whereas STOP TRANS ceases flow from the wings to the fuselage feed tanks.
+
+Transfer only occurs without weight on wheels and if the internal tanks have reached a certain
+fuel level already.
 
 
 Refueling Select Switch
@@ -1085,13 +1157,25 @@ Determines which tanks will be refuelled during an air to air refueling cycle: i
 External Transfer Switch
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-A three position toggle determining which externally mounted tanks are currently transferring fuel to the fuselage tanks: CENTER (centerline tank), OFF (none), or OUTBD (outboard wing tanks). 
+A three position toggle determining which externally mounted tanks are currently transferring fuel
+to the fuselage tanks: CENTER (centerline tank), OFF (none), or OUTBD (outboard wing tanks).
+
+Transfer only occurs without weight on wheels and if the internal tanks have reached a certain
+fuel level already.
+
+It is not possible to transfer from the wing tanks and external tanks at the same time. If both are selected,
+the external tanks will take priority.
 
 
 Air Refueling Switch
 ^^^^^^^^^^^^^^^^^^^^
 
-Two position toggle switch used for extending (EXTEND) and retracting (RETRACT) the air to air refueling door.  Placing the switch into EXTEND illuminates the air to air refueling recepticle lamp to assist the tanker boom operator. 
+Two position toggle switch used for extending (EXTEND) and retracting (RETRACT) the air to air refueling door.
+Placing the switch into EXTEND illuminates the air to air refueling recepticle lamp to assist the tanker
+boom operator.
+
+If, during AAR, the boom disconnects and the DISENGAGED light illuminates, this switch has to be flipped to
+RETRACT and back to EXTEND to reset the system and allow the boom to connect again.
 
 
 Boost Pump Check Switches
@@ -1104,6 +1188,33 @@ VOR/ILS Control Panel
 ---------------------
 
 .. image:: images/VORILSCntl.png
+
+Nav Vol Knob
+^^^^^^^^^^^^
+
+Controls the volume of the VOR/ILS audio system that indicates a positive return by
+repeating the morse code of the selected station.
+
+Must be moved out of the full CCW position to provide power to the VOR/ILS system.
+
+MB Vol Knob
+^^^^^^^^^^^
+
+Controls the volume of the tone played when flying over a marker-beacon transmitter,
+for example on the final approach during landing.
+
+Frequency Knobs
+^^^^^^^^^^^^^^^
+
+A set of two knobs for tuning the VOR/ILS frequency. The outer knob controls the first three digits,
+while the inner knob sets the two decimal digits.
+
+Valid frequencies range from 108.00 to 117.95 MHz.
+
+VOR/MKR Test
+^^^^^^^^^^^^
+
+A button to initiate a built-in test of the VOR system.
 
 
 Drag Chute Handle
@@ -1122,21 +1233,15 @@ Stability Augmentation Channel Switches (Yaw/Roll/Pitch)
 
 Three two-position swiches enable individual channels of stability augmentation for Yaw, Roll, and Pitch.  ENAGE (forward) sets the respective chanel stability augmentation on. 
 
-STAB AUG (Stability Augmentation) Switch
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Activates the AFCS system for the respective channels to reduce pilot workload.
-
-
 AFCS Mode Switch
 ^^^^^^^^^^^^^^^^
 
-Enables AFCS flight mode, which can matain and hold maneuvers and attidues at up to +/- 70 degrees of pitch, 70 degrees of bank, and in all 360 degrees of azimuth.  Deactivated by selecting the switch aft, or with a rapid control input.
+Enables AFCS flight mode, which can maintain and hold maneuvers and attidues at up to +/- 70 degrees of pitch, 70 degrees of bank, and in all 360 degrees of azimuth.  Deactivated by selecting the switch aft, or with a rapid control input.
 
 Altitude Hold Switch
 ^^^^^^^^^^^^^^^^^^^^
 
-Selecting ENGAGE activates the altitude hold function of the AFCS.  When entered into in a pitch and bank level condition, will maintain altitude (ASL) stabilized flight at the current heading.
+Selecting ENGAGE activates the altitude hold function of the AFCS.  When entered in a pitch and bank level condition, will maintain altitude (ASL) stabilized flight at the current heading.
 
 
 Boarding Steps Indicator
@@ -1144,7 +1249,7 @@ Boarding Steps Indicator
 
 .. image:: images/BoardSteps.png
 
-Used to visually confirm boarding ladder has been stowed.  With the white post extended up, ladder is stowed, whereas ladder is deployed if post is down and flush with panel recess.
+Used to visually confirm the integrated boarding ladder has been stowed.  With the white post extended up, ladder is stowed, whereas ladder is deployed if post is down and flush with panel recess.
 
 
 Intercom System Control Panel
@@ -1250,6 +1355,10 @@ Armament Safety Override Switch
 
 .. image:: images/ArmOvrd.png
 
+If pressed and the landing gear handle is placed down, overrides the armanent safety.
+
+This allows for example to fire the gun while on ground.
+
 
 Anti-G Suit Control Valve
 -------------------------
@@ -1293,7 +1402,8 @@ Rounds Remaining Indicator
 
 .. image:: images/Rounds.png
 
-Programs for current available number of rounds prior to takeoff using dial. 
+Shows the currently available number of nose gun rounds.
+The counter must be set manually by the pilot whenever rearming.
 
 
 Rudder Pedal Adjustment Crank
@@ -1302,7 +1412,9 @@ Rudder Pedal Adjustment Crank
 .. image:: images/PedAdjust.png
   
   
-Used to adjust ergonomic position of the rudder pedals forward or back from the pilot.  Unused in DCS.
+Used to adjust ergonomic position of the rudder pedals forward or back from the pilot.
+
+Requires 38 full turns to move the pedals across the entire range.
 
 
 Pneumatic Pressure Indicator
@@ -1335,7 +1447,13 @@ Feed Tank Check Switch
 
 .. image:: images/FeedCheck.png
 
-A two-position spring-loaded switch used to confirm nominal quantity in the engine feed tank, the positions being FEED TANK CHECK and NORM (default).  When FEED TANK CHECK is selected and held, the fuel quantity gauge will indicate soley the current fuel quantity in the engine feed tank on both the tape and counter.  When the feed tank is full, the indicated value should read 1400 lbs, plus or minus 200 lbs on the counter, and the tape value should be 1400 lbs, plus or minus 150 lbs.  
+A two-position spring-loaded switch used to confirm nominal quantity in the engine feed tank (Cell 1),
+the positions being FEED TANK CHECK and NORM (default).
+
+When FEED TANK CHECK is selected and held, the fuel quantity gauge will indicate soley the current fuel
+quantity in the engine feed tank on both the tape and counter. When the feed tank is full, the indicated
+value should read 1400 lbs, plus or minus 200 lbs on the counter, and the tape value should be 1400 lbs,
+plus or minus 150 lbs.  
 
 
 Arresting Hook Control Handle
@@ -1343,7 +1461,9 @@ Arresting Hook Control Handle
 
 .. image:: images/HookHandle.png
 
-Utilized for field emergency arrestment.
+Pulling the handle down extends the Tail Hook.
+
+The hook is utilized for field emergency arrestment and not for carrier operations.
 
 
 KY-28 Mode Light Panel
@@ -1361,6 +1481,15 @@ Telelight Anunciator Panel
 
 Provides the majority of aircraft system warnings that can be rectified by the pilot.  Most warnings on the panel will cause the Master Caution to illuminate; those that do not will be noted.
 
+Light Circuit Breakers
+----------------------
+
+.. image:: images/pilot_light_cbs.png
+
+Hidden behind a bundle of cables to the right of the telelight panel are two circuit breakers controlling lights.
+
+The upper one is responsible for powering the primary instrument lights, while the lower circuit breaker powers
+all indicator and warning lights.
 
 .. _rightcons:
 
@@ -1486,7 +1615,8 @@ Flight Instrument Lights Intensity Panel
 
 .. image:: images/InsIntensity.png
 
-The Instrument Lights Intensity Panel has six knobs, which, when the Flight Instrument Light knob on the Cockpit Light Control Panel is in the OFF position, independently changes illumination intensity on the following indicators:
+The Instrument Lights Intensity Panel has six knobs that allow to independently change illumination
+intensity on the following indicators:
 
 +--------------------------------+
 | Airspeed/Mach Indicator        |
@@ -1502,6 +1632,9 @@ The Instrument Lights Intensity Panel has six knobs, which, when the Flight Inst
 | Horizontal Situation Indicator |
 +--------------------------------+
 
+The base intensity of all indicators is controlled with the Flight Instrument Light knob on
+the Cockpit Light Control Panel.
+
 Formation and Indexer Lights Control Panel
 ------------------------------------------
 
@@ -1511,11 +1644,73 @@ Control of the formation lights, which are found on the wing tips, both sides of
 
 Also on this panel is the Indexer Lights brightness knob, which controls relative illumination of the AoA indexers on both sides of the windscreen.  Marked positions are DIM and BRT (bright), with highest level to the right of the knob.
 
+Circuit Breaker Panel
+---------------------
+
+.. image:: images/pilot_cb_panel.png
+
+Contains seven circuit breakers responsible for flight control surfaces and other systems
+important for safe operation of the aircraft.
+
++----------------+
+| AIL Feel-Trim  |
++----------------+
+| STAB Feel-Trim |
++----------------+
+| Speed Brake    |
++----------------+
+| Landing Gear   |
++----------------+
+| Flaps          |
++----------------+
+| Trim Controls  |
++----------------+
+| Rudder Trim    |
++----------------+
+
+If a circuit breaker is popped, the corresponding system does not receive power and cannot be operated anymore.
+
 
 Emergency Floodlights Panel
 ---------------------------
 
 .. image:: images/PilFlood.png
+
+This auxiliary panel has various controls for lights and also audio.
+
+Stall Warning
+^^^^^^^^^^^^^
+
+The Stall Warning knob controls the volume of the AoA tones that play when flying at certain angles.
+
+Under certain conditions, the system can override the volume to ensure the cue is always audible in
+dangerous situations.
+
+Standby AI
+^^^^^^^^^^
+
+This knob used to control the brightness of the Standby Attitude Indicator (SAI) lights, but has been replaced
+by the SAI Panel on the left wall.
+
+Instrument Flood
+^^^^^^^^^^^^^^^^
+
+The three position switch controls the lamps illuminating the instrument panels in both cockpits simultaneously
+in red light.
+
+The bright and dim positions activate lamps powered by different electrical buses to ensure
+the emergency light is available even in case of failure.
+
++--------+----------------------+
+| Bright | Essential 28V DC Bus |
++--------+----------------------+
+| Dim    | Left Main 14V AC Bus |
++--------+----------------------+
+
+ML Audio
+^^^^^^^^
+
+Controls the volume of the Missile Launch System that plays tones to warn the pilot about being under attack.
 
 
 IFF Control Panel
@@ -1530,6 +1725,10 @@ DCU-94A Stores Control-Monitor Panel
 
 .. image:: images/DCU94.png
 
+This panel is used to control and test the separate release circuit system for nuclear stores.
+
+Nuclear stores are separated from the regular release system to prevent accidental release.
+
 
 Compass Control Panel
 ---------------------
@@ -1542,11 +1741,70 @@ Exterior Lights Control Panel
 
 .. image:: images/ExtLights.png
 
+This panel contains controls connected to most of the exterior lighting:
+
+* 3 position lights (green, red, white)
+* 2 wingtip join-up lights (green, red)
+* 3 fuselage lights (white)
+* anti-collision tail light with 2 lamps (red)
+
+Three switches labelled Fuselage, Tail and Wing control brightness of the lights
+between BRT (Bright), DIM and OFF.
+
+To ensure lights are available even in case of power failure conditions, the BRT and DIM selections are routed
+through different buses:
+
++------------+-----------------------+
+| Bright     | Right Main 28V DC Bus |
++------------+-----------------------+
+| Dim        | Left Main 14V AC Bus  |
++------------+-----------------------+
+| Anti-Col 1 | Right Main 14V AC Bus |
++------------+-----------------------+
+| Anti-Col 2 | Left Main 14V AC Bus  |
++------------+-----------------------+
+
+Fuselage Switch
+^^^^^^^^^^^^^^^
+
+Controls the three white fuselage lights.
+
+Additionally, if set to BRT and and the Flasher Switch is set to FLASH, both anti-collision lights
+illuminate.
+
+Tail Switch
+^^^^^^^^^^^
+
+Controls the position light on the tail.
+
+Wing Switch
+^^^^^^^^^^^
+
+Controls two of the three position and the two join-up lights on the wingtips.
+
+Flasher Switch
+^^^^^^^^^^^^^^
+
+Can be set to OFF, STEADY or FLASH to additionally control the setting for:
+
+* one of the two anti-collision lamps
+* tail position light
+* fuselage lights
+
+If set to OFF, the controlled lights are OFF regardless of their respective switches. In the STEADY position,
+they light up corresponding to the selected brightness. The FLASH position lets the controlled lights phase
+from the set brightness to a low brigthness and back.
+
 
 Emergency Vent Handle
 ---------------------
 
 .. image:: images/EmergVent.png
+
+A plug that can be pulled to release cockpit pressure. Putting it back in will seal the cabin again.
+
+Should only be used if the pressurization system is malfunctioning and reads abnormal values.
+Descend to safe altitudes before activating.
 
 
 Utility Panel (Right)
@@ -1592,24 +1850,50 @@ Cockpit Lighting Control Panel
 
 .. image:: images/PilCockLights.png
 
-The Cockpit Lighting Control Panel provides control of all panel edge lighting, flight instrument panel lighting, the console floodlights, the white floodlights found under the canopy sill over each console, and also includes the Warning Light Test/Standby Compass Light switch.
+The Cockpit Lighting Control Panel provides control of all panel edge lighting, flight instrument panel
+lighting, the console floodlights, the white floodlights found under the canopy sill over each console,
+and also includes the Warning Light Test/Standby Compass Light switch.
 
-The White Floodlight switch acts independent of all other controls on the panel, and is either ON or OFF. 
+The White Floodlight switch acts independent of all other controls on the panel, and is either ON or OFF.
+It activates a separate emergency floodlight (also called Thunderstorm Light) that illuminates the cockpit
+in white. The lamp is energized through the Battery Bus to ensure it is always operational,
+even in case of total power loss. Do not forget to turn off the light before parking the aircraft for a
+longer time, as it will otherwise drain the battery.
 
-The Flight Instrument Light Knob (marked INSTR PANEL), when moved to the right of the OFF detent, controls illumination of the following six instrument lights in unison: 
+The Flight Instrument Light Knob (marked INSTR PANEL), when moved to the right of the OFF detent,
+controls illumination of the following six instrument lights in unison: 
 
-Airspeed/Mach Indicator
-Attitude Director Indicator
-Angle of Attack Indicator
-Vertical Velocity Indicator
-Altimeter
-Horizontal Situation Indicator
+* Airspeed/Mach Indicator
+* Attitude Director Indicator
+* Angle of Attack Indicator
+* Vertical Velocity Indicator
+* Altimeter
+* Horizontal Situation Indicator
 
-When in the OFF position, these indicators are independently controlled for illumation by the knobs on the Flight Instrument Lights Intensity Panel.
+When in the OFF position, these indicators are independently controlled for illumation by the
+knobs on the Flight Instrument Lights Intensity Panel.
 
-The Console Light Control Knob, with range from OFF to BRT, controls illumination level for all panel edge lighting and the console floodlights.  The console floodlights (CONSOLE FLOOD) are triggered independently of the knob when it is placed to the right of the OFF detent position, and offer three settings- DIM, MED, or BRT.  The floodlights will remain on until the Console Light Control knob is returned to the OFF position, and the floodlight switch is placed in DIM. 
+The Console Light Control Knob, with range from OFF to BRT, controls illumination level for all
+panel edge lighting and the console floodlights.
 
-The Warning Light Test Switch (Marked WARN LT TEST) is a three-position switch; in the WARN LT TEST position, confirms function of the various emergency indicators in the cockpit.  In the STBY COMP position, it illuminates the light for the Standby Compass.  Both functions are deactivated when the switch is placed in the OFF position. 
+The console floodlights (CONSOLE FLOOD) are triggered independently of the knob when it is
+placed to the right of the OFF detent position, and offer three settings- DIM, MED, or BRT.
+The floodlights will remain on until the Console Light Control knob is returned to the OFF position,
+and the floodlight switch is placed in DIM. All three positions are powered by different buses to
+ensure maximal availability:
+
++--------+-----------------------+
+| Bright | Essential 28V DC Bus  |
++--------+-----------------------+
+| Medium | Left Main 14V AC Bus  |
++--------+-----------------------+
+| Dim    | Left Main 115V AC Bus |
++--------+-----------------------+
+
+The Warning Light Test Switch (Marked WARN LT TEST) is a three-position switch;
+in the WARN LT TEST position, confirms function of the various emergency indicators in the cockpit.
+In the STBY COMP position, it illuminates the light for the Standby Compass.
+Both functions are deactivated when the switch is placed in the OFF position. 
 
 
 WSO Cockpit Layout
