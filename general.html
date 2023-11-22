@@ -161,7 +161,6 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#an-asn-63-inertial-navigation-system">AN/ASN-63 Inertial Navigation System</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#inertial-navigation-control">Inertial Navigation Control</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#alignment-options">Alignment Options</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#in-flight-alignment">In-Flight Alignment</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#navigation-computer">Navigation Computer</a></li>
@@ -741,7 +740,7 @@
 </section>
 <section id="bearing-distance-heading-indicator">
 <h4>Bearing Distance Heading Indicator<a class="headerlink" href="#bearing-distance-heading-indicator" title="Permalink to this heading"></a></h4>
-<p>The Bearing Distance Heading Indicator, or BDHI, presents navigation information to the pilot as entered by the WSO, provided with two needles (termed the No 1 and No 2 pointers).</p>
+<p>The Bearing Distance Heading Indicator, or BDHI, presents navigation information as entered by the WSO, provided with two needles (termed the No 1 and No 2 pointers).</p>
 <p>When the upper position is selected by the WSO to TACAN/ADF/UHF, the no. 1 pointer indicates UHF bearing, and the no. 2 pointer indicates the TACAN bearing.  If there is no TACAN signal, both pointers indicate the ADF bearing.</p>
 <p>With the middle position selected- VOR/TAC, the no. 1 pointer indicates the VOR bearing, the no. 2 pointer indicates the TACAN bearing, and the range indicator provides distance to the TACAN station. In the absence of a TACAN signal, both pointers indicate the VOR station.</p>
 <p>In the lower position, NAV COMP, the no. 1 pointer indicates bearing to the navigation computer target coordinates, and the no. 2 pointer indicates magnetic ground track.  The range indicator notes distance to the target coordinates.</p>
@@ -757,37 +756,6 @@
 <p><strong>Navigational Computer and Output Signal Distribution</strong></p>
 <p>The respective captured motion signals from the gyroscopes and accelerometers are amplified in the LN-12D navigational computer, which then performs the earth reference integration.  The LN-12D compensates for all longitudes and can effectively track as high as 80 degrees latitude, where the mechanical limitations of calculating tangent relative to the equator is too high for the device.</p>
 <p>The AN/ASN-63 provides information to other systems in the Phantom from the OSDU, or Output Signal Distribution Unit.  The OSDU provides ground speed, north-south and east-west velocity, total velocity, inertially stabilized altitude, climb angle, true inertial heading, ground track, and drift angle.  The WRCS receives inertial true heading, ground track, drift correction angle, and drift angle for its ballistics computer.  Drift angle is captured for the BDHI, HSI, and FDC.  Drift correction angle is also provided to the radar and LCOSS.</p>
-<section id="inertial-navigation-control">
-<h4>Inertial Navigation Control<a class="headerlink" href="#inertial-navigation-control" title="Permalink to this heading"></a></h4>
-<p>The Inertial Navigation Control Panel provides the rear pilot mode selection and system alignment command selection.
-Mode selector positions are</p>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><p>OFF</p></td>
-<td><p>System off.</p></td>
-</tr>
-<tr class="row-even"><td><p>STBY</p></td>
-<td><p>Standby- power is applied to the heaters and climate control system,</p>
-<p>and initiates Coarse alignment if GYRO COMP not selected on the toggle.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><p>ALIGN</p></td>
-<td><p>Performs fine platform and gyro leveling, then, depending on aircrew</p>
-<p>selection, performs Rapid or Gyrocompassing (Fine) Alignment.</p>
-</td>
-</tr>
-<tr class="row-even"><td><p>NAV</p></td>
-<td><p>Activates the INS for navigation function, performance of which is based</p>
-<p>on Rapid or Gyrocompass alignment.</p>
-</td>
-</tr>
-</tbody>
-</table>
-<p><strong>HEAT Lamp</strong></p>
-<p>The HEAT lamp illuminates when the system is placed into STBY mode, and remains illuminated for 110 seconds after the gyros have reached operating temperature.  The system will not align if switched out of STBY before this lamp has shut off.</p>
-<p><strong>ALIGN Lamp</strong></p>
-<p>The ALIGN lamp provides current INS alignment through illuminating steady (BATH or HDG MEM alignment complete), or flashing at the completion of GYRO COMP alignment.</p>
-</section>
 <section id="alignment-options">
 <h4>Alignment Options<a class="headerlink" href="#alignment-options" title="Permalink to this heading"></a></h4>
 <p>The LN-12 has three modes of alignment on aircraft start: BATH, Heading Memory (HDG MEM), and Gyrocompass aignment.  Prior to performing any alignment, with the mode knob in STBY, the position update switch on the Nav Computer Control Panel should be selected to NORMAL, local magnetic variation should be entered on the variation counter, and the position counter should be set to local latitude and longitude.  Doing so will greatly expedite gyrocompass alignment.  Further, alignment should not be performed with the wings in their folded position, as the magnetic flux valve that provides compass synchronization wil be 60 degrees outside of normal position.</p>
