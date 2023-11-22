@@ -127,11 +127,11 @@ Brightness Knob/Horizon Line Knob
  
 Dual knob control of the front scope display settings.
 
-+--------+------------------------------------------------------------------------+
-| BRT    | Controls relative brightness of the front scope display.               |
-+--------+------------------------------------------------------------------------+
-| HOR LN | Adjusts relative horizion line shown on radar scopes in both cockpits. |
-+--------+------------------------------------------------------------------------+
++--------+-----------------------------------------------------------------------+
+| BRT    | Controls relative brightness of the front scope display.              |
++--------+-----------------------------------------------------------------------+
+| HOR LN | Adjusts relative horizon line shown on radar scopes in both cockpits. |
++--------+-----------------------------------------------------------------------+
 
 
 INT Tab
@@ -144,7 +144,7 @@ The INT tab rotates around the display to alter the relative darkness of the rad
 Red Tab
 -------  
   
-The Red tab is rotated to provide a red scope display for night flying.
+The red tab is rotated to provide a red scope display for night flying.
 
 
 In Range Light
@@ -339,7 +339,7 @@ True Airspeed Indicator
 .. image:: images/TASInd.png
   
   
-Provides the aircraft's True Airspeed in knots, and is calibrated from 150 to 1500 knots; airspeeds below this range are thus not reliable. 
+Provides the aircraft's true Airspeed in knots, and is calibrated from 150 to 1500 knots; airspeeds below this range are thus not reliable. 
 
 
 Flight Instrument Brightness Knob
@@ -449,7 +449,7 @@ Weapon Selector Knob
 .. image:: images/WSK.png
   
   
-Selected for the type of weapon currently required, providing release signals to the AWRU (Aircraft Weapons Release Unit). ARM and TV positions inhibt air to air weapon firing unless a CAGE signal is active.  ARM and TV positions do not affect tuning status of radar guided weapons.  Positions are as follows:
+Selected for the type of weapon currently required, providing release signals to the AWRU (Aircraft Weapons Release Unit). ARM and TV positions inhibit air to air weapon firing unless a CAGE signal is active.  ARM and TV positions do not affect tuning status of radar guided weapons.  Positions are as follows:
 
 +-------------+-----------------------------------------------------------------------------------+
 | AGM-12      | Not used.                                                                         |
@@ -482,7 +482,7 @@ Provides timed interval release scheduling of single or multiple bombs or rocket
 The interval knob provides release pulse sequences between 0.05 second and 1 second.  
 
 The INTRVL switch provides the option of a 10x multiplier of the set value of the interval knob.  In the NORM position, the interval knob value is the trigger timer. 
-The Quantity Knob functions as follows:
+The quantity knob functions as follows:
 
 Selecting "1" places the AWRU into single manual bombing mode; one push of the bomb release button releases one bomb.  
 
@@ -501,7 +501,7 @@ Missile Status Lights
 .. image:: images/MSL.png
   
   
-The Missile Status Light window provides confirmation of currently installed and configured air to air misiles.
+The Missile Status Light window provides confirmation of currently installed and configured air to air missiles.
 
 The RDR lights illuminate once AIM-7 missiles are properly tuned with the fire control system; any station that does not carry a Sparrow, does not correctly sync up during tuning, or is launched, will turn off.
 
@@ -516,7 +516,7 @@ Radar Missile Power Switch
   
 The Radar Missile Power Switch provides power to the CW tuning drive and monitoring functionality.  
 
-When switched out of the OFF position, power is applied to the circuit 30 seconds after this selction.  
+When switched out of the OFF position, power is applied to the circuit 30 seconds after this selection.  
 
 The STBY position maintains warmup power to the missiles and CW tuning drive once the missiles have been tuned.  
 
@@ -539,7 +539,7 @@ Interlock Switch
 
 .. image:: images/Intlk.png
   
-A two position switch that determines whether the fire control system launch parameter interlocks can prevent an AIM-7 from being when the trigger is pulled.  
+A two position switch that determines whether the fire control system launch parameter interlocks can prevent an AIM-7 from being launched when the trigger is pulled.  
 
 +-------------+------------------------------------------------------------------------------------+
 | IN          | Interlocks engaged; range limits, ASE limits, or radar not in VI inhibits launch.  |
@@ -591,7 +591,7 @@ Radar Altimeter
 .. image:: images/RadAlt.png
   
   
-Terrain relative accurate height information up to 5000', functions to 30 degrees of bank angle or 35 degrees of pitch.  The function control switch on the lower right of the indicator powers the device; continued clockwise rotation sets the low altitude warning pointer to the desired height.   
+Terrain relative accurate height information up to 5000 ft, functions to 30 degrees of bank angle or 35 degrees of pitch.  The function control switch on the lower right of the indicator powers the device; continued clockwise rotation sets the low altitude warning pointer to the desired height.   
   
 
 Airspeed and Mach Indicator
@@ -661,7 +661,7 @@ Standby Attitude Indicator
 
 .. image:: images/StbyAtt.png
   
-The SAI functions independent of the Flight Director Group, providing reasonably accurate (within six degrees) for 9 minutes if power to the system is lost and the OFF flag is in view.  Pitch markings are indicated every 5 degrees, while roll markings are in gradations of 10 degrees. Roll is illustrated through 360 degrees, while pitch is limited by stops at 92 degrees in climb and 78 degrees in dive to prevent gimbal lock.
+The SAI functions independent of the Flight Director Group, providing reasonably accurate readings (within six degrees) for 9 minutes if power to the system is lost and the OFF flag is in view.  Pitch markings are indicated every 5 degrees, while roll markings are in gradations of 10 degrees. Roll is illustrated through 360 degrees, while pitch is limited by stops at 92 degrees in climb and 78 degrees in dive to prevent gimbal lock.
   
 
 Navigation Function Selector Panel
@@ -743,7 +743,7 @@ lights should light up as long as the button is pressed down.
 If a lamp does not light up, it is likely broken and cannot be trusted on indicating a fire condition anymore.
 
 The button can also be used in conjunction with the Warning Lights Test switch to confirm detection and continuity
-performance of the fire and overhead warning systems.
+performance of the fire and overheat warning systems.
 
 Holding the Warning Lights Test switch in the WARN TEST position, then simultaneously pressing and
 releasing the Fire Test Button performs the test. Proper system function is confirmed with the four FIRE
@@ -892,16 +892,16 @@ External Stores Emergency Release
 .. image:: images/EmerRel.png
   
   
-Also called the "panic button", the External Stores Emergency Release will immediately perform separation of all jettisonable stores, sans air to air weapons or special weapons.  The actuation of the button will show a yellow ring around the button position, which is the indicator for the pilot that it has been used. 
+Also called the "panic button", the External Stores Emergency Release will immediately perform separation of all jettisonable stores, without air to air weapons or special weapons.  The actuation of the button will show a yellow ring around the button position, which is the indicator for the pilot that it has been used. 
 
 
-ARI Fuse
---------
+Aileron Rudder Interconnect (AIR) Circuit Breaker
+-------------------------------------------------
 
 .. image:: images/ARIfuse.png
   
   
-When pulled in conjuction with the Yaw ARI Stab Aug Switch disengaged, Yaw ARI will be fully removed.  With the Yaw ARI Stab Aug Switch engaged, 5 degrees of ARI authority will be maintained.
+When pulled in conjunction with the Yaw ARI Stab Aug Switch disengaged, Yaw ARI will be fully removed.  With the Yaw ARI Stab Aug Switch engaged, 5 degrees of ARI authority will be maintained.
 
 
 Emergency Brake Handle
@@ -1487,7 +1487,7 @@ Feed Tank Check Switch
 A two-position spring-loaded switch used to confirm nominal quantity in the engine feed tank (Cell 1),
 the positions being FEED TANK CHECK and NORM (default).
 
-When FEED TANK CHECK is selected and held, the fuel quantity gauge will indicate soley the current fuel
+When FEED TANK CHECK is selected and held, the fuel quantity gauge will indicate solely the current fuel
 quantity in the engine feed tank on both the tape and counter. When the feed tank is full, the indicated
 value should read 1400 lbs, plus or minus 200 lbs on the counter, and the tape value should be 1400 lbs,
 plus or minus 150 lbs.  
@@ -1548,9 +1548,9 @@ TACAN Control Panel
 
 .. image:: images/FrontTCN.png
 
-The TACAN Control Panel is used to enter the desired TACAN channel, mode, and audible volume for the monitoring of said channel by the aircrew.  The panel is duplicated in both cockpits, and the panel in command of the TACAN receiver is selected with the NAV CMD button the Communication Control Panel.
+The TACAN Control Panel is used to enter the desired TACAN channel, mode, and audible volume for the monitoring of said channel by the aircrew.  The panel is duplicated in both cockpits, and the panel in command of the TACAN receiver is selected with the NAV CMD button of the Communication Control Panel.
 
-On the control panel is found two Navigation Channel Control knobs, with the left controlling the first two digits of the channel value (hundreds and tens), and the right controls the single unit (ones) values.  The right knob also includes an outer ring which sets the X or Y value for the desired TACAN channel. 
+On the control panel there are two Navigation Channel Control knobs, with the left controlling the first two digits of the channel value (hundreds and tens), and the right controls the single unit (ones) values.  The right knob also includes an outer ring which sets the X or Y value for the desired TACAN channel. 
 
 Between these two knobs is the TEST button, which performs the ground testing cycle after warmup, and can also be used to perform an in-flight confidence test of the system's performance.
 
@@ -1588,7 +1588,7 @@ Communication Control Panel
 
 The Communication Control Panel provides selection and mode of the UHF radio in the aircraft.  The panel is duplicated in both cockpits, and control over the radio is determined through pushing the COMM CMD Button in the respective seat; the button will illuminate green in the seat in priority.  In the same fashion, the NAV CMD button dictates which seat has control of the TACAN settings; its button will also illuminate in the seat in command of the system.
 
-Beneath the COMM CMD button is the radio volume for the respective seat.  Adjacent to the NAV CMD button is the Squelch switch, which enables or disables receiver squelch. 
+Beneath the COMM CMD button is the radio volume for the respective seat.  Close to the NAV CMD button is the Squelch switch, which enables or disables receiver squelch. 
 
 The A-3-2-T Selector knob sets HAVE Quick functionality of the UHF radio (A- auto-jam), the first digit of the manually selected frequency (3 or 2), or enables Time of Day receipt for one minute after selection in a momentary hold position (T).  
 
@@ -1600,49 +1600,49 @@ Directly underneath the Comm Channel Control Knob is the Aux Channel Knob and In
 
 The Comm Function Selector Knob determines the current configuration of the radio system. 
 
-+-------------+-----------------------------------------------------------------------------------+
-| OFF         | All UHF Radios off.                                                               |
-+-------------+-----------------------------------------------------------------------------------+
-| T/R ADF     | Comm receiver - comm reception.                                                   |
-|             |                                                                                   | 
-|             | Comm transmitter - comm transmission.                                             |
-|             |                                                                                   |
-|             | Comm guard receiver - standby.                                                    |
-|             |                                                                                   | 
-|             | Aux receiver- with antenna select in UPR, comm reception; in LWR, ADF reception.  |
-+-------------+-----------------------------------------------------------------------------------+
-| T/R+G ADF   | Comm receiver - comm reception.                                                   |
-|             |                                                                                   | 
-|             | Comm transmitter - comm transmission.                                             |
-|             |                                                                                   |
-|             | Comm guard receiver - guard reception.                                            |
-|             |                                                                                   | 
-|             | Aux receiver- with antenna select in UPR, comm reception; in LWR, ADF reception.  |
-+-------------+-----------------------------------------------------------------------------------+
-| ADF+G CMD   | Comm receiver - ADF reception.                                                    |
-|             |                                                                                   | 
-|             | Comm transmitter - comm transmission.  ADF interruped during transmission.        |
-|             |                                                                                   |
-|             | Comm guard receiver - guard reception on ADF antenna.                             |
-|             |                                                                                   | 
-|             | Aux receiver- comm reception.                                                     |
-+-------------+-----------------------------------------------------------------------------------+
-| ADF+G       | Comm receiver - ADF reception.                                                    |
-|             |                                                                                   | 
-|             | Comm transmitter - comm transmission.  ADF interruped during transmission.        |
-|             |                                                                                   |
-|             | Comm guard receiver - standby.                                                    |
-|             |                                                                                   | 
-|             | Aux receiver- guard reception.                                                    |
-+-------------+-----------------------------------------------------------------------------------+
-| Guard ADF   | Comm receiver - guard reception.                                                  |
-|             |                                                                                   | 
-|             | Comm transmitter - guard transmission.                                            |
-|             |                                                                                   |
-|             | Comm guard receiver - standby.                                                    |
-|             |                                                                                   | 
-|             | Aux receiver- with antenna select in UPR, comm reception; in LWR, ADF reception.  |
-+-------------+-----------------------------------------------------------------------------------+
++------------+-----------------------------------------------------------------------------------+
+| OFF        | All UHF Radios off.                                                               |
++------------+-----------------------------------------------------------------------------------+
+|| T/R ADF   || Comm receiver - comm reception.                                                  |
+||           ||                                                                                  |
+||           || Comm transmitter - comm transmission.                                            |
+||           ||                                                                                  |
+||           || Comm guard receiver - standby.                                                   |
+||           ||                                                                                  |
+||           || Aux receiver- with antenna select in UPR, comm reception; in LWR, ADF reception. |
++------------+-----------------------------------------------------------------------------------+
+|| T/R+G ADF || Comm receiver - comm reception.                                                  |
+||           ||                                                                                  |
+||           || Comm transmitter - comm transmission.                                            |
+||           ||                                                                                  |
+||           || Comm guard receiver - guard reception.                                           |
+||           ||                                                                                  |
+||           || Aux receiver- with antenna select in UPR, comm reception; in LWR, ADF reception. |
++------------+-----------------------------------------------------------------------------------+
+|| ADF+G CMD || Comm receiver - ADF reception.                                                   |
+||           ||                                                                                  |
+||           || Comm transmitter - comm transmission. ADF interrupted during transmission.       |
+||           ||                                                                                  |
+||           || Comm guard receiver - guard reception on ADF antenna.                            |
+||           ||                                                                                  |
+||           || Aux receiver- comm reception.                                                    |
++------------+-----------------------------------------------------------------------------------+
+|| ADF+G     || Comm receiver - ADF reception.                                                   |
+||           ||                                                                                  |
+||           || Comm transmitter - comm transmission. ADF interrupted during transmission.       |
+||           ||                                                                                  |
+||           || Comm guard receiver - standby.                                                   |
+||           ||                                                                                  |
+||           || Aux receiver- guard reception.                                                   |
++------------+-----------------------------------------------------------------------------------+
+|| Guard ADF || Comm receiver - guard reception.                                                 |
+||           ||                                                                                  |
+||           || Comm transmitter - guard transmission.                                           |
+||           ||                                                                                  |
+||           || Comm guard receiver - standby.                                                   |
+||           ||                                                                                  |
+||           || Aux receiver- with antenna select in UPR, comm reception; in LWR, ADF reception. |
++------------+-----------------------------------------------------------------------------------+
 
 The Aux Volume Control knob raises and lowers the volume of the Aux receiver channel. 
 

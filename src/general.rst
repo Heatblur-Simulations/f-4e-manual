@@ -41,7 +41,7 @@ Engine Starting System
 Pneumatic Mode Starting
 -----------------------
 
-The normal mode for starting the Phantom utilizing an auxiliary start cart turns the starter turbine, cranking the engine over.
+The normal mode for starting the Phantom utilizes an auxiliary start cart that turns the starter turbine, cranking the engine over.
 
 
 Cartridge Mode Starting
@@ -120,7 +120,7 @@ Exhaust Gas Temperature Indicators
 
 .. image:: images/EGT.png
 
-Exhaust Gas Temperature Indicators are found on the front cockpit instrument panel.  The indicators have two pointers each: a large pointer for the 0 to 12 scale referencing 100 degrees centigrade, and a smaller pointer on a separate scale with 0 to 10 referencing 10 degrees centigrade.  Metering for these values is performed upon exit of the turbine.  
+Exhaust Gas Temperature Indicators are found on the front cockpit instrument panel.  The indicators have two pointers each: a large pointer for the 0 to 12 scale referencing 100 degrees centigrade, and a smaller pointer on a separate scale with 0 to 10 referencing 10 degrees centigrade.  Measuring for these values is performed upon exit of the turbine.  
 
 
 Aircraft Fuel System
@@ -134,7 +134,7 @@ The Phantom's fuel system is duplicated; that is, their pump and feed arrangemen
 Transfer Sequence
 -----------------
 
-The F-4 carries two internal wing tanks, along with seven fuel cells down the length of the fuselage, with cell 1 resting just behind the aft cockpit, and the remaining cells numbered in order to the rear of the aircraft.  Cell 1 is the feed cell for the engines; cells 4 and 6 each carry a hydraulic and an electric transfer pump to supply fuel to cells 1 and 2.  The remaining fuselage cells perform gravity feed into 1, 4, or 6: cell 2 feeds cell 1, 3 feeds 4, and 5 and 7 feed 6.  With this arrangement, center of gravity balance is maintained along the centerline.  Cell 7 is the last cell to initiate transfer in the sequence, and does not begin until the total fuel in cells 1 and 2 fall below 1800 lbs. 
+The F-4 carries two internal wing tanks, along with seven fuel cells down the length of the fuselage, with cell 1 resting just behind the aft cockpit, and the remaining cells numbered in order to the rear of the aircraft.  Cell 1 is the feed cell for the engines; cells 4 and 6 each carry a hydraulic and an electric transfer pump to supply fuel to cells 1 and 2.  The remaining fuselage cells perform a gravity feed into cells 1, 4, or 6. Cell 3 feeds cell 4 and 5, cell 2 feeds cell 1 and cell 7 feeds cell 6.  With this arrangement, center of gravity balance is maintained along the centerline.  Cell 7 is the last cell to initiate transfer in the sequence, and does not begin until the total fuel in cells 1 and 2 fall below 1800 lbs. 
 
 Fuel transfer from the wing and external tanks is performed by bleed air pressurization once airborne; they will not transfer until the aircraft is off the ground. Internal wing tank fuel is transferred into fuselage cells 1 and 3, whereas fuel from external tanks are balanced between cells 1, 3, and 5. 
 
@@ -312,7 +312,7 @@ The Slats Flap system is manually selected for takeoff and landing, then automat
 
 Norm is the standard in-flight position, locking the Flaps and automatically programming the Slat deployment as a function of AoA.
 
-Out deploys the Slats to their fully deployed position.  Should landing gear be deployed, both the Slats and Flaps will deploy.  
+Out deploys the Slats to their fully deployed position.  Should the landing gear be deployed, both the Slats and Flaps will deploy.  
 
 Out and Down fully deploys both the Slats and the Flaps.  Should the landing gear not be down, the Wheels Light on the Telelight Panel will illuminate and flash. 
 
@@ -333,7 +333,7 @@ The Slats Flaps system also has an Emergency system; handles are found on the Sl
 Speed Brakes
 ------------
 
-Underneath the aircraft and adjacent to the rear Sparrow recesses are the speed brakes, installed on the wings.  The speed brakes are driven by the aircraft's hydraulic system and actuated by a three position switch found on the inboard throttle in both cockpits.  Either switch will actuate the brakes.  The positions are Out, Stop, and In; the first and last positions are momentary (reverting to Stop upon being released). 
+Underneath the aircraft and close to the rear Sparrow recesses are the speed brakes, installed on the wings.  The speed brakes are driven by the aircraft's hydraulic system and actuated by a three position switch found on the inboard throttle in both cockpits.  Either switch will actuate the brakes.  The positions are Out, Stop, and In; the first and last positions are momentary (reverting to Stop upon being released). 
 
 Brake actuation illuminates the Speed Brake Out Indicator Light found on the Telelight Panel.  Brake deployment and illumination of the Indicator does not trigger the Master Caution.
 
