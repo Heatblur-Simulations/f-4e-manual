@@ -68,6 +68,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#labs-pull-up-light">Labs Pull Up Light</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#standby-magnetic-compass">Standby Magnetic Compass</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#angle-of-attack-indexer-lights">Angle of Attack Indexer Lights</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#range-indicator">Range Indicator</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#multiple-weapons-controls-awrs-stores-management">Multiple Weapons Controls/AWRS/Stores Management</a><ul>
@@ -86,6 +87,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#centerline-tank-aboard-light">Centerline Tank Aboard Light</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#interlock-switch">Interlock Switch</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#selective-jettison-control">Selective Jettison Control</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#recorder-lamp">Recorder Lamp</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#flight-director-group">Flight Director Group</a><ul>
@@ -189,6 +191,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#generator-control-switches">Generator Control Switches</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#temperature-control">Temperature Control</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#cockpit-lighting-control-panel">Cockpit Lighting Control Panel</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#airborne-video-tape-recorder">Airborne Video Tape Recorder</a></li>
 </ul>
 </li>
 </ul>
@@ -568,6 +571,21 @@ The locked taret is greater than 8,000 feet above the fighter.</p>
 </tbody>
 </table>
 </section>
+<section id="range-indicator">
+<h4>Range Indicator<a class="headerlink" href="#range-indicator" title="Permalink to this heading"></a></h4>
+<img alt="_images/range_indicator.png" src="_images/range_indicator.png" />
+<p>This panel provides the pilot with a readout of the slant range measured by the Pave Spike
+Targeting Pod (x100 ft).</p>
+<p>When the Test-Button is pressed, the display shows 888, the knob underneath it controls
+the brightness of the readout.</p>
+<p>The Mode-Knob allows the pilot to select one of two weapon delivery modes available with the pod:</p>
+<ul class="simple">
+<li><p>WRCS - Automatic Delivery</p></li>
+<li><p>ROR - Release on Range</p></li>
+</ul>
+<p>In the SET position, the display shows the desired release range used in the ROR mode.
+The knob below the readout can be used to adjust this range.</p>
+</section>
 </section>
 <section id="multiple-weapons-controls-awrs-stores-management">
 <span id="mwspanel"></span><h3>Multiple Weapons Controls/AWRS/Stores Management<a class="headerlink" href="#multiple-weapons-controls-awrs-stores-management" title="Permalink to this heading"></a></h3>
@@ -596,7 +614,9 @@ The locked taret is greater than 8,000 feet above the fighter.</p>
 <section id="uhf-remote-channel-indicator">
 <h4>UHF Remote Channel Indicator<a class="headerlink" href="#uhf-remote-channel-indicator" title="Permalink to this heading"></a></h4>
 <img alt="_images/UHFInd.png" src="_images/UHFInd.png" />
-<p>Provides the current selected channel value when the radio is set to PRESET.  Otherwise, the indicator displays M if the radio is set to Manual, G when the COMM function is set as GUARD/ADF, or A when the A-3-2-T switch is in A.</p>
+<p>Provides the current selected channel value when the radio is set to PRESET.
+Otherwise, the indicator displays M if the radio is set to Manual, G when the COMM function is set
+as GUARD/ADF, or A when the A-3-2-T switch is in A.</p>
 </section>
 <section id="true-airspeed-indicator">
 <h4>True Airspeed Indicator<a class="headerlink" href="#true-airspeed-indicator" title="Permalink to this heading"></a></h4>
@@ -807,6 +827,12 @@ The Quantity Knob functions as follows:</p>
 </tr>
 </tbody>
 </table>
+</section>
+<section id="recorder-lamp">
+<h4>Recorder Lamp<a class="headerlink" href="#recorder-lamp" title="Permalink to this heading"></a></h4>
+<img alt="_images/pilot_recorder_lamp.png" src="_images/pilot_recorder_lamp.png" />
+<p>This dimmable lamp is lit to indicate operation of the Airborne-Video-Tape-Recorder (AVTR).</p>
+<p>The AVTR system is controlled by the WSO and records the intercom sound, as well as the rear radar screen.</p>
 </section>
 </section>
 <section id="flight-director-group">
@@ -1823,6 +1849,18 @@ ensure maximal availability:</p>
 in the WARN LT TEST position, confirms function of the various emergency indicators in the cockpit.
 In the STBY COMP position, it illuminates the light for the Standby Compass.
 Both functions are deactivated when the switch is placed in the OFF position.</p>
+</section>
+<section id="airborne-video-tape-recorder">
+<h4>Airborne Video Tape Recorder<a class="headerlink" href="#airborne-video-tape-recorder" title="Permalink to this heading"></a></h4>
+<img alt="_images/pilot_avtr.png" src="_images/pilot_avtr.png" />
+<p>The AVTR system is installed in the rear section to the right of the seat. It is primarily controlled by
+the WSO and records the intercom sound, as well as the rear radar screen.</p>
+<p>Footage is recorded on a standard u-matic S cassette, which can be removed and replaced using the
+EJECT Button on the top right of the box. The UNTHREAD button next to it is used to unthread the tape of the
+cassette back to the start, causing it to overwrite previously recorded footage.</p>
+<p>The cassette can record up to 20 minutes, indicated on the small display labelled ELAPSED TIME.</p>
+<p>In DCS, footage is saved in the users Saved Games folder, for example:</p>
+<p><code class="docutils literal notranslate"><span class="pre">C:\Users\JohnDoe\Saved</span> <span class="pre">Games\DCS.openbeta\F-4E\recorders\avtr</span></code></p>
 </section>
 </section>
 </section>
