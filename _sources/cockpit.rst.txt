@@ -837,7 +837,8 @@ Landing Gear Handle
   
 Actuates the landing gear; raised for gear up, down for gear down.
 
-Pulling the handle out will actuate the Emergency Mode and release the gear.
+Pulling the handle out will actuate the Emergency Mode and release the gear
+by using a pair of compressed air bottles.
   
 
 Landing Gear Position Indicators
@@ -1079,6 +1080,14 @@ Used to apply rudder trim adjustment when pressed to the respective side, left o
 
 Throttles
 ---------
+
+SAI Panel
+------------------
+
+.. image:: images/sai_panel.png
+
+The panel provides a circuit breaker and a knob to control the
+brightness for the Standby Attitude Indicator.
 
 Eject Light/Switch
 ------------------
@@ -1941,6 +1950,20 @@ In DCS, footage is saved in the users Saved Games folder, for example:
 
 ``C:\Users\JohnDoe\Saved Games\DCS.openbeta\F-4E\recorders\avtr``
 
+Seat
+------------------------------
+
+Seat Position
+^^^^^^^^^^^^^
+
+.. image:: images/pilot_seat_switch.png
+
+The vertical position of the seat can be changed in either direction for about 5cm
+using this springloaded switch.
+
+Operation of the motor must be limited to 30 seconds within 10 minutes to prevent it from
+overheating and breaking.
+
 
 WSO Cockpit Layout
 ******************
@@ -2087,10 +2110,12 @@ True Airspeed Indicator
 Provides the aircraft's True Airspeed in knots, and is calibrated from 150 to 1500 knots; airspeeds below this range are thus not reliable. 
 
 
-UHF Channel Indicator
----------------------
+UHF Remote Channel Indicator
+----------------------------
 
-Displays currently selected stored UHF channel.  Displays the letter M when channel manual entry is in use.
+Provides the current selected channel value when the radio is set to PRESET. 
+Otherwise, the indicator displays M if the radio is set to Manual, G when the COMM function is set
+as GUARD/ADF, or A when the A-3-2-T switch is in A.
 
 
 Vertical Velocity Indicator
@@ -2191,39 +2216,39 @@ Illuminates when CAGE mode activated; pressing the light reverts the radar to th
 Video Select Button
 -------------------
 
-Push button that alternates between Maverick (WEAPON) and TDS pod (ASQ-153) television video on the radar scope display when in TV mode.
+Push button that alternates between WEAPON and TDS pod (ASQ-153) television video on the radar scope display when in TV mode.
 
 
 AVTR Control
 ------------
 
-Controls recording of the DSCG scope display and aft cockpit audio.  
+.. image:: images/wso_avtr_controls.png
 
-Record/EOT Light
-^^^^^^^^^^^^^^^^
+Controls the Airborne Video Tape recorder system which records the intercom sound, as well as the
+rear radar screen.
 
-Illuinates to show recording (RCD) or an end of tape condition warning (EOT). 
-
- 
-AVTR Tape Timer
-^^^^^^^^^^^^^^^
-
-Illustrates how many minutes are left on the AVTR tape.  
-
- 
 AVTR Switch
 ^^^^^^^^^^^
 
-Three position switch controlling function of the AVTR video recorder.
+With the switch in the RECORD position, footage is recorded on the cassette and the RCD light illuminates.
+The STANDBY position pauses recording, while the OFF position will additionally automatically unthread
+the tape back to the beginning after 10 seconds.
 
-+---------+--------------------------------------------------------------------------------------------+
-| OFF     | System powered off. Unthreads tape from recorder, overwrites prior footage on next RECORD. |
-+---------+--------------------------------------------------------------------------------------------+
-| STANDBY | Threads tape, used to maintain footage between short recordings without tape overwrite.    |
-+---------+--------------------------------------------------------------------------------------------+
-| RECORD  | Records displayed DSCG video feed and rear cockpit audio to tape.                          |
-+---------+--------------------------------------------------------------------------------------------+
+AVTR Tape Timer
+^^^^^^^^^^^^^^^
 
+The cassette can record up to 20 minutes of footage, indicated in the small display labelled MINUTES.
+
+EOT Light
+^^^^^^^^^
+
+Once the end of the tape has been reached, the EOT light illuminates and the tape must be unthreaded before
+it can record again.
+
+RCD Light
+^^^^^^^^^
+
+Lit to indicate the AVTR system currently recording.
 
 WSO Emergency Landing Gear Handle
 ---------------------------------
@@ -2240,6 +2265,77 @@ In an emergency, discharges a portion of the brake system hydraulic accumulator 
 APX-80 Control Panel
 --------------------
 
+.. image:: images/apx_80.png
+
+The AN/APX-80 combines the IFF Interrogater System APX-76 and the Combat-Tree system APX-81A.
+It is used to identify whether an aircraft is friendly or hostile.
+
+The glass cover has to be lifted in order to reach most switches and knobs on this panel.
+
+Code Buttons
+^^^^^^^^^^^^
+
+The first digit of the code display indicates the current IFF mode, which can be either of:
+
+* Off (white square)
+* Mode 1
+* Mode 2
+* Mode 3
+* Mode 4/A
+* Mode 4/B
+
+In DCS, only Mode 4 (either A or B) is effective and can be used for interrogation.
+
+The other four digits are used to set the IFF code to interrogate for Modes 1 to 3.
+
+The buttons below and above the display are used to decrement and increment the
+corresponding setting respectively.
+
+Challenge Lamp
+^^^^^^^^^^^^^^
+
+This dimmable push-to-test lamp illuminates to indicate IFF active interrogation with the APX-76 system.
+
+Test/Challenge Code
+^^^^^^^^^^^^^^^^^^^
+
+If set to OFF, the APX-76 interrogation system is powered off. In the CHALLENGE position,
+it can be used to interrogate.
+
+TEST is used to test the system. If the lamp above lights up, the test was successful.
+
+Anti-Jam
+^^^^^^^^
+
+This switch could be used for anti jammer measurements on some systems, but was never installed and connected
+on this variant of the F-4E.
+
+Test/Challenge Lamp
+^^^^^^^^^^^^^^^^^^^
+
+This dimmable push-to-test lamp illuminates to indicate active interrogation with the APX-81A Combat-Tree system.
+
+Test Button
+^^^^^^^^^^^
+
+Starts the built-in test of the APX-81A Combat-Tree system.
+
+Mode 2
+^^^^^^
+
+Used to set Combat-Tree Mode 2 either in ACTIVE, PASSIVE or OFF types.
+
+Mode 3
+^^^^^^
+
+Used to set Combat-Tree Mode 3 either in ACTIVE, PASSIVE or OFF types.
+
+Mode 4
+^^^^^^
+
+Used to set Combat-Tree Mode 4 into ALARM or OVERRIDE types.
+
+This functionality was never installed and connected on this variant of the F-4E.
 
 
 WSO Oxygen Regulator Panel
@@ -2734,6 +2830,21 @@ Indicator Lights
 
 Illuminates whenever a mode is selected on the respective countermeasure mode knob.
 
+LABS Panel
+----------
+
+.. image:: images/wso_labs_panel.png
+
+Aural Tone Volume
+^^^^^^^^^^^^^^^^^
+
+Knob to control the volume for weapon tones, such as the Sidewinder seeker head.
+
+Pull Up Tone
+^^^^^^^^^^^^
+
+Switch to toggle the tone played by the Pull-Up system.
+
 
 Pressure Altitude Indicator
 ---------------------------
@@ -2834,81 +2945,97 @@ Sets the current mode of the DSCG components.
 +-------------+----------------------------------------------------------------------------------+
 
 
-Target Designator Panel
------------------------
+Target Designator Control Set
+-----------------------------
 
-Reticle Brightness/Black & White Selector
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. image:: images/target_des_panel.png
 
-Controls contrast of the TV reticle from black (full counter-clockwise) to white (full clockwise).  Should be set to attain maximum contrast in the display window during the designation and attack procedure. 
+This is the main panel to interact with the Pave Spike Targeting Pod.
 
+Reticle brightness
+^^^^^^^^^^^^^^^^^^
 
-12 0 Clock Visual Acquisition Knobs
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Controls contrast of the TV reticle from black (full counter-clockwise) to green (full clockwise).
+Should be set to attain maximum contrast in the display window during the designation and attack procedure.
 
-Provides azimuth (left) and elevation (right) positioning of the pod head FOV.  Requires coordination between pilot and WSO for correct pipper postioning with the TV reticle for boresighting the pod.
+Boresight knobs
+^^^^^^^^^^^^^^^
 
+Three knobs to control the boresight position of the pod in azimuth, elevation and roll within 2.5 degrees in either direction.
 
-9 O Clock Visual Acquisition Knob
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Used to perform pod head roll adjustment.  Should be adjusted until the needle on the LOS indicator points to the 9 o clock position.
-
+Azimuth and Elevation can best be calibrated in the 12-VIS mode, while roll is best calibrated in 9-VIS.
 
 Stow Button
 ^^^^^^^^^^^
 
-Alternating presses unstows and stows the Pave Spike pod head.  The head is stowed when the button is illuminated.  Pressing it to activate the pod cycles pod head to position selected by acquistion switch.
+Alternating presses unstows and stows the Pave Spike pod head.
+The head is stowed when the button is illuminated. 
+
+When unstored, the pod will move accordingly to the selected acquistion mode.
+
+To prevent damage to the system, the pod must be stowed during takeoff, landing and any High-G maneuvers.
+Note that the stowed position is held electrically only and without power, the pod swings freely and gets damaged when forcefully bumped into its gimbal limits.
 
 
 Laser Ready Select Button
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Enables designator laser firing if illuminated after pressing.  Light remains off if interlocks (nose gear up and all pod functions working) inihibit use.  Subsequent press deactivates laser system.
+Enables designator laser firing if illuminated after pressing.
+
+Light remains off if interlocks (nose gear up and all pod functions working) inihibit use. Subsequent press deactivates laser system.
 
 
 Power On Button
 ^^^^^^^^^^^^^^^
 
-Applies power to the targeting pod when pressed and released.  Illuminates button and STOW button when on.  Selected again to power off targeting pod.  Button lamp will turn off once head is stowed.
+Applies power to the targeting pod when pressed and released. Selected again to power off targeting pod. Button lamp will turn off once head is stowed.
+
+To prevent damage to the system, whenever equipped, power to the system should be turned on even when not using the pod.
 
 
 BIT Selector Button
 ^^^^^^^^^^^^^^^^^^^
 
-Pressed to advance to the desired BIT mode as displayed in the adjacent window.  
+Pressed to advance to the desired BIT mode as displayed in the adjacent window.
+
+BIT 1 is the regular mode of the pod and must be selected for normal operations.
 
 
-Edge Lighting Brightness Knob
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Light Brightness Knob
+^^^^^^^^^^^^^^^^^^^^^
 
-Controls brightness of the edge lighting on the Target Designator Panel. 
+Controls brightness of all lamps on this panel, except the Overheat lamp.
 
 
-Reject Laser Range Override Button
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Reject/Override Button
+^^^^^^^^^^^^^^^^^^^^^^
 
-Used to forcibly override the target designation system selection of computed slant range rather than laser computed slant range.  Laser range is used by selecting BIT 1 in the BIT window and pressing the REJOVRD button. 
+When the pod detects a too huge discrepancy between the laser measured slant range and the INS based computed ranged,
+it automatically rejects former and prefers latter.
+
+In this case, the button can be used to force the use of the laser measured slant range instead.
 
 
 Acquisition Mode Selector Switch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Three position switch determining initial pod seeker positioning.
+Three position switch determining the pods main operation mode.
 
-+--------+------------------------------------------------------------------------------------+
-| 12-VIS | Slaves LOS parallel to the optical sight pipper.                                   |
-+--------+------------------------------------------------------------------------------------+
-| WRCS   | Slaves LOS to the WRCS cursors if WRCS OUT light is OFF; reverts to 12-VIS if ON.  |
-+--------+------------------------------------------------------------------------------------+
-| 9-VIS  | Slaves LOS to 90 degrees below FRL and rolled 90 degrees left.                     |
-+--------+------------------------------------------------------------------------------------+
++--------+-----------------------------------------------------------------------------------------------------+
+| 12-VIS | Slaves LOS parallel to the optical sight pipper.                                                    |
++--------+-----------------------------------------------------------------------------------------------------+
+| WRCS   | Slaves LOS to the WRCS cursors unless WRCS integration is deactivated; reverts to 12-VIS otherwise. |
++--------+-----------------------------------------------------------------------------------------------------+
+| 9-VIS  | Slaves LOS to 90 degrees below FRL and rolled 90 degrees left.                                      |
++--------+-----------------------------------------------------------------------------------------------------+
 
 
-WRCS OUT Status Select Button
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+WRCS Out
+^^^^^^^^
 
-Controls selection and deselection of WRCS integration with the Pave Spike pod.  The WRCS integration is functioning if the WRCS OUT light is off. A malfunction of the WRCS illuminates the WRCS OUT light, and hands off pod LOS to the 12-VIS mode. 
+If lit, the WRCS is not integrated into the pod and functionalities requiring its integration are not available.
+
+Can be pressed to manually disengage or engage integration, unless it was disintegrated by other means.
 
 
 BIT Status Indicator
@@ -2917,20 +3044,65 @@ BIT Status Indicator
 Illuminates based on completion of the selected BIT process; GO confirms functionality, MALF shows BIT failure for a given test cycle.
 
 
-Overheat Pod Temperature Light/INS OUT Status Button
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Overheat Lamp
+^^^^^^^^^^^^^
 
-A locking button with two lamps, and is raised as the default position.  In this condition, the system is at a safe temperature and INS integration with the pod is functional. 
+The OVHT lamp illuminates to indicate an overheat condition in the pod.
 
-The upper half (OVHT) illuminates when the Pave Spike pod temperature is too high.  Pod should be powered off to alleviate damage. 
+To prevent damage, turn off the pod and give it some time to cool before further use.
+Ignoring the lamp will cause parts of the pod to melt, damaging it irreparably.
 
-If the INS faults, the INS OUT lower half will illuminate.  In this state, the button can be pressed to remove INS integration with the pod.  This will illuminate the WRCS OUT button, and revert the pod to the 12-VIS mode default. 
+To prolong use of the pod and prevent overheating, limit slow and low-level flight, as well as continuous use of the laser.
+As a rule-of-thumb, do not use the laser for longer than 15 minutes without allowing for cooling between uses.
+Limit continued slow and low level flight while operating the pod to 30 minutes.
+For extreme outside temperatures, adjust the limits accordingly. 
+
+INS Out
+^^^^^^^
+
+If lit, the INS is not integrated into the pod and functionalities requiring its integration are not available.
+
+Can be pressed to manually disengage or engage integration, unless it was disintegrated by other means.
+
+Rudder Pedal Adjustment Crank
+-----------------------------
+
+.. image:: images/wso_pedal_crank.png
+  
+  
+Used to adjust ergonomic position of the rudder pedals forward or back from the WSO.
+
+Requires 12 full turns to move the pedals across the entire range.
 
 
 .. _wrightsub:
 
 WSO Right Subpanel
 ==================
+
+Eject Light/Switch
+------------------
+
+.. image:: images/wso_eject_light.png
+
+Pressed by the WSO in an emergency condition requiring ejection from the aircraft,
+which illuminates the EJECT lamp in the front cockpit warning the Pilot to prepare for immediate ejection.
+
+Also lights up when the Pilot presses their respective Eject Light to warn the WSO for ejection.
+
+KY-28 Controls
+------------------
+
+.. image:: images/wso_ky_28.png
+
+Controls for the KY-28 encryption system.
+
+ECM Controls
+------------------
+
+.. image:: images/ecm.png
+
+Controls for the electronic countermeasurement and jamming system.
 
 Bomb Release Angle Computer
 ---------------------------
@@ -2948,6 +3120,33 @@ Entry of applicable timing for pullup signal or release are performed with the B
 
 WSO Right Console
 =================
+
+Laser Coder Control
+-------------------
+
+.. image:: images/laser_coder_control.png
+
+The WSO can set the laser code used by the targeting pod by using the four small push-buttons on this panel.
+
+Code Buttons
+^^^^^^^^^^^^
+
+Each press will advance the corresponding digit by one.
+
+Codes directly relate to lasers frequencies, resulting in them having to be between 1111 and 1788 and
+not use digits 0 or 9 in order to be valid.
+
+Enter Button
+^^^^^^^^^^^^
+
+Once a code has been set, it can be transferred to the Pave Spike by pressing the ENTER button to the right.
+
+When power is applied to the system, it automatically initiates a transfer of the currently set code.
+
+No Go Lamp
+^^^^^^^^^^
+
+Validation of an entered code takes about 5 seconds. If the NO-GO lamp is lit, the code is invalid.
 
 
 Inertial Navigation Control Panel
@@ -3052,6 +3251,29 @@ WRCS BIT Knob
 
 A six position knob utilized to perform BIT checks against the individual WRCS delivery modes.  The BIT check is performed by selecting the desired mode for testing, pressing the knob for five seconds, then pressing the Freeze button on the Cursor Control Panel while keeping the BIT knob held down to confirm function. The result will illuminate in the NO GO/GO placard.
 
+Volume Panel
+------------
+
+.. image:: images/wso_volume_panel.png
+
+A small panel to the right of the antenna hand control stick contains two combined knobs to control volume.
+
+Canopy/Low Altitude Warning
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Sets audio level for canopy open and low altitude voice warnings.
+
+This system is not installed on this variant of the F-4E.
+
+
+Stall Warning
+^^^^^^^^^^^^^
+
+The Stall Warning knob controls the volume of the AoA tones that play when flying at certain angles.
+
+Under certain conditions, the system can override the volume to ensure the cue is always audible in
+dangerous situations.
+
 
 Cursor Control Panel
 --------------------
@@ -3090,4 +3312,90 @@ Used to define the heading to the RIP on the radar display in PPI mode, presente
 Nuclear Stores Consent Switch
 -----------------------------
 
-Boom.
+Used to arm nuclear stores. In the SAFE position, release is inhibited. REL allows releasing stores unarmed, while REL/ARM allows dropping nuclear stores armed.
+
+Aft Cockpit Lighting Control Panel
+----------------------------------
+
+.. image:: images/wso_cockpit_lighting_panel.png
+
+The Cockpit Lighting Control Panel provides control of all panel edge lighting, flight instrument panel
+lighting, the console floodlights, the white floodlights found under the canopy sill over each console,
+and also includes the Warning Light Test and Standby Compass Light switch.
+
+The White Floodlight switch acts independent of all other controls on the panel, and is either ON or OFF.
+It activates a separate emergency floodlight (also called Thunderstorm Light) that illuminates the cockpit
+in white. The lamp is energized through the Battery Bus to ensure it is always operational,
+even in case of total power loss. Do not forget to turn off the light before parking the aircraft for a
+longer time, as it will otherwise drain the battery.
+
+The Flight Instrument Light Knob (marked INSTR PANEL), when moved to the right of the OFF detent,
+controls illumination of the following six instrument lights in unison: 
+
+* Airspeed/Mach Indicator
+* Attitude Director Indicator
+* Angle of Attack Indicator
+* Vertical Velocity Indicator
+* Altimeter
+* Horizontal Situation Indicator
+
+When in the OFF position, these indicators are independently controlled for illumation by the
+knobs on the Flight Instrument Lights Intensity Panel.
+
+The Indexer Lights brightness knob controls relative illumination of the AoA indexers on both sides of the windscreen.
+Marked positions are DIM and BRT (bright), with highest level to the right of the knob.
+
+The Console Light Control Knob, with range from OFF to BRT, controls illumination level for all
+panel edge lighting and the console floodlights.
+
+The console floodlights (CONSOLE FLOOD) are triggered independently of the knob when it is
+placed to the right of the OFF detent position, and offer three settings- DIM, MED, or BRT.
+The floodlights will remain on until the Console Light Control knob is returned to the OFF position,
+and the floodlight switch is placed in DIM. All three positions are powered by different buses to
+ensure maximal availability:
+
++--------+-----------------------+
+| Bright | Essential 28V DC Bus  |
++--------+-----------------------+
+| Medium | Left Main 14V AC Bus  |
++--------+-----------------------+
+| Dim    | Left Main 115V AC Bus |
++--------+-----------------------+
+
+The Warning Light Test Switch if set to the TEST position, confirms function of the various emergency indicators in the cockpit.
+
+The STBY COMP switch illuminates the light for the Standby Compass.
+
+Right Wall
+----------
+
+.. image:: images/wso_right_wall.png
+
+Battery Bypass
+^^^^^^^^^^^^^^
+
+Autopilot Ground Test
+^^^^^^^^^^^^^^^^^^^^^
+
+Instrument Ground Power
+^^^^^^^^^^^^^^^^^^^^^^^
+
+When connected to external ground power, activating this switch allows the ground power to also energize the buses.
+
+Skyspot Mode
+^^^^^^^^^^^^
+
+This switch would allow to select the mode of the Combat Skyspot system used for ground-directed bombing.
+
+The system was never installed on this variant of the F-4E.
+
+Seat Position
+-------------
+
+.. image:: images/wso_seat_switch.png
+
+The vertical position of the seat can be changed in either direction for about 5cm
+using this springloaded switch.
+
+Operation of the motor must be limited to 30 seconds within 10 minutes to prevent it from
+overheating and breaking.
