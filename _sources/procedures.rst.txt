@@ -4,1732 +4,624 @@
 Procedures
 ##########
 
+Entries marked **bold** are necessary to be performed.
+
 
 .. _intrp:
 
-Interior Inspection and Pre-Start - Pilot
-*****************************************
+Interior Inspection and Pre-Start
+*********************************
 
-**Before proceeding, confirm WSO has performed BEFORE ELECTRICAL POWER
-checklist options found in Interior Inspection and Pre-Start- WSO**
-   
-+-------------------------------------------+------------------------------+
-| 1. Auxiliary control panel - SET          | Order ground crew to connect |
-|                                           |                              |
-|                                           | external power and turn on.  |
-| a. Gyro Switch - NORM                     |                              |
-|                                           |                              |
-| b. Aural Tone Control Knob - LOW          |                              |               
-|                                           |                              |
-| c. Boarding steps position                |                              |
-|                                           |                              |
-|    indicator - PROTRUDING                 |                              |
-+-------------------------------------------+------------------------------+
-| 2. Slats override switch - NORM           |                              |
-+-------------------------------------------+------------------------------+
-| 3. Intercom control panel - SET           |                              |
-|                                           |                              |
-| a. Volume control - AS DESIRED            |                              |
-|                                           |                              |
-| b. Amplifier selector knob -              |                              |
-|                                           |                              |
-|    NORM                                   |                              |
-|                                           |                              |
-| c. Function selector switch -             |                              |
-|                                           |                              |
-|    HOT MIC                                |                              |
-+-------------------------------------------+------------------------------+
-| 4. ALE-40 flares/normal switch -          |                              |
-|                                           |                              |
-|    NORMAL                                 |                              |
-+-------------------------------------------+------------------------------+
-| 5. Fuel control panel - SET               |                              |
-|                                           |                              |
-| a. Internal wing transfer switch -        |                              |
-|                                           |                              |
-|    NORMAL                                 |                              |
-|                                           |                              |
-| b. Internal wing dump switch -            |                              |
-|                                           |                              |
-|    NORM                                   |                              |
-|                                           |                              |
-| c. Refuel selection switch - ALL          |                              |
-|                                           |                              |
-|    TANKS                                  |                              |
-|                                           |                              |
-| d. External transfer switch - AS          |                              |
-|                                           |                              |
-|    REQUIRED                               |                              |
-|                                           |                              |
-| e. Air refuel switch - RETRACT            |                              |
-|                                           |                              |
-| f. Tank depressurization switch - NORM    |                              |
-+-------------------------------------------+------------------------------+
-| 6. Stab aug switches - OFF                |                              |
-+-------------------------------------------+------------------------------+
-| 7. Boost pumps - CHECK                    | Cannot be performed when a   |
-|                                           |                              |
-|                                           | battery start is made.       |
-|                                           |                              |
-|                                           | Actuate the left boost pump  |
-|                                           |                              |
-|                                           | switch and observe that the  |
-|                                           |                              |
-|                                           | left boost pump pressure     |
-|                                           |                              |
-|                                           | indicator reads 30.5 psi.    |
-|                                           |                              |
-|                                           | Allow 3 seconds after        |
-|                                           |                              |
-|                                           | release of left switch,      |
-|                                           |                              |
-|                                           | then repeat the procedure    |
-|                                           |                              |
-|                                           | using the right boost pump   |
-|                                           |                              |
-|                                           | check switch. Ensure boost   |
-|                                           |                              |
-|                                           | switch. Ensure boost pump    |
-|                                           |                              |
-|                                           | check switches return to the |
-|                                           |                              |
-|                                           | NORMAL position after        |
-|                                           |                              |
-|                                           | actuation.                   |
-+-------------------------------------------+------------------------------+
-| 8. VOR/ILS control panel - SET            | d.: Cannot be performed      |
-|                                           |                              |
-| a. Volume control knob - AS               | when a battery start is      |
-|                                           |                              |
-|    DESIRED                                | made.                        |
-|                                           |                              |
-| b. Marker volume knob - AS                |                              |
-|                                           |                              |
-|    DESIRED                                |                              |
-|                                           |                              |
-| c. Frequency - AS DESIRED                 |                              |
-|                                           |                              |
-| d. VOR/MKR test switch - TEST*            |                              |
-+-------------------------------------------+------------------------------+
-| 9. Slats flaps switch - AS                | Slats flap switch should     |
-|                                           |                              |
-|    REQUIRED                               | correspond with actual       |
-|                                           |                              |
-|                                           | slats flaps position to      |
-|                                           |                              |
-|                                           | prevent movement during      |
-|                                           |                              |
-|                                           | engine start.                |
-+-------------------------------------------+------------------------------+
-| 10. Emergency slats flaps handle -        |                              |
-|                                           |                              |
-|     FORWARD                               |                              |
-+-------------------------------------------+------------------------------+
-| 11. Drag chute control handle -           |                              |
-|                                           |                              |
-|     DOWN AND SECURE                       |                              |
-+-------------------------------------------+------------------------------+
-| 12. Speed brake switch - IN               |                              |
-+-------------------------------------------+------------------------------+
-| 13. Throttle friction lever -             |                              |
-|                                           |                              |
-|     SET AS DESIRED                        |                              |
-+-------------------------------------------+------------------------------+
-| 14. Comm antenna select switch -          | Anti-skid may malfunction    |
-|                                           |                              |
-|     UPR                                   | while transmitting on the    |
-|                                           |                              |
-|                                           | lower antenna due to         |
-|                                           |                              |
-|                                           | electromagnetic              |
-|                                           |                              |
-|                                           | interference.                |
-+-------------------------------------------+------------------------------+
+WSO
+===
 
++-----+---------------------------------+------------+
+| 1.  | AN/ALE-40 Chaff Dispenser       | OFF        |
++-----+---------------------------------+------------+
+|     | a. Chaff Mode Switch            | OFF        |
++-----+---------------------------------+------------+
+|     | b. Flare Mode Switch            | OFF        |
++-----+---------------------------------+------------+
+|     | c. Ripple Switch                | OFF        |
++-----+---------------------------------+------------+
+| 2.  | Throttles                       | OFF        |
++-----+---------------------------------+------------+
+| 3.  | UHF Radio                       | OFF        |
++-----+---------------------------------+------------+
+| 4.  | AVTR                            | OFF        |
++-----+---------------------------------+------------+
+| 5.  | APX-80 Mode Switch              | OFF        |
++-----+---------------------------------+------------+
+| 6.  | Radar Power                     | OFF        |
++-----+---------------------------------+------------+
+| 7.  | DSCG                            | OFF        |
++-----+---------------------------------+------------+
+| 8.  | ECM Equipment                   | OFF        |
++-----+---------------------------------+------------+
+| 9.  | NAV Function Selector Panel     | SET        |
++-----+---------------------------------+------------+
+|     | a. Bearing Dist Selector Switch | AS DESIRED |
++-----+---------------------------------+------------+
+|     | b. Mode Selector Knob           | AS DESIRED |
++-----+---------------------------------+------------+
+| 10. | INS                             | OFF        |
++-----+---------------------------------+------------+
+| 11. | Nuclear Store Consent Switch    | SAFE       |
++-----+---------------------------------+------------+
+| 12. | NAV Computer                    | OFF        |
++-----+---------------------------------+------------+
+| 13. | Battery Bypass Switch           | OFF        |
++-----+---------------------------------+------------+
+| 14. | SST-181X Pulse Selector Switch  | OFF        |
++-----+---------------------------------+------------+
+| 15. | Circuit Breaker Panels          | CHECK      |
++-----+---------------------------------+------------+
 
+Pilot
+=====
 
++-----+------------------------------+-----------------+
+| 1.  | Auxiliary Control Panel      | SET             |
++-----+------------------------------+-----------------+
+|     | a. Gyro Switch               | NORM            |
++-----+------------------------------+-----------------+
+|     | b. Aural Tone Control Knob   | LOW             |
++-----+------------------------------+-----------------+
+|     | c. Boarding Steps Indicator  | PROTRUDING      |
++-----+------------------------------+-----------------+
+| 2.  | External Power               | ON              |
++-----+------------------------------+-----------------+
+| 3.  | Slats Override Switch        | NORM            |
++-----+------------------------------+-----------------+
+| 4.  | Intercom Control Panel       | SET             |
++-----+------------------------------+-----------------+
+|     | a. Volume Control            | AS DESIRED      |
++-----+------------------------------+-----------------+
+|     | b. Amplifier Selector Knob   | NORM            |
++-----+------------------------------+-----------------+
+|     | c. Function Selector Switch  | HOT MIC         |
++-----+------------------------------+-----------------+
+| 5.  | ALE-40 Flares/Normal Switch  | NORM            |
++-----+------------------------------+-----------------+
+| 6.  | Fuel Control Panel           | SET             |
++-----+------------------------------+-----------------+
+|     | a. Internal Wing Transfer    | NORM            |
++-----+------------------------------+-----------------+
+|     | b. Internal Wing Dump        | NORM            |
++-----+------------------------------+-----------------+
+|     | c. Refuel Selection Switch   | ALL TANKS       |
++-----+------------------------------+-----------------+
+|     | d. External Transfer Switch  | AS REQUIRED     |
++-----+------------------------------+-----------------+
+|     | e. Air Refuel Switch         | RETRACT         |
++-----+------------------------------+-----------------+
+| 7.  | STAB AUG Switches            | OFF             |
++-----+------------------------------+-----------------+
+| 8.  | Boost pumps                  | CHECK           |
++-----+------------------------------+-----------------+
+| 9.  | Reference Select Switch      | STBY            |
++-----+------------------------------+-----------------+
+| 10. | VOR/ILS Control Panel        | SET             |
++-----+------------------------------+-----------------+
+|     | a. Volume Control Knob       | AS DESIRED      |
++-----+------------------------------+-----------------+
+|     | b. Marker Beacon Volume Knob | AS DESIRED      |
++-----+------------------------------+-----------------+
+|     | c. Frequency                 | AS DESIRED      |
++-----+------------------------------+-----------------+
+|     | d. VOR/MKR Test Switch       | TEST            |
++-----+------------------------------+-----------------+
+| 11. | Slats/Flaps Switch           | AS REQUIRED     |
++-----+------------------------------+-----------------+
+| 12. | Emergency Slats/Flaps Handle | FORWARD         |
++-----+------------------------------+-----------------+
+| 13. | Drag Chute Control Handle    | DOWN AND SECURE |
++-----+------------------------------+-----------------+
+| 14. | Speed Brake Switch           | IN              |
++-----+------------------------------+-----------------+
+| 15. | COMM Antenna Select Switch   | UPR             |
++-----+------------------------------+-----------------+
 
-.. _bstrtp:
-
-Before Starting Engines - Pilot
-*******************************
-
-+----------------------------------+----------------------------------+
-| 1. Seat pins - CHECK REMOVED AND | If pilot interior inspection     |
-|                                  |                                  |
-| STOWED                           | checklist was not followed,      |
-|                                  |                                  |
-|                                  | confirm WSO has completed BEFORE |
-|                                  |                                  |
-|                                  | ELECTRICAL POWER steps have been |
-|                                  |                                  |
-|                                  | completed, then order ground     |
-|                                  |                                  |
-|                                  | crew to connect external power   |
-|                                  |                                  |
-|                                  | and turn on.                     |
-+----------------------------------+----------------------------------+
-| 2. CNI switch - ON               | Have ground personnel place the  |
-|                                  |                                  |
-|                                  | CNI switch in the left wheel     |
-|                                  |                                  |
-|                                  | well to the ON position.         |
-+----------------------------------+----------------------------------+
-|                                  | CAUTION: When the CNI equipment  |
-|                                  |                                  |
-|                                  | is operationg on external power  |
-|                                  |                                  |
-|                                  | without cooling air applied, it  |
-|                                  |                                  |
-|                                  | is limited to 10 minutes of      |
-|                                  |                                  |
-|                                  | accumulated operation in a 1     |
-|                                  |                                  |
-|                                  | hour period in order to prevent  |
-|                                  |                                  |
-|                                  | heat damage to the equipment.    |
-+----------------------------------+----------------------------------+
-| 3. Fore and aft area - CLEAR     | Ensure the wheels are chocked    |
-|                                  |                                  |
-|                                  | and the engine intake, and       |
-|                                  |                                  |
-|                                  | exhaust areas, starter exhaust   |
-|                                  |                                  |
-|                                  | areas, and cockpit and canopy    |
-|                                  |                                  |
-|                                  | rail areas are clear of          |
-|                                  |                                  |
-|                                  | personnel and equipment.         |
-+----------------------------------+----------------------------------+
-| 4. Fire guard - POSTED           |                                  |
-+----------------------------------+----------------------------------+
-| 5. Throttles - OFF               | CAUTION: Attempting a pneumatic  |
-|                                  |                                  |
-|                                  | start with throttles out of OFF  |
-|                                  |                                  |
-|                                  | will result in fuel puddling and |
-|                                  |                                  |
-|                                  | the possibility of a hot start   |
-|                                  |                                  |
-|                                  | or fire.                         |
-+----------------------------------+----------------------------------+ 
-
-
-
-
-.. _strtp:
-
-Starting Engines: Penumatic - Pilot
-***********************************
-
-+----------------------------------+----------------------------------+
-| 1. External air source - CONNECT | Order ground crew to connect     |
-|                                  |                                  |
-|    TO RIGHT STARTER              | external air and turn on.        |
-|                                  |                                  |
-|                                  | Order ground crew to place wheel |
-|                                  |                                  |
-|                                  | chocks.                          |
-|                                  |                                  |
-|                                  | If prior checklists were not     |
-|                                  |                                  |
-|                                  | followed, confirm WSO has        |
-|                                  |                                  |
-|                                  | completed BEFORE ELECTRICAL      |
-|                                  |                                  |
-|                                  | POWER steps have been completed, |
-|                                  |                                  |
-|                                  | then order ground crew to        |
-|                                  |                                  |
-|                                  | connect external power and turn  |
-|                                  |                                  |
-|                                  | on.                              |
-+----------------------------------+----------------------------------+
-| 2. Engine master switches - ON   |                                  |
-+----------------------------------+----------------------------------+
-| 3. Engine - CRANK                | Signal ground crew to start      |
-|                                  |                                  |
-|                                  | external airflow and monitor the |
-|                                  |                                  |
-|                                  | tachometer for the first         |
-|                                  |                                  |
-|                                  | indication of engine rotation.   |
-|                                  |                                  |
-|                                  | CAUTION: If there is no          |
-|                                  |                                  |
-|                                  | indication of engine rpm within  |
-|                                  |                                  |
-|                                  | 15 seconds or no indication of   |
-|                                  |                                  |
-|                                  | oil or hydraulic pressure within |
-|                                  |                                  |
-|                                  | 30 seconds after external air is |
-|                                  |                                  |
-|                                  | applied discontinue the start.   |
-+----------------------------------+----------------------------------+
-| 4. At 10% rpm, ignition button - | Depress the ignition button and  |
-|                                  |                                  |
-| PRESS AND HOLD WHILE ADVANCING   | simultaneously advance the       |
-|                                  |                                  |
-| THROTTLE                         | throttle to a position halfway   |
-|                                  |                                  |
-|                                  | up the basic/MIL range, then     |
-|                                  |                                  |
-|                                  | snap the throttle to IDLE while  |
-|                                  |                                  |
-|                                  | monitoring fuel flow. If the     |
-|                                  |                                  |
-|                                  | fuel flow drops below 225 pph    |
-|                                  |                                  |
-|                                  | (400 pph, low smoke engine), the |
-|                                  |                                  |
-|                                  | throttle rigging is out of       |
-|                                  |                                  |
-|                                  | limits.                          |
-|                                  |                                  |
-|                                  | CAUTION: Do not attempt to start |
-|                                  |                                  |
-|                                  | the engine before reaching 10%   |
-|                                  |                                  |
-|                                  | rpm. If the starting procedure   |
-|                                  |                                  |
-|                                  | is initiated at a lower rpm      |
-|                                  |                                  |
-|                                  | additional heat distress of the  |
-|                                  |                                  |
-|                                  | engine hot section is            |
-|                                  |                                  |
-|                                  | anticipated.                     |
-+----------------------------------+----------------------------------+
-| 5. Release ignition button as    | Lightoff is indicated by a rise  |
-|                                  |                                  |
-| soon as lightoff is indicated    | in exhaust gas temperature       |
-|                                  |                                  |
-|                                  | followed by an increase in       |
-|                                  |                                  |
-|                                  | engine rpm. Engine lightoff is   |
-|                                  |                                  |
-|                                  | usually noted at approximately   |
-|                                  |                                  |
-|                                  | 13 to 16% rpm with a fuel flow   |
-|                                  |                                  |
-|                                  | of 225 to 750 pounds per hour    |
-|                                  |                                  |
-|                                  | (400 to 1,200 pounds per hour,   |
-|                                  |                                  |
-|                                  | low smoke engine). Higher fuel   |
-|                                  |                                  |
-|                                  | flow values are likely to result |
-|                                  |                                  |
-|                                  | in hot starts. To prevent an     |
-|                                  |                                  |
-|                                  | overtemperature condition from   |
-|                                  |                                  |
-|                                  | occurring, the engines should be |
-|                                  |                                  |
-|                                  | shut down prior to reaching the  |
-|                                  |                                  |
-|                                  | actual EGT limit. The engine may |
-|                                  |                                  |
-|                                  | be shutdown from any throttle by |
-|                                  |                                  |
-|                                  | placing its engine master switch |
-|                                  |                                  |
-|                                  | OFF (provided the other master   |
-|                                  |                                  |
-|                                  | switch is ON, if a battery       |
-|                                  |                                  |
-|                                  | start).                          |
-|                                  |                                  |
-|                                  | After any wet or false start,    |
-|                                  |                                  |
-|                                  | allow 1 minute or longer for the |
-|                                  |                                  |
-|                                  | combustion system to drain       |
-|                                  |                                  |
-|                                  | before restarting the engine.    |
-+----------------------------------+----------------------------------+
-| 6. At 45% rpm, signal ground     |                                  |
-|                                  |                                  |
-| crew to stop external airflow    |                                  |
-+----------------------------------+----------------------------------+
-| 7. Exhuast gas temperature       |                                  |
-|                                  |                                  |
-| indicator - 220to 420C (250C to  |                                  |
-|                                  |                                  |
-| 540C, low smoke engine)          |                                  |
-+----------------------------------+----------------------------------+
-| 8. Fuel flow indicator - WITHIN  | Fuel flow should not exceed 750  |
-|                                  |                                  |
-| LIMITS                           | pph at lightoff, and 800 to 1400 |
-|                                  |                                  |
-|                                  | pph at idle. For low smoke       |
-|                                  |                                  |
-|                                  | engines, fuel flow should not    |
-|                                  |                                  |
-|                                  | exceed 1,200 pph at lightoff,    |
-|                                  |                                  |
-|                                  | and 800 to 1,500 pph at idle.    |
-|                                  |                                  |
-|                                  | Fuel consumed during starting is |
-|                                  |                                  |
-|                                  | approximately 65 pounds per      |
-|                                  |                                  |
-|                                  | engine.                          |
-+----------------------------------+----------------------------------+
-| 9. Idle rpm - 65 %               |                                  |
-+----------------------------------+----------------------------------+
-| 10. Right boost pump indicator - |                                  |
-|                                  |                                  |
-| 30 psi                           |                                  |
-+----------------------------------+----------------------------------+
-| 11. Oil pressure indication - 12 |                                  |
-|                                  |                                  |
-| PSI MIN 50 PSI MAX               |                                  |
-+----------------------------------+----------------------------------+
-| 12. Hydraulic pressure           | With the right engine started,   |
-|                                  |                                  |
-| indicators - WITHIN LIMITS       | the PC-2 hydraulic pressure      |
-|                                  |                                  |
-|                                  | indicator should read 3000 psi   |
-|                                  |                                  |
-|                                  | and the utility hydraulic        |
-|                                  |                                  |
-|                                  | pressure indicator should read   |
-|                                  |                                  |
-|                                  | 2775 . The check hydraulic gage  |
-|                                  |                                  |
-|                                  | indicator light remains          |
-|                                  |                                  |
-|                                  | illuminated until the left       |
-|                                  |                                  |
-|                                  | engine is started and all four   |
-|                                  |                                  |
-|                                  | hydraulic pumps are operating    |
-|                                  |                                  |
-|                                  | above 1750 psi. When the left    |
-|                                  |                                  |
-|                                  | engine is started, the utility   |
-|                                  |                                  |
-|                                  | hydraulic pressure indicator     |
-|                                  |                                  |
-|                                  | should read 3000 psi.            |
-|                                  |                                  |
-|                                  | CAUTION: With only one engine    |
-|                                  |                                  |
-|                                  | operating, excessive rapid       |
-|                                  |                                  |
-|                                  | movement of the control stick    |
-|                                  |                                  |
-|                                  | may rupture the inoperative      |
-|                                  |                                  |
-|                                  | power control system reservoir.  |
-+----------------------------------+----------------------------------+
-| 13. Right generator switch - GEN | Ensure RH GEN OUT and BUS TIE    |
-|                                  |                                  |
-| ON                               | OPEN lights go out. On aircraft  |
-|                                  |                                  |
-|                                  | without DMAS, to avoid           |
-|                                  |                                  |
-|                                  | electrical power interruption    |
-|                                  |                                  |
-|                                  | which could result in an INS     |
-|                                  |                                  |
-|                                  | No-Go indication, the pilot      |
-|                                  |                                  |
-|                                  | should ensure that the INS is    |
-|                                  |                                  |
-|                                  | not in the align mode when the   |
-|                                  |                                  |
-|                                  | generator switches are placed to |
-|                                  |                                  |
-|                                  | GEN ON.                          |
-+----------------------------------+----------------------------------+
-| 14. APU light - CHECK ON (some   | The APU light will remain        |
-|                                  |                                  |
-| aircraft)                        | illuminated for approximately 1  |
-|                                  |                                  |
-|                                  | mintue after the left engine is  |
-|                                  |                                  |
-|                                  | started.                         |
-+----------------------------------+----------------------------------+
-| 15. Spoiler actuator - CHECK     | With the right engine operating, |
-|                                  |                                  |
-|                                  | slowly deflect the control stick |
-|                                  |                                  |
-|                                  | approximately 1 inch to the      |
-|                                  |                                  |
-|                                  | left. Verify the spoiler does    |
-|                                  |                                  |
-|                                  | not fully deflect and that it    |
-|                                  |                                  |
-|                                  | returns to a flush position when |
-|                                  |                                  |
-|                                  | the stick is returned to         |
-|                                  |                                  |
-|                                  | neutral.                         |
-+----------------------------------+----------------------------------+
-| 16. Air refueling door and       |                                  |
-|                                  |                                  |
-| exterior air refueling lights -  |                                  |
-|                                  |                                  |
-| CHECK (if required)              |                                  |
-+----------------------------------+----------------------------------+
-| 17. Start the left engine per    |                                  |
-|                                  |                                  |
-| steps 1 through 12, substituting |                                  |
-|                                  |                                  |
-| LEFT in all cases.               |                                  |
-+----------------------------------+----------------------------------+
-| 18. Left generator switch - GEN  | Ensure that the LH GEN OUT light |
-|                                  |                                  |
-| ON                               | goes out. If the BUS TIE OPEN    |
-|                                  |                                  |
-|                                  | light does not go out within     |
-|                                  |                                  |
-|                                  | approximately 18 seconds,        |
-|                                  |                                  |
-|                                  | accelerate either engine to      |
-|                                  |                                  |
-|                                  | approximately 70% rpm and cycle  |
-|                                  |                                  |
-|                                  | right generator. In low ambient  |
-|                                  |                                  |
-|                                  | temperatures, the BUS TIE OPEN   |
-|                                  |                                  |
-|                                  | light may not immediately go out |
-|                                  |                                  |
-|                                  | after the left engine is started |
-|                                  |                                  |
-|                                  | and the left generator light     |
-|                                  |                                  |
-|                                  | goes out. This may be due to the |
-|                                  |                                  |
-|                                  | failure of the generators to     |
-|                                  |                                  |
-|                                  | synchronise quickly because of   |
-|                                  |                                  |
-|                                  | cold oil in the left generator   |
-|                                  |                                  |
-|                                  | CSD.                             |
-+----------------------------------+----------------------------------+
-| 19. Right generator switch -     | Cycle the right generator switch |
-|                                  |                                  |
-| CYCLE                            | (OFF, then GEN ON), and check    |
-|                                  |                                  |
-|                                  | that the RH GEN OUT light        |
-|                                  |                                  |
-|                                  | illuminates.                     |
-+----------------------------------+----------------------------------+
-| 20. BUS TIE OPEN light - OUT     | Ensure that the BUS TIE OPEN     |
-|                                  |                                  |
-|                                  | light remains out when placing   |
-|                                  |                                  |
-|                                  | the right generator switch to    |
-|                                  |                                  |
-|                                  | OFF, and that it flashes         |
-|                                  |                                  |
-|                                  | momentarily when the switch is   |
-|                                  |                                  |
-|                                  | returned to the GEN ON position. |
-+----------------------------------+----------------------------------+
-| 21. External air - DISCONNECT    | Order ground crew to disconnect  |
-|                                  |                                  |
-|                                  | ground air supply.               |
-+----------------------------------+----------------------------------+
-| 22. External electrical power -  | Order ground crew to disconnect  |
-|                                  |                                  |
-| DISCONNECT                       | external power supply.           |
-+----------------------------------+----------------------------------+
-| 23. Interior check - COMPLETE    |                                  |
-|                                  |                                  |
-| (if applicable)                  |                                  |
-+----------------------------------+----------------------------------+
-
-
-
-.. _btaxip:
-
-Before Taxiing - Pilot
-**********************
-
-+----------------------------------+----------------------------------+
-| 1. Anti-G suit system - CHECK    |                                  |
-+----------------------------------+----------------------------------+
-| 2. Communication and navigation  |                                  |
-|                                  |                                  |
-|    equipment - ON AND CHECK      |                                  |
-+----------------------------------+----------------------------------+
-| 3. IFF - STANDBY                 | Prior to this point the IFF      |
-|                                  |                                  |      
-|                                  | should remain OFF as any         |
-|                                  |                                  |      
-|                                  | interruption of power would      |
-|                                  |                                  |      
-|                                  | cause loss of the mode 4 code.   |
-+----------------------------------+----------------------------------+
-| 4. Radar altimeter - ON          | Check that OFF flag moves out of |
-|                                  |                                  |      
-|                                  | view.                            |
-+----------------------------------+----------------------------------+
-| 5. Altimeter and SPC - SET AND   | Note: If the altimeter is not    |
-|                                  |                                  |
-|    CHECK                         | within tolerance in RESET, the   |
-|                                  |                                  |
-|                                  | aircraft may be flown in the     |
-|                                  |                                  |
-| a. Set current altimeter setting | STBY mode provided that, in the  |
-|                                  |                                  |
-|    on the barometric scale.      | STBY mode, the altimeter checks  |
-|                                  |                                  |
-|                                  | with feet of field elevation.    |
-|                                  |                                  |
-| b. Altimeter pointer should      | The feet of field elevation is   |
-|                                  |                                  |
-|    indicate the field elevation  | not an operation restriction and |
-|                                  |                                  |
-|    with feet.                    | does not necessarily reflect     |
-|                                  |                                  |
-|                                  | instrument tolerances.           |
-|                                  |                                  |
-| c. Place the SPC switch to RESET |                                  |
-|                                  |                                  |
-|    CORR. The STATIC CORR OFF     |                                  |
-|                                  |                                  |
-|    light should go out and       |                                  |
-|                                  |                                  |
-|    remain out. Disregard initial |                                  |
-|                                  |                                  |
-|    momentary engagement          |                                  |
-|                                  |                                  |
-|    oscillations. Altimeter       |                                  |
-|                                  |                                  |
-|    reading after oscillations    |                                  |
-|                                  |                                  |
-|    stop should not exceed feet   |                                  |
-|                                  |                                  |
-|    from original reading.        |                                  |
-|                                  |                                  |
-|    Continued altimeter           |                                  |
-|                                  |                                  |
-|    oscillations of any magnitude |                                  |
-|                                  |                                  |
-|    are unacceptable.             |                                  |
-|                                  |                                  |
-| d. With the static correction on |                                  |
-|                                  |                                  |
-|    (SPC engaged), the altimeter  |                                  |
-|                                  |                                  |
-|    should indicate the field     |                                  |
-|                                  |                                  |
-|    elevation within feet.        |                                  |
-|                                  |                                  |
-| e. The difference between the    |                                  |
-|                                  |                                  |
-|    front and rear cockpit        |                                  |
-|                                  |                                  |
-|    altimeters should not exceed  |                                  |
-|                                  |                                  |
-|    100 feet.                     |                                  |
-|                                  |                                  |
-| f. Place the altimeter switch to |                                  |
-|                                  |                                  |
-|    RESET. Altimeter should not   |                                  |
-|                                  |                                  |
-|    vary more than feet and the   |                                  |
-|                                  |                                  |
-|    red STBY flag should not be   |                                  |
-|                                  |                                  |
-|    in view.                      |                                  |
-|                                  |                                  |
-| g. The altimeter should indicate |                                  |
-|                                  |                                  |
-|    the field elevation within    |                                  |
-|                                  |                                  |
-|    feet.                         |                                  |
-|                                  |                                  |
-| h. With both altimeters in       |                                  |
-|                                  |                                  |
-|    RESET, the difference between |                                  |
-|                                  |                                  |
-|    the front and rear cockpit    |                                  |
-|                                  |                                  |
-|    should not exceed 75 feet.    |                                  |
-+----------------------------------+----------------------------------+
-| 6. Speed brakes - CYCLE          |                                  |
-+----------------------------------+----------------------------------+
-| 7. Slats flaps - CHECK           | Place slats flaps to OUT;        |
-|                                  |                                  |
-|                                  | observe that the slats indicate  |
-|                                  |                                  |
-|                                  | OUT and flaps indicate DN. The   |
-|                                  |                                  |
-|                                  | flaps may not extend or retract  |
-|                                  |                                  |
-|                                  | together without airloads on     |
-|                                  |                                  |
-|                                  | them. This condition is normal   |
-|                                  |                                  |
-|                                  | and the flaps should extend and  |
-|                                  |                                  |
-|                                  | retract together when airborne.  |
-|                                  |                                  |
-|                                  | Place slats override switch to   |
-|                                  |                                  |
-|                                  | IN; observe slats retract. Place |
-|                                  |                                  |
-|                                  | slats override switch to NORM;   |
-|                                  |                                  |
-|                                  | observe slats extend.            |
-+----------------------------------+----------------------------------+
-| 8. Flight controls - CHECK       | The MASTER CAUTION and CHK HYD   |
-|                                  |                                  |
-|    (slats flaps OUT AND DOWN)    | GAGES lights may illuminate      |
-|                                  |                                  |
-|                                  | momentarily during this check.   |
-|                                  |                                  |
-| a. Pitch trim - 1 TO 3 UNITS     |                                  |
-|                                  |                                  |
-|    NOSE DOWN                     |                                  |
-|                                  |                                  |
-| b. Control Stick - PULL FULL AFT |                                  |
-|                                  |                                  |
-|    AND RELEASE                   |                                  |
-|                                  |                                  |
-| c. Rudder - CHECK FULL TRAVEL    |                                  |
-|                                  |                                  |
-|    LEFT AND RIGHT                |                                  |
-|                                  |                                  |
-| d. Ailerons/ARI - CHECK          | Move control stick full left.    |
-|                                  |                                  |
-|                                  | Observe left spoiler up, right   |
-|                                  |                                  |
-|                                  | aileron down and rudder slightly |
-|                                  |                                  |
-|                                  | left. Engage yaw stab up, right  |
-|                                  |                                  |
-|                                  | aileron down and rudder slightly |
-|                                  |                                  |
-|                                  | left. Engage yaw stab aug.       |
-|                                  |                                  |
-|                                  | Observe rudder move further      |
-|                                  |                                  |
-|                                  | left. Depress emergency quick    |
-|                                  |                                  |
-|                                  | release lever. Observe rudder    |
-|                                  |                                  |
-|                                  | move toward neutral. Release     |
-|                                  |                                  |
-|                                  | emergency quick release lever,   |
-|                                  |                                  |
-|                                  | neutralize stick and disengage   |
-|                                  |                                  |
-|                                  | stab aug. Repeat check           |
-|                                  |                                  |
-|                                  | substituting right for left.     |
-+----------------------------------+----------------------------------+
-| 9. Slats flaps - NORM            |                                  |
-+----------------------------------+----------------------------------+
-| 10. ARI disengage - CHECK        | Move stick full right and left.  |
-|                                  |                                  |
-|                                  | Observe no rudder movement.      |
-+----------------------------------+----------------------------------+
-| 11. Stab aug switches - ENGAGE   | Engage each axis of stab aug     |
-|                                  |                                  |
-|     AND CHECK                    | individually. Observe no         |
-|                                  |                                  |
-|                                  | movement of any control surface. |
-|                                  |                                  |
-|                                  | If an aileron/spoiler deflects   |
-|                                  |                                  |
-|                                  | during roll stab aug engagement, |
-|                                  |                                  |
-|                                  | it may take up to 4 seconds to   |
-|                                  |                                  |
-|                                  | resettle after roll stab aug is  |
-|                                  |                                  |
-|                                  | disengaged. Allow enough time    |
-|                                  |                                  |
-|                                  | for the aileron/spoiler to       |
-|                                  |                                  |
-|                                  | resettle before reengaging roll  |
-|                                  |                                  |
-|                                  | stab autg to check the other     |
-|                                  |                                  |
-|                                  | aileron/spoiler.                 |
-+----------------------------------+----------------------------------+
-| 12. Reference system selector -  |                                  |
-|                                  |                                  |
-|     PRIM (ensure INS is in NAV)  |                                  |
-+----------------------------------+----------------------------------+
-| 13. Compass mode control knob -  | Allow 10 seconds for automatic   |
-|                                  |                                  |
-|     SYNC                         | synchronization before manually  |
-|                                  |                                  |
-|                                  | synchronizing system.            |
-+----------------------------------+----------------------------------+
-| 14. Automatic flight control     |                                  |
-|                                  |                                  |
-|     system - CHECK               |                                  |
-|                                  |                                  |
-| a. AFCS - ENGAGE                 |                                  |
-|                                  |                                  |
-| b. Altitude hold - ENGAGE        |                                  |
-|                                  |                                  |
-| c. AFCS - DISENGAGE              | Depress and hold the front       |
-|                                  |                                  |
-|                                  | cockpit emergency quick release  |
-|                                  |                                  |
-|                                  | lever. Observe PITCH AUG OFF,    |
-|                                  |                                  |
-|                                  | AUTOPILOT DISENGAGE, and MASTER  |
-|                                  |                                  |
-|                                  | CAUTION lights illuminate.       |
-|                                  |                                  |
-|                                  | Release lever. Observe PITCH AUG |
-|                                  |                                  |
-|                                  | OFF light goes out.              |
-|                                  |                                  |
-| d. AFCS - ENGAGE                 |                                  |
-|                                  |                                  |
-| e. (WSO) AFCS - DISENGAGE        | Depress and hold the rear        |
-|                                  |                                  |
-|                                  | cockpit emergency quick release  |
-|                                  |                                  |
-|                                  | lever. Observe PITCH AUG OFF,    |
-|                                  |                                  |
-|                                  | AUTOPILOT DISENGAGE, and MASTER  |
-|                                  |                                  |
-|                                  | CAUTION lights illuminate.       |
-|                                  |                                  |
-|                                  | Release lever. Observe PITCH AUG |
-|                                  |                                  |
-|                                  | OFF light goes out.              |
-+----------------------------------+----------------------------------+
-| 15. Stab aug switches -          |                                  |
-|                                  |                                  |
-|     DISENGAGE                    |                                  |
-+----------------------------------+----------------------------------+
-| 16. Trim - CHECK AND SET 1 TO 3  | With 3 units nose down trim,     |
-|                                  |                                  |
-|     UNITS NOSE DOWN              | expect a nose heavy tendency on  |
-|                                  |                                  |
-|                                  | the takeoff roll which quickly   |
-|                                  |                                  |
-|                                  | approaches a trimmed condition   |
-|                                  |                                  |
-|                                  | as the aircraft lifts off and    |
-|                                  |                                  |
-|                                  | flaps are retracted. With 1 unit |
-|                                  |                                  |
-|                                  | nose down trim, a very marked    |
-|                                  |                                  |
-|                                  | nose up trim occurs after        |
-|                                  |                                  |
-|                                  | approximately 230 knots          |
-|                                  |                                  |
-|                                  | requiring a large nose down trim |
-|                                  |                                  |
-|                                  | change at very low altitude.     |
-+----------------------------------+----------------------------------+
-| 17. Slats flaps - OUT AND DOWN   |                                  |
-+----------------------------------+----------------------------------+
-| 18. Optical sight - STBY OR      |                                  |
-|                                  |                                  |
-|     CAGED                        |                                  |
-+----------------------------------+----------------------------------+
-| 19. Pneumatic pressure - CHECK   |                                  |
-+----------------------------------+----------------------------------+
-| 20. IFF - CHECK                  |                                  |
-+----------------------------------+----------------------------------+
-| 21. Radar altimeter - CHECK      | Allow 5 minutes warm-up after    |
-|                                  |                                  |
-|                                  | radar altimeter turned on.       |
-+----------------------------------+----------------------------------+
-| 22. Function control switch -    | Check that pointer moves to 35   |
-|                                  |                                  |
-|     PRESS                        | feet and stabilizes.             |
-+----------------------------------+----------------------------------+
-| 23. Low altitude warning light - | With function control switch     |
-|                                  |                                  |
-|     CHECK                        | pressed, move reference marker   |
-|                                  |                                  |
-|                                  | above and below pointer. Warning |
-|                                  |                                  |
-|                                  | light must come on with feet of  |
-|                                  |                                  |
-|                                  | indicated altitude.              |
-+----------------------------------+----------------------------------+
-| 24. Function control switch -    | Move reference marker to below 5 |
-|                                  |                                  |
-|     RELEASE                      | feet. Check that warning light   |
-|                                  |                                  |
-|                                  | is off and altitude pointer      |
-|                                  |                                  |
-|                                  | fluctuates.                      |
-+----------------------------------+----------------------------------+
-| 25. Reference marker - SET       | Set to desired low altitude      |
-|                                  |                                  |
-|                                  | limit.                           |
-+----------------------------------+----------------------------------+
-| 26. Wheel chocks - REMOVED       | Order ground crew to remove      |
-|                                  |                                  |
-|                                  | wheel chocks.                    |
-+----------------------------------+----------------------------------+
-
-.. _intrw:
-
-Interior Inspection and Startup - WSO
-*************************************
-
-**COMPLETE TO STEP 15 BEFORE ELECTRICAL POWER IS APPLIED**
-
-**These procedures msut be completed before the pilot directs the ground crew to connect external electrical power or an Engine Master Switch.**
-
-+----------------------------------+----------------------------------+
-| 1. AN/ALE-40 chaff dispenser -   |                                  |
-|                                  |                                  |
-| OFF                              |                                  |
-|                                  |                                  |
-| a. Chaff mode switch - OFF       |                                  |
-|                                  |                                  |
-| b. Flare mode switch - OFF       |                                  |
-|                                  |                                  |
-| c. Ripple switch - OFF           |                                  |
-+----------------------------------+----------------------------------+
-| 2.Throttles - AFT                |                                  |
-+----------------------------------+----------------------------------+
-| 3. UHF radio - OFF               |                                  |
-+----------------------------------+----------------------------------+
-| 4. AVTR - OFF                    |                                  |
-+----------------------------------+----------------------------------+
-| 5. APX-80 mode switch - OFF      |                                  |
-+----------------------------------+----------------------------------+
-| 6. Radar power - OFF             | The radar power selector knob    |
-|                                  |                                  |
-|                                  | should remain OFF until the      |
-|                                  |                                  |
-|                                  | aircraft is operating on         |
-|                                  |                                  |
-|                                  | internal power.                  |
-+----------------------------------+----------------------------------+
-| 7. DSCG - OFF                    |                                  |
-+----------------------------------+----------------------------------+
-| 8. ECM equipment - OFF           |                                  |
-+----------------------------------+----------------------------------+
-| 9. INS - OFF                     |                                  |
-+----------------------------------+----------------------------------+
-| 10. Navigation computer set      |                                  |
-|                                  |                                  |
-| control - SET                    |                                  |
-|                                  |                                  |
-| a. Mode selector knob - AS       |                                  |
-|                                  |                                  |
-|    DESIRED                       |                                  |
-|                                  |                                  |
-| b. INS knob - SYS OFF            |                                  |
-+----------------------------------+----------------------------------+
-| 11. Nuclear store consent switch |                                  |
-| - SAFE                           |                                  |
-+----------------------------------+----------------------------------+
-| 12. Nav computer - OFF           |                                  |
-+----------------------------------+----------------------------------+
-| 13. Battery bypass switch - OFF  |                                  |
-+----------------------------------+----------------------------------+
-| 14. SST-181X pulse selector      |                                  |
-|                                  |                                  |
-| switch - OFF                     |                                  |
-+----------------------------------+----------------------------------+
-| 15. Circuit breaker panels -     |                                  |
-|                                  |                                  |
-| CHECK                            |                                  |
-+----------------------------------+----------------------------------+
-| PILOT MAY NOW INITIATE GROUND    |                                  |
-|                                  |                                  |
-| POWER/MASTER SWITCH FOR BATTERY  |                                  |
-+----------------------------------+----------------------------------+
-| 16. Instrument ground power      | Cannot be performed when battery |
-|                                  |                                  |
-| switch - ACTUATE                 | start is made.                   |
-+----------------------------------+----------------------------------+
-| 17. TISEO - OFF                  |                                  |
-+----------------------------------+----------------------------------+
-| 18. Navigation computer - SET    |                                  |
-|                                  |                                  |
-| a. Function select knob - TGT 1  |                                  |
-|                                  |                                  |
-|    or TGT 2                      |                                  |
-|                                  |                                  |
-| b. Wind counters - SET PREFLIGHT |                                  |
-|                                  |                                  |
-|    WIND DIRECTION AND SPEED      |                                  |
-|                                  |                                  |
-| c. Variation counter - SET LOCAL |                                  |
-|                                  |                                  |
-|    MAGNETIC VARIATION            |                                  |
-|                                  |                                  |
-| d. Position update switch - NORM |                                  |
-|                                  |                                  |
-| e. Present position counters -   |                                  |
-|                                  |                                  |
-|    SET                           |                                  |
-|                                  |                                  |
-| f. Target counters - SET FOR TGT |                                  |
-|                                  |                                  |
-|    2                             |                                  |
-|                                  |                                  |
-| g. Function selector knob -      | Coordinates may be stored in the |
-|                                  |                                  |
-|    RESET                         | navigation computer by placing   |
-|                                  |                                  |
-|                                  | the function selector knob to    |
-|                                  |                                  |
-|                                  | RESET. The coordinates stored in |
-|                                  |                                  |
-|                                  | the AN/ASN-46A are those in the  |
-|                                  |                                  |
-|                                  | target windows.                  |
-|                                  |                                  |
-| h. Function selector knob - TGT  | With the nav mode selector       |
-|                                  |                                  |
-|    1 or TGT 2                    | switch in BRG - TRACK, set the   |
-|                                  |                                  |
-|                                  | same present position and target |
-|                                  |                                  |
-|                                  | coordinates. The computed DME on |
-|                                  |                                  |
-|                                  | the BDHI for TGT 1 and TGT 2     |
-|                                  |                                  |
-|                                  | should be within 0 1.5NM.        |
-|                                  |                                  |
-| i. Target counters - SET FOR TGT |                                  |
-|                                  |                                  |
-|    1                             |                                  |
-+----------------------------------+----------------------------------+
-| 19. INS alignment - AS DESIRED   |                                  |
-+----------------------------------+----------------------------------+
-| 20. Seat pins - CHECK REMOVED    |                                  |
-|                                  |                                  |
-| AND STOWED                       |                                  |
-+----------------------------------+----------------------------------+
-| 21. Communications navigation    |                                  |
-|                                  |                                  |
-| control panel - SET              |                                  |
-|                                  |                                  |
-| a. Communication frequency       |                                  |
-|                                  |                                  |
-|    control knobs - AS REQUIRED   |                                  |
-|                                  |                                  |
-| b. Communication channel control |                                  |
-|                                  |                                  |
-|    knobs - AS REQUIRED           |                                  |
-|                                  |                                  |
-| c. Mode select switch - AS       |                                  |
-|                                  |                                  |
-|    REQUIRED (some aircraft)      |                                  |
-|                                  |                                  |
-| d. Communication volume control  |                                  |
-|                                  |                                  |
-|    knob - AS DESIRED             |                                  |
-|                                  |                                  |
-| e. Auxiliary channel control     |                                  |
-|                                  |                                  |
-|    knob - AS REQUIRED            |                                  |
-|                                  |                                  |
-| f. Auxiliary volume control knob |                                  |
-|                                  |                                  |
-|    - AS DESIRED                  |                                  |
-|                                  |                                  |
-| g. COMM-AUX pushbutton -TR +G    |                                  |
-|                                  |                                  |
-|    -ADF                          |                                  |
-|                                  |                                  |
-| h. Navigation channel control    |                                  |
-|                                  |                                  |
-|    knobs - AS REQUIRED           |                                  |
-|                                  |                                  |
-| i. Navigation volume control     |                                  |
-|                                  |                                  |
-|    knobs - AS DESIRED            |                                  |
-|                                  |                                  |
-| j. TACAN function selection knob |                                  |
-|                                  |                                  |
-|    - OFF                         |                                  |
-|                                  |                                  |
-| k. Communication command button  |                                  |
-|                                  |                                  |
-|    - AS DESIRED                  |                                  |
-|                                  |                                  |
-| l. Navigation command button -   |                                  |
-|                                  |                                  |
-|    AS DESIRED                    |                                  |
-+----------------------------------+----------------------------------+
-| 22. VOR/ILS/marker beacon volume |                                  |
-|                                  |                                  |
-| - AS DESIRED                     |                                  |
-+----------------------------------+----------------------------------+
-| 23. Emergency slats flaps handle |                                  |
-|                                  |                                  |
-| - FORWARD                        |                                  |
-+----------------------------------+----------------------------------+
-| 24. Intercom control panel - SET |                                  |
-|                                  |                                  |
-| a. Volume control knob - AS      |                                  |
-|                                  |                                  |
-|    DESIRED                       |                                  |
-|                                  |                                  |
-| b. Amplifier selection knob -    |                                  |
-|                                  |                                  |
-|    NORM                          |                                  |
-|                                  |                                  |
-| c. Function selector knob - HOT  |                                  |
-|                                  |                                  |
-|    MIC                           |                                  |
-+----------------------------------+----------------------------------+
-| 25. Emergency gear handle - IN   |                                  |
-|                                  |                                  |
-| AND SECURE                       |                                  |
-+----------------------------------+----------------------------------+
-| 26. Emergency brake handle - IN  |                                  |
-|                                  |                                  |
-| AND SECURE                       |                                  |
-+----------------------------------+----------------------------------+
-| 27. Slats flaps position         |                                  |
-|                                  |                                  |
-| indicators - IN AND UP           |                                  |
-+----------------------------------+----------------------------------+
-| 28. Landing gear position        |                                  |
-|                                  |                                  |
-| indicators - GEAR DOWN           |                                  |
-|                                  |                                  |
-| INDICATION                       |                                  |
-+----------------------------------+----------------------------------+
-| 29. Canopy emergency jettison    |                                  |
-|                                  |                                  |
-| handle - FORWARD                 |                                  |
-+----------------------------------+----------------------------------+
-| 30. Radar scope - SECURE         |                                  |
-+----------------------------------+----------------------------------+
-| 31. Attitude indicator - CHECK   |                                  |
-|                                  |                                  |
-| AND SET                          |                                  |
-|                                  |                                  |
-| a. Rotate pitch trim knob to     |                                  |
-|                                  |                                  |
-|    check travel (-10to +5)       |                                  |
-|                                  |                                  |
-| b. Set horizon bar level with    |                                  |
-|                                  |                                  |
-|    miniature aircraft.           |                                  |
-+----------------------------------+----------------------------------+
-| 32. Clock - WIND AND SET         |                                  |
-+----------------------------------+----------------------------------+
-| 33. Accelerometer - SET          |                                  |
-+----------------------------------+----------------------------------+
-| 34. Navigation function selector |                                  |
-|                                  |                                  |
-| switch - AS DESIRED              |                                  |
-+----------------------------------+----------------------------------+
-| 35. Digital display indicator    |                                  |
-|                                  |                                  |
-| lamp button - PRESS              |                                  |
-+----------------------------------+----------------------------------+
-| 36. Navigational computer set    |                                  |
-|                                  |                                  |
-| control lamp button - PRESS      |                                  |
-+----------------------------------+----------------------------------+
-| 37. KY-28 power selector knob -  |                                  |
-|                                  |                                  |
-| OFF                              |                                  |
-+----------------------------------+----------------------------------+
-| 38. KY-28 mode selector -P       |                                  |
-+----------------------------------+----------------------------------+
-| 39. Canopy manual unlock handle  |                                  |
-|                                  |                                  |
-| - FORWARD                        |                                  |
-+----------------------------------+----------------------------------+
-| 40. Aural tone - AS REQUIRED     |                                  |
-+----------------------------------+----------------------------------+
-| 41. Cockpit lights control panel |                                  |
-|                                  |                                  |
-| - SET                            |                                  |
-|                                  |                                  |
-| a. White floodlight switch - OFF |                                  |
-|                                  |                                  |
-| b. Instrument panel lights       |                                  |
-|                                  |                                  |
-|    control knob - AS REQUIRED    |                                  |
-|                                  |                                  |
-| c. Console lights control knob - |                                  |
-|                                  |                                  |
-|    AS REQUIRED                   |                                  |
-|                                  |                                  |
-| d. Standby compass light switch  |                                  |
-|                                  |                                  |
-|    - AS REQUIRED                 |                                  |
-|                                  |                                  |
-| e. Console floodlights switch -  |                                  |
-|                                  |                                  |
-|    AS DESIRED                    |                                  |
-|                                  |                                  |
-| f. Indexer lights control knob - |                                  |
-|                                  |                                  |
-|    AS DESIRED                    |                                  |
-+----------------------------------+----------------------------------+
-| 42. Warning and indicator lights | Cannot be performed when battery |
-|                                  |                                  |
-| - TEST                           | start is made.                   |
-+----------------------------------+----------------------------------+
-| 43. Intercom system - CHECK      |                                  |
-+----------------------------------+----------------------------------+
-| 44. Oxygen quantity gage - CHECK | Cannot be performed when battery |
-|                                  |                                  |
-|                                  | start is made.                   |
-|                                  |                                  |
-|                                  | Check that the oxygen quantity   |
-|                                  |                                  |
-|                                  | is sufficient for the intended   |
-|                                  |                                  |
-|                                  | mission, and the OFF flag on the |
-|                                  |                                  |
-|                                  | gage face is not visible.        |
-+----------------------------------+----------------------------------+
-| 45. Oxygen supply system - CHECK |                                  |
-|                                  |                                  |
-| AND SET                          |                                  |
-|                                  |                                  |
-| Pressure - 65-120psi             |                                  |
-|                                  |                                  |
-| Regulator - CHECK                |                                  |
-|                                  |                                  |
-| a. Oxygen supply lever - FULLY   |                                  |
-|                                  |                                  |
-|    ON                            |                                  |
-|                                  |                                  |
-| b. Emergency lever - NORMAL      |                                  |
-|                                  |                                  |
-| c. Put mask on                   |                                  |
-|                                  |                                  |
-| Indicator - CHECK                | Breathe normally for three       |
-|                                  |                                  |
-|                                  | cycles and check flow indicator  |
-|                                  |                                  |
-| d. Diluter lever - 100           | operation.                       |
-|                                  |                                  |
-| e. Emergency lever - EMERGENCY   |                                  |
-|                                  |                                  |
-| f. Oxygen flow                   |                                  |
-|                                  |                                  |
-| Connections - CHECK              |                                  |
-|                                  |                                  |
-| Emergency oxygen - CHECKED       |                                  |
-|                                  |                                  |
-| g. Pressure - CHECKED            |                                  |
-|                                  |                                  |
-| h. Actuation knob and linkage -  |                                  |
-|                                  |                                  |
-|    CHECKED                       |                                  |
-+----------------------------------+----------------------------------+
-| 46. RWR systems - CHECK THEN OFF | Cannot be performed when battery |
-|                                  |                                  |
-|                                  | start is made.                   |
-+----------------------------------+----------------------------------+
-
-.. _btaxiw:
-
-Before Taxiing - WSO
-********************
-
-+----------------------------------+----------------------------------+
-| 1. Interior check - COMPLETE     |                                  |
-+----------------------------------+----------------------------------+
-| 2. Anti-G suit system - CHECK    |                                  |
-+----------------------------------+----------------------------------+
-| 3. Communication and navigation  |                                  |
-|                                  |                                  |
-| equipment - ON AND CHECK         |                                  |
-+----------------------------------+----------------------------------+
-| 4. Target designator - POWER ON  |                                  |
-|                                  |                                  |
-| AND STOWED                       |                                  |
-+----------------------------------+----------------------------------+
-| 5. TISEO - ON                    |                                  |
-+----------------------------------+----------------------------------+
-| 6. Radar BIT checks - INITIATE   |                                  |
-+----------------------------------+----------------------------------+
-| 7. WRCS BIT checks - INITIATE    |                                  |
-+----------------------------------+----------------------------------+
-| 8. Navigation computer function  |                                  |
-|                                  |                                  |
-| selector knob - AS DESIRED       |                                  |
-+----------------------------------+----------------------------------+
-| 9. Altimeter - SET AND CHECK     | Note: If the altimeter is not    |
-|                                  |                                  |
-|                                  | within tolerance in RESET, the   |
-|                                  |                                  |
-| a. Set current altimeter setting | aircraft may be flown in the     |
-|                                  |                                  |
-|    on the barometric scale.      | STBY mode provided that, in the  |
-|                                  |                                  |
-|                                  | STBY mode, the altimeter checks  |
-|                                  |                                  |
-| b. Altimeter pointer should      | with feet of field elevation.    |
-|                                  |                                  |
-|    indicate the field elevation  | The feet of field elevation is   |
-|                                  |                                  |
-|    with feet.                    | not an operation restriction and |
-|                                  |                                  |
-|                                  | does not necessarily reflect     |
-|                                  |                                  |
-| c. Place the SPC switch to RESET | instrument tolerances.           |
-|                                  |                                  |
-|    CORR. The STATIC CORR OFF     |                                  |
-|                                  |                                  |
-|    light should go out and       |                                  |
-|                                  |                                  |
-|    remain out. Disregard initial |                                  |
-|                                  |                                  |
-|    momentary engagement          |                                  |
-|                                  |                                  |
-|    oscillations. Altimeter       |                                  |
-|                                  |                                  |
-|    reading after oscillations    |                                  |
-|                                  |                                  |
-|    stop should not exceed feet   |                                  |
-|                                  |                                  |
-|    from original reading.        |                                  |
-|                                  |                                  |
-|    Continued altimeter           |                                  |
-|                                  |                                  |
-|    oscillations of any magnitude |                                  |
-|                                  |                                  |
-|    are unacceptable.             |                                  |
-|                                  |                                  |
-| d. With the static correction on |                                  |
-|                                  |                                  |
-|    (SPC engaged), the altimeter  |                                  |
-|                                  |                                  |
-|    should indicate the field     |                                  |
-|                                  |                                  |
-|    elevation within feet.        |                                  |
-|                                  |                                  |
-| e. The difference between the    |                                  |
-|                                  |                                  |
-|    front and rear cockpit        |                                  |
-|                                  |                                  |
-|    altimeters should not exceed  |                                  |
-|                                  |                                  |
-|    100 feet.                     |                                  |
-|                                  |                                  |
-| f. Place the altimeter switch to |                                  |
-|                                  |                                  |
-|    RESET. Altimeter should not   |                                  |
-|                                  |                                  |
-|    vary more than feet and the   |                                  |
-|                                  |                                  |
-|    red STBY flag should not be   |                                  |
-|                                  |                                  |
-|    in view.                      |                                  |
-|                                  |                                  |
-| g. The altimeter should indicate |                                  |
-|                                  |                                  |
-|    the field elevation within    |                                  |
-|                                  |                                  |
-|    feet.                         |                                  |
-|                                  |                                  |
-| h. With both altimeters in       |                                  |
-|                                  |                                  |
-|    RESET, the difference between |                                  |
-|                                  |                                  |
-|    the front and rear cockpit    |                                  |
-|                                  |                                  |
-|    should not exceed 75 feet.    |                                  |
-+----------------------------------+----------------------------------+
-      
-
-.. _taxi:
-
-Taxiing
+Startup
 *******
 
-+----------------------------------+----------------------------------+
-| 1. Wheel brakes - TEST           |                                  |                        
-+----------------------------------+----------------------------------+
-| 2. Nose gear steering            |                                  |
-|                                  |                                  |
-|    ENGAGE AND CHECK              |                                  |
-+----------------------------------+----------------------------------+
-| 3. P-WSO - Flight Instruments    |                                  |
-|                                  |                                  |
-|    CHECK                         |                                  |         
-+----------------------------------+----------------------------------+
-| 4. P-WSO - Oxygen diluter lever  |                                  |
-|                                  |                                  |
-|    AS REQUIRED                   |                                  |                                              
-+----------------------------------+----------------------------------+
+Before starting engines (Both)
+==============================
 
++-----+-------------------+--------------------------+
+| 1.  | Seat pins         | CHECK REMOVED AND STOWED |
++-----+-------------------+--------------------------+
+| 2.  | Fore and Aft Area | CLEAR                    |
++-----+-------------------+--------------------------+
+| 3.  | Fire Guard        | POSTED                   |
++-----+-------------------+--------------------------+
+| 4.  | Throttles         | OFF                      |
++-----+-------------------+--------------------------+
 
-.. _btoff:
+Starting engines (Pilot)
+========================
 
-Before Takeoff
-**************
++---------+------------------------------+---------------------+
+| **1.**  | **External Air source**      | **CONNECT RIGHT**   |
++---------+------------------------------+---------------------+
+| **2.**  | **Engine Master Switches**   | **ON**              |
++---------+------------------------------+---------------------+
+| **3.**  | **External airflow**         | **ON**              |
++---------+------------------------------+---------------------+
+| **4.**  | **At 10% RPM**               |                     |
++---------+------------------------------+---------------------+
+|         | **a. Right Ignition Button** | **PRESS AND HOLD**  |
++---------+------------------------------+---------------------+
+|         | **b. Right Throttle**        | **HALF THEN IDLE**  |
++---------+------------------------------+---------------------+
+| **5.**  | **At Lightoff (EGT INCR)**   |                     |
++---------+------------------------------+---------------------+
+|         | **a. Right Ignition Button** | **RELEASE**         |
++---------+------------------------------+---------------------+
+| **6.**  | **At 45% RPM**               |                     |
++---------+------------------------------+---------------------+
+|         | **a. External airflow**      | **STOP**            |
++---------+------------------------------+---------------------+
+| 7.      | Check Parameters             |                     |
++---------+------------------------------+---------------------+
+|         | a. Exhaust Gas Temperature   | 220 - 420 degrees   |
++---------+------------------------------+---------------------+
+|         | b. Fuel Flow Indicator       | 800 - 1400 pph      |
++---------+------------------------------+---------------------+
+|         | c. Idle RPM                  | 65 plus minus 1%    |
++---------+------------------------------+---------------------+
+|         | d. Right Boost Pump          | 30 plus minus 5 PSI |
++---------+------------------------------+---------------------+
+|         | e. Oil Pressure              | 12 - 50 PSI         |
++---------+------------------------------+---------------------+
+|         | f. Hydraulic Pressure        | WITHIN LIMITS       |
++---------+------------------------------+---------------------+
+| **8.**  | **Right Generator**          | **ON**              |
++---------+------------------------------+---------------------+
+| 9.      | Spoiler Actuator             | CHECK (LEFT)        |
++---------+------------------------------+---------------------+
+| 10.     | Air Refueling door           | CHECK               |
++---------+------------------------------+---------------------+
+| **11.** | **Start Left Engine**        | **PER STEPS 1 - 9** |
++---------+------------------------------+---------------------+
+| 12.     | Right Generator              | CYCLE ON/OFF/ON     |
++---------+------------------------------+---------------------+
+| 13.     | Bus Tie Open Light           | OUT                 |
++---------+------------------------------+---------------------+
+| **14.** | **External Air**             | **DISCONNECT**      |
++---------+------------------------------+---------------------+
+| 15.     | Interior Check               | COMPLETE            |
++---------+------------------------------+---------------------+
 
-+----------------------------------+----------------------------------+
-| 1. Optical sight - CHECK         |                                  |
-+----------------------------------+----------------------------------+
-| 2. (P-WSO) Harnessing and leads  |                                  |
-|                                  |                                  |
-|   FASTENED                       |                                  |
-+----------------------------------+----------------------------------+
-| 3. Internal wing transfer switch |                                  |
-|                                  |                                  |
-|   NORMAL                         |                                  |
-+----------------------------------+----------------------------------+
-| 4. Stab aug switches - ENGAGE    |                                  |
-+----------------------------------+----------------------------------+
-| 5. Flight controls -             | WSO visually check control       |
-|                                  |                                  |
-| UNRESTRICTED                     | surfaces.                        |
-+----------------------------------+----------------------------------+
-| 6. Slats flaps - CHECK OUT AND   | If flaps are raised after        |
-|                                  |                                  |
-| DOWN                             | leaving the flight line, they    |
-|                                  |                                  |
-|                                  | must be visuallychecked out and  |
-|                                  |                                  |
-|                                  | down when they are again lowered |
-+----------------------------------+----------------------------------+
-| 7. Anti-ice switch - AS REQUIRED |                                  |
-+----------------------------------+----------------------------------+
-| 8. Stabilator trim - CHECK 1 TO  |                                  |
-|                                  |                                  |
-| 3 UNITS NOSE DOWN                |                                  |
-+----------------------------------+----------------------------------+
-| 9. Fuel quantity - CHECK         |                                  |
-+----------------------------------+----------------------------------+
-| 10. (P-WSO) Canopies - CLOSE,    |                                  |
-|                                  |                                  |
-| CHECK WARNING LIGHT OUT AND      |                                  |
-|                                  |                                  |
-| STRIPED ALIGNED                  |                                  |
-|                                  |                                  |
-| a. Operate engines at idle rpm.  |                                  |
-|                                  |                                  |
-| b. Set air temperature control   |                                  |
-|                                  |                                  |
-|    knob no higher than 2 o clock |                                  |
-|                                  |                                  |
-|    and the defog-footheat lever  |                                  |
-|                                  |                                  |
-|    in foot heat.                 |                                  |
-|                                  |                                  |
-| c. Close aft canopy. Ensure      |                                  |
-|                                  |                                  |
-|    closing time does not exceed  |                                  |
-|                                  |                                  |
-|    9 seconds from lever          |                                  |
-|                                  |                                  |
-|    actuation to completion of    |                                  |
-|                                  |                                  |
-|    locking cycle. Check aft      |                                  |
-|                                  |                                  |
-|    CANOPY UNLOCKED lightout,     |                                  |
-|                                  |                                  |
-|    forward CANOPY UNLOCKED light |                                  |
-|                                  |                                  |
-|    ON.                           |                                  |
-|                                  |                                  |
-| d. Close forward canopy. Ensure  |                                  |
-|                                  |                                  |
-|    closing time does not exceed  |                                  |
-|                                  |                                  |
-|    9 seconds from lever          |                                  |
-|                                  |                                  |
-|    actuation to completion of    |                                  |
-|                                  |                                  |
-|    locking cycle. Check forward  |                                  |
-|                                  |                                  |
-|    CANOPY UNLOCKED light out.    |                                  |
-|                                  |                                  |
-| e. Check that alignment stripe   |                                  |
-|                                  |                                  |
-|    on canopy lock push rod       |                                  |
-|                                  |                                  |
-|    aligns with the alignment     |                                  |
-|                                  |                                  |
-|    stripe on the bracket hanging |                                  |
-|                                  |                                  |
-|    from the left canopy sill.    |                                  |
-|                                  |                                  |
-|    The canopy over-center        |                                  |
-|                                  |                                  |
-|    locking mechanism does not    |                                  |
-|                                  |                                  |
-|    actually lock the canopy      |                                  |
-|                                  |                                  |
-|    until approximately the last  |                                  |
-|                                  |                                  |
-|    1/4 inch of push-pull rod     |                                  |
-|                                  |                                  |
-|    movement.                     |                                  |
-+----------------------------------+----------------------------------+
-| 11. Warning lights/voice warning |                                  |
-|                                  |                                  |
-| system - TEST                    |                                  |
-+----------------------------------+----------------------------------+
-| 12. Defog-footheat and           |                                  |
-|                                  |                                  |
-| temperature controls - AS        |                                  |
-|                                  |                                  |
-| REQUIRED                         |                                  |
-+----------------------------------+----------------------------------+
-| 13. (WSO) Eject command selector |                                  |
-|                                  |                                  |
-| valve - AS BRIEFED               |                                  |
-+----------------------------------+----------------------------------+
-| 14. (P-WSO) Lower ejection       | Rotate the lower ejection handle |
-|                                  |                                  |
-| handle safety guard - CLEAR      | safety guard to the down         |
-|                                  |                                  |
-|                                  | (horizontal) position.           |
-+----------------------------------+----------------------------------+
-| **After runway line-up**         |                                  |
-+----------------------------------+----------------------------------+
-| 15. External tarnsfer switch -   |                                  |
-|                                  |                                  |
-| AS DESIRED                       |                                  |
-+----------------------------------+----------------------------------+
-| 16. Anti-skid - ON, LIGHT OUT    |                                  |
-+----------------------------------+----------------------------------+
-| 17. Compass heading - CHECk      |                                  |
-+----------------------------------+----------------------------------+
-| 18. Pitot heat - ON              | Pitot heat sould not be used for |
-|                                  |                                  |
-|                                  | more than 1 minute on the        |
-|                                  |                                  |
-|                                  | ground.                          |
-+----------------------------------+----------------------------------+
-| 19. IFF - AS REQUIRED            |                                  |
-+----------------------------------+----------------------------------+
-| 20. (P-WSO) Circuit breakers -   |                                  |
-|                                  |                                  |
-| CHECK                            |                                  |
-+----------------------------------+----------------------------------+
-| 21. Warning lights - CHECK       |                                  |
-+----------------------------------+----------------------------------+
-| 22. Radar altimeter - OFF        | Turn radar altimeter OFF until   |
-|                                  |                                  |
-|                                  | low altitude warning setting to  |
-|                                  |                                  |
-|                                  | prevent warning during taxi,     |
-|                                  |                                  |
-|                                  | takeoff, or after takeoff-climb. |
-+----------------------------------+----------------------------------+
+After electrical power (WSO)
+============================
 
++--------+-------------------------+----------------+
+| 1.     | Instrument Ground Power | ACTUATE        |
++--------+-------------------------+----------------+
+| 2.     | Navigation Computer     | SET            |
++--------+-------------------------+----------------+
+|        | a. NAV Comp Mode        | TGT 1 or TGT 2 |
++--------+-------------------------+----------------+
+|        | b. Wind Counters        | SET            |
++--------+-------------------------+----------------+
+|        | c. Variation Counter    | SET            |
++--------+-------------------------+----------------+
+|        | d. POS Update Switch    | NORM           |
++--------+-------------------------+----------------+
+|        | e. Present POS Counter  | SET            |
++--------+-------------------------+----------------+
+|        | f. Target Counters      | SET FOR TGT 2  |
++--------+-------------------------+----------------+
+|        | g. NAV Comp Mode        | RESET          |
++--------+-------------------------+----------------+
+|        | h. NAV Comp Mode        | TGT 1 or TGT 2 |
++--------+-------------------------+----------------+
+|        | i. Target Counters      | SET FOR TGT 1  |
++--------+-------------------------+----------------+
+| **3.** | **INS Alignment**       | **AS DESIRED** |
++--------+-------------------------+----------------+
 
-.. _bland:
+INS Full Gyrocompass Alignment (WSO)
+------------------------------------
 
-Before Landing
-**************
+Takes roughly 8 minutes.
 
-+----------------------------------+----------------------------------+
-| 1. Defog-footheat/temperature    |                                  |
-|                                  |                                  |
-| controls - AS DESIRED            |                                  |
-+----------------------------------+----------------------------------+
-| 2. ALE-40 flares/normal switch - |                                  |
-|                                  |                                  |
-| NORMAL                           |                                  |
-+----------------------------------+----------------------------------+
-| 3. Stab augs - ENGAGED           |                                  |
-+----------------------------------+----------------------------------+
-| 4. Comm antenna select switch -  |                                  |
-|                                  |                                  |
-| UPR                              |                                  |
-+----------------------------------+----------------------------------+
-| 5. Landing/taxi light - LANDING  |                                  |
-+----------------------------------+----------------------------------+
-| 6. Armament switches -           | The target designator pod should |
-|                                  |                                  |
-| OFF/SAFE/STOW                    | be stowed before landing to      |
-|                                  |                                  |
-|                                  | prevent FOD to the pod head      |
-|                                  |                                  |
-|                                  | dome.                            |
-+----------------------------------+----------------------------------+
-| 7. Sight - STBY/CAGE             |                                  |
-+----------------------------------+----------------------------------+
-| 8. Radar/pressure altimeters -   |                                  |
-|                                  |                                  |
-| SET                              |                                  |
-+----------------------------------+----------------------------------+
-| 9. Fuel quantity - CHECK         |                                  |
-+----------------------------------+----------------------------------+
++-----+----------------+----------+
+| 1.  | NAV Comp Mode  | STBY     |
++-----+----------------+----------+
+| 2.  | INS Power Knob | STBY     |
++-----+----------------+----------+
+| 3.  | Gyro Heat Up   | WAIT     |
++-----+----------------+----------+
+|     | a. HEAT Light  | OUT      |
++-----+----------------+----------+
+| 4.  | INS Power Knob | ALIGN    |
++-----+----------------+----------+
+| 5.  | Alignment      | WAIT     |
++-----+----------------+----------+
+|     | a. ALIGN Light | FLASHING |
++-----+----------------+----------+
+| 6.  | INS Power Knob | NAV      |
++-----+----------------+----------+
+| 7.  | INS Light      | OUT      |
++-----+----------------+----------+
 
-      
-.. _land:
+INS Fast BATH Alignment (WSO)
+-----------------------------
+
+Takes roughly 3 minutes.
+
++-----+----------------+--------+
+| 1.  | NAV Comp Mode  | STBY   |
++-----+----------------+--------+
+| 2.  | INS Power Knob | ALIGN  |
++-----+----------------+--------+
+| 3.  | Alignment      | WAIT   |
++-----+----------------+--------+
+|     | a. HEAT Light  | IGNORE |
++-----+----------------+--------+
+|     | b. ALIGN Light | STEADY |
++-----+----------------+--------+
+| 4.  | INS Power Knob | NAV    |
++-----+----------------+--------+
+| 5.  | INS Light      | OUT    |
++-----+----------------+--------+
+
+INS Stored Heading Alignment (WSO)
+-----------------------------
+
+Takes roughly 2 minutes.
+
++-----+-------------------+---------+
+| 1.  | NAV Comp Mode     | STBY    |
++-----+-------------------+---------+
+| 2.  | Align Mode Switch | HDG MEM |
++-----+-------------------+---------+
+| 3.  | INS Power Knob    | ALIGN   |
++-----+-------------------+---------+
+| 4.  | Alignment         | WAIT    |
++-----+-------------------+---------+
+|     | a. HEAT Light     | IGNORE  |
++-----+-------------------+---------+
+|     | b. ALIGN Light    | STEADY  |
++-----+-------------------+---------+
+| 5.  | INS Power Knob    | NAV     |
++-----+-------------------+---------+
+| 6.  | INS Light         | OUT     |
++-----+-------------------+---------+
+
+Taxi
+****
+
+Before Taxi
+===========
+
+Pilot
+-----
+
++---------+---------------------------------------+-----------------------------+
+| 1.      | COMM & NAV Equipment                  | ON & CHECK                  |
++---------+---------------------------------------+-----------------------------+
+| 2.      | IFF                                   | STANDBY                     |
++---------+---------------------------------------+-----------------------------+
+| **3.**  | **Radar Altimeter**                   | **ON**                      |
++---------+---------------------------------------+-----------------------------+
+| **4.**  | **Altimeter**                         | **SET & CHECK**             |
++---------+---------------------------------------+-----------------------------+
+|         | **a. Barometric Scale**               | **SET QNH**                 |
++---------+---------------------------------------+-----------------------------+
+|         | **b. SPC**                            | **RESET CORR**              |
++---------+---------------------------------------+-----------------------------+
+|         | **c. BARO Altimeter**                 | **HOLD 3 SEC**              |
++---------+---------------------------------------+-----------------------------+
+| 5.      | Speed Brakes                          | CHECK                       |
++---------+---------------------------------------+-----------------------------+
+| 6.      | Slats & Flaps                         | CHECK                       |
++---------+---------------------------------------+-----------------------------+
+| 7.      | Flight Controls                       | CHECK                       |
++---------+---------------------------------------+-----------------------------+
+| **8.**  | **Slats & Flaps**                     | **NORM**                    |
++---------+---------------------------------------+-----------------------------+
+| 9.      | ARI Disengage                         | CHECK                       |
++---------+---------------------------------------+-----------------------------+
+| 10.     | STAB AUG Switches                     | ENGAGE AND CHECK            |
++---------+---------------------------------------+-----------------------------+
+| **11.** | **Reference Sel Switch (if INS NAV)** | **PRIM**                    |
++---------+---------------------------------------+-----------------------------+
+| **12.** | **Compass Mode Control Knob**         | **SYNC**                    |
++---------+---------------------------------------+-----------------------------+
+| 13.     | AFCS                                  | CHECK                       |
++---------+---------------------------------------+-----------------------------+
+| 14.     | STAB AUG Switches                     | DISENGAGE                   |
++---------+---------------------------------------+-----------------------------+
+| **15.** | **Trim**                              | **SET 1-3 units NOSE DOWN** |
++---------+---------------------------------------+-----------------------------+
+| 16.     | Slats & flaps                         | OUT & DOWN                  |
++---------+---------------------------------------+-----------------------------+
+| **17.** | **Optical Sight**                     | **STBY/CAGE**               |
++---------+---------------------------------------+-----------------------------+
+| 18.     | Pneumatic Pressure                    | CHECK                       |
++---------+---------------------------------------+-----------------------------+
+| 19.     | IFF                                   | CHECK                       |
++---------+---------------------------------------+-----------------------------+
+| 20.     | Radar Altimeter                       | CHECK & SET                 |
++---------+---------------------------------------+-----------------------------+
+| **21.** | **Wheel chocks**                      | **REMOVED**                 |
++---------+---------------------------------------+-----------------------------+
+
+WSO
+---
+
++--------+-----------------------+-----------------------+
+| 1.     | Interior Check        | COMPLETE              |
++--------+-----------------------+-----------------------+
+| 2.     | COMM & NAV Equipment  | ON & CHECK            |
++--------+-----------------------+-----------------------+
+| **3.** | **Target Designator** | **POWER ON & STOWED** |
++--------+-----------------------+-----------------------+
+| 4.     | Radar BIT Checks      | INITIATE              |
++--------+-----------------------+-----------------------+
+| 5.     | WRCS BIT Checks       | INITIATE              |
++--------+-----------------------+-----------------------+
+| 6.     | NAV Comp Mode         | AS DESIRED            |
++--------+-----------------------+-----------------------+
+| 7.     | Altimeter             | SET & CHECK           |
++--------+-----------------------+-----------------------+
+
+Taxiing
+=======
+
++--------+------------------------+--------------------+
+| 1.     | Wheel Brakes           | TEST               |
++--------+------------------------+--------------------+
+| **2.** | **Nose Gear Steering** | **ENGAGE & CHECK** |
++--------+------------------------+--------------------+
+| 3.     | Flight Instruments     | CHECK              |
++--------+------------------------+--------------------+
+| 4.     | Oxygen Diluter         | AS REQUIRED        |
++--------+------------------------+--------------------+
+
+Takeoff
+*******
+
+Before Takeoff (Pilot)
+======================
+
++---------+------------------------+---------------------------+
+| 1.      | Internal Wing Transfer | NORMAL                    |
++---------+------------------------+---------------------------+
+| **2.**  | **STAB AUG Switches**  | **ENGAGE**                |
++---------+------------------------+---------------------------+
+| 3.      | Flight Controls        | UNRESTRICTED              |
++---------+------------------------+---------------------------+
+| 4.      | Slats & Flaps          | CHECK OUT & DOWN          |
++---------+------------------------+---------------------------+
+| 5.      | Anti-Ice               | AS REQUIRED               |
++---------+------------------------+---------------------------+
+| 6.      | STAB Trim              | CHECK 1-3 units NOSE DOWN |
++---------+------------------------+---------------------------+
+| 7.      | Fuel Quantity          | CHECK                     |
++---------+------------------------+---------------------------+
+| **8.**  | **Canopy**             | **CLOSE & CHECK**         |
++---------+------------------------+---------------------------+
+| 9.      | Defog & Temperature    | AS REQUIRED               |
++---------+------------------------+---------------------------+
+| **10.** | **Ejection Handle**    | **ARM**                   |
++---------+------------------------+---------------------------+
+
+After Runway Line-Up
+--------------------
+
++--------+-------------------+--------------------+
+| 1.     | External Transfer | AS DESIRED         |
++--------+-------------------+--------------------+
+| **2.** | **Anti Skid**     | **ON & LIGHT OUT** |
++--------+-------------------+--------------------+
+| 3.     | Compass Heading   | CHECK              |
++--------+-------------------+--------------------+
+| **4.** | **Pitot Heat**    | **ON**             |
++--------+-------------------+--------------------+
+| 5.     | IFF               | AS REQUIRED        |
++--------+-------------------+--------------------+
+| 6.     | Circuit Breakers  | CHECK IN           |
++--------+-------------------+--------------------+
+| 7.     | Warning Lights    | CHECK              |
++--------+-------------------+--------------------+
+
+After Takeoff
+=============
+
+Climb
+-----
+
++--------+-------------------+--------------------------+
+| **1.** | **Gear**          | **UP**                   |
++--------+-------------------+--------------------------+
+| **2.** | **Slats & Flaps** | **NORM (180 knots MIN)** |
++--------+-------------------+--------------------------+
+
+Cruise
+------
+
++-----+-------------------------------------+-------------+
+| 1.  | Altimeter                           |             |
++-----+-------------------------------------+-------------+
+|     |                                     | SET         |
++-----+-------------------------------------+-------------+
+|     |                                     | CHECK STBY  |
++-----+-------------------------------------+-------------+
+|     |                                     | RESET       |
++-----+-------------------------------------+-------------+
+|     |                                     | COMPARE     |
++-----+-------------------------------------+-------------+
+| 2.  | Radar Altimeter                     | AS REQUIRED |
++-----+-------------------------------------+-------------+
+| 3.  | OPS Check                           |             |
++-----+-------------------------------------+-------------+
+|     | a. Oxygen Quantity/Pressure/Blinker | CHECK       |
++-----+-------------------------------------+-------------+
+|     | b. Cockpit Pressure                 | CHECK       |
++-----+-------------------------------------+-------------+
+|     | c. Fuel Quantity/Transfer Switches  | CHECK       |
++-----+-------------------------------------+-------------+
+|     | d. STBY Compass                     | CHECK       |
++-----+-------------------------------------+-------------+
+|     | e. Circuit Breakers                 | CHECK       |
++-----+-------------------------------------+-------------+
+| 4.  | Anti-Ice Switch                     | AS REQUIRED |
++-----+-------------------------------------+-------------+
 
 Landing
 *******
 
-+----------------------------------+----------------------------------+
-| 1. Gear - DOWN                   |                                  |
-+----------------------------------+----------------------------------+
-| 2. Slats flaps - OUT AND DOWN    |                                  |
-+----------------------------------+----------------------------------+
-| 3. Hydraulic pressure - CHECK    |                                  |
-+----------------------------------+----------------------------------+
-| 4. Warning lights - CHECK        |                                  |
-+----------------------------------+----------------------------------+
-| 5. Anti-skid - ON, LIGHT OUT     |                                  |
-+----------------------------------+----------------------------------+
+Before Landing
+==============
 
++--------+----------------------------+---------------+
+| 1.     | Defog & Temperature        | AS DESIRED    |
++--------+----------------------------+---------------+
+| 2.     | ALE-40 Flares/Norm Switch  | NORMAL        |
++--------+----------------------------+---------------+
+| **3.** | **STAB AUG Switches**      | **ENGAGED**   |
++--------+----------------------------+---------------+
+| 4.     | COMM Antenna Select Switch | UPR           |
++--------+----------------------------+---------------+
+| **5.** | **Landing/Taxi Light**     | **LANDING**   |
++--------+----------------------------+---------------+
+| 6.     | Armament Switches          | OFF/SAFE/STOW |
++--------+----------------------------+---------------+
+| 7.     | Sight                      | STBY/CAGE     |
++--------+----------------------------+---------------+
+| 8.     | Radar & BARO Altimeter     | SET           |
++--------+----------------------------+---------------+
+| 9.     | Fuel                       | CHECK         |
++--------+----------------------------+---------------+
 
-.. _aftland:
+In Pattern (below 210 knots)
+============================
+
++--------+--------------------+--------------------+
+| **1.** | **Gear**           | **DOWN**           |
++--------+--------------------+--------------------+
+| **2.** | **Slats & Flaps**  | **OUT & DOWN**     |
++--------+--------------------+--------------------+
+| 3.     | Hydraulic Pressure | CHECK              |
++--------+--------------------+--------------------+
+| 4.     | Warning Lights     | CHECK              |
++--------+--------------------+--------------------+
+| **5.** | **Anti Skid**      | **ON & LIGHT OUT** |
++--------+--------------------+--------------------+
 
 After Landing
-*************
+=============
 
-+----------------------------------+----------------------------------+
-| 1. Anti-skid switch - OFF BELOW  |                                  |
-|                                  |                                  |
-| 30 KNOTS                         |                                  |
-+----------------------------------+----------------------------------+
-| 2. (WSO) Eject command selector  |                                  |
-|                                  |                                  |
-| valve - CLOSED (vertical         |                                  |
-|                                  |                                  |
-| position)                        |                                  |
-+----------------------------------+----------------------------------+
-| 3. (WSO) TISEO - OFF             |                                  |
-+----------------------------------+----------------------------------+
-| 4. (P-WSO) DSCG - OFF            |                                  |
-+----------------------------------+----------------------------------+
-| 5. Cockpit pressure indicator -  |                                  |
-|                                  |                                  |
-| CHECK                            |                                  |
-+----------------------------------+----------------------------------+
-| 6. (P-WSO) Lower ejection guard  |                                  |
-|                                  |                                  |
-| handle - UP                      |                                  |
-+----------------------------------+----------------------------------+
-| 7. Landing/taxi light - AS       |                                  |
-|                                  |                                  |
-| REQUIRED                         |                                  |
-+----------------------------------+----------------------------------+
-| 8. Slats flaps - NORM            |                                  |
-+----------------------------------+----------------------------------+
-| 9. Drag chute - JETTISON         | If utilized.                     |
-+----------------------------------+----------------------------------+
-| 10. Mode 4 selector - HOLD       | If another flight is anticipated |
-|                                  |                                  |
-|                                  | in the code period. If HOLD      |
-|                                  |                                  |
-|                                  | used, wait 15 seconds before     |
-|                                  |                                  |
-|                                  | turning IFF master switch and    |
-|                                  |                                  |
-|                                  | radar power knob OFF.            |
-+----------------------------------+----------------------------------+
-| 11. ECM/ALE/RWR/APX - OFF        |                                  |
-+----------------------------------+----------------------------------+
-| 12. Radar/CW power - OFF         |                                  |
-+----------------------------------+----------------------------------+
-| 13. (WSO) AVTR -OFF              |                                  |
-+----------------------------------+----------------------------------+
-| 14. Stab aug switches - OFF      |                                  |
-+----------------------------------+----------------------------------+
-| 15. Internal wing dump switch -  |                                  |
-|                                  |                                  |
-| NORMAL                           |                                  |
-+----------------------------------+----------------------------------+
-| 16. VOR/ILS control panel - OFF  |                                  |
-+----------------------------------+----------------------------------+
-| 17. Engine anti-ice switch -     |                                  |
-|                                  |                                  |
-| NORMAL                           |                                  |
-+----------------------------------+----------------------------------+
-| 18. Radar altimeter function     |                                  |
-|                                  |                                  |
-| selector knob - OFF              |                                  |
-+----------------------------------+----------------------------------+
-| 19. Stabilator trim - SET 1 TO 3 |                                  |
-|                                  |                                  |
-| UNITS NOSE DOWN                  |                                  |
-+----------------------------------+----------------------------------+
-| 20. Reference system selector -  |                                  |
-|                                  |                                  |
-| STBY                             |                                  |
-+----------------------------------+----------------------------------+
-| 21. Rain removal switch - OFF    |                                  |
-+----------------------------------+----------------------------------+
-| 22. Pitot heat switch - OFF      |                                  |
-+----------------------------------+----------------------------------+
-| 23. IFF - OFF                    |                                  |
-+----------------------------------+----------------------------------+
-| 24. Temperature control knob -   |                                  |
-|                                  |                                  |
-| FULL HOT                         |                                  |
-+----------------------------------+----------------------------------+
-| 25. Defog-footheat control       |                                  |
-|                                  |                                  |
-| handle - DEFOG                   |                                  |
-+----------------------------------+----------------------------------+
-| 26. (P-WSO) TACAN - OFF          |                                  |
-+----------------------------------+----------------------------------+
-| 27. Formation lights - OFF       |                                  |
-+----------------------------------+----------------------------------+
-| 28. Sight shutter - CLOSED       |                                  |
-+----------------------------------+----------------------------------+
++---------+----------------------------------+---------------------+
+| **1.**  | **Drag Chute**                   | **DEPLOY**          |
++---------+----------------------------------+---------------------+
+| **2.**  | **Wheel Brake (below 70 knots)** | **ENGAGE**          |
++---------+----------------------------------+---------------------+
+| **3.**  | **Anti Skid (below 30 knots)**   | **OFF**             |
++---------+----------------------------------+---------------------+
+| 4.      | Cockpit Pressure                 | CHECK               |
++---------+----------------------------------+---------------------+
+| **5.**  | **Ejection Handle**              | **SAFE**            |
++---------+----------------------------------+---------------------+
+| **6.**  | **Landing/Taxi Light**           | **AS REQUIRED**     |
++---------+----------------------------------+---------------------+
+| 7.      | Slats & Flaps                    | NORM                |
++---------+----------------------------------+---------------------+
+| **8.**  | **Drag Chute**                   | **JETTISON**        |
++---------+----------------------------------+---------------------+
+| 9.      | Mode 4 Sel                       | HOLD                |
++---------+----------------------------------+---------------------+
+| **10.** | **ECM/ALE/RWR/APX-76**           | **OFF**             |
++---------+----------------------------------+---------------------+
+| **11.** | **Radar/CW Power**               | **OFF**             |
++---------+----------------------------------+---------------------+
+| 12.     | STAB AUG Switches                | OFF                 |
++---------+----------------------------------+---------------------+
+| 13.     | Internal Wing Dump               | NORMAL              |
++---------+----------------------------------+---------------------+
+| 14.     | VOR/ILS Control Panel            | OFF                 |
++---------+----------------------------------+---------------------+
+| 15.     | Engine Anti-Ice                  | NORMAL              |
++---------+----------------------------------+---------------------+
+| 16.     | Radar Altimeter                  | OFF                 |
++---------+----------------------------------+---------------------+
+| 17.     | STAB Trim                        | 1-3 units NOSE DOWN |
++---------+----------------------------------+---------------------+
+| **18.** | **Reference Sel Switch**         | **STBY**            |
++---------+----------------------------------+---------------------+
+| 19.     | Rain Removal                     | OFF                 |
++---------+----------------------------------+---------------------+
+| **20.** | **Pitot Heat**                   | **OFF**             |
++---------+----------------------------------+---------------------+
+| 21.     | IFF                              | OFF                 |
++---------+----------------------------------+---------------------+
+| 22.     | Temperature                      | FULL HOT            |
++---------+----------------------------------+---------------------+
+| 23.     | Defog Handle                     | DEFOG               |
++---------+----------------------------------+---------------------+
+| 24.     | TACAN                            | OFF                 |
++---------+----------------------------------+---------------------+
+| 25.     | Formation Lights                 | OFF                 |
++---------+----------------------------------+---------------------+
+| 26.     | Sight Shutter                    | CLOSED              |
++---------+----------------------------------+---------------------+
 
+Shutdown
+********
 
+Pilot
+=====
 
-.. _shtdn:
++---------+----------------------------+---------------+
+| 1.      | Wheels                     | CHOCKED       |
++---------+----------------------------+---------------+
+| 2.      | UHF Radio                  | OFF           |
++---------+----------------------------+---------------+
+| 3.      | Ejection Seat              | RAISE         |
++---------+----------------------------+---------------+
+| 4.      | Defog Handle               | FULL AFT      |
++---------+----------------------------+---------------+
+| 5.      | Temperature                | 12 o'clock    |
++---------+----------------------------+---------------+
+| 6.      | Air Refuel Switch (if AAR) | EXTEND        |
++---------+----------------------------+---------------+
+| **7.**  | **Right Throttle**         | **OFF**       |
++---------+----------------------------+---------------+
+| 8.      | AVTR Tape                  | REMOVE        |
++---------+----------------------------+---------------+
+| 9.      | Spoiler Actuator           | CHECK (RIGHT) |
++---------+----------------------------+---------------+
+| **10.** | **Left Throttle**          | **OFF**       |
++---------+----------------------------+---------------+
+| **11.** | **Engine Master Switches** | **OFF**       |
++---------+----------------------------+---------------+
+| 12.     | All Switches and Controls  | OFF           |
++---------+----------------------------+---------------+
+| 13.     | Oxygen Diluter             | 100%          |
++---------+----------------------------+---------------+
 
-Engine Shutdown
-***************
+WSO
+===
 
-+----------------------------------+----------------------------------+
-| 1. Wheels - CHOCKED              |                                  |
-+----------------------------------+----------------------------------+
-| 2. UHF radio - OFF               |                                  |
-+----------------------------------+----------------------------------+
-| 3. (P-WSO) Ejection seat - RAISE |                                  |
-+----------------------------------+----------------------------------+
-| 4. Defog-footheat control handle |                                  |
-|                                  |                                  |
-| - FULL AFT                       |                                  |
-+----------------------------------+----------------------------------+
-| 5. Temperature control knob - 12 |                                  |
-|                                  |                                  |
-| O CLOCK POSITION                 |                                  |
-+----------------------------------+----------------------------------+
-| 6. Air refuel switch - AS        | Extend air refueling receptacle  |
-|                                  |                                  |
-| REQUIRED                         | if air refueling was             |
-|                                  |                                  |
-|                                  | accomplished during mission.     |
-+----------------------------------+----------------------------------+
-| 7. (WSO) Inertial navigation     |                                  |
-|                                  |                                  |
-| power control knob - OFF         |                                  |
-+----------------------------------+----------------------------------+
-| 8. (WSO) Navigation computer -   |                                  |
-|                                  |                                  |
-| OFF                              |                                  |
-+----------------------------------+----------------------------------+
-| 9. AVTR tape - REMOVE            |                                  |
-+----------------------------------+----------------------------------+
-| 10. (WSO) Target designator -    |                                  |
-|                                  |                                  |
-| OFF                              |                                  |
-+----------------------------------+----------------------------------+
-| 11. Right throttle - OFF         |                                  |
-+----------------------------------+----------------------------------+
-| 12. Spoiler actuator - CHECK     |                                  |
-+----------------------------------+----------------------------------+
-| 13. Left throttle - OFF          |                                  |
-+----------------------------------+----------------------------------+
++-----+---------------------------+-------+
+| 1.  | UHF Radio                 | OFF   |
++-----+---------------------------+-------+
+| 2.  | Ejection Seat             | RAISE |
++-----+---------------------------+-------+
+| 3.  | INS                       | OFF   |
++-----+---------------------------+-------+
+| 4.  | NAV Computer              | OFF   |
++-----+---------------------------+-------+
+| 5.  | Target Designator         | OFF   |
++-----+---------------------------+-------+
+| 12. | All Switches and Controls | OFF   |
++-----+---------------------------+-------+
+| 13. | Oxygen Diluter            | 100%  |
++-----+---------------------------+-------+
 
 
 .. _bangstrt:
