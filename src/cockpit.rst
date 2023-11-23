@@ -1047,7 +1047,7 @@ Used to select the appropriate contrast conditions for seeker acquisition with t
 Engine Start Switch
 ^^^^^^^^^^^^^^^^^^^
 
-Three position switch with automatic return to center used to start the respective engine, left or right.
+Three position switch with automatic return to center used to start the respective engine using the cartridge (if loaded), left or right.
 
 
 CADC Static Pressure Compensator Correction Switch
