@@ -2409,7 +2409,7 @@ WSO ICS Function Selector Switch
 +----------------+------------------------------------------------------------------------------------+
 | HOT MIC        | Voice automatically transmitted on intercom.                                       |
 +----------------+------------------------------------------------------------------------------------+
-| RADIO OVERRIDE | Intercom overrides incoming radio calls; does not override aircraft warning audio. |
+| RADIO OVERRIDE | The opposite cockpit’s audio is heard at its set volume using its amplifier.       |
 +----------------+------------------------------------------------------------------------------------+
 
 
