@@ -643,7 +643,7 @@ Horizontal Situation Indicator
 
 .. image:: images/HSI.png
   
-Presents a top-down view of the currently programmed navigation.  The Heading Set knob is availble to input desired magnetic heading, and the Course Set knob is used to enter VOR radial or inbound localizer course for accurate deviation display.  
+Consists of a rotating compass card, single and double bar bearing pointers numbered 1 and 2 respectively, a range indicator, and a range warning flag. Presents a top-down view of the currently programmed navigation.  The Heading Set knob is availble to input desired magnetic heading, and the Course Set knob is used to enter VOR radial or inbound localizer course for accurate deviation display.  
 
 
 Altimeter
