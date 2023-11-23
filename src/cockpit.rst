@@ -5,7 +5,9 @@ Cockpit Overview
 
 
 Pilot Cockpit Layout
-********************     
+********************
+
+.. image:: images/pilot_pit_overview.png
 
 +----+----------------+
 | 1. |:ref:`gunsight` |
@@ -726,7 +728,7 @@ Three flags indicate the elevation:
 - yellow: -155° to -160°
 - red: -160° or beyond
 
-If the needle is kept within the green labelled range, or only the green flag is shown,
+If the needle is kept within the green labelled range and neither the yellow or red flag are shown,
 the view will not be obstructed by the pod or the aircraft.
 
 Master Caution Light
@@ -1972,6 +1974,8 @@ overheating and breaking.
 
 WSO Cockpit Layout
 ******************
+
+.. image:: images/wso_pit_overview.png
 
 +----+----------------+
 | 1. |:ref:`upfront`  |
