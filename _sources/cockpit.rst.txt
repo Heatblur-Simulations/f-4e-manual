@@ -1319,7 +1319,7 @@ Determines current amplifier for intercom function.
 +------+-------------------------------------------------------------------------------------+
 | NORM | Primary headset amplifier provides audio.                                           |
 +------+-------------------------------------------------------------------------------------+
-| EMER | Uses amplifier from opposite cockpit; only audio received to that cockpit is heard. |
+| EMER | The opposite cockpit's audio is heard at its set volume using its amplifier.        |
 +------+-------------------------------------------------------------------------------------+
 
 
