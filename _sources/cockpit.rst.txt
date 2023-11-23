@@ -3371,13 +3371,15 @@ Right Wall
 Battery Bypass
 ^^^^^^^^^^^^^^
 
+When toggled ON, de-energizes the battery relay, disconnecting the battery from the essential 28-volt de bus and ceasing charging. Particularly used in suspected cases of thermal runaway.
+
 Autopilot Ground Test
 ^^^^^^^^^^^^^^^^^^^^^
 
 Instrument Ground Power
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-When connected to external ground power, activating this switch allows the ground power to also energize the buses.
+In the TEST position, connects external electrical power to the instrument buses (115/200 volt ac, 28 volt ac, and 14 volt ac) , contingent upon the generator switches being set to EXT ON.
 
 Skyspot Mode
 ^^^^^^^^^^^^
