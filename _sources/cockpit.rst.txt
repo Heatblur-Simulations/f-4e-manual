@@ -339,7 +339,7 @@ True Airspeed Indicator
 .. image:: images/TASInd.png
   
   
-Provides the aircraft's true Airspeed in knots, and is calibrated from 150 to 1500 knots; airspeeds below this range are thus not reliable. 
+Provides the aircraft's true Airspeed in knots, and is calibrated from 150 to 1500 knots; airspeeds below this range are thus not reliable. At high rates of airspeed change, there may be a lag of up to +-10 knots in measurement. 
 
 
 Flight Instrument Brightness Knob
@@ -351,7 +351,7 @@ Flight Instrument Brightness Knob
 Controls brightness of the flight instrument cluster.
 
 Rotating clockwise will increase brightness of all flight instrument lights,
-while at the same time dim indicator and warning lamps.
+while at the same time dim the HSI mode and warning and caution lights, except FIRE and OVERHEAT.
 
 Flight instrument lights can additionally be controlled individually
 with knobs on the Flight Instrument Lights Intensity Panel, located on the right wall.
@@ -591,7 +591,7 @@ Radar Altimeter
 .. image:: images/RadAlt.png
   
   
-Terrain relative accurate height information up to 5000 ft, functions to 30 degrees of bank angle or 35 degrees of pitch.  The function control switch on the lower right of the indicator powers the device; continued clockwise rotation sets the low altitude warning pointer to the desired height.   
+Terrain relative accurate height information up to 5000 ft, functions to 30 degrees of bank angle or 35 degrees of pitch.  Clockwise rotation of the function control switch on the lower right of the indicator powers the device; continued rotation sets the low altitude warning pointer to the desired height. Below the set altitude, the warning light activates. A self-test, initiated by pressing the function control switch, shows 35 +-15 feet. Above 5000 feet or with unreliable signals, the pointer hides behind a mask, showing the OFF flag. The OFF flag also appears during power loss or shutdown.  
   
 
 Airspeed and Mach Indicator
@@ -620,7 +620,11 @@ Reference System Selector Switch
 
 .. image:: images/RefSel.png
   
-Determines the current system providing orientation reference to the ADI- the INS system (PRIM) or the AN/AJB-7 displacement gyroscope (STBY).  
+Toggles between the inertial navigation set and AN/AJB-7 displacement gyroscope for attitude information. When set to PRIM, the inertial navigation set provides azimuth and attitude data to the ADI; when on STBY, AN/AJB-7 supplies this information. Azimuth data also feeds into the HSI and BDHI (rear cockpit). Additionally, attitude details are sent to the fire control system.
+
+Note: Inertial info requires the inertial navigator control panel's switch to be on NAV.
+
+When transitioning between STBY and PRIM, immediate attitude information may show unusual gyrations on the attitude director indicator due to initial erection. Rapid turns (above 15° per minute) may temporarily disrupt accurate heading information, requiring straight and level flight for about 20 seconds for manual compass system synchronization (SYNC position)
   
 
 Attitude Director Indicator
@@ -2107,7 +2111,7 @@ True Airspeed Indicator
 
 .. image:: images/TASInd.png
   
-Provides the aircraft's True Airspeed in knots, and is calibrated from 150 to 1500 knots; airspeeds below this range are thus not reliable. 
+Provides the aircraft's True Airspeed in knots, and is calibrated from 150 to 1500 knots; airspeeds below this range are thus not reliable. At high rates of airspeed change, there may be a lag of up to +-10 knots in measurement. 
 
 
 UHF Remote Channel Indicator
