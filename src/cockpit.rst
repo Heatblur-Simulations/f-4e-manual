@@ -264,17 +264,7 @@ Angle of Attack Indexer Lights
     
 Provides quick confirmation of current aircraft AoA state based on illuminated position and color.  
 
-+--------------+---------------+ 
-| "center low" | Very slow     |
-+--------------+---------------+
-| "low"        | Slightly slow |
-+--------------+---------------+
-| "all"        | On speed      |
-+--------------+---------------+
-| "high"       | Slightly fast |
-+--------------+---------------+
-| "center high | Very fast     |
-+--------------+---------------+
+.. image:: images/AoA_table.PNG
 
 Range Indicator
 ---------------
