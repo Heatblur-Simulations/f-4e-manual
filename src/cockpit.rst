@@ -3141,33 +3141,42 @@ Inertial Navigation Control Panel
 ---------------------------------
 
 The Inertial Navigation Control Panel provides the rear pilot mode selection and system alignment command selection.
-Mode selector positions are 
+
+Mode Selector Switch
+^^^^^^^^^
+
+The HDG MEM-GYRO COMP switch, located under a cover, primarily stays in the GYRO COMP position for Gyro Compass type of alignment. Switching it to HDG MEM, before turning on the INS, allows (if previously stored) heading memory alignment.
+
+Power Control Knob
+^^^^^^^^^
+
+Knob positions are: 
 
 +---------+---------------------------------------------------------------------------+
 | OFF     | System off.                                                               |
 +---------+---------------------------------------------------------------------------+
-| STBY    | Standby- power is applied to the heaters and climate control system,      |   
+| STBY    | Standby- power is applied to the heaters and temperature control system,  |   
 |         |                                                                           |
-|         | and initiates Coarse alignment if GYRO COMP not selected on the toggle.   | 
+|         | and initiates Coarse alignment (if GYRO COMP is selected on the toggle.)  | 
 +---------+---------------------------------------------------------------------------+
-| ALIGN   | Performs fine platform and gyro leveling, then, depending on aircrew      |
+| ALIGN   | Performs fine platform and gyro leveling and BATH (or HDG MEM) alignment. |
 |         |                                                                           |
-|         | selection, performs Rapid or Gyrocompassing (Fine) Alignment.             |
+|         | Then, if available, performs Gyrocompassing (Fine) Alignment.             |
 +---------+---------------------------------------------------------------------------+ 
 | NAV	  | Activates the INS for navigation function, performance of which is based  |
 |         |                                                                           |
-|         | on Rapid or Gyrocompass alignment.                                        |
+|         | on the alignment quality.                                                 |
 +---------+---------------------------------------------------------------------------+
 
 HEAT Lamp
 ^^^^^^^^^
 
-The HEAT lamp illuminates when the system is placed into STBY mode, and remains illuminated for 110 seconds after the gyros have reached operating temperature.  The system will not align if switched out of STBY before this lamp has shut off.
+The HEAT lamp illuminates when the system is placed into STBY mode, and remains illuminated for 110 seconds after the gyros have reached operating temperature. The system will not allow Gyrocompassing alignment if switched out of STBY before this lamp has shut off.
 
 ALIGN Lamp
 ^^^^^^^^^^
 
-The ALIGN lamp provides current INS alignment through illuminating steady (BATH or HDG MEM alignment complete), or flashing at the completion of GYRO COMP alignment.  
+The ALIGN lamp provides current INS alignment through illuminating steady (BATH alignment complete), or flashing at the completion of GYRO COMP or HDG MEM alignment.  
 
 
 Weapon Delivery Panel
