@@ -2846,10 +2846,10 @@ Liquid Oxygen Level Indicator
 Range from 0 to 10 liters, providing confirmation of current liquid oxygen status.  In event power is lost, a "power off" flag will show on the instrument face.
 
 
-Navigation Volume Control
+VOR/ILS Volume Control
 -------------------------
 
-Controls audio volume of received TACAN/beacon signals through aircrew headsets. 
+The volume control consists of two knobs: one square knob adjusts VOR and localizer audio, while the round knob controls the marker beacon audio.
 
 
 WSO Emergency Flaps Handle
