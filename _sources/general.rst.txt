@@ -134,6 +134,8 @@ The Phantom's fuel system is duplicated; that is, their pump and feed arrangemen
 Transfer Sequence
 -----------------
 
+.. image:: images/f4_fuel_system.png
+
 The F-4 carries two internal wing tanks, along with seven fuel cells down the length of the fuselage, with cell 1 resting just behind the aft cockpit, and the remaining cells numbered in order to the rear of the aircraft.  Cell 1 is the feed cell for the engines; cells 4 and 6 each carry a hydraulic and an electric transfer pump to supply fuel to cells 1 and 2.  The remaining fuselage cells perform a gravity feed into cells 1, 4, or 6. Cell 3 feeds cell 4 and 5, cell 2 feeds cell 1 and cell 7 feeds cell 6.  With this arrangement, center of gravity balance is maintained along the centerline.  Cell 7 is the last cell to initiate transfer in the sequence, and does not begin until the total fuel in cells 1 and 2 fall below 1800 lbs. 
 
 Fuel transfer from the wing and external tanks is performed by bleed air pressurization once airborne; they will not transfer until the aircraft is off the ground. Internal wing tank fuel is transferred into fuselage cells 1 and 3, whereas fuel from external tanks are balanced between cells 1, 3, and 5. 
@@ -145,7 +147,10 @@ Should it be necessary, a two position switch is available to turn off transfer 
 External Transfer Switch
 ------------------------
 
-External tank transfer is controlled by the External Transfer Switch; found on the Fuel Control Panel, the switch has three positions: CENTER, OFF, and OUTBD (Outboard), with OUTBD referring to the wing external tanks.  
+External tank transfer is controlled by the External Transfer Switch; found on the Fuel Control Panel, the switch has three positions: CENTER, OFF, and OUTBD (Outboard),
+with OUTBD referring to the wing external tanks.
+
+It is not possible to transfer from the wing tanks and external tanks at the same time. If both are selected, the external tanks will take priority.
 
 Fuel Boost System
 -----------------
@@ -154,13 +159,8 @@ Fuel Boost System
 
 Flow from Cell 1 to the engines is performed by a pair of boost pumps.  The pumps are installed at the bottom of the tank to provide fuel in the event of a negative G excursion.  The function of these pumps can be confirmed on the Fuel Boost Pump Pressure Indicators  found in the front cockpit.  Engine idle pump flow rate is 30 PSI, +/- 5 pounds.   To confirm a ground check, a pair of Boost Pump Check switches are found on the fuel control panel.   Holding one of these switches in the CHECK position will perform an engine shutdown, and provide feedback on the respective Pressure Indicator.
 
-Tank Depressurization Switch
-----------------------------
-
-To mitigate the risk of explosion due to damage or fire on the airframe, a Depressurization Switch is found on the fuel control panel.  In the NORM position, the system maintains bleed air pressure to maintain normal flow.  Selection of ALL FUS depressurizes the fuselage cells, while ALL INT depressurizes both the fuselage and internal wing fuel cells.  
-
-Fuel Quantity Indication System (NEED TO SEE WHICH VERSION IN MODULE)
----------------------------------------------------------------------
+Fuel Quantity Indication System
+-------------------------------
 
 Fuel Level Low Warning Light
 ----------------------------
@@ -170,19 +170,26 @@ When the sensor in Cell 2 detects a fuel weight of less than 1650 +/- 200 lbs, t
 External Tanks Fuel Lights
 --------------------------
 
-Any time an external fuel tank is detected to not be flowing fuel into the fuselage, a respective light will illuminate on the telelight panel- L EXT FUEL, CTR EXT FUEL, or R EXT FUEL.  These lights will only illuminate for the respective external transfer- that is, if OUTBD is selected, CTR EXT FUEL cannot illuminate, and vice versa.   Because transfer can occur intermittently due to flow from the tanks exceeding engine fuel consumption, the warning lamp is not immediately indicative of an empty external tank, and should be checked against the quantity indication system.  Further, the laps will illuminate when the air refuel switch is set to EXTEND, with the ALL TANKS setting selected.
+Any time an external fuel tank is detected to not be flowing fuel into the fuselage, a respective light will illuminate on the telelight panel- L EXT FUEL, CTR EXT FUEL,
+or R EXT FUEL.  These lights will only illuminate for the respective external transfer- that is, if OUTBD is selected, CTR EXT FUEL cannot illuminate, and vice versa.
+Because transfer can occur intermittently due to flow from the tanks exceeding engine fuel consumption,
+the warning lamp is not immediately indicative of an empty external tank, and should be checked against the quantity indication system.
+Further, the lamps will illuminate when the air refuel switch is set to EXTEND, with the ALL TANKS setting selected.
 
 External Tanks Full Lights
 --------------------------
 
 .. image:: images/AARLights.png
 
-When air to air refueling, or when on the ground and the tanks have reached a full condition, the External Tanks Full lamps, found under the canopy bow, will light.  
+When air to air refueling, or when refueling on the ground and the tanks have reached a full condition, the External Tanks Full lamps, found under the canopy bow, will light.  
 
 Internal Wing Fuel Dump System
 ------------------------------
 
-Fuel from the wings can be dumped directly, rather than requiring transfer into the fuselage, using the Wing Fuel Dump Switch.  This switch, when selected to DUMP, will release fuel from the internal wing tanks at their dump lines at the wing fold trailing edge.  Flow rate is dependent on power setting and attitude, higher engine RPM and positive pitch increases dump speed, whereas lower RPM and a nose low condition reduces dump speed.  In level flight at 85% RPM, the dump flow rate is roughly 650 pounds per minute. 
+Fuel from the wings can be dumped directly, rather than requiring transfer into the fuselage, using the Wing Fuel Dump Switch.
+This switch, when selected to DUMP, will release fuel from the internal wing tanks at their dump lines at the wing fold trailing edge.
+Flow rate is dependent on power setting and attitude, higher engine RPM and positive pitch increases dump speed, whereas lower RPM and a nose low condition reduces dump speed.
+In level flight at 85% RPM, the dump flow rate is roughly 650 pounds per minute. Leading to the entire fuel being dumped after roughly 15 minutes.
 
 .. _elecpow:
 
@@ -209,7 +216,8 @@ A pair of Generator Control Switches are found on the right console, one for eac
 Instrument Ground Power Switch
 ------------------------------
 
-Power from an external source can be provided by the Instrument Ground Power Switch, found on the #2 circuit breaker.  Once external electrical power is disengaged or an engine generator comes online, it will switch off.
+Power from an external source can be provided by the Instrument Ground Power Switch, found on the the right wall in the rear cockpit.
+Once external electrical power is disengaged or an engine generator comes online, it will switch off.
 
 
 .. _hydpow:
@@ -356,17 +364,29 @@ Indexers
 
 .. image:: images/AoA.png
 
-The AoA Indexers, found on the windshield frame of the front cockpit, and above the instrument panel in the rear, display color coded and directional symbology for the on-speed approach value of 19.2 units once the landing gear have been lowered.  Figure _____ provides a breakdown of the representation.
+The AoA Indexers, found on the windshield frame of the front cockpit, and above the instrument panel in the rear,
+display color coded and directional symbology for the on-speed approach value of 19.2 units once the landing gear have been lowered.
 
 Aural Tone System
 -----------------
 
-The Aural Tone System provides audible feedback in maneuvering flight and during landing configuration.  Beginning above 15 units AoA with gear down, and 21 units AoA with the gear up and slats in, a pulse will be heard by both crewmembers.  The rate of the pulse can vary from 1.5 to 20 pulses per second, with increasing frequency based on higher AoA values.   This tone can be lowered below 20.3 units AoA gear down/25 units gear up with volume controls in each cockpit; exceeding these values will cause the system to override the volume limits and deliver the warning pulses at full volume.
+The Aural Tone System provides audible feedback in maneuvering flight and during landing configuration.
+Beginning above 15 units AoA with gear down, and 21 units AoA with the gear up and slats in, a pulse will be heard by both crewmembers.
 
-Stall Warning Vibrator (IN SIM?)
+The rate of the pulse can vary from 1.5 to 20 pulses per second, with increasing frequency based on higher AoA values.
+
+This tone can be lowered in volume below 20.3 units AoA gear down/25 units gear up with controls in each cockpit;
+exceeding these values will cause the system to override the volume limits and deliver the warning pulses at full volume.
+
+The respective knobs are labelled STALL WARNING and can be found on the right side in either cockpit.
+They must not to be confused with the AURAL TONE CONTROL knobs, which control weapon related tones.
+
+Stall Warning Vibrator
 --------------------------------
 
-The left front cockpit pedal includes a Stall Warning Vibrator, which is activated over 22.3 units Angle of Attack.  This physical (and in DCS- audible) indication is given to make the pilot aware of the potential of an impending stall and provide enough time to reduce AoA and prevent the loss of control of the aircraft.  Reducing AoA below the threshold will deactivate the warning. 
+The left front cockpit pedal includes a Stall Warning Vibrator, which is activated over 22.3 units Angle of Attack.
+This physical (and in DCS- audible) indication is given to make the pilot aware of the potential of an impending stall and provide enough time
+to reduce AoA and prevent the loss of control of the aircraft.  Reducing AoA below the threshold will deactivate the warning.
 
 
 .. _lndgctrls:
@@ -438,7 +458,11 @@ In the event of a Utility hydraulic system failure, emergency differential braki
 Arresting Hook System
 ---------------------
 
-The Phantom carries a retractable arresting hook for ground stopping in emergency takeoff and landing situations that will reach the strip overrun.  Placing the Arresting Hook Handle in the front cockpit into the DOWN position will lower the hook in approximately five seconds. Lowering the hook will illuminate a red warning lamp in the Hook Handle, and illuminate the HOOK DOWN warning on the telelight panel. 
+The Phantom carries a retractable arresting hook for ground stopping in emergency takeoff and landing situations that will reach the strip overrun.
+Placing the Arresting Hook Handle in the front cockpit into the DOWN position will lower the hook in approximately five seconds.
+Lowering the hook will illuminate a red warning lamp in the Hook Handle, and illuminate the HOOK DOWN warning on the telelight panel. 
+
+The system is not intended to be used for carrier operations.
 
 Drag Chute System
 -----------------
@@ -880,14 +904,14 @@ The UHF communication system is capable of providing either conventional or cryp
 KY-28 Controls and Indicators 
 -----------------------------
 
-[image KY-28 mode lights front and rear cockpit]
+.. image:: images/KY28Mode.png
 
 The KY-28 is controlled by the KY-28 control panel and respectively the conventional UHF or Intercom controls. Both front and rear cockpit instrument panels display mode lights for either mode. If the mode light P is illuminated the KY-28 and UHF/Intercom is operated in plain mode. If the mode light C is illuminated the KY-28 and UHF/intercom is operated in the cipher mode. 
 
 KY-28 Control Panel 
 -------------------
 
-[image KY-28 Control Panel]
+.. image:: images/wso_ky_28.png
 
 The KY-28 control panel is in the rear cockpit. It has a power knob, a mode switch and a code zeroize button. The power knob provides power to the KY-28 and can be set to either OFF, ON or RLY (relay). The KY-28 is not powered in the OFF position. It is powered in the ON and RLY positions. If a direct communication between KY units is desired, the ON position is to be selected. RLY would provide the ability to use the KY-28 as a retransmission facility, which is not modeled in DCS. The mode switch can be set to either P (plain) or C (cipher) operating modes. To change modes the switch has to be pulled outwards. If the KY-28 is powered and the mode switch is set to the C position, the UHF transmitter is automatically selected for front cockpit transmissions. Pressing the zeroize button neutralizes the preset code in the KY-28. The zeroize button is guarded and should only be used in emergencies or after aircraft shutdown if required. As the code can only be set on the ground, pressing the zeroize button during flight makes the cipher mode inoperable for the crew for the remainder of the flight.  
 
@@ -946,18 +970,34 @@ Lighting Equipment
 Exterior Lighting
 -----------------
 
+.. image:: images/ext_lights.png
+
 Exterior lights on the F-4E include position lights found on the wings and tail, join-up lights on the wings, fuselage lights, the anti collision light, and the inflight refueling receptacle light; the control for these are found on the right console.  Additional in-flight lighting is provided by the formation lights, which have a separate set of controls above the right console.  Further lighting is available for landing and taxi when the gear are lowered, and the controls for these are found on the left sub-panel.  
 
 
 Position and Join-Up Lights
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The wing and join-up lights are controlled by a single switch, with options for OFF, DIM, and BRT.  These lights do not have a flash function.  The tail light is controlled by the Flasher Switch in STEADY or FLASH position. 
+.. image:: images/pos_lights.png
+
+The wing and join-up lights are controlled by a single switch, with options for OFF, DIM, and BRT.
+These lights do not have a flash function. The tail light is controlled by the Flasher Switch in STEADY or FLASH position.
 
 Anti-Collision and Fuselage Lights
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Three white anti-collision lights are found behind the rear cockpit canopy, and one below each of the engine intakes.  A red anti-collision light is found on the vertical stabilizer.  These are all controlled by the three position FUS switch, which can be set to OFF, DIM, and BRT.  The red light on the stabilizer only illuminates when this switch is selected to BRT.  The fuselage lights only function with the Flasher Switch in STEADY or FLASH, and cycle when in the latter setting.
+.. image:: images/fus_light_top.png
+.. image:: images/fus_light_bottom.png
+
+Three white anti-collision lights are found behind the rear cockpit canopy, and one below each of the engine intakes.
+
+.. image:: images/anti_col_light.png
+
+A red anti-collision light is found on the vertical stabilizer.
+
+These are all controlled by the three position FUS switch, which can be set to OFF, DIM, and BRT.
+The red light on the stabilizer only illuminates when this switch is selected to BRT.
+The fuselage lights only function with the Flasher Switch in STEADY or FLASH, and cycle when in the latter setting.
 
 Landing and Taxi Lights
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -972,7 +1012,10 @@ To assist operators with boom alignment, lights illuminating the IFR receptacle 
 Formation Lights
 ^^^^^^^^^^^^^^^^
 
-Electroluminescent formation lighting is found along the fuselage, wing tips, and vertical stabilizer.  These are activated using the control panel above the right console, and have options for ON, OFF, and MOM (for momentary).  
+.. image:: images/formation_lights.png
+
+Electroluminescent formation lighting is found along the fuselage, wing tips, and vertical stabilizer.
+These are activated using the control panel above the right console, and have options for ON, OFF, and MOM (for momentary).
 
 Interior Lighting 
 -----------------
@@ -1081,7 +1124,12 @@ For air to air refueling, the F-4E uses a receptacle system compatible with high
 Air Refuel Switch
 -----------------
 
-Preparation for air refueling is performed by toggling the Air Refuel Switch to EXTEND; doing so extends the receptacle, illuminates the receptacle visual lamps, depressurizes the fuel cells, activates the transfer pumps to redistribute received fuel for CG maintenance, and activates the air refuel READY lamp.  RETRACT is used to lower the receptacle and return pressurization and normal function to the tanks. 
+Preparation for air refueling is performed by toggling the Air Refuel Switch to EXTEND; doing so extends the receptacle,
+illuminates the receptacle visual lamps, depressurizes the fuel cells, activates the transfer pumps to redistribute received fuel for CG maintenance,
+and activates the air refuel READY lamp.  RETRACT is used to lower the receptacle and return pressurization and normal function to the tanks. 
+
+If, during AAR, the boom disconnects and the DISENGAGED light illuminates, this switch has to be flipped to
+RETRACT and back to EXTEND to reset the system and allow the boom to connect again.
 
 Refuel Selection Switch
 -----------------------
@@ -1157,13 +1205,13 @@ RKTS and DISP bypass empty stations automatically.
 Station Select Buttons
 ----------------------
 
-The Station Select Buttons 
-
 
 Mode Selection - Delivery Mode Knob
 -----------------------------------
 
-Release mode is set using the Delivery Mode Knob.  Values to the left of OFF employ the AN/AJB-7 Attitude Reference and Combing Computer Set (ARBCS), whereas values to the right of DIRECT employ the Weapon Release Computer Set (WRCS). DIRECT is the manual release mode.  TGT FIND functions as a navigational mode, and cannot provide a weapon release signal to the fire control, thus can be considered in practice a "safe" position. 
+Release mode is set using the Delivery Mode Knob.  Values to the left of OFF employ the AN/AJB-7 Attitude Reference and Combing Computer Set (ARBCS), whereas values to the right
+of DIRECT employ the Weapon Release Computer Set (WRCS). DIRECT is the manual release mode.
+TGT FIND functions as a navigational mode, and cannot provide a weapon release signal to the fire control, thus can be considered in practice a "safe" position.
 
 The values, clockwise from the left, are as follows:
 
@@ -1407,9 +1455,16 @@ Due to rapid maneuvering during a bombing run, gyro deviation can occur due to f
 Pave Spike
 ==========
 
-The AN/AVQ-23 Pave Spike targeting pod is the successor of the AN/AVQ-10 Pave Knife and predecessor of the AN/AVQ-26 Pave Tack pod. It entered service in 1974 and was replaced from 1982 to 1989 by the Pave Tack pod.  It provides a slewable TV image for spotting ground targets and can fire laser for determining range information and to guide laser guided weapons.
+.. image:: images/pave_spike_pod.png
 
-The line of sight can be controlled by the WSO, using the Antenna Hand Control.  The camera image is displayed on the DSCG scope and can be viewed by both, the Pilot and the WSO independently.  
+The AN/AVQ-23 Pave Spike targeting pod is the successor of the AN/AVQ-10 Pave Knife and predecessor of the AN/AVQ-26 Pave Tack pod.
+It entered service in 1974 and was replaced from 1982 to 1989 by the Pave Tack pod.
+It provides a slewable TV image for spotting ground targets and can fire laser for determining range information and to guide laser guided weapons.
+
+.. image:: images/pave_spike_screen_example.png
+
+The line of sight can be controlled by the WSO, using the Antenna Hand Control.
+The camera image is displayed on the DSCG scope and can be viewed by both, the Pilot and the WSO independently.
 
 Targeting Pod 
 -------------
@@ -1418,357 +1473,545 @@ The system has an optical camera for daylight operation with one level of optica
 
 Limitations for the pods gimbals are
 
-Roll: -160 to +110 degrees
-Pitch: -160 to +15 degrees
-Yaw: -15 to +15 degrees
+* Roll: -160 to +110 degrees
+* Pitch: -160 to +15 degrees
+* Yaw: -15 to +15 degrees
+
+.. image:: images/pave_spike_roll_limit.png
+.. image:: images/pave_spike_elev_limit.png
 
 Symbology
----------
+^^^^^^^^^
 
-The TV image mainly consists of a reticle. The reticle rotates clockwise to indicate the pods current elevation. At a 90degree rotation, the pod is looking straight down. If the reticle is almost upside down, the pod reached its gimbal limit for the elevation (160 degrees).
+The TV image mainly consists of a reticle. The reticle rotates clockwise to indicate the pods current elevation.
+At a 90 degree rotation, the pod is looking straight down. If the reticle is almost upside down, the pod reached its gimbal limit for the elevation (160 degrees).
 
 The wide field of view is indicated by a circle around the reticle.
 
 On the left, the image displays two cues:
 
-Time To Go Cue (TTg)
-Release Cue (T0)
+* Time To Go Cue (TTg)
+* Release Cue (T0)
 
 During weapon operation, TTg moves down until it intersects T0, indicating the time to release.
 
+.. image:: images/pave_spike_symbology.png
+.. image:: images/pave_spike_symbology_fov.png
+
 The cues also indicate various situations related to laser operation.
+
++---------------+---------------------------------------+-----------------------------------------+
+| Indication    | T0                                    | TTG                                     |
++===============+=======================================+=========================================+
+| not shown     | not in TRACK mode                     | not in TRACK mode                       |
++---------------+---------------------------------------+-----------------------------------------+
+| steady        | commanded to fire laser (full action) | firing laser, accepted range            |
++---------------+---------------------------------------+-----------------------------------------+
+| flashing fast | not commanded to fire laser           | not firing laser or target too far away |
++---------------+---------------------------------------+-----------------------------------------+
+| flashing slow |                                       | firing laser, but range rejected        |
++---------------+---------------------------------------+-----------------------------------------+
 
 Controls
 --------
 
-The Pave Spike is mostly interacted with by the WSO, while the Pilot has indicators assisting in keeping the pods line of sight within its limits. The entire system, known as AN/ASQ-153 Electro-Optical Target Designator System, consists of:
+The Pave Spike is mostly interacted with by the WSO, while the Pilot has indicators assisting in keeping the pods line of sight within its limits.
 
-Range Indicator (Pilot)
+The entire system, known as AN/ASQ-153 Electro-Optical Target Designator System, consists of:
 
-Azimuth-Elevation Indicator (Pilot)
-
-Laser Coder Control (WSO)
-
-Target Designator Set Control (WSO)
+* Range Indicator (Pilot)
+* Azimuth-Elevation Indicator (Pilot)
+* Laser Coder Control (WSO)
+* Target Designator Set Control (WSO)
 
 While the display is shown on the DSCG screens in both cockpits.
 
+.. image:: images/eotgt_pilot_overview.png
+.. image:: images/eotgt_wso_overview.png
+
 Azimuth-Elevation Indicator
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The Azimuth-Elevation Indicator is the main instrument for the pilot to assess the pods current attitude in order to keep the line of sight within the operational limits.
+
+.. image:: images/EOLos.png
 
 The needle shows the pods roll position from -160 (CW) to +110 (CCW) degrees.
 
 Three flags indicate the elevation:
 
-green: -120 to -155 degrees
+* green: -120 to -155 degrees
+* yellow: -155 to -160 degrees
+* red: -160 or beyond degrees
 
-yellow: -155 to -160 degrees
-
-red: -160 or beyond degrees
-
-If the needle is kept within the green labelled range and no, or only the green flag are shown, the view will not be obstructed by the pod or the aircraft. 
+If the needle is kept within the green labelled range and neither the yellow or red flag are shown, the view will not be obstructed by the pod or the aircraft.
 
 Range Indicator
+^^^^^^^^^^^^^^^
 
 This panel provides the pilot with a readout of the slant range measured by the Pave Spike (x100 ft).
 
+.. image:: images/range_indicator.png
+
 When the Test-Button is pressed, the display shows 888, the knob underneath it controls the brightness of the readout.
+
 The Mode-Knob allows the pilot to select one of two weapon delivery modes available with the pod:
 
-WRCS - Automatic Delivery
+* WRCS - Automatic Delivery
+* ROR - Release on Range
 
-ROR - Release on Range
-
-In the SET position, the display shows the desired release range used in the ROR mode. The knob below the readout can be used to adjust this range.
+In the SET position, the display shows the desired release range used in the ROR mode.
+The knob below the readout can be used to adjust this range.
 
 Laser Coder Control
+^^^^^^^^^^^^^^^^^^^
 
-The WSO can set the laser code used by the targeting pod by using the four small push-buttons on this panel. Each press will advance the corresponding digit by one. Once a code has been set, it can be transferred to the Pave Spike by pressing the Enter-Button to the right.
+The WSO can set the laser code used by the targeting pod by using the four small push-buttons on this panel.
+Each press will advance the corresponding digit by one. Once a code has been set, it can be transferred to the Pave Spike
+by pressing the Enter-Button to the right.
 
-The Laser Coder system starts validating the entered code, this process takes about 5 seconds. If the NO-GO lamp is lit, the code is invalid.
+.. image:: images/laser_coder_control.png
 
-Codes directly relate to lasers frequencies, resulting in them having to be between 1111 and 1788 and not use digits 0 or 9 in order to be valid.
+The Laser Coder system starts validating the entered code, this process takes about 5 seconds.
+If the NO-GO lamp is lit, the code is invalid.
+
+Codes directly relate to lasers frequencies,
+resulting in them having to be between 1111 and 1788 and not use digits 0 or 9 in order to be valid.
 
 When power is applied to the system, it automatically initiates a transfer of the currently set code.
 
 Target Designator Control Set
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is the main panel to interact with the targeting pod.
 
+.. image:: images/target_des_panel.png
+
 From left to right, top to bottom, it provides the WSO with:
 
-Reticle Brightness Knob - change the reticle from black to green
+* Reticle Brightness Knob - change the reticle from black to green
+* Az/El/Roll Boresight Knobs - adjust the boresight position of the pod within +/-2.5 degrees
+* Stow Button - Stow or Unstow the pod
+* Laser Ready Button - Arm or Disarm the laser
+* Power On Button - Turn the pod on or off
+* Currently selected BIT, with push button to advance the BIT
+* Light Brightness Knob - adjust brightness of all lights on this panel (except the Overheat lamp)
+* Reject/Override Button - Force the use of the laser slant range
+* Acquisition Mode Switch - Select the Acquisition Mode (12-VIS, WRCS or 9-VIS)
+* WRCS Out Button - Toggle WRCS integration with the pod
+* GO/MALF Lamp - Indicates BIT results
+* INS Out Button (and Overheat lamp) - Toggle INS integration with the pod
 
-Az/El/Roll Boresight Knobs - adjust the boresight position of the pod within +/-2.5 degrees
-
-Stow Button - Stow or Unstow the pod
-
-Laser Ready Button - Arm or Disarm the laser
-
-Power On Button - Turn the pod on or off
-
-Currently selected BIT, with push button to advance the BIT
-
-Light Brightness Knob - adjust brightness of all lights on this panel (except the Overheat lamp)
-
-Reject/Override Button - Force the use of the laser slant range
-
-Acquisition Mode Switch - Select the Acquisition Mode (12-VIS, WRCS or 9-VIS)
-
-WRCS Out Button - Toggle WRCS integration with the pod
-
-GO/MALF Lamp - Indicates BIT results
-
-INS Out Button (and Overheat lamp) - Toggle INS integration with the pod
-
-The lamps generally indicate the current status, while the push buttons can be used as a manual command. For example, pressing the Laser Ready Button is not enough for the laser to actually be ready. The lamp will only be lit if all other conditions, such as a valid laser code being set, are met.
+The lamps generally indicate the current status, while the push buttons can be used as a manual command.
+For example, pressing the Laser Ready Button is not enough for the laser to actually be ready.
+The lamp will only be lit if all other conditions, such as a valid laser code being set, are met.
 
 Antenna Hand Control
+^^^^^^^^^^^^^^^^^^^^
 
 During Track mode, the WSO can manually slew and correct the pods line of sight with the Antenna Hand Control, or Antenna Stick.
+
+.. image:: images/pave_spike_antenna_hand_control.png
 
 The Challenge Button is used to zoom in or out, while the 2-stage trigger is used to switch between modes and fire the laser.
 
 Electrics
+---------
 
-The Pave Spike draws its power through 4 circuit breakers on the No. 4 CB Panel (WSO, left wall). They forward current from the left main AC bus and the main DC bus.
+The Pave Spike draws its power through 4 circuit breakers on the No. 4 CB Panel (WSO, left wall).
+They forward current from the left main AC bus and the main DC bus.
 
-All panels of the system are powered directly through the pod, and hence will be turned off if the Pave Spike targeting pod is not equipped.
+.. image:: images/pave_spike_cbs.png
+
+All panels of the system are powered directly through the pod, and hence will be turned
+off if the Pave Spike targeting pod is not equipped.
 
 It is not required to turn on the pod itself in order for power to be routed through the pod to the panels.
 
 INS integration
+---------------
 
 During normal operation, the pod is connected with the INS. This can be disabled manually by pressing the INS OUT push button.
 
+.. image:: images/ins_out_lamp.png
+
 With INS disabled, the following functions are not available:
 
-Automatic target stabilization during Track-mode
-
-Roll-stabilization during 12-VIS Acquisition-mode
-
-Slant range computation
+* Automatic target stabilization during Track-mode
+* Roll-stabilization during 12-VIS Acquisition-mode
+* Slant range computation
+* WRCS integration
 
 WRCS integration
+----------------
 
 During normal operation, the pod is connected with the WRCS. This can be disabled manually by pressing the WRCS OUT push button.
 
+.. image:: images/wrcs_out_lamp.png
+
 Also, the WRCS is disabled automatically without INS integration, or if currently not in DIRECT or TGT FIND weapon mode.
+
+.. image:: images/pave_spike_weapon_sel.png
 
 With WRCS disabled, the following functions are not available:
 
-WRCS Acquisition mode
-
-Memory mode
-
-WRCS Automatic Weapon Release
+* WRCS Acquisition mode
+* Memory mode
+* WRCS Automatic Weapon Release
 
 And some functions are degraded, but still available:
 
-Slant range computation
-
-Automatic target stabilization during Track-mode 
+* Slant range computation
+* Automatic target stabilization during Track-mode 
 
 Modes
+-----
 
-Prior to being able to designate a target, one has to visually aquire the general target area and put the LOS in the vicinity. This is done by using one of three acquisition modes:
+Prior to being able to designate a target, one has to visually aquire the general target area and put the LOS in the vicinity.
+This is done by using one of three acquisition modes:
 
-12-VIS
-
-9-VIS
-
-WRCS
+* 12-VIS
+* 9-VIS
+* WRCS
 
 The modes can be selected by the WSO, using the Acquisition Mode Switch.
 
+.. image:: images/acq_mode_switch.png
+
 Visual modes
+^^^^^^^^^^^^
 
 In 12-VIS and 9-VIS, the LOS is set to a fix position.
 
-12-VIS: 0 roll, -2 elevation, looking slightly nose down
+* 12-VIS: 0 degrees roll, -2 degrees elevation, looking slightly nose down
+* 9-VIS: -90 degrees roll (CW), -90 degrees elevation (down), looking left
 
-9-VIS: -90 roll (CW), -90 elevation (down), looking left
+12-VIS can be a great way to find targets of opportunity, as it allows the pilot to put a target directly on the nose.
+The position also corresponds to the caged HUD reticle. Additionally, if the INS is integrated with the pod, 12-VIS is roll-stabilized.
 
-12-VIS can be a great way to find targets of opportunity, as it allows the pilot to put a target directly on the nose. The position also corresponds to the caged HUD reticle. Additionally, if the INS is integrated with the pod, 12-VIS is roll-stabilized.
-
-The use of 9-VIS is very limited. It is intended to aid in acquiring a target while observing an area in a turn. The target has to be put on the extension of the left wing. However, in practice it is very difficult to maintain a turn in such an attitude.
+The use of 9-VIS is very limited. It is intended to aid in acquiring a target while observing an area in a turn.
+The target has to be put on the extension of the left wing. However, in practice it is very difficult to maintain a turn in such an attitude.
 
 WRCS mode
+^^^^^^^^^
 
-The main mode to acquire targets is the WRCS mode, in which the LOS is set to the current WRCS target. This usually corresponds to the cursor on the radar screen,but can also be set manually by the WSO. This enables the crew to spot a target, or general target area, by using the radar or entering known coordinates and then slewing the pod to this destination. If no specific target has been inserted, the WRCS usually defaults to the aircraft position, resulting in the pod looking straight down.
+The main mode to acquire targets is the WRCS mode, in which the LOS is set to the current WRCS target.
+This usually corresponds to the cursor on the radar screen,but can also be set manually by the WSO.
+This enables the crew to spot a target, or general target area, by using the radar or entering known coordinates and then
+slewing the pod to this destination. If no specific target has been inserted, the WRCS usually defaults to the aircraft position,
+resulting in the pod looking straight down.
 
 The WRCS mode automatically falls back to the 12-VIS mode in case the WRCS integration is deactivated.
 
 Track mode
+^^^^^^^^^^
 
-Once the target, or general target area, has been found using the acquisition modes, the WSO can enter Track-mode by pressing the trigger on the Antenna Hand Control to either Half or Full Action.
+Once the target, or general target area, has been found using the acquisition modes, the WSO can enter Track-mode by pressing
+the trigger on the Antenna Hand Control to either Half or Full Action.
 
-In this mode, the Antenna Stick can be moved to slew the pod LOS. Operating the laser is only available in this mode, and can be activated by pressing the trigger on the Antenna Stick to Full Action.
+In this mode, the Antenna Stick can be moved to slew the pod LOS. Operating the laser is only available in this mode,
+and can be activated by pressing the trigger on the Antenna Stick to Full Action.
 
-Track mode is indicated by the T0 and TTG cues becoming visible on the display. They also indicate the status during laser operation. If the INS is integrated with the pod, the image will automatically be space stabilized on the computed target position. Be aware that the stabilization is rudimentary and needs constant correction with the stick for the target to be kept centered.
+Track mode is indicated by the T0 and TTG cues becoming visible on the display.
+They also indicate the status during laser operation.
 
-The stabilization is mostly based on the measured slant range. Accurate slant range can be obtained by firing the laser. Alternatively, it is computed based on the aircraft barometric altitude and the target altitude, which can be set by the WSO on the WRCS panel.
+If the INS is integrated with the pod, the image will automatically be space stabilized on the computed target position.
+Be aware that the stabilization is rudimentary and needs constant correction with the stick for the target to be kept centered.
+
+The stabilization is mostly based on the measured slant range. Accurate slant range can be obtained by firing the laser.
+Alternatively, it is computed based on the aircraft barometric altitude and the target altitude, which can be set by the WSO on the WRCS panel.
+
+.. image:: images/pave_spike_wrcs_target_alt.png
 
 Without a WRCS integration, a target altitude of 0 is assumed, degrading the stabilization.
 
-Note that the pod is not capable of computing a slant range for targets above the own aircraft altitude (for example when attacking up-hill). Since that is measured using the barometric altitude, depending on the pressure-setting, this can lead to erratic behavior during hot days when flying low. Problematic situations like this were commonly referred to as Idiot mode, as the tracking system started to behave very odd and it was very difficult to restore proper behavior. The crew often had to deactivate the INS integration temporarily in order to disable the automatic tracking.
+Note that the pod is not capable of computing a slant range for targets above the own aircraft altitude (for example when attacking up-hill).
+Since that is measured using the barometric altitude, depending on the pressure-setting, this can lead to erratic behavior during
+hot days when flying low. Problematic situations like this were commonly referred to as Idiot mode, as the tracking system started
+to behave very odd and it was very difficult to restore proper behavior. The crew often had to deactivate the INS integration
+temporarily in order to disable the automatic tracking.
 
 Memory Mode
+^^^^^^^^^^^
 
-Whenever a target-insert signal is send, the system activates the Memory-mode, provided it is currently in Track-mode and the WRCS integration is active.
+Whenever a target-insert signal is send, the system activates the Memory-mode, provided it is currently
+in Track-mode and the WRCS integration is active.
 
-In this mode, the line of sight is slaved to the current WRCS target, even if it is outside of the pods gimbal limits and cannot be displayed currently. The mode acts very similar to the WRCS-Acquisition mode.
+In this mode, the line of sight is slaved to the current WRCS target, even if it is outside of
+the pods gimbal limits and cannot be displayed currently. The mode acts very similar to the WRCS-Acquisition mode.
 
 The memory mode has to be left explicitly again, by either pressing half or full action on the Antenna Stick.
 
 Target Insert
+^^^^^^^^^^^^^
 
-A target-insert signal is usually initiated by the WSO pressing the target-insert button. However, when the pod is currently in Track-mode and is maneuvered outside of its gimbal limits, it will automatically initiate a target-insert signal and send its current target position to the WRCS. Note that, if the laser is currently firing, it will automatically be stopped when hitting a limit. This signal then also causes the pod to enter Memory-mode, in which case it will continue to follow the position now memorized by the WRCS.
+A target-insert signal is usually initiated by the WSO pressing the target-insert button.
 
-Additionally, the signal will also be send if the pod is deselected, i.e. Video Select Switch - Weapon (Maverick), or WSO DSCG Mode - not TV (for example switching to Radar)
+.. image:: images/wrcs_target_insert_button.png
+
+However, when the pod is currently in Track-mode and is maneuvered outside of its gimbal limits, it will automatically initiate
+a target-insert signal and send its current target position to the WRCS.
+Note that, if the laser is currently firing, it will automatically be stopped when hitting a limit.
+
+This signal then also causes the pod to enter Memory-mode, in which case it will continue to follow the position now memorized by the WRCS.
+
+Additionally, the signal will also be send if the pod is deselected, i.e.
+
+* Video Select Switch - Weapon, or
+* WSO DSCG Mode - not TV (for example switching to Radar)
 
 Laser System
+------------
 
-The laser can only be operated in the Track-mode and serves two purposes: guiding laser guided weapons on a target, and accurate slant range measurement.
+The laser can only be operated in the Track-mode and serves two purposes:
 
-Slant range is, besides weapon impact calculations, used for the automatic target stablization in Track-mode. If not measured with the laser, it is computed based on inaccurate INS and WRCS data, resulting in a degradation of the system.
+* Guiding laser guided weapons on a target,
+* and accurate slant range measurement.
+
+Slant range is, besides weapon impact calculations, used for the automatic target stablization in Track-mode.
+If not measured with the laser, it is computed based on inaccurate INS and WRCS data, resulting in a degradation of the system.
 
 The laser can be used when the LASER READY lamp is illuminated.
 
-To setup the laser, a valid code has to first be entered on the Laser Coder Control panel and transferred to the pod by pressing the Enter-Button. Make sure that the NO GO light is not illuminated.
+.. image:: images/laser_ready_lamp.png
+
+To setup the laser, a valid code has to first be entered on the Laser Coder Control panel and transferred to the
+pod by pressing the Enter-Button. Make sure that the NO GO light is not illuminated.
+
+.. image:: images/laser_coder_control.png
 
 The LASER READY push button has to be pushed in for the laser to be armed.
 
 Additionally, the laser is guarded by the nose gear position, which has to be fully retracted to prevent accidental use on the ground.
 
-Once ready, the laser is fired during track mode by pressing full action on the Antenna Stick. The status of the laser operation is indicated by the cues on the display being steady or flashing.
+Once ready, the laser is fired during track mode by pressing full action on the Antenna Stick. The status of the laser operation is indicated by the
+cues on the display being steady or flashing.
 
-The T0 cue indicates intention to fire the laser, while the TTG cue represents the outcome of the laser usage. The slant range measured by the laser is compared to the slant range computed based on INS and WRCS data. If it is not within plus or minus 20% percent of that value, it is rejected.  This is indicated by TTG flashing slow.
++---------------+---------------------------------------+-----------------------------------------+
+| Indication    | T0                                    | TTG                                     |
++===============+=======================================+=========================================+
+| not shown     | not in TRACK mode                     | not in TRACK mode                       |
++---------------+---------------------------------------+-----------------------------------------+
+| steady        | commanded to fire laser (full action) | firing laser, accepted range            |
++---------------+---------------------------------------+-----------------------------------------+
+| flashing fast | not commanded to fire laser           | not firing laser or target too far away |
++---------------+---------------------------------------+-----------------------------------------+
+| flashing slow |                                       | firing laser, but range rejected        |
++---------------+---------------------------------------+-----------------------------------------+
+
+The T0 cue indicates intention to fire the laser, while the TTG cue represents the outcome of the laser usage.
+
+The slant range measured by the laser is compared to the slant range computed based on INS and WRCS data.
+If it is not within plus or minus 20% percent of that value, it is rejected. This is indicated by TTG flashing slow.
 
 The system can be forced to use the laser range regardless, by pressing the Reject/Override Button.
 
-In practice, laser measured range is much more accurate than the slant range computed by the system. Hence, pilots developed a habit of always hitting the button whenever they fired the laser. 
+.. image:: images/reject_override_button.png
+
+In practice, laser measured range is much more accurate than the slant range computed by the system.
+Hence, pilots developed a habit of always hitting the button whenever they fired the laser.
 
 Weapon Release Modes
+--------------------
 
 The pod offers two additional weapon release modes:
 
-WRCS Auto Mode
-
-ROR (Release on Range)
+* WRCS Auto Mode
+* ROR (Release on Range)
 
 Auto Mode
+^^^^^^^^^
 
-The main method of weapon delivery with the pod is the WRCS automatic release mode.  The WRCS has to be integrated with the pod for it to be available, and the pilot must select TGT FIND as delivery mode, as well as WRCS on the range indicator.
+The main method of weapon delivery with the pod is the WRCS automatic release mode.
+
+The WRCS has to be integrated with the pod for it to be available, and the pilot must select TGT FIND as delivery mode,
+as well as WRCS on the range indicator.
+
+.. image:: images/pave_spike_weapon_sel_tgt_find.png
+.. image:: images/pave_spike_range_mode_wrcs.png
 
 This mode works the same as the Dive Toss mode of the WRCS, just that it will use the pods computed slant range and target instead.
 
+.. image:: images/wrcs_auto_release_procedure.png
+
 The TTG cue will move down and meet the T0 cue to indicate the time to release.
 
+.. image:: images/ttg_moes_to_tt0.png
+
 ROR
+^^^
 
 Release on range is mostly a backup mode. The pilot must select TGT FIND as delivery mode, and ROR on the range indicator.
 
-Weapons will be released automatically, as soon as the computed slant range is less than the set desired release range. The range is configured on the range indicator, by setting the mode to SET and rotating the knob below the display.  Best results are achieved during level flight.
+.. image:: images/pave_spike_weapon_sel_tgt_find.png
+.. image:: images/pave_spike_range_mode_ror.png
+
+Weapons will be released automatically, as soon as the computed slant range is less than the set desired release range.
+The range is configured on the range indicator, by setting the mode to SET and rotating the knob below the display.
+
+.. image:: images/pave_spike_ror_controls.png
+
+Best results are achieved during level flight.
+
+.. image:: images/ror_auto_release_procedure.png
 
 Stow
+----
 
 After turning on the system, the pod can be unstowed by pressing the STOW push button.
 
+.. image:: images/stow_lamp.png
+
 When unstowed, the pod moves according to the current selections and automatically goes into the WIDE FOV.
 
-In the stowed position, the camera is rotated upwards and a cover is moved in front of it. This protects the camera from stones and other hazards during taxi, takeoff or low level flight. The stow-procedure takes about 5 seconds, with the light indicating the current status.
+In the stowed position, the camera is rotated upwards and a cover is moved in front of it.
+This protects the camera from stones and other hazards during taxi, takeoff or low level flight.
 
-Note that the stow-position is held electrically and can not be held without power.  Unpowered, the pod swings freely with force. Taking off without first applying power to the pod, or flying with the pod being powered off, will cause the pod to leave the stow position. Outside of the stow position, the system will get damaged through hazards and whenever it is forcefully moved into its gimbal limits. Damage will not only offset the boresight position, but also affect other properties, such as movement speed and similar.
+.. image:: images/pave_spike_stowed.png
+
+The stow-procedure takes about 5 seconds, with the light indicating the current status.
+
+Note that the stow-position is held electrically and can not be held without power.
+Unpowered, the pod swings freely with force. Taking off without first applying power to the pod, or flying with the pod being powered off,
+will cause the pod to leave the stow position. Outside of the stow position, the system will get damaged through hazards
+and whenever it is forcefully moved into its gimbal limits. Damage will not only offset the boresight position,
+but also affect other properties, such as movement speed and similar.
 
 Cooling
+-------
 
 The targeting pod has a cooling system installed in the rear section, which automatically cools the pod by external airflow.
 
-In general, the system is capable of keeping the pods temperature within limits during all normal operation. However, if the temperature gets out of control, the Overheat lamp will illuminate. In this case, make sure to turn off the pod immediately and give it some time to cool down first. Ignoring the lamp will cause parts of the pod to melt, damaging it irreparably.
+.. image:: images/pave_spike_cooling.png
 
-A broken pod is generally indicated by the MALF lamp going on and the display being all black. To prolong use of the pod and prevent overheating, limit slow and low-level flight, as well as continuous use of the laser. As a rule-of-thumb, do not use the laser for longer than 15 minutes without allowing for cooling between uses. Limit continued slow and low level flight while operating the pod to 30 minutes. For extreme outside temperatures, adjust the limits accordingly.
+In general, the system is capable of keeping the pods temperature within limits during all normal operation.
+
+However, if the temperature gets out of control, the Overheat lamp will illuminate.
+
+.. image:: images/overheat_lamp.png
+
+In this case, make sure to turn off the pod immediately and give it some time to cool down first.
+Ignoring the lamp will cause parts of the pod to melt, damaging it irreparably.
+
+A broken pod is generally indicated by the MALF lamp going on and the display being all black.
+
+.. image:: images/pave_spike_melted.png
+
+To prolong use of the pod and prevent overheating, limit slow and low-level flight, as well as continuous use of the laser.
+As a rule-of-thumb, do not use the laser for longer than 15 minutes without allowing for cooling between uses.
+Limit continued slow and low level flight while operating the pod to 30 minutes.
+For extreme outside temperatures, adjust the limits accordingly.
 
 BITs
+----
 
-The pod has 5 built-in tests, with BIT 1 being the actual mode used during normal operation. They can be activated and switched through by clicking the BIT button below the display. The GO/MALF lights show the result of the BIT:
+The pod has 5 built-in tests, with BIT 1 being the actual mode used during normal operation.
+They can be activated and switched through by clicking the BIT button below the display. The GO/MALF lights show the result of the BIT:
 
-GO - test was successful
-
-MALF - test detected a failure
+* GO - test was successful
+* MALF - test detected a failure
 
 During normal operation, activated through BIT 1, neither of the lights are illuminated.
 
 BIT 0
+^^^^^
 
-All lights on the Target Designator Set Control illuminate with full brightness. The pod does not need to be powered up for this test. GO/MALF do not indicate test results in this mode.
+All lights on the Target Designator Set Control illuminate with full brightness.
+The pod does not need to be powered up for this test.
+
+.. image:: images/pave_spike_self_test.png
+
+GO/MALF do not indicate test results in this mode.
 
 BIT 1
+^^^^^
 
-The circuits are energized and monitored. If any voltage reading is abnormal, MALF illuminates. GO does not illuminate in this mode.
+The circuits are energized and monitored. If any voltage reading is abnormal, MALF illuminates.
+
+GO does not illuminate in this mode.
 
 This is the standard operational mode. The pod can be used normally and the system will continuously monitor the status.
 
 BIT 2
+^^^^^
 
-The system simulates track functionality, simulating all inputs, altitude and range data. After about 15 seconds, the test is finished with either GO or MALF illuminating.
+The system simulates track functionality, simulating all inputs, altitude and range data.
+
+After about 15 seconds, the test is finished with either GO or MALF illuminating.
 
 For the test to be successful, the aircraft must not be moving, the pod must be unstowed and INS must be integrated.
 
 Bit 3
+^^^^^
 
-This tests the laser energy level. The pod moves to a special position where it looks inside itself, such that the laser fires against a special sensor mounted inside the pod.
+This tests the laser energy level. The pod moves to a special position where it looks inside itself,
+such that the laser fires against a special sensor mounted inside the pod.
 
-The pod must be unstowed and a valid laser code must have been entered, as well as the LASER READY button being pushed in. The nosegear guard is ignored during the test, allowing the use of the laser on ground.
+The pod must be unstowed and a valid laser code must have been entered, as well as the LASER READY button being pushed in.
+The nosegear guard is ignored during the test, allowing the use of the laser on ground.
 
-Once the pod has reached the test position, the WSO must press and hold the Reject/Override button to start firing the laser. The laser stops firing when the button is released.
+Once the pod has reached the test position, the WSO must press and hold the Reject/Override button to start firing the laser.
+The laser stops firing when the button is released.
 
-When the laser fires, a 5 second test program starts, with the sensor measuring the laser energy. After the 5 second test, either GO or MALF illuminate to indicate whether the energy level was above the required minimum.
+.. image:: images/reject_override_button.png
+
+When the laser fires, a 5 second test program starts, with the sensor measuring the laser energy.
+After the 5 second test, either GO or MALF illuminate to indicate whether the energy level was above the required minimum.
 
 To pilot can assist in telling the WSO that the test position has been reached, as indicated by the Azimuth-Elevation Indicator.
 
-Bit 4
+.. image:: images/pave_spike_bit_3_az_el.png
 
-The system tests the ranging computation by feeding a simulated laser slant range of 2100 ft (plus or minus 200).  The pilot can confirm this using the Range Indicator readout.
+Bit 4
+^^^^^
+
+The system tests the ranging computation by feeding a simulated laser slant range of 2100 ft (plus or minus 200).
+The pilot can confirm this using the Range Indicator readout.
+
+.. image:: images/pave_spike_bit_4_range.png
 
 After about 8 to 14 seconds, the test is finished and either GO or MALF is lit.
 
 Upgrades
+--------
 
-Based on crew feedback, the Pave Spike targeting pod received two major upgrades, which are available as separate selectable weapon in DCS.
+Based on crew feedback, the Pave Spike targeting pod received two major upgrades,
+which are available as separate selectable weapon in DCS.
 
 Smart-Track
+^^^^^^^^^^^
 
-TCTO 518, known as the Smart-Track upgrade, aims at removing the requirement to press the Reject/Override button to force the laser measured slant range in situations in which the computed slant range was usually too inaccurate. With the upgrade, the system will automatically accept the laser slant range whenever the pods elevation gimbal is above -7.5 degrees. I.e. in shallow angles, for example during 12-VIS mode.
+TCTO 518, known as the Smart-Track upgrade, aims at removing the requirement to press the Reject/Override button to
+force the laser measured slant range in situations in which the computed slant range was usually too inaccurate.
+
+.. image:: images/reject_override_button.png
+
+With the upgrade, the system will automatically accept the laser slant range whenever the pods elevation gimbal is above -7.5 degrees.
+I.e. in shallow angles, for example during 12-VIS mode.
 
 Fast-Track
+^^^^^^^^^^
 
 The popular upgrade TCTO 519 overhauls the pods gimbal motors, increasing the
-movement speed from 15 dps to 60dps.
+movement speed from 15 dps to 60 dps.
 
-At this speed, the targeting pod is capable of tracking a target during low altitude high speed flight, such as overflights at 1,000 ft with 500 knots.
+At this speed, the targeting pod is capable of tracking a target during low altitude high speed flight,
+such as overflights at 1,000 ft with 500 knots.
 
 Checklists
+----------
 
 Turn On
+^^^^^^^
 
-Ensure power to the aircraft (left main AC bus and main DC bus)
-
-Ensure corresponding CBs are not pulled (No. 4 CB Panel, WSO left wall)
-
-POWER ON Button (WSO, Target Designator Set Control) - confirm lamp lit
-
-BIT 1 - confirm MALF not lit
-
-Video Select Switch - ASQ-153 (WSO, main panel)
-
-DSCG Mode - TV (pilot or WSO)
-
-Unstow by pressing lit STOW button - wait 5 seconds and confirm lamp off
-
-Confirm DSCG on and displaying pod camera feed
-
+* Ensure power to the aircraft (left main AC bus and main DC bus)
+* Ensure corresponding CBs are not pulled (No. 4 CB Panel, WSO left wall)
+* POWER ON Button (WSO, Target Designator Set Control) - confirm lamp lit
+* BIT 1 - confirm MALF not lit
+* Video Select Switch - ASQ-153 (WSO, main panel)
+* DSCG Mode - TV (pilot or WSO)
+* Unstow by pressing lit STOW button - wait 5 seconds and confirm lamp off
+* Confirm DSCG on and displaying pod camera feed
 
 .. _dds:
 
@@ -1778,23 +2021,35 @@ Defensive Systems
 AN/ALE-40 Countermeasures System
 ================================
 
-The AN/ALE-40 countermeasures dispenser set provides the capability of dispensing RR-170 A/AL chaff cartridges or MJU-7/B infrared flare cartridges, or a combination of both. The system is comprised of four chaff dispensers, or a combination of two chaff dispensers and two flare dispensers located on the inboard armament pylons; a programmer and flares select switch in the pilot cockpit; a cockpit control unit (CCU) in the WSO cockpit; indicator lights located in both front and rear cockpit; and a dispense button located both in the pilot and the WSO cockpit. The circuit breaker for the ALE-40 is located on the No.4 Circuit Breaker Panel above the aft left console in the WSO cockpit.
+The AN/ALE-40 countermeasures dispenser set provides the capability of dispensing RR-170 A/AL chaff cartridges or MJU-7/B infrared flare cartridges,
+or a combination of both. The system is comprised of four chaff dispensers, or a combination of two chaff dispensers and two
+flare dispensers located on the inboard armament pylons; a programmer and flares select switch in the pilot cockpit;
+a cockpit control unit (CCU) in the WSO cockpit; indicator lights located in both front and rear cockpit; and a dispense
+button located both in the pilot and the WSO cockpit. The circuit breaker for the ALE-40 is located on the No.4 Circuit Breaker Panel
+above the aft left console in the WSO cockpit.
 
-Available loadout combinations are: empty; 120x chaff; 15x Flares + 90x chaff; 30x flares + 60x chaffs; and 30x flares. 
+.. image:: images/cm_dispenser.png
 
-[INSERT FIGURE Overview AN/ALE-40 Controls and Indicators, fig. 1-44 in TO 1F-4E-34-1-1]
+Available loadout combinations are: empty; 120x chaff; 15x Flares + 90x chaff; 30x flares + 60x chaffs; and 30x flares.
 
-Dispensing of countermeasures can be initiated by either the pilot or the WSO from either the front or the rear cockpit. The CCU will initiate the various modes of operation. The programmer will generate the firing commands in different combinations called bursts or salvos. A group of several bursts constitutes a salvo. The pylon mounted dispensers will convert the firing commands to individually sequenced firing signals. If the operation mode is set to chaff, the dispensing will start in the left pylon dispenser and then transfer the dispensing signals to the right pylon dispenser upon depletion of stores in the left dispenser. If the operation mode is set to flare, dispensing will start in the right pylon master dispenser and upon depletion of stores the sequencer switch will transfer the dispensing signal to the left master dispenser. Flares can also be jettisoned from their dispensers at a rate of 10 flares per second by activating the ripple switch located on the CCU.
+Dispensing of countermeasures can be initiated by either the pilot or the WSO from either the front or the rear cockpit.
+The CCU will initiate the various modes of operation. The programmer will generate the firing commands in different combinations called bursts or salvos.
+A group of several bursts constitutes a salvo. The pylon mounted dispensers will convert the firing commands to individually
+sequenced firing signals. If the operation mode is set to chaff, the dispensing will start in the left pylon dispenser
+and then transfer the dispensing signals to the right pylon dispenser upon depletion of stores in the left dispenser.
+If the operation mode is set to flare, dispensing will start in the right pylon master dispenser and upon depletion of
+stores the sequencer switch will transfer the dispensing signal to the left master dispenser. Flares can also be jettisoned
+from their dispensers at a rate of 10 flares per second by activating the ripple switch located on the CCU.
  
 AN/ALE-40 Cockpit Control Unit (CCU)
 ------------------------------------
 
-The Cockpit Control Unit (CCU) [figure/hyperlink to cockpit overview] is installed on the left console of the rear cockpit. It consists of a chaff and a flare mode rotary knob, two subtraction counters, two indicator lights, a guarded ripple switch and a chaff/flare dispenser button. The CCU issues dispense and mode signals through the programmer.
+The Cockpit Control Unit (CCU) is installed on the left console of the rear cockpit. It consists of a chaff and a flare mode rotary knob,
+two subtraction counters, two indicator lights, a guarded ripple switch and a chaff/flare dispenser button.
+The CCU issues dispense and mode signals through the programmer.
  
 Chaff Mode Knob
 ---------------
-
-[image chaff mode knob]
 
 The chaff operating modes can be selected by turning the chaff mode knob from the OFF position to either the SGL, MULT or PROG positions. With the flare select switch in the NORMAL position and flaps and speed brakes retracted, the switch positions function as follows:
 
@@ -1806,8 +2061,6 @@ PROG		A group of salvo fire commands is sent to the dispenser through the progra
 Flare Mode Knob
 ---------------
 
-[image flare mod knob]
-
 The flare operating modes can be selected by turning the flare mode knob from the OFF position to either the SGL or PROG positions. With the flare select switch in the NORMAL position and flaps and speed brakes retracted, the switch positions function as follows:
 
 
@@ -1818,16 +2071,12 @@ PROG		One salvo of fire commands is sent to the dispenser through the programmer
 Chaff and Flare Counters
 ------------------------
 
-[image subtraction counters]
-
 There are two subtraction counters, one for the chaff system and one for the flare system. They indicate the quantity of remaining chaff and flare cartridge dispensers independent of the mode switch position.
 
 NOTE: When the slave dispenser is set to Chaff Double (CD), the chaff counter should be set to half the number of total chaff cartridges loaded or the chaff counter will show twice the number of chaff cartridge dispenses remaining.
  
 Chaff and Flare Indicator Lights
 --------------------------------
-
-[image chaff and flare indicator lights CCU]
 
 Both the flare and the chaff system have one green indicator light each. Whenever a mode is selected on the respective mode knob, the corresponding indicator light will illuminate.
 
@@ -1836,21 +2085,17 @@ NOTE: Both flare and chaff modes can be operated simultaneously provided a mixed
 Ripple Switch
 -------------
 
-[image ripple switch]
-
 The ripple switch is guarded. When the guard is lifted and the switch is set to ON, it will initiate flare dispensing regardless of the position of any other switches or mode knobs in the countermeasures system- if the flaps and the speed brakes are retracted. The flares will be dispensed at a rate of 10 flares per second until both left and right pylon dispensers are empty.
  
 Dispense Button (Rear Cockpit)
 ------------------------------
-
-[image dispense button WSO]
 
 When pressing the dispense button chaff/flare dispensing is initiated as set on the CCU and AN/ALE-40 programmer if the flaps and speed brakes are retracted, and provided either or both the chaff/flare mode knobs are in any position other than OFF.
  
 AN/ALE-40 Programmer
 --------------------
 
-The AN/ALE-40 Programmer [figure/hyperlink to cockpit overview] contains the controls and circuitry used to send specific fire commands to the chaff/flare dispensers. The following functions are available:
+The AN/ALE-40 Programmer contains the controls and circuitry used to send specific fire commands to the chaff/flare dispensers. The following functions are available:
 
 Control                                         	Function
 
@@ -1872,8 +2117,6 @@ FLARE BURST:                             	Selects the quantity of flare bursts
 Flares Select Switch
 --------------------
 
-[image flares select switch]
-
 If the flares select switch is in the NORMAL position, it arms the countermeasures dispenser system and allows for chaffs and flares to be dispensed as set by the CCU and the programmer by pressing either dispense button.
 
 If the flares select switch is in the FLARES position it only affects the front cockpit dispense button by ignoring all switches and knobs in the countermeasures system, provided that the flaps and speed brakes are retracted. This allows the pilot to dispense a single flare each time he presses the dispense button. Rear cockpit dispense functions are unaffected by the switch position.
@@ -1881,21 +2124,15 @@ If the flares select switch is in the FLARES position it only affects the front 
 Flares Indicator Light (Amber)
 ------------------------------
 
-[image flares indicator light]
-
 The FLARES indicator light is amber. It illuminates when the flares select switch is set to FLARES. When illuminated, flares can be dispensed by pressing the front cockpit dispense button regardless of programmer and CCU switch and knob positions, if the flaps and speed brakes are retracted.
  
 AN/ALE-40 Power On Indicator Light (Green)
 ------------------------------------------
 
-[image power on ind light]
-
 The AN/ALE-40 power on indicator light is green. It illuminates when the flares select switch is set to NORMAL and either (or both) of the chaff and flare mod knobs are in any position other than OFF.
  
 Dispense Button (Front Cockpit)
 -------------------------------
-
-[image dispense button fcp]
 
 When pressing the dispense button chaff/flare dispensing is initiated as set on the CCU and AN/ALE-40 programmer if the flaps and speed brakes are retracted and the flares select switch is set to NORMAL. Additionally single unit flare dispensing can be initiated by a single button press if the flares select switch is set to FLARES.
  
@@ -1903,8 +2140,6 @@ AN/ALE-40 Dispensers
 --------------------
 
 The AN/ALE-40 countermeasures dispensers are divided into two distinct dispenser configurations. The master (outboard) dispenser contains the electronics and sequencer switch for both dispensers on each pylon and is installed on the outboard side of the inboard armament pylons. The slave (inboard) dispenser is installed on the inboard side of the inboard armament pylons and is connected to the master dispenser by an interconnect cable. The aircraft can be configured either with four chaff payload modules on all four dispensers or two chaff payload modules on the slave dispensers and two flare payload modules on the master dispensers. Only chaff payload modules can be installed on the slave dispensers; flare payload modules can only be installed on the master dispensers.
-
-[INSERT FIGURE Overview AN/ALE-40 Controls and Indicators, fig. 1-45 in TO 1F-4E-34-1-1]
  
 Master Dispenser Assembly
 -------------------------
