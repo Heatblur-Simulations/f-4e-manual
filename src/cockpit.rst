@@ -2083,7 +2083,7 @@ Selects the respective mode for the two BDHI needles.
 +---------+---------------------------------------------------------------------+
 | Center  | Needle 1: VOR Station; 2 TACAN station.                             |
 +---------+---------------------------------------------------------------------+
-| Down    | Nav Computer mode: Needle 1: Bearing; Needle 2: Track.              |
+| Down    | Nav Computer mode: Needle 1: Bearing; Needle 2: Ground track.       |
 +---------+---------------------------------------------------------------------+
 
 
@@ -2127,13 +2127,10 @@ Altimeter
 A counter-pointer style altitmeter, with thousandths in the counter window and 100 foot increments around the face. The altimeter has an absolute range of 80,000 feet. The altimeter includes a barometric scale for setting local pressure with the knob on the indicator.  Works in either electric (normal operation mode) or pneumatic (STBY) mode, switchable via a springloaded three position switch labelled RESET and STBY.   
 
 
-Standby Attitude Indicator
+Attitude Indicator
 --------------------------
-
-.. image:: images/StbyAtt.png
   
-The SAI functions independent of the Flight Director Group, providing reasonably accurate (within six degrees) for 9 minutes if power to the system is lost and the OFF flag is in view.  Pitch markings are indicated every 5 degrees, while roll markings are in gradations of 10 degrees. Roll is illustrated through 360 degrees, while pitch is limited by stops at 92 degrees in climb and 78 degrees in dive to prevent gimbal lock.
-
+The AHRS provides attitude information to the Attitude Indicator found on the rear cockpit instrument panel when the Reference System Selector Switch is in PRIM or STBY.  A trim knob provides the ability to adjust the attitude sphere to reference the aircraft correctly.  Should power be disconnected from the indicator or AHRS, the OFF flag will display. 
 
 Airspeed and Mach Indicator
 ---------------------------
