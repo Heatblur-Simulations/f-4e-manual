@@ -652,7 +652,7 @@ Altimeter
 .. image:: images/Altim.png
   
   
-A counter-pointer style altitmeter, with thousandths in the counter window and 100 foot increments around the face. The altimeter has an absolute range of 80,000 feet. The altimeter includes a barometric scale for setting local pressure with the knob on the indicator.  The indicator also has a three position switch, with two indicated settings- RESET and STBY.   
+A counter-pointer style altitmeter, with thousandths in the counter window and 100 foot increments around the face. The altimeter has an absolute range of 80,000 feet. The altimeter includes a barometric scale for setting local pressure with the knob on the indicator.  Works in either electric (normal operation mode) or pneumatic (STBY) mode, switchable via a springloaded three position switch labelled RESET and STBY.   
 
 Vertical Velocity Indicator
 ---------------------------
