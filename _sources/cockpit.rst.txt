@@ -2008,7 +2008,7 @@ Used to select single or dual ejection as commanded by the WSO.  In the vertical
 Course Indicator
 ----------------
 
-Displays heading referencing the entered course using the SET Knob, and position relative to the programmed ILS localizer and glide slope entered by the pilot.  Does not function with TACAN or VOR.  Deviations are presented as dots, with one dot in course deviation equal to 1 1/4th degree, and one dot in glide slope deviation as 1/4 degree.  Course and Glide Slope OFF flags are visible if signal from the tuned station is lost.
+Used during an ILS approach, displays localizer and glide slope deviations represented dots—1 dot equals 1 1/4 degrees for course and 1/4 degree for glide slope. The heading pointer indicates the aircraft's heading relative to the selected course set by the knob. Does not function with TACAN or VOR. OFF flags display on signal loss.
 
 
 KY-28 Mode Indicator
