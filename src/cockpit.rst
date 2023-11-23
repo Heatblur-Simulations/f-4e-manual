@@ -2742,7 +2742,7 @@ The Comm Function Selector Knob determines the current configuration of the radi
 |             |                                                                                   |
 |             | Comm guard receiver - standby.                                                    |
 |             |                                                                                   | 
-|             | Aux receiver- with antenna select in UPR, comm reception; in LWR, ADF reception.  |
+|             | Aux receiver - ADF reception.                                                     |
 +-------------+-----------------------------------------------------------------------------------+
 | T/R+G ADF   | Comm receiver - comm reception.                                                   |
 |             |                                                                                   | 
@@ -2750,7 +2750,7 @@ The Comm Function Selector Knob determines the current configuration of the radi
 |             |                                                                                   |
 |             | Comm guard receiver - guard reception.                                            |
 |             |                                                                                   | 
-|             | Aux receiver- with antenna select in UPR, comm reception; in LWR, ADF reception.  |
+|             | Aux receiver - ADF reception.                                                     |
 +-------------+-----------------------------------------------------------------------------------+
 | ADF+G CMD   | Comm receiver - ADF reception.                                                    |
 |             |                                                                                   | 
@@ -2774,7 +2774,7 @@ The Comm Function Selector Knob determines the current configuration of the radi
 |             |                                                                                   |
 |             | Comm guard receiver - standby.                                                    |
 |             |                                                                                   | 
-|             | Aux receiver- with antenna select in UPR, comm reception; in LWR, ADF reception.  |
+|             | Aux receiver - ADF reception.                                                     |
 +-------------+-----------------------------------------------------------------------------------+
 
 The Aux Volume Control knob raises and lowers the volume of the Aux receiver channel. 
