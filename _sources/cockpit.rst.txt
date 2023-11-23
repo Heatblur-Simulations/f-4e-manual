@@ -2071,6 +2071,8 @@ Calibrated from negative 4 to positive 10 in units of G, with three pointers- on
 Ball/Slip and Rate of Turn Indicator
 ------------------------------------
 
+A 4-minute turn indicator, utilizing a conventional horizontally mounted gyro, accurately displays standard turn rates, resembling a conventional turn and slip indicator.
+
 Navigation Mode Selector Switch
 -------------------------------
 
