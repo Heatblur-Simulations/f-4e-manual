@@ -2043,7 +2043,7 @@ Angle of Attack Indexer
    
 Provides quick confirmation of current aircraft AoA state based on illuminated position and color.  
 
-.. image:: images/AoAInd.png
+.. image:: images/AoA_table.PNG
 
 
 Range (VISIDENT) Indicator
