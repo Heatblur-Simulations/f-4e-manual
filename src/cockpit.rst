@@ -2132,7 +2132,7 @@ Selects the respective mode for the two BDHI needles.
 Ground Speed Indicator
 ----------------------
 
-Provides the aircraft's ground speed in knots, and is calibrated from 0 to 1999 knots.  Requires INS for accurate presentation.  If INS off, can register a value of up to 150 knots when parked. 
+Provides the aircraft's ground speed in knots, and is calibrated from 0 to 1999 knots.  Requires INS for accurate presentation.  If INS off, can register any value of up to 150 knots when motionless on ground. 
 
 
 True Airspeed Indicator

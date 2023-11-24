@@ -485,7 +485,7 @@ True Airspeed Indicators
 
 .. image:: images/TASInd.png
 
-True Airspeed Indicators are provided in both cockpits, and carry a calibrated range from 150 to 1500 knots.  While the indicators can read as low as 0 knots, the lack of calibration below the stated range means values less than 150 knots are inaccurate.  
+True Airspeed Indicators are provided in both cockpits, and carry a calibrated range from 150 to 1500 knots.  While the indicators can read as low as 0 knots, the lack of calibration below the stated range means values less than 150 knots are inaccurate.  At high rates of airspeed change, there may be a lag of up to +-10 knots in measurement. 
 
 The rear True Airspeed Indicator is removed for DMAS equipment in aircraft so configured; however, TAS is provided as a DMAS function.
 
