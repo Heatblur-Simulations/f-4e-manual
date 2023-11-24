@@ -583,7 +583,7 @@ Navigation, Communication, and Identification Systems
 Flight Director Group
 =====================
 
-Provision for accurate course navigation is provided by the Flight Director Group, which includes the Flight Director Computer, the Horizontal Situation Indicator (HIS) and the Navigation Function Selector Panel.  
+Accurate course navigation is provided by the Flight Director Group, which includes the Flight Director Computer, the Horizontal Situation Indicator (HIS) along with the Navigation Function Selector Panel in the front cockpit, and the Bearing Distance Heading Indicator (BDHI) together with the Navigation Mode Selector Switch in the rear cockpit.  
 
 Navigation Function Selector Panel
 ----------------------------------
@@ -611,7 +611,7 @@ The Mode Selector Knob controls the remaining informational displays on the HSI,
 Flight Director Switch
 ----------------------
 
-The Flight Director Switch determines whether or not pitch and bank angle steering bars on the ADI are visible, with OFF removing this instrumentation from view. 
+The Flight Director Switch turns ON and OFF the Flight Director Computer pitch and bank angle steering clues, visible on the ADI. Selecting OFF removes these bars from view. 
 
 Horizontal Situation Indicator
 ------------------------------
@@ -629,16 +629,16 @@ With HDG mode active, the course arrow and deviation are slaved to the lubber li
 Attitude Director Indicator
 ---------------------------
 
-The ADI provides command steering to intercept selected headings, TACAN stations, tracks, VOR radials, or navigation computer destinations.  Bank steering instruction is presented using the bank steering bar, which can reference angles up to 35 degrees.  Should a bank angle in excess of 35 degrees be desired, the instructed angle can be disregarded during the turn.  When the Heading Set knob has been used to enter the correct target heading, the intercept presentation is accurate within a 60 degree field of a TACAN course, or 90 degrees for a VOR radial. 
+The ADI provides command steering to intercept selected headings, TACAN stations, tracks, VOR radials, or navigation computer destinations.  Bank steering instruction is presented using the bank steering bar, which can reference angles up to 35 degrees.  Should a bank angle in excess of 35 degrees be desired, the instructed angle can be disregarded during the turn.  When the Heading Set knob has been used to enter the correct target heading, the intercept presentation is accurate within a 60 degree field of a TACAN course, or 90 degrees for a VOR radial. Additionaly, a Glideslope Pointer is provided for relative glideslope position indication during an ILS approach.
 
 Upon startup of the ADI, an OFF warning flag will be displayed until the AN/AJB-7 gyro has aligned.  This can also appear due to power loss or a signal failure.  The flag does not present if a system failure occurs outside of the AN/AJB-7.  
 
 Bearing Distance Heading Indicator
 ----------------------------------
 
-The Bearing Distance Heading Indicator, or BDHI, presents navigation information as entered by the WSO, provided with two needles (termed the No 1 and No 2 pointers).
+The Bearing Distance Heading Indicator (BDHI) displays navigation information using two needles, referred to as the No. 1 and No. 2 pointers, which receive inputs controlled by the WSO Navigation Mode Selector Switch.
 
-When the upper position is selected by the WSO to TACAN/ADF/UHF, the no. 1 pointer indicates UHF bearing, and the no. 2 pointer indicates the TACAN bearing.  If there is no TACAN signal, both pointers indicate the ADF bearing.  
+When the upper position is selected to TACAN/ADF/UHF, the no. 1 pointer indicates UHF bearing, and the no. 2 pointer indicates the TACAN bearing.  If there is no TACAN signal, both pointers indicate the ADF bearing.  
 
 With the middle position selected- VOR/TAC, the no. 1 pointer indicates the VOR bearing, the no. 2 pointer indicates the TACAN bearing, and the range indicator provides distance to the TACAN station. In the absence of a TACAN signal, both pointers indicate the VOR station.
 
@@ -648,13 +648,13 @@ In the lower position, NAV COMP, the no. 1 pointer indicates bearing to the navi
 AN/ASN-63 Inertial Navigation System
 ====================================
 
-The AN/ASN-63 INS provides the F-4E aircrew and integrated weapons delivery system with real time accurate positional, velocity, and heading information. When the system is aligned to its most precise extent in gyrocompass mode, the INS is accurate to 3 nautical miles per hour of circular error probability (CEP). 
+The AN/ASN-63 INS provides the F-4E aircrew and integrated weapons delivery system with real time accurate positional, velocity, attitude, and heading information. When the system is aligned to its most precise extent in gyrocompass mode, the INS is accurate to 3 nautical miles per hour of circular error probability (CEP). 
 
 **Inertial Measurement Platform**
 
 The system uses a four gimbal (outer roll, pitch, inner roll, azimuth) inertial navigating platform, with the dual roll gimbals providing redundancy to eliminate a gimbal lock in outer roll/azimuth gimbal alignment.
   
-Installed on the platform are a pair of G-200 two-axis gyros, with the upper gyro axis aligned for spin on the north-south axis  while the lower gyro aligns for east-west spin; torque detection in each gyro tracks the perpendicular axes- ergo, the high gimbal detects east/west rotation, while the low gyro detects north/south rotation.  In this way, rotation in all three dimensions are represented.  The gyros are floated, and proper operation can only take place once the fluid has attained operating temperature (160 degrees F); the system is effectively climate controlled across the altitude operating range of the Phantom. A series of precision magnetic torquers provide localization movement, while acceleration pickoffs function within a separate electromagnetic field perform the actual data capture from the displacements of the gyroscopes. 
+Installed on the platform are a pair of G-200 two-axis gyros, with the upper gyro axis aligned for spin on the north-south axis while the lower gyro aligns for east-west spin; torque detection in each gyro tracks the perpendicular axes- ergo, the high gimbal detects east/west rotation, while the low gyro detects north/south rotation.  In this way, rotation in all three dimensions are represented.  The gyros are floated, and proper operation can only take place once the fluid has attained operating temperature (160 degrees F); the system is effectively climate controlled across the altitude operating range of the Phantom. A series of precision magnetic torquers provide localization movement, while acceleration pickoffs function within a separate electromagnetic field perform the actual data capture from the displacements of the gyroscopes. 
 
 Along the platform, set orthogonally (at 90 degree respective positions) are a trio of A-200D accelerometers.  These accelerators, similarly floated to the gyros, with a similar arrangement of torquers and displacement pickers to provide velocity capture.  Increasing the accuracy of these evaluations is the inclusion of a tuning fork, the resonance from which eliminates effectively all static friction in the motion capture assembly. 
 
@@ -670,7 +670,7 @@ Alignment Options
 
 The LN-12 has three modes of alignment on aircraft start: BATH, Heading Memory (HDG MEM), and Gyrocompass aignment.  Prior to performing any alignment, with the mode knob in STBY, the position update switch on the Nav Computer Control Panel should be selected to NORMAL, local magnetic variation should be entered on the variation counter, and the position counter should be set to local latitude and longitude.  Doing so will greatly expedite gyrocompass alignment.  Further, alignment should not be performed with the wings in their folded position, as the magnetic flux valve that provides compass synchronization wil be 60 degrees outside of normal position.
 
-The INS also includes an in-flight alignment update option, should the aircrew note gross deviation from known location fixes.
+The INS also includes an in-flight position update option, should the aircrew note gross deviation from known location fixes.
 
 **Best Available True Heading**
 
