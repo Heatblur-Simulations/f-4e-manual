@@ -2045,17 +2045,7 @@ Angle of Attack Indexer
    
 Provides quick confirmation of current aircraft AoA state based on illuminated position and color.  
 
-+--------------+---------------+ 
-| "center low" | Very slow     |
-+--------------+---------------+
-| "low"        | Slightly slow |
-+--------------+---------------+
-| "all"        | On speed      |
-+--------------+---------------+
-| "high"       | Slightly fast |
-+--------------+---------------+
-| "center high | Very fast     |
-+--------------+---------------+
+.. image:: images/AoA_table.PNG
 
 
 Range (VISIDENT) Indicator
@@ -2083,6 +2073,8 @@ Calibrated from negative 4 to positive 10 in units of G, with three pointers- on
 Ball/Slip and Rate of Turn Indicator
 ------------------------------------
 
+A 4-minute turn indicator, utilizing a conventional horizontally mounted gyro, accurately displays standard turn rates, resembling a conventional turn and slip indicator.
+
 Navigation Mode Selector Switch
 -------------------------------
 
@@ -2093,7 +2085,7 @@ Selects the respective mode for the two BDHI needles.
 +---------+---------------------------------------------------------------------+
 | Center  | Needle 1: VOR Station; 2 TACAN station.                             |
 +---------+---------------------------------------------------------------------+
-| Down    | Nav Computer mode: Needle 1: Bearing; Needle 2: Track.              |
+| Down    | Nav Computer mode: Needle 1: Bearing; Needle 2: Ground track.       |
 +---------+---------------------------------------------------------------------+
 
 
@@ -2137,13 +2129,10 @@ Altimeter
 A counter-pointer style altitmeter, with thousandths in the counter window and 100 foot increments around the face. The altimeter has an absolute range of 80,000 feet. The altimeter includes a barometric scale for setting local pressure with the knob on the indicator.  Works in either electric (normal operation mode) or pneumatic (STBY) mode, switchable via a springloaded three position switch labelled RESET and STBY.   
 
 
-Standby Attitude Indicator
+Attitude Indicator
 --------------------------
-
-.. image:: images/StbyAtt.png
   
-The SAI functions independent of the Flight Director Group, providing reasonably accurate (within six degrees) for 9 minutes if power to the system is lost and the OFF flag is in view.  Pitch markings are indicated every 5 degrees, while roll markings are in gradations of 10 degrees. Roll is illustrated through 360 degrees, while pitch is limited by stops at 92 degrees in climb and 78 degrees in dive to prevent gimbal lock.
-
+The AHRS provides attitude information to the Attitude Indicator found on the rear cockpit instrument panel when the Reference System Selector Switch is in PRIM or STBY.  A trim knob provides the ability to adjust the attitude sphere to reference the aircraft correctly.  Should power be disconnected from the indicator or AHRS, the OFF flag will display. 
 
 Airspeed and Mach Indicator
 ---------------------------
@@ -2434,7 +2423,7 @@ WSO ICS Function Selector Switch
 +----------------+------------------------------------------------------------------------------------+
 | HOT MIC        | Voice automatically transmitted on intercom.                                       |
 +----------------+------------------------------------------------------------------------------------+
-| RADIO OVERRIDE | Intercom overrides incoming radio calls; does not override aircraft warning audio. |
+| RADIO OVERRIDE | The opposite cockpit’s audio is heard at its set volume using its amplifier.       |
 +----------------+------------------------------------------------------------------------------------+
 
 
@@ -2877,10 +2866,10 @@ Liquid Oxygen Level Indicator
 Range from 0 to 10 liters, providing confirmation of current liquid oxygen status.  In event power is lost, a "power off" flag will show on the instrument face.
 
 
-Navigation Volume Control
+VOR/ILS Volume Control
 -------------------------
 
-Controls audio volume of received TACAN/beacon signals through aircrew headsets. 
+The volume control consists of two knobs: one square knob adjusts VOR and localizer audio, while the round knob controls the marker beacon audio.
 
 
 WSO Emergency Flaps Handle
@@ -3174,33 +3163,42 @@ Inertial Navigation Control Panel
 ---------------------------------
 
 The Inertial Navigation Control Panel provides the rear pilot mode selection and system alignment command selection.
-Mode selector positions are 
+
+Mode Selector Switch
+^^^^^^^^^
+
+The HDG MEM-GYRO COMP switch, located under a cover, primarily stays in the GYRO COMP position for Gyro Compass type of alignment. Switching it to HDG MEM, before turning on the INS, allows, if previously stored, heading memory alignment.
+
+Power Control Knob
+^^^^^^^^^
+
+Knob positions are: 
 
 +---------+---------------------------------------------------------------------------+
 | OFF     | System off.                                                               |
 +---------+---------------------------------------------------------------------------+
-| STBY    | Standby- power is applied to the heaters and climate control system,      |   
+| STBY    | Standby- power is applied to the heaters and temperature control system,  |   
 |         |                                                                           |
-|         | and initiates Coarse alignment if GYRO COMP not selected on the toggle.   | 
+|         | and initiates Coarse alignment (if GYRO COMP is selected on the toggle).  | 
 +---------+---------------------------------------------------------------------------+
-| ALIGN   | Performs fine platform and gyro leveling, then, depending on aircrew      |
+| ALIGN   | Performs fine platform and gyro leveling and BATH (or HDG MEM) alignment. |
 |         |                                                                           |
-|         | selection, performs Rapid or Gyrocompassing (Fine) Alignment.             |
+|         | Then, if available, performs Gyrocompassing (Fine) Alignment.             |
 +---------+---------------------------------------------------------------------------+ 
 | NAV	  | Activates the INS for navigation function, performance of which is based  |
 |         |                                                                           |
-|         | on Rapid or Gyrocompass alignment.                                        |
+|         | on the alignment quality.                                                 |
 +---------+---------------------------------------------------------------------------+
 
 HEAT Lamp
 ^^^^^^^^^
 
-The HEAT lamp illuminates when the system is placed into STBY mode, and remains illuminated for 110 seconds after the gyros have reached operating temperature.  The system will not align if switched out of STBY before this lamp has shut off.
+The HEAT lamp illuminates when the system is placed into STBY mode, and remains illuminated for 110 seconds after the gyros have reached operating temperature. The system will not allow Gyrocompassing alignment if switched out of STBY before this lamp has shut off.
 
 ALIGN Lamp
 ^^^^^^^^^^
 
-The ALIGN lamp provides current INS alignment through illuminating steady (BATH or HDG MEM alignment complete), or flashing at the completion of GYRO COMP alignment.  
+The ALIGN lamp provides current INS alignment through illuminating steady (BATH alignment complete), or flashing at the completion of GYRO COMP or HDG MEM alignment.  
 
 
 Weapon Delivery Panel
@@ -3395,13 +3393,15 @@ Right Wall
 Battery Bypass
 ^^^^^^^^^^^^^^
 
+When toggled ON, de-energizes the battery relay, disconnecting the battery from the essential 28-volt de bus and ceasing charging. Particularly used in suspected cases of thermal runaway.
+
 Autopilot Ground Test
 ^^^^^^^^^^^^^^^^^^^^^
 
 Instrument Ground Power
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-When connected to external ground power, activating this switch allows the ground power to also energize the buses.
+In the TEST position, connects external electrical power to the instrument buses (115/200 volt ac, 28 volt ac, and 14 volt ac) , contingent upon the generator switches being set to EXT ON.
 
 Skyspot Mode
 ^^^^^^^^^^^^
