@@ -3183,12 +3183,12 @@ Inertial Navigation Control Panel
 The Inertial Navigation Control Panel provides the rear pilot mode selection and system alignment command selection.
 
 Mode Selector Switch
-^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^
 
 The HDG MEM-GYRO COMP switch, located under a cover, primarily stays in the GYRO COMP position for Gyro Compass type of alignment. Switching it to HDG MEM, before turning on the INS, allows, if previously stored, heading memory alignment.
 
 Power Control Knob
-^^^^^^^^^
+^^^^^^^^^^^^^^^^^^
 
 Knob positions are: 
 

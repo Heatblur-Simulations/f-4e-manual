@@ -269,7 +269,7 @@ Takes roughly 3 minutes.
 +-----+----------------+--------+
 
 INS Stored Heading Alignment (WSO)
------------------------------
+----------------------------------
 
 Takes roughly 2 minutes.
 
