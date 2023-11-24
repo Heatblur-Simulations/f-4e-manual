@@ -540,7 +540,7 @@ Radar Altimeter
 
 Found in the front cockpit, the Radar Altimeter has a functional range of 0 to 5000 feet above ground level. The radar altimeter functions from 0 to 30 degrees in bank angle, or 0 to 35 degrees angle in pitch.  The dial scale reads from 0 to 100 feet, and the system includes a red low altitude warning light that illuminates when the aircraft is detected below a pilot-set altitude. 
 
-Activation and setting of the radar altimeter warning height is done with the same knob; turning the knob clockwise initially activates the indicator, removing the displayed OFF flag; continuing to rotate the knob moves the reference marker that will determine the altitude which triggers the low altitude warning.  Should power or signal be lost, the OFF flag will return- the indicator will present the last altitude detected above ground level at the time of this occurring.
+Activation and setting of the radar altimeter warning height is done with the same knob; turning the knob clockwise initially activates the indicator, removing the displayed OFF flag; continuing to rotate the knob moves the reference marker that will determine the altitude which triggers the low altitude warning.  A self-test, initiated by pressing the function control switch, shows 35 +-15 feet. Above 5000 feet or with unreliable signals, the pointer hides behind a mask, showing the OFF flag. The OFF appears also when power is lost- the indicator will then present the last altitude detected above ground level at the time of this occurring.
 
 Turn and Slip Indicators
 ========================
