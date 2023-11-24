@@ -2019,6 +2019,8 @@ Two lamp indicator illustrating current KY-28 operating mode- P indicates plain 
 Master Caution Light
 --------------------
 
+.. image:: images/wso_master_caution.png
+
 A repeater of the front cockpit Master Caution light, provides warning to the WSO that a caution condition exists and the telelight panel needs to be checked for cause to rectify the situation. 
 
 
@@ -2177,6 +2179,8 @@ A percentage-noting Tachometer is provided for each engine, including an inset w
 Canopy Unlocked Warning Lamp
 ----------------------------
 
+.. image:: images/wso_canopy_unlocked_ins_out__radar_cni.png
+
 Illuminates when canopy is unlocked.
 
 
@@ -2202,6 +2206,8 @@ WSO Left Subpanel
 
 Gun Camera Switch
 -----------------
+
+.. image:: images/wso_gun_cam_aal_video_select.png
 
 Activates recording of gun camera footage.
 
@@ -2251,6 +2257,8 @@ Lit to indicate the AVTR system currently recording.
 
 WSO Emergency Landing Gear Handle
 ---------------------------------
+
+.. image:: images/wso_emergency_handles.png
 
 Deploys the landing gear using a pair of compressed air bottles; handle cannot retract gear, only deploy in an emergency. 
 
@@ -2340,6 +2348,8 @@ This functionality was never installed and connected on this variant of the F-4E
 WSO Oxygen Regulator Panel
 --------------------------
 
+.. image:: images/wso_oxygen_regulator_panel.png
+
 Flow Indicator
 ^^^^^^^^^^^^^^
 
@@ -2379,6 +2389,8 @@ Two position switch (ON and OFF) activating flow of oxygen to the aircrew member
 Landing Gear/Flap Indicator Panel
 ---------------------------------
 
+.. image:: images/wso_landing_gear_flap_indicator.png
+
 Displays current status of landing gear, flaps, and slat position.
 
 Landing Gear
@@ -2405,6 +2417,8 @@ WSO Left Console
 
 Intercom Control Panel
 ----------------------
+
+.. image:: images/wso_intercom_control.png
 
 WSO ICS Volume Control Knob
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -2440,6 +2454,8 @@ Determines current amplifier for intercom function.
 
 Control Monitor Panel
 ---------------------
+
+.. image:: images/wso_control_monitor_panel.png
 
 Cords Light
 ^^^^^^^^^^^
@@ -2525,6 +2541,8 @@ Changes the antenna stabilization mode.
 
 Radar Set Control Panel
 -----------------------
+
+.. image:: images/wso_radar_set_control_panel.png
 
 Power Knob
 ^^^^^^^^^^
@@ -2783,6 +2801,8 @@ The Aux Volume Control knob raises and lowers the volume of the Aux receiver cha
 AN/ALE-40 Cockpit Control Unit
 ------------------------------
 
+.. image:: images/wso_an_ale_40.png
+
 Ripple Switch
 ^^^^^^^^^^^^^
 
@@ -2865,6 +2885,8 @@ Controls audio volume of received TACAN/beacon signals through aircrew headsets.
 
 WSO Emergency Flaps Handle
 --------------------------
+
+.. image:: images/wso_emergency_flaps_handle.png
 
 Used for emergency deployment of the slats and flaps from the rear cockpit, and is activated by pulling the handle aft.  Pneumatic system powering extension of the slats flaps system only functions one time.  Extend regardless of airspeed, however flaps will not fully deploy above 230 knots due to air loads on control surfaces.  Will deploy fully when slower.
 
