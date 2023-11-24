@@ -1281,7 +1281,7 @@ Selecting ENGAGE activates the altitude hold function of the AFCS.  When entered
 Boarding Steps Indicator
 ------------------------
 
-.. image:: images/BoardStepsLadder.png
+.. image:: images/BoardStepsLadder.jpg
 
 Used to visually confirm the integrated boarding ladder has been stowed.  With the white post extended up, ladder is stowed, whereas ladder is deployed if post is down and flush with panel recess.
 
