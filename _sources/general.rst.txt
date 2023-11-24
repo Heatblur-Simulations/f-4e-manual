@@ -216,7 +216,7 @@ A pair of Generator Control Switches are found on the right console, one for eac
 Instrument Ground Power Switch
 ------------------------------
 
-Power from an external source can be provided by the Instrument Ground Power Switch, found on the the right wall in the rear cockpit.
+Power from an external source to the instrument buses (115/200 volt ac, 28 volt ac, and 14 volt ac), can be provided by the Instrument Ground Power Switch (if the generator switches are set to EXT ON), found on the the right wall in the rear cockpit.
 Once external electrical power is disengaged or an engine generator comes online, it will switch off.
 
 
@@ -348,7 +348,7 @@ Brake actuation illuminates the Speed Brake Out Indicator Light found on the Tel
 Angle of Attack System
 ----------------------
 
-To optimize aircraft flight performance, the Angle of Attack System (AoA) provides visual and audio confirmation of current parameters.  Included in the system are the Angle of Attack Indicators found in both cockpits, the illuminated Angle of Attack Indexers, as well as the AoA Aural Tone System.
+To precisely monitor and control aircraft flight performance, the Angle of Attack System (AoA) provides visual and audio confirmation of current parameters.  Included in the system are the Angle of Attack Indicators found in both cockpits, the illuminated Angle of Attack Indexers, as well as the AoA Aural Tone System.
 
 Indicators
 ----------
@@ -357,7 +357,7 @@ Indicators
 
 The Angle of Attack Indicator dials register AoA values from 0 to 30 units, with indications for weight-relative optimum altitude cruise (7.9 units) , approach (19.2 units), and stall (30 units).   A matrix can be found in the appendices to calculate optimum cruise altitude by gross weight. 
 
-It is important to note that the AoA Indicator dials are calibrated for the nose wheel door being open, as flow around the door changes that which reaches the probe.  Therefore, during normal flight operations, the AoA Indicators will read approximately 1 unit low, and the aircraft will be roughly 5 knots fast for an on-speed approach.  
+It is important to note that extension of the landing gear and thus the nose wheel door changes the airflow around the probe causing to indicate higher angles by 1 unit. The approach airspeeds account for that. Therefore, performing an approach with the gear retracted, will cause the indicators to show approximately 1 unit low, and the aircraft will be roughly 5 knots fast for an on-speed approach.
 
 Indexers
 --------
@@ -485,7 +485,7 @@ True Airspeed Indicators
 
 .. image:: images/TASInd.png
 
-True Airspeed Indicators are provided in both cockpits, and carry a calibrated range from 150 to 1500 knots.  While the indicators can read as low as 0 knots, the lack of calibration below the stated range means values less than 150 knots are inaccurate.  
+True Airspeed Indicators are provided in both cockpits, and carry a calibrated range from 150 to 1500 knots.  While the indicators can read as low as 0 knots, the lack of calibration below the stated range means values less than 150 knots are inaccurate.  At high rates of airspeed change, there may be a lag of up to +-10 knots in measurement. 
 
 The rear True Airspeed Indicator is removed for DMAS equipment in aircraft so configured; however, TAS is provided as a DMAS function.
 
@@ -540,7 +540,7 @@ Radar Altimeter
 
 Found in the front cockpit, the Radar Altimeter has a functional range of 0 to 5000 feet above ground level. The radar altimeter functions from 0 to 30 degrees in bank angle, or 0 to 35 degrees angle in pitch.  The dial scale reads from 0 to 100 feet, and the system includes a red low altitude warning light that illuminates when the aircraft is detected below a pilot-set altitude. 
 
-Activation and setting of the radar altimeter warning height is done with the same knob; turning the knob clockwise initially activates the indicator, removing the displayed OFF flag; continuing to rotate the knob moves the reference marker that will determine the altitude which triggers the low altitude warning.  Should power or signal be lost, the OFF flag will return- the indicator will present the last altitude detected above ground level at the time of this occurring.
+Activation and setting of the radar altimeter warning height is done with the same knob; turning the knob clockwise initially activates the indicator, removing the displayed OFF flag; continuing to rotate the knob moves the reference marker that will determine the altitude which triggers the low altitude warning.  A self-test, initiated by pressing the function control switch, shows 35 +-15 feet. Above 5000 feet or with unreliable signals, the pointer hides behind a mask, showing the OFF flag. The OFF appears also when power is lost- the indicator will then present the last altitude detected above ground level at the time of this occurring.
 
 Turn and Slip Indicators
 ========================
@@ -550,7 +550,7 @@ In the front cockpit, a turn and slip indicator is added to the ADI on the instr
 Rear Cockpit Attitude Indicator
 ===============================
 
-The AHRS provides attitude information to the Attitude Indicator found on the rear cockpit instrument panel when the Reference System Selector Switch is in PRIM or STBY.  A trim knob provides the ability to adjust the attitude sphere to reference the aircraft correctly.  Should power be disconnected from the indicator or AHRS, the OFF flag will display. 
+The AHRS provides attitude information to the Attitude Indicator found on the rear cockpit instrument panel regardless of the Reference System Selector Switch position.  A trim knob provides the ability to adjust the attitude sphere to reference the aircraft correctly.  Should power be disconnected from the indicator or AHRS, the OFF flag will display. 
 
 
 Pitot-Static System
@@ -583,7 +583,7 @@ Navigation, Communication, and Identification Systems
 Flight Director Group
 =====================
 
-Provision for accurate course navigation is provided by the Flight Director Group, which includes the Flight Director Computer, the Horizontal Situation Indicator (HIS) and the Navigation Function Selector Panel.  
+Accurate course navigation is provided by the Flight Director Group, which includes the Flight Director Computer, the Horizontal Situation Indicator (HIS) along with the Navigation Function Selector Panel in the front cockpit, and the Bearing Distance Heading Indicator (BDHI) together with the Navigation Mode Selector Switch in the rear cockpit.  
 
 Navigation Function Selector Panel
 ----------------------------------
@@ -611,7 +611,7 @@ The Mode Selector Knob controls the remaining informational displays on the HSI,
 Flight Director Switch
 ----------------------
 
-The Flight Director Switch determines whether or not pitch and bank angle steering bars on the ADI are visible, with OFF removing this instrumentation from view. 
+The Flight Director Switch turns ON and OFF the Flight Director Computer pitch and bank angle steering clues, visible on the ADI. Selecting OFF removes these bars from view. 
 
 Horizontal Situation Indicator
 ------------------------------
@@ -629,16 +629,16 @@ With HDG mode active, the course arrow and deviation are slaved to the lubber li
 Attitude Director Indicator
 ---------------------------
 
-The ADI provides command steering to intercept selected headings, TACAN stations, tracks, VOR radials, or navigation computer destinations.  Bank steering instruction is presented using the bank steering bar, which can reference angles up to 35 degrees.  Should a bank angle in excess of 35 degrees be desired, the instructed angle can be disregarded during the turn.  When the Heading Set knob has been used to enter the correct target heading, the intercept presentation is accurate within a 60 degree field of a TACAN course, or 90 degrees for a VOR radial. 
+The ADI provides command steering to intercept selected headings, TACAN stations, tracks, VOR radials, or navigation computer destinations.  Bank steering instruction is presented using the bank steering bar, which can reference angles up to 35 degrees.  Should a bank angle in excess of 35 degrees be desired, the instructed angle can be disregarded during the turn.  When the Heading Set knob has been used to enter the correct target heading, the intercept presentation is accurate within a 60 degree field of a TACAN course, or 90 degrees for a VOR radial. Additionaly, a Glideslope Pointer is provided for relative glideslope position indication during an ILS approach.
 
 Upon startup of the ADI, an OFF warning flag will be displayed until the AN/AJB-7 gyro has aligned.  This can also appear due to power loss or a signal failure.  The flag does not present if a system failure occurs outside of the AN/AJB-7.  
 
 Bearing Distance Heading Indicator
 ----------------------------------
 
-The Bearing Distance Heading Indicator, or BDHI, presents navigation information as entered by the WSO, provided with two needles (termed the No 1 and No 2 pointers).
+The Bearing Distance Heading Indicator (BDHI) displays navigation information using two needles, referred to as the No. 1 and No. 2 pointers, which receive inputs controlled by the WSO Navigation Mode Selector Switch.
 
-When the upper position is selected by the WSO to TACAN/ADF/UHF, the no. 1 pointer indicates UHF bearing, and the no. 2 pointer indicates the TACAN bearing.  If there is no TACAN signal, both pointers indicate the ADF bearing.  
+When the upper position is selected to TACAN/ADF/UHF, the no. 1 pointer indicates UHF bearing, and the no. 2 pointer indicates the TACAN bearing.  If there is no TACAN signal, both pointers indicate the ADF bearing.  
 
 With the middle position selected- VOR/TAC, the no. 1 pointer indicates the VOR bearing, the no. 2 pointer indicates the TACAN bearing, and the range indicator provides distance to the TACAN station. In the absence of a TACAN signal, both pointers indicate the VOR station.
 
@@ -648,13 +648,13 @@ In the lower position, NAV COMP, the no. 1 pointer indicates bearing to the navi
 AN/ASN-63 Inertial Navigation System
 ====================================
 
-The AN/ASN-63 INS provides the F-4E aircrew and integrated weapons delivery system with real time accurate positional, velocity, and heading information. When the system is aligned to its most precise extent in gyrocompass mode, the INS is accurate to 3 nautical miles per hour of circular error probability (CEP). 
+The AN/ASN-63 INS provides the F-4E aircrew and integrated weapons delivery system with real time accurate positional, velocity, attitude, and heading information. When the system is aligned to its most precise extent in gyrocompass mode, the INS is accurate to 3 nautical miles per hour of circular error probability (CEP). 
 
 **Inertial Measurement Platform**
 
 The system uses a four gimbal (outer roll, pitch, inner roll, azimuth) inertial navigating platform, with the dual roll gimbals providing redundancy to eliminate a gimbal lock in outer roll/azimuth gimbal alignment.
   
-Installed on the platform are a pair of G-200 two-axis gyros, with the upper gyro axis aligned for spin on the north-south axis  while the lower gyro aligns for east-west spin; torque detection in each gyro tracks the perpendicular axes- ergo, the high gimbal detects east/west rotation, while the low gyro detects north/south rotation.  In this way, rotation in all three dimensions are represented.  The gyros are floated, and proper operation can only take place once the fluid has attained operating temperature (160 degrees F); the system is effectively climate controlled across the altitude operating range of the Phantom. A series of precision magnetic torquers provide localization movement, while acceleration pickoffs function within a separate electromagnetic field perform the actual data capture from the displacements of the gyroscopes. 
+Installed on the platform are a pair of G-200 two-axis gyros, with the upper gyro axis aligned for spin on the north-south axis while the lower gyro aligns for east-west spin; torque detection in each gyro tracks the perpendicular axes- ergo, the high gimbal detects east/west rotation, while the low gyro detects north/south rotation.  In this way, rotation in all three dimensions are represented.  The gyros are floated, and proper operation can only take place once the fluid has attained operating temperature (160 degrees F); the system is effectively climate controlled across the altitude operating range of the Phantom. A series of precision magnetic torquers provide localization movement, while acceleration pickoffs function within a separate electromagnetic field perform the actual data capture from the displacements of the gyroscopes. 
 
 Along the platform, set orthogonally (at 90 degree respective positions) are a trio of A-200D accelerometers.  These accelerators, similarly floated to the gyros, with a similar arrangement of torquers and displacement pickers to provide velocity capture.  Increasing the accuracy of these evaluations is the inclusion of a tuning fork, the resonance from which eliminates effectively all static friction in the motion capture assembly. 
 
@@ -670,7 +670,7 @@ Alignment Options
 
 The LN-12 has three modes of alignment on aircraft start: BATH, Heading Memory (HDG MEM), and Gyrocompass aignment.  Prior to performing any alignment, with the mode knob in STBY, the position update switch on the Nav Computer Control Panel should be selected to NORMAL, local magnetic variation should be entered on the variation counter, and the position counter should be set to local latitude and longitude.  Doing so will greatly expedite gyrocompass alignment.  Further, alignment should not be performed with the wings in their folded position, as the magnetic flux valve that provides compass synchronization wil be 60 degrees outside of normal position.
 
-The INS also includes an in-flight alignment update option, should the aircrew note gross deviation from known location fixes.
+The INS also includes an in-flight position update option, should the aircrew note gross deviation from known location fixes.
 
 **Best Available True Heading**
 

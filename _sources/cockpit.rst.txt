@@ -1281,7 +1281,7 @@ Selecting ENGAGE activates the altitude hold function of the AFCS.  When entered
 Boarding Steps Indicator
 ------------------------
 
-.. image:: images/BoardStepsLadder.png
+.. image:: images/BoardStepsLadder.jpg
 
 Used to visually confirm the integrated boarding ladder has been stowed.  With the white post extended up, ladder is stowed, whereas ladder is deployed if post is down and flush with panel recess.
 
@@ -2132,7 +2132,7 @@ Selects the respective mode for the two BDHI needles.
 Ground Speed Indicator
 ----------------------
 
-Provides the aircraft's ground speed in knots, and is calibrated from 0 to 1999 knots.  Requires INS for accurate presentation.  If INS off, can register a value of up to 150 knots when parked. 
+Provides the aircraft's ground speed in knots, and is calibrated from 0 to 1999 knots.  Requires INS for accurate presentation.  If INS off, can register any value of up to 150 knots when motionless on ground. 
 
 
 True Airspeed Indicator
@@ -3205,12 +3205,12 @@ Inertial Navigation Control Panel
 The Inertial Navigation Control Panel provides the rear pilot mode selection and system alignment command selection.
 
 Mode Selector Switch
-^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^
 
 The HDG MEM-GYRO COMP switch, located under a cover, primarily stays in the GYRO COMP position for Gyro Compass type of alignment. Switching it to HDG MEM, before turning on the INS, allows, if previously stored, heading memory alignment.
 
 Power Control Knob
-^^^^^^^^^
+^^^^^^^^^^^^^^^^^^
 
 Knob positions are: 
 
