@@ -1769,6 +1769,46 @@ Compass Control Panel
 
 .. image:: images/CompassCtl.png
 
+Manages essential controls for the proper operation of the AJB-7 azimuth system. Essencial for accurate azimuth output to instruments like ADI, HSI, BDHI, but also to the rear seat attitude indicator, autopilot, and bombing computer.
+
+Mode Selector Knob
+^^^^^^^^^^^^^^^^^^
+
+Switches between different operating modes — Compass, DG (directional gyro), and Slaved. It also has a springloaded SYNC position for fast synchronization of the azimuth system basen on the compass flux valve signal.
+
++--------------+-----------------------------------------------------------------------------------+
+| COMP         | Used in emergencies when the reference systems fail. Supplies magnetic heading    |
+|              |                                                                                   | 
+| Compass      | directly from the flux valve                                                      |
++--------------+-----------------------------------------------------------------------------------+
+| DG           | Used in extreme latitudes and regions with magnetic distortion, the initial       |
+| Directional  | magnetic heading needs manual adjustment. If the reference system is set          |
+| Gyro         | to STBY, the aircraft's latitude must be adjusted on the latitude knob.           | 
++--------------+-----------------------------------------------------------------------------------+
+| Slaved       | Primary operational mode under typical conditions, it depends on signals from     |
+|              |                                                                                   |
+|              | the flux valve for a gradual synchronization of the system.                       |
++--------------+-----------------------------------------------------------------------------------+
+| SYNC         | Spring-loaded to return to SLAVED, facilitates fast synchronization between       |
+|              |                                                                                   |
+|              | the compass flux valve and azimuth reference.                                     |
++--------------+-----------------------------------------------------------------------------------+
+
+Hemisphere Switch and Latitude Control Knob
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Adjusted to set the aircraft's hemisphere and latitude in the DG Compass System mode, when operating with the STBY reference system. The hemisphere is determined by rotating the screw above the latitude knob. When the PRIM reference system mode is active, setting a latitude other than zero will cause errors by doubling drift compensation due to INS corrections.
+
+Set Heading Control Knob
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Push-to-turn knob, spring-loaded to return to the center, permits manual adjustment of the azimuth, crucial when operating in the DG mode.
+
+Sync Indicator
+^^^^^^^^^^^^^^
+
+Displays the azimuth deviation between the flux valve signal and the internal reference system.
+
 
 Exterior Lights Control Panel
 -----------------------------
