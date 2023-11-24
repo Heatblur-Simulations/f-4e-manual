@@ -216,7 +216,7 @@ A pair of Generator Control Switches are found on the right console, one for eac
 Instrument Ground Power Switch
 ------------------------------
 
-Power from an external source can be provided by the Instrument Ground Power Switch, found on the the right wall in the rear cockpit.
+Power from an external source to the instrument buses (115/200 volt ac, 28 volt ac, and 14 volt ac), can be provided by the Instrument Ground Power Switch (if the generator switches are set to EXT ON), found on the the right wall in the rear cockpit.
 Once external electrical power is disengaged or an engine generator comes online, it will switch off.
 
 
