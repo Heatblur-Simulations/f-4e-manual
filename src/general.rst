@@ -348,7 +348,7 @@ Brake actuation illuminates the Speed Brake Out Indicator Light found on the Tel
 Angle of Attack System
 ----------------------
 
-To optimize aircraft flight performance, the Angle of Attack System (AoA) provides visual and audio confirmation of current parameters.  Included in the system are the Angle of Attack Indicators found in both cockpits, the illuminated Angle of Attack Indexers, as well as the AoA Aural Tone System.
+To precisely monitor and control aircraft flight performance, the Angle of Attack System (AoA) provides visual and audio confirmation of current parameters.  Included in the system are the Angle of Attack Indicators found in both cockpits, the illuminated Angle of Attack Indexers, as well as the AoA Aural Tone System.
 
 Indicators
 ----------
@@ -357,7 +357,7 @@ Indicators
 
 The Angle of Attack Indicator dials register AoA values from 0 to 30 units, with indications for weight-relative optimum altitude cruise (7.9 units) , approach (19.2 units), and stall (30 units).   A matrix can be found in the appendices to calculate optimum cruise altitude by gross weight. 
 
-It is important to note that the AoA Indicator dials are calibrated for the nose wheel door being open, as flow around the door changes that which reaches the probe.  Therefore, during normal flight operations, the AoA Indicators will read approximately 1 unit low, and the aircraft will be roughly 5 knots fast for an on-speed approach.  
+It is important to note that extension of the landing gear and thus the nose wheel door changes the airflow around the probe causing to indicate higher angles by 1 unit. The approach airspeeds account for that. Therefore, performing an approach with the gear retracted, will cause the indicators to show approximately 1 unit low, and the aircraft will be roughly 5 knots fast for an on-speed approach.
 
 Indexers
 --------
