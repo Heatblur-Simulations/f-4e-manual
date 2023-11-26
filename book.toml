@@ -10,8 +10,3 @@ git-repository-url = "https://github.com/Heatblur-Simulations/f-4e-manual"
 edit-url-template = "https://github.com/Heatblur-Simulations/f-4e-manual/edit/master/{path}"
 default-theme = "Navy"
 additional-css = ['.\theme\catppuccin.css', '.\theme\catppuccin-admonish.css']
-
-[preprocessor]
-
-[preprocessor.catppuccin]
-assets_version = "2.1.0" # DO NOT EDIT: Managed by `mdbook-catppuccin install`
