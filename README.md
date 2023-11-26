@@ -1,5 +1,7 @@
 # F-4E Manual
 
+[![license](https://img.shields.io/github/license/Heatblur-Simulations/f-4e-manual)](https://github.com/Heatblur-Simulations/f-4e-manual/blob/master/LICENSE)
+
 ![Spook - My Other Ride Is Your Mom](https://i.imgur.com/KBOIocl.png)
 
 Manual of the F-4E Phantom by Heatblur Simulations.
@@ -10,7 +12,9 @@ The manual is automatically exported as HTML version, hosted at: https://heatblu
 
 ## Building locally
 
-TODO
+Install mdbook, see [here](https://rust-lang.github.io/mdBook/guide/installation.html).
+
+Then run the command `mdbook build` from this folder; the website can be found in the folder `book`. Use `mdbook serve` to make the contents available in your browser at [localhost:3000](http://localhost:3000/), it automatically updates whenever the contents change.
 
 ## Codespaces
 

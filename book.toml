@@ -1,6 +1,11 @@
 [book]
-authors = ["Zabuzard"]
+title = "Heatblur F-4E Phantom II"
+description = "Manual of the F-4E Phantom by Heatblur Simulations."
+authors = ["Heatblur Simulations", "Contributions from the Community"]
 language = "en"
 multilingual = false
-src = "src"
-title = "Heatblur F-4E Phantom II"
+
+[output.html]
+git-repository-url = "https://github.com/Heatblur-Simulations/f-4e-manual"
+edit-url-template = "https://github.com/Heatblur-Simulations/f-4e-manual/edit/master/{path}"
+default-theme = "Navy"
