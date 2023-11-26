@@ -12,18 +12,11 @@
     "customizations": {
       "vscode": {
         "extensions": [
-			"lextudio.restructuredtext",
-			"trond-snekvik.simple-rst",
 			"george-alisson.html-preview-vscode",
 			"ms-python.vscode-pylance",
 			"ms-python.pylint",
 			"ms-python.python"
 		]
       }
-    },
-    "postCreateCommand": {
-      "sphinx": "apt-gt install python3-sphinx",
-      "theme": "pip install sphinx_rtd_theme",
-      "fix": "/usr/bin/pip install sphinx sphinx_rtd_theme"
     }
   }
