@@ -2042,6 +2042,8 @@ A standard magnetic compass for backup navigation assistance should the primary 
 Command Ejection Select Handle
 ------------------------------
 
+.. image:: images/wso_command_ejection_select_handle.png
+
 Used to select single or dual ejection as commanded by the WSO.  In the vertical position (valve closed), initiation of ejection by the WSO ejects only the rear seat.  With the valve handle in the horizontal (open) position, a WSO initiating ejection will extract both crew members.
 
 
@@ -2053,6 +2055,8 @@ Used during an ILS approach, displays localizer and glide slope deviations repre
 
 KY-28 Mode Indicator
 --------------------
+
+.. image:: images/wso_ky28_mode_indicator.png
 
 Two lamp indicator illustrating current KY-28 operating mode- P indicates plain (unencrypted) mode transmission, whereas C indicates cipher (encrypted) mode transmission. 
 
@@ -2113,10 +2117,14 @@ Calibrated from negative 4 to positive 10 in units of G, with three pointers- on
 Ball/Slip and Rate of Turn Indicator
 ------------------------------------
 
+.. image:: images/wso_ball_slip_rot_indicator.png
+
 A 4-minute turn indicator, utilizing a conventional horizontally mounted gyro, accurately displays standard turn rates, resembling a conventional turn and slip indicator.
 
 Navigation Mode Selector Switch
 -------------------------------
+
+.. image:: images/wso_nav_mode_selector_switch.png
 
 Selects the respective mode for the two BDHI needles.
 
@@ -2132,19 +2140,23 @@ Selects the respective mode for the two BDHI needles.
 Ground Speed Indicator
 ----------------------
 
+.. image:: images/wso_ground_speed_indicator.png
+
 Provides the aircraft's ground speed in knots, and is calibrated from 0 to 1999 knots.  Requires INS for accurate presentation.  If INS off, can register any value of up to 150 knots when motionless on ground. 
 
 
 True Airspeed Indicator
 -----------------------
 
-.. image:: images/TASInd.png
-  
+.. image:: images/wso_true_airspeed_speed_indicator.png
+
 Provides the aircraft's True Airspeed in knots, and is calibrated from 150 to 1500 knots; airspeeds below this range are thus not reliable. At high rates of airspeed change, there may be a lag of up to +-10 knots in measurement. 
 
 
 UHF Remote Channel Indicator
 ----------------------------
+
+.. image:: images/wso_uhf_remote_channel_indicator.png
 
 Provides the current selected channel value when the radio is set to PRESET. 
 Otherwise, the indicator displays M if the radio is set to Manual, G when the COMM function is set
@@ -2186,6 +2198,8 @@ Note: Moving these reference markers outside of the respective aforementioned re
 
 Bearing Distance Heading Indicator (BDHI)
 -----------------------------------------
+
+.. image:: images/wso_bearing_distance_heading_indicator.png
 
 The Bearing Distance Heading Indicator, or BDHI, presents navigation information as entered by the WSO, provided with two needles (termed the No 1 and No 2 pointers).
 
@@ -2925,6 +2939,8 @@ Used for emergency deployment of the slats and flaps from the rear cockpit, and 
 Digital Scan Converter Group (DSCG) and Pedestal Panel
 ======================================================
 
+.. image:: images/wso_dscg_and_pedestal_panel.png
+
 Digital Scan Converter Group (DSCG)
 -----------------------------------
 
@@ -3202,6 +3218,8 @@ Validation of an entered code takes about 5 seconds. If the NO-GO lamp is lit, t
 Inertial Navigation Control Panel
 ---------------------------------
 
+.. image:: images/wso_ins_control_panel.png
+
 The Inertial Navigation Control Panel provides the rear pilot mode selection and system alignment command selection.
 
 Mode Selector Switch
@@ -3244,6 +3262,8 @@ The ALIGN lamp provides current INS alignment through illuminating steady (BATH 
 Weapon Delivery Panel
 ---------------------
 
+.. image:: images/wso_weapon_delivery_panel.png
+
 ACTIVATE Switch
 ^^^^^^^^^^^^^^^
 
@@ -3264,6 +3284,8 @@ Selecting x100 changes the release range multiplier on the WRCS panel to a facto
 
 Weapon Release Computer Set (WRCS) Panel
 ----------------------------------------
+
+.. image:: images/wso_weapon_release_computer_set_panel.png
 
 Target Distance Controls
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -3337,6 +3359,8 @@ dangerous situations.
 Cursor Control Panel
 --------------------
 
+.. image:: images/wso_cursor_control_panel.png
+
 Used for WRCS radar bombing mode target entry.  Funtions only with MAP-PPI mode selected and applicable bombing mode selected on the Delivery Mode Knob.
 
 Freeze Button
@@ -3370,6 +3394,8 @@ Used to define the heading to the RIP on the radar display in PPI mode, presente
 
 Nuclear Stores Consent Switch
 -----------------------------
+
+.. image:: images/wso_nuclear_stores_consent_switch.png
 
 Used to arm nuclear stores. In the SAFE position, release is inhibited. REL allows releasing stores unarmed, while REL/ARM allows dropping nuclear stores armed.
 
