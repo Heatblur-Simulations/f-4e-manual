@@ -1592,7 +1592,7 @@ also to the rear seat attitude indicator, autopilot, and bombing computer.
 #### Mode Selector Knob
 
 Switches between different operating modes — Compass, DG (directional gyro), and
-Slaved. It also has a springloaded SYNC position for fast synchronization of the
+Slaved. It also has a spring-loaded SYNC position for fast synchronization of the
 azimuth system basen on the compass flux valve signal.
 
 | Name                  | Description                                                                                                                                                                                                                  |
@@ -1791,7 +1791,7 @@ In DCS, footage is saved in the users Saved Games folder, for example:
 ![pilot_seat_switch](img/pilot_seat_switch.png)
 
 The vertical position of the seat can be changed in either direction for about
-5cm using this springloaded switch.
+5cm using this spring-loaded switch.
 
 Operation of the motor must be limited to 30 seconds within 10 minutes to
 prevent it from overheating and breaking.
