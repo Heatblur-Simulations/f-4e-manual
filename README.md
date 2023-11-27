@@ -1,6 +1,6 @@
 # F-4E Manual
 
-[![license](https://img.shields.io/badge/license-CC--BY--NC--ND_4.0-blue)](https://github.com/Heatblur-Simulations/f-4e-manual/blob/master/LICENSE)
+[![license](https://img.shields.io/badge/license-CC_BY--NC--ND_4.0-blue)](https://github.com/Heatblur-Simulations/f-4e-manual/blob/master/LICENSE)
 
 ![Spook - My Other Ride Is Your Mom](https://i.imgur.com/KBOIocl.png)
 
