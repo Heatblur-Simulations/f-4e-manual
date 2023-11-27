@@ -1,41 +1,45 @@
 # F-4E Manual
 
+[![license](https://img.shields.io/badge/license-CC--BY--NC--ND_4.0-blue)](https://github.com/Heatblur-Simulations/f-4e-manual/blob/master/LICENSE)
+
 ![Spook - My Other Ride Is Your Mom](https://i.imgur.com/KBOIocl.png)
 
 Manual of the F-4E Phantom by Heatblur Simulations.
 
-This is a [Sphinx](https://www.sphinx-doc.org/en/master/) project, content is written in the markup language **reStructuredText** (`.rst`).
+This is a [mdBook](https://rust-lang.github.io/mdBook/) project, content is
+written in the language **Markdown** (`.md`).
 
-The manual is automatically exported as HTML version, hosted at: https://heatblur-simulations.github.io/f-4e-manual/.
+The manual is automatically exported as HTML version, hosted at:
+https://heatblur-simulations.github.io/f-4e-manual/.
 
-## Building locally
+## Setup
 
-Pre-requisites are:
+Markdown is supported widely by most IDEs and text editors. We recommend
+[VSC](https://code.visualstudio.com/) and any JetBrains IDE, such as
+[Fleet](https://www.jetbrains.com/fleet/),
+[IntelliJ](https://www.jetbrains.com/idea/) or
+[CLion](https://www.jetbrains.com/clion/).
 
-* [Install Sphinx](https://www.sphinx-doc.org/en/master/usage/installation.html), i.e. `choco install sphinx` (using [Chocolatey](https://chocolatey.org/install)) or `pip install -U sphinx` - at least version `6.x`
-* Install the [RTD theme](https://sphinx-rtd-theme.readthedocs.io/en/stable/installing.html), i.e. `pip install sphinx_rtd_theme`
+You can also simply press `.` (dot) while on GitHub and it will open an instance
+of Visual Studio Code right in your browser, allowing you to contribute directly
+and conveniently.
 
-Go into `src` and run `make.bat html` or `make html` (or supply an alternative target). A folder `target` will be generated at the root of the project.
+Please read
+[CONTRIBUTING.md](https://github.com/Heatblur-Simulations/f-4e-manual/blob/master/CONTRIBUTING.md)
+before your first contribution.
 
-The website can now be found in `target/html/index.html`.
+### Building locally
 
-## Codespaces
+To build the website locally, you have to install **mdbook**, see
+[here](https://rust-lang.github.io/mdBook/guide/installation.html).
 
-Alternatively, GitHub Codespaces offers a convenient way to collaborate. It comes with a setup that has all requirements (such as Sphinx, Python and more) already pre-installed, allowing editing the manual straight away **in the browser**, without first installing anything locally.
-
-To get started, create a Codespace on the main page of the repository:
-
-![create codespace](https://i.imgur.com/3Ktij8Z.png)
-
-The first-time setup might take a minute or two, subsequent launches are instant. GitHub will now open a new browser window with an instance of Visual-Studio-Code running on their cloud.
-The environment is already fully setup and has useful VSC extensions installed (such as syntax highlighting and preview for `.rst` and `.html`). You can edit the manual straight away, generate it with `make html` and view the resulting HTML files from `target/html`.
-
-Once done, commit your changes using `git add *`, `git commit`, `git push`.
+Then run the command `mdbook build` from this folder; the website can be found
+in the folder `book`. Use `mdbook serve` to make the contents available in your
+browser at [localhost:3000](http://localhost:3000/), it automatically updates
+whenever the contents change.
 
 ## GH Pages
 
-The project is automatically configured via a CI/CD to build and publish any change to `master` to a GH-Pages branch called `html`. GitHub will automatically publish the website on https://heatblur-simulations.github.io/f-4e-manual/.
-
-## Push To Code Repo
-
-The CI/CD will automatically build and copy the HTML version of the manual to the main code repository https://github.com/Heatblur-Simulations/f-4e into the folder `ext/manual`, on any change to `master`.
+The project is automatically configured via a CI/CD to build and publish any
+change to `master` to a GH-Pages branch called `html`. GitHub will automatically
+publish the website on https://heatblur-simulations.github.io/f-4e-manual/.
