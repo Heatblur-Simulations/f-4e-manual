@@ -1114,16 +1114,15 @@ sync to center. Although the magnetic variation control knob has no effect on
 the meter in air data mode, positive correction prior to INS loss increases the
 air data mode precision.
 
-The Nav Computer can function in either Inertial or Air Data mode. Inertial mode
-is the default, meaning that cockpit indicators will provide range and bearing
-as well as ground track and heading using the flight instruments.
+The Nav Computer can function in either Inertial or Air Data mode. Both modes 
+provide the same outputs but the inertial mode (default) is more accurate.
 
 In the event of an INS failure, the Nav Computer reverts to Air Data mode. In
 Air Data mode. the rear pilot must continually monitor and adjust true wind
-direction and speed, magnetic variation, and target waypoint coordinates, as the
-only dead reckoning inputs available to the computer is true airspeed (from the
-air data computer) and magnetic heading from the compass system. When the system
-reverts to Air Data mode, the AIR DATA MODE lamp will illuminate.
+direction and speed, magnetic variation, as the only dead reckoning inputs 
+available to the computer is true airspeed (from the air data computer) and 
+magnetic heading from the compass system. When the system reverts to Air Data
+mode, the AIR DATA MODE lamp will illuminate.
 
 During startup, the Position Control Knobs, Wind Control Knobs, and Magnetic
 Variation Control Knob are used to enter known latitude, longitude, wind
@@ -1314,13 +1313,13 @@ volume of the marker beacon audio in the front cockpit.
 
 #### WSO Course Indicator
 
-In the rear cockpit is the Course Indicator, on the main instrument panel; the
-indicator displays relative heading for the course set in the course selector
-window, as well as later and vertical position relative to the ILS localizer and
-glide slope entered by the pilot. In this way, the WSO can assist the pilot in
-achieving and maintaining glide slope. The controls for the indicator are purely
-for the WSOs reference, and do not interact with the Flight Director Group
-displays in the front cockpit.
+In the rear cockpit is the Course Indicator, on the main instrument panel; During
+an ILS approach, the indicator displays relative heading for the course set in the
+course selector window, as well as horizontal and vertical position relative to 
+the ILS localizer and glide slope entered by the pilot. In this way, the WSO can
+assist the pilot in achieving and maintaining glide slope. The controls for the
+indicator are purely for the WSOs reference, and do not interact with the Flight
+Director Group displays in the front cockpit.
 
 Components of the course indicator are a TO-FROM indicator (does not function
 with ILS), a course deviation scale, a glide slope deviation scale, a COURSE
@@ -1330,6 +1329,8 @@ OR RANGE), and course and glide slope OFF warning flags.
 
 Once the pilot has selected an ILS frequency, the WSO must set a course inbound
 heading in the selector window using the SET knob.
+
+Used only with the ILS system (doesn't function with VOR).
 
 ### Intercom System
 
@@ -1350,23 +1351,25 @@ Intercom Volume Control does not affect any other cockpit audio signal.
 
 #### Function Selector Switch
 
-The function selector provides COLD MIC, HOT MIC (always active), and RADIO
-OVERRIDE options. The WSOs switch must be in HOT MIC to enable ground crew
-transmission.
+The function selector offers three options: COLD MIC, HOT MIC (enabling automatic
+intercom operation), and RADIO OVERRIDE. While RADIO OVERRIDE operates similarly
+to HOT MIC, it also attenuates all sounds except for crew communication, the pullup
+tone from the ARBCS, and the Shrike aural tone. For ground crew transmission to be
+enabled, the WSOs switch must be set to HOT MIC.
 
 #### Amplifier Select Knob
 
 The three position Amplifier Select Knob determines which amplification channel
 is used: B/U for the backup, NORM for the normal amplifier, and EMER for a
 parallel function, should both amplifiers in a cockpit fail. In EMER mode, only
-audio from the other cockpit would be heard, and the volume control would be
-managed by that cockpit.
+audio from the other cockpit would be heard, and the volume control of all sounds
+would be managed by that cockpit.
 
 #### Intercom Microphone Switch
 
 The microphone switch for the Intercom System is the aft position on the inboard
 throttle grip in both cockpits. When using the intercom, all audio sans the
-pullup tone, stall warning, voice warning, and ECM are reduced.
+pullup tone, stall warning, voice warning, and ECM are reduced (same as RADIO OVERRIDE).
 
 ### UHF Radio
 
