@@ -9,5 +9,5 @@ multilingual = false
 git-repository-url = "https://github.com/Heatblur-Simulations/f-4e-manual"
 edit-url-template = "https://github.com/Heatblur-Simulations/f-4e-manual/edit/master/{path}"
 default-theme = "Navy"
-additional-css = ['.\theme\catppuccin.css', '.\theme\catppuccin-admonish.css']
+additional-css = ['theme/catppuccin.css', 'theme/catppuccin-admonish.css']
 mathjax-support = true
