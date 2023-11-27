@@ -3358,35 +3358,35 @@ drift angle for its ballistics computer. Drift angle is captured for the BDHI,
 HSI, and FDC. Drift correction angle is also provided to the radar and LCOSS.</p>
 <h4 id="alignment-options"><a class="header" href="#alignment-options">Alignment Options</a></h4>
 <p>The LN-12 has three modes of alignment on aircraft start: BATH, Heading Memory
-(HDG MEM), and Gyrocompass aignment. Prior to performing any alignment, with the
-mode knob in STBY, the position update switch on the Nav Computer Control Panel
-should be selected to NORMAL, local magnetic variation should be entered on the
-variation counter, and the position counter should be set to local latitude and
-longitude. Doing so will greatly expedite gyrocompass alignment. Further,
-alignment should not be performed with the wings in their folded position, as
-the magnetic flux valve that provides compass synchronization wil be 60 degrees
-outside of normal position.</p>
+(HDG MEM), and Gyrocompass alignment. Prior to performing any alignment, STBY
+Reference System must be selected, the Nav Computer Control Panel should be
+turned on and its position update switch should be selected to NORMAL. Local
+magnetic variation should be entered on the variation counter, and the position
+counter should be set to local latitude and longitude. Doing so will greatly
+expedite gyrocompass alignment. Further, alignment should not be performed with
+the wings in their folded position, as the magnetic flux valve that provides
+compass synchronization wil be 60 degrees outside of normal position.</p>
 <p>The INS also includes an in-flight position update option, should the aircrew
 note gross deviation from known location fixes.</p>
 <h4 id="best-available-true-heading"><a class="header" href="#best-available-true-heading">Best Available True Heading</a></h4>
-<p>Once set to ALIGN, the BATH lamp will illuminate after 75 seconds. Once in BATH,
-the INS is accurate to roughly 5 and a half nautical miles per hour CEP,
-although higher inaccuracies can be seen. Once BATH is achieved, NAV mode can be
-selected and the aircraft flown with the above caveat.</p>
+<p>Once set to ALIGN, the ALIGN lamp will illuminate steadily after 75 seconds
+indicating BATH Alignment is ready. Once in BATH, the INS is accurate to roughly
+5 and a half nautical miles per hour CEP, although higher inaccuracies can be
+seen. Once BATH is achieved, NAV mode can be selected and the aircraft flown
+with the above caveat.</p>
 <h4 id="heading-memory-alignment"><a class="header" href="#heading-memory-alignment">Heading Memory Alignment</a></h4>
-<p>Accessed by selecting HDG MEM, this alignment method provides minimum alignment
-time with a relative CEP at the best end of BATH (5.5 nmi) by using a previously
-stored alignment . Beneath the red guard on the control panel is the HDG
-MEM/GYRO COMP switch.</p>
+<p>This option becomes accessible if the alignment has been previously stored and
+the aircraft has remained stationary. To access it, select HDG MEM located
+beneath the red guard on the control panel before transitioning the INS knob
+from OFF to ALIGN. This alignment method minimizes the alignment time, offering
+a relative Circular Error Probability (CEP) at the optimal end of BATH (5.5
+nautical miles), or even Gyrocompass Alignment (3 nautical miles) if the
+previous alignment occurred within the last 2 hours.</p>
 <p>To access the accelerated HDG MEM alignment mode, the guard must be raised and
 the switch actuated up, and the INS mode switch placed to ALIGN until the ALIGN
-lamp illuminates. Once the lamp is lit, the INS can be placed into NAV mode. If
-time allows, STBY mode can be selected to allow proper heating of the gyroscopes
-(which goes through the illumination/off cycle as above). Any other available
-time prior to moving the aircraft can be spent in ALIGN to further increase
-system accuracy.</p>
-<p>When HDG MEM mode alignment is complete, the guard should be closed placing the
-switch back into GYRO COMP once NAV mode has been selected for the INS.</p>
+lamp starts flashing. Then, the INS can be placed into NAV mode. If time allows,
+STBY mode can be selected before going to ALIGN to allow proper heating of the
+gyroscopes (which goes through the illumination/off cycle as above).</p>
 <h4 id="gyrocompass-alignment"><a class="header" href="#gyrocompass-alignment">Gyrocompass Alignment</a></h4>
 <p>Maximum system precision is found by allowing the INS to perform a full
 Gyrocompassing alignment. This method permits the gyros to find the most
@@ -3400,16 +3400,38 @@ minimum amount of time to complete a Gyrocompassing alignment once BATH or HDG
 MEM level alignment is achieved is 50 additional seconds, while a normal
 alignment takes around 5 minutes. If the aircraft is aligned at 70 degrees of
 latitude or more, additional time should be expected.</p>
-<p>Once Gyrocompass alignment is complete, the ALIGN indicator will flash,
-indicating the system is now at full alignment. NAV mode on the INS can be
-entered at any time during gyrocompassing, but best accuracy will not be
-attained until the ALIGN indicator flashes.</p>
-<h4 id="in-flight-alignment"><a class="header" href="#in-flight-alignment">In-Flight Alignment</a></h4>
-<p>In the event of substantial latitude/longitude error versus a known radar or
-visual location fix, the aircraft should be flown straight and level, with the
-Reference System Selector Knob in STBY. Once done, the INS Mode Knob should be
-selected to OFF, then to STBY for 15 seconds. After 15 seconds, the Mode should
-be returned to NAV, and the Reference Selector back to PRIM.</p>
+<p>To conduct Gyrocompass Alignment, it's necessary to keep the INS in STBY mode
+until the HEAT light turns off. Moving to ALIGN while the lights are still on
+prevents achieving full Gyrocompass Alignment, resulting in only the BATH
+process being performed. The duration of the heating phase depends on the
+ambient temperature. The system heats up at a rate of approximately 20°F per
+minute, reaching an operational temperature of 160°F. Once the system reaches
+its operating temperature, an additional 50 seconds are required until the HEAT
+light extinguishes. After transitioning to ALIGN, the light will illuminate
+steadily after 75 seconds, signaling the completion of the initial BATH
+alignment, initiating the gyrocompassing process. Once Gyrocompass alignment
+concludes, the ALIGN indicator will flash, indicating the system has achieved
+full alignment. While gyrocompassing (when the align light is steadily lit), NAV
+mode can be entered at any time, though optimal accuracy will only be attained
+when the ALIGN indicator flashes.</p>
+<p>Any other available time prior to moving the aircraft can be spent in ALIGN to
+further increase system accuracy.</p>
+<h4 id="in-flight-emergency-alignment"><a class="header" href="#in-flight-emergency-alignment">In-Flight Emergency Alignment</a></h4>
+<p>In the event of a significant attitude error or failure of the STBY Attitude
+Reference, an emergency in-flight alignment of the INS can be executed. The
+aircraft must maintain straight and level flight, with the Reference System
+Selector Knob set to STBY. Once in this configuration, the INS Mode Knob should
+be switched to OFF, then to STBY for a duration of 15 seconds. Subsequently,
+after the 15-second interval, return the Mode to NAV, and resume straight and
+level flight. The process of resetting the Reference Selector to PRIM can be
+performed approximately after 40 seconds, although the precise alignment time is
+not specified.</p>
+<p>It's important to note that the accuracy of the attitude in this alignment is
+contingent upon how steadily the aircraft was flown during the alignment period
+and subsequent alignments may be required. Following this emergency alignment,
+only attitude information will be available. Velocities, position, and displays
+on the navigation computer will be inaccurate and cannot be utilized for
+navigation purposes.</p>
 <h4 id="navigation-computer"><a class="header" href="#navigation-computer">Navigation Computer</a></h4>
 <p>The ASN-46A Nav Computer is used for general navigation and tactical route
 planning. The system contains both a great circle and rhumb line computational
