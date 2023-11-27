@@ -288,20 +288,20 @@
 <div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
 <tr><td>1.</td><td>Instrument Ground Power</td><td>ACTUATE</td></tr>
 <tr><td>2.</td><td>Navigation Computer</td><td>SET</td></tr>
-<tr><td></td><td>a. NAV Comp Mode</td><td>TGT 1 or TGT 2</td></tr>
+<tr><td></td><td><strong>a. NAV Comp Mode</strong></td><td><strong>STBY</strong></td></tr>
 <tr><td></td><td>b. Wind Counters</td><td>SET</td></tr>
 <tr><td></td><td>c. Variation Counter</td><td>SET</td></tr>
 <tr><td></td><td>d. POS Update Switch</td><td>NORM</td></tr>
 <tr><td></td><td>e. Present POS Counter</td><td>SET</td></tr>
 <tr><td></td><td>f. Target Counters</td><td>SET FOR TGT 2</td></tr>
 <tr><td></td><td>g. NAV Comp Mode</td><td>RESET</td></tr>
-<tr><td></td><td>h. NAV Comp Mode</td><td>TGT 1 or TGT 2</td></tr>
+<tr><td></td><td>h. NAV Comp Mode</td><td>STBY</td></tr>
 <tr><td></td><td>i. Target Counters</td><td>SET FOR TGT 1</td></tr>
 <tr><td><strong>3.</strong></td><td><strong>INS Alignment</strong></td><td><strong>AS DESIRED</strong></td></tr>
 </tbody></table>
 </div>
 <h4 id="ins-full-gyrocompass-alignment-wso"><a class="header" href="#ins-full-gyrocompass-alignment-wso">INS Full Gyrocompass Alignment (WSO)</a></h4>
-<p>Takes roughly 8 minutes.</p>
+<p>Time depends on ambient temperature and BATH alignment accuracy.</p>
 <div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
 <tr><td>1.</td><td>NAV Comp Mode</td><td>STBY</td></tr>
 <tr><td>2.</td><td>INS Power Knob</td><td>STBY</td></tr>
@@ -315,26 +315,27 @@
 </tbody></table>
 </div>
 <h4 id="ins-fast-bath-alignment-wso"><a class="header" href="#ins-fast-bath-alignment-wso">INS Fast BATH Alignment (WSO)</a></h4>
-<p>Takes roughly 3 minutes.</p>
+<p>Takes roughly 2 minutes 15 seconds.</p>
 <div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
 <tr><td>1.</td><td>NAV Comp Mode</td><td>STBY</td></tr>
-<tr><td>2.</td><td>INS Power Knob</td><td>ALIGN</td></tr>
-<tr><td>3.</td><td>Alignment</td><td>WAIT</td></tr>
+<tr><td>3.</td><td>INS Power Knob</td><td>STBY</td></tr>
+<tr><td>4.</td><td>INS Power Knob</td><td>ALIGN</td></tr>
+<tr><td>5.</td><td>Alignment</td><td>WAIT</td></tr>
 <tr><td></td><td>a. HEAT Light</td><td>IGNORE</td></tr>
 <tr><td></td><td>b. ALIGN Light</td><td>STEADY</td></tr>
-<tr><td>4.</td><td>INS Power Knob</td><td>NAV</td></tr>
-<tr><td>5.</td><td>INS Light</td><td>OUT</td></tr>
+<tr><td>6.</td><td>INS Power Knob</td><td>NAV</td></tr>
+<tr><td>7.</td><td>INS Light</td><td>OUT</td></tr>
 </tbody></table>
 </div>
 <h4 id="ins-stored-heading-alignment-wso"><a class="header" href="#ins-stored-heading-alignment-wso">INS Stored Heading Alignment (WSO)</a></h4>
-<p>Takes roughly 2 minutes.</p>
+<p>Takes roughly 2 minutes 15 seconds.</p>
 <div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
 <tr><td>1.</td><td>NAV Comp Mode</td><td>STBY</td></tr>
 <tr><td>2.</td><td>Align Mode Switch</td><td>HDG MEM</td></tr>
 <tr><td>3.</td><td>INS Power Knob</td><td>ALIGN</td></tr>
 <tr><td>4.</td><td>Alignment</td><td>WAIT</td></tr>
 <tr><td></td><td>a. HEAT Light</td><td>IGNORE</td></tr>
-<tr><td></td><td>b. ALIGN Light</td><td>STEADY</td></tr>
+<tr><td></td><td>b. ALIGN Light</td><td>FLASHING</td></tr>
 <tr><td>5.</td><td>INS Power Knob</td><td>NAV</td></tr>
 <tr><td>6.</td><td>INS Light</td><td>OUT</td></tr>
 </tbody></table>
@@ -349,7 +350,7 @@
 <tr><td><strong>4.</strong></td><td><strong>Altimeter</strong></td><td><strong>SET &amp; CHECK</strong></td></tr>
 <tr><td></td><td><strong>a. Barometric Scale</strong></td><td><strong>SET QNH</strong></td></tr>
 <tr><td></td><td><strong>b. SPC</strong></td><td><strong>RESET CORR</strong></td></tr>
-<tr><td></td><td><strong>c. BARO Altimeter</strong></td><td><strong>HOLD 3 SEC</strong></td></tr>
+<tr><td></td><td><strong>c. BARO Altimeter</strong></td><td><strong>HOLD RESET 3 SEC</strong></td></tr>
 <tr><td>5.</td><td>Speed Brakes</td><td>CHECK</td></tr>
 <tr><td>6.</td><td>Slats &amp; Flaps</td><td>CHECK</td></tr>
 <tr><td>7.</td><td>Flight Controls</td><td>CHECK</td></tr>
@@ -377,7 +378,7 @@
 <tr><td>4.</td><td>Radar BIT Checks</td><td>INITIATE</td></tr>
 <tr><td>5.</td><td>WRCS BIT Checks</td><td>INITIATE</td></tr>
 <tr><td>6.</td><td>NAV Comp Mode</td><td>AS DESIRED</td></tr>
-<tr><td>7.</td><td>Altimeter</td><td>SET &amp; CHECK</td></tr>
+<tr><td><strong>7.</strong></td><td><strong>Altimeter</strong></td><td><strong>SET, RESET &amp; CHECK</strong></td></tr>
 </tbody></table>
 </div>
 <h3 id="taxiing"><a class="header" href="#taxiing">Taxiing</a></h3>

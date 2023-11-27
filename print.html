@@ -3369,7 +3369,8 @@ compass synchronization wil be 60 degrees outside of normal position.</p>
 <p>The INS also includes an in-flight position update option, should the aircrew
 note gross deviation from known location fixes.</p>
 <h4 id="best-available-true-heading"><a class="header" href="#best-available-true-heading">Best Available True Heading</a></h4>
-<p>Once set to ALIGN, the ALIGN lamp will illuminate steadily after 75 seconds
+<p>STBY position must be placed momentarity to avoid an INS no-go.
+Once set to ALIGN, the ALIGN lamp will illuminate steadily after 75 seconds
 indicating BATH Alignment is ready. Once in BATH, the INS is accurate to roughly
 5 and a half nautical miles per hour CEP, although higher inaccuracies can be
 seen. Once BATH is achieved, NAV mode can be selected and the aircraft flown
@@ -3455,15 +3456,14 @@ deviation can be corrected on the Magnetic Variation Control Knob to bring the
 sync to center. Although the magnetic variation control knob has no effect on
 the meter in air data mode, positive correction prior to INS loss increases the
 air data mode precision.</p>
-<p>The Nav Computer can function in either Inertial or Air Data mode. Inertial mode
-is the default, meaning that cockpit indicators will provide range and bearing
-as well as ground track and heading using the flight instruments.</p>
+<p>The Nav Computer can function in either Inertial or Air Data mode. Both modes 
+provide the same outputs but the inertial mode (default) is more accurate.</p>
 <p>In the event of an INS failure, the Nav Computer reverts to Air Data mode. In
 Air Data mode. the rear pilot must continually monitor and adjust true wind
-direction and speed, magnetic variation, and target waypoint coordinates, as the
-only dead reckoning inputs available to the computer is true airspeed (from the
-air data computer) and magnetic heading from the compass system. When the system
-reverts to Air Data mode, the AIR DATA MODE lamp will illuminate.</p>
+direction and speed, magnetic variation, as the only dead reckoning inputs 
+available to the computer is true airspeed (from the air data computer) and 
+magnetic heading from the compass system. When the system reverts to Air Data
+mode, the AIR DATA MODE lamp will illuminate.</p>
 <p>During startup, the Position Control Knobs, Wind Control Knobs, and Magnetic
 Variation Control Knob are used to enter known latitude, longitude, wind
 direction and speed, and magnetic variation for the location of the aircraft at
@@ -3625,13 +3625,13 @@ audible volume for the front cockpit. The knob is turned clockwise to power the
 system on, then further to increase the volume. The MB VOL knob adjusts the
 volume of the marker beacon audio in the front cockpit.</p>
 <h4 id="wso-course-indicator"><a class="header" href="#wso-course-indicator">WSO Course Indicator</a></h4>
-<p>In the rear cockpit is the Course Indicator, on the main instrument panel; the
-indicator displays relative heading for the course set in the course selector
-window, as well as later and vertical position relative to the ILS localizer and
-glide slope entered by the pilot. In this way, the WSO can assist the pilot in
-achieving and maintaining glide slope. The controls for the indicator are purely
-for the WSOs reference, and do not interact with the Flight Director Group
-displays in the front cockpit.</p>
+<p>In the rear cockpit is the Course Indicator, on the main instrument panel; During
+an ILS approach, the indicator displays relative heading for the course set in the
+course selector window, as well as horizontal and vertical position relative to 
+the ILS localizer and glide slope entered by the pilot. In this way, the WSO can
+assist the pilot in achieving and maintaining glide slope. The controls for the
+indicator are purely for the WSOs reference, and do not interact with the Flight
+Director Group displays in the front cockpit.</p>
 <p>Components of the course indicator are a TO-FROM indicator (does not function
 with ILS), a course deviation scale, a glide slope deviation scale, a COURSE
 selector window, a course SET knob, a heading pointer and heading scale, a
@@ -3639,6 +3639,7 @@ marker beacon light, a GLIDE SLOPE indicator, a course deviation indicator (LOC
 OR RANGE), and course and glide slope OFF warning flags.</p>
 <p>Once the pilot has selected an ILS frequency, the WSO must set a course inbound
 heading in the selector window using the SET knob.</p>
+<p>Used only with the ILS system (doesn't function with VOR).</p>
 <h3 id="intercom-system"><a class="header" href="#intercom-system">Intercom System</a></h3>
 <p>The Intercom System provides communication between the pilot, WSO, and ground
 crew, and functions with external power, or the aircraft battery once either
@@ -3651,19 +3652,21 @@ amplifier selector, and a function selector switch.</p>
 cockpit; increasing volume is performed by turning the knob clockwise. The
 Intercom Volume Control does not affect any other cockpit audio signal.</p>
 <h4 id="function-selector-switch"><a class="header" href="#function-selector-switch">Function Selector Switch</a></h4>
-<p>The function selector provides COLD MIC, HOT MIC (always active), and RADIO
-OVERRIDE options. The WSOs switch must be in HOT MIC to enable ground crew
-transmission.</p>
+<p>The function selector offers three options: COLD MIC, HOT MIC (enabling automatic
+intercom operation), and RADIO OVERRIDE. While RADIO OVERRIDE operates similarly
+to HOT MIC, it also attenuates all sounds except for crew communication, the pullup
+tone from the ARBCS, and the Shrike aural tone. For ground crew transmission to be
+enabled, the WSOs switch must be set to HOT MIC.</p>
 <h4 id="amplifier-select-knob"><a class="header" href="#amplifier-select-knob">Amplifier Select Knob</a></h4>
 <p>The three position Amplifier Select Knob determines which amplification channel
 is used: B/U for the backup, NORM for the normal amplifier, and EMER for a
 parallel function, should both amplifiers in a cockpit fail. In EMER mode, only
-audio from the other cockpit would be heard, and the volume control would be
-managed by that cockpit.</p>
+audio from the other cockpit would be heard, and the volume control of all sounds
+would be managed by that cockpit.</p>
 <h4 id="intercom-microphone-switch"><a class="header" href="#intercom-microphone-switch">Intercom Microphone Switch</a></h4>
 <p>The microphone switch for the Intercom System is the aft position on the inboard
 throttle grip in both cockpits. When using the intercom, all audio sans the
-pullup tone, stall warning, voice warning, and ECM are reduced.</p>
+pullup tone, stall warning, voice warning, and ECM are reduced (same as RADIO OVERRIDE).</p>
 <h3 id="uhf-radio"><a class="header" href="#uhf-radio">UHF Radio</a></h3>
 <p>The UHF Radio provides voice and Automatic Direction Finding (ADF) capabilities
 to the F-4E. The radio can receive and transmit on 3500 manually selected
@@ -5866,20 +5869,20 @@ Bomb Release button on the front stick.</p>
 <div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
 <tr><td>1.</td><td>Instrument Ground Power</td><td>ACTUATE</td></tr>
 <tr><td>2.</td><td>Navigation Computer</td><td>SET</td></tr>
-<tr><td></td><td>a. NAV Comp Mode</td><td>TGT 1 or TGT 2</td></tr>
+<tr><td></td><td><strong>a. NAV Comp Mode</strong></td><td><strong>STBY</strong></td></tr>
 <tr><td></td><td>b. Wind Counters</td><td>SET</td></tr>
 <tr><td></td><td>c. Variation Counter</td><td>SET</td></tr>
 <tr><td></td><td>d. POS Update Switch</td><td>NORM</td></tr>
 <tr><td></td><td>e. Present POS Counter</td><td>SET</td></tr>
 <tr><td></td><td>f. Target Counters</td><td>SET FOR TGT 2</td></tr>
 <tr><td></td><td>g. NAV Comp Mode</td><td>RESET</td></tr>
-<tr><td></td><td>h. NAV Comp Mode</td><td>TGT 1 or TGT 2</td></tr>
+<tr><td></td><td>h. NAV Comp Mode</td><td>STBY</td></tr>
 <tr><td></td><td>i. Target Counters</td><td>SET FOR TGT 1</td></tr>
 <tr><td><strong>3.</strong></td><td><strong>INS Alignment</strong></td><td><strong>AS DESIRED</strong></td></tr>
 </tbody></table>
 </div>
 <h4 id="ins-full-gyrocompass-alignment-wso"><a class="header" href="#ins-full-gyrocompass-alignment-wso">INS Full Gyrocompass Alignment (WSO)</a></h4>
-<p>Takes roughly 8 minutes.</p>
+<p>Time depends on ambient temperature and BATH alignment accuracy.</p>
 <div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
 <tr><td>1.</td><td>NAV Comp Mode</td><td>STBY</td></tr>
 <tr><td>2.</td><td>INS Power Knob</td><td>STBY</td></tr>
@@ -5893,26 +5896,27 @@ Bomb Release button on the front stick.</p>
 </tbody></table>
 </div>
 <h4 id="ins-fast-bath-alignment-wso"><a class="header" href="#ins-fast-bath-alignment-wso">INS Fast BATH Alignment (WSO)</a></h4>
-<p>Takes roughly 3 minutes.</p>
+<p>Takes roughly 2 minutes 15 seconds.</p>
 <div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
 <tr><td>1.</td><td>NAV Comp Mode</td><td>STBY</td></tr>
-<tr><td>2.</td><td>INS Power Knob</td><td>ALIGN</td></tr>
-<tr><td>3.</td><td>Alignment</td><td>WAIT</td></tr>
+<tr><td>3.</td><td>INS Power Knob</td><td>STBY</td></tr>
+<tr><td>4.</td><td>INS Power Knob</td><td>ALIGN</td></tr>
+<tr><td>5.</td><td>Alignment</td><td>WAIT</td></tr>
 <tr><td></td><td>a. HEAT Light</td><td>IGNORE</td></tr>
 <tr><td></td><td>b. ALIGN Light</td><td>STEADY</td></tr>
-<tr><td>4.</td><td>INS Power Knob</td><td>NAV</td></tr>
-<tr><td>5.</td><td>INS Light</td><td>OUT</td></tr>
+<tr><td>6.</td><td>INS Power Knob</td><td>NAV</td></tr>
+<tr><td>7.</td><td>INS Light</td><td>OUT</td></tr>
 </tbody></table>
 </div>
 <h4 id="ins-stored-heading-alignment-wso"><a class="header" href="#ins-stored-heading-alignment-wso">INS Stored Heading Alignment (WSO)</a></h4>
-<p>Takes roughly 2 minutes.</p>
+<p>Takes roughly 2 minutes 15 seconds.</p>
 <div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
 <tr><td>1.</td><td>NAV Comp Mode</td><td>STBY</td></tr>
 <tr><td>2.</td><td>Align Mode Switch</td><td>HDG MEM</td></tr>
 <tr><td>3.</td><td>INS Power Knob</td><td>ALIGN</td></tr>
 <tr><td>4.</td><td>Alignment</td><td>WAIT</td></tr>
 <tr><td></td><td>a. HEAT Light</td><td>IGNORE</td></tr>
-<tr><td></td><td>b. ALIGN Light</td><td>STEADY</td></tr>
+<tr><td></td><td>b. ALIGN Light</td><td>FLASHING</td></tr>
 <tr><td>5.</td><td>INS Power Knob</td><td>NAV</td></tr>
 <tr><td>6.</td><td>INS Light</td><td>OUT</td></tr>
 </tbody></table>
@@ -5927,7 +5931,7 @@ Bomb Release button on the front stick.</p>
 <tr><td><strong>4.</strong></td><td><strong>Altimeter</strong></td><td><strong>SET &amp; CHECK</strong></td></tr>
 <tr><td></td><td><strong>a. Barometric Scale</strong></td><td><strong>SET QNH</strong></td></tr>
 <tr><td></td><td><strong>b. SPC</strong></td><td><strong>RESET CORR</strong></td></tr>
-<tr><td></td><td><strong>c. BARO Altimeter</strong></td><td><strong>HOLD 3 SEC</strong></td></tr>
+<tr><td></td><td><strong>c. BARO Altimeter</strong></td><td><strong>HOLD RESET 3 SEC</strong></td></tr>
 <tr><td>5.</td><td>Speed Brakes</td><td>CHECK</td></tr>
 <tr><td>6.</td><td>Slats &amp; Flaps</td><td>CHECK</td></tr>
 <tr><td>7.</td><td>Flight Controls</td><td>CHECK</td></tr>
@@ -5955,7 +5959,7 @@ Bomb Release button on the front stick.</p>
 <tr><td>4.</td><td>Radar BIT Checks</td><td>INITIATE</td></tr>
 <tr><td>5.</td><td>WRCS BIT Checks</td><td>INITIATE</td></tr>
 <tr><td>6.</td><td>NAV Comp Mode</td><td>AS DESIRED</td></tr>
-<tr><td>7.</td><td>Altimeter</td><td>SET &amp; CHECK</td></tr>
+<tr><td><strong>7.</strong></td><td><strong>Altimeter</strong></td><td><strong>SET, RESET &amp; CHECK</strong></td></tr>
 </tbody></table>
 </div>
 <h3 id="taxiing"><a class="header" href="#taxiing">Taxiing</a></h3>
