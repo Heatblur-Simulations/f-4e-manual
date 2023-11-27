@@ -111,20 +111,20 @@ Entries marked **bold** are necessary to be performed.
 | ------ | ----------------------- | -------------- |
 | 1.     | Instrument Ground Power | ACTUATE        |
 | 2.     | Navigation Computer     | SET            |
-|        | a. NAV Comp Mode        | TGT 1 or TGT 2 |
+|        | **a. NAV Comp Mode**    | **STBY**       |
 |        | b. Wind Counters        | SET            |
 |        | c. Variation Counter    | SET            |
 |        | d. POS Update Switch    | NORM           |
 |        | e. Present POS Counter  | SET            |
 |        | f. Target Counters      | SET FOR TGT 2  |
 |        | g. NAV Comp Mode        | RESET          |
-|        | h. NAV Comp Mode        | TGT 1 or TGT 2 |
+|        | h. NAV Comp Mode        | STBY           |
 |        | i. Target Counters      | SET FOR TGT 1  |
 | **3.** | **INS Alignment**       | **AS DESIRED** |
 
 #### INS Full Gyrocompass Alignment (WSO)
 
-Takes roughly 8 minutes.
+Time depends on ambient temperature and BATH alignment accuracy.
 
 | Step | System         | Action   |
 | ---- | -------------- | -------- |
@@ -140,21 +140,22 @@ Takes roughly 8 minutes.
 
 #### INS Fast BATH Alignment (WSO)
 
-Takes roughly 3 minutes.
+Takes roughly 2 minutes 15 seconds.
 
 | Step | System         | Action |
 | ---- | -------------- | ------ |
 | 1.   | NAV Comp Mode  | STBY   |
-| 2.   | INS Power Knob | ALIGN  |
-| 3.   | Alignment      | WAIT   |
+| 3.   | INS Power Knob | STBY   |
+| 4.   | INS Power Knob | ALIGN  |
+| 5.   | Alignment      | WAIT   |
 |      | a. HEAT Light  | IGNORE |
 |      | b. ALIGN Light | STEADY |
-| 4.   | INS Power Knob | NAV    |
-| 5.   | INS Light      | OUT    |
+| 6.   | INS Power Knob | NAV    |
+| 7.   | INS Light      | OUT    |
 
 #### INS Stored Heading Alignment (WSO)
 
-Takes roughly 2 minutes.
+Takes roughly 2 minutes 15 seconds.
 
 | Step | System            | Action  |
 | ---- | ----------------- | ------- |
@@ -163,7 +164,7 @@ Takes roughly 2 minutes.
 | 3.   | INS Power Knob    | ALIGN   |
 | 4.   | Alignment         | WAIT    |
 |      | a. HEAT Light     | IGNORE  |
-|      | b. ALIGN Light    | STEADY  |
+|      | b. ALIGN Light    | FLASHING|
 | 5.   | INS Power Knob    | NAV     |
 | 6.   | INS Light         | OUT     |
 
@@ -181,7 +182,7 @@ Takes roughly 2 minutes.
 | **4.**  | **Altimeter**                         | **SET & CHECK**             |
 |         | **a. Barometric Scale**               | **SET QNH**                 |
 |         | **b. SPC**                            | **RESET CORR**              |
-|         | **c. BARO Altimeter**                 | **HOLD 3 SEC**              |
+|         | **c. BARO Altimeter**                 | **HOLD RESET 3 SEC**        |
 | 5.      | Speed Brakes                          | CHECK                       |
 | 6.      | Slats & Flaps                         | CHECK                       |
 | 7.      | Flight Controls                       | CHECK                       |
@@ -210,7 +211,7 @@ Takes roughly 2 minutes.
 | 4.     | Radar BIT Checks      | INITIATE              |
 | 5.     | WRCS BIT Checks       | INITIATE              |
 | 6.     | NAV Comp Mode         | AS DESIRED            |
-| 7.     | Altimeter             | SET & CHECK           |
+| **7.** | **Altimeter**         | **SET, RESET & CHECK**|
 
 ### Taxiing
 

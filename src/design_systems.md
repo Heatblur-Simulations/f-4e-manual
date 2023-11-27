@@ -1013,6 +1013,7 @@ note gross deviation from known location fixes.
 
 #### Best Available True Heading
 
+STBY position must be placed momentarity to avoid an INS no-go.
 Once set to ALIGN, the ALIGN lamp will illuminate steadily after 75 seconds
 indicating BATH Alignment is ready. Once in BATH, the INS is accurate to roughly
 5 and a half nautical miles per hour CEP, although higher inaccuracies can be
