@@ -1133,7 +1133,7 @@ augmentation on.
 #### AFCS Mode Switch
 
 Enables AFCS flight mode, which can maintain and hold maneuvers and attidues at
-up to +/- 70 degrees of pitch, 70 degrees of bank, and in all 360 degrees of
+up to ±70 degrees of pitch, 70 degrees of bank, and in all 360 degrees of
 azimuth. Deactivated by selecting the switch aft, or with a rapid control input.
 
 #### Altitude Hold Switch
@@ -1317,8 +1317,8 @@ engine feed tank (Cell 1), the positions being FEED TANK CHECK and NORM
 When FEED TANK CHECK is selected and held, the fuel quantity gauge will indicate
 solely the current fuel quantity in the engine feed tank on both the tape and
 counter. When the feed tank is full, the indicated value should read 1400 lbs,
-plus or minus 200 lbs on the counter, and the tape value should be 1400 lbs,
-plus or minus 150 lbs.
+±200 lbs on the counter, and the tape value should be 1400 lbs,
+±150 lbs.
 
 ### Arresting Hook Control Handle
 
