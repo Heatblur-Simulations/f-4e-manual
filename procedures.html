@@ -1,4872 +1,567 @@
-<!DOCTYPE html>
-<html class="writer-html5" lang="en" >
-<head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+<!DOCTYPE HTML>
+<html lang="en" class="navy" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Procedures - Heatblur F-4E Phantom II</title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Procedures &mdash; F-4 Manual 0.1 documentation</title>
-      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  <!--[if lt IE 9]>
-    <script src="_static/js/html5shiv.min.js"></script>
-  <![endif]-->
-  
-        <script src="_static/jquery.js?v=5d32c60e"></script>
-        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js?v=e031e9a9"></script>
-        <script src="_static/doctools.js?v=888ff710"></script>
-        <script src="_static/sphinx_highlight.js?v=4825356b"></script>
-    <script src="_static/js/theme.js"></script>
-    <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Weapons and Weapons Employment Overview" href="weapons.html" /> 
-</head>
 
-<body class="wy-body-for-nav"> 
-  <div class="wy-grid-for-nav">
-    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
-      <div class="wy-side-scroll">
-        <div class="wy-side-nav-search" >
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="Manual of the F-4E Phantom by Heatblur Simulations.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
 
-          
-          
-          <a href="index.html" class="icon icon-home">
-            F-4 Manual
-          </a>
-<div role="search">
-  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
-    <input type="hidden" name="check_keywords" value="yes" />
-    <input type="hidden" name="area" value="default" />
-  </form>
-</div>
-        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="cockpit.html">Cockpit Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="general.html">General Design and Systems Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="weapons.html">Weapons and Weapons Employment Overview</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Procedures</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#interior-inspection-and-pre-start">Interior Inspection and Pre-Start</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#wso">WSO</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#pilot">Pilot</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="#startup">Startup</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#before-starting-engines-both">Before starting engines (Both)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#starting-engines-pilot">Starting engines (Pilot)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#after-electrical-power-wso">After electrical power (WSO)</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#ins-full-gyrocompass-alignment-wso">INS Full Gyrocompass Alignment (WSO)</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#ins-fast-bath-alignment-wso">INS Fast BATH Alignment (WSO)</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#ins-stored-heading-alignment-wso">INS Stored Heading Alignment (WSO)</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="#taxi">Taxi</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#before-taxi">Before Taxi</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id2">Pilot</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#id3">WSO</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#taxiing">Taxiing</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="#takeoff">Takeoff</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#before-takeoff-pilot">Before Takeoff (Pilot)</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#after-runway-line-up">After Runway Line-Up</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="#after-takeoff">After Takeoff</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#climb">Climb</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#cruise">Cruise</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="#landing">Landing</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#before-landing">Before Landing</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#in-pattern-below-210-knots">In Pattern (below 210 knots)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#after-landing">After Landing</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="#shutdown">Shutdown</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id4">Pilot</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id5">WSO</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="#engine-startup-cartridge-start">Engine Startup - Cartridge Start</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#airstart">Airstart</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#compressor-stall">Compressor Stall</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#an-ale-40-countermeasure-dispenser">AN/ALE-40 Countermeasure Dispenser</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#aim-7-sparrow">AIM-7 Sparrow</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#aim-9-sidewinder">AIM-9 Sidewinder</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#m61a1-nose-gun">M61A1 Nose Gun</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#suu-16-a-23a-gun-pods-gpu-5a-gun-pod-on-centerline">SUU-16/A, -23A Gun Pods, GPU-5A Gun Pod on Centerline</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#agm-45-shrike">AGM-45 Shrike</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#agm-65-maverick">AGM-65 Maverick</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#direct-delivery-mode">Direct Delivery Mode</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#dive-toss-dive-laydown">Dive Toss/Dive Laydown</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#laydown">Laydown</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#offset-bomb-target-find">Offset Bomb/Target Find</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#labs-offset-bomb-target-find">LABS - Offset Bomb/Target Find</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#loft-bombing">Loft Bombing</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#timed-over-the-shoulder-bombing">Timed Over the Shoulder Bombing</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#instantaneous-over-the-shoulder-bombing">Instantaneous Over the Shoulder Bombing</a></li>
-</ul>
-</li>
-</ul>
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
 
-        </div>
-      </div>
-    </nav>
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
-          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">F-4 Manual</a>
-      </nav>
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
 
-      <div class="wy-nav-content">
-        <div class="rst-content">
-          <div role="navigation" aria-label="Page navigation">
-  <ul class="wy-breadcrumbs">
-      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Procedures</li>
-      <li class="wy-breadcrumbs-aside">
-            <a href="_sources/procedures.rst.txt" rel="nofollow"> View page source</a>
-      </li>
-  </ul><div class="rst-breadcrumbs-buttons" role="navigation" aria-label="Sequential page navigation">
-        <a href="weapons.html" class="btn btn-neutral float-left" title="Weapons and Weapons Employment Overview" accesskey="p"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-  </div>
-  <hr/>
-</div>
-          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
-           <div itemprop="articleBody">
-             
-  <section id="procedures">
-<span id="id1"></span><h1>Procedures<a class="headerlink" href="#procedures" title="Permalink to this heading"></a></h1>
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="theme/catppuccin.css">
+        <link rel="stylesheet" href="theme/catppuccin-admonish.css">
+
+        <!-- MathJax -->
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "navy";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('navy')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="f4e_manual.html">F-4E Manual</a></li><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="cockpit_overview.html"><strong aria-hidden="true">2.</strong> Cockpit Overview</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="pilot_cockpit.html"><strong aria-hidden="true">2.1.</strong> Pilot Cockpit</a></li><li class="chapter-item expanded "><a href="wso_cockpit.html"><strong aria-hidden="true">2.2.</strong> WSO Cockpit</a></li></ol></li><li class="chapter-item expanded "><a href="design_systems.html"><strong aria-hidden="true">3.</strong> General Design and Systems Overview</a></li><li class="chapter-item expanded "><a href="weapons.html"><strong aria-hidden="true">4.</strong> Weapons and Weapons Employment</a></li><li class="chapter-item expanded "><a href="procedures.html" class="active"><strong aria-hidden="true">5.</strong> Procedures</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="frappe">Frappé</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Heatblur F-4E Phantom II</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/Heatblur-Simulations/f-4e-manual" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/Heatblur-Simulations/f-4e-manual/edit/master/src/procedures.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="procedures"><a class="header" href="#procedures">Procedures</a></h1>
 <p>Entries marked <strong>bold</strong> are necessary to be performed.</p>
-<section id="interior-inspection-and-pre-start">
-<span id="intrp"></span><h2>Interior Inspection and Pre-Start<a class="headerlink" href="#interior-inspection-and-pre-start" title="Permalink to this heading"></a></h2>
-<section id="wso">
-<h3>WSO<a class="headerlink" href="#wso" title="Permalink to this heading"></a></h3>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><ol class="arabic simple">
-<li></li>
-</ol>
-</td>
-<td><p>AN/ALE-40 Chaff Dispenser</p></td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><ol class="loweralpha simple">
-<li><p>Chaff Mode Switch</p></li>
-</ol>
-</td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td><ol class="loweralpha simple" start="2">
-<li><p>Flare Mode Switch</p></li>
-</ol>
-</td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><ol class="loweralpha simple" start="3">
-<li><p>Ripple Switch</p></li>
-</ol>
-</td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="2">
-<li></li>
-</ol>
-</td>
-<td><p>Throttles</p></td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="3">
-<li></li>
-</ol>
-</td>
-<td><p>UHF Radio</p></td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="4">
-<li></li>
-</ol>
-</td>
-<td><p>AVTR</p></td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="5">
-<li></li>
-</ol>
-</td>
-<td><p>APX-80 Mode Switch</p></td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="6">
-<li></li>
-</ol>
-</td>
-<td><p>Radar Power</p></td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="7">
-<li></li>
-</ol>
-</td>
-<td><p>DSCG</p></td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="8">
-<li></li>
-</ol>
-</td>
-<td><p>ECM Equipment</p></td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="9">
-<li></li>
-</ol>
-</td>
-<td><p>NAV Function Selector Panel</p></td>
-<td><p>SET</p></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td><ol class="loweralpha simple">
-<li><p>Bearing Dist Selector Switch</p></li>
-</ol>
-</td>
-<td><p>AS DESIRED</p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><ol class="loweralpha simple" start="2">
-<li><p>Mode Selector Knob</p></li>
-</ol>
-</td>
-<td><p>AS DESIRED</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="10">
-<li></li>
-</ol>
-</td>
-<td><p>INS</p></td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="11">
-<li></li>
-</ol>
-</td>
-<td><p>Nuclear Store Consent Switch</p></td>
-<td><p>SAFE</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="12">
-<li></li>
-</ol>
-</td>
-<td><p>NAV Computer</p></td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="13">
-<li></li>
-</ol>
-</td>
-<td><p>Battery Bypass Switch</p></td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="14">
-<li></li>
-</ol>
-</td>
-<td><p>SST-181X Pulse Selector Switch</p></td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="15">
-<li></li>
-</ol>
-</td>
-<td><p>Circuit Breaker Panels</p></td>
-<td><p>CHECK</p></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="pilot">
-<h3>Pilot<a class="headerlink" href="#pilot" title="Permalink to this heading"></a></h3>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><ol class="arabic simple">
-<li></li>
-</ol>
-</td>
-<td><p>Auxiliary Control Panel</p></td>
-<td><p>SET</p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><ol class="loweralpha simple">
-<li><p>Gyro Switch</p></li>
-</ol>
-</td>
-<td><p>NORM</p></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td><ol class="loweralpha simple" start="2">
-<li><p>Aural Tone Control Knob</p></li>
-</ol>
-</td>
-<td><p>LOW</p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><ol class="loweralpha simple" start="3">
-<li><p>Boarding Steps Indicator</p></li>
-</ol>
-</td>
-<td><p>PROTRUDING</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="2">
-<li></li>
-</ol>
-</td>
-<td><p>External Power</p></td>
-<td><p>ON</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="3">
-<li></li>
-</ol>
-</td>
-<td><p>Slats Override Switch</p></td>
-<td><p>NORM</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="4">
-<li></li>
-</ol>
-</td>
-<td><p>Intercom Control Panel</p></td>
-<td><p>SET</p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><ol class="loweralpha simple">
-<li><p>Volume Control</p></li>
-</ol>
-</td>
-<td><p>AS DESIRED</p></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td><ol class="loweralpha simple" start="2">
-<li><p>Amplifier Selector Knob</p></li>
-</ol>
-</td>
-<td><p>NORM</p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><ol class="loweralpha simple" start="3">
-<li><p>Function Selector Switch</p></li>
-</ol>
-</td>
-<td><p>HOT MIC</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="5">
-<li></li>
-</ol>
-</td>
-<td><p>ALE-40 Flares/Normal Switch</p></td>
-<td><p>NORM</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="6">
-<li></li>
-</ol>
-</td>
-<td><p>Fuel Control Panel</p></td>
-<td><p>SET</p></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td><ol class="loweralpha simple">
-<li><p>Internal Wing Transfer</p></li>
-</ol>
-</td>
-<td><p>NORM</p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><ol class="loweralpha simple" start="2">
-<li><p>Internal Wing Dump</p></li>
-</ol>
-</td>
-<td><p>NORM</p></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td><ol class="loweralpha simple" start="3">
-<li><p>Refuel Selection Switch</p></li>
-</ol>
-</td>
-<td><p>ALL TANKS</p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><ol class="loweralpha simple" start="4">
-<li><p>External Transfer Switch</p></li>
-</ol>
-</td>
-<td><p>AS REQUIRED</p></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td><ol class="loweralpha simple" start="5">
-<li><p>Air Refuel Switch</p></li>
-</ol>
-</td>
-<td><p>RETRACT</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="7">
-<li></li>
-</ol>
-</td>
-<td><p>STAB AUG Switches</p></td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="8">
-<li></li>
-</ol>
-</td>
-<td><p>Boost pumps</p></td>
-<td><p>CHECK</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="9">
-<li></li>
-</ol>
-</td>
-<td><p>Reference Select Switch</p></td>
-<td><p>STBY</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="10">
-<li></li>
-</ol>
-</td>
-<td><p>VOR/ILS Control Panel</p></td>
-<td><p>SET</p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><ol class="loweralpha simple">
-<li><p>Volume Control Knob</p></li>
-</ol>
-</td>
-<td><p>AS DESIRED</p></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td><ol class="loweralpha simple" start="2">
-<li><p>Marker Beacon Volume Knob</p></li>
-</ol>
-</td>
-<td><p>AS DESIRED</p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><ol class="loweralpha simple" start="3">
-<li><p>Frequency</p></li>
-</ol>
-</td>
-<td><p>AS DESIRED</p></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td><ol class="loweralpha simple" start="4">
-<li><p>VOR/MKR Test Switch</p></li>
-</ol>
-</td>
-<td><p>TEST</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="11">
-<li></li>
-</ol>
-</td>
-<td><p>Slats/Flaps Switch</p></td>
-<td><p>AS REQUIRED</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="12">
-<li></li>
-</ol>
-</td>
-<td><p>Emergency Slats/Flaps Handle</p></td>
-<td><p>FORWARD</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="13">
-<li></li>
-</ol>
-</td>
-<td><p>Drag Chute Control Handle</p></td>
-<td><p>DOWN AND SECURE</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="14">
-<li></li>
-</ol>
-</td>
-<td><p>Speed Brake Switch</p></td>
-<td><p>IN</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="15">
-<li></li>
-</ol>
-</td>
-<td><p>COMM Antenna Select Switch</p></td>
-<td><p>UPR</p></td>
-</tr>
-</tbody>
-</table>
-</section>
-</section>
-<section id="startup">
-<h2>Startup<a class="headerlink" href="#startup" title="Permalink to this heading"></a></h2>
-<section id="before-starting-engines-both">
-<h3>Before starting engines (Both)<a class="headerlink" href="#before-starting-engines-both" title="Permalink to this heading"></a></h3>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><ol class="arabic simple">
-<li></li>
-</ol>
-</td>
-<td><p>Seat pins</p></td>
-<td><p>CHECK REMOVED AND STOWED</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="2">
-<li></li>
-</ol>
-</td>
-<td><p>Fore and Aft Area</p></td>
-<td><p>CLEAR</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="3">
-<li></li>
-</ol>
-</td>
-<td><p>Fire Guard</p></td>
-<td><p>POSTED</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="4">
-<li></li>
-</ol>
-</td>
-<td><p>Throttles</p></td>
-<td><p>OFF</p></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="starting-engines-pilot">
-<h3>Starting engines (Pilot)<a class="headerlink" href="#starting-engines-pilot" title="Permalink to this heading"></a></h3>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><p><strong>1.</strong></p></td>
-<td><p><strong>External Air source</strong></p></td>
-<td><p><strong>CONNECT RIGHT</strong></p></td>
-</tr>
-<tr class="row-even"><td><p><strong>2.</strong></p></td>
-<td><p><strong>Engine Master Switches</strong></p></td>
-<td><p><strong>ON</strong></p></td>
-</tr>
-<tr class="row-odd"><td><p><strong>3.</strong></p></td>
-<td><p><strong>External airflow</strong></p></td>
-<td><p><strong>ON</strong></p></td>
-</tr>
-<tr class="row-even"><td><p><strong>4.</strong></p></td>
-<td><p><strong>At 10% RPM</strong></p></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td><p><strong>a. Right Ignition Button</strong></p></td>
-<td><p><strong>PRESS AND HOLD</strong></p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><p><strong>b. Right Throttle</strong></p></td>
-<td><p><strong>HALF THEN IDLE</strong></p></td>
-</tr>
-<tr class="row-odd"><td><p><strong>5.</strong></p></td>
-<td><p><strong>At Lightoff (EGT INCR)</strong></p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><p><strong>a. Right Ignition Button</strong></p></td>
-<td><p><strong>RELEASE</strong></p></td>
-</tr>
-<tr class="row-odd"><td><p><strong>6.</strong></p></td>
-<td><p><strong>At 45% RPM</strong></p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><p><strong>a. External airflow</strong></p></td>
-<td><p><strong>STOP</strong></p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="7">
-<li></li>
-</ol>
-</td>
-<td><p>Check Parameters</p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><ol class="loweralpha simple">
-<li><p>Exhaust Gas Temperature</p></li>
-</ol>
-</td>
-<td><p>220 - 420 degrees</p></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td><ol class="loweralpha simple" start="2">
-<li><p>Fuel Flow Indicator</p></li>
-</ol>
-</td>
-<td><p>800 - 1400 pph</p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><ol class="loweralpha simple" start="3">
-<li><p>Idle RPM</p></li>
-</ol>
-</td>
-<td><p>65 plus minus 1%</p></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td><ol class="loweralpha simple" start="4">
-<li><p>Right Boost Pump</p></li>
-</ol>
-</td>
-<td><p>30 plus minus 5 PSI</p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><ol class="loweralpha simple" start="5">
-<li><p>Oil Pressure</p></li>
-</ol>
-</td>
-<td><p>12 - 50 PSI</p></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td><ol class="loweralpha simple" start="6">
-<li><p>Hydraulic Pressure</p></li>
-</ol>
-</td>
-<td><p>WITHIN LIMITS</p></td>
-</tr>
-<tr class="row-even"><td><p><strong>8.</strong></p></td>
-<td><p><strong>Right Generator</strong></p></td>
-<td><p><strong>ON</strong></p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="9">
-<li></li>
-</ol>
-</td>
-<td><p>Spoiler Actuator</p></td>
-<td><p>CHECK (LEFT)</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="10">
-<li></li>
-</ol>
-</td>
-<td><p>Air Refueling door</p></td>
-<td><p>CHECK</p></td>
-</tr>
-<tr class="row-odd"><td><p><strong>11.</strong></p></td>
-<td><p><strong>Start Left Engine</strong></p></td>
-<td><p><strong>PER STEPS 1 - 9</strong></p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="12">
-<li></li>
-</ol>
-</td>
-<td><p>Right Generator</p></td>
-<td><p>CYCLE ON/OFF/ON</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="13">
-<li></li>
-</ol>
-</td>
-<td><p>Bus Tie Open Light</p></td>
-<td><p>OUT</p></td>
-</tr>
-<tr class="row-even"><td><p><strong>14.</strong></p></td>
-<td><p><strong>External Air</strong></p></td>
-<td><p><strong>DISCONNECT</strong></p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="15">
-<li></li>
-</ol>
-</td>
-<td><p>Interior Check</p></td>
-<td><p>COMPLETE</p></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="after-electrical-power-wso">
-<h3>After electrical power (WSO)<a class="headerlink" href="#after-electrical-power-wso" title="Permalink to this heading"></a></h3>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><ol class="arabic simple">
-<li></li>
-</ol>
-</td>
-<td><p>Instrument Ground Power</p></td>
-<td><p>ACTUATE</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="2">
-<li></li>
-</ol>
-</td>
-<td><p>Navigation Computer</p></td>
-<td><p>SET</p></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td><ol class="loweralpha simple">
-<li><p>NAV Comp Mode</p></li>
-</ol>
-</td>
-<td><p>TGT 1 or TGT 2</p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><ol class="loweralpha simple" start="2">
-<li><p>Wind Counters</p></li>
-</ol>
-</td>
-<td><p>SET</p></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td><ol class="loweralpha simple" start="3">
-<li><p>Variation Counter</p></li>
-</ol>
-</td>
-<td><p>SET</p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><ol class="loweralpha simple" start="4">
-<li><p>POS Update Switch</p></li>
-</ol>
-</td>
-<td><p>NORM</p></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td><ol class="loweralpha simple" start="5">
-<li><p>Present POS Counter</p></li>
-</ol>
-</td>
-<td><p>SET</p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><ol class="loweralpha simple" start="6">
-<li><p>Target Counters</p></li>
-</ol>
-</td>
-<td><p>SET FOR TGT 2</p></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td><ol class="loweralpha simple" start="7">
-<li><p>NAV Comp Mode</p></li>
-</ol>
-</td>
-<td><p>RESET</p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><ol class="loweralpha simple" start="8">
-<li><p>NAV Comp Mode</p></li>
-</ol>
-</td>
-<td><p>TGT 1 or TGT 2</p></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td><ol class="lowerroman simple">
-<li><p>Target Counters</p></li>
-</ol>
-</td>
-<td><p>SET FOR TGT 1</p></td>
-</tr>
-<tr class="row-even"><td><p><strong>3.</strong></p></td>
-<td><p><strong>INS Alignment</strong></p></td>
-<td><p><strong>AS DESIRED</strong></p></td>
-</tr>
-</tbody>
-</table>
-<section id="ins-full-gyrocompass-alignment-wso">
-<h4>INS Full Gyrocompass Alignment (WSO)<a class="headerlink" href="#ins-full-gyrocompass-alignment-wso" title="Permalink to this heading"></a></h4>
+<h2 id="interior-inspection-and-pre-start"><a class="header" href="#interior-inspection-and-pre-start">Interior Inspection and Pre-Start</a></h2>
+<h3 id="wso"><a class="header" href="#wso">WSO</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
+<tr><td>1.</td><td>AN/ALE-40 Chaff Dispenser</td><td>OFF</td></tr>
+<tr><td></td><td>a. Chaff Mode Switch</td><td>OFF</td></tr>
+<tr><td></td><td>b. Flare Mode Switch</td><td>OFF</td></tr>
+<tr><td></td><td>c. Ripple Switch</td><td>OFF</td></tr>
+<tr><td>2.</td><td>Throttles</td><td>OFF</td></tr>
+<tr><td>3.</td><td>UHF Radio</td><td>OFF</td></tr>
+<tr><td>4.</td><td>AVTR</td><td>OFF</td></tr>
+<tr><td>5.</td><td>APX-80 Mode Switch</td><td>OFF</td></tr>
+<tr><td>6.</td><td>Radar Power</td><td>OFF</td></tr>
+<tr><td>7.</td><td>DSCG</td><td>OFF</td></tr>
+<tr><td>8.</td><td>ECM Equipment</td><td>OFF</td></tr>
+<tr><td>9.</td><td>NAV Function Selector Panel</td><td>SET</td></tr>
+<tr><td></td><td>a. Bearing Dist Selector Switch</td><td>AS DESIRED</td></tr>
+<tr><td></td><td>b. Mode Selector Knob</td><td>AS DESIRED</td></tr>
+<tr><td>10.</td><td>INS</td><td>OFF</td></tr>
+<tr><td>11.</td><td>Nuclear Store Consent Switch</td><td>SAFE</td></tr>
+<tr><td>12.</td><td>NAV Computer</td><td>OFF</td></tr>
+<tr><td>13.</td><td>Battery Bypass Switch</td><td>OFF</td></tr>
+<tr><td>14.</td><td>SST-181X Pulse Selector Switch</td><td>OFF</td></tr>
+<tr><td>15.</td><td>Circuit Breaker Panels</td><td>CHECK</td></tr>
+</tbody></table>
+</div>
+<h3 id="pilot"><a class="header" href="#pilot">Pilot</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
+<tr><td>1.</td><td>Auxiliary Control Panel</td><td>SET</td></tr>
+<tr><td></td><td>a. Gyro Switch</td><td>NORM</td></tr>
+<tr><td></td><td>b. Aural Tone Control Knob</td><td>LOW</td></tr>
+<tr><td></td><td>c. Boarding Steps Indicator</td><td>PROTRUDING</td></tr>
+<tr><td>2.</td><td>External Power</td><td>ON</td></tr>
+<tr><td>3.</td><td>Slats Override Switch</td><td>NORM</td></tr>
+<tr><td>4.</td><td>Intercom Control Panel</td><td>SET</td></tr>
+<tr><td></td><td>a. Volume Control</td><td>AS DESIRED</td></tr>
+<tr><td></td><td>b. Amplifier Selector Knob</td><td>NORM</td></tr>
+<tr><td></td><td>c. Function Selector Switch</td><td>HOT MIC</td></tr>
+<tr><td>5.</td><td>ALE-40 Flares/Normal Switch</td><td>NORM</td></tr>
+<tr><td>6.</td><td>Fuel Control Panel</td><td>SET</td></tr>
+<tr><td></td><td>a. Internal Wing Transfer</td><td>NORM</td></tr>
+<tr><td></td><td>b. Internal Wing Dump</td><td>NORM</td></tr>
+<tr><td></td><td>c. Refuel Selection Switch</td><td>ALL TANKS</td></tr>
+<tr><td></td><td>d. External Transfer Switch</td><td>AS REQUIRED</td></tr>
+<tr><td></td><td>e. Air Refuel Switch</td><td>RETRACT</td></tr>
+<tr><td>7.</td><td>STAB AUG Switches</td><td>OFF</td></tr>
+<tr><td>8.</td><td>Boost pumps</td><td>CHECK</td></tr>
+<tr><td>9.</td><td>Reference Select Switch</td><td>STBY</td></tr>
+<tr><td>10.</td><td>VOR/ILS Control Panel</td><td>SET</td></tr>
+<tr><td></td><td>a. Volume Control Knob</td><td>AS DESIRED</td></tr>
+<tr><td></td><td>b. Marker Beacon Volume Knob</td><td>AS DESIRED</td></tr>
+<tr><td></td><td>c. Frequency</td><td>AS DESIRED</td></tr>
+<tr><td></td><td>d. VOR/MKR Test Switch</td><td>TEST</td></tr>
+<tr><td>11.</td><td>Slats/Flaps Switch</td><td>AS REQUIRED</td></tr>
+<tr><td>12.</td><td>Emergency Slats/Flaps Handle</td><td>FORWARD</td></tr>
+<tr><td>13.</td><td>Drag Chute Control Handle</td><td>DOWN AND SECURE</td></tr>
+<tr><td>14.</td><td>Speed Brake Switch</td><td>IN</td></tr>
+<tr><td>15.</td><td>COMM Antenna Select Switch</td><td>UPR</td></tr>
+</tbody></table>
+</div>
+<h2 id="startup"><a class="header" href="#startup">Startup</a></h2>
+<h3 id="before-starting-engines-both"><a class="header" href="#before-starting-engines-both">Before starting engines (Both)</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
+<tr><td>1.</td><td>Seat pins</td><td>CHECK REMOVED AND STOWED</td></tr>
+<tr><td>2.</td><td>Fore and Aft Area</td><td>CLEAR</td></tr>
+<tr><td>3.</td><td>Fire Guard</td><td>POSTED</td></tr>
+<tr><td>4.</td><td>Throttles</td><td>OFF</td></tr>
+</tbody></table>
+</div>
+<h3 id="starting-engines-pilot"><a class="header" href="#starting-engines-pilot">Starting engines (Pilot)</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
+<tr><td><strong>1.</strong></td><td><strong>External Air source</strong></td><td><strong>CONNECT RIGHT</strong></td></tr>
+<tr><td><strong>2.</strong></td><td><strong>Engine Master Switches</strong></td><td><strong>ON</strong></td></tr>
+<tr><td><strong>3.</strong></td><td><strong>External airflow</strong></td><td><strong>ON</strong></td></tr>
+<tr><td><strong>4.</strong></td><td><strong>At 10% RPM</strong></td><td></td></tr>
+<tr><td></td><td><strong>a. Right Ignition Button</strong></td><td><strong>PRESS AND HOLD</strong></td></tr>
+<tr><td></td><td><strong>b. Right Throttle</strong></td><td><strong>HALF THEN IDLE</strong></td></tr>
+<tr><td><strong>5.</strong></td><td><strong>At Lightoff (EGT INCR)</strong></td><td></td></tr>
+<tr><td></td><td><strong>a. Right Ignition Button</strong></td><td><strong>RELEASE</strong></td></tr>
+<tr><td><strong>6.</strong></td><td><strong>At 45% RPM</strong></td><td></td></tr>
+<tr><td></td><td><strong>a. External airflow</strong></td><td><strong>STOP</strong></td></tr>
+<tr><td>7.</td><td>Check Parameters</td><td></td></tr>
+<tr><td></td><td>a. Exhaust Gas Temperature</td><td>220 - 420 degrees</td></tr>
+<tr><td></td><td>b. Fuel Flow Indicator</td><td>800 - 1400 pph</td></tr>
+<tr><td></td><td>c. Idle RPM</td><td>65 plus minus 1%</td></tr>
+<tr><td></td><td>d. Right Boost Pump</td><td>30 plus minus 5 PSI</td></tr>
+<tr><td></td><td>e. Oil Pressure</td><td>12 - 50 PSI</td></tr>
+<tr><td></td><td>f. Hydraulic Pressure</td><td>WITHIN LIMITS</td></tr>
+<tr><td><strong>8.</strong></td><td><strong>Right Generator</strong></td><td><strong>ON</strong></td></tr>
+<tr><td>9.</td><td>Spoiler Actuator</td><td>CHECK (LEFT)</td></tr>
+<tr><td>10.</td><td>Air Refueling door</td><td>CHECK</td></tr>
+<tr><td><strong>11.</strong></td><td><strong>Start Left Engine</strong></td><td><strong>PER STEPS 1 - 9</strong></td></tr>
+<tr><td>12.</td><td>Right Generator</td><td>CYCLE ON/OFF/ON</td></tr>
+<tr><td>13.</td><td>Bus Tie Open Light</td><td>OUT</td></tr>
+<tr><td><strong>14.</strong></td><td><strong>External Air</strong></td><td><strong>DISCONNECT</strong></td></tr>
+<tr><td>15.</td><td>Interior Check</td><td>COMPLETE</td></tr>
+</tbody></table>
+</div>
+<h3 id="after-electrical-power-wso"><a class="header" href="#after-electrical-power-wso">After electrical power (WSO)</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
+<tr><td>1.</td><td>Instrument Ground Power</td><td>ACTUATE</td></tr>
+<tr><td>2.</td><td>Navigation Computer</td><td>SET</td></tr>
+<tr><td></td><td>a. NAV Comp Mode</td><td>TGT 1 or TGT 2</td></tr>
+<tr><td></td><td>b. Wind Counters</td><td>SET</td></tr>
+<tr><td></td><td>c. Variation Counter</td><td>SET</td></tr>
+<tr><td></td><td>d. POS Update Switch</td><td>NORM</td></tr>
+<tr><td></td><td>e. Present POS Counter</td><td>SET</td></tr>
+<tr><td></td><td>f. Target Counters</td><td>SET FOR TGT 2</td></tr>
+<tr><td></td><td>g. NAV Comp Mode</td><td>RESET</td></tr>
+<tr><td></td><td>h. NAV Comp Mode</td><td>TGT 1 or TGT 2</td></tr>
+<tr><td></td><td>i. Target Counters</td><td>SET FOR TGT 1</td></tr>
+<tr><td><strong>3.</strong></td><td><strong>INS Alignment</strong></td><td><strong>AS DESIRED</strong></td></tr>
+</tbody></table>
+</div>
+<h4 id="ins-full-gyrocompass-alignment-wso"><a class="header" href="#ins-full-gyrocompass-alignment-wso">INS Full Gyrocompass Alignment (WSO)</a></h4>
 <p>Takes roughly 8 minutes.</p>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><ol class="arabic simple">
-<li></li>
-</ol>
-</td>
-<td><p>NAV Comp Mode</p></td>
-<td><p>STBY</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="2">
-<li></li>
-</ol>
-</td>
-<td><p>INS Power Knob</p></td>
-<td><p>STBY</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="3">
-<li></li>
-</ol>
-</td>
-<td><p>Gyro Heat Up</p></td>
-<td><p>WAIT</p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><ol class="loweralpha simple">
-<li><p>HEAT Light</p></li>
-</ol>
-</td>
-<td><p>OUT</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="4">
-<li></li>
-</ol>
-</td>
-<td><p>INS Power Knob</p></td>
-<td><p>ALIGN</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="5">
-<li></li>
-</ol>
-</td>
-<td><p>Alignment</p></td>
-<td><p>WAIT</p></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td><ol class="loweralpha simple">
-<li><p>ALIGN Light</p></li>
-</ol>
-</td>
-<td><p>FLASHING</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="6">
-<li></li>
-</ol>
-</td>
-<td><p>INS Power Knob</p></td>
-<td><p>NAV</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="7">
-<li></li>
-</ol>
-</td>
-<td><p>INS Light</p></td>
-<td><p>OUT</p></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="ins-fast-bath-alignment-wso">
-<h4>INS Fast BATH Alignment (WSO)<a class="headerlink" href="#ins-fast-bath-alignment-wso" title="Permalink to this heading"></a></h4>
+<div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
+<tr><td>1.</td><td>NAV Comp Mode</td><td>STBY</td></tr>
+<tr><td>2.</td><td>INS Power Knob</td><td>STBY</td></tr>
+<tr><td>3.</td><td>Gyro Heat Up</td><td>WAIT</td></tr>
+<tr><td></td><td>a. HEAT Light</td><td>OUT</td></tr>
+<tr><td>4.</td><td>INS Power Knob</td><td>ALIGN</td></tr>
+<tr><td>5.</td><td>Alignment</td><td>WAIT</td></tr>
+<tr><td></td><td>a. ALIGN Light</td><td>FLASHING</td></tr>
+<tr><td>6.</td><td>INS Power Knob</td><td>NAV</td></tr>
+<tr><td>7.</td><td>INS Light</td><td>OUT</td></tr>
+</tbody></table>
+</div>
+<h4 id="ins-fast-bath-alignment-wso"><a class="header" href="#ins-fast-bath-alignment-wso">INS Fast BATH Alignment (WSO)</a></h4>
 <p>Takes roughly 3 minutes.</p>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><ol class="arabic simple">
-<li></li>
-</ol>
-</td>
-<td><p>NAV Comp Mode</p></td>
-<td><p>STBY</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="2">
-<li></li>
-</ol>
-</td>
-<td><p>INS Power Knob</p></td>
-<td><p>ALIGN</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="3">
-<li></li>
-</ol>
-</td>
-<td><p>Alignment</p></td>
-<td><p>WAIT</p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><ol class="loweralpha simple">
-<li><p>HEAT Light</p></li>
-</ol>
-</td>
-<td><p>IGNORE</p></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td><ol class="loweralpha simple" start="2">
-<li><p>ALIGN Light</p></li>
-</ol>
-</td>
-<td><p>STEADY</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="4">
-<li></li>
-</ol>
-</td>
-<td><p>INS Power Knob</p></td>
-<td><p>NAV</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="5">
-<li></li>
-</ol>
-</td>
-<td><p>INS Light</p></td>
-<td><p>OUT</p></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="ins-stored-heading-alignment-wso">
-<h4>INS Stored Heading Alignment (WSO)<a class="headerlink" href="#ins-stored-heading-alignment-wso" title="Permalink to this heading"></a></h4>
+<div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
+<tr><td>1.</td><td>NAV Comp Mode</td><td>STBY</td></tr>
+<tr><td>2.</td><td>INS Power Knob</td><td>ALIGN</td></tr>
+<tr><td>3.</td><td>Alignment</td><td>WAIT</td></tr>
+<tr><td></td><td>a. HEAT Light</td><td>IGNORE</td></tr>
+<tr><td></td><td>b. ALIGN Light</td><td>STEADY</td></tr>
+<tr><td>4.</td><td>INS Power Knob</td><td>NAV</td></tr>
+<tr><td>5.</td><td>INS Light</td><td>OUT</td></tr>
+</tbody></table>
+</div>
+<h4 id="ins-stored-heading-alignment-wso"><a class="header" href="#ins-stored-heading-alignment-wso">INS Stored Heading Alignment (WSO)</a></h4>
 <p>Takes roughly 2 minutes.</p>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><ol class="arabic simple">
-<li></li>
-</ol>
-</td>
-<td><p>NAV Comp Mode</p></td>
-<td><p>STBY</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="2">
-<li></li>
-</ol>
-</td>
-<td><p>Align Mode Switch</p></td>
-<td><p>HDG MEM</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="3">
-<li></li>
-</ol>
-</td>
-<td><p>INS Power Knob</p></td>
-<td><p>ALIGN</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="4">
-<li></li>
-</ol>
-</td>
-<td><p>Alignment</p></td>
-<td><p>WAIT</p></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td><ol class="loweralpha simple">
-<li><p>HEAT Light</p></li>
-</ol>
-</td>
-<td><p>IGNORE</p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><ol class="loweralpha simple" start="2">
-<li><p>ALIGN Light</p></li>
-</ol>
-</td>
-<td><p>STEADY</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="5">
-<li></li>
-</ol>
-</td>
-<td><p>INS Power Knob</p></td>
-<td><p>NAV</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="6">
-<li></li>
-</ol>
-</td>
-<td><p>INS Light</p></td>
-<td><p>OUT</p></td>
-</tr>
-</tbody>
-</table>
-</section>
-</section>
-</section>
-<section id="taxi">
-<h2>Taxi<a class="headerlink" href="#taxi" title="Permalink to this heading"></a></h2>
-<section id="before-taxi">
-<h3>Before Taxi<a class="headerlink" href="#before-taxi" title="Permalink to this heading"></a></h3>
-<section id="id2">
-<h4>Pilot<a class="headerlink" href="#id2" title="Permalink to this heading"></a></h4>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><ol class="arabic simple">
-<li></li>
-</ol>
-</td>
-<td><p>COMM &amp; NAV Equipment</p></td>
-<td><p>ON &amp; CHECK</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="2">
-<li></li>
-</ol>
-</td>
-<td><p>IFF</p></td>
-<td><p>STANDBY</p></td>
-</tr>
-<tr class="row-odd"><td><p><strong>3.</strong></p></td>
-<td><p><strong>Radar Altimeter</strong></p></td>
-<td><p><strong>ON</strong></p></td>
-</tr>
-<tr class="row-even"><td><p><strong>4.</strong></p></td>
-<td><p><strong>Altimeter</strong></p></td>
-<td><p><strong>SET &amp; CHECK</strong></p></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td><p><strong>a. Barometric Scale</strong></p></td>
-<td><p><strong>SET QNH</strong></p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><p><strong>b. SPC</strong></p></td>
-<td><p><strong>RESET CORR</strong></p></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td><p><strong>c. BARO Altimeter</strong></p></td>
-<td><p><strong>HOLD 3 SEC</strong></p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="5">
-<li></li>
-</ol>
-</td>
-<td><p>Speed Brakes</p></td>
-<td><p>CHECK</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="6">
-<li></li>
-</ol>
-</td>
-<td><p>Slats &amp; Flaps</p></td>
-<td><p>CHECK</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="7">
-<li></li>
-</ol>
-</td>
-<td><p>Flight Controls</p></td>
-<td><p>CHECK</p></td>
-</tr>
-<tr class="row-odd"><td><p><strong>8.</strong></p></td>
-<td><p><strong>Slats &amp; Flaps</strong></p></td>
-<td><p><strong>NORM</strong></p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="9">
-<li></li>
-</ol>
-</td>
-<td><p>ARI Disengage</p></td>
-<td><p>CHECK</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="10">
-<li></li>
-</ol>
-</td>
-<td><p>STAB AUG Switches</p></td>
-<td><p>ENGAGE AND CHECK</p></td>
-</tr>
-<tr class="row-even"><td><p><strong>11.</strong></p></td>
-<td><p><strong>Reference Sel Switch (if INS NAV)</strong></p></td>
-<td><p><strong>PRIM</strong></p></td>
-</tr>
-<tr class="row-odd"><td><p><strong>12.</strong></p></td>
-<td><p><strong>Compass Mode Control Knob</strong></p></td>
-<td><p><strong>SYNC</strong></p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="13">
-<li></li>
-</ol>
-</td>
-<td><p>AFCS</p></td>
-<td><p>CHECK</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="14">
-<li></li>
-</ol>
-</td>
-<td><p>STAB AUG Switches</p></td>
-<td><p>DISENGAGE</p></td>
-</tr>
-<tr class="row-even"><td><p><strong>15.</strong></p></td>
-<td><p><strong>Trim</strong></p></td>
-<td><p><strong>SET 1-3 units NOSE DOWN</strong></p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="16">
-<li></li>
-</ol>
-</td>
-<td><p>Slats &amp; flaps</p></td>
-<td><p>OUT &amp; DOWN</p></td>
-</tr>
-<tr class="row-even"><td><p><strong>17.</strong></p></td>
-<td><p><strong>Optical Sight</strong></p></td>
-<td><p><strong>STBY/CAGE</strong></p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="18">
-<li></li>
-</ol>
-</td>
-<td><p>Pneumatic Pressure</p></td>
-<td><p>CHECK</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="19">
-<li></li>
-</ol>
-</td>
-<td><p>IFF</p></td>
-<td><p>CHECK</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="20">
-<li></li>
-</ol>
-</td>
-<td><p>Radar Altimeter</p></td>
-<td><p>CHECK &amp; SET</p></td>
-</tr>
-<tr class="row-even"><td><p><strong>21.</strong></p></td>
-<td><p><strong>Wheel chocks</strong></p></td>
-<td><p><strong>REMOVED</strong></p></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="id3">
-<h4>WSO<a class="headerlink" href="#id3" title="Permalink to this heading"></a></h4>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><ol class="arabic simple">
-<li></li>
-</ol>
-</td>
-<td><p>Interior Check</p></td>
-<td><p>COMPLETE</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="2">
-<li></li>
-</ol>
-</td>
-<td><p>COMM &amp; NAV Equipment</p></td>
-<td><p>ON &amp; CHECK</p></td>
-</tr>
-<tr class="row-odd"><td><p><strong>3.</strong></p></td>
-<td><p><strong>Target Designator</strong></p></td>
-<td><p><strong>POWER ON &amp; STOWED</strong></p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="4">
-<li></li>
-</ol>
-</td>
-<td><p>Radar BIT Checks</p></td>
-<td><p>INITIATE</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="5">
-<li></li>
-</ol>
-</td>
-<td><p>WRCS BIT Checks</p></td>
-<td><p>INITIATE</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="6">
-<li></li>
-</ol>
-</td>
-<td><p>NAV Comp Mode</p></td>
-<td><p>AS DESIRED</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="7">
-<li></li>
-</ol>
-</td>
-<td><p>Altimeter</p></td>
-<td><p>SET &amp; CHECK</p></td>
-</tr>
-</tbody>
-</table>
-</section>
-</section>
-<section id="taxiing">
-<h3>Taxiing<a class="headerlink" href="#taxiing" title="Permalink to this heading"></a></h3>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><ol class="arabic simple">
-<li></li>
-</ol>
-</td>
-<td><p>Wheel Brakes</p></td>
-<td><p>TEST</p></td>
-</tr>
-<tr class="row-even"><td><p><strong>2.</strong></p></td>
-<td><p><strong>Nose Gear Steering</strong></p></td>
-<td><p><strong>ENGAGE &amp; CHECK</strong></p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="3">
-<li></li>
-</ol>
-</td>
-<td><p>Flight Instruments</p></td>
-<td><p>CHECK</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="4">
-<li></li>
-</ol>
-</td>
-<td><p>Oxygen Diluter</p></td>
-<td><p>AS REQUIRED</p></td>
-</tr>
-</tbody>
-</table>
-</section>
-</section>
-<section id="takeoff">
-<h2>Takeoff<a class="headerlink" href="#takeoff" title="Permalink to this heading"></a></h2>
-<section id="before-takeoff-pilot">
-<h3>Before Takeoff (Pilot)<a class="headerlink" href="#before-takeoff-pilot" title="Permalink to this heading"></a></h3>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><ol class="arabic simple">
-<li></li>
-</ol>
-</td>
-<td><p>Internal Wing Transfer</p></td>
-<td><p>NORMAL</p></td>
-</tr>
-<tr class="row-even"><td><p><strong>2.</strong></p></td>
-<td><p><strong>STAB AUG Switches</strong></p></td>
-<td><p><strong>ENGAGE</strong></p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="3">
-<li></li>
-</ol>
-</td>
-<td><p>Flight Controls</p></td>
-<td><p>UNRESTRICTED</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="4">
-<li></li>
-</ol>
-</td>
-<td><p>Slats &amp; Flaps</p></td>
-<td><p>CHECK OUT &amp; DOWN</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="5">
-<li></li>
-</ol>
-</td>
-<td><p>Anti-Ice</p></td>
-<td><p>AS REQUIRED</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="6">
-<li></li>
-</ol>
-</td>
-<td><p>STAB Trim</p></td>
-<td><p>CHECK 1-3 units NOSE DOWN</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="7">
-<li></li>
-</ol>
-</td>
-<td><p>Fuel Quantity</p></td>
-<td><p>CHECK</p></td>
-</tr>
-<tr class="row-even"><td><p><strong>8.</strong></p></td>
-<td><p><strong>Canopy</strong></p></td>
-<td><p><strong>CLOSE &amp; CHECK</strong></p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="9">
-<li></li>
-</ol>
-</td>
-<td><p>Defog &amp; Temperature</p></td>
-<td><p>AS REQUIRED</p></td>
-</tr>
-<tr class="row-even"><td><p><strong>10.</strong></p></td>
-<td><p><strong>Ejection Handle</strong></p></td>
-<td><p><strong>ARM</strong></p></td>
-</tr>
-</tbody>
-</table>
-<section id="after-runway-line-up">
-<h4>After Runway Line-Up<a class="headerlink" href="#after-runway-line-up" title="Permalink to this heading"></a></h4>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><ol class="arabic simple">
-<li></li>
-</ol>
-</td>
-<td><p>External Transfer</p></td>
-<td><p>AS DESIRED</p></td>
-</tr>
-<tr class="row-even"><td><p><strong>2.</strong></p></td>
-<td><p><strong>Anti Skid</strong></p></td>
-<td><p><strong>ON &amp; LIGHT OUT</strong></p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="3">
-<li></li>
-</ol>
-</td>
-<td><p>Compass Heading</p></td>
-<td><p>CHECK</p></td>
-</tr>
-<tr class="row-even"><td><p><strong>4.</strong></p></td>
-<td><p><strong>Pitot Heat</strong></p></td>
-<td><p><strong>ON</strong></p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="5">
-<li></li>
-</ol>
-</td>
-<td><p>IFF</p></td>
-<td><p>AS REQUIRED</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="6">
-<li></li>
-</ol>
-</td>
-<td><p>Circuit Breakers</p></td>
-<td><p>CHECK IN</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="7">
-<li></li>
-</ol>
-</td>
-<td><p>Warning Lights</p></td>
-<td><p>CHECK</p></td>
-</tr>
-</tbody>
-</table>
-</section>
-</section>
-<section id="after-takeoff">
-<h3>After Takeoff<a class="headerlink" href="#after-takeoff" title="Permalink to this heading"></a></h3>
-<section id="climb">
-<h4>Climb<a class="headerlink" href="#climb" title="Permalink to this heading"></a></h4>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><p><strong>1.</strong></p></td>
-<td><p><strong>Gear</strong></p></td>
-<td><p><strong>UP</strong></p></td>
-</tr>
-<tr class="row-even"><td><p><strong>2.</strong></p></td>
-<td><p><strong>Slats &amp; Flaps</strong></p></td>
-<td><p><strong>NORM (180 knots MIN)</strong></p></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="cruise">
-<h4>Cruise<a class="headerlink" href="#cruise" title="Permalink to this heading"></a></h4>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><ol class="arabic simple">
-<li></li>
-</ol>
-</td>
-<td><p>Altimeter</p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td></td>
-<td></td>
-<td><p>SET</p></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td></td>
-<td><p>CHECK STBY</p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td></td>
-<td><p>RESET</p></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td></td>
-<td><p>COMPARE</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="2">
-<li></li>
-</ol>
-</td>
-<td><p>Radar Altimeter</p></td>
-<td><p>AS REQUIRED</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="3">
-<li></li>
-</ol>
-</td>
-<td><p>OPS Check</p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><ol class="loweralpha simple">
-<li><p>Oxygen Quantity/Pressure/Blinker</p></li>
-</ol>
-</td>
-<td><p>CHECK</p></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td><ol class="loweralpha simple" start="2">
-<li><p>Cockpit Pressure</p></li>
-</ol>
-</td>
-<td><p>CHECK</p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><ol class="loweralpha simple" start="3">
-<li><p>Fuel Quantity/Transfer Switches</p></li>
-</ol>
-</td>
-<td><p>CHECK</p></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td><ol class="loweralpha simple" start="4">
-<li><p>STBY Compass</p></li>
-</ol>
-</td>
-<td><p>CHECK</p></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><ol class="loweralpha simple" start="5">
-<li><p>Circuit Breakers</p></li>
-</ol>
-</td>
-<td><p>CHECK</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="4">
-<li></li>
-</ol>
-</td>
-<td><p>Anti-Ice Switch</p></td>
-<td><p>AS REQUIRED</p></td>
-</tr>
-</tbody>
-</table>
-</section>
-</section>
-</section>
-<section id="landing">
-<h2>Landing<a class="headerlink" href="#landing" title="Permalink to this heading"></a></h2>
-<section id="before-landing">
-<h3>Before Landing<a class="headerlink" href="#before-landing" title="Permalink to this heading"></a></h3>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><ol class="arabic simple">
-<li></li>
-</ol>
-</td>
-<td><p>Defog &amp; Temperature</p></td>
-<td><p>AS DESIRED</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="2">
-<li></li>
-</ol>
-</td>
-<td><p>ALE-40 Flares/Norm Switch</p></td>
-<td><p>NORMAL</p></td>
-</tr>
-<tr class="row-odd"><td><p><strong>3.</strong></p></td>
-<td><p><strong>STAB AUG Switches</strong></p></td>
-<td><p><strong>ENGAGED</strong></p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="4">
-<li></li>
-</ol>
-</td>
-<td><p>COMM Antenna Select Switch</p></td>
-<td><p>UPR</p></td>
-</tr>
-<tr class="row-odd"><td><p><strong>5.</strong></p></td>
-<td><p><strong>Landing/Taxi Light</strong></p></td>
-<td><p><strong>LANDING</strong></p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="6">
-<li></li>
-</ol>
-</td>
-<td><p>Armament Switches</p></td>
-<td><p>OFF/SAFE/STOW</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="7">
-<li></li>
-</ol>
-</td>
-<td><p>Sight</p></td>
-<td><p>STBY/CAGE</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="8">
-<li></li>
-</ol>
-</td>
-<td><p>Radar &amp; BARO Altimeter</p></td>
-<td><p>SET</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="9">
-<li></li>
-</ol>
-</td>
-<td><p>Fuel</p></td>
-<td><p>CHECK</p></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="in-pattern-below-210-knots">
-<h3>In Pattern (below 210 knots)<a class="headerlink" href="#in-pattern-below-210-knots" title="Permalink to this heading"></a></h3>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><p><strong>1.</strong></p></td>
-<td><p><strong>Gear</strong></p></td>
-<td><p><strong>DOWN</strong></p></td>
-</tr>
-<tr class="row-even"><td><p><strong>2.</strong></p></td>
-<td><p><strong>Slats &amp; Flaps</strong></p></td>
-<td><p><strong>OUT &amp; DOWN</strong></p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="3">
-<li></li>
-</ol>
-</td>
-<td><p>Hydraulic Pressure</p></td>
-<td><p>CHECK</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="4">
-<li></li>
-</ol>
-</td>
-<td><p>Warning Lights</p></td>
-<td><p>CHECK</p></td>
-</tr>
-<tr class="row-odd"><td><p><strong>5.</strong></p></td>
-<td><p><strong>Anti Skid</strong></p></td>
-<td><p><strong>ON &amp; LIGHT OUT</strong></p></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="after-landing">
-<h3>After Landing<a class="headerlink" href="#after-landing" title="Permalink to this heading"></a></h3>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><p><strong>1.</strong></p></td>
-<td><p><strong>Drag Chute</strong></p></td>
-<td><p><strong>DEPLOY</strong></p></td>
-</tr>
-<tr class="row-even"><td><p><strong>2.</strong></p></td>
-<td><p><strong>Wheel Brake (below 70 knots)</strong></p></td>
-<td><p><strong>ENGAGE</strong></p></td>
-</tr>
-<tr class="row-odd"><td><p><strong>3.</strong></p></td>
-<td><p><strong>Anti Skid (below 30 knots)</strong></p></td>
-<td><p><strong>OFF</strong></p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="4">
-<li></li>
-</ol>
-</td>
-<td><p>Cockpit Pressure</p></td>
-<td><p>CHECK</p></td>
-</tr>
-<tr class="row-odd"><td><p><strong>5.</strong></p></td>
-<td><p><strong>Ejection Handle</strong></p></td>
-<td><p><strong>SAFE</strong></p></td>
-</tr>
-<tr class="row-even"><td><p><strong>6.</strong></p></td>
-<td><p><strong>Landing/Taxi Light</strong></p></td>
-<td><p><strong>AS REQUIRED</strong></p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="7">
-<li></li>
-</ol>
-</td>
-<td><p>Slats &amp; Flaps</p></td>
-<td><p>NORM</p></td>
-</tr>
-<tr class="row-even"><td><p><strong>8.</strong></p></td>
-<td><p><strong>Drag Chute</strong></p></td>
-<td><p><strong>JETTISON</strong></p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="9">
-<li></li>
-</ol>
-</td>
-<td><p>Mode 4 Sel</p></td>
-<td><p>HOLD</p></td>
-</tr>
-<tr class="row-even"><td><p><strong>10.</strong></p></td>
-<td><p><strong>ECM/ALE/RWR/APX-76</strong></p></td>
-<td><p><strong>OFF</strong></p></td>
-</tr>
-<tr class="row-odd"><td><p><strong>11.</strong></p></td>
-<td><p><strong>Radar/CW Power</strong></p></td>
-<td><p><strong>OFF</strong></p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="12">
-<li></li>
-</ol>
-</td>
-<td><p>STAB AUG Switches</p></td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="13">
-<li></li>
-</ol>
-</td>
-<td><p>Internal Wing Dump</p></td>
-<td><p>NORMAL</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="14">
-<li></li>
-</ol>
-</td>
-<td><p>VOR/ILS Control Panel</p></td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="15">
-<li></li>
-</ol>
-</td>
-<td><p>Engine Anti-Ice</p></td>
-<td><p>NORMAL</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="16">
-<li></li>
-</ol>
-</td>
-<td><p>Radar Altimeter</p></td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="17">
-<li></li>
-</ol>
-</td>
-<td><p>STAB Trim</p></td>
-<td><p>1-3 units NOSE DOWN</p></td>
-</tr>
-<tr class="row-even"><td><p><strong>18.</strong></p></td>
-<td><p><strong>Reference Sel Switch</strong></p></td>
-<td><p><strong>STBY</strong></p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="19">
-<li></li>
-</ol>
-</td>
-<td><p>Rain Removal</p></td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-even"><td><p><strong>20.</strong></p></td>
-<td><p><strong>Pitot Heat</strong></p></td>
-<td><p><strong>OFF</strong></p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="21">
-<li></li>
-</ol>
-</td>
-<td><p>IFF</p></td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="22">
-<li></li>
-</ol>
-</td>
-<td><p>Temperature</p></td>
-<td><p>FULL HOT</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="23">
-<li></li>
-</ol>
-</td>
-<td><p>Defog Handle</p></td>
-<td><p>DEFOG</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="24">
-<li></li>
-</ol>
-</td>
-<td><p>TACAN</p></td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="25">
-<li></li>
-</ol>
-</td>
-<td><p>Formation Lights</p></td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="26">
-<li></li>
-</ol>
-</td>
-<td><p>Sight Shutter</p></td>
-<td><p>CLOSED</p></td>
-</tr>
-</tbody>
-</table>
-</section>
-</section>
-<section id="shutdown">
-<h2>Shutdown<a class="headerlink" href="#shutdown" title="Permalink to this heading"></a></h2>
-<section id="id4">
-<h3>Pilot<a class="headerlink" href="#id4" title="Permalink to this heading"></a></h3>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><ol class="arabic simple">
-<li></li>
-</ol>
-</td>
-<td><p>Wheels</p></td>
-<td><p>CHOCKED</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="2">
-<li></li>
-</ol>
-</td>
-<td><p>UHF Radio</p></td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="3">
-<li></li>
-</ol>
-</td>
-<td><p>Ejection Seat</p></td>
-<td><p>RAISE</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="4">
-<li></li>
-</ol>
-</td>
-<td><p>Defog Handle</p></td>
-<td><p>FULL AFT</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="5">
-<li></li>
-</ol>
-</td>
-<td><p>Temperature</p></td>
-<td><p>12 o’clock</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="6">
-<li></li>
-</ol>
-</td>
-<td><p>Air Refuel Switch (if AAR)</p></td>
-<td><p>EXTEND</p></td>
-</tr>
-<tr class="row-odd"><td><p><strong>7.</strong></p></td>
-<td><p><strong>Right Throttle</strong></p></td>
-<td><p><strong>OFF</strong></p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="8">
-<li></li>
-</ol>
-</td>
-<td><p>AVTR Tape</p></td>
-<td><p>REMOVE</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="9">
-<li></li>
-</ol>
-</td>
-<td><p>Spoiler Actuator</p></td>
-<td><p>CHECK (RIGHT)</p></td>
-</tr>
-<tr class="row-even"><td><p><strong>10.</strong></p></td>
-<td><p><strong>Left Throttle</strong></p></td>
-<td><p><strong>OFF</strong></p></td>
-</tr>
-<tr class="row-odd"><td><p><strong>11.</strong></p></td>
-<td><p><strong>Engine Master Switches</strong></p></td>
-<td><p><strong>OFF</strong></p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="12">
-<li></li>
-</ol>
-</td>
-<td><p>All Switches and Controls</p></td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="13">
-<li></li>
-</ol>
-</td>
-<td><p>Oxygen Diluter</p></td>
-<td><p>100%</p></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="id5">
-<h3>WSO<a class="headerlink" href="#id5" title="Permalink to this heading"></a></h3>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><ol class="arabic simple">
-<li></li>
-</ol>
-</td>
-<td><p>UHF Radio</p></td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="2">
-<li></li>
-</ol>
-</td>
-<td><p>Ejection Seat</p></td>
-<td><p>RAISE</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="3">
-<li></li>
-</ol>
-</td>
-<td><p>INS</p></td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="4">
-<li></li>
-</ol>
-</td>
-<td><p>NAV Computer</p></td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="5">
-<li></li>
-</ol>
-</td>
-<td><p>Target Designator</p></td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="12">
-<li></li>
-</ol>
-</td>
-<td><p>All Switches and Controls</p></td>
-<td><p>OFF</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="13">
-<li></li>
-</ol>
-</td>
-<td><p>Oxygen Diluter</p></td>
-<td><p>100%</p></td>
-</tr>
-</tbody>
-</table>
-</section>
-</section>
-<section id="engine-startup-cartridge-start">
-<span id="bangstrt"></span><h2>Engine Startup - Cartridge Start<a class="headerlink" href="#engine-startup-cartridge-start" title="Permalink to this heading"></a></h2>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><ol class="arabic simple">
-<li><p>Engine master switches - ON</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="2">
-<li><p>Right generator switch - GEN</p></li>
-</ol>
-<p>ON</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="3">
-<li><p>Ignition button - PRESS AND</p></li>
-</ol>
-<p>HOLD WHILE ADVANCING THROTTLE</p>
-</td>
-<td><p>Press the ignition button and</p>
-<p>simultaneously move the throttle</p>
-<p>halfway up the quadrant</p>
-<p>basic-MIL range, and return the</p>
-<p>throttle to IDLE.</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="4">
-<li><p>Engine start switch - R</p></li>
-</ol>
-<p>(right)</p>
-</td>
-<td><p>The start switch should be</p>
-<p>returned to the center position</p>
-<p>once cartridge ignition is</p>
-<p>started. Once cartridge ignition</p>
-<p>has been initiated, the engine</p>
-<p>will continue to accelerate</p>
-<p>until the cartridge propellant</p>
-<p>is consumed. The start may be</p>
-<p>discontinued by moving the</p>
-<p>throttle to OFF or, with the</p>
-<p>other engine master switch ON,</p>
-<p>moving the engine master switch</p>
-<p>to OFF.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="5">
-<li><p>Release ignition button as</p></li>
-</ol>
-<p>soon as lightoff is indicated</p>
-</td>
-<td><p>Lightoff is indicated by a rise</p>
-<p>in exhaust gas temperature</p>
-<p>followed by an increase in</p>
-<p>engine rpm. Engine lightoff is</p>
-<p>usually noted at approximately</p>
-<p>13 to 16% rpm with a fuel flow</p>
-<p>of 225 to 750 pounds per hour</p>
-<p>(400 to 1,200 pounds per hour,</p>
-<p>low smoke engine). Higher fuel</p>
-<p>flow values are likely to result</p>
-<p>in hot starts. To prevent an</p>
-<p>overtemperature condition from</p>
-<p>occurring, the engines should be</p>
-<p>shut down prior to reaching the</p>
-<p>actual EGT limit. The engine may</p>
-<p>be shutdown from any throttle by</p>
-<p>placing its engine master switch</p>
-<p>OFF (provided the other master</p>
-<p>switch is ON, if a battery</p>
-<p>start).</p>
-<p>After any wet or false start,</p>
-<p>allow 1 minute or longer for the</p>
-<p>combustion system to drain</p>
-<p>before restarting the engine.</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="6">
-<li><p>Exhuast gas temperature</p></li>
-</ol>
-<p>indicator - 220to 420C (250C to</p>
-<p>540C, low smoke engine)</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="7">
-<li><p>Idle rpm - 65 %</p></li>
-</ol>
-</td>
-<td><p>Ensure RH GEN OUT and BUS TIE</p>
-<p>OPEN lights go out.</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="8">
-<li><p>Right boost pump indicator -</p></li>
-</ol>
-<p>30 psi</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="9">
-<li><p>Oil pressure indication - 12</p></li>
-</ol>
-<p>PSI MIN 50 PSI MAX</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="10">
-<li><p>Fuel flow indicator - WITHIN</p></li>
-</ol>
-<p>LIMITS</p>
-</td>
-<td><p>Fuel flow should not exceed 750</p>
-<p>pph at lightoff, and 800 to 1400</p>
-<p>pph at idle. For low smoke</p>
-<p>engines, fuel flow should not</p>
-<p>exceed 1,200 pph at lightoff,</p>
-<p>and 800 to 1,500 pph at idle.</p>
-<p>Fuel consumed during starting is</p>
-<p>approximately 65 pounds per</p>
-<p>engine.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="11">
-<li><p>Hydraulic pressure</p></li>
-</ol>
-<p>indicators - WITHIN LIMITS</p>
-</td>
-<td><p>With the right engine started,</p>
-<p>the PC-2 hydraulic pressure</p>
-<p>indicator should read 3000 psi</p>
-<p>and the utility hydraulic</p>
-<p>pressure indicator should read</p>
-<p>2775 . The check hydraulic gage</p>
-<p>indicator light remains</p>
-<p>illuminated until the left</p>
-<p>engine is started and all four</p>
-<p>hydraulic pumps are operating</p>
-<p>above 1750 psi. When the left</p>
-<p>engine is started, the utility</p>
-<p>hydraulic pressure indicator</p>
-<p>should read 3000 psi.</p>
-<p>CAUTION: With only one engine</p>
-<p>operating, excessive rapid</p>
-<p>movement of the control stick</p>
-<p>may rupture the inoperative</p>
-<p>power control system reservoir.</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="12">
-<li><p>APU light - CHECK ON (some</p></li>
-</ol>
-<p>aircraft)</p>
-</td>
-<td><p>The APU light will remain</p>
-<p>illuminated for approximately 1</p>
-<p>mintue after the left engine is</p>
-<p>started.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="13">
-<li><p>Spoiler actuator - CHECK</p></li>
-</ol>
-</td>
-<td><p>With the right engine operating,</p>
-<p>slowly deflect the control stick</p>
-<p>approximately 1 inch to the</p>
-<p>left. Verify the spoiler does</p>
-<p>not fully deflect and that it</p>
-<p>returns to a flush position when</p>
-<p>the stick is returned to</p>
-<p>neutral.</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="14">
-<li><p>Air refueling door and</p></li>
-</ol>
-<p>exterior air refueling lights -</p>
-<p>CHECK (if required)</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="15">
-<li><p>Start the left engine per</p></li>
-</ol>
-<p>steps 3 through 11, substituting</p>
-<p>LEFT in all cases.</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="16">
-<li><p>Left generator switch - GEN</p></li>
-</ol>
-<p>ON</p>
-</td>
-<td><p>Ensure that the LH GEN OUT light</p>
-<p>goes out. If the BUS TIE OPEN</p>
-<p>light does not go out within</p>
-<p>approximately 18 seconds,</p>
-<p>accelerate either engine to</p>
-<p>approximately 70% rpm and cycle</p>
-<p>right generator. In low ambient</p>
-<p>temperatures, the BUS TIE OPEN</p>
-<p>light may not immediately go out</p>
-<p>after the left engine is started</p>
-<p>and the left generator light</p>
-<p>goes out. This may be due to the</p>
-<p>failure of the generators to</p>
-<p>synchronise quickly because of</p>
-<p>cold oil in the left generator</p>
-<p>CSD.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="17">
-<li><p>Right generator switch -</p></li>
-</ol>
-<p>CYCLE</p>
-</td>
-<td><p>Cycle the right generator switch</p>
-<p>(OFF, then GEN ON), and check</p>
-<p>that the RH GEN OUT light</p>
-<p>illuminates.</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="18">
-<li><p>BUS TIE OPEN light - OUT</p></li>
-</ol>
-</td>
-<td><p>Ensure that the BUS TIE OPEN</p>
-<p>light remains out when placing</p>
-<p>the right generator switch to</p>
-<p>OFF, and that it flashes</p>
-<p>momentarily when the switch is</p>
-<p>returned to the GEN ON position.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="19">
-<li><p>Interior check - COMPLETE</p></li>
-</ol>
-<p>(if applicable)</p>
-</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="airstart">
-<span id="airstrt"></span><h2>Airstart<a class="headerlink" href="#airstart" title="Permalink to this heading"></a></h2>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><ol class="arabic simple">
-<li><p>Engine master switch - ON</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="2">
-<li><p>Throttle - OFF</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="3">
-<li><p>Ignition button- HOLD PRESSED</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="4">
-<li><p>Throttle - IDLE</p></li>
-</ol>
-</td>
-<td><p>If no fuel flow observed, slowly</p>
-<p>advance throttle until fuel flow</p>
-<p>is noted.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="5">
-<li><p>Engine rpm, exhaust</p></li>
-</ol>
-<p>temperature, oil pressure, and</p>
-<p>fuel flow - MONITOR</p>
-</td>
-<td><p>An engine relight is indicated</p>
-<p>by an incresae in exhaust</p>
-<p>temperature, followed by an</p>
-<p>incresae in engine rpm.</p>
-<p>CAUTION: If a relight does not</p>
-<p>occur within 30 seconds; or the</p>
-<p>engines do not accelerate after</p>
-<p>light-off; or the exhaust</p>
-<p>temperature exceeds its maximum</p>
-<p>limits; or the oil pressure does</p>
-<p>not reach its minimum limit;</p>
-<p>retard the throttle to OFF.</p>
-</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="compressor-stall">
-<span id="cmpstll"></span><h2>Compressor Stall<a class="headerlink" href="#compressor-stall" title="Permalink to this heading"></a></h2>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><ol class="arabic simple">
-<li><p>Throttle - IDLE</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="2">
-<li><p>Generator switch - OFF</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="3">
-<li><p>Throttle - OFF</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="4">
-<li><p>Inlet ramps - CHECK</p></li>
-</ol>
-<blockquote>
-<div><p>FULLY RETRACTED</p>
-</div></blockquote>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="5">
-<li><p>Ignition button - HOLD PRESSED</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="6">
-<li><p>Throttle - IDLE</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="7">
-<li><p>Engine rpm, exhaust</p></li>
-</ol>
-<blockquote>
-<div><p>temperature, and fuel flow -</p>
-<p>MONITOR</p>
-</div></blockquote>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="8">
-<li><p>Generator switch - ON</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="an-ale-40-countermeasure-dispenser">
-<span id="alecms"></span><h2>AN/ALE-40 Countermeasure Dispenser<a class="headerlink" href="#an-ale-40-countermeasure-dispenser" title="Permalink to this heading"></a></h2>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><ol class="arabic simple">
-<li><p>AN/ALE-40 programmer - SET</p></li>
-</ol>
-<ol class="loweralpha">
-<li><p>Chaff burst count and</p>
-<p>interval - SET</p>
-</li>
-<li><p>Chaff salvo count and</p>
-<p>interval - SET</p>
-</li>
-<li><p>Flare burst count and</p>
-<p>interval - SET</p>
-</li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="2">
-<li><p>(WSO) Cockpit control unit:</p></li>
-</ol>
-<ol class="loweralpha simple">
-<li><p>Chaff mode knob - SET</p></li>
-<li><p>Flare mode knob - SET</p></li>
-</ol>
-</td>
-<td><p>If chaff or flare dispensing is</p>
-<p>desired, set applicable mode</p>
-<p>knob to required mode. Mode</p>
-<p>light for selected decoy will</p>
-<p>illuminate.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="3">
-<li><p>Flares select switch - NORMAL</p></li>
-</ol>
-<ol class="loweralpha simple">
-<li><p>AN/ALE-40 power ON light - ON</p></li>
-<li><p>FLARES light - OFF</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="4">
-<li><p>(P or WSO) Dispense button -</p></li>
-</ol>
-<p>ACTUATE</p>
-</td>
-<td><p>Actuate either dispense button</p>
-<p>to initiate automatic chaff</p>
-<p>and/or flare dispensing. If</p>
-<p>additional programmed dispensing</p>
-<p>cycles are required after</p>
-<p>completion of the first,</p>
-<p>re-actuate the dispense button.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="5">
-<li><p>(WSO) Chaff and flare</p></li>
-</ol>
-<p>counters - MONITOR</p>
-</td>
-<td><p>NOTE: The automatic dispensing</p>
-<p>programs may be terminate at any</p>
-<p>time by placing the chaff and</p>
-<p>flare mode knobs to OFF.</p>
-</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="aim-7-sparrow">
-<span id="aim7"></span><h2>AIM-7 Sparrow<a class="headerlink" href="#aim-7-sparrow" title="Permalink to this heading"></a></h2>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><p><strong>AIM-7 Tuneup</strong></p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p><strong>AIM-7E</strong></p></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple">
-<li><p>Radar missile power switch -</p></li>
-</ol>
-<p>CW ON</p>
-</td>
-<td><p>RDR tuned lights - ON STEADY</p>
-<p>FOR 4 MINUTES</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="2">
-<li><p>Radar missile power switch -</p></li>
-</ol>
-<p>STBY</p>
-</td>
-<td><p>RDR tuned lights - OFF</p></td>
-</tr>
-<tr class="row-odd"><td><p><strong>AIM-7F</strong></p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple">
-<li><p>Radar missile power switch -</p></li>
-</ol>
-<p>CW OFF FOR 1 MINUTE</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="2">
-<li><p>Radar missile power switch -</p></li>
-</ol>
-<p>CW ON</p>
-</td>
-<td><p>RDR tuned lights - ON</p>
-<p>If lights do not illuminate</p>
-<p>within 3 minutes, reattempt</p>
-<p>tune by going OFF for 1</p>
-<p>minute, then back to CW ON.</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="3">
-<li><p>Radar missile power switch - STBY</p></li>
-</ol>
-</td>
-<td><p>RDR tuned lights - REMAIN ON</p>
-<p>After TO 12P2-2APQ120-537,</p>
-<p>RDR tuned lights - OFF</p>
-</td>
-</tr>
-<tr class="row-odd"><td><p><strong>AIM-7 MISSILE LAUNCH</strong></p></td>
-<td><p>NOTE: With a CL tank or MER</p>
-<p>aboard, illumination of the</p>
-<p>CL tank aboard light</p>
-<p>indicates forward AIM-7</p>
-<p>missiles cannot be launched.</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple">
-<li><p>(WSO) Radar power knob - OPR</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="2">
-<li><p>(WSO) Radar mode - RDR, MAP-B, or</p></li>
-</ol>
-<p>BST</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="3">
-<li><p>(WSO) Polar switch - LIN or CIR 1</p></li>
-</ol>
-</td>
-<td><p>The AIM-7 will not guide if</p>
-<p>polar switch is in CIR 2.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="4">
-<li><p>(WSO) Aspect knob - AS REQUIRED</p></li>
-</ol>
-</td>
-<td><p>NOTE: The WIDE position</p>
-<p>overrides all other switch</p>
-<p>settings and locks the</p>
-<p>speedgage in wide sweep.</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="5">
-<li><p>(WSO) Maneuver switch - AS</p></li>
-</ol>
-<p>REQUIRED</p>
-</td>
-<td><p>LOW G provides velocity</p>
-<p>reject. HI G allows tracking</p>
-<p>of a maneuvering target</p>
-<p>without breaking lockon.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="6">
-<li><p>(WSO) STAB switch - AS REQUIRED</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="7">
-<li><ol class="upperalpha simple" start="16">
-<li><p>Radar missile power switch -</p></li>
-</ol>
-</li>
-</ol>
-<p>CW ON</p>
-</td>
-<td><p>RDR tuned lights - ON</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="8">
-<li><ol class="upperalpha simple" start="16">
-<li><p>Missile interlock switch - AS</p></li>
-</ol>
-</li>
-</ol>
-<p>REQUIRED</p>
-</td>
-<td><p>If range/ASE limits cannot</p>
-<p>be met, interlocks OUT</p>
-<p>permits firing with lower</p>
-<p>kill probability.</p>
-</td>
-</tr>
-<tr class="row-even"><td></td>
-<td><p>NOTE: The weapon select knob</p>
-<p>should not be in TV or ARM.</p>
-<p>If TV/ARM selected, press</p>
-<p>cage for trigger transfer.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="9">
-<li><ol class="upperalpha simple" start="16">
-<li><p>Sight mode - A/A</p></li>
-</ol>
-</li>
-</ol>
-</td>
-<td><p>A/G mode can be used if cage</p>
-<p>button is pressed.</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="10">
-<li><ol class="upperalpha simple" start="16">
-<li><p>Guns/Missile switch - RADAR</p></li>
-</ol>
-</li>
-</ol>
-</td>
-<td><p>Head-up RADAR light - ON</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="11">
-<li><ol class="upperalpha simple" start="16">
-<li><p>Master arm switch - ARM</p></li>
-</ol>
-</li>
-</ol>
-</td>
-<td><p>Head-up ARM light - ON</p>
-<p>Head-up RADAR light -</p>
-<p>REMAINS ON.</p>
-<p>The RADAR light remains on</p>
-<p>with master arm switch on</p>
-<p>and at least one AIM-7 tuned</p>
-<p>and available for launch.</p>
-</td>
-</tr>
-<tr class="row-even"><td></td>
-<td><p>NOTE: With AIM-7F loaded,</p>
-<p>before missile launch, the</p>
-<p>head-up RADAR light must be</p>
-<p>ON steady.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="12">
-<li><p>Target lockon - ACCOMPLISH</p></li>
-</ol>
-</td>
-<td><p>Observe flashing SHOOT</p>
-<p>lights.</p>
-<p>If radar lockon available,</p>
-<p>fly the aim dot.</p>
-<p>Without lockon or to break</p>
-<p>lockon and select automatic</p>
-<p>acquisition mode:</p>
-<ol class="arabic simple">
-<li><p>Cage button - PRESS AND</p></li>
-</ol>
-<p>RELEASE (sets BST, A/A mode,</p>
-<p>5 mile range).</p>
-<ol class="arabic simple" start="2">
-<li><p>Automatic acquisition -</p></li>
-</ol>
-<p>PRESS.</p>
-</td>
-</tr>
-<tr class="row-even"><td></td>
-<td><p>NOTE: AIM-7 radar settling</p>
-<p>required prior to launch:</p>
-<p>AIM-7E requires 4 second</p>
-<p>delay post lockon for firing</p>
-<p>if master arm selected prior</p>
-<p>to lockon, or 2 seconds if</p>
-<p>selcted after lockon.</p>
-<p>AIM-7F may be fired</p>
-<p>immediately if master arm</p>
-<p>selected after lockon, or</p>
-<p>after 2 second delay if</p>
-<p>selected prior to lockon.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="13">
-<li><ol class="upperalpha simple" start="16">
-<li><p>Trigger - SQUEEZE and</p></li>
-</ol>
-</li>
-</ol>
-<p>RELEASE</p>
-</td>
-<td><p>Head-up RADAR light - ON</p>
-<p>(next missile ready)</p>
-<p>If interlock switch in the</p>
-<p>IN position, aim dot must be</p>
-<p>within ASE circle and SHOOT</p>
-<p>and IN RANGE lights ON to</p>
-<p>fire.  If interlock switch</p>
-<p>in OUT position, missile</p>
-<p>will launch when trigger</p>
-<p>pressed.</p>
-</td>
-</tr>
-<tr class="row-even"><td><p><strong>Second Missile Launch</strong></p></td>
-<td><p>Two tuned missiles can be</p>
-<p>launched by squeezing,</p>
-<p>releasing, then re-squeezing</p>
-<p>and holding the trigger.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><p><strong>Snap-up Procedure</strong></p></td>
-<td><p>Center the aim dot in</p>
-<p>azimuth while the HOLD ALT</p>
-<p>light is ON.  When HOLD ALT</p>
-<p>goes OFF, pull up and fly</p>
-<p>the aim dot to the center of</p>
-<p>ASE circle and fire when IN</p>
-<p>RANGE and SHOOT lights come</p>
-<p>ON.</p>
-</td>
-</tr>
-<tr class="row-even"><td><p>** Visual Attack (BST Mode)**</p></td>
-<td><p>If AI transmitter has failed</p>
-<p>radar boresight mode can</p>
-<p>provide CW illumination of</p>
-<p>the target for AIM-7 attack.</p>
-<p>To confirm CW function,</p>
-<p>check KLY position on volt</p>
-<p>monitor which confirms CW</p>
-<p>transmission output. Without</p>
-<p>radar lockon, interlocks are</p>
-<p>OUT regardless of switch</p>
-<p>position.</p>
-<p>NOTE: If lockon not obtained</p>
-<p>smooth tracking is required</p>
-<p>to ensure proper head aim</p>
-<p>data provided to missile</p>
-<p>prior to AIM-7 launch.</p>
-</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="aim-9-sidewinder">
-<span id="aim9"></span><h2>AIM-9 Sidewinder<a class="headerlink" href="#aim-9-sidewinder" title="Permalink to this heading"></a></h2>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><p>CAUTION: Structural damage to the</p>
-<p>speed brake may occur from missile</p>
-<p>exhaust if speed brakes are extended</p>
-<p>when firing.</p>
-</td>
-<td><p>NOTE: Audio tone interrupted</p>
-<p>when weapon selector in TV</p>
-<p>or ARM, except when cage</p>
-<p>button pressed.</p>
-<p>Wing flaps and landing gear</p>
-<p>handles must be UP to launch</p>
-<p>the missile.</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple">
-<li><p>Sight mode - A/A</p></li>
-</ol>
-</td>
-<td><p>With optical sight in A/A or</p>
-<p>cage button pressed, reticle</p>
-<p>is caged to RBL.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="2">
-<li><p>Guns/missile switch - HEAT</p></li>
-</ol>
-</td>
-<td><p>Head-up HEAT light - ON</p>
-<p>HEAT select light - ON</p>
-<p>Station selection can be</p>
-<p>performed with momentary</p>
-<p>actuation of HEAT REJECT</p>
-<p>switch.</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="3">
-<li><p>Missile aural tone - ADJUST</p></li>
-</ol>
-</td>
-<td><p>Check for aural tone</p>
-<p>increase which indicates</p>
-<p>target acquisiton.  Tone may</p>
-<p>nulled by pulling target to</p>
-<p>center of missile LOS.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="4">
-<li><p>Master arm switch - ARM</p></li>
-</ol>
-</td>
-<td><p>Head-up ARM light - ON</p>
-<p>Head-up HEAT light ON</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="5">
-<li><p>To uncage seeker, ARR button -</p></li>
-</ol>
-<p>PRESS AND HOLD</p>
-</td>
-<td><p>All IR missile seekers</p>
-<p>uncage and begin self-track</p>
-<p>when ARR button pressed. IR</p>
-<p>seeker returns to boresight</p>
-<p>when ARR released.  Use of</p>
-<p>ARR to uncage is determined</p>
-<p>by tactical situation and</p>
-<p>pilot option.</p>
-<p>Flashing SHOOT light</p>
-<p>indicates target is in</p>
-<p>parameters.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="6">
-<li><p>Trigger - SQUEEZE</p></li>
-</ol>
-</td>
-<td><p>Head-up HEAT light - OFF</p>
-<p>HEAT select light - OFF</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="7">
-<li><p>Trigger - RELEASE</p></li>
-</ol>
-</td>
-<td><p>Head-up HEAT light - ON</p>
-<p>HEAT select light of next</p>
-<p>missile - ON</p>
-</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="m61a1-nose-gun">
-<span id="m61a1"></span><h2>M61A1 Nose Gun<a class="headerlink" href="#m61a1-nose-gun" title="Permalink to this heading"></a></h2>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><ol class="arabic simple">
-<li><p>Sight mode knob - A/G (or AA</p></li>
-</ol>
-<p>unless CAGE is present)</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="2">
-<li><p>Reticle depression knob - SET</p></li>
-</ol>
-<p>(A/G only)</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="3">
-<li><p>Rate switch - HIGH/LOW</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="4">
-<li><p>Rounds counter - SET</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="5">
-<li><p>Delivery mode knob - OFF or</p></li>
-</ol>
-<p>DIRECT</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="6">
-<li><p>Weapon select knob - NOT TV or</p></li>
-</ol>
-<p>ARM (unless CAGE is present)</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="7">
-<li><p>Gun station select - PRESS</p></li>
-</ol>
-</td>
-<td><p>Green GUN station light - ON</p></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="8">
-<li><p>Guns/missile switch - GUNS</p></li>
-</ol>
-</td>
-<td><p>Head-up GUN light - ON</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="9">
-<li><p>Master arm switch - ARM</p></li>
-</ol>
-<ol class="loweralpha simple">
-<li><p>Head-up GUN light - REMAINS ON</p></li>
-<li><p>Head-UP ARM light - ON</p></li>
-<li><p>Gun station ARM light - ON</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="suu-16-a-23a-gun-pods-gpu-5a-gun-pod-on-centerline">
-<span id="suu16"></span><h2>SUU-16/A, -23A Gun Pods, GPU-5A Gun Pod on Centerline<a class="headerlink" href="#suu-16-a-23a-gun-pods-gpu-5a-gun-pod-on-centerline" title="Permalink to this heading"></a></h2>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><ol class="arabic simple">
-<li><p>Sight mode knob - A/G (or AA</p></li>
-</ol>
-<p>unless CAGE is present)</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="2">
-<li><p>Delivery mode knob - OFF or</p></li>
-</ol>
-<p>DIRECT</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="3">
-<li><p>Reticle depression knob - SET</p></li>
-</ol>
-<p>(A/G only)</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="4">
-<li><p>Station select button(s) -</p></li>
-</ol>
-<p>PRESS</p>
-</td>
-<td><p>Green lights -ON (SUU-23</p>
-<p>prestart)</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="5">
-<li><p>Weapon selector knob - NOT TV</p></li>
-</ol>
-<p>or ARM (unless CAGE is present)</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="6">
-<li><p>(SUU-16/23 Gun clear switch -</p></li>
-</ol>
-<p>NONCLEAR or AUTO CLEAR</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="7">
-<li><p>Guns/missile switch - GUNS</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="8">
-<li><p>Master arm switch - ARM</p></li>
-</ol>
-<ol class="loweralpha">
-<li><p>Head-up GUN light - OFF</p></li>
-<li><p>Head-UP ARM light - ON</p></li>
-<li><p>Station ARM light(s) - ON</p>
-<p>(SUU-16, RAT OUT)</p>
-</li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="9">
-<li><p>Trigger - SQUEEZE</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="agm-45-shrike">
-<span id="agm45"></span><h2>AGM-45 Shrike<a class="headerlink" href="#agm-45-shrike" title="Permalink to this heading"></a></h2>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><ol class="arabic simple">
-<li><p>(WSO) INS mode knob- NAV</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="2">
-<li><p>Sight mode - A/G (if desired)</p></li>
-</ol>
-</td>
-<td><p>The sight reticle may be used as</p>
-<p>a flashing indicator regarding</p>
-<p>inertial navigation failure.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="3">
-<li><p>(WSO) Bombing timer- SET AS</p></li>
-</ol>
-<p>REQUIRED</p>
-<ol class="loweralpha simple">
-<li><p>Pullup timer - seconds.</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="4">
-<li><p>(WSO) Release angle - SET</p></li>
-</ol>
-<ol class="loweralpha simple">
-<li><p>Low angle (LOFT) degrees</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="5">
-<li><p>(WSO) WRCS Inputs - SET</p></li>
-</ol>
-<ol class="loweralpha simple">
-<li><p>Target altitude - feet MSL</p></li>
-<li><p>Release advance - msec.</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="6">
-<li><p>Delivery mode - SET</p></li>
-</ol>
-<ol class="loweralpha simple">
-<li><p>For WRCS mode - AGM-45</p></li>
-<li><p>For AN/AJB-7 mode - LOFT</p></li>
-<li><p>For Direct mode - DIRECT</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="7">
-<li><p>Master Arm switch - SAFE</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="8">
-<li><p>Weapon select - ARM</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="9">
-<li><p>Station select button(s) -</p></li>
-</ol>
-<p>PRESS</p>
-<ol class="loweralpha simple">
-<li><p>Green light(s) - ON</p></li>
-</ol>
-<p>The missile tone signal and ADI</p>
-<p>pointers now indicate target</p>
-<p>detection for the leftmost</p>
-<p>missile.  If one missile is to</p>
-<p>be fired, select one station.</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><p>NOTE: when the AGM-45 system and</p>
-<p>radar set are operated</p>
-<p>simultaneously, a distinct low</p>
-<p>frequency tone is heard and the</p>
-<p>ADI pointers move in a pattern</p>
-<p>corresponding to the antenna</p>
-<p>sweep pattern.  Audible tone</p>
-<p>interference may be caused also</p>
-<p>by the tacan in the T/R mode.</p>
-<p>When interference is encountered</p>
-<p>place the radar set in STBY and</p>
-<p>the tacan set in REC until</p>
-<p>AGM-45 operations are complete.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><p>CAUTION: to prevent premature</p>
-<p>activation of missile thermal</p>
-<p>batteries, do not press the bomb</p>
-<p>button until actual intent to</p>
-<p>launch.</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p>Missile Launch:</p>
-<p>After target detection, proceed</p>
-<p>as follows:</p>
-<ol class="arabic simple">
-<li><p>Master arm switch - ARM</p></li>
-</ol>
-<ol class="loweralpha simple">
-<li><p>Station ARM light - ON</p></li>
-<li><p>Head-up ARM light - ON</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="2">
-<li><p>ADI vertical pointer - NULL</p></li>
-</ol>
-</td>
-<td><p>Steer aircraft to null the</p>
-<p>vertical pointer.</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="3">
-<li><p>Delivery mode - EXECUTE</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>Computer Mode, AGM-45</p></td>
-<td><p>With azimuth error at null,</p>
-<p>begin a dive to null the</p>
-<p>horizontal pointer. With the</p>
-<p>dive stabilized, press the bomb</p>
-<p>button when one of the maneuver</p>
-<p>lights (in range indication)</p>
-<p>illuminates.  Hold the pickle</p>
-<p>signal and begin the desired</p>
-<p>launch maneuver.  The computer</p>
-<p>delivers the launch signal as</p>
-<p>aircraft reaches an attitude</p>
-<p>compatible with the respective</p>
-<p>maneuver light.  If another</p>
-<p>station is selected, the next</p>
-<p>missile is launched in</p>
-<p>approximately 1 second.</p>
-</td>
-</tr>
-<tr class="row-even"><td><p>Loft Mode</p></td>
-<td><p>During the approach toward the</p>
-<p>IP, steer out azimuth error by</p>
-<p>centering the vertical pointer.</p>
-<p>Over the IP, press the bomb</p>
-<p>button to begin timer countdown;</p>
-<p>the pullup light illuminates. At</p>
-<p>timer runout, the missile tone</p>
-<p>cutout circuits are energized,</p>
-<p>the LABS steady tone is</p>
-<p>energized, and the pullup and</p>
-<p>sight reticle lights go out.</p>
-<p>Begin the pullup maneuver,</p>
-<p>holding the vertical and</p>
-<p>horizontal needles centered.  As</p>
-<p>the aircraft rotates to the</p>
-<p>preset angle, the missile fires,</p>
-<p>the pullup and reticle lights</p>
-<p>illuminate and the tone ceases.</p>
-</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="agm-65-maverick">
-<span id="agm65"></span><h2>AGM-65 Maverick<a class="headerlink" href="#agm-65-maverick" title="Permalink to this heading"></a></h2>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><ol class="arabic simple">
-<li><p>Optical sight - SET</p></li>
-</ol>
-<ol class="loweralpha simple">
-<li><p>Sight mode - A/G</p></li>
-<li><p>Reticle depression - 45 MILS</p></li>
-</ol>
-</td>
-<td><p>NOTE: The 45 mil setting is an</p>
-<p>average setting which will vary</p>
-<p>with individual aircraft</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="2">
-<li><p>Weapon select knob - TV (3</p></li>
-</ol>
-<p>minute timer start)</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="3">
-<li><p>Delivery mode knob - DIRECT</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="4">
-<li><p>Station select button(s) -</p></li>
-</ol>
-<p>PRESS</p>
-</td>
-<td><p>Green lights -ON</p></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="5">
-<li><p>(WSO) DSCG scope mode - TV or</p></li>
-</ol>
-<p>STBY (as required)</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="6">
-<li><ol class="upperalpha simple" start="16">
-<li><p>Weapon video - ON</p></li>
-</ol>
-</li>
-</ol>
-<ol class="loweralpha simple">
-<li><p>Scope display WPN</p></li>
-<li><p>SEL button - PRESS</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="7">
-<li><p>Master arm switch - ARM</p></li>
-</ol>
-<ol class="loweralpha">
-<li><p>Head-UP ARM light - ON</p></li>
-<li><p>Station ARM light - ON (3</p>
-<p>minute timer)</p>
-</li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="8">
-<li><p>Trigger - SQUEEZE and RELEASE</p></li>
-</ol>
-<ol class="loweralpha simple">
-<li><p>Missile video - ON</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="9">
-<li><p>Contast switch - SET (NOT IN</p></li>
-</ol>
-<p>AUTO FOR AGM-65D)</p>
-</td>
-<td><p>Observe target and select proper</p>
-<p>track contrast</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="10">
-<li><p>Position pipper on</p></li>
-</ol>
-<p>target/aimpoint.</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="11">
-<li><p>Locate target in video</p></li>
-</ol>
-<p>display and initiate lockon.</p>
-<ol class="loweralpha">
-<li><ol class="upperalpha simple" start="16">
-<li><p>Front cockpit lockon</p></li>
-</ol>
-<p>procedure:</p>
-<ul>
-<li><ol class="arabic simple">
-<li><p>ARR button - PRESS and</p></li>
-</ol>
-<blockquote>
-<div><p>HOLD</p>
-</div></blockquote>
-</li>
-<li><ol class="arabic simple" start="2">
-<li><p>Use seeker control to</p></li>
-</ol>
-<blockquote>
-<div><p>position target in</p>
-<p>tracking window.</p>
-</div></blockquote>
-</li>
-<li><ol class="arabic simple" start="3">
-<li><p>ARR button - RELEASE</p></li>
-</ol>
-</li>
-<li><ol class="arabic simple" start="4">
-<li><p>Verify lockon.</p></li>
-</ol>
-</li>
-</ul>
-</li>
-<li><p>(WSO) Rear cockpit lockon</p>
-<p>procedure:</p>
-<ul>
-<li><ol class="arabic simple">
-<li><p>Action switch - HA</p></li>
-</ol>
-</li>
-<li><ol class="arabic simple" start="2">
-<li><p>Use antenna hand</p></li>
-</ol>
-<blockquote>
-<div><p>control to position target</p>
-<p>in tracking window.</p>
-</div></blockquote>
-</li>
-<li><ol class="arabic simple" start="3">
-<li><p>Action switch -</p></li>
-</ol>
-<blockquote>
-<div><p>FA/RELEASE</p>
-</div></blockquote>
-</li>
-<li><ol class="arabic simple" start="4">
-<li><p>Verify lockon.</p></li>
-</ol>
-</li>
-</ul>
-</li>
-<li><p>(P or WSO) Bomb button -</p>
-<p>PRESS and HOLD</p>
-</li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="12">
-<li><p>For next missile, repeat</p></li>
-</ol>
-<p>steps 2 through 6.</p>
-</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="direct-delivery-mode">
-<span id="ddmbomb"></span><h2>Direct Delivery Mode<a class="headerlink" href="#direct-delivery-mode" title="Permalink to this heading"></a></h2>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><ol class="arabic simple">
-<li><p>Sight mode knob - A/G</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="2">
-<li><p>Reticle depression knob - SET</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="3">
-<li><p>Delivery mode knob - DIRECT</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="4">
-<li><p>Weapon select - BOMBS</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="5">
-<li><p>AWRU - SET</p></li>
-</ol>
-<ol class="loweralpha simple">
-<li><p>Interval controls - SET</p></li>
-<li><p>Quantity knob - SET</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="6">
-<li><p>Nose/tail arm switch - ON (as</p></li>
-</ol>
-<p>required)</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="7">
-<li><p>Station select - LOADED</p></li>
-</ol>
-<p>STATION(S)</p>
-<ol class="loweralpha simple">
-<li><p>Green light(s) - ON</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="8">
-<li><p>Master arm switch - ARM</p></li>
-</ol>
-<ol class="loweralpha simple">
-<li><p>Head-up ARM light - ON</p></li>
-<li><p>Station ARM light(s) - ON</p></li>
-</ol>
-</td>
-<td><p>NOTE: With the weapon select</p>
-<p>knob in BOMBS, the station ARM</p>
-<p>(amber) light illuminates only</p>
-<p>if the nose/tail arm switch is</p>
-<p>in one of the ON (armed)</p>
-<p>positions.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="9">
-<li><p>Bomb button - PRESS</p></li>
-</ol>
-<ol class="loweralpha">
-<li><p>Pullup light - ON</p></li>
-<li><p>When station is empty,</p>
-<p>station ARM light - OFF</p>
-</li>
-</ol>
-</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="dive-toss-dive-laydown">
-<span id="dtdlbomb"></span><h2>Dive Toss/Dive Laydown<a class="headerlink" href="#dive-toss-dive-laydown" title="Permalink to this heading"></a></h2>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><p><strong>Before Bomb Run</strong></p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple">
-<li><p>Sight mode knob - A/G</p></li>
-</ol>
-</td>
-<td><p>The sight reticle is</p>
-<p>electrically caged to the radar</p>
-<p>boresight line and is drift</p>
-<p>stabilized</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="2">
-<li><p>Delivery mode knob - DIVE</p></li>
-</ol>
-<p>TOSS or DIVE LAY</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="3">
-<li><p>HSI mode switches - NAV COMP</p></li>
-</ol>
-</td>
-<td><p>If the HSI indications are to be</p>
-<p>used, the NAV COMP position must</p>
-<p>be selected.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="4">
-<li><p>(WSO) INS mode selector knob</p></li>
-</ol>
-<ul class="simple">
-<li><p>NAV</p></li>
-</ul>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="5">
-<li><p>(WSO) Radar mode - AIR-GRD</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="6">
-<li><p>(WSO) Radar range - AI 5 or</p></li>
-</ol>
-<p>AI 10</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="7">
-<li><p>(WSO) Radar power - OPR</p></li>
-</ol>
-</td>
-<td><p>B-sweep, acquisition symbol, and</p>
-<p>el strobe centered on scope.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="8">
-<li><p>(WSO) Antenna stab switch -</p></li>
-</ol>
-<p>NOR</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="9">
-<li><p>(WSO) WRCS drag coefficient</p></li>
-</ol>
-<p>counter - SET (DIVE TOSS only)</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="10">
-<li><p>(WSO) WRCS release range</p></li>
-</ol>
-<p>counter - SET (DIVE LAY only)</p>
-<ol class="loweralpha simple">
-<li><p>Range switch - NORM or x100</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="11">
-<li><p>(WSO) WRCS release advance -</p></li>
-</ol>
-<p>SET (if required)</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="12">
-<li><p>Weapon select knob - BOMBS</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="13">
-<li><p>AWRU - SET</p></li>
-</ol>
-<ol class="loweralpha simple">
-<li><p>Interval controls - SET</p></li>
-<li><p>Quantity knob - SET</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="14">
-<li><p>Nose/tail arm switch - ON</p></li>
-</ol>
-<p>(as required)</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="15">
-<li><p>Station select - LOADED</p></li>
-</ol>
-<p>STATION(S)</p>
-<ol class="loweralpha simple">
-<li><p>Green light(s) - ON</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="16">
-<li><p>Master arm switch - ARM</p></li>
-</ol>
-<ol class="loweralpha simple">
-<li><p>Head-up ARM light - ON</p></li>
-<li><p>Station ARM light(s) - ON</p></li>
-</ol>
-</td>
-<td><p>NOTE: With the weapon select</p>
-<p>knob in BOMBS, the station ARM</p>
-<p>(amber) light illuminates only</p>
-<p>if the nose/tail arm switch is</p>
-<p>in one of the ON (armed)</p>
-<p>positions.</p>
-</td>
-</tr>
-<tr class="row-even"><td><p><strong>Bomb Run</strong></p></td>
-<td><p>During the initial dive toward</p>
-<p>the target area, the WSO reduces</p>
-<p>the receiver gain to obtain a</p>
-<p>single return, presses the</p>
-<p>action switch to Half Action,</p>
-<p>places the range strobe in the</p>
-<p>center of the return, and then</p>
-<p>presses the action switch to</p>
-<p>Full Action and releases. After</p>
-<p>lockon, the pilot places the</p>
-<p>popper on target, presses and</p>
-<p>holds the bomb release button,</p>
-<p>and initiates the desired</p>
-<p>delivery maneuver. After the</p>
-<p>bomb is automatically released,</p>
-<p>the pullup light will illuminate</p>
-<p>and will go out when the bomb</p>
-<p>button is released. The station</p>
-<p>ARM light will go out when the</p>
-<p>station is empty.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple">
-<li><p>(WS) Receiver gain - MINIMUM</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="2">
-<li><p>(WSO) Lock on target (Call)</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="3">
-<li><p>Bomb release button - PRESS</p></li>
-</ol>
-<p>AND HOLD</p>
-<ol class="loweralpha">
-<li><p>After bomb release, pullup</p>
-<p>light - ON</p>
-</li>
-<li><p>After station is empty,</p>
-<p>station ARM light - OFF</p>
-</li>
-</ol>
-</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="laydown">
-<span id="laybomb"></span><h2>Laydown<a class="headerlink" href="#laydown" title="Permalink to this heading"></a></h2>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><p><strong>Before Bomb Run</strong></p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple">
-<li><p>Sight mode knob - A/G</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="2">
-<li><p>Delivery mode knob - LAYDOWN</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="3">
-<li><p>Reticle depression knob - SET</p></li>
-</ol>
-<p>(if required)</p>
-</td>
-<td><p>Set the IP-to-target sight</p>
-<p>setting.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="4">
-<li><p>HSI mode switches - NAV COMP</p></li>
-</ol>
-</td>
-<td><p>If the HSI steering information</p>
-<p>is to be used, the NAV COMP</p>
-<p>position must be selected.</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="5">
-<li><p>(WSO) INS mode selector knob-</p></li>
-</ol>
-<p>NAV</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="6">
-<li><p>(WSO) WRCS target range</p></li>
-</ol>
-<p>counter - SET</p>
-</td>
-<td><p>Set the distance from IP to</p>
-<p>target.</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="7">
-<li><p>(WSO) WRCS release range</p></li>
-</ol>
-<p>counter - SET</p>
-<ol class="loweralpha simple">
-<li><p>Range switch - NORM or x100</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="8">
-<li><p>(WSO) WRCS release advance</p></li>
-</ol>
-<p>counter - SET (if required)</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="9">
-<li><p>Weapon select - BOMBS</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="10">
-<li><p>AWRU - SET</p></li>
-</ol>
-<ol class="loweralpha simple">
-<li><p>Interval controls - SET</p></li>
-<li><p>Quantity knob - SET</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="11">
-<li><p>Nose/tail arm switch - ON</p></li>
-</ol>
-<p>(as required)</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="12">
-<li><p>Station select - LOADED</p></li>
-</ol>
-<p>STATION(S)</p>
-<ol class="loweralpha simple">
-<li><p>Green light(s) - ON</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="13">
-<li><p>Master arm switch - ARM</p></li>
-</ol>
-<ol class="loweralpha simple">
-<li><p>Head-up ARM light - ON</p></li>
-<li><p>Station ARM light(s) - ON</p></li>
-</ol>
-</td>
-<td><p>NOTE: With the weapon select</p>
-<p>knob in BOMBS, the station ARM</p>
-<p>(amber) light illuminates only</p>
-<p>if the nose/tail arm switch is</p>
-<p>in one of the ON (armed)</p>
-<p>positions.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><p><strong>Bomb Run</strong></p></td>
-<td><p>Approach the target at the</p>
-<p>preplanned release altitude and</p>
-<p>airspeed. When the aircraft is</p>
-<p>directly over the IP, or when</p>
-<p>the pipper is on the target,</p>
-<p>press and hold the bomb release</p>
-<p>button. Maintain a constant</p>
-<p>airspeed, altitude, and course</p>
-<p>until the bomb is automatically</p>
-<p>released. The pullup light will</p>
-<p>illuminate to indicate bomb</p>
-<p>release and will go out when the</p>
-<p>bomb button is released. Wind</p>
-<p>corrections for the bomb must be</p>
-<p>applied prior to pressing the</p>
-<p>bomb button.</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple">
-<li><p>Bomb release button - PRESS</p></li>
-</ol>
-<p>AND HOLD</p>
-<ol class="loweralpha">
-<li><p>At bomb release, pullup light</p>
-<ul class="simple">
-<li><p>ON</p></li>
-</ul>
-</li>
-<li><p>After station is empty,</p>
-<p>station ARM light - OFF</p>
-</li>
-</ol>
-</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="offset-bomb-target-find">
-<span id="offbomb"></span><h2>Offset Bomb/Target Find<a class="headerlink" href="#offset-bomb-target-find" title="Permalink to this heading"></a></h2>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><p><strong>Before IP</strong></p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple">
-<li><p>Sight mode knob - A/G</p></li>
-</ol>
-</td>
-<td><p>The optical sight reticle is</p>
-<p>electrically caged to the RBL</p>
-<p>and to 0in azimuth. The roll</p>
-<p>tabs display display aircraft</p>
-<p>attitude until target insert,</p>
-<p>then steering commands to the</p>
-<p>target.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="2">
-<li><p>Delivery mode knob - OFFSET</p></li>
-</ol>
-<p>BOMB or TGT FIND</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="3">
-<li><p>Navigation mode selector knob</p></li>
-</ol>
-<ul class="simple">
-<li><p>NAV COMP</p></li>
-</ul>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="4">
-<li><p>HSI mode switches - NAV COMP</p></li>
-</ol>
-</td>
-<td><p>If the HSI steering information</p>
-<p>is to be used, the NAV COMP</p>
-<p>position must be selected.</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="5">
-<li><p>(WSO) INS mode selector knob-</p></li>
-</ol>
-<p>NAV</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="6">
-<li><p>(WSO) Navigation mode</p></li>
-</ol>
-<p>selector switch - NAV COMP</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="7">
-<li><p>(WSO) Weapon delivery panel -</p></li>
-</ol>
-<p>SET</p>
-<ol class="loweralpha simple">
-<li><p>Activate switch - NORM</p></li>
-<li><p>Target find switch - NORM</p></li>
-<li><p>Range switch - AS REQUIRED</p></li>
-</ol>
-</td>
-<td><p>NOTE: The position of the range</p>
-<p>switch will affect the value</p>
-<p>placed in the RANGE readout:</p>
-<p>times 10 (NORM), or times 100.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="8">
-<li><p>(WSO) WRCS input counters -</p></li>
-</ol>
-<p>SET</p>
-<ol class="loweralpha">
-<li><p>Target distance N/S -</p>
-<p>100-foot increments.</p>
-</li>
-<li><p>Target distance E/W -</p>
-<p>100-foot increments.</p>
-</li>
-<li><p>IP altitude MSL - 100-foot</p>
-<p>increments.</p>
-</li>
-<li><p>Release range - 10-foot or</p>
-<p>100-foot increments (OFFSET</p>
-<p>BOMB)</p>
-</li>
-<li><p>Release advance -</p>
-<p>Milliseconds (OFFSET BOMB, if</p>
-<p>required)</p>
-</li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="9">
-<li><p>Weapon select - BOMBS (OFFSET</p></li>
-</ol>
-<p>BOMB)</p>
-</td>
-<td><p>NOTE: The ADI will not provide</p>
-<p>steering if the weapon select</p>
-<p>knob is on ARM.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="10">
-<li><p>AWRU - SET</p></li>
-</ol>
-<ol class="loweralpha simple">
-<li><p>Interval controls - SET</p></li>
-<li><p>Quantity knob - SET</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="11">
-<li><p>Nose/tail arm switch - ON</p></li>
-</ol>
-<p>(as required)</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="12">
-<li><p>Station select - LOADED</p></li>
-</ol>
-<p>STATION(S)</p>
-<ol class="loweralpha simple">
-<li><p>Green light(s) - ON</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="13">
-<li><p>Master arm switch - ARM</p></li>
-</ol>
-<ol class="loweralpha simple">
-<li><p>Head-up ARM light - ON</p></li>
-<li><p>Station ARM light(s) - ON</p></li>
-</ol>
-</td>
-<td><p>NOTE: With the weapon select</p>
-<p>knob in BOMBS, the station ARM</p>
-<p>(amber) light illuminates only</p>
-<p>if the nose/tail arm switch is</p>
-<p>in one of the ON (armed)</p>
-<p>positions.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><p><strong>Bomb Run - Offset Radar IP</strong></p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple">
-<li><p>(WSO) Radar Power - OPR</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="2">
-<li><p>(WSO) Radar mode - MAP-PPI</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="3">
-<li><p>(WSO) Antenna stab switch -</p></li>
-</ol>
-<p>NOR</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="4">
-<li><p>(WSO) Cursor intensity -</p></li>
-</ol>
-<p>ADJUST</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="5">
-<li><p>(WSO) Antenna elevation -</p></li>
-</ol>
-<p>ADJUST</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="6">
-<li><p>(WSO) Scan switch - WIDE</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="7">
-<li><p>(WSO) Radar range - AI 10 or</p></li>
-</ol>
-<p>AI 25</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="8">
-<li><p>(WSO) Operate along track</p></li>
-</ol>
-<p>cursor to position range cursor</p>
-<p>over RIP</p>
-</td>
-<td><p>NOTE: Do not position the range</p>
-<p>cursor below zero range. This</p>
-<p>can cause the cursor and the</p>
-<p>along track control to become</p>
-<p>180out of phase; i.e., forward</p>
-<p>knob motion (increasing range)</p>
-<p>produces downward cursor motion</p>
-<p>(decreasing range). Range</p>
-<p>steering information would be in</p>
-<p>error by 180. If this condition</p>
-<p>occurs, push the reset button</p>
-<p>and roll the knob/cursor out to</p>
-<p>the desired range.</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="9">
-<li><p>(WSO) Operate cross track</p></li>
-</ol>
-<p>cursor to position offset cursor</p>
-<p>over RIP.</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="10">
-<li><p>(WSO) Freeze button - PUSH</p></li>
-</ol>
-<p>ON</p>
-</td>
-<td><p>NOTE: The along track cursor</p>
-<p>must be moved first to initiate</p>
-<p>cursor control. Position the</p>
-<p>intersection of the cursors over</p>
-<p>the RIP and then push the freeze</p>
-<p>button ON; the cursors begin</p>
-<p>tracking the RIP. The cursors</p>
-<p>can be moved to touchup the</p>
-<p>intersection location over the</p>
-<p>RIP after the freeze button is</p>
-<p>pushed on.</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="11">
-<li><p>(WSO) Target insert button -</p></li>
-</ol>
-<p>PUSH ON</p>
-</td>
-<td><p>The steering instruments display</p>
-<p>steering commands when the</p>
-<p>target insert button is pushed</p>
-<p>ON, and the cursor intersection</p>
-<p>will position over the target</p>
-<p>location and track the target.</p>
-<p>If the target is on the scope,</p>
-<p>set the target elevation on the</p>
-<p>ALT RANGE counter and touchup</p>
-<p>the cursors over the target.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="12">
-<li><p>Bomb release button - PRESS</p></li>
-</ol>
-<p>and HOLD (OFFSET BOMB)</p>
-<ol class="loweralpha">
-<li><p>At bomb release, pullup light</p>
-<ul class="simple">
-<li><p>ON</p></li>
-</ul>
-</li>
-<li><p>After station is empty,</p>
-<p>station ARM light - OFF</p>
-</li>
-</ol>
-</td>
-<td><p>NOTE: The roll tabs rotate as</p>
-<p>the target is passed, and the</p>
-<p>BDHI and HSI distance-to-target</p>
-<p>counters will approach zero and</p>
-<p>then start increasing in value.</p>
-</td>
-</tr>
-<tr class="row-even"><td><p><strong>Bomb Run - Visual IP Flyover</strong></p></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple">
-<li><p>(WSO) When over IP, freeze</p></li>
-</ol>
-<p>button and target insert button</p>
-<ul class="simple">
-<li><p>PUSH ON</p></li>
-</ul>
-</td>
-<td><p>When the aircraft is directly</p>
-<p>over the IP, the freeze button</p>
-<p>and the target insert button are</p>
-<p>pushed ON simultaneously. The</p>
-<p>steering instruments supply</p>
-<p>steering commands to the target,</p>
-<p>and the cursors start tracking</p>
-<p>the target. If the target is</p>
-<p>visible on the scope, the WSO</p>
-<p>may touchup the cursors when the</p>
-<p>target elevation is set in the</p>
-<p>ALT RANGE control.</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="2">
-<li><p>Bomb release button - PRESS</p></li>
-</ol>
-<p>and HOLD (OFFSET BOMB)</p>
-<ol class="loweralpha">
-<li><p>At bomb release, pullup light</p>
-<ul class="simple">
-<li><p>ON</p></li>
-</ul>
-</li>
-<li><p>When a station is empty,</p>
-<p>station ARM light - OFF</p>
-</li>
-</ol>
-</td>
-<td><p>When the aircraft is on course</p>
-<p>to the target and at the</p>
-<p>preplanned release altitude and</p>
-<p>true airspeed, press and hold</p>
-<p>the bomb release button until</p>
-<p>bomb release occurs, indicated</p>
-<p>by the illumination of the</p>
-<p>pullup light.</p>
-</td>
-</tr>
-<tr class="row-odd"><td></td>
-<td><p>NOTE: The roll tabs rotate as</p>
-<p>the target is passed, and the</p>
-<p>BDHI and HSI distance-to-target</p>
-<p>counters will approach zero and</p>
-<p>then start increasing in value.</p>
-</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="labs-offset-bomb-target-find">
-<span id="labsbomb"></span><h2>LABS - Offset Bomb/Target Find<a class="headerlink" href="#labs-offset-bomb-target-find" title="Permalink to this heading"></a></h2>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><p><strong>After Takeoff</strong></p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple">
-<li><p>Sight mode knob - A/G</p></li>
-</ol>
-</td>
-<td><p>The optical sight reticle is</p>
-<p>electrically caged to the RBL</p>
-<p>and to 0in azimuth. The roll</p>
-<p>tabs display display aircraft</p>
-<p>attitude until target insert,</p>
-<p>then steering commands to the</p>
-<p>target.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="2">
-<li><p>Delivery mode knob - OFFSET</p></li>
-</ol>
-<p>BOMB or TGT FIND</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="3">
-<li><p>(WSO) Target find switch -</p></li>
-</ol>
-<p>HOLD</p>
-</td>
-<td><p>Select HOLD on the weapon</p>
-<p>delivery panel.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="4">
-<li><p>Navigation mode selector knob</p></li>
-</ol>
-<ul class="simple">
-<li><p>NAV COMP</p></li>
-</ul>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="5">
-<li><p>HSI mode switches - NAV COMP</p></li>
-</ol>
-</td>
-<td><p>If the HSI steering information</p>
-<p>is to be used, the NAV COMP</p>
-<p>position must be selected.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="6">
-<li><p>(WSO) INS mode selector knob-</p></li>
-</ol>
-<p>NAV</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="7">
-<li><p>(WSO) Navigation mode</p></li>
-</ol>
-<p>selector switch - NAV COMP</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="8">
-<li><p>(WSO) WRCS input counters -</p></li>
-</ol>
-<p>SET</p>
-<ol class="loweralpha">
-<li><p>Target distance N/S -</p>
-<p>100-foot increments.</p>
-</li>
-<li><p>Target distance E/W -</p>
-<p>100-foot increments.</p>
-</li>
-<li><p>IP altitude MSL - 100-foot</p>
-<p>increments.</p>
-</li>
-<li><p>Release range - 10-foot or</p>
-<p>100-foot increments (OFFSET</p>
-<p>BOMB)</p>
-</li>
-<li><p>Release range - LABS pullup</p>
-<p>range, 10-foot or 100-foot</p>
-<p>increments</p>
-</li>
-<li><p>Release advance -</p>
-<p>Milliseconds (OFFSET BOMB, if</p>
-<p>required)</p>
-</li>
-</ol>
-</td>
-<td><p>NOTE: The x100 factor is</p>
-<p>selected through the range</p>
-<p>switch on the weapon delivery</p>
-<p>panel.</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="9">
-<li><p>Weapon select - BOMBS (OFFSET</p></li>
-</ol>
-<p>BOMB)</p>
-</td>
-<td><p>NOTE: The ADI will not provide</p>
-<p>steering if the weapon select</p>
-<p>knob is on ARM.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="10">
-<li><p>AWRU - SET</p></li>
-</ol>
-<ol class="loweralpha simple">
-<li><p>Interval controls - SET</p></li>
-<li><p>Quantity knob - SET</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="11">
-<li><p>Nose/tail arm switch - ON</p></li>
-</ol>
-<p>(as required)</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="12">
-<li><p>Station select - LOADED</p></li>
-</ol>
-<p>STATION(S)</p>
-<ol class="loweralpha simple">
-<li><p>Green light(s) - ON</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="13">
-<li><p>Master arm switch - ARM</p></li>
-</ol>
-<ol class="loweralpha simple">
-<li><p>Head-up ARM light - ON</p></li>
-<li><p>Station ARM light(s) - ON</p></li>
-</ol>
-</td>
-<td><p>NOTE: With the weapon select</p>
-<p>knob in BOMBS, the station ARM</p>
-<p>(amber) light illuminates only</p>
-<p>if the nose/tail arm switch is</p>
-<p>in one of the ON (armed)</p>
-<p>positions.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="14">
-<li><p>(WSO) Dual timers - SET</p></li>
-</ol>
-<ol class="loweralpha simple">
-<li><p>Pullup timer - T<span class="math">_1</span></p></li>
-<li><p>Release timer -T<span class="math">_2</span></p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="15">
-<li><p>(WSO) Release gyro - SET</p></li>
-</ol>
-<ol class="loweralpha simple">
-<li><p>Low angle (LOFT) - DEG</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p><strong>Before Bomb Run</strong></p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple">
-<li><p>(WSO) Radar Power - OPR</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="2">
-<li><p>(WSO) Radar mode - MAP-PPI</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="3">
-<li><p>(WSO) Antenna stab switch -</p></li>
-</ol>
-<p>NOR</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="4">
-<li><p>(WSO) Cursor intensity -</p></li>
-</ol>
-<p>ADJUST</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="5">
-<li><p>(WSO) Antenna elevation -</p></li>
-</ol>
-<p>ADJUST</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="6">
-<li><p>(WSO) Scan switch - WIDE</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="7">
-<li><p>(WSO) Radar range - AI 10 or</p></li>
-</ol>
-<p>AI 25</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p><strong>Bomb Run - Offset Radar IP</strong></p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple">
-<li><p>(WSO) Operate along track</p></li>
-</ol>
-<p>cursor to position range cursor</p>
-<p>over RIP</p>
-</td>
-<td><p>NOTE: Do not position the range</p>
-<p>cursor below zero range. This</p>
-<p>can cause the cursor and the</p>
-<p>along track control to become</p>
-<p>180out of phase; i.e., forward</p>
-<p>knob motion (increasing range)</p>
-<p>produces downward cursor motion</p>
-<p>(decreasing range). Range</p>
-<p>steering information would be in</p>
-<p>error by 180. If this condition</p>
-<p>occurs, push the reset button</p>
-<p>and roll the knob/cursor out to</p>
-<p>the desired range.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="2">
-<li><p>(WSO) Operate cross track</p></li>
-</ol>
-<p>cursor to position offset cursor</p>
-<p>over RIP.</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="3">
-<li><p>(WSO) Freeze button - PUSH ON</p></li>
-</ol>
-</td>
-<td><p>NOTE: The along track cursor</p>
-<p>must be moved first to initiate</p>
-<p>cursor control. Position the</p>
-<p>intersection of the cursors over</p>
-<p>the RIP and then push the freeze</p>
-<p>button ON; the cursors begin</p>
-<p>tracking the RIP. The cursors</p>
-<p>can be moved to touchup the</p>
-<p>intersection location over the</p>
-<p>RIP after the freeze button is</p>
-<p>pushed on.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="4">
-<li><p>(WSO) Target insert button -</p></li>
-</ol>
-<p>PUSH ON</p>
-</td>
-<td><p>The steering instruments display</p>
-<p>steering commands when the</p>
-<p>target insert button is pushed</p>
-<p>ON, and the cursor intersection</p>
-<p>will position over the target</p>
-<p>location and track the target.</p>
-<p>If the target is on the scope,</p>
-<p>set the target elevation on the</p>
-<p>ALT RANGE counter and touchup</p>
-<p>the cursors over the target.</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="5">
-<li><p>Bomb release button - PRESS</p></li>
-</ol>
-<p>and HOLD (OFFSET BOMB)</p>
-<ol class="loweralpha">
-<li><p>At bomb release, pullup light</p>
-<ul class="simple">
-<li><p>ON</p></li>
-</ul>
-</li>
-<li><p>After station is empty,</p>
-<p>station ARM light - OFF</p>
-</li>
-</ol>
-</td>
-<td><p>NOTE: The roll tabs rotate as</p>
-<p>the target is passed, and the</p>
-<p>BDHI and HSI distance-to-target</p>
-<p>counters will approach zero and</p>
-<p>then start increasing in value.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><p><strong>Bomb Run - Visual IP Flyover</strong></p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple">
-<li><p>(WSO) When over IP, freeze</p></li>
-</ol>
-<p>button and target insert button</p>
-<ul class="simple">
-<li><p>PUSH ON</p></li>
-</ul>
-</td>
-<td><p>When the aircraft is directly</p>
-<p>over the IP, the freeze button</p>
-<p>and the target insert button are</p>
-<p>pushed ON simultaneously. The</p>
-<p>steering instruments supply</p>
-<p>steering commands to the target,</p>
-<p>and the cursors start tracking</p>
-<p>the target. If the target is</p>
-<p>visible on the scope, the WSO</p>
-<p>may touchup the cursors when the</p>
-<p>target elevation is set in the</p>
-<p>ALT RANGE control.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="2">
-<li><p>Bomb release button - PRESS</p></li>
-</ol>
-<p>and HOLD (OFFSET BOMB)</p>
-<ol class="loweralpha">
-<li><p>At bomb release, pullup light</p>
-<ul class="simple">
-<li><p>ON</p></li>
-</ul>
-</li>
-<li><p>When a station is empty,</p>
-<p>station ARM light - OFF</p>
-</li>
-</ol>
-</td>
-<td><p>When the aircraft is on course</p>
-<p>to the target and at the</p>
-<p>preplanned release altitude and</p>
-<p>true airspeed, press and hold</p>
-<p>the bomb release button until</p>
-<p>bomb release occurs, indicated</p>
-<p>by the illumination of the</p>
-<p>pullup light.</p>
-</td>
-</tr>
-<tr class="row-even"><td></td>
-<td><p>NOTE: The roll tabs rotate as</p>
-<p>the target is passed, and the</p>
-<p>BDHI and HSI distance-to-target</p>
-<p>counters will approach zero and</p>
-<p>then start increasing in value.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><p><strong>Bomb Run LABS/TGT Find</strong></p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple">
-<li><p>Delivery mode knob (LABS) -</p></li>
-</ol>
-<p>AS REQUIRED</p>
-</td>
-<td><p>Select the planned delivery mode</p></td>
-</tr>
-<tr class="row-odd"><td></td>
-<td><p>NOTE: With the target find</p>
-<p>switch on HOLD, the delivery</p>
-<p>mode selector may be positioned</p>
-<p>to any LABS mode without losing</p>
-<p>WRCS function.</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="2">
-<li><p>(WSO) Along track and cross</p></li>
-</ol>
-<p>track controls - AS REQUIRED</p>
-<p>(Visual or Radar IP)</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="3">
-<li><p>(WSO) Freeze button - PUSH ON</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="4">
-<li><p>(WSO) Target insert button -</p></li>
-</ol>
-<p>PUSH ON</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="5">
-<li><p>(WSO) After target insert,</p></li>
-</ol>
-<p>activate switch - ON</p>
-</td>
-<td><p>Select the ON position onlyafter</p>
-<p>steering instruments have</p>
-<p>transitioned to target.</p>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="6">
-<li><p>At warning tone</p></li>
-</ol>
-<p>(T<span class="math">_1</span> start) - INITIATE</p>
-<p>PULLUP</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="7">
-<li><p>Bomb button - PRESS and HOLD</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="loft-bombing">
-<span id="loftbomb"></span><h2>Loft Bombing<a class="headerlink" href="#loft-bombing" title="Permalink to this heading"></a></h2>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><p><strong>Before Bomb Run</strong></p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple">
-<li><p>(WSO) Activate switch -</p></li>
-</ol>
-<p>NORMAL</p>
-</td>
-<td><p>When the WRCS is not used with</p>
-<p>the LABS modes, the target find</p>
-<p>switch and/or the activate</p>
-<p>switch on the weapons delivery</p>
-<p>panel must be positioned to</p>
-<p>NORMAL. .</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="2">
-<li><p>(WSO) Low Angle Knob - SET</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="3">
-<li><p>(WSO) Pullup timer - SET</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="4">
-<li><p>(WSO) Release timer - SET</p></li>
-</ol>
-<p>ZERO</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="5">
-<li><p>Delivery mode knob - LOFT</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="6">
-<li><p>Weapon select knob - BOMBS</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="7">
-<li><p>AWRU - SET</p></li>
-</ol>
-<ol class="loweralpha simple">
-<li><p>Interval controls - SET</p></li>
-<li><p>Quantity knob - SET</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="8">
-<li><p>Nose/tail arm switch - ON (as</p></li>
-</ol>
-<p>required)</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="9">
-<li><p>Station select - LOADED</p></li>
-</ol>
-<p>STATION(S)</p>
-<ol class="loweralpha simple">
-<li><p>Green light(s) - ON</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="10">
-<li><p>Master arm switch - ARM</p></li>
-</ol>
-<ol class="loweralpha simple">
-<li><p>Head-up ARM light - ON</p></li>
-<li><p>Station ARM light(s) - ON</p></li>
-</ol>
-</td>
-<td><p>NOTE: With the weapon select</p>
-<p>knob in BOMBS, the station ARM</p>
-<p>(amber) light illuminates only</p>
-<p>if the nose/tail arm switch is</p>
-<p>in one of the ON (armed)</p>
-<p>positions.</p>
-</td>
-</tr>
-<tr class="row-even"><td><p><strong>At IP</strong> 1. Bomb button - PRESS</p>
-<p>and HOLD</p>
-</td>
-<td><p>The bomb button must be</p>
-<p>energized until the final bomb</p>
-<p>is released.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="2">
-<li><p>At pullup point - INITIATE</p></li>
-</ol>
-<p>PULLUP</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><p><strong>Loft Bomb Delivery</strong></p>
-<p>Approach the IP at the</p>
-<p>preplanned altitude and true</p>
-<p>airspeed. When over the IP,</p>
-<p>press and hold the bomb button</p>
-<p>energized until the final bomb</p>
-<p>is released. When the bomb</p>
-<p>button is pressed, the pullup</p>
-<p>light will illuminate, the</p>
-<p>pullup timer will begin, and the</p>
-<p>ADI pointers will center. Upon</p>
-<p>completion of the pullup timre,</p>
-<p>the pullup light and reticle</p>
-<p>light will go out and the</p>
-<p>horizontal pointer will begin</p>
-<p>programming a 4G pullup. This is</p>
-<p>the signal to the pilot to begin</p>
-<p>rotation into the pullup</p>
-<p>maneuver by flying the ADI</p>
-<p>pointers (4G pullup) or the</p>
-<p>accelerometer. Since the sight</p>
-<p>reticle is pitch stabilized, it</p>
-<p>will not be in view above loft</p>
-<p>angles of 20. When the aircraft</p>
-<p>attitude is at the preselected</p>
-<p>release angle, the pullup light</p>
-<p>and the reticle light</p>
-<p>illuminate, and the bombs will</p>
-<p>begin releasing in a ripple</p>
-<p>sequence. After the final bomb</p>
-<p>is released, the bomb button is</p>
-<p>released and the pilot initiates</p>
-<p>a wingover escape maneuver to</p>
-<p>achieve a 120turn while diving</p>
-<p>toward minimum escape altitude.</p>
-<p>When the bomb button is</p>
-<p>released, a pullup light will go</p>
-<p>out and the horizontal pointer</p>
-<p>will move out of view.</p>
-</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="timed-over-the-shoulder-bombing">
-<span id="tosbomb"></span><h2>Timed Over the Shoulder Bombing<a class="headerlink" href="#timed-over-the-shoulder-bombing" title="Permalink to this heading"></a></h2>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><p><strong>Before Bomb Run</strong></p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple">
-<li><p>(WSO) Activate switch -</p></li>
-</ol>
-<p>NORMAL</p>
-</td>
-<td><p>When the WRCS is not used with</p>
-<p>the LABS modes, the target find</p>
-<p>switch and/or the activate</p>
-<p>switch on the weapons delivery</p>
-<p>panel must be positioned to</p>
-<p>NORMAL. .</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="2">
-<li><p>(WSO) High Angle Knob - SET</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="3">
-<li><p>(WSO) Pullup timer - SET</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="4">
-<li><p>(WSO) Release timer - SET</p></li>
-</ol>
-<p>ZERO</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="5">
-<li><p>Delivery mode knob - O/S</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="6">
-<li><p>Weapon select knob - BOMBS</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="7">
-<li><p>AWRU - SET</p></li>
-</ol>
-<ol class="loweralpha simple">
-<li><p>Interval controls - SET</p></li>
-<li><p>Quantity knob - SET</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="8">
-<li><p>Nose/tail arm switch - ON (as</p></li>
-</ol>
-<p>required)</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="9">
-<li><p>Station select - LOADED</p></li>
-</ol>
-<p>STATION(S)</p>
-<ol class="loweralpha simple">
-<li><p>Green light(s) - ON</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="10">
-<li><p>Master arm switch - ARM</p></li>
-</ol>
-<ol class="loweralpha simple">
-<li><p>Head-up ARM light - ON</p></li>
-<li><p>Station ARM light(s) - ON</p></li>
-</ol>
-</td>
-<td><p>NOTE: With the weapon select</p>
-<p>knob in BOMBS, the station ARM</p>
-<p>(amber) light illuminates only</p>
-<p>if the nose/tail arm switch is</p>
-<p>in one of the ON (armed)</p>
-<p>positions.</p>
-</td>
-</tr>
-<tr class="row-even"><td><p><strong>At IP</strong> 1. Bomb button - PRESS</p>
-<p>and HOLD</p>
-</td>
-<td><p>The bomb button must be</p>
-<p>energized until the final bomb</p>
-<p>is released.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="2">
-<li><p>At pullup point - INITIATE</p></li>
-</ol>
-<p>PULLUP</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><p><strong>Timed O/S Bomb Delivery</strong></p>
-<p>Approach the IP at the</p>
-<p>preplanned altitude and true</p>
-<p>airspeed. When over the IP,</p>
-<p>press and hold the bomb button</p>
-<p>energized until the final bomb</p>
-<p>is released. When the bomb</p>
-<p>button is pressed, the pullup</p>
-<p>light will illuminate, the</p>
-<p>pullup timer will begin, and the</p>
-<p>ADI pointers will center. Upon</p>
-<p>completion of the pullup timer,</p>
-<p>the pullup light and reticle</p>
-<p>light will go out and the</p>
-<p>horizontal pointer will begin</p>
-<p>programming a 4G pullup. This is</p>
-<p>the signal to the pilot to begin</p>
-<p>rotation into the pullup</p>
-<p>maneuver by flying the ADI</p>
-<p>pointers (4G pullup) or the</p>
-<p>accelerometer. Since the sight</p>
-<p>reticle is pitch stabilized, it</p>
-<p>will not be in view above loft</p>
-<p>angles of 20. When the aircraft</p>
-<p>attitude is at the preselected</p>
-<p>release angle, the pullup light</p>
-<p>and the reticle light</p>
-<p>illuminate, and the bombs will</p>
-<p>begin releasing in a ripple</p>
-<p>sequence. After the final bomb</p>
-<p>is released, the bomb button is</p>
-<p>released, and the pilot</p>
-<p>initiates the planned escape.</p>
-<p>When the bomb button is</p>
-<p>released, a pullup light will go</p>
-<p>out and the horizontal pointer</p>
-<p>will move out of view.</p>
-</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="instantaneous-over-the-shoulder-bombing">
-<span id="iosbomb"></span><h2>Instantaneous Over the Shoulder Bombing<a class="headerlink" href="#instantaneous-over-the-shoulder-bombing" title="Permalink to this heading"></a></h2>
-<table class="docutils align-default">
-<tbody>
-<tr class="row-odd"><td><p><strong>Before Bomb Run</strong></p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple">
-<li><p>(WSO) Activate switch -</p></li>
-</ol>
-<p>NORMAL</p>
-</td>
-<td><p>When the WRCS is not used with</p>
-<p>the LABS modes, the target find</p>
-<p>switch and/or the activate</p>
-<p>switch on the weapons delivery</p>
-<p>panel must be positioned to</p>
-<p>NORMAL. .</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="2">
-<li><p>(WSO) High Angle Knob - SET</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="3">
-<li><p>(WSO) Pullup timer - SET</p></li>
-</ol>
-<p>ZERO</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="4">
-<li><p>(WSO) Release timer - SET</p></li>
-</ol>
-<p>ZERO</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="5">
-<li><p>Delivery mode knob - INST O/S</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="6">
-<li><p>Weapon select knob - BOMBS</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="7">
-<li><p>AWRU - SET</p></li>
-</ol>
-<ol class="loweralpha simple">
-<li><p>Interval controls - SET</p></li>
-<li><p>Quantity knob - SET</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="8">
-<li><p>Nose/tail arm switch - ON (as</p></li>
-</ol>
-<p>required)</p>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="9">
-<li><p>Station select - LOADED</p></li>
-</ol>
-<p>STATION(S)</p>
-<ol class="loweralpha simple">
-<li><p>Green light(s) - ON</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="10">
-<li><p>Master arm switch - ARM</p></li>
-</ol>
-<ol class="loweralpha simple">
-<li><p>Head-up ARM light - ON</p></li>
-<li><p>Station ARM light(s) - ON</p></li>
-</ol>
-</td>
-<td><p>NOTE: With the weapon select</p>
-<p>knob in BOMBS, the station ARM</p>
-<p>(amber) light illuminates only</p>
-<p>if the nose/tail arm switch is</p>
-<p>in one of the ON (armed)</p>
-<p>positions.</p>
-</td>
-</tr>
-<tr class="row-even"><td><p><strong>Over the Target</strong> 1. Bomb</p>
-<p>Button - Press and HOLD</p>
-</td>
-<td><p>The bomb button must be</p>
-<p>energized until the final bomb</p>
-<p>is released.</p>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="2">
-<li><p>INITIATE PULLUP</p></li>
-</ol>
-</td>
-<td></td>
-</tr>
-<tr class="row-even"><td></td>
-<td><p><strong>Instantaneous O/S Bomb</strong></p>
-<p><strong>Delivery</strong></p>
-<p>Approach the target at the</p>
-<p>preplanned altitude and true</p>
-<p>airspeed. When over the target,</p>
-<p>press and hold the bomb button</p>
-<p>energized until the final bomb</p>
-<p>is released. When the bomb</p>
-<p>button is pressed, the</p>
-<p>horizontal pointer will begin</p>
-<p>programming a 4G pullup. This is</p>
-<p>the signal to the pilot to begin</p>
-<p>rotation into the pullup</p>
-<p>maneuver by flying the ADI</p>
-<p>pointers (4G pullup) or the</p>
-<p>accelerometer. Since the sight</p>
-<p>reticle is pitch stabilized, it</p>
-<p>will not be in view above loft</p>
-<p>angles of 20. When the aircraft</p>
-<p>attitude is at the preselected</p>
-<p>release angle, the pullup light</p>
-<p>and the reticle light</p>
-<p>illuminate, and the bombs will</p>
-<p>begin releasing in a ripple</p>
-<p>sequence. After the final bomb</p>
-<p>is released, the bomb button is</p>
-<p>released, and the pilot</p>
-<p>initiates the planned escape.</p>
-<p>When the bomb button is</p>
-<p>released, a pullup light will go</p>
-<p>out and the horizontal pointer</p>
-<p>will move out of view.</p>
-</td>
-</tr>
-</tbody>
-</table>
-</section>
-</section>
+<div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
+<tr><td>1.</td><td>NAV Comp Mode</td><td>STBY</td></tr>
+<tr><td>2.</td><td>Align Mode Switch</td><td>HDG MEM</td></tr>
+<tr><td>3.</td><td>INS Power Knob</td><td>ALIGN</td></tr>
+<tr><td>4.</td><td>Alignment</td><td>WAIT</td></tr>
+<tr><td></td><td>a. HEAT Light</td><td>IGNORE</td></tr>
+<tr><td></td><td>b. ALIGN Light</td><td>STEADY</td></tr>
+<tr><td>5.</td><td>INS Power Knob</td><td>NAV</td></tr>
+<tr><td>6.</td><td>INS Light</td><td>OUT</td></tr>
+</tbody></table>
+</div>
+<h2 id="taxi"><a class="header" href="#taxi">Taxi</a></h2>
+<h3 id="before-taxi"><a class="header" href="#before-taxi">Before Taxi</a></h3>
+<h4 id="pilot-1"><a class="header" href="#pilot-1">Pilot</a></h4>
+<div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
+<tr><td>1.</td><td>COMM &amp; NAV Equipment</td><td>ON &amp; CHECK</td></tr>
+<tr><td>2.</td><td>IFF</td><td>STANDBY</td></tr>
+<tr><td><strong>3.</strong></td><td><strong>Radar Altimeter</strong></td><td><strong>ON</strong></td></tr>
+<tr><td><strong>4.</strong></td><td><strong>Altimeter</strong></td><td><strong>SET &amp; CHECK</strong></td></tr>
+<tr><td></td><td><strong>a. Barometric Scale</strong></td><td><strong>SET QNH</strong></td></tr>
+<tr><td></td><td><strong>b. SPC</strong></td><td><strong>RESET CORR</strong></td></tr>
+<tr><td></td><td><strong>c. BARO Altimeter</strong></td><td><strong>HOLD 3 SEC</strong></td></tr>
+<tr><td>5.</td><td>Speed Brakes</td><td>CHECK</td></tr>
+<tr><td>6.</td><td>Slats &amp; Flaps</td><td>CHECK</td></tr>
+<tr><td>7.</td><td>Flight Controls</td><td>CHECK</td></tr>
+<tr><td><strong>8.</strong></td><td><strong>Slats &amp; Flaps</strong></td><td><strong>NORM</strong></td></tr>
+<tr><td>9.</td><td>ARI Disengage</td><td>CHECK</td></tr>
+<tr><td>10.</td><td>STAB AUG Switches</td><td>ENGAGE AND CHECK</td></tr>
+<tr><td><strong>11.</strong></td><td><strong>Reference Sel Switch (if INS NAV)</strong></td><td><strong>PRIM</strong></td></tr>
+<tr><td><strong>12.</strong></td><td><strong>Compass Mode Control Knob</strong></td><td><strong>SYNC</strong></td></tr>
+<tr><td>13.</td><td>AFCS</td><td>CHECK</td></tr>
+<tr><td>14.</td><td>STAB AUG Switches</td><td>DISENGAGE</td></tr>
+<tr><td><strong>15.</strong></td><td><strong>Trim</strong></td><td><strong>SET 1-3 units NOSE DOWN</strong></td></tr>
+<tr><td>16.</td><td>Slats &amp; flaps</td><td>OUT &amp; DOWN</td></tr>
+<tr><td><strong>17.</strong></td><td><strong>Optical Sight</strong></td><td><strong>STBY/CAGE</strong></td></tr>
+<tr><td>18.</td><td>Pneumatic Pressure</td><td>CHECK</td></tr>
+<tr><td>19.</td><td>IFF</td><td>CHECK</td></tr>
+<tr><td>20.</td><td>Radar Altimeter</td><td>CHECK &amp; SET</td></tr>
+<tr><td><strong>21.</strong></td><td><strong>Wheel chocks</strong></td><td><strong>REMOVED</strong></td></tr>
+</tbody></table>
+</div>
+<h4 id="wso-1"><a class="header" href="#wso-1">WSO</a></h4>
+<div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
+<tr><td>1.</td><td>Interior Check</td><td>COMPLETE</td></tr>
+<tr><td>2.</td><td>COMM &amp; NAV Equipment</td><td>ON &amp; CHECK</td></tr>
+<tr><td><strong>3.</strong></td><td><strong>Target Designator</strong></td><td><strong>POWER ON &amp; STOWED</strong></td></tr>
+<tr><td>4.</td><td>Radar BIT Checks</td><td>INITIATE</td></tr>
+<tr><td>5.</td><td>WRCS BIT Checks</td><td>INITIATE</td></tr>
+<tr><td>6.</td><td>NAV Comp Mode</td><td>AS DESIRED</td></tr>
+<tr><td>7.</td><td>Altimeter</td><td>SET &amp; CHECK</td></tr>
+</tbody></table>
+</div>
+<h3 id="taxiing"><a class="header" href="#taxiing">Taxiing</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
+<tr><td>1.</td><td>Wheel Brakes</td><td>TEST</td></tr>
+<tr><td><strong>2.</strong></td><td><strong>Nose Gear Steering</strong></td><td><strong>ENGAGE &amp; CHECK</strong></td></tr>
+<tr><td>3.</td><td>Flight Instruments</td><td>CHECK</td></tr>
+<tr><td>4.</td><td>Oxygen Diluter</td><td>AS REQUIRED</td></tr>
+</tbody></table>
+</div>
+<h2 id="takeoff"><a class="header" href="#takeoff">Takeoff</a></h2>
+<h3 id="before-takeoff-pilot"><a class="header" href="#before-takeoff-pilot">Before Takeoff (Pilot)</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
+<tr><td>1.</td><td>Internal Wing Transfer</td><td>NORMAL</td></tr>
+<tr><td><strong>2.</strong></td><td><strong>STAB AUG Switches</strong></td><td><strong>ENGAGE</strong></td></tr>
+<tr><td>3.</td><td>Flight Controls</td><td>UNRESTRICTED</td></tr>
+<tr><td>4.</td><td>Slats &amp; Flaps</td><td>CHECK OUT &amp; DOWN</td></tr>
+<tr><td>5.</td><td>Anti-Ice</td><td>AS REQUIRED</td></tr>
+<tr><td>6.</td><td>STAB Trim</td><td>CHECK 1-3 units NOSE DOWN</td></tr>
+<tr><td>7.</td><td>Fuel Quantity</td><td>CHECK</td></tr>
+<tr><td><strong>8.</strong></td><td><strong>Canopy</strong></td><td><strong>CLOSE &amp; CHECK</strong></td></tr>
+<tr><td>9.</td><td>Defog &amp; Temperature</td><td>AS REQUIRED</td></tr>
+<tr><td><strong>10.</strong></td><td><strong>Ejection Handle</strong></td><td><strong>ARM</strong></td></tr>
+</tbody></table>
+</div>
+<h4 id="after-runway-line-up"><a class="header" href="#after-runway-line-up">After Runway Line-Up</a></h4>
+<div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
+<tr><td>1.</td><td>External Transfer</td><td>AS DESIRED</td></tr>
+<tr><td><strong>2.</strong></td><td><strong>Anti Skid</strong></td><td><strong>ON &amp; LIGHT OUT</strong></td></tr>
+<tr><td>3.</td><td>Compass Heading</td><td>CHECK</td></tr>
+<tr><td><strong>4.</strong></td><td><strong>Pitot Heat</strong></td><td><strong>ON</strong></td></tr>
+<tr><td>5.</td><td>IFF</td><td>AS REQUIRED</td></tr>
+<tr><td>6.</td><td>Circuit Breakers</td><td>CHECK IN</td></tr>
+<tr><td>7.</td><td>Warning Lights</td><td>CHECK</td></tr>
+</tbody></table>
+</div>
+<h3 id="after-takeoff"><a class="header" href="#after-takeoff">After Takeoff</a></h3>
+<h4 id="climb"><a class="header" href="#climb">Climb</a></h4>
+<div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
+<tr><td><strong>1.</strong></td><td><strong>Gear</strong></td><td><strong>UP</strong></td></tr>
+<tr><td><strong>2.</strong></td><td><strong>Slats &amp; Flaps</strong></td><td><strong>NORM (180 knots MIN)</strong></td></tr>
+</tbody></table>
+</div>
+<h4 id="cruise"><a class="header" href="#cruise">Cruise</a></h4>
+<div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
+<tr><td>1.</td><td>Altimeter</td><td></td></tr>
+<tr><td></td><td></td><td>SET</td></tr>
+<tr><td></td><td></td><td>CHECK STBY</td></tr>
+<tr><td></td><td></td><td>RESET</td></tr>
+<tr><td></td><td></td><td>COMPARE</td></tr>
+<tr><td>2.</td><td>Radar Altimeter</td><td>AS REQUIRED</td></tr>
+<tr><td>3.</td><td>OPS Check</td><td></td></tr>
+<tr><td></td><td>a. Oxygen Quantity/Pressure/Blinker</td><td>CHECK</td></tr>
+<tr><td></td><td>b. Cockpit Pressure</td><td>CHECK</td></tr>
+<tr><td></td><td>c. Fuel Quantity/Transfer Switches</td><td>CHECK</td></tr>
+<tr><td></td><td>d. STBY Compass</td><td>CHECK</td></tr>
+<tr><td></td><td>e. Circuit Breakers</td><td>CHECK</td></tr>
+<tr><td>4.</td><td>Anti-Ice Switch</td><td>AS REQUIRED</td></tr>
+</tbody></table>
+</div>
+<h2 id="landing"><a class="header" href="#landing">Landing</a></h2>
+<h3 id="before-landing"><a class="header" href="#before-landing">Before Landing</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
+<tr><td>1.</td><td>Defog &amp; Temperature</td><td>AS DESIRED</td></tr>
+<tr><td>2.</td><td>ALE-40 Flares/Norm Switch</td><td>NORMAL</td></tr>
+<tr><td><strong>3.</strong></td><td><strong>STAB AUG Switches</strong></td><td><strong>ENGAGED</strong></td></tr>
+<tr><td>4.</td><td>COMM Antenna Select Switch</td><td>UPR</td></tr>
+<tr><td><strong>5.</strong></td><td><strong>Landing/Taxi Light</strong></td><td><strong>LANDING</strong></td></tr>
+<tr><td>6.</td><td>Armament Switches</td><td>OFF/SAFE/STOW</td></tr>
+<tr><td>7.</td><td>Sight</td><td>STBY/CAGE</td></tr>
+<tr><td>8.</td><td>Radar &amp; BARO Altimeter</td><td>SET</td></tr>
+<tr><td>9.</td><td>Fuel</td><td>CHECK</td></tr>
+</tbody></table>
+</div>
+<h3 id="in-pattern-below-210-knots"><a class="header" href="#in-pattern-below-210-knots">In Pattern (below 210 knots)</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
+<tr><td><strong>1.</strong></td><td><strong>Gear</strong></td><td><strong>DOWN</strong></td></tr>
+<tr><td><strong>2.</strong></td><td><strong>Slats &amp; Flaps</strong></td><td><strong>OUT &amp; DOWN</strong></td></tr>
+<tr><td>3.</td><td>Hydraulic Pressure</td><td>CHECK</td></tr>
+<tr><td>4.</td><td>Warning Lights</td><td>CHECK</td></tr>
+<tr><td><strong>5.</strong></td><td><strong>Anti Skid</strong></td><td><strong>ON &amp; LIGHT OUT</strong></td></tr>
+</tbody></table>
+</div>
+<h3 id="after-landing"><a class="header" href="#after-landing">After Landing</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
+<tr><td><strong>1.</strong></td><td><strong>Drag Chute</strong></td><td><strong>DEPLOY</strong></td></tr>
+<tr><td><strong>2.</strong></td><td><strong>Wheel Brake (below 70 knots)</strong></td><td><strong>ENGAGE</strong></td></tr>
+<tr><td><strong>3.</strong></td><td><strong>Anti Skid (below 30 knots)</strong></td><td><strong>OFF</strong></td></tr>
+<tr><td>4.</td><td>Cockpit Pressure</td><td>CHECK</td></tr>
+<tr><td><strong>5.</strong></td><td><strong>Ejection Handle</strong></td><td><strong>SAFE</strong></td></tr>
+<tr><td><strong>6.</strong></td><td><strong>Landing/Taxi Light</strong></td><td><strong>AS REQUIRED</strong></td></tr>
+<tr><td>7.</td><td>Slats &amp; Flaps</td><td>NORM</td></tr>
+<tr><td><strong>8.</strong></td><td><strong>Drag Chute</strong></td><td><strong>JETTISON</strong></td></tr>
+<tr><td>9.</td><td>Mode 4 Sel</td><td>HOLD</td></tr>
+<tr><td><strong>10.</strong></td><td><strong>ECM/ALE/RWR/APX-76</strong></td><td><strong>OFF</strong></td></tr>
+<tr><td><strong>11.</strong></td><td><strong>Radar/CW Power</strong></td><td><strong>OFF</strong></td></tr>
+<tr><td>12.</td><td>STAB AUG Switches</td><td>OFF</td></tr>
+<tr><td>13.</td><td>Internal Wing Dump</td><td>NORMAL</td></tr>
+<tr><td>14.</td><td>VOR/ILS Control Panel</td><td>OFF</td></tr>
+<tr><td>15.</td><td>Engine Anti-Ice</td><td>NORMAL</td></tr>
+<tr><td>16.</td><td>Radar Altimeter</td><td>OFF</td></tr>
+<tr><td>17.</td><td>STAB Trim</td><td>1-3 units NOSE DOWN</td></tr>
+<tr><td><strong>18.</strong></td><td><strong>Reference Sel Switch</strong></td><td><strong>STBY</strong></td></tr>
+<tr><td>19.</td><td>Rain Removal</td><td>OFF</td></tr>
+<tr><td><strong>20.</strong></td><td><strong>Pitot Heat</strong></td><td><strong>OFF</strong></td></tr>
+<tr><td>21.</td><td>IFF</td><td>OFF</td></tr>
+<tr><td>22.</td><td>Temperature</td><td>FULL HOT</td></tr>
+<tr><td>23.</td><td>Defog Handle</td><td>DEFOG</td></tr>
+<tr><td>24.</td><td>TACAN</td><td>OFF</td></tr>
+<tr><td>25.</td><td>Formation Lights</td><td>OFF</td></tr>
+<tr><td>26.</td><td>Sight Shutter</td><td>CLOSED</td></tr>
+</tbody></table>
+</div>
+<h2 id="shutdown"><a class="header" href="#shutdown">Shutdown</a></h2>
+<h3 id="pilot-2"><a class="header" href="#pilot-2">Pilot</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
+<tr><td>1.</td><td>Wheels</td><td>CHOCKED</td></tr>
+<tr><td>2.</td><td>UHF Radio</td><td>OFF</td></tr>
+<tr><td>3.</td><td>Ejection Seat</td><td>RAISE</td></tr>
+<tr><td>4.</td><td>Defog Handle</td><td>FULL AFT</td></tr>
+<tr><td>5.</td><td>Temperature</td><td>12 o'clock</td></tr>
+<tr><td>6.</td><td>Air Refuel Switch (if AAR)</td><td>EXTEND</td></tr>
+<tr><td><strong>7.</strong></td><td><strong>Right Throttle</strong></td><td><strong>OFF</strong></td></tr>
+<tr><td>8.</td><td>AVTR Tape</td><td>REMOVE</td></tr>
+<tr><td>9.</td><td>Spoiler Actuator</td><td>CHECK (RIGHT)</td></tr>
+<tr><td><strong>10.</strong></td><td><strong>Left Throttle</strong></td><td><strong>OFF</strong></td></tr>
+<tr><td><strong>11.</strong></td><td><strong>Engine Master Switches</strong></td><td><strong>OFF</strong></td></tr>
+<tr><td>12.</td><td>All Switches and Controls</td><td>OFF</td></tr>
+<tr><td>13.</td><td>Oxygen Diluter</td><td>100%</td></tr>
+</tbody></table>
+</div>
+<h3 id="wso-2"><a class="header" href="#wso-2">WSO</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
+<tr><td>1.</td><td>UHF Radio</td><td>OFF</td></tr>
+<tr><td>2.</td><td>Ejection Seat</td><td>RAISE</td></tr>
+<tr><td>3.</td><td>INS</td><td>OFF</td></tr>
+<tr><td>4.</td><td>NAV Computer</td><td>OFF</td></tr>
+<tr><td>5.</td><td>Target Designator</td><td>OFF</td></tr>
+<tr><td>12.</td><td>All Switches and Controls</td><td>OFF</td></tr>
+<tr><td>13.</td><td>Oxygen Diluter</td><td>100%</td></tr>
+</tbody></table>
+</div>
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="weapons.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
 
 
-           </div>
-          </div>
-          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="weapons.html" class="btn btn-neutral float-left" title="Weapons and Weapons Employment Overview" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-    </div>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
 
-  <hr/>
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="weapons.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
 
-  <div role="contentinfo">
-    <p>&#169; Copyright 2023, Heatblur Simulations.</p>
-  </div>
+            </nav>
 
-  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
-    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
-    provided by <a href="https://readthedocs.org">Read the Docs</a>.
-   
-
-</footer>
         </div>
-      </div>
-    </section>
-  </div>
-  <script>
-      jQuery(function () {
-          SphinxRtdTheme.Navigation.enable(true);
-      });
-  </script> 
 
-</body>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
 </html>
