@@ -34,9 +34,12 @@ To build the website locally, you have to install **mdbook**, see
 [here](https://rust-lang.github.io/mdBook/guide/installation.html).
 
 Then run the command `mdbook build` from this folder; the website can be found
-in the folder `book`. Use `mdbook serve` to make the contents available in your
+in the folder `book/html`. Use `mdbook serve` to make the contents available in your
 browser at [localhost:3000](http://localhost:3000/), it automatically updates
 whenever the contents change.
+
+To build the PDF locally, use `cargo install mdbook-pdf` first. Then, when running `mdbook build`,
+the PDF will be created in `book/pdf`.
 
 ## GH Pages
 
