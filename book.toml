@@ -15,7 +15,6 @@ mathjax-support = true
 [output.pdf]
 optional = true
 theme = "Latte"
-print-background = true
 display-header-footer = true
 header-template = "<h3 style='font-size:12px; margin-left: 42%' class='title'></h3>"
 footer-template = "<p style='font-size:12px; margin-left: 48%'><span class='pageNumber'></span> / <span class='totalPages'></span></p>"
