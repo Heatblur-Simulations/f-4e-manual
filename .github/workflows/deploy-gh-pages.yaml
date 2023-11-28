@@ -20,7 +20,6 @@ jobs:
         uses: peaceiris/actions-mdbook@v1.2.0
         with:
           mdbook-version: "latest"
-      - run: cargo install mdbook-pdf
       - run: mdbook build
 
       - name: Deploy
