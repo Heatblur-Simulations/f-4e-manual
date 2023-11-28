@@ -13,6 +13,7 @@ additional-css = ['theme/catppuccin.css', 'theme/catppuccin-admonish.css']
 mathjax-support = true
 
 [output.pdf]
+optional = true
 theme = "Latte"
 print-background = true
 display-header-footer = true
