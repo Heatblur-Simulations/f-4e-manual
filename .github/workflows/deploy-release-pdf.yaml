@@ -28,7 +28,7 @@ jobs:
         uses: ncipollo/release-action@v1.13.0
         with:
           artifactErrorsFailBuild: true
-          artifacts: "book/pdf/output.pdf"
+          artifacts: "book/pdf/f4e_manual.pdf"
           artifactContentType: "application/pdf"
           generateReleaseNotes: true
           omitBody: true
