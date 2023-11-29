@@ -4,14 +4,23 @@
 }
 
 :root {
-  --content-max-width: 600px;
-}
-
-.menu-title {
-  text-align: left !important;
-  margin: 0px 30px;
+  --content-max-width: 600px !important;
 }
 
 .menu-bar {
-  max-width: 800px;
+  max-width: 845px !important;
+}
+
+.content {
+  max-width: 800px !important;
+  background-color: var(--bg) !important;
+  margin-left: 20px !important;
+}
+
+.page {
+  background-color: var(--sidebar-bg) !important;
+}
+
+.nav-chapters {
+  background-color: var(--bg) !important;
 }
