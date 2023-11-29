@@ -1,0 +1,435 @@
+<!DOCTYPE HTML>
+<html lang="en" class="navy" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Defensive Systems - Heatblur F-4E Phantom II</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="Manual of the F-4E Phantom by Heatblur Simulations.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../theme/extra.css">
+        <link rel="stylesheet" href="../theme/catppuccin.css">
+        <link rel="stylesheet" href="../theme/catppuccin-admonish.css">
+        <link rel="stylesheet" href="../theme/pdf.css">
+
+        <!-- MathJax -->
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "navy";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('navy')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item affix "><a href="../f4e_manual.html">F-4E Manual</a></li><li class="chapter-item "><a href="../intro/introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../intro/history.html"><strong aria-hidden="true">1.1.</strong> Historical Background</a></li><li class="chapter-item "><a href="../intro/foreign.html"><strong aria-hidden="true">1.2.</strong> Foreign Service</a></li><li class="chapter-item "><a href="../intro/air_to_air.html"><strong aria-hidden="true">1.3.</strong> Air to Air Kills</a></li><li class="chapter-item "><a href="../intro/first_flights.html"><strong aria-hidden="true">1.4.</strong> First Flights</a></li><li class="chapter-item "><a href="../intro/specification.html"><strong aria-hidden="true">1.5.</strong> Technical Specification</a></li></ol></li><li class="chapter-item "><a href="../cockpit/overview.html"><strong aria-hidden="true">2.</strong> Cockpit Overview</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../cockpit/pilot/overview.html"><strong aria-hidden="true">2.1.</strong> Pilot Cockpit</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../cockpit/pilot/dcsg_controls.html"><strong aria-hidden="true">2.1.1.</strong> DSCG Controls</a></li><li class="chapter-item "><a href="../cockpit/pilot/overhead_indicators.html"><strong aria-hidden="true">2.1.2.</strong> Overhead Indicators</a></li><li class="chapter-item "><a href="../cockpit/pilot/weapon_management.html"><strong aria-hidden="true">2.1.3.</strong> Weapon Management</a></li><li class="chapter-item "><a href="../cockpit/pilot/flight_director_group.html"><strong aria-hidden="true">2.1.4.</strong> Flight Director Group</a></li><li class="chapter-item "><a href="../cockpit/pilot/right_main_panel.html"><strong aria-hidden="true">2.1.5.</strong> Right Main Panel</a></li><li class="chapter-item "><a href="../cockpit/pilot/left_sub_panel.html"><strong aria-hidden="true">2.1.6.</strong> Left Sub-Panel</a></li><li class="chapter-item "><a href="../cockpit/pilot/left_console.html"><strong aria-hidden="true">2.1.7.</strong> Left Console</a></li><li class="chapter-item "><a href="../cockpit/pilot/pedestal_group.html"><strong aria-hidden="true">2.1.8.</strong> Pedestal Group</a></li><li class="chapter-item "><a href="../cockpit/pilot/right_sub_panel.html"><strong aria-hidden="true">2.1.9.</strong> Right Sub-Panel</a></li><li class="chapter-item "><a href="../cockpit/pilot/right_console.html"><strong aria-hidden="true">2.1.10.</strong> Right Console</a></li></ol></li><li class="chapter-item "><a href="../cockpit/wso/overview.html"><strong aria-hidden="true">2.2.</strong> WSO Cockpit</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../cockpit/wso/upfront_indicators.html"><strong aria-hidden="true">2.2.1.</strong> Upfront Indicators</a></li><li class="chapter-item "><a href="../cockpit/wso/left_sub_panel.html"><strong aria-hidden="true">2.2.2.</strong> Left Sub-Panel</a></li><li class="chapter-item "><a href="../cockpit/wso/left_console.html"><strong aria-hidden="true">2.2.3.</strong> Left Console</a></li><li class="chapter-item "><a href="../cockpit/wso/pedestal_group.html"><strong aria-hidden="true">2.2.4.</strong> Pedestal Group</a></li><li class="chapter-item "><a href="../cockpit/wso/right_sub_panel.html"><strong aria-hidden="true">2.2.5.</strong> Right Sub-Panel</a></li><li class="chapter-item "><a href="../cockpit/wso/right_console.html"><strong aria-hidden="true">2.2.6.</strong> Right Console</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../systems/overview.html"><strong aria-hidden="true">3.</strong> Systems Overview</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../systems/flight_controls.html"><strong aria-hidden="true">3.1.</strong> Flight Control System</a></li><li class="chapter-item "><a href="../systems/primary_flight_instruments.html"><strong aria-hidden="true">3.2.</strong> Primary Flight Instruments</a></li><li class="chapter-item "><a href="../systems/navigation_communication.html"><strong aria-hidden="true">3.3.</strong> Navigation & Communication</a></li><li class="chapter-item "><a href="../systems/identification_systems.html"><strong aria-hidden="true">3.4.</strong> Identification Systems</a></li><li class="chapter-item "><a href="../systems/lighting.html"><strong aria-hidden="true">3.5.</strong> Lighting</a></li><li class="chapter-item "><a href="../systems/emergency.html"><strong aria-hidden="true">3.6.</strong> Emergency</a></li><li class="chapter-item "><a href="../systems/utility.html"><strong aria-hidden="true">3.7.</strong> Utility</a></li><li class="chapter-item "><a href="../systems/weapon_systems.html"><strong aria-hidden="true">3.8.</strong> Weapon Systems</a></li><li class="chapter-item expanded "><a href="../systems/defensive_systems.html" class="active"><strong aria-hidden="true">3.9.</strong> Defensive Systems</a></li></ol></li><li class="chapter-item "><a href="../weapons/overview.html"><strong aria-hidden="true">4.</strong> Weapons and Weapons Employment</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../weapons/guns.html"><strong aria-hidden="true">4.1.</strong> Guns</a></li><li class="chapter-item "><a href="../weapons/air_to_air.html"><strong aria-hidden="true">4.2.</strong> Air to Air</a></li><li class="chapter-item "><a href="../weapons/air_to_ground.html"><strong aria-hidden="true">4.3.</strong> Air to Ground</a></li></ol></li><li class="chapter-item "><a href="../procedures/overview.html"><strong aria-hidden="true">5.</strong> Procedures</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../procedures/pre_start.html"><strong aria-hidden="true">5.1.</strong> Pre-Start</a></li><li class="chapter-item "><a href="../procedures/startup.html"><strong aria-hidden="true">5.2.</strong> Startup</a></li><li class="chapter-item "><a href="../procedures/taxi.html"><strong aria-hidden="true">5.3.</strong> Taxi</a></li><li class="chapter-item "><a href="../procedures/takeoff.html"><strong aria-hidden="true">5.4.</strong> Takeoff</a></li><li class="chapter-item "><a href="../procedures/landing.html"><strong aria-hidden="true">5.5.</strong> Landing</a></li><li class="chapter-item "><a href="../procedures/shutdown.html"><strong aria-hidden="true">5.6.</strong> Shutdown</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="frappe">Frappé</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="pdf">Pdf</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Heatblur F-4E Phantom II</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/Heatblur-Simulations/f-4e-manual" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/Heatblur-Simulations/f-4e-manual/edit/master/src/systems/defensive_systems.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="defensive-systems"><a class="header" href="#defensive-systems">Defensive Systems</a></h1>
+<h2 id="anale-40-countermeasures-system"><a class="header" href="#anale-40-countermeasures-system">AN/ALE-40 Countermeasures System</a></h2>
+<p>The AN/ALE-40 countermeasures dispenser set provides the capability of
+dispensing RR-170 A/AL chaff cartridges or MJU-7/B infrared flare cartridges, or
+a combination of both. The system is comprised of four chaff dispensers, or a
+combination of two chaff dispensers and two flare dispensers located on the
+inboard armament pylons; a programmer and flares select switch in the pilot
+cockpit; a cockpit control unit (CCU) in the WSO cockpit; indicator lights
+located in both front and rear cockpit; and a dispense button located both in
+the pilot and the WSO cockpit. The circuit breaker for the ALE-40 is located on
+the No.4 Circuit Breaker Panel above the aft left console in the WSO cockpit.</p>
+<p><img src="../img/cm_dispenser.png" alt="cm_dispenser" /></p>
+<p>Available loadout combinations are: empty; 120x chaff; 15x Flares + 90x chaff;
+30x flares + 60x chaffs; and 30x flares.</p>
+<p>Dispensing of countermeasures can be initiated by either the pilot or the WSO
+from either the front or the rear cockpit. The CCU will initiate the various
+modes of operation. The programmer will generate the firing commands in
+different combinations called bursts or salvos. A group of several bursts
+constitutes a salvo. The pylon mounted dispensers will convert the firing
+commands to individually sequenced firing signals. If the operation mode is set
+to chaff, the dispensing will start in the left pylon dispenser and then
+transfer the dispensing signals to the right pylon dispenser upon depletion of
+stores in the left dispenser. If the operation mode is set to flare, dispensing
+will start in the right pylon master dispenser and upon depletion of stores the
+sequencer switch will transfer the dispensing signal to the left master
+dispenser. Flares can also be jettisoned from their dispensers at a rate of 10
+flares per second by activating the ripple switch located on the CCU.</p>
+<h3 id="anale-40-cockpit-control-unit-ccu"><a class="header" href="#anale-40-cockpit-control-unit-ccu">AN/ALE-40 Cockpit Control Unit (CCU)</a></h3>
+<p>The Cockpit Control Unit (CCU) is installed on the left console of the rear
+cockpit. It consists of a chaff and a flare mode rotary knob, two subtraction
+counters, two indicator lights, a guarded ripple switch and a chaff/flare
+dispenser button. The CCU issues dispense and mode signals through the
+programmer.</p>
+<h3 id="chaff-mode-knob"><a class="header" href="#chaff-mode-knob">Chaff Mode Knob</a></h3>
+<p>The chaff operating modes can be selected by turning the chaff mode knob from
+the OFF position to either the SGL, MULT or PROG positions. With the flare
+select switch in the NORMAL position and flaps and speed brakes retracted, the
+switch positions function as follows:</p>
+<p>OFF Chaff system not activated/ not operational. SGL A single burst command that
+is sent to the chaff dispenser whenever either dispense button is pressed. MULT
+One salvo of fire commands is sent to the dispenser through the programmer
+whenever either dispense button is pressed. PROG A group of salvo fire commands
+is sent to the dispenser through the programmer whenever either dispense button
+is pressed.</p>
+<h3 id="flare-mode-knob"><a class="header" href="#flare-mode-knob">Flare Mode Knob</a></h3>
+<p>The flare operating modes can be selected by turning the flare mode knob from
+the OFF position to either the SGL or PROG positions. With the flare select
+switch in the NORMAL position and flaps and speed brakes retracted, the switch
+positions function as follows:</p>
+<p>OFF Flare system not activated/ not operational. SGL A single burst command that
+is sent to the flare dispenser whenever either dispense button is pressed. PROG
+One salvo of fire commands is sent to the dispenser through the programmer
+whenever either dispense button is pressed.</p>
+<h3 id="chaff-and-flare-counters"><a class="header" href="#chaff-and-flare-counters">Chaff and Flare Counters</a></h3>
+<p>There are two subtraction counters, one for the chaff system and one for the
+flare system. They indicate the quantity of remaining chaff and flare cartridge
+dispensers independent of the mode switch position.</p>
+<p>NOTE: When the slave dispenser is set to Chaff Double (CD), the chaff counter
+should be set to half the number of total chaff cartridges loaded or the chaff
+counter will show twice the number of chaff cartridge dispenses remaining.</p>
+<h3 id="chaff-and-flare-indicator-lights"><a class="header" href="#chaff-and-flare-indicator-lights">Chaff and Flare Indicator Lights</a></h3>
+<p>Both the flare and the chaff system have one green indicator light each.
+Whenever a mode is selected on the respective mode knob, the corresponding
+indicator light will illuminate.</p>
+<p>NOTE: Both flare and chaff modes can be operated simultaneously provided a mixed
+chaff/flare loadout has been selected.</p>
+<h3 id="ripple-switch"><a class="header" href="#ripple-switch">Ripple Switch</a></h3>
+<p>The ripple switch is guarded. When the guard is lifted and the switch is set to
+ON, it will initiate flare dispensing regardless of the position of any other
+switches or mode knobs in the countermeasures system- if the flaps and the speed
+brakes are retracted. The flares will be dispensed at a rate of 10 flares per
+second until both left and right pylon dispensers are empty.</p>
+<h3 id="dispense-button-rear-cockpit"><a class="header" href="#dispense-button-rear-cockpit">Dispense Button (Rear Cockpit)</a></h3>
+<p>When pressing the dispense button chaff/flare dispensing is initiated as set on
+the CCU and AN/ALE-40 programmer if the flaps and speed brakes are retracted,
+and provided either or both the chaff/flare mode knobs are in any position other
+than OFF.</p>
+<h3 id="anale-40-programmer"><a class="header" href="#anale-40-programmer">AN/ALE-40 Programmer</a></h3>
+<p>The AN/ALE-40 Programmer contains the controls and circuitry used to send
+specific fire commands to the chaff/flare dispensers. The following functions
+are available:</p>
+<p>Control Function</p>
+<p>CHAFF BURST: Selects the quantity of chaff bursts per salvo COUNT 1, 2, 3, 4, 6,
+8 (units) INTERVAL .1, .2, .3, .4 Selects the time interval between each chaff
+burst (seconds) CHAFF SALVO: Selects the number of salvos COUNT 1, 2, 4, 8, C
+(continuous) INTERVAL 1, 2, 3, 4, Selects the time interval in seconds between
+each salvo 5, 8, R (random) FLARE BURST: Selects the quantity of flare bursts
+COUNT 1, 2, 4, 8, C (continuous) INTERVAL 3, 4, 6, 8, Selects the time interval
+between each flare burst 10 (seconds)</p>
+<h3 id="flares-select-switch"><a class="header" href="#flares-select-switch">Flares Select Switch</a></h3>
+<p>If the flares select switch is in the NORMAL position, it arms the
+countermeasures dispenser system and allows for chaffs and flares to be
+dispensed as set by the CCU and the programmer by pressing either dispense
+button.</p>
+<p>If the flares select switch is in the FLARES position it only affects the front
+cockpit dispense button by ignoring all switches and knobs in the
+countermeasures system, provided that the flaps and speed brakes are retracted.
+This allows the pilot to dispense a single flare each time he presses the
+dispense button. Rear cockpit dispense functions are unaffected by the switch
+position.</p>
+<h3 id="flares-indicator-light-amber"><a class="header" href="#flares-indicator-light-amber">Flares Indicator Light (Amber)</a></h3>
+<p>The FLARES indicator light is amber. It illuminates when the flares select
+switch is set to FLARES. When illuminated, flares can be dispensed by pressing
+the front cockpit dispense button regardless of programmer and CCU switch and
+knob positions, if the flaps and speed brakes are retracted.</p>
+<h3 id="anale-40-power-on-indicator-light-green"><a class="header" href="#anale-40-power-on-indicator-light-green">AN/ALE-40 Power On Indicator Light (Green)</a></h3>
+<p>The AN/ALE-40 power on indicator light is green. It illuminates when the flares
+select switch is set to NORMAL and either (or both) of the chaff and flare mod
+knobs are in any position other than OFF.</p>
+<h3 id="dispense-button-front-cockpit"><a class="header" href="#dispense-button-front-cockpit">Dispense Button (Front Cockpit)</a></h3>
+<p>When pressing the dispense button chaff/flare dispensing is initiated as set on
+the CCU and AN/ALE-40 programmer if the flaps and speed brakes are retracted and
+the flares select switch is set to NORMAL. Additionally single unit flare
+dispensing can be initiated by a single button press if the flares select switch
+is set to FLARES.</p>
+<h3 id="anale-40-dispensers"><a class="header" href="#anale-40-dispensers">AN/ALE-40 Dispensers</a></h3>
+<p>The AN/ALE-40 countermeasures dispensers are divided into two distinct dispenser
+configurations. The master (outboard) dispenser contains the electronics and
+sequencer switch for both dispensers on each pylon and is installed on the
+outboard side of the inboard armament pylons. The slave (inboard) dispenser is
+installed on the inboard side of the inboard armament pylons and is connected to
+the master dispenser by an interconnect cable. The aircraft can be configured
+either with four chaff payload modules on all four dispensers or two chaff
+payload modules on the slave dispensers and two flare payload modules on the
+master dispensers. Only chaff payload modules can be installed on the slave
+dispensers; flare payload modules can only be installed on the master
+dispensers.</p>
+<h3 id="master-dispenser-assembly"><a class="header" href="#master-dispenser-assembly">Master Dispenser Assembly</a></h3>
+<p>NOTE: Operation of the master dispenser assembly is done automatically by the
+ground crew in DCS, according to the AN/ALE-40 loadout selected in the loadout
+menu.</p>
+<p>One master dispenser assembly is installed on the outboard side of each inboard
+armament pylon. It consists of a sequencer switch, a breech assembly, a
+RESET/OPERATE circuit breaker switch, a payload control switch, a safety pin
+switch with safety pin and warning streamer and relevant electrical circuitry.
+The sequencer switch converts the firing commands into individual firing signals
+for each pyrotechnic squib in both the master and slave dispensers. The breech
+assembly provides the interface to mount the chaff or flare payload modules.
+Insertion of the safety pin removes electrical power to both pylon mounted
+dispensers. After a full chaff or flare module has been loaded, the
+RESET/OPERATE switch is placed in OPERATE. The chaff or flare sections will fire
+in sequence. After flight, if a partial load of chaff or flares remains, the
+switch should be left in OPERATE. If the switch is moved to RESET, the empty
+chaff or flare stations have to be stepped through before loaded stations will
+fire. The payload selector switch positions C (chaff) and F (flare) only define
+the master dispenser mode of deployment and are set automatically in DCS
+according to the selected loadout.</p>
+<h3 id="slave-dispenser-assembly"><a class="header" href="#slave-dispenser-assembly">Slave Dispenser Assembly</a></h3>
+<p>Note: The payload selector switch position is set to CS (chaff single dispense)
+by default in DCS. To set it to CD (chaff double dispense), you have to do so
+either in the Mission Editor Unit Aircraft Additional Options tab or in the
+kneeboard. This action can only be performed on the ground and/or before mission
+start.</p>
+<p>One slave dispenser assembly is installed on the inboard side of each inboard
+armament pylon. It contains a payload selector switch to set either chaff single
+or chaff double dispense, a breech assembly and relevant electrical circuitry.
+If the payload selector switch is left in the default CS position, one chaff
+cartridge will be dispensed for each chaff burst commanded. If the payload
+selector switch is set to the CD position, two chaff cartridges will be
+dispensed simultaneously, one from each dispenser, for each chaff burst
+commanded. The breech assembly provides the interface to mount the chaff payload
+module.</p>
+<h3 id="flare-housing-adapter"><a class="header" href="#flare-housing-adapter">Flare Housing Adapter</a></h3>
+<p>The flare housing adapter is installed between the master dispenser assembly and
+the flare payload module. The wedge shaped adapter ensures that the flares will
+be ejected aft and down from the aircraft. It cannot be mounted to the slave
+dispenser.</p>
+<h3 id="chaff-payload-module-and-cartridges"><a class="header" href="#chaff-payload-module-and-cartridges">Chaff Payload Module and Cartridges</a></h3>
+<p>The chaff payload module is attached to the master or slave dispenser breech
+assembly with four quick release fasteners. The chaff cartridge consists of a
+basic plastic sleeve, chaff dipoles and a plastic end cap. When dispensed the
+chaff dipoles are ejected from the sleeves and leave the disposable sleeve and
+empty squib case behind. The cartridge base provides a recess for the chaff
+pyrotechnic squib.</p>
+<p>WARNING: Accidental discharge of the chaff cartridges can cause injury to
+personnel or damage to the aircraft. The master dispenser safety pin must be
+installed at all times when loading, unloading or maintaining the system.</p>
+<h3 id="flare-payload-module-and-cartridges"><a class="header" href="#flare-payload-module-and-cartridges">Flare Payload Module and Cartridges</a></h3>
+<p>The flare payload module can only be installed on the master dispenser assembly.
+The flare housing adapter serves as the interface. The flare cartridge consists
+of a metal outer sleeve, a flare element, a safing and initiation device and a
+plastic end cap. An indentation in the cartridge base allows for proper flare
+installation.</p>
+<p>WARNING: Accidental discharge of the flare cartridges can cause injury to
+personnel or damage to the aircraft. The master dispenser safety pin must be
+installed at all times when loading, unloading or maintaining the system.</p>
+<h3 id="pyrotechnic-squibs"><a class="header" href="#pyrotechnic-squibs">Pyrotechnic Squibs</a></h3>
+<p>The chaff pyrotechnic squibs are installed immediately prior to use and are
+stored separately from the chaff cartridges. They are metal encased and
+electrically fired.</p>
+<p>The flare pyrotechnic squibs are larger in diameter and have an O-ring groove.
+They are installed immediately prior to use and are stored separately from the
+flare cartridges.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../systems/weapon_systems.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../weapons/overview.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../systems/weapon_systems.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../weapons/overview.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

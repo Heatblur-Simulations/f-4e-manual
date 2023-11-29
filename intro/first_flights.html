@@ -1,0 +1,254 @@
+<!DOCTYPE HTML>
+<html lang="en" class="navy" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>First Flights - Heatblur F-4E Phantom II</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="Manual of the F-4E Phantom by Heatblur Simulations.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../theme/extra.css">
+        <link rel="stylesheet" href="../theme/catppuccin.css">
+        <link rel="stylesheet" href="../theme/catppuccin-admonish.css">
+        <link rel="stylesheet" href="../theme/pdf.css">
+
+        <!-- MathJax -->
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "navy";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('navy')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item affix "><a href="../f4e_manual.html">F-4E Manual</a></li><li class="chapter-item expanded "><a href="../intro/introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../intro/history.html"><strong aria-hidden="true">1.1.</strong> Historical Background</a></li><li class="chapter-item "><a href="../intro/foreign.html"><strong aria-hidden="true">1.2.</strong> Foreign Service</a></li><li class="chapter-item "><a href="../intro/air_to_air.html"><strong aria-hidden="true">1.3.</strong> Air to Air Kills</a></li><li class="chapter-item expanded "><a href="../intro/first_flights.html" class="active"><strong aria-hidden="true">1.4.</strong> First Flights</a></li><li class="chapter-item "><a href="../intro/specification.html"><strong aria-hidden="true">1.5.</strong> Technical Specification</a></li></ol></li><li class="chapter-item "><a href="../cockpit/overview.html"><strong aria-hidden="true">2.</strong> Cockpit Overview</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../cockpit/pilot/overview.html"><strong aria-hidden="true">2.1.</strong> Pilot Cockpit</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../cockpit/pilot/dcsg_controls.html"><strong aria-hidden="true">2.1.1.</strong> DSCG Controls</a></li><li class="chapter-item "><a href="../cockpit/pilot/overhead_indicators.html"><strong aria-hidden="true">2.1.2.</strong> Overhead Indicators</a></li><li class="chapter-item "><a href="../cockpit/pilot/weapon_management.html"><strong aria-hidden="true">2.1.3.</strong> Weapon Management</a></li><li class="chapter-item "><a href="../cockpit/pilot/flight_director_group.html"><strong aria-hidden="true">2.1.4.</strong> Flight Director Group</a></li><li class="chapter-item "><a href="../cockpit/pilot/right_main_panel.html"><strong aria-hidden="true">2.1.5.</strong> Right Main Panel</a></li><li class="chapter-item "><a href="../cockpit/pilot/left_sub_panel.html"><strong aria-hidden="true">2.1.6.</strong> Left Sub-Panel</a></li><li class="chapter-item "><a href="../cockpit/pilot/left_console.html"><strong aria-hidden="true">2.1.7.</strong> Left Console</a></li><li class="chapter-item "><a href="../cockpit/pilot/pedestal_group.html"><strong aria-hidden="true">2.1.8.</strong> Pedestal Group</a></li><li class="chapter-item "><a href="../cockpit/pilot/right_sub_panel.html"><strong aria-hidden="true">2.1.9.</strong> Right Sub-Panel</a></li><li class="chapter-item "><a href="../cockpit/pilot/right_console.html"><strong aria-hidden="true">2.1.10.</strong> Right Console</a></li></ol></li><li class="chapter-item "><a href="../cockpit/wso/overview.html"><strong aria-hidden="true">2.2.</strong> WSO Cockpit</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../cockpit/wso/upfront_indicators.html"><strong aria-hidden="true">2.2.1.</strong> Upfront Indicators</a></li><li class="chapter-item "><a href="../cockpit/wso/left_sub_panel.html"><strong aria-hidden="true">2.2.2.</strong> Left Sub-Panel</a></li><li class="chapter-item "><a href="../cockpit/wso/left_console.html"><strong aria-hidden="true">2.2.3.</strong> Left Console</a></li><li class="chapter-item "><a href="../cockpit/wso/pedestal_group.html"><strong aria-hidden="true">2.2.4.</strong> Pedestal Group</a></li><li class="chapter-item "><a href="../cockpit/wso/right_sub_panel.html"><strong aria-hidden="true">2.2.5.</strong> Right Sub-Panel</a></li><li class="chapter-item "><a href="../cockpit/wso/right_console.html"><strong aria-hidden="true">2.2.6.</strong> Right Console</a></li></ol></li></ol></li><li class="chapter-item "><a href="../systems/overview.html"><strong aria-hidden="true">3.</strong> Systems Overview</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../systems/flight_controls.html"><strong aria-hidden="true">3.1.</strong> Flight Control System</a></li><li class="chapter-item "><a href="../systems/primary_flight_instruments.html"><strong aria-hidden="true">3.2.</strong> Primary Flight Instruments</a></li><li class="chapter-item "><a href="../systems/navigation_communication.html"><strong aria-hidden="true">3.3.</strong> Navigation & Communication</a></li><li class="chapter-item "><a href="../systems/identification_systems.html"><strong aria-hidden="true">3.4.</strong> Identification Systems</a></li><li class="chapter-item "><a href="../systems/lighting.html"><strong aria-hidden="true">3.5.</strong> Lighting</a></li><li class="chapter-item "><a href="../systems/emergency.html"><strong aria-hidden="true">3.6.</strong> Emergency</a></li><li class="chapter-item "><a href="../systems/utility.html"><strong aria-hidden="true">3.7.</strong> Utility</a></li><li class="chapter-item "><a href="../systems/weapon_systems.html"><strong aria-hidden="true">3.8.</strong> Weapon Systems</a></li><li class="chapter-item "><a href="../systems/defensive_systems.html"><strong aria-hidden="true">3.9.</strong> Defensive Systems</a></li></ol></li><li class="chapter-item "><a href="../weapons/overview.html"><strong aria-hidden="true">4.</strong> Weapons and Weapons Employment</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../weapons/guns.html"><strong aria-hidden="true">4.1.</strong> Guns</a></li><li class="chapter-item "><a href="../weapons/air_to_air.html"><strong aria-hidden="true">4.2.</strong> Air to Air</a></li><li class="chapter-item "><a href="../weapons/air_to_ground.html"><strong aria-hidden="true">4.3.</strong> Air to Ground</a></li></ol></li><li class="chapter-item "><a href="../procedures/overview.html"><strong aria-hidden="true">5.</strong> Procedures</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../procedures/pre_start.html"><strong aria-hidden="true">5.1.</strong> Pre-Start</a></li><li class="chapter-item "><a href="../procedures/startup.html"><strong aria-hidden="true">5.2.</strong> Startup</a></li><li class="chapter-item "><a href="../procedures/taxi.html"><strong aria-hidden="true">5.3.</strong> Taxi</a></li><li class="chapter-item "><a href="../procedures/takeoff.html"><strong aria-hidden="true">5.4.</strong> Takeoff</a></li><li class="chapter-item "><a href="../procedures/landing.html"><strong aria-hidden="true">5.5.</strong> Landing</a></li><li class="chapter-item "><a href="../procedures/shutdown.html"><strong aria-hidden="true">5.6.</strong> Shutdown</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="frappe">Frappé</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="pdf">Pdf</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Heatblur F-4E Phantom II</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/Heatblur-Simulations/f-4e-manual" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/Heatblur-Simulations/f-4e-manual/edit/master/src/intro/first_flights.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="f-4e-first-flights-by-nation"><a class="header" href="#f-4e-first-flights-by-nation">F-4E First Flights by Nation</a></h1>
+<div class="table-wrapper"><table><thead><tr><th>Nation</th><th>McDonnell Number</th><th>BuNo/USAF Serial</th><th>Date</th></tr></thead><tbody>
+<tr><td>United States</td><td>2234</td><td>66-284</td><td>June 30th, 1967</td></tr>
+<tr><td>Israel</td><td>3492</td><td>68-396</td><td>May 26th, 1969</td></tr>
+<tr><td>Australia</td><td>3847</td><td>69-0304</td><td>June 26th, 1970</td></tr>
+<tr><td>Japan</td><td>4037</td><td>69-7463</td><td>January 14th, 1971</td></tr>
+<tr><td>Iran</td><td>4093</td><td>69-7711</td><td>March 2nd, 1971</td></tr>
+<tr><td>Greece</td><td>4439</td><td>72-01500</td><td>January 29th, 1974</td></tr>
+<tr><td>Turkey</td><td>4525</td><td>73-01016</td><td>June 17th, 1974</td></tr>
+<tr><td>Germany</td><td>4946</td><td>75-00628</td><td>May 5th, 1977</td></tr>
+<tr><td>South Korea</td><td>4966</td><td>76-0493</td><td>July 28th, 1977</td></tr>
+</tbody></table>
+</div>
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../intro/air_to_air.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../intro/specification.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../intro/air_to_air.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../intro/specification.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

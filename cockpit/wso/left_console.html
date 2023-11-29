@@ -1,0 +1,563 @@
+<!DOCTYPE HTML>
+<html lang="en" class="navy" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Left Console - Heatblur F-4E Phantom II</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="Manual of the F-4E Phantom by Heatblur Simulations.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../../theme/extra.css">
+        <link rel="stylesheet" href="../../theme/catppuccin.css">
+        <link rel="stylesheet" href="../../theme/catppuccin-admonish.css">
+        <link rel="stylesheet" href="../../theme/pdf.css">
+
+        <!-- MathJax -->
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "navy";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('navy')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item affix "><a href="../../f4e_manual.html">F-4E Manual</a></li><li class="chapter-item "><a href="../../intro/introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../intro/history.html"><strong aria-hidden="true">1.1.</strong> Historical Background</a></li><li class="chapter-item "><a href="../../intro/foreign.html"><strong aria-hidden="true">1.2.</strong> Foreign Service</a></li><li class="chapter-item "><a href="../../intro/air_to_air.html"><strong aria-hidden="true">1.3.</strong> Air to Air Kills</a></li><li class="chapter-item "><a href="../../intro/first_flights.html"><strong aria-hidden="true">1.4.</strong> First Flights</a></li><li class="chapter-item "><a href="../../intro/specification.html"><strong aria-hidden="true">1.5.</strong> Technical Specification</a></li></ol></li><li class="chapter-item expanded "><a href="../../cockpit/overview.html"><strong aria-hidden="true">2.</strong> Cockpit Overview</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../cockpit/pilot/overview.html"><strong aria-hidden="true">2.1.</strong> Pilot Cockpit</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../cockpit/pilot/dcsg_controls.html"><strong aria-hidden="true">2.1.1.</strong> DSCG Controls</a></li><li class="chapter-item "><a href="../../cockpit/pilot/overhead_indicators.html"><strong aria-hidden="true">2.1.2.</strong> Overhead Indicators</a></li><li class="chapter-item "><a href="../../cockpit/pilot/weapon_management.html"><strong aria-hidden="true">2.1.3.</strong> Weapon Management</a></li><li class="chapter-item "><a href="../../cockpit/pilot/flight_director_group.html"><strong aria-hidden="true">2.1.4.</strong> Flight Director Group</a></li><li class="chapter-item "><a href="../../cockpit/pilot/right_main_panel.html"><strong aria-hidden="true">2.1.5.</strong> Right Main Panel</a></li><li class="chapter-item "><a href="../../cockpit/pilot/left_sub_panel.html"><strong aria-hidden="true">2.1.6.</strong> Left Sub-Panel</a></li><li class="chapter-item "><a href="../../cockpit/pilot/left_console.html"><strong aria-hidden="true">2.1.7.</strong> Left Console</a></li><li class="chapter-item "><a href="../../cockpit/pilot/pedestal_group.html"><strong aria-hidden="true">2.1.8.</strong> Pedestal Group</a></li><li class="chapter-item "><a href="../../cockpit/pilot/right_sub_panel.html"><strong aria-hidden="true">2.1.9.</strong> Right Sub-Panel</a></li><li class="chapter-item "><a href="../../cockpit/pilot/right_console.html"><strong aria-hidden="true">2.1.10.</strong> Right Console</a></li></ol></li><li class="chapter-item expanded "><a href="../../cockpit/wso/overview.html"><strong aria-hidden="true">2.2.</strong> WSO Cockpit</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../cockpit/wso/upfront_indicators.html"><strong aria-hidden="true">2.2.1.</strong> Upfront Indicators</a></li><li class="chapter-item "><a href="../../cockpit/wso/left_sub_panel.html"><strong aria-hidden="true">2.2.2.</strong> Left Sub-Panel</a></li><li class="chapter-item expanded "><a href="../../cockpit/wso/left_console.html" class="active"><strong aria-hidden="true">2.2.3.</strong> Left Console</a></li><li class="chapter-item "><a href="../../cockpit/wso/pedestal_group.html"><strong aria-hidden="true">2.2.4.</strong> Pedestal Group</a></li><li class="chapter-item "><a href="../../cockpit/wso/right_sub_panel.html"><strong aria-hidden="true">2.2.5.</strong> Right Sub-Panel</a></li><li class="chapter-item "><a href="../../cockpit/wso/right_console.html"><strong aria-hidden="true">2.2.6.</strong> Right Console</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../systems/overview.html"><strong aria-hidden="true">3.</strong> Systems Overview</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../systems/flight_controls.html"><strong aria-hidden="true">3.1.</strong> Flight Control System</a></li><li class="chapter-item "><a href="../../systems/primary_flight_instruments.html"><strong aria-hidden="true">3.2.</strong> Primary Flight Instruments</a></li><li class="chapter-item "><a href="../../systems/navigation_communication.html"><strong aria-hidden="true">3.3.</strong> Navigation & Communication</a></li><li class="chapter-item "><a href="../../systems/identification_systems.html"><strong aria-hidden="true">3.4.</strong> Identification Systems</a></li><li class="chapter-item "><a href="../../systems/lighting.html"><strong aria-hidden="true">3.5.</strong> Lighting</a></li><li class="chapter-item "><a href="../../systems/emergency.html"><strong aria-hidden="true">3.6.</strong> Emergency</a></li><li class="chapter-item "><a href="../../systems/utility.html"><strong aria-hidden="true">3.7.</strong> Utility</a></li><li class="chapter-item "><a href="../../systems/weapon_systems.html"><strong aria-hidden="true">3.8.</strong> Weapon Systems</a></li><li class="chapter-item "><a href="../../systems/defensive_systems.html"><strong aria-hidden="true">3.9.</strong> Defensive Systems</a></li></ol></li><li class="chapter-item "><a href="../../weapons/overview.html"><strong aria-hidden="true">4.</strong> Weapons and Weapons Employment</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../weapons/guns.html"><strong aria-hidden="true">4.1.</strong> Guns</a></li><li class="chapter-item "><a href="../../weapons/air_to_air.html"><strong aria-hidden="true">4.2.</strong> Air to Air</a></li><li class="chapter-item "><a href="../../weapons/air_to_ground.html"><strong aria-hidden="true">4.3.</strong> Air to Ground</a></li></ol></li><li class="chapter-item "><a href="../../procedures/overview.html"><strong aria-hidden="true">5.</strong> Procedures</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../procedures/pre_start.html"><strong aria-hidden="true">5.1.</strong> Pre-Start</a></li><li class="chapter-item "><a href="../../procedures/startup.html"><strong aria-hidden="true">5.2.</strong> Startup</a></li><li class="chapter-item "><a href="../../procedures/taxi.html"><strong aria-hidden="true">5.3.</strong> Taxi</a></li><li class="chapter-item "><a href="../../procedures/takeoff.html"><strong aria-hidden="true">5.4.</strong> Takeoff</a></li><li class="chapter-item "><a href="../../procedures/landing.html"><strong aria-hidden="true">5.5.</strong> Landing</a></li><li class="chapter-item "><a href="../../procedures/shutdown.html"><strong aria-hidden="true">5.6.</strong> Shutdown</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="frappe">Frappé</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="pdf">Pdf</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Heatblur F-4E Phantom II</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/Heatblur-Simulations/f-4e-manual" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/Heatblur-Simulations/f-4e-manual/edit/master/src/cockpit/wso/left_console.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="left-console"><a class="header" href="#left-console">Left Console</a></h1>
+<h2 id="intercom-control-panel"><a class="header" href="#intercom-control-panel">Intercom Control Panel</a></h2>
+<p><img src="../../img/wso_intercom_control.png" alt="wso_intercom_control" /></p>
+<h3 id="wso-ics-volume-control-knob"><a class="header" href="#wso-ics-volume-control-knob">WSO ICS Volume Control Knob</a></h3>
+<p>Turned clockwise to increase audio between cockpits, and counterclockwise to
+decrease audio between cockpits on the intercom.</p>
+<h3 id="wso-ics-function-selector-switch"><a class="header" href="#wso-ics-function-selector-switch">WSO ICS Function Selector Switch</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
+<tr><td>COLD MIC</td><td>Mic switch on throttle must be held to activate intercom.</td></tr>
+<tr><td>HOT MIC</td><td>Voice automatically transmitted on intercom.</td></tr>
+<tr><td>RADIO OVERRIDE</td><td>The opposite cockpit’s audio is heard at its set volume using its amplifier.</td></tr>
+</tbody></table>
+</div>
+<h3 id="wso-ics-amplifier-select-knob"><a class="header" href="#wso-ics-amplifier-select-knob">WSO ICS Amplifier Select Knob</a></h3>
+<p>Determines current amplifier for intercom function.</p>
+<div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
+<tr><td>B/U</td><td>Backup headset amplifier provides audio.</td></tr>
+<tr><td>NORM</td><td>Primary headset amplifier provides audio.</td></tr>
+<tr><td>EMER</td><td>Uses amplifier from opposite cockpit; only audio received to that cockpit is heard.</td></tr>
+</tbody></table>
+</div>
+<h2 id="control-monitor-panel"><a class="header" href="#control-monitor-panel">Control Monitor Panel</a></h2>
+<p><img src="../../img/wso_control_monitor_panel.png" alt="wso_control_monitor_panel" /></p>
+<h3 id="cords-light"><a class="header" href="#cords-light">Cords Light</a></h3>
+<p>Not used by the APQ-120 in the F-4E.</p>
+<h3 id="temp-light"><a class="header" href="#temp-light">Temp Light</a></h3>
+<p>Illuminates amber to indicate an overtemperature situation in the nose radar
+avionics bay. Under normal circumstances, an overheat condition requires setting
+the radar power to OFF. If circumstances require continued use, the light should
+be monitored regularly.</p>
+<h3 id="test-knob"><a class="header" href="#test-knob">Test Knob</a></h3>
+<p>An eleven position rotary knob used with the radar power knob in TEST to perform
+system BIT checks of the APQ-120 radar. Basic test function noted below;
+procedural functionality is found in the applicable BIT test section.</p>
+<div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
+<tr><td>0</td><td>Displays standard B scope presentation to confirm all elements functioning correctly.</td></tr>
+<tr><td>1</td><td>Confirms break lock timing delay, AIM-7 tuning status, and Range lamp status function.</td></tr>
+<tr><td>2</td><td>Confirms proper AIM-7 head position aim and SHORT pulse function against two targets.</td></tr>
+<tr><td>3</td><td>Confirms angle tracking performance against a locked target that rotates inside ASE circle.</td></tr>
+<tr><td>4</td><td>Used while lock achieved in another mode, confirms HOJ and AOJ functionality.</td></tr>
+<tr><td>5</td><td>Checks range rate, lead angle, CAA, and PLMS function.</td></tr>
+<tr><td>6</td><td>Confirms proper AIM-7 attack display and interlock function.</td></tr>
+<tr><td>7</td><td>n/a</td></tr>
+<tr><td>8</td><td>n/a</td></tr>
+<tr><td>9</td><td>n/a</td></tr>
+<tr><td>10</td><td>n/a</td></tr>
+<tr><td>DOT BAL</td><td>Confirms AIM dot centering calibration. Also used for TIRS data transfer.</td></tr>
+</tbody></table>
+</div>
+<h3 id="meter-switch"><a class="header" href="#meter-switch">Meter Switch</a></h3>
+<p>Determines which set of values are utilized from the Meter Selector Knob for the
+applicable test sequences; VOLT selects the inner ring of Voltage referencing
+values, whereas SIGNALS uses the outer rim of SIGNAL reference values.</p>
+<h3 id="meter-selector-knob"><a class="header" href="#meter-selector-knob">Meter Selector Knob</a></h3>
+<p>A sixteen position rotary knob used in conjunction with the Test Knob, with each
+position having two values- an outer SIGNAL value, and an inner VOLT value.
+Selection of which value determined by the Meter Switch.</p>
+<h3 id="monitor-meter"><a class="header" href="#monitor-meter">Monitor Meter</a></h3>
+<p>Provides voltage, current, and signal indications based on current Meter Switch
+and Meter Selector Knob settings.</p>
+<h3 id="vc-switch"><a class="header" href="#vc-switch">Vc Switch</a></h3>
+<p>Changes the scale factor of the range rate presentation. DSCG aircraft must
+leave the switch in 2700, else the Vc presentation will be in error.</p>
+<h3 id="stab-switch"><a class="header" href="#stab-switch">Stab Switch</a></h3>
+<p>Changes the antenna stabilization mode.</p>
+<div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
+<tr><td>NOR</td><td>Normal operation; inputs of pitch and roll are fed to the antenna stabilization circuit.</td></tr>
+<tr><td>STAB OUT</td><td>Horizon line removed from scopes and stabilation drift servos are zeroed.</td></tr>
+<tr><td>DRIFT OUT</td><td>INS drift compensation is removed; antenna uses direct pitch and roll input tracking.</td></tr>
+</tbody></table>
+</div>
+<h2 id="radar-set-control-panel"><a class="header" href="#radar-set-control-panel">Radar Set Control Panel</a></h2>
+<p><img src="../../img/wso_radar_set_control_panel.png" alt="wso_radar_set_control_panel" /></p>
+<h3 id="power-knob"><a class="header" href="#power-knob">Power Knob</a></h3>
+<p>Five position rotary switch controlling power state of the APQ-120</p>
+<div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
+<tr><td>OFF</td><td>Powers radar off.</td></tr>
+<tr><td>TEST</td><td>Applies voltage to control monitor power and provides test functions 1 through 6.</td></tr>
+<tr><td>STBY</td><td>Power applied to radar, remains in a non-transmitting standby state.</td></tr>
+<tr><td>OPR</td><td>System is fully operational.</td></tr>
+<tr><td>EMER</td><td>Overrides the time delay, pressure, and temperature restrictions to allow radar operation.</td></tr>
+</tbody></table>
+</div>
+<h3 id="polar-switch"><a class="header" href="#polar-switch">Polar Switch</a></h3>
+<p>Controls polarization of transmitted rf energy.</p>
+<div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
+<tr><td>LIN</td><td>RF energy is linerally polarized in a vertical orientation. AIM-7 default mode.</td></tr>
+<tr><td>CIR 1</td><td>RF energy is rotated clockwise from the vertical plane. AIM-7 can be fired.</td></tr>
+<tr><td>CIR 2</td><td>RF energy is rotated counterclockwise from the vertical plane. AIM-7 cannot be fired.</td></tr>
+</tbody></table>
+</div>
+<h3 id="radar-range-knob"><a class="header" href="#radar-range-knob">Radar Range Knob</a></h3>
+<p>Used to select range sweep of 5, 10, 25, 50, 100, or 200 mile ranges on both
+radar displays. First four ranges are air to air intercept positions, final two
+are ground mapping modes only, and disengage lockon capability. Selecting a
+setting illuminates the applicable range lamp, and displays the value on the
+radar scope upper left corner.</p>
+<h3 id="maneuver-switch"><a class="header" href="#maneuver-switch">Maneuver Switch</a></h3>
+<p>Controls radar tracking response due to acceleration limits and received
+countermeasures and clutter.</p>
+<div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
+<tr><td>Low G</td><td>Default position. Limts track response due to countermeasures and clutter.</td></tr>
+<tr><td>HI G</td><td>Allows track loop to respond to high acceleration. Automatically engaged with CAA.</td></tr>
+</tbody></table>
+</div>
+<h3 id="bar-scan-switch"><a class="header" href="#bar-scan-switch">Bar Scan Switch</a></h3>
+<p>Selects elevation scan pattern. In 2 bar scan, search pattern is separated by
+3.75 degrees on each scan. In boresight or air to ground modes, 1 bar scan is
+automatically commanded.</p>
+<h3 id="aspect-switch"><a class="header" href="#aspect-switch">Aspect Switch</a></h3>
+<p>Used to program the AIM-7 with a predetermined simulated Doppler instead of
+actual received Doppler, so that the WSO can provide an estimated correct
+speedgate location when range isn't available.</p>
+<h3 id="receiver-gain-knobs-rcvr-gain"><a class="header" href="#receiver-gain-knobs-rcvr-gain">Receiver Gain Knobs (RCVR GAIN)</a></h3>
+<p>Coarse (outer ring) and Fine (inner knob) gain control for the radar scope
+display to increase video output legibility of target returns.</p>
+<h3 id="track-switch"><a class="header" href="#track-switch">Track Switch</a></h3>
+<p>Enables manual target tracking in heavy clutter environments, or automatic
+tracking under normal circumstances.</p>
+<h4 id="manual"><a class="header" href="#manual">Manual</a></h4>
+<p>When in the MAN position, the WSO places the acquisition symbol over the
+intended target and triggers half-action on the HCU. The range strobe is
+positioned relative to in-range on a closing target, and the WSO selects
+full-action. To solidify the track, the WSO uses the Manual Vc knob to place the
+range strobe and target return video at the same rate of movement.</p>
+<h4 id="automatic"><a class="header" href="#automatic">Automatic</a></h4>
+<p>In the AUTO position, the range and closure calculations are performed
+automatically. The WSO places the acquisition symbol over the target return and
+presses full action. Should the target maneuver in excess of the speed
+capability of the radar, the Maneuver switch can be set to HI G and the target
+reacquired.</p>
+<h4 id="aoj-out"><a class="header" href="#aoj-out">AOJ OUT</a></h4>
+<p>The AOJ OUT position is used to override the acquisition on jamming function of
+the radar. In the event that the radar acquires a HOJ lock, the position can be
+selected to place the radar back into a search configuration to initiate a
+lockon against the jamming target and initiate a standard angle track lock.</p>
+<h3 id="display-knob"><a class="header" href="#display-knob">Display Knob</a></h3>
+<p>Sets the display type of the radar scope to access specific mode functionality
+in conjunction with the Mode knob. The types are as follows:</p>
+<div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
+<tr><td>B WIDE</td><td>Selects 120 degree B-sweep for search. Half-action places the sweep under manual HCU.</td></tr>
+<tr><td>B NAR</td><td>Selects a 45 degree B-sweep sector for search, which is manually shifted with the HCU.</td></tr>
+<tr><td>PPI WIDE</td><td>Selects a 120 degree wide plan position indicator sweep for MAP mode.</td></tr>
+<tr><td>PPI NAR</td><td>Selects a 45 degree plan position indicator sweep that can be shifted with the HCU.</td></tr>
+<tr><td>VI</td><td>Provides pure pursuit guidance to a locked target; a break X will appear at 1000' range.</td></tr>
+</tbody></table>
+</div>
+<h3 id="maneuver-vc-knob"><a class="header" href="#maneuver-vc-knob">Maneuver Vc Knob</a></h3>
+<p>An 12 position switch used to apply estimated range rate of closure (clockwise,
+0-9), or estimated opening of range (counterclockwise, 0-2) against a target in
+manual track mode.</p>
+<h3 id="pulse-switch"><a class="header" href="#pulse-switch">Pulse Switch</a></h3>
+<p>Three position switch controlling radar pulse width and pulse repetition
+frequency in the Air to Air radar search modes. With the APQ-120 placed in CAGE
+mode, short pulse operation is automatically selected. In AIR-GND modes, the
+pulses are automatically commanded, deactivating the switch.</p>
+<div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
+<tr><td>AUTO</td><td>Commands long pulse width and low PRF; pulse width handled automatically when target is locked.</td></tr>
+<tr><td>LONG</td><td>Low PRF and wide pulse width, allowing maximum range detection; no track automatic pulse adjustment.</td></tr>
+<tr><td>SHORT</td><td>Narrow pulse width with high PRF for increased close range performance.</td></tr>
+</tbody></table>
+</div>
+<h3 id="mode-knob"><a class="header" href="#mode-knob">Mode Knob</a></h3>
+<p>A six position switch that determines the current base mode of operation of the
+radar.</p>
+<div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
+<tr><td>BST</td><td>Air to Air boresight with antenna aligned to optical sight. Permits CAGE and CAA.</td></tr>
+<tr><td>RDR</td><td>Air to Air search mode.</td></tr>
+<tr><td>MAP</td><td>Radar ground mapping mode.</td></tr>
+<tr><td>AIR-GRD</td><td>Air to Ground boresight, 20 mile range against targets visually established with optical sight.</td></tr>
+<tr><td>BEACON</td><td>Radar receives and displays signals from ground or airborne beacon transponders for navigation.</td></tr>
+<tr><td>TV</td><td>Not used with DSCG. Deactivates AIM-7 if selected.</td></tr>
+</tbody></table>
+</div>
+<h3 id="skin-track-light"><a class="header" href="#skin-track-light">Skin Track Light</a></h3>
+<p>Green lamp that illuminates when a track is attained with range data. In the
+event of HOJ or a range memory situation, the light will go off. Accompanied on
+the rear DSCG radar scope with the T symbol that illuminates under the same
+circumstances.</p>
+<h2 id="tacan-control-panel"><a class="header" href="#tacan-control-panel">TACAN Control Panel</a></h2>
+<p><img src="../../img/FrontTCN.png" alt="FrontTCN" /></p>
+<p>The TACAN Control Panel is used to enter the desired TACAN channel, mode, and
+audible volume for the monitoring of said channel by the aircrew. The panel is
+duplicated in both cockpits, and the panel in command of the TACAN receiver is
+selected with the NAV CMD button the Communication Control Panel.</p>
+<p>On the control panel is found two Navigation Channel Control knobs, with the
+left controlling the first two digits of the channel value (hundreds and tens),
+and the right controls the single unit (ones) values. The right knob also
+includes an outer ring which sets the X or Y value for the desired TACAN
+channel.</p>
+<p>Between these two knobs is the TEST button, which performs the ground testing
+cycle after warmup, and can also be used to perform an in-flight confidence test
+of the system's performance.</p>
+<p>To the upper right, the VOL knob is available to set the desired audio level for
+the received TACAN station.</p>
+<p>The TACAN Function Selector Knob determines the presentation and type of
+information provided on the HSI, ADI, and BDHI, respectively.</p>
+<div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
+<tr><td>OFF</td><td>The TACAN receiver is deenergized and offline.</td></tr>
+<tr><td>REC</td><td>The TACAN receiver is active, providing bearing information on the HSI, BDHI, and ADI.</td></tr>
+<tr><td>T/R</td><td>Both the receive and transmit functions of the TACAN are active, which provide bearing and nautical mile range information for the HSI and BDHI.</td></tr>
+<tr><td>A/A REC</td><td>The TACAN receiver decodes bearing information from compliant aircraft for the HSI, BDHI, and ADI steering display.</td></tr>
+<tr><td>A/A TR</td><td>The TACAN receiver receives both bearing and slant range information in nautical miles from the transmitting aircraft, providing this on the HSI and BDHI.</td></tr>
+</tbody></table>
+</div>
+<p>Note: Air to Air TACAN functionality requires the channel to be set 63 channels
+above or below the cooperating aircraft, but on the same range- X or Y.</p>
+<h2 id="communication-control-panel"><a class="header" href="#communication-control-panel">Communication Control Panel</a></h2>
+<p><img src="../../img/CCP.png" alt="CCP" /></p>
+<p>The Communication Control Panel provides selection and mode of the UHF radio in
+the aircraft. The panel is duplicated in both cockpits, and control over the
+radio is determined through pushing the COMM CMD Button in the respective seat;
+the button will illuminate green in the seat in priority. In the same fashion,
+the NAV CMD button dictates which seat has control of the TACAN settings; its
+button will also illuminate in the seat in command of the system.</p>
+<p>Beneath the COMM CMD button is the radio volume for the respective seat.
+Adjacent to the NAV CMD button is the Squelch switch, which enables or disables
+receiver squelch.</p>
+<p>The A-3-2-T Selector knob sets HAVE Quick functionality of the UHF radio (A-
+auto-jam), the first digit of the manually selected frequency (3 or 2), or
+enables Time of Day receipt for one minute after selection in a momentary hold
+position (T).</p>
+<p>The four Frequency Selection Knobs work in concert with the A-3-2-T knob and
+Preset/Manual switch. Frequencies are entered beginning with the 3 or 2
+selection on the A-3-2-T Selector, and can be entered from 225.00 to 399.975 MHz
+in increments of 0.025. With Preset/Manual in the Manual position, the UHF radio
+is directly set to the displayed channel. In the Preset position, the set
+channels can entered into the COMM CHAN memory, with the desired position
+selected with the Comm Channel Control knob- the smaller knob to the left of the
+Preset/Manual switch, and displayed in the COMM CHAN window. Channels are stored
+in the displayed channel preset with the SET pushbutton. Once stored, channels
+are directly selected using the Comm Channel Control knob with the Preset/Manual
+switch in the Preset position.</p>
+<p>The Tone Pushbutton is used for transmission of a TOD signal along with a tone
+to friendly aircraft requiring a Time of Day update for proper HAVE Quick
+functionality. It is also used to activate the emergency TOD clock for the radio
+itself, in conjunction with the T position of the A-3-2-T knob. Selecting the T
+position and pushing the Tone button will cause the radio to listen for a TOD
+signal from another friendly transmitter to synchronize the anti-jam function
+with the desired network.</p>
+<p>Directly underneath the Comm Channel Control Knob is the Aux Channel Knob and
+Indicator. This knob is used to access 20 common preset channels that cannot be
+changed from in the cockpit.</p>
+<p>The Comm Function Selector Knob determines the current configuration of the
+radio system.</p>
+<div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
+<tr><td>OFF</td><td>All UHF Radios off.</td></tr>
+<tr><td>T/R ADF</td><td>Comm receiver - comm reception.</td></tr>
+<tr><td></td><td>Comm transmitter - comm transmission.</td></tr>
+<tr><td></td><td>Comm guard receiver - standby.</td></tr>
+<tr><td></td><td>Aux receiver - ADF reception.</td></tr>
+<tr><td>T/R+G ADF</td><td>Comm receiver - comm reception.</td></tr>
+<tr><td></td><td>Comm transmitter - comm transmission.</td></tr>
+<tr><td></td><td>Comm guard receiver - guard reception.</td></tr>
+<tr><td></td><td>Aux receiver - ADF reception.</td></tr>
+<tr><td>ADF+G CMD</td><td>Comm receiver - ADF reception.</td></tr>
+<tr><td></td><td>Comm transmitter - comm transmission. ADF interrupted during transmission.</td></tr>
+<tr><td></td><td>Comm guard receiver - guard reception on ADF antenna.</td></tr>
+<tr><td></td><td>Aux receiver- comm reception.</td></tr>
+<tr><td>ADF+G</td><td>Comm receiver - ADF reception.</td></tr>
+<tr><td></td><td>Comm transmitter - comm transmission. ADF interrupted during transmission.</td></tr>
+<tr><td></td><td>Comm guard receiver - standby.</td></tr>
+<tr><td></td><td>Aux receiver- guard reception.</td></tr>
+<tr><td>Guard ADF</td><td>Comm receiver - guard reception.</td></tr>
+<tr><td></td><td>Comm transmitter - guard transmission.</td></tr>
+<tr><td></td><td>Comm guard receiver - standby.</td></tr>
+<tr><td></td><td>Aux receiver - ADF reception.</td></tr>
+</tbody></table>
+</div>
+<p>The Aux Volume Control knob raises and lowers the volume of the Aux receiver
+channel.</p>
+<h2 id="anale-40-cockpit-control-unit"><a class="header" href="#anale-40-cockpit-control-unit">AN/ALE-40 Cockpit Control Unit</a></h2>
+<p><img src="../../img/wso_an_ale_40.png" alt="wso_an_ale_40" /></p>
+<h3 id="ripple-switch"><a class="header" href="#ripple-switch">Ripple Switch</a></h3>
+<p>When positioned ON, dispenses flares at rate of ten per second until dispensers
+are empty, so long as flaps and speed brakes are retracted.</p>
+<h3 id="dispense-button"><a class="header" href="#dispense-button">Dispense Button</a></h3>
+<p>Initiates chaff/flare dispensing as selected by CCU and ALE-40 programmer with
+flaps and speed brakes retracted and mode knobs out of OFF.</p>
+<h3 id="counters"><a class="header" href="#counters">Counters</a></h3>
+<p>Indicate quantity of chaff and flare cartridges remaining, respectively. If
+slave dispenser is set to Chaff Double (CD), the chaff counter will display half
+of the number of cartridges remaining.</p>
+<h3 id="chaff-mode-knob"><a class="header" href="#chaff-mode-knob">Chaff Mode Knob</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
+<tr><td>OFF</td><td>Chaff system inactive.</td></tr>
+<tr><td>SGL</td><td>A single burst commanded when dispense button pressed.</td></tr>
+<tr><td>MULT</td><td>A salvo commanded according to program when either dispense button pressed.</td></tr>
+</tbody></table>
+</div>
+<h3 id="flare-mode-knob"><a class="header" href="#flare-mode-knob">Flare Mode Knob</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
+<tr><td>OFF</td><td>Flare system inactive.</td></tr>
+<tr><td>SGL</td><td>A single burst commanded when dispense button pressed.</td></tr>
+<tr><td>MULT</td><td>A salvo commanded according to program when either dispense button pressed.</td></tr>
+</tbody></table>
+</div>
+<h3 id="indicator-lights"><a class="header" href="#indicator-lights">Indicator Lights</a></h3>
+<p>Illuminates whenever a mode is selected on the respective countermeasure mode
+knob.</p>
+<h2 id="labs-panel"><a class="header" href="#labs-panel">LABS Panel</a></h2>
+<p><img src="../../img/wso_labs_panel.png" alt="wso_labs_panel" /></p>
+<h3 id="aural-tone-volume"><a class="header" href="#aural-tone-volume">Aural Tone Volume</a></h3>
+<p>Knob to control the volume for weapon tones, such as the Sidewinder seeker head.</p>
+<h3 id="pull-up-tone"><a class="header" href="#pull-up-tone">Pull Up Tone</a></h3>
+<p>Switch to toggle the tone played by the Pull-Up system.</p>
+<h2 id="pressure-altitude-indicator"><a class="header" href="#pressure-altitude-indicator">Pressure Altitude Indicator</a></h2>
+<h2 id="liquid-oxygen-level-indicator"><a class="header" href="#liquid-oxygen-level-indicator">Liquid Oxygen Level Indicator</a></h2>
+<p>Range from 0 to 10 liters, providing confirmation of current liquid oxygen
+status. In event power is lost, a &quot;power off&quot; flag will show on the instrument
+face.</p>
+<h2 id="vorils-volume-control"><a class="header" href="#vorils-volume-control">VOR/ILS Volume Control</a></h2>
+<p>The volume control consists of two knobs: one square knob adjusts VOR and
+localizer audio, while the round knob controls the marker beacon audio.</p>
+<h2 id="wso-emergency-flaps-handle"><a class="header" href="#wso-emergency-flaps-handle">WSO Emergency Flaps Handle</a></h2>
+<p><img src="../../img/wso_emergency_flaps_handle.png" alt="wso_emergency_flaps_handle" /></p>
+<p>Used for emergency deployment of the slats and flaps from the rear cockpit, and
+is activated by pulling the handle aft. Pneumatic system powering extension of
+the slats flaps system only functions one time. Extend regardless of airspeed,
+however flaps will not fully deploy above 230 knots due to air loads on control
+surfaces. Will deploy fully when slower.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../cockpit/wso/left_sub_panel.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../../cockpit/wso/pedestal_group.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../cockpit/wso/left_sub_panel.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../../cockpit/wso/pedestal_group.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../elasticlunr.min.js"></script>
+        <script src="../../mark.min.js"></script>
+        <script src="../../searcher.js"></script>
+
+        <script src="../../clipboard.min.js"></script>
+        <script src="../../highlight.js"></script>
+        <script src="../../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
