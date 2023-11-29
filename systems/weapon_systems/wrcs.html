@@ -1,0 +1,351 @@
+<!DOCTYPE HTML>
+<html lang="en" class="navy" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>WRCS - Heatblur F-4E Phantom II</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="Manual of the F-4E Phantom by Heatblur Simulations.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../../theme/extra.css">
+        <link rel="stylesheet" href="../../theme/catppuccin.css">
+        <link rel="stylesheet" href="../../theme/catppuccin-admonish.css">
+        <link rel="stylesheet" href="../../theme/pdf.css">
+
+        <!-- MathJax -->
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "navy";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('navy')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item affix "><a href="../../f4e_manual.html">F-4E Manual</a></li><li class="chapter-item "><a href="../../intro/introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../intro/history.html"><strong aria-hidden="true">1.1.</strong> Historical Background</a></li><li class="chapter-item "><a href="../../intro/foreign.html"><strong aria-hidden="true">1.2.</strong> Foreign Service</a></li><li class="chapter-item "><a href="../../intro/air_to_air.html"><strong aria-hidden="true">1.3.</strong> Air to Air Kills</a></li><li class="chapter-item "><a href="../../intro/first_flights.html"><strong aria-hidden="true">1.4.</strong> First Flights</a></li><li class="chapter-item "><a href="../../intro/specification.html"><strong aria-hidden="true">1.5.</strong> Technical Specification</a></li></ol></li><li class="chapter-item "><a href="../../cockpit/overview.html"><strong aria-hidden="true">2.</strong> Cockpit Overview</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../cockpit/pilot/overview.html"><strong aria-hidden="true">2.1.</strong> Pilot Cockpit</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../cockpit/pilot/dcsg_controls.html"><strong aria-hidden="true">2.1.1.</strong> DSCG Controls</a></li><li class="chapter-item "><a href="../../cockpit/pilot/overhead_indicators.html"><strong aria-hidden="true">2.1.2.</strong> Overhead Indicators</a></li><li class="chapter-item "><a href="../../cockpit/pilot/weapon_management.html"><strong aria-hidden="true">2.1.3.</strong> Weapon Management</a></li><li class="chapter-item "><a href="../../cockpit/pilot/flight_director_group.html"><strong aria-hidden="true">2.1.4.</strong> Flight Director Group</a></li><li class="chapter-item "><a href="../../cockpit/pilot/right_main_panel.html"><strong aria-hidden="true">2.1.5.</strong> Right Main Panel</a></li><li class="chapter-item "><a href="../../cockpit/pilot/left_sub_panel.html"><strong aria-hidden="true">2.1.6.</strong> Left Sub-Panel</a></li><li class="chapter-item "><a href="../../cockpit/pilot/left_console/overview.html"><strong aria-hidden="true">2.1.7.</strong> Left Console</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../cockpit/pilot/left_console/front_section.html"><strong aria-hidden="true">2.1.7.1.</strong> Front Section</a></li><li class="chapter-item "><a href="../../cockpit/pilot/left_console/center_section.html"><strong aria-hidden="true">2.1.7.2.</strong> Center Section</a></li><li class="chapter-item "><a href="../../cockpit/pilot/left_console/aft_section.html"><strong aria-hidden="true">2.1.7.3.</strong> Aft Section</a></li><li class="chapter-item "><a href="../../cockpit/pilot/left_console/wall.html"><strong aria-hidden="true">2.1.7.4.</strong> Wall</a></li></ol></li><li class="chapter-item "><a href="../../cockpit/pilot/pedestal_group.html"><strong aria-hidden="true">2.1.8.</strong> Pedestal Group</a></li><li class="chapter-item "><a href="../../cockpit/pilot/right_sub_panel.html"><strong aria-hidden="true">2.1.9.</strong> Right Sub-Panel</a></li><li class="chapter-item "><a href="../../cockpit/pilot/right_console/overview.html"><strong aria-hidden="true">2.1.10.</strong> Right Console</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../cockpit/pilot/right_console/front_section.html"><strong aria-hidden="true">2.1.10.1.</strong> Front Section</a></li><li class="chapter-item "><a href="../../cockpit/pilot/right_console/center_section.html"><strong aria-hidden="true">2.1.10.2.</strong> Center Section</a></li><li class="chapter-item "><a href="../../cockpit/pilot/right_console/aft_section.html"><strong aria-hidden="true">2.1.10.3.</strong> Aft Section</a></li><li class="chapter-item "><a href="../../cockpit/pilot/right_console/wall.html"><strong aria-hidden="true">2.1.10.4.</strong> Wall</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../cockpit/wso/overview.html"><strong aria-hidden="true">2.2.</strong> WSO Cockpit</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../cockpit/wso/upfront_indicators.html"><strong aria-hidden="true">2.2.1.</strong> Upfront Indicators</a></li><li class="chapter-item "><a href="../../cockpit/wso/left_sub_panel.html"><strong aria-hidden="true">2.2.2.</strong> Left Sub-Panel</a></li><li class="chapter-item "><a href="../../cockpit/wso/left_console/overview.html"><strong aria-hidden="true">2.2.3.</strong> Left Console</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../cockpit/wso/left_console/front_section.html"><strong aria-hidden="true">2.2.3.1.</strong> Front Section</a></li><li class="chapter-item "><a href="../../cockpit/wso/left_console/center_section.html"><strong aria-hidden="true">2.2.3.2.</strong> Center Section</a></li><li class="chapter-item "><a href="../../cockpit/wso/left_console/aft_section.html"><strong aria-hidden="true">2.2.3.3.</strong> Aft Section</a></li><li class="chapter-item "><a href="../../cockpit/wso/left_console/wall.html"><strong aria-hidden="true">2.2.3.4.</strong> Wall</a></li></ol></li><li class="chapter-item "><a href="../../cockpit/wso/pedestal_group.html"><strong aria-hidden="true">2.2.4.</strong> Pedestal Group</a></li><li class="chapter-item "><a href="../../cockpit/wso/right_sub_panel.html"><strong aria-hidden="true">2.2.5.</strong> Right Sub-Panel</a></li><li class="chapter-item "><a href="../../cockpit/wso/right_console/overview.html"><strong aria-hidden="true">2.2.6.</strong> Right Console</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../cockpit/wso/right_console/front_section.html"><strong aria-hidden="true">2.2.6.1.</strong> Front Section</a></li><li class="chapter-item "><a href="../../cockpit/wso/right_console/center_section.html"><strong aria-hidden="true">2.2.6.2.</strong> Center Section</a></li><li class="chapter-item "><a href="../../cockpit/wso/right_console/aft_section.html"><strong aria-hidden="true">2.2.6.3.</strong> Aft Section</a></li><li class="chapter-item "><a href="../../cockpit/wso/right_console/wall.html"><strong aria-hidden="true">2.2.6.4.</strong> Wall</a></li></ol></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../systems/overview.html"><strong aria-hidden="true">3.</strong> Systems Overview</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../systems/flight_controls/overview.html"><strong aria-hidden="true">3.1.</strong> Flight Control System</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../systems/flight_controls/engines.html"><strong aria-hidden="true">3.1.1.</strong> Engines</a></li><li class="chapter-item "><a href="../../systems/flight_controls/fuel_system.html"><strong aria-hidden="true">3.1.2.</strong> Fuel System</a></li><li class="chapter-item "><a href="../../systems/flight_controls/electrics.html"><strong aria-hidden="true">3.1.3.</strong> Electrics</a></li><li class="chapter-item "><a href="../../systems/flight_controls/hydraulics.html"><strong aria-hidden="true">3.1.4.</strong> Hydraulics</a></li><li class="chapter-item "><a href="../../systems/flight_controls/pneumatics.html"><strong aria-hidden="true">3.1.5.</strong> Pneumatics</a></li><li class="chapter-item "><a href="../../systems/flight_controls/flight_controls.html"><strong aria-hidden="true">3.1.6.</strong> Flight Controls</a></li><li class="chapter-item "><a href="../../systems/flight_controls/gear_ground_handling.html"><strong aria-hidden="true">3.1.7.</strong> Gear & Ground Handling</a></li></ol></li><li class="chapter-item "><a href="../../systems/primary_flight_instruments.html"><strong aria-hidden="true">3.2.</strong> Primary Flight Instruments</a></li><li class="chapter-item "><a href="../../systems/nav_com/overview.html"><strong aria-hidden="true">3.3.</strong> Navigation & Communication</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../systems/nav_com/flight_director_group.html"><strong aria-hidden="true">3.3.1.</strong> Flight Director Group</a></li><li class="chapter-item "><a href="../../systems/nav_com/ins.html"><strong aria-hidden="true">3.3.2.</strong> INS</a></li><li class="chapter-item "><a href="../../systems/nav_com/tacan.html"><strong aria-hidden="true">3.3.3.</strong> TACAN</a></li><li class="chapter-item "><a href="../../systems/nav_com/vor_ils.html"><strong aria-hidden="true">3.3.4.</strong> VOR/ILS</a></li><li class="chapter-item "><a href="../../systems/nav_com/intercom.html"><strong aria-hidden="true">3.3.5.</strong> Intercom</a></li><li class="chapter-item "><a href="../../systems/nav_com/uhf.html"><strong aria-hidden="true">3.3.6.</strong> UHF</a></li><li class="chapter-item "><a href="../../systems/nav_com/encryption.html"><strong aria-hidden="true">3.3.7.</strong> KY-28 Encryption</a></li></ol></li><li class="chapter-item "><a href="../../systems/identification_systems.html"><strong aria-hidden="true">3.4.</strong> Identification Systems</a></li><li class="chapter-item "><a href="../../systems/lighting.html"><strong aria-hidden="true">3.5.</strong> Lighting</a></li><li class="chapter-item "><a href="../../systems/emergency.html"><strong aria-hidden="true">3.6.</strong> Emergency</a></li><li class="chapter-item "><a href="../../systems/utility.html"><strong aria-hidden="true">3.7.</strong> Utility</a></li><li class="chapter-item expanded "><a href="../../systems/weapon_systems/overview.html"><strong aria-hidden="true">3.8.</strong> Weapon Systems</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../systems/weapon_systems/multiple_weapons_system.html"><strong aria-hidden="true">3.8.1.</strong> Multiple Weapons System</a></li><li class="chapter-item "><a href="../../systems/weapon_systems/awru.html"><strong aria-hidden="true">3.8.2.</strong> AWRU</a></li><li class="chapter-item expanded "><a href="../../systems/weapon_systems/wrcs.html" class="active"><strong aria-hidden="true">3.8.3.</strong> WRCS</a></li><li class="chapter-item "><a href="../../systems/weapon_systems/arbcs.html"><strong aria-hidden="true">3.8.4.</strong> ARBCS</a></li><li class="chapter-item "><a href="../../systems/weapon_systems/pave_spike/overview.html"><strong aria-hidden="true">3.8.5.</strong> Pave Spike</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../systems/weapon_systems/pave_spike/electrics.html"><strong aria-hidden="true">3.8.5.1.</strong> Electrics</a></li><li class="chapter-item "><a href="../../systems/weapon_systems/pave_spike/integrations.html"><strong aria-hidden="true">3.8.5.2.</strong> Integrations</a></li><li class="chapter-item "><a href="../../systems/weapon_systems/pave_spike/modes.html"><strong aria-hidden="true">3.8.5.3.</strong> Modes</a></li><li class="chapter-item "><a href="../../systems/weapon_systems/pave_spike/laser_system.html"><strong aria-hidden="true">3.8.5.4.</strong> Laser System</a></li><li class="chapter-item "><a href="../../systems/weapon_systems/pave_spike/weapon_release_modes.html"><strong aria-hidden="true">3.8.5.5.</strong> Weapon Release Modes</a></li><li class="chapter-item "><a href="../../systems/weapon_systems/pave_spike/other.html"><strong aria-hidden="true">3.8.5.6.</strong> Other</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../systems/defensive_systems.html"><strong aria-hidden="true">3.9.</strong> Defensive Systems</a></li></ol></li><li class="chapter-item "><a href="../../weapons/overview.html"><strong aria-hidden="true">4.</strong> Weapons and Weapons Employment</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../weapons/guns.html"><strong aria-hidden="true">4.1.</strong> Guns</a></li><li class="chapter-item "><a href="../../weapons/air_to_air.html"><strong aria-hidden="true">4.2.</strong> Air to Air</a></li><li class="chapter-item "><a href="../../weapons/air_to_ground.html"><strong aria-hidden="true">4.3.</strong> Air to Ground</a></li></ol></li><li class="chapter-item "><a href="../../procedures/overview.html"><strong aria-hidden="true">5.</strong> Procedures</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../procedures/pre_start.html"><strong aria-hidden="true">5.1.</strong> Pre-Start</a></li><li class="chapter-item "><a href="../../procedures/startup.html"><strong aria-hidden="true">5.2.</strong> Startup</a></li><li class="chapter-item "><a href="../../procedures/taxi.html"><strong aria-hidden="true">5.3.</strong> Taxi</a></li><li class="chapter-item "><a href="../../procedures/takeoff.html"><strong aria-hidden="true">5.4.</strong> Takeoff</a></li><li class="chapter-item "><a href="../../procedures/landing.html"><strong aria-hidden="true">5.5.</strong> Landing</a></li><li class="chapter-item "><a href="../../procedures/shutdown.html"><strong aria-hidden="true">5.6.</strong> Shutdown</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="frappe">Frappé</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="pdf">Pdf</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Heatblur F-4E Phantom II</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/Heatblur-Simulations/f-4e-manual" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/Heatblur-Simulations/f-4e-manual/edit/master/src/systems/weapon_systems/wrcs.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="weapon-release-computer-set-wrcs"><a class="header" href="#weapon-release-computer-set-wrcs">Weapon Release Computer Set (WRCS)</a></h1>
+<p>Provision for the F-4E to perform accurate level and dive munition delivery is
+provided by the AN/ASQ-91 WRCS. The WRCS inputs are set with the associated
+panels in the cockpits, and these commands, along with INS data and radar target
+ranging, are used by the ballistic computer to provide the release signal.</p>
+<h2 id="target-range-controls"><a class="header" href="#target-range-controls">Target Range Controls</a></h2>
+<p>The Computer Control Panel found in the rear cocpit has three TARGET entry
+controls, two RELEASE entries, and a bomb DRAG COEFFICIENT entry setting, as
+well as a BIT control knob for system function check. Target entry is relative
+to the predetermined IP.</p>
+<p>The upper range control input is for North/South, and selection of relative
+bearing is noted by the N or S prefix at the start.</p>
+<p>The middle range control input is for East/West, and like the previous, the E or
+W prefix on the range sets the relative bearing direction.</p>
+<p>The final ALT RANGE entry is for target altitude- whether the target or RIP
+(Radar Identification Point) elevation as MSL, or the target/RIP's pressure
+altitude.</p>
+<p>Entries for North/South and East/West are in 100 foot increments, and a maximum
+value of up to 99,900 feet may be entered for these distances. The ALT RANGE
+entry has a maximum of 24,900 in 100 foot increments. Note that the WRCS can be
+damaged if the ALT RANGE entry is greater than the aircraft's current MSL (x100)
+in TGT FIND and OFFSET BOMB modes.</p>
+<h2 id="release-range-control"><a class="header" href="#release-range-control">Release Range Control</a></h2>
+<p>The Release Range control is used to manually set bomb range in tens of feet,
+and is accessible in the Laydown, Dive Laydown, and Offset Bombing modes. The
+maximum setting is 9990 feet (999x10), and when used in a WRCS/AJB-7 integrated
+delivery, the actual range can be as high as 99,900'.</p>
+<p>The Rg control should not be set to the same value as the target range control.
+Otherwise, the bomb rack delay may may relase late, or not at all.</p>
+<h2 id="release-advance-control"><a class="header" href="#release-advance-control">Release Advance Control</a></h2>
+<p>Operative in all WRCS and WRCS/LABS integrated motes, the Release Advance
+Control works in conjunction with the AWRU to advance the release signal in
+milliseconds. Whereas the AWRU Intervalometer setting triggers the release pulse
+sequence from the moment the bomb release button is pressed, when the Release
+Advance Control is applied in a WRCS driven delivery, the specific bomb location
+in a multiple ripple sequence can be calculated in advance, allowing the most
+effective spread possible across a given target.</p>
+<p>As an example, an AWRU single-ripple quantity release of 4 is selected with an
+interval of 120 miliseconds. To place the third bomb in the ripple on target,
+the following equation is used:</p>
+<p>\[ RA = I_R \cdot (N_{Tgt} - 1) \]</p>
+<p>where</p>
+<ul>
+<li>\( RA \) = Release Advance Setting, milliseconds</li>
+<li>\( I_R \) = ARWU Release Intervalometer setting, milliseconds</li>
+<li>\( T_{Tgt} \) = Impact Sequence number of bomb desired on target</li>
+</ul>
+<p>\[ RA = 120 \cdot (3 - 1) \]</p>
+<p>Thus, for this release, we would set the value of RA to 240 msec. This would
+produce a spread of two bombs ahead of target, one on the calculated target
+point, and one behind.</p>
+<p>The maximum setting for the Release Advance Control is 999 milliseconds.</p>
+<h2 id="drag-coefficient-control"><a class="header" href="#drag-coefficient-control">Drag Coefficient Control</a></h2>
+<p>Used only in the Dive Toss Mode, this entry is a bias factor prepared for the
+ballistic computer to compensate for actual bomb trajectory. The maximum setting
+for this value is 9.99.</p>
+<h3 id="ballistic-computer"><a class="header" href="#ballistic-computer">Ballistic Computer</a></h3>
+<p>The ballistic computer is not directly accessed by the flight crew, but instead
+pre-set based on the configured loadout by the ground crew to add the necessary
+ejection bias factors. The computer uses these pre-set bias factors in
+conjunction with a coeficient setting for munition drag in the Dive Toss mode to
+calculate accurate delivery.</p>
+<h2 id="wrcs-built-in-test-bit"><a class="header" href="#wrcs-built-in-test-bit">WRCS Built-In-Test (BIT)</a></h2>
+<p>The BIT control is used to confirm go/no-go status of the WRCS. The BIT system
+checks individual bomb modes individually, and effectivity of the given setting
+is confirmed by selecting the desired mode, pushing the center of the knob PUSH
+FOR BIT for five seconds, then pressing the FREEZE button in conjunction wih the
+PUSH FOR BIT button. Confirmation of mode performance will be displayed as GO or
+NO-GO. Should a mode be checked a subsequent time during a flight and a NO-GO
+response is received, it can be disregarded.</p>
+<h2 id="cursor-control-panel"><a class="header" href="#cursor-control-panel">Cursor Control Panel</a></h2>
+<p>The Cursor Control Panel provides the controls needed for TARGET FIND and OFFSET
+bombing modes. The panel has two thumbwheels named ALONG TRACK and CROSS TRACK,
+which is used in the MAP-PPI mode to position their respective cursors over the
+Radar Identification Point (from this point denoted as RIP). The ALONG TRACK
+control, which presents relative range to the RIP, also includes an internal
+switch enabling the cursor instructions to be acknowledged by the WRCS ballistic
+computer, and must therefore be the first applied command in the target
+insertion sequence.</p>
+<p>Once the ALONG TRACK (range hemisphere) and CROSS TRACK (vertical line) cursors
+are aligned over the RIP, the FREEZE button is pressed to initiate WRCS ground
+path tracking of the specified point. The button remains illuminated until the
+RESET button is pressed or another bombing mode is selected.</p>
+<p>With WRCS ground tracking initiated, the TARGET INSERT button is pressed for the
+ALONG TRACK and CROSS TRACK cursors to shift from the RIP to the offset target.
+Once selected, target steering information is provided from the WRCS to the
+BDHI, ADI, HSI, and optical sight. In the AGM-45 missile mode, the AoA Indexers
+will provide maneuver commands for level, dive, or climb requirements to align
+for seeker acquisition. Further, unless the WRCS Tone switch is disabled on the
+ARBCS panel, an audio tone will be triggered from the point of bomb release
+button press until the first bomb releases from the aircraft; this function is
+nominally for training purposes, as it can preclude other system audio volume.</p>
+<h2 id="weapon-delivery-panel"><a class="header" href="#weapon-delivery-panel">Weapon Delivery Panel</a></h2>
+<p>The Weapon Delivery Panel permits the aircrew to use the WRCS TGT FIND functions
+in LABS (ARBCS) modes- those found on the left side of the pilot's Delivery Mode
+Knob.</p>
+<p>The TGT FIND switch on the panel functions the same as the TGT FIND mode on the
+Delivery Mode Knob. The Delivery Mode Knob overrides this switch in any mode
+outside of TGT FIND, and should be set back to NORM. The HOLD position energizes
+the target finding circuts in conjunction with any LABS or DIRECT mode the pilot
+selects.</p>
+<p>The RANGE Switch is functional in any WRCS mode requiring a Release Range
+setting. The NORM position applies the noted x10 multiplier on the displayed
+Release setting, whereas selecting x100 applies a multiplier of 100 to the
+counter value.</p>
+<p>The ACTIVATE Switch triggers the prerequisite activation signals to the LABS
+circuits once the aircraft has passed within the Release Range. The switch
+should only be placed in ON after target insert has been pressed and the ALONG
+TRACK and CROSS TRACK cursors have transitioned to the target.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../systems/weapon_systems/awru.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../../systems/weapon_systems/arbcs.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../systems/weapon_systems/awru.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../../systems/weapon_systems/arbcs.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../elasticlunr.min.js"></script>
+        <script src="../../mark.min.js"></script>
+        <script src="../../searcher.js"></script>
+
+        <script src="../../clipboard.min.js"></script>
+        <script src="../../highlight.js"></script>
+        <script src="../../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

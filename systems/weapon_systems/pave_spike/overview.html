@@ -1,0 +1,371 @@
+<!DOCTYPE HTML>
+<html lang="en" class="navy" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Pave Spike - Heatblur F-4E Phantom II</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="Manual of the F-4E Phantom by Heatblur Simulations.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../../../favicon.svg">
+        <link rel="shortcut icon" href="../../../favicon.png">
+        <link rel="stylesheet" href="../../../css/variables.css">
+        <link rel="stylesheet" href="../../../css/general.css">
+        <link rel="stylesheet" href="../../../css/chrome.css">
+        <link rel="stylesheet" href="../../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../../highlight.css">
+        <link rel="stylesheet" href="../../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../../../theme/extra.css">
+        <link rel="stylesheet" href="../../../theme/catppuccin.css">
+        <link rel="stylesheet" href="../../../theme/catppuccin-admonish.css">
+        <link rel="stylesheet" href="../../../theme/pdf.css">
+
+        <!-- MathJax -->
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "navy";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('navy')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item affix "><a href="../../../f4e_manual.html">F-4E Manual</a></li><li class="chapter-item "><a href="../../../intro/introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../intro/history.html"><strong aria-hidden="true">1.1.</strong> Historical Background</a></li><li class="chapter-item "><a href="../../../intro/foreign.html"><strong aria-hidden="true">1.2.</strong> Foreign Service</a></li><li class="chapter-item "><a href="../../../intro/air_to_air.html"><strong aria-hidden="true">1.3.</strong> Air to Air Kills</a></li><li class="chapter-item "><a href="../../../intro/first_flights.html"><strong aria-hidden="true">1.4.</strong> First Flights</a></li><li class="chapter-item "><a href="../../../intro/specification.html"><strong aria-hidden="true">1.5.</strong> Technical Specification</a></li></ol></li><li class="chapter-item "><a href="../../../cockpit/overview.html"><strong aria-hidden="true">2.</strong> Cockpit Overview</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../cockpit/pilot/overview.html"><strong aria-hidden="true">2.1.</strong> Pilot Cockpit</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../cockpit/pilot/dcsg_controls.html"><strong aria-hidden="true">2.1.1.</strong> DSCG Controls</a></li><li class="chapter-item "><a href="../../../cockpit/pilot/overhead_indicators.html"><strong aria-hidden="true">2.1.2.</strong> Overhead Indicators</a></li><li class="chapter-item "><a href="../../../cockpit/pilot/weapon_management.html"><strong aria-hidden="true">2.1.3.</strong> Weapon Management</a></li><li class="chapter-item "><a href="../../../cockpit/pilot/flight_director_group.html"><strong aria-hidden="true">2.1.4.</strong> Flight Director Group</a></li><li class="chapter-item "><a href="../../../cockpit/pilot/right_main_panel.html"><strong aria-hidden="true">2.1.5.</strong> Right Main Panel</a></li><li class="chapter-item "><a href="../../../cockpit/pilot/left_sub_panel.html"><strong aria-hidden="true">2.1.6.</strong> Left Sub-Panel</a></li><li class="chapter-item "><a href="../../../cockpit/pilot/left_console/overview.html"><strong aria-hidden="true">2.1.7.</strong> Left Console</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../cockpit/pilot/left_console/front_section.html"><strong aria-hidden="true">2.1.7.1.</strong> Front Section</a></li><li class="chapter-item "><a href="../../../cockpit/pilot/left_console/center_section.html"><strong aria-hidden="true">2.1.7.2.</strong> Center Section</a></li><li class="chapter-item "><a href="../../../cockpit/pilot/left_console/aft_section.html"><strong aria-hidden="true">2.1.7.3.</strong> Aft Section</a></li><li class="chapter-item "><a href="../../../cockpit/pilot/left_console/wall.html"><strong aria-hidden="true">2.1.7.4.</strong> Wall</a></li></ol></li><li class="chapter-item "><a href="../../../cockpit/pilot/pedestal_group.html"><strong aria-hidden="true">2.1.8.</strong> Pedestal Group</a></li><li class="chapter-item "><a href="../../../cockpit/pilot/right_sub_panel.html"><strong aria-hidden="true">2.1.9.</strong> Right Sub-Panel</a></li><li class="chapter-item "><a href="../../../cockpit/pilot/right_console/overview.html"><strong aria-hidden="true">2.1.10.</strong> Right Console</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../cockpit/pilot/right_console/front_section.html"><strong aria-hidden="true">2.1.10.1.</strong> Front Section</a></li><li class="chapter-item "><a href="../../../cockpit/pilot/right_console/center_section.html"><strong aria-hidden="true">2.1.10.2.</strong> Center Section</a></li><li class="chapter-item "><a href="../../../cockpit/pilot/right_console/aft_section.html"><strong aria-hidden="true">2.1.10.3.</strong> Aft Section</a></li><li class="chapter-item "><a href="../../../cockpit/pilot/right_console/wall.html"><strong aria-hidden="true">2.1.10.4.</strong> Wall</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../../cockpit/wso/overview.html"><strong aria-hidden="true">2.2.</strong> WSO Cockpit</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../cockpit/wso/upfront_indicators.html"><strong aria-hidden="true">2.2.1.</strong> Upfront Indicators</a></li><li class="chapter-item "><a href="../../../cockpit/wso/left_sub_panel.html"><strong aria-hidden="true">2.2.2.</strong> Left Sub-Panel</a></li><li class="chapter-item "><a href="../../../cockpit/wso/left_console/overview.html"><strong aria-hidden="true">2.2.3.</strong> Left Console</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../cockpit/wso/left_console/front_section.html"><strong aria-hidden="true">2.2.3.1.</strong> Front Section</a></li><li class="chapter-item "><a href="../../../cockpit/wso/left_console/center_section.html"><strong aria-hidden="true">2.2.3.2.</strong> Center Section</a></li><li class="chapter-item "><a href="../../../cockpit/wso/left_console/aft_section.html"><strong aria-hidden="true">2.2.3.3.</strong> Aft Section</a></li><li class="chapter-item "><a href="../../../cockpit/wso/left_console/wall.html"><strong aria-hidden="true">2.2.3.4.</strong> Wall</a></li></ol></li><li class="chapter-item "><a href="../../../cockpit/wso/pedestal_group.html"><strong aria-hidden="true">2.2.4.</strong> Pedestal Group</a></li><li class="chapter-item "><a href="../../../cockpit/wso/right_sub_panel.html"><strong aria-hidden="true">2.2.5.</strong> Right Sub-Panel</a></li><li class="chapter-item "><a href="../../../cockpit/wso/right_console/overview.html"><strong aria-hidden="true">2.2.6.</strong> Right Console</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../cockpit/wso/right_console/front_section.html"><strong aria-hidden="true">2.2.6.1.</strong> Front Section</a></li><li class="chapter-item "><a href="../../../cockpit/wso/right_console/center_section.html"><strong aria-hidden="true">2.2.6.2.</strong> Center Section</a></li><li class="chapter-item "><a href="../../../cockpit/wso/right_console/aft_section.html"><strong aria-hidden="true">2.2.6.3.</strong> Aft Section</a></li><li class="chapter-item "><a href="../../../cockpit/wso/right_console/wall.html"><strong aria-hidden="true">2.2.6.4.</strong> Wall</a></li></ol></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../../systems/overview.html"><strong aria-hidden="true">3.</strong> Systems Overview</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../systems/flight_controls/overview.html"><strong aria-hidden="true">3.1.</strong> Flight Control System</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../systems/flight_controls/engines.html"><strong aria-hidden="true">3.1.1.</strong> Engines</a></li><li class="chapter-item "><a href="../../../systems/flight_controls/fuel_system.html"><strong aria-hidden="true">3.1.2.</strong> Fuel System</a></li><li class="chapter-item "><a href="../../../systems/flight_controls/electrics.html"><strong aria-hidden="true">3.1.3.</strong> Electrics</a></li><li class="chapter-item "><a href="../../../systems/flight_controls/hydraulics.html"><strong aria-hidden="true">3.1.4.</strong> Hydraulics</a></li><li class="chapter-item "><a href="../../../systems/flight_controls/pneumatics.html"><strong aria-hidden="true">3.1.5.</strong> Pneumatics</a></li><li class="chapter-item "><a href="../../../systems/flight_controls/flight_controls.html"><strong aria-hidden="true">3.1.6.</strong> Flight Controls</a></li><li class="chapter-item "><a href="../../../systems/flight_controls/gear_ground_handling.html"><strong aria-hidden="true">3.1.7.</strong> Gear & Ground Handling</a></li></ol></li><li class="chapter-item "><a href="../../../systems/primary_flight_instruments.html"><strong aria-hidden="true">3.2.</strong> Primary Flight Instruments</a></li><li class="chapter-item "><a href="../../../systems/nav_com/overview.html"><strong aria-hidden="true">3.3.</strong> Navigation & Communication</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../systems/nav_com/flight_director_group.html"><strong aria-hidden="true">3.3.1.</strong> Flight Director Group</a></li><li class="chapter-item "><a href="../../../systems/nav_com/ins.html"><strong aria-hidden="true">3.3.2.</strong> INS</a></li><li class="chapter-item "><a href="../../../systems/nav_com/tacan.html"><strong aria-hidden="true">3.3.3.</strong> TACAN</a></li><li class="chapter-item "><a href="../../../systems/nav_com/vor_ils.html"><strong aria-hidden="true">3.3.4.</strong> VOR/ILS</a></li><li class="chapter-item "><a href="../../../systems/nav_com/intercom.html"><strong aria-hidden="true">3.3.5.</strong> Intercom</a></li><li class="chapter-item "><a href="../../../systems/nav_com/uhf.html"><strong aria-hidden="true">3.3.6.</strong> UHF</a></li><li class="chapter-item "><a href="../../../systems/nav_com/encryption.html"><strong aria-hidden="true">3.3.7.</strong> KY-28 Encryption</a></li></ol></li><li class="chapter-item "><a href="../../../systems/identification_systems.html"><strong aria-hidden="true">3.4.</strong> Identification Systems</a></li><li class="chapter-item "><a href="../../../systems/lighting.html"><strong aria-hidden="true">3.5.</strong> Lighting</a></li><li class="chapter-item "><a href="../../../systems/emergency.html"><strong aria-hidden="true">3.6.</strong> Emergency</a></li><li class="chapter-item "><a href="../../../systems/utility.html"><strong aria-hidden="true">3.7.</strong> Utility</a></li><li class="chapter-item expanded "><a href="../../../systems/weapon_systems/overview.html"><strong aria-hidden="true">3.8.</strong> Weapon Systems</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../systems/weapon_systems/multiple_weapons_system.html"><strong aria-hidden="true">3.8.1.</strong> Multiple Weapons System</a></li><li class="chapter-item "><a href="../../../systems/weapon_systems/awru.html"><strong aria-hidden="true">3.8.2.</strong> AWRU</a></li><li class="chapter-item "><a href="../../../systems/weapon_systems/wrcs.html"><strong aria-hidden="true">3.8.3.</strong> WRCS</a></li><li class="chapter-item "><a href="../../../systems/weapon_systems/arbcs.html"><strong aria-hidden="true">3.8.4.</strong> ARBCS</a></li><li class="chapter-item expanded "><a href="../../../systems/weapon_systems/pave_spike/overview.html" class="active"><strong aria-hidden="true">3.8.5.</strong> Pave Spike</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../systems/weapon_systems/pave_spike/electrics.html"><strong aria-hidden="true">3.8.5.1.</strong> Electrics</a></li><li class="chapter-item "><a href="../../../systems/weapon_systems/pave_spike/integrations.html"><strong aria-hidden="true">3.8.5.2.</strong> Integrations</a></li><li class="chapter-item "><a href="../../../systems/weapon_systems/pave_spike/modes.html"><strong aria-hidden="true">3.8.5.3.</strong> Modes</a></li><li class="chapter-item "><a href="../../../systems/weapon_systems/pave_spike/laser_system.html"><strong aria-hidden="true">3.8.5.4.</strong> Laser System</a></li><li class="chapter-item "><a href="../../../systems/weapon_systems/pave_spike/weapon_release_modes.html"><strong aria-hidden="true">3.8.5.5.</strong> Weapon Release Modes</a></li><li class="chapter-item "><a href="../../../systems/weapon_systems/pave_spike/other.html"><strong aria-hidden="true">3.8.5.6.</strong> Other</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../../systems/defensive_systems.html"><strong aria-hidden="true">3.9.</strong> Defensive Systems</a></li></ol></li><li class="chapter-item "><a href="../../../weapons/overview.html"><strong aria-hidden="true">4.</strong> Weapons and Weapons Employment</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../weapons/guns.html"><strong aria-hidden="true">4.1.</strong> Guns</a></li><li class="chapter-item "><a href="../../../weapons/air_to_air.html"><strong aria-hidden="true">4.2.</strong> Air to Air</a></li><li class="chapter-item "><a href="../../../weapons/air_to_ground.html"><strong aria-hidden="true">4.3.</strong> Air to Ground</a></li></ol></li><li class="chapter-item "><a href="../../../procedures/overview.html"><strong aria-hidden="true">5.</strong> Procedures</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../procedures/pre_start.html"><strong aria-hidden="true">5.1.</strong> Pre-Start</a></li><li class="chapter-item "><a href="../../../procedures/startup.html"><strong aria-hidden="true">5.2.</strong> Startup</a></li><li class="chapter-item "><a href="../../../procedures/taxi.html"><strong aria-hidden="true">5.3.</strong> Taxi</a></li><li class="chapter-item "><a href="../../../procedures/takeoff.html"><strong aria-hidden="true">5.4.</strong> Takeoff</a></li><li class="chapter-item "><a href="../../../procedures/landing.html"><strong aria-hidden="true">5.5.</strong> Landing</a></li><li class="chapter-item "><a href="../../../procedures/shutdown.html"><strong aria-hidden="true">5.6.</strong> Shutdown</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="frappe">Frappé</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="pdf">Pdf</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Heatblur F-4E Phantom II</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/Heatblur-Simulations/f-4e-manual" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/Heatblur-Simulations/f-4e-manual/edit/master/src/systems/weapon_systems/pave_spike/overview.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="pave-spike"><a class="header" href="#pave-spike">Pave Spike</a></h1>
+<p><img src="../../../img/pave_spike_pod.png" alt="pave_spike_pod" /></p>
+<p>The AN/AVQ-23 Pave Spike targeting pod is the successor of the AN/AVQ-10 Pave
+Knife and predecessor of the AN/AVQ-26 Pave Tack pod. It entered service in 1974
+and was replaced from 1982 to 1989 by the Pave Tack pod. It provides a slewable
+TV image for spotting ground targets and can fire laser for determining range
+information and to guide laser guided weapons.</p>
+<p><img src="../../../img/pave_spike_screen_example.png" alt="pave_spike_screen_example" /></p>
+<p>The line of sight can be controlled by the WSO, using the Antenna Hand Control.
+The camera image is displayed on the DSCG scope and can be viewed by both, the
+Pilot and the WSO independently.</p>
+<h2 id="targeting-pod"><a class="header" href="#targeting-pod">Targeting Pod</a></h2>
+<p>The system has an optical camera for daylight operation with one level of
+optical zoom, for a wide and narrow (4x) field of view.</p>
+<p>Limitations for the pods gimbals are</p>
+<ul>
+<li>Roll: -160 to +110 degrees</li>
+<li>Pitch: -160 to +15 degrees</li>
+<li>Yaw: -15 to +15 degrees</li>
+</ul>
+<p><img src="../../../img/pave_spike_roll_limit.png" alt="pave_spike_roll_limit" />
+<img src="../../../img/pave_spike_elev_limit.png" alt="pave_spike_elev_limit" /></p>
+<h2 id="symbology"><a class="header" href="#symbology">Symbology</a></h2>
+<p>The TV image mainly consists of a reticle. The reticle rotates clockwise to
+indicate the pods current elevation. At a 90 degree rotation, the pod is looking
+straight down. If the reticle is almost upside down, the pod reached its gimbal
+limit for the elevation (160 degrees).</p>
+<p>The wide field of view is indicated by a circle around the reticle.</p>
+<p>On the left, the image displays two cues:</p>
+<ul>
+<li>Time To Go Cue (TTg)</li>
+<li>Release Cue (T0)</li>
+</ul>
+<p>During weapon operation, TTg moves down until it intersects T0, indicating the
+time to release.</p>
+<p><img src="../../../img/pave_spike_symbology.png" alt="pave_spike_symbology" />
+<img src="../../../img/pave_spike_symbology_fov.png" alt="pave_spike_symbology_fov" /></p>
+<p>The cues also indicate various situations related to laser operation.</p>
+<div class="table-wrapper"><table><thead><tr><th>Indication</th><th>T0</th><th>TTG</th></tr></thead><tbody>
+<tr><td>not shown</td><td>not in TRACK mode</td><td>not in TRACK mode</td></tr>
+<tr><td>steady</td><td>commanded to fire laser (full action)</td><td>firing laser, accepted range</td></tr>
+<tr><td>flashing fast</td><td>not commanded to fire laser</td><td>not firing laser or target too far away</td></tr>
+<tr><td>flashing slow</td><td></td><td>firing laser, but range rejected</td></tr>
+</tbody></table>
+</div>
+<h2 id="controls"><a class="header" href="#controls">Controls</a></h2>
+<p>The Pave Spike is mostly interacted with by the WSO, while the Pilot has
+indicators assisting in keeping the pods line of sight within its limits.</p>
+<p>The entire system, known as AN/ASQ-153 Electro-Optical Target Designator System,
+consists of:</p>
+<ul>
+<li>Range Indicator (Pilot)</li>
+<li>Azimuth-Elevation Indicator (Pilot)</li>
+<li>Laser Coder Control (WSO)</li>
+<li>Target Designator Set Control (WSO)</li>
+</ul>
+<p>While the display is shown on the DSCG screens in both cockpits.</p>
+<p><img src="../../../img/eotgt_pilot_overview.png" alt="eotgt_pilot_overview" />
+<img src="../../../img/eotgt_wso_overview.png" alt="eotgt_wso_overview" /></p>
+<h3 id="azimuth-elevation-indicator"><a class="header" href="#azimuth-elevation-indicator">Azimuth-Elevation Indicator</a></h3>
+<p>The Azimuth-Elevation Indicator is the main instrument for the pilot to assess
+the pods current attitude in order to keep the line of sight within the
+operational limits.</p>
+<p><img src="../../../img/EOLos.png" alt="EOLos" /></p>
+<p>The needle shows the pods roll position from -160 (CW) to +110 (CCW) degrees.</p>
+<p>Three flags indicate the elevation:</p>
+<ul>
+<li>green: -120 to -155 degrees</li>
+<li>yellow: -155 to -160 degrees</li>
+<li>red: -160 or beyond degrees</li>
+</ul>
+<p>If the needle is kept within the green labelled range and neither the yellow or
+red flag are shown, the view will not be obstructed by the pod or the aircraft.</p>
+<h3 id="range-indicator"><a class="header" href="#range-indicator">Range Indicator</a></h3>
+<p>This panel provides the pilot with a readout of the slant range measured by the
+Pave Spike (x100 ft).</p>
+<p><img src="../../../img/range_indicator.png" alt="range_indicator" /></p>
+<p>When the Test-Button is pressed, the display shows 888, the knob underneath it
+controls the brightness of the readout.</p>
+<p>The Mode-Knob allows the pilot to select one of two weapon delivery modes
+available with the pod:</p>
+<ul>
+<li>WRCS - Automatic Delivery</li>
+<li>ROR - Release on Range</li>
+</ul>
+<p>In the SET position, the display shows the desired release range used in the ROR
+mode. The knob below the readout can be used to adjust this range.</p>
+<h3 id="laser-coder-control"><a class="header" href="#laser-coder-control">Laser Coder Control</a></h3>
+<p>The WSO can set the laser code used by the targeting pod by using the four small
+push-buttons on this panel. Each press will advance the corresponding digit by
+one. Once a code has been set, it can be transferred to the Pave Spike by
+pressing the Enter-Button to the right.</p>
+<p><img src="../../../img/laser_coder_control.png" alt="laser_coder_control" /></p>
+<p>The Laser Coder system starts validating the entered code, this process takes
+about 5 seconds. If the NO-GO lamp is lit, the code is invalid.</p>
+<p>Codes directly relate to lasers frequencies, resulting in them having to be
+between 1111 and 1788 and not use digits 0 or 9 in order to be valid.</p>
+<p>When power is applied to the system, it automatically initiates a transfer of
+the currently set code.</p>
+<h3 id="target-designator-control-set"><a class="header" href="#target-designator-control-set">Target Designator Control Set</a></h3>
+<p>This is the main panel to interact with the targeting pod.</p>
+<p><img src="../../../img/target_des_panel.png" alt="target_des_panel" /></p>
+<p>From left to right, top to bottom, it provides the WSO with:</p>
+<ul>
+<li>Reticle Brightness Knob - change the reticle from black to green</li>
+<li>Az/El/Roll Boresight Knobs - adjust the boresight position of the pod within
+±2.5 degrees</li>
+<li>Stow Button - Stow or Unstow the pod</li>
+<li>Laser Ready Button - Arm or Disarm the laser</li>
+<li>Power On Button - Turn the pod on or off</li>
+<li>Currently selected BIT, with push button to advance the BIT</li>
+<li>Light Brightness Knob - adjust brightness of all lights on this panel (except
+the Overheat lamp)</li>
+<li>Reject/Override Button - Force the use of the laser slant range</li>
+<li>Acquisition Mode Switch - Select the Acquisition Mode (12-VIS, WRCS or 9-VIS)</li>
+<li>WRCS Out Button - Toggle WRCS integration with the pod</li>
+<li>GO/MALF Lamp - Indicates BIT results</li>
+<li>INS Out Button (and Overheat lamp) - Toggle INS integration with the pod</li>
+</ul>
+<p>The lamps generally indicate the current status, while the push buttons can be
+used as a manual command. For example, pressing the Laser Ready Button is not
+enough for the laser to actually be ready. The lamp will only be lit if all
+other conditions, such as a valid laser code being set, are met.</p>
+<h3 id="antenna-hand-control"><a class="header" href="#antenna-hand-control">Antenna Hand Control</a></h3>
+<p>During Track mode, the WSO can manually slew and correct the pods line of sight
+with the Antenna Hand Control, or Antenna Stick.</p>
+<p><img src="../../../img/pave_spike_antenna_hand_control.png" alt="pave_spike_antenna_hand_control" /></p>
+<p>The Challenge Button is used to zoom in or out, while the 2-stage trigger is
+used to switch between modes and fire the laser.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../../systems/weapon_systems/arbcs.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../../../systems/weapon_systems/pave_spike/electrics.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../../systems/weapon_systems/arbcs.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../../../systems/weapon_systems/pave_spike/electrics.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../../elasticlunr.min.js"></script>
+        <script src="../../../mark.min.js"></script>
+        <script src="../../../searcher.js"></script>
+
+        <script src="../../../clipboard.min.js"></script>
+        <script src="../../../highlight.js"></script>
+        <script src="../../../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
