@@ -1,8 +1,6 @@
-# Introduction
+# Historical Background
 
-## Historical Background
-
-### F3H to AH-1, F-110 to F-4: A Navy Interceptor with Multi-role Pedigree
+## F3H to AH-1, F-110 to F-4: A Navy Interceptor with Multi-role Pedigree
 
 The developmental onset of the F-4 Phantom II began in the aftermath of
 McDonnell's loss in the US Navy's 1953 Day Fighter Competition- the victor
@@ -40,7 +38,7 @@ Aeronautics (BuAer) had evaluated similar unsolicited proposals from Grumman, Do
 North American, and provided McDonnell with a $38 million dollar contract for two flying examples
 of the Demon follow on- internally designated as the AH-1.
 
-![McDonnell F3H-G Mockup](img/F3HG.jpg)
+![McDonnell F3H-G Mockup](../img/F3HG.jpg)
 _(McDonnell F3H-G mockup; US Navy photo)_
 
 Two months later, the Navy threw McDonnell a curve ball, directing the type to be stripped of the
@@ -123,7 +121,7 @@ starting system for field use without a compressed air cart in combination with 
 This F-4C configuration would be the first Phantom used during the USAF's involvement in Vietnam,
 beginning in December of 1964.
 
-### Backtracking with Haste- Correcting the USAF's Early F-4 Experience in Vietnam
+## Backtracking with Haste- Correcting the USAF's Early F-4 Experience in Vietnam
 
 The Phantom's initial deployments to Southeast Asia delivered a number of firsts- the
 first officially confirmed MiG-17 kill with the AIM-9 Sidewinder (on July 10th, 1965),
@@ -204,42 +202,3 @@ to become the standard for air to air methodology across the Air Force. While th
 ultimately too late to have real effect, with the final halt on US bombing coming just weeks
 after the first Haste student crews returned to Vietnam, they would set the tone for USAF Phantom
 crews going forward.
-
-## F-4E Combat History in Foreign Service
-
-TODO
-
-## F-4E Air to Air Kills
-
-TODO
-
-## F-4E First Flights by Nation
-
-| Nation        | McDonnell Number | BuNo/USAF Serial | Date               |
-| ------------- | ---------------- | ---------------- | ------------------ |
-| United States | 2234             | 66-284           | June 30th, 1967    |
-| Israel        | 3492             | 68-396           | May 26th, 1969     |
-| Australia     | 3847             | 69-0304          | June 26th, 1970    |
-| Japan         | 4037             | 69-7463          | January 14th, 1971 |
-| Iran          | 4093             | 69-7711          | March 2nd, 1971    |
-| Greece        | 4439             | 72-01500         | January 29th, 1974 |
-| Turkey        | 4525             | 73-01016         | June 17th, 1974    |
-| Germany       | 4946             | 75-00628         | May 5th, 1977      |
-| South Korea   | 4966             | 76-0493          | July 28th, 1977    |
-
-## Technical Specifications: F-4E
-
-| Wingspan               | 38' 5" (11.7 meters)             |
-| ---------------------- | -------------------------------- |
-| Wingspan (Folded)      | 27' 7" (8.4 meters)              |
-| Length                 | 63' (19.2 meters)                |
-| Height                 | 16' 5" (5 meters)                |
-| Wing Area              | 530 sqft (49.2 m² )              |
-| Wing Loading           | 78 lb/sqft (380 kg/m² )          |
-| Empty Weight           | 30,328 lb (13,757 kg)            |
-| Maximum Takeoff Weight | 61,795 lb (28,030 kg)            |
-| Thrust (Dry)           | 23,810 lbf (105.92 kN)           |
-| Thrust (Afterburner)   | 35,690 lbf (158.76 kN)           |
-| Combat Ceiling         | ~56,000' (~17,070 m)             |
-| Maximum Speed          | Mach 2.23; 1,280 kn (2,370 km/h) |
-| Range (Ferry)          | 1,457 nmi (2,699 km)             |

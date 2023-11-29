@@ -1,298 +1,8 @@
-# Weapons and Weapons Employment
+# Air to Ground Weapons
 
-## M61A1 Vulcan Cannon - Internal and External
+## AGM-65 Maverick
 
-### Internal M61A1 Vulcan 20mm Cannon
-
-![m61](img/m61.jpg)
-
-The General Electric M61 Vulcan cannon finally went to war as an integral part
-of the Phantom with the advent of the F-4E, with the nose profile and APQ-120
-modified to fit the weapon. Carrying 639 rounds in the internal drum, the
-six-barreled Gatling style rotary cannon provides a user-selectable rate of fire
-from 4000 to 6000 rounds per minute, delivering a muzzle velocity in excess of
-3,450 ft/s, with armor piercing incendiary and high explosive incendiary round
-options available. Useful in both air to air and air to ground roles, the Vulcan
-was used for four confirmed kills by the USAF over Vietnam with the F-4E.
-
-To utilize the M61, the GUN station select switch must be selected, the Master
-Arm must be ON, and the Gun selection on the Pinky Switch (Aft) must be
-actuated. This will illuminate the GUN lamp on the Head Up Display.
-
-For air to air usage, the optical sight should be selected to A/A mode. In air
-to air mode, the optical sight functions as a lead computing optical sighting
-(LCOS), thus maneuvering in both elevation and azimuth relative to a radar
-locked target, or a default 1000' range setting in the event of no lock. With a
-lock, the range bar presentation is relative to 6700' just to the left of the
-tick at the 1 o-clock position, down to 1000' at the 6 o-clock position.
-
-For air to ground use, the optical sight should be selected to A/G mode, the
-Delivery Mode knob should be set in the OFF or Direct mode, and the desired
-sight depression mil setting be entered for the intended attack profile.
-Depression is set relative from the Fuselage Reference Line (FRL). While
-Depression will lower the reticle in elevation, there is no azimuth drift due to
-relative aircraft motion.
-
-Gun rate is controlled with the Rate switch on the Pedestal panel, and is
-selectable as High (6000 rounds per minute) or Low (4000 rounds per minute).
-Also on the Pedestal panel is the gun rounds remaining indicator.
-
-Of note is the Auto Clear function; the cannon will fire approximately between 5
-and 11 rounds from the point the pilot has released the trigger to clear all
-bolt actions in the cannon; this spindown takes approximately one second, and
-the gun cannot be fired again during this operation. While the Pedestal panel
-carries the Auto Clear switch, this switch does not have any control over the
-internal M61A1 cannon, and can only deactivate round clearance for podded
-external cannon installations.
-
-### SUU-16/A and SUU-23/A External 20mm Vulcan Cannon Pods
-
-![suupods](img/suupods.jpg)
-
-Built to both provide gun capability to aircraft that did not mount them
-internally, and to increase available direct fire in the close air support
-mission, the SUU-16/A and SUU-23/A gun pods were both built around the M61A1 and
-a 1200 round ammunition load. Both pods are fixed-rate at 6000 rounds per
-minute, and up to three can be concurrently installed and driven by the fire
-control system; while up to five can be loaded for ferry purposes, and
-promotional images have shown such a configuration, only three can be activated.
-
-The primary difference between the -16/A and -23/A pods are their method of
-power; the former using a ram air turbine arrangement to drive its motor, while
-the latter is internally powered. This difference had an effect on relative
-utility- while the -23/A could be fired at any airspeed, thus allowing it to be
-loaded onto slower aircraft, the -16/A's ram air turbine required a minimum
-speed of 300 knots to fire, and only reached its optimum performance above 400
-knots. Both pods have an auto-clear function for safety, which cause rounds
-loaded in the breeches to be released back into the ammo bin, which does entail
-a momentary delay of one to two seconds prior to being able to fire the pod
-again.
-
-Activation of the SUU pods are performed by selecting their respective Station
-Select switches, and placing the Delivery Mode knob in OFF or Direct. The Weapon
-Selector knob can be in any position other than TV or ARM, unless CAGE mode is
-activated. The desired Auto-Clear setting should be selected, and Master Arm set
-to ON to activate the pod. On the SUU-16, the Master Arm activation deploys the
-ram air turbine.
-
-Installed, the guns are boresighted along the Fuselage Reference Line. Thus,
-with the optical sight in air to air mode, the rounds will fall in accordance
-with reticle center, just as the main cannon- only with the natural offset of
-their respective pylon position, thus allowing for effective natural gunnery, if
-only affected by a moderate increase in resulting CEP. In the same fashion, in
-air to ground mode, the SUU pods observe the same performance relative to the
-reticle depression schedule as the internal cannon, again, with their respective
-offsets from centerline and CEP increase.
-
-To safe the gun pods after combat, prior to deactivating Master Arm, the Auto
-Clear switch should be placed into the Auto Clear position, the trigger squeezed
-momentarily, and the respective Station Select buttons pushed to off. On the
-SUU-16, this will close the ram air turbine.
-
-## Air to Air Weapons
-
-### AIM-7 Sparrow
-
-![aim7](img/aim7.jpg)
-
-Originally designated the AAM-N-6 Sparrow III, the AIM-7 Sparrow saw initial
-service entry with the United States Navy in 1958. Unlike the beam-riding AIM-7A
-(AAM-N-2 Sparrow I), which required the launching aircraft to maintain boresight
-on the target for the flyout of the weapon, the semi-active radar homing AIM-7C
-could effectively engage a maneuvering target well off boresight, so long as the
-designating aircraft's radar could maintain a lock during the missile's
-intercept. The AIM-7C quickly gave way to the 7D, which saw a number of kills
-over Vietnam, and the 7E, which scored the majority of the type's kills in
-Southeast Asia. Additionally, the F-4E saw compatibility with the AIM-7F and
-AIM-7M.
-
-Utilization of the AIM-7 begins with tuning the onboard rounds, performed with
-the RDR MSL switch, selecting it into the CW ON position. This tuning process
-takes approximately one minute, and can be initiated once power has been applied
-for at least one minute to the radar (any position out of OFF) in most operating
-environments (ambient temperature below 90 degrees F). The missiles are properly
-tuned when the missile status light (RDR) is illuminate in each station carrying
-a Sparrow missile for at least one minute. After successful tuning, the RDR MSL
-switch can be returned to the STBY (Standby) position. The status lamps will
-turn off once returned to STBY. Once in the combat area, the RDR MSL switch
-should be returned to the CW ON position, to maintain proper missile kystron
-tuning state during the engagement.
-
-To employ an AIM-7, the Optical Sight should be placed into the A/A position,
-which stabilizes the Reticle at the Radar Boresight Line in the window. The roll
-tabs function to provide the pilot with relative roll attitude guidance in
-instrument conditions (weather or nighttime), and the right side of the 50 mil
-diameter circle (outer) functions as a range bar when a radar lock is achieved
-against a target, displaying ranges up to 20,000' (top) to 3000' (bottom), with
-12,000' signified at the 3 o-clock position.
-
-When radar lock on against a target is achieved with AIM-7 selected, a pair of
-strobes surround the locked target in azimuth. Identified as Rmax and Rmax 2,
-they represent effective ranges against a 1 G target (Rmax), and a high rate
-maneuvering target based on altitude (Rmax 2, representing 8G up to 20k, 6G to
-35k, and 4G above 35,000'). When a missile is launched, the Rmax 2 strobe falls
-to the bottom of the display, and begins driving upwards towards the target
-lock; this functions as a missile flyout timer. When the timer reaches the
-locked target, it can be assumed the missile has arrived. The display does not
-provide Rmin, but instead reverts to a break X warning superimposed over the
-radar image should Rmin be attained for a Sparrow launch.
-
-Prior to engagement, a determination must be made as to whether or not the
-missile interlocks will be kept in, or positioned out. The interlocks preclude
-an AIM-7 shot when outside of effective firing parameters, those being the
-missile in range (illuminating the IN RANGE light), the target aim dot within
-the ASE (Allowable Steering Error) circle on the radar display, and the radar
-display mode out of VI (Vis-Ident mode).
-
-With the interlocks in, should any of the three aforementioned restrictions be
-met- target out of range, aim dot outside the ASE, or the radar left in VI, a
-trigger actuation will not cause the release of a missile. With interlocks out,
-an AIM-7 will be released no matter the condition of the three interlocks.
-
-When parameters are met, the the SHOOT lamps will illuminate. Found in both
-cockpits, these lights reinforce the condition of good launch conditions for the
-AIM-7. In the event a target enters a main beam clutter situation (aspect angle
-between 81 and 99 degrees and lower than 5 degrees above the horizon), the
-lights will turn off, even though the interlock requirements are met. Maneuver
-should be utilized to bring the target outside this region prior to launch.
-
-At the point of engagement, AIM-7 missiles are selected using the Pinky Switch
-on the outboard (left) throttle arm, selecting the forward position. This
-illuminates the RADAR lamp on the Head Up Display panel.
-
-Before employing the AIM-7E Sparrow, a delay of four seconds should be given if
-the Master Arm switch is set in the ON position prior to radar lock on, or a
-delay of two seconds if the Master Arm switch is set to ON after radar lock on.
-This is due to the set-in period of the missile speedgate. With the AIM-7F, this
-delay is reduced to two seconds with Master Arm On prior to lock, or immediately
-after selecting Master Arm to On if lock on was achieved first. Should these
-delays not be adhered to, the missile may fail to track because of improper
-target doppler injection.
-
-With the target in parameters or interlocks out, pressing the trigger fires off
-an AIM-7. A second AIM-7 can be fired immediately at the same target, if
-desired, by releasing, then squeezing the trigger a second time- holding it on
-the second actuation.
-
-The launch sequence for the AIM-7 missile is
-
-Left Forward Right Forward Left Rear Right Rear
-
-In the event of a centerline store or tank precluding forward missile release,
-the CL TK lamp will illuminate. Rear missiles may still be fired, and the
-forward missiles may be fired if the a centerline tank is dropped or MER is
-jettisoned. The lamp also illuminates in the event of a BRU-5/A in the
-centerline position, however, a missile can be launched in that condition. The
-Aero-27 precludes any release, even if the round has been dropped.
-
-### AIM-9 Sidewinder
-
-![aim9](img/aim9.jpg)
-
-Entering service with the United States Navy in 1956, and finally accepted by
-the United States Air Force in 1964, the short range, infrared seeking AIM-9
-Sidewinder is considered by most to be the world's first truly effective air to
-air guided missile. Beginning with the AIM-9B and maintaining compatibility to
-the AIM-9M in US service, the Sidewinder provided the Phantom II with a capable
-close-in weapon system against rapidly maneuvering opponents.
-
-Employment of the AIM-9 can be performed with or without a radar lock, and is
-initiated by selecting Master Arm to ON and selecting the Throttle Pinky Switch
-to the center position for Heat. The HEAT lamp on the Head Up Display will
-illuminate, and available AIM-9 missiles will illuminate on the Missile Status
-Panel. The Optical Sight should be selected to A/A, and the reticle will
-stabilize at the Radar Boresight Line, which is the boresight location for the
-Sidewinders on the rails.
-
-Should a radar lock be achieved, the sight will display the range bar on the
-right side as previously described, with 20,000' indicated at the top, and
-3,000' range indicated at the bottom. With a radar lock on, the radar will
-display a pair of strobes signifying Rmax and Rmin for the Sidewinder against
-the target under current launch conditions.
-
-It is important to note that the AIM-9 does not receive a guidance handoff from
-the APQ-120 like on later aircraft to direct the seeker's look angle. Instead,
-the ASE circle presents the aim dot against the target to bring it to the RBL.
-Centering the aim dot in the ASE aligns the target to the RBL, thus allowing for
-rapid acquisition by the seeker of the selected AIM-9. Once the missile's tone
-changes to signify lock, the pilot can then select the AAR button on the grip to
-allow for Sidewinder self-track (seeker uncage); this function allows the seeker
-to maintain acquisition of the target (noted by the shifted audio tone), while
-permitting maneuver of the aircraft to a better aspect angle or range solution
-prior to launch if the situation allows. The amount of maneuver available to a
-given Sidewinder type is based on the variant, and should be considered before
-making the selection.
-
-Once the desired firing solution is attained, the AIM-9 is launched using the
-trigger.
-
-AIM-9 Launch Sequence:
-
-1. Left Outboard
-2. Right Outboard
-3. Left Inboard
-4. Right Inboard
-
-### Specialized ACM Functions: CAGE and CAA
-
-#### CAGE Mode
-
-In the event that an AIM-7, AIM-9, or M61A1 must be employed against an airborne
-target with the sight in A/G mode (for example, the flight is bounced by
-opposing aircraft), the optical sight reticle can immediately be slewed to the
-Radar Boresight Line using the Cage Button, found on the inboard (right)
-throttle handle. Cage mode commands the radar into BST mode with a five mile
-range, and short pulse, and sets the firing circuit for the currently selected
-air to air weapon relative to the Pinky Switch. For the optical sight, the
-command activates the respective elevation and azimuth tracking, roll mark, and
-range functions of the reticle for the chosen weapon, without the pilot having
-to remove a hand from throttle or stick to swap the sight mode or weapon control
-panel functions.
-
-Should a track condition exist prior to pressing Cage and the Pinky switch is in
-Radar or Heat position, the lock is broken when the button is pressed, and the
-antenna slaves to boresight when released. If the Pinky Switch is in the Gun
-position, the lock is not broken.
-
-Cage mode can be exited from either cockpit, by placing Weapon Select knob in
-the pilot cockpit to the B position momentarily, or by the WSO pressing the Air
-to Air button on the rear cockpit panel. If the pilot leaves the Weapon Select
-knob in B, it does not preclude a later entry into Cage mode.
-
-#### Computer Automatic Acquisition Mode (CAA)
-
-![CAA](img/CAA.png)
-
-Once in Cage mode, the radar can be selected in to Computer Automatic
-Acquisition using the Nose Gear Steering button. In CAA, the radar enters a
-vertical-oriented scan pattern 78 degrees in height by 15 degrees high. Actual
-radar lock capability within this scan pattern is from +45 degrees above the
-horizon line to -9 degrees below the horizon line due to APQ software
-limitation. In the event that the radar finds a suitable target within the scan
-volume, the target will be locked. Should the flight crew find the locked target
-not be the one intended, the Nose Gear Steering button can be pressed on either
-stick grip to return the radar back to the search pattern.
-
-In CAA mode, the radar's search pattern can be shifted left or right utilizing
-the Pinky Switch. While this actuation will change the illuminated weapon
-indicated on the Head Up Display, the actual selected weapon from the point of
-Cage mode entry does not change.
-
-| Selection | Focus              |
-| --------- | ------------------ |
-| Guns      | Radar Focus Left   |
-| Heat      | Radar Focus Center |
-| Radar     | Radar Focus Right  |
-
-To exit CAA, the pilot can select position B on the Weapon Select Knob, or the
-WSO can push the Air to Air button. Should a radar lock be in place at the time
-of mode exit, it will be retained.
-
-## Air-to-Ground Weapons
-
-### AGM-65 Maverick
-
-![agm65](img/agm65.jpg)
+![agm65](../img/agm65.jpg)
 
 Entering service in 1972, the AGM-65 air to surface missile provided the Phantom
 II with a direct-fire long range weapon, capable of destroying armor, mechanized
@@ -305,9 +15,9 @@ responsible for stores and mode selection, and initial seeker placement. From
 the point the seeker head is stabilized on the intended target area, either crew
 member can direct the final intended contrast target.
 
-### Conventional Bombs - Mk 80 Series
+## Conventional Bombs - Mk 80 Series
 
-![mk80s](img/mk80s.jpg)
+![mk80s](../img/mk80s.jpg)
 
 The Phantom II's bread and butter in the air to ground role, the Mk 80 series
 conventional bombs were first dropped in combat over North Vietnam. The F-4E is
@@ -318,9 +28,9 @@ in the low drag profile, and deploy as a cruciform aerobraking device in the
 high drag setting. This change in setting is managed with the Nose/Tail Arming
 switch.
 
-### Laser Guided Bombs - GBU-10, 12, and 24
+## Laser Guided Bombs - GBU-10, 12, and 24
 
-![gbus](img/gbus.jpg)
+![gbus](../img/gbus.jpg)
 
 Built around the Mk 80 series of conventional bombs, the Paveway series
 precision bomb kits install a guidance section and directional maneuvering fin
@@ -330,9 +40,9 @@ Paveway's resulting performance delivered a substantial increase to the
 Phantom's bombing accuracy, with the later GBU-24's larger fin arrangement
 providing greater glide range for the 2000 lb round over the original GBU-10.
 
-### Anti-Tank Cluster Bombs - Mk 20 Rockeye
+## Anti-Tank Cluster Bombs - Mk 20 Rockeye
 
-![mk40s](img/mk40s.jpg)
+![mk40s](../img/mk40s.jpg)
 
 Carrying 247 Mk 118 anti-tank bomblets, the Mk 20 Rockeye is used to deliver
 said potency across a wide dispersal area. The Mk 20 has a base schedule
@@ -342,9 +52,9 @@ programmed prior to takeoff. In concert, once over the target area the pilot can
 select the necessary option through the Nose/Tail Arming switch, and deliver the
 weapon with the profile most suited to the target.
 
-### Mk 4 Series 2.75 Folding Fin Aerial Rockets - FFAR
+## Mk 4 Series 2.75 Folding Fin Aerial Rockets - FFAR
 
-![lau3](img/lau3.png)
+![lau3](../img/lau3.png)
 
 Also known as the Mighty Mouse, the Mk 4 series of unguided aerial rockets
 originated as an air to air weapon. Given the rocket's undirected nature,
@@ -362,9 +72,9 @@ Explosive, and the Mk 5 High Explosive Anti Tank. Depending on the hardpoint
 location and configuration, up to 3 LAU-3 pod launchers can be installed per
 hardpoint, each carrying 19 FFARs per.
 
-### AGM-45 Shrike Anti-Radiation Missile
+## AGM-45 Shrike Anti-Radiation Missile
 
-![agm45](img/agm45.jpg)
+![agm45](../img/agm45.jpg)
 
 The Sparrow-derived AGM-45 Shrike is an early attempt at an anti-radiation
 missile for the suppression of enemy air defense (SEAD) role. Mating a
@@ -387,18 +97,18 @@ clandestine means with the RAF during the Falklands War.
 The AGM-45 Shrike has three distinct launch modes, all of which are described in
 the AGM-45 Mode section.
 
-### BDU Series Training Bombs
+## BDU Series Training Bombs
 
-![bdu33](img/bdu33.jpg)
+![bdu33](../img/bdu33.jpg)
 
 Depending on the training requirements and range needs, the Phantom II can carry
 the BDU-33 25 lb training bomb, the BDU-45 500 lb training bomb, or the BDU-50
 500 lb training bomb, in either low or high drag configuration, to simulate the
 carriage and release profile of standard Mk 82 and Snakeye rounds.
 
-### Air-to-Ground Weapons Modes
+## Air-to-Ground Weapons Modes
 
-#### LOFT
+### LOFT
 
 Loft bombing is utilized to deliver multiple bombs with minimum exposure to
 ground fire and no target flyover. As the name entails, the aircraft transitions
@@ -437,9 +147,9 @@ the pilot has increased and held G at the proper rate for maximum accuracy.
 Control of the ADI by the AN/AJB-7 is maintained until the pilot releases the
 bomb button after the last desired munition is released.
 
-![loft](img/loft.jpg)
+![loft](../img/loft.jpg)
 
-#### Timed Over the Shoulder - (TIMED) O/S
+### Timed Over the Shoulder - (TIMED) O/S
 
 Derived from the Loft mode, Timed Over the Shoulder bombing is available for
 circumstances in which a direct target flyover is possible, originating from a
@@ -465,7 +175,7 @@ horizontal needle during the entire bombing run, and like Loft, the ADI reverts
 back to the previous function once the bomb button is released after the last
 intended munition for the run has been dropped.
 
-#### Intantaenous Over the Shoulder - INST O/S
+### Intantaenous Over the Shoulder - INST O/S
 
 Further derived from the Timed O/S mode, Instantaneous Over the Shoulder bombing
 provides the same combined attack/escape profile as the former against targets
@@ -481,7 +191,7 @@ the necessary angle of pitch, the munitions separation begins, and the bomb
 release button can be released once all desired rounds have been ejected from
 the aircraft, thus resetting the display of the ADI.
 
-#### Timed Low Angle Drogue Delivery - T LAD(D)
+### Timed Low Angle Drogue Delivery - T LAD(D)
 
 Conceived as a delivery method for tactical nuclear bombs, Timed Low Angle
 Drogue Delivery is performed just like it sounds. The mode performs a low
@@ -519,9 +229,9 @@ Pullup light will turn off, and the ADI needles will be stowed. Once the last
 round is ejected, the bomb release button can be released, and the desired
 escape maneuver performed.
 
-![ladd](img/ladd.jpg)
+![ladd](../img/ladd.jpg)
 
-#### Timed Level - TL
+### Timed Level - TL
 
 Timed Level bombing is the most basic ARBCS mode, utilizing only the Release
 timer; the Pullup timer should be set to 000, and the High and Low Release
@@ -540,7 +250,7 @@ weapons are released from the aircraft. Unlike the other LABS modes, there is no
 pullup audio or ADI needle takeover to illustrate pitch or roll deviation- it is
 simply dependent on the pilot to maintain wings level flight.
 
-#### Direct
+### Direct
 
 Direct bombing is exactly as it sounds: classic, direct visual bombing, with
 both dive and level bombing release passes possible. Both the ARBCS and WRCS are
@@ -554,11 +264,11 @@ the Phantom, Direct remains a reliable method when conditions permit, and can be
 used against any target the crew can see- namely, targets of opportunity, or in
 the CAS environment.
 
-![directdive](img/directdive.jpg)
+![directdive](../img/directdive.jpg)
 
-![directlevel](img/directlevel.jpg)
+![directlevel](../img/directlevel.jpg)
 
-#### Offset
+### Offset
 
 Offset bombing provides a blind bombing capability, with high and low level
 bombing profiles, using the full integration of the WRCS, INS, and radar in
@@ -585,9 +295,9 @@ by way of smaller navigation time and distance, and approach to the IP should be
 flown with a focus on minimizing maneuvering required to put the target nose on
 after IP acquisition (RIP) or flyover (VIP).
 
-![offsetiplimits](img/offsetiplimits.jpg)
+![offsetiplimits](../img/offsetiplimits.jpg)
 
-**Offset RIP Low Altitude Considerations**
+#### Offset RIP Low Altitude Considerations
 
 Of special note in the RIP mode is the need to compensate for altitude
 difference in the event the ingress to target will be flown below the altitude
@@ -605,7 +315,7 @@ per normal.
 
 The differences in final attack procedures are described below:
 
-**Offset Visual IP**
+#### Offset Visual IP
 
 Prior to IP overflight, the N/S and E/W offsets, release range (x10 per the
 window, or using the x100 switch modifier on the WRCS initiate panel), and any
@@ -636,9 +346,9 @@ Once an attack is completed, the navigation program against the set target is
 maintained. The aircraft can attempt a re-attack, although natural INS drift may
 reduce the accuracy of this second attack.
 
-![offsetvip](img/offsetvip.jpg)
+![offsetvip](../img/offsetvip.jpg)
 
-**Offset Radar IP**
+#### Offset Radar IP
 
 Prior to RIP Freese and Target Insert, the N/S and E/W offsets, RIP altitude,
 release range (x10 per the window, or using the x100 switch modifier on the WRCS
@@ -677,9 +387,9 @@ to a VIP-possible profile, the offsets can be kept in the WRCS, and the pilot
 simply fly over the RIP, with the WSO pressing the Freeze and Target Insert
 buttons simultaneously, just like a VIP attack.
 
-![offsetrip](img/offsetrip.jpg)
+![offsetrip](../img/offsetrip.jpg)
 
-#### Target Find - TGT FIND
+### Target Find - TGT FIND
 
 Target Find is a utility mode derived from Offset; it does not provide a
 standard release signal to the fire control and AWRU to initiate bomb drop. It
@@ -690,7 +400,7 @@ Note: with Pave Spike installed, Target Find **can** initiate a weapon release,
 and so Master Arm should be kept in the OFF position until positive target
 confirmation is achieved.
 
-**Target Find INS Update**
+#### Target Find INS Update
 
 INS update is performed using offsets again a convenient VIP or RIP, with the
 target location being where the INS update occurs. The INS update switch should
@@ -702,7 +412,7 @@ resulting guidance, while the WSO holds the INS update switch in the FIX
 position. Once the BDHI DME reads zero and the bearing needle passes through 90
 degrees, the update switch is released, and the INS update is complete.
 
-#### Dive Toss - DT
+### Dive Toss - DT
 
 Dive Toss uses WRCS radar tracking, in conjunction with other aircraft sensors,
 to calculate the release solution in real time. The target can be approached
@@ -733,11 +443,11 @@ At the point where the bomb computed trajectory will intersect the target, the
 WRCS provides the release signal, dropping rounds based on the settings chosen
 for number and interval.
 
-![divetoss](img/divetoss.jpg)
+![divetoss](../img/divetoss.jpg)
 
-![divetoss2](img/divetoss2.jpg)
+![divetoss2](../img/divetoss2.jpg)
 
-#### Dive Laydown - DL
+### Dive Laydown - DL
 
 Similar to Dive Toss, Dive Laydown is available for saturation delivery of high
 drag weapons where range has little effect on the intended release parameters.
@@ -759,9 +469,9 @@ speed and heading with wings level, and the bombs release automatically at the
 desired range. The key factors for accuracy in this mode are correct altitude
 and pitch angle at the point of release.
 
-![divelaydown](img/divelaydown.jpg)
+![divelaydown](../img/divelaydown.jpg)
 
-#### Laydown - L
+### Laydown - L
 
 The Laydown attack mode uses a known optical sight depression value (or IP) to
 determine range to target, and releases the munitions based on a desired range
@@ -779,14 +489,14 @@ Knob placed in BOMBS or RKTS & DISP (for dispensers only).
 As the pipper crosses the target, the bomb button should be held until the set
 spread of munitions has released.
 
-![laydown](img/laydown.jpg)
+![laydown](../img/laydown.jpg)
 
-### AGM-45
+## AGM-45
 
 The AGM-45 has three separate launch modes available: AGM-45 (WRCS), LOFT, and
 DIRECT.
 
-#### AGM-45
+### AGM-45
 
 Used only with the AGM-45 in conjunction with the WRCS, this mode is the primary
 means of employment of the Shrike. The mode is based around a high altitude
@@ -827,7 +537,7 @@ receiver to occur when the aircraft is banked, preparation of the attack may
 require repeated adjustments with wings brought to level every few seconds to
 make certain the aircraft is pointing at the emitter.
 
-##### Pullup
+#### Pullup
 
 The pullup instruction is guidance for the pilot to initiate a steady rotation
 back to the horizon, and, if desired, continue into a steady climb state until
@@ -837,7 +547,7 @@ climb profile. When the aircraft is approximately 5 seconds away from release,
 the level indicator will illuminate, directing the pilot to maintain the current
 orientation until the Shrike is away.
 
-##### Level
+#### Level
 
 The level instruction is less of a directive than a confirmation of impending
 launch. Depending on the initial attack setup, the level signal may immediately
@@ -845,7 +555,7 @@ occur, or occur quite soon after one of the other two instructions. From that
 point, it is simply required that the pilot maintain the current state for best
 chance of missile success.
 
-##### Dive
+#### Dive
 
 The dive command in the WRCS mode occurs only when the attack is initiated very
 close to the target. The situation and proximity to the SAM installation must be
@@ -854,7 +564,7 @@ the battery has a high probability of arriving before the missile can
 potentially kill the emitter. The dive command, once followed, will then be
 followed with the level indicator once missile launch imminent.
 
-#### Loft
+### Loft
 
 The Loft attack profile of the Shrike is like a loft bombing attack, utilizing
 the weapon lookup tables to define a suitable IP to release distance, the
@@ -878,7 +588,7 @@ the aircraft achieves the programmed release angle, the missile will launch.
 Once launch has occurred, the pullup lamp and sight reticle will illuminate
 again, and the horizontal ADI bar will stow.
 
-#### Direct Mode
+### Direct Mode
 
 Direct mode employment of the AGM-45 is dependent on the crew knowing the
 precise location of the target SAM emitter; while it can be utilized as a
@@ -892,7 +602,7 @@ then check the dive chart for angle and AGL, and the pilot shoul maneuver into
 that orientation, maintaining a centered vertical ADI needle. From that point,
 the bomb release button is pressed and held until the Shrike is fired.
 
-### AGM-65 Delivery
+## AGM-65 Delivery
 
 To utilize a Maverick of any variant, the pilot begins by pressing the
 applicable Station Select buttons, and setting Master Arm to On. The pilot then
@@ -919,7 +629,7 @@ respective flight stick trigger to initiate video. With video active, command of
 the missile seeker is controlled by the crew member who activated the video
 signal, as follows:
 
-#### Pilot
+### Pilot
 
 With the pipper over the target area, pressing and holding the AAR button
 enables track slewing with the Forward Hand Control stick inboard from the
@@ -949,7 +659,7 @@ the display that will be zoomed in upon selecting the narrow field of view.
 Pressing the trigger a second time changes the video to the narrow setting,
 allowing for a more precise selection of the target.
 
-#### WSO
+### WSO
 
 The WSO performs the same sequence of actions for the seeker guidance, and can
 initiate video upon pilot confirmation of pipper location using the trigger of
@@ -967,4 +677,4 @@ panel. And, once lock is achieved, the WSO can fire the missile using the
 Missile Launch button found on his flight stick- in the same position as the
 Bomb Release button on the front stick.
 
-![agm65delivery](img/agm65delivery.jpg)
+![agm65delivery](../img/agm65delivery.jpg)

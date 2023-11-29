@@ -1,0 +1,4 @@
+.content main {
+  margin-left: min(8%, 120px) !important;
+  margin-right: min(8%, 120px) !important;
+}
