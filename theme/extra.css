@@ -2,3 +2,16 @@
   margin-left: min(8%, 120px) !important;
   margin-right: min(8%, 120px) !important;
 }
+
+:root {
+  --content-max-width: 600px;
+}
+
+.menu-title {
+  text-align: left !important;
+  margin: 0px 30px;
+}
+
+.menu-bar {
+  max-width: 800px;
+}
