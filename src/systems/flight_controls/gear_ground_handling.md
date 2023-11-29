@@ -61,10 +61,14 @@ of rotation.
 
 ## Anti-Skid Control Switch
 
+![AntiSkidSwitch](../../img/pilot_anti_skid_switch.png)
+
 Next to the oxygen quantity gauge in the front cockpit is the Anti-Skid Control
 Switch, which is used to turn the system ON or OFF.
 
 ## Anti-Skid Inoperative Light
+
+![AntiSkidSwitch](../../img/pilot_anti_skid_light.png)
 
 Found on the front cockpit left console, the ANTI-SKID INOPERATIVE light will
 indicate when the Anti-Skid Switch is set to OFF, the Emergency Quick Release
@@ -79,6 +83,8 @@ warning.
 
 ## Emergency Hydraulic Brake System
 
+![EmergencyHydraulicBrakeSystem](../../img/pilot_emergency_hydraulic_brake.png)
+
 In the event of a Utility hydraulic system failure, emergency differential
 braking is provided by pulling the Emergency Brake Handle on the lower left side
 of the instrument panel in either cockpit. Doing so forces hydraulic pressure
@@ -86,6 +92,8 @@ from a reserve accumulator, and provides enough power for approximately 10 brake
 applications.
 
 ## Arresting Hook System
+
+![ArrestingHook](../../img/pilot_tail_hook.png)
 
 The Phantom carries a retractable arresting hook for ground stopping in
 emergency takeoff and landing situations that will reach the strip overrun.
@@ -97,6 +105,8 @@ warning on the telelight panel.
 The system is not intended to be used for carrier operations.
 
 ## Drag Chute System
+
+![DragChuteHandle](../../img/pilot_drag_chute_handle.png)
 
 The F-4E has an available Drag Chute to reduce landing roll as necessary. The
 chute can also be used for spin recovery. Deployment of the chute is performed
