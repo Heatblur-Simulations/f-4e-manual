@@ -329,7 +329,7 @@
     --scrollbar: #9ca0b0;
     --icons: #9ca0b0;
     --icons-hover: #8c8fa1;
-    --links: #1e66f5;
+    --links: #2e2e2e;
     --inline-code-color: #fe640b;
     --theme-popup-bg: #e6e9ef;
     --theme-popup-border: #9ca0b0;
@@ -348,6 +348,22 @@
     --searchresults-li-bg: #eff1f5;
     --search-mark-bg: #fe640b;
     --warning-border: #fe640b;
+    --mobile-nav-bg: rgb(243, 246, 246);
+    --mobile-nav-border: rgba(0,0,0,0.1);
+    --menu-affix: rgb(113, 110, 123);
+    --menu-active:rgb(218, 218, 219);
+    --menu-text-hover: white;
+    --menu-main-chapter-hover: rgb(78, 74, 74);
+    --menu-inner-chapter-hover: rgb(177, 176, 176);
+    --menu-text-active: black;
+    --menu-main-chapter-active: rgb(252, 252, 252);
+    --menu-inner-chapter-active: rgb(115, 109, 109);
+    --menu-inner-chapter-active-text: rgb(230, 230, 230);
+    --menu-inner-bg: rgb(201, 201, 201);
+    --menu-inner-text: rgb(58, 58, 58);
+
+ 
+
   }
 
   @media only screen and (max-width: 5000px) {
@@ -357,17 +373,11 @@
 
 
 .mobile-nav-chapters {
-background-color: rgb(243, 246, 246);
-border: 1px solid rgba(0,0,0,0.1);
-box-shadow: 0px 1px 2px -1px rgba(255,255,255,0.5) inset, 0px -2px 0px 0px rgba(0,0,0,0.1) inset;
+background-color: var(--mobile-nav-bg);
+border: 1px solid var(--mobile-nav-border);
+box-shadow: 0px 1px 2px -1px rgba(255,255,255,0.5) inset, 0px -2px 0px 0px var(--mobile-nav-border) inset;
 }
 
-#searchresults a,
-.content a:link,
-a:visited,
-a > .hljs {
-    color: #404040 !important;
-}
 
 .content {
     min-height: 100vh;
@@ -396,15 +406,15 @@ img {
 }
 
 .chapter-item.affix {
-    background-color: rgb(113, 110, 123);
+    background-color: var(--menu-affix);
 }
 
 .chapter-item.affix a.active {
-    color: rgb(218, 218, 219);
+    color:var(--menu-active);
 }
 
 .chapter li a:hover {
-    color: white;
+    color: var(--menu-text-hover);
 }
 
 .sidebar-scrollbox {
@@ -417,42 +427,42 @@ img {
 }
 
 .chapter li.chapter-item:hover {
-    background-color: rgb(78, 74, 74);
+    background-color: var(--menu-main-chapter-hover);
 }
 
 .section li.chapter-item:hover {
-    background-color: rgb(177, 176, 176);
+    background-color: var(--menu-inner-chapter-hover);
 }
 
 .chapter li a.active {
-    color: black;
+    color: var(--menu-text-active);
     font-weight: bold;
     
 }
 .chapter .chapter-item.expanded {
-background-color: rgb(252, 252, 252);
+background-color: var(--menu-main-chapter-active);
 font-weight: bold;
 
 }
 
 .section .chapter-item.expanded {
-    background-color: rgb(115, 109, 109);
+    background-color: var(--menu-inner-chapter-active);
     }
 
     .section .chapter-item.expanded a{
-        color: rgb(230, 230, 230);
+        color: var( --menu-inner-chapter-active-text);
         font-weight: bold;
 
         }
 
 .chapter-item.expanded a {
-    color: rgb(58, 58, 58);
+    color: var(--menu-inner-text);
     }
 
 .chapter ol {
-    background-color: rgb(201, 201, 201);
+    background-color: var(--menu-inner-bg);
 }
 
 .chapter ol a {
-    color: rgb(58, 58, 58);
+    color: var(--menu-inner-text);
 }
