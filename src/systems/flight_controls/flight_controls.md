@@ -2,6 +2,8 @@
 
 ## Control Sticks
 
+![FlightStick](../../img/pilot_control_stick.png)
+
 A control stick is provided in both cockpits, with near-uniform switchology
 between the two. A Trim Control is found on both sticks to provide force
 reduction and minor flight path correction in the pitch and roll axis. Weapons
@@ -135,6 +137,8 @@ the Flaps will retract based on air pressure, and the normal Slat retraction
 speeds also apply.
 
 ## Speed Brakes
+
+![SpeedBrakeLight](../../img/pilot_speedbrake_out.png)
 
 Underneath the aircraft and close to the rear Sparrow recesses are the speed
 brakes, installed on the wings. The speed brakes are driven by the aircraft's

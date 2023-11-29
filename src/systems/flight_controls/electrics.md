@@ -34,6 +34,8 @@ electricity to all but the instruments, the CNI, and AFCS.
 
 ### Instrument Ground Power Switch
 
+![InstrumentGroundPowerSwitch](../../img/wso_instrument_ground_power_switch.png)
+
 Power from an external source to the instrument buses (115/200 volt ac, 28 volt
 ac, and 14 volt ac), can be provided by the Instrument Ground Power Switch (if
 the generator switches are set to EXT ON), found on the the right wall in the

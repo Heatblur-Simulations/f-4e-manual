@@ -48,10 +48,14 @@ to initiate startup.
 
 ### Start Switch
 
+![StartSwitch](../../img/pilot_start_switch.png)
+
 Used only for cartridge start, selecting L or R ignites the cartridge set for
 the respective engine.
 
 ### Ignition System
+
+![IgnitionButtons](../../img/pilot_ignition_system.png)
 
 Engine ignition for startup is performed using a pair of spark plugs on each
 engine, activated by pressing the Ignition Button found to the front of both
@@ -60,6 +64,8 @@ ignite the spark plugs, initiating combustion in chambers four and five of the
 engines.
 
 ### Engine Anti-Icing System
+
+![EngineDeIcing](../../img/pilot_engine_de_ice.png)
 
 Using the Anti-Icing Switch set to DE-ICE, bleed air from stage 17 is
 distributed to ports installed in the compressor face area of the engines. This
@@ -98,6 +104,8 @@ increments.
 
 ### Engine Master Switches
 
+![EngineMasterSwitches](../../img/pilot_engine_master_switches.png)
+
 A pair of two-position Engine Master Switches are found on the front cockpit
 left console on the inboard engine control panel. Selecting ON powers the fuel
 boost and transfer pumps for the respective engine; this will occur whether the
@@ -110,6 +118,8 @@ the cutoff position prior to turning the Engine Master Switches off, otherwise
 the valves will remain open.
 
 ### Throttles
+
+![Throttles](../../img/pilot_throttles.png)
 
 Paired throttles are provided in both cockpits for engine thrust control. In
 normal use, movement of the throttles from IDLE to OFF will perform fuel cutoff;

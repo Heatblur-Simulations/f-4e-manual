@@ -29,11 +29,15 @@ whereas fuel from external tanks are balanced between cells 1, 3, and 5.
 
 ## Internal Wing Transfer Switch
 
+![InternalWingTransfer](../../img/pilot_internal_wing_transfer.png)
+
 Should it be necessary, a two position switch is available to turn off transfer
 from the wing internal tanks. Found on the Fuel Control Panel, the Internal Wing
 Transfer Switch can be toggled between NORMAL and STOP TRANS.
 
 ## External Transfer Switch
+
+![ExternalTransferSwitch](../../img/pilot_external_transfer_switch.png)
 
 External tank transfer is controlled by the External Transfer Switch; found on
 the Fuel Control Panel, the switch has three positions: CENTER, OFF, and OUTBD
@@ -81,6 +85,8 @@ reached a full condition, the External Tanks Full lamps, found under the canopy
 bow, will light.
 
 ## Internal Wing Fuel Dump System
+
+![InternalWingFuelDump](../../img/pilot_internal_wing_dump_switch.png)
 
 Fuel from the wings can be dumped directly, rather than requiring transfer into
 the fuselage, using the Wing Fuel Dump Switch. This switch, when selected to
