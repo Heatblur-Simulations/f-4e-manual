@@ -1,8 +1,6 @@
-# Air to Air Weapons
+# AIM-7 Sparrow
 
-## AIM-7 Sparrow
-
-![aim7](../img/aim7.jpg)
+![aim7](../../img/aim7.jpg)
 
 Originally designated the AAM-N-6 Sparrow III, the AIM-7 Sparrow saw initial
 service entry with the United States Navy in 1958. Unlike the beam-riding AIM-7A
@@ -94,105 +92,14 @@ jettisoned. The lamp also illuminates in the event of a BRU-5/A in the
 centerline position, however, a missile can be launched in that condition. The
 Aero-27 precludes any release, even if the round has been dropped.
 
-## AIM-9 Sidewinder
+## Variants
 
-![aim9](../img/aim9.jpg)
+The following variants of the AIM-7 family are available for this variant of the
+Phantom:
 
-Entering service with the United States Navy in 1956, and finally accepted by
-the United States Air Force in 1964, the short range, infrared seeking AIM-9
-Sidewinder is considered by most to be the world's first truly effective air to
-air guided missile. Beginning with the AIM-9B and maintaining compatibility to
-the AIM-9M in US service, the Sidewinder provided the Phantom II with a capable
-close-in weapon system against rapidly maneuvering opponents.
-
-Employment of the AIM-9 can be performed with or without a radar lock, and is
-initiated by selecting Master Arm to ON and selecting the Throttle Pinky Switch
-to the center position for Heat. The HEAT lamp on the Head Up Display will
-illuminate, and available AIM-9 missiles will illuminate on the Missile Status
-Panel. The Optical Sight should be selected to A/A, and the reticle will
-stabilize at the Radar Boresight Line, which is the boresight location for the
-Sidewinders on the rails.
-
-Should a radar lock be achieved, the sight will display the range bar on the
-right side as previously described, with 20,000' indicated at the top, and
-3,000' range indicated at the bottom. With a radar lock on, the radar will
-display a pair of strobes signifying Rmax and Rmin for the Sidewinder against
-the target under current launch conditions.
-
-It is important to note that the AIM-9 does not receive a guidance handoff from
-the APQ-120 like on later aircraft to direct the seeker's look angle. Instead,
-the ASE circle presents the aim dot against the target to bring it to the RBL.
-Centering the aim dot in the ASE aligns the target to the RBL, thus allowing for
-rapid acquisition by the seeker of the selected AIM-9. Once the missile's tone
-changes to signify lock, the pilot can then select the AAR button on the grip to
-allow for Sidewinder self-track (seeker uncage); this function allows the seeker
-to maintain acquisition of the target (noted by the shifted audio tone), while
-permitting maneuver of the aircraft to a better aspect angle or range solution
-prior to launch if the situation allows. The amount of maneuver available to a
-given Sidewinder type is based on the variant, and should be considered before
-making the selection.
-
-Once the desired firing solution is attained, the AIM-9 is launched using the
-trigger.
-
-AIM-9 Launch Sequence:
-
-1. Left Outboard
-2. Right Outboard
-3. Left Inboard
-4. Right Inboard
-
-## Specialized ACM Functions: CAGE and CAA
-
-### CAGE Mode
-
-In the event that an AIM-7, AIM-9, or M61A1 must be employed against an airborne
-target with the sight in A/G mode (for example, the flight is bounced by
-opposing aircraft), the optical sight reticle can immediately be slewed to the
-Radar Boresight Line using the Cage Button, found on the inboard (right)
-throttle handle. Cage mode commands the radar into BST mode with a five mile
-range, and short pulse, and sets the firing circuit for the currently selected
-air to air weapon relative to the Pinky Switch. For the optical sight, the
-command activates the respective elevation and azimuth tracking, roll mark, and
-range functions of the reticle for the chosen weapon, without the pilot having
-to remove a hand from throttle or stick to swap the sight mode or weapon control
-panel functions.
-
-Should a track condition exist prior to pressing Cage and the Pinky switch is in
-Radar or Heat position, the lock is broken when the button is pressed, and the
-antenna slaves to boresight when released. If the Pinky Switch is in the Gun
-position, the lock is not broken.
-
-Cage mode can be exited from either cockpit, by placing Weapon Select knob in
-the pilot cockpit to the B position momentarily, or by the WSO pressing the Air
-to Air button on the rear cockpit panel. If the pilot leaves the Weapon Select
-knob in B, it does not preclude a later entry into Cage mode.
-
-### Computer Automatic Acquisition Mode (CAA)
-
-![CAA](../img/CAA.png)
-
-Once in Cage mode, the radar can be selected in to Computer Automatic
-Acquisition using the Nose Gear Steering button. In CAA, the radar enters a
-vertical-oriented scan pattern 78 degrees in height by 15 degrees high. Actual
-radar lock capability within this scan pattern is from +45 degrees above the
-horizon line to -9 degrees below the horizon line due to APQ software
-limitation. In the event that the radar finds a suitable target within the scan
-volume, the target will be locked. Should the flight crew find the locked target
-not be the one intended, the Nose Gear Steering button can be pressed on either
-stick grip to return the radar back to the search pattern.
-
-In CAA mode, the radar's search pattern can be shifted left or right utilizing
-the Pinky Switch. While this actuation will change the illuminated weapon
-indicated on the Head Up Display, the actual selected weapon from the point of
-Cage mode entry does not change.
-
-| Selection | Focus              |
-| --------- | ------------------ |
-| Guns      | Radar Focus Left   |
-| Heat      | Radar Focus Center |
-| Radar     | Radar Focus Right  |
-
-To exit CAA, the pilot can select position B on the Weapon Select Knob, or the
-WSO can push the Air to Air button. Should a radar lock be in place at the time
-of mode exit, it will be retained.
+| Variant | Description |
+| ------- | ----------- |
+| E       | TODO        |
+| E-2     | TODO        |
+| F       | TODO        |
+| M       | TODO        |

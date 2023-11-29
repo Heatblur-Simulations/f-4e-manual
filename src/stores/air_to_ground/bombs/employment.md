@@ -1,114 +1,8 @@
-# Air to Ground Weapons
+# Employment
 
-## AGM-65 Maverick
+The Phantom has a wide range of weapon modes to employ bombs.
 
-![agm65](../img/agm65.jpg)
-
-Entering service in 1972, the AGM-65 air to surface missile provided the Phantom
-II with a direct-fire long range weapon, capable of destroying armor, mechanized
-infantry, and other targets with electro-optical, and later- infrared imaged,
-accuracy. The F-4E was capable of carrying up to six between the two inboard
-wing pylons.
-
-Employment of the Maverick is shared between both cockpits, with the pilot
-responsible for stores and mode selection, and initial seeker placement. From
-the point the seeker head is stabilized on the intended target area, either crew
-member can direct the final intended contrast target.
-
-## Conventional Bombs - Mk 80 Series
-
-![mk80s](../img/mk80s.jpg)
-
-The Phantom II's bread and butter in the air to ground role, the Mk 80 series
-conventional bombs were first dropped in combat over North Vietnam. The F-4E is
-able to deliver the 500 lb Mk 82, the 1000 lb Mk 83, and 2000 lb Mk 84. Of note
-is the selectable drag option Mk 82 variant known as Snakeye. With the
-selectable fin arrangement on the round, the deployable fins remain in position
-in the low drag profile, and deploy as a cruciform aerobraking device in the
-high drag setting. This change in setting is managed with the Nose/Tail Arming
-switch.
-
-## Laser Guided Bombs - GBU-10, 12, and 24
-
-![gbus](../img/gbus.jpg)
-
-Built around the Mk 80 series of conventional bombs, the Paveway series
-precision bomb kits install a guidance section and directional maneuvering fin
-section to the Mk 82 (GBU-12) and Mk 84 (GBU-10 and 24) general purpose rounds,
-respectively. Utilizing the Pave Spike laser targeting pod or buddy lasing, the
-Paveway's resulting performance delivered a substantial increase to the
-Phantom's bombing accuracy, with the later GBU-24's larger fin arrangement
-providing greater glide range for the 2000 lb round over the original GBU-10.
-
-## Anti-Tank Cluster Bombs - Mk 20 Rockeye
-
-![mk40s](../img/mk40s.jpg)
-
-Carrying 247 Mk 118 anti-tank bomblets, the Mk 20 Rockeye is used to deliver
-said potency across a wide dispersal area. The Mk 20 has a base schedule
-dispersal time depending on variant (4 seconds in the Mod 2 variant, and 1.2
-seconds in the Mod 3), along with a ground crew selectable option time that is
-programmed prior to takeoff. In concert, once over the target area the pilot can
-select the necessary option through the Nose/Tail Arming switch, and deliver the
-weapon with the profile most suited to the target.
-
-## Mk 4 Series 2.75 Folding Fin Aerial Rockets - FFAR
-
-![lau3](../img/lau3.png)
-
-Also known as the Mighty Mouse, the Mk 4 series of unguided aerial rockets
-originated as an air to air weapon. Given the rocket's undirected nature,
-tendency for wide dispersion in salvo usage, and overall poor performance in its
-intended role- most notably an incident in which over 200 rounds were fired by a
-pair of F-89 Scorpions in a failed attempt to down an uncommanded target drone,
-the Mighty Mouse was wholly unfit for purpose. However, the rocket's peculiar
-traits were ingeniously capitalized upon by transitioning it to the role of an
-air to ground area effect weapon.
-
-Having become a useful tool, the original Mk 4's capability was expanded upon
-with a wide array of warheads, including smoke, anti-personnel flechette, and
-those used by the USAF on the Phantom- the m156 White Phosphorous, Mk 1 High
-Explosive, and the Mk 5 High Explosive Anti Tank. Depending on the hardpoint
-location and configuration, up to 3 LAU-3 pod launchers can be installed per
-hardpoint, each carrying 19 FFARs per.
-
-## AGM-45 Shrike Anti-Radiation Missile
-
-![agm45](../img/agm45.jpg)
-
-The Sparrow-derived AGM-45 Shrike is an early attempt at an anti-radiation
-missile for the suppression of enemy air defense (SEAD) role. Mating a
-frequency-tuned seeker with the rocket body of an AIM-7, the Shrike provided the
-United States Navy, and later the United States Air Force, with a standoff
-option for the engagement of enemy SAM radars. While nominally effective, in
-practice the Shrike was a difficult weapon to employ properly, given its limited
-range, low speed, and primary engagement mode that left the launching aircraft
-within lethal envelopes of most opposing air defense systems. Further reducing
-its potency was a small warhead, meaning that in most instances only the
-emitting antenna itself was damaged, rather than the vehicle it was mounted to.
-
-While limited in most respects, the Shrike received a number of upgrades over
-its lifetime, lasting in service from the mid-60s in Vietnam, until just after
-the Gulf War, through better engines and additional seeker updates for later SAM
-systems. The Shrike was put into use by two foreign users- the Israeli Air
-Force, who also modified it for a ground-launched version, and through
-clandestine means with the RAF during the Falklands War.
-
-The AGM-45 Shrike has three distinct launch modes, all of which are described in
-the AGM-45 Mode section.
-
-## BDU Series Training Bombs
-
-![bdu33](../img/bdu33.jpg)
-
-Depending on the training requirements and range needs, the Phantom II can carry
-the BDU-33 25 lb training bomb, the BDU-45 500 lb training bomb, or the BDU-50
-500 lb training bomb, in either low or high drag configuration, to simulate the
-carriage and release profile of standard Mk 82 and Snakeye rounds.
-
-## Air-to-Ground Weapons Modes
-
-### LOFT
+## LOFT
 
 Loft bombing is utilized to deliver multiple bombs with minimum exposure to
 ground fire and no target flyover. As the name entails, the aircraft transitions
@@ -147,9 +41,9 @@ the pilot has increased and held G at the proper rate for maximum accuracy.
 Control of the ADI by the AN/AJB-7 is maintained until the pilot releases the
 bomb button after the last desired munition is released.
 
-![loft](../img/loft.jpg)
+![loft](../../../img/loft.jpg)
 
-### Timed Over the Shoulder - (TIMED) O/S
+## Timed Over the Shoulder - (TIMED) O/S
 
 Derived from the Loft mode, Timed Over the Shoulder bombing is available for
 circumstances in which a direct target flyover is possible, originating from a
@@ -175,11 +69,11 @@ horizontal needle during the entire bombing run, and like Loft, the ADI reverts
 back to the previous function once the bomb button is released after the last
 intended munition for the run has been dropped.
 
-### Intantaenous Over the Shoulder - INST O/S
+## Instantaneous Over the Shoulder - INST O/S
 
 Further derived from the Timed O/S mode, Instantaneous Over the Shoulder bombing
 provides the same combined attack/escape profile as the former against targets
-of opportunity. It does this by dispening with the need for an IP location and
+of opportunity. It does this by dispensing with the need for an IP location and
 the resulting time, and simply requires entry of a High Angle value in excess of
 90 degrees pitch. Once the aircraft is directly over the target, the pilot
 presses and holds the bomb release button and initiates the 4.0 G wings level
@@ -191,7 +85,7 @@ the necessary angle of pitch, the munitions separation begins, and the bomb
 release button can be released once all desired rounds have been ejected from
 the aircraft, thus resetting the display of the ADI.
 
-### Timed Low Angle Drogue Delivery - T LAD(D)
+## Timed Low Angle Drogue Delivery - T LAD(D)
 
 Conceived as a delivery method for tactical nuclear bombs, Timed Low Angle
 Drogue Delivery is performed just like it sounds. The mode performs a low
@@ -216,7 +110,7 @@ The attack is performed by flying over the IP along the desired intercept
 heading to the target at the correct speed and altitude, and actuating the bomb
 release button upon flyover of said IP, holding it down throughout the maneuver.
 This begins the Pullup timer. The ADI needles will center, then show deviation
-against the initial heading course- vertial being roll, horizontal being level
+against the initial heading course- vertical being roll, horizontal being level
 to maintain current altitude. At timeout of the Pullup timer, a pullup warning
 tone will be provided, and the Pullup Lamp will illuminate; subsequently, the
 Release timer will begin its count, the horizontal ADI needle will transition
@@ -229,9 +123,9 @@ Pullup light will turn off, and the ADI needles will be stowed. Once the last
 round is ejected, the bomb release button can be released, and the desired
 escape maneuver performed.
 
-![ladd](../img/ladd.jpg)
+![ladd](../../../img/ladd.jpg)
 
-### Timed Level - TL
+## Timed Level - TL
 
 Timed Level bombing is the most basic ARBCS mode, utilizing only the Release
 timer; the Pullup timer should be set to 000, and the High and Low Release
@@ -250,7 +144,7 @@ weapons are released from the aircraft. Unlike the other LABS modes, there is no
 pullup audio or ADI needle takeover to illustrate pitch or roll deviation- it is
 simply dependent on the pilot to maintain wings level flight.
 
-### Direct
+## Direct
 
 Direct bombing is exactly as it sounds: classic, direct visual bombing, with
 both dive and level bombing release passes possible. Both the ARBCS and WRCS are
@@ -264,11 +158,11 @@ the Phantom, Direct remains a reliable method when conditions permit, and can be
 used against any target the crew can see- namely, targets of opportunity, or in
 the CAS environment.
 
-![directdive](../img/directdive.jpg)
+![directdive](../../../img/directdive.jpg)
 
-![directlevel](../img/directlevel.jpg)
+![directlevel](../../../img/directlevel.jpg)
 
-### Offset
+## Offset
 
 Offset bombing provides a blind bombing capability, with high and low level
 bombing profiles, using the full integration of the WRCS, INS, and radar in
@@ -295,9 +189,9 @@ by way of smaller navigation time and distance, and approach to the IP should be
 flown with a focus on minimizing maneuvering required to put the target nose on
 after IP acquisition (RIP) or flyover (VIP).
 
-![offsetiplimits](../img/offsetiplimits.jpg)
+![offsetiplimits](../../../img/offsetiplimits.jpg)
 
-#### Offset RIP Low Altitude Considerations
+### Offset RIP Low Altitude Considerations
 
 Of special note in the RIP mode is the need to compensate for altitude
 difference in the event the ingress to target will be flown below the altitude
@@ -315,7 +209,7 @@ per normal.
 
 The differences in final attack procedures are described below:
 
-#### Offset Visual IP
+### Offset Visual IP
 
 Prior to IP overflight, the N/S and E/W offsets, release range (x10 per the
 window, or using the x100 switch modifier on the WRCS initiate panel), and any
@@ -346,11 +240,11 @@ Once an attack is completed, the navigation program against the set target is
 maintained. The aircraft can attempt a re-attack, although natural INS drift may
 reduce the accuracy of this second attack.
 
-![offsetvip](../img/offsetvip.jpg)
+![offsetvip](../../../img/offsetvip.jpg)
 
-#### Offset Radar IP
+### Offset Radar IP
 
-Prior to RIP Freese and Target Insert, the N/S and E/W offsets, RIP altitude,
+Prior to RIP Freeze and Target Insert, the N/S and E/W offsets, RIP altitude,
 release range (x10 per the window, or using the x100 switch modifier on the WRCS
 initiate panel), and any desired release advance setting should be entered.
 Additionally, the desired release timing and count should be selected on the
@@ -387,9 +281,9 @@ to a VIP-possible profile, the offsets can be kept in the WRCS, and the pilot
 simply fly over the RIP, with the WSO pressing the Freeze and Target Insert
 buttons simultaneously, just like a VIP attack.
 
-![offsetrip](../img/offsetrip.jpg)
+![offsetrip](../../../img/offsetrip.jpg)
 
-### Target Find - TGT FIND
+## Target Find - TGT FIND
 
 Target Find is a utility mode derived from Offset; it does not provide a
 standard release signal to the fire control and AWRU to initiate bomb drop. It
@@ -400,7 +294,7 @@ Note: with Pave Spike installed, Target Find **can** initiate a weapon release,
 and so Master Arm should be kept in the OFF position until positive target
 confirmation is achieved.
 
-#### Target Find INS Update
+### Target Find INS Update
 
 INS update is performed using offsets again a convenient VIP or RIP, with the
 target location being where the INS update occurs. The INS update switch should
@@ -412,7 +306,7 @@ resulting guidance, while the WSO holds the INS update switch in the FIX
 position. Once the BDHI DME reads zero and the bearing needle passes through 90
 degrees, the update switch is released, and the INS update is complete.
 
-### Dive Toss - DT
+## Dive Toss - DT
 
 Dive Toss uses WRCS radar tracking, in conjunction with other aircraft sensors,
 to calculate the release solution in real time. The target can be approached
@@ -443,11 +337,11 @@ At the point where the bomb computed trajectory will intersect the target, the
 WRCS provides the release signal, dropping rounds based on the settings chosen
 for number and interval.
 
-![divetoss](../img/divetoss.jpg)
+![divetoss](../../../img/divetoss.jpg)
 
-![divetoss2](../img/divetoss2.jpg)
+![divetoss2](../../../img/divetoss2.jpg)
 
-### Dive Laydown - DL
+## Dive Laydown - DL
 
 Similar to Dive Toss, Dive Laydown is available for saturation delivery of high
 drag weapons where range has little effect on the intended release parameters.
@@ -469,9 +363,9 @@ speed and heading with wings level, and the bombs release automatically at the
 desired range. The key factors for accuracy in this mode are correct altitude
 and pitch angle at the point of release.
 
-![divelaydown](../img/divelaydown.jpg)
+![divelaydown](../../../img/divelaydown.jpg)
 
-### Laydown - L
+## Laydown - L
 
 The Laydown attack mode uses a known optical sight depression value (or IP) to
 determine range to target, and releases the munitions based on a desired range
@@ -489,192 +383,4 @@ Knob placed in BOMBS or RKTS & DISP (for dispensers only).
 As the pipper crosses the target, the bomb button should be held until the set
 spread of munitions has released.
 
-![laydown](../img/laydown.jpg)
-
-## AGM-45
-
-The AGM-45 has three separate launch modes available: AGM-45 (WRCS), LOFT, and
-DIRECT.
-
-### AGM-45
-
-Used only with the AGM-45 in conjunction with the WRCS, this mode is the primary
-means of employment of the Shrike. The mode is based around a high altitude
-attack profile, and depends on the pre-programmed weapon engagement envelope of
-the AGM-45 stored within the WRCS. This profile, in conjunction with current
-aircraft state information from the INS and a signal provided by the receiver in
-the missile- having detecting an emitter of the type its attuned to, define a
-flight path and release envelope for optimum probability of the missile reaching
-the target.
-
-With the WRCS mode selected to AGM-45, the run is initiated by arming a station
-select button for a hardpoint carrying an AGM-45 missile. Doing so activates the
-missile's receiver, and upon emitter acquisition will provide the aforementioned
-information signal to the WRCS. The WSO should enter a target altitude value
-into the computer control panel, if necessary, using a mean value for the
-current target area, and if multiple missiles are to be launched, a release
-advance time setting. The WRCS receives both data from the missile regarding
-look angle from the missile, along with corrected look angle from the INS; the
-selection for which data to use is performed with the DF REJ switch, and should
-in most all cases be left said position.
-
-Look angle and estimated range available, the WRCS will provide guidance
-instruction using the needles on the ADI. Once oriented in the dive angle, the
-horizontal range to target will be provided on the HSI and BDHI, so long as the
-INS position is selected for navigation mode.
-
-When the aircraft's orientation is correct and the ADI needles are centered,
-once the aircraft is within missile range, one of the indexer lights will
-illuminate based on the detected range to target to instruct the pilot as to the
-required release maneuver- dive, level, or pullup. At this time, the pilot can
-press and hold the bomb release button to initiate the attack. Once the release
-range is attained in the instructed profile, the missile will be launched.
-
-Special note must be made of the importance of maintaining the ADI needles
-centered, especially the vertical azimuth relationship. Because the orientation
-of the missile itself when installed on the wing can cause offset of its
-receiver to occur when the aircraft is banked, preparation of the attack may
-require repeated adjustments with wings brought to level every few seconds to
-make certain the aircraft is pointing at the emitter.
-
-#### Pullup
-
-The pullup instruction is guidance for the pilot to initiate a steady rotation
-back to the horizon, and, if desired, continue into a steady climb state until
-range requirements are met and the missile is launched. The pilot can choose to
-either bring the aircraft to near level and stop, or pull further into a low
-climb profile. When the aircraft is approximately 5 seconds away from release,
-the level indicator will illuminate, directing the pilot to maintain the current
-orientation until the Shrike is away.
-
-#### Level
-
-The level instruction is less of a directive than a confirmation of impending
-launch. Depending on the initial attack setup, the level signal may immediately
-occur, or occur quite soon after one of the other two instructions. From that
-point, it is simply required that the pilot maintain the current state for best
-chance of missile success.
-
-#### Dive
-
-The dive command in the WRCS mode occurs only when the attack is initiated very
-close to the target. The situation and proximity to the SAM installation must be
-considered prior to attack commitment with the pickle button, as any response by
-the battery has a high probability of arriving before the missile can
-potentially kill the emitter. The dive command, once followed, will then be
-followed with the level indicator once missile launch imminent.
-
-### Loft
-
-The Loft attack profile of the Shrike is like a loft bombing attack, utilizing
-the weapon lookup tables to define a suitable IP to release distance, the
-necessary release angle, and the time from IP to pullup is determined by the
-lookup table speed versus the IP to release distance.
-
-One key difference in the Loft mode versus the WRCS employment modes for the
-Shrike is the primary usage of the NORM mode rather than DF REJ; this places the
-missile's receiver in the role of the azimuth guidance directive on the ADI
-rather than the INS. The ADI's vertical needle will appear when the AGM-45
-position is selected on the pedestal switch.
-
-The attack is performed like a loft bombing profile; the Phantom is flown over
-the IP at the intended altitude and airspeed, with the bomb release button being
-held from the point of flyover. The countdown timer initiates, the horizontal
-ADI bar appears to maintain level flight, and the pullup lamp illuminates. When
-the pullup timer runs out, the pullup lamp will turn off, the sight reticle will
-turn off, and the horizontal ADI bar will move to display G load as normal for
-the pullup maneuver; a correct profile will keep both ADI bars centered. When
-the aircraft achieves the programmed release angle, the missile will launch.
-Once launch has occurred, the pullup lamp and sight reticle will illuminate
-again, and the horizontal ADI bar will stow.
-
-### Direct Mode
-
-Direct mode employment of the AGM-45 is dependent on the crew knowing the
-precise location of the target SAM emitter; while it can be utilized as a
-fallback method in event of a WRCS system failure, the need for at least 10
-degrees of dive angle against the targe for successful delivery places a premium
-on being able to plan the attack against a specific point on the ground.
-
-To employ the weapon in Direct mode, the crew confirms receipt of emitter audio,
-and initiates a dive to center the ADI needles at the target. The crew should
-then check the dive chart for angle and AGL, and the pilot shoul maneuver into
-that orientation, maintaining a centered vertical ADI needle. From that point,
-the bomb release button is pressed and held until the Shrike is fired.
-
-## AGM-65 Delivery
-
-To utilize a Maverick of any variant, the pilot begins by pressing the
-applicable Station Select buttons, and setting Master Arm to On. The pilot then
-must select Direct on the Delivery Mode Knob, and the TV position on the Weapon
-Select Knob.
-
-When selected to TV, the 3 minute missile gyro warmup sequence initiates; it is
-suggested to start the stopwatch to the left of the Multiple Weapon Panel as a
-means to avoid disturbing this sequence. Once the warmup has completed, the
-lower amber ARM indicators on the Station Select buttons will illuminate.
-Failure to permit this gyro cycle can potentially damage the guidance unit of
-the missiles aboard. During this warmup period, it is necessary to set the
-optical sight to A/G mode, and enter a depression of 45 mils, so that the sight
-alignment be that of the missile seeker.
-
-Once the warmup has completed, the crew may activate their displays for viewing
-seeker video; the pilot selects the TV position on the Scope Display Select
-switch on the Pedestal panel, and the WSO places the radar display mode knob to
-TV.
-
-With the displays activated, the pilot maneuvers the aircraft to position the
-sight reticle over the target area, and either crew member can then press their
-respective flight stick trigger to initiate video. With video active, command of
-the missile seeker is controlled by the crew member who activated the video
-signal, as follows:
-
-### Pilot
-
-With the pipper over the target area, pressing and holding the AAR button
-enables track slewing with the Forward Hand Control stick inboard from the
-throttle. Once the seeker crosshair is over the intended target, releasing the
-AAR button performs a lock-on of the missile to the contrast area under the
-crosshair. If the missile seeker fails to achieve lock on the correct target,
-the lock can be broken by squeezing the trigger again, bringing the missile
-seeker back to its boresight position, and then reattempting the lock with the
-AAR button. Should the target not appear to have enough contrast versus the
-background around it, the contrast can be swapped from black hot to white hot,
-or vice versa, using the Target Contrast Switch on the Pedestal panel. Leaving
-the switch in the Auto position allows the seeker to attempt to determine the
-best option for contrast.
-
-Should a missile appear to not be functioning correctly, it can be rejected to
-the next round in the release sequence using the TGT/MSL REJ switch.
-
-Once lock on the correct target is attained, the missile is launched using the
-bomb button. To initiate lock on of the next target, the process is started over
-with the squeezing of the trigger.
-
-With the above in mind for the electro-optical AGM-65A and B, the AGM-65D has a
-few minor alterations to the procedure. The seeker of the 65D has two FOV
-settings, wide and narrow, and initial video signal is provided in the wide
-setting. In this setting, a quartet of L shaped brackets define the region of
-the display that will be zoomed in upon selecting the narrow field of view.
-Pressing the trigger a second time changes the video to the narrow setting,
-allowing for a more precise selection of the target.
-
-### WSO
-
-The WSO performs the same sequence of actions for the seeker guidance, and can
-initiate video upon pilot confirmation of pipper location using the trigger of
-his own flight stick in the rear cockpit. From this point, the WSO uses the the
-radar's cursor control stick to manage the seeker head placement, lock, and in
-the case of AGM-65D employment FoV controls. Rather than pressing and holding
-the AAR button to activate slew, the WSO selects the half-action trigger
-position, and then slews the seeker using the cursor control.
-
-Once the applicable target is under the crosshair, lock is achieved using the
-full action command. Should the WSO need to change 65D FoV to narrow, a
-subsequent press of half action will do so. The WSO can change the contrast mode
-with the Contrast Switch on the left side console next to the radar display
-panel. And, once lock is achieved, the WSO can fire the missile using the
-Missile Launch button found on his flight stick- in the same position as the
-Bomb Release button on the front stick.
-
-![agm65delivery](../img/agm65delivery.jpg)
+![laydown](../../../img/laydown.jpg)
