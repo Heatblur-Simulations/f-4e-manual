@@ -1102,7 +1102,7 @@ or right.</p>
 <p>TODO</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="center-section"><a class="header" href="#center-section">Center Section</a></h1>
 <h2 id="fuel-control-panel"><a class="header" href="#fuel-control-panel">Fuel Control Panel</a></h2>
-<p><img src="cockpit/pilot/left_console/../../../img/FuelCntl.png" alt="FuelCntl" /></p>
+<p><img src="cockpit/pilot/left_console/../../../img/pilot_fuel_panel.png" alt="FuelCntl" /></p>
 <h3 id="internal-wing-dump-switch"><a class="header" href="#internal-wing-dump-switch">Internal Wing Dump Switch</a></h3>
 <p>Two position switch which, when placed in DUMP, closes off the wing fuel cells
 from transfer into the fuselage fuel cells and dumps fuel from the valves at the
@@ -3257,11 +3257,16 @@ pointer hides behind a mask, showing the OFF flag. The OFF appears also when
 power is lost- the indicator will then present the last altitude detected above
 ground level at the time of this occurring.</p>
 <h2 id="turn-and-slip-indicators"><a class="header" href="#turn-and-slip-indicators">Turn and Slip Indicators</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Pilot</th><th>WSO</th></tr></thead><tbody>
+<tr><td><img src="systems/../img/pilot_turn_and_slip_indicator.png" alt="Pilot_turn_and_slip" /></td><td><img src="systems/../img/wso_turn_and_slip_indicator.png" alt="WSO_turn_and_slip" /></td></tr>
+</tbody></table>
+</div>
 <p>In the front cockpit, a turn and slip indicator is added to the ADI on the
 instrument panel; while the needle provides correct direction of turn, it does
 not provide proper turn rate information. A conventional 4 minute turn and slip
 indicator is found on the rear cockpit panel.</p>
 <h2 id="rear-cockpit-attitude-indicator"><a class="header" href="#rear-cockpit-attitude-indicator">Rear Cockpit Attitude Indicator</a></h2>
+<p><img src="systems/../img/wso_rear_cockpit_attitude_indicator.png" alt="Wso_rear_cockpit_attitude_indicator" /></p>
 <p>The AHRS provides attitude information to the Attitude Indicator found on the
 rear cockpit instrument panel regardless of the Reference System Selector Switch
 position. A trim knob provides the ability to adjust the attitude sphere to
@@ -3303,6 +3308,7 @@ along with the Navigation Function Selector Panel in the front cockpit, and the
 Bearing Distance Heading Indicator (BDHI) together with the Navigation Mode
 Selector Switch in the rear cockpit.</p>
 <h2 id="navigation-function-selector-panel-1"><a class="header" href="#navigation-function-selector-panel-1">Navigation Function Selector Panel</a></h2>
+<p><img src="systems/nav_com/../../img/pilot_nav_function_selector_panel.png" alt="pilot_nav_function_selector" /></p>
 <p>Found on the front cockpit instrument panel, the Navigation Function Selector
 Panel has two knobs- a Bearing/Distance Selector Knob and a Mode Selector Knob.</p>
 <h2 id="bearing-distance-selector-knob"><a class="header" href="#bearing-distance-selector-knob">Bearing Distance Selector Knob</a></h2>
@@ -3331,6 +3337,7 @@ entry and pressed TGT on the Cursor Control Panel.</p>
 and bank angle steering clues, visible on the ADI. Selecting OFF removes these
 bars from view.</p>
 <h2 id="horizontal-situation-indicator-1"><a class="header" href="#horizontal-situation-indicator-1">Horizontal Situation Indicator</a></h2>
+<p><img src="systems/nav_com/../../img/pilot_horizontal_situation_indicator.png" alt="pilot_horizontal_situation_indicator" /></p>
 <p>The Horizontal Situation Indicator displays a top-down plan view of current
 navigation, with cues provided relative to the selected navigation mode selector
 position.</p>
@@ -3358,6 +3365,7 @@ line and aircraft magnetic heading. The course selector window displays the
 current selected magnetic heading, which is adjusted using the Heading Set knob.
 The given course information is applied for an ADI bank steering command.</p>
 <h2 id="attitude-director-indicator-1"><a class="header" href="#attitude-director-indicator-1">Attitude Director Indicator</a></h2>
+<p><img src="systems/nav_com/../../img/pilot_attitude_director_indicator.png" alt="pilot_attitude_director_indicator" /></p>
 <p>The ADI provides command steering to intercept selected headings, TACAN
 stations, tracks, VOR radials, or navigation computer destinations. Bank
 steering instruction is presented using the bank steering bar, which can
@@ -3372,6 +3380,7 @@ AN/AJB-7 gyro has aligned. This can also appear due to power loss or a signal
 failure. The flag does not present if a system failure occurs outside of the
 AN/AJB-7.</p>
 <h2 id="bearing-distance-heading-indicator"><a class="header" href="#bearing-distance-heading-indicator">Bearing Distance Heading Indicator</a></h2>
+<p><img src="systems/nav_com/../../img/wso_bearing_distance_heading_indicator.png" alt="wso_bearing_distance_heading_indicator" /></p>
 <p>The Bearing Distance Heading Indicator (BDHI) displays navigation information
 using two needles, referred to as the No. 1 and No. 2 pointers, which receive
 inputs controlled by the WSO Navigation Mode Selector Switch.</p>
@@ -3392,6 +3401,7 @@ information. When the system is aligned to its most precise extent in
 gyrocompass mode, the INS is accurate to 3 nautical miles per hour of circular
 error probability (CEP).</p>
 <h2 id="inertial-measurement-platform"><a class="header" href="#inertial-measurement-platform">Inertial Measurement Platform</a></h2>
+<p><img src="systems/nav_com/../../img/wso_ins_control_panel.png" alt="wso_inertial_system_panel" /></p>
 <p>The system uses a four gimbal (outer roll, pitch, inner roll, azimuth) inertial
 navigating platform, with the dual roll gimbals providing redundancy to
 eliminate a gimbal lock in outer roll/azimuth gimbal alignment.</p>
@@ -3504,6 +3514,7 @@ only attitude information will be available. Velocities, position, and displays
 on the navigation computer will be inaccurate and cannot be utilized for
 navigation purposes.</p>
 <h2 id="navigation-computer"><a class="header" href="#navigation-computer">Navigation Computer</a></h2>
+<p><img src="systems/nav_com/../../img/wso_nav_computer.png" alt="wso_navigation_computer" /></p>
 <p>The ASN-46A Nav Computer is used for general navigation and tactical route
 planning. The system contains both a great circle and rhumb line computational
 capabilities, with the former being used for larger distance bearing
@@ -3636,6 +3647,7 @@ self-test after a signal loss to confirm function on the control panel. Two
 TACAN antennas are provided, and signal switching is automatic to maintain the
 best signal.</p>
 <h2 id="tacan-controls"><a class="header" href="#tacan-controls">TACAN Controls</a></h2>
+<p><img src="systems/nav_com/../../img/tacan_general.png" alt="tacan_general" /></p>
 <p>TACAN controls are found on the navigation control panel in each cockpit.</p>
 <h3 id="navigation-command-button-and-indicator"><a class="header" href="#navigation-command-button-and-indicator">Navigation Command Button and Indicator</a></h3>
 <p>The NAV CMD button and indicator performs command authority switch between the
@@ -3686,6 +3698,7 @@ function is enabled on these displays using the appropriate Flight Director
 Group control selections on the Bearing/Distance Selector switch, the Navigation
 Mode Selector switch, and the Flight Director Switch.</p>
 <h2 id="vorils-control-panel-1"><a class="header" href="#vorils-control-panel-1">VOR/ILS Control Panel</a></h2>
+<p><img src="systems/nav_com/../../img/pilot_vor_ils_panel.png" alt="pilot_vor_ils_panel" /></p>
 <p>The control panel for the VOR/ILS is found on the front cockpit left console;
 the panel includes a frequency indicator, two frequency select knobs, a volume
 control (marked NAV VOL), a marker beacon volume control knob (MB VOL), and a
@@ -3720,6 +3733,7 @@ heading in the selector window using the SET knob.</p>
 crew, and functions with external power, or the aircraft battery once either
 Engine Master Switch is in the ON position.</p>
 <h2 id="intercom-control-panel-1"><a class="header" href="#intercom-control-panel-1">Intercom Control Panel</a></h2>
+<p><img src="systems/nav_com/../../img/wso_intercom_control.png" alt="intercom_panel" /></p>
 <p>Each cockpit has an Intercom Control Panel, providing a volume control knob, an
 amplifier selector, and a function selector switch.</p>
 <h3 id="volume-control-knob"><a class="header" href="#volume-control-knob">Volume Control Knob</a></h3>
@@ -3751,6 +3765,7 @@ antennas, one upper and one lower, as well as an ADF antenna, are provided. Once
 the antenna mode is set for the primary channel, the aux receives from the other
 antenna.</p>
 <h2 id="comm-control-panel"><a class="header" href="#comm-control-panel">Comm Control Panel</a></h2>
+<p><img src="systems/nav_com/../../img/pilot_uhf_panel.png" alt="pilot_uhf_control_panel" /></p>
 <p>Two Comm Control Panels are installed, found on the right console in the front
 cockpit, and on the left console in the rear cockpit. These provide management
 of the radio in either seat, with selectable priority.</p>
@@ -3931,6 +3946,10 @@ will power on when it is raised by placing the Air Refuel Switch into EXTEND.</p
 and vertical stabilizer. These are activated using the control panel above the
 right console, and have options for ON, OFF, and MOM (for momentary).</p>
 <h2 id="interior-lighting"><a class="header" href="#interior-lighting">Interior Lighting</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Pilot</th><th>WSO</th></tr></thead><tbody>
+<tr><td><img src="systems/../img/pilot_int_lighting.png" alt="pilot_int_lighting" /></td><td><img src="systems/../img/wso_int_lighting.png" alt="wso_int_lighting" /></td></tr>
+</tbody></table>
+</div>
 <p>Lighting for instruments and controls, as well as a white utility lamp and red
 floodlights are found in both cockpits. Barring the utility lamp and floodlight
 controls (which are found on their respective lamps), all cockpit lighting
@@ -3941,6 +3960,7 @@ brightness for all warning lights in both cockpits.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="emergency-systems"><a class="header" href="#emergency-systems">Emergency Systems</a></h1>
 <h2 id="warning-and-indicator-lights"><a class="header" href="#warning-and-indicator-lights">Warning and Indicator Lights</a></h2>
 <h3 id="telelight-panel"><a class="header" href="#telelight-panel">Telelight Panel</a></h3>
+<p><img src="systems/../img/pilot_telelight_panel.png" alt="pilot_telelight_panel" /></p>
 <p>The majority of cockpit warning lamps are found on the telelight panel on the
 right sub-panel in the front cockpit. A list of them follows:</p>
 <h3 id="master-caution"><a class="header" href="#master-caution">Master Caution</a></h3>
@@ -3960,6 +3980,7 @@ Circuit found on the interior light control panel in both cockpits. These do not
 perform a function text for the individual warning systems, only confirm that
 the lights will illuminate.</p>
 <h2 id="engine-fire-and-overheat-detector-system"><a class="header" href="#engine-fire-and-overheat-detector-system">Engine Fire and Overheat Detector System</a></h2>
+<p><img src="systems/../img/pilot_fire_test.png" alt="pilot_engine_fire_test_group" /></p>
 <p>On the right upper instrument panel in the front cockpit are four warning lamps-
 two FIRE and two OVRHEAT lights, one for each side. Should a fire be detected in
 an engine compartment, the applicable FIRE lap will illuminate. Overheat
@@ -3993,11 +4014,13 @@ ejection frame and deploys the main chute. In the event of ejection below the
 barostat altitude, the WSO chute is fully deployed at 5 seconds after ejection
 initiation, and the pilot one second later.</p>
 <h3 id="eject-light"><a class="header" href="#eject-light">Eject Light</a></h3>
+<p><img src="systems/../img/wso_eject_light.png" alt="wso_eject_light" /></p>
 <p>In the event of loss of intercom power, the pilot can warn the WSO to prepare
 for ejection by pressing the EJECT switch found on the left canopy sill forward
 of the flap switch. This illuminates a pair of warning lamps found on the rear
 cockpit indicator panel.</p>
 <h3 id="command-selector-valve-handle"><a class="header" href="#command-selector-valve-handle">Command Selector Valve Handle</a></h3>
+<p><img src="systems/../img/wso_command_ejection_select_handle.png" alt="wso_command_selector_valve" /></p>
 <p>To the left and above the rear cockpit instrument handle is the Command Selector
 Valve Handle. This handle determines the sequence by an ejection initiated from
 the rear seat- both seats, or the rear seat only. The handle is marked PLT EJECT
@@ -4010,6 +4033,7 @@ horizontal.</p>
 while in flight and with the landing gear stowed and doors closed. Jettison does
 not remove pylons, and the AIM-9 Sidewinder is non-jettisonable.</p>
 <h3 id="external-stores-emergency-release-button"><a class="header" href="#external-stores-emergency-release-button">External Stores Emergency Release Button</a></h3>
+<p><img src="systems/../img/pilot_emergency_external_release.png" alt="pilot_external_stores_emergency_release" /></p>
 <p>Found on the front left cockpit sub-panel, the External Stores Emergency
 Release, also known as the panic button, will release all air to ground
 munitions, external tanks, and any pods subject to jettison. Sparrow and
@@ -4021,6 +4045,7 @@ button is active so long as the aircraft gear is up, or, in the event of a
 forward gear handle failure, so long as the rear gear handle remains IN, and
 weight is off wheels.</p>
 <h3 id="selective-jettison"><a class="header" href="#selective-jettison">Selective Jettison</a></h3>
+<p><img src="systems/../img/pilot_selective_jettison.png" alt="pilot_selective_jettison" /></p>
 <p>Wing and centerline stores can be jettisoned independently using the Jettison
 Knob in the STORES position, selecting the desired Station Select Buttons to
 release, and pressing PUSH TO JET. Any pylon or missile launcher at the station
@@ -4036,6 +4061,7 @@ rounds are removed from one wing, select the other wing with the Jettison Knob
 and repeat the PUSH TO JETT cycle.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="utility-systems"><a class="header" href="#utility-systems">Utility Systems</a></h1>
 <h2 id="oxygen-system"><a class="header" href="#oxygen-system">Oxygen System</a></h2>
+<p><img src="systems/../img/pilot_oxygen_regulator.png" alt="pilot_oxygen_regulator" /></p>
 <p>Aircrew breathing oxygen is provided with a 10-liter liquid oxygen bottle. A
 regulator panel is found on the left side in each cockpit- on the console in the
 front cockpit, and the left sub-panel in the rear. Flow is initiated in each
@@ -4044,6 +4070,7 @@ confirmed using the Flow Indicator window, which alternates from black to white
 for each breath. Supply pressure and remaining volume is confirmed using the
 Oxygen Pressure and Oxygen Quantity gauges found on both regulator panels.</p>
 <h2 id="canopies"><a class="header" href="#canopies">Canopies</a></h2>
+<p><img src="systems/../img/pilot_canopy_handle.png" alt="pilot_canopy_handles" /></p>
 <p>The canopies are controlled independently between the two cockpits; handles for
 standard opening and closing are found on the right side of each cockpit,
 whereas the yellow and black emergency jettison handle is found on the left in
@@ -4051,6 +4078,7 @@ the same relative position. To open normally, the right side handle is pulled to
 the aft position; closing is performed by pushing it forward. Canopy jettison is
 initiated by pulling the emergency handle aft.</p>
 <h2 id="air-refueling-system"><a class="header" href="#air-refueling-system">Air Refueling System</a></h2>
+<p><img src="systems/../img/pilot_fuel_panel.png" alt="pilot_fuel_panel" /></p>
 <p>For air to air refueling, the F-4E uses a receptacle system compatible with high
 pressure USAF-style boom refueling. With this system, fuel can be delivered to
 the Phantom at a rate of up to 3900 lbs per minute. Fuel received is delivered
@@ -4071,6 +4099,7 @@ allow the boom to connect again.</p>
 refueling: internal fuselage and internal wing tanks (INT ONLY), and ALL TANKS,
 used to include external tanks in the refueling operation.</p>
 <h3 id="ready-light"><a class="header" href="#ready-light">Ready Light</a></h3>
+<p><img src="systems/../img/pilot_aar_lights.png" alt="pilot_aar_lights" /></p>
 <p>With the receptacle extended and tanks depressurized, the READY lamp illuminates
 to notify the pilot refueling can begin. The lamp will turn off when the boom is
 connected to the receptacle, or the receptacle is lowered by the RETRACT command
@@ -4080,6 +4109,7 @@ on the Air Refuel Switch.</p>
 illuminate. In the event of a DISENGAGED signal, the system must be reset to
 continue refueling.</p>
 <h3 id="air-refueling-release-button"><a class="header" href="#air-refueling-release-button">Air Refueling Release Button</a></h3>
+<p><img src="systems/../img/pilot_aar_release_switch.png" alt="pilot_aar_release_button" /></p>
 <p>On the front seat control stick is the Air Refueling Release Button. Its primary
 purpose is to release the receptacle from the boom in the event of a manual
 refueling cycle (one in which the boom operator cannot force a disconnect
@@ -4091,12 +4121,12 @@ the DISENGAGED lamp.</p>
 using the AIR REFUEL RECPT circuit breaker, found on the No 2 circuit breaker
 panel in the rear cockpit- right side, fourth column, top breaker.</p>
 <h3 id="external-tanks-full-lights"><a class="header" href="#external-tanks-full-lights">External Tanks Full Lights</a></h3>
-<p><img src="systems/../img/AARLights.png" alt="AARLights" /></p>
 <p>Three indicators- L.H. FULL, CTR. FULL, and R.H. FULL (Left Hand, Center, Right
 Hand) lamps provide confirmation that the external tanks have been filled during
 the air refueling process. The lamps will remain lit until the air refueling
 receptacle retracted.</p>
 <h2 id="windshield-rain-removal"><a class="header" href="#windshield-rain-removal">Windshield Rain Removal</a></h2>
+<p><img src="systems/../img/pilot_rain_removal.png" alt="pilot_rain_removal" /></p>
 <p>To clear precipitation, placing the Rain Removal Switch to ON will direct bleed
 air from the air conditioning system to an external vent below the windshield,
 breaking up rain water into smaller drops and blowing them off of the
@@ -4117,6 +4147,7 @@ additional controls elsewhere in the cockpit on a case by case basis, all of the
 noted functions are driven by this panel on the left forward console in the
 front cockpit.</p>
 <h2 id="nosetail-arm-switch"><a class="header" href="#nosetail-arm-switch">Nose/Tail ARM Switch</a></h2>
+<p><img src="systems/weapon_systems/../../img/pilot_nose_tail_arm.png" alt="pilot_nose_tail_arm" /></p>
 <p>Beginning from the top of the panel, the four way Nose/Tail ARM switch selects
 the solenoids for arming wire capture on MERs and TERs, which then arm the fuzes
 at the point of release. Additionally, the switch position can also dictate
@@ -4139,7 +4170,9 @@ bomb switch to cycle through the empty stations. Usage of the MER-10A and TER-9A
 circumvent this requirement.</p>
 <p>RKTS and DISP bypass empty stations automatically.</p>
 <h2 id="station-select-buttons-1"><a class="header" href="#station-select-buttons-1">Station Select Buttons</a></h2>
+<p><img src="systems/weapon_systems/../../img/pilot_station_select_buttons.png" alt="pilot_station_select_buttons" /></p>
 <h2 id="mode-selection---delivery-mode-knob"><a class="header" href="#mode-selection---delivery-mode-knob">Mode Selection - Delivery Mode Knob</a></h2>
+<p><img src="systems/weapon_systems/../../img/pilot_delivery_mode_knob.png" alt="pilot_delivery_mode_knob" /></p>
 <p>Release mode is set using the Delivery Mode Knob. Values to the left of OFF
 employ the AN/AJB-7 Attitude Reference and Combing Computer Set (ARBCS), whereas
 values to the right of DIRECT employ the Weapon Release Computer Set (WRCS).
@@ -4164,6 +4197,7 @@ considered in practice a &quot;safe&quot; position.</p>
 </tbody></table>
 </div>
 <h2 id="weapon-selector-knob-1"><a class="header" href="#weapon-selector-knob-1">Weapon Selector Knob</a></h2>
+<p><img src="systems/weapon_systems/../../img/pilot_weapon_selector_knob.png" alt="pilot_weapon_selector_knob" /></p>
 <p>The Weapon Selector Knob is used to designate the type of weapon to be used</p>
 <div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
 <tr><td>RKTS &amp; DISP</td><td>Rockets and dispensers. Arms AWRU release circuitry.</td></tr>
@@ -4177,6 +4211,7 @@ considered in practice a &quot;safe&quot; position.</p>
 </tbody></table>
 </div>
 <h2 id="centerline-tank-aboard-light-1"><a class="header" href="#centerline-tank-aboard-light-1">Centerline Tank Aboard Light</a></h2>
+<p><img src="systems/weapon_systems/../../img/pilot_centerline_tank_aboard.png" alt="pilot_centerline_tank_aboard" /></p>
 <p>The forward AIM-7 missiles can be inhibited from launch under certain centerline
 conditions due to possible separation issues or chance of igniting the contents
 of the centerline position. The CL tank light will illuminate if such a possible
@@ -4211,6 +4246,7 @@ following not be the case:</p>
 the condition of the current parameters against the target.</p>
 <p>The INTLK switch provides no function for AIM-9 launch.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="aircraft-weapons-release-unit-awru"><a class="header" href="#aircraft-weapons-release-unit-awru">Aircraft Weapons Release Unit (AWRU)</a></h1>
+<p><img src="systems/weapon_systems/../../img/pilot_awru.png" alt="pilot_awru" /></p>
 <p>Used in the BOMBS and RKTS &amp; DISP weapon modes, the AWRU provides interval and
 quantity controls for munition delivery. The AWRU has both a manual and
 automatic mode, and the resulting function is accessed with the appropriate
@@ -4248,6 +4284,7 @@ station.</p>
 Pairs-Manual with single rounds released from each station, but using the set
 interval value to release multiple salvos until the bomb button is released.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="weapon-release-computer-set-wrcs"><a class="header" href="#weapon-release-computer-set-wrcs">Weapon Release Computer Set (WRCS)</a></h1>
+<p><img src="systems/weapon_systems/../../img/wso_wrcs.png" alt="wso_wrcs_panel" /></p>
 <p>Provision for the F-4E to perform accurate level and dive munition delivery is
 provided by the AN/ASQ-91 WRCS. The WRCS inputs are set with the associated
 panels in the cockpits, and these commands, along with INS data and radar target
@@ -4357,6 +4394,7 @@ circuits once the aircraft has passed within the Release Range. The switch
 should only be placed in ON after target insert has been pressed and the ALONG
 TRACK and CROSS TRACK cursors have transitioned to the target.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="attitude-reference-and-bombing-computer-set-arbcs"><a class="header" href="#attitude-reference-and-bombing-computer-set-arbcs">Attitude Reference and Bombing Computer Set (ARBCS)</a></h1>
+<p><img src="systems/weapon_systems/../../img/pilot_arbcs.png" alt="pilot_arbcs" /></p>
 <p>The AN/AJB-7 ARBCS is the automated release control system for time or
 pitch-relative bombing. Interfacing wihth the Multiple Weapon Controls, Pedestal
 Panel weapon settings, and bomb, laser guided, or the AGM-45, the system
@@ -4890,6 +4928,7 @@ sequencer switch will transfer the dispensing signal to the left master
 dispenser. Flares can also be jettisoned from their dispensers at a rate of 10
 flares per second by activating the ripple switch located on the CCU.</p>
 <h3 id="anale-40-cockpit-control-unit-ccu"><a class="header" href="#anale-40-cockpit-control-unit-ccu">AN/ALE-40 Cockpit Control Unit (CCU)</a></h3>
+<p><img src="systems/../img/pilot_an_ale_40_ccu.png" alt="pilot_an_ale_40_ccu" /></p>
 <p>The Cockpit Control Unit (CCU) is installed on the left console of the rear
 cockpit. It consists of a chaff and a flare mode rotary knob, two subtraction
 counters, two indicator lights, a guarded ripple switch and a chaff/flare
@@ -4940,6 +4979,7 @@ the CCU and AN/ALE-40 programmer if the flaps and speed brakes are retracted,
 and provided either or both the chaff/flare mode knobs are in any position other
 than OFF.</p>
 <h3 id="anale-40-programmer-1"><a class="header" href="#anale-40-programmer-1">AN/ALE-40 Programmer</a></h3>
+<p><img src="systems/../img/wso_an_ale_40_panel.png" alt="wso_an_ale_40_panel.png" /></p>
 <p>The AN/ALE-40 Programmer contains the controls and circuitry used to send
 specific fire commands to the chaff/flare dispensers. The following functions
 are available:</p>
