@@ -361,7 +361,9 @@
     --menu-inner-chapter-active-text: rgb(230, 230, 230);
     --menu-inner-bg: rgb(201, 201, 201);
     --menu-inner-text: rgb(58, 58, 58);
+    --content-page-bg: rgba(0,0,0,0.05);
 
+    --content-max-width: 900px;
  
 
   }
@@ -372,6 +374,7 @@
   }
 
 
+
 .mobile-nav-chapters {
 background-color: var(--mobile-nav-bg);
 border: 1px solid var(--mobile-nav-border);
@@ -380,14 +383,31 @@ box-shadow: 0px 1px 2px -1px rgba(255,255,255,0.5) inset, 0px -2px 0px 0px var(-
 
 
 .content {
+  background-color: var(--bg) !important;
+
     min-height: 100vh;
+    max-width: var(--content-max-width) !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-left: 5px !important;
 }
 
 .content main {
-    margin-right: min(8%, 120px) !important;
-  }
-  
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.page {
+  background-color: var(--content-page-bg) !important;
+  padding-left: 0px;
+}
 
+.menu-bar {
+  margin-left: 0px !important;
+  max-width: var(--content-max-width) !important;
+  padding: 5px !important;
+
+
+}
 body {
     font-family: "Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
 }
@@ -466,3 +486,4 @@ font-weight: bold;
 .chapter ol a {
     color: var(--menu-inner-text);
 }
+

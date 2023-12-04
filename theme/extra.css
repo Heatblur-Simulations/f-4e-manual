@@ -1,9 +1,9 @@
-.content main {
+/* .content main {
   margin-left: min(8%, 120px) !important;
   margin-right: min(8%, 120px) !important;
-}
+} */
 
-:root {
+/* :root {
   --content-max-width: 600px !important;
 }
 
@@ -14,13 +14,13 @@
 .content {
   max-width: 800px !important;
   background-color: var(--bg) !important;
-  margin-left: 20px !important;
+
 }
 
-.page {
+/* .page {
   background-color: var(--sidebar-bg) !important;
-}
+} */
 
-.nav-chapters {
+/* .nav-chapters {
   background-color: var(--bg) !important;
-}
+} */ */
