@@ -2,6 +2,8 @@
 
 ## Oxygen System
 
+![pilot_oxygen_regulator](../img/pilot_oxygen_regulator.png)
+
 Aircrew breathing oxygen is provided with a 10-liter liquid oxygen bottle. A
 regulator panel is found on the left side in each cockpit- on the console in the
 front cockpit, and the left sub-panel in the rear. Flow is initiated in each
@@ -12,6 +14,8 @@ Oxygen Pressure and Oxygen Quantity gauges found on both regulator panels.
 
 ## Canopies
 
+![pilot_canopy_handles](../img/pilot_canopy_handle.png)
+
 The canopies are controlled independently between the two cockpits; handles for
 standard opening and closing are found on the right side of each cockpit,
 whereas the yellow and black emergency jettison handle is found on the left in
@@ -20,6 +24,8 @@ the aft position; closing is performed by pushing it forward. Canopy jettison is
 initiated by pulling the emergency handle aft.
 
 ## Air Refueling System
+
+![pilot_fuel_panel](../img/pilot_fuel_panel.png)
 
 For air to air refueling, the F-4E uses a receptacle system compatible with high
 pressure USAF-style boom refueling. With this system, fuel can be delivered to
@@ -48,6 +54,8 @@ used to include external tanks in the refueling operation.
 
 ### Ready Light
 
+![pilot_aar_lights](../img/pilot_aar_lights.png)
+
 With the receptacle extended and tanks depressurized, the READY lamp illuminates
 to notify the pilot refueling can begin. The lamp will turn off when the boom is
 connected to the receptacle, or the receptacle is lowered by the RETRACT command
@@ -60,6 +68,8 @@ illuminate. In the event of a DISENGAGED signal, the system must be reset to
 continue refueling.
 
 ### Air Refueling Release Button
+
+![pilot_aar_release_button](../img/pilot_aar_release_switch.png)
 
 On the front seat control stick is the Air Refueling Release Button. Its primary
 purpose is to release the receptacle from the boom in the event of a manual
@@ -76,7 +86,6 @@ panel in the rear cockpit- right side, fourth column, top breaker.
 
 ### External Tanks Full Lights
 
-![AARLights](../img/AARLights.png)
 
 Three indicators- L.H. FULL, CTR. FULL, and R.H. FULL (Left Hand, Center, Right
 Hand) lamps provide confirmation that the external tanks have been filled during
@@ -84,6 +93,8 @@ the air refueling process. The lamps will remain lit until the air refueling
 receptacle retracted.
 
 ## Windshield Rain Removal
+
+![pilot_rain_removal](../img/pilot_rain_removal.png)
 
 To clear precipitation, placing the Rain Removal Switch to ON will direct bleed
 air from the air conditioning system to an external vent below the windshield,

@@ -101,12 +101,18 @@ ground level at the time of this occurring.
 
 ## Turn and Slip Indicators
 
+| Pilot                                                            | WSO                                                          |
+|------------------------------------------------------------------|--------------------------------------------------------------|
+| ![Pilot_turn_and_slip](../img/pilot_turn_and_slip_indicator.png) | ![WSO_turn_and_slip](../img/wso_turn_and_slip_indicator.png) |
+
 In the front cockpit, a turn and slip indicator is added to the ADI on the
 instrument panel; while the needle provides correct direction of turn, it does
 not provide proper turn rate information. A conventional 4 minute turn and slip
 indicator is found on the rear cockpit panel.
 
 ## Rear Cockpit Attitude Indicator
+
+![Wso_rear_cockpit_attitude_indicator](../img/wso_rear_cockpit_attitude_indicator.png)
 
 The AHRS provides attitude information to the Attitude Indicator found on the
 rear cockpit instrument panel regardless of the Reference System Selector Switch

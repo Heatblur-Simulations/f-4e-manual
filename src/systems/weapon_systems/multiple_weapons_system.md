@@ -9,6 +9,8 @@ front cockpit.
 
 ## Nose/Tail ARM Switch
 
+![pilot_nose_tail_arm](../../img/pilot_nose_tail_arm.png)
+
 Beginning from the top of the panel, the four way Nose/Tail ARM switch selects
 the solenoids for arming wire capture on MERs and TERs, which then arm the fuzes
 at the point of release. Additionally, the switch position can also dictate
@@ -35,7 +37,11 @@ RKTS and DISP bypass empty stations automatically.
 
 ## Station Select Buttons
 
+![pilot_station_select_buttons](../../img/pilot_station_select_buttons.png)
+
 ## Mode Selection - Delivery Mode Knob
+
+![pilot_delivery_mode_knob](../../img/pilot_delivery_mode_knob.png)
 
 Release mode is set using the Delivery Mode Knob. Values to the left of OFF
 employ the AN/AJB-7 Attitude Reference and Combing Computer Set (ARBCS), whereas
@@ -64,6 +70,8 @@ The values, clockwise from the left, are as follows:
 
 ## Weapon Selector Knob
 
+![pilot_weapon_selector_knob](../../img/pilot_weapon_selector_knob.png)
+
 The Weapon Selector Knob is used to designate the type of weapon to be used
 
 | Name        | Description                                                               |
@@ -78,6 +86,8 @@ The Weapon Selector Knob is used to designate the type of weapon to be used
 | BOMBS       | Bombs. Arms AWRU release circuitry.                                       |
 
 ## Centerline Tank Aboard Light
+
+![pilot_centerline_tank_aboard](../../img/pilot_centerline_tank_aboard.png)
 
 The forward AIM-7 missiles can be inhibited from launch under certain centerline
 conditions due to possible separation issues or chance of igniting the contents

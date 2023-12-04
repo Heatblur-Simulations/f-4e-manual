@@ -4,6 +4,8 @@
 
 ### Telelight Panel
 
+![pilot_telelight_panel](../img/pilot_telelight_panel.png)
+
 The majority of cockpit warning lamps are found on the telelight panel on the
 right sub-panel in the front cockpit. A list of them follows:
 
@@ -29,6 +31,8 @@ perform a function text for the individual warning systems, only confirm that
 the lights will illuminate.
 
 ## Engine Fire and Overheat Detector System
+
+![pilot_engine_fire_test_group](../img/pilot_fire_test.png)
 
 On the right upper instrument panel in the front cockpit are four warning lamps-
 two FIRE and two OVRHEAT lights, one for each side. Should a fire be detected in
@@ -70,12 +74,16 @@ initiation, and the pilot one second later.
 
 ### Eject Light
 
+![wso_eject_light](../img/wso_eject_light.png)
+
 In the event of loss of intercom power, the pilot can warn the WSO to prepare
 for ejection by pressing the EJECT switch found on the left canopy sill forward
 of the flap switch. This illuminates a pair of warning lamps found on the rear
 cockpit indicator panel.
 
 ### Command Selector Valve Handle
+
+![wso_command_selector_valve](../img/wso_command_ejection_select_handle.png)
 
 To the left and above the rear cockpit instrument handle is the Command Selector
 Valve Handle. This handle determines the sequence by an ejection initiated from
@@ -94,6 +102,8 @@ not remove pylons, and the AIM-9 Sidewinder is non-jettisonable.
 
 ### External Stores Emergency Release Button
 
+![pilot_external_stores_emergency_release](../img/pilot_emergency_external_release.png)
+
 Found on the front left cockpit sub-panel, the External Stores Emergency
 Release, also known as the panic button, will release all air to ground
 munitions, external tanks, and any pods subject to jettison. Sparrow and
@@ -106,6 +116,8 @@ forward gear handle failure, so long as the rear gear handle remains IN, and
 weight is off wheels.
 
 ### Selective Jettison
+
+![pilot_selective_jettison](../img/pilot_selective_jettison.png)
 
 Wing and centerline stores can be jettisoned independently using the Jettison
 Knob in the STORES position, selecting the desired Station Select Buttons to

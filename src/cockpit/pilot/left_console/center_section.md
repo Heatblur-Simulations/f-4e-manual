@@ -2,7 +2,7 @@
 
 ## Fuel Control Panel
 
-![FuelCntl](../../../img/FuelCntl.png)
+![FuelCntl](../../../img/pilot_fuel_panel.png)
 
 ### Internal Wing Dump Switch
 

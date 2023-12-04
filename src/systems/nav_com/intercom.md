@@ -6,6 +6,8 @@ Engine Master Switch is in the ON position.
 
 ## Intercom Control Panel
 
+![intercom_panel](../../img/wso_intercom_control.png)
+
 Each cockpit has an Intercom Control Panel, providing a volume control knob, an
 amplifier selector, and a function selector switch.
 

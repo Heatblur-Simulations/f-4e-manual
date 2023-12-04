@@ -11,6 +11,8 @@ Mode Selector switch, and the Flight Director Switch.
 
 ## VOR/ILS Control Panel
 
+![pilot_vor_ils_panel](../../img/pilot_vor_ils_panel.png)
+
 The control panel for the VOR/ILS is found on the front cockpit left console;
 the panel includes a frequency indicator, two frequency select knobs, a volume
 control (marked NAV VOL), a marker beacon volume control knob (MB VOL), and a
