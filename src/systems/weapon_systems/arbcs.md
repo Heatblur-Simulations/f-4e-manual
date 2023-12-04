@@ -1,5 +1,7 @@
 # Attitude Reference and Bombing Computer Set (ARBCS)
 
+![pilot_arbcs](../../img/pilot_arbcs.png)
+
 The AN/AJB-7 ARBCS is the automated release control system for time or
 pitch-relative bombing. Interfacing wihth the Multiple Weapon Controls, Pedestal
 Panel weapon settings, and bomb, laser guided, or the AGM-45, the system

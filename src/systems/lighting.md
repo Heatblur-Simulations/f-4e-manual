@@ -57,6 +57,10 @@ right console, and have options for ON, OFF, and MOM (for momentary).
 
 ## Interior Lighting
 
+| Pilot                                                | WSO                                              |
+|------------------------------------------------------|--------------------------------------------------|
+| ![pilot_int_lighting](../img/pilot_int_lighting.png) | ![wso_int_lighting](../img/wso_int_lighting.png) |
+
 Lighting for instruments and controls, as well as a white utility lamp and red
 floodlights are found in both cockpits. Barring the utility lamp and floodlight
 controls (which are found on their respective lamps), all cockpit lighting

@@ -33,6 +33,8 @@ flares per second by activating the ripple switch located on the CCU.
 
 ### AN/ALE-40 Cockpit Control Unit (CCU)
 
+![pilot_an_ale_40_ccu](../img/pilot_an_ale_40_ccu.png)
+
 The Cockpit Control Unit (CCU) is installed on the left console of the rear
 cockpit. It consists of a chaff and a flare mode rotary knob, two subtraction
 counters, two indicator lights, a guarded ripple switch and a chaff/flare
@@ -100,6 +102,8 @@ and provided either or both the chaff/flare mode knobs are in any position other
 than OFF.
 
 ### AN/ALE-40 Programmer
+
+![wso_an_ale_40_panel.png](../img/wso_an_ale_40_panel.png)
 
 The AN/ALE-40 Programmer contains the controls and circuitry used to send
 specific fire commands to the chaff/flare dispensers. The following functions

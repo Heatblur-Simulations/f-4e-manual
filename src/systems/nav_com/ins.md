@@ -8,6 +8,8 @@ error probability (CEP).
 
 ## Inertial Measurement Platform
 
+![wso_inertial_system_panel](../../img/wso_ins_control_panel.png)
+
 The system uses a four gimbal (outer roll, pitch, inner roll, azimuth) inertial
 navigating platform, with the dual roll gimbals providing redundancy to
 eliminate a gimbal lock in outer roll/azimuth gimbal alignment.
@@ -141,6 +143,8 @@ on the navigation computer will be inaccurate and cannot be utilized for
 navigation purposes.
 
 ## Navigation Computer
+
+![wso_navigation_computer](../../img/wso_nav_computer.png)
 
 The ASN-46A Nav Computer is used for general navigation and tactical route
 planning. The system contains both a great circle and rhumb line computational
