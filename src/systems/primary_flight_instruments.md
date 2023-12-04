@@ -15,7 +15,9 @@ configured; however, TAS is provided as a DMAS function.
 
 ## Ground Speed Indicator
 
-A ground speed indicator is provided in both cockpits, with a range from 0 to
+![wso_ground_speed_indicator](../img/wso_ground_speed_indicator.png)
+
+A ground speed indicator is provided in the rear cockpit, with a range from 0 to
 1999 knots. Ground speed is provided by the navigation computer, with the source
 dependent on INS function. If the INS online, the ground speed value calculated
 is based on the provided velocity, and can display correct information as low as
@@ -139,6 +141,10 @@ account.
 
 ## Static Pressure Compensator
 
+![pilot_cadc_switch](../img/pilot_cadc_switch.png)
+
+![pilot_cadc_switch](../img/pilot_static_corr_off_light.png)
+
 The Static Pressure Compensator (SPC) performs correction of altimeter lag
 caused by rapid altitude change. The SPC must be reset after engine startup on
 each flight; this is performed using the CADC switch near the throttles by
@@ -154,3 +160,5 @@ IFF for Mode C traffic control, as well as performs the correction relative to
 the pneumatic input at the altimeter. Should the SPC be offline, the ALT ENCODER
 OUT light will also illuminate to confirm lagged altimeter performance, and
 potential Mode C issues.
+
+![pilot_alt_encoder_out](../img/pilot_alt_encoder_out.png)

@@ -1,6 +1,6 @@
 # Flight Director Group
 
-![FDG](../../img/FDG.png)
+![FDG](../../img/pilot_flight_director_group.png)
 
 ## Radar Altimeter
 

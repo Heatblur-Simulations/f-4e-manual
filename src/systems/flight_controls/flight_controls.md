@@ -63,6 +63,8 @@ through the rudder pedals.
 
 ## Stability Augmentation System
 
+![pilot_stability_switches](../../img/pilot_stability_augmentation_switches.png)
+
 The F-4 offers a three axis Stability Augmentation system, with independent
 Pitch, Roll, and Yaw channels. The system is to smooth out flight in normal
 cruise regimes, rather than provide enhancement in maneuvering. The control

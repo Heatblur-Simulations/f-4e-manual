@@ -4,7 +4,7 @@
 
 ## Generator Indicator Lights
 
-![GenInd](../../img/GenInd.png)
+![GenInd](../../img/pilot_generator_lights.png)
 
 Indicating LH GEN OUT (Left), RH GEN OUT (Right), and BUS TIE OPEN, the
 indicator lights will illuminate when the specified generator is offline, or, in
@@ -44,7 +44,7 @@ with system power off, barring usage and monitoring of guard channel.
 
 ## Telelight Anunciator Panel
 
-![Telelight](../../img/Telelight.png)
+![Telelight](../../img/pilot_telelight_panel.png)
 
 Provides the majority of aircraft system warnings that can be rectified by the
 pilot. Most warnings on the panel will cause the Master Caution to illuminate;

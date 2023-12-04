@@ -9,7 +9,7 @@ to draw power from a single generator in case of failure.
 
 ### Generator Indicator Lights
 
-![GenInd](../../img/GenInd.png)
+![GenInd](../../img/pilot_generator_lights.png)
 
 Three warning indicators are found on the generator control panel: LH GEN OUT,
 RH GEN OUT, and BUS TIE OPEN. The respective GEN OUT warning will illuminate in

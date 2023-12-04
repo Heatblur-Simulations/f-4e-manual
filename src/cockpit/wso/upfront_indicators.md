@@ -18,6 +18,8 @@ ejection will extract both crew members.
 
 ## Course Indicator
 
+![wso_course_indicator](../../img/wso_course.png)
+
 Used during an ILS approach, displays localizer and glide slope deviations
 represented dots—1 dot equals 1 1/4 degrees for course and 1/4 degree for glide
 slope. The heading pointer indicates the aircraft's heading relative to the
@@ -142,6 +144,8 @@ operation mode) or pneumatic (STBY) mode, switchable via a spring-loaded three
 position switch labelled RESET and STBY.
 
 ## Attitude Indicator
+
+![wso_attitude_indicator](../../img/wso_attitude_indicator.png)
 
 The AHRS provides attitude information to the Attitude Indicator found on the
 rear cockpit instrument panel when the Reference System Selector Switch is in

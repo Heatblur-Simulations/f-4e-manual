@@ -1,19 +1,19 @@
 # Overhead Indicators
 
-![OvrhdGroup](../../img/OvrhdGroup.png)
+![OvrhdGroup](../../img/pilot_overhead_indicators.png)
 
 ## SHOOT Lights
 
-![LftShoot](../../img/LftShoot.png)
+![LftShoot](../../img/pilot_shoot_light.png)
 
 Illuminates when missile firing parameters are met. Do not illuminate when in VI
 or A-G modes.
 
 ## Air Refueling Lights
 
-![AARLights](../../img/AARLights.png)
+![AARLights](../../img/pilot_aar_lights_left.png)
 
-![AARDisng](../../img/AARDisng.png)
+![AARDisng](../../img/pilot_aar_lights_right.png)
 
 Provide status of the Air Refueling System while in use.
 

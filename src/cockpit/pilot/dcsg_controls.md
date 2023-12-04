@@ -64,24 +64,28 @@ Dual knob control of the front scope display settings.
 
 ## INT Tab
 
+![pilot_int_tab](../../img/pilot_dscg_int_tab.png)
+
 The INT tab rotates around the display to alter the relative darkness of the
 radar display, permitting the pilot to adjust the scope relative to ambient
 light.
 
 ## Red Tab
 
+![pilot_red_tab](../../img/pilot_dscg_red_tab.png)
+
 The red tab is rotated to provide a red scope display for night flying.
 
 ## In Range Light
 
-![InRng](../../img/InRng.png)
+![InRng](../../img/pilot_dscg_in_range_light.png)
 
 The IN RANGE light illuminates to alert the pilot that the current locked target
 is within range parameters.
 
 ## Hold Altitude Light
 
-![HoldAlt](../../img/HoldAlt.png)
+![HoldAlt](../../img/pilot_dscg_hold_alt_light.png)
 
 The HOLD ALT light illuminates as an instruction to the pilot from the fire
 control system to maintain current altitude to assist in a snap-up intercept
@@ -98,14 +102,14 @@ dot in the ASE circle.
 
 ## Range Lights
 
-![RngLights](../../img/RngLights.png)
+![RngLights](../../img/pilot_dscg_range_lights.png)
 
 The Range Lights illuminate relative to range settings selected by the WSO.
 Range is provided on the upper right corner of the DSCG scope.
 
 ## Wheels Light
 
-![Wheels](../../img/Wheels.png)
+![Wheels](../../img/pilot_dscg_wheels_light.png)
 
 The WHEELS lamp illuminates when the aircraft slows below flaps blow-up speed
 (roughly 230 knots, dependent on altitude) with the gear still raised.

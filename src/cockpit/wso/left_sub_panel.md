@@ -8,10 +8,14 @@ Activates recording of gun camera footage.
 
 ## Air to Air Light
 
+![wso_air_to_air_light](../../img/wso_air_to_air_light.png)
+
 Illuminates when CAGE mode activated; pressing the light reverts the radar to
 the original operating condition prior to CAGE entry.
 
 ## Video Select Button
+
+![wso_video_select](../../img/wso_video_select.png)
 
 Push button that alternates between WEAPON and TDS pod (ASQ-153) television
 video on the radar scope display when in TV mode.
