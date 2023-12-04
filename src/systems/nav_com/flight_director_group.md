@@ -1,5 +1,7 @@
 # Flight Director Group
 
+![pilot_flight_director_group](../../img/pilot_flight_director_group.png)
+
 Accurate course navigation is provided by the Flight Director Group, which
 includes the Flight Director Computer, the Horizontal Situation Indicator (HIS)
 along with the Navigation Function Selector Panel in the front cockpit, and the

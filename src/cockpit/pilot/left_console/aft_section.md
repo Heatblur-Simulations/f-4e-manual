@@ -81,4 +81,6 @@ Illuminates when the Flares select switch is in the Normal position and either
 
 ## Anti-G Suit Control Valve
 
+![pilot_anti_g_suit](../../../img/pilot_anti_g_valve.png)
+
 TODO

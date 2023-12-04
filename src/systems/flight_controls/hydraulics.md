@@ -31,6 +31,8 @@ is 3000 PSI ±250 PSI.
 
 ## Hydraulic Systems Indicator Lights
 
+![pilot_hydraulic_system_lights](../../img/pilot_hydraulic_systems_indicator_lights.png)
+
 In the event of a pressure loss on PC-1, PC-2, or the Utility system below 1500
 PSI, or a detected outright pump failure, CHK HYD GAGES will illuminate on the
 telelight panel along with the Master Caution warning. In the event of a Utility

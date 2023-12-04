@@ -26,6 +26,8 @@ aft.
 
 ## Landing Gear Warning Lights
 
+![pilot_wheels_light](../../img/pilot_dscg_wheels_light.png)
+
 On the upper left corner of the front cockpit instrument panel is a WHEELS
 warning lamp that illuminates when the aircraft is below 230 knots without the
 landing gear lowered. Selecting the gears down or up when the WHEELS lamp is
@@ -44,6 +46,8 @@ gear and doors are in transition either closing or opening, and the illustration
 of a wheel when the gears are down and locked.
 
 ## Nose Gear Steering
+
+![pilot_nose_gear_steering_button](../../img/pilot_stability_augmentation_switches.png)
 
 Nose Gear Steering is actuated using the referenced button on the control stick
 in either cockpit. Holding the button down permits the crew member to steer the

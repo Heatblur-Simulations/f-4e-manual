@@ -27,7 +27,7 @@ red flag are shown, the view will not be obstructed by the pod or the aircraft.
 
 ## Master Caution Light
 
-![MCLP](../../img/MCLP.png)
+![MCLP](../../img/pilot_master_caution.png)
 
 The Master Caution light illuminates to provide the pilot warning of a condition
 requiring attention, directing them to look at the telelight panel for
@@ -37,7 +37,7 @@ panel.
 
 ## Fire Test Button
 
-![FTB](../../img/FTB.png)
+![FTB](../../img/pilot_fire_test_button.png)
 
 When pressed, this button tests for functionality of the FIRE and OVRHT lamps.
 Under normal conditions, all four lights should light up as long as the button
@@ -55,7 +55,7 @@ the Fire Test Button is pressed, then illuminating when it is released.
 
 ## Fire/Overheat Warning Lamps
 
-![FOWL](../../img/FOWL.png)
+![FOWL](../../img/pilot_fire_overheat.png)
 
 The Fire and Overheat Warning Lamps, one for each engine, are a pair of
 two-position indicators that illuminate when a fire condition is detected in the

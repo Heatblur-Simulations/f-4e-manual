@@ -9,7 +9,7 @@ the Standby Attitude Indicator.
 
 ## Eject Light/Switch
 
-![PilEjectLight](../../../img/PilEjectLight.png)
+![PilEjectLight](../../../img/pilot_eject_light.png)
 
 Pressed by the pilot in an emergency condition requiring ejection from the
 aircraft, which illuminates the EJECT lamp in the rear cockpit warning the WSO

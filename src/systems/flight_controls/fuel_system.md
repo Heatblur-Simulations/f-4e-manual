@@ -63,12 +63,16 @@ respective Pressure Indicator.
 
 ## Fuel Level Low Warning Light
 
+![pilot_fuel_low](../../img/pilot_fuel_level_low.png)
+
 When the sensor in Cell 2 detects a fuel weight of less than 1650 ±200 lbs, the
 FUEL LEVEL LOW warning will illuminate on the front cockpit telelight panel.
 This illumination is independent of the Fuel Quantity Indication System, and can
 be indicative of a transfer failure.
 
 ## External Tanks Fuel Lights
+
+![pilot_external_fuel_tanks](../../img/pilot_external_tanks_fuel_lights.png)
 
 Any time an external fuel tank is detected to not be flowing fuel into the
 fuselage, a respective light will illuminate on the telelight panel- L EXT FUEL,

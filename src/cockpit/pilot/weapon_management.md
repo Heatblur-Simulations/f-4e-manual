@@ -64,7 +64,7 @@ capability for retarded bombs.
 
 ## Station Select Buttons
 
-![SSBs](../../img/SSBs.png)
+![SSBs](../../img/pilot_station_select_buttons.png)
 
 The Station Select Buttons are used to activate air to ground munition stations
 and the nose gun. Upon selection of a station, the upper half denoting the
@@ -178,7 +178,7 @@ two seconds the pickle button is held down.
 
 ## Missile Status Lights
 
-![MSL](../../img/MSL.png)
+![MSL](../../img/pilot_missile_status_light.png)
 
 The Missile Status Light window provides confirmation of currently installed and
 configured air to air missiles.
@@ -214,14 +214,14 @@ emissions endangering ground crew.
 
 ## Centerline Tank Aboard Light
 
-![CTAL](../../img/CTAL.png)
+![CTAL](../../img/pilot_centerline_tank_aboard.png)
 
 Illuminates when a stores condition exists that precludes ejection and launch of
 an AIM-7 missile installed in one of the two forward positions.
 
 ## Interlock Switch
 
-![Intlk](../../img/Intlk.png)
+![Intlk](../../img/pilot_interlock_switch.png)
 
 A two position switch that determines whether the fire control system launch
 parameter interlocks can prevent an AIM-7 from being launched when the trigger
