@@ -18,6 +18,8 @@ of the radio in either seat, with selectable priority.
 
 ### Comm Command Button and Light
 
+![pilot_uhf_command_and_light](../../img/pilot_uhf_command_and_light.png)
+
 Control authority of the UHF radio is set by the COMM CMD button. A green light
 illuminates in the cockpit with control next to the button. Either cockpit can
 take control, or if already in control, press the button to provide control of

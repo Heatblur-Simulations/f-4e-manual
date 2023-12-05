@@ -11,6 +11,8 @@ right sub-panel in the front cockpit. A list of them follows:
 
 ### Master Caution
 
+![pilot_master_caution](../img/pilot_master_caution.png)
+
 Found in the front cockpit, the MASTER CAUTION provides the pilot with an
 up-front warning of potential hazard to the aircraft. The MASTER CAUTION
 illuminates concurrently with most warning lamps on the telelight panel and the
@@ -24,6 +26,8 @@ remain until rectified. Should a second event occur in a system already giving a
 telelight warning, MASTER CAUTION will not illuminate a second time.
 
 ### Warning Light Test Circuit
+
+![pilot_warning_light_test_switch](../img/pilot_warning_light_test_switch.png)
 
 Confirmation of bulb function can be performed using the Warning Test Light
 Circuit found on the interior light control panel in both cockpits. These do not
@@ -52,6 +56,8 @@ Proper system function is confirmed with the four FIRE and OVRHT lamps off while
 the Fire Test Button is pressed, then illuminating when it is released.
 
 ## Ejection Seats
+
+![ext_view_ejection_seat](../img/ext_ejection.png)
 
 The Phantom II uses the Martin Baker Mk. H-7 ejection seat in both positions for
 safe aircrew extraction in the event of airframe loss. Triggering ejection using
@@ -95,6 +101,8 @@ horizontal.
 All ejections initiated from the front seat are dual ejections.
 
 ## Jettison System
+
+![ext_emergency_jettison](../img/ext_releases.png)
 
 The majority of stores carried by the F-4 can be jettisoned from the aircraft
 while in flight and with the landing gear stowed and doors closed. Jettison does

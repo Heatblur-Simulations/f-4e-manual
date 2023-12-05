@@ -1,11 +1,13 @@
 # Weapon Release Computer Set (WRCS)
 
-![wso_wrcs_panel](../../img/wso_wrcs.png)
+![ext_bombs_dropping](../../img/ext_bombs_dropping.png)
 
 Provision for the F-4E to perform accurate level and dive munition delivery is
 provided by the AN/ASQ-91 WRCS. The WRCS inputs are set with the associated
 panels in the cockpits, and these commands, along with INS data and radar target
 ranging, are used by the ballistic computer to provide the release signal.
+
+![wso_wrcs_panel](../../img/wso_wrcs.png)
 
 ## Target Range Controls
 
@@ -96,6 +98,8 @@ response is received, it can be disregarded.
 
 ## Cursor Control Panel
 
+![wso_cursor_control_panel](../../img/wso_cursor_control_panel.png)
+
 The Cursor Control Panel provides the controls needed for TARGET FIND and OFFSET
 bombing modes. The panel has two thumbwheels named ALONG TRACK and CROSS TRACK,
 which is used in the MAP-PPI mode to position their respective cursors over the
@@ -121,6 +125,8 @@ button press until the first bomb releases from the aircraft; this function is
 nominally for training purposes, as it can preclude other system audio volume.
 
 ## Weapon Delivery Panel
+
+![wso_weapon_delivery_panel](../../img/wso_weapon_delivery_panel.png)
 
 The Weapon Delivery Panel permits the aircrew to use the WRCS TGT FIND functions
 in LABS (ARBCS) modes- those found on the left side of the pilot's Delivery Mode

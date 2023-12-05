@@ -19,7 +19,7 @@ of the Guns/Missile switch on the left throttle handle.
 
 ## UHF Remote Channel Indicator
 
-![UHFInd](../../img/UHFInd.png)
+![UHFInd](../../img/pilot_uhf_indicator.png)
 
 Provides the current selected channel value when the radio is set to PRESET.
 Otherwise, the indicator displays M if the radio is set to Manual, G when the

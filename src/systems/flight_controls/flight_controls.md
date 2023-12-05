@@ -1,5 +1,7 @@
 # Flight Controls
 
+![ext_view_flight_controls](../../img/ext_flight_controls.png)
+
 ## Control Sticks
 
 ![FlightStick](../../img/pilot_control_stick.png)
@@ -38,6 +40,8 @@ Indicator is provided on the front cockpit left vertical panel.
 ![StabTrimInd](../../img/StabTrimInd.png)
 
 ## Rudder Control System
+
+![ext_rudder](../../img/ext_flight_controls_rudder.png)
 
 Yaw axis control is directed by the rudder pedals found in both cockpits. To
 offset any relative skidding due to wind effect, stores imbalance, or minor
@@ -92,6 +96,8 @@ can jump due to said difference.
 
 ## Slats Flap System
 
+![ext_slats_and_flaps](../../img/ext_slats_and_flaps.png)
+
 The Slats Flap system is manually selected for takeoff and landing, then
 automatically controlled relative to AoA for best handling performance in all
 other flight regimes. Control is through a three position switch found outboard
@@ -140,7 +146,7 @@ speeds also apply.
 
 ## Speed Brakes
 
-![SpeedBrakeLight](../../img/pilot_speedbrake_out.png)
+![ext_speed_brakes_out](../../img/ext_speed_brakes.png)
 
 Underneath the aircraft and close to the rear Sparrow recesses are the speed
 brakes, installed on the wings. The speed brakes are driven by the aircraft's
@@ -148,6 +154,8 @@ hydraulic system and actuated by a three position switch found on the inboard
 throttle in both cockpits. Either switch will actuate the brakes. The positions
 are Out, Stop, and In; the first and last positions are momentary (reverting to
 Stop upon being released).
+
+![SpeedBrakeLight](../../img/pilot_speedbrake_out.png)
 
 Brake actuation illuminates the Speed Brake Out Indicator Light found on the
 Telelight Panel. Brake deployment and illumination of the Indicator does not

@@ -37,10 +37,14 @@ issue to continue can cause permanent engine damage.
 
 ### Pneumatic Mode Starting
 
+![ext_cart](../../img/ext_ground_cart.png)
+
 The normal mode for starting the Phantom utilizes an auxiliary start cart that
 turns the starter turbine, cranking the engine over.
 
 ### Cartridge Mode Starting
+
+![f_4_cartridge_start](../../img/f_4_cartridge_start.png)
 
 Cartridge mode is supplied for operational and emergency needs. A propellant
 charge is used to turn the starter turbine, which in turn cranks the engine over

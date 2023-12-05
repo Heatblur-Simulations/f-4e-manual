@@ -1,5 +1,7 @@
 # Tanks
 
+![ext_tanks](../img/ext_fuel_tanks.png)
+
 To extend reach, the Phantom can equip up to three external fuel tanks,
 nicknamed _Sargent Fletcher Tanks_:
 

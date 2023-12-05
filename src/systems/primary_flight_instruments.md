@@ -124,6 +124,8 @@ indicator or AHRS, the OFF flag will display.
 
 ## Pitot-Static System
 
+![ext_pitot_tube](../img/ext_pitot_tube.png)
+
 The Pitot-Static system provides impact and static pressure to flight
 instrumentation, the Air Data Computer, and airspeed-driven switches. To
 alleviate icing of the pitot head, a Pitot Heat Switch is found in the front

@@ -5,6 +5,8 @@ the Utility hydraulic system. In the event Utility hydraulics are offline, an
 emergency extension system compressed air is available to lower the gear for
 landing.
 
+![ext_view_gears](../../img/ext_landing_gear.png)
+
 ## Landing Gear Control Handle
 
 ![GearHandle](../../img/GearHandle.png)
@@ -108,6 +110,8 @@ warning on the telelight panel.
 
 The system is not intended to be used for carrier operations.
 
+![ext_arresting_hook_out](../../img/ext_hook_shot.png)
+
 ## Drag Chute System
 
 ![DragChuteHandle](../../img/pilot_drag_chute_handle.png)
@@ -121,7 +125,11 @@ state, the chute is jettisoned by pressing the button and pulling the handle
 back, then lowering it. This action releases the chute cables and allows it to
 pull free.
 
+![ext_drag_chute_out](../../img/ext_drag_chute.png)
+
 ## Wing Fold System
+
+![ext_wings_folded](../../img/f4_folded_wings.png)
 
 The F-4E includes a wing fold system to assist in maintenance and ground
 handling. Unlike prior models, the wing fold apparatus on the F-4E is unpowered,

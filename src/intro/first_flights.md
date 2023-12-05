@@ -11,3 +11,9 @@
 | Turkey        | 4525             | 73-01016         | June 17th, 1974    |
 | Germany       | 4946             | 75-00628         | May 5th, 1977      |
 | South Korea   | 4966             | 76-0493          | July 28th, 1977    |
+
+![JASDF_F-4_starting](../img/JASDF_F-4_Phantoms.jpg)
+_(Starting F-4EJ Kais of the JASDF of the 8th Hikōtai in 2002, US Navy Photo)_
+
+![F-4Fs_german_air_force_1998](../img/F-4Fs_JG74_1998.jpg)
+_(F-4Fs of the German Air Force in 1998, USAF Photo)_
