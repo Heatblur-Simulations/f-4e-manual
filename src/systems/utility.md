@@ -14,7 +14,7 @@ Oxygen Pressure and Oxygen Quantity gauges found on both regulator panels.
 
 ## Canopies
 
-![pilot_canopy_handles](../img/pilot_canopy_handle.png)
+![ext_canopy_open](../img/ext_canopy_open.png)
 
 The canopies are controlled independently between the two cockpits; handles for
 standard opening and closing are found on the right side of each cockpit,
@@ -23,9 +23,11 @@ the same relative position. To open normally, the right side handle is pulled to
 the aft position; closing is performed by pushing it forward. Canopy jettison is
 initiated by pulling the emergency handle aft.
 
+![pilot_canopy_handles](../img/pilot_canopy_handle.png)
+
 ## Air Refueling System
 
-![pilot_fuel_panel](../img/pilot_fuel_panel.png)
+![f4_ext_air_to_air_refuel](../img/ext_air_to_air_refuel.png)
 
 For air to air refueling, the F-4E uses a receptacle system compatible with high
 pressure USAF-style boom refueling. With this system, fuel can be delivered to
@@ -34,6 +36,8 @@ into fuselage cell 2, then equalized through the rest of the aircraft cells,
 wing tanks, and, if installed and selected, external tanks.
 
 ### Air Refuel Switch
+
+![pilot_fuel_panel](../img/pilot_fuel_panel.png)
 
 Preparation for air refueling is performed by toggling the Air Refuel Switch to
 EXTEND; doing so extends the receptacle, illuminates the receptacle visual
@@ -79,6 +83,8 @@ emergency situation. Pressing the ARRB will disengage the boom, and illuminate
 the DISENGAGED lamp.
 
 ### AIR REFUEL RECPT Circuit Breaker
+
+![wso_air_refuel_recpt_cb](../img/wso_air_refuel_recpt_cb.png)
 
 In the event of a DISENGAGED situation during air refueling, the system is reset
 using the AIR REFUEL RECPT circuit breaker, found on the No 2 circuit breaker

@@ -1,6 +1,6 @@
 # Right Sub-Panel
 
-![RightSub](../../img/RightSub.png)
+![pilot_right_sub_panel](../../img/pilot_right_sub_panel.png)
 
 ## Generator Indicator Lights
 

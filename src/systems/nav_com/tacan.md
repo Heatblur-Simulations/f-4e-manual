@@ -1,5 +1,7 @@
 # TACAN (Tactical Air Navigation) System
 
+![external_tacan_antenna](../../img/ext_tcn_antenna.png)
+
 Bearing and range information to transmitting stations is provided by the TACAN
 system. The TACAN system can receive information from ground stations as far as
 390 miles, and air to air TACAN equipped aircraft to 200 miles. The TACAN system

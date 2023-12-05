@@ -81,6 +81,11 @@ an AIM-7. A second AIM-7 can be fired immediately at the same target, if
 desired, by releasing, then squeezing the trigger a second time- holding it on
 the second actuation.
 
+
+## Launch Sequence
+
+![ext_launch_sequence_radar](../../img/ext_launch_seq_radar.png)
+
 The launch sequence for the AIM-7 missile is
 
 Left Forward Right Forward Left Rear Right Rear

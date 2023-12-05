@@ -2,6 +2,8 @@
 
 ## AN/ALE-40 Countermeasures System
 
+![ext_cm_dispense](../img/ext_flares.png)
+
 The AN/ALE-40 countermeasures dispenser set provides the capability of
 dispensing RR-170 A/AL chaff cartridges or MJU-7/B infrared flare cartridges, or
 a combination of both. The system is comprised of four chaff dispensers, or a
@@ -33,7 +35,7 @@ flares per second by activating the ripple switch located on the CCU.
 
 ### AN/ALE-40 Cockpit Control Unit (CCU)
 
-![pilot_an_ale_40_ccu](../img/pilot_an_ale_40_ccu.png)
+![wso_an_ale_40_panel.png](../img/wso_an_ale_40_panel.png)
 
 The Cockpit Control Unit (CCU) is installed on the left console of the rear
 cockpit. It consists of a chaff and a flare mode rotary knob, two subtraction
@@ -103,7 +105,8 @@ than OFF.
 
 ### AN/ALE-40 Programmer
 
-![wso_an_ale_40_panel.png](../img/wso_an_ale_40_panel.png)
+![pilot_an_ale_40_ccu](../img/pilot_an_ale_40_ccu.png)
+![pilot_an_ale_40_programmer](../img/pilot_an_ale_40_programmer.png)
 
 The AN/ALE-40 Programmer contains the controls and circuitry used to send
 specific fire commands to the chaff/flare dispensers. The following functions
@@ -148,6 +151,8 @@ knobs are in any position other than OFF.
 
 ### Dispense Button (Front Cockpit)
 
+![pilot_throttle_cm_dispense](../img/pilot_throttle_cm.png)
+
 When pressing the dispense button chaff/flare dispensing is initiated as set on
 the CCU and AN/ALE-40 programmer if the flaps and speed brakes are retracted and
 the flares select switch is set to NORMAL. Additionally single unit flare
@@ -155,6 +160,8 @@ dispensing can be initiated by a single button press if the flares select switch
 is set to FLARES.
 
 ### AN/ALE-40 Dispensers
+
+![cm_dispenser](../img/cm_dispenser.png)
 
 The AN/ALE-40 countermeasures dispensers are divided into two distinct dispenser
 configurations. The master (outboard) dispenser contains the electronics and

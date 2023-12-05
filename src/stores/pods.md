@@ -17,6 +17,8 @@ during daylight-conditions and using a laser to guide weapons on target. See the
 
 ## ALQ-131 ECM Pod
 
+![ext_alq_131_ecm_pod](../img/ext_alq_131_ecm_pod.png)
+
 Pod for electronic electronic countermeasures, such as jamming radars and radar
 guided missiles.
 

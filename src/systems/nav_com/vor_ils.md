@@ -1,5 +1,7 @@
 # VOR/ILS System
 
+![ext_vor_ils_beacon](../../img/ext_vor_ils_beacon.png)
+
 The VHF omnidirectional range instrument landing system, or VOR/ILS, provides
 precise bearing and course deviation information from a transmitting ground
 station. Additionally, the aircraft is able to use precision landing approach
@@ -32,6 +34,8 @@ system on, then further to increase the volume. The MB VOL knob adjusts the
 volume of the marker beacon audio in the front cockpit.
 
 ## WSO Course Indicator
+
+![wso_course_indicator](../../img/wso_course.png)
 
 In the rear cockpit is the Course Indicator, on the main instrument panel; During
 an ILS approach, the indicator displays relative heading for the course set in the

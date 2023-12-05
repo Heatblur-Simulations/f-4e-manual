@@ -64,6 +64,9 @@ early in the comparison, as the Crusader III was first to Mach 2 in flight testi
 capable of reaching higher top speeds during the NPE, and noted for having more refined
 airframe handling in most regimes.
 
+![f-4h_aboard_the_uss_independence](../img/f-4h_aboard_uss_independence.jpg)
+_(F-4H aboard the USS Independence in 1960; US Navy photo)_
+
 But as the Evaluation continued, it was found that McDonnell's Phantom II countered the
 Crusader III where it mattered: in combat capability. The Navy wanted a Mach 2 interceptor,
 not an overgrown daylight fighter. The F8U-3's integration of the Sparrow was found lacking
@@ -123,6 +126,9 @@ beginning in December of 1964.
 
 ## Backtracking with Haste- Correcting the USAF's Early F-4 Experience in Vietnam
 
+![F-4_dropping_over_Vietnam](../img/F-4B_VF-111_dropping_bombs_on_Vietnam.jpg)
+_(F-4B dropping bombs over Vietnam; US Navy Photo)_
+
 The Phantom's initial deployments to Southeast Asia delivered a number of firsts- the
 first officially confirmed MiG-17 kill with the AIM-9 Sidewinder (on July 10th, 1965),
 and the first US air to air shootdown of a MiG-21 (April 26th, 1966). Unfortunately,
@@ -151,6 +157,9 @@ rapidly- in many instances in less than two seconds, versus the six to seven sec
 for the Falcon. Worse still, the AIM-4 was a hittile- its fin-contact triggered fuzing required
 direct target impact for the missile's warhead to detonate, whereas the AIM-9 carried a proximity
 fuze; any Sidewinder that got close to its target was a threat to kill.
+
+![f4_over_vietnam](../img/F-4Ds_435th_TFS_over_Vietnam.jpg)
+_(F4-D of the 435th TFS over Vietnam)_
 
 With initial F-4D deliveries to the 8th TFW in May of 1967, the performance of the new
 configuration was quickly met with derision. The employment envelope was too small compared

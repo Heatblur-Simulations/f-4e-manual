@@ -11,3 +11,5 @@ A PDF version is available
 contents are open-source at
 [GitHub](https://github.com/Heatblur-Simulations/f-4e-manual), you are most
 welcome to contribute!
+
+![f4e_vapor_shot](img/Vapes_06.jpg)
