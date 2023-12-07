@@ -52,6 +52,8 @@ HSI, and FDC. Drift correction angle is also provided to the radar and LCOSS.
 
 ## Alignment Options
 
+![manual_alignment_options](../../img/manual_ins_alignments.png)
+
 The LN-12 has three modes of alignment on aircraft start: BATH, Heading Memory
 (HDG MEM), and Gyrocompass alignment. Prior to performing any alignment, STBY
 Reference System must be selected, the Nav Computer Control Panel should be

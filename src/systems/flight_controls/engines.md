@@ -80,6 +80,8 @@ unnecessary and can cause engine damage.
 
 ### Anti-Ice Indicator Lights
 
+![pilot_anti_ice_indicator_lights](../../img/pilot_anti_ice_indicators.png)
+
 Activation of the Anti-Icing system will illuminate two lights on the telelight
 panel, L ANTI-ICE On and R ANTI-ICE On. A failure of the anti-icing system with
 the Anti-Icing Switch set to NORMAL will also light these telelight indicators
