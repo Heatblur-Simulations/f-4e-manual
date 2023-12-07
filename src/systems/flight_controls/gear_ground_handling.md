@@ -82,6 +82,8 @@ Lever is pressed, or there is a system issue.
 
 ## Emergency Anti-Skid Quick Release Lever
 
+![pilot_emergency_anti_skid_lever](../../img/pilot_emergency_anti_skid_release.png)
+
 Should the Anti-Skid system appear to malfunction during a rollout, the system
 can be immediately disengaged by holding down the Quick Release Lever found on
 the control sticks in either cockpit. This will illuminate ANTI-SKID INOPERATIVE

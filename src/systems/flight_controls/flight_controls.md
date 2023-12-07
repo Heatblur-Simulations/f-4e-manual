@@ -163,6 +163,8 @@ trigger the Master Caution.
 
 ## Angle of Attack System
 
+![ext_aoa_diagram](../../img/ext_aoa_diagram.png)
+
 To precisely monitor and control aircraft flight performance, the Angle of
 Attack System (AoA) provides visual and audio confirmation of current
 parameters. Included in the system are the Angle of Attack Indicators found in
@@ -195,6 +197,10 @@ for the on-speed approach value of 19.2 units once the landing gear have been
 lowered.
 
 ## Aural Tone System
+
+![manual_aural_tone_landing](../../img/manual_aural_tone_landing.png)
+
+![manual_aural_tone_in_flight](../../img/manual_aural_tone_in_flight.png)
 
 The Aural Tone System provides audible feedback in maneuvering flight and during
 landing configuration. Beginning above 15 units AoA with gear down, and 21 units

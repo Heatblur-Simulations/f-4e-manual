@@ -2,6 +2,8 @@
 
 ## CAGE Mode
 
+![pilot_cage_button](../../img/pilot_cage_button.png)
+
 In the event that an AIM-7, AIM-9, or M61A1 must be employed against an airborne
 target with the sight in A/G mode (for example, the flight is bounced by
 opposing aircraft), the optical sight reticle can immediately be slewed to the
@@ -23,6 +25,8 @@ Cage mode can be exited from either cockpit, by placing Weapon Select knob in
 the pilot cockpit to the B position momentarily, or by the WSO pressing the Air
 to Air button on the rear cockpit panel. If the pilot leaves the Weapon Select
 knob in B, it does not preclude a later entry into Cage mode.
+
+![pilot_weapon_selector_knob](../../img/pilot_weapon_selector_knob.png)
 
 ## Computer Automatic Acquisition Mode (CAA)
 
