@@ -50,3 +50,7 @@ Also, the Master Caution and CHK HYD GAGES lights can illuminate momentarily on
 landing gear lowering or during high maneuvering due to system load- check the
 pressure indicators; should they return to nominal, disregard the warnings as
 they will reset momentarily.
+
+### Hydraulics diagram
+
+![manual_hydraulics_diagram](../../img/manual_hydraulics_diagram.png)
