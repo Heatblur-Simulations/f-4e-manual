@@ -41,3 +41,7 @@ ac, and 14 volt ac), can be provided by the Instrument Ground Power Switch (if
 the generator switches are set to EXT ON), found on the the right wall in the
 rear cockpit. Once external electrical power is disengaged or an engine
 generator comes online, it will switch off.
+
+### Electrics diagram
+
+![manual_electric_system_diagram](../../img/manual_electric_system_diagram.png)
