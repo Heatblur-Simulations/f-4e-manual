@@ -22,7 +22,7 @@ tuned when the missile status light (RDR) is illuminate in each station carrying
 a Sparrow missile for at least one minute. After successful tuning, the RDR MSL
 switch can be returned to the STBY (Standby) position. The status lamps will
 turn off once returned to STBY. Once in the combat area, the RDR MSL switch
-should be returned to the CW ON position, to maintain proper missile kystron
+should be returned to the CW ON position, to maintain proper missile
 tuning state during the engagement.
 
 To employ an AIM-7, the Optical Sight should be placed into the A/A position,
