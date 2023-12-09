@@ -2,7 +2,7 @@
 
 ## Fuel Control Panel
 
-![FuelCntl](../../../img/pilot_fuel_panel.png)
+![Fuel Control Panel](../../../img/pilot_fuel_panel.png)
 
 ### Internal Wing Dump Switch
 
@@ -43,7 +43,7 @@ same time. If both are selected, the external tanks will take priority.
 
 Two position toggle switch used for extending (EXTEND) and retracting (RETRACT)
 the air to air refueling door. Placing the switch into EXTEND illuminates the
-air to air refueling recepticle lamp to assist the tanker boom operator.
+air to air refueling receptacle lamp to assist the tanker boom operator.
 
 If, during AAR, the boom disconnects and the DISENGAGED light illuminates, this
 switch has to be flipped to RETRACT and back to EXTEND to reset the system and
@@ -58,7 +58,7 @@ a positive pressure value on the fuel pressure indicator.
 
 ## VOR/ILS Control Panel
 
-![VORILSCntl](../../../img/VORILSCntl.png)
+![VOR/ILS Panel](../../../img/VORILSCntl.png)
 
 ### Nav Vol Knob
 
@@ -97,13 +97,13 @@ Once jettisoned, the handle is released back into its normal position.
 
 ### Stability Augmentation Channel Switches (Yaw/Roll/Pitch)
 
-Three two-position swiches enable individual channels of stability augmentation
-for Yaw, Roll, and Pitch. ENAGE (forward) sets the respective chanel stability
+Three two-position switches enable individual channels of stability augmentation
+for Yaw, Roll, and Pitch. ENGAGE (forward) sets the respective chanel stability
 augmentation on.
 
 ### AFCS Mode Switch
 
-Enables AFCS flight mode, which can maintain and hold maneuvers and attidues at
+Enables AFCS flight mode, which can maintain and hold maneuvers and attitudes at
 up to ±70 degrees of pitch, 70 degrees of bank, and in all 360 degrees of
 azimuth. Deactivated by selecting the switch aft, or with a rapid control input.
 

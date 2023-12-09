@@ -66,7 +66,7 @@ Extra Picture switch starts the camera at the selected rate.
 
 ## Gun Camera Switch
 
-![GunCamSwtch](../../../img/GunCamSwtch.png)
+![Gun Camera Switch](../../../img/GunCamSwtch.png)
 
 Activates the gun camera, which will run until the switch is placed to off, or
 actuation of bomb button or trigger position 2 once the pre-programmed overrun
@@ -74,7 +74,7 @@ time is completed.
 
 ## Slats Override Switch
 
-![SlatsOvrd](../../../img/SlatsOvrd.png)
+![Slats Override Switch](../../../img/SlatsOvrd.png)
 
 Two-position guarded switch with IN and NORM positions. In NORM, slats operate
 normally as a function of the slats flaps switch or AoA. When IN selected, slats
@@ -83,9 +83,9 @@ telelight panel and Master Caution lamp.
 
 ## Armament Safety Override Switch
 
-![ArmOvrd](../../../img/ArmOvrd.png)
+![Armament Safety Override Switch](../../../img/ArmOvrd.png)
 
-If pressed and the landing gear handle is placed down, overrides the armanent
+If pressed and the landing gear handle is placed down, overrides the armament
 safety.
 
 This allows for example to fire the gun while on ground.

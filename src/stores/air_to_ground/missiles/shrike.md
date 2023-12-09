@@ -62,7 +62,7 @@ INS position is selected for navigation mode.
 When the aircraft's orientation is correct and the ADI needles are centered,
 once the aircraft is within missile range, one of the indexer lights will
 illuminate based on the detected range to target to instruct the pilot as to the
-required release maneuver- dive, level, or pullup. At this time, the pilot can
+required release maneuver- dive, level, or pull-up. At this time, the pilot can
 press and hold the bomb release button to initiate the attack. Once the release
 range is attained in the instructed profile, the missile will be launched.
 
@@ -73,9 +73,9 @@ receiver to occur when the aircraft is banked, preparation of the attack may
 require repeated adjustments with wings brought to level every few seconds to
 make certain the aircraft is pointing at the emitter.
 
-#### Pullup
+#### pull-up
 
-The pullup instruction is guidance for the pilot to initiate a steady rotation
+The pull-up instruction is guidance for the pilot to initiate a steady rotation
 back to the horizon, and, if desired, continue into a steady climb state until
 range requirements are met and the missile is launched. The pilot can choose to
 either bring the aircraft to near level and stop, or pull further into a low
@@ -104,7 +104,7 @@ followed with the level indicator once missile launch imminent.
 
 The Loft attack profile of the Shrike is like a loft bombing attack, utilizing
 the weapon lookup tables to define a suitable IP to release distance, the
-necessary release angle, and the time from IP to pullup is determined by the
+necessary release angle, and the time from IP to pull-up is determined by the
 lookup table speed versus the IP to release distance.
 
 One key difference in the Loft mode versus the WRCS employment modes for the
@@ -116,12 +116,12 @@ position is selected on the pedestal switch.
 The attack is performed like a loft bombing profile; the Phantom is flown over
 the IP at the intended altitude and airspeed, with the bomb release button being
 held from the point of flyover. The countdown timer initiates, the horizontal
-ADI bar appears to maintain level flight, and the pullup lamp illuminates. When
-the pullup timer runs out, the pullup lamp will turn off, the sight reticle will
+ADI bar appears to maintain level flight, and the pull-up lamp illuminates. When
+the pull-up timer runs out, the pull-up lamp will turn off, the sight reticle will
 turn off, and the horizontal ADI bar will move to display G load as normal for
-the pullup maneuver; a correct profile will keep both ADI bars centered. When
+the pull-up maneuver; a correct profile will keep both ADI bars centered. When
 the aircraft achieves the programmed release angle, the missile will launch.
-Once launch has occurred, the pullup lamp and sight reticle will illuminate
+Once launch has occurred, the pull-up lamp and sight reticle will illuminate
 again, and the horizontal ADI bar will stow.
 
 ### Direct Mode

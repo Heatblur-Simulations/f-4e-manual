@@ -21,7 +21,7 @@ Intercom Volume Control does not affect any other cockpit audio signal.
 
 The function selector offers three options: COLD MIC, HOT MIC (enabling automatic
 intercom operation), and RADIO OVERRIDE. While RADIO OVERRIDE operates similarly
-to HOT MIC, it also attenuates all sounds except for crew communication, the pullup
+to HOT MIC, it also attenuates all sounds except for crew communication, the pull-up
 tone from the ARBCS, and the Shrike aural tone. For ground crew transmission to be
 enabled, the WSOs switch must be set to HOT MIC.
 
@@ -39,4 +39,4 @@ would be managed by that cockpit.
 
 The microphone switch for the Intercom System is the aft position on the inboard
 throttle grip in both cockpits. When using the intercom, all audio sans the
-pullup tone, stall warning, voice warning, and ECM are reduced (same as RADIO OVERRIDE).
+pull-up tone, stall warning, voice warning, and ECM are reduced (same as RADIO OVERRIDE).

@@ -27,7 +27,7 @@ information provided on the HSI, ADI, and BDHI, respectively.
 
 | Name    | Description                                                                                                                                                |
 | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| OFF     | The TACAN receiver is deenergized and offline.                                                                                                             |
+| OFF     | The TACAN receiver is de-energized and offline.                                                                                                             |
 | REC     | The TACAN receiver is active, providing bearing information on the HSI, BDHI, and ADI.                                                                     |
 | T/R     | Both the receive and transmit functions of the TACAN are active, which provide bearing and nautical mile range information for the HSI and BDHI.           |
 | A/A REC | The TACAN receiver decodes bearing information from compliant aircraft for the HSI, BDHI, and ADI steering display.                                        |

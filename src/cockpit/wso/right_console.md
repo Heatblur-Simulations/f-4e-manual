@@ -49,14 +49,14 @@ Knob positions are:
 | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | OFF   | System off.                                                                                                                                       |
 | STBY  | Standby- power is applied to the heaters and temperature control system, and initiates Coarse alignment (if GYRO COMP is selected on the toggle). |
-| ALIGN | Performs fine platform and gyro leveling and BATH (or HDG MEM) alignment. Then, if available, performs Gyrocompassing (Fine) Alignment.           |
+| ALIGN | Performs fine platform and gyro leveling and BATH (or HDG MEM) alignment. Then, if available, performs Gyro-compassing (Fine) Alignment.           |
 | NAV   | Activates the INS for navigation function, performance of which is based on the alignment quality.                                                |
 
 ### HEAT Lamp
 
 The HEAT lamp illuminates when the system is placed into STBY mode, and remains
 illuminated for 110 seconds after the gyros have reached operating temperature.
-The system will not allow Gyrocompassing alignment if switched out of STBY
+The system will not allow Gyro-compassing alignment if switched out of STBY
 before this lamp has shut off.
 
 ### ALIGN Lamp

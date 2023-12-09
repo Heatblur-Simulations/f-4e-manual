@@ -64,7 +64,7 @@ safe aircrew extraction in the event of airframe loss. Triggering ejection using
 the face curtain or lower ejection handles fires the seat mounted initiator that
 jettisons the canopy. Once the canopy is clear of the airframe, the ejection gun
 primary charge fires, unlatching the seat from the cockpit and initiating seat
-climbout. As the seat rises, restraints on the legs pull them back for clearance
+climb-out. As the seat rises, restraints on the legs pull them back for clearance
 and the drogue timer is set. At the appropriate height, a lanyard attaching the
 rocket motor initiator to the airframe trips the firing pin for the main rocket
 engine to clear the aircraft. The previously set drogue gun fires at this time,
@@ -106,7 +106,7 @@ All ejections initiated from the front seat are dual ejections.
 
 The majority of stores carried by the F-4 can be jettisoned from the aircraft
 while in flight and with the landing gear stowed and doors closed. Jettison does
-not remove pylons, and the AIM-9 Sidewinder is non-jettisonable.
+not remove pylons, and the AIM-9 Sidewinder is non-jettison-able.
 
 ### External Stores Emergency Release Button
 

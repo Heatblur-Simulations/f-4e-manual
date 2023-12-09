@@ -6,7 +6,7 @@ The laser can only be operated in the Track-mode and serves two purposes:
 - and accurate slant range measurement.
 
 Slant range is, besides weapon impact calculations, used for the automatic
-target stablization in Track-mode. If not measured with the laser, it is
+target stabilization in Track-mode. If not measured with the laser, it is
 computed based on inaccurate INS and WRCS data, resulting in a degradation of
 the system.
 

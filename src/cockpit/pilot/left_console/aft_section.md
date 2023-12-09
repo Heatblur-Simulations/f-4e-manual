@@ -37,7 +37,7 @@ Determines current amplifier for intercom function.
 
 ## AN/ALE-40 Programmer
 
-![ANALE40Prg](../../../img/ANALE40Prg.png)
+![AN/ALE-40 Panel](../../../img/ANALE40Prg.png)
 
 ### Chaff Burst Count
 
@@ -52,17 +52,17 @@ command.
 ### Chaff Salvo Count
 
 Selects the number of salvos per dispense command, values of 1, 2, 4, 8, or
-C(ontinuous).
+C (Continuous).
 
 ### Chaff Salvo Interval
 
 Selects time interval between each salvo. Values of 1, 2, 3, 4, 5, 8, or a
-R(andom) number of seconds.
+R (Random) number of seconds.
 
 ### Flare Burst Count
 
 Selects the quantity of flare burst commands per salvo. Values of 1, 2, 4, 8, or
-C(ontinuous).
+C (Continuous).
 
 ### Flares Select Switch
 

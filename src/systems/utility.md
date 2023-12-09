@@ -79,7 +79,7 @@ On the front seat control stick is the Air Refueling Release Button. Its primary
 purpose is to release the receptacle from the boom in the event of a manual
 refueling cycle (one in which the boom operator cannot force a disconnect
 remotely), or perform a disengagement on demand based on flight conditions or
-emergency situation. Pressing the ARRB will disengage the boom, and illuminate
+emergency situation. Pressing the button will disengage the boom, and illuminate
 the DISENGAGED lamp.
 
 ### AIR REFUEL RECPT Circuit Breaker
@@ -91,7 +91,6 @@ using the AIR REFUEL RECPT circuit breaker, found on the No 2 circuit breaker
 panel in the rear cockpit- right side, fourth column, top breaker.
 
 ### External Tanks Full Lights
-
 
 Three indicators- L.H. FULL, CTR. FULL, and R.H. FULL (Left Hand, Center, Right
 Hand) lamps provide confirmation that the external tanks have been filled during

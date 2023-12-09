@@ -2,7 +2,7 @@
 
 ## GBU-10, 12, and 24
 
-![gbus](../../../img/gbus.jpg)
+![GBUs](../../../img/gbus.jpg)
 
 Built around the Mk 80 series of conventional bombs, the Paveway series
 precision bomb kits install a guidance section and directional maneuvering fin

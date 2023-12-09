@@ -6,26 +6,26 @@ The Phantom has a wide range of weapon modes to employ bombs.
 
 Loft bombing is utilized to deliver multiple bombs with minimum exposure to
 ground fire and no target flyover. As the name entails, the aircraft transitions
-from a low altitude to a higher one in a pullup, thus lofting the released
+from a low altitude to a higher one in a pull-up, thus lofting the released
 munitions at a pre-calculated point that reaches the target.
 
 Planning for a loft attack requires a known target location, so that distances
 for the IP and respective bomb ranges can be calculated. The ballistics tables
-are references to determine delivery pattern and pullup-to-target range. With
+are references to determine delivery pattern and pull-up-to-target range. With
 this information, the number of bombs can be decided, which determines the
-spread, and knowing the pullup to target range- the pullup point distance to the
-IP can be chosen. As the path from IP to pullup is flown at a constant speed,
-this can then be used to determined time from said distance for Pullup Timer
+spread, and knowing the pull-up to target range- the pull-up point distance to the
+IP can be chosen. As the path from IP to pull-up is flown at a constant speed,
+this can then be used to determined time from said distance for pull-up Timer
 entry. And with the ballistic table reference for the LOW angle, the profile is
 set.
 
 Upon entry to the target area, the pilot flies the intended course to the IP,
 and once over, presses and holds the bomb release button to initiate the run.
-Flying direct or crabbed to the pullup point, the pilot maintains the bomb
+Flying direct or crabbed to the pull-up point, the pilot maintains the bomb
 release button in the down position, and holds it until the desired munitions
 have released.
 
-In LOFT mode, the ARBCS programs for a 4.0 G pullup schedule, and will
+In LOFT mode, the ARBCS programs for a 4.0 G pull-up schedule, and will
 automatically release the selected munitions once the bombing run is initiated,
 timer runout has occurred, and pre-set LOW pitch (gyro) angle is achieved. At
 the initiation of the bomb run, upon pressing the bomb button, the ARBCS
@@ -33,8 +33,8 @@ overrides any other navigational guidance provided on the ADI and assumes
 command of the pointers to show deviation relative to the programmed attack
 profile. The vertical pointer offsets in the direction requiring yaw input to
 maintain target alignment. On approach to the loft point, the horizontal needle
-shows deviation from a 1.0 G flight path. When the pullup timer completes
-signaling the 4.0 G pullup, deviation of the horizontal needle is relative to
+shows deviation from a 1.0 G flight path. When the pull-up timer completes
+signaling the 4.0 G pull-up, deviation of the horizontal needle is relative to
 the desired constant 4.0 G pull, with the initial drift representing achieving
 4.0 G of load in two seconds. Maintaining the horizontal needle centered means
 the pilot has increased and held G at the proper rate for maximum accuracy.
@@ -55,11 +55,11 @@ airspeed and munition, which is entered into the High Angle setting; this value
 must be in excess of 90 degrees, and the Low Angle and secondary timer settings
 can be left at any value. Flying the appropriate heading at the correct speed
 guarantees target flyover, and upon timer runout an audible tone will be heard
-to initiate pullup, along with the Pull Up Lamp illuminating. This timing action
+to initiate pull-up, along with the Pull Up Lamp illuminating. This timing action
 is initiated by pressing the bomb button over the IP, and holding it throughout
 the attack run.
 
-Like Loft mode, the pullup signal indications will also trigger the horizontal
+Like Loft mode, the pull-up signal indications will also trigger the horizontal
 and vertical pointers on the ADI to display appropriate pitch and angle
 indications to maintain proper aircraft orientation for accurate release point
 entry, and the target pull rate is 4.0G The guidance drives the attacking
@@ -89,7 +89,7 @@ the aircraft, thus resetting the display of the ADI.
 
 Conceived as a delivery method for tactical nuclear bombs, Timed Low Angle
 Drogue Delivery is performed just like it sounds. The mode performs a low
-altitude ingress, transitioning through a 3.5 G pullup into a 45 degree climb
+altitude ingress, transitioning through a 3.5 G pull-up into a 45 degree climb
 profile that allows for a lofted release of a weapon at the top of the climb,
 allowing an escape attempt as the munition's deployed drogue slows the decent to
 the target. While originally designed with nuclear intent, the method provides
@@ -102,24 +102,24 @@ resulting altitude gain and time from pull up initiation to release- which will
 be used as the Release control timer value, as well as the distance downrange
 this climb maneuver will take the aircraft. Using this range as a baseline, an
 appropriate approach angle is determined, and a suitable IP waypoint is chosen.
-The distance between the IP and the pullup point is evaluated against the
+The distance between the IP and the pull-up point is evaluated against the
 planned profile speed, which provides another time entry- this will be the
-Pullup timer value.
+pull-up timer value.
 
 The attack is performed by flying over the IP along the desired intercept
 heading to the target at the correct speed and altitude, and actuating the bomb
 release button upon flyover of said IP, holding it down throughout the maneuver.
-This begins the Pullup timer. The ADI needles will center, then show deviation
+This begins the pull-up timer. The ADI needles will center, then show deviation
 against the initial heading course- vertical being roll, horizontal being level
-to maintain current altitude. At timeout of the Pullup timer, a pullup warning
-tone will be provided, and the Pullup Lamp will illuminate; subsequently, the
+to maintain current altitude. At timeout of the pull-up timer, a pull-up warning
+tone will be provided, and the pull-up Lamp will illuminate; subsequently, the
 Release timer will begin its count, the horizontal ADI needle will transition
 into show deviation from the intended 3.5 G pitch angle, and then stabilize once
 45 degrees nose up pitch is attained. Proper timing and loading of the 3.5 G
-pullup will maintain the needle centered.
+pull-up will maintain the needle centered.
 
 At timeout of the Release timer, the programmed munitions will release, the
-Pullup light will turn off, and the ADI needles will be stowed. Once the last
+pull-up light will turn off, and the ADI needles will be stowed. Once the last
 round is ejected, the bomb release button can be released, and the desired
 escape maneuver performed.
 
@@ -128,7 +128,7 @@ escape maneuver performed.
 ## Timed Level - TL
 
 Timed Level bombing is the most basic ARBCS mode, utilizing only the Release
-timer; the Pullup timer should be set to 000, and the High and Low Release
+timer; the pull-up timer should be set to 000, and the High and Low Release
 settings can be left at any value. The setting for the Release timer is found
 based on the bomb range value determined for the chosen weapon, referencing the
 desired flight altitude above the target and airspeed. This range determines the
@@ -141,7 +141,7 @@ The attack is performed by entering the necessary Release timer value, pushing
 and holding the bomb release button upon IP flyover, and maintaining straight
 and level flight at the planned airspeed and altitude at the target until the
 weapons are released from the aircraft. Unlike the other LABS modes, there is no
-pullup audio or ADI needle takeover to illustrate pitch or roll deviation- it is
+pull-up audio or ADI needle takeover to illustrate pitch or roll deviation- it is
 simply dependent on the pilot to maintain wings level flight.
 
 ## Direct
@@ -158,9 +158,9 @@ the Phantom, Direct remains a reliable method when conditions permit, and can be
 used against any target the crew can see- namely, targets of opportunity, or in
 the CAS environment.
 
-![directdive](../../../img/directdive.jpg)
+![Direct Dive](../../../img/directdive.jpg)
 
-![directlevel](../../../img/directlevel.jpg)
+![Direct Level](../../../img/directlevel.jpg)
 
 ## Offset
 
@@ -189,7 +189,7 @@ by way of smaller navigation time and distance, and approach to the IP should be
 flown with a focus on minimizing maneuvering required to put the target nose on
 after IP acquisition (RIP) or flyover (VIP).
 
-![offsetiplimits](../../../img/offsetiplimits.jpg)
+![Offset IP Limits](../../../img/offsetiplimits.jpg)
 
 ### Offset RIP Low Altitude Considerations
 
@@ -230,7 +230,7 @@ airspeed and altitude, and, prior to reaching the release point, pressing and
 holding the bomb release button. If the bomb release button is released prior to
 munitions release, but at a range greater than the programmed release range, the
 attack can be recovered by pressing and holding the bomb release button until
-release occurs. When this takes place, the pullup light will illuminate to
+release occurs. When this takes place, the pull-up light will illuminate to
 confirm drop initiation. Should the bomb release button not be pressed until
 after the release point is passed, the bombs will not release until the target
 is passed; ergo, the bomb button should be released to cancel the run prior to
@@ -240,7 +240,7 @@ Once an attack is completed, the navigation program against the set target is
 maintained. The aircraft can attempt a re-attack, although natural INS drift may
 reduce the accuracy of this second attack.
 
-![offsetvip](../../../img/offsetvip.jpg)
+![Offset Visual IP](../../../img/offsetvip.jpg)
 
 ### Offset Radar IP
 
@@ -273,7 +273,7 @@ Along Track and Cross Track cursors can be touched up using their controls to
 further increase release precision.
 
 Prior to release range, the pilot must press and hold the bomb release button.
-Once the bombs have released, the pullup light will illuminate to confirm
+Once the bombs have released, the pull-up light will illuminate to confirm
 release.
 
 In the event that a RIP profile, due to breaking weather conditions, transition
@@ -281,7 +281,7 @@ to a VIP-possible profile, the offsets can be kept in the WRCS, and the pilot
 simply fly over the RIP, with the WSO pressing the Freeze and Target Insert
 buttons simultaneously, just like a VIP attack.
 
-![offsetrip](../../../img/offsetrip.jpg)
+![Offset Radar IP](../../../img/offsetrip.jpg)
 
 ## Target Find - TGT FIND
 
@@ -326,7 +326,7 @@ attack.
 The attack is initiated in a dive. The required dive is roughly 20% higher than
 that required for a Direct mode attack, as to achieve effective radar ground
 lock; that is, the radar must get a solid ground return, rather than see the
-actual target being bombed. Once lockon is achieved, the pilot then maneuvers to
+actual target being bombed. Once lock-on is achieved, the pilot then maneuvers to
 place the pipper over the intended target, wings level, then presses and holds
 the bomb button to insert radar range to the WRCS, and then begins the desired
 pullout maneuver, maintaining wings level. After the pilot pushes the bomb
@@ -337,9 +337,9 @@ At the point where the bomb computed trajectory will intersect the target, the
 WRCS provides the release signal, dropping rounds based on the settings chosen
 for number and interval.
 
-![divetoss](../../../img/divetoss.jpg)
+![Dive Toss 1](../../../img/divetoss.jpg)
 
-![divetoss2](../../../img/divetoss2.jpg)
+![Dive Toss 2](../../../img/divetoss2.jpg)
 
 ## Dive Laydown - DL
 
@@ -363,7 +363,7 @@ speed and heading with wings level, and the bombs release automatically at the
 desired range. The key factors for accuracy in this mode are correct altitude
 and pitch angle at the point of release.
 
-![divelaydown](../../../img/divelaydown.jpg)
+![Dive Laydown](../../../img/divelaydown.jpg)
 
 ## Laydown - L
 

@@ -27,7 +27,7 @@ red flag are shown, the view will not be obstructed by the pod or the aircraft.
 
 ## Master Caution Light
 
-![MCLP](../../img/pilot_master_caution.png)
+![Master Caution Light](../../img/pilot_master_caution.png)
 
 The Master Caution light illuminates to provide the pilot warning of a condition
 requiring attention, directing them to look at the telelight panel for
@@ -96,7 +96,7 @@ wheel for accurate display of single digits.
 
 ![EGT](../../img/EGT.png)
 
-Exhuast Gas Temperature gauges are provided for each engine. The gauges have two
+Exhaust Gas Temperature gauges are provided for each engine. The gauges have two
 needles- a large needle providing increments of 0 to 12 in multiples of 100
 degrees centigrade, and a smaller needle presenting increments of 0-10 in
 multiples of 10 degrees centigrade. Temperatures are measured at the exit of the

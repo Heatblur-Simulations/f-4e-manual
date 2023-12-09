@@ -45,7 +45,7 @@ While the indicator can show 127, 128, and 129, these values are nonfunctional.
 
 ### TACAN Function Selector Knob
 
-- OFF: the TACAN system is deenergized
+- OFF: the TACAN system is de-energized
 - REC: only the receiver is energized, and the system receives and decodes
   bearing signals from the TACAN station and provides bearing information for
   the HSI, BDHI, and ADI displays.

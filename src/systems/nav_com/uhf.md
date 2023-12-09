@@ -25,6 +25,6 @@ illuminates in the cockpit with control next to the button. Either cockpit can
 take control, or if already in control, press the button to provide control of
 the radio to the other seat.
 
-### UHF Volume Control Thumbwheel
+### UHF Volume Control
 
 Sets the listenable volume for the UHF radio for the given crew-member.

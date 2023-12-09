@@ -28,7 +28,7 @@ Controls manual depression in 1 mil increments.
 
 ![SightMode](../../img/SightMode.png)
 
-Selects the mode of operation for the gunsight.
+Selects the mode of operation for the gun-sight.
 
 | Name  | Description                                                                                             |
 | ----- | ------------------------------------------------------------------------------------------------------- |
@@ -93,7 +93,7 @@ situation against a target above the fighter. The predicates are:
 
 - A range greater than the weapon can make,
 - Altitude in excess than 32,000 feet, and
-- The locked taret is greater than 8,000 feet above the fighter.
+- The locked target is greater than 8,000 feet above the fighter.
 
 When the HOLD ALT light is on, the fighter should be flown to center the
 steering dot relative to azimuth of the ASE circle. When the HOLD ALT light

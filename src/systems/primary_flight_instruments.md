@@ -51,7 +51,7 @@ with a range between 225 knots and 850 knots.
 
 ## Altimeter
 
-![Altim](../img/Altim.png)
+![Altimeter](../img/Altim.png)
 
 Altimeters in both cockpits provide a functional range from 0 to 80,000 feet. To
 the outside of the indicator is a pointer scale, gradation in 50 foot units with
@@ -136,7 +136,7 @@ cockpit right console.
 Using a variety of static, attitude, and environmental inputs, the Air Data
 Computer (ADC) provides the pneumatic and electrical inputs to the AFCS, Fire
 Control System, Air Induction System, the INS, the LCOSS, navigational computer,
-as well as manages the variable bypass bellmouth system for the engines. Flight
+as well as manages the variable bypass bell mouth system for the engines. Flight
 through weather such as ice or rain can induce errors in the performance of
 these systems until the condition has cleared, and this should be taken into
 account.

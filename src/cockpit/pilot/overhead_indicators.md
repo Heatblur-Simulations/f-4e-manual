@@ -1,6 +1,6 @@
 # Overhead Indicators
 
-![OvrhdGroup](../../img/pilot_overhead_indicators.png)
+![Overhead Indicators](../../img/pilot_overhead_indicators.png)
 
 ## SHOOT Lights
 
@@ -13,7 +13,7 @@ or A-G modes.
 
 ![AARLights](../../img/pilot_aar_lights_left.png)
 
-![AARDisng](../../img/pilot_aar_lights_right.png)
+![AAR Disengage Light](../../img/pilot_aar_lights_right.png)
 
 Provide status of the Air Refueling System while in use.
 

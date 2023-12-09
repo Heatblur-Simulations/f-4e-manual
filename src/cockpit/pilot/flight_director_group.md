@@ -36,7 +36,7 @@ Drawing relative wind information from the landing-gear adjacent AoA probe, the
 AoA indicator offers conditional reference for cruise (7.9 units), approach
 (19.2 units), and stall (30.00). Because of the AoA probe to the nose gear door
 and subsequent airflow disturbance when the gear is lowered, actual aircraft AoA
-is approxiamtely 1 unit higher than indicated, and ON SPEED AoA is roughly 5
+is approximately 1 unit higher than indicated, and ON SPEED AoA is roughly 5
 knots slower than the given value.
 
 When indicator power is offline due to electrical system configuration or
@@ -68,11 +68,11 @@ for manual compass system synchronization (SYNC position)
 ![ADI](../../img/ADI.png)
 
 Includes an attitude sphere, turn indicator, steering bars, miniature aircraft,
-glideslope pointer, flags, and pitch trim knob. It displays pitch, bank, and
+glide-slope pointer, flags, and pitch trim knob. It displays pitch, bank, and
 heading from the selected reference system and allows pitch adjustment via the
 trim knob. The turn indicator relies on a gyro from the AN/AJB-7 system. The
 steering bars offer Flight Director guidance for heading interception,
-navigation, and ILS approaches. The glideslope pointer provides vertical
+navigation, and ILS approaches. The glide-slope pointer provides vertical
 guidance information during an ILS approach.
 
 ## Horizontal Situation Indicator
@@ -82,19 +82,19 @@ guidance information during an ILS approach.
 Consists of a rotating compass card, single and double bar bearing pointers
 numbered 1 and 2 respectively, a range indicator, and a range warning flag.
 Presents a top-down view of the currently programmed navigation. The Heading Set
-knob is availble to input desired magnetic heading, and the Course Set knob is
+knob is available to input desired magnetic heading, and the Course Set knob is
 used to enter VOR radial or inbound localizer course for accurate deviation
 display.
 
 ## Altimeter
 
-![Altim](../../img/Altim.png)
+![Altimeter](../../img/Altim.png)
 
-A counter-pointer style altitmeter, with thousandths in the counter window and
+A counter-pointer style altimeter, with thousandths in the counter window and
 100 foot increments around the face. The altimeter has an absolute range of
 80,000 feet. The altimeter includes a barometric scale for setting local
 pressure with the knob on the indicator. Works in either electric (normal
-operation mode) or pneumatic (STBY) mode, switchable via a springloaded three
+operation mode) or pneumatic (STBY) mode, switchable via a spring-loaded three
 position switch labelled RESET and STBY.
 
 ## Vertical Velocity Indicator
@@ -117,7 +117,7 @@ degrees in dive to prevent gimbal lock.
 
 ## Navigation Function Selector Panel
 
-![NavFunct](../../img/NavFunct.png)
+![Navigation Function Selector Panel](../../img/NavFunct.png)
 
 Controls display presentation on the ADI and HDI based on the selected values on
 the two knobs; to the left is the Bearing/Distance Knob, and to the right the

@@ -8,7 +8,7 @@ Also known as the Mighty Mouse, the Mk 4 series of unguided aerial rockets
 originated as an air to air weapon. Given the rocket's undirected nature,
 tendency for wide dispersion in salvo usage, and overall poor performance in its
 intended role- most notably an incident in which over 200 rounds were fired by a
-pair of F-89 Scorpions in a failed attempt to down an uncommanded target drone,
+pair of F-89 Scorpions in a failed attempt to down an un-commanded target drone,
 the Mighty Mouse was wholly unfit for purpose. However, the rocket's peculiar
 traits were ingeniously capitalized upon by transitioning it to the role of an
 air to ground area effect weapon.

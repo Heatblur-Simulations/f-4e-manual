@@ -1,10 +1,10 @@
 # Pods
 
-## SUU-23/A Gunpod
+## SUU-23/A Gun Pod
 
-![suupods](../img/suupods.jpg)
+![SUU Pods](../img/suupods.jpg)
 
-External gunpods holding 1200 rounds of ammunition, firing at a rate of 6000
+External gun pods holding 1200 rounds of ammunition, firing at a rate of 6000
 rounds per minute. See the [gun section](guns.md) for more.
 
 ## AN/AVQ-23 Pave Spike

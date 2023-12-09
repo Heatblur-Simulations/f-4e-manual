@@ -37,7 +37,7 @@ Also on the Pedestal panel is the gun rounds remaining indicator.
 
 Of note is the Auto Clear function; the cannon will fire approximately between 5
 and 11 rounds from the point the pilot has released the trigger to clear all
-bolt actions in the cannon; this spindown takes approximately one second, and
+bolt actions in the cannon; this spin-down takes approximately one second, and
 the gun cannot be fired again during this operation. While the Pedestal panel
 carries the Auto Clear switch, this switch does not have any control over the
 internal M61A1 cannon, and can only deactivate round clearance for podded
@@ -47,7 +47,7 @@ external cannon installations.
 
 ## External Cannon Pods SUU-16/A and SUU-23/A
 
-![suupods](../img/suupods.jpg)
+![SUU pods](../img/suupods.jpg)
 
 Built to both provide gun capability to aircraft that did not mount them
 internally, and to increase available direct fire in the close air support
@@ -75,7 +75,7 @@ activated. The desired Auto-Clear setting should be selected, and Master Arm set
 to ON to activate the pod. On the SUU-16, the Master Arm activation deploys the
 ram air turbine.
 
-Installed, the guns are boresighted along the Fuselage Reference Line. Thus,
+Installed, the guns are boresight along the Fuselage Reference Line. Thus,
 with the optical sight in air to air mode, the rounds will fall in accordance
 with reticle center, just as the main cannon- only with the natural offset of
 their respective pylon position, thus allowing for effective natural gunnery, if

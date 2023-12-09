@@ -11,7 +11,7 @@ ranging, are used by the ballistic computer to provide the release signal.
 
 ## Target Range Controls
 
-The Computer Control Panel found in the rear cocpit has three TARGET entry
+The Computer Control Panel found in the rear cockpit has three TARGET entry
 controls, two RELEASE entries, and a bomb DRAG COEFFICIENT entry setting, as
 well as a BIT control knob for system function check. Target entry is relative
 to the predetermined IP.
@@ -40,7 +40,7 @@ maximum setting is 9990 feet (999x10), and when used in a WRCS/AJB-7 integrated
 delivery, the actual range can be as high as 99,900'.
 
 The Rg control should not be set to the same value as the target range control.
-Otherwise, the bomb rack delay may may relase late, or not at all.
+Otherwise, the bomb rack delay may may release late, or not at all.
 
 ## Release Advance Control
 
@@ -53,7 +53,7 @@ in a multiple ripple sequence can be calculated in advance, allowing the most
 effective spread possible across a given target.
 
 As an example, an AWRU single-ripple quantity release of 4 is selected with an
-interval of 120 miliseconds. To place the third bomb in the ripple on target,
+interval of 120 milliseconds. To place the third bomb in the ripple on target,
 the following equation is used:
 
 \\[ RA = I_R \cdot (N_{Tgt} - 1) \\]
@@ -61,7 +61,7 @@ the following equation is used:
 where
 
 - \\( RA \\) = Release Advance Setting, milliseconds
-- \\( I_R \\) = ARWU Release Intervalometer setting, milliseconds
+- \\( I_R \\) = AWRU Release Intervalometer setting, milliseconds
 - \\( T\_{Tgt} \\) = Impact Sequence number of bomb desired on target
 
 \\[ RA = 120 \cdot (3 - 1) \\]
@@ -83,7 +83,7 @@ for this value is 9.99.
 The ballistic computer is not directly accessed by the flight crew, but instead
 pre-set based on the configured loadout by the ground crew to add the necessary
 ejection bias factors. The computer uses these pre-set bias factors in
-conjunction with a coeficient setting for munition drag in the Dive Toss mode to
+conjunction with a coefficient setting for munition drag in the Dive Toss mode to
 calculate accurate delivery.
 
 ## WRCS Built-In-Test (BIT)
@@ -101,7 +101,7 @@ response is received, it can be disregarded.
 ![wso_cursor_control_panel](../../img/wso_cursor_control_panel.png)
 
 The Cursor Control Panel provides the controls needed for TARGET FIND and OFFSET
-bombing modes. The panel has two thumbwheels named ALONG TRACK and CROSS TRACK,
+bombing modes. The panel has two wheels named ALONG TRACK and CROSS TRACK,
 which is used in the MAP-PPI mode to position their respective cursors over the
 Radar Identification Point (from this point denoted as RIP). The ALONG TRACK
 control, which presents relative range to the RIP, also includes an internal
@@ -135,7 +135,7 @@ Knob.
 The TGT FIND switch on the panel functions the same as the TGT FIND mode on the
 Delivery Mode Knob. The Delivery Mode Knob overrides this switch in any mode
 outside of TGT FIND, and should be set back to NORM. The HOLD position energizes
-the target finding circuts in conjunction with any LABS or DIRECT mode the pilot
+the target finding circuits in conjunction with any LABS or DIRECT mode the pilot
 selects.
 
 The RANGE Switch is functional in any WRCS mode requiring a Release Range

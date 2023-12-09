@@ -1,6 +1,6 @@
 # Modes
 
-Prior to being able to designate a target, one has to visually aquire the
+Prior to being able to designate a target, one has to visually acquire the
 general target area and put the LOS in the vicinity. This is done by using one
 of three acquisition modes:
 
@@ -12,7 +12,7 @@ The modes can be selected by the WSO, using the Acquisition Mode Switch.
 
 ![acq_mode_switch](../../../img/acq_mode_switch.png)
 
-### Visual modes
+## Visual modes
 
 In 12-VIS and 9-VIS, the LOS is set to a fix position.
 
@@ -29,7 +29,7 @@ while observing an area in a turn. The target has to be put on the extension of
 the left wing. However, in practice it is very difficult to maintain a turn in
 such an attitude.
 
-### WRCS mode
+## WRCS mode
 
 The main mode to acquire targets is the WRCS mode, in which the LOS is set to
 the current WRCS target. This usually corresponds to the cursor on the radar
@@ -42,7 +42,7 @@ pod looking straight down.
 The WRCS mode automatically falls back to the 12-VIS mode in case the WRCS
 integration is deactivated.
 
-### Track mode
+## Track mode
 
 Once the target, or general target area, has been found using the acquisition
 modes, the WSO can enter Track-mode by pressing the trigger on the Antenna Hand
@@ -79,7 +79,7 @@ system started to behave very odd and it was very difficult to restore proper
 behavior. The crew often had to deactivate the INS integration temporarily in
 order to disable the automatic tracking.
 
-### Memory Mode
+## Memory Mode
 
 Whenever a target-insert signal is send, the system activates the Memory-mode,
 provided it is currently in Track-mode and the WRCS integration is active.

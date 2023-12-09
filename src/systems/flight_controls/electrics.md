@@ -7,7 +7,7 @@ electrical power from ground crew. The two generator arrangement, while normally
 working independently, includes a bus tie that can connect both buses together
 to draw power from a single generator in case of failure.
 
-### Generator Indicator Lights
+## Generator Indicator Lights
 
 ![GenInd](../../img/pilot_generator_lights.png)
 
@@ -19,7 +19,7 @@ entire aircraft. In the event of a generator failure, the Master Caution will
 also illuminate. However, in the event of a dual generator failure, neither GEN
 OUT light will not illuminate.
 
-### Generator Control Switches
+## Generator Control Switches
 
 ![GenCtl](../../img/GenCtl.png)
 
@@ -32,7 +32,7 @@ generator to the other half of the electrical system. The External On setting is
 used for ground handling purposes when connected to external power, and provides
 electricity to all but the instruments, the CNI, and AFCS.
 
-### Instrument Ground Power Switch
+## Instrument Ground Power Switch
 
 ![InstrumentGroundPowerSwitch](../../img/wso_instrument_ground_power_switch.png)
 
@@ -42,6 +42,6 @@ the generator switches are set to EXT ON), found on the the right wall in the
 rear cockpit. Once external electrical power is disengaged or an engine
 generator comes online, it will switch off.
 
-### Electrics diagram
+## Electrics diagram
 
 ![manual_electric_system_diagram](../../img/manual_electric_system_diagram.png)

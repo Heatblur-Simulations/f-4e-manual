@@ -24,12 +24,12 @@ oxygen flow.
 ### Emergency Flow Control Switch
 
 Three position switch which selects EMERGENCY pressure (100% flow with positive
-pressure), NORMAL (stanadard air/oxygen mix), or TEST MASK (positive pressure
+pressure), NORMAL (standard air/oxygen mix), or TEST MASK (positive pressure
 for mask sealing check).
 
 ### Diluter Lever
 
-Two position switch that cycles between NORMAL oxygen value or 100% OYXGEN
+Two position switch that cycles between NORMAL oxygen value or 100% OXYGEN
 level.
 
 ### Oxygen Quantity Test Button

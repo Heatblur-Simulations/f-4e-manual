@@ -4,7 +4,7 @@ The F-4E Phantom is powered by two J79-GE-17 engines built by General Electric,
 with a rated static sea-level power delivery of 11,870 pounds of thrust in Mil,
 and 17,900 pounds in afterburner. The engines have provision for both assisted
 pneumatic start at fields with an available cart, or via a propellant cartridge
-to initiate spinup. Similarly, the engines can utilize the aircraft's internal
+to initiate spin-up. Similarly, the engines can utilize the aircraft's internal
 battery for initial power, or connection with an external power cart.
 
 ## Fuel Flow Indicators

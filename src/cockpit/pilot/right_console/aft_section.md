@@ -5,14 +5,14 @@
 ![CompassCtl](../../../img/CompassCtl.png)
 
 Manages essential controls for the proper operation of the AJB-7 azimuth system.
-Essencial for accurate azimuth output to instruments like ADI, HSI, BDHI, but
+Essential for accurate azimuth output to instruments like ADI, HSI, BDHI, but
 also to the rear seat attitude indicator, autopilot, and bombing computer.
 
 ### Mode Selector Knob
 
 Switches between different operating modes — Compass, DG (directional gyro), and
 Slaved. It also has a spring-loaded SYNC position for fast synchronization of
-the azimuth system basen on the compass flux valve signal.
+the azimuth system based on the compass flux valve signal.
 
 | Name                  | Description                                                                                                                                                                                                                  |
 | --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -89,11 +89,11 @@ Can be set to OFF, STEADY or FLASH to additionally control the setting for:
 If set to OFF, the controlled lights are OFF regardless of their respective
 switches. In the STEADY position, they light up corresponding to the selected
 brightness. The FLASH position lets the controlled lights phase from the set
-brightness to a low brigthness and back.
+brightness to a low brightness and back.
 
 ## Airborne Video Tape Recorder
 
-![pilot_avtr](../../../img/pilot_avtr.png)
+![Airborne Video Tape Recorder](../../../img/pilot_avtr.png)
 
 The AVTR system is installed in the rear section to the right of the seat. It is
 primarily controlled by the WSO and records the intercom sound, as well as the

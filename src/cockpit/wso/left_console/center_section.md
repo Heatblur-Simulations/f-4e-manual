@@ -22,7 +22,7 @@ Controls polarization of transmitted rf energy.
 
 | Name  | Description                                                                           |
 | ----- | ------------------------------------------------------------------------------------- |
-| LIN   | RF energy is linerally polarized in a vertical orientation. AIM-7 default mode.       |
+| LIN   | RF energy is lineally polarized in a vertical orientation. AIM-7 default mode.       |
 | CIR 1 | RF energy is rotated clockwise from the vertical plane. AIM-7 can be fired.           |
 | CIR 2 | RF energy is rotated counterclockwise from the vertical plane. AIM-7 cannot be fired. |
 
@@ -30,7 +30,7 @@ Controls polarization of transmitted rf energy.
 
 Used to select range sweep of 5, 10, 25, 50, 100, or 200 mile ranges on both
 radar displays. First four ranges are air to air intercept positions, final two
-are ground mapping modes only, and disengage lockon capability. Selecting a
+are ground mapping modes only, and disengage lock-on capability. Selecting a
 setting illuminates the applicable range lamp, and displays the value on the
 radar scope upper left corner.
 
@@ -41,7 +41,7 @@ countermeasures and clutter.
 
 | Name  | Description                                                                        |
 | ----- | ---------------------------------------------------------------------------------- |
-| Low G | Default position. Limts track response due to countermeasures and clutter.         |
+| Low G | Default position. Limits track response due to countermeasures and clutter.         |
 | HI G  | Allows track loop to respond to high acceleration. Automatically engaged with CAA. |
 
 ### Bar Scan Switch
@@ -54,7 +54,7 @@ automatically commanded.
 
 Used to program the AIM-7 with a predetermined simulated Doppler instead of
 actual received Doppler, so that the WSO can provide an estimated correct
-speedgate location when range isn't available.
+speed-gate location when range isn't available.
 
 ### Receiver Gain Knobs (RCVR GAIN)
 
@@ -87,7 +87,7 @@ reacquired.
 The AOJ OUT position is used to override the acquisition on jamming function of
 the radar. In the event that the radar acquires a HOJ lock, the position can be
 selected to place the radar back into a search configuration to initiate a
-lockon against the jamming target and initiate a standard angle track lock.
+lock-on against the jamming target and initiate a standard angle track lock.
 
 ### Display Knob
 

@@ -37,7 +37,7 @@ Not used by the APQ-120 in the F-4E.
 
 ### Temp Light
 
-Illuminates amber to indicate an overtemperature situation in the nose radar
+Illuminates amber to indicate an over-temperature situation in the nose radar
 avionics bay. Under normal circumstances, an overheat condition requires setting
 the radar power to OFF. If circumstances require continued use, the light should
 be monitored regularly.
@@ -92,5 +92,5 @@ Changes the antenna stabilization mode.
 | Name      | Description                                                                              |
 | --------- | ---------------------------------------------------------------------------------------- |
 | NOR       | Normal operation; inputs of pitch and roll are fed to the antenna stabilization circuit. |
-| STAB OUT  | Horizon line removed from scopes and stabilation drift servos are zeroed.                |
+| STAB OUT  | Horizon line removed from scopes and stabilization drift servos are zeroed.                |
 | DRIFT OUT | INS drift compensation is removed; antenna uses direct pitch and roll input tracking.    |

@@ -240,7 +240,7 @@ installed at all times when loading, unloading or maintaining the system.
 
 The flare payload module can only be installed on the master dispenser assembly.
 The flare housing adapter serves as the interface. The flare cartridge consists
-of a metal outer sleeve, a flare element, a safing and initiation device and a
+of a metal outer sleeve, a flare element, a safe-ing and initiation device and a
 plastic end cap. An indentation in the cartridge base allows for proper flare
 installation.
 

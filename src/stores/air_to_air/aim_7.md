@@ -70,7 +70,7 @@ illuminates the RADAR lamp on the Head Up Display panel.
 Before employing the AIM-7E Sparrow, a delay of four seconds should be given if
 the Master Arm switch is set in the ON position prior to radar lock on, or a
 delay of two seconds if the Master Arm switch is set to ON after radar lock on.
-This is due to the set-in period of the missile speedgate. With the AIM-7F, this
+This is due to the set-in period of the missile speed-gate. With the AIM-7F, this
 delay is reduced to two seconds with Master Arm On prior to lock, or immediately
 after selecting Master Arm to On if lock on was achieved first. Should these
 delays not be adhered to, the missile may fail to track because of improper
@@ -80,7 +80,6 @@ With the target in parameters or interlocks out, pressing the trigger fires off
 an AIM-7. A second AIM-7 can be fired immediately at the same target, if
 desired, by releasing, then squeezing the trigger a second time- holding it on
 the second actuation.
-
 
 ## Launch Sequence
 

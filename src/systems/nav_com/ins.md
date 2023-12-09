@@ -23,7 +23,7 @@ represented. The gyros are floated, and proper operation can only take place
 once the fluid has attained operating temperature (160 degrees F); the system is
 effectively climate controlled across the altitude operating range of the
 Phantom. A series of precision magnetic torquers provide localization movement,
-while acceleration pickoffs function within a separate electromagnetic field
+while acceleration pick-offs function within a separate electromagnetic field
 perform the actual data capture from the displacements of the gyroscopes.
 
 Along the platform, set orthogonally (at 90 degree respective positions) are a
@@ -69,7 +69,7 @@ note gross deviation from known location fixes.
 
 ### Best Available True Heading
 
-STBY position must be placed momentarity to avoid an INS no-go.
+STBY position must be placed momentarily to avoid an INS no-go.
 Once set to ALIGN, the ALIGN lamp will illuminate steadily after 75 seconds
 indicating BATH Alignment is ready. Once in BATH, the INS is accurate to roughly
 5 and a half nautical miles per hour CEP, although higher inaccuracies can be
@@ -95,14 +95,14 @@ gyroscopes (which goes through the illumination/off cycle as above).
 ### Gyrocompass Alignment
 
 Maximum system precision is found by allowing the INS to perform a full
-Gyrocompassing alignment. This method permits the gyros to find the most
+Gyro-compassing alignment. This method permits the gyros to find the most
 accurate true north reference possible, but can entail substantial amounts of
 time- and even greater time based on inaccurate or missing magnetic variation
 setting entry prior to powering the INS on. As an example- for a one degree
 compass heading error, the time to achieve maximum accuracy on the system is
 approximately five minutes, which attains an accuracy of ±10 minutes of arc
 alignment, giving the aforementioned 3 nautical miles of deviation per hour. The
-minimum amount of time to complete a Gyrocompassing alignment once BATH or HDG
+minimum amount of time to complete a Gyro-compassing alignment once BATH or HDG
 MEM level alignment is achieved is 50 additional seconds, while a normal
 alignment takes around 5 minutes. If the aircraft is aligned at 70 degrees of
 latitude or more, additional time should be expected.
@@ -116,9 +116,9 @@ minute, reaching an operational temperature of 160°F. Once the system reaches
 its operating temperature, an additional 50 seconds are required until the HEAT
 light extinguishes. After transitioning to ALIGN, the light will illuminate
 steadily after 75 seconds, signaling the completion of the initial BATH
-alignment, initiating the gyrocompassing process. Once Gyrocompass alignment
+alignment, initiating the gyro-compassing process. Once Gyrocompass alignment
 concludes, the ALIGN indicator will flash, indicating the system has achieved
-full alignment. While gyrocompassing (when the align light is steadily lit), NAV
+full alignment. While gyro-compassing (when the align light is steadily lit), NAV
 mode can be entered at any time, though optimal accuracy will only be attained
 when the ALIGN indicator flashes.
 
@@ -166,20 +166,20 @@ The computer also provides confirmation of current LN-12 precision, using a pair
 of lights marked LAT and LONG, as well as the Variation Sync Meter. When these
 lamps are off, the current displayed position coordinates are within 1 1/2 arc
 minutes precision. Magnetic variation detected by way of the INS gyroscopes is
-compared against the manual performed prior to INS powerup via the Magnetic
+compared against the manual performed prior to INS power-up via the Magnetic
 Variation Control knob, and displayed on the Variation Sync Meter. This
 deviation can be corrected on the Magnetic Variation Control Knob to bring the
 sync to center. Although the magnetic variation control knob has no effect on
 the meter in air data mode, positive correction prior to INS loss increases the
 air data mode precision.
 
-The Nav Computer can function in either Inertial or Air Data mode. Both modes 
+The Nav Computer can function in either Inertial or Air Data mode. Both modes
 provide the same outputs but the inertial mode (default) is more accurate.
 
 In the event of an INS failure, the Nav Computer reverts to Air Data mode. In
 Air Data mode. the rear pilot must continually monitor and adjust true wind
-direction and speed, magnetic variation, as the only dead reckoning inputs 
-available to the computer is true airspeed (from the air data computer) and 
+direction and speed, magnetic variation, as the only dead reckoning inputs
+available to the computer is true airspeed (from the air data computer) and
 magnetic heading from the compass system. When the system reverts to Air Data
 mode, the AIR DATA MODE lamp will illuminate.
 

@@ -44,7 +44,7 @@ Requires 38 full turns to move the pedals across the entire range.
 
 ## Pneumatic Pressure Indicator
 
-![Pneum](../../img/Pneum.png)
+![Pneumatic Pressure Indicator](../../img/Pneum.png)
 
 Provides cumulative manifold pressure of the compressed engine bleed air used to
 drive the aircraft's pneumatic actuated equipment.

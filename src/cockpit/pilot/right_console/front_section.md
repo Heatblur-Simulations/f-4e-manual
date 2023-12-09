@@ -36,11 +36,11 @@ information provided on the HSI, ADI, and BDHI, respectively.
 
 | Name    | Description                                                                                                                                                |
 | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| OFF     | The TACAN receiver is deenergized and offline.                                                                                                             |
+| OFF     | The TACAN receiver is de-energized and offline.                                                                                                             |
 | REC     | The TACAN receiver is active, providing bearing information on the HSI, BDHI, and ADI.                                                                     |
 | T/R     | Both the receive and transmit functions of the TACAN are active, which provide bearing and nautical mile range information for the HSI and BDHI.           |
-| A/A REC | The TACAN reciver decodes bearing information from compliant aircraft for the HSI, BDHI, and ADI steering display.                                         |
-| A/A TR  | The TACAN receiver receives both bearing and sland range information in nautical miles from the transmitting aircraft, providing this on the HSI and BDHI. |
+| A/A REC | The TACAN receiver decodes bearing information from compliant aircraft for the HSI, BDHI, and ADI steering display.                                         |
+| A/A TR  | The TACAN receiver receives both bearing and slant range information in nautical miles from the transmitting aircraft, providing this on the HSI and BDHI. |
 
 Note: Air to Air TACAN functionality requires the channel to be set 63 channels
 above or below the cooperating aircraft, but on the same range- X or Y.
@@ -122,7 +122,7 @@ channel.
 
 ## Emergency Vent Handle
 
-![EmergVent](../../../img/EmergVent.png)
+![Emergency Vent Handle](../../../img/EmergVent.png)
 
 A plug that can be pulled to release cockpit pressure. Putting it back in will
 seal the cabin again.

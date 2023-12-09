@@ -48,7 +48,7 @@ in unison:
 - Horizontal Situation Indicator
 
 When in the OFF position, these indicators are independently controlled for
-illumation by the knobs on the Flight Instrument Lights Intensity Panel.
+illumination by the knobs on the Flight Instrument Lights Intensity Panel.
 
 The Console Light Control Knob, with range from OFF to BRT, controls
 illumination level for all panel edge lighting and the console floodlights.

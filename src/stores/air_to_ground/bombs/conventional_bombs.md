@@ -39,7 +39,7 @@ programmed prior to takeoff. In concert, once over the target area the pilot can
 select the necessary option through the Nose/Tail Arming switch, and deliver the
 weapon with the profile most suited to the target.
 
-### Variants
+### CBU Variants
 
 Available cluster bombs are:
 
@@ -58,7 +58,7 @@ the BDU-33 25 lb training bomb, the BDU-45 500 lb training bomb, or the BDU-50
 500 lb training bomb, in either low or high drag configuration, to simulate the
 carriage and release profile of standard Mk 82 and Snakeye rounds.
 
-### Variants
+### BDU Variants
 
 Available variants of the BDU family include:
 

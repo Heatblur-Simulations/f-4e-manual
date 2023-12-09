@@ -21,7 +21,7 @@ Controls for the KY-28 encryption system.
 
 ![ecm](../../img/ecm.png)
 
-Controls for the electronic countermeasurement and jamming system.
+Controls for the electronic counter-measurement and jamming system.
 
 ## Bomb Release Angle Computer
 
@@ -33,8 +33,8 @@ be set from 70 to 179.9 degrees.
 
 ## Bombing Timers
 
-Entry of applicable timing for pullup signal or release are performed with the
-Bombing Timers. The Pullup timer may be set from 0 to 60 seconds, and the
+Entry of applicable timing for pull-up signal or release are performed with the
+Bombing Timers. The Pull-up timer may be set from 0 to 60 seconds, and the
 Release timer may be set from 0 to 30 seconds. Minimum increment for each timer
 is 0.1 seconds.
 

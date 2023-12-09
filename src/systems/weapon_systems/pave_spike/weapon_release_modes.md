@@ -5,7 +5,7 @@ The pod offers two additional weapon release modes:
 - WRCS Auto Mode
 - ROR (Release on Range)
 
-### Auto Mode
+## Auto Mode
 
 The main method of weapon delivery with the pod is the WRCS automatic release
 mode.
@@ -23,9 +23,9 @@ use the pods computed slant range and target instead.
 
 The TTG cue will move down and meet the T0 cue to indicate the time to release.
 
-![ttg_moes_to_tt0](../../../img/ttg_moes_to_tt0.png)
+![TTg moves down to T0](../../../img/ttg_moes_to_tt0.png)
 
-### ROR
+## ROR
 
 Release on range is mostly a backup mode. The pilot must select TGT FIND as
 delivery mode, and ROR on the range indicator.

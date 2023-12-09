@@ -27,7 +27,7 @@ autopilot will be turned off.
 ## Aileron-Spoiler Control and Stabilator Control Feel and Trim Systems
 
 The Aileron-Spoiler Control System and the Stabilator Control System both offer
-trim following; the former through a screwjack actuator, the latter using a
+trim following; the former through a screw jack actuator, the latter using a
 servo directed by the AFCS. These functions cause the stick to position relative
 to the current trim and autopilot position when the crew member in control goes
 "hands off". It is therefore advisable to maneuver the stick to the same
@@ -127,7 +127,7 @@ In the Norm position, Maneuvering Slat deployment is a function of AoA; above
 10.5 units. Maneuvering Slat operation includes a speed-induced blowback; slats
 will retract due to air pressure between 568 to 602 knots.
 
-![SlatsOvrd](../../img/SlatsOvrd.png)
+![Slats Override](../../img/SlatsOvrd.png)
 
 To the rear of the Fuel Control Panel in the front cockpit is the Slat Override
 Switch. Guarded, this switch has two positions: Norm and In. Defaulted to Norm

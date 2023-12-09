@@ -4,7 +4,7 @@
 
 The AN/AVQ-23 Pave Spike targeting pod is the successor of the AN/AVQ-10 Pave
 Knife and predecessor of the AN/AVQ-26 Pave Tack pod. It entered service in 1974
-and was replaced from 1982 to 1989 by the Pave Tack pod. It provides a slewable
+and was replaced from 1982 to 1989 by the Pave Tack pod. It provides a slew-able
 TV image for spotting ground targets and can fire laser for determining range
 information and to guide laser guided weapons.
 
@@ -72,8 +72,8 @@ consists of:
 
 While the display is shown on the DSCG screens in both cockpits.
 
-![eotgt_pilot_overview](../../../img/eotgt_pilot_overview.png)
-![eotgt_wso_overview](../../../img/eotgt_wso_overview.png)
+![Pilot System Overview](../../../img/eotgt_pilot_overview.png)
+![WSO System Overview](../../../img/eotgt_wso_overview.png)
 
 ### Azimuth-Elevation Indicator
 
@@ -142,7 +142,7 @@ From left to right, top to bottom, it provides the WSO with:
 - Reticle Brightness Knob - change the reticle from black to green
 - Az/El/Roll Boresight Knobs - adjust the boresight position of the pod within
   ±2.5 degrees
-- Stow Button - Stow or Unstow the pod
+- Stow Button - Stow or Un-stow the pod
 - Laser Ready Button - Arm or Disarm the laser
 - Power On Button - Turn the pod on or off
 - Currently selected BIT, with push button to advance the BIT

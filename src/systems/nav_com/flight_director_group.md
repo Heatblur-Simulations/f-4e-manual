@@ -96,8 +96,8 @@ reference angles up to 35 degrees. Should a bank angle in excess of 35 degrees
 be desired, the instructed angle can be disregarded during the turn. When the
 Heading Set knob has been used to enter the correct target heading, the
 intercept presentation is accurate within a 60 degree field of a TACAN course,
-or 90 degrees for a VOR radial. Additionally, a Glideslope Pointer is provided
-for relative glideslope position indication during an ILS approach.
+or 90 degrees for a VOR radial. Additionally, a Glide-slope Pointer is provided
+for relative glide-slope position indication during an ILS approach.
 
 Upon startup of the ADI, an OFF warning flag will be displayed until the
 AN/AJB-7 gyro has aligned. This can also appear due to power loss or a signal

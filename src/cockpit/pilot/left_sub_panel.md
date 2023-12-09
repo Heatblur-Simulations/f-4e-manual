@@ -55,7 +55,7 @@ current PSI.
 
 ![StabTrimInd](../../img/StabTrimInd.png)
 
-Provides current stabilator trim setting in units (trim switch actuations) of
+Provides current stabilator trim setting in units (trim switch actuation) of
 trim.
 
 ## Landing/Taxi Lights Switch
@@ -70,14 +70,14 @@ locked for the switch to function.
 ![EmerRel](../../img/EmerRel.png)
 
 Also called the "panic button", the External Stores Emergency Release will
-immediately perform separation of all jettisonable stores, without air to air
+immediately perform separation of all jettison-able stores, without air to air
 weapons or special weapons. The actuation of the button will show a yellow ring
 around the button position, which is the indicator for the pilot that it has
 been used.
 
 ## Aileron Rudder Interconnect (AIR) Circuit Breaker
 
-![ARIfuse](../../img/ARIfuse.png)
+![ARI Fuse](../../img/ARIfuse.png)
 
 When pulled in conjunction with the Yaw ARI Stab Aug Switch disengaged, Yaw ARI
 will be fully removed. With the Yaw ARI Stab Aug Switch engaged, 5 degrees of
@@ -89,5 +89,5 @@ ARI authority will be maintained.
 
 Pulling this handle activates the Emergency Hydraulic Brake System, which dumps
 the remainder of the hydraulic accumulator into the brake system for a limited
-number of brake actuations. Differential braking will work, however the number
-of available actuations is limited.
+number of brake actuation. Differential braking will work, however the number
+of available actuation is limited.

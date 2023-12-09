@@ -63,7 +63,7 @@ position and color.
 ## Range (VISIDENT) Indicator
 
 Displays accurate range information inside of 2 miles (12000') and range/rate
-information inside of 9000', when lockon exists in VI, B NAR, or B WIDE mode.
+information inside of 9000', when lock-on exists in VI, B NAR, or B WIDE mode.
 When AIR-GRD is selected, the indicator is disabled.
 
 ## 8-Day Clock
@@ -134,7 +134,7 @@ thousands of feet per minute.
 
 ## Altimeter
 
-![Altim](../../img/Altim.png)
+![Altimeter](../../img/Altim.png)
 
 A counter-pointer style altimeter, with thousandths in the counter window and
 100 foot increments around the face. The altimeter has an absolute range of
@@ -208,5 +208,5 @@ Illuminates when INS system is in a failure state.
 
 ## Radar CNI Cool Off Lamp
 
-Illuminates to indicate an overtemperature situation in the avionics cooling
+Illuminates to indicate an over-temperature situation in the avionics cooling
 system.

@@ -134,6 +134,6 @@ pull free.
 ![ext_wings_folded](../../img/f4_folded_wings.png)
 
 The F-4E includes a wing fold system to assist in maintenance and ground
-handling. Unlike prior models, the wing fold apparatus on the F-4E is unpowered,
+handling. Unlike prior models, the wing fold apparatus on the F-4E is un-powered,
 and requires ground crew members to manually move the outboard panels with the
 fold control activated to release the locking mechanism.

@@ -35,7 +35,7 @@ airspeed change, there may be a lag of up to
 
 ## Flight Instrument Brightness Knob
 
-![InstruBright](../../img/InstruBright.png)
+![Flight Instrument Brightness Knob](../../img/InstruBright.png)
 
 Controls brightness of the flight instrument cluster.
 
@@ -195,7 +195,7 @@ option, or is launched.
 
 ## Radar Missile Power Switch
 
-![RMPS](../../img/RMPS.png)
+![Radar Missile Power Switch](../../img/RMPS.png)
 
 The Radar Missile Power Switch provides power to the CW tuning drive and
 monitoring functionality.
@@ -214,14 +214,14 @@ emissions endangering ground crew.
 
 ## Centerline Tank Aboard Light
 
-![CTAL](../../img/pilot_centerline_tank_aboard.png)
+![Centerline Tank Aboard Light](../../img/pilot_centerline_tank_aboard.png)
 
 Illuminates when a stores condition exists that precludes ejection and launch of
 an AIM-7 missile installed in one of the two forward positions.
 
 ## Interlock Switch
 
-![Intlk](../../img/pilot_interlock_switch.png)
+![Interlock Switch](../../img/pilot_interlock_switch.png)
 
 A two position switch that determines whether the fire control system launch
 parameter interlocks can prevent an AIM-7 from being launched when the trigger

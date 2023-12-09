@@ -2,12 +2,12 @@
 
 ## Stowing
 
-After turning on the system, the pod can be unstowed by pressing the STOW push
+After turning on the system, the pod can be un-stowed by pressing the STOW push
 button.
 
 ![stow_lamp](../../../img/stow_lamp.png)
 
-When unstowed, the pod moves according to the current selections and
+When un-stowed, the pod moves according to the current selections and
 automatically goes into the WIDE FOV.
 
 In the stowed position, the camera is rotated upwards and a cover is moved in
@@ -20,7 +20,7 @@ The stow-procedure takes about 5 seconds, with the light indicating the current
 status.
 
 Note that the stow-position is held electrically and can not be held without
-power. Unpowered, the pod swings freely with force. Taking off without first
+power. Un-powered, the pod swings freely with force. Taking off without first
 applying power to the pod, or flying with the pod being powered off, will cause
 the pod to leave the stow position. Outside of the stow position, the system
 will get damaged through hazards and whenever it is forcefully moved into its
@@ -97,7 +97,7 @@ After about 15 seconds, the test is finished with either GO or MALF
 illuminating.
 
 For the test to be successful, the aircraft must not be moving, the pod must be
-unstowed and INS must be integrated.
+un-stowed and INS must be integrated.
 
 ### Bit 3
 
@@ -105,8 +105,8 @@ This tests the laser energy level. The pod moves to a special position where it
 looks inside itself, such that the laser fires against a special sensor mounted
 inside the pod.
 
-The pod must be unstowed and a valid laser code must have been entered, as well
-as the LASER READY button being pushed in. The nosegear guard is ignored during
+The pod must be un-stowed and a valid laser code must have been entered, as well
+as the LASER READY button being pushed in. The nose gear guard is ignored during
 the test, allowing the use of the laser on ground.
 
 Once the pod has reached the test position, the WSO must press and hold the
@@ -169,5 +169,5 @@ altitude high speed flight, such as overflights at 1,000 ft with 500 knots.
 - BIT 1 - confirm MALF not lit
 - Video Select Switch - ASQ-153 (WSO, main panel)
 - DSCG Mode - TV (pilot or WSO)
-- Unstow by pressing lit STOW button - wait 5 seconds and confirm lamp off
+- Un-stow by pressing lit STOW button - wait 5 seconds and confirm lamp off
 - Confirm DSCG on and displaying pod camera feed

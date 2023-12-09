@@ -81,10 +81,10 @@ best calibrated in 9-VIS.
 
 ### Stow Button
 
-Alternating presses unstows and stows the Pave Spike pod head. The head is
+Alternating presses un-stows and stows the Pave Spike pod head. The head is
 stowed when the button is illuminated.
 
-When unstowed, the pod will move accordingly to the selected acquisition mode.
+When un-stowed, the pod will move accordingly to the selected acquisition mode.
 
 To prevent damage to the system, the pod must be stowed during takeoff, landing
 and any High-G maneuvers. Note that the stowed position is held electrically

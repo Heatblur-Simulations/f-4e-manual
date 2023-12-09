@@ -1,8 +1,6 @@
 # See the example config: https://github.com/DavidAnson/markdownlint/blob/main/schema/.markdownlint.yaml
-# MD013/line-length - Line length
-MD007:
-  indent: 2
-MD013:
+MD013: # Line length
   line_length: 100
-MD033:
+  tables: false
+MD033: # no-inline-html
   allowed_elements: ["iframe", "sup"]
