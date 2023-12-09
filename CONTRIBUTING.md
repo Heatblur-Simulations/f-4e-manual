@@ -15,15 +15,18 @@ helping you finalize your pull requests.
 
 ## Legal yada yada
 
-The manual is published under the [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en).
+The manual is published under the
+[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 Please make sure you understand its terms.
 
-Additionally, by submitting a PR and contributing to the project, you transfer the rights you
-hold to your own contribution to Heatblur Simulations. That is, Heatblur Simulations is free to use
-the content you created under the terms of the above license.
+Additionally, by submitting a PR and contributing to the project, you transfer
+the rights you hold to your own contribution to Heatblur Simulations. That is,
+Heatblur Simulations is free to use the content you created under the terms of
+the above license.
 
 ## Ground Rules
 
+<!-- markdown-link-check-disable -->
 - Create [issues](https://github.com/Heatblur-Simulations/f-4e-manual/issues)
   for any major changes and enhancements that you wish to make, as well as for
   reporting any sort of bugs. For more light-hearted talks, you can use
@@ -31,13 +34,15 @@ the content you created under the terms of the above license.
   Discuss things transparently and get community feedback.
 - Be welcoming to newcomers and encourage diverse new contributors from all
   backgrounds.
+<!-- markdown-link-check-enable -->
 
 ## Your First Contribution
 
 Unsure where to begin contributing to the manual? You can start by looking
 through these labels!
 
-- [good first issue](https://github.com/Heatblur-Simulations/f-4e-manual/issues/?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) -
+<!-- markdown-link-check-disable-next-line -->
+- [good first issue](https://github.com/Heatblur-Simulations/f-4e-manual/issues/?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22),
   issues which should only require a few minor changes.
 
 Let us know that you intend to work on the issue by commenting on it, and we
@@ -45,8 +50,8 @@ will assign it to you.
 
 Working on your first Pull Request? You can check these resources:
 
-- http://makeapullrequest.com/
-- http://www.firsttimersonly.com/
+- <http://makeapullrequest.com/>
+- <http://www.firsttimersonly.com/>
 
 At this point, you're ready to make your changes! Feel free to ask for help;
 everyone is a beginner at first! 🎉
@@ -55,9 +60,11 @@ everyone is a beginner at first! 🎉
 
 ### Create an issue
 
+<!-- markdown-link-check-disable -->
 Before creating a new issue, make sure to
-[search](https://github.com/Heatblur-Simulations/f-4e-manual/issues?q=is%3Aissue) for
-existing issues first.
+[search](https://github.com/Heatblur-Simulations/f-4e-manual/issues?q=is%3Aissue)
+for existing issues first.
+<!-- markdown-link-check-enable -->
 
 If the issue already exists, comment on it saying that you intend to work on it,
 and we will assign it to you!
@@ -97,10 +104,13 @@ consider checking these resources:
 
 ### Create a pull request
 
+<!-- markdown-link-check-disable -->
 When you are done, you will create a
-[pull request](https://github.com/Heatblur-Simulations/f-4e-manual/pulls) to request
-feedback from the rest of the community. At this point, your contribution will be
-automatically tested and then checked by a member of the Heatblur Team.
+[pull request](https://github.com/Heatblur-Simulations/f-4e-manual/pulls) to
+request feedback from the rest of the community. At this point, your
+contribution will be automatically tested and then checked by a member of the
+Heatblur Team.
+<!-- markdown-link-check-enable -->
 
 Each pull request should be clear, concise, and informative. Please consider
 checking these resources:
@@ -116,8 +126,8 @@ or fix more than one thing, please submit another pull request.
 After you created a PR, automated checks will be run. PR cannot be merged
 without all tests passing, so make sure to fix all the issues that are found.
 
-Your PR will be reviewed, and after being accepted by at least one member of
-the Heatblur Team, it will get merged to the `master` branch! 🎉
+Your PR will be reviewed, and after being accepted by at least one member of the
+Heatblur Team, it will get merged to the `master` branch! 🎉
 
 From there on, it will lead to an automatic re-deployment of the manual and your
 changes being live on the real website!
