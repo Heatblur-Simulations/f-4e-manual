@@ -4,8 +4,8 @@
 
 ![BoardStepsLadder](../../../img/BoardStepsLadder.jpg)
 
-Used to visually confirm the integrated boarding ladder has been stowed. With
-the white post extended up, ladder is stowed, whereas ladder is deployed if post
+Used to visually confirm the integrated boarding steps state. With
+the white post up, steps are stowed, whereas steps are deployed if post
 is down and flush with panel recess.
 
 ## Intercom System Control Panel
