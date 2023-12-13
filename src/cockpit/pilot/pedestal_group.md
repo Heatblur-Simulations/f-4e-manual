@@ -49,7 +49,6 @@ Requires 38 full turns to move the pedals across the entire range.
 Provides cumulative manifold pressure of the compressed engine bleed air used to
 drive the aircraft's pneumatic actuated equipment.
 
-
 ## Rate of fire Switch
 
 ![pilot_pedestral_group_rate_of_fire_switch](../../img/pilot_pedestral_group_rate_of_fire.png)
