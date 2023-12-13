@@ -48,3 +48,18 @@ Requires 38 full turns to move the pedals across the entire range.
 
 Provides cumulative manifold pressure of the compressed engine bleed air used to
 drive the aircraft's pneumatic actuated equipment.
+
+
+## Rate of fire Switch
+
+![pilot_pedestral_group_rate_of_fire_switch](../../img/pilot_pedestral_group_rate_of_fire.png)
+
+Used to switch the gun rate of fire between a HIGH setting (6000 rounds per minute) and a LOW setting (4000 rounds per minute).
+
+## Auto clear switch
+
+![pilot_pedestral_group_auto_clear_switch](../../img/pilot_pedestral_group_auto_clear_switch.png)
+
+The cannon will fire approximately between 5 and 11 rounds from the point the pilot has released the trigger to clear all
+bolt actions in the cannon. This spin-down takes approximately one second during which
+the gun cannot be fired again during this operation. This only applies to externally carried gun pods and not to the main gun.
