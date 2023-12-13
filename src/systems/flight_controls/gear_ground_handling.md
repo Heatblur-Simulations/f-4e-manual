@@ -49,7 +49,7 @@ of a wheel when the gears are down and locked.
 
 ## Nose Gear Steering
 
-![pilot_nose_gear_steering_button](../../img/pilot_stability_augmentation_switches.png)
+![pilot_nose_gear_steering_button](../../img/pilot_nose_gear_steering_button.png)
 
 Nose Gear Steering is actuated using the referenced button on the control stick
 in either cockpit. Holding the button down permits the crew member to steer the
