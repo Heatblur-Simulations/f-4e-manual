@@ -61,14 +61,12 @@ the target aim dot within
 the ASE (Allowable Steering Error) circle on the radar display, and the radar
 display mode out of VI (Vis-Ident mode).
 
-With
-the [interlocks](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#interlock-switch)
+With the [interlocks](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#interlock-switch)
 in, should any of the three aforementioned restrictions be
 met- target out of range, aim dot outside the ASE, or the radar left in VI, a
 trigger actuation will not cause the release of a missile.
 With [interlocks](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#interlock-switch)
-out,
-an AIM-7 will be released no matter the condition of the three interlocks.
+out, an AIM-7 will be released no matter the condition of the three interlocks.
 
 When parameters are met,
 the [SHOOT lamps](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/overhead_indicators.html#shoot-lights)
@@ -94,8 +92,7 @@ This is due to the set-in period of the missile speed-gate. With the AIM-7F, thi
 delay is reduced to two seconds
 with [Master Arm switch](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#master-arm-switch)
 On prior to lock, or immediately
-after
-selecting [Master Arm switch](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#master-arm-switch)
+after selecting [Master Arm switch](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#master-arm-switch)
 to On if lock on was achieved first. Should these
 delays not be adhered to, the missile may fail to track because of improper
 target doppler injection.
