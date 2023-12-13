@@ -18,7 +18,7 @@ in-flight high/low drag release mode for retarded bombs such as the [Mk 82
 Snakeye](../../stores/air_to_ground/bombs/conventional_bombs.md).
 
 | Name      | Description                                                                       |
-| --------- | --------------------------------------------------------------------------------- |
+|-----------|-----------------------------------------------------------------------------------|
 | SAFE      | No arming solenoids activate; bombs release without fuzing enabled.               |
 | NOSE      | Forward and center position solenoids activate to hold arming lanyards.           |
 | TAIL      | Aft position solenoids activate to hold arming lanyards.                          |
@@ -44,29 +44,31 @@ RKTS and DISP bypass empty stations automatically.
 ![pilot_delivery_mode_knob](../../img/pilot_delivery_mode_knob.png)
 
 Release mode is set using the Delivery Mode Knob. Values to the left of OFF
-employ the AN/AJB-7 Attitude Reference and Combing Computer Set ([ARBCS](arbcs.md)), whereas
-values to the right of DIRECT employ the Weapon Release Computer Set ([WRCS](wrcs.md)).
+employ the AN/AJB-7 Attitude Reference and Combing Computer
+Set ([ARBCS](https://heatblur-simulations.github.io/f-4e-manual/systems/weapon_systems/arbcs.html)), whereas
+values to the right of DIRECT employ the Weapon Release Computer
+Set ([WRCS](https://heatblur-simulations.github.io/f-4e-manual/systems/weapon_systems/arbcs.html)).
 DIRECT is the manual release mode. TGT FIND functions as a navigational mode,
 and cannot provide a weapon release signal to the fire control, thus can be
 considered in practice a "safe" position.
 
 The values, clockwise from the left, are as follows:
 
-| Name     | Description                            | System            |
-| -------- | -------------------------------------- |-------------------|
-| INST O/S | Instantaneous Over the Shoulder        | [ARBCS](arbcs.md) |
-| LOFT     | Loft                                   | [ARBCS](arbcs.md) |
-| O/S      | (Timed) Over the Shoulder              | [ARBCS](arbcs.md) |
-| T LAD    | Timed LADD (Low Angle Drogue Delivery) | [ARBCS](arbcs.md) |
-| TL       | Timed Level                            | [ARBCS](arbcs.md) |
-| OFF      | Off                                    |                   |
-| DIRECT   | Manual                                 |                   |
-| TGT FIND | Target Find (Navigation only)          | [WRCS](wrcs.md)   |
-| DT       | Dive Toss                              | [WRCS](wrcs.md)   |
-| DL       | Dive Laydown                           | [WRCS](wrcs.md)   |
-| L        | Laydown                                | [WRCS](wrcs.md)   |
-| OFFSET   | Offset Bomb                            | [WRCS](wrcs.md)   |
-| AGM-45   | AGM-45 Delivery                        | [WRCS](wrcs.md)   |
+| Name     | Description                            | System                                                                                        |
+|----------|----------------------------------------|-----------------------------------------------------------------------------------------------|
+| INST O/S | Instantaneous Over the Shoulder        | [ARBCS](https://heatblur-simulations.github.io/f-4e-manual/systems/weapon_systems/arbcs.html) |
+| LOFT     | Loft                                   | [ARBCS](https://heatblur-simulations.github.io/f-4e-manual/systems/weapon_systems/arbcs.html) |
+| O/S      | (Timed) Over the Shoulder              | [ARBCS](https://heatblur-simulations.github.io/f-4e-manual/systems/weapon_systems/arbcs.html) |
+| T LAD    | Timed LADD (Low Angle Drogue Delivery) | [ARBCS](https://heatblur-simulations.github.io/f-4e-manual/systems/weapon_systems/arbcs.html) |
+| TL       | Timed Level                            | [ARBCS](https://heatblur-simulations.github.io/f-4e-manual/systems/weapon_systems/arbcs.html) |
+| OFF      | Off                                    |                                                                                               |
+| DIRECT   | Manual                                 |                                                                                               |
+| TGT FIND | Target Find (Navigation only)          | [WRCS](https://heatblur-simulations.github.io/f-4e-manual/systems/weapon_systems/wrcs.html)   |
+| DT       | Dive Toss                              | [WRCS](https://heatblur-simulations.github.io/f-4e-manual/systems/weapon_systems/wrcs.html)   |
+| DL       | Dive Laydown                           | [WRCS](https://heatblur-simulations.github.io/f-4e-manual/systems/weapon_systems/wrcs.html)   |
+| L        | Laydown                                | [WRCS](https://heatblur-simulations.github.io/f-4e-manual/systems/weapon_systems/wrcs.html)   |
+| OFFSET   | Offset Bomb                            | [WRCS](https://heatblur-simulations.github.io/f-4e-manual/systems/weapon_systems/wrcs.html)   |
+| AGM-45   | AGM-45 Delivery                        | [WRCS](https://heatblur-simulations.github.io/f-4e-manual/systems/weapon_systems/wrcs.html)   |
 
 ## Weapon Selector Knob
 
@@ -74,22 +76,23 @@ The values, clockwise from the left, are as follows:
 
 The Weapon Selector Knob is used to designate the type of weapon to be used
 
-| Name        | Description                                                                                     |
-| ----------- |-------------------------------------------------------------------------------------------------|
-| RKTS & DISP | [Rockets](../../stores/air_to_ground/rockets.md) and dispensers. Arms AWRU release circuitry.             |
-| ARM         | [AGM-45 Shrike](../../stores/air_to_ground/missiles/shrike.md)                                  |
-| TV          | [AGM-65 Maverick](../../stores/air_to_ground/missiles/maverick.md) and other EO guided weapons. |
-| C           | Open/unused. May be utilized as an OFF selection.                                               |
-| B           | Same function as AIR-TO-AIR button in rear cockpit.                                             |
-| A           | Munitions with internally-set intervalometers (CBUs or spray containers).                       |
-| AGM 12      | AGM-12 Bullpup.                                                                                 |
-| BOMBS       | [Bombs](../../stores/air_to_ground/bombs/conventional_bombs.md). Arms AWRU release circuitry.   |
+| Name        | Description                                                                                                                                    |
+|-------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| RKTS & DISP | [Rockets](https://heatblur-simulations.github.io/f-4e-manual/stores/air_to_ground/rockets.html) and dispensers. Arms AWRU release circuitry.   |
+| ARM         | [AGM-45 Shrike](https://heatblur-simulations.github.io/f-4e-manual/stores/air_to_ground/missiles/shrike.html)                                  |
+| TV          | [AGM-65 Maverick](https://heatblur-simulations.github.io/f-4e-manual/stores/air_to_ground/missiles/maverick.html) and other EO guided weapons. |
+| C           | Open/unused. May be utilized as an OFF selection.                                                                                              |
+| B           | Same function as AIR-TO-AIR button in rear cockpit.                                                                                            |
+| A           | Munitions with internally-set intervalometers (CBUs or spray containers).                                                                      |
+| AGM 12      | AGM-12 Bullpup.                                                                                                                                |
+| BOMBS       | [Bombs](https://heatblur-simulations.github.io/f-4e-manual/stores/air_to_ground/bombs/conventional_bombs.html). Arms AWRU release circuitry.   |
 
 ## Centerline Tank Aboard Light
 
 ![pilot_centerline_tank_aboard](../../img/pilot_centerline_tank_aboard.png)
 
-The [forward AIM-7 missiles](../../stores/air_to_air/aim_7.md) can be inhibited from launch under certain centerline
+The [forward AIM-7 missiles](https://heatblur-simulations.github.io/f-4e-manual/stores/air_to_air/aim_7.html) can be
+inhibited from launch under certain centerline
 conditions due to possible separation issues or chance of igniting the contents
 of the centerline position. The CL tank light will illuminate if such a possible
 condition exists. The conditions that can cause this are as follows:
