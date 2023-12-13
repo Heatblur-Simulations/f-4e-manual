@@ -97,8 +97,8 @@ to On if lock on was achieved first. Should these
 delays not be adhered to, the missile may fail to track because of improper
 target doppler injection.
 
-With the target in parameters or 
-[interlocks](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#interlock-switch)
+With the target in parameters
+or [interlocks](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#interlock-switch)
 out, pressing the trigger fires off
 an AIM-7. A second AIM-7 can be fired immediately at the same target, if
 desired, by releasing, then squeezing the trigger a second time- holding it on
