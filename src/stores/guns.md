@@ -16,7 +16,8 @@ was used for four confirmed kills by the USAF over Vietnam with the F-4E.
 To utilize the M61,
 the [GUN station select switch](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#station-select-buttons)
 must be selected, the [Master
-Arm](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#master-arm-switch) must be
+Arm](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#master-arm-switch)
+must be
 ON, and
 the [Gun selection](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#head-up-display-indicators)
 on the Pinky Switch (Aft) must be
@@ -94,7 +95,8 @@ can be in any position other than TV or ARM, unless CAGE mode is
 activated. The
 desired [Auto Clear setting](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/pedestal_group.html#auto-clear-switch)
 should be selected, and [Master
-Arm](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#master-arm-switch) set
+Arm](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#master-arm-switch)
+set
 to ON to activate the pod. On the SUU-16, the Master Arm activation deploys the
 ram air turbine.
 

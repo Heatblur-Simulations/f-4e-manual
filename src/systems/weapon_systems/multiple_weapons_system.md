@@ -45,7 +45,8 @@ RKTS and DISP bypass empty stations automatically.
 
 Release mode is set using the Delivery Mode Knob. Values to the left of OFF
 employ the AN/AJB-7 Attitude Reference and Combing Computer
-Set ([ARBCS](https://heatblur-simulations.github.io/f-4e-manual/systems/weapon_systems/arbcs.html)), whereas
+Set ([ARBCS](https://heatblur-simulations.github.io/f-4e-manual/systems/weapon_systems/arbcs.html)),
+whereas
 values to the right of DIRECT employ the Weapon Release Computer
 Set ([WRCS](https://heatblur-simulations.github.io/f-4e-manual/systems/weapon_systems/arbcs.html)).
 DIRECT is the manual release mode. TGT FIND functions as a navigational mode,
@@ -91,7 +92,8 @@ The Weapon Selector Knob is used to designate the type of weapon to be used
 
 ![pilot_centerline_tank_aboard](../../img/pilot_centerline_tank_aboard.png)
 
-The [forward AIM-7 missiles](https://heatblur-simulations.github.io/f-4e-manual/stores/air_to_air/aim_7.html) can be
+The [forward AIM-7 missiles](https://heatblur-simulations.github.io/f-4e-manual/stores/air_to_air/aim_7.html)
+can be
 inhibited from launch under certain centerline
 conditions due to possible separation issues or chance of igniting the contents
 of the centerline position. The CL tank light will illuminate if such a possible
