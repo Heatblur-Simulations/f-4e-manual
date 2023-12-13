@@ -14,14 +14,14 @@ Southeast Asia. Additionally, the F-4E saw compatibility with the AIM-7F and
 AIM-7M.
 
 Utilization of the AIM-7 begins with tuning the onboard rounds, performed with
-the [RDR MSL switch](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#radar-missile-power-switch),
-selecting it into the CW ON position. This tuning process
+the [RDR MSL switch](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#radar-missile-power-switch)
+, selecting it into the CW ON position. This tuning process
 takes approximately one minute, and can be initiated once power has been applied
 for at least one minute to the radar (any position out of OFF) in most operating
 environments (ambient temperature below 90 degrees F). The missiles are properly
 tuned when
-the [missile status light](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#missile-status-lights) (
-RDR) is illuminate in each station carrying
+the [missile status light](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#missile-status-lights)
+(RDR) is illuminate in each station carrying
 a Sparrow missile for at least one minute. After successful tuning,
 the [RDR MSL switch](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#radar-missile-power-switch)
 can be returned to the STBY (Standby) position. The status lamps will
