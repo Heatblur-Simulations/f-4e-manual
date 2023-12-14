@@ -6973,7 +6973,8 @@ that an action has been clicked.</p>
 <p>The wheel is essentially a menu-tree. Each menu consists of up to 8 items. An
 item might be final or contain another sub-menu. Additionally, a sub-menu can
 also be spawned as outer-menu, which increases its item slots to 18.</p>
-<p>Each item can be associated with an <code>action</code>, a string that is tied to the Event System and can hence be reacted to if invoked.</p>
+<p>Each item can be associated with an <code>action</code>, a string that is tied to the Event
+System and can hence be reacted to if invoked.</p>
 <p>To interact with the menu, several methods are defined and exported to Lua:</p>
 <pre><code class="language-lua">Wheel.ReplaceMainMenu(main_menu)
 Wheel.ReplaceSubMenu(sub_menu, menu_location)
@@ -6981,7 +6982,8 @@ Wheel.AddItem(item, menu_location)
 Wheel.RemoveItem(item_name, menu_location)
 Wheel.ReplaceItem(item, item_name, menu_location)
 </code></pre>
-<p>The following shows a simple example to add a new sub-menu to the <code>Navigation</code> menu:</p>
+<p>The following shows a simple example to add a new sub-menu to the <code>Navigation</code>
+menu:</p>
 <pre><code class="language-lua">local waypoint_menu = Wheel.Item:new({
   name = &quot;Select Waypoint&quot;,
   menu = Wheel.Menu:new({
