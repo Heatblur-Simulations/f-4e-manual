@@ -1,6 +1,6 @@
 # Right Wall
 
-![wso_right_wall](../../../img/wso_right_wall.png)
+![wso_right_wall](../../../img/wso_right_wall.jpg)
 
 ## Battery Bypass
 

@@ -2,7 +2,7 @@
 
 ## CAGE Mode
 
-![pilot_cage_button](../../img/pilot_cage_button.png)
+![pilot_cage_button](../../img/pilot_cage_button.jpg)
 
 In the event that
 an [AIM-7](https://heatblur-simulations.github.io/f-4e-manual/stores/air_to_air/aim_7.html), [AIM-9](https://heatblur-simulations.github.io/f-4e-manual/stores/air_to_air/aim_9.html),
@@ -35,11 +35,11 @@ to Air button on the rear cockpit panel. If the pilot leaves
 the [Weapon Select knob](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#weapon-selector-knob)
 in B, it does not preclude a later entry into Cage mode.
 
-![pilot_weapon_selector_knob](../../img/pilot_weapon_selector_knob.png)
+![pilot_weapon_selector_knob](../../img/pilot_weapon_selector_knob.jpg)
 
 ## Computer Automatic Acquisition Mode (CAA)
 
-![CAA](../../img/CAA.png)
+![CAA](../../img/CAA.jpg)
 
 Once in Cage mode, the radar can be selected in to Computer Automatic
 Acquisition using

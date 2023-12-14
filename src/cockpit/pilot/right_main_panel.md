@@ -1,14 +1,14 @@
 # Right Main Panel
 
-![RMP](../../img/RMP.png)
+![RMP](../../img/RMP.jpg)
 
 ## RWR Azimuth Indicator
 
-![RWRAz](../../img/RWRAz.png)
+![RWRAz](../../img/RWRAz.jpg)
 
 ## Azimuth-Elevation Indicator
 
-![EOLos](../../img/EOLos.png)
+![EOLos](../../img/EOLos.jpg)
 
 The Azimuth-Elevation Indicator, or also Line-Of-Sight Indicator, is the main
 instrument for the pilot to assess the current attitude of the Pave Spike
@@ -27,7 +27,7 @@ red flag are shown, the view will not be obstructed by the pod or the aircraft.
 
 ## Master Caution Light
 
-![Master Caution Light](../../img/pilot_master_caution.png)
+![Master Caution Light](../../img/pilot_master_caution.jpg)
 
 The Master Caution light illuminates to provide the pilot warning of a condition
 requiring attention, directing them to look at the telelight panel for
@@ -37,7 +37,7 @@ panel.
 
 ## Fire Test Button
 
-![FTB](../../img/pilot_fire_test_button.png)
+![FTB](../../img/pilot_fire_test_button.jpg)
 
 When pressed, this button tests for functionality of the FIRE and OVRHT lamps.
 Under normal conditions, all four lights should light up as long as the button
@@ -55,7 +55,7 @@ the Fire Test Button is pressed, then illuminating when it is released.
 
 ## Fire/Overheat Warning Lamps
 
-![FOWL](../../img/pilot_fire_overheat.png)
+![FOWL](../../img/pilot_fire_overheat.jpg)
 
 The Fire and Overheat Warning Lamps, one for each engine, are a pair of
 two-position indicators that illuminate when a fire condition is detected in the
@@ -64,7 +64,7 @@ nozzle section (OVRHT).
 
 ## Fuel Quantity Indicator
 
-![JPInd](../../img/JPInd.png)
+![JPInd](../../img/JPInd.jpg)
 
 The Fuel Quantity Indicator provides two different indications of total usable
 internal fuel to confirm proper transfer function between the seven internal
@@ -78,7 +78,7 @@ increments.
 
 ## Fuel Flow Gauges
 
-![FFI](../../img/FFI.png)
+![FFI](../../img/FFI.jpg)
 
 A pair of fuel flow indicators is provided, one for each engine, presenting
 pounds per hour rate from 0 to 12, in 1000 lb increments. Flow indications are
@@ -87,14 +87,14 @@ four times the displayed flow rate.
 
 ## Tachometers
 
-![Tach](../../img/Tach.png)
+![Tach](../../img/Tach.jpg)
 
 A percentage-noting Tachometer is provided for each engine, including an inset
 wheel for accurate display of single digits.
 
 ## Exhaust Gas Temperature Gauges
 
-![EGT](../../img/EGT.png)
+![EGT](../../img/EGT.jpg)
 
 Exhaust Gas Temperature gauges are provided for each engine. The gauges have two
 needles- a large needle providing increments of 0 to 12 in multiples of 100
@@ -104,7 +104,7 @@ turbine unit.
 
 ## Dual Exhaust Nozzle Position Indicators
 
-![NPI](../../img/NPI.png)
+![NPI](../../img/NPI.jpg)
 
 A combined Nozzle Position Indicator is provided with two needles, one for each
 engine on their respective side, to confirm balanced nozzle position and

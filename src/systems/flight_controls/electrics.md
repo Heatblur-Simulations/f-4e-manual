@@ -9,7 +9,7 @@ to draw power from a single generator in case of failure.
 
 ## Generator Indicator Lights
 
-![GenInd](../../img/pilot_generator_lights.png)
+![GenInd](../../img/pilot_generator_lights.jpg)
 
 Three warning indicators are found on the generator control panel: LH GEN OUT,
 RH GEN OUT, and BUS TIE OPEN. The respective GEN OUT warning will illuminate in
@@ -21,7 +21,7 @@ OUT light will not illuminate.
 
 ## Generator Control Switches
 
-![GenCtl](../../img/GenCtl.png)
+![GenCtl](../../img/GenCtl.jpg)
 
 A pair of Generator Control Switches are found on the right console, one for
 each engine. These three position switches- ON (Forward), OFF, ON - External
@@ -34,7 +34,7 @@ electricity to all but the instruments, the CNI, and AFCS.
 
 ## Instrument Ground Power Switch
 
-![InstrumentGroundPowerSwitch](../../img/wso_instrument_ground_power_switch.png)
+![InstrumentGroundPowerSwitch](../../img/wso_instrument_ground_power_switch.jpg)
 
 Power from an external source to the instrument buses (115/200 volt ac, 28 volt
 ac, and 14 volt ac), can be provided by the Instrument Ground Power Switch (if
@@ -44,4 +44,4 @@ generator comes online, it will switch off.
 
 ## Electrics diagram
 
-![manual_electric_system_diagram](../../img/manual_electric_system_diagram.png)
+![manual_electric_system_diagram](../../img/manual_electric_system_diagram.jpg)

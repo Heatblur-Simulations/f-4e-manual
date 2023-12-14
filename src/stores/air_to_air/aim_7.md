@@ -106,7 +106,7 @@ the second actuation.
 
 ## Launch Sequence
 
-![ext_launch_sequence_radar](../../img/ext_launch_seq_radar.png)
+![ext_launch_sequence_radar](../../img/ext_launch_seq_radar.jpg)
 
 The launch sequence for the AIM-7 missile is
 

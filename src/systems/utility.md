@@ -2,7 +2,7 @@
 
 ## Oxygen System
 
-![pilot_oxygen_regulator](../img/pilot_oxygen_regulator.png)
+![pilot_oxygen_regulator](../img/pilot_oxygen_regulator.jpg)
 
 Aircrew breathing oxygen is provided with a 10-liter liquid oxygen bottle. A
 regulator panel is found on the left side in each cockpit- on the console in the
@@ -14,7 +14,7 @@ Oxygen Pressure and Oxygen Quantity gauges found on both regulator panels.
 
 ## Canopies
 
-![ext_canopy_open](../img/ext_canopy_open.png)
+![ext_canopy_open](../img/ext_canopy_open.jpg)
 
 The canopies are controlled independently between the two cockpits; handles for
 standard opening and closing are found on the right side of each cockpit,
@@ -23,11 +23,11 @@ the same relative position. To open normally, the right side handle is pulled to
 the aft position; closing is performed by pushing it forward. Canopy jettison is
 initiated by pulling the emergency handle aft.
 
-![pilot_canopy_handles](../img/pilot_canopy_handle.png)
+![pilot_canopy_handles](../img/pilot_canopy_handle.jpg)
 
 ## Air Refueling System
 
-![f4_ext_air_to_air_refuel](../img/ext_air_to_air_refuel.png)
+![f4_ext_air_to_air_refuel](../img/ext_air_to_air_refuel.jpg)
 
 For air to air refueling, the F-4E uses a receptacle system compatible with high
 pressure USAF-style boom refueling. With this system, fuel can be delivered to
@@ -37,7 +37,7 @@ wing tanks, and, if installed and selected, external tanks.
 
 ### Air Refuel Switch
 
-![pilot_fuel_panel](../img/pilot_fuel_panel.png)
+![pilot_fuel_panel](../img/pilot_fuel_panel.jpg)
 
 Preparation for air refueling is performed by toggling the Air Refuel Switch to
 EXTEND; doing so extends the receptacle, illuminates the receptacle visual
@@ -58,7 +58,7 @@ used to include external tanks in the refueling operation.
 
 ### Ready Light
 
-![pilot_aar_lights](../img/pilot_aar_lights.png)
+![pilot_aar_lights](../img/pilot_aar_lights.jpg)
 
 With the receptacle extended and tanks depressurized, the READY lamp illuminates
 to notify the pilot refueling can begin. The lamp will turn off when the boom is
@@ -73,7 +73,7 @@ continue refueling.
 
 ### Air Refueling Release Button
 
-![pilot_aar_release_button](../img/pilot_aar_release_switch.png)
+![pilot_aar_release_button](../img/pilot_aar_release_switch.jpg)
 
 On the front seat control stick is the Air Refueling Release Button. Its primary
 purpose is to release the receptacle from the boom in the event of a manual
@@ -84,7 +84,7 @@ the DISENGAGED lamp.
 
 ### AIR REFUEL RECPT Circuit Breaker
 
-![wso_air_refuel_recpt_cb](../img/wso_air_refuel_recpt_cb.png)
+![wso_air_refuel_recpt_cb](../img/wso_air_refuel_recpt_cb.jpg)
 
 In the event of a DISENGAGED situation during air refueling, the system is reset
 using the AIR REFUEL RECPT circuit breaker, found on the No 2 circuit breaker
@@ -99,7 +99,7 @@ receptacle retracted.
 
 ## Windshield Rain Removal
 
-![pilot_rain_removal](../img/pilot_rain_removal.png)
+![pilot_rain_removal](../img/pilot_rain_removal.jpg)
 
 To clear precipitation, placing the Rain Removal Switch to ON will direct bleed
 air from the air conditioning system to an external vent below the windshield,

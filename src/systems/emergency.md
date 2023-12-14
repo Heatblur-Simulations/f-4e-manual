@@ -4,14 +4,14 @@
 
 ### Telelight Panel
 
-![pilot_telelight_panel](../img/pilot_telelight_panel.png)
+![pilot_telelight_panel](../img/pilot_telelight_panel.jpg)
 
 The majority of cockpit warning lamps are found on the telelight panel on the
 right sub-panel in the front cockpit. A list of them follows:
 
 ### Master Caution
 
-![pilot_master_caution](../img/pilot_master_caution.png)
+![pilot_master_caution](../img/pilot_master_caution.jpg)
 
 Found in the front cockpit, the MASTER CAUTION provides the pilot with an
 up-front warning of potential hazard to the aircraft. The MASTER CAUTION
@@ -27,7 +27,7 @@ telelight warning, MASTER CAUTION will not illuminate a second time.
 
 ### Warning Light Test Circuit
 
-![pilot_warning_light_test_switch](../img/pilot_warning_light_test_switch.png)
+![pilot_warning_light_test_switch](../img/pilot_warning_light_test_switch.jpg)
 
 Confirmation of bulb function can be performed using the Warning Test Light
 Circuit found on the interior light control panel in both cockpits. These do not
@@ -36,7 +36,7 @@ the lights will illuminate.
 
 ## Engine Fire and Overheat Detector System
 
-![pilot_engine_fire_test_group](../img/pilot_fire_test.png)
+![pilot_engine_fire_test_group](../img/pilot_fire_test.jpg)
 
 On the right upper instrument panel in the front cockpit are four warning lamps-
 two FIRE and two OVRHEAT lights, one for each side. Should a fire be detected in
@@ -57,7 +57,7 @@ the Fire Test Button is pressed, then illuminating when it is released.
 
 ## Ejection Seats
 
-![ext_view_ejection_seat](../img/ext_ejection.png)
+![ext_view_ejection_seat](../img/ext_ejection.jpg)
 
 The Phantom II uses the Martin Baker Mk. H-7 ejection seat in both positions for
 safe aircrew extraction in the event of airframe loss. Triggering ejection using
@@ -80,7 +80,7 @@ initiation, and the pilot one second later.
 
 ### Eject Light
 
-![wso_eject_light](../img/wso_eject_light.png)
+![wso_eject_light](../img/wso_eject_light.jpg)
 
 In the event of loss of intercom power, the pilot can warn the WSO to prepare
 for ejection by pressing the EJECT switch found on the left canopy sill forward
@@ -89,7 +89,7 @@ cockpit indicator panel.
 
 ### Command Selector Valve Handle
 
-![wso_command_selector_valve](../img/wso_command_ejection_select_handle.png)
+![wso_command_selector_valve](../img/wso_command_ejection_select_handle.jpg)
 
 To the left and above the rear cockpit instrument handle is the Command Selector
 Valve Handle. This handle determines the sequence by an ejection initiated from
@@ -102,7 +102,7 @@ All ejections initiated from the front seat are dual ejections.
 
 ## Jettison System
 
-![ext_emergency_jettison](../img/ext_releases.png)
+![ext_emergency_jettison](../img/ext_releases.jpg)
 
 The majority of stores carried by the F-4 can be jettisoned from the aircraft
 while in flight and with the landing gear stowed and doors closed. Jettison does
@@ -110,7 +110,7 @@ not remove pylons, and the AIM-9 Sidewinder is non-jettison-able.
 
 ### External Stores Emergency Release Button
 
-![pilot_external_stores_emergency_release](../img/pilot_emergency_external_release.png)
+![pilot_external_stores_emergency_release](../img/pilot_emergency_external_release.jpg)
 
 Found on the front left cockpit sub-panel, the External Stores Emergency
 Release, also known as the panic button, will release all air to ground
@@ -125,7 +125,7 @@ weight is off wheels.
 
 ### Selective Jettison
 
-![pilot_selective_jettison](../img/pilot_selective_jettison.png)
+![pilot_selective_jettison](../img/pilot_selective_jettison.jpg)
 
 Wing and centerline stores can be jettisoned independently using the Jettison
 Knob in the STORES position, selecting the desired Station Select Buttons to

@@ -1,10 +1,10 @@
 # Flight Director Group
 
-![FDG](../../img/pilot_flight_director_group.png)
+![FDG](../../img/pilot_flight_director_group.jpg)
 
 ## Radar Altimeter
 
-![RadAlt](../../img/RadAlt.png)
+![RadAlt](../../img/RadAlt.jpg)
 
 Terrain relative accurate height information up to 5000 ft, functions to 30
 degrees of bank angle or 35 degrees of pitch. Clockwise rotation of the function
@@ -15,7 +15,7 @@ the function control switch, shows 35
 
 ## Airspeed and Mach Indicator
 
-![MachInd](../../img/MachInd.png)
+![MachInd](../../img/MachInd.jpg)
 
 The combination airspeed and mach number indicator shows airspeed readings below
 200 knots, and include Mach numbers at high speed. The indicator uses a single
@@ -30,7 +30,7 @@ regions can damage them.
 
 ## Angle of Attack Indicator
 
-![AoAInd](../../img/AoAInd.png)
+![AoAInd](../../img/AoAInd.jpg)
 
 Drawing relative wind information from the landing-gear adjacent AoA probe, the
 AoA indicator offers conditional reference for cruise (7.9 units), approach
@@ -46,7 +46,7 @@ indicator.
 
 ## Reference System Selector Switch
 
-![RefSel](../../img/RefSel.png)
+![RefSel](../../img/RefSel.jpg)
 
 Toggles between the inertial navigation set and AN/AJB-7 displacement gyroscope
 for attitude information. When set to PRIM, the inertial navigation set provides
@@ -65,7 +65,7 @@ for manual compass system synchronization (SYNC position)
 
 ## Attitude Director Indicator
 
-![ADI](../../img/ADI.png)
+![ADI](../../img/ADI.jpg)
 
 Includes an attitude sphere, turn indicator, steering bars, miniature aircraft,
 glide-slope pointer, flags, and pitch trim knob. It displays pitch, bank, and
@@ -77,7 +77,7 @@ guidance information during an ILS approach.
 
 ## Horizontal Situation Indicator
 
-![HSI](../../img/HSI.png)
+![HSI](../../img/HSI.jpg)
 
 Consists of a rotating compass card, single and double bar bearing pointers
 numbered 1 and 2 respectively, a range indicator, and a range warning flag.
@@ -88,7 +88,7 @@ display.
 
 ## Altimeter
 
-![Altimeter](../../img/Altim.png)
+![Altimeter](../../img/Altim.jpg)
 
 A counter-pointer style altimeter, with thousandths in the counter window and
 100 foot increments around the face. The altimeter has an absolute range of
@@ -99,14 +99,14 @@ position switch labelled RESET and STBY.
 
 ## Vertical Velocity Indicator
 
-![VVI](../../img/VVI.png)
+![VVI](../../img/VVI.jpg)
 
 Provides rate of climb or descent via the static pressure system referenced in
 thousands of feet per minute.
 
 ## Standby Attitude Indicator
 
-![StbyAtt](../../img/StbyAtt.png)
+![StbyAtt](../../img/StbyAtt.jpg)
 
 The SAI functions independent of the Flight Director Group, providing reasonably
 accurate readings (within six degrees) for 9 minutes if power to the system is
@@ -117,7 +117,7 @@ degrees in dive to prevent gimbal lock.
 
 ## Navigation Function Selector Panel
 
-![Navigation Function Selector Panel](../../img/NavFunct.png)
+![Navigation Function Selector Panel](../../img/NavFunct.jpg)
 
 Controls display presentation on the ADI and HDI based on the selected values on
 the two knobs; to the left is the Bearing/Distance Knob, and to the right the
@@ -139,4 +139,4 @@ the ADI; the OFF position has the switch aligned vertically.
 
 ### Mode Selector Knob Display Functions
 
-![ModeSelectorKnobTable](../../img/ModeSelectorKnobTable.png)
+![ModeSelectorKnobTable](../../img/ModeSelectorKnobTable.jpg)

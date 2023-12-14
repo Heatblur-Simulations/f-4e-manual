@@ -2,27 +2,27 @@
 
 ## Gun Camera Switch
 
-![wso_gun_cam_aal_video_select](../../img/wso_gun_cam_aal_video_select.png)
+![wso_gun_cam_aal_video_select](../../img/wso_gun_cam_aal_video_select.jpg)
 
 Activates recording of gun camera footage.
 
 ## Air to Air Light
 
-![wso_air_to_air_light](../../img/wso_air_to_air_light.png)
+![wso_air_to_air_light](../../img/wso_air_to_air_light.jpg)
 
 Illuminates when CAGE mode activated; pressing the light reverts the radar to
 the original operating condition prior to CAGE entry.
 
 ## Video Select Button
 
-![wso_video_select](../../img/wso_video_select.png)
+![wso_video_select](../../img/wso_video_select.jpg)
 
 Push button that alternates between WEAPON and TDS pod (ASQ-153) television
 video on the radar scope display when in TV mode.
 
 ## AVTR Control
 
-![wso_avtr_controls](../../img/wso_avtr_controls.png)
+![wso_avtr_controls](../../img/wso_avtr_controls.jpg)
 
 Controls the Airborne Video Tape recorder system which records the intercom
 sound, as well as the rear radar screen.
@@ -50,7 +50,7 @@ Lit to indicate the AVTR system currently recording.
 
 ## WSO Emergency Landing Gear Handle
 
-![wso_emergency_handles](../../img/wso_emergency_handles.png)
+![wso_emergency_handles](../../img/wso_emergency_handles.jpg)
 
 Deploys the landing gear using a pair of compressed air bottles; handle cannot
 retract gear, only deploy in an emergency.
@@ -62,7 +62,7 @@ to provide emergency braking. Contains a limited number of applications.
 
 ## APX-80 Control Panel
 
-![apx_80](../../img/apx_80.png)
+![apx_80](../../img/apx_80.jpg)
 
 The AN/APX-80 combines the IFF Interrogator System APX-76 and the Combat-Tree
 system APX-81A. It is used to identify whether an aircraft is friendly or
@@ -136,7 +136,7 @@ F-4E.
 
 ## WSO Oxygen Regulator Panel
 
-![wso_oxygen_regulator_panel](../../img/wso_oxygen_regulator_panel.png)
+![wso_oxygen_regulator_panel](../../img/wso_oxygen_regulator_panel.jpg)
 
 ### Flow Indicator
 
@@ -172,7 +172,7 @@ member.
 
 ## Landing Gear/Flap Indicator Panel
 
-![wso_landing_gear_flap_indicator](../../img/wso_landing_gear_flap_indicator.png)
+![wso_landing_gear_flap_indicator](../../img/wso_landing_gear_flap_indicator.jpg)
 
 Displays current status of landing gear, flaps, and slat position.
 

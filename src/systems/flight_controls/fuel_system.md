@@ -9,7 +9,7 @@ will bring the aircraft total fuel state to just under 20,800 lbs of fuel.
 
 ## Transfer Sequence
 
-![f4_fuel_system](../../img/f4_fuel_system.png)
+![f4_fuel_system](../../img/f4_fuel_system.jpg)
 
 The F-4 carries two internal wing tanks, along with seven fuel cells down the
 length of the fuselage, with cell 1 resting just behind the aft cockpit, and the
@@ -29,7 +29,7 @@ whereas fuel from external tanks are balanced between cells 1, 3, and 5.
 
 ## Internal Wing Transfer Switch
 
-![InternalWingTransfer](../../img/pilot_internal_wing_transfer.png)
+![InternalWingTransfer](../../img/pilot_internal_wing_transfer.jpg)
 
 Should it be necessary, a two position switch is available to turn off transfer
 from the wing internal tanks. Found on the Fuel Control Panel, the Internal Wing
@@ -37,7 +37,7 @@ Transfer Switch can be toggled between NORMAL and STOP TRANS.
 
 ## External Transfer Switch
 
-![ExternalTransferSwitch](../../img/pilot_external_transfer_switch.png)
+![ExternalTransferSwitch](../../img/pilot_external_transfer_switch.jpg)
 
 External tank transfer is controlled by the External Transfer Switch; found on
 the Fuel Control Panel, the switch has three positions: CENTER, OFF, and OUTBD
@@ -48,7 +48,7 @@ same time. If both are selected, the external tanks will take priority.
 
 ## Fuel Boost System
 
-![BoostInd](../../img/BoostInd.png)
+![BoostInd](../../img/BoostInd.jpg)
 
 Flow from Cell 1 to the engines is performed by a pair of boost pumps. The pumps
 are installed at the bottom of the tank to provide fuel in the event of a
@@ -63,7 +63,7 @@ respective Pressure Indicator.
 
 ## Fuel Level Low Warning Light
 
-![pilot_fuel_low](../../img/pilot_fuel_level_low.png)
+![pilot_fuel_low](../../img/pilot_fuel_level_low.jpg)
 
 When the sensor in Cell 2 detects a fuel weight of less than 1650 ±200 lbs, the
 FUEL LEVEL LOW warning will illuminate on the front cockpit telelight panel.
@@ -72,7 +72,7 @@ be indicative of a transfer failure.
 
 ## External Tanks Fuel Lights
 
-![pilot_external_fuel_tanks](../../img/pilot_external_tanks_fuel_lights.png)
+![pilot_external_fuel_tanks](../../img/pilot_external_tanks_fuel_lights.jpg)
 
 Any time an external fuel tank is detected to not be flowing fuel into the
 fuselage, a respective light will illuminate on the telelight panel- L EXT FUEL,
@@ -90,7 +90,7 @@ bow, will light.
 
 ## Internal Wing Fuel Dump System
 
-![InternalWingFuelDump](../../img/pilot_internal_wing_dump_switch.png)
+![InternalWingFuelDump](../../img/pilot_internal_wing_dump_switch.jpg)
 
 Fuel from the wings can be dumped directly, rather than requiring transfer into
 the fuselage, using the Wing Fuel Dump Switch. This switch, when selected to

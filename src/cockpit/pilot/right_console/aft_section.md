@@ -2,7 +2,7 @@
 
 ## Compass Control Panel
 
-![CompassCtl](../../../img/CompassCtl.png)
+![CompassCtl](../../../img/CompassCtl.jpg)
 
 Manages essential controls for the proper operation of the AJB-7 azimuth system.
 Essential for accurate azimuth output to instruments like ADI, HSI, BDHI, but
@@ -41,7 +41,7 @@ reference system.
 
 ## Exterior Lights Control Panel
 
-![ExtLights](../../../img/ExtLights.png)
+![ExtLights](../../../img/ExtLights.jpg)
 
 This panel contains controls connected to most of the exterior lighting:
 
@@ -93,7 +93,7 @@ brightness to a low brightness and back.
 
 ## Airborne Video Tape Recorder
 
-![Airborne Video Tape Recorder](../../../img/pilot_avtr.png)
+![Airborne Video Tape Recorder](../../../img/pilot_avtr.jpg)
 
 The AVTR system is installed in the rear section to the right of the seat. It is
 primarily controlled by the WSO and records the intercom sound, as well as the
@@ -115,7 +115,7 @@ In DCS, footage is saved in the users Saved Games folder, for example:
 
 ### Seat Position
 
-![pilot_seat_switch](../../../img/pilot_seat_switch.png)
+![pilot_seat_switch](../../../img/pilot_seat_switch.jpg)
 
 The vertical position of the seat can be changed in either direction for about
 5cm using this spring-loaded switch.

@@ -22,7 +22,7 @@ the telelight panel. This does not activate the Master Caution.
 
 ## Hydraulic Pressure Indicators
 
-![HydPress](../../img/HydPress.png)
+![HydPress](../../img/HydPress.jpg)
 
 On the pedestal panel in the front cockpit is a pair of PSI indicators, one for
 the PC systems and the other for the Utility system. The PC system gauge has two
@@ -31,7 +31,7 @@ is 3000 PSI ±250 PSI.
 
 ## Hydraulic Systems Indicator Lights
 
-![pilot_hydraulic_system_lights](../../img/pilot_hydraulic_systems_indicator_lights.png)
+![pilot_hydraulic_system_lights](../../img/pilot_hydraulic_systems_indicator_lights.jpg)
 
 In the event of a pressure loss on PC-1, PC-2, or the Utility system below 1500
 PSI, or a detected outright pump failure, CHK HYD GAGES will illuminate on the
@@ -53,4 +53,4 @@ they will reset momentarily.
 
 ### Hydraulics diagram
 
-![manual_hydraulics_diagram](../../img/manual_hydraulics_diagram.png)
+![manual_hydraulics_diagram](../../img/manual_hydraulics_diagram.jpg)

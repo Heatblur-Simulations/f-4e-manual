@@ -2,7 +2,7 @@
 
 ## WSO Cockpit Lighting Control Panel
 
-![wso_cockpit_lighting_panel](../../../img/wso_cockpit_lighting_panel.png)
+![wso_cockpit_lighting_panel](../../../img/wso_cockpit_lighting_panel.jpg)
 
 The Cockpit Lighting Control Panel provides control of all panel edge lighting,
 flight instrument panel lighting, the console floodlights, the white floodlights
@@ -57,7 +57,7 @@ The STBY COMP switch illuminates the light for the Standby Compass.
 
 ## Seat Position
 
-![wso_seat_switch](../../../img/wso_seat_switch.png)
+![wso_seat_switch](../../../img/wso_seat_switch.jpg)
 
 The vertical position of the seat can be changed in either direction for about
 5cm using this spring-loaded switch.

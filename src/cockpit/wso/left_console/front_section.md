@@ -2,7 +2,7 @@
 
 ## Intercom Control Panel
 
-![wso_intercom_control](../../../img/wso_intercom_control.png)
+![wso_intercom_control](../../../img/wso_intercom_control.jpg)
 
 ### ICS Volume Control Knob
 
@@ -29,7 +29,7 @@ Determines current amplifier for intercom function.
 
 ## Control Monitor Panel
 
-![wso_control_monitor_panel](../../../img/wso_control_monitor_panel.png)
+![wso_control_monitor_panel](../../../img/wso_control_monitor_panel.jpg)
 
 ### Cords Light
 

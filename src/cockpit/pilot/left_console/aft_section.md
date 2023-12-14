@@ -10,7 +10,7 @@ is down and flush with panel recess.
 
 ## Intercom System Control Panel
 
-![PilIntercom](../../../img/PilIntercom.png)
+![PilIntercom](../../../img/PilIntercom.jpg)
 
 ### Pilot ICS Volume Control Knob
 
@@ -37,7 +37,7 @@ Determines current amplifier for intercom function.
 
 ## AN/ALE-40 Programmer
 
-![AN/ALE-40 Panel](../../../img/ANALE40Prg.png)
+![AN/ALE-40 Panel](../../../img/ANALE40Prg.jpg)
 
 ### Chaff Burst Count
 
@@ -81,6 +81,6 @@ Illuminates when the Flares select switch is in the Normal position and either
 
 ## Anti-G Suit Control Valve
 
-![pilot_anti_g_suit](../../../img/pilot_anti_g_valve.png)
+![pilot_anti_g_suit](../../../img/pilot_anti_g_valve.jpg)
 
 TODO

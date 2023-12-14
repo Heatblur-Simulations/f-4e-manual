@@ -1,6 +1,6 @@
 # Left Console
 
-![LeftCons](../../../img/pilot_left_console_overview.png)
+![LeftCons](../../../img/pilot_left_console_overview.jpg)
 
 The left console is further divided into 4 sections.
 

@@ -8,7 +8,7 @@ error probability (CEP).
 
 ## Inertial Measurement Platform
 
-![wso_inertial_system_panel](../../img/wso_ins_control_panel.png)
+![wso_inertial_system_panel](../../img/wso_ins_control_panel.jpg)
 
 The system uses a four gimbal (outer roll, pitch, inner roll, azimuth) inertial
 navigating platform, with the dual roll gimbals providing redundancy to
@@ -52,7 +52,7 @@ HSI, and FDC. Drift correction angle is also provided to the radar and LCOSS.
 
 ## Alignment Options
 
-![manual_alignment_options](../../img/manual_ins_alignments.png)
+![manual_alignment_options](../../img/manual_ins_alignments.jpg)
 
 The LN-12 has three modes of alignment on aircraft start: BATH, Heading Memory
 (HDG MEM), and Gyrocompass alignment. Prior to performing any alignment, STBY
@@ -146,7 +146,7 @@ navigation purposes.
 
 ## Navigation Computer
 
-![wso_navigation_computer](../../img/wso_nav_computer.png)
+![wso_navigation_computer](../../img/wso_nav_computer.jpg)
 
 The ASN-46A Nav Computer is used for general navigation and tactical route
 planning. The system contains both a great circle and rhumb line computational

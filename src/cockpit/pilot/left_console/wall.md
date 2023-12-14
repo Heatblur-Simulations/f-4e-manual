@@ -2,14 +2,14 @@
 
 ## SAI Panel
 
-![sai_panel](../../../img/sai_panel.png)
+![sai_panel](../../../img/sai_panel.jpg)
 
 The panel provides a circuit breaker and a knob to control the brightness for
 the Standby Attitude Indicator.
 
 ## Eject Light/Switch
 
-![PilEjectLight](../../../img/pilot_eject_light.png)
+![PilEjectLight](../../../img/pilot_eject_light.jpg)
 
 Pressed by the pilot in an emergency condition requiring ejection from the
 aircraft, which illuminates the EJECT lamp in the rear cockpit warning the WSO
@@ -20,7 +20,7 @@ Pilot for ejection.
 
 ## Slats/Flaps Control Panel
 
-![FlapSlatPan](../../../img/FlapSlatPan.png)
+![FlapSlatPan](../../../img/FlapSlatPan.jpg)
 
 A three position switch (NORM, OUT, OUT AND DOWN) to the rear of the panel
 provides normal operation functions of the Slats/Flaps System. These functions
@@ -42,7 +42,7 @@ are relative to landing gear position, and are noted as follows:
 | OUT          | Slats and flaps extend.                     |
 | OUT AND DOWN | Slats and flaps extend.                     |
 
-![SlatsRelative](../../../img/SlatsRelative.png)
+![SlatsRelative](../../../img/SlatsRelative.jpg)
 
 ## Emergency Slats/Flaps Handle
 
@@ -53,20 +53,20 @@ event of control system failure.
 
 ## Canopy Control Switch
 
-![PilCanSel](../../../img/PilCanSel.png)
+![PilCanSel](../../../img/PilCanSel.jpg)
 
 Used to open (aft) or close (forward) the pilot canopy.
 
 ## Extra Picture Switch
 
-![ExtraPic](../../../img/ExtraPic.png)
+![ExtraPic](../../../img/ExtraPic.jpg)
 
 Provision to operate the KB-18 gun camera without the release of weapons, the
 Extra Picture switch starts the camera at the selected rate.
 
 ## Gun Camera Switch
 
-![Gun Camera Switch](../../../img/GunCamSwtch.png)
+![Gun Camera Switch](../../../img/GunCamSwtch.jpg)
 
 Activates the gun camera, which will run until the switch is placed to off, or
 actuation of bomb button or trigger position 2 once the pre-programmed overrun
@@ -74,7 +74,7 @@ time is completed.
 
 ## Slats Override Switch
 
-![Slats Override Switch](../../../img/SlatsOvrd.png)
+![Slats Override Switch](../../../img/SlatsOvrd.jpg)
 
 Two-position guarded switch with IN and NORM positions. In NORM, slats operate
 normally as a function of the slats flaps switch or AoA. When IN selected, slats
@@ -83,7 +83,7 @@ telelight panel and Master Caution lamp.
 
 ## Armament Safety Override Switch
 
-![Armament Safety Override Switch](../../../img/ArmOvrd.png)
+![Armament Safety Override Switch](../../../img/ArmOvrd.jpg)
 
 If pressed and the landing gear handle is placed down, overrides the armament
 safety.

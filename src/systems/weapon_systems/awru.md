@@ -1,6 +1,6 @@
 # Aircraft Weapons Release Unit (AWRU)
 
-![pilot_awru](../../img/pilot_awru.png)
+![pilot_awru](../../img/pilot_awru.jpg)
 
 Used in the BOMBS and RKTS & DISP weapon modes, the AWRU provides interval and
 quantity controls for munition delivery. The AWRU has both a manual and

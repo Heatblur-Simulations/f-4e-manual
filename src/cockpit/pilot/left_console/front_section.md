@@ -2,7 +2,7 @@
 
 ## Left Utility Panel
 
-![LUtil](../../../img/LUtil.png)
+![LUtil](../../../img/LUtil.jpg)
 
 ### Anti-Skid
 
@@ -14,7 +14,7 @@ This system is not installed on this variant of the F-4E.
 
 ## Oxygen Control Panel
 
-![PilOxy](../../../img/PilOxy.png)
+![PilOxy](../../../img/PilOxy.jpg)
 
 ### Flow Indicator
 
@@ -50,14 +50,14 @@ member.
 
 ## Forward Hand Control
 
-![PilAGM](../../../img/PilAGM.png)
+![PilAGM](../../../img/PilAGM.jpg)
 
 Small joystick used to finalize the positioning of a target in the seeker gate
 of an AGM prior to launch.
 
 ## Outboard Engine Control Panel
 
-![PilOutEng](../../../img/PilOutEng.png)
+![PilOutEng](../../../img/PilOutEng.jpg)
 
 ### Engine Anti-Icing Switch
 
@@ -90,7 +90,7 @@ The switch is a leftover and not connected.
 
 ## Inboard Engine Control Panel
 
-![PilInbEng](../../../img/PilInbEng.png)
+![PilInbEng](../../../img/PilInbEng.jpg)
 
 The Inboard Engine Control Panel carries the following controls:
 

@@ -15,4 +15,4 @@
 | Maximum Speed          | Mach 2.23; 1,280 kn (2,370 km/h) |
 | Range (Ferry)          | 1,457 nmi (2,699 km)             |
 
-![f_4_assembly](../img/f_4_assembly.png)
+![f_4_assembly](../img/f_4_assembly.jpg)

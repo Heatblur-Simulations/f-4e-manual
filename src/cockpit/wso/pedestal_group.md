@@ -1,6 +1,6 @@
 # Pedestal Group
 
-![wso_dscg_and_pedestal_panel](../../img/wso_dscg_and_pedestal_panel.png)
+![wso_dscg_and_pedestal_panel](../../img/wso_dscg_and_pedestal_panel.jpg)
 
 ## Digital Scan Converter Group (DSCG)
 
@@ -61,7 +61,7 @@ Sets the current mode of the DSCG components.
 
 ## Target Designator Control Set
 
-![target_des_panel](../../img/target_des_panel.png)
+![target_des_panel](../../img/target_des_panel.jpg)
 
 This is the main panel to interact with the Pave Spike Targeting Pod.
 
@@ -172,7 +172,7 @@ disintegrated by other means.
 
 ## Rudder Pedal Adjustment Crank
 
-![wso_pedal_crank](../../img/wso_pedal_crank.png)
+![wso_pedal_crank](../../img/wso_pedal_crank.jpg)
 
 Used to adjust ergonomic position of the rudder pedals forward or back from the
 WSO.

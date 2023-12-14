@@ -2,7 +2,7 @@
 
 ## Master Caution Reset
 
-![MCRst](../../../img/MCRst.png)
+![MCRst](../../../img/MCRst.jpg)
 
 Used to extinguish telelight panel warnings and the Master Caution warning lamp
 once the necessary action has been taken. In the event a fault has not been
@@ -11,7 +11,7 @@ the respective warning off.
 
 ## TACAN Control Panel
 
-![FrontTCN](../../../img/FrontTCN.png)
+![FrontTCN](../../../img/FrontTCN.jpg)
 
 The TACAN Control Panel is used to enter the desired TACAN channel, mode, and
 audible volume for the monitoring of said channel by the aircrew. The panel is
@@ -47,7 +47,7 @@ above or below the cooperating aircraft, but on the same range- X or Y.
 
 ## Communication Control Panel
 
-![CCP](../../../img/CCP.png)
+![CCP](../../../img/CCP.jpg)
 
 The Communication Control Panel provides selection and mode of the UHF radio in
 the aircraft. The panel is duplicated in both cockpits, and control over the
@@ -122,7 +122,7 @@ channel.
 
 ## Emergency Vent Handle
 
-![Emergency Vent Handle](../../../img/EmergVent.png)
+![Emergency Vent Handle](../../../img/EmergVent.jpg)
 
 A plug that can be pulled to release cockpit pressure. Putting it back in will
 seal the cabin again.
@@ -132,18 +132,18 @@ abnormal values. Descend to safe altitudes before activating.
 
 ## Utility Panel (Right)
 
-![PilUtil](../../../img/PilUtil.png)
+![PilUtil](../../../img/PilUtil.jpg)
 
 ## Defog/Foot Heat Lever
 
-![Defog](../../../img/Defog.png)
+![Defog](../../../img/Defog.jpg)
 
 Provides pilot selectable volume of warm air to the windscreen or footwell
 recesses for comfort or visibility.
 
 ## Generator Control Switches
 
-![GenCtl](../../../img/GenCtl.png)
+![GenCtl](../../../img/GenCtl.jpg)
 
 Control of each engine's respective electrical generator is provided by an
 individual switch.

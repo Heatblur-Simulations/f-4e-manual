@@ -1,6 +1,6 @@
 # Pneumatics
 
-![Pneumatics](../../img/Pneum.png)
+![Pneumatics](../../img/Pneum.jpg)
 
 The pneumatic system provides power for the canopies, as well as emergency
 operation for the landing gear and slats flaps systems. A Pneumatic Pressure
@@ -9,4 +9,4 @@ indicates manifold pressure.
 
 ## Pneumatics diagram
 
-![manual_pneumatic_diagram](../../img/manual_pneumatic_diagram.png)
+![manual_pneumatic_diagram](../../img/manual_pneumatic_diagram.jpg)

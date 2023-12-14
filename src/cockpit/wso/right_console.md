@@ -2,7 +2,7 @@
 
 ## Laser Coder Control
 
-![laser_coder_control](../../img/laser_coder_control.png)
+![laser_coder_control](../../img/laser_coder_control.jpg)
 
 The WSO can set the laser code used by the targeting pod by using the four small
 push-buttons on this panel.
@@ -29,7 +29,7 @@ the code is invalid.
 
 ## Inertial Navigation Control Panel
 
-![wso_ins_control_panel](../../img/wso_ins_control_panel.png)
+![wso_ins_control_panel](../../img/wso_ins_control_panel.jpg)
 
 The Inertial Navigation Control Panel provides the rear pilot mode selection and
 system alignment command selection.
@@ -67,7 +67,7 @@ alignment.
 
 ## Weapon Delivery Panel
 
-![wso_weapon_delivery_panel](../../img/wso_weapon_delivery_panel.png)
+![wso_weapon_delivery_panel](../../img/wso_weapon_delivery_panel.jpg)
 
 ### ACTIVATE Switch
 
@@ -91,7 +91,7 @@ range.
 
 ## Weapon Release Computer Set (WRCS) Panel
 
-![wso_weapon_release_computer_set_panel](../../img/wso_weapon_release_computer_set_panel.png)
+![wso_weapon_release_computer_set_panel](../../img/wso_weapon_release_computer_set_panel.jpg)
 
 ### Target Distance Controls
 
@@ -150,7 +150,7 @@ function. The result will illuminate in the NO GO/GO placard.
 
 ## Volume Panel
 
-![wso_volume_panel](../../img/wso_volume_panel.png)
+![wso_volume_panel](../../img/wso_volume_panel.jpg)
 
 A small panel to the right of the antenna hand control stick contains two
 combined knobs to control volume.
@@ -171,7 +171,7 @@ is always audible in dangerous situations.
 
 ## Cursor Control Panel
 
-![wso_cursor_control_panel](../../img/wso_cursor_control_panel.png)
+![wso_cursor_control_panel](../../img/wso_cursor_control_panel.jpg)
 
 Used for WRCS radar bombing mode target entry. Functions only with MAP-PPI mode
 selected and applicable bombing mode selected on the Delivery Mode Knob.
@@ -219,7 +219,7 @@ Track cursors defines the RIP when the Freeze button is pressed.
 
 ## Nuclear Stores Consent Switch
 
-![wso_nuclear_stores_consent_switch](../../img/wso_nuclear_stores_consent_switch.png)
+![wso_nuclear_stores_consent_switch](../../img/wso_nuclear_stores_consent_switch.jpg)
 
 Used to arm nuclear stores. In the SAFE position, release is inhibited. REL
 allows releasing stores unarmed, while REL/ARM allows dropping nuclear stores
@@ -227,7 +227,7 @@ armed.
 
 ## Aft Cockpit Lighting Control Panel
 
-![wso_cockpit_lighting_panel](../../img/wso_cockpit_lighting_panel.png)
+![wso_cockpit_lighting_panel](../../img/wso_cockpit_lighting_panel.jpg)
 
 The Cockpit Lighting Control Panel provides control of all panel edge lighting,
 flight instrument panel lighting, the console floodlights, the white floodlights
@@ -282,7 +282,7 @@ The STBY COMP switch illuminates the light for the Standby Compass.
 
 ## Right Wall
 
-![wso_right_wall](../../img/wso_right_wall.png)
+![wso_right_wall](../../img/wso_right_wall.jpg)
 
 ### Battery Bypass
 
@@ -307,7 +307,7 @@ The system was never installed on this variant of the F-4E.
 
 ## Seat Position
 
-![wso_seat_switch](../../img/wso_seat_switch.png)
+![wso_seat_switch](../../img/wso_seat_switch.jpg)
 
 The vertical position of the seat can be changed in either direction for about
 5cm using this spring-loaded switch.

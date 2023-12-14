@@ -10,7 +10,7 @@ antenna.
 
 ## Comm Control Panel
 
-![pilot_uhf_control_panel](../../img/pilot_uhf_panel.png)
+![pilot_uhf_control_panel](../../img/pilot_uhf_panel.jpg)
 
 Two Comm Control Panels are installed, found on the right console in the front
 cockpit, and on the left console in the rear cockpit. These provide management
@@ -18,7 +18,7 @@ of the radio in either seat, with selectable priority.
 
 ### Comm Command Button and Light
 
-![pilot_uhf_command_and_light](../../img/pilot_uhf_command_and_light.png)
+![pilot_uhf_command_and_light](../../img/pilot_uhf_command_and_light.jpg)
 
 Control authority of the UHF radio is set by the COMM CMD button. A green light
 illuminates in the cockpit with control next to the button. Either cockpit can

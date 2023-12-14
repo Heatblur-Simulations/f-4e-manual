@@ -5,7 +5,7 @@
 After turning on the system, the pod can be un-stowed by pressing the STOW push
 button.
 
-![stow_lamp](../../../img/stow_lamp.png)
+![stow_lamp](../../../img/stow_lamp.jpg)
 
 When un-stowed, the pod moves according to the current selections and
 automatically goes into the WIDE FOV.
@@ -14,7 +14,7 @@ In the stowed position, the camera is rotated upwards and a cover is moved in
 front of it. This protects the camera from stones and other hazards during taxi,
 takeoff or low level flight.
 
-![pave_spike_stowed](../../../img/pave_spike_stowed.png)
+![pave_spike_stowed](../../../img/pave_spike_stowed.jpg)
 
 The stow-procedure takes about 5 seconds, with the light indicating the current
 status.
@@ -32,7 +32,7 @@ affect other properties, such as movement speed and similar.
 The targeting pod has a cooling system installed in the rear section, which
 automatically cools the pod by external airflow.
 
-![pave_spike_cooling](../../../img/pave_spike_cooling.png)
+![pave_spike_cooling](../../../img/pave_spike_cooling.jpg)
 
 In general, the system is capable of keeping the pods temperature within limits
 during all normal operation.
@@ -40,7 +40,7 @@ during all normal operation.
 However, if the temperature gets out of control, the Overheat lamp will
 illuminate.
 
-![overheat_lamp](../../../img/overheat_lamp.png)
+![overheat_lamp](../../../img/overheat_lamp.jpg)
 
 In this case, make sure to turn off the pod immediately and give it some time to
 cool down first. Ignoring the lamp will cause parts of the pod to melt, damaging
@@ -49,7 +49,7 @@ it irreparably.
 A broken pod is generally indicated by the MALF lamp going on and the display
 being all black.
 
-![pave_spike_melted](../../../img/pave_spike_melted.png)
+![pave_spike_melted](../../../img/pave_spike_melted.jpg)
 
 To prolong use of the pod and prevent overheating, limit slow and low-level
 flight, as well as continuous use of the laser. As a rule-of-thumb, do not use
@@ -74,7 +74,7 @@ illuminated.
 All lights on the Target Designator Set Control illuminate with full brightness.
 The pod does not need to be powered up for this test.
 
-![pave_spike_self_test](../../../img/pave_spike_self_test.png)
+![pave_spike_self_test](../../../img/pave_spike_self_test.jpg)
 
 GO/MALF do not indicate test results in this mode.
 
@@ -113,7 +113,7 @@ Once the pod has reached the test position, the WSO must press and hold the
 Reject/Override button to start firing the laser. The laser stops firing when
 the button is released.
 
-![reject_override_button](../../../img/reject_override_button.png)
+![reject_override_button](../../../img/reject_override_button.jpg)
 
 When the laser fires, a 5 second test program starts, with the sensor measuring
 the laser energy. After the 5 second test, either GO or MALF illuminate to
@@ -122,7 +122,7 @@ indicate whether the energy level was above the required minimum.
 To pilot can assist in telling the WSO that the test position has been reached,
 as indicated by the Azimuth-Elevation Indicator.
 
-![pave_spike_bit_3_az_el](../../../img/pave_spike_bit_3_az_el.png)
+![pave_spike_bit_3_az_el](../../../img/pave_spike_bit_3_az_el.jpg)
 
 ### Bit 4
 
@@ -130,7 +130,7 @@ The system tests the ranging computation by feeding a simulated laser slant
 range of 2100 ft (±200). The pilot can confirm this using the Range Indicator
 readout.
 
-![pave_spike_bit_4_range](../../../img/pave_spike_bit_4_range.png)
+![pave_spike_bit_4_range](../../../img/pave_spike_bit_4_range.jpg)
 
 After about 8 to 14 seconds, the test is finished and either GO or MALF is lit.
 
@@ -145,7 +145,7 @@ TCTO 518, known as the Smart-Track upgrade, aims at removing the requirement to
 press the Reject/Override button to force the laser measured slant range in
 situations in which the computed slant range was usually too inaccurate.
 
-![reject_override_button](../../../img/reject_override_button.png)
+![reject_override_button](../../../img/reject_override_button.jpg)
 
 With the upgrade, the system will automatically accept the laser slant range
 whenever the pods elevation gimbal is above -7.5 degrees. I.e. in shallow

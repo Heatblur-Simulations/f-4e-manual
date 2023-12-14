@@ -9,7 +9,7 @@ front cockpit.
 
 ## Nose/Tail ARM Switch
 
-![pilot_nose_tail_arm](../../img/pilot_nose_tail_arm.png)
+![pilot_nose_tail_arm](../../img/pilot_nose_tail_arm.jpg)
 
 Beginning from the top of the panel, the four way Nose/Tail ARM switch selects
 the solenoids for arming wire capture on MERs and TERs, which then arm the fuzes
@@ -37,11 +37,11 @@ RKTS and DISP bypass empty stations automatically.
 
 ## Station Select Buttons
 
-![pilot_station_select_buttons](../../img/pilot_station_select_buttons.png)
+![pilot_station_select_buttons](../../img/pilot_station_select_buttons.jpg)
 
 ## Mode Selection - Delivery Mode Knob
 
-![pilot_delivery_mode_knob](../../img/pilot_delivery_mode_knob.png)
+![pilot_delivery_mode_knob](../../img/pilot_delivery_mode_knob.jpg)
 
 Release mode is set using the Delivery Mode Knob. Values to the left of OFF
 employ the AN/AJB-7 Attitude Reference and Combing Computer
@@ -73,7 +73,7 @@ The values, clockwise from the left, are as follows:
 
 ## Weapon Selector Knob
 
-![pilot_weapon_selector_knob](../../img/pilot_weapon_selector_knob.png)
+![pilot_weapon_selector_knob](../../img/pilot_weapon_selector_knob.jpg)
 
 The Weapon Selector Knob is used to designate the type of weapon to be used
 
@@ -90,7 +90,7 @@ The Weapon Selector Knob is used to designate the type of weapon to be used
 
 ## Centerline Tank Aboard Light
 
-![pilot_centerline_tank_aboard](../../img/pilot_centerline_tank_aboard.png)
+![pilot_centerline_tank_aboard](../../img/pilot_centerline_tank_aboard.jpg)
 
 The [forward AIM-7 missiles](https://heatblur-simulations.github.io/f-4e-manual/stores/air_to_air/aim_7.html)
 can be
