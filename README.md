@@ -51,5 +51,3 @@ the PDF will be created in `book/pdf`.
 The project is automatically configured via a CI/CD to build and publish any
 change to `master` to a GH-Pages branch called `html`. GitHub will automatically
 publish the website on <https://heatblur-simulations.github.io/f-4e-manual/>.
-
-TODO
