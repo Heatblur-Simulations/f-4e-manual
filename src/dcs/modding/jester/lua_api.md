@@ -437,4 +437,4 @@ end
 
 Jester provides two types of user interfaces. A wheel with selectable options
 and a dialog with questions and selectable answers that are shown on demand. See
-[Wheel UI](wheel_ui.html) and [Dialog UI](dialog_ui.html) for more.
+[Wheel UI](wheel_ui.md) and [Dialog UI](dialog_ui.md) for more.
