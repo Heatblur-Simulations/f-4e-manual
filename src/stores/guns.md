@@ -86,23 +86,18 @@ a momentary delay of one to two seconds prior to being able to fire the pod
 again.
 
 Activation of the SUU pods are performed by selecting their respective [Station
-Select buttons](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#station-select-buttons),
-and placing
-the [Delivery Mode knob](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#delivery-mode-knob)
-in OFF or Direct.
-[The Weapon Selector knob](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#weapon-selector-knob)
+Select buttons](../cockpit/pilot/weapon_management.md#station-select-buttons),
+and placing the [Delivery Mode knob](../cockpit/pilot/weapon_management.md#delivery-mode-knob)
+in OFF or
+Direct. [The Weapon Selector knob](../cockpit/pilot/weapon_management.md#weapon-selector-knob)
 can be in any position other than TV or ARM, unless CAGE mode is
-activated. The
-desired [Auto Clear setting](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/pedestal_group.html#auto-clear-switch)
-should be selected, and [Master
-Arm](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#master-arm-switch)
-set
-to ON to activate the pod. On the SUU-16, the Master Arm activation deploys the
+activated. The desired [Auto Clear setting](../cockpit/pilot/pedestal_group.md#auto-clear-switch)
+should be selected, and [Master Arm](../cockpit/pilot/weapon_management.md#master-arm-switch)
+set to ON to activate the pod. On the SUU-16, the Master Arm activation deploys the
 ram air turbine.
 
 Installed, the guns are boresight along the Fuselage Reference Line. Thus,
-with
-the [optical sight](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/dcsg_controls.html#sight-mode-knob)
+with the [optical sight](../cockpit/pilot/dcsg_controls.md#sight-mode-knob)
 in air to air mode, the rounds will fall in accordance
 with reticle center, just as the main cannon- only with the natural offset of
 their respective pylon position, thus allowing for effective natural gunnery, if
@@ -112,10 +107,9 @@ reticle depression schedule as the internal cannon, again, with their respective
 offsets from centerline and CEP increase.
 
 To safe the gun pods after combat, prior to deactivating [Master
-Arm](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#master-arm-switch),
-the [Auto Clear](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/pedestal_group.html#auto-clear-switch)
+Arm](../cockpit/pilot/weapon_management.md#master-arm-switch),
+the [Auto Clear](../cockpit/pilot/pedestal_group.md#auto-clear-switch)
 switch should be placed into the Auto Clear position, the trigger squeezed
 momentarily, and the respective [Station
-Select buttons](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#station-select-buttons)
-pushed to off. On the
-SUU-16, this will close the ram air turbine.
+Select buttons](../cockpit/pilot/weapon_management.md#station-select-buttons)
+pushed to off. On the SUU-16, this will close the ram air turbine.
