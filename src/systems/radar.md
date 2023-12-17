@@ -114,7 +114,7 @@ adjust the receiver gain for increased return visual definition, improving clari
 of the scopes during search routines. Further, when using MAP PPI, BEACON PPI, and AIR-GRD, their
 command of the STC circuit controls how the receiver's gain applies as a matter of range, which
 drives image intensity in the lower part of the scope. Gain knobs do not have an effect on the radar
-picture when a lockon exists. 
+picture when a lockon exists.
 
 ### Track
 
