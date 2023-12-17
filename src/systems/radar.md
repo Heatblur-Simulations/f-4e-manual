@@ -10,7 +10,8 @@ The primary conversion from the APQ-109 to APQ-120 included a reduction in the n
 replacable units in the nose, as well as the reduction in their size; whereas the -109 had been a
 hybrid in its movement towards solid state hardare (primarily in the low voltage processing
 sections), the 120 was a fully solid-state system. While this update reduced the space overhead and
-weight for the system, the modification of the F-4 nose to include the M61 cannon required a
+weight for the system, the modification of the F-4 nose to include
+the [M61 cannon](../stores/guns.md#internal-cannon-m61a1-vulcan) required a
 reduction in antenna size, causing a marginal decrease in overall detection range. However, when
 taken with the increase in system reliability and reduced maintenance, the tradeoff was considered
 acceptable.
@@ -65,7 +66,7 @@ value on the DSCG display in the upper left.
 The WSO is afforded direct control of the APQ-120's waveform polarization at the antenna feedhorn by
 using the Polar Switch. The default setting is LIN (Linear); in this setting, the waveform is
 transmitted in a linear alignment to the feedhorn, oriented vertically. This is also the default
-setting for employment of the AIM-7 Sparrow.
+setting for employment of the [AIM-7 Sparrow](../stores/air_to_air/aim_7.md).
 
 Also available are a pair of Circular polarization options, CIR 1 (clockwise) and CIR 2 (
 counter-clockwise). Circular polarization is provided as it is less susceptible to
@@ -92,7 +93,8 @@ revert to a 1 bar scan.
 
 ### Aspect
 
-Using the Aspect knob the WSO can provide an AIM-7 with a simulated Doppler signal rather than the
+Using the Aspect knob the WSO can provide an [AIM-7](../stores/air_to_air/aim_7.md) with a simulated
+Doppler signal rather than the
 actual return signal to set the the desired target speedgate for the missile. Once a Sparrow has
 been tuned, the NOSE, TAIL, FWD, and AFT options may be applied to set the speedgate with respect to
 the expected target Doppler for the intercept. Once launched the speedgate unlocks and sweeps the
@@ -303,11 +305,14 @@ steering and aspect indications will be shown on the display. At this time, the 
 as necessary, and the radar will attempt to retain the lock out to its antenna gimbal limits.
 
 In the event lockon is not achieved, the WSO can apply an aspect instruction to the current priority
-AIM-7 and perform a launch against the simulated Doppler applied to the missile guidance circuit.
+[AIM-7](../stores/air_to_air/aim_7.md) and perform a launch against the simulated Doppler applied to
+the missile guidance circuit.
 
 ### CAGE Mode
 
-In the event that an AIM-7, AIM-9, or M61A1 must be employed against an airborne target with the
+In the event that an [AIM-7](../stores/air_to_air/aim_7.md), [AIM-9](../stores/air_to_air/aim_9.md),
+or [M61A1](../stores/guns.md#internal-cannon-m61a1-vulcan) must be employed against an airborne
+target with the
 sight in A/G mode (for example, the flight is bounced by opposing aircraft), the optical sight
 reticle can immediately be slewed to the Radar Boresight Line using the Cage Button, found on the
 inboard (right) throttle handle. Cage mode commands the radar into BST mode with a five mile range,
@@ -340,19 +345,14 @@ pressed on either stick grip to return the radar back to the search pattern.
 
 In CAA mode, the radar’s search pattern can be shifted left or right utilizing the Pinky Switch.
 While this actuation will change the illuminated weapon indicated on the Head Up Display, the actual
-selected weapon from the point of Cage mode entry does not change.
+selected weapon from the point of Cage mode entry does not change:
 
-Guns
-
-Radar Focus Left
-
-Heat
-
-Radar Focus Center
-
-Radar
-
-Radar Focus Right
+- Guns
+- Radar Focus Left
+- Heat
+- Radar Focus Center
+- Radar
+- Radar Focus Right
 
 To exit CAA, the pilot can select position B on the Weapon Select Knob, or the WSO can push the Air
 to Air button. Should a radar lock be in place at the time of mode exit, it will be retained.
@@ -413,7 +413,7 @@ full-action. Once the ASE circle is shown, full-action can be released.
 
 ### BEACON Position
 
-beacon mode.jpg
+![manual_beacon_mode](../img/manual_radar_beacon_mode.jpg#)
 
 BEACON may be used with any Display Knob position other than VI, as desired.
 
@@ -431,7 +431,8 @@ distance to the aircraft, is the actual position of the beacon.
 The TV Radar Mode setting is is not used on DSCG aircraft; this is superceded by the TV display
 option on the DSCG panel itself, and the TV display option in the pilot's cockpit.
 
-Note: AIM-7 missiles detune and cannot be retuned with the Radar Mode Knob in TV.
+Note: [AIM-7](../stores/air_to_air/aim_7.md) missiles detune and cannot be retuned with the Radar
+Mode Knob in TV.
 
 Skin Track Lamp (SKIN TRK)
 
@@ -445,11 +446,11 @@ The Control Monitor Panel's primary purpose is to access the built-in diagnostic
 Additionally, the panel mounts auxiliary controls for the system- the Vc Switch and Stab Switch, and
 the Temp monitoring lamp.
 
-Coords Light
+### Coords Light
 
 This lamp is not used with the APQ-120.
 
-Temp Lamp
+### Temp Lamp
 
 The TEMP Lamp provides a visual indication of an overheat situation in the APQ-120 avionics bays.
 Should the lamp illuminate, the radar must be powered off immediately to preclude damaging the
@@ -543,7 +544,8 @@ and the range rate readout is 900 +/- 50 knots.
 
 ### Test 1
 
-Performing combined B-sweep and PPI gain and pulse mode functionality, AIM-7 interlock function, and
+Performing combined B-sweep and PPI gain and pulse mode
+functionality, [AIM-7](../stores/air_to_air/aim_7.md) interlock function, and
 range track memory testing, Test 1 should be initiated with B WIDE selected for the Display and in
 AUTO Pulse mode. Upon selecting the test, the horizon line shifts up and right to provide visibility
 of the main area.
@@ -587,7 +589,8 @@ With the pilot selecting DT as the Weapon Release mode, the offset cursor should
 WSO selects a range of 5, the scope will revert to a B-sweep presentation.
 
 Computer functions can be checked with the WSO selecting RDR for mode, the pilot placing the
-gun/missile switch to Radar, and selecting CW ON. Once an AIM-7 is tuned with a RDR status light,
+gun/missile switch to Radar, and selecting CW ON. Once an [AIM-7](../stores/air_to_air/aim_7.md) is
+tuned with a RDR status light,
 the third test target should be locked. The aim dot will be stationary and centered within the upper
 calibration area, and the Vc gap will be at the 3 o'clock position, which is correct for the ASE
 interlock/ranging of the simulated target.
@@ -603,7 +606,8 @@ This track memory test can be performed with SHORT Pulse set, and the timing sho
 
 ### Test 2
 
-Beginning the pure air to air function sequences confirming break lock and AIM-7 head aim, selection
+Beginning the pure air to air function sequences confirming break lock
+and [AIM-7](../stores/air_to_air/aim_7.md) head aim, selection
 of Test 2 positions the radar 20 degrees right of center, and elevation 40 degrees above center.
 With the WSO selecting the SHORT pulse option and the radar locked on the second target, the system
 will retain lock longer than 30 seconds of the skin track (SKIN TRK) light illuminating. Against the
@@ -632,8 +636,8 @@ Angle track testing can also be performed for boresight mode by selecting BST.
 ### Test 4
 
 Test 4 validates Home on Jam (HOJ) and Acquisition on Jam (AOJ) functionality of the radar,
-confirming simulated Doppler injection of an AIM-7, angle track drift, as well as the elevation scan
-of CAA.
+confirming simulated Doppler injection of an [AIM-7](../stores/air_to_air/aim_7.md), angle track
+drift, as well as the elevation scan of CAA.
 
 With a lock against a target from a prior test, upon selecting Test 4, all test targets on the
 display should disappear, replaced with a locked target presentation, simulating HOJ. This will
@@ -644,7 +648,8 @@ using the antenna hand control, and the display resets back to a standard search
 half-action. To confirm AOJ override, the WSO should then press full action, then positioning the
 AOJ track switch to AOJ OUT; the track display should clear and return to search.
 
-For simulated Doppler injection testing, the pilot should switch CW Power on and select AIM-7 on the
+For simulated Doppler injection testing, the pilot should switch CW Power on and
+select [AIM-7](../stores/air_to_air/aim_7.md) on the
 guns/missile switch. The WSO should lock a test target, then observe the Vc display; the Vc gap on
 the ccw edge should be found between 1 and 2 o'clock. This is the correct display area for the
 simulated Doppler signal. The correct speed readout will fall between 550 +/-150 knots, and end in H
@@ -663,7 +668,8 @@ and -21 degrees, while the B-sweep width will be two degrees wide.
 Test 5 confirms proper function of range rate, lead angle error, CAA performance, and the Power
 Level Mode Switching (PLMS) circuits. The test is initiated with B WIDE or B NAR, and the aquisition
 of a target. Range rate is indicated with the counter-clockwise edge of the Vc gap, which will
-display at 12 o'clock when AIM-7 or AIM-9 is selected. The aim dot and range rate circle display the
+display at 12 o'clock when [AIM-7](../stores/air_to_air/aim_7.md) or (../stores/air_to_air/aim_9.md)
+is selected. The aim dot and range rate circle display the
 inidcations for a stationary target at 1 mile range, with a 0.56 inch diameter ASE circle,
 representing a 12 foot per second radius. The range rate indicates 0 +/- 300 knots.
 
@@ -705,7 +711,8 @@ incrementation will stop changing, and the system will then track any further he
 
 ### Test 6
 
-Test 6 checks AIM-7 display and interlock functionality. It will begin by presenting reference of
+Test 6 checks [AIM-7](../stores/air_to_air/aim_7.md) display and interlock functionality. It will
+begin by presenting reference of
 the OFP version loaded in the Vc/Range window of the display. Launch zone parameters are pre-set
 independently of the missiles loaded, and is set with Rmax between 13.5 and 16.5 miles, and Rmin
 between 3.25 and 6.25 miles. The aim dot is placed within the upper calibration region, and the ASE
@@ -716,10 +723,11 @@ miles. Having done so, the WSO then slowly pulls the range strobe back towards m
 
 The HOLD ALT lamp will go off, and one of the two following indications will occur:
 
-If AIM-7F are loaded or simulated, the Vc indicator will show 3'oclock and 900 knots with Radar
-selected, and CW ON or STBY
+If [AIM-7F](../stores/air_to_air/aim_7.md) are loaded or simulated, the Vc indicator will show
+3'oclock and 900 knots with Radar selected, and CW ON or STBY
 
-If AIM-7E are loaded or simulated, the Vc inidicator will show 12'oclock and 000 knots with CW OFF.
+If [AIM-7E](../stores/air_to_air/aim_7.md) are loaded or simulated, the Vc inidicator will show
+12'oclock and 000 knots with CW OFF.
 
 With the range strobe between Rmax and Rmin, the IN RANGE light will be on and SHOOT lights will
 flash. They will turn off when the range strobe passes below Rmin, and the break X indication will
