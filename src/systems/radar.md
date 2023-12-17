@@ -114,8 +114,9 @@ adjust the receiver gain for increased return visual definition, improving clari
 of the scopes during search routines. Further, when using MAP PPI, BEACON PPI, and AIR-GRD, their
 command of the STC circuit controls how the receiver's gain applies as a matter of range, which
 drives image intensity in the lower part of the scope. Gain knobs do not have an effect on the radar
-picture when a lockon exists.                                                   
-Track
+picture when a lockon exists. 
+
+### Track
 
 The track switch determines whether the APQ-120 will attempt a lockon against a selected track
 automatically, or through manual means. In the default center AUTO position, full-action on the
@@ -850,4 +851,4 @@ display modes; the indicator does not function in air to ground modes.
 The Air to Air light is a light plus switch with the primary function of confirming entry into CAGE
 mode. When the crew desires to disengage CAGE mode, the WSO can press the light (which also
 functions as a button) to exit CAGE mode and revert to the current selected settings from the Radar
-Control Set. 
+Control Set.
