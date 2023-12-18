@@ -13,7 +13,6 @@ is the stabilators- rather than using the Utility System as the secondary power,
 an APU unit in the tail provides the additional and backup power for the
 stabilators should PC system PSI to the stabilator actuators fall below 1000.
 
-
 ## Hydraulic Pressure Indicators
 
 ![HydPress](../../img/HydPress.jpg)

@@ -13,7 +13,7 @@ prevent the display of associated transmitted signals. Audio examination of rece
 integrated with the interphone system. Self-test features enable comprehensive checks of the warning
 receiver on the ground or during flight.
 
-## Operational modes:
+## Operational modes
 
 ### Power on
 
