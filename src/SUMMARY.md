@@ -66,6 +66,7 @@
   - [Emergency](./systems/emergency.md)
   - [Utility](./systems/utility.md)
   - [Radar](./systems/radar.md)
+  - [Radar Warning Receiver](./systems/radar_warning_receiver.md)
   - [Weapon Systems](./systems/weapon_systems/overview.md)
     - [Multiple Weapons System](./systems/weapon_systems/multiple_weapons_system.md)
     - [AWRU](./systems/weapon_systems/awru.md)

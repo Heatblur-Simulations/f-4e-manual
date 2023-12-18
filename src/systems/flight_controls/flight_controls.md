@@ -10,7 +10,7 @@ A control stick is provided in both cockpits, with near-uniform switchology
 between the two. A Trim Control is found on both sticks to provide force
 reduction and minor flight path correction in the pitch and roll axis. Weapons
 are deliverable through both a Trigger (for air to air missiles and the gun) and
-a Bomb Release Switch. Both positions carry a Nose Gear Steering Switch that
+a Bomb Release Switch. Both sticks carry a Nose Gear Steering Switch that
 doubles as a radar auto-acquisition control for the radar in visual range
 combat, and sensor focus control for video-directed air to ground weapons. An
 Emergency Quick Release lever on each stick is available to immediately
@@ -48,7 +48,7 @@ offset any relative skidding due to wind effect, stores imbalance, or minor
 engine output deviation, a Rudder Trim Switch is found on the engine control
 panel in the front cockpit. On the ground, the pedals themselves can be pressed
 independently for differential braking, and the rudder axis itself functions as
-the nose wheel steering directional control when the Nose Wheel Steering button
+the nose wheel steering directional control when the nose wheel steering button
 on either control stick is pressed.
 
 ## Aileron-Rudder Interconnect (ARI)
@@ -129,12 +129,11 @@ will retract due to air pressure between 568 to 602 knots.
 
 ![Slats Override](../../img/SlatsOvrd.jpg)
 
-To the rear of the Fuel Control Panel in the front cockpit is the Slat Override
-Switch. Guarded, this switch has two positions: Norm and In. Defaulted to Norm
-under the guard, switching to In forces retraction of the Slats no matter the
-current state of the aircraft- AoA or Slats Flap Switch position. Actuating the
-Override will give a SLATS IN warning on the Telelight Panel and illuminate
-Master Caution.
+To the rear of the Fuel Control Panel in the front cockpit is the Slat Override Switch. Guarded,
+this switch has two positions: NORM and IN. Defaulted to NORM under the guard, switching to IN
+forces the retraction of the slats, no matter the current aircraft AoA or state of the Slats Flap
+Switch position; this action will trigger the SLATS IN warning on the telelight Panel and illuminate
+the Master Caution.
 
 The Slats Flaps system also has an Emergency system; handles are found on the
 Slats Flaps control panel in the front cockpit, and next to the rear cockpit
@@ -155,11 +154,13 @@ throttle in both cockpits. Either switch will actuate the brakes. The positions
 are Out, Stop, and In; the first and last positions are momentary (reverting to
 Stop upon being released).
 
-![SpeedBrakeLight](../../img/pilot_speedbrake_out.jpg)
+![pilot_speed_brake](../../img/pilot_air_brake.jpg)
 
 Brake actuation illuminates the Speed Brake Out Indicator Light found on the
 Telelight Panel. Brake deployment and illumination of the Indicator does not
 trigger the Master Caution.
+
+![SpeedBrakeLight](../../img/pilot_speedbrake_out.jpg)
 
 ## Angle of Attack System
 
@@ -181,7 +182,7 @@ indications for weight-relative optimum altitude cruise (7.9 units) , approach
 calculate optimum cruise altitude by gross weight.
 
 It is important to note that extension of the landing gear and thus the nose
-wheel door changes the airflow around the probe causing to indicate higher
+gear door changes the airflow around the probe causing to indicate higher
 angles by 1 unit. The approach airspeeds account for that. Therefore, performing
 an approach with the gear retracted, will cause the indicators to show
 approximately 1 unit low, and the aircraft will be roughly 5 knots fast for an
@@ -220,7 +221,7 @@ knobs, which control weapon related tones.
 ## Stall Warning Vibrator
 
 The left front cockpit pedal includes a Stall Warning Vibrator, which is
-activated over 22.3 units Angle of Attack. This physical (and in DCS- audible)
+activated over 22.3 units Angle of Attack. This physical (and in DCS audible)
 indication is given to make the pilot aware of the potential of an impending
 stall and provide enough time to reduce AoA and prevent the loss of control of
 the aircraft. Reducing AoA below the threshold will deactivate the warning.

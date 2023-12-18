@@ -62,7 +62,7 @@ the respective engine.
 ![IgnitionButtons](../../img/pilot_ignition_system.jpg)
 
 Engine ignition for startup is performed using a pair of spark plugs on each
-engine, activated by pressing the Ignition Button found to the front of both
+engine, activated by pressing the red Ignition Button found on the rear of both
 throttle levers. The button is depressed as part of the starting sequence to
 ignite the spark plugs, initiating combustion in chambers four and five of the
 engines.
@@ -143,7 +143,7 @@ finger lifts.
 
 In the event of opposing commands on the throttle arms between seats, the rear
 throttles will be disconnected from the front throttles to prevent damage to the
-linkage. This condition may cause reduction in afterburner authority from the
+linkage. This condition may cause a reduction in afterburner authority from the
 front throttle pair. Resetting the throttle linkage is performed by placing the
 front throttles at the IDLE or MIL stop and moving the rear throttles in the
 opposite direction to which the disconnect occurred.

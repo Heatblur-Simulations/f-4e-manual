@@ -2,7 +2,7 @@
 
 The F-4 Phantom uses a conventional tricycle landing gear arrangement, driven by
 the Utility hydraulic system. In the event Utility hydraulics are offline, an
-emergency extension system compressed air is available to lower the gear for
+emergency extension system using compressed air is available to lower the gear for
 landing.
 
 ![ext_view_gears](../../img/ext_landing_gear.jpg)
@@ -12,12 +12,14 @@ landing.
 ![GearHandle](../../img/GearHandle.jpg)
 
 The Landing Gear Control Handle is found on the left instrument panel in the
-front cockpit, with a wheel-shaped knob for identification.
+front cockpit, with a red wheel-shaped knob for identification.
 
 ## Landing Gear Emergency Extension Handles
 
+![wso_emergency_landing_gear_handles](../../img/wso_emergency_handles.jpg)
+
 Emergency landing gear extension is driven by a pair of compressed air bottles
-carrying sufficient charge for one lowering of the gear. The emergency extension
+carrying sufficient charge for lowering the gear one time. The emergency extension
 is commanded in the front cockpit is performed using the Gear Control Handle;
 pulling the handle aft in any position releases the compressed air into the
 landing gear hydraulic system, forcing the gear doors to open and the gear to
