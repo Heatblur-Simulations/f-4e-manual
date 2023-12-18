@@ -33,8 +33,8 @@ function.
 ![GGauge](../img/GGauge.jpg)
 
 Both cockpits retain accelerometers for monitoring G load; the accelerometers
-carry 3 needles- one for current G loading, and a positive and negative G
-loading needle for the highest load G load detected since the accelerometer was
+carry 3 needles - one for current G loading, and a positive and negative G
+loading needle for the highest load G-load detected since the accelerometer was
 reset. To reset the gauge, the PUSH TO SET button will return the recording
 pointers to positive 1 G.
 
@@ -44,8 +44,8 @@ pointers to positive 1 G.
 
 Found in both cockpits is a combination Airspeed/Mach indicator. The indicators
 provide a fixed airspeed scale at the middle of the indicator, reading values
-from 80 to 850 knots, and a rotating Mach scale number scale to the outside,
-with readings from 0.4 to 2.5 Mach. A two position knob offers both an airspeed
+from 80 to 850 knots, and a rotating Mach number scale to the outside,
+with readings from 0.4 to 2.5 Mach. A two position push-and-rotate knob offers both an airspeed
 index with a functional range between 80 and 195 knots, and a Mach index pointer
 with a range between 225 knots and 850 knots.
 
@@ -98,7 +98,7 @@ reference marker that will determine the altitude which triggers the low
 altitude warning. A self-test, initiated by pressing the function control
 switch, shows 35 +-15 feet. Above 5000 feet or with unreliable signals, the
 pointer hides behind a mask, showing the OFF flag. The OFF appears also when
-power is lost- the indicator will then present the last altitude detected above
+power is lost; the indicator will then present the last altitude detected above
 ground level at the time of this occurring.
 
 ## Turn and Slip Indicators
@@ -136,7 +136,7 @@ cockpit right console.
 Using a variety of static, attitude, and environmental inputs, the Air Data
 Computer (ADC) provides the pneumatic and electrical inputs to the AFCS, Fire
 Control System, Air Induction System, the INS, the LCOSS, navigational computer,
-as well as manages the variable bypass bell mouth system for the engines. Flight
+and manages the variable bypass bell mouth system for the engines. Flight
 through weather such as ice or rain can induce errors in the performance of
 these systems until the condition has cleared, and this should be taken into
 account.

@@ -16,21 +16,20 @@ RH GEN OUT, and BUS TIE OPEN. The respective GEN OUT warning will illuminate in
 the event the generator in question fails. The indication of BUS TIE OPEN is an
 acknowledgement that a single functioning generator is providing power to the
 entire aircraft. In the event of a generator failure, the Master Caution will
-also illuminate. However, in the event of a dual generator failure, neither GEN
-OUT light will not illuminate.
+also illuminate. However, in case both generators fail, no GEN OUT light will illuminate.
 
 ## Generator Control Switches
 
 ![GenCtl](../../img/GenCtl.jpg)
 
 A pair of Generator Control Switches are found on the right console, one for
-each engine. These three position switches- ON (Forward), OFF, ON - External
-(Aft), control the state of each respective generator. In the event of a
+each engine. These three position switches- ON (Forward), OFF, ON External
+(Aft) - control the state of each respective generator. In the event of a
 possible generator failure, selecting OFF for the generator that is believed to
 be offline will cause the power bus to provide electricity from the remaining
 generator to the other half of the electrical system. The External On setting is
-used for ground handling purposes when connected to external power, and provides
-electricity to all but the instruments, the CNI, and AFCS.
+used for ground handling purposes when connected to external power, and provides electric power to
+all instruments, except the CNI and the AFCS.
 
 ## Instrument Ground Power Switch
 

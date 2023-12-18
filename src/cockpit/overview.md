@@ -2,7 +2,7 @@
 
 Greetings, phaboulus Crewman! Get ready for an in-depth look into the cockpit of the legendary
 F-4E Phantom II by Heatblur. This chapter is your backstage pass to every button, switch, and light
-that makes this aircraft the biggest contributor of MIG Parts.
+that makes this aircraft the world's largest distributor of MIG Parts.
 
 In the pilot's cockpit, we'll break down the essentials — from the slick ejection seat to the
 control panels. Each part plays a key role in helping the pilot stay on top of things in the
