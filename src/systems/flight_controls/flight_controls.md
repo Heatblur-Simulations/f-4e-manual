@@ -9,7 +9,7 @@
 A control stick is provided in both cockpits, with near-uniform switchology
 between the two. A Trim Control is found on both sticks to provide force
 reduction and minor flight path correction in the pitch and roll axis. Weapons
-are deliverable through both a Trigger (for air to air missiles and the gun) and
+are deliverable through both a Trigger (for air-to-air missiles and the gun) and
 a Bomb Release Switch. Both sticks carry a Nose Gear Steering Switch that
 doubles as a radar auto-acquisition control for the radar in visual range
 combat, and sensor focus control for video-directed air to ground weapons. An
@@ -115,7 +115,7 @@ Out deploys the Slats to their fully deployed position. Should the landing gear
 be deployed, both the Slats and Flaps will deploy.
 
 Out and Down fully deploys both the Slats and the Flaps. Should the landing gear
-not be down, the Wheels Light on the Telelight Panel will illuminate and flash.
+not be down, the Wheels Light on the telelight Panel will illuminate and flash.
 
 Both cockpits have a Slats Flap Indicator, which read In and Out, along with a
 barber-pole reading when the surfaces are in transition.
@@ -125,7 +125,7 @@ barber-pole reading when the surfaces are in transition.
 In the Norm position, Maneuvering Slat deployment is a function of AoA; above
 11.5 units they will extend, then retract when the aircraft is reduced below
 10.5 units. Maneuvering Slat operation includes a speed-induced blowback; slats
-will retract due to air pressure between 568 to 602 knots.
+will retract due to air pressure between 568 and 602 knots.
 
 ![Slats Override](../../img/SlatsOvrd.jpg)
 
