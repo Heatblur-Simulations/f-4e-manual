@@ -55,12 +55,12 @@ AIM-9 Launch Sequence:
 The following variants of the AIM-9 family are available for this variant of the
 Phantom:
 
-| Variant   | Description |
-| --------- | ----------- |
-| B         | TODO        |
-| J         | TODO        |
-| JULI      | TODO        |
-| L         | TODO        |
-| M         | TODO        |
-| P         | TODO        |
-| Captive M | TODO        |
+| Variant   | Description                                                                                                                                                                                                                                                    |
+|-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| B         | The AIM-9B Sidewinder was the first operational version of the Sidewinder family, entering service in the 1950s. It utilized an infrared homing seeker for target acquisition and tracking, making it a heat-seeking missile.                                  |
+| J         | The AIM-9J was an improved version of the Sidewinder, featuring enhanced guidance and performance characteristics. It retained the infrared homing seeker but had improved sensitivity and better resistance to countermeasures.                               |
+| JULI      | The AIM-9Juli, or AIM-9J "Juli," was a variant of the AIM-9J developed by Israel. It featured modifications to meet specific operational requirements.                                                                                                         |
+| L         | The AIM-9L Sidewinder was a significant upgrade with improved infrared homing capabilities, allowing for better target discrimination. It introduced all-aspect targeting, meaning it could engage targets from any angle, not just from behind.               |
+| M         | The AIM-9M represented further advancements in the Sidewinder series, with improved guidance and counter-countermeasures capabilities. It had enhanced maneuverability and improved target-tracking algorithms, making it more effective in combat situations. |
+| P         | The AIM-9P was a variant developed for export and used by various nations. It featured improvements over earlier models in terms of reliability and seeker performance.                                                                                        |
+| Captive M | The Captive AIM-9M is a non-functional version of the AIM-9M Sidewinder used for training and testing purposes.                                                                                                                                                |

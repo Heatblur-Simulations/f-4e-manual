@@ -100,7 +100,7 @@ Used to select the appropriate contrast conditions for seeker acquisition with
 the AGM-65A and B.
 
 | Name    | Description                                                               |
-| ------- | ------------------------------------------------------------------------- |
+|---------|---------------------------------------------------------------------------|
 | WHT/BLK | Programs the missile seeker to track a light target on a dark background. |
 | AUTO    | Programs the missile to use its automatic tracking mode.                  |
 | BLK/WHT | Programs the missile seeker to track a dark target on a light background. |
@@ -117,7 +117,7 @@ disengage the Static Pressure Compensation of the altimeter, thus eliminating,
 or invoking, altimeter lag from rapid altitude changes.
 
 | Name       | Description                                                                                       |
-| ---------- | ------------------------------------------------------------------------------------------------- |
+|------------|---------------------------------------------------------------------------------------------------|
 | RESET CORR | Actuated after engine startup, then in flight if a SPC warning is caused by transient conditions. |
 | NORM       | Regular operating position of switch upon release of RESET CORR or actuation out of CORR OFF.     |
 | CORR OFF   | Manually disengages SPC altitude lag compensation.                                                |
@@ -141,4 +141,79 @@ or right.
 
 ## Throttles
 
-TODO
+![pilot_throttle](../../../img/pilot_throttle.jpg)
+
+The throttle arrangement for each engine in the F-4E Phantom II is located on the front and rear
+cockpit left console. Mechanical linkage transmits throttle movement to the engine fuel control. A
+friction adjusting lever allows customization of throttle friction. Afterburner initiation occurs by
+shifting the throttles outboard and moving forward from the MIL position.
+
+Throttle movement is smooth and continuous, with afterburner modulation possible throughout the
+range. Moving throttles from IDLE to OFF closes the fuel shutoff valve, stopping fuel flow. To
+transition from OFF to IDLE or MIL, advance the throttles straight forward. Shifting throttles
+outboard allows movement from MIL to MAX, enabling forward motion in the afterburner range.
+
+Front cockpit throttles feature finger lifts for quick chops to IDLE, preventing inadvertent
+shutoff. The lifts must be raised before retarding throttles to OFF. Rear cockpit throttles are
+linked to the front cockpit, allowing only the pilot to start engines or move throttles into
+afterburner range. Rear cockpit throttles can be moved from OFF without front seat assistance.
+
+### Ignition Buttons
+
+![IgnitionButtons](../../../img/pilot_ignition_system.jpg)
+
+Engine ignition for startup is performed using a pair of spark plugs on each
+engine, activated by pressing the red Ignition Button found on the rear of both
+throttle levers. The button is depressed as part of the starting sequence to
+ignite the spark plugs, initiating combustion in chambers four and five of the
+engines.
+
+### Cage Button
+
+![pilot_cage_button](../../../img/pilot_cage_button.jpg)
+
+In the event that
+an [AIM-7](../../../stores/air_to_air/aim_7.md), [AIM-9](../../../stores/air_to_air/aim_9.md),
+or [M61A1](../../../stores/guns.md) must be employed
+against an airborne target with
+the [sight](../../../cockpit/pilot/dcsg_controls.md#sight-mode-knob)
+in A/G mode (for example, the flight is bounced by
+opposing aircraft),
+the [optical sight](../../../cockpit/pilot/dcsg_controls.md#sight-mode-knob)
+reticle can immediately be slewed to the
+Radar Boresight Line using the Cage Button, found on the inboard (right)
+throttle handle. Cage mode commands the radar into BST mode with a five mile
+range, and short pulse, and sets the firing circuit for the currently selected
+air to air weapon relative to the Pinky Switch. For
+the [optical sight](../../../cockpit/pilot/dcsg_controls.md#sight-mode-knob),
+the command activates the respective elevation and azimuth tracking, roll mark, and
+range functions of the reticle for the chosen weapon, without the pilot having
+to remove a hand from throttle or stick to swap the sight mode or weapon control
+panel functions.
+
+### Speed Brake
+
+![pilot_speed_brake](../../../img/pilot_air_brake.jpg)
+
+The Speed Brakes are actuated by a three position switch found on the inboard
+throttle in both cockpits. Either switch will actuate the brakes. The positions
+are Out, Stop, and In; the first and last positions are momentary (reverting to
+Stop upon being released).
+
+### Dispense Button
+
+![pilot_throttle_cm_dispense](../../../img/pilot_throttle_cm.jpg)
+
+When pressing the dispense button chaff/flare dispensing is initiated as set on
+the CCU and AN/ALE-40 programmer if the flaps and speed brakes are retracted and
+the flares select switch is set to NORMAL. Additionally single unit flare
+dispensing can be initiated by a single button press if the flares select switch
+is set to FLARES.
+
+### Mic Switch
+
+![pilot_intercom_mic_switch](../../../img/pilot_inter_com_mic_switch.jpg)
+
+The microphone switch for the Intercom System is the aft position on the inboard
+throttle grip in both cockpits. When using the intercom, all audio sans the
+pull-up tone, stall warning, voice warning, and ECM are reduced (same as RADIO OVERRIDE).
