@@ -125,9 +125,9 @@ Aero-27 precludes any release, even if the round has been dropped.
 The following variants of the AIM-7 family are available for this variant of the
 Phantom:
 
-| Variant | Description |
-|---------|-------------|
-| E       | TODO        |
-| E-2     | TODO        |
-| F       | TODO        |
-| M       | TODO        |
+| Variant | Description                                                                                                                                                                                                                                                                                                                                                                                                     |
+|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| E       | The AIM-7E Sparrow was an early version of the Sparrow missile, entering service in the 1960s. t featured semi-active radar homing guidance, relying on radar illumination from the launching aircraft for target tracking.                                                                                                                                                                                     |
+| E-2     | The AIM-7E2 was an improved version of the AIM-7E, featuring enhancements to its guidance system and overall performance. It retained semi-active radar homing but included improvements to increase its effectiveness in combat.                                                                                                                                                                               |
+| F       | The AIM-7F, an upgraded variant, introduced improvements in the missile's guidance system and reliability. It featured enhanced seeker technology and improved signal processing capabilities, enhancing its ability to engage targets at longer ranges.                                                                                                                                                        |
+| M       | The AIM-7M Sparrow represented a significant advancement in Sparrow missile technology and became a widely used variant. It incorporated a more advanced guidance system, including a monopulse radar seeker, which improved tracking accuracy and resistance to electronic countermeasures. The AIM-7M had a longer range compared to its predecessors, making it a versatile medium-range air-to-air missile. |
