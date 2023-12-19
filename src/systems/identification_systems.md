@@ -73,7 +73,7 @@ The three position Mode C Selector switch controls the mode C operation:
 The Mode 1 code selector is used to select Mode 1 codes for 00 to 73. The Mode 3/A code selector is
 used to select Mode 3/A codes from 0000 to 7777.
 
-### Mode C Selector Switch
+### Mode 4 Selector Switch
 
 The two position Mode 4 Selector switch controls the mode 4 operation:
 
