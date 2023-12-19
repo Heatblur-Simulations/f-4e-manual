@@ -15,6 +15,7 @@
 | 6    | (P) WEAPON VIDEO      | ON             |
 
 ### Pilot
+
 | Step | System                 | Action              |
 |------|------------------------|---------------------|
 | 1    | PIPPER POSITION        | OVER TARGET         |
@@ -25,6 +26,7 @@
 | 6    | FOR NEXT MISSILE       | REPEAT STEP 2 TO 3  |
 
 ### WSO
+
 | STEP | System                 | Action                 |
 |------|------------------------|------------------------|
 | 1    | ACTION SWITCH          | HALF ACTION            |
