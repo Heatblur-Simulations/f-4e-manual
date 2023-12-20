@@ -3,19 +3,21 @@
 ![pilot_flight_director_group](../../img/pilot_flight_director_group.jpg)
 
 Accurate course navigation is provided by the Flight Director Group, which
-includes the Flight Director Computer, the Horizontal Situation Indicator (HIS)
+includes the Flight Director Computer, the Horizontal Situation Indicator (HSI)
 along with the Navigation Function Selector Panel in the front cockpit, and the
 Bearing Distance Heading Indicator (BDHI) together with the Navigation Mode
 Selector Switch in the rear cockpit.
+
+![wso_nav_mode_selector](../../img/wso_nav_mode_selector_switch.jpg)
 
 ## Navigation Function Selector Panel
 
 ![pilot_nav_function_selector](../../img/pilot_nav_function_selector_panel.jpg)
 
 Found on the front cockpit instrument panel, the Navigation Function Selector
-Panel has two knobs- a Bearing/Distance Selector Knob and a Mode Selector Knob.
+Panel has two knobs - a Bearing/Distance Selector Knob and a Mode Selector Knob.
 
-## Bearing Distance Selector Knob
+## Bearing Distance Selector Knob (BRG/DIST)
 
 The Bearing Distance Selector Knob sets the bearing pointer and range indication
 displays on the HSI. Positions are VOR/TAC, TAC, ADF/TAC, and NAV COMP.
@@ -32,10 +34,10 @@ range to the TACAN station are displayed.
 And in NAV COMP mode, magnetic and relative bearing and range are provided to
 the destination set in the navigation computer.
 
-## Mode Selector Knob
+## Mode Selector Knob (MODE)
 
-The Mode Selector Knob controls the remaining informational displays on the HSI,
-as well as the pitch and bank steering bars on the ADI. The mode selector knob
+The Mode Selector Knob controls the remaining informational displays on the HSI (outer knob), as
+well as the pitch and bank steering bars on the ADI (inner knob labelled FD). The mode selector knob
 operates independently from the bearing pointer and range indicator, and the
 selector positions are VOR/ILS, TAC, NAV COMP, and HDG. Navigation modes set by
 this knob will be indicated by an illuminated word message when the instrument
@@ -44,13 +46,13 @@ panel lights are on; available mode word messages are TAC (TACAN), NAV
 system), and TGT (target). TGT illuminates that the WSO has provided a target
 entry and pressed TGT on the Cursor Control Panel.
 
-## Flight Director Switch
+## Flight Director Switch (FD)
 
 The Flight Director Switch turns ON and OFF the Flight Director Computer pitch
 and bank angle steering clues, visible on the ADI. Selecting OFF removes these
 bars from view.
 
-## Horizontal Situation Indicator
+## Horizontal Situation Indicator (HSI)
 
 ![pilot_horizontal_situation_indicator](../../img/pilot_horizontal_situation_indicator.jpg)
 
@@ -85,7 +87,7 @@ line and aircraft magnetic heading. The course selector window displays the
 current selected magnetic heading, which is adjusted using the Heading Set knob.
 The given course information is applied for an ADI bank steering command.
 
-## Attitude Director Indicator
+## Attitude Director Indicator (ADI)
 
 ![pilot_attitude_director_indicator](../../img/pilot_attitude_director_indicator.jpg)
 
@@ -104,7 +106,7 @@ AN/AJB-7 gyro has aligned. This can also appear due to power loss or a signal
 failure. The flag does not present if a system failure occurs outside of the
 AN/AJB-7.
 
-## Bearing Distance Heading Indicator
+## Bearing Distance Heading Indicator (BDHI)
 
 ![wso_bearing_distance_heading_indicator](../../img/wso_bearing_distance_heading_indicator.jpg)
 
