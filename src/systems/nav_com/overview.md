@@ -12,15 +12,14 @@ The UHF communication system in the aircraft is modified to support both crypto 
 voice transmission and reception. The intercom system and UHF transceiver are adapted for
 operational compatibility with the KY-28 speech security unit. In tactical environments, the KY-28
 collaborates with the UHF transceiver to facilitate secure voice communications for classified
-traffic. The KY-28 possesses enciphering and deciphering capabilities for transmitting and
-receiving, respectively, but cannot perform both functions simultaneously. The crewmember can choose
-between cipher and plain modes. In cipher mode, the KY-28 converts microphone inputs to crypto
-transmissions and deciphers crypto replies for voice inputs to the aircrew headsets. In plain mode,
-the UHF radio equipment functions as a conventional voice transceiver. The KY-28 is
-cryptographically intercommunicable with other KY-28 units, KY-8 units, and KY-38 units (manpack
-version of KY-28). Additionally, the KY-28 has provisions for transmitting messages via a relay
-facility. The unit contains a code assembly with mechanisms for zeroizing the codes, either
-mechanically or electrically.
+traffic. The crewmember can choose between cipher and plain modes. In cipher mode, the KY-28
+converts microphone inputs to crypto transmissions and deciphers crypto replies for voice inputs
+to the aircrew headsets. In plain mode, the UHF radio equipment functions as a conventional
+voice transceiver. The KY-28 is cryptographically intercommunicable with other KY-28 units,
+KY-8 units, and KY-38 units (manpack version of KY-28). Additionally, the KY-28 has provisions
+for transmitting messages via a relay facility. This function is not modelled in DCS World.
+The unit contains a code assembly with mechanisms for zeroizing the codes, either mechanically or
+electrically.
 
 ## Don't get lost: The INS
 
@@ -44,8 +43,8 @@ ensure reliable and precise navigation capabilities.
 The VHF Omnidirectional Range Instrument Landing System (VOR/ILS) furnishes accurate bearing and
 course deviation information through a ground station transmitter. This system enables the aircraft
 to utilize precision landing approach and descent capabilities at fields equipped with a localizer.
-Pilots receive guidance information from the VOR/ILS on the Bearing Distance Heading Indicator (
-BDHI), Attitude Director Indicator (ADI), and Horizontal Situation Indicator (HSI). Activation of
+Pilots receive guidance information from the VOR/ILS on the Bearing Distance Heading Indicator
+(BDHI), Attitude Director Indicator (ADI), and Horizontal Situation Indicator (HSI). Activation of
 the VOR/ILS function on these displays is facilitated through the appropriate Flight Director Group
 control selections on the Bearing/Distance Selector switch, Navigation Mode Selector switch, and
 Flight Director Switch.
