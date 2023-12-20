@@ -2,7 +2,7 @@
 
 ## Layout
 
-![Layout](../../img/pilot_pit_overview.png)
+![Layout](../../img/pilot_pit_overview.jpg)
 
 | Section | Name                  |
 | ------: | --------------------- |

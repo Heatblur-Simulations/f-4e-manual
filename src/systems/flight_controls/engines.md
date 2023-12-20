@@ -9,7 +9,7 @@ battery for initial power, or connection with an external power cart.
 
 ## Fuel Flow Indicators
 
-![FFI](../../img/FFI.png)
+![FFI](../../img/FFI.jpg)
 
 Each engine has a fuel flow indicator found in the front cockpit instrument
 panel. The indicators read in thousands of pounds per hour, from 0 to 12. The
@@ -19,7 +19,7 @@ afterburner stage, and the flow rate is approximately 4 times the value shown.
 
 ## Oil Pressure Indicators
 
-![OilPress](../../img/OilPress.png)
+![OilPress](../../img/OilPress.jpg)
 
 Oil pressure indicators are on the front cockpit pedestal panel, and are
 graduated from 0 to 10, and are presented in 10 lb increments.
@@ -37,14 +37,14 @@ issue to continue can cause permanent engine damage.
 
 ### Pneumatic Mode Starting
 
-![ext_cart](../../img/ext_ground_cart.png)
+![ext_cart](../../img/ext_ground_cart.jpg)
 
 The normal mode for starting the Phantom utilizes an auxiliary start cart that
 turns the starter turbine, cranking the engine over.
 
 ### Cartridge Mode Starting
 
-![f_4_cartridge_start](../../img/f_4_cartridge_start.png)
+![f_4_cartridge_start](../../img/f_4_cartridge_start.jpg)
 
 Cartridge mode is supplied for operational and emergency needs. A propellant
 charge is used to turn the starter turbine, which in turn cranks the engine over
@@ -52,24 +52,24 @@ to initiate startup.
 
 ### Start Switch
 
-![StartSwitch](../../img/pilot_start_switch.png)
+![StartSwitch](../../img/pilot_start_switch.jpg)
 
 Used only for cartridge start, selecting L or R ignites the cartridge set for
 the respective engine.
 
 ### Ignition System
 
-![IgnitionButtons](../../img/pilot_ignition_system.png)
+![IgnitionButtons](../../img/pilot_ignition_system.jpg)
 
 Engine ignition for startup is performed using a pair of spark plugs on each
-engine, activated by pressing the Ignition Button found to the front of both
+engine, activated by pressing the red Ignition Button found on the rear of both
 throttle levers. The button is depressed as part of the starting sequence to
 ignite the spark plugs, initiating combustion in chambers four and five of the
 engines.
 
 ### Engine Anti-Icing System
 
-![EngineDeIcing](../../img/pilot_engine_de_ice.png)
+![EngineDeIcing](../../img/pilot_engine_de_ice.jpg)
 
 Using the Anti-Icing Switch set to DE-ICE, bleed air from stage 17 is
 distributed to ports installed in the compressor face area of the engines. This
@@ -80,7 +80,7 @@ unnecessary and can cause engine damage.
 
 ### Anti-Ice Indicator Lights
 
-![pilot_anti_ice_indicator_lights](../../img/pilot_anti_ice_indicators.png)
+![pilot_anti_ice_indicator_lights](../../img/pilot_anti_ice_indicators.jpg)
 
 Activation of the Anti-Icing system will illuminate two lights on the telelight
 panel, L ANTI-ICE On and R ANTI-ICE On. A failure of the anti-icing system with
@@ -94,7 +94,7 @@ provide a MASTER CAUTION warning.
 
 ### Exhaust Nozzle Position Indicators
 
-![NPI](../../img/NPI.png)
+![NPI](../../img/NPI.jpg)
 
 Directed by the Exhaust Nozzle Control Unit, the paired primary (the convergent,
 inner nozzle) and secondary (the divergent, outer nozzle) are actuated
@@ -110,7 +110,7 @@ increments.
 
 ### Engine Master Switches
 
-![EngineMasterSwitches](../../img/pilot_engine_master_switches.png)
+![EngineMasterSwitches](../../img/pilot_engine_master_switches.jpg)
 
 A pair of two-position Engine Master Switches are found on the front cockpit
 left console on the inboard engine control panel. Selecting ON powers the fuel
@@ -125,7 +125,7 @@ the valves will remain open.
 
 ### Throttles
 
-![Throttles](../../img/pilot_throttles.png)
+![Throttles](../../img/pilot_throttles.jpg)
 
 Paired throttles are provided in both cockpits for engine thrust control. In
 normal use, movement of the throttles from IDLE to OFF will perform fuel cutoff;
@@ -143,7 +143,7 @@ finger lifts.
 
 In the event of opposing commands on the throttle arms between seats, the rear
 throttles will be disconnected from the front throttles to prevent damage to the
-linkage. This condition may cause reduction in afterburner authority from the
+linkage. This condition may cause a reduction in afterburner authority from the
 front throttle pair. Resetting the throttle linkage is performed by placing the
 front throttles at the IDLE or MIL stop and moving the rear throttles in the
 opposite direction to which the disconnect occurred.
@@ -152,7 +152,7 @@ The rear throttles only hold a microphone button and speed brake switch.
 
 ### Tachometers
 
-![Tach](../../img/Tach.png)
+![Tach](../../img/Tach.jpg)
 
 Both engines are provided with tachometers on the right side of the front
 cockpit instrument panel, and the right side of the rear cockpit instrument
@@ -160,7 +160,7 @@ panel. The tachometers will function without external power.
 
 ### Exhaust Gas Temperature Indicators
 
-![EGT](../../img/EGT.png)
+![EGT](../../img/EGT.jpg)
 
 Exhaust Gas Temperature Indicators are found on the front cockpit instrument
 panel. The indicators have two pointers each: a large pointer for the 0 to 12

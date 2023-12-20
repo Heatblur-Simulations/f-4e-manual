@@ -2,7 +2,7 @@
 
 ## Fuel Control Panel
 
-![Fuel Control Panel](../../../img/pilot_fuel_panel.png)
+![Fuel Control Panel](../../../img/pilot_fuel_panel.jpg)
 
 ### Internal Wing Dump Switch
 
@@ -58,7 +58,7 @@ a positive pressure value on the fuel pressure indicator.
 
 ## VOR/ILS Control Panel
 
-![VOR/ILS Panel](../../../img/VORILSCntl.png)
+![VOR/ILS Panel](../../../img/VORILSCntl.jpg)
 
 ### Nav Vol Knob
 
@@ -93,7 +93,7 @@ Once jettisoned, the handle is released back into its normal position.
 
 ## AFCS Control Panel
 
-![AFCSPan](../../../img/AFCSPan.png)
+![AFCSPan](../../../img/AFCSPan.jpg)
 
 ### Stability Augmentation Channel Switches (Yaw/Roll/Pitch)
 

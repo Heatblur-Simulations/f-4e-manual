@@ -1,6 +1,6 @@
 # VOR/ILS System
 
-![ext_vor_ils_beacon](../../img/ext_vor_ils_beacon.png)
+![ext_vor_ils_beacon](../../img/ext_vor_ils_beacon.jpg)
 
 The VHF omnidirectional range instrument landing system, or VOR/ILS, provides
 precise bearing and course deviation information from a transmitting ground
@@ -13,7 +13,7 @@ Mode Selector switch, and the Flight Director Switch.
 
 ## VOR/ILS Control Panel
 
-![pilot_vor_ils_panel](../../img/pilot_vor_ils_panel.png)
+![pilot_vor_ils_panel](../../img/pilot_vor_ils_panel.jpg)
 
 The control panel for the VOR/ILS is found on the front cockpit left console;
 the panel includes a frequency indicator, two frequency select knobs, a volume
@@ -35,7 +35,7 @@ volume of the marker beacon audio in the front cockpit.
 
 ## WSO Course Indicator
 
-![wso_course_indicator](../../img/wso_course.png)
+![wso_course_indicator](../../img/wso_course.jpg)
 
 In the rear cockpit is the Course Indicator, on the main instrument panel; During
 an ILS approach, the indicator displays relative heading for the course set in the

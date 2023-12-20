@@ -2,11 +2,11 @@
 
 ## IFF Control Panel
 
-![IFF](../../../img/IFF.png)
+![IFF](../../../img/IFF.jpg)
 
 ## DCU-94A Stores Control-Monitor Panel
 
-![DCU94](../../../img/DCU94.png)
+![DCU94](../../../img/DCU94.jpg)
 
 This panel is used to control and test the separate release circuit system for
 nuclear stores.
@@ -16,13 +16,13 @@ accidental release.
 
 ## Temperature Control
 
-![PilTemp](../../../img/PilTemp.png)
+![PilTemp](../../../img/PilTemp.jpg)
 
 Used to adjust ECS system for pilot comfort.
 
 ## Cockpit Lighting Control Panel
 
-![PilCockLights](../../../img/PilCockLights.png)
+![PilCockLights](../../../img/PilCockLights.jpg)
 
 The Cockpit Lighting Control Panel provides control of all panel edge lighting,
 flight instrument panel lighting, the console floodlights, the white floodlights

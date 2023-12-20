@@ -2,7 +2,7 @@
 
 ## Radar Set Control Panel
 
-![wso_radar_set_control_panel](../../../img/wso_radar_set_control_panel.png)
+![wso_radar_set_control_panel](../../../img/wso_radar_set_control_panel.jpg)
 
 ### Power Knob
 
@@ -144,7 +144,7 @@ circumstances.
 
 ## AN/ALE-40 Cockpit Control Unit
 
-![wso_an_ale_40](../../../img/wso_an_ale_40.png)
+![wso_an_ale_40](../../../img/wso_an_ale_40.jpg)
 
 ### Ripple Switch
 

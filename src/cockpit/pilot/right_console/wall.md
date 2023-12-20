@@ -2,7 +2,7 @@
 
 ## Flight Instrument Lights Intensity Panel
 
-![InsIntensity](../../../img/InsIntensity.png)
+![InsIntensity](../../../img/InsIntensity.jpg)
 
 The Instrument Lights Intensity Panel has six knobs that allow to independently
 change illumination intensity on the following indicators:
@@ -19,7 +19,7 @@ Light knob on the Cockpit Light Control Panel.
 
 ## Formation and Indexer Lights Control Panel
 
-![FormLights](../../../img/FormLights.png)
+![FormLights](../../../img/FormLights.jpg)
 
 Control of the formation lights, which are found on the wing tips, both sides of
 the vertical stabilizer, and along the fuselage forward and amidship, is
@@ -35,7 +35,7 @@ the knob.
 
 ## Circuit Breaker Panel
 
-![pilot_cb_panel](../../../img/pilot_cb_panel.png)
+![pilot_cb_panel](../../../img/pilot_cb_panel.jpg)
 
 Contains seven circuit breakers responsible for flight control surfaces and
 other systems important for safe operation of the aircraft.
@@ -53,7 +53,7 @@ and cannot be operated anymore.
 
 ## Emergency Floodlights Panel
 
-![PilFlood](../../../img/PilFlood.png)
+![PilFlood](../../../img/PilFlood.jpg)
 
 This auxiliary panel has various controls for lights and also audio.
 

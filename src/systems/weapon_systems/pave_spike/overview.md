@@ -1,6 +1,6 @@
 # Pave Spike
 
-![pave_spike_pod](../../../img/pave_spike_pod.png)
+![pave_spike_pod](../../../img/pave_spike_pod.jpg)
 
 The AN/AVQ-23 Pave Spike targeting pod is the successor of the AN/AVQ-10 Pave
 Knife and predecessor of the AN/AVQ-26 Pave Tack pod. It entered service in 1974
@@ -8,7 +8,7 @@ and was replaced from 1982 to 1989 by the Pave Tack pod. It provides a slew-able
 TV image for spotting ground targets and can fire laser for determining range
 information and to guide laser guided weapons.
 
-![pave_spike_screen_example](../../../img/pave_spike_screen_example.png)
+![pave_spike_screen_example](../../../img/pave_spike_screen_example.jpg)
 
 The line of sight can be controlled by the WSO, using the Antenna Hand Control.
 The camera image is displayed on the DSCG scope and can be viewed by both, the
@@ -25,8 +25,8 @@ Limitations for the pods gimbals are
 - Pitch: -160 to +15 degrees
 - Yaw: -15 to +15 degrees
 
-![pave_spike_roll_limit](../../../img/pave_spike_roll_limit.png)
-![pave_spike_elev_limit](../../../img/pave_spike_elev_limit.png)
+![pave_spike_roll_limit](../../../img/pave_spike_roll_limit.jpg)
+![pave_spike_elev_limit](../../../img/pave_spike_elev_limit.jpg)
 
 ## Symbology
 
@@ -45,8 +45,8 @@ On the left, the image displays two cues:
 During weapon operation, TTg moves down until it intersects T0, indicating the
 time to release.
 
-![pave_spike_symbology](../../../img/pave_spike_symbology.png)
-![pave_spike_symbology_fov](../../../img/pave_spike_symbology_fov.png)
+![pave_spike_symbology](../../../img/pave_spike_symbology.jpg)
+![pave_spike_symbology_fov](../../../img/pave_spike_symbology_fov.jpg)
 
 The cues also indicate various situations related to laser operation.
 
@@ -72,8 +72,8 @@ consists of:
 
 While the display is shown on the DSCG screens in both cockpits.
 
-![Pilot System Overview](../../../img/eotgt_pilot_overview.png)
-![WSO System Overview](../../../img/eotgt_wso_overview.png)
+![Pilot System Overview](../../../img/eotgt_pilot_overview.jpg)
+![WSO System Overview](../../../img/eotgt_wso_overview.jpg)
 
 ### Azimuth-Elevation Indicator
 
@@ -81,7 +81,7 @@ The Azimuth-Elevation Indicator is the main instrument for the pilot to assess
 the pods current attitude in order to keep the line of sight within the
 operational limits.
 
-![EOLos](../../../img/EOLos.png)
+![EOLos](../../../img/EOLos.jpg)
 
 The needle shows the pods roll position from -160 (CW) to +110 (CCW) degrees.
 
@@ -99,7 +99,7 @@ red flag are shown, the view will not be obstructed by the pod or the aircraft.
 This panel provides the pilot with a readout of the slant range measured by the
 Pave Spike (x100 ft).
 
-![range_indicator](../../../img/range_indicator.png)
+![range_indicator](../../../img/range_indicator.jpg)
 
 When the Test-Button is pressed, the display shows 888, the knob underneath it
 controls the brightness of the readout.
@@ -120,7 +120,7 @@ push-buttons on this panel. Each press will advance the corresponding digit by
 one. Once a code has been set, it can be transferred to the Pave Spike by
 pressing the Enter-Button to the right.
 
-![laser_coder_control](../../../img/laser_coder_control.png)
+![laser_coder_control](../../../img/laser_coder_control.jpg)
 
 The Laser Coder system starts validating the entered code, this process takes
 about 5 seconds. If the NO-GO lamp is lit, the code is invalid.
@@ -135,7 +135,7 @@ the currently set code.
 
 This is the main panel to interact with the targeting pod.
 
-![target_des_panel](../../../img/target_des_panel.png)
+![target_des_panel](../../../img/target_des_panel.jpg)
 
 From left to right, top to bottom, it provides the WSO with:
 
@@ -164,7 +164,7 @@ other conditions, such as a valid laser code being set, are met.
 During Track mode, the WSO can manually slew and correct the pods line of sight
 with the Antenna Hand Control, or Antenna Stick.
 
-![pave_spike_antenna_hand_control](../../../img/pave_spike_antenna_hand_control.png)
+![pave_spike_antenna_hand_control](../../../img/pave_spike_antenna_hand_control.jpg)
 
 The Challenge Button is used to zoom in or out, while the 2-stage trigger is
 used to switch between modes and fire the laser.

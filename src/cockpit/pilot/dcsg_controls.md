@@ -1,10 +1,10 @@
 # DSCG Controls
 
-![DSCG Controls](../../img/GunRepeater.png)
+![DSCG Controls](../../img/GunRepeater.jpg)
 
 ## Reticle Intensity/Scale Knob
 
-![RetIntensity](../../img/RetIntensity.png)
+![RetIntensity](../../img/RetIntensity.jpg)
 
 | Name    | Description                                                  |
 | ------- | ------------------------------------------------------------ |
@@ -13,20 +13,20 @@
 
 ## Sight Shutter Lever
 
-![SightShutter](../../img/SightShutter.png)
+![SightShutter](../../img/SightShutter.jpg)
 
 Changes the optical sight light source to prevent damage to the optics from high
 sunlight.
 
 ## Reticle Depression Knob
 
-![RetDepress](../../img/RetDepress.png)
+![RetDepress](../../img/RetDepress.jpg)
 
 Controls manual depression in 1 mil increments.
 
 ## Sight Mode Knob
 
-![SightMode](../../img/SightMode.png)
+![SightMode](../../img/SightMode.jpg)
 
 Selects the mode of operation for the gun-sight.
 
@@ -42,7 +42,7 @@ Selects the mode of operation for the gun-sight.
 
 ## OPR ERS/Contrast Knob
 
-![Contr](../../img/Contr.png)
+![Contr](../../img/Contr.jpg)
 
 Two function (pushbutton inside of knob) control of the front scope display.
 
@@ -53,7 +53,7 @@ Two function (pushbutton inside of knob) control of the front scope display.
 
 ## Brightness Knob/Horizon Line Knob
 
-![BrtHrz](../../img/BrtHrz.png)
+![BrtHrz](../../img/BrtHrz.jpg)
 
 Dual knob control of the front scope display settings.
 
@@ -64,7 +64,7 @@ Dual knob control of the front scope display settings.
 
 ## INT Tab
 
-![pilot_int_tab](../../img/pilot_dscg_int_tab.png)
+![pilot_int_tab](../../img/pilot_dscg_int_tab.jpg)
 
 The INT tab rotates around the display to alter the relative darkness of the
 radar display, permitting the pilot to adjust the scope relative to ambient
@@ -72,20 +72,20 @@ light.
 
 ## Red Tab
 
-![pilot_red_tab](../../img/pilot_dscg_red_tab.png)
+![pilot_red_tab](../../img/pilot_dscg_red_tab.jpg)
 
 The red tab is rotated to provide a red scope display for night flying.
 
 ## In Range Light
 
-![InRng](../../img/pilot_dscg_in_range_light.png)
+![InRng](../../img/pilot_dscg_in_range_light.jpg)
 
 The IN RANGE light illuminates to alert the pilot that the current locked target
 is within range parameters.
 
 ## Hold Altitude Light
 
-![HoldAlt](../../img/pilot_dscg_hold_alt_light.png)
+![HoldAlt](../../img/pilot_dscg_hold_alt_light.jpg)
 
 The HOLD ALT light illuminates as an instruction to the pilot from the fire
 control system to maintain current altitude to assist in a snap-up intercept
@@ -102,14 +102,14 @@ dot in the ASE circle.
 
 ## Range Lights
 
-![RngLights](../../img/pilot_dscg_range_lights.png)
+![RngLights](../../img/pilot_dscg_range_lights.jpg)
 
 The Range Lights illuminate relative to range settings selected by the WSO.
 Range is provided on the upper right corner of the DSCG scope.
 
 ## Wheels Light
 
-![Wheels](../../img/pilot_dscg_wheels_light.png)
+![Wheels](../../img/pilot_dscg_wheels_light.jpg)
 
 The WHEELS lamp illuminates when the aircraft slows below flaps blow-up speed
 (roughly 230 knots, dependent on altitude) with the gear still raised.

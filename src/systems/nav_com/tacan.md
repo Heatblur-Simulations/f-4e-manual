@@ -1,6 +1,6 @@
 # TACAN (Tactical Air Navigation) System
 
-![external_tacan_antenna](../../img/ext_tcn_antenna.png)
+![external_tacan_antenna](../../img/ext_tcn_antenna.jpg)
 
 Bearing and range information to transmitting stations is provided by the TACAN
 system. The TACAN system can receive information from ground stations as far as
@@ -16,7 +16,7 @@ best signal.
 
 ## TACAN Controls
 
-![tacan_general](../../img/tacan_general.png)
+![tacan_general](../../img/tacan_general.jpg)
 
 TACAN controls are found on the navigation control panel in each cockpit.
 

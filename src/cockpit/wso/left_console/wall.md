@@ -2,7 +2,7 @@
 
 ## Emergency Flaps Handle
 
-![wso_emergency_flaps_handle](../../../img/wso_emergency_flaps_handle.png)
+![wso_emergency_flaps_handle](../../../img/wso_emergency_flaps_handle.jpg)
 
 Used for emergency deployment of the slats and flaps from the rear cockpit, and
 is activated by pulling the handle aft. Pneumatic system powering extension of
@@ -12,7 +12,7 @@ surfaces. Will deploy fully when slower.
 
 ## LABS Panel
 
-![wso_labs_panel](../../../img/wso_labs_panel.png)
+![wso_labs_panel](../../../img/wso_labs_panel.jpg)
 
 ### Aural Tone Volume
 

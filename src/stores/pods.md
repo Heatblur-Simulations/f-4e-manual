@@ -9,7 +9,7 @@ rounds per minute. See the [gun section](guns.md) for more.
 
 ## AN/AVQ-23 Pave Spike
 
-![pave_spike_pod](../img/pave_spike_pod.png)
+![pave_spike_pod](../img/pave_spike_pod.jpg)
 
 The AN/AVQ-23 Pave Spike targeting pod, capable of spotting and tracking targets
 during daylight-conditions and using a laser to guide weapons on target. See the
@@ -17,14 +17,14 @@ during daylight-conditions and using a laser to guide weapons on target. See the
 
 ## ALQ-131 ECM Pod
 
-![ext_alq_131_ecm_pod](../img/ext_alq_131_ecm_pod.png)
+![ext_alq_131_ecm_pod](../img/ext_alq_131_ecm_pod.jpg)
 
 Pod for electronic electronic countermeasures, such as jamming radars and radar
 guided missiles.
 
 ## ALE-40 Dispenser
 
-![cm_dispenser](../img/cm_dispenser.png)
+![cm_dispenser](../img/cm_dispenser.jpg)
 
 Countermeasure dispensers holding chaff and flare. See the
 [defensive systems section](../systems/defensive_systems.md) for more.

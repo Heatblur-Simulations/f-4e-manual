@@ -2,7 +2,7 @@
 
 ## TACAN Control Panel
 
-![FrontTCN](../../../img/FrontTCN.png)
+![FrontTCN](../../../img/FrontTCN.jpg)
 
 The TACAN Control Panel is used to enter the desired TACAN channel, mode, and
 audible volume for the monitoring of said channel by the aircrew. The panel is
@@ -38,7 +38,7 @@ above or below the cooperating aircraft, but on the same range- X or Y.
 
 ## Communication Control Panel
 
-![CCP](../../../img/CCP.png)
+![CCP](../../../img/CCP.jpg)
 
 The Communication Control Panel provides selection and mode of the UHF radio in
 the aircraft. The panel is duplicated in both cockpits, and control over the

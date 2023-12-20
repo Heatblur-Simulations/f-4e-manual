@@ -10,7 +10,7 @@ is down and flush with panel recess.
 
 ## Intercom System Control Panel
 
-![PilIntercom](../../../img/PilIntercom.png)
+![PilIntercom](../../../img/PilIntercom.jpg)
 
 ### Pilot ICS Volume Control Knob
 
@@ -20,7 +20,7 @@ decrease audio between cockpits on the intercom.
 ### Pilot ICS Function Selector Switch
 
 | Name           | Description                                                                        |
-| -------------- | ---------------------------------------------------------------------------------- |
+|----------------|------------------------------------------------------------------------------------|
 | COLD MIC       | Mic switch on throttle must be held to activate intercom.                          |
 | HOT MIC        | Voice automatically transmitted on intercom.                                       |
 | RADIO OVERRIDE | Intercom overrides incoming radio calls; does not override aircraft warning audio. |
@@ -30,14 +30,14 @@ decrease audio between cockpits on the intercom.
 Determines current amplifier for intercom function.
 
 | Name | Description                                                                  |
-| ---- | ---------------------------------------------------------------------------- |
+|------|------------------------------------------------------------------------------|
 | B/U  | Backup headset amplifier provides audio.                                     |
 | NORM | Primary headset amplifier provides audio.                                    |
 | EMER | The opposite cockpit's audio is heard at its set volume using its amplifier. |
 
 ## AN/ALE-40 Programmer
 
-![AN/ALE-40 Panel](../../../img/ANALE40Prg.png)
+![AN/ALE-40 Panel](../../../img/ANALE40Prg.jpg)
 
 ### Chaff Burst Count
 
@@ -81,6 +81,16 @@ Illuminates when the Flares select switch is in the Normal position and either
 
 ## Anti-G Suit Control Valve
 
-![pilot_anti_g_suit](../../../img/pilot_anti_g_valve.png)
+![pilot_anti_g_suit](../../../img/pilot_anti_g_valve.jpg)
 
-TODO
+The anti-G system delivers low-pressure auxiliary air to the anti-G suits, with air passing through
+the anti-G suit control valve before reaching the suit. The suit remains deflated up to
+approximately 1.5 G, and as G forces reach or exceed this level, air flows into the suit
+proportionally. The suit stays inflated in relation to constant G forces and begins to deflate as G
+forces decrease.
+
+A manual inflation button in the anti-G suit control valve enables the crewman to manually inflate
+the suit for system checks or fatigue relief. A pressure relief valve within the system activates at
+approximately 11 psi, serving as a safety backup in case of malfunction. The system operates
+automatically whenever an engine is running, ensuring continuous support for the wearer during
+varying G-force conditions.

@@ -9,16 +9,16 @@ front cockpit.
 
 ## Nose/Tail ARM Switch
 
-![pilot_nose_tail_arm](../../img/pilot_nose_tail_arm.png)
+![pilot_nose_tail_arm](../../img/pilot_nose_tail_arm.jpg)
 
 Beginning from the top of the panel, the four way Nose/Tail ARM switch selects
 the solenoids for arming wire capture on MERs and TERs, which then arm the fuzes
 at the point of release. Additionally, the switch position can also dictate
-in-flight high/low drag release mode for retarded bombs such as the Mk 82
-Snakeye.
+in-flight high/low drag release mode for retarded bombs such as the [Mk 82
+Snakeye](../../stores/air_to_ground/bombs/conventional_bombs.md).
 
 | Name      | Description                                                                       |
-| --------- | --------------------------------------------------------------------------------- |
+|-----------|-----------------------------------------------------------------------------------|
 | SAFE      | No arming solenoids activate; bombs release without fuzing enabled.               |
 | NOSE      | Forward and center position solenoids activate to hold arming lanyards.           |
 | TAIL      | Aft position solenoids activate to hold arming lanyards.                          |
@@ -37,59 +37,64 @@ RKTS and DISP bypass empty stations automatically.
 
 ## Station Select Buttons
 
-![pilot_station_select_buttons](../../img/pilot_station_select_buttons.png)
+![pilot_station_select_buttons](../../img/pilot_station_select_buttons.jpg)
 
 ## Mode Selection - Delivery Mode Knob
 
-![pilot_delivery_mode_knob](../../img/pilot_delivery_mode_knob.png)
+![pilot_delivery_mode_knob](../../img/pilot_delivery_mode_knob.jpg)
 
 Release mode is set using the Delivery Mode Knob. Values to the left of OFF
-employ the AN/AJB-7 Attitude Reference and Combing Computer Set (ARBCS), whereas
-values to the right of DIRECT employ the Weapon Release Computer Set (WRCS).
+employ the AN/AJB-7 Attitude Reference and Combing Computer
+Set ([ARBCS](../../systems/weapon_systems/arbcs.md)),
+whereas
+values to the right of DIRECT employ the Weapon Release Computer
+Set ([WRCS](../../systems/weapon_systems/arbcs.md)).
 DIRECT is the manual release mode. TGT FIND functions as a navigational mode,
 and cannot provide a weapon release signal to the fire control, thus can be
 considered in practice a "safe" position.
 
 The values, clockwise from the left, are as follows:
 
-| Name     | Description                            | System |
-| -------- | -------------------------------------- | ------ |
-| INST O/S | Instantaneous Over the Shoulder        | ARBCS  |
-| LOFT     | Loft                                   | ARBCS  |
-| O/S      | (Timed) Over the Shoulder              | ARBCS  |
-| T LAD    | Timed LADD (Low Angle Drogue Delivery) | ARBCS  |
-| TL       | Timed Level                            | ARBCS  |
-| OFF      | Off                                    |        |
-| DIRECT   | Manual                                 |        |
-| TGT FIND | Target Find (Navigation only)          | WRCS   |
-| DT       | Dive Toss                              | WRCS   |
-| DL       | Dive Laydown                           | WRCS   |
-| L        | Laydown                                | WRCS   |
-| OFFSET   | Offset Bomb                            | WRCS   |
-| AGM-45   | AGM-45 Delivery                        | WRCS   |
+| Name     | Description                            | System                                                                                        |
+|----------|----------------------------------------|-----------------------------------------------------------------------------------------------|
+| INST O/S | Instantaneous Over the Shoulder        | [ARBCS](../../systems/weapon_systems/arbcs.md) |
+| LOFT     | Loft                                   | [ARBCS](../../systems/weapon_systems/arbcs.md) |
+| O/S      | (Timed) Over the Shoulder              | [ARBCS](../../systems/weapon_systems/arbcs.md) |
+| T LAD    | Timed LADD (Low Angle Drogue Delivery) | [ARBCS](../../systems/weapon_systems/arbcs.md) |
+| TL       | Timed Level                            | [ARBCS](../../systems/weapon_systems/arbcs.md) |
+| OFF      | Off                                    |                                                                                               |
+| DIRECT   | Manual                                 |                                                                                               |
+| TGT FIND | Target Find (Navigation only)          | [WRCS](../../systems/weapon_systems/wrcs.md)   |
+| DT       | Dive Toss                              | [WRCS](../../systems/weapon_systems/wrcs.md)   |
+| DL       | Dive Laydown                           | [WRCS](../../systems/weapon_systems/wrcs.md)   |
+| L        | Laydown                                | [WRCS](../../systems/weapon_systems/wrcs.md)   |
+| OFFSET   | Offset Bomb                            | [WRCS](../../systems/weapon_systems/wrcs.md)   |
+| AGM-45   | AGM-45 Delivery                        | [WRCS](../../systems/weapon_systems/wrcs.md)   |
 
 ## Weapon Selector Knob
 
-![pilot_weapon_selector_knob](../../img/pilot_weapon_selector_knob.png)
+![pilot_weapon_selector_knob](../../img/pilot_weapon_selector_knob.jpg)
 
 The Weapon Selector Knob is used to designate the type of weapon to be used
 
-| Name        | Description                                                               |
-| ----------- | ------------------------------------------------------------------------- |
-| RKTS & DISP | Rockets and dispensers. Arms AWRU release circuitry.                      |
-| ARM         | AGM-45 Shrike                                                             |
-| TV          | AGM-65 Maverick and other EO guided weapons.                              |
-| C           | Open/unused. May be utilized as an OFF selection.                         |
-| B           | Same function as AIR-TO-AIR button in rear cockpit.                       |
-| A           | Munitions with internally-set intervalometers (CBUs or spray containers). |
-| AGM 12      | AGM-12 Bullpup.                                                           |
-| BOMBS       | Bombs. Arms AWRU release circuitry.                                       |
+| Name        | Description                                                                                                                                    |
+|-------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| RKTS & DISP | [Rockets](../../stores/air_to_ground/rockets.md) and dispensers. Arms AWRU release circuitry.   |
+| ARM         | [AGM-45 Shrike](../../stores/air_to_ground/missiles/shrike.md)                                  |
+| TV          | [AGM-65 Maverick](../../stores/air_to_ground/missiles/maverick.md) and other EO guided weapons. |
+| C           | Open/unused. May be utilized as an OFF selection.                                                                                              |
+| B           | Same function as AIR-TO-AIR button in rear cockpit.                                                                                            |
+| A           | Munitions with internally-set intervalometers (CBUs or spray containers).                                                                      |
+| AGM 12      | AGM-12 Bullpup.                                                                                                                                |
+| BOMBS       | [Bombs](../../stores/air_to_ground/bombs/conventional_bombs.md). Arms AWRU release circuitry.   |
 
 ## Centerline Tank Aboard Light
 
-![pilot_centerline_tank_aboard](../../img/pilot_centerline_tank_aboard.png)
+![pilot_centerline_tank_aboard](../../img/pilot_centerline_tank_aboard.jpg)
 
-The forward AIM-7 missiles can be inhibited from launch under certain centerline
+The [forward AIM-7 missiles](../../stores/air_to_air/aim_7.md)
+can be
+inhibited from launch under certain centerline
 conditions due to possible separation issues or chance of igniting the contents
 of the centerline position. The CL tank light will illuminate if such a possible
 condition exists. The conditions that can cause this are as follows:

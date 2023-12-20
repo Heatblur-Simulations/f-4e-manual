@@ -2,7 +2,7 @@
 
 ## Weapon Release Computer Set (WRCS) Panel
 
-![wso_weapon_release_computer_set_panel](../../../img/wso_weapon_release_computer_set_panel.png)
+![wso_weapon_release_computer_set_panel](../../../img/wso_weapon_release_computer_set_panel.jpg)
 
 ### Target Distance Controls
 
@@ -61,7 +61,7 @@ function. The result will illuminate in the NO GO/GO placard.
 
 ## Cursor Control Panel
 
-![wso_cursor_control_panel](../../../img/wso_cursor_control_panel.png)
+![wso_cursor_control_panel](../../../img/wso_cursor_control_panel.jpg)
 
 Used for WRCS radar bombing mode target entry. Functions only with MAP-PPI mode
 selected and applicable bombing mode selected on the Delivery Mode Knob.
@@ -109,7 +109,7 @@ Track cursors defines the RIP when the Freeze button is pressed.
 
 ## Nuclear Stores Consent Switch
 
-![wso_nuclear_stores_consent_switch](../../../img/wso_nuclear_stores_consent_switch.png)
+![wso_nuclear_stores_consent_switch](../../../img/wso_nuclear_stores_consent_switch.jpg)
 
 Used to arm nuclear stores. In the SAFE position, release is inhibited. REL
 allows releasing stores unarmed, while REL/ARM allows dropping nuclear stores

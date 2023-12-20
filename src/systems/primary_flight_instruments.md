@@ -2,7 +2,7 @@
 
 ## True Airspeed Indicators
 
-![TASInd](../img/TASInd.png)
+![TASInd](../img/TASInd.jpg)
 
 True Airspeed Indicators are provided in both cockpits, and carry a calibrated
 range from 150 to 1500 knots. While the indicators can read as low as 0 knots,
@@ -15,7 +15,7 @@ configured; however, TAS is provided as a DMAS function.
 
 ## Ground Speed Indicator
 
-![wso_ground_speed_indicator](../img/wso_ground_speed_indicator.png)
+![wso_ground_speed_indicator](../img/wso_ground_speed_indicator.jpg)
 
 A ground speed indicator is provided in the rear cockpit, with a range from 0 to
 1999 knots. Ground speed is provided by the navigation computer, with the source
@@ -30,28 +30,28 @@ function.
 
 ## Accelerometers
 
-![GGauge](../img/GGauge.png)
+![GGauge](../img/GGauge.jpg)
 
 Both cockpits retain accelerometers for monitoring G load; the accelerometers
-carry 3 needles- one for current G loading, and a positive and negative G
-loading needle for the highest load G load detected since the accelerometer was
+carry 3 needles - one for current G loading, and a positive and negative G
+loading needle for the highest load G-load detected since the accelerometer was
 reset. To reset the gauge, the PUSH TO SET button will return the recording
 pointers to positive 1 G.
 
 ## Airspeed/Mach Indicators
 
-![MachInd](../img/MachInd.png)
+![MachInd](../img/MachInd.jpg)
 
 Found in both cockpits is a combination Airspeed/Mach indicator. The indicators
 provide a fixed airspeed scale at the middle of the indicator, reading values
-from 80 to 850 knots, and a rotating Mach scale number scale to the outside,
-with readings from 0.4 to 2.5 Mach. A two position knob offers both an airspeed
+from 80 to 850 knots, and a rotating Mach number scale to the outside,
+with readings from 0.4 to 2.5 Mach. A two position push-and-rotate knob offers both an airspeed
 index with a functional range between 80 and 195 knots, and a Mach index pointer
 with a range between 225 knots and 850 knots.
 
 ## Altimeter
 
-![Altimeter](../img/Altim.png)
+![Altimeter](../img/Altim.jpg)
 
 Altimeters in both cockpits provide a functional range from 0 to 80,000 feet. To
 the outside of the indicator is a pointer scale, gradation in 50 foot units with
@@ -68,14 +68,14 @@ warnings on the telelight panel.
 
 ## Magnetic Compass
 
-![StbyMagComp](../img/StbyMagComp.png)
+![StbyMagComp](../img/StbyMagComp.jpg)
 
 A magnetic compass is provided in each cockpit for use in the event of a
 navigation or electrical system failure.
 
 ## Vertical Velocity Indicators (VVI)
 
-![VVI](../img/VVI.png)
+![VVI](../img/VVI.jpg)
 
 VVI Indicators are provided in both cockpits, and show the rate of climb or
 descent of the aircraft, calculated via atmospheric pressure change using the
@@ -83,7 +83,7 @@ static pressure system.
 
 ## Radar Altimeter
 
-![RadAlt](../img/RadAlt.png)
+![RadAlt](../img/RadAlt.jpg)
 
 Found in the front cockpit, the Radar Altimeter has a functional range of 0 to
 5000 feet above ground level. The radar altimeter functions from 0 to 30 degrees
@@ -98,14 +98,14 @@ reference marker that will determine the altitude which triggers the low
 altitude warning. A self-test, initiated by pressing the function control
 switch, shows 35 +-15 feet. Above 5000 feet or with unreliable signals, the
 pointer hides behind a mask, showing the OFF flag. The OFF appears also when
-power is lost- the indicator will then present the last altitude detected above
+power is lost; the indicator will then present the last altitude detected above
 ground level at the time of this occurring.
 
 ## Turn and Slip Indicators
 
 | Pilot                                                            | WSO                                                          |
 |------------------------------------------------------------------|--------------------------------------------------------------|
-| ![Pilot_turn_and_slip](../img/pilot_turn_and_slip_indicator.png) | ![WSO_turn_and_slip](../img/wso_turn_and_slip_indicator.png) |
+| ![Pilot_turn_and_slip](../img/pilot_turn_and_slip_indicator.jpg) | ![WSO_turn_and_slip](../img/wso_turn_and_slip_indicator.jpg) |
 
 In the front cockpit, a turn and slip indicator is added to the ADI on the
 instrument panel; while the needle provides correct direction of turn, it does
@@ -114,7 +114,7 @@ indicator is found on the rear cockpit panel.
 
 ## Rear Cockpit Attitude Indicator
 
-![Wso_rear_cockpit_attitude_indicator](../img/wso_rear_cockpit_attitude_indicator.png)
+![Wso_rear_cockpit_attitude_indicator](../img/wso_rear_cockpit_attitude_indicator.jpg)
 
 The AHRS provides attitude information to the Attitude Indicator found on the
 rear cockpit instrument panel regardless of the Reference System Selector Switch
@@ -124,7 +124,7 @@ indicator or AHRS, the OFF flag will display.
 
 ## Pitot-Static System
 
-![ext_pitot_tube](../img/ext_pitot_tube.png)
+![ext_pitot_tube](../img/ext_pitot_tube.jpg)
 
 The Pitot-Static system provides impact and static pressure to flight
 instrumentation, the Air Data Computer, and airspeed-driven switches. To
@@ -136,16 +136,16 @@ cockpit right console.
 Using a variety of static, attitude, and environmental inputs, the Air Data
 Computer (ADC) provides the pneumatic and electrical inputs to the AFCS, Fire
 Control System, Air Induction System, the INS, the LCOSS, navigational computer,
-as well as manages the variable bypass bell mouth system for the engines. Flight
+and manages the variable bypass bell mouth system for the engines. Flight
 through weather such as ice or rain can induce errors in the performance of
 these systems until the condition has cleared, and this should be taken into
 account.
 
 ## Static Pressure Compensator
 
-![pilot_cadc_switch](../img/pilot_cadc_switch.png)
+![pilot_cadc_switch](../img/pilot_cadc_switch.jpg)
 
-![pilot_cadc_switch](../img/pilot_static_corr_off_light.png)
+![pilot_cadc_switch](../img/pilot_static_corr_off_light.jpg)
 
 The Static Pressure Compensator (SPC) performs correction of altimeter lag
 caused by rapid altitude change. The SPC must be reset after engine startup on
@@ -163,4 +163,4 @@ the pneumatic input at the altimeter. Should the SPC be offline, the ALT ENCODER
 OUT light will also illuminate to confirm lagged altimeter performance, and
 potential Mode C issues.
 
-![pilot_alt_encoder_out](../img/pilot_alt_encoder_out.png)
+![pilot_alt_encoder_out](../img/pilot_alt_encoder_out.jpg)

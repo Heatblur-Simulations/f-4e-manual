@@ -1,6 +1,6 @@
 # Right Console
 
-![RightConsole](../../../img/pilot_right_console_overview.png)
+![RightConsole](../../../img/pilot_right_console_overview.jpg)
 
 The right console is further divided into 4 sections.
 

@@ -2,7 +2,7 @@
 
 ## Laser Coder Control
 
-![laser_coder_control](../../../img/laser_coder_control.png)
+![laser_coder_control](../../../img/laser_coder_control.jpg)
 
 The WSO can set the laser code used by the targeting pod by using the four small
 push-buttons on this panel.
@@ -29,7 +29,7 @@ the code is invalid.
 
 ## Inertial Navigation Control Panel
 
-![wso_ins_control_panel](../../../img/wso_ins_control_panel.png)
+![wso_ins_control_panel](../../../img/wso_ins_control_panel.jpg)
 
 The Inertial Navigation Control Panel provides the rear pilot mode selection and
 system alignment command selection.
@@ -67,7 +67,7 @@ alignment.
 
 ## Weapon Delivery Panel
 
-![wso_weapon_delivery_panel](../../../img/wso_weapon_delivery_panel.png)
+![wso_weapon_delivery_panel](../../../img/wso_weapon_delivery_panel.jpg)
 
 ### ACTIVATE Switch
 
@@ -91,7 +91,7 @@ range.
 
 ## Volume Panel
 
-![wso_volume_panel](../../../img/wso_volume_panel.png)
+![wso_volume_panel](../../../img/wso_volume_panel.jpg)
 
 A small panel to the right of the antenna hand control stick contains two
 combined knobs to control volume.

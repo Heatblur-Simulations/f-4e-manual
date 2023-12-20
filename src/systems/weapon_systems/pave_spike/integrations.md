@@ -5,7 +5,7 @@
 During normal operation, the pod is connected with the INS. This can be disabled
 manually by pressing the INS OUT push button.
 
-![ins_out_lamp](../../../img/ins_out_lamp.png)
+![ins_out_lamp](../../../img/ins_out_lamp.jpg)
 
 With INS disabled, the following functions are not available:
 
@@ -19,12 +19,12 @@ With INS disabled, the following functions are not available:
 During normal operation, the pod is connected with the WRCS. This can be
 disabled manually by pressing the WRCS OUT push button.
 
-![wrcs_out_lamp](../../../img/wrcs_out_lamp.png)
+![wrcs_out_lamp](../../../img/wrcs_out_lamp.jpg)
 
 Also, the WRCS is disabled automatically without INS integration, or if
 currently not in DIRECT or TGT FIND weapon mode.
 
-![pave_spike_weapon_sel](../../../img/pave_spike_weapon_sel.png)
+![pave_spike_weapon_sel](../../../img/pave_spike_weapon_sel.jpg)
 
 With WRCS disabled, the following functions are not available:
 

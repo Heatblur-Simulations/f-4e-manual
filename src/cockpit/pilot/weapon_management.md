@@ -1,10 +1,10 @@
 # Weapon Management
 
-![MwsGroup](../../img/MwsGroup.png)
+![MwsGroup](../../img/MwsGroup.jpg)
 
 ## Head Up Display Indicators
 
-![HUD](../../img/HUD.png)
+![HUD](../../img/HUD.jpg)
 
 The Head Up Display indicator panel provides weapon status for the Master Arm
 control as well as the current selected air to air weapon based on the position
@@ -19,7 +19,7 @@ of the Guns/Missile switch on the left throttle handle.
 
 ## UHF Remote Channel Indicator
 
-![UHFInd](../../img/pilot_uhf_indicator.png)
+![UHFInd](../../img/pilot_uhf_indicator.jpg)
 
 Provides the current selected channel value when the radio is set to PRESET.
 Otherwise, the indicator displays M if the radio is set to Manual, G when the
@@ -27,7 +27,7 @@ COMM function is set as GUARD/ADF, or A when the A-3-2-T switch is in A.
 
 ## True Airspeed Indicator
 
-![TASInd](../../img/TASInd.png)
+![TASInd](../../img/TASInd.jpg)
 
 Provides the aircraft's true Airspeed in knots, and is calibrated from 150 to
 1500 knots; airspeeds below this range are thus not reliable. At high rates of
@@ -35,7 +35,7 @@ airspeed change, there may be a lag of up to
 
 ## Flight Instrument Brightness Knob
 
-![Flight Instrument Brightness Knob](../../img/InstruBright.png)
+![Flight Instrument Brightness Knob](../../img/InstruBright.jpg)
 
 Controls brightness of the flight instrument cluster.
 
@@ -48,7 +48,7 @@ on the Flight Instrument Lights Intensity Panel, located on the right wall.
 
 ## Nose/Tail Arming Switch
 
-![NTArm](../../img/NTArm.png)
+![NTArm](../../img/NTArm.jpg)
 
 Controls the arming solenoids of the MER and TER racks, selecting what MER/TER
 position(s) arming lanyards are pulled from released bomb fuzes upon separation,
@@ -64,7 +64,7 @@ capability for retarded bombs.
 
 ## Station Select Buttons
 
-![SSBs](../../img/pilot_station_select_buttons.png)
+![SSBs](../../img/pilot_station_select_buttons.jpg)
 
 The Station Select Buttons are used to activate air to ground munition stations
 and the nose gun. Upon selection of a station, the upper half denoting the
@@ -84,13 +84,13 @@ brightness.
 
 ## Master Arm Switch
 
-![MArm](../../img/MArm.png)
+![MArm](../../img/MArm.jpg)
 
 Provides master arming function for all aircraft weapons.
 
 ## Delivery Mode Knob
 
-![DelMode](../../img/DelMode.png)
+![DelMode](../../img/DelMode.jpg)
 
 The Delivery Mode Knob sets the fire control system to the desired air to ground
 weapon release type. Split into two halves, the left side of the dial references
@@ -120,7 +120,7 @@ follows, clockwise from the left:
 
 ## Weapon Selector Knob
 
-![WSK](../../img/WSK.png)
+![WSK](../../img/WSK.jpg)
 
 Selected for the type of weapon currently required, providing release signals to
 the AWRU (Aircraft Weapons Release Unit). ARM and TV positions inhibit air to
@@ -140,7 +140,7 @@ affect tuning status of radar guided weapons. Positions are as follows:
 
 ## Aircraft Weapons Release Unit
 
-![AWRU](../../img/AWRU.png)
+![AWRU](../../img/AWRU.jpg)
 
 Provides timed interval release scheduling of single or multiple bombs or
 rockets and dispensed munitions based on the selections made between the
@@ -178,7 +178,7 @@ two seconds the pickle button is held down.
 
 ## Missile Status Lights
 
-![MSL](../../img/pilot_missile_status_light.png)
+![MSL](../../img/pilot_missile_status_light.jpg)
 
 The Missile Status Light window provides confirmation of currently installed and
 configured air to air missiles.
@@ -195,7 +195,7 @@ option, or is launched.
 
 ## Radar Missile Power Switch
 
-![Radar Missile Power Switch](../../img/RMPS.png)
+![Radar Missile Power Switch](../../img/RMPS.jpg)
 
 The Radar Missile Power Switch provides power to the CW tuning drive and
 monitoring functionality.
@@ -214,14 +214,14 @@ emissions endangering ground crew.
 
 ## Centerline Tank Aboard Light
 
-![Centerline Tank Aboard Light](../../img/pilot_centerline_tank_aboard.png)
+![Centerline Tank Aboard Light](../../img/pilot_centerline_tank_aboard.jpg)
 
 Illuminates when a stores condition exists that precludes ejection and launch of
 an AIM-7 missile installed in one of the two forward positions.
 
 ## Interlock Switch
 
-![Interlock Switch](../../img/pilot_interlock_switch.png)
+![Interlock Switch](../../img/pilot_interlock_switch.jpg)
 
 A two position switch that determines whether the fire control system launch
 parameter interlocks can prevent an AIM-7 from being launched when the trigger
@@ -234,7 +234,7 @@ is pulled.
 
 ## Selective Jettison Control
 
-![SelJet](../../img/SelJet.png)
+![SelJet](../../img/SelJet.jpg)
 
 The Selective Jettison Control knob provides the pilot direct access to dump
 stores in an emergency on a position by position basis, or immediate release of
@@ -251,7 +251,7 @@ round at once.
 
 ## Recorder Lamp
 
-![pilot_recorder_lamp](../../img/pilot_recorder_lamp.png)
+![pilot_recorder_lamp](../../img/pilot_recorder_lamp.jpg)
 
 This dimmable lamp is lit to indicate operation of the
 Airborne-Video-Tape-Recorder (AVTR).

@@ -1,19 +1,19 @@
 # Overhead Indicators
 
-![Overhead Indicators](../../img/pilot_overhead_indicators.png)
+![Overhead Indicators](../../img/pilot_overhead_indicators.jpg)
 
 ## SHOOT Lights
 
-![LftShoot](../../img/pilot_shoot_light.png)
+![LftShoot](../../img/pilot_shoot_light.jpg)
 
 Illuminates when missile firing parameters are met. Do not illuminate when in VI
 or A-G modes.
 
 ## Air Refueling Lights
 
-![AARLights](../../img/pilot_aar_lights_left.png)
+![AARLights](../../img/pilot_aar_lights_left.jpg)
 
-![AAR Disengage Light](../../img/pilot_aar_lights_right.png)
+![AAR Disengage Light](../../img/pilot_aar_lights_right.jpg)
 
 Provide status of the Air Refueling System while in use.
 
@@ -27,30 +27,30 @@ Provide status of the Air Refueling System while in use.
 
 ## Labs Pull Up Light
 
-![LabsPU](../../img/LabsPU.png)
+![LabsPU](../../img/LabsPU.jpg)
 
 Illuminates and disengages during Loft and LABS bombing runs to provide timing
 sequence information to the pilot.
 
 ## Standby Magnetic Compass
 
-![StbyMagComp](../../img/StbyMagComp.png)
+![StbyMagComp](../../img/StbyMagComp.jpg)
 
 A standard magnetic compass for backup navigation assistance should the primary
 flight director systems fail.
 
 ## Angle of Attack Indexer Lights
 
-![AoA](../../img/AoA.png)
+![AoA](../../img/AoA.jpg)
 
 Provides quick confirmation of current aircraft AoA state based on illuminated
 position and color.
 
-![AoA_table](../../img/AoA_table.PNG)
+![AoA_table](../../img/AoA_table.jpg)
 
 ## Range Indicator
 
-![range_indicator](../../img/range_indicator.png)
+![range_indicator](../../img/range_indicator.jpg)
 
 This panel provides the pilot with a readout of the slant range measured by the
 Pave Spike Targeting Pod (x100 ft).

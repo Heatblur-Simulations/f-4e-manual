@@ -13,29 +13,46 @@ from 4000 to 6000 rounds per minute, delivering a muzzle velocity in excess of
 options available. Useful in both air to air and air to ground roles, the Vulcan
 was used for four confirmed kills by the USAF over Vietnam with the F-4E.
 
-To utilize the M61, the GUN station select switch must be selected, the Master
-Arm must be ON, and the Gun selection on the Pinky Switch (Aft) must be
+To utilize the M61,
+the [GUN station select switch](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#station-select-buttons)
+must be selected, the [Master
+Arm](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#master-arm-switch)
+must be
+ON, and
+the [Gun selection](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#head-up-display-indicators)
+on the Pinky Switch (Aft) must be
 actuated. This will illuminate the GUN lamp on the Head Up Display.
 
-For air to air usage, the optical sight should be selected to A/A mode. In air
+For air to air usage,
+the [optical sight](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/dcsg_controls.html#sight-mode-knob)
+should be selected to A/A mode. In air
 to air mode, the optical sight functions as a lead computing optical sighting
 (LCOS), thus maneuvering in both elevation and azimuth relative to a radar
 locked target, or a default 1000' range setting in the event of no lock. With a
 lock, the range bar presentation is relative to 6700' just to the left of the
 tick at the 1 o-clock position, down to 1000' at the 6 o-clock position.
 
-For air to ground use, the optical sight should be selected to A/G mode, the
-Delivery Mode knob should be set in the OFF or Direct mode, and the desired
-sight depression mil setting be entered for the intended attack profile.
+For air to ground use,
+the [optical sight](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/dcsg_controls.html#sight-mode-knob)
+should be selected to A/G mode, the
+[Delivery Mode knob](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#delivery-mode-knob)
+should be set in the OFF or Direct mode, and the desired
+[sight depression mil setting](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/dcsg_controls.html#reticle-depression-knob)
+be entered for the intended attack profile.
 Depression is set relative from the Fuselage Reference Line (FRL). While
 Depression will lower the reticle in elevation, there is no azimuth drift due to
 relative aircraft motion.
 
-Gun rate is controlled with the Rate switch on the Pedestal panel, and is
+Gun rate is controlled with
+the [Rate switch](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/pedestal_group.html#rate-of-fire-switch)
+on the Pedestal panel, and is
 selectable as High (6000 rounds per minute) or Low (4000 rounds per minute).
-Also on the Pedestal panel is the gun rounds remaining indicator.
+Also on the Pedestal panel is
+the [gun rounds remaining indicator](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/pedestal_group.html#rounds-remaining-indicator).
 
-Of note is the Auto Clear function; the cannon will fire approximately between 5
+Of note is
+the [Auto Clear](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/pedestal_group.html#auto-clear-switch)
+function; the cannon will fire approximately between 5
 and 11 rounds from the point the pilot has released the trigger to clear all
 bolt actions in the cannon; this spin-down takes approximately one second, and
 the gun cannot be fired again during this operation. While the Pedestal panel
@@ -43,7 +60,7 @@ carries the Auto Clear switch, this switch does not have any control over the
 internal M61A1 cannon, and can only deactivate round clearance for podded
 external cannon installations.
 
-![ext_gun_door_open](../img/ext_gun_and_purge_door.png)
+![ext_gun_door_open](../img/ext_gun_and_purge_door.jpg)
 
 ## External Cannon Pods SUU-16/A and SUU-23/A
 
@@ -68,15 +85,20 @@ loaded in the breeches to be released back into the ammo bin, which does entail
 a momentary delay of one to two seconds prior to being able to fire the pod
 again.
 
-Activation of the SUU pods are performed by selecting their respective Station
-Select switches, and placing the Delivery Mode knob in OFF or Direct. The Weapon
-Selector knob can be in any position other than TV or ARM, unless CAGE mode is
-activated. The desired Auto-Clear setting should be selected, and Master Arm set
-to ON to activate the pod. On the SUU-16, the Master Arm activation deploys the
+Activation of the SUU pods are performed by selecting their respective [Station
+Select buttons](../cockpit/pilot/weapon_management.md#station-select-buttons),
+and placing the [Delivery Mode knob](../cockpit/pilot/weapon_management.md#delivery-mode-knob)
+in OFF or
+Direct. [The Weapon Selector knob](../cockpit/pilot/weapon_management.md#weapon-selector-knob)
+can be in any position other than TV or ARM, unless CAGE mode is
+activated. The desired [Auto Clear setting](../cockpit/pilot/pedestal_group.md#auto-clear-switch)
+should be selected, and [Master Arm](../cockpit/pilot/weapon_management.md#master-arm-switch)
+set to ON to activate the pod. On the SUU-16, the Master Arm activation deploys the
 ram air turbine.
 
 Installed, the guns are boresight along the Fuselage Reference Line. Thus,
-with the optical sight in air to air mode, the rounds will fall in accordance
+with the [optical sight](../cockpit/pilot/dcsg_controls.md#sight-mode-knob)
+in air to air mode, the rounds will fall in accordance
 with reticle center, just as the main cannon- only with the natural offset of
 their respective pylon position, thus allowing for effective natural gunnery, if
 only affected by a moderate increase in resulting CEP. In the same fashion, in
@@ -84,7 +106,10 @@ air to ground mode, the SUU pods observe the same performance relative to the
 reticle depression schedule as the internal cannon, again, with their respective
 offsets from centerline and CEP increase.
 
-To safe the gun pods after combat, prior to deactivating Master Arm, the Auto
-Clear switch should be placed into the Auto Clear position, the trigger squeezed
-momentarily, and the respective Station Select buttons pushed to off. On the
-SUU-16, this will close the ram air turbine.
+To safe the gun pods after combat, prior to deactivating [Master
+Arm](../cockpit/pilot/weapon_management.md#master-arm-switch),
+the [Auto Clear](../cockpit/pilot/pedestal_group.md#auto-clear-switch)
+switch should be placed into the Auto Clear position, the trigger squeezed
+momentarily, and the respective [Station
+Select buttons](../cockpit/pilot/weapon_management.md#station-select-buttons)
+pushed to off. On the SUU-16, this will close the ram air turbine.

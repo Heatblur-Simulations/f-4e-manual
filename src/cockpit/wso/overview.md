@@ -2,7 +2,7 @@
 
 ## Layout
 
-![wso_pit_overview](../../img/wso_pit_overview.png)
+![wso_pit_overview](../../img/wso_pit_overview.jpg)
 
 | Section | Name               |
 | ------: | ------------------ |

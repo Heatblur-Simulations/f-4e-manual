@@ -2,7 +2,7 @@
 
 ## Exterior Lighting
 
-![ext_lights](../img/ext_lights.png)
+![ext_lights](../img/ext_lights.jpg)
 
 Exterior lights on the F-4E include position lights found on the wings and tail,
 join-up lights on the wings, fuselage lights, the anti collision light, and the
@@ -14,7 +14,7 @@ controls for these are found on the left sub-panel.
 
 ### Position and Join-Up Lights
 
-![pos_lights](../img/pos_lights.png)
+![pos_lights](../img/pos_lights.jpg)
 
 The wing and join-up lights are controlled by a single switch, with options for
 OFF, DIM, and BRT. These lights do not have a flash function. The tail light is
@@ -22,13 +22,13 @@ controlled by the Flasher Switch in STEADY or FLASH position.
 
 ### Anti-Collision and Fuselage Lights
 
-![fus_light_top](../img/fus_light_top.png)
-![fus_light_bottom](../img/fus_light_bottom.png)
+![fus_light_top](../img/fus_light_top.jpg)
+![fus_light_bottom](../img/fus_light_bottom.jpg)
 
 Three white anti-collision lights are found behind the rear cockpit canopy, and
 one below each of the engine intakes.
 
-![anti_col_light](../img/anti_col_light.png)
+![anti_col_light](../img/anti_col_light.jpg)
 
 A red anti-collision light is found on the vertical stabilizer.
 
@@ -49,7 +49,7 @@ will power on when it is raised by placing the Air Refuel Switch into EXTEND.
 
 ### Formation Lights
 
-![formation_lights](../img/formation_lights.png)
+![formation_lights](../img/formation_lights.jpg)
 
 Electroluminescent formation lighting is found along the fuselage, wing tips,
 and vertical stabilizer. These are activated using the control panel above the
@@ -59,7 +59,7 @@ right console, and have options for ON, OFF, and MOM (for momentary).
 
 | Pilot                                                | WSO                                              |
 |------------------------------------------------------|--------------------------------------------------|
-| ![pilot_int_lighting](../img/pilot_int_lighting.png) | ![wso_int_lighting](../img/wso_int_lighting.png) |
+| ![pilot_int_lighting](../img/pilot_int_lighting.jpg) | ![wso_int_lighting](../img/wso_int_lighting.jpg) |
 
 Lighting for instruments and controls, as well as a white utility lamp and red
 floodlights are found in both cockpits. Barring the utility lamp and floodlight

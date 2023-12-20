@@ -1,10 +1,10 @@
 # Right Sub-Panel
 
-![pilot_right_sub_panel](../../img/pilot_right_sub_panel.png)
+![pilot_right_sub_panel](../../img/pilot_right_sub_panel.jpg)
 
 ## Generator Indicator Lights
 
-![GenInd](../../img/pilot_generator_lights.png)
+![GenInd](../../img/pilot_generator_lights.jpg)
 
 Indicating LH GEN OUT (Left), RH GEN OUT (Right), and BUS TIE OPEN, the
 indicator lights will illuminate when the specified generator is offline, or, in
@@ -14,7 +14,7 @@ neither will illuminate.
 
 ## Feed Tank Check Switch
 
-![FeedCheck](../../img/FeedCheck.png)
+![FeedCheck](../../img/FeedCheck.jpg)
 
 A two-position spring-loaded switch used to confirm nominal quantity in the
 engine feed tank (Cell 1), the positions being FEED TANK CHECK and NORM
@@ -27,7 +27,7 @@ counter. When the feed tank is full, the indicated value should read 1400 lbs,
 
 ## Arresting Hook Control Handle
 
-![HookHandle](../../img/HookHandle.png)
+![HookHandle](../../img/HookHandle.jpg)
 
 Pulling the handle down extends the Tail Hook.
 
@@ -36,7 +36,7 @@ operations.
 
 ## KY-28 Mode Light Panel
 
-![KY28Mode](../../img/KY28Mode.png)
+![KY28Mode](../../img/KY28Mode.jpg)
 
 Dependent on mode, the illuminated display shows P for Plain mode, or C for
 Cipher mode. Note: UHF communications require the system be in Plain mode, even
@@ -44,7 +44,7 @@ with system power off, barring usage and monitoring of guard channel.
 
 ## Telelight Annunciator Panel
 
-![Telelight](../../img/pilot_telelight_panel.png)
+![Telelight](../../img/pilot_telelight_panel.jpg)
 
 Provides the majority of aircraft system warnings that can be rectified by the
 pilot. Most warnings on the panel will cause the Master Caution to illuminate;
@@ -52,7 +52,7 @@ those that do not will be noted.
 
 ## Light Circuit Breakers
 
-![pilot_light_cbs](../../img/pilot_light_cbs.png)
+![pilot_light_cbs](../../img/pilot_light_cbs.jpg)
 
 Hidden behind a bundle of cables to the right of the telelight panel are two
 circuit breakers controlling lights.

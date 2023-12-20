@@ -6,7 +6,7 @@ Engine Master Switch is in the ON position.
 
 ## Intercom Control Panel
 
-![intercom_panel](../../img/wso_intercom_control.png)
+![intercom_panel](../../img/wso_intercom_control.jpg)
 
 Each cockpit has an Intercom Control Panel, providing a volume control knob, an
 amplifier selector, and a function selector switch.
@@ -35,7 +35,7 @@ would be managed by that cockpit.
 
 ## Intercom Microphone Switch
 
-![pilot_intercom_mic_switch](../../img/pilot_inter_com_mic_switch.png)
+![pilot_intercom_mic_switch](../../img/pilot_inter_com_mic_switch.jpg)
 
 The microphone switch for the Intercom System is the aft position on the inboard
 throttle grip in both cockpits. When using the intercom, all audio sans the

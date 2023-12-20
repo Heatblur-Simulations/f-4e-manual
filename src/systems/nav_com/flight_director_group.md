@@ -1,6 +1,6 @@
 # Flight Director Group
 
-![pilot_flight_director_group](../../img/pilot_flight_director_group.png)
+![pilot_flight_director_group](../../img/pilot_flight_director_group.jpg)
 
 Accurate course navigation is provided by the Flight Director Group, which
 includes the Flight Director Computer, the Horizontal Situation Indicator (HIS)
@@ -10,7 +10,7 @@ Selector Switch in the rear cockpit.
 
 ## Navigation Function Selector Panel
 
-![pilot_nav_function_selector](../../img/pilot_nav_function_selector_panel.png)
+![pilot_nav_function_selector](../../img/pilot_nav_function_selector_panel.jpg)
 
 Found on the front cockpit instrument panel, the Navigation Function Selector
 Panel has two knobs- a Bearing/Distance Selector Knob and a Mode Selector Knob.
@@ -52,7 +52,7 @@ bars from view.
 
 ## Horizontal Situation Indicator
 
-![pilot_horizontal_situation_indicator](../../img/pilot_horizontal_situation_indicator.png)
+![pilot_horizontal_situation_indicator](../../img/pilot_horizontal_situation_indicator.jpg)
 
 The Horizontal Situation Indicator displays a top-down plan view of current
 navigation, with cues provided relative to the selected navigation mode selector
@@ -87,7 +87,7 @@ The given course information is applied for an ADI bank steering command.
 
 ## Attitude Director Indicator
 
-![pilot_attitude_director_indicator](../../img/pilot_attitude_director_indicator.png)
+![pilot_attitude_director_indicator](../../img/pilot_attitude_director_indicator.jpg)
 
 The ADI provides command steering to intercept selected headings, TACAN
 stations, tracks, VOR radials, or navigation computer destinations. Bank
@@ -106,7 +106,7 @@ AN/AJB-7.
 
 ## Bearing Distance Heading Indicator
 
-![wso_bearing_distance_heading_indicator](../../img/wso_bearing_distance_heading_indicator.png)
+![wso_bearing_distance_heading_indicator](../../img/wso_bearing_distance_heading_indicator.jpg)
 
 The Bearing Distance Heading Indicator (BDHI) displays navigation information
 using two needles, referred to as the No. 1 and No. 2 pointers, which receive

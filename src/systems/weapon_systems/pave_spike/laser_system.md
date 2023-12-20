@@ -12,13 +12,13 @@ the system.
 
 The laser can be used when the LASER READY lamp is illuminated.
 
-![laser_ready_lamp](../../../img/laser_ready_lamp.png)
+![laser_ready_lamp](../../../img/laser_ready_lamp.jpg)
 
 To setup the laser, a valid code has to first be entered on the Laser Coder
 Control panel and transferred to the pod by pressing the Enter-Button. Make sure
 that the NO GO light is not illuminated.
 
-![laser_coder_control](../../../img/laser_coder_control.png)
+![laser_coder_control](../../../img/laser_coder_control.jpg)
 
 The LASER READY push button has to be pushed in for the laser to be armed.
 
@@ -46,7 +46,7 @@ is rejected. This is indicated by TTG flashing slow.
 The system can be forced to use the laser range regardless, by pressing the
 Reject/Override Button.
 
-![reject_override_button](../../../img/reject_override_button.png)
+![reject_override_button](../../../img/reject_override_button.jpg)
 
 In practice, laser measured range is much more accurate than the slant range
 computed by the system. Hence, pilots developed a habit of always hitting the

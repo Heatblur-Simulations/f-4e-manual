@@ -15,7 +15,7 @@ Bombing Timer are found on the provided tables.
 
 ## Bomb Release Angle Computer
 
-![wso_bomb_release_angle](../../img/wso_bomb_release_angle.png)
+![wso_bomb_release_angle](../../img/wso_bomb_release_angle.jpg)
 
 The Bomb Release Angle Computer provides entry of the necessary target pitch
 angles for ARBCS bombing modes. The values of HIGH (70 to 179.9 degrees) and LOW
@@ -25,7 +25,7 @@ to transmit the target angle values to the ADI director pointers.
 
 ## Bombing Timers
 
-![wso_bomb_release_timer](../../img/wso_bombing_timers.png)
+![wso_bomb_release_timer](../../img/wso_bombing_timers.jpg)
 
 Timers for ARBCS bombing modes are available for PULL-UP (0 to 60 seconds) and
 RELEASE (0 to 30 seconds). Both can be set in increments of 0.1 second, with 0.1
@@ -55,7 +55,7 @@ run initiation and at what step of the given run the aircraft is in:
 
 1. Upon run initiation (bomb button press/WRCS initiation) and PULL-UP timer
    start, the Pull-up light turns ON.
-   ![pilot_pull_up_timer](../../img/pilot_pull_up_light.png)
+   ![pilot_pull_up_timer](../../img/pilot_pull_up_light.jpg)
 2. At PULL-UP timer completion, the Pull-up light turns OFF, the reticle light
    turns OFF, and a steady Pull-up Tone (if switched ON) occurs.
 3. As release pitch angle is attained, the Pull-up light turns ON, the reticle
@@ -67,7 +67,7 @@ purposes.
 
 ## Gyro Fast Erect
 
-![pilot_gyro_fast_erect](../../img/pilot_gyro_fast_erect.png)
+![pilot_gyro_fast_erect](../../img/pilot_gyro_fast_erect.jpg)
 
 Due to rapid maneuvering during a bombing run, gyro deviation can occur due to
 fluid migration. While this deviation will resolve naturally at a rate of 1 to 2

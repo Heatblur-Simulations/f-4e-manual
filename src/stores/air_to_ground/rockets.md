@@ -2,7 +2,7 @@
 
 ## Mk 4 Series 2.75 Folding Fin Aerial Rockets - FFAR
 
-![lau3](../../img/lau3.png)
+![lau3](../../img/lau3.jpg)
 
 Also known as the Mighty Mouse, the Mk 4 series of unguided aerial rockets
 originated as an air to air weapon. Given the rocket's undirected nature,

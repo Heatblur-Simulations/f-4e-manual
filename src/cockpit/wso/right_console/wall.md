@@ -1,6 +1,6 @@
 # Right Wall
 
-![wso_right_wall](../../../img/wso_right_wall.png)
+![wso_right_wall](../../../img/wso_right_wall.jpg)
 
 ## Battery Bypass
 
@@ -10,7 +10,10 @@ suspected cases of thermal runaway.
 
 ## Autopilot Ground Test
 
-TODO
+The autopilot ground test switch, located on the No. 2 circuit breaker panel, connects external
+electrical power to the AFCS circuits. It disengages if there's a loss of external power or when a
+generator comes online. When operating on external power, the AFCS circuit can be deenergized by
+placing the switch in the NORM (down) position.
 
 ## Instrument Ground Power
 
