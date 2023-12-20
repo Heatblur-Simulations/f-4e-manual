@@ -440,7 +440,7 @@ Phantom crews going forward.</p>
 <p>The F-4E Phantom II, a stalwart in the annals of military aviation, transcended its American origins
 to become a formidable force in the service of numerous foreign air forces. Its foreign deployment
 was a testament to its adaptability, longevity, and indomitable presence on the global stage.</p>
-<p>In the realm of NATO, the F-4E found itself in the arsenals of key member nations. Germany, Greece,
+<p>In the NATO, the F-4E found itself in the arsenals of key member nations. Germany, Greece,
 Turkey, and the United Kingdom incorporated the Phantom into their fleets, contributing to the
 collective defense capabilities of the alliance. The F-4E's reputation for versatility and
 reliability made it a linchpin in NATO's strategic posture during the tense years of the Cold War.</p>
@@ -3617,15 +3617,14 @@ execute missions with utmost accuracy.</p>
 voice transmission and reception. The intercom system and UHF transceiver are adapted for
 operational compatibility with the KY-28 speech security unit. In tactical environments, the KY-28
 collaborates with the UHF transceiver to facilitate secure voice communications for classified
-traffic. The KY-28 possesses enciphering and deciphering capabilities for transmitting and
-receiving, respectively, but cannot perform both functions simultaneously. The crewmember can choose
-between cipher and plain modes. In cipher mode, the KY-28 converts microphone inputs to crypto
-transmissions and deciphers crypto replies for voice inputs to the aircrew headsets. In plain mode,
-the UHF radio equipment functions as a conventional voice transceiver. The KY-28 is
-cryptographically intercommunicable with other KY-28 units, KY-8 units, and KY-38 units (manpack
-version of KY-28). Additionally, the KY-28 has provisions for transmitting messages via a relay
-facility. The unit contains a code assembly with mechanisms for zeroizing the codes, either
-mechanically or electrically.</p>
+traffic. The crewmember can choose between cipher and plain modes. In cipher mode, the KY-28
+converts microphone inputs to crypto transmissions and deciphers crypto replies for voice inputs
+to the aircrew headsets. In plain mode, the UHF radio equipment functions as a conventional
+voice transceiver. The KY-28 is cryptographically intercommunicable with other KY-28 units,
+KY-8 units, and KY-38 units (manpack version of KY-28). Additionally, the KY-28 has provisions
+for transmitting messages via a relay facility. This function is not modelled in DCS World.
+The unit contains a code assembly with mechanisms for zeroizing the codes, either mechanically or
+electrically.</p>
 <h2 id="dont-get-lost-the-ins"><a class="header" href="#dont-get-lost-the-ins">Don't get lost: The INS</a></h2>
 <p>The AN/ASN-63 Inertial Navigation System (INS) equips the F-4E aircrew and integrated weapons
 delivery system with real-time accurate positional, velocity, attitude, and heading information.
@@ -3644,8 +3643,8 @@ ensure reliable and precise navigation capabilities.</p>
 <p>The VHF Omnidirectional Range Instrument Landing System (VOR/ILS) furnishes accurate bearing and
 course deviation information through a ground station transmitter. This system enables the aircraft
 to utilize precision landing approach and descent capabilities at fields equipped with a localizer.
-Pilots receive guidance information from the VOR/ILS on the Bearing Distance Heading Indicator (
-BDHI), Attitude Director Indicator (ADI), and Horizontal Situation Indicator (HSI). Activation of
+Pilots receive guidance information from the VOR/ILS on the Bearing Distance Heading Indicator
+(BDHI), Attitude Director Indicator (ADI), and Horizontal Situation Indicator (HSI). Activation of
 the VOR/ILS function on these displays is facilitated through the appropriate Flight Director Group
 control selections on the Bearing/Distance Selector switch, Navigation Mode Selector switch, and
 Flight Director Switch.</p>
@@ -3660,15 +3659,16 @@ self-test after a signal loss to confirm functionality on the control panel.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="flight-director-group-1"><a class="header" href="#flight-director-group-1">Flight Director Group</a></h1>
 <p><img src="systems/nav_com/../../img/pilot_flight_director_group.jpg" alt="pilot_flight_director_group" /></p>
 <p>Accurate course navigation is provided by the Flight Director Group, which
-includes the Flight Director Computer, the Horizontal Situation Indicator (HIS)
+includes the Flight Director Computer, the Horizontal Situation Indicator (HSI)
 along with the Navigation Function Selector Panel in the front cockpit, and the
 Bearing Distance Heading Indicator (BDHI) together with the Navigation Mode
 Selector Switch in the rear cockpit.</p>
+<p><img src="systems/nav_com/../../img/wso_nav_mode_selector_switch.jpg" alt="wso_nav_mode_selector" /></p>
 <h2 id="navigation-function-selector-panel-1"><a class="header" href="#navigation-function-selector-panel-1">Navigation Function Selector Panel</a></h2>
 <p><img src="systems/nav_com/../../img/pilot_nav_function_selector_panel.jpg" alt="pilot_nav_function_selector" /></p>
 <p>Found on the front cockpit instrument panel, the Navigation Function Selector
-Panel has two knobs- a Bearing/Distance Selector Knob and a Mode Selector Knob.</p>
-<h2 id="bearing-distance-selector-knob"><a class="header" href="#bearing-distance-selector-knob">Bearing Distance Selector Knob</a></h2>
+Panel has two knobs - a Bearing/Distance Selector Knob and a Mode Selector Knob.</p>
+<h2 id="bearing-distance-selector-knob-brgdist"><a class="header" href="#bearing-distance-selector-knob-brgdist">Bearing Distance Selector Knob (BRG/DIST)</a></h2>
 <p>The Bearing Distance Selector Knob sets the bearing pointer and range indication
 displays on the HSI. Positions are VOR/TAC, TAC, ADF/TAC, and NAV COMP.</p>
 <p>In VOR/TAC mode, magnetic and relative bearing to the VOR station and range to
@@ -3679,9 +3679,9 @@ station are displayed.</p>
 range to the TACAN station are displayed.</p>
 <p>And in NAV COMP mode, magnetic and relative bearing and range are provided to
 the destination set in the navigation computer.</p>
-<h2 id="mode-selector-knob-1"><a class="header" href="#mode-selector-knob-1">Mode Selector Knob</a></h2>
-<p>The Mode Selector Knob controls the remaining informational displays on the HSI,
-as well as the pitch and bank steering bars on the ADI. The mode selector knob
+<h2 id="mode-selector-knob-mode"><a class="header" href="#mode-selector-knob-mode">Mode Selector Knob (MODE)</a></h2>
+<p>The Mode Selector Knob controls the remaining informational displays on the HSI (outer knob), as
+well as the pitch and bank steering bars on the ADI (inner knob labelled FD). The mode selector knob
 operates independently from the bearing pointer and range indicator, and the
 selector positions are VOR/ILS, TAC, NAV COMP, and HDG. Navigation modes set by
 this knob will be indicated by an illuminated word message when the instrument
@@ -3689,11 +3689,11 @@ panel lights are on; available mode word messages are TAC (TACAN), NAV
 (navigation computer), UHF (ADF), MAN (HDG entry), ILS (instrument landing
 system), and TGT (target). TGT illuminates that the WSO has provided a target
 entry and pressed TGT on the Cursor Control Panel.</p>
-<h2 id="flight-director-switch"><a class="header" href="#flight-director-switch">Flight Director Switch</a></h2>
+<h2 id="flight-director-switch-fd"><a class="header" href="#flight-director-switch-fd">Flight Director Switch (FD)</a></h2>
 <p>The Flight Director Switch turns ON and OFF the Flight Director Computer pitch
 and bank angle steering clues, visible on the ADI. Selecting OFF removes these
 bars from view.</p>
-<h2 id="horizontal-situation-indicator-1"><a class="header" href="#horizontal-situation-indicator-1">Horizontal Situation Indicator</a></h2>
+<h2 id="horizontal-situation-indicator-hsi"><a class="header" href="#horizontal-situation-indicator-hsi">Horizontal Situation Indicator (HSI)</a></h2>
 <p><img src="systems/nav_com/../../img/pilot_horizontal_situation_indicator.jpg" alt="pilot_horizontal_situation_indicator" /></p>
 <p>The Horizontal Situation Indicator displays a top-down plan view of current
 navigation, with cues provided relative to the selected navigation mode selector
@@ -3721,7 +3721,7 @@ heading.</p>
 line and aircraft magnetic heading. The course selector window displays the
 current selected magnetic heading, which is adjusted using the Heading Set knob.
 The given course information is applied for an ADI bank steering command.</p>
-<h2 id="attitude-director-indicator-1"><a class="header" href="#attitude-director-indicator-1">Attitude Director Indicator</a></h2>
+<h2 id="attitude-director-indicator-adi"><a class="header" href="#attitude-director-indicator-adi">Attitude Director Indicator (ADI)</a></h2>
 <p><img src="systems/nav_com/../../img/pilot_attitude_director_indicator.jpg" alt="pilot_attitude_director_indicator" /></p>
 <p>The ADI provides command steering to intercept selected headings, TACAN
 stations, tracks, VOR radials, or navigation computer destinations. Bank
@@ -3736,7 +3736,7 @@ for relative glide-slope position indication during an ILS approach.</p>
 AN/AJB-7 gyro has aligned. This can also appear due to power loss or a signal
 failure. The flag does not present if a system failure occurs outside of the
 AN/AJB-7.</p>
-<h2 id="bearing-distance-heading-indicator"><a class="header" href="#bearing-distance-heading-indicator">Bearing Distance Heading Indicator</a></h2>
+<h2 id="bearing-distance-heading-indicator-bdhi-1"><a class="header" href="#bearing-distance-heading-indicator-bdhi-1">Bearing Distance Heading Indicator (BDHI)</a></h2>
 <p><img src="systems/nav_com/../../img/wso_bearing_distance_heading_indicator.jpg" alt="wso_bearing_distance_heading_indicator" /></p>
 <p>The Bearing Distance Heading Indicator (BDHI) displays navigation information
 using two needles, referred to as the No. 1 and No. 2 pointers, which receive
