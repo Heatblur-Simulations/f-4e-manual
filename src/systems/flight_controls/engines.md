@@ -22,7 +22,7 @@ afterburner stage, and the flow rate is approximately 4 times the value shown.
 ![OilPress](../../img/OilPress.jpg)
 
 Oil pressure indicators are on the front
-cockpit [pedestal panel](../../cockpit/pilot/pedestal_group.md#engine-oil-pressure-indicators), and
+cockpit [pedestal panel](../../cockpit/pilot/pedestal_group.md), and
 are graduated from 0 to 10, and are presented in 10 lb increments.
 
 ## Variable Duct Ramp
