@@ -9,33 +9,43 @@
 A control stick is provided in both cockpits, with near-uniform switchology
 between the two. A Trim Control is found on both sticks to provide force
 reduction and minor flight path correction in the pitch and roll axis. Weapons
-are deliverable through both a Trigger (for air-to-air missiles and the gun) and
-a Bomb Release Switch. Both sticks carry a Nose Gear Steering Switch that
-doubles as a radar auto-acquisition control for the radar in visual range
-combat, and sensor focus control for video-directed air to ground weapons. An
-Emergency Quick Release lever on each stick is available to immediately
-deactivate the anti-skid, ARI, autopilot, and stability augmentation. Unique to
-the front cockpit control stick is the Air Refueling Release Button- a dual-role
+are deliverable through both a Trigger
+(for [air-to-air missiles](../../stores/air_to_air/overview.md) and the [gun](../../stores/guns.md))
+and a Bomb Release Switch. Both sticks carry
+a [Nose Wheel Steering button](gear_ground_handling.md#nose-gear-steering) that
+doubles as a [radar](../radar.md) auto-acquisition control for the [radar](../radar.md) in visual
+range combat, and sensor focus control for
+video-directed [air to ground weapons](../../stores/air_to_ground/overview.md). An
+[Emergency Quick Release lever](gear_ground_handling.md#emergency-anti-skid-quick-release-lever) on
+each stick is available to immediately deactivate the anti-skid, ARI, autopilot, and stability
+augmentation. Unique to the front cockpit control stick is
+the [Air Refueling Release Button](../utility.md#air-refueling-release-button) - a dual-role
 control that performs the boom disconnect function its name implies, as well as
 a number of weapon selection functions.
 
-Also unique to the front cockpit stick is a force transducer, to allow the pilot
-fine adjustment control of the AFCS with the autopilot functionality engaged. In
-the event the force applied to the stick exceeds the AFCS breakout limit,
+Also, unique to the front cockpit stick is a force transducer, to allow the pilot
+fine adjustment control of
+the [AFCS](../../cockpit/pilot/left_console/center_section.md#afcs-control-panel) with the autopilot
+functionality engaged. In
+the event the force applied to the stick exceeds
+the [AFCS](../../cockpit/pilot/left_console/center_section.md#afcs-control-panel) breakout limit,
 autopilot will be turned off.
 
 ## Aileron-Spoiler Control and Stabilator Control Feel and Trim Systems
 
 The Aileron-Spoiler Control System and the Stabilator Control System both offer
 trim following; the former through a screw jack actuator, the latter using a
-servo directed by the AFCS. These functions cause the stick to position relative
+servo directed by the [AFCS](../../cockpit/pilot/left_console/center_section.md#afcs-control-panel).
+These functions cause the stick to position relative
 to the current trim and autopilot position when the crew member in control goes
 "hands off". It is therefore advisable to maneuver the stick to the same
 position, or to gently move the stick to "breakout force" prior to disengaging
 the autopilot system to reduce the chance for an abrupt return to pilot control.
 
 To confirm current state of the stabilator trim, a Stabilator Trim Position
-Indicator is provided on the front cockpit left vertical panel.
+Indicator is provided on
+the [front cockpit left vertical panel](../../cockpit/pilot/left_sub_panel.md#stabilator-trim-indicator)
+.
 
 ![StabTrimInd](../../img/StabTrimInd.jpg)
 
@@ -45,10 +55,14 @@ Indicator is provided on the front cockpit left vertical panel.
 
 Yaw axis control is directed by the rudder pedals found in both cockpits. To
 offset any relative skidding due to wind effect, stores imbalance, or minor
-engine output deviation, a Rudder Trim Switch is found on the engine control
-panel in the front cockpit. On the ground, the pedals themselves can be pressed
+[engine](engines.md) output deviation,
+a [Rudder Trim Switch](../../cockpit/pilot/left_console/front_section.md#rudder-trim-switch) is
+found on
+the [engine control panel](../../cockpit/pilot/left_console/front_section.md#inboard-engine-control-panel)
+in the front cockpit. On the ground, the pedals themselves can be pressed
 independently for differential braking, and the rudder axis itself functions as
-the nose wheel steering directional control when the nose wheel steering button
+the nose wheel steering directional control when
+the [Nose Wheel Steering button](gear_ground_handling.md#nose-gear-steering)
 on either control stick is pressed.
 
 ## Aileron-Rudder Interconnect (ARI)
@@ -56,14 +70,15 @@ on either control stick is pressed.
 ![ARIfuse](../../img/ARIfuse.jpg)
 
 To assist in low speed turn coordination, the Phantom II includes an
-Aileron-Rudder Interconnect. The system is engaged automatically with the Slats
-Flap Switch in the Out and Down position, and below the flap blowup speed of 230
+Aileron-Rudder Interconnect. The system is engaged automatically with the [Slats
+Flap Switch](../../cockpit/pilot/left_console/wall.md#slatsflaps-control-panel) in the Out and Down
+position, and below the flap blowup speed of 230
 knots. With the system engaged, the rudder can be driven up to 10 degrees by the
 interconnect to alleviate pilot workload. In the event either seat in command
 requires the ARI deactivated, the system can be disconnected by pulling the
-Emergency Quick Release switch on their respective control stick. Releasing the
-switch will re-engage the ARI. Function of the ARI can always be overridden
-through the rudder pedals.
+[Emergency Quick Release lever](gear_ground_handling.md#emergency-anti-skid-quick-release-lever) on
+their respective control stick. Releasing the switch will re-engage the ARI. Function of the ARI can
+always be overridden through the rudder pedals.
 
 ## Stability Augmentation System
 
@@ -100,11 +115,13 @@ can jump due to said difference.
 
 The Slats Flap system is manually selected for takeoff and landing, then
 automatically controlled relative to AoA for best handling performance in all
-other flight regimes. Control is through a three position switch found outboard
-of the left throttle handle in the front cockpit and driven by the aircraft
-hydraulic system. The three switch positions are Norm, Out, and Out and Down,
-and the resulting command can be moderated based on whether or not the landing
-gear being deployed.
+other flight regimes. Control is through
+a [three position switch](../../cockpit/pilot/left_console/wall.md#slatsflaps-control-panel) found
+outboard of the left [throttle](../../cockpit/pilot/left_console/front_section.md#throttles)
+handle in the front cockpit and driven by the aircraft hydraulic system.
+The [three switch positions](../../cockpit/pilot/left_console/wall.md#slatsflaps-control-panel) are
+Norm, Out, and Out and Down,
+and the resulting command can be moderated based on whether or not the landing gear being deployed.
 
 ![SlatsRelative](../../img/SlatsRelative.jpg)
 
@@ -115,9 +132,13 @@ Out deploys the Slats to their fully deployed position. Should the landing gear
 be deployed, both the Slats and Flaps will deploy.
 
 Out and Down fully deploys both the Slats and the Flaps. Should the landing gear
-not be down, the Wheels Light on the telelight Panel will illuminate and flash.
+not be down, the Wheels Light on
+the [telelight](../../cockpit/pilot/right_sub_panel.md#telelight-annunciator-panel) Panel will
+illuminate and flash.
 
-Both cockpits have a Slats Flap Indicator, which read In and Out, along with a
+Both cockpits have
+a [Slats Flap Indicator](../../cockpit/pilot/left_sub_panel.md#slatsflaps-indicators), which read In
+and Out, along with a
 barber-pole reading when the surfaces are in transition.
 
 ![SltFlpInd](../../img/SltFlpInd.jpg)
@@ -132,12 +153,15 @@ will retract due to air pressure between 568 and 602 knots.
 To the rear of the Fuel Control Panel in the front cockpit is the Slat Override Switch. Guarded,
 this switch has two positions: NORM and IN. Defaulted to NORM under the guard, switching to IN
 forces the retraction of the slats, no matter the current aircraft AoA or state of the Slats Flap
-Switch position; this action will trigger the SLATS IN warning on the telelight Panel and illuminate
-the Master Caution.
+Switch position; this action will trigger the SLATS IN warning on
+the [telelight](../../cockpit/pilot/right_sub_panel.md#telelight-annunciator-panel) Panel and
+illuminate the [Master Caution](../../cockpit/pilot/right_main_panel.md#master-caution-light).
 
 The Slats Flaps system also has an Emergency system; handles are found on the
-Slats Flaps control panel in the front cockpit, and next to the rear cockpit
-throttle pair. The emergency system uses pneumatic pressure, and does not
+[Slats Flaps control panel](../../cockpit/pilot/left_console/wall.md#slatsflaps-control-panel) in
+the front cockpit, and next to the rear cockpit
+[throttle](../../cockpit/wso/left_console/front_section.md#throttles) pair. The emergency system
+uses pneumatic pressure, and does not
 require electrical power to force deployment. The emergency system can only
 function once, and can be actuated at any airspeed; however, above 230 knots,
 the Flaps will retract based on air pressure, and the normal Slat retraction
@@ -147,18 +171,22 @@ speeds also apply.
 
 ![ext_speed_brakes_out](../../img/ext_speed_brakes.jpg)
 
-Underneath the aircraft and close to the rear Sparrow recesses are the speed
-brakes, installed on the wings. The speed brakes are driven by the aircraft's
-hydraulic system and actuated by a three position switch found on the inboard
-throttle in both cockpits. Either switch will actuate the brakes. The positions
+Underneath the aircraft and close to the rear [Sparrow](../../stores/air_to_air/aim_7.md) recesses
+are the [speed
+brakes](../..), installed on the wings. The speed brakes are driven by the aircraft's
+hydraulic system and actuated by
+a [three position switch](../../cockpit/pilot/left_console/front_section.md#throttles) found on the
+inboard [throttle](../../cockpit/pilot/left_console/front_section.md#throttles) in both cockpits.
+Either switch will actuate the brakes. The positions
 are Out, Stop, and In; the first and last positions are momentary (reverting to
 Stop upon being released).
 
 ![pilot_speed_brake](../../img/pilot_air_brake.jpg)
 
 Brake actuation illuminates the Speed Brake Out Indicator Light found on the
-Telelight Panel. Brake deployment and illumination of the Indicator does not
-trigger the Master Caution.
+[telelight Panel](../../cockpit/pilot/right_sub_panel.md#telelight-annunciator-panel). Brake
+deployment and illumination of the Indicator does not
+trigger the [Master Caution](../../cockpit/pilot/right_main_panel.md#master-caution-light).
 
 ![SpeedBrakeLight](../../img/pilot_speedbrake_out.jpg)
 

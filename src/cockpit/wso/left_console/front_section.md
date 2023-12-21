@@ -12,7 +12,7 @@ decrease audio between cockpits on the intercom.
 ### ICS Function Selector Switch
 
 | Name           | Description                                                                  |
-| -------------- | ---------------------------------------------------------------------------- |
+|----------------|------------------------------------------------------------------------------|
 | COLD MIC       | Mic switch on throttle must be held to activate intercom.                    |
 | HOT MIC        | Voice automatically transmitted on intercom.                                 |
 | RADIO OVERRIDE | The opposite cockpit’s audio is heard at its set volume using its amplifier. |
@@ -22,7 +22,7 @@ decrease audio between cockpits on the intercom.
 Determines current amplifier for intercom function.
 
 | Name | Description                                                                         |
-| ---- | ----------------------------------------------------------------------------------- |
+|------|-------------------------------------------------------------------------------------|
 | B/U  | Backup headset amplifier provides audio.                                            |
 | NORM | Primary headset amplifier provides audio.                                           |
 | EMER | Uses amplifier from opposite cockpit; only audio received to that cockpit is heard. |
@@ -49,7 +49,7 @@ system BIT checks of the APQ-120 radar. Basic test function noted below;
 procedural functionality is found in the applicable BIT test section.
 
 | Name    | Description                                                                                 |
-| ------- | ------------------------------------------------------------------------------------------- |
+|---------|---------------------------------------------------------------------------------------------|
 | 0       | Displays standard B scope presentation to confirm all elements functioning correctly.       |
 | 1       | Confirms break lock timing delay, AIM-7 tuning status, and Range lamp status function.      |
 | 2       | Confirms proper AIM-7 head position aim and SHORT pulse function against two targets.       |
@@ -90,7 +90,29 @@ leave the switch in 2700, else the Vc presentation will be in error.
 Changes the antenna stabilization mode.
 
 | Name      | Description                                                                              |
-| --------- | ---------------------------------------------------------------------------------------- |
+|-----------|------------------------------------------------------------------------------------------|
 | NOR       | Normal operation; inputs of pitch and roll are fed to the antenna stabilization circuit. |
-| STAB OUT  | Horizon line removed from scopes and stabilization drift servos are zeroed.                |
+| STAB OUT  | Horizon line removed from scopes and stabilization drift servos are zeroed.              |
 | DRIFT OUT | INS drift compensation is removed; antenna uses direct pitch and roll input tracking.    |
+
+## Throttles
+
+![wso_throttles](../../../img/wso_throttles.jpg)
+
+The throttle arrangement for each engine in the F-4E Phantom II is located on the front and rear
+cockpit left console. Mechanical linkage transmits throttle movement to the engine fuel control. The
+rear cockpit throttle does not enable the afterburner. Located on the rear throttle is a speed brake
+switch and a mic switch
+
+### Speed Brake
+
+The Speed Brakes are actuated by a three position switch found on the inboard
+throttle in both cockpits. Either switch will actuate the brakes. The positions
+are Out, Stop, and In; the first and last positions are momentary (reverting to
+Stop upon being released).
+
+### Mic Switch
+
+The microphone switch for the Intercom System is the aft position on the inboard
+throttle grip in both cockpits. When using the intercom, all audio sans the
+pull-up tone, stall warning, voice warning, and ECM are reduced (same as RADIO OVERRIDE).
