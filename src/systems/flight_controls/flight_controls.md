@@ -153,12 +153,15 @@ will retract due to air pressure between 568 and 602 knots.
 To the rear of the Fuel Control Panel in the front cockpit is the Slat Override Switch. Guarded,
 this switch has two positions: NORM and IN. Defaulted to NORM under the guard, switching to IN
 forces the retraction of the slats, no matter the current aircraft AoA or state of the Slats Flap
-Switch position; this action will trigger the SLATS IN warning on the telelight Panel and illuminate
-the Master Caution.
+Switch position; this action will trigger the SLATS IN warning on
+the [telelight](../../cockpit/pilot/right_sub_panel.md#telelight-annunciator-panel) Panel and
+illuminate the [Master Caution](../../cockpit/pilot/right_main_panel.md#master-caution-light).
 
 The Slats Flaps system also has an Emergency system; handles are found on the
-Slats Flaps control panel in the front cockpit, and next to the rear cockpit
-throttle pair. The emergency system uses pneumatic pressure, and does not
+[Slats Flaps control panel](../../cockpit/pilot/left_console/wall.md#slatsflaps-control-panel) in
+the front cockpit, and next to the rear cockpit
+[throttle](../../cockpit/wso/left_console/front_section.md#throttles) pair. The emergency system
+uses pneumatic pressure, and does not
 require electrical power to force deployment. The emergency system can only
 function once, and can be actuated at any airspeed; however, above 230 knots,
 the Flaps will retract based on air pressure, and the normal Slat retraction
@@ -168,18 +171,22 @@ speeds also apply.
 
 ![ext_speed_brakes_out](../../img/ext_speed_brakes.jpg)
 
-Underneath the aircraft and close to the rear Sparrow recesses are the speed
-brakes, installed on the wings. The speed brakes are driven by the aircraft's
-hydraulic system and actuated by a three position switch found on the inboard
-throttle in both cockpits. Either switch will actuate the brakes. The positions
+Underneath the aircraft and close to the rear [Sparrow](../../stores/air_to_air/aim_7.md) recesses
+are the [speed
+brakes](../..), installed on the wings. The speed brakes are driven by the aircraft's
+hydraulic system and actuated by
+a [three position switch](../../cockpit/pilot/left_console/front_section.md#throttles) found on the
+inboard [throttle](../../cockpit/pilot/left_console/front_section.md#throttles) in both cockpits.
+Either switch will actuate the brakes. The positions
 are Out, Stop, and In; the first and last positions are momentary (reverting to
 Stop upon being released).
 
 ![pilot_speed_brake](../../img/pilot_air_brake.jpg)
 
 Brake actuation illuminates the Speed Brake Out Indicator Light found on the
-Telelight Panel. Brake deployment and illumination of the Indicator does not
-trigger the Master Caution.
+[telelight Panel](../../cockpit/pilot/right_sub_panel.md#telelight-annunciator-panel). Brake
+deployment and illumination of the Indicator does not
+trigger the [Master Caution](../../cockpit/pilot/right_main_panel.md#master-caution-light).
 
 ![SpeedBrakeLight](../../img/pilot_speedbrake_out.jpg)
 

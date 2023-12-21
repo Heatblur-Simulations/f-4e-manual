@@ -25,7 +25,7 @@ also illuminate. However, in case both generators fail, no GEN OUT light will il
 A pair
 of [Generator Control Switches](../../cockpit/pilot/right_console/front_section.md#generator-control-switches)
 are found on the [right console](../../cockpit/pilot/right_console/front_section.md), one for
-each engine. These three position switches- ON (Forward), OFF, ON External (Aft) - control the state
+each engine. These three position switches - ON (Forward), OFF, ON External (Aft) - control the state
 of each respective generator. In the event of a possible generator failure, selecting OFF for the
 generator that is believed to be offline will cause the power bus to provide electricity from the
 remaining generator to the other half of the electrical system.
@@ -41,7 +41,7 @@ the [AFCS](../../cockpit/pilot/left_console/center_section.md#afcs-control-panel
 Power from an external source to the instrument buses (115/200 volt ac, 28 volt
 ac, and 14 volt ac), can be provided by the Instrument Ground Power Switch (if
 the [generator switches](../../cockpit/pilot/right_console/front_section.md#generator-control-switches)
-are set to EXT ON), found on the the [right wall](../../cockpit/wso/right_console/wall.md) in the
+are set to EXT ON), found on the [right wall](../../cockpit/wso/right_console/wall.md) in the
 rear cockpit. Once external electrical power is disengaged or an engine
 generator comes online, it will switch off.
 
