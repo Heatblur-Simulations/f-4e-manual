@@ -148,8 +148,8 @@ attained by shifting the [throttles](../../cockpit/pilot/left_console/front_sect
 outboard (left) at the MIL stop, then pushing them forward.
 
 The rear cockpit [throttles](../../cockpit/wso/left_console/front_section.md#throttles) are
-connected to the front [throttles](../../cockpit/pilot/left_console/front_section.md#throttles) 
-in such a fashion that only the pilot can start the engines or enter the afterburner
+connected to the front [throttles](../../cockpit/pilot/left_console/front_section.md#throttles) in
+such a fashion that only the pilot can start the engines or enter the afterburner
 range; the WSO can reduce [throttles](../../cockpit/wso/left_console/front_section.md#throttles) out
 of the afterburner region back into MIL operation and lower. While the
 rear [throttles](../../cockpit/wso/left_console/front_section.md#throttles) can be shifted from OFF
@@ -162,9 +162,9 @@ front [throttles](../../cockpit/pilot/left_console/front_section.md#throttles) t
 the linkage. This condition may cause a reduction in
 afterburner authority from the front throttle pair. Resetting the throttle linkage is performed by
 placing the front [throttles](../../cockpit/pilot/left_console/front_section.md#throttles) at the
-IDLE or MIL
-stop and moving the rear [throttles](../../cockpit/wso/left_console/front_section.md#throttles) in
-the opposite direction to which the disconnect occurred.
+IDLE or MIL stop and moving the
+rear [throttles](../../cockpit/wso/left_console/front_section.md#throttles) in the opposite
+direction to which the disconnect occurred.
 
 The rear [throttles](../../cockpit/wso/left_console/front_section.md#throttles) only hold a
 microphone button and speed brake switch.
