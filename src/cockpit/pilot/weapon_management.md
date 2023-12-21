@@ -7,7 +7,7 @@
 ![HUD](../../img/HUD.jpg)
 
 The Head Up Display indicator panel provides weapon status for the Master Arm
-control as well as the current selected air to air weapon based on the position
+control as well as the current selected air-to-air weapon based on the position
 of the Guns/Missile switch on the left throttle handle.
 
 | Name  | Description                                                     |
