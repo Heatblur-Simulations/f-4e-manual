@@ -27,9 +27,9 @@ illuminated the KY-28 and UHF/intercom is operated in the cipher mode.
 
 ![wso_ky_28](../../img/wso_ky_28.jpg)
 
-The KY-28 control panel is in the rear cockpit. It has a power knob, a mode
-switch and a code zeroize button. The power knob provides power to the KY-28 and
-can be set to either OFF, ON or RLY (relay). The KY-28 is not powered in the OFF
+The [KY-28 control panel](../../cockpit/wso/right_sub_panel.md#ky-28-controls) is in the rear
+cockpit. It has a power knob, a mode switch and a code zeroize button. The power knob provides power
+to the KY-28 and can be set to either OFF, ON or RLY (relay). The KY-28 is not powered in the OFF
 position. It is powered in the ON and RLY positions. If a direct communication
 between KY units is desired, the ON position is to be selected. RLY would
 provide the ability to use the KY-28 as a retransmission facility, which is not

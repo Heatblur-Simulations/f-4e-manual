@@ -47,7 +47,8 @@ OSDU, or Output Signal Distribution Unit. The OSDU provides ground speed,
 north-south and east-west velocity, total velocity, inertially stabilized
 altitude, climb angle, true inertial heading, ground track, and drift angle. The
 WRCS receives inertial true heading, ground track, drift correction angle, and
-drift angle for its ballistics computer. Drift angle is captured for the BDHI,
+drift angle for its ballistics computer. Drift angle is captured for
+the [BDHI](../../cockpit/wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi),
 HSI, and FDC. Drift correction angle is also provided to the radar and LCOSS.
 
 ## Alignment Options
@@ -154,13 +155,15 @@ capabilities, with the former being used for larger distance bearing
 calculations (over 120 miles), and the latter for closer range accuracy. The Nav
 Computer functions solely using aircraft-based instruments, ergo the INS, Air
 Data Computer, and the magnetic compass; it can receive no information from the
-ILS, VOR, or TACAN systems.
+[ILS](vor_ils.md), [VOR](vor_ils.md), or [TACAN](tacan.md) systems.
 
 The system can maintain relative bearing and distance from up to two specific
 waypoints at a time (identified as Target 1 and Target 2, with Target 2 being
-held in memory), and this information is shown on the BDHI and ADI in real time.
-For data to appear on the BDHI, the Navigation Selection Switch must be
-positioned in NAV COMP.
+held in memory), and this information is shown on
+the [BDHI](../../cockpit/wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi) and ADI
+in real time. For data to appear on the
+[BDHI](../../cockpit/wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi), the
+Navigation Selection Switch must be positioned in NAV COMP.
 
 The computer also provides confirmation of current LN-12 precision, using a pair
 of lights marked LAT and LONG, as well as the Variation Sync Meter. When these
@@ -195,7 +198,7 @@ Selector Knob and the two Target Control Knobs, one for latitude, and the other
 longitude.
 
 | Name     | Description                                                                                               |
-| -------- | --------------------------------------------------------------------------------------------------------- |
+|----------|-----------------------------------------------------------------------------------------------------------|
 | OFF      | System off.                                                                                               |
 | STBY     | System powered, but no latitude or longitude reference performed versus the values in the Target windows. |
 | TARGET 1 | Provides readouts of range and bearing on the currently entered Target window values.                     |
@@ -236,7 +239,7 @@ for navigation.
 ## In Flight Updating
 
 In flight updating with the Nav Computer is performed using direct overflight of
-known target points, using a visual or radar fix, over a TACAN station, or via
+known target points, using a visual or radar fix, over a [TACAN](tacan.md) station, or via
 instruction from GCI.
 
 ### Inertial Mode Update
