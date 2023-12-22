@@ -120,6 +120,7 @@
   - [Bombs - Laydown](./procedures/bombs_laydown.md)
   - [Bombs - Loft](./procedures/bombs_loft.md)
   - [Bombs - LABS/TGT FIND/OFFSET](./procedures/bombs_labs_tgt_find_offset.md)
+  - [Rockets](./procedures/rockets.md)
 - [DCS](./dcs/overview.md)
   - [Embedded Manual](./dcs/embedded_manual.md)
   - [Bombing Computer](./dcs/bombing_computer.md)
