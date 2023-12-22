@@ -5,7 +5,7 @@
 Accurate course navigation is provided by
 the [Flight Director Group](../../cockpit/pilot/flight_director_group.md), which
 includes the Flight Director Computer,
-the [Horizontal Situation Indicator (HSI)](../../cockpit/pilot/flight_director_group.md/#horizontal-situation-indicator)
+the [Horizontal Situation Indicator (HSI)](../../cockpit/pilot/flight_director_group.md#horizontal-situation-indicator)
 along with
 the [Navigation Function Selector Panel](../../cockpit/pilot/flight_director_group.md#navigation-function-selector-panel)
 in the front cockpit, and
@@ -91,7 +91,7 @@ marker is not set, bank steering on
 the [ADI](../../cockpit/pilot/flight_director_group.md#attitude-director-indicator) will not be
 correct to intercept the
 desired course. A To-From indicator displays when the mode selector is in [TACAN](tacan.md)
-or [VOR/[ILS](vor_ils.md)](vor_ils.md) mode when either are tuned and received; once the course is
+or [VOR/ILS](vor_ils.md) mode when either are tuned and received; once the course is
 intercepted, the indication references whether the current course is taking the
 aircraft to or from the tuned station.
 
