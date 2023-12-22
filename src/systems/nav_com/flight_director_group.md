@@ -27,7 +27,7 @@ has two knobs - a Bearing/Distance Selector Knob and a Mode Selector Knob.
 ## Bearing Distance Selector Knob (BRG/DIST)
 
 The Bearing Distance Selector Knob sets the bearing pointer and range indication
-displays on the [HSI](../../cockpit/pilot/flight_director_group.md/#horizontal-situation-indicator).
+displays on the [HSI](../../cockpit/pilot/flight_director_group.md#horizontal-situation-indicator).
 Positions are [VOR](vor_ils.md)/[TAC](tacan.md), [TAC](tacan.md), ADF/[TAC](tacan.md), and NAV COMP.
 
 In [VOR](vor_ils.md)/[TAC](tacan.md) mode, magnetic and relative bearing to the [VOR](vor_ils.md)
