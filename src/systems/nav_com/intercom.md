@@ -2,7 +2,8 @@
 
 The Intercom System provides communication between the pilot, WSO, and ground
 crew, and functions with external power, or the aircraft battery once either
-Engine Master Switch is in the ON position.
+[Engine Master Switch](../../cockpit/pilot/left_console/front_section.md#engine-master-switches) is
+in the ON position.
 
 ## Intercom Control Panel
 
