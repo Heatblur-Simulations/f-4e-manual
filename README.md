@@ -13,6 +13,8 @@ written in the language **Markdown** (`.md`).
 The manual is automatically exported as HTML version, hosted at:
 <https://heatblur-simulations.github.io/f-4e-manual/>.
 
+PDF versions are available at <https://github.com/Heatblur-Simulations/f-4e-manual/releases>.
+
 ## Setup
 
 Markdown is supported widely by most IDEs and text editors. We recommend
@@ -51,3 +53,9 @@ the PDF will be created in `book/pdf`.
 The project is automatically configured via a CI/CD to build and publish any
 change to `master` to a GH-Pages branch called `html`. GitHub will automatically
 publish the website on <https://heatblur-simulations.github.io/f-4e-manual/>.
+
+## PDF Deploy
+
+PDF versions are automatically build and published at
+<https://github.com/Heatblur-Simulations/f-4e-manual/releases> via CI/CD whenever
+a tag is pushed to git.
