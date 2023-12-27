@@ -13,7 +13,8 @@ written in the language **Markdown** (`.md`).
 The manual is automatically exported as HTML version, hosted at:
 <https://heatblur-simulations.github.io/f-4e-manual/>.
 
-PDF versions are available at <https://github.com/Heatblur-Simulations/f-4e-manual/releases>.
+PDF versions are available at currently dead link apparently. Link checker is making problems.
+//TODO fix link
 
 ## Setup
 
