@@ -2,6 +2,9 @@
 
 ![FDG](../../img/pilot_flight_director_group.jpg)
 
+The flight director group provides the pilot with all necessary instruments to fly the aircraft even
+in a bad weather situtation.
+
 ## Radar Altimeter
 
 ![RadAlt](../../img/RadAlt.jpg)
@@ -11,22 +14,19 @@ degrees of bank angle or 35 degrees of pitch. Clockwise rotation of the function
 control switch on the lower right of the indicator powers the device; continued
 rotation sets the low altitude warning pointer to the desired height. Below the
 set altitude, the warning light activates. A self-test, initiated by pressing
-the function control switch, shows 35
+the function control switch, shows 35ft.
 
 ## Airspeed and Mach Indicator
 
 ![MachInd](../../img/MachInd.jpg)
 
 The combination airspeed and mach number indicator shows airspeed readings below
-200 knots, and include Mach numbers at high speed. The indicator uses a single
+200 knots, and include Mach numbers on the outer ring at high speed. The indicator uses a single
 pointer over a fixed airspeed scale, marked from 80 to 850 knots, with a moving
 Mach scale presenting from Mach 0.4 to 2.5. A pair of movable reference markers
 is available with the knob on the face of the gauge, with speed reference
 available between 80 and 195 knots, and the Mach index pointer being able to be
 set between the 225 knot and 850 knot regions relative to the airspeed gauge.
-
-Note: Moving these reference markers outside of the respective aforementioned
-regions can damage them.
 
 ## Angle of Attack Indicator
 
@@ -34,7 +34,7 @@ regions can damage them.
 
 Drawing relative wind information from the landing-gear adjacent AoA probe, the
 AoA indicator offers conditional reference for cruise (7.9 units), approach
-(19.2 units), and stall (30.00). Because of the AoA probe to the nose gear door
+(19.2 units), and stall (30.0 units). Because of the AoA probe to the nose gear door
 and subsequent airflow disturbance when the gear is lowered, actual aircraft AoA
 is approximately 1 unit higher than indicated, and ON SPEED AoA is roughly 5
 knots slower than the given value.
@@ -95,7 +95,8 @@ A counter-pointer style altimeter, with thousandths in the counter window and
 80,000 feet. The altimeter includes a barometric scale for setting local
 pressure with the knob on the indicator. Works in either electric (normal
 operation mode) or pneumatic (STBY) mode, switchable via a spring-loaded three
-position switch labelled RESET and STBY.
+position switch labelled RESET and STBY. When held in RESET for more than 3 seconds the system will
+be reset and moved out of STBY.
 
 ## Vertical Velocity Indicator
 
@@ -113,7 +114,8 @@ accurate readings (within six degrees) for 9 minutes if power to the system is
 lost and the OFF flag is in view. Pitch markings are indicated every 5 degrees,
 while roll markings are in gradations of 10 degrees. Roll is illustrated through
 360 degrees, while pitch is limited by stops at 92 degrees in climb and 78
-degrees in dive to prevent gimbal lock.
+degrees in dive to prevent gimbal lock. The SAI can be unlocked by pressing the knob and trimmed
+by turning it.
 
 ## Navigation Function Selector Panel
 
@@ -130,12 +132,12 @@ the ADI; the OFF position has the switch aligned vertically.
 
 ### Bearing/Distance Knob
 
-| Name     | Description                                                                       |
-| -------- | --------------------------------------------------------------------------------- |
-| VOR/TAC  | Magnetic and relative bearing to VOR station and TACAN range displayed on HSI.    |
-| TAC      | Magnetic and relative bearing and range to TACAN station displayed on the HSI.    |
-| ADF/TAC  | Magnetic and relative bearing to ADF station and TACAN range displayed on HSI.    |
-| NAV COMP | Magnetic and relative bearing and range provided from navigation computer on HSI. |
+| Name     | Description                                                                                       |
+|----------|---------------------------------------------------------------------------------------------------|
+| VOR/TAC  | Magnetic and relative bearing to VOR station and TACAN range displayed on HSI.                    |
+| TAC      | Magnetic and relative bearing and range to TACAN station displayed on the HSI.                    |
+| ADF/TAC  | Magnetic and relative bearing to ADF station and TACAN range displayed on HSI.                    |
+| NAV COMP | Magnetic and relative bearing and range provided from navigation computer(i.e. waypoints) on HSI. |
 
 ### Mode Selector Knob Display Functions
 

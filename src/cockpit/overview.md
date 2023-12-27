@@ -1,5 +1,7 @@
 # Cockpit Overview
 
+![ext_cockpit](../img/ext_cockpits.jpg)
+
 Greetings, phaboulus Crewman! Get ready for an in-depth look into the cockpit of the legendary
 F-4E Phantom II by Heatblur. This chapter is your backstage pass to every button, switch, and light
 that makes this aircraft the world's largest distributor of MIG Parts.

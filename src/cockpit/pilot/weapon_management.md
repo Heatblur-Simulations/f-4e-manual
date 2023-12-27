@@ -11,7 +11,7 @@ control as well as the current selected air-to-air weapon based on the position
 of the Guns/Missile switch on the left throttle handle.
 
 | Name  | Description                                                     |
-| ----- | --------------------------------------------------------------- |
+|-------|-----------------------------------------------------------------|
 | RADAR | Illuminates when a radar-guided air to air missile is selected. |
 | HEAT  | Illuminates when an IR-guided air to air missile is selected.   |
 | GUN   | Illuminates when the nose gun is selected.                      |
@@ -30,8 +30,7 @@ COMM function is set as GUARD/ADF, or A when the A-3-2-T switch is in A.
 ![TASInd](../../img/TASInd.jpg)
 
 Provides the aircraft's true Airspeed in knots, and is calibrated from 150 to
-1500 knots; airspeeds below this range are thus not reliable. At high rates of
-airspeed change, there may be a lag of up to
+1500 knots; airspeeds below this range are thus not reliable.
 
 ## Flight Instrument Brightness Knob
 
@@ -56,7 +55,7 @@ thus making them live. This function also controls selective low/high drag
 capability for retarded bombs.
 
 | Name      | Description                                                                       |
-| --------- | --------------------------------------------------------------------------------- |
+|-----------|-----------------------------------------------------------------------------------|
 | SAFE      | No arming solenoids activate; bombs release without fuzing enabled.               |
 | NOSE      | Forward and center position solenoids activate to hold arming lanyards.           |
 | TAIL      | Aft position solenoids activate to hold arming lanyards.                          |
@@ -75,6 +74,8 @@ position, and any necessary warm up period for the selected weapon type is
 completed. L and R positions are left and right, respectively, with O denoting
 outboard and I denoting inboard stations. The centerline weapon position is CL,
 and the nose gun is armed with the GUN station selector button.
+
+![ext_pylons](../../img/ext_pylons.jpg)
 
 A dimmer knob is also provided to raise or lower the lighting of the station
 select buttons relative to current cockpit conditions. If the Flight Instrument
@@ -98,25 +99,25 @@ ARBCS (Altitude Reference and Bombing Computer Set) delivery modes, while the
 right side provides automated release functions using the WRCS (Weapon Release
 Computer Set) with possible tie-in to the navigation computer, depending on
 mode. At the 11 and 12 o'clock positions are the OFF position, which is utilized
-for air to air weapons (including the gun) and DIRECT, which is used for
-video-directed weapons such as the AGM-65. The full series of positions is as
-follows, clockwise from the left:
+for air-to-air weapons (including the gun) and DIRECT, which is used for
+video-directed weapons such as the AGM-65 and as a direct delivery bombing mode.
+The full series of positions is as follows, clockwise from the left:
 
-| Name     | Description                            |
-| -------- | -------------------------------------- |
-| INST O/S | Instantaneous Over the Shoulder        |
-| LOFT     | Loft                                   |
-| O/S      | (Timed) Over the Shoulder              |
-| T LAD    | Timed LADD (Low Angle Drogue Delivery) |
-| TL       | Timed Level                            |
-| OFF      | Off (Air to Air)                       |
-| DIRECT   | Manual Direct                          |
-| TGT FIND | Target Find (Nav mode only)            |
-| DT       | Dive Toss                              |
-| DL       | Dive Laydown                           |
-| L        | Laydown                                |
-| OFF SET  | Offset Bomb                            |
-| AGM-45   | AGM-45                                 |
+| Name                                                                                                 | Description                                                                                       |
+|------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| [INST O/S](../../stores/air_to_ground/bombs/employment.md#instantaneous-over-the-shoulder---inst-os) | Instantaneous Over the Shoulder                                                                   |
+| [LOFT](../../stores/air_to_ground/bombs/employment.md#loft)                                          | Loft                                                                                              |
+| [O/S](../../stores/air_to_ground/bombs/employment.md#timed-over-the-shoulder---timed-os)             | (Timed) Over the Shoulder                                                                         |
+| [T LAD](../../stores/air_to_ground/bombs/employment.md#timed-low-angle-drogue-delivery---t-ladd)     | Timed LADD (Low Angle Drogue Delivery)                                                            |
+| [TL](../../stores/air_to_ground/bombs/employment.md#timed-level---tl)                                | Timed Level                                                                                       |
+| OFF                                                                                                  | Off (Air to Air)                                                                                  |
+| [DIRECT](../../stores/air_to_ground/bombs/employment.md#direct)                                      | Manual Direct                                                                                     |
+| [TGT FIND](../../stores/air_to_ground/bombs/employment.md#target-find---tgt-find)                    | Target Find (Nav mode and [Pave spike](../../systems/weapon_systems/pave_spike/overview.md) only) |
+| [DT](../../stores/air_to_ground/bombs/employment.md#dive-toss---dt)                                  | Dive Toss                                                                                         |
+| [DL](../../stores/air_to_ground/bombs/employment.md#dive-laydown---dl)                               | Dive Laydown                                                                                      |
+| [L](../../stores/air_to_ground/bombs/employment.md#laydown-l)                                        | Laydown                                                                                           |
+| [OFF SET](../../stores/air_to_ground/bombs/employment.md#offset)                                     | Offset Bomb                                                                                       |
+| [AGM-45](../../stores/air_to_ground/missiles/shrike.md)                                              | AGM-45                                                                                            |
 
 ## Weapon Selector Knob
 
@@ -127,16 +128,16 @@ the AWRU (Aircraft Weapons Release Unit). ARM and TV positions inhibit air to
 air weapon firing unless a CAGE signal is active. ARM and TV positions do not
 affect tuning status of radar guided weapons. Positions are as follows:
 
-| Name        | Description                                                                      |
-| ----------- | -------------------------------------------------------------------------------- |
-| AGM-12      | Not used.                                                                        |
-| BOMBS       | Bombs (all types).                                                               |
-| RKTS & DISP | Rockets and dispensers.                                                          |
-| ARM         | Anti-Radiation Missile (AGM-45).                                                 |
-| TV          | Electro-optical weapons (AGM-65).                                                |
-| C           | Not used; may be utilized as an OFF position.                                    |
-| B           | Like AIR TO AIR switch in rear cockpit, cancels CAGE requirement.                |
-| A           | Simultaneous release mode for CBU, rockets, or dispensers; bombs do not release. |
+| Name        | Description                                                                                   |
+|-------------|-----------------------------------------------------------------------------------------------|
+| AGM-12      | Not used.                                                                                     |
+| BOMBS       | Bombs (all types).                                                                            |
+| RKTS & DISP | Rockets and dispensers.                                                                       |
+| ARM         | Anti-Radiation Missile ([AGM-45 Shrike](../../stores/air_to_ground/missiles/shrike.md)).      |
+| TV          | Electro-optical weapons ([AGM-65 Maverick](../../stores/air_to_ground/missiles/maverick.md)). |
+| C           | Not used; may be utilized as an OFF position.                                                 |
+| B           | Like AIR TO AIR switch in rear cockpit, cancels CAGE requirement.                             |
+| A           | Simultaneous release mode for CBU, rockets, or dispensers; bombs do not release.              |
 
 ## Aircraft Weapons Release Unit
 
@@ -181,7 +182,7 @@ two seconds the pickle button is held down.
 ![MSL](../../img/pilot_missile_status_light.jpg)
 
 The Missile Status Light window provides confirmation of currently installed and
-configured air to air missiles.
+configured air-to-air missiles.
 
 The RDR lights illuminate once AIM-7 missiles are properly tuned with the fire
 control system; any station that does not carry a Sparrow, does not correctly
@@ -191,7 +192,9 @@ The HEAT lights illuminate one at a time, rather than all up upon circuit
 configuration. The light of the currently selected station will illuminate
 beginning at the raising of the gear handle, and remain in that position until
 the weapon is either cycled using the throttle's Gun/Missile Switch reject
-option, or is launched.
+option, or is launched. The HEAT light arrangement corresponds with the
+[launch sequence](../../stores/air_to_air/aim_9.md#launch-sequence) of
+the [AIM-9](../../stores/air_to_air/aim_9.md).
 
 ## Radar Missile Power Switch
 
@@ -227,34 +230,38 @@ A two position switch that determines whether the fire control system launch
 parameter interlocks can prevent an AIM-7 from being launched when the trigger
 is pulled.
 
-| Name | Description                                                                       |
-| ---- | --------------------------------------------------------------------------------- |
-| IN   | Interlocks engaged; range limits, ASE limits, or radar not in VI inhibits launch. |
-| OUT  | Interlocks disengaged; AIM-7 will fire when trigger is pulled.                    |
+| Name | Description                                                                                       |
+|------|---------------------------------------------------------------------------------------------------|
+| IN   | Interlocks engaged; range limits, ASE limits, or radar not in visual intercept inhibits launch.   |
+| OUT  | Interlocks override; AIM-7 will fire when trigger is pulled even when no launch condition is met. |
 
 ## Selective Jettison Control
 
 ![SelJet](../../img/SelJet.jpg)
 
 The Selective Jettison Control knob provides the pilot direct access to dump
-stores in an emergency on a position by position basis, or immediate release of
+stores on a position by position basis, or immediate release of
 all single carried air to ground, MER/TER stored, or LAU-88 launcher-mounted
 round at once.
 
 | Name     | Description                                                                       |
-| -------- | --------------------------------------------------------------------------------- |
+|----------|-----------------------------------------------------------------------------------|
 | OFF      | Safes PUSH TO JETT button on the Selective Jettison Control Panel.                |
 | STORES   | Releases all MER/TER, single carried, or LAU-88 mounted rounds upon PUSH TO JETT. |
 | L/R FWD  | Jettisons AIM-7 from respective position on PUSH TO JETT. Inhibited if CL TK ON.  |
 | L/R AFT  | Jettisons AIM-7 from respective position on PUSH TO JETT.                         |
 | L/R WING | In conjunction with TV or ARM, jettisons single AGM-65 from wing on PUSH TO JETT. |
 
+Drop tanks are dropped by first selecting the STORES position, selecting the respective
+station select button, switching master arm to on and then pressing the PUSH TO JETT button.
+
 ## Recorder Lamp
 
 ![pilot_recorder_lamp](../../img/pilot_recorder_lamp.jpg)
 
 This dimmable lamp is lit to indicate operation of the
-Airborne-Video-Tape-Recorder (AVTR).
+[Airborne-Video-Tape-Recorder (AVTR)](../../cockpit/wso/left_sub_panel.md#avtr-control).
 
-The AVTR system is controlled by the WSO and records the intercom sound, as well
+The [AVTR](../../cockpit/wso/left_sub_panel.md#avtr-control) system is controlled by the WSO and
+records the intercom sound, as well
 as the rear radar screen.
