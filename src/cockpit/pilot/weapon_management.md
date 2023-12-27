@@ -252,7 +252,7 @@ round at once.
 | L/R AFT  | Jettisons AIM-7 from respective position on PUSH TO JETT.                         |
 | L/R WING | In conjunction with TV or ARM, jettisons single AGM-65 from wing on PUSH TO JETT. |
 
-Drop tanks are dropped by first selecting the position of the drop tank, selecting the respective
+Drop tanks are dropped by first selecting the STORES position, selecting the respective
 station select button, switching master arm to on and then pressing the PUSH TO JETT button.
 
 ## Recorder Lamp
