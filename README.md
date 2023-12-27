@@ -58,5 +58,6 @@ publish the website on <https://heatblur-simulations.github.io/f-4e-manual/>.
 ## PDF Deploy
 
 PDF versions are automatically build and published at
-<https://github.com/Heatblur-Simulations/f-4e-manual/releases> via CI/CD whenever
+currently dead link apparently. Link checker is making problems.
+//TODO fix link via CI/CD whenever
 a tag is pushed to git.
