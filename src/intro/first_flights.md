@@ -1,5 +1,8 @@
 # F-4E First Flights by Nation
 
+The F-4 was used widely by several NATO and allied countries. Because of that it had many different
+first flights in the different countries.
+
 | Nation        | McDonnell Number | BuNo/USAF Serial | Date               |
 | ------------- | ---------------- | ---------------- | ------------------ |
 | United States | 2234             | 66-284           | June 30th, 1967    |

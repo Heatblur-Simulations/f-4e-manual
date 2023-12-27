@@ -10,8 +10,9 @@ pilots, such as Steve Ritchie and Chuck DeBellevue, achieved ace status by secur
 air-to-air victories.
 
 The total number of air-to-air kills attributed to the F-4E Phantom II, combining both the USAF and
-USN, is estimated to be around 107 during the Vietnam War. However, this figure may vary across
-sources.
+USN, is estimated to be around 21 during the Vietnam War, includeing 4 MIG-19s, 17 MiG-21s. However,
+this figure may vary across sources. In total F-4C/D/E Variants shot down 107 MiG Jets hence the
+name "Biggest distributor of MiG parts".
 
 Despite its effectiveness, the F-4E faced challenges in close-quarters combat due to the initial
 absence of an internal cannon. Modifications, including the addition of an M61 Vulcan cannon,

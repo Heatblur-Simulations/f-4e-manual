@@ -2,6 +2,9 @@
 
 ## F3H to AH-1, F-110 to F-4: A Navy Interceptor with Multi-role Pedigree
 
+![real_life_f4_mockup_with_missiles](../img/real_life_f4_mockup_with_aim_7.jpg)
+_(Mockup of the F-4 with AIM-7 Missiles)_
+
 The developmental onset of the F-4 Phantom II began in the aftermath of
 McDonnell's loss in the US Navy's 1953 Day Fighter Competition- the victor of
 which was the Vought F8U. Choosing not to rest on failure, McDonnell
@@ -14,7 +17,7 @@ general fighter aircraft, rather than the specialized focus preferred by the
 Navy at the time, was rooted in F3H-1s success in threading of that very needle;
 the Demon had been built as design in opposition of the F4D Skyray in the
 interceptor role. As the Skyray proved its supersonic superiority during the
-development cycle, McDonnell expanded the Demon's capabilities to include
+development cycle, McDonnell expanded the F3H Demon's capabilities to include
 respectable air to ground armament to justify its place in the limited carrier
 compliment when compared to the F10F Jaguar and F7U Cutlass, which were also
 undergoing development at the time. Ultimately outfitted with the AIM-9
@@ -46,8 +49,8 @@ evaluated similar unsolicited proposals from Grumman, Douglas, and North
 American, and provided McDonnell with a $38 million dollar contract for two
 flying examples of the Demon follow on- internally designated as the AH-1.
 
-![McDonnell F3H-G Mockup](../img/F3HG.jpg) _(McDonnell F3H-G mockup; US Navy
-photo)_
+![McDonnell F3H-G Mockup](../img/F3HG.jpg)
+_(McDonnell F3H-G mockup; US Navy photo)_
 
 Two months later, the Navy threw McDonnell a curve ball, directing the type to
 be stripped of the air to ground fitment, and focusing on the all-weather
@@ -73,8 +76,8 @@ entered the flight testing phase a month prior (and nominally entered
 engineering almost a year ahead of Vought's entry), the benefits of Vought
 carrying over much of the prior Crusader's aerodynamic profile appeared early in
 the comparison, as the Crusader III was first to Mach 2 in flight testing, shown
-capable of reaching higher top speeds during the NPE, and noted for having more
-refined airframe handling in most regimes.
+capable of reaching higher top speeds during the Navy preliminary evaluation, and noted for having
+more refined airframe handling in most regimes.
 
 ![f-4h_aboard_the_uss_independence](../img/f-4h_aboard_uss_independence.jpg)
 _(F-4H aboard the USS Independence in 1960; US Navy photo)_
@@ -85,7 +88,7 @@ wanted a Mach 2 interceptor, not an overgrown daylight fighter. The F8U-3's
 integration of the Sparrow was found lacking versus that of the Phantom, having
 surrendered an AIM-7 against the F4H due to aerodynamic performance concerns. Of
 even greater concern for the interceptor role- as McDonnell had previously found
-internally, the pilot overhead to manage the AN/APG-74 installation in the
+internally, the pilot overhead to manage the AN/APG-74 radar installation in the
 Crusader III while in combat was found to be too high to maintain effectiveness,
 whereas the back-seater in the Phantom II could reliably acquire situational
 awareness on the radar and maintain track locks for engagement while
@@ -146,7 +149,7 @@ for field use without a compressed air cart in combination with an internal
 battery. This F-4C configuration would be the first Phantom used during the
 USAF's involvement in Vietnam, beginning in December of 1964.
 
-## Backtracking with Haste- Correcting the USAF's Early F-4 Experience in Vietnam
+## Backtracking with Haste - Correcting the USAF's Early F-4 Experience in Vietnam
 
 ![F-4_dropping_over_Vietnam](../img/F-4B_VF-111_dropping_bombs_on_Vietnam.jpg)
 _(F-4B dropping bombs over Vietnam; US Navy Photo)_
@@ -186,8 +189,8 @@ triggered fuzing required direct target impact for the missile's warhead to
 detonate, whereas the AIM-9 carried a proximity fuze; any Sidewinder that got
 close to its target was a threat to kill.
 
-![f4_over_vietnam](../img/F-4Ds_435th_TFS_over_Vietnam.jpg) _(F4-D of the 435th
-TFS over Vietnam)_
+![f4_over_vietnam](../img/F-4Ds_435th_TFS_over_Vietnam.jpg)
+_(F4-D of the 435th TFS over Vietnam)_
 
 With initial F-4D deliveries to the 8th TFW in May of 1967, the performance of
 the new configuration was quickly met with derision. The employment envelope was
@@ -221,18 +224,18 @@ changes over its service included provision for "soft wing" leading edge slats,
 the AGM-65 Maverick, and the Digital Scan Converter Group interface for the
 APQ-120.
 
-Also of note was Rivet Haste- a late Vietnam training initiative heavily
-influenced by two mid-life updates- modification "556" and TISEO. Prior to
+Also of note was Rivet Haste - a late Vietnam training initiative heavily
+influenced by two midlife updates- modification "556" and TISEO. Prior to
 "556", weapons mode changes required the pilot to go hands off the throttle and
 look down to the release panel, cycling a number of switches to disarm various
 pylons and arm others; in the event of a lucky North Vietnamese bounce, or the
-need to swap between weapons on the fly- looking away from the threat was time
-consuming and dangerous. With the modification, a pair of override switches were
+need to swap between weapons on the fly - looking away from the threat was time-consuming
+and dangerous. With the modification, a pair of override switches were
 added to the outboard throttle grip. The first, the "pinky" switch, placed
 control of the gun, Sidewinder, and Sparrow in one of three positions, while the
 second, on the forward face of the grip, switched weapons modes immediately
-between air to air and air to ground; the pilot would now have immediate access
-to his air to air weapons, and could swap them on the fly- never once looking
+between air-to-air and air to ground; the pilot would now have immediate access
+to his air-to-air weapons, and could swap them on the fly - never once looking
 down in the cockpit. 556 also included modifications to the armament panel for
 air to ground munitions, adding ripple release capability while reducing the
 number of controls required to access full ARBCS programming. Further
@@ -240,13 +243,24 @@ reinforcement of crew initiative was the installation of TISEO - the Target
 Identification System Electro-Optical. Consisting of a 4x/10x camera installed
 in the left wing, TISEO provided visual identification of distant, radar-locked
 targets, enabling the AIM-7 Sparrow to be used to its full extent. Coupled with
-the Rivet Haste training- which put experienced aircrews through a program to
+the Rivet Haste training - which put experienced aircrews through a program to
 codify them as systems and tactics instructors (not unlike the NFWS education
 being given to USN crews at the same time), the students championed the
 modification program of the Phantom, and pushed for Double Attack (a parallel
 development of Loose Deuce as had been used by the Navy in Vietnam since the
-resumption of the bombing campaign) to become the standard for air to air
+resumption of the bombing campaign) to become the standard for air-to-air
 methodology across the Air Force. While this training was ultimately too late to
 have real effect, with the final halt on US bombing coming just weeks after the
 first Haste student crews returned to Vietnam, they would set the tone for USAF
 Phantom crews going forward.
+
+### The Transition from F-4D to F-4E
+
+The F-4E that is implemented in the game is another upgrade from the F-4D for the US Air Force and
+several other countries. It featured an integrated M61 Vulcan gun elongated in the Nose as well as
+a AN/APQ-120 Radar with a reduced size to fit in with the new internally mounted M61 Vulcan. Other
+upgrades included the J79-GE-17 engines with 17,900 lbf of afterburner thrust for each engine,
+leading-edge flaps and slats to improve the maneuverability especially at high angle of attack. The
+F-4E Phantom II was the most numerous version that has been built totalling at 1370 units. The F-4E
+Phantom II is still in service at some operators across NATO including the Hellenic Air Force, the
+South Korean Air Force and the Turkish Air Force. They are expected to fly at least until 2030.
