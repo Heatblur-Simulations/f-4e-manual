@@ -3,7 +3,6 @@
 ## F3H to AH-1, F-110 to F-4: A Navy Interceptor with Multi-role Pedigree
 
 ![real_life_f4_mockup_with_missiles](../img/real_life_f4_mockup_with_aim_7.jpg)
-
 _(Mockup of the F-4 with AIM-7 Missiles)_
 
 The developmental onset of the F-4 Phantom II began in the aftermath of
@@ -51,7 +50,6 @@ American, and provided McDonnell with a $38 million dollar contract for two
 flying examples of the Demon follow on- internally designated as the AH-1.
 
 ![McDonnell F3H-G Mockup](../img/F3HG.jpg)
-
 _(McDonnell F3H-G mockup; US Navy photo)_
 
 Two months later, the Navy threw McDonnell a curve ball, directing the type to
@@ -82,7 +80,6 @@ capable of reaching higher top speeds during the Navy preliminary evaluation, an
 more refined airframe handling in most regimes.
 
 ![f-4h_aboard_the_uss_independence](../img/f-4h_aboard_uss_independence.jpg)
-
 _(F-4H aboard the USS Independence in 1960; US Navy photo)_
 
 But as the Evaluation continued, it was found that McDonnell's Phantom II
@@ -155,7 +152,6 @@ USAF's involvement in Vietnam, beginning in December of 1964.
 ## Backtracking with Haste - Correcting the USAF's Early F-4 Experience in Vietnam
 
 ![F-4_dropping_over_Vietnam](../img/F-4B_VF-111_dropping_bombs_on_Vietnam.jpg)
-
 _(F-4B dropping bombs over Vietnam; US Navy Photo)_
 
 The Phantom's initial deployments to Southeast Asia delivered a number of
@@ -194,7 +190,6 @@ detonate, whereas the AIM-9 carried a proximity fuze; any Sidewinder that got
 close to its target was a threat to kill.
 
 ![f4_over_vietnam](../img/F-4Ds_435th_TFS_over_Vietnam.jpg)
-
 _(F4-D of the 435th TFS over Vietnam)_
 
 With initial F-4D deliveries to the 8th TFW in May of 1967, the performance of

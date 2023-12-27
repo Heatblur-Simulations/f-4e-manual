@@ -16,9 +16,7 @@ first flights in the different countries.
 | South Korea   | 4966             | 76-0493          | July 28th, 1977    |
 
 ![JASDF F-4 starting](../img/JASDF_F-4_Phantoms.jpg)
-
 _(Starting F-4EJ Kais of the JASDF of the 8th Hikōtai in 2002, US Navy Photo)_
 
 ![F-4Fs german air force 1998](../img/F-4Fs_JG74_1998.jpg)
-
 _(F-4Fs of the German Air Force in 1998, USAF Photo)_

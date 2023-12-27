@@ -1,7 +1,6 @@
 # F-4E Combat History in Foreign Service
 
 ![real_life_f_4e_greece_lands_in_riat](../img/real_life_greek_phantom_lands_riat.jpg)
-
 _(Hellenic Air Force F-4E Phantom II lands at RIAT 2008, UK)_
 
 The F-4E Phantom II, a stalwart in the annals of military aviation, transcended its American origins
