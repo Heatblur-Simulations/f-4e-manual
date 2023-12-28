@@ -4,6 +4,9 @@
 
 ![IFF](../../../img/IFF.jpg)
 
+The IFF panel provides the pilot with the ability to adjust the IFF system. For further explanation
+see the [IFF System controls chapter.](../../../systems/identification_systems.md#iff-controls-and-indicators)
+
 ## DCU-94A Stores Control-Monitor Panel
 
 ![DCU94](../../../img/DCU94.jpg)
@@ -12,7 +15,7 @@ This panel is used to control and test the separate release circuit system for
 nuclear stores.
 
 Nuclear stores are separated from the regular release system to prevent
-accidental release.
+accidental release. This is not simulated in game.
 
 ## Temperature Control
 
