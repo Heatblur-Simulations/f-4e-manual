@@ -2,16 +2,25 @@
 
 ![RMP](../../img/RMP.jpg)
 
+The right main panel offers a good overview of all needed engine data as well as of your defensive
+Radar warning receiver (RWR). There is also the fuel gauge and the fire warning lights located on
+it.
+
 ## RWR Azimuth Indicator
 
 ![RWRAz](../../img/RWRAz.jpg)
+
+The [Radar warning receiver](../../systems/radar_warning_receiver.md) Azimuth Indicator shows you
+all Radar sources that are visible to the Radar warning receiver. For further information see the
+[Radar Warning Receiver](../../systems/radar_warning_receiver.md) chapter
 
 ## Azimuth-Elevation Indicator
 
 ![EOLos](../../img/EOLos.jpg)
 
 The Azimuth-Elevation Indicator, or also Line-Of-Sight Indicator, is the main
-instrument for the pilot to assess the current attitude of the Pave Spike
+instrument for the pilot to assess the current attitude of
+the [Pave Spike](../../systems/weapon_systems/pave_spike/overview.md)
 Targeting Pod in order to keep the line of sight within the operational limits.
 
 The needle shows the pods roll position from -160° (CW) to +110° (CCW).
@@ -74,7 +83,8 @@ the aft-most cell 7, as well as the internal wing tanks. The sector display
 presents 200 lb increments from 0 to 3000 pounds, and 500 pound increments for
 the rest of the gauge. The lower tape counter readout includes all internal
 fuel, including cell 7 and the internal wing tanks, and is presented in 100 lb
-increments.
+increments. Cell 7 is used as a reserve cell. For more detailed information see the
+[Fuel system chapter.](../../systems/flight_controls/fuel_system.md)
 
 ## Fuel Flow Gauges
 
@@ -90,7 +100,8 @@ four times the displayed flow rate.
 ![Tach](../../img/Tach.jpg)
 
 A percentage-noting Tachometer is provided for each engine, including an inset
-wheel for accurate display of single digits.
+wheel for accurate display of single digits. Normal values are 65% for idle, 95% in full mil power
+and 105% for full afterburner.
 
 ## Exhaust Gas Temperature Gauges
 
@@ -99,7 +110,7 @@ wheel for accurate display of single digits.
 Exhaust Gas Temperature gauges are provided for each engine. The gauges have two
 needles- a large needle providing increments of 0 to 12 in multiples of 100
 degrees centigrade, and a smaller needle presenting increments of 0-10 in
-multiples of 10 degrees centigrade. Temperatures are measured at the exit of the
+multiples of 10 degrees Celsius. Temperatures are measured at the exit of the
 turbine unit.
 
 ## Dual Exhaust Nozzle Position Indicators

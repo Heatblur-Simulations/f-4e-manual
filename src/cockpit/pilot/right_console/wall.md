@@ -59,8 +59,9 @@ This auxiliary panel has various controls for lights and also audio.
 
 ### Stall Warning
 
-The Stall Warning knob controls the volume of the AoA tones that play when
-flying at certain angles.
+The Stall Warning knob controls the volume of
+the [AoA tones](../../../systems/flight_controls/flight_controls.md#stall-warning-vibrator) that
+play when flying at certain angles.
 
 Under certain conditions, the system can override the volume to ensure the cue
 is always audible in dangerous situations.
@@ -79,7 +80,7 @@ The bright and dim positions activate lamps powered by different electrical
 buses to ensure the emergency light is available even in case of failure.
 
 | Lamp   | Bus                  |
-| ------ | -------------------- |
+|--------|----------------------|
 | Bright | Essential 28V DC Bus |
 | Dim    | Left Main 14V AC Bus |
 

@@ -24,7 +24,7 @@ reached a certain fuel level already.
 
 ### Refueling Select Switch
 
-Determines which tanks will be refuelled during an air to air refueling cycle:
+Determines which tanks will be refuelled during an air-to-air refueling cycle:
 internal (INT ONLY) or all tanks (ALL).
 
 ### External Transfer Switch
@@ -42,8 +42,8 @@ same time. If both are selected, the external tanks will take priority.
 ### Air Refueling Switch
 
 Two position toggle switch used for extending (EXTEND) and retracting (RETRACT)
-the air to air refueling door. Placing the switch into EXTEND illuminates the
-air to air refueling receptacle lamp to assist the tanker boom operator.
+the air-to-air refueling door. Placing the switch into EXTEND also illuminates the
+air-to-air refueling receptacle lamp to assist the tanker boom operator.
 
 If, during AAR, the boom disconnects and the DISENGAGED light illuminates, this
 switch has to be flipped to RETRACT and back to EXTEND to reset the system and
@@ -51,7 +51,7 @@ allow the boom to connect again.
 
 ### Boost Pump Check Switches
 
-A pair of two position spring loaded switches are provided to confirm function
+A pair of two position spring-loaded switches are provided to confirm function
 of the fuel boost pumps. Can only be checked with the engine master switches
 OFF. Holding either switch will energize the respective boost pump, thus showing
 a positive pressure value on the fuel pressure indicator.
@@ -97,7 +97,8 @@ Once jettisoned, the handle is released back into its normal position.
 
 ### Stability Augmentation Channel Switches (Yaw/Roll/Pitch)
 
-Three two-position switches enable individual channels of stability augmentation
+Three two-position switches enable individual channels
+of [stability augmentation](../../../systems/flight_controls/flight_controls.md#stability-augmentation-system)
 for Yaw, Roll, and Pitch. ENGAGE (forward) sets the respective chanel stability
 augmentation on.
 
@@ -110,5 +111,5 @@ azimuth. Deactivated by selecting the switch aft, or with a rapid control input.
 ### Altitude Hold Switch
 
 Selecting ENGAGE activates the altitude hold function of the AFCS. When entered
-in a pitch and bank level condition, will maintain altitude (ASL) stabilized
+a pitch and bank level condition, will maintain altitude (ASL) stabilized
 flight at the current heading.

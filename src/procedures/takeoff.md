@@ -42,7 +42,7 @@
 | 5.   | Throttle                                                                                    | ADVANCE MIL THEN AFTERBURNER |
 |      | Maintain directional control using nose gear steering, at 70 knots rudder becomes effective |                              |
 | 6.   | Stick                                                                                       | MOVE AFT AT 80 KNOTS         |
-|      | When Nose starts rising keep pith attitude of 10° to 12° until lift-off                     |                              |
+|      | When Nose starts rising keep pitch attitude of 10° to 12° until lift-off                    |                              |
 |      | Keep attitude during acceleration                                                           |                              |
 | 7.   | Trim                                                                                        | ADJUST AS JET ACCELERATES    |
 

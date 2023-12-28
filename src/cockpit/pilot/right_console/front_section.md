@@ -35,15 +35,16 @@ The TACAN Function Selector Knob determines the presentation and type of
 information provided on the HSI, ADI, and BDHI, respectively.
 
 | Name    | Description                                                                                                                                                |
-| ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| OFF     | The TACAN receiver is de-energized and offline.                                                                                                             |
+|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| OFF     | The TACAN receiver is de-energized and offline.                                                                                                            |
 | REC     | The TACAN receiver is active, providing bearing information on the HSI, BDHI, and ADI.                                                                     |
 | T/R     | Both the receive and transmit functions of the TACAN are active, which provide bearing and nautical mile range information for the HSI and BDHI.           |
-| A/A REC | The TACAN receiver decodes bearing information from compliant aircraft for the HSI, BDHI, and ADI steering display.                                         |
+| A/A REC | The TACAN receiver decodes bearing information from compliant aircraft for the HSI, BDHI, and ADI steering display.                                        |
 | A/A TR  | The TACAN receiver receives both bearing and slant range information in nautical miles from the transmitting aircraft, providing this on the HSI and BDHI. |
 
 Note: Air to Air TACAN functionality requires the channel to be set 63 channels
-above or below the cooperating aircraft, but on the same range- X or Y.
+above or below the cooperating aircraft, but on the same range- X or Y. So a tanker on 123Y should
+be set to 60Y in the F-4.
 
 ## Communication Control Panel
 
@@ -64,7 +65,7 @@ squelch.
 The A-3-2-T Selector knob sets HAVE Quick functionality of the UHF radio (A-
 auto-jam), the first digit of the manually selected frequency (3 or 2), or
 enables Time of Day receipt for one minute after selection in a momentary hold
-position (T).
+position (T). The HAVE Quick system provides an resistance against jamming.
 
 The four Frequency Selection Knobs work in concert with the A-3-2-T knob and
 Preset/Manual switch. Frequencies are entered beginning with the 3 or 2
@@ -94,7 +95,7 @@ The Comm Function Selector Knob determines the current configuration of the
 radio system.
 
 | Name      | Description                                                                |
-| --------- | -------------------------------------------------------------------------- |
+|-----------|----------------------------------------------------------------------------|
 | OFF       | All UHF Radios off.                                                        |
 | T/R ADF   | Comm receiver - comm reception.                                            |
 |           | Comm transmitter - comm transmission.                                      |
@@ -120,6 +121,13 @@ radio system.
 The Aux Volume Control knob raises and lowers the volume of the Aux receiver
 channel.
 
+## Utility Panel (Right)
+
+![pilot_utility_panel](../../../img/pilot_utility_panel.jpg)
+
+The utility panel features an emergency vent handle for releasing over pressure in the cockpit.
+Furthermore, it features the Defog/Foot Heat Lever as well as the Generator control switches.
+
 ## Emergency Vent Handle
 
 ![Emergency Vent Handle](../../../img/EmergVent.jpg)
@@ -130,15 +138,11 @@ seal the cabin again.
 Should only be used if the pressurization system is malfunctioning and reads
 abnormal values. Descend to safe altitudes before activating.
 
-## Utility Panel (Right)
-
-![PilUtil](../../../img/PilUtil.jpg)
-
 ## Defog/Foot Heat Lever
 
 ![Defog](../../../img/Defog.jpg)
 
-Provides pilot selectable volume of warm air to the windscreen or footwell
+Provides pilot selectable volume of warm air to the windshield for de-icing purposes or footwell
 recesses for comfort or visibility.
 
 ## Generator Control Switches
@@ -149,7 +153,7 @@ Control of each engine's respective electrical generator is provided by an
 individual switch.
 
 | Name          | Description                                                                        |
-| ------------- | ---------------------------------------------------------------------------------- |
+|---------------|------------------------------------------------------------------------------------|
 | ON            | Generator is driven by engine accessory power and applied to electrical bus.       |
 | OFF           | Generator is offline.                                                              |
 | ON (EXTERNAL) | External power is supplied through generator bus connection for pre-startup needs. |

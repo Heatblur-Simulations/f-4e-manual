@@ -2,11 +2,16 @@
 
 ![LeftSub](../../img/LeftSub.jpg)
 
+The left sub-panel features most of the gear indicators as well as the fuel boost pump gauges. Also
+found on it is the stabilator trim gauge and the emergency release of the external stores.
+
 ## 8-Day Clock
 
 ![PClock](../../img/PClock.jpg)
 
-A clock is provided for the pilot, including a stopwatch function.
+A clock is provided for the pilot, including a stopwatch function. The stopwatch is being used
+by pressing the top right button and reset by pressing it again. The watch can be set by turning
+the knob on the left lower corner.
 
 ## Emergency Canopy Jettison Handle
 
@@ -14,7 +19,7 @@ A clock is provided for the pilot, including a stopwatch function.
 
 Used for emergency ground extraction, the Emergency Canopy Jettison Handle
 releases a compressed oxygen cylinder to open both canopies immediately,
-shearing them off at their pivots.
+shearing them off at their pivots. The handle only jettisons the respective canopy.
 
 ## Landing Gear Handle
 
@@ -56,21 +61,21 @@ current PSI.
 ![StabTrimInd](../../img/StabTrimInd.jpg)
 
 Provides current stabilator trim setting in units (trim switch actuation) of
-trim.
+trim. For Takeoff the trim should be between 1-3 units nose down.
 
 ## Landing/Taxi Lights Switch
 
 ![LndTxLt](../../img/LndTxLt.jpg)
 
 Control the external Landing and Taxi lamps. Left main gear must be down and
-locked for the switch to function.
+locked for the switch to function. Lights are turned off automatically when the gear is turned in.
 
 ## External Stores Emergency Release
 
 ![EmerRel](../../img/EmerRel.jpg)
 
 Also called the "panic button", the External Stores Emergency Release will
-immediately perform separation of all jettison-able stores, without air to air
+immediately perform separation of all jettison-able stores, without air-to-air
 weapons or special weapons. The actuation of the button will show a yellow ring
 around the button position, which is the indicator for the pilot that it has
 been used.

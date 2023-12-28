@@ -6,7 +6,7 @@
 
 Used to visually confirm the integrated boarding steps state. With
 the white post up, steps are stowed, whereas steps are deployed if post
-is down and flush with panel recess.
+is down and flush with panel recess. The boarding steps and ladder is moved by the ground crew menu.
 
 ## Intercom System Control Panel
 
@@ -42,7 +42,7 @@ Determines current amplifier for intercom function.
 ### Chaff Burst Count
 
 Selects the number of chaff burst commands per salvo; values of 1, 2, 3, 4, 6,
-or 8
+or 8 from left to right.
 
 ### Chaff Burst Interval
 
