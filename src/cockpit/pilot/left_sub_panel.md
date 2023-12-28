@@ -2,14 +2,14 @@
 
 ![LeftSub](../../img/LeftSub.jpg)
 
-The left sub-panel features most of the gear indicators as well as the fuel boost pump gauges. Also 
+The left sub-panel features most of the gear indicators as well as the fuel boost pump gauges. Also
 found on it is the stabilator trim gauge and the emergency release of the external stores.
 
 ## 8-Day Clock
 
 ![PClock](../../img/PClock.jpg)
 
-A clock is provided for the pilot, including a stopwatch function. The stopwatch is being used 
+A clock is provided for the pilot, including a stopwatch function. The stopwatch is being used
 by pressing the top right button and reset by pressing it again. The watch can be set by turning
 the knob on the left lower corner.
 
@@ -28,7 +28,7 @@ shearing them off at their pivots. The handle only jettisons the respective cano
 Actuates the landing gear; raised for gear up, down for gear down.
 
 Pulling the handle out will actuate the Emergency Mode and release the gear by
-using a pair of compressed air bottles. 
+using a pair of compressed air bottles.
 
 ## Landing Gear Position Indicators
 
