@@ -43,7 +43,8 @@ information provided on the HSI, ADI, and BDHI, respectively.
 | A/A TR  | The TACAN receiver receives both bearing and slant range information in nautical miles from the transmitting aircraft, providing this on the HSI and BDHI. |
 
 Note: Air to Air TACAN functionality requires the channel to be set 63 channels
-above or below the cooperating aircraft, but on the same range- X or Y.
+above or below the cooperating aircraft, but on the same range- X or Y. So a tanker on 123Y should
+be set to 60Y in the F-4.
 
 ## Communication Control Panel
 
@@ -64,7 +65,7 @@ squelch.
 The A-3-2-T Selector knob sets HAVE Quick functionality of the UHF radio (A-
 auto-jam), the first digit of the manually selected frequency (3 or 2), or
 enables Time of Day receipt for one minute after selection in a momentary hold
-position (T).
+position (T). The HAVE Quick system provides an resistance against jamming.
 
 The four Frequency Selection Knobs work in concert with the A-3-2-T knob and
 Preset/Manual switch. Frequencies are entered beginning with the 3 or 2

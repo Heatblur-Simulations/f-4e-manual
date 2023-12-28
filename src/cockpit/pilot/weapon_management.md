@@ -244,16 +244,13 @@ stores on a position by position basis, or immediate release of
 all single carried air to ground, MER/TER stored, or LAU-88 launcher-mounted
 round at once.
 
-| Name     | Description                                                                       |
-|----------|-----------------------------------------------------------------------------------|
-| OFF      | Safes PUSH TO JETT button on the Selective Jettison Control Panel.                |
-| STORES   | Releases all MER/TER, single carried, or LAU-88 mounted rounds upon PUSH TO JETT. |
-| L/R FWD  | Jettisons AIM-7 from respective position on PUSH TO JETT. Inhibited if CL TK ON.  |
-| L/R AFT  | Jettisons AIM-7 from respective position on PUSH TO JETT.                         |
-| L/R WING | In conjunction with TV or ARM, jettisons single AGM-65 from wing on PUSH TO JETT. |
-
-Drop tanks are dropped by first selecting the STORES position, selecting the respective
-station select button, switching master arm to on and then pressing the PUSH TO JETT button.
+| Name     | Description                                                                                   |
+|----------|-----------------------------------------------------------------------------------------------|
+| OFF      | Safes PUSH TO JETT button on the Selective Jettison Control Panel.                            |
+| STORES   | Releases all MER/TER, single carried, LAU-88 mounted rounds, or drop tanks upon PUSH TO JETT. |
+| L/R FWD  | Jettisons AIM-7 from respective position on PUSH TO JETT. Inhibited if CL TK ON.              |
+| L/R AFT  | Jettisons AIM-7 from respective position on PUSH TO JETT.                                     |
+| L/R WING | In conjunction with TV or ARM, jettisons single AGM-65 from wing on PUSH TO JETT.             |
 
 ## Recorder Lamp
 

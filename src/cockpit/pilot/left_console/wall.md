@@ -47,7 +47,7 @@ are relative to landing gear position, and are noted as follows:
 ## Emergency Slats/Flaps Handle
 
 Also included is the Emergency Slats/Flaps Extension handle, marked in yellow
-and black, at the top of the panel. This is handle is pulled to force high
+and black, at the top of the box. This handle is pulled to force high
 pressure air into the slats/flaps actuation system, causing them to deploy in
 event of control system failure.
 
@@ -69,7 +69,7 @@ Extra Picture switch starts the camera at the selected rate.
 ![Gun Camera Switch](../../../img/GunCamSwtch.jpg)
 
 Activates the gun camera, which will run until the switch is placed to off, or
-actuation of bomb button or trigger position 2 once the pre-programmed overrun
+actuation of bomb button or the second trigger detent once the pre-programmed overrun
 time is completed.
 
 ## Slats Override Switch

@@ -6,6 +6,10 @@
 
 ### Anti-Skid
 
+The [anti-skid system](../../../systems/flight_controls/gear_ground_handling.md#anti-skid-control-switch)
+provides an electronically controlled skid protection at wheel speeds over 30 knots. This is done
+by detecting the start of a skid and then releasing the brake pressure.
+
 ### Canopy/Low Altitude Warning Volume
 
 Sets audio level for canopy open and low altitude voice warnings.
@@ -41,7 +45,8 @@ needle to current system level and clears OXYGEN LOW warning.
 
 ### Oxygen Pressure Gauge
 
-Indicates system pressure from 0 to 500 psi.
+Indicates system pressure from 0 to 500 psi. The Oxygen lasts up to 24.3 Hours with a full 10 litres
+at about 35,000 feet. At 10,000 feet 10 litres last about 23.4 hours.
 
 ### Supply Lever
 
@@ -53,7 +58,7 @@ member.
 ![PilAGM](../../../img/PilAGM.jpg)
 
 Small joystick used to finalize the positioning of a target in the seeker gate
-of an AGM prior to launch.
+of a guided Weapon prior to launch.
 
 ## Outboard Engine Control Panel
 
@@ -63,12 +68,14 @@ of an AGM prior to launch.
 
 Two position switch (DE-ICE and NORMAL) controlling de-icing function. When in
 DE-ICE, the anti-icing air flow is enabled. In NORMAL, no anti-icing is
-provided.
+provided. The system should only be used below high-mach numbers. At high-mach speeds the compressor
+inlet temperature is enough to prevent ice from building up.
 
 ### Communications Antenna Select Switch
 
 Two position switch commanding which antenna is being utilized for voice
-communication- UPR (upper) or LWR (lower).
+communication- UPR (upper) or LWR (lower). The Upper position should be used for take-off and
+landing since anti-skid could interfere with the lower antenna.
 
 ### LCOSS Switch
 
@@ -97,7 +104,7 @@ The Inboard Engine Control Panel carries the following controls:
 ### Target Contrast Switch
 
 Used to select the appropriate contrast conditions for seeker acquisition with
-the AGM-65A and B.
+the [AGM-65A Maverick and AGM-65B Maverick](../../../stores/air_to_ground/missiles/maverick.md).
 
 | Name    | Description                                                               |
 |---------|---------------------------------------------------------------------------|
@@ -105,10 +112,14 @@ the AGM-65A and B.
 | AUTO    | Programs the missile to use its automatic tracking mode.                  |
 | BLK/WHT | Programs the missile seeker to track a dark target on a light background. |
 
+This doesn't change the polarity of the video but the coding of the seeker itself.
+
 ### Engine Start Switch
 
 Three position switch with automatic return to center used to start the
 respective engine using the cartridge (if loaded), left or right.
+See [engine system chapter](../../../systems/flight_controls/engines.md#cartridge-mode-starting) for
+further detail on when to use the cartridge start.
 
 ### CADC Static Pressure Compensator Correction Switch
 
@@ -146,7 +157,8 @@ or right.
 The throttle arrangement for each engine in the F-4E Phantom II is located on the front and rear
 cockpit left console. Mechanical linkage transmits throttle movement to the engine fuel control. A
 friction adjusting lever allows customization of throttle friction. Afterburner initiation occurs by
-shifting the throttles outboard and moving forward from the MIL position.
+shifting the throttles outboard and moving forward from the MIL position. The Afterburner gate can
+be adjusted in the special options of the module.
 
 Throttle movement is smooth and continuous, with afterburner modulation possible throughout the
 range. Moving throttles from IDLE to OFF closes the fuel shutoff valve, stopping fuel flow. To
@@ -216,4 +228,4 @@ is set to FLARES.
 
 The microphone switch for the Intercom System is the aft position on the inboard
 throttle grip in both cockpits. When using the intercom, all audio sans the
-pull-up tone, stall warning, voice warning, and ECM are reduced (same as RADIO OVERRIDE).
+pull-up tone, stall warning, and ECM are reduced (same as RADIO OVERRIDE).

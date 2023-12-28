@@ -12,7 +12,7 @@
 ## Starting engines (Pilot)
 
 | Step    | System                       | Action              |
-| ------- | ---------------------------- | ------------------- |
+|---------|------------------------------| ------------------- |
 | **1.**  | **External Air source**      | **CONNECT RIGHT**   |
 | **2.**  | **Engine Master Switches**   | **ON**              |
 | **3.**  | **External airflow**         | **ON**              |
@@ -37,7 +37,8 @@
 | 12.     | Right Generator              | CYCLE ON/OFF/ON     |
 | 13.     | Bus Tie Open Light           | OUT                 |
 | **14.** | **External Air**             | **DISCONNECT**      |
-| 15.     | Interior Check               | COMPLETE            |
+| **15.** | **External Power**           | **DISCONNECT**      |
+| 16.     | Interior Check               | COMPLETE            |
 
 ## After electrical power (WSO)
 
