@@ -5,7 +5,8 @@
 ![StbyMagComp](../../img/StbyMagComp.jpg)
 
 A standard magnetic compass for backup navigation assistance should the primary
-flight director systems fail.
+flight director systems fail. The compass should only be used in level flight. Compass deviation
+cards are found above the right canopy sill on each cockpit.
 
 ## Command Ejection Select Handle
 
@@ -32,7 +33,8 @@ display on signal loss.
 
 Two lamp indicator illustrating current KY-28 operating mode- P indicates plain
 (unencrypted) mode transmission, whereas C indicates cipher (encrypted) mode
-transmission.
+transmission. Note: UHF communications require the system be in Plain mode, even
+with system power off, barring usage and monitoring of guard channel.
 
 ## Master Caution Light
 
@@ -40,16 +42,25 @@ transmission.
 
 A repeater of the front cockpit Master Caution light, provides warning to the
 WSO that a caution condition exists and the telelight panel needs to be checked
-for cause to rectify the situation.
+for cause to rectify the situation. Note: There is no reset button for the WSO. The Pilot has to
+reset the Master Caution if it occurs
 
 ## Shoot Light
 
 ![LftShoot](../../img/LftShoot.jpg)
 
-Illuminates when missile firing parameters are met. Do not illuminate when in VI
-or A-G modes.
+Illuminates when missile firing parameters are met. Do not illuminate when in Visual Intercept
+or Air-to-Ground modes.
 
 ## AN/APR-36 Control Panel
+
+![wso_an_apr_36](../../img/wso_an_apr_36.jpg)
+
+The AN/APR-36 Control Panel controls the Radar Warning Receiver System of the Phantom. The ALR-46
+Radar Warning Receiver (subsequently RWR) is the F-4E's passive situational awareness
+system for detection of airborne and surface-to-air radar threats. The system captures signals from
+a pair of directional antennas installed at the aft of the fuselage. For further information
+see the [Radar Warning Receiver](../../systems/radar_warning_receiver.md)
 
 ## Angle of Attack Indexer
 
@@ -62,15 +73,17 @@ position and color.
 
 ## Range (VISIDENT) Indicator
 
-Displays accurate range information inside of 2 miles (12000') and range/rate
-information inside of 9000', when lock-on exists in VI, B NAR, or B WIDE mode.
+Displays accurate radar range information inside 2 miles (12000ft) and range/rate
+information inside 9000ft, when lock-on exists in Visual Intercept, B NAR, or B WIDE mode.
 When AIR-GRD is selected, the indicator is disabled.
 
 ## 8-Day Clock
 
 ![PClock](../../img/PClock.jpg)
 
-A clock is provided for the WSO, including a stopwatch function.
+A clock is provided for the WSO, including a stopwatch function. The stopwatch is being used
+by pressing the top right button and reset by pressing it again. The watch can be set by turning
+the knob on the left lower corner.
 
 ## Accelerometer
 
@@ -95,11 +108,11 @@ indicator.
 
 Selects the respective mode for the two BDHI needles.
 
-| Name   | Description                                                         |
-| ------ | ------------------------------------------------------------------- |
-| Up     | Needle 1: UHF/Automatic Direction Finding; Needle 2: TACAN station. |
-| Center | Needle 1: VOR Station; 2 TACAN station.                             |
-| Down   | Nav Computer mode: Needle 1: Bearing; Needle 2: Ground track.       |
+| Name   | Needle 1                        | Needle 2                         |
+|--------|---------------------------------|----------------------------------|
+| Up     | UHF/Automatic Direction Finding | TACAN station                    |
+| Center | VOR Station                     | TACAN station                    |
+| Down   | Nav Computer mode: Bearing      | Nav Computer mode:  Ground track |
 
 ## Ground Speed Indicator
 
@@ -113,9 +126,8 @@ value of up to 150 knots when motionless on ground.
 
 ![wso_true_airspeed_speed_indicator](../../img/wso_true_airspeed_speed_indicator.jpg)
 
-Provides the aircraft's True Airspeed in knots, and is calibrated from 150 to
-1500 knots; airspeeds below this range are thus not reliable. At high rates of
-airspeed change, there may be a lag of up to
+Provides the aircraft's true Airspeed in knots, and is calibrated from 150 to
+1500 knots; airspeeds below this range are thus not reliable.
 
 ## UHF Remote Channel Indicator
 

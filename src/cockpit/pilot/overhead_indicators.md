@@ -39,7 +39,8 @@ sequence information to the pilot.
 ![StbyMagComp](../../img/StbyMagComp.jpg)
 
 A standard magnetic compass for backup navigation assistance should the primary
-flight director systems fail.
+flight director systems fail. The compass should only be used in level flight. Compass deviation
+cards are found above the right canopy sill on each cockpit.
 
 ## Angle of Attack Indexer Lights
 

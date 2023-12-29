@@ -3,7 +3,7 @@
 ## Introduction
 
 The ALR-46 Radar Warning Receiver (subsequently RWR) is the F-4E's passive situational awareness
-system for detection of airborne and surface to air radar threats. The system captures signals from
+system for detection of airborne and surface-to-air radar threats. The system captures signals from
 a pair of directional antennas installed at the aft of the fuselage; the difference in relative
 timing of detection and angle by the antennas is used by the system to define a relative bearing to
 the emitting radar. Further processing of the received radiation references the stored threat
