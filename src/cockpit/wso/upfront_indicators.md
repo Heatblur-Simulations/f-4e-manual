@@ -199,7 +199,7 @@ pointers indicate the VOR station.
 
 In the lower position, NAV COMP, the no. 1 pointer indicates bearing to the
 navigation computer target coordinates, and the no. 2 pointer indicates magnetic
-ground track. The range indicator notes distance to the selected target depending on the 
+ground track. The range indicator notes distance to the selected target depending on the
 [Navigation Mode Selector Switch.](upfront_indicators.md#navigation-mode-selector-switch)
 
 ## Tachometers
