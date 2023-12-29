@@ -100,7 +100,7 @@ maximum position indicators to 1 G.
 
 A 4-minute turn indicator, utilizing a conventional horizontally mounted gyro,
 accurately displays standard turn rates, resembling a conventional turn and slip
-indicator.
+indicator. 4-minute turn indicator refers to 4 minutes for a 360-degree turn.
 
 ## Navigation Mode Selector Switch
 
@@ -153,7 +153,8 @@ A counter-pointer style altimeter, with thousandths in the counter window and
 80,000 feet. The altimeter includes a barometric scale for setting local
 pressure with the knob on the indicator. Works in either electric (normal
 operation mode) or pneumatic (STBY) mode, switchable via a spring-loaded three
-position switch labelled RESET and STBY.
+position switch labelled RESET and STBY. When held in RESET for more than 3 seconds the system will
+be reset and moved out of STBY.
 
 ## Attitude Indicator
 
@@ -170,15 +171,12 @@ indicator or AHRS, the OFF flag will display.
 ![MachInd](../../img/MachInd.jpg)
 
 The combination airspeed and mach number indicator shows airspeed readings below
-200 knots, and include Mach numbers at high speed. The indicator uses a single
+200 knots, and include Mach numbers on the outer ring at high speed. The indicator uses a single
 pointer over a fixed airspeed scale, marked from 80 to 850 knots, with a moving
 Mach scale presenting from Mach 0.4 to 2.5. A pair of movable reference markers
 is available with the knob on the face of the gauge, with speed reference
 available between 80 and 195 knots, and the Mach index pointer being able to be
 set between the 225 knot and 850 knot regions relative to the airspeed gauge.
-
-Note: Moving these reference markers outside of the respective aforementioned
-regions can damage them.
 
 ## Bearing Distance Heading Indicator (BDHI)
 
@@ -187,12 +185,14 @@ regions can damage them.
 The Bearing Distance Heading Indicator, or BDHI, presents navigation information
 as entered by the WSO, provided with two needles (termed the No 1 and No 2
 pointers).
+See [Navigation Mode Selector Switch](upfront_indicators.md#navigation-mode-selector-switch) for
+Needle Explanation.
 
 When the upper position is selected by the WSO to TACAN/ADF/UHF, the no. 1
 pointer indicates UHF bearing, and the no. 2 pointer indicates the TACAN
 bearing. If there is no TACAN signal, both pointers indicate the ADF bearing.
 
-With the middle position selected- VOR/TAC, the no. 1 pointer indicates the VOR
+With the middle position selected - VOR/TAC, the no. 1 pointer indicates the VOR
 bearing, the no. 2 pointer indicates the TACAN bearing, and the range indicator
 provides distance to the TACAN station. In the absence of a TACAN signal, both
 pointers indicate the VOR station.
@@ -206,17 +206,19 @@ ground track. The range indicator notes distance to the target coordinates.
 ![Tach](../../img/Tach.jpg)
 
 A percentage-noting Tachometer is provided for each engine, including an inset
-wheel for accurate display of single digits.
+wheel for accurate display of single digits. Normal values are 65% for idle, 95% in full mil power
+and 105% for full afterburner.
 
 ## Canopy Unlocked Warning Lamp
 
 ![wso_canopy_unlocked_ins_out__radar_cni](../../img/wso_canopy_unlocked_ins_out__radar_cni.jpg)
 
-Illuminates when canopy is unlocked.
+Illuminates when canopy is unlocked. To reset the lamp close and lock the rear canopy.
 
 ## Inertial Nav Sys Out Lamp
 
-Illuminates when INS system is in a failure state.
+Illuminates when INS system is in a failure state. To reset the INS refer to
+the [Inertial Navigation System chapter.](../../systems/nav_com/ins.md)
 
 ## Radar CNI Cool Off Lamp
 
