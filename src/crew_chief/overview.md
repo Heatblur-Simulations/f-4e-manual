@@ -45,7 +45,6 @@ Both crewmembers can communicate with the chief using one of the 2 methods:
 
 * Intercom - crew chief's headset is connected to the aircraft intercom system
 using a cable providing 2-way communication similar to the communication between Pilot and WSO
-
 * Hand signals - when this method is used, the crew chief features are limited;
 for example you will be able to ask for the simpler actions like the wheel chocks removal
 but you can't conduct more advanced ones like flight controls check
