@@ -60,7 +60,8 @@ The STBY COMP switch illuminates the light for the Standby Compass.
 ![wso_seat_switch](../../../img/wso_seat_switch.jpg)
 
 The vertical position of the seat can be changed in either direction for about
-5cm using this spring-loaded switch.
+5cm using this spring-loaded switch. For landing, it is advisable to put the seat in the most
+upward position for better visibility.
 
 Operation of the motor must be limited to 30 seconds within 10 minutes to
 prevent it from overheating and breaking.

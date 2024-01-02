@@ -67,7 +67,7 @@ and DIM selections are routed through different buses:
 
 Controls the three white fuselage lights.
 
-Additionally, if set to BRT and and the Flasher Switch is set to FLASH, both
+Additionally, if set to BRT and the Flasher Switch is set to FLASH, both
 anti-collision lights illuminate.
 
 ### Tail Switch
@@ -118,7 +118,8 @@ In DCS, footage is saved in the users Saved Games folder, for example:
 ![pilot_seat_switch](../../../img/pilot_seat_switch.jpg)
 
 The vertical position of the seat can be changed in either direction for about
-5cm using this spring-loaded switch.
+5cm using this spring-loaded switch. For landing, it is advisable to put the seat in the most
+upward position for better visibility.
 
 Operation of the motor must be limited to 30 seconds within 10 minutes to
 prevent it from overheating and breaking.

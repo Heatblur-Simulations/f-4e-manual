@@ -21,11 +21,11 @@ decrease audio between cockpits on the intercom.
 
 Determines current amplifier for intercom function.
 
-| Name | Description                                                                         |
-|------|-------------------------------------------------------------------------------------|
-| B/U  | Backup headset amplifier provides audio.                                            |
-| NORM | Primary headset amplifier provides audio.                                           |
-| EMER | Uses amplifier from opposite cockpit; only audio received to that cockpit is heard. |
+| Name | Description                                                                                                     |
+|------|-----------------------------------------------------------------------------------------------------------------|
+| B/U  | Backup headset amplifier provides audio.                                                                        |
+| NORM | Primary headset amplifier provides audio.                                                                       |
+| EMER | Uses the amplifier from opposite cockpit; all and only audio including radio received to that cockpit is heard. |
 
 ## Control Monitor Panel
 
@@ -33,7 +33,7 @@ Determines current amplifier for intercom function.
 
 ### Cords Light
 
-Not used by the APQ-120 in the F-4E.
+Not used by the APQ-120 Radar in the F-4E.
 
 ### Temp Light
 
@@ -57,10 +57,10 @@ procedural functionality is found in the applicable BIT test section.
 | 4       | Used while lock achieved in another mode, confirms HOJ and AOJ functionality.               |
 | 5       | Checks range rate, lead angle, CAA, and PLMS function.                                      |
 | 6       | Confirms proper AIM-7 attack display and interlock function.                                |
-| 7       | n/a                                                                                         |
-| 8       | n/a                                                                                         |
-| 9       | n/a                                                                                         |
-| 10      | n/a                                                                                         |
+| 7       | not available                                                                               |
+| 8       | not available                                                                               |
+| 9       | not available                                                                               |
+| 10      | not available                                                                               |
 | DOT BAL | Confirms AIM dot centering calibration. Also used for TIRS data transfer.                   |
 
 ### Meter Switch
@@ -102,7 +102,7 @@ Changes the antenna stabilization mode.
 The throttle arrangement for each engine in the F-4E Phantom II is located on the front and rear
 cockpit left console. Mechanical linkage transmits throttle movement to the engine fuel control. The
 rear cockpit throttle does not enable the afterburner. Located on the rear throttle is a speed brake
-switch and a mic switch
+switch and a mic switch.
 
 ### Speed Brake
 
@@ -115,4 +115,4 @@ Stop upon being released).
 
 The microphone switch for the Intercom System is the aft position on the inboard
 throttle grip in both cockpits. When using the intercom, all audio sans the
-pull-up tone, stall warning, voice warning, and ECM are reduced (same as RADIO OVERRIDE).
+pull-up tone, stall warning, and ECM are reduced (same as RADIO OVERRIDE).

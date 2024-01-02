@@ -10,8 +10,9 @@ Activates recording of gun camera footage.
 
 ![wso_air_to_air_light](../../img/wso_air_to_air_light.jpg)
 
-Illuminates when CAGE mode activated; pressing the light reverts the radar to
-the original operating condition prior to CAGE entry.
+Illuminates when [CAGE](../../stores/air_to_air/acm_modes.md) mode activated; pressing the light
+reverts the radar to the original operating condition prior
+to [CAGE](../../stores/air_to_air/acm_modes.md) entry.
 
 ## Video Select Button
 
@@ -152,9 +153,9 @@ mask sealing check).
 ### Diluter Lever
 
 Two position switch that cycles between NORMAL oxygen value or 100% OXYGEN
-level.
+level. 100% Oxygen should only be used if fire and/or smoke and fumes occur in the plane.
 
-### WSO Oxygen Quantity Test Button
+### Oxygen Quantity Test Button
 
 Tests oxygen low pressure warning system. Pressing the button cycles the needles
 from current oxygen level to zero, which triggers OXYGEN LOW telelight panel
@@ -165,7 +166,7 @@ needle to current system level and clears OXYGEN LOW warning.
 
 Indicates system pressure from 0 to 500 psi.
 
-### WSO Supply Lever
+### Supply Lever
 
 Two position switch (ON and OFF) activating flow of oxygen to the aircrew
 member.
