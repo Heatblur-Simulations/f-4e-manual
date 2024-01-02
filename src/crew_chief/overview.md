@@ -35,3 +35,7 @@ Both crewmembers can communicate with the chief using one of the 2 methods:
 In both modes you can communicate with the crew chief using Jester wheel "Crew Chief" menu. The aircraft has to be stationary and on friendly airfield for the menu to be available.
 
 If the intercom system is set up correctly and powered up, the intercom mode will be active, otherwise hand signals mode will be used and the "(hand signals)" will be added to the "Crew Chief" menu name to indicate that.
+
+## TODO
+* explain features a bit more
+* add some images
