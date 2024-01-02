@@ -13,23 +13,24 @@
 |         | **a. Barometric Scale**               | **SET QNH**                 |
 |         | **b. SPC**                            | **RESET CORR**              |
 |         | **c. BARO Altimeter**                 | **HOLD RESET 3 SEC**        |
-| 5.      | Speed Brakes                          | CHECK                       |
-| 6.      | Slats & Flaps                         | CHECK                       |
-| 7.      | Flight Controls                       | CHECK                       |
+| 5.      | Speed Brakes                          | CHECK🔧                    |
+| 6.      | Slats & Flaps                         | CHECK🔧                    |
+| 7.      | Flight Controls                       | CHECK🔧                    |
 | **8.**  | **Slats & Flaps**                     | **NORM**                    |
-| 9.      | ARI Disengage                         | CHECK                       |
-| 10.     | STAB AUG Switches                     | ENGAGE AND CHECK            |
+| 9.      | ARI Disengage                         | CHECK🔧                    |
+| 10.     | STAB AUG Switches                     | ENGAGE AND CHECK🔧         |
 | **11.** | **Reference Sel Switch (if INS NAV)** | **PRIM**                    |
 | **12.** | **Compass Mode Control Knob**         | **SYNC**                    |
 | 13.     | AFCS                                  | CHECK                       |
 | 14.     | STAB AUG Switches                     | DISENGAGE                   |
-| **15.** | **Trim**                              | **SET 1-3 units NOSE DOWN** |
-| 16.     | Slats & flaps                         | OUT & DOWN                  |
+| **15.** | **Trim**                              | **CHECK🔧 & SET**          |
+|         |                                       | **1-3 UNITS NOSE DOWN**     |
+| 16.     | Slats & flaps                         | OUT & DOWN🔧               |
 | **17.** | **Optical Sight**                     | **STBY/CAGE**               |
 | 18.     | Pneumatic Pressure                    | CHECK                       |
 | 19.     | IFF                                   | CHECK                       |
 | 20.     | Radar Altimeter                       | CHECK & SET                 |
-| **21.** | **Wheel chocks**                      | **REMOVED**                 |
+| **21.** | **Wheel chocks**                      | **REMOVED**🔧              |
 
 ### WSO
 
