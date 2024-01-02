@@ -23,7 +23,8 @@
 | **12.** | **Compass Mode Control Knob**         | **SYNC**                    |
 | 13.     | AFCS                                  | CHECK                       |
 | 14.     | STAB AUG Switches                     | DISENGAGE                   |
-| **15.** | **Trim**                              | **CHECK🔧 & SET <br> 1-3 UNITS NOSE DOWN** |
+| **15.** | **Trim**                              | **CHECK🔧 & SET**          |
+|         |                                       | **1-3 UNITS NOSE DOWN**     |
 | 16.     | Slats & flaps                         | OUT & DOWN🔧               |
 | **17.** | **Optical Sight**                     | **STBY/CAGE**               |
 | 18.     | Pneumatic Pressure                    | CHECK                       |
