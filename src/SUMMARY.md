@@ -103,6 +103,7 @@
   - [Navigation](./jester/navigation.md)
   - [Combat](./jester/combat.md)
   - [Other](./jester/other.md)
+- [Crew Chief](./crew_chief/overview.md)
 - [Procedures](./procedures/overview.md)
   - [Pre-Start](./procedures/pre_start.md)
   - [Startup](./procedures/startup.md)
