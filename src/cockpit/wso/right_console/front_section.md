@@ -11,7 +11,7 @@ push-buttons on this panel.
 
 Each press will advance the corresponding digit by one.
 
-Codes directly relate to lasers frequencies, resulting in them having to be
+Codes directly relate to laser frequencies, resulting in them having to be
 between 1111 and 1788 and not use digits 0 or 9 in order to be valid.
 
 ### Enter Button
@@ -45,17 +45,17 @@ alignment.
 
 Knob positions are:
 
-| Name  | Description                                                                                                                                       |
-| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| OFF   | System off.                                                                                                                                       |
-| STBY  | Standby- power is applied to the heaters and temperature control system, and initiates Coarse alignment (if GYRO COMP is selected on the toggle). |
-| ALIGN | Performs fine platform and gyro leveling and BATH (or HDG MEM) alignment. Then, if available, performs Gyro-compassing (Fine) Alignment.           |
-| NAV   | Activates the INS for navigation function, performance of which is based on the alignment quality.                                                |
+| Name                                                       | Description                                                                                                                                                                                                                                                                                                                  |
+|------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| OFF                                                        | System off.                                                                                                                                                                                                                                                                                                                  |
+| STBY                                                       | Standby- power is applied to the heaters and temperature control system, and initiates Coarse alignment (if [GYRO COMP](../../../systems/nav_com/ins.md#gyrocompass-alignment) is selected on the toggle).                                                                                                                   |
+| [ALIGN](../../../systems/nav_com/ins.md#alignment-options) | Performs fine platform and gyro leveling and [BATH](../../../systems/nav_com/ins.md#best-available-true-heading) (or [HDG MEM](../../../systems/nav_com/ins.md#heading-memory-alignment)) alignment. Then, if available, performs [Gyro-compassing](../../../systems/nav_com/ins.md#gyrocompass-alignment) (Fine) Alignment. |
+| NAV                                                        | Activates the INS for navigation function, performance of which is based on the alignment quality.                                                                                                                                                                                                                           |
 
 ### HEAT Lamp
 
 The HEAT lamp illuminates when the system is placed into STBY mode, and remains
-illuminated for 110 seconds after the gyros have reached operating temperature.
+illuminated for 2 minutes after the gyros have reached operating temperature.
 The system will not allow Gyro-compassing alignment if switched out of STBY
 before this lamp has shut off.
 
@@ -77,15 +77,20 @@ using the WRCS release range data.
 
 ### TGT FIND Switch
 
-Used to combine the delivery functionality of the ARBCS/LABS system with the
-WRCS TGT FIND mode. NORM is selected for the standard function of the WRCS
-without LABS delivery capability. Selecting HOLD and an ARBCS setting from the
-pilot's Delivery Mode Knob provides WRCS Target Offset search capability, and
-the attack is completed using the normal ARBCS procedures from the IP.
+Used to combine the delivery functionality of
+the [ARBCS/LABS](../../../systems/weapon_systems/arbcs.md) system with the
+[WRCS](../../../systems/weapon_systems/wrcs.md) TGT FIND mode. NORM is selected for the standard
+function of the [WRCS](../../../systems/weapon_systems/wrcs.md)
+without [LABS](../../../systems/weapon_systems/arbcs.md) delivery capability. Selecting HOLD and
+an [ARBCS](../../../systems/weapon_systems/arbcs.md) setting from the
+pilot's Delivery Mode Knob provides [WRCS](../../../systems/weapon_systems/wrcs.md) Target Offset
+search capability, and the attack is completed using the
+normal [ARBCS](../../../systems/weapon_systems/arbcs.md) procedures from the IP.
 
 ### RANGE Switch
 
-Selecting x100 changes the release range multiplier on the WRCS panel to a
+Selecting x100 changes the release range multiplier on
+the [WRCS](../../../systems/weapon_systems/wrcs.md) panel to a
 factor of 100; in NORM, the standard factor of 10 is applied to the release
 range.
 
@@ -104,8 +109,9 @@ This system is not installed on this variant of the F-4E.
 
 ### Stall Warning
 
-The Stall Warning knob controls the volume of the AoA tones that play when
-flying at certain angles.
+The Stall Warning knob controls the volume of
+the [AoA tones](../../../systems/flight_controls/flight_controls.md#aural-tone-system) that play
+when flying at certain angles.
 
 Under certain conditions, the system can override the volume to ensure the cue
 is always audible in dangerous situations.

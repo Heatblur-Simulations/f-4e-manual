@@ -224,4 +224,6 @@ the [Inertial Navigation System chapter.](../../systems/nav_com/ins.md)
 ## Radar CNI Cool Off Lamp
 
 Illuminates to indicate an over-temperature situation in the avionics cooling
-system.
+system, most likely caused by a bleed air duct failure. If the light is illuminated, reduce the
+airspeed and wait 15 seconds. Then press the CNI cooling reset button. Should the light stay
+illuminated remain at reduced power and speed and land as soon as practical.

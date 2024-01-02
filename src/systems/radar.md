@@ -78,7 +78,7 @@ in said mode. A Sparrow launched with the APQ-120 in CIR 2 will not track.
 ### Maneuver Switch
 
 The WSO can select APQ-120 system response to acceleration that can cause a track to be dropped for
-air to air combat using the Maneuver Switch. By default this switch is placed in LOW G, as to
+air-to-air combat using the Maneuver Switch. By default, this switch is placed in LOW G, as to
 provide resistance to countermeasures and clutter that would drive the range track loop off target
 under normal maneuvering. In a combat situation, selecting HI G removes such limitations and allows
 the range track loop to respond to said high accelerations. If the switch is not previously selected

@@ -65,7 +65,7 @@ squelch.
 The A-3-2-T Selector knob sets HAVE Quick functionality of the UHF radio (A-
 auto-jam), the first digit of the manually selected frequency (3 or 2), or
 enables Time of Day receipt for one minute after selection in a momentary hold
-position (T). The HAVE Quick system provides an resistance against jamming.
+position (T). The HAVE Quick system provides a resistance against jamming.
 
 The four Frequency Selection Knobs work in concert with the A-3-2-T knob and
 Preset/Manual switch. Frequencies are entered beginning with the 3 or 2
@@ -73,7 +73,7 @@ selection on the A-3-2-T Selector, and can be entered from 225.00 to 399.975 MHz
 in increments of 0.025. With Preset/Manual in the Manual position, the UHF radio
 is directly set to the displayed channel. In the Preset position, the set
 channels can entered into the COMM CHAN memory, with the desired position
-selected with the Comm Channel Control knob- the smaller knob to the left of the
+selected with the Comm Channel Control knob - the smaller knob to the left of the
 Preset/Manual switch, and displayed in the COMM CHAN window. Channels are stored
 in the displayed channel preset with the SET pushbutton. Once stored, channels
 are directly selected using the Comm Channel Control knob with the Preset/Manual
@@ -136,7 +136,8 @@ A plug that can be pulled to release cockpit pressure. Putting it back in will
 seal the cabin again.
 
 Should only be used if the pressurization system is malfunctioning and reads
-abnormal values. Descend to safe altitudes before activating.
+abnormal values, or to eliminate smoke and fumes from the cockpit. Descend to safe altitudes before
+activating.
 
 ## Defog/Foot Heat Lever
 

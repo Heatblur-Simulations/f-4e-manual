@@ -51,13 +51,13 @@ overall scope display.
 Sets the current mode of the DSCG components.
 
 | Name      | Description                                                                      |
-| --------- | -------------------------------------------------------------------------------- |
+|-----------|----------------------------------------------------------------------------------|
 | OFF       | Turns off DSCG display and de-powers all DSCG components.                        |
-| STBY      | Powers DSCG components, DSCG display remains off.                                |
+| STBY      | Powers DSCG components, DSCG display remains off. Used for takeoff and landing   |
 | DSCG TEST | Displays search display image with 8 shades of grey to confirm normal operation. |
 | RDR BIT   | Provides BIT sequence test grids for calibration of radar performance.           |
 | RDR       | Used for radar display functionality in all employment modes.                    |
-| TV        | Used for TV raster imagery with EO weapons.                                      |
+| TV        | Used for TV raster imagery with EO weapons, aswell as targeting pods.            |
 
 ## Target Designator Control Set
 
@@ -77,7 +77,9 @@ Three knobs to control the boresight position of the pod in azimuth, elevation
 and roll within 2.5 degrees in either direction.
 
 Azimuth and Elevation can best be calibrated in the 12-VIS mode, while roll is
-best calibrated in 9-VIS.
+best calibrated in 9-VIS. Normally the Pod is correctly calibrated by the ground crew before getting
+into the plane, but can drift due to combat damage or high G maneuvers in which case a recalibration
+by the WSO is needed.
 
 ### Stow Button
 
@@ -108,9 +110,11 @@ be turned on even when not using the pod.
 
 ### BIT Selector Button
 
-Pressed to advance to the desired BIT mode as displayed in the adjacent window.
+Pressed to advance to the desired [BIT](../../systems/weapon_systems/pave_spike/other.md#bits) mode
+as displayed in the adjacent window.
 
-BIT 1 is the regular mode of the pod and must be selected for normal operations.
+[BIT 1](../../systems/weapon_systems/pave_spike/other.md#bit-1) is the regular mode of the pod and
+must be selected for normal operations.
 
 ### Light Brightness Knob
 
@@ -130,7 +134,7 @@ slant range instead.
 Three position switch determining the pods main operation mode.
 
 | Name   | Description                                                                                         |
-| ------ | --------------------------------------------------------------------------------------------------- |
+|--------|-----------------------------------------------------------------------------------------------------|
 | 12-VIS | Slaves LOS parallel to the optical sight pipper.                                                    |
 | WRCS   | Slaves LOS to the WRCS cursors unless WRCS integration is deactivated; reverts to 12-VIS otherwise. |
 | 9-VIS  | Slaves LOS to 90 degrees below FRL and rolled 90 degrees left.                                      |

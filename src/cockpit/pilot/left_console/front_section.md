@@ -34,7 +34,7 @@ for mask sealing check).
 ### Diluter Lever
 
 Two position switch that cycles between NORMAL oxygen value or 100% OXYGEN
-level.
+level. 100% should only be used if fire and/or smoke and fumes occur in the plane.
 
 ### Oxygen Quantity Test Button
 

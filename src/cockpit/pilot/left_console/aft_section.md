@@ -29,11 +29,11 @@ decrease audio between cockpits on the intercom.
 
 Determines current amplifier for intercom function.
 
-| Name | Description                                                                  |
-|------|------------------------------------------------------------------------------|
-| B/U  | Backup headset amplifier provides audio.                                     |
-| NORM | Primary headset amplifier provides audio.                                    |
-| EMER | The opposite cockpit's audio is heard at its set volume using its amplifier. |
+| Name | Description                                                                                                     |
+|------|-----------------------------------------------------------------------------------------------------------------|
+| B/U  | Backup headset amplifier provides audio.                                                                        |
+| NORM | Primary headset amplifier provides audio.                                                                       |
+| EMER | Uses the amplifier from opposite cockpit; all and only audio including radio received to that cockpit is heard. |
 
 ## AN/ALE-40 Programmer
 

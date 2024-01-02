@@ -46,8 +46,8 @@
 ## Taxiing
 
 | Step   | System                 | Action             |
-| ------ | ---------------------- | ------------------ |
-| 1.     | Wheel Brakes           | TEST               |
-| **2.** | **Nose Gear Steering** | **ENGAGE & CHECK** |
+|--------|------------------------|--------------------|
+| **1.** | **Nose Gear Steering** | **ENGAGE & CHECK** |
+| 2.     | Wheel Brakes           | Test               |
 | 3.     | Flight Instruments     | CHECK              |
 | 4.     | Oxygen Diluter         | AS REQUIRED        |
