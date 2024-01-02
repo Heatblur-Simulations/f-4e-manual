@@ -1182,7 +1182,7 @@ pressure), NORMAL (standard air/oxygen mix), or TEST MASK (positive pressure
 for mask sealing check).</p>
 <h3 id="diluter-lever"><a class="header" href="#diluter-lever">Diluter Lever</a></h3>
 <p>Two position switch that cycles between NORMAL oxygen value or 100% OXYGEN
-level.</p>
+level. 100% should only be used if fire and/or smoke and fumes occur in the plane.</p>
 <h3 id="oxygen-quantity-test-button"><a class="header" href="#oxygen-quantity-test-button">Oxygen Quantity Test Button</a></h3>
 <p>Tests oxygen low pressure warning system. Pressing the button cycles the needles
 from current oxygen level to zero, which triggers OXYGEN LOW telelight panel
@@ -1421,7 +1421,7 @@ decrease audio between cockpits on the intercom.</p>
 <div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
 <tr><td>B/U</td><td>Backup headset amplifier provides audio.</td></tr>
 <tr><td>NORM</td><td>Primary headset amplifier provides audio.</td></tr>
-<tr><td>EMER</td><td>The opposite cockpit's audio is heard at its set volume using its amplifier.</td></tr>
+<tr><td>EMER</td><td>Uses the amplifier from opposite cockpit; all and only audio including radio received to that cockpit is heard.</td></tr>
 </tbody></table>
 </div>
 <h2 id="anale-40-programmer"><a class="header" href="#anale-40-programmer">AN/ALE-40 Programmer</a></h2>
@@ -1684,14 +1684,14 @@ squelch.</p>
 <p>The A-3-2-T Selector knob sets HAVE Quick functionality of the UHF radio (A-
 auto-jam), the first digit of the manually selected frequency (3 or 2), or
 enables Time of Day receipt for one minute after selection in a momentary hold
-position (T). The HAVE Quick system provides an resistance against jamming.</p>
+position (T). The HAVE Quick system provides a resistance against jamming.</p>
 <p>The four Frequency Selection Knobs work in concert with the A-3-2-T knob and
 Preset/Manual switch. Frequencies are entered beginning with the 3 or 2
 selection on the A-3-2-T Selector, and can be entered from 225.00 to 399.975 MHz
 in increments of 0.025. With Preset/Manual in the Manual position, the UHF radio
 is directly set to the displayed channel. In the Preset position, the set
 channels can entered into the COMM CHAN memory, with the desired position
-selected with the Comm Channel Control knob- the smaller knob to the left of the
+selected with the Comm Channel Control knob - the smaller knob to the left of the
 Preset/Manual switch, and displayed in the COMM CHAN window. Channels are stored
 in the displayed channel preset with the SET pushbutton. Once stored, channels
 are directly selected using the Comm Channel Control knob with the Preset/Manual
@@ -1743,7 +1743,8 @@ Furthermore, it features the Defog/Foot Heat Lever as well as the Generator cont
 <p>A plug that can be pulled to release cockpit pressure. Putting it back in will
 seal the cabin again.</p>
 <p>Should only be used if the pressurization system is malfunctioning and reads
-abnormal values. Descend to safe altitudes before activating.</p>
+abnormal values, or to eliminate smoke and fumes from the cockpit. Descend to safe altitudes before
+activating.</p>
 <h2 id="defogfoot-heat-lever"><a class="header" href="#defogfoot-heat-lever">Defog/Foot Heat Lever</a></h2>
 <p><img src="cockpit/pilot/right_console/../../../img/Defog.jpg" alt="Defog" /></p>
 <p>Provides pilot selectable volume of warm air to the windshield for de-icing purposes or footwell
@@ -1866,7 +1867,7 @@ and DIM selections are routed through different buses:</p>
 </div>
 <h3 id="fuselage-switch"><a class="header" href="#fuselage-switch">Fuselage Switch</a></h3>
 <p>Controls the three white fuselage lights.</p>
-<p>Additionally, if set to BRT and and the Flasher Switch is set to FLASH, both
+<p>Additionally, if set to BRT and the Flasher Switch is set to FLASH, both
 anti-collision lights illuminate.</p>
 <h3 id="tail-switch"><a class="header" href="#tail-switch">Tail Switch</a></h3>
 <p>Controls the position light on the tail.</p>
@@ -1900,7 +1901,8 @@ labelled ELAPSED TIME.</p>
 <h3 id="seat-position"><a class="header" href="#seat-position">Seat Position</a></h3>
 <p><img src="cockpit/pilot/right_console/../../../img/pilot_seat_switch.jpg" alt="pilot_seat_switch" /></p>
 <p>The vertical position of the seat can be changed in either direction for about
-5cm using this spring-loaded switch.</p>
+5cm using this spring-loaded switch. For landing, it is advisable to put the seat in the most
+upward position for better visibility.</p>
 <p>Operation of the motor must be limited to 30 seconds within 10 minutes to
 prevent it from overheating and breaking.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="right-wall"><a class="header" href="#right-wall">Right Wall</a></h1>
@@ -2131,15 +2133,18 @@ and 105% for full afterburner.</p>
 the <a href="cockpit/wso/../../systems/nav_com/ins.html">Inertial Navigation System chapter.</a></p>
 <h2 id="radar-cni-cool-off-lamp"><a class="header" href="#radar-cni-cool-off-lamp">Radar CNI Cool Off Lamp</a></h2>
 <p>Illuminates to indicate an over-temperature situation in the avionics cooling
-system.</p>
+system, most likely caused by a bleed air duct failure. If the light is illuminated, reduce the
+airspeed and wait 15 seconds. Then press the CNI cooling reset button. Should the light stay
+illuminated remain at reduced power and speed and land as soon as practical.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="left-sub-panel-1"><a class="header" href="#left-sub-panel-1">Left Sub-Panel</a></h1>
 <h2 id="gun-camera-switch-1"><a class="header" href="#gun-camera-switch-1">Gun Camera Switch</a></h2>
 <p><img src="cockpit/wso/../../img/wso_gun_cam_aal_video_select.jpg" alt="wso_gun_cam_aal_video_select" /></p>
 <p>Activates recording of gun camera footage.</p>
 <h2 id="air-to-air-light"><a class="header" href="#air-to-air-light">Air to Air Light</a></h2>
 <p><img src="cockpit/wso/../../img/wso_air_to_air_light.jpg" alt="wso_air_to_air_light" /></p>
-<p>Illuminates when CAGE mode activated; pressing the light reverts the radar to
-the original operating condition prior to CAGE entry.</p>
+<p>Illuminates when <a href="cockpit/wso/../../stores/air_to_air/acm_modes.html">CAGE</a> mode activated; pressing the light
+reverts the radar to the original operating condition prior
+to <a href="cockpit/wso/../../stores/air_to_air/acm_modes.html">CAGE</a> entry.</p>
 <h2 id="video-select-button"><a class="header" href="#video-select-button">Video Select Button</a></h2>
 <p><img src="cockpit/wso/../../img/wso_video_select.jpg" alt="wso_video_select" /></p>
 <p>Push button that alternates between WEAPON and TDS pod (ASQ-153) television
@@ -2227,15 +2232,15 @@ pressure), NORMAL (standard air/oxygen mix), or TEST MASK (positive pressure for
 mask sealing check).</p>
 <h3 id="diluter-lever-1"><a class="header" href="#diluter-lever-1">Diluter Lever</a></h3>
 <p>Two position switch that cycles between NORMAL oxygen value or 100% OXYGEN
-level.</p>
-<h3 id="wso-oxygen-quantity-test-button"><a class="header" href="#wso-oxygen-quantity-test-button">WSO Oxygen Quantity Test Button</a></h3>
+level. 100% Oxygen should only be used if fire and/or smoke and fumes occur in the plane.</p>
+<h3 id="oxygen-quantity-test-button-1"><a class="header" href="#oxygen-quantity-test-button-1">Oxygen Quantity Test Button</a></h3>
 <p>Tests oxygen low pressure warning system. Pressing the button cycles the needles
 from current oxygen level to zero, which triggers OXYGEN LOW telelight panel
 warning as needle passes through 1 liter. Releasing the button returns the
 needle to current system level and clears OXYGEN LOW warning.</p>
 <h3 id="oxygen-pressure-gauge-1"><a class="header" href="#oxygen-pressure-gauge-1">Oxygen Pressure Gauge</a></h3>
 <p>Indicates system pressure from 0 to 500 psi.</p>
-<h3 id="wso-supply-lever"><a class="header" href="#wso-supply-lever">WSO Supply Lever</a></h3>
+<h3 id="supply-lever-1"><a class="header" href="#supply-lever-1">Supply Lever</a></h3>
 <p>Two position switch (ON and OFF) activating flow of oxygen to the aircrew
 member.</p>
 <h2 id="landing-gearflap-indicator-panel"><a class="header" href="#landing-gearflap-indicator-panel">Landing Gear/Flap Indicator Panel</a></h2>
@@ -2276,13 +2281,13 @@ decrease audio between cockpits on the intercom.</p>
 <div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
 <tr><td>B/U</td><td>Backup headset amplifier provides audio.</td></tr>
 <tr><td>NORM</td><td>Primary headset amplifier provides audio.</td></tr>
-<tr><td>EMER</td><td>Uses amplifier from opposite cockpit; only audio received to that cockpit is heard.</td></tr>
+<tr><td>EMER</td><td>Uses the amplifier from opposite cockpit; all and only audio including radio received to that cockpit is heard.</td></tr>
 </tbody></table>
 </div>
 <h2 id="control-monitor-panel"><a class="header" href="#control-monitor-panel">Control Monitor Panel</a></h2>
 <p><img src="cockpit/wso/left_console/../../../img/wso_control_monitor_panel.jpg" alt="wso_control_monitor_panel" /></p>
 <h3 id="cords-light"><a class="header" href="#cords-light">Cords Light</a></h3>
-<p>Not used by the APQ-120 in the F-4E.</p>
+<p>Not used by the APQ-120 Radar in the F-4E.</p>
 <h3 id="temp-light"><a class="header" href="#temp-light">Temp Light</a></h3>
 <p>Illuminates amber to indicate an over-temperature situation in the nose radar
 avionics bay. Under normal circumstances, an overheat condition requires setting
@@ -2300,10 +2305,10 @@ procedural functionality is found in the applicable BIT test section.</p>
 <tr><td>4</td><td>Used while lock achieved in another mode, confirms HOJ and AOJ functionality.</td></tr>
 <tr><td>5</td><td>Checks range rate, lead angle, CAA, and PLMS function.</td></tr>
 <tr><td>6</td><td>Confirms proper AIM-7 attack display and interlock function.</td></tr>
-<tr><td>7</td><td>n/a</td></tr>
-<tr><td>8</td><td>n/a</td></tr>
-<tr><td>9</td><td>n/a</td></tr>
-<tr><td>10</td><td>n/a</td></tr>
+<tr><td>7</td><td>not available</td></tr>
+<tr><td>8</td><td>not available</td></tr>
+<tr><td>9</td><td>not available</td></tr>
+<tr><td>10</td><td>not available</td></tr>
 <tr><td>DOT BAL</td><td>Confirms AIM dot centering calibration. Also used for TIRS data transfer.</td></tr>
 </tbody></table>
 </div>
@@ -2334,7 +2339,7 @@ leave the switch in 2700, else the Vc presentation will be in error.</p>
 <p>The throttle arrangement for each engine in the F-4E Phantom II is located on the front and rear
 cockpit left console. Mechanical linkage transmits throttle movement to the engine fuel control. The
 rear cockpit throttle does not enable the afterburner. Located on the rear throttle is a speed brake
-switch and a mic switch</p>
+switch and a mic switch.</p>
 <h3 id="speed-brake-1"><a class="header" href="#speed-brake-1">Speed Brake</a></h3>
 <p>The Speed Brakes are actuated by a three position switch found on the inboard
 throttle in both cockpits. Either switch will actuate the brakes. The positions
@@ -2343,12 +2348,12 @@ Stop upon being released).</p>
 <h3 id="mic-switch-1"><a class="header" href="#mic-switch-1">Mic Switch</a></h3>
 <p>The microphone switch for the Intercom System is the aft position on the inboard
 throttle grip in both cockpits. When using the intercom, all audio sans the
-pull-up tone, stall warning, voice warning, and ECM are reduced (same as RADIO OVERRIDE).</p>
+pull-up tone, stall warning, and ECM are reduced (same as RADIO OVERRIDE).</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="center-section-2"><a class="header" href="#center-section-2">Center Section</a></h1>
 <h2 id="radar-set-control-panel"><a class="header" href="#radar-set-control-panel">Radar Set Control Panel</a></h2>
 <p><img src="cockpit/wso/left_console/../../../img/wso_radar_set_control_panel.jpg" alt="wso_radar_set_control_panel" /></p>
 <h3 id="power-knob"><a class="header" href="#power-knob">Power Knob</a></h3>
-<p>Five position rotary switch controlling power state of the APQ-120</p>
+<p>Five position rotary switch controlling power state of the APQ-120 Radar.</p>
 <div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
 <tr><td>OFF</td><td>Powers radar off.</td></tr>
 <tr><td>TEST</td><td>Applies voltage to control monitor power and provides test functions 1 through 6.</td></tr>
@@ -2358,7 +2363,8 @@ pull-up tone, stall warning, voice warning, and ECM are reduced (same as RADIO O
 </tbody></table>
 </div>
 <h3 id="polar-switch"><a class="header" href="#polar-switch">Polar Switch</a></h3>
-<p>Controls polarization of transmitted rf energy.</p>
+<p>Controls polarization of transmitted radio frequency energy. CIR 1 and 2 should be used in the
+presence of rain, however if AIM-7 Missiles should be fired use CIR 1.</p>
 <div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
 <tr><td>LIN</td><td>RF energy is lineally polarized in a vertical orientation. AIM-7 default mode.</td></tr>
 <tr><td>CIR 1</td><td>RF energy is rotated clockwise from the vertical plane. AIM-7 can be fired.</td></tr>
@@ -2367,21 +2373,24 @@ pull-up tone, stall warning, voice warning, and ECM are reduced (same as RADIO O
 </div>
 <h3 id="radar-range-knob"><a class="header" href="#radar-range-knob">Radar Range Knob</a></h3>
 <p>Used to select range sweep of 5, 10, 25, 50, 100, or 200 mile ranges on both
-radar displays. First four ranges are air to air intercept positions, final two
+radar displays. First four ranges are air-to-air intercept positions, final two
 are ground mapping modes only, and disengage lock-on capability. Selecting a
 setting illuminates the applicable range lamp, and displays the value on the
 radar scope upper left corner.</p>
 <h3 id="maneuver-switch"><a class="header" href="#maneuver-switch">Maneuver Switch</a></h3>
 <p>Controls radar tracking response due to acceleration limits and received
-countermeasures and clutter.</p>
+countermeasures and clutter. LOW G provides the velocity reject function whilst HI G allows tracking
+of a maneuvering target without breaking radar lockon.</p>
 <div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
-<tr><td>Low G</td><td>Default position. Limits track response due to countermeasures and clutter.</td></tr>
+<tr><td>LOW G</td><td>Default position. Limits track response due to countermeasures and clutter.</td></tr>
 <tr><td>HI G</td><td>Allows track loop to respond to high acceleration. Automatically engaged with CAA.</td></tr>
 </tbody></table>
 </div>
 <h3 id="bar-scan-switch"><a class="header" href="#bar-scan-switch">Bar Scan Switch</a></h3>
-<p>Selects elevation scan pattern. In 2 bar scan, search pattern is separated by
-3.75 degrees on each scan. In boresight or air to ground modes, 1 bar scan is
+<p>Selects elevation <a href="cockpit/wso/left_console/../../../systems/radar.html#scan">scan</a> pattern. In 2
+bar <a href="cockpit/wso/left_console/../../../systems/radar.html#scan">scan</a>, search pattern is separated by
+3.75 degrees on each <a href="cockpit/wso/left_console/../../../systems/radar.html#scan">scan</a>. In boresight or air to ground modes, 1
+bar <a href="cockpit/wso/left_console/../../../systems/radar.html#scan">scan</a> is
 automatically commanded.</p>
 <h3 id="aspect-switch"><a class="header" href="#aspect-switch">Aspect Switch</a></h3>
 <p>Used to program the AIM-7 with a predetermined simulated Doppler instead of
@@ -2395,7 +2404,7 @@ display to increase video output legibility of target returns.</p>
 tracking under normal circumstances.</p>
 <h4 id="manual"><a class="header" href="#manual">Manual</a></h4>
 <p>When in the MAN position, the WSO places the acquisition symbol over the
-intended target and triggers half-action on the HCU. The range strobe is
+intended target and triggers half-action on the Antenna hand control stick. The range strobe is
 positioned relative to in-range on a closing target, and the WSO selects
 full-action. To solidify the track, the WSO uses the Manual Vc knob to place the
 range strobe and target return video at the same rate of movement.</p>
@@ -2405,24 +2414,24 @@ automatically. The WSO places the acquisition symbol over the target return and
 presses full action. Should the target maneuver in excess of the speed
 capability of the radar, the Maneuver switch can be set to HI G and the target
 reacquired.</p>
-<h4 id="aoj-out"><a class="header" href="#aoj-out">AOJ OUT</a></h4>
+<h3 id="aoj-out"><a class="header" href="#aoj-out">AOJ OUT</a></h3>
 <p>The AOJ OUT position is used to override the acquisition on jamming function of
-the radar. In the event that the radar acquires a HOJ lock, the position can be
+the radar. In the event that the radar acquires a Home-on-Jam lock, the position can be
 selected to place the radar back into a search configuration to initiate a
 lock-on against the jamming target and initiate a standard angle track lock.</p>
 <h3 id="display-knob"><a class="header" href="#display-knob">Display Knob</a></h3>
 <p>Sets the display type of the radar scope to access specific mode functionality
 in conjunction with the Mode knob. The types are as follows:</p>
 <div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
-<tr><td>B WIDE</td><td>Selects 120 degree B-sweep for search. Half-action places the sweep under manual HCU.</td></tr>
-<tr><td>B NAR</td><td>Selects a 45 degree B-sweep sector for search, which is manually shifted with the HCU.</td></tr>
-<tr><td>PPI WIDE</td><td>Selects a 120 degree wide plan position indicator sweep for MAP mode.</td></tr>
-<tr><td>PPI NAR</td><td>Selects a 45 degree plan position indicator sweep that can be shifted with the HCU.</td></tr>
-<tr><td>VI</td><td>Provides pure pursuit guidance to a locked target; a break X will appear at 1000' range.</td></tr>
+<tr><td><a href="cockpit/wso/left_console/../../../systems/radar.html#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident">B WIDE</a></td><td>Selects 120 degree B-sweep for search. Half-action places the sweep under manual Antenna hand control stick.</td></tr>
+<tr><td><a href="cockpit/wso/left_console/../../../systems/radar.html#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident">B NAR</a></td><td>Selects a 45 degree B-sweep sector for search, which is manually shifted with the Antenna hand control stick.</td></tr>
+<tr><td><a href="cockpit/wso/left_console/../../../systems/radar.html#air-to-ground-ppi-wide-and-ppi-nar">PPI WIDE</a></td><td>Selects a 120 degree wide plan position indicator sweep for MAP mode.</td></tr>
+<tr><td><a href="cockpit/wso/left_console/../../../systems/radar.html#air-to-ground-ppi-wide-and-ppi-nar">PPI NAR</a></td><td>Selects a 45 degree plan position indicator sweep that can be shifted with the Antenna hand control stick.</td></tr>
+<tr><td><a href="cockpit/wso/left_console/../../../systems/radar.html#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident">VI</a></td><td>Provides pure pursuit guidance to a locked target; a break X will appear at 1000' range.</td></tr>
 </tbody></table>
 </div>
-<h3 id="maneuver-vc-knob"><a class="header" href="#maneuver-vc-knob">Maneuver Vc Knob</a></h3>
-<p>An 12 position switch used to apply estimated range rate of closure (clockwise,
+<h3 id="manual-vc-knob"><a class="header" href="#manual-vc-knob">Manual Vc Knob</a></h3>
+<p>A 12 position switch used to apply estimated range rate of closure (clockwise,
 0-9), or estimated opening of range (counterclockwise, 0-2) against a target in
 manual track mode.</p>
 <h3 id="pulse-switch"><a class="header" href="#pulse-switch">Pulse Switch</a></h3>
@@ -2459,12 +2468,11 @@ circumstances.</p>
 <p>When positioned ON, dispenses flares at rate of ten per second until dispensers
 are empty, so long as flaps and speed brakes are retracted.</p>
 <h3 id="dispense-button-1"><a class="header" href="#dispense-button-1">Dispense Button</a></h3>
-<p>Initiates chaff/flare dispensing as selected by CCU and ALE-40 programmer with
-flaps and speed brakes retracted and mode knobs out of OFF.</p>
+<p>Initiates chaff/flare dispensing as selected by Cockpit control unit
+and <a href="cockpit/wso/left_console/../../../cockpit/pilot/left_console/aft_section.html#anale-40-programmer">AN/ALE-40 programmer</a>
+with flaps and speed brakes retracted and mode knobs out of OFF.</p>
 <h3 id="counters"><a class="header" href="#counters">Counters</a></h3>
-<p>Indicate quantity of chaff and flare cartridges remaining, respectively. If
-slave dispenser is set to Chaff Double (CD), the chaff counter will display half
-of the number of cartridges remaining.</p>
+<p>Indicate quantity of chaff and flare cartridges remaining, respectively.</p>
 <h3 id="chaff-mode-knob"><a class="header" href="#chaff-mode-knob">Chaff Mode Knob</a></h3>
 <div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
 <tr><td>OFF</td><td>Chaff system inactive.</td></tr>
@@ -2510,7 +2518,8 @@ information provided on the HSI, ADI, and BDHI, respectively.</p>
 </tbody></table>
 </div>
 <p>Note: Air to Air TACAN functionality requires the channel to be set 63 channels
-above or below the cooperating aircraft, but on the same range- X or Y.</p>
+above or below the cooperating aircraft, but on the same range- X or Y. So a tanker on 123Y should
+be set to 60Y in the F-4.</p>
 <h2 id="communication-control-panel-1"><a class="header" href="#communication-control-panel-1">Communication Control Panel</a></h2>
 <p><img src="cockpit/wso/left_console/../../../img/CCP.jpg" alt="CCP" /></p>
 <p>The Communication Control Panel provides selection and mode of the UHF radio in
@@ -2525,14 +2534,14 @@ receiver squelch.</p>
 <p>The A-3-2-T Selector knob sets HAVE Quick functionality of the UHF radio (A-
 auto-jam), the first digit of the manually selected frequency (3 or 2), or
 enables Time of Day receipt for one minute after selection in a momentary hold
-position (T).</p>
+position (T). The HAVE Quick system provides a resistance against jamming.</p>
 <p>The four Frequency Selection Knobs work in concert with the A-3-2-T knob and
 Preset/Manual switch. Frequencies are entered beginning with the 3 or 2
 selection on the A-3-2-T Selector, and can be entered from 225.00 to 399.975 MHz
 in increments of 0.025. With Preset/Manual in the Manual position, the UHF radio
 is directly set to the displayed channel. In the Preset position, the set
 channels can entered into the COMM CHAN memory, with the desired position
-selected with the Comm Channel Control knob- the smaller knob to the left of the
+selected with the Comm Channel Control knob - the smaller knob to the left of the
 Preset/Manual switch, and displayed in the COMM CHAN window. Channels are stored
 in the displayed channel preset with the SET pushbutton. Once stored, channels
 are directly selected using the Comm Channel Control knob with the Preset/Manual
@@ -2596,7 +2605,8 @@ surfaces. Will deploy fully when slower.</p>
 <h3 id="aural-tone-volume"><a class="header" href="#aural-tone-volume">Aural Tone Volume</a></h3>
 <p>Knob to control the volume for weapon tones, such as the Sidewinder seeker head.</p>
 <h3 id="pull-up-tone"><a class="header" href="#pull-up-tone">Pull Up Tone</a></h3>
-<p>Switch to toggle the tone played by the Pull-Up system.</p>
+<p>Switch to toggle the tone played by
+the <a href="cockpit/wso/left_console/../../../systems/weapon_systems/arbcs.html#arbcs-indicators">Pull-Up system.</a></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="pedestal-group-1"><a class="header" href="#pedestal-group-1">Pedestal Group</a></h1>
 <p><img src="cockpit/wso/../../img/wso_dscg_and_pedestal_panel.jpg" alt="wso_dscg_and_pedestal_panel" /></p>
 <h2 id="digital-scan-converter-group-dscg"><a class="header" href="#digital-scan-converter-group-dscg">Digital Scan Converter Group (DSCG)</a></h2>
@@ -2630,11 +2640,11 @@ overall scope display.</p>
 <p>Sets the current mode of the DSCG components.</p>
 <div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
 <tr><td>OFF</td><td>Turns off DSCG display and de-powers all DSCG components.</td></tr>
-<tr><td>STBY</td><td>Powers DSCG components, DSCG display remains off.</td></tr>
+<tr><td>STBY</td><td>Powers DSCG components, DSCG display remains off. Used for takeoff and landing</td></tr>
 <tr><td>DSCG TEST</td><td>Displays search display image with 8 shades of grey to confirm normal operation.</td></tr>
 <tr><td>RDR BIT</td><td>Provides BIT sequence test grids for calibration of radar performance.</td></tr>
 <tr><td>RDR</td><td>Used for radar display functionality in all employment modes.</td></tr>
-<tr><td>TV</td><td>Used for TV raster imagery with EO weapons.</td></tr>
+<tr><td>TV</td><td>Used for TV raster imagery with EO weapons, aswell as targeting pods.</td></tr>
 </tbody></table>
 </div>
 <h2 id="target-designator-control-set"><a class="header" href="#target-designator-control-set">Target Designator Control Set</a></h2>
@@ -2648,7 +2658,9 @@ during the designation and attack procedure.</p>
 <p>Three knobs to control the boresight position of the pod in azimuth, elevation
 and roll within 2.5 degrees in either direction.</p>
 <p>Azimuth and Elevation can best be calibrated in the 12-VIS mode, while roll is
-best calibrated in 9-VIS.</p>
+best calibrated in 9-VIS. Normally the Pod is correctly calibrated by the ground crew before getting
+into the plane, but can drift due to combat damage or high G maneuvers in which case a recalibration
+by the WSO is needed.</p>
 <h3 id="stow-button"><a class="header" href="#stow-button">Stow Button</a></h3>
 <p>Alternating presses un-stows and stows the Pave Spike pod head. The head is
 stowed when the button is illuminated.</p>
@@ -2667,8 +2679,10 @@ power off targeting pod. Button lamp will turn off once head is stowed.</p>
 <p>To prevent damage to the system, whenever equipped, power to the system should
 be turned on even when not using the pod.</p>
 <h3 id="bit-selector-button"><a class="header" href="#bit-selector-button">BIT Selector Button</a></h3>
-<p>Pressed to advance to the desired BIT mode as displayed in the adjacent window.</p>
-<p>BIT 1 is the regular mode of the pod and must be selected for normal operations.</p>
+<p>Pressed to advance to the desired <a href="cockpit/wso/../../systems/weapon_systems/pave_spike/other.html#bits">BIT</a> mode
+as displayed in the adjacent window.</p>
+<p><a href="cockpit/wso/../../systems/weapon_systems/pave_spike/other.html#bit-1">BIT 1</a> is the regular mode of the pod and
+must be selected for normal operations.</p>
 <h3 id="light-brightness-knob"><a class="header" href="#light-brightness-knob">Light Brightness Knob</a></h3>
 <p>Controls brightness of all lamps on this panel, except the Overheat lamp.</p>
 <h3 id="rejectoverride-button"><a class="header" href="#rejectoverride-button">Reject/Override Button</a></h3>
@@ -2723,20 +2737,25 @@ Pilot to prepare for immediate ejection.</p>
 WSO for ejection.</p>
 <h2 id="ky-28-controls"><a class="header" href="#ky-28-controls">KY-28 Controls</a></h2>
 <p><img src="cockpit/wso/../../img/wso_ky_28.jpg" alt="wso_ky_28" /></p>
-<p>Controls for the KY-28 encryption system.</p>
+<p>Controls for the KY-28 encryption system. For further information see
+the <a href="cockpit/wso/../../systems/nav_com/encryption.html">Encryption chapter.</a></p>
 <h2 id="ecm-controls"><a class="header" href="#ecm-controls">ECM Controls</a></h2>
 <p><img src="cockpit/wso/../../img/ecm.jpg" alt="ecm" /></p>
 <p>Controls for the electronic counter-measurement and jamming system.</p>
 <h2 id="bomb-release-angle-computer"><a class="header" href="#bomb-release-angle-computer">Bomb Release Angle Computer</a></h2>
-<p>Used to enter in the required angle values for ARBCS/LABS bombing modes; the Low
-Angle control may be set from 0 to 89.9 degrees, and the High Angle control may
-be set from 70 to 179.9 degrees.</p>
+<p>Used to enter the required angle values for <a href="cockpit/wso/../../systems/weapon_systems/arbcs.html">ARBCS/LABS</a>
+bombing modes; the Low Angle control may be set from 0 to 89.9 degrees, and the High Angle control
+may be set from 70 to 179.9 degrees. The Angle control is used
+for <a href="cockpit/wso/../../stores/air_to_ground/bombs/employment.html#instantaneous-over-the-shoulder---inst-os">over-the-shoulder bombing,</a>
+whilst low angle is used for <a href="cockpit/wso/../../stores/air_to_ground/bombs/employment.html#loft">LOFT bombing.</a>
+For calculations of the angles we provide a <a href="cockpit/wso/../../dcs/bombing_computer.html">bombing calculator.</a></p>
 <p><img src="cockpit/wso/../../img/wso_bomb_release_angle.jpg" alt="wso_labs_angle" /></p>
 <h2 id="bombing-timers"><a class="header" href="#bombing-timers">Bombing Timers</a></h2>
 <p>Entry of applicable timing for pull-up signal or release are performed with the
 Bombing Timers. The Pull-up timer may be set from 0 to 60 seconds, and the
 Release timer may be set from 0 to 30 seconds. Minimum increment for each timer
-is 0.1 seconds.</p>
+is 0.1 seconds. The Bombing timers may be used for
+every <a href="cockpit/wso/../../stores/air_to_ground/bombs/employment.html">timed employment method.</a></p>
 <p><img src="cockpit/wso/../../img/wso_bombing_timers.jpg" alt="wso_release_timers" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="right-console-1"><a class="header" href="#right-console-1">Right Console</a></h1>
 <p>The right console is further divided into 4 sections.</p>
@@ -2753,7 +2772,7 @@ is 0.1 seconds.</p>
 push-buttons on this panel.</p>
 <h3 id="code-buttons-1"><a class="header" href="#code-buttons-1">Code Buttons</a></h3>
 <p>Each press will advance the corresponding digit by one.</p>
-<p>Codes directly relate to lasers frequencies, resulting in them having to be
+<p>Codes directly relate to laser frequencies, resulting in them having to be
 between 1111 and 1788 and not use digits 0 or 9 in order to be valid.</p>
 <h3 id="enter-button"><a class="header" href="#enter-button">Enter Button</a></h3>
 <p>Once a code has been set, it can be transferred to the Pave Spike by pressing
@@ -2776,14 +2795,14 @@ alignment.</p>
 <p>Knob positions are:</p>
 <div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
 <tr><td>OFF</td><td>System off.</td></tr>
-<tr><td>STBY</td><td>Standby- power is applied to the heaters and temperature control system, and initiates Coarse alignment (if GYRO COMP is selected on the toggle).</td></tr>
-<tr><td>ALIGN</td><td>Performs fine platform and gyro leveling and BATH (or HDG MEM) alignment. Then, if available, performs Gyro-compassing (Fine) Alignment.</td></tr>
+<tr><td>STBY</td><td>Standby- power is applied to the heaters and temperature control system, and initiates Coarse alignment (if <a href="cockpit/wso/right_console/../../../systems/nav_com/ins.html#gyrocompass-alignment">GYRO COMP</a> is selected on the toggle).</td></tr>
+<tr><td><a href="cockpit/wso/right_console/../../../systems/nav_com/ins.html#alignment-options">ALIGN</a></td><td>Performs fine platform and gyro leveling and <a href="cockpit/wso/right_console/../../../systems/nav_com/ins.html#best-available-true-heading">BATH</a> (or <a href="cockpit/wso/right_console/../../../systems/nav_com/ins.html#heading-memory-alignment">HDG MEM</a>) alignment. Then, if available, performs <a href="cockpit/wso/right_console/../../../systems/nav_com/ins.html#gyrocompass-alignment">Gyro-compassing</a> (Fine) Alignment.</td></tr>
 <tr><td>NAV</td><td>Activates the INS for navigation function, performance of which is based on the alignment quality.</td></tr>
 </tbody></table>
 </div>
 <h3 id="heat-lamp"><a class="header" href="#heat-lamp">HEAT Lamp</a></h3>
 <p>The HEAT lamp illuminates when the system is placed into STBY mode, and remains
-illuminated for 110 seconds after the gyros have reached operating temperature.
+illuminated for 2 minutes after the gyros have reached operating temperature.
 The system will not allow Gyro-compassing alignment if switched out of STBY
 before this lamp has shut off.</p>
 <h3 id="align-lamp"><a class="header" href="#align-lamp">ALIGN Lamp</a></h3>
@@ -2797,13 +2816,18 @@ alignment.</p>
 ON provides power to the weapon release computer's circuits for a LABS release
 using the WRCS release range data.</p>
 <h3 id="tgt-find-switch"><a class="header" href="#tgt-find-switch">TGT FIND Switch</a></h3>
-<p>Used to combine the delivery functionality of the ARBCS/LABS system with the
-WRCS TGT FIND mode. NORM is selected for the standard function of the WRCS
-without LABS delivery capability. Selecting HOLD and an ARBCS setting from the
-pilot's Delivery Mode Knob provides WRCS Target Offset search capability, and
-the attack is completed using the normal ARBCS procedures from the IP.</p>
+<p>Used to combine the delivery functionality of
+the <a href="cockpit/wso/right_console/../../../systems/weapon_systems/arbcs.html">ARBCS/LABS</a> system with the
+<a href="cockpit/wso/right_console/../../../systems/weapon_systems/wrcs.html">WRCS</a> TGT FIND mode. NORM is selected for the standard
+function of the <a href="cockpit/wso/right_console/../../../systems/weapon_systems/wrcs.html">WRCS</a>
+without <a href="cockpit/wso/right_console/../../../systems/weapon_systems/arbcs.html">LABS</a> delivery capability. Selecting HOLD and
+an <a href="cockpit/wso/right_console/../../../systems/weapon_systems/arbcs.html">ARBCS</a> setting from the
+pilot's Delivery Mode Knob provides <a href="cockpit/wso/right_console/../../../systems/weapon_systems/wrcs.html">WRCS</a> Target Offset
+search capability, and the attack is completed using the
+normal <a href="cockpit/wso/right_console/../../../systems/weapon_systems/arbcs.html">ARBCS</a> procedures from the IP.</p>
 <h3 id="range-switch"><a class="header" href="#range-switch">RANGE Switch</a></h3>
-<p>Selecting x100 changes the release range multiplier on the WRCS panel to a
+<p>Selecting x100 changes the release range multiplier on
+the <a href="cockpit/wso/right_console/../../../systems/weapon_systems/wrcs.html">WRCS</a> panel to a
 factor of 100; in NORM, the standard factor of 10 is applied to the release
 range.</p>
 <h2 id="volume-panel"><a class="header" href="#volume-panel">Volume Panel</a></h2>
@@ -2814,8 +2838,9 @@ combined knobs to control volume.</p>
 <p>Sets audio level for canopy open and low altitude voice warnings.</p>
 <p>This system is not installed on this variant of the F-4E.</p>
 <h3 id="stall-warning-1"><a class="header" href="#stall-warning-1">Stall Warning</a></h3>
-<p>The Stall Warning knob controls the volume of the AoA tones that play when
-flying at certain angles.</p>
+<p>The Stall Warning knob controls the volume of
+the <a href="cockpit/wso/right_console/../../../systems/flight_controls/flight_controls.html#aural-tone-system">AoA tones</a> that play
+when flying at certain angles.</p>
 <p>Under certain conditions, the system can override the volume to ensure the cue
 is always audible in dangerous situations.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="center-section-3"><a class="header" href="#center-section-3">Center Section</a></h1>
@@ -2834,67 +2859,77 @@ attained by moderating the last roller accordingly; as an example, a value of
 the window in the last digit position.</p>
 <h3 id="targetip-altitude-control"><a class="header" href="#targetip-altitude-control">Target/IP Altitude Control</a></h3>
 <p>A three position drum roller window with matching analog knob used to enter the
-altitude of either the RIP or the actual target itself, and is referenced in
+altitude of either the Radar initial Point or the actual target itself, and is referenced in
 increments of 100'. Fractional values can be entered as described previously.
-This value can be changed once RIP or VIP is properly defined to increase
-release system accuracy.</p>
+This value can be changed once Radar initial Point or Visual ingress Point is properly defined to
+increase release system accuracy.</p>
 <h3 id="drag-coefficient-control"><a class="header" href="#drag-coefficient-control">Drag Coefficient Control</a></h3>
 <p>Used to enter the drag coefficient value for the weapon being used from the
-bombing tables for the intended release mode. This is not the stores table
-reference drag number.</p>
+bombing tables for the intended release mode.</p>
 <h3 id="release-advance-control"><a class="header" href="#release-advance-control">Release Advance Control</a></h3>
-<p>Used to advance the release signal given from the WRCS to the fire control
-system relative to the WRCS target point, in any duration from 0 to 999
-milliseconds. Also functions in conjunction with ARBCS/LABS programmed release
-timing.</p>
+<p>Used to advance the release signal given from the <a href="cockpit/wso/right_console/../../../systems/weapon_systems/wrcs.html">WRCS</a> to
+the fire control system relative to the <a href="cockpit/wso/right_console/../../../systems/weapon_systems/wrcs.html">WRCS</a> target
+point, in any duration from 0 to 999 milliseconds. Also functions in conjunction
+with <a href="cockpit/wso/right_console/../../../systems/weapon_systems/arbcs.html">ARBCS/LABS</a> programmed release
+timing. The release advance control can be calculated with
+the <a href="cockpit/wso/right_console/../../../dcs/bombing_computer.html">bombing calculator.</a></p>
 <h3 id="release-range-control"><a class="header" href="#release-range-control">Release Range Control</a></h3>
 <p>Used to manually set bomb range in accordance with the weapon's bomb release
 schedule entry in the bomb tables.</p>
 <h3 id="no-gogo-lamps"><a class="header" href="#no-gogo-lamps">NO GO/GO Lamps</a></h3>
-<p>Provides results of the WRCS BIT tests for the selected WRCS delivery mode.
+<p>Provides results of the <a href="cockpit/wso/right_console/../../../systems/weapon_systems/wrcs.html">WRCS</a> BIT tests for the
+selected <a href="cockpit/wso/right_console/../../../systems/weapon_systems/wrcs.html">WRCS</a> delivery mode.
 Illumination of NO GO when not in a BIT test cycle reports an INS system
 failure.</p>
 <h3 id="wrcs-bit-knob"><a class="header" href="#wrcs-bit-knob">WRCS BIT Knob</a></h3>
-<p>A six position knob utilized to perform BIT checks against the individual WRCS
+<p>A six position knob utilized to perform BIT checks against the
+individual <a href="cockpit/wso/right_console/../../../systems/weapon_systems/wrcs.html">WRCS</a>
 delivery modes. The BIT check is performed by selecting the desired mode for
 testing, pressing the knob for five seconds, then pressing the Freeze button on
 the Cursor Control Panel while keeping the BIT knob held down to confirm
 function. The result will illuminate in the NO GO/GO placard.</p>
 <h2 id="cursor-control-panel"><a class="header" href="#cursor-control-panel">Cursor Control Panel</a></h2>
 <p><img src="cockpit/wso/right_console/../../../img/wso_cursor_control_panel.jpg" alt="wso_cursor_control_panel" /></p>
-<p>Used for WRCS radar bombing mode target entry. Functions only with MAP-PPI mode
-selected and applicable bombing mode selected on the Delivery Mode Knob.</p>
+<p>Used for <a href="cockpit/wso/right_console/../../../systems/weapon_systems/wrcs.html">WRCS</a> radar bombing mode target entry. Functions
+only with <a href="cockpit/wso/right_console/../../../systems/radar.html#map-ppi">MAP-PPI</a> mode selected and applicable bombing mode
+selected on
+the <a href="cockpit/wso/right_console/../../../cockpit/pilot/weapon_management.html#delivery-mode-knob">Delivery Mode Knob.</a></p>
 <h3 id="freeze-button"><a class="header" href="#freeze-button">Freeze Button</a></h3>
-<p>Used in air to ground bombing with the WRCS to initiate velocity tracking of the
-aircraft from the INS, as well as maintain a hold of the target position defined
-by the Along Track and Cross Track cursor gates, thus defining the RIP (Radar
-Initial Point). The button illuminates, and remains lit, until the reset button
+<p>Used in air to ground bombing with the <a href="cockpit/wso/right_console/../../../systems/weapon_systems/wrcs.html">WRCS</a> to initiate
+velocity tracking of the
+aircraft from the <a href="cockpit/wso/right_console/../../../systems/nav_com/ins.html">INS,</a> as well as maintain a hold of the target
+position defined by the Along Track and Cross Track cursor gates, thus defining the Radar initial
+Point.
+The button illuminates, and remains lit, until the reset button
 is pressed, or another delivery mode is selected.</p>
 <h3 id="target-insert-button"><a class="header" href="#target-insert-button">Target Insert Button</a></h3>
-<p>Inserts the North-South and East-West offset values entered into the WRCS
-control panel into the WRCS computer, performing the offset against the RIP
+<p>Inserts the North-South and East-West offset values entered into
+the <a href="cockpit/wso/right_console/../../../systems/weapon_systems/wrcs.html">WRCS</a>
+control panel into the <a href="cockpit/wso/right_console/../../../systems/weapon_systems/wrcs.html">WRCS</a> computer, performing the
+offset against the Radar initial Point
 defined by the Along Track and Cross Track cursor gates and currently tracked
 with the Freeze Button. This offset inclusion performs a shift of the Along
-Track and Cross Track cursors to define the actual target defined by the WRCS
+Track and Cross Track cursors to define the actual target defined by
+the <a href="cockpit/wso/right_console/../../../systems/weapon_systems/wrcs.html">WRCS</a>
 offsets on the radar scope. This action initiates target steering information
-from the WRCS to the navigational displays.</p>
+from the <a href="cockpit/wso/right_console/../../../systems/weapon_systems/wrcs.html">WRCS</a> to the navigational displays.</p>
 <h3 id="reset-button"><a class="header" href="#reset-button">Reset Button</a></h3>
 <p>Pressing the Reset Button drops the currently tracked ground target location
-from WRCS computer memory, returns the Along and Cross Track cursors to their
-default positions, and resets the velocity tracking system values to zero.</p>
+from <a href="cockpit/wso/right_console/../../../systems/weapon_systems/wrcs.html">WRCS</a> computer memory, returns the Along and Cross
+Track cursors to their default positions, and resets the velocity tracking system values to zero.</p>
 <h3 id="along-track-wheel"><a class="header" href="#along-track-wheel">Along Track Wheel</a></h3>
-<p>Used to define relative range of the aircraft to the RIP, using an
+<p>Used to define relative range of the aircraft to the Radar initial Point, using an
 expanding/contracting hemisphere cursor on the radar display. This hemisphere
 presents true range to the target via the hemispherical PPI projection, thus
-allowing the RIP to be detected in an offset approach to the target. Close
-approximation of range to the RIP should be prepared first with the Along Track
+allowing the Radar initial Point to be detected in an offset approach to the target. Close
+approximation of range to the Radar initial Point should be prepared first with the Along Track
 wheel prior to using the Cross Track Wheel for best system accuracy- ie, the
-cursor should be placed below the intended RIP return on the radar scope, and
+cursor should be placed below the intended Radar initial Point return on the radar scope, and
 the Cross Track wheel brought to the return point.</p>
 <h3 id="cross-track-wheel"><a class="header" href="#cross-track-wheel">Cross Track Wheel</a></h3>
-<p>Used to define the heading to the RIP on the radar display in PPI mode,
+<p>Used to define the heading to the Radar initial Point on the radar display in PPI mode,
 presented as a vertical line. The intersection of the Along Track and Cross
-Track cursors defines the RIP when the Freeze button is pressed.</p>
+Track cursors defines the Radar initial Point when the Freeze button is pressed.</p>
 <h2 id="nuclear-stores-consent-switch"><a class="header" href="#nuclear-stores-consent-switch">Nuclear Stores Consent Switch</a></h2>
 <p><img src="cockpit/wso/right_console/../../../img/wso_nuclear_stores_consent_switch.jpg" alt="wso_nuclear_stores_consent_switch" /></p>
 <p>Used to arm nuclear stores. In the SAFE position, release is inhibited. REL
@@ -2949,7 +2984,8 @@ the various emergency indicators in the cockpit.</p>
 <h2 id="seat-position-1"><a class="header" href="#seat-position-1">Seat Position</a></h2>
 <p><img src="cockpit/wso/right_console/../../../img/wso_seat_switch.jpg" alt="wso_seat_switch" /></p>
 <p>The vertical position of the seat can be changed in either direction for about
-5cm using this spring-loaded switch.</p>
+5cm using this spring-loaded switch. For landing, it is advisable to put the seat in the most
+upward position for better visibility.</p>
 <p>Operation of the motor must be limited to 30 seconds within 10 minutes to
 prevent it from overheating and breaking.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="right-wall-1"><a class="header" href="#right-wall-1">Right Wall</a></h1>
@@ -4889,7 +4925,7 @@ polarization (CIR 1) is compatible with the Sparrow's receiving antenna, and thu
 in said mode. A Sparrow launched with the APQ-120 in CIR 2 will not track.</p>
 <h3 id="maneuver-switch-1"><a class="header" href="#maneuver-switch-1">Maneuver Switch</a></h3>
 <p>The WSO can select APQ-120 system response to acceleration that can cause a track to be dropped for
-air to air combat using the Maneuver Switch. By default this switch is placed in LOW G, as to
+air-to-air combat using the Maneuver Switch. By default, this switch is placed in LOW G, as to
 provide resistance to countermeasures and clutter that would drive the range track loop off target
 under normal maneuvering. In a combat situation, selecting HI G removes such limitations and allows
 the range track loop to respond to said high accelerations. If the switch is not previously selected
@@ -7972,8 +8008,8 @@ landing, ils or AAR guidance)</p>
 </div>
 <h2 id="taxiing"><a class="header" href="#taxiing">Taxiing</a></h2>
 <div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
-<tr><td>1.</td><td>Wheel Brakes</td><td>TEST</td></tr>
-<tr><td><strong>2.</strong></td><td><strong>Nose Gear Steering</strong></td><td><strong>ENGAGE &amp; CHECK</strong></td></tr>
+<tr><td><strong>1.</strong></td><td><strong>Nose Gear Steering</strong></td><td><strong>ENGAGE &amp; CHECK</strong></td></tr>
+<tr><td>2.</td><td>Wheel Brakes</td><td>Test</td></tr>
 <tr><td>3.</td><td>Flight Instruments</td><td>CHECK</td></tr>
 <tr><td>4.</td><td>Oxygen Diluter</td><td>AS REQUIRED</td></tr>
 </tbody></table>

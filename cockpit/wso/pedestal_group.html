@@ -224,11 +224,11 @@ overall scope display.</p>
 <p>Sets the current mode of the DSCG components.</p>
 <div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
 <tr><td>OFF</td><td>Turns off DSCG display and de-powers all DSCG components.</td></tr>
-<tr><td>STBY</td><td>Powers DSCG components, DSCG display remains off.</td></tr>
+<tr><td>STBY</td><td>Powers DSCG components, DSCG display remains off. Used for takeoff and landing</td></tr>
 <tr><td>DSCG TEST</td><td>Displays search display image with 8 shades of grey to confirm normal operation.</td></tr>
 <tr><td>RDR BIT</td><td>Provides BIT sequence test grids for calibration of radar performance.</td></tr>
 <tr><td>RDR</td><td>Used for radar display functionality in all employment modes.</td></tr>
-<tr><td>TV</td><td>Used for TV raster imagery with EO weapons.</td></tr>
+<tr><td>TV</td><td>Used for TV raster imagery with EO weapons, aswell as targeting pods.</td></tr>
 </tbody></table>
 </div>
 <h2 id="target-designator-control-set"><a class="header" href="#target-designator-control-set">Target Designator Control Set</a></h2>
@@ -242,7 +242,9 @@ during the designation and attack procedure.</p>
 <p>Three knobs to control the boresight position of the pod in azimuth, elevation
 and roll within 2.5 degrees in either direction.</p>
 <p>Azimuth and Elevation can best be calibrated in the 12-VIS mode, while roll is
-best calibrated in 9-VIS.</p>
+best calibrated in 9-VIS. Normally the Pod is correctly calibrated by the ground crew before getting
+into the plane, but can drift due to combat damage or high G maneuvers in which case a recalibration
+by the WSO is needed.</p>
 <h3 id="stow-button"><a class="header" href="#stow-button">Stow Button</a></h3>
 <p>Alternating presses un-stows and stows the Pave Spike pod head. The head is
 stowed when the button is illuminated.</p>
@@ -261,8 +263,10 @@ power off targeting pod. Button lamp will turn off once head is stowed.</p>
 <p>To prevent damage to the system, whenever equipped, power to the system should
 be turned on even when not using the pod.</p>
 <h3 id="bit-selector-button"><a class="header" href="#bit-selector-button">BIT Selector Button</a></h3>
-<p>Pressed to advance to the desired BIT mode as displayed in the adjacent window.</p>
-<p>BIT 1 is the regular mode of the pod and must be selected for normal operations.</p>
+<p>Pressed to advance to the desired <a href="../../systems/weapon_systems/pave_spike/other.html#bits">BIT</a> mode
+as displayed in the adjacent window.</p>
+<p><a href="../../systems/weapon_systems/pave_spike/other.html#bit-1">BIT 1</a> is the regular mode of the pod and
+must be selected for normal operations.</p>
 <h3 id="light-brightness-knob"><a class="header" href="#light-brightness-knob">Light Brightness Knob</a></h3>
 <p>Controls brightness of all lamps on this panel, except the Overheat lamp.</p>
 <h3 id="rejectoverride-button"><a class="header" href="#rejectoverride-button">Reject/Override Button</a></h3>

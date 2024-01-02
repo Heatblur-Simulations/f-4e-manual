@@ -195,7 +195,7 @@
 <h2 id="radar-set-control-panel"><a class="header" href="#radar-set-control-panel">Radar Set Control Panel</a></h2>
 <p><img src="../../../img/wso_radar_set_control_panel.jpg" alt="wso_radar_set_control_panel" /></p>
 <h3 id="power-knob"><a class="header" href="#power-knob">Power Knob</a></h3>
-<p>Five position rotary switch controlling power state of the APQ-120</p>
+<p>Five position rotary switch controlling power state of the APQ-120 Radar.</p>
 <div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
 <tr><td>OFF</td><td>Powers radar off.</td></tr>
 <tr><td>TEST</td><td>Applies voltage to control monitor power and provides test functions 1 through 6.</td></tr>
@@ -205,7 +205,8 @@
 </tbody></table>
 </div>
 <h3 id="polar-switch"><a class="header" href="#polar-switch">Polar Switch</a></h3>
-<p>Controls polarization of transmitted rf energy.</p>
+<p>Controls polarization of transmitted radio frequency energy. CIR 1 and 2 should be used in the
+presence of rain, however if AIM-7 Missiles should be fired use CIR 1.</p>
 <div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
 <tr><td>LIN</td><td>RF energy is lineally polarized in a vertical orientation. AIM-7 default mode.</td></tr>
 <tr><td>CIR 1</td><td>RF energy is rotated clockwise from the vertical plane. AIM-7 can be fired.</td></tr>
@@ -214,21 +215,24 @@
 </div>
 <h3 id="radar-range-knob"><a class="header" href="#radar-range-knob">Radar Range Knob</a></h3>
 <p>Used to select range sweep of 5, 10, 25, 50, 100, or 200 mile ranges on both
-radar displays. First four ranges are air to air intercept positions, final two
+radar displays. First four ranges are air-to-air intercept positions, final two
 are ground mapping modes only, and disengage lock-on capability. Selecting a
 setting illuminates the applicable range lamp, and displays the value on the
 radar scope upper left corner.</p>
 <h3 id="maneuver-switch"><a class="header" href="#maneuver-switch">Maneuver Switch</a></h3>
 <p>Controls radar tracking response due to acceleration limits and received
-countermeasures and clutter.</p>
+countermeasures and clutter. LOW G provides the velocity reject function whilst HI G allows tracking
+of a maneuvering target without breaking radar lockon.</p>
 <div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
-<tr><td>Low G</td><td>Default position. Limits track response due to countermeasures and clutter.</td></tr>
+<tr><td>LOW G</td><td>Default position. Limits track response due to countermeasures and clutter.</td></tr>
 <tr><td>HI G</td><td>Allows track loop to respond to high acceleration. Automatically engaged with CAA.</td></tr>
 </tbody></table>
 </div>
 <h3 id="bar-scan-switch"><a class="header" href="#bar-scan-switch">Bar Scan Switch</a></h3>
-<p>Selects elevation scan pattern. In 2 bar scan, search pattern is separated by
-3.75 degrees on each scan. In boresight or air to ground modes, 1 bar scan is
+<p>Selects elevation <a href="../../../systems/radar.html#scan">scan</a> pattern. In 2
+bar <a href="../../../systems/radar.html#scan">scan</a>, search pattern is separated by
+3.75 degrees on each <a href="../../../systems/radar.html#scan">scan</a>. In boresight or air to ground modes, 1
+bar <a href="../../../systems/radar.html#scan">scan</a> is
 automatically commanded.</p>
 <h3 id="aspect-switch"><a class="header" href="#aspect-switch">Aspect Switch</a></h3>
 <p>Used to program the AIM-7 with a predetermined simulated Doppler instead of
@@ -242,7 +246,7 @@ display to increase video output legibility of target returns.</p>
 tracking under normal circumstances.</p>
 <h4 id="manual"><a class="header" href="#manual">Manual</a></h4>
 <p>When in the MAN position, the WSO places the acquisition symbol over the
-intended target and triggers half-action on the HCU. The range strobe is
+intended target and triggers half-action on the Antenna hand control stick. The range strobe is
 positioned relative to in-range on a closing target, and the WSO selects
 full-action. To solidify the track, the WSO uses the Manual Vc knob to place the
 range strobe and target return video at the same rate of movement.</p>
@@ -252,24 +256,24 @@ automatically. The WSO places the acquisition symbol over the target return and
 presses full action. Should the target maneuver in excess of the speed
 capability of the radar, the Maneuver switch can be set to HI G and the target
 reacquired.</p>
-<h4 id="aoj-out"><a class="header" href="#aoj-out">AOJ OUT</a></h4>
+<h3 id="aoj-out"><a class="header" href="#aoj-out">AOJ OUT</a></h3>
 <p>The AOJ OUT position is used to override the acquisition on jamming function of
-the radar. In the event that the radar acquires a HOJ lock, the position can be
+the radar. In the event that the radar acquires a Home-on-Jam lock, the position can be
 selected to place the radar back into a search configuration to initiate a
 lock-on against the jamming target and initiate a standard angle track lock.</p>
 <h3 id="display-knob"><a class="header" href="#display-knob">Display Knob</a></h3>
 <p>Sets the display type of the radar scope to access specific mode functionality
 in conjunction with the Mode knob. The types are as follows:</p>
 <div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
-<tr><td>B WIDE</td><td>Selects 120 degree B-sweep for search. Half-action places the sweep under manual HCU.</td></tr>
-<tr><td>B NAR</td><td>Selects a 45 degree B-sweep sector for search, which is manually shifted with the HCU.</td></tr>
-<tr><td>PPI WIDE</td><td>Selects a 120 degree wide plan position indicator sweep for MAP mode.</td></tr>
-<tr><td>PPI NAR</td><td>Selects a 45 degree plan position indicator sweep that can be shifted with the HCU.</td></tr>
-<tr><td>VI</td><td>Provides pure pursuit guidance to a locked target; a break X will appear at 1000' range.</td></tr>
+<tr><td><a href="../../../systems/radar.html#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident">B WIDE</a></td><td>Selects 120 degree B-sweep for search. Half-action places the sweep under manual Antenna hand control stick.</td></tr>
+<tr><td><a href="../../../systems/radar.html#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident">B NAR</a></td><td>Selects a 45 degree B-sweep sector for search, which is manually shifted with the Antenna hand control stick.</td></tr>
+<tr><td><a href="../../../systems/radar.html#air-to-ground-ppi-wide-and-ppi-nar">PPI WIDE</a></td><td>Selects a 120 degree wide plan position indicator sweep for MAP mode.</td></tr>
+<tr><td><a href="../../../systems/radar.html#air-to-ground-ppi-wide-and-ppi-nar">PPI NAR</a></td><td>Selects a 45 degree plan position indicator sweep that can be shifted with the Antenna hand control stick.</td></tr>
+<tr><td><a href="../../../systems/radar.html#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident">VI</a></td><td>Provides pure pursuit guidance to a locked target; a break X will appear at 1000' range.</td></tr>
 </tbody></table>
 </div>
-<h3 id="maneuver-vc-knob"><a class="header" href="#maneuver-vc-knob">Maneuver Vc Knob</a></h3>
-<p>An 12 position switch used to apply estimated range rate of closure (clockwise,
+<h3 id="manual-vc-knob"><a class="header" href="#manual-vc-knob">Manual Vc Knob</a></h3>
+<p>A 12 position switch used to apply estimated range rate of closure (clockwise,
 0-9), or estimated opening of range (counterclockwise, 0-2) against a target in
 manual track mode.</p>
 <h3 id="pulse-switch"><a class="header" href="#pulse-switch">Pulse Switch</a></h3>
@@ -306,12 +310,11 @@ circumstances.</p>
 <p>When positioned ON, dispenses flares at rate of ten per second until dispensers
 are empty, so long as flaps and speed brakes are retracted.</p>
 <h3 id="dispense-button"><a class="header" href="#dispense-button">Dispense Button</a></h3>
-<p>Initiates chaff/flare dispensing as selected by CCU and ALE-40 programmer with
-flaps and speed brakes retracted and mode knobs out of OFF.</p>
+<p>Initiates chaff/flare dispensing as selected by Cockpit control unit
+and <a href="../../../cockpit/pilot/left_console/aft_section.html#anale-40-programmer">AN/ALE-40 programmer</a>
+with flaps and speed brakes retracted and mode knobs out of OFF.</p>
 <h3 id="counters"><a class="header" href="#counters">Counters</a></h3>
-<p>Indicate quantity of chaff and flare cartridges remaining, respectively. If
-slave dispenser is set to Chaff Double (CD), the chaff counter will display half
-of the number of cartridges remaining.</p>
+<p>Indicate quantity of chaff and flare cartridges remaining, respectively.</p>
 <h3 id="chaff-mode-knob"><a class="header" href="#chaff-mode-knob">Chaff Mode Knob</a></h3>
 <div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
 <tr><td>OFF</td><td>Chaff system inactive.</td></tr>
