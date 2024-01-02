@@ -136,8 +136,8 @@ A plug that can be pulled to release cockpit pressure. Putting it back in will
 seal the cabin again.
 
 Should only be used if the pressurization system is malfunctioning and reads
-abnormal values, or to eliminate smoke and fumes from the cockpit. 
-Descend to safe altitudes before activating.
+abnormal values, or to eliminate smoke and fumes from the cockpit. Descend to safe altitudes before
+activating.
 
 ## Defog/Foot Heat Lever
 
