@@ -57,7 +57,7 @@ If the intercom system is set up correctly and powered up, the intercom mode wil
 otherwise hand signals mode will be used and
 the "(hand signals)" will be added to the "Crew Chief" menu name to indicate that.
 
->Since the external intercom is wired in parallel with the WSO's microphone and headset,
+>💡Since the external intercom is wired in parallel with the WSO's microphone and headset,
 the ground crew and WSO can block each other during simultaneous transmissions.
 In addition, the WSO's function selector switch must be in **HOT MIC** to allow aircraft to ground communications.
 
