@@ -45,11 +45,6 @@ Both crewmembers can communicate with the chief using one of the 2 methods:
 
 * Intercom - crew chief's headset is connected to the aircraft intercom system
 using a cable providing 2-way communication similar to the communication between Pilot and WSO
-
->Since the external intercom is wired in parallel with the WSO's microphone and headset,
-the ground crew and WSO can block each other during simultaneous transmissions.
-In addition, the WSO's function selector switch must be in **HOT MIC** to allow aircraft to ground communications.
-
 * Hand signals - when this method is used, the crew chief features are limited;
 for example you will be able to ask for the simpler actions like the wheel chocks removal
 but you can't conduct more advanced ones like flight controls check
@@ -60,6 +55,10 @@ The aircraft has to be stationary and on friendly airfield for the menu to be av
 If the intercom system is set up correctly and powered up, the intercom mode will be active,
 otherwise hand signals mode will be used and
 the "(hand signals)" will be added to the "Crew Chief" menu name to indicate that.
+
+>💡Since the external intercom is wired in parallel with the WSO's microphone and headset,
+the ground crew and WSO can block each other during simultaneous transmissions.
+In addition, the WSO's function selector switch must be in **HOT MIC** to allow aircraft to ground communications.
 
 ## TODO
 
