@@ -1,8 +1,6 @@
 # Crew Chief
 
-<!-- <img src="../img/crew_chief.png" width="300" alt="abc"> -->
-<!-- ![abc](../img/crew_chief.png) -->
-![crew chief](https://cdn10.picryl.com/photo/1987/08/09/a-crew-chief-signals-to-the-pilot-of-an-rf-4c-phantom-ii-aircraft-to-stop-the-b452c9-1024.jpg)
+![crew chief](../img/crew_chief.jpg)
 <!-- https://nara.getarchive.net/media/ -->
 
 ## Introduction
