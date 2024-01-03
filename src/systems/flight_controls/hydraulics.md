@@ -13,6 +13,8 @@ is the stabilators - rather than using the Utility System as the secondary power
 an APU unit in the tail provides the additional and backup power for the
 stabilators should PC system PSI to the stabilator actuators fall below 1000.
 
+![manual_hydraulics_diagram](../../img/manual_hydraulics_diagram.jpg)
+
 ## Hydraulic Pressure Indicators
 
 ![HydPress](../../img/HydPress.jpg)
@@ -52,7 +54,3 @@ GAGES lights can illuminate momentarily during extension of the
 landing gear, or during intense maneuvering due to system load. In such situations, check the
 pressure indicators: should they return to nominal values, disregard the warnings as they will reset
 momentarily.
-
-### Hydraulics diagram
-
-![manual_hydraulics_diagram](../../img/manual_hydraulics_diagram.jpg)

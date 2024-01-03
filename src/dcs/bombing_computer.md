@@ -106,4 +106,4 @@ Shows the last saved bombing solutions. The line shows the inputs as following:
 - Run-in Speed
 - [Pull-Up Timer](../systems/weapon_systems/arbcs.md)
 - [Release Range](../systems/weapon_systems/wrcs.md#release-range-control)
-- Sight Depression
+- [Sight Depression](../cockpit/pilot/dcsg_controls.md#reticle-depression-knob)

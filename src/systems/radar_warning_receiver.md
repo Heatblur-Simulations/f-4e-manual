@@ -10,10 +10,12 @@ the emitting radar. Further processing of the received radiation references the 
 catalog to ascertain emitter type, as well as to define a relative threat range as a function of
 received power versus known output.
 
+![pilot_rwr](../img/RWRAz.jpg)
+
 The resulting processed threat signal is then presented on the RWR's CRT display, with bearing to
 the emitter shown on the display with the top relative to the nose (12 o'clock) and the bottom the
 tail (6 o'clock), and with proximity to center relative to the system's calculation of the level of
-threat- with closer indications being of higher danger, and those within the middle ring being
+threat - with closer indications being of higher danger, and those within the middle ring being
 classified within engagement range. In normal operation, the ALR-46 can present 16 threats on the
 CRT concurrently. The highest priority threat as computed by the ALR-46's threat and range catalog
 is presented on the display with a diamond superimposed by its symbol; this is considered "floating"
@@ -23,15 +25,17 @@ event is signified by a circle around the emitter symbol.
 
 ## ALR-46 Controls
 
+![pilot_rwr_control_panel](../img/wso_an_apr_36.jpg)
+
 ### RWR Display Intensity Knob
 
-Found adjacent to the RWR situation display on the lower left corner of the panel, the Intensity
+Found adjacent to the RWR situation display in the lower left corner of the panel, the Intensity
 Knob functions as a dimmer to control the brightness of the displayed RWR returns. Clockwise raises
 the brightness, counter-clockwise lowers the brightness.
 
 ### ALR-46 Control Panel
 
-The ALR-46 Control Panel consists of ten multi-purpose, illuminated buttons, along with a pair of
+The ALR-46 Control Panel consists of ten multipurpose, illuminated buttons, along with a pair of
 rotary knobs for controlling the system's volume and panel brightness.
 
 ### Priority/Open
@@ -133,18 +137,18 @@ the RWR control panel and display will cycle through their initial 9-second warm
 and illuminated buttons undergoing rapid flashing as the system is prepared for use and proper
 functioning is confirmed. Search mode is deactivated by default upon startup, and if in the event
 the aircraft was powered down and restarted, the altitude priority mode (LOW ALT or normal) will be
-in the same state it was left prior to shutdown.
+in the same state it was left prior to shut down.
 
 In the event of a system power failure, the ALR-46 has an automatic restart function. Once power is
 recovered, the receiver will restart after a fifteen second delay, in addition to its 9-second power
-on self test. The system will resume state in the same fashion as a normal restart- with Search mode
-deactivated and the altitude priority as when power was lost.
+on self test. The system will resume state in the same fashion as a normal restart - with Search
+mode deactivated and the altitude priority as when power was lost.
 
 ### Excess Noise Strobe Indicators
 
-During normal operation, a trio of three T shaped indicators appear in the 9, 12, and 3 oclock
+During normal operation, a trio of three T shaped indicators appear in the 9, 12, and 3 o'clock
 positions near the center of the RWR CRT. These indicators signify the absence of excess noise in
-the low (9), mid (12), and high (3) band amplifier detection. In the event noise becomes to
+the low (9), mid (12), and high (3) band amplifier detection. In the event noise becomes too
 significant in a given amplifier channel, the indicator for the respective band will disappear.
 Should this occur, a SYS TEST can be performed to confirm the channel is still functioning; in the
 event of a pass, the channel can be considered working at a reduced detection capacity.

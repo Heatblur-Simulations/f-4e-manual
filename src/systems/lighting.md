@@ -42,7 +42,7 @@ Switch in STEADY or FLASH, and cycle when in the latter setting.
 The landing and taxi lights are found on the nose gear door, and only illuminate
 when the gear are in the down position.
 
-### IFR Receptacle Lights
+### In-Flight-Refueling Receptacle Lights
 
 To assist operators with boom alignment, lights illuminating the IFR receptacle
 will power on when it is raised by placing the Air Refuel Switch into EXTEND.

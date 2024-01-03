@@ -39,6 +39,9 @@ RKTS and DISP bypass empty stations automatically.
 
 ![pilot_station_select_buttons](../../img/pilot_station_select_buttons.jpg)
 
+With the station select buttons it is possible to select the different armaments on the respective
+stations. This does not constitute air-to-air weaponry.
+
 ## Mode Selection - Delivery Mode Knob
 
 ![pilot_delivery_mode_knob](../../img/pilot_delivery_mode_knob.jpg)
@@ -55,21 +58,21 @@ considered in practice a "safe" position.
 
 The values, clockwise from the left, are as follows:
 
-| Name     | Description                            | System                                                                                        |
-|----------|----------------------------------------|-----------------------------------------------------------------------------------------------|
-| INST O/S | Instantaneous Over the Shoulder        | [ARBCS](../../systems/weapon_systems/arbcs.md) |
-| LOFT     | Loft                                   | [ARBCS](../../systems/weapon_systems/arbcs.md) |
-| O/S      | (Timed) Over the Shoulder              | [ARBCS](../../systems/weapon_systems/arbcs.md) |
-| T LAD    | Timed LADD (Low Angle Drogue Delivery) | [ARBCS](../../systems/weapon_systems/arbcs.md) |
-| TL       | Timed Level                            | [ARBCS](../../systems/weapon_systems/arbcs.md) |
-| OFF      | Off                                    |                                                                                               |
-| DIRECT   | Manual                                 |                                                                                               |
-| TGT FIND | Target Find (Navigation only)          | [WRCS](../../systems/weapon_systems/wrcs.md)   |
-| DT       | Dive Toss                              | [WRCS](../../systems/weapon_systems/wrcs.md)   |
-| DL       | Dive Laydown                           | [WRCS](../../systems/weapon_systems/wrcs.md)   |
-| L        | Laydown                                | [WRCS](../../systems/weapon_systems/wrcs.md)   |
-| OFFSET   | Offset Bomb                            | [WRCS](../../systems/weapon_systems/wrcs.md)   |
-| AGM-45   | AGM-45 Delivery                        | [WRCS](../../systems/weapon_systems/wrcs.md)   |
+| Name     | Description                                                            | System                                                                                        |
+|----------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| INST O/S | Instantaneous Over the Shoulder                                        | [ARBCS](../../systems/weapon_systems/arbcs.md) |
+| LOFT     | Loft                                                                   | [ARBCS](../../systems/weapon_systems/arbcs.md) |
+| O/S      | (Timed) Over the Shoulder                                              | [ARBCS](../../systems/weapon_systems/arbcs.md) |
+| T LAD    | Timed LADD (Low Angle Drogue Delivery)                                 | [ARBCS](../../systems/weapon_systems/arbcs.md) |
+| TL       | Timed Level                                                            | [ARBCS](../../systems/weapon_systems/arbcs.md) |
+| OFF      | Off                                                                    |                                                                                               |
+| DIRECT   | Manual                                                                 |                                                                                               |
+| TGT FIND | Target Find (Navigation and [Pave Spike](pave_spike/overview.md) only) | [WRCS](../../systems/weapon_systems/wrcs.md)   |
+| DT       | Dive Toss                                                              | [WRCS](../../systems/weapon_systems/wrcs.md)   |
+| DL       | Dive Laydown                                                           | [WRCS](../../systems/weapon_systems/wrcs.md)   |
+| L        | Laydown                                                                | [WRCS](../../systems/weapon_systems/wrcs.md)   |
+| OFFSET   | Offset Bomb                                                            | [WRCS](../../systems/weapon_systems/wrcs.md)   |
+| AGM-45   | AGM-45 Delivery                                                        | [WRCS](../../systems/weapon_systems/wrcs.md)   |
 
 ## Weapon Selector Knob
 

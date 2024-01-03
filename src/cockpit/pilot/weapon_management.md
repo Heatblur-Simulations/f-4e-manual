@@ -115,7 +115,7 @@ The full series of positions is as follows, clockwise from the left:
 | [TGT FIND](../../stores/air_to_ground/bombs/employment.md#target-find---tgt-find)                    | Target Find (Nav mode and [Pave spike](../../systems/weapon_systems/pave_spike/overview.md) only) |
 | [DT](../../stores/air_to_ground/bombs/employment.md#dive-toss---dt)                                  | Dive Toss                                                                                         |
 | [DL](../../stores/air_to_ground/bombs/employment.md#dive-laydown---dl)                               | Dive Laydown                                                                                      |
-| [L](../../stores/air_to_ground/bombs/employment.md#laydown-l)                                        | Laydown                                                                                           |
+| [L](../../stores/air_to_ground/bombs/employment.md#laydown---l)                                      | Laydown                                                                                           |
 | [OFF SET](../../stores/air_to_ground/bombs/employment.md#offset)                                     | Offset Bomb                                                                                       |
 | [AGM-45](../../stores/air_to_ground/missiles/shrike.md)                                              | AGM-45                                                                                            |
 
@@ -244,13 +244,13 @@ stores on a position by position basis, or immediate release of
 all single carried air to ground, MER/TER stored, or LAU-88 launcher-mounted
 round at once.
 
-| Name     | Description                                                                                   |
-|----------|-----------------------------------------------------------------------------------------------|
-| OFF      | Safes PUSH TO JETT button on the Selective Jettison Control Panel.                            |
-| STORES   | Releases all MER/TER, single carried, LAU-88 mounted rounds, or drop tanks upon PUSH TO JETT. |
-| L/R FWD  | Jettisons AIM-7 from respective position on PUSH TO JETT. Inhibited if CL TK ON.              |
-| L/R AFT  | Jettisons AIM-7 from respective position on PUSH TO JETT.                                     |
-| L/R WING | In conjunction with TV or ARM, jettisons single AGM-65 from wing on PUSH TO JETT.             |
+| Name     | Description                                                                                                 |
+|----------|-------------------------------------------------------------------------------------------------------------|
+| OFF      | Safes PUSH TO JETT button on the Selective Jettison Control Panel.                                          |
+| STORES   | Releases all MER/TER, single carried, LAU-88 mounted rounds, or drop tanks upon PUSH TO JETT.               |
+| L/R FWD  | Jettisons AIM-7 from respective position on PUSH TO JETT. Inhibited if CL TK ON.                            |
+| L/R AFT  | Jettisons AIM-7 from respective position on PUSH TO JETT.                                                   |
+| L/R WING | In conjunction with TV or ARM, jettisons single AGM-65 Maverick or AGM-45 Shrike from wing on PUSH TO JETT. |
 
 ## Recorder Lamp
 

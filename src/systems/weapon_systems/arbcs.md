@@ -23,6 +23,11 @@ angles for ARBCS bombing modes. The values of HIGH (70 to 179.9 degrees) and LOW
 Internally, the computer contains the release switches, as well as the resolver
 to transmit the target angle values to the ADI director pointers.
 
+A calculator for the input values in-game is provided by
+the [bombing calculator.](../../dcs/bombing_computer.md)
+
+![manual_loft_diagram](../../img/loft.jpg)
+
 ## Bombing Timers
 
 ![wso_bomb_release_timer](../../img/wso_bombing_timers.jpg)
@@ -45,8 +50,11 @@ RELEASE to generate the munition release signal.
 
 In integrated LABS (ARBCS)/WRCS bombing, the above requirements are the same,
 however the WRCS initiates the bomb run timing, rather than pressing the bomb
-button. When the WRCS initiates timing, a audio tone is applied to signal timer
+button. When the WRCS initiates timing, an audio tone is applied to signal timer
 start.
+
+A calculator for the input values in-game is provided by
+the [bombing calculator.](../../dcs/bombing_computer.md)
 
 ## ARBCS Indicators
 

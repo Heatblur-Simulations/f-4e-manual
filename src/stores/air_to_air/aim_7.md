@@ -2,6 +2,7 @@
 
 ![aim7](../../img/aim7.jpg)
 
+The AIM-7 is a semi active radar missile with a maximum launch range of approx. 26 nautical miles.
 Originally designated the AAM-N-6 Sparrow III, the AIM-7 Sparrow saw initial
 service entry with the United States Navy in 1958. Unlike the beam-riding AIM-7A
 (AAM-N-2 Sparrow I), which required the launching aircraft to maintain boresight
@@ -63,7 +64,7 @@ display mode out of VI (Vis-Ident mode).
 
 With the [interlocks](../../cockpit/pilot/weapon_management.md#interlock-switch)
 in, should any of the three aforementioned restrictions be
-met- target out of range, aim dot outside the ASE, or the radar left in VI, a
+met - target out of range, aim dot outside the ASE, or the radar left in VI, a
 trigger actuation will not cause the release of a missile.
 With [interlocks](../../cockpit/pilot/weapon_management.md#interlock-switch)
 out, an AIM-7 will be released no matter the condition of the three interlocks.
@@ -110,12 +111,15 @@ the second actuation.
 
 The launch sequence for the AIM-7 missile is
 
-Left Forward Right Forward Left Rear Right Rear
+1. Left Forward
+2. Right Forward
+3. Left Rear
+4. Right Rear
 
 In the event of a centerline store or tank precluding forward missile release,
 the [CL TK lamp](../../cockpit/pilot/weapon_management.md#centerline-tank-aboard-light)
 will illuminate. Rear missiles may still be fired, and the
-forward missiles may be fired if the a centerline tank is dropped or MER is
+forward missiles may be fired if the centerline tank is dropped or MER is
 jettisoned. The lamp also illuminates in the event of a BRU-5/A in the
 centerline position, however, a missile can be launched in that condition. The
 Aero-27 precludes any release, even if the round has been dropped.

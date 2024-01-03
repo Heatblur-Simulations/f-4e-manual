@@ -33,7 +33,7 @@ such an attitude.
 
 The main mode to acquire targets is the WRCS mode, in which the LOS is set to
 the current WRCS target. This usually corresponds to the cursor on the radar
-screen,but can also be set manually by the WSO. This enables the crew to spot a
+screen, but can also be set manually by the WSO. This enables the crew to spot a
 target, or general target area, by using the radar or entering known coordinates
 and then slewing the pod to this destination. If no specific target has been
 inserted, the WRCS usually defaults to the aircraft position, resulting in the
@@ -74,7 +74,7 @@ Note that the pod is not capable of computing a slant range for targets above
 the own aircraft altitude (for example when attacking up-hill). Since that is
 measured using the barometric altitude, depending on the pressure-setting, this
 can lead to erratic behavior during hot days when flying low. Problematic
-situations like this were commonly referred to as Idiot mode, as the tracking
+situations like this were commonly referred to as _Idiot_ mode, as the tracking
 system started to behave very odd and it was very difficult to restore proper
 behavior. The crew often had to deactivate the INS integration temporarily in
 order to disable the automatic tracking.

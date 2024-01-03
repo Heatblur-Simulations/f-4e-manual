@@ -1,6 +1,8 @@
 # Employment
 
-The Phantom has a wide range of weapon modes to employ bombs.
+The Phantom has a wide range of weapon modes to employ bombs. Most Modes will need the WSO to make
+Inputs into the ARBCS/WRCS. For assistance in calculation
+see [Bombing Calculator Chapter.](../../../dcs/bombing_computer.md)
 
 ## LOFT
 
@@ -13,7 +15,7 @@ Planning for a loft attack requires a known target location, so that distances
 for the IP and respective bomb ranges can be calculated. The ballistics tables
 are references to determine delivery pattern and pull-up-to-target range. With
 this information, the number of bombs can be decided, which determines the
-spread, and knowing the pull-up to target range- the pull-up point distance to the
+spread, and knowing the pull-up to target range - the pull-up point distance to the
 IP can be chosen. As the path from IP to pull-up is flown at a constant speed,
 this can then be used to determined time from said distance for pull-up Timer
 entry. And with the ballistic table reference for the LOW angle, the profile is

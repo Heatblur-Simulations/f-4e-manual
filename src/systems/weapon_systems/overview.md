@@ -6,7 +6,7 @@ intricacies of delivering every ordinance at your disposal to the enemy. Guided 
 and ARBCS, you are on the brink of achieving a level of target precision that sets a new military
 standard in aerial warfare!
 
-## Controlling the force: The multiple Weapons System
+## The multiple Weapons System
 
 The aircraft's weapons systems avionics equipment enables both air-to-air and air-to-ground mission
 capabilities. Air-to-ground systems support the deployment of various munitions, including high or
@@ -18,7 +18,7 @@ available weapons include the nose gun, gun pod weapons, AIM-7 radar-guided, and
 missiles. The radar set provides crucial target data for missile launches and gun operations,
 enhancing accuracy and effectiveness in air-to-air engagements.
 
-## The digital Co-Pilot: Automated Release Control System and Weapons Release Computer Set
+## Automated Release Control System and Weapons Release Computer Set
 
 The AN/AJB-7 ARBCS (Automated Release Control System) serves as the automated release control system
 for time or pitch-relative bombing. It interfaces with Multiple Weapon Controls, Pedestal Panel
@@ -42,7 +42,7 @@ obtained, serving as a SAFE (or OFF) position for weapon deployment, except for 
 position activates WRCS missile mode, providing an automatic launch signal in dive, level, or pullup
 maneuvers (refer to Delivery Modes, Air-to-Ground for detailed descriptions).
 
-## Drop it your way: The Aircraft Weapons Release Unit
+## The Aircraft Weapons Release Unit
 
 The AWRU (Automatic Weapon Release Unit) receives operational power when BOMBS or RKTS & DISP is
 selected on the weapon selector. The control panel features two INTRVL controls and a quantity (QTY)
