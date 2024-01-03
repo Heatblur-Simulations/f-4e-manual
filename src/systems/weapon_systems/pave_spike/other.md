@@ -161,13 +161,4 @@ altitude high speed flight, such as overflights at 1,000 ft with 500 knots.
 
 ## Checklists
 
-### Turn On
-
-- Ensure power to the aircraft (left main AC bus and main DC bus)
-- Ensure corresponding CBs are not pulled (No. 4 CB Panel, WSO left wall)
-- POWER ON Button (WSO, Target Designator Set Control) - confirm lamp lit
-- BIT 1 - confirm MALF not lit
-- Video Select Switch - ASQ-153 (WSO, main panel)
-- DSCG Mode - TV (pilot or WSO)
-- Un-stow by pressing lit STOW button - wait 5 seconds and confirm lamp off
-- Confirm DSCG on and displaying pod camera feed
+For Checklists see the [Pave Spike procedure chapter.](../../../procedures/pave_spike.md#turn-on)

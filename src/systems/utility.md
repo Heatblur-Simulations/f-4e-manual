@@ -5,12 +5,16 @@
 ![pilot_oxygen_regulator](../img/pilot_oxygen_regulator.jpg)
 
 Aircrew breathing oxygen is provided with a 10-liter liquid oxygen bottle. A
-regulator panel is found on the left side in each cockpit- on the console in the
+regulator panel is found on the left side in each cockpit - on the console in the
 front cockpit, and the left sub-panel in the rear. Flow is initiated in each
 cockpit using the Supply Lever found on the regulator panel. Oxygen flow is
 confirmed using the Flow Indicator window, which alternates from black to white
 for each breath. Supply pressure and remaining volume is confirmed using the
 Oxygen Pressure and Oxygen Quantity gauges found on both regulator panels.
+
+A detailed chart of the Oxygen duration is provided here:
+
+![manual_oxygen_chart](../img/manual_oxygen_chart.jpg)
 
 ## Canopies
 
@@ -21,7 +25,8 @@ standard opening and closing are found on the right side of each cockpit,
 whereas the yellow and black emergency jettison handle is found on the left in
 the same relative position. To open normally, the right side handle is pulled to
 the aft position; closing is performed by pushing it forward. Canopy jettison is
-initiated by pulling the emergency handle aft.
+initiated by pulling the emergency handle aft. The canopies are actuated by
+the [pneumatic system.](./flight_controls/pneumatics.md)
 
 ![pilot_canopy_handles](../img/pilot_canopy_handle.jpg)
 
@@ -29,7 +34,7 @@ initiated by pulling the emergency handle aft.
 
 ![f4_ext_air_to_air_refuel](../img/ext_air_to_air_refuel.jpg)
 
-For air to air refueling, the F-4E uses a receptacle system compatible with high
+For air-to-air refueling, the F-4E uses a receptacle system compatible with high
 pressure USAF-style boom refueling. With this system, fuel can be delivered to
 the Phantom at a rate of up to 3900 lbs per minute. Fuel received is delivered
 into fuselage cell 2, then equalized through the rest of the aircraft cells,

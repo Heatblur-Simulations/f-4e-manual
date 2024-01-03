@@ -83,7 +83,8 @@ the aft-most cell 7, as well as the internal wing tanks. The sector display
 presents 200 lb increments from 0 to 3000 pounds, and 500 pound increments for
 the rest of the gauge. The lower tape counter readout includes all internal
 fuel, including cell 7 and the internal wing tanks, and is presented in 100 lb
-increments. Cell 7 is used as a reserve cell. For more detailed information see the
+increments. In flight Jester assumes 6000 pounds for Joker and 4000 pounds for Bingo fuel.
+Cell 7 is used as a reserve cell. For more detailed information see the
 [Fuel system chapter.](../../systems/flight_controls/fuel_system.md)
 
 ## Fuel Flow Gauges

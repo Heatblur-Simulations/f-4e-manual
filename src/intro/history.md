@@ -11,7 +11,7 @@ which was the Vought F8U. Choosing not to rest on failure, McDonnell
 representatives canvased the Navy Bureau of Aeronautics, a number of operational
 commands, the office of the Chief of Naval Operations, and any pilot or
 maintainer willing to discuss the state of current naval aviation. After nearly
-a year of analysis and design work- including a full scale mockup, the design of
+a year of analysis and design work - including a full scale mockup, the design of
 what they would classify as a general fighter took shape. The potential of a
 general fighter aircraft, rather than the specialized focus preferred by the
 Navy at the time, was rooted in F3H-1s success in threading of that very needle;
@@ -21,7 +21,7 @@ development cycle, McDonnell expanded the F3H Demon's capabilities to include
 respectable air to ground armament to justify its place in the limited carrier
 compliment when compared to the F10F Jaguar and F7U Cutlass, which were also
 undergoing development at the time. Ultimately outfitted with the AIM-9
-Sidewinder and AIM-7 Sparrow- the latter giving the F3H a beyond visual range
+Sidewinder and AIM-7 Sparrow - the latter giving the F3H a beyond visual range
 capability the Skyray could never boast, and topping out with the ability to
 carry and deliver 6,000 lbs of air to ground ordnance, the Demon out-measured
 its competitors in combat potential, even when it came in second on paper for
@@ -36,7 +36,7 @@ a 45 degree swept wing. Particular focus was paid towards making the new
 aircraft multi-mission capable, running a wide gamut of potential operations:
 day or all-weather attack, photo recon, day or all-weather interception with a
 Sparrow-compatible radar, electronic warfare, and a two seat strike coordination
-configuration. Experimentation with this wide ranging design intent went so far
+configuration. Experimentation with this wide-ranging design intent went so far
 as to include a novel interchangeable nose and cockpit arrangement, allowing
 airframes to be reconfigured within a matter of hours for a given mission set
 with the necessary systems fit for the crew.
@@ -52,7 +52,7 @@ flying examples of the Demon follow on- internally designated as the AH-1.
 ![McDonnell F3H-G Mockup](../img/F3HG.jpg)
 _(McDonnell F3H-G mockup; US Navy photo)_
 
-Two months later, the Navy threw McDonnell a curve ball, directing the type to
+Two months later, the Navy threw McDonnell a curveball, directing the type to
 be stripped of the air to ground fitment, and focusing on the all-weather
 interceptor role in a single seat configuration, with the finalization for this
 change in role being formally announced in April of 1955. The changeover was, in
@@ -60,8 +60,8 @@ some quarters, considered catastrophic- over time forcing the removal of the
 planned internal gun, and stripping all of the hard-points, save for the
 recessed Sparrow fuselage wells and a centerline tank position. At this point,
 the determination of the J79 as the power plant was finalized with the Navy's
-desire for a Mach 2 interceptor. Further, the determination of a two man crew as
-also put in place by the Navy- like McDonnell's own research, success in the
+desire for a Mach 2 interceptor. Further, the determination of a two-man crew as
+also put in place by the Navy - like McDonnell's own research, success in the
 faster, longer ranged interception environment showed the utility of a second
 man to handle the scope.
 
@@ -127,7 +127,7 @@ fulfill tactical bombing roles for both services, the two airframes were at
 least five years out to operational capability; the Phantom existed, provided
 outstanding performance immediately, and could quickly raise the desired 50%
 increase in conventional force structure the White House expected for the Air
-Force. Pressure from all sides- the White House, Congress, McDonnell, and
+Force. Pressure from all sides - the White House, Congress, McDonnell, and
 foreign interest, ultimately defeated the USAF's resistance to an airframe "not
 made here", and by January 1962 the USAF's budget had Phantoms on order the
 Tactical Air Command; the Air Defense Command, which had started the Air Force's
@@ -155,16 +155,16 @@ USAF's involvement in Vietnam, beginning in December of 1964.
 _(F-4B dropping bombs over Vietnam; US Navy Photo)_
 
 The Phantom's initial deployments to Southeast Asia delivered a number of
-firsts- the first officially confirmed MiG-17 kill with the AIM-9 Sidewinder (on
-July 10th, 1965), and the first US air to air shootdown of a MiG-21 (April 26th,
+firsts - the first officially confirmed MiG-17 kill with the AIM-9 Sidewinder (on
+July 10th, 1965), and the first US air-to-air shootdown of a MiG-21 (April 26th,
 1966). Unfortunately, the Phantom was also the victim of the first US loss to a
-SAM in Vietnam (July 24th, 1965), and the first US air to air loss from a MiG-21
+SAM in Vietnam (July 24th, 1965), and the first US air-to-air loss from a MiG-21
 (October 5th, 1966). With the initial teething problems of the type out of the
-way- including alterations to the wing fuel cells and internal wiring, the
+way - including alterations to the wing fuel cells and internal wiring, the
 Phantom was found to be a capable, reliable airframe for the Air Force. Even the
 missing gun had been worked around to some degree, with the integration of the
 SUU-16 and SUU-23 external cannon pods. The in-production upgrade to the Air
-Force's first Phantom- the F-4D, would include a multitude of quality of life
+Force's first Phantom - the F-4D, would include a multitude of quality of life
 improvements: the APQ-109 radar with air to ground modes, the ASN-63 internal
 navigation system, the ASQ-92 release computer. Further additions would include
 automatic fuel transfer and a new sight, the ASG-22. Combat survivability would
@@ -182,7 +182,7 @@ acquisition like other short range infrared missiles of its generation, it was
 substantially more reliable in use; the Falcon's cooling implementation could
 only maintain the required seeker temperature for a short time once activated,
 and could not be turned back on once the cooler timed out, while the un-cooled
-9B could remain available indefinitely. Sidewinder acquired far more rapidly- in
+9B could remain available indefinitely. Sidewinder acquired far more rapidly - in
 many instances in less than two seconds, versus the six to seven seconds
 required for the Falcon. Worse still, the AIM-4 was a hittile- its fin-contact
 triggered fuzing required direct target impact for the missile's warhead to
@@ -215,7 +215,7 @@ updated and returned. The ASG-26A Lead Computing Optical Sighting System was
 installed along with updated aircrew in-range and shoot warning cues, solving
 yet another lingering issue with the original F-4 specification; much has been
 said and written regarding the lack of the gun in the Phantom and the lack of
-training with respect to its performance over Vietnam- in the same respect, the
+training with respect to its performance over Vietnam - in the same respect, the
 lack of effective cueing for the pilot and WSO as to their orientation and range
 to target degraded many a shot opportunity. The updates to the Echo Phantom
 would not stop there; compatibility with multi-ejection racks and updates to the
@@ -258,7 +258,7 @@ Phantom crews going forward.
 
 The F-4E that is implemented in the game is another upgrade from the F-4D for the US Air Force and
 several other countries. It featured an integrated M61 Vulcan gun elongated in the Nose as well as
-a AN/APQ-120 Radar with a reduced size to fit in with the new internally mounted M61 Vulcan. Other
+an AN/APQ-120 Radar with a reduced size to fit in with the new internally mounted M61 Vulcan. Other
 upgrades included the J79-GE-17 engines with 17,900 lbf of afterburner thrust for each engine,
 leading-edge flaps and slats to improve the maneuverability especially at high angle of attack. The
 F-4E Phantom II was the most numerous version that has been built totalling at 1370 units. The F-4E

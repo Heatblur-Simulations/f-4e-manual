@@ -10,4 +10,4 @@ His key responsibilities are
 
 - operating the radar,
 - controlling the targeting pod and
-- assisting with navigation
+- assisting with navigation.

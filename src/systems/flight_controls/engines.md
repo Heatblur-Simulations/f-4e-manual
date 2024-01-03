@@ -15,7 +15,9 @@ Each engine has a fuel flow indicator found in the [front cockpit instrument
 panel.](../../cockpit/pilot/right_main_panel.md#fuel-flow-gauges) The indicators read in thousands
 of pounds per hour, from 0 to 12. The indicators provide flow rate up to Mil power; when afterburner
 is engaged, a separate fuel delivery system is used to provide fuel directly to the
-afterburner stage, and the flow rate is approximately 4 times the value shown.
+afterburner stage, and the flow rate is approximately 4 times the value shown. Fuel Flow should not
+exceed 1200 pph at lightoff and 800 to 1500 pph at idle operations. Fuel consumption for Engine
+start is approximately 65 pounds per Engine.
 
 ## Oil Pressure Indicators
 
@@ -23,12 +25,13 @@ afterburner stage, and the flow rate is approximately 4 times the value shown.
 
 Oil pressure indicators are on the front
 cockpit [pedestal panel](../../cockpit/pilot/pedestal_group.md), and
-are graduated from 0 to 10, and are presented in 10 lb increments.
+are graduated from 0 to 10, and are presented in 10 lb increments. Normal values are 15 psi while
+the engines are running.
 
 ## Variable Duct Ramp
 
 Optimization of air to the engines is performed by a Variable Duct Ramp system
-directed by the ADC; this optimization uses a pair of variable ramps to
+directed by the Automatic Duct Control; this optimization uses a pair of variable ramps to
 decelerate incoming air to subsonic for best engine performance. In the event
 limits are exceeded for inlet temperature, the [Duct Temperature High Indicator
 Light (DUCT TEMP HI)](../../cockpit/pilot/right_sub_panel.md#telelight-annunciator-panel) on
@@ -78,7 +81,9 @@ the [Anti-Icing Switch](../../cockpit/pilot/left_console/front_section.md#engine
 set to DE-ICE, bleed air from stage 17 is distributed to ports installed in the compressor face area
 of the engines. This system does not perform de-icing functions, but is to be activated prior to ice
 formation. As high Mach speeds provide enough friction heat to the air stream to deny icing in the
-compressor stage, usage of the Anti-Icing System is unnecessary and can cause engine damage.
+compressor stage, usage of the Anti-Icing System is unnecessary and can cause engine damage. The
+system should be turned on in turbulent air and thunderstorms, or when a rise in Exhaust Gas
+temperature is noted by the pilot as this is an indication for an engine icing condition.
 
 ### Anti-Ice Indicator Lights
 
@@ -111,7 +116,11 @@ position and received EGT to maintain temperatures within design limit.
 To monitor the current position of the nozzles relative to each other, as well
 as EGTs,
 an [indicator](../../cockpit/pilot/right_main_panel.md#dual-exhaust-nozzle-position-indicators)
-is provided with calibrations from CLOSE to OPEN in four increments.
+is provided with calibrations from CLOSE to OPEN in four increments. The nozzle indicators enable
+the pilot to make a comparison of nozzle position between engines and are also used to establish a
+relationship between nozzle position and exhaust gas temperature, as well as nozzle position and
+throttle settings. Normal settings would be OPEN with the engines off until IDLE, 3/4 to 1/2 with
+engines in IDLE and 1/4 for MIL power. MAX power will not change the indicator.
 
 ### Engine Master Switches
 

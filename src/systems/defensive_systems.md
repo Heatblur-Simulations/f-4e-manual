@@ -16,8 +16,13 @@ the No.4 Circuit Breaker Panel above the aft left console in the WSO cockpit.
 
 ![cm_dispenser](../img/cm_dispenser.jpg)
 
-Available loadout combinations are: empty; 120x chaff; 15x Flares + 90x chaff;
-30x flares + 60x chaffs; and 30x flares.
+| Loadout Combination     | Description                    |
+|-------------------------|--------------------------------|
+| Empty                   | No chaff or flares loaded      |
+| 120x chaff              | Only chaff loaded              |
+| 15x Flares + 90x chaff  | 15 flares and 90 chaff loaded  |
+| 30x flares + 60x chaffs | 30 flares and 60 chaffs loaded |
+| 30x flares              | Only 30 flares loaded          |
 
 Dispensing of countermeasures can be initiated by either the pilot or the WSO
 from either the front or the rear cockpit. The CCU will initiate the various
@@ -79,6 +84,11 @@ NOTE: When the slave dispenser is set to Chaff Double (CD), the chaff counter
 should be set to half the number of total chaff cartridges loaded or the chaff
 counter will show twice the number of chaff cartridge dispenses remaining.
 
+### Chaff Double (CD)
+
+When Chaff Double is selected in the Mission Editor, the ground crew will activate it. In Chaff
+double mode both dispensers, left and right, will dispense at the same time.
+
 ### Chaff and Flare Indicator Lights
 
 Both the flare and the chaff system have one green indicator light each.
@@ -114,13 +124,14 @@ are available:
 
 Control Function
 
-CHAFF BURST: Selects the quantity of chaff bursts per salvo COUNT 1, 2, 3, 4, 6,
-8 (units) INTERVAL .1, .2, .3, .4 Selects the time interval between each chaff
-burst (seconds) CHAFF SALVO: Selects the number of salvos COUNT 1, 2, 4, 8, C
-(continuous) INTERVAL 1, 2, 3, 4, Selects the time interval in seconds between
-each salvo 5, 8, R (random) FLARE BURST: Selects the quantity of flare bursts
-COUNT 1, 2, 4, 8, C (continuous) INTERVAL 3, 4, 6, 8, Selects the time interval
-between each flare burst 10 (seconds)
+| Setting     | Options                               |
+|-------------|---------------------------------------|
+| CHAFF BURST | COUNT 1, 2, 3, 4, 6, 8 (units)        |
+|             | INTERVAL 0.1, 0.2, 0.3, 0.4 (seconds) |
+| CHAFF SALVO | COUNT 1, 2, 4, 8, C (continuous)      |
+|             | INTERVAL 1, 2, 3, 4, 5, 8, R (random) |
+| FLARE BURST | COUNT 1, 2, 4, 8, C (continuous)      |
+|             | INTERVAL 3, 4, 6, 8, 10 (seconds)     |
 
 ### Flares Select Switch
 

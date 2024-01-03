@@ -110,7 +110,8 @@ in conjunction with the Mode knob. The types are as follows:
 
 A 12 position switch used to apply estimated range rate of closure (clockwise,
 0-9), or estimated opening of range (counterclockwise, 0-2) against a target in
-manual track mode.
+manual track mode. The numbers are multiplied by x100 m/s while closure means closing in to the F-4
+and opening means the target is flying away from the F-4.
 
 ### Pulse Switch
 

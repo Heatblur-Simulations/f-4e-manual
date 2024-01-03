@@ -5,7 +5,7 @@ Phantom II its stellar reputation among pilots and ground crews. From the phanta
 electrics, hydraulics, pneumatics to the finely-tuned fuel system, this chapter is your gateway to
 mastering the essentials needed to navigate this lead sled with finesse and expertise!
 
-## Turning a light on: The electrical system
+## The electrical system
 
 The F-4E Phantom II's aircraft electrical power supply system comprises two engine-driven AC
 generators, two dc-transformer-rectifiers, a nickel-cadmium battery, and a power distribution (bus)
@@ -14,7 +14,7 @@ and circuit breakers, reference the foldout illustration provided in the documen
 ensures a reliable and diverse power source for the aircraft's various electrical components and
 systems.
 
-## Power for the double Ugly: The engines
+## The engines
 
 The F-4E Phantom II is equipped with two General Electric J79-GE-17A/F engines featuring modulated
 afterburners. A turbine-type starter, powered by external air or the expanding gases of a solid
@@ -26,7 +26,7 @@ tank pressurization, pneumatic system air compressor, and windshield rain remova
 configuration with J79-GE-17A/F engines underscores the Phantom II's versatility and adaptability in
 diverse operational scenarios.
 
-## Make it move: The Flight controls
+## The Flight controls
 
 The primary flight controls of the aircraft include the stabilator, rudder, ailerons, and spoilers,
 with artificial feel systems simulating aerodynamic forces for the control stick and rudder pedals.
@@ -40,7 +40,7 @@ slat chatter, identified by machine-gun-like sounds and pressure fluctuations, m
 emergency measures in place to prevent structural damage if they are inadvertently left extended
 beyond their limits.
 
-## Feeding the bird's heart: The Fuel system
+## The Fuel system
 
 The F-4E Phantom II features an internal fuel system comprising interconnected cells in the fuselage
 and two internal wing tanks. External fuel is carried in two wing-mounted 370-gallon tanks and a
@@ -55,7 +55,7 @@ rudder. In the event of a complete transfer pump failure, cells 2 through 7 can 
 cell 1, with usable fuel depending on flight attitude and acceleration. Flight configurations, such
 as emergency approaches, can impact the availability of fuselage fuel during gravity feed.
 
-## Get back safe: The gear and ground handling
+## The gear and ground handling
 
 The F-4 Phantom features a tricycle landing gear system driven by the Utility hydraulic system. In
 case of Utility hydraulics failure, an emergency extension system using compressed air is available
@@ -67,7 +67,7 @@ initiated by rotating a handle in the front cockpit, and once the chute has serv
 can be jettisoned by pressing a button and pulling the handle back. This action releases the chute
 cables, allowing it to pull free.
 
-## The blood of the Rhino: The hydraulic system
+## The hydraulic system
 
 The F-4 Phantom is equipped with three independent closed-center hydraulic systems: Power Control
 System One (PC-1), Power Control System Two (PC-2), and Utility System. Operating at approximately

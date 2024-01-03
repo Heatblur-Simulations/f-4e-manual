@@ -30,7 +30,7 @@ the sight.
 ![RetDepress](../../img/RetDepress.jpg)
 
 Controls manual depression in 1 mil increments from 0 to 245. The manual depression is used for
-[direct delivery bombing](../../procedures/bombs_direct_delivery.md) and delivery of
+[direct delivery bombing](../../procedures/bombs/bombs_direct_delivery.md) and delivery of
 the [AGM-65 Maverick.](../../stores/air_to_ground/missiles/maverick.md)
 
 ## Sight Mode Knob

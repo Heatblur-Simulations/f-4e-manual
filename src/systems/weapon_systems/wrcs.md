@@ -40,7 +40,7 @@ maximum setting is 9990 feet (999x10), and when used in a WRCS/AJB-7 integrated
 delivery, the actual range can be as high as 99,900'.
 
 The Rg control should not be set to the same value as the target range control.
-Otherwise, the bomb rack delay may may release late, or not at all.
+Otherwise, the bomb rack delay may release late, or not at all.
 
 ## Release Advance Control
 
@@ -70,7 +70,9 @@ Thus, for this release, we would set the value of RA to 240 msec. This would
 produce a spread of two bombs ahead of target, one on the calculated target
 point, and one behind.
 
-The maximum setting for the Release Advance Control is 999 milliseconds.
+The maximum setting for the Release Advance Control is 999 milliseconds. A calculator to calculate
+the Release advance in-game is provided with
+the [bombing calculator.](../../dcs/bombing_computer.md)
 
 ## Drag Coefficient Control
 
@@ -129,7 +131,7 @@ nominally for training purposes, as it can preclude other system audio volume.
 ![wso_weapon_delivery_panel](../../img/wso_weapon_delivery_panel.jpg)
 
 The Weapon Delivery Panel permits the aircrew to use the WRCS TGT FIND functions
-in LABS (ARBCS) modes- those found on the left side of the pilot's Delivery Mode
+in LABS (ARBCS) modes - those found on the left side of the pilot's Delivery Mode
 Knob.
 
 The TGT FIND switch on the panel functions the same as the TGT FIND mode on the

@@ -4,9 +4,9 @@
 
 Entering service in 1972, the AGM-65 air to surface missile provided the Phantom
 II with a direct-fire long range weapon, capable of destroying armor, mechanized
-infantry, and other targets with electro-optical, and later- infrared imaged,
+infantry, and other targets with electro-optical, and later - infrared imaged,
 accuracy. The F-4E was capable of carrying up to six between the two inboard
-wing pylons.
+wing pylons. The AGM-65 Maverick has an approx. maximum range of 12 nautical miles.
 
 Employment of the Maverick is shared between both cockpits, with the pilot
 responsible for stores and mode selection, and initial seeker placement. From
@@ -17,11 +17,11 @@ member can direct the final intended contrast target.
 
 Available variants include:
 
-| Variant | Description |
-| ------- | ----------- |
-| A       | TV-Guided   |
-| B       | TV-Guided   |
-| D       | IR-Guided   |
+| Variant | Description                          |
+| ------- |--------------------------------------|
+| A       | TV-Guided                            |
+| B       | TV-Guided with a narrower FOV than A |
+| D       | IR-Guided                            |
 
 ## Employment
 
@@ -42,7 +42,7 @@ alignment be that of the missile seeker.
 Once the warmup has completed, the crew may activate their displays for viewing
 seeker video; the pilot selects the TV position on the Scope Display Select
 switch on the Pedestal panel, and the WSO places the radar display mode knob to
-TV.
+TV and the Video Select Switch to WEAPON instead of ASQ.
 
 With the displays activated, the pilot maneuvers the aircraft to position the
 sight reticle over the target area, and either crew member can then press their

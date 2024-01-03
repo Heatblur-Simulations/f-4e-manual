@@ -1,5 +1,11 @@
 # Primary Flight Instruments
 
+The Primary flight instruments include every instrument needed for basic flight of the F-4E.
+Included are the True Airspeed Indicator (TAS), the ground speed indicator, Accelerometers,
+combined Airspeed and Mach Indicators, radar and barometric Altimeters, a backup magnetic compass,
+vertical velocity indicators, different turn and slip indicators as well as cockpit attitude
+indicators.
+
 ## True Airspeed Indicators
 
 ![TASInd](../img/TASInd.jpg)
@@ -129,7 +135,8 @@ indicator or AHRS, the OFF flag will display.
 The Pitot-Static system provides impact and static pressure to flight
 instrumentation, the Air Data Computer, and airspeed-driven switches. To
 alleviate icing of the pitot head, a Pitot Heat Switch is found in the front
-cockpit right console.
+cockpit right console. The Pitot Heat switch should always be turned on before takeoff but not for
+longer than one minute as it could damage the instrument.
 
 ## Air Data Computer System
 

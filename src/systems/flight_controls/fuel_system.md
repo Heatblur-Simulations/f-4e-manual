@@ -77,14 +77,15 @@ be indicative of a transfer failure.
 Any time an external fuel tank is detected to not be flowing fuel into the
 fuselage, a respective light will illuminate on the telelight panel- L EXT FUEL,
 CTR EXT FUEL, or R EXT FUEL. These lights will only illuminate for the
-respective external transfer- that is, if OUTBD is selected, CTR EXT FUEL cannot
+respective external transfer - that is, if OUTBD is selected, CTR EXT FUEL cannot
 illuminate, and vice versa. Because transfer can occur intermittently due to
 flow from the tanks exceeding engine fuel consumption, the warning lamp is not
 immediately indicative of an empty external tank, and should be checked against
 the quantity indication system. Further, the lamps will illuminate when the air
-refuel switch is set to EXTEND, with the ALL TANKS setting selected.
+refuel switch is set to EXTEND, with the ALL TANKS setting selected. To confirm that the tanks are
+empty fly calm and level and watch if the light stays on and the fuel gauge is not going up.
 
-When air to air refueling, or when refueling on the ground and the tanks have
+When air-to-air refueling, or when refueling on the ground and the tanks have
 reached a full condition, the External Tanks Full lamps, found under the canopy
 bow, will light.
 

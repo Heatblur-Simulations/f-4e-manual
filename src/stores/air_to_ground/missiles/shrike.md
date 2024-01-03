@@ -16,12 +16,9 @@ emitting antenna itself was damaged, rather than the vehicle it was mounted to.
 While limited in most respects, the Shrike received a number of upgrades over
 its lifetime, lasting in service from the mid-60s in Vietnam, until just after
 the Gulf War, through better engines and additional seeker updates for later SAM
-systems. The Shrike was put into use by two foreign users- the Israeli Air
+systems. The Shrike was put into use by two foreign users - the Israeli Air
 Force, who also modified it for a ground-launched version, and through
 clandestine means with the RAF during the Falklands War.
-
-The AGM-45 Shrike has three distinct launch modes, all of which are described in
-the AGM-45 Mode section.
 
 ## Variants
 
@@ -39,7 +36,7 @@ means of employment of the Shrike. The mode is based around a high altitude
 attack profile, and depends on the pre-programmed weapon engagement envelope of
 the AGM-45 stored within the WRCS. This profile, in conjunction with current
 aircraft state information from the INS and a signal provided by the receiver in
-the missile- having detecting an emitter of the type its attuned to, define a
+the missile - having detecting an emitter of the type its attuned to, define a
 flight path and release envelope for optimum probability of the missile reaching
 the target.
 
@@ -73,9 +70,9 @@ receiver to occur when the aircraft is banked, preparation of the attack may
 require repeated adjustments with wings brought to level every few seconds to
 make certain the aircraft is pointing at the emitter.
 
-#### pull-up
+#### Pull-up
 
-The pull-up instruction is guidance for the pilot to initiate a steady rotation
+The Pull-up instruction is guidance for the pilot to initiate a steady rotation
 back to the horizon, and, if desired, continue into a steady climb state until
 range requirements are met and the missile is launched. The pilot can choose to
 either bring the aircraft to near level and stop, or pull further into a low

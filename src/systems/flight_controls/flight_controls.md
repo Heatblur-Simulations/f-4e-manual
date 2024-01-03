@@ -1,6 +1,9 @@
-# Flight Controls
+# Flight Control surfaces and system
 
 ![ext_view_flight_controls](../../img/ext_flight_controls.jpg)
+
+The flight controls include the slats seen in front of the wing in extended position, the flaps, the
+rudder, the aileron-spoiler seen on top of the right wing in the picture and rearward stabilizers.
 
 ## Control Sticks
 
@@ -46,7 +49,7 @@ To confirm current state of the stabilator trim, a Stabilator Trim Position
 Indicator is provided on
 the [front cockpit left vertical panel](../../cockpit/pilot/left_sub_panel.md#stabilator-trim-indicator)
 .
-
+  
 ![StabTrimInd](../../img/StabTrimInd.jpg)
 
 ## Rudder Control System
@@ -74,11 +77,16 @@ Aileron-Rudder Interconnect. The system is engaged automatically with the [Slats
 Flap Switch](../../cockpit/pilot/left_console/wall.md#slatsflaps-control-panel) in the Out and Down
 position, and below the flap blowup speed of 230
 knots. With the system engaged, the rudder can be driven up to 10 degrees by the
-interconnect to alleviate pilot workload. In the event either seat in command
-requires the ARI deactivated, the system can be disconnected by pulling the
-[Emergency Quick Release lever](gear_ground_handling.md#emergency-anti-skid-quick-release-lever) on
-their respective control stick. Releasing the switch will re-engage the ARI. Function of the ARI can
-always be overridden through the rudder pedals.
+interconnect to alleviate pilot workload. The circuit breaker for the ARI is located right of the
+Emergency stores release.
+
+### Emergency ARI disconnect
+
+In the event either seat in command requires the ARI deactivated, the system can be disconnected by
+pulling
+the [Emergency Quick Release lever](gear_ground_handling.md#emergency-anti-skid-quick-release-lever)
+on their respective control stick. Releasing the switch will re-engage the ARI. Function of the ARI
+can always be overridden through the rudder pedals.
 
 ## Stability Augmentation System
 
@@ -206,8 +214,7 @@ Aural Tone System.
 
 The Angle of Attack Indicator dials register AoA values from 0 to 30 units, with
 indications for weight-relative optimum altitude cruise (7.9 units) , approach
-(19.2 units), and stall (30 units). A matrix can be found in the appendices to
-calculate optimum cruise altitude by gross weight.
+(19.2 units), and stall (30 units).
 
 It is important to note that extension of the landing gear and thus the nose
 gear door changes the airflow around the probe causing to indicate higher

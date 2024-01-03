@@ -140,7 +140,7 @@ When the upper position is selected to [TACAN](tacan.md)/ADF/UHF, the no. 1 poin
 indicates UHF bearing, and the no. 2 pointer indicates the [TACAN](tacan.md) bearing. If
 there is no [TACAN](tacan.md) signal, both pointers indicate the ADF bearing.
 
-With the middle position selected- [VOR](vor_ils.md)/TAC, the no. 1 pointer indicates
+With the middle position selected - [VOR](vor_ils.md)/TAC, the no. 1 pointer indicates
 the [VOR](vor_ils.md)
 bearing, the no. 2 pointer indicates the [TACAN](tacan.md) bearing, and the range indicator
 provides distance to the [TACAN](tacan.md) station. In the absence of a [TACAN](tacan.md) signal,
@@ -150,3 +150,5 @@ pointers indicate the [VOR](vor_ils.md) station.
 In the lower position, NAV COMP, the no. 1 pointer indicates bearing to the
 navigation computer target coordinates, and the no. 2 pointer indicates magnetic
 ground track. The range indicator notes distance to the target coordinates.
+
+![ModeSelectorKnobTable](../../img/ModeSelectorKnobTable.jpg)

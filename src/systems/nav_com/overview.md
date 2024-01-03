@@ -6,7 +6,7 @@ blend of cutting-edge technology and tactical prowess. From inertial navigation 
 avionics, this system serves as the guiding force for pilots as they navigate the vast airspace and
 execute missions with utmost accuracy.
 
-## Keep it safe: The encryption system
+## The encryption system
 
 The UHF communication system in the aircraft is modified to support both crypto and conventional
 voice transmission and reception. The intercom system and UHF transceiver are adapted for
@@ -21,7 +21,7 @@ for transmitting messages via a relay facility. This function is not modelled in
 The unit contains a code assembly with mechanisms for zeroizing the codes, either mechanically or
 electrically.
 
-## Don't get lost: The INS
+## The INS
 
 The AN/ASN-63 Inertial Navigation System (INS) equips the F-4E aircrew and integrated weapons
 delivery system with real-time accurate positional, velocity, attitude, and heading information.
@@ -38,7 +38,7 @@ and accelerometers, including a tuning fork to reduce static friction, contribut
 localization and velocity capture. The system's design emphasizes redundancy and climate control to
 ensure reliable and precise navigation capabilities.
 
-## Little helpers: The VOR/ILS and TACAN
+## The VOR/ILS and TACAN
 
 The VHF Omnidirectional Range Instrument Landing System (VOR/ILS) furnishes accurate bearing and
 course deviation information through a ground station transmitter. This system enables the aircraft

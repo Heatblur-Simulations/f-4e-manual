@@ -16,7 +16,7 @@ eliminate a gimbal lock in outer roll/azimuth gimbal alignment.
 
 Installed on the platform are a pair of G-200 two-axis gyros, with the upper
 gyro axis aligned for spin on the north-south axis while the lower gyro aligns
-for east-west spin; torque detection in each gyro tracks the perpendicular axes-
+for east-west spin; torque detection in each gyro tracks the perpendicular axes -
 ergo, the high gimbal detects east/west rotation, while the low gyro detects
 north/south rotation. In this way, rotation in all three dimensions are
 represented. The gyros are floated, and proper operation can only take place
@@ -99,7 +99,7 @@ Maximum system precision is found by allowing the INS to perform a full
 Gyro-compassing alignment. This method permits the gyros to find the most
 accurate true north reference possible, but can entail substantial amounts of
 time- and even greater time based on inaccurate or missing magnetic variation
-setting entry prior to powering the INS on. As an example- for a one degree
+setting entry prior to powering the INS on. As an example - for a one degree
 compass heading error, the time to achieve maximum accuracy on the system is
 approximately five minutes, which attains an accuracy of ±10 minutes of arc
 alignment, giving the aforementioned 3 nautical miles of deviation per hour. The
@@ -129,9 +129,9 @@ further increase system accuracy.
 ### In-Flight Emergency Alignment
 
 In the event of a significant attitude error or failure of the STBY Attitude
-Reference, an emergency in-flight alignment of the INS can be executed. The
-aircraft must maintain straight and level flight, with the Reference System
-Selector Knob set to STBY. Once in this configuration, the INS Mode Knob should
+Reference, an emergency in-flight alignment of the INS can be executed. This is indicated by the NAV
+SYS OUT LAMP illuminated. The aircraft must maintain straight and level flight, with the Reference
+System Selector Knob set to STBY. Once in this configuration, the INS Mode Knob should
 be switched to OFF, then to STBY for a duration of 15 seconds. Subsequently,
 after the 15-second interval, return the Mode to NAV, and resume straight and
 level flight. The process of resetting the Reference Selector to PRIM can be
@@ -180,7 +180,7 @@ The Nav Computer can function in either Inertial or Air Data mode. Both modes
 provide the same outputs but the inertial mode (default) is more accurate.
 
 In the event of an INS failure, the Nav Computer reverts to Air Data mode. In
-Air Data mode. the rear pilot must continually monitor and adjust true wind
+Air Data mode, the rear pilot must continually monitor and adjust true wind
 direction and speed, magnetic variation, as the only dead reckoning inputs
 available to the computer is true airspeed (from the air data computer) and
 magnetic heading from the compass system. When the system reverts to Air Data
@@ -211,7 +211,9 @@ should the Phantom crew be tasked with a CAP or defensive role relative to a
 known position (ie, bullseye), the coordinates of that location can be loaded
 into the Target Control values, the Function Selector placed into RESET, and
 then returned to Target 2. Any change from Target 2 to Target 1 or STBY, then
-back to Target 2 will maintain said location value, easily accessed.
+back to Target 2 will maintain said location value, easily accessed. This will memorize the entered
+position into Target 2, from which it will be easily accessible by just switching the knob back to
+Target 2 at any time.
 
 The other common technique was "leapfrogging":
 

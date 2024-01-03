@@ -1,9 +1,13 @@
 # Landing Gear System and Ground Handling Controls
 
 The F-4 Phantom uses a conventional tricycle landing gear arrangement, driven by
-the Utility hydraulic system. In the event Utility hydraulics are offline, an
-emergency extension system using compressed air is available to lower the gear for
-landing.
+the Utility hydraulic system. The Landing gear is electronically controlled and hydraulically
+actuated by the utility hydraulic system. Accidential retraction of the landing gear when the
+aircraft is on the ground is prevented by safety switches on the main gear. The gear is locked down
+by internal finger latches which require hydraulic pressure to release. The automatic disable of the
+nose gear steering and anti-skid system is realized by scissor switches located in the landing gear
+bays. In the event Utility hydraulics are offline, an emergency extension system using compressed
+air is available to lower the gear for landing.
 
 ![ext_view_gears](../../img/ext_landing_gear.jpg)
 
@@ -32,7 +36,7 @@ aft.
 
 ![pilot_wheels_light](../../img/pilot_dscg_wheels_light.jpg)
 
-On the upper left corner of the front cockpit instrument panel is a WHEELS
+In the upper left corner of the front cockpit instrument panel is a WHEELS
 warning lamp that illuminates when the aircraft is below 230 knots without the
 landing gear lowered. Selecting the gears down or up when the WHEELS lamp is
 illuminated will cause a warning lamp installed in the Landing Gear Control
@@ -56,7 +60,8 @@ of a wheel when the gears are down and locked.
 Nose Gear Steering is actuated using the referenced button on the control stick
 in either cockpit. Holding the button down permits the crew member to steer the
 aircraft using the rudder. Steering limit of the nose gear is 70 degrees from
-centerline in both directions.
+centerline in both directions. Rudder steering becomes effective at approximately 70 knots. At this
+speed Nose Gear Steering should be disengaged and not be used any further.
 
 ## Wheel Brakes
 
@@ -127,7 +132,9 @@ door with a smaller pilot chute. Once the chute has deployed and performed
 sufficient braking action or the aircraft has recovered into a controllable
 state, the chute is jettisoned by pressing the button and pulling the handle
 back, then lowering it. This action releases the chute cables and allows it to
-pull free.
+pull free. Do not use the Chute in excess of 200 Knots IAS while landing.
+For spin recovery the Chute can be used by pushing the stick full forward, putting ailerons and
+rudder in a neutral position and deploying the chute.
 
 ![ext_drag_chute_out](../../img/ext_drag_chute.jpg)
 
