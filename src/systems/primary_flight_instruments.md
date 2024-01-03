@@ -135,7 +135,7 @@ indicator or AHRS, the OFF flag will display.
 The Pitot-Static system provides impact and static pressure to flight
 instrumentation, the Air Data Computer, and airspeed-driven switches. To
 alleviate icing of the pitot head, a Pitot Heat Switch is found in the front
-cockpit right console. The Pitot Heat switch should always be turned on before takeoff but not for 
+cockpit right console. The Pitot Heat switch should always be turned on before takeoff but not for
 longer than one minute as it could damage the instrument.
 
 ## Air Data Computer System

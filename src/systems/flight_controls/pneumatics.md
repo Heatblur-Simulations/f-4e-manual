@@ -15,7 +15,3 @@ Indicator is found on the front cockpit [pedestal panel](../../cockpit/pilot/ped
 confirm function, and indicates manifold pressure.
 
 ![Pneumatics](../../img/Pneum.jpg)
-
-
-
-

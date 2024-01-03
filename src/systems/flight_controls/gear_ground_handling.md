@@ -77,7 +77,7 @@ of rotation.
 ![AntiSkidSwitch](../../img/pilot_anti_skid_switch.jpg)
 
 Next to the oxygen quantity gauge in the front cockpit is the Anti-Skid Control
-Switch, which is used to turn the system ON or OFF. 
+Switch, which is used to turn the system ON or OFF.
 
 ## Anti-Skid Inoperative Light
 
