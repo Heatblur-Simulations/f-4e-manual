@@ -358,12 +358,12 @@
     --menu-text-active: black;
     --menu-main-chapter-active: rgb(252, 252, 252);
     --menu-inner-chapter-active: rgb(115, 109, 109);
-    --menu-inner-chapter-active-text: rgb(230, 230, 230);
+    --menu-inner-chapter-active-text: #404040;
     --menu-inner-bg: rgb(201, 201, 201);
     --menu-inner-text: rgb(58, 58, 58);
     --content-page-bg: rgba(0,0,0,0.05);
 
-    --content-max-width: 900px;
+    --content-max-width: 800px;
  
 
   }
@@ -381,7 +381,9 @@ border: 1px solid var(--mobile-nav-border);
 box-shadow: 0px 1px 2px -1px rgba(255,255,255,0.5) inset, 0px -2px 0px 0px var(--mobile-nav-border) inset;
 }
 
-
+.sidebar {
+  font-size: 90% !important;
+}
 .content {
   background-color: var(--bg) !important;
 
@@ -393,8 +395,8 @@ box-shadow: 0px 1px 2px -1px rgba(255,255,255,0.5) inset, 0px -2px 0px 0px var(-
 }
 
 .content main {
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 3.236em;
+  padding-right: 3.236em;
 }
 .page {
   background-color: var(--content-page-bg) !important;
@@ -412,21 +414,23 @@ body {
     font-family: "Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
 }
 
-h1 {
+h1,h2,h3  {
     font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
 }
 
 img {
-    display: flex;
+  display: flex;
     margin: 0 auto;
+    vertical-align: middle;
 }
 
-.chapter {
-    font-size: 1em;
+.section .chapter-item {
+  font-size: 90%;
 }
 
 .chapter-item.affix {
     background-color: var(--menu-affix);
+    font-size: 100% !important;
 }
 
 .chapter-item.affix a.active {
@@ -442,13 +446,24 @@ img {
 }  
 
 .chapter li.chapter-item {
-    padding: 0.4045em 1.618em;
-
+  padding-top:0.4045em ;
+  padding-bottom: 0.4045em ;
+  padding-left: 1.618em;
+  
+  line-height: 18px !important;
 }
 
 .chapter li.chapter-item:hover {
     background-color: var(--menu-main-chapter-hover);
 }
+
+
+.section {
+    list-style: none outside none;
+    padding-inline-start: 1.5em;
+    line-height: 1.9em;
+}
+
 
 .section li.chapter-item:hover {
     background-color: var(--menu-inner-chapter-hover);
@@ -457,21 +472,24 @@ img {
 .chapter li a.active {
     color: var(--menu-text-active);
     font-weight: bold;
+    line-height: 18px;
     
 }
 .chapter .chapter-item.expanded {
 background-color: var(--menu-main-chapter-active);
 font-weight: bold;
+font-size: 14.4px;
 
 }
 
 .section .chapter-item.expanded {
-    background-color: var(--menu-inner-chapter-active);
+    background-color: var(--menu-inner-bg);
     }
 
     .section .chapter-item.expanded a{
         color: var( --menu-inner-chapter-active-text);
         font-weight: bold;
+        font-size: 14.4px;
 
         }
 
