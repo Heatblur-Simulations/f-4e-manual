@@ -60,7 +60,7 @@ This auxiliary panel has various controls for lights and also audio.
 ### Stall Warning
 
 The Stall Warning knob controls the volume of
-the [AoA tones](../../../systems/flight_controls/flight_controls.md#stall-warning-vibrator) that
+the [AoA tones](../../../systems/flight_controls_gear/flight_controls.md#stall-warning-vibrator) that
 play when flying at certain angles.
 
 Under certain conditions, the system can override the volume to ensure the cue

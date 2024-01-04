@@ -155,7 +155,7 @@ weight is off wheels.
 Wing and centerline stores can be jettisoned independently using the Jettison
 Knob in the STORES position, selecting the desired Station Select Buttons to
 release, and pressing PUSH TO JET. Any pylon or missile launcher at the station
-will remain in place, but stores- including MERs and TERs, will be released.
+will remain in place, but stores - including MERs and TERs, will be released.
 
 ### AIM-7 Jettison
 

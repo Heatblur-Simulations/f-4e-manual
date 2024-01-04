@@ -6,7 +6,7 @@
 
 ### Anti-Skid
 
-The [anti-skid system](../../../systems/flight_controls/gear_ground_handling.md#anti-skid-control-switch)
+The [anti-skid system](../../../systems/flight_controls_gear/gear_ground_handling.md#anti-skid-control-switch)
 provides an electronically controlled skid protection at wheel speeds over 30 knots. This is done
 by detecting the start of a skid and then releasing the brake pressure.
 
@@ -118,7 +118,8 @@ This doesn't change the polarity of the video but the coding of the seeker itsel
 
 Three position switch with automatic return to center used to start the
 respective engine using the cartridge (if loaded), left or right.
-See [engine system chapter](../../../systems/flight_controls/engines.md#cartridge-mode-starting) for
+See [engine system chapter](../../../systems/engines_and_fuel_systems/engines.md#cartridge-mode-starting)
+for
 further detail on when to use the cartridge start.
 
 ### CADC Static Pressure Compensator Correction Switch
@@ -196,7 +197,7 @@ reticle can immediately be slewed to the
 Radar Boresight Line using the Cage Button, found on the inboard (right)
 throttle handle. Cage mode commands the radar into BST mode with a five mile
 range, and short pulse, and sets the firing circuit for the currently selected
-air to air weapon relative to the Pinky Switch. For
+air-to-air weapon relative to the Pinky Switch. For
 the [optical sight](../../../cockpit/pilot/dcsg_controls.md#sight-mode-knob),
 the command activates the respective elevation and azimuth tracking, roll mark, and
 range functions of the reticle for the chosen weapon, without the pilot having

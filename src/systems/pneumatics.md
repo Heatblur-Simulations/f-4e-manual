@@ -1,6 +1,6 @@
 # Pneumatics
 
-![manual_pneumatic_diagram](../../img/manual_pneumatic_diagram.jpg)
+![manual_pneumatic_diagram](../img/manual_pneumatic_diagram.jpg)
 
 The pneumatic system provides high pressure air for the normal and emergency operation of the
 canopies and the emergency operation of the landing gear as well as the slats and flaps. The
@@ -11,7 +11,7 @@ the rearward canopy and the landing gear. The Slats and Flaps are only controlle
 system when the emergency lever is used.
 
 A Pneumatic Pressure
-Indicator is found on the front cockpit [pedestal panel](../../cockpit/pilot/pedestal_group.md) to
+Indicator is found on the front cockpit [pedestal panel](../cockpit/pilot/pedestal_group.md) to
 confirm function, and indicates manifold pressure.
 
-![Pneumatics](../../img/Pneum.jpg)
+![Pneumatics](../img/Pneum.jpg)

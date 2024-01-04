@@ -58,7 +58,7 @@ the [front cockpit left vertical panel](../../cockpit/pilot/left_sub_panel.md#st
 
 Yaw axis control is directed by the rudder pedals found in both cockpits. To
 offset any relative skidding due to wind effect, stores imbalance, or minor
-[engine](engines.md) output deviation,
+[engine](../engines_and_fuel_systems/engines.md) output deviation,
 a [Rudder Trim Switch](../../cockpit/pilot/left_console/front_section.md#rudder-trim-switch) is
 found on
 the [engine control panel](../../cockpit/pilot/left_console/front_section.md#inboard-engine-control-panel)

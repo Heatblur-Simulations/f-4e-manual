@@ -60,7 +60,7 @@ The AN/APR-36 Control Panel controls the Radar Warning Receiver System of the Ph
 Radar Warning Receiver (subsequently RWR) is the F-4E's passive situational awareness
 system for detection of airborne and surface-to-air radar threats. The system captures signals from
 a pair of directional antennas installed at the aft of the fuselage. For further information
-see the [Radar Warning Receiver](../../systems/radar_warning_receiver.md)
+see the [Radar Warning Receiver](../../systems/defensive_systems/radar_warning_receiver.md)
 
 ## Angle of Attack Indexer
 
