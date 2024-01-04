@@ -1,9 +1,9 @@
 # Electrics
 
 The F-4E derives electrical power from a pair of AC generators driven by the [J79
-engines](../engines_and_fuel_systems/engines.md), a pair of AC to DC transformers, and a
+engines](../systems/engines_and_fuel_systems/engines.md), a pair of AC to DC transformers, and a
 battery for electrical functions
-with the [engines](../engines_and_fuel_systems/engines.md) offline. In addition, the Phantom
+with the [engines](../systems/engines_and_fuel_systems/engines.md) offline. In addition, the Phantom
 II can receive external
 electrical power from ground crew. The two generator arrangement, while normally
 working independently, includes a bus tie that can connect both buses together
