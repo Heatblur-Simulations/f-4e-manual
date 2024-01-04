@@ -10,7 +10,8 @@ it.
 
 ![RWRAz](../../img/RWRAz.jpg)
 
-The [Radar warning receiver](../../systems/defensive_systems/radar_warning_receiver.md) Azimuth Indicator shows you
+The [Radar warning receiver](../../systems/defensive_systems/radar_warning_receiver.md) Azimuth
+Indicator shows you
 all Radar sources that are visible to the Radar warning receiver. For further information see the
 [Radar Warning Receiver](../../systems/defensive_systems/radar_warning_receiver.md) chapter
 

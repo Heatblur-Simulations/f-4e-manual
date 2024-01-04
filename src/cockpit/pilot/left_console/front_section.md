@@ -118,7 +118,8 @@ This doesn't change the polarity of the video but the coding of the seeker itsel
 
 Three position switch with automatic return to center used to start the
 respective engine using the cartridge (if loaded), left or right.
-See [engine system chapter](../../../systems/Engines%20and%20Fuel%20Systems/engines.md#cartridge-mode-starting) for
+See [engine system chapter](../../../systems/Engines%20and%20Fuel%20Systems/engines.md#cartridge-mode-starting)
+for
 further detail on when to use the cartridge start.
 
 ### CADC Static Pressure Compensator Correction Switch
@@ -196,7 +197,7 @@ reticle can immediately be slewed to the
 Radar Boresight Line using the Cage Button, found on the inboard (right)
 throttle handle. Cage mode commands the radar into BST mode with a five mile
 range, and short pulse, and sets the firing circuit for the currently selected
-air to air weapon relative to the Pinky Switch. For
+air-to-air weapon relative to the Pinky Switch. For
 the [optical sight](../../../cockpit/pilot/dcsg_controls.md#sight-mode-knob),
 the command activates the respective elevation and azimuth tracking, roll mark, and
 range functions of the reticle for the chosen weapon, without the pilot having

@@ -1,8 +1,10 @@
 # Electrics
 
 The F-4E derives electrical power from a pair of AC generators driven by the [J79
-engines](../Engines%20and%20Fuel%20Systems/engines.md), a pair of AC to DC transformers, and a battery for electrical functions
-with the [engines](../Engines%20and%20Fuel%20Systems/engines.md) offline. In addition, the Phantom II can receive external
+engines](../Engines%20and%20Fuel%20Systems/engines.md), a pair of AC to DC transformers, and a
+battery for electrical functions
+with the [engines](../Engines%20and%20Fuel%20Systems/engines.md) offline. In addition, the Phantom
+II can receive external
 electrical power from ground crew. The two generator arrangement, while normally
 working independently, includes a bus tie that can connect both buses together
 to draw power from a single generator in case of failure.
@@ -25,7 +27,8 @@ also illuminate. However, in case both generators fail, no GEN OUT light will il
 A pair
 of [Generator Control Switches](../cockpit/pilot/right_console/front_section.md#generator-control-switches)
 are found on the [right console](../cockpit/pilot/right_console/front_section.md), one for
-each engine. These three position switches - ON (Forward), OFF, ON External (Aft) - control the state
+each engine. These three position switches - ON (Forward), OFF, ON External (Aft) - control the
+state
 of each respective generator. In the event of a possible generator failure, selecting OFF for the
 generator that is believed to be offline will cause the power bus to provide electricity from the
 remaining generator to the other half of the electrical system.
