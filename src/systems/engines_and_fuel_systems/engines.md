@@ -12,7 +12,7 @@ battery for initial power, or connection with an external power cart.
 ![FFI](../../img/FFI.jpg)
 
 Each engine has a fuel flow indicator found in the [front cockpit instrument
-panel.](../../cockpit/pilot/right_main_panel.md#fuel-flow-gauges) The indicators read in thousands
+panel](../../cockpit/pilot/right_main_panel.md#fuel-flow-gauges). The indicators read in thousands
 of pounds per hour, from 0 to 12. The indicators provide flow rate up to Mil power; when afterburner
 is engaged, a separate fuel delivery system is used to provide fuel directly to the
 afterburner stage, and the flow rate is approximately 4 times the value shown. Fuel Flow should not
@@ -68,7 +68,7 @@ the respective engine.
 
 Engine ignition for startup is performed using a pair of spark plugs on each
 engine, activated by pressing the red Ignition Button found on the rear of [both
-throttle levers.](../../cockpit/pilot/left_console/front_section.md#throttles) The button is
+throttle levers](../../cockpit/pilot/left_console/front_section.md#throttles). The button is
 depressed as part of the starting sequence to ignite the spark plugs, initiating combustion in
 chambers four and five of the engines.
 

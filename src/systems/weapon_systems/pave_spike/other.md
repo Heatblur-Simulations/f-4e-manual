@@ -161,4 +161,4 @@ altitude high speed flight, such as overflights at 1,000 ft with 500 knots.
 
 ## Checklists
 
-For Checklists see the [Pave Spike procedure chapter.](../../../procedures/pave_spike.md#turn-on)
+For Checklists see the [Pave Spike procedure chapter](../../../procedures/pave_spike.md#turn-on).
