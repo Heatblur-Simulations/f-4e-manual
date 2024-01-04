@@ -2,16 +2,7 @@
 
 ![ext_cockpit](../img/ext_cockpits.jpg)
 
-Greetings, phaboulus Crewman! Get ready for an in-depth look into the cockpit of the legendary
-F-4E Phantom II by Heatblur. This chapter is your backstage pass to every button, switch, and light
-that makes this aircraft the world's largest distributor of MIG Parts.
-
-In the pilot's cockpit, we'll break down the essentials — from the slick ejection seat to the
-control panels. Each part plays a key role in helping the pilot stay on top of things in the
-fast-paced world of aerial combat.
-
-In the Weapons System Officer's (WSO) cockpit, it's all about managing information and teamwork.
-We'll explore the radar systems, communication tools, and displays that help the WSO handle the
-aircraft's weapons and electronic warfare capabilities. As we go through this, we won't miss a
-single light or button, giving you the lowdown on what makes the F-4E Phantom II such a versatile
-and effective machine.
+Greetings, phaboulus Crewman! Get ready for an in-depth look into the cockpit of the F-4E Phantom II
+by Heatblur. In the following chapter you will find a short overview of the Pilots cockpit as well
+as the Weapons Systems Officer (WSO) Pit. A more detailed System Overview is available in
+the [Systems Overview Chapter.](../systems/overview.md)
