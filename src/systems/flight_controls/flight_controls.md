@@ -1,4 +1,4 @@
-# Flight Control surfaces and system
+# Flight Control Surfaces and System
 
 ![ext_view_flight_controls](../../img/ext_flight_controls.jpg)
 

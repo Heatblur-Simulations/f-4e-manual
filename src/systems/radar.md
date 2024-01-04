@@ -185,7 +185,7 @@ against the fighter), whereas values from 0 to 9 heading clockwise are for closi
 is used in manual track mode by bracketing the desired track with the acquisition cursor, selecting
 half-action to show the range strobe, adjusting the position of the cursor to place the strobe just
 below the target, applying a Manual Vc rate that keeps the range strobe moving at the same rate as
-the target, and then selecting full-action. The numbers are multiplied by x100 m/s while closure
+the target, and then selecting full-action. The numbers are multiplied by 100 m/s while closure
 means closing in to the F-4 and opening means the target is flying away from the F-4.
 
 ### Pulse Switch

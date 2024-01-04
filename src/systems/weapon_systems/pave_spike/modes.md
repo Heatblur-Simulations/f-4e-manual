@@ -74,7 +74,7 @@ Note that the pod is not capable of computing a slant range for targets above
 the own aircraft altitude (for example when attacking up-hill). Since that is
 measured using the barometric altitude, depending on the pressure-setting, this
 can lead to erratic behavior during hot days when flying low. Problematic
-situations like this were commonly referred to as _Idiot_ mode, as the tracking
+situations like this were commonly referred to as _Idiot mode_, as the tracking
 system started to behave very odd and it was very difficult to restore proper
 behavior. The crew often had to deactivate the INS integration temporarily in
 order to disable the automatic tracking.
