@@ -119,7 +119,7 @@
   - [AGM-45 Shrike](./procedures/agm_45.md)
   - [AGM-65 Maverick](./procedures/agm-65.md)
   - [Bombs](./procedures/bombs/overview.md)
-    - [Direct Delivery](./procedures/bombs/bombs_direct_delivery.md)
+    - [Direct](./procedures/bombs/bombs_direct_delivery.md)
     - [Dive Toss and Dive Laydown](./procedures/bombs/bombs_dive_toss_and_laydown.md)
     - [Laydown](./procedures/bombs/bombs_laydown.md)
     - [Loft](./procedures/bombs/bombs_loft.md)
