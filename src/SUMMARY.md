@@ -48,7 +48,7 @@
     - [Primary Flight Instruments](./systems/flight_controls_gear/primary_flight_instruments.md)
     - [Flight Controls](./systems/flight_controls_gear/flight_controls.md)
     - [Gear & Ground Handling](./systems/flight_controls_gear/gear_ground_handling.md)
-  - [Engines and Fuel Systems](./systems/flight_controls_gear/overview.md)
+  - [Engines and Fuel Systems](./systems/engines_and_fuel_systems/overview.md)
     - [Engines](./systems/engines_and_fuel_systems/engines.md)
     - [Fuel System](./systems/engines_and_fuel_systems/fuel_system.md)
   - [Navigation & Communication](./systems/nav_com/overview.md)
