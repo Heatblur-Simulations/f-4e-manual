@@ -10,7 +10,7 @@ the emitting radar. Further processing of the received radiation references the 
 catalog to ascertain emitter type, as well as to define a relative threat range as a function of
 received power versus known output.
 
-![pilot_rwr](../img/RWRAz.jpg)
+![pilot_rwr](../../img/RWRAz.jpg)
 
 The resulting processed threat signal is then presented on the RWR's CRT display, with bearing to
 the emitter shown on the display with the top relative to the nose (12 o'clock) and the bottom the
@@ -25,7 +25,7 @@ event is signified by a circle around the emitter symbol.
 
 ## ALR-46 Controls
 
-![pilot_rwr_control_panel](../img/wso_an_apr_36.jpg)
+![pilot_rwr_control_panel](../../img/wso_an_apr_36.jpg)
 
 ### RWR Display Intensity Knob
 

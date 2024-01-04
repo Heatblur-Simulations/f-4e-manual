@@ -98,7 +98,7 @@ Once jettisoned, the handle is released back into its normal position.
 ### Stability Augmentation Channel Switches (Yaw/Roll/Pitch)
 
 Three two-position switches enable individual channels
-of [stability augmentation](../../../systems/flight_controls/flight_controls.md#stability-augmentation-system)
+of [stability augmentation](../../../systems/flight_controls_gear/flight_controls.md#stability-augmentation-system)
 for Yaw, Roll, and Pitch. ENGAGE (forward) sets the respective chanel stability
 augmentation on.
 
