@@ -1,4 +1,4 @@
-# Bombs - Loft
+# Bomb Delivery - Loft
 
 | Step | System                 | Action          |
 |------|------------------------|-----------------|

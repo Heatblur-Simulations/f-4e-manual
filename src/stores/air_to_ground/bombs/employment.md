@@ -1,8 +1,8 @@
 # Employment
 
-The Phantom has a wide range of weapon modes to employ bombs. Most Modes will need the WSO to make
-Inputs into the ARBCS/WRCS. For assistance in calculation
-see [Bombing Calculator Chapter.](../../../dcs/bombing_computer.md)
+The Phantom has a wide range of weapon modes to employ bombs. Most modes will need the WSO to make
+inputs into the ARBCS/WRCS. For assistance in calculation
+see [Bombing Calculator Chapter](../../../dcs/bombing_computer.md).
 
 ## LOFT
 

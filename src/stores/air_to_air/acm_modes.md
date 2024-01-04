@@ -43,7 +43,7 @@ in B, it does not preclude a later entry into Cage mode.
 
 Once in Cage mode, the radar can be selected in to Computer Automatic
 Acquisition using
-the [Nose Gear Steering button](../../systems/flight_controls/gear_ground_handling.md#nose-gear-steering).
+the [Nose Gear Steering button](../../systems/flight_controls_gear/gear_ground_handling.md#nose-gear-steering).
 In CAA, the radar enters a
 vertical-oriented scan pattern 78 degrees in height by 15 degrees high. Actual
 radar lock capability within this scan pattern is from +45 degrees above the
@@ -51,7 +51,7 @@ horizon line to -9 degrees below the horizon line due to APQ software
 limitation. In the event that the radar finds a suitable target within the scan
 volume, the target will be locked. Should the flight crew find the locked target
 not be the one intended,
-the [Nose Gear Steering button](../../systems/flight_controls/gear_ground_handling.md#nose-gear-steering)
+the [Nose Gear Steering button](../../systems/flight_controls_gear/gear_ground_handling.md#nose-gear-steering)
 can be pressed on either
 stick grip to return the radar back to the search pattern.
 

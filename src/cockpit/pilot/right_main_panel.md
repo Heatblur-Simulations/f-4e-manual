@@ -10,9 +10,10 @@ it.
 
 ![RWRAz](../../img/RWRAz.jpg)
 
-The [Radar warning receiver](../../systems/radar_warning_receiver.md) Azimuth Indicator shows you
+The [Radar warning receiver](../../systems/defensive_systems/radar_warning_receiver.md) Azimuth
+Indicator shows you
 all Radar sources that are visible to the Radar warning receiver. For further information see the
-[Radar Warning Receiver](../../systems/radar_warning_receiver.md) chapter
+[Radar Warning Receiver](../../systems/defensive_systems/radar_warning_receiver.md) chapter
 
 ## Azimuth-Elevation Indicator
 
@@ -85,7 +86,7 @@ the rest of the gauge. The lower tape counter readout includes all internal
 fuel, including cell 7 and the internal wing tanks, and is presented in 100 lb
 increments. In flight Jester assumes 6000 pounds for Joker and 4000 pounds for Bingo fuel.
 Cell 7 is used as a reserve cell. For more detailed information see the
-[Fuel system chapter.](../../systems/flight_controls/fuel_system.md)
+[Fuel system chapter](../../systems/engines_and_fuel_systems/fuel_system.md).
 
 ## Fuel Flow Gauges
 

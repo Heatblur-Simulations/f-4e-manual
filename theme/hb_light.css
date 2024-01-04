@@ -1,0 +1,105 @@
+.hb_light {
+  --bg: #ffffff;
+  --fg: #4c4f69;
+  --sidebar-bg: rgb(52, 49, 49);
+  --sidebar-fg: rgb(217, 217, 217);
+  --sidebar-non-existant: #9ca0b0;
+  --sidebar-active: #1e66f5;
+  --sidebar-spacer: #9ca0b0;
+  --scrollbar: #9ca0b0;
+  --icons: #9ca0b0;
+  --icons-hover: #8c8fa1;
+  --links: #2e2e2e;
+  --inline-code-color: #fe640b;
+  --theme-popup-bg: #e6e9ef;
+  --theme-popup-border: #9ca0b0;
+  --theme-hover: #9ca0b0;
+  --quote-bg: #e6e9ef;
+  --quote-border: #dce0e8;
+  --table-border-color: #dce0e8;
+  --table-header-bg: #e6e9ef;
+  --table-alternate-bg: #e6e9ef;
+  --searchbar-border-color: #dce0e8;
+  --searchbar-bg: #e6e9ef;
+  --searchbar-fg: #4c4f69;
+  --searchbar-shadow-color: #dce0e8;
+  --searchresults-header-fg: #4c4f69;
+  --searchresults-border-color: #dce0e8;
+  --searchresults-li-bg: #eff1f5;
+  --search-mark-bg: #fe640b;
+  --warning-border: #fe640b;
+  --mobile-nav-bg: rgb(243, 246, 246);
+  --mobile-nav-border: rgba(0, 0, 0, 0.1);
+  --menu-affix: rgb(113, 110, 123);
+  --menu-active: rgb(218, 218, 219);
+  --menu-text-hover: white;
+  --menu-main-chapter-hover: rgb(78, 74, 74);
+  --menu-inner-chapter-hover: rgb(177, 176, 176);
+  --menu-text-active: black;
+  --menu-main-chapter-active: rgb(252, 252, 252);
+  --menu-inner-chapter-active: rgb(115, 109, 109);
+  --menu-inner-chapter-active-text: #404040;
+  --menu-inner-bg: #e3e3e3;
+  --menu-inner-bg-2: #e3e3e3;
+  --menu-inner-bg-3: #bdbdbd;
+  --menu-inner-text: rgb(58, 58, 58);
+  --content-page-bg: rgba(0, 0, 0, 0.05);
+
+  --content-max-width: 800px;
+}
+
+.hb_light .chapter-item.affix {
+  background-color: var(--menu-affix);
+}
+
+.hb_light .chapter-item.affix a.active {
+  color: var(--menu-active);
+}
+
+.hb_light .chapter li a:hover {
+  color: var(--menu-text-hover);
+}
+
+.hb_light .chapter li.chapter-item:hover {
+  background-color: var(--menu-main-chapter-hover);
+}
+
+.hb_light .section li.chapter-item:hover {
+  background-color: var(--menu-inner-chapter-hover);
+}
+
+.hb_light .chapter li a.active {
+  color: var(--menu-text-active);
+}
+
+.hb_light .chapter .chapter-item.expanded {
+  background-color: var(--menu-main-chapter-active);
+}
+
+.hb_light .section .chapter-item.expanded {
+  background-color: var(--menu-inner-bg);
+}
+
+.hb_light .section .chapter-item.expanded a {
+  color: var(--menu-inner-chapter-active-text);
+}
+
+.hb_light .chapter-item.expanded a {
+  color: var(--menu-inner-text);
+}
+
+.hb_light .chapter ol {
+  background-color: var(--menu-inner-bg);
+}
+
+.hb_light .chapter ol a {
+  color: var(--menu-inner-text);
+}
+
+.hb_light .section ol {
+  background-color: var(--menu-inner-bg-2);
+}
+
+.hb_light .section ol > li > ol > li {
+  background-color: var(--menu-inner-bg-3);
+}

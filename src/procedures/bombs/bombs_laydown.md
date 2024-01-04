@@ -1,4 +1,4 @@
-# Bombs - Laydown
+# Bomb Delivery - Laydown
 
 | Step | System                         | Action          |
 |------|--------------------------------|-----------------|

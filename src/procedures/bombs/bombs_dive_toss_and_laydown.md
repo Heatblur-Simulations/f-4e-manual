@@ -1,4 +1,4 @@
-# Bombs - Dive Toss/Dive Laydown
+# Bomb Delivery - Dive Toss and Dive Laydown
 
 | Step | System                             | Action          |
 |------|------------------------------------|-----------------|

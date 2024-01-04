@@ -26,7 +26,7 @@ the engines are running.
 Two hydraulic pressure indicators are installed. One references the Utility
 Hydraulic System pressure, while the other references the PC-1 and PC-2
 Hydraulic Systems; the latter includes two needles, and are marked accordingly. For further
-information see the [hydraulics system chapter.](../../systems/flight_controls/hydraulics.md)
+information see the [hydraulics system chapter](../../systems/hydraulics.md).
 
 ## Rounds Remaining Indicator
 
@@ -50,7 +50,7 @@ Requires 38 full turns to move the pedals across the entire range.
 
 Provides cumulative manifold pressure of the compressed engine bleed air used to
 drive the aircraft's pneumatic actuated equipment. For further information see the [pneumatic system
-chapter.](../../systems/flight_controls/pneumatics.md)
+chapter](../../systems/pneumatics.md).
 
 ## Rate of fire Switch
 

@@ -90,4 +90,4 @@ cipher receive condition. Hence during cipher receive operation the UHF
 microphone button should not be actuated until the incoming message has been
 completed.
 
-For operations procedure see [Chapter KY-28 Operations.](../../procedures/ky_28_operations.md)
+For operations procedure see [Chapter KY-28 Operations](../../procedures/ky_28_operations.md).
