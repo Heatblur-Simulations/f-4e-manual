@@ -27,4 +27,4 @@ guided missiles.
 ![cm_dispenser](../img/cm_dispenser.jpg)
 
 Countermeasure dispensers holding chaff and flare. See the
-[defensive systems section](../systems/defensive_systems/countermeasures.md) for more.
+[countermeasures section](../systems/defensive_systems/countermeasures.md) for more.
