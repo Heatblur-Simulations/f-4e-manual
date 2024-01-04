@@ -366,7 +366,9 @@
   --menu-main-chapter-active: rgb(252, 252, 252);
   --menu-inner-chapter-active: rgb(115, 109, 109);
   --menu-inner-chapter-active-text: #404040;
-  --menu-inner-bg: rgb(201, 201, 201);
+  --menu-inner-bg: #e3e3e3;
+  --menu-inner-bg-2: #c9c9c9;
+  --menu-inner-bg-3: #bdbdbd;
   --menu-inner-text: rgb(58, 58, 58);
   --content-page-bg: rgba(0, 0, 0, 0.05);
 
@@ -394,7 +396,6 @@
 }
 .content {
   background-color: var(--bg) !important;
-
   min-height: 100vh;
   max-width: var(--content-max-width) !important;
   margin-left: 0px !important;
@@ -432,16 +433,12 @@ img {
   vertical-align: middle;
 }
 
-.section {
-  background-color: #b7b7b7 !important;
-}
-
 ol.section {
   padding-left: 0 !important;
 }
 
 ol.section ol {
-  background-color: #c9c9c9 !important;
+  background-color: #e3e3e3 !important;
   padding-left: 1em !important;
 }
 
@@ -520,3 +517,18 @@ ol.section ol {
 .chapter ol a {
   color: var(--menu-inner-text);
 }
+
+.chapter li.chapter-item {
+  line-height: 1.5em;
+  margin-block-start: 0px;
+}
+
+
+.section ol {
+  background-color: var(--menu-inner-bg-2);
+}
+
+.section ol > li > ol > li {
+  background-color: var(--menu-inner-bg-3);
+}
+
