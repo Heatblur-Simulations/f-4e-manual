@@ -1,4 +1,4 @@
-# Bomb Delivery - Direct Delivery
+# Bomb Delivery - Direct
 
 | Step | System                     | Action          |
 |------|----------------------------|-----------------|

@@ -26,7 +26,7 @@ whereas the yellow and black emergency jettison handle is found on the left in
 the same relative position. To open normally, the right side handle is pulled to
 the aft position; closing is performed by pushing it forward. Canopy jettison is
 initiated by pulling the emergency handle aft. The canopies are actuated by
-the [pneumatic system.](pneumatics.md)
+the [pneumatic system](pneumatics.md).
 
 ![pilot_canopy_handles](../img/pilot_canopy_handle.jpg)
 

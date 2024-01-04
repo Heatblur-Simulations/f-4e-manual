@@ -8,8 +8,14 @@ multilingual = false
 [output.html]
 git-repository-url = "https://github.com/Heatblur-Simulations/f-4e-manual"
 edit-url-template = "https://github.com/Heatblur-Simulations/f-4e-manual/edit/master/{path}"
-default-theme = "Navy"
-additional-css = ['theme/visual.css','theme/extra.css', 'theme/catppuccin.css', 'theme/catppuccin-admonish.css', 'theme/pdf.css']
+default-theme = "hb_light"
+preferred-dark-theme = "hb_dark"
+additional-css = [
+    'theme/visual.css',
+    'theme/hb_light.css',
+    'theme/hb_dark.css',
+    'theme/pdf.css'
+]
 mathjax-support = true
 
 [output.html.fold]
@@ -18,7 +24,7 @@ level = 0
 
 [output.pdf]
 optional = true
-theme = "Pdf"
+theme = "pdf"
 print-background = true
 display-header-footer = true
 header-template = "<h3 style='font-size:12px; margin-left: 42%' class='title'></h3>"

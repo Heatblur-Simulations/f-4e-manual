@@ -21,4 +21,4 @@ Knob to control the volume for weapon tones, such as the Sidewinder seeker head.
 ### Pull Up Tone
 
 Switch to toggle the tone played by
-the [Pull-Up system.](../../../systems/weapon_systems/arbcs.md#arbcs-indicators)
+the [Pull-Up system](../../../systems/weapon_systems/arbcs.md#arbcs-indicators).
