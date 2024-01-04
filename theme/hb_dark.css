@@ -30,5 +30,43 @@
   --search-mark-bg: #a2cff5;
   --color-scheme: dark;
 
+  --menu-affix: #2e3a5c;
+  --menu-main-chapter-active: #2e3a5c;
+  --menu-inner-bg: #1b1f2b;
+  --menu-inner-bg-2: #1b1f2b;
+  --menu-inner-bg-3: #1b1f2b;
+
   --content-max-width: 800px;
+}
+
+.hb_dark .chapter-item.affix {
+  background-color: var(--menu-affix);
+}
+
+.hb_dark .chapter li.chapter-item:hover {
+  background-color: var(--menu-main-chapter-hover);
+}
+
+.hb_dark .section li.chapter-item:hover {
+  background-color: var(--menu-inner-chapter-hover);
+}
+
+.hb_dark .chapter .chapter-item.expanded {
+  background-color: var(--menu-main-chapter-active);
+}
+
+.hb_dark .section .chapter-item.expanded {
+  background-color: var(--menu-inner-bg);
+}
+
+.hb_dark .chapter ol {
+  background-color: var(--menu-inner-bg);
+}
+
+.hb_dark .section ol {
+  background-color: var(--menu-inner-bg-2);
+}
+
+.hb_dark .section ol > li > ol > li {
+  background-color: var(--menu-inner-bg-3);
 }
