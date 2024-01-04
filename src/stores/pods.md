@@ -19,7 +19,7 @@ during daylight-conditions and using a laser to guide weapons on target. See the
 
 ![ext_alq_131_ecm_pod](../img/ext_alq_131_ecm_pod.jpg)
 
-Pod for electronic electronic countermeasures, such as jamming radars and radar
+Pod for electronic countermeasures, such as jamming radars and radar
 guided missiles.
 
 ## ALE-40 Dispenser
@@ -27,4 +27,4 @@ guided missiles.
 ![cm_dispenser](../img/cm_dispenser.jpg)
 
 Countermeasure dispensers holding chaff and flare. See the
-[defensive systems section](../systems/defensive_systems/countermeasures) for more.
+[defensive systems section](../systems/defensive_systems/countermeasures.md) for more.

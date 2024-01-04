@@ -118,7 +118,7 @@ This doesn't change the polarity of the video but the coding of the seeker itsel
 
 Three position switch with automatic return to center used to start the
 respective engine using the cartridge (if loaded), left or right.
-See [engine system chapter](../../../systems/Engines%20and%20Fuel%20Systems/engines.md#cartridge-mode-starting)
+See [engine system chapter](../../../systems/engines_and_fuel_systems/engines.md#cartridge-mode-starting)
 for
 further detail on when to use the cartridge start.
 
