@@ -16,6 +16,6 @@ system, incorporating inputs such as [INS
 velocities,](../nav_com/ins.md) [radar target range,](../radar.md) and manual inputs from cockpit
 controls.
 
-The [AWRU (Automatic Weapon Release Unit)](./awru.md) receives operational power when BOMBS or RKTS & DISP is
-selected on the weapon selector. The control panel features two INTRVL controls and a quantity (QTY)
-selector.
+The [AWRU (Automatic Weapon Release Unit)](./awru.md) receives operational power when BOMBS or
+RKTS & DISP is selected on the weapon selector. The control panel features two INTRVL controls and a
+quantity (QTY) selector.
