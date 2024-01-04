@@ -24,7 +24,7 @@ Internally, the computer contains the release switches, as well as the resolver
 to transmit the target angle values to the ADI director pointers.
 
 A calculator for the input values in-game is provided by
-the [bombing calculator.](../../dcs/bombing_computer.md)
+the [bombing calculator](../../dcs/bombing_computer.md).
 
 ![manual_loft_diagram](../../img/loft.jpg)
 
@@ -54,7 +54,7 @@ button. When the WRCS initiates timing, an audio tone is applied to signal timer
 start.
 
 A calculator for the input values in-game is provided by
-the [bombing calculator.](../../dcs/bombing_computer.md)
+the [bombing calculator](../../dcs/bombing_computer.md).
 
 ## ARBCS Indicators
 
