@@ -39,7 +39,7 @@ the fire control system relative to the [WRCS](../../../systems/weapon_systems/w
 point, in any duration from 0 to 999 milliseconds. Also functions in conjunction
 with [ARBCS/LABS](../../../systems/weapon_systems/arbcs.md) programmed release
 timing. The release advance control can be calculated with
-the [bombing calculator.](../../../dcs/bombing_computer.md)
+the [bombing calculator](../../../dcs/bombing_computer.md).
 
 ### Release Range Control
 
@@ -69,7 +69,7 @@ function. The result will illuminate in the NO GO/GO placard.
 Used for [WRCS](../../../systems/weapon_systems/wrcs.md) radar bombing mode target entry. Functions
 only with [MAP-PPI](../../../systems/radar.md#map-ppi) mode selected and applicable bombing mode
 selected on
-the [Delivery Mode Knob.](../../../cockpit/pilot/weapon_management.md#delivery-mode-knob)
+the [Delivery Mode Knob](../../../cockpit/pilot/weapon_management.md#delivery-mode-knob).
 
 ### Freeze Button
 

@@ -200,7 +200,7 @@ pointers indicate the VOR station.
 In the lower position, NAV COMP, the no. 1 pointer indicates bearing to the
 navigation computer target coordinates, and the no. 2 pointer indicates magnetic
 ground track. The range indicator notes distance to the selected target depending on the
-[Navigation Mode Selector Switch.](upfront_indicators.md#navigation-mode-selector-switch)
+[Navigation Mode Selector Switch](upfront_indicators.md#navigation-mode-selector-switch).
 
 ## Tachometers
 
@@ -219,7 +219,7 @@ Illuminates when canopy is unlocked. To reset the lamp close and lock the rear c
 ## Inertial Nav Sys Out Lamp
 
 Illuminates when INS system is in a failure state. To reset the INS refer to
-the [Inertial Navigation System chapter.](../../systems/nav_com/ins.md)
+the [Inertial Navigation System chapter](../../systems/nav_com/ins.md).
 
 ## Radar CNI Cool Off Lamp
 
