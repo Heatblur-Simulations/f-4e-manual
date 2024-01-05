@@ -126,7 +126,7 @@
 |      | a. System returns to search.                                                                             |                                          |
 | 8.   | Track switch                                                                                             | AUTO.                                    |
 | 9.   | Display                                                                                                  | VI.                                      |
-|      | a. B-sweep covers 3 bars on selected CAA corridor.                                                       |                                          | 
+|      | a. B-sweep covers 3 bars on selected CAA corridor.                                                       |                                          |
 |      | b. EL-strobe scans from -21° to +57°.                                                                    |                                          |
 | 10.  | Display                                                                                                  | B-wide.                                  |
 
