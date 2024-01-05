@@ -33,5 +33,3 @@
 |      | b. "To-from" indicator on HSI indicates TO.                                              |                                                   |
 |      | c. Marker beacon lights illuminate                                                       |                                                   |
 |      | d. Bearing pointers on HSI and BDHI swing to 315°                                        |                                                   |
-
-
