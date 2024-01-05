@@ -118,7 +118,7 @@
 | 9.   | Release range counter                                                                                                               | INCREASE (slowly until 1/3 second tone)                                                     |
 |      | a. Check timer accuracy.                                                                                                            |                                                                                             |
 |      | b. (P) Check LABS indications.                                                                                                      |                                                                                             |
-|      | c. Note difference between derived RR counter reading and preflight release/activation range and apply as correction to all ranges. |                                                                                             |   
+|      | c. Note difference between derived RR counter reading and preflight release/activation range and apply as correction to all ranges. |                                                                                             |
 |      | (1) For larger counter value, correction is+; for smaller counter value, the correction is-.                                        |                                                                                             |
 
 ### WRCS turn off
