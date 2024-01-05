@@ -35,7 +35,7 @@ increase release system accuracy.
 Used to enter the drag coefficient value for the weapon being used from the
 bombing tables for the intended release mode.
 
-Refer to the [bombing calculator](../../dcs/bombing_computer.md) for obtaining the value.
+Refer to the [bombing calculator](../../../dcs/bombing_computer.md) for obtaining the value.
 
 ### Release Advance Control
 

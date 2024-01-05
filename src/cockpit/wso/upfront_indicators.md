@@ -90,7 +90,7 @@ For further information see the
 ### Target Contrast Switch
 
 Used to select the appropriate contrast conditions for seeker acquisition with
-the [AGM-65A Maverick and AGM-65B Maverick](../../../stores/air_to_ground/missiles/maverick.md).
+the [AGM-65A Maverick and AGM-65B Maverick](../../stores/air_to_ground/missiles/maverick.md).
 
 | Name    | Description                                                               |
 |---------|---------------------------------------------------------------------------|

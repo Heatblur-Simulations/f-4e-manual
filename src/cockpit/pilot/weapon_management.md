@@ -25,7 +25,6 @@ available with the pod:
 In the SET position, the display shows the desired release range used in the ROR
 mode. The knob below the readout can be used to adjust this range.
 
-
 ## Head Up Display Indicators
 
 ![HUD](../../img/HUD.jpg)
