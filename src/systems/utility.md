@@ -20,13 +20,17 @@ A detailed chart of the Oxygen duration is provided here:
 
 ![ext_canopy_open](../img/ext_canopy_open.jpg)
 
-The canopies are controlled independently between the two cockpits; handles for
-standard opening and closing are found on the right side of each cockpit,
-whereas the yellow and black emergency jettison handle is found on the left in
-the same relative position. To open normally, the right side handle is pulled to
-the aft position; closing is performed by pushing it forward. Canopy jettison is
-initiated by pulling the emergency handle aft. The canopies are actuated by
-the [pneumatic system](pneumatics.md).
+The canopies are actuated by the [pneumatic system](pneumatics.md).
+They are controlled independently between the two cockpits; handle for
+standard opening and closing is found on the left side of each cockpit,
+next to it there is the yellow and black emergency jettison handle.
+On the right side of the cockpit, in the same relative position,
+is the manual unlock lever which can be used to unlock the canopy
+in case of pneumatic system failure.
+Each cockpit employs an inflatable
+canopy seal to seal the canopies for cockpit pressurization.
+The canopy seals are automatically inflated and deflated
+upon opening and closing of the canopies by using [bleed air system](bleed_air.md).
 
 ![pilot_canopy_handles](../img/pilot_canopy_handle.jpg)
 
