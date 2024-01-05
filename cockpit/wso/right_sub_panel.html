@@ -183,6 +183,8 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="right-sub-panel"><a class="header" href="#right-sub-panel">Right Sub-Panel</a></h1>
+<p>The right sub panel contains controls for jamming, encryption and
+various settings for manual bomb delivery.</p>
 <h2 id="eject-lightswitch"><a class="header" href="#eject-lightswitch">Eject Light/Switch</a></h2>
 <p><img src="../../img/wso_eject_light.jpg" alt="wso_eject_light" /></p>
 <p>Pressed by the WSO in an emergency condition requiring ejection from the
@@ -197,21 +199,60 @@ the <a href="../../systems/nav_com/encryption.html">Encryption chapter</a>.</p>
 <h2 id="ecm-controls"><a class="header" href="#ecm-controls">ECM Controls</a></h2>
 <p><img src="../../img/ecm.jpg" alt="ecm" /></p>
 <p>Controls for the electronic counter-measurement and jamming system.</p>
+<p>The left panel is connected to the left missile well adapter, the right panel
+to the right missile well adapter.</p>
+<p>Interpretation of the modes, techniques and exact operation of the lights
+depend on the loaded jammer model. See <a href="../../stores/pods.html#alq-131-ecm-pod">ECM Pod</a>
+for details.</p>
+<h3 id="mode-knob"><a class="header" href="#mode-knob">Mode Knob</a></h3>
+<p><img src="../../img/wso_ecm_mode_knob.jpg" alt="ecm" /></p>
+<p>Sets the mode of the jammer to operate in:</p>
+<div class="table-wrapper"><table><thead><tr><th>Mode</th><th>Description</th></tr></thead><tbody>
+<tr><td>OFF</td><td>Turned off, no transmission</td></tr>
+<tr><td>STBY</td><td>Starting the warmup, no transmission (200s for ALQ-131)</td></tr>
+<tr><td>XMIT 1</td><td>Transmitting and jamming using technique 1</td></tr>
+<tr><td>XMIT 2</td><td>Transmitting and jamming using technique 2</td></tr>
+<tr><td>BOTH</td><td>Transmitting and jamming using technique 1 and 2</td></tr>
+</tbody></table>
+</div>
+<p>Use on the ground is prohibited since it could otherwise endanger personnel.</p>
+<h3 id="stby-lights"><a class="header" href="#stby-lights">STBY Lights</a></h3>
+<p>The two lights indicate that the corresponding jammer technique is
+done warming up and can now be used by switching to XMIT.</p>
+<p>The warmup period is roughly 200s for the ALQ-131 pod.</p>
+<h3 id="xmit-lights"><a class="header" href="#xmit-lights">XMIT Lights</a></h3>
+<p>The two lights indicate that the corresponding jammer technique is
+currently active and transmitting.</p>
+<h3 id="ai-light"><a class="header" href="#ai-light">AI Light</a></h3>
+<p>Indicates that a radar has been detected and is actively jammed.</p>
+<p>Due to DCS limitations, this is currently not simulated in-game.</p>
+<h3 id="reset-button-and-lamp"><a class="header" href="#reset-button-and-lamp">Reset Button and Lamp</a></h3>
+<p><img src="../../img/wso_ecm_reset.jpg" alt="ecm" /></p>
+<p>The reset lamp, if lit, indicates a fault in the jammer system.
+Flashing indicates an overheating condition, in which case the pod
+should be turned off to prevent damage.</p>
+<p>In case of a fault, the reset button can be pressed to reset the
+jammer system (similar to turning it OFF and back ON), in which case it will
+run through the warmup period again. If the fault could be cleared, the light will go off.</p>
 <h2 id="bomb-release-angle-computer"><a class="header" href="#bomb-release-angle-computer">Bomb Release Angle Computer</a></h2>
 <p>Used to enter the required angle values for <a href="../../systems/weapon_systems/arbcs.html">ARBCS/LABS</a>
 bombing modes; the Low Angle control may be set from 0 to 89.9 degrees, and the High Angle control
-may be set from 70 to 179.9 degrees. The Angle control is used
+may be set from 70 to 179.9 degrees.</p>
+<p>The Angle control is used
 for <a href="../../stores/air_to_ground/bombs/employment.html#instantaneous-over-the-shoulder---inst-os">over-the-shoulder bombing,</a>
 whilst low angle is used for <a href="../../stores/air_to_ground/bombs/employment.html#loft">LOFT bombing</a>.
-For calculations of the angles we provide a <a href="../../dcs/bombing_computer.html">bombing calculator</a>.</p>
+For calculations of the angles see the <a href="../../dcs/bombing_computer.html">bombing calculator</a>.</p>
 <p><img src="../../img/wso_bomb_release_angle.jpg" alt="wso_labs_angle" /></p>
 <h2 id="bombing-timers"><a class="header" href="#bombing-timers">Bombing Timers</a></h2>
-<p>Entry of applicable timing for pull-up signal or release are performed with the
-Bombing Timers. The Pull-up timer may be set from 0 to 60 seconds, and the
-Release timer may be set from 0 to 30 seconds. Minimum increment for each timer
-is 0.1 seconds. The Bombing timers may be used for
-every <a href="../../stores/air_to_ground/bombs/employment.html">timed employment method</a>.</p>
 <p><img src="../../img/wso_bombing_timers.jpg" alt="wso_release_timers" /></p>
+<p>Entry of applicable timing for pull-up signal or release are performed with the
+Bombing Timers.</p>
+<p>The Pull-up timer may be set from 0 to 60 seconds, and the
+Release timer may be set from 0 to 30 seconds. Minimum increment for each timer
+is 0.1 seconds.</p>
+<p>The Bombing timers may be used for every
+<a href="../../stores/air_to_ground/bombs/employment.html">timed employment method</a>.</p>
+<p>See the <a href="../../dcs/bombing_computer.html">bombing calculator</a> for how to calculate the number.</p>
 
                     </main>
 

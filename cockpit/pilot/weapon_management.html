@@ -184,6 +184,23 @@
                     <main>
                         <h1 id="weapon-management"><a class="header" href="#weapon-management">Weapon Management</a></h1>
 <p><img src="../../img/MwsGroup.jpg" alt="MwsGroup" /></p>
+<p>This group on the left area of the main panel provides all
+weapon related settings, such as arming missiles or selecting
+the bomb delivery mode.</p>
+<h2 id="range-indicator"><a class="header" href="#range-indicator">Range Indicator</a></h2>
+<p><img src="../../img/range_indicator.jpg" alt="range_indicator" /></p>
+<p>This panel provides the pilot with a readout of the slant range measured by the
+<a href="../../systems/weapon_systems/pave_spike/overview.html">Pave Spike</a> Targeting Pod (x100 ft).</p>
+<p>When the Test-Button is pressed, the display shows 888, the knob underneath it
+controls the brightness of the readout.</p>
+<p>The Mode-Knob allows the pilot to select one of two weapon delivery modes
+available with the pod:</p>
+<ul>
+<li>WRCS - Automatic Delivery</li>
+<li>ROR - Release on Range</li>
+</ul>
+<p>In the SET position, the display shows the desired release range used in the ROR
+mode. The knob below the readout can be used to adjust this range.</p>
 <h2 id="head-up-display-indicators"><a class="header" href="#head-up-display-indicators">Head Up Display Indicators</a></h2>
 <p><img src="../../img/HUD.jpg" alt="HUD" /></p>
 <p>The Head Up Display indicator panel provides weapon status for the Master Arm
@@ -238,6 +255,7 @@ completed. L and R positions are left and right, respectively, with O denoting
 outboard and I denoting inboard stations. The centerline weapon position is CL,
 and the nose gun is armed with the GUN station selector button.</p>
 <p><img src="../../img/ext_pylons.jpg" alt="ext_pylons" /></p>
+<h3 id="dimmer-knob"><a class="header" href="#dimmer-knob">Dimmer Knob</a></h3>
 <p>A dimmer knob is also provided to raise or lower the lighting of the station
 select buttons relative to current cockpit conditions. If the Flight Instrument
 Brightness Knob above it is set to the full CCW position, it overrides the
@@ -295,11 +313,15 @@ affect tuning status of radar guided weapons. Positions are as follows:</p>
 <p>Provides timed interval release scheduling of single or multiple bombs or
 rockets and dispensed munitions based on the selections made between the
 interval knob, the QTY (quantity) knob and the INTRVL switch.</p>
+<h3 id="interval-knob"><a class="header" href="#interval-knob">Interval Knob</a></h3>
 <p>The interval knob provides release pulse sequences between 0.05 second and 1
 second.</p>
+<h3 id="interval-switch"><a class="header" href="#interval-switch">Interval Switch</a></h3>
 <p>The INTRVL switch provides the option of a 10x multiplier of the set value of
 the interval knob. In the NORM position, the interval knob value is the trigger
-timer. The quantity knob functions as follows:</p>
+timer.</p>
+<h3 id="quantity-knob"><a class="header" href="#quantity-knob">Quantity Knob</a></h3>
+<p>Controls how many stores are released per impulse.</p>
 <p>Selecting &quot;1&quot; places the AWRU into single manual bombing mode; one push of the
 bomb release button releases one bomb.</p>
 <p>Selecting a value from &quot;2&quot; to &quot;18&quot; sets the AWRU into single ripple mode; in
@@ -322,9 +344,11 @@ two seconds the pickle button is held down.</p>
 <p><img src="../../img/pilot_missile_status_light.jpg" alt="MSL" /></p>
 <p>The Missile Status Light window provides confirmation of currently installed and
 configured air-to-air missiles.</p>
+<h3 id="radar-lights"><a class="header" href="#radar-lights">Radar Lights</a></h3>
 <p>The RDR lights illuminate once AIM-7 missiles are properly tuned with the fire
 control system; any station that does not carry a Sparrow, does not correctly
 sync up during tuning, or is launched, will turn off.</p>
+<h3 id="heat-lights"><a class="header" href="#heat-lights">Heat Lights</a></h3>
 <p>The HEAT lights illuminate one at a time, rather than all up upon circuit
 configuration. The light of the currently selected station will illuminate
 beginning at the raising of the gear handle, and remain in that position until
@@ -361,17 +385,20 @@ is pulled.</p>
 <h2 id="selective-jettison-control"><a class="header" href="#selective-jettison-control">Selective Jettison Control</a></h2>
 <p><img src="../../img/SelJet.jpg" alt="SelJet" /></p>
 <p>The Selective Jettison Control knob provides the pilot direct access to dump
-stores on a position by position basis, or immediate release of
-all single carried air to ground, MER/TER stored, or LAU-88 launcher-mounted
-round at once.</p>
+stores on a position by position basis.</p>
+<p>The pilot selects the desired position by rotating the knob and then presses
+the button on its front to jettison the selected stores.</p>
 <div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
 <tr><td>OFF</td><td>Safes PUSH TO JETT button on the Selective Jettison Control Panel.</td></tr>
-<tr><td>STORES</td><td>Releases all MER/TER, single carried, LAU-88 mounted rounds, or drop tanks upon PUSH TO JETT.</td></tr>
+<tr><td>STORES</td><td>Releases all MER/TER, single carried, LAU-88 mounted rounds, or drop tanks currently selected on the station buttons upon PUSH TO JETT.</td></tr>
 <tr><td>L/R FWD</td><td>Jettisons AIM-7 from respective position on PUSH TO JETT. Inhibited if CL TK ON.</td></tr>
 <tr><td>L/R AFT</td><td>Jettisons AIM-7 from respective position on PUSH TO JETT.</td></tr>
 <tr><td>L/R WING</td><td>In conjunction with TV or ARM, jettisons single AGM-65 Maverick or AGM-45 Shrike from wing on PUSH TO JETT.</td></tr>
 </tbody></table>
 </div>
+<p>As example, to jettison the right and left external fuel tanks, the pilot must
+select <em>STORES</em> on the knob, press the corresponding station select buttons <em>LO</em>, <em>RO</em>
+and then push the jettison button.</p>
 <h2 id="recorder-lamp"><a class="header" href="#recorder-lamp">Recorder Lamp</a></h2>
 <p><img src="../../img/pilot_recorder_lamp.jpg" alt="pilot_recorder_lamp" /></p>
 <p>This dimmable lamp is lit to indicate operation of the
