@@ -50,14 +50,14 @@ overall scope display.
 
 Sets the current mode of the DSCG components.
 
-| Name      | Description                                                                      |
-|-----------|----------------------------------------------------------------------------------|
-| OFF       | Turns off DSCG display and de-powers all DSCG components.                        |
-| STBY      | Powers DSCG components, DSCG display remains off. Used for takeoff and landing   |
-| DSCG TEST | Displays search display image with 8 shades of grey to confirm normal operation. |
-| RDR BIT   | Provides BIT sequence test grids for calibration of radar performance.           |
-| RDR       | Used for radar display functionality in all employment modes.                    |
-| TV        | Used for TV raster imagery with EO weapons, aswell as targeting pods.            |
+| Name      | Description                                                                                                                |
+|-----------|----------------------------------------------------------------------------------------------------------------------------|
+| OFF       | Turns off DSCG display and de-powers all DSCG components.                                                                  |
+| STBY      | Powers DSCG components, DSCG display remains off. Used for takeoff and landing                                             |
+| DSCG TEST | Displays a test search display image with 8 shades of grey to confirm normal operation. Select Range 10 for proper sizing. |
+| RDR BIT   | Provides BIT sequence test grids for calibration of radar performance.                                                     |
+| RDR       | Used for radar display functionality in all employment modes.                                                              |
+| TV        | Used for TV raster imagery with EO weapons, aswell as targeting pods.                                                      |
 
 ## Target Designator Control Set
 

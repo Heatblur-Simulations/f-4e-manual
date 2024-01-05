@@ -131,6 +131,8 @@
     - [Radar Air-to-Air BIT Procedures](./procedures/bit_tests/radar_air_to_air.md)
     - [Radar Air-to-Ground BIT Procedures](./procedures/bit_tests/radar_air_to_ground.md)
     - [WRCS BIT Procedures](./procedures/bit_tests/wrcs.md)
+    - [Navigation Test Procedures](./procedures/bit_tests/navigation_tests.md)
+    - [Optical Sight BIT Procedure](./procedures/bit_tests/optical_sight.md)
 - [DCS](./dcs/overview.md)
   - [Embedded Manual](./dcs/embedded_manual.md)
   - [Bombing Computer](./dcs/bombing_computer.md)

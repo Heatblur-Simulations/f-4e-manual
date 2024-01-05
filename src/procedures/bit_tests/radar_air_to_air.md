@@ -29,13 +29,13 @@
 | 13.  | Stab Switch                                 | NOR                  |
 | 14.  | Radar Power Knob                            | STBY                 |
 
-// TODO Pic
+![manual_radar_air_to_air_bit_0](../../img/manual_radar_bit_air_to_air_0.jpg)
 
 ## BIT 1 Minimum Discernible Signal, Lockon Sensitivity, Range Track Memory
 
 | Step | System                                                             | Action                                               |
 |------|--------------------------------------------------------------------|------------------------------------------------------|
-| 1.   | Test knob                                                          | 1                                                    |
+| 1.   | Test knob                                                          | Set 1                                                |
 | 2.   | Radar power knob                                                   | TEST                                                 |
 |      | a. Monitor meter (RDR MAG)                                         | Indicates 1.4 to 1.8.                                |
 |      | b. Horizon line                                                    | Within limit markers as shown.                       |
@@ -46,9 +46,9 @@
 | 5.   | Move range strobe down while holding full action.                  |                                                      |
 |      | a. Range strobe locks on before passing seven targets.             |                                                      |
 |      | b. Maintain lockon for 5 seconds.                                  |                                                      |
-| 6.   | Test knob                                                          | 0                                                    |
+| 6.   | Test knob                                                          | Set 0                                                |
 |      | a. System unlocks in 4 to 6 seconds.                               |                                                      |
-| 7.   | Test knob                                                          | 1                                                    |
+| 7.   | Test knob                                                          | Set 1                                                |
 | 8.   | Pulse switch                                                       | SHORT                                                |
 |      | a. Monitor meter (RDR MAG)                                         | Indicates 0.9 to 1.15.                               |
 |      | b. Minimum targets                                                 | Eight targets visible in search.                     |
@@ -69,23 +69,24 @@
 |      | b. Range rate 900 ±200 knots                                       |                                                      |
 |      | c. Break lock                                                      |                                                      |
 
+![manual_radar_air_to_air_bit_1](../../img/manual_radar_bit_air_to_air_1.jpg)
+
 ## BIT 2 Range Track Acceleration, Antenna Position
 
-| Step | System                                            | Action                                    |
-|------|---------------------------------------------------|-------------------------------------------|
-| 1.   | Test knob                                         | 2                                         |
-| 2.   | Lock on 10th target                               |                                           |
-|      | a. System breaks lock in less than 30 seconds.    |                                           |
-| 3.   | Lock on second target                             |                                           |
-|      | a. System maintains lock for at least 30 seconds. |                                           |
-|      | b. Range rate readout 900 ±200 knots              |                                           |
-| 4.   | Break lock                                        |                                           |
-| 5.   | Pulse switch                                      | AUTO                                      |
-|      | **BEACON CHECK**                                  |                                           |
-| 6.   | Radar mode knob                                   | BEACON                                    |
-|      |                                                   | a. BIT targets disappear and at least one |
-|      |                                                   | beacon target reappears.                  |
-| 7.   | Radar mode knob                                   | MAP                                       |
+| Step | System                                                             | Action |
+|------|--------------------------------------------------------------------|--------|
+| 1.   | Test knob                                                          | Set 2  |
+| 2.   | Lock on 10th target                                                |        |
+|      | a. System breaks lock in less than 30 seconds.                     |        |
+| 3.   | Lock on second target                                              |        |
+|      | a. System maintains lock for at least 30 seconds.                  |        |
+|      | b. Range rate readout 900 ±200 knots                               |        |
+| 4.   | Break lock                                                         |        |
+| 5.   | Pulse switch                                                       | AUTO   |
+|      | **BEACON CHECK**                                                   |        |
+| 6.   | Radar mode knob                                                    | BEACON |
+|      | a. BIT targets disappear and at least one beacon target reappears. |        |
+| 7.   | Radar mode knob                                                    | MAP    |
 
 ![manual_radar_air_to_air_bit_2](../../img/manual_radar_bit_air_to_air_2.jpg)
 
@@ -93,7 +94,7 @@
 
 | Step | System                                                                                                       | Action |
 |------|--------------------------------------------------------------------------------------------------------------|--------|
-| 1.   | Test knob                                                                                                    | 3      |
+| 1.   | Test knob                                                                                                    | Set 3  |
 |      | a. B-sweep and EL strobe at 0 ±0.2° (before lockon).                                                         |        |
 | 2.   | Lock on fourth target                                                                                        |        |
 |      | a. Aim dot rotates between ASE circle and the segmented circle (not exceeding either by more than 1/4 inch). |        |
@@ -110,7 +111,7 @@
 
 | Step | System                                                                                                   | Action                                   |
 |------|----------------------------------------------------------------------------------------------------------|------------------------------------------|
-| 1.   | Test knob                                                                                                | 4 (figure a).                            |
+| 1.   | Test knob                                                                                                | Set 4 (figure a).                        |
 |      | a. All BIT targets disappear but lockon presentation remains.                                            |                                          |
 |      | b. H light ON                                                                                            |                                          |
 |      | c. Range rate readout flashing, indicates 900 ±.200 knots, and last digit is replaced with the letter H. |                                          |
@@ -132,43 +133,44 @@
 
 ![manual_radar_air_to_air_bit_4a](../../img/manual_radar_bit_air_to_air_4a.jpg) _Figure a_
 
-![manual_radar_air_to_air_bit_4b](../../img/manual_radar_bit_air_to_air_4b.jpg)_Figure b_
+![manual_radar_air_to_air_bit_4b](../../img/manual_radar_bit_air_to_air_4b.jpg) _Figure b_
 
 ## BIT 5 Range Rate Noise, PLMS, CAA
 
-| Step | System                                                               | Action                           |
-|------|----------------------------------------------------------------------|----------------------------------|
-| 1.   | Test knob                                                            | 5                                |
-| 2.   | Lock on third target                                                 |                                  |
-|      | a. Range rate readout 0 ± 300 knots.                                 |                                  |
-|      | b. Aim dot inside of ASE circle.                                     |                                  |
-|      | c. ASE circle 0.56 inch diameter.                                    |                                  |
-| 3.   | Break lock                                                           |                                  |
-| 4.   | Pulse switch                                                         | SHORT                            |
-| 5.   | (P) Sight mode knob                                                  | A/A                              |
-| 6.   | Radar mode knob                                                      | BST                              |
-| 7.   | Range knob                                                           | AI 5                             |
-| 8.   | (P) Auto acq button                                                  | PRESS and RELEASE                |
-|      | a. Radar locks on first target                                       |                                  |
-| 9.   | (P) Auto acq button                                                  | PRESS and RELEASE                |
-|      | a. Radar breaks lock, range gate sweeps to next target and locks on. |                                  |
-|      | b. Repeat this step through all targets.                             |                                  |
-| 10.  | Air-to-air button                                                    | PRESS                            |
-|      | a. Air-to-air light                                                  | OFF                              |
-|      | b. Radar control transfers to RCP.                                   |                                  |
-| 11.  | Break lockon                                                         |                                  |
-| 12.  | Radar mode knob                                                      | MAP                              |
-| 13.  | Range knob                                                           | AI 25                            |
-| 14.  | Pulse switch                                                         | LONG                             |
-| 15.  | Lock on fifth target                                                 | a. RDR MAG indicates 1.4 to 1.8. |
-| 16.  | Pulse switch                                                         | AUTO                             |
-|      | a. RDR MAG indicates 0.9 to 1.15 (PLMS).                             |                                  |
-| 17.  | Aspect knob                                                          | TAIL                             |
-|      | a. Range rate readout displays fighter heading (0°-360°)             |                                  |
-| 18.  | Display knob                                                         | VI                               |
-|      | a. Updates fighter heading   display.                                |                                  |
-| 19.  | Display knob                                                         | B-WIDE                           |
-|      | a. Discontinues fighter  heading update.                             |                                  |
+| Step | System                                                               | Action            |
+|------|----------------------------------------------------------------------|-------------------|
+| 1.   | Test knob                                                            | Set 5             |
+| 2.   | Lock on third target                                                 |                   |
+|      | a. Range rate readout 0 ± 300 knots.                                 |                   |
+|      | b. Aim dot inside of ASE circle.                                     |                   |
+|      | c. ASE circle 0.56 inch diameter.                                    |                   |
+| 3.   | Break lock                                                           |                   |
+| 4.   | Pulse switch                                                         | SHORT             |
+| 5.   | (P) Sight mode knob                                                  | A/A               |
+| 6.   | Radar mode knob                                                      | BST               |
+| 7.   | Range knob                                                           | AI 5              |
+| 8.   | (P) Auto acq button                                                  | PRESS and RELEASE |
+|      | a. Radar locks on first target                                       |                   |
+| 9.   | (P) Auto acq button                                                  | PRESS and RELEASE |
+|      | a. Radar breaks lock, range gate sweeps to next target and locks on. |                   |
+|      | b. Repeat this step through all targets.                             |                   |
+| 10.  | Air-to-air button                                                    | PRESS             |
+|      | a. Air-to-air light                                                  | OFF               |
+|      | b. Radar control transfers to RCP.                                   |                   |
+| 11.  | Break lockon                                                         |                   |
+| 12.  | Radar mode knob                                                      | MAP               |
+| 13.  | Range knob                                                           | AI 25             |
+| 14.  | Pulse switch                                                         | LONG              |
+| 15.  | Lock on fifth target                                                 |                   |
+|      | a. RDR MAG indicates 1.4 to 1.8.                                     |                   |
+| 16.  | Pulse switch                                                         | AUTO              |
+|      | a. RDR MAG indicates 0.9 to 1.15 (PLMS).                             |                   |
+| 17.  | Aspect knob                                                          | TAIL              |
+|      | a. Range rate readout displays fighter heading (0°-360°)             |                   |
+| 18.  | Display knob                                                         | VI                |
+|      | a. Updates fighter heading   display.                                |                   |
+| 19.  | Display knob                                                         | B-WIDE            |
+|      | a. Discontinues fighter  heading update.                             |                   |
 
 ![manual_radar_air_to_air_bit_5](../../img/manual_radar_bit_air_to_air_5.jpg)
 
@@ -176,7 +178,7 @@
 
 | Step | System                                                                                                                                                                                                                                                                                                                   | Action                            |
 |------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
-| 1.   | Test knob                                                                                                                                                                                                                                                                                                                | 6 (figure 2-33)                   |
+| 1.   | Test knob                                                                                                                                                                                                                                                                                                                | Set 6                             |
 |      | The T (track) light illuminates but SKIN TRK light remains OFF during this test. This is a normal indication with the DSCG.                                                                                                                                                                                              |                                   |
 | 2.   | Radar power knob                                                                                                                                                                                                                                                                                                         | TEST                              |
 | 3.   | Missile power switch                                                                                                                                                                                                                                                                                                     | STBY                              |
