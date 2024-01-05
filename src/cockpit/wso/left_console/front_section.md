@@ -31,9 +31,11 @@ Determines current amplifier for intercom function.
 
 ![wso_control_monitor_panel](../../../img/wso_control_monitor_panel.jpg)
 
+Tests and monitors the APQ-120 Radar.
+
 ### Cords Light
 
-Not used by the APQ-120 Radar in the F-4E.
+Not used in the F-4E.
 
 ### Temp Light
 
@@ -42,7 +44,22 @@ avionics bay. Under normal circumstances, an overheat condition requires setting
 the radar power to OFF. If circumstances require continued use, the light should
 be monitored regularly.
 
+### Meter Selector Knob
+
+A sixteen position rotary knob used in conjunction with the Test Knob, with each
+position having two values- an outer SIGNAL value, and an inner VOLT value.
+Selection of which value determined by the Meter Switch.
+
+### Monitor Meter
+
+![Monitor Meter](../../../img/wso_radar_monitor_meter.jpg)
+
+Provides voltage, current, and signal indications based on current Meter Switch
+and Meter Selector Knob settings.
+
 ### Test Knob
+
+![Test Knob](../../../img/wso_radar_test_knob.jpg)
 
 An eleven position rotary knob used with the radar power knob in TEST to perform
 system BIT checks of the APQ-120 radar. Basic test function noted below;
@@ -65,22 +82,15 @@ procedural functionality is found in the applicable BIT test section.
 
 ### Meter Switch
 
+![Meter Switch](../../../img/wso_radar_meter_switch.jpg)
+
 Determines which set of values are utilized from the Meter Selector Knob for the
 applicable test sequences; VOLT selects the inner ring of Voltage referencing
 values, whereas SIGNALS uses the outer rim of SIGNAL reference values.
 
-### Meter Selector Knob
-
-A sixteen position rotary knob used in conjunction with the Test Knob, with each
-position having two values- an outer SIGNAL value, and an inner VOLT value.
-Selection of which value determined by the Meter Switch.
-
-### Monitor Meter
-
-Provides voltage, current, and signal indications based on current Meter Switch
-and Meter Selector Knob settings.
-
 ### Vc Switch
+
+![Vc Switch](../../../img/wso_radar_vc_switch.jpg)
 
 Changes the scale factor of the range rate presentation. DSCG aircraft must
 leave the switch in 2700, else the Vc presentation will be in error.

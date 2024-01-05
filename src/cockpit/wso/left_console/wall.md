@@ -1,5 +1,19 @@
 # Left Wall
 
+## Emergency Canopy Jettison Handle
+
+![CanJet](../../../img/wso_canopy_jettison.jpg)
+
+Used for emergency ground extraction, the Emergency Canopy Jettison Handle
+releases a compressed oxygen cylinder to open both canopies immediately,
+shearing them off at their pivots. The handle only jettisons the respective canopy.
+
+## Canopy Control Switch
+
+![Canopy Control Switch](../../../img/wso_canopy_handle.jpg)
+
+Used to open (aft) or close (forward) the WSO canopy.
+
 ## Emergency Flaps Handle
 
 ![wso_emergency_flaps_handle](../../../img/wso_emergency_flaps_handle.jpg)

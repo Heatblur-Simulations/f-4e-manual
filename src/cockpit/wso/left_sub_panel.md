@@ -155,21 +155,14 @@ mask sealing check).
 Two position switch that cycles between NORMAL oxygen value or 100% OXYGEN
 level. 100% Oxygen should only be used if fire and/or smoke and fumes occur in the plane.
 
-### Oxygen Quantity Test Button
-
-Tests oxygen low pressure warning system. Pressing the button cycles the needles
-from current oxygen level to zero, which triggers OXYGEN LOW telelight panel
-warning as needle passes through 1 liter. Releasing the button returns the
-needle to current system level and clears OXYGEN LOW warning.
-
-### Oxygen Pressure Gauge
-
-Indicates system pressure from 0 to 500 psi.
-
 ### Supply Lever
 
 Two position switch (ON and OFF) activating flow of oxygen to the aircrew
 member.
+
+### Oxygen Pressure Gauge
+
+Indicates system pressure from 0 to 500 psi.
 
 ## Landing Gear/Flap Indicator Panel
 

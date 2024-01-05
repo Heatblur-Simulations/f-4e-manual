@@ -123,7 +123,7 @@ the [AGM-65A Maverick and AGM-65B Maverick](../../../stores/air_to_ground/missil
 | AUTO    | Programs the missile to use its automatic tracking mode.                  |
 | BLK/WHT | Programs the missile seeker to track a dark target on a light background. |
 
-This doesn't change the polarity of the video but the coding of the seeker itself.
+This does not change the polarity of the video but the coding of the seeker itself.
 
 ### Engine Start Switch
 

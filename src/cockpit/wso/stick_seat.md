@@ -2,7 +2,7 @@
 
 ## Stick
 
-![Stick](../../img/stick.jpg)
+![Stick](../../img/wso_stick.jpg)
 
 A control stick is provided in both cockpits, with near-uniform switchology
 between the two.
@@ -21,16 +21,6 @@ and the gun) and a Bomb Release Button.
 
 The first stage of the trigger activates the gun camera for recording forward
 footage.
-
-### Air Refueling Release Button
-
-Unique to the front cockpit control stick is the Air Refueling Release Button
-located on the left side of the stick. It is a dual-role control that performs
-the boom disconnect function its name implies, as well as a number of weapon
-selection functions.
-
-See [Utility Systems](../../systems/utility.md#air-refueling-release-button) for
-details.
 
 ### Nose Wheel Steering Button
 
@@ -54,7 +44,7 @@ for details.
 
 ## Seat
 
-![Seat](../../img/seat.jpg)
+![Seat](../../img/wso_seat.jpg)
 
 The seat allows the crew to eject out of the plane by pulling either the cord
 between the legs or above the head.
@@ -62,20 +52,9 @@ between the legs or above the head.
 See the [System section](../../systems/emergency.md#ejection-seats) for details
 on the seat and ejection mechanism.
 
-### Drag Chute Handle
-
-Additionally, it features a handle on the left side to control the drag chute.
-
-The chute is applied to reduce landing rollout, or as an aid in spin recovery,
-the drag chute handle is pulled back to deploy the chute, and, once deployed, a
-button on the handle is pressed while pulling the handle back further to
-jettison the chute.
-
-Once jettisoned, the handle is released back into its normal position.
-
 ### Seat Position
 
-![pilot_seat_switch](../../img/pilot_seat_switch.jpg)
+![Seat Switch](../../img/wso_seat_switch.jpg)
 
 The vertical position of the seat can be changed in either direction for about
 5cm using this spring-loaded switch on the right side of the seat.

@@ -1,10 +1,15 @@
 # Center Section
 
+The center area of the left console features the radar control
+and countermeasure panel.
+
 ## Radar Set Control Panel
 
 ![wso_radar_set_control_panel](../../../img/wso_radar_set_control_panel.jpg)
 
 ### Power Knob
+
+![Power Knob](../../../img/wso_radar_power_knob.jpg)
 
 Five position rotary switch controlling power state of the APQ-120 Radar.
 
@@ -27,7 +32,9 @@ presence of rain, however if AIM-7 Missiles should be fired use CIR 1.
 | CIR 1 | RF energy is rotated clockwise from the vertical plane. AIM-7 can be fired.           |
 | CIR 2 | RF energy is rotated counterclockwise from the vertical plane. AIM-7 cannot be fired. |
 
-### Radar Range Knob
+### Range Knob
+
+![Range Knob](../../../img/wso_radar_range_knob.jpg)
 
 Used to select range sweep of 5, 10, 25, 50, 100, or 200 mile ranges on both
 radar displays. First four ranges are air-to-air intercept positions, final two
@@ -48,13 +55,16 @@ of a maneuvering target without breaking radar lockon.
 
 ### Bar Scan Switch
 
-Selects elevation [scan](../../../systems/radar.md#scan) pattern. In 2
-bar [scan](../../../systems/radar.md#scan), search pattern is separated by
-3.75 degrees on each [scan](../../../systems/radar.md#scan). In boresight or air to ground modes, 1
-bar [scan](../../../systems/radar.md#scan) is
-automatically commanded.
+Selects [elevation scan](../../../systems/radar.md#scan) pattern between 1 and 2 bars.
 
-### Aspect Switch
+In 2 bar scan, the search pattern is separated by
+3.75 degrees on each scan.
+
+In boresight or air to ground modes, 1 bar scan is automatically commanded.
+
+### Aspect Knob
+
+![Aspect Knob](../../../img/wso_radar_aspect_knob.jpg)
 
 Used to program the AIM-7 with a predetermined simulated Doppler instead of
 actual received Doppler, so that the WSO can provide an estimated correct
@@ -86,7 +96,7 @@ presses full action. Should the target maneuver in excess of the speed
 capability of the radar, the Maneuver switch can be set to HI G and the target
 reacquired.
 
-### AOJ OUT
+#### AOJ OUT
 
 The AOJ OUT position is used to override the acquisition on jamming function of
 the radar. In the event that the radar acquires a Home-on-Jam lock, the position can be
@@ -94,6 +104,8 @@ selected to place the radar back into a search configuration to initiate a
 lock-on against the jamming target and initiate a standard angle track lock.
 
 ### Display Knob
+
+![Display Knob](../../../img/wso_radar_display_knob.jpg)
 
 Sets the display type of the radar scope to access specific mode functionality
 in conjunction with the Mode knob. The types are as follows:
@@ -107,6 +119,8 @@ in conjunction with the Mode knob. The types are as follows:
 | [VI](../../../systems/radar.md#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident)     | Provides pure pursuit guidance to a locked target; a break X will appear at 1000' range.                      |
 
 ### Manual Vc Knob
+
+![Manual Vc Knob](../../../img/wso_radar_man_vc_knob.jpg)
 
 A 12 position switch used to apply estimated range rate of closure (clockwise,
 0-9), or estimated opening of range (counterclockwise, 0-2) against a target in
@@ -128,6 +142,8 @@ pulses are automatically commanded, deactivating the switch.
 
 ### Mode Knob
 
+![Mode Knob](../../../img/wso_radar_mode_knob.jpg)
+
 A six position switch that determines the current base mode of operation of the
 radar.
 
@@ -142,7 +158,7 @@ radar.
 
 ### Skin Track Light
 
-Green lamp that illuminates when a track is attained with range data. In the
+Lamp that illuminates when a track is attained with range data. In the
 event of HOJ or a range memory situation, the light will go off. Accompanied on
 the rear DSCG radar scope with the T symbol that illuminates under the same
 circumstances.
@@ -151,20 +167,22 @@ circumstances.
 
 ![wso_an_ale_40](../../../img/wso_an_ale_40.jpg)
 
-### Ripple Switch
-
-When positioned ON, dispenses flares at rate of ten per second until dispensers
-are empty, so long as flaps and speed brakes are retracted.
-
 ### Dispense Button
 
 Initiates chaff/flare dispensing as selected by Cockpit control unit
 and [AN/ALE-40 programmer](../../../cockpit/pilot/left_console/aft_section.md#anale-40-programmer)
 with flaps and speed brakes retracted and mode knobs out of OFF.
 
+### Ripple Switch
+
+Guarded by a cover, when positioned ON, dispenses flares at rate of
+ten per second until dispensers are empty, so long as flaps and speed brakes are retracted.
+
 ### Counters
 
 Indicate quantity of chaff and flare cartridges remaining, respectively.
+
+They are automatically set by the ground crew when rearming.
 
 ### Chaff Mode Knob
 
@@ -186,3 +204,5 @@ Indicate quantity of chaff and flare cartridges remaining, respectively.
 
 Illuminates whenever a mode is selected on the respective countermeasure mode
 knob.
+
+Can be rotated to dim and pressed to test.
