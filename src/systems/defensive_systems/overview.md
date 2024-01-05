@@ -1,7 +1,7 @@
 # Defensive Systems
 
 The F-4E features up
-to [4 AN/ALE-40 Countermeasure dispense Pods.](./countermeasures.md) The
+to 4 AN/ALE-40 Countermeasure dispense Pods. The
 [AN/ALE-40 Countermeasure dispense Pods](./countermeasures.md) are used by a
 variety of US Aircraft.
 
