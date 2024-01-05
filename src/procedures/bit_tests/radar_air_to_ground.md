@@ -2,7 +2,7 @@
 
 ## BIT 5
 
-![manual_radar_bit_5_air_to_ground](../../img/manual_radar_bit_air_to_ground_5.jpg[radar_air_to_ground.md](radar_air_to_ground.md))
+![manual_radar_bit_5_air_to_ground](../../img/manual_radar_bit_air_to_ground_5.jpg)
 
 ### Range Slope and Zero
 
