@@ -1,5 +1,8 @@
 # Center Section
 
+The center section of the left console controls fuel and
+navigation related settings.
+
 ## Fuel Control Panel
 
 ![Fuel Control Panel](../../../img/pilot_fuel_panel.jpg)
@@ -24,8 +27,18 @@ reached a certain fuel level already.
 
 ### Refueling Select Switch
 
-Determines which tanks will be refuelled during an air-to-air refueling cycle:
+This covered switch determines which tanks will be refuelled during an air-to-air refueling cycle:
 internal (INT ONLY) or all tanks (ALL).
+
+### Air Refueling Switch
+
+Two position toggle switch used for extending (EXTEND) and retracting (RETRACT)
+the air-to-air refueling door. Placing the switch into EXTEND also illuminates the
+air-to-air refueling receptacle lamp to assist the tanker boom operator.
+
+If, during AAR, the boom disconnects and the DISENGAGED light illuminates, this
+switch has to be flipped to RETRACT and back to EXTEND to reset the system and
+allow the boom to connect again.
 
 ### External Transfer Switch
 
@@ -38,16 +51,6 @@ reached a certain fuel level already.
 
 It is not possible to transfer from the wing tanks and external tanks at the
 same time. If both are selected, the external tanks will take priority.
-
-### Air Refueling Switch
-
-Two position toggle switch used for extending (EXTEND) and retracting (RETRACT)
-the air-to-air refueling door. Placing the switch into EXTEND also illuminates the
-air-to-air refueling receptacle lamp to assist the tanker boom operator.
-
-If, during AAR, the boom disconnects and the DISENGAGED light illuminates, this
-switch has to be flipped to RETRACT and back to EXTEND to reset the system and
-allow the boom to connect again.
 
 ### Boost Pump Check Switches
 
@@ -83,13 +86,6 @@ Valid frequencies range from 108.00 to 117.95 MHz.
 ### VOR/MKR Test
 
 A button to initiate a built-in test of the VOR system.
-
-## Drag Chute Handle
-
-Applied to reduce landing rollout, or as an aid in spin recovery, the drag chute
-handle is pulled back to deploy the chute, and, once deployed, a button on the
-handle is pressed while pulling the handle back further to jettison the chute.
-Once jettisoned, the handle is released back into its normal position.
 
 ## AFCS Control Panel
 

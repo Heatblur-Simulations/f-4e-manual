@@ -3,7 +3,7 @@
 ![FDG](../../img/pilot_flight_director_group.jpg)
 
 The flight director group provides the pilot with all necessary instruments to fly the aircraft even
-in a bad weather situtation.
+in a bad weather situation.
 
 ## Radar Altimeter
 
@@ -11,9 +11,10 @@ in a bad weather situtation.
 
 Terrain relative accurate height information up to 5000 ft, functions to 30
 degrees of bank angle or 35 degrees of pitch. Clockwise rotation of the function
-control switch on the lower right of the indicator powers the device; continued
+control switch on the lower left of the indicator powers the device; continued
 rotation sets the low altitude warning pointer to the desired height. Below the
-set altitude, the warning light activates. A self-test, initiated by pressing
+set altitude, the warning light on the lower right activates.
+A self-test, initiated by pressing
 the function control switch, shows 35ft.
 
 ## Airspeed and Mach Indicator
@@ -75,6 +76,18 @@ steering bars offer Flight Director guidance for heading interception,
 navigation, and ILS approaches. The glide-slope pointer provides vertical
 guidance information during an ILS approach.
 
+## Marker Beacon Lamp
+
+![MB Lamp](../../img/pilot_marker_beacon_lamp.jpg)
+
+This lamp illuminates whenever flying over a marker beacon station,
+provided the VOR/ILS system has been activated. Additionally, an audio
+cue is played through the intercom system.
+
+The lamp can be rotated to dim and pushed to test.
+
+See [VOR/ILS System](../../systems/nav_com/vor_ils.md) for details.
+
 ## Horizontal Situation Indicator
 
 ![HSI](../../img/HSI.jpg)
@@ -82,7 +95,8 @@ guidance information during an ILS approach.
 Consists of a rotating compass card, single and double bar bearing pointers
 numbered 1 and 2 respectively, a range indicator, and a range warning flag.
 Presents a top-down view of the currently programmed navigation. The Heading Set
-knob is available to input desired magnetic heading, and the Course Set knob is
+knob (lower left) is available to input desired magnetic heading, and the
+Course Set knob (lower right) is
 used to enter VOR radial or inbound localizer course for accurate deviation
 display.
 
@@ -142,3 +156,14 @@ the ADI; the OFF position has the switch aligned vertically.
 ### Mode Selector Knob Display Functions
 
 ![ModeSelectorKnobTable](../../img/ModeSelectorKnobTable.jpg)
+
+## VOR Lamp
+
+![VOR Lamp](../../img/pilot_vor_lamp.jpg)
+
+Illuminates to indicate that the VOR system is ready and receiving.
+
+That is, a valid VOR frequency has been selected, a signal is received and the
+navigation knobs have been turned to VOR navigation.
+
+See [VOR/ILS System](../../systems/nav_com/vor_ils.md) for details.

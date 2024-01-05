@@ -1,5 +1,8 @@
 # Front Section
 
+The front section of the left console houses the oxygen panel,
+throttle and engine related controls.
+
 ## Left Utility Panel
 
 ![LUtil](../../../img/LUtil.jpg)
@@ -15,6 +18,14 @@ by detecting the start of a skid and then releasing the brake pressure.
 Sets audio level for canopy open and low altitude voice warnings.
 
 This system is not installed on this variant of the F-4E.
+
+## Anti-Skid Inoperative Light
+
+![Anti-Skid Inoperative Light](../../../img/pilot_anti_skid_light.jpg)
+
+Illuminates when the Anti-Skid Switch is set to OFF,
+the Emergency Quick Release Lever is pressed, or there is an issue
+with the Anti-Skid System.
 
 ## Oxygen Control Panel
 
@@ -36,6 +47,11 @@ for mask sealing check).
 Two position switch that cycles between NORMAL oxygen value or 100% OXYGEN
 level. 100% should only be used if fire and/or smoke and fumes occur in the plane.
 
+### Supply Lever
+
+Two position switch (ON and OFF) activating flow of oxygen to the aircrew
+member.
+
 ### Oxygen Quantity Test Button
 
 Tests oxygen low pressure warning system. Pressing the button cycles the needles
@@ -47,11 +63,6 @@ needle to current system level and clears OXYGEN LOW warning.
 
 Indicates system pressure from 0 to 500 psi. The Oxygen lasts up to 24.3 Hours with a full 10 litres
 at about 35,000 feet. At 10,000 feet 10 litres last about 23.4 hours.
-
-### Supply Lever
-
-Two position switch (ON and OFF) activating flow of oxygen to the aircrew
-member.
 
 ## Forward Hand Control
 
@@ -112,7 +123,7 @@ the [AGM-65A Maverick and AGM-65B Maverick](../../../stores/air_to_ground/missil
 | AUTO    | Programs the missile to use its automatic tracking mode.                  |
 | BLK/WHT | Programs the missile seeker to track a dark target on a light background. |
 
-This doesn't change the polarity of the video but the coding of the seeker itself.
+This does not change the polarity of the video but the coding of the seeker itself.
 
 ### Engine Start Switch
 
@@ -166,6 +177,8 @@ range. Moving throttles from IDLE to OFF closes the fuel shutoff valve, stopping
 transition from OFF to IDLE or MIL, advance the throttles straight forward. Shifting throttles
 outboard allows movement from MIL to MAX, enabling forward motion in the afterburner range.
 
+### Fingerlifts
+
 Front cockpit throttles feature finger lifts for quick chops to IDLE, preventing inadvertent
 shutoff. The lifts must be raised before retarding throttles to OFF. Rear cockpit throttles are
 linked to the front cockpit, allowing only the pilot to start engines or move throttles into
@@ -204,15 +217,6 @@ range functions of the reticle for the chosen weapon, without the pilot having
 to remove a hand from throttle or stick to swap the sight mode or weapon control
 panel functions.
 
-### Speed Brake
-
-![pilot_speed_brake](../../../img/pilot_air_brake.jpg)
-
-The Speed Brakes are actuated by a three position switch found on the inboard
-throttle in both cockpits. Either switch will actuate the brakes. The positions
-are Out, Stop, and In; the first and last positions are momentary (reverting to
-Stop upon being released).
-
 ### Dispense Button
 
 ![pilot_throttle_cm_dispense](../../../img/pilot_throttle_cm.jpg)
@@ -222,6 +226,15 @@ the CCU and AN/ALE-40 programmer if the flaps and speed brakes are retracted and
 the flares select switch is set to NORMAL. Additionally single unit flare
 dispensing can be initiated by a single button press if the flares select switch
 is set to FLARES.
+
+### Speed Brake
+
+![pilot_speed_brake](../../../img/pilot_air_brake.jpg)
+
+The Speed Brakes are actuated by a three position switch found on the inboard
+throttle in both cockpits. Either switch will actuate the brakes. The positions
+are Out, Stop, and In; the first and last positions are momentary (reverting to
+Stop upon being released).
 
 ### Mic Switch
 
