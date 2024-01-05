@@ -129,6 +129,8 @@
   - [Pave Spike](./procedures/pave_spike.md)
   - [Built-In-Test Procedures](./procedures/bit_tests/overview.md)
     - [Radar Air-to-Air BIT Procedures](./procedures/bit_tests/radar_air_to_air.md)
+    - [Radar Air-to-Ground BIT Procedures](./procedures/bit_tests/radar_air_to_ground.md)
+    - [WRCS BIT Procedures](./procedures/bit_tests/wrcs.md)
 - [DCS](./dcs/overview.md)
   - [Embedded Manual](./dcs/embedded_manual.md)
   - [Bombing Computer](./dcs/bombing_computer.md)
