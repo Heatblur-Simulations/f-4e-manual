@@ -18,8 +18,8 @@ to [CAGE](../../stores/air_to_air/acm_modes.md) entry.
 
 ![wso_video_select](../../img/wso_video_select.jpg)
 
-Push button that alternates between WEAPON and TDS pod (ASQ-153) television
-video on the radar scope display when in TV mode.
+Push button that alternates between WEAPON, such as Mavericks,
+and targeting pod (ASQ-153) television video on the radar scope display when in TV mode.
 
 ## AVTR Control
 

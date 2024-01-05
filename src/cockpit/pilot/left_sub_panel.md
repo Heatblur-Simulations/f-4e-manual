@@ -74,7 +74,7 @@ locked for the switch to function. Lights are turned off automatically when the 
 
 ![EmerRel](../../img/EmerRel.jpg)
 
-Also called the "panic button", the External Stores Emergency Release will
+Also called the "_panic button_", the External Stores Emergency Release will
 immediately perform separation of all jettison-able stores, without air-to-air
 weapons or special weapons. The actuation of the button will show a yellow ring
 around the button position, which is the indicator for the pilot that it has

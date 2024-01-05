@@ -2,11 +2,16 @@
 
 ![Overhead Indicators](../../img/pilot_overhead_indicators.jpg)
 
+The overhead indicators offer information directly in the pilots view and aid in
+situations where the pilot is focused and looking outside, such as during combat,
+landing or refueling with a tanker.
+
 ## SHOOT Lights
 
-![LftShoot](../../img/pilot_shoot_light.jpg)
+![LftShoot](../../img/pilot_shoot_lights.jpg)
 
-Illuminates when missile firing parameters are met. Do not illuminate when in visual intercept
+A group of 5 lights arranged around the canopy bow, illuminating when missile
+firing parameters are met. Do not illuminate when in visual intercept
 or Air-to-Ground modes.
 
 ## Air Refueling Lights
@@ -46,26 +51,13 @@ cards are found above the right canopy sill on each cockpit.
 
 ![AoA](../../img/AoA.jpg)
 
-Provides quick confirmation of current aircraft AoA state based on illuminated
+A pair of indicators to the left and right of the HUD that provide quick
+confirmation of current aircraft AoA state based on illuminated
 position and color.
 
 ![AoA_table](../../img/AoA_table.jpg)
 
-## Range Indicator
-
-![range_indicator](../../img/range_indicator.jpg)
-
-This panel provides the pilot with a readout of the slant range measured by the
-[Pave Spike](../../systems/weapon_systems/pave_spike/overview.md) Targeting Pod (x100 ft).
-
-When the Test-Button is pressed, the display shows 888, the knob underneath it
-controls the brightness of the readout.
-
-The Mode-Knob allows the pilot to select one of two weapon delivery modes
-available with the pod:
-
-- WRCS - Automatic Delivery
-- ROR - Release on Range
-
-In the SET position, the display shows the desired release range used in the ROR
-mode. The knob below the readout can be used to adjust this range.
+Can also indicate weapon steering cues and an aural tone system backs
+up the indication with audible cues.
+See [Angle of Attack System](../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system)
+for details.

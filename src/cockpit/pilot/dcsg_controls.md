@@ -109,13 +109,6 @@ steering dot relative to azimuth of the ASE circle. When the HOLD ALT light
 turns off, the fighter should then snap up in pitch to fully center the steering
 dot in the ASE circle.
 
-## Range Lights
-
-![RngLights](../../img/pilot_dscg_range_lights.jpg)
-
-The Range Lights illuminate relative to range settings selected by the WSO.
-Range is provided on the upper right corner of the DSCG scope.
-
 ## Wheels Light
 
 ![Wheels](../../img/pilot_dscg_wheels_light.jpg)
@@ -123,3 +116,10 @@ Range is provided on the upper right corner of the DSCG scope.
 The WHEELS lamp illuminates when the aircraft slows below flaps blow-up speed
 (roughly 230 knots, dependent on altitude) with the gear still raised. This serves as an indicator
 to lower the gear.
+
+## Range Lights
+
+![RngLights](../../img/pilot_dscg_range_lights.jpg)
+
+The Range Lights illuminate relative to range settings selected by the WSO.
+Range is provided on the upper right corner of the DSCG scope.

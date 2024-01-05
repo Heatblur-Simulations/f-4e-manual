@@ -26,7 +26,7 @@ A three position switch (NORM, OUT, OUT AND DOWN) to the rear of the panel
 provides normal operation functions of the Slats/Flaps System. These functions
 are relative to landing gear position, and are noted as follows:
 
-- Nose Gear UP
+### Nose Gear UP
 
 | Name         | Description                                                               |
 | ------------ | ------------------------------------------------------------------------- |
@@ -34,7 +34,7 @@ are relative to landing gear position, and are noted as follows:
 | OUT          | Slats extend.                                                             |
 | OUT AND DOWN | Slats and flaps extend (wheels light flashing until landing gear is down. |
 
-- Nose Gear DOWN
+### Nose Gear DOWN
 
 | Name         | Description                                 |
 | ------------ | ------------------------------------------- |
@@ -44,7 +44,7 @@ are relative to landing gear position, and are noted as follows:
 
 ![SlatsRelative](../../../img/SlatsRelative.jpg)
 
-## Emergency Slats/Flaps Handle
+### Emergency Slats/Flaps Handle
 
 Also included is the Emergency Slats/Flaps Extension handle, marked in yellow
 and black, at the top of the box. This handle is pulled to force high
