@@ -36,4 +36,3 @@
 |      | a. PPI sweep scans 1200 sector.                                    |          |
 |      | b. PPI sweep drift Offset 5.6°.                                    |          |
 |      | c. Far edge of bombing Strobe just touches appropriate BIT target. |          |
-
