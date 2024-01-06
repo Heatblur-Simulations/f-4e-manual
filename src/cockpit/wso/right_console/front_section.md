@@ -1,5 +1,7 @@
 # Front Section
 
+The front area contains controls for weapon delivery and the INS.
+
 ## Laser Coder Control
 
 ![laser_coder_control](../../../img/laser_coder_control.jpg)
@@ -64,6 +66,42 @@ before this lamp has shut off.
 The ALIGN lamp provides current INS alignment through illuminating steady (BATH
 alignment complete), or flashing at the completion of GYRO COMP or HDG MEM
 alignment.
+
+## Antenna Hand Control
+
+![Antenna Hand Control](../../../img/wso_antenna_hand_control.jpg)
+
+Joystick which integrates with the radar to perform range (fore and aft)
+and azimuth (left and right) positional control of the acquisition symbol on the radar
+display in the air-to-air modes, as well as seeker/EO sensor direction
+with Maverick and Pave Spike.
+
+### Antenna Elevation Control
+
+A thumbwheel on the left side of the stick controls the elevation
+angle of the radar antenna, displayed via the EL strobe on the DSCG display.
+
+### Challenge Button
+
+If controlling the radar, initiates an IFF interrogation.
+
+For the Pave Spike targeting pod, it instead toggles the field
+of view between WIDE and NARROW.
+
+### Action Switch (Trigger)
+
+A 2-stage trigger to lock targets. Exact behavior depends on whether
+currently controlling the radar, weapons or the targeting pod.
+
+### Boresight Adjustment
+
+![Boresight Adjustment](../../../img/wso_antenna_stick_adjustment.jpg)
+
+The boresight position of the antenna stick can be adjusted at
+its base using a screwdriver. Once set, the new values can be
+loaded by pressing the button below.
+
+This is only accessible to ground crew personnel.
 
 ## Weapon Delivery Panel
 

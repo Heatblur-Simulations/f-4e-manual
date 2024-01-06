@@ -1,5 +1,7 @@
 # Right Wall
 
+The right wall features the main circuit breakers and lighting controls.
+
 ## Flight Instrument Lights Intensity Panel
 
 ![InsIntensity](../../../img/InsIntensity.jpg)
@@ -69,7 +71,8 @@ is always audible in dangerous situations.
 ### Standby AI
 
 This knob used to control the brightness of the Standby Attitude Indicator (SAI)
-lights, but has been replaced by the SAI Panel on the left wall.
+lights, but has been replaced by the [SAI Panel](../left_console/wall.md#sai-panel)
+on the left wall.
 
 ### Instrument Flood
 

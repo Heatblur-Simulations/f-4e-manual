@@ -1,33 +1,39 @@
 # Pedestal Group
 
+This area behind the stick contains the radar screen,
+as well as the controls for the targeting pod.
+
 ![wso_dscg_and_pedestal_panel](../../img/wso_dscg_and_pedestal_panel.jpg)
 
 ## Digital Scan Converter Group (DSCG)
 
+The DSCG displays radar, weapon and targeting pod video footage.
+
+The glare shield cover can be removed by clicking on it.
+
 ### Grid Knob
 
-Controls brightness of the display grid on the visual field of the DSCG display;
+This knob, located on the top left above the glare shield, controls
+brightness of the display grid on the visual field of the DSCG display;
 clockwise increases brightness, counterclockwise decreases.
 
 ### Scale Knob
 
-Controls brightness of the bezel range scales surrounding the DSCG display;
+Located on the top right, above the glare shield, controls brightness of the
+bezel range scales surrounding the DSCG display;
 clockwise increases brightness, counterclockwise decreases.
 
 ### H - Home on Jam Lamp
 
-Illuminates when the radar has achieved angle tracking in Home on Jam mode.
+Light inside the top left corner of the glare shield, illuminates
+when the radar has achieved angle tracking in Home on Jam mode.
 
 ### T - Track Lamp
 
-Illuminates when a standard radar lock on is achieved. Will go out in the event
+Light inside the top right corner of the glare shield, illuminates when a
+standard radar lock on is achieved. Will go out in the event
 the radar falls back to memorized range and rate information should the lock be
 lost.
-
-### Contrast Knob - CONTR
-
-Controls relative contrast level of DSCG display; clockwise increases contrast,
-counterclockwise reduces contrast.
 
 ### Cursor RNG (Range)
 
@@ -41,6 +47,11 @@ Increases (clockwise) and decreases (counterclockwise) the relative brightness
 of the Cross Track cursor in the MAP PPI and Beacon PPI modes on both displays
 (WSO and Pilot).
 
+### Contrast Knob - CONTR
+
+Controls relative contrast level of DSCG display; clockwise increases contrast,
+counterclockwise reduces contrast.
+
 ### Brightness Knob
 
 Increases (clockwise) and decreases (counterclockwise) the brightness of the
@@ -50,14 +61,14 @@ overall scope display.
 
 Sets the current mode of the DSCG components.
 
-| Name      | Description                                                                      |
-|-----------|----------------------------------------------------------------------------------|
-| OFF       | Turns off DSCG display and de-powers all DSCG components.                        |
-| STBY      | Powers DSCG components, DSCG display remains off. Used for takeoff and landing   |
-| DSCG TEST | Displays search display image with 8 shades of grey to confirm normal operation. |
-| RDR BIT   | Provides BIT sequence test grids for calibration of radar performance.           |
-| RDR       | Used for radar display functionality in all employment modes.                    |
-| TV        | Used for TV raster imagery with EO weapons, aswell as targeting pods.            |
+| Name      | Description                                                                                                                |
+|-----------|----------------------------------------------------------------------------------------------------------------------------|
+| OFF       | Turns off DSCG display and de-powers all DSCG components.                                                                  |
+| STBY      | Powers DSCG components, DSCG display remains off. Used for takeoff and landing                                             |
+| DSCG TEST | Displays a test search display image with 8 shades of grey to confirm normal operation. Select Range 10 for proper sizing. |
+| RDR BIT   | Provides BIT sequence test grids for calibration of radar performance.                                                     |
+| RDR       | Used for radar display functionality in all employment modes.                                                              |
+| TV        | Used for TV raster imagery with EO weapons, aswell as targeting pods.                                                      |
 
 ## Target Designator Control Set
 

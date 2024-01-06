@@ -2,6 +2,8 @@
 
 ![pilot_right_sub_panel](../../img/pilot_right_sub_panel.jpg)
 
+The right sub-panel area is dominated by a group of warning lights.
+
 ## Generator Indicator Lights
 
 ![GenInd](../../img/pilot_generator_lights.jpg)
@@ -74,3 +76,14 @@ circuit breakers controlling lights.
 
 The upper one is responsible for powering the primary instrument lights, while
 the lower circuit breaker powers all indicator and warning lights.
+
+## Canopy Unlock Lever
+
+![Canopy Unlock Lever](../../img/pilot_canopy_unlock_lever.jpg)
+
+Used to manually unlock the canopy by pulling aft. For normal operation,
+the handle should be left in the forward position to allow the canopy
+to seal when closed.
+
+If the canopy is not properly locked and sealed, the _CANOPY UNLOCKED_
+warning light on the telelight panel illuminates.

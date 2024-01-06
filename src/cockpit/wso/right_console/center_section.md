@@ -1,5 +1,8 @@
 # Center Section
 
+The center section of the right console is dominated by
+the WRCS panel for weapon delivery.
+
 ## Weapon Release Computer Set (WRCS) Panel
 
 ![wso_weapon_release_computer_set_panel](../../../img/wso_weapon_release_computer_set_panel.jpg)
@@ -32,13 +35,20 @@ increase release system accuracy.
 Used to enter the drag coefficient value for the weapon being used from the
 bombing tables for the intended release mode.
 
+Refer to the [bombing calculator](../../../dcs/bombing_computer.md) for obtaining the value.
+
 ### Release Advance Control
 
 Used to advance the release signal given from the [WRCS](../../../systems/weapon_systems/wrcs.md) to
 the fire control system relative to the [WRCS](../../../systems/weapon_systems/wrcs.md) target
 point, in any duration from 0 to 999 milliseconds. Also functions in conjunction
 with [ARBCS/LABS](../../../systems/weapon_systems/arbcs.md) programmed release
-timing. The release advance control can be calculated with
+timing.
+
+This can be used to spread out a bombing run over a target area,
+for example to place the 3-th bomb of a 10-bomb salvo on the target.
+
+The release advance control can be calculated with
 the [bombing calculator](../../../dcs/bombing_computer.md).
 
 ### Release Range Control
@@ -46,12 +56,8 @@ the [bombing calculator](../../../dcs/bombing_computer.md).
 Used to manually set bomb range in accordance with the weapon's bomb release
 schedule entry in the bomb tables.
 
-### NO GO/GO Lamps
-
-Provides results of the [WRCS](../../../systems/weapon_systems/wrcs.md) BIT tests for the
-selected [WRCS](../../../systems/weapon_systems/wrcs.md) delivery mode.
-Illumination of NO GO when not in a BIT test cycle reports an INS system
-failure.
+The range can be calculated with
+the [bombing calculator](../../../dcs/bombing_computer.md).
 
 ### WRCS BIT Knob
 
@@ -60,7 +66,7 @@ individual [WRCS](../../../systems/weapon_systems/wrcs.md)
 delivery modes. The BIT check is performed by selecting the desired mode for
 testing, pressing the knob for five seconds, then pressing the Freeze button on
 the Cursor Control Panel while keeping the BIT knob held down to confirm
-function. The result will illuminate in the NO GO/GO placard.
+function.
 
 ## Cursor Control Panel
 
@@ -124,3 +130,12 @@ Track cursors defines the Radar initial Point when the Freeze button is pressed.
 Used to arm nuclear stores. In the SAFE position, release is inhibited. REL
 allows releasing stores unarmed, while REL/ARM allows dropping nuclear stores
 armed.
+
+## Skyspot Mode
+
+![Skyspot Mode](../../../img/wso_skyspot_switch.jpg)
+
+On the outer right side of the right console is a switch which would allow
+to select the mode of the Combat Skyspot system used for ground-directed bombing.
+
+The system was never installed on this variant of the F-4E.

@@ -1,5 +1,8 @@
 # Aft Section
 
+The aft section of the right console has navigation equipment
+and controls for exterior lighting.
+
 ## Compass Control Panel
 
 ![CompassCtl](../../../img/CompassCtl.jpg)
@@ -100,9 +103,11 @@ primarily controlled by the WSO and records the intercom sound, as well as the
 rear radar screen.
 
 Footage is recorded on a standard u-matic S cassette, which can be removed and
-replaced using the EJECT Button on the top right of the box. The UNTHREAD button
+replaced using the EJECT Button on the top left of the box. The UNTHREAD button
 next to it is used to unthread the tape of the cassette back to the start,
 causing it to overwrite previously recorded footage.
+
+Cassette ejection is currently not simulated.
 
 The cassette can record up to 20 minutes, indicated on the small display
 labelled ELAPSED TIME.
@@ -111,15 +116,4 @@ In DCS, footage is saved in the users Saved Games folder, for example:
 
 `C:\Users\JohnDoe\Saved Games\DCS.openbeta\F-4E\recorders\avtr`
 
-## Seat
-
-### Seat Position
-
-![pilot_seat_switch](../../../img/pilot_seat_switch.jpg)
-
-The vertical position of the seat can be changed in either direction for about
-5cm using this spring-loaded switch. For landing, it is advisable to put the seat in the most
-upward position for better visibility.
-
-Operation of the motor must be limited to 30 seconds within 10 minutes to
-prevent it from overheating and breaking.
+See [DCS Recorders](../../../dcs/recorders.md) for details on the footage.

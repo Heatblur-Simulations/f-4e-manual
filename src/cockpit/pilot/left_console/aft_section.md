@@ -1,5 +1,7 @@
 # Aft Section
 
+The aft section of the left console has the intercom and countermeasure controls.
+
 ## Boarding Steps Indicator
 
 ![BoardStepsLadder](../../../img/BoardStepsLadder.jpg)
@@ -39,30 +41,33 @@ Determines current amplifier for intercom function.
 
 ![AN/ALE-40 Panel](../../../img/ANALE40Prg.jpg)
 
-### Chaff Burst Count
+The panel features 6 knobs to control chaff and flare programs, as well as
+two lamps and a switch to activate flares on its base.
 
-Selects the number of chaff burst commands per salvo; values of 1, 2, 3, 4, 6,
-or 8 from left to right.
+### Chaff Burst
 
-### Chaff Burst Interval
+The count knob selects the number of chaff burst commands per salvo;
+values of 1, 2, 3, 4, 6, or 8 from left to right.
 
-Selects the time interval of .1, .2, .3, or .4 seconds between each chaff burst
+The interval knob selects the time interval of .1, .2, .3, or .4 seconds
+between each chaff burst
 command.
 
-### Chaff Salvo Count
+### Chaff Salvo
 
-Selects the number of salvos per dispense command, values of 1, 2, 4, 8, or
-C (Continuous).
+The count knob selects the number of salvos per dispense command,
+values of 1, 2, 4, 8, or C (Continuous).
 
-### Chaff Salvo Interval
+The interval knob selects time interval between each salvo.
+Values of 1, 2, 3, 4, 5, 8, or a R (Random) number of seconds.
 
-Selects time interval between each salvo. Values of 1, 2, 3, 4, 5, 8, or a
-R (Random) number of seconds.
+### Flare Burst
 
-### Flare Burst Count
+The count knob selects the quantity of flare burst commands per salvo.
+Values of 1, 2, 4, 8, or C (Continuous).
 
-Selects the quantity of flare burst commands per salvo. Values of 1, 2, 4, 8, or
-C (Continuous).
+The interval knob selects time interval between each burst.
+Values of 3, 4, 6, 8, 10 number of seconds.
 
 ### Flares Select Switch
 
@@ -71,13 +76,13 @@ Selects the time interval between each burst command. Values of 3, 4, 6, 8, or
 
 ### Flares Indicator Light
 
-Illuminates when the Flares select switch is in the Flares position and
+Illuminates when the _Flares Select_ switch is in the Flares position and
 indicates they can be dispensed, if flaps and speed brakes are retracted.
 
 ### Power On Indicator Light
 
-Illuminates when the Flares select switch is in the Normal position and either
-(or both) mode knobs are in any position other than OFF.
+Illuminates when the _Flares Select_ switch is in the Normal position and either
+(or both) mode knobs in the WSO cockpit are in any position other than OFF.
 
 ## Anti-G Suit Control Valve
 

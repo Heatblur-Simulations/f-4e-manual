@@ -64,3 +64,8 @@ While the indicator can show 127, 128, and 129, these values are nonfunctional.
 
 The NAV VOL knob controls the headset audible volume of the received TACAN
 station.
+
+### TACAN Test Button
+
+The Tacan test button may be used to test the TACAN System. For a detailed procedure see
+the [Navigation Test Procedure](../../procedures/bit_tests/navigation_tests.md).

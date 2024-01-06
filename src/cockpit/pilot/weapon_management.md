@@ -2,6 +2,29 @@
 
 ![MwsGroup](../../img/MwsGroup.jpg)
 
+This group on the left area of the main panel provides all
+weapon related settings, such as arming missiles or selecting
+the bomb delivery mode.
+
+## Range Indicator
+
+![range_indicator](../../img/range_indicator.jpg)
+
+This panel provides the pilot with a readout of the slant range measured by the
+[Pave Spike](../../systems/weapon_systems/pave_spike/overview.md) Targeting Pod (x100 ft).
+
+When the Test-Button is pressed, the display shows 888, the knob underneath it
+controls the brightness of the readout.
+
+The Mode-Knob allows the pilot to select one of two weapon delivery modes
+available with the pod:
+
+- WRCS - Automatic Delivery
+- ROR - Release on Range
+
+In the SET position, the display shows the desired release range used in the ROR
+mode. The knob below the readout can be used to adjust this range.
+
 ## Head Up Display Indicators
 
 ![HUD](../../img/HUD.jpg)
@@ -77,6 +100,8 @@ and the nose gun is armed with the GUN station selector button.
 
 ![ext_pylons](../../img/ext_pylons.jpg)
 
+### Dimmer Knob
+
 A dimmer knob is also provided to raise or lower the lighting of the station
 select buttons relative to current cockpit conditions. If the Flight Instrument
 Brightness Knob above it is set to the full CCW position, it overrides the
@@ -147,12 +172,20 @@ Provides timed interval release scheduling of single or multiple bombs or
 rockets and dispensed munitions based on the selections made between the
 interval knob, the QTY (quantity) knob and the INTRVL switch.
 
+### Interval Knob
+
 The interval knob provides release pulse sequences between 0.05 second and 1
 second.
 
+### Interval Switch
+
 The INTRVL switch provides the option of a 10x multiplier of the set value of
 the interval knob. In the NORM position, the interval knob value is the trigger
-timer. The quantity knob functions as follows:
+timer.
+
+### Quantity Knob
+
+Controls how many stores are released per impulse.
 
 Selecting "1" places the AWRU into single manual bombing mode; one push of the
 bomb release button releases one bomb.
@@ -184,9 +217,13 @@ two seconds the pickle button is held down.
 The Missile Status Light window provides confirmation of currently installed and
 configured air-to-air missiles.
 
+### Radar Lights
+
 The RDR lights illuminate once AIM-7 missiles are properly tuned with the fire
 control system; any station that does not carry a Sparrow, does not correctly
 sync up during tuning, or is launched, will turn off.
+
+### Heat Lights
 
 The HEAT lights illuminate one at a time, rather than all up upon circuit
 configuration. The light of the currently selected station will illuminate
@@ -240,17 +277,22 @@ is pulled.
 ![SelJet](../../img/SelJet.jpg)
 
 The Selective Jettison Control knob provides the pilot direct access to dump
-stores on a position by position basis, or immediate release of
-all single carried air to ground, MER/TER stored, or LAU-88 launcher-mounted
-round at once.
+stores on a position by position basis.
 
-| Name     | Description                                                                                                 |
-|----------|-------------------------------------------------------------------------------------------------------------|
-| OFF      | Safes PUSH TO JETT button on the Selective Jettison Control Panel.                                          |
-| STORES   | Releases all MER/TER, single carried, LAU-88 mounted rounds, or drop tanks upon PUSH TO JETT.               |
-| L/R FWD  | Jettisons AIM-7 from respective position on PUSH TO JETT. Inhibited if CL TK ON.                            |
-| L/R AFT  | Jettisons AIM-7 from respective position on PUSH TO JETT.                                                   |
-| L/R WING | In conjunction with TV or ARM, jettisons single AGM-65 Maverick or AGM-45 Shrike from wing on PUSH TO JETT. |
+The pilot selects the desired position by rotating the knob and then presses
+the button on its front to jettison the selected stores.
+
+| Name     | Description                                                                                                                             |
+| -------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| OFF      | Safes PUSH TO JETT button on the Selective Jettison Control Panel.                                                                      |
+| STORES   | Releases all MER/TER, single carried, LAU-88 mounted rounds, or drop tanks currently selected on the station buttons upon PUSH TO JETT. |
+| L/R FWD  | Jettisons AIM-7 from respective position on PUSH TO JETT. Inhibited if CL TK ON.                                                        |
+| L/R AFT  | Jettisons AIM-7 from respective position on PUSH TO JETT.                                                                               |
+| L/R WING | In conjunction with TV or ARM, jettisons single AGM-65 Maverick or AGM-45 Shrike from wing on PUSH TO JETT.                             |
+
+As example, to jettison the right and left external fuel tanks, the pilot must
+select _STORES_ on the knob, press the corresponding station select buttons _LO_, _RO_
+and then push the jettison button.
 
 ## Recorder Lamp
 

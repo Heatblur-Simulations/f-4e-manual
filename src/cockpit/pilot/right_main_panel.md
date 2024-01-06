@@ -11,9 +11,15 @@ it.
 ![RWRAz](../../img/RWRAz.jpg)
 
 The [Radar warning receiver](../../systems/defensive_systems/radar_warning_receiver.md) Azimuth
-Indicator shows you
-all Radar sources that are visible to the Radar warning receiver. For further information see the
-[Radar Warning Receiver](../../systems/defensive_systems/radar_warning_receiver.md) chapter
+Indicator shows all Radar sources that are visible to the Radar warning receiver.
+The knob controls the brightness of the display.
+
+![Controls](../../img/pilot_rwr_controls.jpg)
+
+Below is a box with several knobs to operate the system.
+
+For further information see the
+[Radar Warning Receiver](../../systems/defensive_systems/radar_warning_receiver.md) chapter.
 
 ## Azimuth-Elevation Indicator
 
@@ -78,14 +84,21 @@ nozzle section (OVRHT).
 
 The Fuel Quantity Indicator provides two different indications of total usable
 internal fuel to confirm proper transfer function between the seven internal
-fuel cells, as well as any external loaded tanks. The upper hemisphere's sector
+fuel cells, as well as any external loaded tanks.
+
+The upper hemisphere's sector
 display presents fuel quantity detected in fuselage cells 1 through 6, excluding
 the aft-most cell 7, as well as the internal wing tanks. The sector display
 presents 200 lb increments from 0 to 3000 pounds, and 500 pound increments for
-the rest of the gauge. The lower tape counter readout includes all internal
+the rest of the gauge.
+
+The lower tape counter readout includes all internal
 fuel, including cell 7 and the internal wing tanks, and is presented in 100 lb
-increments. In flight Jester assumes 6000 pounds for Joker and 4000 pounds for Bingo fuel.
-Cell 7 is used as a reserve cell. For more detailed information see the
+increments. Cell 7 is used as a reserve cell.
+
+As a general guidance, Bingo fuel is around 4000 pounds, while Joker fuel is at 6000 lb.
+
+For more detailed information see the
 [Fuel system chapter](../../systems/engines_and_fuel_systems/fuel_system.md).
 
 ## Fuel Flow Gauges
@@ -115,7 +128,7 @@ degrees centigrade, and a smaller needle presenting increments of 0-10 in
 multiples of 10 degrees Celsius. Temperatures are measured at the exit of the
 turbine unit.
 
-## Dual Exhaust Nozzle Position Indicators
+## Exhaust Nozzle Position Indicators
 
 ![NPI](../../img/NPI.jpg)
 
