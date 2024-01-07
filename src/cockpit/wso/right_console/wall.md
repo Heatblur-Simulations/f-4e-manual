@@ -7,7 +7,7 @@ The right wall has auxiliary switches for testing and starting the aircraft.
 ![Canopy Manual Unlock Handle](../../img/wso_canopy_unlock.jpg)
 
 The manual unlock
-handle is used in the event of [pneumatic system](../.../../../../systems/pneumatics.md) failure.
+handle is used in the event of [pneumatic system](../../../../../systems/pneumatics.md) failure.
 
 The handle, when pulled aft,
 unlocks the canopy so that it may be pushed open. Before
