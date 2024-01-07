@@ -33,7 +33,7 @@
 |      | a. Gyro Switch               | NORM            |
 |      | b. Aural Tone Control Knob   | LOW             |
 |      | c. Boarding Steps Indicator  | PROTRUDING      |
-| 2.   | External Power               | ON              |
+| 2.   | External Power               | ON🔧           |
 | 3.   | Slats Override Switch        | NORM            |
 | 4.   | Intercom Control Panel       | SET             |
 |      | a. Volume Control            | AS DESIRED      |
