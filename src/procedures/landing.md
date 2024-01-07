@@ -24,6 +24,10 @@
 | 4.     | Warning Lights     | CHECK              |
 | **5.** | **Anti Skid**      | **ON & LIGHT OUT** |
 
+![Landing Pattern](../img/landing_pattern.jpg)
+
+![Go-Around](../img/go_around.jpg)
+
 ## After Landing
 
 | Step    | System                           | Action              |

@@ -27,6 +27,8 @@
 | 6.     | Circuit Breakers  | CHECK IN           |
 | 7.     | Warning Lights    | CHECK              |
 
+![Takeoff](../img/takeoff.jpg)
+
 ### On Runway
 
 | Step | System                                                                                      | Action                       |

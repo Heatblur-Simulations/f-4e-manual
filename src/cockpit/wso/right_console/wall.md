@@ -2,16 +2,23 @@
 
 The right wall has auxiliary switches for testing and starting the aircraft.
 
-## Canopy Unlock Lever
+## Canopy Manual Unlock Handle
 
-![Canopy Unlock Lever](../../../img/wso_canopy_unlock.jpg)
+![Canopy Manual Unlock Handle](../../../img/pilot_canopy_unlock_handle.jpg)
 
-Used to manually unlock the canopy by pulling aft. For normal operation,
-the handle should be left in the forward position to allow the canopy
-to seal when closed.
+The manual unlock
+handle is used in the event of [pneumatic system](../../../systems/pneumatics.md) failure.
 
-If the canopy is not properly locked and sealed, the _CANOPY UNLOCKED_
-warning light on the main panel right next to it illuminates.
+The handle, when pulled aft,
+unlocks the canopy so that it may be pushed open. Before
+manual unlocking of the canopy, the normal control lever
+must be placed in the OPEN position.
+
+For normal operation,
+the handle should be left in the forward position.
+
+If the canopy is not properly locked, the _CANOPY UNLOCKED_
+warning light on the telelight panel illuminates.
 
 ## Ground Test Panel
 

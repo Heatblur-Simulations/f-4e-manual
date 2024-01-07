@@ -77,13 +77,20 @@ circuit breakers controlling lights.
 The upper one is responsible for powering the primary instrument lights, while
 the lower circuit breaker powers all indicator and warning lights.
 
-## Canopy Unlock Lever
+## Canopy Manual Unlock Handle
 
-![Canopy Unlock Lever](../../img/pilot_canopy_unlock_lever.jpg)
+![Canopy Manual Unlock Handle](../../img/wso_canopy_unlock.jpg)
 
-Used to manually unlock the canopy by pulling aft. For normal operation,
-the handle should be left in the forward position to allow the canopy
-to seal when closed.
+The manual unlock
+handle is used in the event of [pneumatic system](../../systems/pneumatics.md) failure.
 
-If the canopy is not properly locked and sealed, the _CANOPY UNLOCKED_
+The handle, when pulled aft,
+unlocks the canopy so that it may be pushed open. Before
+manual unlocking of the canopy, the normal control lever
+must be placed in the OPEN position.
+
+For normal operation,
+the handle should be left in the forward position.
+
+If the canopy is not properly locked, the _CANOPY UNLOCKED_
 warning light on the telelight panel illuminates.
