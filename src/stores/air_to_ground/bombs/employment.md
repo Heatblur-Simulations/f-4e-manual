@@ -2,7 +2,8 @@
 
 The Phantom has a wide range of weapon modes to employ bombs. Most modes will need the WSO to make
 inputs into the ARBCS/WRCS. For assistance in calculation
-see [Bombing Calculator Chapter](../../../dcs/bombing_computer.md).
+see [Bombing Calculator Chapter](../../../dcs/bombing_computer.md). You can open and close it by
+pressing rctrl + b in game.
 
 ## LOFT
 
@@ -100,19 +101,19 @@ escape option for appropriate targets.
 
 Planning of the T LADD engagement begins in the bombing tables, determining the
 correct entry altitude and airspeed for the selected weapon, as well as the
-resulting altitude gain and time from pull up initiation to release- which will
+resulting altitude gain and time from pull up initiation to release - which will
 be used as the Release control timer value, as well as the distance downrange
 this climb maneuver will take the aircraft. Using this range as a baseline, an
 appropriate approach angle is determined, and a suitable IP waypoint is chosen.
 The distance between the IP and the pull-up point is evaluated against the
-planned profile speed, which provides another time entry- this will be the
+planned profile speed, which provides another time entry - this will be the
 pull-up timer value.
 
 The attack is performed by flying over the IP along the desired intercept
 heading to the target at the correct speed and altitude, and actuating the bomb
 release button upon flyover of said IP, holding it down throughout the maneuver.
 This begins the pull-up timer. The ADI needles will center, then show deviation
-against the initial heading course- vertical being roll, horizontal being level
+against the initial heading course - vertical being roll, horizontal being level
 to maintain current altitude. At timeout of the pull-up timer, a pull-up warning
 tone will be provided, and the pull-up Lamp will illuminate; subsequently, the
 Release timer will begin its count, the horizontal ADI needle will transition
@@ -157,7 +158,7 @@ in accordance with the desired type of attack. Once pipper on is achieved, the
 bomb release button is pressed, and the selected number of munitions with the
 given program settings will be released. While the most basic mode available to
 the Phantom, Direct remains a reliable method when conditions permit, and can be
-used against any target the crew can see- namely, targets of opportunity, or in
+used against any target the crew can see - namely, targets of opportunity, or in
 the CAS environment.
 
 ![Direct Dive](../../../img/directdive.jpg)
@@ -173,10 +174,10 @@ conditions, to release either bombs or dispensed munitions (with the RKTS & DISP
 mode).
 
 The setup for an Offset bomb attack is based around the selection of an IP
-relative to a known target location. For a visual attack, it is called VIP- the
+relative to a known target location. For a visual attack, it is called VIP - the
 Visual Identification Point, and initiation of the navigation assistance is
 performed with a direct flyover of the VIP. In an instrument conditions attack,
-the IP is called the RIP- the Radar Identification Point, and acquisition of
+the IP is called the RIP - the Radar Identification Point, and acquisition of
 this point using a radar lock in MAP-PPI mode generates a navigation solution to
 the target. When chosen during planning, he VIP or RIP's position relative to
 the target determines a pair of offset values (hence the name of the mode); one
@@ -269,7 +270,7 @@ and Cross Track cursors from the RIP to the offset target.
 
 At this time, the INS presents guidance and range information on the ADI, the
 sight, the BDHI, and the HSI. The WSO should continue to monitor the radar
-display- should the actual target appear on the display as range decreases, the
+display - should the actual target appear on the display as range decreases, the
 actual known altitude of the target can be entered on the WRCS panel and the
 Along Track and Cross Track cursors can be touched up using their controls to
 further increase release precision.
@@ -313,12 +314,12 @@ degrees, the update switch is released, and the INS update is complete.
 Dive Toss uses WRCS radar tracking, in conjunction with other aircraft sensors,
 to calculate the release solution in real time. The target can be approached
 from any direction, airspeed, and dive angle, and the WRCS computes the proper
-release point relative to the the acquired track, munition drag coefficient
+release point relative to the acquired track, munition drag coefficient
 setting, and any release advance control input (in conjunction with AWRU
 settings).
 
 To perform a Dive Toss attack, the radar must be set in AIR-GRD mode, with a 5
-or 10 mile range setting. Once set, the pilot initiates the attack with the
+or 10-mile range setting. Once set, the pilot initiates the attack with the
 Optical Sight in Air-to-Ground mode, and the reticle automatically cages in
 elevation along the RBL. The pilot then selects DT on the Delivery Mode Knob,
 places Weapon Selector Knob in BOMBS, and selects the desired Interval and
@@ -357,7 +358,7 @@ either RKTS & DISP (for dispensers/CBU only) or BOMBS. Desired release range is
 entered on the WRCS panel, and, if necessary, the release advance control.
 
 The start of the attack is the same as Dive Toss; a higher than normal dive
-angle is flown, with the radar in AIR-GRD mode at 5 or 10 mile range, a solid
+angle is flown, with the radar in AIR-GRD mode at 5 or 10-mile range, a solid
 return is generated, and the pilot then positions the pipper on the intended
 target and holds the bomb release button. Once this is completed, the pilot
 pulls out of the dive at the bombing table plan altitude, maintains the target

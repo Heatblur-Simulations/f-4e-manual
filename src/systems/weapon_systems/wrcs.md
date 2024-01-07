@@ -72,7 +72,8 @@ point, and one behind.
 
 The maximum setting for the Release Advance Control is 999 milliseconds. A calculator to calculate
 the Release advance in-game is provided with
-the [bombing calculator](../../dcs/bombing_computer.md).
+the [bombing calculator](../../dcs/bombing_computer.md). You can open and close it by pressing
+rctrl + b in game.
 
 ## Drag Coefficient Control
 
