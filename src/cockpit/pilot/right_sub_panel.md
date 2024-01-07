@@ -79,7 +79,7 @@ the lower circuit breaker powers all indicator and warning lights.
 
 ## Canopy Manual Unlock Handle
 
-![Canopy Manual Unlock Handle](../../img/pilot_canopy_unlock_handle.jpg)
+![Canopy Manual Unlock Handle](../../img/wso_canopy_unlock.jpg)
 
 The manual unlock
 handle is used in the event of [pneumatic system](../../systems/pneumatics.md) failure.
