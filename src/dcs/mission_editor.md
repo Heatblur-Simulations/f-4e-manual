@@ -28,7 +28,7 @@ the parameters
 ![Normal Distribution](../img/normal_distribution.jpg)
 
 Around 70% of times the value will be within one unit of σ, in 95% of cases it
-will be within 2 units of σ. Extreme cases below 3 units of σ are possible, but
+will be within 2 units of σ. Extreme cases above 3 units of σ are possible, but
 very rare.
 
 Said motor has for example a σ value of 3% around 60 degrees per second, meaning
