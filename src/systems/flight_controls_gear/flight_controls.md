@@ -29,8 +29,7 @@ a number of weapon selection functions.
 Also, unique to the front cockpit stick is a force transducer, to allow the pilot
 fine adjustment control of
 the [AFCS](../../cockpit/pilot/left_console/center_section.md#afcs-control-panel) with the autopilot
-functionality engaged. In
-the event the force applied to the stick exceeds
+functionality engaged. In the event the force applied to the stick exceeds
 the [AFCS](../../cockpit/pilot/left_console/center_section.md#afcs-control-panel) breakout limit,
 autopilot will be turned off.
 
@@ -49,7 +48,7 @@ To confirm current state of the stabilator trim, a Stabilator Trim Position
 Indicator is provided on
 the [front cockpit left vertical panel](../../cockpit/pilot/left_sub_panel.md#stabilator-trim-indicator)
 .
-  
+
 ![StabTrimInd](../../img/StabTrimInd.jpg)
 
 ## Rudder Control System
@@ -116,6 +115,21 @@ With the Roll stability augmentation system engaged, roll rate using the rear
 control stick can be less than that in the front cockpit relative to the amount
 of deflection; conversely, when returning control to the front cockpit, the rate
 can jump due to said difference.
+
+## Auotmatic Flight Control System (AFCS)
+
+The automatic flight control system (AFCS) is an electro-hydraulic system designed to provide
+stable, accurate and coordinated flight maneuvers without interferring with manual control. The
+System utilizes the displacement gyro (for pitch and roll) additionally to the heading reference
+signals to maintain the airplane in the desired attitude with maximum stability.
+
+In the F-4E DSCG variant there are two modes of operation, AFCS and Altitude Hold. In the AFCS mode
+of operation maintains any aircraft heading and/or attitude selected within the limits (± 70° pitch,
+70° bank and 360° azimuth), providing the G-Limits (+ 4G or - 1G) are not being exceeded. During
+AFCS mode, two accelerometers are utilized to ensure proper functioning of the AFCS system. One of
+the accelerometers is a G-Limiting type to prevent excess G-loads from occuring as a result of AFCS
+operation, the other accelerometer is a lateral accelerometer which is used to perform coordinated
+maneuvers while in AFCS or stability augmentation mode.
 
 ## Slats Flap System
 

@@ -25,7 +25,7 @@ to transmit the target angle values to the ADI director pointers.
 
 A calculator for the input values in-game is provided by
 the [bombing calculator](../../dcs/bombing_computer.md). You can open and close it by pressing
-rctrl + b in game.
+<kbd>RCTRL</kbd>+<kbd>B</kbd> in game.
 
 ![manual_loft_diagram](../../img/loft.jpg)
 

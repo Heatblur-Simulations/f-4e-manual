@@ -13,7 +13,7 @@ and [navigation](../../../systems/nav_com/overview.md) related settings.
 Two position switch which, when placed in DUMP, closes off the wing fuel cells
 from transfer into the fuselage fuel cells and dumps fuel from the valves at the
 wing fold trailing edge. Placing the switch back to the NORM position closes the
-dump vales and reconnects the wing cells for transfer to the fuselage.
+dump valves and reconnects the wing cells for transfer to the fuselage.
 
 The entire fuel is dumped in roughly 15 minutes.
 
@@ -66,27 +66,27 @@ a positive pressure value on the fuel pressure indicator.
 
 ### Nav Vol Knob
 
-Controls the volume of the VOR/ILS audio system that indicates a positive return
-by repeating the morse code of the selected station.
+Controls the volume of [the VOR/ILS audio system](../../../systems/nav_com/vor_ils.md) that
+indicates a positive return by repeating the morse code of the selected station.
 
-Must be moved out of the full CCW position to provide power to the VOR/ILS
-system.
+Must be moved out of the full CCW position to provide power to [the VOR/ILS
+system](../../../systems/nav_com/vor_ils.md).
 
 ### MB Vol Knob
 
-Controls the volume of the tone played when flying over a marker-beacon
-transmitter, for example on the final approach during landing.
+Controls the volume of the tone played when flying over a [marker-beacon
+transmitter](../../../systems/nav_com/vor_ils.md), for example on the final approach during landing.
 
 ### Frequency Knobs
 
-A set of two knobs for tuning the VOR/ILS frequency. The outer knob controls the
-first three digits, while the inner knob sets the two decimal digits.
+A set of two knobs for tuning the [VOR/ILS](../../../systems/nav_com/vor_ils.md) frequency. The
+outer knob controls the first three digits, while the inner knob sets the two decimal digits.
 
 Valid frequencies range from 108.00 to 117.95 MHz.
 
 ### VOR/MKR Test
 
-A button to initiate a built-in test of the VOR system.
+A button to initiate a built-in test of [the VOR system](../../../systems/nav_com/vor_ils.md).
 
 ## AFCS Control Panel
 
@@ -101,12 +101,14 @@ augmentation on.
 
 ### AFCS Mode Switch
 
-Enables AFCS flight mode, which can maintain and hold maneuvers and attitudes at
-up to ±70 degrees of pitch, 70 degrees of bank, and in all 360 degrees of
-azimuth. Deactivated by selecting the switch aft, or with a rapid control input.
+Enables [AFCS](../../../systems/flight_controls_gear/flight_controls.md#auotmatic-flight-control-system-afcs)
+flight mode, which can maintain and hold maneuvers and attitudes at up to ±70 degrees of pitch, 70
+degrees of bank, and in all 360 degrees of azimuth. Deactivated by selecting the switch aft, or with
+a rapid control input.
 
 ### Altitude Hold Switch
 
-Selecting ENGAGE activates the altitude hold function of the AFCS. When entered
-a pitch and bank level condition, will maintain altitude (ASL) stabilized
+Selecting ENGAGE activates the altitude hold function of
+the [AFCS.](../../../systems/flight_controls_gear/flight_controls.md#auotmatic-flight-control-system-afcs)
+When entered a pitch and bank level condition, will maintain altitude (ASL) stabilized
 flight at the current heading.
