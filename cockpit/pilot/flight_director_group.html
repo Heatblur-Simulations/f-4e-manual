@@ -206,11 +206,19 @@ available between 80 and 195 knots, and the Mach index pointer being able to be
 set between the 225 knot and 850 knot regions relative to the airspeed gauge.</p>
 <h2 id="angle-of-attack-indicator"><a class="header" href="#angle-of-attack-indicator">Angle of Attack Indicator</a></h2>
 <p><img src="../../img/AoAInd.jpg" alt="AoAInd" /></p>
-<p>Drawing relative wind information from the landing-gear adjacent AoA probe, the
-AoA indicator offers conditional reference for cruise (7.9 units), approach
-(19.2 units), and stall (30.0 units). Because of the AoA probe to the nose gear door
-and subsequent airflow disturbance when the gear is lowered, actual aircraft AoA
-is approximately 1 unit higher than indicated, and ON SPEED AoA is roughly 5
+<p>Drawing relative wind information from the landing-gear
+adjacent <a href="../../systems/flight_controls_gear/flight_controls.html#angle-of-attack-system">AoA</a> probe,
+the
+<a href="../../systems/flight_controls_gear/flight_controls.html#angle-of-attack-system">AoA</a> indicator offers
+conditional reference for cruise (7.9 units), approach
+(19.2 units), and stall (30.0 units). Because of
+the <a href="../../systems/flight_controls_gear/flight_controls.html#angle-of-attack-system">AoA</a> probe to the
+nose gear door
+and subsequent airflow disturbance when the gear is lowered, actual
+aircraft <a href="../../systems/flight_controls_gear/flight_controls.html#angle-of-attack-system">AoA</a>
+is approximately 1 unit higher than indicated, and ON
+SPEED <a href="../../systems/flight_controls_gear/flight_controls.html#angle-of-attack-system">AoA</a> is roughly
+5
 knots slower than the given value.</p>
 <p>When indicator power is offline due to electrical system configuration or
 damage, an OFF flag will appear in the window on the face of the gauge. Function
@@ -218,10 +226,13 @@ of the indexer lights and stall warning vibrator is driven by switches in the
 indicator.</p>
 <h2 id="reference-system-selector-switch"><a class="header" href="#reference-system-selector-switch">Reference System Selector Switch</a></h2>
 <p><img src="../../img/RefSel.jpg" alt="RefSel" /></p>
-<p>Toggles between the inertial navigation set and AN/AJB-7 displacement gyroscope
+<p>Toggles between the <a href="../../systems/nav_com/ins.html">inertial navigation set</a>
+and <a href="../../systems/weapon_systems/arbcs.html">AN/AJB-7</a> displacement gyroscope
 for attitude information. When set to PRIM, the inertial navigation set provides
-azimuth and attitude data to the ADI; when on STBY, AN/AJB-7 supplies this
-information. Azimuth data also feeds into the HSI and BDHI (rear cockpit).
+azimuth and attitude data to the ADI; when on
+STBY, <a href="../../systems/weapon_systems/arbcs.html">AN/AJB-7</a> supplies this
+information. Azimuth data also feeds into the HSI
+and <a href="../wso/upfront_indicators.html#bearing-distance-heading-indicator-bdhi">BDHI</a> (rear cockpit).
 Additionally, attitude details are sent to the fire control system.</p>
 <blockquote>
 <p>💡 Inertial information requires the inertial navigator control panel's
@@ -237,17 +248,17 @@ for manual compass system synchronization (SYNC position)</p>
 <p>Includes an attitude sphere, turn indicator, steering bars, miniature aircraft,
 glide-slope pointer, flags, and pitch trim knob. It displays pitch, bank, and
 heading from the selected reference system and allows pitch adjustment via the
-trim knob. The turn indicator relies on a gyro from the AN/AJB-7 system. The
+trim knob. The turn indicator relies on a gyro from
+the <a href="../../systems/weapon_systems/arbcs.html">AN/AJB-7 system.</a> The
 steering bars offer Flight Director guidance for heading interception,
-navigation, and ILS approaches. The glide-slope pointer provides vertical
-guidance information during an ILS approach.</p>
+navigation, and <a href="../../systems/nav_com/vor_ils.html">ILS</a> approaches. The glide-slope pointer provides
+vertical guidance information during an <a href="../../systems/nav_com/vor_ils.html">ILS</a> approach.</p>
 <h2 id="marker-beacon-lamp"><a class="header" href="#marker-beacon-lamp">Marker Beacon Lamp</a></h2>
 <p><img src="../../img/pilot_marker_beacon_lamp.jpg" alt="MB Lamp" /></p>
 <p>This lamp illuminates whenever flying over a marker beacon station,
-provided the VOR/ILS system has been activated. Additionally, an audio
-cue is played through the intercom system.</p>
+provided the <a href="../../systems/nav_com/vor_ils.html">VOR/ILS</a> system has been activated. Additionally,
+an audio cue is played through the <a href="../../systems/nav_com/intercom.html">intercom system.</a></p>
 <p>The lamp can be rotated to dim and pushed to test.</p>
-<p>See <a href="../../systems/nav_com/vor_ils.html">VOR/ILS System</a> for details.</p>
 <h2 id="horizontal-situation-indicator"><a class="header" href="#horizontal-situation-indicator">Horizontal Situation Indicator</a></h2>
 <p><img src="../../img/HSI.jpg" alt="HSI" /></p>
 <p>Consists of a rotating compass card, single and double bar bearing pointers
@@ -255,8 +266,8 @@ numbered 1 and 2 respectively, a range indicator, and a range warning flag.
 Presents a top-down view of the currently programmed navigation. The Heading Set
 knob (lower left) is available to input desired magnetic heading, and the
 Course Set knob (lower right) is
-used to enter VOR radial or inbound localizer course for accurate deviation
-display.</p>
+used to enter <a href="../../systems/nav_com/vor_ils.html">VOR</a> radial or inbound localizer course for
+accurate deviation display.</p>
 <h2 id="altimeter"><a class="header" href="#altimeter">Altimeter</a></h2>
 <p><img src="../../img/Altim.jpg" alt="Altimeter" /></p>
 <p>A counter-pointer style altimeter, with thousandths in the counter window and
@@ -291,9 +302,9 @@ Director. This switch engages or deactivates the pitch and bank steering bars on
 the ADI; the OFF position has the switch aligned vertically.</p>
 <h3 id="bearingdistance-knob"><a class="header" href="#bearingdistance-knob">Bearing/Distance Knob</a></h3>
 <div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
-<tr><td>VOR/TAC</td><td>Magnetic and relative bearing to VOR station and TACAN range displayed on HSI.</td></tr>
-<tr><td>TAC</td><td>Magnetic and relative bearing and range to TACAN station displayed on the HSI.</td></tr>
-<tr><td>ADF/TAC</td><td>Magnetic and relative bearing to ADF station and TACAN range displayed on HSI.</td></tr>
+<tr><td><a href="../../systems/nav_com/vor_ils.html">VOR</a>/<a href="../../systems/nav_com/tacan.html">TAC</a></td><td>Magnetic and relative bearing to <a href="../../systems/nav_com/vor_ils.html">VOR</a> station and <a href="../../systems/nav_com/tacan.html">TACAN</a> range displayed on HSI.</td></tr>
+<tr><td><a href="../../systems/nav_com/tacan.html">TAC</a></td><td>Magnetic and relative bearing and range to <a href="../../systems/nav_com/tacan.html">TACAN</a> station displayed on the HSI.</td></tr>
+<tr><td>ADF/<a href="../../systems/nav_com/tacan.html">TAC</a></td><td>Magnetic and relative bearing to ADF station and <a href="../../systems/nav_com/tacan.html">TACAN</a> range displayed on HSI.</td></tr>
 <tr><td>NAV COMP</td><td>Magnetic and relative bearing and range provided from navigation computer(i.e. waypoints) on HSI.</td></tr>
 </tbody></table>
 </div>
@@ -301,10 +312,11 @@ the ADI; the OFF position has the switch aligned vertically.</p>
 <p><img src="../../img/ModeSelectorKnobTable.jpg" alt="ModeSelectorKnobTable" /></p>
 <h2 id="vor-lamp"><a class="header" href="#vor-lamp">VOR Lamp</a></h2>
 <p><img src="../../img/pilot_vor_lamp.jpg" alt="VOR Lamp" /></p>
-<p>Illuminates to indicate that the VOR system is ready and receiving.</p>
-<p>That is, a valid VOR frequency has been selected, a signal is received and the
-navigation knobs have been turned to VOR navigation.</p>
-<p>See <a href="../../systems/nav_com/vor_ils.html">VOR/ILS System</a> for details.</p>
+<p>Illuminates to indicate that the <a href="../../systems/nav_com/vor_ils.html">VOR</a> system is ready and
+receiving.</p>
+<p>That is, a valid <a href="../../systems/nav_com/vor_ils.html">VOR</a> frequency has been selected, a signal is
+received and the navigation knobs have been turned to <a href="../../systems/nav_com/vor_ils.html">VOR</a>
+navigation.</p>
 
                     </main>
 
