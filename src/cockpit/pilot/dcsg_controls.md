@@ -22,7 +22,7 @@ the [AGM-65 Maverick](../../stores/air_to_ground/missiles/maverick.md).
 ![SightShutter](../../img/SightShutter.jpg)
 
 Changes the optical sight light source to prevent damage to the optics from high
-sunlight. Is used after [landing](../../procedures/landing.md#after-landing) to prevent damage to
+sunlight. Is used after [landing](../../procedures/landing/checklists.md#after-landing) to prevent damage to
 the sight.
 
 ## Reticle Depression Knob
@@ -43,7 +43,7 @@ Selects the mode of operation for the gun-sight.
 |-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | OFF   | Turns the system off.                                                                                                                                                 |
 | STBY  | Warms up the system. Reticle remains off.                                                                                                                             |
-| CAGE  | Reticle is displayed and caged at the radar boresight line (RBL). This is used for [takeoff](../../procedures/takeoff.md) and [landing](../../procedures/landing.md). |
+| CAGE  | Reticle is displayed and caged at the radar boresight line (RBL). This is used for [takeoff](../../procedures/takeoff/takeoff.md) and [landing](../../procedures/landing/landing.md). |
 | A/G   | Selects air to ground mode. Manual set depression is referenced from the fuselage reference line (FRL).                                                               |
 | A/A   | Selects air to air lead computing mode. Position is set by the gyro, range, and CADC, and can be caged.                                                               |
 | BIT 1 | System self test mode 1.                                                                                                                                              |
