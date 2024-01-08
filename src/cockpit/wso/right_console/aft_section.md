@@ -6,7 +6,7 @@ The aft section of the right console features the navigation and lighting panel.
 
 ![Navigation Panel](../../../img/wso_nav_panel.jpg)
 
-TODO
+> 🚧 This section is under construction.
 
 ## WSO Cockpit Lighting Control Panel
 

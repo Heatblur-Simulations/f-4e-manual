@@ -119,6 +119,10 @@ Jesters logic is divided into 6 layers of abstraction:
 - Task
 - Action
 
+Code is placed in the Mod-Folder, for example:
+
+`G:\DCS World OpenBeta\Mods\aircraft\F-4E\Jester`
+
 ### Example
 
 As an example that touches most of the layers, we want to create a feature that
