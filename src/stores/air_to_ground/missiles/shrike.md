@@ -63,12 +63,12 @@ required release maneuver- dive, level, or pull-up. At this time, the pilot can
 press and hold the bomb release button to initiate the attack. Once the release
 range is attained in the instructed profile, the missile will be launched.
 
-Special note must be made of the importance of maintaining the ADI needles
-centered, especially the vertical azimuth relationship. Because the orientation
-of the missile itself when installed on the wing can cause offset of its
-receiver to occur when the aircraft is banked, preparation of the attack may
-require repeated adjustments with wings brought to level every few seconds to
-make certain the aircraft is pointing at the emitter.
+>💡 Special note must be made of the importance of maintaining the ADI needles
+> centered, especially the vertical azimuth relationship. Because the orientation
+> of the missile itself when installed on the wing can cause offset of its
+> receiver to occur when the aircraft is banked, preparation of the attack may
+> require repeated adjustments with wings brought to level every few seconds to
+> make certain the aircraft is pointing at the emitter.
 
 #### Pull-up
 

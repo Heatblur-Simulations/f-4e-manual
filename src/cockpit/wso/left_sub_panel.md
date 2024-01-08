@@ -84,8 +84,8 @@ either of:
 - Mode 4/A
 - Mode 4/B
 
-In DCS, only Mode 4 (either A or B) is effective and can be used for
-interrogation.
+>💡 In DCS, only Mode 4 (either A or B) is effective and can be used for
+> interrogation.
 
 The other four digits are used to set the IFF code to interrogate for Modes 1
 to 3.

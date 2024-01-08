@@ -81,7 +81,7 @@
   - [Defensive Systems](systems/defensive_systems/overview.md)
     - [Countermeasures](./systems/defensive_systems/countermeasures.md)
     - [Radar Warning Receiver](./systems/defensive_systems/radar_warning_receiver.md)
-    - [ECM](./systems/defensive_systems/ecm.md)
+    - [Electronic Countermeasures](./systems/defensive_systems/ecm.md)
   - [Emergency](./systems/emergency.md)
 - [Weapons & Stores](./stores/overview.md)
   - [Guns](./stores/guns.md)

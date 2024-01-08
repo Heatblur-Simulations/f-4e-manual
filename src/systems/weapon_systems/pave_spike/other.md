@@ -19,13 +19,13 @@ takeoff or low level flight.
 The stow-procedure takes about 5 seconds, with the light indicating the current
 status.
 
-Note that the stow-position is held electrically and can not be held without
-power. Un-powered, the pod swings freely with force. Taking off without first
-applying power to the pod, or flying with the pod being powered off, will cause
-the pod to leave the stow position. Outside of the stow position, the system
-will get damaged through hazards and whenever it is forcefully moved into its
-gimbal limits. Damage will not only offset the boresight position, but also
-affect other properties, such as movement speed and similar.
+>💡 The stow-position is held electrically and can not be held without
+> power. Un-powered, the pod swings freely with force. Taking off without first
+> applying power to the pod, or flying with the pod being powered off, will cause
+> the pod to leave the stow position. Outside of the stow position, the system
+> will get damaged through hazards and whenever it is forcefully moved into its
+> gimbal limits. Damage will not only offset the boresight position, but also
+> affect other properties, such as movement speed and similar.
 
 ## Cooling
 
@@ -149,7 +149,7 @@ situations in which the computed slant range was usually too inaccurate.
 
 With the upgrade, the system will automatically accept the laser slant range
 whenever the pods elevation gimbal is above -7.5 degrees. I.e. in shallow
-angles, for example during 12-VIS mode.
+angles, for example during 12-VIS mode or low altitude attacks.
 
 ### Fast-Track
 

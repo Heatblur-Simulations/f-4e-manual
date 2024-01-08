@@ -202,9 +202,9 @@ of the RIP itself. Because the computations performed by the WRCS and navigation
 system are mechanical, selecting a RIP target altitude above the course can
 cause interference damage. To alleviate this, perform the following:
 
-a. Note the approach altitude above MSL. b. Subtract the approach altitude MSL
-from the RIP altitude above MSL. c. Subtract the resulting value found in b from
-the approach altitude.
+1. Note the approach altitude above MSL.
+2. Subtract the approach altitude MSL from the RIP altitude above MSL.
+3. Subtract the resulting value found in b from the approach altitude.
 
 The resulting value is used for the target altitude value, and the pilot flies
 the planned approach attitude during the target freeze and insert operations as
@@ -293,9 +293,9 @@ standard release signal to the fire control and AWRU to initiate bomb drop. It
 is instead used to confirm target location without release, for training
 purposes, or, if necessary, perform an INS system update.
 
-Note: with Pave Spike installed, Target Find **can** initiate a weapon release,
-and so Master Arm should be kept in the OFF position until positive target
-confirmation is achieved.
+>💡 With Pave Spike installed, Target Find **can** initiate a weapon release,
+> and so Master Arm should be kept in the OFF position until positive target
+> confirmation is achieved.
 
 ### Target Find INS Update
 
