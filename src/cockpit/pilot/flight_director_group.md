@@ -33,11 +33,19 @@ set between the 225 knot and 850 knot regions relative to the airspeed gauge.
 
 ![AoAInd](../../img/AoAInd.jpg)
 
-Drawing relative wind information from the landing-gear adjacent AoA probe, the
-AoA indicator offers conditional reference for cruise (7.9 units), approach
-(19.2 units), and stall (30.0 units). Because of the AoA probe to the nose gear door
-and subsequent airflow disturbance when the gear is lowered, actual aircraft AoA
-is approximately 1 unit higher than indicated, and ON SPEED AoA is roughly 5
+Drawing relative wind information from the landing-gear
+adjacent [AoA](../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system) probe,
+the
+[AoA](../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system) indicator offers
+conditional reference for cruise (7.9 units), approach
+(19.2 units), and stall (30.0 units). Because of
+the [AoA](../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system) probe to the
+nose gear door
+and subsequent airflow disturbance when the gear is lowered, actual
+aircraft [AoA](../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system)
+is approximately 1 unit higher than indicated, and ON
+SPEED [AoA](../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system) is roughly
+5
 knots slower than the given value.
 
 When indicator power is offline due to electrical system configuration or
@@ -49,14 +57,17 @@ indicator.
 
 ![RefSel](../../img/RefSel.jpg)
 
-Toggles between the inertial navigation set and AN/AJB-7 displacement gyroscope
+Toggles between the [inertial navigation set](../../systems/nav_com/ins.md)
+and [AN/AJB-7](../../systems/weapon_systems/arbcs.md) displacement gyroscope
 for attitude information. When set to PRIM, the inertial navigation set provides
-azimuth and attitude data to the ADI; when on STBY, AN/AJB-7 supplies this
-information. Azimuth data also feeds into the HSI and BDHI (rear cockpit).
+azimuth and attitude data to the ADI; when on
+STBY, [AN/AJB-7](../../systems/weapon_systems/arbcs.md) supplies this
+information. Azimuth data also feeds into the HSI
+and [BDHI](../wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi) (rear cockpit).
 Additionally, attitude details are sent to the fire control system.
 
->💡 Inertial information requires the inertial navigator control panel's
-switch to be on NAV.
+> 💡 Inertial information requires the inertial navigator control panel's
+> switch to be on NAV.
 
 When transitioning between STBY and PRIM, immediate attitude information may
 show unusual gyrations on the attitude director indicator due to initial
@@ -71,22 +82,21 @@ for manual compass system synchronization (SYNC position)
 Includes an attitude sphere, turn indicator, steering bars, miniature aircraft,
 glide-slope pointer, flags, and pitch trim knob. It displays pitch, bank, and
 heading from the selected reference system and allows pitch adjustment via the
-trim knob. The turn indicator relies on a gyro from the AN/AJB-7 system. The
+trim knob. The turn indicator relies on a gyro from
+the [AN/AJB-7 system.](../../systems/weapon_systems/arbcs.md) The
 steering bars offer Flight Director guidance for heading interception,
-navigation, and ILS approaches. The glide-slope pointer provides vertical
-guidance information during an ILS approach.
+navigation, and [ILS](../../systems/nav_com/vor_ils.md) approaches. The glide-slope pointer provides
+vertical guidance information during an [ILS](../../systems/nav_com/vor_ils.md) approach.
 
 ## Marker Beacon Lamp
 
 ![MB Lamp](../../img/pilot_marker_beacon_lamp.jpg)
 
 This lamp illuminates whenever flying over a marker beacon station,
-provided the VOR/ILS system has been activated. Additionally, an audio
-cue is played through the intercom system.
+provided the [VOR/ILS](../../systems/nav_com/vor_ils.md) system has been activated. Additionally,
+an audio cue is played through the [intercom system.](../../systems/nav_com/intercom.md)
 
 The lamp can be rotated to dim and pushed to test.
-
-See [VOR/ILS System](../../systems/nav_com/vor_ils.md) for details.
 
 ## Horizontal Situation Indicator
 
@@ -97,8 +107,8 @@ numbered 1 and 2 respectively, a range indicator, and a range warning flag.
 Presents a top-down view of the currently programmed navigation. The Heading Set
 knob (lower left) is available to input desired magnetic heading, and the
 Course Set knob (lower right) is
-used to enter VOR radial or inbound localizer course for accurate deviation
-display.
+used to enter [VOR](../../systems/nav_com/vor_ils.md) radial or inbound localizer course for
+accurate deviation display.
 
 ## Altimeter
 
@@ -146,12 +156,12 @@ the ADI; the OFF position has the switch aligned vertically.
 
 ### Bearing/Distance Knob
 
-| Name     | Description                                                                                       |
-|----------|---------------------------------------------------------------------------------------------------|
-| VOR/TAC  | Magnetic and relative bearing to VOR station and TACAN range displayed on HSI.                    |
-| TAC      | Magnetic and relative bearing and range to TACAN station displayed on the HSI.                    |
-| ADF/TAC  | Magnetic and relative bearing to ADF station and TACAN range displayed on HSI.                    |
-| NAV COMP | Magnetic and relative bearing and range provided from navigation computer(i.e. waypoints) on HSI. |
+| Name                                                                          | Description                                                                                                                                          |
+|-------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [VOR](../../systems/nav_com/vor_ils.md)/[TAC](../../systems/nav_com/tacan.md) | Magnetic and relative bearing to [VOR](../../systems/nav_com/vor_ils.md) station and [TACAN](../../systems/nav_com/tacan.md) range displayed on HSI. |
+| [TAC](../../systems/nav_com/tacan.md)                                         | Magnetic and relative bearing and range to [TACAN](../../systems/nav_com/tacan.md) station displayed on the HSI.                                     |
+| ADF/[TAC](../../systems/nav_com/tacan.md)                                     | Magnetic and relative bearing to ADF station and [TACAN](../../systems/nav_com/tacan.md) range displayed on HSI.                                     |
+| NAV COMP                                                                      | Magnetic and relative bearing and range provided from navigation computer(i.e. waypoints) on HSI.                                                    |
 
 ### Mode Selector Knob Display Functions
 
@@ -161,9 +171,9 @@ the ADI; the OFF position has the switch aligned vertically.
 
 ![VOR Lamp](../../img/pilot_vor_lamp.jpg)
 
-Illuminates to indicate that the VOR system is ready and receiving.
+Illuminates to indicate that the [VOR](../../systems/nav_com/vor_ils.md) system is ready and
+receiving.
 
-That is, a valid VOR frequency has been selected, a signal is received and the
-navigation knobs have been turned to VOR navigation.
-
-See [VOR/ILS System](../../systems/nav_com/vor_ils.md) for details.
+That is, a valid [VOR](../../systems/nav_com/vor_ils.md) frequency has been selected, a signal is
+received and the navigation knobs have been turned to [VOR](../../systems/nav_com/vor_ils.md)
+navigation.
