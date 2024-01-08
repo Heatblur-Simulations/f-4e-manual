@@ -9,9 +9,12 @@ and controls for exterior lighting.
 
 Manages essential controls for the proper operation of the AJB-7 azimuth system.
 Essential for accurate azimuth output to instruments
-like [ADI,](../../pilot/flight_director_group.md#attitude-director-indicator) [HSI,](../../pilot/flight_director_group.md#horizontal-situation-indicator) [BDHI,](../../wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi)
+like [ADI,](../../pilot/flight_director_group.md#attitude-director-indicator)
+[HSI,](../../pilot/flight_director_group.md#horizontal-situation-indicator)
+[BDHI,](../../wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi)
 but also to the rear
-seat [attitude indicator,](../../wso/upfront_indicators.md#attitude-indicator) [autopilot,](../../../systems/flight_controls_gear/flight_controls.md#auotmatic-flight-control-system-afcs)
+seat [attitude indicator,](../../wso/upfront_indicators.md#attitude-indicator)
+[autopilot,](../../../systems/flight_controls_gear/flight_controls.md#auotmatic-flight-control-system-afcs)
 and [bombing computer.](../../../systems/weapon_systems/wrcs.md)
 
 ### Mode Selector Knob
