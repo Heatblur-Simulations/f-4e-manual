@@ -57,9 +57,9 @@ information provided on the HSI, ADI, and BDHI, respectively.
 | A/A REC | The TACAN receiver decodes bearing information from compliant aircraft for the HSI, BDHI, and ADI steering display.                                        |
 | A/A TR  | The TACAN receiver receives both bearing and slant range information in nautical miles from the transmitting aircraft, providing this on the HSI and BDHI. |
 
-Note: Air to Air TACAN functionality requires the channel to be set 63 channels
-above or below the cooperating aircraft, but on the same range- X or Y. So a tanker on 123Y should
-be set to 60Y in the F-4.
+>💡 Air to Air TACAN functionality requires the channel to be set 63 channels
+> above or below the cooperating aircraft, but on the same range- X or Y. So a tanker on 123Y should
+> be set to 60Y in the F-4.
 
 ## Communication Control Panel
 

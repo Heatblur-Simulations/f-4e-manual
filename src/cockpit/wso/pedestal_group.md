@@ -100,9 +100,11 @@ stowed when the button is illuminated.
 When un-stowed, the pod will move accordingly to the selected acquisition mode.
 
 To prevent damage to the system, the pod must be stowed during takeoff, landing
-and any High-G maneuvers. Note that the stowed position is held electrically
-only and without power, the pod swings freely and gets damaged when forcefully
-bumped into its gimbal limits.
+and any High-G maneuvers.
+
+>💡 The stowed position is held electrically
+> only and without power, the pod swings freely and gets damaged when forcefully
+> bumped into its gimbal limits.
 
 ### Laser Ready Select Button
 

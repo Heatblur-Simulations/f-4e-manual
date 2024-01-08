@@ -40,7 +40,7 @@ rotary knobs for controlling the system's volume and panel brightness.
 
 ### Priority/Open
 
-The ALR-46 defaults on powerup to OPEN mode, which presents up to 16 threats on the display at one
+The ALR-46 defaults on power-up to OPEN mode, which presents up to 16 threats on the display at one
 time, depending on how many emitters are visible and current system settings (Search, LOW ALT,
 etc.). In the event the crew requires immediate prioritization of the most pressing threats in a
 saturated environment, the PRIORITY button can be pressed to display the five emitters the system
@@ -51,7 +51,7 @@ and revert back upon selection back to OPEN.
 
 By default, the ALR-46 is programmed to prioritize and display emitters tied to weapons that can
 engage and destroy the aircraft. However, missions will require monitoring of early warning and
-search radar systems working with longer pulsewidths for extended range detection and tracking of
+search radar systems working with longer pulse-widths for extended range detection and tracking of
 possible intruders- ie, the F-4. These emitters can be displayed using the Search mode, which
 presents them on the RWR with the S symbol to signify their function as a long range search radar.
 Entry into Search mode is displayed on the button with an illuminated "S".
@@ -65,7 +65,7 @@ PRIORITY mode.
 The Handoff button provides the opportunity for the flight crew to define the priority emitting
 threat. By default, the ALR-46 defines the highest priority threat as a function of range, current
 transmitting mode, and the threat catalog. This priority threat is visualized with a diamond
-superiposed around the emitter's symbol. In the event the pilot wishes to define a different emitter
+superimposed around the emitter's symbol. In the event the pilot wishes to define a different emitter
 as the target, the Handoff button is pressed and held to cycle the priority diamond through the
 various emitters. Once the desired emitter is focused upon and surrounded with the diamond, the
 button can be released, and the priority symbol will remain latched with that emitter, with audio
@@ -87,7 +87,7 @@ provide launch audio through the intercom.
 
 ### Low Altitude (LOW ALT)
 
-The ALR-46 utilizes ownship altitude as a defining aspect of threat priority, thus causing low
+The ALR-46 utilizes own-ship altitude as a defining aspect of threat priority, thus causing low
 altitude AAA and SAM threats to lose priority in the event the aircraft is at an altitude that is
 estimated to place it outside of their threat envelope. Activating LOW ALT mode removes this
 envelope estimate from the threat prioritization and places low altitude threats back into priority,
@@ -100,7 +100,7 @@ In the event of a number of emitters being detected at such close proximity that
 overlaps on the RWR display, the Target Separation button provides the option to expand symbology on
 the display from emitters in the same area to allow for clarity on the type and number of radars
 being detected. Pressing the button triggers the lower TGT SEP illumination on the button, and any
-emitter groups the system defines as being elegible for the expanded presentation will do so for
+emitter groups the system defines as being eligible for the expanded presentation will do so for
 three seconds on the RWR display before reverting back to the standard view.
 
 ### System Test (ON/SYS TEST)
@@ -126,7 +126,7 @@ The default condition of the Unknown button is with the U symbol illuminated, bu
 
 In the event SAM guidance commands are detected, the ACTIVITY button will illuminate. This button's
 function is similar to the MISSILE LAUNCH indication insofar as that it responds to a guidance
-directive to a SAM, but does not respond to descrete changeover signals. Thus, an illuminated
+directive to a SAM, but does not respond to discrete changeover signals. Thus, an illuminated
 ACTIVITY warning may in fact indicate a launch, depending on the system engaging the F-4 and the
 circumstances surrounding it. The indication will provide a circle around the threat emitter.
 
@@ -165,4 +165,4 @@ knob clockwise increases the audio volume, turning counter-clockwise lowers the 
 
 The DIM knob on the ALR-46 control panel manages the brightness setting of the illuminated control
 buttons; turning the knob clockwise increases the brightness, counter-clockwise reduces the
-brightnes.
+brightness.
