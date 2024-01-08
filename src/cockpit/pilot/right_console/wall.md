@@ -9,12 +9,12 @@ The right wall features the main circuit breakers and lighting controls.
 The Instrument Lights Intensity Panel has six knobs that allow to independently
 change illumination intensity on the following indicators:
 
-- Airspeed/Mach Indicator
-- Attitude Director Indicator
-- Angle of Attack Indicator
-- Vertical Velocity Indicator
-- Altimeter
-- Horizontal Situation Indicator
+- [Airspeed/Mach Indicator](../../pilot/flight_director_group.md#airspeed-and-mach-indicator)
+- [Attitude Director Indicator](../../pilot/flight_director_group.md#attitude-director-indicator)
+- [Angle of Attack Indicator](../../pilot/flight_director_group.md#angle-of-attack-indicator)
+- [Vertical Velocity Indicator](../../pilot/flight_director_group.md#vertical-velocity-indicator)
+- [Altimeter](../../pilot/flight_director_group.md#altimeter)
+- [Horizontal Situation Indicator](../../pilot/flight_director_group.md#horizontal-situation-indicator)
 
 The base intensity of all indicators is controlled with the Flight Instrument
 Light knob on the Cockpit Light Control Panel.
@@ -32,8 +32,10 @@ BRT (bright), and JOIN UP.
 
 Also on this panel is the Indexer Lights brightness knob, which controls
 relative illumination of the AoA indexers on both sides of the windscreen.
-Marked positions are DIM and BRT (bright), with highest level to the right of
+Marked positions are DIM and BRT (bright), with the highest level to the right of
 the knob.
+
+For further information on the lighting see the [Lighting chapter.](../../../systems/lighting.md)
 
 ## Circuit Breaker Panel
 
@@ -86,6 +88,8 @@ buses to ensure the emergency light is available even in case of failure.
 |--------|----------------------|
 | Bright | Essential 28V DC Bus |
 | Dim    | Left Main 14V AC Bus |
+
+For further information on the lighting see the [Lighting chapter.](../../../systems/lighting.md)
 
 ### ML Audio
 

@@ -8,8 +8,11 @@ and controls for exterior lighting.
 ![CompassCtl](../../../img/CompassCtl.jpg)
 
 Manages essential controls for the proper operation of the AJB-7 azimuth system.
-Essential for accurate azimuth output to instruments like ADI, HSI, BDHI, but
-also to the rear seat attitude indicator, autopilot, and bombing computer.
+Essential for accurate azimuth output to instruments
+like [ADI,](../../pilot/flight_director_group.md#attitude-director-indicator) [HSI,](../../pilot/flight_director_group.md#horizontal-situation-indicator) [BDHI,](../../wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi)
+but also to the rear
+seat [attitude indicator,](../../wso/upfront_indicators.md#attitude-indicator) [autopilot,](../../../systems/flight_controls_gear/flight_controls.md#auotmatic-flight-control-system-afcs)
+and [bombing computer.](../../../systems/weapon_systems/wrcs.md)
 
 ### Mode Selector Knob
 
@@ -18,7 +21,7 @@ Slaved. It also has a spring-loaded SYNC position for fast synchronization of
 the azimuth system based on the compass flux valve signal.
 
 | Name                  | Description                                                                                                                                                                                                                  |
-| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | COMP (Compass)        | Used in emergencies when the reference systems fail. Supplies magnetic heading directly from the flux valve                                                                                                                  |
 | DG (Directional Gyro) | Used in extreme latitudes and regions with magnetic distortion, the initial magnetic heading needs manual adjustment. If the reference system is set to STBY, the aircraft's latitude must be adjusted on the latitude knob. |
 | Slaved                | Primary operational mode under typical conditions, it depends on signals from the flux valve for a gradual synchronization of the system.                                                                                    |
@@ -60,11 +63,14 @@ To ensure lights are available even in case of power failure conditions, the BRT
 and DIM selections are routed through different buses:
 
 | Lamp       | Bus                   |
-| ---------- | --------------------- |
+|------------|-----------------------|
 | Bright     | Right Main 28V DC Bus |
 | Dim        | Left Main 14V AC Bus  |
 | Anti-Col 1 | Right Main 14V AC Bus |
 | Anti-Col 2 | Left Main 14V AC Bus  |
+
+For further information about the lighting see
+the [lighting chapter.](../../../systems/lighting.md#exterior-lighting)
 
 ### Fuselage Switch
 
