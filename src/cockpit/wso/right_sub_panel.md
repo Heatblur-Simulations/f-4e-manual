@@ -27,11 +27,11 @@ the [Encryption chapter](../../systems/nav_com/encryption.md).
 
 Controls for the electronic counter-measurement and jamming system.
 
-The left panel is connected to the left missile well adapter, the right panel
-to the right missile well adapter.
+The left panel is connected to any pods carried on left stations, the right panel
+to stations on the right.
 
 Interpretation of the modes, techniques and exact operation of the lights
-depend on the loaded jammer model. See [ECM Pod](../../stores/pods.md#alq-131-ecm-pod)
+depend on the loaded jammer model. See the [ECM section](../../systems/defensive_systems/ecm.md)
 for details.
 
 ### Mode Knob
@@ -66,7 +66,7 @@ currently active and transmitting.
 
 Indicates that a radar has been detected and is actively jammed.
 
-Due to DCS limitations, this is currently not simulated in-game.
+>💡 Due to DCS limitations, this is currently not simulated in-game.
 
 ### Reset Button and Lamp
 

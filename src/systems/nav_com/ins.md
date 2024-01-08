@@ -138,12 +138,12 @@ level flight. The process of resetting the Reference Selector to PRIM can be
 performed approximately after 40 seconds, although the precise alignment time is
 not specified.
 
-It's important to note that the accuracy of the attitude in this alignment is
-contingent upon how steadily the aircraft was flown during the alignment period
-and subsequent alignments may be required. Following this emergency alignment,
-only attitude information will be available. Velocities, position, and displays
-on the navigation computer will be inaccurate and cannot be utilized for
-navigation purposes.
+>💡 Accuracy of the attitude in this alignment is
+> contingent upon how steadily the aircraft was flown during the alignment period
+> and subsequent alignments may be required. Following this emergency alignment,
+> only attitude information will be available. Velocities, position, and displays
+> on the navigation computer will be inaccurate and cannot be utilized for
+> navigation purposes.
 
 ## Navigation Computer
 

@@ -28,9 +28,10 @@ altitude.
 
 Entries for North/South and East/West are in 100 foot increments, and a maximum
 value of up to 99,900 feet may be entered for these distances. The ALT RANGE
-entry has a maximum of 24,900 in 100 foot increments. Note that the WRCS can be
-damaged if the ALT RANGE entry is greater than the aircraft's current MSL (x100)
-in TGT FIND and OFFSET BOMB modes.
+entry has a maximum of 24,900 in 100 foot increments.
+
+>💡 The WRCS can be damaged if the ALT RANGE entry is greater
+> than the aircraft's current MSL (x100) in TGT FIND and OFFSET BOMB modes.
 
 ## Release Range Control
 

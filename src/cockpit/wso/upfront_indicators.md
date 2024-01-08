@@ -51,8 +51,8 @@ Two lamp indicator illustrating current KY-28 operating mode- P indicates plain
 (unencrypted) mode transmission, whereas C indicates cipher (encrypted) mode
 transmission.
 
-Note: UHF communications require the system be in Plain mode, even
-with system power off, barring usage and monitoring of guard channel.
+>💡 UHF communications require the system be in Plain mode, even
+> with system power off, barring usage and monitoring of guard channel.
 
 ## Master Caution Light
 
@@ -62,8 +62,8 @@ A repeater of the front cockpit Master Caution light, provides warning to the
 WSO that a caution condition exists and the telelight panel needs to be checked
 for cause to rectify the situation.
 
-Note: There is no separate reset button for the WSO. The Pilot has to
-reset the Master Caution if it occurs.
+>💡 There is no separate reset button for the WSO. The Pilot has to
+> reset the Master Caution if it occurs.
 
 ## Shoot Light
 
@@ -129,7 +129,7 @@ detected by the APX-81A Combat Tree system.
 
 Illuminated each time the system detects being interrogated by other aircraft.
 
-Due to DCS limitations, this is not simulated in-game.
+>💡 Due to DCS limitations, this is not simulated in-game.
 
 ## Range (VISIDENT) Indicator
 

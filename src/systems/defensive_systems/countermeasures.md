@@ -80,9 +80,9 @@ There are two subtraction counters, one for the chaff system and one for the
 flare system. They indicate the quantity of remaining chaff and flare cartridge
 dispensers independent of the mode switch position.
 
-NOTE: When the slave dispenser is set to Chaff Double (CD), the chaff counter
-should be set to half the number of total chaff cartridges loaded or the chaff
-counter will show twice the number of chaff cartridge dispenses remaining.
+>💡 When the slave dispenser is set to Chaff Double (CD), the chaff counter
+> should be set to half the number of total chaff cartridges loaded or the chaff
+> counter will show twice the number of chaff cartridge dispenses remaining.
 
 ### Chaff Double (CD)
 
@@ -95,8 +95,8 @@ Both the flare and the chaff system have one green indicator light each.
 Whenever a mode is selected on the respective mode knob, the corresponding
 indicator light will illuminate.
 
-NOTE: Both flare and chaff modes can be operated simultaneously provided a mixed
-chaff/flare loadout has been selected.
+>💡 Both flare and chaff modes can be operated simultaneously provided a mixed
+> chaff/flare loadout has been selected.
 
 ### Ripple Switch
 
@@ -188,9 +188,9 @@ dispensers.
 
 ### Master Dispenser Assembly
 
-NOTE: Operation of the master dispenser assembly is done automatically by the
-ground crew in DCS, according to the AN/ALE-40 loadout selected in the loadout
-menu.
+>💡 Operation of the master dispenser assembly is done automatically by the
+> ground crew in DCS, according to the AN/ALE-40 loadout selected in the loadout
+> menu.
 
 One master dispenser assembly is installed on the outboard side of each inboard
 armament pylon. It consists of a sequencer switch, a breech assembly, a
@@ -211,11 +211,11 @@ according to the selected loadout.
 
 ### Slave Dispenser Assembly
 
-Note: The payload selector switch position is set to CS (chaff single dispense)
-by default in DCS. To set it to CD (chaff double dispense), you have to do so
-either in the Mission Editor Unit Aircraft Additional Options tab or in the
-kneeboard. This action can only be performed on the ground and/or before mission
-start.
+>💡 The payload selector switch position is set to CS (chaff single dispense)
+> by default in DCS. To set it to CD (chaff double dispense), you have to do so
+> either in the Mission Editor Unit Aircraft Additional Options tab or in the
+> kneeboard. This action can only be performed on the ground and/or before mission
+> start.
 
 One slave dispenser assembly is installed on the inboard side of each inboard
 armament pylon. It contains a payload selector switch to set either chaff single

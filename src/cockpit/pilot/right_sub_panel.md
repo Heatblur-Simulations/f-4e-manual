@@ -41,8 +41,10 @@ operations.
 ![KY28Mode](../../img/KY28Mode.jpg)
 
 Dependent on mode, the illuminated display shows P for Plain mode, or C for
-Cipher mode. Note: UHF communications require the system be in Plain mode, even
-with system power off, barring usage and monitoring of guard channel.
+Cipher mode.
+
+>💡 UHF communications require the system be in Plain mode, even
+> with system power off, barring usage and monitoring of guard channel.
 
 ## Telelight Annunciator Panel
 
