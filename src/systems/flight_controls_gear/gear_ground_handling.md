@@ -72,14 +72,27 @@ function is delayed by the Anti-Skid System on landing until the right main gear
 has been in contact with the ground for 3 seconds, or the wheels reach 50 knots
 of rotation.
 
-## Anti-Skid Control Switch
+## Anti-Skid System
+
+The electronically controlled anti-skid system
+provides anti-skid protection at wheel speeds over 30 knots. The system detects the start of a skid
+and releases the brake pressure in proportion to skid severity. Below 30 knots the anti-skid
+protection is not available and braking is in direct proportion to the brake pedal movement. The
+system has a built-in touchdown protection feature that prevents braking until 3 seconds after
+weight is sensed on the right main gear or wheel spin up to 50 knots. It should be noted that a low
+coefficient of friction between the runway and tires (as it occurs during Aquaplaning or on icy
+runways) may lead to the wheels not spinning up or cause them to slow below 30 knots wheel speed
+after spin-up. In this case the system falsely detects the aircraft speed below 30 knots and reverts
+to manual braking.
+
+### Anti-Skid Control Switch
 
 ![AntiSkidSwitch](../../img/pilot_anti_skid_switch.jpg)
 
 Next to the oxygen quantity gauge in the front cockpit is the Anti-Skid Control
 Switch, which is used to turn the system ON or OFF.
 
-## Anti-Skid Inoperative Light
+### Anti-Skid Inoperative Light
 
 ![AntiSkidSwitch](../../img/pilot_anti_skid_light.jpg)
 
@@ -87,7 +100,7 @@ Found on the front cockpit left console, the ANTI-SKID INOPERATIVE light will
 indicate when the Anti-Skid Switch is set to OFF, the Emergency Quick Release
 Lever is pressed, or there is a system issue.
 
-## Emergency Anti-Skid Quick Release Lever
+### Emergency Anti-Skid Quick Release Lever
 
 ![pilot_emergency_anti_skid_lever](../../img/pilot_emergency_anti_skid_release.jpg)
 

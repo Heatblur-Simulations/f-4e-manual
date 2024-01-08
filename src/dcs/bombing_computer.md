@@ -3,8 +3,8 @@
 The bombing calculator provides the pilot and WSO with an easy way to calculate the needed values
 for the different bombing modes. You can use it to calculate every value (except for drag
 coefficient) that you need to drop precise ordinance on your target. It is opened with the hotkey
-rctrl + b and can be closed with the same hotkey in-game. You can also bind it to a desired button
-in the controls tab.
+<kbd>RCTRL</kbd>+<kbd>B</kbd> and can be closed with the same hotkey in-game. You can also bind it
+to a desired button in the controls tab.
 
 ![manual_bombing_calculator_warnings](../img/manual_bombing_calculator_warning.jpg)
 
