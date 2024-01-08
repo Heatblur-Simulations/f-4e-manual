@@ -15,7 +15,10 @@ Jester is fully open to modding. Please see the [Jester API](jester/overview.md)
 
 ## Manual
 
+<!-- markdown-link-check-disable -->
 This manual is open-source at [GitHub](https://github.com/Heatblur-Simulations/f-4e-manual).
+<!-- markdown-link-check-enable -->
+
 If you found a typo or want to improve a section, please let us know or
 also feel free to contribute yourself directly at GitHub.
 
