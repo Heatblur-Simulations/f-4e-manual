@@ -230,12 +230,12 @@ The Angle of Attack Indicator dials register AoA values from 0 to 30 units, with
 indications for weight-relative optimum altitude cruise (7.9 units) , approach
 (19.2 units), and stall (30 units).
 
-It is important to note that extension of the landing gear and thus the nose
-gear door changes the airflow around the probe causing to indicate higher
-angles by 1 unit. The approach airspeeds account for that. Therefore, performing
-an approach with the gear retracted, will cause the indicators to show
-approximately 1 unit low, and the aircraft will be roughly 5 knots fast for an
-on-speed approach.
+>💡 Extension of the landing gear and thus the nose
+> gear door changes the airflow around the probe causing to indicate higher
+> angles by 1 unit. The approach airspeeds account for that. Therefore, performing
+> an approach with the gear retracted, will cause the indicators to show
+> approximately 1 unit low, and the aircraft will be roughly 5 knots fast for an
+> on-speed approach.
 
 ### Indexers
 

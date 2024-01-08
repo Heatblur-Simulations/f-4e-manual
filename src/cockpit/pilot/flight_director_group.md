@@ -55,7 +55,7 @@ azimuth and attitude data to the ADI; when on STBY, AN/AJB-7 supplies this
 information. Azimuth data also feeds into the HSI and BDHI (rear cockpit).
 Additionally, attitude details are sent to the fire control system.
 
-Note: Inertial information requires the inertial navigator control panel's
+>💡 Inertial information requires the inertial navigator control panel's
 switch to be on NAV.
 
 When transitioning between STBY and PRIM, immediate attitude information may

@@ -10,7 +10,7 @@ As opposed to the Interrogator panel in the WSO cockpit, this panel provides
 the pilot with the ability to adjust the IFF sender of the own aircraft.
 Which would then be picked up by interrogators in other aircraft.
 
-Due to DCS limitations, this is not simulated in-game.
+>💡 Due to DCS limitations, this is not simulated in-game.
 
 For further explanation see
 the [IFF System controls chapter](../../../systems/identification_systems.md#iff-controls-and-indicators).

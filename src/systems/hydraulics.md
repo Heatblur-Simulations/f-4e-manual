@@ -34,14 +34,14 @@ definite pump failure, CHK HYD GAGES will illuminate on
 the [telelight panel](../cockpit/pilot/right_sub_panel.md#telelight-annunciator-panel) along with
 the [Master Caution warning](../cockpit/pilot/right_main_panel.md#master-caution-light).
 
-Note: In the event of a Utility system failure on the right side, no apparent pressure loss will be
-shown to underline the illumination of the CHK HYD GAGES light, whereas a left side failure will
-show a loss of 200 PSI or more on the Utility system pressure indicator. In any case, if the
-pressure recovers back to above 1750 PSI, the CHK HYD GAGES light will turn off. In the event of a
-Utility system failure on the right side, no apparent pressure loss will display to
-match the CHK HYD GAGES light, whereas a left side failure will show a loss of
-200 PSI or more on the Utility system pressure indicator. In the event system
-pressure recovers back to above 1750 PSI, the CHK HYD GAGES light will turn off.
+>💡 In the event of a Utility system failure on the right side, no apparent pressure loss will be
+> shown to underline the illumination of the CHK HYD GAGES light, whereas a left side failure will
+> show a loss of 200 PSI or more on the Utility system pressure indicator. In any case, if the
+> pressure recovers back to above 1750 PSI, the CHK HYD GAGES light will turn off. In the event of a
+> Utility system failure on the right side, no apparent pressure loss will display to
+> match the CHK HYD GAGES light, whereas a left side failure will show a loss of
+> 200 PSI or more on the Utility system pressure indicator. In the event system
+> pressure recovers back to above 1750 PSI, the CHK HYD GAGES light will turn off.
 
 With a CHK HYD GAGES warning,
 the [Master Caution](../cockpit/pilot/right_main_panel.md#master-caution-light) can be cleared by
