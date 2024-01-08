@@ -41,7 +41,6 @@ MASTER CAUTION lights may illuminate momentarily
 as the landing gear and flaps are retracted.
 
 CAUTION
-
 >Rapid full aft movement of the stick between
 takeoff airspeed and 30 knots below takeoff
 airspeed may result in the stabilator hitting the
