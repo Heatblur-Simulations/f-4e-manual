@@ -161,6 +161,8 @@ under crosswind conditions is keeping the aircraft
 precisely aligned with the runway rather than trying to
 correct back to the runway centerline after it has deviated.
 
+![Crosswind Landing Guide](../../img/landing_crosswind.jpg)
+
 ## Wet or Icy Runway Landing
 
 Wet or icy runway conditions pose severe problems in
