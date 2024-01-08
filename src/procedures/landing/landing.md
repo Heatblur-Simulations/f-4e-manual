@@ -98,8 +98,8 @@ anti-skid failure.
 
 ## No-flap Landing
 
-Refer to **EMERGENCY PROCEDURES**
-<!-- TODO: add link -->
+Refer to [EMERGENCY PROCEDURES](../../emergency_procedures/overwiew.md)
+<!-- TODO: add specific procedure link -->
 
 ## Short field Landing
 
@@ -205,7 +205,7 @@ maintaining the track straight down the runway
 centerline. Nose gear steering is the primary method of
 directional control and should be utilized as early as
 possible. Nose gear steering should be engaged only with
-the rudder pedals·at or near neutral. When directional
+the rudder pedals at or near neutral. When directional
 control is firmly established utilize maximum anti-skid
 braking. Brake pedals must be fully depressed to achieve
 maximum deceleration. At high speeds the braking

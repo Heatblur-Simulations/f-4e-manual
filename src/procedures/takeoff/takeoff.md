@@ -6,7 +6,7 @@ The slats out-flaps down position is recommended for all
 takeoffs. After taking the runway and completing
 necessary pre-takeoff checks, engines can be run to 85%
 with brakes held and nose gear steering engaged to ensure
-nose gear alignment (figure 2-5). With both engines
+nose gear alignment. With both engines
 operating in excess of 85% and the brakes locked, there is
 a possibility of rotating the tires on the wheel rims or
 skidding the tires. Check for normal rpm response and
@@ -72,7 +72,7 @@ runway and/or loss of aircraft control.
 
 ## A minimum run/heavy gross weight Takeoff
 
-A minimum run/heavy gross weight takeoff(aircraft over
+A minimum run/heavy gross weight takeoff (aircraft over
 55,500 pounds) is accomplished in the same manner as a
 normal takeoff with the following exceptions: It is
 recommended that all minimum run/heavy gross weight
@@ -138,7 +138,7 @@ maintain Mach 0.9 until reaching cruise altitude.
 
 A rig check shall be performed if an out-of-rig or
 unintentional asymmetric load condition is suspected and
-before maximu11f-performance/high-AOA maneuvering.
+before maximum-performance/high-AOA maneuvering.
 With all axes of the stab aug engaged, center the rear
 cockpit ball and check that aircraft does not roll more than
 2°/second with ailerons and spoilers trimmed neutral. Ifa
