@@ -20,7 +20,8 @@ during daylight-conditions and using a laser to guide weapons on target. See the
 ![ext_alq_131_ecm_pod](../img/ext_alq_131_ecm_pod.jpg)
 
 Pod for electronic countermeasures, such as jamming radars and radar
-guided missiles.
+guided missiles. See the
+[ECM section](../systems/defensive_systems/ecm.md) for more.
 
 ## ALE-40 Dispenser
 
