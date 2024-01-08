@@ -22,8 +22,8 @@ the [AGM-65 Maverick](../../stores/air_to_ground/missiles/maverick.md).
 ![SightShutter](../../img/SightShutter.jpg)
 
 Changes the optical sight light source to prevent damage to the optics from high
-sunlight. Is used after [landing](../../procedures/landing/checklists.md#after-landing) to prevent damage to
-the sight.
+sunlight. Is used [after landing](../../procedures/landing/checklists.md#after-landing)
+to prevent damage to the sight.
 
 ## Reticle Depression Knob
 
