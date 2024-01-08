@@ -1,7 +1,8 @@
 # Center Section
 
-The center section of the left console controls fuel and
-navigation related settings.
+The center section of the left console
+controls [fuel](../../../systems/engines_and_fuel_systems/fuel_system.md)
+and [navigation](../../../systems/nav_com/overview.md) related settings.
 
 ## Fuel Control Panel
 

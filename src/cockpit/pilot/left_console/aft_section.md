@@ -1,6 +1,7 @@
 # Aft Section
 
-The aft section of the left console has the intercom and countermeasure controls.
+The aft section of the left console has the [intercom](../../../systems/nav_com/intercom.md)
+and [countermeasure](../../../systems/defensive_systems/countermeasures.md) controls.
 
 ## Boarding Steps Indicator
 
@@ -8,7 +9,8 @@ The aft section of the left console has the intercom and countermeasure controls
 
 Used to visually confirm the integrated boarding steps state. With
 the white post up, steps are stowed, whereas steps are deployed if post
-is down and flush with panel recess. The boarding steps and ladder is moved by the ground crew menu.
+is down and flush with panel recess. The boarding steps and ladder is moved
+by [the crew chief](../../../crew_chief/overview.md).
 
 ## Intercom System Control Panel
 
@@ -17,19 +19,19 @@ is down and flush with panel recess. The boarding steps and ladder is moved by t
 ### Pilot ICS Volume Control Knob
 
 Turned clockwise to increase audio between cockpits, and counterclockwise to
-decrease audio between cockpits on the intercom.
+decrease audio between cockpits on the [intercom](../../../systems/nav_com/intercom.md).
 
 ### Pilot ICS Function Selector Switch
 
-| Name           | Description                                                                        |
-|----------------|------------------------------------------------------------------------------------|
-| COLD MIC       | Mic switch on throttle must be held to activate intercom.                          |
-| HOT MIC        | Voice automatically transmitted on intercom.                                       |
-| RADIO OVERRIDE | Intercom overrides incoming radio calls; does not override aircraft warning audio. |
+| Name           | Description                                                                                                                |
+|----------------|----------------------------------------------------------------------------------------------------------------------------|
+| COLD MIC       | Mic switch on throttle must be held to activate [intercom](../../../systems/nav_com/intercom.md).                          |
+| HOT MIC        | Voice automatically transmitted on [intercom](../../../systems/nav_com/intercom.md).                                       |
+| RADIO OVERRIDE | [intercom](../../../systems/nav_com/intercom.md) overrides incoming radio calls; does not override aircraft warning audio. |
 
 ### Pilot ICS Amplifier Select Knob
 
-Determines current amplifier for intercom function.
+Determines current amplifier for [intercom](../../../systems/nav_com/intercom.md) function.
 
 | Name | Description                                                                                                     |
 |------|-----------------------------------------------------------------------------------------------------------------|
@@ -41,8 +43,9 @@ Determines current amplifier for intercom function.
 
 ![AN/ALE-40 Panel](../../../img/ANALE40Prg.jpg)
 
-The panel features 6 knobs to control chaff and flare programs, as well as
-two lamps and a switch to activate flares on its base.
+The panel features 6 knobs to
+control [chaff and flare programs](../../../systems/defensive_systems/countermeasures.md#anale-40-programmer),
+as well as two lamps and a switch to activate flares on its base.
 
 ### Chaff Burst
 
@@ -50,8 +53,7 @@ The count knob selects the number of chaff burst commands per salvo;
 values of 1, 2, 3, 4, 6, or 8 from left to right.
 
 The interval knob selects the time interval of .1, .2, .3, or .4 seconds
-between each chaff burst
-command.
+between each chaff burst command.
 
 ### Chaff Salvo
 
@@ -76,13 +78,17 @@ Selects the time interval between each burst command. Values of 3, 4, 6, 8, or
 
 ### Flares Indicator Light
 
-Illuminates when the _Flares Select_ switch is in the Flares position and
-indicates they can be dispensed, if flaps and speed brakes are retracted.
+Illuminates when the [_Flares
+Select_](../../../systems/defensive_systems/countermeasures.md#flares-select-switch) switch is in
+the Flares position and indicates they can be dispensed,
+if [flaps and speed brakes](../../../systems/flight_controls_gear/flight_controls.md) are retracted.
 
 ### Power On Indicator Light
 
-Illuminates when the _Flares Select_ switch is in the Normal position and either
-(or both) mode knobs in the WSO cockpit are in any position other than OFF.
+Illuminates when the [_Flares
+Select_](../../../systems/defensive_systems/countermeasures.md#flares-select-switch) switch is in
+the Normal position and either (or both) mode knobs in the [WSO cockpit](../../wso/overview.md) are
+in any position other than OFF.
 
 ## Anti-G Suit Control Valve
 
