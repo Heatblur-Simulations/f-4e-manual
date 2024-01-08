@@ -73,7 +73,7 @@ counter-clockwise). Circular polarization is provided as it is less susceptible 
 precipitation-related clutter, and can allow detection or tracking of a target in such weather when
 a return is otherwise found to be marginal. However, it is important to note that only clockwise
 polarization (CIR 1) is compatible with the Sparrow's receiving antenna, and thus can only be fired
-in said mode. A Sparrow launched with the APQ-120 in CIR 2 will not track.
+in said mode. **A Sparrow launched with the APQ-120 in CIR 2 will not track.**
 
 ### Maneuver Switch
 
@@ -95,10 +95,9 @@ revert to a 1 bar scan.
 
 ### Aspect
 
-Using the Aspect knob the WSO can provide an [AIM-7](../stores/air_to_air/aim_7.md) with a simulated
-Doppler signal rather than the
-actual return signal to set the desired target speedgate for the missile. Once a Sparrow has
-been tuned, the NOSE, TAIL, FWD, and AFT options may be applied to set the speedgate with respect to
+Using the Aspect knob the WSO can provide an [AIM-7](../stores/air_to_air/aim_7.md) with a fixed simulated Doppler signal rather than the doppler for the tracked target. This simulated doppler
+sets the sparrow doppler gate.
+Once a Sparrow has been tuned, the NOSE, TAIL, FWD, and AFT options may be applied to set the speedgate with respect to
 the expected target Doppler for the intercept. Once launched the speedgate unlocks and sweeps the
 narrowly applied frequency of this simulated Doppler value. The WIDE option is available to permit
 the missile to search the full doppler spectrum for the target, rather than the limited width band
@@ -218,7 +217,7 @@ for proper fire control interaction.
 
 RDR Mode is used with the Display Mode selected as B WIDE or B NAR.
 
-![manual_radar_modes](../img/manual_radar_modes.jpg)
+![manual_radar_modes](../img/manual_radar_modes.jpg) (todo - these are DVST replace with DSCG images)
 
 Used for long distance acquisition of airborne targets, RDR Mode can be used at any range, with the
 capability to lockon to a target removed in the 100 and 200 mile ranges. Detection and acquisiton of
@@ -293,7 +292,9 @@ setting).
 
 BST can be used with any Display Knob position.
 
-### Default
+### Boresight
+
+The radar can be placed into two different boresight modes. These are both functionally identical with the exception that boresight entered via the mode knob position BST can be used at ranges greater than 5 nmi. Boresight condition due to the cage mode is limited to 5 nmi and the tracking maneuver setting is automatically placed in HI regardless of the maneuver switch setting.
 
 Boresight mode with the APQ-120 is used by the WSO to immediately access the short range "dogfight"
 presets of the radar. Initial selection of BST slaves the radar to 0 degrees in azimuth and -2
@@ -304,34 +305,21 @@ boresight reference.
 Lockon in Boresight is not automatic; the B-Sweep presentation of the target still requires the WSO
 to position the acquisition cursor and range strobe over the target and activate the full action
 trigger on the Antenna Hand Controller. Once the lock is achieved, the lockon presentation with
-steering and aspect indications will be shown on the display. At this time, the pilot can maneuver
-as necessary, and the radar will attempt to retain the lock out to its antenna gimbal limits.
+steering and aspect indications will be shown on the display as normal.
 
-In the event lockon is not achieved, the WSO can apply an aspect instruction to the current priority
+In the event lockon is not achieved, the WSO can apply an aspect using the ASPECT switch instruction to the current priority
 [AIM-7](../stores/air_to_air/aim_7.md) and perform a launch against the simulated Doppler applied to
-the missile guidance circuit.
+the missile doppler gate circuit.
 
 ### CAGE Mode
 
-In the event that an [AIM-7](../stores/air_to_air/aim_7.md), [AIM-9](../stores/air_to_air/aim_9.md),
-or [M61A1](../stores/guns.md#internal-cannon-m61a1-vulcan) must be employed against an airborne
-target with the
-sight in A/G mode (for example, the flight is bounced by opposing aircraft), the optical sight
-reticle can immediately be slewed to the Radar Boresight Line using the Cage Button, found on the
-inboard (right) throttle handle. Cage mode commands the radar into BST mode with a five mile range,
-and short pulse, and sets the firing circut for the currently selected air to air weapon relative to
-the Pinky Switch. For the optical sight, the command activates the respective elevation and azimuth
-tracking, roll mark, and range functions of the reticle for the chosen weapon, without the pilot
-having to remove a hand from throttle or stick to swap the sight mode or weapon control panel
-functions.
+In the event that an [AIM-7](../stores/air_to_air/aim_7.md), [AIM-9](../stores/air_to_air/aim_9.md), or [M61A1](../stores/guns.md#internal-cannon-m61a1-vulcan) must be employed against an airborne target with the sight in A/G mode (for example, the flight is bounced by opposing aircraft), the optical sight reticle can immediately be slewed to the Radar Boresight Line using the Cage Button, found on the inboard (right) throttle handle. Cage mode commands the radar into the boresight mode with a five mile range, and short pulse, and sets the firing circuit for the currently selected air to air weapon relative to the Pinky Switch. For the optical sight, the command activates the respective elevation and azimuth tracking, roll mark, and range functions of the reticle for the chosen weapon, without the pilot having to remove a hand from throttle or stick to swap the sight mode or weapon control panel functions.
 
 Should a track condition exist prior to pressing Cage and the Pinky switch is in Radar or Heat
 position, the lock is broken when the button is pressed, and the antenna slaves to boresight when
 released. If the Pinky Switch is in the Gun position, the lock is not broken.
 
-Cage mode can be exited from either cockpit, by placing Weapon Select knob in the pilot cockpit to
-the B position momentarially, or by the WSO pressing the Air to Air button on the rear cockpit
-panel. If the pilot leaves the Weapon Select knob in B, it does not preclude a later entry into Cage
+Cage mode can be exited from either cockpit, by placing Weapon Select knob into or out of the B position. If the pilot leaves the Weapon Select knob in B, it does not preclude a later entry into Cage
 mode.
 
 ### Computer Automatic Acquisition Mode (CAA)
@@ -340,7 +328,7 @@ mode.
 
 Once in Cage mode, the radar can be selected in to Computer Automatic Acquistion using the Nose Gear
 Steering button. In CAA, the radar enters a vertical-oriented scan pattern 78 degrees in height by
-15 degrees high. Actual radar lock capability within this scan pattern is from +45 degrees above the
+15 degrees wide, the scan is 3 vertical bars wide. Actual radar lock capability within this scan pattern is from +45 degrees above the
 horizon line to -9 degrees below the horizon line due to APQ software limitation. In the event that
 the radar finds a suitable target within the scan volume, the target will be locked. Should the
 flight crew find the locked target not be the one intended, the Nose Gear Steering button can be
@@ -391,14 +379,14 @@ nutates to increase acquisition probability.
 Automatic acquistion is available in MAP B in all ranges below 100 miles, and the Spotlight
 procedure as explained for RDR Mode can be used.
 
-### AIR-GRD (Air to Ground) Position
+### AIR GRD (Air to Ground) Position
 
 ![manual_radar_air_to_ground_mode](../img/manual_radar_air_to_ground_mode.jpg)
 
 Air-to-Ground Mode is a specialized boresight mode available at range selections of 5 to 50 miles,
 used to provide accurate range information against targets in ground clutter, whether moving or
 stationary, used with WRCS dive modes. Selection of this mode aligns the radar to the Radar
-Boresight line, selects short pulse width transmission, and limits lockon range to 20 miles.
+Boresight line with drift stabilization if NOR is selected on the STAB switch. This mode also forces short pulse width transmission, only AI ranges are available in this mode.
 
 The pilot initiates acquisition by selecting the A/G gunsight mode and placing the pipper over the
 intended target at a dive angle between 10 and 40 degrees. At this point, the WSO will adjust
@@ -414,7 +402,7 @@ If a false lock occurs, the lock is broken with a selection of half-action. Reat
 performed with another adjustment of reciever gain to maximize the center return, then selecting
 full-action. Once the ASE circle is shown, full-action can be released.
 
-### BEACON Position
+### BEACON Position (todo - suggest not including in manual)
 
 ![manual_beacon_mode](../img/manual_radar_beacon_mode.jpg#)
 
@@ -434,8 +422,8 @@ distance to the aircraft, is the actual position of the beacon.
 The TV Radar Mode setting is not used on DSCG aircraft; this is superceded by the TV display
 option on the DSCG panel itself, and the TV display option in the pilot's cockpit.
 
-Note: [AIM-7](../stores/air_to_air/aim_7.md) missiles detune and cannot be retuned with the Radar
-Mode Knob in TV.
+Note: **[AIM-7](../stores/air_to_air/aim_7.md) missiles detune and cannot be retuned with the Radar
+Mode Knob in TV.**
 
 ### Skin Track Lamp (SKIN TRK)
 
@@ -750,17 +738,17 @@ and signal values.
 
 ### Vc Switch
 
-With selections of 900 and 2700, the switch is used to scale the Vc gap as displayed. In a DSCG
-installed F-4E, the switch must remain in the 2700 position at all times for proper APQ-120 system
+With selections of 900 and 2700, the switch is used to scale the Vc gap as displayed in F-4Es with the DVST installed, with the newer DSCG
+installed, the switch must remain in the 2700 position at all times for proper APQ-120 system
 performance and monitoring.
 
 ### Stab Switch
 
 The STAB switch controls the antenna pitch and roll stabilization modes. The default NOR (normal)
 position maintains stabilization in both channels, and INS system drift compensation is further
-applied. In STAB OUT the stabilization of pitch, roll, and INS drift is removed from the radar
+applied in specific modes (AIR-GND). In STAB OUT the stabilization of pitch, roll, and INS drift is removed from the radar
 antenna. DRIFT OUT maintains pitch and roll stabilization, while removing the INS drift
-compensation.
+compensation in modes which use it.
 
 ## Digital Scan Converter Group
 
@@ -782,7 +770,7 @@ The Grid knob controls brightness of the display field grid.
 ### HOJ Light (H)
 
 The HOJ light illuminates to provide indication that the radar has transitioned to an angle tracking
-HOJ operation, using only memorized range and range rate information.
+HOJ operation, using only memorized range and range rate information if a jamming condition is detected.
 
 ### Scale
 
@@ -857,9 +845,9 @@ to two miles and range rate information from inside of 9000'. The information is
 radar-accurate once the range indicator jumps to 9. The gauge functions in the VI, B NAR, and B WIDE
 display modes; the indicator does not function in air to ground modes.
 
-## Air to Air Light
+## Air to Air Button
 
-The Air to Air light is a light plus switch with the primary function of confirming entry into CAGE
+The Air to Air button is a button and a light with the primary function of confirming entry into CAGE
 mode. When the crew desires to disengage CAGE mode, the WSO can press the light (which also
 functions as a button) to exit CAGE mode and revert to the current selected settings from the Radar
 Control Set.
