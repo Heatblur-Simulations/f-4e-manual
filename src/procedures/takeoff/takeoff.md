@@ -40,8 +40,9 @@ period are normal. The AUX AIR DOORS, WHEELS, and
 MASTER CAUTION lights may illuminate momentarily
 as the landing gear and flaps are retracted.
 
-CAUTION
->Rapid full aft movement of the stick between
+<!-- CAUTION -->
+>🚨
+Rapid full aft movement of the stick between
 takeoff airspeed and 30 knots below takeoff
 airspeed may result in the stabilator hitting the
 runway with the possibility of stabilator actuator
@@ -60,8 +61,9 @@ effectiveness is considerably increased and extreme
 caution must be exercised to prevent overrotation which
 could result in the stabilator striking the runway.
 
-WARNING
->Due to increased stabilator authority with the
+<!-- WARNING -->
+>⚠️
+Due to increased stabilator authority with the
 flaps up, aircraft rotation can be initiated at
 lower than normal airspeeds and overrotation is
 a definite possibility. If it appears that
@@ -88,8 +90,9 @@ In the event ofan aborted takeoff, it must be remembered
 that stopping distance is greatly increased as abort speed
 increases.
 
-CAUTION
->With a combination of light gross weight and aft
+<!-- CAUTION -->
+>🚨
+With a combination of light gross weight and aft
 CG, the minimum run takeoff technique (i.e., full
 aft stick prior to reaching 80 knots) produces
 rapid pitch rates during nose rotation. This
