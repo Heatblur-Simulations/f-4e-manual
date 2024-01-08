@@ -18,8 +18,9 @@ figure. Enter the pattern as local policy dictates.
 
 ![Landing Pattern](../../img/landing_pattern.jpg)
 
-WARNING
->If high angles of attack develop during the turn
+<!-- WARNING -->
+>⚠️
+If high angles of attack develop during the turn
 to downwind, the rudder should be used as a
 primary means of rollout since adverse yaw may
 be introduced by the use ofailerons. Altitude may
@@ -58,8 +59,9 @@ to 3° glide slope will produce an approach rate of descent
 ofabout 700 feet per minute. Sink rate at touchdown will
 be appreciably reduced by ground effect.
 
-CAUTION
->Flying a steeper than normal final approach or
+<!-- CAUTION -->
+>🚨
+Flying a steeper than normal final approach or
 not maintaining pitch attitude when entering
 ground effect, can cause touchdown sink rates to
 exceed the design limit of the main landing gear
@@ -78,8 +80,9 @@ directional control, use nose gear steering as required.
 Engage nose gear steering only with the rudder at or near
 neutral.
 
-WARNING
->Nose gear steering malfunctions can cause loss of
+<!-- WARNING -->
+>⚠️
+Nose gear steering malfunctions can cause loss of
 directional control if engaged at high ground
 speed; therefore, it should not be engaged above
 taxi speed unless required to maintain directional
@@ -219,8 +222,9 @@ in braking potential, the low deceleration at high speed
 may be mistakenly interpeted as a brake or anti-skid
 failure.
 
-CAUTION
->Rubber deposits on the last 2000 feet of wet
+<!-- CAUTION -->
+>🚨
+Rubber deposits on the last 2000 feet of wet
 runway make directional control a difficult
 problem even at very low speeds. Braking should
 be started in sufficient time so as not to require
@@ -259,8 +263,9 @@ knots. Refer to Go-Around, figure 2-8. During go-around
 a rapid trim change is required to preclude high forward
 stick forces.
 
-WARNING
->Do not exceed 18 units AOA during go-around
+<!-- WARNING -->
+>⚠️
+Do not exceed 18 units AOA during go-around
 with gear retracted.
 
 ## Touch-And-Go
