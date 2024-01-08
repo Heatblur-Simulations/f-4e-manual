@@ -3,7 +3,7 @@
 ## WSO
 
 | Step | System                          | Action     |
-| ---- | ------------------------------- | ---------- |
+|------|---------------------------------|------------|
 | 1.   | AN/ALE-40 Chaff Dispenser       | OFF        |
 |      | a. Chaff Mode Switch            | OFF        |
 |      | b. Flare Mode Switch            | OFF        |
@@ -22,18 +22,17 @@
 | 11.  | Nuclear Store Consent Switch    | SAFE       |
 | 12.  | NAV Computer                    | OFF        |
 | 13.  | Battery Bypass Switch           | OFF        |
-| 14.  | SST-181X Pulse Selector Switch  | OFF        |
-| 15.  | Circuit Breaker Panels          | CHECK      |
+| 14.  | Circuit Breaker Panels          | CHECK      |
 
 ## Pilot
 
 | Step | System                       | Action          |
-| ---- | ---------------------------- | --------------- |
+|------|------------------------------|-----------------|
 | 1.   | Auxiliary Control Panel      | SET             |
 |      | a. Gyro Switch               | NORM            |
 |      | b. Aural Tone Control Knob   | LOW             |
 |      | c. Boarding Steps Indicator  | PROTRUDING      |
-| 2.   | External Power               | ON🔧           |
+| 2.   | External Power               | ON🔧            |
 | 3.   | Slats Override Switch        | NORM            |
 | 4.   | Intercom Control Panel       | SET             |
 |      | a. Volume Control            | AS DESIRED      |
