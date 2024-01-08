@@ -65,9 +65,9 @@ respectively.
 | A/A REC | The [TACAN](../../../systems/nav_com/tacan.md) receiver decodes bearing information from compliant aircraft for the [HSI](../../pilot/flight_director_group.md#horizontal-situation-indicator), [BDHI](../../wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi), and [ADI](../../pilot/flight_director_group.md#attitude-director-indicator) steering display. |
 | A/A TR  | The [TACAN](../../../systems/nav_com/tacan.md) receiver receives both bearing and slant range information in nautical miles from the transmitting aircraft, providing this on the [HSI](../../pilot/flight_director_group.md#horizontal-situation-indicator) and [BDHI](../../wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi).                              |
 
-> 💡 Air to Air TACAN functionality requires the channel to be set 63 channels
-> above or below the cooperating aircraft, but on the same range- X or Y. So a tanker on 123Y should
-> be set to 60Y in the F-4.
+> 💡 Air to Air [TACAN](../../../systems/nav_com/tacan.md) functionality requires the channel to be
+> set 63 channels above or below the cooperating aircraft, but on the same range- X or Y. So a
+> tanker on 123Y should be set to 60Y in the F-4.
 
 ## Communication Control Panel
 

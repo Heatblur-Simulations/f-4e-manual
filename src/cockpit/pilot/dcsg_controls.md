@@ -114,12 +114,14 @@ dot in the ASE circle.
 ![Wheels](../../img/pilot_dscg_wheels_light.jpg)
 
 The WHEELS lamp illuminates when the aircraft slows below flaps blow-up speed
-(roughly 230 knots, dependent on altitude) with the gear still raised. This serves as an indicator
-to lower the gear.
+(roughly 230 knots, dependent on altitude)
+with [the gear](../../systems/flight_controls_gear/gear_ground_handling.md) still raised. This
+serves as an indicator to
+lower [the gear.](../../systems/flight_controls_gear/gear_ground_handling.md)
 
 ## Range Lights
 
 ![RngLights](../../img/pilot_dscg_range_lights.jpg)
 
 The Range Lights illuminate relative to range settings selected by the WSO.
-Range is provided on the upper right corner of the DSCG scope.
+Range is provided in the upper right corner of the DSCG scope.
