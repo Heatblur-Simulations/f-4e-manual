@@ -72,9 +72,9 @@ by using "Comms Check" option.
 ![crew chief menu](../img/crew_chief_menu.jpg)
 <!-- ![crew chief menu (hand signals)](../img/crew_chief_menu_hand_signals.jpg) -->
 
-## TODO
-
-* explain features a bit more (especially visual checks)
-* add some images
-* ARI/AFCS check
-* maybe some small troubleshooting guide addressing possible problems
+> 🚧 This chapter is under construction.
+>
+> * explain features a bit more (especially visual checks)
+> * add some images
+> * ARI/AFCS check
+> * maybe some small troubleshooting guide addressing possible problems

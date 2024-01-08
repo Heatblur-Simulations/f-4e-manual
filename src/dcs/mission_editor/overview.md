@@ -1,3 +1,0 @@
-# Mission Editor
-
-TODO

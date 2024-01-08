@@ -1,5 +1,7 @@
 # Embedded Manual
 
+![Embedded Manual](../img/ingame_manual.jpg)
+
 This manual is embedded into the game and can be read while flying.
 
 It also offers a way to explain switches in the cockpit directly by opening the
