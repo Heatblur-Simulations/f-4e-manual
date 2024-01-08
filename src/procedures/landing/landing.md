@@ -11,7 +11,7 @@ frost or fog. Ifit becomes necessary to dump fuel during a
 descent, thrust settings in excess of 85% rpm may be
 required to ensure rapid inflight dumping.
 
-## Normal Landing
+## Landing Technique
 
 For a normal landing, fly the pattern as illustrated in
 figure. Enter the pattern as local policy dictates.
@@ -96,12 +96,12 @@ immediately after landing, with drag chute failure, or
 with a wet or icy runway. Do not misinterpret this as
 anti-skid failure.
 
-## No-flap Landing
+## No-Flap Landing
 
 Refer to [EMERGENCY PROCEDURES](../../emergency_procedures/overwiew.md)
 <!-- TODO: add specific procedure link -->
 
-## Short field Landing
+## Short Field Landing
 
 Short field landings require that normal final approach
 procedures be followed with precision and the aircraft be
@@ -123,7 +123,7 @@ arrested landings, extremely adverse meteorological or
 operational conditions may warrant consideration of
 landing into a suitable approach-end arresting gear.
 
-## Crosswind Landing (dry runway)
+## Crosswind Landing (Dry Runway)
 
 Carefully compensate for crosswind in the traffic pattern
 to guard against undershooting or overshooting the final
@@ -161,7 +161,7 @@ under crosswind conditions is keeping the aircraft
 precisely aligned with the runway rather than trying to
 correct back to the runway centerline after it has deviated.
 
-## Wet or icy runway Landing
+## Wet or Icy Runway Landing
 
 Wet or icy runway conditions pose severe problems in
 directional control and braking effectiveness. On wet
@@ -225,7 +225,7 @@ be started in sufficient time so as not to require
 excessive braking on the last portion of the
 runway.
 
-## Heavy gross weight Landing
+## Heavy Gross Weight Landing
 
 The heavy gross weight landing pattern is the same as the
 basic pattern shown in figure 2-6 with the exception that
@@ -238,7 +238,7 @@ configuration for both level flight and maneuvering flight.
 Refer to Performance Data, appendix A, for airspeed
 versus gross weight at approach AOA.
 
-## Go-around
+## Go-Around
 
 Any decision to go around should be made as early as
 possible. When the decision to go around is made,
@@ -261,7 +261,7 @@ WARNING
 >Do not exceed 18 units AOA during go-around
 with gear retracted.
 
-## Touch-and-go
+## Touch-And-Go
 
 After making a normal approach and touchdown,
 smoothly advance throttles to full military power. Apply

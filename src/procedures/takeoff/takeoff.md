@@ -49,7 +49,7 @@ damage.
 
 ![Takeoff](../../img/takeoff.jpg)
 
-## No-flap Takeoff
+## No-Flap Takeoff
 
 No-flap takeoffs are not recommended. However, if it is
 determined that no-flap takeoffs must be performed to
@@ -70,7 +70,7 @@ movement (stick forward) must be taken to
 prevent the stabilator from contacting the
 runway and/or loss of aircraft control.
 
-## A minimum run/heavy gross weight Takeoff
+## Minimum Run / Heavy Gross Weight Takeoff
 
 A minimum run/heavy gross weight takeoff (aircraft over
 55,500 pounds) is accomplished in the same manner as a
