@@ -153,10 +153,9 @@ the knob on the left lower corner.
 
 ![GGauge](../../img/wso_accelerometer.jpg)
 
-Calibrated from negative 4 to positive 10 in units of G, with three pointers-
-one for current applied load, the other two show maximum positive and negative G
-applied during the flight. Pressing the PUSH TO SET button will reset the
-maximum position indicators to 1 G.
+Calibrated from negative 4 to positive 10 in units of G, with three pointers - one for current
+applied load, the other two show maximum positive and negative G applied during the flight. Pressing
+the PUSH TO SET button will reset the maximum position indicators to 1 G.
 
 ## Turn Indicator
 

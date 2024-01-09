@@ -57,7 +57,7 @@ presents them on the RWR with the S symbol to signify their function as a long r
 Entry into Search mode is displayed on the button with an illuminated "S".
 
 Because of their low threat priority, is important to note that search radar symbology may often
-fall off the display due to their reduced importance- especially when the ALR-46 is placed into
+fall off the display due to their reduced importance - especially when the ALR-46 is placed into
 PRIORITY mode.
 
 ### Handoff (H with <> Diamond)
@@ -140,7 +140,7 @@ the aircraft was powered down and restarted, the altitude priority mode (LOW ALT
 in the same state it was left prior to shut down.
 
 In the event of a system power failure, the ALR-46 has an automatic restart function. Once power is
-recovered, the receiver will restart after a fifteen second delay, in addition to its 9-second power
+recovered, the receiver will restart after a fifteen-second delay, in addition to its 9-second power
 on self test. The system will resume state in the same fashion as a normal restart - with Search
 mode deactivated and the altitude priority as when power was lost.
 

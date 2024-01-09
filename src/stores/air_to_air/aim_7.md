@@ -22,7 +22,7 @@ for at least one minute to the radar (any position out of OFF) in most operating
 environments (ambient temperature below 90 degrees F). The missiles are properly
 tuned when
 the [missile status light](../../cockpit/pilot/weapon_management.md#missile-status-lights)
-(RDR) is illuminate in each station carrying
+(RDR) is illuminated in each station carrying
 a Sparrow missile for at least one minute. After successful tuning,
 the [RDR MSL switch](../../cockpit/pilot/weapon_management.md#radar-missile-power-switch)
 can be returned to the STBY (Standby) position. The status lamps will

@@ -27,14 +27,13 @@ illuminated the KY-28 and UHF/intercom is operated in the cipher mode.
 
 ![wso_ky_28](../../img/wso_ky_28.jpg)
 
-The [KY-28 control panel](../../cockpit/wso/right_sub_panel.md#ky-28-controls) is in the rear
-cockpit. It has a power knob, a mode switch and a code zeroize button. The power knob provides power
-to the KY-28 and can be set to either OFF, ON or RLY (relay). The KY-28 is not powered in the OFF
-position. It is powered in the ON and RLY positions. If a direct communication
-between KY units is desired, the ON position is to be selected.
+The KY-28 control panel is in the rear cockpit. It has a power knob, a mode switch and a code
+zeroize button. The power knob provides power to the KY-28 and can be set to either OFF, ON or RLY (
+relay). The KY-28 is not powered in the OFF position. It is powered in the ON and RLY positions. If
+a direct communication between KY units is desired, the ON position is to be selected.
 
->💡 RLY would provide the ability to use the KY-28 as a retransmission facility,
-which is not modeled in DCS.
+> 💡 RLY would provide the ability to use the KY-28 as a retransmission facility,
+> which is not modeled in DCS.
 
 The mode switch can be set to either P (plain) or C (cipher)
 operating modes. To change modes the switch has to be pulled outwards. If the
@@ -46,7 +45,7 @@ required. As the code can only be set on the ground, pressing the zeroize button
 during flight makes the cipher mode inoperable for the crew for the remainder of
 the flight.
 
->💡 To permit conventional UHF communications the mode must be set to P
+> 💡 To permit conventional UHF communications the mode must be set to P
 > (plain) even if the KY-28 power knob is in the OFF position. If the mode is set
 > to C (cipher), conventional UHF communication is inhibited in both the front and
 > rear cockpit. An exception to this is transmission and reception on guard or aux
@@ -88,7 +87,7 @@ condition. The WSO must select UHF communications with the radio selector switch
 to transmit ciphered messages. The UHF transmitter is automatically selected for
 front cockpit transmissions if the KY-28 is operated in mode C.
 
->💡 With the C (cipher) mode selected, the transmit condition overrides the
+> 💡 With the C (cipher) mode selected, the transmit condition overrides the
 > cipher receive condition. Hence during cipher receive operation the UHF
 > microphone button should not be actuated until the incoming message has been
 > completed.
