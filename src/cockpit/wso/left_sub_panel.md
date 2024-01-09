@@ -175,7 +175,7 @@ needle to current system level and clears OXYGEN LOW warning.
 Indicates system pressure from 0 to 500 psi. The Oxygen lasts up to 24.3 Hours with a full 10 litres
 at about 35,000 feet. At 10,000 feet 10 litres last about 23.4 hours.
 
-For further information see [Oxygen chapter](../../../systems/utility.md#oxygen-system).
+For further information see [Oxygen chapter](../../systems/utility.md#oxygen-system).
 
 ## Landing Gear/Flap Indicator Panel
 
