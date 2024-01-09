@@ -23,6 +23,10 @@ as it found a home in the air forces of Japan, South Korea, and Australia. Wheth
 Pacific or standing ready for regional contingencies, the F-4E played a vital role in ensuring the
 security of nations in the region, underscoring its adaptability to varying strategic environments.
 
+![real_life_f4_korean_crewchief_american_pilot](../img/real_life_f4_korea_TEAM_SPIRIT_86.jpg) _A
+korean air force crew chief helps a 497th tactical fighter squadron pilot into the cockpit of his
+F-4E during Exercise TEAM SPIRIT 1986_
+
 Israel's relationship with the F-4E was particularly noteworthy. The Israeli Air Force, recognizing
 the Phantom's potential, not only deployed the aircraft in conflicts but also embarked on ambitious
 modification programs. These enhancements, ranging from avionics upgrades to the integration of
@@ -39,3 +43,6 @@ The F-4E Phantom II's foreign service was not merely a chapter in the history of
 but a saga that unfolded across continents and through the corridors of geopolitical power. Its
 adaptability, longevity, and combat prowess etched the Phantom into the collective memory of the
 nations that flew it, leaving an enduring legacy in the skies it once dominated.
+
+![real_life_f4_crew_after_flight_checks](../img/real_life_f4_crew_after_flight_checks.jpg) _The crew
+of an F-4 Phantom II aircraft completes a post-flight inspection_

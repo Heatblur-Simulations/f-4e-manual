@@ -20,3 +20,6 @@ addressed this limitation and improved the aircraft's performance in close-range
 
 The success of the F-4E Phantom II in Vietnam solidified its reputation as a versatile and
 formidable fighter, and it continued to serve in air forces worldwide for many years.
+
+![real_life_f4_firing_aim_7](../img/real_life_f4_firing_aim_7.jpg) _a Marine F-4 Phantom II from
+Marine Fighter/Attack Squadron 314 firing one AIM-7 Missile_

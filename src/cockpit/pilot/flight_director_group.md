@@ -18,7 +18,7 @@ A self-test, initiated by pressing the function control switch, shows 35ft.
 
 ## Airspeed and Mach Indicator
 
-![MachInd](../../img/MachInd.jpg)
+![pilot_air_speed_mach_indicator](../../img/pilot_air_speed_and_mach_indicator.jpg)
 
 The combination airspeed and mach number indicator shows airspeed readings below
 200 knots, and include Mach numbers on the outer ring at high speed. The indicator uses a single
@@ -26,7 +26,10 @@ pointer over a fixed airspeed scale, marked from 80 to 850 knots, with a moving
 Mach scale presenting from Mach 0.4 to 2.5. A pair of movable reference markers
 is available with the knob on the face of the gauge, with speed reference
 available between 80 and 195 knots, and the Mach index pointer being able to be
-set between the 225 knot and 850 knot regions relative to the airspeed gauge.
+set between the 225 knot and 850 knot regions relative to the airspeed gauge. The 1 needle and the
+inner ring refers to the airspeed in knots. The 2 needle and the respective outer ring refers to the
+Mach scale. Both move along dynamically according to the Airspeed. The 3 area refers to the airspeed
+scale before the mach scale starts.
 
 ## Angle of Attack Indicator
 

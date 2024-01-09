@@ -59,34 +59,28 @@ INS position is selected for navigation mode.
 When the aircraft's orientation is correct and the ADI needles are centered,
 once the aircraft is within missile range, one of the indexer lights will
 illuminate based on the detected range to target to instruct the pilot as to the
-required release maneuver- dive, level, or pull-up. At this time, the pilot can
+required release maneuver - dive, level, or pull-up. At this time, the pilot can
 press and hold the bomb release button to initiate the attack. Once the release
 range is attained in the instructed profile, the missile will be launched.
 
->💡 Special note must be made of the importance of maintaining the ADI needles
+> 💡 Special note must be made of the importance of maintaining the ADI needles
 > centered, especially the vertical azimuth relationship. Because the orientation
 > of the missile itself when installed on the wing can cause offset of its
 > receiver to occur when the aircraft is banked, preparation of the attack may
 > require repeated adjustments with wings brought to level every few seconds to
 > make certain the aircraft is pointing at the emitter.
 
-#### Pull-Up
+![agm_45_commands](../../../img/agm_45_commands.jpg) _Commands of the AGM-45 Shrike in WRCS mode_
 
-The Pull-Up instruction is guidance for the pilot to initiate a steady rotation
+#### Pull-up
+
+The Pull-up instruction is guidance for the pilot to initiate a steady rotation
 back to the horizon, and, if desired, continue into a steady climb state until
 range requirements are met and the missile is launched. The pilot can choose to
 either bring the aircraft to near level and stop, or pull further into a low
 climb profile. When the aircraft is approximately 5 seconds away from release,
 the level indicator will illuminate, directing the pilot to maintain the current
 orientation until the Shrike is away.
-
-#### Level
-
-The level instruction is less of a directive than a confirmation of impending
-launch. Depending on the initial attack setup, the level signal may immediately
-occur, or occur quite soon after one of the other two instructions. From that
-point, it is simply required that the pilot maintain the current state for best
-chance of missile success.
 
 #### Dive
 
@@ -96,6 +90,14 @@ considered prior to attack commitment with the pickle button, as any response by
 the battery has a high probability of arriving before the missile can
 potentially kill the emitter. The dive command, once followed, will then be
 followed with the level indicator once missile launch imminent.
+
+#### Level
+
+The level instruction is less of a directive than a confirmation of impending
+launch. Depending on the initial attack setup, the level signal may immediately
+occur, or occur quite soon after one of the other two instructions. From that
+point, it is simply required that the pilot maintain the current state for best
+chance of missile success.
 
 ### Loft
 
@@ -120,6 +122,9 @@ the pull-up maneuver; a correct profile will keep both ADI bars centered. When
 the aircraft achieves the programmed release angle, the missile will launch.
 Once launch has occurred, the pull-up lamp and sight reticle will illuminate
 again, and the horizontal ADI bar will stow.
+
+![manual_loft_bombing](../../../img/loft.jpg) _Example of the Loft bombing, the procedure stays the
+same for the AGM-45 Shrike_
 
 ### Direct Mode
 

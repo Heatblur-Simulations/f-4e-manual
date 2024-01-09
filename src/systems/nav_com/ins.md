@@ -37,6 +37,8 @@ provide velocity capture. Increasing the accuracy of these evaluations is the
 inclusion of a tuning fork, the resonance from which eliminates effectively all
 static friction in the motion capture assembly.
 
+![manual_ins_diagram](../../img/manual_ins_diagram.jpg)
+
 ## Navigational Computer and Output Signal Distribution
 
 The respective captured motion signals from the gyroscopes and accelerometers
@@ -190,6 +192,8 @@ available to the computer is true airspeed (from the air data computer) and
 magnetic heading from the compass system. When the system reverts to Air Data
 mode, the AIR DATA MODE lamp will illuminate.
 
+![wso_nav_panel_air_data_light](../../img/wso_nav_computer_air_data_light.jpg)
+
 During startup, the Position Control Knobs, Wind Control Knobs, and Magnetic
 Variation Control Knob are used to enter known latitude, longitude, wind
 direction and speed, and magnetic variation for the location of the aircraft at
@@ -252,6 +256,8 @@ instruction from GCI.
 
 With the Nav Computer in Inertial mode, the aircraft is flown straight and level
 at a known fix location.
+
+![wso_nav_panel_pos_update_switch](../../img/wso_nav_computer_pos_update_switch.jpg)
 
 1. On arrival, the Position Update Switch is placed in the SET position. Doing
    so disengages the longitude and latitude position counters.

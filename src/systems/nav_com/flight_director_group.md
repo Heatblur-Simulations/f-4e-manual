@@ -1,14 +1,19 @@
 # Flight Director Group
 
-![pilot_flight_director_group](../../img/pilot_flight_director_group.jpg)
+![pilot_flight_director_group](../../img/pilot_flight_director_group_coloured.jpg)
 
 Accurate course navigation is provided by
-the Flight Director Group, which includes the Flight Director Computer, the Horizontal Situation
-Indicator (HSI) along with the Navigation Function Selector Panel in the front cockpit, and the
+the Flight Director Group, which includes the Flight Director Computer (1), the Horizontal Situation
+Indicator (HSI) (2) along with the Navigation Function Selector Panel (3), the Attitude Director
+Indicator (ADI) (4), in the front cockpit, and the
 Bearing Distance Heading Indicator (BDHI) together with the Navigation Mode Selector Switch
 in the rear cockpit.
 
-![wso_nav_mode_selector](../../img/wso_nav_mode_selector_switch.jpg)
+![wso_nav_mode_selector](../../img/wso_nav_mode_selector_switch.jpg) _Navigation mode selector in
+the WSO Pit_
+
+![wso_bdhi](../../img/wso_bearing_distance_heading_indicator.jpg) _Bearing Distance Heading
+Indicator in the WSO Pit_
 
 ## Navigation Function Selector Panel
 
@@ -113,11 +118,12 @@ intercept presentation is accurate within a 60 degree field of a [TACAN](tacan.m
 or 90 degrees for a [VOR](vor_ils.md) radial. Additionally, a Glide-slope Pointer is provided
 for relative glide-slope position indication during an [ILS](vor_ils.md) approach.
 
-Upon startup of the ADI,
-an OFF warning flag will be displayed until the
-AN/AJB-7 gyro has aligned. This can also appear due to power loss or a signal
-failure. The flag does not present if a system failure occurs outside of the
-AN/AJB-7.
+In the Picture above the yellow vertical needle shows the Pilot that he has to steer 20° to the left
+to correct the course intended. In the same way the ADI shows steering instructions for the pitch.
+
+Upon startup of the ADI, an OFF warning flag will be displayed until the AN/AJB-7 gyro has aligned.
+This can also appear due to power loss or a signal failure. The flag does not present if a system
+failure occurs outside of the AN/AJB-7.
 
 ## Bearing Distance Heading Indicator (BDHI)
 

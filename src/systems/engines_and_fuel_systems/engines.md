@@ -16,11 +16,12 @@ Each engine has a fuel flow indicator found in the front cockpit instrument.
 The indicators read in thousands
 of pounds per hour, from 0 to 12. The indicators provide flow rate up to Mil power; when afterburner
 is engaged, a separate fuel delivery system is used to provide fuel directly to the
-afterburner stage, and the flow rate is approximately 4 times the value shown.
+afterburner stage, and the flow rate is approximately 4 times the value shown. The engine
+speed is also controlled by the fuel flow, so a change in fuel flow can be directly observed if the
+throttles are moved.
 
-Fuel Flow should not
-exceed 1200 pph at lightoff and 800 to 1500 pph at idle operations. Fuel consumption for Engine
-start is approximately 65 pounds per Engine.
+Fuel Flow should not exceed 1200 pph at lightoff and 800 to 1500 pph at idle operations. Fuel
+consumption for Engine start is approximately 65 pounds per Engine.
 
 ## Oil Pressure Indicators
 
@@ -49,6 +50,9 @@ cause permanent engine damage.
 The normal mode for starting the Phantom utilizes an auxiliary start cart that
 turns the starter turbine, cranking the engine over.
 
+See the [Ground chief chapter](../../crew_chief/overview.md) for more information about ground crew
+interaction.
+
 ### Cartridge Mode Starting
 
 ![f_4_cartridge_start](../../img/f_4_cartridge_start.jpg)
@@ -56,6 +60,9 @@ turns the starter turbine, cranking the engine over.
 Cartridge mode is supplied for operational and emergency needs. A propellant
 charge is used to turn the starter turbine, which in turn cranks the engine over
 to initiate startup.
+
+See the [Ground chief chapter](../../crew_chief/overview.md) for more information about ground crew
+interaction.
 
 ### Start Switch
 
@@ -174,4 +181,7 @@ The tachometers will function without external power.
 Exhaust Gas Temperature Indicators are found on the front cockpit instrument panel.
 The indicators have two pointers each: a large pointer for the 0 to 12 scale referencing 100 degrees
 centigrade, and a smaller pointer on a separate scale with 0 to 10 referencing 10 degrees
-centigrade. Measuring for these values is performed upon exit of the turbine.
+centigrade. Measuring for these values is performed upon exit of the turbine. For normal operations
+the exhaust gas temperature should not be less than 250°C and should not exceed more than 540°C. If
+an overtemperature Event occurs the throttle should be returned to the off position. If that is not
+possible the respective engine master switch should be turned off.

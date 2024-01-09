@@ -210,7 +210,8 @@ activating.
 ![Defog](../../../img/Defog.jpg)
 
 Provides pilot selectable volume of warm air to the windshield for de-icing purposes or footwell
-recesses for comfort or visibility.
+recesses for comfort or visibility. Defog should be used in rapid descents in humid environments if
+the cockpit gets fogged up, or if the windshield gets fogged up in general to defog the windshield.
 
 ## Rain Removal Switch
 

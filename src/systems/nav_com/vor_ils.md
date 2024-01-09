@@ -26,6 +26,14 @@ The Frequency Selector Knobs is a dual actuation concentric knob; the outer ring
 selects the number to the left of the decimal point on the frequency indicator,
 whereas the inner knob selects numbers to the right.
 
+![dcs_map_vor_ils](../../img/dcs_map_vor_ils.jpg)
+
+To find the desired VOR/ILS frequency of your target simply click on the Airfield that you want to
+fly to and a window in the lower left corner should open. Under VOR you find the VOR Frequency and
+under ILS the ILS Frequency.
+
+> 💡 Not every Airfield has VOR or ILS systems.
+
 ### VOR/MKR Test Pushbutton
 
 After an ILS frequency has been selected on the frequency indicator, pressing the VOR/MKR Test
