@@ -61,20 +61,21 @@ overall scope display.
 
 Sets the current mode of the DSCG components.
 
-| Name      | Description                                                                                                                |
-|-----------|----------------------------------------------------------------------------------------------------------------------------|
-| OFF       | Turns off DSCG display and de-powers all DSCG components.                                                                  |
-| STBY      | Powers DSCG components, DSCG display remains off. Used for takeoff and landing                                             |
-| DSCG TEST | Displays a test search display image with 8 shades of grey to confirm normal operation. Select Range 10 for proper sizing. |
-| RDR BIT   | Provides BIT sequence test grids for calibration of radar performance.                                                     |
-| RDR       | Used for radar display functionality in all employment modes.                                                              |
-| TV        | Used for TV raster imagery with EO weapons, aswell as targeting pods.                                                      |
+| Name      | Description                                                                                                                   |
+|-----------|-------------------------------------------------------------------------------------------------------------------------------|
+| OFF       | Turns off DSCG display and de-powers all DSCG components.                                                                     |
+| STBY      | Powers DSCG components, DSCG display remains off. Used for takeoff and landing                                                |
+| DSCG TEST | Displays a test search display image with 8 shades of grey to confirm normal operation. Select Range 10 for proper sizing.    |
+| RDR BIT   | Provides [BIT sequence](../../procedures/bit_tests/overview.md) test grids for calibration of radar performance.              |
+| RDR       | Used for radar display functionality in all employment modes.                                                                 |
+| TV        | Used for TV raster imagery with EO weapons, as well as [targeting pods](../../systems/weapon_systems/pave_spike/overview.md). |
 
 ## Target Designator Control Set
 
 ![target_des_panel](../../img/target_des_panel.jpg)
 
-This is the main panel to interact with the Pave Spike Targeting Pod.
+This is the main panel to interact with
+the [Pave Spike Targeting Pod](../../systems/weapon_systems/pave_spike/overview.md).
 
 ### Reticle brightness
 
@@ -102,7 +103,7 @@ When un-stowed, the pod will move accordingly to the selected acquisition mode.
 To prevent damage to the system, the pod must be stowed during takeoff, landing
 and any High-G maneuvers.
 
->💡 The stowed position is held electrically
+> 💡 The stowed position is held electrically
 > only and without power, the pod swings freely and gets damaged when forcefully
 > bumped into its gimbal limits.
 
@@ -146,16 +147,16 @@ slant range instead.
 
 Three position switch determining the pods main operation mode.
 
-| Name   | Description                                                                                         |
-|--------|-----------------------------------------------------------------------------------------------------|
-| 12-VIS | Slaves LOS parallel to the optical sight pipper.                                                    |
-| WRCS   | Slaves LOS to the WRCS cursors unless WRCS integration is deactivated; reverts to 12-VIS otherwise. |
-| 9-VIS  | Slaves LOS to 90 degrees below FRL and rolled 90 degrees left.                                      |
+| Name                                         | Description                                                                                                                                                                         |
+|----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 12-VIS                                       | Slaves LOS parallel to the optical sight pipper.                                                                                                                                    |
+| [WRCS](../../systems/weapon_systems/wrcs.md) | Slaves LOS to the [WRCS](../../systems/weapon_systems/wrcs.md) cursors unless [WRCS](../../systems/weapon_systems/wrcs.md) integration is deactivated; reverts to 12-VIS otherwise. |
+| 9-VIS                                        | Slaves LOS to 90 degrees below FRL and rolled 90 degrees left.                                                                                                                      |
 
 ### WRCS Out
 
-If lit, the WRCS is not integrated into the pod and functionalities requiring
-its integration are not available.
+If lit, the [WRCS](../../systems/weapon_systems/wrcs.md) is not integrated into the pod and
+functionalities requiring its integration are not available.
 
 Can be pressed to manually disengage or engage integration, unless it was
 disintegrated by other means.
@@ -163,7 +164,8 @@ disintegrated by other means.
 ### BIT Status Indicator
 
 Illuminates based on completion of the selected BIT process; GO confirms
-functionality, MALF shows BIT failure for a given test cycle.
+functionality, MALF shows [BIT](../../procedures/bit_tests/overview.md) failure for a given test
+cycle.
 
 ### Overheat Lamp
 
@@ -181,8 +183,8 @@ For extreme outside temperatures, adjust the limits accordingly.
 
 ### INS Out
 
-If lit, the INS is not integrated into the pod and functionalities requiring its
-integration are not available.
+If lit, the [INS](../../systems/nav_com/ins.md) is not integrated into the pod and functionalities
+requiring its integration are not available.
 
 Can be pressed to manually disengage or engage integration, unless it was
 disintegrated by other means.

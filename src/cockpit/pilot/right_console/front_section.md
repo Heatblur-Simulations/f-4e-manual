@@ -189,6 +189,8 @@ supply adjusted accordingly:
 | 40000 ft - 62000 ft | Breath pressurized Oxygen through mask       |
 | above 62000 ft      | Need to wear a pressure suit (not available) |
 
+See [Oxygen Chapter](../../../systems/utility.md#oxygen-system) for more information.
+
 ### Emergency Vent Handle
 
 A plug that can be pulled to release cockpit pressure. Putting it back in will

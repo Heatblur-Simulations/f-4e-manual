@@ -24,19 +24,20 @@ ejection will extract both crew members.
 
 ![wso_course_indicator](../../img/wso_course.jpg)
 
-Used during an ILS approach, displays localizer and glide slope deviations
-represented dots — 1 dot equals 1 1/4 degrees for course and 1/4 degree for glide
+Used during an [ILS](../../systems/nav_com/vor_ils.md) approach, displays localizer and glide slope
+deviations represented dots — 1 dot equals 1 1/4 degrees for course and 1/4 degree for glide
 slope.
 
 The heading pointer indicates the aircraft's heading relative to the
 selected course set by the knob on the lower left.
 
-Does not function with TACAN or VOR. OFF flags display on signal loss.
+Does not function with [TACAN](../../systems/nav_com/tacan.md)
+or [VOR](../../systems/nav_com/vor_ils.md). OFF flags display on signal loss.
 
 ### Marker Beacon Lamp
 
 The lamp on the top right illuminates whenever flying over a marker beacon station,
-provided the VOR/ILS system has been activated.
+provided the [VOR/ILS](../../systems/nav_com/vor_ils.md) system has been activated.
 Additionally, an audio cue is played through the intercom system.
 
 The lamp can be rotated to dim and pushed to test.
@@ -51,18 +52,19 @@ Two lamp indicator illustrating current KY-28 operating mode- P indicates plain
 (unencrypted) mode transmission, whereas C indicates cipher (encrypted) mode
 transmission.
 
->💡 UHF communications require the system be in Plain mode, even
+> 💡 UHF communications require the system be in Plain mode, even
 > with system power off, barring usage and monitoring of guard channel.
 
 ## Master Caution Light
 
 ![wso_master_caution](../../img/wso_master_caution.jpg)
 
-A repeater of the front cockpit Master Caution light, provides warning to the
-WSO that a caution condition exists and the telelight panel needs to be checked
+A repeater of the front cockpit [Master Caution light](../../systems/emergency.md#master-caution),
+provides warning to the WSO that a caution condition exists and
+the [telelight panel](../../systems/emergency.md#telelight-panel) needs to be checked
 for cause to rectify the situation.
 
->💡 There is no separate reset button for the WSO. The Pilot has to
+> 💡 There is no separate reset button for the WSO. The Pilot has to
 > reset the Master Caution if it occurs.
 
 ## Shoot Light
@@ -129,7 +131,7 @@ detected by the APX-81A Combat Tree system.
 
 Illuminated each time the system detects being interrogated by other aircraft.
 
->💡 Due to DCS limitations, this is not simulated in-game.
+> 💡 Due to DCS limitations, this is not simulated in-game.
 
 ## Range (VISIDENT) Indicator
 

@@ -1,6 +1,6 @@
 # Front Section
 
-The front area contains controls for weapon delivery and the INS.
+The front area contains controls for weapon delivery and the [INS](../../../systems/nav_com/ins.md).
 
 ## Laser Coder Control
 
@@ -36,6 +36,8 @@ the code is invalid.
 The Inertial Navigation Control Panel provides the rear pilot mode selection and
 system alignment command selection.
 
+See [INS Navigation](../../../systems/nav_com/ins.md) for further information.
+
 ### Mode Selector Switch
 
 The HDG MEM-GYRO COMP switch, located under a cover, primarily stays in the GYRO
@@ -63,18 +65,22 @@ before this lamp has shut off.
 
 ### ALIGN Lamp
 
-The ALIGN lamp provides current INS alignment through illuminating steady (BATH
-alignment complete), or flashing at the completion of GYRO COMP or HDG MEM
+The ALIGN lamp provides current [INS alignment](../../../systems/nav_com/ins.md#alignment-options)
+through illuminating
+steady ([BATH alignment](../../../systems/nav_com/ins.md#best-available-true-heading) complete), or
+flashing at the completion of [GYRO COMP](../../../systems/nav_com/ins.md#gyrocompass-alignment)
+or [HDG MEM](../../../systems/nav_com/ins.md#heading-memory-alignment)
 alignment.
 
 ## Antenna Hand Control
 
 ![Antenna Hand Control](../../../img/wso_antenna_hand_control.jpg)
 
-Joystick which integrates with the radar to perform range (fore and aft)
-and azimuth (left and right) positional control of the acquisition symbol on the radar
+Joystick which integrates with the [radar](../../../systems/radar.md) to perform range (fore and
+aft) and azimuth (left and right) positional control of the acquisition symbol on the radar
 display in the air-to-air modes, as well as seeker/EO sensor direction
-with Maverick and Pave Spike.
+with [AGM-65 Maverick](../../../stores/air_to_ground/missiles/maverick.md)
+and [Pave Spike](../../../systems/weapon_systems/pave_spike/overview.md).
 
 ### Antenna Elevation Control
 
@@ -85,13 +91,14 @@ angle of the radar antenna, displayed via the EL strobe on the DSCG display.
 
 If controlling the radar, initiates an IFF interrogation.
 
-For the Pave Spike targeting pod, it instead toggles the field
-of view between WIDE and NARROW.
+For the [Pave Spike targeting pod](../../../systems/weapon_systems/pave_spike/overview.md), it
+instead toggles the field of view between WIDE and NARROW.
 
 ### Action Switch (Trigger)
 
 A 2-stage trigger to lock targets. Exact behavior depends on whether
-currently controlling the radar, weapons or the targeting pod.
+currently controlling the [radar](../../../systems/radar.md), [weapons](../../../stores/overview.md)
+or the [targeting pod](../../../systems/weapon_systems/pave_spike/overview.md).
 
 ### Boresight Adjustment
 
@@ -110,8 +117,9 @@ This is only accessible to ground crew personnel.
 ### ACTIVATE Switch
 
 Only available after the Target Insert button is pressed, placing the switch to
-ON provides power to the weapon release computer's circuits for a LABS release
-using the WRCS release range data.
+ON provides power to the weapon release computer's circuits for
+a [LABS](../../../systems/weapon_systems/arbcs.md) release
+using the [WRCS](../../../systems/weapon_systems/wrcs.md) release range data.
 
 ### TGT FIND Switch
 
@@ -148,8 +156,8 @@ This system is not installed on this variant of the F-4E.
 ### Stall Warning
 
 The Stall Warning knob controls the volume of
-the [AoA tones](../../../systems/flight_controls_gear/flight_controls.md#aural-tone-system) that play
-when flying at certain angles.
+the [AoA tones](../../../systems/flight_controls_gear/flight_controls.md#aural-tone-system) that
+play when flying at certain angles.
 
 Under certain conditions, the system can override the volume to ensure the cue
 is always audible in dangerous situations.

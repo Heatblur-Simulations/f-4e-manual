@@ -63,8 +63,8 @@ value on the DSCG display in the upper left.
 
 ### Polarization Control
 
-The WSO is afforded direct control of the APQ-120's waveform polarization at the antenna feed-horn by
-using the Polar Switch. The default setting is LIN (Linear); in this setting, the waveform is
+The WSO is afforded direct control of the APQ-120's waveform polarization at the antenna feed-horn
+by using the Polar Switch. The default setting is LIN (Linear); in this setting, the waveform is
 transmitted in a linear alignment to the feed-horn, oriented vertically. This is also the default
 setting for employment of the [AIM-7 Sparrow](../stores/air_to_air/aim_7.md).
 
@@ -73,7 +73,7 @@ counter-clockwise). Circular polarization is provided as it is less susceptible 
 precipitation-related clutter, and can allow detection or tracking of a target in such weather when
 a return is otherwise found to be marginal.
 
->💡 Only clockwise polarization (CIR 1) is compatible with the
+> 💡 Only clockwise polarization (CIR 1) is compatible with the
 > Sparrow's receiving antenna, and thus can only be fired
 > in said mode. A Sparrow launched with the APQ-120 in CIR 2 will not track.
 
@@ -100,7 +100,8 @@ revert to a 1 bar scan.
 Using the Aspect knob the WSO can provide an [AIM-7](../stores/air_to_air/aim_7.md) with a simulated
 Doppler signal rather than the
 actual return signal to set the desired target speed-gate for the missile. Once a Sparrow has
-been tuned, the NOSE, TAIL, FWD, and AFT options may be applied to set the speed-gate with respect to
+been tuned, the NOSE, TAIL, FWD, and AFT options may be applied to set the speed-gate with respect
+to
 the expected target Doppler for the intercept. Once launched the speed-gate unlocks and sweeps the
 narrowly applied frequency of this simulated Doppler value. The WIDE option is available to permit
 the missile to search the full doppler spectrum for the target, rather than the limited width band
@@ -223,7 +224,8 @@ RDR Mode is used with the Display Mode selected as B WIDE or B NAR.
 ![manual_radar_modes](../img/manual_radar_modes.jpg)
 
 Used for long distance acquisition of airborne targets, RDR Mode can be used at any range, with the
-capability to lock-on to a target removed in the 100 and 200 mile ranges. Detection and acquisition of
+capability to lock-on to a target removed in the 100 and 200 mile ranges. Detection and acquisition
+of
 airborne targets with the APQ-120 follow a general outline: the pilot positions the aircraft in the
 general direction of the intended search, with the WSO defining the azimuth width (wide/120 degrees
 or narrow/45 degrees) as required. The WSO then sets the antenna elevation to cover the desired
@@ -309,7 +311,8 @@ trigger on the Antenna Hand Controller. Once the lock is achieved, the lock-on p
 steering and aspect indications will be shown on the display. At this time, the pilot can maneuver
 as necessary, and the radar will attempt to retain the lock out to its antenna gimbal limits.
 
-In the event lock-on is not achieved, the WSO can apply an aspect instruction to the current priority
+In the event lock-on is not achieved, the WSO can apply an aspect instruction to the current
+priority
 [AIM-7](../stores/air_to_air/aim_7.md) and perform a launch against the simulated Doppler applied to
 the missile guidance circuit.
 
@@ -320,11 +323,11 @@ or [M61A1](../stores/guns.md#internal-cannon-m61a1-vulcan) must be employed agai
 target with the
 sight in A/G mode (for example, the flight is bounced by opposing aircraft), the optical sight
 reticle can immediately be slewed to the Radar Boresight Line using the Cage Button, found on the
-inboard (right) throttle handle. Cage mode commands the radar into BST mode with a five mile range,
-and short pulse, and sets the firing circuit for the currently selected air to air weapon relative to
-the Pinky Switch. For the optical sight, the command activates the respective elevation and azimuth
-tracking, roll mark, and range functions of the reticle for the chosen weapon, without the pilot
-having to remove a hand from throttle or stick to swap the sight mode or weapon control panel
+inboard (right) throttle handle. Cage mode commands the radar into BST mode with a five-mile range,
+and short pulse, and sets the firing circuit for the currently selected air-to-air weapon relative
+to the Pinky Switch. For the optical sight, the command activates the respective elevation and
+azimuth tracking, roll mark, and range functions of the reticle for the chosen weapon, without the
+pilot having to remove a hand from throttle or stick to swap the sight mode or weapon control panel
 functions.
 
 Should a track condition exist prior to pressing Cage and the Pinky switch is in Radar or Heat
@@ -340,11 +343,11 @@ mode.
 
 ![manual_caa](../img/CAA.jpg)
 
-Once in Cage mode, the radar can be selected in to Computer Automatic Acquisition using the Nose Gear
-Steering button. In CAA, the radar enters a vertical-oriented scan pattern 78 degrees in height by
-15 degrees high. Actual radar lock capability within this scan pattern is from +45 degrees above the
-horizon line to -9 degrees below the horizon line due to APQ software limitation. In the event that
-the radar finds a suitable target within the scan volume, the target will be locked. Should the
+Once in Cage mode, the radar can be selected in to Computer Automatic Acquisition using the Nose
+Gear Steering button. In CAA, the radar enters a vertical-oriented scan pattern 78 degrees in height
+by 15 degrees high. Actual radar lock capability within this scan pattern is from +45 degrees above
+the horizon line to -9 degrees below the horizon line due to APQ software limitation. In the event
+that the radar finds a suitable target within the scan volume, the target will be locked. Should the
 flight crew find the locked target not be the one intended, the Nose Gear Steering button can be
 pressed on either stick grip to return the radar back to the search pattern.
 
@@ -376,8 +379,8 @@ WRCS. MAP PPI targeting is limited to ranges between 10 and 50 miles in DSCG air
 selected, the presentation reverts to a B-Scope display.
 
 In MAP PPI, the application of the Along Track and Cross Track cursors and Target Injection do not
-apply a target lock-on; instead, the action triggers the ground tracking interaction with the INS and
-WRCS, and this is referenced on the display with the cursors moving relative to the selected
+apply a target lock-on; instead, the action triggers the ground tracking interaction with the INS
+and WRCS, and this is referenced on the display with the cursors moving relative to the selected
 reference point, or the programmed RIP offset.
 
 ### MAP B Mode
@@ -404,8 +407,8 @@ Boresight line, selects short pulse width transmission, and limits lock-on range
 
 The pilot initiates acquisition by selecting the A/G gun-sight mode and placing the pipper over the
 intended target at a dive angle between 10 and 40 degrees. At this point, the WSO will adjust
-receiver gain so that only one return is visible on the scope- the Main Beam Clutter return. The WSO
-then activates half-action on the Antenna Hand Control, which displays the range strobe in the
+receiver gain so that only one return is visible on the scope - the Main Beam Clutter return. The
+WSO then activates half-action on the Antenna Hand Control, which displays the range strobe in the
 center of the acquisition cursor. Moving the acquisition cursor/range strobe combination to the
 center of the Main Beam Clutter return, the WSO presses full-action for automatic lock-on to be
 attempted. Once achieved, the ASE circle will appear with the range strobe centered. Range data will
@@ -436,12 +439,13 @@ distance to the aircraft, is the actual position of the beacon.
 The TV Radar Mode setting is not used on DSCG aircraft; this is superseded by the TV display
 option on the DSCG panel itself, and the TV display option in the pilot's cockpit.
 
->💡 [AIM-7](../stores/air_to_air/aim_7.md) missiles detune and cannot be re-tuned with the Radar
+> 💡 [AIM-7](../stores/air_to_air/aim_7.md) missiles detune and cannot be re-tuned with the Radar
 > Mode Knob in TV.
 
 ### Skin Track Lamp (SKIN TRK)
 
-The Skin Track Lamp illuminates when an automatically achieved lock-on is established and held by the
+The Skin Track Lamp illuminates when an automatically achieved lock-on is established and held by
+the
 radar. This coincides with the T symbol being lit on the DSCG panel. A manually tracked, AOJ, or HOJ
 track condition will not illuminate this lamp (or the DSCG panel T).
 
@@ -671,7 +675,8 @@ and -21 degrees, while the B-sweep width will be two degrees wide.
 ### Test 5
 
 Test 5 confirms proper function of range rate, lead angle error, CAA performance, and the Power
-Level Mode Switching (PLMS) circuits. The test is initiated with B WIDE or B NAR, and the acquisition
+Level Mode Switching (PLMS) circuits. The test is initiated with B WIDE or B NAR, and the
+acquisition
 of a target. Range rate is indicated with the counter-clockwise edge of the Vc gap, which will
 display at 12 o'clock when [AIM-7](../stores/air_to_air/aim_7.md) or (../stores/air_to_air/aim_9.md)
 is selected. The aim dot and range rate circle display the
@@ -793,7 +798,8 @@ field.
 
 ### Track Light (T)
 
-The Track light illuminates to confirm an angle and range-based lock-on against a target. Same as the
+The Track light illuminates to confirm an angle and range-based lock-on against a target. Same as
+the
 SKIN TRK light.
 
 ### Contrast (CONTR)
