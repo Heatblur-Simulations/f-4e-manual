@@ -201,8 +201,8 @@ the <a href="../../../systems/radar.html">APQ-120 Radar.</a></p>
 </div>
 <h3 id="polar-switch"><a class="header" href="#polar-switch">Polar Switch</a></h3>
 <p>Controls polarization of transmitted radio frequency energy. CIR 1 and 2 should be used in the
-presence of rain, however if <a href="../../../stores/air_to_air/aim_7.html">AIM-7</a> Missiles should be fired
-use CIR 1.</p>
+presence of rain. However, if <a href="../../../stores/air_to_air/aim_7.html">AIM-7</a>
+Missiles should be fired, use CIR 1.</p>
 <div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
 <tr><td>LIN</td><td>RF energy is lineally polarized in a vertical orientation. <a href="../../../stores/air_to_air/aim_7.html">AIM-7</a> default mode.</td></tr>
 <tr><td>CIR 1</td><td>RF energy is rotated clockwise from the vertical plane. <a href="../../../stores/air_to_air/aim_7.html">AIM-7</a> can be fired.</td></tr>
@@ -246,7 +246,7 @@ display to increase video output legibility of target returns.</p>
 tracking under normal circumstances.</p>
 <h4 id="manual"><a class="header" href="#manual">Manual</a></h4>
 <p>When in the MAN position, the WSO places the acquisition symbol over the
-intended target and triggers half-action on the Antenna hand control stick. The range strobe is
+intended target and triggers half-action on the Antenna Hand Control stick. The range strobe is
 positioned relative to in-range on a closing target, and the WSO selects
 full-action. To solidify the track, the WSO uses the Manual Vc knob to place the
 range strobe and target return video at the same rate of movement.</p>
@@ -258,7 +258,7 @@ capability of the radar, the Maneuver switch can be set to HI G and the target
 reacquired.</p>
 <h4 id="aoj-out"><a class="header" href="#aoj-out">AOJ OUT</a></h4>
 <p>The AOJ OUT position is used to override the acquisition on jamming function of
-the radar. In the event that the radar acquires a Home-on-Jam lock, the position can be
+the radar. In the event that the radar acquires a Home-on-Jam (HOJ) lock, the position can be
 selected to place the radar back into a search configuration to initiate a
 lock-on against the jamming target and initiate a standard angle track lock.</p>
 <h3 id="display-knob"><a class="header" href="#display-knob">Display Knob</a></h3>
@@ -266,10 +266,10 @@ lock-on against the jamming target and initiate a standard angle track lock.</p>
 <p>Sets the display type of the radar scope to access specific mode functionality
 in conjunction with the Mode knob. The types are as follows:</p>
 <div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
-<tr><td><a href="../../../systems/radar.html#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident">B WIDE</a></td><td>Selects 120 degree B-sweep for search. Half-action places the sweep under manual Antenna hand control stick.</td></tr>
-<tr><td><a href="../../../systems/radar.html#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident">B NAR</a></td><td>Selects a 45 degree B-sweep sector for search, which is manually shifted with the Antenna hand control stick.</td></tr>
+<tr><td><a href="../../../systems/radar.html#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident">B WIDE</a></td><td>Selects 120 degree B-sweep for search. Half-action places the sweep under manual Antenna Hand Control stick.</td></tr>
+<tr><td><a href="../../../systems/radar.html#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident">B NAR</a></td><td>Selects a 45 degree B-sweep sector for search, which is manually shifted with the Antenna Hand Control stick.</td></tr>
 <tr><td><a href="../../../systems/radar.html#air-to-ground-ppi-wide-and-ppi-nar">PPI WIDE</a></td><td>Selects a 120 degree wide plan position indicator sweep for MAP mode.</td></tr>
-<tr><td><a href="../../../systems/radar.html#air-to-ground-ppi-wide-and-ppi-nar">PPI NAR</a></td><td>Selects a 45 degree plan position indicator sweep that can be shifted with the Antenna hand control stick.</td></tr>
+<tr><td><a href="../../../systems/radar.html#air-to-ground-ppi-wide-and-ppi-nar">PPI NAR</a></td><td>Selects a 45 degree plan position indicator sweep that can be shifted with the Antenna Hand Control stick.</td></tr>
 <tr><td><a href="../../../systems/radar.html#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident">VI</a></td><td>Provides pure pursuit guidance to a locked target; a break X will appear at 1000' range.</td></tr>
 </tbody></table>
 </div>
@@ -277,7 +277,8 @@ in conjunction with the Mode knob. The types are as follows:</p>
 <p><img src="../../../img/wso_radar_man_vc_knob.jpg" alt="Manual Vc Knob" /></p>
 <p>A 12 position switch used to apply estimated range rate of closure (clockwise,
 0-9), or estimated opening of range (counterclockwise, 0-2) against a target in
-manual track mode. The numbers are multiplied by 100 m/s while closure means closing in to the F-4
+manual track mode.</p>
+<p>The numbers are multiplied by 100 m/s while closure means closing in to the F-4
 and opening means the target is flying away from the F-4.</p>
 <h3 id="pulse-switch"><a class="header" href="#pulse-switch">Pulse Switch</a></h3>
 <p>Three position switch controlling radar pulse width and pulse repetition
@@ -318,6 +319,9 @@ with flaps and speed brakes retracted and mode knobs out of OFF.</p>
 <h3 id="ripple-switch"><a class="header" href="#ripple-switch">Ripple Switch</a></h3>
 <p>Guarded by a cover, when positioned ON, dispenses flares at rate of
 ten per second until dispensers are empty, so long as flaps and speed brakes are retracted.</p>
+<blockquote>
+<p>💡 After around 10 seconds, all countermeasure have been dispensed.</p>
+</blockquote>
 <h3 id="counters"><a class="header" href="#counters">Counters</a></h3>
 <p>Indicate quantity of chaff and flare cartridges remaining, respectively.</p>
 <p>They are automatically set by the ground crew when rearming.</p>

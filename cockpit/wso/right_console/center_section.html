@@ -203,15 +203,15 @@ the window in the last digit position.</p>
 <p>A three position drum roller window with matching analog knob used to enter the
 altitude of either the Radar initial Point or the actual target itself, and is referenced in
 increments of 100'. Fractional values can be entered as described previously.
-This value can be changed once Radar initial Point or Visual ingress Point is properly defined to
-increase release system accuracy.</p>
+This value can be changed once Radar Initial Point (RIP) or Visual Ingress Point (VIP) is
+properly defined to increase release system accuracy.</p>
 <h3 id="drag-coefficient-control"><a class="header" href="#drag-coefficient-control">Drag Coefficient Control</a></h3>
 <p>Used to enter the drag coefficient value for the weapon being used from the
 bombing tables for the intended release mode.</p>
 <p>Refer to the <a href="../../../dcs/bombing_computer.html">bombing calculator</a> for obtaining the value.</p>
 <h3 id="release-advance-control"><a class="header" href="#release-advance-control">Release Advance Control</a></h3>
 <p>Used to advance the release signal given from the <a href="../../../systems/weapon_systems/wrcs.html">WRCS</a> to
-the fire control system relative to the <a href="../../../systems/weapon_systems/wrcs.html">WRCS</a> target
+the fire control system relative to the WRCS target
 point, in any duration from 0 to 999 milliseconds. Also functions in conjunction
 with <a href="../../../systems/weapon_systems/arbcs.html">ARBCS/LABS</a> programmed release
 timing.</p>
@@ -231,6 +231,7 @@ delivery modes. The BIT check is performed by selecting the desired mode for
 testing, pressing the knob for five seconds, then pressing the Freeze button on
 the Cursor Control Panel while keeping the BIT knob held down to confirm
 function.</p>
+<p>See <a href="../../../procedures/bit_tests/wrcs.html">WRCS BITs</a> for details.</p>
 <h2 id="cursor-control-panel"><a class="header" href="#cursor-control-panel">Cursor Control Panel</a></h2>
 <p><img src="../../../img/wso_cursor_control_panel.jpg" alt="wso_cursor_control_panel" /></p>
 <p>Used for <a href="../../../systems/weapon_systems/wrcs.html">WRCS</a> radar bombing mode target entry. Functions
@@ -256,6 +257,8 @@ Track and Cross Track cursors to define the actual target defined by
 the <a href="../../../systems/weapon_systems/wrcs.html">WRCS</a>
 offsets on the radar scope. This action initiates target steering information
 from the <a href="../../../systems/weapon_systems/wrcs.html">WRCS</a> to the navigational displays.</p>
+<p>The <a href="../../../systems/weapon_systems/pave_spike/overview.html">Pave Spike</a>
+system also utilizes the Target Insert functionality for its Memory Mode.</p>
 <h3 id="reset-button"><a class="header" href="#reset-button">Reset Button</a></h3>
 <p>Pressing the Reset Button drops the currently tracked ground target location
 from <a href="../../../systems/weapon_systems/wrcs.html">WRCS</a> computer memory, returns the Along and Cross

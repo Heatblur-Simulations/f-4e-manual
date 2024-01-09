@@ -188,6 +188,11 @@ system with real time accurate positional, velocity, attitude, and heading
 information. When the system is aligned to its most precise extent in
 gyrocompass mode, the INS is accurate to 3 nautical miles per hour of circular
 error probability (CEP).</p>
+<blockquote>
+<p>💡 That means that after one hour of flying, the probability for an error
+in precision is spread such that in 50% of cases it is either below or
+above 3nm.</p>
+</blockquote>
 <h2 id="inertial-measurement-platform"><a class="header" href="#inertial-measurement-platform">Inertial Measurement Platform</a></h2>
 <p><img src="../../img/wso_ins_control_panel.jpg" alt="wso_inertial_system_panel" /></p>
 <p>The system uses a four gimbal (outer roll, pitch, inner roll, azimuth) inertial
@@ -258,6 +263,10 @@ the switch actuated up, and the INS mode switch placed to ALIGN until the ALIGN
 lamp starts flashing. Then, the INS can be placed into NAV mode. If time allows,
 STBY mode can be selected before going to ALIGN to allow proper heating of the
 gyroscopes (which goes through the illumination/off cycle as above).</p>
+<blockquote>
+<p>💡 Heading can be stored in the
+<a href="../../dcs/mission_editor.html#ins-reference-alignment-stored">mission editor</a>.</p>
+</blockquote>
 <h3 id="gyrocompass-alignment"><a class="header" href="#gyrocompass-alignment">Gyrocompass Alignment</a></h3>
 <p>Maximum system precision is found by allowing the INS to perform a full
 Gyro-compassing alignment. This method permits the gyros to find the most
