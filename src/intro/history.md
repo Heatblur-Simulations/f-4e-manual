@@ -244,7 +244,7 @@ down in the cockpit. 556 also included modifications to the armament panel for
 air to ground munitions, adding ripple release capability while reducing the
 number of controls required to access full ARBCS programming.
 
-![real_life_f_4_with_tiseo](../img/real_life_f_4_tiseo.png) _An F-4E Phantom II with a TISEO mounted
+![real_life_f_4_with_tiseo](../img/real_life_f_4_tiseo.jpg) _An F-4E Phantom II with a TISEO mounted
 on left wing above the blue practice bombs_
 
 Further reinforcement of crew initiative was the installation of TISEO - the Target
