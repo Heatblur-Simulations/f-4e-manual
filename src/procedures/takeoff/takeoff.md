@@ -40,13 +40,11 @@ period are normal. The AUX AIR DOORS, WHEELS, and
 MASTER CAUTION lights may illuminate momentarily
 as the landing gear and flaps are retracted.
 
-<!-- CAUTION -->
->🚨
-Rapid full aft movement of the stick between
-takeoff airspeed and 30 knots below takeoff
-airspeed may result in the stabilator hitting the
-runway with the possibility of stabilator actuator
-damage.
+> 🚨 Rapid full aft movement of the stick between
+> takeoff airspeed and 30 knots below takeoff
+> airspeed may result in the stabilator hitting the
+> runway with the possibility of stabilator actuator
+> damage.
 
 ![Takeoff](../../img/takeoff.jpg)
 
@@ -58,19 +56,17 @@ satisfy mission requirements, aircrews should be aware
 that takeoff roll and airspeed will be increased and: the
 takeoff attitude will be slightly steeper. Stabilator
 effectiveness is considerably increased and extreme
-caution must be exercised to prevent overrotation which
+caution must be exercised to prevent over-rotation which
 could result in the stabilator striking the runway.
 
-<!-- WARNING -->
->⚠️
-Due to increased stabilator authority with the
-flaps up, aircraft rotation can be initiated at
-lower than normal airspeeds and overrotation is
-a definite possibility. If it appears that
-overrotation is occurring, positive control
-movement (stick forward) must be taken to
-prevent the stabilator from contacting the
-runway and/or loss of aircraft control.
+> ⚠️ Due to increased stabilator authority with the
+> flaps up, aircraft rotation can be initiated at
+> lower than normal airspeeds and over-rotation is
+> a definite possibility. If it appears that
+> over-rotation is occurring, positive control
+> movement (stick forward) must be taken to
+> prevent the stabilator from contacting the
+> runway and/or loss of aircraft control.
 
 ## Minimum Run / Heavy Gross Weight Takeoff
 
@@ -78,7 +74,7 @@ A minimum run/heavy gross weight takeoff (aircraft over
 55,500 pounds) is accomplished in the same manner as a
 normal takeoff with the following exceptions: It is
 recommended that all minimum run/heavy gross weight
-takeoffs be made with afterburner. During the takeoffrun,
+takeoffs be made with afterburner. During the takeoff-run,
 full aft stick must be applied prior to reaching 80 knots. As
 the aircraft starts to rotate, the stick should be adjusted to
 maintain 10° to 12° pitch attitude for aircraft fly-off. The
@@ -86,29 +82,27 @@ possibility of a main landing gear tire failure increases
 with an extended takeoff ground run under heavy gross
 weight conditions. Nose wheel liftoff speed and takeoff
 speed is increased during heavy gross weight conditions.
-In the event ofan aborted takeoff, it must be remembered
+In the event of an aborted takeoff, it must be remembered
 that stopping distance is greatly increased as abort speed
 increases.
 
-<!-- CAUTION -->
->🚨
-With a combination of light gross weight and aft
-CG, the minimum run takeoff technique (i.e., full
-aft stick prior to reaching 80 knots) produces
-rapid pitch rates during nose rotation. This
-combination can exist when the radar package
-and nose gun (or equivalent ballast) are not
-installed.
+> 🚨 With a combination of light gross weight and aft
+> CG, the minimum run takeoff technique (i.e., full
+> aft stick prior to reaching 80 knots) produces
+> rapid pitch rates during nose rotation. This
+> combination can exist when the radar package
+> and nose gun (or equivalent ballast) are not
+> installed.
 
 ## Crosswind Takeoff
 
 Under crosswind conditions, the aircraft tends to weather
-vane into the wind. The weather vaning tendency can be
+vane into the wind. The weathervaning tendency can be
 easily controlled with nose gear steering. As forward speed
-increases, weather vaning tendency decreases. At speeds
+increases, weathervaning tendency decreases. At speeds
 above 70 knots rudder effectiveness will normally be
 sufficient to maintain directional control. After the nose is
-lifted to takeoffattitude, the aircraft will have a tendency
+lifted to takeoff attitude, the aircraft will have a tendency
 to drift toward the downwind side of the runway.
 Therefore, when a long time period is expected between
 nose lift-off and aircraft fly-off, or when the crosswind
@@ -158,17 +152,14 @@ maximum-performance/high-AOA maneuvering. Do not
 perform maximum performance maneuvers if any of the
 following checks are unsatisfactory.
 
-a. Pull nose up with 2G acceleration and release the
+1. Pull nose up with 2G acceleration and release the
 stick. Aircraft should stabilize in one cycle.
-
-b. Yaw aircraft to one ball width and release rudder.
+2. Yaw aircraft to one ball width and release rudder.
 Aircraft should stabilize in one cycle.
-
-c. Roll to 30-45° bank and release stick. Aircraft
+3. Roll to 30-45° bank and release stick. Aircraft
 should maintain bank angle. Roll to level flight
 and release stick. Aircraft should maintain wings
 level.
-
-d. Gradually increase AOA through 11 1/2 units and
+4. Gradually increase AOA through 11 1/2 units and
 ensure slats extend together. Decrease AOA below
 10 1/2 units and ensure slats retract together.

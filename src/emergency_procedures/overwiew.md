@@ -25,8 +25,8 @@ the pilot should notify the WSO, flight or flight leader, and
 tower of any existing emergency and of the intended
 action.
 
-The terms "Land as soon as possible" and "Land as soon
-as practical" are used in this section. These terms are
+The terms "Land as soon as **possible**" and "Land as soon
+as **practical**" are used in this section. These terms are
 defined as follows:
 
 **Land as soon as possible** - An emergency will be declared.
@@ -49,3 +49,6 @@ and should be thoroughly understood by all aircrew:
 3. Land as soon as practical.
 
 <!-- TODO: maybe add warning from the flight manual -->
+> 🚧 This section is under construction.
+>
+> * Add some procedures

@@ -7,7 +7,7 @@ accomplished above 10,000 feet AGL and at a time when
 mission/flight demands are not critical. Prior to
 performing a rapid descent, the windshield and canopy
 surfaces should be preheated to prevent the formation of
-frost or fog. Ifit becomes necessary to dump fuel during a
+frost or fog. Lift becomes necessary to dump fuel during a
 descent, thrust settings in excess of 85% rpm may be
 required to ensure rapid inflight dumping.
 
@@ -18,14 +18,12 @@ figure. Enter the pattern as local policy dictates.
 
 ![Landing Pattern](../../img/landing_pattern.jpg)
 
-<!-- WARNING -->
->⚠️
-If high angles of attack develop during the turn
-to downwind, the rudder should be used as a
-primary means of rollout since adverse yaw may
-be introduced by the use ofailerons. Altitude may
-be insufficient for recovery if uncontrolled flight
-is encountered.
+> ⚠️ If high angles of attack develop during the turn
+> to downwind, the rudder should be used as a
+> primary means of rollout since adverse yaw may
+> be introduced by the use of ailerons. Altitude may
+> be insufficient for recovery if uncontrolled flight
+> is encountered.
 
 Avoid buffet throughout the landing pattern. Adjust
 power, as necessary, to attain allowable gear lowering
@@ -56,16 +54,14 @@ the aircraft in the nose-down direction. Maintaining pitch
 attitude will result in transition to a slightly slow
 indication at touch-down which is desired. Flying a 2 1/2°
 to 3° glide slope will produce an approach rate of descent
-ofabout 700 feet per minute. Sink rate at touchdown will
+of about 700 feet per minute. Sink rate at touchdown will
 be appreciably reduced by ground effect.
 
-<!-- CAUTION -->
->🚨
-Flying a steeper than normal final approach or
-not maintaining pitch attitude when entering
-ground effect, can cause touchdown sink rates to
-exceed the design limit of the main landing gear
-struts.
+> 🚨 Flying a steeper than normal final approach or
+> not maintaining pitch attitude when entering
+> ground effect, can cause touchdown sink rates to
+> exceed the design limit of the main landing gear
+> struts.
 <!-- (Refer to section V for touchdown sink
 rates vs gross weight limitations.) -->
 
@@ -80,17 +76,15 @@ directional control, use nose gear steering as required.
 Engage nose gear steering only with the rudder at or near
 neutral.
 
-<!-- WARNING -->
->⚠️
-Nose gear steering malfunctions can cause loss of
-directional control if engaged at high ground
-speed; therefore, it should not be engaged above
-taxi speed unless required to maintain directional
-control during crosswind landing conditions. Ifno
-response is noted or unscheduled steering
-responses are detected when engaging nose gear
-steering, disengage immediately and do not
-reengage.
+> ⚠️ Nose gear steering malfunctions can cause loss of
+> directional control if engaged at high ground
+> speed; therefore, it should not be engaged above
+> taxi speed unless required to maintain directional
+> control during crosswind landing conditions. If no
+> response is noted or unscheduled steering
+> responses are detected when engaging nose gear
+> steering, disengage immediately and do not
+> reengage.
 
 During braking, cycling of the anti-skid system can be
 detected by a change in longitudinal deceleration. Cycling
@@ -133,9 +127,9 @@ to guard against undershooting or overshooting the final
 turn. Fly the final approach course with the aircraft
 ground track properly aligned with the runway. The
 crosswind may be compensated for either by using the
-wing low method, the crab method, or a combination ofthe
+wing low method, the crab method, or a combination of the
 two. When using the wing low method, the ARI can be
-overpowered by use ofthe rudder pedals or the ARI can be
+overpowered by use of the rudder pedals or the ARI can be
 disengaged by pulling the rudder trim circuit breaker. If
 the crab method is employed, the aircraft heading should
 be aligned with the runway just prior to touchdown. After
@@ -149,7 +143,7 @@ vane effect for any given deployment condition. The
 weather vane effect increases as the forward velocity of
 the aircraft decreases, therefore, if the drag chute is to be
 used, it should be used at the initial portion rather than
-the latter portion ofthe landing roll. This also assures use
+the latter portion of the landing roll. This also assures use
 of the drag chute in the speed region where it is most
 effective. If the drag chute is used and excessive
 weathervaning is encountered, jettison drag chute. Since
@@ -171,14 +165,14 @@ correct back to the runway centerline after it has deviated.
 Wet or icy runway conditions pose severe problems in
 directional control and braking effectiveness. On wet
 runways, these problems are primarily the result of
-hydroplaning where the tire rides on a thin layer ofwater
+hydroplaning where the tire rides on a thin layer of water
 and produces little or no traction. The probability of
 hydroplaning increases with increased water depth,
 increased ground speed, decreased tire pressure and
 decreased tire tread depth and is also affected by runway
 surface texture and tire tread design. Hydroplaning can
 occur on runways which appear only damp if severe
-braking is applied at high speeds. Hydr.oplaning and glare
+braking is applied at high speeds. Hydroplaning and glare
 ice present essentially the same problems. Due to the
 reduced directional control, all landings on a wet or icy
 runway should be made utilizing a crosswind technique.
@@ -219,24 +213,22 @@ felt. As braking potential increases with decreasing speed,
 the anti-skid system will increase deceleration
 accordingly. Unless the pilot is familiar with the variables
 in braking potential, the low deceleration at high speed
-may be mistakenly interpeted as a brake or anti-skid
+may be mistakenly interpreted as a brake or anti-skid
 failure.
 
-<!-- CAUTION -->
->🚨
-Rubber deposits on the last 2000 feet of wet
-runway make directional control a difficult
-problem even at very low speeds. Braking should
-be started in sufficient time so as not to require
-excessive braking on the last portion of the
-runway.
+> 🚨 Rubber deposits on the last 2000 feet of wet
+> runway make directional control a difficult
+> problem even at very low speeds. Braking should
+> be started in sufficient time so as not to require
+> excessive braking on the last portion of the
+> runway.
 
 ## Heavy Gross Weight Landing
 
 The heavy gross weight landing pattern is the same as the
 basic pattern shown in figure 2-6 with the exception that
 it should be expanded slightly to compensate for the lower
-maneuvering capability ofthe heavy gross weight aircraft
+maneuvering capability of the heavy gross weight aircraft
 at low speeds. As in the normal pattern, an on-speed
 indication on the indexer will provide the optimum angle
 of attack and airspeed for the aircraft in the landing
@@ -263,10 +255,8 @@ knots. Refer to Go-Around, figure 2-8. During go-around
 a rapid trim change is required to preclude high forward
 stick forces.
 
-<!-- WARNING -->
->⚠️
-Do not exceed 18 units AOA during go-around
-with gear retracted.
+> ⚠️ Do not exceed 18 units AOA during go-around
+> with gear retracted.
 
 ## Touch-And-Go
 
