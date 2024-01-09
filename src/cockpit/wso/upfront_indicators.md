@@ -8,7 +8,9 @@ flight instruments and gauges.
 ![StbyMagComp](../../img/StbyMagComp.jpg)
 
 A standard magnetic compass for backup navigation assistance should the primary
-flight director systems fail. The compass should only be used in level flight. Compass deviation
+flight director systems fail.
+
+The compass should only be used in level flight. Compass deviation
 cards are found above the right canopy sill on each cockpit.
 
 ## Command Ejection Select Handle
@@ -72,7 +74,7 @@ for cause to rectify the situation.
 ![LftShoot](../../img/wso_shoot_light.jpg)
 
 Illuminates when missile firing parameters are met. Does not illuminate
-when in Visual Intercept or Air-to-Ground modes.
+when in Visual Intercept (VI) or Air-to-Ground modes.
 
 ## RWR Azimuth Indicator
 
@@ -163,7 +165,12 @@ the PUSH TO SET button will reset the maximum position indicators to 1 G.
 
 A 4-minute turn indicator, utilizing a conventional horizontally mounted gyro,
 accurately displays standard turn rates, resembling a conventional turn and slip
-indicator. 4-minute turn indicator refers to 4 minutes for a 360-degree turn.
+indicator.
+
+To execute a controlled turn (360° in 4 minutes), place the vertical needle
+over one of the indicators on either side (turn rate of 1.5 degrees per second) and ensure
+the slip indicator at the bottom is centered to prevent over- or under-turning due to
+incorrect bank.
 
 ## Navigation Mode Selector Switch
 
@@ -261,7 +268,8 @@ pointers).
 See [Navigation Mode Selector Switch](upfront_indicators.md#navigation-mode-selector-switch) for
 Needle Explanation.
 
-When the upper position is selected by the WSO to TACAN/ADF/UHF, the no. 1
+When the upper position of the Navigation Mode Selector Switch is selected by the WSO
+to TACAN/ADF/UHF, the no. 1
 pointer indicates UHF bearing, and the no. 2 pointer indicates the TACAN
 bearing. If there is no TACAN signal, both pointers indicate the ADF bearing.
 
@@ -272,15 +280,17 @@ pointers indicate the VOR station.
 
 In the lower position, NAV COMP, the no. 1 pointer indicates bearing to the
 navigation computer target coordinates, and the no. 2 pointer indicates magnetic
-ground track. The range indicator notes distance to the selected target depending on the
-[Navigation Mode Selector Switch](upfront_indicators.md#navigation-mode-selector-switch).
+ground track.
+
+A vertical readout, the range indicator notes distance to the selected target depending
+on the Navigation Mode Selector Switch.
 
 ## Tachometers
 
 ![Tach](../../img/Tach.jpg)
 
 A percentage-noting Tachometer is provided for each engine, including an inset
-wheel for accurate display of single digits. Normal values are 65% for idle, 95% in full mil power
+wheel for accurate display of single digits. Normal values are 65% for idle, 95% in full MIL power
 and 105% for full afterburner.
 
 ## Canopy Unlocked Warning Lamp

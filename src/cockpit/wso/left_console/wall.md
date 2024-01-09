@@ -5,8 +5,8 @@
 ![CanJet](../../../img/wso_canopy_jettison.jpg)
 
 Used for emergency ground extraction, the Emergency Canopy Jettison Handle
-releases a compressed oxygen cylinder to open both canopies immediately,
-shearing them off at their pivots. The handle only jettisons the respective canopy.
+releases a compressed oxygen cylinder to open the respective canopy immediately,
+shearing it off at its pivots.
 
 ## Canopy Control Switch
 

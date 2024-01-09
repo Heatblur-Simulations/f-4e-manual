@@ -45,6 +45,9 @@ COMP position for Gyro Compass type of alignment. Switching it to HDG MEM,
 before turning on the INS, allows, if previously stored, heading memory
 alignment.
 
+> 💡 Heading can be stored in the
+> [mission editor](../../../dcs/mission_editor.md#ins-reference-alignment-stored).
+
 ### Power Control Knob
 
 Knob positions are:
@@ -126,12 +129,10 @@ using the [WRCS](../../../systems/weapon_systems/wrcs.md) release range data.
 Used to combine the delivery functionality of
 the [ARBCS/LABS](../../../systems/weapon_systems/arbcs.md) system with the
 [WRCS](../../../systems/weapon_systems/wrcs.md) TGT FIND mode. NORM is selected for the standard
-function of the [WRCS](../../../systems/weapon_systems/wrcs.md)
-without [LABS](../../../systems/weapon_systems/arbcs.md) delivery capability. Selecting HOLD and
-an [ARBCS](../../../systems/weapon_systems/arbcs.md) setting from the
-pilot's Delivery Mode Knob provides [WRCS](../../../systems/weapon_systems/wrcs.md) Target Offset
+function of the WRCS without LABS delivery capability. Selecting HOLD and
+an ARBCS setting from the pilot's Delivery Mode Knob provides WRCS Target Offset
 search capability, and the attack is completed using the
-normal [ARBCS](../../../systems/weapon_systems/arbcs.md) procedures from the IP.
+normal ARBCS procedures from the IP.
 
 ### RANGE Switch
 

@@ -86,7 +86,8 @@ Valid frequencies range from 108.00 to 117.95 MHz.
 
 ### VOR/MKR Test
 
-A button to initiate a built-in test of [the VOR system](../../../systems/nav_com/vor_ils.md).
+A button to initiate a built-in test of the VOR system.
+See [VOR/ILS Test](../../../procedures/bit_tests/navigation_tests.md#vorils-test) for details.
 
 ## AFCS Control Panel
 

@@ -32,16 +32,17 @@ suspected cases of thermal runaway.
 ### Autopilot Ground Test
 
 The autopilot ground test switch, located on the No. 2 circuit breaker panel, connects external
-electrical power to
-the [AFCS](../../../systems/flight_controls_gear/flight_controls.md#auotmatic-flight-control-system-afcs)
+electrical power to the [AFCS](../../../systems/flight_controls_gear/flight_controls.md#auotmatic-flight-control-system-afcs)
 circuits. It disengages if there's a loss of external power or when a
-generator comes online. When operating on external power,
-the [AFCS](../../../systems/flight_controls_gear/flight_controls.md#auotmatic-flight-control-system-afcs)
-circuit can be deenergized by
+generator comes online. When operating on external power, the AFCS circuit can be de-energized by
 placing the switch in the NORM (down) position.
 
 ### Instrument Ground Power
 
 In the TEST position, connects external electrical power to the instrument buses
-(115/200 volt ac, 28 volt ac, and 14 volt ac) , contingent upon the generator
+(115/200 volt ac, 28 volt ac, and 14 volt ac), contingent upon the generator
 switches being set to EXT ON.
+
+This can be used during a cold-start after applying ground power and before starting the engines,
+to already setup the aircraft and operate some systems that require
+power on these buses.

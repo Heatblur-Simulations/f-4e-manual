@@ -70,9 +70,9 @@ range is attained in the instructed profile, the missile will be launched.
 > require repeated adjustments with wings brought to level every few seconds to
 > make certain the aircraft is pointing at the emitter.
 
-#### Pull-up
+#### Pull-Up
 
-The Pull-up instruction is guidance for the pilot to initiate a steady rotation
+The Pull-Up instruction is guidance for the pilot to initiate a steady rotation
 back to the horizon, and, if desired, continue into a steady climb state until
 range requirements are met and the missile is launched. The pilot can choose to
 either bring the aircraft to near level and stop, or pull further into a low

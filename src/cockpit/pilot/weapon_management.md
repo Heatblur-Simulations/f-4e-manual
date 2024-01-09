@@ -137,7 +137,7 @@ The full series of positions is as follows, clockwise from the left:
 | [TL](../../stores/air_to_ground/bombs/employment.md#timed-level---tl)                                | Timed Level                                                                                       |
 | OFF                                                                                                  | Off (Air-to-Air)                                                                                  |
 | [DIRECT](../../stores/air_to_ground/bombs/employment.md#direct)                                      | Manual Direct                                                                                     |
-| [TGT FIND](../../stores/air_to_ground/bombs/employment.md#target-find---tgt-find)                    | Target Find (Nav mode and [Pave spike](../../systems/weapon_systems/pave_spike/overview.md) only) |
+| [TGT FIND](../../stores/air_to_ground/bombs/employment.md#target-find---tgt-find)                    | Target Find (Nav mode and [Pave Spike](../../systems/weapon_systems/pave_spike/overview.md) only) |
 | [DT](../../stores/air_to_ground/bombs/employment.md#dive-toss---dt)                                  | Dive Toss                                                                                         |
 | [DL](../../stores/air_to_ground/bombs/employment.md#dive-laydown---dl)                               | Dive Laydown                                                                                      |
 | [L](../../stores/air_to_ground/bombs/employment.md#laydown---l)                                      | Laydown                                                                                           |
@@ -156,8 +156,8 @@ air weapon firing unless a CAGE signal is active. ARM and TV positions do not
 affect tuning status of radar guided weapons. Positions are as follows:
 
 | Name        | Description                                                                                   |
-|-------------|-----------------------------------------------------------------------------------------------|
-| AGM-12      | Not used.                                                                                     |
+| ----------- | --------------------------------------------------------------------------------------------- |
+| AGM-12      | [AGM-12 Bullpup](../../stores/air_to_ground/missiles/bullpup.md)                              |
 | BOMBS       | Bombs (all types).                                                                            |
 | RKTS & DISP | Rockets and dispensers.                                                                       |
 | ARM         | Anti-Radiation Missile ([AGM-45 Shrike](../../stores/air_to_ground/missiles/shrike.md)).      |
@@ -220,13 +220,16 @@ two seconds the bomb button is held down.
 ![MSL](../../img/pilot_missile_status_light.jpg)
 
 The Missile Status Light window provides confirmation of currently installed and
-configured [air-to-air missiles.](../../stores/air_to_air/overview.md)
+configured [air-to-air missiles](../../stores/air_to_air/overview.md).
 
 ### Radar Lights
 
 The RDR lights illuminate once AIM-7 missiles are properly tuned with the fire
 control system; any station that does not carry a Sparrow, does not correctly
 sync up during tuning, or is launched, will turn off.
+
+The left pair of lights indicates stations 4 and 3 from top to bottom,
+while the right pair links to stations 6 and 7 respectively.
 
 ### Heat Lights
 
@@ -237,6 +240,9 @@ the weapon is either cycled using the throttle's Gun/Missile Switch reject
 option, or is launched. The HEAT light arrangement corresponds with the
 [launch sequence](../../stores/air_to_air/aim_9.md#launch-sequence) of
 the [AIM-9](../../stores/air_to_air/aim_9.md).
+
+The left pair of lights represent station 2L and 2R respectively,
+while the right pair is linked to stations 8L and 8R.
 
 ## Radar Missile Power Switch
 
@@ -306,6 +312,5 @@ and then push the jettison button.
 This dimmable lamp is lit to indicate operation of the
 [Airborne-Video-Tape-Recorder (AVTR)](../../cockpit/wso/left_sub_panel.md#avtr-control).
 
-The [AVTR](../../cockpit/wso/left_sub_panel.md#avtr-control) system is controlled by the WSO and
-records the intercom sound, as well
+The AVTR system is controlled by the WSO and records the intercom sound, as well
 as the rear radar screen.

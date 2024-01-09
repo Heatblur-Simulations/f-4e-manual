@@ -1,10 +1,11 @@
 # Employment
 
 The Phantom has a wide range of weapon modes to employ bombs. Most modes will need the WSO to make
-inputs into
-the [ARBCS](../../../systems/weapon_systems/arbcs.md)/[WRCS.](../../../systems/weapon_systems/wrcs.md)
-For assistance in calculation see [Bombing Calculator Chapter](../../../dcs/bombing_computer.md).
-You can open and close it by pressing <kbd>RCTRL</kbd>+<kbd>B</kbd> in game.
+inputs into the [ARBCS](../../../systems/weapon_systems/arbcs.md)/[WRCS.](../../../systems/weapon_systems/wrcs.md).
+
+For assistance in calculation
+see [Bombing Calculator Chapter](../../../dcs/bombing_computer.md). You can open and close it by
+pressing <kbd>RCTRL</kbd> + <kbd>B</kbd> in game.
 
 ## LOFT
 

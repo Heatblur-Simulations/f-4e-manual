@@ -14,8 +14,7 @@ degrees of bank angle or 35 degrees of pitch. Clockwise rotation of the function
 control switch on the lower left of the indicator powers the device; continued
 rotation sets the low altitude warning pointer to the desired height. Below the
 set altitude, the warning light on the lower right activates.
-A self-test, initiated by pressing
-the function control switch, shows 35ft.
+A self-test, initiated by pressing the function control switch, shows 35ft.
 
 ## Airspeed and Mach Indicator
 
@@ -38,7 +37,7 @@ adjacent [AoA](../../systems/flight_controls_gear/flight_controls.md#angle-of-at
 the
 [AoA](../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system) indicator offers
 conditional reference for cruise (7.9 units), approach
-(19.2 units), and stall (30.0 units). Because of
+(19.2 units), and stall (30 units). Because of
 the [AoA](../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system) probe to the
 nose gear door
 and subsequent airflow disturbance when the gear is lowered, actual
@@ -161,7 +160,7 @@ the ADI; the OFF position has the switch aligned vertically.
 | [VOR](../../systems/nav_com/vor_ils.md)/[TAC](../../systems/nav_com/tacan.md) | Magnetic and relative bearing to [VOR](../../systems/nav_com/vor_ils.md) station and [TACAN](../../systems/nav_com/tacan.md) range displayed on HSI. |
 | [TAC](../../systems/nav_com/tacan.md)                                         | Magnetic and relative bearing and range to [TACAN](../../systems/nav_com/tacan.md) station displayed on the HSI.                                     |
 | ADF/[TAC](../../systems/nav_com/tacan.md)                                     | Magnetic and relative bearing to ADF station and [TACAN](../../systems/nav_com/tacan.md) range displayed on HSI.                                     |
-| NAV COMP                                                                      | Magnetic and relative bearing and range provided from navigation computer(i.e. waypoints) on HSI.                                                    |
+| NAV COMP                                                                      | Magnetic and relative bearing and range provided from navigation computer (i.e. waypoints) on HSI.                                                    |
 
 ### Mode Selector Knob Display Functions
 

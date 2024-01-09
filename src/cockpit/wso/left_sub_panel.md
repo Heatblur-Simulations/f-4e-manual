@@ -12,7 +12,7 @@ Activates recording of gun camera footage.
 
 Illuminates when [CAGE](../../stores/air_to_air/acm_modes.md) mode activated; pressing the light
 reverts the radar to the original operating condition prior
-to [CAGE](../../stores/air_to_air/acm_modes.md) entry.
+to CAGE entry.
 
 ## Video Select Button
 
@@ -51,14 +51,14 @@ tape must be unthreaded before it can record again.
 
 Lit to indicate the AVTR system currently recording.
 
-## WSO Emergency Landing Gear Handle
+## Emergency Landing Gear Handle
 
 ![wso_emergency_handles](../../img/wso_emergency_handles.jpg)
 
 Deploys the landing gear using a pair of compressed air bottles; handle cannot
 retract gear, only deploy in an emergency.
 
-## WSO Emergency Brake Handle
+## Emergency Brake Handle
 
 In an emergency, discharges a portion of the brake system hydraulic accumulator
 to provide emergency braking. Contains a limited number of applications.
@@ -160,15 +160,7 @@ level. 100% should only be used if fire and/or smoke and fumes occur in the plan
 ### Supply Lever
 
 Two position switch (ON and OFF) activating flow of oxygen to the aircrew
-member.
-
-### Oxygen Quantity Test Button
-
-Tests oxygen low pressure warning system. Pressing the button cycles the needles
-from current oxygen level to zero, which triggers OXYGEN
-LOW [telelight panel](../../systems/emergency.md#telelight-panel)
-warning as needle passes through 1 liter. Releasing the button returns the
-needle to current system level and clears OXYGEN LOW warning.
+member. For further information see [Oxygen chapter](../../systems/utility.md#oxygen-system).
 
 ### Oxygen Pressure Gauge
 

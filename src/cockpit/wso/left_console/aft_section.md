@@ -32,6 +32,8 @@ of the system's performance.
 
 The lamp above the button illuminates to indicate test status.
 
+See [TACAN Test](../../../procedures/bit_tests/navigation_tests.md#tacan-test) for details.
+
 ### Volume Knob
 
 To the upper right, the VOL knob is available to set the desired audio level for

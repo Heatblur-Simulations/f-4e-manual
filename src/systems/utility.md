@@ -27,6 +27,7 @@ next to it there is the yellow and black emergency jettison handle.
 On the right side of the cockpit, in the same relative position,
 is the manual unlock lever which can be used to unlock the canopy
 in case of pneumatic system failure.
+
 Each cockpit employs an inflatable
 canopy seal to seal the canopies for cockpit pressurization.
 The canopy seals are automatically inflated and deflated
@@ -43,6 +44,8 @@ pressure USAF-style boom refueling. With this system, fuel can be delivered to
 the Phantom at a rate of up to 3900 lbs per minute. Fuel received is delivered
 into fuselage cell 2, then equalized through the rest of the aircraft cells,
 wing tanks, and, if installed and selected, external tanks.
+
+> 💡 Fully refueling takes roughly between one and three minutes.
 
 ### Air Refuel Switch
 
@@ -96,8 +99,9 @@ the DISENGAGED lamp.
 ![wso_air_refuel_recpt_cb](../img/wso_air_refuel_recpt_cb.jpg)
 
 In the event of a DISENGAGED situation during air refueling, the system is reset
-using the AIR REFUEL RECPT circuit breaker, found on the No 2 circuit breaker
-panel in the rear cockpit - right side, fourth column, top breaker.
+either by cycling the Air Refuel Switch or by using the AIR REFUEL RECPT circuit breaker,
+found on the No 2 circuit breaker panel in the rear cockpit - right side, fourth column,
+top breaker.
 
 ### External Tanks Full Lights
 

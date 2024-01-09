@@ -12,10 +12,10 @@ the [AGM-65 Maverick](../../stores/air_to_ground/missiles/maverick.md).
 
 ![RetIntensity](../../img/RetIntensity.jpg)
 
-| Name    | Description                                                  |
-|---------|--------------------------------------------------------------|
-| RET INT | Controls the brightness of the gun reticle.                  |
-| SCALE   | Controls the scale light intensity of the front radar scope. |
+| Name    | Description                                                                            |
+| ------- | -------------------------------------------------------------------------------------- |
+| RET INT | Controls the brightness of the gun reticle.                                            |
+| SCALE   | Controls the light intensity of the range scale at the edges of the front radar scope. |
 
 ## Sight Shutter Lever
 
@@ -23,13 +23,13 @@ the [AGM-65 Maverick](../../stores/air_to_ground/missiles/maverick.md).
 
 Changes the optical sight light source to prevent damage to the optics from high
 sunlight. Is used [after landing](../../procedures/landing/checklists.md#after-landing)
-to prevent damage to the sight.
+to prevent damage to the sight when parked.
 
 ## Reticle Depression Knob
 
 ![RetDepress](../../img/RetDepress.jpg)
 
-Controls manual depression in 1 mil increments from 0 to 245. The manual depression is used for
+Controls manual depression in 1 mil increments from 0 to 245 mil. The manual depression is used for
 [direct delivery bombing](../../procedures/bombs/bombs_direct_delivery.md) and delivery of
 the [AGM-65 Maverick](../../stores/air_to_ground/missiles/maverick.md).
 
@@ -46,8 +46,8 @@ Selects the mode of operation for the gun-sight.
 | CAGE  | Reticle is displayed and caged at the radar boresight line (RBL). This is used for [takeoff](../../procedures/takeoff/takeoff.md) and [landing](../../procedures/landing/landing.md). |
 | A/G   | Selects air to ground mode. Manual set depression is referenced from the fuselage reference line (FRL).                                                               |
 | A/A   | Selects air to air lead computing mode. Position is set by the gyro, range, and CADC, and can be caged.                                                               |
-| BIT 1 | System self test mode 1.                                                                                                                                              |
-| BIT 2 | System self test mode 2.                                                                                                                                              |
+| BIT 1 | System self test [mode 1](../../procedures/bit_tests/optical_sight.md).                                                                                                                                              |
+| BIT 2 | System self test [mode 2](../../procedures/bit_tests/optical_sight.md).                                                                                                                                              |
 
 ## OPR ERS/Contrast Knob
 
@@ -107,7 +107,7 @@ situation against a target above the fighter. The predicates are:
 When the HOLD ALT light is on, the fighter should be flown to center the
 steering dot relative to azimuth of the ASE circle. When the HOLD ALT light
 turns off, the fighter should then snap up in pitch to fully center the steering
-dot in the ASE circle.
+dot in the ASE circle. See [radar system](../../systems/radar.md) for more.
 
 ## Wheels Light
 
@@ -115,9 +115,9 @@ dot in the ASE circle.
 
 The WHEELS lamp illuminates when the aircraft slows below flaps blow-up speed
 (roughly 230 knots, dependent on altitude)
-with [the gear](../../systems/flight_controls_gear/gear_ground_handling.md) still raised. This
-serves as an indicator to
-lower [the gear.](../../systems/flight_controls_gear/gear_ground_handling.md)
+with [the gear](../../systems/flight_controls_gear/gear_ground_handling.md) still raised.
+In this situation, the aircraft assumes the intention is to land and the light illuminates
+to suggest lowering the gear.
 
 ## Range Lights
 

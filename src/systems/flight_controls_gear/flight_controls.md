@@ -197,8 +197,7 @@ hydraulic system and actuated by
 a [three position switch](../../cockpit/pilot/left_console/front_section.md#throttles) found on the
 inboard [throttle](../../cockpit/pilot/left_console/front_section.md#throttles) in both cockpits.
 Either switch will actuate the brakes. The positions
-are Out, Stop, and In; the first and last positions are momentary (reverting to
-Stop upon being released).
+are Out, Stop, and In; the Out position is momentary and reverts back to Stop when released.
 
 ![pilot_speed_brake](../../img/pilot_air_brake.jpg)
 
@@ -224,7 +223,7 @@ Aural Tone System.
 ![AoAInd](../../img/AoAInd.jpg)
 
 The Angle of Attack Indicator dials register AoA values from 0 to 30 units, with
-indications for weight-relative optimum altitude cruise (7.9 units) , approach
+indications for weight-relative optimum altitude cruise (7.9 units), approach
 (19.2 units), and stall (30 units).
 
 > 💡 Extension of the landing gear and thus the nose

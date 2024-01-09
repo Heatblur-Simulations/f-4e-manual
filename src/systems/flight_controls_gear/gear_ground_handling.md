@@ -60,7 +60,9 @@ of a wheel when the gears are down and locked.
 Nose Gear Steering is actuated using the referenced button on the control stick
 in either cockpit. Holding the button down permits the crew member to steer the
 aircraft using the rudder. Steering limit of the nose gear is 70 degrees from
-centerline in both directions. Rudder steering becomes effective at approximately 70 knots. At this
+centerline in both directions.
+
+Rudder steering becomes effective at approximately 70 knots. At this
 speed Nose Gear Steering should be disengaged and not be used any further.
 
 ## Wheel Brakes
@@ -145,7 +147,10 @@ door with a smaller pilot chute. Once the chute has deployed and performed
 sufficient braking action or the aircraft has recovered into a controllable
 state, the chute is jettisoned by pressing the button and pulling the handle
 back, then lowering it. This action releases the chute cables and allows it to
-pull free. Do not use the Chute in excess of 200 Knots IAS while landing.
+pull free.
+
+Do not use the Chute in excess of 200 Knots IAS while landing.
+
 For spin recovery the Chute can be used by pushing the stick full forward, putting ailerons and
 rudder in a neutral position and deploying the chute.
 

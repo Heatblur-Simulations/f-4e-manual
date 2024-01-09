@@ -43,6 +43,8 @@ of the system's performance.
 
 The lamp above the button illuminates to indicate test status.
 
+See [TACAN Test](../../../procedures/bit_tests/navigation_tests.md#tacan-test) for details.
+
 ### Volume Knob
 
 To the upper right, the VOL knob is available to set the desired audio level for
@@ -197,7 +199,7 @@ A plug that can be pulled to release cockpit pressure. Putting it back in will
 seal the cabin again.
 
 Without pressurization, the effective cabin altitude will be identical to the
-current altitude.
+current altitude. Which, if flying at high altitudes, can result in hypoxia.
 
 Should only be used if the pressurization system is malfunctioning and reads
 abnormal values, or to eliminate smoke and fumes from the cockpit. Descend to safe altitudes before

@@ -157,6 +157,10 @@ Knob in the STORES position, selecting the desired Station Select Buttons to
 release, and pressing PUSH TO JET. Any pylon or missile launcher at the station
 will remain in place, but stores - including MERs and TERs, will be released.
 
+As example, to jettison the right and left external fuel tanks, the pilot must
+select _STORES_ on the knob, press the corresponding station select buttons _LO_, _RO_
+and then push the jettison button.
+
 ### AIM-7 Jettison
 
 AIM-7 Sparrow missiles are released individually using the L/R FWD or L/R AFT
