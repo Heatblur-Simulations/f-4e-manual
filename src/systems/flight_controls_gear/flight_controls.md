@@ -27,17 +27,14 @@ control that performs the boom disconnect function its name implies, as well as
 a number of weapon selection functions.
 
 Also, unique to the front cockpit stick is a force transducer, to allow the pilot
-fine adjustment control of
-the [AFCS](../../cockpit/pilot/left_console/center_section.md#afcs-control-panel) with the autopilot
-functionality engaged. In the event the force applied to the stick exceeds
-the [AFCS](../../cockpit/pilot/left_console/center_section.md#afcs-control-panel) breakout limit,
-autopilot will be turned off.
+fine adjustment control of the AFCS with the autopilot functionality engaged. In the event the force
+applied to the stick exceeds the AFCS breakout limit, autopilot will be turned off.
 
 ## Aileron-Spoiler Control and Stabilator Control Feel and Trim Systems
 
 The Aileron-Spoiler Control System and the Stabilator Control System both offer
 trim following; the former through a screw jack actuator, the latter using a
-servo directed by the [AFCS](../../cockpit/pilot/left_console/center_section.md#afcs-control-panel).
+servo directed by the AFCS.
 These functions cause the stick to position relative
 to the current trim and autopilot position when the crew member in control goes
 "hands off". It is therefore advisable to maneuver the stick to the same
@@ -230,7 +227,7 @@ The Angle of Attack Indicator dials register AoA values from 0 to 30 units, with
 indications for weight-relative optimum altitude cruise (7.9 units) , approach
 (19.2 units), and stall (30 units).
 
->💡 Extension of the landing gear and thus the nose
+> 💡 Extension of the landing gear and thus the nose
 > gear door changes the airflow around the probe causing to indicate higher
 > angles by 1 unit. The approach airspeeds account for that. Therefore, performing
 > an approach with the gear retracted, will cause the indicators to show

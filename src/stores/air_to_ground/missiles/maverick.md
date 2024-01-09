@@ -30,7 +30,7 @@ applicable Station Select buttons, and setting Master Arm to On. The pilot then
 must select Direct on the Delivery Mode Knob, and the TV position on the Weapon
 Select Knob.
 
-When selected to TV, the 3 minute missile gyro warmup sequence initiates; it is
+When selected to TV, the 3-minute missile gyro warmup sequence initiates; it is
 suggested to start the stopwatch to the left of the Multiple Weapon Panel as a
 means to avoid disturbing this sequence. Once the warmup has completed, the
 lower amber ARM indicators on the Station Select buttons will illuminate.
