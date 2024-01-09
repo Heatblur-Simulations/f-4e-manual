@@ -117,7 +117,8 @@ This is only accessible to ground crew personnel.
 ### ACTIVATE Switch
 
 Only available after the Target Insert button is pressed, placing the switch to
-ON provides power to the weapon release computer's circuits for a [LABS](../../../systems/weapon_systems/arbcs.md) release
+ON provides power to the weapon release computer's circuits for
+a [LABS](../../../systems/weapon_systems/arbcs.md) release
 using the [WRCS](../../../systems/weapon_systems/wrcs.md) release range data.
 
 ### TGT FIND Switch

@@ -58,7 +58,7 @@ member.
 
 Tests oxygen low pressure warning system. Pressing the button cycles the needles
 from current oxygen level to zero, which triggers OXYGEN
-LOW [telelight panel](../right_sub_panel.md#telelight-annunciator-panel) 
+LOW [telelight panel](../right_sub_panel.md#telelight-annunciator-panel)
 warning as needle passes through 1 liter. Releasing the button returns the
 needle to current system level and clears OXYGEN LOW warning.
 
