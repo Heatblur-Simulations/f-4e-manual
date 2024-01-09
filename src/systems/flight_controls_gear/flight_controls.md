@@ -261,11 +261,17 @@ frequency based on higher AoA values.
 
 This tone can be lowered in volume below 20.3 units AoA gear down/25 units gear
 up with controls in each cockpit; exceeding these values will cause the system
-to override the volume limits and deliver the warning pulses at full volume.
+to override the volume limits and deliver the warning pulses at a minimum
+volume to ensure they are audible regardless of volume setting.
 
-The respective knobs are labelled STALL WARNING and can be found on the right
-side in either cockpit. They must not to be confused with the AURAL TONE CONTROL
-knobs, which control weapon related tones.
+> 💡 The respective knobs are labelled STALL WARNING and can be found on the right
+> side in either cockpit. They must not to be confused with the AURAL TONE CONTROL
+> knobs, which control weapon related tones.
+
+Due to limited forward visibility, the tones are a crucial aid during landing.
+If a low pitch tone playing at a pulse is heard, the aircraft is too fast.
+If a high pitch tone playing at a pulse is heard, the aircraft is too slow.
+For the proper on-speed configuration, a steady tone at a medium pitch is played.
 
 ## Stall Warning Vibrator
 

@@ -11,6 +11,9 @@ frost or fog. Lift becomes necessary to dump fuel during a
 descent, thrust settings in excess of 85% rpm may be
 required to ensure rapid inflight dumping.
 
+> 💡 Due to limited forward visibility, it is advisable to raise
+> the seat up before entering the pattern.
+
 ## Landing Technique
 
 For a normal landing, fly the pattern as illustrated in
@@ -34,7 +37,8 @@ prior to initiating turn to base leg. The optimum indicated
 AOA for approach is 19.2 units, and is adequate for all
 gross weight and normal slat flap configurations. The
 AOA aural tone system provides an audible cue to
-maintain an on-speed approach. During very gusty flight
+maintain an on-speed approach (steady tone played at medium pitch).
+During very gusty flight
 conditions, full aileron may not be sufficient to correct a
 wing low condition. When landing in gusty or crosswind
 conditions, with wake turbulence, with high internal fuel
