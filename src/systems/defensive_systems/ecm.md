@@ -67,7 +67,7 @@ run through the warmup period again. If the fault could be cleared, the light wi
 
 ![AN/ALQ-131](../../img/jammer_131.jpg)
 
-In service between 1970 and 1980; may only be equipped on the left inboard station 4.
+In service between 1970 and 1990; may only be equipped on the left inboard station 4.
 
 Technique 1 and 2 are identical and require a warmup period of around 3 minutes
 before being activated.
