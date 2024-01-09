@@ -95,6 +95,7 @@
     - [Missiles](./stores/air_to_ground/missiles/overview.md)
       - [AGM-45 Shrike](./stores/air_to_ground/missiles/shrike.md)
       - [AGM-65 Maverick](./stores/air_to_ground/missiles/maverick.md)
+      - [AGM-12 Bullpup](./stores/air_to_ground/missiles/bullpup.md)
     - [Rockets](./stores/air_to_ground/rockets.md)
     - [Bombs](./stores/air_to_ground/bombs/overview.md)
       - [Conventional Bombs](./stores/air_to_ground/bombs/conventional_bombs.md)
