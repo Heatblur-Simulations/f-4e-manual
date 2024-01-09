@@ -11,7 +11,7 @@ throttle and engine related controls.
 
 ![AntiSkidSwitch](../../../img/pilot_anti_skid_switch.jpg)
 
-Turns on and off
+Controls
 the [anti-skid system](../../../systems/flight_controls_gear/gear_ground_handling.md#anti-skid-system)
 which provides an electronically controlled skid protection at wheel speeds over 30 knots.
 
@@ -52,7 +52,7 @@ level. 100% should only be used if fire and/or smoke and fumes occur in the plan
 ### Supply Lever
 
 Two position switch (ON and OFF) activating flow of oxygen to the aircrew
-member.
+member. For further information see [Oxygen chapter](../../../systems/utility.md#oxygen-system).
 
 ### Oxygen Quantity Test Button
 
@@ -73,8 +73,8 @@ For further information see [Oxygen chapter](../../../systems/utility.md#oxygen-
 
 ![PilAGM](../../../img/PilAGM.jpg)
 
-Small joystick used to finalize the positioning of a target in the seeker gate
-of a guided Weapon prior to launch.
+Small joystick enabling the Pilot to control and steer
+guided Weapons such as Mavericks or Bullpups.
 
 ## Outboard Engine Control Panel
 
@@ -84,14 +84,18 @@ of a guided Weapon prior to launch.
 
 Two position switch (DE-ICE and NORMAL)
 controlling [de-icing function.](../../../systems/engines_and_fuel_systems/engines.md#engine-anti-icing-system)
-When in DE-ICE, the anti-icing air flow is enabled. In NORMAL, no anti-icing is provided. The system
-should only be used below high-mach numbers. At high-mach speeds the compressor inlet temperature is
+When in DE-ICE, the anti-icing air flow is enabled. In NORMAL, no anti-icing is provided.
+
+The system should only be used below high-mach numbers.
+At high-mach speeds the compressor inlet temperature is
 enough to prevent ice from building up.
 
 ### Communications Antenna Select Switch
 
 Two position switch commanding which antenna is being utilized for voice
-communication- UPR (upper) or LWR (lower). The Upper position should be used for take-off and
+communication- UPR (upper) or LWR (lower).
+
+The Upper position should be used for take-off and
 landing since anti-skid could interfere with the lower antenna.
 
 ### LCOSS Switch
@@ -129,7 +133,7 @@ the [AGM-65A Maverick and AGM-65B Maverick](../../../stores/air_to_ground/missil
 | AUTO    | Programs the missile to use its automatic tracking mode.                  |
 | BLK/WHT | Programs the missile seeker to track a dark target on a light background. |
 
-This does not change the polarity of the video but the coding of the seeker itself.
+> 💡 This does not change the polarity of the video but the coding of the seeker itself.
 
 ### Engine Start Switch
 
@@ -185,7 +189,7 @@ range. Moving throttles from IDLE to OFF closes the fuel shutoff valve, stopping
 transition from OFF to IDLE or MIL, advance the throttles straight forward. Shifting throttles
 outboard allows movement from MIL to MAX, enabling forward motion in the afterburner range. For
 further information see
-the [throttles chapter.](../../../systems/engines_and_fuel_systems/engines.md#throttles)
+the [throttles chapter](../../../systems/engines_and_fuel_systems/engines.md#throttles).
 
 ### Fingerlifts
 
@@ -246,9 +250,9 @@ is set to FLARES.
 
 The Speed Brakes are actuated by a three position switch found on the inboard
 throttle in both cockpits. Either switch will actuate the brakes. The positions
-are Out, Stop, and In; the first and last positions are momentary (reverting to
-Stop upon being released). For further information see
-the [Flight Control Surfaces chapter.](../../../systems/flight_controls_gear/flight_controls.md#speed-brakes)
+are Out, Stop, and In; the Out position is momentary and reverts back to Stop when released.
+For further information see
+the [Flight Control Surfaces chapter](../../../systems/flight_controls_gear/flight_controls.md#speed-brakes).
 
 ### Mic Switch
 

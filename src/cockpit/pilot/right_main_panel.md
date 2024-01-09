@@ -94,7 +94,7 @@ the rest of the gauge.
 
 The lower tape counter readout includes all internal
 fuel, including cell 7 and the internal wing tanks, and is presented in 100 lb
-increments. Cell 7 is used as a reserve cell.
+increments. Cell 7 is used as a reserve tank.
 
 As a general guidance, Bingo fuel is around 4000 pounds, while Joker fuel is at 6000 lb.
 
@@ -115,7 +115,7 @@ four times the displayed flow rate.
 ![Tach](../../img/Tach.jpg)
 
 A percentage-noting Tachometer is provided for each engine, including an inset
-wheel for accurate display of single digits. Normal values are 65% for idle, 95% in full mil power
+wheel for accurate display of single digits. Normal values are 65% for idle, 95% in full MIL power
 and 105% for full afterburner.
 
 ## Exhaust Gas Temperature Gauges
@@ -124,7 +124,7 @@ and 105% for full afterburner.
 
 Exhaust Gas Temperature gauges are provided for each engine. The gauges have two
 needles- a large needle providing increments of 0 to 12 in multiples of 100
-degrees centigrade, and a smaller needle presenting increments of 0-10 in
+degrees Celsius, and a smaller needle presenting increments of 0-10 in
 multiples of 10 degrees Celsius. Temperatures are measured at the exit of the
 turbine unit.
 

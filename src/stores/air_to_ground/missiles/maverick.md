@@ -5,7 +5,9 @@
 Entering service in 1972, the AGM-65 air to surface missile provided the Phantom
 II with a direct-fire long range weapon, capable of destroying armor, mechanized
 infantry, and other targets with electro-optical, and later - infrared imaged,
-accuracy. The F-4E was capable of carrying up to six between the two inboard
+accuracy.
+
+The F-4E was capable of carrying up to six between the two inboard
 wing pylons. The AGM-65 Maverick has an approximate maximum range of 12 nautical miles.
 
 Employment of the Maverick is shared between both cockpits, with the pilot

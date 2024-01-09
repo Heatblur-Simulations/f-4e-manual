@@ -3,6 +3,7 @@
 ![aim7](../../img/aim7.jpg)
 
 The AIM-7 is a semi active radar missile with a maximum launch range of approx. 26 nautical miles.
+
 Originally designated the AAM-N-6 Sparrow III, the AIM-7 Sparrow saw initial
 service entry with the United States Navy in 1958. Unlike the beam-riding AIM-7A
 (AAM-N-2 Sparrow I), which required the launching aircraft to maintain boresight

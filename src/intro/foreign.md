@@ -27,7 +27,7 @@ Israel's relationship with the F-4E was particularly noteworthy. The Israeli Air
 the Phantom's potential, not only deployed the aircraft in conflicts but also embarked on ambitious
 modification programs. These enhancements, ranging from avionics upgrades to the integration of
 modern weapons systems, transformed the F-4E into a customized instrument of air power tailored to
-Israel's unique security needs.
+Israel's unique security needs, nicknamed Kurnas or Sledgehammer.
 
 Amidst the ever-evolving landscape of military technology, foreign operators of the F-4E undertook
 comprehensive upgrades and modernization efforts. These initiatives were aimed at extending the

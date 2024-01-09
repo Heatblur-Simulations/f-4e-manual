@@ -6,6 +6,10 @@ information. When the system is aligned to its most precise extent in
 gyrocompass mode, the INS is accurate to 3 nautical miles per hour of circular
 error probability (CEP).
 
+> 💡 That means that after one hour of flying, the probability for an error
+> in precision is spread such that in 50% of cases it is either below or
+> above 3nm.
+
 ## Inertial Measurement Platform
 
 ![wso_inertial_system_panel](../../img/wso_ins_control_panel.jpg)
@@ -92,6 +96,9 @@ the switch actuated up, and the INS mode switch placed to ALIGN until the ALIGN
 lamp starts flashing. Then, the INS can be placed into NAV mode. If time allows,
 STBY mode can be selected before going to ALIGN to allow proper heating of the
 gyroscopes (which goes through the illumination/off cycle as above).
+
+> 💡 Heading can be stored in the
+> [mission editor](../../dcs/mission_editor.md#ins-reference-alignment-stored).
 
 ### Gyrocompass Alignment
 

@@ -62,11 +62,11 @@ overall scope display.
 Sets the current mode of the DSCG components.
 
 | Name      | Description                                                                                                                   |
-|-----------|-------------------------------------------------------------------------------------------------------------------------------|
+| --------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | OFF       | Turns off DSCG display and de-powers all DSCG components.                                                                     |
-| STBY      | Powers DSCG components, DSCG display remains off. Used for takeoff and landing                                                |
+| STBY      | Powers DSCG components, DSCG display remains off. Used for takeoff and landing.                                               |
 | DSCG TEST | Displays a test search display image with 8 shades of grey to confirm normal operation. Select Range 10 for proper sizing.    |
-| RDR BIT   | Provides [BIT sequence](../../procedures/bit_tests/overview.md) test grids for calibration of radar performance.              |
+| RDR BIT   | Provides [BIT sequence](../../procedures/bit_tests/radar_air_to_air.md) test grids for calibration of radar performance.      |
 | RDR       | Used for radar display functionality in all employment modes.                                                                 |
 | TV        | Used for TV raster imagery with EO weapons, as well as [targeting pods](../../systems/weapon_systems/pave_spike/overview.md). |
 
@@ -89,9 +89,11 @@ Three knobs to control the boresight position of the pod in azimuth, elevation
 and roll within 2.5 degrees in either direction.
 
 Azimuth and Elevation can best be calibrated in the 12-VIS mode, while roll is
-best calibrated in 9-VIS. Normally the Pod is correctly calibrated by the ground crew before getting
-into the plane, but can drift due to combat damage or high G maneuvers in which case a recalibration
-by the WSO is needed.
+best calibrated in 9-VIS.
+
+> 💡 Normally the Pod is correctly calibrated by the ground crew before getting
+> into the plane, but can drift due to combat damage or high G maneuvers in which case a recalibration
+> by the WSO is needed.
 
 ### Stow Button
 

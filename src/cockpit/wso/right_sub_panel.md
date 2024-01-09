@@ -82,6 +82,8 @@ run through the warmup period again. If the fault could be cleared, the light wi
 
 ## Bomb Release Angle Computer
 
+![wso_labs_angle](../../img/wso_bomb_release_angle.jpg)
+
 Used to enter the required angle values for [ARBCS/LABS](../../systems/weapon_systems/arbcs.md)
 bombing modes; the Low Angle control may be set from 0 to 89.9 degrees, and the High Angle control
 may be set from 70 to 179.9 degrees.
@@ -90,8 +92,6 @@ The Angle control is used
 for [over-the-shoulder bombing,](../../stores/air_to_ground/bombs/employment.md#instantaneous-over-the-shoulder---inst-os)
 whilst low angle is used for [LOFT bombing](../../stores/air_to_ground/bombs/employment.md#loft).
 For calculations of the angles see the [bombing calculator](../../dcs/bombing_computer.md).
-
-![wso_labs_angle](../../img/wso_bomb_release_angle.jpg)
 
 ## Bombing Timers
 

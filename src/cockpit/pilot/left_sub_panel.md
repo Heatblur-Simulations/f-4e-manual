@@ -20,18 +20,20 @@ the knob on the left lower corner.
 ![CanJet](../../img/CanJet.jpg)
 
 Used for emergency ground extraction, the Emergency Canopy Jettison Handle
-releases a compressed oxygen cylinder to open both canopies immediately,
-shearing them off at their pivots. The handle only jettisons the respective canopy.
+releases a compressed oxygen cylinder to open the respective canopy immediately,
+shearing it off at its pivots.
 
 ## Landing Gear Handle
 
 ![GearHandle](../../img/GearHandle.jpg)
 
-Actuates [the landing gear;](../../systems/flight_controls_gear/gear_ground_handling.md) raised for
+Actuates [the landing gear](../../systems/flight_controls_gear/gear_ground_handling.md); raised for
 gear up, down for gear down.
 
 Pulling the handle out will actuate the Emergency Mode and release the gear by
 using a pair of compressed air bottles.
+
+> 💡 The gear can not be retracted on ground.
 
 ## Landing Gear Position Indicators
 
@@ -72,8 +74,9 @@ trim. For Takeoff the trim should be between 1-3 units nose down.
 ![LndTxLt](../../img/LndTxLt.jpg)
 
 Control the [external Landing and Taxi lamps.](../../systems/lighting.md) Left main gear must be
-down and locked for the switch to function. Lights are turned off automatically when the gear is
-turned in.
+down and locked for the switch to function
+
+> 💡 Lights are turned off automatically when the gear is turned in.
 
 ## External Stores Emergency Release
 
@@ -81,9 +84,7 @@ turned in.
 
 Also called the "_panic button_", the External Stores Emergency Release will
 immediately perform separation of all jettison-able stores, without [air-to-air
-weapons](../../stores/air_to_air/overview.md) or special weapons. The actuation of the button will
-show a yellow ring around the button position, which is the indicator for the pilot that it has
-been used.
+weapons](../../stores/air_to_air/overview.md) or special weapons.
 
 ## Aileron Rudder Interconnect (AIR) Circuit Breaker
 

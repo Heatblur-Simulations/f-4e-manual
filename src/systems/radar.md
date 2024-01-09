@@ -1,5 +1,7 @@
 # Radar system
 
+![Radar Dish](../img/radar_dish_nose.jpg)
+
 A continuation of the F-4C's -100 and the 4D's 109, the Westinghouse AN/APQ-120 Fire Control Radar
 is a solid state pulse radar providing the F-4E with air to air intercept functionality, air to
 ground mapping, ground target reference provision to the LABS and WRCS bombing systems, as well as
@@ -188,7 +190,9 @@ against the fighter), whereas values from 0 to 9 heading clockwise are for closi
 is used in manual track mode by bracketing the desired track with the acquisition cursor, selecting
 half-action to show the range strobe, adjusting the position of the cursor to place the strobe just
 below the target, applying a Manual Vc rate that keeps the range strobe moving at the same rate as
-the target, and then selecting full-action. The numbers are multiplied by 100 m/s while closure
+the target, and then selecting full-action.
+
+The numbers are multiplied by 100 m/s while closure
 means closing in to the F-4 and opening means the target is flying away from the F-4.
 
 ### Pulse Switch
@@ -249,18 +253,18 @@ With a lock-on, the standard track display will appear, including the following 
 
 ![manual_radar_track_modes](../img/manual_radar_track_modes.jpg)
 
-a. Horizon line
-b. Elevation strobe
-c. Acquisition cursor
-d. B-sweep
-e. Range sweep
-f. ASE circle
-g. Aim dot
-h. Range rate
-i. Rmax strobe
-j. Rmin strobe
-l. Track lamp illuminated
-n. Radar range
+1. Horizon line
+2. Elevation strobe
+3. Acquisition cursor
+4. B-sweep
+5. Range sweep
+6. ASE circle
+7. Aim dot
+8. Range rate
+9. Rmax strobe
+10. Rmin strobe
+11. Track lamp illuminated
+12. Radar range
 
 ### Acquisition on Jam (AOJ)
 

@@ -10,7 +10,7 @@ As opposed to the Interrogator panel in the WSO cockpit, this panel provides
 the pilot with the ability to adjust the IFF sender of the own aircraft.
 Which would then be picked up by interrogators in other aircraft.
 
->💡 Due to DCS limitations, this is not simulated in-game.
+> 💡 Due to DCS limitations, this is not simulated in-game.
 
 For further explanation see
 the [IFF System controls chapter](../../../systems/identification_systems.md#iff-controls-and-indicators).
@@ -23,7 +23,9 @@ This panel is used to control and test the separate release circuit system for
 nuclear stores.
 
 Nuclear stores are separated from the regular release system to prevent
-accidental release. This is not simulated in-game.
+accidental release.
+
+> 💡 This is not simulated in-game.
 
 ## Temperature Control
 

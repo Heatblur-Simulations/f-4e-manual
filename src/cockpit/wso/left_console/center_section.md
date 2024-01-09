@@ -25,8 +25,8 @@ the [APQ-120 Radar.](../../../systems/radar.md)
 ### Polar Switch
 
 Controls polarization of transmitted radio frequency energy. CIR 1 and 2 should be used in the
-presence of rain, however if [AIM-7](../../../stores/air_to_air/aim_7.md) Missiles should be fired
-use CIR 1.
+presence of rain. However, if [AIM-7](../../../stores/air_to_air/aim_7.md)
+Missiles should be fired, use CIR 1.
 
 | Name  | Description                                                                                                                  |
 |-------|------------------------------------------------------------------------------------------------------------------------------|
@@ -88,7 +88,7 @@ tracking under normal circumstances.
 #### Manual
 
 When in the MAN position, the WSO places the acquisition symbol over the
-intended target and triggers half-action on the Antenna hand control stick. The range strobe is
+intended target and triggers half-action on the Antenna Hand Control stick. The range strobe is
 positioned relative to in-range on a closing target, and the WSO selects
 full-action. To solidify the track, the WSO uses the Manual Vc knob to place the
 range strobe and target return video at the same rate of movement.
@@ -104,7 +104,7 @@ reacquired.
 #### AOJ OUT
 
 The AOJ OUT position is used to override the acquisition on jamming function of
-the radar. In the event that the radar acquires a Home-on-Jam lock, the position can be
+the radar. In the event that the radar acquires a Home-on-Jam (HOJ) lock, the position can be
 selected to place the radar back into a search configuration to initiate a
 lock-on against the jamming target and initiate a standard angle track lock.
 
@@ -117,10 +117,10 @@ in conjunction with the Mode knob. The types are as follows:
 
 | Name                                                                                  | Description                                                                                                   |
 |---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| [B WIDE](../../../systems/radar.md#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident) | Selects 120 degree B-sweep for search. Half-action places the sweep under manual Antenna hand control stick.  |
-| [B NAR](../../../systems/radar.md#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident)  | Selects a 45 degree B-sweep sector for search, which is manually shifted with the Antenna hand control stick. |
+| [B WIDE](../../../systems/radar.md#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident) | Selects 120 degree B-sweep for search. Half-action places the sweep under manual Antenna Hand Control stick.  |
+| [B NAR](../../../systems/radar.md#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident)  | Selects a 45 degree B-sweep sector for search, which is manually shifted with the Antenna Hand Control stick. |
 | [PPI WIDE](../../../systems/radar.md#air-to-ground-ppi-wide-and-ppi-nar)              | Selects a 120 degree wide plan position indicator sweep for MAP mode.                                         |
-| [PPI NAR](../../../systems/radar.md#air-to-ground-ppi-wide-and-ppi-nar)               | Selects a 45 degree plan position indicator sweep that can be shifted with the Antenna hand control stick.    |
+| [PPI NAR](../../../systems/radar.md#air-to-ground-ppi-wide-and-ppi-nar)               | Selects a 45 degree plan position indicator sweep that can be shifted with the Antenna Hand Control stick.    |
 | [VI](../../../systems/radar.md#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident)     | Provides pure pursuit guidance to a locked target; a break X will appear at 1000' range.                      |
 
 ### Manual Vc Knob
@@ -129,7 +129,9 @@ in conjunction with the Mode knob. The types are as follows:
 
 A 12 position switch used to apply estimated range rate of closure (clockwise,
 0-9), or estimated opening of range (counterclockwise, 0-2) against a target in
-manual track mode. The numbers are multiplied by 100 m/s while closure means closing in to the F-4
+manual track mode.
+
+The numbers are multiplied by 100 m/s while closure means closing in to the F-4
 and opening means the target is flying away from the F-4.
 
 ### Pulse Switch
@@ -183,6 +185,8 @@ with flaps and speed brakes retracted and mode knobs out of OFF.
 
 Guarded by a cover, when positioned ON, dispenses flares at rate of
 ten per second until dispensers are empty, so long as flaps and speed brakes are retracted.
+
+> 💡 After around 10 seconds, all countermeasure have been dispensed.
 
 ### Counters
 

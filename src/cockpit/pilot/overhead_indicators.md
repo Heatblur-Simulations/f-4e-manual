@@ -11,7 +11,7 @@ landing or refueling with a tanker.
 ![LftShoot](../../img/pilot_shoot_lights.jpg)
 
 A group of 5 lights arranged around the canopy bow, illuminating when missile
-firing parameters are met. Do not illuminate when in visual intercept
+firing parameters are met. Do not illuminate when in visual intercept (VI)
 or Air-to-Ground modes.
 
 ## Air Refueling Lights

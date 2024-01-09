@@ -10,7 +10,7 @@ and [countermeasure](../../../systems/defensive_systems/countermeasures.md) cont
 Used to visually confirm the integrated boarding steps state. With
 the white post up, steps are stowed, whereas steps are deployed if post
 is down and flush with panel recess. The boarding steps and ladder is moved
-by [the crew chief](../../../crew_chief/overview.md).
+by the [crew chief](../../../crew_chief/overview.md).
 
 ## Intercom System Control Panel
 
@@ -19,15 +19,15 @@ by [the crew chief](../../../crew_chief/overview.md).
 ### Pilot ICS Volume Control Knob
 
 Turned clockwise to increase audio between cockpits, and counterclockwise to
-decrease audio between cockpits on the [intercom](../../../systems/nav_com/intercom.md).
+decrease audio between cockpits on the [Intercom](../../../systems/nav_com/intercom.md).
 
 ### Pilot ICS Function Selector Switch
 
-| Name           | Description                                                                                                                |
-|----------------|----------------------------------------------------------------------------------------------------------------------------|
-| COLD MIC       | Mic switch on throttle must be held to activate [intercom](../../../systems/nav_com/intercom.md).                          |
-| HOT MIC        | Voice automatically transmitted on [intercom](../../../systems/nav_com/intercom.md).                                       |
-| RADIO OVERRIDE | [intercom](../../../systems/nav_com/intercom.md) overrides incoming radio calls; does not override aircraft warning audio. |
+| Name           | Description                                                                        |
+| -------------- | ---------------------------------------------------------------------------------- |
+| COLD MIC       | Mic switch on throttle must be held to activate intercom.                          |
+| HOT MIC        | Voice automatically transmitted on intercom.                                       |
+| RADIO OVERRIDE | Intercom overrides incoming radio calls; does not override aircraft warning audio. |
 
 ### Pilot ICS Amplifier Select Knob
 

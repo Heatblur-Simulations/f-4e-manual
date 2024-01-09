@@ -86,8 +86,10 @@ dispensers independent of the mode switch position.
 
 ### Chaff Double (CD)
 
-When Chaff Double is selected in the Mission Editor, the ground crew will activate it. In Chaff
-double mode both dispensers, left and right, will dispense at the same time.
+When Chaff Double is selected in the
+[Mission Editor](../../dcs/mission_editor.md#chaff-double-dispense),
+the ground crew will activate it. In Chaff double mode both dispensers, left and right,
+will dispense at the same time.
 
 ### Chaff and Flare Indicator Lights
 

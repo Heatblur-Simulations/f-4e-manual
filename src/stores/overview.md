@@ -66,7 +66,7 @@ stations.
 | SUU-23          |  1  |  1  |     |     |  1  |     |     |  1  |  1  |     5 |
 | ALQ-131         |     |     |     |     |     |  1  |     |     |     |     1 |
 | AN/AVQ-23       |     |     |     |     |     |  1  |     |     |     |     1 |
-| ALE-40          |     | (1) |     |     |     |     |     | (1) |     |     2 |
+| AN/ALE-40       |     | (1) |     |     |     |     |     | (1) |     |     2 |
 | Fuel Tank       |  1  |     |     |     |     |  1  |     |     |  1  |     3 |
 
 In general, stations 3, 4, 6 and 7 can be used to load Air-To-Air Missiles, or
@@ -83,6 +83,6 @@ occupying the entire pylon.
 > ordnance. Hence, it is still possible to equip for example a Maverick on the
 > same pylon.
 
-Further, ALE-40 Countermeasure Dispensers can be attached to the aft section of
+Further, AN/ALE-40 Countermeasure Dispensers can be attached to the aft section of
 Pylon 2 and 8. Allowing the aircraft to carry a mix between 120 chaff and 60
 flares in total.
