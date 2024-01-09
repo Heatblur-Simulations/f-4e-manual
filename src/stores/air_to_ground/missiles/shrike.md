@@ -70,10 +70,17 @@ range is attained in the instructed profile, the missile will be launched.
 > require repeated adjustments with wings brought to level every few seconds to
 > make certain the aircraft is pointing at the emitter.
 
-<<<<<<< Updated upstream
-#### Pull-Up
-=======
 ![agm_45_commands](../../../img/agm_45_commands.jpg) _Commands of the AGM-45 Shrike in WRCS mode_
+
+#### Pull-up
+
+The Pull-up instruction is guidance for the pilot to initiate a steady rotation
+back to the horizon, and, if desired, continue into a steady climb state until
+range requirements are met and the missile is launched. The pilot can choose to
+either bring the aircraft to near level and stop, or pull further into a low
+climb profile. When the aircraft is approximately 5 seconds away from release,
+the level indicator will illuminate, directing the pilot to maintain the current
+orientation until the Shrike is away.
 
 #### Dive
 
@@ -91,17 +98,6 @@ launch. Depending on the initial attack setup, the level signal may immediately
 occur, or occur quite soon after one of the other two instructions. From that
 point, it is simply required that the pilot maintain the current state for best
 chance of missile success.
-
-#### Pull-up
->>>>>>> Stashed changes
-
-The Pull-Up instruction is guidance for the pilot to initiate a steady rotation
-back to the horizon, and, if desired, continue into a steady climb state until
-range requirements are met and the missile is launched. The pilot can choose to
-either bring the aircraft to near level and stop, or pull further into a low
-climb profile. When the aircraft is approximately 5 seconds away from release,
-the level indicator will illuminate, directing the pilot to maintain the current
-orientation until the Shrike is away.
 
 ### Loft
 

@@ -37,6 +37,8 @@ provide velocity capture. Increasing the accuracy of these evaluations is the
 inclusion of a tuning fork, the resonance from which eliminates effectively all
 static friction in the motion capture assembly.
 
+![manual_ins_diagram](../../img/manual_ins_diagram.jpg)
+
 ## Navigational Computer and Output Signal Distribution
 
 The respective captured motion signals from the gyroscopes and accelerometers

@@ -11,27 +11,17 @@ battery for initial power, or connection with an external power cart.
 
 ![FFI](../../img/FFI.jpg)
 
-<<<<<<< Updated upstream
 Each engine has a fuel flow indicator found in the front cockpit instrument.
 
 The indicators read in thousands
 of pounds per hour, from 0 to 12. The indicators provide flow rate up to Mil power; when afterburner
 is engaged, a separate fuel delivery system is used to provide fuel directly to the
-afterburner stage, and the flow rate is approximately 4 times the value shown.
-
-Fuel Flow should not
-exceed 1200 pph at lightoff and 800 to 1500 pph at idle operations. Fuel consumption for Engine
-start is approximately 65 pounds per Engine.
-=======
-Each engine has a fuel flow indicator found in the front cockpit instrument panel. The indicators
-read in thousands of pounds per hour, from 0 to 12. The indicators provide flow rate up to Mil
-power; when afterburner is engaged, a separate fuel delivery system is used to provide fuel directly
-to the afterburner stage, and the flow rate is approximately 4 times the value shown. The engine
+afterburner stage, and the flow rate is approximately 4 times the value shown. The engine
 speed is also controlled by the fuel flow, so a change in fuel flow can be directly observed if the
-throttles are moved. Fuel Flow should not exceed 1200 pph at lightoff nor be lower than 400 pph and
-800 to 1500 pph at idle operations. Fuel consumption for Engine start is approximately 65 pounds per
-Engine.
->>>>>>> Stashed changes
+throttles are moved.
+
+Fuel Flow should not exceed 1200 pph at lightoff and 800 to 1500 pph at idle operations. Fuel
+consumption for Engine start is approximately 65 pounds per Engine.
 
 ## Oil Pressure Indicators
 
