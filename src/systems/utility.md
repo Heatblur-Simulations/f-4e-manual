@@ -97,7 +97,7 @@ the DISENGAGED lamp.
 
 In the event of a DISENGAGED situation during air refueling, the system is reset
 using the AIR REFUEL RECPT circuit breaker, found on the No 2 circuit breaker
-panel in the rear cockpit- right side, fourth column, top breaker.
+panel in the rear cockpit - right side, fourth column, top breaker.
 
 ### External Tanks Full Lights
 

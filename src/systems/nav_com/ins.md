@@ -138,7 +138,7 @@ level flight. The process of resetting the Reference Selector to PRIM can be
 performed approximately after 40 seconds, although the precise alignment time is
 not specified.
 
->💡 Accuracy of the attitude in this alignment is
+> 💡 Accuracy of the attitude in this alignment is
 > contingent upon how steadily the aircraft was flown during the alignment period
 > and subsequent alignments may be required. Following this emergency alignment,
 > only attitude information will be available. Velocities, position, and displays
@@ -159,11 +159,8 @@ Data Computer, and the magnetic compass; it can receive no information from the
 
 The system can maintain relative bearing and distance from up to two specific
 waypoints at a time (identified as Target 1 and Target 2, with Target 2 being
-held in memory), and this information is shown on
-the [BDHI](../../cockpit/wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi) and ADI
-in real time. For data to appear on the
-[BDHI](../../cockpit/wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi), the
-Navigation Selection Switch must be positioned in NAV COMP.
+held in memory), and this information is shown on the BDHI and ADI in real time. For data to appear
+on the BDHI, the Navigation Selection Switch must be positioned in NAV COMP.
 
 The computer also provides confirmation of current LN-12 precision, using a pair
 of lights marked LAT and LONG, as well as the Variation Sync Meter. When these

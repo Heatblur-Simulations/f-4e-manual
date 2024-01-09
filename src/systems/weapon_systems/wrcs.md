@@ -13,8 +13,8 @@ ranging, are used by the ballistic computer to provide the release signal.
 
 The Computer Control Panel found in the rear cockpit has three TARGET entry
 controls, two RELEASE entries, and a bomb DRAG COEFFICIENT entry setting, as
-well as a BIT control knob for system function check. Target entry is relative
-to the predetermined IP.
+well as a [BIT](../../procedures/bit_tests/wrcs.md) control knob for system function check. Target
+entry is relative to the predetermined IP.
 
 The upper range control input is for North/South, and selection of relative
 bearing is noted by the N or S prefix at the start.
@@ -30,7 +30,7 @@ Entries for North/South and East/West are in 100 foot increments, and a maximum
 value of up to 99,900 feet may be entered for these distances. The ALT RANGE
 entry has a maximum of 24,900 in 100 foot increments.
 
->💡 The WRCS can be damaged if the ALT RANGE entry is greater
+> 💡 The WRCS can be damaged if the ALT RANGE entry is greater
 > than the aircraft's current MSL (x100) in TGT FIND and OFFSET BOMB modes.
 
 ## Release Range Control
