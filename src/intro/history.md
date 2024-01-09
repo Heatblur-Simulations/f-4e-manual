@@ -113,9 +113,12 @@ light of the findings, Navy offered a bombing demonstration for Air Force
 representatives of the Tactical Air Command, making special note of the
 successful air to ground trials with the Phantom's multiple ejector racks- a
 capability the USAF lacked. With Air Force policymakers, members of Congress,
-and even Gen. Curtis LeMay in attendance during this demonstration series- with
+and even Gen. Curtis LeMay in attendance during this demonstration series - with
 a VX-5 F4H-1 accurately delivering twenty-two 500 lb bombs in spectacular
 fashion, the stage was set for a Navy/McDonnell tactical aviation coup.
+
+![f_4_dropping_bombs](../img/real_life_f_4_dropping_bombs.jpg) _F-4E Phantom II of the 347th
+Tactical Fighter Wing airdropping six 500-lb Mark 82s_
 
 The inauguration of the Kennedy administration in January 1961 didn't hurt
 matters; Kennedy brought in former Ford Motor Company president Robert McNamara
@@ -239,8 +242,12 @@ between air-to-air and air to ground; the pilot would now have immediate access
 to his air-to-air weapons, and could swap them on the fly - never once looking
 down in the cockpit. 556 also included modifications to the armament panel for
 air to ground munitions, adding ripple release capability while reducing the
-number of controls required to access full ARBCS programming. Further
-reinforcement of crew initiative was the installation of TISEO - the Target
+number of controls required to access full ARBCS programming.
+
+![real_life_f_4_with_tiseo](../img/real_life_f_4_tiseo.png) _An F-4E Phantom II with a TISEO mounted
+on left wing above the blue practice bombs_
+
+Further reinforcement of crew initiative was the installation of TISEO - the Target
 Identification System Electro-Optical. Consisting of a 4x/10x camera installed
 in the left wing, TISEO provided visual identification of distant, radar-locked
 targets, enabling the AIM-7 Sparrow to be used to its full extent. Coupled with

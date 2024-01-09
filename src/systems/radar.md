@@ -860,7 +860,9 @@ with a target return for automatic lock-on, or selection of MAN Vc rates require
 With proper bracketing and range strobe adjustment, full-action attempts the automatic lock-on, or
 initiates manual angle tracking of the intended target.
 
-The interaction of half- and full-action for Maverick is detailed in the section on AGM employment.
+The interaction of half- and full-action for
+the [AGM-65 Maverick](../stores/air_to_ground/missiles/maverick.md) is detailed in the section on
+AGM employment.
 
 ## Range VISIDENT Indicator
 

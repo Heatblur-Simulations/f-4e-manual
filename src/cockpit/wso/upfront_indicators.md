@@ -258,6 +258,10 @@ is available with the knob on the face of the gauge, with speed reference
 available between 80 and 195 knots, and the Mach index pointer being able to be
 set between the 225 knot and 850 knot regions relative to the airspeed gauge.
 
+The 1 needle and the inner ring refers to the airspeed in knots. The 2 needle and the respective
+outer ring refers to the Mach scale. Both move along dynamically according to the Airspeed. The 3
+area refers to the airspeed scale before the mach scale starts.
+
 ## Bearing Distance Heading Indicator (BDHI)
 
 ![wso_bearing_distance_heading_indicator](../../img/wso_bearing_distance_heading_indicator.jpg)

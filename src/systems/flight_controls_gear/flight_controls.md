@@ -218,6 +218,9 @@ parameters. Included in the system are the Angle of Attack Indicators found in
 both cockpits, the illuminated Angle of Attack Indexers, as well as the AoA
 Aural Tone System.
 
+The angle of attack is typically measured in degrees (°). It represents the deviation from the
+alignment of the chord line of the airplane with the oncoming air or relative wind.
+
 ### Indicators
 
 ![AoAInd](../../img/AoAInd.jpg)

@@ -2,6 +2,8 @@
 
 The left console is further divided into 4 sections.
 
+![wso_left_console](../../../img/wso_left_console.jpg)
+
 | Section | Name                        |
 | ------: | --------------------------- |
 |      1. | [Front](front_section.md)   |
