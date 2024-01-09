@@ -365,7 +365,7 @@ them easily with `GetProperty`:
 ```lua
 function GetTotalFuelQuantity()
   local gauge_readout = GetProperty(
-    "Pilot Fuel Quantity Indicator/Fuel Meter", -- path
+    "/Pilot Fuel Quantity Indicator/Fuel Meter", -- path
     "Internal Fuel Quantity Indication" -- property name
   ).value
 
@@ -374,7 +374,8 @@ end
 ```
 
 `GetProperty` expects the full path to the component within the component-tree
-(that are all names of parent components).
+(that are all names of parent components), they must start with `/` to
+indicate an absolute path.
 
 The returned value is a wrapper `Property` object. Access to the underlying
 value (in this case a `LReal` with unit `Pounds`) is given by
