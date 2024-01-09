@@ -57,15 +57,17 @@ member.
 ### Oxygen Quantity Test Button
 
 Tests oxygen low pressure warning system. Pressing the button cycles the needles
-from current oxygen level to zero, which triggers OXYGEN LOW telelight panel
+from current oxygen level to zero, which triggers OXYGEN
+LOW [telelight panel](../right_sub_panel.md#telelight-annunciator-panel) 
 warning as needle passes through 1 liter. Releasing the button returns the
 needle to current system level and clears OXYGEN LOW warning.
 
 ### Oxygen Pressure Gauge
 
 Indicates system pressure from 0 to 500 psi. The Oxygen lasts up to 24.3 Hours with a full 10 litres
-at about 35,000 feet. At 10,000 feet 10 litres last about 23.4 hours. For further information see
-[Oxygen chapter](../../../systems/utility.md#oxygen-system).
+at about 35,000 feet. At 10,000 feet 10 litres last about 23.4 hours.
+
+For further information see [Oxygen chapter](../../../systems/utility.md#oxygen-system).
 
 ## Forward Hand Control
 

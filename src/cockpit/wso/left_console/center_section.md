@@ -11,42 +11,45 @@ and countermeasure panel.
 
 ![Power Knob](../../../img/wso_radar_power_knob.jpg)
 
-Five position rotary switch controlling power state of the APQ-120 Radar.
+Five position rotary switch controlling power state of
+the [APQ-120 Radar.](../../../systems/radar.md)
 
-| Name | Description                                                                                |
-|------|--------------------------------------------------------------------------------------------|
-| OFF  | Powers radar off.                                                                          |
-| TEST | Applies voltage to control monitor power and provides test functions 1 through 6.          |
-| STBY | Power applied to radar, remains in a non-transmitting standby state.                       |
-| OPR  | System is fully operational.                                                               |
-| EMER | Overrides the time delay, pressure, and temperature restrictions to allow radar operation. |
+| Name | Description                                                                                                                        |
+|------|------------------------------------------------------------------------------------------------------------------------------------|
+| OFF  | Powers radar off.                                                                                                                  |
+| TEST | Applies voltage to control monitor power and provides [BIT-test](../../../procedures/bit_tests/overview.md) functions 1 through 6. |
+| STBY | Power applied to radar, remains in a non-transmitting standby state.                                                               |
+| OPR  | System is fully operational.                                                                                                       |
+| EMER | Overrides the time delay, pressure, and temperature restrictions to allow radar operation.                                         |
 
 ### Polar Switch
 
 Controls polarization of transmitted radio frequency energy. CIR 1 and 2 should be used in the
-presence of rain, however if AIM-7 Missiles should be fired use CIR 1.
+presence of rain, however if [AIM-7](../../../stores/air_to_air/aim_7.md) Missiles should be fired
+use CIR 1.
 
-| Name  | Description                                                                           |
-|-------|---------------------------------------------------------------------------------------|
-| LIN   | RF energy is lineally polarized in a vertical orientation. AIM-7 default mode.        |
-| CIR 1 | RF energy is rotated clockwise from the vertical plane. AIM-7 can be fired.           |
-| CIR 2 | RF energy is rotated counterclockwise from the vertical plane. AIM-7 cannot be fired. |
+| Name  | Description                                                                                                                  |
+|-------|------------------------------------------------------------------------------------------------------------------------------|
+| LIN   | RF energy is lineally polarized in a vertical orientation. [AIM-7](../../../stores/air_to_air/aim_7.md) default mode.        |
+| CIR 1 | RF energy is rotated clockwise from the vertical plane. [AIM-7](../../../stores/air_to_air/aim_7.md) can be fired.           |
+| CIR 2 | RF energy is rotated counterclockwise from the vertical plane. [AIM-7](../../../stores/air_to_air/aim_7.md) cannot be fired. |
 
 ### Range Knob
 
 ![Range Knob](../../../img/wso_radar_range_knob.jpg)
 
 Used to select range sweep of 5, 10, 25, 50, 100, or 200 mile ranges on both
-radar displays. First four ranges are air-to-air intercept positions, final two
-are ground mapping modes only, and disengage lock-on capability. Selecting a
-setting illuminates the applicable range lamp, and displays the value on the
-radar scope upper left corner.
+radar displays. First four ranges
+are [air-to-air intercept positions,](../../../systems/radar.md#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident)
+final two are ground mapping modes only, and disengage lock-on capability. Selecting a setting
+illuminates the applicable [range lamp](../../pilot/dcsg_controls.md#range-lights), and displays the
+value on the radar scope upper left corner.
 
 ### Maneuver Switch
 
 Controls radar tracking response due to acceleration limits and received
 countermeasures and clutter. LOW G provides the velocity reject function whilst HI G allows tracking
-of a maneuvering target without breaking radar lockon.
+of a maneuvering target without breaking radar lock on.
 
 | Name  | Description                                                                        |
 |-------|------------------------------------------------------------------------------------|
@@ -60,14 +63,16 @@ Selects [elevation scan](../../../systems/radar.md#scan) pattern between 1 and 2
 In 2 bar scan, the search pattern is separated by
 3.75 degrees on each scan.
 
-In boresight or air to ground modes, 1 bar scan is automatically commanded.
+In [boresight](../../../systems/radar.md#bst-boresight-position)
+or [air-to-ground modes](../../../systems/radar.md#air-grd-air-to-ground-position), 1 bar scan is
+automatically commanded.
 
 ### Aspect Knob
 
 ![Aspect Knob](../../../img/wso_radar_aspect_knob.jpg)
 
-Used to program the AIM-7 with a predetermined simulated Doppler instead of
-actual received Doppler, so that the WSO can provide an estimated correct
+Used to program the [AIM-7](../../../stores/air_to_air/aim_7.md) with a predetermined simulated
+Doppler instead of actual received Doppler, so that the WSO can provide an estimated correct
 speed-gate location when range isn't available.
 
 ### Receiver Gain Knobs (RCVR GAIN)
@@ -130,9 +135,10 @@ and opening means the target is flying away from the F-4.
 ### Pulse Switch
 
 Three position switch controlling radar pulse width and pulse repetition
-frequency in the Air to Air radar search modes. With the APQ-120 placed in CAGE
-mode, short pulse operation is automatically selected. In AIR-GND modes, the
-pulses are automatically commanded, deactivating the switch.
+frequency in the Air-to-Air radar search modes. With the [APQ-120](../../../systems/radar.md) placed
+in [CAGE mode](../../../systems/radar.md#cage-mode), short pulse operation is automatically
+selected. In [AIR-GND modes](../../../systems/radar.md#air-grd-air-to-ground-position), the pulses
+are automatically commanded, deactivating the switch.
 
 | Name  | Description                                                                                          |
 |-------|------------------------------------------------------------------------------------------------------|
@@ -147,21 +153,21 @@ pulses are automatically commanded, deactivating the switch.
 A six position switch that determines the current base mode of operation of the
 radar.
 
-| Name    | Description                                                                                     |
-|---------|-------------------------------------------------------------------------------------------------|
-| BST     | Air to Air boresight with antenna aligned to optical sight. Permits CAGE and CAA.               |
-| RDR     | Air to Air search mode.                                                                         |
-| MAP     | Radar ground mapping mode.                                                                      |
-| AIR-GRD | Air to Ground boresight, 20 mile range against targets visually established with optical sight. |
-| BEACON  | Radar receives and displays signals from ground or airborne beacon transponders for navigation. |
-| TV      | Not used with DSCG. Deactivates AIM-7 if selected.                                              |
+| Name    | Description                                                                                                                                                                                                                                                                  |
+|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| BST     | [Air-to-Air boresight](../../../systems/radar.md#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident) with antenna aligned to optical sight. Permits [CAGE](../../../systems/radar.md#cage-mode) and [CAA](../../../systems/radar.md#computer-automatic-acquisition-mode-caa). |
+| RDR     | Air-to-Air search mode.                                                                                                                                                                                                                                                      |
+| MAP     | Radar ground mapping mode.                                                                                                                                                                                                                                                   |
+| AIR-GRD | [Air-to-Ground boresight](../../../systems/radar.md#air-grd-air-to-ground-position), 20 mile range against targets visually established with optical sight.                                                                                                                  |
+| BEACON  | Radar receives and displays signals from ground or airborne beacon transponders for navigation.                                                                                                                                                                              |
+| TV      | Not used with DSCG. Deactivates [AIM-7](../../../stores/air_to_air/aim_7.md) if selected.                                                                                                                                                                                    |
 
 ### Skin Track Light
 
 Lamp that illuminates when a track is attained with range data. In the
-event of HOJ or a range memory situation, the light will go off. Accompanied on
-the rear DSCG radar scope with the T symbol that illuminates under the same
-circumstances.
+event of [HOJ](../../../systems/radar.md#home-on-jam-hoj) or a range memory situation, the light
+will go off. Accompanied on the rear DSCG radar scope with the T symbol that illuminates under the
+same circumstances.
 
 ## AN/ALE-40 Cockpit Control Unit
 

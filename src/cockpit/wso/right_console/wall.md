@@ -9,16 +9,15 @@ The right wall has auxiliary switches for testing and starting the aircraft.
 The manual unlock
 handle is used in the event of [pneumatic system](../../../systems/pneumatics.md) failure.
 
-The handle, when pulled aft,
-unlocks the canopy so that it may be pushed open. Before
-manual unlocking of the canopy, the normal control lever
-must be placed in the OPEN position.
+The handle, when pulled aft, unlocks the canopy so that it may be pushed open. Before manual
+unlocking of the canopy, the normal control lever must be placed in the OPEN position.
 
-For normal operation,
-the handle should be left in the forward position.
+For normal operation, the handle should be left in the forward position.
 
 If the canopy is not properly locked, the _CANOPY UNLOCKED_
-warning light on the telelight panel illuminates.
+warning light on
+the [telelight panel](../../../systems/emergency.md#telelight-panel)
+illuminates.
 
 ## Ground Test Panel
 
@@ -33,8 +32,12 @@ suspected cases of thermal runaway.
 ### Autopilot Ground Test
 
 The autopilot ground test switch, located on the No. 2 circuit breaker panel, connects external
-electrical power to the AFCS circuits. It disengages if there's a loss of external power or when a
-generator comes online. When operating on external power, the AFCS circuit can be deenergized by
+electrical power to
+the [AFCS](../../../systems/flight_controls_gear/flight_controls.md#auotmatic-flight-control-system-afcs)
+circuits. It disengages if there's a loss of external power or when a
+generator comes online. When operating on external power,
+the [AFCS](../../../systems/flight_controls_gear/flight_controls.md#auotmatic-flight-control-system-afcs)
+circuit can be deenergized by
 placing the switch in the NORM (down) position.
 
 ### Instrument Ground Power

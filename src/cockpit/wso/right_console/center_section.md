@@ -1,7 +1,8 @@
 # Center Section
 
 The center section of the right console is dominated by
-the WRCS panel for weapon delivery.
+the [WRCS](../../../systems/weapon_systems/wrcs.md) panel for weapon delivery. For more detailed
+information see the [WRCS chapter](../../../systems/weapon_systems/wrcs.md).
 
 ## Weapon Release Computer Set (WRCS) Panel
 

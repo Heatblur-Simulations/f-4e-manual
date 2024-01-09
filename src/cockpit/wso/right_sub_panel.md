@@ -8,8 +8,8 @@ various settings for manual bomb delivery.
 ![wso_eject_light](../../img/wso_eject_light.jpg)
 
 Pressed by the WSO in an emergency condition requiring ejection from the
-aircraft, which illuminates the EJECT lamp in the front cockpit warning the
-Pilot to prepare for immediate ejection.
+aircraft, which illuminates the [EJECT lamp](../../systems/emergency.md#eject-light) in the front
+cockpit warning the Pilot to prepare for immediate ejection.
 
 Also lights up when the Pilot presses their respective Eject Light to warn the
 WSO for ejection.
@@ -41,7 +41,7 @@ for details.
 Sets the mode of the jammer to operate in:
 
 | Mode   | Description                                             |
-| ------ | ------------------------------------------------------- |
+|--------|---------------------------------------------------------|
 | OFF    | Turned off, no transmission                             |
 | STBY   | Starting the warmup, no transmission (200s for ALQ-131) |
 | XMIT 1 | Transmitting and jamming using technique 1              |
@@ -66,7 +66,7 @@ currently active and transmitting.
 
 Indicates that a radar has been detected and is actively jammed.
 
->💡 Due to DCS limitations, this is currently not simulated in-game.
+> 💡 Due to DCS limitations, this is currently not simulated in-game.
 
 ### Reset Button and Lamp
 
