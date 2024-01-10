@@ -4,16 +4,19 @@
 
 | Step    | System                 | Action                    |
 |---------|------------------------|---------------------------|
-| 1.      | Internal Wing Transfer | NORMAL                    |
-| **2.**  | **STAB AUG Switches**  | **ENGAGE**                |
-| 3.      | Flight Controls        | UNRESTRICTED              |
-| 4.      | Slats & Flaps          | CHECK OUT & DOWN          |
-| 5.      | Anti-Ice               | AS REQUIRED               |
-| 6.      | STAB Trim              | CHECK 1-3 units NOSE DOWN |
-| 7.      | Fuel Quantity          | CHECK                     |
-| **8.**  | **Canopy**             | **CLOSE & CHECK**         |
-| 9.      | Defog & Temperature    | AS REQUIRED               |
-| **10.** | **Ejection Handle**    | **ARM**                   |
+| 1.      | Optical Sight          | CHECK                     |
+| 2.      | Internal Wing Transfer | NORMAL                    |
+| **3.**  | **STAB AUG Switches**  | **ENGAGE**                |
+| 4.      | Flight Controls        | UNRESTRICTED (WSO confirm)|
+| 5.      | Slats & Flaps          | CHECK OUT & DOWN          |
+| 6.      | Anti-Ice               | AS REQUIRED               |
+| 7.      | STAB Trim              | CHECK 1-3 UNITS NOSE DOWN |
+| 8.      | Fuel Quantity          | CHECK                     |
+| **9.**  | **(P-WSO) Canopies**   | **CLOSE & CHECK** (WSO then Pilot) |
+| 10.      | Warning Lights         | TEST                     |
+| 11.     | Defog & Temperature    | AS REQUIRED               |
+| 12.     | (WSO) Command Selector | AS BRIEFED                |
+| **13.** | **(P-WSO) Ejection Seats**| **ARM**                |
 
 ### After Runway Line-Up
 
@@ -24,10 +27,11 @@
 | 3.     | Compass Heading   | CHECK              |
 | **4.** | **Pitot Heat**    | **ON**             |
 | 5.     | IFF               | AS REQUIRED        |
-| 6.     | Circuit Breakers  | CHECK IN           |
+| 6.     | (P-WSO) Circuit Breakers | CHECK IN    |
 | 7.     | Warning Lights    | CHECK              |
+<!-- 8. Radar altimeter - OFF (after TO 1F-4-1262) -->
 
-### On Runway
+### Normal Takeoff
 
 | Step | System                                                                                      | Action                       |
 |------|---------------------------------------------------------------------------------------------|------------------------------|
@@ -36,15 +40,16 @@
 | 3.   | Engine gauges                                                                               | CHECK                        |
 |      | a. Exhaust gas temperature                                                                  | 450°C                        |
 |      | b. Fuel flow                                                                                | 4000 pph                     |
-|      | c. Nozzle                                                                                   | 1/4                          |
+|      | c. Nozzles                                                                                  | 1/4                          |
 |      | d. Oil pressure                                                                             | 30-40 psi                    |
 | 4.   | Wheel brakes                                                                                | RELEASE                      |
-| 5.   | Throttle                                                                                    | ADVANCE MIL THEN AFTERBURNER |
-|      | Maintain directional control using nose gear steering, at 70 knots rudder becomes effective |                              |
-| 6.   | Stick                                                                                       | MOVE AFT AT 80 KNOTS         |
-|      | When Nose starts rising keep pitch attitude of 10° to 12° until lift-off                    |                              |
-|      | Keep attitude during acceleration                                                           |                              |
-| 7.   | Trim                                                                                        | ADJUST AS JET ACCELERATES    |
+| 5.   | Throttle                                                                                    | MIL                          |
+| 6.   | Engine gauges                                                                               | CHECK                        |
+| 7.   | Throttle                                                                                    | AFTERBURNER (IF DESIRED)     |
+| 8.   | Nose gear steering                                                                          | DISENGAGE at 70 KNOTS        |
+| 9.   | Stick                                                                                       | MOVE AFT at 80 KNOTS         |
+| 10.  | Pitch attitude                                                                              | MAINTAIN 10° to 12°          |
+| 11.  | Trim                                                                                        | AS REQUIRED                  |
 
 ## After Takeoff
 
@@ -59,16 +64,18 @@
 
 | Step | System                              | Action      |
 |------|-------------------------------------|-------------|
-| 1.   | Altimeter                           |             |
+| 1.   | (P-WSO) Altimeters                  |             |
 |      |                                     | SET         |
 |      |                                     | CHECK STBY  |
 |      |                                     | RESET       |
 |      |                                     | COMPARE     |
 | 2.   | Radar Altimeter                     | AS REQUIRED |
-| 3.   | OPS Check                           |             |
+| 3.   | (WSO) Command Selector              | AS BRIEFED  |
+| 4.   | (P-WSO) Ops Check                   |             |
 |      | a. Oxygen Quantity/Pressure/Blinker | CHECK       |
 |      | b. Cockpit Pressure                 | CHECK       |
 |      | c. Fuel Quantity/Transfer Switches  | CHECK       |
 |      | d. STBY Compass                     | CHECK       |
 |      | e. Circuit Breakers                 | CHECK       |
 | 4.   | Anti-Ice Switch                     | AS REQUIRED |
+<!-- 2.5. (P-WSO) Survival kit selector switch - AS REQUIRED -->
