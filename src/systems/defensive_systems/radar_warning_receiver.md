@@ -1,5 +1,7 @@
 # Radar warning receiver
 
+![rwr_happy_face](../../img/rwr_happy_face.jpg)
+
 ## Introduction
 
 The ALR-46 Radar Warning Receiver (subsequently RWR) is the F-4E's passive situational awareness
@@ -10,7 +12,7 @@ the emitting radar. Further processing of the received radiation references the 
 catalog to ascertain emitter type, as well as to define a relative threat range as a function of
 received power versus known output.
 
-![pilot_rwr](../../img/RWRAz.jpg)
+![pilot_rwr_with_contacts](../../img/rwr_with_contacts.jpg)
 
 The resulting processed threat signal is then presented on the RWR's CRT display, with bearing to
 the emitter shown on the display with the top relative to the nose (12 o'clock) and the bottom the
@@ -75,6 +77,8 @@ remain focused on said emitter until the signal is either lost, the crew elects 
 emitter with the Handoff button, or the button is pressed momentarily to return to normal floating
 diamond threat priority mode.
 
+![pilot_rwr_handoff](../../img/pilot_rwr_handoff.jpg)
+
 In the event that the emitter is tight grouping of other symbols on the display, the TGT SEP mode
 will be applied.
 
@@ -84,6 +88,8 @@ In the event a missile launch is detected by way of discrete SAM guidance comman
 the MISSILE LAUNCH indications in this button will illuminate, and a circle is superimposed around
 the threat emitter defined as guiding the inbound weapon. Pressing the button while illuminated will
 provide launch audio through the intercom.
+
+![pilot_rwr_missile_launch](../../img/pilot_rwr_missile_launch.jpg)
 
 ### Low Altitude (LOW ALT)
 
@@ -130,6 +136,8 @@ directive to a SAM, but does not respond to discrete changeover signals. Thus, a
 ACTIVITY warning may in fact indicate a launch, depending on the system engaging the F-4 and the
 circumstances surrounding it. The indication will provide a circle around the threat emitter.
 
+![pilot_rwr_activity_power](../../img/pilot_rwr_activity_power.jpg)
+
 ### System Power
 
 The System Power button is the on/off switch for the ALR-46. When pressed to activate the system,
@@ -145,6 +153,8 @@ on self test. The system will resume state in the same fashion as a normal resta
 mode deactivated and the altitude priority as when power was lost.
 
 ### Excess Noise Strobe Indicators
+
+![rwr_excess_noise_strobe](../../img/rwr_excess_noise_strobe.jpg)
 
 During normal operation, a trio of three T shaped indicators appear in the 9, 12, and 3 o'clock
 positions near the center of the RWR CRT. These indicators signify the absence of excess noise in

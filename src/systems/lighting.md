@@ -70,3 +70,5 @@ controls are found on the Flight Instrument Lights Control panel in each
 cockpit. The sole difference between the two control panels is the intensity
 control for the Warning Control knob in the front cockpit, which controls
 brightness for all warning lights in both cockpits.
+
+![pilot_interior_lighting_night](../img/pilot_interior_lighting_night.jpg)
