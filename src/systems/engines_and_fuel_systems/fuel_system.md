@@ -66,7 +66,8 @@ respective Pressure Indicator.
 ![pilot_fuel_low](../../img/pilot_fuel_level_low.jpg)
 
 When the sensor in Cell 2 detects a fuel weight of less than 1650 ±200 lbs, the
-FUEL LEVEL LOW warning will illuminate on the front cockpit telelight panel.
+FUEL LEVEL LOW warning will illuminate on the front
+cockpit telelight panel.
 This illumination is independent of the Fuel Quantity Indication System, and can
 be indicative of a transfer failure.
 
@@ -75,16 +76,16 @@ be indicative of a transfer failure.
 ![pilot_external_fuel_tanks](../../img/pilot_external_tanks_fuel_lights.jpg)
 
 Any time an external fuel tank is detected to not be flowing fuel into the
-fuselage, a respective light will illuminate on the telelight panel- L EXT FUEL,
-CTR EXT FUEL, or R EXT FUEL. These lights will only illuminate for the
-respective external transfer - that is, if OUTBD is selected, CTR EXT FUEL cannot
-illuminate, and vice versa. Because transfer can occur intermittently due to
-flow from the tanks exceeding engine fuel consumption, the warning lamp is not
+fuselage, a respective light will illuminate on the telelight panel - L EXT FUEL, CTR EXT FUEL, or R
+EXT FUEL. These lights will only illuminate for the respective external transfer - that is, if OUTBD
+is selected, CTR EXT FUEL cannot illuminate, and vice versa. Because transfer can occur
+intermittently due to flow from the tanks exceeding engine fuel consumption, the warning lamp is not
 immediately indicative of an empty external tank, and should be checked against
 the quantity indication system. Further, the lamps will illuminate when the air
-refuel switch is set to EXTEND, with the ALL TANKS setting selected. To confirm that the tanks are
-empty fly calm and level and watch if the light stays on and the fuel gauge is not going up for at
-least one or two minutes.
+refuel switch is set to EXTEND, with the ALL TANKS setting selected.
+
+> 💡 To confirm that the tanks are empty fly calm and level and watch if the light
+> stays on and the fuel gauge is not going up for at least one or two minutes.
 
 When air-to-air refueling, or when refueling on the ground and the tanks have
 reached a full condition, the External Tanks Full lamps, found under the canopy

@@ -7,25 +7,27 @@ throttle and engine related controls.
 
 ![LUtil](../../../img/LUtil.jpg)
 
-### Anti-Skid
+### Anti-Skid Switch
 
-The [anti-skid system](../../../systems/flight_controls_gear/gear_ground_handling.md#anti-skid-control-switch)
-provides an electronically controlled skid protection at wheel speeds over 30 knots. This is done
-by detecting the start of a skid and then releasing the brake pressure.
+![AntiSkidSwitch](../../../img/pilot_anti_skid_switch.jpg)
+
+Controls
+the [anti-skid system](../../../systems/flight_controls_gear/gear_ground_handling.md#anti-skid-system)
+which provides an electronically controlled skid protection at wheel speeds over 30 knots.
+
+## Anti-Skid Inoperative Light
+
+![Anti-Skid Inoperative Light](../../../img/pilot_anti_skid_light.jpg)
+
+Illuminates when the Anti-Skid Switch is set to OFF, the Emergency Quick Release Lever is pressed,
+or there is an issue with
+the [Anti-Skid System.](../../../systems/flight_controls_gear/gear_ground_handling.md#anti-skid-system)
 
 ### Canopy/Low Altitude Warning Volume
 
 Sets audio level for canopy open and low altitude voice warnings.
 
 This system is not installed on this variant of the F-4E.
-
-## Anti-Skid Inoperative Light
-
-![Anti-Skid Inoperative Light](../../../img/pilot_anti_skid_light.jpg)
-
-Illuminates when the Anti-Skid Switch is set to OFF,
-the Emergency Quick Release Lever is pressed, or there is an issue
-with the Anti-Skid System.
 
 ## Oxygen Control Panel
 
@@ -50,12 +52,13 @@ level. 100% should only be used if fire and/or smoke and fumes occur in the plan
 ### Supply Lever
 
 Two position switch (ON and OFF) activating flow of oxygen to the aircrew
-member.
+member. For further information see [Oxygen chapter](../../../systems/utility.md#oxygen-system).
 
 ### Oxygen Quantity Test Button
 
 Tests oxygen low pressure warning system. Pressing the button cycles the needles
-from current oxygen level to zero, which triggers OXYGEN LOW telelight panel
+from current oxygen level to zero, which triggers OXYGEN
+LOW [telelight panel](../right_sub_panel.md#telelight-annunciator-panel)
 warning as needle passes through 1 liter. Releasing the button returns the
 needle to current system level and clears OXYGEN LOW warning.
 
@@ -64,12 +67,14 @@ needle to current system level and clears OXYGEN LOW warning.
 Indicates system pressure from 0 to 500 psi. The Oxygen lasts up to 24.3 Hours with a full 10 litres
 at about 35,000 feet. At 10,000 feet 10 litres last about 23.4 hours.
 
+For further information see [Oxygen chapter](../../../systems/utility.md#oxygen-system).
+
 ## Forward Hand Control
 
 ![PilAGM](../../../img/PilAGM.jpg)
 
-Small joystick used to finalize the positioning of a target in the seeker gate
-of a guided Weapon prior to launch.
+Small joystick enabling the Pilot to control and steer
+guided Weapons such as Mavericks or Bullpups.
 
 ## Outboard Engine Control Panel
 
@@ -77,15 +82,20 @@ of a guided Weapon prior to launch.
 
 ### Engine Anti-Icing Switch
 
-Two position switch (DE-ICE and NORMAL) controlling de-icing function. When in
-DE-ICE, the anti-icing air flow is enabled. In NORMAL, no anti-icing is
-provided. The system should only be used below high-mach numbers. At high-mach speeds the compressor
-inlet temperature is enough to prevent ice from building up.
+Two position switch (DE-ICE and NORMAL)
+controlling [de-icing function.](../../../systems/engines_and_fuel_systems/engines.md#engine-anti-icing-system)
+When in DE-ICE, the anti-icing air flow is enabled. In NORMAL, no anti-icing is provided.
+
+The system should only be used below high-mach numbers.
+At high-mach speeds the compressor inlet temperature is
+enough to prevent ice from building up.
 
 ### Communications Antenna Select Switch
 
 Two position switch commanding which antenna is being utilized for voice
-communication- UPR (upper) or LWR (lower). The Upper position should be used for take-off and
+communication- UPR (upper) or LWR (lower).
+
+The Upper position should be used for take-off and
 landing since anti-skid could interfere with the lower antenna.
 
 ### LCOSS Switch
@@ -123,15 +133,14 @@ the [AGM-65A Maverick and AGM-65B Maverick](../../../stores/air_to_ground/missil
 | AUTO    | Programs the missile to use its automatic tracking mode.                  |
 | BLK/WHT | Programs the missile seeker to track a dark target on a light background. |
 
-This does not change the polarity of the video but the coding of the seeker itself.
+> 💡 This does not change the polarity of the video but the coding of the seeker itself.
 
 ### Engine Start Switch
 
 Three position switch with automatic return to center used to start the
 respective engine using the cartridge (if loaded), left or right.
 See [engine system chapter](../../../systems/engines_and_fuel_systems/engines.md#cartridge-mode-starting)
-for
-further detail on when to use the cartridge start.
+for further detail on when to use the cartridge start.
 
 ### CADC Static Pressure Compensator Correction Switch
 
@@ -147,6 +156,8 @@ or invoking, altimeter lag from rapid altitude changes.
 
 ### Engine Master Switches
 
+![EngineMasterSwitches](../../../img/pilot_engine_master_switches.jpg)
+
 A pair of two position lever lock switches, separated by a guard to alleviate
 erroneous command of the wrong switch, connects electrical power to the engine
 boost and transfer pumps for the respective engine when placed in the ON
@@ -155,7 +166,8 @@ aircraft is connected to a ground crew provided generator, or the aircraft's
 battery if no external power available. Switching them to OFF (aft) position
 will engage the fuel shutoff valves so long as the aircraft is not solely
 running on the internal electrical bus; otherwise, the valves will remain open,
-unless the engine throttle is placed into the cutoff position.
+unless the engine throttle is placed into the cutoff position. For further Information see the
+[engines chapter](../../../systems/engines_and_fuel_systems/engines.md).
 
 ### Rudder Trim Switch
 
@@ -175,7 +187,9 @@ be adjusted in the special options of the module.
 Throttle movement is smooth and continuous, with afterburner modulation possible throughout the
 range. Moving throttles from IDLE to OFF closes the fuel shutoff valve, stopping fuel flow. To
 transition from OFF to IDLE or MIL, advance the throttles straight forward. Shifting throttles
-outboard allows movement from MIL to MAX, enabling forward motion in the afterburner range.
+outboard allows movement from MIL to MAX, enabling forward motion in the afterburner range. For
+further information see
+the [throttles chapter](../../../systems/engines_and_fuel_systems/engines.md#throttles).
 
 ### Fingerlifts
 
@@ -208,7 +222,8 @@ opposing aircraft),
 the [optical sight](../../../cockpit/pilot/dcsg_controls.md#sight-mode-knob)
 reticle can immediately be slewed to the
 Radar Boresight Line using the Cage Button, found on the inboard (right)
-throttle handle. Cage mode commands the radar into BST mode with a five mile
+throttle handle. Cage mode commands [the radar](../../../systems/radar.md)
+into [BST mode](../../../systems/radar.md#bst-boresight-position) with a five mile
 range, and short pulse, and sets the firing circuit for the currently selected
 air-to-air weapon relative to the Pinky Switch. For
 the [optical sight](../../../cockpit/pilot/dcsg_controls.md#sight-mode-knob),
@@ -222,8 +237,10 @@ panel functions.
 ![pilot_throttle_cm_dispense](../../../img/pilot_throttle_cm.jpg)
 
 When pressing the dispense button chaff/flare dispensing is initiated as set on
-the CCU and AN/ALE-40 programmer if the flaps and speed brakes are retracted and
-the flares select switch is set to NORMAL. Additionally single unit flare
+[the CCU](../../../systems/defensive_systems/countermeasures.md#anale-40-cockpit-control-unit-ccu)
+and [AN/ALE-40 programmer](../../../systems/defensive_systems/countermeasures.md#anale-40-programmer)
+if the flaps and speed brakes are retracted and the flares select switch is set to NORMAL.
+Additionally single unit flare
 dispensing can be initiated by a single button press if the flares select switch
 is set to FLARES.
 
@@ -233,13 +250,14 @@ is set to FLARES.
 
 The Speed Brakes are actuated by a three position switch found on the inboard
 throttle in both cockpits. Either switch will actuate the brakes. The positions
-are Out, Stop, and In; the first and last positions are momentary (reverting to
-Stop upon being released).
+are Out, Stop, and In; the Out position is momentary and reverts back to Stop when released.
+For further information see
+the [Flight Control Surfaces chapter](../../../systems/flight_controls_gear/flight_controls.md#speed-brakes).
 
 ### Mic Switch
 
 ![pilot_intercom_mic_switch](../../../img/pilot_inter_com_mic_switch.jpg)
 
-The microphone switch for the Intercom System is the aft position on the inboard
-throttle grip in both cockpits. When using the intercom, all audio sans the
+The microphone switch for the [Intercom System](../../../systems/nav_com/intercom.md) is the aft
+position on the inboard throttle grip in both cockpits. When using the intercom, all audio sans the
 pull-up tone, stall warning, and ECM are reduced (same as RADIO OVERRIDE).

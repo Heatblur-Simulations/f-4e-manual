@@ -5,7 +5,9 @@
 Entering service in 1972, the AGM-65 air to surface missile provided the Phantom
 II with a direct-fire long range weapon, capable of destroying armor, mechanized
 infantry, and other targets with electro-optical, and later - infrared imaged,
-accuracy. The F-4E was capable of carrying up to six between the two inboard
+accuracy.
+
+The F-4E was capable of carrying up to six between the two inboard
 wing pylons. The AGM-65 Maverick has an approximate maximum range of 12 nautical miles.
 
 Employment of the Maverick is shared between both cockpits, with the pilot
@@ -30,7 +32,7 @@ applicable Station Select buttons, and setting Master Arm to On. The pilot then
 must select Direct on the Delivery Mode Knob, and the TV position on the Weapon
 Select Knob.
 
-When selected to TV, the 3 minute missile gyro warmup sequence initiates; it is
+When selected to TV, the 3-minute missile gyro warmup sequence initiates; it is
 suggested to start the stopwatch to the left of the Multiple Weapon Panel as a
 means to avoid disturbing this sequence. Once the warmup has completed, the
 lower amber ARM indicators on the Station Select buttons will illuminate.

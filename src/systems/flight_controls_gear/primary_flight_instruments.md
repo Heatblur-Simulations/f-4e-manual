@@ -115,8 +115,15 @@ ground level at the time of this occurring.
 
 In the front cockpit, a turn and slip indicator is added to the ADI on the
 instrument panel; while the needle provides correct direction of turn, it does
-not provide proper turn rate information. A conventional 4-minute turn and slip
+not provide proper turn rate information.
+
+A conventional 4-minute turn and slip
 indicator is found on the rear cockpit panel.
+
+To execute a controlled turn (360° in 4 minutes), place the vertical needle
+over one of the indicators on either side (turn rate of 1.5 degrees per second) and ensure
+the slip indicator at the bottom is centered to prevent over- or under-turning due to
+incorrect bank.
 
 ## Rear Cockpit Attitude Indicator
 
@@ -135,7 +142,9 @@ indicator or AHRS, the OFF flag will display.
 The Pitot-Static system provides impact and static pressure to flight
 instrumentation, the Air Data Computer, and airspeed-driven switches. To
 alleviate icing of the pitot head, a Pitot Heat Switch is found in the front
-cockpit right console. The Pitot Heat switch should always be turned on before takeoff but not for
+cockpit right console.
+
+The Pitot Heat switch should always be turned on before takeoff but not for
 longer than one minute as it could damage the instrument.
 
 ## Air Data Computer System

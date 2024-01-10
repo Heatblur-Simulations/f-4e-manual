@@ -14,6 +14,8 @@ the event of BUS TIE OPEN, when the generators are not functioning in parallel.
 Indicators will trigger a Master Caution. In event of dual generator failure,
 neither will illuminate.
 
+For further information see [generator](../../systems/electrics.md).
+
 ## Feed Tank Check Switch
 
 ![FeedCheck](../../img/FeedCheck.jpg)
@@ -41,8 +43,10 @@ operations.
 ![KY28Mode](../../img/KY28Mode.jpg)
 
 Dependent on mode, the illuminated display shows P for Plain mode, or C for
-Cipher mode. Note: UHF communications require the system be in Plain mode, even
-with system power off, barring usage and monitoring of guard channel.
+Cipher mode.
+
+>💡 UHF communications require the system be in Plain mode, even
+> with system power off, barring usage and monitoring of guard channel.
 
 ## Telelight Annunciator Panel
 

@@ -14,7 +14,8 @@ maintainer willing to discuss the state of current naval aviation. After nearly
 a year of analysis and design work - including a full scale mockup, the design of
 what they would classify as a general fighter took shape. The potential of a
 general fighter aircraft, rather than the specialized focus preferred by the
-Navy at the time, was rooted in F3H-1s success in threading of that very needle;
+Navy at the time, was rooted in the success of the F3H-1 Demon
+in threading of that very needle;
 the Demon had been built as design in opposition of the F4D Skyray in the
 interceptor role. As the Skyray proved its supersonic superiority during the
 development cycle, McDonnell expanded the F3H Demon's capabilities to include
@@ -76,8 +77,8 @@ entered the flight testing phase a month prior (and nominally entered
 engineering almost a year ahead of Vought's entry), the benefits of Vought
 carrying over much of the prior Crusader's aerodynamic profile appeared early in
 the comparison, as the Crusader III was first to Mach 2 in flight testing, shown
-capable of reaching higher top speeds during the Navy preliminary evaluation, and noted for having
-more refined airframe handling in most regimes.
+capable of reaching higher top speeds during the Navy preliminary evaluation (NPE),
+and noted for having more refined airframe handling in most regimes.
 
 ![f-4h_aboard_the_uss_independence](../img/f-4h_aboard_uss_independence.jpg)
 _(F-4H aboard the USS Independence in 1960; US Navy photo)_
@@ -112,9 +113,12 @@ light of the findings, Navy offered a bombing demonstration for Air Force
 representatives of the Tactical Air Command, making special note of the
 successful air to ground trials with the Phantom's multiple ejector racks- a
 capability the USAF lacked. With Air Force policymakers, members of Congress,
-and even Gen. Curtis LeMay in attendance during this demonstration series- with
+and even Gen. Curtis LeMay in attendance during this demonstration series - with
 a VX-5 F4H-1 accurately delivering twenty-two 500 lb bombs in spectacular
 fashion, the stage was set for a Navy/McDonnell tactical aviation coup.
+
+![f_4_dropping_bombs](../img/real_life_f_4_dropping_bombs.jpg) _F-4E Phantom II of the 347th
+Tactical Fighter Wing airdropping six 500-lb Mark 82s_
 
 The inauguration of the Kennedy administration in January 1961 didn't hurt
 matters; Kennedy brought in former Ford Motor Company president Robert McNamara
@@ -238,8 +242,12 @@ between air-to-air and air to ground; the pilot would now have immediate access
 to his air-to-air weapons, and could swap them on the fly - never once looking
 down in the cockpit. 556 also included modifications to the armament panel for
 air to ground munitions, adding ripple release capability while reducing the
-number of controls required to access full ARBCS programming. Further
-reinforcement of crew initiative was the installation of TISEO - the Target
+number of controls required to access full ARBCS programming.
+
+![real_life_f_4_with_tiseo](../img/real_life_f_4_tiseo.jpg) _An F-4E Phantom II with a TISEO mounted
+on left wing above the blue practice bombs_
+
+Further reinforcement of crew initiative was the installation of TISEO - the Target
 Identification System Electro-Optical. Consisting of a 4x/10x camera installed
 in the left wing, TISEO provided visual identification of distant, radar-locked
 targets, enabling the AIM-7 Sparrow to be used to its full extent. Coupled with

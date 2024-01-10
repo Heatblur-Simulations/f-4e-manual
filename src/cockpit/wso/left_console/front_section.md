@@ -7,19 +7,19 @@
 ### ICS Volume Control Knob
 
 Turned clockwise to increase audio between cockpits, and counterclockwise to
-decrease audio between cockpits on the intercom.
+decrease audio between cockpits on the [intercom](../../../systems/nav_com/intercom.md).
 
 ### ICS Function Selector Switch
 
-| Name           | Description                                                                  |
-|----------------|------------------------------------------------------------------------------|
-| COLD MIC       | Mic switch on throttle must be held to activate intercom.                    |
-| HOT MIC        | Voice automatically transmitted on intercom.                                 |
-| RADIO OVERRIDE | The opposite cockpit’s audio is heard at its set volume using its amplifier. |
+| Name           | Description                                                                                       |
+|----------------|---------------------------------------------------------------------------------------------------|
+| COLD MIC       | Mic switch on throttle must be held to activate [intercom](../../../systems/nav_com/intercom.md). |
+| HOT MIC        | Voice automatically transmitted on [intercom](../../../systems/nav_com/intercom.md).              |
+| RADIO OVERRIDE | The opposite cockpit’s audio is heard at its set volume using its amplifier.                      |
 
 ### ICS Amplifier Select Knob
 
-Determines current amplifier for intercom function.
+Determines current amplifier for [intercom](../../../systems/nav_com/intercom.md) function.
 
 | Name | Description                                                                                                     |
 |------|-----------------------------------------------------------------------------------------------------------------|
@@ -31,7 +31,7 @@ Determines current amplifier for intercom function.
 
 ![wso_control_monitor_panel](../../../img/wso_control_monitor_panel.jpg)
 
-Tests and monitors the APQ-120 Radar.
+Tests and monitors the [APQ-120 Radar.](../../../systems/radar.md)
 
 ### Cords Light
 
@@ -62,8 +62,11 @@ and Meter Selector Knob settings.
 ![Test Knob](../../../img/wso_radar_test_knob.jpg)
 
 An eleven position rotary knob used with the radar power knob in TEST to perform
-system BIT checks of the APQ-120 radar. Basic test function noted below;
-procedural functionality is found in the applicable BIT test section.
+system BIT checks of the [APQ-120 Radar](../../../systems/radar.md).
+Basic test function noted below;
+procedural functionality is found in the applicable BIT test section
+([Air-To-Air Bits](../../../procedures/bit_tests/radar_air_to_air.md),
+[Air-To-Ground Bits](../../../procedures/bit_tests/radar_air_to_ground.md)).
 
 | Name    | Description                                                                                 |
 |---------|---------------------------------------------------------------------------------------------|
@@ -118,8 +121,10 @@ switch and a mic switch.
 
 The Speed Brakes are actuated by a three position switch found on the inboard
 throttle in both cockpits. Either switch will actuate the brakes. The positions
-are Out, Stop, and In; the first and last positions are momentary (reverting to
-Stop upon being released).
+are Out, Stop, and In; the Out position is momentary and reverts back to Stop when released.
+
+For further information see
+the [Flight Control Surfaces chapter.](../../../systems/flight_controls_gear/flight_controls.md#speed-brakes)
 
 ### Mic Switch
 

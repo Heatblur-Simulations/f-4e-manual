@@ -10,7 +10,7 @@ and [countermeasure](../../../systems/defensive_systems/countermeasures.md) cont
 Used to visually confirm the integrated boarding steps state. With
 the white post up, steps are stowed, whereas steps are deployed if post
 is down and flush with panel recess. The boarding steps and ladder is moved
-by [the crew chief](../../../crew_chief/overview.md).
+by the [crew chief](../../../crew_chief/overview.md).
 
 ## Intercom System Control Panel
 
@@ -19,15 +19,15 @@ by [the crew chief](../../../crew_chief/overview.md).
 ### Pilot ICS Volume Control Knob
 
 Turned clockwise to increase audio between cockpits, and counterclockwise to
-decrease audio between cockpits on the [intercom](../../../systems/nav_com/intercom.md).
+decrease audio between cockpits on the [Intercom](../../../systems/nav_com/intercom.md).
 
 ### Pilot ICS Function Selector Switch
 
-| Name           | Description                                                                                                                |
-|----------------|----------------------------------------------------------------------------------------------------------------------------|
-| COLD MIC       | Mic switch on throttle must be held to activate [intercom](../../../systems/nav_com/intercom.md).                          |
-| HOT MIC        | Voice automatically transmitted on [intercom](../../../systems/nav_com/intercom.md).                                       |
-| RADIO OVERRIDE | [intercom](../../../systems/nav_com/intercom.md) overrides incoming radio calls; does not override aircraft warning audio. |
+| Name           | Description                                                                        |
+| -------------- | ---------------------------------------------------------------------------------- |
+| COLD MIC       | Mic switch on throttle must be held to activate intercom.                          |
+| HOT MIC        | Voice automatically transmitted on intercom.                                       |
+| RADIO OVERRIDE | Intercom overrides incoming radio calls; does not override aircraft warning audio. |
 
 ### Pilot ICS Amplifier Select Knob
 
@@ -49,7 +49,7 @@ as well as two lamps and a switch to activate flares on its base.
 
 ### Chaff Burst
 
-The count knob selects the number of chaff burst commands per salvo;
+The count knob selects the number of chaff burst (quantity of chaffs) commands per salvo;
 values of 1, 2, 3, 4, 6, or 8 from left to right.
 
 The interval knob selects the time interval of .1, .2, .3, or .4 seconds
@@ -57,16 +57,20 @@ between each chaff burst command.
 
 ### Chaff Salvo
 
-The count knob selects the number of salvos per dispense command,
+The count knob selects the number of salvos (quantity of bursts) per dispense command,
 values of 1, 2, 4, 8, or C (Continuous).
+
+Continous will dispense till the dispensers are empty.
 
 The interval knob selects time interval between each salvo.
 Values of 1, 2, 3, 4, 5, 8, or a R (Random) number of seconds.
 
 ### Flare Burst
 
-The count knob selects the quantity of flare burst commands per salvo.
+The count knob selects the quantity of flare burst (quantity of flares) commands per salvo.
 Values of 1, 2, 4, 8, or C (Continuous).
+
+Continous will dispense till the dispensers are empty.
 
 The interval knob selects time interval between each burst.
 Values of 3, 4, 6, 8, 10 number of seconds.

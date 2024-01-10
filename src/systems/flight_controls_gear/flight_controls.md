@@ -27,18 +27,14 @@ control that performs the boom disconnect function its name implies, as well as
 a number of weapon selection functions.
 
 Also, unique to the front cockpit stick is a force transducer, to allow the pilot
-fine adjustment control of
-the [AFCS](../../cockpit/pilot/left_console/center_section.md#afcs-control-panel) with the autopilot
-functionality engaged. In
-the event the force applied to the stick exceeds
-the [AFCS](../../cockpit/pilot/left_console/center_section.md#afcs-control-panel) breakout limit,
-autopilot will be turned off.
+fine adjustment control of the AFCS with the autopilot functionality engaged. In the event the force
+applied to the stick exceeds the AFCS breakout limit, autopilot will be turned off.
 
 ## Aileron-Spoiler Control and Stabilator Control Feel and Trim Systems
 
 The Aileron-Spoiler Control System and the Stabilator Control System both offer
 trim following; the former through a screw jack actuator, the latter using a
-servo directed by the [AFCS](../../cockpit/pilot/left_console/center_section.md#afcs-control-panel).
+servo directed by the AFCS.
 These functions cause the stick to position relative
 to the current trim and autopilot position when the crew member in control goes
 "hands off". It is therefore advisable to maneuver the stick to the same
@@ -49,7 +45,7 @@ To confirm current state of the stabilator trim, a Stabilator Trim Position
 Indicator is provided on
 the [front cockpit left vertical panel](../../cockpit/pilot/left_sub_panel.md#stabilator-trim-indicator)
 .
-  
+
 ![StabTrimInd](../../img/StabTrimInd.jpg)
 
 ## Rudder Control System
@@ -116,6 +112,21 @@ With the Roll stability augmentation system engaged, roll rate using the rear
 control stick can be less than that in the front cockpit relative to the amount
 of deflection; conversely, when returning control to the front cockpit, the rate
 can jump due to said difference.
+
+## Auotmatic Flight Control System (AFCS)
+
+The automatic flight control system (AFCS) is an electro-hydraulic system designed to provide
+stable, accurate and coordinated flight maneuvers without interferring with manual control. The
+System utilizes the displacement gyro (for pitch and roll) additionally to the heading reference
+signals to maintain the airplane in the desired attitude with maximum stability.
+
+In the F-4E DSCG variant there are two modes of operation, AFCS and Altitude Hold. In the AFCS mode
+of operation maintains any aircraft heading and/or attitude selected within the limits (± 70° pitch,
+70° bank and 360° azimuth), providing the G-Limits (+ 4G or - 1G) are not being exceeded. During
+AFCS mode, two accelerometers are utilized to ensure proper functioning of the AFCS system. One of
+the accelerometers is a G-Limiting type to prevent excess G-loads from occuring as a result of AFCS
+operation, the other accelerometer is a lateral accelerometer which is used to perform coordinated
+maneuvers while in AFCS or stability augmentation mode.
 
 ## Slats Flap System
 
@@ -186,8 +197,7 @@ hydraulic system and actuated by
 a [three position switch](../../cockpit/pilot/left_console/front_section.md#throttles) found on the
 inboard [throttle](../../cockpit/pilot/left_console/front_section.md#throttles) in both cockpits.
 Either switch will actuate the brakes. The positions
-are Out, Stop, and In; the first and last positions are momentary (reverting to
-Stop upon being released).
+are Out, Stop, and In; the Out position is momentary and reverts back to Stop when released.
 
 ![pilot_speed_brake](../../img/pilot_air_brake.jpg)
 
@@ -208,20 +218,23 @@ parameters. Included in the system are the Angle of Attack Indicators found in
 both cockpits, the illuminated Angle of Attack Indexers, as well as the AoA
 Aural Tone System.
 
+The angle of attack is typically measured in degrees (°). It represents the deviation from the
+alignment of the chord line of the airplane with the oncoming air or relative wind.
+
 ### Indicators
 
 ![AoAInd](../../img/AoAInd.jpg)
 
 The Angle of Attack Indicator dials register AoA values from 0 to 30 units, with
-indications for weight-relative optimum altitude cruise (7.9 units) , approach
+indications for weight-relative optimum altitude cruise (7.9 units), approach
 (19.2 units), and stall (30 units).
 
-It is important to note that extension of the landing gear and thus the nose
-gear door changes the airflow around the probe causing to indicate higher
-angles by 1 unit. The approach airspeeds account for that. Therefore, performing
-an approach with the gear retracted, will cause the indicators to show
-approximately 1 unit low, and the aircraft will be roughly 5 knots fast for an
-on-speed approach.
+> 💡 Extension of the landing gear and thus the nose
+> gear door changes the airflow around the probe causing to indicate higher
+> angles by 1 unit. The approach airspeeds account for that. Therefore, performing
+> an approach with the gear retracted, will cause the indicators to show
+> approximately 1 unit low, and the aircraft will be roughly 5 knots fast for an
+> on-speed approach.
 
 ### Indexers
 
@@ -247,11 +260,17 @@ frequency based on higher AoA values.
 
 This tone can be lowered in volume below 20.3 units AoA gear down/25 units gear
 up with controls in each cockpit; exceeding these values will cause the system
-to override the volume limits and deliver the warning pulses at full volume.
+to override the volume limits and deliver the warning pulses at a minimum
+volume to ensure they are audible regardless of volume setting.
 
-The respective knobs are labelled STALL WARNING and can be found on the right
-side in either cockpit. They must not to be confused with the AURAL TONE CONTROL
-knobs, which control weapon related tones.
+> 💡 The respective knobs are labelled STALL WARNING and can be found on the right
+> side in either cockpit. They must not to be confused with the AURAL TONE CONTROL
+> knobs, which control weapon related tones.
+
+Due to limited forward visibility, the tones are a crucial aid during landing.
+If a low pitch tone playing at a pulse is heard, the aircraft is too fast.
+If a high pitch tone playing at a pulse is heard, the aircraft is too slow.
+For the proper on-speed configuration, a steady tone at a medium pitch is played.
 
 ## Stall Warning Vibrator
 

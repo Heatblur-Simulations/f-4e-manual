@@ -6,6 +6,10 @@ information. When the system is aligned to its most precise extent in
 gyrocompass mode, the INS is accurate to 3 nautical miles per hour of circular
 error probability (CEP).
 
+> 💡 That means that after one hour of flying, the probability for an error
+> in precision is spread such that in 50% of cases it is either below or
+> above 3nm.
+
 ## Inertial Measurement Platform
 
 ![wso_inertial_system_panel](../../img/wso_ins_control_panel.jpg)
@@ -32,6 +36,8 @@ gyros, with a similar arrangement of torquers and displacement pickers to
 provide velocity capture. Increasing the accuracy of these evaluations is the
 inclusion of a tuning fork, the resonance from which eliminates effectively all
 static friction in the motion capture assembly.
+
+![manual_ins_diagram](../../img/manual_ins_diagram.jpg)
 
 ## Navigational Computer and Output Signal Distribution
 
@@ -93,6 +99,9 @@ lamp starts flashing. Then, the INS can be placed into NAV mode. If time allows,
 STBY mode can be selected before going to ALIGN to allow proper heating of the
 gyroscopes (which goes through the illumination/off cycle as above).
 
+> 💡 Heading can be stored in the
+> [mission editor](../../dcs/mission_editor.md#ins-reference-alignment-stored).
+
 ### Gyrocompass Alignment
 
 Maximum system precision is found by allowing the INS to perform a full
@@ -138,12 +147,12 @@ level flight. The process of resetting the Reference Selector to PRIM can be
 performed approximately after 40 seconds, although the precise alignment time is
 not specified.
 
-It's important to note that the accuracy of the attitude in this alignment is
-contingent upon how steadily the aircraft was flown during the alignment period
-and subsequent alignments may be required. Following this emergency alignment,
-only attitude information will be available. Velocities, position, and displays
-on the navigation computer will be inaccurate and cannot be utilized for
-navigation purposes.
+> 💡 Accuracy of the attitude in this alignment is
+> contingent upon how steadily the aircraft was flown during the alignment period
+> and subsequent alignments may be required. Following this emergency alignment,
+> only attitude information will be available. Velocities, position, and displays
+> on the navigation computer will be inaccurate and cannot be utilized for
+> navigation purposes.
 
 ## Navigation Computer
 
@@ -159,11 +168,8 @@ Data Computer, and the magnetic compass; it can receive no information from the
 
 The system can maintain relative bearing and distance from up to two specific
 waypoints at a time (identified as Target 1 and Target 2, with Target 2 being
-held in memory), and this information is shown on
-the [BDHI](../../cockpit/wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi) and ADI
-in real time. For data to appear on the
-[BDHI](../../cockpit/wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi), the
-Navigation Selection Switch must be positioned in NAV COMP.
+held in memory), and this information is shown on the BDHI and ADI in real time. For data to appear
+on the BDHI, the Navigation Selection Switch must be positioned in NAV COMP.
 
 The computer also provides confirmation of current LN-12 precision, using a pair
 of lights marked LAT and LONG, as well as the Variation Sync Meter. When these
@@ -185,6 +191,8 @@ direction and speed, magnetic variation, as the only dead reckoning inputs
 available to the computer is true airspeed (from the air data computer) and
 magnetic heading from the compass system. When the system reverts to Air Data
 mode, the AIR DATA MODE lamp will illuminate.
+
+![wso_nav_panel_air_data_light](../../img/wso_nav_computer_air_data_light.jpg)
 
 During startup, the Position Control Knobs, Wind Control Knobs, and Magnetic
 Variation Control Knob are used to enter known latitude, longitude, wind
@@ -248,6 +256,8 @@ instruction from GCI.
 
 With the Nav Computer in Inertial mode, the aircraft is flown straight and level
 at a known fix location.
+
+![wso_nav_panel_pos_update_switch](../../img/wso_nav_computer_pos_update_switch.jpg)
 
 1. On arrival, the Position Update Switch is placed in the SET position. Doing
    so disengages the longitude and latitude position counters.

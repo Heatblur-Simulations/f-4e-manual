@@ -8,7 +8,9 @@ flight instruments and gauges.
 ![StbyMagComp](../../img/StbyMagComp.jpg)
 
 A standard magnetic compass for backup navigation assistance should the primary
-flight director systems fail. The compass should only be used in level flight. Compass deviation
+flight director systems fail.
+
+The compass should only be used in level flight. Compass deviation
 cards are found above the right canopy sill on each cockpit.
 
 ## Command Ejection Select Handle
@@ -24,19 +26,20 @@ ejection will extract both crew members.
 
 ![wso_course_indicator](../../img/wso_course.jpg)
 
-Used during an ILS approach, displays localizer and glide slope deviations
-represented dots — 1 dot equals 1 1/4 degrees for course and 1/4 degree for glide
+Used during an [ILS](../../systems/nav_com/vor_ils.md) approach, displays localizer and glide slope
+deviations represented dots — 1 dot equals 1 1/4 degrees for course and 1/4 degree for glide
 slope.
 
 The heading pointer indicates the aircraft's heading relative to the
 selected course set by the knob on the lower left.
 
-Does not function with TACAN or VOR. OFF flags display on signal loss.
+Does not function with [TACAN](../../systems/nav_com/tacan.md)
+or [VOR](../../systems/nav_com/vor_ils.md). OFF flags display on signal loss.
 
 ### Marker Beacon Lamp
 
 The lamp on the top right illuminates whenever flying over a marker beacon station,
-provided the VOR/ILS system has been activated.
+provided the [VOR/ILS](../../systems/nav_com/vor_ils.md) system has been activated.
 Additionally, an audio cue is played through the intercom system.
 
 The lamp can be rotated to dim and pushed to test.
@@ -51,26 +54,27 @@ Two lamp indicator illustrating current KY-28 operating mode- P indicates plain
 (unencrypted) mode transmission, whereas C indicates cipher (encrypted) mode
 transmission.
 
-Note: UHF communications require the system be in Plain mode, even
-with system power off, barring usage and monitoring of guard channel.
+> 💡 UHF communications require the system be in Plain mode, even
+> with system power off, barring usage and monitoring of guard channel.
 
 ## Master Caution Light
 
 ![wso_master_caution](../../img/wso_master_caution.jpg)
 
-A repeater of the front cockpit Master Caution light, provides warning to the
-WSO that a caution condition exists and the telelight panel needs to be checked
+A repeater of the front cockpit [Master Caution light](../../systems/emergency.md#master-caution),
+provides warning to the WSO that a caution condition exists and
+the [telelight panel](../../systems/emergency.md#telelight-panel) needs to be checked
 for cause to rectify the situation.
 
-Note: There is no separate reset button for the WSO. The Pilot has to
-reset the Master Caution if it occurs.
+> 💡 There is no separate reset button for the WSO. The Pilot has to
+> reset the Master Caution if it occurs.
 
 ## Shoot Light
 
 ![LftShoot](../../img/wso_shoot_light.jpg)
 
 Illuminates when missile firing parameters are met. Does not illuminate
-when in Visual Intercept or Air-to-Ground modes.
+when in Visual Intercept (VI) or Air-to-Ground modes.
 
 ## RWR Azimuth Indicator
 
@@ -129,7 +133,7 @@ detected by the APX-81A Combat Tree system.
 
 Illuminated each time the system detects being interrogated by other aircraft.
 
-Due to DCS limitations, this is not simulated in-game.
+> 💡 Due to DCS limitations, this is not simulated in-game.
 
 ## Range (VISIDENT) Indicator
 
@@ -151,10 +155,9 @@ the knob on the left lower corner.
 
 ![GGauge](../../img/wso_accelerometer.jpg)
 
-Calibrated from negative 4 to positive 10 in units of G, with three pointers-
-one for current applied load, the other two show maximum positive and negative G
-applied during the flight. Pressing the PUSH TO SET button will reset the
-maximum position indicators to 1 G.
+Calibrated from negative 4 to positive 10 in units of G, with three pointers - one for current
+applied load, the other two show maximum positive and negative G applied during the flight. Pressing
+the PUSH TO SET button will reset the maximum position indicators to 1 G.
 
 ## Turn Indicator
 
@@ -162,7 +165,12 @@ maximum position indicators to 1 G.
 
 A 4-minute turn indicator, utilizing a conventional horizontally mounted gyro,
 accurately displays standard turn rates, resembling a conventional turn and slip
-indicator. 4-minute turn indicator refers to 4 minutes for a 360-degree turn.
+indicator.
+
+To execute a controlled turn (360° in 4 minutes), place the vertical needle
+over one of the indicators on either side (turn rate of 1.5 degrees per second) and ensure
+the slip indicator at the bottom is centered to prevent over- or under-turning due to
+incorrect bank.
 
 ## Navigation Mode Selector Switch
 
@@ -250,6 +258,10 @@ is available with the knob on the face of the gauge, with speed reference
 available between 80 and 195 knots, and the Mach index pointer being able to be
 set between the 225 knot and 850 knot regions relative to the airspeed gauge.
 
+The 1 needle and the inner ring refers to the airspeed in knots. The 2 needle and the respective
+outer ring refers to the Mach scale. Both move along dynamically according to the Airspeed. The 3
+area refers to the airspeed scale before the mach scale starts.
+
 ## Bearing Distance Heading Indicator (BDHI)
 
 ![wso_bearing_distance_heading_indicator](../../img/wso_bearing_distance_heading_indicator.jpg)
@@ -260,7 +272,8 @@ pointers).
 See [Navigation Mode Selector Switch](upfront_indicators.md#navigation-mode-selector-switch) for
 Needle Explanation.
 
-When the upper position is selected by the WSO to TACAN/ADF/UHF, the no. 1
+When the upper position of the Navigation Mode Selector Switch is selected by the WSO
+to TACAN/ADF/UHF, the no. 1
 pointer indicates UHF bearing, and the no. 2 pointer indicates the TACAN
 bearing. If there is no TACAN signal, both pointers indicate the ADF bearing.
 
@@ -271,15 +284,17 @@ pointers indicate the VOR station.
 
 In the lower position, NAV COMP, the no. 1 pointer indicates bearing to the
 navigation computer target coordinates, and the no. 2 pointer indicates magnetic
-ground track. The range indicator notes distance to the selected target depending on the
-[Navigation Mode Selector Switch](upfront_indicators.md#navigation-mode-selector-switch).
+ground track.
+
+A vertical readout, the range indicator notes distance to the selected target depending
+on the Navigation Mode Selector Switch.
 
 ## Tachometers
 
 ![Tach](../../img/Tach.jpg)
 
 A percentage-noting Tachometer is provided for each engine, including an inset
-wheel for accurate display of single digits. Normal values are 65% for idle, 95% in full mil power
+wheel for accurate display of single digits. Normal values are 65% for idle, 95% in full MIL power
 and 105% for full afterburner.
 
 ## Canopy Unlocked Warning Lamp

@@ -12,14 +12,16 @@ Activates recording of gun camera footage.
 
 Illuminates when [CAGE](../../stores/air_to_air/acm_modes.md) mode activated; pressing the light
 reverts the radar to the original operating condition prior
-to [CAGE](../../stores/air_to_air/acm_modes.md) entry.
+to CAGE entry.
 
 ## Video Select Button
 
 ![wso_video_select](../../img/wso_video_select.jpg)
 
-Push button that alternates between WEAPON, such as Mavericks,
-and targeting pod (ASQ-153) television video on the radar scope display when in TV mode.
+Push button that alternates between WEAPON, such
+as [AGM-65 Mavericks](../../stores/air_to_ground/missiles/maverick.md),
+and [targeting pod (ASQ-153)](../../systems/weapon_systems/pave_spike/overview.md) television video
+on the radar scope display when in TV mode.
 
 ## AVTR Control
 
@@ -49,14 +51,14 @@ tape must be unthreaded before it can record again.
 
 Lit to indicate the AVTR system currently recording.
 
-## WSO Emergency Landing Gear Handle
+## Emergency Landing Gear Handle
 
 ![wso_emergency_handles](../../img/wso_emergency_handles.jpg)
 
 Deploys the landing gear using a pair of compressed air bottles; handle cannot
 retract gear, only deploy in an emergency.
 
-## WSO Emergency Brake Handle
+## Emergency Brake Handle
 
 In an emergency, discharges a portion of the brake system hydraulic accumulator
 to provide emergency braking. Contains a limited number of applications.
@@ -84,8 +86,8 @@ either of:
 - Mode 4/A
 - Mode 4/B
 
-In DCS, only Mode 4 (either A or B) is effective and can be used for
-interrogation.
+> 💡 In DCS, only Mode 4 (either A or B) is effective and can be used for
+> interrogation.
 
 The other four digits are used to set the IFF code to interrogate for Modes 1
 to 3.
@@ -147,22 +149,25 @@ oxygen flow.
 ### Emergency Flow Control Switch
 
 Three position switch which selects EMERGENCY pressure (100% flow with positive
-pressure), NORMAL (standard air/oxygen mix), or TEST MASK (positive pressure for
-mask sealing check).
+pressure), NORMAL (standard air/oxygen mix), or TEST MASK (positive pressure
+for mask sealing check).
 
 ### Diluter Lever
 
 Two position switch that cycles between NORMAL oxygen value or 100% OXYGEN
-level. 100% Oxygen should only be used if fire and/or smoke and fumes occur in the plane.
+level. 100% should only be used if fire and/or smoke and fumes occur in the plane.
 
 ### Supply Lever
 
 Two position switch (ON and OFF) activating flow of oxygen to the aircrew
-member.
+member. For further information see [Oxygen chapter](../../systems/utility.md#oxygen-system).
 
 ### Oxygen Pressure Gauge
 
-Indicates system pressure from 0 to 500 psi.
+Indicates system pressure from 0 to 500 psi. The Oxygen lasts up to 24.3 Hours with a full 10 litres
+at about 35,000 feet. At 10,000 feet 10 litres last about 23.4 hours.
+
+For further information see [Oxygen chapter](../../systems/utility.md#oxygen-system).
 
 ## Landing Gear/Flap Indicator Panel
 
@@ -175,6 +180,9 @@ Displays current status of landing gear, flaps, and slat position.
 Status noted with the word UP (up), a barber pole illustration (in transition),
 or an icon of a wheel (down) relative to current position.
 
+See the [Landing gear chapter](../../systems/flight_controls_gear/gear_ground_handling.md) for more
+information.
+
 ### Slats
 
 Status noted with the word IN and OUT.
@@ -184,3 +192,7 @@ Status noted with the word IN and OUT.
 Status noted with the word UP (flaps up) or (DN) (down). When transitioning, may
 show a barber pole illustration. When transitioning back to the UP position, the
 indicator does not change until the flaps are fully retracted.
+
+See
+the [Slats and Flaps Chapter](../../systems/flight_controls_gear/flight_controls.md#slats-flap-system)
+for more information.

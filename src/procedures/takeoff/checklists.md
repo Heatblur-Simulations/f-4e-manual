@@ -1,4 +1,4 @@
-# Takeoff
+# Takeoff Checklists
 
 ## Before Takeoff (Pilot)
 
@@ -26,8 +26,6 @@
 | 5.     | IFF               | AS REQUIRED        |
 | 6.     | Circuit Breakers  | CHECK IN           |
 | 7.     | Warning Lights    | CHECK              |
-
-![Takeoff](../img/takeoff.jpg)
 
 ### On Runway
 

@@ -1,7 +1,8 @@
 # Center Section
 
 The center section of the right console is dominated by
-the WRCS panel for weapon delivery.
+the [WRCS](../../../systems/weapon_systems/wrcs.md) panel for weapon delivery. For more detailed
+information see the [WRCS chapter](../../../systems/weapon_systems/wrcs.md).
 
 ## Weapon Release Computer Set (WRCS) Panel
 
@@ -27,8 +28,8 @@ the window in the last digit position.
 A three position drum roller window with matching analog knob used to enter the
 altitude of either the Radar initial Point or the actual target itself, and is referenced in
 increments of 100'. Fractional values can be entered as described previously.
-This value can be changed once Radar initial Point or Visual ingress Point is properly defined to
-increase release system accuracy.
+This value can be changed once Radar Initial Point (RIP) or Visual Ingress Point (VIP) is
+properly defined to increase release system accuracy.
 
 ### Drag Coefficient Control
 
@@ -40,7 +41,7 @@ Refer to the [bombing calculator](../../../dcs/bombing_computer.md) for obtainin
 ### Release Advance Control
 
 Used to advance the release signal given from the [WRCS](../../../systems/weapon_systems/wrcs.md) to
-the fire control system relative to the [WRCS](../../../systems/weapon_systems/wrcs.md) target
+the fire control system relative to the WRCS target
 point, in any duration from 0 to 999 milliseconds. Also functions in conjunction
 with [ARBCS/LABS](../../../systems/weapon_systems/arbcs.md) programmed release
 timing.
@@ -67,6 +68,8 @@ delivery modes. The BIT check is performed by selecting the desired mode for
 testing, pressing the knob for five seconds, then pressing the Freeze button on
 the Cursor Control Panel while keeping the BIT knob held down to confirm
 function.
+
+See [WRCS BITs](../../../procedures/bit_tests/wrcs.md) for details.
 
 ## Cursor Control Panel
 
@@ -99,6 +102,9 @@ Track and Cross Track cursors to define the actual target defined by
 the [WRCS](../../../systems/weapon_systems/wrcs.md)
 offsets on the radar scope. This action initiates target steering information
 from the [WRCS](../../../systems/weapon_systems/wrcs.md) to the navigational displays.
+
+The [Pave Spike](../../../systems/weapon_systems/pave_spike/overview.md)
+system also utilizes the Target Insert functionality for its Memory Mode.
 
 ### Reset Button
 

@@ -6,7 +6,7 @@ The aft section of the right console features the navigation and lighting panel.
 
 ![Navigation Panel](../../../img/wso_nav_panel.jpg)
 
-TODO
+> 🚧 This section is under construction.
 
 ## WSO Cockpit Lighting Control Panel
 
@@ -34,7 +34,7 @@ The STBY COMP switch illuminates the light for the Standby Compass.
 
 The red console floodlights (CONSOLE FLOOD) are triggered independently of the knob
 when it is placed to the right of the OFF detent position, and offer three
-settings- DIM, MED, or BRT. The floodlights will remain on until the Console
+settings - DIM, MED, or BRT. The floodlights will remain on until the Console
 Light Control knob is returned to the OFF position, and the floodlight switch is
 placed in DIM. All three positions are powered by different buses to ensure
 maximal availability:
@@ -68,7 +68,7 @@ illumination by the knobs on the Flight Instrument Lights Intensity Panel.
 
 The Indexer Lights brightness knob controls relative illumination of the AoA
 indexers on both sides of the windscreen. Marked positions are DIM and BRT
-(bright), with highest level to the right of the knob.
+(bright), with the highest level to the right of the knob.
 
 ### Indexer Knob
 

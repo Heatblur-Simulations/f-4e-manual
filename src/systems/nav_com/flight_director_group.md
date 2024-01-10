@@ -1,33 +1,31 @@
 # Flight Director Group
 
-![pilot_flight_director_group](../../img/pilot_flight_director_group.jpg)
+![pilot_flight_director_group](../../img/pilot_flight_director_group_coloured.jpg)
 
 Accurate course navigation is provided by
-the [Flight Director Group](../../cockpit/pilot/flight_director_group.md), which
-includes the Flight Director Computer,
-the [Horizontal Situation Indicator (HSI)](../../cockpit/pilot/flight_director_group.md#horizontal-situation-indicator)
-along with
-the [Navigation Function Selector Panel](../../cockpit/pilot/flight_director_group.md#navigation-function-selector-panel)
-in the front cockpit, and
-the [Bearing Distance Heading Indicator (BDHI)](../../cockpit/wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi)
-together with
-the [Navigation Mode Selector Switch](../../cockpit/wso/upfront_indicators.md#navigation-mode-selector-switch)
+the Flight Director Group, which includes the Flight Director Computer (1), the Horizontal Situation
+Indicator (HSI) (2) along with the Navigation Function Selector Panel (3), the Attitude Director
+Indicator (ADI) (4), in the front cockpit, and the
+Bearing Distance Heading Indicator (BDHI) together with the Navigation Mode Selector Switch
 in the rear cockpit.
 
-![wso_nav_mode_selector](../../img/wso_nav_mode_selector_switch.jpg)
+![wso_nav_mode_selector](../../img/wso_nav_mode_selector_switch.jpg) _Navigation mode selector in
+the WSO Pit_
+
+![wso_bdhi](../../img/wso_bearing_distance_heading_indicator.jpg) _Bearing Distance Heading
+Indicator in the WSO Pit_
 
 ## Navigation Function Selector Panel
 
 ![pilot_nav_function_selector](../../img/pilot_nav_function_selector_panel.jpg)
 
-Found on the [front cockpit instrument panel](../../cockpit/pilot/flight_director_group.md),
-the [Navigation Function Selector Panel](../../cockpit/pilot/flight_director_group.md#navigation-function-selector-panel)
-has two knobs - a Bearing/Distance Selector Knob and a Mode Selector Knob.
+Found on the front cockpit instrument panel, the Navigation Function Selector Panel has two knobs -
+a Bearing/Distance Selector Knob and a Mode Selector Knob.
 
 ## Bearing Distance Selector Knob (BRG/DIST)
 
 The Bearing Distance Selector Knob sets the bearing pointer and range indication
-displays on the [HSI](../../cockpit/pilot/flight_director_group.md#horizontal-situation-indicator).
+displays on the HSI.
 Positions are [VOR](vor_ils.md)/[TAC](tacan.md), [TAC](tacan.md), ADF/[TAC](tacan.md), and NAV COMP.
 
 In [VOR](vor_ils.md)/[TAC](tacan.md) mode, magnetic and relative bearing to the [VOR](vor_ils.md)
@@ -47,9 +45,7 @@ the destination set in the navigation computer.
 ## Mode Selector Knob (MODE)
 
 The Mode Selector Knob controls the remaining informational displays on
-the [HSI](../../cockpit/pilot/flight_director_group.md#horizontal-situation-indicator) (outer
-knob), as well as the pitch and bank steering bars on
-the [ADI](../../cockpit/pilot/flight_director_group.md#attitude-director-indicator) (inner knob
+the HSI (outer knob), as well as the pitch and bank steering bars on the ADI (inner knob
 labelled FD). The mode selector knob operates independently of the bearing pointer and range
 indicator, and the selector positions are [VOR/ILS](vor_ils.md), [TAC](tacan.md), NAV COMP, and HDG.
 Navigation modes set by this knob will be indicated by an illuminated word message when the
@@ -83,12 +79,12 @@ beacon.
 To provide full information, the Bearing/Distance Switch should be set to [TAC](tacan.md).
 The course arrow and course selector window are set using the Course Set knob to
 the desired [TACAN](tacan.md) course. Once set, the Deviation Indicator and aircraft symbol
-provide the top down display relative to the set course, with a maximum
+provide the top-down display relative to the set course, with a maximum
 deviation deflection of 10 degrees. The Heading Set knob is used to set a
 desired [TACAN](tacan.md) course for bank steering presentation on
-the [ADI](../../cockpit/pilot/flight_director_group.md#attitude-director-indicator). If the heading
+the ADI. If the heading
 marker is not set, bank steering on
-the [ADI](../../cockpit/pilot/flight_director_group.md#attitude-director-indicator) will not be
+the ADI will not be
 correct to intercept the
 desired course. A To-From indicator displays when the mode selector is in [TACAN](tacan.md)
 or [VOR/ILS](vor_ils.md) mode when either are tuned and received; once the course is
@@ -111,7 +107,7 @@ command.
 
 ![pilot_attitude_director_indicator](../../img/pilot_attitude_director_indicator.jpg)
 
-The [ADI](../../cockpit/pilot/flight_director_group.md#attitude-director-indicator) provides command
+The ADI provides command
 steering to intercept selected headings, [TACAN](tacan.md)
 stations, tracks, [VOR](vor_ils.md) radials, or navigation computer destinations. Bank
 steering instruction is presented using the bank steering bar, which can
@@ -122,17 +118,18 @@ intercept presentation is accurate within a 60 degree field of a [TACAN](tacan.m
 or 90 degrees for a [VOR](vor_ils.md) radial. Additionally, a Glide-slope Pointer is provided
 for relative glide-slope position indication during an [ILS](vor_ils.md) approach.
 
-Upon startup of the [ADI](../../cockpit/pilot/flight_director_group.md#attitude-director-indicator),
-an OFF warning flag will be displayed until the
-AN/AJB-7 gyro has aligned. This can also appear due to power loss or a signal
-failure. The flag does not present if a system failure occurs outside of the
-AN/AJB-7.
+In the Picture above the yellow vertical needle shows the Pilot that he has to steer 20° to the left
+to correct the course intended. In the same way the ADI shows steering instructions for the pitch.
+
+Upon startup of the ADI, an OFF warning flag will be displayed until the AN/AJB-7 gyro has aligned.
+This can also appear due to power loss or a signal failure. The flag does not present if a system
+failure occurs outside of the AN/AJB-7.
 
 ## Bearing Distance Heading Indicator (BDHI)
 
 ![wso_bearing_distance_heading_indicator](../../img/wso_bearing_distance_heading_indicator.jpg)
 
-The [Bearing Distance Heading Indicator (BDHI)](../../cockpit/wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi)
+The Bearing Distance Heading Indicator (BDHI)
 displays navigation information using two needles, referred to as the No. 1 and No. 2 pointers,
 which receive inputs controlled by the WSO Navigation Mode Selector Switch.
 

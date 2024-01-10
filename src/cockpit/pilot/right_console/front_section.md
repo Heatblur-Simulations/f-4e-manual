@@ -7,7 +7,8 @@ communication and navigation controls.
 
 ![MCRst](../../../img/MCRst.jpg)
 
-Used to extinguish telelight panel warnings and the Master Caution warning lamp
+Used to extinguish [telelight panel](../../../systems/emergency.md#telelight-panel) warnings and
+the [Master Caution warning](../../../systems/emergency.md#master-caution) lamp
 once the necessary action has been taken. In the event a fault has not been
 effectively corrected, pressing the Master Caution Reset button will not turn
 the respective warning off.
@@ -16,9 +17,11 @@ the respective warning off.
 
 ![FrontTCN](../../../img/FrontTCN.jpg)
 
-The TACAN Control Panel is used to enter the desired TACAN channel, mode, and
+The [TACAN](../../../systems/nav_com/tacan.md) Control Panel is used to enter the
+desired [TACAN](../../../systems/nav_com/tacan.md) channel, mode, and
 audible volume for the monitoring of said channel by the aircrew. The panel is
-duplicated in both cockpits, and the panel in command of the TACAN receiver is
+duplicated in both cockpits, and the panel in command of
+the [TACAN](../../../systems/nav_com/tacan.md) receiver is
 selected with the NAV CMD button of the Communication Control Panel.
 
 ### Channel Knobs
@@ -26,7 +29,8 @@ selected with the NAV CMD button of the Communication Control Panel.
 On the control panel there are two Navigation Channel Control knobs, with the
 left controlling the first two digits of the channel value (hundreds and tens),
 and the right controls the single unit (ones) values. The right knob also
-includes an outer ring which sets the X or Y value for the desired TACAN
+includes an outer ring which sets the X or Y value for the
+desired [TACAN](../../../systems/nav_com/tacan.md)
 channel.
 
 ### Test Button and Lamp
@@ -39,41 +43,48 @@ of the system's performance.
 
 The lamp above the button illuminates to indicate test status.
 
+See [TACAN Test](../../../procedures/bit_tests/navigation_tests.md#tacan-test) for details.
+
 ### Volume Knob
 
 To the upper right, the VOL knob is available to set the desired audio level for
-the received TACAN station.
+the received [TACAN](../../../systems/nav_com/tacan.md) station.
 
 ### Function Selector
 
-The TACAN Function Selector Knob determines the presentation and type of
-information provided on the HSI, ADI, and BDHI, respectively.
+The [TACAN](../../../systems/nav_com/tacan.md) Function Selector Knob determines the presentation
+and type of
+information provided on
+the [HSI,](../../pilot/flight_director_group.md#horizontal-situation-indicator) [ADI](../../pilot/flight_director_group.md#attitude-director-indicator),
+and [BDHI,](../../wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi)
+respectively.
 
-| Name    | Description                                                                                                                                                |
-|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| OFF     | The TACAN receiver is de-energized and offline.                                                                                                            |
-| REC     | The TACAN receiver is active, providing bearing information on the HSI, BDHI, and ADI.                                                                     |
-| T/R     | Both the receive and transmit functions of the TACAN are active, which provide bearing and nautical mile range information for the HSI and BDHI.           |
-| A/A REC | The TACAN receiver decodes bearing information from compliant aircraft for the HSI, BDHI, and ADI steering display.                                        |
-| A/A TR  | The TACAN receiver receives both bearing and slant range information in nautical miles from the transmitting aircraft, providing this on the HSI and BDHI. |
+| Name    | Description                                                                                                                                                                                                                                                                                                                                                                    |
+|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| OFF     | The [TACAN](../../../systems/nav_com/tacan.md) receiver is de-energized and offline.                                                                                                                                                                                                                                                                                           |
+| REC     | The [TACAN](../../../systems/nav_com/tacan.md) receiver is active, providing bearing information on the [HSI](../../pilot/flight_director_group.md#horizontal-situation-indicator), [BDHI](../../wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi), and [ADI](../../pilot/flight_director_group.md#attitude-director-indicator).                              |
+| T/R     | Both the receive and transmit functions of the [TACAN](../../../systems/nav_com/tacan.md) are active, which provide bearing and nautical mile range information for the [HSI](../../pilot/flight_director_group.md#horizontal-situation-indicator) and [BDHI](../../wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi).                                        |
+| A/A REC | The [TACAN](../../../systems/nav_com/tacan.md) receiver decodes bearing information from compliant aircraft for the [HSI](../../pilot/flight_director_group.md#horizontal-situation-indicator), [BDHI](../../wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi), and [ADI](../../pilot/flight_director_group.md#attitude-director-indicator) steering display. |
+| A/A TR  | The [TACAN](../../../systems/nav_com/tacan.md) receiver receives both bearing and slant range information in nautical miles from the transmitting aircraft, providing this on the [HSI](../../pilot/flight_director_group.md#horizontal-situation-indicator) and [BDHI](../../wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi).                              |
 
-Note: Air to Air TACAN functionality requires the channel to be set 63 channels
-above or below the cooperating aircraft, but on the same range- X or Y. So a tanker on 123Y should
-be set to 60Y in the F-4.
+> 💡 Air to Air [TACAN](../../../systems/nav_com/tacan.md) functionality requires the channel to be
+> set 63 channels above or below the cooperating aircraft, but on the same range- X or Y. So a
+> tanker on 123Y should be set to 60Y in the F-4.
 
 ## Communication Control Panel
 
 ![CCP](../../../img/CCP.jpg)
 
-The Communication Control Panel provides selection and mode of the UHF radio in
-the aircraft.
+The Communication Control Panel provides selection and mode of
+the [UHF radio](../../../systems/nav_com/uhf.md) in the aircraft.
 
 ### Command Buttons
 
 The panel is duplicated in both cockpits, and control over the
 radio is determined through pushing the COMM CMD Button in the respective seat;
 the button will illuminate green in the seat in priority. In the same fashion,
-the NAV CMD button dictates which seat has control of the TACAN settings; its
+the NAV CMD button dictates which seat has control of the [TACAN](../../../systems/nav_com/tacan.md)
+settings; its
 button will also illuminate on the panel of the seat that has command (control)
 of the system.
 
@@ -88,17 +99,17 @@ squelch.
 
 ### Frequency and Channels
 
-The A-3-2-T Selector knob sets HAVE Quick functionality of the UHF radio (A-
-auto-jam), the first digit of the manually selected frequency (3 or 2), or
-enables Time of Day receipt for one minute after selection in a momentary hold
-position (T). The HAVE Quick system provides a resistance against jamming.
+The A-3-2-T Selector knob sets HAVE Quick functionality of
+the [UHF radio](../../../systems/nav_com/uhf.md) (A- auto-jam), the first digit of the manually
+selected frequency (3 or 2), or enables Time of Day receipt for one minute after selection in a
+momentary hold position (T). The HAVE Quick system provides a resistance against jamming.
 
 The four Frequency Selection Knobs work in concert with the A-3-2-T knob and
 Preset/Manual switch. Frequencies are entered beginning with the 3 or 2
 selection on the A-3-2-T Selector, and can be entered from 225.00 to 399.975 MHz
 in increments of 0.025. With Preset/Manual in the Manual position, the UHF radio
 is directly set to the displayed channel. In the Preset position, the set
-channels can entered into the COMM CHAN memory, with the desired position
+channels can be entered into the COMM CHAN memory, with the desired position
 selected with the Comm Channel Control knob - the smaller knob to the left of the
 Preset/Manual switch, and displayed in the COMM CHAN window. Channels are stored
 in the displayed channel preset with the SET pushbutton. Once stored, channels
@@ -174,11 +185,13 @@ To prevent sickness and hypoxia, the pressure should be observed and oxygen
 supply adjusted accordingly:
 
 | Pressure Range      | Description                                  |
-| ------------------- | -------------------------------------------- |
+|---------------------|----------------------------------------------|
 | below 13000 ft      | Breath regular air                           |
 | 13000 ft - 40000 ft | Breath Oxygen through mask                   |
 | 40000 ft - 62000 ft | Breath pressurized Oxygen through mask       |
 | above 62000 ft      | Need to wear a pressure suit (not available) |
+
+See [Oxygen Chapter](../../../systems/utility.md#oxygen-system) for more information.
 
 ### Emergency Vent Handle
 
@@ -186,7 +199,7 @@ A plug that can be pulled to release cockpit pressure. Putting it back in will
 seal the cabin again.
 
 Without pressurization, the effective cabin altitude will be identical to the
-current altitude.
+current altitude. Which, if flying at high altitudes, can result in hypoxia.
 
 Should only be used if the pressurization system is malfunctioning and reads
 abnormal values, or to eliminate smoke and fumes from the cockpit. Descend to safe altitudes before
@@ -197,7 +210,8 @@ activating.
 ![Defog](../../../img/Defog.jpg)
 
 Provides pilot selectable volume of warm air to the windshield for de-icing purposes or footwell
-recesses for comfort or visibility.
+recesses for comfort or visibility. Defog should be used in rapid descents in humid environments if
+the cockpit gets fogged up, or if the windshield gets fogged up in general to defog the windshield.
 
 ## Rain Removal Switch
 
@@ -206,7 +220,8 @@ to blow away any rain drops.
 
 The system should not be used during dry conditions, as the hot air will
 heat up the windshield. If the glass reaches critical temperatures,
-the _WINDSHIELD TEMP HI_ warning on the telelight panel will illuminate.
+the _WINDSHIELD TEMP HI_ warning on
+the [telelight panel](../../../systems/emergency.md#telelight-panel) will illuminate.
 In this case, the switch should be turned OFF immediately.
 
 ## Pitot Heat Switch
@@ -233,3 +248,6 @@ individual switch.
 | ON            | Generator is driven by engine accessory power and applied to electrical bus.       |
 | OFF           | Generator is offline.                                                              |
 | ON (EXTERNAL) | External power is supplied through generator bus connection for pre-startup needs. |
+
+For further information see
+the [Generator chapter.](../../../systems/electrics.md#generator-control-switches)

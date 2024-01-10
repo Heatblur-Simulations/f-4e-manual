@@ -18,8 +18,10 @@ maximum position indicators to 1 G.
 ![OilPress](../../img/OilPress.jpg)
 
 A pair of engine oil pressure indicators are provided, one for each engine,
-calibrated from 0 to 10, multiplied by 10 to read as units of PSI. Normal values are 15 psi while
+calibrated from 0 to 10, multiplied by 10 to read as units of PSI. Normal values are 15 PSI while
 the engines are running.
+
+For further information see [Engines chapter](../../systems/engines_and_fuel_systems/engines.md)
 
 ## Hydraulic pressure Indicators
 
@@ -27,16 +29,18 @@ the engines are running.
 
 Two hydraulic pressure indicators are installed. One references the Utility
 Hydraulic System pressure, while the other references the PC-1 and PC-2
-Hydraulic Systems; the latter includes two needles, and are marked accordingly. For further
-information see the [hydraulics system chapter](../../systems/hydraulics.md).
+Hydraulic Systems; the latter includes two needles, and are marked accordingly.
+
+For further information see the [hydraulics system chapter](../../systems/hydraulics.md).
 
 ## Pneumatic Pressure Indicator
 
 ![Pneumatic Pressure Indicator](../../img/Pneum.jpg)
 
 Provides cumulative manifold pressure of the compressed engine bleed air used to
-drive the aircraft's pneumatic actuated equipment. For further information see the [pneumatic system
-chapter](../../systems/pneumatics.md).
+drive the aircraft's pneumatic actuated equipment.
+
+For further information see the [pneumatic system chapter](../../systems/pneumatics.md).
 
 ## Screen Source Switch
 
@@ -66,8 +70,9 @@ setting (4000 rounds per minute).
 The cannon will fire approximately between 5 and 11 rounds from the point the pilot has released the
 trigger to clear all bolt actions in the cannon. This spin-down takes approximately one second
 during which the gun cannot be fired again during this operation. This only applies to externally
-carried gun pods and not to the main gun. The auto clear option should be used everytime a gun
-pod is used.
+carried gun pods and not to the main gun.
+
+The AUTO CLEAR option should be used whenever a gun pod is used.
 
 ## Rounds Remaining Indicator
 

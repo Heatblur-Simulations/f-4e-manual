@@ -1,6 +1,6 @@
 # Bombs
 
-As a multirole fighter aircraft, the Phantom II is equipped with a versatile array of bombs that
+As a multi-role fighter aircraft, the Phantom II is equipped with a versatile array of bombs that
 cater to a diverse range of operational scenarios.
 
 At the core of the F-4E's bomb armament is

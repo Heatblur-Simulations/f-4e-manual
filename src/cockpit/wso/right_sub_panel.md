@@ -8,8 +8,8 @@ various settings for manual bomb delivery.
 ![wso_eject_light](../../img/wso_eject_light.jpg)
 
 Pressed by the WSO in an emergency condition requiring ejection from the
-aircraft, which illuminates the EJECT lamp in the front cockpit warning the
-Pilot to prepare for immediate ejection.
+aircraft, which illuminates the [EJECT lamp](../../systems/emergency.md#eject-light) in the front
+cockpit warning the Pilot to prepare for immediate ejection.
 
 Also lights up when the Pilot presses their respective Eject Light to warn the
 WSO for ejection.
@@ -27,11 +27,11 @@ the [Encryption chapter](../../systems/nav_com/encryption.md).
 
 Controls for the electronic counter-measurement and jamming system.
 
-The left panel is connected to the left missile well adapter, the right panel
-to the right missile well adapter.
+The left panel is connected to any pods carried on left stations, the right panel
+to stations on the right.
 
 Interpretation of the modes, techniques and exact operation of the lights
-depend on the loaded jammer model. See [ECM Pod](../../stores/pods.md#alq-131-ecm-pod)
+depend on the loaded jammer model. See the [ECM section](../../systems/defensive_systems/ecm.md)
 for details.
 
 ### Mode Knob
@@ -41,7 +41,7 @@ for details.
 Sets the mode of the jammer to operate in:
 
 | Mode   | Description                                             |
-| ------ | ------------------------------------------------------- |
+|--------|---------------------------------------------------------|
 | OFF    | Turned off, no transmission                             |
 | STBY   | Starting the warmup, no transmission (200s for ALQ-131) |
 | XMIT 1 | Transmitting and jamming using technique 1              |
@@ -66,7 +66,7 @@ currently active and transmitting.
 
 Indicates that a radar has been detected and is actively jammed.
 
-Due to DCS limitations, this is currently not simulated in-game.
+> 💡 Due to DCS limitations, this is currently not simulated in-game.
 
 ### Reset Button and Lamp
 
@@ -82,6 +82,8 @@ run through the warmup period again. If the fault could be cleared, the light wi
 
 ## Bomb Release Angle Computer
 
+![wso_labs_angle](../../img/wso_bomb_release_angle.jpg)
+
 Used to enter the required angle values for [ARBCS/LABS](../../systems/weapon_systems/arbcs.md)
 bombing modes; the Low Angle control may be set from 0 to 89.9 degrees, and the High Angle control
 may be set from 70 to 179.9 degrees.
@@ -90,8 +92,6 @@ The Angle control is used
 for [over-the-shoulder bombing,](../../stores/air_to_ground/bombs/employment.md#instantaneous-over-the-shoulder---inst-os)
 whilst low angle is used for [LOFT bombing](../../stores/air_to_ground/bombs/employment.md#loft).
 For calculations of the angles see the [bombing calculator](../../dcs/bombing_computer.md).
-
-![wso_labs_angle](../../img/wso_bomb_release_angle.jpg)
 
 ## Bombing Timers
 

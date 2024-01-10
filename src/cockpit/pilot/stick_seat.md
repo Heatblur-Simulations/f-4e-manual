@@ -73,6 +73,9 @@ jettison the chute.
 
 Once jettisoned, the handle is released back into its normal position.
 
+See [Drag Chute System](../../systems/flight_controls_gear/gear_ground_handling.md#drag-chute-system)
+for details.
+
 ### Seat Position
 
 ![pilot_seat_switch](../../img/pilot_seat_switch.jpg)

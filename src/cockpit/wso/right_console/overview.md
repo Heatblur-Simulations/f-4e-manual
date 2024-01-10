@@ -2,6 +2,8 @@
 
 The right console is further divided into 4 sections.
 
+![wso_right_console](../../../img/wso_right_console.jpg)
+
 | Section | Name                        |
 | ------: | --------------------------- |
 |      1. | [Front](front_section.md)   |

@@ -10,24 +10,22 @@ modified to fit the weapon. Carrying 639 rounds in the internal drum, the
 six-barreled Gatling style rotary cannon provides a user-selectable rate of fire
 from 4000 to 6000 rounds per minute, delivering a muzzle velocity in excess of
 3,450 ft/s, with armor piercing incendiary and high explosive incendiary round
-options available. Useful in both air to air and air to ground roles, the Vulcan
+options available. Useful in both air-to-air and air to ground roles, the Vulcan
 was used for four confirmed kills by the USAF over Vietnam with the F-4E.
 
 To utilize the M61,
 the [GUN station select switch](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#station-select-buttons)
 must be selected, the [Master
 Arm](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#master-arm-switch)
-must be
-ON, and
+must be ON, and
 the [Gun selection](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#head-up-display-indicators)
-on the Pinky Switch (Aft) must be
-actuated. This will illuminate the GUN lamp on the Head Up Display.
+on the Pinky Switch (Aft) must be actuated. This will illuminate the GUN lamp on the Head Up
+Display.
 
-For air to air usage,
+For air-to-air usage,
 the [optical sight](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/dcsg_controls.html#sight-mode-knob)
-should be selected to A/A mode. In air
-to air mode, the optical sight functions as a lead computing optical sighting
-(LCOS), thus maneuvering in both elevation and azimuth relative to a radar
+should be selected to A/A mode. In air-to-air mode, the optical sight functions as a lead computing
+optical sighting (LCOS), thus maneuvering in both elevation and azimuth relative to a radar
 locked target, or a default 1000' range setting in the event of no lock. With a
 lock, the range bar presentation is relative to 6700' just to the left of the
 tick at the 1 o-clock position, down to 1000' at the 6 o-clock position.
@@ -77,7 +75,7 @@ promotional images have shown such a configuration, only three can be activated.
 The primary difference between the -16/A and -23/A pods are their method of
 power; the former using a ram air turbine arrangement to drive its motor, while
 the latter is internally powered. This difference had an effect on relative
-utility- while the -23/A could be fired at any airspeed, thus allowing it to be
+utility - while the -23/A could be fired at any airspeed, thus allowing it to be
 loaded onto slower aircraft, the -16/A's ram air turbine required a minimum
 speed of 300 knots to fire, and only reached its optimum performance above 400
 knots. Both pods have an auto-clear function for safety, which cause rounds

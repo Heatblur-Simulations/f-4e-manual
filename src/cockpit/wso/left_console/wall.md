@@ -5,8 +5,8 @@
 ![CanJet](../../../img/wso_canopy_jettison.jpg)
 
 Used for emergency ground extraction, the Emergency Canopy Jettison Handle
-releases a compressed oxygen cylinder to open both canopies immediately,
-shearing them off at their pivots. The handle only jettisons the respective canopy.
+releases a compressed oxygen cylinder to open the respective canopy immediately,
+shearing it off at its pivots.
 
 ## Canopy Control Switch
 
@@ -19,10 +19,11 @@ Used to open (aft) or close (forward) the WSO canopy.
 ![wso_emergency_flaps_handle](../../../img/wso_emergency_flaps_handle.jpg)
 
 Used for emergency deployment of the slats and flaps from the rear cockpit, and
-is activated by pulling the handle aft. Pneumatic system powering extension of
-the slats flaps system only functions one time. Extend regardless of airspeed,
-however flaps will not fully deploy above 230 knots due to air loads on control
-surfaces. Will deploy fully when slower.
+is activated by pulling the handle aft. [Pneumatic system](../../../systems/pneumatics.md) powering
+extension of
+the [slats flaps system](../../../systems/flight_controls_gear/flight_controls.md#slats-flap-system)
+only functions one time. Extend regardless of airspeed, however flaps will not fully deploy above
+230 knots due to air loads on control surfaces. Will deploy fully when slower.
 
 ## LABS Panel
 

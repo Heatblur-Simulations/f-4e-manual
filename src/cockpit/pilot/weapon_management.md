@@ -19,7 +19,7 @@ controls the brightness of the readout.
 The Mode-Knob allows the pilot to select one of two weapon delivery modes
 available with the pod:
 
-- WRCS - Automatic Delivery
+- [WRCS](../../systems/weapon_systems/wrcs.md) - Automatic Delivery
 - ROR - Release on Range
 
 In the SET position, the display shows the desired release range used in the ROR
@@ -135,14 +135,16 @@ The full series of positions is as follows, clockwise from the left:
 | [O/S](../../stores/air_to_ground/bombs/employment.md#timed-over-the-shoulder---timed-os)             | (Timed) Over the Shoulder                                                                         |
 | [T LAD](../../stores/air_to_ground/bombs/employment.md#timed-low-angle-drogue-delivery---t-ladd)     | Timed LADD (Low Angle Drogue Delivery)                                                            |
 | [TL](../../stores/air_to_ground/bombs/employment.md#timed-level---tl)                                | Timed Level                                                                                       |
-| OFF                                                                                                  | Off (Air to Air)                                                                                  |
+| OFF                                                                                                  | Off (Air-to-Air)                                                                                  |
 | [DIRECT](../../stores/air_to_ground/bombs/employment.md#direct)                                      | Manual Direct                                                                                     |
-| [TGT FIND](../../stores/air_to_ground/bombs/employment.md#target-find---tgt-find)                    | Target Find (Nav mode and [Pave spike](../../systems/weapon_systems/pave_spike/overview.md) only) |
+| [TGT FIND](../../stores/air_to_ground/bombs/employment.md#target-find---tgt-find)                    | Target Find (Nav mode and [Pave Spike](../../systems/weapon_systems/pave_spike/overview.md) only) |
 | [DT](../../stores/air_to_ground/bombs/employment.md#dive-toss---dt)                                  | Dive Toss                                                                                         |
 | [DL](../../stores/air_to_ground/bombs/employment.md#dive-laydown---dl)                               | Dive Laydown                                                                                      |
 | [L](../../stores/air_to_ground/bombs/employment.md#laydown---l)                                      | Laydown                                                                                           |
 | [OFF SET](../../stores/air_to_ground/bombs/employment.md#offset)                                     | Offset Bomb                                                                                       |
-| [AGM-45](../../stores/air_to_ground/missiles/shrike.md)                                              | AGM-45                                                                                            |
+| [AGM-45](../../stores/air_to_ground/missiles/shrike.md)                                              | [AGM-45 Shrike](../../stores/air_to_ground/missiles/shrike.md)                                    |
+
+For further information see [Air-to-Ground weaponry.](../../stores/air_to_ground/overview.md)
 
 ## Weapon Selector Knob
 
@@ -154,8 +156,8 @@ air weapon firing unless a CAGE signal is active. ARM and TV positions do not
 affect tuning status of radar guided weapons. Positions are as follows:
 
 | Name        | Description                                                                                   |
-|-------------|-----------------------------------------------------------------------------------------------|
-| AGM-12      | Not used.                                                                                     |
+| ----------- | --------------------------------------------------------------------------------------------- |
+| AGM-12      | [AGM-12 Bullpup](../../stores/air_to_ground/missiles/bullpup.md)                              |
 | BOMBS       | Bombs (all types).                                                                            |
 | RKTS & DISP | Rockets and dispensers.                                                                       |
 | ARM         | Anti-Radiation Missile ([AGM-45 Shrike](../../stores/air_to_ground/missiles/shrike.md)).      |
@@ -171,6 +173,9 @@ affect tuning status of radar guided weapons. Positions are as follows:
 Provides timed interval release scheduling of single or multiple bombs or
 rockets and dispensed munitions based on the selections made between the
 interval knob, the QTY (quantity) knob and the INTRVL switch.
+
+For further information
+see [Aircraft Weapons release unit (AWRU).](../../systems/weapon_systems/awru.md)
 
 ### Interval Knob
 
@@ -208,20 +213,23 @@ Lastly, the "S" setting, for salvo, releases bombs in accordance to the chosen
 interval from all selected stations simultaneously, until the bomb button is
 released. Ergo, if four stations are selected with a 2 second interval (0.2 on
 the interval dial, X10 INTRVL switch setting), four bombs will be released every
-two seconds the pickle button is held down.
+two seconds the bomb button is held down.
 
 ## Missile Status Lights
 
 ![MSL](../../img/pilot_missile_status_light.jpg)
 
 The Missile Status Light window provides confirmation of currently installed and
-configured air-to-air missiles.
+configured [air-to-air missiles](../../stores/air_to_air/overview.md).
 
 ### Radar Lights
 
 The RDR lights illuminate once AIM-7 missiles are properly tuned with the fire
 control system; any station that does not carry a Sparrow, does not correctly
 sync up during tuning, or is launched, will turn off.
+
+The left pair of lights indicates stations 4 and 3 from top to bottom,
+while the right pair links to stations 6 and 7 respectively.
 
 ### Heat Lights
 
@@ -232,6 +240,9 @@ the weapon is either cycled using the throttle's Gun/Missile Switch reject
 option, or is launched. The HEAT light arrangement corresponds with the
 [launch sequence](../../stores/air_to_air/aim_9.md#launch-sequence) of
 the [AIM-9](../../stores/air_to_air/aim_9.md).
+
+The left pair of lights represent station 2L and 2R respectively,
+while the right pair is linked to stations 8L and 8R.
 
 ## Radar Missile Power Switch
 
@@ -282,13 +293,13 @@ stores on a position by position basis.
 The pilot selects the desired position by rotating the knob and then presses
 the button on its front to jettison the selected stores.
 
-| Name     | Description                                                                                                                             |
-| -------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| OFF      | Safes PUSH TO JETT button on the Selective Jettison Control Panel.                                                                      |
-| STORES   | Releases all MER/TER, single carried, LAU-88 mounted rounds, or drop tanks currently selected on the station buttons upon PUSH TO JETT. |
-| L/R FWD  | Jettisons AIM-7 from respective position on PUSH TO JETT. Inhibited if CL TK ON.                                                        |
-| L/R AFT  | Jettisons AIM-7 from respective position on PUSH TO JETT.                                                                               |
-| L/R WING | In conjunction with TV or ARM, jettisons single AGM-65 Maverick or AGM-45 Shrike from wing on PUSH TO JETT.                             |
+| Name     | Description                                                                                                                                                                                                     |
+|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| OFF      | Safes PUSH TO JETT button on the Selective Jettison Control Panel.                                                                                                                                              |
+| STORES   | Releases all MER/TER, single carried, LAU-88 mounted rounds, or drop tanks currently selected on the station buttons upon PUSH TO JETT.                                                                         |
+| L/R FWD  | Jettisons [AIM-7](../../stores/air_to_air/aim_7.md) from respective position on PUSH TO JETT. Inhibited if CL TK ON.                                                                                            |
+| L/R AFT  | Jettisons [AIM-7](../../stores/air_to_air/aim_7.md) from respective position on PUSH TO JETT.                                                                                                                   |
+| L/R WING | In conjunction with TV or ARM, jettisons single [AGM-65 Maverick](../../stores/air_to_ground/missiles/maverick.md) or [AGM-45 Shrike](../../stores/air_to_ground/missiles/shrike.md) from wing on PUSH TO JETT. |
 
 As example, to jettison the right and left external fuel tanks, the pilot must
 select _STORES_ on the knob, press the corresponding station select buttons _LO_, _RO_
@@ -301,6 +312,5 @@ and then push the jettison button.
 This dimmable lamp is lit to indicate operation of the
 [Airborne-Video-Tape-Recorder (AVTR)](../../cockpit/wso/left_sub_panel.md#avtr-control).
 
-The [AVTR](../../cockpit/wso/left_sub_panel.md#avtr-control) system is controlled by the WSO and
-records the intercom sound, as well
+The AVTR system is controlled by the WSO and records the intercom sound, as well
 as the rear radar screen.
