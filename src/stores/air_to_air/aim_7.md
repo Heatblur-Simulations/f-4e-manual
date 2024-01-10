@@ -107,7 +107,7 @@ the second actuation.
 
 ## Launch Sequence
 
-![ext_launch_sequence_radar](../../img/ext_launch_seq_radar.jpg)
+![ext_launch_sequence_radar](../../img/ext_launch_seq_radar.jpg) (todo fix - jnelson)
 
 The launch sequence for the AIM-7 missile is
 
@@ -132,6 +132,23 @@ Phantom:
 | Variant | Description                                                                                                                                                                                                                                                                                                                                                                                                     |
 |---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | E       | The AIM-7E Sparrow was an early version of the Sparrow missile, entering service in the 1960s. t featured semi-active radar homing guidance, relying on radar illumination from the launching aircraft for target tracking.                                                                                                                                                                                     |
-| E-2     | The AIM-7E2 was an improved version of the AIM-7E, featuring enhancements to its guidance system and overall performance. It retained semi-active radar homing but included improvements to increase its effectiveness in combat.                                                                                                                                                                               |
+| E-2     | The AIM-7E2 dogfight sparrow was an improved version of the AIM-7E, featuring terminal guidance gains providing improved dogfight performance.                                                                                                                                                                    |
 | F       | The AIM-7F, an upgraded variant, introduced improvements in the missile's guidance system and reliability. It featured enhanced seeker technology and improved signal processing capabilities, enhancing its ability to engage targets at longer ranges.                                                                                                                                                        |
 | M       | The AIM-7M Sparrow represented a significant advancement in Sparrow missile technology and became a widely used variant. It incorporated a more advanced guidance system, including a monopulse radar seeker, which improved tracking accuracy and resistance to electronic countermeasures. The AIM-7M had a longer range compared to its predecessors, making it a versatile medium-range air-to-air missile. |
+
+
+| Type  | Description |
+|-------|-------------|
+|AIM-7E | The AIM-7E Sparrow was an early version of the Sparrow missile, entering service in the 1960s.|
+|AIM-7E2| Changes were made to address problems with the sparrow in dogfights. The terminal gains |
+
+
+
+Below is a very basic comparitive summary of each sparrow's performance in some general areas.
+
+| Type  | Seeker | Range | Dogfight | Countermeasure Resist / Clutter Rejection |
+|-------|--------|-------|----------|-----------------------|
+|AIM-7E |poor    |fair   |no        |poor                   |
+|AIM-7E2|poor    |poor   |yes       |poor                   |
+|AIM-7F |fair    |good   |yes       |fair                   |
+|AIM-7M |good    |good   |yes       |good                   |
