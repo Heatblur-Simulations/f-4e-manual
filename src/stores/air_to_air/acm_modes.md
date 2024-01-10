@@ -17,7 +17,8 @@ Radar Boresight Line using the Cage Button, found on the inboard (right)
 throttle handle. Cage mode commands the radar into BST mode with a five-mile
 range, and short pulse, and sets the firing circuit for the currently selected
 air-to-air weapon relative to the Pinky Switch. For
-the optical sight, the command activates the respective elevation and azimuth tracking, roll mark, and
+the optical sight, the command activates the respective elevation and azimuth tracking, roll mark,
+and
 range functions of the reticle for the chosen weapon, without the pilot having
 to remove a hand from throttle or stick to swap the sight mode or weapon control
 panel functions.
@@ -44,7 +45,7 @@ Once in Cage mode, the radar can be selected in to Computer Automatic
 Acquisition using
 the [Nose Gear Steering button](../../systems/flight_controls_gear/gear_ground_handling.md#nose-gear-steering).
 In CAA, the radar enters a
-vertical-oriented scan pattern 78 degrees in height by 15 degrees high. Actual
+vertical-oriented scan pattern 78 degrees in height by 15 degrees in width. Actual
 radar lock capability within this scan pattern is from +45 degrees above the
 horizon line to -9 degrees below the horizon line due to APQ software
 limitation. In the event that the radar finds a suitable target within the scan
