@@ -117,6 +117,37 @@ conditions are anticipated, use higher than computed
 takeoff speed to provide additional lateral control after
 lift-off.
 
+## After Takeoff
+
+When the aircraft is definitely airborne:
+
+Retract the gear. Check that the landing gear position indicators
+display the word UP, and that the landing gear
+handle warning light is out.
+
+> 🚨 The landing gear and gear doors should be
+> completely up and locked before the gear limit
+> airspeed of 250 knots is reached, otherwise,
+> excessive air loads may damage the landing gear
+> mechanism and prevent subsequent operation.
+
+Set slats and flaps to NORM.
+Check that slat flap indicators display IN and UP.
+Rudder jumps may occur during flap retraction
+with a lateral stick input. If an audible
+(noticeable in head phones) chattering associated
+with slat flap and utility hydraulic pressure
+indicator fluctuating in unison occurs during
+slats flaps retraction, maintain airspeed below
+250 knots and cycle slats flaps. If slat chatter
+occurs during maneuvering at altitude, it may
+require opposite slats positioning from where
+chatter occurs. If chatter persists, extend slats
+flaps and land as soon as practical. If cycling (slats
+repositioning) eliminates chatter, continue
+mission and make an appropriate entry in AF
+Form 781.
+
 ## Climb
 
 A simplified climb can be made by maintaining a 10° to 12°
@@ -130,6 +161,10 @@ to 12° nose high attitude until reaching 350 knots and then
 vary pitch as necessary to maintain 350 knots until
 reaching Mach 0.9. Vary the pitch attitude as necessary to
 maintain Mach 0.9 until reaching cruise altitude.
+
+> 💡 During the climb, it may be necessary to place the
+> antenna selector switch to the LWR position to
+> maintain ground communication.
 
 ## Rig Check
 
