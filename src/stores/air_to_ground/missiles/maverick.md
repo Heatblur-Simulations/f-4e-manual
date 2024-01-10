@@ -20,7 +20,7 @@ member can direct the final intended contrast target.
 Available variants include:
 
 | Variant | Description                          |
-| ------- |--------------------------------------|
+|---------|--------------------------------------|
 | A       | TV-Guided                            |
 | B       | TV-Guided with a narrower FOV than A |
 | D       | IR-Guided                            |
@@ -40,6 +40,11 @@ Failure to permit this gyro cycle can potentially damage the guidance unit of
 the missiles aboard. During this warmup period, it is necessary to set the
 optical sight to A/G mode, and enter a depression of 45 mils, so that the sight
 alignment be that of the missile seeker.
+
+| Maverick unlocked                                        | Maverick locked on Target                              | Maverick zoomed in locked on Target                   |
+|----------------------------------------------------------|--------------------------------------------------------|-------------------------------------------------------|
+| ![maverick_unlocked](../../../img/maverick_unlocked.jpg) | ![maverick_locked](../../../img/maverick_lock.jpg) | ![maverick_lock_zoom](../../../img/maverick_lock_zoom.jpg) |
+
 
 Once the warmup has completed, the crew may activate their displays for viewing
 seeker video; the pilot selects the TV position on the Scope Display Select

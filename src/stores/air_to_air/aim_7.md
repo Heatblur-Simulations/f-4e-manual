@@ -42,6 +42,8 @@ diameter circle (outer) functions as a range bar when a radar lock is achieved
 against a target, displaying ranges up to 20,000' (top) to 3000' (bottom), with
 12,000' signified at the 3 o-clock position.
 
+![range_bar_radar_guided_missile](../../img/radar_missile_lock.jpg)
+
 When radar lock against a target is achieved with AIM-7 selected, a pair of
 strobes surround the locked target in azimuth. Identified as Rmax and Rmax 2,
 they represent effective ranges against a 1 G target (Rmax), and a high rate
@@ -52,6 +54,8 @@ lock; this functions as a missile flyout timer. When the timer reaches the
 locked target, it can be assumed the missile has arrived. The display does not
 provide Rmin, but instead reverts to a break X warning superimposed over the
 radar image should Rmin be attained for a Sparrow launch.
+
+![radar_screen_radar_missile_lock](../../img/radar_screen_radar_missile_lock.jpg)
 
 Prior to engagement, a determination must be made as to whether or not the
 missile [interlocks](../../cockpit/pilot/weapon_management.md#interlock-switch)
