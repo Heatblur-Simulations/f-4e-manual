@@ -451,15 +451,18 @@ simply fly over the RIP, with the WSO pressing the Freeze and Target Insert
 buttons simultaneously, just like a VIP attack.</p>
 <p><img src="../../../img/offsetrip.jpg" alt="Offset Radar IP" /></p>
 <h2 id="target-find---tgt-find"><a class="header" href="#target-find---tgt-find">Target Find - TGT FIND</a></h2>
-<p>Target Find is a utility mode derived from Offset; it does not provide a
+<p>Target Find was originally just a utility mode derived from Offset; it does not provide a
 standard release signal to the fire control and <a href="../../../systems/weapon_systems/awru.html">AWRU</a> to
 initiate bomb drop. It is instead used to confirm target location without release, for training
 purposes, or, if necessary, perform an <a href="../../../systems/nav_com/ins.html">INS</a> system update.</p>
-<blockquote>
-<p>💡 With Pave Spike installed, Target Find <strong>can</strong> initiate a weapon release,
-and so Master Arm should be kept in the OFF position until positive target
-confirmation is achieved.</p>
-</blockquote>
+<p>However, with the <a href="../../../systems/weapon_systems/pave_spike/overview.html">Pave Spike</a>
+targeting pod installed, Target Find will instead signal
+to the WRCS to use the target defined by the pods line of sight for a Dive Toss delivery,
+instead of defining the target by radar lock.</p>
+<p>In this case, the Pave Spike is placed on the target (activate the laser for a more
+accurate slant range) and the bomb button is pressed and hold down. Similar to a regular
+Dive Toss delivery, steering cues appear on the HUD.
+The system will automatically release the bombs when the parameters for the ballistic solution are met.</p>
 <h3 id="target-find-ins-update"><a class="header" href="#target-find-ins-update">Target Find INS Update</a></h3>
 <p><a href="../../../systems/nav_com/ins.html">INS</a> update is performed using offsets again a convenient VIP or
 RIP, with the target location being where the INS update occurs.
