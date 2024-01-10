@@ -315,14 +315,20 @@ buttons simultaneously, just like a VIP attack.
 
 ## Target Find - TGT FIND
 
-Target Find is a utility mode derived from Offset; it does not provide a
+Target Find was originally just a utility mode derived from Offset; it does not provide a
 standard release signal to the fire control and [AWRU](../../../systems/weapon_systems/awru.md) to
 initiate bomb drop. It is instead used to confirm target location without release, for training
 purposes, or, if necessary, perform an [INS](../../../systems/nav_com/ins.md) system update.
 
-> 💡 With Pave Spike installed, Target Find **can** initiate a weapon release,
-> and so Master Arm should be kept in the OFF position until positive target
-> confirmation is achieved.
+However, with the [Pave Spike](../../../systems/weapon_systems/pave_spike/overview.md)
+targeting pod installed, Target Find will instead signal
+to the WRCS to use the target defined by the pods line of sight for a Dive Toss delivery,
+instead of defining the target by radar lock.
+
+In this case, the Pave Spike is placed on the target (activate the laser for a more
+accurate slant range) and the bomb button is pressed and hold down. Similar to a regular
+Dive Toss delivery, steering cues appear on the HUD.
+The system will automatically release the bombs when the parameters for the ballistic solution are met.
 
 ### Target Find INS Update
 
