@@ -277,7 +277,148 @@ the lower circuit breaker powers all indicator and warning lights.</p>
 <p><img src="../img/electrics_cb_panel_7.jpg" alt="WSO CB Panel 7" /></p>
 <p>Next to the right rudder pedal in WSO cockpit.</p>
 <p>Hidden behind a cover, this panel houses all breakers for the ECM and Jamming equipment.</p>
-
+<h2 id="failures-and-emergency-power-distribution"><a class="header" href="#failures-and-emergency-power-distribution">Failures and Emergency Power Distribution</a></h2>
+<p>In the event of damage to the Airplane and loss of either the left and/or right generator, as well
+as the Main 28 Volt DC Bus there are several different systems that are inoperative for the
+respective bus.</p>
+<h3 id="left-hand-generator-out---bus-tie-open"><a class="header" href="#left-hand-generator-out---bus-tie-open">Left Hand Generator Out - Bus Tie Open</a></h3>
+<p>If the left-hand generator stops working the following systems won't work:</p>
+<div class="table-wrapper"><table><thead><tr><th><em><strong>Critical Systems</strong></em></th><th><em><strong>Non-Critical Systems</strong></em></th></tr></thead><tbody>
+<tr><td>- Anti-Ice System</td><td>- AN/ARW 77 (Used to fire AGM-12 Bullpup)</td></tr>
+<tr><td>- Anti-Skid System</td><td>- Anti-Collision Light (one filament)</td></tr>
+<tr><td>- Afterburner Ignition</td><td>- DSCG</td></tr>
+<tr><td>- INS Heater</td><td>- ECM Pods</td></tr>
+<tr><td>- Landing light</td><td>- Equipment cooling (e.g. Pave Spike)</td></tr>
+<tr><td></td><td>- Fuselage lights</td></tr>
+<tr><td></td><td>- Front Cockpit console lights</td></tr>
+<tr><td></td><td>- Front Cockpit red instrument floodlights (DIM)</td></tr>
+<tr><td></td><td>- Lead Computing Optical Sight</td></tr>
+<tr><td></td><td>- Left-hand 28V Transformer</td></tr>
+<tr><td></td><td>- Left-hand fuel boost pump</td></tr>
+<tr><td></td><td>- Left-hand missile firing</td></tr>
+<tr><td></td><td>- Left-hand missile power</td></tr>
+<tr><td></td><td>- Left-hand transformer rectifier</td></tr>
+<tr><td></td><td>- No. 4 Electrical fuel transfer pump</td></tr>
+<tr><td></td><td>- Nose gun</td></tr>
+<tr><td></td><td>- Radar</td></tr>
+<tr><td></td><td>- Radar Scope Camera</td></tr>
+<tr><td></td><td>- Red console floodlights</td></tr>
+<tr><td></td><td>- Right-hand missile power</td></tr>
+<tr><td></td><td>- Seat adjust</td></tr>
+<tr><td></td><td>- AGM-45 Shrike guidance</td></tr>
+<tr><td></td><td>- Target designator (Pave Spike)</td></tr>
+<tr><td></td><td>- Utility light</td></tr>
+<tr><td></td><td>- Utility Power AC</td></tr>
+<tr><td></td><td>- Wing and Tail light DIM</td></tr>
+<tr><td></td><td>- WRCS Power</td></tr>
+</tbody></table>
+</div>
+<h3 id="right-hand-generator-out---bus-tie-open"><a class="header" href="#right-hand-generator-out---bus-tie-open">Right Hand Generator Out - Bus Tie Open</a></h3>
+<p>If the right-hand generator stops working the following systems do not work:</p>
+<div class="table-wrapper"><table><thead><tr><th><em><strong>Critical Systems</strong></em></th><th><em><strong>Non-Critical Systems</strong></em></th></tr></thead><tbody>
+<tr><td>- Airspeed Pitot Heater</td><td>- ADF</td></tr>
+<tr><td>- AOA Probe Heater</td><td>- Aileron feel trim</td></tr>
+<tr><td>- Bellmouth Pitot Heater</td><td>- Aileron rudder interconnect</td></tr>
+<tr><td>- Cockpit heat and venting</td><td>- ALR-46 Radar Warning System</td></tr>
+<tr><td>- Fuel quantity indicator</td><td>- Altitude Encoder</td></tr>
+<tr><td>- IFF</td><td>- Anti-Collision light (one filament)</td></tr>
+<tr><td>- Rear cockpit ci heading pointer</td><td>- APR-36/37 Radar Receiver</td></tr>
+<tr><td>- TACAN</td><td>- APX 80 Air-to-Air IFF</td></tr>
+<tr><td>- VOR: Bearing Pointers</td><td>- Armament power</td></tr>
+<tr><td></td><td>- Autopilot</td></tr>
+<tr><td></td><td>- Auxiliary receiver</td></tr>
+<tr><td></td><td>- CADC</td></tr>
+<tr><td></td><td>- ECM Pods</td></tr>
+<tr><td></td><td>- Formation lights</td></tr>
+<tr><td></td><td>- Front cockpit instrument lights</td></tr>
+<tr><td></td><td>- Gunsight Camera</td></tr>
+<tr><td></td><td>- In-Flight-Refuel (IFR) receptacle floodlights</td></tr>
+<tr><td></td><td>- Left Engine ramp control</td></tr>
+<tr><td></td><td>- No.6 Electric fuel transfer pump</td></tr>
+<tr><td></td><td>- Oxygen Gage</td></tr>
+<tr><td></td><td>- Radar altimeter</td></tr>
+<tr><td></td><td>- Right Engine ramp control</td></tr>
+<tr><td></td><td>- Right-hand 28V transformer</td></tr>
+<tr><td></td><td>- Right-hand fuel boost pump</td></tr>
+<tr><td></td><td>- Right-hand transformer rectifier</td></tr>
+<tr><td></td><td>- Stability augmentation</td></tr>
+<tr><td></td><td>- Taxi light</td></tr>
+<tr><td></td><td>- Windshield temp sensing</td></tr>
+<tr><td></td><td>- Wing and Tail Light BRT</td></tr>
+</tbody></table>
+</div>
+<h3 id="main-28-volt-dc-bus-out"><a class="header" href="#main-28-volt-dc-bus-out">Main 28 Volt DC Bus Out</a></h3>
+<p>If the Main 28 Volt DC Bus stops working the following systems do not work:</p>
+<div class="table-wrapper"><table><thead><tr><th><em><strong>Critical Systems</strong></em></th><th><em><strong>Non-Critical Systems</strong></em></th></tr></thead><tbody>
+<tr><td>- Anti-Skid</td><td>- ACM IN-RANGE and SHOOT lights</td></tr>
+<tr><td>- Bus Tie Relay (BUS TIE OPEN light ON)</td><td>- ADF</td></tr>
+<tr><td>- Cockpit heat and venting</td><td>- Aileron Rudder Interconnect</td></tr>
+<tr><td>- Internal wing fuel dump</td><td>- Airborne Video Tape Recorder (AVTR)</td></tr>
+<tr><td>- Landing and Taxi lights</td><td>- ALE-40 Countermeasure Dispenser</td></tr>
+<tr><td>- Nose Wheel Steering</td><td>- Altimeter Vibrator</td></tr>
+<tr><td>- TACAN</td><td>- APR-36/37 Radar Receiver</td></tr>
+<tr><td>- Turn &amp; Slip Indicator (Rear Cockpit)</td><td>- APX 80 A/A IFF</td></tr>
+<tr><td></td><td>- Arresting Hook (only the up operation)</td></tr>
+<tr><td></td><td>- AUX Air doors</td></tr>
+<tr><td></td><td>- AUX receiver</td></tr>
+<tr><td></td><td>- Conventional Weapons Release</td></tr>
+<tr><td></td><td>- Combat Documentation Cameras</td></tr>
+<tr><td></td><td>- DSCG</td></tr>
+<tr><td></td><td>- ECM Control</td></tr>
+<tr><td></td><td>- ECM Pods</td></tr>
+<tr><td></td><td>- Engine Variable Bellmouth</td></tr>
+<tr><td></td><td>- Equipment cooling control</td></tr>
+<tr><td></td><td>- Fuselage, Anti-Collision and Tail lights</td></tr>
+<tr><td></td><td>- Gunsight Camera</td></tr>
+<tr><td></td><td>- Lead Computing Optical Sight</td></tr>
+<tr><td></td><td>- Left-hand fuel boost pump</td></tr>
+<tr><td></td><td>- Missile firing</td></tr>
+<tr><td></td><td>- No.4 Electrical fuel transfer pump</td></tr>
+<tr><td></td><td>- No.6 Electrical fuel transfer pump</td></tr>
+<tr><td></td><td>- Nose Gun</td></tr>
+<tr><td></td><td>- Pneumatic compressor</td></tr>
+<tr><td></td><td>- Radar</td></tr>
+<tr><td></td><td>- Radar Altimeter</td></tr>
+<tr><td></td><td>- Rain Removal</td></tr>
+<tr><td></td><td>- Radar Scope Camera</td></tr>
+<tr><td></td><td>- Right-hand Fuel boost pump</td></tr>
+<tr><td></td><td>- Rudder Trim/Bellmouth control</td></tr>
+<tr><td></td><td>- Speed brake</td></tr>
+<tr><td></td><td>- Special Weapons Centerline Interlock Arm</td></tr>
+<tr><td></td><td>- Station select and Station select lights</td></tr>
+<tr><td></td><td>- Stabilator Position indicator</td></tr>
+<tr><td></td><td>- Target Designator (Pave Spike)</td></tr>
+<tr><td></td><td>- Utility power</td></tr>
+<tr><td></td><td>- VGH Recorder Power</td></tr>
+<tr><td></td><td>- Walleye indent power</td></tr>
+<tr><td></td><td>- Warning lights (DIM)</td></tr>
+<tr><td></td><td>- WRCS Power</td></tr>
+</tbody></table>
+</div>
+<h3 id="battery-power-only"><a class="header" href="#battery-power-only">Battery Power Only</a></h3>
+<p>If only Battery Power is available the following systems will still work:</p>
+<div class="table-wrapper"><table><thead><tr><th><em><strong>Critical Systems</strong></em></th><th><em><strong>Non-Critical Systems</strong></em></th></tr></thead><tbody>
+<tr><td>- AOA Indicator</td><td>- All Stores EMER jettison</td></tr>
+<tr><td>- EGT Indicators</td><td>- AOA Aural Tone Generator</td></tr>
+<tr><td>- Ejection Light</td><td>- Fuel Control</td></tr>
+<tr><td>- EMER Attitude Indicator</td><td>- Fuel Valve Power</td></tr>
+<tr><td>- Engine Fire and Overheat Detection (Test Functions)</td><td>- Front Cockpit Instrument Floodlights (BRT)</td></tr>
+<tr><td>- External Wing Fuel transfer (Control)</td><td>- Guard Receiver</td></tr>
+<tr><td>- Flaps/Slats control</td><td>- KY-28</td></tr>
+<tr><td>- Flaps/Slats Position Indicator</td><td>- Missile Fairing</td></tr>
+<tr><td>- Fuel Quantity Indicator</td><td>- Missile Jettison</td></tr>
+<tr><td>- In-Flight-Refueling</td><td>- Nozzle Position Indicator</td></tr>
+<tr><td>- ILS: CDI, Glide Slope Indicators, Audio, Marker Beacon</td><td>- Outboard Station jettison</td></tr>
+<tr><td>- Intercom</td><td>- Special Weapons Centerline Interlock Safe</td></tr>
+<tr><td>- Internal Wing Fuel transfer (Control)</td><td>- Special Weapons Unlock</td></tr>
+<tr><td>- Landing Gear Control</td><td>- Trim Control</td></tr>
+<tr><td>- Landing Gear Position Indicator</td><td></td></tr>
+<tr><td>- Left and Right Main Ignition</td><td></td></tr>
+<tr><td>- Stabilator Feel Trim</td><td></td></tr>
+<tr><td>- VOR: CDI, TO-From and Audio</td><td></td></tr>
+<tr><td>- White Flood light</td><td></td></tr>
+</tbody></table>
+</div>
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
