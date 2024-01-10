@@ -497,13 +497,32 @@ As of now, most of them are <em>WIP</em>.</p>
 <h2 id="interactions"><a class="header" href="#interactions">Interactions</a></h2>
 <p>One key aspect of Jester is that he can interact with the cockpit by clicking
 switches, buttons and turning knobs.</p>
-<p>Thefore, the API offers methods such as <code>Click</code> and <code>ClickKnob</code> based on device
-and command IDs:</p>
+<p>Therefore, the API offers two approaches.</p>
+<h3 id="component-interactions"><a class="header" href="#component-interactions">Component Interactions</a></h3>
+<p>The preferred way to interact with the cockpit is via the component system.</p>
+<p>To allow interaction, a manipulator has to be registered at <code>F_4E_WSO_Cockpit.lua</code>:</p>
+<pre><code class="language-lua">-- ChaffMode: OFF, SGL, MULT, PROG
+self:AddManipulator(
+  &quot;Chaff Mode&quot;,
+  {component_path = &quot;/WSO Cockpit/WSO Left Console/AN_ALE-40 CCU/Chaff Mode Knob&quot;}
+)
+</code></pre>
+<p>After that, it can easily be interacted with, for example:</p>
+<pre><code class="language-lua">Click(&quot;Chaff Mode&quot;, &quot;MULT&quot;)
+</code></pre>
+<p>or reading its current value:</p>
+<pre><code class="language-lua">local cockpit = GetJester():GetCockpit()
+local chaff_mode = cockpit:GetManipulator(&quot;Chaff Mode&quot;):GetState()
+</code></pre>
+<h3 id="raw-interactions"><a class="header" href="#raw-interactions">Raw Interactions</a></h3>
+<p>If the desired switch does not support the component interface yet,
+one can instead fall back on a raw interface that invokes DCS commands directly,
+as if the player would have triggered a bind manually.</p>
 <pre><code class="language-lua">-- sends value 1 via command WSO_EJECT_INSTANT to device EJECTION_SEAT_SYSTEM
-Click(devices.EJECTION_SEAT_SYSTEM, device_commands.WSO_EJECT_INSTANT, 1)
+ClickRaw(devices.EJECTION_SEAT_SYSTEM, device_commands.WSO_EJECT_INSTANT, 1)
 
 -- sends the value corresponding to position 2 on a 7-position knob
-ClickKnob(devices.HUD_AN_ASG_26, device_commands.HUD_SelectHUDMode, 2, 7)
+ClickRawKnob(devices.HUD_AN_ASG_26, device_commands.HUD_SelectHUDMode, 2, 7)
 </code></pre>
 <p>See <code>devices.lua</code> for all available devices and likewise <code>command_defs.lua</code> for
 the commands.</p>
@@ -516,7 +535,7 @@ more about a specific switch and how it reacts to values.</p>
 <p>Next to clicking switches, Jester can react to events send either from C++ or
 also from within Lua. The system follows a simple observer/listener pattern:</p>
 <pre><code class="language-lua">ListenTo(&quot;go_silent&quot;, function()
-  Click(devices.RADAR, device_commands.RADAR_Power_Knob_RIO, 3, 5) -- Standby
+  Click(&quot;Radar Power&quot;, &quot;STBY&quot;)
 end)
 </code></pre>
 <p>with:</p>
