@@ -27,10 +27,8 @@ consumption for Engine start is approximately 65 pounds per Engine.
 
 ![OilPress](../../img/OilPress.jpg)
 
-Oil pressure indicators are on the front
-cockpit pedestal panel, and are graduated from 0 to 10, and are presented in 10 lb increments.
-Normal values are 15 psi while
-the engines are running.
+Oil pressure indicators are on the front cockpit pedestal panel, and are graduated from 0 to 10, and
+are presented in 10 lb increments. Normal values are 15 psi while the engines are running.
 
 ## Variable Duct Ramp
 
