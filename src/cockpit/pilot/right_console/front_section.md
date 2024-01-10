@@ -204,7 +204,6 @@ current altitude. Which, if flying at high altitudes, can result in hypoxia.
 Should only be used if the pressurization system is malfunctioning and reads
 abnormal values, or to eliminate smoke and fumes from the cockpit. Descend to safe altitudes before
 activating.
-q
 
 ## Defog/Foot Heat Lever
 
