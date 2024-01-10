@@ -91,7 +91,7 @@ Once the seat has reached a pre-set barometric altitude between 11,500 and
 release the crew-member with the survival kit-containing seat pan from the
 ejection frame and deploys the main chute. In the event of ejection below the
 barostat altitude, the WSO chute is fully deployed at 5 seconds after ejection
-initiation, and the pilot one second later.
+initiation, and the pilot one-second later.
 
 ### Eject Light
 
@@ -100,7 +100,7 @@ initiation, and the pilot one second later.
 In the event of loss of intercom power, the pilot can warn the WSO to prepare
 for ejection by pressing the EJECT switch found on the left canopy sill forward
 of the flap switch. This illuminates a pair of warning lamps found on the rear
-cockpit indicator panel. This can also be done by the Pilot to warn the WSO of an ejection.
+cockpit indicator panel.
 
 ![pilot_eject_light](../img/pilot_eject_light.jpg)
 

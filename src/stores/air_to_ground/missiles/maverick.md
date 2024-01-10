@@ -45,7 +45,6 @@ alignment be that of the missile seeker.
 |----------------------------------------------------------|--------------------------------------------------------|-------------------------------------------------------|
 | ![maverick_unlocked](../../../img/maverick_unlocked.jpg) | ![maverick_locked](../../../img/maverick_lock.jpg) | ![maverick_lock_zoom](../../../img/maverick_lock_zoom.jpg) |
 
-
 Once the warmup has completed, the crew may activate their displays for viewing
 seeker video; the pilot selects the TV position on the Scope Display Select
 switch on the Pedestal panel, and the WSO places the radar display mode knob to

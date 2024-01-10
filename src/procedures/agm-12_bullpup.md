@@ -12,5 +12,3 @@
 | 5    | PIPPER POSITION         | OVER TARGET                            |
 | 6    | BOMB BUTTON             | PRESS AND HOLD                         |
 | 7    | AFTER LAUNCH OF MISSILE | GUIDE TO TARGET WITH HAND SLEW CONTROL |
-
-
