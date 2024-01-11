@@ -13,16 +13,23 @@ and are pressurized any time the engines are running.
 Ailerons, spoilers, and the stabilator have two hydraulic actuators.
 The PC systems are the primary hydraulic delivery to the flight control systems,
 with PC-1 powering the left side of the aircraft, and PC-2
-powering the right; these actuate one of the two actuators on each flight
-control surface.
+powering the right; these supply pressure to one of the two actuators on each flight control surface.
+PC-1 is using left engine pump and PC-2 is using right engine pump.
 
+The Utility Hydraulic System is pressurized by a hydraulic pump on each engine. To prevent the
+utility hydraulic pumps from resonating, check valves
+with different operating pressures are installed on the
+pump output lines. As a result, the right engine utility
+hydraulic pump will deliver 2775 +225 psi at idle rpm,
+and the left engine utility hydraulic pump will deliver
+approximately 3000 ±250 psi at idle rpm.
 The Utility System supplies hydraulic
-pressure to all aircraft systems except the stabilator actuator.
-It drives the second actuator on the flight
-control surfaces, acting as both a power assist and backup.
+pressure to all aircraft systems (which need hydraulic pressure) except the stabilator actuator.
+It drives the second actuator on every flight
+control surface, acting as both a power assist and backup.
 
-One exclusion to this is the stabilator - one actuator
-is powered through PC-1 and the second one by PC-2.
+The only hydraulic device not connected to the utility system is the stabilator.
+One actuator is powered through PC-1 and the second one by PC-2.
 Additionally on aircraft after *TO 1F-4-903*,
 an Stabilator Auxiliary Power Unit (APU)
 is installed to provide backup hydraulic pressure for
