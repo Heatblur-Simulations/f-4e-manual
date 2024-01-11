@@ -248,17 +248,16 @@ while the right pair is linked to stations 8L and 8R.
 
 ![Radar Missile Power Switch](../../img/RMPS.jpg)
 
-The Radar Missile Power Switch provides power to the CW tuning drive and
-monitoring functionality.
+The Radar Missile Power Switch provides power to the kylstron continuous wave (CW) emitter responsible guidance signals. This also powers the sparrow tuning drive which is responsible for tuning the sparrows to the correct continuous wave carrier frequency for guidance.
 
 When switched out of the OFF position, power is applied to the circuit 30
 seconds after this selection.
 
-The STBY position maintains warmup power to the missiles and CW tuning drive
-once the missiles have been tuned.
+The STBY position maintains warmup power to the missiles and continuous wave tuning drive
+once the missiles have been tuned. This keeps the Sparrows and Tuning Drive warm, but the sparrows not tuned.
 
 The CW ON position allows for constant tuning and missile state monitoring with
-the radar mode not in TV.
+the radar mode not in TV. This also causes the radar klystron to begin continuous wave emission.
 
 Tuning can be performed on the ground with the radar in TEST mode to preclude
 emissions endangering ground crew.
@@ -267,8 +266,8 @@ emissions endangering ground crew.
 
 ![Centerline Tank Aboard Light](../../img/pilot_centerline_tank_aboard.jpg)
 
-Illuminates when a stores condition exists that precludes ejection and launch of
-an AIM-7 missile installed in one of the two forward positions.
+Illuminates when a stores condition exists that precludes ejection or launch of
+an AIM-7 missile installed in one of the two forward positions. To use the sparrows on these stations the centerline store must be first jettisoned.
 
 ## Interlock Switch
 
