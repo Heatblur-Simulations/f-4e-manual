@@ -1,17 +1,41 @@
 # Hydraulics
 
-The hydraulic power system of the F-4E consists of three closed hydraulic
-systems: Power Control System 1 (PC-1), Power Control System 2 (PC-2), and the
-Utility System. Each aileron, spoiler, and stabilators have two hydraulic
-actuators. The PC systems are the primary hydraulic delivery to the flight control systems, with
-PC-1 powering the left side of the aircraft, and PC-2
+The hydraulic power system of the F-4E consists of three, completely
+independent, closed hydraulic systems:
+
+* Power Control System 1 (PC-1)
+* Power Control System 2 (PC-2)
+* Utility System
+
+The systems have an operating pressure of approximately 3000 psi
+and are pressurized any time the engines are running.
+
+Ailerons, spoilers, and the stabilator have two hydraulic actuators.
+The PC systems are the primary hydraulic delivery to the flight control systems,
+with PC-1 powering the left side of the aircraft, and PC-2
 powering the right; these actuate one of the two actuators on each flight
-control surface. The Utility System drives the second actuator on the flight
-control surfaces, acting as both a power assist and backup. Control is retained
-in the event of a failure of one PC or the Utility System. One exclusion to this
-is the stabilators - rather than using the Utility System as the secondary power,
-an APU unit in the tail provides the additional and backup power for the
-stabilators should PC system PSI to the stabilator actuators fall below 1000.
+control surface.
+
+The Utility System supplies hydraulic
+pressure to all aircraft systems except the stabilator actuator.
+It drives the second actuator on the flight
+control surfaces, acting as both a power assist and backup.
+
+One exclusion to this is the stabilator - one actuator
+is powered through PC-1 and the second one by PC-2.
+Additionally on aircraft after *TO 1F-4-903*,
+an Stabilator Auxiliary Power Unit (APU)
+is installed to provide backup hydraulic pressure for
+longitudinal control. An electrically driven hydraulic
+pump pressurizes the APU system to 1700 ±100 psi. The
+APU supplies pressure to the PC-1 side of the stabilator
+if PC-1 pressure drops below 1000 psi.
+
+> 💡 The PC-1, PC-2, and utility hydraulic systems
+> are independent of each other; therefore, each
+> aileron and spoiler has two independent sources
+> of hydraulic pressure and one system functions as
+> a backup for the other.
 
 ![manual_hydraulics_diagram](../img/manual_hydraulics_diagram.jpg)
 
@@ -19,10 +43,11 @@ stabilators should PC system PSI to the stabilator actuators fall below 1000.
 
 ![HydPress](../img/HydPress.jpg)
 
-On the [pedestal panel](../cockpit/pilot/pedestal_group.md) in the front cockpit is a pair of PSI
-indicators, one for the PC systems and the other for the Utility system. The PC system gauge has two
+On the [pedestal panel](../cockpit/pilot/pedestal_group.md) in the front cockpit is a pair of
+[Hydraulic Pressure Indicators](../cockpit/pilot/pedestal_group.md#hydraulic-pressure-indicators).
+One for the PC systems and the other for the Utility system. The PC system gauge has two
 pointers, labeled PC-1 and PC-2. Nominal operating power for all three systems
-is 3000 PSI ±250 PSI.
+is 3000  ±250 PSI.
 
 ## Hydraulic Systems Indicator Lights
 

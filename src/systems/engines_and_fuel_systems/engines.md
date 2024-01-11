@@ -27,8 +27,13 @@ consumption for Engine start is approximately 65 pounds per Engine.
 
 ![OilPress](../../img/OilPress.jpg)
 
-Oil pressure indicators are on the front cockpit pedestal panel, and are graduated from 0 to 10, and
-are presented in 10 lb increments. Normal values are 15 psi while the engines are running.
+Oil pressure indicators are on the front cockpit pedestal panel, and calibrated from 0 to 100 PSI.
+Important values are:
+
+* 12 psi - Minimum at idle RPM
+* 30-60 psi - In-flight military
+* 35 psi - Static minimum at military thrust
+* 60 psi - Maximum
 
 ## Variable Duct Ramp
 
@@ -45,27 +50,36 @@ cause permanent engine damage.
 
 ![ext_cart](../../img/ext_ground_cart.jpg)
 
-The normal mode for starting the Phantom utilizes an auxiliary start cart that
-turns the starter turbine, cranking the engine over.
+The pneumatic mode is the primary starting mode for all
+normal and routine operations.
+In this mode the Phantom utilizes an auxiliary start cart that
+turns the starter turbine, cranking the engine.
 
-The cart is operated by the ground chief, see the
-[Ground chief chapter](../../crew_chief/overview.md)
-for more information about how to interact with them and request air.
+The cart is operated by the crew chief, see the
+[Crew Chief chapter](../../crew_chief/overview.md)
+for more information about how to interact and request air supply.
 
 ### Cartridge Mode Starting
 
 ![f_4_cartridge_start](../../img/f_4_cartridge_start.jpg)
 
-Cartridge mode is supplied for operational and emergency needs. A propellant
-charge is used to turn the starter turbine, which in turn cranks the engine over
-to initiate startup.
+Cartridge mode is considered an alternate method of
+starting supplied for operational and emergency needs. A propellant
+charge is used to turn the starter turbine, which in turn cranks the engine
+to initiate startup. Cartridge ignition is controlled by the engine start switch
+providing the respective engine master switch is on.
 
-Cartridges can be installed by the ground chief, see the
-[Ground chief chapter](../../crew_chief/overview.md)
-for how to interact with them and request cartridges.
+> 💡 To avoid possible irritation caused by cartridge exhaust smoke/gases,
+> it may be advisable to close canopies and select 100% oxygen during start cycle.
 
-> ⚠️ Cartridges are explosive and, unless used, must not be
+Cartridges can be installed by the crew chief, see the
+[Crew Chief chapter](../../crew_chief/overview.md)
+for how to interact and request cartridges installation.
+
+> ⚠️ Cartridges are explosive and, unless fired, must not be
 > forgotten to be removed.
+> Under no circumstances will the aircraft be flown
+> with unfired cartridges in the starter.
 
 ### Start Switch
 
