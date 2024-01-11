@@ -9,8 +9,10 @@
   --scrollbar: #9ca0b0;
   --icons: #9ca0b0;
   --icons-hover: #8c8fa1;
-  --links: #2e2e2e;
+  --links: #3091d1;
   --inline-code-color: #fe640b;
+  --code-color: #000000;
+  --code-bg-color: #f6f7f6;
   --theme-popup-bg: #e6e9ef;
   --theme-popup-border: #9ca0b0;
   --theme-hover: #9ca0b0;
@@ -29,11 +31,13 @@
   --search-mark-bg: #fe640b;
   --warning-border: #fe640b;
   --mobile-nav-bg: rgb(243, 246, 246);
+  --mobile-nav-bg-active: rgb(228, 228, 228);
   --mobile-nav-border: rgba(0, 0, 0, 0.1);
+  --mobile-nav-shadow: rgba(255, 255, 255, 0.5);
   --menu-affix: rgb(113, 110, 123);
   --menu-active: rgb(218, 218, 219);
   --menu-text-hover: white;
-  --menu-main-chapter-hover: rgb(78, 74, 74);
+  --menu-main-chapter-hover: rgb(95, 91, 91);
   --menu-inner-chapter-hover: rgb(177, 176, 176);
   --menu-text-active: black;
   --menu-main-chapter-active: rgb(252, 252, 252);
@@ -56,10 +60,6 @@
   color: var(--menu-active);
 }
 
-.hb_light .chapter li a:hover {
-  color: var(--menu-text-hover);
-}
-
 .hb_light .chapter li.chapter-item:hover {
   background-color: var(--menu-main-chapter-hover);
 }
@@ -70,6 +70,10 @@
 
 .hb_light .chapter li a.active {
   color: var(--menu-text-active);
+}
+
+.hb_light .chapter li a:hover {
+  color: var(--menu-text-hover);
 }
 
 .hb_light .chapter .chapter-item.expanded {

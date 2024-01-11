@@ -30,6 +30,8 @@ the DVST and front seat repeater display would show. With DSCG, the pilot could 
 air to ground weapons while the WSO maintained a scan pattern or found a ground reference point and
 inserted it into the WRCS.
 
+![radar_screen](../img/radar_screen.jpg)
+
 ## Radar set Control Panel
 
 ![wso_radar_control_panel](../img/wso_radar_set_control_panel.jpg)
@@ -60,8 +62,12 @@ indicated as air intercept (AI), which provide lock-on capability against airbor
 manually followed with the radar until they are at a range capable of a lock. Air to ground
 functionality is available in the PPI modes higher than 5 miles.
 
+![radar_screen_range](../img/radar_screen_range.jpg)
+
 Selecting any range will illuminate the respective indicator lamp, as well as display the numerical
 value on the DSCG display in the upper left.
+
+![pilot_dscg_range_lights](../img/pilot_dscg_range_lights.jpg)
 
 ### Polarization Control
 
@@ -411,7 +417,7 @@ full-action. Once the ASE circle is shown, full-action can be released.
 
 ### BEACON Position (todo - suggest not including in manual)
 
-![manual_beacon_mode](../img/manual_radar_beacon_mode.jpg#)
+![manual_beacon_mode](../img/manual_radar_beacon_mode.jpg)
 
 BEACON may be used with any Display Knob position other than VI, as desired.
 

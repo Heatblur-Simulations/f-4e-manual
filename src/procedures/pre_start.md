@@ -1,5 +1,7 @@
 # Interior Inspection and Pre-Start
 
+> 🚧 This section is under construction.
+
 ## WSO
 
 | Step | System                          | Action     |

@@ -23,6 +23,8 @@ right side as previously described, with 20,000' indicated at the top, and
 display a pair of strobes signifying Rmax and Rmin for the Sidewinder against
 the target under current launch conditions.
 
+![radar_screen_heat_missile_lock](../../img/radar_screen_heat_missile_lock.jpg)
+
 >💡 The AIM-9 does not receive a guidance handoff from
 > the APQ-120 like on later aircraft to direct the seeker's look angle. Instead,
 > the ASE circle presents the aim dot against the target to bring it to the RBL.
