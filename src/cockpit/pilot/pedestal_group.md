@@ -61,7 +61,7 @@ due to pressure transmitter and pressure gage tolerances.
 
 Other important values are:
 
-* 2650-3300 - Caution area
+* 3300-3500 - Caution area
 * 3500 - Maximum
 
 For further information see [Pneumatics chapter](../../systems/pneumatics.md).
