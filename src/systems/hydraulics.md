@@ -26,10 +26,9 @@ approximately 3000 ±250 psi at idle rpm.
 The Utility System supplies hydraulic
 pressure to all aircraft systems (which need hydraulic pressure) except the stabilator actuator.
 It drives the second actuator on every flight
-control surface, acting as both a power assist and backup.
+control surface (except stabilator), acting as both a power assist and backup.
 
-The only hydraulic device not connected to the utility system is the stabilator.
-One actuator is powered through PC-1 and the second one by PC-2.
+The first stabilator actuator is powered through PC-1 and the second one by PC-2.
 Additionally on aircraft after *TO 1F-4-903*,
 an Stabilator Auxiliary Power Unit (APU)
 is installed to provide backup hydraulic pressure for
