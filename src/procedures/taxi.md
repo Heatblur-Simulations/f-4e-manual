@@ -19,7 +19,7 @@
 | **8.**  | **Slats & Flaps**                     | **NORM**                    |
 | 9.      | ARI Disengage                         | CHECK🔧                    |
 | 10.     | STAB AUG Switches                     | ENGAGE AND CHECK🔧         |
-| **11.** | **Reference Sel Switch (if INS NAV)** | **PRIM**                    |
+| **11.** | **Reference Sys Select**              | **PRIM (if INS in NAV)**    |
 | **12.** | **Compass Mode Control Knob**         | **SYNC**                    |
 | 13.     | AFCS                                  | CHECK (if required)         |
 | 14.     | STAB AUG Switches                     | DISENGAGE                   |
@@ -43,8 +43,8 @@
 | **3.** | **Target Designator** | **POWER ON & STOWED** |
 | 4.     | Radar BIT Checks      | INITIATE              |
 | 5.     | WRCS BIT Checks       | INITIATE              |
-| 6.     | NAV Comp Mode         | AS DESIRED            |
-| **7.** | **Altimeter**         | **SET, RESET & CHECK**|
+| 6.     | NAV Computer Mode     | AS DESIRED            |
+| **7.** | **Altimeter & SPC**   | **SET & CHECK**       |
 
 ## Taxiing
 
