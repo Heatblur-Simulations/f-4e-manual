@@ -36,9 +36,9 @@ weather conditions, field facilities, ambient lighting,
 aircraft gross weight, and command guidance.
 
 **Land as soon as practical** - Emergency conditions are less
-urgent, and although the mission is. to be terminated, the
+urgent, and although the mission is to be terminated, the
 degree of the emergency is such that an immediate
-landing at .the nearest adequate airfield may not be
+landing at the nearest adequate airfield may not be
 necessary.
 
 The following basic rules apply to all aircraft emergencies
