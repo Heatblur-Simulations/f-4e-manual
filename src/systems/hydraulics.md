@@ -54,7 +54,7 @@ On the [pedestal panel](../cockpit/pilot/pedestal_group.md) in the front cockpit
 [Hydraulic Pressure Indicators](../cockpit/pilot/pedestal_group.md#hydraulic-pressure-indicators).
 One for the PC systems and the other for the Utility system. The PC system gauge has two
 pointers, labeled PC-1 and PC-2. Nominal operating power for all three systems
-is 3000  ±250 PSI.
+is 3000 ±250 PSI.
 
 ## Hydraulic Systems Indicator Lights
 
