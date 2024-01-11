@@ -18,7 +18,9 @@ maximum position indicators to 1 G.
 ![OilPress](../../img/OilPress.jpg)
 
 A pair of engine oil pressure indicators are provided, one for each engine,
-calibrated from 0 to 100 PSI. Important values are:
+calibrated from 0 to 100 PSI. Engine oil is used for lubrication, variable
+nozzle positioning, and constant speed drive unit
+operation. Important values are:
 
 * 12 PSI - Minimum at idle RPM
 * 30-60 PSI - In-flight military
