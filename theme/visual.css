@@ -12,6 +12,7 @@
   border: 1px solid var(--mobile-nav-border);
   box-shadow: 0px 1px 2px -1px var(--mobile-nav-shadow) inset,
     0px -2px 0px 0px var(--mobile-nav-border) inset;
+  text-decoration: none !important;
 }
 
 .mobile-nav-chapters:hover {
@@ -148,4 +149,11 @@ ol.section ol {
 .hljs {
   background-color: var(--code-bg-color);
   color: var(--code-color);
+}
+
+.nav-chapters-text {
+  font-size: 0.5em;
+  vertical-align: middle;
+  margin: 0 7px;
+  padding-bottom: 5px;
 }
