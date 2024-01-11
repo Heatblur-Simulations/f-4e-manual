@@ -503,7 +503,7 @@ Lastly, the LIN and CIR selectors confirm proper linear and circular pulse perfo
 register a value of 1 for a transmission of vertical or clockwise-rotating polarity energy. That is,
 they do not return a value in CIR pulse (counter-clockwise) mode.
 
-## APQ-120 Built-In Test Knob
+## APQ-120 Built-In Test Knob (todo - not implemented)
 
 Confirmation of proper system performance is performed using the various options on the Control
 Monitor Panel; specific test modes are defined using the Test Knob, and each is described here:
