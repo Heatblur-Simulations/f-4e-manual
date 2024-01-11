@@ -28,11 +28,11 @@ whereas the inner knob selects numbers to the right.
 
 ![dcs_map_vor_ils](../../img/dcs_map_vor_ils.jpg)
 
-To find the desired VOR/ILS frequency of your target simply click on the Airfield that you want to
-fly to and a window in the lower left corner should open. Under VOR you find the VOR Frequency and
-under ILS the ILS Frequency.
+In DCS, to find the desired VOR/ILS frequency of your target, go on the Map and
+click an airfield that you want to fly to. If available,
+VOR and ILS frequencies will be listed.
 
-> 💡 Not every Airfield has VOR or ILS systems.
+> 💡 Not every airfield has a VOR station or an ILS systems.
 
 ### VOR/MKR Test Pushbutton
 
