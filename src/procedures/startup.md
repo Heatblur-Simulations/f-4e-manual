@@ -44,8 +44,7 @@
 
 | Step   | System                  | Action         |
 |--------|-------------------------|----------------|
-| 1.     | Instrument Ground Power | ACTUATE        |
-| 2.     | Navigation Computer     | SET            |
+| 1.     | Navigation Computer     | SET            |
 |        | **a. NAV Comp Mode**    | **STBY**       |
 |        | b. Wind Counters        | SET            |
 |        | c. Variation Counter    | SET            |
@@ -55,7 +54,7 @@
 |        | g. NAV Comp Mode        | RESET          |
 |        | h. NAV Comp Mode        | STBY           |
 |        | i. Target Counters      | SET FOR TGT 1  |
-| **3.** | **INS Alignment**       | **AS DESIRED** |
+| **2.** | **INS Alignment**       | **AS DESIRED** |
 
 ### INS Full Gyrocompass Alignment (WSO)
 

@@ -6,14 +6,10 @@ Accurate course navigation is provided by
 the Flight Director Group, which includes the Flight Director Computer (1), the Horizontal Situation
 Indicator (HSI) (2) along with the Navigation Function Selector Panel (3), the Attitude Director
 Indicator (ADI) (4), in the front cockpit, and the
-Bearing Distance Heading Indicator (BDHI) together with the Navigation Mode Selector Switch
+Bearing Distance Heading Indicator (BDHI) (5) together with the Navigation Mode Selector Switch (6)
 in the rear cockpit.
 
-![wso_nav_mode_selector](../../img/wso_nav_mode_selector_switch.jpg) _Navigation mode selector in
-the WSO Pit_
-
-![wso_bdhi](../../img/wso_bearing_distance_heading_indicator.jpg) _Bearing Distance Heading
-Indicator in the WSO Pit_
+![wso_nav_mode_selector](../../img/wso_flight_director_group.jpg)
 
 ## Navigation Function Selector Panel
 

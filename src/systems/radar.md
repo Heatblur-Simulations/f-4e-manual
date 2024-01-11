@@ -781,9 +781,12 @@ compensation.
 
 ## Digital Scan Converter Group
 
+![Pilot System Overview](../img/eotgt_pilot_overview.jpg)
+![WSO System Overview](../img/eotgt_wso_overview.jpg)
+
 The Digital Scan Converter Group (DSCG) provides an integrated display system of the F-4E's radar
 and electro-optical systems. The system is composed of the front and rear seat scopes, and is driven
-by the Indicator Control Unit- which performs conversion of radar and video signals, along with the
+by the Indicator Control Unit - which performs conversion of radar and video signals, along with the
 application of information and fire control cueing symbology.
 
 Because the ICU is a signal interpreter, and thus the DSCG panel the output of its work, the
@@ -869,6 +872,10 @@ initiates manual angle tracking of the intended target.
 The interaction of half- and full-action for
 the [AGM-65 Maverick](../stores/air_to_ground/missiles/maverick.md) is detailed in the section on
 AGM employment.
+
+The interaction of half- and full-action for
+the [Pave Spike Targeting Pod](weapon_systems/pave_spike/overview.md) is detailed on the controls
+section.
 
 ## Range VISIDENT Indicator
 
