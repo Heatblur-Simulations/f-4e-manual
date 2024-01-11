@@ -1,6 +1,6 @@
 # Procedures
 
-This Chapter contains every necessary procedure to start, fly and fight in the F-4E Phantom II.
+This chapter contains standard procedures for operating the F-4E Phantom II.
 
 The aircrew procedures through the
 [Before Taxi](taxi.md#before-taxi)
@@ -21,6 +21,7 @@ only.
 Here is an explanation of the designations used:
 
 * Entries marked **bold** are necessary to be performed.
-* The 🔧 icon indicates that the given step involves or may involve
+* The 🔧 icon indicates that the given step involves or may
+  involve [crew chief](../crew_chief/overview.md) interaction.
 
 ![real_life_crew_with_manual](../img/real_life_crew_with_manual.jpg)
