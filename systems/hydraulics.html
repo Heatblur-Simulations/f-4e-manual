@@ -186,25 +186,54 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="hydraulics"><a class="header" href="#hydraulics">Hydraulics</a></h1>
-<p>The hydraulic power system of the F-4E consists of three closed hydraulic
-systems: Power Control System 1 (PC-1), Power Control System 2 (PC-2), and the
-Utility System. Each aileron, spoiler, and stabilators have two hydraulic
-actuators. The PC systems are the primary hydraulic delivery to the flight control systems, with
-PC-1 powering the left side of the aircraft, and PC-2
-powering the right; these actuate one of the two actuators on each flight
-control surface. The Utility System drives the second actuator on the flight
-control surfaces, acting as both a power assist and backup. Control is retained
-in the event of a failure of one PC or the Utility System. One exclusion to this
-is the stabilators - rather than using the Utility System as the secondary power,
-an APU unit in the tail provides the additional and backup power for the
-stabilators should PC system PSI to the stabilator actuators fall below 1000.</p>
+<p>The hydraulic power system of the F-4E consists of three, completely
+independent, closed hydraulic systems:</p>
+<ul>
+<li>Power Control System 1 (PC-1)</li>
+<li>Power Control System 2 (PC-2)</li>
+<li>Utility System</li>
+</ul>
+<p>The systems have an operating pressure of approximately 3000 psi
+and are pressurized any time the engines are running.</p>
+<p>Ailerons, spoilers, and the stabilator have two hydraulic actuators.
+The PC systems are the primary hydraulic delivery to the flight control systems,
+with PC-1 powering the left side of the aircraft, and PC-2
+powering the right; these supply pressure to one of the two actuators on each flight control surface.
+PC-1 is using left engine pump and PC-2 is using right engine pump.</p>
+<p>The Utility Hydraulic System is pressurized by a hydraulic pump on each engine. To prevent the
+utility hydraulic pumps from resonating, check valves
+with different operating pressures are installed on the
+pump output lines. As a result, the right engine utility
+hydraulic pump will deliver 2775 +225 psi at idle rpm,
+and the left engine utility hydraulic pump will deliver
+approximately 3000 ±250 psi at idle rpm.
+The Utility System supplies hydraulic
+pressure to all aircraft systems (which need hydraulic pressure) except the stabilator actuator.
+It drives the second actuator on every flight
+control surface (except stabilator), acting as both a power assist and backup.</p>
+<p>The first stabilator actuator is powered through PC-1 and the second one by PC-2.
+Additionally on aircraft after <em>TO 1F-4-903</em>,
+an Stabilator Auxiliary Power Unit (APU)
+is installed to provide backup hydraulic pressure for
+longitudinal control. An electrically driven hydraulic
+pump pressurizes the APU system to 1700 ±100 psi. The
+APU supplies pressure to the PC-1 side of the stabilator
+if PC-1 pressure drops below 1000 psi.</p>
+<blockquote>
+<p>💡 The PC-1, PC-2, and utility hydraulic systems
+are independent of each other; therefore, each
+aileron and spoiler has two independent sources
+of hydraulic pressure and one system functions as
+a backup for the other.</p>
+</blockquote>
 <p><img src="../img/manual_hydraulics_diagram.jpg" alt="manual_hydraulics_diagram" /></p>
 <h2 id="hydraulic-pressure-indicators"><a class="header" href="#hydraulic-pressure-indicators">Hydraulic Pressure Indicators</a></h2>
 <p><img src="../img/HydPress.jpg" alt="HydPress" /></p>
-<p>On the <a href="../cockpit/pilot/pedestal_group.html">pedestal panel</a> in the front cockpit is a pair of PSI
-indicators, one for the PC systems and the other for the Utility system. The PC system gauge has two
+<p>On the <a href="../cockpit/pilot/pedestal_group.html">pedestal panel</a> in the front cockpit is a pair of
+<a href="../cockpit/pilot/pedestal_group.html#hydraulic-pressure-indicators">Hydraulic Pressure Indicators</a>.
+One for the PC systems and the other for the Utility system. The PC system gauge has two
 pointers, labeled PC-1 and PC-2. Nominal operating power for all three systems
-is 3000 PSI ±250 PSI.</p>
+is 3000 ±250 PSI.</p>
 <h2 id="hydraulic-systems-indicator-lights"><a class="header" href="#hydraulic-systems-indicator-lights">Hydraulic Systems Indicator Lights</a></h2>
 <p><img src="../img/pilot_hydraulic_systems_indicator_lights.jpg" alt="pilot_hydraulic_system_lights" /></p>
 <p>In the event of a pressure loss on PC-1 or PC-2 or the Utility system below 1500 PSI, or a detected
