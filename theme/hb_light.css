@@ -1,7 +1,7 @@
 .hb_light {
   --bg: #ffffff;
-  --fg: #4c4f69;
-  --sidebar-bg: rgb(52, 49, 49);
+  --fg: #404040;
+  --sidebar-bg: #343131;
   --sidebar-fg: rgb(217, 217, 217);
   --sidebar-non-existant: #9ca0b0;
   --sidebar-active: #1e66f5;
@@ -39,7 +39,7 @@
   --menu-text-hover: white;
   --menu-main-chapter-hover: rgb(95, 91, 91);
   --menu-inner-chapter-hover: rgb(177, 176, 176);
-  --menu-text-active: black;
+  --menu-text-active: #404040;
   --menu-main-chapter-active: rgb(252, 252, 252);
   --menu-inner-chapter-active: rgb(115, 109, 109);
   --menu-inner-chapter-active-text: #404040;
