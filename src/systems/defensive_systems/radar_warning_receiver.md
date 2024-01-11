@@ -2,8 +2,6 @@
 
 ![rwr_happy_face](../../img/rwr_happy_face.jpg)
 
-## Introduction
-
 The ALR-46 Radar Warning Receiver (subsequently RWR) is the F-4E's passive situational awareness
 system for detection of airborne and surface-to-air radar threats. The system captures signals from
 a pair of directional antennas installed at the aft of the fuselage; the difference in relative
@@ -28,6 +26,10 @@ event is signified by a circle around the emitter symbol.
 ## ALR-46 Controls
 
 ![pilot_rwr_control_panel](../../img/wso_an_apr_36.jpg)
+
+Controls are duplicated for pilot and WSO. The pilot controls are
+directly below the RWR Indicator, while the controls for the WSO are found
+below the Central Indicator in the front of the view.
 
 ### RWR Display Intensity Knob
 

@@ -48,8 +48,9 @@ cause permanent engine damage.
 The normal mode for starting the Phantom utilizes an auxiliary start cart that
 turns the starter turbine, cranking the engine over.
 
-See the [Ground chief chapter](../../crew_chief/overview.md) for more information about ground crew
-interaction.
+The cart is operated by the ground chief, see the
+[Ground chief chapter](../../crew_chief/overview.md)
+for more information about how to interact with them and request air.
 
 ### Cartridge Mode Starting
 
@@ -59,14 +60,18 @@ Cartridge mode is supplied for operational and emergency needs. A propellant
 charge is used to turn the starter turbine, which in turn cranks the engine over
 to initiate startup.
 
-See the [Ground chief chapter](../../crew_chief/overview.md) for more information about ground crew
-interaction.
+Cartridges can be installed by the ground chief, see the
+[Ground chief chapter](../../crew_chief/overview.md)
+for how to interact with them and request cartridges.
+
+> ⚠️ Cartridges are explosive and, unless used, must not be
+> forgotten to be removed.
 
 ### Start Switch
 
 ![StartSwitch](../../img/pilot_start_switch.jpg)
 
-Used only for cartridge start, selecting L or R ignites the cartridge set for
+Used only for cartridge start, selecting L or R ignites the cartridge installed for
 the respective engine.
 
 ### Ignition System
