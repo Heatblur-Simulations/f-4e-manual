@@ -137,7 +137,7 @@ Phantom:
 | Type  | Description |
 |-------|-------------|
 |AIM-7E | The E Sparrow was an early version of the Sparrow missile, entering service in the 1960s, which uses proportional navigation and Semi Active Radar Homing to guide. |
-|AIM-7E2| Changes were made to address problems with the sparrow in dogfights. The guidance system allows the E2 to make full use of it's control surfaces after arming compared to the gradual unlock of the E. |
+|AIM-7E2| Changes were made to improve the performance in close range dogfight situations, at the expense of energy retention in longer ranged engagements. Fuzing time is also reduced allowing for proper fuzing in close engagements. |
 |AIM-7F | The F Sparrow was upgraded to be solid state, have a higher performance two stage motor (boost and sustainer) and have improved electronics including the ability to coast targets through the main lobe clutter and altitude lines. These changes also make the seeker able to detect targets from further range and with increased countermeasure resitance and track using both continuous wave and pulse doppler guidance signals unlike the E,E2 and E3 which can only guide on continuous wave.
 |AIM-7M | The M was the first inverse monopulse sparrow providing increased tracking precision, it also has improved motor performance and electronics, including improved clutter and countermeasure rejection. The M like all sparrows can also guide using continuous wave, at a degraded tracking precision.
 
