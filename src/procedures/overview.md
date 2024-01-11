@@ -21,7 +21,7 @@ only.
 Here is an explanation of the designations used:
 
 * Entries marked **bold** are necessary to be performed.
-* The 🔧 icon indicates that the given step involves or may
-  involve [crew chief](../crew_chief/overview.md) interaction.
+* The 🔧 icon indicates that the given step involves or may involve
+* [crew chief](../crew_chief/overview.md) interaction.
 
 ![real_life_crew_with_manual](../img/real_life_crew_with_manual.jpg)
