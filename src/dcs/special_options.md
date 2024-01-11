@@ -11,14 +11,20 @@ menu in DCS.
 
 Dropdown to select the behavior of the push to talk bind for the radio.
 
-| Option          | Close Menu | Menu must be open | Talk over SRS |
-| --------------- | ---------- | ----------------- | ------------- |
-| Default         | ❌         | ❌                | ✅            |
-| Open Menu       | ❌         | ✅                | ✅            |
-| Hide on Release | ✅         | ❌                | ✅            |
-| No Export       | ❌         | ❌                | ❌            |
+| Option          | Close Menu | Menu must be open | Export Voice |
+| --------------- | ---------- | ----------------- | ------------ |
+| Default         | ❌         | ❌                | ✅           |
+| Open Menu       | ❌         | ✅                | ✅           |
+| Hide on Release | ✅         | ❌                | ✅           |
+| No Export       | ❌         | ❌                | ❌           |
 
+The columns have the following effects:
 
+- Close Menu - when releasing the key, the DCS communication menu is
+  automatically closed
+- Menu must be open - the key only works when the DCS communication menu is
+  currently open
+- Export Voice - when pressed down, voice is exported to tools like SRS
 
 ## Stick Deflection Limit
 
