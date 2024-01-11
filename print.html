@@ -1539,26 +1539,32 @@ decrease audio between cockpits on the <a href="cockpit/pilot/left_console/../..
 <p>The panel features 6 knobs to
 control <a href="cockpit/pilot/left_console/../../../systems/defensive_systems/countermeasures.html#anale-40-programmer">chaff and flare programs</a>,
 as well as two lamps and a switch to activate flares on its base.</p>
+<p>Chaffs can be programmed to be released in Salvos and Bursts.
+A Salvo consists of multiple bursts, while a burst will release multiple chaffs.</p>
 <h3 id="chaff-burst"><a class="header" href="#chaff-burst">Chaff Burst</a></h3>
-<p>The count knob selects the number of chaff burst (quantity of chaffs) commands per salvo;
+<p>The <strong>count knob</strong> selects the quantity of chaffs released per burst;
 values of 1, 2, 3, 4, 6, or 8 from left to right.</p>
-<p>The interval knob selects the time interval of .1, .2, .3, or .4 seconds
-between each chaff burst command.</p>
+<p>The <strong>interval knob</strong> selects the time interval of .1, .2, .3, or .4 seconds
+between each chaff released in that burst.</p>
 <h3 id="chaff-salvo"><a class="header" href="#chaff-salvo">Chaff Salvo</a></h3>
-<p>The count knob selects the number of salvos (quantity of bursts) per dispense command,
+<p>The <strong>count knob</strong> selects how many bursts the salvo consists of,
 values of 1, 2, 4, 8, or C (Continuous).</p>
-<p>Continous will dispense till the dispensers are empty.</p>
-<p>The interval knob selects time interval between each salvo.
+<p>In the Continuous setting,
+the program is repeated as long as the dispense button is held down.</p>
+<p>The <strong>interval knob</strong> selects the time interval between each burst.
 Values of 1, 2, 3, 4, 5, 8, or a R (Random) number of seconds.</p>
 <h3 id="flare-burst"><a class="header" href="#flare-burst">Flare Burst</a></h3>
-<p>The count knob selects the quantity of flare burst (quantity of flares) commands per salvo.
+<p>The <strong>count knob</strong> selects the quantity of flares released per burst.
 Values of 1, 2, 4, 8, or C (Continuous).</p>
-<p>Continous will dispense till the dispensers are empty.</p>
-<p>The interval knob selects time interval between each burst.
+<p>Continuous will repeat the program as long as the dispense button is held down.</p>
+<p>The <strong>interval knob</strong> selects time interval between each flare released.
 Values of 3, 4, 6, 8, 10 number of seconds.</p>
 <h3 id="flares-select-switch"><a class="header" href="#flares-select-switch">Flares Select Switch</a></h3>
-<p>Selects the time interval between each burst command. Values of 3, 4, 6, 8, or
-10 seconds.</p>
+<p>Controls which countermeasure will be released when the pilot presses the Dispense Button.</p>
+<p>In the NORMAL setting, countermeasure are released according to what the WSO setup
+on their panel.</p>
+<p>FLARES allows the pilot to activate the flares regardless of WSO selection.
+This can for example be used to react quickly to a threat.</p>
 <h3 id="flares-indicator-light"><a class="header" href="#flares-indicator-light">Flares Indicator Light</a></h3>
 <p>Illuminates when the <a href="cockpit/pilot/left_console/../../../systems/defensive_systems/countermeasures.html#flares-select-switch"><em>Flares
 Select</em></a> switch is in
@@ -1952,13 +1958,16 @@ activating.</p>
 <h2 id="defogfoot-heat-lever"><a class="header" href="#defogfoot-heat-lever">Defog/Foot Heat Lever</a></h2>
 <p><img src="cockpit/pilot/right_console/../../../img/Defog.jpg" alt="Defog" /></p>
 <p>Provides pilot selectable volume of warm air to the windshield for de-icing purposes or footwell
-recesses for comfort or visibility. It is possible, through selection of cold temperature settings,
+recesses for comfort or visibility.</p>
+<p>It is possible, through selection of cold temperature settings,
 particularly on humid days, for the air conditioning system to deliver air at temperatures well
-below the dewpoint, with resultant cockpit fogging. This fog can be dissipated by selecting a
-slightly warmer temperature. When operating in high humidity conditions, it is recommended that a
+below the dew-point, with resultant cockpit fogging. This fog can be dissipated by selecting a
+slightly warmer temperature.</p>
+<p>When operating in high humidity conditions, it is recommended that a
 warmer than normal temperature be selected, prior to starting the takeoff run, to preclude the
 possibility of cockpit fogging as thrust is increased. Should cockpit fogging occur, the quickest
-means of eliminating this condition is by activating the emergency vent knob. During cruise
+means of eliminating this condition is by activating the emergency vent knob.</p>
+<p>During cruise
 operations, prior to letdown, place the temperature control knob in the 2 o’clock position and the
 Defog/Foot Heat Lever to defog, to increase the defog temperature for windshield and canopy
 preheating. For airplanes without slats, if the flaps are lowered for letdown and fogging persists,
@@ -3972,6 +3981,10 @@ alignment of the chord line of the airplane with the oncoming air or relative wi
 <p>The Angle of Attack Indicator dials register AoA values from 0 to 30 units, with
 indications for weight-relative optimum altitude cruise (7.9 units), approach
 (19.2 units), and stall (30 units).</p>
+<p>AoA units do not directly translate to degrees, one unit of AoA is
+the same as roughly 0.95 degrees and the measured AoA is also offset
+by about 4 degrees. This way, the indicator displays a more natural and useful
+value to the crew.</p>
 <blockquote>
 <p>💡 Extension of the landing gear and thus the nose
 gear door changes the airflow around the probe causing to indicate higher
@@ -4173,18 +4186,24 @@ cause permanent engine damage.</p>
 <p><img src="systems/engines_and_fuel_systems/../../img/ext_ground_cart.jpg" alt="ext_cart" /></p>
 <p>The normal mode for starting the Phantom utilizes an auxiliary start cart that
 turns the starter turbine, cranking the engine over.</p>
-<p>See the <a href="systems/engines_and_fuel_systems/../../crew_chief/overview.html">Ground chief chapter</a> for more information about ground crew
-interaction.</p>
+<p>The cart is operated by the ground chief, see the
+<a href="systems/engines_and_fuel_systems/../../crew_chief/overview.html">Ground chief chapter</a>
+for more information about how to interact with them and request air.</p>
 <h3 id="cartridge-mode-starting"><a class="header" href="#cartridge-mode-starting">Cartridge Mode Starting</a></h3>
 <p><img src="systems/engines_and_fuel_systems/../../img/f_4_cartridge_start.jpg" alt="f_4_cartridge_start" /></p>
 <p>Cartridge mode is supplied for operational and emergency needs. A propellant
 charge is used to turn the starter turbine, which in turn cranks the engine over
 to initiate startup.</p>
-<p>See the <a href="systems/engines_and_fuel_systems/../../crew_chief/overview.html">Ground chief chapter</a> for more information about ground crew
-interaction.</p>
+<p>Cartridges can be installed by the ground chief, see the
+<a href="systems/engines_and_fuel_systems/../../crew_chief/overview.html">Ground chief chapter</a>
+for how to interact with them and request cartridges.</p>
+<blockquote>
+<p>⚠️ Cartridges are explosive and, unless used, must not be
+forgotten to be removed.</p>
+</blockquote>
 <h3 id="start-switch"><a class="header" href="#start-switch">Start Switch</a></h3>
 <p><img src="systems/engines_and_fuel_systems/../../img/pilot_start_switch.jpg" alt="StartSwitch" /></p>
-<p>Used only for cartridge start, selecting L or R ignites the cartridge set for
+<p>Used only for cartridge start, selecting L or R ignites the cartridge installed for
 the respective engine.</p>
 <h3 id="ignition-system"><a class="header" href="#ignition-system">Ignition System</a></h3>
 <p><img src="systems/engines_and_fuel_systems/../../img/pilot_ignition_system.jpg" alt="IgnitionButtons" /></p>
@@ -4815,11 +4834,11 @@ VOL/MRK TEST pushbutton.</p>
 selects the number to the left of the decimal point on the frequency indicator,
 whereas the inner knob selects numbers to the right.</p>
 <p><img src="systems/nav_com/../../img/dcs_map_vor_ils.jpg" alt="dcs_map_vor_ils" /></p>
-<p>To find the desired VOR/ILS frequency of your target simply click on the Airfield that you want to
-fly to and a window in the lower left corner should open. Under VOR you find the VOR Frequency and
-under ILS the ILS Frequency.</p>
+<p>In DCS, to find the desired VOR/ILS frequency of your target, go on the Map and
+click an airfield that you want to fly to. If available,
+VOR and ILS frequencies will be listed.</p>
 <blockquote>
-<p>💡 Not every Airfield has VOR or ILS systems.</p>
+<p>💡 Not every airfield has a VOR station or an ILS systems.</p>
 </blockquote>
 <h3 id="vormkr-test-pushbutton"><a class="header" href="#vormkr-test-pushbutton">VOR/MKR Test Pushbutton</a></h3>
 <p>After an ILS frequency has been selected on the frequency indicator, pressing the VOR/MKR Test
@@ -7261,7 +7280,6 @@ They are installed immediately prior to use and are stored separately from the
 flare cartridges.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="radar-warning-receiver"><a class="header" href="#radar-warning-receiver">Radar warning receiver</a></h1>
 <p><img src="systems/defensive_systems/../../img/rwr_happy_face.jpg" alt="rwr_happy_face" /></p>
-<h2 id="introduction-1"><a class="header" href="#introduction-1">Introduction</a></h2>
 <p>The ALR-46 Radar Warning Receiver (subsequently RWR) is the F-4E's passive situational awareness
 system for detection of airborne and surface-to-air radar threats. The system captures signals from
 a pair of directional antennas installed at the aft of the fuselage; the difference in relative
@@ -7282,6 +7300,9 @@ threat emitter (concurrent with the illumination of the ACTIVITY and/or MISSILE 
 event is signified by a circle around the emitter symbol.</p>
 <h2 id="alr-46-controls"><a class="header" href="#alr-46-controls">ALR-46 Controls</a></h2>
 <p><img src="systems/defensive_systems/../../img/wso_an_apr_36.jpg" alt="pilot_rwr_control_panel" /></p>
+<p>Controls are duplicated for pilot and WSO. The pilot controls are
+directly below the RWR Indicator, while the controls for the WSO are found
+below the Central Indicator in the front of the view.</p>
 <h3 id="rwr-display-intensity-knob"><a class="header" href="#rwr-display-intensity-knob">RWR Display Intensity Knob</a></h3>
 <p>Found adjacent to the RWR situation display in the lower left corner of the panel, the Intensity
 Knob functions as a dimmer to control the brightness of the displayed RWR returns. Clockwise raises
@@ -8890,7 +8911,7 @@ Releasing <kbd>LCTRL</kbd> + <kbd>A</kbd> will confirm the selection under the c
 <div style="break-before: page; page-break-before: always;"></div><h1 id="crew-chief"><a class="header" href="#crew-chief">Crew Chief</a></h1>
 <p><img src="crew_chief/../img/crew_chief.jpg" alt="crew chief" /></p>
 <!-- https://nara.getarchive.net/media/ -->
-<h2 id="introduction-2"><a class="header" href="#introduction-2">Introduction</a></h2>
+<h2 id="introduction-1"><a class="header" href="#introduction-1">Introduction</a></h2>
 <p>Crew chief (often called &quot;Chief&quot;) is the main technician
 who is responsible for the assigned aircraft when it's on the ground.
 This important role involves not only keeping the aircraft in good shape
