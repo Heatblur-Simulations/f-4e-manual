@@ -119,6 +119,7 @@
   - [Landing](./procedures/landing/landing.md)
     - [Checklists](./procedures/landing/checklists.md)
   - [Shutdown](./procedures/shutdown.md)
+  - [Scramble](./procedures/scramble.md)
   - [AIM-7](./procedures/aim_7.md)
   - [AIM-9](./procedures/aim_9.md)
   - [Guns](./procedures/m61a1_nose_gun_and_suu_23.md)
