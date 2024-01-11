@@ -37,7 +37,7 @@ pump pressurizes the APU system to 1700 ±100 psi. The
 APU supplies pressure to the PC-1 side of the stabilator
 if PC-1 pressure drops below 1000 psi.
 
-> 💡 The PC-1, PC-2, and utility hydraulic systems
+> 💡 The PC-1, PC-2, and Utility hydraulic system
 > are independent of each other; therefore, each
 > aileron and spoiler has two independent sources
 > of hydraulic pressure and one system functions as

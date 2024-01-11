@@ -2,5 +2,6 @@
 MD013: # Line length
   line_length: 100
   tables: false
+MD028: false # no-blanks-blockquote
 MD033: # no-inline-html
   allowed_elements: ["iframe", "sup", "kbd"]

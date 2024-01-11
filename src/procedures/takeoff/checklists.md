@@ -12,7 +12,7 @@
 | 6.      | Anti-Ice               | AS REQUIRED               |
 | 7.      | STAB Trim              | CHECK 1-3 UNITS NOSE DOWN |
 | 8.      | Fuel Quantity          | CHECK                     |
-| **9.**  | **(P-WSO) Canopies**   | **CLOSE & CHECK** (WSO then Pilot) |
+| **9.**  | **(P-WSO) Canopies**   | **CLOSE & CHECK (WSO then Pilot)** |
 | 10.      | Warning Lights         | TEST                     |
 | 11.     | Defog & Temperature    | AS REQUIRED               |
 | 12.     | (WSO) Command Selector | AS BRIEFED                |
