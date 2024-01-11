@@ -10,8 +10,12 @@
 .mobile-nav-chapters {
   background-color: var(--mobile-nav-bg);
   border: 1px solid var(--mobile-nav-border);
-  box-shadow: 0px 1px 2px -1px rgba(255, 255, 255, 0.5) inset,
+  box-shadow: 0px 1px 2px -1px var(--mobile-nav-shadow) inset,
     0px -2px 0px 0px var(--mobile-nav-border) inset;
+}
+
+.mobile-nav-chapters:hover {
+  background-color: var(--mobile-nav-bg-active);
 }
 
 .sidebar {
@@ -41,6 +45,10 @@
   margin-left: 0px !important;
   max-width: var(--content-max-width) !important;
   padding: 5px !important;
+}
+
+html {
+  background-color: var(--content-page-bg);
 }
 
 body {
@@ -110,4 +118,34 @@ ol.section ol {
 .chapter li.chapter-item {
   line-height: 1.5em;
   margin-block-start: 0px;
+}
+
+.searchbar-outer, .searchresults-outer {
+  margin-left : min(5%, 3em);
+  margin-right : min(5%, 3em);
+}
+
+.nav-wide-wrapper {
+  max-width: var(--content-max-width);
+}
+
+.nav-wide-wrapper .previous, .nav-wide-wrapper .next {
+  margin-top: 34px;
+}
+
+.previous {
+  margin-left: 10px;
+}
+
+.next {
+  margin-right: 10px;
+}
+
+.nav-chapters {
+  display: none;
+}
+
+.hljs {
+  background-color: var(--code-bg-color);
+  color: var(--code-color);
 }

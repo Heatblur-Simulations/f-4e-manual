@@ -11,6 +11,8 @@
   --icons-hover: #b7b9cc;
   --links: #2b79a2;
   --inline-code-color: #c5c8c6;
+  --code-color: #c5c8c6;
+  --code-bg-color: #232529;
   --theme-popup-bg: #161923;
   --theme-popup-border: #737480;
   --theme-hover: #282e40;
@@ -28,6 +30,10 @@
   --searchresults-border-color: #5c5c68;
   --searchresults-li-bg: #242430;
   --search-mark-bg: #a2cff5;
+  --mobile-nav-bg: #282d3f;
+  --mobile-nav-bg-active: #373e55;
+  --mobile-nav-border: rgba(0, 0, 0, 0.1);
+  --mobile-nav-shadow: rgba(0, 0, 0, 0.5);
   --color-scheme: dark;
 
   --menu-affix: #2e3a5c;
@@ -69,4 +75,96 @@
 
 .hb_dark .section ol > li > ol > li {
   background-color: var(--menu-inner-bg-3);
+}
+
+
+/* Code Style */
+.hb_dark .hljs-comment {
+  color: #969896;
+}
+
+.hb_dark .hljs-variable,
+.hb_dark .hljs-attribute,
+.hb_dark .hljs-tag,
+.hb_dark .hljs-regexp,
+.hb_dark .ruby .hljs-constant,
+.hb_dark .xml .hljs-tag .hljs-title,
+.hb_dark .xml .hljs-pi,
+.hb_dark .xml .hljs-doctype,
+.hb_dark .html .hljs-doctype,
+.hb_dark .css .hljs-id,
+.hb_dark .css .hljs-class,
+.hb_dark .css .hljs-pseudo {
+  color: #cc6666;
+}
+
+.hb_dark .hljs-number,
+.hb_dark .hljs-preprocessor,
+.hb_dark .hljs-pragma,
+.hb_dark .hljs-built_in,
+.hb_dark .hljs-literal,
+.hb_dark .hljs-params,
+.hb_dark .hljs-constant {
+  color: #de935f;
+}
+
+.hb_dark .ruby .hljs-class .hljs-title,
+.hb_dark .css .hljs-rule .hljs-attribute {
+  color: #f0c674;
+}
+
+.hb_dark .hljs-string,
+.hb_dark .hljs-value,
+.hb_dark .hljs-inheritance,
+.hb_dark .hljs-header,
+.hb_dark .hljs-name,
+.hb_dark .ruby .hljs-symbol,
+.hb_dark .xml .hljs-cdata {
+  color: #b5bd68;
+}
+
+.hb_dark .hljs-title,
+.hb_dark .css .hljs-hexcolor {
+  color: #8abeb7;
+}
+
+.hb_dark .hljs-function,
+.hb_dark .python .hljs-decorator,
+.hb_dark .python .hljs-title,
+.hb_dark .ruby .hljs-function .hljs-title,
+.hb_dark .ruby .hljs-title .hljs-keyword,
+.hb_dark .perl .hljs-sub,
+.hb_dark .javascript .hljs-title,
+.hb_dark .coffeescript .hljs-title {
+  color: #81a2be;
+}
+
+.hb_dark .hljs-keyword,
+.hb_dark .javascript .hljs-function {
+  color: #b294bb;
+}
+
+.hb_dark .hljs {
+  display: block;
+  overflow-x: auto;
+  background: #1d1f21;
+  color: #c5c8c6;
+}
+
+.hb_dark .coffeescript .javascript,
+.hb_dark .javascript .xml,
+.hb_dark .tex .hljs-formula,
+.hb_dark .xml .javascript,
+.hb_dark .xml .vbscript,
+.hb_dark .xml .css,
+.hb_dark .xml .hljs-cdata {
+  opacity: 0.5;
+}
+
+.hb_dark .hljs-addition {
+  color: #718c00;
+}
+
+.hb_dark .hljs-deletion {
+  color: #c82829;
 }
