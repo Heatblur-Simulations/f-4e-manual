@@ -5,6 +5,21 @@ menu in DCS.
 
 ![Special Option Menu](../img/special_options.jpg)
 
+## Radio Menu and PTT Behavior
+
+![Radio Menu](../img/special_options_radio_menu.jpg)
+
+Dropdown to select the behavior of the push to talk bind for the radio.
+
+| Option          | Close Menu | Menu must be open | Talk over SRS |
+| --------------- | ---------- | ----------------- | ------------- |
+| Default         | ❌         | ❌                | ✅            |
+| Open Menu       | ❌         | ✅                | ✅            |
+| Hide on Release | ✅         | ❌                | ✅            |
+| No Export       | ❌         | ❌                | ❌            |
+
+
+
 ## Stick Deflection Limit
 
 Limits the maximum force in lbf (Pound-Force), i.e. strength, the pilot is able
