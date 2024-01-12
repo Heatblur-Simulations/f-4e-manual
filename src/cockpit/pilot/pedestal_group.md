@@ -18,8 +18,14 @@ maximum position indicators to 1 G.
 ![OilPress](../../img/OilPress.jpg)
 
 A pair of engine oil pressure indicators are provided, one for each engine,
-calibrated from 0 to 10, multiplied by 10 to read as units of PSI. Normal values are 15 PSI while
-the engines are running.
+calibrated from 0 to 100 PSI. Engine oil is used for lubrication, variable
+nozzle positioning, and constant speed drive unit
+operation. Important values are:
+
+* 12 PSI - Minimum at idle RPM
+* 30-60 PSI - In-flight military
+* 35 PSI - Static minimum at military thrust
+* 60 PSI - Maximum
 
 For further information see [Engines chapter](../../systems/engines_and_fuel_systems/engines.md)
 
@@ -27,20 +33,40 @@ For further information see [Engines chapter](../../systems/engines_and_fuel_sys
 
 ![HydPress](../../img/HydPress.jpg)
 
-Two hydraulic pressure indicators are installed. One references the Utility
-Hydraulic System pressure, while the other references the PC-1 and PC-2
-Hydraulic Systems; the latter includes two needles, and are marked accordingly.
+Two hydraulic pressure indicators are installed. The one on the right, references the Utility
+Hydraulic System pressure, while the left one references the PC-1 and PC-2
+Hydraulic Systems; the latter includes two needles, which are marked accordingly.
+Pressure transmitters, one for
+each system, convert pressure impulses to electrical
+impulses which, in turn, are supplied to the indicators.
+Nominal operating power for all three systems
+is 3000 ±250 PSI. Other important values are:
 
-For further information see the [hydraulics system chapter](../../systems/hydraulics.md).
+* 2000-2750 - Normal with rapid control movement
+* 2750-3250 - Normal
+* 3250-3400 - If pressure exceeds 3250 steady state, and entry must be logged on form 781
+* 3400 - Maximum
+
+For further information see the [Hydraulics chapter](../../systems/hydraulics.md).
 
 ## Pneumatic Pressure Indicator
 
 ![Pneumatic Pressure Indicator](../../img/Pneum.jpg)
 
-Provides cumulative manifold pressure of the compressed engine bleed air used to
-drive the aircraft's pneumatic actuated equipment.
+Shows manifold pressure of the pneumatic system
+measured by the pressure transmitter which supplies
+electrical inputs to the indicator.
+Keep in mind it doesn't show individual
+emergency pneumatic bottle pressures.
+Normal system pressure range is from 2650 to 3300 psi
+due to pressure transmitter and pressure gage tolerances.
 
-For further information see the [pneumatic system chapter](../../systems/pneumatics.md).
+Other important values are:
+
+* 3300-3500 - Caution area
+* 3500 - Maximum
+
+For further information see [Pneumatics chapter](../../systems/pneumatics.md).
 
 ## Screen Source Switch
 

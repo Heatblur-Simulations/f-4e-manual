@@ -210,13 +210,19 @@ activating.
 ![Defog](../../../img/Defog.jpg)
 
 Provides pilot selectable volume of warm air to the windshield for de-icing purposes or footwell
-recesses for comfort or visibility. It is possible, through selection of cold temperature settings,
+recesses for comfort or visibility.
+
+It is possible, through selection of cold temperature settings,
 particularly on humid days, for the air conditioning system to deliver air at temperatures well
-below the dewpoint, with resultant cockpit fogging. This fog can be dissipated by selecting a
-slightly warmer temperature. When operating in high humidity conditions, it is recommended that a
+below the dew-point, with resultant cockpit fogging. This fog can be dissipated by selecting a
+slightly warmer temperature.
+
+When operating in high humidity conditions, it is recommended that a
 warmer than normal temperature be selected, prior to starting the takeoff run, to preclude the
 possibility of cockpit fogging as thrust is increased. Should cockpit fogging occur, the quickest
-means of eliminating this condition is by activating the emergency vent knob. During cruise
+means of eliminating this condition is by activating the emergency vent knob.
+
+During cruise
 operations, prior to letdown, place the temperature control knob in the 2 o’clock position and the
 Defog/Foot Heat Lever to defog, to increase the defog temperature for windshield and canopy
 preheating. For airplanes without slats, if the flaps are lowered for letdown and fogging persists,

@@ -47,38 +47,47 @@ The panel features 6 knobs to
 control [chaff and flare programs](../../../systems/defensive_systems/countermeasures.md#anale-40-programmer),
 as well as two lamps and a switch to activate flares on its base.
 
+Chaffs can be programmed to be released in Salvos and Bursts.
+A Salvo consists of multiple bursts, while a burst will release multiple chaffs.
+
 ### Chaff Burst
 
-The count knob selects the number of chaff burst (quantity of chaffs) commands per salvo;
+The **count knob** selects the quantity of chaffs released per burst;
 values of 1, 2, 3, 4, 6, or 8 from left to right.
 
-The interval knob selects the time interval of .1, .2, .3, or .4 seconds
-between each chaff burst command.
+The **interval knob** selects the time interval of .1, .2, .3, or .4 seconds
+between each chaff released in that burst.
 
 ### Chaff Salvo
 
-The count knob selects the number of salvos (quantity of bursts) per dispense command,
+The **count knob** selects how many bursts the salvo consists of,
 values of 1, 2, 4, 8, or C (Continuous).
 
-Continous will dispense till the dispensers are empty.
+In the Continuous setting,
+the program is repeated as long as the dispense button is held down.
 
-The interval knob selects time interval between each salvo.
+The **interval knob** selects the time interval between each burst.
 Values of 1, 2, 3, 4, 5, 8, or a R (Random) number of seconds.
 
 ### Flare Burst
 
-The count knob selects the quantity of flare burst (quantity of flares) commands per salvo.
+The **count knob** selects the quantity of flares released per burst.
 Values of 1, 2, 4, 8, or C (Continuous).
 
-Continous will dispense till the dispensers are empty.
+Continuous will repeat the program as long as the dispense button is held down.
 
-The interval knob selects time interval between each burst.
+The **interval knob** selects time interval between each flare released.
 Values of 3, 4, 6, 8, 10 number of seconds.
 
 ### Flares Select Switch
 
-Selects the time interval between each burst command. Values of 3, 4, 6, 8, or
-10 seconds.
+Controls which countermeasure will be released when the pilot presses the Dispense Button.
+
+In the NORMAL setting, countermeasure are released according to what the WSO setup
+on their panel.
+
+FLARES allows the pilot to activate the flares regardless of WSO selection.
+This can for example be used to react quickly to a threat.
 
 ### Flares Indicator Light
 

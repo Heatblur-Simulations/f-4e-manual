@@ -229,6 +229,11 @@ The Angle of Attack Indicator dials register AoA values from 0 to 30 units, with
 indications for weight-relative optimum altitude cruise (7.9 units), approach
 (19.2 units), and stall (30 units).
 
+AoA units do not directly translate to degrees, one unit of AoA is
+the same as roughly 0.95 degrees and the measured AoA is also offset
+by about 4 degrees. This way, the indicator displays a more natural and useful
+value to the crew.
+
 > 💡 Extension of the landing gear and thus the nose
 > gear door changes the airflow around the probe causing to indicate higher
 > angles by 1 unit. The approach airspeeds account for that. Therefore, performing
@@ -247,9 +252,7 @@ lowered.
 
 ## Aural Tone System
 
-![manual_aural_tone_landing](../../img/manual_aural_tone_landing.jpg)
-
-![manual_aural_tone_in_flight](../../img/manual_aural_tone_in_flight.jpg)
+![manual_aural_tone_chart](../../img/manual_aural_tone_charts.jpg)
 
 The Aural Tone System provides audible feedback in maneuvering flight and during
 landing configuration. Beginning above 15 units AoA with gear down, and 21 units

@@ -1,5 +1,7 @@
 # Engines
 
+![real_life_engine_disassembled](../../img/real_life_engine_dis.jpg)
+
 The F-4E Phantom is powered by two J79-GE-17 engines built by General Electric,
 with a rated static sea-level power delivery of 11,870 pounds of thrust in Mil,
 and 17,900 pounds in afterburner. The engines have provision for both assisted
@@ -23,12 +25,36 @@ throttles are moved.
 Fuel Flow should not exceed 1200 pph at lightoff and 800 to 1500 pph at idle operations. Fuel
 consumption for Engine start is approximately 65 pounds per Engine.
 
-## Oil Pressure Indicators
+## Oil System
+
+![manual_engine_oil_system](../../img/manual_engine_oil_system.jpg)
+
+Each engine is equipped with a completely self-contained, dry sump, full pressure oil system. The
+oil supply to the lubrication system is interrupted during negative G-flight due to the inability of
+the scavenge pumps to recover oil from the sumps and gear boxes. The Engine Oil system is used for
+lubrication, variable nozzle positioning and constant speed drive unit operation. The standpipes
+which supply the three systems utilizing engine oil are in the reservoir such that the pipe for the
+constant speed drive unit is the highest, the one for the nozzle control is the next highest, and
+the lubricating system pipe is the lowest. This arrangement is to prevent a critical system failure
+if one of the circuits leak. If a leak in the constant speed rive unit would occur it will probably
+cause a failure of that system only, while a leak in the nozzle control system may cause failure of
+that system and the constant speed drive unit. Oil is also supplied directly from the reservoir to
+the constant speed drive unit, where it is used as both the control and final drive medium for
+controlling generator speed. The lubrication element of the oil pump supplies oil to cool and
+lubricate bearings, gears and other rubbing or moving parts in the engine. Lubricating oil is also
+circulated through the engine-driven generator for cooling purposes.
+
+### Oil Pressure Indicators
 
 ![OilPress](../../img/OilPress.jpg)
 
-Oil pressure indicators are on the front cockpit pedestal panel, and are graduated from 0 to 10, and
-are presented in 10 lb increments. Normal values are 15 psi while the engines are running.
+Oil pressure indicators are on the front cockpit pedestal panel, and calibrated from 0 to 100 PSI.
+Important values are:
+
+* 12 psi - Minimum at idle RPM
+* 30-60 psi - In-flight military
+* 35 psi - Static minimum at military thrust
+* 60 psi - Maximum
 
 ## Variable Duct Ramp
 
@@ -45,38 +71,62 @@ cause permanent engine damage.
 
 ![ext_cart](../../img/ext_ground_cart.jpg)
 
-The normal mode for starting the Phantom utilizes an auxiliary start cart that
-turns the starter turbine, cranking the engine over.
+The pneumatic mode is the primary starting mode for all
+normal and routine operations.
+In this mode the Phantom utilizes an auxiliary start cart that
+turns the starter turbine, cranking the engine.
 
-See the [Ground chief chapter](../../crew_chief/overview.md) for more information about ground crew
-interaction.
+The cart is operated by the crew chief, see the
+[Crew Chief chapter](../../crew_chief/overview.md)
+for more information about how to interact and request air supply.
 
 ### Cartridge Mode Starting
 
 ![f_4_cartridge_start](../../img/f_4_cartridge_start.jpg)
 
-Cartridge mode is supplied for operational and emergency needs. A propellant
-charge is used to turn the starter turbine, which in turn cranks the engine over
-to initiate startup.
+Cartridge mode is considered an alternate method of
+starting supplied for operational and emergency needs. A propellant
+charge is used to turn the starter turbine, which in turn cranks the engine
+to initiate startup. Cartridge ignition is controlled by the engine start switch
+providing the respective engine master switch is on.
 
-See the [Ground chief chapter](../../crew_chief/overview.md) for more information about ground crew
-interaction.
+> 💡 To avoid possible irritation caused by cartridge exhaust smoke/gases,
+> it may be advisable to close canopies and select 100% oxygen during start cycle.
+
+Cartridges can be installed by the crew chief, see the
+[Crew Chief chapter](../../crew_chief/overview.md)
+for how to interact and request cartridges installation.
+
+> ⚠️ Cartridges are explosive and, unless fired, must not be
+> forgotten to be removed.
+> Under no circumstances will the aircraft be flown
+> with unfired cartridges in the starter.
 
 ### Start Switch
 
 ![StartSwitch](../../img/pilot_start_switch.jpg)
 
-Used only for cartridge start, selecting L or R ignites the cartridge set for
+Used only for cartridge start, selecting L or R ignites the cartridge installed for
 the respective engine.
 
 ### Ignition System
 
 ![IgnitionButtons](../../img/pilot_ignition_system.jpg)
 
-Engine ignition for startup is performed using a pair of spark plugs on each
-engine, activated by pressing the red Ignition Button found on the rear of both
-throttle levers. The button is depressed as part of the starting sequence to ignite the spark plugs,
-initiating combustion in chambers four and five of the engines.
+The -17E/G engine is equipped with one 28 volt, low energy ignition unit and one 28 volt high energy
+unit that improves ground starts in cold weather and air starts using alternate fuel. The main
+ignition system produces an electrical arc which ignites the atomized fuel-air mixture in the fourth
+and fifth combustion chambers. The remaining eight combustion chambers are ignited through the
+crossfire tubes. Pressing the ignition button causes the spark plugs to discharge, igniting the
+fuel-air mixture as the throttle is moved from OFF to IDLE during engine start. The spark plugs only
+fire while the spring-loaded ignition button is held.
+
+### Afterburner Ingition System
+
+The afterburner ignition system consists of the torch igniter, a spark plug and an afterburner
+ignition switch. When the throttle is moved into the afterburner detent, the afterburner ignition
+switch closes, and the spark plug supplies a continuous arc. Ignition and torch igniter fuel flow
+are maintained until the throttle is removed from the afterburner detent.
 
 ### Engine Anti-Icing System
 
@@ -104,6 +154,20 @@ function for the ANTI-ICE ON lamps, a condition that illuminates them will
 provide a MASTER CAUTION warning.
 
 ## Controls and Indicators
+
+### Exhaust Nozzle Control Unit
+
+Throttle position, nozzle position feedback and exhaust gas temperature are utilized to schedule the
+correct nozzle area. During engine operation in the sub-mil region, the nozzle area is primarily a
+function of throttle angle and nozzle position feedback. The nozzle is scheduled to approximately
+7/8th open at idle and the area is decreased as the throttle is advanced toward the military power
+position. However, during a rapid throttle burst from below 79% rpm to 98% rpm, a control alternator
+supplies engine speed information to the temperature amplifier, which in turn schedules engine speed
+inputs as a function of temnperature limiting. This signal prevents the primary nozzle from closing
+beyond a preset position, permitting a rapid increase in engine rpm that could damage the engine.
+During engine operation in the military and afterburner region, it becomes necessary to limit the
+nozzle schedule as established by the throttle angle and nozzle feedback to prohibit exhaust gas
+temperature from exceeding engine design limits and damaging the engine.
 
 ### Exhaust Nozzle Position Indicators
 
