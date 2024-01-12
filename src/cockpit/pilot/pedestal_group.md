@@ -27,7 +27,8 @@ operation. Important values are:
 * 35 PSI - Static minimum at military thrust
 * 60 PSI - Maximum
 
-For further information see [Engines chapter](../../systems/engines_and_fuel_systems/engines.md)
+For further information see the
+[Engines chapter](../../systems/engines_and_fuel_systems/engines.md).
 
 ## Hydraulic pressure Indicators
 
@@ -66,7 +67,7 @@ Other important values are:
 * 3300-3500 - Caution area
 * 3500 - Maximum
 
-For further information see [Pneumatics chapter](../../systems/pneumatics.md).
+For further information see the [Pneumatics chapter](../../systems/pneumatics.md).
 
 ## Screen Source Switch
 
