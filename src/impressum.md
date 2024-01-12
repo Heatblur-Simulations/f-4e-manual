@@ -5,7 +5,8 @@ Subsidiary of Rental Punkt Suprema sp. z.o.o.
 Ulica Wrzosowa 11, 72-602, Swinoujscie, Poland
 
 Contact: support@heatblur.se
-https://store.heatblur.com/
+
+[Heatblur Store](https://store.heatblur.com/)
 
 The Heatblur F-4E Team:
 
@@ -30,4 +31,4 @@ Kenneth Ellis, Lead Author Manual
 Andreas Sandin, Lead Design and Webdesign
 Adrian Caparzo, Video Editing and Trailers
 Gabriel Stangl, Training Missions and Lessons
-Daria Kurhuzova, Administrative Assistant 
+Daria Kurhuzova, Administrative Assistant
