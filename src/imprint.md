@@ -1,4 +1,4 @@
-# IMPRESSUM
+# Imprint
 
 Heatblur Simulations
 Subsidiary of Rental Punkt Suprema sp. z.o.o.
