@@ -5,8 +5,7 @@ Subsidiary of Rental Punkt Suprema sp. z.o.o.
 Ulica Wrzosowa 11, 72-602, Swinoujscie, Poland
 
 Contact: support@heatblur.se
-
-[Heatblur Store](https://store.heatblur.com/)
+<https://store.heatblur.com/>
 
 The Heatblur F-4E Team:
 
