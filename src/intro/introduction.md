@@ -47,4 +47,4 @@ always check six!
 In the name of the entire Heatblur Team,
 
 Nicholas Dackard,
-Heatblur Simulations, CEO and Founder 
+Heatblur Simulations, CEO and Founder
