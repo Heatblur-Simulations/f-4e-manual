@@ -116,7 +116,6 @@ The following variants of the AIM-7 family are available for this variant of the
 |AIM-7F | The F Sparrow was upgraded to be solid state, have a higher performance two stage motor (boost and sustainer) and have improved electronics including the ability to coast targets through the main lobe clutter and altitude lines. These changes also make the seeker able to detect targets from further range and with increased countermeasure resitance and track using both continuous wave and pulse doppler guidance signals unlike the E,E2 and E3 which can only guide on continuous wave.
 |AIM-7M | The M was the first inverse monopulse sparrow providing increased tracking precision, it also has improved motor performance and electronics, including improved clutter and countermeasure rejection. The M like all sparrows can also guide using continuous wave, at a degraded tracking precision.
 
-
 Below is a very basic comparitive summary of each sparrow's performance in some general areas.
 
 | Type  | Seeker | Range | Dogfight | Countermeasure Resist / Clutter Rejection |
