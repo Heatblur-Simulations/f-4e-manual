@@ -75,9 +75,9 @@ counter-clockwise). Circular polarization is provided as it is less susceptible 
 precipitation-related clutter, and can allow detection or tracking of a target in such weather when
 a return is otherwise found to be marginal.
 
-> 💡 Only clockwise polarization (CIR 1) and Linear polarization is compatible with the
+> 💡 Only clockwise polarization (CIR 1) and Linear polarization are compatible with the
 > Sparrow's receiving antenna, and thus can only be fired
-> in said mode. A Sparrow launched with the APQ-120 in CIR 2 will not track.
+> in said modes. A Sparrow launched with the APQ-120 in CIR 2 will not track.
 
 ### Maneuver Switch
 
