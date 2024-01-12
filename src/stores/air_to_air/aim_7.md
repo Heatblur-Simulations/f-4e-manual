@@ -40,7 +40,8 @@ tabs function to provide the pilot with relative roll attitude guidance in
 instrument conditions (weather or nighttime), and the right side of the 50 mil
 diameter circle (outer) functions as a range bar when a radar lock is achieved
 against a target, displaying ranges up to 20,000' (top) to 3000' (bottom), with
-12,000' signified at the 3 o-clock position.
+12,000' signified at the 3 o-clock position. It is also possible to employ an AIM-7 using the ACM
+Mode via pressing the Cage Button first and than pressing the CAA Button to accomplish a lock.
 
 ![range_bar_radar_guided_missile](../../img/radar_missile_lock.jpg)
 
