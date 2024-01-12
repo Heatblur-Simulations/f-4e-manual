@@ -4,6 +4,7 @@
 > performed after the engines have been started.
 
 Designations used:
+
 * The ⚡ icon means that given step **cannot** be performed when battery start is made.
 
 ## WSO
