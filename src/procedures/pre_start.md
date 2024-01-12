@@ -33,7 +33,7 @@ Designations used:
 | 13.  | Circuit breaker panels            | CHECK      |
 | 14.  | Publications and flight data      | CHECK      |
 
-### After Electrical Power (WSO)
+<!-- ### After Electrical Power (WSO)
 
 | Step | System                         | Action        |
 |------|--------------------------------|---------------|
@@ -48,7 +48,7 @@ Designations used:
 |      | g. NAV COMP MODE               | RESET         |
 |      | h. NAV COMP MODE               | STBY          |
 |      | i. TARGET COUNTERS             | SET FOR TGT 1 |
-| 3.   | INS alignment                  | AS DESIRED    |
+| 3.   | INS alignment                  | AS DESIRED    | -->
 
 ### Interior Check (WSO)
 
