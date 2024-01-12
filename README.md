@@ -11,8 +11,8 @@ This is a [mdBook](https://rust-lang.github.io/mdBook/) project, content is
 written in the language **Markdown** (`.md`).
 
 The manual is automatically exported as HTML version, hosted at:
-<https://manuals.heatblur.se/f4e_manual.html>.
 <!-- markdown-link-check-disable -->
+<https://manuals.heatblur.se/f4e_manual.html>.
 PDF versions are available at <https://github.com/Heatblur-Simulations/f-4e-manual/releases>.
 <!-- markdown-link-check-enable -->
 
@@ -50,12 +50,12 @@ To build the PDF locally, use `cargo install mdbook-pdf` first. Then, when runni
 the PDF will be created in `book/pdf`.
 
 ## GH Pages
-
+<!-- markdown-link-check-disable -->
 The project is automatically configured via a CI/CD to build and publish any
 change to `master` to a GH-Pages branch called `html`. GitHub will automatically
 publish the website on <https://heatblur-simulations.github.io/f-4e-manual/>,
 linked to <https://manuals.heatblur.se/f4e_manual.html> via CNAME.
-
+<!-- markdown-link-check-enable -->
 ## PDF Deploy
 <!-- markdown-link-check-disable -->
 PDF versions are automatically build and published
