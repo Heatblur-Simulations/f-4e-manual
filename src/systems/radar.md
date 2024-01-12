@@ -12,11 +12,10 @@ The primary conversion from the APQ-109 to APQ-120 included a reduction in the n
 replaceable units in the nose, as well as the reduction in their size; whereas the -109 had been a
 hybrid in its movement towards solid state hardware (primarily in the low voltage processing
 sections), the 120 was a fully solid-state system. While this update reduced the space overhead and
-weight for the system, the modification of the F-4 nose to include
-the [M61 cannon](../stores/guns.md#internal-cannon-m61a1-vulcan) required a
-reduction in antenna size, causing a marginal decrease in overall detection range. However, when
-taken with the increase in system reliability and reduced maintenance, the tradeoff was considered
-acceptable.
+weight for the system, the modification of the F-4 nose to include the [M61
+cannon](../stores/guns.md#internal-cannon-m61a1-vulcan) required a reduction in antenna size,
+causing a marginal decrease in overall detection range. However, when taken with the increase in
+system reliability and reduced maintenance, the tradeoff was considered acceptable.
 
 Starting with production of the F-4E block 60, and retrofitted to selected earlier block aircraft,
 was the addition of the Digital Scan Converter Group display. The inclusion of DSCG increased the
@@ -81,9 +80,9 @@ counter-clockwise). Circular polarization is provided as it is less susceptible 
 precipitation-related clutter, and can allow detection or tracking of a target in such weather when
 a return is otherwise found to be marginal.
 
-> 💡 Only clockwise polarization (CIR 1) and Linear polarization are compatible with the
-> Sparrow's receiving antenna, and thus can only be fired
-> in said modes. A Sparrow launched with the APQ-120 in CIR 2 will not track.
+> 💡 Only clockwise polarization (CIR 1) and Linear polarization are compatible with the Sparrow's
+> receiving antenna, and thus can only be fired in said modes. A Sparrow launched with the APQ-120
+> in CIR 2 will not track.
 
 ### Maneuver Switch
 
@@ -105,13 +104,13 @@ revert to a 1 bar scan.
 
 ### Aspect
 
-Using the Aspect knob the WSO can provide an [AIM-7](../stores/air_to_air/aim_7.md) with a fixed simulated Doppler signal rather than the doppler for the tracked target. This simulated doppler
-sets the sparrow doppler gate.
-Once a Sparrow has been tuned, the NOSE, TAIL, FWD, and AFT options may be applied to set the speedgate with respect to
-the expected target Doppler for the intercept. Once launched the speedgate unlocks and sweeps the
-narrowly applied frequency of this simulated Doppler value. The WIDE option is available to permit
-the missile to search the full doppler spectrum for the target, rather than the limited width band
-set here.
+Using the Aspect knob the WSO can provide an [AIM-7](../stores/air_to_air/aim_7.md) with a fixed
+simulated Doppler signal rather than the doppler for the tracked target. This simulated doppler sets
+the sparrow doppler gate. Once a Sparrow has been tuned, the NOSE, TAIL, FWD, and AFT options may be
+applied to set the speedgate with respect to the expected target Doppler for the intercept. Once
+launched the speedgate unlocks and sweeps the narrowly applied frequency of this simulated Doppler
+value. The WIDE option is available to permit the missile to search the full doppler spectrum for
+the target, rather than the limited width band set here.
 
 With the application of NOSE, FWD, or TAIL on the Aspect knob, the target's aspect angle, altitude,
 and target heading are displayed in the upper right corner of the DSCG scopes in lieu of the range
@@ -196,8 +195,8 @@ half-action to show the range strobe, adjusting the position of the cursor to pl
 below the target, applying a Manual Vc rate that keeps the range strobe moving at the same rate as
 the target, and then selecting full-action.
 
-The numbers are multiplied by 100 m/s while closure
-means closing in to the F-4 and opening means the target is flying away from the F-4.
+The numbers are multiplied by 100 m/s while closure means closing in to the F-4 and opening means
+the target is flying away from the F-4.
 
 ### Pulse Switch
 
@@ -229,18 +228,18 @@ for proper fire control interaction.
 
 RDR Mode is used with the Display Mode selected as B WIDE or B NAR.
 
-![manual_radar_modes](../img/manual_radar_modes.jpg) (todo - these are DVST replace with DSCG images)
+![manual_radar_modes](../img/manual_radar_modes.jpg) (todo - these are DVST replace with DSCG
+images)
 
 Used for long distance acquisition of airborne targets, RDR Mode can be used at any range, with the
 capability to lock-on to a target removed in the 100 and 200 mile ranges. Detection and acquisition
-of
-airborne targets with the APQ-120 follow a general outline: the pilot positions the aircraft in the
-general direction of the intended search, with the WSO defining the azimuth width (wide/120 degrees
-or narrow/45 degrees) as required. The WSO then sets the antenna elevation to cover the desired
-altitude, selecting 1 or 2 BAR scan paths to define overall scan height, and adjusts the receiver
-gain controls for best resolution. Further adjustment can be performed depending on target altitude
-or weather conditions by adjusting the antenna polarity, from the default LIN (Linear) transmission
-to CIR 1 or 2 (Circular) for better performance in such situations.
+of airborne targets with the APQ-120 follow a general outline: the pilot positions the aircraft in
+the general direction of the intended search, with the WSO defining the azimuth width (wide/120
+degrees or narrow/45 degrees) as required. The WSO then sets the antenna elevation to cover the
+desired altitude, selecting 1 or 2 BAR scan paths to define overall scan height, and adjusts the
+receiver gain controls for best resolution. Further adjustment can be performed depending on target
+altitude or weather conditions by adjusting the antenna polarity, from the default LIN (Linear)
+transmission to CIR 1 or 2 (Circular) for better performance in such situations.
 
 Once a contact of interest is detected on the scope, the WSO brackets the target with the
 acquisition symbol using the antenna hand controller, then selects and holds full action. The range
@@ -307,7 +306,10 @@ BST can be used with any Display Knob position.
 
 ### Boresight
 
-The radar can be placed into two different boresight modes. These are both functionally identical with the exception that boresight entered via the mode knob position BST can be used at ranges greater than 5 nmi. Boresight condition due to the cage mode is limited to 5 nmi and the tracking maneuver setting is automatically placed in HI regardless of the maneuver switch setting.
+The radar can be placed into two different boresight modes. These are both functionally identical
+with the exception that boresight entered via the mode knob position BST can be used at ranges
+greater than 5 nmi. Boresight condition due to the cage mode is limited to 5 nmi and the tracking
+maneuver setting is automatically placed in HI regardless of the maneuver switch setting.
 
 Boresight mode with the APQ-120 is used by the WSO to immediately access the short range "dogfight"
 presets of the radar. Initial selection of BST slaves the radar to 0 degrees in azimuth and -2
@@ -320,20 +322,30 @@ to position the acquisition cursor and range strobe over the target and activate
 trigger on the Antenna Hand Controller. Once the lock is achieved, the lockon presentation with
 steering and aspect indications will be shown on the display as normal.
 
-In the event lockon is not achieved, the WSO can apply an aspect using the ASPECT switch instruction to the current priority
-[AIM-7](../stores/air_to_air/aim_7.md) and perform a launch against the simulated Doppler applied to
-the missile doppler gate circuit.
+In the event lockon is not achieved, the WSO can apply an aspect using the ASPECT switch instruction
+to the current priority [AIM-7](../stores/air_to_air/aim_7.md) and perform a launch against the
+simulated Doppler applied to the missile doppler gate circuit.
 
 ### CAGE Mode
 
-In the event that an [AIM-7](../stores/air_to_air/aim_7.md), [AIM-9](../stores/air_to_air/aim_9.md), or [M61A1](../stores/guns.md#internal-cannon-m61a1-vulcan) must be employed against an airborne target with the sight in A/G mode (for example, the flight is bounced by opposing aircraft), the optical sight reticle can immediately be slewed to the Radar Boresight Line using the Cage Button, found on the inboard (right) throttle handle. Cage mode commands the radar into the boresight mode with a five mile range, and short pulse, and sets the firing circuit for the currently selected air to air weapon relative to the Pinky Switch. For the optical sight, the command activates the respective elevation and azimuth tracking, roll mark, and range functions of the reticle for the chosen weapon, without the pilot having to remove a hand from throttle or stick to swap the sight mode or weapon control panel functions.
+In the event that an [AIM-7](../stores/air_to_air/aim_7.md), [AIM-9](../stores/air_to_air/aim_9.md),
+or [M61A1](../stores/guns.md#internal-cannon-m61a1-vulcan) must be employed against an airborne
+target with the sight in A/G mode (for example, the flight is bounced by opposing aircraft), the
+optical sight reticle can immediately be slewed to the Radar Boresight Line using the Cage Button,
+found on the inboard (right) throttle handle. Cage mode commands the radar into the boresight mode
+with a five mile range, and short pulse, and sets the firing circuit for the currently selected air
+to air weapon relative to the Pinky Switch. For the optical sight, the command activates the
+respective elevation and azimuth tracking, roll mark, and range functions of the reticle for the
+chosen weapon, without the pilot having to remove a hand from throttle or stick to swap the sight
+mode or weapon control panel functions.
 
 Should a track condition exist prior to pressing Cage and the Pinky switch is in Radar or Heat
 position, the lock is broken when the button is pressed, and the antenna slaves to boresight when
 released. If the Pinky Switch is in the Gun position, the lock is not broken.
 
-Cage mode can be exited from either cockpit, by placing Weapon Select knob into or out of the B position. If the pilot leaves the Weapon Select knob in B, it does not preclude a later entry into Cage
-mode.
+Cage mode can be exited from either cockpit, by placing Weapon Select knob into or out of the B
+position. If the pilot leaves the Weapon Select knob in B, it does not preclude a later entry into
+Cage mode.
 
 ### Computer Automatic Acquisition Mode (CAA)
 
@@ -341,11 +353,12 @@ mode.
 
 Once in Cage mode, the radar can be selected in to Computer Automatic Acquistion using the Nose Gear
 Steering button. In CAA, the radar enters a vertical-oriented scan pattern 78 degrees in height by
-15 degrees wide, the scan is 3 vertical bars wide. Actual radar lock capability within this scan pattern is from +45 degrees above the
-horizon line to -9 degrees below the horizon line due to APQ software limitation. In the event that
-the radar finds a suitable target within the scan volume, the target will be locked. Should the
-flight crew find the locked target not be the one intended, the Nose Gear Steering button can be
-pressed on either stick grip to return the radar back to the search pattern.
+15 degrees wide, the scan is 3 vertical bars wide. Actual radar lock capability within this scan
+pattern is from +45 degrees above the horizon line to -9 degrees below the horizon line due to APQ
+software limitation. In the event that the radar finds a suitable target within the scan volume, the
+target will be locked. Should the flight crew find the locked target not be the one intended, the
+Nose Gear Steering button can be pressed on either stick grip to return the radar back to the search
+pattern.
 
 In CAA mode, the radar’s search pattern can be shifted left or right utilizing the Pinky Switch.
 While this actuation will change the illuminated weapon indicated on the Head Up Display, the actual
@@ -399,7 +412,8 @@ procedure as explained for RDR Mode can be used.
 Air-to-Ground Mode is a specialized boresight mode available at range selections of 5 to 50 miles,
 used to provide accurate range information against targets in ground clutter, whether moving or
 stationary, used with WRCS dive modes. Selection of this mode aligns the radar to the Radar
-Boresight line with drift stabilization if NOR is selected on the STAB switch. This mode also forces short pulse width transmission, only AI ranges are available in this mode.
+Boresight line with drift stabilization if NOR is selected on the STAB switch. This mode also forces
+short pulse width transmission, only AI ranges are available in this mode.
 
 The pilot initiates acquisition by selecting the A/G gun-sight mode and placing the pipper over the
 intended target at a dive angle between 10 and 40 degrees. At this point, the WSO will adjust
@@ -432,8 +446,8 @@ distance to the aircraft, is the actual position of the beacon.
 
 ### TV Position
 
-The TV Radar Mode setting is not used on DSCG aircraft; this is superseded by the TV display
-option on the DSCG panel itself, and the TV display option in the pilot's cockpit.
+The TV Radar Mode setting is not used on DSCG aircraft; this is superseded by the TV display option
+on the DSCG panel itself, and the TV display option in the pilot's cockpit.
 
 > 💡 [AIM-7](../stores/air_to_air/aim_7.md) missiles detune and cannot be re-tuned with the Radar
 > Mode Knob in TV.
@@ -441,9 +455,8 @@ option on the DSCG panel itself, and the TV display option in the pilot's cockpi
 ### Skin Track Lamp (SKIN TRK)
 
 The Skin Track Lamp illuminates when an automatically achieved lock-on is established and held by
-the
-radar. This coincides with the T symbol being lit on the DSCG panel. A manually tracked, AOJ, or HOJ
-track condition will not illuminate this lamp (or the DSCG panel T).
+the radar. This coincides with the T symbol being lit on the DSCG panel. A manually tracked, AOJ, or
+HOJ track condition will not illuminate this lamp (or the DSCG panel T).
 
 ## FCS Control Monitor Panel
 
@@ -497,8 +510,7 @@ and functioning.
 
 TP 2 confirms waveguide pressure, and a value of 1 is correct.
 
-In LOB, the meter needle will travel roughly between 1.5 to 2.8 as a function of antenna
-nutation.  
+In LOB, the meter needle will travel roughly between 1.5 to 2.8 as a function of antenna nutation.  
 Lastly, the LIN and CIR selectors confirm proper linear and circular pulse performance; they only
 register a value of 1 for a transmission of vertical or clockwise-rotating polarity energy. That is,
 they do not return a value in CIR pulse (counter-clockwise) mode.
@@ -549,11 +561,10 @@ and the range rate readout is 900 +/- 50 knots.
 
 ### Test 1
 
-Performing combined B-sweep and PPI gain and pulse mode
-functionality, [AIM-7](../stores/air_to_air/aim_7.md) interlock function, and
-range track memory testing, Test 1 should be initiated with B WIDE selected for the Display and in
-AUTO Pulse mode. Upon selecting the test, the horizon line shifts up and right to provide visibility
-of the main area.
+Performing combined B-sweep and PPI gain and pulse mode functionality,
+[AIM-7](../stores/air_to_air/aim_7.md) interlock function, and range track memory testing, Test 1
+should be initiated with B WIDE selected for the Display and in AUTO Pulse mode. Upon selecting the
+test, the horizon line shifts up and right to provide visibility of the main area.
 
 The B-sweep scans, and will show a number of targets. Once the receiver gain settings are correct
 for the AUTO Pulse test, a minimum of 11 targets will be visible. The WSO should initiate
@@ -595,10 +606,9 @@ WSO selects a range of 5, the scope will revert to a B-sweep presentation.
 
 Computer functions can be checked with the WSO selecting RDR for mode, the pilot placing the
 gun/missile switch to Radar, and selecting CW ON. Once an [AIM-7](../stores/air_to_air/aim_7.md) is
-tuned with a RDR status light,
-the third test target should be locked. The aim dot will be stationary and centered within the upper
-calibration area, and the Vc gap will be at the 3 o'clock position, which is correct for the ASE
-interlock/ranging of the simulated target.
+tuned with a RDR status light, the third test target should be locked. The aim dot will be
+stationary and centered within the upper calibration area, and the Vc gap will be at the 3 o'clock
+position, which is correct for the ASE interlock/ranging of the simulated target.
 
 Range track memory is confirmed by locking the second test target with AUTO Pulse enabled, then
 switching to Test 0, and monitoring the time it takes the system to unlock. Break lock will occur
@@ -611,12 +621,12 @@ This track memory test can be performed with SHORT Pulse set, and the timing sho
 
 ### Test 2
 
-Beginning the pure air-to-air function sequences confirming break lock
-and [AIM-7](../stores/air_to_air/aim_7.md) head aim, selection
-of Test 2 positions the radar 20 degrees right of center, and elevation 40 degrees above center.
-With the WSO selecting the SHORT pulse option and the radar locked on the second target, the system
-will retain lock longer than 30 seconds of the skin track (SKIN TRK) light illuminating. Against the
-tenth target, the radar will break lock within 30 seconds of the skin track light.
+Beginning the pure air-to-air function sequences confirming break lock and
+[AIM-7](../stores/air_to_air/aim_7.md) head aim, selection of Test 2 positions the radar 20 degrees
+right of center, and elevation 40 degrees above center. With the WSO selecting the SHORT pulse
+option and the radar locked on the second target, the system will retain lock longer than 30 seconds
+of the skin track (SKIN TRK) light illuminating. Against the tenth target, the radar will break lock
+within 30 seconds of the skin track light.
 
 The Vc gap will position at 3 o'clock if the antenna has reached the correct gimbal position and are
 within 6 degree tracking capabilities of the APQ-120 are confirmed against a series of test targets.
@@ -633,8 +643,8 @@ series is disregarded.
 As mentioned, range display position is confirmed on target five and fifteen. When functioning
 properly:
 
-the Fifth target will align with the first scribe line from the bottom of the scope, and
-the Fifteenth target will align with the third scribe line from the bottom of the scope.
+the Fifth target will align with the first scribe line from the bottom of the scope, and the
+Fifteenth target will align with the third scribe line from the bottom of the scope.
 
 Angle track testing can also be performed for boresight mode by selecting BST.
 
@@ -653,12 +663,11 @@ using the antenna hand control, and the display resets back to a standard search
 half-action. To confirm AOJ override, the WSO should then press full action, then positioning the
 AOJ track switch to AOJ OUT; the track display should clear and return to search.
 
-For simulated Doppler injection testing, the pilot should switch CW Power on and
-select [AIM-7](../stores/air_to_air/aim_7.md) on the
-guns/missile switch. The WSO should lock a test target, then observe the Vc display; the Vc gap on
-the ccw edge should be found between 1 and 2 o'clock. This is the correct display area for the
-simulated Doppler signal. The correct speed readout will fall between 550 +/-150 knots, and end in H
-during the HOJ sequence.
+For simulated Doppler injection testing, the pilot should switch CW Power on and select
+[AIM-7](../stores/air_to_air/aim_7.md) on the guns/missile switch. The WSO should lock a test
+target, then observe the Vc display; the Vc gap on the ccw edge should be found between 1 and 2
+o'clock. This is the correct display area for the simulated Doppler signal. The correct speed
+readout will fall between 550 +/-150 knots, and end in H during the HOJ sequence.
 
 Angle track drift is checked by locking a target in Test 3, switching into Test 4, and positioning
 the B-sweep and El strobe to zero azimuth and elevation respectively. Switching the Power knob to
@@ -672,10 +681,9 @@ and -21 degrees, while the B-sweep width will be two degrees wide.
 
 Test 5 confirms proper function of range rate, lead angle error, CAA performance, and the Power
 Level Mode Switching (PLMS) circuits. The test is initiated with B WIDE or B NAR, and the
-acquisition
-of a target. Range rate is indicated with the counter-clockwise edge of the Vc gap, which will
-display at 12 o'clock when [AIM-7](../stores/air_to_air/aim_7.md) or (../stores/air_to_air/aim_9.md)
-is selected. The aim dot and range rate circle display the
+acquisition of a target. Range rate is indicated with the counter-clockwise edge of the Vc gap,
+which will display at 12 o'clock when [AIM-7](../stores/air_to_air/aim_7.md) or
+(../stores/air_to_air/aim_9.md) is selected. The aim dot and range rate circle display the
 indications for a stationary target at 1-mile range, with a 0.56 inch diameter ASE circle,
 representing a 12 foot per second radius. The range rate indicates 0 +/- 300 knots.
 
@@ -702,10 +710,10 @@ which should be between 1.4 to 1.8. The pulse setting should be then changed to 
 a MAG current value drop to 0.9 to 1.15, which is the operating value range for the PLMS system.
 Next, the WSO should select AIR-GND mode. The MAG reading should maintain a value of 0.9 to 1.15,
 which confirms automatic transition to SHORT Pulse mode, and the display switches to a 5 degree
-offset B-sweep with the acquisition cursor centered horizontally on it, and the elevation strobe
-at 0. The antenna hand controller should be moved fore and aft, confirming the correct transition
-of the acquisition symbol along the B-sweep. The fourth target should then be locked to confirm the
-ASE circle displays without a range rate circle.
+offset B-sweep with the acquisition cursor centered horizontally on it, and the elevation strobe at
+0. The antenna hand controller should be moved fore and aft, confirming the correct transition of
+the acquisition symbol along the B-sweep. The fourth target should then be locked to confirm the ASE
+circle displays without a range rate circle.
 
 One additional function in Test 5 is preparation for correct VI (Vis-Ident) mode performance. With
 the Aspect knob in the TAIL position, selecting VI as the Display mode will switch to the VI
@@ -718,22 +726,22 @@ incrementing will stop changing, and the system will then track any further head
 ### Test 6
 
 Test 6 checks [AIM-7](../stores/air_to_air/aim_7.md) display and interlock functionality. It will
-begin by presenting reference of
-the OFP version loaded in the Vc/Range window of the display. Launch zone parameters are pre-set
-independently of the missiles loaded, and is set with Rmax between 13.5 and 16.5 miles, and Rmin
-between 3.25 and 6.25 miles. The aim dot is placed within the upper calibration region, and the ASE
-circle is fixed in size. The HOLD ALT light next to the pilot's radar scope illuminates.
+begin by presenting reference of the OFP version loaded in the Vc/Range window of the display.
+Launch zone parameters are pre-set independently of the missiles loaded, and is set with Rmax
+between 13.5 and 16.5 miles, and Rmin between 3.25 and 6.25 miles. The aim dot is placed within the
+upper calibration region, and the ASE circle is fixed in size. The HOLD ALT light next to the
+pilot's radar scope illuminates.
 
 To begin the sequence, the WSO should select half-action and position the range strobe past 14
 miles. Having done so, the WSO then slowly pulls the range strobe back towards minimum range.
 
 The HOLD ALT lamp will go off, and one of the two following indications will occur:
 
-If [AIM-7F](../stores/air_to_air/aim_7.md) are loaded or simulated, the Vc indicator will show
-3'o clock and 900 knots with Radar selected, and CW ON or STBY
+If [AIM-7F](../stores/air_to_air/aim_7.md) are loaded or simulated, the Vc indicator will show 3'o
+clock and 900 knots with Radar selected, and CW ON or STBY
 
-If [AIM-7E](../stores/air_to_air/aim_7.md) are loaded or simulated, the Vc indicator will show
-12'o clock and 000 knots with CW OFF.
+If [AIM-7E](../stores/air_to_air/aim_7.md) are loaded or simulated, the Vc indicator will show 12'o
+clock and 000 knots with CW OFF.
 
 With the range strobe between Rmax and Rmin, the IN RANGE light will be on and SHOOT lights will
 flash. They will turn off when the range strobe passes below Rmin, and the break X indication will
@@ -753,26 +761,23 @@ and signal values.
 
 ### Vc Switch
 
-With selections of 900 and 2700, the switch is used to scale the Vc gap as displayed in F-4Es with the DVST installed, with the newer DSCG
-installed, the switch must remain in the 2700 position at all times for proper APQ-120 system
-performance and monitoring.
+With selections of 900 and 2700, the switch is used to scale the Vc gap as displayed in F-4Es with
+the DVST installed, with the newer DSCG installed, the switch must remain in the 2700 position at
+all times for proper APQ-120 system performance and monitoring.
 
 ### Stab Switch
 
 The STAB switch controls the antenna pitch and roll stabilization modes. The default NOR (normal)
 position maintains stabilization in both channels, and INS system drift compensation is further
-applied in specific modes (AIR-GND). In STAB OUT the stabilization of pitch, roll, and INS drift is removed from the radar
-antenna. DRIFT OUT maintains pitch and roll stabilization, while removing the INS drift
-compensation in modes which use it.
+applied in specific modes (AIR-GND). In STAB OUT the stabilization of pitch, roll, and INS drift is
+removed from the radar antenna. DRIFT OUT maintains pitch and roll stabilization, while removing the
+INS drift compensation in modes which use it.
 
 ## Digital Scan Converter Group
 
-![Pilot System Overview](../img/eotgt_pilot_overview.jpg)
-![WSO System Overview](../img/eotgt_wso_overview.jpg)
-
 The Digital Scan Converter Group (DSCG) provides an integrated display system of the F-4E's radar
 and electro-optical systems. The system is composed of the front and rear seat scopes, and is driven
-by the Indicator Control Unit - which performs conversion of radar and video signals, along with the
+by the Indicator Control Unit- which performs conversion of radar and video signals, along with the
 application of information and fire control cueing symbology.
 
 Because the ICU is a signal interpreter, and thus the DSCG panel the output of its work, the
@@ -788,7 +793,8 @@ The Grid knob controls brightness of the display field grid.
 ### HOJ Light (H)
 
 The HOJ light illuminates to provide indication that the radar has transitioned to an angle tracking
-HOJ operation, using only memorized range and range rate information if a jamming condition is detected.
+HOJ operation, using only memorized range and range rate information if a jamming condition is
+detected.
 
 ### Scale
 
@@ -798,8 +804,7 @@ field.
 ### Track Light (T)
 
 The Track light illuminates to confirm an angle and range-based lock-on against a target. Same as
-the
-SKIN TRK light.
+the SKIN TRK light.
 
 ### Contrast (CONTR)
 
@@ -827,12 +832,10 @@ The DSCG Mode knob is used to select the current mode of the display.
 
 - DSCG TEST displays a dest field to confirm proper display function. The DSCG display field shows a
   search display with eight shades of grey to confirm proper operation and contrast. Prior to entry
-  of
-  this mode for testing, Range 10 should be selected for correct sizing of the shaded fields.
+  of this mode for testing, Range 10 should be selected for correct sizing of the shaded fields.
 
 - RDR BIT is a built-in test mode that functions in conjunction with the radar for calibration of
-  the
-  signals provided from the radar with the DSCG's ICU.
+  the signals provided from the radar with the DSCG's ICU.
 
 - RDR is the operational mode for use with the APQ-120.
 
@@ -855,13 +858,9 @@ with a target return for automatic lock-on, or selection of MAN Vc rates require
 With proper bracketing and range strobe adjustment, full-action attempts the automatic lock-on, or
 initiates manual angle tracking of the intended target.
 
-The interaction of half- and full-action for
-the [AGM-65 Maverick](../stores/air_to_ground/missiles/maverick.md) is detailed in the section on
-AGM employment.
-
-The interaction of half- and full-action for
-the [Pave Spike Targeting Pod](weapon_systems/pave_spike/overview.md) is detailed on the controls
-section.
+The interaction of half- and full-action for the [AGM-65
+Maverick](../stores/air_to_ground/missiles/maverick.md) is detailed in the section on AGM
+employment.
 
 ## Range VISIDENT Indicator
 
@@ -872,7 +871,7 @@ display modes; the indicator does not function in air to ground modes.
 
 ## Air to Air Button
 
-The Air to Air button is a button and a light with the primary function of confirming entry into CAGE
-mode. When the crew desires to disengage CAGE mode, the WSO can press the light (which also
+The Air to Air button is a button and a light with the primary function of confirming entry into
+CAGE mode. When the crew desires to disengage CAGE mode, the WSO can press the light (which also
 functions as a button) to exit CAGE mode and revert to the current selected settings from the Radar
 Control Set.
