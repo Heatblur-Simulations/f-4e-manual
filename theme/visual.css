@@ -62,6 +62,14 @@ h3 {
   font-family: "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif;
 }
 
+h2 {
+  margin-block-start: 1.5em;
+}
+
+h3 {
+  margin-block-start: 0.5em;
+}
+
 img {
   display: flex;
   margin: 0 auto;
