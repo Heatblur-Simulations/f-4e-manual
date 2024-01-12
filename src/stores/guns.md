@@ -30,6 +30,8 @@ locked target, or a default 1000' range setting in the event of no lock. With a
 lock, the range bar presentation is relative to 6700' just to the left of the
 tick at the 1 o-clock position, down to 1000' at the 6 o-clock position.
 
+![radar_gun_lock](../img/radar_gun_lock.jpg)
+
 For air to ground use,
 the [optical sight](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/dcsg_controls.html#sight-mode-knob)
 should be selected to A/G mode, the

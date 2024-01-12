@@ -399,15 +399,47 @@ local isAirborne = GetJester().awareness:GetObservation("airborne") or false
 One key aspect of Jester is that he can interact with the cockpit by clicking
 switches, buttons and turning knobs.
 
-Thefore, the API offers methods such as `Click` and `ClickKnob` based on device
-and command IDs:
+Therefore, the API offers two approaches.
+
+### Component Interactions
+
+The preferred way to interact with the cockpit is via the component system.
+
+To allow interaction, a manipulator has to be registered at `F_4E_WSO_Cockpit.lua`:
+
+```lua
+-- ChaffMode: OFF, SGL, MULT, PROG
+self:AddManipulator(
+  "Chaff Mode",
+  {component_path = "/WSO Cockpit/WSO Left Console/AN_ALE-40 CCU/Chaff Mode Knob"}
+)
+```
+
+After that, it can easily be interacted with, for example:
+
+```lua
+Click("Chaff Mode", "MULT")
+```
+
+or reading its current value:
+
+```lua
+local cockpit = GetJester():GetCockpit()
+local chaff_mode = cockpit:GetManipulator("Chaff Mode"):GetState()
+```
+
+### Raw Interactions
+
+If the desired switch does not support the component interface yet,
+one can instead fall back on a raw interface that invokes DCS commands directly,
+as if the player would have triggered a bind manually.
 
 ```lua
 -- sends value 1 via command WSO_EJECT_INSTANT to device EJECTION_SEAT_SYSTEM
-Click(devices.EJECTION_SEAT_SYSTEM, device_commands.WSO_EJECT_INSTANT, 1)
+ClickRaw(devices.EJECTION_SEAT_SYSTEM, device_commands.WSO_EJECT_INSTANT, 1)
 
 -- sends the value corresponding to position 2 on a 7-position knob
-ClickKnob(devices.HUD_AN_ASG_26, device_commands.HUD_SelectHUDMode, 2, 7)
+ClickRawKnob(devices.HUD_AN_ASG_26, device_commands.HUD_SelectHUDMode, 2, 7)
 ```
 
 See `devices.lua` for all available devices and likewise `command_defs.lua` for
@@ -426,7 +458,7 @@ also from within Lua. The system follows a simple observer/listener pattern:
 
 ```lua
 ListenTo("go_silent", function()
-  Click(devices.RADAR, device_commands.RADAR_Power_Knob_RIO, 3, 5) -- Standby
+  Click("Radar Power", "STBY")
 end)
 ```
 

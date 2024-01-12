@@ -5,6 +5,27 @@ menu in DCS.
 
 ![Special Option Menu](../img/special_options.jpg)
 
+## Radio Menu and PTT Behavior
+
+![Radio Menu](../img/special_options_radio_menu.jpg)
+
+Dropdown to select the behavior of the push to talk bind for the radio.
+
+| Option          | Close Menu | Menu must be open | Export Voice |
+| --------------- | ---------- | ----------------- | ------------ |
+| Default         | ❌         | ❌                | ✅           |
+| Open Menu       | ❌         | ✅                | ✅           |
+| Hide on Release | ✅         | ❌                | ✅           |
+| No Export       | ❌         | ❌                | ❌           |
+
+The columns have the following effects:
+
+- Close Menu - when releasing the key, the DCS communication menu is
+  automatically closed
+- Menu must be open - the key only works when the DCS communication menu is
+  currently open
+- Export Voice - when pressed down, voice is exported to tools like SRS
+
 ## Stick Deflection Limit
 
 Limits the maximum force in lbf (Pound-Force), i.e. strength, the pilot is able

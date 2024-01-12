@@ -213,7 +213,7 @@
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
+                        <!-- Navigation button at bottom -->
                         {{#previous}}
                             <a rel="prev" href="{{ path_to_root }}{{link}}" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
@@ -227,40 +227,32 @@
                         {{/next}}
 
                         <div style="clear: both"></div>
+                    </nav>
+                    <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                        {{#previous}}
+                            <!-- Navigation button at bottom -->
+                            <a rel="prev" href="{{ path_to_root }}{{link}}" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <!-- Navigation button on the left, not displayed, but needed for Aria nav -->
+                            <a rel="prev" href="{{ path_to_root }}{{link}}" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        {{/previous}}
+
+                        {{#next}}
+                            <!-- Navigation button at bottom -->
+                            <a rel="next prefetch" href="{{ path_to_root }}{{link}}" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                            <!-- Navigation button on the right, not displayed, but needed for Aria nav -->
+                            <a rel="next prefetch" href="{{ path_to_root }}{{link}}" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        {{/next}}
                     </nav>
                 </div>
             </div>
-
-                                <nav class="nav-wrapper" aria-label="Page navigation">
-                        <!-- Mobile navigation buttons -->
-                        {{#previous}}
-                            <a rel="prev" href="{{ path_to_root }}{{link}}" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
-                            </a>
-                        {{/previous}}
-
-                        {{#next}}
-                            <a rel="next prefetch" href="{{ path_to_root }}{{link}}" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        {{/next}}
-
-                        <div style="clear: both"></div>
-                    </nav>
-
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                {{#previous}}
-                    <a rel="prev" href="{{ path_to_root }}{{link}}" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                {{/previous}}
-
-                {{#next}}
-                    <a rel="next prefetch" href="{{ path_to_root }}{{link}}" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                {{/next}}
-            </nav>
 
         </div>
 

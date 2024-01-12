@@ -42,6 +42,8 @@ diameter circle (outer) functions as a range bar when a radar lock is achieved
 against a target, displaying ranges up to 20,000' (top) to 3000' (bottom), with
 12,000' signified at the 3 o-clock position.
 
+![range_bar_radar_guided_missile](../../img/radar_missile_lock.jpg)
+
 When radar lock against a target is achieved with AIM-7 selected, a pair of
 strobes surround the locked target in azimuth. Identified as Rmax and Rmax 2,
 they represent effective ranges against a 1 G target (Rmax), and a high rate
@@ -52,6 +54,8 @@ lock; this functions as a missile flyout timer. When the timer reaches the
 locked target, it can be assumed the missile has arrived. The display does not
 provide Rmin, but instead reverts to a break X warning superimposed over the
 radar image should Rmin be attained for a Sparrow launch.
+
+![radar_screen_radar_missile_lock](../../img/radar_screen_radar_missile_lock.jpg)
 
 Prior to engagement, a determination must be made as to whether or not the
 missile [interlocks](../../cockpit/pilot/weapon_management.md#interlock-switch)
@@ -130,19 +134,12 @@ Aero-27 precludes any release, even if the round has been dropped.
 The following variants of the AIM-7 family are available for this variant of the
 Phantom:
 
-| Variant | Description                                                                                                                                                                                                                                                                                                                                                                                                     |
-|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| E       | The AIM-7E Sparrow was an early version of the Sparrow missile, entering service in the 1960s. t featured semi-active radar homing guidance, relying on radar illumination from the launching aircraft for target tracking.                                                                                                                                                                                     |
-| E-2     | The AIM-7E2 dogfight sparrow was an improved version of the AIM-7E, featuring terminal guidance gains providing improved dogfight performance.                                                                                                                                                                    |
-| F       | The AIM-7F, an upgraded variant, introduced improvements in the missile's guidance system and reliability. It featured enhanced seeker technology and improved signal processing capabilities, enhancing its ability to engage targets at longer ranges.                                                                                                                                                        |
-| M       | The AIM-7M Sparrow represented a significant advancement in Sparrow missile technology and became a widely used variant. It incorporated a more advanced guidance system, including a monopulse radar seeker, which improved tracking accuracy and resistance to electronic countermeasures. The AIM-7M had a longer range compared to its predecessors, making it a versatile medium-range air-to-air missile. |
-
-
 | Type  | Description |
 |-------|-------------|
-|AIM-7E | The AIM-7E Sparrow was an early version of the Sparrow missile, entering service in the 1960s.|
-|AIM-7E2| Changes were made to address problems with the sparrow in dogfights. The terminal gains |
-
+|AIM-7E | The E Sparrow was an early version of the Sparrow missile, entering service in the 1960s, which uses proportional navigation and Semi Active Radar Homing to guide. |
+|AIM-7E2| Changes were made to improve the performance in close range dogfight situations, at the expense of energy retention in longer ranged engagements. Fuzing time is also reduced allowing for proper fuzing in close engagements. |
+|AIM-7F | The F Sparrow was upgraded to be solid state, have a higher performance two stage motor (boost and sustainer) and have improved electronics including the ability to coast targets through the main lobe clutter and altitude lines. These changes also make the seeker able to detect targets from further range and with increased countermeasure resitance and track using both continuous wave and pulse doppler guidance signals unlike the E,E2 and E3 which can only guide on continuous wave.
+|AIM-7M | The M was the first inverse monopulse sparrow providing increased tracking precision, it also has improved motor performance and electronics, including improved clutter and countermeasure rejection. The M like all sparrows can also guide using continuous wave, at a degraded tracking precision.
 
 
 Below is a very basic comparitive summary of each sparrow's performance in some general areas.

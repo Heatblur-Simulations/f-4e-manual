@@ -24,8 +24,8 @@
 |    | a. WRCS mode           | DF REJ         |
 |  | b. LOFT mode           | NORM           |
 
-| # | AGM-45 Missile launch             |                |
-|---|-----------------------------------|----------------|
-| 1 | MASTER ARM SWITCH                 | ARM            |
-| 2 | ADI VERTICAL DIRECTOR POINTER     | NULL           |
-| 3 | BOMB BUTTON                       | PRESS          |
+| Step | AGM-45 Missile launch             | Action |
+|------|-----------------------------------|--------|
+| 1    | MASTER ARM SWITCH                 | ARM    |
+| 2    | ADI VERTICAL DIRECTOR POINTER     | NULL   |
+| 3    | BOMB BUTTON                       | PRESS  |

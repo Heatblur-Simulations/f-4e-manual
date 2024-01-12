@@ -124,6 +124,8 @@
   - [Guns](./procedures/m61a1_nose_gun_and_suu_23.md)
   - [AGM-45 Shrike](./procedures/agm_45.md)
   - [AGM-65 Maverick](./procedures/agm-65.md)
+  - [AGM-12 Bullpup](./procedures/agm-12_bullpup.md)
+  - [EO-Guided-Bombs](./procedures/eo_guided_bombs.md)
   - [Bombs](./procedures/bombs/overview.md)
     - [Direct](./procedures/bombs/bombs_direct_delivery.md)
     - [Dive Toss and Dive Laydown](./procedures/bombs/bombs_dive_toss_and_laydown.md)

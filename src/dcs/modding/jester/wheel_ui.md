@@ -71,7 +71,11 @@ To react to a selected action, listen to the corresponding event:
 
 ```lua
 ListenTo("select_tgt_1", function()
-  Click(
+  -- Component interface
+  Click("Nav Panel Function", "TARGET_1")
+
+  -- or Raw interface
+  ClickRaw(
     devices.NavigationComputer_AN_ASN_46A,
     device_commands.RIO_NAV_COMP_FUNCTION_SELECTOR_KNOB,
     3,

@@ -75,7 +75,11 @@ To react to a selected option, listen to the corresponding event:
 
 ```lua
 ListenTo("fuel_low_rtb", function()
-  Click(
+  -- Component interface
+  Click("Nav Panel Function", "TARGET_1")
+
+  -- or Raw interface
+  ClickRaw(
     devices.NavigationComputer_AN_ASN_46A,
     device_commands.RIO_NAV_COMP_FUNCTION_SELECTOR_KNOB,
     3,
