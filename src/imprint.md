@@ -8,7 +8,7 @@ Contact: <support@heatblur.se>
 
 <https://store.heatblur.com/>
 
-The Heatblur F-4E Team:
+## The Heatblur F-4E Team
 
 Nicholas Dackard, Creative Director and Lead Artist\
 Krzysztof Sobczak, Technical Director and Lead Programmer\
@@ -28,7 +28,11 @@ Davi Bernadino, Artist, 3D Model and Textures\
 Leon Foty, Artist, 3D Model\
 Ben Mährlein, Liveries and Art\
 Kenneth Ellis, Lead Author Manual\
-Andreas Sandin, Lead Design and Webdesign\
+Andreas Sandin, Lead Design and Web-Design\
 Adrian Caparzo, Video Editing and Trailers\
 Gabriel Stangl, Training Missions and Lessons\
-Daria Kurhuzova, Administrative Assistant\
+Daria Kurhuzova, Administrative Assistant
+
+### See You In The Skies
+
+![f4e_vapor_shot](img/Vapes_06.jpg)
