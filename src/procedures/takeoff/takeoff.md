@@ -3,7 +3,7 @@
 ## Normal Takeoff
 
 The slats out-flaps down position is recommended for all
-takeoffs. After taking the runway and completing
+takeoffs. After line-up on the runway and completing
 necessary pre-takeoff checks, engines can be run to 85%
 with brakes held and nose gear steering engaged to ensure
 nose gear alignment. With both engines
@@ -188,13 +188,13 @@ perform maximum performance maneuvers if any of the
 following checks are unsatisfactory.
 
 1. Pull nose up with 2G acceleration and release the
-stick. Aircraft should stabilize in one cycle.
+   stick. Aircraft should stabilize in one cycle.
 2. Yaw aircraft to one ball width and release rudder.
-Aircraft should stabilize in one cycle.
+   Aircraft should stabilize in one cycle.
 3. Roll to 30-45° bank and release stick. Aircraft
-should maintain bank angle. Roll to level flight
-and release stick. Aircraft should maintain wings
-level.
+   should maintain bank angle. Roll to level flight
+   and release stick. Aircraft should maintain wings
+   level.
 4. Gradually increase AOA through 11 1/2 units and
-ensure slats extend together. Decrease AOA below
-10 1/2 units and ensure slats retract together.
+   ensure slats extend together. Decrease AOA below
+   10 1/2 units and ensure slats retract together.
