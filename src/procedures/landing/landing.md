@@ -7,7 +7,7 @@ accomplished above 10,000 feet AGL and at a time when
 mission/flight demands are not critical. Prior to
 performing a rapid descent, the windshield and canopy
 surfaces should be preheated to prevent the formation of
-frost or fog. Lift becomes necessary to dump fuel during a
+frost or fog. If it becomes necessary to dump fuel during a
 descent, thrust settings in excess of 85% rpm may be
 required to ensure rapid inflight dumping.
 

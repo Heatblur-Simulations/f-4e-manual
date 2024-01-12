@@ -1,6 +1,7 @@
 # Interior Inspection and Pre-Start
 
-> 🚧 This section is under construction.
+> 💡 If a battery start is to be made, those checks requiring electrical power will have to be
+> performed after the engines have been started.
 
 ## WSO
 
@@ -230,6 +231,3 @@
 | 80.  | Oxygen quantity gage                                                                                                                                                                                                                                                                                                                  | CHECK (Cannot be done with battery start)         |
 |      | a. Check that the oxygen quantity is sufficient for the intended mission, the OFF flag on the gage face is not visible, and the OXYGEN LOW light is extinguished. Press oxygen test button and check OXYGEN LOW light and MASTER CAUTION light illuminate at 1 litre. Notify rear crewmember, if applicable that test is in progress. |
 | 81.  | Oxygen supply system                                                                                                                                                                                                                                                                                                                  | CHECK AND SET                                     |
-
-> 💡 If a battery start is to be made, those checks requiring electrical power will have to be
-> performed after the engines have been started.
