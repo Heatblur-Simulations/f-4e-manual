@@ -23,5 +23,6 @@ Here is an explanation of the designations used:
 * Entries marked **bold** are necessary to be performed.
 * The 🔧 icon indicates that the given step involves or may involve
 [crew chief](../crew_chief/overview.md) interaction.
+* The ⚡ icon means that given step **cannot** be performed when battery start is made.
 
 ![real_life_crew_with_manual](../img/real_life_crew_with_manual.jpg)
