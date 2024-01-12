@@ -90,6 +90,12 @@ ol.section ol {
 
 .chapter-item.affix {
   font-size: 100% !important;
+  text-transform: uppercase;
+}
+
+.chapter-item.affix a {
+  display: flex;
+  margin: 0 auto;
 }
 
 .sidebar-scrollbox {
@@ -165,4 +171,8 @@ ol.section ol {
   margin: 0 7px;
   padding-bottom: 5px;
   color: var(--icons) !important;
+}
+
+ol.chapter {
+  margin-top: 0px;
 }
