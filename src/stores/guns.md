@@ -74,6 +74,9 @@ minute, and up to three can be concurrently installed and driven by the fire
 control system; while up to five can be loaded for ferry purposes, and
 promotional images have shown such a configuration, only three can be activated.
 
+> 💡 The inner wing pylons 2 and 8 are not wired to operate the pods.
+> Only the center station and the outer wing pylons can fire the guns.
+
 The primary difference between the -16/A and -23/A pods are their method of
 power; the former using a ram air turbine arrangement to drive its motor, while
 the latter is internally powered. This difference had an effect on relative

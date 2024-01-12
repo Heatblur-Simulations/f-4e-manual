@@ -27,7 +27,7 @@ loaded on a single specific pylon. For example, AN/ALQ-119 and AN/ALQ-131 may on
 be equipped on the left inboard pylon (station 4), requiring the crew to choose
 between the Pave Spike targeting pod and a jammer.
 
->💡 Due to engine limitations, effectiveness of all jammers in DCS are identical.
+> 💡 Due to engine limitations, effectiveness of all jammers in DCS are identical.
 
 ## Controls
 
