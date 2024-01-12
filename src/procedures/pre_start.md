@@ -35,15 +35,15 @@
 |------|--------------------------------|---------------------------------------------|
 | 1.   | Instrument ground power switch | ACTUATE (Cannot be done with battery start) |
 | 2.   | Navigation Computer            | SET                                         |
-|      | a. NAV COMP MODE 	             | STBY                                        |
-|      | b. WIND COUNTERS		             | SET                                         |
-|      | c. VARIATION COUNTER		         | SET                                         |
-|      | d. POS UPDATE SWITCH		         | NORM                                        |
-|      | e. PRESENT POS COUNTER		       | SET                                         |
-|      | f. TARGET COUNTERS	            | SET FOR TGT 2                               |
-|      | g. NAV COMP MODE		             | RESET                                       |
-|      | h. NAV COMP MODE	              | STBY                                        |
-|      | i. TARGET COUNTERS	            | SET FOR TGT 1                               |
+|      | a. NAV COMP MODE               | STBY                                        |
+|      | b. WIND COUNTERS               | SET                                         |
+|      | c. VARIATION COUNTER           | SET                                         |
+|      | d. POS UPDATE SWITCH           | NORM                                        |
+|      | e. PRESENT POS COUNTER         | SET                                         |
+|      | f. TARGET COUNTERS             | SET FOR TGT 2                               |
+|      | g. NAV COMP MODE               | RESET                                       |
+|      | h. NAV COMP MODE               | STBY                                        |
+|      | i. TARGET COUNTERS             | SET FOR TGT 1                               |
 | 3.   | INS alignment                  | AS DESIRED                                  |
 
 ### Interior Check (WSO)
