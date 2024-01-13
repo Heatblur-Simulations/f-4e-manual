@@ -113,7 +113,7 @@ control stick can be less than that in the front cockpit relative to the amount
 of deflection; conversely, when returning control to the front cockpit, the rate
 can jump due to said difference.
 
-## Auotmatic Flight Control System (AFCS)
+## Automatic Flight Control System (AFCS)
 
 The automatic flight control system (AFCS) is an electro-hydraulic system designed to provide
 stable, accurate and coordinated flight maneuvers without interferring with manual control. The
@@ -139,8 +139,8 @@ a [three position switch](../../cockpit/pilot/left_console/wall.md#slatsflaps-co
 outboard of the left [throttle](../../cockpit/pilot/left_console/front_section.md#throttles)
 handle in the front cockpit and driven by the aircraft hydraulic system.
 The [three switch positions](../../cockpit/pilot/left_console/wall.md#slatsflaps-control-panel) are
-Norm, Out, and Out and Down,
-and the resulting command can be moderated based on whether or not the landing gear being deployed.
+Norm, Out, and Out and Down, and the resulting command can be moderated based on whether or not the
+landing gear is being deployed.
 
 ![SlatsRelative](../../img/SlatsRelative.jpg)
 

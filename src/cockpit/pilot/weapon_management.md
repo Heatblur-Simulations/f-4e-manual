@@ -13,8 +13,8 @@ the bomb delivery mode.
 This panel provides the pilot with a readout of the slant range measured by the
 [Pave Spike](../../systems/weapon_systems/pave_spike/overview.md) Targeting Pod (x100 ft).
 
-When the Test-Button is pressed, the display shows 888, the knob underneath it
-controls the brightness of the readout.
+When the Test-Button is pressed, the display shows 888. The knob underneath the test button controls
+the brightness of the readout.
 
 The Mode-Knob allows the pilot to select one of two weapon delivery modes
 available with the pod:
@@ -31,7 +31,7 @@ mode. The knob below the readout can be used to adjust this range.
 
 The Head Up Display indicator panel provides weapon status for the Master Arm
 control as well as the current selected air-to-air weapon based on the position
-of the Guns/Missile switch on the left throttle handle.
+of the pinky switch on the left throttle handle.
 
 | Name  | Description                                                     |
 |-------|-----------------------------------------------------------------|
@@ -150,13 +150,13 @@ For further information see [Air-to-Ground weaponry.](../../stores/air_to_ground
 
 ![WSK](../../img/WSK.jpg)
 
-Selected for the type of weapon currently required, providing release signals to
-the AWRU (Aircraft Weapons Release Unit). ARM and TV positions inhibit air to
-air weapon firing unless a CAGE signal is active. ARM and TV positions do not
+Used to select the appropriate type of weapon, providing release signals to
+the AWRU (Aircraft Weapons Release Unit). ARM and TV positions inhibit air-to-air weapon firing
+unless a CAGE signal is active. ARM and TV positions do not
 affect tuning status of radar guided weapons. Positions are as follows:
 
 | Name        | Description                                                                                   |
-| ----------- | --------------------------------------------------------------------------------------------- |
+|-------------|-----------------------------------------------------------------------------------------------|
 | AGM-12      | [AGM-12 Bullpup](../../stores/air_to_ground/missiles/bullpup.md)                              |
 | BOMBS       | Bombs (all types).                                                                            |
 | RKTS & DISP | Rockets and dispensers.                                                                       |

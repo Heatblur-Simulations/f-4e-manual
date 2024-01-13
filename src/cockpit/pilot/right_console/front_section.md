@@ -125,7 +125,7 @@ raises and lowers the volume of the Aux receiver channel.
 
 ### Tone Button
 
-The Tone Pushbutton is used for transmission of a TOD signal along with a tone
+The Tone Pushbutton is used for transmission of a Time of Day (TOD) signal along with a tone
 to friendly aircraft requiring a Time of Day update for proper HAVE Quick
 functionality. It is also used to activate the emergency TOD clock for the radio
 itself, in conjunction with the T position of the A-3-2-T knob. Selecting the T
