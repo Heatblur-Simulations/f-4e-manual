@@ -135,7 +135,7 @@ turbine unit.
 A combined Nozzle Position Indicator is provided with two needles, one for each
 engine on their respective side, to confirm balanced nozzle position and
 scheduling relative to throttle position. The gauge provides four zones relative
-to the nozzles being in their fully open configuration, or their maximum closed
-configuration at the bottom. At idle, the indication will be roughly 7/8ths
+to the nozzles being in their fully open configuration (needle fully left), or their maximum closed
+configuration (needle fully right). At idle, the indication will be roughly 7/8ths
 open, and schedules down as throttle is increased. Position in the afterburner
 region will moderate to maintain safe EGT levels.

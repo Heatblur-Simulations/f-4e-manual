@@ -30,6 +30,8 @@ on the radar scope display when in TV mode.
 Controls the Airborne Video Tape recorder system which records the intercom
 sound, as well as the rear radar screen.
 
+For further information about the Recorder system see [9.5 Recorder](../../dcs/recorders.md).
+
 ### AVTR Switch
 
 With the switch in the RECORD position, footage is recorded on the cassette and
