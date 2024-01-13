@@ -63,7 +63,7 @@ stations.
 | GBU-8           |     |  1  |     |     |     |     |     |  1  |     |     2 |
 | GBU-15          |     |  1  |     |     |     |     |     |  1  |     |     2 |
 | FFAR (×19)      |  3  |  3  |     |     |  3  |     |     |  3  |  3  |   285 |
-| SUU-23          |  1  |  1  |     |     |  1  |     |     |  1  |  1  |     5 |
+| SUU-23          |  1  |     |     |     |  1  |     |     |     |  1  |     3 |
 | ALQ-131         |     |     |     |     |     |  1  |     |     |     |     1 |
 | AN/AVQ-23       |     |     |     |     |     |  1  |     |     |     |     1 |
 | AN/ALE-40       |     | (1) |     |     |     |     |     | (1) |     |     2 |
@@ -83,6 +83,6 @@ occupying the entire pylon.
 > ordnance. Hence, it is still possible to equip for example a Maverick on the
 > same pylon.
 
-Further, AN/ALE-40 Countermeasure Dispensers can be attached to the aft section of
-Pylon 2 and 8. Allowing the aircraft to carry a mix between 120 chaff and 60
+Further, AN/ALE-40 Countermeasure Dispensers can be attached to the aft section
+of Pylon 2 and 8. Allowing the aircraft to carry a mix between 120 chaff and 60
 flares in total.

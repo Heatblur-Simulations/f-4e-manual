@@ -20,7 +20,7 @@ The Utility Hydraulic System is pressurized by a hydraulic pump on each engine. 
 utility hydraulic pumps from resonating, check valves
 with different operating pressures are installed on the
 pump output lines. As a result, the right engine utility
-hydraulic pump will deliver 2775 +225 psi at idle rpm,
+hydraulic pump will deliver 2775 ±225 psi at idle rpm,
 and the left engine utility hydraulic pump will deliver
 approximately 3000 ±250 psi at idle rpm.
 The Utility System supplies hydraulic
@@ -73,7 +73,7 @@ the Master Caution warning.
 > 200 PSI or more on the Utility system pressure indicator. In the event system
 > pressure recovers back to above 1750 PSI, the CHK HYD GAGES light will turn off.
 
-With a CHK HYD GAGES warning, the Master Caution can be cleared by reseting; however, be aware that
+With a CHK HYD GAGES warning, the Master Caution can be cleared by resetting; however, be aware that
 if the CHK HYD GAGES light is still on at that certain moment, a subsequent hydraulic system failure
 will not re-trigger the Master Caution warning, with the consequence of not taking notice.
 

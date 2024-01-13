@@ -25,13 +25,13 @@ the target under current launch conditions.
 
 ![radar_screen_heat_missile_lock](../../img/radar_screen_heat_missile_lock.jpg)
 
->💡 The AIM-9 does not receive a guidance handoff from
+> 💡 The AIM-9 does not receive a guidance handoff from
 > the APQ-120 like on later aircraft to direct the seeker's look angle. Instead,
 > the ASE circle presents the aim dot against the target to bring it to the RBL.
 
 Centering the aim dot in the ASE aligns the target to the RBL, thus allowing for
 rapid acquisition by the seeker of the selected AIM-9. Once the missile's tone
-changes to signify lock, the pilot can then select the AAR button on the grip to
+changes to signify lock, the pilot can then hold down the AAR button on the grip to
 allow for Sidewinder self-track (seeker uncage); this function allows the seeker
 to maintain acquisition of the target (noted by the shifted audio tone), while
 permitting maneuver of the aircraft to a better aspect angle or range solution
@@ -59,7 +59,7 @@ The following variants of the AIM-9 family are available for this variant of the
 Phantom:
 
 | Variant   | Description                                                                                                                                                                                                          |
-| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | B         | First operational version of the Sidewinder family, entering service in the 1950s. It utilized an infrared homing seeker for target acquisition and tracking, making it a heat-seeking missile.                      |
 | J         | Featuring enhanced guidance and performance characteristics. It retained the infrared homing seeker but had improved sensitivity and better resistance to countermeasures.                                           |
 | JULI      | Variant of the AIM-9J developed by Israel. It featured modifications to meet specific operational requirements.                                                                                                      |

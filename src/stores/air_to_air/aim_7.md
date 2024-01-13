@@ -26,12 +26,16 @@ STBY. Once in the combat area, the [RDR MSL
 switch](../../cockpit/pilot/weapon_management.md#radar-missile-power-switch) should be returned to
 the CW ON position, to maintain proper missile tuning state during the engagement.
 
-To employ an AIM-7, the [optical sight](../../cockpit/pilot/dcsg_controls.md#sight-mode-knob) should
-be placed into the A/A position, which stabilizes the Reticle at the Radar Boresight Line in the
-window. The roll tabs function to provide the pilot with relative roll attitude guidance in
-instrument conditions (weather or nighttime), and the right side of the 50 mil diameter circle
-(outer) functions as a range bar when a radar lock is achieved against a target, displaying ranges
-up to 20,000' (top) to 3000' (bottom), with 12,000' signified at the 3 o-clock position.
+To employ an AIM-7,
+the [optical sight](../../cockpit/pilot/dcsg_controls.md#sight-mode-knob)
+should be placed into the A/A position,
+which stabilizes the Reticle at the Radar Boresight Line in the window. The roll
+tabs function to provide the pilot with relative roll attitude guidance in
+instrument conditions (weather or nighttime), and the right side of the 50 mil
+diameter circle (outer) functions as a range bar when a radar lock is achieved
+against a target, displaying ranges up to 20,000' (top) to 3000' (bottom), with
+12,000' signified at the 3 o-clock position. It is also possible to employ an AIM-7 using the ACM
+Mode via pressing the Cage Button first and than pressing the CAA Button to accomplish a lock.
 
 ![range_bar_radar_guided_missile](../../img/radar_missile_lock.jpg)
 

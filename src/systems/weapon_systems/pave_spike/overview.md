@@ -43,7 +43,7 @@ On the left, the image displays two cues:
 - Release Cue (T0)
 
 During weapon operation, TTg moves down until it intersects T0, indicating the
-time to release.
+time to release from maximally 15 seconds.
 
 ![pave_spike_symbology](../../../img/pave_spike_symbology.jpg)
 ![pave_spike_symbology_fov](../../../img/pave_spike_symbology_fov.jpg)
