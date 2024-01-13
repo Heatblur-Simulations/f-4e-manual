@@ -91,6 +91,7 @@ ol.section ol {
 .chapter-item.affix {
   font-size: 100% !important;
   text-transform: uppercase;
+  padding-left: 0px !important;
 }
 
 .chapter-item.affix a {
@@ -106,8 +107,12 @@ ol.section ol {
   padding-top: 0.4045em;
   padding-bottom: 0.4045em;
   padding-left: 1.618em;
+  line-height: 1.5em;
+  margin-block-start: 0px;
+}
 
-  line-height: 18px !important;
+.chapter li.chapter-item.affix {
+  padding-left: 0px !important;
 }
 
 .section {
@@ -128,11 +133,6 @@ ol.section ol {
 .section .chapter-item.expanded a {
   font-weight: bold;
   font-size: 14.4px;
-}
-
-.chapter li.chapter-item {
-  line-height: 1.5em;
-  margin-block-start: 0px;
 }
 
 .searchbar-outer, .searchresults-outer {
@@ -176,3 +176,4 @@ ol.section ol {
 ol.chapter {
   margin-top: 0px;
 }
+
