@@ -66,8 +66,8 @@ current PSI.
 
 ![StabTrimInd](../../img/StabTrimInd.jpg)
 
-Provides current stabilator trim setting in units (trim switch actuation) of
-trim. For Takeoff the trim should be between 1-3 units nose down.
+Provides current stabilator trim setting in units of trim (not equal to degrees). For Takeoff the
+trim should be between 1-3 units nose down.
 
 ## Landing/Taxi Lights Switch
 
@@ -103,4 +103,4 @@ See [ARI Disengage.](../../systems/flight_controls_gear/flight_controls.md#ailer
 Pulling this handle activates the Emergency Hydraulic Brake System, which dumps
 the remainder of the hydraulic accumulator into the brake system for a limited
 number of brake actuation. Differential braking will work, however the number
-of available actuation is limited.
+of available actuations is limited.

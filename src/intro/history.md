@@ -194,7 +194,7 @@ detonate, whereas the AIM-9 carried a proximity fuze; any Sidewinder that got
 close to its target was a threat to kill.
 
 ![f4_over_vietnam](../img/F-4Ds_435th_TFS_over_Vietnam.jpg)
-_(F4-D of the 435th TFS over Vietnam)_
+_(F-4D of the 435th TFS over Vietnam)_
 
 With initial F-4D deliveries to the 8th TFW in May of 1967, the performance of
 the new configuration was quickly met with derision. The employment envelope was
