@@ -39,7 +39,7 @@ auto-acquisition control for the radar in visual range combat, and sensor focus
 control for video-directed air to ground weapons.
 
 Holding the button down permits the crew member to steer the aircraft using the
-rudder. See
+rudder peddals. See
 [Nose Gear Steering](../../systems/flight_controls_gear/gear_ground_handling.md#nose-gear-steering)
 for details.
 
