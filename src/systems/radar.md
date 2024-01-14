@@ -113,14 +113,34 @@ to
 the expected target Doppler for the intercept. Once launched the speed-gate unlocks and sweeps the
 narrowly applied frequency of this simulated Doppler value. The WIDE option is available to permit
 the missile to search the full doppler spectrum for the target, rather than the limited width band
-set here.
+set here, however this can lead the sparrow to erroneously lock the main lobe clutter or the altitude
+line clutter returns if they are stronger than the target.
 
-With the application of NOSE, FWD, or TAIL on the Aspect knob, the target's aspect angle, altitude,
-and target heading are displayed in the upper right corner of the DSCG scopes in lieu of the range
-rate. Aspect angle is selected by positioning the Aspect knob to FWD, with right aspect values being
-positive (000 through 180) and left aspect negative (000 through -180). NOSE provides target
-altitude readout in thousand foot increments, but displayed in hundreds of feet (with the last digit
-always 0); as an example, 36,000' would be 360. TAIL provides target heading data.
+The aspect knob also controls the display mode of the DSCG numeric output. See below a table with
+the possible selections.
+
+See below the display and speed get settings for the various positions of the aspect knob, with Vc
+indicating selected closure velocity for the  speed gate, where TAS is the aircraft true airspeed.
+
+| Selection | DSCG Display   | Sparrow Speed Gate Setting (Vc) |
+|-----------|----------------|---------------------------------|
+|  WIDE     |Closure Velocity| Entire Spectrum                 |
+|  NOSE     |Altitude        | TAS + 450 +/- 150 kts           |
+|  FWD      |Aspect          | TAS + 240 +/- 150 kts           |
+|  AFT      |Closure Velocity| TAS - 240 +/- 150 kts           |
+|  TAIL     |Heading         | 0 +/- 150 kts                   |
+
+Closure Velocity - Displayed in knots with positive values indicating closing and negative values
+indicating opening.
+
+Altitude - Displayed in hundreds of feet (with the last digit always zero) for example 20,000 MSL
+would be displayed as 200.
+
+Aspect - Angle off the tail of the target aircraft to the shooter (ownship), this means if the
+target is flying directly away is 0 degrees and directly towards is 180 degrees. Left is shown by
+negative values and right by positive values.
+
+Heading - Heading is displayed in degrees from 000 - 360 with the last digit always zero.
 
 ### Receiver Gain (RCVR GAIN)
 
