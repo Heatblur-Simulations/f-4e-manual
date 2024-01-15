@@ -11,9 +11,9 @@ the external stores.
 
 ![PClock](../../img/PClock.jpg)
 
-A clock is provided for the pilot, including a stopwatch function. The stopwatch is being used
-by pressing the top right button and reset by pressing it again. The watch can be set by turning
-the knob on the left lower corner.
+A clock is provided for the pilot, including a stopwatch function. The watch can be set by turning
+the knob on the left lower corner. The stopwatch function is being used by pressing the top right
+button. It is reset by pressing the top right button again.
 
 ## Emergency Canopy Jettison Handle
 
