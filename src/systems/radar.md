@@ -105,22 +105,18 @@ revert to a 1 bar scan.
 
 ### Aspect
 
-Using the Aspect knob the WSO can provide an [AIM-7](../stores/air_to_air/aim_7.md) with a simulated
-Doppler signal rather than the
-actual return signal to set the desired target speed-gate for the missile. Once a Sparrow has
-been tuned, the NOSE, TAIL, FWD, and AFT options may be applied to set the speed-gate with respect
-to
-the expected target Doppler for the intercept. Once launched the speed-gate unlocks and sweeps the
-narrowly applied frequency of this simulated Doppler value. The WIDE option is available to permit
-the missile to search the full doppler spectrum for the target, rather than the limited width band
-set here, however this can lead the sparrow to erroneously lock the main lobe clutter or the altitude
-line clutter returns if they are stronger than the target.
+The aspect knob is used to provide the [Sparrow](../stores/air_to_air/aim_7.md) with a simulated
+doppler signal when **no lock** is achieved to aid with sparrow speed gate lockon when sparrow is
+to be fired in boresight. When the radar is tracking, the calculated (or manual if in manual) closure
+is
+used to set a narrow sparrow speed gate +/- 150 kts around the closure for the sparrow to
+search when launched.
 
-The aspect knob also controls the display mode of the DSCG numeric output. See below a table with
-the possible selections.
+The aspect knob also controls the display mode of the DSCG numeric output while the radar is is in
+track.
 
 See below the display and speed get settings for the various positions of the aspect knob, with Vc
-indicating selected closure velocity for the  speed gate, where TAS is the aircraft true airspeed.
+indicating selected closure velocity for the speed gate, where TAS is the aircraft true airspeed.
 
 | Selection | DSCG Display   | Sparrow Speed Gate Setting (Vc) |
 |-----------|----------------|---------------------------------|
