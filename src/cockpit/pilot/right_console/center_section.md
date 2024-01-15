@@ -14,6 +14,7 @@ Which would then be picked up by interrogators in other aircraft.
 
 Due to DCS limitations, the panel's simulation is partial but compatible with SRS.
 The functionalities included are:
+
 - Warmup sequence upon power-up.
 - Mode 1 with selected code
 - Mode 3 with selected code
