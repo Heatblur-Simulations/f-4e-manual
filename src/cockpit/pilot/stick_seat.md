@@ -29,18 +29,18 @@ located on the left side of the stick. It is a dual-role control that performs
 the boom disconnect function its name implies, as well as a number of weapon
 selection functions.
 
-See [Utility Systems](../../systems/utility.md#air-refueling-release-button) for
+See [3.7 Utility Systems](../../systems/utility.md#air-refueling-release-button) for
 details.
 
 ### Nose Wheel Steering Button
 
-Both sticks carry a Nose Wheel Steering button that doubles as a radar
+Both sticks carry a Nose Wheel Steering (NWS) button that doubles as a radar
 auto-acquisition control for the radar in visual range combat, and sensor focus
 control for video-directed air to ground weapons.
 
 Holding the button down permits the crew member to steer the aircraft using the
-rudder. See
-[Nose Gear Steering](../../systems/flight_controls_gear/gear_ground_handling.md#nose-gear-steering)
+rudder pedals. See
+[3.1.3 Gear & Ground handling, Nose Gear Steering section](../../systems/flight_controls_gear/gear_ground_handling.md#nose-gear-steering)
 for details.
 
 ### Emergency Quick Release Lever
@@ -49,7 +49,7 @@ An Emergency Quick Release lever on each stick is available to immediately
 deactivate the anti-skid, ARI, autopilot, and stability augmentation.
 
 See
-[Anti-Skid section](../../systems/flight_controls_gear/gear_ground_handling.md#emergency-anti-skid-quick-release-lever)
+[3.1.3 Gear & Ground handling, Anti-Skid section](../../systems/flight_controls_gear/gear_ground_handling.md#emergency-anti-skid-quick-release-lever)
 for details.
 
 ## Seat
@@ -59,7 +59,7 @@ for details.
 The seat allows the crew to eject out of the plane by pulling either the cord
 between the legs or above the head.
 
-See the [System section](../../systems/emergency.md#ejection-seats) for details
+See the [3.13 Emergency system section](../../systems/emergency.md#ejection-seats) for details
 on the seat and ejection mechanism.
 
 ### Drag Chute Handle
@@ -73,7 +73,7 @@ jettison the chute.
 
 Once jettisoned, the handle is released back into its normal position.
 
-See [Drag Chute System](../../systems/flight_controls_gear/gear_ground_handling.md#drag-chute-system)
+See [3.1.3 Gear & Ground handling, Drag Chute System section](../../systems/flight_controls_gear/gear_ground_handling.md#drag-chute-system)
 for details.
 
 ### Seat Position

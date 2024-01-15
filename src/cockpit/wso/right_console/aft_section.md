@@ -33,14 +33,14 @@ The STBY COMP switch illuminates the light for the Standby Compass.
 ### Console Floodlight
 
 The red console floodlights (CONSOLE FLOOD) are triggered independently of the knob
-when it is placed to the right of the OFF detent position, and offer three
+when it is rotated clock-wise of the OFF detent position, and offer three
 settings - DIM, MED, or BRT. The floodlights will remain on until the Console
 Light Control knob is returned to the OFF position, and the floodlight switch is
 placed in DIM. All three positions are powered by different buses to ensure
 maximal availability:
 
 | Lamp   | Bus                   |
-| ------ | --------------------- |
+|--------|-----------------------|
 | Bright | Essential 28V DC Bus  |
 | Medium | Left Main 14V AC Bus  |
 | Dim    | Left Main 115V AC Bus |
@@ -52,8 +52,8 @@ the various emergency indicators in the cockpit.
 
 ### Instrument Panel Knob
 
-The Flight Instrument Light Knob (marked INSTR PANEL), when moved to the right
-of the OFF detent, controls illumination of the following six instrument lights
+The Flight Instrument Light Knob (marked INSTR PANEL), when rotated clock-wise of the OFF
+detent, controls illumination of the following six instrument lights
 in unison:
 
 - Airspeed/Mach Indicator

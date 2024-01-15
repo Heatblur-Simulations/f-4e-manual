@@ -21,7 +21,8 @@ use the pods computed slant range and target instead.
 
 ![wrcs_auto_release_procedure](../../../img/wrcs_auto_release_procedure.jpg)
 
-The TTG cue will move down and meet the T0 cue to indicate the time to release.
+The TTG cue will move down and meet the T0 cue to indicate the time to release
+from maximally 15 seconds.
 
 ![TTg moves down to T0](../../../img/ttg_moes_to_tt0.jpg)
 

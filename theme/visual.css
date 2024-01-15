@@ -62,6 +62,14 @@ h3 {
   font-family: "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif;
 }
 
+h2 {
+  margin-block-start: 1.5em;
+}
+
+h3 {
+  margin-block-start: 0.5em;
+}
+
 img {
   display: flex;
   margin: 0 auto;
@@ -82,6 +90,13 @@ ol.section ol {
 
 .chapter-item.affix {
   font-size: 100% !important;
+  text-transform: uppercase;
+  padding-left: 0px !important;
+}
+
+.chapter-item.affix a {
+  display: flex;
+  margin: 0 auto;
 }
 
 .sidebar-scrollbox {
@@ -92,8 +107,12 @@ ol.section ol {
   padding-top: 0.4045em;
   padding-bottom: 0.4045em;
   padding-left: 1.618em;
+  line-height: 1.5em;
+  margin-block-start: 0px;
+}
 
-  line-height: 18px !important;
+.chapter li.chapter-item.affix {
+  padding-left: 0px !important;
 }
 
 .section {
@@ -114,11 +133,6 @@ ol.section ol {
 .section .chapter-item.expanded a {
   font-weight: bold;
   font-size: 14.4px;
-}
-
-.chapter li.chapter-item {
-  line-height: 1.5em;
-  margin-block-start: 0px;
 }
 
 .searchbar-outer, .searchresults-outer {
@@ -158,3 +172,8 @@ ol.section ol {
   padding-bottom: 5px;
   color: var(--icons) !important;
 }
+
+ol.chapter {
+  margin-top: 0px;
+}
+

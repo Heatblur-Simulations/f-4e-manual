@@ -63,8 +63,8 @@ aircraft for a longer time, as it will otherwise drain the battery.
 
 ### Instrument Panel Knob
 
-The Flight Instrument Light Knob (marked INSTR PANEL), when moved to the right
-of the OFF detent, controls illumination of the following six instrument lights
+The Flight Instrument Light Knob (marked INSTR PANEL),when rotated clock-wise of the OFF
+detent, controls illumination of the following six instrument lights
 in unison:
 
 - [Airspeed/Mach Indicator](../../pilot/flight_director_group.md#airspeed-and-mach-indicator)
@@ -85,7 +85,7 @@ illumination level for all panel edge lighting and the console floodlights.
 ### Console Floodlight
 
 The red console floodlights (CONSOLE FLOOD) are triggered independently of the knob
-when it is placed to the right of the OFF detent position, and offer three
+when it is rotated clock-wise of the OFF detent position, and offer three
 settings - DIM, MED, or BRT. The floodlights will remain on until the Console
 Light Control knob is returned to the OFF position, and the floodlight switch is
 placed in DIM. All three positions are powered by different buses to ensure

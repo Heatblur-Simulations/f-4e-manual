@@ -14,7 +14,7 @@ the event of BUS TIE OPEN, when the generators are not functioning in parallel.
 Indicators will trigger a Master Caution. In event of dual generator failure,
 neither will illuminate.
 
-For further information see [generator](../../systems/electrics.md).
+For further information see [3.8 Electrics chapter](../../systems/electrics.md).
 
 ## Feed Tank Check Switch
 

@@ -29,4 +29,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./book/html
           publish_branch: html
-          cname: manuals.heatblur.se
+          cname: f4.manuals.heatblur.se

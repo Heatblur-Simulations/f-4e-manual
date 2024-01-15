@@ -35,7 +35,8 @@ relative illumination of the AoA indexers on both sides of the windscreen.
 Marked positions are DIM and BRT (bright), with the highest level to the right of
 the knob.
 
-For further information on the lighting see the [Lighting chapter.](../../../systems/lighting.md)
+For further information on the lighting see
+the [3.9 Lighting chapter.](../../../systems/lighting.md)
 
 ## Circuit Breaker Panel
 
@@ -64,7 +65,8 @@ This auxiliary panel has various controls for lights and also audio.
 ### Stall Warning
 
 The Stall Warning knob controls the volume of
-the [AoA tones](../../../systems/flight_controls_gear/flight_controls.md#stall-warning-vibrator) that
+the [AoA tones](../../../systems/flight_controls_gear/flight_controls.md#stall-warning-vibrator)
+that
 play when flying at certain angles.
 
 Under certain conditions, the system can override the volume to ensure the cue
@@ -89,7 +91,7 @@ buses to ensure the emergency light is available even in case of failure.
 | Bright | Essential 28V DC Bus |
 | Dim    | Left Main 14V AC Bus |
 
-For further information on the lighting see the [Lighting chapter.](../../../systems/lighting.md)
+For further information on the lighting see the [3.9 Lighting chapter.](../../../systems/lighting.md)
 
 ### ML Audio
 

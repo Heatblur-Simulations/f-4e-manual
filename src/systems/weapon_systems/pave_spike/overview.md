@@ -43,7 +43,7 @@ On the left, the image displays two cues:
 - Release Cue (T0)
 
 During weapon operation, TTg moves down until it intersects T0, indicating the
-time to release.
+time to release from maximally 15 seconds.
 
 ![pave_spike_symbology](../../../img/pave_spike_symbology.jpg)
 ![pave_spike_symbology_fov](../../../img/pave_spike_symbology_fov.jpg)
@@ -91,7 +91,7 @@ Three flags indicate the elevation:
 - yellow: -155 to -160 degrees
 - red: -160 or beyond degrees
 
-If the needle is kept within the green labelled range and neither the yellow or
+> 💡 If the needle is kept within the green labelled range and neither the yellow or
 red flag are shown, the view will not be obstructed by the pod or the aircraft.
 
 ### Range Indicator
@@ -125,7 +125,7 @@ pressing the Enter-Button to the right.
 The Laser Coder system starts validating the entered code, this process takes
 about 5 seconds. If the NO-GO lamp is lit, the code is invalid.
 
-Codes directly relate to lasers frequencies, resulting in them having to be
+> 💡 Codes directly relate to lasers frequencies, resulting in them having to be
 between 1111 and 1788 and not use digits 0 or 9 in order to be valid.
 
 When power is applied to the system, it automatically initiates a transfer of
@@ -168,3 +168,6 @@ with the Antenna Hand Control, or Antenna Stick.
 
 The Challenge Button is used to zoom in or out, while the 2-stage trigger is
 used to switch between modes and fire the laser.
+
+> 💡 Controls are **not** inverted. Moving the stick up also
+> moves the view up (_pitch up_).

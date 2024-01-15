@@ -11,9 +11,9 @@ the external stores.
 
 ![PClock](../../img/PClock.jpg)
 
-A clock is provided for the pilot, including a stopwatch function. The stopwatch is being used
-by pressing the top right button and reset by pressing it again. The watch can be set by turning
-the knob on the left lower corner.
+A clock is provided for the pilot, including a stopwatch function. The watch can be set by turning
+the knob on the left lower corner. The stopwatch function is being used by pressing the top right
+button. It is reset by pressing the top right button again.
 
 ## Emergency Canopy Jettison Handle
 
@@ -66,8 +66,8 @@ current PSI.
 
 ![StabTrimInd](../../img/StabTrimInd.jpg)
 
-Provides current stabilator trim setting in units (trim switch actuation) of
-trim. For Takeoff the trim should be between 1-3 units nose down.
+Provides current stabilator trim setting in units of trim (not equal to degrees). For Takeoff the
+trim should be between 1-3 units nose down.
 
 ## Landing/Taxi Lights Switch
 
@@ -94,7 +94,8 @@ When pulled in conjunction with the Yaw ARI Stab Aug Switch disengaged, Yaw ARI
 will be fully removed. With the Yaw ARI Stab Aug Switch engaged, 5 degrees of
 ARI authority will be maintained.
 
-See [ARI Disengage.](../../systems/flight_controls_gear/flight_controls.md#aileron-rudder-interconnect-ari)
+See [3.1.2 Flight controls & AFCS](../../systems/flight_controls_gear/flight_controls.md#aileron-rudder-interconnect-ari)
+for further information.
 
 ## Emergency Brake Handle
 
@@ -103,4 +104,4 @@ See [ARI Disengage.](../../systems/flight_controls_gear/flight_controls.md#ailer
 Pulling this handle activates the Emergency Hydraulic Brake System, which dumps
 the remainder of the hydraulic accumulator into the brake system for a limited
 number of brake actuation. Differential braking will work, however the number
-of available actuation is limited.
+of available actuations is limited.

@@ -42,19 +42,19 @@
 
 ## After electrical power (WSO)
 
-| Step   | System                  | Action         |
-|--------|-------------------------|----------------|
-| 1.     | Navigation Computer     | SET            |
-|        | **a. NAV Comp Mode**    | **STBY**       |
-|        | b. Wind Counters        | SET            |
-|        | c. Variation Counter    | SET            |
-|        | d. POS Update Switch    | NORM           |
-|        | e. Present POS Counter  | SET            |
-|        | f. Target Counters      | SET FOR TGT 2  |
-|        | g. NAV Comp Mode        | RESET          |
-|        | h. NAV Comp Mode        | STBY           |
-|        | i. Target Counters      | SET FOR TGT 1  |
-| **2.** | **INS Alignment**       | **AS DESIRED** |
+| Step   | System                 | Action         |
+|--------|------------------------|----------------|
+| 1.     | Navigation Computer    | SET            |
+|        | **a. NAV Comp Mode**   | **STBY**       |
+|        | b. Wind Counters       | SET            |
+|        | c. Variation Counter   | SET            |
+|        | d. POS Update Switch   | NORM           |
+|        | e. Present POS Counter | SET            |
+|        | f. Target Counters     | SET FOR TGT 2  |
+|        | g. NAV Comp Mode       | RESET          |
+|        | h. NAV Comp Mode       | STBY           |
+|        | i. Target Counters     | SET FOR TGT 1  |
+| **2.** | **INS Alignment**      | **AS DESIRED** |
 
 ### INS Full Gyrocompass Alignment (WSO)
 
@@ -91,13 +91,14 @@ Takes roughly 2 minutes 15 seconds.
 
 Takes roughly 2 minutes 15 seconds.
 
-| Step | System            | Action   |
-|------|-------------------|----------|
-| 1.   | NAV Comp Mode     | STBY     |
-| 2.   | Align Mode Switch | HDG MEM  |
-| 3.   | INS Power Knob    | ALIGN    |
-| 4.   | Alignment         | WAIT     |
-|      | a. HEAT Light     | IGNORE   |
-|      | b. ALIGN Light    | FLASHING |
-| 5.   | INS Power Knob    | NAV      |
-| 6.   | INS Light         | OUT      |
+| Step | System            | Action    |
+|------|-------------------|-----------|
+| 1.   | NAV Comp Mode     | STBY      |
+| 2.   | Align Mode Switch | HDG MEM   |
+| 3.   | INS Power Knob    | ALIGN     |
+| 4.   | Alignment         | WAIT      |
+|      | a. HEAT Light     | IGNORE    |
+|      | b. ALIGN Light    | FLASHING  |
+| 5.   | INS Power Knob    | NAV       |
+| 6.   | INS Light         | OUT       |
+| 7.   | Align Mode Switch | GYRO COMP |

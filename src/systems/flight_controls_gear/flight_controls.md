@@ -113,7 +113,7 @@ control stick can be less than that in the front cockpit relative to the amount
 of deflection; conversely, when returning control to the front cockpit, the rate
 can jump due to said difference.
 
-## Auotmatic Flight Control System (AFCS)
+## Automatic Flight Control System (AFCS)
 
 The automatic flight control system (AFCS) is an electro-hydraulic system designed to provide
 stable, accurate and coordinated flight maneuvers without interferring with manual control. The
@@ -139,8 +139,8 @@ a [three position switch](../../cockpit/pilot/left_console/wall.md#slatsflaps-co
 outboard of the left [throttle](../../cockpit/pilot/left_console/front_section.md#throttles)
 handle in the front cockpit and driven by the aircraft hydraulic system.
 The [three switch positions](../../cockpit/pilot/left_console/wall.md#slatsflaps-control-panel) are
-Norm, Out, and Out and Down,
-and the resulting command can be moderated based on whether or not the landing gear being deployed.
+Norm, Out, and Out and Down, and the resulting command can be moderated based on whether or not the
+landing gear is being deployed.
 
 ![SlatsRelative](../../img/SlatsRelative.jpg)
 
@@ -227,7 +227,8 @@ alignment of the chord line of the airplane with the oncoming air or relative wi
 
 The Angle of Attack Indicator dials register AoA values from 0 to 30 units, with
 indications for weight-relative optimum altitude cruise (7.9 units), approach
-(19.2 units), and stall (30 units).
+(19.2 units), and stall (30 units). The AoA Indexer only works when the gear is in the down
+position.
 
 AoA units do not directly translate to degrees, one unit of AoA is
 the same as roughly 0.95 degrees and the measured AoA is also offset
@@ -252,7 +253,8 @@ lowered.
 
 ## Aural Tone System
 
-![manual_aural_tone_chart](../../img/manual_aural_tone_charts.jpg)
+![manual_aural_tone_chart_slats_in](../../img/AoA_aural_tone_chart_slats_in_or_gear_down.jpg)
+![manual_aural_tone_chart_slats_out](../../img/AoA_aural_tone_chart_slats_out_and_landing_gear_up.jpg)
 
 The Aural Tone System provides audible feedback in maneuvering flight and during
 landing configuration. Beginning above 15 units AoA with gear down, and 21 units

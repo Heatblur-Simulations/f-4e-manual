@@ -96,7 +96,7 @@ range data.
 After about 15 seconds, the test is finished with either GO or MALF
 illuminating.
 
-For the test to be successful, the aircraft must not be moving, the pod must be
+> 💡 For the test to be successful, the aircraft must not be moving, the pod must be
 un-stowed and INS must be integrated.
 
 ### Bit 3
@@ -156,7 +156,7 @@ angles, for example during 12-VIS mode or low altitude attacks.
 The popular upgrade TCTO 519 overhauls the pods gimbal motors, increasing the
 movement speed from 15 dps to 60 dps.
 
-At this speed, the targeting pod is capable of tracking a target during low
+> 💡 At this speed, the targeting pod is capable of tracking a target during low
 altitude high speed flight, such as overflights at 1,000 ft with 500 knots.
 
 ## Checklists

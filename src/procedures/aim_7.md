@@ -34,17 +34,21 @@
 
 ### Pilot
 
-| Step | System                     | Action              |
-|------|----------------------------|---------------------|
-| 1.   | RADAR MISSILE POWER SWITCH | CW ON               |
-|      | a. RDR tuned lights        | ON                  |
-| 2.   | MISSILE INTERLOCK SWITCH   | AS REQUIRED         |
-| 3.   | SIGHT MODE                 | A/A                 |
-| 4.   | GUNS/MISSILE SWITCH        | RADAR               |
-|      | a. Head-up RADAR light     | ON                  |
-| 5.   | MASTER ARM                 | ON                  |
-|      | a. Head-up ARM light       | ON                  |
-| 6.   | TARGET LOCKON              | ACCOMPLISH          |
-| 7.   | IN-RANGE LIGHTS            | ON                  |
-| 8.   | SHOOT LIGHTS               | ON                  |
-| 9.   | TRIGGER                    | SQUEEZE AND RELEASE |
+| Step | System                       | Action                       |
+|------|------------------------------|------------------------------|
+| 1.   | RADAR MISSILE POWER SWITCH   | CW ON                        |
+|      | a. RDR tuned lights          | ON                           |
+| 2.   | MISSILE INTERLOCK SWITCH     | AS REQUIRED                  |
+| 3.   | SIGHT MODE                   | A/A                          |
+| 4.   | GUNS/MISSILE SWITCH          | RADAR                        |
+|      | a. Head-up RADAR light       | ON                           |
+| 5.   | MASTER ARM                   | ON                           |
+|      | a. Head-up ARM light         | ON                           |
+| 6.   | TARGET LOCKON                | ACCOMPLISH                   |
+|      | For ACM Mode:                |                              |
+|      | a. CAGE Button               | PRESS                        |
+|      | b. Align target in Boresight |                              |
+|      | c. Nosewheel steering Button | PRESS TO ACCOMPLISH CAA LOCK |
+| 7.   | IN-RANGE LIGHTS              | ON                           |
+| 8.   | SHOOT LIGHTS                 | ON                           |
+| 9.   | TRIGGER                      | SQUEEZE AND RELEASE          |

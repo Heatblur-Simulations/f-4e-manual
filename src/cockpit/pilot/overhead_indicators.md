@@ -11,7 +11,7 @@ landing or refueling with a tanker.
 ![LftShoot](../../img/pilot_shoot_lights.jpg)
 
 A group of 5 lights arranged around the canopy bow, illuminating when missile
-firing parameters are met. Do not illuminate when in visual intercept (VI)
+firing parameters are met. These lights do not illuminate when in visual intercept (VI)
 or Air-to-Ground modes.
 
 ## Air Refueling Lights
@@ -59,5 +59,5 @@ position and color.
 
 Can also indicate weapon steering cues and an aural tone system backs
 up the indication with audible cues.
-See [Angle of Attack System](../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system)
+See [3.1.2 Flight Controls, Angle of Attack System section](../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system)
 for details.

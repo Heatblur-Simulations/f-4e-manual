@@ -36,7 +36,7 @@ the code is invalid.
 The Inertial Navigation Control Panel provides the rear pilot mode selection and
 system alignment command selection.
 
-See [INS Navigation](../../../systems/nav_com/ins.md) for further information.
+See [3.3.2 INS Navigation](../../../systems/nav_com/ins.md) for further information.
 
 ### Mode Selector Switch
 

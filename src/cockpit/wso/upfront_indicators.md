@@ -147,9 +147,9 @@ When AIR-GRD is selected, the indicator is disabled.
 
 ![PClock](../../img/wso_clock.jpg)
 
-A clock is provided for the WSO, including a stopwatch function. The stopwatch is being used
-by pressing the top right button and reset by pressing it again. The watch can be set by turning
-the knob on the left lower corner.
+A clock is provided for the WSO, including a stopwatch function. The watch can be set by turning
+the knob on the left lower corner. The stopwatch function is being used by pressing the top right
+button. It is reset by pressing the top right button again.
 
 ## Accelerometer
 
@@ -306,7 +306,7 @@ Illuminates when canopy is unlocked. To reset the lamp close and lock the rear c
 ## Inertial Nav Sys Out Lamp
 
 Illuminates when INS system is in a failure state. To reset the INS refer to
-the [Inertial Navigation System chapter](../../systems/nav_com/ins.md).
+the [3.3.2 Inertial Navigation System chapter](../../systems/nav_com/ins.md).
 
 ## Radar CNI Cool Off Lamp
 

@@ -31,7 +31,7 @@ The code for the websites can be found in the Mod-Folder, for example:
 
 `G:\DCS World OpenBeta\Mods\aircraft\F-4E\UI`
 
-The browser supports full HTML/CSS/JS and even allows loading external files,
+The browser supports full HTML/CSS/JS and even allows loading external sites,
 such as visiting YouTube and watching some tutorials.
 
 Feel free to enhance any of the existing sites, such as the Jester Wheel or Grease Pencil UI,

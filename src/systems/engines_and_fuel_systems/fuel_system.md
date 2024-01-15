@@ -91,15 +91,37 @@ When air-to-air refueling, or when refueling on the ground and the tanks have
 reached a full condition, the External Tanks Full lamps, found under the canopy
 bow, will light.
 
-## Internal Wing Fuel Dump System
+## Fuel Dump System
+
+![InternalWingFuelDump](../../img/fuel_dumping.jpg)
+
+Fuel from the wings can be dumped directly, rather than requiring transfer into
+the fuselage, using the Wing Fuel Dump Switch.
 
 ![InternalWingFuelDump](../../img/pilot_internal_wing_dump_switch.jpg)
 
-Fuel from the wings can be dumped directly, rather than requiring transfer into
-the fuselage, using the Wing Fuel Dump Switch. This switch, when selected to
+This switch, when selected to
 DUMP, will release fuel from the internal wing tanks at their dump lines at the
 wing fold trailing edge. Flow rate is dependent on power setting and attitude,
 higher engine RPM and positive pitch increases dump speed, whereas lower RPM and
-a nose low condition reduces dump speed. In level flight at 85% RPM, the dump
-flow rate is roughly 650 pounds per minute. Leading to the entire fuel being
-dumped after roughly 15 minutes.
+a nose low condition reduces dump speed.
+
+> 💡 In level flight at 85% RPM, the dump
+> flow rate is roughly 650 pounds per minute. Leading to the entire fuel being
+> dumped after roughly 15 minutes.
+
+## Fuel Venting System
+
+To prevent issues with overpressure, the aircraft provides a venting system.
+
+Should an overpressure condition occur, tanks will vent fuel until the pressure
+is corrected.
+
+The process is fully automated. External tanks vent into the internal wing tanks and
+all other cells are connected to the vent mast below the rudder.
+
+> 💡 Under normal conditions, overpressure only occurs momentarily whenever the internal
+> wing fuel tanks are pressurized and made ready for transfer.
+> This is the case whenever the gear is retracted or the AAR door is closed.
+
+![Fuel Venting](../../img/fuel_venting.jpg)

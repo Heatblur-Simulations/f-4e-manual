@@ -100,6 +100,9 @@ of [stability augmentation](../../../systems/flight_controls_gear/flight_control
 for Yaw, Roll, and Pitch. ENGAGE (forward) sets the respective chanel stability
 augmentation on.
 
+See [3.1.2 Flight Controls & AFCS](../../../systems/flight_controls_gear/flight_controls.md) for
+further information.
+
 ### AFCS Mode Switch
 
 Enables [AFCS](../../../systems/flight_controls_gear/flight_controls.md#auotmatic-flight-control-system-afcs)

@@ -7,7 +7,7 @@ manually by pressing the INS OUT push button.
 
 ![ins_out_lamp](../../../img/ins_out_lamp.jpg)
 
-With INS disabled, the following functions are not available:
+With INS disabled, the following functions are **not available**:
 
 - Automatic target stabilization during Track-mode
 - Roll-stabilization during 12-VIS Acquisition-mode
@@ -26,13 +26,13 @@ currently not in DIRECT or TGT FIND weapon mode.
 
 ![pave_spike_weapon_sel](../../../img/pave_spike_weapon_sel.jpg)
 
-With WRCS disabled, the following functions are not available:
+With WRCS disabled, the following functions are **not available**:
 
 - WRCS Acquisition mode
 - Memory mode
 - WRCS Automatic Weapon Release
 
-And some functions are degraded, but still available:
+And some functions are degraded, but **still available**:
 
 - Slant range computation
 - Automatic target stabilization during Track-mode
