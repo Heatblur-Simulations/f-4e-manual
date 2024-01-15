@@ -10,7 +10,16 @@ As opposed to the Interrogator panel in the WSO cockpit, this panel provides
 the pilot with the ability to adjust the IFF sender of the own aircraft.
 Which would then be picked up by interrogators in other aircraft.
 
-> 💡 Due to DCS limitations, this is not simulated in-game.
+> 💡 For in-game functionality, installation of Simple Radio Standalone (SRS) is required.
+
+Due to DCS limitations, the panel's simulation is partial but compatible with SRS.
+The functionalities included are:
+- Warmup sequence upon power-up.
+- Mode 1 with selected code
+- Mode 3 with selected code
+- Mode 4 - on/off logic
+- Identification
+- Tests for Mode 2 and Mode 3/A
 
 For further explanation see
 the [IFF System controls chapter](../../../systems/identification_systems.md#iff-controls-and-indicators).
