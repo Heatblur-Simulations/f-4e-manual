@@ -56,16 +56,11 @@ TARGET 2 coordinates (after the RESET position has been selected).
 
 ### Position Update Switch
 
-| Position | Description                                                                           
-|
-|----------|---------------------------------------------------------------------------------------
-----------------------------------------|
-| SET | Disengages the updating mechanism of position counters, allowing them to be freely
-rotated to the desired position. |
-| NORMAL | Position counters are updated based on the INS signal in Inertial Mode, or by the
-system's own computations in Air Data Mode. |
-| FIX | Updates the INS position at a rate of approximately 3 minutes of arc per second.
-|
+| Position | Description                                                                                                                   |
+|----------|-------------------------------------------------------------------------------------------------------------------------------|
+| SET      | Disengages the updating mechanism of position counters, allowing them to be freely rotated to the desired position.           |
+| NORMAL   | Position counters are updated based on the INS signal in Inertial Mode, or by the system's own computations in Air Data Mode. |
+| FIX      | Updates the INS position at a rate of approximately 3 minutes of arc per second.                                              |
 
 The switch features an approximate 0.5-second delay when set to NORM, designed to prevent unwanted
 updates of the counters during the transition from SET to FIX.
