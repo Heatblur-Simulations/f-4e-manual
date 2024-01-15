@@ -41,7 +41,7 @@ making the selection.
 
 ## Launch Sequence
 
-![ext_weapons_launch_sequence_ir](../../img/ext_launch_seq_ir.jpg)
+![ext_weapons_launch_sequence_ir](../../img/ext_launch_seq_heat.jpg)
 
 Once the desired firing solution is attained, the AIM-9 is launched using the
 trigger.
