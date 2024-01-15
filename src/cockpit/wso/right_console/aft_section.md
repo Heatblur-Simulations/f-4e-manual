@@ -91,7 +91,7 @@ indicating an open circuit condition.
 ### Latitude and Longitude Sync Lights
 
 Illuminate when the position counters for latitude or longitude do not match the coordinates
-provided by the INS.
+provided by the INS (difference above 1 1/2 arc minutes).
 
 ### Air Data Mode Light
 
