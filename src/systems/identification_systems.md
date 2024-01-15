@@ -42,21 +42,21 @@ The three position Mode 1 Selector switch controls the mode 1 operation:
 
 The three position Mode 2 Selector switch controls the mode 2 operation:
 
-| Position | Operation                        |
-|----------|----------------------------------|
-| M-2      | Self test position (Inoperative) |
-| ON       | Enables Mode 2 for operation.    |
-| Out      | Disables Mode 2                  |
+| Position | Operation                                                            |
+|----------|----------------------------------------------------------------------|
+| M-2      | Self test position. Light illuminates if mode is operating properly. |
+| ON       | Enables Mode 2 for operation.                                        |
+| Out      | Disables Mode 2                                                      |
 
 ### Mode 3/A Selector Switch
 
 The three position Mode 3/A Selector switch controls the mode 3/A operation:
 
-| Position | Operation                        |
-|----------|----------------------------------|
-| M-3/A    | Self test position (Inoperative) |
-| ON       | Enables Mode 3/A for operation.  |
-| Out      | Disables Mode 3/A                |
+| Position | Operation                                                            |
+|----------|----------------------------------------------------------------------|
+| M-3/A    | Self test position. Light illuminates if mode is operating properly. |
+| ON       | Enables Mode 3/A for operation.                                      |
+| Out      | Disables Mode 3/A                                                    |
 
 ### Mode C Selector Switch
 
@@ -70,8 +70,8 @@ The three position Mode C Selector switch controls the mode C operation:
 
 ### Mode 1 and Mode 3/A Code selectors
 
-The Mode 1 code selector is used to select Mode 1 codes for 00 to 73. The Mode 3/A code selector is
-used to select Mode 3/A codes from 0000 to 7777.
+The Mode 1 code selector is used to select Mode 1 codes from 00 to 73. The Mode 3/A code selector
+is used to select Mode 3/A codes from 0000 to 7777.
 
 ### Mode 4 Selector Switch
 
@@ -107,7 +107,7 @@ component failure, failure to respond to a valid interrogation, or a zeroized co
 
 ### Monitor-Radiation Test Switch
 
-This switch has three postions, RAD TEST, MON and OUT. The switch is pllaced to the OUT position
+This switch has three postions, RAD TEST, MON and OUT. The switch is placed to the OUT position
 in-flight and not used.
 
 ### Identification of Position Switch
