@@ -177,7 +177,7 @@ reduced intensity.
 
 Some of those lamps can also be pushed-to-test.
 
-The the pilot, these lamps include:
+For the pilot, these lamps include:
 
 | Name            | Location              |
 | --------------- | --------------------- |
