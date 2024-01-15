@@ -43,7 +43,8 @@ of the system's performance.
 
 The lamp above the button illuminates to indicate test status.
 
-See [TACAN Test](../../../procedures/bit_tests/navigation_tests.md#tacan-test) for details.
+See [7.19.4 Navigation test chapter](../../../procedures/bit_tests/navigation_tests.md#tacan-test)
+for further information.
 
 ### Volume Knob
 
@@ -249,7 +250,7 @@ For normal operations, this should always be activated prior to takeoff.
 But not left ON while on the ground for longer than one minute to prevent
 damage due to overheating.
 
-See [Pitot-Static System](../../../systems/flight_controls_gear/primary_flight_instruments.md#pitot-static-system)
+See [3.1.1 Pitot-Static System](../../../systems/flight_controls_gear/primary_flight_instruments.md#pitot-static-system)
 for details.
 
 ## Generator Control Switches
@@ -266,4 +267,4 @@ individual switch.
 | ON (EXTERNAL) | External power is supplied through generator bus connection for pre-startup needs. |
 
 For further information see
-the [Generator chapter.](../../../systems/electrics.md#generator-control-switches)
+the [3.8 Electrics chapter.](../../../systems/electrics.md#generator-control-switches)

@@ -144,7 +144,8 @@ The full series of positions is as follows, clockwise from the left:
 | [OFF SET](../../stores/air_to_ground/bombs/employment.md#offset)                                     | Offset Bomb                                                                                       |
 | [AGM-45](../../stores/air_to_ground/missiles/shrike.md)                                              | [AGM-45 Shrike](../../stores/air_to_ground/missiles/shrike.md)                                    |
 
-For further information see [Air-to-Ground weaponry.](../../stores/air_to_ground/overview.md)
+For further information
+see [4.3 Air-to-Ground weaponry chapter.](../../stores/air_to_ground/overview.md)
 
 ## Weapon Selector Knob
 
@@ -175,7 +176,7 @@ rockets and dispensed munitions based on the selections made between the
 interval knob, the QTY (quantity) knob and the INTRVL switch.
 
 For further information
-see [Aircraft Weapons release unit (AWRU).](../../systems/weapon_systems/awru.md)
+see [3.11.2 Aircraft Weapons release unit (AWRU).](../../systems/weapon_systems/awru.md)
 
 ### Interval Knob
 
@@ -220,7 +221,7 @@ two seconds the bomb button is held down.
 ![MSL](../../img/pilot_missile_status_light.jpg)
 
 The Missile Status Light window provides confirmation of currently installed and
-configured [air-to-air missiles](../../stores/air_to_air/overview.md).
+configured [4.2 air-to-air missiles chapter](../../stores/air_to_air/overview.md).
 
 ### Radar Lights
 

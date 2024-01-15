@@ -162,14 +162,14 @@ level. 100% should only be used if fire and/or smoke and fumes occur in the plan
 ### Supply Lever
 
 Two position switch (ON and OFF) activating flow of oxygen to the aircrew
-member. For further information see [Oxygen chapter](../../systems/utility.md#oxygen-system).
+member. For further information see [3.7 Utility chapter, Oxygen section](../../systems/utility.md#oxygen-system).
 
 ### Oxygen Pressure Gauge
 
 Indicates system pressure from 0 to 500 psi. The Oxygen lasts up to 24.3 Hours with a full 10 litres
 at about 35,000 feet. At 10,000 feet 10 litres last about 23.4 hours.
 
-For further information see [Oxygen chapter](../../systems/utility.md#oxygen-system).
+For further information see [3.7 Utility chapter, Oxygen section](../../systems/utility.md#oxygen-system).
 
 ## Landing Gear/Flap Indicator Panel
 
@@ -182,7 +182,7 @@ Displays current status of landing gear, flaps, and slat position.
 Status noted with the word UP (up), a barber pole illustration (in transition),
 or an icon of a wheel (down) relative to current position.
 
-See the [Landing gear chapter](../../systems/flight_controls_gear/gear_ground_handling.md) for more
+See the [3.1.3 Landing gear chapter](../../systems/flight_controls_gear/gear_ground_handling.md) for more
 information.
 
 ### Slats
@@ -196,5 +196,5 @@ show a barber pole illustration. When transitioning back to the UP position, the
 indicator does not change until the flaps are fully retracted.
 
 See
-the [Slats and Flaps Chapter](../../systems/flight_controls_gear/flight_controls.md#slats-flap-system)
+the [3.1.2 FLight Controls & AFCS, Slats and Flaps section](../../systems/flight_controls_gear/flight_controls.md#slats-flap-system)
 for more information.

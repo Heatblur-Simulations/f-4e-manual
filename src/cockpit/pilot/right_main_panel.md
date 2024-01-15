@@ -98,8 +98,8 @@ increments. Cell 7 is used as a reserve tank.
 
 As a general guidance, Bingo fuel is around 4000 pounds, while Joker fuel is at 6000 lb.
 
-For more detailed information see the
-[Fuel system chapter](../../systems/engines_and_fuel_systems/fuel_system.md).
+For more detailed information see
+[3.2.2 Fuel system chapter](../../systems/engines_and_fuel_systems/fuel_system.md).
 
 ## Fuel Flow Gauges
 
