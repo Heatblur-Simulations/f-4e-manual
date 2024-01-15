@@ -16,7 +16,7 @@ The laser can be used when the LASER READY lamp is illuminated.
 
 To setup the laser, a valid code has to first be entered on the Laser Coder
 Control panel and transferred to the pod by pressing the Enter-Button. Make sure
-that the NO GO light is not illuminated.
+that the NO GO light does not remain illuminated.
 
 ![laser_coder_control](../../../img/laser_coder_control.jpg)
 
@@ -51,3 +51,7 @@ Reject/Override Button.
 In practice, laser measured range is much more accurate than the slant range
 computed by the system. Hence, pilots developed a habit of always hitting the
 button whenever they fired the laser.
+
+> 💡 This habit can lead to trouble during shallow attacks, such as when flying low altitude,
+> where a small input can quickly lead to the slant range measured by the laser being very off.
+> And hence cause the stabilization to drift off quickly.

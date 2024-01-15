@@ -2,28 +2,26 @@
 
 ![MwsGroup](../../img/MwsGroup.jpg)
 
-This group on the left area of the main panel provides all
-weapon related settings, such as arming missiles or selecting
-the bomb delivery mode.
+This group on the left area of the main panel provides all weapon related settings, such as arming
+missiles or selecting the bomb delivery mode.
 
 ## Range Indicator
 
 ![range_indicator](../../img/range_indicator.jpg)
 
-This panel provides the pilot with a readout of the slant range measured by the
-[Pave Spike](../../systems/weapon_systems/pave_spike/overview.md) Targeting Pod (x100 ft).
+This panel provides the pilot with a readout of the slant range measured by the [Pave
+Spike](../../systems/weapon_systems/pave_spike/overview.md) Targeting Pod (x100 ft).
 
 When the Test-Button is pressed, the display shows 888. The knob underneath the test button controls
 the brightness of the readout.
 
-The Mode-Knob allows the pilot to select one of two weapon delivery modes
-available with the pod:
+The Mode-Knob allows the pilot to select one of two weapon delivery modes available with the pod:
 
 - [WRCS](../../systems/weapon_systems/wrcs.md) - Automatic Delivery
 - ROR - Release on Range
 
-In the SET position, the display shows the desired release range used in the ROR
-mode. The knob below the readout can be used to adjust this range.
+In the SET position, the display shows the desired release range used in the ROR mode. The knob
+below the readout can be used to adjust this range.
 
 ## Head Up Display Indicators
 
@@ -44,16 +42,16 @@ of the pinky switch on the left throttle handle.
 
 ![UHFInd](../../img/pilot_uhf_indicator.jpg)
 
-Provides the current selected channel value when the radio is set to PRESET.
-Otherwise, the indicator displays M if the radio is set to Manual, G when the
-COMM function is set as GUARD/ADF, or A when the A-3-2-T switch is in A.
+Provides the current selected channel value when the radio is set to PRESET. Otherwise, the
+indicator displays M if the radio is set to Manual, G when the COMM function is set as GUARD/ADF, or
+A when the A-3-2-T switch is in A.
 
 ## True Airspeed Indicator
 
 ![TASInd](../../img/TASInd.jpg)
 
-Provides the aircraft's true Airspeed in knots, and is calibrated from 150 to
-1500 knots; airspeeds below this range are thus not reliable.
+Provides the aircraft's true Airspeed in knots, and is calibrated from 150 to 1500 knots; airspeeds
+below this range are thus not reliable.
 
 ## Flight Instrument Brightness Knob
 
@@ -61,21 +59,19 @@ Provides the aircraft's true Airspeed in knots, and is calibrated from 150 to
 
 Controls brightness of the flight instrument cluster.
 
-Rotating clockwise will increase brightness of all flight instrument lights,
-while at the same time dim the HSI mode and warning and caution lights, except
-FIRE and OVERHEAT.
+Rotating clockwise will increase brightness of all flight instrument lights, while at the same time
+dim the HSI mode and warning and caution lights, except FIRE and OVERHEAT.
 
-Flight instrument lights can additionally be controlled individually with knobs
-on the Flight Instrument Lights Intensity Panel, located on the right wall.
+Flight instrument lights can additionally be controlled individually with knobs on the Flight
+Instrument Lights Intensity Panel, located on the right wall.
 
 ## Nose/Tail Arming Switch
 
 ![NTArm](../../img/NTArm.jpg)
 
-Controls the arming solenoids of the MER and TER racks, selecting what MER/TER
-position(s) arming lanyards are pulled from released bomb fuzes upon separation,
-thus making them live. This function also controls selective low/high drag
-capability for retarded bombs.
+Controls the arming solenoids of the MER and TER racks, selecting what MER/TER position(s) arming
+lanyards are pulled from released bomb fuzes upon separation, thus making them live. This function
+also controls selective low/high drag capability for retarded bombs.
 
 | Name      | Description                                                                       |
 |-----------|-----------------------------------------------------------------------------------|
@@ -88,24 +84,21 @@ capability for retarded bombs.
 
 ![SSBs](../../img/pilot_station_select_buttons.jpg)
 
-The Station Select Buttons are used to activate air to ground munition stations
-and the nose gun. Upon selection of a station, the upper half denoting the
-position will illuminate green to confirm the station is active. The lower half
-will illuminate amber once the necessary mode is selected, the weapon is
-compatible with the weapon select knob option, the Master Arm is in the ARM
-position, and any necessary warm up period for the selected weapon type is
-completed. L and R positions are left and right, respectively, with O denoting
-outboard and I denoting inboard stations. The centerline weapon position is CL,
-and the nose gun is armed with the GUN station selector button.
+The Station Select Buttons are used to activate air to ground munition stations and the nose gun.
+Upon selection of a station, the upper half denoting the position will illuminate green to confirm
+the station is active. The lower half will illuminate amber once the necessary mode is selected, the
+weapon is compatible with the weapon select knob option, the Master Arm is in the ARM position, and
+any necessary warm up period for the selected weapon type is completed. L and R positions are left
+and right, respectively, with O denoting outboard and I denoting inboard stations. The centerline
+weapon position is CL, and the nose gun is armed with the GUN station selector button.
 
 ![ext_pylons](../../img/ext_pylons.jpg)
 
 ### Dimmer Knob
 
-A dimmer knob is also provided to raise or lower the lighting of the station
-select buttons relative to current cockpit conditions. If the Flight Instrument
-Brightness Knob above it is set to the full CCW position, it overrides the
-dimmer knob and Station Select Buttons are always illuminated at full
+A dimmer knob is also provided to raise or lower the lighting of the station select buttons relative
+to current cockpit conditions. If the Flight Instrument Brightness Knob above it is set to the full
+CCW position, it overrides the dimmer knob and Station Select Buttons are always illuminated at full
 brightness.
 
 ## Master Arm Switch
@@ -118,15 +111,14 @@ Provides master arming function for all aircraft weapons.
 
 ![DelMode](../../img/DelMode.jpg)
 
-The Delivery Mode Knob sets the fire control system to the desired air to ground
-weapon release type. Split into two halves, the left side of the dial references
-ARBCS (Altitude Reference and Bombing Computer Set) delivery modes, while the
-right side provides automated release functions using the WRCS (Weapon Release
-Computer Set) with possible tie-in to the navigation computer, depending on
-mode. At the 11 and 12 o'clock positions are the OFF position, which is utilized
-for air-to-air weapons (including the gun) and DIRECT, which is used for
-video-directed weapons such as the AGM-65 and as a direct delivery bombing mode.
-The full series of positions is as follows, clockwise from the left:
+The Delivery Mode Knob sets the fire control system to the desired air to ground weapon release
+type. Split into two halves, the left side of the dial references ARBCS (Altitude Reference and
+Bombing Computer Set) delivery modes, while the right side provides automated release functions
+using the WRCS (Weapon Release Computer Set) with possible tie-in to the navigation computer,
+depending on mode. At the 11 and 12 o'clock positions are the OFF position, which is utilized for
+air-to-air weapons (including the gun) and DIRECT, which is used for video-directed weapons such as
+the AGM-65 and as a direct delivery bombing mode. The full series of positions is as follows,
+clockwise from the left:
 
 | Name                                                                                                 | Description                                                                                       |
 |------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
@@ -171,50 +163,45 @@ affect tuning status of radar guided weapons. Positions are as follows:
 
 ![AWRU](../../img/AWRU.jpg)
 
-Provides timed interval release scheduling of single or multiple bombs or
-rockets and dispensed munitions based on the selections made between the
-interval knob, the QTY (quantity) knob and the INTRVL switch.
+Provides timed interval release scheduling of single or multiple bombs or rockets and dispensed
+munitions based on the selections made between the interval knob, the QTY (quantity) knob and the
+INTRVL switch.
 
 For further information
 see [3.11.2 Aircraft Weapons release unit (AWRU).](../../systems/weapon_systems/awru.md)
 
 ### Interval Knob
 
-The interval knob provides release pulse sequences between 0.05 second and 1
-second.
+The interval knob provides release pulse sequences between 0.05 second and 1 second.
 
 ### Interval Switch
 
-The INTRVL switch provides the option of a 10x multiplier of the set value of
-the interval knob. In the NORM position, the interval knob value is the trigger
-timer.
+The INTRVL switch provides the option of a 10x multiplier of the set value of the interval knob. In
+the NORM position, the interval knob value is the trigger timer.
 
 ### Quantity Knob
 
 Controls how many stores are released per impulse.
 
-Selecting "1" places the AWRU into single manual bombing mode; one push of the
-bomb release button releases one bomb.
+Selecting "1" places the AWRU into single manual bombing mode; one push of the bomb release button
+releases one bomb.
 
-Selecting a value from "2" to "18" sets the AWRU into single ripple mode; in
-this mode, the AWRU will release bombs according to the programmed interval
-until the set number of rounds is dropped, or the bomb button is released. Upon
-release, the count is reset, and a subsequent press and hold will drop the
-programmed number of bombs.
+Selecting a value from "2" to "18" sets the AWRU into single ripple mode; in this mode, the AWRU
+will release bombs according to the programmed interval until the set number of rounds is dropped,
+or the bomb button is released. Upon release, the count is reset, and a subsequent press and hold
+will drop the programmed number of bombs.
 
-Selecting "C" sets the AWRU into single continuous mode; pressing the bomb
-release button drops rounds according to the programmed interval until the bomb
-button is released, or all munitions from the selected pylons are expended.
+Selecting "C" sets the AWRU into single continuous mode; pressing the bomb release button drops
+rounds according to the programmed interval until the bomb button is released, or all munitions from
+the selected pylons are expended.
 
-The "P" setting is for pairs manual mode. With at least two stations selected,
-each push of the bomb button will release two bombs; like single manual mode,
-this does not include an interval function.
+The "P" setting is for pairs manual mode. With at least two stations selected, each push of the bomb
+button will release two bombs; like single manual mode, this does not include an interval function.
 
-Lastly, the "S" setting, for salvo, releases bombs in accordance to the chosen
-interval from all selected stations simultaneously, until the bomb button is
-released. Ergo, if four stations are selected with a 2 second interval (0.2 on
-the interval dial, X10 INTRVL switch setting), four bombs will be released every
-two seconds the bomb button is held down.
+Lastly, the "S" setting, for salvo, releases bombs in accordance to the chosen interval from all
+selected stations simultaneously, until the bomb button is released. Ergo, if four stations are
+selected with a 2 second interval (0.2 on the interval dial, X10 INTRVL switch setting), four bombs
+will be released every two seconds the bomb button is held down.
 
 ## Missile Status Lights
 
@@ -225,59 +212,59 @@ configured [4.2 air-to-air missiles chapter](../../stores/air_to_air/overview.md
 
 ### Radar Lights
 
-The RDR lights illuminate once AIM-7 missiles are properly tuned with the fire
-control system; any station that does not carry a Sparrow, does not correctly
-sync up during tuning, or is launched, will turn off.
+The RDR lights illuminate once AIM-7 missiles are properly tuned with the fire control system; any
+station that does not carry a Sparrow, does not correctly sync up during tuning, or is launched,
+will turn off.
 
-The left pair of lights indicates stations 4 and 3 from top to bottom,
-while the right pair links to stations 6 and 7 respectively.
+The left pair of lights indicates stations 4 and 3 from top to bottom, while the right pair links to
+stations 6 and 7 respectively.
 
 ### Heat Lights
 
-The HEAT lights illuminate one at a time, rather than all up upon circuit
-configuration. The light of the currently selected station will illuminate
-beginning at the raising of the gear handle, and remain in that position until
-the weapon is either cycled using the throttle's Gun/Missile Switch reject
-option, or is launched. The HEAT light arrangement corresponds with the
-[launch sequence](../../stores/air_to_air/aim_9.md#launch-sequence) of
-the [AIM-9](../../stores/air_to_air/aim_9.md).
+The HEAT lights illuminate one at a time, rather than all up upon circuit configuration. The light
+of the currently selected station will illuminate beginning at the raising of the gear handle, and
+remain in that position until the weapon is either cycled using the throttle's Gun/Missile Switch
+reject option, or is launched. The HEAT light arrangement corresponds with the [launch
+sequence](../../stores/air_to_air/aim_9.md#launch-sequence) of the
+[AIM-9](../../stores/air_to_air/aim_9.md).
 
-The left pair of lights represent station 2L and 2R respectively,
-while the right pair is linked to stations 8L and 8R.
+The left pair of lights represent station 2L and 2R respectively, while the right pair is linked to
+stations 8L and 8R.
 
 ## Radar Missile Power Switch
 
 ![Radar Missile Power Switch](../../img/RMPS.jpg)
 
-The Radar Missile Power Switch provides power to the CW tuning drive and
-monitoring functionality.
+The Radar Missile Power Switch provides power to the kylstron continuous wave (CW) emitter
+responsible guidance signals. This also powers the sparrow tuning drive which is responsible for
+tuning the sparrows to the correct continuous wave carrier frequency for guidance.
 
-When switched out of the OFF position, power is applied to the circuit 30
-seconds after this selection.
+When switched out of the OFF position, power is applied to the circuit 30 seconds after this
+selection.
 
-The STBY position maintains warmup power to the missiles and CW tuning drive
-once the missiles have been tuned.
+The STBY position maintains warmup power to the missiles and continuous wave tuning drive once the
+missiles have been tuned. This keeps the Sparrows and Tuning Drive warm, but the sparrows not tuned.
 
-The CW ON position allows for constant tuning and missile state monitoring with
-the radar mode not in TV.
+The CW ON position allows for constant tuning and missile state monitoring with the radar mode not
+in TV. This also causes the radar klystron to begin continuous wave emission.
 
-Tuning can be performed on the ground with the radar in TEST mode to preclude
-emissions endangering ground crew.
+Tuning can be performed on the ground with the radar in TEST mode to preclude emissions endangering
+ground crew.
 
 ## Centerline Tank Aboard Light
 
 ![Centerline Tank Aboard Light](../../img/pilot_centerline_tank_aboard.jpg)
 
-Illuminates when a stores condition exists that precludes ejection and launch of
-an AIM-7 missile installed in one of the two forward positions.
+Illuminates when a stores condition exists that precludes ejection or launch of an AIM-7 missile
+installed in one of the two forward positions. To use the sparrows on these stations the centerline
+store must be first jettisoned.
 
 ## Interlock Switch
 
 ![Interlock Switch](../../img/pilot_interlock_switch.jpg)
 
-A two position switch that determines whether the fire control system launch
-parameter interlocks can prevent an AIM-7 from being launched when the trigger
-is pulled.
+A two position switch that determines whether the fire control system launch parameter interlocks
+can prevent an AIM-7 from being launched when the trigger is pulled.
 
 | Name | Description                                                                                       |
 |------|---------------------------------------------------------------------------------------------------|
@@ -288,11 +275,11 @@ is pulled.
 
 ![SelJet](../../img/SelJet.jpg)
 
-The Selective Jettison Control knob provides the pilot direct access to dump
-stores on a position by position basis.
+The Selective Jettison Control knob provides the pilot direct access to dump stores on a position by
+position basis.
 
-The pilot selects the desired position by rotating the knob and then presses
-the button on its front to jettison the selected stores.
+The pilot selects the desired position by rotating the knob and then presses the button on its front
+to jettison the selected stores.
 
 | Name     | Description                                                                                                                                                                                                     |
 |----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -302,16 +289,16 @@ the button on its front to jettison the selected stores.
 | L/R AFT  | Jettisons [AIM-7](../../stores/air_to_air/aim_7.md) from respective position on PUSH TO JETT.                                                                                                                   |
 | L/R WING | In conjunction with TV or ARM, jettisons single [AGM-65 Maverick](../../stores/air_to_ground/missiles/maverick.md) or [AGM-45 Shrike](../../stores/air_to_ground/missiles/shrike.md) from wing on PUSH TO JETT. |
 
-As example, to jettison the right and left external fuel tanks, the pilot must
-select _STORES_ on the knob, press the corresponding station select buttons _LO_, _RO_
-and then push the jettison button.
+As example, to jettison the right and left external fuel tanks, the pilot must select _STORES_ on
+the knob, press the corresponding station select buttons _LO_, _RO_ and then push the jettison
+button.
 
 ## Recorder Lamp
 
 ![pilot_recorder_lamp](../../img/pilot_recorder_lamp.jpg)
 
-This dimmable lamp is lit to indicate operation of the
-[Airborne-Video-Tape-Recorder (AVTR)](../../cockpit/wso/left_sub_panel.md#avtr-control).
+This dimmable lamp is lit to indicate operation of the [Airborne-Video-Tape-Recorder
+(AVTR)](../../cockpit/wso/left_sub_panel.md#avtr-control).
 
-The AVTR system is controlled by the WSO and records the intercom sound, as well
-as the rear radar screen.
+The AVTR system is controlled by the WSO and records the intercom sound, as well as the rear radar
+screen.

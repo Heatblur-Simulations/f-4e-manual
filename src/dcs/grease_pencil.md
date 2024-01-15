@@ -19,7 +19,7 @@ After closing the window by clicking on the canopy spot again, the results are r
 ## Spotting Circle
 
 To aid in crew coordination, during startup and planning, a commonly employed
-technique is to select an static object at distance, such as a building, vehicle
+technique is to select a static object at distance, such as a building, vehicle
 or tree, and drawing a circle around it.
 
 ![Spotting Circle Setup](../img/spotting_circle_setup.jpg)

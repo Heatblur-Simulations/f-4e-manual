@@ -5,7 +5,7 @@ Jesters entire library of phrases can be found in the Mod-Folder, for example:
 `G:\DCS World OpenBeta\Mods\aircraft\F-4E\Sounds\Jester`
 
 When editing sounds, it is necessary to restart DCS. Just reloading the mission
-is not enough for chances to take effect.
+is not enough for changes to take effect.
 
 ## sdef
 
@@ -15,7 +15,7 @@ For DCS to understand the files, sound-definition-files (sdef) are located in:
 
 A sdef-file is a plain text-file that can be edited with any text-editor. Next to locating the
 actual sound file, it can define properties such as gain or fade-in/-out effects,
-as well as positioning the sound effect it within the world when played.
+as well as positioning the sound effect within the world when played.
 
 ```ini
 wave = "Jester/Contacts/theresafriend4shipbraHI1"

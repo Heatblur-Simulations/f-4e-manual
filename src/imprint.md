@@ -17,7 +17,7 @@ Daniel Tischner, Senior Programmer (UI, Systems and AI)\
 Dominik Głowacki, Programmer (Systems, Avionics, AI)\
 Szymon Skarzyński, Programmer (Systems, Avionics, AI)\
 Andrew O’Donnell, Programmer (Flight Dynamics and Engines)\
-Josh Nelson, Programmer (Weapons, Radar and Systems)\
+Joshua Nelson, Programmer (Weapons, Radar and Systems)\
 Terje Lindtveit, Programmer (Flight Dynamics and Engines)\
 Zander Labuschagne, Programmer (Systems and Avionics)\
 Will Harradine, Programmer (Systems and Avionics)\

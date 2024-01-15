@@ -39,7 +39,7 @@ and then slewing the pod to this destination. If no specific target has been
 inserted, the WRCS usually defaults to the aircraft position, resulting in the
 pod looking straight down.
 
-The WRCS mode automatically falls back to the 12-VIS mode in case the WRCS
+> 💡 The WRCS mode automatically falls back to the 12-VIS mode in case the WRCS
 integration is deactivated.
 
 ## Track mode
