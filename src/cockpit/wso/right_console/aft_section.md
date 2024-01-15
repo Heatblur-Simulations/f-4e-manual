@@ -21,20 +21,21 @@ of the Navigation Computer:
 
 ### Function Selector Knob
 
-| Position | Description                                                                          
-                                   |
+| Position | Description
+                                                                                                   
+        |
 |----------|--------------------------------------------------------------------------------------
------------------------------------|
-| OFF      | System powered down.                                                                 
-                                   |
-| STBY     | System is powered but the latitude and longitude position integration is off.        
-                                   |
-| TARGET 1 | Computes range and bearing to the selected coordinates set on the TARGET rollers.    
-                                   |
-| TARGET 2 | Computes range and bearing to the memorized coordinates.                             
-                                   |
+----------------------------------|
+| OFF      | System powered down.
+                                                                                                   |
+| STBY     | System is powered but the latitude and longitude position integration is off.
+                                          |
+| TARGET 1 | Computes range and bearing to the selected coordinates set on the TARGET rollers.
+                                      |
+| TARGET 2 | Computes range and bearing to the memorized coordinates.
+                                                               |
 | RESET    | Clears the memorized coordinates. When moved back to TARGET 2, the currently selected
- TARGET coordinates are memorized. |
+TARGET coordinates are memorized. |
 
 ### Wind Control Knobs and Counters
 
