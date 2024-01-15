@@ -3617,9 +3617,63 @@ to select the mode of the Combat Skyspot system used for ground-directed bombing
 <p>The aft section of the right console features the navigation and lighting panel.</p>
 <h2 id="navigation-panel"><a class="header" href="#navigation-panel">Navigation Panel</a></h2>
 <p><img src="cockpit/wso/right_console/../../../img/wso_nav_panel.jpg" alt="Navigation Panel" /></p>
+<p>The Navigation Computer Control Panel serves as an interface for managing the aircraft's
+navigation, including its position and targets for navigation instruments like the HSI and BDHI.
+It can operate in two modes: INERTIAL and AIR DATA.</p>
+<p>The inertial mode relies on the Inertial Navigation System (INS) for accurate navigation,
+provided the INS is in NAV mode and fully functional. When the INS is unavailable, the panel
+automatically switches to AIR DATA Mode. In this mode, navigation is based on the system's own
+calculations, incorporating manual inputs for wind direction and velocity, as well as magnetic
+variation.</p>
+<p>The panel is equipped with a range of control knobs and switches essential for the operation
+of the Navigation Computer:</p>
+<h3 id="function-selector-knob"><a class="header" href="#function-selector-knob">Function Selector Knob</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Position</th><th>Description</th></tr></thead><tbody>
+<tr><td>OFF</td><td>System powered down.</td></tr>
+<tr><td>STBY</td><td>System is powered but the latitude and longitude position integration is off.</td></tr>
+<tr><td>TARGET 1</td><td>Computes range and bearing to the selected coordinates set on the TARGET rollers.</td></tr>
+<tr><td>TARGET 2</td><td>Computes range and bearing to the memorized coordinates.</td></tr>
+<tr><td>RESET</td><td>Clears the memorized coordinates. When moved back to TARGET 2, the currently selected TARGET coordinates are memorized.</td></tr>
+</tbody></table>
+</div>
+<h3 id="wind-control-knobs-and-counters"><a class="header" href="#wind-control-knobs-and-counters">Wind Control Knobs and Counters</a></h3>
+<p>Enables manual setting of wind velocity (in knots) and direction (in degrees, from), displayed
+on the counters. Utilized by the Navigation Computer in AIR DATA mode.</p>
+<h3 id="magnetic-variation-knob-and-counters"><a class="header" href="#magnetic-variation-knob-and-counters">Magnetic Variation Knob and Counters</a></h3>
+<p>Allows manual setting of magnetic variation (in degrees). Essential for navigation computations
+in AIR DATA mode and for initial (BATH) INS Alignment.</p>
+<h3 id="position-control-knobs-and-counters"><a class="header" href="#position-control-knobs-and-counters">Position Control Knobs and Counters</a></h3>
+<p>These knobs are used to manually change the current aircraft position in terms of latitude
+and longitude, as displayed on the counters (in degrees and minutes). They must be pressed
+in to be effective.</p>
 <blockquote>
-<p>🚧 This section is under construction.</p>
+<p>💡 In INERTIAL mode, the Position Update Switch must be used in conjunction with these knobs
+to update the position coordinates.</p>
 </blockquote>
+<h3 id="target-control-knobs-and-counters"><a class="header" href="#target-control-knobs-and-counters">Target Control Knobs and Counters</a></h3>
+<p>These knobs enable the setting of target latitude and longitude counters, which can be used either
+as direct waypoint targets (when the Function Selector Knob is set to TARGET 1) or to memorize
+TARGET 2 coordinates (after the RESET position has been selected).</p>
+<h3 id="position-update-switch"><a class="header" href="#position-update-switch">Position Update Switch</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Position</th><th>Description</th></tr></thead><tbody>
+<tr><td>SET</td><td>Disengages the updating mechanism of position counters, allowing them to be freely rotated to the desired position.</td></tr>
+<tr><td>NORMAL</td><td>Position counters are updated based on the INS signal in Inertial Mode, or by the system's own computations in Air Data Mode.</td></tr>
+<tr><td>FIX</td><td>Updates the INS position at a rate of approximately 3 minutes of arc per second.</td></tr>
+</tbody></table>
+</div>
+<p>The switch features an approximate 0.5-second delay when set to NORM, designed to prevent unwanted
+updates of the counters during the transition from SET to FIX.</p>
+<h3 id="variation-sync-meter"><a class="header" href="#variation-sync-meter">Variation Sync Meter</a></h3>
+<p>In Inertial mode, this meter displays the discrepancy between the INS-computed and manually set
+magnetic variation. In AIR DATA mode, the manually set variation does not affect this indicator.</p>
+<h3 id="test-cap-off-light"><a class="header" href="#test-cap-off-light">Test Cap Off Light</a></h3>
+<p>Illuminates when there is a failure in the true airspeed circuit from the Air Data Computer,
+indicating an open circuit condition.</p>
+<h3 id="latitude-and-longitude-sync-lights"><a class="header" href="#latitude-and-longitude-sync-lights">Latitude and Longitude Sync Lights</a></h3>
+<p>Illuminate when the position counters for latitude or longitude do not match the coordinates
+provided by the INS (difference above 1 1/2 arc minutes).</p>
+<h3 id="air-data-mode-light"><a class="header" href="#air-data-mode-light">Air Data Mode Light</a></h3>
+<p>Illumination indicates that the Navigation Computer is operating in AIR DATA Mode.</p>
 <h2 id="wso-cockpit-lighting-control-panel"><a class="header" href="#wso-cockpit-lighting-control-panel">WSO Cockpit Lighting Control Panel</a></h2>
 <p><img src="cockpit/wso/right_console/../../../img/wso_cockpit_lighting_panel.jpg" alt="wso_cockpit_lighting_panel" /></p>
 <p>The Cockpit Lighting Control Panel provides control of all panel edge lighting,
@@ -9460,22 +9514,7 @@ performed after the engines have been started.</p>
 <tr><td>13.</td><td>Circuit breaker panels</td><td>CHECK</td></tr>
 <tr><td>14.</td><td>Publications and flight data</td><td>CHECK</td></tr>
 </tbody></table>
-</div><!-- ### After Electrical Power (WSO)
-
-| Step | System                         | Action        |
-|------|--------------------------------|---------------|
-| 1.   | Instrument ground power switch | ACTUATE⚡      |
-| 2.   | Navigation Computer            | SET           |
-|      | a. NAV COMP MODE               | STBY          |
-|      | b. WIND COUNTERS               | SET           |
-|      | c. VARIATION COUNTER           | SET           |
-|      | d. POS UPDATE SWITCH           | NORM          |
-|      | e. PRESENT POS COUNTER         | SET           |
-|      | f. TARGET COUNTERS             | SET FOR TGT 2 |
-|      | g. NAV COMP MODE               | RESET         |
-|      | h. NAV COMP MODE               | STBY          |
-|      | i. TARGET COUNTERS             | SET FOR TGT 1 |
-| 3.   | INS alignment                  | AS DESIRED    | -->
+</div>
 <h3 id="interior-check-wso"><a class="header" href="#interior-check-wso">Interior Check (WSO)</a></h3>
 <div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
 <tr><td>1.</td><td>Rudder pedals</td><td>ADJUST</td></tr>
@@ -9648,7 +9687,7 @@ performed after the engines have been started.</p>
 <tr><td></td><td>k. Navigation command button</td><td>AS DESIRED</td></tr>
 <tr><td>38.</td><td>Emergency vent knob</td><td>IN</td></tr>
 <tr><td>40.</td><td>Rain removal switch</td><td>OFF</td></tr>
-<tr><td>41.</td><td>Pitot heat</td><td>CHECK⚡</td></tr>
+<tr><td>41.</td><td>Pitot heat</td><td>CHECK ⚡ 🔧</td></tr>
 <tr><td>42.</td><td>Defog-foot heat control handle</td><td>AS DESIRED</td></tr>
 <tr><td>43.</td><td>IFF Mode IV function switch</td><td>AS DESIRED</td></tr>
 <tr><td>44.</td><td>IFF Master control knob</td><td>OFF</td></tr>
