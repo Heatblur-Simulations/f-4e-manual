@@ -59,7 +59,7 @@ operational.
 ### Aircraft Wear and Tear
 
 Additionally to production quality, components can degrade during service based
-on time since the last service, external factors like temperature and weather,
+on time since the last overhaul, external factors like temperature and weather,
 aggressive flying involving a lot of forces on the airframe, as well as combat
 damage.
 

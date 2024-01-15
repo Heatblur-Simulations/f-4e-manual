@@ -3,8 +3,6 @@
 ![crew chief](../img/crew_chief.jpg)
 <!-- https://nara.getarchive.net/media/ -->
 
-## Introduction
-
 Crew chief (often called "Chief") is the main technician
 who is responsible for the assigned aircraft when it's on the ground.
 This important role involves not only keeping the aircraft in good shape
@@ -81,7 +79,7 @@ positions. Slats and Flaps should be OUT AND DOWN.
     neutralize stick and disengage yaw stab aug.
     * Repeat check substituting right for left.
 
->💡 After TO 1F-4-1081, the MASTER
+> 💡 After TO 1F-4-1081, the MASTER
 > CAUTION and CHK HYD GAGES lights may
 > illuminate momentarily during this check. If
 > pressure recovers without delay, disregard this
