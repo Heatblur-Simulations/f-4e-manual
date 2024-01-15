@@ -2093,8 +2093,18 @@ the <a href="cockpit/pilot/right_console/../../../systems/electrics.html#generat
 the pilot with the ability to adjust the IFF sender of the own aircraft.
 Which would then be picked up by interrogators in other aircraft.</p>
 <blockquote>
-<p>💡 Due to DCS limitations, this is not simulated in-game.</p>
+<p>💡 For in-game functionality, installation of Simple Radio Standalone (SRS) is required.</p>
 </blockquote>
+<p>Due to DCS limitations, the panel's simulation is partial but compatible with SRS.
+The functionalities included are:</p>
+<ul>
+<li>Warmup sequence upon power-up.</li>
+<li>Mode 1 with selected code</li>
+<li>Mode 3 with selected code</li>
+<li>Mode 4 - on/off logic</li>
+<li>Identification</li>
+<li>Tests for Mode 2 and Mode 3/A</li>
+</ul>
 <p>For further explanation see
 the <a href="cockpit/pilot/right_console/../../../systems/identification_systems.html#iff-controls-and-indicators">IFF System controls chapter</a>.</p>
 <h2 id="dcu-94a-stores-control-monitor-panel"><a class="header" href="#dcu-94a-stores-control-monitor-panel">DCU-94A Stores Control-Monitor Panel</a></h2>
@@ -5248,7 +5258,7 @@ for Mode 2 must be set on the ground, ranging from code 0000 to code 7777.</p>
 <h3 id="mode-2-selector-switch"><a class="header" href="#mode-2-selector-switch">Mode 2 Selector Switch</a></h3>
 <p>The three position Mode 2 Selector switch controls the mode 2 operation:</p>
 <div class="table-wrapper"><table><thead><tr><th>Position</th><th>Operation</th></tr></thead><tbody>
-<tr><td>M-2</td><td>Self test position (Inoperative)</td></tr>
+<tr><td>M-2</td><td>Self test position. Light illuminates if mode is operating properly.</td></tr>
 <tr><td>ON</td><td>Enables Mode 2 for operation.</td></tr>
 <tr><td>Out</td><td>Disables Mode 2</td></tr>
 </tbody></table>
@@ -5256,7 +5266,7 @@ for Mode 2 must be set on the ground, ranging from code 0000 to code 7777.</p>
 <h3 id="mode-3a-selector-switch"><a class="header" href="#mode-3a-selector-switch">Mode 3/A Selector Switch</a></h3>
 <p>The three position Mode 3/A Selector switch controls the mode 3/A operation:</p>
 <div class="table-wrapper"><table><thead><tr><th>Position</th><th>Operation</th></tr></thead><tbody>
-<tr><td>M-3/A</td><td>Self test position (Inoperative)</td></tr>
+<tr><td>M-3/A</td><td>Self test position. Light illuminates if mode is operating properly.</td></tr>
 <tr><td>ON</td><td>Enables Mode 3/A for operation.</td></tr>
 <tr><td>Out</td><td>Disables Mode 3/A</td></tr>
 </tbody></table>
@@ -5270,8 +5280,8 @@ for Mode 2 must be set on the ground, ranging from code 0000 to code 7777.</p>
 </tbody></table>
 </div>
 <h3 id="mode-1-and-mode-3a-code-selectors"><a class="header" href="#mode-1-and-mode-3a-code-selectors">Mode 1 and Mode 3/A Code selectors</a></h3>
-<p>The Mode 1 code selector is used to select Mode 1 codes for 00 to 73. The Mode 3/A code selector is
-used to select Mode 3/A codes from 0000 to 7777.</p>
+<p>The Mode 1 code selector is used to select Mode 1 codes from 00 to 73. The Mode 3/A code selector
+is used to select Mode 3/A codes from 0000 to 7777.</p>
 <h3 id="mode-4-selector-switch"><a class="header" href="#mode-4-selector-switch">Mode 4 Selector Switch</a></h3>
 <p>The two position Mode 4 Selector switch controls the mode 4 operation:</p>
 <div class="table-wrapper"><table><thead><tr><th>Position</th><th>Operation</th></tr></thead><tbody>
@@ -5299,7 +5309,7 @@ seconds, and then turning off the IFF master switch and radar power knob retains
 power off. Illumination of the IFF warning light and MASTER CAUTION light can be caused by internal
 component failure, failure to respond to a valid interrogation, or a zeroized code.</p>
 <h3 id="monitor-radiation-test-switch"><a class="header" href="#monitor-radiation-test-switch">Monitor-Radiation Test Switch</a></h3>
-<p>This switch has three postions, RAD TEST, MON and OUT. The switch is pllaced to the OUT position
+<p>This switch has three postions, RAD TEST, MON and OUT. The switch is placed to the OUT position
 in-flight and not used.</p>
 <h3 id="identification-of-position-switch"><a class="header" href="#identification-of-position-switch">Identification of Position Switch</a></h3>
 <p>The Identification switch is a three position toggle switch used to provide momentary identification
