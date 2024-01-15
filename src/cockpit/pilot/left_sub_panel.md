@@ -94,7 +94,8 @@ When pulled in conjunction with the Yaw ARI Stab Aug Switch disengaged, Yaw ARI
 will be fully removed. With the Yaw ARI Stab Aug Switch engaged, 5 degrees of
 ARI authority will be maintained.
 
-See [ARI Disengage.](../../systems/flight_controls_gear/flight_controls.md#aileron-rudder-interconnect-ari)
+See [3.1.2 Flight controls & AFCS](../../systems/flight_controls_gear/flight_controls.md#aileron-rudder-interconnect-ari)
+for further information.
 
 ## Emergency Brake Handle
 

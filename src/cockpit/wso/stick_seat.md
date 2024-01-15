@@ -30,7 +30,7 @@ control for video-directed air to ground weapons.
 
 Holding the button down permits the crew member to steer the aircraft using the
 rudder. See
-[Nose Gear Steering](../../systems/flight_controls_gear/gear_ground_handling.md#nose-gear-steering)
+[3.1.3 Gear & Ground handling, Nose Gear Steering section](../../systems/flight_controls_gear/gear_ground_handling.md#nose-gear-steering)
 for details.
 
 ### Emergency Quick Release Lever
@@ -39,7 +39,7 @@ An Emergency Quick Release lever on each stick is available to immediately
 deactivate the anti-skid, ARI, autopilot, and stability augmentation.
 
 See
-[Anti-Skid section](../../systems/flight_controls_gear/gear_ground_handling.md#emergency-anti-skid-quick-release-lever)
+[3.1.3 Gear & Ground handling, Anti-Skid section](../../systems/flight_controls_gear/gear_ground_handling.md#emergency-anti-skid-quick-release-lever)
 for details.
 
 ## Seat
@@ -49,7 +49,7 @@ for details.
 The seat allows the crew to eject out of the plane by pulling either the cord
 between the legs or above the head.
 
-See the [System section](../../systems/emergency.md#ejection-seats) for details
+See the [3.13 Emergency system section](../../systems/emergency.md#ejection-seats) for details
 on the seat and ejection mechanism.
 
 ### Seat Position

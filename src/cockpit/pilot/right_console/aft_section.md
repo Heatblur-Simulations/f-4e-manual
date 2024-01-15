@@ -73,7 +73,7 @@ and DIM selections are routed through different buses:
 | Anti-Col 2 | Left Main 14V AC Bus  |
 
 For further information about the lighting see
-the [lighting chapter.](../../../systems/lighting.md#exterior-lighting)
+the [3.9 lighting chapter.](../../../systems/lighting.md#exterior-lighting)
 
 ### Fuselage Switch
 
@@ -125,4 +125,4 @@ In DCS, footage is saved in the users Saved Games folder, for example:
 
 `C:\Users\JohnDoe\Saved Games\DCS.openbeta\F-4E\recorders\avtr`
 
-See [DCS Recorders](../../../dcs/recorders.md) for details on the footage.
+See [9.5 DCS Recorders](../../../dcs/recorders.md) for details on the footage.

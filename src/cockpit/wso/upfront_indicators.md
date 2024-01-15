@@ -306,7 +306,7 @@ Illuminates when canopy is unlocked. To reset the lamp close and lock the rear c
 ## Inertial Nav Sys Out Lamp
 
 Illuminates when INS system is in a failure state. To reset the INS refer to
-the [Inertial Navigation System chapter](../../systems/nav_com/ins.md).
+the [3.3.2 Inertial Navigation System chapter](../../systems/nav_com/ins.md).
 
 ## Radar CNI Cool Off Lamp
 

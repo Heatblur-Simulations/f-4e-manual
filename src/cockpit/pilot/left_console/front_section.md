@@ -168,8 +168,8 @@ aircraft is connected to a ground crew provided generator, or the aircraft's
 battery if no external power available. Switching them to OFF (aft) position
 will engage the fuel shutoff valves so long as the aircraft is not solely
 running on the internal electrical bus; otherwise, the valves will remain open,
-unless the engine throttle is placed into the cutoff position. For further Information see the
-[engines chapter](../../../systems/engines_and_fuel_systems/engines.md).
+unless the engine throttle is placed into the cutoff position. For further Information see
+[3.2.1 engines chapter](../../../systems/engines_and_fuel_systems/engines.md).
 
 ### Rudder Trim Switch
 
@@ -190,8 +190,8 @@ Throttle movement is smooth and continuous, with afterburner modulation possible
 range. Moving throttles from IDLE to OFF closes the fuel shutoff valve, stopping fuel flow. To
 transition from OFF to IDLE or MIL, advance the throttles straight forward. Shifting throttles
 outboard allows movement from MIL to MAX, enabling forward motion in the afterburner range. For
-further information see
-the [throttles chapter](../../../systems/engines_and_fuel_systems/engines.md#throttles).
+further information
+see [3.1.2 Engines chapter](../../../systems/engines_and_fuel_systems/engines.md#throttles).
 
 ### Fingerlifts
 
@@ -254,7 +254,7 @@ The Speed Brakes are actuated by a three position switch found on the inboard
 throttle in both cockpits. Either switch will actuate the brakes. The positions
 are Out, Stop, and In; the Out position is momentary and reverts back to Stop when released.
 For further information see
-the [Flight Control Surfaces chapter](../../../systems/flight_controls_gear/flight_controls.md#speed-brakes).
+[3.1.2 Flight Control Surfaces chapter](../../../systems/flight_controls_gear/flight_controls.md#speed-brakes).
 
 ### Mic Switch
 

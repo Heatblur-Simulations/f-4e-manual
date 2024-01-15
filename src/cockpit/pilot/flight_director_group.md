@@ -51,9 +51,8 @@ SPEED [AoA](../../systems/flight_controls_gear/flight_controls.md#angle-of-attac
 knots slower than the given value.
 
 When indicator power is offline due to electrical system configuration or
-damage, an OFF flag will appear in the window on the face of the gauge. Function
-of the indexer lights and stall warning vibrator is driven by switches in the
-indicator.
+damage, an OFF flag will appear in the window on the face of the gauge. The AoA indicator contais
+switches that light the indexer lights and actuate the stall warning vibrator.
 
 ## Reference System Selector Switch
 
@@ -163,7 +162,7 @@ the ADI; the OFF position has the switch aligned vertically.
 | [VOR](../../systems/nav_com/vor_ils.md)/[TAC](../../systems/nav_com/tacan.md) | Magnetic and relative bearing to [VOR](../../systems/nav_com/vor_ils.md) station and [TACAN](../../systems/nav_com/tacan.md) range displayed on HSI. |
 | [TAC](../../systems/nav_com/tacan.md)                                         | Magnetic and relative bearing and range to [TACAN](../../systems/nav_com/tacan.md) station displayed on the HSI.                                     |
 | ADF/[TAC](../../systems/nav_com/tacan.md)                                     | Magnetic and relative bearing to ADF station and [TACAN](../../systems/nav_com/tacan.md) range displayed on HSI.                                     |
-| NAV COMP                                                                      | Magnetic and relative bearing and range provided from navigation computer (i.e. waypoints) on HSI.                                                    |
+| NAV COMP                                                                      | Magnetic and relative bearing and range provided from navigation computer (i.e. waypoints) on HSI.                                                   |
 
 ### Mode Selector Knob Display Functions
 

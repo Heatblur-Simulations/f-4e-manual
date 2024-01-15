@@ -32,7 +32,8 @@ of the system's performance.
 
 The lamp above the button illuminates to indicate test status.
 
-See [TACAN Test](../../../procedures/bit_tests/navigation_tests.md#tacan-test) for details.
+See [7.19.4 Navigation test procedures chapter](../../../procedures/bit_tests/navigation_tests.md#tacan-test)
+for further information.
 
 ### Volume Knob
 
@@ -171,7 +172,8 @@ supply adjusted accordingly:
 | 40000 ft - 62000 ft | Breath pressurized Oxygen through mask       |
 | above 62000 ft      | Need to wear a pressure suit (not available) |
 
-See [Oxygen Chapter](../../../systems/utility.md#oxygen-system) for more information.
+See [3.7 Utility chapter, Oxygen section](../../../systems/utility.md#oxygen-system) for further
+information.
 
 ## Liquid Oxygen Level Indicator
 
@@ -188,4 +190,4 @@ face.
 The volume control consists of two knobs: one square knob adjusts VOR and
 localizer audio, while the round knob controls the marker beacon audio.
 
-See [VOR/ILS Chapter](../../../systems/nav_com/vor_ils.md) for more information.
+See [3.3.4 VOR/ILS Chapter](../../../systems/nav_com/vor_ils.md) for further information.
