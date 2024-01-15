@@ -13,7 +13,7 @@ the [AGM-65 Maverick](../../stores/air_to_ground/missiles/maverick.md).
 ![RetIntensity](../../img/RetIntensity.jpg)
 
 | Name    | Description                                                                            |
-| ------- | -------------------------------------------------------------------------------------- |
+|---------|----------------------------------------------------------------------------------------|
 | RET INT | Controls the brightness of the gun reticle.                                            |
 | SCALE   | Controls the light intensity of the range scale at the edges of the front radar scope. |
 
@@ -39,15 +39,15 @@ the [AGM-65 Maverick](../../stores/air_to_ground/missiles/maverick.md).
 
 Selects the mode of operation for the gun-sight.
 
-| Name  | Description                                                                                                                                                           |
-|-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| OFF   | Turns the system off.                                                                                                                                                 |
-| STBY  | Warms up the system. Reticle remains off.                                                                                                                             |
+| Name  | Description                                                                                                                                                                           |
+|-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| OFF   | Turns the system off.                                                                                                                                                                 |
+| STBY  | Warms up the system. Reticle remains off.                                                                                                                                             |
 | CAGE  | Reticle is displayed and caged at the radar boresight line (RBL). This is used for [takeoff](../../procedures/takeoff/takeoff.md) and [landing](../../procedures/landing/landing.md). |
-| A/G   | Selects air to ground mode. Manual set depression is referenced from the fuselage reference line (FRL).                                                               |
-| A/A   | Selects air to air lead computing mode. Position is set by the gyro, range, and CADC, and can be caged.                                                               |
-| BIT 1 | System self test [mode 1](../../procedures/bit_tests/optical_sight.md).                                                                                                                                              |
-| BIT 2 | System self test [mode 2](../../procedures/bit_tests/optical_sight.md).                                                                                                                                              |
+| A/G   | Selects air to ground mode. Manual set depression is referenced from the fuselage reference line (FRL).                                                                               |
+| A/A   | Selects air to air lead computing mode. Position is set by the gyro, range, and CADC, and can be caged.                                                                               |
+| BIT 1 | System self test [mode 1](../../procedures/bit_tests/optical_sight.md).                                                                                                               |
+| BIT 2 | System self test [mode 2](../../procedures/bit_tests/optical_sight.md).                                                                                                               |
 
 ## OPR ERS/Contrast Knob
 
@@ -107,7 +107,7 @@ situation against a target above the fighter. The predicates are:
 When the HOLD ALT light is on, the fighter should be flown to center the
 steering dot relative to azimuth of the ASE circle. When the HOLD ALT light
 turns off, the fighter should then snap up in pitch to fully center the steering
-dot in the ASE circle. See [radar system](../../systems/radar.md) for more.
+dot in the ASE circle. See [3.10 radar system](../../systems/radar.md) for more.
 
 ## Wheels Light
 

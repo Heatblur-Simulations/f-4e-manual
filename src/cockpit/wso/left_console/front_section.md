@@ -124,7 +124,7 @@ throttle in both cockpits. Either switch will actuate the brakes. The positions
 are Out, Stop, and In; the Out position is momentary and reverts back to Stop when released.
 
 For further information see
-the [Flight Control Surfaces chapter.](../../../systems/flight_controls_gear/flight_controls.md#speed-brakes)
+the [3.1.2 Flight Control Surfaces chapter.](../../../systems/flight_controls_gear/flight_controls.md#speed-brakes)
 
 ### Mic Switch
 

@@ -149,6 +149,7 @@
   - [Bombing Computer](./dcs/bombing_computer.md)
   - [Grease Pencil](./dcs/grease_pencil.md)
   - [Recorders](./dcs/recorders.md)
+  - [Character](./dcs/character.md)
   - [Mission Editor](./dcs/mission_editor.md)
   - [Modding](./dcs/modding/overview.md)
     - [Jester](./dcs/modding/jester/overview.md)

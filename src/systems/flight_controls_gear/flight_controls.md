@@ -253,7 +253,8 @@ lowered.
 
 ## Aural Tone System
 
-![manual_aural_tone_chart](../../img/manual_aural_tone_charts.jpg)
+![manual_aural_tone_chart_slats_in](../../img/AoA_aural_tone_chart_slats_in_or_gear_down.jpg)
+![manual_aural_tone_chart_slats_out](../../img/AoA_aural_tone_chart_slats_out_and_landing_gear_up.jpg)
 
 The Aural Tone System provides audible feedback in maneuvering flight and during
 landing configuration. Beginning above 15 units AoA with gear down, and 21 units

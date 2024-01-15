@@ -9,4 +9,4 @@ In the following chapter you will find a short overview of the Pilots cockpit as
 as the Weapons Systems Officer (WSO) Pit.
 
 A more detailed System Overview is available in
-the [Systems Overview Chapter](../systems/overview.md).
+the [3. Systems Overview Chapter](../systems/overview.md).

@@ -1,11 +1,11 @@
 # Jester
 
-Jester is fully open to modding via a Lua-API. Any feature and functionality of feature
+Jester is fully open to modding via a Lua-API. Any feature and functionality of Jester
 has been written by using this API.
 
 ![Jester](../../../img/jester_crewmember.jpg)
 
-The Jester AI primarily consists:
+The Jester AI primarily consists of:
 
 * logic - written with the [Lua-API](lua_api.md)
 * user interface - embedded websites for the [Wheel](wheel_ui.md) and [Dialogs](dialog_ui.md)
