@@ -23,6 +23,8 @@ The camera can then be moved for example to the front via standard DCS controls:
 - <kbd>RCtrl</kbd> + <kbd>RShift</kbd> + <kbd>2</kbd> (Numpad): Move down
 - <kbd>RCtrl</kbd> + <kbd>RShift</kbd> + <kbd>4</kbd> (Numpad): Move left
 - <kbd>RCtrl</kbd> + <kbd>RShift</kbd> + <kbd>6</kbd> (Numpad): Move right
+- <kbd>RCtrl</kbd> + <kbd>RShift</kbd> + <kbd>/</kbd> (Numpad): Move forward
+- <kbd>RCtrl</kbd> + <kbd>RShift</kbd> + <kbd>*</kbd> (Numpad): Move aft
 
 The view can be turned back to face the pilot by using <kbd>LAlt</kbd> +
 <kbd>C</kbd> and then using the mouse.
