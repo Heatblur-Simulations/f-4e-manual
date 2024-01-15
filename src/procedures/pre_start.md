@@ -33,23 +33,6 @@ Designations used:
 | 13.  | Circuit breaker panels            | CHECK      |
 | 14.  | Publications and flight data      | CHECK      |
 
-<!-- ### After Electrical Power (WSO)
-
-| Step | System                         | Action        |
-|------|--------------------------------|---------------|
-| 1.   | Instrument ground power switch | ACTUATE⚡      |
-| 2.   | Navigation Computer            | SET           |
-|      | a. NAV COMP MODE               | STBY          |
-|      | b. WIND COUNTERS               | SET           |
-|      | c. VARIATION COUNTER           | SET           |
-|      | d. POS UPDATE SWITCH           | NORM          |
-|      | e. PRESENT POS COUNTER         | SET           |
-|      | f. TARGET COUNTERS             | SET FOR TGT 2 |
-|      | g. NAV COMP MODE               | RESET         |
-|      | h. NAV COMP MODE               | STBY          |
-|      | i. TARGET COUNTERS             | SET FOR TGT 1 |
-| 3.   | INS alignment                  | AS DESIRED    | -->
-
 ### Interior Check (WSO)
 
 | Step | System                                                  | Action               |
@@ -227,7 +210,7 @@ Designations used:
 |      | k. Navigation command button                                                                                                                                                                                                                                                                                                       | AS DESIRED                                |
 | 38.  | Emergency vent knob                                                                                                                                                                                                                                                                                                                | IN                                        |
 | 40.  | Rain removal switch                                                                                                                                                                                                                                                                                                                | OFF                                       |
-| 41.  | Pitot heat                                                                                                                                                                                                                                                                                                                         | CHECK⚡                                    |
+| 41.  | Pitot heat                                                                                                                                                                                                                                                                                                                         | CHECK ⚡ 🔧                                |
 | 42.  | Defog-foot heat control handle                                                                                                                                                                                                                                                                                                     | AS DESIRED                                |
 | 43.  | IFF Mode IV function switch                                                                                                                                                                                                                                                                                                        | AS DESIRED                                |
 | 44.  | IFF Master control knob                                                                                                                                                                                                                                                                                                            | OFF                                       |

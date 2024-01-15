@@ -21,21 +21,13 @@ of the Navigation Computer:
 
 ### Function Selector Knob
 
-| Position | Description
-                                                                                                   
-        |
-|----------|--------------------------------------------------------------------------------------
-----------------------------------|
-| OFF      | System powered down.
-                                                                                                   |
-| STBY     | System is powered but the latitude and longitude position integration is off.
-                                          |
-| TARGET 1 | Computes range and bearing to the selected coordinates set on the TARGET rollers.
-                                      |
-| TARGET 2 | Computes range and bearing to the memorized coordinates.
-                                                               |
-| RESET    | Clears the memorized coordinates. When moved back to TARGET 2, the currently selected
-TARGET coordinates are memorized. |
+| Position | Description                                                                                                             |
+|----------|-------------------------------------------------------------------------------------------------------------------------|
+| OFF      | System powered down.                                                                                                    |
+| STBY     | System is powered but the latitude and longitude position integration is off.                                           |
+| TARGET 1 | Computes range and bearing to the selected coordinates set on the TARGET rollers.                                       |
+| TARGET 2 | Computes range and bearing to the memorized coordinates.                                                                |
+| RESET    | Clears the memorized coordinates. When moved back to TARGET 2, the currently selected TARGET coordinates are memorized. |
 
 ### Wind Control Knobs and Counters
 
@@ -53,8 +45,8 @@ These knobs are used to manually change the current aircraft position in terms o
 and longitude, as displayed on the counters (in degrees and minutes). They must be pressed
 in to be effective.
 
-> 💡  In INERTIAL mode, the Position Update Switch must be used in conjunction with these knobs
-to update the position coordinates.
+> 💡 In INERTIAL mode, the Position Update Switch must be used in conjunction with these knobs
+> to update the position coordinates.
 
 ### Target Control Knobs and Counters
 
@@ -65,15 +57,15 @@ TARGET 2 coordinates (after the RESET position has been selected).
 ### Position Update Switch
 
 | Position | Description                                                                           
-                                        |
+|
 |----------|---------------------------------------------------------------------------------------
 ----------------------------------------|
-| SET      | Disengages the updating mechanism of position counters, allowing them to be freely
-rotated to the desired position.           |
-| NORMAL   | Position counters are updated based on the INS signal in Inertial Mode, or by the
+| SET | Disengages the updating mechanism of position counters, allowing them to be freely
+rotated to the desired position. |
+| NORMAL | Position counters are updated based on the INS signal in Inertial Mode, or by the
 system's own computations in Air Data Mode. |
-| FIX      | Updates the INS position at a rate of approximately 3 minutes of arc per second.
-                                              |
+| FIX | Updates the INS position at a rate of approximately 3 minutes of arc per second.
+|
 
 The switch features an approximate 0.5-second delay when set to NORM, designed to prevent unwanted
 updates of the counters during the transition from SET to FIX.
