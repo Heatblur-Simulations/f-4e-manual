@@ -109,3 +109,81 @@ Shows the last saved bombing solutions. The line shows the inputs as following:
 - [Pull-Up Timer](../systems/weapon_systems/arbcs.md)
 - [Release Range](../systems/weapon_systems/wrcs.md#release-range-control)
 - [Sight Depression](../cockpit/pilot/dcsg_controls.md#reticle-depression-knob)
+
+## Example run
+
+This is a step-by-step guide for an example loft bombing run with 12 Mk-82s. In our case we want the
+fourth bomb to hit the target. The first three should hit in front of the target and the rest should
+impact behind the target. For that we will use the release advance.
+
+### First Step
+
+The first step in planning our loft bombing run is to identify and pick a target. In this example
+run we want to bombard the red units standing on the X.
+
+![map_target_position](../img/map_target_position.jpg)
+
+### Second Step
+
+In the second step we will take a look at the F10-Map and make out an Ingress Point (IP).
+
+> 💡 The IP should always have a good visibility while flying the plane as optical identification of
+> the IP will be the main method of timing the press of the bomb button.
+
+![map_ingress_point](../img/map_ingress_point.jpg)
+
+For our target we chose the lake just north of the target as an IP. Now we measure the distance from
+our IP to the target and note it down as we need to input that to the bombing calculator. In this
+case the distance is 4.03 NM which we will cut off to 4 NM since the bombing calculator can only
+take 10ths of a mile.
+
+### Third Step
+
+Now we also need to note the elevation of the target in MSL. To get that information we just click
+on a unit and read the altitude out of the box in the lower left corner. In this case the target
+elevation is 32 ft which we will cut down to 30 ft since the bombing calculator can only take values
+of tens.
+
+> 💡 If the target unit is not visible on the F10 map you can also hover over the position of the
+> enemy unit and read the elevation next to the coordinates in the upper left corner of the map.
+
+![map_target_elevation](../img/map_target_elevation.jpg)
+
+### Fourth Step
+
+![bombing_calculator_numbered](../img/bombing_calculator_numbered.jpg)
+
+Now that we have all needed values from the map we will put those in the bombing calculator.
+
+(1) Here we select the type of our bomb. In our case Mk-82s.
+
+(2) For our run-in altitude we want it to be at 3000 ft above MSL.
+
+(3) We want to do our run-in at 350 knots true Airspeed.
+
+(4) We measured the distance between our Ingress Point and target earlier at the second step. Now we
+will put that in.
+
+(5) We got our target altitude from the F10 map and can put it in now.
+
+(6) We want our Loft Angle to be at 30°, we put that in.
+
+(7) The bombing calculator now gives us back the Pull-Up Timer that the WSO can than put in at a
+later step.
+
+(8) We want to drop our bombs with a release Interval of 0.15 seconds, so we put that in
+
+(9) As we decided on the beginning we want the fourth bomb to be on the target.
+
+(10) In the release advance window the bombing calculator now gives us the value that the WSO can
+put in later.
+
+### Fifth Step
+
+Now the WSO can put in the Loft Angle at the release angle, the pull-up timer at the bombing timers
+and the release advance in the release advance in the WRCS.
+
+### Sixth Step
+
+Now you only need to flight the maneuver for the Loft delivery as precise as possible to make sure
+you hit the target right. The more precise you fly the more precise your bombing run will be.
