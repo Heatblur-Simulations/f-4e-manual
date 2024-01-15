@@ -8,7 +8,7 @@ capabilities. Comprising a substantial portion of the F-4E's air-to-air armament
 the [Sparrow's](./aim_7.md) radar-guided system allows pilots to engage adversaries before they
 enter the visual horizon.
 
-![real_life_aim_7](../../img/real_life_aim_7_hawaii.jpeg)
+![real_life_aim_7](../../img/real_life_aim_7_hawaii.jpg)
 
 In close-quarters engagements, the F-4E relies on the [AIM-9 Sidewinder,](./aim_9.md) a short-range,
 infrared-guided missile celebrated for its agility and responsiveness. Constituting a vital

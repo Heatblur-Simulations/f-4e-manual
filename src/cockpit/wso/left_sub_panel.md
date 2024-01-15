@@ -73,9 +73,6 @@ The AN/APX-80 combines the IFF Interrogator System APX-76 and the Combat-Tree
 system APX-81A. It is used to identify whether an aircraft is friendly or
 hostile.
 
-The glass cover has to be lifted in order to reach most switches and knobs on
-this panel.
-
 ### Code Buttons
 
 The first digit of the code display indicates the current IFF mode, which can be

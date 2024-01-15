@@ -34,12 +34,12 @@ details.
 
 ### Nose Wheel Steering Button
 
-Both sticks carry a Nose Wheel Steering button that doubles as a radar
+Both sticks carry a Nose Wheel Steering (NWS) button that doubles as a radar
 auto-acquisition control for the radar in visual range combat, and sensor focus
 control for video-directed air to ground weapons.
 
 Holding the button down permits the crew member to steer the aircraft using the
-rudder peddals. See
+rudder pedals. See
 [3.1.3 Gear & Ground handling, Nose Gear Steering section](../../systems/flight_controls_gear/gear_ground_handling.md#nose-gear-steering)
 for details.
 
