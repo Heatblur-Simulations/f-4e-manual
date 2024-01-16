@@ -89,6 +89,7 @@ STBY flag will appear, and cannot be reset. This can also be followed by
 warnings on the telelight panel.
 
 Included failures of the device are:
+
 - Altimeter Stuck: total damage, all indications are frozen
 - Electric Servo Failed: the device is forced to turn to the STBY (pressure) mode of operation.
 - Needle Stuck: needle remains in its position
