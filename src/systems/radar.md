@@ -37,6 +37,15 @@ inserted it into the WRCS.
 
 ### Power
 
+| Name | Description                                                                                                                        |
+|------|------------------------------------------------------------------------------------------------------------------------------------|
+| OFF  | Powers radar off.                                                                                                                  |
+| TEST | Applies voltage to control monitor power and provides [BIT-test](../../../procedures/bit_tests/overview.md) functions 1 through 6. |
+| STBY | Power applied to radar, remains in a non-transmitting standby state.                                                               |
+| OPR  | System is fully operational.                                                                                                       |
+| EMER | Overrides the time delay, pressure, and temperature restrictions to allow radar operation.                                         |
+
+
 Initial powering of the APQ-120 starts by placing the Radar Power Knob into TEST or STBY (Standby).
 The warmup cycle requires 3 minutes from selecting either setting, and confirmation of this process
 is shown via the Control Monitor Meter on the Monitor Panel; after 30 seconds from cycling power,
@@ -69,6 +78,12 @@ value on the DSCG display in the upper left.
 ![pilot_dscg_range_lights](../img/pilot_dscg_range_lights.jpg)
 
 ### Polarization Control
+
+| Selection |  Description|
+|-------|-------------|
+| LIN   | RF energy is lineally polarized in a vertical orientation. [AIM-7](../../../stores/air_to_air/aim_7.md) default mode. |
+| CIR 1 | RF energy is rotated clockwise from the vertical plane. [AIM-7](../../../stores/air_to_air/aim_7.md) can be fired. |
+| CIR 2 | RF energy is rotated counterclockwise from the vertical plane. [AIM-7](../../../stores/air_to_air/aim_7.md) cannot be fired. |
 
 The WSO is afforded direct control of the APQ-120's waveform polarization at the antenna feed-horn
 by using the Polar Switch. The default setting is LIN (Linear); in this setting, the waveform is
@@ -533,243 +548,10 @@ Lastly, the LIN and CIR selectors confirm proper linear and circular pulse perfo
 register a value of 1 for a transmission of vertical or clockwise-rotating polarity energy. That is,
 they do not return a value in CIR pulse (counter-clockwise) mode.
 
-## APQ-120 Built-In Test Knob (todo - not implemented)
+### APQ-120 Built-In Test Knob
 
 Confirmation of proper system performance is performed using the various options on the Control
-Monitor Panel; specific test modes are defined using the Test Knob, and each is described here:
-
-### Test 0
-
-Test 0 provides function testing of the DSCG display itself, as well as aim dot balance and range
-rate zeroing. Selecting Test 0 with the radar power knob in test provides a basic B-sweep display,
-showing the sweep strobe, horizon line, acquisition symbol, range strobe, and elevation strobe to
-confirm their proper usability.
-
-The B-sweep will sweep 120 or 45 degrees based on the selection of B WIDE or B NAR. In B WIDE the
-sweep should be approximately 3.5 inches wide, and the scan should fill the display to within 1/8th
-of an inch of the edge. The WSO should select half-action to confirm visibility of the range strobe,
-which should be aligned inside the acquisition symbol. The acquisition symbol should move vertically
-to the limits of the display as directed with the antenna hand control, and should similarly move in
-azimuth to the limits of the B-sweep.
-
-The horizon line should be 3.5 inches long with the center blanked out, and level indicating 0
-degrees of roll. The pilot confirms deflection by rotating the HOR LN control on the optical sight
-control panel; rotation of the knob should deflect the line at least 3/8ths an inch. Once confirmed,
-the horizon line should be returned to level.
-
-The elevation strobe should be present. 1 and 2 bar scan function is confirmed by selecting the
-applicable mode; in 1 BAR, the sweep will resolve with no jump; in 2 BAR the elevation strobe will
-jump. Elevation control response can also be checked, but should be performed in 1 BAR mode. As the
-elevation thumbwheel is rotated, check that the elevation strobe moves up and down at least 55
-degrees in each direction.
-
-Both scopes should be adjusted for subsequent test/usage visibility using the BRT, CONTR, and PER
-controls.
-
-The rear scope mode knob should be positioned to RDR BIT to display the test grid. The center
-azimuth line of the grid should be aligned with the upper and lower zero azimuth scribe lines on the
-scopes. Adjustment is performed using the grid control knob.
-
-The DOT BAL position found to the left of TEST 0 is a momentary position used to validate a full
-track display. Selecting power to STBY and holding DOT BAL, the aim dot is centered in the ASE
-circle and the range rate is presented numerically in the upper right corner of the scopes as +/- 20
-knots. The aim dot and range rate sensitivity test is performed with TEST on the power knob and DOT
-BAL held. The aim dot is located down and left of center, within the gap of the first range scribe,
-and the range rate readout is 900 +/- 50 knots.
-
-### Test 1
-
-Performing combined B-sweep and PPI gain and pulse mode functionality,
-[AIM-7](../stores/air_to_air/aim_7.md) interlock function, and range track memory testing, Test 1
-should be initiated with B WIDE selected for the Display and in AUTO Pulse mode. Upon selecting the
-test, the horizon line shifts up and right to provide visibility of the main area.
-
-The B-sweep scans, and will show a number of targets. Once the receiver gain settings are correct
-for the AUTO Pulse test, a minimum of 11 targets will be visible. The WSO should initiate
-half-action and position the acquisition symbol past the last visible target (in respect to range).
-When full-action is initiated, the range strobe sweeps in and will lock on before passing the 7th
-target from the top. Lock-on is initiated when the skin track (SKIN TRK) light illuminates and the
-normal track display appears, consisting of the ASE circle, aim dot, the Rmax and Rmin strobes, and
-the acquisition symbol following the range gate. While locked on, the WSO should confirm that the
-number of targets does not change by turning the receiver gain full counter-clockwise. The WSO then
-rotates the receiver gain full clockwise, then applies half-action and repeats the check- the number
-of targets will decrease. The receiver gain should then be returned to the optimum setting found
-prior.
-
-The test can then be rerun using SHORT Pulse mode, which presents a minimum of eight targets when
-gain is correctly set (may need adjustment from the prior sequence). Initiating half-action beyond
-the last visible target will then lock prior to passing the 8th target from the top. From lock-on,
-the test should be followed as above to confirm lack of changing targets, then continuing.
-
-During the tests, the applicable range light appears based on selection, and displays on the scope
-digitally as well in the upper left of the scopes. Target and noise video should be the same for all
-ranges. The acquisition symbol is also checked for stabilization in all ranges by placing it between
-the 2nd and 3rd scribe lines, and then confirming it remains in that position while selecting all AI
-positions on the range knob.
-
-Confirmation of the PPI scan and STC (Sensitivity Time Control) is confirmed by selecting MAP for
-the Radar mode and PPI WIDE or NAR as the Display mode, with any range setting other than 5. The
-resulting PPI scan will sweep 120 or 45 degrees, based on the selected setting and the acquisition
-symbol removed. The PPI sweep length as displayed is 3.5 inches, is shifted 5 degrees right, and
-targets are visible. The WSO should adjust the receiver gain fully counterclockwise, then fully
-clockwise, to confirm the transition of noise from maximum range, then extending down. Selecting TGT
-FIND will display the Range and Offset cursors, which can be adjusted for visibility using the RANGE
-and OFFSET CURSOR INT knobs; should they still not be visible, the Along Track and Cross Track
-wheels can be used to find them. Once displayed, the WSO should place the range cursor to exit the
-display at the right side of the display at the 35 degree down position, and the offset cursor with
-the first angle mark to the right of zero azimuth.
-
-With the pilot selecting DT as the Weapon Release mode, the offset cursor should disappear. When the
-WSO selects a range of 5, the scope will revert to a B-sweep presentation.
-
-Computer functions can be checked with the WSO selecting RDR for mode, the pilot placing the
-gun/missile switch to Radar, and selecting CW ON. Once an [AIM-7](../stores/air_to_air/aim_7.md) is
-tuned with a RDR status light, the third test target should be locked. The aim dot will be
-stationary and centered within the upper calibration area, and the Vc gap will be at the 3 o'clock
-position, which is correct for the ASE interlock/ranging of the simulated target.
-
-Range track memory is confirmed by locking the second test target with AUTO Pulse enabled, then
-switching to Test 0, and monitoring the time it takes the system to unlock. Break lock will occur
-within 4 to 6 seconds after the SKIN TRK lamp goes off, and the range rate circle reduces in size.
-Return to Test 1, and lock the same target. Select Test 0 for one second less than the time it took
-for the first unlock, and return to Test 1. The SKIN TRK light should go off in Test 0, turn on in
-Test 1, and remain for at least 5 seconds.
-
-This track memory test can be performed with SHORT Pulse set, and the timing should be the same.
-
-### Test 2
-
-Beginning the pure air-to-air function sequences confirming break lock and
-[AIM-7](../stores/air_to_air/aim_7.md) head aim, selection of Test 2 positions the radar 20 degrees
-right of center, and elevation 40 degrees above center. With the WSO selecting the SHORT pulse
-option and the radar locked on the second target, the system will retain lock longer than 30 seconds
-of the skin track (SKIN TRK) light illuminating. Against the tenth target, the radar will break lock
-within 30 seconds of the skin track light.
-
-The Vc gap will position at 3 o'clock if the antenna has reached the correct gimbal position and are
-within 6 degree tracking capabilities of the APQ-120 are confirmed against a series of test targets.
-Upon selection, the B-sweep and levation strobe return to 0 degrees in azimuth and elevation, and
-provides two opportunities to confirm proper range display position (fifth target and fifteenth).
-The WSO proceeds through the sequence by performing a lock on each target.
-
-After locking target 4, the elevation strobe will move down 30 degrees, the ASE circle will increase
-1.9 inches in diameter, and the aim dot will rotate between the ASE circle and the segmented circle
-on the test grid. The dot should exceed neither by more than a quarter inch. The aim dot should
-rotate inside the segmented circle when locked on target 10. Range rate information during this
-series is disregarded.
-
-As mentioned, range display position is confirmed on target five and fifteen. When functioning
-properly:
-
-the Fifth target will align with the first scribe line from the bottom of the scope, and the
-Fifteenth target will align with the third scribe line from the bottom of the scope.
-
-Angle track testing can also be performed for boresight mode by selecting BST.
-
-### Test 4
-
-Test 4 validates Home on Jam (HOJ) and Acquisition on Jam (AOJ) functionality of the radar,
-confirming simulated Doppler injection of an [AIM-7](../stores/air_to_air/aim_7.md), angle track
-drift, as well as the elevation scan of CAA.
-
-With a lock against a target from a prior test, upon selecting Test 4, all test targets on the
-display should disappear, replaced with a locked target presentation, simulating HOJ. This will
-illuminate the HOJ H indication and flash the range rate digits (which will also end in H). To
-confirm re-lock from HOJ, the WSO holds half-action. The HOJ H indication will turn off, and the
-display will change to the ASE circle/aim dot AOJ presentation. The range strobe can be shifted
-using the antenna hand control, and the display resets back to a standard search by releasing
-half-action. To confirm AOJ override, the WSO should then press full action, then positioning the
-AOJ track switch to AOJ OUT; the track display should clear and return to search.
-
-For simulated Doppler injection testing, the pilot should switch CW Power on and select
-[AIM-7](../stores/air_to_air/aim_7.md) on the guns/missile switch. The WSO should lock a test
-target, then observe the Vc display; the Vc gap on the ccw edge should be found between 1 and 2
-o'clock. This is the correct display area for the simulated Doppler signal. The correct speed
-readout will fall between 550 +/-150 knots, and end in H during the HOJ sequence.
-
-Angle track drift is checked by locking a target in Test 3, switching into Test 4, and positioning
-the B-sweep and El strobe to zero azimuth and elevation respectively. Switching the Power knob to
-STBY, neither the B-sweep or elevation strobe should drift more than +/- 5 degrees before a break
-lock. This should occur between 4 and 6 seconds of the switch to STBY.
-
-CAA elevation is checked by switching the Display knob to VI; the El strobe will sweep between 57
-and -21 degrees, while the B-sweep width will be two degrees wide.
-
-### Test 5
-
-Test 5 confirms proper function of range rate, lead angle error, CAA performance, and the Power
-Level Mode Switching (PLMS) circuits. The test is initiated with B WIDE or B NAR, and the
-acquisition of a target. Range rate is indicated with the counter-clockwise edge of the Vc gap,
-which will display at 12 o'clock when [AIM-7](../stores/air_to_air/aim_7.md) or
-(../stores/air_to_air/aim_9.md) is selected. The aim dot and range rate circle display the
-indications for a stationary target at 1-mile range, with a 0.56 inch diameter ASE circle,
-representing a 12 foot per second radius. The range rate indicates 0 +/- 300 knots.
-
-The CAA test sequence is entered with either crew-member actuating the nosewheel steering button.
-Four test targets are in range, and the action switch can be used to break lock or acquire.
-
-CAGE performance is validated by placing the Radar Power knob into STBY, the Radar Mode knob into
-RDR, and selecting a range of 25. The Pilot activates the CAGE button, a B-sweep occurs at 0 degrees
-in azimuth with the radar centered in elevation, and the air-to-air light in the rear cockpit
-illuminates, along with the 5-mile indicator. The transmitter is confirmed on and in SHORT Pulse
-mode with the MAG meter providing a value of 0.9 to 1.15. The WSO should press the Air to Air light,
-and the radar wil return to the conditions prior to cage. The Radar Power knob should be placed in
-OPR, and a lock-on performed. The Pilot selects Guns and actuates the CAGE button; under these
-conditions the B-sweep and elevation do not shift to 0 degrees in each axis, and the SKIN TRK light
-remains lit. The WSO can again press Air to Air, selecting 10 on the Range knob, and the pilot
-deselects Guns. Actuating the CAGE button again, and the B-sweep and elevation strobes return to 0
-in azimuth and elevation and the SKIN TRK light goes off. Placing the Radar Power knob to TEST, and
-note the RDR MAG indication - which should be between 1.4 and 1.8, and the B-sweep and radar azimuth
-should be 20 degrees.
-
-Power Level Mode Switching (PLMS) function testing is performed by switching the Radar Mode to MAP,
-range to 25, and LONG Pulse mode. The WSO locks the fifth target and confirms the MAG current value,
-which should be between 1.4 to 1.8. The pulse setting should be then changed to AUTO, which will see
-a MAG current value drop to 0.9 to 1.15, which is the operating value range for the PLMS system.
-Next, the WSO should select AIR-GND mode. The MAG reading should maintain a value of 0.9 to 1.15,
-which confirms automatic transition to SHORT Pulse mode, and the display switches to a 5 degree
-offset B-sweep with the acquisition cursor centered horizontally on it, and the elevation strobe at
-0. The antenna hand controller should be moved fore and aft, confirming the correct transition of
-the acquisition symbol along the B-sweep. The fourth target should then be locked to confirm the ASE
-circle displays without a range rate circle.
-
-One additional function in Test 5 is preparation for correct VI (Vis-Ident) mode performance. With
-the Aspect knob in the TAIL position, selecting VI as the Display mode will switch to the VI
-presentation, with fighter heading displayed in the Vc gap/range rate window. This value changes by
-10 degree increments approximately every 1.5 seconds, and does not have an integrated reference, and
-thus has a high probability of being incorrect by default. When the displayed heading value becomes
-equal to the current fighter heading (rounded), select another mode other than VI. The heading
-incrementing will stop changing, and the system will then track any further heading changes.
-
-### Test 6
-
-Test 6 checks [AIM-7](../stores/air_to_air/aim_7.md) display and interlock functionality. It will
-begin by presenting reference of the OFP version loaded in the Vc/Range window of the display.
-Launch zone parameters are pre-set independently of the missiles loaded, and is set with Rmax
-between 13.5 and 16.5 miles, and Rmin between 3.25 and 6.25 miles. The aim dot is placed within the
-upper calibration region, and the ASE circle is fixed in size. The HOLD ALT light next to the
-pilot's radar scope illuminates.
-
-To begin the sequence, the WSO should select half-action and position the range strobe past 14
-miles. Having done so, the WSO then slowly pulls the range strobe back towards minimum range.
-
-The HOLD ALT lamp will go off, and one of the two following indications will occur:
-
-If [AIM-7F](../stores/air_to_air/aim_7.md) are loaded or simulated, the Vc indicator will show 3'o
-clock and 900 knots with Radar selected, and CW ON or STBY
-
-If [AIM-7E](../stores/air_to_air/aim_7.md) are loaded or simulated, the Vc indicator will show 12'o
-clock and 000 knots with CW OFF.
-
-With the range strobe between Rmax and Rmin, the IN RANGE light will be on and SHOOT lights will
-flash. They will turn off when the range strobe passes below Rmin, and the break X indication will
-display.
-
-The last check confirms range and range rate indicator accuracy, and is initiated by selecting the
-Display Knob to VI, selecting half-action, and positioning the range strobe at 5 miles. When VI is
-selected, the aim dot will jump to the upper wright, with no Rmax or Rmin strobes present. Using
-antenna hand control, the WSO will slowly range in towards zero range. Between 3 to 1.5 miles, the
-display of the range meter will indicate 9000'.
+Monitor Panel; specific test modes are defined using the Test Knob.
 
 ### Meter Switch
 

@@ -14,25 +14,15 @@ and countermeasure panel.
 Five position rotary switch controlling power state of
 the [APQ-120 Radar.](../../../systems/radar.md)
 
-| Name | Description                                                                                                                        |
-|------|------------------------------------------------------------------------------------------------------------------------------------|
-| OFF  | Powers radar off.                                                                                                                  |
-| TEST | Applies voltage to control monitor power and provides [BIT-test](../../../procedures/bit_tests/overview.md) functions 1 through 6. |
-| STBY | Power applied to radar, remains in a non-transmitting standby state.                                                               |
-| OPR  | System is fully operational.                                                                                                       |
-| EMER | Overrides the time delay, pressure, and temperature restrictions to allow radar operation.                                         |
+[Detailed Description](../../../systems/radar.md#power)
 
 ### Polar Switch
 
-Controls polarization of transmitted radio frequency energy. CIR 1 and 2 should be used in the
-presence of rain. However, if [AIM-7](../../../stores/air_to_air/aim_7.md)
-Missiles should be fired, use CIR 1.
+Controls polarization of transmitted radio frequency energy. LIN should be used in normal
+conditions, CIR 1 and CIR 2 can be used to reduce precipitation clutter at the expense of increased
+ground clutter.
 
-| Name  | Description                                                                                                                  |
-|-------|------------------------------------------------------------------------------------------------------------------------------|
-| LIN   | RF energy is lineally polarized in a vertical orientation. [AIM-7](../../../stores/air_to_air/aim_7.md) default mode.        |
-| CIR 1 | RF energy is rotated clockwise from the vertical plane. [AIM-7](../../../stores/air_to_air/aim_7.md) can be fired.           |
-| CIR 2 | RF energy is rotated counterclockwise from the vertical plane. [AIM-7](../../../stores/air_to_air/aim_7.md) cannot be fired. |
+[See Radar Section for more details.](../../../systems/radar.md#polarization-control)
 
 ### Range Knob
 
@@ -73,16 +63,17 @@ automatically commanded.
 
 Used to program the [AIM-7](../../../stores/air_to_air/aim_7.md) with a predetermined simulated
 Doppler instead of actual received Doppler, so that the WSO can provide an estimated correct
-speed-gate location when range isn't available.
+speed-gate for the sparrow when not tracking.
+
+
 
 ### Receiver Gain Knobs (RCVR GAIN)
 
-Coarse (outer ring) and Fine (inner knob) gain control for the radar scope
-display to increase video output legibility of target returns.
+Coarse (outer ring) and Fine (inner knob) gain control for the radar receiver.
 
 ### Track Switch
 
-Enables manual target tracking in heavy clutter environments, or automatic
+Selects range tracking type for use in heavy clutter environments, or automatic
 tracking under normal circumstances.
 
 #### Manual
@@ -103,8 +94,9 @@ reacquired.
 
 #### AOJ OUT
 
-The AOJ OUT position is used to override the acquisition on jamming function of
-the radar. In the event that the radar acquires a Home-on-Jam (HOJ) lock, the position can be
+The AOJ OUT position is used to disable the acquisition on jamming function of
+the radar, if excess noise causes the Radar to erroneously switch into AOJ/HOJ condition. In the
+event that the radar acquires a Home-on-Jam (HOJ) lock, the position can be
 selected to place the radar back into a search configuration to initiate a
 lock-on against the jamming target and initiate a standard angle track lock.
 
@@ -121,7 +113,7 @@ in conjunction with the Mode knob. The types are as follows:
 | [B NAR](../../../systems/radar.md#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident)  | Selects a 45 degree B-sweep sector for search, which is manually shifted with the Antenna Hand Control stick. |
 | [PPI WIDE](../../../systems/radar.md#air-to-ground-ppi-wide-and-ppi-nar)              | Selects a 120 degree wide plan position indicator sweep for MAP mode.                                         |
 | [PPI NAR](../../../systems/radar.md#air-to-ground-ppi-wide-and-ppi-nar)               | Selects a 45 degree plan position indicator sweep that can be shifted with the Antenna Hand Control stick.    |
-| [VI](../../../systems/radar.md#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident)     | Provides pure pursuit guidance to a locked target; a break X will appear at 1000' range.                      |
+| [VI](../../../systems/radar.md#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident)  | Provides pure pursuit guidance to a locked target for Visual Intercept; a break X will appear at 1000' range.                      |
 
 ### Manual Vc Knob
 
@@ -131,21 +123,21 @@ A 12 position switch used to apply estimated range rate of closure (clockwise,
 0-9), or estimated opening of range (counterclockwise, 0-2) against a target in
 manual track mode.
 
-The numbers are multiplied by 100 m/s while closure means closing in to the F-4
+The numbers are multiplied by 100 knots while closure means closing in to the F-4
 and opening means the target is flying away from the F-4.
 
 ### Pulse Switch
 
 Three position switch controlling radar pulse width and pulse repetition
-frequency in the Air-to-Air radar search modes. With the [APQ-120](../../../systems/radar.md) placed
+frequency (PRF) in the Air-to-Air radar search modes. With the [APQ-120](../../../systems/radar.md) placed
 in [CAGE mode](../../../systems/radar.md#cage-mode), short pulse operation is automatically
 selected. In [AIR-GND modes](../../../systems/radar.md#air-grd-air-to-ground-position), the pulses
 are automatically commanded, deactivating the switch.
 
 | Name  | Description                                                                                          |
 |-------|------------------------------------------------------------------------------------------------------|
-| AUTO  | Commands long pulse width and low PRF; pulse width handled automatically when target is locked.      |
-| LONG  | Low PRF and wide pulse width, allowing maximum range detection; no track automatic pulse adjustment. |
+| AUTO  | Uses Power Level Mode Switching to determine best Pulse selection. Selects short pulse is used for acquire and track.  |
+| LONG  | Wide pulse width and low PRF, allowing maximum range detection; no track automatic pulse adjustment. |
 | SHORT | Narrow pulse width with high PRF for increased close range performance.                              |
 
 ### Mode Knob
@@ -157,12 +149,12 @@ radar.
 
 | Name    | Description                                                                                                                                                                                                                                                                  |
 |---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| BST     | [Air-to-Air boresight](../../../systems/radar.md#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident) with antenna aligned to optical sight. Permits [CAGE](../../../systems/radar.md#cage-mode) and [CAA](../../../systems/radar.md#computer-automatic-acquisition-mode-caa). |
-| RDR     | Air-to-Air search mode.                                                                                                                                                                                                                                                      |
-| MAP     | Radar ground mapping mode.                                                                                                                                                                                                                                                   |
-| AIR-GRD | [Air-to-Ground boresight](../../../systems/radar.md#air-grd-air-to-ground-position), 20 mile range against targets visually established with optical sight.                                                                                                                  |
+| BST     | [Air-to-Air boresight](../../../systems/radar.md#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident) with antenna aligned radar boresight line and optical sight with sight in A/A. |
+| RDR     | Search Mode with Feedhorn Nutation (wider beamwidth) mode.                                                                                                                                                                                                                                                      |
+| MAP     | Search Mode without Feedhorn Nutation (narrower beamwidth)                                                                                                                                                                                                                                                   |
+| AIR-GRD | [Air-to-Ground boresight](../../../systems/radar.md#air-grd-air-to-ground-position), Tracks range of illuminated ground, radar is boresighted to the radar boresight line with drift compensation.                                                                                                                  |
 | BEACON  | Radar receives and displays signals from ground or airborne beacon transponders for navigation.                                                                                                                                                                              |
-| TV      | Not used with DSCG. Deactivates [AIM-7](../../../stores/air_to_air/aim_7.md) if selected.                                                                                                                                                                                    |
+| TV      | Not used with DSCG. Detunes [AIM-7](../../../stores/air_to_air/aim_7.md) if selected, preventing sparrows from guiding.                                                                                                                                                                               |
 
 ### Skin Track Light
 
