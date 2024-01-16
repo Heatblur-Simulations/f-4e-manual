@@ -10,7 +10,7 @@
   - [Technical Specification](./intro/specification.md)
 - [Cockpit Overview](./cockpit/overview.md)
   - [Pilot Cockpit](./cockpit/pilot/overview.md)
-    - [DSCG Controls](./cockpit/pilot/dscg_controls)
+    - [DSCG Controls](./cockpit/pilot/dscg_controls.md)
     - [Overhead Indicators](./cockpit/pilot/overhead_indicators.md)
     - [Weapon Management](./cockpit/pilot/weapon_management.md)
     - [Flight Director Group](./cockpit/pilot/flight_director_group.md)

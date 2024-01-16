@@ -218,7 +218,7 @@ In the event that
 an [AIM-7](../../../stores/air_to_air/aim_7.md), [AIM-9](../../../stores/air_to_air/aim_9.md),
 or [M61A1](../../../stores/guns.md) must be employed
 against an airborne target with
-the [sight](../../../cockpit/pilot/dscg_controls#sight-mode-knob)
+the [sight](../../../cockpit/pilot/dscg_controls.md#sight-mode-knob)
 in A/G mode (for example, the flight is bounced by
 opposing aircraft),
 the [optical sight](../../../cockpit/pilot/dscg_controls#sight-mode-knob)

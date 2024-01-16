@@ -11,8 +11,8 @@ lighting controls.
 ![pilot_overview](../../img/pilot_overview_numbered.jpg)
 
 | Section | Name                                              |
-| ------: | ------------------------------------------------- |
-|      1. | [DSCG Controls](dscg_controls)                 |
+| ------: |---------------------------------------------------|
+|      1. | [DSCG Controls](dscg_controls.md)                 |
 |      2. | [Overhead Indicators](overhead_indicators.md)     |
 |      3. | [Weapon Management](weapon_management.md)         |
 |      4. | [Flight Director Group](flight_director_group.md) |
