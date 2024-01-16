@@ -16,9 +16,9 @@ in the rear cockpit.
 ![pilot_nav_function_selector](../../img/pilot_nav_function_selector_panel.jpg)
 
 Found on the front cockpit instrument panel, the Navigation Function Selector Panel has two knobs -
-a Bearing/Distance Selector Knob and a Mode Selector Knob.
+a Bearing/Distance Selector Knob and a Mode Selector Knob with a Flight Director Switch.
 
-## Bearing Distance Selector Knob (BRG/DIST)
+### Bearing Distance Selector Knob (BRG/DIST)
 
 The Bearing Distance Selector Knob sets the bearing pointer and range indication
 displays on the HSI.
@@ -38,7 +38,7 @@ range to the [TACAN](tacan.md) station are displayed.
 And in NAV COMP mode, magnetic and relative bearing and range are provided to
 the destination set in the navigation computer.
 
-## Mode Selector Knob (MODE)
+### Mode Selector Knob (MODE) and Flight Director Switch
 
 The Mode Selector Knob controls the remaining informational displays on
 the HSI (outer knob), as well as the pitch and bank steering bars on the ADI (inner knob
@@ -50,69 +50,118 @@ instrument panel lights are on; available mode word messages are [TAC (TACAN)](t
 system), and TGT (target). TGT illuminates that the WSO has provided a target
 entry and pressed TGT on the Cursor Control Panel.
 
-## Flight Director Switch (FD)
-
 The Flight Director Switch turns ON and OFF the Flight Director Computer pitch
 and bank angle steering clues, visible on
 the [ADI](../../cockpit/pilot/flight_director_group.md#attitude-director-indicator). Selecting OFF
-removes these
-bars from view.
+removes these bars from view.
 
-## Horizontal Situation Indicator (HSI)
+In [VOR/ILS](vor_ils.md), if VOR frequency is selected,
+the HSI Course Set knob is used to set the [VOR](vor_ils.md) radial. Once
+set, the HSI Deviation Indicator shows current deviation from the selected course.
+If an ILS frequency was selected, the localizer signal will be shown on the deviation indicator.
 
-![pilot_horizontal_situation_indicator](../../img/pilot_horizontal_situation_indicator.jpg)
-
-The Horizontal Situation Indicator displays a top-down plan view of current
-navigation, with cues provided relative to the selected navigation mode selector
-position.
-
-In [VOR/ILS](vor_ils.md), the Heading Set Knob is used to enter the desired magnetic heading.
-The Course Set knob is used to set the [VOR](vor_ils.md) radial or inbound localizer. Once
-set, the Deviation Indicator shows current deviation from the selected course.
-
-[TACAN](tacan.md) mode presents information relative to the current selected [TACAN](tacan.md)
+[TACAN](tacan.md) mode presents navigation information to the currently selected [TACAN](tacan.md)
 beacon.
 To provide full information, the Bearing/Distance Switch should be set to [TAC](tacan.md).
-The course arrow and course selector window are set using the Course Set knob to
-the desired [TACAN](tacan.md) course. Once set, the Deviation Indicator and aircraft symbol
+The HSI course arrow and course selector window are set using the Course Set knob to
+the desired [TACAN](tacan.md) course. Once set, the HSI Deviation Indicator and aircraft symbol
 provide the top-down display relative to the set course, with a maximum
-deviation deflection of 10 degrees. The Heading Set knob is used to set a
-desired [TACAN](tacan.md) course for bank steering presentation on
-the ADI. If the heading
-marker is not set, bank steering on
-the ADI will not be
-correct to intercept the
-desired course. A To-From indicator displays when the mode selector is in [TACAN](tacan.md)
-or [VOR/ILS](vor_ils.md) mode when either are tuned and received; once the course is
-intercepted, the indication references whether the current course is taking the
+deviation deflection of +- 5 degrees. The HSI Heading Set knob is used to set a
+desired [TACAN](tacan.md) course for bank steering presentation on the ADI. As the bank steering
+is based on the heading marker position, if it is not set properly, bank steering on the ADI will
+not be correct to intercept the desired course. A To-From indicator displays when the mode selector
+is in [TACAN](tacan.md) or [VOR/ILS](vor_ils.md) mode when either are tuned and received; once the
+course is intercepted, the indication references whether the current course is taking the
 aircraft to or from the tuned station.
 
-NAV COMP mode displays magnetic ground track on the course arrow and the course
-selector window relative to the current navigation computer fix. The bank
+The NAV COMP Mode displays magnetic ground track on the HSI course arrow and the HSI course
+selector window relative to the current navigation computer fix. The ADI bank
 steering bar provides steering information to direct an approach to the command
 heading.
 
-With HDG mode active, the course arrow and deviation are slaved to the lubber
-line and aircraft magnetic heading. The course selector window displays the
+With HDG mode active, the HSI course arrow and deviation are slaved to the lubber
+line and aircraft magnetic heading. The HSI course selector window displays the
 current selected magnetic heading, which is adjusted using the Heading Set knob.
 The given course information is applied for
 an [ADI](../../cockpit/pilot/flight_director_group.md#attitude-director-indicator) bank steering
 command.
 
+## Horizontal Situation Indicator (HSI)
+
+![pilot_horizontal_situation_indicator](../../img/pilot_horizontal_situation_indicator.jpg)
+
+![HSI](../../img/hsi.jpg)
+
+The Horizontal Situation Indicator displays a top-down plan view of current
+navigation, with cues provided relative to the selected navigation mode selector
+position. It interacts closely with several navigational aids like VOR, TACAN, ADF,
+and the aircraft's Navigation Computer (NAV COMP).
+The Bearing Pointer and Range Indicator on the HSI display the bearing and distance
+to the navigation aid selected via the Bearing Distance Selector Knob.
+The Navigation Mode Selector governs the functionality of the heading marker,
+course arrow, and the course deviation indicator, which includes a to-from arrow.
+Both these controls – the Bearing Distance Selector and the Navigation Mode Selector – have 
+a direct impact on the illumination of specific mode indicator lights on the HSI.
+
+The compass card in the HSI is driven by heading input from the AJB-7 system. It rotates
+to align the aircraft's magnetic heading directly under the lubber line at the top of the
+instrument, assuming the signal received is accurate and reliable.
+
+The Bearing pointer indicates magnetic bearing to a given VOR, TACAN or NAV COMP station, 
+depending on the BRG/DIST switch selection. Providing the compass card is giving good information,
+this bearing is also relative. However, if there are inaccuracies in the magnetic heading,
+to navigate towards the selected destination, the aircraft should be steered not by centering
+the arrow on the lubber line, but by following the heading indicated by the arrow using
+the magnetic compass. If an UHF (ADF) signal is tuned, the bearing pointer consistently shows
+the heading in relative terms.
+
+The command heading marker provides as a desired heading reference for the Flight Director.
+To obtain correct steering, the marker must be manually set in all but Nav Comp modes (then
+it's automatically set). The steering clues are visible on the ADI bank steering bar.
+
+The deflection of the Deviation Indicator in VOR and TACAN modes indicate the deviation of the
+aircraft from the selected course (visible on the Course rollers and Course Arrow).
+Is indicates how far is the aircraft off the selected track- 2.5 deg per dot, maximally
+up to 5 deg.
+[Course Deviation](../../img/hsi_course_deviation.jpg)
+
+In ILS mode, the HSI displays deviation from the localizer signal. This indication is more precise,
+as the needle is more sensitive to deviations in that mode. Notably, this reading is independent
+of the selected course, providing direct feedback on the aircraft's alignment with the ILS
+approach path.
+
+
 ## Attitude Director Indicator (ADI)
 
 ![pilot_attitude_director_indicator](../../img/pilot_attitude_director_indicator.jpg)
 
-The ADI provides command
-steering to intercept selected headings, [TACAN](tacan.md)
+![ADI Scheme](../../img/adi_scheme.jpg)
+
+The ADI provides command steering to intercept selected headings, [TACAN](tacan.md)
 stations, tracks, [VOR](vor_ils.md) radials, or navigation computer destinations. Bank
 steering instruction is presented using the bank steering bar, which can
-reference angles up to 35 degrees. Should a bank angle in excess of 35 degrees
-be desired, the instructed angle can be disregarded during the turn. When the
-Heading Set knob has been used to enter the correct target heading, the
+reference angles up to 35 degrees, at 90 degrees of heading deviation. Any heading errors
+less than that will produce a bank correction of something less than 35 degrees. If a quick
+intercept or a bank angle in excess of 35 degrees is desired, the bank steering must
+be disregarded during the turn.
+
+The system initiates an approximate 50-degree straight-line intercept towards the desired
+track until the aircraft is within 15 degrees of it. Beyond this point, it transitions
+to an asymptotic approach to align with the track. For a faster intercept, it might be necessary
+to disregard the bank steering signal.
+
+![Bank Steering Intercept](../../img/bank_steering_intercept.jpg)
+
+When the Heading Set knob has been used to enter the correct target heading, the
 intercept presentation is accurate within a 60 degree field of a [TACAN](tacan.md) course,
 or 90 degrees for a [VOR](vor_ils.md) radial. Additionally, a Glide-slope Pointer is provided
 for relative glide-slope position indication during an [ILS](vor_ils.md) approach.
+
+> 💡 The Heading Marker must be manually aligned with the desired heading (except in NAV COMP mode)
+> to ensure correct bank steering guidance. However, due to wind drift, this bank steering
+> may not always keep the aircraft precisely on a TACAN or VOR track. In such scenarios,
+> manual adjustments for wind correction are required in the Heading Marker setting to maintain
+> the correct course.
 
 In the Picture above the yellow vertical needle shows the Pilot that he has to steer 20° to the left
 to correct the course intended. In the same way the ADI shows steering instructions for the pitch.
@@ -145,3 +194,11 @@ navigation computer target coordinates, and the no. 2 pointer indicates magnetic
 ground track. The range indicator notes distance to the target coordinates.
 
 ![ModeSelectorKnobTable](../../img/ModeSelectorKnobTable.jpg)
+
+![HSI VOR Mode](../../img/hsi_vor_mode.jpg)
+
+![HSI NAV COMP Mode](../../img/hsi_nav_comp_mode.jpg)
+
+![HSI TACAN Mode](../../img/hsi_tacan_mode.jpg)
+
+![HSI Bearing Dist](../../img/hsi_bearing_dist_mode.jpg)
