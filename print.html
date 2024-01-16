@@ -3875,21 +3875,24 @@ indicators.</p>
 <h2 id="true-airspeed-indicators"><a class="header" href="#true-airspeed-indicators">True Airspeed Indicators</a></h2>
 <p><img src="systems/flight_controls_gear/../../img/TASInd.jpg" alt="TASInd" /></p>
 <p>True Airspeed Indicators are provided in both cockpits, and carry a calibrated
-range from 150 to 1500 knots. While the indicators can read as low as 0 knots,
+range from 150 to 1500 knots. The velocity signal is calculated in the Air Data Computer,
+based on the temperature and pressures input. While the indicators can read as low as 0 knots,
 the lack of calibration below the stated range means values less than 150 knots
 are inaccurate. At high rates of airspeed change, there may be a lag of up to
-+-10 knots in measurement.</p>
++-10 knots in measurement. During normal operation, an error up to +-5 knots
+may be present. If failed, the rollers will be stuck on their position.</p>
 <p>The rear True Airspeed Indicator is removed for DMAS equipment in aircraft so
 configured; however, TAS is provided as a DMAS function.</p>
 <h2 id="ground-speed-indicator-1"><a class="header" href="#ground-speed-indicator-1">Ground Speed Indicator</a></h2>
 <p><img src="systems/flight_controls_gear/../../img/wso_ground_speed_indicator.jpg" alt="wso_ground_speed_indicator" /></p>
 <p>A ground speed indicator is provided in the rear cockpit, with a range from 0 to
-1999 knots. Ground speed is provided by the navigation computer, with the source
-dependent on INS function. If the INS online, the ground speed value calculated
+1999 knots. Ground speed signal is provided by the Navigation Computer, with the source
+dependent on INS function. If the is INS online, the ground speed value calculated
 is based on the provided velocity, and can display correct information as low as
 0 knots. When the INS is offline, the air data computer performs a calculation
 using crew-entered wind information, which can cause errors of up to 150
-displaying while the aircraft is on the ground with the parking brake set.</p>
+displaying while the aircraft is on the ground with the parking brake set.
+If failed, the rollers will be stuck on their position.</p>
 <p>With DMAS installed, the rear ground speed indicator is removed, as GS is a DMAS
 function.</p>
 <h2 id="accelerometers"><a class="header" href="#accelerometers">Accelerometers</a></h2>
@@ -3901,15 +3904,25 @@ reset. To reset the gauge, the PUSH TO SET button will return the recording
 pointers to positive 1 G.</p>
 <h2 id="airspeedmach-indicators"><a class="header" href="#airspeedmach-indicators">Airspeed/Mach Indicators</a></h2>
 <p><img src="systems/flight_controls_gear/../../img/MachInd.jpg" alt="MachInd" /></p>
+<p>Purely machanical instruments that use total pressure from the Pitot-Static system
+and static pressure from the Air Data Computer, previously corrected by the Static
+Pressure Compensator. A small friction error of the needle, up to 5 kts might sometimes
+be noticed.</p>
 <p>Found in both cockpits is a combination Airspeed/Mach indicator. The indicators
 provide a fixed airspeed scale at the middle of the indicator, reading values
 from 80 to 850 knots, and a rotating Mach number scale to the outside,
 with readings from 0.4 to 2.5 Mach. A two position push-and-rotate knob offers both an airspeed
 index with a functional range between 80 and 195 knots, and a Mach index pointer
 with a range between 225 knots and 850 knots.</p>
+<p>If failed, both the airspeed needle and the mach scale will be stuck in their remaining position.
+Mean time to failure is 1000 hours.</p>
 <h2 id="altimeter-2"><a class="header" href="#altimeter-2">Altimeter</a></h2>
 <p><img src="systems/flight_controls_gear/../../img/Altim.jpg" alt="Altimeter" /></p>
-<p>Altimeters in both cockpits provide a functional range from 0 to 80,000 feet. To
+<p>An AAU-19 Type of altimeter, may operate in both electric- based on corrected electric
+static pressure signal from the Altitude Encoder, or mechanical (STBY) mode - from
+Air Data Computer, previously corrected by the Static Pressure Compensator.
+The errors tolerance of the instrument is +-3 knots below 80kts and +-5 knots above that airspeed.</p>
+<p>Devices in both cockpits provide a functional range from 0 to 80,000 feet. To
 the outside of the indicator is a pointer scale, gradation in 50 foot units with
 markings every 100 feet (from 1 to 10). Left of center is the counter,
 increasing and decreasing in value in thousand foot increments on the black pair
@@ -3921,6 +3934,17 @@ determine altitude. Standby mode is noted with a red flag in the indicator. In
 the event of an altimeter or air data computer failure in normal operation, the
 STBY flag will appear, and cannot be reset. This can also be followed by
 warnings on the telelight panel.</p>
+<p>Included failures of the device are:</p>
+<ul>
+<li>Altimeter Stuck: total damage, all indications are frozen</li>
+<li>Electric Servo Failed: the device is forced to turn to the STBY (pressure) mode of operation.</li>
+<li>Needle Stuck: needle remains in its position</li>
+<li>Altitude Rollers Stuck: altitude rollers remain in their position</li>
+<li>Reference Pressure Rollers Stuck: reference pressure rollers remain in their position</li>
+<li>Reference Pressure Knob Broken: rotating the knob has no effect on the device</li>
+<li>Three Position Switch Broken: rotating the switch has no effect on the device</li>
+</ul>
+<p><img src="systems/flight_controls_gear/../../img/altitude_failures.jpg" alt="Altitude Failures" /></p>
 <h2 id="magnetic-compass"><a class="header" href="#magnetic-compass">Magnetic Compass</a></h2>
 <p><img src="systems/flight_controls_gear/../../img/StbyMagComp.jpg" alt="StbyMagComp" /></p>
 <p>A magnetic compass is provided in each cockpit for use in the event of a
