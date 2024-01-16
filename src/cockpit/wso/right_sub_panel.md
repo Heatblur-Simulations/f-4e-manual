@@ -107,4 +107,4 @@ is 0.1 seconds.
 The Bombing timers may be used for every
 [timed employment method](../../stores/air_to_ground/bombs/employment.md).
 
-See [9.3 bombing calculator chapter](../../dcs/bombing_computer.md) for how to calculate the number.
+See [9.4 bombing calculator chapter](../../dcs/bombing_computer.md) for how to calculate the number.

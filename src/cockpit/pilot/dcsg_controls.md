@@ -1,16 +1,15 @@
 # DSCG Controls
 
-![DSCG Controls](../../img/GunRepeater.jpg)
+![DSCG Controls](../../img/pilot_dscg_overview.jpg)
 
-The Digital Scan Converter Group (DSCG) enabled the F-4E the capability to
-use [AGM-65 Maverick](../../stores/air_to_ground/missiles/maverick.md)
-air-to-ground missile. The DSCG replaced the Direct View Storage Tube radar scopes which could not
-interact with the digital interfaces of
-the [AGM-65 Maverick](../../stores/air_to_ground/missiles/maverick.md).
+The Digital Scan Converter Group (DSCG) refers to the screen used to display radar data
+and video feed of TV weapons or targeting pods.
+The DSCG replaces the Direct View Storage Tube radar scopes which could not
+interact with the digital interfaces.
 
 ## Reticle Intensity/Scale Knob
 
-![RetIntensity](../../img/RetIntensity.jpg)
+![RetIntensity](../../img/pilot_dscg_reticle intensity.jpg)
 
 | Name    | Description                                                                            |
 |---------|----------------------------------------------------------------------------------------|
@@ -19,7 +18,7 @@ the [AGM-65 Maverick](../../stores/air_to_ground/missiles/maverick.md).
 
 ## Sight Shutter Lever
 
-![SightShutter](../../img/SightShutter.jpg)
+![SightShutter](../../img/pilot_dscg_sight_shutter.jpg)
 
 Changes the optical sight light source to prevent damage to the optics from high
 sunlight. Is used [after landing](../../procedures/landing/checklists.md#after-landing)
@@ -27,7 +26,7 @@ to prevent damage to the sight when parked.
 
 ## Reticle Depression Knob
 
-![RetDepress](../../img/RetDepress.jpg)
+![RetDepress](../../img/pilot_dscg_reticle_depression_knob.jpg)
 
 Controls manual depression in 1 mil increments from 0 to 245 mil. The manual depression is used for
 [direct delivery bombing](../../procedures/bombs/bombs_direct_delivery.md) and delivery of
@@ -35,7 +34,7 @@ the [AGM-65 Maverick](../../stores/air_to_ground/missiles/maverick.md).
 
 ## Sight Mode Knob
 
-![SightMode](../../img/SightMode.jpg)
+![SightMode](../../img/pilot_dscg_sight_mode_knob.jpg)
 
 Selects the mode of operation for the gun-sight.
 
@@ -51,7 +50,7 @@ Selects the mode of operation for the gun-sight.
 
 ## OPR ERS/Contrast Knob
 
-![Contr](../../img/Contr.jpg)
+![Contr](../../img/pilot_dscg_opr_ers_contrast_knob.jpg)
 
 Two function (pushbutton inside of knob) control of the front scope display.
 
@@ -62,7 +61,7 @@ Two function (pushbutton inside of knob) control of the front scope display.
 
 ## Brightness Knob/Horizon Line Knob
 
-![BrtHrz](../../img/BrtHrz.jpg)
+![BrtHrz](../../img/pilot_dscg_brightness_knob_horizon_line.jpg)
 
 Dual knob control of the front scope display settings.
 

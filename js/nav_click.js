@@ -3,3 +3,9 @@ $("li.chapter-item").on("click", function (e) {
   e.stopPropagation();
   $(this).find("a")[0].click();
 });
+
+$("div.menu-logo img, h1.menu-title").on("click", function (e) {
+  // When clicking logo or title text, click main chapter link
+  e.stopPropagation();
+  $("ol.chapter").children(":first").click();
+});

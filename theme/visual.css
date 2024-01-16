@@ -169,7 +169,7 @@ ol.section ol {
   font-size: 0.5em;
   vertical-align: middle;
   margin: 0 7px;
-  padding-bottom: 5px;
+  padding-bottom: 6px;
   color: var(--icons) !important;
 }
 
@@ -177,3 +177,6 @@ ol.chapter {
   margin-top: 0px;
 }
 
+#content table td {
+  max-width: 250px;
+}

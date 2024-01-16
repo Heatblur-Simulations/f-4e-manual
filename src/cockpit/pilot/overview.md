@@ -8,7 +8,7 @@ lighting controls.
 
 ## Layout
 
-![Layout](../../img/pilot_pit_overview.jpg)
+![pilot_overview](../../img/pilot_overview_numbered.jpg)
 
 | Section | Name                                              |
 | ------: | ------------------------------------------------- |

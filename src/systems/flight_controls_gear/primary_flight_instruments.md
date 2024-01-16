@@ -94,7 +94,7 @@ static pressure system.
 Found in the front cockpit, the Radar Altimeter has a functional range of 0 to
 5000 feet above ground level. The radar altimeter functions from 0 to 30 degrees
 in bank angle, or 0 to 35 degrees angle in pitch. The dial scale reads from 0 to
-100 feet, and the system includes a red low altitude warning light that
+5000 feet, and the system includes a red low altitude warning light that
 illuminates when the aircraft is detected below a pilot-set altitude.
 
 Activation and setting of the radar altimeter warning height is done with the
