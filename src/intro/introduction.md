@@ -28,8 +28,8 @@ Whether that means that unstable power draw may cause a lamp to flicker, or that
 you can deploy your landing gear in case of a failure using gravity, or that
 correct and incorrect use of the aircraft influences the wear and tear of each
 single component individually - we never before attempted a simulation as deep
-as with the F-4E Phantom II. The DCS: F-4 represents some of the **most immersive**
-cold war fighter jet simulation available!
+as with the F-4E Phantom II. The DCS: F-4 represents some of the most immersive
+**cold war fighter jet simulation** available!
 
 ![Pilot Cockpit Details](../img/simulation_depth_wide.jpg)
 
