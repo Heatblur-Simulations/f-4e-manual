@@ -177,3 +177,6 @@ ol.chapter {
   margin-top: 0px;
 }
 
+#content table td {
+  max-width: 250px;
+}
