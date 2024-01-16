@@ -23,11 +23,11 @@ decrease audio between cockpits on the [Intercom](../../../systems/nav_com/inter
 
 ### Pilot ICS Function Selector Switch
 
-| Name           | Description                                                                        |
-| -------------- | ---------------------------------------------------------------------------------- |
-| COLD MIC       | Mic switch on throttle must be held to activate intercom.                          |
-| HOT MIC        | Voice automatically transmitted on intercom.                                       |
-| RADIO OVERRIDE | Intercom overrides incoming radio calls; does not override aircraft warning audio. |
+| Name           | Description                                                                                                       |
+| -------------- | ------------------------------------------------------------------------------------------------------------------|
+| COLD MIC       | Mic switch on throttle must be held to activate intercom.                                                         |
+| HOT MIC        | Voice automatically transmitted on intercom.                                                                      |
+| RADIO OVERRIDE | Voice automatically transmitted on intercom. All volumes but Shrike tone and Stall Warning are reduced in volume. |
 
 ### Pilot ICS Amplifier Select Knob
 
