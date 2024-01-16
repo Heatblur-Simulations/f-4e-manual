@@ -36,7 +36,7 @@ as with the F-4E Phantom II. The DCS: F-4 represents some of the **most immersiv
 cold war fighter jet simulation available!
 
 ## Accessibility
-
+<!-- markdown-link-check-disable -->
 With such innovation and in depth simulation there comes of course an increased
 learning curve for its users. This is why it was important for us to also
 innovate on the side of learning tools available to you, starting with this
@@ -59,7 +59,7 @@ be able to revert steps in the training mission, able to read along and pause
 before flying the mission. And best of all, your training will be instructed by
 **real life F-4 pilots** and a real life F-4 WSO Instructor, who else could teach
 you better?
-
+<!-- markdown-link-check-enable -->
 ## Enjoy the Phantom
 
 We hope you will both enjoy learning and flying the F-4E Phantom II - diving as
