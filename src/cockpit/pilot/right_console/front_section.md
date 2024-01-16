@@ -100,10 +100,10 @@ squelch.
 
 ### Frequency and Channels
 
-The A-3-2-T Selector knob sets HAVE Quick functionality of
-the [UHF radio](../../../systems/nav_com/uhf.md) (A- auto-jam), the first digit of the manually
-selected frequency (3 or 2), or enables Time of Day receipt for one minute after selection in a
-momentary hold position (T). The HAVE Quick system provides a resistance against jamming.
+The A-3-2-T Selector knob sets the first digit of the manually selected frequency
+(3 or 2) of the [UHF radio](../../../systems/nav_com/uhf.md).
+
+> 💡 Due to DCS limits, HAVE Quick functionality (including A and T modes) is not implemented.
 
 The four Frequency Selection Knobs work in concert with the A-3-2-T knob and
 Preset/Manual switch. Frequencies are entered beginning with the 3 or 2
@@ -126,13 +126,7 @@ raises and lowers the volume of the Aux receiver channel.
 
 ### Tone Button
 
-The Tone Pushbutton is used for transmission of a Time of Day (TOD) signal along with a tone
-to friendly aircraft requiring a Time of Day update for proper HAVE Quick
-functionality. It is also used to activate the emergency TOD clock for the radio
-itself, in conjunction with the T position of the A-3-2-T knob. Selecting the T
-position and pushing the Tone button will cause the radio to listen for a TOD
-signal from another friendly transmitter to synchronize the anti-jam function
-with the desired network.
+> 💡 Due to lack of the HAVE Quick functionality, tone button has no functionality in DCS.
 
 ### Comm Function Selector
 
