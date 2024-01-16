@@ -34,6 +34,9 @@ such as present on many external devices.
 They send a signal on either position (up and down), but not signal on the center position.
 Hence, the bind will return the switch back to the center when no signal is send.
 
+> 💡 The _(3-way down)_-bind is skipped for the Speed Brake, since it would be
+> identical with the spring-loaded _Out (Hold)_-bind.
+
 All binds are generally assigned at least two searchable categories,
 the **system** the bind belongs to and its **location** in the cockpit.
 The **Master Arm** switch for example has categories:
