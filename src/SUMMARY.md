@@ -144,6 +144,7 @@
     - [Optical Sight BIT Procedure](./procedures/bit_tests/optical_sight.md)
 - [Emergency Procedures](./emergency_procedures/overwiew.md)
 - [DCS](./dcs/overview.md)
+  - [Controls](./dcs/controls.md)
   - [Special Options](./dcs/special_options.md)
   - [Embedded Manual](./dcs/embedded_manual.md)
   - [Bombing Computer](./dcs/bombing_computer.md)
