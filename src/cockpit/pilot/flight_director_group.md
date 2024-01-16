@@ -111,7 +111,7 @@ The movable elements of the instrument include:
   It provides a reference for the aircraft's heading relative to magnetic north.
 - Bearing Pointer: Indicates the magnetic bearing to a selected navigation aid (Nav Comp, VOR,
   TACAN, or ADF).
-- Course Arrow and Deviation Indicator: The direction towards which the arrow points can be 
+- Course Arrow and Deviation Indicator: The direction towards which the arrow points can be
   manually selected by the Course Knob in VOR/ILS and TAC modes (as seen on course rollers).
   In HDG mode, it indicates the aircraft's magnetic heading, and in NAV COMP mode, it points
   to the aircraft's magnetic ground track. The Deviation Indicator provides visual feedback
@@ -132,7 +132,6 @@ The movable elements of the instrument include:
     MAN: Indicates that the Heading Mode is selected.
     UHF: Signifies that the ADF mode is active.
     TGT: Illuminates during specific radar offset bombing operations.
-
 
 Consists of a rotating compass card, single and double bar bearing pointers
 numbered 1 and 2 respectively, a range indicator, and a range warning flag.

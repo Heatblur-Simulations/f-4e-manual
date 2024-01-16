@@ -100,14 +100,14 @@ The Bearing Pointer and Range Indicator on the HSI display the bearing and dista
 to the navigation aid selected via the Bearing Distance Selector Knob.
 The Navigation Mode Selector governs the functionality of the heading marker,
 course arrow, and the course deviation indicator, which includes a to-from arrow.
-Both these controls – the Bearing Distance Selector and the Navigation Mode Selector – have 
+Both these controls – the Bearing Distance Selector and the Navigation Mode Selector – have
 a direct impact on the illumination of specific mode indicator lights on the HSI.
 
 The compass card in the HSI is driven by heading input from the AJB-7 system. It rotates
 to align the aircraft's magnetic heading directly under the lubber line at the top of the
 instrument, assuming the signal received is accurate and reliable.
 
-The Bearing pointer indicates magnetic bearing to a given VOR, TACAN or NAV COMP station, 
+The Bearing pointer indicates magnetic bearing to a given VOR, TACAN or NAV COMP station,
 depending on the BRG/DIST switch selection. Providing the compass card is giving good information,
 this bearing is also relative. However, if there are inaccuracies in the magnetic heading,
 to navigate towards the selected destination, the aircraft should be steered not by centering
@@ -129,7 +129,6 @@ In ILS mode, the HSI displays deviation from the localizer signal. This indicati
 as the needle is more sensitive to deviations in that mode. Notably, this reading is independent
 of the selected course, providing direct feedback on the aircraft's alignment with the ILS
 approach path.
-
 
 ## Attitude Director Indicator (ADI)
 
