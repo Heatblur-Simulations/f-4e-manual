@@ -11,10 +11,12 @@ indicators.
 ![TASInd](../../img/TASInd.jpg)
 
 True Airspeed Indicators are provided in both cockpits, and carry a calibrated
-range from 150 to 1500 knots. While the indicators can read as low as 0 knots,
+range from 150 to 1500 knots. The velocity signal is calculated in the Air Data Computer,
+based on the temperature and pressures input. While the indicators can read as low as 0 knots,
 the lack of calibration below the stated range means values less than 150 knots
 are inaccurate. At high rates of airspeed change, there may be a lag of up to
-+-10 knots in measurement.
++-10 knots in measurement. During normal operation, an error up to +-5 knots
+may be present. If failed, the rollers will be stuck on their position.
 
 The rear True Airspeed Indicator is removed for DMAS equipment in aircraft so
 configured; however, TAS is provided as a DMAS function.
@@ -24,12 +26,13 @@ configured; however, TAS is provided as a DMAS function.
 ![wso_ground_speed_indicator](../../img/wso_ground_speed_indicator.jpg)
 
 A ground speed indicator is provided in the rear cockpit, with a range from 0 to
-1999 knots. Ground speed is provided by the navigation computer, with the source
-dependent on INS function. If the INS online, the ground speed value calculated
+1999 knots. Ground speed signal is provided by the Navigation Computer, with the source
+dependent on INS function. If the is INS online, the ground speed value calculated
 is based on the provided velocity, and can display correct information as low as
 0 knots. When the INS is offline, the air data computer performs a calculation
 using crew-entered wind information, which can cause errors of up to 150
 displaying while the aircraft is on the ground with the parking brake set.
+If failed, the rollers will be stuck on their position.
 
 With DMAS installed, the rear ground speed indicator is removed, as GS is a DMAS
 function.
@@ -48,6 +51,11 @@ pointers to positive 1 G.
 
 ![MachInd](../../img/MachInd.jpg)
 
+Purely machanical instruments that use total pressure from the Pitot-Static system
+and static pressure from the Air Data Computer, previously corrected by the Static
+Pressure Compensator. A small friction error of the needle, up to 5 kts might sometimes
+be noticed.
+
 Found in both cockpits is a combination Airspeed/Mach indicator. The indicators
 provide a fixed airspeed scale at the middle of the indicator, reading values
 from 80 to 850 knots, and a rotating Mach number scale to the outside,
@@ -55,11 +63,19 @@ with readings from 0.4 to 2.5 Mach. A two position push-and-rotate knob offers b
 index with a functional range between 80 and 195 knots, and a Mach index pointer
 with a range between 225 knots and 850 knots.
 
+If failed, both the airspeed needle and the mach scale will be stuck in their remaining position.
+Mean time to failure is 1000 hours.
+
 ## Altimeter
 
 ![Altimeter](../../img/Altim.jpg)
 
-Altimeters in both cockpits provide a functional range from 0 to 80,000 feet. To
+An AAU-19 Type of altimeter, may operate in both electric- based on corrected electric
+static pressure signal from the Altitude Encoder, or mechanical (STBY) mode - from
+Air Data Computer, previously corrected by the Static Pressure Compensator.
+The errors tolerance of the instrument is +-3 knots below 80kts and +-5 knots above that airspeed.
+
+Devices in both cockpits provide a functional range from 0 to 80,000 feet. To
 the outside of the indicator is a pointer scale, gradation in 50 foot units with
 markings every 100 feet (from 1 to 10). Left of center is the counter,
 increasing and decreasing in value in thousand foot increments on the black pair
@@ -71,6 +87,18 @@ determine altitude. Standby mode is noted with a red flag in the indicator. In
 the event of an altimeter or air data computer failure in normal operation, the
 STBY flag will appear, and cannot be reset. This can also be followed by
 warnings on the telelight panel.
+
+Included failures of the device are:
+
+- Altimeter Stuck: total damage, all indications are frozen
+- Electric Servo Failed: the device is forced to turn to the STBY (pressure) mode of operation.
+- Needle Stuck: needle remains in its position
+- Altitude Rollers Stuck: altitude rollers remain in their position
+- Reference Pressure Rollers Stuck: reference pressure rollers remain in their position
+- Reference Pressure Knob Broken: rotating the knob has no effect on the device
+- Three Position Switch Broken: rotating the switch has no effect on the device
+
+![Altitude Failures](../../img/altitude_failures.jpg)
 
 ## Magnetic Compass
 
