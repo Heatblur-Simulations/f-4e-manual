@@ -1072,6 +1072,36 @@ an audio cue is played through the <a href="cockpit/pilot/../../systems/nav_com/
 <p>The lamp can be rotated to dim and pushed to test.</p>
 <h2 id="horizontal-situation-indicator"><a class="header" href="#horizontal-situation-indicator">Horizontal Situation Indicator</a></h2>
 <p><img src="cockpit/pilot/../../img/HSI.jpg" alt="HSI" /></p>
+<p>Presents a horizontal view of the navigation situation relative to the aircraft,
+indicated by an aircraft symbol and a lubber line showing the current aircraft heading.
+The movable elements of the instrument include:</p>
+<ul>
+<li>Compass Card: A rotating element, dependent on the AJB-7 heading input, displays a compass rose.
+It provides a reference for the aircraft's heading relative to magnetic north.</li>
+<li>Bearing Pointer: Indicates the magnetic bearing to a selected navigation aid (Nav Comp, VOR,
+TACAN, or ADF).</li>
+<li>Course Arrow and Deviation Indicator: The direction towards which the arrow points can be
+manually selected by the Course Knob in VOR/ILS and TAC modes (as seen on course rollers).
+In HDG mode, it indicates the aircraft's magnetic heading, and in NAV COMP mode, it points
+to the aircraft's magnetic ground track. The Deviation Indicator provides visual feedback
+on the aircraft's deviation from the selected course: it shows deviation from a TACAN course
+in TAC mode or deviation from a <a href="cockpit/pilot/../../systems/nav_com/vor_ils.html">VOR</a> radial in VOR/ILS mode
+when VOR is tuned, and deviation from an ILS localizer signal in VOR/ILS mode when ILS is tuned.</li>
+<li>To-From Indicator: Reveals whether the current course will lead towards or away from the tuned
+station, functioning with TACAN and VOR inputs.</li>
+<li>Heading Marker: It can be manually set to the desired heading to provide the Flight Director
+with steering signals in all modes except NAV COMP. In NAV COMP mode, it displays command
+steering towards the selected target, taking wind drift into account.</li>
+<li>Range Indicator: Shows the distance to the selected TACAN station or NAV COMP destination.</li>
+<li>Mode Indicator Lights: Indicate the active navigation mode:
+VOR: Indicates that the VOR/ILS mode is selected and a VOR frequency selected.
+ILS: Indicates that the VOR/ILS mode is selected and an ILS frequency selected.
+TAC: Shows that TACAN mode is active.
+NAV: Illuminates when the Navigation Computer mode is in use.
+MAN: Indicates that the Heading Mode is selected.
+UHF: Signifies that the ADF mode is active.
+TGT: Illuminates during specific radar offset bombing operations.</li>
+</ul>
 <p>Consists of a rotating compass card, single and double bar bearing pointers
 numbered 1 and 2 respectively, a range indicator, and a range warning flag.
 Presents a top-down view of the currently programmed navigation. The Heading Set
@@ -1591,7 +1621,7 @@ decrease audio between cockpits on the <a href="cockpit/pilot/left_console/../..
 <div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
 <tr><td>COLD MIC</td><td>Mic switch on throttle must be held to activate intercom.</td></tr>
 <tr><td>HOT MIC</td><td>Voice automatically transmitted on intercom.</td></tr>
-<tr><td>RADIO OVERRIDE</td><td>Intercom overrides incoming radio calls; does not override aircraft warning audio.</td></tr>
+<tr><td>RADIO OVERRIDE</td><td>Voice automatically transmitted on intercom. All volumes but Shrike tone and Stall Warning are reduced in volume.</td></tr>
 </tbody></table>
 </div>
 <h3 id="pilot-ics-amplifier-select-knob"><a class="header" href="#pilot-ics-amplifier-select-knob">Pilot ICS Amplifier Select Knob</a></h3>
@@ -1969,10 +1999,11 @@ of the system.</p>
 <p>Close to the NAV CMD button is the Squelch switch, which enables or disables receiver
 squelch.</p>
 <h3 id="frequency-and-channels"><a class="header" href="#frequency-and-channels">Frequency and Channels</a></h3>
-<p>The A-3-2-T Selector knob sets HAVE Quick functionality of
-the <a href="cockpit/pilot/right_console/../../../systems/nav_com/uhf.html">UHF radio</a> (A- auto-jam), the first digit of the manually
-selected frequency (3 or 2), or enables Time of Day receipt for one minute after selection in a
-momentary hold position (T). The HAVE Quick system provides a resistance against jamming.</p>
+<p>The A-3-2-T Selector knob sets the first digit of the manually selected frequency
+(3 or 2) of the <a href="cockpit/pilot/right_console/../../../systems/nav_com/uhf.html">UHF radio</a>.</p>
+<blockquote>
+<p>💡 Due to DCS limits, HAVE Quick functionality (including A and T modes) is not implemented.</p>
+</blockquote>
 <p>The four Frequency Selection Knobs work in concert with the A-3-2-T knob and
 Preset/Manual switch. Frequencies are entered beginning with the 3 or 2
 selection on the A-3-2-T Selector, and can be entered from 225.00 to 399.975 MHz
@@ -1990,13 +2021,9 @@ changed from in the cockpit.</p>
 <p>The Aux Volume Control knob on the lower right of the panel
 raises and lowers the volume of the Aux receiver channel.</p>
 <h3 id="tone-button"><a class="header" href="#tone-button">Tone Button</a></h3>
-<p>The Tone Pushbutton is used for transmission of a Time of Day (TOD) signal along with a tone
-to friendly aircraft requiring a Time of Day update for proper HAVE Quick
-functionality. It is also used to activate the emergency TOD clock for the radio
-itself, in conjunction with the T position of the A-3-2-T knob. Selecting the T
-position and pushing the Tone button will cause the radio to listen for a TOD
-signal from another friendly transmitter to synchronize the anti-jam function
-with the desired network.</p>
+<blockquote>
+<p>💡 Due to lack of the HAVE Quick functionality, tone button has no functionality in DCS.</p>
+</blockquote>
 <h3 id="comm-function-selector"><a class="header" href="#comm-function-selector">Comm Function Selector</a></h3>
 <p>The Comm Function Selector Knob determines the current configuration of the
 radio system.</p>
@@ -2206,7 +2233,10 @@ and <a href="cockpit/pilot/right_console/../../../systems/weapon_systems/wrcs.ht
 <h3 id="mode-selector-knob"><a class="header" href="#mode-selector-knob">Mode Selector Knob</a></h3>
 <p>Switches between different operating modes — Compass, DG (directional gyro), and
 Slaved. It also has a spring-loaded SYNC position for fast synchronization of
-the azimuth system based on the compass flux valve signal.</p>
+the azimuth system based on the compass flux valve signal. The flux valve is an electronic
+sensor in the aircraft's left wing that detects magnetic fields to provide the primary
+reference for magnetic heading. However, it is very sensitive to changes in the aircraft's
+attitude and even minor accelerations.</p>
 <div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
 <tr><td>COMP (Compass)</td><td>Used in emergencies when the reference systems fail. Supplies magnetic heading directly from the flux valve</td></tr>
 <tr><td>DG (Directional Gyro)</td><td>Used in extreme latitudes and regions with magnetic distortion, the initial magnetic heading needs manual adjustment. If the reference system is set to STBY, the aircraft's latitude must be adjusted on the latitude knob.</td></tr>
@@ -3099,10 +3129,11 @@ of the system.</p>
 <p>Close to the NAV CMD button is the Squelch switch, which enables or disables receiver
 squelch.</p>
 <h3 id="frequency-and-channels-1"><a class="header" href="#frequency-and-channels-1">Frequency and Channels</a></h3>
-<p>The A-3-2-T Selector knob sets HAVE Quick functionality of
-the <a href="cockpit/wso/left_console/../../../systems/nav_com/uhf.html">UHF radio</a> (A-auto-jam), the first digit of the manually
-selected frequency (3 or 2), or enables Time of Day receipt for one minute after selection in a
-momentary hold position (T). The HAVE Quick system provides a resistance against jamming.</p>
+<p>The A-3-2-T Selector knob sets the first digit of the manually selected frequency
+(3 or 2) of the <a href="cockpit/wso/left_console/../../../systems/nav_com/uhf.html">UHF radio</a>.</p>
+<blockquote>
+<p>💡 Due to DCS limits, HAVE Quick functionality (including A and T modes) is not implemented.</p>
+</blockquote>
 <p>The four Frequency Selection Knobs work in concert with the A-3-2-T knob and
 Preset/Manual switch. Frequencies are entered beginning with the 3 or 2
 selection on the A-3-2-T Selector, and can be entered from 225.00 to 399.975 MHz
@@ -3120,13 +3151,9 @@ changed from in the cockpit.</p>
 <p>The Aux Volume Control knob on the lower right of the panel
 raises and lowers the volume of the Aux receiver channel.</p>
 <h3 id="tone-button-1"><a class="header" href="#tone-button-1">Tone Button</a></h3>
-<p>The Tone Pushbutton is used for transmission of a TOD signal along with a tone
-to friendly aircraft requiring a Time of Day update for proper HAVE Quick
-functionality. It is also used to activate the emergency TOD clock for the radio
-itself, in conjunction with the T position of the A-3-2-T knob. Selecting the T
-position and pushing the Tone button will cause the radio to listen for a TOD
-signal from another friendly transmitter to synchronize the anti-jam function
-with the desired network.</p>
+<blockquote>
+<p>💡 Due to lack of the HAVE Quick functionality, tone button has no functionality in DCS.</p>
+</blockquote>
 <h3 id="comm-function-selector-1"><a class="header" href="#comm-function-selector-1">Comm Function Selector</a></h3>
 <p>The Comm Function Selector Knob determines the current configuration of the
 radio system.</p>
@@ -4633,8 +4660,8 @@ in the rear cockpit.</p>
 <h2 id="navigation-function-selector-panel-1"><a class="header" href="#navigation-function-selector-panel-1">Navigation Function Selector Panel</a></h2>
 <p><img src="systems/nav_com/../../img/pilot_nav_function_selector_panel.jpg" alt="pilot_nav_function_selector" /></p>
 <p>Found on the front cockpit instrument panel, the Navigation Function Selector Panel has two knobs -
-a Bearing/Distance Selector Knob and a Mode Selector Knob.</p>
-<h2 id="bearing-distance-selector-knob-brgdist"><a class="header" href="#bearing-distance-selector-knob-brgdist">Bearing Distance Selector Knob (BRG/DIST)</a></h2>
+a Bearing/Distance Selector Knob and a Mode Selector Knob with a Flight Director Switch.</p>
+<h3 id="bearing-distance-selector-knob-brgdist"><a class="header" href="#bearing-distance-selector-knob-brgdist">Bearing Distance Selector Knob (BRG/DIST)</a></h3>
 <p>The Bearing Distance Selector Knob sets the bearing pointer and range indication
 displays on the HSI.
 Positions are <a href="systems/nav_com/vor_ils.html">VOR</a>/<a href="systems/nav_com/tacan.html">TAC</a>, <a href="systems/nav_com/tacan.html">TAC</a>, ADF/<a href="systems/nav_com/tacan.html">TAC</a>, and NAV COMP.</p>
@@ -4648,7 +4675,7 @@ station are displayed.</p>
 range to the <a href="systems/nav_com/tacan.html">TACAN</a> station are displayed.</p>
 <p>And in NAV COMP mode, magnetic and relative bearing and range are provided to
 the destination set in the navigation computer.</p>
-<h2 id="mode-selector-knob-mode"><a class="header" href="#mode-selector-knob-mode">Mode Selector Knob (MODE)</a></h2>
+<h3 id="mode-selector-knob-mode-and-flight-director-switch"><a class="header" href="#mode-selector-knob-mode-and-flight-director-switch">Mode Selector Knob (MODE) and Flight Director Switch</a></h3>
 <p>The Mode Selector Knob controls the remaining informational displays on
 the HSI (outer knob), as well as the pitch and bank steering bars on the ADI (inner knob
 labelled FD). The mode selector knob operates independently of the bearing pointer and range
@@ -4658,58 +4685,98 @@ instrument panel lights are on; available mode word messages are <a href="system
 (navigation computer), <a href="systems/nav_com/uhf.html">UHF</a> (ADF), MAN (HDG entry), <a href="systems/nav_com/vor_ils.html">ILS</a> (instrument landing
 system), and TGT (target). TGT illuminates that the WSO has provided a target
 entry and pressed TGT on the Cursor Control Panel.</p>
-<h2 id="flight-director-switch-fd"><a class="header" href="#flight-director-switch-fd">Flight Director Switch (FD)</a></h2>
 <p>The Flight Director Switch turns ON and OFF the Flight Director Computer pitch
 and bank angle steering clues, visible on
 the <a href="systems/nav_com/../../cockpit/pilot/flight_director_group.html#attitude-director-indicator">ADI</a>. Selecting OFF
-removes these
-bars from view.</p>
-<h2 id="horizontal-situation-indicator-hsi"><a class="header" href="#horizontal-situation-indicator-hsi">Horizontal Situation Indicator (HSI)</a></h2>
-<p><img src="systems/nav_com/../../img/pilot_horizontal_situation_indicator.jpg" alt="pilot_horizontal_situation_indicator" /></p>
-<p>The Horizontal Situation Indicator displays a top-down plan view of current
-navigation, with cues provided relative to the selected navigation mode selector
-position.</p>
-<p>In <a href="systems/nav_com/vor_ils.html">VOR/ILS</a>, the Heading Set Knob is used to enter the desired magnetic heading.
-The Course Set knob is used to set the <a href="systems/nav_com/vor_ils.html">VOR</a> radial or inbound localizer. Once
-set, the Deviation Indicator shows current deviation from the selected course.</p>
-<p><a href="systems/nav_com/tacan.html">TACAN</a> mode presents information relative to the current selected <a href="systems/nav_com/tacan.html">TACAN</a>
+removes these bars from view.</p>
+<p>In <a href="systems/nav_com/vor_ils.html">VOR/ILS</a>, if VOR frequency is selected,
+the HSI Course Set knob is used to set the <a href="systems/nav_com/vor_ils.html">VOR</a> radial. Once
+set, the HSI Deviation Indicator shows current deviation from the selected course.
+If an ILS frequency was selected, the localizer signal will be shown on the deviation indicator.</p>
+<p><a href="systems/nav_com/tacan.html">TACAN</a> mode presents navigation information to the currently selected <a href="systems/nav_com/tacan.html">TACAN</a>
 beacon.
 To provide full information, the Bearing/Distance Switch should be set to <a href="systems/nav_com/tacan.html">TAC</a>.
-The course arrow and course selector window are set using the Course Set knob to
-the desired <a href="systems/nav_com/tacan.html">TACAN</a> course. Once set, the Deviation Indicator and aircraft symbol
+The HSI course arrow and course selector window are set using the Course Set knob to
+the desired <a href="systems/nav_com/tacan.html">TACAN</a> course. Once set, the HSI Deviation Indicator and aircraft symbol
 provide the top-down display relative to the set course, with a maximum
-deviation deflection of 10 degrees. The Heading Set knob is used to set a
-desired <a href="systems/nav_com/tacan.html">TACAN</a> course for bank steering presentation on
-the ADI. If the heading
-marker is not set, bank steering on
-the ADI will not be
-correct to intercept the
-desired course. A To-From indicator displays when the mode selector is in <a href="systems/nav_com/tacan.html">TACAN</a>
-or <a href="systems/nav_com/vor_ils.html">VOR/ILS</a> mode when either are tuned and received; once the course is
-intercepted, the indication references whether the current course is taking the
+deviation deflection of +- 5 degrees. The HSI Heading Set knob is used to set a
+desired <a href="systems/nav_com/tacan.html">TACAN</a> course for bank steering presentation on the ADI. As the bank steering
+is based on the heading marker position, if it is not set properly, bank steering on the ADI will
+not be correct to intercept the desired course. A To-From indicator displays when the mode selector
+is in <a href="systems/nav_com/tacan.html">TACAN</a> or <a href="systems/nav_com/vor_ils.html">VOR/ILS</a> mode when either are tuned and received; once the
+course is intercepted, the indication references whether the current course is taking the
 aircraft to or from the tuned station.</p>
-<p>NAV COMP mode displays magnetic ground track on the course arrow and the course
-selector window relative to the current navigation computer fix. The bank
+<p>The NAV COMP Mode displays magnetic ground track on the HSI course arrow and the HSI course
+selector window relative to the current navigation computer fix. The ADI bank
 steering bar provides steering information to direct an approach to the command
 heading.</p>
-<p>With HDG mode active, the course arrow and deviation are slaved to the lubber
-line and aircraft magnetic heading. The course selector window displays the
+<p>With HDG mode active, the HSI course arrow and deviation are slaved to the lubber
+line and aircraft magnetic heading. The HSI course selector window displays the
 current selected magnetic heading, which is adjusted using the Heading Set knob.
 The given course information is applied for
 an <a href="systems/nav_com/../../cockpit/pilot/flight_director_group.html#attitude-director-indicator">ADI</a> bank steering
 command.</p>
+<h2 id="horizontal-situation-indicator-hsi"><a class="header" href="#horizontal-situation-indicator-hsi">Horizontal Situation Indicator (HSI)</a></h2>
+<p><img src="systems/nav_com/../../img/pilot_horizontal_situation_indicator.jpg" alt="pilot_horizontal_situation_indicator" /></p>
+<p><img src="systems/nav_com/../../img/hsi.jpg" alt="HSI" /></p>
+<p>The Horizontal Situation Indicator displays a top-down plan view of current
+navigation, with cues provided relative to the selected navigation mode selector
+position. It interacts closely with several navigational aids like VOR, TACAN, ADF,
+and the aircraft's Navigation Computer (NAV COMP).
+The Bearing Pointer and Range Indicator on the HSI display the bearing and distance
+to the navigation aid selected via the Bearing Distance Selector Knob.
+The Navigation Mode Selector governs the functionality of the heading marker,
+course arrow, and the course deviation indicator, which includes a to-from arrow.
+Both these controls – the Bearing Distance Selector and the Navigation Mode Selector – have
+a direct impact on the illumination of specific mode indicator lights on the HSI.</p>
+<p>The compass card in the HSI is driven by heading input from the AJB-7 system. It rotates
+to align the aircraft's magnetic heading directly under the lubber line at the top of the
+instrument, assuming the signal received is accurate and reliable.</p>
+<p>The Bearing pointer indicates magnetic bearing to a given VOR, TACAN or NAV COMP station,
+depending on the BRG/DIST switch selection. Providing the compass card is giving good information,
+this bearing is also relative. However, if there are inaccuracies in the magnetic heading,
+to navigate towards the selected destination, the aircraft should be steered not by centering
+the arrow on the lubber line, but by following the heading indicated by the arrow using
+the magnetic compass. If an UHF (ADF) signal is tuned, the bearing pointer consistently shows
+the heading in relative terms.</p>
+<p>The command heading marker provides as a desired heading reference for the Flight Director.
+To obtain correct steering, the marker must be manually set in all but Nav Comp modes (then
+it's automatically set). The steering clues are visible on the ADI bank steering bar.</p>
+<p>The deflection of the Deviation Indicator in VOR and TACAN modes indicate the deviation of the
+aircraft from the selected course (visible on the Course rollers and Course Arrow).
+Is indicates how far is the aircraft off the selected track- 2.5 deg per dot, maximally
+up to 5 deg.
+<a href="systems/nav_com/../../img/hsi_course_deviation.jpg">Course Deviation</a></p>
+<p>In ILS mode, the HSI displays deviation from the localizer signal. This indication is more precise,
+as the needle is more sensitive to deviations in that mode. Notably, this reading is independent
+of the selected course, providing direct feedback on the aircraft's alignment with the ILS
+approach path.</p>
 <h2 id="attitude-director-indicator-adi"><a class="header" href="#attitude-director-indicator-adi">Attitude Director Indicator (ADI)</a></h2>
 <p><img src="systems/nav_com/../../img/pilot_attitude_director_indicator.jpg" alt="pilot_attitude_director_indicator" /></p>
-<p>The ADI provides command
-steering to intercept selected headings, <a href="systems/nav_com/tacan.html">TACAN</a>
+<p><img src="systems/nav_com/../../img/adi_scheme.jpg" alt="ADI Scheme" /></p>
+<p>The ADI provides command steering to intercept selected headings, <a href="systems/nav_com/tacan.html">TACAN</a>
 stations, tracks, <a href="systems/nav_com/vor_ils.html">VOR</a> radials, or navigation computer destinations. Bank
 steering instruction is presented using the bank steering bar, which can
-reference angles up to 35 degrees. Should a bank angle in excess of 35 degrees
-be desired, the instructed angle can be disregarded during the turn. When the
-Heading Set knob has been used to enter the correct target heading, the
+reference angles up to 35 degrees, at 90 degrees of heading deviation. Any heading errors
+less than that will produce a bank correction of something less than 35 degrees. If a quick
+intercept or a bank angle in excess of 35 degrees is desired, the bank steering must
+be disregarded during the turn.</p>
+<p>The system initiates an approximate 50-degree straight-line intercept towards the desired
+track until the aircraft is within 15 degrees of it. Beyond this point, it transitions
+to an asymptotic approach to align with the track. For a faster intercept, it might be necessary
+to disregard the bank steering signal.</p>
+<p><img src="systems/nav_com/../../img/bank_steering_intercept.jpg" alt="Bank Steering Intercept" /></p>
+<p>When the Heading Set knob has been used to enter the correct target heading, the
 intercept presentation is accurate within a 60 degree field of a <a href="systems/nav_com/tacan.html">TACAN</a> course,
 or 90 degrees for a <a href="systems/nav_com/vor_ils.html">VOR</a> radial. Additionally, a Glide-slope Pointer is provided
 for relative glide-slope position indication during an <a href="systems/nav_com/vor_ils.html">ILS</a> approach.</p>
+<blockquote>
+<p>💡 The Heading Marker must be manually aligned with the desired heading (except in NAV COMP mode)
+to ensure correct bank steering guidance. However, due to wind drift, this bank steering
+may not always keep the aircraft precisely on a TACAN or VOR track. In such scenarios,
+manual adjustments for wind correction are required in the Heading Marker setting to maintain
+the correct course.</p>
+</blockquote>
 <p>In the Picture above the yellow vertical needle shows the Pilot that he has to steer 20° to the left
 to correct the course intended. In the same way the ADI shows steering instructions for the pitch.</p>
 <p>Upon startup of the ADI, an OFF warning flag will be displayed until the AN/AJB-7 gyro has aligned.
@@ -4733,6 +4800,10 @@ pointers indicate the <a href="systems/nav_com/vor_ils.html">VOR</a> station.</p
 navigation computer target coordinates, and the no. 2 pointer indicates magnetic
 ground track. The range indicator notes distance to the target coordinates.</p>
 <p><img src="systems/nav_com/../../img/ModeSelectorKnobTable.jpg" alt="ModeSelectorKnobTable" /></p>
+<p><img src="systems/nav_com/../../img/hsi_vor_mode.jpg" alt="HSI VOR Mode" /></p>
+<p><img src="systems/nav_com/../../img/hsi_nav_comp_mode.jpg" alt="HSI NAV COMP Mode" /></p>
+<p><img src="systems/nav_com/../../img/hsi_tacan_mode.jpg" alt="HSI TACAN Mode" /></p>
+<p><img src="systems/nav_com/../../img/hsi_bearing_dist.jpg" alt="HSI Bearing Dist" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="anasn-63-inertial-navigation-system"><a class="header" href="#anasn-63-inertial-navigation-system">AN/ASN-63 Inertial Navigation System</a></h1>
 <p>The AN/ASN-63 INS provides the F-4E aircrew and integrated weapons delivery
 system with real time accurate positional, velocity, attitude, and heading
@@ -11836,6 +11907,16 @@ simultaneously.</p>
 <p>See the
 <a href="dcs/../systems/defensive_systems/countermeasures.html#chaff-double-cd">AN/ALE-40 system</a>
 for details.</p>
+<h2 id="radio-options"><a class="header" href="#radio-options">Radio Options</a></h2>
+<p>The editor allows to preset all 18 COMM and 20 AUX channels of the UHF radio:</p>
+<p><img src="dcs/../img/me_radio_presets.jpg" alt="UHF Presets" /></p>
+<p>Also, radio frequency parameters for mission triggers are provided:</p>
+<div class="table-wrapper"><table><thead><tr><th>Parameter</th><th>Description</th></tr></thead><tbody>
+<tr><td>COMM_FREQ</td><td>UHF Radio active Comm frequency [MHz]</td></tr>
+<tr><td>AUX_FREQ</td><td>UHF Radio active Aux frequency [MHz]</td></tr>
+</tbody></table>
+</div>
+<p><img src="dcs/../img/me_freq_triggers.jpg" alt="UHF Parameters" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="modding"><a class="header" href="#modding">Modding</a></h1>
 <p>The Phantom encourages modding and allows the community to modify
 various parts of the simulation and experience.</p>
