@@ -38,7 +38,7 @@ With such innovation and in depth simulation there comes of course an increased
 learning curve for its users. This is why it was important for us to also
 innovate on the side of learning tools available to you, starting with this
 manual, so that our modules are accessible to the casual simmer and aficionado
-alike. You can open the **manual in flight**, and read along, but better still, you
+alike. You can **open the manual in flight**, and read along, but better still, you
 can click any switch (with an input combo) in flight and the manual will open in
 the correct chapter, **explaining the switch** or system in the cockpit, all while
 you are bolting through the air in your thunderous jet. We also changed the
