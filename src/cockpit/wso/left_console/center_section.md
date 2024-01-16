@@ -14,7 +14,7 @@ and countermeasure panel.
 Five position rotary switch controlling power state of
 the [APQ-120 Radar.](../../../systems/radar.md)
 
-[Detailed Description](../../../systems/radar.md#power)
+See the [Radar Power Section](../../../systems/radar.md#power) for more details.
 
 ### Polar Switch
 
@@ -22,36 +22,30 @@ Controls polarization of transmitted radio frequency energy. LIN should be used 
 conditions, CIR 1 and CIR 2 can be used to reduce precipitation clutter at the expense of increased
 ground clutter.
 
-[See Radar Section for more details.](../../../systems/radar.md#polarization-control)
+[See Radar Polarization Knob Section for more details.](../../../systems/radar.md#polarization-control)
 
 ### Range Knob
 
 ![Range Knob](../../../img/wso_radar_range_knob.jpg)
 
 Used to select range sweep of 5, 10, 25, 50, 100, or 200 mile ranges on both
-radar displays. First four ranges
-are [air-to-air intercept positions,](../../../systems/radar.md#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident)
-final two are ground mapping modes only, and disengage lock-on capability. Selecting a setting
-illuminates the applicable [range lamp](../../pilot/dscg_controls.md#range-lights), and displays the
-value on the radar scope upper left corner.
+radar displays. Ranges up to 50 are displayed on the range lamp [range lamp](../../pilot/dcsg_controls.md#range-lights).
+
+See the [Radar Range Knob Section](../../../systems/radar.md#radar) for more details.
 
 ### Maneuver Switch
 
-Controls radar tracking response due to acceleration limits and received
-countermeasures and clutter. LOW G provides the velocity reject function whilst HI G allows tracking
-of a maneuvering target without breaking radar lock on.
+Controls radar tracking acceleration response. LOW sets a limit on antenna acceleration and HI
+removes acceleration limit.
 
-| Name  | Description                                                                        |
-|-------|------------------------------------------------------------------------------------|
-| LOW G | Default position. Limits track response due to countermeasures and clutter.        |
-| HI G  | Allows track loop to respond to high acceleration. Automatically engaged with CAA. |
+[See Radar Maneuver Knob Section](../../../systems/radar.md#maneuver-switch)
 
 ### Bar Scan Switch
 
-Selects [elevation scan](../../../systems/radar.md#scan) pattern between 1 and 2 bars.
+Selects elevation scan pattern between 1 and 2 bars. In 2 bar scan, the search pattern alternates
+1.875 degrees above and 1.875 degrees below the radar scan plane.
 
-In 2 bar scan, the search pattern is separated by
-3.75 degrees on each scan.
+[See Radar Scan Switch Section for more details](../../../systems/radar.md#scan)
 
 In [boresight](../../../systems/radar.md#bst-boresight-position)
 or [air-to-ground modes](../../../systems/radar.md#air-grd-air-to-ground-position), 1 bar scan is

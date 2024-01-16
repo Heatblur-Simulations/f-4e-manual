@@ -37,14 +37,13 @@ inserted it into the WRCS.
 
 ### Power
 
-| Name | Description                                                                                                                        |
-|------|------------------------------------------------------------------------------------------------------------------------------------|
-| OFF  | Powers radar off.                                                                                                                  |
+| Name | Description |
+|------|-------------|
+| OFF  | Powers radar off. |
 | TEST | Applies voltage to control monitor power and provides [BIT-test](../../../procedures/bit_tests/overview.md) functions 1 through 6. |
-| STBY | Power applied to radar, remains in a non-transmitting standby state.                                                               |
-| OPR  | System is fully operational.                                                                                                       |
-| EMER | Overrides the time delay, pressure, and temperature restrictions to allow radar operation.                                         |
-
+| STBY | Power applied to radar, remains in a non-transmitting standby state. |
+| OPR  | System is fully operational. |
+| EMER | Overrides the time delay, pressure, and temperature restrictions to allow radar operation. |
 
 Initial powering of the APQ-120 starts by placing the Radar Power Knob into TEST or STBY (Standby).
 The warmup cycle requires 3 minutes from selecting either setting, and confirmation of this process
@@ -64,7 +63,9 @@ behind the power knob confirming usage of the EMER mode, which requires servicin
 
 Range control of the APQ-120 is mode dependent, and in some circumstances restrict range or
 functionality. Both scopes - the DSCG and the pilot's repeater window, both share indications (as
-well as on-screen display) of 5, 10, 25, 50, 100, and 200 mile ranges. Values up to 50 miles are
+well as on-screen display) of 5, 10, 25, 50, 100, and 200 mile ranges.
+
+Values up to 50 miles are
 indicated as air intercept (AI), which provide lock-on capability against airborne targets; 100 and
 200 mile ranges can be used with the Spotlight function, allowing a target at longer distances to be
 manually followed with the radar until they are at a range capable of a lock. Air to ground
@@ -72,14 +73,15 @@ functionality is available in the PPI modes higher than 5 miles.
 
 ![radar_screen_range](../img/radar_screen_range.jpg)
 
-Selecting any range will illuminate the respective indicator lamp, as well as display the numerical
-value on the DSCG display in the upper left.
+Selecting any range will illuminate the respective indicator
+[range lamp](../cockpit/pilot/dcsg_controls.md#range-lights), as well as display the numerical value
+on the DSCG display in the upper left.
 
 ![pilot_dscg_range_lights](../img/pilot_dscg_range_lights.jpg)
 
 ### Polarization Control
 
-| Selection |  Description|
+| Selection |  Description |
 |-------|-------------|
 | LIN   | RF energy is lineally polarized in a vertical orientation. [AIM-7](../../../stores/air_to_air/aim_7.md) default mode. |
 | CIR 1 | RF energy is rotated clockwise from the vertical plane. [AIM-7](../../../stores/air_to_air/aim_7.md) can be fired. |
@@ -101,21 +103,27 @@ a return is otherwise found to be marginal.
 
 ### Maneuver Switch
 
-The WSO can select APQ-120 system response to acceleration that can cause a track to be dropped for
-air-to-air combat using the Maneuver Switch. By default, this switch is placed in LOW G, as to
-provide resistance to countermeasures and clutter that would drive the range track loop off target
-under normal maneuvering. In a combat situation, selecting HI G removes such limitations and allows
-the range track loop to respond to said high accelerations. If the switch is not previously selected
-prior to entry, activating CAA mode automatically engages the HI G response mode. LOW G provides the
-velocity reject function whilst HI G allows tracking of a maneuvering target without breaking radar
-lock-on.
+The maneuver switch is used to specify the tracking response to target accelerations.
 
-### Scan
+| Selection| Description                                                                        |
+|----------|------------------------------------------------------------------------------------|
+| LOW G    | Default position. Limits tracking accelerations to reduce response to countermeasures and clutter.|
+| HI G     | Allows track loop to respond with any acceleration. |
 
-The APQ-120 can search in non-boresight AI modes with a 1 bar or 2 bar scan; the number of scan bars
-is set by the respective switch position. In the 2 bar scan mode, the elevation between the two bars
-is separated by 3.75 degrees. Upon entry to boresight or an air to ground mode, the radar will
-revert to a 1 bar scan.
+HI G is forced when [Computer Automatic Acquisition](#computer-automatic-acquisition-mode-caa) is used.
+
+### Scan Switch
+
+The scan switch specifies the number of elevation bars used in search.
+
+| Selection | Description | Total Vertical Coverage (degrees) |
+|-----------|-------------|------------------------|
+| 1 Bar | Scans along radar plane. | 6.7 (3.7 without nutation) |
+| 2 Bar | Scan alternates between 1.875 degrees above/below the radar plane. | 10.45 |
+
+1 Bar Scan is automatically commanded when MAP is selected on the
+[Radar Mode Knob](#radar-modes-mode). For BST, AIR-GND and CAGE conditions scan switch position
+is not relevant.
 
 ### Aspect
 
@@ -161,7 +169,7 @@ command of the STC (Sensitivity Time Control) circuit controls how the receiver'
 matter of range, which drives image intensity in the lower part of the scope. Gain knobs do not have
 an effect on the radar picture when a lock-on exists.
 
-### Track
+### Track Switch
 
 The track switch determines whether the APQ-120 will attempt a lock-on against a selected track
 automatically, or through manual means. In the default center AUTO position, full-action on the
@@ -173,7 +181,7 @@ If jamming should occur during an attempt that precludes acquisition, the jammin
 as a lock-on target for an angle track. Switching over to AOJ OUT returns the radar to a search
 configuration.
 
-### Display Modes
+### Display Knob
 
 The DSCG can display returns as both as a B-Sweep or as a Plan Position Indicator (PPI) display.
 Proper selection of the display for the situation is required for correct fire control and WRCS
@@ -675,3 +683,180 @@ The Air to Air button is a button and a light with the primary function of confi
 CAGE mode. When the crew desires to disengage CAGE mode, the WSO can press the light (which also
 functions as a button) to exit CAGE mode and revert to the current selected settings from the Radar
 Control Set.
+
+## Radar Operation (General)
+
+TODO Describe Various Features of Radar
+
+### Feedhorn Nutation
+
+| Mode Knob | Range Knob | Action Switch | Nutation |
+|-----------|------------|---------------|----------|
+| RDR, BST, AIR-GND | ALL | Release | Yes |
+| MAP | ALL | Release | No |
+| MAP-PPI      | ALL | Half or Full Action | No |
+| RDR, MAP-B, BST, AIR-GND | AI | Half or Full Action | Yes |
+|              | Not AI | Half Action | Yes |
+|              |    | Full Action | No |
+
+## Radar Operation (Air-To-Air)
+
+### Automatic Search
+
+During automatic search, the antenna moves back and forth in the radar plane. The limits of this
+search are determined by the [Display Knob](#display-knob). Search is normally 120 degrees wide with
+the display knob in WIDE positions, in NAR positions the search is limited to 45 degrees wide.
+
+The [Radar Mode Knob](#radar-modes-mode) knob is used to select automatic search by selecting either
+RDR or MAP. In RDR the number of bars can be selected by the [Scan Switch](#scan-switch). In MAP
+only 1 bar is used regardless of scan switch. Feed horn nutation is used with RDR but not MAP
+leading to an estimated beamwidth of approximately 6.7 degrees in RDR and 3.7 degrees in MAP.
+
+Selecting BST or AIR-GND on the Radar Mode Knob antenna scan is boresighted along the radar boresight
+line.
+
+### Acquisition
+
+Acquisition can be used with any radar mode which uses B-Scope and is used to achieve tracking condition.
+
+With the [Radar Mode Knob](#radar-modes-mode) in RDR or MAP, Half Action can held
+on the antenna hand control trigger. This begins acquisition, in RDR or MAP the antenna azimuth will
+follow the acquisition symbol. In all modes where acquisition can be used the range of the
+acquisition symbol will set the desired range for lock-on.
+
+Below describes the nutation settings for the action switch.
+
+### Track
+
+Automatic tracking can be commanded by first entering acquisition and then once the target has been
+bracketed by the acquisition symbol Full Action can be depressed. The radar will enter automatic track.
+
+The type of track entered depends on the selected mode. There are two types of tracking circuits
+available, angle tracking and range tracking. These will both be described below.
+
+#### Angle Track
+
+Angle tracking circuit steers the antenna to keep the target centred. It does by making use of
+feedhorn nutation (conical scan). The antenna steers towards the direction of highest amplitiude in
+the nutation scan pattern. As a result angle tracking cannot be achieved without nutation (MAP-B
+begins nutation when using acquisition).
+
+Angle Tracking has two settings set by the [Maneuver Switch](#maneuver-switch), HI and LOW. These set
+limits on the acceleration in the angle tracking circuits.
+
+Antenna steering has several important functions:
+
+- Tracking Target Location in elevation and azimuth
+- Providing head aiming angles to the sparrow for sparrow lockon.
+- Illuminating the target with continous wave radio frequency energy for sparrow guidance.
+
+#### Range Track
+
+The radar uses a range gate to select a target in range. The uses only radar returns within the
+range gate for its circuits. This helps eliminate clutter and other targets, and allows angle
+tracking circuits to accurately track the target of interest without erroneous signals.
+
+In range track the range gate uses the radar echos to automatically correct any error between the
+range gate and the target echo. This causes the range gate to move, the rate at which the range gate
+moves is the closure velocity and displayed on the screen, this is also used to supply the sparrow
+with a closure velocity to set the sparrow speed gate for target tracking.
+
+Range track can operate in memory mode. When in memory mode the range gate will continue to move
+down at the last calculated closure velocity. When this occurs the SKIN TRK light and T light on the
+DSCG will go out, the range rate digits will begin to flash at 4 Hz. If memory mode was entered
+because the target was lost the system will drop lock if the target does not reapear within 5 seconds.
+
+Memory Mode will be Entered under several conditions:
+
+- Manual Search is Selected ([Track Switch](#track-switch))
+- Target is lost.
+- Jamming condition is detected.
+
+#### Home On Jam
+
+The back bias amplifier in the radar produces a noise signal based on the overall strength of the
+echos. Once this noice signal exceeds some threshold the system will consider it a jamming condition
+and enter home on jam. The range track circuit goes into memory mode, the angle track circuit
+continues to operate and track the jamming target in elevation and azimuth.
+
+The Home On Jam condition is also indicated by the engraved H on the DSCG and the last zero of the
+closure velocity is replaced by a H along with the closure rate flashing.
+
+### Intercept Computations
+
+The LRU-1 intercept computer can calculate firing envelopes for the
+[Sparrow](../stores/air_to_air/aim_7.md) and [Sidewinder](../stores/air_to_air/aim_9.md) Missiles.
+
+#### Range Strobes
+
+The DSCG can display two range strobes at any given time representing the missile envelope. There
+are three possible strobe types.
+
+| Range Indication | Description |
+|------------------|-------------|
+| Rmax             | Maximum range of the missile provided the target continues flying on current heading and course. |
+| Rmax2 | Maximum range of the missile if the target performs the shortest high g turn to tail aspect. |
+| Rmin | Minimum range capability of the missile. |
+
+| Missile Selected | Strobes Displayed |
+|------------------|-------------------|
+| Sparrow          | Rmax and Rmax2    |
+| Sidewinder       | Rmax and Rmin     |
+
+All ranges are calculated for valid pilot pickle not weapon away. This means if the missile envelope
+is met on the display then pickle can be pressed and envelope will be valid for missile launch.
+
+#### Allowable Steering Error (ASE) Circle
+
+The allowable steering error indicates the maximum lead or lag at which the missile can be launched
+and still retaining a high probability of hit. The circle diameter gradually increases in size once
+Rmax is reached and gradually begins decreasing in size as the target range approaches Rmin.
+
+With the Sparrow selected the max ASE Circle size is 25 degrees for an AIM-7E and 35 degrees for an AIM-7F.
+
+With the Sidewinder selected the ASE Circle size is fixed at 1.2 degrees with the Sidewinder caged.
+With the sidewinder caged the dynamically changes size as described above, with the max diameter
+representing 25 degrees.
+
+#### Aim Dot
+
+#### Shoot/In Range Lights
+
+Shoot Lights illuminate provided the following conditions are met:
+
+- Aim Dot is Inside the ASE Circle
+- Target is within Rmax and Rmin
+
+If sparrows are selected then shoot lights are also inhibited when the target aspect is
+90 degrees +/- 9 degrees (left or right) and the target is lower than 5 degrees above the horizon.
+This prevents shooting a sparrow into the main lobe clutter.
+
+#### Hold Altitude Light
+
+Hold Altitude Light illuminates provided the following conditions are met:
+
+- Range is greater than the computed snap-up range.
+- Altitude is greater than 32,000 ft.
+- The target is more than 8000 feet above the fighter.
+
+When the light is illuminated the azimuth error in the aim dot should be corrected only when the
+light goes out the fighter should snap up to center the aim dot.
+
+#### Break X
+
+In all modes (except VI) when the target is lower in range than the calculated Rmin the Break X
+symbol will be displayed to indicate minimum range condition.
+
+In Visual Intercept (VI) break X is displayed when range is less than 1000 ft.
+
+### Firing Interlocks
+
+### Manual Search
+
+### Computer Automatic Search (CAA)
+
+## Radar Operation (Air-To-Ground)
+
+### Air-To-Ground Ranging
+
+### Map Mode (PPI)
