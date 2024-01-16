@@ -228,7 +228,7 @@ throttle handle. Cage mode commands [the radar](../../../systems/radar.md)
 into [BST mode](../../../systems/radar.md#bst-boresight-position) with a five mile
 range, and short pulse, and sets the firing circuit for the currently selected
 air-to-air weapon relative to the Pinky Switch. For
-the [optical sight](../../../cockpit/pilot/dscg_controls#sight-mode-knob),
+the [optical sight](../../../cockpit/pilot/dscg_controls.md#sight-mode-knob),
 the command activates the respective elevation and azimuth tracking, roll mark, and
 range functions of the reticle for the chosen weapon, without the pilot having
 to remove a hand from throttle or stick to swap the sight mode or weapon control

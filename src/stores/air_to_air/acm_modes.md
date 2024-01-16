@@ -11,7 +11,7 @@ against an airborne target with
 the [sight](../../cockpit/pilot/dscg_controls.md#sight-mode-knob)
 in A/G mode (for example, the flight is bounced by
 opposing aircraft),
-the [optical sight](../../cockpit/pilot/dscg_controls#sight-mode-knob)
+the [optical sight](../../cockpit/pilot/dscg_controls.md#sight-mode-knob)
 reticle can immediately be slewed to the
 Radar Boresight Line using the Cage Button, found on the inboard (right)
 throttle handle. Cage mode commands the radar into BST mode with a five-mile
