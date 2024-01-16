@@ -200,4 +200,4 @@ ground track. The range indicator notes distance to the target coordinates.
 
 ![HSI TACAN Mode](../../img/hsi_tacan_mode.jpg)
 
-![HSI Bearing Dist](../../img/hsi_bearing_dist_mode.jpg)
+![HSI Bearing Dist](../../img/hsi_bearing_dist.jpg)
