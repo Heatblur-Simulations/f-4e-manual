@@ -134,3 +134,18 @@ simultaneously.
 See the
 [AN/ALE-40 system](../systems/defensive_systems/countermeasures.md#chaff-double-cd)
 for details.
+
+## Radio Options
+
+The editor allows to preset all 18 COMM and 20 AUX channels of the UHF radio:
+
+![UHF Presets](../img/me_radio_presets.jpg)
+
+Also, radio frequency parameters for mission triggers are provided:
+
+| Parameter | Description                           |
+|-----------|---------------------------------------|
+| COMM_FREQ | UHF Radio active Comm frequency [MHz] |
+| AUX_FREQ  | UHF Radio active Aux frequency [MHz]  |
+
+![UHF Parameters](../img/me_freq_triggers.jpg)

@@ -21,7 +21,10 @@ and [bombing computer.](../../../systems/weapon_systems/wrcs.md)
 
 Switches between different operating modes — Compass, DG (directional gyro), and
 Slaved. It also has a spring-loaded SYNC position for fast synchronization of
-the azimuth system based on the compass flux valve signal.
+the azimuth system based on the compass flux valve signal. The flux valve is an electronic
+sensor in the aircraft's left wing that detects magnetic fields to provide the primary
+reference for magnetic heading. However, it is very sensitive to changes in the aircraft's
+attitude and even minor accelerations.
 
 | Name                  | Description                                                                                                                                                                                                                  |
 |-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
