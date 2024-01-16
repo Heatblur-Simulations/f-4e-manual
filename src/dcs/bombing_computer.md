@@ -108,7 +108,7 @@ Shows the last saved bombing solutions. The line shows the inputs as following:
 - Run-in Speed
 - [Pull-Up Timer](../systems/weapon_systems/arbcs.md)
 - [Release Range](../systems/weapon_systems/wrcs.md#release-range-control)
-- [Sight Depression](../cockpit/pilot/dcsg_controls.md#reticle-depression-knob)
+- [Sight Depression](../cockpit/pilot/dscg_controls.md#reticle-depression-knob)
 
 ## Example run
 
@@ -185,5 +185,5 @@ and the release advance in the release advance in the WRCS.
 
 ### Sixth Step
 
-Now you only need to flight the maneuver for the Loft delivery as precise as possible to make sure
-you hit the target right. The more precise you fly the more precise your bombing run will be.
+Now you only need to fly the maneuver for the Loft delivery as precise as possible to make sure
+you hit the target right. The more precise you fly, the more precise your bombing run will be.

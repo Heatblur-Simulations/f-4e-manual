@@ -46,7 +46,7 @@ Indicator is provided on
 the [front cockpit left vertical panel](../../cockpit/pilot/left_sub_panel.md#stabilator-trim-indicator)
 .
 
-![StabTrimInd](../../img/StabTrimInd.jpg)
+![StabTrimInd](../../img/pilot_stabilator_trim_indicator.jpg)
 
 ## Rudder Control System
 
@@ -160,7 +160,7 @@ a [Slats Flap Indicator](../../cockpit/pilot/left_sub_panel.md#slatsflaps-indica
 and Out, along with a
 barber-pole reading when the surfaces are in transition.
 
-![SltFlpInd](../../img/SltFlpInd.jpg)
+![SltFlpInd](../../img/pilot_slats_flaps_indicator.jpg)
 
 In the Norm position, Maneuvering Slat deployment is a function of AoA; above
 11.5 units they will extend, then retract when the aircraft is reduced below
@@ -223,7 +223,7 @@ alignment of the chord line of the airplane with the oncoming air or relative wi
 
 ### Indicators
 
-![AoAInd](../../img/AoAInd.jpg)
+![AoAInd](../../img/pilot_angle_of_attack_indicator.jpg)
 
 The Angle of Attack Indicator dials register AoA values from 0 to 30 units, with
 indications for weight-relative optimum altitude cruise (7.9 units), approach
@@ -244,7 +244,7 @@ value to the crew.
 
 ### Indexers
 
-![AoA](../../img/AoA.jpg)
+![AoA](../../img/pilot_overhead_aoa_indexer.jpg)
 
 The AoA Indexers, found on the windshield frame of the front cockpit, and above
 the instrument panel in the rear, display color coded and directional symbology

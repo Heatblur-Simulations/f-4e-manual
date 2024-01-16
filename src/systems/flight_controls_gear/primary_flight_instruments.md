@@ -8,7 +8,7 @@ indicators.
 
 ## True Airspeed Indicators
 
-![TASInd](../../img/TASInd.jpg)
+![TASInd](../../img/pilot_true_airspeed_indicator.jpg)
 
 True Airspeed Indicators are provided in both cockpits, and carry a calibrated
 range from 150 to 1500 knots. The velocity signal is calculated in the Air Data Computer,
@@ -102,7 +102,7 @@ Included failures of the device are:
 
 ## Magnetic Compass
 
-![StbyMagComp](../../img/StbyMagComp.jpg)
+![StbyMagComp](../../img/pilot_standby_magnetic_compass.jpg)
 
 A magnetic compass is provided in each cockpit for use in the event of a
 navigation or electrical system failure.
@@ -117,7 +117,7 @@ static pressure system.
 
 ## Radar Altimeter
 
-![RadAlt](../../img/RadAlt.jpg)
+![RadAlt](../../img/pilot_radar_altitude.jpg)
 
 Found in the front cockpit, the Radar Altimeter has a functional range of 0 to
 5000 feet above ground level. The radar altimeter functions from 0 to 30 degrees

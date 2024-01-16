@@ -100,7 +100,7 @@ set to ON to activate the pod. On the SUU-16, the Master Arm activation deploys 
 ram air turbine.
 
 Installed, the guns are boresight along the Fuselage Reference Line. Thus,
-with the [optical sight](../cockpit/pilot/dcsg_controls.md#sight-mode-knob)
+with the [optical sight](../cockpit/pilot/dscg_controls.md#sight-mode-knob)
 in air to air mode, the rounds will fall in accordance
 with reticle center, just as the main cannon- only with the natural offset of
 their respective pylon position, thus allowing for effective natural gunnery, if

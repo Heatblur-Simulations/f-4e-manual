@@ -1,31 +1,32 @@
 # Weapon Management
 
-![MwsGroup](../../img/MwsGroup.jpg)
+![MwsGroup](../../img/pilot_weapon_management.jpg)
 
 This group on the left area of the main panel provides all weapon related settings, such as arming
 missiles or selecting the bomb delivery mode.
 
 ## Range Indicator
 
-![range_indicator](../../img/range_indicator.jpg)
+![range_indicator](../../img/pilot_overhead_range_indicator.jpg)
 
 This panel provides the pilot with a readout of the slant range measured by the [Pave
 Spike](../../systems/weapon_systems/pave_spike/overview.md) Targeting Pod (x100 ft).
 
-When the Test-Button is pressed, the display shows 888. The knob underneath the test button controls
-the brightness of the readout.
+When the Test-Button (2) is pressed, the display shows 888. The knob underneath (3) the test button
+controls the brightness of the readout.
 
-The Mode-Knob allows the pilot to select one of two weapon delivery modes available with the pod:
+The Mode-Knob (1) allows the pilot to select one of two weapon delivery modes available with the
+pod:
 
 - [WRCS](../../systems/weapon_systems/wrcs.md) - Automatic Delivery
 - ROR - Release on Range
 
 In the SET position, the display shows the desired release range used in the ROR mode. The knob
-below the readout can be used to adjust this range.
+below the readout (4) can be used to adjust this range.
 
 ## Head Up Display Indicators
 
-![HUD](../../img/HUD.jpg)
+![HUD](../../img/pilot_head_up_display_indicators.jpg)
 
 The Head Up Display indicator panel provides weapon status for the Master Arm
 control as well as the current selected air-to-air weapon based on the position
@@ -40,7 +41,7 @@ of the pinky switch on the left throttle handle.
 
 ## UHF Remote Channel Indicator
 
-![UHFInd](../../img/pilot_uhf_indicator.jpg)
+![UHFInd](../../img/pilot_uhf_remote_channel_indicator.jpg)
 
 Provides the current selected channel value when the radio is set to PRESET. Otherwise, the
 indicator displays M if the radio is set to Manual, G when the COMM function is set as GUARD/ADF, or
@@ -48,14 +49,14 @@ A when the A-3-2-T switch is in A.
 
 ## True Airspeed Indicator
 
-![TASInd](../../img/TASInd.jpg)
+![TASInd](../../img/pilot_true_airspeed_indicator.jpg)
 
 Provides the aircraft's true Airspeed in knots, and is calibrated from 150 to 1500 knots; airspeeds
 below this range are thus not reliable.
 
 ## Flight Instrument Brightness Knob
 
-![Flight Instrument Brightness Knob](../../img/InstruBright.jpg)
+![Flight Instrument Brightness Knob](../../img/pilot_flight_instrument_brightness_knob.jpg)
 
 Controls brightness of the flight instrument cluster.
 
@@ -67,7 +68,7 @@ Instrument Lights Intensity Panel, located on the right wall.
 
 ## Nose/Tail Arming Switch
 
-![NTArm](../../img/NTArm.jpg)
+![NTArm](../../img/pilot_nose_tail_arming.jpg)
 
 Controls the arming solenoids of the MER and TER racks, selecting what MER/TER position(s) arming
 lanyards are pulled from released bomb fuzes upon separation, thus making them live. This function
@@ -103,13 +104,13 @@ brightness.
 
 ## Master Arm Switch
 
-![MArm](../../img/MArm.jpg)
+![MArm](../../img/pilot_master_arm.jpg)
 
 Provides master arming function for all aircraft weapons.
 
 ## Delivery Mode Knob
 
-![DelMode](../../img/DelMode.jpg)
+![DelMode](../../img/pilot_delivery_mode_knob.jpg)
 
 The Delivery Mode Knob sets the fire control system to the desired air to ground weapon release
 type. Split into two halves, the left side of the dial references ARBCS (Altitude Reference and
@@ -141,7 +142,7 @@ see [4.3 Air-to-Ground weaponry chapter.](../../stores/air_to_ground/overview.md
 
 ## Weapon Selector Knob
 
-![WSK](../../img/WSK.jpg)
+![WSK](../../img/pilot_weapon_selector_knob.jpg)
 
 Used to select the appropriate type of weapon, providing release signals to
 the AWRU (Aircraft Weapons Release Unit). ARM and TV positions inhibit air-to-air weapon firing
@@ -161,7 +162,7 @@ affect tuning status of radar guided weapons. Positions are as follows:
 
 ## Aircraft Weapons Release Unit
 
-![AWRU](../../img/AWRU.jpg)
+![AWRU](../../img/pilot_awru.jpg)
 
 Provides timed interval release scheduling of single or multiple bombs or rockets and dispensed
 munitions based on the selections made between the interval knob, the QTY (quantity) knob and the
@@ -205,7 +206,7 @@ will be released every two seconds the bomb button is held down.
 
 ## Missile Status Lights
 
-![MSL](../../img/pilot_missile_status_light.jpg)
+![MSL](../../img/pilot_missile_status_lights.jpg)
 
 The Missile Status Light window provides confirmation of currently installed and
 configured [4.2 air-to-air missiles chapter](../../stores/air_to_air/overview.md).
@@ -273,7 +274,7 @@ can prevent an AIM-7 from being launched when the trigger is pulled.
 
 ## Selective Jettison Control
 
-![SelJet](../../img/SelJet.jpg)
+![SelJet](../../img/pilot_selective_jettison_control.jpg)
 
 The Selective Jettison Control knob provides the pilot direct access to dump stores on a position by
 position basis.
@@ -295,7 +296,7 @@ button.
 
 ## Recorder Lamp
 
-![pilot_recorder_lamp](../../img/pilot_recorder_lamp.jpg)
+![pilot_recorder_lamp](../../img/pilot_recorder_light.jpg)
 
 This dimmable lamp is lit to indicate operation of the [Airborne-Video-Tape-Recorder
 (AVTR)](../../cockpit/wso/left_sub_panel.md#avtr-control).

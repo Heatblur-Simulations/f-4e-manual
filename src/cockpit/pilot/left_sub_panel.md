@@ -9,7 +9,7 @@ the external stores.
 
 ## 8-Day Clock
 
-![PClock](../../img/PClock.jpg)
+![PClock](../../img/pilot_clock.jpg)
 
 A clock is provided for the pilot, including a stopwatch function. The watch can be set by turning
 the knob on the left lower corner. The stopwatch function is being used by pressing the top right
@@ -17,7 +17,7 @@ button. It is reset by pressing the top right button again.
 
 ## Emergency Canopy Jettison Handle
 
-![CanJet](../../img/CanJet.jpg)
+![CanJet](../../img/pilot_emergency_canopy_jettison_handle.jpg)
 
 Used for emergency ground extraction, the Emergency Canopy Jettison Handle
 releases a compressed oxygen cylinder to open the respective canopy immediately,
@@ -25,7 +25,7 @@ shearing it off at its pivots.
 
 ## Landing Gear Handle
 
-![GearHandle](../../img/GearHandle.jpg)
+![GearHandle](../../img/pilot_landing_gear_handle.jpg)
 
 Actuates [the landing gear](../../systems/flight_controls_gear/gear_ground_handling.md); raised for
 gear up, down for gear down.
@@ -37,7 +37,7 @@ using a pair of compressed air bottles.
 
 ## Landing Gear Position Indicators
 
-![GearPos](../../img/GearPos.jpg)
+![GearPos](../../img/pilot_landing_gear_position_indicators.jpg)
 
 [The Landing Gear](../../systems/flight_controls_gear/gear_ground_handling.md) Position Indicators
 provide visual confirmation of current gear state, displaying UP when retracted, showing a barber
@@ -46,7 +46,7 @@ and locked.
 
 ## Slats/Flaps Indicators
 
-![SltFlpInd](../../img/SltFlpInd.jpg)
+![SltFlpInd](../../img/pilot_slats_flaps_indicator.jpg)
 
 Visual indication
 of [the Slat and Flap systems](../../systems/flight_controls_gear/flight_controls.md#slats-flap-system)
@@ -64,7 +64,7 @@ current PSI.
 
 ## Stabilator Trim Indicator
 
-![StabTrimInd](../../img/StabTrimInd.jpg)
+![StabTrimInd](../../img/pilot_stabilator_trim_indicator.jpg)
 
 Provides current stabilator trim setting in units of trim (not equal to degrees). For Takeoff the
 trim should be between 1-3 units nose down.

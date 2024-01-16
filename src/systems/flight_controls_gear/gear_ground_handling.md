@@ -13,7 +13,7 @@ air is available to lower the gear for landing.
 
 ## Landing Gear Control Handle
 
-![GearHandle](../../img/GearHandle.jpg)
+![GearHandle](../../img/pilot_landing_gear_handle.jpg)
 
 The Landing Gear Control Handle is found on the left instrument panel in the
 front cockpit, with a red wheel-shaped knob for identification.
@@ -44,7 +44,7 @@ handle to light up red.
 
 ## Landing Gear Position Indicators
 
-![GearPos](../../img/GearPos.jpg)
+![GearPos](../../img/pilot_landing_gear_position_indicators.jpg)
 
 Status indicators for the landing gear system are found in both cockpits on the
 left sub-panel. The indicators are three windows, one for each gear station. The

@@ -9,7 +9,7 @@ interact with the digital interfaces.
 
 ## Reticle Intensity/Scale Knob
 
-![RetIntensity](../../img/pilot_dscg_reticle intensity.jpg)
+![RetIntensity](../../img/pilot_dscg_reticle_intensity.jpg)
 
 | Name    | Description                                                                            |
 |---------|----------------------------------------------------------------------------------------|
