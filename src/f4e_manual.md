@@ -1,8 +1,9 @@
 # F-4E Manual
-
+<!-- markdown-link-check-disable -->
 <!-- markdownlint-disable MD033 -->
 <img alt="F4 Line Art" width="200" src="/img/f4line.svg">
 <!-- markdownlint-enable MD033 -->
+<!-- markdown-link-check-enable -->
 
 ## Contents
 
