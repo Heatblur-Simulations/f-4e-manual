@@ -125,4 +125,4 @@ In DCS, footage is saved in the users Saved Games folder, for example:
 
 `C:\Users\JohnDoe\Saved Games\DCS.openbeta\F-4E\recorders\avtr`
 
-See [9.5 DCS Recorders](../../../dcs/recorders.md) for details on the footage.
+See [9.6 DCS Recorders](../../../dcs/recorders.md) for details on the footage.
