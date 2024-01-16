@@ -54,7 +54,7 @@ tailored to be learned together with the written lesson in the manual, you will
 be able to revert steps in the training mission, able to read along and pause
 (no more restarting for missed items), and also prepare yourself accordingly
 before flying the mission. And best of all, your training will be instructed by
-**real life F-4 pilots** and a real life F-4 WSO Instructor, who else could teach
+**real life F-4 pilots** and a **real life F-4 WSO Instructor**, who else could teach
 you better?
 
 <!-- markdown-link-check-enable -->
