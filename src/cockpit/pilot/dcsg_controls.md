@@ -2,11 +2,10 @@
 
 ![DSCG Controls](../../img/GunRepeater.jpg)
 
-The Digital Scan Converter Group (DSCG) enabled the F-4E the capability to
-use [AGM-65 Maverick](../../stores/air_to_ground/missiles/maverick.md)
-air-to-ground missile. The DSCG replaced the Direct View Storage Tube radar scopes which could not
-interact with the digital interfaces of
-the [AGM-65 Maverick](../../stores/air_to_ground/missiles/maverick.md).
+The Digital Scan Converter Group (DSCG) refers to the screen used to display radar data
+and video feed of TV weapons or targeting pods.
+The DSCG replaces the Direct View Storage Tube radar scopes which could not
+interact with the digital interfaces.
 
 ## Reticle Intensity/Scale Knob
 
