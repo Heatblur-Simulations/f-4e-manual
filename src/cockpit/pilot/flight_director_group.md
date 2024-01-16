@@ -7,7 +7,7 @@ in a bad weather situation.
 
 ## Radar Altimeter
 
-![RadAlt](../../img/RadAlt.jpg)
+![RadAlt](../../img/pilot_radar_altitude.jpg)
 
 Terrain relative accurate height information up to 5000 ft, functions to 30
 degrees of bank angle or 35 degrees of pitch. Clockwise rotation of the function
@@ -18,7 +18,7 @@ A self-test, initiated by pressing the function control switch, shows 35ft.
 
 ## Airspeed and Mach Indicator
 
-![pilot_air_speed_mach_indicator](../../img/pilot_air_speed_and_mach_indicator.jpg)
+![pilot_air_speed_mach_indicator](../../img/pilot_airspeed_mach_indicator.jpg)
 
 The combination airspeed and mach number indicator shows airspeed readings below
 200 knots, and include Mach numbers on the outer ring at high speed. The indicator uses a single
@@ -33,7 +33,7 @@ scale before the mach scale starts.
 
 ## Angle of Attack Indicator
 
-![AoAInd](../../img/AoAInd.jpg)
+![AoAInd](../../img/pilot_angle_of_attack_indicator.jpg)
 
 Drawing relative wind information from the landing-gear
 adjacent [AoA](../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system) probe,

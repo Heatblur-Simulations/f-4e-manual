@@ -12,7 +12,7 @@ lighting controls.
 
 | Section | Name                                              |
 | ------: | ------------------------------------------------- |
-|      1. | [DSCG Controls](dcsg_controls.md)                 |
+|      1. | [DSCG Controls](dscg_controls)                 |
 |      2. | [Overhead Indicators](overhead_indicators.md)     |
 |      3. | [Weapon Management](weapon_management.md)         |
 |      4. | [Flight Director Group](flight_director_group.md) |

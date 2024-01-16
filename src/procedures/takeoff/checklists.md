@@ -31,7 +31,7 @@
 | 7.     | Warning Lights    | CHECK              |
 <!-- 8. Radar altimeter - OFF (after TO 1F-4-1262) -->
 
-### Normal Takeoff
+## Normal Takeoff
 
 | Step | System                                                                                      | Action                       |
 |------|---------------------------------------------------------------------------------------------|------------------------------|

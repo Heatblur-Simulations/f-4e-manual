@@ -27,7 +27,7 @@ switch](../../cockpit/pilot/weapon_management.md#radar-missile-power-switch) sho
 the CW ON position, to maintain proper missile tuning state during the engagement.
 
 To employ an AIM-7,
-the [optical sight](../../cockpit/pilot/dcsg_controls.md#sight-mode-knob)
+the [optical sight](../../cockpit/pilot/dscg_controls#sight-mode-knob)
 should be placed into the A/A position,
 which stabilizes the Reticle at the Radar Boresight Line in the window. The roll
 tabs function to provide the pilot with relative roll attitude guidance in
@@ -54,7 +54,7 @@ Prior to engagement, a determination must be made as to whether or not the missi
 [interlocks](../../cockpit/pilot/weapon_management.md#interlock-switch) will be kept in, or
 positioned out. The interlocks preclude an AIM-7 shot when outside of effective firing parameters,
 those being the missile in range (illuminating the [IN RANGE
-light](../../cockpit/pilot/dcsg_controls.md#in-range-light)), the target aim dot within the ASE
+light](../../cockpit/pilot/dscg_controls#in-range-light)), the target aim dot within the ASE
 (Allowable Steering Error) circle on the radar display, and the radar display mode out of VI
 (Vis-Ident mode).
 

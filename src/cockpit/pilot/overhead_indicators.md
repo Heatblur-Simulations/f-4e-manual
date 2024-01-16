@@ -16,9 +16,7 @@ or Air-to-Ground modes.
 
 ## Air Refueling Lights
 
-![AARLights](../../img/pilot_aar_lights_left.jpg)
-
-![AAR Disengage Light](../../img/pilot_aar_lights_right.jpg)
+![AARLights](../../img/pilot_aar_lights.jpg)
 
 Provide status of the [Air Refueling System](../../systems/utility.md#air-refueling-system) while
 in use.
@@ -33,7 +31,7 @@ in use.
 
 ## Labs Pull Up Light
 
-![LabsPU](../../img/LabsPU.jpg)
+![LabsPU](../../img/pilot_pull_up_light.jpg)
 
 Illuminates and disengages during [Loft](../../systems/weapon_systems/arbcs.md)
 and [LABS](../../systems/weapon_systems/arbcs.md) bombing runs to provide timing
@@ -41,7 +39,7 @@ sequence information to the pilot.
 
 ## Standby Magnetic Compass
 
-![StbyMagComp](../../img/StbyMagComp.jpg)
+![StbyMagComp](../../img/pilot_standby_magnetic_compass.jpg)
 
 A standard magnetic compass for backup navigation assistance should the primary
 flight director systems fail. The compass should only be used in level flight. Compass deviation
@@ -49,7 +47,7 @@ cards are found above the right canopy sill on each cockpit.
 
 ## Angle of Attack Indexer Lights
 
-![AoA](../../img/AoA.jpg)
+![AoA](../../img/pilot_overhead_aoa_indexer.jpg)
 
 A pair of indicators to the left and right of the HUD that provide quick
 confirmation of current aircraft AoA state based on illuminated

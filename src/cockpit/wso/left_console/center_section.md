@@ -42,7 +42,7 @@ Used to select range sweep of 5, 10, 25, 50, 100, or 200 mile ranges on both
 radar displays. First four ranges
 are [air-to-air intercept positions,](../../../systems/radar.md#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident)
 final two are ground mapping modes only, and disengage lock-on capability. Selecting a setting
-illuminates the applicable [range lamp](../../pilot/dcsg_controls.md#range-lights), and displays the
+illuminates the applicable [range lamp](../../pilot/dscg_controls#range-lights), and displays the
 value on the radar scope upper left corner.
 
 ### Maneuver Switch
