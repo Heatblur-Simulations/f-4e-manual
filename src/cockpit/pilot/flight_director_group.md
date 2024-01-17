@@ -101,7 +101,7 @@ The lamp can be rotated to dim and pushed to test.
 
 ## Horizontal Situation Indicator
 
-![HSI](../../img/HSI.jpg)
+![HSI](../../img/HSI_drawing.jpg)
 
 Presents a horizontal view of the navigation situation relative to the aircraft,
 indicated by an aircraft symbol and a lubber line showing the current aircraft heading.
