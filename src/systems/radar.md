@@ -634,15 +634,15 @@ line.
 
 Below shows the usual symbology present in Automatic Search and Boresight Modes.
 
-![radar_screen](../img/manual_radar_search.png)
+![radar_screen](../img/radar_search.png)
 
 | Item | Name | Description |
 |------|------|-------------|
-| n | Range Display | Shows Current Selected or Forced Range |
-| b | Antenna Elevation | Shows Antenna elevation relative to the radar plane, or aircraft if the [Stab Switch](#stab-switch) is in OUT. This can be moved with the antenna hand control elevation wheel. |
-| a | Horizon Line | Shows the Horizon Line, Only present with [Stab Switch](#stab-switch) in NOR or DRIFT OUT |
-| n/a | Radar Grid | Left and Right Vertical Lines show 30 degrees left and 30 degrees right. This measurement is relative to the radar plane with the [Stab Switch](#stab-switch) in NOR or DRIFT OUT and relative to the aircraft with the [Stab Switch](#stab-switch) in OUT. Each horizontal line marks a scale where the gaps are 1/5 of the current range setting of the display.
-| c | Radar Cursor | The radar cursor is used to select targets and displays the current selected range and azimuth. It is moved by the antenna hand control.
+| a | Range Display | Shows Current Selected or Forced Range |
+| b | Radar Cursor | The radar cursor is used to select targets and displays the current selected range and azimuth. It is moved by the antenna hand control.
+| c | Antenna Elevation | Shows Antenna elevation (in degrees) relative to the radar plane, or aircraft if the [Stab Switch](#stab-switch) is in OUT. This can be moved with the antenna hand control elevation wheel. |
+| d | Radar Grid | Left and Right Vertical Lines show 30 degrees left and 30 degrees right. This measurement is relative to the radar plane with the [Stab Switch](#stab-switch) in NOR or DRIFT OUT and relative to the aircraft with the [Stab Switch](#stab-switch) in OUT. Each horizontal line marks a scale where the gaps are 1/5 of the current range setting of the display.
+| e | Horizon Line | Shows the Horizon Line, Only present with [Stab Switch](#stab-switch) in NOR or DRIFT OUT |
 
 ### Acquisition
 
@@ -653,13 +653,13 @@ on the antenna hand control trigger. This begins acquisition, in RDR or MAP the 
 follow the acquisition symbol. In all modes where acquisition can be used the range of the
 acquisition symbol will set the desired range for lock-on.
 
-![radar_screen](../img/manual_radar_acquisition.png)
+![radar_screen](../img/radar_acq.png)
 
 | Item | Name | Description |
 |------|------|-------------|
-| c    | Acquisition Symbol | Like the Radar Cursor the acquisition symbol shows the current selected azimuth and range. It is moved with the antenna hand control. |
-| a    | Target Echo | Target Return Displayed Along the Azimuth
-| d    | B-Sweep | The B-Sweep displays the current radar echos along the azimuth of the antenna.
+| a    | B-Sweep | The B-Sweep displays the current radar echos along the azimuth of the antenna, these are displayed in both acquisition and track. |
+| c    | Acquisition Symbol | Like the Radar Cursor the acquisition symbol shows the current selected azimuth and range. It is moved with the antenna hand control. It is also displayed in track to indicate target range and azimuth. |
+| c    | Target Echo | Target Return Displayed Along the Azimuth
 
 ### Track
 
@@ -669,15 +669,16 @@ bracketed by the acquisition symbol Full Action can be depressed. The radar will
 The type of track entered depends on the selected mode. There are two types of tracking circuits
 available, angle tracking and range tracking. These will both be described below.
 
-![radar_screen](../img/manual_radar_track_modes.jpg)
+![radar_screen](../img/radar_track.png)
 
 | Item | Name | Description |
 |------|------|-------------|
-| g    | Aim Dot | See [Aim Dot](#aim-dot) |
-| f    | Allowable Steering Error | See [Allowable Steering Error](#allowable-steering-error-ase-circle) |
-| n/a  | Range Strobes | See [Range Strobes](#range-strobes) Description |
-| l    | Engraved Track Symbol | Track Symbol Illuminates with a valid range track condition.
-| h    | Display Readout | Display Readout depends on the position of the [Aspect Switch](#aspect) |
+| a    | Display Readout | Display Readout depends on the position of the [Aspect Switch](#aspect) |
+| b    | Allowable Steering Error | Describes Max off Angle Launch Envelope, See [Allowable Steering Error](#allowable-steering-error-ase-circle) |
+| c and e  | Range Strobes | Indicates Launch Envelope, See [Range Strobes](#range-strobes) Description |
+| d    | Aim Dot | Provides pilot steering, See [Aim Dot](#aim-dot) |
+
+In the WSO Cockpit there is an engraved T which illuminates if a range track condition present.
 
 #### Angle Track
 
