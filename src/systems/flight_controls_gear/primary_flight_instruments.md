@@ -252,7 +252,7 @@ through weather such as ice or rain can induce errors in the performance of
 these systems until the condition has cleared, and this should be taken into
 account.
 
-![ADC scheme](../../img/air_data_computer_scheme.jpg)
+![ADC scheme](../../img/air_data_comp_scheme.jpg)
 
 ## Static Pressure Compensator
 
