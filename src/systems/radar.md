@@ -507,7 +507,8 @@ feedhorn.
 The magnetron is the main radio frequency emitter for the radar. It produces pulsed energy which is
 used to detect and track targets.
 
-Magnetron emission is only present when 
+Magnetron emission is only present when the [Radar Power Knob](#power) is in OPER or EMER and all
+interlocks described below are satisfied.
 
 The magnetron is protected by a wave guide pressure switch and a temperature interlock. If either of
 these interlocks are open (possibly because of damage or malfunction) the [Radar Power Knob](#power)
@@ -522,7 +523,9 @@ result in incorrect pulse width and timing and/or degraded pulse power.
 
 The klystron produces continous wave radio frequency energy, which is used to tune and guide the sparrows.
 
-The klystron is powered when
+The klystron emissions are present when the [Radar Power Knob](#power) is in STBY, OPER or EMER,
+the [Radar Missile Power Switch](../cockpit/pilot/weapon_management.md#radar-missile-power-switch)
+is in CW and all interlocks described below are satisfied.
 
 The klystron is protected by two temperature switches, a pressure switch and a surge current switch.
 If any of these interlocks (with the exception of the surge current switch) are open the
@@ -536,7 +539,7 @@ may result in degraded power.
 ### Feedhorn Nutation
 
 Feedhorn nutation is required for automatic tracking. The feed horn nutates to rotate the radiated
-energy around the antenna axis. This modulates the radar echos. Where the echo is strongest the the
+energy around the antenna axis. This modulates the radar echos. Where the echo is strongest the
 antenna will steer if tracking, this drives the antenna back onto a tracked target.
 
 A side-effect of this nutation is increasing the beamwidth, from 3.7 degrees (half power) to 6.7
@@ -567,7 +570,7 @@ the mode into the SHORT setting.
 
 | Mode | Amplifier | Pulse Repetition Frequency (PRF) Setting (Hz) | Pulse Length (microseconds) |
 |------|----------|-----------------------------------------------|-----------------------------|
-| LONG | Narrow Band |  | 370 | 2.0 |
+| LONG | Narrow Band |  370 | 2.0 |
 | SHORT| Back Bias | 1060| 0.4 |
 
 The AUTO setting enables the power-level mode switching (PLMS) described below.
@@ -582,7 +585,7 @@ amplifiers depending on several conditions such as target range, echo strength, 
 The amplfication of the signals that enter the receiver is called the gain. The gain setting is
 important to both search and tracking operations.
 
-#### Main Gain Control
+#### Manual Gain Control
 
 The gain can be altered manually. This changes how returns are displayed.
 Higher gain settings amplify all echos but can result in noise and saturation resulting in degradged
