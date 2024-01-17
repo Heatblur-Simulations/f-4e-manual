@@ -23,9 +23,8 @@ The Phantom supports ECM pods on the two inboard pylons (stations 4 and 6) and
 the inner wing pylons (stations 2 and 8). However, the ECM signals are connected
 in a chain on each side respectively, only allowing control of one jammer pod
 per side. Additionally, many pods have restrictions only allowing them to be
-loaded on a single specific pylon. For example, AN/ALQ-119 and AN/ALQ-131 may only
-be equipped on the left inboard pylon (station 4), requiring the crew to choose
-between the Pave Spike targeting pod and a jammer.
+loaded on a some specific pylons. For example, AN/ALQ-119 and AN/ALQ-131 may not
+be equipped on the right inboard pylon (station 6).
 
 > 💡 Due to engine limitations, effectiveness of all jammers in DCS are identical.
 
@@ -67,7 +66,7 @@ run through the warmup period again. If the fault could be cleared, the light wi
 
 ![AN/ALQ-131](../../img/jammer_131.jpg)
 
-In service between 1970 and 1990; may only be equipped on the left inboard station 4.
+In service between 1970 and 1990; may not be equipped on the right inboard station 6.
 
 Technique 1 and 2 are identical and require a warmup period of around 3 minutes
 before being activated.
