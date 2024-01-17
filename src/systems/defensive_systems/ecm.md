@@ -27,6 +27,7 @@ loaded on a some specific pylons. For example, AN/ALQ-119 and AN/ALQ-131 may not
 be equipped on the right inboard pylon (station 6).
 
 > 💡 Due to engine limitations, effectiveness of all jammers in DCS are identical.
+> Equipping multiple jammers does not increase their strength or coverage.
 
 ## Controls
 
