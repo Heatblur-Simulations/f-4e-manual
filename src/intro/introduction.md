@@ -33,7 +33,6 @@ as with the F-4E Phantom II. The DCS: F-4 represents some of the most immersive
 
 ![Pilot Cockpit Details](../img/simulation_depth_wide.jpg)
 
-<!-- markdown-link-check-disable -->
 With such innovation and in depth simulation there comes of course an increased
 learning curve for its users. This is why it was important for us to also
 innovate on the side of learning tools available to you, starting with this
@@ -43,8 +42,7 @@ can click any switch (with an input combo) in flight and the manual will open in
 the correct chapter, **explaining the switch** or system in the cockpit, all while
 you are bolting through the air in your thunderous jet. We also changed the
 underlying structure of the manual so that it can be **open source** and the
-community can contribute easily via [GitHub](https://github.com/Heatblur-Simulations/f-4e-manual),
-as a thousand minds always think
+community can contribute easily via GitHub, as a thousand minds always think
 better than one. It also improves readability for the **mobile version**. We
 hyperlinked many items for you to provide easy **connectivity** between cockpit and
 systems overviews and included numerous checklists and procedures, and on module
@@ -57,7 +55,6 @@ before flying the mission. And best of all, your training will be instructed by
 **real life F-4 pilots** and a **real life F-4 WSO Instructor**, who else could teach
 you better?
 
-<!-- markdown-link-check-enable -->
 We hope you will both enjoy learning and flying the F-4E Phantom II - diving as
 deep as your heart desires. For this exciting journey we wish you **good luck and
 many fun adventures**, and of course: always check six!

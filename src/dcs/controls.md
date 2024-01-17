@@ -31,7 +31,7 @@ either position.
 
 The _(3-way up)_-bind is intended to be used with actual 3-way hardware switches,
 such as present on many external devices.
-They send a signal on either position (up and down), but not signal on the center position.
+They send a signal on either position (up and down), but no signal on the center position.
 Hence, the bind will return the switch back to the center when no signal is send.
 
 > 💡 The _(3-way down)_-bind is skipped for the Speed Brake, since it would be
