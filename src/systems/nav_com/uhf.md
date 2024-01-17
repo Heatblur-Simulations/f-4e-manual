@@ -26,7 +26,7 @@ antenna.
 
 ![pilot_uhf_control_panel](../../img/pilot_uhf_panel.jpg)
 
-Two Comm 
+Two Comm
 [Control Panels](../../cockpit/pilot/right_console/front_section.md#communication-control-panel)
 are installed, found on the right console in the front cockpit, and on the left console
 in the rear cockpit. These provide management of the radio in either seat,
