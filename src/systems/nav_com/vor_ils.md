@@ -69,12 +69,11 @@ Depending on the specific setup at an airport, there can be:
 - Outer Marker: Identified by a low-pitched, continuous tone.
 - Middle Marker: Recognized by a higher-pitched, alternating audio tone. This marker indicates
   a closer proximity to the runway, usually at the decision altitude for landing.
-- Inner Marker: Characterized by a very high-pitched tone or a series of high-pitched dots. 
+- Inner Marker: Characterized by a very high-pitched tone or a series of high-pitched dots.
   This marker is not always present but, when it is, signifies an even closer position to the
   runway end.
 
 ![ILS glideslope](../../img/ils_glideslope.jpg)
-
 
 ### VOR/MKR Test Pushbutton
 

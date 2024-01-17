@@ -26,9 +26,11 @@ antenna.
 
 ![pilot_uhf_control_panel](../../img/pilot_uhf_panel.jpg)
 
-Two Comm [Control Panels](../../cockpit/pilot/right_console/front_section.md#communication-control-panel) are installed,
-found on the right console in the front cockpit, and on the left console in the rear cockpit.
-These provide management of the radio in either seat, with selectable priority.
+Two Comm 
+[Control Panels](../../cockpit/pilot/right_console/front_section.md#communication-control-panel)
+are installed, found on the right console in the front cockpit, and on the left console
+in the rear cockpit. These provide management of the radio in either seat,
+with selectable priority.
 
 For Automatic Direction Finder (ADF) navigation to function effectively,
 the appropriate receiver must be set to the ADF mode, as selected by the Mode Selector.
