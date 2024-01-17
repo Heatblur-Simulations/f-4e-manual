@@ -227,7 +227,6 @@ allows for continuous movement throughout the entire 360-degree circle. In the e
 of a servo failure (with a mean time between failures of 800 hours), the affected servo
 will become stuck in its last position or direction.
 
-
 ## Pitot-Static System
 
 ![ext_pitot_tube](../../img/ext_pitot_tube.jpg)
