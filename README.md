@@ -3,17 +3,17 @@
 <!-- markdown-link-check-disable-next-line -->
 [![license](https://img.shields.io/badge/license-CC_BY--NC--ND_4.0-blue)](https://github.com/Heatblur-Simulations/f-4e-manual/blob/master/LICENSE)
 
-![Spook - My Other Ride Is Your Mom](https://i.imgur.com/KBOIocl.png)
+![Phantom from back](src/img/phantom_flying_back.jpg)
 
 Manual of the F-4E Phantom by Heatblur Simulations.
-
 This is a [mdBook](https://rust-lang.github.io/mdBook/) project, content is
 written in the language **Markdown** (`.md`).
 
-The manual is automatically exported as HTML version, hosted at:
 <!-- markdown-link-check-disable -->
+The manual is automatically exported as HTML version, hosted at
 <https://f4.manuals.heatblur.se/>.
-PDF versions are available at <https://github.com/Heatblur-Simulations/f-4e-manual/releases>.
+PDF versions are available from the
+[release section](https://github.com/Heatblur-Simulations/f-4e-manual/releases).
 <!-- markdown-link-check-enable -->
 
 ## Setup
