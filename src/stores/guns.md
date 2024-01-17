@@ -23,7 +23,7 @@ on the Pinky Switch (Aft) must be actuated. This will illuminate the GUN lamp on
 Display.
 
 For air-to-air usage,
-the [optical sight](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/dcsg_controls.html#sight-mode-knob)
+the [optical sight](https://f4.manuals.heatblur.se/cockpit/pilot/dscg_controls.html#sight-mode-knob)
 should be selected to A/A mode. In air-to-air mode, the optical sight functions as a lead computing
 optical sighting (LCOS), thus maneuvering in both elevation and azimuth relative to a radar
 locked target, or a default 1000' range setting in the event of no lock. With a
@@ -33,7 +33,7 @@ tick at the 1 o-clock position, down to 1000' at the 6 o-clock position.
 ![radar_gun_lock](../img/radar_gun_lock.jpg)
 
 For air to ground use,
-the [optical sight](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/dcsg_controls.html#sight-mode-knob)
+the [optical sight](https://f4.manuals.heatblur.se/cockpit/pilot/dscg_controls.html#sight-mode-knob)
 should be selected to A/G mode, the
 [Delivery Mode knob](https://heatblur-simulations.github.io/f-4e-manual/cockpit/pilot/weapon_management.html#delivery-mode-knob)
 should be set in the OFF or Direct mode, and the desired
