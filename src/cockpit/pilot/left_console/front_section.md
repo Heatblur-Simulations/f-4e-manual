@@ -29,45 +29,62 @@ Sets audio level for canopy open and low altitude voice warnings.
 
 This system is not installed on this variant of the F-4E.
 
-## Oxygen Control Panel
+## Oxygen Regulator and Oxygen Quantity Gauge
 
 ![PilOxy](../../../img/PilOxy.jpg)
+
+### Supply Lever
+
+Two position switch (ON and OFF) activating flow of oxygen to the mask.
+For further information see [Oxygen chapter](../../../systems/utility.md#oxygen-system).
+
+### Diluter Lever
+
+A two-position diluter lever, in the center of the regulator
+panel, controls the mixture of air and oxygen. For a
+proportional amount of air to oxygen, the NORMAL
+OXYGEN position should be selected. For only oxygen, the
+100% OXYGEN position should be selected and it should
+be used if fire and/or
+smoke or fumes occur in the cockpit.
+
+### Emergency Lever
+
+Three position switch which permits selection of NORMAL (standard supply),
+EMERGENCY pressure (100% oxygen with continous positive pressure) or
+TEST MASK (positive pressure to test the face mask for leaks).
+The lever should remain in the center (NORMAL) position at all times,
+unless an unscheduled pressure increase is required.
 
 ### Flow Indicator
 
 Alternates between black and white with each aircrew member breath to indicate
-oxygen flow.
-
-### Emergency Flow Control Switch
-
-Three position switch which selects EMERGENCY pressure (100% flow with positive
-pressure), NORMAL (standard air/oxygen mix), or TEST MASK (positive pressure
-for mask sealing check).
-
-### Diluter Lever
-
-Two position switch that cycles between NORMAL oxygen value or 100% OXYGEN
-level. 100% should only be used if fire and/or smoke and fumes occur in the plane.
-
-### Supply Lever
-
-Two position switch (ON and OFF) activating flow of oxygen to the aircrew
-member. For further information see [Oxygen chapter](../../../systems/utility.md#oxygen-system).
-
-### Oxygen Quantity Test Button
-
-Tests oxygen low pressure warning system. Pressing the button cycles the needles
-from current oxygen level to zero, which triggers OXYGEN
-LOW [telelight panel](../right_sub_panel.md#telelight-annunciator-panel)
-warning as needle passes through 1 liter. Releasing the button returns the
-needle to current system level and clears OXYGEN LOW warning.
+oxygen flow (white indicates inhalation).
 
 ### Oxygen Pressure Gauge
 
-Indicates system pressure from 0 to 500 psi. The Oxygen lasts up to 24.3 Hours with a full 10 litres
-at about 35,000 feet. At 10,000 feet 10 litres last about 23.4 hours.
+Indicates oxygen supply pressure from 0 to 500 psi.
 
 For further information see [Oxygen chapter](../../../systems/utility.md#oxygen-system).
+
+### Oxygen Quantity Gauge
+
+It has a range from
+0 to 10 liters. Loss of electrical power
+is indicated by appearance of a power off flag on the
+instrument face.
+
+### Oxygen Quantity Test Button
+
+The button is used to test operation of the front
+and rear cockpit gages along with operation.of the oxygen
+low warning system. With the button pressed, both gage
+needles should rotate from the current oxygen quantity
+indication to an indication of zero. As the pointer in the
+front cockpit passes through the 1 liter indication, the
+OXYGEN LOW warning light on the front [telelight panel](../right_sub_panel.md#telelight-annunciator-panel)
+should illuminate, and remain illuminated until the
+pointer again rotates above 1 liter.
 
 ## Forward Hand Control
 

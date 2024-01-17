@@ -171,48 +171,12 @@ event of [HOJ](../../../systems/radar.md#home-on-jam-hoj) or a range memory situ
 will go off. Accompanied on the rear DSCG radar scope with the T symbol that illuminates under the
 same circumstances.
 
-## AN/ALE-40 Cockpit Control Unit
+## AN/ALE-40 Cockpit Control Unit (CCU)
 
 ![wso_an_ale_40](../../../img/wso_an_ale_40.jpg)
 
-### Dispense Button
-
-Initiates chaff/flare dispensing as selected by Cockpit control unit
-and [AN/ALE-40 programmer](../../../cockpit/pilot/left_console/aft_section.md#anale-40-programmer)
-with flaps and speed brakes retracted and mode knobs out of OFF.
-
-### Ripple Switch
-
-Guarded by a cover, when positioned ON, dispenses flares at rate of
-ten per second until dispensers are empty, so long as flaps and speed brakes are retracted.
-
-> 💡 After around 10 seconds, all countermeasure have been dispensed.
-
-### Counters
-
-Indicate quantity of chaff and flare cartridges remaining, respectively.
-
-They are automatically set by the ground crew when rearming.
-
-### Chaff Mode Knob
-
-| Name | Description                                                                 |
-|------|-----------------------------------------------------------------------------|
-| OFF  | Chaff system inactive.                                                      |
-| SGL  | A single burst commanded when dispense button pressed.                      |
-| MULT | A salvo commanded according to program when either dispense button pressed. |
-
-### Flare Mode Knob
-
-| Name | Description                                                                 |
-|------|-----------------------------------------------------------------------------|
-| OFF  | Flare system inactive.                                                      |
-| SGL  | A single burst commanded when dispense button pressed.                      |
-| MULT | A salvo commanded according to program when either dispense button pressed. |
-
-### Indicator Lights
-
-Illuminates whenever a mode is selected on the respective countermeasure mode
-knob.
-
-Can be rotated to dim and pressed to test.
+CCU is and important part of the [Countermeasures System](../../../systems/defensive_systems/countermeasures.md).
+It's used to select different modes of operation and gives
+WSO the ability to dispense countermeasures.
+For further information see
+[CCU](../../../systems/defensive_systems/countermeasures.md#cockpit-control-unit-ccu---wso-cockpit).
