@@ -52,10 +52,12 @@ being all black.
 ![pave_spike_melted](../../../img/pave_spike_melted.jpg)
 
 To prolong use of the pod and prevent overheating, limit slow and low-level
-flight, as well as continuous use of the laser. As a rule-of-thumb, do not use
-the laser for longer than 15 minutes without allowing for cooling between uses.
-Limit continued slow and low level flight while operating the pod to 30 minutes.
-For extreme outside temperatures, adjust the limits accordingly.
+flight, as well as continuous use of the laser.
+
+> 💡 As a rule-of-thumb, do not use
+> the laser for longer than 15 minutes without allowing for cooling between uses.
+> Limit continued slow and low level flight while operating the pod to 30 minutes.
+> For extreme outside temperatures, adjust the limits accordingly.
 
 ## BITs
 

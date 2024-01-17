@@ -72,8 +72,18 @@ In service between 1970 and 1990; may only be equipped on the left inboard stati
 Technique 1 and 2 are identical and require a warmup period of around 3 minutes
 before being activated.
 
-The warmup logic is hardwired - flipping the pod off and on, or having a
-short loss of power, will result in the full warmup period being required again before use.
+> 💡 The warmup logic is hardwired - flipping the pod off and on, or having a
+> short loss of power, will result in the full warmup period being required again before use.
 
-The pod can overheat, in which case the fault lamp will blink. To prevent issues with
-high temperature, limit its use during slow and low altitude flights.
+Standby lamps illuminate to indicate that warmup phase has finished and the
+technique is ready to be activated.
+
+The pod can overheat, in which case the fault lamp will illuminate.
+In this case, make sure to set the mode to Standby immediately and give it some time to
+cool down first. Ignoring the lamp will cause parts of the pod to melt, damaging
+it irreparably.
+
+> 💡 As a rule-of-thumb, do not transmit
+> for longer than 20 minutes without allowing for cooling between uses.
+> Limit continued slow and low level flight while operating the jammer to 30 minutes.
+> For extreme outside temperatures, adjust the limits accordingly.
