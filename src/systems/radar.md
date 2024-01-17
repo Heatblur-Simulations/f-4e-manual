@@ -496,7 +496,42 @@ Control Set.
 
 ## Radar Operation (General)
 
-TODO Describe Various Features of Radar
+### Magnetron and Klystron
+
+The magnetron and klystron are the two methods for producing radio frequency energy in the APQ-120
+radar set. Both the magnetron and klystron radiation is fed through the antenna and emitted from the
+feedhorn. 
+
+#### Magnetron
+
+The magnetron is the main radio frequency emitter for the radar. It produces pulsed energy which is
+used to detect and track targets.
+
+Magnetron emission is only present when 
+
+The magnetron is protected by a wave guide pressure switch and a temperature interlock. If either of
+these interlocks are open (possibly because of damage or malfunction) the [Radar Power Knob](#power)
+can be moved into EMER to return operation, however operation of the magnetron without adequate
+pressure or cooling, may damage the magnetron and can burn the feedhorn.
+
+The magnetron is not powered until 3 minutes after radar turn on. This can be overriden by moving the
+[Radar Power Knob](#power) into EMER, however operating the magnetron without sufficient warm up may
+result in incorrect pulse width and timing and/or degraded pulse power.
+
+#### Klystron
+
+The klystron produces continous wave radio frequency energy, which is used to tune and guide the sparrows.
+
+The klystron is powered when
+
+The klystron is protected by two temperature switches, a pressure switch and a surge current switch.
+If any of these interlocks (with the exception of the surge current switch) are open the
+[Radar Power Knob](#power) can be moved into EMER to return operation, however damage to the
+klystron and feedhorn may result.
+
+The klystron is not powered until 100 seconds after radar turn on. This can be overriden by moving
+the [Radar Power Knob](#power) into EMER, however operating the klystron without sufficient warm up
+may result in degraded power.
 
 ### Feedhorn Nutation
 
@@ -517,6 +552,64 @@ Below describes the nutation settings for the action switch.
 | RDR, MAP-B, BST, AIR-GND | AI | Half or Full Action | Yes |
 |              | Not AI | Half Action | Yes |
 |              |    | Full Action | No |
+
+### Antenna Stabilization
+
+### Pulse Setting
+
+The pulse setting determines several characteristics of the radar set. These include the length of
+the transmitted pulse, which amplifier is used to amplify the signals, the frequency at which the
+pulses are emitted (pulse repetition frequency).
+
+The [Pulse Switch](#pulse-switch) controls the pulse setting. The LONG and SHORT settings force the
+pulse setting into that mode. With the exception of AIR-GND, and Automatic Acquisition which force
+the mode into the SHORT setting.
+
+| Mode | Amplifier | Pulse Repetition Frequency (PRF) Setting (Hz) | Pulse Length (microseconds) |
+|------|----------|-----------------------------------------------|-----------------------------|
+| LONG | Narrow Band |  | 370 | 2.0 |
+| SHORT| Back Bias | 1060| 0.4 |
+
+The AUTO setting enables the power-level mode switching (PLMS) described below.
+
+#### Power Level Mode Switching
+
+Power Level Mode Switching automatically selects the LONG or SHORT, and Narrow Band or Back Bias,
+amplifiers depending on several conditions such as target range, echo strength, noise signal.
+
+### Gain Control
+
+The amplfication of the signals that enter the receiver is called the gain. The gain setting is
+important to both search and tracking operations.
+
+#### Main Gain Control
+
+The gain can be altered manually. This changes how returns are displayed.
+Higher gain settings amplify all echos but can result in noise and saturation resulting in degradged
+image. Lower gain settings will result in better target contrast, however weaker returns will not be
+visible, this can degrade detection range. When radar locks on the gain control is switched to the
+[Automatic Gain Control Circuit](#automatic-gain-control) and manual gain control no longer is used.
+
+Getting the correct gain is a balance and comes with experience, as a general rule of thumb for
+search the gain should be increased until a small amount of noise (random specks) begins to show.
+
+Along with receiever gain the display also has image levelling, after adjusting the gain it may take
+a few scans for the image to adjust the level correctly.
+
+#### Automatic Gain Control
+
+The automatic gain control takes control of the gain setting once the radar is in track. The gain
+is adjusted automatically using the target within the range tracking gate to provide a consistant
+target signal for tracking.
+
+### Sensitivity Time Control (STC)
+
+The strength of a radar echo falls off with 1/r^4 where r is the range. This means on a normal
+display the brightness of the radar returns will get dimmer with distance. For ground mapping the
+APQ-120 counteracts this effect. With the [Radar Mode Knob](#radar-modes-mode) in MAP and the
+[Display Knob](#display-knob) in a PPI mode. Sensitivity Time Control is enabled. This exponentially
+increases the receiver gain with range to counteract the echo power fall off with range. This
+provides an approximately even brightness with increasing range.
 
 ## Radar Operation (Air-To-Air)
 
