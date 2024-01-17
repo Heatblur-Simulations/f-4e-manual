@@ -345,76 +345,6 @@ setting).
 
 BST can be used with any Display Knob position.
 
-### Boresight
-
-The radar can be placed into two different boresight modes. These are both functionally identical
-with the exception that boresight entered via the mode knob position BST can be used at ranges
-greater than 5 nmi. Boresight condition due to the cage mode is limited to 5 nmi and the tracking
-maneuver setting is automatically placed in HI regardless of the maneuver switch setting.
-
-Boresight mode with the APQ-120 is used by the WSO to immediately access the short range "dogfight"
-presets of the radar. Initial selection of BST slaves the radar to 0 degrees in azimuth and -2
-degrees in elevation relative to the Fuselage Reference Line (FRL). This position, with an A/A mode
-selected on the gun-sight, automatically applied depression of 35 mils provides the pilot with the
-boresight reference.
-
-Lock-on in Boresight is not automatic; the B-Sweep presentation of the target still requires the WSO
-to position the acquisition cursor and range strobe over the target and activate the full action
-trigger on the Antenna Hand Controller. Once the lock is achieved, the lockon presentation with
-steering and aspect indications will be shown on the display as normal.
-
-In the event lockon is not achieved, the WSO can apply an aspect using the ASPECT switch instruction
-to the current priority [AIM-7](../stores/air_to_air/aim_7.md) and perform a launch against the
-simulated Doppler applied to the missile doppler gate circuit.
-
-### CAGE Mode
-
-In the event that an [AIM-7](../stores/air_to_air/aim_7.md), [AIM-9](../stores/air_to_air/aim_9.md),
-or [M61A1](../stores/guns.md#internal-cannon-m61a1-vulcan) must be employed against an airborne
-target with the sight in A/G mode (for example, the flight is bounced by opposing aircraft), the
-optical sight reticle can immediately be slewed to the Radar Boresight Line using the Cage Button,
-found on the inboard (right) throttle handle. Cage mode commands the radar into the boresight mode
-with a five mile range, and short pulse, and sets the firing circuit for the currently selected air
-to air weapon relative to the Pinky Switch. For the optical sight, the command activates the
-respective elevation and azimuth tracking, roll mark, and range functions of the reticle for the
-chosen weapon, without the pilot having to remove a hand from throttle or stick to swap the sight
-mode or weapon control panel functions.
-
-Should a track condition exist prior to pressing Cage and the Pinky switch is in Radar or Heat
-position, the lock is broken when the button is pressed, and the antenna slaves to boresight when
-released. If the Pinky Switch is in the Gun position, the lock is not broken.
-
-Cage mode can be exited from either cockpit, by placing Weapon Select knob into or out of the B
-position. If the pilot leaves the Weapon Select knob in B, it does not preclude a later entry into
-Cage mode.
-
-### Computer Automatic Acquisition Mode (CAA)
-
-![manual_caa](../img/CAA.jpg)
-
-Once in Cage mode, the radar can be selected in to Computer Automatic Acquistion using the Nose Gear
-Steering button. In CAA, the radar enters a vertical-oriented scan pattern 78 degrees in height by
-15 degrees wide, the scan is 3 vertical bars wide. Actual radar lock capability within this scan
-pattern is from +45 degrees above the horizon line to -9 degrees below the horizon line due to APQ
-software limitation. In the event that the radar finds a suitable target within the scan volume, the
-target will be locked. Should the flight crew find the locked target not be the one intended, the
-Nose Gear Steering button can be pressed on either stick grip to return the radar back to the search
-pattern.
-
-In CAA mode, the radar’s search pattern can be shifted left or right utilizing the Pinky Switch.
-While this actuation will change the illuminated weapon indicated on the Head Up Display, the actual
-selected weapon from the point of Cage mode entry does not change:
-
-- Guns
-- Radar Focus Left
-- Heat
-- Radar Focus Center
-- Radar
-- Radar Focus Right
-
-To exit CAA, the pilot can select position B on the Weapon Select Knob, or the WSO can push the Air
-to Air button. Should a radar lock be in place at the time of mode exit, it will be retained.
-
 ## MAP Position
 
 ![manual_radar_map_mode](../img/manual_radar_map_modes.jpg)
@@ -815,10 +745,19 @@ Rmax is reached and gradually begins decreasing in size as the target range appr
 With the Sparrow selected the max ASE Circle size is 25 degrees for an AIM-7E and 35 degrees for an AIM-7F.
 
 With the Sidewinder selected the ASE Circle size is fixed at 1.2 degrees with the Sidewinder caged.
-With the sidewinder caged the dynamically changes size as described above, with the max diameter
-representing 25 degrees.
+With the sidewinder un-caged the ASE Circle dynamically changes size as described above, with the
+max diameter representing 25 degrees.
 
 #### Aim Dot
+
+The aim dot provides steering commands to the pilot. There are three different types:
+
+1. Collision Steering, this minimizes time to intercept by putting the fighter on an intercept course.
+2. Transition steering. This begins 2 nmi outside Rmax and steers the aircraft towards the next
+steering type.
+3. Lead pursuit, inside Rmax lead pursuit minimizes the missile's post-launch maneuvers.
+
+![manual_radar_air_to_ground_mode](../img/aim_dot_steering.png)
 
 #### Shoot/In Range Lights
 
@@ -851,9 +790,80 @@ In Visual Intercept (VI) break X is displayed when range is less than 1000 ft.
 
 ### Firing Interlocks
 
-### Manual Search
+There are several interlocks to prevent firing missiles in unfavourable conditions.
 
-### Computer Automatic Search (CAA)
+For the Sidewinder the only interlock prevents the missile being fired with the flaps in the down position.
+
+For the Sparrow there are several conditions:
+
+- The aim dot must be within the ASE Circle
+- The in range and shoot lights must be on
+- There must be no break X condition
+- The selected mode must not be Visual Intercept
+
+The interlocks are overriden automatically with a HOJ condition or when the Sparrow is to be fired
+in boresight mode. The interlocks can be overriden manually with the interlock switch.
+
+### Boresight and Cage Condition
+
+#### Boresight
+
+Boresight can be entered either by selected [Mode Knob](#radar-modes-mode) to BST or by depressing
+the cage switch on the throttle. The latter enters a cage condition which is very similar to
+boresight entered through BST with the exception that the cage condition limits the range to 5 nmi
+and forces the manuever setting into the HI position.
+
+When in boresight the antenna is fixed along the radar boresight line and the radar returns are
+displayed on the scope as in an acquisition mode. Acquisition can be commanded with half action as
+in automatic search to acquire and then full action can be used to initiate track, range and angle
+tracking will begin as normal.
+
+[Sparrows](../stores/air_to_air/aim_7.md) can be fired without tracking the target. Instead the pilot
+must position the target in the on the gunsight pipper, the WSO can select and appropriate [aspect
+setting](#aspect) then Sparrow can be fired.
+
+#### Cage Condition
+
+The cage condition is an close combat mode which can be entered at any time by depresing the cage
+button on the pilot throttle. This by default puts the radar into boresight as described above.
+
+When the cage condition is present the following changes happen:
+
+- Air-To-Air light in the rear pit illuminates.
+- Trigger control is transfered to the air-to-air weapons (including when ARM and TV are selected)
+- Optical sight switches into the A/A mode.
+- Computer Automatic Acquisition becomes available.
+
+If a track condition exists before the cage button and the pinky switch is in radar or heat the
+radar breaks track and returns to boresight. If pinky switch is in guns lock is not broken.
+
+Cage mode can be exited from either cockpit, by placing Weapon Select knob into or out of the B
+position. If the pilot leaves the Weapon Select knob in B, it does not preclude a later entry into
+Cage mode.
+
+#### Computer Automatic Acquisition Mode (CAA)
+
+Once in Cage mode, the radar can be selected in to Computer Automatic Acquistion using the Nose Gear
+Steering button. In CAA, the radar enters a vertical-oriented scan pattern 78 degrees in height by
+15 degrees wide, the scan is 3 vertical bars wide. Actual radar lock capability within this scan
+pattern is from +45 degrees above the horizon line to -9 degrees below the horizon line due to APQ
+software limitation. In the event that the radar finds a suitable target within the scan volume, the
+target will be locked. Should the flight crew find the locked target not be the one intended, the
+Nose Gear Steering button can be pressed on either stick grip to return the radar back to the search
+pattern.
+
+In CAA mode, the radar’s search pattern can be shifted left, right, center utilizing the Pinky Switch.
+
+| Pinky Selection | Scan Center    |
+|-----------------|----------------|
+| Guns            | Left (-15 deg) |
+| Heat            | Center (0 deg) |
+| Radar           | Right (+15 deg)|
+
+![manual_caa](../img/CAA.jpg)
+
+To exit CAA, the pilot can select position B on the Weapon Select Knob, or the WSO can push the Air
+to Air button. Should a radar lock be in place at the time of mode exit, it will be retained.
 
 ## Radar Operation (Air-To-Ground)
 
