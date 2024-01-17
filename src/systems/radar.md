@@ -260,160 +260,40 @@ In AIR-GRD mode, the pulse switch is disabled automatically and SHORT pulse is c
 
 ## Radar Modes (MODE)
 
-Radar mode selection with the APQ-120 is not necessarily discrete; each selection on the Radar Mode
-Knob can involve multiple possible methods of employment of the radar. We will explain how these are
-accessed in relation to the Radar Mode Knob positions, as well as the required Display Knob settings
-for proper fire control interaction.
+Specific radar operating modes are dependent on the radar mode knob but also several other
+conditions and switches. For a comprehensive description of the radar operation see the
+[Radar Operation (General)](#radar-operation-general),
+[Radar Operation (Air-To-Air)](#radar-operation-air-to-air), [Radar Operation (Air-To-Ground)](#radar-operation-air-to-ground)
 
-### RDR (Radar) Position
-
-RDR Mode is used with the Display Mode selected as B WIDE or B NAR.
-
-![manual_radar_modes](../img/manual_radar_modes.jpg) (todo - these are DVST replace with DSCG
-images)
-
-Used for long distance acquisition of airborne targets, RDR Mode can be used at any range, with the
-capability to lock-on to a target removed in the 100 and 200 mile ranges. Detection and acquisition
-of airborne targets with the APQ-120 follow a general outline: the pilot positions the aircraft in
-the general direction of the intended search, with the WSO defining the azimuth width (wide/120
-degrees or narrow/45 degrees) as required. The WSO then sets the antenna elevation to cover the
-desired altitude, selecting 1 or 2 BAR scan paths to define overall scan height, and adjusts the
-receiver gain controls for best resolution. Further adjustment can be performed depending on target
-altitude or weather conditions by adjusting the antenna polarity, from the default LIN (Linear)
-transmission to CIR 1 or 2 (Circular) for better performance in such situations.
-
-Once a contact of interest is detected on the scope, the WSO brackets the target with the
-acquisition symbol using the antenna hand controller, then selects and holds full action. The range
-strobe will appear, and should be aligned directly over the target. If the WSO has selected the AUTO
-TRACK mode, the radar will take over and perform the velocity gate tracking to complete the lock-on;
-if MANUAL has been selected, the WSO will use the MAN Vc control knob to define the closure
-direction and rate compared to the return, bringing the range strobe as close as possible to the
-return, in-range (closer to the Fighter). Once the Vc is matched, the WSO selects half-action and
-maneuvers the range strobe on the target, selects full-action (note range rate digit flashing), then
-releases the trigger, maintaining the alignment of the target under the cursors with the hand
-controller if full manual angle tracking is desired.
-
-With a lock-on, the standard track display will appear, including the following information:
-
-![manual_radar_track_modes](../img/manual_radar_track_modes.jpg)
-
-1. Horizon line
-2. Elevation strobe
-3. Acquisition cursor
-4. B-sweep
-5. Range sweep
-6. ASE circle
-7. Aim dot
-8. Range rate
-9. Rmax strobe
-10. Rmin strobe
-11. Track lamp illuminated
-12. Radar range
-
-### Acquisition on Jam (AOJ)
-
-Should a jamming strobe be detected, the strobe can be acquired by the antenna for angle-only
-tracking. Rather than bracketing the desired contact with the acquisition symbol and pressing
-full-action, the WSO isolates the jamming strobe with the acquisition symbol and presses
-full-action. The radar will then maintain angle tracking of the strobe, and, in the event
-burn-through of the signal is achieved, the radar will attempt a normal lock-on. Should this attempt
-fail, the WSO can press half-action, make the necessary range strobe adjustment with the Antenna
-Hand Control, and then press full-action.
-
-### Home on Jam (HOJ)
-
-Should an acquired target attempt noise jamming to break a lock-on, the radar will revert to Home on
-Jam mode. In this instance, the radar will revert to range and range rate data for distance, and
-maintain an angle track against the jammer strobe. Should the jammer stop transmitting or
-burn-through is achieved, the radar will automatically attempt to revert to a normal lock-on. Like
-the failure mode of Acquisition on Jam, should the radar not acquire the target again, the WSO
-should press half-action, adjust the range strobe position on the return, and press full-action.
-
-### Spotlight
-
-In the 100 and 200 mile ranges, a procedure known as Spotlight can be used to maintain radar
-monitoring of a target manually. Spotlighting entails placing the acquisition cursor over the
-desired return, then selecting and holding the full action trigger position of the Antenna Hand
-Controller. Doing so, the antenna will nutate and revert to the chosen Polar switch selection to
-increase target definition, but without attempting the automatic lock-on. The target can be
-maintained in a well-observable state by holding full action and following the target return with
-the Antenna Hand Controller until it reaches a range that lock-on can be achieved (with the
-applicable change in range setting; the radar cannot attempt a lock at an incompatible range
-setting).
+This section will briefly cover each of the positions of the radar mode knob and link to the
+relevant sections below.
 
 ### BST (Boresight) Position
 
-BST can be used with any Display Knob position.
+BST forces the radar into the [boresight](#boresight-and-cage-condition) state. This is used when
+the target is spotted visually or a [Sparrow](#todo) is to be fired without radar tracking.
+
+### RDR (Radar) Position
+
+RDR position puts the radar in [Automatic Search](#automatic-search).
 
 ## MAP Position
 
-![manual_radar_map_mode](../img/manual_radar_map_modes.jpg)
-
-### MAP PPI
-
-MAP PPI mode is used with the Display Mode selected as PPI WIDE or PPI NAR.
-
-Used for radar bombing, MAP PPI provides ranging and azimuth information to the WRCS against a
-designated target return, or a designated Radar Initial Point (RIP) offset as programmed into the
-WRCS. MAP PPI targeting is limited to ranges between 10 and 50 miles in DSCG aircraft; with 5 miles
-selected, the presentation reverts to a B-Scope display.
-
-In MAP PPI, the application of the Along Track and Cross Track cursors and Target Injection do not
-apply a target lock-on; instead, the action triggers the ground tracking interaction with the INS
-and WRCS, and this is referenced on the display with the cursors moving relative to the selected
-reference point, or the programmed RIP offset.
-
-### MAP B Mode
-
-MAP B Mode is used with the Display Mode selected as B WIDE or B NAR.
-
-MAP B Mode is a search option against low-level airborne targets in ground clutter situations. The
-radar is defaulted to a 1-bar scan and linear polarization, to maximize the radar's resolution. When
-attempting to acquire a track through selection of the full action trigger position of the Antenna
-Hand Controller, the radar reverts to the current Polar switch selection, and the antenna feed-horn
-nutates to increase acquisition probability.
-
-Automatic acquisition is available in MAP B in all ranges below 100 miles, and the Spotlight
-procedure as explained for RDR Mode can be used.
+MAP position is identical to the RDR position puts the radar in
+[Automatic Search](#automatic-search), with the exception that nutation is disabled and the 2 bar
+search pattern is not available.
 
 ### AIR GRD (Air to Ground) Position
 
-![manual_radar_air_to_ground_mode](../img/manual_radar_air_to_ground_mode.jpg)
+AIR-GRD position is similar to the boresight position with the following exceptions:
 
-Air-to-Ground Mode is a specialized boresight mode available at range selections of 5 to 50 miles,
-used to provide accurate range information against targets in ground clutter, whether moving or
-stationary, used with WRCS dive modes. Selection of this mode aligns the radar to the Radar
-Boresight line with drift stabilization if NOR is selected on the STAB switch. This mode also forces
-short pulse width transmission, only AI ranges are available in this mode.
+- Angle Track is Disabled while Tracking.
+- Antenna is Always Fixed to the boresight with drift stabilization.
 
-The pilot initiates acquisition by selecting the A/G gun-sight mode and placing the pipper over the
-intended target at a dive angle between 10 and 40 degrees. At this point, the WSO will adjust
-receiver gain so that only one return is visible on the scope - the Main Beam Clutter return. The
-WSO then activates half-action on the Antenna Hand Control, which displays the range strobe in the
-center of the acquisition cursor. Moving the acquisition cursor/range strobe combination to the
-center of the Main Beam Clutter return, the WSO presses full-action for automatic lock-on to be
-attempted. Once achieved, the ASE circle will appear with the range strobe centered. Range data will
-be supplied to the WRCS for release of munitions at the proper distance, and the current range is
-also displayed on the gun-sight pipper range bar.
+### BEACON Position
 
-If a false lock occurs, the lock is broken with a selection of half-action. Reattempt can be
-performed with another adjustment of receiver gain to maximize the center return, then selecting
-full-action. Once the ASE circle is shown, full-action can be released.
-
-### BEACON Position (todo - suggest not including in manual)
-
-![manual_beacon_mode](../img/manual_radar_beacon_mode.jpg)
-
-BEACON may be used with any Display Knob position other than VI, as desired.
-
-Derived from MAP, Beacon Mode is a navigational aid presentation of airborne or ground transponders.
-Selecting BEACON and the desired range, the screen presentation removes all other and returns from
-the display sans the aforementioned transponders. No acquisition cursor or lock function is
-available in Beacon.
-
-Beacons are displayed as a set of four hash (B Display modes) or crecent (PPI Display modes)
-iconograpy; the first mark of the group on the display, being the one at the shortest relative
-distance to the aircraft, is the actual position of the beacon.
+BEACON may be used with any Display Knob position other than VI, as desired. BEACON does not display
+radar echos and instead listens for transponder responses from specific beacon equipement.
 
 ### TV Position
 
@@ -620,6 +500,15 @@ TODO Describe Various Features of Radar
 
 ### Feedhorn Nutation
 
+Feedhorn nutation is required for automatic tracking. The feed horn nutates to rotate the radiated
+energy around the antenna axis. This modulates the radar echos. Where the echo is strongest the the
+antenna will steer if tracking, this drives the antenna back onto a tracked target.
+
+A side-effect of this nutation is increasing the beamwidth, from 3.7 degrees (half power) to 6.7
+degrees (half power) while reducing the average intensity of the beam.
+
+Below describes the nutation settings for the action switch.
+
 | Mode Knob | Range Knob | Action Switch | Nutation |
 |-----------|------------|---------------|----------|
 | RDR, BST, AIR-GND | ALL | Release | Yes |
@@ -631,11 +520,16 @@ TODO Describe Various Features of Radar
 
 ## Radar Operation (Air-To-Air)
 
+Radar operation air-to-air includes RDR-B and MAP-B modes along with the BST mode. RDR-B and MAP-B
+can be used with automatic search and BST mode can be used as a close range mode to cue a target on
+the boresight.
+
 ### Automatic Search
 
 During automatic search, the antenna moves back and forth in the radar plane. The limits of this
 search are determined by the [Display Knob](#display-knob). Search is normally 120 degrees wide with
-the display knob in WIDE positions, in NAR positions the search is limited to 45 degrees wide.
+the display knob in WIDE positions, in NAR positions the search is limited to 45 degrees wide. Only
+Display Knob positions with B are usuable with Air-To-Air operations.
 
 The [Radar Mode Knob](#radar-modes-mode) knob is used to select automatic search by selecting either
 RDR or MAP. In RDR the number of bars can be selected by the [Scan Switch](#scan-switch). In MAP
@@ -644,6 +538,18 @@ leading to an estimated beamwidth of approximately 6.7 degrees in RDR and 3.7 de
 
 Selecting BST or AIR-GND on the Radar Mode Knob antenna scan is boresighted along the radar boresight
 line.
+
+Below shows the usual symbology present in Automatic Search and Boresight Modes.
+
+![radar_screen](../img/manual_radar_search.png)
+
+| Item | Name | Description |
+|------|------|-------------|
+| n | Range Display | Shows Current Selected or Forced Range |
+| b | Antenna Elevation | Shows Antenna elevation relative to the radar plane, or aircraft if the [Stab Switch](#stab-switch) is in OUT. This can be moved with the antenna hand control elevation wheel. |
+| a | Horizon Line | Shows the Horizon Line, Only present with [Stab Switch](#stab-switch) in NOR or DRIFT OUT |
+| n/a | Radar Grid | Left and Right Vertical Lines show 30 degrees left and 30 degrees right. This measurement is relative to the radar plane with the [Stab Switch](#stab-switch) in NOR or DRIFT OUT and relative to the aircraft with the [Stab Switch](#stab-switch) in OUT. Each horizontal line marks a scale where the gaps are 1/5 of the current range setting of the display.
+| c | Radar Cursor | The radar cursor is used to select targets and displays the current selected range and azimuth. It is moved by the antenna hand control.
 
 ### Acquisition
 
@@ -654,7 +560,13 @@ on the antenna hand control trigger. This begins acquisition, in RDR or MAP the 
 follow the acquisition symbol. In all modes where acquisition can be used the range of the
 acquisition symbol will set the desired range for lock-on.
 
-Below describes the nutation settings for the action switch.
+![radar_screen](../img/manual_radar_acquisition.png)
+
+| Item | Name | Description |
+|------|------|-------------|
+| c    | Acquisition Symbol | Like the Radar Cursor the acquisition symbol shows the current selected azimuth and range. It is moved with the antenna hand control. |
+| a    | Target Echo | Target Return Displayed Along the Azimuth
+| d    | B-Sweep | The B-Sweep displays the current radar echos along the azimuth of the antenna.
 
 ### Track
 
@@ -663,6 +575,16 @@ bracketed by the acquisition symbol Full Action can be depressed. The radar will
 
 The type of track entered depends on the selected mode. There are two types of tracking circuits
 available, angle tracking and range tracking. These will both be described below.
+
+![radar_screen](../img/manual_radar_track_modes.jpg)
+
+| Item | Name | Description |
+|------|------|-------------|
+| g    | Aim Dot | See [Aim Dot](#aim-dot) |
+| f    | Allowable Steering Error | See [Allowable Steering Error](#allowable-steering-error-ase-circle) |
+| n/a  | Range Strobes | See [Range Strobes](#range-strobes) Description |
+| l    | Engraved Track Symbol | Track Symbol Illuminates with a valid range track condition.
+| h    | Display Readout | Display Readout depends on the position of the [Aspect Switch](#aspect) |
 
 #### Angle Track
 
@@ -711,6 +633,18 @@ continues to operate and track the jamming target in elevation and azimuth.
 
 The Home On Jam condition is also indicated by the engraved H on the DSCG and the last zero of the
 closure velocity is replaced by a H along with the closure rate flashing.
+
+### Spotlight
+
+In the 100 and 200 mile ranges, a procedure known as Spotlight can be used to maintain radar
+monitoring of a target manually. Spotlighting entails placing the acquisition cursor over the
+desired return, then selecting and holding the full action trigger position of the Antenna Hand
+Controller. Doing so, the antenna will nutate and revert to the chosen Polar switch selection to
+increase target definition, but without attempting the automatic lock-on. The target can be
+maintained in a well-observable state by holding full action and following the target return with
+the Antenna Hand Controller until it reaches a range that lock-on can be achieved (with the
+applicable change in range setting; the radar cannot attempt a lock at an incompatible range
+setting).
 
 ### Intercept Computations
 
@@ -787,6 +721,10 @@ In all modes (except VI) when the target is lower in range than the calculated R
 symbol will be displayed to indicate minimum range condition.
 
 In Visual Intercept (VI) break X is displayed when range is less than 1000 ft.
+
+When break X is displayed ASE Circle is also removed.
+
+![radar_screen](../img/manual_radar_break_x.png)
 
 ### Firing Interlocks
 
@@ -867,6 +805,68 @@ to Air button. Should a radar lock be in place at the time of mode exit, it will
 
 ## Radar Operation (Air-To-Ground)
 
+Radar operation air-to-ground includes the AIR-GRD mode and RDR-PPI and MAP-PPI. AIR-GRD mode is
+used as a form of radar ranging for WRCS DT. RDR-PPI and MAP-PPI are used for WRCS offset bomb and
+target find modes.
+
 ### Air-To-Ground Ranging
 
+AIR-GRD mode is available when the [Mode Knob](#radar-modes-mode) is positioned in the AIR-GRD
+position. AIR-GRD is used for air-to-ground ranging and is available only in AI ranges. In this mode
+the antenna is fixed to the radar boresight while also being stabilized in drift, this drift correction
+can be removed by setting Drift Out on the [Stab Switch](#stab-switch) in-case of INS malfunction.
+
+AIR-GRD mode disables [Angle Track](#angle-track) operation and only uses
+[Range Track](#range-track). Once locked on the main lobe clutter (ground radar echo) will be
+tracked in range.
+
+To use AIR-GRD 5 or 10 nmi range should be selected. Once the target has been identified the pilot
+should make a 10 - 40 degree dive towards the target. The receiever gain should be reduced to
+produce a clutter signal of approximately 1/2 nmi. This is done to prevent erroneous track of
+sidelobes which would result in incorrect ranging information.
+
+AIR-GRD Acquisition Procedure is as follows:
+
+1. Adjust Receiver Gain to Reduce Clutter Signal to 1/2 nmi.
+2. Position Range Strobe over Clutter Signal.
+3. Press Action Switch to Half and Then Full Action. Release after ASE Circle is Visible.
+4. Confirm Lockon.
+
+> ⚠ The radar can track ground clutter from beyond 25,000 ft however the max value that can be fed
+> into the WRCS is 25,000ft.
+
+Sometimes false tracking can occur, this can be indicated by a rapid decrease in slant range
+displayed on either the optical sight or radar.
+
+To correct this condition the following actions can be taken:
+
+1. Press Action Switch to Half Action, Release.
+2. Begin Acquisition process again.
+
+![manual_radar_air_to_ground_mode](../img/manual_radar_air_to_ground_mode.jpg)
+
 ### Map Mode (PPI)
+
+Radar Map mode PPI (position plan indicator) is a display which shows radar returns plotted with
+their real position relative to the aircraft. The aircraft position is at the bottom center of the
+display, lines parallel to the vertical axis of the display are parallel to the aircraft track.
+Lines parallel to the horizontal axis of the display are offset from the track up to a maximum of
+half the current display range.
+
+PPI Mode can be accessed by changing the [Display Knob](#display-knob) into PPI-WIDE or PPI-NAR.
+With the exception of 5 nmi which is always displayed in B-Scope interpretation.
+
+The range cursor is an arc of constant range from the aircraft. The offset cursor is an offset
+parallel to the drift of the aircraft, which can be offset left or right of the aircraft's current
+track. Offset Cursor and Range Cursor can only be displayed in PPI modes.
+
+Both Range and Offset Cursor are displayed if [Weapon Delivery Mode](#weapon-delivery-link?) is set
+to TGT FIND or OFFSET, or [Radar Mode Knob](#radar-modes-mode) is set to BEACON. If this is not the
+case then only Range Cursor is displayed at a fixed range which can be adjusted by the ground crew.
+
+The [Along Track Control](#along-track-link?) is used to increase and decrease the current setting
+for the range cursor. The
+[Cross Track Control](#cross-track-link?) is used to move the offset cursor to the left and right of
+the aircraft's track.
+
+![manual_radar_map_mode](../img/manual_radar_map_modes.jpg)
