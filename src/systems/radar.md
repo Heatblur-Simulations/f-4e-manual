@@ -48,7 +48,7 @@ inserted it into the WRCS.
 Initial powering of the APQ-120 starts by placing the Radar Power Knob into TEST or STBY (Standby).
 The warmup cycle requires 3 minutes from selecting either setting, and confirmation of this process
 is shown via the Control Monitor Meter on the Monitor Panel; after 30 seconds from cycling power,
-the gauge will display a value of roughly 250vdc; from the point the needle shows power at this
+the gauge will display a value of roughly 250Vdc; from the point the needle shows power at this
 nominal value, the warmup procedure will be 2.5 minutes.
 
 After 3 minutes, the radar can safely be placed into OPR (Operate) for employment of the radar, BIT
@@ -56,50 +56,46 @@ testing can be performed in TEST mode, or the radar can be left in STBY for the 
 others on the ground.
 
 In the event of an emergency situation requiring immediate operation of the radar, EMER can be
-selected; this performs a bypass of the 2.5 minute post-power warmup cycle. A red flag will display
-behind the power knob confirming usage of the EMER mode, which requires servicing to clear up.
+selected; See the [Magnetron and Klystron](#magnetron-and-klystron) section for more details.
 
 ### Range
 
-Range control of the APQ-120 is mode dependent, and in some circumstances restrict range or
-functionality. Both scopes - the DSCG and the pilot's repeater window, both share indications (as
-well as on-screen display) of 5, 10, 25, 50, 100, and 200 mile ranges.
+Range control sets the range of the radar, note there are some modes where the range settings
+available are restricted or forced to a specific setting.
 
-Values up to 50 miles are
-indicated as air intercept (AI), which provide lock-on capability against airborne targets; 100 and
-200 mile ranges can be used with the Spotlight function, allowing a target at longer distances to be
-manually followed with the radar until they are at a range capable of a lock. Air to ground
-functionality is available in the PPI modes higher than 5 miles.
-
-![radar_screen_range](../img/radar_screen_range.jpg)
-
-Selecting any range will illuminate the respective indicator
+Current Radar Set range will illuminate the respective indicator
 [range lamp](../cockpit/pilot/dcsg_controls.md#range-lights), as well as display the numerical value
 on the DSCG display in the upper left.
 
 ![pilot_dscg_range_lights](../img/pilot_dscg_range_lights.jpg)
 
+Values up to 50 nmi are indicated as Air-Intercept (AI) are available for
+[Automatic Tracking](#track) and, 100 nmi and 200 nmi settings are available for [Spotlight](#spotlight).
+
 ### Polarization Control
+
+The polarization of the radio frequency energy can be changed using the polarization control. In
+normal operation the LIN setting is used which produces linearly polarised light in the vertical
+direction relative to the antenna, this minimises ground returns as many types of ground clutter are
+less reflective to vertically polarized light. However because the antenna is not roll stabilized
+increased return intensity may be seen when rolling the aircraft.
+
+Both CIR 1 and CIR 2 are circularly polarized positions. Precipitation is less reflective to
+circularly polarized light, so CIR 1 and CIR 2 can aid in mimimising clutter in rain or fog.
+
+The polarization is set using the quarter waveplate in the feedhorn which causes the
+[continous wave emissions](#klystron) to be polarized as described above. This makes only CIR 1
+compatible with launching sparrows as the sparrow rear antenna cannot receive counterclockwise
+polarized light.
 
 | Selection |  Description |
 |-------|-------------|
-| LIN   | RF energy is lineally polarized in a vertical orientation. [AIM-7](../../../stores/air_to_air/aim_7.md) default mode. |
-| CIR 1 | RF energy is rotated clockwise from the vertical plane. [AIM-7](../../../stores/air_to_air/aim_7.md) can be fired. |
-| CIR 2 | RF energy is rotated counterclockwise from the vertical plane. [AIM-7](../../../stores/air_to_air/aim_7.md) cannot be fired. |
+| LIN   | RF energy is lineally polarized in a vertical orientation. [AIM-7](../../../stores/air_to_air/aim_7.md) can be fired. |
+| CIR 1 | RF energy is circularly polarized clockwise. [AIM-7](../../../stores/air_to_air/aim_7.md) can be fired. |
+| CIR 2 | RF energy is circularly counterclockwise. [AIM-7](../../../stores/air_to_air/aim_7.md) cannot be fired. |
 
-The WSO is afforded direct control of the APQ-120's waveform polarization at the antenna feed-horn
-by using the Polar Switch. The default setting is LIN (Linear); in this setting, the waveform is
-transmitted in a linear alignment to the feed-horn, oriented vertically. This is also the default
-setting for employment of the [AIM-7 Sparrow](../stores/air_to_air/aim_7.md).
 
-Also available are a pair of Circular polarization options, CIR 1 (clockwise) and CIR 2 (
-counter-clockwise). Circular polarization is provided as it is less susceptible to
-precipitation-related clutter, and can allow detection or tracking of a target in such weather when
-a return is otherwise found to be marginal.
-
-> 💡 Only clockwise polarization (CIR 1) and Linear polarization are compatible with the Sparrow's
-> receiving antenna, and thus can only be fired in said modes. A Sparrow launched with the APQ-120
-> in CIR 2 will not track.
+> 💡 Only LIN and CIR 1 modes can be used with the Sparrow, a Sparrow launched using CIR 2 will not guide.
 
 ### Maneuver Switch
 
@@ -163,100 +159,49 @@ Heading - Heading is displayed in degrees from 000 - 360 with the last digit alw
 ### Receiver Gain (RCVR GAIN)
 
 The stacked RCVR GAIN potentiometers FINE on top and COARSE on the bottom, provide the ability to
-adjust the receiver gain for increased return visual definition, improving clarity and discernment
-of the scopes during search routines. Further, when using MAP PPI, BEACON PPI, and AIR-GRD, their
-command of the STC (Sensitivity Time Control) circuit controls how the receiver's gain applies as a
-matter of range, which drives image intensity in the lower part of the scope. Gain knobs do not have
-an effect on the radar picture when a lock-on exists.
+adjust the receiver gain. FINE is used for small adjustments and COARSE is used for large
+adjustments. For more information see [Gain Control](#gain-control) section.
 
 ### Track Switch
 
-The track switch determines whether the APQ-120 will attempt a lock-on against a selected track
-automatically, or through manual means. In the default center AUTO position, full-action on the
-antenna hand controller initiates an automatic lock-on attempt. In the MANUAL (up) position, the WSO
-initiates a manual tracking attempt upon engaging full-action, which requires the range strobe to be
-placed just inside of the bracketed contact and an adjustment of the Manual Vc knob to match
-closure. The third (down) position, AOJ OUT, overrides the radar's acquisition on jamming function.
-If jamming should occur during an attempt that precludes acquisition, the jamming source can be used
-as a lock-on target for an angle track. Switching over to AOJ OUT returns the radar to a search
-configuration.
+Track switch alters [range tracking](#range-track) settings. The default position is AUTO which
+operates normal range tracking with [Home on Jam](#home-on-jam) if jamming is detected. Home on jam
+can be disabled (if jamming is erroneously detected) by setting the track switch to AOJ OUT. Lastly
+if required manual range tracking can be used by setting MANUAL at which point the
+[MAN Vc](#manual-vc-man-vc) knob position will be used to set the tracking gate closure velocity.
 
 ### Display Knob
 
-The DSCG can display returns as both as a B-Sweep or as a Plan Position Indicator (PPI) display.
-Proper selection of the display for the situation is required for correct fire control and WRCS
-target injection functionality, and the WIDE and NAR selection dictates the relative azimuth sweep
-of the radar itself- 120 degrees in full width, or a 45 degree wide slice. The display can also be
-directed to provide course guidance for a Vis Ident (VI) intercept profile against a locked target.
+The DSCG can display returns in B-Scope or Plan Position Indicator (PPI) display.
 
-### Air to Air: B-Sweep- B WIDE, B NAR, and VI (Vis-Ident)
+In B-Scope the horizontal axis of the display indicates azimuth, and the vertical axis represents
+slant range.
 
-The B-Sweep modes are used for air-to-air detection, tracking, and engagement. The B-Sweep
-presentation shows range as a function of height on the DSCG display (higher is further), and
-projects the extents of the radar sweep field out to the sides of the display; in B WIDE, the width
-of the display is 120 degrees across, thus 30 degrees across per column, whereas in B NAR the
-display is 45 degrees in total width, and each column is 11.25 degrees wide. In this fashion, the
-whole of the display is used, with the relative cone shape of the radar sweep being distorted to a
-greater degree as range closes.
+In PPI the horizontal axis is distance to the left and right of the aircraft, with the vertical axis
+representing distance along the track of the aircraft.
 
-The Antenna Hand Control is able to drive the antenna's relative position for the sweep in both
-modes; in B WIDE, this is achieved by activating Half Action on the trigger, then slewing the Hand
-Control left or right. In B NAR, Half Action is not required - simply moving the Hand Control left
-or right will shift the antenna in relative azimuth.
+There are also two Sweep Settings NAR and WIDE, NAR is a narrow 45 degree sweep and WIDE is a full
+120 degree sweep. See [Automatic Search](#automatic-search) for more.
 
-VI (Vis-Ident) is selectable with a radar lock-on against an airborne target achieved. By selecting
-this mode, the radar provides pure pursuit steering to the locked target, via an aim dot in a
-similar presentation to centering for an AIM-7 shot. To fly pure pursuit on the target, the dot
-should be centered in the steering error circle. When the range to target is less than 1000', the
-break X anti-collision warning will appear over the display.
-
-### Air to Ground: PPI WIDE and PPI NAR
-
-In the Plan Position Indicator modes, the described cone of the radar sweep is not projected out to
-the sides of the display; in this way, the radar presentation is less distorted relative to the
-ground, although closer ranges require adjustment of the radar range setting to provide visibility
-on the display.
-
-In PPI WIDE, the display is a 120 degree wedge presentation.
-
-PPI NAR's display is 45 degrees wide, which can be swept using the Antenna Hand Control. The display
-is drift compensated, and will shift as required to maintain relative position. The PPI NAR setting
-provides a range cursor for ground mapping or bombing functions. While the range cursor is shown,
-there is no target lock capability. Also inhibited is receiver gain function, as well as the 5 mile
-range; the lowest available range option for PPI NAR is 10 miles.
+The display can also be directed to provide course guidance for a Vis Ident (VI) intercept profile
+against a locked target.
 
 ### Manual Vc (MAN Vc)
 
-The MAN Vc switch is used when manual mode tracking attempts are made to apply a range rate value
-against the track for range estimating purposes. The knob is marked 2 to 0 to 9, in a clockwise
-orientation, with values of 0 heading counter-clockwise signifying an opening target (gaining range
-against the fighter), whereas values from 0 to 9 heading clockwise are for closing targets. The knob
-is used in manual track mode by bracketing the desired track with the acquisition cursor, selecting
-half-action to show the range strobe, adjusting the position of the cursor to place the strobe just
-below the target, applying a Manual Vc rate that keeps the range strobe moving at the same rate as
-the target, and then selecting full-action.
+The MAN Vc switch is used to set a closure velocity for [manual range tracking](#range-track). The
+1,2 two positions counter-clockwise set an opening velocity of 100 and 200 knots respectively. The
+0 to 9 positions clockwise set a closure velocity from 0 to 900 knots.
 
-The numbers are multiplied by 100 m/s while closure means closing in to the F-4 and opening means
-the target is flying away from the F-4.
+Closing refers to an target decreasing in range and opening refers to a target increasing in range.
 
 ### Pulse Switch
 
-Control of pulse width (duration) and frequency of the cycle (PRF) is managed using the Pulse
-Switch. The switch provides three distinct settings, each useful under specific circumstances, and
-in some instances automatically overridden by the radar mode employed.
+The pulse switch sets the pulse and pulse repetition frequency for the radar set. See the
+[Pulse Setting](#pulse-setting) for more information.
 
-Normal operation is performed in AUTO mode. Auto mode defaults to the LONG mode function, with wide
-pulse width and low PRF. In the event a track is attained, power, pulse width and PRF are moderated
-by the PLMS (Power Level Mode Switch) system for best lock stability; this function is only
-available in AUTO mode.
-
-In LONG pulse mode PRF is low and pulse width is wide, in general increasing detection range, with a
-reduction in resolution and target discernment.
-
-In SHORT pulse mode, a short pulse width is applied with a high, jittered PRF is applied, to
-increase detection rate at close range and under maneuver.
-
-In AIR-GRD mode, the pulse switch is disabled automatically and SHORT pulse is commanded.
+In [AIR-GRD](#air-grd-air-to-ground-position) mode and
+[Computer Automatic Acquisition](#computer-automatic-acquisition-mode-caa), the pulse switch is
+disabled automatically and SHORT pulse is commanded.
 
 ## Radar Modes (MODE)
 
@@ -381,7 +326,7 @@ and signal values.
 
 With selections of 900 and 2700, the switch is used to scale the Vc gap as displayed in F-4Es with
 the DVST installed, with the newer DSCG installed, the switch must remain in the 2700 position at
-all times for proper APQ-120 system performance and monitoring.
+all times for to ensure correct reading on the display.
 
 ### Stab Switch
 
@@ -395,14 +340,8 @@ INS drift compensation in modes which use it.
 
 The Digital Scan Converter Group (DSCG) provides an integrated display system of the F-4E's radar
 and electro-optical systems. The system is composed of the front and rear seat scopes, and is driven
-by the Indicator Control Unit- which performs conversion of radar and video signals, along with the
-application of information and fire control cueing symbology.
-
-Because the ICU is a signal interpreter, and thus the DSCG panel the output of its work, the
-overwhelming number of function controls on the DSCG panel are relative to controlling the display -
-more aptly, what is being displayed, and its relative clarity for the WSO and pilot. In all
-instances of display visibility control on the DSCG, clockwise increases the setting,
-counter-clockwise reduces the setting.
+by the Indicator Control Unit (ICU) which performs conversion of radar and video signals, along
+with the application of information and fire control cueing symbology.
 
 ### Grid Knob
 
@@ -422,7 +361,7 @@ field.
 ### Track Light (T)
 
 The Track light illuminates to confirm an angle and range-based lock-on against a target. Same as
-the SKIN TRK light.
+the SKIN TRK light. See [Track](#track) for more information.
 
 ### Contrast (CONTR)
 
@@ -430,7 +369,7 @@ The Contrast knob controls relative DSCG display contrast.
 
 ### Range (RNG)
 
-The Range knob controls brightness of the range cursor in MAP, PPI, or Beacon mode.
+The Range knob controls brightness of the range cursor in PPI modes.
 
 ### Brightness (BRT)
 
@@ -438,7 +377,7 @@ The Brightness knob controls the brightness of the overall DSCG display.
 
 ### Offset (OFS)
 
-The Offset knob controls brightness of the offset cursor line in MAP, PPI, or Beacon mode.
+The Offset knob controls brightness of the offset cursor line in PPI modes.
 
 ### DSCG Mode Knob
 
@@ -500,7 +439,7 @@ Control Set.
 
 The magnetron and klystron are the two methods for producing radio frequency energy in the APQ-120
 radar set. Both the magnetron and klystron radiation is fed through the antenna and emitted from the
-feedhorn. 
+feedhorn.
 
 #### Magnetron
 
@@ -557,6 +496,35 @@ Below describes the nutation settings for the action switch.
 |              |    | Full Action | No |
 
 ### Antenna Stabilization
+
+There are three antenna stabilization modes. Two apply to
+[Air-To-Air Operation](#radar-operation-air-to-air) and the other to [Air-To-Ground Operation](#radar-operation-air-to-ground).
+
+#### NOR
+
+Normal operation of the antenna stabilization.
+
+In [Automatic Search](#automatic-search) Antenna is stabilized in pitch and roll to the horizon
+(radar plane). The center of the radar scan is along the heading of the aircraft. In this mode the
+zero degree mark on the display indicates the horizon.
+
+In [Air-To-Ground Ranging](#air-to-ground-ranging) Antenna is boresighted to the radar boresight line
+but stabilized in drift.
+
+#### DRIFT OUT
+
+The same as NOR but drift stabilization is removed.
+
+#### STAB OUT
+
+In [Automatic Search](#automatic-search) Antenna does not stabilize to the horizon, but instead th
+aircraft reference.
+
+In [Air-To-Ground Ranging](#air-to-ground-ranging) Antenna is boresighted to radar boresight line
+without drift stabilization. In this mode the zero degree mark on the display indicates the radar
+boresight line.
+
+![antenna stabilization](../img/manual_antenna_stab.png)
 
 ### Pulse Setting
 
@@ -681,7 +649,7 @@ available, angle tracking and range tracking. These will both be described below
 | c and e  | Range Strobes | Indicates Launch Envelope, See [Range Strobes](#range-strobes) Description |
 | d    | Aim Dot | Provides pilot steering, See [Aim Dot](#aim-dot) |
 
-In the WSO Cockpit there is an engraved T which illuminates if a range track condition present.
+In the WSO Cockpit there is an [engraved T](#track-light-t) which illuminates if a range track condition present.
 
 #### Angle Track
 
@@ -872,9 +840,9 @@ When the cage condition is present the following changes happen:
 If a track condition exists before the cage button and the pinky switch is in radar or heat the
 radar breaks track and returns to boresight. If pinky switch is in guns lock is not broken.
 
-Cage mode can be exited from either cockpit, by placing Weapon Select knob into or out of the B
-position. If the pilot leaves the Weapon Select knob in B, it does not preclude a later entry into
-Cage mode.
+Cage mode can be exited from either cockpit, the pilot can place the Weapon Select knob into or out of
+the B position. If the pilot leaves the Weapon Select knob in B, it does not preclude a later entry into
+Cage mode. The WSO can exit cage mode by pressing the [Air To Air Button](#air-to-air-button).
 
 #### Computer Automatic Acquisition Mode (CAA)
 
