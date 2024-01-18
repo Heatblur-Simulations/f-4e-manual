@@ -37,6 +37,8 @@ inserted it into the WRCS.
 
 ### Power
 
+![Power Knob](../img/wso_radar_power_knob.jpg)
+
 | Name | Description |
 |------|-------------|
 | OFF  | Powers radar off. |
@@ -59,6 +61,8 @@ In the event of an emergency situation requiring immediate operation of the rada
 selected; See the [Magnetron and Klystron](#magnetron-and-klystron) section for more details.
 
 ### Range
+
+![Range Knob](../img/wso_radar_range_knob.jpg)
 
 Range control sets the range of the radar, note there are some modes where the range settings
 available are restricted or forced to a specific setting.
@@ -94,10 +98,11 @@ polarized light.
 | CIR 1 | RF energy is circularly polarized clockwise. [AIM-7](../../../stores/air_to_air/aim_7.md) can be fired. |
 | CIR 2 | RF energy is circularly counterclockwise. [AIM-7](../../../stores/air_to_air/aim_7.md) cannot be fired. |
 
-
 > 💡 Only LIN and CIR 1 modes can be used with the Sparrow, a Sparrow launched using CIR 2 will not guide.
 
 ### Maneuver Switch
+
+![Maneuver Switch](../img/wso_radar_maneuver_switch.jpg)
 
 The maneuver switch is used to specify the tracking response to target accelerations.
 
@@ -109,6 +114,8 @@ The maneuver switch is used to specify the tracking response to target accelerat
 HI G is forced when [Computer Automatic Acquisition](#computer-automatic-acquisition-mode-caa) is used.
 
 ### Scan Switch
+
+![Bar Scan Switch](../img/wso_radar_bar_scan_switch.jpg)
 
 The scan switch specifies the number of elevation bars used in search.
 
@@ -122,6 +129,8 @@ The scan switch specifies the number of elevation bars used in search.
 is not relevant.
 
 ### Aspect
+
+![Aspect Knob](../img/wso_radar_aspect_knob.jpg)
 
 The aspect knob is used to provide the [Sparrow](../stores/air_to_air/aim_7.md) with a simulated
 doppler signal when **no lock** is achieved to aid with sparrow speed gate lockon when sparrow is
@@ -158,11 +167,15 @@ Heading - Heading is displayed in degrees from 000 - 360 with the last digit alw
 
 ### Receiver Gain (RCVR GAIN)
 
+![Receiver Gain Knob](../img/wso_radar_receiver_gain.jpg)
+
 The stacked RCVR GAIN potentiometers FINE on top and COARSE on the bottom, provide the ability to
 adjust the receiver gain. FINE is used for small adjustments and COARSE is used for large
 adjustments. For more information see [Gain Control](#gain-control) section.
 
 ### Track Switch
+
+![Track Switch](../img/wso_radar_track_switch.jpg)
 
 Track switch alters [range tracking](#range-track) settings. The default position is AUTO which
 operates normal range tracking with [Home on Jam](#home-on-jam) if jamming is detected. Home on jam
@@ -171,6 +184,8 @@ if required manual range tracking can be used by setting MANUAL at which point t
 [MAN Vc](#manual-vc-man-vc) knob position will be used to set the tracking gate closure velocity.
 
 ### Display Knob
+
+![Display Knob](../img/wso_radar_display_knob.jpg)
 
 The DSCG can display returns in B-Scope or Plan Position Indicator (PPI) display.
 
@@ -188,13 +203,18 @@ against a locked target.
 
 ### Manual Vc (MAN Vc)
 
-The MAN Vc switch is used to set a closure velocity for [manual range tracking](#range-track). The
-1,2 two positions counter-clockwise set an opening velocity of 100 and 200 knots respectively. The
-0 to 9 positions clockwise set a closure velocity from 0 to 900 knots.
+![Manual Vc Knob](../img/wso_radar_man_vc_knob.jpg)
+
+The MAN Vc switch is a 12 position used to set a closure velocity for
+[manual range tracking](#range-track). The 1,2 two positions counter-clockwise set an opening
+velocity of 100 and 200 knots respectively. The 0 to 9 positions clockwise set a closure velocity
+from 0 to 900 knots.
 
 Closing refers to an target decreasing in range and opening refers to a target increasing in range.
 
 ### Pulse Switch
+
+![Pulse Switch](../img/wso_radar_pulse_switch.jpg)
 
 The pulse switch sets the pulse and pulse repetition frequency for the radar set. See the
 [Pulse Setting](#pulse-setting) for more information.
@@ -204,6 +224,8 @@ In [AIR-GRD](#air-grd-air-to-ground-position) mode and
 disabled automatically and SHORT pulse is commanded.
 
 ## Radar Modes (MODE)
+
+![Mode Knob](../img/wso_radar_mode_knob.jpg)
 
 Specific radar operating modes are dependent on the radar mode knob but also several other
 conditions and switches. For a comprehensive description of the radar operation see the
@@ -649,7 +671,8 @@ available, angle tracking and range tracking. These will both be described below
 | c and e  | Range Strobes | Indicates Launch Envelope, See [Range Strobes](#range-strobes) Description |
 | d    | Aim Dot | Provides pilot steering, See [Aim Dot](#aim-dot) |
 
-In the WSO Cockpit there is an [engraved T](#track-light-t) which illuminates if a range track condition present.
+In the WSO Cockpit there is an [engraved T](#track-light-t) which illuminates if a range track
+condition present.
 
 #### Angle Track
 

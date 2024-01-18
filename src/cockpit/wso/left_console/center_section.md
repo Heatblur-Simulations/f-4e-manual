@@ -5,6 +5,9 @@ and countermeasure panel.
 
 ## Radar Set Control Panel
 
+See [Radar Set Control Panel](../../../systems/radar.md#radar-set-control-panel) section for more
+detailed description of all the functions below.
+
 ![wso_radar_set_control_panel](../../../img/wso_radar_set_control_panel.jpg)
 
 ### Power Knob
@@ -18,6 +21,8 @@ See the [Radar Power Section](../../../systems/radar.md#power) for more details.
 
 ### Polar Switch
 
+![Polar Switch](../../../img/wso_radar_polar_switch.jpg)
+
 Controls polarization of transmitted radio frequency energy. LIN should be used in normal
 conditions, CIR 1 and CIR 2 can be used to reduce precipitation clutter at the expense of increased
 ground clutter.
@@ -29,11 +34,13 @@ ground clutter.
 ![Range Knob](../../../img/wso_radar_range_knob.jpg)
 
 Used to select range sweep of 5, 10, 25, 50, 100, or 200 mile ranges on both
-radar displays. Ranges up to 50 are displayed on the range lamp [range lamp](../../pilot/dcsg_controls.md#range-lights).
+radar displays. Ranges up to 50 are displayed on the range lamp [range lamp](../../pilot/dscg_controls.md#range-lights).
 
 See the [Radar Range Knob Section](../../../systems/radar.md#radar) for more details.
 
 ### Maneuver Switch
+
+![Maneuver Switch](../../../img/wso_radar_maneuver_switch.jpg)
 
 Controls radar tracking acceleration response. LOW sets a limit on antenna acceleration and HI
 removes acceleration limit.
@@ -42,14 +49,11 @@ removes acceleration limit.
 
 ### Bar Scan Switch
 
-Selects elevation scan pattern between 1 and 2 bars. In 2 bar scan, the search pattern alternates
-1.875 degrees above and 1.875 degrees below the radar scan plane.
+![Bar Scan Switch](../../../img/wso_radar_bar_scan_switch.jpg)
+
+Selects elevation scan pattern between 1 and 2 bars. Only RDR-B modes can make use of 2 bars.
 
 [See Radar Scan Switch Section for more details](../../../systems/radar.md#scan)
-
-In [boresight](../../../systems/radar.md#bst-boresight-position)
-or [air-to-ground modes](../../../systems/radar.md#air-grd-air-to-ground-position), 1 bar scan is
-automatically commanded.
 
 ### Aspect Knob
 
@@ -59,40 +63,25 @@ Used to program the [AIM-7](../../../stores/air_to_air/aim_7.md) with a predeter
 Doppler instead of actual received Doppler, so that the WSO can provide an estimated correct
 speed-gate for the sparrow when not tracking.
 
-
+[See Aspect Knob Section for more details](../../../systems/radar.md#aspect)
 
 ### Receiver Gain Knobs (RCVR GAIN)
 
-Coarse (outer ring) and Fine (inner knob) gain control for the radar receiver.
+![Receiver Gain Knob](../../../img/wso_radar_receiver_gain.jpg)
+
+Coarse (outer ring) and Fine (inner knob) gain control for the radar receiver. Larger values result
+in more noise and can cause display to become saturated. Lower values may result in lower detection ranges.
+
+[See Receiver Gain Knob Section for more details](../../../systems/radar.md#receiver-gain-rcvr-gain)
 
 ### Track Switch
+
+![Track Switch](../../../img/wso_radar_track_switch.jpg)
 
 Selects range tracking type for use in heavy clutter environments, or automatic
 tracking under normal circumstances.
 
-#### Manual
-
-When in the MAN position, the WSO places the acquisition symbol over the
-intended target and triggers half-action on the Antenna Hand Control stick. The range strobe is
-positioned relative to in-range on a closing target, and the WSO selects
-full-action. To solidify the track, the WSO uses the Manual Vc knob to place the
-range strobe and target return video at the same rate of movement.
-
-#### Automatic
-
-In the AUTO position, the range and closure calculations are performed
-automatically. The WSO places the acquisition symbol over the target return and
-presses full action. Should the target maneuver in excess of the speed
-capability of the radar, the Maneuver switch can be set to HI G and the target
-reacquired.
-
-#### AOJ OUT
-
-The AOJ OUT position is used to disable the acquisition on jamming function of
-the radar, if excess noise causes the Radar to erroneously switch into AOJ/HOJ condition. In the
-event that the radar acquires a Home-on-Jam (HOJ) lock, the position can be
-selected to place the radar back into a search configuration to initiate a
-lock-on against the jamming target and initiate a standard angle track lock.
+[See Radar Track Switch Section for more details](../../../systems/radar.md#scan)
 
 ### Display Knob
 
@@ -120,19 +109,22 @@ manual track mode.
 The numbers are multiplied by 100 knots while closure means closing in to the F-4
 and opening means the target is flying away from the F-4.
 
+[See MAN Vc Knob Section for more details](../../../systems/radar.md#manual-vc-man-vc)
+
 ### Pulse Switch
 
+![Pulse Switch](../../../img/wso_radar_pulse_switch.jpg)
+
 Three position switch controlling radar pulse width and pulse repetition
-frequency (PRF) in the Air-to-Air radar search modes. With the [APQ-120](../../../systems/radar.md) placed
-in [CAGE mode](../../../systems/radar.md#cage-mode), short pulse operation is automatically
-selected. In [AIR-GND modes](../../../systems/radar.md#air-grd-air-to-ground-position), the pulses
-are automatically commanded, deactivating the switch.
+frequency (PRF).
 
 | Name  | Description                                                                                          |
 |-------|------------------------------------------------------------------------------------------------------|
 | AUTO  | Uses Power Level Mode Switching to determine best Pulse selection. Selects short pulse is used for acquire and track.  |
 | LONG  | Wide pulse width and low PRF, allowing maximum range detection; no track automatic pulse adjustment. |
 | SHORT | Narrow pulse width with high PRF for increased close range performance.                              |
+
+[See Pulse Switch Section for more details](../../../systems/radar.md#pulse-switch)
 
 ### Mode Knob
 
@@ -149,6 +141,8 @@ radar.
 | AIR-GRD | [Air-to-Ground boresight](../../../systems/radar.md#air-grd-air-to-ground-position), Tracks range of illuminated ground, radar is boresighted to the radar boresight line with drift compensation.                                                                                                                  |
 | BEACON  | Radar receives and displays signals from ground or airborne beacon transponders for navigation.                                                                                                                                                                              |
 | TV      | Not used with DSCG. Detunes [AIM-7](../../../stores/air_to_air/aim_7.md) if selected, preventing sparrows from guiding.                                                                                                                                                                               |
+
+[See Mode Knob Section for more details](../../../systems/radar.md#radar-modes-mode)
 
 ### Skin Track Light
 
