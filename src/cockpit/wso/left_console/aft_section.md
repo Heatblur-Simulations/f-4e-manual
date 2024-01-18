@@ -24,8 +24,6 @@ channel.
 
 ### Test Button and Lamp
 
-![Tacan Test](../../../img/wso_tacan_test.jpg)
-
 Between these two knobs is the TEST button, which performs the ground testing
 cycle after warmup, and can also be used to perform an in-flight confidence test
 of the system's performance.
@@ -63,7 +61,7 @@ respectively.
 
 ## Communication Control Panel
 
-![CCP](../../../img/wso_comm_panel.jpg)
+![CCP](../../../img/wso_comm_control_panel.jpg)
 
 The Communication Control Panel provides selection and mode of
 the [UHF radio](../../../systems/nav_com/uhf.md) in
@@ -148,7 +146,7 @@ radio system.
 
 ### Cockpit Altitude Gauge
 
-![Cockpit Altitude Gauge](../../../img/wso_pressure_altitude.jpg)
+![Cockpit Altitude Gauge](../../../img/wso_cabin_pressure.jpg)
 
 Displays the current pressure inside the cockpit as a means of equivalent effective
 cabin altitude above mean sea level in 1000 of feet.
@@ -171,7 +169,7 @@ information.
 
 ## Oxygen Quantity Gauge
 
-![Oxygen Quantity Gauge](../../../img/wso_ox_liters.jpg)
+![Oxygen Quantity Gauge](../../../img/wso_oxygen_level.jpg)
 
 It has a range from
 0 to 10 liters. Loss of electrical power

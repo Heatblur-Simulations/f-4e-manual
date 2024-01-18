@@ -2,7 +2,7 @@
 
 ## Intercom Control Panel
 
-![wso_intercom_control](../../../img/wso_intercom_control.jpg)
+![wso_intercom_control](../../../img/wso_intercom_panel.jpg)
 
 ### ICS Volume Control Knob
 
@@ -52,14 +52,14 @@ Selection of which value determined by the Meter Switch.
 
 ### Monitor Meter
 
-![Monitor Meter](../../../img/wso_radar_monitor_meter.jpg)
+![Monitor Meter](../../../img/wso_control_monitor_meter.jpg)
 
 Provides voltage, current, and signal indications based on current Meter Switch
 and Meter Selector Knob settings.
 
 ### Test Knob
 
-![Test Knob](../../../img/wso_radar_test_knob.jpg)
+![Test Knob](../../../img/wso_control_monitor_test_switch.jpg)
 
 An eleven position rotary knob used with the radar power knob in TEST to perform
 system BIT checks of the [APQ-120 Radar](../../../systems/radar.md).
@@ -85,7 +85,7 @@ procedural functionality is found in the applicable BIT test section
 
 ### Meter Switch
 
-![Meter Switch](../../../img/wso_radar_meter_switch.jpg)
+![Meter Switch](../../../img/wso_control_meter_signals_switch.jpg)
 
 Determines which set of values are utilized from the Meter Selector Knob for the
 applicable test sequences; VOLT selects the inner ring of Voltage referencing
@@ -93,7 +93,7 @@ values, whereas SIGNALS uses the outer rim of SIGNAL reference values.
 
 ### Vc Switch
 
-![Vc Switch](../../../img/wso_radar_vc_switch.jpg)
+![Vc Switch](../../../img/wso_control_meter_vc_switch.jpg)
 
 Changes the scale factor of the range rate presentation. DSCG aircraft must
 leave the switch in 2700, else the Vc presentation will be in error.
@@ -119,6 +119,8 @@ switch and a mic switch.
 
 ### Speed Brake
 
+![wso_speed_brake](../../../img/wso_throttles_speed_brake.jpg)
+
 The Speed Brakes are actuated by a three position switch found on the inboard
 throttle in both cockpits. Either switch will actuate the brakes. The positions
 are Out, Stop, and In; the Out position is momentary and reverts back to Stop when released.
@@ -127,6 +129,8 @@ For further information see
 the [3.1.2 Flight Control Surfaces chapter.](../../../systems/flight_controls_gear/flight_controls.md#speed-brakes)
 
 ### Mic Switch
+
+![wso_mic_switch](../../../img/wso_throttles_mic_switch.jpg)
 
 The microphone switch for the Intercom System is the aft position on the inboard
 throttle grip in both cockpits. When using the intercom, all audio sans the

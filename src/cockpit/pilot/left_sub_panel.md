@@ -1,6 +1,6 @@
 # Left Sub-Panel
 
-![LeftSub](../../img/LeftSub.jpg)
+![LeftSub](../../img/pilot_left_sub_panel_overview.jpg)
 
 The left sub-panel features most
 of [the gear](../../systems/flight_controls_gear/gear_ground_handling.md) indicators as well as the
@@ -56,7 +56,7 @@ in transition.
 
 ## Boost Pump Pressure Indicators
 
-![BoostInd](../../img/BoostInd.jpg)
+![BoostInd](../../img/pilot_boost_pump_indicators.jpg)
 
 A pair of indicators provide confirmation of fuel boost pump operation.
 Indicators are calibrated 0 to 5, which must be multiplied by 10 to read in
@@ -71,7 +71,7 @@ trim should be between 1-3 units nose down.
 
 ## Landing/Taxi Lights Switch
 
-![LndTxLt](../../img/LndTxLt.jpg)
+![LndTxLt](../../img/pilot_landing_taxi_lights.jpg)
 
 Control the [external Landing and Taxi lamps.](../../systems/lighting.md) Left main gear must be
 down and locked for the switch to function
@@ -80,7 +80,7 @@ down and locked for the switch to function
 
 ## External Stores Emergency Release
 
-![EmerRel](../../img/EmerRel.jpg)
+![EmerRel](../../img/pilot_external_stores_emergency_release.jpg)
 
 Also called the "_panic button_", the External Stores Emergency Release will
 immediately perform separation of all jettison-able stores, without [air-to-air
@@ -88,7 +88,7 @@ weapons](../../stores/air_to_air/overview.md) or special weapons.
 
 ## Aileron Rudder Interconnect (AIR) Circuit Breaker
 
-![ARI Fuse](../../img/ARIfuse.jpg)
+![ARI Fuse](../../img/pilot_ari.jpg)
 
 When pulled in conjunction with the Yaw ARI Stab Aug Switch disengaged, Yaw ARI
 will be fully removed. With the Yaw ARI Stab Aug Switch engaged, 5 degrees of
@@ -99,7 +99,7 @@ for further information.
 
 ## Emergency Brake Handle
 
-![EBrake](../../img/EBrake.jpg)
+![EBrake](../../img/pilot_emergency_brake_handle.jpg)
 
 Pulling this handle activates the Emergency Hydraulic Brake System, which dumps
 the remainder of the hydraulic accumulator into the brake system for a limited

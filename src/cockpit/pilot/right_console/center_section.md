@@ -4,7 +4,7 @@ The center area of the right console contains IFF and lighting controls.
 
 ## IFF Control Panel
 
-![IFF](../../../img/IFF.jpg)
+![IFF](../../../img/pilot_iff_panel.jpg)
 
 As opposed to the Interrogator panel in the WSO cockpit, this panel provides
 the pilot with the ability to adjust the IFF sender of the own aircraft.
@@ -27,7 +27,7 @@ the [IFF System controls chapter](../../../systems/identification_systems.md#iff
 
 ## DCU-94A Stores Control-Monitor Panel
 
-![DCU94](../../../img/DCU94.jpg)
+![DCU94](../../../img/pilot_dcu_panel.jpg)
 
 This panel is used to control and test the separate release circuit system for
 nuclear stores.
@@ -39,7 +39,7 @@ accidental release.
 
 ## Temperature Control
 
-![PilTemp](../../../img/PilTemp.jpg)
+![PilTemp](../../../img/pilot_temp_control.jpg)
 
 The knob can be used with the switch in the AUTO position and
 allows the pilot to set the temperature inside both cockpits
@@ -52,7 +52,7 @@ The center position of the switch turns the system off.
 
 ## Cockpit Lighting Control Panel
 
-![PilCockLights](../../../img/PilCockLights.jpg)
+![PilCockLights](../../../img/pilot_cockpit_lights.jpg)
 
 The Cockpit Lighting Control Panel provides control of all panel edge lighting,
 flight instrument panel lighting, the console floodlights, the white floodlights

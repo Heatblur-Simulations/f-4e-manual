@@ -5,7 +5,7 @@ throttle and engine related controls.
 
 ## Left Utility Panel
 
-![LUtil](../../../img/LUtil.jpg)
+![LUtil](../../../img/pilot_left_utility_panel.jpg)
 
 ### Anti-Skid Switch
 
@@ -31,7 +31,7 @@ This system is not installed on this variant of the F-4E.
 
 ## Oxygen Regulator and Oxygen Quantity Gauge
 
-![PilOxy](../../../img/PilOxy.jpg)
+![PilOxy](../../../img/pilot_oxygen_control_panel.jpg)
 
 ### Supply Lever
 
@@ -88,14 +88,14 @@ pointer again rotates above 1 liter.
 
 ## Forward Hand Control
 
-![PilAGM](../../../img/PilAGM.jpg)
+![PilAGM](../../../img/pilot_forward_hand_control.jpg)
 
 Small joystick enabling the Pilot to control and steer
 guided Weapons such as Mavericks or Bullpups.
 
 ## Outboard Engine Control Panel
 
-![PilOutEng](../../../img/PilOutEng.jpg)
+![PilOutEng](../../../img/pilot_outboard_engine_control.jpg)
 
 ### Engine Anti-Icing Switch
 
@@ -137,7 +137,7 @@ The switch is a leftover and not connected.
 
 ## Inboard Engine Control Panel
 
-![PilInbEng](../../../img/PilInbEng.jpg)
+![PilInbEng](../../../img/pilot_inboard_engine_control.jpg)
 
 The Inboard Engine Control Panel carries the following controls:
 
@@ -219,7 +219,7 @@ afterburner range. Rear cockpit throttles can be moved from OFF without front se
 
 ### Ignition Buttons
 
-![IgnitionButtons](../../../img/pilot_ignition_system.jpg)
+![IgnitionButtons](../../../img/pilot_ignition_button.jpg)
 
 Engine ignition for startup is performed using a pair of spark plugs on each
 engine, activated by pressing the red Ignition Button found on the rear of both
@@ -253,7 +253,7 @@ panel functions.
 
 ### Dispense Button
 
-![pilot_throttle_cm_dispense](../../../img/pilot_throttle_cm.jpg)
+![pilot_throttle_cm_dispense](../../../img/pilot_dispense_button.jpg)
 
 When pressing the dispense button chaff/flare dispensing is initiated as set on
 [the CCU](../../../systems/defensive_systems/countermeasures.md#anale-40-cockpit-control-unit-ccu)
@@ -265,7 +265,7 @@ is set to FLARES.
 
 ### Speed Brake
 
-![pilot_speed_brake](../../../img/pilot_air_brake.jpg)
+![pilot_speed_brake](../../../img/pilot_speed_brake.jpg)
 
 The Speed Brakes are actuated by a three position switch found on the inboard
 throttle in both cockpits. Either switch will actuate the brakes. The positions
@@ -275,7 +275,7 @@ For further information see
 
 ### Mic Switch
 
-![pilot_intercom_mic_switch](../../../img/pilot_inter_com_mic_switch.jpg)
+![pilot_intercom_mic_switch](../../../img/pilot_mic_switch.jpg)
 
 The microphone switch for the [Intercom System](../../../systems/nav_com/intercom.md) is the aft
 position on the inboard throttle grip in both cockpits. When using the intercom, all audio sans the

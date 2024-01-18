@@ -5,7 +5,7 @@ and controls for exterior lighting.
 
 ## Compass Control Panel
 
-![CompassCtl](../../../img/CompassCtl.jpg)
+![CompassCtl](../../../img/pilot_comp_panel.jpg)
 
 Manages essential controls for the proper operation of the AJB-7 azimuth system.
 Essential for accurate azimuth output to instruments
@@ -53,7 +53,7 @@ reference system.
 
 ## Exterior Lights Control Panel
 
-![ExtLights](../../../img/ExtLights.jpg)
+![ExtLights](../../../img/pilot_ext_lights_panel.jpg)
 
 This panel contains controls connected to most of the exterior lighting:
 

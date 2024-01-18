@@ -5,7 +5,7 @@ flight instruments and gauges.
 
 ## Standby Magnetic Compass
 
-![StbyMagComp](../../img/StbyMagComp.jpg)
+![StbyMagComp](../../img/wso_standby_magnetic_compass.jpg)
 
 A standard magnetic compass for backup navigation assistance should the primary
 flight director systems fail.
@@ -15,7 +15,7 @@ cards are found above the right canopy sill on each cockpit.
 
 ## Command Ejection Select Handle
 
-![wso_command_ejection_select_handle](../../img/wso_command_ejection_select_handle.jpg)
+![wso_command_ejection_select_handle](../../img/wso_ejection_selector.jpg)
 
 Used to select single or dual ejection as commanded by the WSO. In the vertical
 position (valve closed), initiation of ejection by the WSO ejects only the rear
@@ -24,7 +24,7 @@ ejection will extract both crew members.
 
 ## Course Indicator
 
-![wso_course_indicator](../../img/wso_course.jpg)
+![wso_course_indicator](../../img/wso_course_indicator.jpg)
 
 Used during an [ILS](../../systems/nav_com/vor_ils.md) approach, displays localizer and glide slope
 deviations represented dots — 1 dot equals 1 1/4 degrees for course and 1/4 degree for glide
@@ -48,7 +48,7 @@ See [VOR/ILS System](../../systems/nav_com/vor_ils.md) for details.
 
 ## KY-28 Mode Indicator
 
-![wso_ky28_mode_indicator](../../img/wso_ky28_mode_indicator.jpg)
+![wso_ky28_mode_indicator](../../img/wso_ky_28_indicator.jpg)
 
 Two lamp indicator illustrating current KY-28 operating mode- P indicates plain
 (unencrypted) mode transmission, whereas C indicates cipher (encrypted) mode
@@ -78,13 +78,13 @@ when in Visual Intercept (VI) or Air-to-Ground modes.
 
 ## RWR Azimuth Indicator
 
-![RWRAz](../../img/wso_rwr.jpg)
+![RWRAz](../../img/wso_rwr_indicator.jpg)
 
 The [Radar warning receiver](../../systems/defensive_systems/radar_warning_receiver.md) Azimuth
 Indicator shows all Radar sources that are visible to the Radar warning receiver.
 The knob on the lower left controls the brightness of the display.
 
-![Controls](../../img/wso_an_apr_36.jpg)
+![Controls](../../img/wso_rwr_control_panel.jpg)
 
 Left to it is a box with several knobs to operate the system.
 
@@ -161,7 +161,7 @@ the PUSH TO SET button will reset the maximum position indicators to 1 G.
 
 ## Turn Indicator
 
-![wso_ball_slip_rot_indicator](../../img/wso_ball_slip_rot_indicator.jpg)
+![wso_ball_slip_rot_indicator](../../img/wso_4_minute_turn.jpg)
 
 A 4-minute turn indicator, utilizing a conventional horizontally mounted gyro,
 accurately displays standard turn rates, resembling a conventional turn and slip
@@ -174,7 +174,7 @@ incorrect bank.
 
 ## Navigation Mode Selector Switch
 
-![wso_nav_mode_selector_switch](../../img/wso_nav_mode_selector_switch.jpg)
+![wso_nav_mode_selector_switch](../../img/wso_nav_mode_sel.jpg)
 
 Selects the respective mode for the two BDHI needles.
 
@@ -194,14 +194,14 @@ value of up to 150 knots when motionless on ground.
 
 ## True Airspeed Indicator
 
-![wso_true_airspeed_speed_indicator](../../img/wso_true_airspeed_speed_indicator.jpg)
+![wso_true_airspeed_speed_indicator](../../img/wso_true_airspeed_indicator.jpg)
 
 Provides the aircraft's true Airspeed in knots, and is calibrated from 150 to
 1500 knots; airspeeds below this range are thus not reliable.
 
 ## UHF Remote Channel Indicator
 
-![wso_uhf_remote_channel_indicator](../../img/wso_uhf_remote_channel_indicator.jpg)
+![wso_uhf_remote_channel_indicator](../../img/wso_uhf_channel_indicator.jpg)
 
 Provides the current selected channel value when the radio is set to PRESET.
 Otherwise, the indicator displays M if the radio is set to Manual, G when the
@@ -209,14 +209,14 @@ COMM function is set as GUARD/ADF, or A when the A-3-2-T switch is in A.
 
 ## Vertical Velocity Indicator
 
-![VVI](../../img/wso_vvi.jpg)
+![VVI](../../img/wso_vertical_velocity_indicator.jpg)
 
 Provides rate of climb or descent via the static pressure system referenced in
 thousands of feet per minute.
 
 ## Altimeter
 
-![Altimeter](../../img/wso_altimeter.jpg)
+![Altimeter](../../img/wso_baro_altitude.jpg)
 
 A counter-pointer style altimeter, with thousandths in the counter window and
 100 foot increments around the face. The altimeter has an absolute range of
@@ -232,7 +232,7 @@ be reset and moved out of STBY.
 
 ## Attitude Indicator
 
-![wso_attitude_indicator](../../img/wso_attitude_indicator.jpg)
+![wso_attitude_indicator](../../img/wso_adi.jpg)
 
 The AHRS provides attitude information to the Attitude Indicator found on the
 rear cockpit instrument panel when the Reference System Selector Switch is in
@@ -246,7 +246,7 @@ indicator or AHRS, the OFF flag will display.
 
 ## Airspeed and Mach Indicator
 
-![MachInd](../../img/wso_airspeed_indicator.jpg)
+![MachInd](../../img/wso_airspeed_mach_indicator.jpg)
 
 The combination airspeed and mach number indicator shows airspeed readings below
 200 knots, and include Mach numbers on the outer ring at high speed. The indicator uses a single
@@ -264,7 +264,7 @@ area refers to the airspeed scale before the mach scale starts.
 
 ## Bearing Distance Heading Indicator (BDHI)
 
-![wso_bearing_distance_heading_indicator](../../img/wso_bearing_distance_heading_indicator.jpg)
+![wso_bearing_distance_heading_indicator](../../img/wso_bdhi.jpg)
 
 The Bearing Distance Heading Indicator, or BDHI, presents navigation information
 as entered by the WSO, provided with two needles (termed the No 1 and No 2
@@ -291,7 +291,7 @@ on the Navigation Mode Selector Switch.
 
 ## Tachometers
 
-![Tach](../../img/Tach.jpg)
+![Tach](../../img/wso_rpm.jpg)
 
 A percentage-noting Tachometer is provided for each engine, including an inset
 wheel for accurate display of single digits. Normal values are 65% for idle, 95% in full MIL power
@@ -299,7 +299,7 @@ and 105% for full afterburner.
 
 ## Canopy Unlocked Warning Lamp
 
-![wso_canopy_unlocked_ins_out__radar_cni](../../img/wso_canopy_unlocked_ins_out__radar_cni.jpg)
+![wso_canopy_unlocked_ins_out__radar_cni](../../img/wso_warning_lights.jpg)
 
 Illuminates when canopy is unlocked. To reset the lamp close and lock the rear canopy.
 

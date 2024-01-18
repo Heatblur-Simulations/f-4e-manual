@@ -4,7 +4,7 @@ The right wall has auxiliary switches for testing and starting the aircraft.
 
 ## Canopy Manual Unlock Handle
 
-![Canopy Manual Unlock Handle](../../../img/pilot_canopy_unlock_handle.jpg)
+![Canopy Manual Unlock Handle](../../../img/wso_manual_unlock_handle.jpg)
 
 The manual unlock
 handle is used in the event of [pneumatic system](../../../systems/pneumatics.md) failure.
@@ -21,7 +21,7 @@ illuminates.
 
 ## Ground Test Panel
 
-![wso_right_wall](../../../img/wso_right_wall.jpg)
+![wso_right_wall](../../../img/wso_ground_test_control_panel.jpg)
 
 ### Battery Bypass
 

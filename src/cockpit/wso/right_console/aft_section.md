@@ -86,7 +86,7 @@ Illumination indicates that the Navigation Computer is operating in AIR DATA Mod
 
 ## WSO Cockpit Lighting Control Panel
 
-![wso_cockpit_lighting_panel](../../../img/wso_cockpit_lighting_panel.jpg)
+![wso_cockpit_lighting_panel](../../../img/wso_cockpit_lights_aft.jpg)
 
 The Cockpit Lighting Control Panel provides control of all panel edge lighting,
 flight instrument panel lighting, the console floodlights, the white floodlights

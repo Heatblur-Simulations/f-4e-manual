@@ -1,14 +1,14 @@
 # Left Sub-Panel
 
+![wso_left_sub_panel](../../img/wso_left_sub_panel.jpg)
+
 ## Gun Camera Switch
 
-![wso_gun_cam_aal_video_select](../../img/wso_gun_cam_aal_video_select.jpg)
+![wso_gun_cam_aal_video_select](../../img/wso_avtr_bar.jpg)
 
 Activates recording of gun camera footage.
 
 ## Air to Air Light
-
-![wso_air_to_air_light](../../img/wso_air_to_air_light.jpg)
 
 Illuminates when [CAGE](../../stores/air_to_air/acm_modes.md) mode activated; pressing the light
 reverts the radar to the original operating condition prior
@@ -16,16 +16,12 @@ to CAGE entry.
 
 ## Video Select Button
 
-![wso_video_select](../../img/wso_video_select.jpg)
-
 Push button that alternates between WEAPON, such
 as [AGM-65 Mavericks](../../stores/air_to_ground/missiles/maverick.md),
 and [targeting pod (ASQ-153)](../../systems/weapon_systems/pave_spike/overview.md) television video
 on the radar scope display when in TV mode.
 
 ## AVTR Control
-
-![wso_avtr_controls](../../img/wso_avtr_controls.jpg)
 
 Controls the Airborne Video Tape recorder system which records the intercom
 sound, as well as the rear radar screen.
@@ -67,7 +63,7 @@ to provide emergency braking. Contains a limited number of applications.
 
 ## APX-80 Control Panel
 
-![apx_80](../../img/apx_80.jpg)
+![apx_80](../../img/wso_apx_80.jpg)
 
 The AN/APX-80 combines the IFF Interrogator System APX-76 and the Combat-Tree
 system APX-81A. It is used to identify whether an aircraft is friendly or
@@ -138,7 +134,7 @@ F-4E.
 
 ## WSO Oxygen Regulator Panel
 
-![wso_oxygen_regulator_panel](../../img/wso_oxygen_regulator_panel.jpg)
+![wso_oxygen_regulator_panel](../../img/wso_oxygen_regulator.jpg)
 
 ### Flow Indicator
 

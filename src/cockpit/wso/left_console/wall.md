@@ -2,7 +2,7 @@
 
 ## Emergency Canopy Jettison Handle
 
-![CanJet](../../../img/wso_canopy_jettison.jpg)
+![CanJet](../../../img/wso_emergency_canopy_jettison_handle.jpg)
 
 Used for emergency ground extraction, the Emergency Canopy Jettison Handle
 releases a compressed oxygen cylinder to open the respective canopy immediately,
@@ -10,13 +10,13 @@ shearing it off at its pivots.
 
 ## Canopy Control Switch
 
-![Canopy Control Switch](../../../img/wso_canopy_handle.jpg)
+![Canopy Control Switch](../../../img/wso_canopy_control_switch.jpg)
 
 Used to open (aft) or close (forward) the WSO canopy.
 
 ## Emergency Flaps Handle
 
-![wso_emergency_flaps_handle](../../../img/wso_emergency_flaps_handle.jpg)
+![wso_emergency_flaps_handle](../../../img/wso_emergency_flaps.jpg)
 
 Used for emergency deployment of the slats and flaps from the rear cockpit, and
 is activated by pulling the handle aft. [Pneumatic system](../../../systems/pneumatics.md) powering

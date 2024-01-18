@@ -6,7 +6,7 @@ and [navigation](../../../systems/nav_com/overview.md) related settings.
 
 ## Fuel Control Panel
 
-![Fuel Control Panel](../../../img/pilot_fuel_panel.jpg)
+![Fuel Control Panel](../../../img/pilot_fuel_control_panel.jpg)
 
 ### Internal Wing Dump Switch
 
@@ -62,7 +62,7 @@ a positive pressure value on the fuel pressure indicator.
 
 ## VOR/ILS Control Panel
 
-![VOR/ILS Panel](../../../img/VORILSCntl.jpg)
+![VOR/ILS Panel](../../../img/pilot_vor_ils_panel.jpg)
 
 ### Nav Vol Knob
 
@@ -91,7 +91,7 @@ See [VOR/ILS Test](../../../procedures/bit_tests/navigation_tests.md#vorils-test
 
 ## AFCS Control Panel
 
-![AFCSPan](../../../img/AFCSPan.jpg)
+![AFCSPan](../../../img/pilot_afcs_control_panel.jpg)
 
 ### Stability Augmentation Channel Switches (Yaw/Roll/Pitch)
 

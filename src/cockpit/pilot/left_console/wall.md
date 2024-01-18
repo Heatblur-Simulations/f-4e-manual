@@ -2,7 +2,7 @@
 
 ## SAI Panel
 
-![sai_panel](../../../img/sai_panel.jpg)
+![sai_panel](../../../img/pilot_sai_panel.jpg)
 
 The panel provides a circuit breaker and a knob to control the brightness for
 the [Standby Attitude Indicator.](../../pilot/flight_director_group.md#standby-attitude-indicator)
@@ -20,7 +20,7 @@ respective [Eject Light](../../../systems/emergency.md#eject-light) to warn the 
 
 ## Slats/Flaps Control Panel
 
-![FlapSlatPan](../../../img/FlapSlatPan.jpg)
+![FlapSlatPan](../../../img/pilot_slats_flaps_control_panel.jpg)
 
 A three position switch (NORM, OUT, OUT AND DOWN) to the rear of the panel
 provides normal operation functions of
@@ -57,20 +57,20 @@ event of control system failure.
 
 ## Canopy Control Switch
 
-![PilCanSel](../../../img/PilCanSel.jpg)
+![PilCanSel](../../../img/pilot_canopy_control_switch.jpg)
 
 Used to open (aft) or close (forward) the pilot canopy.
 
 ## Extra Picture Switch
 
-![ExtraPic](../../../img/ExtraPic.jpg)
+![ExtraPic](../../../img/pilot_extra_picture_switch.jpg)
 
 Provision to operate the KB-18 gun camera without the release of weapons, the
 Extra Picture switch starts the camera at the selected rate.
 
 ## Gun Camera Switch
 
-![Gun Camera Switch](../../../img/GunCamSwtch.jpg)
+![Gun Camera Switch](../../../img/pilot_gun_camera_switch.jpg)
 
 Activates the gun camera, which will run until the switch is placed to off, or
 actuation of bomb button or the second trigger detent once the pre-programmed overrun
@@ -78,7 +78,7 @@ time is completed.
 
 ## Slats Override Switch
 
-![Slats Override Switch](../../../img/SlatsOvrd.jpg)
+![Slats Override Switch](../../../img/pilot_slats_override_switch.jpg)
 
 Two-position guarded switch with IN and NORM positions. In NORM, slats operate
 normally as a function of the slats flaps switch
@@ -90,7 +90,7 @@ and [Master Caution lamp.](../../../systems/emergency.md#master-caution)
 
 ## Armament Safety Override Switch
 
-![Armament Safety Override Switch](../../../img/ArmOvrd.jpg)
+![Armament Safety Override Switch](../../../img/pilot_armament_override.jpg)
 
 If pressed and
 the [landing gear handle](../../../systems/flight_controls_gear/gear_ground_handling.md#landing-gear-control-handle)

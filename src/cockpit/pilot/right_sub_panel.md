@@ -1,6 +1,6 @@
 # Right Sub-Panel
 
-![pilot_right_sub_panel](../../img/pilot_right_sub_panel.jpg)
+![pilot_right_sub_panel](../../img/pilot_right_sub_panel_overview.jpg)
 
 The right sub-panel area is dominated by a group of warning lights.
 
@@ -18,7 +18,7 @@ For further information see [3.8 Electrics chapter](../../systems/electrics.md).
 
 ## Feed Tank Check Switch
 
-![FeedCheck](../../img/FeedCheck.jpg)
+![FeedCheck](../../img/pilot_feed_tank_check.jpg)
 
 A two-position spring-loaded switch used to confirm nominal quantity in the
 engine feed tank (Cell 1), the positions being FEED TANK CHECK and NORM
@@ -31,7 +31,7 @@ counter. When the feed tank is full, the indicated value should read 1400 lbs,
 
 ## Arresting Hook Control Handle
 
-![HookHandle](../../img/HookHandle.jpg)
+![HookHandle](../../img/pilot_tail_hook_lever.jpg)
 
 Pulling the handle down extends the Tail Hook.
 
@@ -40,7 +40,7 @@ operations.
 
 ## KY-28 Mode Light Panel
 
-![KY28Mode](../../img/KY28Mode.jpg)
+![KY28Mode](../../img/pilot_ky_28.jpg)
 
 Dependent on mode, the illuminated display shows P for Plain mode, or C for
 Cipher mode.
@@ -73,7 +73,7 @@ those that do not will be noted.
 
 ## Light Circuit Breakers
 
-![pilot_light_cbs](../../img/pilot_light_cbs.jpg)
+![pilot_light_cbs](../../img/pilot_light_cb.jpg)
 
 Hidden behind a bundle of cables to the right of the telelight panel are two
 circuit breakers controlling lights.
@@ -83,7 +83,7 @@ the lower circuit breaker powers all indicator and warning lights.
 
 ## Canopy Manual Unlock Handle
 
-![Canopy Manual Unlock Handle](../../img/wso_canopy_unlock.jpg)
+![Canopy Manual Unlock Handle](../../img/pilot_manual_canopy_unlock.jpg)
 
 The manual unlock
 handle is used in the event of [pneumatic system](../../systems/pneumatics.md) failure.

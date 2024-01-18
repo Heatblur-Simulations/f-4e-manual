@@ -6,7 +6,7 @@ information see the [WRCS chapter](../../../systems/weapon_systems/wrcs.md).
 
 ## Weapon Release Computer Set (WRCS) Panel
 
-![wso_weapon_release_computer_set_panel](../../../img/wso_weapon_release_computer_set_panel.jpg)
+![wso_weapon_release_computer_set_panel](../../../img/wso_wrcs_panel.jpg)
 
 ### Target Distance Controls
 
@@ -131,7 +131,7 @@ Track cursors defines the Radar initial Point when the Freeze button is pressed.
 
 ## Nuclear Stores Consent Switch
 
-![wso_nuclear_stores_consent_switch](../../../img/wso_nuclear_stores_consent_switch.jpg)
+![wso_nuclear_stores_consent_switch](../../../img/wso_nuclear_consent_switch.jpg)
 
 Used to arm nuclear stores. In the SAFE position, release is inhibited. REL
 allows releasing stores unarmed, while REL/ARM allows dropping nuclear stores

@@ -16,14 +16,14 @@ WSO for ejection.
 
 ## KY-28 Controls
 
-![wso_ky_28](../../img/wso_ky_28.jpg)
+![wso_ky_28](../../img/wso_ky_28_control_panel.jpg)
 
 Controls for the KY-28 encryption system. For further information see
 the [Encryption chapter](../../systems/nav_com/encryption.md).
 
 ## ECM Controls
 
-![ecm](../../img/ecm.jpg)
+![ecm](../../img/wso_ecm_control_panel.jpg)
 
 Controls for the electronic counter-measurement and jamming system.
 
@@ -70,7 +70,7 @@ Indicates that a radar has been detected and is actively jammed.
 
 ### Reset Button and Lamp
 
-![ecm](../../img/wso_ecm_reset.jpg)
+![ecm](../../img/wso_ecm_reset_button.jpg)
 
 The reset lamp, if lit, indicates a fault in the jammer system.
 Flashing indicates an overheating condition, in which case the pod
@@ -82,7 +82,7 @@ run through the warmup period again. If the fault could be cleared, the light wi
 
 ## Bomb Release Angle Computer
 
-![wso_labs_angle](../../img/wso_bomb_release_angle.jpg)
+![wso_labs_angle](../../img/wso_release_angle.jpg)
 
 Used to enter the required angle values for [ARBCS/LABS](../../systems/weapon_systems/arbcs.md)
 bombing modes; the Low Angle control may be set from 0 to 89.9 degrees, and the High Angle control
@@ -95,7 +95,7 @@ For calculations of the angles see the [bombing calculator](../../dcs/bombing_co
 
 ## Bombing Timers
 
-![wso_release_timers](../../img/wso_bombing_timers.jpg)
+![wso_release_timers](../../img/wso_bombing_timer.jpg)
 
 Entry of applicable timing for pull-up signal or release are performed with the
 Bombing Timers.

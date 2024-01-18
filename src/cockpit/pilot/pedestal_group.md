@@ -1,12 +1,12 @@
 # Pedestal Group
 
-![PedGrp](../../img/PedGrp.jpg)
+![PedGrp](../../img/pilot_pedestal_group_overview.jpg)
 
 This panel behind the stick offers mostly auxiliary information and controls.
 
 ## Accelerometer
 
-![GGauge](../../img/GGauge.jpg)
+![GGauge](../../img/pilot_accelerator.jpg)
 
 Calibrated from negative 4 to positive 10 in units of G, with three pointers -
 one for current applied load, the other two show maximum positive and negative G
@@ -15,7 +15,7 @@ maximum position indicators to 1 G.
 
 ## Engine Oil Pressure Indicators
 
-![OilPress](../../img/OilPress.jpg)
+![OilPress](../../img/pilot_engine_oil.jpg)
 
 A pair of engine oil pressure indicators are provided, one for each engine,
 calibrated from 0 to 100 PSI. Engine oil is used for lubrication, variable
@@ -32,7 +32,7 @@ For further information see
 
 ## Hydraulic pressure Indicators
 
-![HydPress](../../img/HydPress.jpg)
+![HydPress](../../img/pilot_hydraulic_pressure.jpg)
 
 Two hydraulic pressure indicators are installed. The one on the right, references the Utility
 Hydraulic System pressure, while the left one references the PC-1 and PC-2
@@ -52,7 +52,7 @@ For further information see [3.5 Hydraulics chapter](../../systems/hydraulics.md
 
 ## Pneumatic Pressure Indicator
 
-![Pneumatic Pressure Indicator](../../img/Pneum.jpg)
+![Pneumatic Pressure Indicator](../../img/pilot_pneumatic.jpg)
 
 Shows manifold pressure of the pneumatic system
 measured by the pressure transmitter which supplies
@@ -71,7 +71,7 @@ For further information see the [3.6 Pneumatics chapter](../../systems/pneumatic
 
 ## Screen Source Switch
 
-![Screen Source Switch](../../img/pilot_screen_mode_switch.jpg)
+![Screen Source Switch](../../img/pilot_radar_tv_switch.jpg)
 
 Controls which video source is displayed on the DSCG screen.
 This is independent of the WSO, allowing the pilot to view a source different to the WSO.
@@ -85,14 +85,14 @@ The Off-position turns the screen off.
 
 ## Rate of fire Switch
 
-![pilot_pedestral_group_rate_of_fire_switch](../../img/pilot_pedestral_group_rate_of_fire.jpg)
+![pilot_pedestral_group_rate_of_fire_switch](../../img/pilot_rate_switch.jpg)
 
 Used to switch the gun rate of fire between a HIGH setting (6000 rounds per minute) and a LOW
 setting (4000 rounds per minute).
 
 ## Auto clear switch
 
-![pilot_pedestral_group_auto_clear_switch](../../img/pilot_pedestral_group_auto_clear_switch.jpg)
+![pilot_pedestral_group_auto_clear_switch](../../img/pilot_clear_switch.jpg)
 
 The cannon will fire approximately between 5 and 11 rounds from the point the pilot has released the
 trigger to clear all bolt actions in the cannon. This spin-down takes approximately one second
@@ -103,29 +103,31 @@ The AUTO CLEAR option should be used whenever a gun pod is used.
 
 ## Rounds Remaining Indicator
 
-![Rounds](../../img/Rounds.jpg)
+![Rounds](../../img/pilot_rounds_remaining.jpg)
 
 Shows the currently available number of nose gun rounds. The counter must be set
 manually by the pilot whenever rearming.
 
 ## Shrike Controls
 
-![shrike controls](../../img/pilot_shrike_controls.jpg)
-
 Two switches to control [AGM-45 Shrikes](../../stores/air_to_ground/missiles/shrike.md)
 settings.
 
 ### TGT/MLS Reject Switch
 
+![pilot_shrike_tgt_reject](../../img/pilot_tgt_missile_reject.jpg)
+
 Selects which target source to use and select, either TGT/MSL REJ, ALL or DF REJ.
 
 ### Band Switch
+
+![pilot_shrike_tgt_reject](../../img/pilot_shrike_band.jpg)
 
 Selects the bands to pickup by the weapon.
 
 ## Rudder Pedal Adjustment Crank
 
-![PedAdjust](../../img/PedAdjust.jpg)
+![PedAdjust](../../img/pilot_pedal_adjust.jpg)
 
 Used to adjust ergonomic position of the rudder pedals forward or back from the
 pilot.

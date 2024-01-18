@@ -8,11 +8,11 @@ and countermeasure panel.
 See [Radar Set Control Panel](../../../systems/radar.md#radar-set-control-panel) section for more
 detailed description of all the functions below.
 
-![wso_radar_set_control_panel](../../../img/wso_radar_set_control_panel.jpg)
+![wso_radar_set_control_panel](../../../img/wso_radar_panel.jpg)
 
 ### Power Knob
 
-![Power Knob](../../../img/wso_radar_power_knob.jpg)
+![Power Knob](../../../img/wso_radar_power_switch.jpg)
 
 Five position rotary switch controlling power state of
 the [APQ-120 Radar.](../../../systems/radar.md)
@@ -31,7 +31,7 @@ ground clutter.
 
 ### Range Knob
 
-![Range Knob](../../../img/wso_radar_range_knob.jpg)
+![Range Knob](../../../img/wso_radar_range_switch.jpg)
 
 Used to select range sweep of 5, 10, 25, 50, 100, or 200 mile ranges on both
 radar displays. Ranges up to 50 are displayed on the range lamp [range lamp](../../pilot/dscg_controls.md#range-lights).
@@ -100,7 +100,7 @@ in conjunction with the Mode knob. The types are as follows:
 
 ### Manual Vc Knob
 
-![Manual Vc Knob](../../../img/wso_radar_man_vc_knob.jpg)
+![Manual Vc Knob](../../../img/wso_radar_man_vc.jpg)
 
 A 12 position switch used to apply estimated range rate of closure (clockwise,
 0-9), or estimated opening of range (counterclockwise, 0-2) against a target in

@@ -3,9 +3,11 @@
 This area behind the stick contains the radar screen,
 as well as the controls for the targeting pod.
 
-![wso_dscg_and_pedestal_panel](../../img/wso_dscg_and_pedestal_panel.jpg)
+![wso_dscg_and_pedestal_panel](../../img/wso_pedestal_group_overview.jpg)
 
 ## Digital Scan Converter Group (DSCG)
+
+![wso_dscg_controls](../../img/wso_dscg_controls.jpg)
 
 The DSCG displays radar, weapon and targeting pod video footage.
 
@@ -72,7 +74,7 @@ Sets the current mode of the DSCG components.
 
 ## Target Designator Control Set
 
-![target_des_panel](../../img/target_des_panel.jpg)
+![target_des_panel](../../img/wso_target_designator_controls.jpg)
 
 This is the main panel to interact with
 the [Pave Spike Targeting Pod](../../systems/weapon_systems/pave_spike/overview.md).
@@ -193,7 +195,7 @@ disintegrated by other means.
 
 ## Rudder Pedal Adjustment Crank
 
-![wso_pedal_crank](../../img/wso_pedal_crank.jpg)
+![wso_pedal_crank](../../img/wso_rudder_adjust.jpg)
 
 Used to adjust ergonomic position of the rudder pedals forward or back from the
 WSO.
