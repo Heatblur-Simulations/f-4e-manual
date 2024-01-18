@@ -18,6 +18,14 @@ detailed description of all the functions below.
 Five position rotary switch controlling power state of
 the [APQ-120 Radar.](../../../systems/radar/overview.md)
 
+| Name | Description                                                                                                                        |
+| ---- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| OFF  | Powers radar off.                                                                                                                  |
+| TEST | Applies voltage to control monitor power and provides [BIT-test](../../../procedures/bit_tests/overview.md) functions 1 through 6. |
+| STBY | Power applied to radar, remains in a non-transmitting standby state.                                                               |
+| OPR  | System is fully operational.                                                                                                       |
+| EMER | Overrides the time delay, pressure, and temperature restrictions to allow radar operation.                                         |
+
 See the [Radar Power Section](../../../systems/radar/interface.md#power) for more details.
 
 ### Polar Switch

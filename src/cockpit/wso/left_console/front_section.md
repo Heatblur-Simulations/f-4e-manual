@@ -4,20 +4,20 @@
 
 ![wso_intercom_control](../../../img/wso_intercom_panel.jpg)
 
-### ICS Volume Control Knob
+### Volume Control Knob
 
 Turned clockwise to increase audio between cockpits, and counterclockwise to
 decrease audio between cockpits on the [intercom](../../../systems/nav_com/intercom.md).
 
-### ICS Function Selector Switch
+### Function Selector Switch
 
-| Name           | Description                                                                                       |
-|----------------|---------------------------------------------------------------------------------------------------|
-| COLD MIC       | Mic switch on throttle must be held to activate [intercom](../../../systems/nav_com/intercom.md). |
-| HOT MIC        | Voice automatically transmitted on [intercom](../../../systems/nav_com/intercom.md).              |
-| RADIO OVERRIDE | The opposite cockpit’s audio is heard at its set volume using its amplifier.                      |
+| Name           | Description                                                                                                       |
+| -------------- | ----------------------------------------------------------------------------------------------------------------- |
+| COLD MIC       | Mic switch on throttle must be held to activate intercom.                                                         |
+| HOT MIC        | Voice automatically transmitted on intercom.                                                                      |
+| RADIO OVERRIDE | Voice automatically transmitted on intercom. All volumes but Shrike tone and Stall Warning are reduced in volume. |
 
-### ICS Amplifier Select Knob
+### Amplifier Select Knob
 
 Determines current amplifier for [intercom](../../../systems/nav_com/intercom.md) function.
 
