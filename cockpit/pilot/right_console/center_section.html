@@ -195,23 +195,105 @@
 <h2 id="iff-control-panel"><a class="header" href="#iff-control-panel">IFF Control Panel</a></h2>
 <p><img src="../../../img/pilot_iff_panel.jpg" alt="IFF" /></p>
 <p>As opposed to the Interrogator panel in the WSO cockpit, this panel provides
-the pilot with the ability to adjust the IFF sender of the own aircraft.
+the pilot with the ability to adjust the IFF transponder of the own aircraft.
 Which would then be picked up by interrogators in other aircraft.</p>
 <blockquote>
-<p>💡 For in-game functionality, installation of Simple Radio Standalone (SRS) is required.</p>
+<p>💡 Due to engine limitations, the settings on the panel have no effect for DCS.
+However, they are exposed to external tools, such as SRS.</p>
 </blockquote>
-<p>Due to DCS limitations, the panel's simulation is partial but compatible with SRS.
-The functionalities included are:</p>
-<ul>
-<li>Warmup sequence upon power-up.</li>
-<li>Mode 1 with selected code</li>
-<li>Mode 3 with selected code</li>
-<li>Mode 4 - on/off logic</li>
-<li>Identification</li>
-<li>Tests for Mode 2 and Mode 3/A</li>
-</ul>
 <p>For further explanation see
 the <a href="../../../systems/identification_systems.html#iff-controls-and-indicators">IFF System controls chapter</a>.</p>
+<h3 id="master-switch"><a class="header" href="#master-switch">Master switch</a></h3>
+<p>The master switch is a five position rotary with following controls:</p>
+<div class="table-wrapper"><table><thead><tr><th>Position</th><th>Operation</th></tr></thead><tbody>
+<tr><td>Off</td><td>Identification system de-energized.</td></tr>
+<tr><td>STBY</td><td>Full Power supplied to the system but with interrogations blocked.</td></tr>
+<tr><td>LOW</td><td>System operates with reduced sensitivity.</td></tr>
+<tr><td>NORM</td><td>System operates at full sensitivity.</td></tr>
+<tr><td>EMER</td><td>Allows the system to respond to interrogations in Modes 1, 2 and 3/A. The reply for Modes 1 and 2 is a special emergency signal of the codes selected on the applicable dials, while Mode 3/A replies are special emergency signals of code 7700.</td></tr>
+</tbody></table>
+</div>
+<h3 id="mode-1-selector-switch"><a class="header" href="#mode-1-selector-switch">Mode 1 Selector Switch</a></h3>
+<p>The three position Mode 1 Selector switch controls the mode 1 operation:</p>
+<div class="table-wrapper"><table><thead><tr><th>Position</th><th>Operation</th></tr></thead><tbody>
+<tr><td>M-1</td><td>Self test position (Inoperative)</td></tr>
+<tr><td>ON</td><td>Enables Mode 1 for operation.</td></tr>
+<tr><td>Out</td><td>Disables Mode 1</td></tr>
+</tbody></table>
+</div>
+<h3 id="mode-2-selector-switch"><a class="header" href="#mode-2-selector-switch">Mode 2 Selector Switch</a></h3>
+<p>The three position Mode 2 Selector switch controls the mode 2 operation:</p>
+<div class="table-wrapper"><table><thead><tr><th>Position</th><th>Operation</th></tr></thead><tbody>
+<tr><td>M-2</td><td>Self test position. Light illuminates if mode is operating properly.</td></tr>
+<tr><td>ON</td><td>Enables Mode 2 for operation.</td></tr>
+<tr><td>Out</td><td>Disables Mode 2</td></tr>
+</tbody></table>
+</div>
+<h3 id="mode-3a-selector-switch"><a class="header" href="#mode-3a-selector-switch">Mode 3/A Selector Switch</a></h3>
+<p>The three position Mode 3/A Selector switch controls the mode 3/A operation:</p>
+<div class="table-wrapper"><table><thead><tr><th>Position</th><th>Operation</th></tr></thead><tbody>
+<tr><td>M-3/A</td><td>Self test position. Light illuminates if mode is operating properly.</td></tr>
+<tr><td>ON</td><td>Enables Mode 3/A for operation.</td></tr>
+<tr><td>Out</td><td>Disables Mode 3/A</td></tr>
+</tbody></table>
+</div>
+<h3 id="mode-c-selector-switch"><a class="header" href="#mode-c-selector-switch">Mode C Selector Switch</a></h3>
+<p>The three position Mode C Selector switch controls the mode C operation:</p>
+<div class="table-wrapper"><table><thead><tr><th>Position</th><th>Operation</th></tr></thead><tbody>
+<tr><td>M-C</td><td>Self test position (Inoperative)</td></tr>
+<tr><td>ON</td><td>Enables Mode C for operation.</td></tr>
+<tr><td>Out</td><td>Disables Mode C</td></tr>
+</tbody></table>
+</div>
+<h3 id="mode-1-and-mode-3a-code-selectors"><a class="header" href="#mode-1-and-mode-3a-code-selectors">Mode 1 and Mode 3/A Code selectors</a></h3>
+<p>The Mode 1 code selector is used to select Mode 1 codes from 00 to 73. The Mode 3/A code selector
+is used to select Mode 3/A codes from 0000 to 7777.</p>
+<h3 id="mode-4-selector-switch"><a class="header" href="#mode-4-selector-switch">Mode 4 Selector Switch</a></h3>
+<p>The two position Mode 4 Selector switch controls the mode 4 operation:</p>
+<div class="table-wrapper"><table><thead><tr><th>Position</th><th>Operation</th></tr></thead><tbody>
+<tr><td>ON</td><td>Enables Mode 4 for Operation.</td></tr>
+<tr><td>Out</td><td>Inhibits Mode 4 from replying. If Mode 4 code is inserted, an interrogation will cause the IFF warning light and the MASTER CAUTION light to come on momentarily.</td></tr>
+</tbody></table>
+</div>
+<h3 id="mode-4-indication-switch"><a class="header" href="#mode-4-indication-switch">Mode 4 Indication Switch</a></h3>
+<p>The Mode 4 indication switch features positions for AUDIO, OUT, and LIGHT.</p>
+<p>In the AUDIO position, an
+audio signal indicates reception of Mode 4 interrogations, and the Mode 4 REPLY light illuminates
+during transmissions. In the LIGHT position, the Mode 4 REPLY light illuminates when Mode 4 replies
+are transmitted, and audio is not present. In the OUT position, both light and audio indications are
+inactive.</p>
+<p>To test the press-to-test Mode 4 reply indicator light, the indication switch must be in
+the AUDIO or LIGHT position.</p>
+<h3 id="mode-4-function-switch"><a class="header" href="#mode-4-function-switch">Mode 4 Function Switch</a></h3>
+<p>The Mode 4 function switch has positions of ZERO, B, A, and HOLD.</p>
+<p>In the A position, the transponder
+responds to Mode 4 interrogations with the same setting as set into the A position, and in the B
+position, it responds to interrogations with the same code setting as set into the B position. If
+the switch is in the wrong position for the code being interrogated (e.g., in A with B
+interrogation), the IFF warning light and MASTER CAUTION light will not activate.</p>
+<blockquote>
+<p>💡 Code settings for
+A and B positions are inserted before flight and can be zeroed by placing the switch to ZERO.</p>
+</blockquote>
+<p>The
+HOLD position is not used in flight but retains the code setting if another flight is anticipated
+during the code period. Momentarily positioning the switch to HOLD after landing, waiting 15
+seconds, and then turning off the IFF master switch and radar power knob retains the code with the
+power off.</p>
+<p>Illumination of the IFF warning light and MASTER CAUTION light can be caused by internal
+component failure, failure to respond to a valid interrogation, or a zeroized code.</p>
+<h3 id="monitor-radiation-test-switch"><a class="header" href="#monitor-radiation-test-switch">Monitor-Radiation Test Switch</a></h3>
+<p>This switch has three positions, RAD TEST, MON and OUT. It is intended for tests by
+the ground crew and should be set to OUT and not used during flight.</p>
+<h3 id="identification-of-position-switch"><a class="header" href="#identification-of-position-switch">Identification of Position Switch</a></h3>
+<p>The Identification switch is a three position toggle switch used to provide momentary identification
+of position.</p>
+<div class="table-wrapper"><table><thead><tr><th>Position</th><th>Operation</th></tr></thead><tbody>
+<tr><td>IDENT</td><td>Allows the system to respond with identification of position replies in all modes that are being used. The response is continued for a 15 to 30 second duration after the switch is released.</td></tr>
+<tr><td>OUT</td><td>Disables identification of position capability.</td></tr>
+<tr><td>MIC</td><td>Same as positioning the switch to IDENT, except that the UHF microphone button must be used to trigger the identification.</td></tr>
+</tbody></table>
+</div>
 <h2 id="dcu-94a-stores-control-monitor-panel"><a class="header" href="#dcu-94a-stores-control-monitor-panel">DCU-94A Stores Control-Monitor Panel</a></h2>
 <p><img src="../../../img/pilot_dcu_panel.jpg" alt="DCU94" /></p>
 <p>This panel is used to control and test the separate release circuit system for

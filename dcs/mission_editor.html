@@ -296,14 +296,15 @@ for details.</p>
 <p>It is possible to set up a station in the Mission Editor for use in ADF navigation.
 To do this, a unit, such as a ground station, needs to be placed on the map. This unit
 should then execute a command to tune into the desired AM frequency
-(Perform Command/ Set Frequency). Finally, the unit must transmit a message continuously
+(<em>Perform Command &gt; Set Frequency</em>). Finally, the unit must transmit a message continuously
 throughout the mission, which requires setting the message to loop
-(Perform Command/ Transmit Message).</p>
+(<em>Perform Command &gt; Transmit Message</em>).</p>
 <p><img src="../img/me_adf.jpg" alt="ADF Station" /></p>
-<p>Also, radio frequency parameters for mission triggers are provided:</p>
+<p>Also, radio frequency parameters to read currently active UHF Radio frequencies
+are provided for mission triggers:</p>
 <div class="table-wrapper"><table><thead><tr><th>Parameter</th><th>Description</th></tr></thead><tbody>
-<tr><td>COMM_FREQ</td><td>UHF Radio active Comm frequency [MHz]</td></tr>
-<tr><td>AUX_FREQ</td><td>UHF Radio active Aux frequency [MHz]</td></tr>
+<tr><td><code>COMM_FREQ</code></td><td>Comm frequency in MHz</td></tr>
+<tr><td><code>AUX_FREQ</code></td><td>Aux frequency in MHz</td></tr>
 </tbody></table>
 </div>
 <p><img src="../img/me_freq_triggers.jpg" alt="UHF Parameters" /></p>
