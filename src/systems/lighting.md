@@ -71,7 +71,7 @@ consoles.
 
 | Pilot                                                | WSO                                              |
 | ---------------------------------------------------- | ------------------------------------------------ |
-| ![pilot_int_lighting](../img/pilot_int_lighting.jpg) | ![wso_int_lighting](../img/wso_int_lighting.jpg) |
+| ![pilot_int_lighting](../img/pilot_cockpit_lights.jpg) |![wso_int_lighting](../img/wso_cockpit_lights_aft.jpg)  |
 
 ### Floodlights
 
@@ -96,7 +96,7 @@ case of total power loss.
 Red floodlights can be switched individually for the consoles and the instrument
 panel. Controls are found on the right console and the right wall.
 
-![Red Floodlight Switches](../img/red_floodlight_switches.jpg)
+![Red Floodlight Switches](../img/pilot_floodlight_switches.jpg)
 
 > 💡 The WSO has no controls for the instrument floodlight. The light is also
 > controlled by the pilots switch on the right wall.
@@ -120,7 +120,7 @@ and instrument panel.
 
 Controls are located on the right console.
 
-![Back-lighting Controls](../img/backlighting_controls.jpg)
+![Back-lighting Controls](../img/pilot_cockpit_lights_knobs.jpg)
 
 Console lighting is provided by the Left Main 115V AC bus, while instrument
 panel lighting is powered through the Right Main 115V AC bus.
@@ -139,8 +139,8 @@ wall.
 - VVI
 - Altimeter
 
-![Flight Brightness Knob](../img/flight_instrument_brightness_knob.jpg)
-![Flight Instrument Lights Intensity Panel](../img/InsIntensity.jpg)
+![Flight Brightness Knob](../img/pilot_flight_instrument_brightness_knob.jpg)
+![Flight Instrument Lights Intensity Panel](../img/pilot_flight_instrument_lights.jpg)
 
 The Flight Brightness Knob acts as master control. On the fully CCW position,
 lighting of all six instruments is turned off.

@@ -47,7 +47,7 @@ if PC-1 pressure drops below 1000 psi.
 
 ## Hydraulic Pressure Indicators
 
-![HydPress](../img/HydPress.jpg)
+![HydPress](../img/pilot_hydraulic_pressure.jpg)
 
 On the [pedestal panel](../cockpit/pilot/pedestal_group.md) in the front cockpit is a pair of
 [Hydraulic Pressure Indicators](../cockpit/pilot/pedestal_group.md#hydraulic-pressure-indicators).

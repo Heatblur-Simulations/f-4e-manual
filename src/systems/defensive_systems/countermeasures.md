@@ -59,7 +59,7 @@ Chaff and Flare programs are divided into two categories:
 
 ## Cockpit Control Unit (CCU) - WSO Cockpit
 
-![wso_an_ale_40_panel.jpg](../../img/wso_an_ale_40_panel.jpg)
+![wso_an_ale_40_panel.jpg](../../img/wso_an_ale_40.jpg)
 
 The Cockpit Control Unit (CCU) is installed on the left console of the rear
 cockpit. It consists of two mode knobs, two
@@ -146,7 +146,7 @@ are adjustable:
 
 ## Fuel System Control Panel - Pilot Cockpit
 
-![pilot_an_ale_40_switch](../../img/pilot_an_ale_40_switch.jpg)
+![pilot_an_ale_40_switch](../../img/pilot_an_ale_40_lights.jpg)
 
 ### Flares Select Switch
 

@@ -134,4 +134,5 @@ the [3.1.2 Flight Control Surfaces chapter.](../../../systems/flight_controls_ge
 
 The microphone switch for the Intercom System is the aft position on the inboard
 throttle grip in both cockpits. When using the intercom, all audio sans the
-pull-up tone, stall warning, and ECM are reduced (same as RADIO OVERRIDE).
+pull-up tone, stall warning, and ECM are reduced (same as RADIO OVERRIDE). In the fwd position the
+switch will enable transmitting over radio.

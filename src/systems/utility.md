@@ -48,9 +48,9 @@ wing tanks, and, if installed and selected, external tanks.
 
 > 💡 Fully refueling takes roughly between one and three minutes.
 
-### Air Refuel Switch
-
 ![pilot_fuel_panel](../img/pilot_fuel_control_panel.jpg)
+
+### Air Refuel Switch
 
 Preparation for air refueling is performed by toggling the Air Refuel Switch to
 EXTEND; doing so extends the receptacle, illuminates the receptacle visual
@@ -86,7 +86,7 @@ continue refueling.
 
 ### Air Refueling Release Button
 
-![pilot_aar_release_button](../img/pilot_aar_release_switch.jpg)
+![pilot_aar_release_button](../img/pilot_stick_aar_button.jpg)
 
 On the front seat control stick is the Air Refueling Release Button. Its primary
 purpose is to release the receptacle from the boom in the event of a manual
@@ -113,7 +113,7 @@ receptacle retracted.
 
 ## Windshield Rain Removal
 
-![pilot_rain_removal](../img/pilot_rain_removal.jpg)
+![pilot_rain_removal](../img/pilot_rain_removal_switch.jpg)
 
 To clear precipitation, placing the Rain Removal Switch to ON will direct bleed
 air from the air conditioning system to an external vent below the windshield,

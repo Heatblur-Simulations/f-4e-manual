@@ -26,7 +26,7 @@ right sub-panel in the front cockpit. A list of them follows:
 
 ### Master Caution
 
-![pilot_master_caution](../img/pilot_master_caution.jpg)
+![pilot_master_caution](../img/pilot_master_caution_light.jpg)
 
 Found in the front cockpit, the MASTER CAUTION provides the pilot with an
 up-front warning of potential hazard to the aircraft. The MASTER CAUTION
@@ -51,7 +51,7 @@ the lights will illuminate.
 
 ## Engine Fire and Overheat Detector System
 
-![pilot_engine_fire_test_group](../img/pilot_fire_test.jpg)
+![pilot_engine_fire_test_group](../img/pilot_fire_detector_system.jpg)
 
 On the right upper instrument panel in the front cockpit are four warning lamps-
 two FIRE and two OVRHEAT lights, one for each side. Should a fire be detected in
@@ -106,7 +106,7 @@ cockpit indicator panel. This can also be done by the WSO to warn the Pilot of a
 
 ### Command Selector Valve Handle
 
-![wso_command_selector_valve](../img/wso_command_ejection_select_handle.jpg)
+![wso_command_selector_valve](../img/wso_ejection_selector.jpg)
 
 To the left and above the rear cockpit instrument handle is the Command Selector
 Valve Handle. This handle determines the sequence by an ejection initiated from
@@ -135,7 +135,7 @@ not remove pylons, and the AIM-9 Sidewinder is non-jettison-able.
 
 ### External Stores Emergency Release Button
 
-![pilot_external_stores_emergency_release](../img/pilot_emergency_external_release.jpg)
+![pilot_external_stores_emergency_release](../img/pilot_external_stores_emergency_release.jpg)
 
 Found on the front left cockpit sub-panel, the External Stores Emergency
 Release, also known as the panic button, will release all air to ground
@@ -150,7 +150,7 @@ weight is off wheels.
 
 ### Selective Jettison
 
-![pilot_selective_jettison](../img/pilot_selective_jettison.jpg)
+![pilot_selective_jettison](../img/pilot_selective_jettison_control.jpg)
 
 Wing and centerline stores can be jettisoned independently using the Jettison
 Knob in the STORES position, selecting the desired Station Select Buttons to

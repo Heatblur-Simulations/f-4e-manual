@@ -12,7 +12,7 @@ error probability (CEP).
 
 ## Inertial Measurement Platform
 
-![wso_inertial_system_panel](../../img/wso_ins_control_panel.jpg)
+![wso_inertial_system_panel](../../img/wso_ins_panel.jpg)
 
 The system uses a four gimbal (outer roll, pitch, inner roll, azimuth) inertial
 navigating platform, with the dual roll gimbals providing redundancy to
@@ -172,7 +172,7 @@ not specified.
 
 ## Navigation Computer
 
-![wso_navigation_computer](../../img/wso_nav_computer.jpg)
+![wso_navigation_computer](../../img/wso_nav_panel.jpg)
 
 The ASN-46A Nav Computer is used for general navigation and tactical route
 planning. The system contains both a great circle and rhumb line computational
@@ -208,7 +208,7 @@ available to the computer is true airspeed (from the air data computer) and
 magnetic heading from the compass system. When the system reverts to Air Data
 mode, the AIR DATA MODE lamp will illuminate.
 
-![wso_nav_panel_air_data_light](../../img/wso_nav_computer_air_data_light.jpg)
+![wso_nav_panel_air_data_light](../../img/wso_nav_panel_air_data_light.jpg)
 
 During startup, the Position Control Knobs, Wind Control Knobs, and Magnetic
 Variation Control Knob are used to enter known latitude, longitude, wind
@@ -273,7 +273,7 @@ instruction from GCI.
 With the Nav Computer in Inertial mode, the aircraft is flown straight and level
 at a known fix location.
 
-![wso_nav_panel_pos_update_switch](../../img/wso_nav_computer_pos_update_switch.jpg)
+![wso_nav_panel_pos_update_switch](../../img/wso_nav_panel_pos_update_switch.jpg)
 
 1. On arrival, the Position Update Switch is placed in the SET position. Doing
    so disengages the longitude and latitude position counters.

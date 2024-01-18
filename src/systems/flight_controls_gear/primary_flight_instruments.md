@@ -39,7 +39,7 @@ function.
 
 ## Accelerometers
 
-![GGauge](../../img/GGauge.jpg)
+![GGauge](../../img/pilot_accelerator.jpg)
 
 Both cockpits retain accelerometers for monitoring G load; the accelerometers
 carry 3 needles - one for current G loading, and a positive and negative G
@@ -49,7 +49,7 @@ pointers to positive 1 G.
 
 ## Airspeed/Mach Indicators
 
-![MachInd](../../img/MachInd.jpg)
+![MachInd](../../img/pilot_airspeed_mach_indicator.jpg)
 
 Purely mechanical instruments that use total pressure from the Pitot-Static system
 and static pressure from the Air Data Computer, previously corrected by the Static
@@ -81,7 +81,7 @@ Mean time to failure is 1000 hours.
 
 ## Altimeter
 
-![Altimeter](../../img/Altim.jpg)
+![Altimeter](../../img/pilot_baro_altitude.jpg)
 
 An AAU-19 Type of altimeter, may operate in both electric - based on corrected electric
 static pressure signal from the Altitude Encoder, or mechanical (STBY) mode - from
@@ -150,7 +150,7 @@ the opposite effects occur during acceleration and deceleration.
 
 ## Vertical Velocity Indicators (VVI)
 
-![VVI](../../img/VVI.jpg)
+![VVI](../../img/pilot_vertical_velocity_indicator.jpg)
 
 VVI Indicators are provided in both cockpits, and show the rate of climb or
 descent (in feet per minute) of the aircraft, calculated via atmospheric pressure
@@ -197,9 +197,9 @@ ground level at the time of this occurring.
 
 ## Turn and Slip Indicators
 
-| Pilot                                                            | WSO                                                          |
-|------------------------------------------------------------------|--------------------------------------------------------------|
-| ![Pilot_turn_and_slip](../../img/pilot_turn_and_slip_indicator.jpg) | ![WSO_turn_and_slip](../../img/wso_turn_and_slip_indicator.jpg) |
+| Pilot                                                               | WSO                                                   |
+|---------------------------------------------------------------------|-------------------------------------------------------|
+| ![Pilot_turn_and_slip](../../img/pilot_turn_and_slip_indicator.jpg) | ![WSO_turn_and_slip](../../img/wso_4_minute_turn.jpg) |
 
 In the front cockpit, a turn and slip indicator is added to the ADI on the
 instrument panel; while the needle provides correct direction of turn,
@@ -216,7 +216,7 @@ due to incorrect bank.
 
 ## Rear Cockpit Attitude Indicator
 
-![Wso_rear_cockpit_attitude_indicator](../../img/wso_rear_cockpit_attitude_indicator.jpg)
+![Wso_rear_cockpit_attitude_indicator](../../img/wso_adi.jpg)
 
 The AJB-7 provides attitude information to the Attitude Indicator found on the
 rear cockpit instrument panel regardless of the Reference System Selector Switch
@@ -259,7 +259,7 @@ account.
 
 ## Static Pressure Compensator
 
-![pilot_cadc_switch](../../img/pilot_cadc_switch.jpg)
+![pilot_cadc_switch](../../img/pilot_static_pressure_switch.jpg)
 
 ![pilot_cadc_switch](../../img/pilot_static_corr_off_light.jpg)
 

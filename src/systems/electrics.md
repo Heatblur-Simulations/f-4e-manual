@@ -22,7 +22,7 @@ also illuminate. However, in case both generators fail, no GEN OUT light will il
 
 ## Generator Control Switches
 
-![GenCtl](../img/GenCtl.jpg)
+![GenCtl](../img/pilot_generator_switches.jpg)
 
 A pair of Generator Control Switches are found on the right console, one for each engine. These
 three position switches - ON (Forward), OFF, ON External (Aft) - control the state of each
@@ -34,7 +34,7 @@ instruments, except the CNI and the AFCS.
 
 ## Instrument Ground Power Switch
 
-![InstrumentGroundPowerSwitch](../img/wso_instrument_ground_power_switch.jpg)
+![InstrumentGroundPowerSwitch](../img/wso_ground_test_control_panel.jpg)
 
 Power from an external source to the instrument buses (115/200 volt ac, 28 volt
 ac, and 14 volt ac), can be provided by the Instrument Ground Power Switch (if
@@ -70,7 +70,7 @@ and similar crucial systems.
 
 ### Pilot Panel
 
-![pilot_cb_panel](../img/pilot_cb_panel.jpg)
+![pilot_cb_panel](../img/pilot_circuit_breakers.jpg)
 
 Located on the right wall of the pilot cockpit, this panel contains
 seven circuit breakers responsible for flight control surfaces and
@@ -86,7 +86,7 @@ other systems important for safe operation of the aircraft.
 
 ### Lighting Panel
 
-![pilot_light_cbs](../img/pilot_light_cbs.jpg)
+![pilot_light_cbs](../img/pilot_light_cb.jpg)
 
 Hidden behind a bundle of cables to the right of the telelight panel in the Pilot
 cockpit are two circuit breakers controlling lights.

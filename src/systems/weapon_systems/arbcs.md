@@ -15,7 +15,7 @@ Bombing Timer are found on the provided tables.
 
 ## Bomb Release Angle Computer
 
-![wso_bomb_release_angle](../../img/wso_bomb_release_angle.jpg)
+![wso_bomb_release_angle](../../img/wso_release_angle.jpg)
 
 The Bomb Release Angle Computer provides entry of the necessary target pitch
 angles for ARBCS bombing modes. The values of HIGH (70 to 179.9 degrees) and LOW
@@ -31,7 +31,7 @@ the [bombing calculator](../../dcs/bombing_computer.md). You can open and close 
 
 ## Bombing Timers
 
-![wso_bomb_release_timer](../../img/wso_bombing_timers.jpg)
+![wso_bomb_release_timer](../../img/wso_bombing_timer.jpg)
 
 Timers for ARBCS bombing modes are available for PULL-UP (0 to 60 seconds) and
 RELEASE (0 to 30 seconds). Both can be set in increments of 0.1 second, with 0.1
@@ -77,7 +77,7 @@ purposes.
 
 ## Gyro Fast Erect
 
-![pilot_gyro_fast_erect](../../img/pilot_gyro_fast_erect.jpg)
+![pilot_gyro_fast_erect](../../img/pilot_fast_erect.jpg)
 
 Due to rapid maneuvering during a bombing run, gyro deviation can occur due to
 fluid migration. While this deviation will resolve naturally at a rate of 1 to 2

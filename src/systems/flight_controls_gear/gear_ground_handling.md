@@ -55,7 +55,7 @@ of a wheel when the gears are down and locked.
 
 ## Nose Gear Steering
 
-![pilot_nose_gear_steering_button](../../img/pilot_nose_gear_steering_button.jpg)
+![pilot_nose_gear_steering_button](../../img/pilot_nose_gear_steering.jpg)
 
 Nose Gear Steering is actuated using the referenced button on the control stick
 in either cockpit. Holding the button down permits the crew member to steer the
@@ -72,7 +72,7 @@ deflection. Assistance in braking performance is provided by an included
 Anti-Skid System, which engages with the aircraft over 30 knots. Braking
 function is delayed by the Anti-Skid System on landing until the right main gear
 has been in contact with the ground for 3 seconds, or the wheels reach 50 knots
-of rotation.
+of rotational speed.
 
 ## Anti-Skid System
 
@@ -104,7 +104,7 @@ Lever is pressed, or there is a system issue.
 
 ### Emergency Quick Release Lever
 
-![pilot_emergency_anti_skid_lever](../../img/pilot_emergency_anti_skid_release.jpg)
+![pilot_emergency_anti_skid_lever](../../img/pilot_emergency_quick_release.jpg)
 
 Should the Anti-Skid system appear to malfunction during a rollout, the system
 can be immediately disengaged by holding down the Quick Release Lever found on
@@ -113,7 +113,7 @@ warning.
 
 ## Emergency Hydraulic Brake System
 
-![EmergencyHydraulicBrakeSystem](../../img/pilot_emergency_hydraulic_brake.jpg)
+![EmergencyHydraulicBrakeSystem](../../img/pilot_emergency_brake_handle.jpg)
 
 In the event of a Utility hydraulic system failure, emergency differential
 braking is provided by pulling the Emergency Brake Handle on the lower left side
@@ -123,7 +123,7 @@ applications.
 
 ## Arresting Hook System
 
-![ArrestingHook](../../img/pilot_tail_hook.jpg)
+![ArrestingHook](../../img/pilot_tail_hook_lever.jpg)
 
 The Phantom carries a retractable arresting hook for ground stopping in
 emergency takeoff and landing situations that will reach the strip overrun.

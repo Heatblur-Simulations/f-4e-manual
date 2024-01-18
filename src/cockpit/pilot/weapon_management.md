@@ -236,7 +236,7 @@ stations 8L and 8R.
 
 ![Radar Missile Power Switch](../../img/RMPS.jpg)
 
-The Radar Missile Power Switch provides power to the kylstron continuous wave (CW) emitter
+The Radar Missile Power Switch provides power to the klystron continuous wave (CW) for emitter
 responsible guidance signals. This also powers the sparrow tuning drive which is responsible for
 tuning the sparrows to the correct continuous wave carrier frequency for guidance.
 

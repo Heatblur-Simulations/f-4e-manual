@@ -32,7 +32,7 @@ be equipped on the right inboard pylon (station 6).
 
 ## Controls
 
-![ecm](../../img/ecm.jpg)
+![ecm](../../img/wso_ecm_control_panel.jpg)
 
 The electronic counter-measurement systems are all controlled by
 the WSO via controls on the right sub-panel.
@@ -54,7 +54,7 @@ indicated by the AI light.
 
 ### Reset Button and Lamp
 
-![ecm](../../img/wso_ecm_reset.jpg)
+![ecm](../../img/wso_ecm_reset_button.jpg)
 
 The reset lamp, if lit, indicates a fault in the jammer system.
 Flashing indicates an overheating condition, in which case the pod

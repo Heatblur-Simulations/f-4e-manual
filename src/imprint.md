@@ -14,10 +14,10 @@ Nicholas Dackard, Creative Director and Lead Artist\
 Krzysztof Sobczak, Technical Director and Lead Programmer\
 Aleksander Studen-Kirchner, Lead Producer and Narrative Lead\
 Daniel Tischner, Senior Programmer (UI, Systems and AI)\
-Dominik Głowacki, Programmer (Systems, Avionics, AI)\
-Szymon Skarzyński, Programmer (Systems, Avionics, AI)\
-Andrew O’Donnell, Programmer (Flight Dynamics and Engines)\
-Joshua Nelson, Programmer (Weapons, Radar and Systems)\
+Dominik Głowacki, Senior Programmer (Systems, Avionics, AI)\
+Szymon Skarzyński, Senior Programmer (Systems, Avionics, AI)\
+Andrew O’Donnell, Senior Programmer (Flight Dynamics and Engines)\
+Joshua Nelson, Senior Programmer (Weapons, Radar and Systems)\
 Terje Lindtveit, Programmer (Flight Dynamics and Engines)\
 Zander Labuschagne, Programmer (Systems and Avionics)\
 Will Harradine, Programmer (Systems and Avionics)\
@@ -30,6 +30,8 @@ Ben Mährlein, Liveries and Art\
 Kenneth Ellis, Lead Author Manual\
 Andreas Sandin, Lead Design and Web-Design\
 Adrian Caparzo, Video Editing and Trailers\
+Grayson Frohberg, Voice of the JESTER-AI\
+Jonathan Williams, Voice of the CREW CHIEF\
 Gabriel Stangl, Training Missions and Lessons\
 Daria Kurhuzova, Administrative Assistant
 

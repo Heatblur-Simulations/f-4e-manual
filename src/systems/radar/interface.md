@@ -8,11 +8,11 @@ stick on the right console of the WSO cockpit can be used to operate the radar.
 
 ## Radar Set Control Panel
 
-![wso_radar_control_panel](../../img/wso_radar_set_control_panel.jpg)
+![wso_radar_control_panel](../../img/wso_radar_panel.jpg)
 
 ### Power
 
-![Power Knob](../../img/wso_radar_power_knob.jpg)
+![Power Knob](../../img/wso_radar_power_switch.jpg)
 
 | Name | Description                                                                                                                     |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------- |
@@ -40,7 +40,7 @@ details.
 
 ### Range
 
-![Range Knob](../../img/wso_radar_range_knob.jpg)
+![Range Knob](../../img/wso_radar_range_switch.jpg)
 
 Range control sets the range of the radar, note there are some modes where the
 range settings available are restricted or forced to a specific setting.
@@ -196,7 +196,7 @@ intercept profile against a locked target.
 
 ### Manual Vc (MAN Vc)
 
-![Manual Vc Knob](../../img/wso_radar_man_vc_knob.jpg)
+![Manual Vc Knob](../../img/wso_radar_man_vc.jpg)
 
 The MAN Vc switch is a 12 position used to set a closure velocity for
 [manual range tracking](operation.md#range-track). The 1,2 two positions

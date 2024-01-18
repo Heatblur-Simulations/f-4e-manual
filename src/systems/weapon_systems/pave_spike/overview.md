@@ -81,7 +81,7 @@ The Azimuth-Elevation Indicator is the main instrument for the pilot to assess
 the pods current attitude in order to keep the line of sight within the
 operational limits.
 
-![EOLos](../../../img/EOLos.jpg)
+![EOLos](../../../img/pilot_los_indicator.jpg)
 
 The needle shows the pods roll position from -160 (CW) to +110 (CCW) degrees.
 
@@ -99,7 +99,7 @@ red flag are shown, the view will not be obstructed by the pod or the aircraft.
 This panel provides the pilot with a readout of the slant range measured by the
 Pave Spike (x100 ft).
 
-![range_indicator](../../../img/range_indicator.jpg)
+![range_indicator](../../../img/pilot_overhead_range_indicator.jpg)
 
 When the Test-Button is pressed, the display shows 888, the knob underneath it
 controls the brightness of the readout.
@@ -120,7 +120,7 @@ push-buttons on this panel. Each press will advance the corresponding digit by
 one. Once a code has been set, it can be transferred to the Pave Spike by
 pressing the Enter-Button to the right.
 
-![laser_coder_control](../../../img/laser_coder_control.jpg)
+![laser_coder_control](../../../img/wso_laser_code_control.jpg)
 
 The Laser Coder system starts validating the entered code, this process takes
 about 5 seconds. If the NO-GO lamp is lit, the code is invalid.
@@ -135,7 +135,7 @@ the currently set code.
 
 This is the main panel to interact with the targeting pod.
 
-![target_des_panel](../../../img/target_des_panel.jpg)
+![target_des_panel](../../../img/wso_target_designator_controls.jpg)
 
 From left to right, top to bottom, it provides the WSO with:
 
@@ -164,7 +164,7 @@ other conditions, such as a valid laser code being set, are met.
 During Track mode, the WSO can manually slew and correct the pods line of sight
 with the Antenna Hand Control, or Antenna Stick.
 
-![pave_spike_antenna_hand_control](../../../img/pave_spike_antenna_hand_control.jpg)
+![pave_spike_antenna_hand_control](../../../img/wso_antenna_hand_control.jpg)
 
 The Challenge Button is used to zoom in or out, while the 2-stage trigger is
 used to switch between modes and fire the laser.
