@@ -24,11 +24,12 @@ only.
 > So keep in mind that other resources
 > may differ a bit in some areas.
 
-Here is an explanation of the designations used:
+Here is an explanation of the symbology used:
 
-* **bold** - given step is necessary to be performed.
-* 🔧 - given step involves or may involve
-[crew chief](../crew_chief/overview.md) interaction.
-* ⚡ - given step **cannot** be performed when **battery start** is made.
+| Symbol   | Description                                                                   |
+|----------|-------------------------------------------------------------------------------|
+| **bold** | step is necessary to be performed                                             |
+| 🔧       | step involves or may involve [crew chief](../crew_chief/overview.md) interaction |
+| ⚡        | step **cannot** be performed when **battery start** is made                   |
 
 ![real_life_crew_with_manual](../img/real_life_crew_with_manual.jpg)

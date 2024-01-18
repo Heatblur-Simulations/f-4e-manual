@@ -3,6 +3,7 @@
 [F-4E Manual](./f4e_manual.md)
 
 - [Introduction](./intro/introduction.md)
+  - [Definitions](./intro/definitions.md)
   - [Historical Background](./intro/history.md)
   - [Foreign Service](./intro/foreign.md)
   - [Air to Air Kills](./intro/air_to_air.md)
