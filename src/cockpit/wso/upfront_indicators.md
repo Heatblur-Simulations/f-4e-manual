@@ -126,7 +126,7 @@ for details.
 
 ## APX-81A Activity Lights
 
-![Activity Light](../../img/wso_apx_activity_lamp.jpg)
+![Activity Light](../../img/wso_apx_81_light.jpg)
 
 Right next to either AoA Indexer is a light that indicates activity
 detected by the APX-81A Combat Tree system.
