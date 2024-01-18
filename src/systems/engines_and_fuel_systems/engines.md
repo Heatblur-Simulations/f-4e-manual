@@ -97,7 +97,7 @@ Cartridges can be installed by the crew chief, see the
 [Crew Chief chapter](../../crew_chief/overview.md)
 for how to interact and request cartridges installation.
 
-> 🔴 Cartridges are explosive and, unless fired, must not be
+> 🔴 WARNING: Cartridges are explosive and, unless fired, must not be
 > forgotten to be removed.
 > Under no circumstances will the aircraft be flown
 > with unfired cartridges in the starter.

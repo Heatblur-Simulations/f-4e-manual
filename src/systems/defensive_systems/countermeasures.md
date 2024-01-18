@@ -258,7 +258,7 @@ chaff dipoles are ejected from the sleeves and leave the disposable sleeve and
 empty squib case behind. The cartridge base provides a recess for the chaff
 pyrotechnic squib.
 
-> 🔴 Accidental discharge of chaff cartridges can cause injury to
+> 🔴 WARNING: Accidental discharge of chaff cartridges can cause injury to
 > personnel or damage to the aircraft.
 <!-- The master dispenser safety pin must be
 installed at all times when loading, unloading or maintaining the system. -->
@@ -271,7 +271,7 @@ of a metal outer sleeve, a flare element, a safe-ing and initiation device and a
 plastic end cap. An indentation in the cartridge base allows for proper flare
 installation.
 
-> 🔴 Accidental discharge of flare cartridges can cause injury to
+> 🔴 WARNING: Accidental discharge of flare cartridges can cause injury to
 > personnel or damage to the aircraft.
 <!-- The master dispenser safety pin must be
 installed at all times when loading, unloading or maintaining the system. -->

@@ -93,7 +93,7 @@ rudder are **set at neutral**.
 * Pitot Heat Check - Set the **pitot heat to ON** and wait for the ground crew to confirm it's warm.
 After that, put the **pitot heat to OFF**.
 
-> 🟠 Pitot heat should not be used for more than 1
+> 🟡 CAUTION: Pitot heat should not be used for more than 1
 > minute during ground operations.
 
 ## Communication
