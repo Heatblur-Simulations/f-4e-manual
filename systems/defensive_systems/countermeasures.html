@@ -194,28 +194,30 @@
 <h2 id="anale-40-countermeasures-system"><a class="header" href="#anale-40-countermeasures-system">AN/ALE-40 Countermeasures System</a></h2>
 <p><img src="../../img/ext_flares.jpg" alt="ext_cm_dispense" /></p>
 <p>The AN/ALE-40 countermeasures dispenser set provides the capability of
-dispensing RR-170 A/AL chaff cartridges or MJU-7/B infrared flare cartridges, or
-a combination of both. The system consists of four chaff dispensers, or a
-combination of two chaff dispensers and two flare dispensers located on the
-inboard armament pylons; a programmer and flares select switch in the pilot
-cockpit; a cockpit control unit (CCU) in the WSO cockpit; indicator lights
-located in both front and rear cockpit; and a dispense button located both in
-the pilot and the WSO cockpit. The circuit breaker for the ALE-40 is located on
-the No.4 Circuit Breaker Panel above the aft left console in the WSO cockpit.</p>
+dispensing RR-170 A/AL chaff cartridges and MJU-7/B infrared flare cartridges.
+The system consists of four dispenser slots located on the
+inboard armament pylons (2 on each) as well as cockpit controls.
+Pilot cockpit contains a programmer,
+a flares select switch with two lamps
+and dispense button located on the throttle.
+And in WSO pit there is a cockpit control unit (CCU).
+The main circuit breaker for the AN/ALE-40 is located on
+the No. 4 Circuit Breaker Panel above the aft left console in the WSO cockpit.</p>
 <p><img src="../../img/cm_dispenser.jpg" alt="cm_dispenser" /></p>
-<div class="table-wrapper"><table><thead><tr><th>Loadout Combination</th><th>Description</th></tr></thead><tbody>
-<tr><td>Empty</td><td>No chaff or flares loaded</td></tr>
-<tr><td>120x chaff</td><td>Only chaff loaded</td></tr>
-<tr><td>15x Flares + 90x chaff</td><td>15 flares and 90 chaff loaded</td></tr>
-<tr><td>30x flares + 60x chaffs</td><td>30 flares and 60 chaffs loaded</td></tr>
-<tr><td>30x flares</td><td>Only 30 flares loaded</td></tr>
+<div class="table-wrapper"><table><thead><tr><th>Dispenser Configuration</th><th>Description</th></tr></thead><tbody>
+<tr><td>No paylod</td><td>Dispensers installed wihtout payload</td></tr>
+<tr><td>120 chaff</td><td>Only chaff loaded</td></tr>
+<tr><td>60 chaff + 30 flare</td><td>60 chaff and 30 flares loaded</td></tr>
+<tr><td>90 chaff + 15 flare</td><td>90 chaff and 15 flares loaded</td></tr>
+<tr><td>30 flare</td><td>Only flares loaded</td></tr>
 </tbody></table>
-</div>
-<p>Dispensing of countermeasures can be initiated by either the pilot or the WSO
-from either the front or the rear cockpit. The CCU will initiate the various
+</div><!-- TODO: there's more -->
+<h2 id="general-operation"><a class="header" href="#general-operation">General operation</a></h2>
+<p>Operation of the AN/ALE-40 is controlled from both the
+front and rear cockpit. The CCU initiates the various
 modes of operation. The programmer will generate the firing commands in
-different combinations called bursts or salvos. A group of several bursts
-constitutes a salvo. The pylon mounted dispensers will convert the firing
+different combinations.
+The pylon mounted dispensers will convert the firing
 commands to individually sequenced firing signals. If the operation mode is set
 to chaff, the dispensing will start in the left pylon dispenser and then
 transfer the dispensing signals to the right pylon dispenser upon depletion of
@@ -224,110 +226,121 @@ will start in the right pylon master dispenser and upon depletion of stores the
 sequencer switch will transfer the dispensing signal to the left master
 dispenser. Flares can also be jettisoned from their dispensers at a rate of 10
 flares per second by activating the ripple switch located on the CCU.</p>
-<h3 id="anale-40-cockpit-control-unit-ccu"><a class="header" href="#anale-40-cockpit-control-unit-ccu">AN/ALE-40 Cockpit Control Unit (CCU)</a></h3>
+<p>Dispensing of countermeasures can be initiated
+by either the pilot (throttle button)
+or the WSO (CCU dispense button or ripple switch).
+Countermeasures will be dispensed according to Flares Select Switch, CCU and Programmer settings.</p>
+<p>There are 2 important terms:</p>
+<ul>
+<li>BURST - single dispense signal</li>
+<li>SALVO - group of bursts</li>
+</ul>
+<blockquote>
+<p>💡 To dispense countermeasures, flaps and speed brakes have to be retracted.</p>
+</blockquote>
+<h2 id="cockpit-control-unit-ccu---wso-cockpit"><a class="header" href="#cockpit-control-unit-ccu---wso-cockpit">Cockpit Control Unit (CCU) - WSO Cockpit</a></h2>
 <p><img src="../../img/wso_an_ale_40_panel.jpg" alt="wso_an_ale_40_panel.jpg" /></p>
 <p>The Cockpit Control Unit (CCU) is installed on the left console of the rear
-cockpit. It consists of a chaff and a flare mode rotary knob, two subtraction
-counters, two indicator lights, a guarded ripple switch and a chaff/flare
-dispenser button. The CCU issues dispense and mode signals through the
-programmer.</p>
+cockpit. It consists of two mode knobs, two
+counters and two indicator lights (one for chaff and one for flare),
+as well a guarded ripple switch and a dispense button.
+The CCU issues signals which are sent to the programmer or directly to the dispensers,
+depending on selected modes.</p>
 <h3 id="chaff-mode-knob"><a class="header" href="#chaff-mode-knob">Chaff Mode Knob</a></h3>
-<p>The chaff operating modes can be selected by turning the chaff mode knob from
-the OFF position to either the SGL, MULT or PROG positions. With the flare
-select switch in the NORMAL position and flaps and speed brakes retracted, the
-switch positions function as follows:</p>
-<p>OFF Chaff system not activated/ not operational. SGL A single burst command that
-is sent to the chaff dispenser whenever either dispense button is pressed. MULT
-One salvo of fire commands is sent to the dispenser through the programmer
-whenever either dispense button is pressed. PROG A group of salvo fire commands
-is sent to the dispenser through the programmer whenever either dispense button
-is pressed.</p>
+<p>With the chaff select switch in the NORMAL position and flaps and speed brakes retracted, the
+switch positions function as follows. For every dispense button press:</p>
+<ul>
+<li>OFF - Chaff system <strong>inactivated</strong>.</li>
+<li>SGL - A <strong>single</strong> chaff is dispensed.</li>
+<li>MULT - Chaff dispensed according to <strong>CHAFF BURST</strong> settings of the Programmer.</li>
+<li>PROG - Chaff dispensed according to <strong>CHAFF BURST</strong> and <strong>CHAFF SALVO</strong> settings of the Programmer.</li>
+</ul>
+<blockquote>
+<p>💡 When Chaff Double mode is selected in the
+<a href="../../dcs/mission_editor.html#chaff-double-dispense">Mission Editor</a>,
+2 times more chaff will be released in every mode
+(2 chaff for every single chaff dispense signal).
+The counter is then set to half the number of total chaff cartridges loaded to indicate
+the number of remaining dispenses (not the cartridges).</p>
+</blockquote>
 <h3 id="flare-mode-knob"><a class="header" href="#flare-mode-knob">Flare Mode Knob</a></h3>
-<p>The flare operating modes can be selected by turning the flare mode knob from
-the OFF position to either the SGL or PROG positions. With the flare select
-switch in the NORMAL position and flaps and speed brakes retracted, the switch
-positions function as follows:</p>
-<p>OFF Flare system not activated/ not operational. SGL A single burst command that
-is sent to the flare dispenser whenever either dispense button is pressed. PROG
-One salvo of fire commands is sent to the dispenser through the programmer
-whenever either dispense button is pressed.</p>
+<p>With the flare select switch in the NORMAL position and flaps and speed brakes retracted,
+the switch  positions function as follows. For every dispense button press:</p>
+<ul>
+<li>OFF - Flare system <strong>inactivated</strong>.</li>
+<li>SGL - A <strong>single</strong> flare is dispensed.</li>
+<li>PROG - Flares dispensed according to <strong>FLARE BURST</strong> settings of the Programmer.</li>
+</ul>
 <h3 id="chaff-and-flare-counters"><a class="header" href="#chaff-and-flare-counters">Chaff and Flare Counters</a></h3>
 <p>There are two subtraction counters, one for the chaff system and one for the
-flare system. They indicate the quantity of remaining chaff and flare cartridge
-dispensers independent of the mode switch position.</p>
-<blockquote>
-<p>💡 When the slave dispenser is set to Chaff Double (CD), the chaff counter
-should be set to half the number of total chaff cartridges loaded or the chaff
-counter will show twice the number of chaff cartridge dispenses remaining.</p>
-</blockquote>
-<h3 id="chaff-double-cd"><a class="header" href="#chaff-double-cd">Chaff Double (CD)</a></h3>
-<p>When Chaff Double is selected in the
-<a href="../../dcs/mission_editor.html#chaff-double-dispense">Mission Editor</a>,
-the ground crew will activate it. In Chaff double mode both dispensers, left and right,
-will dispense at the same time.</p>
+flare system. They indicate the quantity of remaining chaff and flare cartridges.</p>
 <h3 id="chaff-and-flare-indicator-lights"><a class="header" href="#chaff-and-flare-indicator-lights">Chaff and Flare Indicator Lights</a></h3>
 <p>Both the flare and the chaff system have one green indicator light each.
-Whenever a mode is selected on the respective mode knob, the corresponding
-indicator light will illuminate.</p>
+Whenever a mode (other than OFF) is selected on the respective mode knob,
+the corresponding indicator light will illuminate.</p>
 <blockquote>
-<p>💡 Both flare and chaff modes can be operated simultaneously provided a mixed
-chaff/flare loadout has been selected.</p>
+<p>💡 Both chaff and flare can be used simultaneously provided a mixed
+chaff/flare loadout is used.</p>
 </blockquote>
 <h3 id="ripple-switch"><a class="header" href="#ripple-switch">Ripple Switch</a></h3>
-<p>The ripple switch is guarded. When the guard is lifted and the switch is set to
-ON, it will initiate flare dispensing regardless of the position of any other
-switches or mode knobs in the countermeasures system- if the flaps and the speed
-brakes are retracted. The flares will be dispensed at a rate of 10 flares per
+<p>The ripple switch is guarded. When the guard is lifted and the switch is activated,
+it will initiate flare dispensing regardless of the position of any other
+switches or mode knobs in the countermeasures system (if the flaps and the speed
+brakes are retracted). The flares will be dispensed at a rate of 10 flares per
 second until both left and right pylon dispensers are empty.</p>
-<h3 id="dispense-button-rear-cockpit"><a class="header" href="#dispense-button-rear-cockpit">Dispense Button (Rear Cockpit)</a></h3>
-<p>When pressing the dispense button chaff/flare dispensing is initiated as set on
-the CCU and AN/ALE-40 programmer if the flaps and speed brakes are retracted,
-and provided either or both the chaff/flare mode knobs are in any position other
-than OFF.</p>
-<h3 id="anale-40-programmer"><a class="header" href="#anale-40-programmer">AN/ALE-40 Programmer</a></h3>
-<p><img src="../../img/pilot_an_ale_40_ccu.jpg" alt="pilot_an_ale_40_ccu" />
-<img src="../../img/pilot_an_ale_40_programmer.jpg" alt="pilot_an_ale_40_programmer" /></p>
+<h3 id="dispense-button"><a class="header" href="#dispense-button">Dispense Button</a></h3>
+<p>The dispense button, when pressed, initiates chaff/flare
+dispensing as selected by the CCU and
+Programmer provided the flaps and speed brakes are
+retracted and the chaff/flare mode knobs are in
+any position other than OFF.</p>
+<h2 id="programmer---pilot-cockpit"><a class="header" href="#programmer---pilot-cockpit">Programmer - Pilot Cockpit</a></h2>
+<p><img src="../../img/pilot_an_ale_40_programmer.jpg" alt="pilot_an_ale_40_programmer" /></p>
 <p>The AN/ALE-40 Programmer contains the controls and circuitry used to send
-specific fire commands to the chaff/flare dispensers. The following functions
-are available:</p>
-<p>Control Function</p>
-<div class="table-wrapper"><table><thead><tr><th>Setting</th><th>Options</th></tr></thead><tbody>
-<tr><td>CHAFF BURST</td><td>COUNT 1, 2, 3, 4, 6, 8 (units)</td></tr>
-<tr><td></td><td>INTERVAL 0.1, 0.2, 0.3, 0.4 (seconds)</td></tr>
-<tr><td>CHAFF SALVO</td><td>COUNT 1, 2, 4, 8, C (continuous)</td></tr>
-<tr><td></td><td>INTERVAL 1, 2, 3, 4, 5, 8, R (random)</td></tr>
-<tr><td>FLARE BURST</td><td>COUNT 1, 2, 4, 8, C (continuous)</td></tr>
-<tr><td></td><td>INTERVAL 3, 4, 6, 8, 10 (seconds)</td></tr>
+specific fire commands to the chaff/flare dispensers. The following settings
+are adjustable:</p>
+<div class="table-wrapper"><table><thead><tr><th>Category</th><th>Knob</th><th>Values</th><th>Description</th></tr></thead><tbody>
+<tr><td>CHAFF BURST</td><td>COUNT</td><td>1, 2, 3, 4, 6, 8 (units)</td><td>quantity of bursts (per salvo)</td></tr>
+<tr><td></td><td>INTERVAL</td><td>0.1, 0.2, 0.3, 0.4</td><td>time interval between each burst</td></tr>
+<tr><td>CHAFF SALVO</td><td>COUNT</td><td>1, 2, 4, 8, C (continuous)</td><td>number of salvos</td></tr>
+<tr><td></td><td>INTERVAL</td><td>1, 2, 3, 4, 5, 8, R (random)</td><td>time interval between each salvo</td></tr>
+<tr><td>FLARE BURST</td><td>COUNT</td><td>1, 2, 4, 8, C (continuous)</td><td>quantity of bursts</td></tr>
+<tr><td></td><td>INTERVAL</td><td>3, 4, 6, 8, 10</td><td>time interval between each burst</td></tr>
 </tbody></table>
 </div>
+<blockquote>
+<p>💡 All intervals are expressed in seconds.</p>
+</blockquote>
+<h2 id="fuel-system-control-panel---pilot-cockpit"><a class="header" href="#fuel-system-control-panel---pilot-cockpit">Fuel System Control Panel - Pilot Cockpit</a></h2>
+<p><img src="../../img/pilot_an_ale_40_switch.jpg" alt="pilot_an_ale_40_switch" /></p>
 <h3 id="flares-select-switch"><a class="header" href="#flares-select-switch">Flares Select Switch</a></h3>
-<p>If the flares select switch is in the NORMAL position, it arms the
+<p>If the flares select switch is in the <strong>NORMAL</strong> position, it arms the
 countermeasures dispenser system and allows for chaffs and flares to be
 dispensed as set by the CCU and the programmer by pressing either dispense
 button.</p>
-<p>If the flares select switch is in the FLARES position it only affects the front
+<p>If the flares select switch is in the <strong>FLARES</strong> position it only affects the front
 cockpit dispense button by ignoring all switches and knobs in the
 countermeasures system, provided that the flaps and speed brakes are retracted.
 This allows the pilot to dispense a single flare each time he presses the
 dispense button. Rear cockpit dispense functions are unaffected by the switch
 position.</p>
+<h3 id="anale-40-power-on-indicator-light-green"><a class="header" href="#anale-40-power-on-indicator-light-green">AN/ALE-40 Power On Indicator Light (Green)</a></h3>
+<p>The AN/ALE-40 power on indicator light is green. It illuminates when the flares
+select switch is set to NORMAL and at least one of the chaff and flare mode
+knobs are in any position other than OFF.</p>
 <h3 id="flares-indicator-light-amber"><a class="header" href="#flares-indicator-light-amber">Flares Indicator Light (Amber)</a></h3>
 <p>The FLARES indicator light is amber. It illuminates when the flares select
 switch is set to FLARES. When illuminated, flares can be dispensed by pressing
-the front cockpit dispense button regardless of programmer and CCU switch and
-knob positions, if the flaps and speed brakes are retracted.</p>
-<h3 id="anale-40-power-on-indicator-light-green"><a class="header" href="#anale-40-power-on-indicator-light-green">AN/ALE-40 Power On Indicator Light (Green)</a></h3>
-<p>The AN/ALE-40 power on indicator light is green. It illuminates when the flares
-select switch is set to NORMAL and either (or both) of the chaff and flare mod
-knobs are in any position other than OFF.</p>
-<h3 id="dispense-button-front-cockpit"><a class="header" href="#dispense-button-front-cockpit">Dispense Button (Front Cockpit)</a></h3>
+the front cockpit dispense button regardless of programmer and CCU settings,
+if the flaps and speed brakes are retracted.</p>
+<h2 id="dispense-button-pilot-cockpit"><a class="header" href="#dispense-button-pilot-cockpit">Dispense Button (Pilot Cockpit)</a></h2>
 <p><img src="../../img/pilot_throttle_cm.jpg" alt="pilot_throttle_cm_dispense" /></p>
 <p>When pressing the dispense button chaff/flare dispensing is initiated as set on
 the CCU and AN/ALE-40 programmer if the flaps and speed brakes are retracted and
 the flares select switch is set to NORMAL. Additionally single unit flare
 dispensing can be initiated by a single button press if the flares select switch
 is set to FLARES.</p>
-<h3 id="anale-40-dispensers"><a class="header" href="#anale-40-dispensers">AN/ALE-40 Dispensers</a></h3>
+<h2 id="anale-40-dispensers"><a class="header" href="#anale-40-dispensers">AN/ALE-40 Dispensers</a></h2>
 <p><img src="../../img/cm_dispenser.jpg" alt="cm_dispenser" /></p>
 <p>The AN/ALE-40 countermeasures dispensers are divided into two distinct dispenser
 configurations. The master (outboard) dispenser contains the electronics and
@@ -366,9 +379,8 @@ according to the selected loadout.</p>
 <blockquote>
 <p>💡 The payload selector switch position is set to CS (chaff single dispense)
 by default in DCS. To set it to CD (chaff double dispense), you have to do so
-either in the Mission Editor Unit Aircraft Additional Options tab or in the
-kneeboard. This action can only be performed on the ground and/or before mission
-start.</p>
+either in the <a href="../../dcs/mission_editor.html#chaff-double-dispense">Mission Editor</a>
+Aircraft Additional Options tab.</p>
 </blockquote>
 <p>One slave dispenser assembly is installed on the inboard side of each inboard
 armament pylon. It contains a payload selector switch to set either chaff single
@@ -391,19 +403,25 @@ basic plastic sleeve, chaff dipoles and a plastic end cap. When dispensed the
 chaff dipoles are ejected from the sleeves and leave the disposable sleeve and
 empty squib case behind. The cartridge base provides a recess for the chaff
 pyrotechnic squib.</p>
-<p>WARNING: Accidental discharge of the chaff cartridges can cause injury to
-personnel or damage to the aircraft. The master dispenser safety pin must be
-installed at all times when loading, unloading or maintaining the system.</p>
+<blockquote>
+<p>⚠️ Accidental discharge of the chaff cartridges can cause injury to
+personnel or damage to the aircraft.</p>
+</blockquote>
+<!-- The master dispenser safety pin must be
+installed at all times when loading, unloading or maintaining the system. -->
 <h3 id="flare-payload-module-and-cartridges"><a class="header" href="#flare-payload-module-and-cartridges">Flare Payload Module and Cartridges</a></h3>
 <p>The flare payload module can only be installed on the master dispenser assembly.
 The flare housing adapter serves as the interface. The flare cartridge consists
 of a metal outer sleeve, a flare element, a safe-ing and initiation device and a
 plastic end cap. An indentation in the cartridge base allows for proper flare
 installation.</p>
-<p>WARNING: Accidental discharge of the flare cartridges can cause injury to
-personnel or damage to the aircraft. The master dispenser safety pin must be
-installed at all times when loading, unloading or maintaining the system.</p>
-<h3 id="pyrotechnic-squibs"><a class="header" href="#pyrotechnic-squibs">Pyrotechnic Squibs</a></h3>
+<blockquote>
+<p>⚠️ Accidental discharge of the flare cartridges can cause injury to
+personnel or damage to the aircraft.</p>
+</blockquote>
+<!-- The master dispenser safety pin must be
+installed at all times when loading, unloading or maintaining the system. -->
+<h3 id="flare-pyrotechnic-squibs"><a class="header" href="#flare-pyrotechnic-squibs">Flare Pyrotechnic Squibs</a></h3>
 <p>The chaff pyrotechnic squibs are installed immediately prior to use and are
 stored separately from the chaff cartridges. They are metal encased and
 electrically fired.</p>
