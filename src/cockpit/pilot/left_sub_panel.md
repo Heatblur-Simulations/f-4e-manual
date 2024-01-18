@@ -76,17 +76,17 @@ trim should be between 1-3 units nose down.
 Control the [external Landing and Taxi lamps.](../../systems/lighting.md) Left main gear must be
 down and locked for the switch to function
 
-> 💡 Lights are turned off automatically when the gear is turned in.
+> 💡 Lights are turned off automatically when the gear is retracted.
 
 ## External Stores Emergency Release
 
 ![EmerRel](../../img/pilot_external_stores_emergency_release.jpg)
 
 Also called the "_panic button_", the External Stores Emergency Release will
-immediately perform separation of all jettison-able stores, without [air-to-air
+immediately perform separation of all stores, without [air-to-air
 weapons](../../stores/air_to_air/overview.md) or special weapons.
 
-## Aileron Rudder Interconnect (AIR) Circuit Breaker
+## Aileron Rudder Interconnect (ARI) Circuit Breaker
 
 ![ARI Fuse](../../img/pilot_ari.jpg)
 
@@ -101,7 +101,7 @@ for further information.
 
 ![EBrake](../../img/pilot_emergency_brake_handle.jpg)
 
-Pulling this handle activates the Emergency Hydraulic Brake System, which dumps
-the remainder of the hydraulic accumulator into the brake system for a limited
-number of brake actuation. Differential braking will work, however the number
-of available actuations is limited.
+Pulling this handle activates the Emergency Hydraulic Brake System, dumping the remaining pressure
+of the hydraulic accumulator in to the brake system for a limited number of brake applications. Note
+that differential braking will work as normal, but will also serve to exhaust hydraulic pressure
+more quickly.

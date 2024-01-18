@@ -9,7 +9,7 @@ front cockpit.
 
 ## Nose/Tail ARM Switch
 
-![pilot_nose_tail_arm](../../img/pilot_nose_tail_arm.jpg)
+![pilot_nose_tail_arm](../../img/pilot_nose_tail_arming.jpg)
 
 Beginning from the top of the panel, the four way Nose/Tail ARM switch selects
 the solenoids for arming wire capture on MERs and TERs, which then arm the fuzes
@@ -93,7 +93,7 @@ The Weapon Selector Knob is used to designate the type of weapon to be used
 
 ## Centerline Tank Aboard Light
 
-![pilot_centerline_tank_aboard](../../img/pilot_centerline_tank_aboard.jpg)
+![pilot_centerline_tank_aboard](../../img/pilot_centerline_tank_aboard_light.jpg)
 
 The [forward AIM-7 missiles](../../stores/air_to_air/aim_7.md)
 can be

@@ -106,7 +106,7 @@ volume of the marker beacon audio in the front cockpit.
 
 ## WSO Course Indicator
 
-![wso_course_indicator](../../img/wso_course.jpg)
+![wso_course_indicator](../../img/wso_course_indicator.jpg)
 
 In the rear cockpit is the Course Indicator, on the main instrument panel; During
 an ILS approach, the indicator displays relative heading for the course set in the

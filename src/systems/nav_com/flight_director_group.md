@@ -1,6 +1,6 @@
 # Flight Director Group
 
-![pilot_flight_director_group](../../img/pilot_flight_director_group_coloured.jpg)
+![pilot_flight_director_group](../../img/pilot_flight_director_group_overview_numbered.jpg)
 
 Accurate course navigation is provided by
 the Flight Director Group, which includes the Flight Director Computer (1), the Horizontal Situation
@@ -9,7 +9,7 @@ Indicator (ADI) (4), in the front cockpit, and the
 Bearing Distance Heading Indicator (BDHI) (5) together with the Navigation Mode Selector Switch (6)
 in the rear cockpit.
 
-![wso_nav_mode_selector](../../img/wso_flight_director_group.jpg)
+![wso_nav_mode_selector](../../img/wso_flight_director_group_small_overview.jpg)
 
 ## Navigation Function Selector Panel
 
@@ -88,7 +88,7 @@ an ADI bank steering command.
 
 ## Horizontal Situation Indicator (HSI)
 
-![pilot_horizontal_situation_indicator](../../img/pilot_horizontal_situation_indicator.jpg)
+![pilot_horizontal_situation_indicator](../../img/pilot_hsi.jpg)
 
 ![HSI](../../img/hsi.jpg)
 
@@ -170,7 +170,7 @@ failure occurs outside of the AN/AJB-7.
 
 ## Bearing Distance Heading Indicator (BDHI)
 
-![wso_bearing_distance_heading_indicator](../../img/wso_bearing_distance_heading_indicator.jpg)
+![wso_bearing_distance_heading_indicator](../../img/wso_bdhi.jpg)
 
 The Bearing Distance Heading Indicator (BDHI)
 displays navigation information using two needles, referred to as the No. 1 and No. 2 pointers,

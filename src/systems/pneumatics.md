@@ -30,4 +30,4 @@ A [Pneumatic Pressure Indicator](../cockpit/pilot/pedestal_group.md#pneumatic-pr
 is found on the front cockpit pedestal panel.
 It indicates manifold pressure of the system.
 
-![Pneumatics](../img/Pneum.jpg)
+![Pneumatics](../img/pilot_pneumatic.jpg)

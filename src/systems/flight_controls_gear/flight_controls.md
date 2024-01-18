@@ -7,7 +7,7 @@ rudder, the aileron-spoiler seen on top of the right wing in the picture and rea
 
 ## Control Sticks
 
-![FlightStick](../../img/pilot_control_stick.jpg)
+![FlightStick](../../img/pilot_stick.jpg)
 
 A control stick is provided in both cockpits, with near-uniform switchology
 between the two. A Trim Control is found on both sticks to provide force
@@ -84,7 +84,7 @@ displacement when the yaw stab aug switch is disengaged.
 The circuit breaker for the ARI is located right of the
 Emergency stores release.
 
-![ARIfuse](../../img/ARIfuse.jpg)
+![ARIfuse](../../img/pilot_ari.jpg)
 
 > 💡 To permanently disengage the ARI, the circuit
 > breaker on the left utility panel must be pulled
@@ -111,7 +111,7 @@ can always be overridden through the rudder pedals.
 
 ## Automatic Flight Control System (AFCS) - AN/ASA-32
 
-![pilot_afcs_switches](../../img/pilot_stability_augmentation_switches.jpg)
+![pilot_afcs_switches](../../img/pilot_afcs_control_panel.jpg)
 
 The automatic flight control system (AFCS) is an
 electro-hydraulic system designed to provide stable,
@@ -371,7 +371,7 @@ In the Norm position, Maneuvering Slat deployment is a function of AoA; above
 10.5 units. Maneuvering Slat operation includes a speed-induced blowback; slats
 will retract due to air pressure between 568 and 602 knots.
 
-![Slats Override](../../img/SlatsOvrd.jpg)
+![Slats Override](../../img/pilot_slats_override_switch.jpg)
 
 To the rear of the Fuel Control Panel in the front cockpit is the Slat Override Switch. Guarded,
 this switch has two positions: NORM and IN. Defaulted to NORM under the guard, switching to IN
@@ -403,7 +403,7 @@ inboard [throttle](../../cockpit/pilot/left_console/front_section.md#throttles) 
 Either switch will actuate the brakes. The positions
 are Out, Stop, and In; the Out position is momentary and reverts back to Stop when released.
 
-![pilot_speed_brake](../../img/pilot_air_brake.jpg)
+![pilot_speed_brake](../../img/pilot_speed_brake.jpg)
 
 Brake actuation illuminates the Speed Brake Out Indicator Light found on the
 [telelight Panel](../../cockpit/pilot/right_sub_panel.md#telelight-annunciator-panel). Brake

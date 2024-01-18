@@ -48,7 +48,7 @@ same time. If both are selected, the external tanks will take priority.
 
 ## Fuel Boost System
 
-![BoostInd](../../img/BoostInd.jpg)
+![BoostInd](../../img/pilot_boost_pump_indicators.jpg)
 
 Flow from Cell 1 to the engines is performed by a pair of boost pumps. The pumps
 are installed at the bottom of the tank to provide fuel in the event of a
@@ -98,7 +98,7 @@ bow, will light.
 Fuel from the wings can be dumped directly, rather than requiring transfer into
 the fuselage, using the Wing Fuel Dump Switch.
 
-![InternalWingFuelDump](../../img/pilot_internal_wing_dump_switch.jpg)
+![InternalWingFuelDump](../../img/pilot_fuel_dump_switch.jpg)
 
 This switch, when selected to
 DUMP, will release fuel from the internal wing tanks at their dump lines at the

@@ -22,12 +22,7 @@ Available variants include:
 
 To setup the aircraft for launching a Bullpup, ensure the relevant station is
 armed, the Weapon Selector is in the AGM-12 position and the Video Selector set
-to WEAPON.
-
-![Weapon Selector](../../../img/agm_12_weapon_selector.jpg)
-![Video Selector](../../../img/video_selector_weapon.jpg)
-
-Also make sure the screen is turned on and set to TV.
+to WEAPON. Also make sure the screen is turned on and set to TV.
 
 After launch, the weapon can be steered either by the pilot using the mini-stick
 next to the throttle, or by the WSO using the Antenna Hand Control Stick.

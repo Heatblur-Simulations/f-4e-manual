@@ -25,7 +25,7 @@ event is signified by a circle around the emitter symbol.
 
 ## ALR-46 Controls
 
-![pilot_rwr_control_panel](../../img/wso_an_apr_36.jpg)
+![pilot_rwr_control_panel](../../img/wso_rwr_control_panel.jpg)
 
 Controls are duplicated for pilot and WSO. The pilot controls are
 directly below the RWR Indicator, while the controls for the WSO are found
@@ -91,7 +91,7 @@ the MISSILE LAUNCH indications in this button will illuminate, and a circle is s
 the threat emitter defined as guiding the inbound weapon. Pressing the button while illuminated will
 provide launch audio through the intercom.
 
-![pilot_rwr_missile_launch](../../img/pilot_rwr_missile_launch.jpg)
+![pilot_rwr_missile_launch](../../img/rwr_launch_light.jpg)
 
 ### Low Altitude (LOW ALT)
 
@@ -138,7 +138,7 @@ directive to a SAM, but does not respond to discrete changeover signals. Thus, a
 ACTIVITY warning may in fact indicate a launch, depending on the system engaging the F-4 and the
 circumstances surrounding it. The indication will provide a circle around the threat emitter.
 
-![pilot_rwr_activity_power](../../img/pilot_rwr_activity_power.jpg)
+![pilot_rwr_activity_power](../../img/rwr_activity_light.jpg)
 
 ### System Power
 
@@ -156,7 +156,7 @@ mode deactivated and the altitude priority as when power was lost.
 
 ### Excess Noise Strobe Indicators
 
-![rwr_excess_noise_strobe](../../img/rwr_excess_noise_strobe.jpg)
+![rwr_excess_noise_strobe](../../img/rwr_t_strobe.jpg)
 
 During normal operation, a trio of three T shaped indicators appear in the 9, 12, and 3 o'clock
 positions near the center of the RWR CRT. These indicators signify the absence of excess noise in

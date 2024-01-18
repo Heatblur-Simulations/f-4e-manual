@@ -55,6 +55,7 @@
 | Abbreviation | Definition                      |
 |--------------|---------------------------------|
 | dc           | Direct current                  |
+| DSCG         | Digital Scan Converter Group    |
 | DCU          | Douglas Control Unit            |
 | DMAS         | Digital Modular Avionics System |
 | DME          | Distance Measuring Equipment    |

@@ -10,3 +10,5 @@ the [stabilator,](./flight_controls.md#aileron-spoiler-control-and-stabilator-co
 [ailerons,](./flight_controls.md#aileron-spoiler-control-and-stabilator-control-feel-and-trim-systems)
 and [spoilers,](./flight_controls.md#aileron-spoiler-control-and-stabilator-control-feel-and-trim-systems)
 with artificial feel systems simulating aerodynamic forces for the control stick and rudder pedals.
+
+![f4_formation-flying](../../img/real_life_f4_formation.jpg)

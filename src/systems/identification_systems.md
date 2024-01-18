@@ -81,7 +81,7 @@ Mode 3/A replies are special emergency signals of code 7700.
 
 ## Interrogator Systems
 
-![WSO APX Control Panel](../img/apx_80.jpg)
+![WSO APX Control Panel](../img/wso_apx_80.jpg)
 
 The Phantom combines three systems, AN/APX-76, -80A and -81A, for interrogating and
 challenging other aircraft to detect whether they are friend or foe.
@@ -110,7 +110,7 @@ switches to ACTIVE respectively.
 Once setup, interrogation can be initiated by pressing the
 Challenge Button on the Antenna Hand Control Stick.
 
-![Challenge Button](../img/wso_challenge_button.jpg)
+![Challenge Button](../img/wso_antenna_hand_control_challenge_button.jpg)
 
 The radar screen will now display lines next to each radar return if
 it was able to detect that a contact is friendly.
@@ -127,7 +127,7 @@ by either interrogation system:
 
 #### Activity Lights
 
-![APX Activity Lights](../img/wso_apx_activity_lamp.jpg)
+![APX Activity Lights](../img/wso_apx_81_light.jpg)
 
 Right next to either AoA Indexer in the WSO cockpit is a light that indicates activity
 detected by the APX-81A Combat Tree system.

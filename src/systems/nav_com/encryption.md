@@ -15,7 +15,7 @@ UHF functions as a conventional voice transceiver.
 
 ## KY-28 Controls and Indicators
 
-![KY28Mode](../../img/KY28Mode.jpg)
+![KY28Mode](../../img/pilot_ky_28.jpg)
 
 The KY-28 is controlled by the KY-28 control panel and respectively the
 conventional UHF or Intercom controls. Both front and rear cockpit instrument
@@ -25,7 +25,7 @@ illuminated the KY-28 and UHF/intercom is operated in the cipher mode.
 
 ## KY-28 Control Panel
 
-![wso_ky_28](../../img/wso_ky_28.jpg)
+![wso_ky_28](../../img/wso_ky_28_control_panel.jpg)
 
 The KY-28 control panel is in the rear cockpit. It has a power knob, a mode switch and a code
 zeroize button. The power knob provides power to the KY-28 and can be set to either OFF, ON or RLY (

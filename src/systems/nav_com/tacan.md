@@ -16,7 +16,7 @@ best signal.
 
 ## TACAN Controls
 
-![tacan_general](../../img/tacan_general.jpg)
+![tacan_general](../../img/pilot_tacan.jpg)
 
 TACAN controls are found on the navigation control panel in each cockpit.
 

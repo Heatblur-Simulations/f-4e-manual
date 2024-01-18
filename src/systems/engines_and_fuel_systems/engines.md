@@ -104,7 +104,7 @@ for how to interact and request cartridges installation.
 
 ### Start Switch
 
-![StartSwitch](../../img/pilot_start_switch.jpg)
+![StartSwitch](../../img/pilot_engine_start_switch.jpg)
 
 Used only for cartridge start, selecting L or R ignites the cartridge installed for
 the respective engine.
@@ -130,7 +130,7 @@ are maintained until the throttle is removed from the afterburner detent.
 
 ### Engine Anti-Icing System
 
-![EngineDeIcing](../../img/pilot_engine_de_ice.jpg)
+![EngineDeIcing](../../img/pilot_anti_ice_switch.jpg)
 
 Using
 the Anti-Icing Switch

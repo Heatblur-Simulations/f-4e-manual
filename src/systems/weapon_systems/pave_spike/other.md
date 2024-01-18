@@ -5,7 +5,7 @@
 After turning on the system, the pod can be un-stowed by pressing the STOW push
 button.
 
-![stow_lamp](../../../img/stow_lamp.jpg)
+![stow_lamp](../../../img/wso_target_designator_stow_button.jpg)
 
 When un-stowed, the pod moves according to the current selections and
 automatically goes into the WIDE FOV.
@@ -40,7 +40,7 @@ during all normal operation.
 However, if the temperature gets out of control, the Overheat lamp will
 illuminate.
 
-![overheat_lamp](../../../img/overheat_lamp.jpg)
+![overheat_lamp](../../../img/wso_target_designator_ins_button.jpg)
 
 In this case, make sure to turn off the pod immediately and give it some time to
 cool down first. Ignoring the lamp will cause parts of the pod to melt, damaging
@@ -147,7 +147,7 @@ TCTO 518, known as the Smart-Track upgrade, aims at removing the requirement to
 press the Reject/Override button to force the laser measured slant range in
 situations in which the computed slant range was usually too inaccurate.
 
-![reject_override_button](../../../img/reject_override_button.jpg)
+![reject_override_button](../../../img/wso_target_designator_reject_button.jpg)
 
 With the upgrade, the system will automatically accept the laser slant range
 whenever the pods elevation gimbal is above -7.5 degrees. I.e. in shallow

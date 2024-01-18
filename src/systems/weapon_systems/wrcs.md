@@ -7,7 +7,7 @@ provided by the AN/ASQ-91 WRCS. The WRCS inputs are set with the associated
 panels in the cockpits, and these commands, along with INS data and radar target
 ranging, are used by the ballistic computer to provide the release signal.
 
-![wso_wrcs_panel](../../img/wso_wrcs.jpg)
+![wso_wrcs_panel](../../img/wso_wrcs_panel.jpg)
 
 ## Target Range Controls
 

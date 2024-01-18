@@ -17,7 +17,7 @@ of the Navigation Computer.
 
 ### Function Selector Knob
 
-![Function Selector Knob](../../../img/wso_nav_function_knob.jpg)
+![Function Selector Knob](../../../img/wso_nav_panel_function_selector_knob.jpg)
 
 | Position | Description                                                                                                                      |
 | -------- | -------------------------------------------------------------------------------------------------------------------------------- |
@@ -29,21 +29,21 @@ of the Navigation Computer.
 
 ### Wind Control Knobs and Counters
 
-![Wind Knobs](../../../img/wso_nav_wind_knobs.jpg)
+![Wind Knobs](../../../img/wso_nav_panel_wind_counters.jpg)
 
 Enables manual setting of wind velocity (in knots) and direction (in degrees, from), displayed
 on the counters. Utilized by the Navigation Computer in AIR DATA mode.
 
 ### Magnetic Variation Knob and Counters
 
-![Magnetic Variation Knob](../../../img/wso_nav_mag_var.jpg)
+![Magnetic Variation Knob](../../../img/wso_nav_panel_magnetic_variation.jpg)
 
 Allows manual setting of magnetic variation (in degrees). Essential for navigation computations
 in AIR DATA mode and for initial (BATH) INS Alignment.
 
 ### Position Control Knobs and Counters
 
-![Own Position Knobs](../../../img/wso_nav_own_pos_knobs.jpg)
+![Own Position Knobs](../../../img/wso_nav_panel_pos_control.jpg)
 
 These knobs are used to manually change the current aircraft position in terms of latitude
 and longitude, as displayed on the counters (in degrees and minutes). They must be pressed
@@ -54,7 +54,7 @@ in to be effective.
 
 ### Target Control Knobs and Counters
 
-![Target Position Knobs](../../../img/wso_nav_target_knobs.jpg)
+![Target Position Knobs](../../../img/wso_nav_panel_tgt_control.jpg)
 
 The target controls enable the setting of target latitude and longitude counters, which can be used either
 as direct waypoint targets (when the Function Selector Knob is set to TARGET 1) or to memorize
@@ -62,7 +62,7 @@ TARGET 2 coordinates (after the RESET position has been selected).
 
 ### Position Update Switch
 
-![Position Update Switch](../../../img/wso_nav_pos_update_switch.jpg)
+![Position Update Switch](../../../img/wso_nav_panel_pos_update_switch.jpg)
 
 | Position | Description                                                                                                                   |
 |----------|-------------------------------------------------------------------------------------------------------------------------------|
@@ -75,28 +75,28 @@ TARGET 2 coordinates (after the RESET position has been selected).
 
 ### Variation Sync Meter
 
-![Variation Sync Meter](../../../img/wso_nav_variation_meter.jpg)
+![Variation Sync Meter](../../../img/wso_nav_panel_variation_sync.jpg)
 
 In Inertial mode, this meter displays the discrepancy between the INS-computed and manually set
 magnetic variation. In AIR DATA mode, the manually set variation does not affect this indicator.
 
 ### Test Cap Off Light
 
-![Test Cap Light](../../../img/wso_nav_test_cap_light.jpg)
+![Test Cap Light](../../../img/wso_nav_panel_test_cap_off.jpg)
 
 Illuminates when there is a failure in the true airspeed circuit from the Air Data Computer,
 indicating an open circuit condition.
 
 ### Latitude and Longitude Sync Lights
 
-![Lat/Lon Sync Lights](../../../img/wso_nav_lat_lon_sync_light.jpg)
+![Lat/Lon Sync Lights](../../../img/wso_nav_panel_sync_lights.jpg)
 
 Illuminate when the position counters for latitude or longitude do not match the coordinates
 provided by the INS (difference above 1.5 arc minutes).
 
 ### Air Data Mode Light
 
-![Air Data Mode Light](../../../img/wso_nav_air_data_mode.jpg)
+![Air Data Mode Light](../../../img/wso_nav_panel_air_data_light.jpg)
 
 Illumination indicates that the Navigation Computer is operating in AIR DATA Mode.
 

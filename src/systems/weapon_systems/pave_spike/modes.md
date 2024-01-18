@@ -10,7 +10,7 @@ of three acquisition modes:
 
 The modes can be selected by the WSO, using the Acquisition Mode Switch.
 
-![acq_mode_switch](../../../img/acq_mode_switch.jpg)
+![acq_mode_switch](../../../img/wso_target_designator_acq_switch.jpg)
 
 ## Visual modes
 
@@ -65,7 +65,7 @@ range can be obtained by firing the laser. Alternatively, it is computed based
 on the aircraft barometric altitude and the target altitude, which can be set by
 the WSO on the WRCS panel.
 
-![pave_spike_wrcs_target_alt](../../../img/pave_spike_wrcs_target_alt.jpg)
+![pave_spike_wrcs_target_alt](../../../img/wso_wrcs_panel_target_altitude.jpg)
 
 Without a WRCS integration, a target altitude of 0 is assumed, degrading the
 stabilization.
@@ -96,7 +96,7 @@ action on the Antenna Stick.
 A target-insert signal is usually initiated by the WSO pressing the
 target-insert button.
 
-![wrcs_target_insert_button](../../../img/wrcs_target_insert_button.jpg)
+![wrcs_target_insert_button](../../../img/wso_cursor_control_panel_target_insert_button.jpg)
 
 However, when the pod is currently in Track-mode and is maneuvered outside of
 its gimbal limits, it will automatically initiate a target-insert signal and
