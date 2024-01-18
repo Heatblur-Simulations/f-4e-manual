@@ -21,5 +21,5 @@ The following symbology is used throughout this manual.
 | Symbol   | Description                                                                              |
 | -------- | ---------------------------------------------------------------------------------------- |
 | **bold** | Step is necessary to be performed                                                        |
-| 🔧       | Step involves or may involve [crew chief](crew_chief/overview.md) interaction            |
+| 🔧       | Step involves or may involve [crew chief](../crew_chief/overview.md) interaction         |
 | ⚡       | Step **cannot** be performed when **battery start** is made, external power is necessary |
