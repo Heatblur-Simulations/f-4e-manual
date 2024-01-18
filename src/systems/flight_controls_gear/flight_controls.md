@@ -195,7 +195,7 @@ resulting from the forward location sensing a component
 of pitching acceleration. The G-disengage feature is
 inoperative outside the ±70° limits of the autopilot.
 
-> ⚠️ The G switch does not disengage the autopilot
+> 🔴 The G switch does not disengage the autopilot
 > under conditions of low airspeed or heavy gross
 > weight before the aircraft stalls. If the autopilot
 > remains engaged during a stall, the autopilot
@@ -278,7 +278,7 @@ to ENGAGE.
 4. When aititude hold mode is desired, place altitude
 hold switch to ENGAGE.
 
-> ⚠️ Do not attempt to change pitch attitude of the
+> 🔴 Do not attempt to change pitch attitude of the
 > aircraft from the rear cockpit in the AFCS mode.
 > Since no force, transducer is in the rear cockpit
 > control stick, applying force will cause pitch trim

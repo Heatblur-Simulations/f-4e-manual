@@ -8,6 +8,7 @@
   - [Air to Air Kills](./intro/air_to_air.md)
   - [First Flights](./intro/first_flights.md)
   - [Technical Specification](./intro/specification.md)
+- [Symbology](./symbology.md)
 - [Cockpit Overview](./cockpit/overview.md)
   - [Pilot Cockpit](./cockpit/pilot/overview.md)
     - [DSCG Controls](./cockpit/pilot/dscg_controls.md)
