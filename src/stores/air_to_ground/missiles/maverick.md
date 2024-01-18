@@ -37,9 +37,10 @@ suggested to start the stopwatch to the left of the Multiple Weapon Panel as a
 means to avoid disturbing this sequence. Once the warmup has completed, the
 lower amber ARM indicators on the Station Select buttons will illuminate.
 Failure to permit this gyro cycle can potentially damage the guidance unit of
-the missiles aboard. During this warmup period, it is necessary to set the
+the missiles aboard. During this warmup period, it is helpful to set the
 optical sight to A/G mode, and enter a depression of 45 mils, so that the sight
-alignment be that of the missile seeker.
+alignment be that of the missile seeker. This way, the pilot can put the target on the pipper
+and it will be within the weapons view.
 
 | Maverick unlocked                                        | Maverick locked on Target                              | Maverick zoomed in locked on Target                   |
 |----------------------------------------------------------|--------------------------------------------------------|-------------------------------------------------------|
