@@ -238,7 +238,8 @@ relevant sections below.
 ### BST (Boresight) Position
 
 BST forces the radar into the [boresight](#boresight-and-cage-condition) state. This is used when
-the target is spotted visually or a [Sparrow](#todo) is to be fired without radar tracking.
+the target is spotted visually or a [Sparrow](../stores/air_to_air/aim_7.md) is to be fired without
+radar tracking.
 
 ### RDR (Radar) Position
 
