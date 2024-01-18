@@ -194,81 +194,50 @@
 <p>The center area of the left console features the radar control
 and countermeasure panel.</p>
 <h2 id="radar-set-control-panel"><a class="header" href="#radar-set-control-panel">Radar Set Control Panel</a></h2>
+<p>See <a href="../../../systems/radar.html#radar-set-control-panel">Radar Set Control Panel</a> section for more
+detailed description of all the functions below.</p>
 <p><img src="../../../img/wso_radar_set_control_panel.jpg" alt="wso_radar_set_control_panel" /></p>
 <h3 id="power-knob"><a class="header" href="#power-knob">Power Knob</a></h3>
 <p><img src="../../../img/wso_radar_power_knob.jpg" alt="Power Knob" /></p>
 <p>Five position rotary switch controlling power state of
 the <a href="../../../systems/radar.html">APQ-120 Radar.</a></p>
-<div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
-<tr><td>OFF</td><td>Powers radar off.</td></tr>
-<tr><td>TEST</td><td>Applies voltage to control monitor power and provides <a href="../../../procedures/bit_tests/overview.html">BIT-test</a> functions 1 through 6.</td></tr>
-<tr><td>STBY</td><td>Power applied to radar, remains in a non-transmitting standby state.</td></tr>
-<tr><td>OPR</td><td>System is fully operational.</td></tr>
-<tr><td>EMER</td><td>Overrides the time delay, pressure, and temperature restrictions to allow radar operation.</td></tr>
-</tbody></table>
-</div>
+<p>See the <a href="../../../systems/radar.html#power">Radar Power Section</a> for more details.</p>
 <h3 id="polar-switch"><a class="header" href="#polar-switch">Polar Switch</a></h3>
-<p>Controls polarization of transmitted radio frequency energy. CIR 1 and 2 should be used in the
-presence of rain. However, if <a href="../../../stores/air_to_air/aim_7.html">AIM-7</a>
-Missiles should be fired, use CIR 1.</p>
-<div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
-<tr><td>LIN</td><td>RF energy is lineally polarized in a vertical orientation. <a href="../../../stores/air_to_air/aim_7.html">AIM-7</a> default mode.</td></tr>
-<tr><td>CIR 1</td><td>RF energy is rotated clockwise from the vertical plane. <a href="../../../stores/air_to_air/aim_7.html">AIM-7</a> can be fired.</td></tr>
-<tr><td>CIR 2</td><td>RF energy is rotated counterclockwise from the vertical plane. <a href="../../../stores/air_to_air/aim_7.html">AIM-7</a> cannot be fired.</td></tr>
-</tbody></table>
-</div>
+<p><img src="../../../img/wso_radar_polar_switch.jpg" alt="Polar Switch" /></p>
+<p>Controls polarization of transmitted radio frequency energy. LIN should be used in normal
+conditions, CIR 1 and CIR 2 can be used to reduce precipitation clutter at the expense of increased
+ground clutter.</p>
+<p><a href="../../../systems/radar.html#polarization-control">See Radar Polarization Knob Section for more details.</a></p>
 <h3 id="range-knob"><a class="header" href="#range-knob">Range Knob</a></h3>
 <p><img src="../../../img/wso_radar_range_knob.jpg" alt="Range Knob" /></p>
 <p>Used to select range sweep of 5, 10, 25, 50, 100, or 200 mile ranges on both
-radar displays. First four ranges
-are <a href="../../../systems/radar.html#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident">air-to-air intercept positions,</a>
-final two are ground mapping modes only, and disengage lock-on capability. Selecting a setting
-illuminates the applicable <a href="../../pilot/dscg_controls.html#range-lights">range lamp</a>, and displays the
-value on the radar scope upper left corner.</p>
+radar displays. Ranges up to 50 are displayed on the range lamp <a href="../../pilot/dscg_controls.html#range-lights">range lamp</a>.</p>
+<p>See the <a href="../../../systems/radar.html#radar">Radar Range Knob Section</a> for more details.</p>
 <h3 id="maneuver-switch"><a class="header" href="#maneuver-switch">Maneuver Switch</a></h3>
-<p>Controls radar tracking response due to acceleration limits and received
-countermeasures and clutter. LOW G provides the velocity reject function whilst HI G allows tracking
-of a maneuvering target without breaking radar lock on.</p>
-<div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
-<tr><td>LOW G</td><td>Default position. Limits track response due to countermeasures and clutter.</td></tr>
-<tr><td>HI G</td><td>Allows track loop to respond to high acceleration. Automatically engaged with CAA.</td></tr>
-</tbody></table>
-</div>
+<p><img src="../../../img/wso_radar_maneuver_switch.jpg" alt="Maneuver Switch" /></p>
+<p>Controls radar tracking acceleration response. LOW sets a limit on antenna acceleration and HI
+removes acceleration limit.</p>
+<p><a href="../../../systems/radar.html#maneuver-switch">See Radar Maneuver Knob Section</a></p>
 <h3 id="bar-scan-switch"><a class="header" href="#bar-scan-switch">Bar Scan Switch</a></h3>
-<p>Selects <a href="../../../systems/radar.html#scan">elevation scan</a> pattern between 1 and 2 bars.</p>
-<p>In 2 bar scan, the search pattern is separated by
-3.75 degrees on each scan.</p>
-<p>In <a href="../../../systems/radar.html#bst-boresight-position">boresight</a>
-or <a href="../../../systems/radar.html#air-grd-air-to-ground-position">air-to-ground modes</a>, 1 bar scan is
-automatically commanded.</p>
+<p><img src="../../../img/wso_radar_bar_scan_switch.jpg" alt="Bar Scan Switch" /></p>
+<p>Selects elevation scan pattern between 1 and 2 bars. Only RDR-B modes can make use of 2 bars.</p>
+<p><a href="../../../systems/radar.html#scan">See Radar Scan Switch Section for more details</a></p>
 <h3 id="aspect-knob"><a class="header" href="#aspect-knob">Aspect Knob</a></h3>
 <p><img src="../../../img/wso_radar_aspect_knob.jpg" alt="Aspect Knob" /></p>
 <p>Used to program the <a href="../../../stores/air_to_air/aim_7.html">AIM-7</a> with a predetermined simulated
 Doppler instead of actual received Doppler, so that the WSO can provide an estimated correct
-speed-gate location when range isn't available.</p>
+speed-gate for the sparrow when not tracking.</p>
+<p><a href="../../../systems/radar.html#aspect">See Aspect Knob Section for more details</a></p>
 <h3 id="receiver-gain-knobs-rcvr-gain"><a class="header" href="#receiver-gain-knobs-rcvr-gain">Receiver Gain Knobs (RCVR GAIN)</a></h3>
-<p>Coarse (outer ring) and Fine (inner knob) gain control for the radar scope
-display to increase video output legibility of target returns.</p>
+<p><img src="../../../img/wso_radar_receiver_gain.jpg" alt="Receiver Gain Knob" /></p>
+<p>Coarse (outer ring) and Fine (inner knob) gain control for the radar receiver. Larger values result
+in more noise and can cause display to become saturated. Lower values may result in lower detection ranges.</p>
+<p><a href="../../../systems/radar.html#receiver-gain-rcvr-gain">See Receiver Gain Knob Section for more details</a></p>
 <h3 id="track-switch"><a class="header" href="#track-switch">Track Switch</a></h3>
-<p>Enables manual target tracking in heavy clutter environments, or automatic
+<p><img src="../../../img/wso_radar_track_switch.jpg" alt="Track Switch" /></p>
+<p>Selects range tracking type for use in heavy clutter environments, or automatic
 tracking under normal circumstances.</p>
-<h4 id="manual"><a class="header" href="#manual">Manual</a></h4>
-<p>When in the MAN position, the WSO places the acquisition symbol over the
-intended target and triggers half-action on the Antenna Hand Control stick. The range strobe is
-positioned relative to in-range on a closing target, and the WSO selects
-full-action. To solidify the track, the WSO uses the Manual Vc knob to place the
-range strobe and target return video at the same rate of movement.</p>
-<h4 id="automatic"><a class="header" href="#automatic">Automatic</a></h4>
-<p>In the AUTO position, the range and closure calculations are performed
-automatically. The WSO places the acquisition symbol over the target return and
-presses full action. Should the target maneuver in excess of the speed
-capability of the radar, the Maneuver switch can be set to HI G and the target
-reacquired.</p>
-<h4 id="aoj-out"><a class="header" href="#aoj-out">AOJ OUT</a></h4>
-<p>The AOJ OUT position is used to override the acquisition on jamming function of
-the radar. In the event that the radar acquires a Home-on-Jam (HOJ) lock, the position can be
-selected to place the radar back into a search configuration to initiate a
-lock-on against the jamming target and initiate a standard angle track lock.</p>
+<p><a href="../../../systems/radar.html#scan">See Radar Track Switch Section for more details</a></p>
 <h3 id="display-knob"><a class="header" href="#display-knob">Display Knob</a></h3>
 <p><img src="../../../img/wso_radar_display_knob.jpg" alt="Display Knob" /></p>
 <p>Sets the display type of the radar scope to access specific mode functionality
@@ -278,7 +247,7 @@ in conjunction with the Mode knob. The types are as follows:</p>
 <tr><td><a href="../../../systems/radar.html#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident">B NAR</a></td><td>Selects a 45 degree B-sweep sector for search, which is manually shifted with the Antenna Hand Control stick.</td></tr>
 <tr><td><a href="../../../systems/radar.html#air-to-ground-ppi-wide-and-ppi-nar">PPI WIDE</a></td><td>Selects a 120 degree wide plan position indicator sweep for MAP mode.</td></tr>
 <tr><td><a href="../../../systems/radar.html#air-to-ground-ppi-wide-and-ppi-nar">PPI NAR</a></td><td>Selects a 45 degree plan position indicator sweep that can be shifted with the Antenna Hand Control stick.</td></tr>
-<tr><td><a href="../../../systems/radar.html#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident">VI</a></td><td>Provides pure pursuit guidance to a locked target; a break X will appear at 1000' range.</td></tr>
+<tr><td><a href="../../../systems/radar.html#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident">VI</a></td><td>Provides pure pursuit guidance to a locked target for Visual Intercept; a break X will appear at 1000' range.</td></tr>
 </tbody></table>
 </div>
 <h3 id="manual-vc-knob"><a class="header" href="#manual-vc-knob">Manual Vc Knob</a></h3>
@@ -286,33 +255,34 @@ in conjunction with the Mode knob. The types are as follows:</p>
 <p>A 12 position switch used to apply estimated range rate of closure (clockwise,
 0-9), or estimated opening of range (counterclockwise, 0-2) against a target in
 manual track mode.</p>
-<p>The numbers are multiplied by 100 m/s while closure means closing in to the F-4
+<p>The numbers are multiplied by 100 knots while closure means closing in to the F-4
 and opening means the target is flying away from the F-4.</p>
+<p><a href="../../../systems/radar.html#manual-vc-man-vc">See MAN Vc Knob Section for more details</a></p>
 <h3 id="pulse-switch"><a class="header" href="#pulse-switch">Pulse Switch</a></h3>
+<p><img src="../../../img/wso_radar_pulse_switch.jpg" alt="Pulse Switch" /></p>
 <p>Three position switch controlling radar pulse width and pulse repetition
-frequency in the Air-to-Air radar search modes. With the <a href="../../../systems/radar.html">APQ-120</a> placed
-in <a href="../../../systems/radar.html#cage-mode">CAGE mode</a>, short pulse operation is automatically
-selected. In <a href="../../../systems/radar.html#air-grd-air-to-ground-position">AIR-GND modes</a>, the pulses
-are automatically commanded, deactivating the switch.</p>
+frequency (PRF).</p>
 <div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
-<tr><td>AUTO</td><td>Commands long pulse width and low PRF; pulse width handled automatically when target is locked.</td></tr>
-<tr><td>LONG</td><td>Low PRF and wide pulse width, allowing maximum range detection; no track automatic pulse adjustment.</td></tr>
+<tr><td>AUTO</td><td>Uses Power Level Mode Switching to determine best Pulse selection. Selects short pulse is used for acquire and track.</td></tr>
+<tr><td>LONG</td><td>Wide pulse width and low PRF, allowing maximum range detection; no track automatic pulse adjustment.</td></tr>
 <tr><td>SHORT</td><td>Narrow pulse width with high PRF for increased close range performance.</td></tr>
 </tbody></table>
 </div>
+<p><a href="../../../systems/radar.html#pulse-switch">See Pulse Switch Section for more details</a></p>
 <h3 id="mode-knob"><a class="header" href="#mode-knob">Mode Knob</a></h3>
 <p><img src="../../../img/wso_radar_mode_knob.jpg" alt="Mode Knob" /></p>
 <p>A six position switch that determines the current base mode of operation of the
 radar.</p>
 <div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
-<tr><td>BST</td><td><a href="../../../systems/radar.html#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident">Air-to-Air boresight</a> with antenna aligned to optical sight. Permits <a href="../../../systems/radar.html#cage-mode">CAGE</a> and <a href="../../../systems/radar.html#computer-automatic-acquisition-mode-caa">CAA</a>.</td></tr>
-<tr><td>RDR</td><td>Air-to-Air search mode.</td></tr>
-<tr><td>MAP</td><td>Radar ground mapping mode.</td></tr>
-<tr><td>AIR-GRD</td><td><a href="../../../systems/radar.html#air-grd-air-to-ground-position">Air-to-Ground boresight</a>, 20 mile range against targets visually established with optical sight.</td></tr>
+<tr><td>BST</td><td><a href="../../../systems/radar.html#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident">Air-to-Air boresight</a> with antenna aligned radar boresight line and optical sight with sight in A/A.</td></tr>
+<tr><td>RDR</td><td>Search Mode with Feedhorn Nutation (wider beamwidth) mode.</td></tr>
+<tr><td>MAP</td><td>Search Mode without Feedhorn Nutation (narrower beamwidth)</td></tr>
+<tr><td>AIR-GRD</td><td><a href="../../../systems/radar.html#air-grd-air-to-ground-position">Air-to-Ground boresight</a>, Tracks range of illuminated ground, radar is boresighted to the radar boresight line with drift compensation.</td></tr>
 <tr><td>BEACON</td><td>Radar receives and displays signals from ground or airborne beacon transponders for navigation.</td></tr>
-<tr><td>TV</td><td>Not used with DSCG. Deactivates <a href="../../../stores/air_to_air/aim_7.html">AIM-7</a> if selected.</td></tr>
+<tr><td>TV</td><td>Not used with DSCG. Detunes <a href="../../../stores/air_to_air/aim_7.html">AIM-7</a> if selected, preventing sparrows from guiding.</td></tr>
 </tbody></table>
 </div>
+<p><a href="../../../systems/radar.html#radar-modes-mode">See Mode Knob Section for more details</a></p>
 <h3 id="skin-track-light"><a class="header" href="#skin-track-light">Skin Track Light</a></h3>
 <p>Lamp that illuminates when a track is attained with range data. In the
 event of <a href="../../../systems/radar.html#home-on-jam-hoj">HOJ</a> or a range memory situation, the light
