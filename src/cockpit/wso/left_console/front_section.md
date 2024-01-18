@@ -31,7 +31,7 @@ Determines current amplifier for [intercom](../../../systems/nav_com/intercom.md
 
 ![wso_control_monitor_panel](../../../img/wso_control_monitor_panel.jpg)
 
-Tests and monitors the [APQ-120 Radar.](../../../systems/radar.md)
+Tests and monitors the [APQ-120 Radar.](../../../systems/radar/overview.md)
 
 ### Cords Light
 
@@ -62,7 +62,7 @@ and Meter Selector Knob settings.
 ![Test Knob](../../../img/wso_control_monitor_test_switch.jpg)
 
 An eleven position rotary knob used with the radar power knob in TEST to perform
-system BIT checks of the [APQ-120 Radar](../../../systems/radar.md).
+system BIT checks of the [APQ-120 Radar](../../../systems/radar/overview.md).
 Basic test function noted below;
 procedural functionality is found in the applicable BIT test section
 ([Air-To-Air Bits](../../../procedures/bit_tests/radar_air_to_air.md),

@@ -74,8 +74,8 @@ Below describes the nutation settings for the action switch.
 ### Antenna Stabilization
 
 There are three antenna stabilization modes. Two apply to
-[Air-To-Air Operation](#radar-operation-air-to-air) and the other to
-[Air-To-Ground Operation](#radar-operation-air-to-ground).
+[Air-To-Air Operation](#air-to-air-operation) and the other to
+[Air-To-Ground Operation](#air-to-ground-operation).
 
 #### NOR
 

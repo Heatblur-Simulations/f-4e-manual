@@ -79,8 +79,9 @@ alignment.
 
 ![Antenna Hand Control](../../../img/wso_antenna_hand_control.jpg)
 
-Joystick which integrates with the [radar](../../../systems/radar.md) to perform range (fore and
-aft) and azimuth (left and right) positional control of the acquisition symbol on the radar
+Joystick which integrates with the [radar](../../../systems/radar/overview.md) to perform
+range (fore and aft) and azimuth (left and right) positional control of the
+acquisition symbol on the radar
 display in the air-to-air modes, as well as seeker/EO sensor direction
 with [AGM-65 Maverick](../../../stores/air_to_ground/missiles/maverick.md)
 and [Pave Spike](../../../systems/weapon_systems/pave_spike/overview.md).
@@ -100,7 +101,8 @@ instead toggles the field of view between WIDE and NARROW.
 ### Action Switch (Trigger)
 
 A 2-stage trigger to lock targets. Exact behavior depends on whether
-currently controlling the [radar](../../../systems/radar.md), [weapons](../../../stores/overview.md)
+currently controlling the [radar](../../../systems/radar/overview.md),
+[weapons](../../../stores/overview.md)
 or the [targeting pod](../../../systems/weapon_systems/pave_spike/overview.md).
 
 ### Boresight Adjustment
