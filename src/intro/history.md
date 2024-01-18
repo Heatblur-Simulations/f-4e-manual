@@ -343,7 +343,7 @@ Beyond the F-4E, several Phantom variants have been build for various purposes.
 |    M    | Royal Air Force variation with a different engine           |      J       | 1966         |
 |    N    | Modernized systems and structural improvements              |      B       | 1970         |
 |    S    | Modernized systems and smoke-free engines                   |      J       | 1977         |
-|   RF    | Several Phantom variants retrofitted for reconnaissance     |   B, C, E    |              |
+|   RF    | Several Phantom variants modified for reconnaissance        |   B, C, E    |              |
 |  QF-4   | Retrofitted as remote-controlled target drones for research |     many     |              |
 
 ## The F-4E Phantom II Today
