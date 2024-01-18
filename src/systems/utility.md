@@ -2,7 +2,7 @@
 
 ## Oxygen System
 
-![pilot_oxygen_regulator](../img/pilot_oxygen_regulator.jpg)
+![pilot_oxygen_regulator](../img/pilot_oxygen_control_panel.jpg)
 
 Aircrew breathing oxygen is provided with a 10-liter liquid oxygen bottle. A
 regulator panel is found on the left side in each cockpit - on the console in the
@@ -50,7 +50,7 @@ wing tanks, and, if installed and selected, external tanks.
 
 ### Air Refuel Switch
 
-![pilot_fuel_panel](../img/pilot_fuel_panel.jpg)
+![pilot_fuel_panel](../img/pilot_fuel_control_panel.jpg)
 
 Preparation for air refueling is performed by toggling the Air Refuel Switch to
 EXTEND; doing so extends the receptacle, illuminates the receptacle visual
