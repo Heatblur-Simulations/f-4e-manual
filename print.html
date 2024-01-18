@@ -3886,14 +3886,25 @@ pointers to positive 1 G.</p>
 <p><img src="systems/flight_controls_gear/../../img/MachInd.jpg" alt="MachInd" /></p>
 <p>Purely machanical instruments that use total pressure from the Pitot-Static system
 and static pressure from the Air Data Computer, previously corrected by the Static
-Pressure Compensator. A small friction error of the needle, up to 5 kts might sometimes
-be noticed.</p>
+Pressure Compensator.</p>
+<p>The airspeed indicator component of this instrument functions by measuring the dynamic
+air pressure, which is the difference between the total and the static pressure.
+This dynamic pressure is closely related to the square of the aircraft's airspeed.
+Inside the indicator, there is a diaphragm or aneroid capsule that reacts to changes
+in this dynamic pressure. As the aircraft's speed varies, this diaphragm expands or
+contracts accordingly. These mechanical movements are then converted into a reading
+displayed on the airspeed dial, showing the aircraft's velocity relative to the air
+around it.</p>
+<p>The Mach number is determined in a manner akin to measuring airspeed, primarily through
+the comparison of dynamic and static air pressures. This comparison reveals the aircraft's
+speed relative to the speed of sound.</p>
 <p>Found in both cockpits is a combination Airspeed/Mach indicator. The indicators
 provide a fixed airspeed scale at the middle of the indicator, reading values
 from 80 to 850 knots, and a rotating Mach number scale to the outside,
 with readings from 0.4 to 2.5 Mach. A two position push-and-rotate knob offers both an airspeed
 index with a functional range between 80 and 195 knots, and a Mach index pointer
-with a range between 225 knots and 850 knots.</p>
+with a range between 225 knots and 850 knots. A small friction error of the needle,
+up to 5 kts might sometimes be noticed.</p>
 <p>If failed, both the airspeed needle and the mach scale will be stuck in their remaining position.
 Mean time to failure is 1000 hours.</p>
 <h2 id="altimeter-2"><a class="header" href="#altimeter-2">Altimeter</a></h2>
@@ -3902,6 +3913,16 @@ Mean time to failure is 1000 hours.</p>
 static pressure signal from the Altitude Encoder, or mechanical (STBY) mode - from
 Air Data Computer, previously corrected by the Static Pressure Compensator.
 The errors tolerance of the instrument is +-3 knots below 80kts and +-5 knots above that airspeed.</p>
+<p>In STBY mode, the altimeter operates based on an aneroid barometer, featuring a flexible
+metal capsule known as an aneroid wafer. This wafer expands or contracts with changes
+in external air pressure. As the aircraft ascends, the decrease in air pressure causes
+the wafer to expand. Conversely, during descent, the increased air pressure leads
+to the wafer's contraction. These mechanical movements are translated via a system
+of springs and levers, resulting in the movement of the altimeter's needle and rollers.
+The altimeter can be calibrated to the current sea level pressure for accurate altitude
+readings.</p>
+<p>In the primary mode of operation, the altimeter utilizes an electric servo mechanism
+to achieve a precise indication.</p>
 <p>Devices in both cockpits provide a functional range from 0 to 80,000 feet. To
 the outside of the indicator is a pointer scale, gradation in 50 foot units with
 markings every 100 feet (from 1 to 10). Left of center is the counter,
@@ -3929,11 +3950,40 @@ warnings on the telelight panel.</p>
 <p><img src="systems/flight_controls_gear/../../img/pilot_standby_magnetic_compass.jpg" alt="StbyMagComp" /></p>
 <p>A magnetic compass is provided in each cockpit for use in the event of a
 navigation or electrical system failure.</p>
+<p>Due to its design, the compass is subject to several errors. Firstly, it exhibits
+a degree of inertia, which often results in a lagging indication. As a result,
+oscillations of the needle and its swinging movements may frequently be observed.
+To maintain alignment with the Earth's gravity field, it can rotate about 10 degrees
+in both the pitch and roll axes. However, because the Earth's magnetic field lines are not
+parallel to its surface, the needle tends to 'dip' slightly upward or downward towards the
+magnetic poles. This 'dipping' effect causes errors, particularly noticeable during turns
+and acceleration. In the northern hemisphere, the compass will lag when turning from north and
+lead when turning towards north. The opposite is true in the southern hemisphere. When accelerating
+on east or west headings in the northern hemisphere, the compass will erroneously turn towards
+the north, and while decelerating, it will turn towards the south. In the southern hemisphere,
+the opposite effects occur during acceleration and deceleration.</p>
 <h2 id="vertical-velocity-indicators-vvi"><a class="header" href="#vertical-velocity-indicators-vvi">Vertical Velocity Indicators (VVI)</a></h2>
 <p><img src="systems/flight_controls_gear/../../img/VVI.jpg" alt="VVI" /></p>
 <p>VVI Indicators are provided in both cockpits, and show the rate of climb or
-descent of the aircraft, calculated via atmospheric pressure change using the
-static pressure system.</p>
+descent (in feet per minute) of the aircraft, calculated via atmospheric pressure
+change using the pneumatically corrected static pressure from the Air Data Computer.</p>
+<p>The device consists of a diaphragm housed within a sealed case. Both the diaphragm
+and the space surrounding it are connected to the aircraft's static pressure source.
+However, the diaphragm is designed with a calibrated leak, causing the pressure inside
+it to change more slowly than that of the surrounding area. This intentional delay results
+in a pressure differential between the inside and outside of the diaphragm. The VVI translates
+this pressure difference into mechanical movement of a needle, which then displays
+the aircraft's rate of climb or descent.</p>
+<p>Due to its design, the rate of climb or descent displayed on the indicator is subject to a slight
+delay compared to the aircraft's actual vertical movement. This lag in the F-4 ranges between
+4 and 7 seconds. The gauge, which measures between -6,000 and 6,000 feet per minute, can have
+a positional error of up to 50 fpm, scale errors of up to 300 fpm for rates nearing 5,000 fpm,
+and friction errors of a maximum of ±150 fpm. In case of failure, the indicator may become stuck,
+or one of its leaks may become clogged. If the Pressure Leak is blocked, the needle will gradually
+move to a 0 fpm indication as the pressures equalize and remain constant. Conversely, if the
+calibrated leak is clogged, the delayed pressure will not change, causing the needle to move with
+altitude changes, similar to an altimeter, but quickly reaching its operational limits.
+The mean time between failures for this instrument is 1,000 hours.</p>
 <h2 id="radar-altimeter-1"><a class="header" href="#radar-altimeter-1">Radar Altimeter</a></h2>
 <p><img src="systems/flight_controls_gear/../../img/pilot_radar_altitude.jpg" alt="RadAlt" /></p>
 <p>Found in the front cockpit, the Radar Altimeter has a functional range of 0 to
@@ -3956,37 +4006,49 @@ ground level at the time of this occurring.</p>
 </tbody></table>
 </div>
 <p>In the front cockpit, a turn and slip indicator is added to the ADI on the
-instrument panel; while the needle provides correct direction of turn, it does
+instrument panel; while the needle provides correct direction of turn,
+based on the signal from a Rate Gyroscope in the AJB-7 system, it does
 not provide proper turn rate information.</p>
-<p>A conventional 4-minute turn and slip
-indicator is found on the rear cockpit panel.</p>
-<p>To execute a controlled turn (360° in 4 minutes), place the vertical needle
-over one of the indicators on either side (turn rate of 1.5 degrees per second) and ensure
-the slip indicator at the bottom is centered to prevent over- or under-turning due to
-incorrect bank.</p>
+<p>A conventional 4-minute turn and slip indicator with its own conventional
+horizontally mounted gyro is found on the rear cockpit panel.</p>
+<p>To execute a controlled turn (360° in 4 minutes), place the vertical needle of the rear
+turn indicator over one of the marks on either side (turn rate of 1.5 degrees per second)
+and ensure the slip indicator at the bottom is centered to prevent over- or under-turning
+due to incorrect bank.</p>
 <h2 id="rear-cockpit-attitude-indicator"><a class="header" href="#rear-cockpit-attitude-indicator">Rear Cockpit Attitude Indicator</a></h2>
 <p><img src="systems/flight_controls_gear/../../img/wso_rear_cockpit_attitude_indicator.jpg" alt="Wso_rear_cockpit_attitude_indicator" /></p>
-<p>The AHRS provides attitude information to the Attitude Indicator found on the
+<p>The AJB-7 provides attitude information to the Attitude Indicator found on the
 rear cockpit instrument panel regardless of the Reference System Selector Switch
 position. A trim knob provides the ability to adjust the attitude sphere to
 reference the aircraft correctly. Should power be disconnected from the
-indicator or AHRS, the OFF flag will display.</p>
+indicator or AJB-7, the OFF flag will display.</p>
+<p>The device operates electronically and features two servos: a pitch servo and a roll servo.
+The pitch indication is limited to a range of ±90 degrees, while the roll indication
+allows for continuous movement throughout the entire 360-degree circle. In the event
+of a servo failure (with a mean time between failures of 800 hours), the affected servo
+will become stuck in its last position or direction.</p>
 <h2 id="pitot-static-system"><a class="header" href="#pitot-static-system">Pitot-Static System</a></h2>
 <p><img src="systems/flight_controls_gear/../../img/ext_pitot_tube.jpg" alt="ext_pitot_tube" /></p>
 <p>The Pitot-Static system provides impact and static pressure to flight
-instrumentation, the Air Data Computer, and airspeed-driven switches. To
-alleviate icing of the pitot head, a Pitot Heat Switch is found in the front
-cockpit right console.</p>
-<p>The Pitot Heat switch should always be turned on before takeoff but not for
+instrumentation, the Air Data Computer, and airspeed-driven switches.
+A single pitot tube, mounted on the aircraft, provides the total pressure
+reading, while static pressure is measured by two static ports situated
+on a single boom on the aircraft's nose. Both the pitot tube and static ports
+are prone to blockages caused by ice accumulation. To alleviate icing of the pitot head,
+a Pitot Heat Switch is found in the front cockpit right console.</p>
+<blockquote>
+<p>⚠️ The Pitot Heat switch should always be turned on before takeoff but not for
 longer than one minute as it could damage the instrument.</p>
+</blockquote>
 <h2 id="air-data-computer-system"><a class="header" href="#air-data-computer-system">Air Data Computer System</a></h2>
 <p>Using a variety of static, attitude, and environmental inputs, the Air Data
-Computer (ADC) provides the pneumatic and electrical inputs to the AFCS, Fire
-Control System, Air Induction System, the INS, the LCOSS, navigational computer,
+Computer (ADC) provides the pneumatic and electrical inputs to primary flight instruments,
+AFCS, Fire Control System, Air Induction System, the INS, the LCOSS, navigational computer,
 and manages the variable bypass bell mouth system for the engines. Flight
 through weather such as ice or rain can induce errors in the performance of
 these systems until the condition has cleared, and this should be taken into
 account.</p>
+<p><img src="systems/flight_controls_gear/../../img/air_data_comp_scheme.jpg" alt="ADC scheme" /></p>
 <h2 id="static-pressure-compensator"><a class="header" href="#static-pressure-compensator">Static Pressure Compensator</a></h2>
 <p><img src="systems/flight_controls_gear/../../img/pilot_cadc_switch.jpg" alt="pilot_cadc_switch" /></p>
 <p><img src="systems/flight_controls_gear/../../img/pilot_static_corr_off_light.jpg" alt="pilot_cadc_switch" /></p>
