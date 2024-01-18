@@ -18,11 +18,17 @@ are applicable to the weapon system officer only,
 and items **not coded** are applicable to the pilot
 only.
 
+> 💡 Real procedures and checklists evolved over time.
+> Ours are based on a time range
+> around 80s and tailored to our Phantom specifically.
+> So keep in mind that other resources
+> may differ a bit in some areas.
+
 Here is an explanation of the designations used:
 
-* Entries marked **bold** are necessary to be performed.
-* The 🔧 icon indicates that the given step involves or may involve
+* **bold** - given step is necessary to be performed.
+* 🔧 - given step involves or may involve
 [crew chief](../crew_chief/overview.md) interaction.
-* The ⚡ icon means that given step **cannot** be performed when battery start is made.
+* ⚡ - given step **cannot** be performed when **battery start** is made.
 
 ![real_life_crew_with_manual](../img/real_life_crew_with_manual.jpg)

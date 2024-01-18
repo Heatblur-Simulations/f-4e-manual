@@ -8,9 +8,10 @@ Aircrew breathing oxygen is provided with a 10-liter liquid oxygen bottle. A
 regulator panel is found on the left side in each cockpit - on the console in the
 front cockpit, and the left sub-panel in the rear. Flow is initiated in each
 cockpit using the Supply Lever found on the regulator panel. Oxygen flow is
-confirmed using the Flow Indicator window, which alternates from black to white
-for each breath. Supply pressure and remaining volume is confirmed using the
-Oxygen Pressure and Oxygen Quantity gauges found on both regulator panels.
+confirmed using the Flow Indicator, which alternates from black to white
+for each breath (white indicates inhalation). Supply pressure and remaining
+volume is confirmed using the Oxygen Pressure and Oxygen Quantity gauges
+found in both cockpits.
 
 A detailed chart of the Oxygen duration is provided here:
 

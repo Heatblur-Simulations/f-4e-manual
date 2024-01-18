@@ -20,8 +20,9 @@ doubles as a [radar](../radar.md) auto-acquisition control for the [radar](../ra
 range combat, and sensor focus control for
 video-directed [air to ground weapons](../../stores/air_to_ground/overview.md). An
 [Emergency Quick Release lever](gear_ground_handling.md#emergency-anti-skid-quick-release-lever) on
-each stick is available to immediately deactivate the anti-skid, ARI, autopilot, and stability
-augmentation. Unique to the front cockpit control stick is
+each stick is available to immediately deactivate the anti-skid system, the automatic
+flight control system, stab aug and the aileron-rudder
+interconnect. Unique to the front cockpit control stick is
 the [Air Refueling Release Button](../utility.md#air-refueling-release-button) - a dual-role
 control that performs the boom disconnect function its name implies, as well as
 a number of weapon selection functions.
@@ -68,65 +69,249 @@ on either control stick is pressed.
 
 ![ARIfuse](../../img/ARIfuse.jpg)
 
-To assist in low speed turn coordination, the Phantom II includes an
-Aileron-Rudder Interconnect. The system is engaged automatically with the [Slats
-Flap Switch](../../cockpit/pilot/left_console/wall.md#slatsflaps-control-panel) in the Out and Down
-position, and below the flap blowup speed of 230
-knots. With the system engaged, the rudder can be driven up to 10 degrees by the
-interconnect to alleviate pilot workload. The circuit breaker for the ARI is located right of the
+The aileron-rudder interconnect system causes rudder
+displacement proportional to aileron displacement to
+provide coordinated turns at low airspeeds. It is engaged automatically with the
+[Slats Flap Switch](../../cockpit/pilot/left_console/wall.md#slatsflaps-control-panel)
+in the OUT AND DOWN
+position, and the airspeed below the flap blowup speed (230
+knots).
+
+The limits of
+the system are 15° of rudder displacement when the
+automatic flight control system is in the stability
+augmentation or autopilot mode, and 10° rudder
+displacement when the yaw stab aug switch is disengaged.
+
+The circuit breaker for the ARI is located right of the
 Emergency stores release.
 
-### Emergency ARI disconnect
+> 💡 To permanently disengage the ARI, the circuit
+> breaker on the left utility panel must be pulled
+> and the yaw stab aug switch must be disengaged.
+> Pulling the circuit breaker with the yaw stab aug
+> engaged will still provide 5° of ARI rudder
+> authority. When the ARI circuit breaker is
+> pulled, the anti-skid system is disabled.
+
+> 💡 Rudder jump will occur when the ARI system cuts
+> in or out with a lateral control stick input. This
+> will normally occur when the flaps are raised or
+> lowered during a turn.
+
+### Emergency disconnect
 
 In the event either seat in command requires the ARI deactivated, the system can be disconnected by
 pulling
-the [Emergency Quick Release lever](gear_ground_handling.md#emergency-anti-skid-quick-release-lever)
-on their respective control stick. Releasing the switch will re-engage the ARI. Function of the ARI
+the [Emergency Quick Release Lever](gear_ground_handling.md#emergency-anti-skid-quick-release-lever)
+on their respective control stick. When the
+switch is released the ARI (10°) and the yaw stab aug (5°)
+rudder authority is regained. Function of the ARI
 can always be overridden through the rudder pedals.
 
-## Stability Augmentation System
+## Automatic Flight Control System (AFCS) - AN/ASA-32
 
-![pilot_stability_switches](../../img/pilot_stability_augmentation_switches.jpg)
+<!-- ## Stability Augmentation System -->
 
-The F-4 offers a three axis Stability Augmentation system, with independent
-Pitch, Roll, and Yaw channels. The system is to smooth out flight in normal
-cruise regimes, rather than provide enhancement in maneuvering. The control
-panel for the Stab Aug system is found in the front cockpit.
+![pilot_afcs_switches](../../img/pilot_stability_augmentation_switches.jpg)
 
-The Pitch channel provides a maximum control authority to the stability
-augmentation of one half degree (0.5) above or below the current pitch trim
-setting.
+The automatic flight control system (AFCS) is an
+electro-hydraulic system designed to provide stable,
+accurate, and coordinated flight maneuvers without
+interferring with manual control. The automatic flight
+control system is capable of performing two modes of
+operation, **stability augmentation** and **AFCS**.
 
-The Roll channel gives the stability augmentation 7.5 degrees of control of the
-ailerons, and up to 11 degrees of deflection to the spoilers.
+**Stability augmentation** improves airplane stability in pitch, roll,
+and yaw; it opposes any change of attitude but does not
+return the airplane to a given attitude or ground track.
+This mode of operation may be used while the aircraft is
+under manual control. Stability augmentation can be
+engaged individually or in any combination for pitch, roll,
+or yaw axis. The **AFCS mode** of operation maintains any
+aircraft heading and/or attitude selected within the AFCS
+limits and corrects for any deviation from the selected
+heading or attitude of the aircraft within the AFCS limits.
+The AFCS switch can be engaged with only
+the pitch stab aug switch engaged; however, to provide full
+AFCS operation, all three stab aug switches must be
+engaged. The **altitude hold mode** of operation holds any altitude
+selected while in the **AFCS mode**.
 
-The Yaw channel permits augmentation up to 5 degrees left or right from the
-current rudder trim position.
+> 💡 The AFCS system can be engaged and hold maneuvers and
+> attitudes within a range of ±70° pitch, 70° in bank and 360°
+> in azimuth, providing the G limits are not being exceeded.
+> Rapid stabilator movements, whether pilot induced or
+> uncommanded, will cause the AFCS switch to disengage.
 
-Because the stability augmentation system can misinterpret roll oscillation in
+> 💡 In the altitude hold mode, altimeter fluctuations  while accelerating
+> through the transonic range (0.9 to 1.0 Mach) will produce
+> transient fluctuations which, although not violent, may
+> cause the reference altitude to slip. Engaging the altitude
+> hold mode in climbs greater than 1000 feet per minute
+> may result in a reference altitude other than the engage
+> altitude.
+
+### Force Transducer
+
+The force transducer senses the physical force applied to
+the control stick. This unit actually comprises the visible
+portion of the control stick with the stick grip mounted on
+top of it. The force transducer contains pressure sensitive
+switches which react to longitudinal and lateral stick
+forces. A lateral stick force of approximately 1.5 pounds
+closes a force switch. When a roll force switch closes the
+roll rate gyro signal in stab aug and the roll rate and
+attitude gyro signals in AFCS mode are cut out so that
+pilot initiated maneuvers are not opposed while in the
+AFCS mode. The pilot maneuvers the aircraft by
+mechanical linkages until the lateral stick force is reduced
+to less than approximately 1.5 pounds. At this time the roll
+channel is returned to normal AFCS operation. A forward
+stick force of 3.75 ±0.25 pounds or an aft stick force of 2.55
+±0.25 pounds closes switches to operate certain AFCS
+components, and cause a force sensing device to send a
+signal, proportional to the applied stick force, to the servo
+amplifier and stabilator position is controlled through the
+AFCS. If the pitch or roll limits of the AFCS (±70°) are
+exceeded, the AFCS will disengage. The AFCS switch may
+or may not disengage. If the switch does not disengage, the
+AFCS will immediately reengage when the aircraft
+returns to within the AFCS limits.
+
+### G-Limit Accelerometer
+
+The normal load factor interlock (G-disengage) feature of
+the AFCS is designed to inhibit the system from
+commanding excessive load factors on the airplane. The
+system reverts automatically from whatever mode is
+engaged to stability augmentation in the event that +4 or
+-1 G is sensed by the G-disengage
+accelerometer switch. This switch is mounted forward on
+the radar bulkhead so that if the airplane is rotated
+rapidly into a maneuver, disengagement occurs at lower
+values of normal load factor due to the anticipation
+resulting from the forward location sensing a component
+of pitching acceleration. The G-disengage feature is
+inoperative outside the ±70° limits of the autopilot.
+
+> ⚠️ The G switch does not disengage the autopilot
+> under conditions of low airspeed or heavy gross
+> weight before the aircraft stalls. If the autopilot
+> remains engaged during a stall, the autopilot
+> provides pro-spin controls.
+
+### Emergency Quick Release Lever
+
+A spring-loaded emergency quick release lever is on each
+control stick. This lever operates in the same manner from
+both the front and the rear cockpits. Depressing the lever
+causes the AFCS and altitude hold switch to return to
+OFF. The stability augmentation mode, ARI and
+anti-skid, are disengaged as long as the lever is held
+depressed. When the lever is released, the stability
+augmentation, anti-skid, and ARI are again in operation,
+but the AFCS is no longer engaged. To permanently
+disengage. the stability augmentation mode, the pitch, roll,
+and yaw stab aug switches must be placed off. To
+permanently disengage the ARI and anti-skid, the yaw
+stab aug switch must be off and the ARI circuit breaker,
+on the front cockpit left subpanel, must be pulled.
+
+### Autopilot Disengage Indicator Light
+
+An AUTOPILOT DISENGAGE indicator light is on the
+telelight panel. After initial engagement of the AFCS
+mode, the AUTOPILOT DISENGAGE indicator light and
+the MASTER CAUTION light illuminates when the AFCS
+is disengaged. Both lights are extinguished by pressing the
+master caution reset switch. The lights remain
+extinguished until the AFCS is again engaged and
+disengaged.
+
+### Pitch Aug Off Indicator Light
+
+The PITCH AUG OFF indicator light is on the telelight
+panel. The PITCH AUG OFF and MASTER CAUTION
+lights illuminate when power is on the airplane and the
+pitch stab aug switch is not engaged. Depressing the
+master caution reset button extinguishes the MASTER
+CAUTION light; however, the PITCH AUG OFF light
+remains illuminated until the pitch stab aug is engaged.
+
+### Automatic Pitch Trim
+
+An automatic pitch trim feature is included in the AFCS
+which attempts to keep the airplane longitudinally
+trimmed to the flight conditions experienced while in
+AFCS mode. Thus, an out-of-trim condition (which would
+not be sensed while in autopilot mode) is prevented,
+ensuring against an excessive pitch transient when
+disengaging the autopilot. The automatic pitch trim
+operates at approximately 40% the speed of the normal
+trim system, resulting in a slight delay after changing
+flight conditions before the basic airplane is properly
+trimmed. During control stick steering maneuvering, the
+auto-trim is inoperative. Auto-trim operation can be
+observed on the pitch trim indicator after changing flight
+conditions in the AFCS mode.
+
+### Autopilot Pitch Trim Light
+
+An AUTOPILOT PITCH TRIM indicator light is on the
+telelight panel. This light illuminates during AFCS
+operation if the automatic pitch trim follow up is
+inoperative or lagging sufficiently behind airplane
+maneuvering to cause an out-of-trim condition in the
+basic airplane. Ilu
+
+### Normal Operation
+
+1. To engage the stability augmentation mode, place
+the pitch, roll, and yaw stab aug switches to
+ENGAGE.
+2. Trim aircraft in the stability augmentation mode
+before engaging AFCS mode.
+3. To engage AFCS mode, establish an aircraft
+attitude within AFCS limits. Place the AFCS switch
+to ENGAGE.
+4. When aititude hold mode is desired, place altitude
+hold switch to ENGAGE.
+
+> ⚠️ Do not attempt to change pitch attitude of the
+> aircraft from the rear cockpit in the AFCS mode.
+> Since no force, transducer is in the rear cockpit
+> control stick, applying force will cause pitch trim
+> to run up and down depending on pressure
+> applied. If the pilot attempts to take control at
+> that point, violent transients may be
+> encountered.
+
+> 💡 Do not operate manual trim button while in the
+> AFCS mode unless the AUTOPILOT PITCH
+> TRIM light is illuminated. Use a small amount of
+> manual trim to extinguish the AUTOPILOT
+> PITCH TRIM light.
+
+> 💡 To change altitude when operating in altitude
+> hold, use the control stick. This disengages the
+> altitude hold circuits and the altitude hold switch
+> moves to OFF. Re-engage altitude hold at the
+> new altitude if altitude hold is desired.
+
+> 💡 The AFCS is disengaged when the emergency
+> quick release lever on the control stick is
+> depressed. The stability augmentation and ARI
+> are disengaged as long as the lever is held
+> depressed but returns to operation when the lever
+> is released.
+
+<!-- OPERATIONAL PRECAUTIONS -->
+
+<!-- * Because the stability augmentation system can misinterpret roll oscillation in
 high AoA maneuvering and inadvertently invoke adverse roll, it is suggested to
 disable the Roll channel prior to aerobatics or combat to alleviate this
-possibility.
-
-With the Roll stability augmentation system engaged, roll rate using the rear
-control stick can be less than that in the front cockpit relative to the amount
-of deflection; conversely, when returning control to the front cockpit, the rate
-can jump due to said difference.
-
-## Automatic Flight Control System (AFCS)
-
-The automatic flight control system (AFCS) is an electro-hydraulic system designed to provide
-stable, accurate and coordinated flight maneuvers without interferring with manual control. The
-System utilizes the displacement gyro (for pitch and roll) additionally to the heading reference
-signals to maintain the airplane in the desired attitude with maximum stability.
-
-In the F-4E DSCG variant there are two modes of operation, AFCS and Altitude Hold. In the AFCS mode
-of operation maintains any aircraft heading and/or attitude selected within the limits (± 70° pitch,
-70° bank and 360° azimuth), providing the G-Limits (+ 4G or - 1G) are not being exceeded. During
-AFCS mode, two accelerometers are utilized to ensure proper functioning of the AFCS system. One of
-the accelerometers is a G-Limiting type to prevent excess G-loads from occuring as a result of AFCS
-operation, the other accelerometer is a lateral accelerometer which is used to perform coordinated
-maneuvers while in AFCS or stability augmentation mode.
+possibility. -->
 
 ## Slats Flap System
 

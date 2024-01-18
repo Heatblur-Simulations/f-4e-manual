@@ -169,13 +169,14 @@ supply adjusted accordingly:
 See [3.7 Utility chapter, Oxygen section](../../../systems/utility.md#oxygen-system) for further
 information.
 
-## Liquid Oxygen Level Indicator
+## Oxygen Quantity Gauge
 
-![Liquid Oxygen Level Indicator](../../../img/wso_ox_liters.jpg)
+![Oxygen Quantity Gauge](../../../img/wso_ox_liters.jpg)
 
-Range from 0 to 10 liters, providing confirmation of current liquid oxygen
-status. In event power is lost, a "power off" flag will show on the instrument
-face.
+It has a range from
+0 to 10 liters. Loss of electrical power
+is indicated by appearance of a power off flag on the
+instrument face.
 
 ## VOR/ILS Volume Control
 
