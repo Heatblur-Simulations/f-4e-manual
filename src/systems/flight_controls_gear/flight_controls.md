@@ -16,7 +16,7 @@ are deliverable through both a Trigger
 (for [air-to-air missiles](../../stores/air_to_air/overview.md) and the [gun](../../stores/guns.md))
 and a Bomb Release Switch. Both sticks carry
 a [Nose Wheel Steering button](gear_ground_handling.md#nose-gear-steering) that
-doubles as a [radar](../radar.md) auto-acquisition control for the [radar](../radar.md) in visual
+doubles as a [radar](../radar/overview.md) auto-acquisition control for the radar in visual
 range combat, and sensor focus control for
 video-directed [air to ground weapons](../../stores/air_to_ground/overview.md). An
 [Emergency Quick Release lever](gear_ground_handling.md#emergency-anti-skid-quick-release-lever) on
