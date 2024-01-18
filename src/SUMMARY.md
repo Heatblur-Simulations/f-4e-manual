@@ -3,12 +3,12 @@
 [F-4E Manual](./f4e_manual.md)
 
 - [Introduction](./intro/introduction.md)
+  - [Definitions](./intro/definitions.md)
   - [Historical Background](./intro/history.md)
   - [Foreign Service](./intro/foreign.md)
   - [Air to Air Kills](./intro/air_to_air.md)
   - [First Flights](./intro/first_flights.md)
   - [Technical Specification](./intro/specification.md)
-- [Symbology](./symbology.md)
 - [Cockpit Overview](./cockpit/overview.md)
   - [Pilot Cockpit](./cockpit/pilot/overview.md)
     - [DSCG Controls](./cockpit/pilot/dscg_controls.md)
