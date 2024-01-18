@@ -1,6 +1,6 @@
 # Flight Director Group
 
-![FDG](../../img/pilot_flight_director_group.jpg)
+![FDG](../../img/pilot_flight_director_group_overview.jpg)
 
 The flight director group provides the pilot with all necessary instruments to fly the aircraft even
 in a bad weather situation.
@@ -56,7 +56,7 @@ switches that light the indexer lights and actuate the stall warning vibrator.
 
 ## Reference System Selector Switch
 
-![RefSel](../../img/RefSel.jpg)
+![RefSel](../../img/pilot_reference_switch.jpg)
 
 Toggles between the [inertial navigation set](../../systems/nav_com/ins.md)
 and [AN/AJB-7](../../systems/weapon_systems/arbcs.md) displacement gyroscope
@@ -78,7 +78,7 @@ for manual compass system synchronization (SYNC position)
 
 ## Attitude Director Indicator
 
-![ADI](../../img/ADI.jpg)
+![ADI](../../img/pilot_attitude_director_indicator.jpg)
 
 Includes an attitude sphere, turn indicator, steering bars, miniature aircraft,
 glide-slope pointer, flags, and pitch trim knob. It displays pitch, bank, and
@@ -101,7 +101,7 @@ The lamp can be rotated to dim and pushed to test.
 
 ## Horizontal Situation Indicator
 
-![HSI](../../img/HSI_drawing.jpg)
+![HSI](../../img/pilot_hsi.jpg)
 
 Presents a horizontal view of the navigation situation relative to the aircraft,
 indicated by an aircraft symbol and a lubber line showing the current aircraft heading.
@@ -143,7 +143,7 @@ accurate deviation display.
 
 ## Altimeter
 
-![Altimeter](../../img/Altim.jpg)
+![Altimeter](../../img/pilot_baro_altitude.jpg)
 
 A counter-pointer style altimeter, with thousandths in the counter window and
 100 foot increments around the face. The altimeter has an absolute range of
@@ -155,14 +155,14 @@ be reset and moved out of STBY.
 
 ## Vertical Velocity Indicator
 
-![VVI](../../img/VVI.jpg)
+![VVI](../../img/pilot_vertical_velocity_indicator.jpg)
 
 Provides rate of climb or descent via the static pressure system referenced in
 thousands of feet per minute.
 
 ## Standby Attitude Indicator
 
-![StbyAtt](../../img/StbyAtt.jpg)
+![StbyAtt](../../img/pilot_standby_attitude_indicator.jpg)
 
 The SAI functions independent of the Flight Director Group, providing reasonably
 accurate readings (within six degrees) for 9 minutes if power to the system is
@@ -174,7 +174,7 @@ by turning it.
 
 ## Navigation Function Selector Panel
 
-![Navigation Function Selector Panel](../../img/NavFunct.jpg)
+![Navigation Function Selector Panel](../../img/pilot_nav_function_selector.jpg)
 
 Controls display presentation on the ADI and HDI based on the selected values on
 the two knobs; to the left is the Bearing/Distance Knob, and to the right the

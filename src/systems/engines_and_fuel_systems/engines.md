@@ -11,7 +11,7 @@ battery for initial power, or connection with an external power cart.
 
 ## Fuel Flow Indicators
 
-![FFI](../../img/FFI.jpg)
+![FFI](../../img/pilot_fuel_flow.jpg)
 
 Each engine has a fuel flow indicator found in the front cockpit instrument.
 
@@ -46,7 +46,7 @@ circulated through the engine-driven generator for cooling purposes.
 
 ### Oil Pressure Indicators
 
-![OilPress](../../img/OilPress.jpg)
+![OilPress](../../img/pilot_engine_oil.jpg)
 
 Oil pressure indicators are on the front cockpit pedestal panel, and calibrated from 0 to 100 PSI.
 Important values are:
@@ -111,7 +111,7 @@ the respective engine.
 
 ### Ignition System
 
-![IgnitionButtons](../../img/pilot_ignition_system.jpg)
+![IgnitionButtons](../../img/pilot_ignition_button.jpg)
 
 The -17E/G engine is equipped with one 28 volt, low energy ignition unit and one 28 volt high energy
 unit that improves ground starts in cold weather and air starts using alternate fuel. The main
@@ -171,7 +171,7 @@ temperature from exceeding engine design limits and damaging the engine.
 
 ### Exhaust Nozzle Position Indicators
 
-![NPI](../../img/NPI.jpg)
+![NPI](../../img/pilot_nozzle_position.jpg)
 
 Directed by the Exhaust Nozzle Control Unit, the paired primary (the convergent,
 inner nozzle) and secondary (the divergent, outer nozzle) are actuated
@@ -206,7 +206,7 @@ the Engine Master Switches off, otherwise the valves will remain open.
 
 ### Throttles
 
-![Throttles](../../img/pilot_throttles.jpg)
+![Throttles](../../img/pilot_throttle.jpg)
 
 Paired throttles are provided in both cockpits for engine thrust control. In normal use, movement of
 the throttles from IDLE to OFF will perform fuel cutoff; to prevent inadvertent engine shutdown, a
@@ -230,7 +230,7 @@ The rear throttles only hold a microphone button and speed brake switch.
 
 ### Tachometers
 
-![Tach](../../img/Tach.jpg)
+![Tach](../../img/pilot_rpm.jpg)
 
 Both engines are provided with tachometers on the right side of the front
 cockpit instrument panel, and the right side of the rear cockpit instrument panel.
@@ -238,7 +238,7 @@ The tachometers will function without external power.
 
 ### Exhaust Gas Temperature Indicators
 
-![EGT](../../img/EGT.jpg)
+![EGT](../../img/pilot_egt.jpg)
 
 Exhaust Gas Temperature Indicators are found on the front cockpit instrument panel.
 The indicators have two pointers each: a large pointer for the 0 to 12 scale referencing 100 degrees

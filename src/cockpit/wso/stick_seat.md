@@ -54,7 +54,7 @@ on the seat and ejection mechanism.
 
 ### Seat Position
 
-![Seat Switch](../../img/wso_seat_switch.jpg)
+![Seat Switch](../../img/wso_seat_adjustment.jpg)
 
 The vertical position of the seat can be changed in either direction for about
 5cm using this spring-loaded switch on the right side of the seat.

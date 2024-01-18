@@ -7,7 +7,7 @@ in the ON position.
 
 ## Intercom Control Panel
 
-![intercom_panel](../../img/wso_intercom_control.jpg)
+![intercom_panel](../../img/wso_intercom_panel.jpg)
 
 Each cockpit has an Intercom Control Panel, providing a volume control knob, an
 amplifier selector, and a function selector switch.

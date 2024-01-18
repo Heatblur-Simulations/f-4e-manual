@@ -2,7 +2,7 @@
 
 ## Stick
 
-![Stick](../../img/stick.jpg)
+![Stick](../../img/pilot_stick.jpg)
 
 A control stick is provided in both cockpits, with near-uniform switchology
 between the two.
@@ -56,7 +56,7 @@ for details.
 
 ## Seat
 
-![Seat](../../img/seat.jpg)
+![Seat](../../img/pilot_seat.jpg)
 
 The seat allows the crew to eject out of the plane by pulling either the cord
 between the legs or above the head.

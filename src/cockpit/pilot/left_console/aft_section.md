@@ -5,7 +5,7 @@ and [countermeasure](../../../systems/defensive_systems/countermeasures.md) cont
 
 ## Boarding Steps Indicator
 
-![BoardStepsLadder](../../../img/BoardStepsLadder.jpg)
+![BoardStepsLadder](../../../img/pilot_boarding_steps_indicator.jpg)
 
 Used to visually confirm the integrated boarding steps state. With
 the white post up, steps are stowed, whereas steps are deployed if post
@@ -14,7 +14,7 @@ by the [crew chief](../../../crew_chief/overview.md).
 
 ## Intercom System Control Panel
 
-![PilIntercom](../../../img/PilIntercom.jpg)
+![PilIntercom](../../../img/pilot_intercom_panel.jpg)
 
 ### Pilot ICS Volume Control Knob
 
@@ -41,7 +41,7 @@ Determines current amplifier for [intercom](../../../systems/nav_com/intercom.md
 
 ## AN/ALE-40 Programmer
 
-![AN/ALE-40 Panel](../../../img/ANALE40Prg.jpg)
+![AN/ALE-40 Panel](../../../img/pilot_an_ale_40_programmer.jpg)
 
 The panel features 6 knobs to
 control [chaff and flare programs](../../../systems/defensive_systems/countermeasures.md#anale-40-programmer),
@@ -105,7 +105,7 @@ in any position other than OFF.
 
 ## Anti-G Suit Control Valve
 
-![pilot_anti_g_suit](../../../img/pilot_anti_g_valve.jpg)
+![pilot_anti_g_suit](../../../img/pilot_anti_g.jpg)
 
 The anti-G system delivers low-pressure auxiliary air to the anti-G suits, with air passing through
 the anti-G suit control valve before reaching the suit. The suit remains deflated up to

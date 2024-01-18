@@ -12,7 +12,7 @@ lights, which have a separate set of controls above the right console. Further
 lighting is available for landing and taxi when the gear are lowered, and the
 controls for these are found on the left sub-panel.
 
-![pilot_exterior_lights_panel](../img/pilot_exterior_lights_panel.jpg) _Pilot
+![pilot_exterior_lights_panel](../img/pilot_ext_lights_panel.jpg) _Pilot
 Exterior Lighting Panel_
 
 ### Position and Join-Up Lights

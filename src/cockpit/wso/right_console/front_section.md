@@ -4,7 +4,7 @@ The front area contains controls for weapon delivery and the [INS](../../../syst
 
 ## Laser Coder Control
 
-![laser_coder_control](../../../img/laser_coder_control.jpg)
+![laser_coder_control](../../../img/wso_laser_code_control.jpg)
 
 The WSO can set the laser code used by the targeting pod by using the four small
 push-buttons on this panel.
@@ -31,7 +31,7 @@ the code is invalid.
 
 ## Inertial Navigation Control Panel
 
-![wso_ins_control_panel](../../../img/wso_ins_control_panel.jpg)
+![wso_ins_control_panel](../../../img/wso_ins_panel.jpg)
 
 The Inertial Navigation Control Panel provides the rear pilot mode selection and
 system alignment command selection.
@@ -105,7 +105,7 @@ or the [targeting pod](../../../systems/weapon_systems/pave_spike/overview.md).
 
 ### Boresight Adjustment
 
-![Boresight Adjustment](../../../img/wso_antenna_stick_adjustment.jpg)
+![Boresight Adjustment](../../../img/wso_boresight_adjust.jpg)
 
 The boresight position of the antenna stick can be adjusted at
 its base using a screwdriver. Once set, the new values can be

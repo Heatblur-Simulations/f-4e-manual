@@ -174,7 +174,7 @@ if the flaps and speed brakes are retracted.
 
 ## Dispense Button (Pilot Cockpit)
 
-![pilot_throttle_cm_dispense](../../img/pilot_throttle_cm.jpg)
+![pilot_throttle_cm_dispense](../../img/pilot_dispense_button.jpg)
 
 When pressing the dispense button chaff/flare dispensing is initiated as set on
 the CCU and AN/ALE-40 programmer if the flaps and speed brakes are retracted and

@@ -5,7 +5,7 @@ communication and navigation controls.
 
 ## Master Caution Reset
 
-![MCRst](../../../img/MCRst.jpg)
+![MCRst](../../../img/pilot_master_caution_reset.jpg)
 
 Used to extinguish [telelight panel](../../../systems/emergency.md#telelight-panel) warnings and
 the [Master Caution warning](../../../systems/emergency.md#master-caution) lamp
@@ -15,7 +15,7 @@ the respective warning off.
 
 ## TACAN Control Panel
 
-![FrontTCN](../../../img/FrontTCN.jpg)
+![FrontTCN](../../../img/pilot_tacan.jpg)
 
 The [TACAN](../../../systems/nav_com/tacan.md) Control Panel is used to enter the
 desired [TACAN](../../../systems/nav_com/tacan.md) channel, mode, and
@@ -34,8 +34,6 @@ desired [TACAN](../../../systems/nav_com/tacan.md)
 channel.
 
 ### Test Button and Lamp
-
-![Tacan Test](../../../img/pilot_tacan_test_lamp.jpg)
 
 Between these two knobs is the TEST button, which performs the ground testing
 cycle after warmup, and can also be used to perform an in-flight confidence test
@@ -74,7 +72,7 @@ respectively.
 
 ## Communication Control Panel
 
-![CCP](../../../img/CCP.jpg)
+![CCP](../../../img/pilot_comm_control_panel.jpg)
 
 The Communication Control Panel provides selection and mode of
 the [UHF radio](../../../systems/nav_com/uhf.md) in the aircraft.
@@ -166,7 +164,7 @@ Furthermore, it features the Defog/Foot Heat Lever as well as the Generator cont
 
 ## Cockpit Pressure
 
-![Emergency Vent Handle](../../../img/EmergVent.jpg)
+![Emergency Vent Handle](../../../img/pilot_cabin_pressure_gauge.jpg)
 
 ### Cockpit Altitude Gauge
 
@@ -190,6 +188,8 @@ See [Oxygen Chapter](../../../systems/utility.md#oxygen-system) for more informa
 
 ### Emergency Vent Handle
 
+![pilot_emergency_vent_handle](../../../img/pilot_emergency_vent_handle.jpg)
+
 A plug that can be pulled to release cockpit pressure. Putting it back in will
 seal the cabin again.
 
@@ -202,7 +202,7 @@ activating.
 
 ## Defog/Foot Heat Lever
 
-![Defog](../../../img/Defog.jpg)
+![Defog](../../../img/pilot_defog_lever.jpg)
 
 Provides pilot selectable volume of warm air to the windshield for de-icing purposes or footwell
 recesses for comfort or visibility.
@@ -249,7 +249,7 @@ for details.
 
 ## Generator Control Switches
 
-![GenCtl](../../../img/GenCtl.jpg)
+![GenCtl](../../../img/pilot_generator_switches.jpg)
 
 Control of each engine's respective electrical generator is provided by an
 individual switch.

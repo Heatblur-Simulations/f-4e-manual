@@ -1,6 +1,6 @@
 # Right Main Panel
 
-![RMP](../../img/RMP.jpg)
+![RMP](../../img/pilot_right_main_panel_overview.jpg)
 
 The right main panel offers a good overview of all needed engine data as well as of your defensive
 Radar warning receiver (RWR). There is also the fuel gauge and the fire warning lights located on
@@ -8,13 +8,13 @@ it.
 
 ## RWR Azimuth Indicator
 
-![RWRAz](../../img/RWRAz.jpg)
+![RWRAz](../../img/pilot_rwr_indicator.jpg)
 
 The [Radar warning receiver](../../systems/defensive_systems/radar_warning_receiver.md) Azimuth
 Indicator shows all Radar sources that are visible to the Radar warning receiver.
 The knob controls the brightness of the display.
 
-![Controls](../../img/pilot_rwr_controls.jpg)
+![Controls](../../img/pilot_rwr_control_panel.jpg)
 
 Below is a box with several knobs to operate the system.
 
@@ -23,7 +23,7 @@ For further information see the
 
 ## Azimuth-Elevation Indicator
 
-![EOLos](../../img/EOLos.jpg)
+![EOLos](../../img/pilot_los_indicator.jpg)
 
 The Azimuth-Elevation Indicator, or also Line-Of-Sight Indicator, is the main
 instrument for the pilot to assess the current attitude of
@@ -43,7 +43,7 @@ red flag are shown, the view will not be obstructed by the pod or the aircraft.
 
 ## Master Caution Light
 
-![Master Caution Light](../../img/pilot_master_caution.jpg)
+![Master Caution Light](../../img/pilot_master_caution_light.jpg)
 
 The Master Caution light illuminates to provide the pilot warning of a condition
 requiring attention, directing them to look at the telelight panel for
@@ -53,7 +53,7 @@ panel.
 
 ## Fire Test Button
 
-![FTB](../../img/pilot_fire_test_button.jpg)
+![FTB](../../img/pilot_fire_reset.jpg)
 
 When pressed, this button tests for functionality of the FIRE and OVRHT lamps.
 Under normal conditions, all four lights should light up as long as the button
@@ -80,7 +80,7 @@ nozzle section (OVRHT).
 
 ## Fuel Quantity Indicator
 
-![JPInd](../../img/JPInd.jpg)
+![JPInd](../../img/pilot_fuel_indicator.jpg)
 
 The Fuel Quantity Indicator provides two different indications of total usable
 internal fuel to confirm proper transfer function between the seven internal
@@ -103,7 +103,7 @@ For more detailed information see
 
 ## Fuel Flow Gauges
 
-![FFI](../../img/FFI.jpg)
+![FFI](../../img/pilot_fuel_flow.jpg)
 
 A pair of fuel flow indicators is provided, one for each engine, presenting
 pounds per hour rate from 0 to 12, in 1000 lb increments. Flow indications are
@@ -112,7 +112,7 @@ four times the displayed flow rate.
 
 ## Tachometers
 
-![Tach](../../img/Tach.jpg)
+![Tach](../../img/pilot_rpm.jpg)
 
 A percentage-noting Tachometer is provided for each engine, including an inset
 wheel for accurate display of single digits. Normal values are 65% for idle, 95% in full MIL power
@@ -120,7 +120,7 @@ and 105% for full afterburner.
 
 ## Exhaust Gas Temperature Gauges
 
-![EGT](../../img/EGT.jpg)
+![EGT](../../img/pilot_egt.jpg)
 
 Exhaust Gas Temperature gauges are provided for each engine. The gauges have two
 needles- a large needle providing increments of 0 to 12 in multiples of 100
@@ -130,7 +130,7 @@ turbine unit.
 
 ## Exhaust Nozzle Position Indicators
 
-![NPI](../../img/NPI.jpg)
+![NPI](../../img/pilot_nozzle_position.jpg)
 
 A combined Nozzle Position Indicator is provided with two needles, one for each
 engine on their respective side, to confirm balanced nozzle position and
