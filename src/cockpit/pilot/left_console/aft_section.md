@@ -16,12 +16,12 @@ by the [crew chief](../../../crew_chief/overview.md).
 
 ![PilIntercom](../../../img/pilot_intercom_panel.jpg)
 
-### Pilot ICS Volume Control Knob
+### Volume Control Knob
 
 Turned clockwise to increase audio between cockpits, and counterclockwise to
 decrease audio between cockpits on the [Intercom](../../../systems/nav_com/intercom.md).
 
-### Pilot ICS Function Selector Switch
+### Function Selector Switch
 
 | Name           | Description                                                                                                       |
 | -------------- | ------------------------------------------------------------------------------------------------------------------|
@@ -29,7 +29,7 @@ decrease audio between cockpits on the [Intercom](../../../systems/nav_com/inter
 | HOT MIC        | Voice automatically transmitted on intercom.                                                                      |
 | RADIO OVERRIDE | Voice automatically transmitted on intercom. All volumes but Shrike tone and Stall Warning are reduced in volume. |
 
-### Pilot ICS Amplifier Select Knob
+### Amplifier Select Knob
 
 Determines current amplifier for [intercom](../../../systems/nav_com/intercom.md) function.
 
