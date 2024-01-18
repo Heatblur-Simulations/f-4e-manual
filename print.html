@@ -5074,21 +5074,31 @@ HSI, and FDC. Drift correction angle is also provided to the radar and LCOSS.</p
 <p>The LN-12 has three modes of alignment on aircraft start: BATH, Heading Memory
 (HDG MEM), and Gyrocompass alignment. Prior to performing any alignment, STBY
 Reference System must be selected, the Nav Computer Control Panel should be
-turned on and its position update switch should be selected to NORMAL. Local
+turned to STBY and its position update switch should be selected to NORMAL. Local
 magnetic variation should be entered on the variation counter, and the position
 counter should be set to local latitude and longitude. Doing so will greatly
-expedite gyrocompass alignment. Further, alignment should not be performed with
+expedite gyrocompass alignment. Furthermore, alignment should not be performed with
 the wings in their folded position, as the magnetic flux valve that provides
 compass synchronization wil be 60 degrees outside of normal position.</p>
 <p>The INS also includes an in-flight position update option, should the aircrew
 note gross deviation from known location fixes.</p>
+<p>The INS panel features two indicator lights: HEAT and ALIGN. The HEAT light is active
+in any alignment mode (including Coarse Alignment in the STBY mode), signifying that
+the system is heating up. It turns off after approximately 110 seconds, indicating
+that the gyros have reached the operational temperature of 160 degrees Fahrenheit.
+The ALIGN light, functional exclusively in the ALIGN mode, signals the completion
+of alignment. A steady ALIGN light indicates that a BATH (fast) alignment has been
+achieved. Provided the system has not encountered any errors and the gyros were
+pre-heated in STBY mode (evidenced by the extinguished HEAT light), the system
+will proceed to perform a Gyrocompass Alignment. A flashing ALIGN light signifies
+the completion of either a Gyrocompass Alignment or a Heading Memory Alignment.</p>
 <h3 id="best-available-true-heading"><a class="header" href="#best-available-true-heading">Best Available True Heading</a></h3>
 <p>STBY position must be placed momentarily to avoid an INS no-go.
-Once set to ALIGN, the ALIGN lamp will illuminate steadily after 75 seconds
-indicating BATH Alignment is ready. Once in BATH, the INS is accurate to roughly
-5 and a half nautical miles per hour CEP, although higher inaccuracies can be
-seen. Once BATH is achieved, NAV mode can be selected and the aircraft flown
-with the above caveat.</p>
+Once set to ALIGN (HEAT light may be ingnored), the ALIGN lamp will illuminate
+steadily after about 75 seconds indicating BATH Alignment is ready. Once in BATH,
+the INS is accurate to roughly 5 and a half nautical miles per hour CEP, although
+higher inaccuracies can be seen. Once BATH is achieved, NAV mode can be selected
+and the aircraft flown with the above caveat.</p>
 <h3 id="heading-memory-alignment"><a class="header" href="#heading-memory-alignment">Heading Memory Alignment</a></h3>
 <p>This option becomes accessible if the alignment has been previously stored and
 the aircraft has remained stationary. To access it, select HDG MEM located
@@ -5137,13 +5147,13 @@ when the ALIGN indicator flashes.</p>
 further increase system accuracy.</p>
 <h3 id="in-flight-emergency-alignment"><a class="header" href="#in-flight-emergency-alignment">In-Flight Emergency Alignment</a></h3>
 <p>In the event of a significant attitude error or failure of the STBY Attitude
-Reference, an emergency in-flight alignment of the INS can be executed. This is indicated by the NAV
-SYS OUT LAMP illuminated. The aircraft must maintain straight and level flight, with the Reference
-System Selector Knob set to STBY. Once in this configuration, the INS Mode Knob should
-be switched to OFF, then to STBY for a duration of 15 seconds. Subsequently,
-after the 15-second interval, return the Mode to NAV, and resume straight and
-level flight. The process of resetting the Reference Selector to PRIM can be
-performed approximately after 40 seconds, although the precise alignment time is
+Reference, an emergency in-flight alignment of the INS can be executed. This may be
+indicated by the NAV SYS OUT LAMP illuminated. The aircraft must maintain straight
+and level flight, with the Reference System Selector Knob set to STBY. Once in this
+configuration, the INS Mode Knob should be switched to OFF, then to STBY for a duration
+of 15 seconds. Subsequently, after the 15-second interval, return the Mode to NAV, and
+resume straight and level flight. The process of resetting the Reference Selector to PRIM
+can be performed approximately after 40 seconds, although the precise alignment time is
 not specified.</p>
 <blockquote>
 <p>💡 Accuracy of the attitude in this alignment is
@@ -5151,7 +5161,7 @@ contingent upon how steadily the aircraft was flown during the alignment period
 and subsequent alignments may be required. Following this emergency alignment,
 only attitude information will be available. Velocities, position, and displays
 on the navigation computer will be inaccurate and cannot be utilized for
-navigation purposes.</p>
+navigation purposes and the NAV SYS OUT LAMP will illuminate.</p>
 </blockquote>
 <h2 id="navigation-computer"><a class="header" href="#navigation-computer">Navigation Computer</a></h2>
 <p><img src="systems/nav_com/../../img/wso_nav_computer.jpg" alt="wso_navigation_computer" /></p>
@@ -5362,6 +5372,44 @@ VOR and ILS frequencies will be listed.</p>
 <blockquote>
 <p>💡 Not every airfield has a VOR station or an ILS systems.</p>
 </blockquote>
+<p>The system is designed to automatically detect whether a tuned frequency corresponds
+to a VOR station or an ILS localizer. VOR operates within a frequency range of 108 MHz
+to 117.95 MHz. The ILS localizer frequency range is from 108.1 MHz to 111.95 MHz.
+In the shared frequency region, VOR stations typically operate on frequencies with
+an even-numbered tenth of the range (e.g., 108.2 MHz, 108.4 MHz, etc.), while ILS localizer
+frequencies are assigned to the odd-numbered tenths, including hundredths of a MHz
+(e.g., 108.1 MHz, 108.3 MHz, 108.35 MHz, etc.).
+The glideslope component of the ILS operates in a frequency range from 329.3 MHz to 335.0 MHz.
+These frequencies are paired with their corresponding localizer frequencies, ensuring
+that there is no need for separate manual setting. When a localizer frequency is selected,
+the associated glideslope frequency is automatically tuned, providing integrated lateral
+and vertical guidance (if available) for precision approaches.
+The Marker Beacon that works in conjunction with the ILS system, operates at a frequency
+of 75 MHz.</p>
+<p>The ILS system is designed to detect deviations from the designated landing approach path
+and relay this information to selected avionics in the aircraft. When the appropriate ILS mode
+is selected on the Navigation Function Selector Panel, several instruments provide guidance
+for precision approach. These include the Deviation Indicator on the Horizontal Situation
+Indicator (HSI), which shows lateral alignment with the runway, and the Glideslope Indicator
+on the ADI, which displays the vertical descent angle relative to the ideal glide path.
+Additionally, if the Flight Director is activated, steering cues will be provided by the
+needles on the Attitude Director Indicator (ADI), offering visual guidance for both pitch
+and roll to maintain the correct approach path. In the rear cockpit the both horizontal and
+vertical deviations are presented on the Course Indicator.
+The typical maximum deviations are +-2.5 degrees for the localizer and +-0.7 degrees
+for the glideslope.</p>
+<p>If Marker Beacons are positioned along the approach path, the aircraft's system will audibly
+signal and illuminate the corresponding Marker Beacon light as it passes over each one.
+Depending on the specific setup at an airport, there can be:</p>
+<ul>
+<li>Outer Marker: Identified by a low-pitched, continuous tone.</li>
+<li>Middle Marker: Recognized by a higher-pitched, alternating audio tone. This marker indicates
+a closer proximity to the runway, usually at the decision altitude for landing.</li>
+<li>Inner Marker: Characterized by a very high-pitched tone or a series of high-pitched dots.
+This marker is not always present but, when it is, signifies an even closer position to the
+runway end.</li>
+</ul>
+<p><img src="systems/nav_com/../../img/ils_glideslope.jpg" alt="ILS glideslope" /></p>
 <h3 id="vormkr-test-pushbutton"><a class="header" href="#vormkr-test-pushbutton">VOR/MKR Test Pushbutton</a></h3>
 <p>After an ILS frequency has been selected on the frequency indicator, pressing the VOR/MKR Test
 pushbutton causes the marker beacon lights to illuminate. If a VOR Frequency is selected, a valid
@@ -5423,18 +5471,35 @@ would be managed by that cockpit.</p>
 throttle grip in both cockpits. When using the intercom, all audio sans the
 pull-up tone, stall warning and ECM are reduced (same as RADIO OVERRIDE).</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="uhf-radio"><a class="header" href="#uhf-radio">UHF Radio</a></h1>
-<p>The UHF Radio provides voice and Automatic Direction Finding (ADF) capabilities
-to the F-4E. The radio can receive and transmit on 3500 manually selected
-frequencies, 18 preset channels, or on the standard 243.00 MHz guard channel.
-The aux receiver covers an additional 20 preset channels or guard. Two blade
-antennas, one upper and one lower, as well as an ADF antenna, are provided. Once
-the antenna mode is set for the primary channel, the aux receives from the other
+<p>The UHF Radio in the F-4E provides both voice communication (AM) and Automatic Direction
+Finding (ADF) capabilities. It comprises two main units: a radio transmitter-receiver
+(referred to as 'comm'), an amplifier power supply-receiver unit (referred to as 'aux'),
+and a guard receiver (at 243 MHz).
+Control over these systems is facilitated by two Control Panels, one located in each cockpit.
+The panel that is currently active assumes full command over the radio operations.</p>
+<p>The comm unit is capable of receiving and transmitting on a wide range of manually
+selected frequencies, totaling 3500, or it can operate on 18 preset channels. This
+functionality covers a frequency range from 225.0 MHz to 399.95 MHz. On the other hand,
+the aux unit is designed to receive signals on 20 preset frequency channels, ranging
+from 265.0 MHz to 284.9 MHz. Both the comm and aux receivers have the capability to
+process ADF signals, which can be displayed on the Horizontal Situation Indicator (HSI)
+or Bearing Distance Heading Indicator (BDHI).</p>
+<p>Two blade antennas, one upper and one lower, as well as an ADF antenna, are provided.
+Once the antenna mode is set for the primary channel, the aux receives from the other
 antenna.</p>
+<blockquote>
+<p>💡 The COMM and AUX preset channels and ADF stations may be set in
+<a href="systems/nav_com/../../dcs/mission_editor.html#radio-options">mission editor</a>.</p>
+</blockquote>
 <h2 id="comm-control-panel"><a class="header" href="#comm-control-panel">Comm Control Panel</a></h2>
 <p><img src="systems/nav_com/../../img/pilot_uhf_panel.jpg" alt="pilot_uhf_control_panel" /></p>
-<p>Two Comm Control Panels are installed, found on the right console in the front
-cockpit, and on the left console in the rear cockpit. These provide management
-of the radio in either seat, with selectable priority.</p>
+<p>Two Comm
+<a href="systems/nav_com/../../cockpit/pilot/right_console/front_section.html#communication-control-panel">Control Panels</a>
+are installed, found on the right console in the front cockpit, and on the left console
+in the rear cockpit. These provide management of the radio in either seat,
+with selectable priority.</p>
+<p>For Automatic Direction Finder (ADF) navigation to function effectively,
+the appropriate receiver must be set to the ADF mode, as selected by the Mode Selector.</p>
 <h3 id="comm-command-button-and-light"><a class="header" href="#comm-command-button-and-light">Comm Command Button and Light</a></h3>
 <p><img src="systems/nav_com/../../img/pilot_uhf_command_and_light.jpg" alt="pilot_uhf_command_and_light" /></p>
 <p>Control authority of the UHF radio is set by the COMM CMD button. A green light
@@ -12172,6 +12237,13 @@ for details.</p>
 <h2 id="radio-options"><a class="header" href="#radio-options">Radio Options</a></h2>
 <p>The editor allows to preset all 18 COMM and 20 AUX channels of the UHF radio:</p>
 <p><img src="dcs/../img/me_radio_presets.jpg" alt="UHF Presets" /></p>
+<p>It is possible to set up a station in the Mission Editor for use in ADF navigation.
+To do this, a unit, such as a ground station, needs to be placed on the map. This unit
+should then execute a command to tune into the desired AM frequency
+(Perform Command/ Set Frequency). Finally, the unit must transmit a message continuously
+throughout the mission, which requires setting the message to loop
+(Perform Command/ Transmit Message).</p>
+<p><img src="dcs/../img/me_adf.jpg" alt="ADF Station" /></p>
 <p>Also, radio frequency parameters for mission triggers are provided:</p>
 <div class="table-wrapper"><table><thead><tr><th>Parameter</th><th>Description</th></tr></thead><tbody>
 <tr><td>COMM_FREQ</td><td>UHF Radio active Comm frequency [MHz]</td></tr>

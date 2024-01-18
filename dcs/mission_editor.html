@@ -293,6 +293,13 @@ for details.</p>
 <h2 id="radio-options"><a class="header" href="#radio-options">Radio Options</a></h2>
 <p>The editor allows to preset all 18 COMM and 20 AUX channels of the UHF radio:</p>
 <p><img src="../img/me_radio_presets.jpg" alt="UHF Presets" /></p>
+<p>It is possible to set up a station in the Mission Editor for use in ADF navigation.
+To do this, a unit, such as a ground station, needs to be placed on the map. This unit
+should then execute a command to tune into the desired AM frequency
+(Perform Command/ Set Frequency). Finally, the unit must transmit a message continuously
+throughout the mission, which requires setting the message to loop
+(Perform Command/ Transmit Message).</p>
+<p><img src="../img/me_adf.jpg" alt="ADF Station" /></p>
 <p>Also, radio frequency parameters for mission triggers are provided:</p>
 <div class="table-wrapper"><table><thead><tr><th>Parameter</th><th>Description</th></tr></thead><tbody>
 <tr><td>COMM_FREQ</td><td>UHF Radio active Comm frequency [MHz]</td></tr>

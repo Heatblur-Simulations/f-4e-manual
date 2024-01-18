@@ -244,21 +244,31 @@ HSI, and FDC. Drift correction angle is also provided to the radar and LCOSS.</p
 <p>The LN-12 has three modes of alignment on aircraft start: BATH, Heading Memory
 (HDG MEM), and Gyrocompass alignment. Prior to performing any alignment, STBY
 Reference System must be selected, the Nav Computer Control Panel should be
-turned on and its position update switch should be selected to NORMAL. Local
+turned to STBY and its position update switch should be selected to NORMAL. Local
 magnetic variation should be entered on the variation counter, and the position
 counter should be set to local latitude and longitude. Doing so will greatly
-expedite gyrocompass alignment. Further, alignment should not be performed with
+expedite gyrocompass alignment. Furthermore, alignment should not be performed with
 the wings in their folded position, as the magnetic flux valve that provides
 compass synchronization wil be 60 degrees outside of normal position.</p>
 <p>The INS also includes an in-flight position update option, should the aircrew
 note gross deviation from known location fixes.</p>
+<p>The INS panel features two indicator lights: HEAT and ALIGN. The HEAT light is active
+in any alignment mode (including Coarse Alignment in the STBY mode), signifying that
+the system is heating up. It turns off after approximately 110 seconds, indicating
+that the gyros have reached the operational temperature of 160 degrees Fahrenheit.
+The ALIGN light, functional exclusively in the ALIGN mode, signals the completion
+of alignment. A steady ALIGN light indicates that a BATH (fast) alignment has been
+achieved. Provided the system has not encountered any errors and the gyros were
+pre-heated in STBY mode (evidenced by the extinguished HEAT light), the system
+will proceed to perform a Gyrocompass Alignment. A flashing ALIGN light signifies
+the completion of either a Gyrocompass Alignment or a Heading Memory Alignment.</p>
 <h3 id="best-available-true-heading"><a class="header" href="#best-available-true-heading">Best Available True Heading</a></h3>
 <p>STBY position must be placed momentarily to avoid an INS no-go.
-Once set to ALIGN, the ALIGN lamp will illuminate steadily after 75 seconds
-indicating BATH Alignment is ready. Once in BATH, the INS is accurate to roughly
-5 and a half nautical miles per hour CEP, although higher inaccuracies can be
-seen. Once BATH is achieved, NAV mode can be selected and the aircraft flown
-with the above caveat.</p>
+Once set to ALIGN (HEAT light may be ingnored), the ALIGN lamp will illuminate
+steadily after about 75 seconds indicating BATH Alignment is ready. Once in BATH,
+the INS is accurate to roughly 5 and a half nautical miles per hour CEP, although
+higher inaccuracies can be seen. Once BATH is achieved, NAV mode can be selected
+and the aircraft flown with the above caveat.</p>
 <h3 id="heading-memory-alignment"><a class="header" href="#heading-memory-alignment">Heading Memory Alignment</a></h3>
 <p>This option becomes accessible if the alignment has been previously stored and
 the aircraft has remained stationary. To access it, select HDG MEM located
@@ -307,13 +317,13 @@ when the ALIGN indicator flashes.</p>
 further increase system accuracy.</p>
 <h3 id="in-flight-emergency-alignment"><a class="header" href="#in-flight-emergency-alignment">In-Flight Emergency Alignment</a></h3>
 <p>In the event of a significant attitude error or failure of the STBY Attitude
-Reference, an emergency in-flight alignment of the INS can be executed. This is indicated by the NAV
-SYS OUT LAMP illuminated. The aircraft must maintain straight and level flight, with the Reference
-System Selector Knob set to STBY. Once in this configuration, the INS Mode Knob should
-be switched to OFF, then to STBY for a duration of 15 seconds. Subsequently,
-after the 15-second interval, return the Mode to NAV, and resume straight and
-level flight. The process of resetting the Reference Selector to PRIM can be
-performed approximately after 40 seconds, although the precise alignment time is
+Reference, an emergency in-flight alignment of the INS can be executed. This may be
+indicated by the NAV SYS OUT LAMP illuminated. The aircraft must maintain straight
+and level flight, with the Reference System Selector Knob set to STBY. Once in this
+configuration, the INS Mode Knob should be switched to OFF, then to STBY for a duration
+of 15 seconds. Subsequently, after the 15-second interval, return the Mode to NAV, and
+resume straight and level flight. The process of resetting the Reference Selector to PRIM
+can be performed approximately after 40 seconds, although the precise alignment time is
 not specified.</p>
 <blockquote>
 <p>💡 Accuracy of the attitude in this alignment is
@@ -321,7 +331,7 @@ contingent upon how steadily the aircraft was flown during the alignment period
 and subsequent alignments may be required. Following this emergency alignment,
 only attitude information will be available. Velocities, position, and displays
 on the navigation computer will be inaccurate and cannot be utilized for
-navigation purposes.</p>
+navigation purposes and the NAV SYS OUT LAMP will illuminate.</p>
 </blockquote>
 <h2 id="navigation-computer"><a class="header" href="#navigation-computer">Navigation Computer</a></h2>
 <p><img src="../../img/wso_nav_computer.jpg" alt="wso_navigation_computer" /></p>
