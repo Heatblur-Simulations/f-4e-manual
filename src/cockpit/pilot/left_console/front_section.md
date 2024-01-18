@@ -248,8 +248,8 @@ opposing aircraft),
 the [optical sight](../../../cockpit/pilot/dscg_controls.md#sight-mode-knob)
 reticle can immediately be slewed to the
 Radar Boresight Line using the Cage Button, found on the inboard (right)
-throttle handle. Cage mode commands [the radar](../../../systems/radar.md)
-into [BST mode](../../../systems/radar.md#bst-boresight-position) with a five mile
+throttle handle. Cage mode commands [the radar](../../../systems/radar/overview.md)
+into [BST mode](../../../systems/radar/interface.md#bst-boresight-position) with a five mile
 range, and short pulse, and sets the firing circuit for the currently selected
 air-to-air weapon relative to the Pinky Switch. For
 the [optical sight](../../../cockpit/pilot/dscg_controls.md#sight-mode-knob),

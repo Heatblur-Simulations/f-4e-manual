@@ -106,7 +106,7 @@ situation against a target above the fighter. The predicates are:
 When the HOLD ALT light is on, the fighter should be flown to center the
 steering dot relative to azimuth of the ASE circle. When the HOLD ALT light
 turns off, the fighter should then snap up in pitch to fully center the steering
-dot in the ASE circle. See [3.10 radar system](../../systems/radar.md) for more.
+dot in the ASE circle. See the [3.10 Radar System](../../systems/radar/overview.md) for more.
 
 ## Wheels Light
 

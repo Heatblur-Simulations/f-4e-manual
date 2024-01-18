@@ -183,7 +183,8 @@ the CAS environment.
 Offset bombing provides a blind bombing capability, with high and low level
 bombing profiles, using the full integration of
 the [WRCS](../../../systems/weapon_systems/wrcs.md), [INS](../../../systems/nav_com/ins.md), and
-[radar](../../../systems/radar.md) in combination. Offset bombing can be used in both visual and
+[radar](../../../systems/radar/overview.md) in combination.
+Offset bombing can be used in both visual and
 instrument conditions, to release either bombs or dispensed munitions (with the RKTS & DISP
 mode).
 
@@ -274,8 +275,8 @@ initiate panel), and any desired release advance setting should be entered.
 Additionally, the desired release timing and count should be selected on the
 [AWRU](../../../systems/weapon_systems/awru.md). Prior to initiation, the pilot should enter the
 target area at the desired profile altitude and airspeed. The WSO should have the APQ-120 prepared
-for the attack with a good [radar](../../../systems/radar.md) picture in MAP-PPI mode, NOR stab
-mode, WIDE scan, and a range of 10 or 25 miles, with an observed return from the RIP.
+for the attack with a good [radar](../../../systems/radar/overview.md) picture in MAP-PPI mode,
+NOR stab mode, WIDE scan, and a range of 10 or 25 miles, with an observed return from the RIP.
 
 Initiation of the attack begins with placing the Along Track cursor (presented
 as a growing hemisphere on the radar display defining range to the RIP)
@@ -348,8 +349,9 @@ complete.
 
 ## Dive Toss - DT
 
-Dive Toss uses [WRCS](../../../systems/weapon_systems/wrcs.md) [radar](../../../systems/radar.md)
-tracking, in conjunction with other aircraft sensors, to calculate the release solution in real
+Dive Toss uses [WRCS](../../../systems/weapon_systems/wrcs.md)
+[radar](../../../systems/radar/overview.md) tracking, in conjunction with other aircraft sensors,
+to calculate the release solution in real
 time. The target can be approached from any direction, airspeed, and dive angle, and
 the WRCS computes the proper
 release point relative to the acquired track, munition drag coefficient
@@ -357,7 +359,8 @@ setting, and any release advance control input (in conjunction
 with [AWRU](../../../systems/weapon_systems/awru.md)
 settings).
 
-To perform a Dive Toss attack, the [radar](../../../systems/radar.md) must be set in AIR-GRD mode,
+To perform a Dive Toss attack, the [radar](../../../systems/radar/overview.md) must be
+set in AIR-GRD mode,
 with a 5 or 10-mile range setting. Once set, the pilot initiates the attack with the
 Optical Sight in Air-to-Ground mode, and the reticle automatically cages in
 elevation along the RBL. The pilot then selects DT on the Delivery Mode Knob,
@@ -366,7 +369,8 @@ Quantity on the respective [AWRU](../../../systems/weapon_systems/awru.md) knobs
 pilot can initiate the attack.
 
 The attack is initiated in a dive. The required dive is roughly 20% higher than
-that required for a Direct mode attack, as to achieve effective [radar](../../../systems/radar.md)
+that required for a Direct mode attack, as to achieve effective
+[radar](../../../systems/radar/overview.md)
 ground lock; that is, the radar must get a solid ground return, rather
 than see the actual target being bombed. Once lock-on is achieved, the pilot then maneuvers to
 place the pipper over the intended target, wings level, then presses and holds
@@ -399,7 +403,8 @@ entered on the [WRCS](../../../systems/weapon_systems/wrcs.md) panel, and, if ne
 advance control.
 
 The start of the attack is the same as Dive Toss; a higher than normal dive
-angle is flown, with the [radar](../../../systems/radar.md) in AIR-GRD mode at 5 or 10-mile range, a
+angle is flown, with the [radar](../../../systems/radar/overview.md) in AIR-GRD mode
+at 5 or 10-mile range, a
 solid return is generated, and the pilot then positions the pipper on the intended
 target and holds the bomb release button. Once this is completed, the pilot
 pulls out of the dive at the bombing table plan altitude, maintains the target

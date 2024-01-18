@@ -134,4 +134,4 @@ detected by the APX-81A Combat Tree system.
 
 Illuminated each time the system detects being interrogated by other aircraft.
 
-> 💡 Due to DCS limitations, this is not simulated in-game.
+> 💡 Due to DCS limitations, the activity lights are not simulated in-game.

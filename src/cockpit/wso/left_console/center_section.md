@@ -5,7 +5,8 @@ and countermeasure panel.
 
 ## Radar Set Control Panel
 
-See [Radar Set Control Panel](../../../systems/radar.md#radar-set-control-panel) section for more
+See [Radar Set Control Panel](../../../systems/radar/interface.md#radar-set-control-panel)
+section for more
 detailed description of all the functions below.
 
 ![wso_radar_set_control_panel](../../../img/wso_radar_panel.jpg)
@@ -15,9 +16,9 @@ detailed description of all the functions below.
 ![Power Knob](../../../img/wso_radar_power_switch.jpg)
 
 Five position rotary switch controlling power state of
-the [APQ-120 Radar.](../../../systems/radar.md)
+the [APQ-120 Radar.](../../../systems/radar/overview.md)
 
-See the [Radar Power Section](../../../systems/radar.md#power) for more details.
+See the [Radar Power Section](../../../systems/radar/interface.md#power) for more details.
 
 ### Polar Switch
 
@@ -27,7 +28,7 @@ Controls polarization of transmitted radio frequency energy. LIN should be used 
 conditions, CIR 1 and CIR 2 can be used to reduce precipitation clutter at the expense of increased
 ground clutter.
 
-[See Radar Polarization Knob Section for more details.](../../../systems/radar.md#polarization-control)
+[See Radar Polarization Knob Section for more details.](../../../systems/radar/interface.md#polarization-control)
 
 ### Range Knob
 
@@ -36,7 +37,8 @@ ground clutter.
 Used to select range sweep of 5, 10, 25, 50, 100, or 200 mile ranges on both
 radar displays. Ranges up to 50 are displayed on the range lamp [range lamp](../../pilot/dscg_controls.md#range-lights).
 
-See the [Radar Range Knob Section](../../../systems/radar.md#radar) for more details.
+See the [Radar Range Knob Section](../../../systems/radar/interface.md#radar-set-control-panel)
+for more details.
 
 ### Maneuver Switch
 
@@ -45,7 +47,7 @@ See the [Radar Range Knob Section](../../../systems/radar.md#radar) for more det
 Controls radar tracking acceleration response. LOW sets a limit on antenna acceleration and HI
 removes acceleration limit.
 
-[See Radar Maneuver Knob Section](../../../systems/radar.md#maneuver-switch)
+[See Radar Maneuver Knob Section](../../../systems/radar/interface.md#maneuver-switch)
 
 ### Bar Scan Switch
 
@@ -53,7 +55,7 @@ removes acceleration limit.
 
 Selects elevation scan pattern between 1 and 2 bars. Only RDR-B modes can make use of 2 bars.
 
-[See Radar Scan Switch Section for more details](../../../systems/radar.md#scan)
+[See Radar Scan Switch Section for more details](../../../systems/radar/interface.md#scan-switch)
 
 ### Aspect Knob
 
@@ -63,7 +65,7 @@ Used to program the [AIM-7](../../../stores/air_to_air/aim_7.md) with a predeter
 Doppler instead of actual received Doppler, so that the WSO can provide an estimated correct
 speed-gate for the sparrow when not tracking.
 
-[See Aspect Knob Section for more details](../../../systems/radar.md#aspect)
+[See Aspect Knob Section for more details](../../../systems/radar/interface.md#aspect)
 
 ### Receiver Gain Knobs (RCVR GAIN)
 
@@ -72,7 +74,7 @@ speed-gate for the sparrow when not tracking.
 Coarse (outer ring) and Fine (inner knob) gain control for the radar receiver. Larger values result
 in more noise and can cause display to become saturated. Lower values may result in lower detection ranges.
 
-[See Receiver Gain Knob Section for more details](../../../systems/radar.md#receiver-gain-rcvr-gain)
+[See Receiver Gain Knob Section for more details](../../../systems/radar/interface.md#receiver-gain-rcvr-gain)
 
 ### Track Switch
 
@@ -81,7 +83,7 @@ in more noise and can cause display to become saturated. Lower values may result
 Selects range tracking type for use in heavy clutter environments, or automatic
 tracking under normal circumstances.
 
-[See Radar Track Switch Section for more details](../../../systems/radar.md#scan)
+[See Radar Track Switch Section for more details](../../../systems/radar/interface.md#scan-switch)
 
 ### Display Knob
 
@@ -90,13 +92,13 @@ tracking under normal circumstances.
 Sets the display type of the radar scope to access specific mode functionality
 in conjunction with the Mode knob. The types are as follows:
 
-| Name                                                                                  | Description                                                                                                   |
-|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| [B WIDE](../../../systems/radar.md#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident) | Selects 120 degree B-sweep for search. Half-action places the sweep under manual Antenna Hand Control stick.  |
-| [B NAR](../../../systems/radar.md#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident)  | Selects a 45 degree B-sweep sector for search, which is manually shifted with the Antenna Hand Control stick. |
-| [PPI WIDE](../../../systems/radar.md#air-to-ground-ppi-wide-and-ppi-nar)              | Selects a 120 degree wide plan position indicator sweep for MAP mode.                                         |
-| [PPI NAR](../../../systems/radar.md#air-to-ground-ppi-wide-and-ppi-nar)               | Selects a 45 degree plan position indicator sweep that can be shifted with the Antenna Hand Control stick.    |
-| [VI](../../../systems/radar.md#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident)  | Provides pure pursuit guidance to a locked target for Visual Intercept; a break X will appear at 1000' range.                      |
+| Name     | Description                                                                                                   |
+| -------- | ------------------------------------------------------------------------------------------------------------- |
+| B WIDE   | Selects 120 degree B-sweep for search. Half-action places the sweep under manual Antenna Hand Control stick.  |
+| B NAR    | Selects a 45 degree B-sweep sector for search, which is manually shifted with the Antenna Hand Control stick. |
+| PPI WIDE | Selects a 120 degree wide plan position indicator sweep for MAP mode.                                         |
+| PPI NAR  | Selects a 45 degree plan position indicator sweep that can be shifted with the Antenna Hand Control stick.    |
+| VI       | Provides pure pursuit guidance to a locked target for Visual Intercept; a break X will appear at 1000' range. |
 
 ### Manual Vc Knob
 
@@ -109,7 +111,7 @@ manual track mode.
 The numbers are multiplied by 100 knots while closure means closing in to the F-4
 and opening means the target is flying away from the F-4.
 
-[See MAN Vc Knob Section for more details](../../../systems/radar.md#manual-vc-man-vc)
+[See MAN Vc Knob Section for more details](../../../systems/radar/interface.md#manual-vc-man-vc)
 
 ### Pulse Switch
 
@@ -124,7 +126,7 @@ frequency (PRF).
 | LONG  | Wide pulse width and low PRF, allowing maximum range detection; no track automatic pulse adjustment. |
 | SHORT | Narrow pulse width with high PRF for increased close range performance.                              |
 
-[See Pulse Switch Section for more details](../../../systems/radar.md#pulse-switch)
+[See Pulse Switch Section for more details](../../../systems/radar/interface.md#pulse-switch)
 
 ### Mode Knob
 
@@ -135,19 +137,19 @@ radar.
 
 | Name    | Description                                                                                                                                                                                                                                                                  |
 |---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| BST     | [Air-to-Air boresight](../../../systems/radar.md#air-to-air-b-sweep--b-wide-b-nar-and-vi-vis-ident) with antenna aligned radar boresight line and optical sight with sight in A/A. |
-| RDR     | Search Mode with Feedhorn Nutation (wider beamwidth) mode.                                                                                                                                                                                                                                                      |
-| MAP     | Search Mode without Feedhorn Nutation (narrower beamwidth)                                                                                                                                                                                                                                                   |
-| AIR-GRD | [Air-to-Ground boresight](../../../systems/radar.md#air-grd-air-to-ground-position), Tracks range of illuminated ground, radar is boresighted to the radar boresight line with drift compensation.                                                                                                                  |
+| BST     | Air-to-Air boresight with antenna aligned radar boresight line and optical sight with sight in A/A. |
+| RDR     | Search Mode with Feedhorn Nutation (wider beam-width) mode.                                                                                                                                                                                                                                                      |
+| MAP     | Search Mode without Feedhorn Nutation (narrower beam-width)                                                                                                                                                                                                                                                   |
+| AIR-GRD | [Air-to-Ground boresight](../../../systems/radar/interface.md#air-grd-air-to-ground-position), Tracks range of illuminated ground, radar is boresighted to the radar boresight line with drift compensation.                                                                                                                  |
 | BEACON  | Radar receives and displays signals from ground or airborne beacon transponders for navigation.                                                                                                                                                                              |
-| TV      | Not used with DSCG. Detunes [AIM-7](../../../stores/air_to_air/aim_7.md) if selected, preventing sparrows from guiding.                                                                                                                                                                               |
+| TV      | Not used with DSCG. De-tunes [AIM-7](../../../stores/air_to_air/aim_7.md) if selected, preventing sparrows from guiding.                                                                                                                                                                               |
 
-[See Mode Knob Section for more details](../../../systems/radar.md#radar-modes-mode)
+[See Mode Knob Section for more details](../../../systems/radar/interface.md#radar-modes-mode)
 
 ### Skin Track Light
 
 Lamp that illuminates when a track is attained with range data. In the
-event of [HOJ](../../../systems/radar.md#home-on-jam-hoj) or a range memory situation, the light
+event of [HOJ](../../../systems/radar/operation.md#home-on-jam) or a range memory situation, the light
 will go off. Accompanied on the rear DSCG radar scope with the T symbol that illuminates under the
 same circumstances.
 
