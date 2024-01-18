@@ -305,9 +305,6 @@ throttle and stick.
 munitions, adding ripple release capability while reducing the number of
 controls required to access full ARBCS programming.
 
-> 💡 Our simulation of the Phantom includes this "classic era" F-4E
-> (_DSCG_-variant) from around 1974.
-
 ### TISEO Upgrade
 
 Further reinforcement of crew initiative was the installation of TISEO - the
