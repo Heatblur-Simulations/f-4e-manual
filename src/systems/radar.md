@@ -948,13 +948,15 @@ The range cursor is an arc of constant range from the aircraft. The offset curso
 parallel to the drift of the aircraft, which can be offset left or right of the aircraft's current
 track. Offset Cursor and Range Cursor can only be displayed in PPI modes.
 
-Both Range and Offset Cursor are displayed if [Weapon Delivery Mode](#weapon-delivery-link?) is set
-to TGT FIND or OFFSET, or [Radar Mode Knob](#radar-modes-mode) is set to BEACON. If this is not the
-case then only Range Cursor is displayed at a fixed range which can be adjusted by the ground crew.
+Both Range and Offset Cursor are displayed if
+[Weapon Delivery Mode](../systems/weapon_systems/multiple_weapons_system.md/#mode-selection---delivery-mode-knob)
+is set to TGT FIND or OFFSET, or [Radar Mode Knob](#radar-modes-mode) is set to BEACON. If this is
+not the case then only Range Cursor is displayed at a fixed range which can be adjusted by the
+ground crew.
 
-The [Along Track Control](#along-track-link?) is used to increase and decrease the current setting
-for the range cursor. The
-[Cross Track Control](#cross-track-link?) is used to move the offset cursor to the left and right of
-the aircraft's track.
+The [Along Track Control](../cockpit/wso/right_console/center_section.md#along-track-wheel) is used
+to increase and decrease the current setting for the range cursor. The
+[Cross Track Control](../cockpit/wso/right_console/center_section.md#cross-track-wheel) is used to
+move the offset cursor to the left and right of the aircraft's track.
 
 ![manual_radar_map_mode](../img/manual_radar_map_modes.jpg)
