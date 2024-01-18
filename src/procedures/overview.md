@@ -29,7 +29,7 @@ Here is an explanation of the symbology used:
 | Symbol   | Description                                                                   |
 |----------|-------------------------------------------------------------------------------|
 | **bold** | step is necessary to be performed                                             |
-| 🔧       | step involves or may involve [crew chief](crew_chief/overview.md) interaction |
+| 🔧       | step involves or may involve [crew chief](../crew_chief/overview.md) interaction |
 | ⚡        | step **cannot** be performed when **battery start** is made                   |
 
 ![real_life_crew_with_manual](../img/real_life_crew_with_manual.jpg)
