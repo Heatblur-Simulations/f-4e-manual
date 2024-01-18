@@ -1,6 +1,6 @@
 # Definitions
 
-Should an abbreviation, such as DSCG be unclear at any point, look it up in the
+Should an acronym, such as DSCG be unclear at any point, look it up in the
 exhaustive list provided at the [Abbreviations chapter](../abbreviations.md).
 
 The following symbology is used throughout this manual.
