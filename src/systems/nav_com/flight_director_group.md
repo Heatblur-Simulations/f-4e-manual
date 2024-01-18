@@ -26,7 +26,7 @@ displays on the HSI.
 Positions are VOR/TAC, TAC, ADF/TAC, and NAV COMP.
 
 In VOR/TAC mode, magnetic and relative bearing to the [VOR](vor_ils.md)
-station and range to the [TACAN]((tacan.md)) station are provided on
+station and range to the [TACAN](tacan.md) station are provided on
 the [HSI](../../cockpit/pilot/flight_director_group.md#horizontal-situation-indicator) bearing
 pointer and range indicator.
 
@@ -177,15 +177,15 @@ displays navigation information using two needles, referred to as the No. 1 and 
 which receive inputs controlled by the WSO Navigation Mode Selector Switch.
 
 When the upper position is selected to [TACAN](tacan.md)/ADF/UHF, the no. 1 pointer
-indicates UHF bearing, and the no. 2 pointer indicates the [TACAN](tacan.md) bearing. If
-there is no [TACAN](tacan.md) signal, both pointers indicate the ADF bearing.
+indicates UHF bearing, and the no. 2 pointer indicates the TACAN bearing. If
+there is no TACAN signal, both pointers indicate the ADF bearing.
 
 With the middle position selected - [VOR](vor_ils.md)/TAC, the no. 1 pointer indicates
-the [VOR](vor_ils.md)
-bearing, the no. 2 pointer indicates the [TACAN](tacan.md) bearing, and the range indicator
-provides distance to the [TACAN](tacan.md) station. In the absence of a [TACAN](tacan.md) signal,
+the VOR
+bearing, the no. 2 pointer indicates the TACAN bearing, and the range indicator
+provides distance to the TACAN station. In the absence of a TACAN signal,
 both
-pointers indicate the [VOR](vor_ils.md) station.
+pointers indicate the VOR station.
 
 In the lower position, NAV COMP, the no. 1 pointer indicates bearing to the
 navigation computer target coordinates, and the no. 2 pointer indicates magnetic
