@@ -29,7 +29,7 @@
 | 4.   | Course selected                                                                          | 315° on the HSI course selector.                  |
 | 5.   | HSI mode                                                                                 | In VOR/ILS.                                       |
 | 6.   | Press the test pushbutton                                                                | Initiates the test.                               |
-|      | a. Course deviation indicator moves to center (with a maximum allowable error of +- 4°). |                                                   |
+|      | a. Course deviation indicator moves to center (with a maximum allowable error of ±4°). |                                                   |
 |      | b. "To-from" indicator on HSI indicates TO.                                              |                                                   |
 |      | c. Marker beacon lights illuminate                                                       |                                                   |
 |      | d. Bearing pointers on HSI and BDHI swing to 315°                                        |                                                   |

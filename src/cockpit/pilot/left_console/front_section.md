@@ -36,23 +36,27 @@ This system is not installed on this variant of the F-4E.
 ### Supply Lever
 
 Two position switch (ON and OFF) activating flow of oxygen to the mask.
-For further information see [Oxygen chapter](../../../systems/utility.md#oxygen-system).
+For further information see
+[3.7 Utility chapter, Oxygen section](../../../systems/utility.md#oxygen-system).
 
 ### Diluter Lever
 
 A two-position diluter lever, in the center of the regulator
-panel, controls the mixture of air and oxygen. For a
-proportional amount of air to oxygen, the NORMAL
-OXYGEN position should be selected. For only oxygen, the
-100% OXYGEN position should be selected and it should
-be used if fire and/or
-smoke or fumes occur in the cockpit.
+panel, controls the mixture of air and oxygen.
+
+For a proportional amount of air to oxygen, the NORMAL
+OXYGEN position should be selected.
+
+For pure oxygen, the
+100% OXYGEN position should be selected. This setting is preferable
+if fire, toxic smoke or fumes occur in the cockpit.
 
 ### Emergency Lever
 
 Three position switch which permits selection of NORMAL (standard supply),
-EMERGENCY pressure (100% oxygen with continous positive pressure) or
+EMERGENCY pressure (100% oxygen with continuous positive pressure) or
 TEST MASK (positive pressure to test the face mask for leaks).
+
 The lever should remain in the center (NORMAL) position at all times,
 unless an unscheduled pressure increase is required.
 
@@ -65,7 +69,7 @@ oxygen flow (white indicates inhalation).
 
 Indicates oxygen supply pressure from 0 to 500 psi.
 
-For further information see [Oxygen chapter](../../../systems/utility.md#oxygen-system).
+For further information see [3.7 Utility chapter, Oxygen section](../../../systems/utility.md#oxygen-system).
 
 ### Oxygen Quantity Gauge
 
@@ -77,14 +81,17 @@ instrument face.
 ### Oxygen Quantity Test Button
 
 The button is used to test operation of the front
-and rear cockpit gages along with operation.of the oxygen
-low warning system. With the button pressed, both gage
-needles should rotate from the current oxygen quantity
-indication to an indication of zero. As the pointer in the
-front cockpit passes through the 1 liter indication, the
-OXYGEN LOW warning light on the front [telelight panel](../right_sub_panel.md#telelight-annunciator-panel)
-should illuminate, and remain illuminated until the
-pointer again rotates above 1 liter.
+and rear cockpit gauges along with operation of the low-oxygen
+warning system.
+
+With the button pressed, both gauge
+needles should move to an indication of zero.
+
+As the needle in the front cockpit passes through the 1 liter indication, the
+OXYGEN LOW warning light on the
+front [telelight panel](../right_sub_panel.md#telelight-annunciator-panel)
+should illuminate, and remain illuminated until the button is released and
+the needle moves above 1 liter again.
 
 ## Forward Hand Control
 

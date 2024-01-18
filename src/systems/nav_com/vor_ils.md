@@ -11,6 +11,40 @@ function is enabled on these displays using the appropriate Flight Director
 Group control selections on the Bearing/Distance Selector switch, the Navigation
 Mode Selector switch, and the Flight Director Switch.
 
+## ILS System
+
+The ILS system is designed to detect deviations from the designated landing approach path
+and relay this information to selected avionics in the aircraft.
+
+When the appropriate ILS mode
+is selected on the Navigation Function Selector Panel, several instruments provide guidance
+for precision approach. These include the Deviation Indicator on the Horizontal Situation
+Indicator (HSI), which shows lateral alignment with the runway, and the Glide-slope Indicator
+on the ADI, which displays the vertical descent angle relative to the ideal glide path.
+
+Additionally, if the Flight Director is activated, steering cues will be provided by the
+needles on the Attitude Director Indicator (ADI), offering visual guidance for both pitch
+and roll to maintain the correct approach path.
+
+In the rear cockpit the both horizontal and
+vertical deviations are presented on the Course Indicator.
+
+The typical maximum deviations are ±2.5 degrees for the localizer and ±0.7 degrees
+for the glide-slope.
+
+### Marker Beacons
+
+If Marker Beacons are positioned along the approach path, the aircraft's system will audibly
+signal and illuminate the corresponding Marker Beacon light as it passes over each one.
+Depending on the specific setup at an airport, there can be:
+
+- Outer Marker: Identified by a low-pitched, continuous tone.
+- Middle Marker: Recognized by a higher-pitched, alternating audio tone. This marker indicates
+  a closer proximity to the runway, usually at the decision altitude for landing.
+- Inner Marker: Characterized by a very high-pitched tone or a series of high-pitched dots.
+  This marker is not always present but, when it is, signifies an even closer position to the
+  runway end.
+
 ## VOR/ILS Control Panel
 
 ![pilot_vor_ils_panel](../../img/pilot_vor_ils_panel.jpg)
@@ -37,43 +71,21 @@ VOR and ILS frequencies will be listed.
 The system is designed to automatically detect whether a tuned frequency corresponds
 to a VOR station or an ILS localizer. VOR operates within a frequency range of 108 MHz
 to 117.95 MHz. The ILS localizer frequency range is from 108.1 MHz to 111.95 MHz.
+
 In the shared frequency region, VOR stations typically operate on frequencies with
-an even-numbered tenth of the range (e.g., 108.2 MHz, 108.4 MHz, etc.), while ILS localizer
+an even-numbered tenth of the range (e.g. 108.2 MHz, 108.4 MHz, etc.), while ILS localizer
 frequencies are assigned to the odd-numbered tenths, including hundredths of a MHz
-(e.g., 108.1 MHz, 108.3 MHz, 108.35 MHz, etc.).
-The glideslope component of the ILS operates in a frequency range from 329.3 MHz to 335.0 MHz.
+(e.g. 108.1 MHz, 108.3 MHz, 108.35 MHz, etc.).
+
+The glide-slope component of the ILS operates in a frequency range from 329.3 MHz to 335.0 MHz.
 These frequencies are paired with their corresponding localizer frequencies, ensuring
 that there is no need for separate manual setting. When a localizer frequency is selected,
-the associated glideslope frequency is automatically tuned, providing integrated lateral
+the associated glide-slope frequency is automatically tuned, providing integrated lateral
 and vertical guidance (if available) for precision approaches.
 The Marker Beacon that works in conjunction with the ILS system, operates at a frequency
 of 75 MHz.
 
-The ILS system is designed to detect deviations from the designated landing approach path
-and relay this information to selected avionics in the aircraft. When the appropriate ILS mode
-is selected on the Navigation Function Selector Panel, several instruments provide guidance
-for precision approach. These include the Deviation Indicator on the Horizontal Situation
-Indicator (HSI), which shows lateral alignment with the runway, and the Glideslope Indicator
-on the ADI, which displays the vertical descent angle relative to the ideal glide path.
-Additionally, if the Flight Director is activated, steering cues will be provided by the
-needles on the Attitude Director Indicator (ADI), offering visual guidance for both pitch
-and roll to maintain the correct approach path. In the rear cockpit the both horizontal and
-vertical deviations are presented on the Course Indicator.
-The typical maximum deviations are +-2.5 degrees for the localizer and +-0.7 degrees
-for the glideslope.
-
-If Marker Beacons are positioned along the approach path, the aircraft's system will audibly
-signal and illuminate the corresponding Marker Beacon light as it passes over each one.
-Depending on the specific setup at an airport, there can be:
-
-- Outer Marker: Identified by a low-pitched, continuous tone.
-- Middle Marker: Recognized by a higher-pitched, alternating audio tone. This marker indicates
-  a closer proximity to the runway, usually at the decision altitude for landing.
-- Inner Marker: Characterized by a very high-pitched tone or a series of high-pitched dots.
-  This marker is not always present but, when it is, signifies an even closer position to the
-  runway end.
-
-![ILS glideslope](../../img/ils_glideslope.jpg)
+![ILS glide-slope](../../img/ils_glideslope.jpg)
 
 ### VOR/MKR Test Pushbutton
 
@@ -81,7 +93,7 @@ After an ILS frequency has been selected on the frequency indicator, pressing th
 pushbutton causes the marker beacon lights to illuminate. If a VOR Frequency is selected, a valid
 VOR Signal is present, a course of 315° selected on the HSI course selector and the HSI mode is in
 VOR/ILS a test can be initiated. Pressing the test pushbutton causes the course deviation indicator
-on the HSI to move to center (with a maximum allowable error of +- 4°) ,the "to-from" indicator on
+on the HSI to move to center (with a maximum allowable error of ±4°) ,the "to-from" indicator on
 the HSI to indicate TO, the marker beacon lights to come on and the bearing pointers on both the HSI
 and BDHI to swing to 315°.
 

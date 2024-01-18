@@ -7,7 +7,8 @@ Fire Control Radar is a solid state pulse radar providing the F-4E with air to
 air intercept functionality, air to ground mapping, ground target reference
 provision to the LABS and WRCS bombing systems, as well as radar beacon
 capability. The APQ-120 also functions as the display system for TISEO and TV
-guided weapon imagery, and is integrated with the APX-80 interrogation system.
+guided weapon imagery, and is integrated with the
+[APX-80 interrogation system](../systems/identification_systems.md#interrogator-systems).
 
 The primary conversion from the APQ-109 to APQ-120 included a reduction in the
 number of field replaceable units in the nose, as well as the reduction in their

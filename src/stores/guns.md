@@ -32,8 +32,7 @@ tick at the 1 o-clock position, down to 1000' at the 6 o-clock position.
 ![radar_gun_lock](../img/radar_gun_lock.jpg)
 
 For air to ground use,
-the [optical sight](../cockpit/pilot/dscg_controls.md#sight-mode-knob)
-should be selected to A/G mode, the
+the optical sight should be selected to A/G mode, the
 [Delivery Mode knob](../cockpit/pilot/weapon_management.md#delivery-mode-knob)
 should be set in the OFF or Direct mode, and the desired
 [sight depression mil setting](../cockpit/pilot/dscg_controls.md#reticle-depression-knob)

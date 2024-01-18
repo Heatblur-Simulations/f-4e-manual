@@ -15,7 +15,7 @@ range from 150 to 1500 knots. The velocity signal is calculated in the Air Data 
 based on the temperature and pressures input. While the indicators can read as low as 0 knots,
 the lack of calibration below the stated range means values less than 150 knots
 are inaccurate. At high rates of airspeed change, there may be a lag of up to
-+-10 knots in measurement. During normal operation, an error up to +-5 knots
+±10 knots in measurement. During normal operation, an error up to ±5 knots
 may be present. If failed, the rollers will be stuck on their position.
 
 The rear True Airspeed Indicator is removed for DMAS equipment in aircraft so
@@ -51,7 +51,7 @@ pointers to positive 1 G.
 
 ![MachInd](../../img/MachInd.jpg)
 
-Purely machanical instruments that use total pressure from the Pitot-Static system
+Purely mechanical instruments that use total pressure from the Pitot-Static system
 and static pressure from the Air Data Computer, previously corrected by the Static
 Pressure Compensator.
 
@@ -83,10 +83,10 @@ Mean time to failure is 1000 hours.
 
 ![Altimeter](../../img/Altim.jpg)
 
-An AAU-19 Type of altimeter, may operate in both electric- based on corrected electric
+An AAU-19 Type of altimeter, may operate in both electric - based on corrected electric
 static pressure signal from the Altitude Encoder, or mechanical (STBY) mode - from
 Air Data Computer, previously corrected by the Static Pressure Compensator.
-The errors tolerance of the instrument is +-3 knots below 80kts and +-5 knots above that airspeed.
+The errors tolerance of the instrument is ±3 knots below 80kts and ±5 knots above that airspeed.
 
 In STBY mode, the altimeter operates based on an aneroid barometer, featuring a flexible
 metal capsule known as an aneroid wafer. This wafer expands or contracts with changes
@@ -113,7 +113,7 @@ the event of an altimeter or air data computer failure in normal operation, the
 STBY flag will appear, and cannot be reset. This can also be followed by
 warnings on the telelight panel.
 
-Included failures of the device are:
+Common failures of the device include:
 
 - Altimeter Stuck: total damage, all indications are frozen
 - Electric Servo Failed: the device is forced to turn to the STBY (pressure) mode of operation.
@@ -122,8 +122,6 @@ Included failures of the device are:
 - Reference Pressure Rollers Stuck: reference pressure rollers remain in their position
 - Reference Pressure Knob Broken: rotating the knob has no effect on the device
 - Three Position Switch Broken: rotating the switch has no effect on the device
-
-![Altitude Failures](../../img/altitude_failures.jpg)
 
 ## Magnetic Compass
 
@@ -135,12 +133,17 @@ navigation or electrical system failure.
 Due to its design, the compass is subject to several errors. Firstly, it exhibits
 a degree of inertia, which often results in a lagging indication. As a result,
 oscillations of the needle and its swinging movements may frequently be observed.
+
 To maintain alignment with the Earth's gravity field, it can rotate about 10 degrees
 in both the pitch and roll axes. However, because the Earth's magnetic field lines are not
 parallel to its surface, the needle tends to 'dip' slightly upward or downward towards the
 magnetic poles. This 'dipping' effect causes errors, particularly noticeable during turns
-and acceleration. In the northern hemisphere, the compass will lag when turning from north and
-lead when turning towards north. The opposite is true in the southern hemisphere. When accelerating
+and acceleration.
+
+In the northern hemisphere, the compass will lag when turning from north and
+lead when turning towards north. The opposite is true in the southern hemisphere.
+
+When accelerating
 on east or west headings in the northern hemisphere, the compass will erroneously turn towards
 the north, and while decelerating, it will turn towards the south. In the southern hemisphere,
 the opposite effects occur during acceleration and deceleration.
@@ -187,7 +190,7 @@ same knob; turning the knob clockwise initially activates the indicator,
 removing the displayed OFF flag; continuing to rotate the knob moves the
 reference marker that will determine the altitude which triggers the low
 altitude warning. A self-test, initiated by pressing the function control
-switch, shows 35 +-15 feet. Above 5000 feet or with unreliable signals, the
+switch, shows 35 ±15 feet. Above 5000 feet or with unreliable signals, the
 pointer hides behind a mask, showing the OFF flag. The OFF appears also when
 power is lost; the indicator will then present the last altitude detected above
 ground level at the time of this occurring.
@@ -239,7 +242,7 @@ on a single boom on the aircraft's nose. Both the pitot tube and static ports
 are prone to blockages caused by ice accumulation. To alleviate icing of the pitot head,
 a Pitot Heat Switch is found in the front cockpit right console.
 
-> ⚠️ The Pitot Heat switch should always be turned on before takeoff but not for
+> 🟠 The Pitot Heat switch should always be turned on before takeoff but not for
 > longer than one minute as it could damage the instrument.
 
 ## Air Data Computer System

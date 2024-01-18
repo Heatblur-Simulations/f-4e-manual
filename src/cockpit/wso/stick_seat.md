@@ -36,10 +36,12 @@ for details.
 ### Emergency Quick Release Lever
 
 An Emergency Quick Release lever on each stick is available to immediately
-deactivate the anti-skid, ARI, autopilot, and stability augmentation.
+deactivate the anti-skid system, the automatic
+flight control system (AFCS), stability augmentation (STAB AUG) and the aileron-rudder
+interconnect (ARI).
 
 See
-[3.1.3 Gear & Ground handling, Anti-Skid section](../../systems/flight_controls_gear/gear_ground_handling.md#emergency-anti-skid-quick-release-lever)
+[3.1.3 Gear & Ground handling, Anti-Skid section](../../systems/flight_controls_gear/gear_ground_handling.md#emergency-quick-release-lever)
 for details.
 
 ## Seat

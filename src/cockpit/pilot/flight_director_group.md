@@ -105,41 +105,65 @@ The lamp can be rotated to dim and pushed to test.
 
 Presents a horizontal view of the navigation situation relative to the aircraft,
 indicated by an aircraft symbol and a lubber line showing the current aircraft heading.
-The movable elements of the instrument include:
 
-- Compass Card: A rotating element, dependent on the AJB-7 heading input, displays a compass rose.
-  It provides a reference for the aircraft's heading relative to magnetic north.
-- Bearing Pointer: Indicates the magnetic bearing to a selected navigation aid (Nav Comp, VOR,
-  TACAN, or ADF).
-- Course Arrow and Deviation Indicator: The direction towards which the arrow points can be
-  manually selected by the Course Knob in VOR/ILS and TAC modes (as seen on course rollers).
-  In HDG mode, it indicates the aircraft's magnetic heading, and in NAV COMP mode, it points
-  to the aircraft's magnetic ground track. The Deviation Indicator provides visual feedback
-  on the aircraft's deviation from the selected course: it shows deviation from a TACAN course
-  in TAC mode or deviation from a [VOR](../../systems/nav_com/vor_ils.md) radial in VOR/ILS mode
-  when VOR is tuned, and deviation from an ILS localizer signal in VOR/ILS mode when ILS is tuned.
-- To-From Indicator: Reveals whether the current course will lead towards or away from the tuned
-  station, functioning with TACAN and VOR inputs.
-- Heading Marker: It can be manually set to the desired heading to provide the Flight Director
-  with steering signals in all modes except NAV COMP. In NAV COMP mode, it displays command
-  steering towards the selected target, taking wind drift into account.
-- Range Indicator: Shows the distance to the selected TACAN station or NAV COMP destination.
-- Mode Indicator Lights: Indicate the active navigation mode:
-    VOR: Indicates that the VOR/ILS mode is selected and a VOR frequency selected.
-    ILS: Indicates that the VOR/ILS mode is selected and an ILS frequency selected.
-    TAC: Shows that TACAN mode is active.
-    NAV: Illuminates when the Navigation Computer mode is in use.
-    MAN: Indicates that the Heading Mode is selected.
-    UHF: Signifies that the ADF mode is active.
-    TGT: Illuminates during specific radar offset bombing operations.
+### Knobs
 
-Consists of a rotating compass card, single and double bar bearing pointers
-numbered 1 and 2 respectively, a range indicator, and a range warning flag.
-Presents a top-down view of the currently programmed navigation. The Heading Set
-knob (lower left) is available to input desired magnetic heading, and the
-Course Set knob (lower right) is
-used to enter [VOR](../../systems/nav_com/vor_ils.md) radial or inbound localizer course for
+The knob on the lower left is available to input desired magnetic heading, and the
+Course Set knob on the lower right is used to enter
+[VOR](../../systems/nav_com/vor_ils.md) radial or inbound localizer course for
 accurate deviation display.
+
+### Compass Card
+
+A rotating element, dependent on the AJB-7 heading input, displays a compass rose.
+
+It provides a reference for the aircraft's heading relative to magnetic north.
+
+### Bearing Pointer
+
+Indicates the magnetic bearing to a selected navigation aid (Nav Comp, VOR, TACAN, or ADF).
+
+### Course Arrow and Deviation Indicator
+
+The direction towards which the arrow points can be manually selected by
+the Course Knob in VOR/ILS and TAC modes (as seen on course rollers).
+
+In HDG mode, it indicates the aircraft's magnetic heading, and in NAV COMP mode, it points
+to the aircraft's magnetic ground track.
+
+The Deviation Indicator provides visual feedback
+on the aircraft's deviation from the selected course. It shows deviation from a TACAN course
+in TAC mode or deviation from a [VOR](../../systems/nav_com/vor_ils.md) radial in VOR/ILS mode
+when VOR is tuned, and deviation from an ILS localizer signal in VOR/ILS mode when ILS is tuned.
+
+### To-From Indicator
+
+Reveals whether the current course will lead towards or away from the
+tuned station, functioning with TACAN and VOR inputs.
+
+### Heading Marker
+
+The heading marker can be manually set to the desired heading to provide the Flight Director
+with steering signals in all modes except NAV COMP.
+
+In NAV COMP mode, it displays command steering towards the selected target,
+taking wind drift into account.
+
+### Range Indicator
+
+Shows the distance to the selected TACAN station or NAV COMP destination.
+
+### Mode Indicator Lights
+
+Several lights indicate the active navigation mode:
+
+* VOR: Indicates that the VOR/ILS mode is selected and a VOR frequency selected.
+* ILS: Indicates that the VOR/ILS mode is selected and an ILS frequency selected.
+* TAC: Shows that TACAN mode is active.
+* NAV: Illuminates when the Navigation Computer mode is in use.
+* MAN: Indicates that the Heading Mode is selected.
+* UHF: Signifies that the ADF mode is active.
+* TGT: Illuminates during specific radar offset bombing operations.
 
 ## Altimeter
 

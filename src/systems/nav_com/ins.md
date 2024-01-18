@@ -74,10 +74,15 @@ compass synchronization wil be 60 degrees outside of normal position.
 The INS also includes an in-flight position update option, should the aircrew
 note gross deviation from known location fixes.
 
-The INS panel features two indicator lights: HEAT and ALIGN. The HEAT light is active
+### Indications
+
+The INS panel features two indicator lights: HEAT and ALIGN.
+
+The HEAT light is active
 in any alignment mode (including Coarse Alignment in the STBY mode), signifying that
 the system is heating up. It turns off after approximately 110 seconds, indicating
 that the gyros have reached the operational temperature of 160 degrees Fahrenheit.
+
 The ALIGN light, functional exclusively in the ALIGN mode, signals the completion
 of alignment. A steady ALIGN light indicates that a BATH (fast) alignment has been
 achieved. Provided the system has not encountered any errors and the gyros were

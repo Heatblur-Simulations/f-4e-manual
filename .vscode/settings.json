@@ -15,6 +15,7 @@
         "CADC",
         "Callouts",
         "catppuccin",
+        "CHAL",
         "Comms",
         "crysals",
         "Dackard",
@@ -101,6 +102,7 @@
         "WRCS",
         "XTAL",
         "yada",
-        "zeroize"
+        "zeroize",
+        "zeroized"
     ]
 }

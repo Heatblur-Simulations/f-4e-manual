@@ -69,6 +69,9 @@ The AN/APX-80 combines the IFF Interrogator System APX-76 and the Combat-Tree
 system APX-81A. It is used to identify whether an aircraft is friendly or
 hostile.
 
+See [Interrogator Systems](../../systems/identification_systems.md#interrogator-systems)
+for details.
+
 ### Code Buttons
 
 The first digit of the code display indicates the current IFF mode, which can be
@@ -136,35 +139,42 @@ F-4E.
 
 ![wso_oxygen_regulator_panel](../../img/wso_oxygen_regulator.jpg)
 
-### Flow Indicator
+### Supply Lever
 
-Alternates between black and white with each aircrew member breath to indicate
-oxygen flow.
-
-### Emergency Flow Control Switch
-
-Three position switch which selects EMERGENCY pressure (100% flow with positive
-pressure), NORMAL (standard air/oxygen mix), or TEST MASK (positive pressure
-for mask sealing check).
+Two position switch (ON and OFF) activating flow of oxygen to the mask.
+For further information see [3.7 Utility chapter, Oxygen section](../../systems/utility.md#oxygen-system).
 
 ### Diluter Lever
 
-Two position switch that cycles between NORMAL oxygen value or 100% OXYGEN
-level. 100% should only be used if fire and/or smoke and fumes occur in the plane.
+A two-position diluter lever, in the center of the regulator
+panel, controls the mixture of air and oxygen.
 
-### Supply Lever
+For a proportional amount of air to oxygen, the NORMAL
+OXYGEN position should be selected.
 
-Two position switch (ON and OFF) activating flow of oxygen to the aircrew
-member. For further information
-see [3.7 Utility chapter, Oxygen section](../../systems/utility.md#oxygen-system).
+For pure oxygen, the
+100% OXYGEN position should be selected. This setting is preferable
+if fire, toxic smoke or fumes occur in the cockpit.
+
+### Emergency Flow Control Switch
+
+Three position switch which permits selection of NORMAL (standard supply),
+EMERGENCY pressure (100% oxygen with continuous positive pressure) or
+TEST MASK (positive pressure to test the face mask for leaks).
+
+The lever should remain in the center (NORMAL) position at all times,
+unless an unscheduled pressure increase is required.
+
+### Flow Indicator
+
+Alternates between black and white with each aircrew member breath to indicate
+oxygen flow (white indicates inhalation).
 
 ### Oxygen Pressure Gauge
 
-Indicates system pressure from 0 to 500 psi. The Oxygen lasts up to 24.3 Hours with a full 10 litres
-at about 35,000 feet. At 10,000 feet 10 litres last about 23.4 hours.
+Indicates oxygen supply pressure from 0 to 500 psi.
 
-For further information
-see [3.7 Utility chapter, Oxygen section](../../systems/utility.md#oxygen-system).
+For further information see [3.7 Utility chapter, Oxygen section](../../systems/utility.md#oxygen-system).
 
 ## Landing Gear/Flap Indicator Panel
 

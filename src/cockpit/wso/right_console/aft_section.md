@@ -10,36 +10,40 @@ The Navigation Computer Control Panel serves as an interface for managing the ai
 navigation, including its position and targets for navigation instruments like the HSI and BDHI.
 It can operate in two modes: INERTIAL and AIR DATA.
 
-The inertial mode relies on the Inertial Navigation System (INS) for accurate navigation,
-provided the INS is in NAV mode and fully functional. When the INS is unavailable, the panel
-automatically switches to AIR DATA Mode. In this mode, navigation is based on the system's own
-calculations, incorporating manual inputs for wind direction and velocity, as well as magnetic
-variation.
+See [Navigation Computer](../../../systems/nav_com/ins.md#navigation-computer) for details.
 
 The panel is equipped with a range of control knobs and switches essential for the operation
-of the Navigation Computer:
+of the Navigation Computer.
 
 ### Function Selector Knob
 
-| Position | Description                                                                                                             |
-|----------|-------------------------------------------------------------------------------------------------------------------------|
-| OFF      | System powered down.                                                                                                    |
-| STBY     | System is powered but the latitude and longitude position integration is off.                                           |
-| TARGET 1 | Computes range and bearing to the selected coordinates set on the TARGET rollers.                                       |
-| TARGET 2 | Computes range and bearing to the memorized coordinates.                                                                |
-| RESET    | Clears the memorized coordinates. When moved back to TARGET 2, the currently selected TARGET coordinates are memorized. |
+![Function Selector Knob](../../../img/wso_nav_function_knob.jpg)
+
+| Position | Description                                                                                                                      |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| OFF      | System powered down.                                                                                                             |
+| STBY     | System is powered but the latitude and longitude position integration is off.                                                    |
+| TARGET 1 | Computes range and bearing to the selected coordinates set on the TARGET rollers.                                                |
+| TARGET 2 | Computes range and bearing to the memorized coordinates.                                                                         |
+| RESET    | Clears the memorized coordinates. When moved back to TARGET 2, the selected coordinates set on the TARGET rollers are memorized. |
 
 ### Wind Control Knobs and Counters
+
+![Wind Knobs](../../../img/wso_nav_wind_knobs.jpg)
 
 Enables manual setting of wind velocity (in knots) and direction (in degrees, from), displayed
 on the counters. Utilized by the Navigation Computer in AIR DATA mode.
 
 ### Magnetic Variation Knob and Counters
 
+![Magnetic Variation Knob](../../../img/wso_nav_mag_var.jpg)
+
 Allows manual setting of magnetic variation (in degrees). Essential for navigation computations
 in AIR DATA mode and for initial (BATH) INS Alignment.
 
 ### Position Control Knobs and Counters
+
+![Own Position Knobs](../../../img/wso_nav_own_pos_knobs.jpg)
 
 These knobs are used to manually change the current aircraft position in terms of latitude
 and longitude, as displayed on the counters (in degrees and minutes). They must be pressed
@@ -50,11 +54,15 @@ in to be effective.
 
 ### Target Control Knobs and Counters
 
-These knobs enable the setting of target latitude and longitude counters, which can be used either
+![Target Position Knobs](../../../img/wso_nav_target_knobs.jpg)
+
+The target controls enable the setting of target latitude and longitude counters, which can be used either
 as direct waypoint targets (when the Function Selector Knob is set to TARGET 1) or to memorize
 TARGET 2 coordinates (after the RESET position has been selected).
 
 ### Position Update Switch
+
+![Position Update Switch](../../../img/wso_nav_pos_update_switch.jpg)
 
 | Position | Description                                                                                                                   |
 |----------|-------------------------------------------------------------------------------------------------------------------------------|
@@ -62,25 +70,33 @@ TARGET 2 coordinates (after the RESET position has been selected).
 | NORMAL   | Position counters are updated based on the INS signal in Inertial Mode, or by the system's own computations in Air Data Mode. |
 | FIX      | Updates the INS position at a rate of approximately 3 minutes of arc per second.                                              |
 
-The switch features an approximate 0.5-second delay when set to NORM, designed to prevent unwanted
-updates of the counters during the transition from SET to FIX.
+> 💡 The switch features an approximate 0.5-second delay when set to NORM, designed to prevent unwanted
+> updates of the counters during the transition from SET to FIX.
 
 ### Variation Sync Meter
+
+![Variation Sync Meter](../../../img/wso_nav_variation_meter.jpg)
 
 In Inertial mode, this meter displays the discrepancy between the INS-computed and manually set
 magnetic variation. In AIR DATA mode, the manually set variation does not affect this indicator.
 
 ### Test Cap Off Light
 
+![Test Cap Light](../../../img/wso_nav_test_cap_light.jpg)
+
 Illuminates when there is a failure in the true airspeed circuit from the Air Data Computer,
 indicating an open circuit condition.
 
 ### Latitude and Longitude Sync Lights
 
+![Lat/Lon Sync Lights](../../../img/wso_nav_lat_lon_sync_light.jpg)
+
 Illuminate when the position counters for latitude or longitude do not match the coordinates
-provided by the INS (difference above 1 1/2 arc minutes).
+provided by the INS (difference above 1.5 arc minutes).
 
 ### Air Data Mode Light
+
+![Air Data Mode Light](../../../img/wso_nav_air_data_mode.jpg)
 
 Illumination indicates that the Navigation Computer is operating in AIR DATA Mode.
 

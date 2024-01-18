@@ -101,7 +101,8 @@ squelch.
 The A-3-2-T Selector knob sets the first digit of the manually selected frequency
 (3 or 2) of the [UHF radio](../../../systems/nav_com/uhf.md).
 
-> 💡 Due to DCS limits, HAVE Quick functionality (including A and T modes) is not implemented.
+> 💡 Due to engine limitations, modes A and T,
+> belonging to the HAVE-Quick functionality, are not simulated.
 
 The four Frequency Selection Knobs work in concert with the A-3-2-T knob and
 Preset/Manual switch. Frequencies are entered beginning with the 3 or 2
@@ -124,7 +125,11 @@ raises and lowers the volume of the Aux receiver channel.
 
 ### Tone Button
 
-> 💡 Due to lack of the HAVE Quick functionality, tone button has no functionality in DCS.
+The Tone Pushbutton is used for transmission of a Time of Day (TOD) signal along with a tone
+to friendly aircraft requiring a Time of Day update for proper HAVE-Quick functionality.
+
+> 💡 Due to engine limitations, the tone button,
+> belonging to the HAVE-Quick functionality, is not simulated.
 
 ### Comm Function Selector
 
