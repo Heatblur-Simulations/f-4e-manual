@@ -119,13 +119,9 @@ replaced using the EJECT Button on the top left of the box. The UNTHREAD button
 next to it is used to unthread the tape of the cassette back to the start,
 causing it to overwrite previously recorded footage.
 
-Cassette ejection is currently not simulated.
+> 💡 Cassette ejection is currently not simulated.
 
 The cassette can record up to 20 minutes, indicated on the small display
 labelled ELAPSED TIME.
 
-In DCS, footage is saved in the users Saved Games folder, for example:
-
-`C:\Users\JohnDoe\Saved Games\DCS.openbeta\F-4E\recorders\avtr`
-
-See [9.6 DCS Recorders](../../../dcs/recorders.md) for details on the footage.
+See [9.6 DCS Recorders](../../../dcs/recorders.md) for details on how to access the footage.
