@@ -116,12 +116,12 @@ second time- holding it on the second actuation.
 
 ![ext_launch_sequence_radar](../../img/ext_launch_seq_radar.jpg)
 
-The launch sequence for the AIM-7 missile is
+The launch sequence for the AIM-7 missile is (in aircraft orientation)
 
-1. Left Forward
-2. Right Forward
-3. Left Rear
-4. Right Rear
+1. Left Forward Station
+2. Right Forward Station
+3. Left Rear Station
+4. Right Rear Station
 
 In the event of a centerline store or tank precluding forward missile release,
 the

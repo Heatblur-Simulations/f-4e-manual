@@ -5,7 +5,7 @@
 
 Designations used:
 
-* The ⚡ icon means that given step **cannot** be performed when battery start is made.
+* The ⚡ icon means that the given step **cannot** be performed when battery start is made.
 
 ## WSO
 

@@ -28,6 +28,3 @@ After launch, the weapon can be steered either by the pilot using the mini-stick
 next to the throttle, or by the WSO using the Antenna Hand Control Stick.
 
 > 🚧 This section is under construction.
->
-> - Rough max engagement range
-> - Double check the procedure and how to actually launch (which buttons etc)

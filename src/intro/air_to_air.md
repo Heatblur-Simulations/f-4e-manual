@@ -10,9 +10,9 @@ pilots, such as Steve Ritchie and Chuck DeBellevue, achieved ace status by secur
 air-to-air victories.
 
 The total number of air-to-air kills attributed to the F-4E Phantom II, combining both the USAF and
-USN, is estimated to be around 21 during the Vietnam War, includeing 4 MIG-19s, 17 MiG-21s. However,
-this figure may vary across sources. In total F-4C/D/E Variants shot down 107 MiG Jets hence the
-name "Biggest distributor of MiG parts".
+USN, is estimated to be around 21 during the Vietnam War, including 4 MIG-19s and 17 MiG-21s. However,
+this figure may vary across sources. In total, F-4C/D/E Variants shot down 107 MiG jets, rewarding
+it the nickname _"Biggest distributor of MiG parts"_.
 
 Despite its effectiveness, the F-4E faced challenges in close-quarters combat due to the initial
 absence of an internal cannon. Modifications, including the addition of an M61 Vulcan cannon,
@@ -22,4 +22,4 @@ The success of the F-4E Phantom II in Vietnam solidified its reputation as a ver
 formidable fighter, and it continued to serve in air forces worldwide for many years.
 
 ![real_life_f4_firing_aim_7](../img/real_life_f4_firing_aim_7.jpg) _a Marine F-4 Phantom II from
-Marine Fighter/Attack Squadron 314 firing one AIM-7 Missile_
+Marine Fighter/Attack Squadron 314 firing an AIM-7 Missile_

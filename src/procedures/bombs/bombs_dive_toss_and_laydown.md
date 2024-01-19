@@ -20,9 +20,10 @@
 | 14   | STATION SELECT BUTTONS             | SELECT STATIONS |
 | 15   | MASTER ARM SWITCH                  | ARM             |
 
+## Dive on Target (DT ONLY)
+
 | Step | System                       | Action       |
 |------|------------------------------|--------------|
-|      | Dive on Target **(DT ONLY)**     |              |
 | 1    | (WSO) RECEIVER GAIN          | MIN          |
 | 2    | (WSO) LOCK ON TGT (CALL OUT) |              |
 | 3    | BOMB BUTTON (PRESS AND HOLD) | AFTER BOMB RELEASE |

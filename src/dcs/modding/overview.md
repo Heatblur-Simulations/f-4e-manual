@@ -58,7 +58,3 @@ PNT_VOR_Light;cockpit.html#vor_light
 ```
 
 The URL, for example `cockpit.html#fire_test_button`, is then loaded in the Manual-Browser.
-
-## Liveries
-
-> 🚧 This section is under construction.
