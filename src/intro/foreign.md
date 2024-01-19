@@ -53,6 +53,9 @@ leased airframes outright, this offer was ultimately rejected.
 
 ## Japan
 
+![JASDF F-4 starting](../img/JASDF_F-4_Phantoms.jpg)
+_(F-4EJ Kais of the JASDF of the 8th Hikōtai taking off in 2002, US Navy Photo)_
+
 With permission of the US State Department and license terms with McDonnell
 Douglas, Mitsubishi Heavy Industries would build the F-4E locally, designated as
 the F-4EJ. The -4EJ would be provided compatibility with Japanese built weapons,
@@ -83,9 +86,6 @@ put the available number of flyable F-4s below four dozen. While local industry
 attempted to revitalize the Phantom in the aftermath of the conflict, current
 evaluations put their total F-4 force near 60, between their remaining F-4D,
 F-4E, and RF-4Es.
-
-![real_life_f4_crew_after_flight_checks](../img/real_life_f4_crew_after_flight_checks.jpg)
-_The crew of an F-4 Phantom II aircraft completes a post-flight inspection_
 
 ## Greece
 
@@ -121,6 +121,9 @@ Force intends to maintain the remaining 30 or so airframes in service until the
 mid-2030s.
 
 ## Germany
+
+![F-4Fs german air force 1998](../img/F-4Fs_JG74_1998.jpg)
+_(F-4Fs of the German Air Force in 1998, USAF Photo)_
 
 Primarily an F-4F and RF-4E customer - the largest F-4 export recipient with 263
 delivered overseas, Germany would purchase 10 F-4Es to be based in the United
