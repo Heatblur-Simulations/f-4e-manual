@@ -210,12 +210,12 @@ worked around to some degree, with the integration of the SUU-16 and SUU-23
 The in-production upgrade to the Air Force's first Phantom - the **F-4D**, would
 include a multitude of quality of life improvements: the APQ-109 radar with air
 to ground modes, the ASN-63 internal navigation system, the ASQ-92 release
-computer. Further additions would include automatic fuel transfer and a new
-sight, the ASG-22. Combat survivability would be reinforced with the APS-107
-RHAW and ECM pod compatibility, along with new ejection seats. Yet, the
-service's desire to put its own _"made here"_ flourish on the type continued,
-inauspiciously culminating in the integration of the **AIM-4 Falcon** with the
-F-4D model.
+computer, and the APX-80 "Combat Tree" IFF system. Further additions would
+include automatic fuel transfer and a new sight, the ASG-22. Combat
+survivability would be reinforced with the APS-107 RHAW and ECM pod
+compatibility, along with new ejection seats. Yet, the service's desire to put
+its own _"made here"_ flourish on the type continued, inauspiciously culminating
+in the integration of the **AIM-4 Falcon** with the F-4D model.
 
 #### AIM-9 vs AIM-4
 
@@ -250,7 +250,7 @@ too unreliable to put into practice in the dynamic maneuvering environment of
 air combat as it was waged in Southeast Asia.
 
 The failure of the Falcon to succeed not only served to reaffirm the quality of
-the Sidewinder in comparison - and also highlight the need for the service to
+the Sidewinder in comparison - and also highlighting the need for the service to
 upgrade the round as the Navy was doing, but reinforced the concern held by
 aircrews about the lack of an internal gun. SUU installations by this point had
 scored multiple victories over North Vietnamese MiGs (ultimately ending the war
@@ -259,27 +259,34 @@ considered the Phantom's original sin with further revision to the F-4.
 
 ### F-4E
 
-By the point McDonnell laid down the program update plan for the F-4E, the jet
-was intended to carry with it the APQ-120 CORDS (Coherent On Receive Doppler
-System) radar. With the directive to install an M61 gun internally, the radar
-would receive changes to its mount, additional dampening, and alteration to its
-antenna to fit in the reduced profile fuselage cavity directly above the cannon
-barrel assembly.
+By this time McDonnell was laying down the program update plan for the F-4E, and
+the jet was intended to carry the M61A1 gun internally, and with it - the Hughes
+CORDS (Coherent On Receive Doppler System) radar. Hughes was unable to
+successfully deliver their CORDS system, and the Westinghouse APQ-120 radar
+would be selected in January 1968 as its replacement. The APQ-120 was a full
+solid state conversion of the APQ-109/117, re-engineered to meet the
+requirements of the internal cannon installation. The radar would receive
+changes to its mount, additional dampening, and a reduction antenna's height to
+fit in the smaller cavity directly above the cannon barrel assembly.
 
+Further adjustments to the F-4E were made to improve the Phantom's lethality.
 Hardware deleted for Sidewinder compatibility in the F-4D was updated and
 returned. The ASG-26A Lead Computing Optical Sighting System was installed along
-with updated aircrew in-range and shoot warning cues, solving yet another
-lingering issue with the original F-4 specification; much has been said and
-written regarding the lack of the gun in the Phantom and the lack of training
-with respect to its performance over Vietnam - in the same respect, the lack of
-effective cueing for the pilot and WSO as to their orientation and range to
-target degraded many a shot opportunity.
-
-The updates to the Echo Phantom would not stop there; compatibility with
+with updated aircrew in-range and shoot warning cues, providing pilots with a
+clearer picture of the weapons envelopes of the Sparrow and Sidewinder. The
+updates to the Echo Phantom would not stop there; compatibility with
 multi-ejection racks and updates to the Weapon Release Computer to match
-provided further bombing capabilities. Further changes over its service included
-provision for _"soft wing"_ leading edge slats, the **AGM-65 Maverick**, and the
-Digital Scan Converter Group interface for the APQ-120.
+provided further bombing capabilities, the **AGM-65 Maverick** was made
+available in both IR and electro-optical variants, the leading edge of the wings
+were fitted with slats for increased maneuvering potential, and the Digital Scan
+Converter Group interface for the APQ-120 was installed.
+
+Unfortunately, the F-4E's initial deliveries from October of 1967 would align
+its operational entry with the drawdown of the US' Rolling Thunder bombing
+campaign over North Vietnam. The type would have to wait until 1972 to put the
+true extent of the jet's upgrades to the test. With the resumption of the air
+campaign in February of that year, the E-model Phantom II would fly thousands of
+missions, and in the span of seventeen months score **21 air to air kills**.
 
 ### Training Program Rivet Haste
 
@@ -315,7 +322,10 @@ with a TISEO mounted on left wing above the blue practice bombs_
 
 Consisting of a 4x/10x camera installed in the left wing, TISEO provided visual
 identification of distant, radar-locked targets, enabling the AIM-7 Sparrow to
-be used to its full extent.
+be used to its full extent when combined with the APX-80 IFF system. Crews could
+now independently confirm two ID factors before the merge, entering the fight
+with more of an advantage - even if they would not be cleared to fire beyond
+visual range.
 
 Coupled with the Rivet Haste training - which put experienced aircrews through a
 program to codify them as systems and tactics instructors (not unlike the NFWS
@@ -330,12 +340,58 @@ halt on US bombing coming just weeks after the first Haste student crews
 returned to Vietnam, they would set the tone for USAF Phantom crews going
 forward.
 
-## Other Variants
+## 1975-1991: A Cold Warrior
+
+As the Vietnam War drew to a close, the F-4E transitioned from active combatant
+to cold warrior. While the F-15 and F-16 both stood on the horizon to take the
+premiere positions in tactical air to air and air to ground roles, the sheer
+depth of the Phantom's numbers across the USAF and its allies meant the F-4E
+would remain at the tip of the spear for another two decades.
+
+Keeping the F-4 effective as a strike platform and air to air combatant was
+vital, and the E's capabilities continued to be expanded into the 1980s.
+Provision for the all-aspect AIM-9L and M Sidewinders would be installed, as
+well as the improved AIM-7F, and later, the AIM-7M Sparrow. The
+television-guided GBU-15, with its required **data-link system**, would be
+integrated in the Phantom beginning in 1975. To deliver additional guided
+munitions the F-4E would receive not one, but two targeting pod options - **Pave
+Spike** and **Pave Tack**.
+
+Of particular note is the installation of the Digital Modular Avionics System,
+or **DMAS**. DMAS was a complete replacement of the Phantom's navigation
+computer, inertial navigation set, and the WRCS, which used LORAN (**Lo**ng
+**Ra**nge Navigation) radio signals to accurately define the aircraft's position
+anywhere in the world. The inclusion of DMAS provided a substantial improvement
+in the F-4E's navigation options and weapon release precision, and an expansion
+of the Phantom's delivery mode capabilities.
+
+The F-4E would see its front line service end in the United States Air Force
+immediately following Operation Desert Storm, with the last remaining users of
+the type withdrawn from active duty service. US Air National Guard units would
+maintain the type until the mid-90s, with various units seeing them replaced by
+other types as appropriate for their respective missions and locations.
+
+## The F-4E Phantom II Today
+
+Of all Phantom models, the F-4E was the most numerous version that has been
+built totalling at **1370 units**.
+
+The F-4E Phantom II is still in service at some operators across NATO including
+the Hellenic Air Force, the South Korean Air Force and the Turkish Air Force.
+
+They are expected to fly at least **until 2030**.
+
+## Variant Overview
 
 Beyond the F-4E, several Phantom variants have been build for various purposes.
 
 | Variant | Description                                                 | Base Variant | First Flight |
 | :-----: | ----------------------------------------------------------- | :----------: | ------------ |
+|    A    | Prototype and pre-production model                          |              | 1958         |
+|    B    | First production ready model for the USAF                   |      A       | 1961         |
+|    C    | Several improvements for more effective use by the USAF     |      B       | 1963         |
+|    D    | Modernization and improved air to ground capabilities       |      C       | 1965         |
+|    E    | Further improvements, better radar and nose gun             |      D       | 1965         |
 |    F    | Slimmed down export variation used by Germany               |      E       | 1973         |
 |    G    | _Wild Weasel_ upgrade to locate and fight SAM systems       |      E       | 1976         |
 |    J    | US Navy variation for carrier operation                     |      B       | 1966         |
@@ -345,13 +401,3 @@ Beyond the F-4E, several Phantom variants have been build for various purposes.
 |    S    | Modernized systems and smoke-free engines                   |      J       | 1977         |
 |   RF    | Several Phantom variants modified for reconnaissance        |   B, C, E    |              |
 |  QF-4   | Retrofitted as remote-controlled target drones for research |     many     |              |
-
-## The F-4E Phantom II Today
-
-The F-4E Phantom II was the most numerous version that has been built totalling
-at **1370 units**.
-
-The F-4E Phantom II is still in service at some operators across NATO including
-the Hellenic Air Force, the South Korean Air Force and the Turkish Air Force.
-
-They are expected to fly at least **until 2030**.
