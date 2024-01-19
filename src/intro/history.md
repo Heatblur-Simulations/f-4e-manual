@@ -210,12 +210,12 @@ worked around to some degree, with the integration of the SUU-16 and SUU-23
 The in-production upgrade to the Air Force's first Phantom - the **F-4D**, would
 include a multitude of quality of life improvements: the APQ-109 radar with air
 to ground modes, the ASN-63 internal navigation system, the ASQ-92 release
-computer. Further additions would include automatic fuel transfer and a new
-sight, the ASG-22. Combat survivability would be reinforced with the APS-107
-RHAW and ECM pod compatibility, along with new ejection seats. Yet, the
-service's desire to put its own _"made here"_ flourish on the type continued,
-inauspiciously culminating in the integration of the **AIM-4 Falcon** with the
-F-4D model.
+computer, and the APX-80 "Combat Tree" IFF system. Further additions would
+include automatic fuel transfer and a new sight, the ASG-22. Combat
+survivability would be reinforced with the APS-107 RHAW and ECM pod
+compatibility, along with new ejection seats. Yet, the service's desire to put
+its own _"made here"_ flourish on the type continued, inauspiciously culminating
+in the integration of the **AIM-4 Falcon** with the F-4D model.
 
 #### AIM-9 vs AIM-4
 
@@ -250,7 +250,7 @@ too unreliable to put into practice in the dynamic maneuvering environment of
 air combat as it was waged in Southeast Asia.
 
 The failure of the Falcon to succeed not only served to reaffirm the quality of
-the Sidewinder in comparison - and also highlight the need for the service to
+the Sidewinder in comparison - and also highlighting the need for the service to
 upgrade the round as the Navy was doing, but reinforced the concern held by
 aircrews about the lack of an internal gun. SUU installations by this point had
 scored multiple victories over North Vietnamese MiGs (ultimately ending the war
@@ -259,12 +259,15 @@ considered the Phantom's original sin with further revision to the F-4.
 
 ### F-4E
 
-By the point McDonnell laid down the program update plan for the F-4E, the jet
-was intended to carry with it the APQ-120 CORDS (Coherent On Receive Doppler
-System) radar. With the directive to install an M61 gun internally, the radar
-would receive changes to its mount, additional dampening, and alteration to its
-antenna to fit in the reduced profile fuselage cavity directly above the cannon
-barrel assembly.
+By this time McDonnell was laying down the program update plan for the F-4E, and
+the jet was intended to carry the M61A1 gun internally, and with it - the Hughes
+CORDS (Coherent On Receive Doppler System) radar. Hughes was unable to
+successfully deliver their CORDS system, and the Westinghouse APQ-120 radar
+would be selected in January 1968 as its replacement. The APQ-120 was a full
+solid state conversion of the APQ-109/117, reengineered to meet the requirements
+of the internal cannon installation. The radar would receive changes to its
+mount, additional dampening, and a reduction antenna's height to fit in the
+smaller cavity directly above the cannon barrel assembly.
 
 Hardware deleted for Sidewinder compatibility in the F-4D was updated and
 returned. The ASG-26A Lead Computing Optical Sighting System was installed along
