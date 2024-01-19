@@ -5,6 +5,9 @@
 The AGM-12, nicknamed Bullpup, is a guided short-range air-to-ground missile
 that can be steered manually by the crew.
 
+Steering commands are send via radio by utilizing the lower UHF
+antenna of the Phantom.
+
 It was the first of its kind that reached series production and was used in
 service during the early 1960s until it was later supplanted by the
 [AGM-62 Walleye](../bombs/tv_guided_bombs.md).
