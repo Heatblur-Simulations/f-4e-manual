@@ -96,7 +96,7 @@ the lower circuit breaker powers all indicator and warning lights.
 
 ### CB Panel 1
 
-![WSO CB Panel 1](../img/electrics_cb_panel_1.jpg)
+![WSO CB Panel 1](../img/wso_cb_panel_1.jpg)
 
 Front section of right wall in WSO cockpit.
 
@@ -104,7 +104,7 @@ Has the circuit breakers for all stations, the armament and weapon system.
 
 ### CB Panel 2
 
-![WSO CB Panel 2](../img/electrics_cb_panel_2.jpg)
+![WSO CB Panel 2](../img/wso_cb_panel_2.jpg)
 
 Center section of right wall in WSO cockpit.
 
@@ -112,7 +112,7 @@ Mostly responsible for Engine and Hydraulics operation.
 
 ### CB Panel 3
 
-![WSO CB Panel 3](../img/electrics_cb_panel_3.jpg)
+![WSO CB Panel 3](../img/wso_cb_panel_3.jpg)
 
 Aft section of right wall in WSO cockpit.
 
@@ -120,7 +120,7 @@ Contains breakers for auxiliary functions, such as Anti-Icing or the Arresting H
 
 ### CB Panel 4
 
-![WSO CB Panel 4](../img/electrics_cb_panel_4.jpg)
+![WSO CB Panel 4](../img/wso_cb_panel_4.jpg)
 
 Aft section of left wall in WSO cockpit.
 
@@ -128,7 +128,7 @@ Master controls of power coming through all buses, the flight computer and targe
 
 ### CB Panel 7
 
-![WSO CB Panel 7](../img/electrics_cb_panel_7.jpg)
+![WSO CB Panel 7](../img/wso_cb_panel_7.jpg)
 
 Next to the right rudder pedal in WSO cockpit.
 

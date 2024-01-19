@@ -123,7 +123,7 @@ and 105% for full afterburner.
 ![EGT](../../img/pilot_egt.jpg)
 
 Exhaust Gas Temperature gauges are provided for each engine. The gauges have two
-needles- a large needle providing increments of 0 to 12 in multiples of 100
+needles - a large needle providing increments of 0 to 12 in multiples of 100
 degrees Celsius, and a smaller needle presenting increments of 0-10 in
 multiples of 10 degrees Celsius. Temperatures are measured at the exit of the
 turbine unit.

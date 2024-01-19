@@ -35,7 +35,7 @@ to Air button on the rear cockpit panel. If the pilot leaves
 the [Weapon Select knob](../../cockpit/pilot/weapon_management.md#weapon-selector-knob)
 in B, it does not preclude a later entry into Cage mode.
 
-![pilot_weapon_selector_knob](../../img/pilot_weapon_selector_knob.jpg)
+![pilot_weapon_selector_knob](../../img/pilot_weapon_selector_b_pos.jpg)
 
 ## Computer Automatic Acquisition Mode (CAA)
 

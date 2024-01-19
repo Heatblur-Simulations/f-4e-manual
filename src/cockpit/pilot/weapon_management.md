@@ -234,7 +234,7 @@ stations 8L and 8R.
 
 ## Radar Missile Power Switch
 
-![Radar Missile Power Switch](../../img/RMPS.jpg)
+![Radar Missile Power Switch](../../img/pilot_radar_missile_power_switch.jpg)
 
 The Radar Missile Power Switch provides power to the klystron continuous wave (CW) for emitter
 responsible guidance signals. This also powers the sparrow tuning drive which is responsible for
@@ -254,7 +254,7 @@ ground crew.
 
 ## Centerline Tank Aboard Light
 
-![Centerline Tank Aboard Light](../../img/pilot_centerline_tank_aboard.jpg)
+![Centerline Tank Aboard Light](../../img/pilot_centerline_tank_aboard_light.jpg)
 
 Illuminates when a stores condition exists that precludes ejection or launch of an AIM-7 missile
 installed in one of the two forward positions. To use the sparrows on these stations the centerline

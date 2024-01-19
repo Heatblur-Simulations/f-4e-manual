@@ -46,7 +46,7 @@ Our F-4 crew chief can assist the pilot during following checks:
 
 Some of them are triggered automatically
 (e.g. when the chief notices speed brakes extending/retracting, he will announce it).
-More advanced checks (bold ones) have to be initiated manually.
+More advanced checks (**bold ones**) have to be initiated manually.
 
 Some of them can also be conducted without crew chief, by acquiring visual confirmation from the WSO,
 but not all of them because of the limited visibility from the cockpit.

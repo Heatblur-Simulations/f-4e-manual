@@ -24,7 +24,7 @@ Will Harradine, Programmer (Systems and Avionics)\
 Igor Własny, Programmer (Systems and Avionics)\
 Yannis Leon Bößmann, Junior Programmer, Manual Editor\
 Nicola Faggiani, Artist, 3D Model\
-Davi Bernadino, Artist, 3D Model and Textures\
+Davi Bernardino, Artist, 3D Model and Textures\
 Leon Foty, Artist, 3D Model\
 Ben Mährlein, Liveries and Art\
 Kenneth Ellis, Lead Author Manual\

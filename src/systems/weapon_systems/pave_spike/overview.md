@@ -101,24 +101,24 @@ Pave Spike (x100 ft).
 
 ![range_indicator](../../../img/pilot_overhead_range_indicator.jpg)
 
-When the Test-Button is pressed, the display shows 888, the knob underneath it
+When the Test-Button (3) is pressed, the display shows 888, the knob underneath it (5)
 controls the brightness of the readout.
 
-The Mode-Knob allows the pilot to select one of two weapon delivery modes
+The Mode-Knob (1) allows the pilot to select one of two weapon delivery modes
 available with the pod:
 
 - WRCS - Automatic Delivery
 - ROR - Release on Range
 
 In the SET position, the display shows the desired release range used in the ROR
-mode. The knob below the readout can be used to adjust this range.
+mode. The knob below the readout (4) can be used to adjust this range.
 
 ### Laser Coder Control
 
 The WSO can set the laser code used by the targeting pod by using the four small
-push-buttons on this panel. Each press will advance the corresponding digit by
+push-buttons (1) on this panel. Each press will advance the corresponding digit by
 one. Once a code has been set, it can be transferred to the Pave Spike by
-pressing the Enter-Button to the right.
+pressing the Enter-Button (2) to the right.
 
 ![laser_coder_control](../../../img/wso_laser_code_control.jpg)
 
@@ -139,20 +139,20 @@ This is the main panel to interact with the targeting pod.
 
 From left to right, top to bottom, it provides the WSO with:
 
-- Reticle Brightness Knob - change the reticle from black to green
-- Az/El/Roll Boresight Knobs - adjust the boresight position of the pod within
+- Reticle Brightness Knob (1) - change the reticle from black to green
+- Az/El/Roll Boresight Knobs (2,3,4) - adjust the boresight position of the pod within
   ±2.5 degrees
-- Stow Button - Stow or Un-stow the pod
-- Laser Ready Button - Arm or Disarm the laser
-- Power On Button - Turn the pod on or off
-- Currently selected BIT, with push button to advance the BIT
-- Light Brightness Knob - adjust brightness of all lights on this panel (except
+- Stow Button (5) - Stow or Un-stow the pod
+- Laser Ready Button (6) - Arm or Disarm the laser
+- Power On Button (7) - Turn the pod on or off
+- Currently selected BIT, with push button to advance the BIT (8)
+- Light Brightness Knob (9) - adjust brightness of all lights on this panel (except
   the Overheat lamp)
-- Reject/Override Button - Force the use of the laser slant range
-- Acquisition Mode Switch - Select the Acquisition Mode (12-VIS, WRCS or 9-VIS)
-- WRCS Out Button - Toggle WRCS integration with the pod
-- GO/MALF Lamp - Indicates BIT results
-- INS Out Button (and Overheat lamp) - Toggle INS integration with the pod
+- Reject/Override Button (10) - Force the use of the laser slant range
+- Acquisition Mode Switch (11) - Select the Acquisition Mode (12-VIS, WRCS or 9-VIS)
+- WRCS Out Button (12) - Toggle WRCS integration with the pod
+- GO/MALF Lamp (13) - Indicates BIT results
+- INS Out Button (and Overheat lamp) (14) - Toggle INS integration with the pod
 
 The lamps generally indicate the current status, while the push buttons can be
 used as a manual command. For example, pressing the Laser Ready Button is not
@@ -166,7 +166,7 @@ with the Antenna Hand Control, or Antenna Stick.
 
 ![pave_spike_antenna_hand_control](../../../img/wso_antenna_hand_control.jpg)
 
-The Challenge Button is used to zoom in or out, while the 2-stage trigger is
+The Challenge Button (1) is used to zoom in or out, while the 2-stage trigger (3) is
 used to switch between modes and fire the laser.
 
 > 💡 Controls are **not** inverted. Moving the stick up also

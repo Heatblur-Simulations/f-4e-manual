@@ -69,9 +69,9 @@ brightness.
 Most controls for interior lighting can be found at the aft end of the right
 consoles.
 
-| Pilot                                                | WSO                                              |
-| ---------------------------------------------------- | ------------------------------------------------ |
-| ![pilot_int_lighting](../img/pilot_cockpit_lights.jpg) |![wso_int_lighting](../img/wso_cockpit_lights_aft.jpg)  |
+| Pilot                                                  | WSO                                                    |
+|--------------------------------------------------------|--------------------------------------------------------|
+| ![pilot_int_lighting](../img/pilot_cockpit_lights.jpg) | ![wso_int_lighting](../img/wso_cockpit_lights_aft.jpg) |
 
 ### Floodlights
 
@@ -105,7 +105,7 @@ All three positions of the switches are powered by different buses to ensure
 maximal availability:
 
 | Lamp   | Bus                   |
-| ------ | --------------------- |
+|--------|-----------------------|
 | Bright | Essential 28V DC Bus  |
 | Medium | Left Main 14V AC Bus  |
 | Dim    | Left Main 115V AC Bus |
@@ -139,8 +139,9 @@ wall.
 - VVI
 - Altimeter
 
-![Flight Brightness Knob](../img/pilot_flight_instrument_brightness_knob.jpg)
-![Flight Instrument Lights Intensity Panel](../img/pilot_flight_instrument_lights.jpg)
+| Flight instrument brightness                                                  | Flight instrument light intensity                                                      |
+|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| ![Flight Brightness Knob](../img/pilot_flight_instrument_brightness_knob.jpg) | ![Flight Instrument Lights Intensity Panel](../img/pilot_flight_instrument_lights.jpg) |
 
 The Flight Brightness Knob acts as master control. On the fully CCW position,
 lighting of all six instruments is turned off.
@@ -180,7 +181,7 @@ Some of those lamps can also be pushed-to-test.
 For the pilot, these lamps include:
 
 | Name            | Location              |
-| --------------- | --------------------- |
+|-----------------|-----------------------|
 | CMS Indicator   | Left Console          |
 | Flare Indicator | Left Console          |
 | Recorder        | Left Sub-Panel        |
@@ -196,7 +197,7 @@ For the pilot, these lamps include:
 The WSO cockpit has the following rotate-to-dim lamps:
 
 | Name                  | Location           |
-| --------------------- | ------------------ |
+|-----------------------|--------------------|
 | Radio Command         | Left Console       |
 | TACAN Command         | Left Console       |
 | Chaff Indicator       | Left Console       |
@@ -217,7 +218,7 @@ general console or instrument brightness knobs.
 For the pilot, these additional brightness controls are:
 
 | Name                    | Location          |
-| ----------------------- | ----------------- |
+|-------------------------|-------------------|
 | SAI                     | Left Wall         |
 | Station Lamps           | Weapon Management |
 | Range Indicator Display | Weapon Management |
@@ -231,7 +232,7 @@ For the pilot, these additional brightness controls are:
 While the WSOs brightness controls are as follows:
 
 | Name                  | Location           |
-| --------------------- | ------------------ |
+|-----------------------|--------------------|
 | RWR Display           | Upfront Indicators |
 | RWR Buttons           | Upfront Indicators |
 | Standby Compass Light | Right Console      |

@@ -3,6 +3,8 @@
 This area behind the stick contains the radar screen,
 as well as the controls for the targeting pod.
 
+![wso_dscg_knobs_above](../../img/wso_dscg_knobs_above.jpg)
+
 ![wso_dscg_and_pedestal_panel](../../img/wso_pedestal_group_overview.jpg)
 
 ## Digital Scan Converter Group (DSCG)
