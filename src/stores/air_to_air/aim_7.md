@@ -145,7 +145,7 @@ Phantom:
 | 7M   | The M was the first inverse mono-pulse sparrow providing increased tracking precision, it also has improved motor performance and electronics, including improved clutter and countermeasure rejection. The M like all sparrows can also guide using continuous wave, at a degraded tracking precision.                                                                                                                                                                                                 |
 
 Below is a very basic comparative summary of each sparrow's performance in some
-general areas, whereas 🟩 means _good_, 🟨 _fair_ and 🟥 _bad_.
+general areas, whereas 🟩 means _good_, 🟨 _fair_ and 🟥 _poor_.
 
 | Type    | Seeker | Range | Dogfight | Countermeasure Resist / Clutter Rejection |
 | ------- | ------ | ----- | -------- | ----------------------------------------- |
