@@ -45,7 +45,7 @@ underlying structure of the manual to move to an **open source** model. This wil
 community to easily contribute via GitHub, as two heads (or thousands of them) are
 better than one. As an added benefit, readability for the mobile version will be greatly improved as
 well. We have hyperlinked many items for you, providing easy **navigation** between cockpit diagrams
-and system overviews. Also featured in the manual are numerous checklists and procedures, and a   
+and system overviews. Also featured in the manual are numerous checklists and procedures, and a
 **"Lessons" section**, which is planned to be featured with the Early Access Release of the Phantom.
 The fully written out lessons will complement the flyable training missions. The training missions
 are now tailored to be learned together with the written lesson in the manual, you will
