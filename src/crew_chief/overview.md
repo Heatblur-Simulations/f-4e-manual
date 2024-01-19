@@ -10,6 +10,10 @@ by conducting maintenance, but also preparing it for flight.
 The preparation for take off begins long before the aircraft crew arrives,
 but the chief also directly assists the crew during startup and shutdown.
 
+> 💡 Never upset your crew chief. Make sure you operate your aircraft
+> properly or you may disappoint the chief, and you will be scrubbing tires
+> and packing chutes for the rest of your flying career."
+
 ## Features
 
 Our F-4 crew chief has expertise in many fields including:
@@ -20,6 +24,8 @@ Our F-4 crew chief has expertise in many fields including:
 * Wheel chocks
 * Boarding ladder and boarding steps
 * Conducting different ground checks (listed below)
+
+<!-- ![Ground Cart](../img/ground_cart_connected.jpg) -->
 
 ## Ground Checks
 
@@ -44,8 +50,6 @@ More advanced checks (bold ones) have to be initiated manually.
 
 Some of them can also be conducted without crew chief, by acquiring visual confirmation from the WSO,
 but not all of them because of the limited visibility from the cockpit.
-
-![Ground Cart](../img/ground_cart_connected.jpg)
 
 ### Details
 
@@ -128,7 +132,3 @@ by using "Comms Check" option.
 <!-- ![crew chief menu (hand signals)](../img/crew_chief_menu_hand_signals.jpg) -->
 
 > 🚧 This chapter is under construction.
->
-> * add some images
-> * maybe some small troubleshooting guide addressing possible problems
-> * AFCS Check
