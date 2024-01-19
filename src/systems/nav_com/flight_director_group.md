@@ -13,7 +13,7 @@ in the rear cockpit.
 
 ## Navigation Function Selector Panel
 
-![pilot_nav_function_selector](../../img/pilot_nav_functiuon_selector.jpg)
+![pilot_nav_function_selector](../../img/pilot_nav_function_selector.jpg)
 
 Found on the front cockpit instrument panel, the Navigation Function Selector Panel has two knobs -
 a Bearing/Distance Selector Knob and a Mode Selector Knob.
