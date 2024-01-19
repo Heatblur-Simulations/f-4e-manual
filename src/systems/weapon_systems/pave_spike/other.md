@@ -115,7 +115,7 @@ Once the pod has reached the test position, the WSO must press and hold the
 Reject/Override button to start firing the laser. The laser stops firing when
 the button is released.
 
-![reject_override_button](../../../img/reject_override_button.jpg)
+![reject_override_button](../../../img/wso_target_designator_reject_button.jpg)
 
 When the laser fires, a 5 second test program starts, with the sensor measuring
 the laser energy. After the 5 second test, either GO or MALF illuminate to

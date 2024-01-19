@@ -8,7 +8,7 @@ it was natural it would be the model with the furthest reach.
 Amidst the ever-evolving landscape of military technology, foreign operators of
 the F-4E undertook comprehensive upgrades and modernization efforts. These
 initiatives were aimed at extending the aircraft's service life and enhancing
-its combat capabilities. The F-4E, with its iconic twin tails and powerful
+its combat capabilities. The F-4E, with its powerful
 engines, evolved to meet the demands of contemporary warfare, solidifying its
 place as a venerable platform in the arsenals of its adoptive nations.
 

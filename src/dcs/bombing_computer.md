@@ -64,14 +64,14 @@ Must also be set in the LABS panel.
 Gives you the calculated pull-up timer in seconds that the WSO can put in
 the [ARBCS](../systems/weapon_systems/arbcs.md#bombing-timers) computer.
 
-![Bombing Timer](../img/wso_bombing_timers.jpg)
+![Bombing Timer](../img/wso_bombing_timer.jpg)
 
 #### Release range
 
 Gives you the calculated bombing range in feet that the WSO can put in
 the [WRCS](../systems/weapon_systems/wrcs.md#release-range-control) panel.
 
-![WRCS Range](../img/wso_wrcs_range.jpg)
+![WRCS Range](../img/wso_wrcs_panel_release_range.jpg)
 
 #### Sight depression
 
@@ -122,7 +122,7 @@ Gives you the calculated
 [release advance](../systems/weapon_systems/wrcs.md#release-advance-control) that the WSO can put
 in.
 
-![WRCS Release Advance](../img/wso_wrcs_release_advance.jpg)
+![WRCS Release Advance](../img/wso_wrcs_panel_release_advance.jpg)
 
 ## Bombing Solution
 
