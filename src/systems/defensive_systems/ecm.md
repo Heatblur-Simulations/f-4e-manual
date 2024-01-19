@@ -3,17 +3,7 @@
 The Phantom can be equipped with ECM pods capable of jamming radar signals to
 protect it from getting tracked by other aircraft or radar guided missiles.
 
-During its service, it saw a number of pods with different capabilities, for
-example:
-
-- AN/ALQ-71
-- AN/ALQ-72
-- AN/ALQ-87
-- AN/ALQ-101
-- AN/ALQ-119
-- AN/ALQ-131
-- AN/ALQ-162
-- AN/ALQ-184
+During its service, it saw a number of pods with different capabilities.
 
 Early pods such as the AN/ALQ-71 or AN/ALQ-87 have been used effectively during
 the Vietnam war. During mid 1970s, mostly AN/ALQ-119 and AN/ALQ-131 have been in

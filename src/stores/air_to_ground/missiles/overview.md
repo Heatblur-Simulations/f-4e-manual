@@ -11,3 +11,5 @@ variety of ground-based threats.
 The [AGM-45 Shrike](shrike.md) missile takes on a specialized role in Suppression of Enemy Air
 Defenses (SEAD). Designed to seek out and neutralize enemy radar installations, the Shrike is an
 anti-radiation missile that targets radar-emitting threats.
+
+![Maverick Shot](../../../img/maverick_shot.jpg)

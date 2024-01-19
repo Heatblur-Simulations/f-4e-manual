@@ -21,3 +21,5 @@ Also equipped on the F-4E were TV Guided bombs such as
 the [GBU-8 HOBOS (Homing Bomb System)](./tv_guided_bombs.md#variants) and the
 [AGM-62 Walleye I and II.](./tv_guided_bombs.md#variants) These guided munitions featured optical
 sensors to track and hit the target.
+
+![Bombing Air-Ballute](../../../img/bombing_air_ballute.jpg)

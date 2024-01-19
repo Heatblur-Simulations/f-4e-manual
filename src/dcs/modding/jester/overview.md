@@ -3,7 +3,7 @@
 Jester is fully open to modding via a Lua-API. Any feature and functionality of Jester
 has been written by using this API.
 
-![Jester](../../../img/jester_crewmember.jpg)
+![Jester](../../../img/jester_ai_code.jpg)
 
 The Jester AI primarily consists of:
 

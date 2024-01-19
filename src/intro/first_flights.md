@@ -1,7 +1,7 @@
 # F-4E First Flights by Nation
 
-The F-4 was used widely by several NATO and allied countries. Because of that it had many different
-first flights in the different countries.
+The F-4 was used widely by several NATO and allied countries. Because of that it reached
+many _first flight_ milestones in the various countries.
 
 | Nation        | McDonnell Number | BuNo/USAF Serial | Date               |
 | ------------- | ---------------- | ---------------- | ------------------ |

@@ -100,12 +100,9 @@ The other four digits are used to set the IFF code to interrogate for Modes 1
 to 3.
 
 Regular interrogation based on transponder codes is accomplished by the AN/APX-76 system.
-To use it, the _Test/Challenge Code_-switch has to be placed in CHAL CODE.
 
 Additionally, the AN/APX-81A Combat-Tree system can identify targets beyond
 their transponder responses, enabling to identify likely-hostile aircraft.
-The Combat-Tree System can be enabled by placing the Mode 2 and Mode 3
-switches to ACTIVE respectively.
 
 Once setup, interrogation can be initiated by pressing the
 Challenge Button on the Antenna Hand Control Stick.
@@ -114,6 +111,11 @@ Challenge Button on the Antenna Hand Control Stick.
 
 The radar screen will now display lines next to each radar return if
 it was able to detect that a contact is friendly.
+
+> 🚧 This section is under construction.
+>
+> * Switchology, how to enable either mode, details
+> * Radar picture and link to radar section with further details
 
 ### Indications
 
