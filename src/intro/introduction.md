@@ -42,7 +42,7 @@ can click any switch (with an input combo) in flight and the manual will open in
 the correct chapter, **explaining the switch** or system in the cockpit, all while
 you are bolting through the air in your thunderous jet. We also changed the
 underlying structure of the manual to move to an **open source** model. This will allow the
-community to easily contribute via GitHub, as two heads (or thousands of them) are
+community to easily contribute via GitHub, as two heads (or thousands of them) think
 better than one. As an added benefit, readability for the mobile version will be greatly improved as
 well. We have hyperlinked many items for you, providing easy **navigation** between cockpit diagrams
 and system overviews. Also featured in the manual are numerous checklists and procedures, and a
@@ -51,11 +51,11 @@ The fully written out lessons will complement the flyable training missions. The
 are now tailored to be learned together with the written lesson in the manual, you will
 be able to revert steps in the training mission, able to read along and pause
 (no more restarting for missed items). With all of these features at your disposal, you will be able
-to adequately prepare yourself for any mission. And best of all, during your training you will be
+to adequately prepare yourself for your training. And best of all, during your training you will be
 instructed by real life F-4 pilots and a real life F-4 WSO Instructor! Who else could teach you
 better?
 
-We hope you will enjoy both learning and flying the F-4E Phantom II - diving as
+We hope you will enjoy both learning and flying the F-4E Phantom II - dive as
 deep as your heart desires. For this exciting journey we wish you **good luck and
 many fun adventures**, and of course: always check six!
 
