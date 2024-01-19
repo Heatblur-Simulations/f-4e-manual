@@ -42,8 +42,8 @@ optical sight to A/G mode, and enter a depression of 45 mils, so that the sight
 alignment be that of the missile seeker. This way, the pilot can put the target on the pipper
 and it will be within the weapons view.
 
-| Maverick unlocked                                        | Maverick locked on Target                              | Maverick zoomed in locked on Target                   |
-|----------------------------------------------------------|--------------------------------------------------------|-------------------------------------------------------|
+| No Lock                                                  | Locked on Target                                   | Narrow View and Locked                                     |
+| -------------------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------- |
 | ![maverick_unlocked](../../../img/maverick_unlocked.jpg) | ![maverick_locked](../../../img/maverick_lock.jpg) | ![maverick_lock_zoom](../../../img/maverick_lock_zoom.jpg) |
 
 Once the warmup has completed, the crew may activate their displays for viewing
