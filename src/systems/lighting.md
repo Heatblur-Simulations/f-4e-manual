@@ -88,7 +88,7 @@ called _Thunderstorm Light_) that illuminates the cockpit in white. The lamp is
 energized through the Battery Bus to ensure it is always operational, even in
 case of total power loss.
 
-> 💡 Do not forget to turn off the light before parking the aircraft for a
+> 🟡 CAUTION: Do not forget to turn off the light before parking the aircraft for a
 > longer time, as it will otherwise drain the battery.
 
 #### Red Floodlights

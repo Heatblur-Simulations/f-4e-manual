@@ -81,7 +81,7 @@ that if the system has a hard time keeping high FPS, the rate on which less
 important systems are simulated is dynamically tuned down to stress the CPU less
 and possibly achieve higher FPS.
 
-> 💡 Due to dynamic nature of this system, having it enabled might result in
+> 🟡 CAUTION: Due to dynamic nature of this system, having it enabled might result in
 > broken track/replay files.
 
 ## Disable WSO Multi-Crew Controls

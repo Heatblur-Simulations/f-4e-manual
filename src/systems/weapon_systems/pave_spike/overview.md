@@ -92,7 +92,7 @@ Three flags indicate the elevation:
 - red: -160 or beyond degrees
 
 > 💡 If the needle is kept within the green labelled range and neither the yellow or
-red flag are shown, the view will not be obstructed by the pod or the aircraft.
+> red flag are shown, the view will not be obstructed by the pod or the aircraft.
 
 ### Range Indicator
 
@@ -126,7 +126,7 @@ The Laser Coder system starts validating the entered code, this process takes
 about 5 seconds. If the NO-GO lamp is lit, the code is invalid.
 
 > 💡 Codes directly relate to lasers frequencies, resulting in them having to be
-between 1111 and 1788 and not use digits 0 or 9 in order to be valid.
+> between 1111 and 1788 and not use digits 0 or 9 in order to be valid.
 
 When power is applied to the system, it automatically initiates a transfer of
 the currently set code.

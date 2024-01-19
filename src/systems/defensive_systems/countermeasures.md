@@ -205,7 +205,7 @@ dispensers.
 
 ### Master Dispenser Assembly
 
->💡 Operation of the master dispenser assembly is done automatically by the
+> 💡 Operation of the master dispenser assembly is done automatically by the
 > ground crew in DCS, according to the AN/ALE-40 loadout selected in the loadout
 > menu.
 
@@ -228,7 +228,7 @@ according to the selected loadout.
 
 ### Slave Dispenser Assembly
 
->💡 The payload selector switch position is by default set to CS (chaff single dispense).
+> 💡 The payload selector switch position is by default set to CS (chaff single dispense).
 > However, it can also be set to CD (chaff double dispense
 > via the [Mission Editor](../../dcs/mission_editor.md#chaff-double-dispense).
 

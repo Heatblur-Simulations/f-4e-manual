@@ -74,7 +74,7 @@ In this case, make sure to set the mode to Standby immediately and give it some 
 cool down first. Ignoring the lamp will cause parts of the pod to melt, damaging
 it irreparably.
 
-> 💡 As a rule-of-thumb, do not transmit
+> 🟡 CAUTION: As a rule-of-thumb, do not transmit
 > for longer than 20 minutes without allowing for cooling between uses.
 > Limit continued slow and low level flight while operating the jammer to 30 minutes.
 > For extreme outside temperatures, adjust the limits accordingly.

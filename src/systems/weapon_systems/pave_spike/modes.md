@@ -40,7 +40,7 @@ inserted, the WRCS usually defaults to the aircraft position, resulting in the
 pod looking straight down.
 
 > 💡 The WRCS mode automatically falls back to the 12-VIS mode in case the WRCS
-integration is deactivated.
+> integration is deactivated.
 
 ## Track mode
 
@@ -70,7 +70,7 @@ the WSO on the WRCS panel.
 Without a WRCS integration, a target altitude of 0 is assumed, degrading the
 stabilization.
 
->💡 The pod is not capable of computing a slant range for targets above
+> 💡 The pod is not capable of computing a slant range for targets above
 > the own aircraft altitude (for example when attacking up-hill). Since that is
 > measured using the barometric altitude, depending on the pressure-setting, this
 > can lead to erratic behavior during hot days when flying low. Problematic
@@ -102,7 +102,7 @@ However, when the pod is currently in Track-mode and is maneuvered outside of
 its gimbal limits, it will automatically initiate a target-insert signal and
 send its current target position to the WRCS.
 
->💡 If the laser is currently firing, it will automatically be stopped
+> 💡 If the laser is currently firing, it will automatically be stopped
 > when hitting a limit.
 
 This signal then also causes the pod to enter Memory-mode, in which case it will

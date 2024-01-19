@@ -19,7 +19,7 @@ takeoff or low level flight.
 The stow-procedure takes about 5 seconds, with the light indicating the current
 status.
 
->💡 The stow-position is held electrically and can not be held without
+> 🟡 CAUTION: The stow-position is held electrically and can not be held without
 > power. Un-powered, the pod swings freely with force. Taking off without first
 > applying power to the pod, or flying with the pod being powered off, will cause
 > the pod to leave the stow position. Outside of the stow position, the system
@@ -54,7 +54,7 @@ being all black.
 To prolong use of the pod and prevent overheating, limit slow and low-level
 flight, as well as continuous use of the laser.
 
-> 💡 As a rule-of-thumb, do not use
+> 🟡 CAUTION: As a rule-of-thumb, do not use
 > the laser for longer than 15 minutes without allowing for cooling between uses.
 > Limit continued slow and low level flight while operating the pod to 30 minutes.
 > For extreme outside temperatures, adjust the limits accordingly.
@@ -99,7 +99,7 @@ After about 15 seconds, the test is finished with either GO or MALF
 illuminating.
 
 > 💡 For the test to be successful, the aircraft must not be moving, the pod must be
-un-stowed and INS must be integrated.
+> un-stowed and INS must be integrated.
 
 ### Bit 3
 
@@ -159,7 +159,7 @@ The popular upgrade TCTO 519 overhauls the pods gimbal motors, increasing the
 movement speed from 15 dps to 60 dps.
 
 > 💡 At this speed, the targeting pod is capable of tracking a target during low
-altitude high speed flight, such as overflights at 1,000 ft with 500 knots.
+> altitude high speed flight, such as overflights at 1,000 ft with 500 knots.
 
 ## Checklists
 

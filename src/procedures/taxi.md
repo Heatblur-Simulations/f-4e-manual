@@ -32,7 +32,7 @@
 | 20.     | Radar Altimeter                       | CHECK & SET                 |
 | **21.** | **Wheel chocks**                      | **REMOVE**🔧               |
 
-> 💡 Don not move aircraft with INS in ALIGN mode.
+> 🟡 CAUTION: Do not move aircraft with INS in ALIGN mode.
 
 ### WSO
 
@@ -55,16 +55,16 @@
 | 3.     | (P-WSO) Flight Instruments | CHECK          |
 | 4.     | (P-WSO) Oxygen Diluter | AS REQUIRED        |
 
-> 💡 Taxi with canopies full open or full closed; with
+> 🟡 CAUTION: Taxi with canopies full open or full closed; with
 > the canopies open, maintain taxi speeds below 60
 > knots to prevent damage to the canopy operating
 > mechanism.
 
-> 💡 Adequate distance between aircraft must be
+> 🟡 CAUTION: Adequate distance between aircraft must be
 > maintained during formation taxi. An open
 > canopy may be damaged by engine exhaust blast.
 
-> 💡 While taxiing during high gross weight
+> 🟡 CAUTION: While taxiing during high gross weight
 > conditions, the turning radius should be
 > increased to relieve excessive side loads on the
 > main landing gear struts, wheels, and tires.
