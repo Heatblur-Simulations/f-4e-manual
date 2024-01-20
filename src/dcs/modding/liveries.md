@@ -12,6 +12,8 @@ represented in DCS.
 
 ## Paintkit
 
+![dcs_liveries_template](../../img/dcs_liveries_template.jpg)
+
 The Paintkit has been created with ease of use in mind. It allows unwrapping the
 3D Object onto a 2D space.
 
@@ -53,6 +55,8 @@ The RoughMet files makes use of the three RGB Channels:
 Since the Roughmet File is in the **8Bit RGB Range of Colors**, per channel, you
 get 255 Values to define the named attributes. Visually this is represented per
 channel with a value of 0 for Black and a value of 255 for White.
+
+![dcs_liveries_material_errors](../../img/dcs_liveries_material_error.jpg)
 
 ### Avoid bright or dark colors
 

@@ -69,7 +69,8 @@ oxygen flow (white indicates inhalation).
 
 Indicates oxygen supply pressure from 0 to 500 psi.
 
-For further information see [3.7 Utility chapter, Oxygen section](../../../systems/utility.md#oxygen-system).
+For further information
+see [3.7 Utility chapter, Oxygen section](../../../systems/utility.md#oxygen-system).
 
 ### Oxygen Quantity Gauge
 
@@ -240,7 +241,7 @@ engines.
 
 In the event that
 an [AIM-7](../../../stores/air_to_air/aim_7.md), [AIM-9](../../../stores/air_to_air/aim_9.md),
-or [M61A1](../../../stores/guns.md) must be employed
+or the [M61A1](../../../stores/guns.md) must be employed
 against an airborne target with
 the [sight](../../../cockpit/pilot/dscg_controls.md#sight-mode-knob)
 in A/G mode (for example, the flight is bounced by

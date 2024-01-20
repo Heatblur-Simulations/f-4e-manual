@@ -27,7 +27,7 @@
 |      | a. Head-up HEAT light                                                 | ON                           |
 | 3.   | MISSILE AURAL TONE                                                    | ADJUST                       |
 | 4.   | MASTER ARM                                                            | ARM                          |
-|      | a. Head-up HEAT light                                                 | ON                           |
+|      | a. Head-up ARM light                                                  | ON                           |
 | 5.   | ACCOMPLISH RADAR LOCK                                                 |                              |
 |      | a. CAGE Button                                                        | PRESS                        |
 |      | b. Align target in Boresight                                          |                              |

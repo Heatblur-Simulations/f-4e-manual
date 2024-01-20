@@ -72,7 +72,7 @@ the Fire Test Button is pressed, then illuminating when it is released.
 
 ## Ejection Seats
 
-![ext_view_ejection_seat](../img/ext_ejection.jpg)
+![ext_view_ejection_seat](../img/ext_f4_ejection.jpg)
 
 The Phantom II uses the Martin Baker Mk. H-7 ejection seat in both positions for
 safe aircrew extraction in the event of airframe loss. Triggering ejection using
