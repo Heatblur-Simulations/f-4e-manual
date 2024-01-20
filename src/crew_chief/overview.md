@@ -11,8 +11,8 @@ The preparation for take off begins long before the aircraft crew arrives,
 but the chief also directly assists the crew during startup and shutdown.
 
 > 💡 Never upset your crew chief. Make sure you operate your aircraft
-> properly or you may disappoint the chief, and you will be scrubbing tires
-> and packing chutes for the rest of your flying career."
+> properly and take good care of it, or you will be scrubbing tires
+> and packing chutes for the rest of your flying career.
 
 ## Features
 

@@ -120,6 +120,8 @@
   - [Takeoff](./procedures/takeoff/takeoff.md)
     - [Checklists](./procedures/takeoff/checklists.md)
   - [Landing](./procedures/landing/landing.md)
+    - [Visual](./procedures/landing/visual.md)
+    - [Instrument](./procedures/landing/instrument.md)
     - [Checklists](./procedures/landing/checklists.md)
   - [Shutdown](./procedures/shutdown.md)
   - [Scramble](./procedures/scramble.md)

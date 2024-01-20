@@ -3,7 +3,7 @@
 ## Descent / Before Landing
 
 | Step   | System                     | Action        |
-| ------ | -------------------------- | ------------- |
+|--------|----------------------------|---------------|
 | 1.     | Defog & Temperature        | AS DESIRED    |
 | 2.     | ALE-40 Flares/Norm Switch  | NORMAL        |
 | **3.** | **STAB AUG Switches**      | **ENGAGED**   |
@@ -17,17 +17,26 @@
 ## In Pattern (below 210 knots)
 
 | Step   | System             | Action             |
-| ------ | ------------------ | ------------------ |
+|--------|--------------------|--------------------|
 | **1.** | **Gear**           | **DOWN**           |
 | **2.** | **Slats & Flaps**  | **OUT & DOWN**     |
 | 3.     | Hydraulic Pressure | CHECK              |
 | 4.     | Warning Lights     | CHECK              |
 | **5.** | **Anti Skid**      | **ON & LIGHT OUT** |
 
+## Missed Approach
+
+| Step   | System        | Action               |
+|--------|---------------|----------------------|
+| **1.** | **Throttles** | **MILITARY OR AB**   |
+| **2.** | **Gear**      | **UP**               |
+| 3.     | Slats & Flaps | NORM (180 knots MIN) |
+| 4.     | Throttles     | AS REQUIRED          |
+
 ## After Landing
 
 | Step    | System                           | Action              |
-| ------- | -------------------------------- | ------------------- |
+|---------|----------------------------------|---------------------|
 | **1.**  | **Drag Chute**                   | **DEPLOY**          |
 | **2.**  | **Wheel Brake (below 70 knots)** | **ENGAGE**          |
 | **3.**  | **Anti Skid (below 30 knots)**   | **OFF**             |
