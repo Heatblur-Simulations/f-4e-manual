@@ -6,7 +6,7 @@ more.
 Jester is your AI buddy for Solo flights and will take the role of the WSO, so
 that you can focus on flying the plane and employing weapons.
 
-![Jester Crew](../img/jester_crewmember.jpg)
+![Jester Crew](../img/ext_f4_jester.jpg)
 
 His key responsibilities are
 
