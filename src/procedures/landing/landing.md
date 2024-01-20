@@ -1,3 +1,3 @@
 # Landing
 
-This chapter explains landing techniques.
+This chapter describes landing techniques.
