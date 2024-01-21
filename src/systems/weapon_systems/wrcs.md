@@ -1,6 +1,6 @@
 # Weapon Release Computer Set (WRCS)
 
-![ext_bombs_dropping](../../img/ext_bombs_dropping.jpg)
+![ext_bombs_dropping](../../img/ext_f4_wrcs.jpg)
 
 Provision for the F-4E to perform accurate level and dive munition delivery is
 provided by the AN/ASQ-91 WRCS. The WRCS inputs are set with the associated

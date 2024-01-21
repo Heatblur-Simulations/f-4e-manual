@@ -119,7 +119,7 @@ All ejections initiated from the front seat are dual ejections.
 
 ## Jettison System
 
-![ext_emergency_jettison](../img/ext_releases.jpg)
+![ext_emergency_jettison](../img/ext_f4_jettison.jpg)
 
 The majority of stores carried by the F-4 can be jettisoned from the aircraft
 while in flight and with the landing gear stowed and doors closed. Jettison does

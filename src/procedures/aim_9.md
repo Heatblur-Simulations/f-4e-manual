@@ -11,7 +11,7 @@
 |      | a. Head-up HEAT light                                                 | ON                  |
 | 3.   | MISSILE AURAL TONE                                                    | ADJUST              |
 | 4.   | MASTER ARM                                                            | ARM                 |
-|      | a. Head-up HEAT light                                                 | ON                  |
+|      | a. Head-up ARM light                                                  | ON                  |
 | 5.   | UNCAGE SEEKER                                                         |                     |
 |      | a. AAR BUTTON                                                         | PRESS AND HOLD      |
 |      | b. NOTE: Seeker is only uncaged while AAR button is pressend and held | ON                  |

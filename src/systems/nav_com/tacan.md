@@ -1,6 +1,6 @@
 # TACAN (Tactical Air Navigation) System
 
-![external_tacan_antenna](../../img/ext_tcn_antenna.jpg)
+![external_tacan_antenna](../../img/ext_f4_tacan_antenna.jpg)
 
 Bearing and range information to transmitting stations is provided by the TACAN
 system. The TACAN system can receive information from ground stations as far as

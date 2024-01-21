@@ -1,6 +1,6 @@
 # Pave Spike
 
-![pave_spike_pod](../../../img/pave_spike_pod.jpg)
+![pave_spike_pod](../../../img/ext_f4_pavespike.jpg)
 
 The AN/AVQ-23 Pave Spike targeting pod is the successor of the AN/AVQ-10 Pave
 Knife and predecessor of the AN/AVQ-26 Pave Tack pod. It entered service in 1974

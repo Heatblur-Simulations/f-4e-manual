@@ -1,6 +1,6 @@
 # Flight Control Surfaces and System
 
-![ext_view_flight_controls](../../img/ext_flight_controls.jpg)
+![ext_view_flight_controls](../../img/ext_f4_flight_control_surfaces.jpg)
 
 The flight controls include the slats seen in front of the wing in extended position, the flaps, the
 rudder, the aileron-spoiler seen on top of the right wing in the picture and rearward stabilizers.
@@ -392,7 +392,7 @@ speeds also apply.
 
 ## Speed Brakes
 
-![ext_speed_brakes_out](../../img/ext_speed_brakes.jpg)
+![ext_speed_brakes_out](../../img/ext_f4_speed_brakes.jpg)
 
 Underneath the aircraft and close to the rear [Sparrow](../../stores/air_to_air/aim_7.md) recesses
 are the [speed
