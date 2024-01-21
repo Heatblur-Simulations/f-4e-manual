@@ -1,6 +1,6 @@
 # Cockpit Overview
 
-![ext_cockpit](../img/ext_cockpits.jpg)
+![ext_cockpit](../img/ext_f4_cockpit_overview.jpg)
 
 Greetings, _phaboulus_ Crewmen! Get ready for an in-depth look into the cockpit
 of the F-4E Phantom II by Heatblur.

@@ -58,7 +58,7 @@ carries the Auto Clear switch, this switch does not have any control over the
 internal M61A1 cannon, and can only deactivate round clearance for podded
 external cannon installations.
 
-![ext_gun_door_open](../img/ext_gun_and_purge_door.jpg)
+![ext_gun_door_open](../img/ext_f4_gun.jpg)
 
 ## External Cannon Pods SUU-16/A and SUU-23/A
 

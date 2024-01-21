@@ -9,6 +9,9 @@ pneumatic start at fields with an available cart, or via a propellant cartridge
 to initiate spin-up. Similarly, the engines can utilize the aircraft's internal
 battery for initial power, or connection with an external power cart.
 
+> 💡 When the engines are off they make a rattling noise as the respective blades rattle in their
+> holders. This is called windmilling.
+
 ## Fuel Flow Indicators
 
 ![FFI](../../img/pilot_fuel_flow.jpg)

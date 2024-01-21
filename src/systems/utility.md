@@ -19,7 +19,7 @@ A detailed chart of the Oxygen duration is provided here:
 
 ## Canopies
 
-![ext_canopy_open](../img/ext_canopy_open.jpg)
+![ext_canopy_open](../img/ext_f4_canopies.jpg)
 
 The canopies are actuated by the [pneumatic system](pneumatics.md).
 They are controlled independently between the two cockpits; handle for
@@ -97,7 +97,7 @@ the DISENGAGED lamp.
 
 ### AIR REFUEL RECPT Circuit Breaker
 
-![wso_air_refuel_recpt_cb](../img/wso_air_refuel_recpt_cb.jpg)
+![wso_air_refuel_recpt_cb](../img/wso_cb_air_refuel.jpg)
 
 In the event of a DISENGAGED situation during air refueling, the system is reset
 either by cycling the Air Refuel Switch or by using the AIR REFUEL RECPT circuit breaker,
