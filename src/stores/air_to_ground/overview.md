@@ -10,4 +10,4 @@ Integral to the F-4E's air-to-ground arsenal are guided munitions used for preci
 [Laser-guided bombs (LGBs)](bombs/laser_guided_bombs.md) and other precision-guided munitions enable
 the Phantom II to engage high-value and strategically important targets with unparalleled accuracy.
 
-![dcs_ext_gun_firing](../../img/ext_f4_gun_firing.jpg)
+![dcs_ext_gun_firing](../../img/ext_f4_redkite_rocket_attack.jpg)
