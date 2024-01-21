@@ -9,7 +9,7 @@ nose gear steering and anti-skid system is realized by scissor switches located 
 bays. In the event Utility hydraulics are offline, an emergency extension system using compressed
 air is available to lower the gear for landing.
 
-![ext_view_gears](../../img/ext_landing_gear.jpg)
+![ext_view_gears](../../img/ext_f4_wheel_well.jpg)
 
 ## Landing Gear Control Handle
 
