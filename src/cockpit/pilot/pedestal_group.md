@@ -117,7 +117,15 @@ settings.
 
 ![pilot_shrike_tgt_reject](../../img/pilot_tgt_missile_reject.jpg)
 
-Selects which target source to use and select, either TGT/MSL REJ, ALL or DF REJ.
+Dual purpose switch to control [Mavericks](../../stores/air_to_ground/missiles/maverick.md)
+and [Shrikes](../../stores/air_to_ground/missiles/shrike.md).
+
+For Mavericks, the spring-loaded TGT/MSL REJ position cycles through the available
+Mavericks currently selected and armed. The DF REJ position has no function.
+
+For Shrikes, TGT/MSL REJ turns off the weapon seeker entirely until released.
+The DF REJ position selects the WRCS mode for receiving a solution, while the center position
+uses the weapons own, less accurate seeker system instead.
 
 ### Band Switch
 
