@@ -1056,11 +1056,16 @@ A when the A-3-2-T switch is in A.</p>
 below this range are thus not reliable.</p>
 <h2 id="flight-instrument-brightness-knob"><a class="header" href="#flight-instrument-brightness-knob">Flight Instrument Brightness Knob</a></h2>
 <p><img src="cockpit/pilot/../../img/pilot_flight_instrument_brightness_knob.jpg" alt="Flight Instrument Brightness Knob" /></p>
-<p>Controls brightness of the flight instrument cluster.</p>
-<p>Rotating clockwise will increase brightness of all flight instrument lights, while at the same time
-dim the HSI mode and warning and caution lights, except FIRE and OVERHEAT.</p>
-<p>Flight instrument lights can additionally be controlled individually with knobs on the Flight
-Instrument Lights Intensity Panel, located on the right wall.</p>
+<p>Controls edge lighting of the main flight instruments of <strong>both cockpits</strong>.</p>
+<p>Rotating clockwise will increase their brightness,
+but at the same time also dim most warning and indication lamps in the aircraft.</p>
+<blockquote>
+<p>💡 When dimmed, SHOOT lamps are turned off entirely.</p>
+</blockquote>
+<p>Flight instrument lights can additionally be controlled individually with knobs on the
+<a href="cockpit/pilot/right_console/wall.html#flight-instrument-lights-intensity-panel">Flight Instrument Lights Intensity Panel</a>,
+located on the right wall.</p>
+<p>See <a href="cockpit/pilot/../../systems/lighting.html#interior-lighting">3.9. Interior Lighting</a> for details.</p>
 <h2 id="nosetail-arming-switch"><a class="header" href="#nosetail-arming-switch">Nose/Tail Arming Switch</a></h2>
 <p><img src="cockpit/pilot/../../img/pilot_nose_tail_arming.jpg" alt="NTArm" /></p>
 <p>Controls the arming solenoids of the MER and TER racks, selecting what MER/TER position(s) arming
@@ -1085,9 +1090,13 @@ weapon position is CL, and the nose gun is armed with the GUN station selector b
 <p><img src="cockpit/pilot/../../img/ext_pylons.jpg" alt="ext_pylons" /></p>
 <h3 id="dimmer-knob"><a class="header" href="#dimmer-knob">Dimmer Knob</a></h3>
 <p>A dimmer knob is also provided to raise or lower the lighting of the station select buttons relative
-to current cockpit conditions. If the Flight Instrument Brightness Knob above it is set to the full
-CCW position, it overrides the dimmer knob and Station Select Buttons are always illuminated at full
+to current cockpit conditions.</p>
+<p>If the Flight Instrument Brightness Knob above it is set to the full CCW position,
+it overrides the dimmer knob and Station Select Buttons are always illuminated at full
 brightness.</p>
+<blockquote>
+<p>💡 The dimmer knob can control brightness only within a limited range.</p>
+</blockquote>
 <h2 id="master-arm-switch"><a class="header" href="#master-arm-switch">Master Arm Switch</a></h2>
 <p><img src="cockpit/pilot/../../img/pilot_master_arm.jpg" alt="MArm" /></p>
 <p>Provides master arming function for all aircraft weapons.</p>
@@ -2534,46 +2543,35 @@ the <a href="cockpit/pilot/right_console/../../../systems/lighting.html#interior
 <h3 id="white-floodlight"><a class="header" href="#white-floodlight">White Floodlight</a></h3>
 <p>The White Floodlight switch acts independent of all other controls on the panel,
 and is either ON or OFF. It activates a separate emergency floodlight (also
-called Thunderstorm Light) that illuminates the cockpit in white. The lamp is
-energized through the Battery Bus to ensure it is always operational, even in
-case of total power loss. Do not forget to turn off the light before parking the
-aircraft for a longer time, as it will otherwise drain the battery.</p>
+called Thunderstorm Light) that illuminates the cockpit in white.</p>
 <h3 id="instrument-panel-knob"><a class="header" href="#instrument-panel-knob">Instrument Panel Knob</a></h3>
-<p>The Flight Instrument Light Knob (marked INSTR PANEL),when rotated clock-wise of the OFF
-detent, controls illumination of the following six instrument lights
-in unison:</p>
-<ul>
-<li><a href="cockpit/pilot/right_console/../../pilot/flight_director_group.html#airspeed-and-mach-indicator">Airspeed/Mach Indicator</a></li>
-<li><a href="cockpit/pilot/right_console/../../pilot/flight_director_group.html#attitude-director-indicator">Attitude Director Indicator</a></li>
-<li><a href="cockpit/pilot/right_console/../../pilot/flight_director_group.html#angle-of-attack-indicator">Angle of Attack Indicator</a></li>
-<li><a href="cockpit/pilot/right_console/../../pilot/flight_director_group.html#vertical-velocity-indicator">Vertical Velocity Indicator</a></li>
-<li><a href="cockpit/pilot/right_console/../../pilot/flight_director_group.html#altimeter">Altimeter</a></li>
-<li><a href="cockpit/pilot/right_console/../../pilot/flight_director_group.html#horizontal-situation-indicator">Horizontal Situation Indicator</a></li>
-</ul>
-<p>When in the OFF position, these indicators are independently controlled for
-illumination by the knobs on the Flight Instrument Lights Intensity Panel.</p>
+<p>This knob controls the background illumination of the instrument panel,
+as well as edge lighting for most of its gauges.</p>
+<blockquote>
+<p>💡 The main flight instruments are controlled via the
+<a href="cockpit/pilot/right_console/../weapon_management.html#flight-instrument-brightness-knob">Flight Instrument Brightness Knob</a>
+instead.</p>
+</blockquote>
 <h3 id="console-knob"><a class="header" href="#console-knob">Console Knob</a></h3>
-<p>The Console Light Control Knob, with range from OFF to BRT, controls
-illumination level for all panel edge lighting and the console floodlights.</p>
+<p>The Console Light Control Knob, with range from OFF to BRT, controls the
+illumination level for the left and right console.</p>
 <h3 id="console-floodlight"><a class="header" href="#console-floodlight">Console Floodlight</a></h3>
-<p>The red console floodlights (CONSOLE FLOOD) are triggered independently of the knob
-when it is rotated clock-wise of the OFF detent position, and offer three
-settings - DIM, MED, or BRT. The floodlights will remain on until the Console
-Light Control knob is returned to the OFF position, and the floodlight switch is
-placed in DIM. All three positions are powered by different buses to ensure
-maximal availability:</p>
-<div class="table-wrapper"><table><thead><tr><th>Lamp</th><th>Bus</th></tr></thead><tbody>
-<tr><td>Bright</td><td>Essential 28V DC Bus</td></tr>
-<tr><td>Medium</td><td>Left Main 14V AC Bus</td></tr>
-<tr><td>Dim</td><td>Left Main 115V AC Bus</td></tr>
-</tbody></table>
-</div>
+<p>This switch controls the lighting level of red floodlights
+providing general lighting for the consoles. Three settings are available: DIM, MED and BRT.</p>
+<blockquote>
+<p>💡 To turn them off, place the switch in DIM
+and the Console Knob in OFF.</p>
+</blockquote>
+<blockquote>
+<p>💡 Floodlights for the Instrument Panel are found on the <a href="cockpit/pilot/right_console/wall.html#instrument-flood">right wall</a>.</p>
+</blockquote>
 <h3 id="warning-light-test-switch"><a class="header" href="#warning-light-test-switch">Warning Light Test Switch</a></h3>
 <p>The Warning Light Test Switch (Marked WARN LT TEST) is a three-position switch;
 in the WARN LT TEST position, confirms function of the various emergency
-indicators in the cockpit. In the STBY COMP position, it illuminates the light
-for the <a href="cockpit/pilot/right_console/../../pilot/overhead_indicators.html#standby-magnetic-compass">Standby Compass.</a> Both
-functions are deactivated when the switch is placed in the OFF position.</p>
+indicators in the cockpit.</p>
+<p>In the STBY COMP position, it illuminates the light
+for the <a href="cockpit/pilot/right_console/../../pilot/overhead_indicators.html#standby-magnetic-compass">Standby Compass</a>.</p>
+<p>Both functions are deactivated when the switch is placed in the OFF position.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="aft-section-1"><a class="header" href="#aft-section-1">Aft Section</a></h1>
 <p>The aft section of the right console has navigation equipment
 and controls for exterior lighting.</p>
@@ -2675,7 +2673,7 @@ labelled ELAPSED TIME.</p>
 <h2 id="flight-instrument-lights-intensity-panel"><a class="header" href="#flight-instrument-lights-intensity-panel">Flight Instrument Lights Intensity Panel</a></h2>
 <p><img src="cockpit/pilot/right_console/../../../img/pilot_flight_instrument_lights.jpg" alt="InsIntensity" /></p>
 <p>The Instrument Lights Intensity Panel has six knobs that allow to independently
-change illumination intensity on the following indicators:</p>
+change illumination intensity on the following indicators for <strong>both cockpits</strong>:</p>
 <ul>
 <li><a href="cockpit/pilot/right_console/../../pilot/flight_director_group.html#airspeed-and-mach-indicator">Airspeed/Mach Indicator</a></li>
 <li><a href="cockpit/pilot/right_console/../../pilot/flight_director_group.html#attitude-director-indicator">Attitude Director Indicator</a></li>
@@ -2684,8 +2682,8 @@ change illumination intensity on the following indicators:</p>
 <li><a href="cockpit/pilot/right_console/../../pilot/flight_director_group.html#altimeter">Altimeter</a></li>
 <li><a href="cockpit/pilot/right_console/../../pilot/flight_director_group.html#horizontal-situation-indicator">Horizontal Situation Indicator</a></li>
 </ul>
-<p>The base intensity of all indicators is controlled with the Flight Instrument
-Light knob on the Cockpit Light Control Panel.</p>
+<p>The base intensity of all indicators is controlled with the
+<a href="cockpit/pilot/right_console/../weapon_management.html#flight-instrument-brightness-knob">Flight Instrument Light knob</a>.</p>
 <h2 id="formation-and-indexer-lights-control-panel"><a class="header" href="#formation-and-indexer-lights-control-panel">Formation and Indexer Lights Control Panel</a></h2>
 <p><img src="cockpit/pilot/right_console/../../../img/pilot_formation_lights_panel.jpg" alt="FormLights" /></p>
 <p>Control of the formation lights, which are found on the wing tips, both sides of
@@ -2731,15 +2729,9 @@ lights, but has been replaced by the <a href="cockpit/pilot/right_console/../lef
 on the left wall.</p>
 <h3 id="instrument-flood"><a class="header" href="#instrument-flood">Instrument Flood</a></h3>
 <p>The three position switch controls the lamps illuminating the instrument panels
-in both cockpits simultaneously in red light.</p>
-<p>The bright and dim positions activate lamps powered by different electrical
-buses to ensure the emergency light is available even in case of failure.</p>
-<div class="table-wrapper"><table><thead><tr><th>Lamp</th><th>Bus</th></tr></thead><tbody>
-<tr><td>Bright</td><td>Essential 28V DC Bus</td></tr>
-<tr><td>Dim</td><td>Left Main 14V AC Bus</td></tr>
-</tbody></table>
-</div>
-<p>For further information on the lighting see the <a href="cockpit/pilot/right_console/../../../systems/lighting.html">3.9 Lighting chapter.</a></p>
+in <strong>both cockpits</strong> simultaneously in red light.</p>
+<p>For further information on the lighting see
+the <a href="cockpit/pilot/right_console/../../../systems/lighting.html">3.9 Lighting chapter.</a></p>
 <h3 id="ml-audio"><a class="header" href="#ml-audio">ML Audio</a></h3>
 <p>Controls the volume of the Missile Launch System that plays tones to warn the
 pilot about being under attack.</p>
@@ -4095,7 +4087,7 @@ provided by the INS (difference above 1.5 arc minutes).</p>
 <h3 id="air-data-mode-light"><a class="header" href="#air-data-mode-light">Air Data Mode Light</a></h3>
 <p><img src="cockpit/wso/right_console/../../../img/wso_nav_panel_air_data_light.jpg" alt="Air Data Mode Light" /></p>
 <p>Illumination indicates that the Navigation Computer is operating in AIR DATA Mode.</p>
-<h2 id="wso-cockpit-lighting-control-panel"><a class="header" href="#wso-cockpit-lighting-control-panel">WSO Cockpit Lighting Control Panel</a></h2>
+<h2 id="cockpit-lighting-control-panel-1"><a class="header" href="#cockpit-lighting-control-panel-1">Cockpit Lighting Control Panel</a></h2>
 <p><img src="cockpit/wso/right_console/../../../img/wso_cockpit_lights_aft.jpg" alt="wso_cockpit_lighting_panel" /></p>
 <p>The Cockpit Lighting Control Panel provides control of all panel edge lighting,
 flight instrument panel lighting, the console floodlights, the white floodlights
@@ -4104,51 +4096,37 @@ Light Test and Standby Compass Light switch.</p>
 <h3 id="white-floodlight-1"><a class="header" href="#white-floodlight-1">White Floodlight</a></h3>
 <p>The White Floodlight switch acts independent of all other controls on the panel,
 and is either ON or OFF. It activates a separate emergency floodlight (also
-called Thunderstorm Light) that illuminates the cockpit in white. The lamp is
-energized through the Battery Bus to ensure it is always operational, even in
-case of total power loss. Do not forget to turn off the light before parking the
-aircraft for a longer time, as it will otherwise drain the battery.</p>
+called Thunderstorm Light) that illuminates the cockpit in white.</p>
 <h3 id="standby-compass-switch"><a class="header" href="#standby-compass-switch">Standby Compass Switch</a></h3>
 <p>The STBY COMP switch illuminates the light for the Standby Compass.</p>
 <h3 id="console-floodlight-1"><a class="header" href="#console-floodlight-1">Console Floodlight</a></h3>
-<p>The red console floodlights (CONSOLE FLOOD) are triggered independently of the knob
-when it is rotated clock-wise of the OFF detent position, and offer three
-settings - DIM, MED, or BRT. The floodlights will remain on until the Console
-Light Control knob is returned to the OFF position, and the floodlight switch is
-placed in DIM. All three positions are powered by different buses to ensure
-maximal availability:</p>
-<div class="table-wrapper"><table><thead><tr><th>Lamp</th><th>Bus</th></tr></thead><tbody>
-<tr><td>Bright</td><td>Essential 28V DC Bus</td></tr>
-<tr><td>Medium</td><td>Left Main 14V AC Bus</td></tr>
-<tr><td>Dim</td><td>Left Main 115V AC Bus</td></tr>
-</tbody></table>
-</div>
+<p>This switch controls the lighting level of red floodlights
+providing general lighting for the consoles. Three settings are available: DIM, MED and BRT.</p>
+<blockquote>
+<p>💡 To turn them off, place the switch in DIM
+and the Console Knob in OFF.</p>
+</blockquote>
+<blockquote>
+<p>💡 Floodlights for the Instrument Panel are controlled by the pilot,
+see the <a href="cockpit/wso/right_console/../../pilot/right_console/wall.html#instrument-flood">Instrument Flood Switch</a>.</p>
+</blockquote>
 <h3 id="warning-light-test-switch-1"><a class="header" href="#warning-light-test-switch-1">Warning Light Test Switch</a></h3>
 <p>The Warning Light Test Switch if set to the TEST position, confirms function of
 the various emergency indicators in the cockpit.</p>
 <h3 id="instrument-panel-knob-1"><a class="header" href="#instrument-panel-knob-1">Instrument Panel Knob</a></h3>
-<p>The Flight Instrument Light Knob (marked INSTR PANEL), when rotated clock-wise of the OFF
-detent, controls illumination of the following six instrument lights
-in unison:</p>
-<ul>
-<li>Airspeed/Mach Indicator</li>
-<li>Attitude Director Indicator</li>
-<li>Angle of Attack Indicator</li>
-<li>Vertical Velocity Indicator</li>
-<li>Altimeter</li>
-<li>Horizontal Situation Indicator</li>
-</ul>
-<p>When in the OFF position, these indicators are independently controlled for
-illumination by the knobs on the Flight Instrument Lights Intensity Panel.</p>
-<p>The Indexer Lights brightness knob controls relative illumination of the AoA
-indexers on both sides of the windscreen. Marked positions are DIM and BRT
-(bright), with the highest level to the right of the knob.</p>
+<p>This knob controls the background illumination of the instrument panel,
+as well as edge lighting for most of its gauges.</p>
+<blockquote>
+<p>💡 The main flight instruments are controlled by the pilot via the
+<a href="cockpit/wso/right_console/../../pilot/weapon_management.html#flight-instrument-brightness-knob">Flight Instrument Brightness Knob</a>
+instead.</p>
+</blockquote>
 <h3 id="indexer-knob"><a class="header" href="#indexer-knob">Indexer Knob</a></h3>
 <p>Controls the brightness of the AoA Indexer lights to the left and right
 of the canopy bow.</p>
 <h3 id="console-knob-1"><a class="header" href="#console-knob-1">Console Knob</a></h3>
-<p>The Console Light Control Knob, with range from OFF to BRT, controls
-illumination level for all panel edge lighting and the console floodlights.</p>
+<p>The Console Light Control Knob, with range from OFF to BRT, controls the
+illumination level for the left and right console.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="right-wall-1"><a class="header" href="#right-wall-1">Right Wall</a></h1>
 <p>The right wall has auxiliary switches for testing and starting the aircraft.</p>
 <h2 id="canopy-manual-unlock-handle-1"><a class="header" href="#canopy-manual-unlock-handle-1">Canopy Manual Unlock Handle</a></h2>
@@ -6650,6 +6628,10 @@ maximal availability:</p>
 <tr><td>Dim</td><td>Left Main 115V AC Bus</td></tr>
 </tbody></table>
 </div>
+<blockquote>
+<p>💡 Floodlights are turned off by selecting the DIM position and
+moving the Console Brightness knob to OFF.</p>
+</blockquote>
 <h3 id="panel-lighting"><a class="header" href="#panel-lighting">Panel Lighting</a></h3>
 <p>To ensure that all panels and gauges are readable during night, back- and
 edge-lighting can be enabled by either crew-member individually for the consoles
@@ -6672,7 +6654,7 @@ wall.</p>
 <li>VVI</li>
 <li>Altimeter</li>
 </ul>
-<div class="table-wrapper"><table><thead><tr><th>Flight instrument brightness</th><th>Flight instrument light intensity</th></tr></thead><tbody>
+<div class="table-wrapper"><table><thead><tr><th>Flight Instrument Brightness</th><th>Flight Instrument Light Intensity</th></tr></thead><tbody>
 <tr><td><img src="systems/../img/pilot_flight_instrument_brightness_knob.jpg" alt="Flight Brightness Knob" /></td><td><img src="systems/../img/pilot_flight_instrument_lights.jpg" alt="Flight Instrument Lights Intensity Panel" /></td></tr>
 </tbody></table>
 </div>
@@ -6698,6 +6680,10 @@ and will always show at full brightness.</p>
 <blockquote>
 <p>💡 Warning and Indicator lamps can not be turned off fully, only a bright or
 dimmed setting is available.</p>
+</blockquote>
+<blockquote>
+<p>💡 The SHOOT lights have no dimmed setting and are turned off entirely when the knob
+is moved out of the fully CCW position.</p>
 </blockquote>
 <h3 id="rotate-to-dim-lamps"><a class="header" href="#rotate-to-dim-lamps">Rotate-To-Dim Lamps</a></h3>
 <p>Both cockpits feature multiple lamps that can be dimmed individually by rotating
@@ -6744,6 +6730,7 @@ general console or instrument brightness knobs.</p>
 <tr><td>Range Indicator Display</td><td>Weapon Management</td></tr>
 <tr><td>HUD Reticle</td><td>DSCG Controls</td></tr>
 <tr><td>DSCG Screen</td><td>DSCG Controls</td></tr>
+<tr><td>DSCG Scale</td><td>DSCG Controls</td></tr>
 <tr><td>RWR Display</td><td>Right Main Panel</td></tr>
 <tr><td>RWR Buttons</td><td>Right Main Panel</td></tr>
 <tr><td>Standby Compass Light</td><td>Right Console</td></tr>
@@ -6756,6 +6743,8 @@ general console or instrument brightness knobs.</p>
 <tr><td>RWR Buttons</td><td>Upfront Indicators</td></tr>
 <tr><td>Standby Compass Light</td><td>Right Console</td></tr>
 <tr><td>AoA Indexer</td><td>Right Console</td></tr>
+<tr><td>DSCG Screen</td><td>Pedestal Group</td></tr>
+<tr><td>DSCG Scale</td><td>Pedestal Group</td></tr>
 <tr><td>Pave Spike Reticle</td><td>Pedestal Group</td></tr>
 <tr><td>Pave Spike Panel</td><td>Pedestal Group</td></tr>
 </tbody></table>
