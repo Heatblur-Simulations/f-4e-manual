@@ -26,4 +26,5 @@ open-source project at [GitHub](https://github.com/Heatblur-Simulations/f-4e-man
 <!-- markdown-link-check-enable -->
 
 > 🚧 The manual is a **work in progress** and will continue to be expanded and improved
-> until the Phantom releases for early access this Winter.
+> until the Phantom releases for early access this Winter. Access to
+> the open-source repository on GitHub and the PDF version will be made available later.
