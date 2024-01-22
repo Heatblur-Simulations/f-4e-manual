@@ -131,7 +131,9 @@ uses the weapons own, less accurate seeker system instead.
 
 ![pilot_shrike_tgt_reject](../../img/pilot_shrike_band.jpg)
 
-Selects the bands to pickup by the weapon.
+Allows to select the band range picked up by [Shrikes](../../stores/air_to_ground/missiles/shrike.md).
+
+> 💡 Not all variants support band switching.
 
 ## Rudder Pedal Adjustment Crank
 
