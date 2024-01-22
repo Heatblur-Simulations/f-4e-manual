@@ -110,6 +110,9 @@ maximal availability:
 | Medium | Left Main 14V AC Bus  |
 | Dim    | Left Main 115V AC Bus |
 
+> 💡 Floodlights are turned off by selecting the DIM position and
+> moving the Console Brightness knob to OFF.
+
 ### Panel Lighting
 
 To ensure that all panels and gauges are readable during night, back- and
@@ -139,7 +142,7 @@ wall.
 - VVI
 - Altimeter
 
-| Flight instrument brightness                                                  | Flight instrument light intensity                                                      |
+| Flight Instrument Brightness                                                  | Flight Instrument Light Intensity                                                      |
 |-------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | ![Flight Brightness Knob](../img/pilot_flight_instrument_brightness_knob.jpg) | ![Flight Instrument Lights Intensity Panel](../img/pilot_flight_instrument_lights.jpg) |
 
@@ -169,6 +172,9 @@ and will always show at full brightness.
 
 > 💡 Warning and Indicator lamps can not be turned off fully, only a bright or
 > dimmed setting is available.
+
+> 💡 The SHOOT lights have no dimmed setting and are turned off entirely when the knob
+> is moved out of the fully CCW position.
 
 ### Rotate-To-Dim Lamps
 
@@ -224,6 +230,7 @@ For the pilot, these additional brightness controls are:
 | Range Indicator Display | Weapon Management |
 | HUD Reticle             | DSCG Controls     |
 | DSCG Screen             | DSCG Controls     |
+| DSCG Scale              | DSCG Controls     |
 | RWR Display             | Right Main Panel  |
 | RWR Buttons             | Right Main Panel  |
 | Standby Compass Light   | Right Console     |
@@ -237,5 +244,7 @@ While the WSOs brightness controls are as follows:
 | RWR Buttons           | Upfront Indicators |
 | Standby Compass Light | Right Console      |
 | AoA Indexer           | Right Console      |
+| DSCG Screen           | Pedestal Group     |
+| DSCG Scale            | Pedestal Group     |
 | Pave Spike Reticle    | Pedestal Group     |
 | Pave Spike Panel      | Pedestal Group     |

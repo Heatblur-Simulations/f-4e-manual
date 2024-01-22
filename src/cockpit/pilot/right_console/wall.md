@@ -7,7 +7,7 @@ The right wall features the main circuit breakers and lighting controls.
 ![InsIntensity](../../../img/pilot_flight_instrument_lights.jpg)
 
 The Instrument Lights Intensity Panel has six knobs that allow to independently
-change illumination intensity on the following indicators:
+change illumination intensity on the following indicators for **both cockpits**:
 
 - [Airspeed/Mach Indicator](../../pilot/flight_director_group.md#airspeed-and-mach-indicator)
 - [Attitude Director Indicator](../../pilot/flight_director_group.md#attitude-director-indicator)
@@ -16,8 +16,8 @@ change illumination intensity on the following indicators:
 - [Altimeter](../../pilot/flight_director_group.md#altimeter)
 - [Horizontal Situation Indicator](../../pilot/flight_director_group.md#horizontal-situation-indicator)
 
-The base intensity of all indicators is controlled with the Flight Instrument
-Light knob on the Cockpit Light Control Panel.
+The base intensity of all indicators is controlled with the
+[Flight Instrument Light knob](../weapon_management.md#flight-instrument-brightness-knob).
 
 ## Formation and Indexer Lights Control Panel
 
@@ -81,17 +81,10 @@ on the left wall.
 ### Instrument Flood
 
 The three position switch controls the lamps illuminating the instrument panels
-in both cockpits simultaneously in red light.
+in **both cockpits** simultaneously in red light.
 
-The bright and dim positions activate lamps powered by different electrical
-buses to ensure the emergency light is available even in case of failure.
-
-| Lamp   | Bus                  |
-|--------|----------------------|
-| Bright | Essential 28V DC Bus |
-| Dim    | Left Main 14V AC Bus |
-
-For further information on the lighting see the [3.9 Lighting chapter.](../../../systems/lighting.md)
+For further information on the lighting see
+the [3.9 Lighting chapter.](../../../systems/lighting.md)
 
 ### ML Audio
 

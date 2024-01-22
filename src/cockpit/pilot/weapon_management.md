@@ -58,13 +58,18 @@ below this range are thus not reliable.
 
 ![Flight Instrument Brightness Knob](../../img/pilot_flight_instrument_brightness_knob.jpg)
 
-Controls brightness of the flight instrument cluster.
+Controls edge lighting of the main flight instruments of **both cockpits**.
 
-Rotating clockwise will increase brightness of all flight instrument lights, while at the same time
-dim the HSI mode and warning and caution lights, except FIRE and OVERHEAT.
+Rotating clockwise will increase their brightness,
+but at the same time also dim most warning and indication lamps in the aircraft.
 
-Flight instrument lights can additionally be controlled individually with knobs on the Flight
-Instrument Lights Intensity Panel, located on the right wall.
+> 💡 When dimmed, SHOOT lamps are turned off entirely.
+
+Flight instrument lights can additionally be controlled individually with knobs on the
+[Flight Instrument Lights Intensity Panel](right_console/wall.md#flight-instrument-lights-intensity-panel),
+located on the right wall.
+
+See [3.9. Interior Lighting](../../systems/lighting.md#interior-lighting) for details.
 
 ## Nose/Tail Arming Switch
 
@@ -98,9 +103,13 @@ weapon position is CL, and the nose gun is armed with the GUN station selector b
 ### Dimmer Knob
 
 A dimmer knob is also provided to raise or lower the lighting of the station select buttons relative
-to current cockpit conditions. If the Flight Instrument Brightness Knob above it is set to the full
-CCW position, it overrides the dimmer knob and Station Select Buttons are always illuminated at full
+to current cockpit conditions.
+
+If the Flight Instrument Brightness Knob above it is set to the full CCW position,
+it overrides the dimmer knob and Station Select Buttons are always illuminated at full
 brightness.
+
+> 💡 The dimmer knob can control brightness only within a limited range.
 
 ## Master Arm Switch
 

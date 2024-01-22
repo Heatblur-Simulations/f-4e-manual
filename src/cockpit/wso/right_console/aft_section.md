@@ -100,7 +100,7 @@ provided by the INS (difference above 1.5 arc minutes).
 
 Illumination indicates that the Navigation Computer is operating in AIR DATA Mode.
 
-## WSO Cockpit Lighting Control Panel
+## Cockpit Lighting Control Panel
 
 ![wso_cockpit_lighting_panel](../../../img/wso_cockpit_lights_aft.jpg)
 
@@ -113,10 +113,7 @@ Light Test and Standby Compass Light switch.
 
 The White Floodlight switch acts independent of all other controls on the panel,
 and is either ON or OFF. It activates a separate emergency floodlight (also
-called Thunderstorm Light) that illuminates the cockpit in white. The lamp is
-energized through the Battery Bus to ensure it is always operational, even in
-case of total power loss. Do not forget to turn off the light before parking the
-aircraft for a longer time, as it will otherwise drain the battery.
+called Thunderstorm Light) that illuminates the cockpit in white.
 
 ### Standby Compass Switch
 
@@ -124,18 +121,14 @@ The STBY COMP switch illuminates the light for the Standby Compass.
 
 ### Console Floodlight
 
-The red console floodlights (CONSOLE FLOOD) are triggered independently of the knob
-when it is rotated clock-wise of the OFF detent position, and offer three
-settings - DIM, MED, or BRT. The floodlights will remain on until the Console
-Light Control knob is returned to the OFF position, and the floodlight switch is
-placed in DIM. All three positions are powered by different buses to ensure
-maximal availability:
+This switch controls the lighting level of red floodlights
+providing general lighting for the consoles. Three settings are available: DIM, MED and BRT.
 
-| Lamp   | Bus                   |
-|--------|-----------------------|
-| Bright | Essential 28V DC Bus  |
-| Medium | Left Main 14V AC Bus  |
-| Dim    | Left Main 115V AC Bus |
+> 💡 To turn them off, place the switch in DIM
+> and the Console Knob in OFF.
+
+> 💡 Floodlights for the Instrument Panel are controlled by the pilot,
+> see the [Instrument Flood Switch](../../pilot/right_console/wall.md#instrument-flood).
 
 ### Warning Light Test Switch
 
@@ -144,23 +137,12 @@ the various emergency indicators in the cockpit.
 
 ### Instrument Panel Knob
 
-The Flight Instrument Light Knob (marked INSTR PANEL), when rotated clock-wise of the OFF
-detent, controls illumination of the following six instrument lights
-in unison:
+This knob controls the background illumination of the instrument panel,
+as well as edge lighting for most of its gauges.
 
-- Airspeed/Mach Indicator
-- Attitude Director Indicator
-- Angle of Attack Indicator
-- Vertical Velocity Indicator
-- Altimeter
-- Horizontal Situation Indicator
-
-When in the OFF position, these indicators are independently controlled for
-illumination by the knobs on the Flight Instrument Lights Intensity Panel.
-
-The Indexer Lights brightness knob controls relative illumination of the AoA
-indexers on both sides of the windscreen. Marked positions are DIM and BRT
-(bright), with the highest level to the right of the knob.
+> 💡 The main flight instruments are controlled by the pilot via the
+> [Flight Instrument Brightness Knob](../../pilot/weapon_management.md#flight-instrument-brightness-knob)
+> instead.
 
 ### Indexer Knob
 
@@ -169,5 +151,5 @@ of the canopy bow.
 
 ### Console Knob
 
-The Console Light Control Knob, with range from OFF to BRT, controls
-illumination level for all panel edge lighting and the console floodlights.
+The Console Light Control Knob, with range from OFF to BRT, controls the
+illumination level for the left and right console.

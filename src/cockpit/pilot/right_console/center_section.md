@@ -174,51 +174,39 @@ the [lighting chapter.](../../../systems/lighting.md#interior-lighting)
 
 The White Floodlight switch acts independent of all other controls on the panel,
 and is either ON or OFF. It activates a separate emergency floodlight (also
-called Thunderstorm Light) that illuminates the cockpit in white. The lamp is
-energized through the Battery Bus to ensure it is always operational, even in
-case of total power loss. Do not forget to turn off the light before parking the
-aircraft for a longer time, as it will otherwise drain the battery.
+called Thunderstorm Light) that illuminates the cockpit in white.
 
 ### Instrument Panel Knob
 
-The Flight Instrument Light Knob (marked INSTR PANEL),when rotated clock-wise of the OFF
-detent, controls illumination of the following six instrument lights
-in unison:
+This knob controls the background illumination of the instrument panel,
+as well as edge lighting for most of its gauges.
 
-- [Airspeed/Mach Indicator](../../pilot/flight_director_group.md#airspeed-and-mach-indicator)
-- [Attitude Director Indicator](../../pilot/flight_director_group.md#attitude-director-indicator)
-- [Angle of Attack Indicator](../../pilot/flight_director_group.md#angle-of-attack-indicator)
-- [Vertical Velocity Indicator](../../pilot/flight_director_group.md#vertical-velocity-indicator)
-- [Altimeter](../../pilot/flight_director_group.md#altimeter)
-- [Horizontal Situation Indicator](../../pilot/flight_director_group.md#horizontal-situation-indicator)
-
-When in the OFF position, these indicators are independently controlled for
-illumination by the knobs on the Flight Instrument Lights Intensity Panel.
+> 💡 The main flight instruments are controlled via the
+> [Flight Instrument Brightness Knob](../weapon_management.md#flight-instrument-brightness-knob)
+> instead.
 
 ### Console Knob
 
-The Console Light Control Knob, with range from OFF to BRT, controls
-illumination level for all panel edge lighting and the console floodlights.
+The Console Light Control Knob, with range from OFF to BRT, controls the
+illumination level for the left and right console.
 
 ### Console Floodlight
 
-The red console floodlights (CONSOLE FLOOD) are triggered independently of the knob
-when it is rotated clock-wise of the OFF detent position, and offer three
-settings - DIM, MED, or BRT. The floodlights will remain on until the Console
-Light Control knob is returned to the OFF position, and the floodlight switch is
-placed in DIM. All three positions are powered by different buses to ensure
-maximal availability:
+This switch controls the lighting level of red floodlights
+providing general lighting for the consoles. Three settings are available: DIM, MED and BRT.
 
-| Lamp   | Bus                   |
-|--------|-----------------------|
-| Bright | Essential 28V DC Bus  |
-| Medium | Left Main 14V AC Bus  |
-| Dim    | Left Main 115V AC Bus |
+> 💡 To turn them off, place the switch in DIM
+> and the Console Knob in OFF.
+
+> 💡 Floodlights for the Instrument Panel are found on the [right wall](wall.md#instrument-flood).
 
 ### Warning Light Test Switch
 
 The Warning Light Test Switch (Marked WARN LT TEST) is a three-position switch;
 in the WARN LT TEST position, confirms function of the various emergency
-indicators in the cockpit. In the STBY COMP position, it illuminates the light
-for the [Standby Compass.](../../pilot/overhead_indicators.md#standby-magnetic-compass) Both
-functions are deactivated when the switch is placed in the OFF position.
+indicators in the cockpit.
+
+In the STBY COMP position, it illuminates the light
+for the [Standby Compass](../../pilot/overhead_indicators.md#standby-magnetic-compass).
+
+Both functions are deactivated when the switch is placed in the OFF position.
