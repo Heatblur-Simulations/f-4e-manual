@@ -289,3 +289,11 @@ The microphone switch for the [Intercom System](../../../systems/nav_com/interco
 position on the inboard throttle grip in both cockpits. When using the intercom, all audio sans the
 pull-up tone, stall warning, and ECM are reduced (same as RADIO OVERRIDE). In the fwd position the
 switch will enable transmitting over radio.
+
+### Pinky Switch
+
+![pilot_pinky_switch](../../../img/pilot_throttle_pinky_switch.jpg)
+
+The guns/missile (pinky switch) is a four position switch which performs the weapon select function
+for guns(aft), radar(fwd) and heat missiles(center) and performs station select functions(up) for
+the heat missile. The UP position is a springloaded position.
