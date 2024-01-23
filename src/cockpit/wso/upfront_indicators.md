@@ -133,7 +133,7 @@ detected by the APX-81A Combat Tree system.
 
 Illuminated each time the system detects being interrogated by other aircraft.
 
-> 💡 Due to DCS limitations, this is not simulated in-game.
+> 💡 Due to engine limitations, this is not simulated in-game.
 
 ## Range (VISIDENT) Indicator
 

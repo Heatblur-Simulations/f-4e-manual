@@ -57,7 +57,7 @@ of a wheel when the gears are down and locked.
 
 ![pilot_nose_gear_steering_button](../../img/pilot_nose_gear_steering.jpg)
 
-Nose Gear Steering is actuated using the referenced button on the control stick
+Nose Gear Steering (NGS or also NWS) is actuated using the referenced button on the control stick
 in either cockpit. Holding the button down permits the crew member to steer the
 aircraft using the rudder. Steering limit of the nose gear is 70 degrees from
 centerline in both directions.

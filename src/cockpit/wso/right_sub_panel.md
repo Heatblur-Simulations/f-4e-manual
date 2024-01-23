@@ -66,7 +66,7 @@ currently active and transmitting.
 
 Indicates that a radar has been detected and is actively jammed.
 
-> 💡 Due to DCS limitations, this is currently not simulated in-game.
+> 💡 Due to engine limitations, this is currently not simulated in-game.
 
 ### Reset Button and Lamp
 

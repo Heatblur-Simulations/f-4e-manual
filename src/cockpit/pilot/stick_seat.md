@@ -34,7 +34,7 @@ details.
 
 ### Nose Wheel Steering Button
 
-Both sticks carry a Nose Wheel Steering (NWS) button that doubles as a radar
+Both sticks carry a Nose Wheel Steering (NWS or also NGS) button that doubles as a radar
 auto-acquisition control for the radar in visual range combat, and sensor focus
 control for video-directed air to ground weapons.
 
