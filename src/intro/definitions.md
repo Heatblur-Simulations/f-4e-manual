@@ -1,25 +1,25 @@
-# Definitions
+# 定义
 
-Should an acronym, such as DSCG be unclear at any point, look it up in the
-exhaustive list provided at the [Abbreviations chapter](../abbreviations.md).
+如果玩家对 DSCG 等缩写有任何不清楚的地方，
+请从以下链接提供的详细列表中查找。 [首字母缩写](../abbreviations.md).
 
-The following symbology is used throughout this manual.
+以下符号将在手册中使用。
 
-## General
+## 常规
 
-| Symbol | Meaning            | Description                                                  |
+| 符号   | 含义               | 描述                                                         |
 | ------ | ------------------ | ------------------------------------------------------------ |
-| 💡     | Note               | Item that is given special emphasize                         |
-| 🟡     | Caution            | Should be followed to prevent **damage to equipment**        |
-| 🔴     | Warning            | Ignoring might lead to **personal injury or loss of life**   |
-| 🚧     | Under Construction | A section is **work in progress** and will be improved still |
+| 💡     | 提示                | 特别强调的项目                                                |
+| 🟡     | 注意               | 应遵照执行，以防止**设备损坏**                                 |
+| 🔴     | 警告               | 忽视可能导致**人身伤害或丧失**                                |
+| 🚧     | 施工中             | 部分**正在编写中**，还将继续改进                               |
 
 <!-- ⚠️🚨 -->
 
-## Checklists
+## 检查单
 
-| Symbol   | Description                                                                              |
+| 符号     | 描述                                                                                     |
 | -------- | ---------------------------------------------------------------------------------------- |
-| **Bold** | Step is necessary to be performed                                                        |
-| 🔧       | Step involves or may involve [crew chief](../crew_chief/overview.md) interaction         |
-| ⚡       | Step **cannot** be performed when **battery start** is made, external power is necessary |
+| **加粗** | 必须执行的步骤                                                                             |
+| 🔧       | 使用或可能使用 [机工长](../crew_chief/overview.md) 交互                                   |
+| ⚡       | 使用 **“电池起动”** 时**无法执行**的步骤，需要地面电源                                     |
