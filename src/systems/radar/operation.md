@@ -102,7 +102,7 @@ In [Air-To-Ground Ranging](#air-to-ground-ranging) Antenna is boresighted to
 radar boresight line without drift stabilization. In this mode the zero degree
 mark on the display indicates the radar boresight line.
 
-![antenna stabilization](../../img/manual_antenna_stab.png)
+![antenna stabilization](../../img/manual_antenna_stab.jpg)
 
 ### Pulse Setting
 
@@ -195,7 +195,7 @@ along the radar boresight line.
 
 Below shows the usual symbology present in Automatic Search and Boresight Modes.
 
-![radar_screen](../../img/radar_search.png)
+![radar_screen](../../img/radar_search.jpg)
 
 | Item | Name              | Description                                                                                                                                                                                                                                                                                                                                                                                |
 | ---- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -216,7 +216,7 @@ RDR or MAP the antenna azimuth will follow the acquisition symbol. In all modes
 where acquisition can be used the range of the acquisition symbol will set the
 desired range for lock-on.
 
-![radar_screen](../../img/radar_acq.png)
+![radar_screen](../../img/radar_acq.jpg)
 
 | Item | Name               | Description                                                                                                                                                                                               |
 | ---- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -234,7 +234,7 @@ The type of track entered depends on the selected mode. There are two types of
 tracking circuits available, angle tracking and range tracking. These will both
 be described below.
 
-![radar_screen](../../img/radar_track.png)
+![radar_screen](../../img/radar_track.jpg)
 
 | Item    | Name                     | Description                                                                                                               |
 | ------- | ------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
@@ -367,7 +367,7 @@ types:
 3. Lead pursuit, inside Rmax lead pursuit minimizes the missile's post-launch
    maneuvers.
 
-![manual_radar_air_to_ground_mode](../../img/aim_dot_steering.png)
+![manual_radar_air_to_ground_mode](../../img/aim_dot_steering.jpg)
 
 #### Shoot/In Range Lights
 
@@ -402,7 +402,7 @@ In Visual Intercept (VI) break X is displayed when range is less than 1000 ft.
 
 When break X is displayed ASE Circle is also removed.
 
-![radar_screen](../../img/manual_radar_break_x.png)
+![radar_screen](../../img/manual_radar_break_x.jpg)
 
 ### Firing Interlocks
 
