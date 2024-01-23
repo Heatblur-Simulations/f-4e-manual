@@ -1,403 +1,217 @@
-# Historical Background
+# 历史背景
 
-## 1953-1958: Development Phase (F3H to AH-1 and F4H)
+## 1953-1958: 开发阶段 (F3H 到 AH-1 和 F4H)
 
 ![real_life_f4_mockup_with_missiles](../img/real_life_f4_mockup_with_aim_7.jpg)
 _(Mockup of the F-4 with AIM-7 Missiles)_
 
-The developmental onset of the **F-4 Phantom II** began in the aftermath of
-McDonnell's loss in the US Navy's 1953 **Day Fighter Competition** - the victor
-of which was the **Vought F8U**. Choosing not to rest on failure, McDonnell
-representatives canvased the Navy Bureau of Aeronautics, a number of operational
-commands, the office of the Chief of Naval Operations, and any pilot or
-maintainer willing to discuss the state of current naval aviation.
+麦道公司在 1953 年美国海军“昼间战机”竞赛中失利后，开始了F-4“鬼怪”II研发工作。
+麦道公司的代表不甘心失败，他们走访了海军航空局、一些作战司令部、海军作战部长办公室以及任何愿意讨论当前海军航空状况的飞行员或维修人员。
 
-After nearly a year of analysis and design work - including a full scale mockup,
-the design of what they would classify as a **general fighter** took shape. The
-potential of a general fighter aircraft, rather than the specialized focus
-preferred by the Navy at the time, was rooted in the success of the **F3H-1
-Demon** in threading of that very needle.
+经过近一年的分析和设计工作——包括一次全比例模拟，他们将其归类为**通用战机**的设计方案初具雏形。
+专门针对对手F4D天雷而设计的 **F3H-1“魔鬼”** 战斗机在截击机领域的成功经验，使他们认识到通用战斗机的潜力，而不是当时海军所偏爱的专用战机。
 
-### F3H-1 Demon
+### F3H-1 “魔鬼”
 
-The Demon had been built as design in opposition of the **F4D Skyray** in the
-interceptor role. As the Skyray proved its supersonic superiority during the
-development cycle, McDonnell expanded the F3H Demon's capabilities to include
-respectable air to ground armament to justify its place in the limited carrier
-compliment when compared to the **F10F Jaguar** and **F7U Cutlass**, which were
-also undergoing development at the time.
+由于“天雷”在研发周期中证明了其超音速性能的优势，麦克唐纳公司增强了 F3H-1“魔鬼”的性能，使其能够使用可观的空对地武器装备，以此证明与当时正在开发的 **F10F“虎”** 和 **F7U“弯刀”** 相比，F3H-1“魔鬼”能在有限的甲板中占有一席之地。
 
-Ultimately outfitted with the AIM-9 Sidewinder and AIM-7 Sparrow - the latter
-giving the F3H a beyond visual range capability the Skyray could never boast,
-and topping out with the ability to carry and deliver 6,000 lbs of air to ground
-ordnance, the Demon out-measured its competitors in combat potential, even when
-it came in second on paper for raw performance.
+最终，“魔鬼”配备了 AIM-9“响尾蛇”和 AIM-7“麻雀”——后者使 F3H 拥有了“天雷”无法比拟的超视距能力，并可携带和投掷 6000 磅空对地武器。
+虽然在纸面上其原始性能也只能屈居第二，但“魔鬼”的作战潜力超越其竞争对手。
 
-Beginning with the intention to grow out the Demon as the baseline airframe, a
-set of engineering evaluations were performed including both single and twin
-engine configurations with different wings. The two most promising data sets-
-twin-engine builds of the type designated the **F3H-G** and **F3H-H** powered
-the General Electric J65 and J79 respectively, replaced the original Demon wing
-with a 45 degree swept wing.
+从打算将“魔鬼”作为基准机身开始，麦道进行了一系列工程评估，包括采用不同机翼的单双发配置。
+最有希望的两个数据集——双发型号 **F3H-G** 和 **F3H-H** ——分别由通用电气公司的 J65 和 J79 驱动，用 45 度后掠角机翼取代了原有的“魔鬼”机翼。
 
-Particular focus was paid towards making the new aircraft **multi-mission
-capable**, running a wide gamut of potential operations: day or all-weather
-attack, photo recon, day or all-weather interception with a Sparrow-compatible
-radar, electronic warfare, and a two seat strike coordination configuration.
-Experimentation with this wide-ranging design intent went so far as to include a
-novel interchangeable nose and cockpit arrangement, allowing airframes to be
-reconfigured within a matter of hours for a given mission set with the necessary
-systems fit for the crew.
+该型机的重点是使其具备执行**多种任务的能力**，能够执行多种可能的作战任务：昼间或全天候攻击、照相侦察、使用兼容“麻雀”地雷达进行昼间或全天候拦截、电子战以及双座打击协调配置。
+对这一广泛的设计意图进行的实验甚至包括一种新颖的可互换机头和驾驶舱布置，使机身能够在数小时内重新配置，为机组人员提供适合特定任务的必要系统。
 
-While the Navy showed little interest in the nose replacement capability, the
-bottom line numbers from the F3H-G and -H investigations got their attention. On
-paper, they were capable of reaching Mach 1.52, and an eye-watering Mach 1.97 at
-35,000 feet, respectively.
+虽然海军对更换机头的能力兴趣不大，但 F3H-G 和 -H 调查的底线数据引起了他们的注意：从纸面上看，它们的马赫数分别为35000 英尺 1.52 和令人瞠目的 1.97。
 
-By October of 1954, Navy Bureau of Aeronautics (BuAer) had evaluated similar
-unsolicited proposals from Grumman, Douglas, and North American, and provided
-McDonnell with a $38 million dollar contract for two flying examples of the
-Demon follow on - internally designated as the **AH-1**.
+到 1954 年 10 月，海军航空局（BuAer）对格鲁曼、道格拉斯和北美公司的类似非邀约提案进行了评估，并向麦道公司提供了一份价值 3800 万美元的合同，用于购买两架“魔鬼”战斗机（内部命名为 **AH-1**）。
 
 ![McDonnell F3H-G Mockup](../img/F3HG.jpg) _(McDonnell F3H-G mockup; US Navy
 photo)_
 
 ### AH-1
 
-Two months later, the Navy threw McDonnell a curveball, directing the type to be
-**stripped of the air to ground fitment**, and focusing on the all-weather
-interceptor role in a single seat configuration, with the finalization for this
-change in role being formally announced in April of 1955.
+两个月后，海军向麦道公司抛出了一个“曲线球”，指示**该机型取消空对地设备**，转而以单座配置的全天候截击机为重点，并于 1955 年 4 月正式宣布了这一角色转变的最终决定。
 
-The changeover was, in some quarters, considered catastrophic - over time
-forcing the removal of the planned internal gun, and stripping all of the
-hard-points, save for the recessed Sparrow fuselage wells and a centerline tank
-position. At this point, the determination of the **J79** as the power plant was
-finalized with the Navy's desire for a Mach 2 interceptor. Further, the
-determination of a two-man crew as also put in place by the Navy - like
-McDonnell's own research, success in the faster, longer ranged interception
-environment showed the utility of a second man to handle the scope.
+有些人认为这种转变是灾难性的——随着时间的推移，计划中的内部航炮被迫拆除，所有的硬挂点也被剥离，只剩下半埋的“麻雀”机身井和一个中线油箱位置。
+此时，由于海军希望获得2马赫的截击机，因此最终确定使用 **J79** 作为动力装置。
+此外，海军还确定了双人机组——就像麦道公司自己的研究一样，在更快、更远距离的拦截环境中取得的成功表明：第二个人处理距离问题是有用的。
 
-However, it wasn't a done deal. BuAero had been keeping conversation with Vought
-at the same time, and in mid-1955 detailed a fly-off between the two competing
-firms for the new interceptor role; this time pitting McDonnell's AH-1 contender
-with an outgrowth of the already in-service **Crusader**: the **F8U-3**.
+然而，这并不是一锤子买卖。与此同时，海军航空局一直与沃特公司保持着对话，并在1955年中期详细说明了两家竞争公司之间为新截击机角色而进行的对决；这次对决的对手是麦道的AH-1和已经服役的 **“十字军战士”** 的衍生机型：**F8U-3**。
 
 ### F4H (F-4A)
 
-Redesignated the **F4H** (or also **F-4A**) in the intervening two and a half
-years leading into the late 1958 fly-off, McDonnell's Phantom II would trade
-substantial blows with Vought's Crusader III during the Navy Preliminary
-Evaluation. Whereas McDonnell's design entered the flight testing phase a month
-prior (and nominally entered engineering almost a year ahead of Vought's entry),
-the benefits of Vought carrying over much of the prior Crusader's aerodynamic
-profile appeared early in the comparison. The Crusader III was first to reach
-Mach 2 in flight testing, shown capable of reaching higher top speeds during the
-Navy preliminary evaluation, and noted for having more refined airframe handling
-in most regimes.
+麦道公司的“鬼怪”II战斗机在1958年底试飞前的两年半时间里被重新命名为 **F4H**（或称为 **F-4A**），并在海军初步评估中与沃特公司的“十字军战士”III型战斗机展开了激烈的交锋。
+由于“十字军战士”III在飞行测试中率先达到了2马赫，在海军初步评估（NPE）中表现出了更高的极速，而且在大多数情况下机身操控性更为出色，因此在对比中很早就显现出了沃尔特公司继承了“十字军战士”之前大部分气动外形的优势。
 
 ![f-4h_aboard_the_uss_independence](../img/f-4h_aboard_uss_independence.jpg)
 _(F-4H aboard the USS Independence in 1960; US Navy photo)_
 
-But as the Evaluation continued, it was found that McDonnell's Phantom II
-countered the Crusader III where it mattered: in **combat capability**. The Navy
-wanted a Mach 2 interceptor, not an overgrown daylight fighter.
+但随着评估的继续，人们发现麦道公司的“鬼怪”II 战斗机在**作战能力**方面与“十字军战士”III 战斗机形成了抗衡。
+海军需要的是一种 2 马赫的截击机，而不是过度生长的昼间战斗机。
 
-The F8U-3's integration of the Sparrow was found lacking versus that of the
-Phantom, having surrendered an AIM-7 against the F4H due to aerodynamic
-performance concerns. Of even greater concern for the interceptor role - as
-McDonnell had previously found internally, the pilot overhead to manage the
-AN/APG-74 radar installation in the Crusader III while in combat was found to be
-too high to maintain effectiveness, whereas the back-seater in the Phantom II
-could reliably acquire situational awareness on the radar and maintain track
-locks for engagement while maneuvering.
+与“鬼怪”相比，F8U-3 与“麻雀”的整合显得有所欠缺，由于气动性能的原因，F8U-3 在与 F4H 的竞争中放弃了 AIM-7。
+对于截击机来说，更令人担忧的是——正如麦道之前在内部发现的那样，“十字军战士”III在战斗中管理AN/APG-74雷达的飞行员开销过高，无法保持有效性，而“鬼怪”II的后座人员可以可靠地获取雷达上的态势感知，并在机动时保持跟踪锁定以进行攻击。
 
-McDonnell's F4H, while having more raw flying qualities, could fight as the Navy
-needed it to. Further, as the firm had continued developing its air to ground
-potential at the request of the Navy, even as they repeatedly altered the
-program goals - the Phantom II, like the Demon before it, justified its
-existence in the carrier compliment in all fights, not just the long range
-interception role. And so on December 17th, 1958, the Navy Preliminary
-Evaluation board announced its findings and the **winner of the fly-off:
-McDonnell's Phantom II**.
+麦道公司的 F4H 虽然具有更原始的飞行品质，但可以按照海军的需要进行战斗。
+此外，由于公司应海军的要求不断开发空对地潜能，即使他们一再改变项目目标——“鬼怪”II 和之前的“恶魔”一样，在航母上的所有战斗中都有其存在的理由，而不仅仅是远程拦截角色。
+因此，1958 年 12 月 17 日，海军初步评估委员会宣布了其评估结果以及试飞比赛的**获胜者：麦道的 “鬼怪”**。
 
 ## 1958-1963: A Navy Interceptor with Multi-role Pedigree (F4H to F-110 and F-4)
 
-The US Air Force was not oblivious to the Phantom II's development, as the Navy
-having asked for the air to ground capability be revisited gave McDonnell a
-point of entry. While the Air Force entertained McDonnell representatives in
-discussion about a new ground attack airframe, the service actually had interest
-in the Sparrow-dealing F4H as a replacement for the **F-106**.
+美国空军对“鬼怪”II 的发展并非漠不关心，因为海军要求重新考虑空对地能力，这给了麦道一个切入点。
+在空军与麦道公司的代表讨论新型对地攻击机的同时，空军实际上对“麻雀”运输机F4H 作为 **F-106** 的替代机型很感兴趣。
 
-The Air Defense Command requested an evaluation in 1961 known as _Project High
-Speed_, which once again proved the Phantom II superior to a challenger in the
-interceptor role. In light of the findings, Navy offered a bombing demonstration
-for Air Force representatives of the Tactical Air Command, making special note
-of the successful air to ground trials with the Phantom's multiple ejector
-racks - a capability the USAF lacked. With Air Force policymakers, members of
-Congress, and even General Curtis LeMay in attendance during this demonstration
-series - with a VX-5 F4H-1 accurately delivering twenty-two 500 lb bombs in
-spectacular fashion, the stage was set for a Navy/McDonnell tactical aviation
-coup.
+防空司令部要求在 1961 年进行一次名为“高速项目”的评估，评估结果再次证明“鬼怪”在截击机领域优于其他挑战者。
+根据评估结果，海军为战术空军司令部的空军代表提供了一次轰炸演示，并特别强调了“鬼怪”三联式挂弹架的成功空对地试验——这是美国空军所缺乏的能力。
+空军决策者、国会议员，甚至柯蒂斯-李梅将军都参加了这次系列演示，一架 VX-5 F4H-1 以惊人的方式准确投掷了 22 枚 500 磅炸弹，为海军/麦道战术航空奠定了基础。
 
 ![f_4_dropping_bombs](../img/real_life_f_4_dropping_bombs.jpg) _F-4E Phantom II
 of the 347th Tactical Fighter Wing airdropping six 500-lb Mark 82s_
 
-The inauguration of the Kennedy administration in January 1961 didn't hurt
-matters; Kennedy brought in former Ford Motor Company president Robert McNamara
-as Secretary of Defense. With an eye for optimization - sometimes to a fault,
-the performance of McDonnell's F4H was seen as a standout to capitalize upon in
-light of the administration's new conventional doctrine of _"Flexible
-Response"_; no longer would nuclear deterrence be the primary backstop of the
-US' promise to NATO.
+1961 年 1 月，肯尼迪政府就职，但这并没有影响事情的进展；肯尼迪请来了福特汽车公司前总裁罗伯特-麦克纳马拉（Robert McNamara）担任国防部长。
+麦克纳马拉非常注重优化（有时甚至是过失），鉴于政府提出了“灵活响应”的新常规理论；核威慑不再是美国对北约承诺的主要后盾，麦道F4H 的性能被视为可以充分利用的亮点。
 
-While McNamara desired for the Navy's **A-7** and the Air Force's **F-111** to
-fulfill tactical bombing roles for both services, the two airframes were at
-least five years out to operational capability; the Phantom existed, provided
-outstanding performance immediately, and could quickly raise the desired 50%
-increase in conventional force structure the White House expected for the Air
-Force. Pressure from all sides - the White House, Congress, McDonnell, and
-foreign interest, ultimately defeated the USAF's resistance to an airframe _"not
-made here"_, and by January 1962 the USAF's budget had **Phantoms on order the
-Tactical Air Command**; the Air Defense Command, which had started the Air
-Force's investigation into the Phantom, would be left with the **F-106**.
+虽然麦克纳马拉希望海军的 **A-7** 和空军的 **F-111** 能为两个军种发挥战术轰炸作用，但这两种机体至少要五年后才能具备作战能力；而“鬼怪”已经存在，能立即提供出色的性能，并能迅速提高白宫期望空军常规部队结构增加 50% 的目标。
+白宫、国会、麦道公司和外国利益集团等各方面的压力最终击败了美国空军对“非本土制造”机体的抵制，到 1962 年 1 月，美国空军的预算已用于**向战术空军司令部订购了“鬼怪”战斗机**；开始空军调查“鬼怪”战斗机的防空司令部只剩下了 F-106 战斗机。
 
-### F-110 Spectre
+### F-110 “幽灵”
 
-Designated for a time as the **F-110** to fit in with the Air Force's Century
-Series as a matter of service pride, McDonnell's Air Force Phantom went into
-motion. An initial delivery of Navy-configured F4Hs were provided for training
-and evaluation later that year, with the first flight of a true **F-4C** taking
-place on May 27th, 1963 - the universal service designation system converting
-the F4H-1 to the **F-4B** in September of 1962.
+麦道的空军“鬼怪”战斗机曾一度被命名为 **F-110**，以配合空军的“百式系列”战斗机。
+同年晚些时候，海军装备的 F4H 战斗机首次交付，用于训练和评估，1962年9月，通用名称系统将F4H-1改为**F-4B**，1963年5月27日，真正的**F-4C**首飞。
 
-### F-4B and -C
+### F-4B 和 -C
 
-Reconfiguration of the Phantom II for the USAF was expedient, with the focus
-being on service-compliant alterations. These included altering of the landing
-gear system for higher speed field operations, the addition of dual flight
-controls, an anti-skid implementation, and conversion to boom refueling
-compatibility.
+美国空军对“鬼怪”II进行了快速改装，重点是进行符合服役要求的改装，包括改装起落架系统以适应更高速度的野战作业、增加双飞行控制系统、采用防滑装置以及改装为硬管受油。
 
-Further changes included the addition of the LN-12 inertial navigation system,
-conversion to the APQ-100 radar with air to ground specific functionality, and a
-cartridge starting system for field use without a compressed air cart in
-combination with an internal battery.
+进一步的改动包括增加了 LN-12 惯性导航系统，改装为具有特定空对地功能的 APQ-100 雷达，以及用于野战的无地面气源和内置电池的药柱起动系统。
 
-This F-4C configuration would be the first Phantom used during the USAF's
-involvement in **Vietnam**, beginning in December of 1964.
+从 1964 年 12 月开始，美国空军在**越南战场**上使用的第一架“鬼怪”战机就是这种 F-4C 配置“鬼怪”。
 
 ## 1965-1974: Backtracking with Haste - Vietnam (F-4D and F-4E)
 
 ![F-4_dropping_over_Vietnam](../img/F-4B_VF-111_dropping_bombs_on_Vietnam.jpg)
 _(F-4B dropping bombs over Vietnam; US Navy Photo)_
 
-The Phantom's initial deployments to Southeast Asia delivered a number of
-firsts - the first officially **confirmed MiG-17 kill** with the AIM-9
-Sidewinder (on July 10th, 1965), and the first US air-to-air **shootdown of a
-MiG-21** (April 26th, 1966). Unfortunately, the Phantom was also the victim of
-the **first US loss to a SAM** in Vietnam (July 24th, 1965), and the first US
-air-to-air **loss from a MiG-21** (October 5th, 1966).
+“鬼怪”战斗机在东南亚的首次部署创造了许多第一——第一次正式确认使用AIM-9“响尾蛇”**击落米格-17**（1965年7月10日），第一次美军空对空**击落米格-21**（1966年4月26日）。
+不幸的是，“鬼怪”也是美国在越南首次**因SAM而损失战机**（1965 年 7 月 24 日）和美国首次**被米格-21 击落的战机**（1966 年 10 月 5 日）。
 
-With the initial teething problems of the type out of the way - including
-alterations to the wing fuel cells and internal wiring, the Phantom was found to
-be a capable, reliable airframe for the Air Force. Even the missing gun had been
-worked around to some degree, with the integration of the SUU-16 and SUU-23
-**external cannon pods**.
+在解决了该型机最初的磨合问题（包括机翼油箱和内部线路的改动）后，“鬼怪”成为了空军中非常可靠的机体。
+随着 SUU-16 和 SUU-23 **航炮吊舱**的整合，甚至连缺少航炮的问题也在一定程度上得到了解决。
 
 ### F-4D
 
-The in-production upgrade to the Air Force's first Phantom - the **F-4D**, would
-include a multitude of quality of life improvements: the APQ-109 radar with air
-to ground modes, the ASN-63 internal navigation system, the ASQ-92 release
-computer, and the APX-80 "Combat Tree" IFF system. Further additions would
-include automatic fuel transfer and a new sight, the ASG-22. Combat
-survivability would be reinforced with the APS-107 RHAW and ECM pod
-compatibility, along with new ejection seats. Yet, the service's desire to put
-its own _"made here"_ flourish on the type continued, inauspiciously culminating
-in the integration of the **AIM-4 Falcon** with the F-4D model.
+空军第一架“鬼怪”战机——**F-4D**的量产升级版将包括大量生活质量改进：带空对地模式的 APQ-109 雷达、ASN-63 惯性导航系统、ASQ-92 投放计算机，APX-80 “战斗树” IFF 系统。
+后续增加的功能还包括自动燃油转输和新的瞄准具ASG-22。
+为增强战斗生存能力，还配备了APS-107雷达告警接收机和兼容电子对抗吊舱，以及新型弹射座椅。
+然而，空军渴望在这一型号上加入自己的“本地特色”，最终不妙地导致了**AIM-4猎鹰导弹**集成进F-4D。
 
 #### AIM-9 vs AIM-4
 
-Used on the **F-102 Delta Dagger** and **F-106 Delta Dart**, and considered by
-some to be a reasonable competitor to the **AIM-9 Sidewinder**, Air Force
-leadership believed the AIM-4 Falcon could be installed in replacement of the
-Navy's short range round with no loss of capability; this was quickly found to
-be a mistaken premise.
+AIM-4导弹曾用于**F-102三角剑**和**F-106三角镖战机**，被一些人认为是**AIM-9响尾蛇导弹**的合理竞争者。
+空军领导认为，将海军的近程导弹替换为AIM-4不会损失任何能力；但这很快被证明是一个错误的假设。
 
-While the AIM-9B had limited maneuvering restrictions for launch and acquisition
-like other short range infrared missiles of its generation, it was substantially
-more reliable in use; the Falcon's cooling implementation could only maintain
-the required seeker temperature for a short time once activated, and could not
-be turned back on once the cooler timed out, while the un-cooled 9B could remain
-available indefinitely.
+虽然AIM-9B和其时代的其他近程红外导弹一样，发射和捕获目标时有一定的机动限制，但它在使用上要可靠得多；而猎鹰导弹的冷却系统一旦激活，只能很短时间维持所需的导引头温度，一旦冷却器超时，就无法再次开启，而未经冷却的9B则可以无限期保持可用状态。
 
-Sidewinder acquired far more rapidly - in many instances in less than two
-seconds, versus the six to seven seconds required for the Falcon.
+响尾蛇的目标捕获速度更快——在许多情况下不到两秒，而猎鹰则需要六到七秒。
 
-Worse still, the AIM-4 was a hittile - its fin-contact triggered fuzing required
-direct target impact for the missile's warhead to detonate, whereas the AIM-9
-carried a proximity fuze; any Sidewinder that got close to its target was a
-threat to kill.
+更糟糕的是，AIM-4是一种撞击式导弹——其鳍片触发引信需要直接撞击目标才能引爆弹头，而AIM-9则携带近炸引信；任何接近目标的响尾蛇都是致命威胁。
 
 ![f4_over_vietnam](../img/F-4Ds_435th_TFS_over_Vietnam.jpg) _(F-4D of the 435th
 TFS over Vietnam)_
 
-With initial F-4D deliveries to the 8th TFW in May of 1967, the performance of
-the new configuration was quickly met with derision. The employment envelope was
-too small compared to the Sidewinder, the lead time too long, and the weapon far
-too unreliable to put into practice in the dynamic maneuvering environment of
-air combat as it was waged in Southeast Asia.
+1967年5月，随着首批F-4D战机交付给第8战术战斗联队，新配置的性能很快遭到了嘲笑。
+与响尾蛇相比，其使用范围过小，制导时间过长，而且在东南亚空战这种动态机动环境中，这种武器过于不可靠，无法实际应用。
 
-The failure of the Falcon to succeed not only served to reaffirm the quality of
-the Sidewinder in comparison - and also highlighting the need for the service to
-upgrade the round as the Navy was doing, but reinforced the concern held by
-aircrews about the lack of an internal gun. SUU installations by this point had
-scored multiple victories over North Vietnamese MiGs (ultimately ending the war
-with **9 confirmed kills**), and it was decided to rectify what many had
-considered the Phantom's original sin with further revision to the F-4.
+猎鹰导弹的失败不仅重新证实了与响尾蛇相比的优势，并且突显了空军需要升级导弹的需求，正如海军所做的那样，但也加深了飞行员对缺乏机载航炮的担忧。
+此时，通过SUU吊舱，已有多次击败北越米格的胜利记录（最终在战争结束时**9架被确认击落**），人们决定通过进一步修订F-4来纠正许多人认为的“鬼怪”战机的原罪。
 
 ### F-4E
 
-By this time McDonnell was laying down the program update plan for the F-4E, and
-the jet was intended to carry the M61A1 gun internally, and with it - the Hughes
-CORDS (Coherent On Receive Doppler System) radar. Hughes was unable to
-successfully deliver their CORDS system, and the Westinghouse APQ-120 radar
-would be selected in January 1968 as its replacement. The APQ-120 was a full
-solid state conversion of the APQ-109/117, re-engineered to meet the
-requirements of the internal cannon installation. The radar would receive
-changes to its mount, additional dampening, and a reduction antenna's height to
-fit in the smaller cavity directly above the cannon barrel assembly.
+当麦道公司为F-4E战机制定升级计划时，该战机被设计为携带休斯 APQ-120 CORDS（相干接收多普勒系统）雷达。
+休斯公司未能成功交付他们的 CORDS 系统，1968年1月，西屋公司的 APQ-120 雷达被选为其替代品。
+APQ-120是APQ-109/117的全固态转换版本，重新设计以满足安装内置航炮的要求。
+该雷达将接受对其支架的更改、额外的阻尼，并减小天线的高度以适应直接位于弹鼓组件上方的减小后地机身腔体轮廓。
 
-Further adjustments to the F-4E were made to improve the Phantom's lethality.
-Hardware deleted for Sidewinder compatibility in the F-4D was updated and
-returned. The ASG-26A Lead Computing Optical Sighting System was installed along
-with updated aircrew in-range and shoot warning cues, providing pilots with a
-clearer picture of the weapons envelopes of the Sparrow and Sidewinder. The
-updates to the Echo Phantom would not stop there; compatibility with
-multi-ejection racks and updates to the Weapon Release Computer to match
-provided further bombing capabilities, the **AGM-65 Maverick** was made
-available in both IR and electro-optical variants, the leading edge of the wings
-were fitted with slats for increased maneuvering potential, and the Digital Scan
-Converter Group interface for the APQ-120 was installed.
+麦道还对 F-4E 做了进一步改进来提高鬼怪的杀伤性。
+为了兼容响尾蛇，在F-4D中删除的硬件得到了更新和恢复。
+安装了ASG-26A计算提前角的光学瞄准系统以及更新的机组射程内和射击告警提示，为飞行员提供了清楚的“麻雀”和“响尾蛇”武器包线的感知。
+Echo“鬼怪”的更新不止于此；兼容复式挂弹架和更新武器投放计算机——提供了更多的轰炸能力，加入 IR 和光电版本的AGM-65“幼畜”导弹、 
+安装前缘缝翼来增加机动能力以及APQ-120的数字扫描转换器组接口。
 
-Unfortunately, the F-4E's initial deliveries from October of 1967 would align
-its operational entry with the drawdown of the US' Rolling Thunder bombing
-campaign over North Vietnam. The type would have to wait until 1972 to put the
-true extent of the jet's upgrades to the test. With the resumption of the air
-campaign in February of that year, the E-model Phantom II would fly thousands of
-missions, and in the span of seventeen months score **21 air to air kills**.
+不幸的是，F-4E从1967年10月开始的首次交付与美国对北越进行的滚雷轰炸行动的结束时间相吻合。
+E型必须等到1972年才能真正测试升级的全部效果。
+随着当年2月空中战役的恢复，E型“鬼怪II”战斗机将执行数千次任务，并在十七个月的时间里取得**21次空对空击杀**。
 
-### Training Program Rivet Haste
+### Rivet Haste 训练计划
 
-Also of note was Rivet Haste - a late Vietnam training initiative in 1972
-heavily influenced by two midlife updates - modification "556" and TISEO.
+值得注意的还有“Rivet Haste”——这是越南战争后期（1972）开始的一项训练计划，两项中期更新对计划影响颇为重大，即修改“556”和TISEO。
 
-Prior to "556", weapons mode changes required the pilot to go hands off the
-throttle and look down to the release panel, cycling a number of switches to
-disarm various pylons and arm others; in the event of a lucky North Vietnamese
-bounce, or the need to swap between weapons on the fly - looking away from the
-threat was time-consuming and dangerous.
+在“556”修改之前，武器模式的更改需要飞行员松开油门，低头查看投放面板，切换多个开关以激活各个挂架的保险并解除其它保险；在遭遇幸运的北越突击或需要即时切换武器时，将视线从威胁中移开既耗时又危险。
 
-With the modification, a pair of override switches were added to the outboard
-throttle grip. The first, the _"pinky"_ switch, placed control of the gun,
-Sidewinder, and Sparrow in one of three positions, while the second, on the
-forward face of the grip, switched weapons modes immediately between air-to-air
-and air to ground; the pilot would now have immediate access to his air-to-air
-weapons, and could swap them on the fly - never once looking down in the
-cockpit. This modification gave birth to the concept called HOTAS - hands on
-throttle and stick.
+通过这项修改，在外侧油门握把上增加了一对覆盖开关。第一个是“pinky”开关，将机炮、响尾蛇和麻雀导弹的控制放在三个位置中的一个，而第二个位于握把的前面，可以立即在空对空和空对地模式之间切换武器模式；飞行员现在可以立即使用他的空对空武器，并可以在飞行中切换它们——而不需要在驾驶舱内低头。
+这种改装催生了 HOTAS 概念--握杆控制。
 
-556 also included modifications to the armament panel for air to ground
-munitions, adding ripple release capability while reducing the number of
-controls required to access full ARBCS programming.
+556的修改还包括对地面武器面板的改进，增加了连投功能，同时减少了访问完整ARBCS编程所需的控制开关数量。
 
-### TISEO Upgrade
+### TISEO 升级
 
-Further reinforcement of crew initiative was the installation of TISEO - the
-Target Identification System Electro-Optical, in 1974.
+进一步增强机组人员主动性的组件是TISEO（光电目标识别系统）。
 
 ![real_life_f_4_with_tiseo](../img/real_life_f_4_tiseo.jpg) _An F-4E Phantom II
 with a TISEO mounted on left wing above the blue practice bombs_
 
-Consisting of a 4x/10x camera installed in the left wing, TISEO provided visual
-identification of distant, radar-locked targets, enabling the AIM-7 Sparrow to
-be used to its full extent when combined with the APX-80 IFF system. Crews could
-now independently confirm two ID factors before the merge, entering the fight
-with more of an advantage - even if they would not be cleared to fire beyond
-visual range.
+TISEO由安装在左翼的4倍/10倍摄像机组成，可对远处雷达锁定的目标进行视觉识别，使AIM-7麻雀导弹在结合 APX-80 IFF 系统使用时能够充分发挥作用。
+机组现在可以在交战前独立确认两个 ID 因素，这使得进入战斗时拥有更多的优势——即使他们未获准在视距外开火。
 
-Coupled with the Rivet Haste training - which put experienced aircrews through a
-program to codify them as systems and tactics instructors (not unlike the NFWS
-education being given to USN crews at the same time), the students championed
-the modification program of the Phantom, and pushed for Double Attack (a
-parallel development of Loose Deuce as had been used by the Navy in Vietnam
-since the resumption of the bombing campaign) to become the standard for
-air-to-air methodology across the Air Force.
+结合Rivet Haste训练——该训练将经验丰富的机组人员纳入一个程序，使他们成为系统和战术指导员（与美国海军在同一时间给予USN机组人员的NFWS教育类似），学员们倡导“鬼怪”战机的改进计划，并推动双重攻击（与海军在越南自轰炸行动恢复以来使用的Loose Deuce并行发展）成为空军标准空对空战术。
 
-While this training was ultimately too late to have real effect, with the final
-halt on US bombing coming just weeks after the first Haste student crews
-returned to Vietnam, they would set the tone for USAF Phantom crews going
-forward.
+虽然这种训练最终来得太晚，无法真正发挥作用——在首批Haste学员机组返回越南后仅几周内，美国就宣布对越轰炸的最终停止，但他们为未来的美国空军“鬼怪”战机机组设定了基调。
 
-## 1975-1991: A Cold Warrior
+## 1975-1991: 冷战的战士
 
-As the Vietnam War drew to a close, the F-4E transitioned from active combatant
-to cold warrior. While the F-15 and F-16 both stood on the horizon to take the
-premiere positions in tactical air to air and air to ground roles, the sheer
-depth of the Phantom's numbers across the USAF and its allies meant the F-4E
-would remain at the tip of the spear for another two decades.
+随着越南战争的结束，F-4E从活跃的战斗家转变为冷战的战士。
+虽然F-15和F-16都即将在战术空对空和空对地角色中占据首要位置，但鬼怪在美国空军及其盟友中的数量之多意味着F-4E将在接下来的二十年仍处于金字塔顶端。
 
-Keeping the F-4 effective as a strike platform and air to air combatant was
-vital, and the E's capabilities continued to be expanded into the 1980s.
-Provision for the all-aspect AIM-9L and M Sidewinders would be installed, as
-well as the improved AIM-7F, and later, the AIM-7M Sparrow. The
-television-guided GBU-15, with its required **data-link system**, would be
-integrated in the Phantom beginning in 1975. To deliver additional guided
-munitions the F-4E would receive not one, but two targeting pod options - **Pave
-Spike** and **Pave Tack**.
+保持F-4作为一种打击平台和空对空战斗机的有效性至关重要，在1980年代，F-4E的能力继续得到扩展。
+F-4将安装全方位AIM-9L和M型响尾蛇导弹，以及改进的AIM-7F，后来又有AIM-7M麻雀导弹。
+自1975年起，配备电视制导GBU-15所需的**数据链路系统**的将被整合到鬼怪战斗机中。
+为了投放更多的制导武器，F-4E将接收不只一个，而是两个瞄准吊舱升级选项——**Pave Spike**和**Pave Tack**。
 
-Of particular note is the installation of the Digital Modular Avionics System,
-or **DMAS**. DMAS was a complete replacement of the Phantom's navigation
-computer, inertial navigation set, and the WRCS, which used LORAN (**Lo**ng
-**Ra**nge Navigation) radio signals to accurately define the aircraft's position
-anywhere in the world. The inclusion of DMAS provided a substantial improvement
-in the F-4E's navigation options and weapon release precision, and an expansion
-of the Phantom's delivery mode capabilities.
+特别值得注意的是新**数字模块化航电系统（DMAS）** 的安装。
+DMAS完全替代了鬼怪战斗机的导航计算机、惯性导航装置以及武器投放控制系统（WRCS）——使用 LORAN（**远程**导航）无线电信号来精确确定飞机所处位置。
+DMAS的加入显著提高了F-4E的导航选项和武器投放精度，并提高了鬼怪的投放模式能力。
 
-The F-4E would see its front line service end in the United States Air Force
-immediately following Operation Desert Storm, with the last remaining users of
-the type withdrawn from active duty service. US Air National Guard units would
-maintain the type until the mid-90s, with various units seeing them replaced by
-other types as appropriate for their respective missions and locations.
+F-4E在美国空军的一线服役将在沙漠风暴行动（Operation Desert Storm）结束后立即结束，最后一批使用该型号的单位将退出现役。
+美国空军国民警卫队（US Air National Guard）的单位将继续维护E型直到90年代中期，随着各单位根据其各自的任务和位置逐渐被其它型号取代。
 
-## The F-4E Phantom II Today
+## 现如今的 F-4E “鬼怪” II
 
-Of all Phantom models, the F-4E was the most numerous version that has been
-built totalling at **1370 units**.
+在所有鬼怪型号当中，F-4E“鬼怪”II是生产数量最多的版本，共计生产了**1370架**。
 
-The F-4E Phantom II is still in service at some operators across NATO including
-the Hellenic Air Force, the South Korean Air Force and the Turkish Air Force.
+F-4E“鬼怪”II战斗机目前仍在一些北约成员国的空军中服役，包括希腊空军、韩国空军和土耳其空军。
 
-They are expected to fly at least **until 2030**.
+预计它们至少将服役至**2030年**。
 
-## Variant Overview
+## 型号概览
 
-Beyond the F-4E, several Phantom variants have been build for various purposes.
+除开 F-4E，还有各型鬼怪被生产出来用于不同目的。
 
-| Variant | Description                                                 | Base Variant | First Flight |
+| 型号    | 描述                                                        | 基准型号     | 首飞         |
 | :-----: | ----------------------------------------------------------- | :----------: | ------------ |
-|    A    | Prototype and pre-production model                          |              | 1958         |
-|    B    | First production ready model for the USAF                   |      A       | 1961         |
-|    C    | Several improvements for more effective use by the USAF     |      B       | 1963         |
-|    D    | Modernization and improved air to ground capabilities       |      C       | 1965         |
-|    E    | Further improvements, better radar and nose gun             |      D       | 1965         |
-|    F    | Slimmed down export variation used by Germany               |      E       | 1973         |
-|    G    | _Wild Weasel_ upgrade to locate and fight SAM systems       |      E       | 1976         |
-|    J    | US Navy variation for carrier operation                     |      B       | 1966         |
-|    K    | Royal Navy variation with a different engine                |      J       | 1966         |
-|    M    | Royal Air Force variation with a different engine           |      J       | 1966         |
-|    N    | Modernized systems and structural improvements              |      B       | 1970         |
-|    S    | Modernized systems and smoke-free engines                   |      J       | 1977         |
-|   RF    | Several Phantom variants modified for reconnaissance        |   B, C, E    |              |
-|  QF-4   | Retrofitted as remote-controlled target drones for research |     many     |              |
+|    A    | 原型机和预生产型号                                            |              | 1958         |
+|    B    | 首个真正交付给美国空军的型号                                   |      A       | 1961         |
+|    C    | 美国空军做出数个改进来更有效使用的型号                          |      B       | 1963         |
+|    D    | 现代化并改进空对地能力                                        |      C       | 1965         |
+|    E    | 进一步改进，更好的雷达和航炮                                   |      D       | 1965         |
+|    F    | 德国使用的简化出口型号                                        |      E       | 1973         |
+|    G    | _野鼬机_ 升级来定位并摧毁 SAM 系统                             |      E       | 1976         |
+|    J    | 美国海军用于舰上作业的型号                                     |      B       | 1966         |
+|    K    | 换装不同发动机的英国海军型号                                   |      J       | 1966         |
+|    M    | 换装不同发动机的英国空军型号                                   |      J       | 1966         |
+|    N    | 现代化系统和结构改进                                          |      B       | 1970         |
+|    S    | 现代化系统和换装无烟发动机                                     |      J       | 1977         |
+|   RF    | 数个衍生型号改装的侦察用途机型                                 |   B, C, E    |              |
+|  QF-4   | 改装为用于研究的遥控靶机                                       |     很多     |              |
