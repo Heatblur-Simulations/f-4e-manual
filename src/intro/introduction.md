@@ -1,65 +1,36 @@
 # Introduction
 
-Dear Reader,
+亲爱的玩家们，
 
-we are proud to present to you the **Heatblur Simulations F-4E Phantom II** for
-Digital Combat Simulator. We’ve spent years of development and countless hours
-of research to bring you the most in-depth recreation of this legendary aircraft
-ever made. You will be able to fly your Phantom both as a pilot and WSO, alone
-with the **JESTER-AI** - your own WSO AI - or in multiplayer together with a friend.
+为 DCS 开发的：Heatblur Simulations F-4E“鬼怪”II。
+经过多年的开发和无数小时的研究，我们很荣幸能最深入地为玩家重现这款传奇战机。
+玩家可以作为飞行员和 WSO 驾驶“鬼怪”，与 JESTER-AI（玩家的WSO AI）合作，或与朋友一起进行多人游戏。
 
 ![Phantom from back](../img/phantom_flying_back.jpg)
 
-But not only did we recreate the Phantom’s flight model, systems, avionics,
-radar, RWR and weapons delivery faithfully, we also tried to innovate our
-approach to flight simulation in general with the module, laying important
-groundwork for our future modules and as always trying to push the boundaries of
-flight simulation just a little bit further. From small **quality of life
-improvements** like being able to write on your canopy, to an **interactive crew
-chief**, our Phantom also utilizes our next-gen components based simulation framework - the
-aircraft is simulated as a connection of **thousands of individual components**.
-From an instrument needle to control surfaces, each component influences the
-state of the aircraft and even comes with its own **wear and tear**. From simulating
-accurate power draw from the power source to the smallest light bulb and all the
-nodes along the way, from hydraulic liquid which moves the hydraulics which in
-turn move the flight surfaces all the way to a mass physics based model - things
-now happen naturally, influenced by each other, and not _scripted_ anymore.
-Whether that means that unstable power draw may cause a lamp to flicker, or that
-you can deploy your landing gear in case of a failure using gravity, or that
-correct and incorrect use of the aircraft influences the wear and tear of each
-single component individually - we never before attempted a simulation as deep
-as with the F-4E Phantom II. The DCS: F-4 represents some of the most immersive
-**cold war fighter jet simulation** available!
+我们不仅忠实重现了“鬼怪”的飞行力学模型、系统、航电、雷达、RWR 和武器投放，还尝试通过该模组来创新，为我们未来的模组奠定重要的基础，并一如既往地尝试扩展飞行模拟的边界。
+从可以在座舱盖写字等**生活质量方面的小改进**，到**交互式机工长**，“鬼怪”还采用了我们新一代基于组件的模拟框架——飞机是由**数千个独立组件**连接而成的。
+从仪表指针到操纵面，每个组件都会影响飞机的状态，甚至会产生**磨损**。
+从模拟电源到最小灯泡以及沿途所有节点的精确电力消耗，从驱动液压系统的液压油，进而驱动飞行操纵面，一切基于质量物理的模型——一切都自然发生，相互影响，而不再是“脚本”。
+这意味着不稳定的电力消耗可能会导致灯泡闪烁，或者您可以利用重力在发生故障时放下起落架，或者飞机的正确和错误使用会影响每个单独组件的磨损程度——我们以前从未尝试过像 F-4E“鬼怪”II 这样深入的模拟。
+DCS：F-4 代表着目前最身临其境的 **冷战战斗机模拟** ！
 
 ![Pilot Cockpit Details](../img/simulation_depth_wide.jpg)
 
-Such innovation and in depth simulation will present an increased
-learning curve for users. This is why it was important for us to also
-innovate on the side of learning tools available to you, starting with this
-manual, so that our modules are accessible to the casual simmer and aficionado
-alike. You can **open the manual in flight**, and read along, but better still, you
-can click any switch (with an input combo) in flight and the manual will open in
-the correct chapter, **explaining the switch** or system in the cockpit, all while
-you are bolting through the air in your thunderous jet. We also changed the
-underlying structure of the manual to move to an **open source** model. This will allow the
-community to easily contribute via GitHub, as two heads (or thousands of them) think
-better than one. As an added benefit, readability for the mobile version will be greatly improved as
-well. We have hyperlinked many items for you, providing easy **navigation** between cockpit diagrams
-and system overviews. Also featured in the manual are numerous checklists and procedures, and a
-**"Lessons" section**, which is planned to be featured with the Early Access Release of the Phantom.
-The fully written out lessons will complement the flyable training missions. The training missions
-are now tailored to be learned together with the written lesson in the manual, you will
-be able to revert steps in the training mission, able to read along and pause
-(no more restarting for missed items). With all of these features at your disposal, you will be able
-to adequately prepare yourself for your training. And best of all, during your training you will be
-instructed by real life F-4 pilots and a real life F-4 WSO Instructor! Who else could teach you
-better?
+有了这样的创新和深度模拟，用户的学习曲线当然会增加。
+这就是为什么我们必须在学习工具方面进行创新，从本手册开始，使我们的模组既适合休闲玩家，也适合爱好者。
+玩家可以**在飞行中打开手册**进行阅读，但更好的是，玩家可以在飞行中点击任何开关（使用输入组合），手册就会在正确的章节中打开，**解释驾驶舱中的开关**或系统功能，而此时玩家正驾驶着雷鸣般的喷气式飞机在空中飞驰。
+我们还改变了手册的底层结构，使其可以**开源**，社区成员可以通过 Github 轻松地贡献自己的力量，因为千人千面总比一个人思考要好。
+这同时还提高了手册在移动设备中的可读性。
+我们为玩家们添加了许多项目的超链接，以方便**连接**驾驶舱和系统概述章节，手册还包括许多检查单和程序，在 EA 模组发布时还将添加 **“课程”部分**。
+在执行训练任务时将同时提供完整的书面课程。
+现在，训练任务将与手册中的书面课程整合在一起进行学习，玩家将能够在训练任务中返回某一步骤，能够阅读并暂停（不再为错过的项目重新开始），还能在执行任务前做好相应的准备。
+最重要的是，玩家的培训将由真F-4 飞行员和真F-4 WSO 教官进行指导，还有谁能比他教得更好呢？
 
-We hope you will enjoy both learning and flying the F-4E Phantom II - dive as
-deep as your heart desires. For this exciting journey we wish you **good luck and
-many fun adventures**, and of course: always check six!
+我们希望玩家们都能享受学习和驾驶 F-4E“鬼怪”II 的乐趣——随心所欲地深入飞行。
+在这段令人兴奋的旅程中，**祝玩家们好运，经历更多有趣的冒险**，当然，请务必检查六点方向！
 
-In the name of the entire Heatblur Team,\
+Heatblur 团队，\
 _Nicholas Dackard, Heatblur Simulations, CEO and Founder_
 
 ![Phantom flying](../img/phantom_flying_wide.jpg)
