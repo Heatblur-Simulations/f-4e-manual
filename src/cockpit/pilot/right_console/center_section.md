@@ -168,7 +168,7 @@ found under the canopy sill over each console, and also includes the Warning
 Light Test/Standby Compass Light switch.
 
 For further information about lighting see
-the [lighting chapter.](../../../systems/lighting.md#interior-lighting)
+the [lighting chapter](../../../systems/lighting.md#interior-lighting).
 
 ### White Floodlight
 

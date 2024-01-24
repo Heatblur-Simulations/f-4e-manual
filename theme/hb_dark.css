@@ -144,13 +144,6 @@
   color: #b294bb;
 }
 
-.hb_dark .hljs {
-  display: block;
-  overflow-x: auto;
-  background: #1d1f21;
-  color: #c5c8c6;
-}
-
 .hb_dark .coffeescript .javascript,
 .hb_dark .javascript .xml,
 .hb_dark .tex .hljs-formula,
