@@ -8344,6 +8344,40 @@ the laser for longer than 15 minutes without allowing for cooling between uses.
 Limit continued slow and low level flight while operating the pod to 30 minutes.
 For extreme outside temperatures, adjust the limits accordingly.</p>
 </blockquote>
+<h2 id="boresight-1"><a class="header" href="#boresight-1">Boresight</a></h2>
+<p>Normally the Pave Spike is correctly calibrated by the ground crew before
+getting into the plane, but it can drift due to combat damage or high G maneuvers in which case
+an in-flight recalibration by the WSO may be necessary.</p>
+<p>Therefore, the Target Designator Control panel provides three knobs to adjust the boresight position
+in all three axis (azimuth, elevation and roll) within 2.5 degrees in either direction.</p>
+<p><img src="systems/weapon_systems/pave_spike/../../../img/pave_spike_boresight_knobs.jpg" alt="Boresight Knobs" /></p>
+<p>Under perfect conditions, the pod is boresighted parallel to the aircraft datum line.
+However, due to lack of a calibration reference, the WSO can only achieve a rough alignment.</p>
+<p>As first step, the optical sight should be put into A/G mode and the reticle must be depressed by
+around 30 mils. At this setting, the correct boresight position intersects with the
+sight reticle at a distance of roughly 200000 ft to 600000 ft (200 to 600 indicated on the Range Display).</p>
+<p><img src="systems/weapon_systems/pave_spike/../../../img/pave_spike_boresight_settings.jpg" alt="Sight Settings" /></p>
+<p>Next, the aircraft has to be maneuvered to place and hold a distant object, such as a building,
+on the pipper of the optical sight.</p>
+<p><img src="systems/weapon_systems/pave_spike/../../../img/pave_spike_boresight_object.jpg" alt="Object on pipper" /></p>
+<p>As the pilot holds the object on the pipper, the WSO must put the pod into the 12-VIS acquisition mode,
+activate the narrow field of view and can adjust the azimuth and
+elevation to align the pod with the object.</p>
+<blockquote>
+<p>💡 Since the pod is loaded on the left station, the correct boresight position is offset a
+few feet to the left of the pipper.</p>
+</blockquote>
+<p><img src="systems/weapon_systems/pave_spike/../../../img/pave_spike_boresight_aligned.jpg" alt="Pod aligned on object" /></p>
+<p>Roll is very difficult to align in-flight; if possible, land first. Then, place
+the acquisition switch into 9-VIS and use the Roll Knob to align the pod roughly with the
+height of a person standing in the distance.</p>
+<p><img src="systems/weapon_systems/pave_spike/../../../img/pave_spike_boresight_roll_ground.jpg" alt="Roll aligned on tree" /></p>
+<p>Alternative, a rough roll alignment can be achieved in-flight by placing the acquisition switch
+into WRCS, integrating WRCS with the pod, and erasing any current target input. This way, the pod
+will automatically look straight down.</p>
+<p>The aircraft can now be flown directly above a landmark, such as a river and the Roll Knob can be used
+to align the line of sight with the landmark.</p>
+<p><img src="systems/weapon_systems/pave_spike/../../../img/pave_spike_boresight_river.jpg" alt="Roll aligned on river" /></p>
 <h2 id="bits"><a class="header" href="#bits">BITs</a></h2>
 <p>The pod has 5 built-in tests, with BIT 1 being the actual mode used during
 normal operation. They can be activated and switched through by clicking the BIT
@@ -8415,8 +8449,6 @@ movement speed from 15 dps to 60 dps.</p>
 <p>💡 At this speed, the targeting pod is capable of tracking a target during low
 altitude high speed flight, such as overflights at 1,000 ft with 500 knots.</p>
 </blockquote>
-<h2 id="checklists-1"><a class="header" href="#checklists-1">Checklists</a></h2>
-<p>For Checklists see the <a href="systems/weapon_systems/pave_spike/../../../procedures/pave_spike.html#turn-on">Pave Spike procedure chapter</a>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="defensive-systems"><a class="header" href="#defensive-systems">Defensive Systems</a></h1>
 <p>The F-4E features up
 to 4 AN/ALE-40 Countermeasure dispense Pods. The
@@ -10225,12 +10257,12 @@ spread of munitions has released.</p>
 rounds per minute. See the <a href="stores/guns.html#external-cannon-pods-suu-16a-and-suu-23a">gun section</a>
 for more.</p>
 <h2 id="anavq-23-pave-spike"><a class="header" href="#anavq-23-pave-spike">AN/AVQ-23 Pave Spike</a></h2>
-<p><img src="stores/../img/pave_spike_pod.jpg" alt="pave_spike_pod" /></p>
+<p><img src="stores/../img/ext_f4_pavespike.jpg" alt="pave_spike_pod" /></p>
 <p>The AN/AVQ-23 Pave Spike targeting pod, capable of spotting and tracking targets
 during daylight-conditions and using a laser to guide weapons on target. See the
 <a href="stores/../systems/weapon_systems/pave_spike/overview.html">systems section</a> for more.</p>
 <h2 id="alq-131-ecm-pod"><a class="header" href="#alq-131-ecm-pod">ALQ-131 ECM Pod</a></h2>
-<p><img src="stores/../img/ext_alq_131_ecm_pod.jpg" alt="ext_alq_131_ecm_pod" /></p>
+<p><img src="stores/../img/jammer_131.jpg" alt="ext_alq_131_ecm_pod" /></p>
 <p>Pod for electronic countermeasures, such as jamming radars and radar
 guided missiles. See the
 <a href="stores/../systems/defensive_systems/ecm.html">ECM section</a> for more.</p>
@@ -10281,6 +10313,7 @@ the coordinates of a new waypoint. For this, full keyboard control is allowed.</
 <p>💡 While focused on a text-field, input is disabled to DCS.</p>
 </blockquote>
 <p><img src="jester/../img/jester_wheel_text_entry.jpg" alt="Wheel Text-Entry" /></p>
+<p>To confirm and send the data, select the option (LAT/LONG in this case) again.</p>
 <h3 id="wheel-controls"><a class="header" href="#wheel-controls">Wheel Controls</a></h3>
 <p>The Jester Wheel can be opened or closed by pressing <kbd>A</kbd>.</p>
 <p>The entire UI is accessible via mouse by left-clicking options or clicking
