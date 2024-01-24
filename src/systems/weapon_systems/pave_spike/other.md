@@ -99,7 +99,7 @@ height of a person standing in the distance.
 
 ![Roll aligned on tree](../../../img/pave_spike_boresight_roll_ground.jpg)
 
-Alternative, a rough roll alignment can be achieved in-flight by placing the acquisition switch
+Alternatively, a rough roll alignment can be achieved in-flight by placing the acquisition switch
 into WRCS, integrating WRCS with the pod, and erasing any current target input. This way, the pod
 will automatically look straight down.
 
