@@ -30,10 +30,10 @@ requirements.
 Available TV guided bombs include:
 
 | Variant           | Warhead | Description                          |
-| ----------------- | ------: | ------------------------------------ |
+|-------------------|--------:|--------------------------------------|
 | AGM-62 Walleye I  | 1000 lb | data-link                            |
 | AGM-62 Walleye II | 2000 lb | data-link, improved seeker and range |
-| GBU-8 HOBOS       |  800 lb |                                      |
+| GBU-8 HOBOS       | 2000 lb |                                      |
 | GBU-15            | 2000 lb | extended range, data-link            |
 
 ## Employment
