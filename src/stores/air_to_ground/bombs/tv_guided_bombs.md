@@ -51,6 +51,12 @@ The camera sensor can not be moved. Place the crosshair in the general direction
 of the target area, or in case of launching in _"Lock-On Before Launch"_-mode,
 directly over the target. Press and hold down the trigger to command a lock.
 
+The seeker attempts to lock via contrast. If it fails to lock, the target likely does
+not stand out enough to its background.
+
+> 💡 Due to TV based contrast-locking, the weapons effectiveness may decrease
+> during dusk, dawn or in heavy overcast situations.
+
 ![HOBOS Release](../../../img/walleye_seeker_symbology.jpg)
 
 Once locked, a black square is added to the symbology, indicating the seeker
