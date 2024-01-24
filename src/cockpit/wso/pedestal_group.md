@@ -99,6 +99,9 @@ best calibrated in 9-VIS.
 > into the plane, but can drift due to combat damage or high G maneuvers in which case a recalibration
 > by the WSO is needed.
 
+See [3.11.5.6. Boresight Procedure](../../systems/weapon_systems/pave_spike/other.md#boresight)
+for details.
+
 ### Stow Button
 
 Alternating presses un-stows and stows the Pave Spike pod head. The head is
