@@ -11,20 +11,20 @@ The stick can be hidden by clicking on its base.
 
 ### Trim Hat
 
-A Trim Control is found on both sticks to provide force reduction and minor
+A Trim Control (1) is found on both sticks to provide force reduction and minor
 flight path correction in the pitch and roll axis.
 
 ### Trigger and Bomb Button
 
-Weapons are deliverable through both a 2-stage Trigger (for air-to-air missiles
-and the gun) and a Bomb Release Button.
+Weapons are deliverable through both a 2-stage Trigger (3) (for air-to-air missiles
+and the gun) and a Bomb Release Button (2).
 
 The first stage of the trigger activates the gun camera for recording forward
 footage.
 
 ### Nose Wheel Steering Button
 
-Both sticks carry a Nose Wheel Steering (NWS or also NGS) button that doubles as a radar
+Both sticks carry a Nose Wheel Steering (NWS or also NGS) button (4) that doubles as a radar
 auto-acquisition control for the radar in visual range combat, and sensor focus
 control for video-directed air to ground weapons.
 
@@ -34,6 +34,8 @@ rudder pedals. See
 for details.
 
 ### Emergency Quick Release Lever
+
+![wso_emergency_quick_release_lever](../../img/wso_emergency_quick_release_lever.jpg)
 
 An Emergency Quick Release lever on each stick is available to immediately
 deactivate the anti-skid system, the automatic

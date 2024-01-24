@@ -11,20 +11,20 @@ The stick can be hidden by clicking on its base.
 
 ### Trim Hat
 
-A Trim Control is found on both sticks to provide force reduction and minor
+A Trim Control (1) is found on both sticks to provide force reduction and minor
 flight path correction in the pitch and roll axis.
 
 ### Trigger and Bomb Button
 
-Weapons are deliverable through both a 2-stage Trigger (for air-to-air missiles
-and the gun) and a Bomb Release Button.
+Weapons are deliverable through both a 2-stage Trigger (3) (for air-to-air missiles
+and the gun) and a Bomb Release Button (2).
 
 The first stage of the trigger activates the gun camera for recording forward
 footage.
 
 ### Air Refueling Release Button
 
-Unique to the front cockpit control stick is the Air Refueling Release Button
+Unique to the front cockpit control stick is the Air Refueling Release Button (4)
 located on the left side of the stick. It is a dual-role control that performs
 the boom disconnect function its name implies, as well as a number of weapon
 selection functions.
@@ -34,7 +34,7 @@ details.
 
 ### Nose Wheel Steering Button
 
-Both sticks carry a Nose Wheel Steering (NWS or also NGS) button that doubles as a radar
+Both sticks carry a Nose Wheel Steering (NWS or also NGS) button (5) that doubles as a radar
 auto-acquisition control for the radar in visual range combat, and sensor focus
 control for video-directed air to ground weapons.
 
@@ -45,7 +45,7 @@ for details.
 
 ### Emergency Quick Release Lever
 
-An Emergency Quick Release lever on each stick is available to immediately
+An Emergency Quick Release lever (6) on each stick is available to immediately
 deactivate the anti-skid system, the automatic
 flight control system (AFCS), stability augmentation (STAB AUG) and the aileron-rudder
 interconnect (ARI).

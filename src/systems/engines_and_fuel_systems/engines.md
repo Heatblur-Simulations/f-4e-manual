@@ -213,9 +213,9 @@ the Engine Master Switches off, otherwise the valves will remain open.
 
 Paired throttles are provided in both cockpits for engine thrust control. In normal use, movement of
 the throttles from IDLE to OFF will perform fuel cutoff; to prevent inadvertent engine shutdown, a
-pair of finger lifts are provided to lock out the OFF position without performing this actuation.
-Afterburner is attained by shifting the throttles outboard (left) at the MIL stop, then pushing them
-forward.
+pair of finger lifts (3) are provided to lock out the OFF position without performing this
+actuation. Afterburner is attained by shifting the throttles outboard (left) at the MIL stop, then
+pushing them forward.
 
 The rear cockpit throttles are connected to the front throttles in such a fashion that only the
 pilot can start the engines or enter the afterburner range; the WSO can reduce throttles out

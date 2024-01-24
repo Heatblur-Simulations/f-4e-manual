@@ -4,7 +4,7 @@
 
 ![sai_panel](../../../img/pilot_sai_panel.jpg)
 
-The panel provides a circuit breaker and a knob to control the brightness for
+The panel provides a circuit breaker (1) and a knob (2) to control the brightness for
 the [Standby Attitude Indicator.](../../pilot/flight_director_group.md#standby-attitude-indicator)
 
 ## Eject Light/Switch
@@ -22,7 +22,7 @@ respective [Eject Light](../../../systems/emergency.md#eject-light) to warn the 
 
 ![FlapSlatPan](../../../img/pilot_slats_flaps_control_panel.jpg)
 
-A three position switch (NORM, OUT, OUT AND DOWN) to the rear of the panel
+A three position switch (1) (NORM, OUT, OUT AND DOWN) to the rear of the panel
 provides normal operation functions of
 the [Slats/Flaps System.](../../../systems/flight_controls_gear/flight_controls.md#slats-flap-system)
 These functions are relative
@@ -50,7 +50,7 @@ noted as follows:
 ### Emergency Slats/Flaps Handle
 
 Also included is
-the [Emergency Slats/Flaps Extension handle,](../../../systems/flight_controls_gear/flight_controls.md#slats-flap-system)
+the [Emergency Slats/Flaps Extension handle (2), ](../../../systems/flight_controls_gear/flight_controls.md#slats-flap-system)
 marked in yellow and black, at the top of the box. This handle is pulled to force high
 pressure air into the slats/flaps actuation system, causing them to deploy in
 event of control system failure.

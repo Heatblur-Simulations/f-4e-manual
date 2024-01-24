@@ -22,7 +22,7 @@ stick on the right console of the WSO cockpit can be used to operate the radar.
 | OPR  | System is fully operational.                                                                                                    |
 | EMER | Overrides the time delay, pressure, and temperature restrictions to allow radar operation.                                      |
 
-Initial powering of the APQ-120 starts by placing the Radar Power Knob into TEST
+Initial powering of the APQ-120 starts by placing the Radar Power Knob (1) into TEST
 or STBY (Standby). The warmup cycle requires 3 minutes from selecting either
 setting, and confirmation of this process is shown via the Control Monitor Meter
 on the Monitor Panel; after 30 seconds from cycling power, the gauge will
@@ -58,7 +58,7 @@ available for [Spotlight](operation.md#spotlight).
 ### Polarization Control
 
 The polarization of the radio frequency energy can be changed using the
-polarization control. In normal operation the LIN setting is used which produces
+polarization control (3). In normal operation the LIN setting is used which produces
 linearly polarized light in the vertical direction relative to the antenna, this
 minimizes ground returns as many types of ground clutter are less reflective to
 vertically polarized light. However because the antenna is not roll stabilized

@@ -31,9 +31,9 @@ only functions one time. Extend regardless of airspeed, however flaps will not f
 
 ### Aural Tone Volume
 
-Knob to control the volume for weapon tones, such as the Sidewinder seeker head.
+Knob (1) to control the volume for weapon tones, such as the Sidewinder seeker head.
 
 ### Pull Up Tone
 
-Switch to toggle the tone played by
+Switch (2) to toggle the tone played by
 the [Pull-Up system](../../../systems/weapon_systems/arbcs.md#arbcs-indicators).
