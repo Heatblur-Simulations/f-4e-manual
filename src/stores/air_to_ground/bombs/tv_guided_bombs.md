@@ -6,7 +6,7 @@ The F-4E Phantom II was equipped with TV-guided bombs, notably the GBU-8 and
 AGM-62 Walleye, enhancing its precision strike capabilities.
 
 The GBU-8, also known as the "HOBOS" (Homing Bomb System), its successor the
-GBU-15, and the AGM-62 I and II Walleye are both electro-optical, TV-guided
+GBU-15, and the AGM-62 I and II Walleye are electro-optical, TV-guided
 glide bombs. They are precision-guided munition equipped with a television
 camera in their nose.
 
