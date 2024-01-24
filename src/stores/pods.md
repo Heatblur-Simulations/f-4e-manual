@@ -10,7 +10,7 @@ for more.
 
 ## AN/AVQ-23 Pave Spike
 
-![pave_spike_pod](../img/pave_spike_pod.jpg)
+![pave_spike_pod](../img/ext_f4_pavespike.jpg)
 
 The AN/AVQ-23 Pave Spike targeting pod, capable of spotting and tracking targets
 during daylight-conditions and using a laser to guide weapons on target. See the
@@ -18,7 +18,7 @@ during daylight-conditions and using a laser to guide weapons on target. See the
 
 ## ALQ-131 ECM Pod
 
-![ext_alq_131_ecm_pod](../img/ext_alq_131_ecm_pod.jpg)
+![ext_alq_131_ecm_pod](../img/jammer_131.jpg)
 
 Pod for electronic countermeasures, such as jamming radars and radar
 guided missiles. See the

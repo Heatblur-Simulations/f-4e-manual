@@ -23,6 +23,8 @@ the coordinates of a new waypoint. For this, full keyboard control is allowed.
 
 ![Wheel Text-Entry](../img/jester_wheel_text_entry.jpg)
 
+To confirm and send the data, select the option (LAT/LONG in this case) again.
+
 ### Wheel Controls
 
 The Jester Wheel can be opened or closed by pressing <kbd>A</kbd>.

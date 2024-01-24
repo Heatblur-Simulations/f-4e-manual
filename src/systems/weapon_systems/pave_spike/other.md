@@ -59,6 +59,55 @@ flight, as well as continuous use of the laser.
 > Limit continued slow and low level flight while operating the pod to 30 minutes.
 > For extreme outside temperatures, adjust the limits accordingly.
 
+## Boresight
+
+Normally the Pave Spike is correctly calibrated by the ground crew before
+getting into the plane, but it can drift due to combat damage or high G maneuvers in which case
+an in-flight recalibration by the WSO may be necessary.
+
+Therefore, the Target Designator Control panel provides three knobs to adjust the boresight position
+in all three axis (azimuth, elevation and roll) within 2.5 degrees in either direction.
+
+![Boresight Knobs](../../../img/pave_spike_boresight_knobs.jpg)
+
+Under perfect conditions, the pod is boresighted parallel to the aircraft datum line.
+However, due to lack of a calibration reference, the WSO can only achieve a rough alignment.
+
+As first step, the optical sight should be put into A/G mode and the reticle must be depressed by
+around 30 mils. At this setting, the correct boresight position intersects with the
+sight reticle at a distance of roughly 200000 ft to 600000 ft (200 to 600 indicated on the Range Display).
+
+![Sight Settings](../../../img/pave_spike_boresight_settings.jpg)
+
+Next, the aircraft has to be maneuvered to place and hold a distant object, such as a building,
+on the pipper of the optical sight.
+
+![Object on pipper](../../../img/pave_spike_boresight_object.jpg)
+
+As the pilot holds the object on the pipper, the WSO must put the pod into the 12-VIS acquisition mode,
+activate the narrow field of view and can adjust the azimuth and
+elevation to align the pod with the object.
+
+> 💡 Since the pod is loaded on the left station, the correct boresight position is offset a
+> few feet to the left of the pipper.
+
+![Pod aligned on object](../../../img/pave_spike_boresight_aligned.jpg)
+
+Roll is very difficult to align in-flight; if possible, land first. Then, place
+the acquisition switch into 9-VIS and use the Roll Knob to align the pod roughly with the
+height of a person standing in the distance.
+
+![Roll aligned on tree](../../../img/pave_spike_boresight_roll_ground.jpg)
+
+Alternative, a rough roll alignment can be achieved in-flight by placing the acquisition switch
+into WRCS, integrating WRCS with the pod, and erasing any current target input. This way, the pod
+will automatically look straight down.
+
+The aircraft can now be flown directly above a landmark, such as a river and the Roll Knob can be used
+to align the line of sight with the landmark.
+
+![Roll aligned on river](../../../img/pave_spike_boresight_river.jpg)
+
 ## BITs
 
 The pod has 5 built-in tests, with BIT 1 being the actual mode used during
@@ -160,7 +209,3 @@ movement speed from 15 dps to 60 dps.
 
 > 💡 At this speed, the targeting pod is capable of tracking a target during low
 > altitude high speed flight, such as overflights at 1,000 ft with 500 knots.
-
-## Checklists
-
-For Checklists see the [Pave Spike procedure chapter](../../../procedures/pave_spike.md#turn-on).
