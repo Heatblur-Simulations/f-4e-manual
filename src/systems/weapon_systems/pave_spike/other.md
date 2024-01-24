@@ -75,7 +75,7 @@ However, due to lack of a calibration reference, the WSO can only achieve a roug
 
 As first step, the optical sight should be put into A/G mode and the reticle must be depressed by
 around 30 mils. At this setting, the correct boresight position intersects with the
-sight reticle at a distance of roughly 200000 ft to 600000 ft (200 to 600 indicated on the Range Display).
+sight reticle at a distance of roughly 20,000 ft to 60,000 ft (200 to 600 indicated on the Range Display).
 
 ![Sight Settings](../../../img/pave_spike_boresight_settings.jpg)
 
