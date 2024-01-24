@@ -23,15 +23,12 @@ Designations used:
 | 5.   | Radar power                       | OFF        |
 | 6.   | DSCG                              | OFF        |
 | 7.   | ECM equipment                     | OFF        |
-| 8.   | INS                               | OFF        |
-| 9.   | Navigational computer set control | SET        |
-|      | a. Mode selector knob             | AS DESIRED |
-|      | b. INS knob                       | SYS OFF    |
-| 10.  | Nuclear store consent switch      | SAFE       |
-| 11.  | Nav computer                      | OFF        |
-| 12.  | Battery bypass switch             | OFF        |
-| 13.  | Circuit breaker panels            | CHECK      |
-| 14.  | Publications and flight data      | CHECK      |
+| 8.   | INS Mode selector Switch          | OFF        |
+| 9.   | Nuclear store consent switch      | SAFE       |
+| 10.  | Nav computer                      | OFF        |
+| 11.  | Battery bypass switch             | OFF        |
+| 12.  | Circuit breaker panels            | CHECK      |
+| 13.  | Publications and flight data      | CHECK      |
 
 ### Interior Check (WSO)
 
