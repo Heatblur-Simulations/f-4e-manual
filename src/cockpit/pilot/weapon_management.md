@@ -191,7 +191,8 @@ The interval knob (1) provides release pulse sequences between 0.05 second and 1
 
 ### Interval Switch
 
-The INTRVL switch (2) provides the option of a 10x multiplier of the set value of the interval knob. In
+The INTRVL switch (2) provides the option of a 10x multiplier of the set value of the interval knob.
+In
 the NORM position, the interval knob value is the trigger timer.
 
 ### Quantity Knob
@@ -227,7 +228,8 @@ configured [4.2 air-to-air missiles chapter](../../stores/air_to_air/overview.md
 
 ### Radar Lights
 
-The RDR lights (2) illuminate once AIM-7 missiles are properly tuned with the fire control system; any
+The RDR lights (2) illuminate once AIM-7 missiles are properly tuned with the fire control system;
+any
 station that does not carry a Sparrow, does not correctly sync up during tuning, or is launched,
 will turn off.
 
@@ -236,7 +238,8 @@ stations 6 and 7 respectively.
 
 ### Heat Lights
 
-The HEAT lights (1) illuminate one at a time, rather than all up upon circuit configuration. The light
+The HEAT lights (1) illuminate one at a time, rather than all up upon circuit configuration. The
+light
 of the currently selected station will illuminate beginning at the raising of the gear handle, and
 remain in that position until the weapon is either cycled using the throttle's Gun/Missile Switch
 reject option, or is launched. The HEAT light arrangement corresponds with the [launch

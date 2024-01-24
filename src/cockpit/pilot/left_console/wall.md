@@ -50,7 +50,7 @@ noted as follows:
 ### Emergency Slats/Flaps Handle
 
 Also included is
-the [Emergency Slats/Flaps Extension handle (2), ](../../../systems/flight_controls_gear/flight_controls.md#slats-flap-system)
+the [Emergency Slats/Flaps Extension handle (2),](../../../systems/flight_controls_gear/flight_controls.md#slats-flap-system)
 marked in yellow and black, at the top of the box. This handle is pulled to force high
 pressure air into the slats/flaps actuation system, causing them to deploy in
 event of control system failure.
