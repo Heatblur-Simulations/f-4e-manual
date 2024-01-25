@@ -121,7 +121,7 @@ control system is capable of performing two modes of
 operation, **stability augmentation** and **AFCS**.
 
 > 💡 The term "AFCS" is the name of the whole system but also
-> its submode in which the aircraft attidute and/or heading
+> its sub-mode in which the aircraft attitude and/or heading
 > is held and altitude hold can be activated.
 
 **Stability augmentation** improves airplane stability in pitch, roll,
@@ -158,7 +158,7 @@ drops out and **attitude** hold is available. Heading hold
 can be re-established by once again pressing the nose
 gear steering button. If the airplane attitude is greater
 than ± 5° from wings level when the AFCS switch is
-engaged, then the airplane will mantain the bank attitude at
+engaged, then the airplane will maintain the bank attitude at
 the time of engagement.
 
 ### Force Transducer
