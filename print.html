@@ -13495,6 +13495,10 @@ menu:</p>
 
 Wheel.AddItem(waypoint_menu, {&quot;Navigation&quot;})
 </code></pre>
+<p>The info text of the menu can then be updated using</p>
+<pre><code class="language-lua">local current_waypoint = &quot;WP 2&quot;
+Wheel.SetMenuInfo(current_waypoint, {&quot;Navigation&quot;, &quot;Select Waypoint&quot;})
+</code></pre>
 <p>To react to a selected action, listen to the corresponding event:</p>
 <pre><code class="language-lua">ListenTo(&quot;select_tgt_1&quot;, function()
   -- Component interface
