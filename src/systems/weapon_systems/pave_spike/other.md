@@ -49,7 +49,7 @@ it irreparably.
 A broken pod is generally indicated by the MALF lamp going on and the display
 being all black.
 
-![pave_spike_melted](../../../img/pave_spike_melted.jpg)
+![pave_spike_melted](../../../img/wso_target_designator_broken_pod.jpg)
 
 To prolong use of the pod and prevent overheating, limit slow and low-level
 flight, as well as continuous use of the laser.
@@ -68,7 +68,7 @@ an in-flight recalibration by the WSO may be necessary.
 Therefore, the Target Designator Control panel provides three knobs to adjust the boresight position
 in all three axis (azimuth, elevation and roll) within 2.5 degrees in either direction.
 
-![Boresight Knobs](../../../img/pave_spike_boresight_knobs.jpg)
+![Boresight Knobs](../../../img/wso_target_designator_boresight_knobs.jpg)
 
 Under perfect conditions, the pod is boresighted parallel to the aircraft datum line.
 However, due to lack of a calibration reference, the WSO can only achieve a rough alignment.
@@ -77,8 +77,7 @@ As first step, the optical sight should be put into A/G mode and the reticle mus
 around 30 mils. At this setting, the correct boresight position intersects with the
 sight reticle at a distance of roughly 20,000 ft to 60,000 ft (200 to 600 indicated on the Range Display).
 
-![Sight Settings](../../../img/pave_spike_boresight_settings.jpg)
-
+![Sight Settings](../../../img/pilot_air_to_ground_30_mil_setting.jpg)
 Next, the aircraft has to be maneuvered to place and hold a distant object, such as a building,
 on the pipper of the optical sight.
 
@@ -125,7 +124,7 @@ illuminated.
 All lights on the Target Designator Set Control illuminate with full brightness.
 The pod does not need to be powered up for this test.
 
-![pave_spike_self_test](../../../img/pave_spike_self_test.jpg)
+![pave_spike_self_test](../../../img/wso_target_designator_bit_0.jpg)
 
 GO/MALF do not indicate test results in this mode.
 
@@ -170,10 +169,10 @@ When the laser fires, a 5 second test program starts, with the sensor measuring
 the laser energy. After the 5 second test, either GO or MALF illuminate to
 indicate whether the energy level was above the required minimum.
 
-To pilot can assist in telling the WSO that the test position has been reached,
-as indicated by the Azimuth-Elevation Indicator.
+![pave_spike_bit_3_az_el](../../../img/pilot_los_bit_3.jpg)
 
-![pave_spike_bit_3_az_el](../../../img/pave_spike_bit_3_az_el.jpg)
+The pilot can assist in telling the WSO that the test position has been reached,
+as indicated by the Azimuth-Elevation Indicator (1 and 2).
 
 ### Bit 4
 
@@ -181,7 +180,7 @@ The system tests the ranging computation by feeding a simulated laser slant
 range of 2100 ft (±200). The pilot can confirm this using the Range Indicator
 readout.
 
-![pave_spike_bit_4_range](../../../img/pave_spike_bit_4_range.jpg)
+![pave_spike_bit_4_range](../../../img/pilot_range_indicator_bit_4.jpg)
 
 After about 8 to 14 seconds, the test is finished and either GO or MALF is lit.
 

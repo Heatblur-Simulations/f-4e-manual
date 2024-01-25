@@ -107,7 +107,7 @@ further information.
 
 ### AFCS Mode Switch
 
-Enables [AFCS](../../../systems/flight_controls_gear/flight_controls.md#auotmatic-flight-control-system-afcs)
+The two position switch (2) enables [AFCS](../../../systems/flight_controls_gear/flight_controls.md#auotmatic-flight-control-system-afcs)
 mode, which can maintain and hold maneuvers and attitudes at up to ±70 degrees of pitch, 70
 degrees of bank, and in all 360 degrees of azimuth. If engaged when the airplane is less than ± 5°
 from wings level, then the the airplane will maintain a **wings level attitude**,
@@ -116,6 +116,6 @@ a rapid control input.
 
 ### Altitude Hold Switch
 
-Activates the altitude hold function of
+The two position switch (3) activates the altitude hold function of
 the [AFCS](../../../systems/flight_controls_gear/flight_controls.md#auotmatic-flight-control-system-afcs)
 which will maintain current baromertic altitude.

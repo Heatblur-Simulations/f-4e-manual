@@ -51,7 +51,7 @@ time to release from maximally 15 seconds.
 The cues also indicate various situations related to laser operation.
 
 | Indication    | T0                                    | TTG                                     |
-| ------------- | ------------------------------------- | --------------------------------------- |
+|---------------|---------------------------------------|-----------------------------------------|
 | not shown     | not in TRACK mode                     | not in TRACK mode                       |
 | steady        | commanded to fire laser (full action) | firing laser, accepted range            |
 | flashing fast | not commanded to fire laser           | not firing laser or target too far away |
@@ -72,8 +72,13 @@ consists of:
 
 While the display is shown on the DSCG screens in both cockpits.
 
-![Pilot System Overview](../../../img/eotgt_pilot_overview.jpg)
-![WSO System Overview](../../../img/eotgt_wso_overview.jpg)
+![Pilot System Overview](../../../img/pilot_pave_spike_overview.jpg)
+_(1) Range Indicator, (2) Brightness Control knobs, (3) DSCG Display, (4) Azimuth-Elevation (LOS)
+Indicator, (5) Weapon select knob_
+
+![WSO System Overview](../../../img/wso_pave_spike_overview.jpg)
+_(1) Video Select button, (2) DSCG Display, (3) DSCG Control knobs, (4) Target Designator
+Controls, (5) Laser Code Designator, (6) Antenna Hand Control_
 
 ### Azimuth-Elevation Indicator
 
