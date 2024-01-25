@@ -113,6 +113,9 @@ changed from in the cockpit.
 The Aux Volume Control knob (1) on the lower right of the panel
 raises and lowers the volume of the Aux receiver channel (12 and 13).
 
+The Set button (14) can be used to save the channel frequency that is currently selected by the
+Frequency knobs. The frequency will be saved as the currently selected channel.
+
 ### Tone Button
 
 The Tone Pushbutton (3) is used for transmission of a Time of Day (TOD) signal along with a tone
