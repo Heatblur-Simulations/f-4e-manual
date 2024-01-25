@@ -1,14 +1,10 @@
-# Cockpit Overview
+# 驾驶舱总览
 
 ![ext_cockpit](../img/ext_f4_cockpit_overview.jpg)
 
-Greetings, _phaboulus_ Crewmen! Get ready for an in-depth look into the cockpit
-of the F-4E Phantom II by Heatblur.
+你好，各位 _赛博_ 机组！准备好深入了解由 Heatblur 制作的 F-4E “鬼怪” II 驾驶舱。
 
-The following chapter gives a detailed overview of the Pilots cockpit, as well
-as the Weapons Systems Officer (WSO) Pit. Each single switch will be outlined
-and explained briefly, while and given context.
+以下章节详细介绍了飞行员驾驶舱以及武器系统官（WSO）驾驶舱。在章节中，我们将对每一个开关进行简要概述和解释，同时提供相关背景资料。
 
-More in-depth details on the various systems and consequences of using a switch
-beyond their brief explanation are available in the
-[3. Systems Overview Chapter](../systems/overview.md).
+有关各种系统和使用开关的结果的更多详细信息请查看
+[3. 系统总览章节](../systems/overview.md).
