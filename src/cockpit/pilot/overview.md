@@ -1,25 +1,21 @@
-# Pilot Cockpit Overview
+# 飞行员驾驶舱总览
 
-The pilot cockpit is divided into a front section, containing all instruments
-and weapon controls, as well as the radar screen; the left console area with
-engine, control surfaces and navigation related settings; the pedestal group
-holding auxiliary information; and the right console area with communication and
-lighting controls.
+驾驶员座舱分为前部（包含所有仪表和武器控制开关/按钮以及雷达屏幕）、左侧控制台区域（包含发动机、操纵面和导航相关设置）、底座组（包含辅助信息）和右侧控制台区域（包含通信和照明控制开关/按钮）。
 
-## Layout
+## 布局
 
-![pilot_overview](../../img/pilot_overview_coloured.jpg)
+![飞行员总览](../../img/pilot_overview_coloured.jpg)
 
-| Section | Name                                              |
+| 部分   | 名称                                              |
 | ------: |---------------------------------------------------|
-|      1. | [DSCG Controls](dscg_controls.md)                 |
-|      2. | [Overhead Indicators](overhead_indicators.md)     |
-|      3. | [Weapon Management](weapon_management.md)         |
-|      4. | [Flight Director Group](flight_director_group.md) |
-|      5. | [Right Main Panel](right_main_panel.md)           |
-|      6. | [Left Sub-Panel](left_sub_panel.md)               |
-|      7. | [Left Console](left_console/overview.md)          |
-|      8. | [Pedestal Group](pedestal_group.md)               |
-|      9. | [Right Sub-Panel](right_sub_panel.md)             |
-|     10. | [Right Console](right_console/overview.md)        |
-|     11. | [Stick and Seat](stick_seat.md)                   |
+|      1. | [DSCG 开关/按钮](dscg_controls.md)                 |
+|      2. | [抬头指示器](overhead_indicators.md)     |
+|      3. | [武器管理](weapon_management.md)         |
+|      4. | [飞行指引指示器组](flight_director_group.md) |
+|      5. | [右侧主面板](right_main_panel.md)           |
+|      6. | [左侧子面板](left_sub_panel.md)               |
+|      7. | [左侧控制台](left_console/overview.md)          |
+|      8. | [底座组](pedestal_group.md)               |
+|      9. | [右侧子面板](right_sub_panel.md)             |
+|     10. | [右侧控制台](right_console/overview.md)        |
+|     11. | [驾驶杆和座椅](stick_seat.md)                   |
