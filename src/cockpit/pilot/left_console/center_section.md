@@ -106,13 +106,14 @@ further information.
 ### AFCS Mode Switch
 
 Enables [AFCS](../../../systems/flight_controls_gear/flight_controls.md#auotmatic-flight-control-system-afcs)
-flight mode, which can maintain and hold maneuvers and attitudes at up to ±70 degrees of pitch, 70
-degrees of bank, and in all 360 degrees of azimuth. Deactivated by selecting the switch aft, or with
+mode, which can maintain and hold maneuvers and attitudes at up to ±70 degrees of pitch, 70
+degrees of bank, and in all 360 degrees of azimuth. If engaged when the airplane is less than ± 5°
+from wings level, then the the airplane will maintain a **wings level attitude**,
+and will hold the engaged **heading**. Deactivated by selecting the switch aft, or with
 a rapid control input.
 
 ### Altitude Hold Switch
 
-Selecting ENGAGE activates the altitude hold function of
-the [AFCS.](../../../systems/flight_controls_gear/flight_controls.md#auotmatic-flight-control-system-afcs)
-When entered a pitch and bank level condition, will maintain altitude (ASL) stabilized
-flight at the current heading.
+Activates the altitude hold function of
+the [AFCS](../../../systems/flight_controls_gear/flight_controls.md#auotmatic-flight-control-system-afcs)
+which will maintain current baromertic altitude.
