@@ -21,7 +21,7 @@ reduced below a threshold or all rounds have been fired.
 > 💡 The venting process takes around 30 seconds to 2 minutes, depending on
 > the burst duration.
 
-> 🔴 Do not spool up the engines as long as ground personnel is working on
+> 🔴 WARNING: Do not spool up the engines as long as ground personnel is working on
 > the door. It will forcefully close automatically as soon as hydraulic pressure is obtained.
 
 ![ext_gun_door_open](../img/ext_gun_door_open.jpg)
