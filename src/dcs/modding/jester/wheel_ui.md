@@ -67,6 +67,13 @@ local waypoint_menu = Wheel.Item:new({
 Wheel.AddItem(waypoint_menu, {"Navigation"})
 ```
 
+The info text of the menu can then be updated using
+
+```lua
+local current_waypoint = "WP 2"
+Wheel.SetMenuInfo(current_waypoint, {"Navigation", "Select Waypoint"})
+```
+
 To react to a selected action, listen to the corresponding event:
 
 ```lua
