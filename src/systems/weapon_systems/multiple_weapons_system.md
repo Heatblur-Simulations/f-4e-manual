@@ -80,16 +80,16 @@ The values, clockwise from the left, are as follows:
 
 The Weapon Selector Knob is used to designate the type of weapon to be used
 
-| Name        | Description                                                                                     |
-|-------------|-------------------------------------------------------------------------------------------------|
-| RKTS & DISP | [Rockets](../../stores/air_to_ground/rockets.md) and dispensers. Arms AWRU release circuitry.   |
-| ARM         | [AGM-45 Shrike](../../stores/air_to_ground/missiles/shrike.md)                                  |
-| TV          | [AGM-65 Maverick](../../stores/air_to_ground/missiles/maverick.md) and other EO guided weapons. |
-| C           | Open/unused. May be utilized as an OFF selection.                                               |
-| B           | Same function as AIR-TO-AIR button in rear cockpit.                                             |
-| A           | Munitions with internally-set intervalometers (CBUs or spray containers).                       |
-| AGM 12      | [AGM-12 Bullpup](../../stores/air_to_ground/missiles/bullpup.md).                               |
-| BOMBS       | [Bombs](../../stores/air_to_ground/bombs/conventional_bombs.md). Arms AWRU release circuitry.   |
+| Name        | Description                                                                                                 |
+| ----------- | ----------------------------------------------------------------------------------------------------------- |
+| RKTS & DISP | [Rockets](../../stores/air_to_ground/rockets.md) and dispensers. Arms AWRU release circuitry.               |
+| ARM         | [AGM-45 Shrike](../../stores/air_to_ground/missiles/shrike.md)                                              |
+| TV          | [AGM-65 Maverick](../../stores/air_to_ground/missiles/maverick.md) and other EO guided weapons.             |
+| C           | Open/unused. May be utilized as an OFF selection.                                                           |
+| B           | Same function as [AIR-TO-AIR button](../../cockpit/wso/left_sub_panel.md#air-to-air-light) in rear cockpit. |
+| A           | Munitions with internally-set intervalometers (CBUs or spray containers).                                   |
+| AGM 12      | [AGM-12 Bullpup](../../stores/air_to_ground/missiles/bullpup.md).                                           |
+| BOMBS       | [Bombs](../../stores/air_to_ground/bombs/conventional_bombs.md). Arms AWRU release circuitry.               |
 
 ## Centerline Tank Aboard Light
 
