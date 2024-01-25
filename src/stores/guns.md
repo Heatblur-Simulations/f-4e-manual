@@ -13,6 +13,21 @@ from 4000 to 6000 rounds per minute, delivering a muzzle velocity in excess of
 options available. Useful in both air-to-air and air to ground roles, the Vulcan
 was used for four confirmed kills by the USAF over Vietnam with the F-4E.
 
+Accumulated gas is vented through the Gun Purge Door on the nose of the aircraft.
+The door is held closed by hydraulic pressure and will automatically open
+to release the gas from firing the gun. It closes after the gas pressure has
+reduced below a threshold or all rounds have been fired.
+
+> 💡 The venting process takes around 30 seconds to 2 minutes, depending on
+> the burst duration.
+
+> 🔴 Do not spool up the engines as long as ground personnel is working on
+> the door. It will forcefully close automatically as soon as hydraulic pressure is obtained.
+
+![ext_gun_door_open](../img/ext_gun_door_open.jpg)
+
+### Employment
+
 To utilize the M61,
 the [GUN station select switch](../cockpit/pilot/weapon_management.md#station-select-buttons)
 must be selected, the [Master Arm](../cockpit/pilot/weapon_management.md#master-arm-switch)
@@ -58,8 +73,6 @@ carries the Auto Clear switch, this switch does not have any control over the
 internal M61A1 cannon, and can only deactivate round clearance for podded
 external cannon installations.
 
-![ext_gun_door_open](../img/ext_f4_gun.jpg)
-
 ## External Cannon Pods SUU-16/A and SUU-23/A
 
 ![SUU pods](../img/suupods.jpg)
@@ -85,6 +98,8 @@ knots. Both pods have an auto-clear function for safety, which cause rounds
 loaded in the breeches to be released back into the ammo bin, which does entail
 a momentary delay of one to two seconds prior to being able to fire the pod
 again.
+
+### External Employment
 
 Activation of the SUU pods are performed by selecting their respective [Station
 Select buttons](../cockpit/pilot/weapon_management.md#station-select-buttons),
