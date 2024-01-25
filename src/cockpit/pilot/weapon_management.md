@@ -3,7 +3,12 @@
 ![MwsGroup](../../img/pilot_weapon_management.jpg)
 
 This group on the left area of the main panel provides all weapon related settings, such as arming
-missiles or selecting the bomb delivery mode.
+missiles or selecting the bomb delivery mode. It features a true airspeed indicator (1), a Head Up
+Display Indicator (2), a flight instrument brightness knob (3), the nose/tail arming switch (5), the
+station select buttons (6), the radar altitude altimeter (4), the master arm switch (7), the
+delivery mode knob (8), the weapon selector knob (9), the missile status lights (10), the radar
+missile power switch (11), the centerline tank aboard light (12), the interlock switch (13), the
+selective jettison control (17) and the AWRU controls (14,15 and 16).
 
 ## Range Indicator
 
@@ -182,16 +187,17 @@ see [3.11.2 Aircraft Weapons release unit (AWRU).](../../systems/weapon_systems/
 
 ### Interval Knob
 
-The interval knob provides release pulse sequences between 0.05 second and 1 second.
+The interval knob (1) provides release pulse sequences between 0.05 second and 1 second.
 
 ### Interval Switch
 
-The INTRVL switch provides the option of a 10x multiplier of the set value of the interval knob. In
+The INTRVL switch (2) provides the option of a 10x multiplier of the set value of the interval knob.
+In
 the NORM position, the interval knob value is the trigger timer.
 
 ### Quantity Knob
 
-Controls how many stores are released per impulse.
+The quantity knob (3) controls how many stores are released per impulse.
 
 Selecting "1" places the AWRU into single manual bombing mode; one push of the bomb release button
 releases one bomb.
@@ -222,7 +228,8 @@ configured [4.2 air-to-air missiles chapter](../../stores/air_to_air/overview.md
 
 ### Radar Lights
 
-The RDR lights illuminate once AIM-7 missiles are properly tuned with the fire control system; any
+The RDR lights (2) illuminate once AIM-7 missiles are properly tuned with the fire control system;
+any
 station that does not carry a Sparrow, does not correctly sync up during tuning, or is launched,
 will turn off.
 
@@ -231,7 +238,8 @@ stations 6 and 7 respectively.
 
 ### Heat Lights
 
-The HEAT lights illuminate one at a time, rather than all up upon circuit configuration. The light
+The HEAT lights (1) illuminate one at a time, rather than all up upon circuit configuration. The
+light
 of the currently selected station will illuminate beginning at the raising of the gear handle, and
 remain in that position until the weapon is either cycled using the throttle's Gun/Missile Switch
 reject option, or is launched. The HEAT light arrangement corresponds with the [launch

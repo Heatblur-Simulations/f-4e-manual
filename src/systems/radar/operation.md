@@ -219,9 +219,9 @@ desired range for lock-on.
 ![radar_screen](../../img/radar_acq.jpg)
 
 | Item | Name               | Description                                                                                                                                                                                               |
-| ---- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|------| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | a    | B-Sweep            | The B-Sweep displays the current radar echos along the azimuth of the antenna, these are displayed in both acquisition and track.                                                                         |
-| c    | Acquisition Symbol | Like the Radar Cursor the acquisition symbol shows the current selected azimuth and range. It is moved with the antenna hand control. It is also displayed in track to indicate target range and azimuth. |
+| b    | Acquisition Symbol | Like the Radar Cursor the acquisition symbol shows the current selected azimuth and range. It is moved with the antenna hand control. It is also displayed in track to indicate target range and azimuth. |
 | c    | Target Echo        | Target Return Displayed Along the Azimuth                                                                                                                                                                 |
 
 ### Track

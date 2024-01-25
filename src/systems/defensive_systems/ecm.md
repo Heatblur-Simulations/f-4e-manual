@@ -30,13 +30,13 @@ the WSO via controls on the right sub-panel.
 The controls are duplicated for any pod carried on the left stations (4 or 2)
 and for the right stations (6 and 8) respectively.
 
-Interpretation of the modes, techniques and exact operation of the lights
+Interpretation of the modes, techniques and exact operation of the lights (3)
 depend on the loaded jammer model.
 
 Generally, the jammers differentiate between two modes or techniques that can be used.
 Both of which usually have a warmup phase indicated by the Standby Lights on the panel.
 
-The knob can be used to place either technique in Standby or, once ready,
+The knob (1 and 4) can be used to place either technique in Standby or, once ready,
 activate transmission (XMIT 1, XMIT 2, BOTH).
 
 Some jammers models can also detect that they are actively jamming an enemy radar,
@@ -49,11 +49,11 @@ indicated by the AI light.
 
 ![ecm](../../img/wso_ecm_reset_button.jpg)
 
-The reset lamp, if lit, indicates a fault in the jammer system.
+The reset lamp (3 lowest red one), if lit, indicates a fault in the jammer system.
 Flashing indicates an overheating condition, in which case the pod
 should be turned off to prevent damage.
 
-In case of a fault, the reset button can be pressed to reset the
+In case of a fault, the reset button (2) can be pressed to reset the
 jammer system (similar to turning it OFF and back ON), in which case it will
 run through the warmup period again. If the fault could be cleared, the light will go off.
 

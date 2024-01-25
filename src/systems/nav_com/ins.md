@@ -76,7 +76,7 @@ note gross deviation from known location fixes.
 
 ### Indications
 
-The INS panel features two indicator lights: HEAT and ALIGN.
+The INS panel features two indicator lights: HEAT (4) and ALIGN (2).
 
 The HEAT light is active
 in any alignment mode (including Coarse Alignment in the STBY mode), signifying that
@@ -102,7 +102,7 @@ and the aircraft flown with the above caveat.
 ### Heading Memory Alignment
 
 This option becomes accessible if the alignment has been previously stored and
-the aircraft has remained stationary. To access it, select HDG MEM located
+the aircraft has remained stationary. To access it, select HDG MEM (1) located
 beneath the red guard on the control panel before transitioning the INS knob
 from OFF to ALIGN. This alignment method minimizes the alignment time, offering
 a relative Circular Error Probability (CEP) at the optimal end of BATH (5.5
@@ -123,7 +123,7 @@ gyroscopes (which goes through the illumination/off cycle as above).
 Maximum system precision is found by allowing the INS to perform a full
 Gyro-compassing alignment. This method permits the gyros to find the most
 accurate true north reference possible, but can entail substantial amounts of
-time- and even greater time based on inaccurate or missing magnetic variation
+time - and even greater time based on inaccurate or missing magnetic variation
 setting entry prior to powering the INS on. As an example - for a one degree
 compass heading error, the time to achieve maximum accuracy on the system is
 approximately five minutes, which attains an accuracy of ±10 minutes of arc
@@ -188,11 +188,11 @@ held in memory), and this information is shown on the BDHI and ADI in real time.
 on the BDHI, the Navigation Selection Switch must be positioned in NAV COMP.
 
 The computer also provides confirmation of current LN-12 precision, using a pair
-of lights marked LAT and LONG, as well as the Variation Sync Meter. When these
+of lights (6) marked LAT and LONG, as well as the Variation Sync Meter (5). When these
 lamps are off, the current displayed position coordinates are within 1 1/2 arc
 minutes precision. Magnetic variation detected by way of the INS gyroscopes is
 compared against the manual performed prior to INS power-up via the Magnetic
-Variation Control knob, and displayed on the Variation Sync Meter. This
+Variation Control knob, and displayed on the Variation Sync Meter (5). This
 deviation can be corrected on the Magnetic Variation Control Knob to bring the
 sync to center. Although the magnetic variation control knob has no effect on
 the meter in air data mode, positive correction prior to INS loss increases the
@@ -218,7 +218,7 @@ that time.
 ### Waypoint Entry
 
 Entering waypoints and target information is performed using the Function
-Selector Knob and the two Target Control Knobs, one for latitude, and the other
+Selector Knob and the two Target Control Knobs (10), one for latitude, and the other
 longitude.
 
 | Name     | Description                                                                                               |
@@ -253,7 +253,7 @@ The other common technique was "leapfrogging":
    the Target Control Values.
 
 4. Upon flyover of waypoint 2, the Function Knob would be positioned to RESET,
-   then back to Target 2- now pulling the waypoint 3 values from the Target
+   then back to Target 2 - now pulling the waypoint 3 values from the Target
    Control values.
 
 This process would be continued over the course of the flight, and allow the
@@ -288,7 +288,7 @@ at a known fix location.
    allowing it to fall back into NORMAL.
 
 The correction rate of the Nav Computer is roughly 3 minutes latitude or
-longitude per second, and the Update Switch must be held in FIX long enough to
+longitude per second, and the Update Switch (7) must be held in FIX long enough to
 account for the largest value. As an example, if the deviation is 9 minutes in
 latitude and 4 in longitude, the FIX position must be held at least 3 seconds
 prior to the aircraft directly passing the fix location. Further, the switch

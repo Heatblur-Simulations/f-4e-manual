@@ -50,13 +50,13 @@ Depending on the specific setup at an airport, there can be:
 ![pilot_vor_ils_panel](../../img/pilot_vor_ils_panel.jpg)
 
 The control panel for the VOR/ILS is found on the front cockpit left console;
-the panel includes a frequency indicator, two frequency select knobs, a volume
-control (marked NAV VOL), a marker beacon volume control knob (MB VOL), and a
-VOL/MRK TEST pushbutton.
+the panel includes a frequency indicator, two frequency select knobs (2), a volume
+control (marked NAV VOL) (1), a marker beacon volume control knob (MB VOL) (3), and a
+VOL/MRK TEST pushbutton (4).
 
 ### VOR/ILS Frequency Selector Knobs
 
-The Frequency Selector Knobs is a dual actuation concentric knob; the outer ring
+The Frequency Selector Knob (2) is a dual actuation concentric knob; the outer ring
 selects the number to the left of the decimal point on the frequency indicator,
 whereas the inner knob selects numbers to the right.
 
@@ -90,7 +90,7 @@ of 75 MHz.
 ### VOR/MKR Test Pushbutton
 
 After an ILS frequency has been selected on the frequency indicator, pressing the VOR/MKR Test
-pushbutton causes the marker beacon lights to illuminate. If a VOR Frequency is selected, a valid
+pushbutton (4) causes the marker beacon lights to illuminate. If a VOR Frequency is selected, a valid
 VOR Signal is present, a course of 315° selected on the HSI course selector and the HSI mode is in
 VOR/ILS a test can be initiated. Pressing the test pushbutton causes the course deviation indicator
 on the HSI to move to center (with a maximum allowable error of ±4°) ,the "to-from" indicator on
@@ -99,9 +99,9 @@ and BDHI to swing to 315°.
 
 ### NAV VOL Knob and MB VOL Knob
 
-The NAV VOL knob both activates the VOL/ILS system, as well as controls the
+The NAV VOL knob (1) both activates the VOR/ILS system, as well as controls the
 audible volume for the front cockpit. The knob is turned clockwise to power the
-system on, then further to increase the volume. The MB VOL knob adjusts the
+system on, then further to increase the volume. The MB VOL knob (3) adjusts the
 volume of the marker beacon audio in the front cockpit.
 
 ## WSO Course Indicator

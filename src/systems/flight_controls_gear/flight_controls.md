@@ -10,20 +10,20 @@ rudder, the aileron-spoiler seen on top of the right wing in the picture and rea
 ![FlightStick](../../img/pilot_stick.jpg)
 
 A control stick is provided in both cockpits, with near-uniform switchology
-between the two. A Trim Control is found on both sticks to provide force
+between the two. A Trim Control (1) is found on both sticks to provide force
 reduction and minor flight path correction in the pitch and roll axis. Weapons
-are deliverable through both a Trigger
+are deliverable through both a Trigger (3)
 (for [air-to-air missiles](../../stores/air_to_air/overview.md) and the [gun](../../stores/guns.md))
-and a Bomb Release Switch. Both sticks carry
-a [Nose Wheel Steering button](gear_ground_handling.md#nose-gear-steering) that
+and a Bomb Release Switch (2). Both sticks carry
+a [Nose Wheel Steering button (5)](gear_ground_handling.md#nose-gear-steering) that
 doubles as a [radar](../radar/overview.md) auto-acquisition control for the radar in visual
 range combat, and sensor focus control for
 video-directed [air to ground weapons](../../stores/air_to_ground/overview.md). An
-[Emergency Quick Release lever](gear_ground_handling.md#emergency-anti-skid-quick-release-lever) on
-each stick is available to immediately deactivate the anti-skid system, the automatic
+[Emergency Quick Release lever (6)](gear_ground_handling.md#emergency-anti-skid-quick-release-lever)
+on each stick is available to immediately deactivate the anti-skid system, the automatic
 flight control system, stability augmentation and the aileron-rudder
 interconnect. Unique to the front cockpit control stick is
-the [Air Refueling Release Button](../utility.md#air-refueling-release-button) - a dual-role
+the [Air Refueling Release Button (4)](../utility.md#air-refueling-release-button) - a dual-role
 control that performs the boom disconnect function its name implies, as well as
 a number of weapon selection functions.
 
@@ -51,7 +51,7 @@ the [front cockpit left vertical panel](../../cockpit/pilot/left_sub_panel.md#st
 
 ## Rudder Control System
 
-![ext_rudder](../../img/ext_flight_controls_rudder.jpg)
+![ext_rudder](../../img/ext_f4_rudder.jpg)
 
 Yaw axis control is directed by the rudder pedals found in both cockpits. To
 offset any relative skidding due to wind effect, stores imbalance, or minor
@@ -136,10 +136,10 @@ The **AFCS mode** of operation maintains any
 aircraft heading and/or attitude selected within the AFCS
 limits and corrects for any deviation from the selected
 heading or attitude of the aircraft within the AFCS limits.
-The AFCS switch can be engaged with only
+The AFCS switch (2) can be engaged with only
 the Pitch STAB AUG switch engaged; however, to provide full
 AFCS operation, all three STAB AUG switches must be
-engaged. The **Altitude Hold Mode** of operation holds any altitude
+engaged. The **Altitude Hold Mode** of operation (3) holds any altitude
 selected while in the **AFCS mode**.
 
 The AFCS system can be engaged and hold maneuvers and

@@ -35,7 +35,7 @@ one below each of the engine intakes.
 
 A red anti-collision light is found on the vertical stabilizer.
 
-These are all controlled by the three position FUS switch, which can be set to
+These are all controlled by the three position FUS switch (1), which can be set to
 OFF, DIM, and BRT. The red light on the stabilizer only illuminates when this
 switch is selected to BRT. The fuselage lights only function with the Flasher
 Switch in STEADY or FLASH, and cycle when in the latter setting.
@@ -82,7 +82,7 @@ and also a battery-powered white floodlight.
 
 #### White Floodlight
 
-The White Floodlight switch acts independent of all other controls on the panel,
+The White Floodlight switch (1 Pilot, 4 WSO) acts independent of all other controls on the panel,
 and is either ON or OFF. It activates a separate emergency floodlight (also
 called _Thunderstorm Light_) that illuminates the cockpit in white. The lamp is
 energized through the Battery Bus to ensure it is always operational, even in

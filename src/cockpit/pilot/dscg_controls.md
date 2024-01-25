@@ -11,6 +11,9 @@ interact with the digital interfaces.
 
 ![RetIntensity](../../img/pilot_dscg_reticle_intensity.jpg)
 
+The reticle intensity/scale knob (2) provides brightness control for the reticle and the radar
+repeater.
+
 | Name    | Description                                                                            |
 |---------|----------------------------------------------------------------------------------------|
 | RET INT | Controls the brightness of the gun reticle.                                            |
@@ -20,7 +23,7 @@ interact with the digital interfaces.
 
 ![SightShutter](../../img/pilot_dscg_sight_shutter.jpg)
 
-Changes the optical sight light source to prevent damage to the optics from high
+The lever (4) changes the optical sight light source to prevent damage to the optics from high
 sunlight. Is used [after landing](../../procedures/landing/checklists.md#after-landing)
 to prevent damage to the sight when parked.
 
@@ -28,7 +31,8 @@ to prevent damage to the sight when parked.
 
 ![RetDepress](../../img/pilot_dscg_reticle_depression_knob.jpg)
 
-Controls manual depression in 1 mil increments from 0 to 245 mil. The manual depression is used for
+The reticle depression knob (11) controls manual depression in 1 mil increments from 0 to 245 mil.
+The manual depression is used for
 [direct delivery bombing](../../procedures/bombs/bombs_direct_delivery.md) and delivery of
 the [AGM-65 Maverick](../../stores/air_to_ground/missiles/maverick.md).
 
@@ -36,7 +40,7 @@ the [AGM-65 Maverick](../../stores/air_to_ground/missiles/maverick.md).
 
 ![SightMode](../../img/pilot_dscg_sight_mode_knob.jpg)
 
-Selects the mode of operation for the gun-sight.
+The rotary knob (12) selects the mode of operation for the gun-sight.
 
 | Name  | Description                                                                                                                                                                           |
 |-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -52,7 +56,7 @@ Selects the mode of operation for the gun-sight.
 
 ![Contr](../../img/pilot_dscg_opr_ers_contrast_knob.jpg)
 
-Two function (pushbutton inside of knob) control of the front scope display.
+Two function (pushbutton inside of knob) control (3) of the front scope display.
 
 | Name    | Description                                                                            |
 |---------|----------------------------------------------------------------------------------------|
@@ -63,7 +67,7 @@ Two function (pushbutton inside of knob) control of the front scope display.
 
 ![BrtHrz](../../img/pilot_dscg_brightness_knob_horizon_line.jpg)
 
-Dual knob control of the front scope display settings.
+Dual knob control (6) of the front scope display settings.
 
 | Name   | Description                                                           |
 |--------|-----------------------------------------------------------------------|
@@ -74,7 +78,7 @@ Dual knob control of the front scope display settings.
 
 ![pilot_int_tab](../../img/pilot_dscg_int_tab.jpg)
 
-The INT tab rotates around the display to alter the relative darkness of the
+The INT tab (7) rotates around the display to alter the relative darkness of the
 radar display, permitting the pilot to adjust the scope relative to ambient
 light. With the INT tab a polarization filter is rotated over the scope.
 
@@ -82,20 +86,20 @@ light. With the INT tab a polarization filter is rotated over the scope.
 
 ![pilot_red_tab](../../img/pilot_dscg_red_tab.jpg)
 
-The red tab is rotated to provide a red scope display for night flying.
+The red tab (8) is rotated to provide a red scope display for night flying.
 
 ## In Range Light
 
 ![InRng](../../img/pilot_dscg_in_range_light.jpg)
 
-The IN RANGE light illuminates to alert the pilot that the current locked target
+The IN RANGE light (5) illuminates to alert the pilot that the current locked target
 is within range parameters.
 
 ## Hold Altitude Light
 
 ![HoldAlt](../../img/pilot_dscg_hold_alt_light.jpg)
 
-The HOLD ALT light illuminates as an instruction to the pilot from the fire
+The HOLD ALT light (10) illuminates as an instruction to the pilot from the fire
 control system to maintain current altitude to assist in a snap-up intercept
 situation against a target above the fighter. The predicates are:
 
@@ -112,7 +116,7 @@ dot in the ASE circle. See the [3.10 Radar System](../../systems/radar/overview.
 
 ![Wheels](../../img/pilot_dscg_wheels_light.jpg)
 
-The WHEELS lamp illuminates when the aircraft slows below flaps blow-up speed
+The WHEELS lamp (2) illuminates when the aircraft slows below flaps blow-up speed
 (roughly 230 knots, dependent on altitude)
 with [the gear](../../systems/flight_controls_gear/gear_ground_handling.md) still raised.
 In this situation, the aircraft assumes the intention is to land and the light illuminates
@@ -122,5 +126,5 @@ to suggest lowering the gear.
 
 ![RngLights](../../img/pilot_dscg_range_lights.jpg)
 
-The Range Lights illuminate relative to range settings selected by the WSO.
+The Range Lights (9) illuminate relative to range settings selected by the WSO.
 Range is provided in the upper right corner of the DSCG scope.

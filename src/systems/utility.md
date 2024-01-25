@@ -7,10 +7,10 @@
 Aircrew breathing oxygen is provided with a 10-liter liquid oxygen bottle. A
 regulator panel is found on the left side in each cockpit - on the console in the
 front cockpit, and the left sub-panel in the rear. Flow is initiated in each
-cockpit using the Supply Lever found on the regulator panel. Oxygen flow is
-confirmed using the Flow Indicator, which alternates from black to white
+cockpit using the Supply Lever (6) found on the regulator panel. Oxygen flow is
+confirmed using the Flow Indicator (3), which alternates from black to white
 for each breath (white indicates inhalation). Supply pressure and remaining
-volume is confirmed using the Oxygen Pressure and Oxygen Quantity gauges
+volume is confirmed using the Oxygen Pressure (7) and Oxygen Quantity gauges (2)
 found in both cockpits.
 
 A detailed chart of the Oxygen duration is provided here:
@@ -52,7 +52,7 @@ wing tanks, and, if installed and selected, external tanks.
 
 ### Air Refuel Switch
 
-Preparation for air refueling is performed by toggling the Air Refuel Switch to
+Preparation for air refueling is performed by toggling the Air Refuel Switch (4) to
 EXTEND; doing so extends the receptacle, illuminates the receptacle visual
 lamps, depressurizes the fuel cells, activates the transfer pumps to
 redistribute received fuel for CG maintenance, and activates the air refuel
@@ -65,7 +65,7 @@ allow the boom to connect again.
 
 ### Refuel Selection Switch
 
-The two-position Refuel Selection Switch provides options for two modes of
+The two-position Refuel Selection Switch (5) provides options for two modes of
 refueling: internal fuselage and internal wing tanks (INT ONLY), and ALL TANKS,
 used to include external tanks in the refueling operation.
 

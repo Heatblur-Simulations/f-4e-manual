@@ -2,7 +2,10 @@
 
 ![PedGrp](../../img/pilot_pedestal_group_overview.jpg)
 
-This panel behind the stick offers mostly auxiliary information and controls.
+The pedestal group features the screen source switch (1), the rate of fire switch (2), the auto
+clear switch (3), a rounds counter (4), an accelerometer (5), engine oil pressure gauges (6),
+hydraulic pressure gauges (7), the TGT/MSL switch (9), a band selector switch (10) and a pneumatic
+pressure gauge (8).
 
 ## Accelerometer
 
@@ -131,7 +134,8 @@ uses the weapons own, less accurate seeker system instead.
 
 ![pilot_shrike_tgt_reject](../../img/pilot_shrike_band.jpg)
 
-Allows to select the band range picked up by [Shrikes](../../stores/air_to_ground/missiles/shrike.md).
+Allows to select the band range picked up
+by [Shrikes](../../stores/air_to_ground/missiles/shrike.md).
 
 > 💡 Not all variants support band switching.
 

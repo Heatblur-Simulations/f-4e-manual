@@ -164,7 +164,7 @@ other conditions, such as a valid laser code being set, are met.
 During Track mode, the WSO can manually slew and correct the pods line of sight
 with the Antenna Hand Control, or Antenna Stick.
 
-![pave_spike_antenna_hand_control](../../../img/wso_antenna_hand_control.jpg)
+![pave_spike_antenna_hand_control](../../../img/wso_antenna_hand_control_overview.jpg)
 
 The Challenge Button (1) is used to zoom in or out, while the 2-stage trigger (3) is
 used to switch between modes and fire the laser.

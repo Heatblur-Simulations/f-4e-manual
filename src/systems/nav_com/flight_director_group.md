@@ -21,7 +21,7 @@ Stacked on the Mode Selector Knob is the Flight Director Switch.
 
 ### Bearing Distance Selector Knob (BRG/DIST)
 
-The Bearing Distance Selector Knob sets the bearing pointer and range indication
+The Bearing Distance Selector Knob (1) sets the bearing pointer and range indication
 displays on the HSI.
 Positions are VOR/TAC, TAC, ADF/TAC, and NAV COMP.
 
@@ -41,8 +41,8 @@ the destination set in the navigation computer.
 
 ### Mode Selector Knob (MODE) and Flight Director Switch
 
-The Mode Selector Knob controls the remaining informational displays on
-the HSI (outer knob), as well as the pitch and bank steering bars on the ADI (inner knob
+The Mode Selector Knob (3) controls the remaining informational displays on
+the HSI (outer knob), as well as the pitch and bank steering bars on the ADI (inner knob (2)
 labelled FD). The mode selector knob operates independently of the bearing pointer and range
 indicator, and the selector positions are [VOR/ILS](vor_ils.md), [TAC](tacan.md), NAV COMP, and HDG.
 Navigation modes set by this knob will be indicated by an illuminated word message when the
@@ -97,14 +97,14 @@ navigation, with cues provided relative to the selected navigation mode selector
 position. It interacts closely with several navigational aids like VOR, TACAN, ADF,
 and the aircraft's Navigation Computer (NAV COMP).
 
-The Bearing Pointer and Range Indicator on the HSI display the bearing and distance
+The Bearing Pointer and Range Indicator (2) on the HSI display the bearing and distance
 to the navigation aid selected via the Bearing Distance Selector Knob.
 The Navigation Mode Selector governs the functionality of the heading marker,
-course arrow, and the course deviation indicator, which includes a to-from arrow.
+course arrow, and the course deviation indicator (6), which includes a to-from arrow.
 Both these controls – the Bearing Distance Selector and the Navigation Mode Selector – have
 a direct impact on the illumination of specific mode indicator lights on the HSI.
 
-The compass card in the HSI is driven by heading input from the AJB-7 system. It rotates
+The compass card (5) in the HSI is driven by heading input from the AJB-7 system. It rotates
 to align the aircraft's magnetic heading directly under the lubber line at the top of the
 instrument, assuming the signal received is accurate and reliable.
 
@@ -181,11 +181,9 @@ indicates UHF bearing, and the no. 2 pointer indicates the TACAN bearing. If
 there is no TACAN signal, both pointers indicate the ADF bearing.
 
 With the middle position selected - [VOR](vor_ils.md)/TAC, the no. 1 pointer indicates
-the VOR
-bearing, the no. 2 pointer indicates the TACAN bearing, and the range indicator
+the VOR  bearing, the no. 2 pointer indicates the TACAN bearing, and the range indicator (3)
 provides distance to the TACAN station. In the absence of a TACAN signal,
-both
-pointers indicate the VOR station.
+both pointers indicate the VOR station.
 
 In the lower position, NAV COMP, the no. 1 pointer indicates bearing to the
 navigation computer target coordinates, and the no. 2 pointer indicates magnetic

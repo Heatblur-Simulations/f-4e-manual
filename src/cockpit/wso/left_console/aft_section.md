@@ -15,16 +15,16 @@ selected with the NAV CMD button of the Communication Control Panel.
 
 ### Channel Knobs
 
-On the control panel there are two Navigation Channel Control knobs, with the
-left controlling the first two digits of the channel value (hundreds and tens),
-and the right controls the single unit (ones) values. The right knob also
+On the control panel there are two Navigation Channel Control knobs (7, 4 and 3), with the
+left (7) controlling the first two digits of the channel value (hundreds and tens),
+and the right (4 and 3) controls the single unit (ones) values. The right knob also
 includes an outer ring which sets the X or Y value for the
 desired [TACAN](../../../systems/nav_com/tacan.md)
 channel.
 
 ### Test Button and Lamp
 
-Between these two knobs is the TEST button, which performs the ground testing
+Between these two knobs is the TEST button (6), which performs the ground testing
 cycle after warmup, and can also be used to perform an in-flight confidence test
 of the system's performance.
 
@@ -35,12 +35,13 @@ for further information.
 
 ### Volume Knob
 
-To the upper right, the VOL knob is available to set the desired audio level for
+To the upper right, the VOL knob (2) is available to set the desired audio level for
 the received [TACAN](../../../systems/nav_com/tacan.md) station.
 
 ### Function Selector
 
-The [TACAN](../../../systems/nav_com/tacan.md) Function Selector Knob determines the presentation
+The [TACAN](../../../systems/nav_com/tacan.md) Function Selector Knob (1) determines the
+presentation
 and type of
 information provided on
 the [HSI,](../../pilot/flight_director_group.md#horizontal-situation-indicator) [ADI](../../pilot/flight_director_group.md#attitude-director-indicator),
@@ -70,24 +71,24 @@ the aircraft.
 ### Command Buttons
 
 The panel is duplicated in both cockpits, and control over the
-radio is determined through pushing the COMM CMD Button in the respective seat;
-the button will illuminate green in the seat in priority. In the same fashion,
-the NAV CMD button dictates which seat has control of the [TACAN](../../../systems/nav_com/tacan.md)
-settings; its button will also illuminate on the panel of the seat that has command (control)
-of the system.
+radio is determined through pushing the COMM CMD Button (10) in the respective seat;
+the button will illuminate green (9) in the seat in priority. In the same fashion,
+the NAV CMD button (7) dictates which seat has control of
+the [TACAN](../../../systems/nav_com/tacan.md) settings; its button will also illuminate (8) on the
+panel of the seat that has command (control) of the system.
 
 ### Radio Volume
 
-Beneath the COMM CMD button is the radio volume for the respective seat.
+Beneath the COMM CMD button is the radio volume (11) for the respective seat.
 
 ### Squelch Switch
 
-Close to the NAV CMD button is the Squelch switch, which enables or disables receiver
+Close to the NAV CMD button is the Squelch switch (6), which enables or disables receiver
 squelch.
 
 ### Frequency and Channels
 
-The A-3-2-T Selector knob sets the first digit of the manually selected frequency
+The A-3-2-T Selector knob (5) sets the first digit of the manually selected frequency
 (3 or 2) of the [UHF radio](../../../systems/nav_com/uhf.md).
 
 > 💡 Due to engine limitations, modes A and T,
@@ -105,16 +106,16 @@ in the displayed channel preset with the SET pushbutton. Once stored, channels
 are directly selected using the Comm Channel Control knob with the Preset/Manual
 switch in the Preset position.
 
-Directly underneath the Comm Channel Control Knob is the Aux Channel Knob and
+Directly underneath the Comm Channel Control Knob is the Aux Channel Knob (4) and
 Indicator. This knob is used to access 20 common preset channels that cannot be
 changed from in the cockpit.
 
-The Aux Volume Control knob on the lower right of the panel
-raises and lowers the volume of the Aux receiver channel.
+The Aux Volume Control knob (1) on the lower right of the panel
+raises and lowers the volume of the Aux receiver channel (12 and 13).
 
 ### Tone Button
 
-The Tone Pushbutton is used for transmission of a Time of Day (TOD) signal along with a tone
+The Tone Pushbutton (3) is used for transmission of a Time of Day (TOD) signal along with a tone
 to friendly aircraft requiring a Time of Day update for proper HAVE-Quick functionality.
 
 > 💡 Due to engine limitations, the tone button,
@@ -122,7 +123,7 @@ to friendly aircraft requiring a Time of Day update for proper HAVE-Quick functi
 
 ### Comm Function Selector
 
-The Comm Function Selector Knob determines the current configuration of the
+The Comm Function Selector Knob (2) determines the current configuration of the
 radio system.
 
 | Name      | Description                                                                |
@@ -185,7 +186,7 @@ instrument face.
 
 ![VOR/ILS Volume Control](../../../img/wso_vor_ils_volume.jpg)
 
-The volume control consists of two knobs: one square knob adjusts VOR and
-localizer audio, while the round knob controls the marker beacon audio.
+The volume control consists of two knobs: one square knob (1) adjusts VOR and
+localizer audio, while the round knob (2) controls the marker beacon audio.
 
 See [3.3.4 VOR/ILS Chapter](../../../systems/nav_com/vor_ils.md) for further information.

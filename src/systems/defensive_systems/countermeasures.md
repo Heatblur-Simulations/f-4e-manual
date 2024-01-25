@@ -21,7 +21,7 @@ the No. 4 Circuit Breaker Panel above the aft left console in the WSO cockpit.
 
 | Dispenser Configuration | Description                          |
 |-------------------------|--------------------------------------|
-| No payload               | Dispensers installed without payload |
+| No payload              | Dispensers installed without payload |
 | 120 chaff               | Only chaff loaded                    |
 | 60 chaff + 30 flare     | 60 chaff and 30 flares loaded        |
 | 90 chaff + 15 flare     | 90 chaff and 15 flares loaded        |
@@ -71,13 +71,14 @@ depending on selected modes.
 
 ### Chaff Mode Knob
 
-With the chaff select switch in the NORMAL position and flaps and speed brakes retracted, the
+With the chaff select switch (4) in the NORMAL position and flaps and speed brakes retracted, the
 switch positions function as follows. For every dispense button press:
 
 * OFF - No dispenses, as the chaff system is **inactive**.
 * SGL - A **single** chaff is dispensed.
 * MULT - Chaff dispensed according to **CHAFF BURST** settings of the Programmer.
-* PROG - Chaff dispensed according to **CHAFF BURST** and **CHAFF SALVO** settings of the Programmer.
+* PROG - Chaff dispensed according to **CHAFF BURST** and **CHAFF SALVO** settings of the
+  Programmer.
 
 > 💡 When Chaff Double mode is selected in the
 [Mission Editor](../../dcs/mission_editor.md#chaff-double-dispense),
@@ -88,8 +89,8 @@ switch positions function as follows. For every dispense button press:
 
 ### Flare Mode Knob
 
-With the flare select switch in the NORMAL position and flaps and speed brakes retracted,
-the switch  positions function as follows. For every dispense button press:
+With the flare select switch (7) in the NORMAL position and flaps and speed brakes retracted,
+the switch positions function as follows. For every dispense button press:
 
 * OFF - No dispenses, as the flare system is **inactive**.
 * SGL - A **single** flare is dispensed.
@@ -97,12 +98,12 @@ the switch  positions function as follows. For every dispense button press:
 
 ### Chaff and Flare Counters
 
-There are two subtraction counters, one for the chaff system and one for the
+There are two subtraction counters (3 and 6), one for the chaff system and one for the
 flare system. They indicate the quantity of remaining chaff and flare cartridges.
 
 ### Chaff and Flare Indicator Lights
 
-Both the flare and the chaff system have one green indicator light each.
+Both the flare and the chaff system have one green indicator light (5 and 8) each.
 Whenever a mode (other than OFF) is selected on the respective mode knob,
 the corresponding indicator light will illuminate.
 
@@ -111,7 +112,7 @@ the corresponding indicator light will illuminate.
 
 ### Ripple Switch
 
-The ripple switch is guarded. When the guard is lifted and the switch is activated,
+The ripple switch (2) is guarded. When the guard is lifted and the switch is activated,
 it will initiate flare dispensing regardless of the position of any other
 switches or mode knobs in the countermeasures system (if the flaps and the speed
 brakes are retracted). The flares will be dispensed at a rate of 10 flares per
@@ -119,7 +120,7 @@ second until both left and right pylon dispensers are empty.
 
 ### Dispense Button
 
-The dispense button, when pressed, initiates chaff/flare
+The dispense button (1), when pressed, initiates chaff/flare
 dispensing as selected by the CCU and
 Programmer provided the flaps and speed brakes are
 retracted and the chaff/flare mode knobs are in
@@ -133,14 +134,14 @@ The AN/ALE-40 Programmer contains the controls and circuitry used to send
 specific fire commands to the chaff and flare dispensers. The following settings
 are adjustable:
 
-| Category    | Knob     | Values                       | Description                      |
-|-------------|----------|------------------------------|----------------------------------|
-| CHAFF BURST | COUNT    | 1, 2, 3, 4, 6, 8 (units)     | quantity of bursts (per salvo)   |
-|             | INTERVAL | 0.1, 0.2, 0.3, 0.4           | time interval between each burst |
-| CHAFF SALVO | COUNT    | 1, 2, 4, 8, C (continuous)   | number of salvos                 |
-|             | INTERVAL | 1, 2, 3, 4, 5, 8, R (random) | time interval between each salvo |
-| FLARE BURST | COUNT    | 1, 2, 4, 8, C (continuous)   | quantity of bursts               |
-|             | INTERVAL | 3, 4, 6, 8, 10               | time interval between each burst |
+| Category    | Knob         | Values                       | Description                      |
+|-------------|--------------|------------------------------|----------------------------------|
+| CHAFF BURST | COUNT (4)    | 1, 2, 3, 4, 6, 8 (units)     | quantity of bursts (per salvo)   |
+|             | INTERVAL (1) | 0.1, 0.2, 0.3, 0.4           | time interval between each burst |
+| CHAFF SALVO | COUNT   (5)  | 1, 2, 4, 8, C (continuous)   | number of salvos                 |
+|             | INTERVAL (2) | 1, 2, 3, 4, 5, 8, R (random) | time interval between each salvo |
+| FLARE BURST | COUNT (6)    | 1, 2, 4, 8, C (continuous)   | quantity of bursts               |
+|             | INTERVAL (3) | 3, 4, 6, 8, 10               | time interval between each burst |
 
 > 💡 All intervals are expressed in seconds.
 
@@ -150,7 +151,7 @@ are adjustable:
 
 ### Flares Select Switch
 
-If the flares select switch is in the **NORMAL** position, it arms the
+If the flares select switch (3) is in the **NORMAL** position, it arms the
 countermeasures dispenser system and allows for chaffs and flares to be
 dispensed as set by the CCU and the programmer by pressing either dispense
 button.
@@ -164,13 +165,13 @@ position.
 
 ### AN/ALE-40 Power On Indicator Light (Green)
 
-This green light illuminates when the Flares
+This green light illuminates (1) when the Flares
 Select switch is set to NORMAL and at least one of the chaff and flare mode
 knobs are in any position other than OFF.
 
 ### Flares Indicator Light (Amber)
 
-This amber indicator illuminates when the Flares Select
+This amber indicator (2) illuminates when the Flares Select
 switch is set to FLARES.
 
 When illuminated, flares can be dispensed by pressing

@@ -27,18 +27,18 @@ ejection will extract both crew members.
 ![wso_course_indicator](../../img/wso_course_indicator.jpg)
 
 Used during an [ILS](../../systems/nav_com/vor_ils.md) approach, displays localizer and glide slope
-deviations represented dots — 1 dot equals 1 1/4 degrees for course and 1/4 degree for glide
+deviations represented dots (3) — 1 dot equals 1 1/4 degrees for course and 1/4 degree for glide
 slope.
 
-The heading pointer indicates the aircraft's heading relative to the
-selected course set by the knob on the lower left.
+The heading pointer (1) indicates the aircraft's heading relative to the
+selected course set by the knob (4) on the lower left.
 
 Does not function with [TACAN](../../systems/nav_com/tacan.md)
 or [VOR](../../systems/nav_com/vor_ils.md). OFF flags display on signal loss.
 
 ### Marker Beacon Lamp
 
-The lamp on the top right illuminates whenever flying over a marker beacon station,
+The lamp on the top right (2) illuminates whenever flying over a marker beacon station,
 provided the [VOR/ILS](../../systems/nav_com/vor_ils.md) system has been activated.
 Additionally, an audio cue is played through the intercom system.
 
@@ -50,8 +50,8 @@ See [VOR/ILS System](../../systems/nav_com/vor_ils.md) for details.
 
 ![wso_ky28_mode_indicator](../../img/wso_ky_28_indicator.jpg)
 
-Two lamp indicator illustrating current KY-28 operating mode- P indicates plain
-(unencrypted) mode transmission, whereas C indicates cipher (encrypted) mode
+Two lamp indicator illustrating current KY-28 operating mode- P (1) indicates plain
+(unencrypted) mode transmission, whereas C (2) indicates cipher (encrypted) mode
 transmission.
 
 > 💡 UHF communications require the system be in Plain mode, even
@@ -88,7 +88,7 @@ The knob on the lower left controls the brightness of the display.
 
 Left to it is a box with several knobs to operate the system.
 
-For further information see the
+For further information and button explanation see the
 [Radar Warning Receiver](../../systems/defensive_systems/radar_warning_receiver.md) chapter.
 
 ### Target Contrast Switch
@@ -148,8 +148,8 @@ When AIR-GRD is selected, the indicator is disabled.
 ![PClock](../../img/wso_clock.jpg)
 
 A clock is provided for the WSO, including a stopwatch function. The watch can be set by turning
-the knob on the left lower corner. The stopwatch function is being used by pressing the top right
-button. It is reset by pressing the top right button again.
+the knob (1) on the left lower corner. The stopwatch function is being used by pressing the top
+right button (2). It is reset by pressing the top right button again.
 
 ## Accelerometer
 
@@ -218,14 +218,14 @@ thousands of feet per minute.
 
 ![Altimeter](../../img/wso_baro_altitude.jpg)
 
-A counter-pointer style altimeter, with thousandths in the counter window and
-100 foot increments around the face. The altimeter has an absolute range of
-80,000 feet. The altimeter includes a barometric scale for setting local
-pressure with the knob on the indicator.
+A counter-pointer style altimeter, with thousandths in the counter window (4) and
+100 foot increments around the face (5). The altimeter has an absolute range of
+80,000 feet. The altimeter includes a barometric scale (3) for setting local
+pressure with the knob (1) on the indicator.
 
 Works in either electric (normal
 operation mode) or pneumatic (STBY) mode, switchable via a spring-loaded three
-position switch labelled RESET and STBY.
+position switch (2) labelled RESET and STBY.
 
 When held in RESET for more than 3 seconds the system will
 be reset and moved out of STBY.
@@ -254,12 +254,12 @@ pointer over a fixed airspeed scale, marked from 80 to 850 knots, with a moving
 Mach scale presenting from Mach 0.4 to 2.5.
 
 A pair of movable reference markers
-is available with the knob on the face of the gauge, with speed reference
+is available with the knob (4) on the face of the gauge, with speed reference
 available between 80 and 195 knots, and the Mach index pointer being able to be
 set between the 225 knot and 850 knot regions relative to the airspeed gauge.
 
-The 1 needle and the inner ring refers to the airspeed in knots. The 2 needle and the respective
-outer ring refers to the Mach scale. Both move along dynamically according to the Airspeed. The 3
+The (1) needle and the inner ring refers to the airspeed in knots. The (2) needle and the respective
+outer ring refers to the Mach scale. Both move along dynamically according to the Airspeed. The (3)
 area refers to the airspeed scale before the mach scale starts.
 
 ## Bearing Distance Heading Indicator (BDHI)
@@ -286,7 +286,7 @@ In the lower position, NAV COMP, the no. 1 pointer indicates bearing to the
 navigation computer target coordinates, and the no. 2 pointer indicates magnetic
 ground track.
 
-A vertical readout, the range indicator notes distance to the selected target depending
+A vertical readout (3), the range indicator notes distance to the selected target depending
 on the Navigation Mode Selector Switch.
 
 ## Tachometers

@@ -3,8 +3,10 @@
 ![RMP](../../img/pilot_right_main_panel_overview.jpg)
 
 The right main panel offers a good overview of all needed engine data as well as of your defensive
-Radar warning receiver (RWR). There is also the fuel gauge and the fire warning lights located on
-it.
+Radar warning receiver (RWR). There is also the fuel gauge (1) and the fire warning lights (4)
+located on it. Also found on the right main panel are the master caution light (3), the fire test
+switch (2), the fuel flow gauges (5), the engine rpm gauges (6), the exhaust gas temperature
+gauges (7) and the nozzle position indicators (8).
 
 ## RWR Azimuth Indicator
 
@@ -18,7 +20,7 @@ The knob controls the brightness of the display.
 
 Below is a box with several knobs to operate the system.
 
-For further information see the
+For further information and button explanation see the
 [Radar Warning Receiver](../../systems/defensive_systems/radar_warning_receiver.md) chapter.
 
 ## Azimuth-Elevation Indicator

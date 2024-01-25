@@ -2,21 +2,25 @@
 
 ![wso_left_sub_panel](../../img/wso_left_sub_panel.jpg)
 
+The left sub-panel contains the AVTR, Gun Camera, air-to-air indicators (1), the emergency landing
+gear handle (2), the emergency brake handle (3), the APX-80A control panel (4), the WSO oxygen
+regulator panel (5) and the slats and flaps indicators for the WSO (6).
+
 ## Gun Camera Switch
 
 ![wso_gun_cam_aal_video_select](../../img/wso_avtr_bar.jpg)
 
-Activates recording of gun camera footage.
+The two position switch (1) activates recording of gun camera footage.
 
 ## Air to Air Light
 
-Illuminates when [CAGE](../../stores/air_to_air/acm_modes.md) mode activated; pressing the light
+Illuminates (2) when [CAGE](../../stores/air_to_air/acm_modes.md) mode activated; pressing the light
 reverts the radar to the original operating condition prior
 to CAGE entry.
 
 ## Video Select Button
 
-Push button that alternates between WEAPON, such
+Push button (3) that alternates between WEAPON, such
 as [AGM-65 Mavericks](../../stores/air_to_ground/missiles/maverick.md),
 and [targeting pod (ASQ-153)](../../systems/weapon_systems/pave_spike/overview.md) television video
 on the radar scope display when in TV mode.
@@ -30,7 +34,7 @@ For further information about the Recorder system see [9.5 Recorder](../../dcs/r
 
 ### AVTR Switch
 
-With the switch in the RECORD position, footage is recorded on the cassette and
+With the switch (6) in the RECORD position, footage is recorded on the cassette and
 the RCD light illuminates. The STANDBY position pauses recording, while the OFF
 position will additionally automatically unthread the tape back to the beginning
 after 10 seconds.
@@ -38,16 +42,16 @@ after 10 seconds.
 ### AVTR Tape Timer
 
 The cassette can record up to 20 minutes of footage, indicated in the small
-display labelled MINUTES.
+display (5) labelled MINUTES.
 
 ### EOT Light
 
-Once the end of the tape has been reached, the EOT light illuminates and the
+Once the end of the tape has been reached, the EOT light (4 lower half) illuminates and the
 tape must be unthreaded before it can record again.
 
 ### RCD Light
 
-Lit to indicate the AVTR system currently recording.
+Lit (4 upper half) to indicate the AVTR system currently recording.
 
 ## Emergency Landing Gear Handle
 
@@ -74,7 +78,7 @@ for details.
 
 ### Code Buttons
 
-The first digit of the code display indicates the current IFF mode, which can be
+The first digit of the code display (3) indicates the current IFF mode, which can be
 either of:
 
 - Off (white square)
@@ -95,7 +99,7 @@ corresponding setting respectively.
 
 ### Challenge Lamp
 
-This dimmable push-to-test lamp illuminates to indicate IFF active interrogation
+This dimmable push-to-test lamp (1) illuminates to indicate IFF active interrogation
 with the APX-76 system.
 
 ### Test/Challenge Code
@@ -108,29 +112,29 @@ successful.
 
 ### Anti-Jam
 
-This switch could be used for anti jammer measurements on some systems, but was
+This switch (7) could be used for anti jammer measurements on some systems, but was
 never installed and connected on this variant of the F-4E.
 
 ### Test/Challenge Lamp
 
-This dimmable push-to-test lamp illuminates to indicate active interrogation
+This dimmable push-to-test lamp (6) illuminates to indicate active interrogation
 with the APX-81A Combat-Tree system.
 
 ### Test Button
 
-Starts the built-in test of the APX-81A Combat-Tree system.
+The push button (2) starts the built-in test of the APX-81A Combat-Tree system.
 
 ### Mode 2
 
-Used to set Combat-Tree Mode 2 either in ACTIVE, PASSIVE or OFF types.
+This switch (4) is used to set Combat-Tree Mode 2 either in ACTIVE, PASSIVE or OFF types.
 
 ### Mode 3
 
-Used to set Combat-Tree Mode 3 either in ACTIVE, PASSIVE or OFF types.
+This switch (4) is used to set Combat-Tree Mode 3 either in ACTIVE, PASSIVE or OFF types.
 
 ### Mode 4
 
-Used to set Combat-Tree Mode 4 into ALARM or OVERRIDE types.
+This switch (4) is used to set Combat-Tree Mode 4 into ALARM or OVERRIDE types.
 
 This functionality was never installed and connected on this variant of the
 F-4E.
@@ -141,12 +145,13 @@ F-4E.
 
 ### Supply Lever
 
-Two position switch (ON and OFF) activating flow of oxygen to the mask.
-For further information see [3.7 Utility chapter, Oxygen section](../../systems/utility.md#oxygen-system).
+Two position switch (1) (ON and OFF) activating flow of oxygen to the mask.
+For further information
+see [3.7 Utility chapter, Oxygen section](../../systems/utility.md#oxygen-system).
 
 ### Diluter Lever
 
-A two-position diluter lever, in the center of the regulator
+A two position (2) diluter lever, in the center of the regulator
 panel, controls the mixture of air and oxygen.
 
 For a proportional amount of air to oxygen, the NORMAL
@@ -158,7 +163,7 @@ if fire, toxic smoke or fumes occur in the cockpit.
 
 ### Emergency Flow Control Switch
 
-Three position switch which permits selection of NORMAL (standard supply),
+Three position switch (3) which permits selection of NORMAL (standard supply),
 EMERGENCY pressure (100% oxygen with continuous positive pressure) or
 TEST MASK (positive pressure to test the face mask for leaks).
 
@@ -167,14 +172,15 @@ unless an unscheduled pressure increase is required.
 
 ### Flow Indicator
 
-Alternates between black and white with each aircrew member breath to indicate
+Alternates (4) between black and white with each aircrew member breath to indicate
 oxygen flow (white indicates inhalation).
 
 ### Oxygen Pressure Gauge
 
-Indicates oxygen supply pressure from 0 to 500 psi.
+Indicates (5) oxygen supply pressure from 0 to 500 psi.
 
-For further information see [3.7 Utility chapter, Oxygen section](../../systems/utility.md#oxygen-system).
+For further information
+see [3.7 Utility chapter, Oxygen section](../../systems/utility.md#oxygen-system).
 
 ## Landing Gear/Flap Indicator Panel
 
