@@ -3,11 +3,12 @@
 ![FDG](../../img/pilot_flight_director_group_overview.jpg)
 
 The flight director group provides the pilot with all necessary instruments to fly the aircraft even
-in a bad weather situation. It contains the Radar Altimeter (1), the Angle of Attack indexer (6),
-the Reference System Selector switch (2), the Attitude Director Indicator (3), the Marker Beacon
-Lamp (4), the barometric altimeter (5), the Horizontal Situation Indicator (8), the Vertical
-Velocity indicator (7), the Standby Attitude indicator (9) and the Navigation function selector
-panel (10).
+in a bad weather situation. It contains the Radar Altimeter (<num>1</num>), the Angle of Attack
+indexer (<num>6</num>), the Reference System Selector switch (<num>2</num>), the Attitude Director
+Indicator (<num>3</num>), the Marker Beacon Lamp (<num>4</num>), the barometric altimeter (<num>
+5</num>), the Horizontal Situation Indicator (<num>8</num>), the Vertical
+Velocity indicator (<num>7</num>), the Standby Attitude indicator (<num>9</num>) and the Navigation
+function selector panel (<num>10</num>).
 
 ## Radar Altimeter
 
@@ -15,9 +16,9 @@ panel (10).
 
 Terrain relative accurate height information up to 5000 ft, functions to 30
 degrees of bank angle or 35 degrees of pitch. Clockwise rotation of the function
-control switch (1) on the lower left of the indicator powers the device; continued
+control switch (<num>1</num>) on the lower left of the indicator powers the device; continued
 rotation sets the low altitude warning pointer to the desired height. Below the
-set altitude, the warning light (2) on the lower right activates.
+set altitude, the warning light (<num>2</num>) on the lower right activates.
 A self-test, initiated by pressing the function control switch, shows 35ft.
 
 ## Airspeed and Mach Indicator
@@ -27,12 +28,15 @@ A self-test, initiated by pressing the function control switch, shows 35ft.
 The combination airspeed and mach number indicator shows airspeed readings below
 200 knots, and include Mach numbers on the outer ring at high speed. The indicator uses a single
 pointer over a fixed airspeed scale, marked from 80 to 850 knots, with a moving
-Mach scale (2) presenting from Mach 0.4 to 2.5. A pair of movable reference markers
-is available with the knob (4) on the face of the gauge, with speed reference
+Mach scale (<num>2</num>) presenting from Mach 0.4 to 2.5. A pair of movable reference markers
+is available with the knob (<num>4</num>) on the face of the gauge, with speed reference
 available between 80 and 195 knots, and the Mach index pointer being able to be
-set between the 225 knot and 850 knot regions relative to the airspeed gauge. The (1) needle and the
-inner ring refers to the airspeed in knots. The (2) needle and the respective outer ring refers to
-the Mach scale. Both move along dynamically according to the Airspeed. The (3) area refers to the
+set between the 225 knot and 850 knot regions relative to the airspeed gauge. The (<num>1</num>)
+needle and the
+inner ring refers to the airspeed in knots. The (<num>2</num>) needle and the respective outer ring
+refers to
+the Mach scale. Both move along dynamically according to the Airspeed. The (<num>3</num>) area
+refers to the
 airspeed scale before the mach scale starts.
 
 ## Angle of Attack Indicator
@@ -112,14 +116,14 @@ indicated by an aircraft symbol and a lubber line showing the current aircraft h
 
 ### Knobs
 
-The knob on the lower left (1) is available to input desired magnetic heading, and the
-Course Set knob (4) on the lower right is used to enter
+The knob on the lower left (<num>1</num>) is available to input desired magnetic heading, and the
+Course Set knob (<num>4</num>) on the lower right is used to enter
 [VOR](../../systems/nav_com/vor_ils.md) radial or inbound localizer course for
 accurate deviation display.
 
 ### Compass Card
 
-A rotating element (5), dependent on the AJB-7 heading input, displays a compass rose.
+A rotating element (<num>5</num>), dependent on the AJB-7 heading input, displays a compass rose.
 
 It provides a reference for the aircraft's heading relative to magnetic north.
 
@@ -129,7 +133,7 @@ Indicates the magnetic bearing to a selected navigation aid (Nav Comp, VOR, TACA
 
 ### Course Arrow and Deviation Indicator
 
-The direction towards which the arrow (6) points can be manually selected by
+The direction towards which the arrow (<num>6</num>) points can be manually selected by
 the Course Knob in VOR/ILS and TAC modes (as seen on course rollers).
 
 In HDG mode, it indicates the aircraft's magnetic heading, and in NAV COMP mode, it points
@@ -147,7 +151,8 @@ tuned station, functioning with TACAN and VOR inputs.
 
 ### Heading Marker
 
-The heading marker (3) can be manually set to the desired heading to provide the Flight Director
+The heading marker (<num>3</num>) can be manually set to the desired heading to provide the Flight
+Director
 with steering signals in all modes except NAV COMP.
 
 In NAV COMP mode, it displays command steering towards the selected target,
@@ -155,11 +160,11 @@ taking wind drift into account.
 
 ### Range Indicator
 
-Shows the distance (2) to the selected TACAN station or NAV COMP destination.
+Shows the distance (<num>2</num>) to the selected TACAN station or NAV COMP destination.
 
 ### Mode Indicator Lights
 
-Several lights (7) indicate the active navigation mode:
+Several lights (<num>7</num>) indicate the active navigation mode:
 
 * VOR: Indicates that the VOR/ILS mode is selected and a VOR frequency selected.
 * ILS: Indicates that the VOR/ILS mode is selected and an ILS frequency selected.
@@ -173,12 +178,13 @@ Several lights (7) indicate the active navigation mode:
 
 ![Altimeter](../../img/pilot_baro_altitude.jpg)
 
-A counter-pointer style altimeter, with thousandths in the counter window (4) and
-100 foot increments around the face (5). The altimeter has an absolute range of
-80,000 feet. The altimeter includes a barometric scale (3) for setting local
-pressure with the knob (1) on the indicator. Works in either electric (normal
+A counter-pointer style altimeter, with thousandths in the counter window (<num>4</num>) and
+100 foot increments around the face (<num>5</num>). The altimeter has an absolute range of
+80,000 feet. The altimeter includes a barometric scale (<num>3</num>) for setting local
+pressure with the knob (<num>1</num>) on the indicator. Works in either electric (normal
 operation mode) or pneumatic (STBY) mode, switchable via a spring-loaded three
-position switch (2) labelled RESET and STBY. When held in RESET for more than 3 seconds the system
+position switch (<num>2</num>) labelled RESET and STBY. When held in RESET for more than 3 seconds
+the system
 will be reset and moved out of STBY.
 
 ## Vertical Velocity Indicator
@@ -205,7 +211,7 @@ by turning it.
 ![Navigation Function Selector Panel](../../img/pilot_nav_function_selector.jpg)
 
 Controls display presentation on the ADI and HDI based on the selected values on
-the two knobs; to the left is the Bearing/Distance Knob (1), and to the right the
+the two knobs; to the left is the Bearing/Distance Knob (<num>1</num>), and to the right the
 Mode Selector Knob (2 and 3). The Bearing/Distance Knob determines the source of
 navigation information for the HSI and ADI. The Mode Selector Knob provides
 control over the presentation of various displayed information on the HSI and

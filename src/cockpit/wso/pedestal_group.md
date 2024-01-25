@@ -1,7 +1,8 @@
 # Pedestal Group
 
-This area behind the stick contains the radar screen (1), the DSCG controls (2)
-as well as the controls for the targeting pod (3).
+This area behind the stick contains the radar screen (<num>1</num>), the DSCG controls (<num>
+2</num>)
+as well as the controls for the targeting pod (<num>3</num>).
 
 ![wso_dscg_knobs_above](../../img/wso_dscg_knobs_above.jpg)
 
@@ -41,29 +42,33 @@ lost.
 
 ### Cursor RNG (Range)
 
-The Cursor RNG knob (2) increases (clockwise) and decreases (counterclockwise) the relative
+The Cursor RNG knob (<num>2</num>) increases (clockwise) and decreases (counterclockwise) the
+relative
 brightness of the hemispherical Along Track range cursor in MAP PPI and Beacon PPI modes on
 both displays (WSO and Pilot).
 
 ### Cursor OFS (Offset)
 
-The Cursor OFS knob (4) increases (clockwise) and decreases (counterclockwise) the relative
+The Cursor OFS knob (<num>4</num>) increases (clockwise) and decreases (counterclockwise) the
+relative
 brightness of the Cross Track cursor in the MAP PPI and Beacon PPI modes on both displays
 (WSO and Pilot).
 
 ### Contrast Knob - CONTR
 
-The Contrast knob (1) controls relative contrast level of DSCG display; clockwise increases
+The Contrast knob (<num>1</num>) controls relative contrast level of DSCG display; clockwise
+increases
 contrast, counterclockwise reduces contrast.
 
 ### Brightness Knob
 
-The Brightness knob (3) increases (clockwise) and decreases (counterclockwise) the brightness of the
+The Brightness knob (<num>3</num>) increases (clockwise) and decreases (counterclockwise) the
+brightness of the
 overall scope display.
 
 ### Mode Knob
 
-The rotary mode knob (5) sets the current mode of the DSCG components.
+The rotary mode knob (<num>5</num>) sets the current mode of the DSCG components.
 
 | Name      | Description                                                                                                                   |
 |-----------|-------------------------------------------------------------------------------------------------------------------------------|
@@ -83,7 +88,8 @@ the [Pave Spike Targeting Pod](../../systems/weapon_systems/pave_spike/overview.
 
 ### Reticle brightness
 
-The knob (1) controls contrast of the TV reticle from black (full counter-clockwise) to green
+The knob (<num>1</num>) controls contrast of the TV reticle from black (full counter-clockwise) to
+green
 (full clockwise). Should be set to attain maximum contrast in the display window
 during the designation and attack procedure.
 
@@ -105,7 +111,7 @@ for details.
 
 ### Stow Button
 
-Alternating presses (5) un-stows and stows the Pave Spike pod head. The head is
+Alternating presses (<num>5</num>) un-stows and stows the Pave Spike pod head. The head is
 stowed when the button is illuminated.
 
 When un-stowed, the pod will move accordingly to the selected acquisition mode.
@@ -119,14 +125,14 @@ and any High-G maneuvers.
 
 ### Laser Ready Select Button
 
-Pushing the button (6) enables designator laser firing if illuminated after pressing.
+Pushing the button (<num>6</num>) enables designator laser firing if illuminated after pressing.
 
 Light remains off if interlocks (nose gear up and all pod functions working)
 inhibit use. Subsequent press deactivates laser system.
 
 ### Power On Button
 
-Applies (74) power to the targeting pod when pressed and released. Selected again to
+Applies (<num>74</num>) power to the targeting pod when pressed and released. Selected again to
 power off targeting pod. Button lamp will turn off once head is stowed.
 
 To prevent damage to the system, whenever equipped, power to the system should
@@ -134,7 +140,8 @@ be turned on even when not using the pod.
 
 ### BIT Selector Button
 
-Pressed (8) to advance to the desired [BIT](../../systems/weapon_systems/pave_spike/other.md#bits)
+Pressed (<num>8</num>) to advance to the
+desired [BIT](../../systems/weapon_systems/pave_spike/other.md#bits)
 mode
 as displayed in the adjacent window.
 
@@ -143,7 +150,8 @@ must be selected for normal operations.
 
 ### Light Brightness Knob
 
-The rotary knob (9) controls brightness of all lamps on this panel, except the Overheat lamp.
+The rotary knob (<num>9</num>) controls brightness of all lamps on this panel, except the Overheat
+lamp.
 
 ### Reject/Override Button
 
@@ -151,12 +159,12 @@ When the pod detects a too huge discrepancy between the laser measured slant
 range and the INS based computed ranged, it automatically rejects former and
 prefers latter.
 
-In this case, the button (10) can be used to force the use of the laser measured
+In this case, the button (<num>10</num>) can be used to force the use of the laser measured
 slant range instead.
 
 ### Acquisition Mode Selector Switch
 
-Three position switch (11) determining the pods main operation mode.
+Three position switch (<num>11</num>) determining the pods main operation mode.
 
 | Name                                         | Description                                                                                                                                                                         |
 |----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -166,7 +174,8 @@ Three position switch (11) determining the pods main operation mode.
 
 ### WRCS Out
 
-If lit (12), the [WRCS](../../systems/weapon_systems/wrcs.md) is not integrated into the pod and
+If lit (<num>12</num>), the [WRCS](../../systems/weapon_systems/wrcs.md) is not integrated into the
+pod and
 functionalities requiring its integration are not available.
 
 Can be pressed to manually disengage or engage integration, unless it was
@@ -174,7 +183,7 @@ disintegrated by other means.
 
 ### BIT Status Indicator
 
-Illuminates (13) based on completion of the selected BIT process; GO confirms
+Illuminates (<num>13</num>) based on completion of the selected BIT process; GO confirms
 functionality, MALF shows [BIT](../../procedures/bit_tests/overview.md) failure for a given test
 cycle.
 

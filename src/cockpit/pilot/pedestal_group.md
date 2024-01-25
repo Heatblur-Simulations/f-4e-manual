@@ -2,10 +2,13 @@
 
 ![PedGrp](../../img/pilot_pedestal_group_overview.jpg)
 
-The pedestal group features the screen source switch (1), the rate of fire switch (2), the auto
-clear switch (3), a rounds counter (4), an accelerometer (5), engine oil pressure gauges (6),
-hydraulic pressure gauges (7), the TGT/MSL switch (9), a band selector switch (10) and a pneumatic
-pressure gauge (8).
+The pedestal group features the screen source switch (<num>1</num>), the rate of fire switch (<num>
+2</num>), the auto
+clear switch (<num>3</num>), a rounds counter (<num>4</num>), an accelerometer (<num>5</num>),
+engine oil pressure gauges (<num>6</num>),
+hydraulic pressure gauges (<num>7</num>), the TGT/MSL switch (<num>9</num>), a band selector
+switch (<num>10</num>) and a pneumatic
+pressure gauge (<num>8</num>).
 
 ## Accelerometer
 

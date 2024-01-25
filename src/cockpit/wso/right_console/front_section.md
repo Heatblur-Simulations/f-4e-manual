@@ -11,7 +11,7 @@ push-buttons on this panel.
 
 ### Code Buttons
 
-Each press (1) will advance the corresponding digit by one.
+Each press (<num>1</num>) will advance the corresponding digit by one.
 
 Codes directly relate to laser frequencies, resulting in them having to be
 between 1111 and 1788 and not use digits 0 or 9 in order to be valid.
@@ -19,7 +19,7 @@ between 1111 and 1788 and not use digits 0 or 9 in order to be valid.
 ### Enter Button
 
 Once a code has been set, it can be transferred to the Pave Spike by pressing
-the ENTER button (2) to the right.
+the ENTER button (<num>2</num>) to the right.
 
 When power is applied to the system, it automatically initiates a transfer of
 the currently set code.
@@ -40,7 +40,7 @@ See [3.3.2 INS Navigation](../../../systems/nav_com/ins.md) for further informat
 
 ### Mode Selector Switch
 
-The HDG MEM-GYRO COMP switch (1), located under a cover, primarily stays in the GYRO
+The HDG MEM-GYRO COMP switch (<num>1</num>), located under a cover, primarily stays in the GYRO
 COMP position for Gyro Compass type of alignment. Switching it to HDG MEM,
 before turning on the INS, allows, if previously stored, heading memory
 alignment.
@@ -50,7 +50,7 @@ alignment.
 
 ### Power Control Knob
 
-Knob positions (2) are:
+Knob positions (<num>2</num>) are:
 
 | Name                                                       | Description                                                                                                                                                                                                                                                                                                                  |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -61,14 +61,14 @@ Knob positions (2) are:
 
 ### HEAT Lamp
 
-The HEAT lamp (4) illuminates when the system is placed into STBY mode, and remains
+The HEAT lamp (<num>4</num>) illuminates when the system is placed into STBY mode, and remains
 illuminated for 2 minutes after the gyros have reached operating temperature.
 The system will not allow Gyro-compassing alignment if switched out of STBY
 before this lamp has shut off.
 
 ### ALIGN Lamp
 
-The ALIGN lamp (3) provides
+The ALIGN lamp (<num>3</num>) provides
 current [INS alignment](../../../systems/nav_com/ins.md#alignment-options)
 through illuminating
 steady ([BATH alignment](../../../systems/nav_com/ins.md#best-available-true-heading) complete), or
@@ -89,19 +89,19 @@ and [Pave Spike](../../../systems/weapon_systems/pave_spike/overview.md).
 
 ### Antenna Elevation Control
 
-A thumbwheel (2) on the left side of the stick controls the elevation
+A thumbwheel (<num>2</num>) on the left side of the stick controls the elevation
 angle of the radar antenna, displayed via the EL strobe on the DSCG display.
 
 ### Challenge Button
 
-If controlling the radar the button (1) initiates an IFF interrogation.
+If controlling the radar the button (<num>1</num>) initiates an IFF interrogation.
 
 For the [Pave Spike targeting pod](../../../systems/weapon_systems/pave_spike/overview.md), it
 instead toggles the field of view between WIDE and NARROW.
 
 ### Action Switch (Trigger)
 
-A 2-stage trigger (3) to lock targets. Exact behavior depends on whether
+A 2-stage trigger (<num>3</num>) to lock targets. Exact behavior depends on whether
 currently controlling the [radar](../../../systems/radar/overview.md),
 [weapons](../../../stores/overview.md)
 or the [targeting pod](../../../systems/weapon_systems/pave_spike/overview.md).
@@ -122,14 +122,15 @@ This is only accessible to ground crew personnel.
 
 ### ACTIVATE Switch
 
-The two position switch (1) is only available after the Target Insert button is pressed, placing the
+The two position switch (<num>1</num>) is only available after the Target Insert button is pressed,
+placing the
 switch to ON provides power to the weapon release computer's circuits for
 a [LABS](../../../systems/weapon_systems/arbcs.md) release
 using the [WRCS](../../../systems/weapon_systems/wrcs.md) release range data.
 
 ### TGT FIND Switch
 
-The two position switch (2) is Used to combine the delivery functionality ofu
+The two position switch (<num>2</num>) is Used to combine the delivery functionality ofu
 the [ARBCS/LABS](../../../systems/weapon_systems/arbcs.md) system with the
 [WRCS](../../../systems/weapon_systems/wrcs.md) TGT FIND mode. NORM is selected for the standard
 function of the WRCS without LABS delivery capability. Selecting HOLD and
@@ -139,7 +140,7 @@ normal ARBCS procedures from the IP.
 
 ### RANGE Switch
 
-Selecting x100 on the two position switch (3) changes the release range multiplier on
+Selecting x100 on the two position switch (<num>3</num>) changes the release range multiplier on
 the [WRCS](../../../systems/weapon_systems/wrcs.md) panel to a
 factor of 100; in NORM, the standard factor of 10 is applied to the release
 range.
@@ -153,13 +154,13 @@ combined knobs to control volume.
 
 ### Canopy/Low Altitude Warning
 
-The cubic knob (1) sets audio level for canopy open and low altitude voice warnings.
+The cubic knob (<num>1</num>) sets audio level for canopy open and low altitude voice warnings.
 
 This system is not installed on this variant of the F-4E.
 
 ### Stall Warning
 
-The Stall Warning knob (2) controls the volume of
+The Stall Warning knob (<num>2</num>) controls the volume of
 the [AoA tones](../../../systems/flight_controls_gear/flight_controls.md#aural-tone-system) that
 play when flying at certain angles.
 

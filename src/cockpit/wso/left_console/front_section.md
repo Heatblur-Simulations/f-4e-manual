@@ -6,12 +6,12 @@
 
 ### Volume Control Knob
 
-Turned clockwise (1) to increase audio between cockpits, and counterclockwise to
+Turned clockwise (<num>1</num>) to increase audio between cockpits, and counterclockwise to
 decrease audio between cockpits on the [intercom](../../../systems/nav_com/intercom.md).
 
 ### Function Selector Switch
 
-A three position switch (3) used to set the mode of
+A three position switch (<num>3</num>) used to set the mode of
 the [intercom](../../../systems/nav_com/intercom.md).
 
 | Name           | Description                                                                                                       |
@@ -22,7 +22,7 @@ the [intercom](../../../systems/nav_com/intercom.md).
 
 ### Amplifier Select Knob
 
-Determines current amplifier (2) for [intercom](../../../systems/nav_com/intercom.md) function.
+Determines current amplifier (<num>2</num>) for [intercom](../../../systems/nav_com/intercom.md) function.
 
 | Name | Description                                                                                                     |
 |------|-----------------------------------------------------------------------------------------------------------------|
@@ -42,14 +42,14 @@ Not used in the F-4E.
 
 ### Temp Light
 
-Illuminates (7) amber to indicate an over-temperature situation in the nose radar
+Illuminates (<num>7</num>) amber to indicate an over-temperature situation in the nose radar
 avionics bay. Under normal circumstances, an overheat condition requires setting
 the radar power to OFF. If circumstances require continued use, the light should
 be monitored regularly.
 
 ### Meter Selector Knob
 
-A sixteen position rotary knob (1) used in conjunction with the Test Knob, with each
+A sixteen position rotary knob (<num>1</num>) used in conjunction with the Test Knob, with each
 position having two values- an outer SIGNAL value, and an inner VOLT value.
 Selection of which value determined by the Meter Switch.
 
@@ -57,14 +57,14 @@ Selection of which value determined by the Meter Switch.
 
 ![Monitor Meter](../../../img/wso_control_monitor_meter.jpg)
 
-Provides voltage, current, and signal indications (2) based on current Meter Switch
+Provides voltage, current, and signal indications (<num>2</num>) based on current Meter Switch
 and Meter Selector Knob settings.
 
 ### Test Knob
 
 ![Test Knob](../../../img/wso_control_monitor_test_switch.jpg)
 
-An eleven position rotary knob (3) used with the radar power knob in TEST to perform
+An eleven position rotary knob (<num>3</num>) used with the radar power knob in TEST to perform
 system BIT checks of the [APQ-120 Radar](../../../systems/radar/overview.md).
 Basic test function noted below;
 procedural functionality is found in the applicable BIT test section
@@ -90,7 +90,7 @@ procedural functionality is found in the applicable BIT test section
 
 ![Meter Switch](../../../img/wso_control_meter_signals_switch.jpg)
 
-A two position switch (4) that determines which set of values are utilized from the Meter Selector
+A two position switch (<num>4</num>) that determines which set of values are utilized from the Meter Selector
 Knob for the applicable test sequences; VOLT selects the inner ring of Voltage referencing
 values, whereas SIGNALS uses the outer rim of SIGNAL reference values.
 
@@ -98,12 +98,12 @@ values, whereas SIGNALS uses the outer rim of SIGNAL reference values.
 
 ![Vc Switch](../../../img/wso_control_meter_vc_switch.jpg)
 
-A two position switch (5) that changes the scale factor of the range rate presentation. DSCG
+A two position switch (<num>5</num>) that changes the scale factor of the range rate presentation. DSCG
 aircraft must leave the switch in 2700, else the Vc presentation will be in error.
 
 ### Stab Switch
 
-A three position switch (6) that changes the antenna stabilization mode.
+A three position switch (<num>6</num>) that changes the antenna stabilization mode.
 
 | Name      | Description                                                                              |
 |-----------|------------------------------------------------------------------------------------------|
@@ -124,7 +124,7 @@ switch and a mic switch.
 
 ![wso_speed_brake](../../../img/wso_throttles_speed_brake.jpg)
 
-The Speed Brakes are actuated by a three position switch (1) found on the inboard
+The Speed Brakes are actuated by a three position switch (<num>1</num>) found on the inboard
 throttle in both cockpits. Either switch will actuate the brakes. The positions
 are Out, Stop, and In; the Out position is momentary and reverts back to Stop when released.
 
@@ -135,7 +135,7 @@ the [3.1.2 Flight Control Surfaces chapter.](../../../systems/flight_controls_ge
 
 ![wso_mic_switch](../../../img/wso_throttles_mic_switch.jpg)
 
-The microphone switch (2) for the Intercom System is the aft position on the inboard
+The microphone switch (<num>2</num>) for the Intercom System is the aft position on the inboard
 throttle grip in both cockpits. When using the intercom, all audio sans the
 pull-up tone, stall warning, and ECM are reduced (same as RADIO OVERRIDE). In the fwd position the
 switch will enable transmitting over radio.

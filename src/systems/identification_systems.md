@@ -32,7 +32,8 @@ for Mode 2 must be set on the ground, ranging from 0000 to 7777.
 
 ### Self Test operation
 
-To self test Modes 2 and 3/A, place the master switch (1) to NORM and hold the switch for the
+To self test Modes 2 and 3/A, place the master switch (<num>1</num>) to NORM and hold the switch for
+the
 desired test mode to the upper position. If the test light on the IFF control panel illuminates,
 this indicates the mode is operating properly.
 
@@ -40,31 +41,40 @@ Mode 1 and Mode C do not have self testing capabilities.
 
 ### Normal Operation
 
-To operate the IFF system, start by rotating the master switch (1) to STBY. After an approximate
+To operate the IFF system, start by rotating the master switch (<num>1</num>) to STBY. After an
+approximate
 80-second warmup delay, the system receives full power, but interrogations are blocked.
 
-Set the Mode 1, Mode 2, Mode 3/A, Mode 4, and Mode C switches (6) as directed,
-along with the Mode 1 and Mode 3/A code selector switches (10) and Mode 4 function switch (8).
-Set the master switch (1) to NORM to make the system
-ready for operation on the selected modes. If the master switch (1) is rotated from OFF directly to
+Set the Mode 1, Mode 2, Mode 3/A, Mode 4, and Mode C switches (<num>6</num>) as directed,
+along with the Mode 1 and Mode 3/A code selector switches (<num>10</num>) and Mode 4 function
+switch (<num>8</num>).
+Set the master switch (<num>1</num>) to NORM to make the system
+ready for operation on the selected modes. If the master switch (<num>1</num>) is rotated from OFF
+directly to
 an operating mode, it also has to go through the warmup period first before it is fully operational.
 
 #### Interrogation of Position
 
 For Interrogation of Position (I/P) switch operation,
-place the I/P switch (9) in the IDENT position or place it in the MIC position
+place the I/P switch (<num>9</num>) in the IDENT position or place it in the MIC position
 and press the UHF microphone. The IFF system responds with special I/P signals.
 
 If the IFF warning
-light and MASTER CAUTION light come on momentarily, check the Mode 4 selector switch (8) ON and the
-master switch (1) NORMAL. Repeated illumination of the MASTER CAUTION light may be stopped only by
-placing the master switch (1) OFF, resulting in the loss of all IFF capability, or by placing the
-Mode 4 function switch (8) to ZERO. Before or during flight, if the master switch (1) is placed OFF,
+light and MASTER CAUTION light come on momentarily, check the Mode 4 selector switch (<num>8</num>)
+ON and the
+master switch (<num>1</num>) NORMAL. Repeated illumination of the MASTER CAUTION light may be
+stopped only by
+placing the master switch (<num>1</num>) OFF, resulting in the loss of all IFF capability, or by
+placing the
+Mode 4 function switch (<num>8</num>) to ZERO. Before or during flight, if the master switch (<num>
+1</num>) is placed OFF,
 the IFF and MASTER CAUTION lights will not illuminate upon interrogation.
 
 Normal IFF operation will be
-available, after an 80-second warm-up, when the master switch (1) is again placed to NORMAL. If the
-Mode 4 function switch (8) is placed to ZERO, the IFF light will come on steady, and the MASTER
+available, after an 80-second warm-up, when the master switch (<num>1</num>) is again placed to
+NORMAL. If the
+Mode 4 function switch (<num>8</num>) is placed to ZERO, the IFF light will come on steady, and the
+MASTER
 CAUTION may
 then be reset. Mode 4 will not be available during the remainder of the flight.
 
@@ -72,11 +82,11 @@ then be reset. Mode 4 will not be available during the remainder of the flight.
 
 Upon ejection from either cockpit, the IFF emergency operation automatically becomes active.
 
-If the master switch (1) is in the OFF position before ejection, the system will
+If the master switch (<num>1</num>) is in the OFF position before ejection, the system will
 begin operation after an
 approximate 80-second delay.
 
-In an emergency, rotate the master switch (1) to EMER. The replies for
+In an emergency, rotate the master switch (<num>1</num>) to EMER. The replies for
 Modes 1 and 2 are special emergency signals of the codes selected on the applicable dials, while
 Mode 3/A replies are special emergency signals of code 7700.
 

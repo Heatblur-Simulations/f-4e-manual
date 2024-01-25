@@ -71,7 +71,8 @@ depending on selected modes.
 
 ### Chaff Mode Knob
 
-With the chaff select switch (4) in the NORMAL position and flaps and speed brakes retracted, the
+With the chaff select switch (<num>4</num>) in the NORMAL position and flaps and speed brakes
+retracted, the
 switch positions function as follows. For every dispense button press:
 
 * OFF - No dispenses, as the chaff system is **inactive**.
@@ -89,7 +90,8 @@ switch positions function as follows. For every dispense button press:
 
 ### Flare Mode Knob
 
-With the flare select switch (7) in the NORMAL position and flaps and speed brakes retracted,
+With the flare select switch (<num>7</num>) in the NORMAL position and flaps and speed brakes
+retracted,
 the switch positions function as follows. For every dispense button press:
 
 * OFF - No dispenses, as the flare system is **inactive**.
@@ -112,7 +114,7 @@ the corresponding indicator light will illuminate.
 
 ### Ripple Switch
 
-The ripple switch (2) is guarded. When the guard is lifted and the switch is activated,
+The ripple switch (<num>2</num>) is guarded. When the guard is lifted and the switch is activated,
 it will initiate flare dispensing regardless of the position of any other
 switches or mode knobs in the countermeasures system (if the flaps and the speed
 brakes are retracted). The flares will be dispensed at a rate of 10 flares per
@@ -120,7 +122,7 @@ second until both left and right pylon dispensers are empty.
 
 ### Dispense Button
 
-The dispense button (1), when pressed, initiates chaff/flare
+The dispense button (<num>1</num>), when pressed, initiates chaff/flare
 dispensing as selected by the CCU and
 Programmer provided the flaps and speed brakes are
 retracted and the chaff/flare mode knobs are in
@@ -134,14 +136,14 @@ The AN/ALE-40 Programmer contains the controls and circuitry used to send
 specific fire commands to the chaff and flare dispensers. The following settings
 are adjustable:
 
-| Category    | Knob         | Values                       | Description                      |
-|-------------|--------------|------------------------------|----------------------------------|
-| CHAFF BURST | COUNT (4)    | 1, 2, 3, 4, 6, 8 (units)     | quantity of bursts (per salvo)   |
-|             | INTERVAL (1) | 0.1, 0.2, 0.3, 0.4           | time interval between each burst |
-| CHAFF SALVO | COUNT   (5)  | 1, 2, 4, 8, C (continuous)   | number of salvos                 |
-|             | INTERVAL (2) | 1, 2, 3, 4, 5, 8, R (random) | time interval between each salvo |
-| FLARE BURST | COUNT (6)    | 1, 2, 4, 8, C (continuous)   | quantity of bursts               |
-|             | INTERVAL (3) | 3, 4, 6, 8, 10               | time interval between each burst |
+| Category    | Knob                    | Values                       | Description                      |
+|-------------|-------------------------|------------------------------|----------------------------------|
+| CHAFF BURST | COUNT (<num>4</num>)    | 1, 2, 3, 4, 6, 8 (units)     | quantity of bursts (per salvo)   |
+|             | INTERVAL (<num>1</num>) | 0.1, 0.2, 0.3, 0.4           | time interval between each burst |
+| CHAFF SALVO | COUNT   (<num>5</num>)  | 1, 2, 4, 8, C (continuous)   | number of salvos                 |
+|             | INTERVAL (<num>2</num>) | 1, 2, 3, 4, 5, 8, R (random) | time interval between each salvo |
+| FLARE BURST | COUNT (<num>6</num>)    | 1, 2, 4, 8, C (continuous)   | quantity of bursts               |
+|             | INTERVAL (<num>3</num>) | 3, 4, 6, 8, 10               | time interval between each burst |
 
 > 💡 All intervals are expressed in seconds.
 
@@ -151,7 +153,7 @@ are adjustable:
 
 ### Flares Select Switch
 
-If the flares select switch (3) is in the **NORMAL** position, it arms the
+If the flares select switch (<num>3</num>) is in the **NORMAL** position, it arms the
 countermeasures dispenser system and allows for chaffs and flares to be
 dispensed as set by the CCU and the programmer by pressing either dispense
 button.
@@ -165,13 +167,13 @@ position.
 
 ### AN/ALE-40 Power On Indicator Light (Green)
 
-This green light illuminates (1) when the Flares
+This green light illuminates (<num>1</num>) when the Flares
 Select switch is set to NORMAL and at least one of the chaff and flare mode
 knobs are in any position other than OFF.
 
 ### Flares Indicator Light (Amber)
 
-This amber indicator (2) illuminates when the Flares Select
+This amber indicator (<num>2</num>) illuminates when the Flares Select
 switch is set to FLARES.
 
 When illuminated, flares can be dispensed by pressing

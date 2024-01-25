@@ -69,10 +69,11 @@ the comparison of dynamic and static air pressures. This comparison reveals the 
 speed relative to the speed of sound.
 
 Found in both cockpits is a combination Airspeed/Mach indicator. The indicators
-provide a fixed airspeed scale at the middle of the indicator (1), reading values
-from 80 to 850 knots, and a rotating Mach number scale to the outside (2),
-with readings from 0.4 to 2.5 Mach. A two position push-and-rotate knob (4) offers both an airspeed
-index with a functional range between 80 and 195 knots (3), and a Mach index pointer
+provide a fixed airspeed scale at the middle of the indicator (<num>1</num>), reading values
+from 80 to 850 knots, and a rotating Mach number scale to the outside (<num>2</num>),
+with readings from 0.4 to 2.5 Mach. A two position push-and-rotate knob (<num>4</num>) offers both
+an airspeed
+index with a functional range between 80 and 195 knots (<num>3</num>), and a Mach index pointer
 with a range between 225 knots and 850 knots. A small friction error of the needle,
 up to 5 kts might sometimes be noticed.
 
@@ -101,11 +102,13 @@ In the primary mode of operation, the altimeter utilizes an electric servo mecha
 to achieve a precise indication.
 
 Devices in both cockpits provide a functional range from 0 to 80,000 feet. To
-the outside of the indicator is a pointer scale (5), gradation in 50 foot units with
+the outside of the indicator is a pointer scale (<num>5</num>), gradation in 50 foot units with
 markings every 100 feet (from 1 to 10). Left of center is the counter,
 increasing and decreasing in value in thousand foot increments on the black pair
-of rollers, hundred foot increments on the white (4). Barometric scale (3) adjustment
-can be performed using a dial (1). A three position switch (2) provides the RESET
+of rollers, hundred foot increments on the white (<num>4</num>). Barometric scale (<num>3</num>)
+adjustment
+can be performed using a dial (<num>1</num>). A three position switch (<num>2</num>) provides the
+RESET
 function for the altimeter to draw signals from the air data computer for normal
 operation, and the STBY (standby) option to only use the pneumatic pressure to
 determine altitude. Standby mode is noted with a red flag in the indicator. In
@@ -182,11 +185,11 @@ The mean time between failures for this instrument is 1,000 hours.
 Found in the front cockpit, the Radar Altimeter has a functional range of 0 to
 5000 feet above ground level. The radar altimeter functions from 0 to 30 degrees
 in bank angle, or 0 to 35 degrees angle in pitch. The dial scale reads from 0 to
-5000 feet, and the system includes a red low altitude warning light (2) that
+5000 feet, and the system includes a red low altitude warning light (<num>2</num>) that
 illuminates when the aircraft is detected below a pilot-set altitude.
 
 Activation and setting of the radar altimeter warning height is done with the
-same knob (1); turning the knob clockwise initially activates the indicator,
+same knob (<num>1</num>); turning the knob clockwise initially activates the indicator,
 removing the displayed OFF flag; continuing to rotate the knob moves the
 reference marker that will determine the altitude which triggers the low
 altitude warning. A self-test, initiated by pressing the function control

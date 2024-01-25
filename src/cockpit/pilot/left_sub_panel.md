@@ -5,17 +5,21 @@
 The left sub-panel features most
 of [the gear](../../systems/flight_controls_gear/gear_ground_handling.md) indicators (
 1), [Slats and Flaps](../../systems/flight_controls_gear/flight_controls.md#slats-flap-system)
-indicators (2), the external lights switch (6), the Aileron-Rudder Interconnect fuse (8), a recorder
-lamp (3), the landing gear lever (9) as well as the fuel boost pump gauges (4). Also found on it is
-the stabilator trim gauge (5) and the emergency release of the external stores (7).
+indicators (<num>2</num>), the external lights switch (<num>6</num>), the Aileron-Rudder
+Interconnect fuse (<num>8</num>), a recorder
+lamp (<num>3</num>), the landing gear lever (<num>9</num>) as well as the fuel boost pump
+gauges (<num>4</num>). Also found on it is
+the stabilator trim gauge (<num>5</num>) and the emergency release of the external stores (<num>
+7</num>).
 
 ## 8-Day Clock
 
 ![PClock](../../img/pilot_clock.jpg)
 
 A clock is provided for the pilot, including a stopwatch function. The watch can be set by turning
-the knob (1) on the left lower corner. The stopwatch function is being used by pressing the top
-right button (2). It is reset by pressing the top right button again.
+the knob (<num>1</num>) on the left lower corner. The stopwatch function is being used by pressing
+the top
+right button (<num>2</num>). It is reset by pressing the top right button again.
 
 ## Emergency Canopy Jettison Handle
 

@@ -15,7 +15,7 @@ detailed description of all the functions below.
 
 ![Power Knob](../../../img/wso_radar_power_switch.jpg)
 
-Five position rotary switch (1) controlling power state of
+Five position rotary switch (<num>1</num>) controlling power state of
 the [APQ-120 Radar.](../../../systems/radar/overview.md)
 
 | Name | Description                                                                                                                        |
@@ -32,7 +32,7 @@ See the [Radar Power Section](../../../systems/radar/interface.md#power) for mor
 
 ![Polar Switch](../../../img/wso_radar_polar_switch.jpg)
 
-The three position switch (3) controls polarization of transmitted radio frequency energy. LIN
+The three position switch (<num>3</num>) controls polarization of transmitted radio frequency energy. LIN
 should be used in normal
 conditions, CIR 1 and CIR 2 can be used to reduce precipitation clutter at the expense of increased
 ground clutter.
@@ -43,7 +43,7 @@ ground clutter.
 
 ![Range Knob](../../../img/wso_radar_range_switch.jpg)
 
-The rotary switch (2) is used to select range sweep of 5, 10, 25, 50, 100, or 200 mile ranges on
+The rotary switch (<num>2</num>) is used to select range sweep of 5, 10, 25, 50, 100, or 200 mile ranges on
 both radar displays. Ranges up to 50 are displayed on
 the [range lamp](../../pilot/dscg_controls.md#range-lights).
 
@@ -54,7 +54,7 @@ for more details.
 
 ![Maneuver Switch](../../../img/wso_radar_maneuver_switch.jpg)
 
-The two position switch (4) controls radar tracking acceleration response. LOW sets a limit on
+The two position switch (<num>4</num>) controls radar tracking acceleration response. LOW sets a limit on
 antenna acceleration and HI removes acceleration limit.
 
 [See Radar Maneuver Knob Section](../../../systems/radar/interface.md#maneuver-switch)
@@ -63,7 +63,7 @@ antenna acceleration and HI removes acceleration limit.
 
 ![Bar Scan Switch](../../../img/wso_radar_bar_scan_switch.jpg)
 
-The two position switch (5) selects elevation scan pattern between 1 and 2 bars. Only RDR-B modes
+The two position switch (<num>5</num>) selects elevation scan pattern between 1 and 2 bars. Only RDR-B modes
 can make use of 2 bars.
 
 [See Radar Scan Switch Section for more details](../../../systems/radar/interface.md#scan-switch)
@@ -72,7 +72,7 @@ can make use of 2 bars.
 
 ![Aspect Knob](../../../img/wso_radar_aspect_knob.jpg)
 
-The rotary switch (6) is used to program the [AIM-7](../../../stores/air_to_air/aim_7.md) with a
+The rotary switch (<num>6</num>) is used to program the [AIM-7](../../../stores/air_to_air/aim_7.md) with a
 predetermined simulated
 Doppler instead of actual received Doppler, so that the WSO can provide an estimated correct
 speed-gate for the sparrow when not tracking.
@@ -94,7 +94,7 @@ ranges.
 
 ![Track Switch](../../../img/wso_radar_track_switch.jpg)
 
-The three position switch (9) selects range tracking type for use in heavy clutter environments, or
+The three position switch (<num>9</num>) selects range tracking type for use in heavy clutter environments, or
 automatic tracking under normal circumstances.
 
 [See Radar Track Switch Section for more details](../../../systems/radar/interface.md#scan-switch)
@@ -103,7 +103,7 @@ automatic tracking under normal circumstances.
 
 ![Display Knob](../../../img/wso_radar_display_knob.jpg)
 
-The rotary switch (10) sets the display type of the radar scope to access specific mode
+The rotary switch (<num>10</num>) sets the display type of the radar scope to access specific mode
 functionality in conjunction with the Mode knob. The types are as follows:
 
 | Name     | Description                                                                                                   |
@@ -118,7 +118,7 @@ functionality in conjunction with the Mode knob. The types are as follows:
 
 ![Manual Vc Knob](../../../img/wso_radar_man_vc.jpg)
 
-A 12 position switch (12) used to apply estimated range rate of closure (clockwise,
+A 12 position switch (<num>12</num>) used to apply estimated range rate of closure (clockwise,
 0-9), or estimated opening of range (counterclockwise, 0-2) against a target in
 manual track mode.
 
@@ -131,7 +131,7 @@ and opening means the target is flying away from the F-4.
 
 ![Pulse Switch](../../../img/wso_radar_pulse_switch.jpg)
 
-Three position switch (11) controlling radar pulse width and pulse repetition
+Three position switch (<num>11</num>) controlling radar pulse width and pulse repetition
 frequency (PRF).
 
 | Name  | Description                                                                                                           |
@@ -146,7 +146,7 @@ frequency (PRF).
 
 ![Mode Knob](../../../img/wso_radar_mode_knob.jpg)
 
-A six position rotary switch (14) that determines the current base mode of operation of the
+A six position rotary switch (<num>14</num>) that determines the current base mode of operation of the
 radar.
 
 | Name    | Description                                                                                                                                                                                                  |
@@ -162,7 +162,7 @@ radar.
 
 ### Skin Track Light
 
-Lamp (13) that illuminates when a track is attained with range data. In the
+Lamp (<num>13</num>) that illuminates when a track is attained with range data. In the
 event of [HOJ](../../../systems/radar/operation.md#home-on-jam) or a range memory situation, the
 light
 will go off. Accompanied on the rear DSCG radar scope with the T symbol that illuminates under the
@@ -182,25 +182,25 @@ For further information see
 
 ### Dispense Button
 
-The push button (1) initiates chaff/flare dispensing as selected by Cockpit control unit
+The push button (<num>1</num>) initiates chaff/flare dispensing as selected by Cockpit control unit
 and [AN/ALE-40 programmer](../../../cockpit/pilot/left_console/aft_section.md#anale-40-programmer)
 
 ### Ripple Switch
 
-Guarded by a cover (2), when positioned ON, dispenses flares at rate of
+Guarded by a cover (<num>2</num>), when positioned ON, dispenses flares at rate of
 ten per second until dispensers are empty, so long as flaps and speed brakes are retracted.
 
 > 💡 After around 10 seconds, all countermeasure have been dispensed.
 
 ### Counters
 
-Indicate quantity of chaff (3) and flare (6) cartridges remaining, respectively.
+Indicate quantity of chaff (<num>3</num>) and flare (<num>6</num>) cartridges remaining, respectively.
 
 They are automatically set by the ground crew when rearming.
 
 ### Chaff Mode Knob
 
-A rotary switch knob (7) that controls the amount of dispensed chaff.
+A rotary switch knob (<num>7</num>) that controls the amount of dispensed chaff.
 
 | Name | Description                                                                 |
 |------|-----------------------------------------------------------------------------|
@@ -210,7 +210,7 @@ A rotary switch knob (7) that controls the amount of dispensed chaff.
 
 ### Flare Mode Knob
 
-A rotary switch knob (4) that controls the amount of dispensed flares.
+A rotary switch knob (<num>4</num>) that controls the amount of dispensed flares.
 
 | Name | Description                                                                 |
 |------|-----------------------------------------------------------------------------|

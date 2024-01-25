@@ -44,7 +44,8 @@ rotary knobs for controlling the system's volume and panel brightness.
 
 ### Priority/Open
 
-The ALR-46 defaults on power-up to OPEN mode (1), which presents up to 16 threats on the display at
+The ALR-46 defaults on power-up to OPEN mode (<num>1</num>), which presents up to 16 threats on the
+display at
 one time, depending on how many emitters are visible and current system settings (Search, LOW ALT,
 etc.). In the event the crew requires immediate prioritization of the most pressing threats in a
 saturated environment, the PRIORITY button can be pressed to display the five emitters the system
@@ -56,7 +57,8 @@ and revert back upon selection back to OPEN.
 By default, the ALR-46 is programmed to prioritize and display emitters tied to weapons that can
 engage and destroy the aircraft. However, missions will require monitoring of early warning and
 search radar systems working with longer pulse-widths for extended range detection and tracking of
-possible intruders- ie, the F-4. These emitters can be displayed using the Search mode (2), which
+possible intruders- ie, the F-4. These emitters can be displayed using the Search mode (<num>
+2</num>), which
 presents them on the RWR with the S symbol to signify their function as a long range search radar.
 Entry into Search mode is displayed on the button with an illuminated "S".
 
@@ -66,7 +68,8 @@ PRIORITY mode.
 
 ### Handoff (H with <> Diamond)
 
-The Handoff button (3) provides the opportunity for the flight crew to define the priority emitting
+The Handoff button (<num>3</num>) provides the opportunity for the flight crew to define the
+priority emitting
 threat. By default, the ALR-46 defines the highest priority threat as a function of range, current
 transmitting mode, and the threat catalog. This priority threat is visualized with a diamond
 superimposed around the emitter's symbol. In the event the pilot wishes to define a different
@@ -87,7 +90,8 @@ will be applied.
 ### Missile Launch
 
 In the event a missile launch is detected by way of discrete SAM guidance commands being received,
-the MISSILE LAUNCH indications in this button (4) will illuminate, and a circle is superimposed
+the MISSILE LAUNCH indications in this button (<num>4</num>) will illuminate, and a circle is
+superimposed
 around the threat emitter defined as guiding the inbound weapon. Pressing the button while
 illuminated will provide launch audio through the intercom.
 
@@ -97,7 +101,8 @@ illuminated will provide launch audio through the intercom.
 
 The ALR-46 utilizes own-ship altitude as a defining aspect of threat priority, thus causing low
 altitude AAA and SAM threats to lose priority in the event the aircraft is at an altitude that is
-estimated to place it outside of their threat envelope. Activating LOW ALT mode (5) removes this
+estimated to place it outside of their threat envelope. Activating LOW ALT mode (<num>5</num>)
+removes this
 envelope estimate from the threat prioritization and places low altitude threats back into priority,
 useful for circumstances such as a high to low dive attack or target ingress profile, and is
 confirmed as the active mode with the illuminated LOW ALT descriptor on the button.
@@ -105,7 +110,8 @@ confirmed as the active mode with the illuminated LOW ALT descriptor on the butt
 ### Target Separate (TGT SEP)
 
 In the event of a number of emitters being detected at such close proximity that the symbology
-overlaps on the RWR display, the Target Separation button (7) provides the option to expand
+overlaps on the RWR display, the Target Separation button (<num>7</num>) provides the option to
+expand
 symbology on the display from emitters in the same area to allow for clarity on the type and number
 of radars being detected. Pressing the button triggers the lower TGT SEP illumination on the button,
 and any emitter groups the system defines as being eligible for the expanded presentation will do so
@@ -113,7 +119,8 @@ for three seconds on the RWR display before reverting back to the standard view.
 
 ### System Test (ON/SYS TEST)
 
-The system power on test (8) provides a three band (1 low, 2 mid, 3 high) check in all four
+The system power on test (<num>8</num>) provides a three band (1 low, 2 mid, 3 high) check in all
+four
 quadrants for proper sensitivity, along with a three angle (45, 135, and 315) confirmation of
 relative bearing for diagnostic purposes. The test sequence begins with 1s in all four quadrants,
 with the upper left value in a diamond (signifying a heading of 45, which is displayed on the
@@ -124,7 +131,8 @@ accompanied with a sequence of tones for adjustment of audio monitoring level.
 ### Unknown (U)
 
 When an emitter is detected that does not have a catalog entry, but is recognized by received power,
-duration, and pulse as being a possible threat, the U indicator on the Unknown button (9) will
+duration, and pulse as being a possible threat, the U indicator on the Unknown button (<num>9</num>)
+will
 flash. Pressing the button will provide a U symbol on the RWR CRT at the correct azimuth position
 for reference and monitoring.
 
@@ -132,7 +140,8 @@ The default condition of the Unknown button is with the U symbol illuminated, bu
 
 ### Activity Power
 
-In the event SAM guidance commands are detected, the ACTIVITY button (10) will illuminate. This
+In the event SAM guidance commands are detected, the ACTIVITY button (<num>10</num>) will
+illuminate. This
 button's function is similar to the MISSILE LAUNCH indication insofar as that it responds to a
 guidance directive to a SAM, but does not respond to discrete changeover signals. Thus, an
 illuminated ACTIVITY warning may in fact indicate a launch, depending on the system engaging the F-4
@@ -143,7 +152,8 @@ emitter.
 
 ### System Power
 
-The System Power button (11) is the on/off switch for the ALR-46. When pressed to activate the
+The System Power button (<num>11</num>) is the on/off switch for the ALR-46. When pressed to
+activate the
 system, the RWR control panel and display will cycle through their initial 9-second warmup, with the
 display and illuminated buttons undergoing rapid flashing as the system is prepared for use and
 proper functioning is confirmed. Search mode is deactivated by default upon startup, and if in the
@@ -161,7 +171,8 @@ mode deactivated and the altitude priority as when power was lost.
 
 During normal operation, a trio of three T shaped indicators appear in the 9, 12, and 3 o'clock
 positions near the center of the RWR CRT. These indicators signify the absence of excess noise in
-the low (9), mid (12), and high (3) band amplifier detection. In the event noise becomes too
+the low (<num>9</num>), mid (<num>12</num>), and high (<num>3</num>) band amplifier detection. In
+the event noise becomes too
 significant in a given amplifier channel, the indicator for the respective band will disappear.
 Should this occur, a SYS TEST can be performed to confirm the channel is still functioning; in the
 event of a pass, the channel can be considered working at a reduced detection capacity.
@@ -171,11 +182,13 @@ the 6 o'clock position does not signify any function.
 
 ### Audio Knob
 
-The AUDIO Knob (6) is the direct volume control for the situational audio from the ALR-46. Turning
+The AUDIO Knob (<num>6</num>) is the direct volume control for the situational audio from the
+ALR-46. Turning
 the knob clockwise increases the audio volume, turning counter-clockwise lowers the audio volume.
 
 ### DIM Knob (Dimmer)
 
-The DIM knob (12) on the ALR-46 control panel manages the brightness setting of the illuminated
+The DIM knob (<num>12</num>) on the ALR-46 control panel manages the brightness setting of the
+illuminated
 control buttons; turning the knob clockwise increases the brightness, counter-clockwise reduces the
 brightness.
