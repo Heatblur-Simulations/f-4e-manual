@@ -1,18 +1,18 @@
-# Technical Specifications: F-4E
+# 技术规格: F-4E
 
-| Wingspan               | 38' 5" (11.7 meters)             |
+| 翼展                   | 38' 5" (11.7 米)             |
 | ---------------------- | -------------------------------- |
-| Wingspan (Folded)      | 27' 7" (8.4 meters)              |
-| Length                 | 63' (19.2 meters)                |
-| Height                 | 16' 5" (5 meters)                |
-| Wing Area              | 530 sqft (49.2 m² )              |
-| Wing Loading           | 78 lb/sqft (380 kg/m² )          |
-| Empty Weight           | 30,328 lb (13,757 kg)            |
-| Maximum Takeoff Weight | 61,795 lb (28,030 kg)            |
-| Thrust (Dry)           | 23,810 lbf (105.92 kN)           |
-| Thrust (Afterburner)   | 35,690 lbf (158.76 kN)           |
-| Combat Ceiling         | ~56,000' (~17,070 m)             |
-| Maximum Speed          | Mach 2.23; 1,280 kn (2,370 km/h) |
-| Range (Ferry)          | 1,457 nmi (2,699 km)             |
+| 翼展（折叠）            | 27' 7" (8.4 米)              |
+| 机长                   | 63' (19.2 米)                |
+| 高度                   | 16' 5" (5 米)                |
+| 机翼面积                | 530 sqft (49.2 m² )              |
+| 翼载                   | 78 lb/sqft (380 kg/m² )          |
+| 空重                 | 30328 lb (13757 千克)            |
+| 最大起飞重量           | 61795 lb (28030 千克)            |
+| 干推力                 | 23810 lbf (105.92 kN)           |
+| 加力推力               | 35690 lbf (158.76 kN)           |
+| 升限                   | ~56,000' (~17070 米)             |
+| 最高空速               |  2.23 马赫; 1280 kn (2370 km/h) |
+| 作战范围（转场）          | 1457 nmi (2699 km)             |
 
 ![f_4_assembly](../img/f_4_assembly.jpg)
