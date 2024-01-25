@@ -42,6 +42,9 @@ activate transmission (XMIT 1, XMIT 2, BOTH).
 Some jammers models can also detect that they are actively jamming an enemy radar,
 indicated by the AI light.
 
+> 🔴 To prevent exposing personnel to radiation, the mode knob must not
+> be placed in XMIT while on ground.
+
 ### Reset Button and Lamp
 
 ![ecm](../../img/wso_ecm_reset_button.jpg)
