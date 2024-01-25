@@ -40,6 +40,8 @@ Wheel.ReplaceSubMenu(sub_menu, menu_location)
 Wheel.AddItem(item, menu_location)
 Wheel.RemoveItem(item_name, menu_location)
 Wheel.ReplaceItem(item, item_name, menu_location)
+Wheel.RenameItem(new_item_name, current_item_name, menu_location)
+Wheel.SetMenuInfo(info_text, menu_location)
 ```
 
 The following shows a simple example to add a new sub-menu to the `Navigation`
@@ -65,6 +67,13 @@ local waypoint_menu = Wheel.Item:new({
 })
 
 Wheel.AddItem(waypoint_menu, {"Navigation"})
+```
+
+The info text of the menu can then be updated using
+
+```lua
+local current_waypoint = "WP 2"
+Wheel.SetMenuInfo(current_waypoint, {"Navigation", "Select Waypoint"})
 ```
 
 To react to a selected action, listen to the corresponding event:

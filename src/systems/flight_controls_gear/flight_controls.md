@@ -120,15 +120,17 @@ interfering with manual control. The automatic flight
 control system is capable of performing two modes of
 operation, **stability augmentation** and **AFCS**.
 
+> 💡 The term "AFCS" is the name of the whole system but also
+> its sub-mode in which the aircraft attitude and/or heading
+> is held and altitude hold can be activated.
+
 **Stability augmentation** improves airplane stability in pitch, roll,
-and yaw (1); it opposes any change of attitude but does not
+and yaw. It opposes any change of attitude but does not
 return the airplane to a given attitude or ground track.
 This mode of operation may be used while the aircraft is
 under manual control. Stability augmentation can be
 engaged individually or in any combination for pitch, roll,
 or yaw axis.
-
-### Autopilot
 
 The **AFCS mode** of operation maintains any
 aircraft heading and/or attitude selected within the AFCS
@@ -140,19 +142,24 @@ AFCS operation, all three STAB AUG switches must be
 engaged. The **Altitude Hold Mode** of operation (3) holds any altitude
 selected while in the **AFCS mode**.
 
-> 💡 The AFCS system can be engaged and hold maneuvers and
-> attitudes within a range of ±70° pitch, 70° in bank and 360°
-> in azimuth, providing the G limits are not being exceeded.
-> Rapid stabilator movements, whether pilot induced or
-> not, will cause the AFCS switch to disengage.
+The AFCS system can be engaged and hold maneuvers and
+attitudes within a range of ±70° pitch, 70° in bank and 360°
+in azimuth, providing the G limits are not being exceeded.
+Rapid stabilator movements, whether pilot induced or
+not, will cause the AFCS switch to disengage.
 
-> 💡 In the Altitude Hold Mode, altimeter fluctuations while accelerating
-> through the transonic range (0.9 to 1.0 Mach) will produce
-> transient fluctuations which, although not violent, may
-> cause the reference altitude to slip. Engaging the Altitude
-> Hold Mode in climbs greater than 1000 feet per minute
-> may result in a reference altitude other than the engage
-> altitude.
+If the AFCS switch
+is engaged when the airplane is less than ± 5° from wings level,
+then the the airplane will maintain a **wings level attitude**,
+and will hold the engaged **heading**.
+When the nose gear steering button
+(on the stick grip) is pressed, heading hold
+drops out and **attitude** hold is available. Heading hold
+can be re-established by once again pressing the nose
+gear steering button. If the airplane attitude is greater
+than ± 5° from wings level when the AFCS switch is
+engaged, then the airplane will maintain the bank attitude at
+the time of engagement.
 
 ### Force Transducer
 
@@ -168,12 +175,12 @@ closes a force switch. When a roll force switch closes the
 roll rate gyro signal in STAB AUG and the roll rate and
 attitude gyro signals in AFCS mode are cut out so that
 pilot initiated maneuvers are not opposed while in the
-AFCS mode.
-
-The pilot maneuvers the aircraft by
+AFCS mode. The pilot maneuvers the aircraft by
 mechanical linkages until the lateral stick force is reduced
 to less than approximately 1.5 pounds. At this time the roll
-channel is returned to normal AFCS operation. A forward
+channel is returned to normal AFCS operation.
+
+A forward
 stick force of 3.75 ±0.25 pounds or an aft stick force of 2.55
 ±0.25 pounds closes switches to operate certain AFCS
 components, and cause a force sensing device to send a
@@ -181,11 +188,11 @@ signal, proportional to the applied stick force, to the servo
 amplifier and stabilator position is controlled through the
 AFCS.
 
-If the pitch or roll limits of the AFCS (±70°) are
-exceeded, the AFCS will disengage. The AFCS switch may
-or may not disengage. If the switch does not disengage, the
-AFCS will immediately reengage when the aircraft
-returns to within the AFCS limits.
+There is no stick force transducer in the rear cockpit. The
+AFCS and roll stab aug will oppose rear cockpit stick
+inputs. Do not fly the aircraft from the rear cockpit with
+AFCS engaged. Exercise care in transferring control
+between cockpits while rolling with roll stab aug engaged.
 
 ### G-Limit Accelerometer
 

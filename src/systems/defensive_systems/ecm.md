@@ -16,7 +16,7 @@ per side. Additionally, many pods have restrictions only allowing them to be
 loaded on a some specific pylons. For example, AN/ALQ-119 and AN/ALQ-131 may not
 be equipped on the right inboard pylon (station 6).
 
-> 💡 Due to engine limitations, we can not affect the effectiveness
+> 💡 Due to engine limitations, we can not influence the effectiveness
 > of the Phantoms jammers.
 > Equipping multiple pods does not increase their strength or coverage.
 
@@ -41,6 +41,9 @@ activate transmission (XMIT 1, XMIT 2, BOTH).
 
 Some jammers models can also detect that they are actively jamming an enemy radar,
 indicated by the AI light.
+
+> 🔴 WARNING: To prevent exposing personnel to radiation, the mode knob must not
+> be placed in XMIT while on ground.
 
 ### Reset Button and Lamp
 

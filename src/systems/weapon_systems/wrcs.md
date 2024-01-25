@@ -63,7 +63,7 @@ where
 
 - \\( RA \\) = Release Advance Setting, milliseconds
 - \\( I_R \\) = AWRU Release Intervalometer setting, milliseconds
-- \\( T\_{Tgt} \\) = Impact Sequence number of bomb desired on target
+- \\( N\_{Tgt} \\) = Impact Sequence number of bomb desired on target
 
 \\[ RA = 120 \cdot (3 - 1) \\]
 
