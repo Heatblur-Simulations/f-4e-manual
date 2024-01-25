@@ -1,56 +1,46 @@
 # F-4E Air to Air Kills
 
-The F-4E Phantom II, an upgraded version of the F-4 Phantom series, played a
-significant role in air-to-air combat during the Vietnam War. Equipped with the
-AIM-7 Sparrow missile, a radar-guided weapon with beyond-visual-range
-capabilities, the F-4E had a notable advantage in engagements.
+F-4E“鬼怪”II战机，作为F-4“鬼怪”系列的升级型号，在越南战争中的空对空战斗中扮演了重要角色。
+配备了AIM-7麻雀导弹，一种具备超视距能力的雷达制导武器，F-4E在交战中拥有显著优势。
 
-In Vietnam, F-4E pilots engaged in dogfights against various enemy aircraft. The
-Sparrow missile allowed them to target adversaries from a distance, contributing
-to the aircraft's success. Key USAF pilots, such as Steve Ritchie and Chuck
-DeBellevue, achieved ace status by securing five or more air-to-air victories.
+在越南，F-4E的飞行员们与各种敌机进行了空战对抗。
+麻雀导弹使他们能够从远距离锁定对手，为飞机的成功作出了贡献。
+像Steve Ritchie和Chuck DeBellevue这样的关键美国空军飞行员通过获得五次或更多的空对空胜利，获得了王牌飞行员的地位。
 
-The total number of air-to-air kills attributed to the F-4E Phantom II,
-combining both the USAF and USN, is estimated to be around 21 during the Vietnam
-War, including 4 MiG-19s and 17 MiG-21s. However, this figure may vary across
-sources. In total, F-4C/D/E Variants shot down 107 MiG jets, rewarding it the
-nickname _"Biggest distributor of MiG parts"_.
+F-4E“鬼怪”II战机在越南战争期间，结合美国空军（USAF）和美国海军（USN）的数据，估计共击落了大约21架敌机，其中包括4架米格-19和17架米格-21。
+然而，这个数字在不同来源中可能有所不同。
+总的来说，F-4C/D/E型号共击落了107架米格战机，因此被称为 _“米格零件最大的分销商”_。
 
-Despite its effectiveness, the F-4E faced challenges in close-quarters combat
-due to the initial absence of an internal cannon. Modifications, including the
-addition of an M61 Vulcan cannon, addressed this limitation and improved the
-aircraft's performance in close-range engagements.
+尽管F-4E在空战中表现出色，但由于最初缺少内置航炮，在近距离空战中面临挑战。后来的改进，包括增加了M61火神炮，问题迎刃而解，提高了飞机在近距离交战中的性能。
 
-The success of the F-4E Phantom II in Vietnam solidified its reputation as a
-versatile and formidable fighter, and it continued to serve in air forces
-worldwide for many years.
+F-4E“鬼怪”II战机在越南战争中的成功巩固了其作为一种多功能且强大的战斗机的声誉，继续在全球多个国家的空军中服役数年。
 
 ![real_life_f4_firing_aim_7](../img/real_life_f4_firing_aim_7.jpg) _a Marine F-4
 Phantom II from Marine Fighter/Attack Squadron 314 firing an AIM-7 Missile_
 
 ## USAF
 
-In detail, the USAF confirmed 21 kills.
+详细数字，USAF 确认的 21 个击落。
 
-| Kills | Aircraft |
+| 击落 | 机型 |
 | ----: | -------- |
 |    17 | MiG-21   |
 |     4 | MiG-19   |
 
-Scored with the following weapons:
+由以下武器击落:
 
-| Kills | Weapon   |
+| 击落 | Weapon   |
 | ----: | -------- |
 |    10 | AIM-7    |
 |     5 | AIM-9    |
-|     5 | Gun      |
-|     1 | Maneuver |
+|     5 | 航炮      |
+|     1 | 机动     |
 
 ## IAF
 
-In combat, the Israeli Air Force downed 116 jets.
+战斗中，以色列空军击落 116 架。
 
-| Kills | Aircraft |
+| 击落 | 机型 |
 | ----: | -------- |
 |    81 | MiG-21   |
 |    14 | MiG-17   |
@@ -59,20 +49,20 @@ In combat, the Israeli Air Force downed 116 jets.
 |     1 | AS-5     |
 |     1 | IL-28    |
 
-Scored with the following weapons:
+由以下武器击落:
 
-| Kills | Weapon                  |
+| 击落 | Weapon                  |
 | ----: | ----------------------- |
 |    44 | AIM-9                   |
-|    33 | Gun                     |
-|    32 | Maneuver or Unspecified |
+|    33 | 航炮                     |
+|    32 | 机动或不明               |
 |     7 | AIM-7                   |
 
 ## IRIAF
 
-The IRIAF shot down 83 aircraft.
+IRIAF 击落 83 架。
 
-| Kills | Aircraft     |
+| 击落 | 机型     |
 | ----: | ------------ |
 |    29 | MiG-21       |
 |    21 | MiG-23       |
@@ -85,13 +75,13 @@ The IRIAF shot down 83 aircraft.
 |     1 | Mirage 5     |
 |     1 | Bell 412     |
 |     1 | SA 321       |
-|     1 | Unidentified |
+|     1 | 未查明        |
 
-Scored with the following weapons:
+由以下武器击落:
 
-| Kills | Weapon                  |
+| 击落 | Weapon                  |
 | ----: | ----------------------- |
 |    46 | AIM-9                   |
-|    22 | Maneuver or Unspecified |
-|     9 | Gun                     |
+|    22 | 机动或不明              |
+|     9 | 航炮                     |
 |     6 | AIM-7                   |
