@@ -1,155 +1,73 @@
-# Foreign Service: The Legacy of a Phantom
+# 异国服役: 鬼怪的传奇
 
-The F-4's legacy did not stop at the US border. Its performance made it of
-interest to many US allies of its era, and the Phantom II remains in limited
-service as of this writing. With the F-4E being the most numerous of the type,
-it was natural it would be the model with the furthest reach.
+F-4 的传奇并未止步于美国国界。它的性能引起了当时许多美国盟友的兴趣，而“鬼怪”II战斗机至今仍有少数在服役。F-4E 作为数量最多的型号，自然也是影响力最广的型号。
 
-Amidst the ever-evolving landscape of military technology, foreign operators of
-the F-4E undertook comprehensive upgrades and modernization efforts. These
-initiatives were aimed at extending the aircraft's service life and enhancing
-its combat capabilities. The F-4E, with its powerful
-engines, evolved to meet the demands of contemporary warfare, solidifying its
-place as a venerable platform in the arsenals of its adoptive nations.
+在不断发展的军事技术领域中，F-4E的外国用户对其进行了全面的升级和现代化改造。这些举措旨在延长飞机的服役寿命并增强其作战能力。F-4E凭借其强大的发动机适应了现代战争的需求，巩固了它作为采用国军械库中一款令人尊敬的平台的地位。
 
-The F-4E Phantom II's foreign service was not merely a chapter in the history of
-military aviation but a saga that unfolded across continents and through the
-corridors of geopolitical power. Its adaptability, longevity, and combat prowess
-etched the Phantom into the collective memory of the nations that flew it,
-leaving an enduring legacy in the skies it once dominated.
+F-4E“鬼怪”II战机的外国服役经历不仅仅是军事航空史上的一个章节，而是一段跨越大陆、穿越地缘政治走廊的长篇故事。它的适应性、长寿命和作战能力将“鬼怪”刻画在用户国家的集体记忆中，留下了在曾经统治过的天空中持久的遗产。
 
-![real_life_f_4e_greece_lands_in_riat](../img/real_life_greek_phantom_lands_riat.jpg)
-_(Hellenic Air Force F-4E Phantom II lands at RIAT 2008, UK)_
+![real_life_f_4e_greece_lands_in_riat](../img/real_life_greek_phantom_lands_riat.jpg) _(Hellenic Air Force F-4E Phantom II lands at RIAT 2008, UK)_
 
-## Israel
+## 以色列
 
-The first nation to receive the F-4E on export, Israel, designated it **Kurnass
-(Sledgehammer)**.
+首个接收出口版 F-4E 的国家，以色列，将其命名为 Kurnass（重锤）
 
-Phantom would see combat with the IAF within months of delivery, seeing multiple
-kills in the war of attrition against Egypt and skirmishes with Syria. The 1973
-Yom Kippur War would see the Phantom acquit itself spectacularly, downing 85
-Arab aircraft in exchange for 5 lost in air combat. But it was the Phantoms
-performance as an air to ground asset that would draw the most focus from the
-IAF, seeing the F-4E specializing in that role as the F-15 and F-16 were made
-available to the nation for export purchase.
+鬼怪战斗机在交付后的几个月内就与以色列空军（IAF）一同参与了战斗，在对埃及的消耗战和与叙利亚的小规模冲突中取得了多次击落。1973年的赎罪日战争中，鬼怪战斗机表现出色，击落了85架阿拉伯飞机，而自身仅在空战中损失了5架。但是，鬼怪战斗机作为空对地资产的表现更受以色列空军的关注，随着F-15和F-16被允许出口给以色列，F-4E 在这个角色上愈发专业化。
 
-The Kurnass would ultimately receive a number of vital upgrades to keep the type
-viable beginning in 1987, with the installation of the APG-76 radar, a new
-mission computer and HUD, and the ability to deliver the Popeye air to surface
-missile. The IAF would ultimately receive between 212 and 222 F-4Es.
+从1987年开始，为了保持 -E 的任务能力，Kurnass（重锤）最终接受了一系列重要的升级，包括安装APG-76雷达、新的任务计算机和 HUD，以及投放突眼导弹的能力。以色列空军最终将接收212至222架F-4E战斗机。
 
-## Australia
+## 澳大利亚
 
-Australia would be the second import customer for the F-4E, but only on a
-limited time basis. Twenty-four F-4Es were provided to the RAAF on a lease basis
-by the United States as a stopgap measure due to delays in deliveries of the
-F-111C.
+澳大利亚是第二位F-4E进口用户，但仅限于有限的时间基础上。由于F-111C交付延迟，美国向澳大利亚皇家空军（RAAF）租借了24架F-4E战斗机作为权宜之计。
 
-The F-4E would operate in Australian service for just three years, beginning in
-September of 1970 to 1973. Australian aircrews were impressed with the Phantom's
-performance for their needs, and while the US offered to let the RAAF buy the
-leased airframes outright, this offer was ultimately rejected.
+F-4E在澳大利亚的服役仅持续了三年——从1970年9月开始至1973年。澳大利亚的机组人员对“鬼怪”在满足他们需求方面的表现印象深刻，虽然美国提出让RAAF直接购买这些租借的机身，但这一提议最终被拒绝。
 
-## Japan
+## 日本
 
-![JASDF F-4 starting](../img/JASDF_F-4_Phantoms.jpg)
-_(F-4EJ Kais of the JASDF of the 8th Hikōtai taking off in 2002, US Navy Photo)_
+![JASDF F-4 starting](../img/JASDF_F-4_Phantoms.jpg) _(F-4EJ Kais of the JASDF of the 8th Hikōtai taking off in 2002, US Navy Photo)_
 
-With permission of the US State Department and license terms with McDonnell
-Douglas, Mitsubishi Heavy Industries would build the F-4E locally, designated as
-the F-4EJ. The -4EJ would be provided compatibility with Japanese built weapons,
-but the omission of the refueling probe and AJB-7 bombing computer due to treaty
-restrictions on the JASDF.
+在美国国务院的许可和与麦道公司的许可协议下，三菱重工将在本地生产F-4E，称为F-4EJ。F-4EJ将兼容日本制造的武器，但由于对JASDF.的条约限制，省略了受油口和AJB-7轰炸计算机。
 
-The -4EJ was updated as the 'Kai' in 1984, receiving the APG-66J radar and ASM-1
-and - 2 anti-shipping missiles. The F-4EJ would serve Japan over 40 years, with
-the final examples being withdrawn in March of 2021.
+1984年，F-4EJ升级为 “Kai”，配备了APG-66J雷达以及ASM-1和-2反舰导弹。F-4EJ在日本服役超过40年，最后一批战斗机于2021年3月退役。
 
-## Iran
+## 伊朗
 
-First receiving the F-4E in 1971, the IIAF received 177 F-4Es through various
-delivered batches into the late 1970s. In the aftermath of the Iranian
-Revolution, now-IRIAF F-4Es saw extensive use - and numerous successes, against
-the forces of Saddam Hussein.
+IIAF于1971年首次接收F-4E，通过多批交付直到1970年代后期共接收了177架F-4E。在伊朗革命后，现在IRIAF的F-4E得到了广泛使用，并在对抗萨达姆·侯赛因的部队时取得了许多成功。
 
-The first raid on the Osirak Nuclear Plant in September of 1980 was performed by
-four F-4Es, damaging the reactor and control facilities; this raid preempted the
-more famous IAF attack on the same facility that destroyed it permanently. In
-like fashion, April of 1981 saw F-4E's as the primary strike aircraft during the
-raid on all three airfields of the H-3 complex in western Iraq.
+1980年9月，四架F-4E对奥斯拉克核电站的进行了突袭，损坏了反应堆和控制设施；这次突袭先于更著名的以色列空军对同一设施的攻击，后者最终将其永久摧毁。同样，在1981年4月，F-4E作为主要打击飞机，在对伊拉克西部H-3基地的所有三个机场的突袭中发挥了作用。
 
-The conflict with Iraq came at substantial cost to both airframes and crews,
-with western weapons embargoes severely limiting the ability of the IRIAF to
-maintain the Phantom II effectively. By the end of the war, even local estimates
-put the available number of flyable F-4s below four dozen. While local industry
-attempted to revitalize the Phantom in the aftermath of the conflict, current
-evaluations put their total F-4 force near 60, between their remaining F-4D,
-F-4E, and RF-4Es.
+与伊拉克的冲突对双方的飞机和机组人员造成了巨大损失，西方的武器禁运严重限制了IRIAF 维护“鬼怪”II的能力。到战争结束时，即使是当地的估计也将可飞行的F-4数量降少于 50 架。虽然当地工业在冲突后试图重振鬼怪战斗机，但目前的评估将他们的F-4部队总数定在60架左右，包括他们剩余的F-4D、F-4E和RF-4E。
 
-## Greece
+## 希腊
 
-The Hellenic Air Force's initial F-4E deliveries began in 1974, with annual
-deliveries stopped due to politics in 1981. The HAF's combined Phantom II force
-topped out at 121 airframes purchased (F-4E and RF-4E), with reinforcement
-stocks of former USAF jets bringing that number to is final value in the
-post-Desert Storm drawdown.
+希腊空军的首批F-4E于1974年交付，由于政治原因，年度交付在1981年停止。在沙漠风暴行动后完成数量削减，再加上从美国空军补充的存量，HAF的鬼怪II战斗机部队最多时达到了121架（F-4E和RF-4E）。
 
-Upgrades by DASA to Greek Phantoms has been extensive, and was built around a
-similar model to the Lutfwaffe's F-4F ICE. Most notably, the HAF F-4E has
-received the APG-65 for AMRAAM (including a replacement digital BUS), HUD, and
-LITENING pod compatibility.
+DASA对希腊鬼怪战斗机的升级非常广泛，其升级模式与德国空军的F-4F ICE类似。最值得注意的是，希腊空军的F-4E接收了APG-65雷达用于发射AMRAAM导弹（包括替换数字总线）、HUD和兼容LITENING吊舱。
 
-The HAF Phantoms have also received specific upgrades based on their intended
-squadron roles, with inertial navigation replacement and GPS inclusion for those
-specializing in the air to surface role. Greece currently retains over 30
-Phantoms on active duty.
+希腊空军的“鬼怪”战机根据各中队特定的任务接受了专门的升级，其中包括为专注于对地作战的战机替换惯导系统并加入GPS。目前，希腊仍有30余架“鬼怪”战机在役。
 
-## Turkey
+## 土耳其
 
-Turkey's Phantom service has been extensive, with over 160 F-4Es procured (along
-with an additional 60+ RF-4Es), beginning in 1974. Deliveries of Phantoms have
-been both new build and former USAF, and in the mid-90s, Israeli Aerospace
-Industries (IAI) was tapped to bring them into the next century.
+土耳其的“鬼怪”服役历程更加深入，自1974年起，已采购超过160架F-4E（以及额外的60多架RF-4E）。这些“鬼怪”战机既有全新制造的，也有原属于美国空军的。到了90年代中期，土耳其选择了以色列航空工业公司（IAI）来对这些战机进行升级，使它们能够适应新世纪的战场。
 
-Based around a proposed upgrade program for the IAF, the F-4E Terminator 2020
-deleted over 1600 lbs of excess weight from the aircraft by wiring and hydraulic
-system replacements, integrated the Elta M-2032 radar, a full HOTAS
-implementation, MFDs, a true HUD, and extensive weapons systems updates, Popeye
-and GBU integration, as well as the LITENING II targeting pod. The Turkish Air
-Force intends to maintain the remaining 30 or so airframes in service until the
-mid-2030s.
+以色列空军提出的升级计划为基础，F-4E Terminator 2020 通过更换电线和液压系统减轻了飞机超过1600磅的多余重量、整合Elta M-2032雷达、全面加装HOTAS系、 MFD、真HUD，以及广泛的武器系统更新、突眼导弹和集成GBU，还有LITENING II瞄准吊舱。土耳其空军计划维持剩余的大约30架飞机服役到2030年代中期。
 
-## Germany
+## 德国
 
-![F-4Fs german air force 1998](../img/F-4Fs_JG74_1998.jpg)
-_(F-4Fs of the German Air Force in 1998, USAF Photo)_
+![F-4Fs german air force 1998](../img/F-4Fs_JG74_1998.jpg) _(F-4Fs of the German Air Force in 1998, USAF Photo)_
 
-Primarily an F-4F and RF-4E customer - the largest F-4 export recipient with 263
-delivered overseas, Germany would purchase 10 F-4Es to be based in the United
-States for the type conversion of their aircrews training alongside USAF units.
+作为主要的F-4F和RF-4E用户——拥有263架交付海外的最大F-4出口接收国，德国购买了10架F-4E，部署在美国境内，以便他们的空勤人员能与美国空军部队一同接受机型转换培训。
 
-## South Korea
+## 韩国
 
-![real_life_f4_korean_crewchief_american_pilot](../img/real_life_f4_korea_TEAM_SPIRIT_86.jpg)
-_A korean air force crew chief helps a 497th tactical fighter squadron pilot
-into the cockpit of his F-4E during Exercise TEAM SPIRIT 1986_
+![real_life_f4_korean_crewchief_american_pilot](../img/real_life_f4_korea_TEAM_SPIRIT_86.jpg) _A korean air force crew chief helps a 497th tactical fighter squadron pilot into the cockpit of his F-4E during Exercise TEAM SPIRIT 1986_
 
-A long time F-4 recipient, South Korea supplanted its force of F-4Ds with brand
-new F-4Es beginning in 1977, ultimately purchasing a total of 103.
+作为长期的F-4接收国，韩国从1977年开始用全新的F-4E取代了其F-4D机队，最终累计购买了103架。
 
-South Korea was the recipient of the final US built F-4 Phantom, 78-0744, in
-October of 1979. As of this writing, the RoKAF retains the F-4E in service, with
-the intention of withdrawing it in 2024.
+1979年10月，韩国接收了最后一架美国制造的F-4“鬼怪”战机，机身编号为78-0744。截至目前，F-4E在 RoKAF 中仍然保持在服役状态，计划于2024年将其退役。
 
-## Egypt
+## 埃及
 
-The final F-4E export customer, Egypt, received purchasing rights through its
-peace treaty with Israel and the Peace Pharaoh agreement; rather than new build
-airframes, Egypt received 35 former USAF aircraft.
+作为最后一个F-4E出口客户，埃及通过与以色列的和平条约以及“和平法老”协议获得了购买权；埃及接收的不是全新飞机，而是35架原属美国空军的飞机。
 
-The Phantom was ultimately a precursor towards the nation's purchase of the
-F-16, and went through initial difficulties in servicing by their maintenance
-crews. McDonnell Douglas advisors aided the Egyptian squadrons to get their
-operational ready rates back up to standard, and the Phantom II went on to serve
-the EAF into the late 90s.
+“鬼怪”最终成为该国购买F-16的前奏，并在最初的维护服务中遇到了困难。麦道公司的顾问帮助埃及的中队解决了这些问题，使他们的战备率重新达到了标准水平，而“鬼怪II”继续为EAF服务至90年代末期。
