@@ -16,7 +16,6 @@
 
 提供 [空加系统](../../systems/utility.md#air-refueling-system) 的状态指示。
 
-
 | 名称       | 描述                                                       |
 | ---------- | ---------------------------------------------------------- |
 | READY      | 在受油口完全展开时亮起。当供油硬管锁定或收起受油口时熄灭。 |
@@ -45,4 +44,5 @@ HUD 左右两侧有一对指示器，可根据发光位置和颜色快速确认�
 
 ![AoA_table](../../img/AoA_table.jpg)
 
-分度器还可以指示武器转向提示，以及一个用作备份音频提示的音调提示系统。详见 [3.1.2 飞行控制设备，迎角系统部分](../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system) 。
+分度器还可以指示武器转向提示，以及一个用作备份音频提示的音调提示系统。
+详见 [3.1.2 飞行控制设备，迎角系统部分](../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system) 。
