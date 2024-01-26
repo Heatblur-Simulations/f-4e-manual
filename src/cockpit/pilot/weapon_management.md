@@ -3,12 +3,18 @@
 ![MwsGroup](../../img/pilot_weapon_management.jpg)
 
 This group on the left area of the main panel provides all weapon related settings, such as arming
-missiles or selecting the bomb delivery mode. It features a true airspeed indicator (1), a Head Up
-Display Indicator (2), a flight instrument brightness knob (3), the nose/tail arming switch (5), the
-station select buttons (6), the radar altitude altimeter (4), the master arm switch (7), the
-delivery mode knob (8), the weapon selector knob (9), the missile status lights (10), the radar
-missile power switch (11), the centerline tank aboard light (12), the interlock switch (13), the
-selective jettison control (17) and the AWRU controls (14,15 and 16).
+missiles or selecting the bomb delivery mode. It features a true airspeed indicator (<num>1</num>),
+a Head Up
+Display Indicator (<num>2</num>), a flight instrument brightness knob (<num>3</num>), the nose/tail
+arming switch (<num>5</num>), the
+station select buttons (<num>6</num>), the radar altitude altimeter (<num>4</num>), the master arm
+switch (<num>7</num>), the
+delivery mode knob (<num>8</num>), the weapon selector knob (<num>9</num>), the missile status
+lights (<num>10</num>), the radar
+missile power switch (<num>11</num>), the centerline tank aboard light (<num>12</num>), the
+interlock switch (<num>13</num>), the
+selective jettison control (<num>17</num>) and the AWRU controls (<num>14</num>, <num>15</num>
+and <num>16</num>).
 
 ## Range Indicator
 
@@ -17,17 +23,19 @@ selective jettison control (17) and the AWRU controls (14,15 and 16).
 This panel provides the pilot with a readout of the slant range measured by the [Pave
 Spike](../../systems/weapon_systems/pave_spike/overview.md) Targeting Pod (x100 ft).
 
-When the Test-Button (2) is pressed, the display shows 888. The knob underneath (3) the test button
+When the Test-Button (<num>2</num>) is pressed, the display shows 888. The knob underneath
+(<num>3</num>) the test button
 controls the brightness of the readout.
 
-The Mode-Knob (1) allows the pilot to select one of two weapon delivery modes available with the
+The Mode-Knob (<num>1</num>) allows the pilot to select one of two weapon delivery modes available
+with the
 pod:
 
 - [WRCS](../../systems/weapon_systems/wrcs.md) - Automatic Delivery
 - ROR - Release on Range
 
 In the SET position, the display shows the desired release range used in the ROR mode. The knob
-below the readout (4) can be used to adjust this range.
+below the readout (<num>4</num>) can be used to adjust this range.
 
 ## Head Up Display Indicators
 
@@ -187,17 +195,18 @@ see [3.11.2 Aircraft Weapons release unit (AWRU).](../../systems/weapon_systems/
 
 ### Interval Knob
 
-The interval knob (1) provides release pulse sequences between 0.05 second and 1 second.
+The interval knob (<num>1</num>) provides release pulse sequences between 0.05 second and 1 second.
 
 ### Interval Switch
 
-The INTRVL switch (2) provides the option of a 10x multiplier of the set value of the interval knob.
+The INTRVL switch (<num>2</num>) provides the option of a 10x multiplier of the set value of the
+interval knob.
 In
 the NORM position, the interval knob value is the trigger timer.
 
 ### Quantity Knob
 
-The quantity knob (3) controls how many stores are released per impulse.
+The quantity knob (<num>3</num>) controls how many stores are released per impulse.
 
 Selecting "1" places the AWRU into single manual bombing mode; one push of the bomb release button
 releases one bomb.
@@ -228,7 +237,8 @@ configured [4.2 air-to-air missiles chapter](../../stores/air_to_air/overview.md
 
 ### Radar Lights
 
-The RDR lights (2) illuminate once AIM-7 missiles are properly tuned with the fire control system;
+The RDR lights (<num>2</num>) illuminate once AIM-7 missiles are properly tuned with the fire
+control system;
 any
 station that does not carry a Sparrow, does not correctly sync up during tuning, or is launched,
 will turn off.
@@ -238,7 +248,8 @@ stations 6 and 7 respectively.
 
 ### Heat Lights
 
-The HEAT lights (1) illuminate one at a time, rather than all up upon circuit configuration. The
+The HEAT lights (<num>1</num>) illuminate one at a time, rather than all up upon circuit
+configuration. The
 light
 of the currently selected station will illuminate beginning at the raising of the gear handle, and
 remain in that position until the weapon is either cycled using the throttle's Gun/Missile Switch

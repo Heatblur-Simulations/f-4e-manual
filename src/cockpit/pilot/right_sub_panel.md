@@ -3,8 +3,9 @@
 ![pilot_right_sub_panel](../../img/pilot_right_sub_panel_overview.jpg)
 
 The right sub-panel area is dominated by a group of warning lights. It also features the canopy
-manual unlock handle (1), the generator indicator lights (2), the telelight annunciator panel (3),
-the light circuit breakers (4) and the KY-28 Mode indicator lights (5).
+manual unlock handle (<num>1</num>), the generator indicator lights (<num>2</num>), the telelight
+annunciator panel (<num>3</num>),
+the light circuit breakers (<num>4</num>) and the KY-28 Mode indicator lights (<num>5</num>).
 
 ## Generator Indicator Lights
 
@@ -44,8 +45,8 @@ operations.
 
 ![KY28Mode](../../img/pilot_ky_28.jpg)
 
-Dependent on mode, the illuminated display shows P for Plain mode (1), or C for
-Cipher mode (2).
+Dependent on mode, the illuminated display shows P for Plain mode (<num>1</num>), or C for
+Cipher mode (<num>2</num>).
 
 > 💡 UHF communications require the system be in Plain mode, even
 > with system power off, barring usage and monitoring of guard channel.
@@ -80,8 +81,8 @@ those that do not will be noted.
 Hidden behind a bundle of cables to the right of the telelight panel are two
 circuit breakers controlling lights.
 
-The upper one (1) is responsible for powering the primary instrument lights, while
-the lower circuit breaker (2) powers all indicator and warning lights.
+The upper one (<num>1</num>) is responsible for powering the primary instrument lights, while
+the lower circuit breaker (<num>2</num>) powers all indicator and warning lights.
 
 ## Canopy Manual Unlock Handle
 

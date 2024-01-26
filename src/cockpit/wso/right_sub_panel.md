@@ -87,8 +87,9 @@ run through the warmup period again. If the fault could be cleared, the light wi
 ![wso_labs_angle](../../img/wso_release_angle.jpg)
 
 Used to enter the required angle values for [ARBCS/LABS](../../systems/weapon_systems/arbcs.md)
-bombing modes; the Low Angle control (1) may be set from 0 to 89.9 degrees, and the High Angle
-control (2) may be set from 70 to 179.9 degrees.
+bombing modes; the Low Angle control (<num>1</num>) may be set from 0 to 89.9 degrees, and the High
+Angle
+control (<num>2</num>) may be set from 70 to 179.9 degrees.
 
 The high Angle control is used
 for [over-the-shoulder bombing,](../../stores/air_to_ground/bombs/employment.md#instantaneous-over-the-shoulder---inst-os)
@@ -102,9 +103,9 @@ For calculations of the angles see the [bombing calculator](../../dcs/bombing_co
 Entry of applicable timing for pull-up signal or release are performed with the
 Bombing Timers.
 
-The Pull-up timer (1) may be set from 0 to 60 seconds, and the
-Release timer (2) may be set from 0 to 30 seconds. Minimum increment for each timer
-is 0.1 seconds. Both values are shown by two three digit rollers (3) above the knobs.
+The Pull-up timer (<num>1</num>) may be set from 0 to 60 seconds, and the
+Release timer (<num>2</num>) may be set from 0 to 30 seconds. Minimum increment for each timer
+is 0.1 seconds. Both values are shown by two three digit rollers (<num>3</num>) above the knobs.
 
 The Bombing timers may be used for every
 [timed employment method](../../stores/air_to_ground/bombs/employment.md).

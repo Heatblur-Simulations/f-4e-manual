@@ -19,7 +19,7 @@ and [bombing computer.](../../../systems/weapon_systems/wrcs.md)
 
 ### Mode Selector Knob
 
-Switches (2) between different operating modes — Compass, DG (directional gyro), and
+Switches (<num>2</num>) between different operating modes — Compass, DG (directional gyro), and
 Slaved. It also has a spring-loaded SYNC position for fast synchronization of
 the azimuth system based on the compass flux valve signal. The flux valve is an electronic
 sensor in the aircraft's left wing that detects magnetic fields to provide the primary
@@ -43,12 +43,12 @@ errors by doubling drift compensation due to INS corrections.
 
 ### Set Heading Control Knob
 
-Push-to-turn knob (1), spring-loaded to return to the center, permits manual
+Push-to-turn knob (<num>1</num>), spring-loaded to return to the center, permits manual
 adjustment of the azimuth, crucial when operating in the DG mode.
 
 ### Sync Indicator
 
-Displays (4) the azimuth deviation between the flux valve signal and the internal
+Displays (<num>4</num>) the azimuth deviation between the flux valve signal and the internal
 reference system.
 
 ## Exterior Lights Control Panel
@@ -80,23 +80,25 @@ the [3.9 lighting chapter.](../../../systems/lighting.md#exterior-lighting)
 
 ### Fuselage Switch
 
-The three position switch (1) controls the three white fuselage lights.
+The three position switch (<num>1</num>) controls the three white fuselage lights.
 
 Additionally, if set to BRT and the Flasher Switch is set to FLASH, both
 anti-collision lights illuminate.
 
 ### Tail Switch
 
-The three position switch (3) controls the position light on the tail.
+The three position switch (<num>3</num>) controls the position light on the tail.
 
 ### Wing Switch
 
-The three position switch (4) controls two of the three position and the two join-up lights on the
+The three position switch (<num>4</num>) controls two of the three position and the two join-up
+lights on the
 wingtips.
 
 ### Flasher Switch
 
-A three position switch (2) that can be set to OFF, STEADY or FLASH to additionally control the
+A three position switch (<num>2</num>) that can be set to OFF, STEADY or FLASH to additionally
+control the
 setting for:
 
 - one of the two anti-collision lamps
@@ -117,13 +119,13 @@ primarily controlled by the WSO and records the intercom sound, as well as the
 rear radar screen.
 
 Footage is recorded on a standard u-matic S cassette, which can be removed and
-replaced using the EJECT Button on the top left of the box. The UNTHREAD button (2)
+replaced using the EJECT Button on the top left of the box. The UNTHREAD button (<num>2</num>)
 next to it is used to unthread the tape of the cassette back to the start,
 causing it to overwrite previously recorded footage.
 
-> 💡 Cassette ejection (1) is currently not simulated.
+> 💡 Cassette ejection (<num>1</num>) is currently not simulated.
 
 The cassette can record up to 20 minutes, indicated on the small display
-labelled ELAPSED TIME (3).
+labelled ELAPSED TIME (<num>3</num>).
 
 See [9.6 DCS Recorders](../../../dcs/recorders.md) for details on how to access the footage.

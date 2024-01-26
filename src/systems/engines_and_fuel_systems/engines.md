@@ -213,7 +213,7 @@ the Engine Master Switches off, otherwise the valves will remain open.
 
 Paired throttles are provided in both cockpits for engine thrust control. In normal use, movement of
 the throttles from IDLE to OFF will perform fuel cutoff; to prevent inadvertent engine shutdown, a
-pair of finger lifts (3) are provided to lock out the OFF position without performing this
+pair of finger lifts (<num>3</num>) are provided to lock out the OFF position without performing this
 actuation. Afterburner is attained by shifting the throttles outboard (left) at the MIL stop, then
 pushing them forward.
 

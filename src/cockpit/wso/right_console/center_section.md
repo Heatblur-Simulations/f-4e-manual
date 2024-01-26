@@ -11,8 +11,8 @@ information see the [WRCS chapter](../../../systems/weapon_systems/wrcs.md).
 ### Target Distance Controls
 
 A pair of four position drum roller windows with matching analog knobs. The top
-window (1) references distances in the North-South orientation (with the first
-roller marked N/S), and the lower window (2) references distances in the East-West
+window (<num>1</num>) references distances in the North-South orientation (with the first
+roller marked N/S), and the lower window (<num>2</num>) references distances in the East-West
 orientation (with the first roller marked E/W).
 
 The rollers reference the distance shown in increments of 100 feet, thus a
@@ -25,7 +25,7 @@ the window in the last digit position.
 
 ### Target/IP Altitude Control
 
-A three position drum roller window (3) with matching analog knob used to enter the
+A three position drum roller window (<num>3</num>) with matching analog knob used to enter the
 altitude of either the Radar initial Point or the actual target itself, and is referenced in
 increments of 100'. Fractional values can be entered as described previously.
 This value can be changed once Radar Initial Point (RIP) or Visual Ingress Point (VIP) is
@@ -33,7 +33,8 @@ properly defined to increase release system accuracy.
 
 ### Drag Coefficient Control
 
-A three position drum roller window (4) with matching analog knob used to enter the drag coefficient
+A three position drum roller window (<num>4</num>) with matching analog knob used to enter the drag
+coefficient
 value for the weapon being used from the bombing tables for the intended release mode.
 
 > 🚧 Lookup tables will soon be provided. However,
@@ -42,7 +43,8 @@ value for the weapon being used from the bombing tables for the intended release
 
 ### Release Advance Control
 
-A three position drum roller window (5) with matching analog knob used to advance the release signal
+A three position drum roller window (<num>5</num>) with matching analog knob used to advance the
+release signal
 given from the [WRCS](../../../systems/weapon_systems/wrcs.md) to the fire control system relative
 to the WRCS target point, in any duration from 0 to 999 milliseconds. Also functions in conjunction
 with [ARBCS/LABS](../../../systems/weapon_systems/arbcs.md) programmed release
@@ -56,7 +58,8 @@ the [bombing calculator](../../../dcs/bombing_computer.md).
 
 ### Release Range Control
 
-A three position drum roller window (6) with matching analog knob used to manually set bomb range in
+A three position drum roller window (<num>6</num>) with matching analog knob used to manually set
+bomb range in
 accordance with the weapon's bomb release schedule entry in the bomb tables.
 
 The range can be calculated with
@@ -64,7 +67,7 @@ the [bombing calculator](../../../dcs/bombing_computer.md).
 
 ### WRCS BIT Knob
 
-A six position knob (7) utilized to perform BIT checks against the
+A six position knob (<num>7</num>) utilized to perform BIT checks against the
 individual [WRCS](../../../systems/weapon_systems/wrcs.md)
 delivery modes. The BIT check is performed by selecting the desired mode for
 testing, pressing the knob for five seconds, then pressing the Freeze button on
@@ -84,7 +87,7 @@ the [Delivery Mode Knob](../../../cockpit/pilot/weapon_management.md#delivery-mo
 
 ### Freeze Button
 
-A push button (1) used in air to ground bombing with
+A push button (<num>1</num>) used in air to ground bombing with
 the [WRCS](../../../systems/weapon_systems/wrcs.md) to initiate
 velocity tracking of the
 aircraft from the [INS,](../../../systems/nav_com/ins.md) as well as maintain a hold of the target
@@ -95,7 +98,7 @@ is pressed, or another delivery mode is selected.
 
 ### Target Insert Button
 
-A push button (2) that inserts the North-South and East-West offset values entered into
+A push button (<num>2</num>) that inserts the North-South and East-West offset values entered into
 the [WRCS](../../../systems/weapon_systems/wrcs.md)
 control panel into the [WRCS](../../../systems/weapon_systems/wrcs.md) computer, performing the
 offset against the Radar initial Point
@@ -111,13 +114,14 @@ system also utilizes the Target Insert functionality for its Memory Mode.
 
 ### Reset Button
 
-Pressing the Reset Button (3) drops the currently tracked ground target location
+Pressing the Reset Button (<num>3</num>) drops the currently tracked ground target location
 from [WRCS](../../../systems/weapon_systems/wrcs.md) computer memory, returns the Along and Cross
 Track cursors to their default positions, and resets the velocity tracking system values to zero.
 
 ### Along Track Wheel
 
-The Along Track wheel (4) is used to define relative range of the aircraft to the Radar initial
+The Along Track wheel (<num>4</num>) is used to define relative range of the aircraft to the Radar
+initial
 Point, using an expanding/contracting hemisphere cursor on the radar display. This hemisphere
 presents true range to the target via the hemispherical PPI projection, thus
 allowing the Radar initial Point to be detected in an offset approach to the target. Close
@@ -128,7 +132,8 @@ the Cross Track wheel brought to the return point.
 
 ### Cross Track Wheel
 
-The Cross Track wheel (5) is used to define the heading to the Radar initial Point on the radar
+The Cross Track wheel (<num>5</num>) is used to define the heading to the Radar initial Point on the
+radar
 display in PPI mode, presented as a vertical line. The intersection of the Along Track and Cross
 Track cursors defines the Radar initial Point when the Freeze button is pressed.
 
