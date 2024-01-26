@@ -10,8 +10,8 @@ and [spoilers](./flight_controls.md#aileron-spoiler-control-and-stabilator-contr
 Artificial feel systems provide
 simulated aerodynamic forces to the control stick and
 rudder pedals. Secondary controls are
-[leading edge flaps/slats](./flight_controls.html#slats-flap-system),
-[trailing edge flaps](./flight_controls.html#slats-flap-system),
+[leading edge flaps/slats](./flight_controls.md#slats-flap-system),
+[trailing edge flaps](./flight_controls.md#slats-flap-system),
 and wing mounted [speed brakes](./flight_controls.md#speed-brakes).
 
 ## Control Sticks
