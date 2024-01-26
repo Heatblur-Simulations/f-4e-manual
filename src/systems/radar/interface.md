@@ -10,6 +10,9 @@ stick on the right console of the WSO cockpit can be used to operate the radar.
 
 ![wso_radar_control_panel](../../img/wso_radar_panel.jpg)
 
+_For a detailed description of the panel
+see [WSO left console center section](../../cockpit/wso/left_console/center_section.md#radar-set-control-panel)_
+
 ### Power
 
 ![Power Knob](../../img/wso_radar_power_switch.jpg)
@@ -22,7 +25,7 @@ stick on the right console of the WSO cockpit can be used to operate the radar.
 | OPR  | System is fully operational.                                                                                                    |
 | EMER | Overrides the time delay, pressure, and temperature restrictions to allow radar operation.                                      |
 
-Initial powering of the APQ-120 starts by placing the Radar Power Knob (<num>1</num>) into TEST
+Initial powering of the APQ-120 starts by placing the Radar Power Knob into TEST
 or STBY (Standby). The warmup cycle requires 3 minutes from selecting either
 setting, and confirmation of this process is shown via the Control Monitor Meter
 on the Monitor Panel; after 30 seconds from cycling power, the gauge will
@@ -60,7 +63,7 @@ available for the [Spotlight](air_to_air.md#spotlight) mode instead.
 ![Polarization Switch](../../img/wso_radar_polar_switch.jpg)
 
 The polarization of the radio frequency energy can be changed using the
-polarization control (<num>3</num>). In normal operation the LIN setting is used which produces
+polarization control. In normal operation the LIN setting is used which produces
 linearly polarized light in the vertical direction relative to the antenna. This
 minimizes ground returns as many types of ground clutter are less reflective to
 vertically polarized light. However, because the antenna is not roll stabilized
@@ -77,10 +80,10 @@ described above. This makes only CIR 1 compatible with launching
 Sparrow rear antenna cannot receive counterclockwise polarized light.
 
 | Selection | RF energy polarization                       | AIM-7 Guidance |
-| --------- | -------------------------------------------- | -------------- |
-| LIN       | Lineally polarized in a vertical orientation | ✅             |
-| CIR 1     | Circularly polarized clockwise               | ✅             |
-| CIR 2     | Circularly counterclockwise                  | ❌             |
+|-----------|----------------------------------------------|----------------|
+| LIN       | Lineally polarized in a vertical orientation | ✅              |
+| CIR 1     | Circularly polarized clockwise               | ✅              |
+| CIR 2     | Circularly counterclockwise                  | ❌              |
 
 > 💡 Only LIN and CIR 1 modes can be used with the Sparrow, a Sparrow launched
 > using CIR 2 will not guide.
@@ -137,21 +140,21 @@ where TAS is the aircraft's true airspeed.
 | Selection | DSCG Display     | Sparrow Speed-Gate Setting (Vc) |
 |-----------|------------------|---------------------------------|
 | WIDE      | Closure Velocity | Entire Spectrum                 |
-| NOSE      | Altitude         | TAS + 450 ±150 kts           |
-| FWD       | Aspect           | TAS + 240 ±150 kts           |
-| AFT       | Closure Velocity | TAS - 240 ±150 kts           |
-| TAIL      | Heading          | 0 ±150 kts                   |
+| NOSE      | Altitude         | TAS + 450 ±150 kts              |
+| FWD       | Aspect           | TAS + 240 ±150 kts              |
+| AFT       | Closure Velocity | TAS - 240 ±150 kts              |
+| TAIL      | Heading          | 0 ±150 kts                      |
 
 * Closure Velocity: Displayed in knots with positive values indicating closing
-and negative values indicating opening.
+  and negative values indicating opening.
 * Altitude: Displayed in hundreds of feet (with the last digit always zero), for
-example 20,000 MSL would be displayed as 200.
+  example 20,000 MSL would be displayed as 200.
 * Aspect: Angle of the tail of the target aircraft to the shooter (own ship),
-this means if the target is flying directly away it is 0 degrees and directly
-towards is 180 degrees. Left is shown by negative values and right by positive
-values.
+  this means if the target is flying directly away it is 0 degrees and directly
+  towards is 180 degrees. Left is shown by negative values and right by positive
+  values.
 * Heading: Heading is displayed in degrees from 000 to 360 with the last digit
-always zero.
+  always zero.
 
 ### Receiver Gain (RCVR GAIN)
 
@@ -359,7 +362,7 @@ interlocks are closed and functioning.
 TP 2 confirms waveguide pressure, and a value of 1 is correct.
 
 In LOB, the meter needle will travel roughly between 1.5 to 2.8 as a function of
-antenna nutation.  
+antenna nutation.
 
 Lastly, the LIN and CIR selectors confirm proper linear and circular pulse
 performance; they only register a value of 1 for a transmission of vertical or
@@ -502,7 +505,8 @@ The Challenge Button (<num>1</num>) is used to initiate an
 [IFF](../identification_systems.md#interrogator-systems) interrogation.
 
 See the [AGM-65 Maverick](../../stores/air_to_ground/missiles/maverick.md) section for details on
-how the stick is used to control the weapon and the [Pave Spike](../weapon_systems/pave_spike/overview.md)
+how the stick is used to control the weapon and
+the [Pave Spike](../weapon_systems/pave_spike/overview.md)
 chapter for its interaction respectively.
 
 ## Range VISIDENT Indicator
