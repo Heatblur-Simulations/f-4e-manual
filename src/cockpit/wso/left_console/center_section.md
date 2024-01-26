@@ -78,7 +78,7 @@ and 2 bars. Only RDR-B modes can make use of 2 bars.
 The rotary switch (<num>6</num>) is used to program the
 [AIM-7](../../../stores/air_to_air/aim_7.md) with a predetermined simulated
 Doppler instead of actual received Doppler, so that the WSO can provide an
-estimated correct speed-gate for the sparrow when not tracking.
+estimated correct speed-gate for the Sparrow when not tracking.
 
 [See Aspect Knob Section for more details](../../../systems/radar/interface.md#aspect)
 
@@ -159,7 +159,7 @@ mode of operation of the radar.
 | MAP     | Search Mode without Feedhorn Nutation (narrower beam-width)                                                                                                                                                  |
 | AIR-GRD | [Air-to-Ground boresight](../../../systems/radar/interface.md#air-grd-air-to-ground-position), Tracks range of illuminated ground, radar is boresighted to the radar boresight line with drift compensation. |
 | BEACON  | Radar receives and displays signals from ground or airborne beacon transponders for navigation.                                                                                                              |
-| TV      | Not used with DSCG. De-tunes [AIM-7](../../../stores/air_to_air/aim_7.md) if selected, preventing sparrows from guiding.                                                                                     |
+| TV      | Not used with DSCG. De-tunes [AIM-7](../../../stores/air_to_air/aim_7.md) if selected, preventing Sparrows from guiding.                                                                                     |
 
 [See Mode Knob Section for more details](../../../systems/radar/interface.md#radar-modes-mode)
 

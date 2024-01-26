@@ -273,8 +273,8 @@ right pair is linked to stations 8L and 8R.
 ![Radar Missile Power Switch](../../img/pilot_radar_missile_power_switch.jpg)
 
 The Radar Missile Power Switch provides power to the klystron continuous wave
-(CW) for emitter responsible guidance signals. This also powers the sparrow
-tuning drive which is responsible for tuning the sparrows to the correct
+(CW) for emitter responsible guidance signals. This also powers the Sparrow
+tuning drive which is responsible for tuning the Sparrows to the correct
 continuous wave carrier frequency for guidance.
 
 When switched out of the OFF position, power is applied to the circuit 30
@@ -282,7 +282,7 @@ seconds after this selection.
 
 The STBY position maintains warmup power to the missiles and continuous wave
 tuning drive once the missiles have been tuned. This keeps the Sparrows and
-Tuning Drive warm, but the sparrows not tuned.
+Tuning Drive warm, but the Sparrows not tuned.
 
 The CW ON position allows for constant tuning and missile state monitoring with
 the radar mode not in TV. This also causes the radar klystron to begin
@@ -297,7 +297,7 @@ emissions endangering ground crew.
 
 Illuminates when a stores condition exists that precludes ejection or launch of
 an AIM-7 missile installed in one of the two forward positions. To use the
-sparrows on these stations the centerline store must be first jettisoned.
+Sparrows on these stations the centerline store must be first jettisoned.
 
 ## Interlock Switch
 

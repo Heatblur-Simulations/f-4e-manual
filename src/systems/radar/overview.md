@@ -2,8 +2,9 @@
 
 ![Radar Dish](../../img/radar_dish_nose.jpg)
 
-A continuation of the F-4C's -100 and the 4D's 109, the Westinghouse AN/APQ-120
-Fire Control Radar is a solid state pulse radar providing the F-4E with air to
+The Westinghouse AN/APQ-120
+Fire Control Radar, a continuation of the F-4C's -100 and the 4D's 109,
+is a solid state pulse radar providing the F-4E with air to
 air intercept functionality, air to ground mapping, ground target reference
 provision to the LABS and WRCS bombing systems, as well as radar beacon
 capability. The APQ-120 also functions as the display system for TISEO and TV
@@ -29,7 +30,7 @@ current radar range setting and the calculated range rate value against the
 current acquired target. Further, clarity of the display in all lighting
 conditions was improved by rendering the radar reference grids directly as part
 of the displayed image, rather than the previously used markings on the DVST
-glass. In addition, DSCG provided the ability of the two crew members to utilize
+glass. In addition, the DSCG provided the ability of the two crew members to utilize
 the displays independently; previously, the WSO had control over which mode both
 the DVST and front seat repeater display would show. With DSCG, the pilot could
 utilize TISEO or TV air to ground weapons while the WSO maintained a scan
