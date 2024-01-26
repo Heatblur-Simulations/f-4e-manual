@@ -59,7 +59,7 @@ run through the warmup period again. If the fault could be cleared, the light wi
 
 ## AN/ALQ-131
 
-![AN/ALQ-131](../../img/jammer_131.jpg)
+![AN/ALQ-131](../../img/f4_ext_ecm_pod.jpg)
 
 In service between 1970 and 1990; may not be equipped on the right inboard station 6.
 

@@ -14,7 +14,7 @@ In the stowed position, the camera is rotated upwards and a cover is moved in
 front of it. This protects the camera from stones and other hazards during taxi,
 takeoff or low level flight.
 
-![pave_spike_stowed](../../../img/pave_spike_stowed.jpg)
+![pave_spike_stowed](../../../img/f4_ext_pave_spike_stowed.jpg)
 
 The stow-procedure takes about 5 seconds, with the light indicating the current
 status.
@@ -32,7 +32,7 @@ status.
 The targeting pod has a cooling system installed in the rear section, which
 automatically cools the pod by external airflow.
 
-![pave_spike_cooling](../../../img/pave_spike_cooling.jpg)
+![pave_spike_cooling](../../../img/f4_ext_pave_spike_cooling.jpg)
 
 In general, the system is capable of keeping the pods temperature within limits
 during all normal operation.
