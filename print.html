@@ -13188,8 +13188,12 @@ generated, having this activated will scale down the generated force to improve
 handling precision, but also can help to prevent accidentally pulling extreme
 Gs.</p>
 <h2 id="roll-breakout-point"><a class="header" href="#roll-breakout-point">Roll Breakout Point</a></h2>
-<p>Percentage of stick input after which the Roll and Trim system will recognize
-pilot input and stop overwriting and fighting it.</p>
+<p>Percentage of stick input after which the AFCS system will recognize
+the pilot stick was moved from neutral trim position
+(force transducer switches closed). This
+will affect the AFCS roll channel operation and prevent it from
+fighting your roll input.
+For more info see <a href="dcs/../systems/flight_controls_gear/flight_controls.html#force-transducer">Force Transducer</a>.</p>
 <h2 id="afterburner-detent"><a class="header" href="#afterburner-detent">Afterburner Detent</a></h2>
 <p>Two options to define at which point of the physical hardware throttle input (0
 to 100%) the aircraft will light the afterburner.</p>
@@ -13200,7 +13204,7 @@ control the afterburner range.</p>
 afterburner will be turned on and off. For example, setting 2% for the deadzone
 and 80% for the detent results in afterburner activation at 82% and deactivation
 at 78% of throttle input.</p>
-<h2 id="randomize-system-inputs"><a class="header" href="#randomize-system-inputs">Randomize System Inputs</a></h2>
+<h2 id="randomize-system-inputs-at-cold-start"><a class="header" href="#randomize-system-inputs-at-cold-start">Randomize System Inputs at Cold Start</a></h2>
 <p>When unchecked, during cold start all switches and knobs will be in their
 initial OFF positions. Allowing for a quick start by just following procedures.</p>
 <p>When checked, switch positions will be randomized during cold-start, as if the
@@ -13219,10 +13223,10 @@ and possibly achieve higher FPS.</p>
 <p>🟡 CAUTION: Due to dynamic nature of this system, having it enabled might result in
 broken track/replay files.</p>
 </blockquote>
-<h2 id="disable-wso-multi-crew-controls"><a class="header" href="#disable-wso-multi-crew-controls">Disable WSO Multi-Crew Controls</a></h2>
-<p>When checked, when playing as WSO in Multiplayer with a human pilot, any stick
-and throttle input will be deactivated to prevent accidentally messing with the
-pilot and screwing up the flight.</p>
+<h2 id="disable-multicrew-controls-input-when-joining-as-wso"><a class="header" href="#disable-multicrew-controls-input-when-joining-as-wso">Disable Multicrew Controls Input When Joining as WSO</a></h2>
+<p>If checked, when joining as WSO in multiplayer with a human pilot, your local
+controls inputs (stick, rudder pedals and throttle) will be ignored by default.
+You can toogle your local input back with assigned keybind.</p>
 <h2 id="jester-landing-callouts"><a class="header" href="#jester-landing-callouts">Jester Landing Callouts</a></h2>
 <p>If enabled, Jester will assist the pilot during landing by calling out aircraft
 altitude, similar as seen in civilian aviation.</p>
