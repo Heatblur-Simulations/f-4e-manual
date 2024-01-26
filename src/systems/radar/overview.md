@@ -59,19 +59,19 @@ other unwanted returns from different directions are called **side lobe**s.
 ![Radar with Lobes](../../img/radar_lobes.jpg)
 
 | Label | Description                    |
-| ----- | ------------------------------ |
-| a     | Targets from main-lobe         |
-| b     | Ground clutter from main-lobe  |
-| c     | Ground clutter from side-lobes |
+| :---: | ------------------------------ |
+|   a   | Targets from main-lobe         |
+|   b   | Ground clutter from main-lobe  |
+|   c   | Ground clutter from side-lobes |
 
 The same situation from outside roughly looks as follows.
 
 ![Outside view of situation](../../img/radar_lobes_outside.jpg)
 
 | Label | Description                    |
-| ----- | ------------------------------ |
-| a     | Own aircraft                   |
-| b     | Antenna direction              |
-| c     | Targets from main-lobe         |
-| d     | Ground clutter from main-lobe  |
-| e     | Ground clutter from side-lobes |
+| :---: | ------------------------------ |
+|   a   | Own aircraft                   |
+|   b   | Antenna direction              |
+|   c   | Targets from main-lobe         |
+|   d   | Ground clutter from main-lobe  |
+|   e   | Ground clutter from side-lobes |
