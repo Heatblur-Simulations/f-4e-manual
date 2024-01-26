@@ -70,7 +70,7 @@ be described below.
 | ------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------- |
 | a       | Display Readout          | The readout depends on the position of the [Aspect Switch](interface.md#aspect)                                       |
 | b       | Allowable Steering Error | Describes the maximal Off-Angle-Launch-Envelope, see [Allowable Steering Error](#allowable-steering-error-ase-circle) |
-| c and e | Range Strobes            | Indicates Launch Envelope, see [Range Strobes](interface.md#range-strobes) Description                                |
+| c and e | Range Strobes            | Indicates Launch Envelope, see [Range Strobes](air_to_air.md#range-strobes) Description                                |
 | d       | Aim Dot                  | Provides pilot steering, see [Aim Dot](#aim-dot)                                                                      |
 
 On the top right corner of the radar screen is an
