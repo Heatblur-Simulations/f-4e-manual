@@ -46,7 +46,7 @@ control as well as the current selected air-to-air weapon based on the position
 of the pinky switch on the left throttle handle.
 
 | Name  | Description                                                     |
-| ----- | --------------------------------------------------------------- |
+|-------|-----------------------------------------------------------------|
 | RADAR | Illuminates when a radar-guided air to air missile is selected. |
 | HEAT  | Illuminates when an IR-guided air to air missile is selected.   |
 | GUN   | Illuminates when the nose gun is selected.                      |
@@ -96,7 +96,7 @@ thus making them live. This function also controls selective low/high drag
 capability for retarded bombs.
 
 | Name      | Description                                                                       |
-| --------- | --------------------------------------------------------------------------------- |
+|-----------|-----------------------------------------------------------------------------------|
 | SAFE      | No arming solenoids activate; bombs release without fuzing enabled.               |
 | NOSE      | Forward and center position solenoids activate to hold arming lanyards.           |
 | TAIL      | Aft position solenoids activate to hold arming lanyards.                          |
@@ -145,12 +145,12 @@ ARBCS (Altitude Reference and Bombing Computer Set) delivery modes, while the
 right side provides automated release functions using the WRCS (Weapon Release
 Computer Set) with possible tie-in to the navigation computer, depending on
 mode. At the 11 and 12 o'clock positions are the OFF position, which is utilized
-for air-to-air weapons (including the gun) and DIRECT, which is used for
+for air-to-air weapons (including the gun). The next position, DIRECT, is used for
 video-directed weapons such as the AGM-65 and as a direct delivery bombing mode.
 The full series of positions is as follows, clockwise from the left:
 
 | Name                                                                                                 | Description                                                                                       |
-| ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+|------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
 | [INST O/S](../../stores/air_to_ground/bombs/employment.md#instantaneous-over-the-shoulder---inst-os) | Instantaneous Over the Shoulder                                                                   |
 | [LOFT](../../stores/air_to_ground/bombs/employment.md#loft)                                          | Loft                                                                                              |
 | [O/S](../../stores/air_to_ground/bombs/employment.md#timed-over-the-shoulder---timed-os)             | (Timed) Over the Shoulder                                                                         |
@@ -178,7 +178,7 @@ weapon firing unless a CAGE signal is active. ARM and TV positions do not affect
 tuning status of radar guided weapons. Positions are as follows:
 
 | Name        | Description                                                                                   |
-| ----------- | --------------------------------------------------------------------------------------------- |
+|-------------|-----------------------------------------------------------------------------------------------|
 | AGM-12      | [AGM-12 Bullpup](../../stores/air_to_ground/missiles/bullpup.md)                              |
 | BOMBS       | Bombs (all types).                                                                            |
 | RKTS & DISP | Rockets and dispensers.                                                                       |
@@ -308,7 +308,7 @@ parameter interlocks can prevent an AIM-7 from being launched when the trigger
 is pulled.
 
 | Name | Description                                                                                       |
-| ---- | ------------------------------------------------------------------------------------------------- |
+|------|---------------------------------------------------------------------------------------------------|
 | IN   | Interlocks engaged; range limits, ASE limits, or radar not in visual intercept inhibits launch.   |
 | OUT  | Interlocks override; AIM-7 will fire when trigger is pulled even when no launch condition is met. |
 
@@ -323,7 +323,7 @@ The pilot selects the desired position by rotating the knob and then presses the
 button on its front to jettison the selected stores.
 
 | Name     | Description                                                                                                                                                                                                     |
-| -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | OFF      | Safes PUSH TO JETT button on the Selective Jettison Control Panel.                                                                                                                                              |
 | STORES   | Releases all MER/TER, single carried, LAU-88 mounted rounds, or drop tanks currently selected on the station buttons upon PUSH TO JETT.                                                                         |
 | L/R FWD  | Jettisons [AIM-7](../../stores/air_to_air/aim_7.md) from respective position on PUSH TO JETT. Inhibited if CL TK ON.                                                                                            |
