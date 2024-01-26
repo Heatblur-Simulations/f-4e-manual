@@ -30,7 +30,7 @@ the WSO via controls on the right sub-panel.
 The controls are duplicated for any pod carried on the left stations (4 or 2)
 and for the right stations (6 and 8) respectively.
 
-Interpretation of the modes, techniques and exact operation of the lights (3)
+Interpretation of the modes, techniques and exact operation of the lights (<num>3</num>)
 depend on the loaded jammer model.
 
 Generally, the jammers differentiate between two modes or techniques that can be used.
@@ -53,7 +53,7 @@ The reset lamp (3 lowest red one), if lit, indicates a fault in the jammer syste
 Flashing indicates an overheating condition, in which case the pod
 should be turned off to prevent damage.
 
-In case of a fault, the reset button (2) can be pressed to reset the
+In case of a fault, the reset button (<num>2</num>) can be pressed to reset the
 jammer system (similar to turning it OFF and back ON), in which case it will
 run through the warmup period again. If the fault could be cleared, the light will go off.
 

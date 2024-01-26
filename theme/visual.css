@@ -181,6 +181,7 @@ ol.chapter {
   max-width: 250px;
 }
 
-.num {
-  color: orange;
+num {
+  color: var(--num-color);
+  font-weight: bold;
 }

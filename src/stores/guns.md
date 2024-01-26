@@ -19,7 +19,7 @@ to release the gas from firing the gun. It closes after the gas pressure has
 reduced below a threshold or the gun is de-energized, for example when switching
 Master Arm or all rounds have been fired.
 
-> 💡 The venting process takes around 30 seconds to 2 minutes, depending on
+> 💡 The venting process takes between 10 seconds to 1 minute, depending on
 > the burst duration.
 
 > 🔴 WARNING: Do not spool up the engines as long as ground personnel is working on

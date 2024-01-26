@@ -37,7 +37,7 @@ instruments, except the CNI and the AFCS.
 ![InstrumentGroundPowerSwitch](../img/wso_ground_test_control_panel.jpg)
 
 Power from an external source to the instrument buses (115/200 volt ac, 28 volt
-ac, and 14 volt ac), can be provided by the Instrument Ground Power Switch (1) (if
+ac, and 14 volt ac), can be provided by the Instrument Ground Power Switch (<num>1</num>) (if
 the generator switches are set to EXT ON), found on the right wall in the
 rear cockpit. Once external electrical power is disengaged or an engine
 generator comes online, it will switch off.
@@ -76,13 +76,13 @@ Located on the right wall of the pilot cockpit, this panel contains
 seven circuit breakers responsible for flight control surfaces and
 other systems important for safe operation of the aircraft.
 
-- AIL Feel-Trim (1)
-- STAB Feel-Trim (2)
-- Speed Brake (3)
-- Landing Gear (4)
-- Flaps (5)
-- Trim Controls (6)
-- Rudder Trim (7)
+- AIL Feel-Trim (<num>1</num>)
+- STAB Feel-Trim (<num>2</num>)
+- Speed Brake (<num>3</num>)
+- Landing Gear (<num>4</num>)
+- Flaps (<num>5</num>)
+- Trim Controls (<num>6</num>)
+- Rudder Trim (<num>7</num>)
 
 ### Lighting Panel
 
@@ -91,8 +91,8 @@ other systems important for safe operation of the aircraft.
 Hidden behind a bundle of cables to the right of the telelight panel in the Pilot
 cockpit are two circuit breakers controlling lights.
 
-The upper one (1) is responsible for powering the primary instrument lights, while
-the lower (2) circuit breaker powers all indicator and warning lights.
+The upper one (<num>1</num>) is responsible for powering the primary instrument lights, while
+the lower (<num>2</num>) circuit breaker powers all indicator and warning lights.
 
 ### CB Panel 1
 

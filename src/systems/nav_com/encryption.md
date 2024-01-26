@@ -19,27 +19,28 @@ UHF functions as a conventional voice transceiver.
 
 The KY-28 is controlled by the KY-28 control panel and respectively the
 conventional UHF or Intercom controls. Both front and rear cockpit instrument
-panels display mode lights for either mode. If the mode light P is illuminated (1)
+panels display mode lights for either mode. If the mode light P is illuminated (<num>1</num>)
 the KY-28 and UHF/Intercom is operated in plain mode. If the mode light C is
-illuminated (2) the KY-28 and UHF/intercom is operated in the cipher mode.
+illuminated (<num>2</num>) the KY-28 and UHF/intercom is operated in the cipher mode.
 
 ## KY-28 Control Panel
 
 ![wso_ky_28](../../img/wso_ky_28_control_panel.jpg)
 
 The KY-28 control panel is in the rear cockpit. It has a power knob, a mode switch and a code
-zeroize button. The power knob (3) provides power to the KY-28 and can be set to either OFF, ON or
+zeroize button. The power knob (<num>3</num>) provides power to the KY-28 and can be set to either
+OFF, ON or
 RLY (relay). The KY-28 is not powered in the OFF position. It is powered in the ON and RLY
 positions. If a direct communication between KY units is desired, the ON position is to be selected.
 
 > 💡 RLY would provide the ability to use the KY-28 as a retransmission facility,
 > which is not modeled in DCS.
 
-The mode switch (2) can be set to either P (plain) or C (cipher)
+The mode switch (<num>2</num>) can be set to either P (plain) or C (cipher)
 operating modes. To change modes the switch has to be pulled outwards. If the
 KY-28 is powered and the mode switch is set to the C position, the UHF
 transmitter is automatically selected for front cockpit transmissions. Pressing
-the zeroize button neutralizes the preset code in the KY-28. The zeroize button (1)
+the zeroize button neutralizes the preset code in the KY-28. The zeroize button (<num>1</num>)
 is guarded and should only be used in emergencies or after aircraft shutdown if
 required. As the code can only be set on the ground, pressing the zeroize button
 during flight makes the cipher mode inoperable for the crew for the remainder of

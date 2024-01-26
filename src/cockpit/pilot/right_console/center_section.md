@@ -18,7 +18,7 @@ the [IFF System controls chapter](../../../systems/identification_systems.md#iff
 
 ### Master switch
 
-The master switch (1) is a five position rotary with following controls:
+The master switch (<num>1</num>) is a five position rotary with following controls:
 
 | Position | Operation                                                                                                                                                                                                                                         |
 |----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -30,7 +30,7 @@ The master switch (1) is a five position rotary with following controls:
 
 ### Mode 1 Selector Switch
 
-The three position Mode 1 Selector switch (6) controls the mode 1 operation:
+The three position Mode 1 Selector switch (<num>6</num>) controls the mode 1 operation:
 
 | Position | Operation                        |
 |----------|----------------------------------|
@@ -40,7 +40,7 @@ The three position Mode 1 Selector switch (6) controls the mode 1 operation:
 
 ### Mode 2 Selector Switch
 
-The three position Mode 2 Selector switch (6) controls the mode 2 operation:
+The three position Mode 2 Selector switch (<num>6</num>) controls the mode 2 operation:
 
 | Position | Operation                                                            |
 |----------|----------------------------------------------------------------------|
@@ -50,7 +50,7 @@ The three position Mode 2 Selector switch (6) controls the mode 2 operation:
 
 ### Mode 3/A Selector Switch
 
-The three position Mode 3/A Selector switch (6) controls the mode 3/A operation:
+The three position Mode 3/A Selector switch (<num>6</num>) controls the mode 3/A operation:
 
 | Position | Operation                                                            |
 |----------|----------------------------------------------------------------------|
@@ -60,7 +60,7 @@ The three position Mode 3/A Selector switch (6) controls the mode 3/A operation:
 
 ### Mode C Selector Switch
 
-The three position Mode C Selector switch (6) controls the mode C operation:
+The three position Mode C Selector switch (<num>6</num>) controls the mode C operation:
 
 | Position | Operation                        |
 |----------|----------------------------------|
@@ -70,13 +70,14 @@ The three position Mode C Selector switch (6) controls the mode C operation:
 
 ### Mode 1 and Mode 3/A Code selectors
 
-The Mode 1 code selector (10) is used to select Mode 1 codes from 00 to 73. The Mode 3/A code
+The Mode 1 code selector (<num>10</num>) is used to select Mode 1 codes from 00 to 73. The Mode 3/A
+code
 selector
 is used to select Mode 3/A codes from 0000 to 7777.
 
 ### Mode 4 Selector Switch
 
-The two position Mode 4 Selector switch (8) controls the mode 4 operation:
+The two position Mode 4 Selector switch (<num>8</num>) controls the mode 4 operation:
 
 | Position | Operation                                                                                                                                                         |
 |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -85,7 +86,7 @@ The two position Mode 4 Selector switch (8) controls the mode 4 operation:
 
 ### Mode 4 Indication Switch
 
-The Mode 4 indication switch (7) features positions for AUDIO, OUT, and LIGHT.
+The Mode 4 indication switch (<num>7</num>) features positions for AUDIO, OUT, and LIGHT.
 
 In the AUDIO position, an
 audio signal indicates reception of Mode 4 interrogations, and the Mode 4 REPLY light illuminates
@@ -98,7 +99,7 @@ the AUDIO or LIGHT position.
 
 ### Mode 4 Function Switch
 
-The Mode 4 function switch (4) has positions of ZERO, B, A, and HOLD.
+The Mode 4 function switch (<num>4</num>) has positions of ZERO, B, A, and HOLD.
 
 In the A position, the transponder
 responds to Mode 4 interrogations with the same setting as set into the A position, and in the B
@@ -120,12 +121,12 @@ component failure, failure to respond to a valid interrogation, or a zeroized co
 
 ### Monitor-Radiation Test Switch
 
-This switch (5) has three positions, RAD TEST, MON and OUT. It is intended for tests by
+This switch (<num>5</num>) has three positions, RAD TEST, MON and OUT. It is intended for tests by
 the ground crew and should be set to OUT and not used during flight.
 
 ### Identification of Position Switch
 
-The Identification switch (9) is a three position toggle switch used to provide momentary
+The Identification switch (<num>9</num>) is a three position toggle switch used to provide momentary
 identification
 of position.
 
@@ -151,7 +152,7 @@ accidental release.
 
 ![PilTemp](../../../img/pilot_temp_control.jpg)
 
-The knob (1) can be used with the switch (2) in the AUTO position and
+The knob (<num>1</num>) can be used with the switch (<num>2</num>) in the AUTO position and
 allows the pilot to set the temperature inside both cockpits
 from COLD to HOT for crew comfort.
 
@@ -174,13 +175,13 @@ the [lighting chapter](../../../systems/lighting.md#interior-lighting).
 
 ### White Floodlight
 
-The White Floodlight switch (1) acts independent of all other controls on the panel,
+The White Floodlight switch (<num>1</num>) acts independent of all other controls on the panel,
 and is either ON or OFF. It activates a separate emergency floodlight (also
 called Thunderstorm Light) that illuminates the cockpit in white.
 
 ### Instrument Panel Knob
 
-This knob (2) controls the background illumination of the instrument panel,
+This knob (<num>2</num>) controls the background illumination of the instrument panel,
 as well as edge lighting for most of its gauges.
 
 > 💡 The main flight instruments are controlled via the
@@ -189,12 +190,12 @@ as well as edge lighting for most of its gauges.
 
 ### Console Knob
 
-The Console Light Control Knob (5), with range from OFF to BRT, controls the
+The Console Light Control Knob (<num>5</num>), with range from OFF to BRT, controls the
 illumination level for the left and right console.
 
 ### Console Floodlight
 
-This switch (3) controls the lighting level of red floodlights
+This switch (<num>3</num>) controls the lighting level of red floodlights
 providing general lighting for the consoles. Three settings are available: DIM, MED and BRT.
 
 > 💡 To turn them off, place the switch in DIM
@@ -204,7 +205,7 @@ providing general lighting for the consoles. Three settings are available: DIM, 
 
 ### Warning Light Test Switch
 
-The Warning Light Test Switch (4) (Marked WARN LT TEST) is a three-position switch;
+The Warning Light Test Switch (<num>4</num>) (Marked WARN LT TEST) is a three-position switch;
 in the WARN LT TEST position, confirms function of the various emergency
 indicators in the cockpit.
 

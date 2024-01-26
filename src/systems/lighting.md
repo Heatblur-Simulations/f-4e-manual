@@ -35,7 +35,7 @@ one below each of the engine intakes.
 
 A red anti-collision light is found on the vertical stabilizer.
 
-These are all controlled by the three position FUS switch (1), which can be set to
+These are all controlled by the three position FUS switch (<num>1</num>), which can be set to
 OFF, DIM, and BRT. The red light on the stabilizer only illuminates when this
 switch is selected to BRT. The fuselage lights only function with the Flasher
 Switch in STEADY or FLASH, and cycle when in the latter setting.

@@ -25,21 +25,23 @@ illuminates.
 
 ### Battery Bypass
 
-When toggled ON (1), de-energizes the battery relay, disconnecting the battery from
+When toggled ON (<num>1</num>), de-energizes the battery relay, disconnecting the battery from
 the essential 28-volt de bus and ceasing charging. Particularly used in
 suspected cases of thermal runaway.
 
 ### Autopilot Ground Test
 
-The autopilot ground test switch (2), located on the No. 2 circuit breaker panel, connects external
-electrical power to the [AFCS](../../../systems/flight_controls_gear/flight_controls.md#auotmatic-flight-control-system-afcs)
+The autopilot ground test switch (<num>2</num>), located on the No. 2 circuit breaker panel,
+connects external
+electrical power to
+the [AFCS](../../../systems/flight_controls_gear/flight_controls.md#automatic-flight-control-system-afcs---anasa-32)
 circuits. It disengages if there's a loss of external power or when a
 generator comes online. When operating on external power, the AFCS circuit can be de-energized by
 placing the switch in the NORM (down) position.
 
 ### Instrument Ground Power
 
-In the TEST position (3), connects external electrical power to the instrument buses
+In the TEST position (<num>3</num>), connects external electrical power to the instrument buses
 (115/200 volt ac, 28 volt ac, and 14 volt ac), contingent upon the generator
 switches being set to EXT ON.
 

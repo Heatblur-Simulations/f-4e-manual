@@ -19,7 +19,8 @@ of the Navigation Computer.
 
 ![Function Selector Knob](../../../img/wso_nav_panel_function_selector_knob.jpg)
 
-A five position rotary switch (1) used to set the function of the navigation system.
+A five position rotary switch (<num>(<num>1</num>)</num>) used to set the function of the navigation
+system.
 
 | Position | Description                                                                                                                      |
 |----------|----------------------------------------------------------------------------------------------------------------------------------|
@@ -33,14 +34,16 @@ A five position rotary switch (1) used to set the function of the navigation sys
 
 ![Wind Knobs](../../../img/wso_nav_panel_wind_counters.jpg)
 
-Two rotary knobs (2) that enable manual setting of wind velocity (in knots) and direction (in
+Two rotary knobs (<num>2</num>) that enable manual setting of wind velocity (in knots) and
+direction (in
 degrees, from), displayed on the counters. Utilized by the Navigation Computer in AIR DATA mode.
 
 ### Magnetic Variation Knob and Counters
 
 ![Magnetic Variation Knob](../../../img/wso_nav_panel_magnetic_variation.jpg)
 
-A rotary knob (3) that allows manual setting of magnetic variation (in degrees). Essential for
+A rotary knob (<num>3</num>) that allows manual setting of magnetic variation (in degrees).
+Essential for
 navigation computations
 in AIR DATA mode and for initial (BATH) INS Alignment.
 
@@ -48,7 +51,8 @@ in AIR DATA mode and for initial (BATH) INS Alignment.
 
 ![Own Position Knobs](../../../img/wso_nav_panel_pos_control.jpg)
 
-These knobs (9) are used to manually change the current aircraft position in terms of latitude
+These knobs (<num>9</num>) are used to manually change the current aircraft position in terms of
+latitude
 and longitude, as displayed on the counters (in degrees and minutes). They must be pressed
 in to be effective.
 
@@ -59,7 +63,8 @@ in to be effective.
 
 ![Target Position Knobs](../../../img/wso_nav_panel_tgt_control.jpg)
 
-The target controls (10) enable the setting of target latitude and longitude counters, which can be
+The target controls (<num>10</num>) enable the setting of target latitude and longitude counters,
+which can be
 used either as direct waypoint targets (when the Function Selector Knob is set to TARGET 1) or to
 memorize TARGET 2 coordinates (after the RESET position has been selected).
 
@@ -67,7 +72,7 @@ memorize TARGET 2 coordinates (after the RESET position has been selected).
 
 ![Position Update Switch](../../../img/wso_nav_panel_pos_update_switch.jpg)
 
-A three position switch (7) to set the position updating.
+A three position switch (<num>7</num>) to set the position updating.
 
 | Position | Description                                                                                                                   |
 |----------|-------------------------------------------------------------------------------------------------------------------------------|
@@ -83,28 +88,31 @@ A three position switch (7) to set the position updating.
 
 ![Variation Sync Meter](../../../img/wso_nav_panel_variation_sync.jpg)
 
-In Inertial mode, this meter (5) displays the discrepancy between the INS-computed and manually set
+In Inertial mode, this meter (<num>5</num>) displays the discrepancy between the INS-computed and
+manually set
 magnetic variation. In AIR DATA mode, the manually set variation does not affect this indicator.
 
 ### Test Cap Off Light
 
 ![Test Cap Light](../../../img/wso_nav_panel_test_cap_off.jpg)
 
-Illuminates (4) when there is a failure in the true airspeed circuit from the Air Data Computer,
+Illuminates (<num>4</num>) when there is a failure in the true airspeed circuit from the Air Data
+Computer,
 indicating an open circuit condition.
 
 ### Latitude and Longitude Sync Lights
 
 ![Lat/Lon Sync Lights](../../../img/wso_nav_panel_sync_lights.jpg)
 
-Illuminate (6) when the position counters for latitude or longitude do not match the coordinates
+Illuminate (<num>6</num>) when the position counters for latitude or longitude do not match the
+coordinates
 provided by the INS (difference above 1.5 arc minutes).
 
 ### Air Data Mode Light
 
 ![Air Data Mode Light](../../../img/wso_nav_panel_air_data_light.jpg)
 
-Illumination (8) indicates that the Navigation Computer is operating in AIR DATA Mode.
+Illumination (<num>8</num>) indicates that the Navigation Computer is operating in AIR DATA Mode.
 
 ## Cockpit Lighting Control Panel
 
@@ -117,17 +125,17 @@ Light Test and Standby Compass Light switch.
 
 ### White Floodlight
 
-The White Floodlight switch (4) acts independent of all other controls on the panel,
+The White Floodlight switch (<num>4</num>) acts independent of all other controls on the panel,
 and is either ON or OFF. It activates a separate emergency floodlight (also
 called Thunderstorm Light) that illuminates the cockpit in white.
 
 ### Standby Compass Switch
 
-The STBY COMP switch (5) illuminates the light for the Standby Compass.
+The STBY COMP switch (<num>5</num>) illuminates the light for the Standby Compass.
 
 ### Console Floodlight
 
-This switch (6) controls the lighting level of red floodlights
+This switch (<num>6</num>) controls the lighting level of red floodlights
 providing general lighting for the consoles. Three settings are available: DIM, MED and BRT.
 
 > 💡 To turn them off, place the switch in DIM
@@ -138,12 +146,12 @@ providing general lighting for the consoles. Three settings are available: DIM, 
 
 ### Warning Light Test Switch
 
-The Warning Light Test Switch (7) if set to the TEST position, confirms function of
+The Warning Light Test Switch (<num>7</num>) if set to the TEST position, confirms function of
 the various emergency indicators in the cockpit.
 
 ### Instrument Panel Knob
 
-This knob (2) controls the background illumination of the instrument panel,
+This knob (<num>2</num>) controls the background illumination of the instrument panel,
 as well as edge lighting for most of its gauges.
 
 > 💡 The main flight instruments are controlled by the pilot via the
@@ -152,10 +160,10 @@ as well as edge lighting for most of its gauges.
 
 ### Indexer Knob
 
-Controls the brightness (3) of the AoA Indexer lights to the left and right
+Controls the brightness (<num>3</num>) of the AoA Indexer lights to the left and right
 of the canopy bow.
 
 ### Console Knob
 
-The Console Light Control Knob (1), with range from OFF to BRT, controls the
+The Console Light Control Knob (<num>1</num>), with range from OFF to BRT, controls the
 illumination level for the left and right console.
