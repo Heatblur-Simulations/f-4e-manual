@@ -166,7 +166,7 @@ mode of operation of the radar.
 ### Skin Track Light
 
 Lamp (<num>13</num>) that illuminates when a track is attained with range data.
-In the event of [HOJ](../../../systems/radar/operation.md#home-on-jam) or a
+In the event of [HOJ](../../../systems/radar/air_to_air.md#home-on-jam) or a
 range memory situation, the light will go off. Accompanied on the rear DSCG
 radar scope with the T symbol that illuminates under the same circumstances.
 

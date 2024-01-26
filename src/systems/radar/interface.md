@@ -35,7 +35,7 @@ can be left in STBY for the safety of crew and others on the ground.
 
 In the event of an emergency situation requiring immediate operation of the
 radar, EMER can be selected; see the
-[Magnetron and Klystron](operation.md#magnetron-and-klystron) section for
+[Magnetron and Klystron](general_operation.md#magnetron-and-klystron) section for
 the implications of this.
 
 ### Range
@@ -52,8 +52,8 @@ display the numerical value on the DSCG display in the upper left.
 ![pilot_dscg_range_lights](../../img/pilot_dscg_range_lights.jpg)
 
 Values up to 50 nmi are indicated as **Air-Intercept (AI)** and are available for
-[Automatic Tracking](operation.md#track). Values 100 nmi and 200 nmi are
-available for the [Spotlight](operation.md#spotlight) mode instead.
+[Automatic Tracking](air_to_air.md#track). Values 100 nmi and 200 nmi are
+available for the [Spotlight](air_to_air.md#spotlight) mode instead.
 
 ### Polarization Control
 
@@ -71,7 +71,7 @@ reflective to circularly polarized light, so CIR 1 and CIR 2 can aid in
 minimizing clutter in rain or fog.
 
 The polarization is set using the quarter waveplate in the feedhorn which causes
-the [continuous wave emissions](operation.md#klystron) to be polarized as
+the [continuous wave emissions](general_operation.md#klystron) to be polarized as
 described above. This makes only CIR 1 compatible with launching
 [AIM-7 Sparrows](../../stores/air_to_air/aim_7.md) as the
 Sparrow rear antenna cannot receive counterclockwise polarized light.
@@ -98,7 +98,7 @@ accelerations.
 | HI G      | Allows track loop to respond with any acceleration.                                                |
 
 HI G is forced when
-[Computer Automatic Acquisition](operation.md#computer-automatic-acquisition-mode-caa)
+[Computer Automatic Acquisition](air_to_air.md#computer-automatic-acquisition-mode-caa)
 is used.
 
 ### Scan Switch
@@ -162,22 +162,22 @@ provide the ability to adjust the receiver gain.
 
 FINE is used for small
 adjustments and COARSE for larger adjustments. For more information see the
-[Gain Control](operation.md#gain-control) section.
+[Gain Control](general_operation.md#gain-control) section.
 
 ### Track Switch
 
 ![Track Switch](../../img/wso_radar_track_switch.jpg)
 
-The Track Switch alters [range tracking](operation.md#range-track) settings. The
+The Track Switch alters [range tracking](air_to_air.md#range-track) settings. The
 default position is AUTO which operates normal range tracking with
-[Home on Jam](operation.md#home-on-jam) if jamming is detected.
+[Home on Jam](air_to_air.md#home-on-jam) if jamming is detected.
 
 In case jamming is erroneously detected,
 Home on Jam can be disabled by setting the switch to
 AOJ OUT.
 
 If required, manual range tracking can be used by setting MANUAL
-at which point the [MAN Vc](operation.md#manual-vc-man-vc) knob position will be
+at which point the [MAN Vc](interface.md#manual-vc-man-vc) knob position will be
 used to set the tracking gate closure velocity.
 
 ### Display Knob
@@ -195,7 +195,7 @@ with the vertical axis representing distance along the track of the aircraft.
 
 There are also two Sweep Settings NAR and WIDE; NAR is a narrow 45 degree sweep
 and WIDE is a full 120 degree sweep. See
-[Automatic Search](operation.md#automatic-search) for details.
+[Automatic Search](air_to_air.md#automatic-search) for details.
 
 The VI setting directs the display to provide course guidance for a **Vis Ident (VI)**
 intercept profile against a locked target.
@@ -217,7 +217,7 @@ increasing in range.
 ![Pulse Switch](../../img/wso_radar_pulse_switch.jpg)
 
 The Pulse Switch sets the pulse and pulse repetition frequency for the Radar
-Set. See the [Pulse Setting](operation.md#pulse-setting) section for more information.
+Set. See the [Pulse Setting](general_operation.md#pulse-setting) section for more information.
 
 In [AIR-GRD](#air-grd-air-to-ground-position) mode and
 [Computer Automatic Acquisition](operation.md#computer-automatic-acquisition-mode-caa),
@@ -230,9 +230,9 @@ the switch is disabled automatically and SHORT pulse is commanded regardless of 
 Specific radar operating modes are dependent on the Radar Mode Knob, but also
 several other conditions and switches. For a comprehensive description of the
 radar operation see
-[Radar Operation (General)](operation.md#radar-operation-general),
-[Radar Operation (Air-To-Air)](operation.md#radar-operation-air-to-air),
-[Radar Operation (Air-To-Ground)](operation.md#radar-operation-air-to-ground).
+[Radar Operation (General)](general_operation.md),
+[Radar Operation (Air-To-Air)](air_to_air.md),
+[Radar Operation (Air-To-Ground)](air_to_ground.md).
 
 This section will briefly cover each of the positions of the radar mode knob and
 link to the relevant sections below.
@@ -240,7 +240,7 @@ link to the relevant sections below.
 ### BST (Boresight) Position
 
 BST forces the radar into the
-[boresight](operation.md#boresight-and-cage-condition) state.
+[boresight](air_to_air.md#boresight-and-cage-condition) state.
 
 This is used when
 the target is spotted visually or a [Sparrow](../../stores/air_to_air/aim_7.md)

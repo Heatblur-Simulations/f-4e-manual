@@ -66,12 +66,12 @@ be described below.
 
 ![Radar Screen in TRACK](../../img/radar_track.jpg)
 
-| Item    | Name                     | Description                                                                                                                       |
-| ------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
-| a       | Display Readout          | The readout depends on the position of the [Aspect Switch](interface.md#aspect)                                                   |
-| b       | Allowable Steering Error | Describes the maximal Off-Angle-Launch-Envelope, see [Allowable Steering Error](interface.md#allowable-steering-error-ase-circle) |
-| c and e | Range Strobes            | Indicates Launch Envelope, see [Range Strobes](interface.md#range-strobes) Description                                            |
-| d       | Aim Dot                  | Provides pilot steering, see [Aim Dot](interface.md#aim-dot)                                                                      |
+| Item    | Name                     | Description                                                                                                           |
+| ------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| a       | Display Readout          | The readout depends on the position of the [Aspect Switch](interface.md#aspect)                                       |
+| b       | Allowable Steering Error | Describes the maximal Off-Angle-Launch-Envelope, see [Allowable Steering Error](#allowable-steering-error-ase-circle) |
+| c and e | Range Strobes            | Indicates Launch Envelope, see [Range Strobes](interface.md#range-strobes) Description                                |
+| d       | Aim Dot                  | Provides pilot steering, see [Aim Dot](#aim-dot)                                                                      |
 
 On the top right corner of the radar screen is an
 [engraved T](interface.md#track-light-t) symbol which illuminates if a range

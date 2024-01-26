@@ -81,7 +81,7 @@ See [WRCS BITs](../../../procedures/bit_tests/wrcs.md) for details.
 ![wso_cursor_control_panel](../../../img/wso_cursor_control_panel.jpg)
 
 Used for [WRCS](../../../systems/weapon_systems/wrcs.md) radar bombing mode target entry. Functions
-only with [MAP-PPI](../../../systems/radar/operation.md#map-mode-ppi) mode selected and
+only with [MAP-PPI](../../../systems/radar/air_to_ground.md#map-mode-ppi) mode selected and
 applicable bombing mode selected on
 the [Delivery Mode Knob](../../../cockpit/pilot/weapon_management.md#delivery-mode-knob).
 
