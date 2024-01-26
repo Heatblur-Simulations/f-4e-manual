@@ -7,7 +7,8 @@
 ![pilot_telelight_panel](../img/pilot_telelight_panel.jpg)
 
 The majority of cockpit warning lamps are found on the telelight panel on the
-right sub-panel in the front cockpit. A list of them follows:
+right sub-panel in the front cockpit. See the [Emergency Procedures Supplement](../emergency_procedures/supplement.md#warningindicator-lights)
+for a comapct list of them or see the one below:
 
 | Light                | Explanation                                                                                                                                                                                                     | Light               | Explanation                                                                                                                                  | Light                | Explanation                                                                                                                                             |
 |----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|----------------------------------------------------------------------------------------------------------------------------------------------|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|

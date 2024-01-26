@@ -148,6 +148,10 @@
     - [Navigation Test Procedures](./procedures/bit_tests/navigation_tests.md)
     - [Optical Sight BIT Procedure](./procedures/bit_tests/optical_sight.md)
 - [Emergency Procedures](./emergency_procedures/overwiew.md)
+  - [Inflight](./emergency_procedures/in_flight.md)
+  - [Landing](./emergency_procedures/landing.md)
+  - [Supplement](./emergency_procedures/supplement.md)
+
 - [DCS](./dcs/overview.md)
   - [Controls](./dcs/controls.md)
   - [Special Options](./dcs/special_options.md)

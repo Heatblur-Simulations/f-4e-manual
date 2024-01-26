@@ -20,6 +20,6 @@ The following symbology is used throughout this manual.
 
 | Symbol   | Description                                                                              |
 | -------- | ---------------------------------------------------------------------------------------- |
-| **Bold** | Step is necessary to be performed                                                        |
+| **Bold** | Step is necessary to be performed OR it's a bold face procedure (crewmembers should be able to accomplish bold face procedures without reference to the checklist)                           |
 | 🔧       | Step involves or may involve [crew chief](../crew_chief/overview.md) interaction         |
 | ⚡       | Step **cannot** be performed when **battery start** is made, external power is necessary |

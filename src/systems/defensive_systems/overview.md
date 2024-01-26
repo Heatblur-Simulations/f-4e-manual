@@ -10,3 +10,5 @@ subsequently RWR) is the F-4E's passive situational awareness system for detecti
 surface-to-air radar threats.
 
 For extended protection and radar jamming it can also carry the [ALQ-131 ECM Pod](ecm.md).
+
+![Pilot sihouette](../../img/pilot_silhouette.jpg)

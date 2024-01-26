@@ -1,5 +1,7 @@
 # Hydraulics
 
+![manual_hydraulics_diagram](../img/manual_hydraulics_diagram.jpg)
+
 The hydraulic power system of the F-4E consists of three, completely
 independent, closed hydraulic systems:
 
@@ -43,8 +45,6 @@ if PC-1 pressure drops below 1000 psi.
 > of hydraulic pressure and one system functions as
 > a backup for the other.
 
-![manual_hydraulics_diagram](../img/manual_hydraulics_diagram.jpg)
-
 ## Hydraulic Pressure Indicators
 
 ![HydPress](../img/pilot_hydraulic_pressure.jpg)
@@ -82,3 +82,7 @@ GAGES lights can illuminate momentarily during extension of the
 landing gear, or during intense maneuvering due to system load. In such situations, check the
 pressure indicators: should they return to nominal values, disregard the warnings as they will reset
 momentarily.
+
+![Hydraulics repair](../img/hydraulics.jpg)
+<!-- https://nara.getarchive.net/media/
+technical-sergeant-tsgt-rossell-powell-of-the-347th-electronic-maintenance-ebeeb6 -->

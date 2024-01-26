@@ -17,3 +17,6 @@ a localizer.
 The [Tactical Air Navigation (TACAN)](./tacan.md) system offers bearing and range information to
 transmitting stations, with a reception range of up to 390 miles from ground stations and 200 miles
 for air-to-air [TACAN-equipped](./tacan.md) aircraft.
+
+![real_life_crew_with_map](../../img/map_1.jpg)
+<!-- ![real_life_crew_with_map](../../img/map_2.jpg) -->

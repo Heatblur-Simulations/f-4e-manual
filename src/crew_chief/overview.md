@@ -2,6 +2,8 @@
 
 ![crew chief](../img/crew_chief.jpg)
 <!-- https://nara.getarchive.net/media/ -->
+<!-- https://nara.getarchive.net/media/
+maj-strangler-an-f-4-phantom-ii-aircraft-pilot-speaks-to-his-crew-chief-about-05dea4 -->
 
 Crew chief (often called "Chief") is the main technician
 who is responsible for the assigned aircraft when it's on the ground.

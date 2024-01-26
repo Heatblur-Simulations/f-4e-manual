@@ -16,12 +16,6 @@ officer only, and items **not coded** are applicable to the pilot only.
 > simulation of the Phantom specifically. Procedures provided in other resources
 > may differ slightly.
 
-Here is an explanation of the symbology used:
-
-| Symbol   | Description                                                                      |
-| -------- | -------------------------------------------------------------------------------- |
-| **Bold** | step is necessary to be performed                                                |
-| 🔧       | step involves or may involve [crew chief](../crew_chief/overview.md) interaction |
-| ⚡       | step **cannot** be performed when **battery start** is made                      |
+See the [Definitions](../intro/definitions.md) for an explanation of the symbology used.
 
 ![real_life_crew_with_manual](../img/real_life_crew_with_manual.jpg)
