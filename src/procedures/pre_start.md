@@ -3,10 +3,6 @@
 > 💡 If a battery start is to be made, those checks requiring electrical power will have to be
 > performed after the engines have been started.
 
-Designations used:
-
-* The ⚡ icon means that the given step **cannot** be performed when battery start is made.
-
 ## WSO
 
 ### Before Electrical Power (WSO)

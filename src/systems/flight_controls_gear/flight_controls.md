@@ -1,9 +1,18 @@
-# Flight Control Surfaces and System
+# Flight Control System
 
 ![ext_view_flight_controls](../../img/ext_f4_flight_control_surfaces.jpg)
 
-The flight controls include the slats seen in front of the wing in extended position, the flaps, the
-rudder, the aileron-spoiler seen on top of the right wing in the picture and rearward stabilizers.
+The primary flight controls of the aircraft consist of
+the [stabilator](./flight_controls.md#aileron-spoiler-control-and-stabilator-control-feel-and-trim-systems),
+[rudder](./flight_controls.md#rudder-control-system),
+[ailerons](./flight_controls.md#aileron-spoiler-control-and-stabilator-control-feel-and-trim-systems),
+and [spoilers](./flight_controls.md#aileron-spoiler-control-and-stabilator-control-feel-and-trim-systems).
+Artificial feel systems provide
+simulated aerodynamic forces to the control stick and
+rudder pedals. Secondary controls are
+[leading edge flaps/slats](./flight_controls.html#slats-flap-system),
+[trailing edge flaps](./flight_controls.html#slats-flap-system),
+and wing mounted [speed brakes](./flight_controls.md#speed-brakes).
 
 ## Control Sticks
 

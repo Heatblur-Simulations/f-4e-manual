@@ -14,8 +14,8 @@ emergencies, adverse weather, and other peculiar
 conditions may require modification of these procedures.
 The critical items **(BOLD FACE LETTERS)** contained in the
 various emergency procedures cover the most adverse
-conditions. Aircrew members should be able to accomplish
-bold face procedures without reference to the checklist.
+conditions. **Aircrew members should be able to accomplish
+bold face procedures without reference to the checklist.**
 The nature and severity of the encountered emergency
 will dictate the necessity for complying with the critical
 items in their entirety. It is essential, therefore, that
@@ -48,7 +48,11 @@ and should be thoroughly understood by all aircrew:
 2. Analyze the situation and take proper action.
 3. Land as soon as practical.
 
+See the [Definitions](../intro/definitions.md) for an explanation of the symbology used.
+
+![real_life_crew_with_manual](../img/reading_1.jpg)
+
+> 💡 This section contains only the most important emergency procedures.
+
 <!-- TODO: maybe add warning from the flight manual -->
 > 🚧 This section is under construction.
->
-> * Add some procedures
