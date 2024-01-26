@@ -1,33 +1,34 @@
 # Aft Section
 
-The aft section of the right console has navigation equipment
-and controls for exterior lighting.
+The aft section of the right console has navigation equipment and controls for
+exterior lighting.
 
 ## Compass Control Panel
 
 ![CompassCtl](../../../img/pilot_comp_panel.jpg)
 
 Manages essential controls for the proper operation of the AJB-7 azimuth system.
-Essential for accurate azimuth output to instruments
-like [ADI,](../../pilot/flight_director_group.md#attitude-director-indicator)
+Essential for accurate azimuth output to instruments like
+[ADI,](../../pilot/flight_director_group.md#attitude-director-indicator)
 [HSI,](../../pilot/flight_director_group.md#horizontal-situation-indicator)
 [BDHI,](../../wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi)
-but also to the rear
-seat [attitude indicator,](../../wso/upfront_indicators.md#attitude-indicator)
+but also to the rear seat
+[attitude indicator,](../../wso/upfront_indicators.md#attitude-indicator)
 [autopilot,](../../../systems/flight_controls_gear/flight_controls.md#auotmatic-flight-control-system-afcs)
 and [bombing computer.](../../../systems/weapon_systems/wrcs.md)
 
 ### Mode Selector Knob
 
-Switches (<num>2</num>) between different operating modes — Compass, DG (directional gyro), and
-Slaved. It also has a spring-loaded SYNC position for fast synchronization of
-the azimuth system based on the compass flux valve signal. The flux valve is an electronic
-sensor in the aircraft's left wing that detects magnetic fields to provide the primary
-reference for magnetic heading. However, it is very sensitive to changes in the aircraft's
-attitude and even minor accelerations.
+Switches (<num>2</num>) between different operating modes — Compass, DG
+(directional gyro), and Slaved. It also has a spring-loaded SYNC position for
+fast synchronization of the azimuth system based on the compass flux valve
+signal. The flux valve is an electronic sensor in the aircraft's left wing that
+detects magnetic fields to provide the primary reference for magnetic heading.
+However, it is very sensitive to changes in the aircraft's attitude and even
+minor accelerations.
 
 | Name                  | Description                                                                                                                                                                                                                  |
-|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | COMP (Compass)        | Used in emergencies when the reference systems fail. Supplies magnetic heading directly from the flux valve                                                                                                                  |
 | DG (Directional Gyro) | Used in extreme latitudes and regions with magnetic distortion, the initial magnetic heading needs manual adjustment. If the reference system is set to STBY, the aircraft's latitude must be adjusted on the latitude knob. |
 | Slaved                | Primary operational mode under typical conditions, it depends on signals from the flux valve for a gradual synchronization of the system.                                                                                    |
@@ -37,19 +38,19 @@ attitude and even minor accelerations.
 
 Adjusted to set the aircraft's hemisphere and latitude in the DG Compass System
 mode, when operating with the STBY reference system. The hemisphere is
-determined by rotating the screw (6) above the latitude knob. When the PRIM
-reference system mode is active, setting a latitude other than zero will cause
-errors by doubling drift compensation due to INS corrections.
+determined by rotating the screw (<num>6</num>) above the latitude knob. When
+the PRIM reference system mode is active, setting a latitude other than zero
+will cause errors by doubling drift compensation due to INS corrections.
 
 ### Set Heading Control Knob
 
-Push-to-turn knob (<num>1</num>), spring-loaded to return to the center, permits manual
-adjustment of the azimuth, crucial when operating in the DG mode.
+Push-to-turn knob (<num>1</num>), spring-loaded to return to the center, permits
+manual adjustment of the azimuth, crucial when operating in the DG mode.
 
 ### Sync Indicator
 
-Displays (<num>4</num>) the azimuth deviation between the flux valve signal and the internal
-reference system.
+Displays (<num>4</num>) the azimuth deviation between the flux valve signal and
+the internal reference system.
 
 ## Exterior Lights Control Panel
 
@@ -69,37 +70,37 @@ To ensure lights are available even in case of power failure conditions, the BRT
 and DIM selections are routed through different buses:
 
 | Lamp       | Bus                   |
-|------------|-----------------------|
+| ---------- | --------------------- |
 | Bright     | Right Main 28V DC Bus |
 | Dim        | Left Main 14V AC Bus  |
 | Anti-Col 1 | Right Main 14V AC Bus |
 | Anti-Col 2 | Left Main 14V AC Bus  |
 
-For further information about the lighting see
-the [3.9 lighting chapter.](../../../systems/lighting.md#exterior-lighting)
+For further information about the lighting see the
+[3.9 lighting chapter.](../../../systems/lighting.md#exterior-lighting)
 
 ### Fuselage Switch
 
-The three position switch (<num>1</num>) controls the three white fuselage lights.
+The three position switch (<num>1</num>) controls the three white fuselage
+lights.
 
 Additionally, if set to BRT and the Flasher Switch is set to FLASH, both
 anti-collision lights illuminate.
 
 ### Tail Switch
 
-The three position switch (<num>3</num>) controls the position light on the tail.
+The three position switch (<num>3</num>) controls the position light on the
+tail.
 
 ### Wing Switch
 
-The three position switch (<num>4</num>) controls two of the three position and the two join-up
-lights on the
-wingtips.
+The three position switch (<num>4</num>) controls two of the three position and
+the two join-up lights on the wingtips.
 
 ### Flasher Switch
 
-A three position switch (<num>2</num>) that can be set to OFF, STEADY or FLASH to additionally
-control the
-setting for:
+A three position switch (<num>2</num>) that can be set to OFF, STEADY or FLASH
+to additionally control the setting for:
 
 - one of the two anti-collision lamps
 - tail position light
@@ -119,13 +120,14 @@ primarily controlled by the WSO and records the intercom sound, as well as the
 rear radar screen.
 
 Footage is recorded on a standard u-matic S cassette, which can be removed and
-replaced using the EJECT Button on the top left of the box. The UNTHREAD button (<num>2</num>)
-next to it is used to unthread the tape of the cassette back to the start,
-causing it to overwrite previously recorded footage.
+replaced using the EJECT Button on the top left of the box. The UNTHREAD button
+(<num>2</num>) next to it is used to unthread the tape of the cassette back to
+the start, causing it to overwrite previously recorded footage.
 
 > 💡 Cassette ejection (<num>1</num>) is currently not simulated.
 
 The cassette can record up to 20 minutes, indicated on the small display
 labelled ELAPSED TIME (<num>3</num>).
 
-See [9.6 DCS Recorders](../../../dcs/recorders.md) for details on how to access the footage.
+See [9.6 DCS Recorders](../../../dcs/recorders.md) for details on how to access
+the footage.

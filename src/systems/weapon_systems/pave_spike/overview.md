@@ -51,7 +51,7 @@ time to release from maximally 15 seconds.
 The cues also indicate various situations related to laser operation.
 
 | Indication    | T0                                    | TTG                                     |
-|---------------|---------------------------------------|-----------------------------------------|
+| ------------- | ------------------------------------- | --------------------------------------- |
 | not shown     | not in TRACK mode                     | not in TRACK mode                       |
 | steady        | commanded to fire laser (full action) | firing laser, accepted range            |
 | flashing fast | not commanded to fire laser           | not firing laser or target too far away |
@@ -73,12 +73,14 @@ consists of:
 While the display is shown on the DSCG screens in both cockpits.
 
 ![Pilot System Overview](../../../img/pilot_pave_spike_overview.jpg)
-_(1) Range Indicator, (2) Brightness Control knobs, (3) DSCG Display, (4) Azimuth-Elevation (LOS)
-Indicator, (5) Weapon select knob_
+_(<num>1</num>) Range Indicator, (<num>2</num>) Brightness Control knobs,
+(<num>3</num>) DSCG Display, (<num>4</num>) Azimuth-Elevation (LOS) Indicator,
+(<num>5</num>) Weapon select knob_
 
-![WSO System Overview](../../../img/wso_pave_spike_overview.jpg)
-_(1) Video Select button, (2) DSCG Display, (3) DSCG Control knobs, (4) Target Designator
-Controls, (5) Laser Code Designator, (6) Antenna Hand Control_
+![WSO System Overview](../../../img/wso_pave_spike_overview.jpg) _(<num>1</num>)
+Video Select button, (<num>2</num>) DSCG Display, (<num>3</num>) DSCG Control
+knobs, (<num>4</num>) Target Designator Controls, (<num>5</num>) Laser Code
+Designator, (<num>6</num>) Antenna Hand Control_
 
 ### Azimuth-Elevation Indicator
 
@@ -96,8 +98,9 @@ Three flags indicate the elevation:
 - yellow: -155 to -160 degrees
 - red: -160 or beyond degrees
 
-> 💡 If the needle is kept within the green labelled range and neither the yellow or
-> red flag are shown, the view will not be obstructed by the pod or the aircraft.
+> 💡 If the needle is kept within the green labelled range and neither the
+> yellow or red flag are shown, the view will not be obstructed by the pod or
+> the aircraft.
 
 ### Range Indicator
 
@@ -106,24 +109,25 @@ Pave Spike (x100 ft).
 
 ![range_indicator](../../../img/pilot_overhead_range_indicator.jpg)
 
-When the Test-Button (3) is pressed, the display shows 888, the knob underneath it (5)
-controls the brightness of the readout.
+When the Test-Button (<num>3</num>) is pressed, the display shows 888, the knob
+underneath it (<num>5</num>) controls the brightness of the readout.
 
-The Mode-Knob (1) allows the pilot to select one of two weapon delivery modes
-available with the pod:
+The Mode-Knob (<num>1</num>) allows the pilot to select one of two weapon
+delivery modes available with the pod:
 
 - WRCS - Automatic Delivery
 - ROR - Release on Range
 
 In the SET position, the display shows the desired release range used in the ROR
-mode. The knob below the readout (4) can be used to adjust this range.
+mode. The knob below the readout (<num>4</num>) can be used to adjust this
+range.
 
 ### Laser Coder Control
 
 The WSO can set the laser code used by the targeting pod by using the four small
-push-buttons (1) on this panel. Each press will advance the corresponding digit by
-one. Once a code has been set, it can be transferred to the Pave Spike by
-pressing the Enter-Button (2) to the right.
+push-buttons (<num>1</num>) on this panel. Each press will advance the
+corresponding digit by one. Once a code has been set, it can be transferred to
+the Pave Spike by pressing the Enter-Button (<num>2</num>) to the right.
 
 ![laser_coder_control](../../../img/wso_laser_code_control.jpg)
 
@@ -144,20 +148,24 @@ This is the main panel to interact with the targeting pod.
 
 From left to right, top to bottom, it provides the WSO with:
 
-- Reticle Brightness Knob (1) - change the reticle from black to green
-- Az/El/Roll Boresight Knobs (2,3,4) - adjust the boresight position of the pod within
-  ±2.5 degrees
-- Stow Button (5) - Stow or Un-stow the pod
-- Laser Ready Button (6) - Arm or Disarm the laser
-- Power On Button (7) - Turn the pod on or off
-- Currently selected BIT, with push button to advance the BIT (8)
-- Light Brightness Knob (9) - adjust brightness of all lights on this panel (except
-  the Overheat lamp)
-- Reject/Override Button (10) - Force the use of the laser slant range
-- Acquisition Mode Switch (11) - Select the Acquisition Mode (12-VIS, WRCS or 9-VIS)
-- WRCS Out Button (12) - Toggle WRCS integration with the pod
-- GO/MALF Lamp (13) - Indicates BIT results
-- INS Out Button (and Overheat lamp) (14) - Toggle INS integration with the pod
+- Reticle Brightness Knob (<num>1</num>) - change the reticle from black to
+  green
+- Az/El/Roll Boresight Knobs (2,3,4) - adjust the boresight position of the pod
+  within ±2.5 degrees
+- Stow Button (<num>5</num>) - Stow or Un-stow the pod
+- Laser Ready Button (<num>6</num>) - Arm or Disarm the laser
+- Power On Button (<num>7</num>) - Turn the pod on or off
+- Currently selected BIT, with push button to advance the BIT (<num>8</num>)
+- Light Brightness Knob (<num>9</num>) - adjust brightness of all lights on this
+  panel (except the Overheat lamp)
+- Reject/Override Button (<num>10</num>) - Force the use of the laser slant
+  range
+- Acquisition Mode Switch (<num>11</num>) - Select the Acquisition Mode (12-VIS,
+  WRCS or 9-VIS)
+- WRCS Out Button (<num>12</num>) - Toggle WRCS integration with the pod
+- GO/MALF Lamp (<num>13</num>) - Indicates BIT results
+- INS Out Button (and Overheat lamp) (<num>14</num>) - Toggle INS integration
+  with the pod
 
 The lamps generally indicate the current status, while the push buttons can be
 used as a manual command. For example, pressing the Laser Ready Button is not
@@ -171,8 +179,8 @@ with the Antenna Hand Control, or Antenna Stick.
 
 ![pave_spike_antenna_hand_control](../../../img/wso_antenna_hand_control_overview.jpg)
 
-The Challenge Button (1) is used to zoom in or out, while the 2-stage trigger (3) is
-used to switch between modes and fire the laser.
+The Challenge Button (<num>1</num>) is used to zoom in or out, while the 2-stage
+trigger (<num>3</num>) is used to switch between modes and fire the laser.
 
-> 💡 Controls are **not** inverted. Moving the stick up also
-> moves the view up (_pitch up_).
+> 💡 Controls are **not** inverted. Moving the stick up also moves the view up
+> (_pitch up_).
