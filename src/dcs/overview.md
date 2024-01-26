@@ -6,4 +6,4 @@ the simulation of the Phantom inside DCS.
 Of special note is a [modding guide](modding/overview.md) and explanation available
 to [mission designers](mission_editor.md).
 
-![Helicopter with Anime Livery](../img/livery_helo.jpg)
+![Helicopter with Anime Livery](../img/phantom_livery.jpg)
