@@ -57,8 +57,8 @@ and revert back upon selection back to OPEN.
 By default, the ALR-46 is programmed to prioritize and display emitters tied to weapons that can
 engage and destroy the aircraft. However, missions will require monitoring of early warning and
 search radar systems working with longer pulse-widths for extended range detection and tracking of
-possible intruders- ie, the F-4. These emitters can be displayed using the Search mode (<num>
-2</num>), which
+possible intruders- ie, the F-4. These emitters can be displayed using the Search mode
+(<num>2</num>), which
 presents them on the RWR with the S symbol to signify their function as a long range search radar.
 Entry into Search mode is displayed on the button with an illuminated "S".
 

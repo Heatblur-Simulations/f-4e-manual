@@ -45,8 +45,8 @@ the destination set in the navigation computer.
 ### Mode Selector Knob (MODE) and Flight Director Switch
 
 The Mode Selector Knob (<num>3</num>) controls the remaining informational displays on
-the HSI (outer knob), as well as the pitch and bank steering bars on the ADI (inner knob (<num>
-2</num>)
+the HSI (outer knob), as well as the pitch and bank steering bars on the ADI (inner knob
+(<num>2</num>)
 labelled FD). The mode selector knob operates independently of the bearing pointer and range
 indicator, and the selector positions are [VOR/ILS](vor_ils.md), [TAC](tacan.md), NAV COMP, and HDG.
 Navigation modes set by this knob will be indicated by an illuminated word message when the
@@ -186,8 +186,8 @@ indicates UHF bearing, and the no. 2 pointer indicates the TACAN bearing. If
 there is no TACAN signal, both pointers indicate the ADF bearing.
 
 With the middle position selected - [VOR](vor_ils.md)/TAC, the no. 1 pointer indicates
-the VOR bearing, the no. 2 pointer indicates the TACAN bearing, and the range indicator (<num>
-3</num>)
+the VOR bearing, the no. 2 pointer indicates the TACAN bearing, and the range indicator
+(<num>3</num>)
 provides distance to the TACAN station. In the absence of a TACAN signal,
 both pointers indicate the VOR station.
 

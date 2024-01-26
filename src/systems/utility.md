@@ -10,8 +10,8 @@ front cockpit, and the left sub-panel in the rear. Flow is initiated in each
 cockpit using the Supply Lever (<num>6</num>) found on the regulator panel. Oxygen flow is
 confirmed using the Flow Indicator (<num>3</num>), which alternates from black to white
 for each breath (white indicates inhalation). Supply pressure and remaining
-volume is confirmed using the Oxygen Pressure (<num>7</num>) and Oxygen Quantity gauges (<num>
-2</num>)
+volume is confirmed using the Oxygen Pressure (<num>7</num>) and Oxygen Quantity gauges
+(<num>2</num>)
 found in both cockpits.
 
 A detailed chart of the Oxygen duration is provided here:

@@ -13,7 +13,7 @@ delivery mode knob (<num>8</num>), the weapon selector knob (<num>9</num>), the 
 lights (<num>10</num>), the radar
 missile power switch (<num>11</num>), the centerline tank aboard light (<num>12</num>), the
 interlock switch (<num>13</num>), the
-selective jettison control (<num>17</num>) and the AWRU controls (<num>14</num>,<num>15</num>
+selective jettison control (<num>17</num>) and the AWRU controls (<num>14</num>, <num>15</num>
 and <num>16</num>).
 
 ## Range Indicator
@@ -23,8 +23,8 @@ and <num>16</num>).
 This panel provides the pilot with a readout of the slant range measured by the [Pave
 Spike](../../systems/weapon_systems/pave_spike/overview.md) Targeting Pod (x100 ft).
 
-When the Test-Button (<num>2</num>) is pressed, the display shows 888. The knob underneath (<num>
-3</num>) the test button
+When the Test-Button (<num>2</num>) is pressed, the display shows 888. The knob underneath
+(<num>3</num>) the test button
 controls the brightness of the readout.
 
 The Mode-Knob (<num>1</num>) allows the pilot to select one of two weapon delivery modes available

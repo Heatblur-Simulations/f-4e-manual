@@ -51,8 +51,8 @@ Depending on the specific setup at an airport, there can be:
 
 The control panel for the VOR/ILS is found on the front cockpit left console;
 the panel includes a frequency indicator, two frequency select knobs (<num>2</num>), a volume
-control (marked NAV VOL) (<num>1</num>), a marker beacon volume control knob (MB VOL) (<num>
-3</num>), and a
+control (marked NAV VOL) (<num>1</num>), a marker beacon volume control knob (MB VOL)
+(<num>3</num>), and a
 VOL/MRK TEST pushbutton (<num>4</num>).
 
 ### VOR/ILS Frequency Selector Knobs

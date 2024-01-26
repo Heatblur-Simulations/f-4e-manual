@@ -84,8 +84,8 @@ The panel is duplicated in both cockpits, and control over the
 radio is determined through pushing the COMM CMD Button (<num>10</num>) in the respective seat;
 the button will illuminate green (<num>9</num>) in the seat in priority. In the same fashion,
 the NAV CMD button (<num>7</num>) dictates which seat has control of
-the [TACAN](../../../systems/nav_com/tacan.md) settings; its button will also illuminate (<num>
-8</num>) on the
+the [TACAN](../../../systems/nav_com/tacan.md) settings; its button will also illuminate
+(<num>8</num>) on the
 panel of the seat that has command (control) of the system.
 
 ### Radio Volume

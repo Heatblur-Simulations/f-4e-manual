@@ -9,8 +9,8 @@ indicators (<num>2</num>), the external lights switch (<num>6</num>), the Ailero
 Interconnect fuse (<num>8</num>), a recorder
 lamp (<num>3</num>), the landing gear lever (<num>9</num>) as well as the fuel boost pump
 gauges (<num>4</num>). Also found on it is
-the stabilator trim gauge (<num>5</num>) and the emergency release of the external stores (<num>
-7</num>).
+the stabilator trim gauge (<num>5</num>) and the emergency release of the external stores
+(<num>7</num>).
 
 ## 8-Day Clock
 

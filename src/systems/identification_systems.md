@@ -66,8 +66,8 @@ master switch (<num>1</num>) NORMAL. Repeated illumination of the MASTER CAUTION
 stopped only by
 placing the master switch (<num>1</num>) OFF, resulting in the loss of all IFF capability, or by
 placing the
-Mode 4 function switch (<num>8</num>) to ZERO. Before or during flight, if the master switch (<num>
-1</num>) is placed OFF,
+Mode 4 function switch (<num>8</num>) to ZERO. Before or during flight, if the master switch
+(<num>1</num>) is placed OFF,
 the IFF and MASTER CAUTION lights will not illuminate upon interrogation.
 
 Normal IFF operation will be

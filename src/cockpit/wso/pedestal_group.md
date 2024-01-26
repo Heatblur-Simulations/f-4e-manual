@@ -1,7 +1,7 @@
 # Pedestal Group
 
-This area behind the stick contains the radar screen (<num>1</num>), the DSCG controls (<num>
-2</num>)
+This area behind the stick contains the radar screen (<num>1</num>), the DSCG controls
+(<num>2</num>)
 as well as the controls for the targeting pod (<num>3</num>).
 
 ![wso_dscg_knobs_above](../../img/wso_dscg_knobs_above.jpg)
