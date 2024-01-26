@@ -124,4 +124,4 @@ all other cells are connected to the vent mast below the rudder.
 > wing fuel tanks are pressurized and made ready for transfer.
 > This is the case whenever the gear is retracted or the AAR door is closed.
 
-![Fuel Venting](../../img/fuel_venting.jpg)
+![Fuel Venting](../../img/f4_ext_farting.jpg)

@@ -1,5 +1,7 @@
 # Weapon Systems
 
+![f4_ext_gun_firing](../../img/ext_f4_gun_firing.jpg)
+
 The F-4E features two systems to assist the Pilot and WSO in air-to-ground Operations. [The AN/AJB-7
 ARBCS (Automated Release Control System)](./arbcs.md) serves as the automated release control system
 for time or pitch-relative bombing. It interfaces
