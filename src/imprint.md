@@ -1,7 +1,6 @@
 # Imprint
 
-Heatblur Simulations\
-Subsidiary of Rental Punkt Suprema sp. z.o.o.\
+Heatblur Simulations™\
 Ulica Wrzosowa 11, 72-602, Świnoujście, Poland
 
 Contact: <support@heatblur.se>
