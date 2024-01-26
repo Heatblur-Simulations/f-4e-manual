@@ -39,19 +39,20 @@ scan pattern or found a ground reference point and inserted it into the WRCS.
 
 ## Principle
 
-The APQ-120 is a pulse radar. The antenna transmits a radio pulse focused in one
-direction.
+The APQ-120 is a pulse radar. The radar transmits a radio pulse focused
+in one direction via the antenna.
 
 Any obstacle in that direction, for example another aircraft or simply ground,
-will reflect part of the energy back, which the antenna then receives and
-evaluates. Based on the time it took for the signal to travel back, the radar
-can compute the distance to the obstacle.
+will reflect part of the energy back, which the radar then receives via
+the antenna to be processed and then evaluated by the crew.
+Based on the time it took for the signal to travel back, the radar
+can then compute the distance to the obstacle.
 
 All radar returns are then displayed on the screen **based on their distance**,
 resulting in a **direct** and **unfiltered** representation of the world in
 front of the aircraft.
 
-However, since the emitter is not a perfect device energy is transmitted into all
+However since the emitter is not a perfect device, energy is transmitted into all
 directions, with the main focus being the direction in which the antenna is
 pointing at. This is referred to as the **main lobe** of the antenna, while any
 other unwanted returns from different directions are called **side lobes**.
