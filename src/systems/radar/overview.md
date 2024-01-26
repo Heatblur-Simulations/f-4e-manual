@@ -51,10 +51,10 @@ All radar returns are then displayed on the screen **based on their distance**,
 resulting in a **direct** and **unfiltered** representation of the world in
 front of the aircraft.
 
-However, since the emitter is not perfect device, energy is transmitted into all
+However, since the emitter is not a perfect device energy is transmitted into all
 directions, with the main focus being the direction in which the antenna is
 pointing at. This is referred to as the **main lobe** of the antenna, while any
-other unwanted returns from different directions are called **side lobe**s.
+other unwanted returns from different directions are called **side lobes**.
 
 ![Radar with Lobes](../../img/radar_lobes.jpg)
 
@@ -64,7 +64,7 @@ other unwanted returns from different directions are called **side lobe**s.
 |   b   | Ground clutter from main-lobe  |
 |   c   | Ground clutter from side-lobes |
 
-The same situation from outside roughly looks as follows.
+The same situation from outside looks as follows.
 
 ![Outside view of situation](../../img/radar_lobes_outside.jpg)
 
