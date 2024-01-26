@@ -14,6 +14,8 @@ radar boresight while also being stabilized in drift, this drift correction can
 be removed by setting Drift Out on the [Stab Switch](interface.md#stab-switch)
 in-case of INS malfunction.
 
+![Ground Mode during Divetoss](../../img/radar_ground_mode_dt.jpg)
+
 AIR-GRD mode disables [Angle Track](interface.md#angle-track) operation and only
 uses [Range Track](interface.md#range-track). Once locked on the main lobe
 clutter (ground radar echo), it will be tracked in range.
@@ -62,6 +64,8 @@ The range cursor is an arc of constant range from the aircraft. The offset
 cursor is an offset parallel to the drift of the aircraft, which can be offset
 left or right of the aircraft's current track. Offset Cursor and Range Cursor
 can only be displayed in PPI modes.
+
+![Map Mode with Cursors](../../img/radar_map_mode_cursors.jpg)
 
 Both Range and Offset Cursor are displayed if
 [Weapon Delivery Mode](../../systems/weapon_systems/multiple_weapons_system.md#mode-selection---delivery-mode-knob)

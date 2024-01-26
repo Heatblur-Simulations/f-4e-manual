@@ -144,6 +144,10 @@ resulting in degraded image. Lower gain settings will result in better target
 contrast, however weaker returns will not be visible, this can degrade detection
 range.
 
+| Too much gain                                       | Perfect gain (2 targets)                          |
+| --------------------------------------------------- | ------------------------------------------------- |
+| ![Too much gain](../../img/radar_too_much_gain.jpg) | ![Perfect gain](../../img/radar_perfect_gain.jpg) |
+
 When the radar locks on a target, the gain control is switched to the
 [Automatic Gain Control Circuit](#automatic-gain-control) and manual gain
 control no longer is used.

@@ -123,11 +123,15 @@ Memory Mode will be entered under several conditions:
 
 ### Home On Jam
 
+![Jamming Target](../../img/radar_jamming_target.jpg)
+
 The back bias amplifier in the radar produces a noise signal based on the
 overall strength of the echoes. Once this noise signal exceeds some threshold,
 the system will consider it a jamming condition and enter Home On Jam. The range
 track circuit goes into memory mode, the angle track circuit continues to
 operate and track the jamming target in elevation and azimuth.
+
+![Home On Jam](../../img/radar_home_on_jam.jpg)
 
 The Home On Jam condition is also indicated by the engraved H on the DSCG and
 the last zero digit of the closure velocity is replaced by a H along with the
@@ -143,6 +147,8 @@ then selecting and holding the full action trigger position of the Antenna Hand
 Controller. Doing so, the antenna will nutate and revert to the chosen Polar
 Switch selection to increase target definition, but without attempting the
 automatic lock-on.
+
+![Spotlight Mode](../../img/radar_spottlight.jpg)
 
 The target can be maintained in a well-observable state by holding full action
 and following the target-return with the Antenna Hand Controller until it
@@ -172,6 +178,8 @@ missile envelope. There are three possible strobe types.
 | Sparrow          | Rmax and Rmax2    |
 | Sidewinder       | Rmax and Rmin     |
 
+![Target in Rmax](../../img/radar_target_in_rmax.jpg)
+
 All ranges are calculated for the point the Bomb Button is pressed and hold down
 for release, not the point where the actual release signal is send a few seconds
 later. This means if the missile envelope is met on the display, then the Bomb
@@ -184,6 +192,8 @@ missile can be launched and will still retain a high probability of hit. The
 circle diameter gradually increases in size once Rmax is reached and gradually
 begins decreasing in size as the target range approaches Rmin.
 
+![ASE circle](../../img/radar_ase_circle.jpg)
+
 With the Sparrow selected, the max ASE Circle size is 25 degrees for an AIM-7E
 and 35 degrees for an AIM-7F.
 
@@ -192,6 +202,8 @@ degrees. With it un-caged the ASE Circle dynamically changes size as described
 above, with the max diameter representing 25 degrees.
 
 ### Aim Dot
+
+![Aim Dot](../../img/radar_aim_dot.jpg)
 
 The aim dot provides steering commands to the pilot. There are three different
 types:
@@ -291,6 +303,8 @@ Sparrow can now be fired.
 The cage condition is a close combat mode which can be entered at any time by
 depressing the CAGE Button on the pilot throttle. This by default puts the radar
 into boresight as described above.
+
+![Cage Mode](../../img/radar_cage_mode.jpg)
 
 When the cage condition is present the following changes happen:
 

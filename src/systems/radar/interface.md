@@ -57,6 +57,8 @@ available for the [Spotlight](operation.md#spotlight) mode instead.
 
 ### Polarization Control
 
+![Polarization Switch](../../img/wso_radar_polar_switch.jpg)
+
 The polarization of the radio frequency energy can be changed using the
 polarization control (<num>3</num>). In normal operation the LIN setting is used which produces
 linearly polarized light in the vertical direction relative to the antenna. This
@@ -326,6 +328,8 @@ the outer current or signal value is tested.
 
 ### Monitor Meter
 
+![Monitor Meter](../../img/wso_control_monitor_meter.jpg)
+
 The Monitor Meter (<num>2</num>) displays voltages, current, and signals relative to the
 current settings of the Meter Selector knob (<num>1</num>) in conjunction with the Meter
 Switch (<num>4</num>), or the current Built-In Test (<num>3</num>) setting.
@@ -364,11 +368,15 @@ pulse (counter-clockwise) mode.
 
 ### APQ-120 Built-In Test Knob
 
+![Test Knob](../../img/wso_control_monitor_test_switch.jpg)
+
 Confirmation of proper system performance is performed using the various options
 on the Control Monitor Panel; specific test modes are defined using the Test
 Knob (<num>3</num>).
 
 ### Meter Switch
+
+![Meter Switch](../../img/wso_control_meter_signals_switch.jpg)
 
 Tied to the Meter Selector knob, the two position switch (<num>4</num>)
 defines which value of
@@ -376,6 +384,8 @@ the Meter Selector Knob is being tested - VOLT for the inner ring voltage
 values, SIGNALS for the outer ring current and signal values.
 
 ### Vc Switch
+
+![Vc Switch](../../img/wso_control_meter_vc_switch.jpg)
 
 With selections of 900 and 2700, the switch (<num>5</num>) is used to scale
 the Vc gap as
