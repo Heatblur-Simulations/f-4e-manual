@@ -43,8 +43,12 @@ Gs.
 
 ## Roll Breakout Point
 
-Percentage of stick input after which the Roll and Trim system will recognize
-pilot input and stop overwriting and fighting it.
+Percentage of stick input after which the AFCS system will recognize
+the pilot stick was moved from neutral trim position
+(force transducer switches closed). This
+will affect the AFCS roll channel operation and prevent it from
+fighting your roll input.
+For more info see [Force Transducer](../systems/flight_controls_gear/flight_controls.md#force-transducer).
 
 ## Afterburner Detent
 
@@ -60,7 +64,7 @@ afterburner will be turned on and off. For example, setting 2% for the deadzone
 and 80% for the detent results in afterburner activation at 82% and deactivation
 at 78% of throttle input.
 
-## Randomize System Inputs
+## Randomize System Inputs at Cold Start
 
 When unchecked, during cold start all switches and knobs will be in their
 initial OFF positions. Allowing for a quick start by just following procedures.
@@ -84,11 +88,11 @@ and possibly achieve higher FPS.
 > 🟡 CAUTION: Due to dynamic nature of this system, having it enabled might result in
 > broken track/replay files.
 
-## Disable WSO Multi-Crew Controls
+## Disable Multicrew Controls Input When Joining as WSO
 
-When checked, when playing as WSO in Multiplayer with a human pilot, any stick
-and throttle input will be deactivated to prevent accidentally messing with the
-pilot and screwing up the flight.
+If checked, when joining as WSO in multiplayer with a human pilot, your local
+controls inputs (stick, rudder pedals and throttle) will be ignored by default.
+You can toogle your local input back with assigned keybind.
 
 ## Jester Landing Callouts
 
