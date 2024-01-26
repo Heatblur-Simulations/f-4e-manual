@@ -7064,6 +7064,7 @@ display the numerical value on the DSCG display in the upper left.</p>
 <a href="systems/radar/operation.html#track">Automatic Tracking</a>. Values 100 nmi and 200 nmi are
 available for the <a href="systems/radar/operation.html#spotlight">Spotlight</a> mode instead.</p>
 <h3 id="polarization-control"><a class="header" href="#polarization-control">Polarization Control</a></h3>
+<p><img src="systems/radar/../../img/wso_radar_polar_switch.jpg" alt="Polarization Switch" /></p>
 <p>The polarization of the radio frequency energy can be changed using the
 polarization control (<num>3</num>). In normal operation the LIN setting is used which produces
 linearly polarized light in the vertical direction relative to the antenna. This
@@ -7263,6 +7264,7 @@ VOLT position, the inner rim of the knob is active, delivering the specified
 voltage of the selected position. In the SIGNALS position,
 the outer current or signal value is tested.</p>
 <h3 id="monitor-meter-1"><a class="header" href="#monitor-meter-1">Monitor Meter</a></h3>
+<p><img src="systems/radar/../../img/wso_control_monitor_meter.jpg" alt="Monitor Meter" /></p>
 <p>The Monitor Meter (<num>2</num>) displays voltages, current, and signals relative to the
 current settings of the Meter Selector knob (<num>1</num>) in conjunction with the Meter
 Switch (<num>4</num>), or the current Built-In Test (<num>3</num>) setting.</p>
@@ -7290,15 +7292,18 @@ performance; they only register a value of 1 for a transmission of vertical or
 clockwise-rotating polarity energy. That is, they do not return a value in CIR
 pulse (counter-clockwise) mode.</p>
 <h3 id="apq-120-built-in-test-knob"><a class="header" href="#apq-120-built-in-test-knob">APQ-120 Built-In Test Knob</a></h3>
+<p><img src="systems/radar/../../img/wso_control_monitor_test_switch.jpg" alt="Test Knob" /></p>
 <p>Confirmation of proper system performance is performed using the various options
 on the Control Monitor Panel; specific test modes are defined using the Test
 Knob (<num>3</num>).</p>
 <h3 id="meter-switch-1"><a class="header" href="#meter-switch-1">Meter Switch</a></h3>
+<p><img src="systems/radar/../../img/wso_control_meter_signals_switch.jpg" alt="Meter Switch" /></p>
 <p>Tied to the Meter Selector knob, the two position switch (<num>4</num>)
 defines which value of
 the Meter Selector Knob is being tested - VOLT for the inner ring voltage
 values, SIGNALS for the outer ring current and signal values.</p>
 <h3 id="vc-switch-1"><a class="header" href="#vc-switch-1">Vc Switch</a></h3>
+<p><img src="systems/radar/../../img/wso_control_meter_vc_switch.jpg" alt="Vc Switch" /></p>
 <p>With selections of 900 and 2700, the switch (<num>5</num>) is used to scale
 the Vc gap as
 displayed in F-4Es with the DVST installed.</p>
@@ -7508,6 +7513,10 @@ gain settings amplify all echoes but can result in noise and saturation
 resulting in degraded image. Lower gain settings will result in better target
 contrast, however weaker returns will not be visible, this can degrade detection
 range.</p>
+<div class="table-wrapper"><table><thead><tr><th>Too much gain</th><th>Perfect gain (2 targets)</th></tr></thead><tbody>
+<tr><td><img src="systems/radar/../../img/radar_too_much_gain.jpg" alt="Too much gain" /></td><td><img src="systems/radar/../../img/radar_perfect_gain.jpg" alt="Perfect gain" /></td></tr>
+</tbody></table>
+</div>
 <p>When the radar locks on a target, the gain control is switched to the
 <a href="systems/radar/general_operation.html#automatic-gain-control">Automatic Gain Control Circuit</a> and manual gain
 control no longer is used.</p>
@@ -7633,11 +7642,13 @@ the system will drop the lock if the target does not reappear within 5 seconds.<
 <li>Jamming condition is detected</li>
 </ul>
 <h3 id="home-on-jam"><a class="header" href="#home-on-jam">Home On Jam</a></h3>
+<p><img src="systems/radar/../../img/radar_jamming_target.jpg" alt="Jamming Target" /></p>
 <p>The back bias amplifier in the radar produces a noise signal based on the
 overall strength of the echoes. Once this noise signal exceeds some threshold,
 the system will consider it a jamming condition and enter Home On Jam. The range
 track circuit goes into memory mode, the angle track circuit continues to
 operate and track the jamming target in elevation and azimuth.</p>
+<p><img src="systems/radar/../../img/radar_home_on_jam.jpg" alt="Home On Jam" /></p>
 <p>The Home On Jam condition is also indicated by the engraved H on the DSCG and
 the last zero digit of the closure velocity is replaced by a H along with the
 closure rate flashing.</p>
@@ -7649,6 +7660,7 @@ then selecting and holding the full action trigger position of the Antenna Hand
 Controller. Doing so, the antenna will nutate and revert to the chosen Polar
 Switch selection to increase target definition, but without attempting the
 automatic lock-on.</p>
+<p><img src="systems/radar/../../img/radar_spottlight.jpg" alt="Spotlight Mode" /></p>
 <p>The target can be maintained in a well-observable state by holding full action
 and following the target-return with the Antenna Hand Controller until it
 reaches a range at which lock-on can be achieved (with the applicable change in
@@ -7671,6 +7683,7 @@ missile envelope. There are three possible strobe types.</p>
 <tr><td>Sidewinder</td><td>Rmax and Rmin</td></tr>
 </tbody></table>
 </div>
+<p><img src="systems/radar/../../img/radar_target_in_rmax.jpg" alt="Target in Rmax" /></p>
 <p>All ranges are calculated for the point the Bomb Button is pressed and hold down
 for release, not the point where the actual release signal is send a few seconds
 later. This means if the missile envelope is met on the display, then the Bomb
@@ -7680,12 +7693,14 @@ Button can be pressed and the envelope will be valid for missile launch.</p>
 missile can be launched and will still retain a high probability of hit. The
 circle diameter gradually increases in size once Rmax is reached and gradually
 begins decreasing in size as the target range approaches Rmin.</p>
+<p><img src="systems/radar/../../img/radar_ase_circle.jpg" alt="ASE circle" /></p>
 <p>With the Sparrow selected, the max ASE Circle size is 25 degrees for an AIM-7E
 and 35 degrees for an AIM-7F.</p>
 <p>With the Sidewinder selected, if caged, the ASE Circle size is fixed at 1.2
 degrees. With it un-caged the ASE Circle dynamically changes size as described
 above, with the max diameter representing 25 degrees.</p>
 <h3 id="aim-dot"><a class="header" href="#aim-dot">Aim Dot</a></h3>
+<p><img src="systems/radar/../../img/radar_aim_dot.jpg" alt="Aim Dot" /></p>
 <p>The aim dot provides steering commands to the pilot. There are three different
 types:</p>
 <ol>
@@ -7766,6 +7781,7 @@ Sparrow can now be fired.</p>
 <p>The cage condition is a close combat mode which can be entered at any time by
 depressing the CAGE Button on the pilot throttle. This by default puts the radar
 into boresight as described above.</p>
+<p><img src="systems/radar/../../img/radar_cage_mode.jpg" alt="Cage Mode" /></p>
 <p>When the cage condition is present the following changes happen:</p>
 <ul>
 <li>Air-To-Air light in the rear pit illuminates.</li>
@@ -7815,6 +7831,7 @@ and is available only in AI ranges. In this mode the antenna is fixed to the
 radar boresight while also being stabilized in drift, this drift correction can
 be removed by setting Drift Out on the <a href="systems/radar/interface.html#stab-switch">Stab Switch</a>
 in-case of INS malfunction.</p>
+<p><img src="systems/radar/../../img/radar_ground_mode_dt.jpg" alt="Ground Mode during Divetoss" /></p>
 <p>AIR-GRD mode disables <a href="systems/radar/interface.html#angle-track">Angle Track</a> operation and only
 uses <a href="systems/radar/interface.html#range-track">Range Track</a>. Once locked on the main lobe
 clutter (ground radar echo), it will be tracked in range.</p>
@@ -7857,6 +7874,7 @@ exception of 5 nmi which is always displayed in B-Scope interpretation.</p>
 cursor is an offset parallel to the drift of the aircraft, which can be offset
 left or right of the aircraft's current track. Offset Cursor and Range Cursor
 can only be displayed in PPI modes.</p>
+<p><img src="systems/radar/../../img/radar_map_mode_cursors.jpg" alt="Map Mode with Cursors" /></p>
 <p>Both Range and Offset Cursor are displayed if
 <a href="systems/radar/../../systems/weapon_systems/multiple_weapons_system.html#mode-selection---delivery-mode-knob">Weapon Delivery Mode</a>
 is set to TGT FIND or OFFSET, or
