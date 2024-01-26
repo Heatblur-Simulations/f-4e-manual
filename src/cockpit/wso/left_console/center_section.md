@@ -86,7 +86,7 @@ estimated correct speed-gate for the Sparrow when not tracking.
 
 ![Receiver Gain Knob](../../../img/wso_radar_receiver_gain.jpg)
 
-Coarse (outer ring, 8) and Fine (inner knob, 7) gain control for the radar
+Coarse (outer ring, <num>8</num>) and Fine (inner knob, <num>7</num>) gain control for the radar
 receiver. Larger values result in more noise and can cause display to become
 saturated. Lower values may result in lower detection ranges.
 

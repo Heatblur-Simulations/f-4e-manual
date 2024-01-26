@@ -205,7 +205,7 @@ intercept profile against a locked target.
 ![Manual Vc Knob](../../img/wso_radar_man_vc.jpg)
 
 This 12-position knob is used to set a closure velocity for
-[manual range tracking](operation.md#range-track). The two counter-clockwise positions (1, 2)
+[manual range tracking](air_to_air.md#range-track). The two counter-clockwise positions (1, 2)
 set an **opening velocity** of 100 and 200 knots respectively. The clockwise positions
 0 to 9 positions set a **closure velocity** from 0 to 900 knots.
 
@@ -220,7 +220,7 @@ The Pulse Switch sets the pulse and pulse repetition frequency for the Radar
 Set. See the [Pulse Setting](general_operation.md#pulse-setting) section for more information.
 
 In [AIR-GRD](#air-grd-air-to-ground-position) mode and
-[Computer Automatic Acquisition](operation.md#computer-automatic-acquisition-mode-caa),
+[Computer Automatic Acquisition](air_to_air.md#computer-automatic-acquisition-mode-caa),
 the switch is disabled automatically and SHORT pulse is commanded regardless of its setting.
 
 ## Radar Modes (MODE)
@@ -248,12 +248,12 @@ is to be fired without radar tracking.
 
 ### RDR (Radar) Position
 
-The RDR position puts the radar in [Automatic Search](operation.md#automatic-search).
+The RDR position puts the radar in [Automatic Search](air_to_air.md#automatic-search).
 
 ### MAP Position
 
 MAP position is identical to the RDR position and puts the radar in
-[Automatic Search](operation.md#automatic-search), with the exception that
+[Automatic Search](air_to_air.md#automatic-search), with the exception that
 nutation is disabled and the 2 bar search pattern is not available.
 
 ### AIR GRD (Air to Ground) Position
@@ -439,7 +439,7 @@ the DSCG display field.
 
 The Track light on the top right corner of the display illuminates
 to confirm an angle and range-based lock-on against
-a target. Same as the SKIN TRK light. See [Track](operation.md#track) for more
+a target. Same as the SKIN TRK light. See [Track](air_to_air.md#track) for more
 information.
 
 ### Contrast (CONTR)
