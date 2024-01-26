@@ -76,7 +76,7 @@ note gross deviation from known location fixes.
 
 ### Indications
 
-The INS panel features two indicator lights: HEAT (4) and ALIGN (2).
+The INS panel features two indicator lights: HEAT (<num>4</num>) and ALIGN (<num>2</num>).
 
 The HEAT light is active
 in any alignment mode (including Coarse Alignment in the STBY mode), signifying that
@@ -102,7 +102,7 @@ and the aircraft flown with the above caveat.
 ### Heading Memory Alignment
 
 This option becomes accessible if the alignment has been previously stored and
-the aircraft has remained stationary. To access it, select HDG MEM (1) located
+the aircraft has remained stationary. To access it, select HDG MEM (<num>1</num>) located
 beneath the red guard on the control panel before transitioning the INS knob
 from OFF to ALIGN. This alignment method minimizes the alignment time, offering
 a relative Circular Error Probability (CEP) at the optimal end of BATH (5.5
@@ -188,11 +188,12 @@ held in memory), and this information is shown on the BDHI and ADI in real time.
 on the BDHI, the Navigation Selection Switch must be positioned in NAV COMP.
 
 The computer also provides confirmation of current LN-12 precision, using a pair
-of lights (6) marked LAT and LONG, as well as the Variation Sync Meter (5). When these
+of lights (<num>6</num>) marked LAT and LONG, as well as the Variation Sync Meter (<num>5</num>).
+When these
 lamps are off, the current displayed position coordinates are within 1 1/2 arc
 minutes precision. Magnetic variation detected by way of the INS gyroscopes is
 compared against the manual performed prior to INS power-up via the Magnetic
-Variation Control knob, and displayed on the Variation Sync Meter (5). This
+Variation Control knob, and displayed on the Variation Sync Meter (<num>5</num>). This
 deviation can be corrected on the Magnetic Variation Control Knob to bring the
 sync to center. Although the magnetic variation control knob has no effect on
 the meter in air data mode, positive correction prior to INS loss increases the
@@ -218,7 +219,7 @@ that time.
 ### Waypoint Entry
 
 Entering waypoints and target information is performed using the Function
-Selector Knob and the two Target Control Knobs (10), one for latitude, and the other
+Selector Knob and the two Target Control Knobs (<num>10</num>), one for latitude, and the other
 longitude.
 
 | Name     | Description                                                                                               |
@@ -249,7 +250,7 @@ The other common technique was "leapfrogging":
    Control values.
 
 3. During flyout to the first waypoint, upon passing it over, Target 2 would be
-   selected as the destination, and the next waypoint (3) would be entered on
+   selected as the destination, and the next waypoint (<num>3</num>) would be entered on
    the Target Control Values.
 
 4. Upon flyover of waypoint 2, the Function Knob would be positioned to RESET,
@@ -288,7 +289,7 @@ at a known fix location.
    allowing it to fall back into NORMAL.
 
 The correction rate of the Nav Computer is roughly 3 minutes latitude or
-longitude per second, and the Update Switch (7) must be held in FIX long enough to
+longitude per second, and the Update Switch (<num>7</num>) must be held in FIX long enough to
 account for the largest value. As an example, if the deviation is 9 minutes in
 latitude and 4 in longitude, the FIX position must be held at least 3 seconds
 prior to the aircraft directly passing the fix location. Further, the switch

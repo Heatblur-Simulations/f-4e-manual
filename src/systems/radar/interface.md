@@ -15,14 +15,14 @@ stick on the right console of the WSO cockpit can be used to operate the radar.
 ![Power Knob](../../img/wso_radar_power_switch.jpg)
 
 | Name | Description                                                                                                                     |
-| ---- | ------------------------------------------------------------------------------------------------------------------------------- |
+|------|---------------------------------------------------------------------------------------------------------------------------------|
 | OFF  | Powers radar off.                                                                                                               |
 | TEST | Applies voltage to control monitor power and provides [BIT-test](../../procedures/bit_tests/overview.md) functions 1 through 6. |
 | STBY | Power applied to radar, remains in a non-transmitting standby state.                                                            |
 | OPR  | System is fully operational.                                                                                                    |
 | EMER | Overrides the time delay, pressure, and temperature restrictions to allow radar operation.                                      |
 
-Initial powering of the APQ-120 starts by placing the Radar Power Knob (1) into TEST
+Initial powering of the APQ-120 starts by placing the Radar Power Knob (<num>1</num>) into TEST
 or STBY (Standby). The warmup cycle requires 3 minutes from selecting either
 setting, and confirmation of this process is shown via the Control Monitor Meter
 on the Monitor Panel; after 30 seconds from cycling power, the gauge will
@@ -58,7 +58,7 @@ available for [Spotlight](operation.md#spotlight).
 ### Polarization Control
 
 The polarization of the radio frequency energy can be changed using the
-polarization control (3). In normal operation the LIN setting is used which produces
+polarization control (<num>3</num>). In normal operation the LIN setting is used which produces
 linearly polarized light in the vertical direction relative to the antenna, this
 minimizes ground returns as many types of ground clutter are less reflective to
 vertically polarized light. However because the antenna is not roll stabilized
@@ -74,7 +74,7 @@ described above. This makes only CIR 1 compatible with launching sparrows as the
 sparrow rear antenna cannot receive counterclockwise polarized light.
 
 | Selection | Description                                                                                                        |
-| --------- | ------------------------------------------------------------------------------------------------------------------ |
+|-----------|--------------------------------------------------------------------------------------------------------------------|
 | LIN       | RF energy is lineally polarized in a vertical orientation. [AIM-7](../../stores/air_to_air/aim_7.md) can be fired. |
 | CIR 1     | RF energy is circularly polarized clockwise. AIM-7 can be fired.                                                   |
 | CIR 2     | RF energy is circularly counterclockwise. AIM-7 cannot be fired.                                                   |
@@ -90,7 +90,7 @@ The maneuver switch is used to specify the tracking response to target
 accelerations.
 
 | Selection | Description                                                                                        |
-| --------- | -------------------------------------------------------------------------------------------------- |
+|-----------|----------------------------------------------------------------------------------------------------|
 | LOW G     | Default position. Limits tracking accelerations to reduce response to countermeasures and clutter. |
 | HI G      | Allows track loop to respond with any acceleration.                                                |
 
@@ -105,7 +105,7 @@ is used.
 The scan switch specifies the number of elevation bars used in search.
 
 | Selection | Description                                                        | Total Vertical Coverage (degrees) |
-| --------- | ------------------------------------------------------------------ | --------------------------------- |
+|-----------|--------------------------------------------------------------------|-----------------------------------|
 | 1 Bar     | Scans along radar plane.                                           | 6.7 (3.7 without nutation)        |
 | 2 Bar     | Scan alternates between 1.875 degrees above/below the radar plane. | 10.45                             |
 
@@ -132,7 +132,7 @@ aspect knob, with Vc indicating selected closure velocity for the speed gate,
 where TAS is the aircraft true airspeed.
 
 | Selection | DSCG Display     | Sparrow Speed Gate Setting (Vc) |
-| --------- | ---------------- | ------------------------------- |
+|-----------|------------------|---------------------------------|
 | WIDE      | Closure Velocity | Entire Spectrum                 |
 | NOSE      | Altitude         | TAS + 450 +/- 150 kts           |
 | FWD       | Aspect           | TAS + 240 +/- 150 kts           |

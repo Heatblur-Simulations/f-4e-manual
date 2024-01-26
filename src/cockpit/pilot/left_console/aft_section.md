@@ -18,13 +18,13 @@ by the [crew chief](../../../crew_chief/overview.md).
 
 ### Volume Control Knob
 
-The volume control knob (1) is turned clockwise to increase audio between cockpits, and
+The volume control knob (<num>1</num>) is turned clockwise to increase audio between cockpits, and
 counterclockwise to decrease audio between cockpits on
 the [Intercom](../../../systems/nav_com/intercom.md).
 
 ### Function Selector Switch
 
-The function selector switch (2) has three positions:
+The function selector switch (<num>2</num>) has three positions:
 
 | Name           | Description                                                                                                       |
 |----------------|-------------------------------------------------------------------------------------------------------------------|
@@ -34,7 +34,7 @@ The function selector switch (2) has three positions:
 
 ### Amplifier Select Knob
 
-The amplifier select knob (3) determines current amplifier
+The amplifier select knob (<num>3</num>) determines current amplifier
 for [intercom](../../../systems/nav_com/intercom.md) function.
 
 | Name | Description                                                                                                     |
@@ -48,7 +48,7 @@ for [intercom](../../../systems/nav_com/intercom.md) function.
 ![AN/ALE-40 Panel](../../../img/pilot_an_ale_40_programmer.jpg)
 
 The panel features 6 knobs to
-control [chaff and flare programs](../../../systems/defensive_systems/countermeasures.md#anale-40-programmer),
+control [chaff and flare programs](../../../systems/defensive_systems/countermeasures.md#anale-40-countermeasures-system),
 as well as two lamps and a switch to activate flares on its base.
 
 Chaffs can be programmed to be released in Salvos and Bursts.
@@ -56,36 +56,37 @@ A Salvo consists of multiple bursts, while a burst will release multiple chaffs.
 
 ### Chaff Burst
 
-The **count knob** (4) selects the quantity of chaffs released per burst;
+The **count knob** (<num>4</num>) selects the quantity of chaffs released per burst;
 values of 1, 2, 3, 4, 6, or 8 from left to right.
 
-The **interval knob** (1) selects the time interval of .1, .2, .3, or .4 seconds
+The **interval knob** (<num>1</num>) selects the time interval of .1, .2, .3, or .4 seconds
 between each chaff released in that burst.
 
 ### Chaff Salvo
 
-The **count knob** (5) selects how many bursts the salvo consists of,
+The **count knob** (<num>5</num>) selects how many bursts the salvo consists of,
 values of 1, 2, 4, 8, or C (Continuous).
 
 In the Continuous setting,
 the program is repeated as long as the dispense button is held down.
 
-The **interval knob** (2) selects the time interval between each burst.
+The **interval knob** (<num>2</num>) selects the time interval between each burst.
 Values of 1, 2, 3, 4, 5, 8, or a R (Random) number of seconds.
 
 ### Flare Burst
 
-The **count knob** (6) selects the quantity of flares released per burst.
+The **count knob** (<num>6</num>) selects the quantity of flares released per burst.
 Values of 1, 2, 4, 8, or C (Continuous).
 
 Continuous will repeat the program as long as the dispense button is held down.
 
-The **interval knob** (3) selects time interval between each flare released.
+The **interval knob** (<num>3</num>) selects time interval between each flare released.
 Values of 3, 4, 6, 8, 10 number of seconds.
 
 ### Flares Select Switch
 
-The flares select switch (9) controls which countermeasure will be released when the pilot presses
+The flares select switch (<num>9</num>) controls which countermeasure will be released when the pilot
+presses
 the Dispense Button.
 
 In the NORMAL setting, countermeasure are released according to what the WSO setup
@@ -96,14 +97,14 @@ This can for example be used to react quickly to a threat.
 
 ### Flares Indicator Light
 
-The flares indicator light (8) illuminates when the [_Flares
+The flares indicator light (<num>8</num>) illuminates when the [_Flares
 Select_](../../../systems/defensive_systems/countermeasures.md#flares-select-switch) switch is in
 the Flares position and indicates they can be dispensed,
 if [flaps and speed brakes](../../../systems/flight_controls_gear/flight_controls.md) are retracted.
 
 ### Power On Indicator Light
 
-The power on indicator light (7) illuminates when the [_Flares
+The power on indicator light (<num>7</num>) illuminates when the [_Flares
 Select_](../../../systems/defensive_systems/countermeasures.md#flares-select-switch) switch is in
 the Normal position and either (or both) mode knobs in the [WSO cockpit](../../wso/overview.md) are
 in any position other than OFF.

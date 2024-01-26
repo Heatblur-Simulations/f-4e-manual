@@ -19,20 +19,20 @@ and wing mounted [speed brakes](./flight_controls.md#speed-brakes).
 ![FlightStick](../../img/pilot_stick.jpg)
 
 A control stick is provided in both cockpits, with near-uniform switchology
-between the two. A Trim Control (1) is found on both sticks to provide force
+between the two. A Trim Control (<num>1</num>) is found on both sticks to provide force
 reduction and minor flight path correction in the pitch and roll axis. Weapons
-are deliverable through both a Trigger (3)
+are deliverable through both a Trigger (<num>3</num>)
 (for [air-to-air missiles](../../stores/air_to_air/overview.md) and the [gun](../../stores/guns.md))
-and a Bomb Release Switch (2). Both sticks carry
-a [Nose Wheel Steering button (5)](gear_ground_handling.md#nose-gear-steering) that
+and a Bomb Release Switch (<num>2</num>). Both sticks carry
+a [Nose Wheel Steering button (<num>5</num>)](gear_ground_handling.md#nose-gear-steering) that
 doubles as a [radar](../radar/overview.md) auto-acquisition control for the radar in visual
 range combat, and sensor focus control for
 video-directed [air to ground weapons](../../stores/air_to_ground/overview.md). An
-[Emergency Quick Release lever (6)](gear_ground_handling.md#emergency-anti-skid-quick-release-lever)
+[Emergency Quick Release lever (<num>6</num>)](gear_ground_handling.md#emergency-anti-skid-quick-release-lever)
 on each stick is available to immediately deactivate the anti-skid system, the automatic
 flight control system, stability augmentation and the aileron-rudder
 interconnect. Unique to the front cockpit control stick is
-the [Air Refueling Release Button (4)](../utility.md#air-refueling-release-button) - a dual-role
+the [Air Refueling Release Button (<num>4</num>)](../utility.md#air-refueling-release-button) - a dual-role
 control that performs the boom disconnect function its name implies, as well as
 a number of weapon selection functions.
 
@@ -145,10 +145,10 @@ The **AFCS mode** of operation maintains any
 aircraft heading and/or attitude selected within the AFCS
 limits and corrects for any deviation from the selected
 heading or attitude of the aircraft within the AFCS limits.
-The AFCS switch (2) can be engaged with only
+The AFCS switch (<num>2</num>) can be engaged with only
 the Pitch STAB AUG switch engaged; however, to provide full
 AFCS operation, all three STAB AUG switches must be
-engaged. The **Altitude Hold Mode** of operation (3) holds any altitude
+engaged. The **Altitude Hold Mode** of operation (<num>3</num>) holds any altitude
 selected while in the **AFCS mode**.
 
 The AFCS system can be engaged and hold maneuvers and
