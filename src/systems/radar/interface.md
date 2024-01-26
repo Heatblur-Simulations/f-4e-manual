@@ -253,7 +253,7 @@ The RDR position puts the radar in [Automatic Search](air_to_air.md#automatic-se
 ### MAP Position
 
 MAP position is identical to the RDR position and puts the radar in
-[Automatic Search](operation.md#automatic-search), with the exception that
+[Automatic Search](air_to_air.md#automatic-search), with the exception that
 nutation is disabled and the 2 bar search pattern is not available.
 
 ### AIR GRD (Air to Ground) Position
