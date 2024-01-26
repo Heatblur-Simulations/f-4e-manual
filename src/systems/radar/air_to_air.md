@@ -148,8 +148,6 @@ Controller. Doing so, the antenna will nutate and revert to the chosen Polar
 Switch selection to increase target definition, but without attempting the
 automatic lock-on.
 
-![Spotlight Mode](../../img/radar_spottlight.jpg)
-
 The target can be maintained in a well-observable state by holding full action
 and following the target-return with the Antenna Hand Controller until it
 reaches a range at which lock-on can be achieved (with the applicable change in
