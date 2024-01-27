@@ -16,12 +16,10 @@ reticle can immediately be slewed to the
 Radar Boresight Line using the Cage Button, found on the inboard (right)
 throttle handle. Cage mode commands the radar into BST mode with a five-mile
 range, and short pulse, and sets the firing circuit for the currently selected
-air-to-air weapon relative to the Pinky Switch. For
-the optical sight, the command activates the respective elevation and azimuth tracking, roll mark,
-and
-range functions of the reticle for the chosen weapon, without the pilot having
-to remove a hand from throttle or stick to swap the sight mode or weapon control
-panel functions.
+air-to-air weapon relative to the Pinky Switch. For the optical sight, the command activates the
+respective elevation and azimuth tracking, roll mark, and range functions of the reticle for the
+chosen weapon, without the pilot having to remove a hand from throttle or stick to swap the sight
+mode or weapon control panel functions.
 
 Should a track condition exist prior to pressing Cage and the Pinky switch is in
 Radar or Heat position, the lock is broken when the button is pressed, and the
@@ -56,9 +54,7 @@ can be pressed on either
 stick grip to return the radar back to the search pattern.
 
 In CAA mode, the radar's search pattern can be shifted left or right utilizing
-the Pinky Switch. While this actuation will change the illuminated weapon
-indicated on the Head Up Display, the actual selected weapon from the point of
-Cage mode entry does not change.
+the Pinky Switch.
 
 | Selection | Focus              |
 |-----------|--------------------|

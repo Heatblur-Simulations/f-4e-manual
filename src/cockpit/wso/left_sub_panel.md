@@ -54,7 +54,7 @@ tape must be unthreaded before it can record again.
 
 ### RCD Light
 
-Lit (4 upper half) to indicate the AVTR system currently recording.
+Lit (<num>4</num> upper half) to indicate the AVTR system currently recording.
 
 ## Emergency Landing Gear Handle
 

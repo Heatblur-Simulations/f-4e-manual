@@ -2,7 +2,7 @@
 
 ![ext_cockpit](../img/ext_f4_cockpit_overview.jpg)
 
-Greetings, _phaboulus_ Crewmen! Get ready for an in-depth look into the cockpit
+Greetings, _phabulous_ Crewmen! Get ready for an in-depth look into the cockpit
 of the F-4E Phantom II by Heatblur.
 
 The following chapter gives a detailed overview of the Pilots cockpit, as well
