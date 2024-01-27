@@ -51,7 +51,7 @@ time to release from maximally 15 seconds.
 The cues also indicate various situations related to laser operation.
 
 | Indication    | T0                                    | TTG                                     |
-| ------------- | ------------------------------------- | --------------------------------------- |
+|---------------|---------------------------------------|-----------------------------------------|
 | not shown     | not in TRACK mode                     | not in TRACK mode                       |
 | steady        | commanded to fire laser (full action) | firing laser, accepted range            |
 | flashing fast | not commanded to fire laser           | not firing laser or target too far away |
@@ -150,7 +150,8 @@ From left to right, top to bottom, it provides the WSO with:
 
 - Reticle Brightness Knob (<num>1</num>) - change the reticle from black to
   green
-- Az/El/Roll Boresight Knobs (2,3,4) - adjust the boresight position of the pod
+- Az/El/Roll Boresight Knobs (<num>2</num>,<num>3</num>,<num>4</num>) - adjust the boresight
+  position of the pod
   within ±2.5 degrees
 - Stow Button (<num>5</num>) - Stow or Un-stow the pod
 - Laser Ready Button (<num>6</num>) - Arm or Disarm the laser

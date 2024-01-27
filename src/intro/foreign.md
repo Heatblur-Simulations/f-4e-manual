@@ -19,7 +19,7 @@ etched the Phantom into the collective memory of the nations that flew it,
 leaving an enduring legacy in the skies it once dominated.
 
 ![real_life_f_4e_greece_lands_in_riat](../img/real_life_greek_phantom_lands_riat.jpg)
-_(Hellenic Air Force F-4E Phantom II lands at RIAT 2008, UK)_
+_(Hellenic Air Force RF-4E Phantom II lands at RIAT 2008, UK)_
 
 ## Israel
 

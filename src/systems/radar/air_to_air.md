@@ -28,7 +28,7 @@ Below shows the usual symbology present in Automatic Search and Boresight Modes.
 ![radar_screen](../../img/radar_search.jpg)
 
 | Item | Name              | Description                                                                                                                                                                                                                                                                                                                                                                                        |
-| ---- | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|------|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | a    | Range Display     | Shows current selected or forced range                                                                                                                                                                                                                                                                                                                                                             |
 | b    | Radar Cursor      | The radar cursor is used to select targets and displays the current selected range and azimuth. It is moved by the Antenna Hand Control.                                                                                                                                                                                                                                                           |
 | c    | Antenna Elevation | Shows antenna elevation (in degrees) relative to the radar plane, or aircraft if the [Stab Switch](interface.md#stab-switch) is in OUT. This can be moved with the Antenna Hand Control elevation wheel.                                                                                                                                                                                           |
@@ -49,7 +49,7 @@ desired range for lock-on.
 ![Radar Screen in ACQ](../../img/radar_acq.jpg)
 
 | Item | Name               | Description                                                                                                                                                                                                |
-| ---- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|------|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | a    | B-Sweep            | The B-Sweep displays the current radar echoes along the azimuth of the antenna, these are displayed in both acquisition and track.                                                                         |
 | b    | Acquisition Symbol | Like the radar cursor, the acquisition symbol shows the current selected azimuth and range. It is moved with the Antenna Hand Control. It is also displayed in track to indicate target range and azimuth. |
 | c    | Target Echo        | Target Return displayed along the azimuth                                                                                                                                                                  |
@@ -67,10 +67,10 @@ be described below.
 ![Radar Screen in TRACK](../../img/radar_track.jpg)
 
 | Item    | Name                     | Description                                                                                                           |
-| ------- | ------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+|---------|--------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | a       | Display Readout          | The readout depends on the position of the [Aspect Switch](interface.md#aspect)                                       |
 | b       | Allowable Steering Error | Describes the maximal Off-Angle-Launch-Envelope, see [Allowable Steering Error](#allowable-steering-error-ase-circle) |
-| c and e | Range Strobes            | Indicates Launch Envelope, see [Range Strobes](air_to_air.md#range-strobes) Description                                |
+| c and e | Range Strobes            | Indicates Launch Envelope, see [Range Strobes](air_to_air.md#range-strobes) Description                               |
 | d       | Aim Dot                  | Provides pilot steering, see [Aim Dot](#aim-dot)                                                                      |
 
 On the top right corner of the radar screen is an
@@ -166,13 +166,13 @@ The DSCG can display two range strobes at any given time representing the
 missile envelope. There are three possible strobe types.
 
 | Range Indication | Description                                                                                      |
-| ---------------- | ------------------------------------------------------------------------------------------------ |
+|------------------|--------------------------------------------------------------------------------------------------|
 | Rmax             | Maximum range of the missile provided the target continues flying on current heading and course. |
 | Rmax2            | Maximum range of the missile if the target performs the shortest high g turn to tail aspect.     |
 | Rmin             | Minimum range capability of the missile.                                                         |
 
 | Missile Selected | Strobes Displayed |
-| ---------------- | ----------------- |
+|------------------|-------------------|
 | Sparrow          | Rmax and Rmax2    |
 | Sidewinder       | Rmax and Rmin     |
 
@@ -257,7 +257,7 @@ When break X is displayed, the ASE Circle is also removed.
 There are several interlocks to prevent firing missiles in unfavorable
 conditions.
 
-For the Sidewinder the only interlock prevents the missile being fired with the
+For the Sidewinder the only interlock preventing the missile from being fired is with the
 flaps in the down position.
 
 For the Sparrow there are several conditions:
@@ -292,7 +292,7 @@ full action can be used to initiate track. Range and angle tracking will begin
 as normal.
 
 [Sparrows](../../stores/air_to_air/aim_7.md) can be fired without tracking the
-target. Instead, the pilot must position the target on the gunsight pipper and
+target. If that is the case, the pilot must position the target on the gunsight pipper and
 the WSO can select an appropriate [aspect setting](interface.md#aspect). The
 Sparrow can now be fired.
 
@@ -339,7 +339,7 @@ In CAA mode, the radar’s search pattern can be shifted left and right utilizin
 the pinky switch on the throttle.
 
 | Pinky Selection | Scan Center     |
-| --------------- | --------------- |
+|-----------------|-----------------|
 | Guns            | Left (-15 deg)  |
 | Heat            | Center (0 deg)  |
 | Radar           | Right (+15 deg) |
