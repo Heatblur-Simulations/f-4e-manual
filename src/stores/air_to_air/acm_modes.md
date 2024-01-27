@@ -54,7 +54,7 @@ can be pressed on either
 stick grip to return the radar back to the search pattern.
 
 In CAA mode, the radar's search pattern can be shifted left or right utilizing
-the Pinky Switch. 
+the Pinky Switch.
 
 | Selection | Focus              |
 |-----------|--------------------|
