@@ -176,6 +176,7 @@
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
                         {{/if}}
+                        <!-- TEMPORARILY DISABLED because not accessible yet - undo once released
                         <a href="{{git_repository_url}}/releases" title="PDF version" aria-label="PDF version">
                             <i id="pdf-button" class="fa fa-file-pdf-o"></i>
                         </a>
@@ -188,6 +189,7 @@
                         <a href="{{git_repository_edit_url}}" title="Suggest an edit" aria-label="Suggest an edit">
                             <i id="git-edit-button" class="fa fa-edit"></i>
                         </a>
+                        -->
                         {{/if}}
 
                     </div>
@@ -251,7 +253,7 @@
                         {{#next}}
                             <!-- Navigation button at bottom -->
                             <a rel="next prefetch" href="{{ path_to_root }}{{link}}" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i><span class="nav-chapters-text">Prev</span>
+                                <i class="fa fa-angle-right"></i><span class="nav-chapters-text">Next</span>
                             </a>
                             <!-- Navigation button on the right, not displayed, but needed for Aria nav -->
                             <a rel="next prefetch" href="{{ path_to_root }}{{link}}" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
