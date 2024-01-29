@@ -1525,14 +1525,19 @@ nozzle section (OVRHT).</p>
 <p>The Fuel Quantity Indicator provides two different indications of total usable
 internal fuel to confirm proper transfer function between the seven internal
 fuel cells, as well as any external loaded tanks.</p>
-<p>The upper hemisphere's sector
-display presents fuel quantity detected in fuselage cells 1 through 6, excluding
-the aft-most cell 7, as well as the internal wing tanks. The sector display
-presents 200 lb increments from 0 to 3000 pounds, and 500 pound increments for
-the rest of the gauge.</p>
-<p>The lower tape counter readout includes all internal
-fuel, including cell 7 and the internal wing tanks, and is presented in 100 lb
-increments. Cell 7 is used as a reserve tank.</p>
+<p>On the upper half, it displays the total <strong>fuselage fuel</strong> with a white tape
+on a scale marked 0 to 10 (times 1000 lbs). This readout includes cells 1 through 6,
+while excluding the reserve tank 7, both internal wing tanks and
+also any externally loaded tanks. The image shows the tape around label 6, indicating
+a total internal fuel of around 6000 lbs.</p>
+<p>Additionally, a counter displays the entire <strong>internal fuel</strong> in 100 lb increments.
+That is, cells 1 through 7 and also the two internal wing tanks.
+Any external tanks are excluded as well.</p>
+<blockquote>
+<p>💡 External tank fuel quantity can not be checked. See
+<a href="cockpit/pilot/../../systems/engines_and_fuel_systems/fuel_system.html#external-tanks-fuel-lights">3.2.2. External Tanks Fuel Lights</a>
+to check if they are empty.</p>
+</blockquote>
 <p>As a general guidance, Bingo fuel is around 4000 pounds, while Joker fuel is at 6000 lb.</p>
 <p>For more detailed information see
 <a href="cockpit/pilot/../../systems/engines_and_fuel_systems/fuel_system.html">3.2.2 Fuel system chapter</a>.</p>
@@ -7032,9 +7037,9 @@ scan pattern or found a ground reference point and inserted it into the WRCS.</p
 in one direction via the antenna.</p>
 <p>Any obstacle in that direction, for example another aircraft or simply ground,
 will reflect part of the energy back, which the radar then receives via
-the antenna to be processed and then evaluated by the crew.
+the antenna to be processed and evaluated by the crew.
 Based on the time it took for the signal to travel back, the radar
-can then compute the distance to the obstacle.</p>
+computes the distance to the obstacle.</p>
 <p>All radar returns are then displayed on the screen <strong>based on their distance</strong>,
 resulting in a <strong>direct</strong> and <strong>unfiltered</strong> representation of the world in
 front of the aircraft.</p>
