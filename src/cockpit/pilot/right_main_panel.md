@@ -97,9 +97,10 @@ while excluding the reserve tank 7, both internal wing tanks and
 also any externally loaded tanks. The image shows the tape around label 6, indicating
 a total internal fuel of around 6000 lbs.
 
-Additionally, a counter displays the entire **internal fuel** in 100 lb increments.
+Additionally, a counter displays the entire **internal fuel** in 10 lb increments.
 That is, cells 1 through 7 and also the two internal wing tanks.
 Any external tanks are excluded as well.
+The example has the counter reading 0590, indicating 5900 lb of internal fuel.
 
 > 💡 External tank fuel quantity can not be checked. See
 > [3.2.2. External Tanks Fuel Lights](../../systems/engines_and_fuel_systems/fuel_system.md#external-tanks-fuel-lights)
