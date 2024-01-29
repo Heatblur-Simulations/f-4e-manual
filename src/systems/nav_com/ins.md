@@ -276,14 +276,14 @@ at a known fix location.
 
 ![wso_nav_panel_pos_update_switch](../../img/wso_nav_panel_pos_update_switch.jpg)
 
-1. On arrival, the Position Update Switch is placed in the SET position. Doing
+1. Prior to arrival at the fix point the Position Update Fix is placed in SET position. Doing
    so disengages the longitude and latitude position counters.
 
 2. The position longitude and latitude counters are set using their respective
    knobs for the know location.
 
-3. Prior to arrival at the fix point, the Position Update Switch is placed and
-   held in the FIX position.
+3. Directly before overflying the fix point the Position Update Switch is placed and held in the FIX
+   position.
 
 4. Upon direct flyover of the fix point, the Position Update Switch is released,
    allowing it to fall back into NORMAL.

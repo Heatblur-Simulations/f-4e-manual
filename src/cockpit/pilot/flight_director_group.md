@@ -3,12 +3,12 @@
 ![FDG](../../img/pilot_flight_director_group_overview.jpg)
 
 The flight director group provides the pilot with all necessary instruments to fly the aircraft even
-in a bad weather situation. It contains the Barometric Altimeter (<num>1</num>), the Angle of Attack
-indexer (<num>6</num>), the Reference System Selector switch (<num>2</num>), the Attitude Director
-Indicator (<num>3</num>), the Marker Beacon Lamp (<num>4</num>), the barometric altimeter
-(<num>5</num>), the Horizontal Situation Indicator (<num>8</num>), the Vertical
-Velocity indicator (<num>7</num>), the Standby Attitude indicator (<num>9</num>) and the Navigation
-function selector panel (<num>10</num>).
+in a bad weather situation. It contains the Radar Altimeter (<num>1</num>), the Airspeed and Mach
+Indicator (<num>2</num>), the Reference System Selector Switch (<num>3</num>), the Attitude Director
+Indicator (<num>4</num>), the Marker Beacon Lamp (<num>5</num>), the Barometric Altimeter (<num>
+6</num>), the Angle of Attack Indicator (<num>7</num>), the Horizontal Situation Indicator (<num>
+8</num>), the Vertical Velocity Indicator (<num>9</num>), the Standby Attitude Indicator (<num>
+10</num>) and the Navigation Function Selector Panel (<num>11</num>).
 
 ## Radar Altimeter
 
