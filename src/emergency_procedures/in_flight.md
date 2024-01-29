@@ -87,7 +87,7 @@ If neither engine can be started:
 |----|-------|----|
 | 9. | Eject |    |
 
-## ENGINE FIRE OR OVERHEAD DURING FLIGHT
+## ENGINE FIRE OR OVERHEAT DURING FLIGHT
 
 | Step | System/Condition                                                | Action                    |
 |------|-----------------------------------------------------------------|---------------------------|

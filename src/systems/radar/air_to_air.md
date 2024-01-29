@@ -178,10 +178,10 @@ missile envelope. There are three possible strobe types.
 
 ![Target in Rmax](../../img/radar_target_in_rmax.jpg)
 
-All ranges are calculated for the point the Bomb Button is pressed and hold down
+All ranges are calculated for the point the Trigger is pressed and hold down
 for release, not the point where the actual release signal is send a few seconds
-later. This means if the missile envelope is met on the display, then the Bomb
-Button can be pressed and the envelope will be valid for missile launch.
+later. This means if the missile envelope is met on the display, then the Trigger can be pressed and
+the envelope will be valid for missile launch.
 
 ### Allowable Steering Error (ASE) Circle
 

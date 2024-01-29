@@ -27,8 +27,8 @@ be equipped on the right inboard pylon (station 6).
 The electronic counter-measurement systems are all controlled by
 the WSO via controls on the right sub-panel.
 
-The controls are duplicated for any pod carried on the left stations (4 or 2)
-and for the right stations (6 and 8) respectively.
+The controls are duplicated for any pod carried on the left stations (<num>4</num> or <num>2</num>)
+and for the right stations (<num>6</num> and <num>8</num>) respectively.
 
 Interpretation of the modes, techniques and exact operation of the lights (<num>3</num>)
 depend on the loaded jammer model.
@@ -36,7 +36,7 @@ depend on the loaded jammer model.
 Generally, the jammers differentiate between two modes or techniques that can be used.
 Both of which usually have a warmup phase indicated by the Standby Lights on the panel.
 
-The knob (1 and 4) can be used to place either technique in Standby or, once ready,
+The knob (<num>1</num> and <num>4</num>) can be used to place either technique in Standby or, once ready,
 activate transmission (XMIT 1, XMIT 2, BOTH).
 
 Some jammers models can also detect that they are actively jamming an enemy radar,
@@ -49,7 +49,7 @@ indicated by the AI light.
 
 ![ecm](../../img/wso_ecm_reset_button.jpg)
 
-The reset lamp (3 lowest red one), if lit, indicates a fault in the jammer system.
+The reset lamp (<num>3</num> lowest red one), if lit, indicates a fault in the jammer system.
 Flashing indicates an overheating condition, in which case the pod
 should be turned off to prevent damage.
 
