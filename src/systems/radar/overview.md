@@ -44,9 +44,9 @@ in one direction via the antenna.
 
 Any obstacle in that direction, for example another aircraft or simply ground,
 will reflect part of the energy back, which the radar then receives via
-the antenna to be processed and then evaluated by the crew.
+the antenna to be processed and evaluated by the crew.
 Based on the time it took for the signal to travel back, the radar
-can then compute the distance to the obstacle.
+computes the distance to the obstacle.
 
 All radar returns are then displayed on the screen **based on their distance**,
 resulting in a **direct** and **unfiltered** representation of the world in
