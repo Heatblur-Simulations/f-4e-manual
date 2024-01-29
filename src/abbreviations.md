@@ -27,6 +27,7 @@
 | ASN          | Airborne, Special Type, Navigational Aid        |
 | ASQ          | Airborne, Special Type, Combination of Purposes |
 | AVTR         | Airborne Video Tape Recorder                    |
+| AWRU         | Aircraft Weapons Release Unit                   |
 | AWW          | Airborne, Armament, Control                     |
 
 ## B

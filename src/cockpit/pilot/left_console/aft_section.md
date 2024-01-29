@@ -22,19 +22,9 @@ The volume control knob (<num>1</num>) is turned clockwise to increase audio bet
 counterclockwise to decrease audio between cockpits on
 the [Intercom](../../../systems/nav_com/intercom.md).
 
-### Function Selector Switch
-
-The function selector switch (<num>2</num>) has three positions:
-
-| Name           | Description                                                                                                       |
-|----------------|-------------------------------------------------------------------------------------------------------------------|
-| COLD MIC       | Mic switch on throttle must be held to activate intercom.                                                         |
-| HOT MIC        | Voice automatically transmitted on intercom.                                                                      |
-| RADIO OVERRIDE | Voice automatically transmitted on intercom. All volumes but Shrike tone and Stall Warning are reduced in volume. |
-
 ### Amplifier Select Knob
 
-The amplifier select knob (<num>3</num>) determines current amplifier
+The amplifier select knob (<num>2</num>) determines current amplifier
 for [intercom](../../../systems/nav_com/intercom.md) function.
 
 | Name | Description                                                                                                     |
@@ -42,6 +32,16 @@ for [intercom](../../../systems/nav_com/intercom.md) function.
 | B/U  | Backup headset amplifier provides audio.                                                                        |
 | NORM | Primary headset amplifier provides audio.                                                                       |
 | EMER | Uses the amplifier from opposite cockpit; all and only audio including radio received to that cockpit is heard. |
+
+### Function Selector Switch
+
+The function selector switch (<num>3</num>) has three positions:
+
+| Name           | Description                                                                                                       |
+|----------------|-------------------------------------------------------------------------------------------------------------------|
+| COLD MIC       | Mic switch on throttle must be held to activate intercom.                                                         |
+| HOT MIC        | Voice automatically transmitted on intercom.                                                                      |
+| RADIO OVERRIDE | Voice automatically transmitted on intercom. All volumes but Shrike tone and Stall Warning are reduced in volume. |
 
 ## AN/ALE-40 Programmer
 

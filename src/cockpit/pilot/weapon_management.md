@@ -151,7 +151,7 @@ The full series of positions is as follows, clockwise from the left:
 
 | Name                                                                                                 | Description                                                                                       |
 | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| [INST O/S](../../stores/air_to_ground/bombs/employment.md#instantaneous-over-the-shoulder---inst-os) | Instantaneous Over the Shoulder                                                                   |
+| [TOSS](../../stores/air_to_ground/bombs/employment.md#instantaneous-over-the-shoulder---inst-os) | Instantaneous Over the Shoulder                                                                   |
 | [LOFT](../../stores/air_to_ground/bombs/employment.md#loft)                                          | Loft                                                                                              |
 | [O/S](../../stores/air_to_ground/bombs/employment.md#timed-over-the-shoulder---timed-os)             | (Timed) Over the Shoulder                                                                         |
 | [T LAD](../../stores/air_to_ground/bombs/employment.md#timed-low-angle-drogue-delivery---t-ladd)     | Timed LADD (Low Angle Drogue Delivery)                                                            |

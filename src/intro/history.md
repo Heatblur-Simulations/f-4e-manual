@@ -158,7 +158,7 @@ outstanding performance immediately, and could quickly raise the desired 50%
 increase in conventional force structure the White House expected for the Air
 Force. Pressure from all sides - the White House, Congress, McDonnell, and
 foreign interest, ultimately defeated the USAF's resistance to an airframe _"not
-made here"_, and by January 1962 the USAF's budget had **Phantoms on order the
+made here"_, and by January 1962 the USAF's budget had **Phantoms on order from the
 Tactical Air Command**; the Air Defense Command, which had started the Air
 Force's investigation into the Phantom, would be left with the **F-106**.
 

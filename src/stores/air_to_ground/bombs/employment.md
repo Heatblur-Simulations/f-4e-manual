@@ -76,7 +76,7 @@ through maintaining a centered horizontal needle during the entire bombing run, 
 the ADI reverts back to the previous function once the bomb button is released after the last
 intended munition for the run has been dropped.
 
-## Instantaneous Over the Shoulder - INST O/S
+## Instantaneous Over the Shoulder - TOSS
 
 Further, derived from the Timed O/S mode, Instantaneous Over the Shoulder bombing
 provides the same combined attack/escape profile as the former against targets

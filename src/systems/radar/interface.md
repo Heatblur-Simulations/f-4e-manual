@@ -64,20 +64,20 @@ available for the [Spotlight](air_to_air.md#spotlight) mode instead.
 
 The polarization of the radio frequency energy can be changed using the
 polarization control. In normal operation the LIN setting is used which produces
-linearly polarized light in the vertical direction relative to the antenna. This
+linearly polarized RF energy (Radio Frequency) in the vertical direction relative to the antenna. This
 minimizes ground returns as many types of ground clutter are less reflective to
-vertically polarized light. However, because the antenna is not roll stabilized
+vertically polarized RF energy. However, because the antenna is not roll stabilized
 increased return intensity may be seen when rolling the aircraft.
 
 Both CIR 1 and CIR 2 are circularly polarized positions. Precipitation is less
-reflective to circularly polarized light, so CIR 1 and CIR 2 can aid in
+reflective to circularly polarized RF, so CIR 1 and CIR 2 can aid in
 minimizing clutter in rain or fog.
 
 The polarization is set using the quarter waveplate in the feedhorn which causes
 the [continuous wave emissions](general_operation.md#klystron) to be polarized as
 described above. This makes only CIR 1 compatible with launching
 [AIM-7 Sparrows](../../stores/air_to_air/aim_7.md) as the
-Sparrow rear antenna cannot receive counterclockwise polarized light.
+Sparrow rear antenna cannot receive counterclockwise polarized RF.
 
 | Selection | RF energy polarization                       | AIM-7 Guidance |
 |-----------|----------------------------------------------|----------------|
