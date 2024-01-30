@@ -7,7 +7,7 @@ ordinance on your target. It is opened with the hotkey
 <kbd>RCtrl</kbd>+<kbd>B</kbd> and can be closed with the same hotkey in-game.
 You can also bind it to a desired button in the controls tab.
 
-![manual_bombing_calculator_warnings](../img/manual_bombing_calculator_warning.jpg)
+![manual_bombing_calculator_warnings](../img/bombing_table.jpg)
 
 ## Bombing Table
 
@@ -25,8 +25,8 @@ of the following selection:
 - MK-84
 - M117
 - CBU-87
-- MK-82AIR
-- MK-82Snakeye
+- MK-82 AIR
+- MK-82 Snakeye (SNK)
 - BLU-107
 
 #### Run-in Altitude
@@ -89,16 +89,16 @@ with the target for a manual MIL bombing solution.
 
 ### Controls
 
-#### Erase inputs
+#### Clear
 
 Resets all inputs to standard values.
 
-#### Save last solutions
+#### Save
 
 Saves the actual solution under the Bombing Solutions tab at the end of the
 page.
 
-## Bombing Pattern
+## Pattern
 
 Lets you put in values to calculate a
 [release advance](../systems/weapon_systems/wrcs.md#release-advance-control).
@@ -188,7 +188,7 @@ down to 30 ft since the bombing calculator can only take values of tens.
 
 ### Solution
 
-![bombing_calculator_numbered](../img/bombing_calculator_numbered.jpg)
+![bombing_calculator_numbered](../img/bombing_table_example.jpg)
 
 Now that we have all needed values from the map we will put those in the bombing
 calculator.
