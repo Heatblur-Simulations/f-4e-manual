@@ -10,21 +10,82 @@
 | Step | System                            | Action     |
 |------|-----------------------------------|------------|
 | 1.   | AN/ALE-40 Chaff Dispenser         | OFF        |
-|      | a. Chaff mode switch              | OFF        |
-|      | b. Flare mode switch              | OFF        |
-|      | c. Ripple switch                  | OFF        |
 | 2.   | Throttles                         | AFT        |
 | 3.   | UHF radio                         | OFF        |
 | 4.   | AVTR Switch                       | OFF        |
 | 5.   | Radar power                       | OFF        |
 | 6.   | DSCG                              | OFF        |
 | 7.   | ECM equipment                     | OFF        |
-| 8.   | INS Mode selector Switch          | OFF        |
+| 8.   | INS                               | OFF        |
 | 9.   | Nuclear store consent switch      | SAFE       |
 | 10.  | Nav computer                      | OFF        |
 | 11.  | Battery bypass switch             | OFF        |
 | 12.  | Circuit breaker panels            | CHECK      |
 | 13.  | Publications and flight data      | CHECK      |
+
+### After electrical power (WSO)
+
+| Step   | System                  | Action         |
+|--------|-------------------------|----------------|
+| 1.     | Instrument ground power | ACTUATE        |
+| 2.     | Navigation Computer     | SET            |
+|        | **a. NAV Comp Mode**    | **STBY**       |
+|        | b. Wind Counters        | SET            |
+|        | c. Variation Counter    | SET            |
+|        | d. POS Update Switch    | NORM           |
+|        | e. Present POS Counter  | SET            |
+|        | f. Target Counters      | SET FOR TGT 2  |
+|        | g. NAV Comp Mode        | RESET          |
+|        | h. NAV Comp Mode        | STBY           |
+|        | i. Target Counters      | SET FOR TGT 1  |
+| **3.** | **INS Alignment**       | **AS DESIRED** |
+
+### INS Full Gyrocompass Alignment (WSO)
+
+Time depends on ambient temperature and BATH alignment accuracy.
+
+| Step | System         | Action   |
+|------|----------------|----------|
+| 1.   | NAV Comp Mode  | STBY     |
+| 2.   | INS Power Knob | STBY     |
+| 3.   | Gyro Heat Up   | WAIT     |
+|      | a. HEAT Light  | OUT      |
+| 4.   | INS Power Knob | ALIGN    |
+| 5.   | Alignment      | WAIT     |
+|      | a. ALIGN Light | FLASHING |
+| 6.   | INS Power Knob | NAV      |
+| 7.   | INS Light      | OUT      |
+
+### INS Fast BATH Alignment (WSO)
+
+Takes roughly 2 minutes 15 seconds.
+
+| Step | System         | Action |
+|------|----------------|--------|
+| 1.   | NAV Comp Mode  | STBY   |
+| 3.   | INS Power Knob | STBY   |
+| 4.   | INS Power Knob | ALIGN  |
+| 5.   | Alignment      | WAIT   |
+|      | a. HEAT Light  | IGNORE |
+|      | b. ALIGN Light | STEADY |
+| 6.   | INS Power Knob | NAV    |
+| 7.   | INS Light      | OUT    |
+
+### INS Stored Heading Alignment (WSO)
+
+Takes roughly 2 minutes 15 seconds.
+
+| Step | System            | Action    |
+|------|-------------------|-----------|
+| 1.   | NAV Comp Mode     | STBY      |
+| 2.   | Align Mode Switch | HDG MEM   |
+| 3.   | INS Power Knob    | ALIGN     |
+| 4.   | Alignment         | WAIT      |
+|      | a. HEAT Light     | IGNORE    |
+|      | b. ALIGN Light    | FLASHING  |
+| 5.   | INS Power Knob    | NAV       |
+| 6.   | INS Light         | OUT       |
+| 7.   | Align Mode Switch | GYRO COMP |
 
 ### Interior Check (WSO)
 
@@ -204,7 +265,7 @@
 | 38.  | Emergency vent knob                                                                                                                                                                                                                                 | IN                                        |
 | 40.  | Rain removal switch                                                                                                                                                                                                                                 | OFF                                       |
 | 41.  | Pitot heat                                                                                                                                                                                                                                          | CHECK ⚡ 🔧                                |
-| 42.  | Defog-foot heat control handle                                                                                                                                                                                                                      | AS DESIRED                                |
+| 42.  | Defog-footheat control handle                                                                                                                                                                                                                       | AS DESIRED                                |
 | 43.  | IFF Mode IV function switch                                                                                                                                                                                                                         | AS DESIRED                                |
 | 44.  | IFF Master control knob                                                                                                                                                                                                                             | OFF                                       |
 | 45.  | Circuit breakers                                                                                                                                                                                                                                    | CHECK                                     |

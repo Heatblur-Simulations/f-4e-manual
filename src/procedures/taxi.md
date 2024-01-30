@@ -8,19 +8,16 @@
 | ------- | ------------------------------------- | --------------------------- |
 | 1.      | COMM & NAV Equipment                  | ON & CHECK                  |
 | 2.      | IFF                                   | STANDBY                     |
-| **3.**  | **Radar Altimeter**                   | **ON**                      |
+| **3.**  | **Radar Altimeter**                   | **ON & CHECK**              |
 | **4.**  | **Altimeter & SPC**                   | **SET & CHECK**             |
-|         | **a. Barometric Scale**               | **SET QNH**                 |
-|         | **b. SPC**                            | **RESET CORR**              |
-|         | **c. BARO Altimeter**                 | **HOLD RESET 3 SEC**        |
 | 5.      | Speed Brakes                          | CHECK🔧                    |
 | 6.      | Slats & Flaps                         | CHECK🔧                    |
 | 7.      | Flight Controls                       | CHECK🔧                    |
 | **8.**  | **Slats & Flaps**                     | **NORM**                    |
 | 9.      | ARI Disengage                         | CHECK🔧                    |
 | 10.     | STAB AUG Switches                     | ENGAGE AND CHECK🔧         |
-| **11.** | **Reference Sys Select**              | **PRIM (if INS in NAV)**    |
-| **12.** | **Compass Mode Control Knob**         | **SYNC**                    |
+| **11.** | **Reference Sys Select**              | **PRIM (INS in NAV)**       |
+| 12.     | Compass Mode Control Knob             | SYNC                        |
 | 13.     | AFCS                                  | CHECK (if required)         |
 | 14.     | STAB AUG Switches                     | DISENGAGE                   |
 | **15.** | **Trim**                              | **CHECK🔧 & SET**          |
