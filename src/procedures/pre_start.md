@@ -25,20 +25,20 @@
 
 ### After electrical power (WSO)
 
-| Step   | System                         | Action         |
-|--------|--------------------------------|----------------|
-| 1.     | Instrument ground power switch | ACTUATE        |
-| 2.     | Navigation Computer            | SET            |
-|        | **a. NAV Comp Mode**           | **STBY**       |
-|        | b. Wind Counters               | SET            |
-|        | c. Variation Counter           | SET            |
-|        | d. POS Update Switch           | NORM           |
-|        | e. Present POS Counter         | SET            |
-|        | f. Target Counters             | SET FOR TGT 2  |
-|        | g. NAV Comp Mode               | RESET          |
-|        | h. NAV Comp Mode               | STBY           |
-|        | i. Target Counters             | SET FOR TGT 1  |
-| **3.** | **INS Alignment**              | **AS DESIRED** |
+| Step   | System                             | Action         |
+|--------|------------------------------------|----------------|
+| **1.** | **Instrument ground power switch** | **ACTUATE**⚡   |
+| 2.     | Navigation Computer                | SET            |
+|        | **a. NAV Comp Mode**               | **STBY**       |
+|        | b. Wind Counters                   | SET            |
+|        | c. Variation Counter               | SET            |
+|        | d. POS Update Switch               | NORM           |
+|        | e. Present POS Counter             | SET            |
+|        | f. Target Counters                 | SET FOR TGT 2  |
+|        | g. NAV Comp Mode                   | RESET          |
+|        | h. NAV Comp Mode                   | STBY           |
+|        | i. Target Counters                 | SET FOR TGT 1  |
+| **3.** | **INS Alignment**                  | **AS DESIRED** |
 
 > 💡 To avoid electrical power interruption which
 > could result in an INS NO-GO indication, ensure
