@@ -1,7 +1,8 @@
 # Technical Specifications: F-4E
 
-| Wingspan               | 38' 5" (11.7 meters)             |
+| Item                   | Description                      |
 | ---------------------- | -------------------------------- |
+| Wingspan               | 38' 5" (11.7 meters)             |
 | Wingspan (Folded)      | 27' 7" (8.4 meters)              |
 | Length                 | 63' (19.2 meters)                |
 | Height                 | 16' 5" (5 meters)                |
