@@ -10,21 +10,90 @@
 | Step | System                            | Action     |
 |------|-----------------------------------|------------|
 | 1.   | AN/ALE-40 Chaff Dispenser         | OFF        |
-|      | a. Chaff mode switch              | OFF        |
-|      | b. Flare mode switch              | OFF        |
-|      | c. Ripple switch                  | OFF        |
 | 2.   | Throttles                         | AFT        |
 | 3.   | UHF radio                         | OFF        |
 | 4.   | AVTR Switch                       | OFF        |
 | 5.   | Radar power                       | OFF        |
 | 6.   | DSCG                              | OFF        |
 | 7.   | ECM equipment                     | OFF        |
-| 8.   | INS Mode selector Switch          | OFF        |
+| 8.   | INS                               | OFF        |
 | 9.   | Nuclear store consent switch      | SAFE       |
 | 10.  | Nav computer                      | OFF        |
 | 11.  | Battery bypass switch             | OFF        |
 | 12.  | Circuit breaker panels            | CHECK      |
 | 13.  | Publications and flight data      | CHECK      |
+
+### After electrical power (WSO)
+
+| Step   | System                         | Action         |
+|--------|--------------------------------|----------------|
+| 1.     | Instrument ground power switch | ACTUATE        |
+| 2.     | Navigation Computer            | SET            |
+|        | **a. NAV Comp Mode**           | **STBY**       |
+|        | b. Wind Counters               | SET            |
+|        | c. Variation Counter           | SET            |
+|        | d. POS Update Switch           | NORM           |
+|        | e. Present POS Counter         | SET            |
+|        | f. Target Counters             | SET FOR TGT 2  |
+|        | g. NAV Comp Mode               | RESET          |
+|        | h. NAV Comp Mode               | STBY           |
+|        | i. Target Counters             | SET FOR TGT 1  |
+| **3.** | **INS Alignment**              | **AS DESIRED** |
+
+> 💡 To avoid electrical power interruption which
+> could result in an INS NO-GO indication, ensure
+> INS is not in the ALIGN mode when the
+> generator switches are placed to ON. If a power
+> interruption does occur, switch the power control
+> knob to OFF. When power is restored, go from
+> OFF to ALIGN pausing momentarily at STBY.
+
+### INS Full Gyrocompass Alignment (WSO)
+
+Time depends on ambient temperature and BATH alignment accuracy.
+
+| Step | System         | Action   |
+|------|----------------|----------|
+| 1.   | NAV Comp Mode  | STBY     |
+| 2.   | INS Power Knob | STBY     |
+| 3.   | Gyro Heat Up   | WAIT     |
+|      | a. HEAT Light  | OUT      |
+| 4.   | INS Power Knob | ALIGN    |
+| 5.   | Alignment      | WAIT     |
+|      | a. ALIGN Light | FLASHING |
+| 6.   | INS Power Knob | NAV      |
+| 7.   | INS Light      | OUT      |
+
+### INS Fast BATH Alignment (WSO)
+
+Takes roughly 2 minutes 15 seconds.
+
+| Step | System         | Action |
+|------|----------------|--------|
+| 1.   | NAV Comp Mode  | STBY   |
+| 3.   | INS Power Knob | STBY   |
+| 4.   | INS Power Knob | ALIGN  |
+| 5.   | Alignment      | WAIT   |
+|      | a. HEAT Light  | IGNORE |
+|      | b. ALIGN Light | STEADY |
+| 6.   | INS Power Knob | NAV    |
+| 7.   | INS Light      | OUT    |
+
+### INS Stored Heading Alignment (WSO)
+
+Takes roughly 2 minutes 15 seconds.
+
+| Step | System            | Action    |
+|------|-------------------|-----------|
+| 1.   | NAV Comp Mode     | STBY      |
+| 2.   | Align Mode Switch | HDG MEM   |
+| 3.   | INS Power Knob    | ALIGN     |
+| 4.   | Alignment         | WAIT      |
+|      | a. HEAT Light     | IGNORE    |
+|      | b. ALIGN Light    | FLASHING  |
+| 5.   | INS Power Knob    | NAV       |
+| 6.   | INS Light         | OUT       |
+| 7.   | Align Mode Switch | GYRO COMP |
 
 ### Interior Check (WSO)
 
@@ -57,7 +126,7 @@
 | 11.  | Canopy emergency jettison handle                        | FORWARD              |
 | 12.  | Radar scope                                             | SECURE               |
 | 13.  | Attitude indicator                                      | CHECK AND SET⚡       |
-|      | a. Rotate pitch trim knob to check travel (-10° to +5°) |
+|      | a. Rotate pitch trim knob to check travel (-10° to +5°) |                      |
 |      | b. Set horizon bar level with miniature aircraft        |                      |
 | 14.  | Clock                                                   | WIND AND SET         |
 | 15.  | Accelerometer                                           | SET                  |
@@ -78,7 +147,7 @@
 | 24.  | Warning and indicator lights                            | TEST⚡                |
 | 25.  | Intercom system                                         | CHECK                |
 | 26.  | Oxygen quantity gage                                    | CHECK⚡               |
-|      | Check quantity sufficient and OFF flag not visible.     |
+|      | Check quantity sufficient and OFF flag not visible.     |                      |
 | 27.  | Oxygen supply system                                    | CHECK AND SET        |
 
 ## Pilot
@@ -99,7 +168,7 @@
 | 10.  | Armament Switches                                                                                                                                              | OFF/SAFE                                      |
 | 11.  | Pitot Heat                                                                                                                                                     | OFF                                           |
 | 12.  | Battery                                                                                                                                                        | CHECK                                         |
-|      | To determine battery relay closure turn on Engine Master switch and check for proper positioning of gear and slats flaps position indicators.                  |
+|      | To determine battery relay closure turn on Engine Master switch and check for proper positioning of gear and slats flaps position indicators.                  |                                               |
 | 13.  | Engine Master Switches                                                                                                                                         | OFF                                           |
 | 14.  | Formation Lights                                                                                                                                               | OFF                                           |
 | 15.  | Emergency attitude reference system circuit breaker                                                                                                            | IN                                            |
@@ -111,7 +180,7 @@
 | 21.  | External Power                                                                                                                                                 | CHECK ON                                      |
 | 22.  | Generator switches                                                                                                                                             | EXT ON                                        |
 | 23.  | Transformer-rectifier                                                                                                                                          | CHECK ⚡                                       |
-|      | Both transformer-rectifiers operating if the landing gear indicators indicate gear down with the Engine master switches OFF and the generator switches in EXT. |
+|      | Both transformer-rectifiers operating if the landing gear indicators indicate gear down with the Engine master switches OFF and the generator switches in EXT. |                                               |
 
 ### Interior Inspection (Pilot)
 
@@ -204,7 +273,7 @@
 | 38.  | Emergency vent knob                                                                                                                                                                                                                                 | IN                                        |
 | 40.  | Rain removal switch                                                                                                                                                                                                                                 | OFF                                       |
 | 41.  | Pitot heat                                                                                                                                                                                                                                          | CHECK ⚡ 🔧                                |
-| 42.  | Defog-foot heat control handle                                                                                                                                                                                                                      | AS DESIRED                                |
+| 42.  | Defog-footheat control handle                                                                                                                                                                                                                       | AS DESIRED                                |
 | 43.  | IFF Mode IV function switch                                                                                                                                                                                                                         | AS DESIRED                                |
 | 44.  | IFF Master control knob                                                                                                                                                                                                                             | OFF                                       |
 | 45.  | Circuit breakers                                                                                                                                                                                                                                    | CHECK                                     |

@@ -7,9 +7,9 @@
 | 1.      | Wheels                     | CHOCKED🔧        |
 | 2.      | UHF Radio                  | OFF              |
 | 3.      | Ejection Seat              | RAISE            |
-| 4.      | Defog Handle               | FULL AFT         |
+| 4.      | Defog-footheat             | FULL AFT         |
 | 5.      | Temperature                | 12 O'CLOCK       |
-| 6.      | Air Refuel Switch          | EXTEND  (if AAR) |
+| 6.      | Air Refuel Switch          | EXTEND if AAR done |
 | **7.**  | **Right Throttle**         | **OFF**          |
 | 8.      | AVTR Tape                  | REMOVE           |
 | 10.     | Spoiler Actuator           | CHECK (RIGHT)🔧  |
