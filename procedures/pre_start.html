@@ -211,21 +211,84 @@ performed after the engines have been started.</p>
 <h3 id="before-electrical-power-wso"><a class="header" href="#before-electrical-power-wso">Before Electrical Power (WSO)</a></h3>
 <div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
 <tr><td>1.</td><td>AN/ALE-40 Chaff Dispenser</td><td>OFF</td></tr>
-<tr><td></td><td>a. Chaff mode switch</td><td>OFF</td></tr>
-<tr><td></td><td>b. Flare mode switch</td><td>OFF</td></tr>
-<tr><td></td><td>c. Ripple switch</td><td>OFF</td></tr>
 <tr><td>2.</td><td>Throttles</td><td>AFT</td></tr>
 <tr><td>3.</td><td>UHF radio</td><td>OFF</td></tr>
 <tr><td>4.</td><td>AVTR Switch</td><td>OFF</td></tr>
 <tr><td>5.</td><td>Radar power</td><td>OFF</td></tr>
 <tr><td>6.</td><td>DSCG</td><td>OFF</td></tr>
 <tr><td>7.</td><td>ECM equipment</td><td>OFF</td></tr>
-<tr><td>8.</td><td>INS Mode selector Switch</td><td>OFF</td></tr>
+<tr><td>8.</td><td>INS</td><td>OFF</td></tr>
 <tr><td>9.</td><td>Nuclear store consent switch</td><td>SAFE</td></tr>
 <tr><td>10.</td><td>Nav computer</td><td>OFF</td></tr>
 <tr><td>11.</td><td>Battery bypass switch</td><td>OFF</td></tr>
 <tr><td>12.</td><td>Circuit breaker panels</td><td>CHECK</td></tr>
 <tr><td>13.</td><td>Publications and flight data</td><td>CHECK</td></tr>
+</tbody></table>
+</div>
+<h3 id="after-electrical-power-wso"><a class="header" href="#after-electrical-power-wso">After electrical power (WSO)</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
+<tr><td>1.</td><td>Instrument ground power switch</td><td>ACTUATE</td></tr>
+<tr><td>2.</td><td>Navigation Computer</td><td>SET</td></tr>
+<tr><td></td><td><strong>a. NAV Comp Mode</strong></td><td><strong>STBY</strong></td></tr>
+<tr><td></td><td>b. Wind Counters</td><td>SET</td></tr>
+<tr><td></td><td>c. Variation Counter</td><td>SET</td></tr>
+<tr><td></td><td>d. POS Update Switch</td><td>NORM</td></tr>
+<tr><td></td><td>e. Present POS Counter</td><td>SET</td></tr>
+<tr><td></td><td>f. Target Counters</td><td>SET FOR TGT 2</td></tr>
+<tr><td></td><td>g. NAV Comp Mode</td><td>RESET</td></tr>
+<tr><td></td><td>h. NAV Comp Mode</td><td>STBY</td></tr>
+<tr><td></td><td>i. Target Counters</td><td>SET FOR TGT 1</td></tr>
+<tr><td><strong>3.</strong></td><td><strong>INS Alignment</strong></td><td><strong>AS DESIRED</strong></td></tr>
+</tbody></table>
+</div>
+<blockquote>
+<p>💡 To avoid electrical power interruption which
+could result in an INS NO-GO indication, ensure
+INS is not in the ALIGN mode when the
+generator switches are placed to ON. If a power
+interruption does occur, switch the power control
+knob to OFF. When power is restored, go from
+OFF to ALIGN pausing momentarily at STBY.</p>
+</blockquote>
+<h3 id="ins-full-gyrocompass-alignment-wso"><a class="header" href="#ins-full-gyrocompass-alignment-wso">INS Full Gyrocompass Alignment (WSO)</a></h3>
+<p>Time depends on ambient temperature and BATH alignment accuracy.</p>
+<div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
+<tr><td>1.</td><td>NAV Comp Mode</td><td>STBY</td></tr>
+<tr><td>2.</td><td>INS Power Knob</td><td>STBY</td></tr>
+<tr><td>3.</td><td>Gyro Heat Up</td><td>WAIT</td></tr>
+<tr><td></td><td>a. HEAT Light</td><td>OUT</td></tr>
+<tr><td>4.</td><td>INS Power Knob</td><td>ALIGN</td></tr>
+<tr><td>5.</td><td>Alignment</td><td>WAIT</td></tr>
+<tr><td></td><td>a. ALIGN Light</td><td>FLASHING</td></tr>
+<tr><td>6.</td><td>INS Power Knob</td><td>NAV</td></tr>
+<tr><td>7.</td><td>INS Light</td><td>OUT</td></tr>
+</tbody></table>
+</div>
+<h3 id="ins-fast-bath-alignment-wso"><a class="header" href="#ins-fast-bath-alignment-wso">INS Fast BATH Alignment (WSO)</a></h3>
+<p>Takes roughly 2 minutes 15 seconds.</p>
+<div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
+<tr><td>1.</td><td>NAV Comp Mode</td><td>STBY</td></tr>
+<tr><td>3.</td><td>INS Power Knob</td><td>STBY</td></tr>
+<tr><td>4.</td><td>INS Power Knob</td><td>ALIGN</td></tr>
+<tr><td>5.</td><td>Alignment</td><td>WAIT</td></tr>
+<tr><td></td><td>a. HEAT Light</td><td>IGNORE</td></tr>
+<tr><td></td><td>b. ALIGN Light</td><td>STEADY</td></tr>
+<tr><td>6.</td><td>INS Power Knob</td><td>NAV</td></tr>
+<tr><td>7.</td><td>INS Light</td><td>OUT</td></tr>
+</tbody></table>
+</div>
+<h3 id="ins-stored-heading-alignment-wso"><a class="header" href="#ins-stored-heading-alignment-wso">INS Stored Heading Alignment (WSO)</a></h3>
+<p>Takes roughly 2 minutes 15 seconds.</p>
+<div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
+<tr><td>1.</td><td>NAV Comp Mode</td><td>STBY</td></tr>
+<tr><td>2.</td><td>Align Mode Switch</td><td>HDG MEM</td></tr>
+<tr><td>3.</td><td>INS Power Knob</td><td>ALIGN</td></tr>
+<tr><td>4.</td><td>Alignment</td><td>WAIT</td></tr>
+<tr><td></td><td>a. HEAT Light</td><td>IGNORE</td></tr>
+<tr><td></td><td>b. ALIGN Light</td><td>FLASHING</td></tr>
+<tr><td>5.</td><td>INS Power Knob</td><td>NAV</td></tr>
+<tr><td>6.</td><td>INS Light</td><td>OUT</td></tr>
+<tr><td>7.</td><td>Align Mode Switch</td><td>GYRO COMP</td></tr>
 </tbody></table>
 </div>
 <h3 id="interior-check-wso"><a class="header" href="#interior-check-wso">Interior Check (WSO)</a></h3>
@@ -401,7 +464,7 @@ performed after the engines have been started.</p>
 <tr><td>38.</td><td>Emergency vent knob</td><td>IN</td></tr>
 <tr><td>40.</td><td>Rain removal switch</td><td>OFF</td></tr>
 <tr><td>41.</td><td>Pitot heat</td><td>CHECK ⚡ 🔧</td></tr>
-<tr><td>42.</td><td>Defog-foot heat control handle</td><td>AS DESIRED</td></tr>
+<tr><td>42.</td><td>Defog-footheat control handle</td><td>AS DESIRED</td></tr>
 <tr><td>43.</td><td>IFF Mode IV function switch</td><td>AS DESIRED</td></tr>
 <tr><td>44.</td><td>IFF Master control knob</td><td>OFF</td></tr>
 <tr><td>45.</td><td>Circuit breakers</td><td>CHECK</td></tr>
