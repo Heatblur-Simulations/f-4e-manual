@@ -40,6 +40,14 @@
 |        | i. Target Counters      | SET FOR TGT 1  |
 | **3.** | **INS Alignment**       | **AS DESIRED** |
 
+> 💡 To avoid electrical power interruption which
+> could result in an INS NO-GO indication, ensure
+> INS is not in the ALIGN mode when the
+> generator switches are placed to ON. If a power
+> interruption does occur, switch the power control
+> knob to OFF. When power is restored, go from
+> OFF to ALIGN pausing momentarily at STBY.
+
 ### INS Full Gyrocompass Alignment (WSO)
 
 Time depends on ambient temperature and BATH alignment accuracy.
@@ -118,7 +126,7 @@ Takes roughly 2 minutes 15 seconds.
 | 11.  | Canopy emergency jettison handle                        | FORWARD              |
 | 12.  | Radar scope                                             | SECURE               |
 | 13.  | Attitude indicator                                      | CHECK AND SET⚡       |
-|      | a. Rotate pitch trim knob to check travel (-10° to +5°) |
+|      | a. Rotate pitch trim knob to check travel (-10° to +5°) |                      |
 |      | b. Set horizon bar level with miniature aircraft        |                      |
 | 14.  | Clock                                                   | WIND AND SET         |
 | 15.  | Accelerometer                                           | SET                  |
@@ -139,7 +147,7 @@ Takes roughly 2 minutes 15 seconds.
 | 24.  | Warning and indicator lights                            | TEST⚡                |
 | 25.  | Intercom system                                         | CHECK                |
 | 26.  | Oxygen quantity gage                                    | CHECK⚡               |
-|      | Check quantity sufficient and OFF flag not visible.     |
+|      | Check quantity sufficient and OFF flag not visible.     |                      |
 | 27.  | Oxygen supply system                                    | CHECK AND SET        |
 
 ## Pilot
@@ -160,7 +168,7 @@ Takes roughly 2 minutes 15 seconds.
 | 10.  | Armament Switches                                                                                                                                              | OFF/SAFE                                      |
 | 11.  | Pitot Heat                                                                                                                                                     | OFF                                           |
 | 12.  | Battery                                                                                                                                                        | CHECK                                         |
-|      | To determine battery relay closure turn on Engine Master switch and check for proper positioning of gear and slats flaps position indicators.                  |
+|      | To determine battery relay closure turn on Engine Master switch and check for proper positioning of gear and slats flaps position indicators.                  |                                               |
 | 13.  | Engine Master Switches                                                                                                                                         | OFF                                           |
 | 14.  | Formation Lights                                                                                                                                               | OFF                                           |
 | 15.  | Emergency attitude reference system circuit breaker                                                                                                            | IN                                            |
@@ -172,7 +180,7 @@ Takes roughly 2 minutes 15 seconds.
 | 21.  | External Power                                                                                                                                                 | CHECK ON                                      |
 | 22.  | Generator switches                                                                                                                                             | EXT ON                                        |
 | 23.  | Transformer-rectifier                                                                                                                                          | CHECK ⚡                                       |
-|      | Both transformer-rectifiers operating if the landing gear indicators indicate gear down with the Engine master switches OFF and the generator switches in EXT. |
+|      | Both transformer-rectifiers operating if the landing gear indicators indicate gear down with the Engine master switches OFF and the generator switches in EXT. |                                               |
 
 ### Interior Inspection (Pilot)
 
