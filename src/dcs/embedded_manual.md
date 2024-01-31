@@ -11,7 +11,8 @@ manual scrolled right to the spot explaining the corresponding switch.
 
 The default hotkeys are:
 
-- <kbd>LSHIFT</kbd> + <kbd>M</kbd> - open the manual
-- <kbd>LCTRL</kbd> + <kbd>M</kbd> - close the manual
+- <kbd>RSHIFT</kbd> + <kbd>M</kbd> - open the manual
+- <kbd>RCTRL</kbd> + <kbd>M</kbd> - close the manual
+- <kbd>RALT</kbd> + <kbd>M</kbd> - toggle the manual
 - <kbd>M</kbd> (hold while clicking a switch) - open the manual to explain the
   switch
