@@ -153,3 +153,6 @@ general areas, whereas 🟩 means _good_, 🟨 _fair_ and 🟥 _poor_.
 | AIM-7E2 | 🟥     | 🟥    | ✅       | 🟥                                        |
 | AIM-7F  | 🟨     | 🟩    | ✅       | 🟨                                        |
 | AIM-7M  | 🟩     | 🟩    | ✅       | 🟩                                        |
+
+> 💡 Technically, the E2 has the same maximal range than the E.
+> However, due to its maneuvering-behavior, that range lessens for anything but a dead straight shot.
