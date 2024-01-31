@@ -350,7 +350,7 @@ return in the XTAL region.
 The EX1 and 2 test electrical frequency control crysals, and are also nominal
 when XTAL is returned.
 
-FOr the magnetron, tested in MAG, long pulse operation is confirmed with a return of
+For the magnetron, tested in MAG, long pulse operation is confirmed with a return of
 1.4 to 1.8, and short pulse operation is correct with a value of 0.9 to 1.15.
 
 KLY, which tests the CW transmitter, should find a value of 0.25 to 1.25 when
