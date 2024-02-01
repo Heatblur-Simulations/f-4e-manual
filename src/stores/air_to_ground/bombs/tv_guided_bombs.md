@@ -38,16 +38,18 @@ Available TV guided bombs include:
 
 ## Employment
 
-Only the pilot can lock and launch these weapons. To release either bomb, select
+To release either bomb, select
 the corresponding stations, put the Weapon Selector to TV and the Delivery Mode
 Knob to DIRECT.
 
 Enable the TV mode for the DSCG screen and press the trigger. This activates the
 sensor and video feed will be displayed on the screen.
 
+> 💡 WSO controls are on the actual flight stick, not the Antenna Hand Control.
+
 ![HOBOS Screen Symbology](../../../img/hobos_screen_symbology.jpg)
 
-The camera sensor can not be moved. Place the crosshair in the general direction
+The camera sensor **can not be moved**. Place the crosshair in the general direction
 of the target area, or in case of launching in _"Lock-On Before Launch"_-mode,
 directly over the target. Press and hold down the trigger to command a lock.
 
