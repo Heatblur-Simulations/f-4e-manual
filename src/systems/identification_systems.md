@@ -99,10 +99,11 @@ challenging other aircraft to detect whether they are friend or foe.
 
 The AN/APX-76 system enables regular interrogation with friendly transponder systems.
 
-Further, the US reverse-engineered some Soviet transponder systems between 1960 and 1980 enough
-to be able to develop the spoofing system AN/APX-81A _Combat-Tree_. Combat-Tree sends
-compatible interrogation requests to Soviet systems which they would identify as friendly systems,
-hence sending back a valid response. This allows the Phantom to not only identify friendly systems,
+Further, the US reverse-engineered some Soviet transponder systems actively used between
+1960 and 1980 enough to be able to develop the spoofing system AN/APX-81A _Combat-Tree_.
+Combat-Tree sends compatible interrogation requests to Soviet systems which they would identify
+as friendly systems, hence sending back a valid response.
+This allows the Phantom to not only identify friendly systems,
 but also some likely-hostile aircraft.
 
 > 💡 Soviets quickly realized the problem and patched their IFF transponder systems, while
