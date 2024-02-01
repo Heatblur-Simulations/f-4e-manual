@@ -147,10 +147,12 @@ When AIR-GRD is selected, the indicator is disabled.
 
 ![PClock](../../img/wso_clock.jpg)
 
-A clock is provided for the WSO, including a stopwatch function. The watch can be set by turning
+A clock is provided for the WSO, including a stopwatch function. The watch features a hour and
+minute hand, and can be set by turning
 the knob (<num>1</num>) on the left lower corner. The stopwatch function is being used by pressing
 the top
-right button (<num>2</num>). It is reset by pressing the top right button again.
+right button (<num>2</num>), it features a minute and second hand.
+The stopwatch needles are reset by pressing the top right button again.
 
 ## Accelerometer
 
