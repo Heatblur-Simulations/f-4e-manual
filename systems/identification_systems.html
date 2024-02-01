@@ -276,6 +276,16 @@ Mode 3/A replies are special emergency signals of code 7700.</p>
 <p><img src="../img/wso_apx_80.jpg" alt="WSO APX Control Panel" /></p>
 <p>The Phantom combines three systems, AN/APX-76, -80A and -81A, for interrogating and
 challenging other aircraft to detect whether they are friend or foe.</p>
+<p>The AN/APX-76 system enables regular interrogation with friendly transponder systems.</p>
+<p>Further, the US reverse-engineered some Soviet transponder systems between 1960 and 1980 enough
+to be able to develop the spoofing system AN/APX-81A <em>Combat-Tree</em>. Combat-Tree sends
+compatible interrogation requests to Soviet systems which they would identify as friendly systems,
+hence sending back a valid response. This allows the Phantom to not only identify friendly systems,
+but also some likely-hostile aircraft.</p>
+<blockquote>
+<p>💡 Soviets quickly realized the problem and patched their IFF transponder systems, while
+also encrypting the communication to prevent another breach.</p>
+</blockquote>
 <h3 id="operation"><a class="header" href="#operation">Operation</a></h3>
 <p>Controls are combined on a panel, accessible to the WSO on the left sub-panel area.</p>
 <p>The interrogation mode is set on the first roller-display and can be set to
@@ -286,9 +296,6 @@ interrogation.</p>
 </blockquote>
 <p>The other four digits are used to set the IFF code to interrogate for Modes 1
 to 3.</p>
-<p>Regular interrogation based on transponder codes is accomplished by the AN/APX-76 system.</p>
-<p>Additionally, the AN/APX-81A Combat-Tree system can identify targets beyond
-their transponder responses, enabling to identify likely-hostile aircraft.</p>
 <p>Once setup, interrogation can be initiated by pressing the
 Challenge Button on the Antenna Hand Control Stick.</p>
 <p><img src="../img/wso_antenna_hand_control_challenge_button.jpg" alt="Challenge Button" /></p>
@@ -297,10 +304,6 @@ it was able to detect that a contact is friendly.</p>
 <p><img src="../img/radar_iff_friendly.jpg" alt="Radar with friendly contacts" /></p>
 <blockquote>
 <p>🚧 This section is under construction.</p>
-<ul>
-<li>Switchology, how to enable either mode, details</li>
-<li>Radar picture and link to radar section with further details</li>
-</ul>
 </blockquote>
 <h3 id="indications"><a class="header" href="#indications">Indications</a></h3>
 <h4 id="challenge-lights"><a class="header" href="#challenge-lights">Challenge Lights</a></h4>
@@ -314,7 +317,7 @@ by either interrogation system:</p>
 <p><img src="../img/wso_apx_81_light.jpg" alt="APX Activity Lights" /></p>
 <p>Right next to either AoA Indexer in the WSO cockpit is a light that indicates activity
 detected by the APX-81A Combat Tree system.</p>
-<p>Illuminated each time the system detects being interrogated by other aircraft.</p>
+<p>Illuminated each time the system detects IFF responses by hostile aircraft.</p>
 <blockquote>
 <p>💡 Due to engine limitations, the activity lights are not simulated in-game.</p>
 </blockquote>
