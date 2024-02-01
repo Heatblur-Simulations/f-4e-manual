@@ -97,6 +97,17 @@ Mode 3/A replies are special emergency signals of code 7700.
 The Phantom combines three systems, AN/APX-76, -80A and -81A, for interrogating and
 challenging other aircraft to detect whether they are friend or foe.
 
+The AN/APX-76 system enables regular interrogation with friendly transponder systems.
+
+Further, the US reverse-engineered some Soviet transponder systems between 1960 and 1980 enough
+to be able to develop the spoofing system AN/APX-81A _Combat-Tree_. Combat-Tree sends
+compatible interrogation requests to Soviet systems which they would identify as friendly systems,
+hence sending back a valid response. This allows the Phantom to not only identify friendly systems,
+but also some likely-hostile aircraft.
+
+> 💡 Soviets quickly realized the problem and patched their IFF transponder systems, while
+> also encrypting the communication to prevent another breach.
+
 ### Operation
 
 Controls are combined on a panel, accessible to the WSO on the left sub-panel area.
@@ -110,11 +121,6 @@ OFF or Mode 1, 2, 3, 4/A or 4/B.
 The other four digits are used to set the IFF code to interrogate for Modes 1
 to 3.
 
-Regular interrogation based on transponder codes is accomplished by the AN/APX-76 system.
-
-Additionally, the AN/APX-81A Combat-Tree system can identify targets beyond
-their transponder responses, enabling to identify likely-hostile aircraft.
-
 Once setup, interrogation can be initiated by pressing the
 Challenge Button on the Antenna Hand Control Stick.
 
@@ -126,9 +132,6 @@ it was able to detect that a contact is friendly.
 ![Radar with friendly contacts](../img/radar_iff_friendly.jpg)
 
 > 🚧 This section is under construction.
->
-> * Switchology, how to enable either mode, details
-> * Radar picture and link to radar section with further details
 
 ### Indications
 
@@ -147,6 +150,6 @@ by either interrogation system:
 Right next to either AoA Indexer in the WSO cockpit is a light that indicates activity
 detected by the APX-81A Combat Tree system.
 
-Illuminated each time the system detects being interrogated by other aircraft.
+Illuminated each time the system detects IFF responses by hostile aircraft.
 
 > 💡 Due to engine limitations, the activity lights are not simulated in-game.
