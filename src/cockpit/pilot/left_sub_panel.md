@@ -16,10 +16,9 @@ the stabilator trim gauge (<num>5</num>) and the emergency release of the extern
 
 ![PClock](../../img/pilot_clock.jpg)
 
-A clock is provided for the pilot, including a stopwatch function. The watch can be set by turning
+A clock is provided for the pilot, including a stopwatch function. The clock can be set by turning
 the knob (<num>1</num>) on the left lower corner. The stopwatch function is being used by pressing
-the top
-right button (<num>2</num>). It is reset by pressing the top right button again.
+the top right button (<num>2</num>). It is reset by pressing the top right button again.
 
 ## Emergency Canopy Jettison Handle
 
