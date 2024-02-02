@@ -24,6 +24,9 @@ Snakeye](../../stores/air_to_ground/bombs/conventional_bombs.md).
 | TAIL      | Aft position solenoids activate to hold arming lanyards.                          |
 | NOSE/TAIL | Forward, center, and aft position solenoids all activate to hold arming lanyards. |
 
+For example, MK-82 Air or Snakeye variants will only detonate if the nose fuze is selected and
+switch between high drag configuration with the tail fuze set and low drag if not set.
+
 MER-10 and TER-9 racks include an automatic stepper mode function to
 automatically bypass stations that have already released munitions. To set this
 function, when the BOMBS mode of the Weapon Select Knob is chosen, the Nose/Tail

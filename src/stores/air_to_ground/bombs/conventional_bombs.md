@@ -17,15 +17,20 @@ switch.
 
 Available conventional unguided bombs are:
 
-| Variant       | Warhead | Description     |
-| ------------- | ------: | --------------- |
-| Mk-81         |  250 lb | Low Drag        |
-| Mk-82         |  500 lb | Low Drag        |
-| Mk-82 AIR     |  500 lb | High Drag Chute |
-| Mk-82 Snakeye |  500 lb | High Drag       |
-| Mk-83         | 1000 lb | Low Drag        |
-| Mk-84         | 2000 lb | Low Drag        |
-| M-117         |  750 lb | Low Drag        |
+| Variant       | Warhead | Description         |
+| ------------- | ------: | ------------------- |
+| Mk-81         |  250 lb | Low Drag            |
+| Mk-82         |  500 lb | Low Drag            |
+| Mk-82 AIR     |  500 lb | Low/High Drag Chute |
+| Mk-82 Snakeye |  500 lb | Low/High Drag       |
+| Mk-83         | 1000 lb | Low Drag            |
+| Mk-84         | 2000 lb | Low Drag            |
+| M-117         |  750 lb | Low Drag            |
+
+> 💡 MK-82 Air and Snakeye can be switched between Low and High drag configuration depending
+> on the [Fuze Arm Switch](../../../systems/weapon_systems/multiple_weapons_system.md#nosetail-arm-switch).
+> The nose fuze arms the bomb, while the tail fuze puts the bomb into High Drag if set
+> and Low Drag if not set.
 
 ## Anti-Tank Cluster Bombs - Mk 20 Rockeye
 

@@ -101,6 +101,9 @@ capability for retarded bombs.
 | TAIL      | Aft position solenoids activate to hold arming lanyards.                          |
 | NOSE/TAIL | Forward, center, and aft position solenoids all activate to hold arming lanyards. |
 
+For example, MK-82 Air or Snakeye variants will only detonate if the nose fuze is selected and
+switch between high drag configuration with the tail fuze set and low drag if not set.
+
 ## Station Select Buttons
 
 ![SSBs](../../img/pilot_station_select_buttons.jpg)
