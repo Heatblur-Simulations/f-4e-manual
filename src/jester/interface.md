@@ -47,6 +47,9 @@ Releasing <kbd>LCTRL</kbd> + <kbd>A</kbd> will confirm the selection under the c
 
 ![Head Tracking Cursor](../img/jester_wheel_head_tracking.jpg)
 
+> 💡 Most individual actions also offer a direct bind, if desired.
+> See [9.1. Controls](../dcs/controls.md#jester--chief-commands) for details.
+
 ## Dialog
 
 Jester can pro-actively ask the pilot questions. In this case, a menu with

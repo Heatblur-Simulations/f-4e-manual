@@ -56,3 +56,13 @@ while the switch changes its position as soon as the axis is pushed beyond its c
 This is especially useful for builders of cockpit replicas, working mainly
 with hardware switches whose electronic components send normalized inputs
 through the entire movement range.
+
+## Jester & Chief Commands
+
+Direct commands to control Jester and Crew Chief commands are provided especially
+for mission designers or users of voice recognition software, such as **VoiceAttack**.
+
+![Jester Commands](../img/jester_commands_binds.jpg)
+
+This allows use of the corresponding actions directly via a bind instead of
+using the UI to select an them.
