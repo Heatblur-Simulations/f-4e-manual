@@ -132,7 +132,7 @@ inhibit use. Subsequent press deactivates laser system.
 
 ### Power On Button
 
-Applies (<num>74</num>) power to the targeting pod when pressed and released. Selected again to
+Applies (<num>7</num>) power to the targeting pod when pressed and released. Selected again to
 power off targeting pod. Button lamp will turn off once head is stowed.
 
 To prevent damage to the system, whenever equipped, power to the system should
