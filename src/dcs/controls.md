@@ -59,10 +59,10 @@ through the entire movement range.
 
 ## Jester & Chief Commands
 
-Direct commands to control Jester and Crew Chief commands are provided especially
+Direct binds to control Jester and Crew Chief commands are provided especially
 for mission designers or users of voice recognition software, such as **VoiceAttack**.
 
 ![Jester Commands](../img/jester_commands_binds.jpg)
 
 This allows use of the corresponding actions directly via a bind instead of
-using the UI to select an them.
+using the UI to select them.
