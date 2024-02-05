@@ -20,9 +20,9 @@
 
 <!-- markdown-link-check-disable -->
 This document is available [online](https://f4.manuals.heatblur.se/),
-as [PDF version](https://github.com/Heatblur-Simulations/f-4e-manual/releases),
+as PDF version,
 embedded in-game as offline website and can be contributed to as
-open-source project at [GitHub](https://github.com/Heatblur-Simulations/f-4e-manual).
+open-source project at GitHub.
 <!-- markdown-link-check-enable -->
 
 > 🚧 The manual is a **work in progress** and will continue to be expanded and improved
