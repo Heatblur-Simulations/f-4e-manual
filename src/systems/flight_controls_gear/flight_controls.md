@@ -447,8 +447,9 @@ alignment of the chord line of the airplane with the oncoming air or relative wi
 
 The Angle of Attack Indicator dials register AoA values from 0 to 30 units, with
 indications for weight-relative optimum altitude cruise (7.9 units), approach
-(19.2 units), and stall (30 units). The AoA Indexer only works when the gear is in the down
-position.
+(19.2 units), and stall (30 units).
+
+> 💡 The AoA Indexers are lit even with the gear up.
 
 AoA units do not directly translate to degrees, one unit of AoA is
 the same as roughly 0.95 degrees and the measured AoA is also offset

@@ -59,7 +59,7 @@ SPEED [AoA](../../systems/flight_controls_gear/flight_controls.md#angle-of-attac
 knots slower than the given value.
 
 When indicator power is offline due to electrical system configuration or
-damage, an OFF flag will appear in the window on the face of the gauge. The AoA indicator contais
+damage, an OFF flag will appear in the window on the face of the gauge. The AoA indicator contains
 switches that light the indexer lights and actuate the stall warning vibrator.
 
 ## Reference System Selector Switch

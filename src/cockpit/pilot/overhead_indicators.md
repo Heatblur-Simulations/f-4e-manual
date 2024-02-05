@@ -59,3 +59,5 @@ Can also indicate weapon steering cues and an aural tone system backs
 up the indication with audible cues.
 See [3.1.2 Flight Controls, Angle of Attack System section](../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system)
 for details.
+
+> 💡 The AoA Indexers are lit even with the gear up.
