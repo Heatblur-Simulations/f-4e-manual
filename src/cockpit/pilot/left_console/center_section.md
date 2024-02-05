@@ -70,8 +70,8 @@ a positive pressure value on the fuel pressure indicator.
 ### Nav Vol Knob
 
 The nav vol knob (<num>1</num>) controls the volume
-of [the VOR/ILS audio system](../../../systems/nav_com/vor_ils.md) that
-indicates a positive return by repeating the morse code of the selected station.
+of [the VOR/ILS audio system](../../../systems/nav_com/vor_ils.md) that indicates being tuned to the
+desired frequency by repeating the morse code identifier of the selected station.
 
 Must be moved out of the full CCW position to provide power to [the VOR/ILS
 system](../../../systems/nav_com/vor_ils.md).

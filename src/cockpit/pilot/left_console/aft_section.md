@@ -85,7 +85,8 @@ Values of 3, 4, 6, 8, 10 number of seconds.
 
 ### Flares Select Switch
 
-The flares select switch (<num>9</num>) controls which countermeasure will be released when the pilot
+The flares select switch (<num>9</num>) controls which countermeasure will be released when the
+pilot
 presses
 the Dispense Button.
 
@@ -106,8 +107,8 @@ if [flaps and speed brakes](../../../systems/flight_controls_gear/flight_control
 
 The power on indicator light (<num>7</num>) illuminates when the [_Flares
 Select_](../../../systems/defensive_systems/countermeasures.md#flares-select-switch) switch is in
-the Normal position and either (or both) mode knobs in the [WSO cockpit](../../wso/overview.md) are
-in any position other than OFF.
+the Normal position and either the Chaff or Flare (or both) mode knobs in
+the [WSO cockpit](../../wso/overview.md) are in any position other than OFF.
 
 ## Anti-G Suit Control Valve
 

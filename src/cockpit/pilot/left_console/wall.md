@@ -36,7 +36,7 @@ noted as follows:
 |--------------|--------------------------------------------------------------------------------------------------------------------------------|
 | NORM         | Flaps up, slats operate as function of [AoA.](../../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system) |
 | OUT          | Slats extend.                                                                                                                  |
-| OUT AND DOWN | Slats and flaps extend (wheels light flashing until landing gear is down.                                                      |
+| OUT AND DOWN | Slats and flaps extend (wheels light flashing until the landing gear is down.                                                  |
 
 ### Nose Gear DOWN
 
