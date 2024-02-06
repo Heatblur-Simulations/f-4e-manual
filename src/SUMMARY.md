@@ -153,7 +153,6 @@
   - [Inflight](./emergency_procedures/in_flight.md)
   - [Landing](./emergency_procedures/landing.md)
   - [Supplement](./emergency_procedures/supplement.md)
-
 - [DCS](./dcs/overview.md)
   - [Controls](./dcs/controls.md)
   - [Special Options](./dcs/special_options.md)
