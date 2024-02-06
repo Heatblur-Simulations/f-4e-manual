@@ -498,6 +498,22 @@ task:Roger()
   end)
 ```
 
+Among other functions, the API offers:
+
+- `AddAction` - any `Action`, basis for the API
+- `Then` - anonymous function
+- `Wait` - time
+- `WaitUntil` - predicate
+- `Say` - phrase
+- `Roger`
+- `CantDo`
+- `Click` - name, state
+- `ClickFast` - name, state
+- `ClickShort` - name, state
+- `ClickShortFast` - name, state
+
+Refer to `Task.lua` for details.
+
 ## UI
 
 Jester provides two types of user interfaces. A wheel with selectable options
