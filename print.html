@@ -14126,7 +14126,7 @@ the system if necessary.</p>
 <p>Actions are, by design, executed asynchronously. Executing a click will take some time and
 not execute instantly. In particular, adding a click action to a task will not block the code,
 it simply gets added to the chain of actions to execute eventually.</p>
-<p>This concept is similar to Future-APIs in many languages and <code>Task</code> offers a fluent-API to deal
+<p>This concept is similar to Future-APIs in other languages and <code>Task</code> offers a fluent-API to deal
 with it conveniently.</p>
 <p>Consider the following example:</p>
 <pre><code class="language-lua">local task = Task:new()
@@ -14136,7 +14136,7 @@ task:Roger()
   :Click(&quot;Screen Mode&quot;, &quot;radar&quot;)
   :Say(&quot;phrases/radar_ready&quot;)
   :Then(function()
-    self:scan_for_bandits = true
+    self.scan_for_bandits = true
   end)
 </code></pre>
 <h2 id="ui"><a class="header" href="#ui">UI</a></h2>
