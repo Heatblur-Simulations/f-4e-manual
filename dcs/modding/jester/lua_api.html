@@ -583,6 +583,21 @@ task:Roger()
     self.scan_for_bandits = true
   end)
 </code></pre>
+<p>Among other functions, the API offers:</p>
+<ul>
+<li><code>AddAction</code> - any <code>Action</code>, basis for the API</li>
+<li><code>Then</code> - anonymous function</li>
+<li><code>Wait</code> - time</li>
+<li><code>WaitUntil</code> - predicate</li>
+<li><code>Say</code> - phrase</li>
+<li><code>Roger</code></li>
+<li><code>CantDo</code></li>
+<li><code>Click</code> - name, state</li>
+<li><code>ClickFast</code> - name, state</li>
+<li><code>ClickShort</code> - name, state</li>
+<li><code>ClickShortFast</code> - name, state</li>
+</ul>
+<p>Refer to <code>Task.lua</code> for details.</p>
 <h2 id="ui"><a class="header" href="#ui">UI</a></h2>
 <p>Jester provides two types of user interfaces. A wheel with selectable options
 and a dialog with questions and selectable answers that are shown on demand. See
