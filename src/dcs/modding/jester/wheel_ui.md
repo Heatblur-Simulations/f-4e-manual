@@ -42,6 +42,7 @@ Wheel.RemoveItem(item_name, menu_location)
 Wheel.ReplaceItem(item, item_name, menu_location)
 Wheel.RenameItem(new_item_name, current_item_name, menu_location)
 Wheel.SetMenuInfo(info_text, menu_location)
+Wheel.NavigateTo(menu_location)
 ```
 
 The following shows a simple example to add a new sub-menu to the `Navigation`
