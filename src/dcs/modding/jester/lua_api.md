@@ -189,8 +189,7 @@ Flight:Seal()
 return Flight
 ```
 
-The situation also has to be registered in `F-4E_WSO.lua` (_WIP, might change
-again_):
+The situation also has to be registered in `F-4E_WSO.lua` (_WIP_):
 
 ```lua
 -- in F-4E_WSO.lua
@@ -418,7 +417,9 @@ self:AddManipulator(
 After that, it can easily be interacted with, for example:
 
 ```lua
-Click("Chaff Mode", "MULT")
+task:AddAction(SwitchAction:new("Chaff Mode", "MULT"))
+-- or in short
+task:Click("Chaff Mode", "MULT")
 ```
 
 or reading its current value:
@@ -457,8 +458,8 @@ Next to clicking switches, Jester can react to events send either from C++ or
 also from within Lua. The system follows a simple observer/listener pattern:
 
 ```lua
-ListenTo("go_silent", function()
-  Click("Radar Power", "STBY")
+ListenTo("go_silent", function(task)
+  task:Click("Radar Power", "STBY")
 end)
 ```
 
@@ -468,6 +469,33 @@ with:
 if is_aar then
   DispatchEvent("go_silent")
 end
+```
+
+## Task API
+
+A core aspect of writing logic for Jester revolves around using the `Task` class.
+Tasks consist of a sequence of `Action`s. A task can be paused, resumed or cancelled entirely by
+the system if necessary.
+
+Actions are, by design, executed asynchronously. Executing a click will take some time and
+not execute instantly. In particular, adding a click action to a task will not block the code,
+it simply gets added to the chain of actions to execute eventually.
+
+This concept is similar to Future-APIs in many languages and `Task` offers a fluent-API to deal
+with it conveniently.
+
+Consider the following example:
+
+```lua
+local task = Task:new()
+task:Roger()
+  :Click("Radar Power", "OPER")
+  :Wait(min(4))
+  :Click("Screen Mode", "radar")
+  :Say("phrases/radar_ready")
+  :Then(function()
+    self:scan_for_bandits = true
+  end)
 ```
 
 ## UI

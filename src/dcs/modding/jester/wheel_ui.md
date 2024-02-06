@@ -80,16 +80,18 @@ Wheel.SetMenuInfo(current_waypoint, {"Navigation", "Select Waypoint"})
 To react to a selected action, listen to the corresponding event:
 
 ```lua
-ListenTo("select_tgt_1", function()
+ListenTo("select_tgt_1", function(task)
   -- Component interface
-  Click("Nav Panel Function", "TARGET_1")
+  task:Click("Nav Panel Function", "TARGET_1")
 
   -- or Raw interface
-  ClickRaw(
-    devices.NavigationComputer_AN_ASN_46A,
-    device_commands.RIO_NAV_COMP_FUNCTION_SELECTOR_KNOB,
-    3,
-    5
-  ) -- Target 1
+  task:Then(function()
+    ClickRaw(
+      devices.NavigationComputer_AN_ASN_46A,
+      device_commands.RIO_NAV_COMP_FUNCTION_SELECTOR_KNOB,
+      3,
+      5
+    ) -- Target 1
+  end)
 end)
 ```
