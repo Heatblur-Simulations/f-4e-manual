@@ -481,7 +481,7 @@ Actions are, by design, executed asynchronously. Executing a click will take som
 not execute instantly. In particular, adding a click action to a task will not block the code,
 it simply gets added to the chain of actions to execute eventually.
 
-This concept is similar to Future-APIs in many languages and `Task` offers a fluent-API to deal
+This concept is similar to Future-APIs in other languages and `Task` offers a fluent-API to deal
 with it conveniently.
 
 Consider the following example:
@@ -494,7 +494,7 @@ task:Roger()
   :Click("Screen Mode", "radar")
   :Say("phrases/radar_ready")
   :Then(function()
-    self:scan_for_bandits = true
+    self.scan_for_bandits = true
   end)
 ```
 
