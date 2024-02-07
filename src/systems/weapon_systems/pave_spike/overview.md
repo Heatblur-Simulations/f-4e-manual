@@ -185,3 +185,7 @@ trigger (<num>3</num>) is used to switch between modes and fire the laser.
 
 > 💡 Controls are **not** inverted. Moving the stick up also moves the view up
 > (_pitch up_).
+
+> 💡 The pods math is fairly limited, do not move the reticle
+> above the aircraft datum line (looking up) or controls will invert and the
+> pod is unable to compute target coordinates properly.
