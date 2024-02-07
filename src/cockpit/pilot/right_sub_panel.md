@@ -38,8 +38,8 @@ counter. When the feed tank is full, the indicated value should read 1400 lbs,
 
 Pulling the handle down extends the Tail Hook.
 
-The hook is utilized for field emergency arrestment and not for carrier
-operations.
+> 💡 The hook is utilized for field emergency arrestment. The F-4E does not support carrier
+> operations.
 
 ## KY-28 Mode Light Panel
 
