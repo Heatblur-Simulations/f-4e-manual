@@ -215,30 +215,30 @@ primarily revolves around the use of tables. Tables can be compared to arrays,
 lists and dictionaries, or maps.</p>
 <pre><code class="language-lua">-- dictionary
 local person = {
-  name = &quot;John&quot;,
+  name = "John",
   age = 20,
 }
 
 -- array/list
-local fruits = { &quot;Orange&quot;, &quot;Apple&quot;, &quot;Lemon&quot; }
+local fruits = { "Orange", "Apple", "Lemon" }
 </code></pre>
 <p>Arrays also implicitly decay to dictionaries with ascending keys <code>1</code>, <code>2</code>, etc.</p>
-<p>Access can be either in a lookup-style <code>person[&quot;age&quot;] = 21</code>, or like fields
+<p>Access can be either in a lookup-style <code>person["age"] = 21</code>, or like fields
 <code>person.age = 21</code>.</p>
 <p>In Lua, indices start <strong>counting at 1:</strong></p>
 <pre><code class="language-lua">print(fruits[1]) -- Orange
 </code></pre>
 <p>The length of a table can be accessed using <code>#</code>:</p>
 <pre><code class="language-lua">-- appending to a table
-fruits[#fruits + 1] = &quot;Cherry&quot;
+fruits[#fruits + 1] = "Cherry"
 </code></pre>
 <p>Anything not explicitly set is given the value <code>nil</code>.</p>
 <h3 id="syntax-example"><a class="header" href="#syntax-example">Syntax example</a></h3>
 <pre><code class="language-lua">function ageCheck(name, age)
   if age &lt; 18 then
-    print(&quot;Sorry&quot;, name)
+    print("Sorry", name)
   else
-    print(&quot;Okay&quot;, name)
+    print("Okay", name)
   end
 end
 </code></pre>
@@ -267,9 +267,9 @@ local AssistAAR = Class(Behavior) -- inherits from Behavior
 <h2 id="debugging"><a class="header" href="#debugging">Debugging</a></h2>
 <p>Unfortunately, we do not have any Lua debugger setup. One has to rely on caveman
 debugging with prints:</p>
-<pre><code class="language-lua">print(&quot;hello world&quot;)
-print(&quot;Person:&quot;, person)
-print(&quot;Check:&quot;, foo, bar, baz)
+<pre><code class="language-lua">print("hello world")
+print("Person:", person)
+print("Check:", foo, bar, baz)
 </code></pre>
 <p>Which can then be seen in console. Note that it might be necessary to
 periodically call <code>io.flush()</code> to actually see the prints.</p>
@@ -305,7 +305,7 @@ Airborne.False = Class(Condition)
 
 function IsAirborne()
   -- details on observations later
-  return GetJester().awareness:GetObservation(&quot;airborne&quot;) or false
+  return GetJester().awareness:GetObservation("airborne") or false
 end
 
 function Airborne.True:Check()
@@ -467,7 +467,7 @@ local speed = kt(500)
 local fuel = lb(12000)
 
 if time &gt; s(10) then
-  print(&quot;foo&quot;)
+  print("foo")
 end
 
 time = time - s(40)
@@ -483,7 +483,7 @@ time *= s(2)
 <code>time:IsValid()</code>.</p>
 <p>If necessary, values can be converted to another unit:</p>
 <pre><code class="language-lua">local timeInSeconds = time:ConvertTo(s)
-print(&quot;Time:&quot;, timeInSeconds)
+print("Time:", timeInSeconds)
 </code></pre>
 <p><code>time.value</code> would access the raw underlying number.</p>
 <h3 id="accessing-properties"><a class="header" href="#accessing-properties">Accessing properties</a></h3>
@@ -491,8 +491,8 @@ print(&quot;Time:&quot;, timeInSeconds)
 them easily with <code>GetProperty</code>:</p>
 <pre><code class="language-lua">function GetTotalFuelQuantity()
   local gauge_readout = GetProperty(
-    &quot;/Pilot Fuel Quantity Indicator/Fuel Meter&quot;, -- path
-    &quot;Internal Fuel Quantity Indication&quot; -- property name
+    "/Pilot Fuel Quantity Indicator/Fuel Meter", -- path
+    "Internal Fuel Quantity Indication" -- property name
   ).value
 
   return gauge_readout or lb(10000)
@@ -510,7 +510,7 @@ system allows to make frequently used data accessible in an easy way, or also to
 provide more complex data, i.e. coming from the DCS SDK.</p>
 <p>Observations are part of <code>Sense</code>s, of which Jester has several (eyes, ears, …).
 As of now, most of them are <em>WIP</em>.</p>
-<pre><code class="language-lua">local isAirborne = GetJester().awareness:GetObservation(&quot;airborne&quot;) or false
+<pre><code class="language-lua">local isAirborne = GetJester().awareness:GetObservation("airborne") or false
 </code></pre>
 <h2 id="interactions"><a class="header" href="#interactions">Interactions</a></h2>
 <p>One key aspect of Jester is that he can interact with the cockpit by clicking
@@ -521,18 +521,18 @@ switches, buttons and turning knobs.</p>
 <p>To allow interaction, a manipulator has to be registered at <code>F_4E_WSO_Cockpit.lua</code>:</p>
 <pre><code class="language-lua">-- ChaffMode: OFF, SGL, MULT, PROG
 self:AddManipulator(
-  &quot;Chaff Mode&quot;,
-  {component_path = &quot;/WSO Cockpit/WSO Left Console/AN_ALE-40 CCU/Chaff Mode Knob&quot;}
+  "Chaff Mode",
+  {component_path = "/WSO Cockpit/WSO Left Console/AN_ALE-40 CCU/Chaff Mode Knob"}
 )
 </code></pre>
 <p>After that, it can easily be interacted with, for example:</p>
-<pre><code class="language-lua">task:AddAction(SwitchAction:new(&quot;Chaff Mode&quot;, &quot;MULT&quot;))
+<pre><code class="language-lua">task:AddAction(SwitchAction:new("Chaff Mode", "MULT"))
 -- or in short
-task:Click(&quot;Chaff Mode&quot;, &quot;MULT&quot;)
+task:Click("Chaff Mode", "MULT")
 </code></pre>
 <p>or reading its current value:</p>
 <pre><code class="language-lua">local cockpit = GetJester():GetCockpit()
-local chaff_mode = cockpit:GetManipulator(&quot;Chaff Mode&quot;):GetState()
+local chaff_mode = cockpit:GetManipulator("Chaff Mode"):GetState()
 </code></pre>
 <h3 id="raw-interactions"><a class="header" href="#raw-interactions">Raw Interactions</a></h3>
 <p>If the desired switch does not support the component interface yet,
@@ -554,13 +554,13 @@ more about a specific switch and how it reacts to values.</p>
 <h2 id="events"><a class="header" href="#events">Events</a></h2>
 <p>Next to clicking switches, Jester can react to events send either from C++ or
 also from within Lua. The system follows a simple observer/listener pattern:</p>
-<pre><code class="language-lua">ListenTo(&quot;go_silent&quot;, function(task)
-  task:Click(&quot;Radar Power&quot;, &quot;STBY&quot;)
+<pre><code class="language-lua">ListenTo("go_silent", function(task)
+  task:Click("Radar Power", "STBY")
 end)
 </code></pre>
 <p>with:</p>
 <pre><code class="language-lua">if is_aar then
-  DispatchEvent(&quot;go_silent&quot;)
+  DispatchEvent("go_silent")
 end
 </code></pre>
 <h2 id="task-api"><a class="header" href="#task-api">Task API</a></h2>
@@ -575,10 +575,10 @@ with it conveniently.</p>
 <p>Consider the following example:</p>
 <pre><code class="language-lua">local task = Task:new()
 task:Roger()
-  :Click(&quot;Radar Power&quot;, &quot;OPER&quot;)
+  :Click("Radar Power", "OPER")
   :Wait(min(4))
-  :Click(&quot;Screen Mode&quot;, &quot;radar&quot;)
-  :Say(&quot;phrases/radar_ready&quot;)
+  :Click("Screen Mode", "radar")
+  :Say("phrases/radar_ready")
   :Then(function()
     self.scan_for_bandits = true
   end)

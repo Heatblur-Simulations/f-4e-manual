@@ -304,11 +304,11 @@ colors. You can tell your <code>description.lua</code> to use this texture inste
 default white color from DCS when equipping the ALQ-131 to the Phantom in-game
 by putting the following line of code into your <code>description.lua</code> file for both
 the Albedo and the Roughmet Texture:</p>
-<pre><code class="language-lua">{ &quot;ALQ_131&quot;, 0, &quot;../commons/alq131_g/alq_131_diff&quot;, false };
-{ &quot;ALQ_131&quot;, ROUGHNESS_METALLIC, &quot;../commons/alq131_g/alq_131_diff_roughmet&quot;, false };
+<pre><code class="language-lua">{ "ALQ_131", 0, "../commons/alq131_g/alq_131_diff", false };
+{ "ALQ_131", ROUGHNESS_METALLIC, "../commons/alq131_g/alq_131_diff_roughmet", false };
 </code></pre>
-<p>The first value after the <code>{</code> in Brackets <code>&quot;&quot;</code> is the Material Name, in this
-case the <code>&quot;ALQ_131&quot;</code>. It can be a bit tricky to find these Material names
+<p>The first value after the <code>{</code> in Brackets <code>""</code> is the Material Name, in this
+case the <code>"ALQ_131"</code>. It can be a bit tricky to find these Material names
 through DCS. Feel free to ask in our
 <a href="https://discord.com/servers/heatblur-simulations-1071433028045377637">Discord</a>
 in the <strong>#liveries-lair</strong> channel for help on this.</p>
@@ -316,21 +316,21 @@ in the <strong>#liveries-lair</strong> channel for help on this.</p>
 Pilot as well as a HGU-2 Texture. Here is an example of a German Luftwaffe F-4F
 Pilot and the WSO being equipped with German Luftwaffe Flight Suits and Grey
 HGU-2 Helmets:</p>
-<pre><code class="language-lua">{ &quot;PILOT_HGU-2_Helmet&quot;, 0, &quot;../commons/HGU2_g/HGU-2_Helmet&quot;, false };
-{ &quot;PILOT_HB_Char_RobinOlds_CWU&quot;, 0, &quot;../commons/LGFS/hb_char_robinolds_cwu&quot;, false };
-{ &quot;PILOT_HB_Char_RobinOlds_overall&quot;, 0, &quot;../commons/LGFS/hb_char_robinolds_overall&quot;, false };
-{ &quot;PILOT_HB_Char_RobinOlds_overall&quot;, NORMAL_MAP,
-  &quot;../commons/LGFS/hb_char_robinolds_overall_nrm&quot;, false };
-{ &quot;PILOT_HB_Char_RobinOlds_roughmet&quot;, ROUGHNESS_METALLIC,
-  &quot;../commons/LGFS/hb_char_robinolds_overall_roughmet&quot;, false };
+<pre><code class="language-lua">{ "PILOT_HGU-2_Helmet", 0, "../commons/HGU2_g/HGU-2_Helmet", false };
+{ "PILOT_HB_Char_RobinOlds_CWU", 0, "../commons/LGFS/hb_char_robinolds_cwu", false };
+{ "PILOT_HB_Char_RobinOlds_overall", 0, "../commons/LGFS/hb_char_robinolds_overall", false };
+{ "PILOT_HB_Char_RobinOlds_overall", NORMAL_MAP,
+  "../commons/LGFS/hb_char_robinolds_overall_nrm", false };
+{ "PILOT_HB_Char_RobinOlds_roughmet", ROUGHNESS_METALLIC,
+  "../commons/LGFS/hb_char_robinolds_overall_roughmet", false };
 
-{ &quot;WSO_HGU-2_Helmet&quot;, 0, &quot;../commons/HGU2_g/HGU-2_Helmet&quot;, false };
-{ &quot;WSO_HB_Char_RobinOlds_CWU&quot;, 0, &quot;../commons/LGFS/hb_char_robinolds_cwu&quot;, false };
-{ &quot;WSO_HB_Char_RobinOlds_overall&quot;, 0, &quot;../commons/LGFS/hb_char_robinolds_overall&quot;, false };
-{ &quot;WSO_HB_Char_RobinOlds_overall&quot;, NORMAL_MAP,
-  &quot;../commons/LGFS/hb_char_robinolds_overall_nrm&quot;, false };
-{ &quot;WSO_HB_Char_RobinOlds_roughmet&quot;, ROUGHNESS_METALLIC,
-  &quot;../commons/LGFS/hb_char_robinolds_overall_roughmet&quot;, false };
+{ "WSO_HGU-2_Helmet", 0, "../commons/HGU2_g/HGU-2_Helmet", false };
+{ "WSO_HB_Char_RobinOlds_CWU", 0, "../commons/LGFS/hb_char_robinolds_cwu", false };
+{ "WSO_HB_Char_RobinOlds_overall", 0, "../commons/LGFS/hb_char_robinolds_overall", false };
+{ "WSO_HB_Char_RobinOlds_overall", NORMAL_MAP,
+  "../commons/LGFS/hb_char_robinolds_overall_nrm", false };
+{ "WSO_HB_Char_RobinOlds_roughmet", ROUGHNESS_METALLIC,
+  "../commons/LGFS/hb_char_robinolds_overall_roughmet", false };
 </code></pre>
 
                     </main>

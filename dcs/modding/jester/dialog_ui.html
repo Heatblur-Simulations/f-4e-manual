@@ -228,25 +228,25 @@ via:</p>
 </code></pre>
 <p>The following shows a simple example to add a new dialog:</p>
 <pre><code class="language-lua">local fuel_check_dialog = Dialog.Question:new({
-  name = &quot;Jester&quot;,
-  content = &quot;How is the fuel?&quot;,
-  phrase = &quot;dialog/fuel_check&quot;,
-  label = &quot;Fuel Check&quot;,
+  name = "Jester",
+  content = "How is the fuel?",
+  phrase = "dialog/fuel_check",
+  label = "Fuel Check",
   timing = Dialog.Timing:new({
     question = s(5),
     action = s(10),
   }),
   options = {
-    Dialog.Option:new({ response = &quot;We are good&quot;, action = &quot;fuel_good&quot; }),
+    Dialog.Option:new({ response = "We are good", action = "fuel_good" }),
     Dialog.Option:new({
-      response = &quot;Fuel is low&quot;,
+      response = "Fuel is low",
       follow_up_question = Dialog.FollowUpQuestion:new({
-        name = &quot;Jester&quot;,
-        content = &quot;Okay, how do you want to proceed?&quot;,
-        phase = &quot;dialog/fuel_low_proceed&quot;,
+        name = "Jester",
+        content = "Okay, how do you want to proceed?",
+        phase = "dialog/fuel_low_proceed",
         options = {
-          Dialog.Option:new({ response = &quot;Remain on Mission&quot; }),
-          Dialog.Option:new({ response = &quot;RTB&quot;, action = &quot;fuel_low_rtb&quot; })
+          Dialog.Option:new({ response = "Remain on Mission" }),
+          Dialog.Option:new({ response = "RTB", action = "fuel_low_rtb" })
         },
       }),
     })
@@ -256,9 +256,9 @@ via:</p>
 Dialog.Push(fuel_check_dialog)
 </code></pre>
 <p>To react to a selected option, listen to the corresponding event:</p>
-<pre><code class="language-lua">ListenTo(&quot;fuel_low_rtb&quot;, function(task)
+<pre><code class="language-lua">ListenTo("fuel_low_rtb", function(task)
   -- Component interface
-  task:Click(&quot;Nav Panel Function&quot;, &quot;TARGET_1&quot;)
+  task:Click("Nav Panel Function", "TARGET_1")
 
   -- or Raw interface
   task:Then(function()
