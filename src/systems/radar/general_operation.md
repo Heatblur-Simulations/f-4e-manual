@@ -20,12 +20,12 @@ described below are satisfied.
 The magnetron is protected by a wave guide pressure switch and a temperature
 interlock. If either of these interlocks are open (possibly because of damage or
 malfunction) the [Radar Power Knob](interface.md#power) can be moved into EMER
-to return operation, however operation of the magnetron without adequate
+to return operation; however, operation of the magnetron without adequate
 pressure or cooling, may damage the magnetron and can burn the feedhorn.
 
 The magnetron is not powered until 3 minutes after radar is turned on. This can
-be overridden by moving the [Radar Power Knob](interface.md#power) into EMER,
-however operating the magnetron without sufficient warm up may result in
+be overridden by moving the [Radar Power Knob](interface.md#power) into EMER;
+however, operating the magnetron without sufficient warm up may result in
 incorrect pulse width and timing and/or degraded pulse power.
 
 ### Klystron
@@ -41,12 +41,12 @@ is in CW and all interlocks described below are satisfied.
 The klystron is protected by two temperature switches, a pressure switch and a
 surge current switch. If any of these interlocks (with the exception of the
 surge current switch) are open, the [Radar Power Knob](interface.md#power) can
-be moved into EMER to return operation, however damage to the klystron and
+be moved into EMER to return operation; however, damage to the klystron and
 feedhorn may result.
 
 The klystron is not powered until 100 seconds after the radar is turned on. This
 can be overridden by moving the [Radar Power Knob](interface.md#power) into
-EMER, however operating the klystron without sufficient warm up may result in
+EMER; however, operating the klystron without sufficient warm up may result in
 degraded power.
 
 ## Feedhorn Nutation
@@ -141,7 +141,7 @@ means for the crew to pickup targets on the display.
 The gain can be altered manually. This changes how returns are displayed. Higher
 gain settings amplify all echoes but can result in noise and saturation
 resulting in degraded image. Lower gain settings will result in better target
-contrast, however weaker returns will not be visible, this can degrade detection
+contrast; however, weaker returns will not be visible, this can degrade detection
 range.
 
 | Too much gain                                       | Perfect gain (2 targets)                          |

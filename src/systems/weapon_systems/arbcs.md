@@ -49,8 +49,8 @@ In T LAD and TL, PULL-UP and RELEASE are both activated, in sequence, and both
 require a value entry- PULL-UP to energize the flight path programming, and
 RELEASE to generate the munition release signal.
 
-In integrated LABS (ARBCS)/WRCS bombing, the above requirements are the same,
-however the WRCS initiates the bomb run timing, rather than pressing the bomb
+In integrated LABS (ARBCS)/WRCS bombing, the above requirements are the same;
+however, the WRCS initiates the bomb run timing, rather than pressing the bomb
 button. When the WRCS initiates timing, an audio tone is applied to signal timer
 start.
 

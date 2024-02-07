@@ -109,11 +109,11 @@ condition exists. The conditions that can cause this are as follows:
    will shut off if the tank or MER is jettisoned, allowing launch or jettison.
 
 2. BRU-5/A with single bomb; the CL tank light will illuminate. Forward position
-   Sparrows can be launched or jettisoned, however, attention should be paid to
+   Sparrows can be launched or jettisoned; however, attention should be paid to
    eliminate lateral roll movements until the launched weapon is clear.
 
-3. Aero-27/A with Centerline Arming Unit. The CL tank light will illuminate,
-   however the forward position AIM-7s cannot be jettisoned or released until
+3. Aero-27/A with Centerline Arming Unit. The CL tank light will illuminate;
+   however, the forward position AIM-7s cannot be jettisoned or released until
    this is removed post-flight.
 
 ## Interlock Switch

@@ -128,7 +128,7 @@ the
 [CL TK lamp](../../cockpit/pilot/weapon_management.md#centerline-tank-aboard-light)
 will illuminate. Rear missiles may still be fired, and the forward missiles may
 be fired if the centerline tank is dropped or MER is jettisoned. The lamp also
-illuminates in the event of a BRU-5/A in the centerline position, however, a
+illuminates in the event of a BRU-5/A in the centerline position; however, a
 missile can be launched in that condition. The Aero-27 precludes any release,
 even if the round has been dropped.
 

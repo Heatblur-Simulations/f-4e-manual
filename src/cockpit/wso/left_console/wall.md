@@ -22,7 +22,7 @@ Used for emergency deployment of the slats and flaps from the rear cockpit, and
 is activated by pulling the handle aft. [Pneumatic system](../../../systems/pneumatics.md) powering
 extension of
 the [slats flaps system](../../../systems/flight_controls_gear/flight_controls.md#slats-flap-system)
-only functions one time. Extend regardless of airspeed, however flaps will not fully deploy above
+only functions one time. Extend regardless of airspeed; however, flaps will not fully deploy above
 230 knots due to air loads on control surfaces. Will deploy fully when slower.
 
 ## LABS Panel

@@ -34,7 +34,7 @@ The AIR-GRD acquisition procedure is as follows:
    visible.
 4. Confirm Lock-on.
 
-> 💡 The radar can track ground clutter from beyond 25,000 ft, however is
+> 💡 The radar can track ground clutter from beyond 25,000 ft; however, is
 > limited by the same number to what can be fed into the WRCS.
 
 Sometimes false tracking can occur, which is indicated by a rapid decrease in
