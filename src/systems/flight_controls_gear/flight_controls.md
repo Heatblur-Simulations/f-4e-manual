@@ -449,7 +449,7 @@ The Angle of Attack Indicator dials register AoA values from 0 to 30 units, with
 indications for weight-relative optimum altitude cruise (7.9 units), approach
 (19.2 units), and stall (30 units).
 
-> 💡 The AoA Indexers are lit even with the gear up.
+> 💡 The AoA Indexers are only lit with the right gear down.
 
 AoA units do not directly translate to degrees, one unit of AoA is
 the same as roughly 0.95 degrees and the measured AoA is also offset

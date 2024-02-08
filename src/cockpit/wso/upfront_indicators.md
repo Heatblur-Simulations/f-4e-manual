@@ -124,7 +124,7 @@ up the indication with audible cues.
 See [Angle of Attack System](../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system)
 for details.
 
-> 💡 The AoA Indexers are lit even with the gear up.
+> 💡 The AoA Indexers are only lit with the right gear down.
 
 ## APX-81A Activity Lights
 
