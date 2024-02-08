@@ -34,3 +34,7 @@ $(document).ready(function() {
 })
 
 $("html").onClassChange((el, newClass) => ensureLogoVisible());
+
+window.setTheme = function setTheme(theme_id) {
+  $("button.theme#" + theme_id).click();
+}
