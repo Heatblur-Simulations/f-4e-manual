@@ -40,6 +40,7 @@ window.setTheme = function setTheme(theme_id) {
 }
 
 window.enableGameMode = function enableGameMode() {
-  $("#theme-toggle").hide();
-  $(".right-buttons a[href='print.html']").hide();
+  $("#theme-toggle").hide(); // Themes switch automatically based on in-game time
+  $(".right-buttons a[href*='print.html']").hide(); // Print Button
+  $(".menu-logo").hide(); // Logo on the sidebar uses absolute path and hence is broken in-game
 }
