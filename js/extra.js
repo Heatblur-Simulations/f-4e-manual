@@ -38,3 +38,8 @@ $("html").onClassChange((el, newClass) => ensureLogoVisible());
 window.setTheme = function setTheme(theme_id) {
   $("button.theme#" + theme_id).click();
 }
+
+window.enableGameMode = function enableGameMode() {
+  $("#theme-toggle").hide();
+  $(".right-buttons a[href='print.html']").hide();
+}
