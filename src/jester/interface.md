@@ -27,7 +27,7 @@ To confirm and send the data, select the option (LAT/LONG in this case) again.
 
 ### Wheel Controls
 
-The Jester Wheel can be opened or closed by pressing <kbd>A</kbd>.
+The Jester Wheel can be opened or closed by pressing <kbd>A</kbd> **short**.
 
 The entire UI is accessible via mouse by left-clicking options or clicking
 on the center area of circle to navigate back.
@@ -42,8 +42,8 @@ Options on the outer ring are selectable via:
 * <kbd>E</kbd> - move cursor CW
 
 Additionally, the cursor can also be moved freely either via an assignable axis for a mini-stick,
-or via head-tracking by holding down <kbd>LCTRL</kbd> + <kbd>A</kbd> and then moving the view.
-Releasing <kbd>LCTRL</kbd> + <kbd>A</kbd> will confirm the selection under the cursor.
+or via head-tracking by holding down <kbd>A</kbd> **long** and then moving the view.
+Releasing <kbd>A</kbd> will confirm the selection under the cursor.
 
 ![Head Tracking Cursor](../img/jester_wheel_head_tracking.jpg)
 
@@ -79,5 +79,5 @@ Responses can also be bound directly to keyboard or other input devices. The def
 the options are <kbd>LCTRL</kbd> + <kbd>1</kbd> through <kbd>LCTRL</kbd> + <kbd>4</kbd>.
 
 Additionally, the cursor can also be moved freely either via an assignable axis for a mini-stick,
-or via head-tracking by holding down <kbd>LCTRL</kbd> + <kbd>A</kbd> and then moving the view.
-Releasing <kbd>LCTRL</kbd> + <kbd>A</kbd> will confirm the selection under the cursor.
+or via head-tracking by holding down <kbd>A</kbd> **long** and then moving the view.
+Releasing <kbd>A</kbd> will confirm the selection under the cursor.
