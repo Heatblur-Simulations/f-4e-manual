@@ -616,7 +616,7 @@ the Hellenic Air Force, the South Korean Air Force and the Turkish Air Force.</p
 <p>Beyond the F-4E, several Phantom variants have been build for various purposes.</p>
 <div class="table-wrapper"><table><thead><tr><th style="text-align: center">Variant</th><th>Description</th><th style="text-align: center">Base Variant</th><th>First Flight</th></tr></thead><tbody>
 <tr><td style="text-align: center">A</td><td>Prototype and pre-production model</td><td style="text-align: center"></td><td>1958</td></tr>
-<tr><td style="text-align: center">B</td><td>First production ready model for the USAF</td><td style="text-align: center">A</td><td>1961</td></tr>
+<tr><td style="text-align: center">B</td><td>First production ready model for the US Navy</td><td style="text-align: center">A</td><td>1961</td></tr>
 <tr><td style="text-align: center">C</td><td>Several improvements for more effective use by the USAF</td><td style="text-align: center">B</td><td>1963</td></tr>
 <tr><td style="text-align: center">D</td><td>Modernization and improved air to ground capabilities</td><td style="text-align: center">C</td><td>1965</td></tr>
 <tr><td style="text-align: center">E</td><td>Further improvements, better radar and nose gun</td><td style="text-align: center">D</td><td>1965</td></tr>
@@ -4150,8 +4150,8 @@ the window in the last digit position.</p>
 <p>A three position drum roller window (<num>3</num>) with matching analog knob used to enter the
 altitude of either the Radar initial Point or the actual target itself, and is referenced in
 increments of 100'. Fractional values can be entered as described previously.
-This value can be changed once Radar Initial Point (RIP) or Visual Ingress Point (VIP) is
-properly defined to increase release system accuracy.</p>
+This value can be changed once Radar Identification Point (RIP) or Visual Identification Point (VIP)
+is properly defined to increase release system accuracy.</p>
 <h3 id="drag-coefficient-control"><a class="header" href="#drag-coefficient-control">Drag Coefficient Control</a></h3>
 <p>A three position drum roller window (<num>4</num>) with matching analog knob used to enter the drag
 coefficient
@@ -4521,7 +4521,7 @@ Mean time to failure is 1000 hours.</p>
 <p>An AAU-19 Type of altimeter, may operate in both electric - based on corrected electric
 static pressure signal from the Altitude Encoder, or mechanical (STBY) mode - from
 Air Data Computer, previously corrected by the Static Pressure Compensator.
-The errors tolerance of the instrument is ±3 knots below 80kts and ±5 knots above that airspeed.</p>
+The errors tolerance of the instrument is ±3 feet below 80kts and ±5 feet above that airspeed.</p>
 <p>In STBY mode, the altimeter operates based on an aneroid barometer, featuring a flexible
 metal capsule known as an aneroid wafer. This wafer expands or contracts with changes
 in external air pressure. As the aircraft ascends, the decrease in air pressure causes
@@ -5363,7 +5363,7 @@ function of throttle angle and nozzle position feedback. The nozzle is scheduled
 7/8th open at idle and the area is decreased as the throttle is advanced toward the military power
 position. However, during a rapid throttle burst from below 79% rpm to 98% rpm, a control alternator
 supplies engine speed information to the temperature amplifier, which in turn schedules engine speed
-inputs as a function of temnperature limiting. This signal prevents the primary nozzle from closing
+inputs as a function of temperature limiting. This signal prevents the primary nozzle from closing
 beyond a preset position, permitting a rapid increase in engine rpm that could damage the engine.
 During engine operation in the military and afterburner region, it becomes necessary to limit the
 nozzle schedule as established by the throttle angle and nozzle feedback to prohibit exhaust gas
@@ -5939,7 +5939,7 @@ so disengages the longitude and latitude position counters.</p>
 </li>
 <li>
 <p>The position longitude and latitude counters are set using their respective
-knobs for the know location.</p>
+knobs for the known location.</p>
 </li>
 <li>
 <p>Directly before overflying the fix point the Position Update Switch is placed and held in the FIX
@@ -6564,9 +6564,9 @@ to notify the pilot refueling can begin. The lamp will turn off when the boom is
 connected to the receptacle, or the receptacle is lowered by the RETRACT command
 on the Air Refuel Switch.</p>
 <h3 id="disengaged-light"><a class="header" href="#disengaged-light">Disengaged Light</a></h3>
-<p>Should the boom separate from the receptacle, the DISENGAGED lamp will
-illuminate. In the event of a DISENGAGED signal, the system must be reset to
-continue refueling.</p>
+<p>Should the boom separate from the receptacle, the DISENGAGED lamp will illuminate. In the event of a
+DISENGAGED signal, the system must be reset to continue refueling. The system must be reset by
+toggling the air refuel switch.</p>
 <h3 id="air-refueling-release-button-1"><a class="header" href="#air-refueling-release-button-1">Air Refueling Release Button</a></h3>
 <p><img src="systems/../img/pilot_stick_aar_button.jpg" alt="pilot_aar_release_button" /></p>
 <p>On the front seat control stick is the Air Refueling Release Button. Its primary
@@ -8467,7 +8467,8 @@ other conditions, such as a valid laser code being set, are met.</p>
 with the Antenna Hand Control, or Antenna Stick.</p>
 <p><img src="systems/weapon_systems/pave_spike/../../../img/wso_antenna_hand_control_overview.jpg" alt="pave_spike_antenna_hand_control" /></p>
 <p>The Challenge Button (<num>1</num>) is used to zoom in or out, while the 2-stage
-trigger (<num>3</num>) is used to switch between modes and fire the laser.</p>
+trigger (<num>3</num>) is used to switch between modes and fire the laser. The Slider (<num>2</num>)
+does not feature any functionality with the Pave Spike.</p>
 <blockquote>
 <p>💡 Controls are <strong>not</strong> inverted. Moving the stick up also moves the view up
 (<em>pitch up</em>).</p>
@@ -9167,10 +9168,9 @@ illuminated will provide launch audio through the intercom.</p>
 <p>The ALR-46 utilizes own-ship altitude as a defining aspect of threat priority, thus causing low
 altitude AAA and SAM threats to lose priority in the event the aircraft is at an altitude that is
 estimated to place it outside of their threat envelope. Activating LOW ALT mode (<num>5</num>)
-removes this
-envelope estimate from the threat prioritization and places low altitude threats back into priority,
-useful for circumstances such as a high to low dive attack or target ingress profile, and is
-confirmed as the active mode with the illuminated LOW ALT descriptor on the button.</p>
+removes this envelope estimate from the threat prioritization and places low altitude threats back
+into priority, useful for circumstances such as a high to low dive attack or target ingress profile,
+and is confirmed as the active mode with the illuminated LOW ALT descriptor on the button.</p>
 <h3 id="target-separate-tgt-sep"><a class="header" href="#target-separate-tgt-sep">Target Separate (TGT SEP)</a></h3>
 <p>In the event of a number of emitters being detected at such close proximity that the symbology
 overlaps on the RWR display, the Target Separation button (<num>7</num>) provides the option to
@@ -13365,14 +13365,14 @@ of the following selection:</p>
 </ul>
 <h4 id="run-in-altitude"><a class="header" href="#run-in-altitude">Run-in Altitude</a></h4>
 <p>Sets the altitude at which you want to start your bombing run. The run-in
-altitude must be held from the ingress point till bomb release. You can set it
+altitude must be held from the identification point till bomb release. You can set it
 in increments of 100ft per click.</p>
 <h4 id="run-in-speed"><a class="header" href="#run-in-speed">Run-in Speed</a></h4>
 <p>Sets the speed at which you want to fly from the ingress point to bomb release.
 The speed is the true air speed and can be set in increments of 5 knots per
 click.</p>
 <h4 id="distance-ip---target"><a class="header" href="#distance-ip---target">Distance IP &lt;-&gt; Target</a></h4>
-<p>Sets the distance between the ingress point and the target point. You can select
+<p>Sets the distance between the identification point and the target point. You can select
 from either setting it in nautical miles with a 0.1 nautical miles increment or
 switch the unit to feet with the drop-down on the right. The increment in feet
 is in 100ft per click. Unit conversion also converts your actual input.</p>
@@ -13444,7 +13444,7 @@ will use the release advance.</p>
 target. In this example run we want to bombard the red units standing on the X.</p>
 <p><img src="dcs/../img/map_target_position.jpg" alt="map_target_position" /></p>
 <h3 id="planning-ip"><a class="header" href="#planning-ip">Planning: IP</a></h3>
-<p>In the second step we will take a look at the F10-Map and make out an Ingress
+<p>In the second step we will take a look at the F10-Map and make out an Identification
 Point (IP).</p>
 <blockquote>
 <p>💡 The IP should always have a good visibility while flying the plane as
@@ -14602,6 +14602,7 @@ HGU-2 Helmets:</p>
 <div class="table-wrapper"><table><thead><tr><th>Abbreviation</th><th>Definition</th></tr></thead><tbody>
 <tr><td>RADAR</td><td>Radio Detection and Ranging</td></tr>
 <tr><td>rf</td><td>Radio Frequency</td></tr>
+<tr><td>RIP</td><td>Radar Identification Point</td></tr>
 <tr><td>rpm</td><td>Revolutions Per Minute</td></tr>
 <tr><td>RWR</td><td>Radar Warning Receiver</td></tr>
 </tbody></table>
@@ -14630,6 +14631,7 @@ HGU-2 Helmets:</p>
 <div class="table-wrapper"><table><thead><tr><th>Abbreviation</th><th>Definition</th></tr></thead><tbody>
 <tr><td>VFR</td><td>Visual Flight Rules</td></tr>
 <tr><td>VHF</td><td>Very High Frequency</td></tr>
+<tr><td>VIP</td><td>Visual Identification Point</td></tr>
 <tr><td>VMC</td><td>Visual Meteorological Conditions</td></tr>
 <tr><td>Vn</td><td>Velocity Acceleration Relationship</td></tr>
 <tr><td>VORTAC</td><td>Very High Frequency —- Omni Range and Tactical</td></tr>
