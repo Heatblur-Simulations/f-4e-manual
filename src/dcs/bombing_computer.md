@@ -32,7 +32,7 @@ of the following selection:
 #### Run-in Altitude
 
 Sets the altitude at which you want to start your bombing run. The run-in
-altitude must be held from the ingress point till bomb release. You can set it
+altitude must be held from the identification point till bomb release. You can set it
 in increments of 100ft per click.
 
 #### Run-in Speed
@@ -43,7 +43,7 @@ click.
 
 #### Distance IP <-> Target
 
-Sets the distance between the ingress point and the target point. You can select
+Sets the distance between the identification point and the target point. You can select
 from either setting it in nautical miles with a 0.1 nautical miles increment or
 switch the unit to feet with the drop-down on the right. The increment in feet
 is in 100ft per click. Unit conversion also converts your actual input.
@@ -158,7 +158,7 @@ target. In this example run we want to bombard the red units standing on the X.
 
 ### Planning: IP
 
-In the second step we will take a look at the F10-Map and make out an Ingress
+In the second step we will take a look at the F10-Map and make out an Identification
 Point (IP).
 
 > 💡 The IP should always have a good visibility while flying the plane as

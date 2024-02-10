@@ -81,9 +81,9 @@ on the Air Refuel Switch.
 
 ### Disengaged Light
 
-Should the boom separate from the receptacle, the DISENGAGED lamp will
-illuminate. In the event of a DISENGAGED signal, the system must be reset to
-continue refueling.
+Should the boom separate from the receptacle, the DISENGAGED lamp will illuminate. In the event of a
+DISENGAGED signal, the system must be reset to continue refueling. The system must be reset by
+toggling the air refuel switch.
 
 ### Air Refueling Release Button
 
