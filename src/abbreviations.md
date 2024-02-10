@@ -178,6 +178,7 @@
 |--------------|-----------------------------|
 | RADAR        | Radio Detection and Ranging |
 | rf           | Radio Frequency             |
+| RIP          | Radar Identification Point  |
 | rpm          | Revolutions Per Minute      |
 | RWR          | Radar Warning Receiver      |
 
@@ -210,6 +211,7 @@
 |--------------|------------------------------------------------|
 | VFR          | Visual Flight Rules                            |
 | VHF          | Very High Frequency                            |
+| VIP          | Visual Identification Point                    |
 | VMC          | Visual Meteorological Conditions               |
 | Vn           | Velocity Acceleration Relationship             |
 | VORTAC       | Very High Frequency —- Omni Range and Tactical |

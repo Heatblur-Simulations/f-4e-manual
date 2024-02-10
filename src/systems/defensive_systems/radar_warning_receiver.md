@@ -102,10 +102,9 @@ illuminated will provide launch audio through the intercom.
 The ALR-46 utilizes own-ship altitude as a defining aspect of threat priority, thus causing low
 altitude AAA and SAM threats to lose priority in the event the aircraft is at an altitude that is
 estimated to place it outside of their threat envelope. Activating LOW ALT mode (<num>5</num>)
-removes this
-envelope estimate from the threat prioritization and places low altitude threats back into priority,
-useful for circumstances such as a high to low dive attack or target ingress profile, and is
-confirmed as the active mode with the illuminated LOW ALT descriptor on the button.
+removes this envelope estimate from the threat prioritization and places low altitude threats back
+into priority, useful for circumstances such as a high to low dive attack or target ingress profile,
+and is confirmed as the active mode with the illuminated LOW ALT descriptor on the button.
 
 ### Target Separate (TGT SEP)
 

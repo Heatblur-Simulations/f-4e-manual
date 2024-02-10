@@ -181,7 +181,8 @@ with the Antenna Hand Control, or Antenna Stick.
 ![pave_spike_antenna_hand_control](../../../img/wso_antenna_hand_control_overview.jpg)
 
 The Challenge Button (<num>1</num>) is used to zoom in or out, while the 2-stage
-trigger (<num>3</num>) is used to switch between modes and fire the laser.
+trigger (<num>3</num>) is used to switch between modes and fire the laser. The Slider (<num>2</num>)
+does not feature any functionality with the Pave Spike.
 
 > 💡 Controls are **not** inverted. Moving the stick up also moves the view up
 > (_pitch up_).

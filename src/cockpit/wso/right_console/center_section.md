@@ -28,8 +28,8 @@ the window in the last digit position.
 A three position drum roller window (<num>3</num>) with matching analog knob used to enter the
 altitude of either the Radar initial Point or the actual target itself, and is referenced in
 increments of 100'. Fractional values can be entered as described previously.
-This value can be changed once Radar Initial Point (RIP) or Visual Ingress Point (VIP) is
-properly defined to increase release system accuracy.
+This value can be changed once Radar Identification Point (RIP) or Visual Identification Point (VIP)
+is properly defined to increase release system accuracy.
 
 ### Drag Coefficient Control
 

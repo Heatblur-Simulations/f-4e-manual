@@ -280,7 +280,7 @@ at a known fix location.
    so disengages the longitude and latitude position counters.
 
 2. The position longitude and latitude counters are set using their respective
-   knobs for the know location.
+   knobs for the known location.
 
 3. Directly before overflying the fix point the Position Update Switch is placed and held in the FIX
    position.

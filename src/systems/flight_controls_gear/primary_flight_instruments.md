@@ -87,7 +87,7 @@ Mean time to failure is 1000 hours.
 An AAU-19 Type of altimeter, may operate in both electric - based on corrected electric
 static pressure signal from the Altitude Encoder, or mechanical (STBY) mode - from
 Air Data Computer, previously corrected by the Static Pressure Compensator.
-The errors tolerance of the instrument is ±3 knots below 80kts and ±5 knots above that airspeed.
+The errors tolerance of the instrument is ±3 feet below 80kts and ±5 feet above that airspeed.
 
 In STBY mode, the altimeter operates based on an aneroid barometer, featuring a flexible
 metal capsule known as an aneroid wafer. This wafer expands or contracts with changes

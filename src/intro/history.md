@@ -386,9 +386,9 @@ They are expected to fly at least **until 2030**.
 Beyond the F-4E, several Phantom variants have been build for various purposes.
 
 | Variant | Description                                                 | Base Variant | First Flight |
-| :-----: | ----------------------------------------------------------- | :----------: | ------------ |
+| :-----: |-------------------------------------------------------------| :----------: | ------------ |
 |    A    | Prototype and pre-production model                          |              | 1958         |
-|    B    | First production ready model for the USAF                   |      A       | 1961         |
+|    B    | First production ready model for the US Navy                |      A       | 1961         |
 |    C    | Several improvements for more effective use by the USAF     |      B       | 1963         |
 |    D    | Modernization and improved air to ground capabilities       |      C       | 1965         |
 |    E    | Further improvements, better radar and nose gun             |      D       | 1965         |
