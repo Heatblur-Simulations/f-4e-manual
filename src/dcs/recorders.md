@@ -7,13 +7,13 @@ They are capable of recording in-game footage, which is accessible outside of
 the game in the **Saved Games** folder. A possible path might for example look
 like:
 
-`C:\Users\John Doe\Saved Games\DCS.openbeta\F-4E\recorders\`
+`C:\Users\John Doe\Saved Games\DCS_F4E\recorders\`
 
 ## Airborne Video Tape Recorder
 
 The AVTR records footage into folder
 
-`C:\Users\John Doe\Saved Games\DCS.openbeta\F-4E\recorders\avtr\`
+`C:\Users\John Doe\Saved Games\DCS_F4E\recorders\avtr\`
 
 as PNG files every three seconds, if activated. Each cassette can record up to 20 minutes of footage
 and, if unthreaded, will overwrite previously recorded footage.
