@@ -399,7 +399,7 @@ illuminate the [Master Caution](../../cockpit/pilot/right_main_panel.md#master-c
 The Slats Flaps system also has an Emergency system; handles are found on the
 [Slats Flaps control panel](../../cockpit/pilot/left_console/wall.md#slatsflaps-control-panel) in
 the front cockpit, and next to the rear cockpit
-[throttle](../../cockpit/wso/left_console/front_section.md#throttles) pair. The emergency system
+[throttle](../../cockpit/wso/left_console/center_section.md#throttles) pair. The emergency system
 uses pneumatic pressure, and does not
 require electrical power to force deployment. The emergency system can only
 function once, and can be actuated at any airspeed; however, above 230 knots,
@@ -415,7 +415,7 @@ are the [speed
 brakes](../..), installed on the wings. The speed brakes are driven by the aircraft's
 hydraulic system and actuated by
 a [three position switch](../../cockpit/pilot/left_console/front_section.md#throttles) found on the
-inboard [throttle](../../cockpit/pilot/left_console/front_section.md#throttles) in both cockpits.
+inboard throttle in both cockpits.
 Either switch will actuate the brakes. The positions
 are Out, Stop, and In; the Out position is momentary and reverts back to Stop when released.
 

@@ -247,7 +247,7 @@ engines.
 
 ![pilot_cage_button](../../../img/pilot_cage_button.jpg)
 
-A springloaded button (<num>5</num>) located on the backside of the throttle. In the event that
+A spring-loaded button (<num>5</num>) located on the backside of the throttle. In the event that
 an [AIM-7](../../../stores/air_to_air/aim_7.md), [AIM-9](../../../stores/air_to_air/aim_9.md),
 or the [M61A1](../../../stores/guns.md) must be employed
 against an airborne target with
@@ -306,4 +306,4 @@ switch will enable transmitting over radio.
 The guns/missile (pinky switch) is a four position switch (<num>7</num>) which performs the weapon
 select function
 for guns(aft), radar(fwd) and heat missiles(center) and performs station select functions(up) for
-the heat missile. The UP position is a springloaded position.
+the heat missile. The UP position is a spring-loaded position.

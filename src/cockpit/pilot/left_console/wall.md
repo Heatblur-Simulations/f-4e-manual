@@ -56,6 +56,14 @@ marked in yellow and black, at the top of the box. This handle is pulled to forc
 pressure air into the slats/flaps actuation system, causing them to deploy in
 event of control system failure.
 
+## Emergency Canopy Jettison Handle
+
+![CanJet](../../../img/pilot_emergency_canopy_jettison_handle.jpg)
+
+Used for emergency ground extraction, the Emergency Canopy Jettison Handle
+releases a compressed oxygen cylinder to open the respective canopy immediately,
+shearing it off at its pivots.
+
 ## Canopy Control Switch
 
 ![PilCanSel](../../../img/pilot_canopy_control_switch.jpg)

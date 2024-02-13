@@ -115,34 +115,3 @@ mode.
 | NOR       | Normal operation; inputs of pitch and roll are fed to the antenna stabilization circuit. |
 | STAB OUT  | Horizon line removed from scopes and stabilization drift servos are zeroed.              |
 | DRIFT OUT | INS drift compensation is removed; antenna uses direct pitch and roll input tracking.    |
-
-## Throttles
-
-![wso_throttles](../../../img/wso_throttles.jpg)
-
-The throttle arrangement for each engine in the F-4E Phantom II is located on
-the front and rear cockpit left console. Mechanical linkage transmits throttle
-movement to the engine fuel control. The rear cockpit throttle does not enable
-the afterburner. Located on the rear throttle is a speed brake switch and a mic
-switch.
-
-### Speed Brake
-
-![wso_speed_brake](../../../img/wso_throttles_speed_brake.jpg)
-
-The Speed Brakes are actuated by a three position switch (<num>1</num>) found on
-the inboard throttle in both cockpits. Either switch will actuate the brakes.
-The positions are Out, Stop, and In; the Out position is momentary and reverts
-back to Stop when released.
-
-For further information see the
-[3.1.2 Flight Control Surfaces chapter.](../../../systems/flight_controls_gear/flight_controls.md#speed-brakes)
-
-### Mic Switch
-
-![wso_mic_switch](../../../img/wso_throttles_mic_switch.jpg)
-
-The microphone switch (<num>2</num>) for the Intercom System is the aft position
-on the inboard throttle grip in both cockpits. When using the intercom, all
-audio sans the pull-up tone, stall warning, and ECM are reduced (same as RADIO
-OVERRIDE). In the fwd position the switch will enable transmitting over radio.

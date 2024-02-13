@@ -173,6 +173,12 @@ radio system.
 The utility panel features an emergency vent handle for releasing over pressure in the cockpit.
 Furthermore, it features the Defog/Foot Heat Lever as well as the Generator control switches.
 
+## Cooling Reset Button
+
+![Cooling Reset Button](../../../img/pilot_cooling_reset_button.jpg)
+
+Resets the CNI cooling system.
+
 ## Cockpit Pressure
 
 ![Emergency Vent Handle](../../../img/pilot_cabin_pressure_gauge.jpg)

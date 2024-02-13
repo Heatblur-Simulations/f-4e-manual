@@ -129,11 +129,11 @@ The push button (<num>2</num>) starts the built-in test of the APX-81A Combat-Tr
 
 ### Mode 2
 
-This switch (<num>4</num>) is used to set Combat-Tree Mode 2 either in ACTIVE, PASSIVE or OFF types.
+This switch (<num>5</num>) is used to set Combat-Tree Mode 2 either in ACTIVE, PASSIVE or OFF types.
 
 ### Mode 3
 
-This switch (<num>4</num>) is used to set Combat-Tree Mode 3 either in ACTIVE, PASSIVE or OFF types.
+This switch (<num>5</num>) is used to set Combat-Tree Mode 3 either in ACTIVE, PASSIVE or OFF types.
 
 ### Mode 4
 

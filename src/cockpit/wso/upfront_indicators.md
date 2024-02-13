@@ -93,6 +93,8 @@ For further information and button explanation see the
 
 ### Target Contrast Switch
 
+![Target Contrast Switch](../../img/wso_target_contrast.jpg)
+
 Used to select the appropriate contrast conditions for seeker acquisition with
 the [AGM-65A Maverick and AGM-65B Maverick](../../stores/air_to_ground/missiles/maverick.md).
 
@@ -105,6 +107,8 @@ the [AGM-65A Maverick and AGM-65B Maverick](../../stores/air_to_ground/missiles/
 This does not change the polarity of the video but the coding of the seeker itself.
 
 ### ML Audio Knob
+
+![ML Audio Knob](../../img/wso_target_contrast.jpg)
 
 Controls the volume of the Missile Launch System that plays tones to warn
 the WSO about being under attack.

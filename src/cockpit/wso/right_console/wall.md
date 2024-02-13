@@ -26,7 +26,7 @@ illuminates.
 ### Battery Bypass
 
 When toggled ON (<num>1</num>), de-energizes the battery relay, disconnecting the battery from
-the essential 28-volt de bus and ceasing charging. Particularly used in
+the essential 28-volt DC bus and ceasing charging. Particularly used in
 suspected cases of thermal runaway.
 
 ### Autopilot Ground Test

@@ -23,14 +23,6 @@ the top
 right button (<num>2</num>), it features a minute and second hand.
 The stopwatch needles are reset by pressing the top right button again.
 
-## Emergency Canopy Jettison Handle
-
-![CanJet](../../img/pilot_emergency_canopy_jettison_handle.jpg)
-
-Used for emergency ground extraction, the Emergency Canopy Jettison Handle
-releases a compressed oxygen cylinder to open the respective canopy immediately,
-shearing it off at its pivots.
-
 ## Landing Gear Handle
 
 ![GearHandle](../../img/pilot_landing_gear_handle.jpg)

@@ -110,6 +110,20 @@ Select_](../../../systems/defensive_systems/countermeasures.md#flares-select-swi
 the Normal position and either the Chaff or Flare (or both) mode knobs in
 the [WSO cockpit](../../wso/overview.md) are in any position other than OFF.
 
+## Gyro Fast Erect Switch
+
+![Gyro Fast Erect](../../../img/pilot_fast_erect.jpg)
+
+Selects gyro operation. FAST ERECT can be used momentarily to correct gyro deviations.
+
+See [3.11.4. ARBCS](../../../systems/weapon_systems/arbcs.md#gyro-fast-erect) for details.
+
+## Aural Tone Control
+
+![Aural Tone Control](../../../img/pilot_left_console_aft_aural_tone_gyro.jpg)
+
+Knob to control the volume for weapon tones, such as the Sidewinder seeker head.
+
 ## Anti-G Suit Control Valve
 
 ![pilot_anti_g_suit](../../../img/pilot_anti_g.jpg)
