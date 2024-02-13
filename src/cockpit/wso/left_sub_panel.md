@@ -107,7 +107,7 @@ with the APX-76 system.
 
 ### Test/Challenge Code
 
-If set to OFF, the APX-76 interrogation system is powered off. In the CHALLENGE
+Switch (<num>2</num>) that, if set to OFF, turns off the APX-76 interrogation system. In the CHALLENGE
 position, it can be used to interrogate.
 
 TEST is used to test the system. If the lamp above lights up, the test was
@@ -125,7 +125,7 @@ with the APX-81A Combat-Tree system.
 
 ### Test Button
 
-The push button (<num>2</num>) starts the built-in test of the APX-81A Combat-Tree system.
+The push button starts the built-in test of the APX-81A Combat-Tree system.
 
 ### Mode 2
 
