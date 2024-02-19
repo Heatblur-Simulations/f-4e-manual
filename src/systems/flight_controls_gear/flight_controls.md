@@ -430,7 +430,7 @@ trigger the [Master Caution](../../cockpit/pilot/right_main_panel.md#master-caut
 
 ## Angle of Attack System
 
-![ext_aoa_diagram](../../img/ext_aoa_diagram.jpg)
+![ext_aoa_diagram](../../img/ext_aoa_f4.jpg)
 
 To precisely monitor and control aircraft flight performance, the Angle of
 Attack System (AoA) provides visual and audio confirmation of current

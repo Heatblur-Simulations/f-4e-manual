@@ -7,7 +7,7 @@ The right wall features the main circuit breakers and lighting controls.
 ![Canopy Manual Unlock Handle](../../../img/pilot_manual_canopy_unlock.jpg)
 
 The manual unlock
-handle is used in the event of [pneumatic system](../../systems/pneumatics.md) failure.
+handle is used in the event of [pneumatic system](../../../systems/pneumatics.md) failure.
 
 The handle, when pulled aft,
 unlocks the canopy so that it may be pushed open. Before

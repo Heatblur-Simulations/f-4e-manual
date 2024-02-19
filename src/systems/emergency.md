@@ -65,7 +65,7 @@ dangerous to the aircraft.
 
 When pressed, this button tests for functionality of the FIRE and OVRHT lamps.
 Can also be used in conjunction with the Warning Lights Test switch to confirm
-detection and continuity performance of the fire and overhead warning systems.
+detection and continuity performance of the fire and overheat warning systems.
 Holding the Warning Lights Test switch in the WARN TEST position, then
 simultaneously pressing and releasing the Fire Test Button performs the test.
 Proper system function is confirmed with the four FIRE and OVRHT lamps off while
@@ -109,7 +109,7 @@ cockpit indicator panel. This can also be done by the WSO to warn the Pilot of a
 
 ![wso_command_selector_valve](../img/wso_ejection_selector.jpg)
 
-To the left and above the rear cockpit instrument handle is the Command Selector
+To the left and above the rear cockpit instrument panel is the Command Selector
 Valve Handle. This handle determines the sequence by an ejection initiated from
 the rear seat - both seats, or the rear seat only. The handle is marked PLT EJECT
 PULL TURN. When the handle is oriented vertically, single seat ejection is

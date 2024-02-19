@@ -85,5 +85,5 @@ occupying the entire pylon.
 > same pylon.
 
 Further, AN/ALE-40 Countermeasure Dispensers can be attached to the aft section
-of Pylon 2 and 8. Allowing the aircraft to carry a mix between 120 chaff and 60
+of Pylon 2 and 8. Allowing the aircraft to carry a mix between 120 chaff and 30
 flares in total.

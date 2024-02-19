@@ -119,7 +119,7 @@ into either LONG or SHORT modes.
 | LONG  | Narrow Band | 370                                           | 2.0                         |
 | SHORT | Back Bias   | 1060                                          | 0.4                         |
 
-> 💡 The AIR-GND and Automatic Acquisition mode force the pule setting into
+> 💡 The AIR-GND and Automatic Acquisition mode force the pulse setting into
 > SHORT.
 
 The AUTO setting enables the power-level mode switching (PLMS) described below.

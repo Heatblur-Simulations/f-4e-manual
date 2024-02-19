@@ -177,6 +177,7 @@
 | Abbreviation | Definition                  |
 |--------------|-----------------------------|
 | RADAR        | Radio Detection and Ranging |
+| RBL          | Radar Boresight Line        |
 | rf           | Radio Frequency             |
 | RIP          | Radar Identification Point  |
 | rpm          | Revolutions Per Minute      |

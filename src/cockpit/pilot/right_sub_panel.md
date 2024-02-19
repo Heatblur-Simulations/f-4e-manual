@@ -83,4 +83,3 @@ circuit breakers controlling lights.
 
 The upper one (<num>1</num>) is responsible for powering the primary instrument lights, while
 the lower circuit breaker (<num>2</num>) powers all indicator and warning lights.
-
