@@ -85,7 +85,8 @@ immediately indicative of an empty external tank, and should be checked against
 the quantity indication system. Further, the lamps will illuminate when the air
 refuel switch is set to EXTEND, with the ALL TANKS setting selected.
 
-> 💡 To confirm that the tanks are empty fly calm and level and watch if the light
+> 💡 A good general indication that the tanks are empty is the total fuel counter showing a value
+> below 11.000 lbs. To confirm, fly calm and level and watch if the light
 > stays on and the fuel gauge is not going up for at least one or two minutes.
 
 When air-to-air refueling, or when refueling on the ground and the tanks have
