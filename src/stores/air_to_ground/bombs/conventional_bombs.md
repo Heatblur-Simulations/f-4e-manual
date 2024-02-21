@@ -83,4 +83,4 @@ providing battlefield illumination at night.
 
 To employ, select DIRECT Delivery Mode and RKTS & DISP on the Weapon Selector Knob.
 Release them directly over the target area. The flares last for around 4 minutes and
-should be dropped below 4920ft(1500m) AGL if battlefield illumination is desired.
+should be dropped below 5000ft (1500m) AGL if battlefield illumination is desired.

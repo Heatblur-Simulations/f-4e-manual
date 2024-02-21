@@ -76,7 +76,8 @@ the button will illuminate green (<num>9</num>) in the seat in priority. In the 
 the NAV CMD button (<num>7</num>) dictates which seat has control of
 the [TACAN](../../../systems/nav_com/tacan.md) settings; its button will also illuminate
 (<num>8</num>) on the
-panel of the seat that has command (control) of the system. The Command buttons are toggle buttons.
+panel of the seat that has command (control) of the system. Each press of a command button
+will toggle who is in command of the system.
 
 ### Radio Volume
 
