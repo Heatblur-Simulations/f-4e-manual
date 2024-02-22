@@ -157,11 +157,11 @@ radio system.
 | ADF+G CMD | Comm receiver - ADF reception.                                             |
 |           | Comm transmitter - comm transmission. ADF interrupted during transmission. |
 |           | Comm guard receiver - guard reception on ADF antenna.                      |
-|           | Aux receiver- comm reception.                                              |
+|           | Aux receiver - comm reception.                                             |
 | ADF+G     | Comm receiver - ADF reception.                                             |
 |           | Comm transmitter - comm transmission. ADF interrupted during transmission. |
 |           | Comm guard receiver - standby.                                             |
-|           | Aux receiver- guard reception.                                             |
+|           | Aux receiver - guard reception.                                            |
 | Guard ADF | Comm receiver - guard reception.                                           |
 |           | Comm transmitter - guard transmission.                                     |
 |           | Comm guard receiver - standby.                                             |
@@ -277,11 +277,11 @@ The 2 two position switches (<num>6</num>) Control of each engine's respective e
 is provided
 by an individual switch.
 
-| Name          | Description                                                                        |
-|---------------|------------------------------------------------------------------------------------|
-| ON            | Generator is driven by engine accessory power and applied to electrical bus.       |
-| OFF           | Generator is offline.                                                              |
-| ON (EXTERNAL) | External power is supplied through generator bus connection for pre-startup needs. |
+| Name          | Description                                                                         |
+|---------------|-------------------------------------------------------------------------------------|
+| ON            | Generator is driven by the constant speed drive unit and applied to electrical bus. |
+| OFF           | Generator is offline.                                                               |
+| ON (EXTERNAL) | External power is supplied through generator bus connection for pre-startup needs.  |
 
 For further information see
 the [3.8 Electrics chapter.](../../../systems/electrics.md#generator-control-switches)

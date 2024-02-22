@@ -2,7 +2,7 @@
 
 ## Exterior Lighting
 
-![ext_lights](../img/ext_lights.jpg)
+![ext_lights](../img/ext_f4_lighting_overview.jpg)
 
 Exterior lights on the F-4E include position lights found on the wings and tail,
 join-up lights on the wings, fuselage lights, the anti collision light, and the
@@ -25,13 +25,13 @@ controlled by the Flasher Switch in STEADY or FLASH position.
 
 ### Anti-Collision and Fuselage Lights
 
-![fus_light_top](../img/fus_light_top.jpg)
-![fus_light_bottom](../img/fus_light_bottom.jpg)
+![fus_light_top](../img/ext_f4_fuselage_light_top.jpg)
+![fus_light_bottom](../img/ext_f4_fuselage_light_bottom.jpg)
 
 Three white anti-collision lights are found behind the rear cockpit canopy, and
 one below each of the engine intakes.
 
-![anti_col_light](../img/anti_col_light.jpg)
+![anti_col_light](../img/ext_f4_anti_col_light.jpg)
 
 A red anti-collision light is found on the vertical stabilizer.
 
@@ -41,6 +41,8 @@ switch is selected to BRT. The fuselage lights only function with the Flasher
 Switch in STEADY or FLASH, and cycle when in the latter setting.
 
 ### Landing and Taxi Lights
+
+![landing_and_taxi_lgihts_ext](../img/ext_f4_landing_gear_lights.jpg)
 
 The landing and taxi lights are found on the nose gear door, and only illuminate
 when the gear are in the down position.
@@ -52,7 +54,7 @@ will power on when it is raised by placing the Air Refuel Switch into EXTEND.
 
 ### Formation Lights
 
-![formation_lights](../img/formation_lights.jpg)
+![formation_lights](../img/ext_f4_formation_lights.jpg)
 
 Electroluminescent formation lighting is found along the fuselage, wing tips,
 and vertical stabilizer. These are activated using the control panel above the
