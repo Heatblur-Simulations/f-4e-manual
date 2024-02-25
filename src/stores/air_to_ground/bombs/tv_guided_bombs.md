@@ -34,7 +34,7 @@ requirements.
 Available TV guided bombs include:
 
 | Variant              | Warhead | Description               |
-| -------------------- | ------: | ------------------------- |
+|----------------------|--------:|---------------------------|
 | AGM-62 Walleye I     | 1000 lb |                           |
 | AGM-62 Walleye II ER | 2000 lb | extended range            |
 | GBU-8 HOBOS          | 2000 lb |                           |
@@ -42,8 +42,8 @@ Available TV guided bombs include:
 
 ## Employment
 
-To release either bomb, select the corresponding stations, put the Weapon
-Selector to TV and the Delivery Mode Knob to DIRECT.
+After the three-minute warmup either bomb is released by, selecting the corresponding stations,
+putting the Weapon Selector to TV and the Delivery Mode Knob to DIRECT.
 
 Enable the TV mode for the DSCG screen and press the trigger. This activates the
 sensor and video feed will be displayed on the screen.
