@@ -2,11 +2,11 @@
 
 ![RightConsole](../../../img/pilot_right_console.jpg)
 
-The right console is further divided into 4 sections.
+右侧控制台划分为四个部分。
 
-| Section | Name                        |
+| 部分 | 名称                        |
 | ------: |-----------------------------|
-|      1. | [Front](front_section.md)   |
-|      2. | [Center](center_section.md) |
-|      3. | [Aft](aft_section.md)       |
-|      4. | [Wall](wall.md)             |
+|      1. | [前部](front_section.md)   |
+|      2. | [中部](center_section.md) |
+|      3. | [后部](aft_section.md)       |
+|      4. | [防火墙](wall.md)             |
