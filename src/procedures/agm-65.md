@@ -2,17 +2,17 @@
 
 ## AGM-65 Tuneup
 
-| Step | System                | Action         |
-|------|-----------------------|----------------|
-| 1    | OPTICAL SIGHT         | SET            |
-|      | a. Sight mode         | A/G            |
-|      | b. Reticle depression | 45 MILS        |
-| 2    | WEAPON SELECT KNOB    | TV             |
-|      | (3-MINUTE WARM UP)    |                |
-| 3    | DELIVERY MODE KNOB    | DIRECT         |
-| 4    | STATION SELECT BUTTON | SELECT STATION |
-| 5    | (WSO) DSCG SCOPE MODE | TV OR STBY     |
-| 6    | (P) WEAPON VIDEO      | ON             |
+| Step | System                          | Action         |
+|------|---------------------------------|----------------|
+| 1    | OPTICAL SIGHT                   | SET            |
+|      | a. Sight mode                   | A/G            |
+|      | b. Reticle depression           | 45 MILS        |
+| 2    | WEAPON SELECT KNOB              | TV             |
+|      | (3-MINUTE WARM UP)              |                |
+| 3    | DELIVERY MODE KNOB              | DIRECT         |
+| 4    | STATION SELECT BUTTON           | SELECT STATION |
+| 5    | (WSO) DSCG SCOPE MODE           | TV OR STBY     |
+| 6    | (P) WEAPON VIDEO (PULL TRIGGER) | ON             |
 
 ### Pilot
 
