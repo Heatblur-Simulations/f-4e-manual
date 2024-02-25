@@ -1,234 +1,186 @@
-# Flight Director Group
+# 飞行指引指示器组
 
 ![FDG](../../img/pilot_flight_director_group_overview.jpg)
 
-The flight director group provides the pilot with all necessary instruments to fly the aircraft even
-in a bad weather situation.
+飞行指引指示器组可在全天候气象条件下为飞行员提供必要的仪表进行飞行。
 
-## Radar Altimeter
+## 雷达高度表
 
 ![RadAlt](../../img/pilot_radar_altitude.jpg)
 
-Terrain relative accurate height information up to 5000 ft, functions to 30
-degrees of bank angle or 35 degrees of pitch. Clockwise rotation of the function
-control switch on the lower left of the indicator powers the device; continued
-rotation sets the low altitude warning pointer to the desired height. Below the
-set altitude, the warning light on the lower right activates.
-A self-test, initiated by pressing the function control switch, shows 35ft.
+相对地形的精确高度信息最高可达 5000 英尺，功能区间在 30 度坡度或 35 度俯仰角。顺时针旋转仪表左下方
+的功能控制开关可为设备通电；继续旋转可将低高度告警指针设置到所需高度。低于设定高度时，右下方的告警
+灯会亮起。按下功能控制开关启动自检，仪表将显示 35 英尺。
 
-## Airspeed and Mach Indicator
+## 空速马赫数表
 
 ![pilot_air_speed_mach_indicator](../../img/pilot_airspeed_mach_indicator.jpg)
 
-The combination airspeed and mach number indicator shows airspeed readings below
-200 knots, and include Mach numbers on the outer ring at high speed. The indicator uses a single
-pointer over a fixed airspeed scale, marked from 80 to 850 knots, with a moving
-Mach scale presenting from Mach 0.4 to 2.5. A pair of movable reference markers
-is available with the knob on the face of the gauge, with speed reference
-available between 80 and 195 knots, and the Mach index pointer being able to be
-set between the 225 knot and 850 knot regions relative to the airspeed gauge. The 1 needle and the
-inner ring refers to the airspeed in knots. The 2 needle and the respective outer ring refers to the
-Mach scale. Both move along dynamically according to the Airspeed. The 3 area refers to the airspeed
-scale before the mach scale starts.
+空速马赫数表组合可显示 200 节以下的空速读数，并在高速飞行时在外圈显示马赫数。仪表在固定的空速刻度上
+使用一个指针，刻度区间为 80 至 850 节，移动的马赫刻度区间为 0.4 至 2.5 马赫。仪表表面的旋钮上有一对
+可移动的参考标记，空速参考区间为 80 至 195 节，马赫游标指针可在 225 节和 850 节之间进行设置。1 号指
+针和内圈指的是以节为单位的空速。2 号指针和相应的外圈指的是马赫标度。两者均根据空速动态移动。3 区域
+指的是马赫刻度开始显示之前的空速刻度。
 
-## Angle of Attack Indicator
+## 迎角指示器
 
 ![AoAInd](../../img/pilot_angle_of_attack_indicator.jpg)
 
-Drawing relative wind information from the landing-gear
-adjacent [AoA](../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system) probe,
-the
-[AoA](../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system) indicator offers
-conditional reference for cruise (7.9 units), approach
-(19.2 units), and stall (30 units). Because of
-the [AoA](../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system) probe to the
-nose gear door
-and subsequent airflow disturbance when the gear is lowered, actual
-aircraft [AoA](../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system)
-is approximately 1 unit higher than indicated, and ON
-SPEED [AoA](../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system) is roughly
-5
-knots slower than the given value.
+根据起落架旁 [迎角](../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system)
+探头提供的相对风速信息
+，[迎角](../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system) 指示器可为飞
+行员提供巡航（7.9 个单位）、进近（19.2 个单位）和失速（30 个单位）条件参考。由
+于[迎角](../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system) 探头位于前起
+落架舱门上，起落架放下时气流会受到干扰，因此在给定值下，飞机的实际
+[迎角](../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system) 比指示值高出约
+1 个单位，最佳进近迎角比正常慢 5 节。 knots slower than the given value.
 
-When indicator power is offline due to electrical system configuration or
-damage, an OFF flag will appear in the window on the face of the gauge. The AoA indicator contais
-switches that light the indexer lights and actuate the stall warning vibrator.
+当指示器电源因电气系统配置或损坏而断开时，指示器表面的窗口中将显示 OFF 旗。迎角指示器包含开启分度器
+灯和启动失速警告振动器的开关。
 
-## Reference System Selector Switch
+## 基准系统选择开关
 
 ![RefSel](../../img/pilot_reference_switch.jpg)
 
-Toggles between the [inertial navigation set](../../systems/nav_com/ins.md)
-and [AN/AJB-7](../../systems/weapon_systems/arbcs.md) displacement gyroscope
-for attitude information. When set to PRIM, the inertial navigation set provides
-azimuth and attitude data to the ADI; when on
-STBY, [AN/AJB-7](../../systems/weapon_systems/arbcs.md) supplies this
-information. Azimuth data also feeds into the HSI
-and [BDHI](../wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi) (rear cockpit).
-Additionally, attitude details are sent to the fire control system.
+在 [惯导套件](../../systems/nav_com/ins.md) 和 [AN/AJB-7](../../systems/weapon_systems/arbcs.md) 位
+移陀螺之间切换选择姿态信息。设置到 PRIM 时，惯导套件为 ADI 提供方位和姿态数据。设置到 STBY 时，替换
+为 [AN/AJB-7](../../systems/weapon_systems/arbcs.md) 提供信息。方位信息还将传输至 HSI 和
+[BDHI](../wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi)（WSO 驾驶舱）。此外，
+姿态详情将发送给火控系统。
 
-> 💡 Inertial information requires the inertial navigator control panel's
-> switch to be on NAV.
+> 💡 惯性信息需要将惯性导航控制面板的开关设置到 NAV 档位。
 
-When transitioning between STBY and PRIM, immediate attitude information may
-show unusual gyrations on the attitude director indicator due to initial
-erection. Rapid turns (above 15° per minute) may temporarily disrupt accurate
-heading information, requiring straight and level flight for about 20 seconds
-for manual compass system synchronization (SYNC position)
+在 STBY 和 PRIM 档位之间转换时，由于起始起竖，姿态指引指示器上的即时姿态信息可能会显示不正常的回旋
+。快速转弯（超过每分钟 15°）可能会精确航向信息暂时中断，需要直线和水平飞行约 20 秒，以手动同步罗盘
+系统（SYNC 档位）。
 
-## Attitude Director Indicator
+## 姿态指引指示器
 
 ![ADI](../../img/pilot_attitude_director_indicator.jpg)
 
-Includes an attitude sphere, turn indicator, steering bars, miniature aircraft,
-glide-slope pointer, flags, and pitch trim knob. It displays pitch, bank, and
-heading from the selected reference system and allows pitch adjustment via the
-trim knob. The turn indicator relies on a gyro from
-the [AN/AJB-7 system.](../../systems/weapon_systems/arbcs.md) The
-steering bars offer Flight Director guidance for heading interception,
-navigation, and [ILS](../../systems/nav_com/vor_ils.md) approaches. The glide-slope pointer provides
-vertical guidance information during an [ILS](../../systems/nav_com/vor_ils.md) approach.
+包括姿态球、转弯指示器、转向杆、微型飞机、下滑道指针、旗和俯仰调平旋钮。它可显示所选基准系统的俯仰
+、坡度和航向，并可通过调平旋钮调整俯仰。转向指示器依赖
+于[AN/AJB-7 系统](../../systems/weapon_systems/arbcs.md) 的陀螺仪。转向杆为飞行指引仪提供航向拦截、
+导航和 [ILS] (../../systems/nav_com/vor_ils.md)进近引导。下滑道指针可在
+[ILS](../../systems/nav_com/vor_ils.md) 进近时提供垂直引导信息。
 
-## Marker Beacon Lamp
+## 标记信标灯
 
 ![MB Lamp](../../img/pilot_marker_beacon_lamp.jpg)
 
-This lamp illuminates whenever flying over a marker beacon station,
-provided the [VOR/ILS](../../systems/nav_com/vor_ils.md) system has been activated. Additionally,
-an audio cue is played through the [intercom system.](../../systems/nav_com/intercom.md)
+如果 [VOR/ILS](../../systems/nav_com/vor_ils.md) 系统已激活，则在飞越标记信标台时亮起。此外
+，[内话系统](../../systems/nav_com/intercom.md) 还会播放音频提示
 
-The lamp can be rotated to dim and pushed to test.
+飞行员可转动旋钮来调光或按下按钮进行测试。
 
-## Horizontal Situation Indicator
+## 水平状态显示器
 
 ![HSI](../../img/pilot_hsi.jpg)
 
-Presents a horizontal view of the navigation situation relative to the aircraft,
-indicated by an aircraft symbol and a lubber line showing the current aircraft heading.
+显示水平视角下飞机的导航状态，由飞机符号和显示当前飞机航向的准线指示。
 
-### Knobs
+### 旋钮
 
-The knob on the lower left is available to input desired magnetic heading, and the
-Course Set knob on the lower right is used to enter
-[VOR](../../systems/nav_com/vor_ils.md) radial or inbound localizer course for
-accurate deviation display.
+左下方的旋钮用于输入所需的磁航向，右下方的航线设置旋钮用于输入
+[VOR](../../systems/nav_com/vor_ils.md) 径向或向台航向信标的航线，以便准确显示偏差。
 
-### Compass Card
+### 罗盘卡片
 
-A rotating element, dependent on the AJB-7 heading input, displays a compass rose.
+转动元素，取决于 AJB-7 的航向输入，显示方位圈。
 
-It provides a reference for the aircraft's heading relative to magnetic north.
+罗盘卡片用于显示飞机相对磁北的航向。
 
-### Bearing Pointer
+### 方位指针
 
-Indicates the magnetic bearing to a selected navigation aid (Nav Comp, VOR, TACAN, or ADF).
+指示到选定导航设备（导航部件、VOR、TACAN 或 ADF）的磁方位。
 
-### Course Arrow and Deviation Indicator
+### 航线箭头和偏差指示器
 
-The direction towards which the arrow points can be manually selected by
-the Course Knob in VOR/ILS and TAC modes (as seen on course rollers).
+在 VOR/ILS 和 TAC 模式下，可通过航线旋钮手动选择箭头指向的方向（如航线滚轮所示）。
 
-In HDG mode, it indicates the aircraft's magnetic heading, and in NAV COMP mode, it points
-to the aircraft's magnetic ground track.
+在 HDG 模式下，箭头指示飞机的磁航向；在 NAV COMP 模式下，箭头指向飞机的磁地面航迹。
 
-The Deviation Indicator provides visual feedback
-on the aircraft's deviation from the selected course. It shows deviation from a TACAN course
-in TAC mode or deviation from a [VOR](../../systems/nav_com/vor_ils.md) radial in VOR/ILS mode
-when VOR is tuned, and deviation from an ILS localizer signal in VOR/ILS mode when ILS is tuned.
+偏差指示器可向飞行员视觉反馈飞机是否偏离选定航向。在 TAC 模式下，指示器显示 TACAN 航线的偏差情况；
+在 VOR/ILS 模式下，当调谐至 VOR 时，它显示 [VOR](../../systems/nav_com/vor_ils.md) 径向的偏差情况；
+在 VOR/ILS 模式下，当调谐至 ILS 时，显示偏离 ILS 航向信标信号的情况。
 
-### To-From Indicator
+### 向-背台指示器
 
-Reveals whether the current course will lead towards or away from the
-tuned station, functioning with TACAN and VOR inputs.
+显示当前航向是朝向或背离调谐台，与 TACAN 和 VOR 输入一起使用。
 
-### Heading Marker
+### 航向标记器
 
-The heading marker can be manually set to the desired heading to provide the Flight Director
-with steering signals in all modes except NAV COMP.
+航向标记器可用来手动设置所需的航向，来在除 NAV COMP 模式外的其它所有模式下为飞行指引仪提供转向信号
+。
 
-In NAV COMP mode, it displays command steering towards the selected target,
-taking wind drift into account.
+在 NAV COMP 模式下，航向标记器将显示指向选定目标的转向指令，并将风漂考虑在内。
 
-### Range Indicator
+### 距离指示器
 
-Shows the distance to the selected TACAN station or NAV COMP destination.
+显示到所选 TACAN 台或 NAV COMP 目标的距离。
 
-### Mode Indicator Lights
+### 模式指示灯
 
-Several lights indicate the active navigation mode:
+指示当前激活的导航模式的灯光：
 
-* VOR: Indicates that the VOR/ILS mode is selected and a VOR frequency selected.
-* ILS: Indicates that the VOR/ILS mode is selected and an ILS frequency selected.
-* TAC: Shows that TACAN mode is active.
-* NAV: Illuminates when the Navigation Computer mode is in use.
-* MAN: Indicates that the Heading Mode is selected.
-* UHF: Signifies that the ADF mode is active.
-* TGT: Illuminates during specific radar offset bombing operations.
+- VOR: 指示选定 VOR/ILS 模式并且已选定 VOR 频率。
+- ILS: 指示选定 VOR/ILS 模式并且已选定 ILS 频率。
+- TAC: 显示已激活 TACAN 模式。
+- NAV: 在使用导航计算机模式时亮起。
+- MAN: 指示选定航向模式。
+- UHF: 表示已激活 ADF 模式。
+- TGT: 在特殊雷达偏置轰炸工作时亮起。
 
-## Altimeter
+## 高度表
 
 ![Altimeter](../../img/pilot_baro_altitude.jpg)
 
-A counter-pointer style altimeter, with thousandths in the counter window and
-100 foot increments around the face. The altimeter has an absolute range of
-80,000 feet. The altimeter includes a barometric scale for setting local
-pressure with the knob on the indicator. Works in either electric (normal
-operation mode) or pneumatic (STBY) mode, switchable via a spring-loaded three
-position switch labelled RESET and STBY. When held in RESET for more than 3 seconds the system will
-be reset and moved out of STBY.
+计数器-指针式高度表，计数器窗口以千英尺以及 100 英尺单位显示高度。高度表的绝对测量上限为 80000 英尺
+。高度表包括一个气压刻度，可通过仪表上的旋钮设置当地气压。高度表可在电动（正常工作模式）或气动
+（STBY）模式下工作，飞行员可通过标有 RESET 和 STBY 的弹簧归中三档开关进行切换。将开关保持在 RESET（
+复位） 3 秒以上，系统将被复位并从移出 STBY 状态。
 
-## Vertical Velocity Indicator
+## 垂直速度表
 
 ![VVI](../../img/pilot_vertical_velocity_indicator.jpg)
 
-Provides rate of climb or descent via the static pressure system referenced in
-thousands of feet per minute.
+通过静压系统提供爬升或下降速度，单位为千英尺/分钟。
 
-## Standby Attitude Indicator
+## 备用姿态仪
 
 ![StbyAtt](../../img/pilot_standby_attitude_indicator.jpg)
 
-The SAI functions independent of the Flight Director Group, providing reasonably
-accurate readings (within six degrees) for 9 minutes if power to the system is
-lost and the OFF flag is in view. Pitch markings are indicated every 5 degrees,
-while roll markings are in gradations of 10 degrees. Roll is illustrated through
-360 degrees, while pitch is limited by stops at 92 degrees in climb and 78
-degrees in dive to prevent gimbal lock. The SAI can be unlocked by pressing the knob and trimmed
-by turning it.
+SAI 独立于飞行指引指示器组工作，在系统断电且看到 OFF 旗的情况下，可在 9 分钟内提供相当准确的读数（6
+度以内）。俯仰标记每 5 度一个，而横滚标记则每 10 度一个。仪表可在 360 度内提供姿态指示，而俯仰则受
+限于 92 度爬升和 78 度俯冲，以防止环架锁定。按下旋钮可解锁 SAI，旋转旋钮可对其进行微调。
 
-## Navigation Function Selector Panel
+## 导航功能选择面板
 
 ![Navigation Function Selector Panel](../../img/pilot_nav_function_selector.jpg)
 
-Controls display presentation on the ADI and HDI based on the selected values on
-the two knobs; to the left is the Bearing/Distance Knob, and to the right the
-Mode Selector Knob. The Bearing/Distance Knob determines the source of
-navigation information for the HSI and ADI. The Mode Selector Knob provides
-control over the presentation of various displayed information on the HSI and
-ADI. The Mode Selector Knob includes an inset switch marked FD, for Flight
-Director. This switch engages or deactivates the pitch and bank steering bars on
-the ADI; the OFF position has the switch aligned vertically.
+根据两个旋钮上的选定值控制 ADI 和 HSI 上显示的内容；左边是方位/距离旋钮，右边是模式选择旋钮。方位/
+距离旋钮决定 HSI 和 ADI 的导航信息源。模式选择钮可控制 HSI 和 ADI 上显示的各种信息。模式选择旋钮中
+含有一个标记为 FD 的嵌入式开关，该开关可接通或断开 ADI 上的俯仰和坡度转向杆；开关转至垂直时将处在
+OFF 档位。
 
-### Bearing/Distance Knob
+### 方位/距离旋钮
 
-| Name                                                                          | Description                                                                                                                                          |
-|-------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [VOR](../../systems/nav_com/vor_ils.md)/[TAC](../../systems/nav_com/tacan.md) | Magnetic and relative bearing to [VOR](../../systems/nav_com/vor_ils.md) station and [TACAN](../../systems/nav_com/tacan.md) range displayed on HSI. |
-| [TAC](../../systems/nav_com/tacan.md)                                         | Magnetic and relative bearing and range to [TACAN](../../systems/nav_com/tacan.md) station displayed on the HSI.                                     |
-| ADF/[TAC](../../systems/nav_com/tacan.md)                                     | Magnetic and relative bearing to ADF station and [TACAN](../../systems/nav_com/tacan.md) range displayed on HSI.                                     |
-| NAV COMP                                                                      | Magnetic and relative bearing and range provided from navigation computer (i.e. waypoints) on HSI.                                                   |
+| 名称                                                                          | 描述                                                                                                              |
+| ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| [VOR](../../systems/nav_com/vor_ils.md)/[TAC](../../systems/nav_com/tacan.md) | HSI 显示[VOR](../../systems/nav_com/vor_ils.md) 台的及磁方位和 [TACAN](../../systems/nav_com/tacan.md) 台的距离。 |
+| [TAC](../../systems/nav_com/tacan.md)                                         | HSI 显示[TACAN](../../systems/nav_com/tacan.md) 台的距离及磁方位。                                                |
+| ADF/[TAC](../../systems/nav_com/tacan.md)                                     | HSI 显示 ADF 台的及磁方位以及[TACAN](../../systems/nav_com/tacan.md) 台的距离。                                   |
+| NAV COMP                                                                      | HSI 显示由导航计算机提供的（例如航路点）方位和距离。                                                              |
 
-### Mode Selector Knob Display Functions
+### 模式选择旋钮显示功能
 
 ![ModeSelectorKnobTable](../../img/ModeSelectorKnobTable.jpg)
 
-## VOR Lamp
+## VOR 灯
 
 ![VOR Lamp](../../img/pilot_vor_lamp.jpg)
 
-Illuminates to indicate that the [VOR](../../systems/nav_com/vor_ils.md) system is ready and
-receiving.
+亮起时表示 [VOR](../../systems/nav_com/vor_ils.md) 系统准备完毕并正在接收信号。
 
-That is, a valid [VOR](../../systems/nav_com/vor_ils.md) frequency has been selected, a signal is
-received and the navigation knobs have been turned to [VOR](../../systems/nav_com/vor_ils.md)
-navigation.
+这就是说，飞行员选定了有效的 [VOR](../../systems/nav_com/vor_ils.md) 频率、接收到信号并且导航旋钮转
+动至了[VOR](../../systems/nav_com/vor_ils.md) 导航。

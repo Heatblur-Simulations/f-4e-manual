@@ -1,120 +1,103 @@
-# Aft Section
+# 后部
 
-The aft section of the left console has the [intercom](../../../systems/nav_com/intercom.md)
-and [countermeasure](../../../systems/defensive_systems/countermeasures.md) controls.
+左侧控制台后部包括 [内话](../../../systems/nav_com/intercom.md) 和
+[对抗措施](../../../systems/defensive_systems/countermeasures.md) 的控制开关/按钮。
 
-## Boarding Steps Indicator
+## 登机梯指示器
 
 ![BoardStepsLadder](../../../img/pilot_boarding_steps_indicator.jpg)
 
-Used to visually confirm the integrated boarding steps state. With
-the white post up, steps are stowed, whereas steps are deployed if post
-is down and flush with panel recess. The boarding steps and ladder is moved
-by the [crew chief](../../../crew_chief/overview.md).
+用于目视确认机载登机踏板的状态。白色柱子升起时，踏板处于收起状态，而如果柱子降低并与面板凹槽齐平，
+则踏板处于放下状态。登机梯和踏板由 [机工长](../../../crew_chief/overview.md) 移动。
 
-## Intercom System Control Panel
+## 内话系统控制面板
 
 ![PilIntercom](../../../img/pilot_intercom_panel.jpg)
 
-### Volume Control Knob
+### 音量控制旋钮
 
-Turned clockwise to increase audio between cockpits, and counterclockwise to
-decrease audio between cockpits on the [Intercom](../../../systems/nav_com/intercom.md).
+控制 [内话](../../../systems/nav_com/intercom.md) 系统的音量，顺时针转动来增加音量，逆时针转动来降
+低音量。
 
-### Function Selector Switch
+### 功能选择开关
 
-| Name           | Description                                                                                                       |
-| -------------- | ------------------------------------------------------------------------------------------------------------------|
-| COLD MIC       | Mic switch on throttle must be held to activate intercom.                                                         |
-| HOT MIC        | Voice automatically transmitted on intercom.                                                                      |
-| RADIO OVERRIDE | Voice automatically transmitted on intercom. All volumes but Shrike tone and Stall Warning are reduced in volume. |
+| 名称           | 描述                                                                       |
+| -------------- | -------------------------------------------------------------------------- |
+| COLD MIC       | 必须按住传声开关来激活内话。                                               |
+| HOT MIC        | 自动在内话系统中传输话音。                                                 |
+| RADIO OVERRIDE | 自动在内话系统中传输话音。除“百舌鸟”单音和失速警告音外的所有音量都将降低。 |
 
-### Amplifier Select Knob
+### 放大器选择旋钮
 
-Determines current amplifier for [intercom](../../../systems/nav_com/intercom.md) function.
+决定 [内话](../../../systems/nav_com/intercom.md) 系统所使用的放大器。
 
-| Name | Description                                                                                                     |
-|------|-----------------------------------------------------------------------------------------------------------------|
-| B/U  | Backup headset amplifier provides audio.                                                                        |
-| NORM | Primary headset amplifier provides audio.                                                                       |
-| EMER | Uses the amplifier from opposite cockpit; all and only audio including radio received to that cockpit is heard. |
+| 名称 | 描述                                                                           |
+| ---- | ------------------------------------------------------------------------------ |
+| B/U  | 备用头戴放大器来提供音频。                                                     |
+| NORM | 主头戴放大器来提供音频。                                                       |
+| EMER | 使用另一驾驶舱中的放大器；能够且只能听到另一驾驶舱收到的所有音频，包括无线电。 |
 
-## AN/ALE-40 Programmer
+## AN/ALE-40 编程器
 
 ![AN/ALE-40 Panel](../../../img/pilot_an_ale_40_programmer.jpg)
 
-The panel features 6 knobs to
-control [chaff and flare programs](../../../systems/defensive_systems/countermeasures.md#anale-40-programmer),
-as well as two lamps and a switch to activate flares on its base.
+面板中有 6 枚旋钮用来控制
+[箔条和红外干扰弹编程](../../../systems/defensive_systems/countermeasures.md#anale-40-programmer)
+以及在其底下有两个灯光和一个用来布撒红外干扰弹的开关。
 
-Chaffs can be programmed to be released in Salvos and Bursts.
-A Salvo consists of multiple bursts, while a burst will release multiple chaffs.
+飞行员可通过编程来设置以齐射和连投布撒箔条。一次齐射由多次连投组成，一次连投将布撒多枚箔条。
 
-### Chaff Burst
+### 箔条连投
 
-The **count knob** selects the quantity of chaffs released per burst;
-values of 1, 2, 3, 4, 6, or 8 from left to right.
+**计数旋钮** 用来选择一次连投中箔条布撒的数量；从左到右数值分别为 1、2、3、4、6 或 8。
 
-The **interval knob** selects the time interval of .1, .2, .3, or .4 seconds
-between each chaff released in that burst.
+**间隔旋钮** 用来选择在两次连投之间的时间间隔，设置值为 .1、.2、.3 或 .4 秒。
 
-### Chaff Salvo
+### 箔条齐射
 
-The **count knob** selects how many bursts the salvo consists of,
-values of 1, 2, 4, 8, or C (Continuous).
+**计数旋钮** 选择齐射中存在几次连投，数值为 1、2、4、8 或 C（连续）。
 
-In the Continuous setting,
-the program is repeated as long as the dispense button is held down.
+在连续设置中，只要按住布撒按钮，程序就会重复执行。
 
-The **interval knob** selects the time interval between each burst.
-Values of 1, 2, 3, 4, 5, 8, or a R (Random) number of seconds.
+**间隔旋钮** 用来选择在两次连投之间的时间间隔。设置值为 1、2、3、4、5、8 或 R（随机）值。
 
-### Flare Burst
+### 红外干扰弹连投
 
-The **count knob** selects the quantity of flares released per burst.
-Values of 1, 2, 4, 8, or C (Continuous).
+**计数旋钮** 用来选择一次连投中红外干扰弹布撒的数量；设置数值为 1、2、4、8 或 C（连续）。
 
-Continuous will repeat the program as long as the dispense button is held down.
+在 C 档位时，只要按住布撒按钮，程序就会重复执行。
 
-The **interval knob** selects time interval between each flare released.
-Values of 3, 4, 6, 8, 10 number of seconds.
+**间隔旋钮** 用来选择布撒两枚红外干扰弹之间的时间间隔，设置值为 3、4、6、8 或 10 秒。
 
-### Flares Select Switch
+### 红外干扰弹选择开关
 
-Controls which countermeasure will be released when the pilot presses the Dispense Button.
+控制飞行员按下布撒按钮时布撒的对抗措施。
 
-In the NORMAL setting, countermeasure are released according to what the WSO setup
-on their panel.
+在 NORMAL 档位下，将根据 WSO 在面板中的设置进行布撒。
 
-FLARES allows the pilot to activate the flares regardless of WSO selection.
-This can for example be used to react quickly to a threat.
+FLARES 档位下，无论 WSO 所选对抗措施， 都允许飞行员布撒干扰弹。例如，这可用于对威胁做出快速反应。
 
-### Flares Indicator Light
+### 红外干扰弹指示灯
 
-Illuminates when the [_Flares
-Select_](../../../systems/defensive_systems/countermeasures.md#flares-select-switch) switch is in
-the Flares position and indicates they can be dispensed,
-if [flaps and speed brakes](../../../systems/flight_controls_gear/flight_controls.md) are retracted.
+当[_红外干扰弹选择_](../../../systems/defensive_systems/countermeasures.md#flares-select-switch) 开
+关位于 Flares 档位时亮起，且如果
+[襟翼和减速板](../../../systems/flight_controls_gear/flight_controls.md) 收起，则指示可以布撒红外干
+扰弹。
 
-### Power On Indicator Light
+### 通电指示灯
 
-Illuminates when the [_Flares
-Select_](../../../systems/defensive_systems/countermeasures.md#flares-select-switch) switch is in
-the Normal position and either (or both) mode knobs in the [WSO cockpit](../../wso/overview.md) are
-in any position other than OFF.
+当 [_红外干扰弹选择_](../../../systems/defensive_systems/countermeasures.md#flares-select-switch)
+开关位于 Normal 档位时，且 [WSO 驾驶舱](../../wso/overview.md) 中的任一（或两个）模式旋钮处在 OFF
+外的任何档位时亮起。
 
-## Anti-G Suit Control Valve
+## 抗荷服控制阀
 
 ![pilot_anti_g_suit](../../../img/pilot_anti_g.jpg)
 
-The anti-G system delivers low-pressure auxiliary air to the anti-G suits, with air passing through
-the anti-G suit control valve before reaching the suit. The suit remains deflated up to
-approximately 1.5 G, and as G forces reach or exceed this level, air flows into the suit
-proportionally. The suit stays inflated in relation to constant G forces and begins to deflate as G
-forces decrease.
+抗荷系统向抗荷服提供低压辅助空气，空气在进入抗荷服之前将先通过抗荷服控制阀。当过载值达到或超过大约
+1.5 G 水平时，空气会按比例流入抗荷服。在恒定 G 值的情况下，抗荷服保持充气状态，而当 G 值减小时，抗
+荷服开始放气。
 
-A manual inflation button in the anti-G suit control valve enables the crewman to manually inflate
-the suit for system checks or fatigue relief. A pressure relief valve within the system activates at
-approximately 11 psi, serving as a safety backup in case of malfunction. The system operates
-automatically whenever an engine is running, ensuring continuous support for the wearer during
-varying G-force conditions.
+抗荷服控制阀上有一个手动充气按钮，机组可以手动为抗荷服充气，以便进行系统检查或缓解疲劳。作为出现故
+障时的安全备份，抗荷服系统内的泄压阀在大约 11 psi 压力下启动。只要发动机运转，系统就会自动运行，确
+保在不同的 G 值条件下为穿戴者持续提供支持。

@@ -1,107 +1,92 @@
-# Left Sub-Panel
+# 左侧子面板
 
 ![LeftSub](../../img/pilot_left_sub_panel_overview.jpg)
 
-The left sub-panel features most
-of [the gear](../../systems/flight_controls_gear/gear_ground_handling.md) indicators as well as the
-fuel boost pump gauges. Also found on it is the stabilator trim gauge and the emergency release of
-the external stores.
+多数 [飞行操纵设备](../../systems/flight_controls_gear/gear_ground_handling.md) 指示以及升压油泵表
+位于左侧子面板中。此外，水平安定面配平表以及挂载应急抛弃也在该面板中。
 
-## 8-Day Clock
+## 8 日时钟
 
 ![PClock](../../img/pilot_clock.jpg)
 
-A clock is provided for the pilot, including a stopwatch function. The watch can be set by turning
-the knob on the left lower corner. The stopwatch function is being used by pressing the top right
-button. It is reset by pressing the top right button again.
+面板中含有一枚带秒表国内的时钟。转动位于左下角的旋钮可以设置时间。按下位于右上角的按钮即可使用秒表
+功能。再次按下右上角的按钮即可复位。
 
-## Emergency Canopy Jettison Handle
+## 应急座舱盖抛弃手柄
 
 ![CanJet](../../img/pilot_emergency_canopy_jettison_handle.jpg)
 
-Used for emergency ground extraction, the Emergency Canopy Jettison Handle
-releases a compressed oxygen cylinder to open the respective canopy immediately,
-shearing it off at its pivots.
+在地面应急撤离时使用，应急座舱盖抛弃手柄会释放压缩氧气瓶，立即打开相应的座舱盖，并剪断座舱盖支点。
 
-## Landing Gear Handle
+## 起落架手柄
 
 ![GearHandle](../../img/pilot_landing_gear_handle.jpg)
 
-Actuates [the landing gear](../../systems/flight_controls_gear/gear_ground_handling.md); raised for
-gear up, down for gear down.
+作动 [起落架](../../systems/flight_controls_gear/gear_ground_handling.md); 抬起手柄来收起起落架，放
+下则为放下起落架。
 
-Pulling the handle out will actuate the Emergency Mode and release the gear by
-using a pair of compressed air bottles.
+抽出手柄将进入应急模式，并使用一堆压缩气瓶来放下起落架。
 
-> 💡 The gear can not be retracted on ground.
+> 💡 起落架无法在地面收起。
 
-## Landing Gear Position Indicators
+## 起落架位置指示器
 
 ![GearPos](../../img/pilot_landing_gear_position_indicators.jpg)
 
-[The Landing Gear](../../systems/flight_controls_gear/gear_ground_handling.md) Position Indicators
-provide visual confirmation of current gear state, displaying UP when retracted, showing a barber
-pole while in transition, or the illustration of a wheel in the respective window when fully down
-and locked.
+[起落架](../../systems/flight_controls_gear/gear_ground_handling.md) 位置指示器可让飞行员视觉确认当
+前起落架的状态，收起时显示“UP”，过渡时显示“条状图”，完全放下并锁定时在相应窗口中显示“轮子”。
 
-## Slats/Flaps Indicators
+## 缝翼/襟翼指示器
 
 ![SltFlpInd](../../img/pilot_slats_flaps_indicator.jpg)
 
-Visual indication
-of [the Slat and Flap systems](../../systems/flight_controls_gear/flight_controls.md#slats-flap-system)
-are provided through two window indicators. Slats will be displayed as IN (retracted) or OUT (
-extended). Flaps will display as UP (retracted) or DN (down), and will show a barber pole while
-in transition.
+通过两个窗口指示器来为飞行员提供
+[缝翼和襟翼系统](../../systems/flight_controls_gear/flight_controls.md#slats-flap-system) 的视觉指
+示。缝翼将显示 IN（收起）或 OUT（伸出）。襟翼将显示 UP（收上）或 DN（放下），并在过渡时显示“条状图
+”。
 
-## Boost Pump Pressure Indicators
+## 升压油泵指示器
 
 ![BoostInd](../../img/pilot_boost_pump_indicators.jpg)
 
-A pair of indicators provide confirmation of fuel boost pump operation.
-Indicators are calibrated 0 to 5, which must be multiplied by 10 to read in
-current PSI.
+面板中有一对指示器可用于确认升压油泵的工作状况。指示器的标定值为 0 至 5，乘以 10 来读出当前的 PSI
+值。
 
-## Stabilator Trim Indicator
+## 安定面配平指示器
 
 ![StabTrimInd](../../img/pilot_stabilator_trim_indicator.jpg)
 
-Provides current stabilator trim setting in units of trim (not equal to degrees). For Takeoff the
-trim should be between 1-3 units nose down.
+以配平单位（不等于度）显示当前安定面的配平设定。起飞配平应设置在 1-3 个单位压机头配平。
 
-## Landing/Taxi Lights Switch
+## 着陆/滑行灯开关
 
 ![LndTxLt](../../img/pilot_landing_taxi_lights.jpg)
 
-Control the [external Landing and Taxi lamps.](../../systems/lighting.md) Left main gear must be
-down and locked for the switch to function
+用来控制 [机外着陆和滑行灯。](../../systems/lighting.md) 在左侧主起落架放下并锁定后开关才能控制灯光
 
-> 💡 Lights are turned off automatically when the gear is retracted.
+> 💡 收起起落架后灯光将自动关闭。
 
-## External Stores Emergency Release
+## 挂载应急抛弃
 
 ![EmerRel](../../img/pilot_external_stores_emergency_release.jpg)
 
-Also called the "_panic button_", the External Stores Emergency Release will
-immediately perform separation of all stores, without [air-to-air
-weapons](../../stores/air_to_air/overview.md) or special weapons.
+挂载应急抛弃也称为 “_恐慌按钮_”，将立刻将抛弃所有除 [空空武器](../../stores/air_to_air/overview.md)
+或特殊武器外的挂载。
 
-## Aileron Rudder Interconnect (ARI) Circuit Breaker
+## 副翼-方向舵交联（ARI）断路器
 
 ![ARI Fuse](../../img/pilot_ari.jpg)
 
-When pulled in conjunction with the Yaw ARI Stab Aug Switch disengaged, Yaw ARI
-will be fully removed. With the Yaw ARI Stab Aug Switch engaged, 5 degrees of
-ARI authority will be maintained.
+配合偏航 ARI 增稳开关断开时一并抽出，偏航 ARI 将被完全断开。当接通偏航 ARI 增稳开关时，将保持 5 度
+的 ARI 权限。
 
-See [3.1.2 Flight controls & AFCS](../../systems/flight_controls_gear/flight_controls.md#aileron-rudder-interconnect-ari)
-for further information.
+详见
+[3.1.2 飞行操纵设备 & AFCS](../../systems/flight_controls_gear/flight_controls.md#aileron-rudder-interconnect-ari)
+部分。
 
-## Emergency Brake Handle
+## 应急刹车手柄
 
 ![EBrake](../../img/pilot_emergency_brake_handle.jpg)
 
-Pulling this handle activates the Emergency Hydraulic Brake System, dumping the remaining pressure
-of the hydraulic accumulator in to the brake system for a limited number of brake applications. Note
-that differential braking will work as normal, but will also serve to exhaust hydraulic pressure
-more quickly.
+拉动手柄可激活应急液压刹车系统，将液压蓄压器的剩余压力释放到刹车系统中，以进行有限次数的制动操作。
+请注意，差动刹车将正常工作，但也会更快地耗尽蓄压器中的压力。

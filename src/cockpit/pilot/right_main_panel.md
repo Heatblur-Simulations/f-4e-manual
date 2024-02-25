@@ -1,141 +1,107 @@
-# Right Main Panel
+# 右侧主面板
 
 ![RMP](../../img/pilot_right_main_panel_overview.jpg)
 
-The right main panel offers a good overview of all needed engine data as well as of your defensive
-Radar warning receiver (RWR). There is also the fuel gauge and the fire warning lights located on
-it.
+右侧主面板向飞行员展示所有必要的发动机数据以及防御雷达告警接收机（(RWR）。此外，还有油表和火警告警
+灯。
 
-## RWR Azimuth Indicator
+## RWR 方位指示器
 
 ![RWRAz](../../img/pilot_rwr_indicator.jpg)
 
-The [Radar warning receiver](../../systems/defensive_systems/radar_warning_receiver.md) Azimuth
-Indicator shows all Radar sources that are visible to the Radar warning receiver.
-The knob controls the brightness of the display.
+[雷达告警接收机](../../systems/defensive_systems/radar_warning_receiver.md) 方位指示器显示雷达告警
+接收机可见的所有雷达信号源。旋钮用来控制显示屏的亮度。
 
 ![Controls](../../img/pilot_rwr_control_panel.jpg)
 
-Below is a box with several knobs to operate the system.
+位于其下方的是数个用于控制系统的旋钮。
 
-For further information see the
-[Radar Warning Receiver](../../systems/defensive_systems/radar_warning_receiver.md) chapter.
+详情请见 [雷达告警接收机](../../systems/defensive_systems/radar_warning_receiver.md) 章节。
 
-## Azimuth-Elevation Indicator
+## 方位-仰角指示器
 
 ![EOLos](../../img/pilot_los_indicator.jpg)
 
-The Azimuth-Elevation Indicator, or also Line-Of-Sight Indicator, is the main
-instrument for the pilot to assess the current attitude of
-the [Pave Spike](../../systems/weapon_systems/pave_spike/overview.md)
-Targeting Pod in order to keep the line of sight within the operational limits.
+方位-仰角指示器或称为视线指示器——是飞行员评估
+[铺路钉](../../systems/weapon_systems/pave_spike/overview.md) 瞄准吊舱当前姿态的主要仪器，以便将吊
+舱视线保持在工作范围内。
 
-The needle shows the pods roll position from -160° (CW) to +110° (CCW).
+指针显示吊舱的横滚角，显示区间从 -160° (顺时针) 到 +110° (逆时针) 。
 
-Three flags indicate the elevation:
+有三枚旗帜用来指示仰角：
 
-- green: -120° to -155°
-- yellow: -155° to -160°
-- red: -160° or beyond
+- 绿: -120° to -155° - 黄: -155° to -160° - 红: -160° 或更高
 
-If the needle is kept within the green labelled range and neither the yellow or
-red flag are shown, the view will not be obstructed by the pod or the aircraft.
+如果指针保持在绿区内，且未显示黄旗或红旗，则镜头未被吊舱本身或飞机遮挡。
 
-## Master Caution Light
+## 主注意灯
 
 ![Master Caution Light](../../img/pilot_master_caution_light.jpg)
 
-The Master Caution light illuminates to provide the pilot warning of a condition
-requiring attention, directing them to look at the telelight panel for
-additional information. The Master Caution lamp is reset by correcting the
-condition, or pressing the Master Caution Reset button on the generator control
-panel.
+主警报灯亮起来向飞行员表示出现需要注意的情况，指引飞行员查看远传信号灯面板以获取更多信息。通过纠正
+状态或按下位于发电机控制面板上的“主注意复位”按钮来复位主注意灯。
 
-## Fire Test Button
+## 失火测试按钮
 
 ![FTB](../../img/pilot_fire_reset.jpg)
 
-When pressed, this button tests for functionality of the FIRE and OVRHT lamps.
-Under normal conditions, all four lights should light up as long as the button
-is pressed down. If a lamp does not light up, it is likely broken and cannot be
-trusted on indicating a fire condition anymore.
+按下该按钮时，将测试 FIRE 和 OVRHT 灯是否正常工作。在正常情况下，只要按下按钮，所有四枚灯光都会亮起
+。如果灯光保持熄灭，则可能是坏了，不能再用它来指示火情。
 
-The button can also be used in conjunction with the Warning Lights Test switch
-to confirm detection and continuity performance of the fire and overheat warning
-systems.
+飞行员还可以结合告警灯开关一起使用以确认火灾和过热警报系统的检测和连续性。
 
-Holding the Warning Lights Test switch in the WARN TEST position, then
-simultaneously pressing and releasing the Fire Test Button performs the test.
-Proper system function is confirmed with the four FIRE and OVRHT lamps off while
-the Fire Test Button is pressed, then illuminating when it is released.
+将告警灯测试开关保持在 WARN TEST 档位，然后同时按下并松开失火测试按钮，即可进行测试。飞行员可以通过
+按下失火测试按钮时，四枚 FIRE 和 OVRHT 灯会熄灭，松开后再次亮起，来确认系统功能正常。
 
-## Fire/Overheat Warning Lamps
+## 失火/过热告警灯
 
 ![FOWL](../../img/pilot_fire_overheat.jpg)
 
-The Fire and Overheat Warning Lamps, one for each engine, are a pair of
-two-position indicators that illuminate when a fire condition is detected in the
-engine compartment (FIRE), or an overheat condition is detected in the exhaust
-nozzle section (OVRHT).
+失火和过热告警灯（每台发动机一个）是一对二档位指示灯，当探测到发动机舱失火（FIRE）或探测到喷口部分
+过热（OVRHT）时亮起。
 
-## Fuel Quantity Indicator
+## 燃油油量表
 
 ![JPInd](../../img/pilot_fuel_indicator.jpg)
 
-The Fuel Quantity Indicator provides two different indications of total usable
-internal fuel to confirm proper transfer function between the seven internal
-fuel cells, as well as any external loaded tanks.
+油量表提供两种不同的可用内油总量指示来确认七个内部油箱和任何副油箱之间的转输功能正常。
 
-The upper hemisphere's sector
-display presents fuel quantity detected in fuselage cells 1 through 6, excluding
-the aft-most cell 7, as well as the internal wing tanks. The sector display
-presents 200 lb increments from 0 to 3000 pounds, and 500 pound increments for
-the rest of the gauge.
+位于上半球的扇形部分显示机身 1 至 6 油箱（不包括最尾部的 7 油箱）以及机翼内油中探测到的燃油量。扇形
+部分显示以 200 磅为增量显示 0 到 3000 磅燃油量，其余仪表的增量为 500 磅。
 
-The lower tape counter readout includes all internal
-fuel, including cell 7 and the internal wing tanks, and is presented in 100 lb
-increments. Cell 7 is used as a reserve tank.
+下方的带状计数器读数包括所有内油——包括 7 油箱和机翼油箱，读数以 100 磅为增量进行显示。7 油箱用作储
+油箱。
 
-As a general guidance, Bingo fuel is around 4000 pounds, while Joker fuel is at 6000 lb.
+一般来说，返航油量约为 4000 磅，而 Joker 油量为 6000 磅。
 
-For more detailed information see
-[3.2.2 Fuel system chapter](../../systems/engines_and_fuel_systems/fuel_system.md).
+详见 [3.2.2 燃油系统章节](../../systems/engines_and_fuel_systems/fuel_system.md)。
 
-## Fuel Flow Gauges
+## 燃油流量表
 
 ![FFI](../../img/pilot_fuel_flow.jpg)
 
-A pair of fuel flow indicators is provided, one for each engine, presenting
-pounds per hour rate from 0 to 12, in 1000 lb increments. Flow indications are
-for basic, non-afterburning thrust. In afterburner, the flow rate is roughly
-four times the displayed flow rate.
+面板中包括一对燃油流量表，每台发动机各一个仪表，显示区间从 0 至 12 ，单位为 1000 磅显示每小时的燃油
+流量。燃油流量表仅显示非加力推力时的燃油流量。在加力状态下，流量大约是显示的四倍。
 
-## Tachometers
+## 转速表
 
 ![Tach](../../img/pilot_rpm.jpg)
 
-A percentage-noting Tachometer is provided for each engine, including an inset
-wheel for accurate display of single digits. Normal values are 65% for idle, 95% in full MIL power
-and 105% for full afterburner.
+每台发动机都有一枚百分比转速表，包括一个嵌入式转轮，用于精确显示个位数百分比。慢车正常值为 65%，军
+推为 95%，最大加力推力为 105%。
 
-## Exhaust Gas Temperature Gauges
+## 排气温度表
 
 ![EGT](../../img/pilot_egt.jpg)
 
-Exhaust Gas Temperature gauges are provided for each engine. The gauges have two
-needles - a large needle providing increments of 0 to 12 in multiples of 100
-degrees Celsius, and a smaller needle presenting increments of 0-10 in
-multiples of 10 degrees Celsius. Temperatures are measured at the exit of the
-turbine unit.
+每台发动机都配有排气温度表。排气温度表有两个指针，大指针的指示区间从 0 至 12，以 100 摄氏度为单位，
+另一个小指针显示区间从 0 至 10，以 10 摄氏度为单位。EGT 在涡轮装置的出口处测得。
 
-## Exhaust Nozzle Position Indicators
+## 喷口位置表
 
 ![NPI](../../img/pilot_nozzle_position.jpg)
 
-A combined Nozzle Position Indicator is provided with two needles, one for each
-engine on their respective side, to confirm balanced nozzle position and
-scheduling relative to throttle position. The gauge provides four zones relative
-to the nozzles being in their fully open configuration (needle fully left), or their maximum closed
-configuration (needle fully right). At idle, the indication will be roughly 7/8ths
-open, and schedules down as throttle is increased. Position in the afterburner
-region will moderate to maintain safe EGT levels.
+组合式喷口位置表内含两枚指针，左右指针分别对应左右发，以确认喷口位置相平衡以及相对于油门位置进行调
+定。仪表可根据喷口处于全开张开（指针左偏到最大）或完全闭合状态（指针右偏到最大）分为四个区域。在慢
+车状态下，指针大约在全开的 7/8 处，随着油门前推，指针逐渐向右偏转。加力推力区将会使喷口位置保持适中
+，以维持在安全的 EGT 水平。

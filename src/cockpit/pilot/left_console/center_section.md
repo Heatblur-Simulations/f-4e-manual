@@ -1,118 +1,101 @@
-# Center Section
+# 中部
 
-The center section of the left console
-controls [fuel](../../../systems/engines_and_fuel_systems/fuel_system.md)
-and [navigation](../../../systems/nav_com/overview.md) related settings.
+左侧控制台的中部包括 [燃油](../../../systems/engines_and_fuel_systems/fuel_system.md) 和
+[导航](../../../systems/nav_com/overview.md) 相关的控制开关/按钮。
 
-## Fuel Control Panel
+## 燃油控制面板
 
 ![Fuel Control Panel](../../../img/pilot_fuel_control_panel.jpg)
 
-### Internal Wing Dump Switch
+### 机翼放油开关
 
-Two position switch which, when placed in DUMP, closes off the wing fuel cells
-from transfer into the fuselage fuel cells and dumps fuel from the valves at the
-wing fold trailing edge. Placing the switch back to the NORM position closes the
-dump valves and reconnects the wing cells for transfer to the fuselage.
+二档位开关，当拨至 DUMP 档位时，会关闭机翼油箱输油，使其无法将燃油输送到机身油箱，并从机翼折叠后缘
+处的放油管放油。将开关调回 NORM 档位后，关闭放油阀，并重新向机身油箱输油。
 
-The entire fuel is dumped in roughly 15 minutes.
+燃油放空大约需要 15 分钟。
 
-### Internal Wing Transfer Switch
+### 机翼输油开关
 
-A two-position switch which controls flow of wing cell stored fuel to the
-fuselage fuel tanks; NORMAL permits transfer, whereas STOP TRANS ceases flow
-from the wings to the fuselage feed tanks.
+二档位开关，用于控制机翼油箱向机身油箱输油；NORMAL 档位允许输油，而 STOP TRANS 则停止向机身油箱输油
+。
 
-Transfer only occurs without weight on wheels and if the internal tanks have
-reached a certain fuel level already.
+只有在机轮不负重的情况下，并且内部油箱已经达到一定的油量时，才会进行输油。
 
-### Refueling Select Switch
+### 加油选择开关
 
-This covered switch determines which tanks will be refuelled during an air-to-air refueling cycle:
-internal (INT ONLY) or all tanks (ALL).
+带保护盖开关决定在空中受油时为哪个油箱加油：内油（INT ONLY）或所有油箱（ALL）。
 
-### Air Refueling Switch
+### 空中加油开关
 
-Two position toggle switch used for extending (EXTEND) and retracting (RETRACT)
-the air-to-air refueling door. Placing the switch into EXTEND also illuminates the
-air-to-air refueling receptacle lamp to assist the tanker boom operator.
+双档位开关，用于伸出（EXTEND）和收起（RETRACT）空对空加油门。将开关置于 “EXTEND” 档位还将使受油器灯
+亮起来辅助加油机硬管操作员进行，。
 
-If, during AAR, the boom disconnects and the DISENGAGED light illuminates, this
-switch has to be flipped to RETRACT and back to EXTEND to reset the system and
-allow the boom to connect again.
+如果在 AAR 过程中，硬管断开连接且 DISENGAGED 指示灯亮起，则必须将此开关拨到 RETRACT 档位，然后再拨
+回到 EXTEND 档位来复位系统并允许硬管再次连接。
 
-### External Transfer Switch
+### 副油箱输油开关
 
-A three position toggle determining which externally mounted tanks are currently
-transferring fuel to the fuselage tanks: CENTER (centerline tank), OFF (none),
-or OUTBD (outboard wing tanks).
+三档位的切换开关，用于确定当前由哪个副油箱向机身油箱输油： CENTER（中线油箱）、OFF（无）或 OUTBD（
+外侧机翼副油箱）。
 
-Transfer only occurs without weight on wheels and if the internal tanks have
-reached a certain fuel level already.
+只有在机轮不负重的情况下，并且内部油箱已经达到一定的油量时，才会进行输油。
 
-It is not possible to transfer from the wing tanks and external tanks at the
-same time. If both are selected, the external tanks will take priority.
+系统无法同时从机翼油箱和副油箱进行输油。如果同时选择，副油箱将优先输油。
 
-### Boost Pump Check Switches
+### 升压油泵检查开关
 
-A pair of two position spring-loaded switches are provided to confirm function
-of the fuel boost pumps. Can only be checked with the engine master switches
-OFF. Holding either switch will energize the respective boost pump, thus showing
-a positive pressure value on the fuel pressure indicator.
+提供一对二档位弹簧归中开关，用于确认升压油泵是否正常工作。飞行员只能在发动机主开关在 OFF 档位时进行
+检查。按住任一开关都将为相应的升压油泵通电，从而使燃油压力指示器上显示正压值。
 
-## VOR/ILS Control Panel
+## VOR/ILS 控制面板
 
 ![VOR/ILS Panel](../../../img/pilot_vor_ils_panel.jpg)
 
-### Nav Vol Knob
+### 导航音量旋钮
 
-Controls the volume of [the VOR/ILS audio system](../../../systems/nav_com/vor_ils.md) that
-indicates a positive return by repeating the morse code of the selected station.
+控制 [VOR/ILS 音频系统](../../../systems/nav_com/vor_ils.md) 的音量，该系统通过重复所选电台的摩尔斯
+码来指示调谐到正确的频率。
 
-Must be moved out of the full CCW position to provide power to [the VOR/ILS
-system](../../../systems/nav_com/vor_ils.md).
+将旋钮转动出最大逆时针档位来 [VOR/ILS 系统](../../../systems/nav_com/vor_ils.md) 通电。
 
-### MB Vol Knob
+### MB 音量旋钮
 
-Controls the volume of the tone played when flying over a [marker-beacon
-transmitter](../../../systems/nav_com/vor_ils.md), for example on the final approach during landing.
+用来控制在飞越 [标记信标发射机](../../../systems/nav_com/vor_ils.md) 时播放的单音音量，例如在着陆时
+最后进近。
 
-### Frequency Knobs
+### 频率旋钮
 
-A set of two knobs for tuning the [VOR/ILS](../../../systems/nav_com/vor_ils.md) frequency. The
-outer knob controls the first three digits, while the inner knob sets the two decimal digits.
+一组双旋钮，用于调谐 [VOR/ILS](../../../systems/nav_com/vor_ils.md) 频率。外侧旋钮控制前三位数字，
+内侧旋钮设置小数点后两位数字。
 
-Valid frequencies range from 108.00 to 117.95 MHz.
+调谐区间为 108.00 到 117.95 MHz。
 
-### VOR/MKR Test
+### VOR/MKR 测试
 
-A button to initiate a built-in test of the VOR system.
-See [VOR/ILS Test](../../../procedures/bit_tests/navigation_tests.md#vorils-test) for details.
+按钮用来开始 VOR 系统机内自检。详见
+[VOR/ILS 测试](../../../procedures/bit_tests/navigation_tests.md#vorils-test) 。
 
-## AFCS Control Panel
+## AFCS 控制面板
 
 ![AFCSPan](../../../img/pilot_afcs_control_panel.jpg)
 
-### Stability Augmentation Channel Switches (Yaw/Roll/Pitch)
+### 增稳通道开关 (偏航/横滚/俯仰)
 
-Three two-position switches enable individual channels
-of [stability augmentation](../../../systems/flight_controls_gear/flight_controls.md#stability-augmentation-system)
-for Yaw, Roll, and Pitch. ENGAGE (forward) sets the respective chanel stability
-augmentation on.
+三个二档位开关，用来启用独立的偏航/横滚/俯仰
+[增稳](../../../systems/flight_controls_gear/flight_controls.md#stability-augmentation-system) 通道
+。ENGAGE 档位（向前）设置对应的通道开启。
 
-See [3.1.2 Flight Controls & AFCS](../../../systems/flight_controls_gear/flight_controls.md) for
-further information.
+详见 [3.1.2 飞行操纵设备 & AFCS](../../../systems/flight_controls_gear/flight_controls.md) 。
 
-### AFCS Mode Switch
+### AFCS 模式开关
 
-Enables [AFCS](../../../systems/flight_controls_gear/flight_controls.md#auotmatic-flight-control-system-afcs)
-flight mode, which can maintain and hold maneuvers and attitudes at up to ±70 degrees of pitch, 70
-degrees of bank, and in all 360 degrees of azimuth. Deactivated by selecting the switch aft, or with
-a rapid control input.
+启用
+[AFCS](../../../systems/flight_controls_gear/flight_controls.md#auotmatic-flight-control-system-afcs)
+飞行模式，AFCS 模式开关可以在 ±70 度俯仰、70 度坡度和 360 度方位内保持机动以及姿态。向后拨动开关或
+快速移动驾驶杆来禁用 AFCS 模式。
 
-### Altitude Hold Switch
+### 高度保持开关
 
-Selecting ENGAGE activates the altitude hold function of
-the [AFCS.](../../../systems/flight_controls_gear/flight_controls.md#auotmatic-flight-control-system-afcs)
-When entered a pitch and bank level condition, will maintain altitude (ASL) stabilized
-flight at the current heading.
+选择 ENGAGE 将接通
+[AFCS](../../../systems/flight_controls_gear/flight_controls.md#auotmatic-flight-control-system-afcs)
+的高度保持功能。在俯仰坡度保持水平时，系统将在当前航向上保持稳定高度（ASL）飞行。

@@ -1,314 +1,270 @@
-# Weapon Management
+# 武器管理
 
 ![MwsGroup](../../img/pilot_weapon_management.jpg)
 
-This group on the left area of the main panel provides all weapon related settings, such as arming
-missiles or selecting the bomb delivery mode.
+位于主面板左侧区域的仪表组用来控制所有武器相关的设置，例如导弹解除保险或选择航弹投放模式。
 
-## Range Indicator
+## 距离指示器
 
 ![range_indicator](../../img/pilot_overhead_range_indicator.jpg)
 
-This panel provides the pilot with a readout of the slant range measured by the [Pave
-Spike](../../systems/weapon_systems/pave_spike/overview.md) Targeting Pod (x100 ft).
+面板为飞行员提供由 [铺路钉](../../systems/weapon_systems/pave_spike/overview.md) 瞄准吊舱测得的斜距
+读数 (x100 英尺)。
 
-When the Test-Button (2) is pressed, the display shows 888. The knob underneath (3) the test button
-controls the brightness of the readout.
+按下测试按钮后(3)，屏幕将显示 888。测试按钮下方的旋钮(4)用于控制读数的亮度。
 
-The Mode-Knob (1) allows the pilot to select one of two weapon delivery modes available with the
-pod:
+模式旋钮(1)允许飞行员选择其中一个吊舱可用的武器投放模式：
 
-- [WRCS](../../systems/weapon_systems/wrcs.md) - Automatic Delivery
-- ROR - Release on Range
+- [WRCS](../../systems/weapon_systems/wrcs.md) - 自动投放 - ROR - 距离投放
 
-In the SET position, the display shows the desired release range used in the ROR mode. The knob
-below the readout (4) can be used to adjust this range.
+在 SET 档位，屏幕将显示 ROR 模式使用的预计投放距离。在读数下方旋钮(4)可用于调整距离。
 
-## Head Up Display Indicators
+## 平视显示指示器
 
 ![HUD](../../img/pilot_head_up_display_indicators.jpg)
 
-The Head Up Display indicator panel provides weapon status for the Master Arm
-control as well as the current selected air-to-air weapon based on the position
-of the pinky switch on the left throttle handle.
+平视显示指示器面板提供为飞行员提供主军械控制的武器状态，以及提供在左侧油门握把上 pinky 开关设置的当
+前选定空对空武器。
 
-| Name  | Description                                                     |
-|-------|-----------------------------------------------------------------|
-| RADAR | Illuminates when a radar-guided air to air missile is selected. |
-| HEAT  | Illuminates when an IR-guided air to air missile is selected.   |
-| GUN   | Illuminates when the nose gun is selected.                      |
-| ARM   | Illuminates when the Master Arm switch is selected to ARM.      |
+| 名称  | 描述                            |
+| ----- | ------------------------------- |
+| RADAR | 选定雷达制导空空导弹时亮起。    |
+| HEAT  | 选定红外制导空空导弹时亮起。    |
+| GUN   | 选定机头航炮时亮起。            |
+| ARM   | 主军械开关选定 ARM 档位时亮起。 |
 
-## UHF Remote Channel Indicator
+## UHF 远程波道指示器
 
 ![UHFInd](../../img/pilot_uhf_remote_channel_indicator.jpg)
 
-Provides the current selected channel value when the radio is set to PRESET. Otherwise, the
-indicator displays M if the radio is set to Manual, G when the COMM function is set as GUARD/ADF, or
-A when the A-3-2-T switch is in A.
+当电台设置到 PRESET 模式时提供当前选择的波道。否则，指示器将在电台数值到手动显示 M、COMM 功能设置到
+GUARD/ADF 时 G 或 A-3-2-T 开关设置到 A 时显示 A。
 
-## True Airspeed Indicator
+## 真空速指示器
 
 ![TASInd](../../img/pilot_true_airspeed_indicator.jpg)
 
-Provides the aircraft's true Airspeed in knots, and is calibrated from 150 to 1500 knots; airspeeds
-below this range are thus not reliable.
+节为单位显示飞机真空速，校正区间在 150 到 1500 节；低于校正区间的空速不可靠。
 
-## Flight Instrument Brightness Knob
+## 飞行仪表亮度旋钮
 
 ![Flight Instrument Brightness Knob](../../img/pilot_flight_instrument_brightness_knob.jpg)
 
-Controls edge lighting of the main flight instruments of **both cockpits**.
+控制 **两个驾驶舱** 中主飞行仪表的边缘照明亮度。
 
-Rotating clockwise will increase their brightness,
-but at the same time also dim most warning and indication lamps in the aircraft.
+顺时针转动旋钮将增加亮度，但同时会降低飞机内多数警告和指示灯的亮度。
 
-> 💡 When dimmed, SHOOT lamps are turned off entirely.
+> 💡 在暗模式下，SHOOT 灯将完全关闭。
 
-Flight instrument lights can additionally be controlled individually with knobs on the
-[Flight Instrument Lights Intensity Panel](right_console/wall.md#flight-instrument-lights-intensity-panel),
-located on the right wall.
+飞行仪表灯还可以通过右防火墙上的
+[飞行仪表灯亮度面板](right_console/wall.md#flight-instrument-lights-intensity-panel) 来单独进行控制
+。
 
-See [3.9. Interior Lighting](../../systems/lighting.md#interior-lighting) for details.
+详见 [3.9. 机内照明](../../systems/lighting.md#interior-lighting)。
 
-## Nose/Tail Arming Switch
+## 头部/尾部解除保险开关
 
 ![NTArm](../../img/pilot_nose_tail_arming.jpg)
 
-Controls the arming solenoids of the MER and TER racks, selecting what MER/TER position(s) arming
-lanyards are pulled from released bomb fuzes upon separation, thus making them live. This function
-also controls selective low/high drag capability for retarded bombs.
+控制 MER 和 TER 的解除保险电磁开关，选择在分离 MER/TER 时从已投放的航弹引信上拉出解除保险短索的位置
+，从而使航弹进入解除保险状态。开关同样用来控制高阻航弹的低/高阻功能。
 
-| Name      | Description                                                                       |
-|-----------|-----------------------------------------------------------------------------------|
-| SAFE      | No arming solenoids activate; bombs release without fuzing enabled.               |
-| NOSE      | Forward and center position solenoids activate to hold arming lanyards.           |
-| TAIL      | Aft position solenoids activate to hold arming lanyards.                          |
-| NOSE/TAIL | Forward, center, and aft position solenoids all activate to hold arming lanyards. |
+| 名称      | 描述                                         |
+| --------- | -------------------------------------------- |
+| SAFE      | 不动作电磁开关；禁用引信投放航弹。           |
+| NOSE      | 前、中部电磁开关激活来拉住解除保险短索。     |
+| TAIL      | 后部电磁开关激活来拉住解除保险短索。         |
+| NOSE/TAIL | 前、中和后部电磁开关激活来拉住解除保险短索。 |
 
-## Station Select Buttons
+## 挂点选择按钮
 
 ![SSBs](../../img/pilot_station_select_buttons.jpg)
 
-The Station Select Buttons are used to activate air to ground munition stations and the nose gun.
-Upon selection of a station, the upper half denoting the position will illuminate green to confirm
-the station is active. The lower half will illuminate amber once the necessary mode is selected, the
-weapon is compatible with the weapon select knob option, the Master Arm is in the ARM position, and
-any necessary warm up period for the selected weapon type is completed. L and R positions are left
-and right, respectively, with O denoting outboard and I denoting inboard stations. The centerline
-weapon position is CL, and the nose gun is armed with the GUN station selector button.
+挂点选择按钮用于激活空对地武器挂点和机头航炮。在选择了一个挂点后，按钮上半部分亮起绿色指示灯来确认
+激活挂点。在选择了必要的模式、武器与武器选择旋钮选项兼容、主军械处在 ARM 档位，并且所选武器类型的必
+要预热已完成，下半部分将亮起琥珀色灯光。L 和 R 分别表示左侧和右侧，O 表示外侧挂点，I 表示内侧挂点。
+中线武器位置为 CL，机头航炮通过 GUN 挂点选择按钮来解除保险。
 
 ![ext_pylons](../../img/ext_pylons.jpg)
 
-### Dimmer Knob
+### 调光旋钮
 
-A dimmer knob is also provided to raise or lower the lighting of the station select buttons relative
-to current cockpit conditions.
+此外，驾驶舱中还有一个调光旋钮，可根据当前的驾驶舱条件提高或降低挂点选择按钮的照明度。
 
-If the Flight Instrument Brightness Knob above it is set to the full CCW position,
-it overrides the dimmer knob and Station Select Buttons are always illuminated at full
-brightness.
+如果位于其上方的飞行仪表亮度旋钮设置到最大逆时针档位，飞行仪表亮度旋钮将超控调光旋钮以及挂点选择按
+钮将始终保持最亮。
 
-> 💡 The dimmer knob can control brightness only within a limited range.
+> 💡 调光旋钮能调整的亮度区间有限。
 
-## Master Arm Switch
+## 主军械开关
 
 ![MArm](../../img/pilot_master_arm.jpg)
 
-Provides master arming function for all aircraft weapons.
+为所有机载武器提供解除保险功能。
 
-## Delivery Mode Knob
+## 投放模式旋钮
 
 ![DelMode](../../img/pilot_delivery_mode_knob.jpg)
 
-The Delivery Mode Knob sets the fire control system to the desired air to ground weapon release
-type. Split into two halves, the left side of the dial references ARBCS (Altitude Reference and
-Bombing Computer Set) delivery modes, while the right side provides automated release functions
-using the WRCS (Weapon Release Computer Set) with possible tie-in to the navigation computer,
-depending on mode. At the 11 and 12 o'clock positions are the OFF position, which is utilized for
-air-to-air weapons (including the gun) and DIRECT, which is used for video-directed weapons such as
-the AGM-65 and as a direct delivery bombing mode. The full series of positions is as follows,
-clockwise from the left:
+投放模式旋钮用于将火控系统设置到所需的空对地武器投放类型。旋钮分为两半，左侧参考 ARBCS（高度基准和
+投弹计算机组）投放模式，而右侧则提供使用 WRCS（武器投放计算机组）的自动投放功能，并可能根据模式与导
+航计算机连接。11 点钟和 12 点钟位置分别为 OFF——仅使用空对空武器和 DIRECT 模式——用于视频制导武器，例
+如 AGM-65，以及作为直接轰炸模式使用。所有档位，从左起按顺时针方向依次为：
 
-| Name                                                                                                 | Description                                                                                       |
-|------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| [INST O/S](../../stores/air_to_ground/bombs/employment.md#instantaneous-over-the-shoulder---inst-os) | Instantaneous Over the Shoulder                                                                   |
-| [LOFT](../../stores/air_to_ground/bombs/employment.md#loft)                                          | Loft                                                                                              |
-| [O/S](../../stores/air_to_ground/bombs/employment.md#timed-over-the-shoulder---timed-os)             | (Timed) Over the Shoulder                                                                         |
-| [T LAD](../../stores/air_to_ground/bombs/employment.md#timed-low-angle-drogue-delivery---t-ladd)     | Timed LADD (Low Angle Drogue Delivery)                                                            |
-| [TL](../../stores/air_to_ground/bombs/employment.md#timed-level---tl)                                | Timed Level                                                                                       |
-| OFF                                                                                                  | Off (Air-to-Air)                                                                                  |
-| [DIRECT](../../stores/air_to_ground/bombs/employment.md#direct)                                      | Manual Direct                                                                                     |
-| [TGT FIND](../../stores/air_to_ground/bombs/employment.md#target-find---tgt-find)                    | Target Find (Nav mode and [Pave Spike](../../systems/weapon_systems/pave_spike/overview.md) only) |
-| [DT](../../stores/air_to_ground/bombs/employment.md#dive-toss---dt)                                  | Dive Toss                                                                                         |
-| [DL](../../stores/air_to_ground/bombs/employment.md#dive-laydown---dl)                               | Dive Laydown                                                                                      |
-| [L](../../stores/air_to_ground/bombs/employment.md#laydown---l)                                      | Laydown                                                                                           |
-| [OFF SET](../../stores/air_to_ground/bombs/employment.md#offset)                                     | Offset Bomb                                                                                       |
-| [AGM-45](../../stores/air_to_ground/missiles/shrike.md)                                              | [AGM-45 Shrike](../../stores/air_to_ground/missiles/shrike.md)                                    |
+| 名称                                                                                                 | 描述                                                                                     |
+| ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| [INST O/S](../../stores/air_to_ground/bombs/employment.md#instantaneous-over-the-shoulder---inst-os) | 瞬时越肩                                                                                 |
+| [LOFT](../../stores/air_to_ground/bombs/employment.md#loft)                                          | 上仰                                                                                     |
+| [O/S](../../stores/air_to_ground/bombs/employment.md#timed-over-the-shoulder---timed-os)             | (计时) 越肩                                                                              |
+| [T LAD](../../stores/air_to_ground/bombs/employment.md#timed-low-angle-drogue-delivery---t-ladd)     | 计时 LADD (低角度伞投)                                                                   |
+| [TL](../../stores/air_to_ground/bombs/employment.md#timed-level---tl)                                | 计时平投                                                                                 |
+| OFF                                                                                                  | 关闭 （空对空）                                                                          |
+| [DIRECT](../../stores/air_to_ground/bombs/employment.md#direct)                                      | 手动直接                                                                                 |
+| [TGT FIND](../../stores/air_to_ground/bombs/employment.md#target-find---tgt-find)                    | 目标搜寻 (仅限导航模式和[铺路钉](../../systems/weapon_systems/pave_spike/overview.md) ） |
+| [DT](../../stores/air_to_ground/bombs/employment.md#dive-toss---dt)                                  | 俯冲改出投弹                                                                             |
+| [DL](../../stores/air_to_ground/bombs/employment.md#dive-laydown---dl)                               | 俯冲低空投弹                                                                             |
+| [L](../../stores/air_to_ground/bombs/employment.md#laydown---l)                                      | 低空投弹                                                                                 |
+| [OFF SET](../../stores/air_to_ground/bombs/employment.md#offset)                                     | 偏置投弹                                                                                 |
+| [AGM-45](../../stores/air_to_ground/missiles/shrike.md)                                              | [AGM-45 “百舌鸟”](../../stores/air_to_ground/missiles/shrike.md)                         |
 
-For further information
-see [4.3 Air-to-Ground weaponry chapter.](../../stores/air_to_ground/overview.md)
+详见 [4.3 空对地武器投放章节。](../../stores/air_to_ground/overview.md)
 
-## Weapon Selector Knob
+## 武器选择旋钮
 
 ![WSK](../../img/pilot_weapon_selector_knob.jpg)
 
-Used to select the appropriate type of weapon, providing release signals to
-the AWRU (Aircraft Weapons Release Unit). ARM and TV positions inhibit air-to-air weapon firing
-unless a CAGE signal is active. ARM and TV positions do not
-affect tuning status of radar guided weapons. Positions are as follows:
+用于选择合适的武器类型，向 AWRU（机载武器投放装置）提供投放信号。ARM 和 TV 档位禁止空对空武器发射，
+除非激活 CAGE 信号。ARM 和 TV 档位不影响雷达制导武器的调谐状态。档位如下：
 
-| Name        | Description                                                                                   |
-|-------------|-----------------------------------------------------------------------------------------------|
-| AGM-12      | [AGM-12 Bullpup](../../stores/air_to_ground/missiles/bullpup.md)                              |
-| BOMBS       | Bombs (all types).                                                                            |
-| RKTS & DISP | Rockets and dispensers.                                                                       |
-| ARM         | Anti-Radiation Missile ([AGM-45 Shrike](../../stores/air_to_ground/missiles/shrike.md)).      |
-| TV          | Electro-optical weapons ([AGM-65 Maverick](../../stores/air_to_ground/missiles/maverick.md)). |
-| C           | Not used; may be utilized as an OFF position.                                                 |
-| B           | Like AIR TO AIR switch in rear cockpit, cancels CAGE requirement.                             |
-| A           | Simultaneous release mode for CBU, rockets, or dispensers; bombs do not release.              |
+| 名称        | 描述                                                                           |
+| ----------- | ------------------------------------------------------------------------------ |
+| AGM-12      | [AGM-12 “小斗犬”](../../stores/air_to_ground/missiles/bullpup.md)              |
+| BOMBS       | 航弹 (所有类型)。                                                              |
+| RKTS & DISP | 航箭和布撒器。                                                                 |
+| ARM         | 反辐射导弹 ([AGM-45 “百舌鸟”](../../stores/air_to_ground/missiles/shrike.md)). |
+| TV          | 光电武器 ([AGM-65 “幼畜”](../../stores/air_to_ground/missiles/maverick.md)).   |
+| C           | 不使用；可当作 OFF 档位使用。                                                  |
+| B           | 和 WSO 驾驶舱中的 AIR TO AIR 开关类似，取消 CAGE 需求。                        |
+| A           | CBU、航箭或布撒器同时投放模式；不投放航弹。                                    |
 
-## Aircraft Weapons Release Unit
+## 机载武器投放装置
 
 ![AWRU](../../img/pilot_awru.jpg)
 
-Provides timed interval release scheduling of single or multiple bombs or rockets and dispensed
-munitions based on the selections made between the interval knob, the QTY (quantity) knob and the
-INTRVL switch.
+根据间隔旋钮、QTY（数量）旋钮和间隔开关之间的选择，为单枚或多枚航弹或航箭以及布撒的弹药设置定时间隔
+投放制度。
 
-For further information
-see [3.11.2 Aircraft Weapons release unit (AWRU).](../../systems/weapon_systems/awru.md)
+详见 [3.11.2 AWRU（机载武器投放装置）。](../../systems/weapon_systems/awru.md)
 
-### Interval Knob
+### 间隔旋钮
 
-The interval knob provides release pulse sequences between 0.05 second and 1 second.
+间隔旋钮提供 0.05 秒至 1 秒的投放脉冲序列控制。
 
-### Interval Switch
+### 间隔开关
 
-The INTRVL switch provides the option of a 10x multiplier of the set value of the interval knob. In
-the NORM position, the interval knob value is the trigger timer.
+INTRVL 开关提供间隔旋钮设定值 x10 倍的选择。在 NORM 档位下，间隔旋钮设置的值就是触发定时时间。
 
-### Quantity Knob
+### 数量旋钮
 
-Controls how many stores are released per impulse.
+控制每次脉冲所投放的挂载数量。
 
-Selecting "1" places the AWRU into single manual bombing mode; one push of the bomb release button
-releases one bomb.
+选择 "1" 时，AWRU 进入单发手动投弹模式；按一下航弹投放按钮就能投放一枚炸弹。
 
-Selecting a value from "2" to "18" sets the AWRU into single ripple mode; in this mode, the AWRU
-will release bombs according to the programmed interval until the set number of rounds is dropped,
-or the bomb button is released. Upon release, the count is reset, and a subsequent press and hold
-will drop the programmed number of bombs.
+选择 "2 "至 "18 "之间的数值可将 AWRU 设置为单次连投模式；在该模式下，AWRU 将根据编程的投弹间隔炸弹
+，直至投下设定的数量或松开投弹按钮。松开按钮后，计数将被重置，随后的按住按钮将按设定的数量投弹。
 
-Selecting "C" sets the AWRU into single continuous mode; pressing the bomb release button drops
-rounds according to the programmed interval until the bomb button is released, or all munitions from
-the selected pylons are expended.
+选择 "C" 可将 AWRU 设置为单发连续模式；按下航弹投放按钮可根据程序设定的间隔时间投弹，直至松开航弹投
+放按钮或所选挂架上的所有航弹投放完毕。
 
-The "P" setting is for pairs manual mode. With at least two stations selected, each push of the bomb
-button will release two bombs; like single manual mode, this does not include an interval function.
+"P" 设置用于成对手动模式。在至少选择两个挂点的情况下，每按一次航弹投放按钮将投出两枚航弹；与单发手
+动模式一样，该模式不包括间隔功能。
 
-Lastly, the "S" setting, for salvo, releases bombs in accordance to the chosen interval from all
-selected stations simultaneously, until the bomb button is released. Ergo, if four stations are
-selected with a 2 second interval (0.2 on the interval dial, X10 INTRVL switch setting), four bombs
-will be released every two seconds the bomb button is held down.
+最后，"S" 设置表示 "salvo"（齐射），根据所选的间隔时间从所有选定挂点同时投弹，直到松开投弹按钮。因
+此，如果以 2 秒的间隔（间隔旋钮 0.2，X10 间隔开关设置）选择了四个挂点，则每按住投弹按钮两秒钟就会投
+放四枚航弹。
 
-## Missile Status Lights
+## 导弹状态灯
 
 ![MSL](../../img/pilot_missile_status_lights.jpg)
 
-The Missile Status Light window provides confirmation of currently installed and
-configured [4.2 air-to-air missiles chapter](../../stores/air_to_air/overview.md).
+导弹状态灯窗口可用于确认当前的装配 [4.2 空对空导弹章节](../../stores/air_to_air/overview.md).
 
-### Radar Lights
+### 雷达灯
 
-The RDR lights illuminate once AIM-7 missiles are properly tuned with the fire control system; any
-station that does not carry a Sparrow, does not correctly sync up during tuning, or is launched,
-will turn off.
+在 AIM-7 导弹正确调谐至火控系统后，RDR 灯就会亮起；任何未挂载 “麻雀”、在调谐过程中未正确同步或已发
+射的挂点都会熄灭。
 
-The left pair of lights indicates stations 4 and 3 from top to bottom, while the right pair links to
-stations 6 and 7 respectively.
+位于左边的一对指示灯从上到下分别表示 4 号挂点和 3 号挂点，右边一对指示灯分别连接 6 号挂点和 7 号挂
+点。
 
-### Heat Lights
+### 冷却灯
 
-The HEAT lights illuminate one at a time, rather than all up upon circuit configuration. The light
-of the currently selected station will illuminate beginning at the raising of the gear handle, and
-remain in that position until the weapon is either cycled using the throttle's Gun/Missile Switch
-reject option, or is launched. The HEAT light arrangement corresponds with the [launch
-sequence](../../stores/air_to_air/aim_9.md#launch-sequence) of the
-[AIM-9](../../stores/air_to_air/aim_9.md).
+HEAT 灯每次仅一枚亮起，而不是在电路配置时全部亮起。当前选定挂点的指示灯将从收起起落架手柄时开始亮起
+，并保持在该位置，直到使用油门的 “航炮/导弹开关” 断开选项循环选择武器或到导弹被发射出去。HEAT 灯排
+列和 [AIM-9](../../stores/air_to_air/aim_9.md) 的
+[发射序列](../../stores/air_to_air/aim_9.md#launch-sequence) 相对应。
 
-The left pair of lights represent station 2L and 2R respectively, while the right pair is linked to
-stations 8L and 8R.
+位于左边的一对指示灯从上到下分别表示 2L 和 2R 挂点，右边一对指示灯分别连接 8L 和 8R 挂点。
 
-## Radar Missile Power Switch
+## 雷达弹电源开关
 
 ![Radar Missile Power Switch](../../img/pilot_radar_missile_power_switch.jpg)
 
-The Radar Missile Power Switch provides power to the klystron continuous wave (CW) for emitter
-responsible guidance signals. This also powers the sparrow tuning drive which is responsible for
-tuning the sparrows to the correct continuous wave carrier frequency for guidance.
+雷达弹电源开关可控制用于发射机发射制导信号的连续波（CW）速调管的电源。开关也为“麻雀”的调谐驱动器供
+电，该驱动器负责将“麻雀”调谐到正确的连续波载波频率，以进行制导。
 
-When switched out of the OFF position, power is applied to the circuit 30 seconds after this
-selection.
+将开关移出 OFF 档位时，系统将在 30 秒后将向电路供电。
 
-The STBY position maintains warmup power to the missiles and continuous wave tuning drive once the
-missiles have been tuned. This keeps the Sparrows and Tuning Drive warm, but the sparrows not tuned.
+导弹调谐完成后，STBY 档位将保持预热导弹和连续波调谐驱动器。这样可以保持“麻雀”导弹和调谐驱动器的温度
+，但不调谐“麻雀”导弹。
 
-The CW ON position allows for constant tuning and missile state monitoring with the radar mode not
-in TV. This also causes the radar klystron to begin continuous wave emission.
+CW ON 档位允许雷达模式在除 TV 档位外时进行持续调谐和导弹状态监控。这也会使雷达速调管开始发射连续波
+。
 
-Tuning can be performed on the ground with the radar in TEST mode to preclude emissions endangering
-ground crew.
+调谐可在雷达处于 TEST 模式时在地面上执行，以避免辐射危及地勤。
 
-## Centerline Tank Aboard Light
+## 中线副油箱抛弃灯
 
 ![Centerline Tank Aboard Light](../../img/pilot_centerline_tank_aboard_light.jpg)
 
-Illuminates when a stores condition exists that precludes ejection or launch of an AIM-7 missile
-installed in one of the two forward positions. To use the sparrows on these stations the centerline
-store must be first jettisoned.
+当出现无法弹射或发射挂载在两个前部挂点中的任意一枚 AIM-7 导弹的挂载条件时亮起。要使用位于前部挂点的
+麻雀，必须先将中线挂载抛弃。
 
-## Interlock Switch
+## 互锁开关
 
 ![Interlock Switch](../../img/pilot_interlock_switch.jpg)
 
-A two position switch that determines whether the fire control system launch parameter interlocks
-can prevent an AIM-7 from being launched when the trigger is pulled.
+一个二档位开关，用于决定火控系统发射参数互锁是否能在扣动扳机时阻止发射 AIM-7。
 
-| Name | Description                                                                                       |
-|------|---------------------------------------------------------------------------------------------------|
-| IN   | Interlocks engaged; range limits, ASE limits, or radar not in visual intercept inhibits launch.   |
-| OUT  | Interlocks override; AIM-7 will fire when trigger is pulled even when no launch condition is met. |
+| 名称 | 描述                                                          |
+| ---- | ------------------------------------------------------------- |
+| IN   | 接通互锁； 距离限制、ASE 限制或雷达未处在目视截击时禁止发射。 |
+| OUT  | 超控互锁；不论是否满足发射条件，按下扳机发射 AIM-7。          |
 
-## Selective Jettison Control
+## 选择抛弃控制
 
 ![SelJet](../../img/pilot_selective_jettison_control.jpg)
 
-The Selective Jettison Control knob provides the pilot direct access to dump stores on a position by
-position basis.
+选择抛弃控制旋钮可让飞行员直接抛弃单一挂点上的挂载。
 
-The pilot selects the desired position by rotating the knob and then presses the button on its front
-to jettison the selected stores.
+飞行员通过转动旋钮到所需位置，然后按下旋钮中的按钮，即可抛弃所选的挂载。
 
-| Name     | Description                                                                                                                                                                                                     |
-|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| OFF      | Safes PUSH TO JETT button on the Selective Jettison Control Panel.                                                                                                                                              |
-| STORES   | Releases all MER/TER, single carried, LAU-88 mounted rounds, or drop tanks currently selected on the station buttons upon PUSH TO JETT.                                                                         |
-| L/R FWD  | Jettisons [AIM-7](../../stores/air_to_air/aim_7.md) from respective position on PUSH TO JETT. Inhibited if CL TK ON.                                                                                            |
-| L/R AFT  | Jettisons [AIM-7](../../stores/air_to_air/aim_7.md) from respective position on PUSH TO JETT.                                                                                                                   |
-| L/R WING | In conjunction with TV or ARM, jettisons single [AGM-65 Maverick](../../stores/air_to_ground/missiles/maverick.md) or [AGM-45 Shrike](../../stores/air_to_ground/missiles/shrike.md) from wing on PUSH TO JETT. |
+| 名称     | 描述                                                                                                                                                                           |
+| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| OFF      | 位于选择抛弃控制面板中的 PUSH TO JETT 按钮不作用。                                                                                                                             |
+| STORES   | 按下 PUSH TO JETT 后投放所有 MER/TER、单发挂载、挂载在 LAU-88 或挂点按钮选定的副油箱。                                                                                         |
+| L/R FWD  | 将对应 PUSH TO JETT 旋钮档位的[AIM-7](../../stores/air_to_air/aim_7.md) 抛弃。如果 CL TK ON 将禁止抛弃。                                                                       |
+| L/R AFT  | 将对应 PUSH TO JETT 旋钮档位的[AIM-7](../../stores/air_to_air/aim_7.md) 抛弃。                                                                                                 |
+| L/R WING | 结合 TV 或 ARM 使用，从左/右侧机翼抛弃单枚[AGM-65 “幼畜”](../../stores/air_to_ground/missiles/maverick.md) 或 [AGM-45 “百舌鸟”](../../stores/air_to_ground/missiles/shrike.md) |
 
-As example, to jettison the right and left external fuel tanks, the pilot must select _STORES_ on
-the knob, press the corresponding station select buttons _LO_, _RO_ and then push the jettison
-button.
+示例，如需抛弃左右副油箱，飞行员必须选择 _STORES_ 档位，接着按下挂点选择按钮 _LO_, _RO_ 然后按下抛
+弃按钮。
 
-## Recorder Lamp
+## 录制灯
 
 ![pilot_recorder_lamp](../../img/pilot_recorder_light.jpg)
 
-This dimmable lamp is lit to indicate operation of the [Airborne-Video-Tape-Recorder
-(AVTR)](../../cockpit/wso/left_sub_panel.md#avtr-control).
+调光指示灯亮起时表示 [机载录像机 (AVTR)](../../cockpit/wso/left_sub_panel.md#avtr-control) 正在工作
+。
 
-The AVTR system is controlled by the WSO and records the intercom sound, as well as the rear radar
-screen.
+AVTR 由 WSO 进行控制并会录制内话音频以及后座雷达屏幕。
