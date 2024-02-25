@@ -17,7 +17,7 @@ Exterior Lighting Panel_
 
 ### Position and Join-Up Lights
 
-![pos_lights](../img/pos_lights.jpg)
+![pos_lights](../img/ext_f4_pos_and_join_anti_col_lights.jpg)
 
 The wing and join-up lights are controlled by a single switch, with options for
 OFF, DIM, and BRT. These lights do not have a flash function. The tail light is
@@ -25,8 +25,9 @@ controlled by the Flasher Switch in STEADY or FLASH position.
 
 ### Anti-Collision and Fuselage Lights
 
-![fus_light_top](../img/ext_f4_fuselage_light_top.jpg)
-![fus_light_bottom](../img/ext_f4_fuselage_light_bottom.jpg)
+| Fuselage lights on top                                 | Fuselage lights on bottom                                    |
+|--------------------------------------------------------|--------------------------------------------------------------|
+| ![fus_light_top](../img/ext_f4_fuselage_light_top.jpg) | ![fus_light_bottom](../img/ext_f4_fuselage_light_bottom.jpg) |
 
 Three white anti-collision lights are found behind the rear cockpit canopy, and
 one below each of the engine intakes.
