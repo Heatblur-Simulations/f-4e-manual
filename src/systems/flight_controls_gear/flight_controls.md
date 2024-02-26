@@ -19,7 +19,7 @@ and wing mounted [speed brakes](./flight_controls.md#speed-brakes).
 Linkages between stick, control surfaces and interactions with the trim system,
 as well as the AFCS are a complex combination of forces that balance out each
 other. Bobweights connected to the stick increase the force required to move it
-depending on the current G-force by pulling the stick forward. For example, when
+depending on the current G-force by pushing the stick forward. For example, when
 pulling the stick and generating positive G's, the bobweights get heavier,
 making it harder to pull more and naturally leading to the stick wanting to move
 back to neutral.
