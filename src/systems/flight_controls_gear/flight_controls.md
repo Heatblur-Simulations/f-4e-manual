@@ -14,6 +14,39 @@ rudder pedals. Secondary controls are
 [trailing edge flaps](./flight_controls.md#slats-flap-system),
 and wing mounted [speed brakes](./flight_controls.md#speed-brakes).
 
+## Bobweights vs. Bellows
+
+Linkages between stick, control surfaces and interactions with the trim system,
+as well as the AFCS are a complex combination of forces that balance out each
+other. Bobweights connected to the stick increase the force required to move it
+depending on the current G-force by pulling the stick forward. For example, when
+pulling the stick and generating positive G's, the bobweights get heavier,
+making it harder to pull more and naturally leading to the stick wanting to move
+back to neutral.
+
+The bobweights are countered from the opposing direction by the hydraulic bellow
+system operated by ram air pressure sensed at the bellow inlet on the vertical
+fin.
+
+![Bellow Inlet](../../img/ext_f4_anti_col_light.jpg)
+
+The bellows pull the stick aft depending on the relative airspeed. Trimming the
+aircraft results in changing the length of the lever arm connecting the bellow
+system with the stick, changing the effective force they can apply.
+
+> 🟡 Blockage or freezing of the bellow inlet cause the system to malfunction.
+> In this case, trim can be rendered ineffective and sudden pitch up or down
+> movements can occur, depending on how the bellow and bobweight forces balance
+> out. To prevent another sudden change in pitch once the blockage is resolved,
+> trim should be kept neutral.
+
+The two opposing forces are carefully balanced out to keep the stick in a
+neutral position during level flight at normal airspeeds. However, due to the
+dynamic nature of the system, the aircraft constantly has to be retrimmed after
+any throttle movement. Especially under G's or with changing airspeed, the
+feel of the stick behavior changes drastically and is quite unique in comparison
+to other aircraft.
+
 ## Control Sticks
 
 ![FlightStick](../../img/pilot_stick.jpg)
@@ -140,6 +173,11 @@ This mode of operation may be used while the aircraft is
 under manual control. Stability augmentation can be
 engaged individually or in any combination for pitch, roll,
 or yaw axis.
+
+> 💡 The pilot may feel the STAB system partially fighting their input as it
+> tries to smooth it out, this can especially also result in roll fighting or
+> roll rebound effects. In such a case, the pilot may deactivate the STAB system
+> for the offending channel specifically.
 
 The **AFCS mode** of operation maintains any
 aircraft heading and/or attitude selected within the AFCS
