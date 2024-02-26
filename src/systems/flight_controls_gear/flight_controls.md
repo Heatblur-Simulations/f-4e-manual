@@ -18,34 +18,39 @@ and wing mounted [speed brakes](./flight_controls.md#speed-brakes).
 
 Linkages between stick, control surfaces and interactions with the trim system,
 as well as the AFCS are a complex combination of forces that balance out each
-other. Bobweights connected to the stick increase the force required to move it
+other.
+
+Bobweights connected to the stick increase the force required to move it
 depending on the current G-force by pushing the stick forward. For example, when
 pulling the stick and generating positive G's, the bobweights get heavier,
 making it harder to pull more and naturally leading to the stick wanting to move
 back to neutral.
 
-The bobweights are countered from the opposing direction by the hydraulic bellow
-system operated by ram air pressure sensed at the bellow inlet on the vertical
+The bobweights are countered from the opposing direction by the bellows
+system operated by ram air pressure sensed at the bellows inlet on the vertical
 fin.
 
-![Bellow Inlet](../../img/ext_f4_anti_col_light.jpg)
+![Bellows Inlet](../../img/ext_f4_anti_col_light.jpg)
 
-The bellows pull the stick aft depending on the relative airspeed. Trimming the
-aircraft results in changing the length of the lever arm connecting the bellow
-system with the stick, changing the effective force they can apply.
+The bellows pull the stick aft depending on the relative airspeed.
+For example, when going hands of stick and the aircraft unintentionally departing
+nose down, airspeed increases and the bellows system pulls the stick aft, naturally
+causing the aircraft to pitch up and stabilize in level flight again.
 
-> 🟡 Blockage or freezing of the bellow inlet cause the system to malfunction.
+Trimming the aircraft results in changing the length of the lever arm connecting
+the bellows system with the stick, changing the effective force they can apply.
+
+> 🟡 Blockage or freezing of the bellows inlet cause the system to malfunction.
 > In this case, trim can be rendered ineffective and sudden pitch up or down
-> movements can occur, depending on how the bellow and bobweight forces balance
+> movements can occur, depending on how the bellows and bobweight forces balance
 > out. To prevent another sudden change in pitch once the blockage is resolved,
 > trim should be kept neutral.
 
 The two opposing forces are carefully balanced out to keep the stick in a
 neutral position during level flight at normal airspeeds. However, due to the
 dynamic nature of the system, the aircraft constantly has to be retrimmed after
-any throttle movement. Especially under G's or with changing airspeed, the
-feel of the stick behavior changes drastically and is quite unique in comparison
-to other aircraft.
+even the smallest flight condition changes. Especially under G's or when changing
+airspeed, the feel of the stick behavior changes drastically.
 
 ## Control Sticks
 
@@ -175,7 +180,7 @@ engaged individually or in any combination for pitch, roll,
 or yaw axis.
 
 > 💡 The pilot may feel the STAB system partially fighting their input as it
-> tries to smooth it out, this can especially also result in roll fighting or
+> tries to smooth it out, this can especially result in roll fighting or
 > roll rebound effects. In such a case, the pilot may deactivate the STAB system
 > for the offending channel specifically.
 
