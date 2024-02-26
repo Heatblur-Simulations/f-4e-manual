@@ -243,9 +243,8 @@ be reset and moved out of STBY.
 
 ![wso_attitude_indicator](../../img/wso_adi.jpg)
 
-The AHRS provides attitude information to the Attitude Indicator found on the
-rear cockpit instrument panel when the Reference System Selector Switch is in
-PRIM or STBY.
+The AJB-7 provides attitude information to the Attitude Indicator found on the
+rear cockpit instrument panel regardless of the Reference System Selector Switch position.
 
 A trim knob provides the ability to adjust the attitude sphere to
 reference the aircraft correctly.
