@@ -25,7 +25,7 @@ to CAGE entry.
 
 Push button (<num>3</num>) that alternates between WEAPON, such
 as [AGM-65 Mavericks](../../stores/air_to_ground/missiles/maverick.md),
-and [targeting pod (ASQ-153)](../../systems/weapon_systems/pave_spike/overview.md) television video
+and [ASQ-153 (targeting pod)](../../systems/weapon_systems/pave_spike/overview.md) television video
 on the radar scope display when in TV mode.
 
 ## AVTR Control
@@ -33,7 +33,7 @@ on the radar scope display when in TV mode.
 Controls the Airborne Video Tape recorder system which records the intercom
 sound, as well as the rear radar screen.
 
-For further information about the Recorder system see [9.5 Recorder](../../dcs/recorders.md).
+For further information about the Recorder system see [9.6 Recorder](../../dcs/recorders.md).
 
 ### AVTR Switch
 
