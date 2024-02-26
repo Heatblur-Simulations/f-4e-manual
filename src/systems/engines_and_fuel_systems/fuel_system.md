@@ -24,9 +24,12 @@ transfer in the sequence, and does not begin until the total fuel in cells 1 and
 2 fall below 1800 lbs.
 
 Fuel transfer from the wing and external tanks is performed by bleed air
-pressurization once airborne; they will not transfer until the aircraft is off
-the ground. Internal wing tank fuel is transferred into fuselage cells 1 and 3,
+pressurization once airborne.
+Internal wing tank fuel is transferred into fuselage cells 1 and 3,
 whereas fuel from external tanks are balanced between cells 1, 3, and 5.
+
+> 💡 Internal wing and external tanks will not transfer with not pressurized.
+> This is the case with either the gear out or the AAR door open.
 
 ## Internal Wing Transfer Switch
 
