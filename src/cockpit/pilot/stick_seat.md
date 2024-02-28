@@ -24,7 +24,7 @@ footage.
 
 ### Air Refueling Release Button
 
-Unique to the front cockpit control stick is the Air Refueling Release Button
+Unique to the front cockpit control stick is the Air Refueling Release (ARR) Button
 (<num>4</num>) located on the left side of the stick. It is a dual-role control
 that performs the boom disconnect function its name implies, as well as a number
 of weapon selection functions.

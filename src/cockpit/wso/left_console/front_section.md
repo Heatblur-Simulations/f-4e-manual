@@ -95,7 +95,7 @@ below; procedural functionality is found in the applicable BIT test section
 A two position switch (<num>4</num>) that determines which set of values are
 utilized from the Meter Selector Knob for the applicable test sequences; VOLT
 selects the inner ring of Voltage referencing values, whereas SIGNALS uses the
-outer rim of SIGNAL reference values.
+outer ring of SIGNAL reference values.
 
 ### Vc Switch
 

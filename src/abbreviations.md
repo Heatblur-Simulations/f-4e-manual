@@ -4,6 +4,7 @@
 
 | Abbreviation | Definition                                      |
 |--------------|-------------------------------------------------|
+| AAR          | Air-to-Air-Refueling                            |
 | AC           | Aerodynamic center                              |
 | ACM          | Air Combat Maneuvering                          |
 | ac           | Alternating current                             |
@@ -22,6 +23,7 @@
 | AR           | Air Refueling                                   |
 | ARI          | Aileron Rudder Interconnect                     |
 | ARC          | Airborne, Radio, Control                        |
+| ARR          | Air Refueling Release (Button)                  |
 | ASA          | Airborne, Special Type, Auxiliary Assembly      |
 | ASE          | Allowable Steering Error                        |
 | ASN          | Airborne, Special Type, Navigational Aid        |
