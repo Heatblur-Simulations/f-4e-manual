@@ -8,9 +8,9 @@
 |      | a. Sight mode         | A/G            |
 |      | b. Reticle depression | 20 MILS        |
 | 2    | WEAPON SELECT KNOB    | TV             |
-|      | (3-MINUTE WARM UP)    |                |
 | 3    | DELIVERY MODE KNOB    | DIRECT         |
 | 4    | STATION SELECT BUTTON | SELECT STATION |
+|      | (3-MINUTE WARM UP)    |                |
 | 5    | (WSO) DSCG SCOPE MODE | TV OR STBY     |
 | 6    | (P) WEAPON VIDEO      | ON             |
 

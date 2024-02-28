@@ -170,7 +170,7 @@ Three position switch (<num>3</num>) which permits selection of NORMAL (standard
 EMERGENCY pressure (100% oxygen with continuous positive pressure) or
 TEST MASK (positive pressure to test the face mask for leaks).
 
-The lever should remain in the center (NORMAL) position at all times,
+The Emergency Lever should remain in the center (NORMAL) position at all times,
 unless an unscheduled pressure increase is required.
 
 ### Flow Indicator

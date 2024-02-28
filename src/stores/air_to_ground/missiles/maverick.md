@@ -59,14 +59,14 @@ signal, as follows:
 
 ### Pilot
 
-With the pipper over the target area, pressing and holding the AAR button
+With the pipper over the target area, pressing and holding the ARR button
 enables track slewing with the Forward Hand Control stick inboard from the
 throttle. Once the seeker crosshair is over the intended target, releasing the
-AAR button performs a lock-on of the missile to the contrast area under the
+ARR button performs a lock-on of the missile to the contrast area under the
 crosshair. If the missile seeker fails to achieve lock on the correct target,
 the lock can be broken by squeezing the trigger again, bringing the missile
 seeker back to its boresight position, and then reattempting the lock with the
-AAR button. Should the target not appear to have enough contrast versus the
+ARR button. Should the target not appear to have enough contrast versus the
 surrounding background, the contrast can be swapped from black hot to white-hot,
 or vice versa, using the Target Contrast Switch on the inboard Engine Control Panel. Leaving
 the switch in the Auto position allows the seeker to attempt to determine the
@@ -94,7 +94,7 @@ initiate video upon pilot confirmation of pipper location using the trigger of
 his own flight stick in the rear cockpit. From this point, the WSO uses the
 antenna hand control stick to manage the seeker head placement, lock, and in
 the case of AGM-65D employment FoV controls. Rather than pressing and holding
-the AAR button to activate slew, the WSO selects the half-action trigger
+the ARR button to activate slew, the WSO selects the half-action trigger
 position, and then slews the seeker using the cursor control.
 
 Once the applicable target is under the crosshair, lock is achieved using the

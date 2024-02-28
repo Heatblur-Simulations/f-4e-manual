@@ -31,7 +31,7 @@ the target under current launch conditions.
 
 Centering the aim dot in the ASE aligns the target to the RBL, thus allowing for
 rapid acquisition by the seeker of the selected AIM-9. Once the missile's tone
-changes to signify lock, the pilot can then hold down the AAR button on the grip to
+changes to signify lock, the pilot can then hold down the ARR button on the grip to
 allow for Sidewinder self-track (seeker uncage); this function allows the seeker
 to maintain acquisition of the target (noted by the shifted audio tone), while
 permitting maneuver of the aircraft to a better aspect angle or range solution
