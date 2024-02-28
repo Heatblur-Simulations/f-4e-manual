@@ -28,8 +28,9 @@ position, the lock is not broken.
 
 Cage mode can be exited from either cockpit, by
 placing [Weapon Select knob](../../cockpit/pilot/weapon_management.md#weapon-selector-knob)
-in the pilot cockpit to the B position momentarily, or by the WSO pressing the Air
-to Air button on the rear cockpit panel. If the pilot leaves
+in the pilot cockpit to the B position momentarily, or by the WSO pressing [the Air
+to Air button](../../cockpit/wso/left_sub_panel.md#air-to-air-light) on the rear cockpit panel. If
+the pilot leaves
 the [Weapon Select knob](../../cockpit/pilot/weapon_management.md#weapon-selector-knob)
 in B, it does not preclude a later entry into Cage mode.
 
@@ -45,7 +46,7 @@ the [Nose Gear Steering button](../../systems/flight_controls_gear/gear_ground_h
 In CAA, the radar enters a
 vertical-oriented scan pattern 78 degrees in height by 15 degrees in width. Actual
 radar lock capability within this scan pattern is from +45 degrees above the
-horizon line to -9 degrees below the horizon line due to APQ software
+horizon line(fuselage line) to -9 degrees below the horizon line(fuselage line) due to APQ software
 limitation. In the event that the radar finds a suitable target within the scan
 volume, the target will be locked. Should the flight crew find the locked target
 not be the one intended,
