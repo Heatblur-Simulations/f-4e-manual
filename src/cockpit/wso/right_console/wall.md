@@ -6,7 +6,7 @@
 
 ![Canopy Manual Unlock Handle](../../../img/wso_manual_unlock_handle.jpg)
 
-手动解锁手柄用于在 [气动系统](../../systems/pneumatics.md) 失效时使用。
+手动解锁手柄用于在 [气动系统](../../../systems/pneumatics.md) 失效时使用。
 
 向后拉动手柄解锁座舱盖，从而允许手动推开座舱盖。在手动解锁座舱盖之前，必须将正常控制杆置于 OPEN 档
 位。
