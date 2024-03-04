@@ -1,138 +1,126 @@
-# Front Section
+# 前部
 
-## Intercom Control Panel
+## 内话控制面板
 
 ![wso_intercom_control](../../../img/wso_intercom_panel.jpg)
 
-### Volume Control Knob
+### 音量控制旋钮
 
-Turned clockwise to increase audio between cockpits, and counterclockwise to
-decrease audio between cockpits on the [intercom](../../../systems/nav_com/intercom.md).
+顺时针转动可增加驾驶舱之间内话的音量，逆时针转动则降低驾驶舱之间
+[内话](../../../systems/nav_com/intercom.md) 中的音量。
 
-### Function Selector Switch
+### 功能选择开关
 
-| Name           | Description                                                                                                       |
-| -------------- | ----------------------------------------------------------------------------------------------------------------- |
-| COLD MIC       | Mic switch on throttle must be held to activate intercom.                                                         |
-| HOT MIC        | Voice automatically transmitted on intercom.                                                                      |
-| RADIO OVERRIDE | Voice automatically transmitted on intercom. All volumes but Shrike tone and Stall Warning are reduced in volume. |
+| 名称           | 描述                                                                       |
+| -------------- | -------------------------------------------------------------------------- |
+| COLD MIC       | 需按住油门握把上得传声开关来激活内话。                                     |
+| HOT MIC        | 自动在内话传输话音。                                                       |
+| RADIO OVERRIDE | 自动在内话系统中传输话音。除“百舌鸟”单音和失速警告音外的所有音量都将降低。 |
 
-### Amplifier Select Knob
+### 放大器选择旋钮
 
-Determines current amplifier for [intercom](../../../systems/nav_com/intercom.md) function.
+决定 [内话](../../../systems/nav_com/intercom.md) 系统所使用的放大器。
 
-| Name | Description                                                                                                     |
-|------|-----------------------------------------------------------------------------------------------------------------|
-| B/U  | Backup headset amplifier provides audio.                                                                        |
-| NORM | Primary headset amplifier provides audio.                                                                       |
-| EMER | Uses the amplifier from opposite cockpit; all and only audio including radio received to that cockpit is heard. |
+| 名称 | 描述                                                                           |
+| ---- | ------------------------------------------------------------------------------ |
+| B/U  | 备用头戴放大器来提供音频。                                                     |
+| NORM | 主头戴放大器来提供音频。                                                       |
+| EMER | 使用另一驾驶舱中的放大器；能够且只能听到另一驾驶舱收到的所有音频，包括无线电。 |
 
-## Control Monitor Panel
+## 控制监控面板
 
 ![wso_control_monitor_panel](../../../img/wso_control_monitor_panel.jpg)
 
-Tests and monitors the [APQ-120 Radar.](../../../systems/radar/overview.md)
+测试并监控 [APQ-120 雷达。](../../../systems/radar/overview.md)
 
-### Cords Light
+### Cords 灯
 
-Not used in the F-4E.
+F-4E 中不使用。
 
-### Temp Light
+### 温度灯
 
-Illuminates amber to indicate an over-temperature situation in the nose radar
-avionics bay. Under normal circumstances, an overheat condition requires setting
-the radar power to OFF. If circumstances require continued use, the light should
-be monitored regularly.
+亮起琥珀色指示灯，表示机头雷达航电舱超温。在正常情况下，出现超温要求将雷达电源设置到 OFF。如果形势
+所迫需要继续使用雷达，则应定期监控指示灯。
 
-### Meter Selector Knob
+### 仪表选择旋钮
 
-A sixteen position rotary knob used in conjunction with the Test Knob, with each
-position having two values- an outer SIGNAL value, and an inner VOLT value.
-Selection of which value determined by the Meter Switch.
+16 档位旋钮，结合测试旋钮一起使用，每个档位有两个值——外圈的 SIGNAL 值和内圈的 VOLT 值。选择哪个值由
+仪表开关决定。
 
-### Monitor Meter
+### 监控仪表
 
 ![Monitor Meter](../../../img/wso_control_monitor_meter.jpg)
 
-Provides voltage, current, and signal indications based on current Meter Switch
-and Meter Selector Knob settings.
+根据当前仪表开关和仪表选择旋钮的设置提供电压、电流和信号指示。
 
-### Test Knob
+### 测试旋钮
 
 ![Test Knob](../../../img/wso_control_monitor_test_switch.jpg)
 
-An eleven position rotary knob used with the radar power knob in TEST to perform
-system BIT checks of the [APQ-120 Radar](../../../systems/radar/overview.md).
-Basic test function noted below;
-procedural functionality is found in the applicable BIT test section
-([Air-To-Air Bits](../../../procedures/bit_tests/radar_air_to_air.md),
-[Air-To-Ground Bits](../../../procedures/bit_tests/radar_air_to_ground.md)).
+11 档位旋钮，雷达电源旋钮处在 TEST（测试）时一并使用，来执行
+[APQ-120 雷达](../../../systems/radar/overview.md). 系统 BIT 检查。基础测试功能见下文；程序性功能检
+查请查看适用的 BIT 测试部分（[空对空 BIT](../../../procedures/bit_tests/radar_air_to_air.md)
+、[空对地 BIT](../../../procedures/bit_tests/radar_air_to_ground.md) ）。
 
-| Name    | Description                                                                                 |
-|---------|---------------------------------------------------------------------------------------------|
-| 0       | Displays standard B scope presentation to confirm all elements functioning correctly.       |
-| 1       | Confirms break lock timing delay, AIM-7 tuning status, and Range lamp status function.      |
-| 2       | Confirms proper AIM-7 head position aim and SHORT pulse function against two targets.       |
-| 3       | Confirms angle tracking performance against a locked target that rotates inside ASE circle. |
-| 4       | Used while lock achieved in another mode, confirms HOJ and AOJ functionality.               |
-| 5       | Checks range rate, lead angle, CAA, and PLMS function.                                      |
-| 6       | Confirms proper AIM-7 attack display and interlock function.                                |
-| 7       | not available                                                                               |
-| 8       | not available                                                                               |
-| 9       | not available                                                                               |
-| 10      | not available                                                                               |
-| DOT BAL | Confirms AIM dot centering calibration. Also used for TIRS data transfer.                   |
+| 名称    | 描述                                                          |
+| ------- | ------------------------------------------------------------- |
+| 0       | 显示标准 B 显样式来确认所有元素正常工作。                     |
+| 1       | 确认脱锁计时延时、AIM-7 调谐状态和距离灯状态的功能正常。      |
+| 2       | 确认 AIM-7 导引头瞄准方向正确以及双目标锁定的短脉冲功能正常。 |
+| 3       | 确认对在 ASE 环内转动的锁定目标的角跟踪性能。                 |
+| 4       | 在其它模式下取得锁定后使用，可确认 HOJ 和 AOJ 的功能正常。    |
+| 5       | 检查接近率、提前角、CAA 和 PLMS 功能正常。                    |
+| 6       | 确认 AIM-7 攻击显示正确以及互锁功能正常。                     |
+| 7       | 无功能                                                        |
+| 8       | 无功能                                                        |
+| 9       | 无功能                                                        |
+| 10      | 无功能                                                        |
+| DOT BAL | 确认 AIM 点校正至居中。还用于 TIRS 数据传输。                 |
 
-### Meter Switch
+### 仪表开关
 
 ![Meter Switch](../../../img/wso_control_meter_signals_switch.jpg)
 
-Determines which set of values are utilized from the Meter Selector Knob for the
-applicable test sequences; VOLT selects the inner ring of Voltage referencing
-values, whereas SIGNALS uses the outer rim of SIGNAL reference values.
+确认将在适用的测试序列中使用的仪表选择旋钮选择的值；VOLT 选择内圈电压参考值，而 SIGNALS 则使用外圈
+信号参考值。
 
-### Vc Switch
+### Vc 开关
 
 ![Vc Switch](../../../img/wso_control_meter_vc_switch.jpg)
 
-Changes the scale factor of the range rate presentation. DSCG aircraft must
-leave the switch in 2700, else the Vc presentation will be in error.
+更改接近率显示的标度系数。DSCG 飞机必须将开关置于 2700，否则 Vc 显示将出错。
 
-### Stab Switch
+### Stab 开关
 
-Changes the antenna stabilization mode.
+更改天线相对稳定模式。
 
-| Name      | Description                                                                              |
-|-----------|------------------------------------------------------------------------------------------|
-| NOR       | Normal operation; inputs of pitch and roll are fed to the antenna stabilization circuit. |
-| STAB OUT  | Horizon line removed from scopes and stabilization drift servos are zeroed.              |
-| DRIFT OUT | INS drift compensation is removed; antenna uses direct pitch and roll input tracking.    |
+| 名称      | 描述                                                    |
+| --------- | ------------------------------------------------------- |
+| NOR       | 正常工作；俯仰和横滚输出都传输至天线稳定回路。          |
+| STAB OUT  | 显示器中移除地平线并归零稳定漂移伺服装置。              |
+| DRIFT OUT | 移除 INS 漂移补偿；天线使用直接俯仰和横滚输入跟踪目标。 |
 
-## Throttles
+## 油门握把
 
 ![wso_throttles](../../../img/wso_throttles.jpg)
 
-The throttle arrangement for each engine in the F-4E Phantom II is located on the front and rear
-cockpit left console. Mechanical linkage transmits throttle movement to the engine fuel control. The
-rear cockpit throttle does not enable the afterburner. Located on the rear throttle is a speed brake
-switch and a mic switch.
+F-4E “鬼怪” II 每台发动机的油门握把布置在前后驾驶舱的左侧控制台上。握把通过机械传动机构将动作传递到
+发动机燃油控制。后座无法使用加力推力。位于后座油门握把上的是一个减速板开关和一个传声开关。
 
-### Speed Brake
+### 减速板开关
 
 ![wso_speed_brake](../../../img/wso_throttles_speed_brake.jpg)
 
-The Speed Brakes are actuated by a three position switch found on the inboard
-throttle in both cockpits. Either switch will actuate the brakes. The positions
-are Out, Stop, and In; the Out position is momentary and reverts back to Stop when released.
+机组可以在两个驾驶舱中的内侧油门握把上找到三档位开关来控制减速板。两个开关都可控制减速板。减速板开
+关的档位为展开、停止和收起；展开档位为自复位并在松开时复位至停止档位。
 
-For further information see
-the [3.1.2 Flight Control Surfaces chapter.](../../../systems/flight_controls_gear/flight_controls.md#speed-brakes)
+详见
+[3.1.2 飞行操纵面章节。](../../../systems/flight_controls_gear/flight_controls.md#speed-brakes)
 
-### Mic Switch
+### 传声开关
 
 ![wso_mic_switch](../../../img/wso_throttles_mic_switch.jpg)
 
-The microphone switch for the Intercom System is the aft position on the inboard
-throttle grip in both cockpits. When using the intercom, all audio sans the
-pull-up tone, stall warning, and ECM are reduced (same as RADIO OVERRIDE). In the fwd position the
-switch will enable transmitting over radio.
+机组可通过向后拨动两个驾驶舱中内侧油门握把上的传声开关来实现在内话系统传声。使用内话时，除拉起单音
+、失速警告和 ECM 外，所有音频音量都会降低（与 RADIO OVERRIDE 相同）。在向前拨动开关将启用无线电传输
+。

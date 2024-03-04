@@ -1,214 +1,199 @@
-# Center Section
+# 中部
 
-The center area of the left console features the radar control
-and countermeasure panel.
+左侧控制台的中部区域包括雷达控制和对抗措施面板。
 
-## Radar Set Control Panel
+## 雷达套件控制面板
 
-See [Radar Set Control Panel](../../../systems/radar/interface.md#radar-set-control-panel)
-section for more
-detailed description of all the functions below.
+下文中介绍的功能，详情请阅读
+[雷达套件控制面板](../../../systems/radar/interface.md#radar-set-control-panel) 部分。
 
 ![wso_radar_set_control_panel](../../../img/wso_radar_panel.jpg)
 
-### Power Knob
+### 电源旋钮
 
 ![Power Knob](../../../img/wso_radar_power_switch.jpg)
 
-Five position rotary switch controlling power state of
-the [APQ-120 Radar.](../../../systems/radar/overview.md)
+五档旋钮，控制 [APQ-120 雷达](../../../systems/radar/overview.md) 电源的状态
 
-| Name | Description                                                                                                                        |
-| ---- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| OFF  | Powers radar off.                                                                                                                  |
-| TEST | Applies voltage to control monitor power and provides [BIT-test](../../../procedures/bit_tests/overview.md) functions 1 through 6. |
-| STBY | Power applied to radar, remains in a non-transmitting standby state.                                                               |
-| OPR  | System is fully operational.                                                                                                       |
-| EMER | Overrides the time delay, pressure, and temperature restrictions to allow radar operation.                                         |
+| 名称 | 描述                                                                                        |
+| ---- | ------------------------------------------------------------------------------------------- |
+| OFF  | 雷达断电。                                                                                  |
+| TEST | 向控制监控器供电，并提供[BIT 测试](../../../procedures/bit_tests/overview.md) 功能 1 到 6。 |
+| STBY | 雷达通电，保持在无发射待机状态。                                                            |
+| OPR  | 系统完整工作。                                                                              |
+| EMER | 超控延时、压力和温度限制，允许雷达工作。                                                    |
 
-See the [Radar Power Section](../../../systems/radar/interface.md#power) for more details.
+详见 [雷达电源部分](../../../systems/radar/interface.md#power) 。
 
-### Polar Switch
+### 极化开关
 
 ![Polar Switch](../../../img/wso_radar_polar_switch.jpg)
 
-Controls polarization of transmitted radio frequency energy. LIN should be used in normal
-conditions, CIR 1 and CIR 2 can be used to reduce precipitation clutter at the expense of increased
-ground clutter.
+控制发射电磁波能量的极化方式。正常情况下应使用 LIN，CIR 1 和 CIR 2 可用来减少降水杂波，但会增加地面
+杂波。
 
-[See Radar Polarization Knob Section for more details.](../../../systems/radar/interface.md#polarization-control)
+[详见雷达极化旋钮部分。](../../../systems/radar/interface.md#polarization-control)
 
-### Range Knob
+### 距离旋钮
 
 ![Range Knob](../../../img/wso_radar_range_switch.jpg)
 
-Used to select range sweep of 5, 10, 25, 50, 100, or 200 mile ranges on both
-radar displays. Ranges up to 50 are displayed on the range lamp [range lamp](../../pilot/dscg_controls.md#range-lights).
+用于在 5、10、25、50、100 或 200 海里之间选择前后座雷达显示器中的显示距离。
+[距离灯](../../pilot/dscg_controls.md#range-lights) 最大可显示 50 海里。
 
-See the [Radar Range Knob Section](../../../systems/radar/interface.md#radar-set-control-panel)
-for more details.
+详见 [雷达距离旋钮部分](../../../systems/radar/interface.md#radar-set-control-panel)。
 
-### Maneuver Switch
+### 机动开关
 
 ![Maneuver Switch](../../../img/wso_radar_maneuver_switch.jpg)
 
-Controls radar tracking acceleration response. LOW sets a limit on antenna acceleration and HI
-removes acceleration limit.
+控制雷达跟踪加速度响应。LOW 设置天线加速度限制，HI 取消加速度限制。
 
-[See Radar Maneuver Knob Section](../../../systems/radar/interface.md#maneuver-switch)
+[见雷达机动旋钮部分](../../../systems/radar/interface.md#maneuver-switch)
 
-### Bar Scan Switch
+### 扫描线开关
 
 ![Bar Scan Switch](../../../img/wso_radar_bar_scan_switch.jpg)
 
-Selects elevation scan pattern between 1 and 2 bars. Only RDR-B modes can make use of 2 bars.
+在 1 和 2 线之间选择仰角扫描线数。仅 RDR-B 模式可使用 2 线。
 
-[See Radar Scan Switch Section for more details](../../../systems/radar/interface.md#scan-switch)
+[详见雷达扫描线开关部分](../../../systems/radar/interface.md#scan-switch)
 
-### Aspect Knob
+### 态势旋钮
 
 ![Aspect Knob](../../../img/wso_radar_aspect_knob.jpg)
 
-Used to program the [AIM-7](../../../stores/air_to_air/aim_7.md) with a predetermined simulated
-Doppler instead of actual received Doppler, so that the WSO can provide an estimated correct
-speed-gate for the sparrow when not tracking.
+用于对 [AIM-7](../../../stores/air_to_air/aim_7.md) 进行编程，使用预定的模拟多普勒而不是实际接收到
+的多普勒，以便 WSO 在未跟踪面板时为“麻雀”提供预估的正确速度门。
 
-[See Aspect Knob Section for more details](../../../systems/radar/interface.md#aspect)
+[详见态势旋钮部分](../../../systems/radar/interface.md#aspect)
 
-### Receiver Gain Knobs (RCVR GAIN)
+### 接收机增益旋钮 (RCVR GAIN)
 
 ![Receiver Gain Knob](../../../img/wso_radar_receiver_gain.jpg)
 
-Coarse (outer ring) and Fine (inner knob) gain control for the radar receiver. Larger values result
-in more noise and can cause display to become saturated. Lower values may result in lower detection ranges.
+用来控制雷达接收机的粗（外圈）和精（内旋钮）增益。数值越大，噪声越大，可能导致显示器饱和。数值越小
+，探测距离越小。
 
-[See Receiver Gain Knob Section for more details](../../../systems/radar/interface.md#receiver-gain-rcvr-gain)
+[详见接收机增益旋钮部分](../../../systems/radar/interface.md#receiver-gain-rcvr-gain)
 
-### Track Switch
+### 跟踪开关
 
 ![Track Switch](../../../img/wso_radar_track_switch.jpg)
 
-Selects range tracking type for use in heavy clutter environments, or automatic
-tracking under normal circumstances.
+选择在强杂波环境中所使用的距离跟踪类型，或在正常情况下使用自动跟踪。
 
-[See Radar Track Switch Section for more details](../../../systems/radar/interface.md#scan-switch)
+[详见雷达跟踪开关部分](../../../systems/radar/interface.md#scan-switch)
 
-### Display Knob
+### 显示旋钮
 
 ![Display Knob](../../../img/wso_radar_display_knob.jpg)
 
-Sets the display type of the radar scope to access specific mode functionality
-in conjunction with the Mode knob. The types are as follows:
+设置雷达显示器的显示类型来配合模式旋钮访问特定的模式功能。类型如下：
 
-| Name     | Description                                                                                                   |
-| -------- | ------------------------------------------------------------------------------------------------------------- |
-| B WIDE   | Selects 120 degree B-sweep for search. Half-action places the sweep under manual Antenna Hand Control stick.  |
-| B NAR    | Selects a 45 degree B-sweep sector for search, which is manually shifted with the Antenna Hand Control stick. |
-| PPI WIDE | Selects a 120 degree wide plan position indicator sweep for MAP mode.                                         |
-| PPI NAR  | Selects a 45 degree plan position indicator sweep that can be shifted with the Antenna Hand Control stick.    |
-| VI       | Provides pure pursuit guidance to a locked target for Visual Intercept; a break X will appear at 1000' range. |
+| 名称     | 描述                                                                      |
+| -------- | ------------------------------------------------------------------------- |
+| B WIDE   | 使用 120 度栅状扫描进行搜索。按下扳机第一段将扫描置于手动天线手控杆下方。 |
+| B NAR    | 使用 45 度栅状扫描角度进行搜索，扫描角度跟随天线手控杆移动。              |
+| PPI WIDE | 选择一个用于 MAP 模式的 120 度宽平面位置显示器扫描。                      |
+| PPI NAR  | 选择一个 45 度宽平面位置显示器扫描——可用天线手控杆来移动扫描角度。        |
+| VI       | 为目视拦截锁定目标提供纯追踪引导；在距离 1000 英尺内会出现一个脱离 X。    |
 
-### Manual Vc Knob
+### 手动 Vc 旋钮
 
 ![Manual Vc Knob](../../../img/wso_radar_man_vc.jpg)
 
-A 12 position switch used to apply estimated range rate of closure (clockwise,
-0-9), or estimated opening of range (counterclockwise, 0-2) against a target in
-manual track mode.
+一个 12 档位开关，用于在手动跟踪模式下对目标加入预估接近速度（顺时针，0-9）或预估飞离速度（逆时针
+，0-2）。
 
-The numbers are multiplied by 100 knots while closure means closing in to the F-4
-and opening means the target is flying away from the F-4.
+数字乘以 100 海里/小时，接近表示向 F-4 靠近，离开表示目标飞离 F-4。
 
-[See MAN Vc Knob Section for more details](../../../systems/radar/interface.md#manual-vc-man-vc)
+[详见见 MAN Vc 旋钮部分](../../../systems/radar/interface.md#manual-vc-man-vc)
 
-### Pulse Switch
+### 脉冲开关
 
 ![Pulse Switch](../../../img/wso_radar_pulse_switch.jpg)
 
-Three position switch controlling radar pulse width and pulse repetition
-frequency (PRF).
+三档位开关控制雷达脉宽和脉冲重复频率（PRF）。
 
-| Name  | Description                                                                                          |
-|-------|------------------------------------------------------------------------------------------------------|
-| AUTO  | Uses Power Level Mode Switching to determine best Pulse selection. Selects short pulse is used for acquire and track.  |
-| LONG  | Wide pulse width and low PRF, allowing maximum range detection; no track automatic pulse adjustment. |
-| SHORT | Narrow pulse width with high PRF for increased close range performance.                              |
+| 名称  | 描述                                                               |
+| ----- | ------------------------------------------------------------------ |
+| AUTO  | 使用功率等级模式切换来确定最佳脉冲选择。选择短脉冲用于截获和跟踪。 |
+| LONG  | 宽脉宽和低 PRF，可最大化探测距离；无跟踪自动脉冲调整。             |
+| SHORT | 窄脉宽和高 PRF 可提高近距离性能。                                  |
 
-[See Pulse Switch Section for more details](../../../systems/radar/interface.md#pulse-switch)
+[详见脉冲开关部分](../../../systems/radar/interface.md#pulse-switch)
 
-### Mode Knob
+### 模式旋钮
 
 ![Mode Knob](../../../img/wso_radar_mode_knob.jpg)
 
-A six position switch that determines the current base mode of operation of the
-radar.
+六档位开关，用于确定雷达当前的基础工作模式。
 
-| Name    | Description                                                                                                                                                                                                                                                                  |
-|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| BST     | Air-to-Air boresight with antenna aligned radar boresight line and optical sight with sight in A/A. |
-| RDR     | Search Mode with Feedhorn Nutation (wider beam-width) mode.                                                                                                                                                                                                                                                      |
-| MAP     | Search Mode without Feedhorn Nutation (narrower beam-width)                                                                                                                                                                                                                                                   |
-| AIR-GRD | [Air-to-Ground boresight](../../../systems/radar/interface.md#air-grd-air-to-ground-position), Tracks range of illuminated ground, radar is boresighted to the radar boresight line with drift compensation.                                                                                                                  |
-| BEACON  | Radar receives and displays signals from ground or airborne beacon transponders for navigation.                                                                                                                                                                              |
-| TV      | Not used with DSCG. De-tunes [AIM-7](../../../stores/air_to_air/aim_7.md) if selected, preventing sparrows from guiding.                                                                                                                                                                               |
+| 名称    | 描述                                                                                                                                       |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| BST     | 空对空瞄准轴，天线对准雷达轴线以及光学瞄准具处在 A/A 模式。                                                                                |
+| RDR     | 使用带馈源章动（更宽的波束宽）模式的搜索模式。                                                                                             |
+| MAP     | 无馈源章动（更窄的波束宽）的搜索模式。                                                                                                     |
+| AIR-GRD | [空对地瞄准轴](../../../systems/radar/interface.md#air-grd-air-to-ground-position)，跟踪照射地面的距离，雷达对准雷达轴线，并进行漂移补偿。 |
+| BEACON  | 雷达接收并显示导航使用的地面或机载信标应答机的信号。                                                                                       |
+| TV      | 在 DSCG 中不使用这一档位。如果选择档位，将去调谐[AIM-7](../../../stores/air_to_air/aim_7.md) 防止麻雀进行制导。                            |
 
-[See Mode Knob Section for more details](../../../systems/radar/interface.md#radar-modes-mode)
+[详见模式旋钮部分](../../../systems/radar/interface.md#radar-modes-mode)
 
-### Skin Track Light
+### 蒙皮跟踪灯
 
-Lamp that illuminates when a track is attained with range data. In the
-event of [HOJ](../../../systems/radar/operation.md#home-on-jam) or a range memory situation, the light
-will go off. Accompanied on the rear DSCG radar scope with the T symbol that illuminates under the
-same circumstances.
+当目标锁定并取得距离数据时亮起。如果进入 [HOJ](../../../systems/radar/operation.md#home-on-jam) 或
+距离记忆时，指示灯将熄灭。后座 DSCG 雷达显示器上的 T 符号也会跟随亮起。
 
-## AN/ALE-40 Cockpit Control Unit (CCU)
+## AN/ALE-40 驾驶舱控制装置 (CCU)
 
 ![wso_an_ale_40](../../../img/wso_an_ale_40.jpg)
 
-The CCU is a primary control panel of the Countermeasures System.
+对抗措施系统的主要在 CCU 中进行控制。
 
-It is used to select different modes of operation and gives the WSO the ability to dispense countermeasures.
+CCU 用来选择不同的工作模式并给予 WSO 布撒对抗措施的能力。
 
-For further information see
-[CCU](../../../systems/defensive_systems/countermeasures.md#cockpit-control-unit-ccu---wso-cockpit).
+更多信息请查看
+[CCU](../../../systems/defensive_systems/countermeasures.md#cockpit-control-unit-ccu---wso-cockpit)。
 
-### Dispense Button
+### 布撒按钮
 
-Initiates chaff/flare dispensing as selected by Cockpit control unit
-and [AN/ALE-40 programmer](../../../cockpit/pilot/left_console/aft_section.md#anale-40-programmer)
+根据驾驶舱控制装置和
+[AN/ALE-40 编程器](../../../cockpit/pilot/left_console/aft_section.md#anale-40-programmer) 的选择，
+启动箔条/红外干扰弹弹射。
 
-### Ripple Switch
+### 连投开关
 
-Guarded by a cover, when positioned ON, dispenses flares at rate of
-ten per second until dispensers are empty, so long as flaps and speed brakes are retracted.
+带保护盖开关，当拨至 ON 档位时，以每秒十枚的速度进行弹射直到耗尽，开关要求襟翼和减速板收起才可使用
+。
 
-> 💡 After around 10 seconds, all countermeasure have been dispensed.
+> 💡 在大约 10 秒后，所有对抗措施将会耗尽。
 
-### Counters
+### 计数器
 
-Indicate quantity of chaff and flare cartridges remaining, respectively.
+分别显示剩余的箔条和红外干扰弹数量。
 
-They are automatically set by the ground crew when rearming.
+地勤填装时将系统自动进行设置。
 
-### Chaff Mode Knob
+### 箔条模式旋钮
 
-| Name | Description                                                                 |
-|------|-----------------------------------------------------------------------------|
-| OFF  | Chaff system inactive.                                                      |
-| SGL  | A single burst commanded when dispense button pressed.                      |
-| MULT | A salvo commanded according to program when either dispense button pressed. |
+| 名称 | 描述                                           |
+| ---- | ---------------------------------------------- |
+| OFF  | 停用箔条系统。                                 |
+| SGL  | 按下布撒按钮时指令弹射单发箔条。               |
+| MULT | 按下任意一个布撒按钮后将根据程序指令一次齐投。 |
 
-### Flare Mode Knob
+### 红外干扰弹模式旋钮
 
-| Name | Description                                                                 |
-|------|-----------------------------------------------------------------------------|
-| OFF  | Flare system inactive.                                                      |
-| SGL  | A single burst commanded when dispense button pressed.                      |
-| MULT | A salvo commanded according to program when either dispense button pressed. |
+| 名称 | 描述                                           |
+| ---- | ---------------------------------------------- |
+| OFF  | 停用红外干扰弹系统。                           |
+| SGL  | 按下布撒按钮时指令弹射单发箔条。               |
+| MULT | 按下任意一个布撒按钮后将根据程序指令一次齐投。 |
 
-### Indicator Lights
+### 指示灯
 
-Illuminates whenever a mode is selected on the respective countermeasure mode
-knob.
+对应的对抗措施模式旋钮选择了一个模式时就将亮起。
 
-Can be rotated to dim and pressed to test.
+可转动来调光并按下测试。

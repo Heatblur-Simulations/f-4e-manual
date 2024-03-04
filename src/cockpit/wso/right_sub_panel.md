@@ -1,110 +1,94 @@
-# Right Sub-Panel
+# 右侧子面板
 
-The right sub panel contains controls for jamming, encryption and
-various settings for manual bomb delivery.
+右侧子面板包含干扰、加密和手动投弹的各种设置控制开关/按钮。
 
-## Eject Light/Switch
+## 弹射灯/开关
 
 ![wso_eject_light](../../img/wso_eject_light.jpg)
 
-Pressed by the WSO in an emergency condition requiring ejection from the
-aircraft, which illuminates the [EJECT lamp](../../systems/emergency.md#eject-light) in the front
-cockpit warning the Pilot to prepare for immediate ejection.
+在需要弹射出飞机的紧急情况下，由 WSO 按下，飞行员驾驶舱内的
+[EJECT 灯](../../systems/emergency.md#eject-light) 亮起，警告飞行员做好准备立即弹射。
 
-Also lights up when the Pilot presses their respective Eject Light to warn the
-WSO for ejection.
+飞行员按下对应的弹射灯时也会亮起，以警告 WSO 进行弹射。
 
-## KY-28 Controls
+## KY-28 控制开关/按钮
 
 ![wso_ky_28](../../img/wso_ky_28_control_panel.jpg)
 
-Controls for the KY-28 encryption system. For further information see
-the [Encryption chapter](../../systems/nav_com/encryption.md).
+控制 KY-28 密话系统。更多信息，请参阅 [加密章节](../../systems/nav_com/encryption.md)。
 
-## ECM Controls
+## ECM 控制开关/按钮
 
 ![ecm](../../img/wso_ecm_control_panel.jpg)
 
-Controls for the electronic counter-measurement and jamming system.
+电子对抗和干扰系统的控制开关/按钮。
 
-The left panel is connected to any pods carried on left stations, the right panel
-to stations on the right.
+左侧面板与左侧挂点上的任意一个吊舱相连，右侧面板与右侧挂点上得吊舱相连。
 
-Interpretation of the modes, techniques and exact operation of the lights
-depend on the loaded jammer model. See the [ECM section](../../systems/defensive_systems/ecm.md)
-for details.
+模式、技术和指示灯具体操作的解释取决于所挂载的干扰机型号。详见
+[ECM 部分](../../systems/defensive_systems/ecm.md)。
 
-### Mode Knob
+### 模式旋钮
 
 ![ecm](../../img/wso_ecm_mode_knob.jpg)
 
-Sets the mode of the jammer to operate in:
+设置干扰机的工作模式：
 
-| Mode   | Description                                             |
-|--------|---------------------------------------------------------|
-| OFF    | Turned off, no transmission                             |
-| STBY   | Starting the warmup, no transmission (200s for ALQ-131) |
-| XMIT 1 | Transmitting and jamming using technique 1              |
-| XMIT 2 | Transmitting and jamming using technique 2              |
-| BOTH   | Transmitting and jamming using technique 1 and 2        |
+| 模式   | 模式                                       |
+| ------ | ------------------------------------------ |
+| OFF    | 关闭，无信号发射                           |
+| STBY   | 开始预热，无信号发射 (ALQ-131 耗时 200 秒) |
+| XMIT 1 | 使用技术 1 发射并干扰                      |
+| XMIT 2 | 使用技术 2 发射并干扰                      |
+| BOTH   | 使用技术 1 和 2 发射并干扰                 |
 
-Use on the ground is prohibited since it could otherwise endanger personnel.
+禁止在地面使用，否则会危及人生安全。
 
-### STBY Lights
+### STBY 灯
 
-The two lights indicate that the corresponding jammer technique is
-done warming up and can now be used by switching to XMIT.
+这两个指示灯表示对应得干扰机技术已完成预热，现在即可切换到 XMIT 进行使用。
 
-The warmup period is roughly 200s for the ALQ-131 pod.
+ALQ-131 吊舱预热时间大约为 200 秒。
 
-### XMIT Lights
+### XMIT 灯
 
-The two lights indicate that the corresponding jammer technique is
-currently active and transmitting.
+这两个指示灯表示对应的干扰机技术被激活并正在发射。
 
-### AI Light
+### AI 灯
 
-Indicates that a radar has been detected and is actively jammed.
+表示已探测到一台雷达并对其进行主动干扰。
 
-> 💡 Due to DCS limitations, this is currently not simulated in-game.
+> 💡 由于 DCS 的限制，目前无法在游戏中模拟。
 
-### Reset Button and Lamp
+### 复位按钮和灯光
 
 ![ecm](../../img/wso_ecm_reset_button.jpg)
 
-The reset lamp, if lit, indicates a fault in the jammer system.
-Flashing indicates an overheating condition, in which case the pod
-should be turned off to prevent damage.
+复位指示灯亮起时表示干扰机系统出现故障。闪烁表示干扰机过热，此时应关闭吊舱以防止受损。
 
-In case of a fault, the reset button can be pressed to reset the
-jammer system (similar to turning it OFF and back ON), in which case it will
-run through the warmup period again. If the fault could be cleared, the light will go off.
+出现故障时，可按下复位按钮来复位干扰机系统（类似于将其关闭再重新打开），在这种情况下，干扰机系统将
+重新进入预热阶段。如果可以排除故障，指示灯将熄灭。
 
-## Bomb Release Angle Computer
+## 航弹投放角度计算机
 
 ![wso_labs_angle](../../img/wso_release_angle.jpg)
 
-Used to enter the required angle values for [ARBCS/LABS](../../systems/weapon_systems/arbcs.md)
-bombing modes; the Low Angle control may be set from 0 to 89.9 degrees, and the High Angle control
-may be set from 70 to 179.9 degrees.
+用于输入 [ARBCS/LABS](../../systems/weapon_systems/arbcs.md) 轰炸模式所需的角度值；低角度控制可设置
+值为 0 至 89.9 度，高角度控制可设置值为 70 至 179.9 度。
 
-The high Angle control is used
-for [over-the-shoulder bombing,](../../stores/air_to_ground/bombs/employment.md#instantaneous-over-the-shoulder---inst-os)
-whilst low angle is used for [LOFT bombing](../../stores/air_to_ground/bombs/employment.md#loft).
-For calculations of the angles see the [bombing calculator](../../dcs/bombing_computer.md).
+高角度控制用于
+[越肩轰炸](../../stores/air_to_ground/bombs/employment.md#instantaneous-over-the-shoulder---inst-os)
+，低角度用于 [LOFT 轰炸](../../stores/air_to_ground/bombs/employment.md#loft) 。有关角度的计算，请
+查看 [轰炸计算器](../../dcs/bombing_computer.md) 。
 
-## Bombing Timers
+## 轰炸计时器
 
 ![wso_release_timers](../../img/wso_bombing_timer.jpg)
 
-Entry of applicable timing for pull-up signal or release are performed with the
-Bombing Timers.
+使用轰炸计时器来输入适用于上仰信号或投放信号的定时。
 
-The Pull-up timer may be set from 0 to 60 seconds, and the
-Release timer may be set from 0 to 30 seconds. Minimum increment for each timer
-is 0.1 seconds.
+上仰计时器的设置区间为 0 至 60 秒，投放计时器的设置区间为 0 至 30 秒。每个计时器的精度为 0.1 秒。
 
-The Bombing timers may be used for every
-[timed employment method](../../stores/air_to_ground/bombs/employment.md).
+轰炸计时器可在各个 [计时投放法](../../stores/air_to_ground/bombs/employment.md) 中使用。
 
-See [9.4 bombing calculator chapter](../../dcs/bombing_computer.md) for how to calculate the number.
+如果计算数值，请阅读 [9.4 轰炸计算器章节](../../dcs/bombing_computer.md) 。
