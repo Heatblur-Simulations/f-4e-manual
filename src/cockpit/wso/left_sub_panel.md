@@ -141,7 +141,7 @@ MASK（正压来测试面罩气密性）。
 
 显示供氧压力，显示区间为 0 到 500 psi。
 
-详见 [3.7 公用章节，氧气部分](../../../systems/utility.md#oxygen-system)。
+详见 [3.7 公用章节，氧气部分](../../systems/utility.md#oxygen-system)。
 
 ## 起落架/襟翼指示器面板
 
