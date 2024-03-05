@@ -2344,7 +2344,7 @@ desired <a href="cockpit/pilot/right_console/../../../systems/nav_com/tacan.html
 audible volume for the monitoring of said channel by the aircrew. The panel is
 duplicated in both cockpits, and the panel in command of
 the <a href="cockpit/pilot/right_console/../../../systems/nav_com/tacan.html">TACAN</a> receiver is
-selected with the NAV CMD button of the Communication Control Panel.</p>
+toggled by the NAV CMD button of the Communication Control Panel.</p>
 <h3 id="channel-knobs"><a class="header" href="#channel-knobs">Channel Knobs</a></h3>
 <p>On the control panel there are two Navigation Channel Control knobs (7,4 and 3), with the
 left (<num>7</num>) controlling the first two digits of the channel value (hundreds and tens),
@@ -2389,7 +2389,7 @@ tanker on 123Y should be set to 60Y in the F-4.</p>
 the <a href="cockpit/pilot/right_console/../../../systems/nav_com/uhf.html">UHF radio</a> in the aircraft.</p>
 <h3 id="command-buttons"><a class="header" href="#command-buttons">Command Buttons</a></h3>
 <p>The panel is duplicated in both cockpits, and control over the
-radio is determined through pushing the COMM CMD Button (<num>10</num>) in the respective seat;
+radio is changed by pushing the COMM CMD Button (<num>10</num>) in the respective seat;
 the button will illuminate green (<num>9</num>) in the seat in priority. In the same fashion,
 the NAV CMD button (<num>7</num>) dictates which seat has control of
 the <a href="cockpit/pilot/right_console/../../../systems/nav_com/tacan.html">TACAN</a> settings; its button will also illuminate
@@ -6243,7 +6243,7 @@ with selectable priority.</p>
 the appropriate receiver must be set to the ADF mode, as selected by the Mode Selector.</p>
 <h3 id="comm-command-button-and-light"><a class="header" href="#comm-command-button-and-light">Comm Command Button and Light</a></h3>
 <p><img src="systems/nav_com/../../img/pilot_uhf_comm_command.jpg" alt="pilot_uhf_command_and_light" /></p>
-<p>Control authority of the UHF radio is set by the COMM CMD button (<num>10</num>). A green
+<p>Control authority of the UHF radio is changed by the COMM CMD button (<num>10</num>). A green
 light (<num>9</num>)
 illuminates in the cockpit with control next to the button. Either cockpit can
 take control, or if already in control, press the button to provide control of
@@ -10872,13 +10872,52 @@ Releasing <kbd>A</kbd> will confirm the selection under the cursor.</p>
 <blockquote>
 <p>🚧 This section is under construction.</p>
 <ul>
-<li>leapfrog system</li>
-<li>TGT1/TGT2 system</li>
 <li>Wheel UI for Nav</li>
 <li>TACAN/UHF</li>
 </ul>
 </blockquote>
 <p><img src="jester/../img/map_2.jpg" alt="real_life_crew_with_map" /></p>
+<p>Jester can manage two flight plans, each consisting of a series of specified turn points.
+Players can modify these flight plans in-game by inserting, editing, or deleting turn points.
+Adjustments can be made through the following methods:</p>
+<ul>
+<li>Manually input the turn point coordinates (longitude and latitude) using the format
+"H DD MM H DDD MM", where 'H' represents the hemisphere (N/S for latitude and E/W
+for longitude), 'D' signifies Degrees (00 to 89 for latitude and 000 to 179 for longitude),
+and 'M' stands for Minutes (00 to 59). Example inputs include: “N 45 32 E 047 12”
+and “S 05 55 W 105 00”.</li>
+<li>Use a Map Marker previously placed in the Mission Editor, which can be named for convenience.</li>
+<li>Select an existing turn point from either the first or second flight plan.</li>
+<li>Choose an Asset, such as a ship, tanker, or ground station with radio capabilities.
+Note that for moving assets like tankers, their actual position might vary from the planned
+coordinates. Use TACAN or ADF for more precise alignment.</li>
+<li>Opt for the nearest airfield from a provided list.</li>
+</ul>
+<p>When a flight plan is active (indicated by an asterisk next to the current turn point in Jester's
+interface), Jester will align its coordinates to TGT2 on the Navigation Computer Panel. Players
+can follow this guidance if NAV COMP is selected on the Navigation Function Selector Panel.
+As the aircraft approaches a turn point (within 2 nautical miles), Jester automatically updates
+to the next turn point, employing a leapfrogging technique.</p>
+<p>To maintain position at a current turn point, use the 'Toggle Hold At' option in the menu.
+A turn point designated for holding is marked with a (h) in Jester's interface. Players
+can also redirect to a different turn point using TGT1, which temporarily deactivates
+the flight plan.</p>
+<p>The 'Resume Flight Plan' menu offers extensive functionality for managing your flight plan,
+allowing for a range of navigational adjustments whether the flight plan is currently
+active or has been deactivated:</p>
+<ul>
+<li>Reactivating a Deactivated Flight Plan: Reactivate the flight plan to resume navigation
+guidance based on the flight plan's turn points.</li>
+<li>Skipping to a Future Turn Point: Jump directly to any future turn point in the flight plan,
+skipping over intermediate ones.</li>
+<li>Returning to Previous Turn Points: Select and move back to any previous turn point
+in the flight plan.</li>
+<li>Selecting the Next Turn Point While Holding: If holding at a current turn point,
+you can proceed to the next turn point in the flight plan.</li>
+</ul>
+<p>This feature ensures pilots have comprehensive control over their navigation,
+allowing for dynamic adjustments to the flight plan in response to changing
+conditions or tactical decisions.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="combat"><a class="header" href="#combat">Combat</a></h1>
 <blockquote>
 <p>🚧 This section is under construction.</p>
