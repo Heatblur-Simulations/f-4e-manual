@@ -22,7 +22,7 @@ desired [TACAN](../../../systems/nav_com/tacan.md) channel, mode, and
 audible volume for the monitoring of said channel by the aircrew. The panel is
 duplicated in both cockpits, and the panel in command of
 the [TACAN](../../../systems/nav_com/tacan.md) receiver is
-selected with the NAV CMD button of the Communication Control Panel.
+toggled by the NAV CMD button of the Communication Control Panel.
 
 ### Channel Knobs
 
@@ -81,7 +81,7 @@ the [UHF radio](../../../systems/nav_com/uhf.md) in the aircraft.
 ### Command Buttons
 
 The panel is duplicated in both cockpits, and control over the
-radio is determined through pushing the COMM CMD Button (<num>10</num>) in the respective seat;
+radio is changed by pushing the COMM CMD Button (<num>10</num>) in the respective seat;
 the button will illuminate green (<num>9</num>) in the seat in priority. In the same fashion,
 the NAV CMD button (<num>7</num>) dictates which seat has control of
 the [TACAN](../../../systems/nav_com/tacan.md) settings; its button will also illuminate
