@@ -29,7 +29,7 @@ Unique to the front cockpit control stick is the Air Refueling Release (ARR) But
 that performs the boom disconnect function its name implies, as well as a number
 of weapon selection functions.
 
-See [3.7 Utility Systems](../../systems/utility.md#air-refueling-release-button)
+See [3.2.2. Fuel System](../../systems/engines_and_fuel_systems/fuel_system.md#air-refueling-release-button)
 for details.
 
 ### Nose Wheel Steering Button
