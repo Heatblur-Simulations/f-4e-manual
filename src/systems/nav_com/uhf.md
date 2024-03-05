@@ -45,7 +45,7 @@ the appropriate receiver must be set to the ADF mode, as selected by the Mode Se
 
 ![pilot_uhf_command_and_light](../../img/pilot_uhf_comm_command.jpg)
 
-Control authority of the UHF radio is set by the COMM CMD button (<num>10</num>). A green
+Control authority of the UHF radio is changed by the COMM CMD button (<num>10</num>). A green
 light (<num>9</num>)
 illuminates in the cockpit with control next to the button. Either cockpit can
 take control, or if already in control, press the button to provide control of
