@@ -10919,25 +10919,180 @@ you can proceed to the next turn point in the flight plan.</li>
 allowing for dynamic adjustments to the flight plan in response to changing
 conditions or tactical decisions.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="combat"><a class="header" href="#combat">Combat</a></h1>
-<blockquote>
-<p>🚧 This section is under construction.</p>
+<p>Jesters assistance for combat situations is generally divided into options on
+the Jester Wheel, whenever not in a high action environment yet, and a smart
+<strong>Context Action</strong> for use during situations that require acting quick, such as
+during a fight.</p>
+<p>The context action (by default <kbd>V</kbd>) allows for intuitive cooperation
+and exchange between Pilot and WSO based on the following contexts:</p>
 <ul>
-<li>A2A interface</li>
-<li>A2G interface</li>
-<li>Controls</li>
-<li>How to employ weapons with Jester</li>
+<li>Pave Spike - TGT FIND selected on the Delivery Mode Knob</li>
+<li>Dive Toss - DT or DL selected on the Delivery Mode Knob</li>
+<li>Dogfight - CAGE mode</li>
+<li>Beyond Visual Range - other</li>
 </ul>
-</blockquote>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="other-2"><a class="header" href="#other-2">Other</a></h1>
-<blockquote>
-<p>🚧 This section is under construction.</p>
+<p>The context action can change semantics if pressed only momentarily or if hold
+and released.</p>
+<h2 id="radar"><a class="header" href="#radar">Radar</a></h2>
+<p>During flight, Jester will constantly operate the radar and search for contacts.</p>
+<p>In certain situations, such as during landing, on the ground or when performing
+AAR, the radar will be in Standby mode. This can also be commanded manually by
+selecting <code>Radar &gt; Operation &gt; Go Cold</code> in the UI.</p>
+<p>When using the radar, Jesters generally differentiates between three phases:</p>
 <ul>
-<li>options like muting or landing call-outs</li>
-<li>Landing assistance</li>
-<li>ILS assistance</li>
-<li>AAR guidance</li>
+<li>Regular Search</li>
+<li>Focussed Search</li>
+<li>Lock</li>
 </ul>
+<p>The phases are commanded and switched by the pilot using the Context Action.</p>
+<p>Additionally, Jester will behave differently during a dogfight, indicated by the
+pilot entering CAGE mode.</p>
+<h3 id="regular-search"><a class="header" href="#regular-search">Regular Search</a></h3>
+<p>This is the default phase Jester will be in. He will automatically point the
+antenna at different altitudes and ranges in order to scan the entire space
+ahead of the aircraft.</p>
+<p>Jester will automatically identify any new contact and call them out to the
+pilot.</p>
+<p>If desired, the player can request Jester to perform an IFF challenge manually
+at any time through the UI (this action can also be bound directly to a key).
+Should the situation require, the player can manually set a zone for Jester to
+scan outside of his regular pattern through the UI.</p>
+<p>Jester will indicate the highest priority target by moving and keeping the
+cursor always on the radar return.</p>
+<div class="table-wrapper"><table><thead><tr><th>Duration</th><th>Context Action</th></tr></thead><tbody>
+<tr><td>Short</td><td>Enter <strong>Focussed Search</strong> on current target</td></tr>
+<tr><td>Long</td><td>Select Next Target</td></tr>
+</tbody></table>
+</div>
+<h3 id="focussed-search"><a class="header" href="#focussed-search">Focussed Search</a></h3>
+<p>When focussed on a contact, Jester will always keep the antenna pointing at him,
+as well as commanding the radar into a narrow view.</p>
+<p>This mode can be understood as <em>"Track While Scan"</em>, where Jester keeps the
+radar on a specific contact, while still scanning the surrounding space,
+identifying and calling out any new contact spotted.</p>
+<div class="table-wrapper"><table><thead><tr><th>Duration</th><th>Context Action</th></tr></thead><tbody>
+<tr><td>Short</td><td><strong>Lock</strong> current target</td></tr>
+<tr><td>Long</td><td>Drop focus, back to <strong>Regular Search</strong></td></tr>
+</tbody></table>
+</div>
+<h3 id="lock"><a class="header" href="#lock">Lock</a></h3>
+<p>During a lock, Jester works the radar to keep the lock as long as possible.</p>
+<div class="table-wrapper"><table><thead><tr><th>Duration</th><th>Context Action</th></tr></thead><tbody>
+<tr><td>Short</td><td>Drop lock, back to <strong>Focussed Search</strong></td></tr>
+<tr><td>Long</td><td>Drop lock and focus, back to <strong>Regular Search</strong></td></tr>
+</tbody></table>
+</div>
+<blockquote>
+<p>💡 To lock and attack a contact as fast as possible while in <strong>Regular
+Search</strong>, double tap the context action to skip the <strong>Focussed Search</strong> and
+proceed to <strong>Lock</strong> immediately.</p>
 </blockquote>
+<h3 id="dogfight"><a class="header" href="#dogfight">Dogfight</a></h3>
+<p>A within-visual-range situation is entered by the pilot activating CAGE mode.</p>
+<p>In this mode, the radar is automatically boresighted forward and Jester will be
+able to lock a return.</p>
+<p>Further, the pilot can enter CAA mode where the system will automatically lock
+any close contact.</p>
+<div class="table-wrapper"><table><thead><tr><th>Duration</th><th>Context Action</th></tr></thead><tbody>
+<tr><td>Short</td><td>Lock contact ahead if it shows a return</td></tr>
+<tr><td>Long</td><td>Exit CAGE mode</td></tr>
+</tbody></table>
+</div>
+<h2 id="dive-toss"><a class="header" href="#dive-toss">Dive Toss</a></h2>
+<p>During a Dive Toss or Dive Laydown attack, indicated by DT or DL selected on the
+Delivery Mode Knob, the <strong>Context Action</strong> can be used to command Jester to lock
+the ground return after placing the nose on the target. A subsequent press will
+unlock the target again.</p>
+<p>This way, ground target can be attacked effectively during a dive. The pilot places
+the reticle on the target, commands Jester to lock the return and then pulls up
+while holding down the Bomb Button. Weapons will be released automatically shortly after.</p>
+<h2 id="pave-spike-1"><a class="header" href="#pave-spike-1">Pave Spike</a></h2>
+<p>If equipped, Jester will ensure the targeting pod is ready for a 12-VIS dive
+attack when required.</p>
+<p>This can also be commanded manually by selecting either
+<code>Air To Ground &gt; Pave Spike &gt; Operation &gt; Standby</code> or
+<code>Air To Ground &gt; Pave Spike &gt; Operation &gt; Ready</code> in the UI.</p>
+<p>The pilot can command Jester to focus on operating the targeting pod by
+selecting TGT FIND on the Delivery Mode Knob.</p>
+<blockquote>
+<p>💡 Due to DSCG limitations, operation of the Pave Spike and the radar system
+are mutually exclusive.</p>
+</blockquote>
+<h3 id="12-vis-dive"><a class="header" href="#12-vis-dive">12-VIS Dive</a></h3>
+<p>Pressing the <strong>Context Action</strong> will command Jester to lock the ground target
+next to the reticle. A subsequent press will unlock the target again.</p>
+<p>This can be used effectively in 12-VIS mode where the pilot points the nose on
+the target in a short dive. After locking the target, the pilot can pull out of
+the dive and either keep observing the target through the pod, or start an
+attack. See
+<a href="jester/../stores/air_to_ground/bombs/employment.html#target-find---tgt-find">4.3.3.4. Employment</a>
+for details.</p>
+<blockquote>
+<p>🚧 Jester Pave Spike operation will be expanded throughout Early Access. To
+overcome current limitations, the Pilot is provided with temporary binds to
+control the WSOs Antenna Stick. This allows the pilot to use the targeting pod
+more effectively.</p>
+</blockquote>
+<h2 id="context-action-overview"><a class="header" href="#context-action-overview">Context Action Overview</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Context</th><th style="text-align: center">Duration</th><th>Action</th></tr></thead><tbody>
+<tr><td>BVR - Regular Search</td><td style="text-align: center">•</td><td>Enter <strong>Focussed Search</strong> on current target</td></tr>
+<tr><td></td><td style="text-align: center">▄</td><td>Select Next Target</td></tr>
+<tr><td>BVR - Focussed Search</td><td style="text-align: center">•</td><td><strong>Lock</strong> current target</td></tr>
+<tr><td></td><td style="text-align: center">▄</td><td>Drop focus, back to <strong>Regular Search</strong></td></tr>
+<tr><td>BVR - Lock</td><td style="text-align: center">•</td><td>Drop lock, back to <strong>Focussed Search</strong></td></tr>
+<tr><td></td><td style="text-align: center">▄</td><td>Drop lock and focus, back to <strong>Regular Search</strong></td></tr>
+<tr><td>Dogfight</td><td style="text-align: center">•</td><td>Lock contact ahead if it shows a return</td></tr>
+<tr><td></td><td style="text-align: center">▄</td><td>Exit CAGE mode</td></tr>
+<tr><td>Pave Spike</td><td style="text-align: center"></td><td>Lock/Unlock target next to reticle</td></tr>
+<tr><td>Dive Toss</td><td style="text-align: center"></td><td>Lock/Unlock ground return</td></tr>
+</tbody></table>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="other-2"><a class="header" href="#other-2">Other</a></h1>
+<p>During the entire flight, Jester will assist the pilot in all situations.</p>
+<p>He will call out bandits during a dogfight and give the pilot steering tips.
+Jester might tell the pilot in which direction to evade when attacked by a
+missile, make him aware of any friendly traffic spotted or also simply when the
+AVTR cassette is full.</p>
+<p>While lacking a fuel gauge in his cockpit, he will observe the clock and the
+pilots flying style to remind him about checking the fuel level or consumption
+when forgetting to leave the Fuel Dump switch activated.</p>
+<p>Jester is able to assess and report battle damage to a certain degree and much
+more.</p>
+<h2 id="startup"><a class="header" href="#startup">Startup</a></h2>
+<p>Whenever the pilot performs a cold start of the aircraft, Jester will
+automatically get his cockpit ready for flight as well.</p>
+<p>Most notably, this includes the INS alignment. During startup, Jester will ask
+the pilot if he is ready for alignment and which alignment option to choose.</p>
+<p>Alignment should only be started once the pilot is sure that power will remain
+stable and the aircraft will not have to be moved until the procedure is
+finished.</p>
+<blockquote>
+<p>💡 Jester is able to abort an alignment if the pilot really has to start
+moving already. Expect degraded INS performance in this case.</p>
+</blockquote>
+<h2 id="takeoff-and-landing-assistance"><a class="header" href="#takeoff-and-landing-assistance">Takeoff and Landing Assistance</a></h2>
+<p>When taking off, Jester will report key values for the airspeed, indicating to
+the pilot when to initiate the roll.</p>
+<p>By default, Jester will assist the player during landing by giving altitude
+callouts, similar as seen in civilian aviation. This way, the pilot can better
+estimate the current position, especially given the reduced forward visibility
+in the Phantom.</p>
+<blockquote>
+<p>💡 This option can be disabled, see
+<a href="jester/../dcs/special_options.html#jester-landing-callouts">9.2. Special Options</a>.</p>
+</blockquote>
+<h2 id="aerial-refueling"><a class="header" href="#aerial-refueling">Aerial Refueling</a></h2>
+<p>Jester provides steering assistance to the pilot during AAR.</p>
+<p>In the initial phase, he will guide the pilot towards the right spot for the
+tanker to connect the boom, for example by saying</p>
+<blockquote>
+<p>"<em>Move 5 feet forward.</em>"</p>
+</blockquote>
+<p><img src="jester/../img/aar_box.jpg" alt="AAR Box" /></p>
+<p>Once connected, he will look up and focus on the booms colored marks. Jester
+calls out whenever the pilot is drifting too much in either direction, indicated
+by the boom showing the yellow or red marks.</p>
+<p>The perfect mark in the middle is called the <em>donut</em>.</p>
+<p><img src="jester/../img/aar_boom.jpg" alt="Boom Marks" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="crew-chief"><a class="header" href="#crew-chief">Crew Chief</a></h1>
 <p><img src="crew_chief/../img/crew_chief.jpg" alt="crew chief" /></p>
 <!-- https://nara.getarchive.net/media/ -->
@@ -11077,9 +11232,6 @@ aircraft to ground communications.</p>
 by using "Comms Check" option.</p>
 <p><img src="crew_chief/../img/crew_chief_menu.jpg" alt="crew chief menu" /></p>
 <!-- ![crew chief menu (hand signals)](../img/crew_chief_menu_hand_signals.jpg) -->
-<blockquote>
-<p>🚧 This chapter is under construction.</p>
-</blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="normal-procedures"><a class="header" href="#normal-procedures">Normal Procedures</a></h1>
 <p>This chapter contains standard procedures for operating the F-4E Phantom II.</p>
 <p>The aircrew procedures through the <a href="procedures/taxi.html#before-taxi">Before Taxi</a> paragraph
@@ -11398,7 +11550,7 @@ OFF to ALIGN pausing momentarily at STBY.</p>
 <tr><td>57.</td><td>Oxygen supply system</td><td>CHECK AND SET</td></tr>
 </tbody></table>
 </div><!-- APU system - CHECK (Cannot be done with battery start) -->
-<div style="break-before: page; page-break-before: always;"></div><h1 id="startup"><a class="header" href="#startup">Startup</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="startup-1"><a class="header" href="#startup-1">Startup</a></h1>
 <h2 id="before-starting-engines-both"><a class="header" href="#before-starting-engines-both">Before starting engines (Both)</a></h2>
 <div class="table-wrapper"><table><thead><tr><th>Step</th><th>System</th><th>Action</th></tr></thead><tbody>
 <tr><td>1.</td><td>Seat pins</td><td>CHECK REMOVED AND STOWED</td></tr>
