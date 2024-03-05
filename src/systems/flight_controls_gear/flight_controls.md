@@ -69,9 +69,9 @@ video-directed [air to ground weapons](../../stores/air_to_ground/overview.md). 
 [Emergency Quick Release lever (<num>6</num>)](gear_ground_handling.md#emergency-anti-skid-quick-release-lever)
 on each stick is available to immediately deactivate the anti-skid system, the automatic
 flight control system, stability augmentation and the aileron-rudder
-interconnect. Unique to the front cockpit control stick is
-the [Air Refueling Release Button (<num>4</num>)](../utility.md#air-refueling-release-button) - a dual-role
-control that performs the boom disconnect function its name implies, as well as
+interconnect. Unique to the front cockpit control stick is the
+[Air Refueling Release Button (<num>4</num>)](../engines_and_fuel_systems/fuel_system.md#air-refueling-release-button),
+a dual-role control that performs the boom disconnect function its name implies, as well as
 a number of weapon selection functions.
 
 Also, unique to the front cockpit stick is a force transducer, to allow the pilot

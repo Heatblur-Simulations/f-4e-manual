@@ -18,8 +18,9 @@ or Air-to-Ground modes.
 
 ![AARLights](../../img/pilot_aar_lights.jpg)
 
-Provide status of the [Air Refueling System](../../systems/utility.md#air-refueling-system) while
-in use.
+Provide status of the
+[Air Refueling System](../../systems/engines_and_fuel_systems/fuel_system.md#air-refueling-system)
+while in use.
 
 | Name       | Description                                                                                                      |
 |------------|------------------------------------------------------------------------------------------------------------------|

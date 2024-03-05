@@ -51,7 +51,7 @@ tanker to connect the boom, for example by saying
 
 > "_Move 5 feet forward._"
 
-![AAR Box](../img/aar_box.jpg)
+![AAR Connected](../img/aar_connected.jpg)
 
 Once connected, he will look up and focus on the booms colored marks. Jester
 calls out whenever the pilot is drifting too much in either direction, indicated
@@ -59,4 +59,8 @@ by the boom showing the yellow or red marks.
 
 The perfect mark in the middle is called the _donut_.
 
-![Boom Marks](../img/aar_boom.jpg)
+![Boom Marks](../img/aar_boom_ingame.jpg)
+
+See
+[3.2.2. Air Refueling System](../systems/engines_and_fuel_systems/fuel_system.md#air-refueling-system)
+for details on how to perform AAR.
