@@ -133,5 +133,3 @@ by using "Comms Check" option.
 
 ![crew chief menu](../img/crew_chief_menu.jpg)
 <!-- ![crew chief menu (hand signals)](../img/crew_chief_menu_hand_signals.jpg) -->
-
-> 🚧 This chapter is under construction.
