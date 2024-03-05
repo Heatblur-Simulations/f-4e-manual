@@ -1,299 +1,239 @@
-# Front Section
+# 前部
 
-The front section of the left console houses the oxygen panel,
-throttle and engine related controls.
+左侧控制台的前部包括氧气面板、油门和发动机相关的控制开关/按钮。
 
-## Left Utility Panel
+## 左侧公用面板
 
 ![LUtil](../../../img/pilot_left_utility_panel.jpg)
 
-### Anti-Skid Switch
+### 防滑开关
 
 ![AntiSkidSwitch](../../../img/pilot_anti_skid_switch.jpg)
 
-Controls
-the [anti-skid system](../../../systems/flight_controls_gear/gear_ground_handling.md#anti-skid-system)
-which provides an electronically controlled skid protection at wheel speeds over 30 knots.
+用来控制 [防滑系统](../../../systems/flight_controls_gear/gear_ground_handling.md#anti-skid-system)
+在地速超过 30 节时提供电控打滑保护。
 
-## Anti-Skid Inoperative Light
+## 防滑故障灯
 
 ![Anti-Skid Inoperative Light](../../../img/pilot_anti_skid_light.jpg)
 
-Illuminates when the Anti-Skid Switch is set to OFF, the Emergency Quick Release Lever is pressed,
-or there is an issue with
-the [Anti-Skid System.](../../../systems/flight_controls_gear/gear_ground_handling.md#anti-skid-system)
+当防滑开关设置到 OFF 档位，按下应急快速释放杆或
+[防滑系统](../../../systems/flight_controls_gear/gear_ground_handling.md#anti-skid-system) 中出现故
+障时亮起。
 
-### Canopy/Low Altitude Warning Volume
+### 座舱盖/低高度警告音
 
-Sets audio level for canopy open and low altitude voice warnings.
+设置座舱盖和低高度警告音的音量。
 
-This system is not installed on this variant of the F-4E.
+这一版本的 F-4E 中未安装该系统。
 
-## Oxygen Regulator and Oxygen Quantity Gauge
+## 氧气调节杆和液氧储量表
 
 ![PilOxy](../../../img/pilot_oxygen_control_panel.jpg)
 
-### Supply Lever
+### 供氧杆
 
-Two position switch (ON and OFF) activating flow of oxygen to the mask.
-For further information see
-[3.7 Utility chapter, Oxygen section](../../../systems/utility.md#oxygen-system).
+用于激活面罩氧气流量的二档位开关（ON 和 OFF）。详见
+[3.7 公用章节，氧气部分](../../../systems/utility.md#oxygen-system)。
 
-### Diluter Lever
+### 稀释杆
 
-A two-position diluter lever, in the center of the regulator
-panel, controls the mixture of air and oxygen.
+二档位稀释杆，位于调节面板的中部，用来控制氧气和空气混合。
 
-For a proportional amount of air to oxygen, the NORMAL
-OXYGEN position should be selected.
+若要使空气与氧气成比例混合，则应选择 NORMAL OXYGEN 档位。
 
-For pure oxygen, the
-100% OXYGEN position should be selected. This setting is preferable
-if fire, toxic smoke or fumes occur in the cockpit.
+纯氧呼吸时，应该选择 100% OXYGEN 档位。如果驾驶舱内发生火灾、出现有毒烟雾或烟尘，最好使用该档位。
 
-### Emergency Lever
+### 应急杆
 
-Three position switch which permits selection of NORMAL (standard supply),
-EMERGENCY pressure (100% oxygen with continuous positive pressure) or
-TEST MASK (positive pressure to test the face mask for leaks).
+应急杆总共有三个档位可供选择，分别是，NORMAL（正常供养）、 EMERGENCY 压力（纯氧以及持续正压）或
+TEST MASK（正压来测试面罩气密性）。
 
-The lever should remain in the center (NORMAL) position at all times,
-unless an unscheduled pressure increase is required.
+控制杆应始终保持在中立（NORMAL）档位，除非需要特意增加压力。
 
-### Flow Indicator
+### 流量指示器
 
-Alternates between black and white with each aircrew member breath to indicate
-oxygen flow (white indicates inhalation).
+机组进行呼吸时，黑白交替显示来指示氧气流量（白色表示吸入）。
 
-### Oxygen Pressure Gauge
+### 氧气压力表
 
-Indicates oxygen supply pressure from 0 to 500 psi.
+显示供养压力，显示区间为 0 到 500 psi。
 
-For further information
-see [3.7 Utility chapter, Oxygen section](../../../systems/utility.md#oxygen-system).
+详见 [3.7 公用章节，氧气部分](../../../systems/utility.md#oxygen-system)。
 
-### Oxygen Quantity Gauge
+### 氧气储量表
 
-It has a range from
-0 to 10 liters. Loss of electrical power
-is indicated by appearance of a power off flag on the
-instrument face.
+显示区间为 0 到 10 升。仪表断电时仪表表面将出现断电旗。
 
-### Oxygen Quantity Test Button
+### 氧气储量测试按钮
 
-The button is used to test operation of the front
-and rear cockpit gauges along with operation of the low-oxygen
-warning system.
+该按钮用于测试前后驾驶舱仪表以及氧气储量告警系统的工作情况。
 
-With the button pressed, both gauge
-needles should move to an indication of zero.
+按下按钮后，两个仪表中的指针都应移动到零位。
 
-As the needle in the front cockpit passes through the 1 liter indication, the
-OXYGEN LOW warning light on the
-front [telelight panel](../right_sub_panel.md#telelight-annunciator-panel)
-should illuminate, and remain illuminated until the button is released and
-the needle moves above 1 liter again.
+当飞行员驾驶舱内的指针穿过 1 升刻度时，
+前[远传信号灯](../right_sub_panel.md#telelight-annunciator-panel) 中的 “OXYGEN LOW” 告警灯应亮起，
+并一直保持到松开按钮且指针再次超过 1 升为止。
 
-## Forward Hand Control
+## 前手控
 
 ![PilAGM](../../../img/pilot_forward_hand_control.jpg)
 
-Small joystick enabling the Pilot to control and steer
-guided Weapons such as Mavericks or Bullpups.
+小型操纵杆，使飞行员能够控制和调整制导武器，如“幼畜”或“小斗犬”。
 
-## Outboard Engine Control Panel
+## 外侧发动机控制面板
 
 ![PilOutEng](../../../img/pilot_outboard_engine_control.jpg)
 
-### Engine Anti-Icing Switch
+### 发动机防病开关
 
-Two position switch (DE-ICE and NORMAL)
-controlling [de-icing function.](../../../systems/engines_and_fuel_systems/engines.md#engine-anti-icing-system)
-When in DE-ICE, the anti-icing air flow is enabled. In NORMAL, no anti-icing is provided.
+用于控制 [除冰功能](../../../systems/engines_and_fuel_systems/engines.md#engine-anti-icing-system)
+的二档位开关（DE-ICE 和 NORMAL）。开关拨至 DE-ICE 档位时，启用除冰气流，NORMAL 档位禁用系统。
 
-The system should only be used below high-mach numbers.
-At high-mach speeds the compressor inlet temperature is
-enough to prevent ice from building up.
+飞行员应当仅在低空速时使用系统。在高马赫数时，压气机进口温度足以防止结冰。
 
-### Communications Antenna Select Switch
+### 通信天线选择开关
 
-Two position switch commanding which antenna is being utilized for voice
-communication- UPR (upper) or LWR (lower).
+二档位选择开关用来指令话音通信所使用的天线—— UPR（上部）或 LWR（下部）。
 
-The Upper position should be used for take-off and
-landing since the lower antenna could interfere with the anti-skid wheel speed sensor and thus
-create a malfunction in the anti-skid system. The lower antenna could also interfere with the nose
-gear steering whilst transmitting.
+起降时应使用上部档位，因为下部天线可能会干扰防滑轮速度传感器，从而导致防滑系统故障。在发射信号时，
+下部天线还可能干扰前轮转向。
 
-### LCOSS Switch
+### LCOSS 开关
 
-Selects which computer system is installed on this aircraft.
+选择安装在飞机上的计算机系统。
 
-- ARS-107
-- ASG-26
+- ARS-107 - ASG-26
 
-The switch is a leftover and not connected.
+开关是一个遗留物，没有接线。
 
-### DVST Switch
+### DVST 开关
 
-Selects which radar system is installed on this aircraft.
+选择安装在飞机上的雷达系统。
 
-- APS-107
-- APQ-120
+- APS-107 - APQ-120
 
-The switch is a leftover and not connected.
+开关是一个遗留物，没有接线。
 
-## Inboard Engine Control Panel
+## 内侧发动机控制面板
 
 ![PilInbEng](../../../img/pilot_inboard_engine_control.jpg)
 
-The Inboard Engine Control Panel carries the following controls:
+内侧发动机控制面板包含以下控制开关/按钮：
 
-### Target Contrast Switch
+### 目标对比度开关
 
-Used to select the appropriate contrast conditions for seeker acquisition with
-the [AGM-65A Maverick and AGM-65B Maverick](../../../stores/air_to_ground/missiles/maverick.md).
+用来选择合适的对比条件来使用
+[AGM-65A 和 AGM-65B “幼畜”](../../../stores/air_to_ground/missiles/maverick.md) 导引头捕获目标。
 
-| Name    | Description                                                               |
-|---------|---------------------------------------------------------------------------|
-| WHT/BLK | Programs the missile seeker to track a light target on a dark background. |
-| AUTO    | Programs the missile to use its automatic tracking mode.                  |
-| BLK/WHT | Programs the missile seeker to track a dark target on a light background. |
+| 名称    | 描述                               |
+| ------- | ---------------------------------- |
+| WHT/BLK | 导引头设置为跟踪暗背景中的亮目标。 |
+| AUTO    | 设置导弹使用自动跟踪模式。         |
+| BLK/WHT | 导引头设置为跟踪亮背景中的暗目标。 |
 
-> 💡 This does not change the polarity of the video but the coding of the seeker itself.
+> 💡 开关不会改变视频极性而是改变导引头编码。
 
-### Engine Start Switch
+### 发动机起动开关
 
-Three position switch with automatic return to center used to start the
-respective engine using the cartridge (if loaded), left or right.
-See [engine system chapter](../../../systems/engines_and_fuel_systems/engines.md#cartridge-mode-starting)
-for further detail on when to use the cartridge start.
+带有自动归中的三档位开关，用于使用药柱（如果已装载）起动相应的左右发。详情查看
+[发动机系统章节](../../../systems/engines_and_fuel_systems/engines.md#cartridge-mode-starting) 来了
+解何时使用药柱起动。
 
-### CADC Static Pressure Compensator Correction Switch
+### CADC 静压补偿器修正开关
 
-Three position switch, momentary in the RESET CORR position, used to correct or
-disengage the Static Pressure Compensation of the altimeter, thus eliminating,
-or invoking, altimeter lag from rapid altitude changes.
+三档位开关，RESET CORR 档位为自复位开关，用于修正或断开高度表的静压补偿，从而消除或引入高度快速变化
+造成的高度表滞后。
 
-| Name       | Description                                                                                       |
-|------------|---------------------------------------------------------------------------------------------------|
-| RESET CORR | Actuated after engine startup, then in flight if a SPC warning is caused by transient conditions. |
-| NORM       | Regular operating position of switch upon release of RESET CORR or actuation out of CORR OFF.     |
-| CORR OFF   | Manually disengages SPC altitude lag compensation.                                                |
+| 名称       | 描述                                                              |
+| ---------- | ----------------------------------------------------------------- |
+| RESET CORR | 在发动机起动后作动，如果由暂态条件引发 SPC 告警，则在飞行时动作。 |
+| NORM       | 在 RESET CORR 档位松开或拨出 CORR OFF 时的正常工作档位。          |
+| CORR OFF   | 手动断开 SPC 高度滞后补偿。                                       |
 
-### Engine Master Switches
+### 发动机主开关
 
 ![EngineMasterSwitches](../../../img/pilot_engine_master_switches.jpg)
 
-A pair of two position lever lock switches, separated by a guard to alleviate
-erroneous command of the wrong switch, connects electrical power to the engine
-boost and transfer pumps for the respective engine when placed in the ON
-(forward) position. The connection to electrical power is external if the
-aircraft is connected to a ground crew provided generator, or the aircraft's
-battery if no external power available. Switching them to OFF (aft) position
-will engage the fuel shutoff valves so long as the aircraft is not solely
-running on the internal electrical bus; otherwise, the valves will remain open,
-unless the engine throttle is placed into the cutoff position. For further Information see
-[3.2.1 engines chapter](../../../systems/engines_and_fuel_systems/engines.md).
+一对两档位的限位开关，两个开关由一个防护罩隔开，以防止执行错误的开关指令，当置于 ON（向前）档位时，
+将为相应发动机的升压油泵和输油泵通电。如果飞机连接了地勤人员提供的发电机，则使用地面电源；如果没有
+地面电源，则使用机载电池。只要飞机不是完全依靠内部电力母线运行，将其切换到 OFF（向后）档位将接通燃
+油关断阀；否则，除非将油门推进关断档位，阀门将保持打开。
 
-### Rudder Trim Switch
+### 方向舵配平开关
 
-Used to apply rudder trim adjustment when pressed to the respective side, left
-or right.
+向左或向右按下时，在对应方向应用方向舵配平。
 
-## Throttles
+## 油门握把
 
 ![pilot_throttle](../../../img/pilot_throttle.jpg)
 
-The throttle arrangement for each engine in the F-4E Phantom II is located on the front and rear
-cockpit left console. Mechanical linkage transmits throttle movement to the engine fuel control. A
-friction adjusting lever allows customization of throttle friction. Afterburner initiation occurs by
-shifting the throttles outboard and moving forward from the MIL position. The Afterburner gate can
-be adjusted in the special options of the module.
+F-4E “鬼怪” II 每台发动机的油门握把布置在前后驾驶舱的左侧控制台上。握把通过机械传动机构将动作传递到
+发动机燃油控制。机组可通过阻尼调节杆自由调整握把的阻尼。从军推档位向外移动握把并向前推动，即可点燃
+加力燃烧室。加力门限可在模组的特殊选项中进行调整。
 
-Throttle movement is smooth and continuous, with afterburner modulation possible throughout the
-range. Moving throttles from IDLE to OFF closes the fuel shutoff valve, stopping fuel flow. To
-transition from OFF to IDLE or MIL, advance the throttles straight forward. Shifting throttles
-outboard allows movement from MIL to MAX, enabling forward motion in the afterburner range. For
-further information
-see [3.1.2 Engines chapter](../../../systems/engines_and_fuel_systems/engines.md#throttles).
+飞行员可以平稳而连续地移动油门握把，在整个加力区间内都可以进行加力进行调整。将油门握把从 IDLE 移动
+到 OFF 档位会关闭燃油关断阀，停止燃油流动。如需从 OFF 过渡到 IDLE 或 MIL，直接向前推油门。将油门握
+把向外移，可以从 MIL 移动到最大推力，从而在加力区间内向前移动。详见
+[3.1.2 发动机章节](../../../systems/engines_and_fuel_systems/engines.md#throttles) 。
 
-### Fingerlifts
+### 指抬装置
 
-Front cockpit throttles feature finger lifts for quick chops to IDLE, preventing inadvertent
-shutoff. The lifts must be raised before retarding throttles to OFF. Rear cockpit throttles are
-linked to the front cockpit, allowing only the pilot to start engines or move throttles into
-afterburner range. Rear cockpit throttles can be moved from OFF without front seat assistance.
+飞行员驾驶舱地油门握把上装有一个指抬装置，可快速进入 IDLE 档位，并防止意外关闭。在将油门收至 OFF 之
+前，必须先抬起指抬。WSO 驾驶舱油门与飞行员驾驶舱的油门握把相连，使得机组中只有飞行员可以起动发动机
+或将油门推至加力区间。WSO 驾驶舱油门可以在没有前座协助的情况下移出 OFF 档位。
 
-### Ignition Buttons
+### 点火按钮
 
 ![IgnitionButtons](../../../img/pilot_ignition_button.jpg)
 
-Engine ignition for startup is performed using a pair of spark plugs on each
-engine, activated by pressing the red Ignition Button found on the rear of both
-throttle levers. The button is depressed as part of the starting sequence to
-ignite the spark plugs, initiating combustion in chambers four and five of the
-engines.
+每个发动机上都有一对火花塞，按下位于两个油门握把后部的红色点火按钮即可起动发动机。作为起动程序的一
+部分，按下按钮可点燃火花塞，开始第四和第五燃烧室中的燃烧。
 
-### Cage Button
+### 锁定按钮
 
 ![pilot_cage_button](../../../img/pilot_cage_button.jpg)
 
-In the event that
-an [AIM-7](../../../stores/air_to_air/aim_7.md), [AIM-9](../../../stores/air_to_air/aim_9.md),
-or the [M61A1](../../../stores/guns.md) must be employed
-against an airborne target with
-the [sight](../../../cockpit/pilot/dscg_controls.md#sight-mode-knob)
-in A/G mode (for example, the flight is bounced by
-opposing aircraft),
-the [optical sight](../../../cockpit/pilot/dscg_controls.md#sight-mode-knob)
-reticle can immediately be slewed to the
-Radar Boresight Line using the Cage Button, found on the inboard (right)
-throttle handle. Cage mode commands [the radar](../../../systems/radar/overview.md)
-into [BST mode](../../../systems/radar/interface.md#bst-boresight-position) with a five mile
-range, and short pulse, and sets the firing circuit for the currently selected
-air-to-air weapon relative to the Pinky Switch. For
-the [optical sight](../../../cockpit/pilot/dscg_controls.md#sight-mode-knob),
-the command activates the respective elevation and azimuth tracking, roll mark, and
-range functions of the reticle for the chosen weapon, without the pilot having
-to remove a hand from throttle or stick to swap the sight mode or weapon control
-panel functions.
+如果 [AIM-7](../../../stores/air_to_air/aim_7.md) 、[AIM-9](../../../stores/air_to_air/aim_9.md) 或
+[M61A1](../../../stores/guns.md) 必须在
+[瞄准具](../../../cockpit/pilot/dscg_controls.md#sight-mode-knob) 处在 A/G 模式的情况下向空中目标发
+射（例如，飞行被敌机干扰开来），则可使用内侧油门握把（右侧）的锁定按钮立即将
+[光学瞄准具](../../../cockpit/pilot/dscg_controls.md#sight-mode-knob) 的准星移动到雷达瞄准线上。锁
+定模式将指令 [雷达](../../../systems/radar/overview.md) 进入
+[BST 模式](../../../systems/radar/interface.md#bst-boresight-position)，距离 5 海里、短脉冲并为小指
+开关当前选择的空对空武器设置发射电路。锁定指令将激活选定武器在
+[光学瞄准具](../../../cockpit/pilot/dscg_controls.md#sight-mode-knob) 中的仰角和方位角跟踪、横滚标
+记和准星的距离功能，飞行员无需将手从油门或驾驶杆上移开，即可切换瞄准具模式或武器控制面板功能。
 
-### Dispense Button
+### 布撒按钮
 
 ![pilot_throttle_cm_dispense](../../../img/pilot_dispense_button.jpg)
 
-When pressing the dispense button chaff/flare dispensing is initiated as set on
-[the CCU](../../../systems/defensive_systems/countermeasures.md#anale-40-cockpit-control-unit-ccu)
-and [AN/ALE-40 programmer](../../../systems/defensive_systems/countermeasures.md#anale-40-programmer)
-if the flaps and speed brakes are retracted and the flares select switch is set to NORMAL.
-Additionally single unit flare
-dispensing can be initiated by a single button press if the flares select switch
-is set to FLARES.
+在襟翼和减速板收起，且红外干扰弹选择开关设置到 NORMAL 的情况下，按下布撒按钮来按照
+[CCU](../../../systems/defensive_systems/countermeasures.md#anale-40-cockpit-control-unit-ccu) 和
+[AN/ALE-40 编程器](../../../systems/defensive_systems/countermeasures.md#anale-40-programmer) 中设
+定的程序布撒箔条/红外干扰弹。此外，如果红外干扰弹选择开关设置到 FLARES，那么按下一次按钮将布撒单发
+红外干扰弹。
 
-### Speed Brake
+### 减速板
 
 ![pilot_speed_brake](../../../img/pilot_speed_brake.jpg)
 
-The Speed Brakes are actuated by a three position switch found on the inboard
-throttle in both cockpits. Either switch will actuate the brakes. The positions
-are Out, Stop, and In; the Out position is momentary and reverts back to Stop when released.
-For further information see
-[3.1.2 Flight Control Surfaces chapter](../../../systems/flight_controls_gear/flight_controls.md#speed-brakes).
+机组可以在两个驾驶舱中的内侧油门握把上找到三档位开关来控制减速板。两个开关都可控制减速板。减速板开
+关的档位为展开、停止和收起；展开档位为自复位并在松开时复位至停止档位。详见
+[3.1.2 飞行操纵面](../../../systems/flight_controls_gear/flight_controls.md#speed-brakes)。
 
-### Mic Switch
+### 传声开关
 
 ![pilot_intercom_mic_switch](../../../img/pilot_mic_switch.jpg)
 
-The microphone switch for the [Intercom System](../../../systems/nav_com/intercom.md) is the aft
-position on the inboard throttle grip in both cockpits. When using the intercom, all audio sans the
-pull-up tone, stall warning, and ECM are reduced (same as RADIO OVERRIDE). In the fwd position the
-switch will enable transmitting over radio.
+[内话系统](../../../systems/nav_com/intercom.md) 的传声可通过向后拨动两个驾驶舱中内侧油门握把上的传
+声开关来实现。使用内话时，除拉起单音、失速警告和 ECM 外，所有音频音量都会降低（与 RADIO OVERRIDE 相
+同）。在向前拨动开关将启用无线电传输。
 
-### Pinky Switch
+### 小指开关
 
 ![pilot_pinky_switch](../../../img/pilot_throttle_pinky_switch.jpg)
 
-The guns/missile (pinky switch) is a four position switch which performs the weapon select function
-for guns(aft), radar(fwd) and heat missiles(center) and performs station select functions(up) for
-the heat missile. The UP position is a springloaded position.
+航炮/导弹（小指开关）是一个四档位开关，功能分别为选择航炮（后）、雷达（前）、红外制导弹和执行红外制
+导弹挂点选择功能（上）。向上（UP）档位带弹簧归中。

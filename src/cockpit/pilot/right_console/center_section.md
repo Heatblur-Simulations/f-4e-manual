@@ -1,212 +1,186 @@
-# Center Section
+# 中部
 
-The center area of the right console contains IFF and lighting controls.
+右侧控制台的中间区域包括 IFF 和灯光控制开关/按钮。
 
-## IFF Control Panel
+## IFF 控制面板
 
 ![IFF](../../../img/pilot_iff_panel.jpg)
 
-As opposed to the Interrogator panel in the WSO cockpit, this panel provides
-the pilot with the ability to adjust the IFF transponder of the own aircraft.
-Which would then be picked up by interrogators in other aircraft.
+与 WSO 驾驶舱中的问询器面板不同，该面板可让飞行员调整本机的 IFF 应答机。然后，其它飞机上的问询器就
+会收到应答信息。
 
-> 💡 Due to engine limitations, the settings on the panel have no effect for DCS.
-> However, they are exposed to external tools, such as SRS.
+> 💡 由于模拟器的限制，在 DCS 中该面板的设置无功能。> 不过，设置会影响外部工具，例如 SRS。
 
-For further explanation see
-the [IFF System controls chapter](../../../systems/identification_systems.md#iff-controls-and-indicators).
+更多介绍请参加
+[IFF 系统控制开关/按钮章节](../../../systems/identification_systems.md#iff-controls-and-indicators)。
 
-### Master switch
+### 主开关
 
-The master switch is a five position rotary with following controls:
+主开关是一个五档位旋钮，具有以下控制功能：
 
-| Position | Operation                                                                                                                                                                                                                                       |
-|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Off      | Identification system de-energized.                                                                                                                                                                                                              |
-| STBY     | Full Power supplied to the system but with interrogations blocked.                                                                                                                                                                              |
-| LOW      | System operates with reduced sensitivity.                                                                                                                                                                                                       |
-| NORM     | System operates at full sensitivity.                                                                                                                                                                                                            |
-| EMER     | Allows the system to respond to interrogations in Modes 1, 2 and 3/A. The reply for Modes 1 and 2 is a special emergency signal of the codes selected on the applicable dials, while Mode 3/A replies are special emergency signals of code 7700. |
+| 档位 | 操作                                                                                                                                         |
+| ---- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Off  | 识别系统断电。                                                                                                                               |
+| STBY | 系统完整通电但屏蔽问询。                                                                                                                     |
+| LOW  | 系统以低灵敏度工作。                                                                                                                         |
+| NORM | 系统以完整灵敏度工作。                                                                                                                       |
+| EMER | 允许系统响应模式 1、2 和 3/A 的问询。模式 1 和 2 的应答是使用相应拨轮上所选编码的特殊应急信号，而模式 3/A 的应答是编码 7700 的特殊应急信号。 |
 
-### Mode 1 Selector Switch
+### 模式 1 选择开关
 
-The three position Mode 1 Selector switch controls the mode 1 operation:
+三档位模式 1 选择开关控制模式 1 的工作模式：
 
-| Position | Operation                        |
-|----------|----------------------------------|
-| M-1      | Self test position (Inoperative) |
-| ON       | Enables Mode 1 for operation.    |
-| Out      | Disables Mode 1                  |
+| 档位 | 操作             |
+| ---- | ---------------- |
+| M-1  | 自检档位（无效） |
+| ON   | 启用模式 1。     |
+| Out  | 禁用模式 1       |
 
-### Mode 2 Selector Switch
+### 模式 2 选择开关
 
-The three position Mode 2 Selector switch controls the mode 2 operation:
+三档位模式 2 选择开关控制模式 2 的工作模式：
 
-| Position | Operation                                                            |
-|----------|----------------------------------------------------------------------|
-| M-2      | Self test position. Light illuminates if mode is operating properly. |
-| ON       | Enables Mode 2 for operation.                                        |
-| Out      | Disables Mode 2                                                      |
+| 档位 | 操作                                     |
+| ---- | ---------------------------------------- |
+| M-2  | 自检档位。如果模式正常工作，指示灯亮起。 |
+| ON   | 启用模式 2。                             |
+| Out  | 禁用模式 2                               |
 
-### Mode 3/A Selector Switch
+### 模式 3/A 选择开关
 
-The three position Mode 3/A Selector switch controls the mode 3/A operation:
+三档位模式 3/A 选择开关控制模式 3/A 的工作模式：
 
-| Position | Operation                                                            |
-|----------|----------------------------------------------------------------------|
-| M-3/A    | Self test position. Light illuminates if mode is operating properly. |
-| ON       | Enables Mode 3/A for operation.                                      |
-| Out      | Disables Mode 3/A                                                    |
+| 档位  | 操作                                     |
+| ----- | ---------------------------------------- |
+| M-3/A | 自检档位。如果模式正常工作，指示灯亮起。 |
+| ON    | 启用模式 3/A。                           |
+| Out   | 禁用模式 3/A                             |
 
-### Mode C Selector Switch
+### 模式 C 选择开关
 
-The three position Mode C Selector switch controls the mode C operation:
+三档位模式 C 选择开关控制模式 C 的工作模式：
 
-| Position | Operation                        |
-|----------|----------------------------------|
-| M-C      | Self test position (Inoperative) |
-| ON       | Enables Mode C for operation.    |
-| Out      | Disables Mode C                  |
+| 档位 | 操作             |
+| ---- | ---------------- |
+| M-C  | 自检档位（无效） |
+| ON   | 启用模式 C。     |
+| Out  | 禁用模式 C       |
 
-### Mode 1 and Mode 3/A Code selectors
+### 模式 1 和模式 3/A 编码选择拨轮
 
-The Mode 1 code selector is used to select Mode 1 codes from 00 to 73. The Mode 3/A code selector
-is used to select Mode 3/A codes from 0000 to 7777.
+模式 1 编码选择拨轮用于在 00 至 73 之间选择模式 1 编码。模式 3/A 编码选择拨轮用于在 0000 至 7777 之
+间设置模式 3/A 编码。
 
-### Mode 4 Selector Switch
+### 模式 4 选择开关
 
-The two position Mode 4 Selector switch controls the mode 4 operation:
+二档位模式 4 选择开关控制模式 4 的工作模式：
 
-| Position | Operation                                                                                                                                                         |
-|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ON       | Enables Mode 4 for Operation.                                                                                                                                     |
-| Out      | Inhibits Mode 4 from replying. If Mode 4 code is inserted, an interrogation will cause the IFF warning light and the MASTER CAUTION light to come on momentarily. |
+| 档位 | 操作                                                                                            |
+| ---- | ----------------------------------------------------------------------------------------------- |
+| ON   | 启用模式 4。                                                                                    |
+| Out  | 禁止模式 4 应答。如果插入了模式 4 编码，收到问询将导致 IFF 告警灯和 MASTER CAUTION 灯短暂亮起。 |
 
-### Mode 4 Indication Switch
+### 模式 4 指示开关
 
-The Mode 4 indication switch features positions for AUDIO, OUT, and LIGHT.
+模式 4 指示开关有 AUDIO、OUT 和 LIGHT 三个档位。
 
-In the AUDIO position, an
-audio signal indicates reception of Mode 4 interrogations, and the Mode 4 REPLY light illuminates
-during transmissions. In the LIGHT position, the Mode 4 REPLY light illuminates when Mode 4 replies
-are transmitted, and audio is not present. In the OUT position, both light and audio indications are
-inactive.
+在 AUDIO 档位，播放音频信号表示接收到模式 4 问询，模式 4 REPLY 指示灯在传输过程中亮起。在 LIGHT 档
+位，，模式 4 REPLY 灯在传输模式 4 应答时亮起，但不播放音频。在 OUT 档位，指示灯和音频指示均被停用。
 
-To test the press-to-test Mode 4 reply indicator light, the indication switch must be in
-the AUDIO or LIGHT position.
+如需测试按下测试模式 4 应答指示灯，必须将指示开关拨至 AUDIO 或 LIGHT 档位。
 
-### Mode 4 Function Switch
+### 模式 4 功能开关
 
-The Mode 4 function switch has positions of ZERO, B, A, and HOLD.
+模式 4 功能开关有 ZERO、B、A 和 HOLD 档位。
 
-In the A position, the transponder
-responds to Mode 4 interrogations with the same setting as set into the A position, and in the B
-position, it responds to interrogations with the same code setting as set into the B position. If
-the switch is in the wrong position for the code being interrogated (e.g., in A with B
-interrogation), the IFF warning light and MASTER CAUTION light will not activate.
+在 A 档位时，应答机将响应同样设置在 A 档位的问询器问询；在 B 档位，应答机将响应同样设置在 B 档位编
+码的问询器问询。如果开关的档位与被问询的编码不符（例如，在 A 档位被 B 档位问询器问询），那么接收
+IFF 告警灯和 MASTER CAUTION 灯不会亮起。
 
-> 💡 Code settings for
-> A and B positions are inserted before flight and can be zeroed by placing the switch to ZERO.
+> 💡 > A 和 B 档位的编码设置需要在飞行前插入，飞行员可将开关转动至 ZERO 来擦除编码。
 
-The
-HOLD position is not used in flight but retains the code setting if another flight is anticipated
-during the code period. Momentarily positioning the switch to HOLD after landing, waiting 15
-seconds, and then turning off the IFF master switch and radar power knob retains the code with the
-power off.
+飞行中不使用 HOLD 档位，但如果预计在编码周期内有另一次飞行任务，可用 HOLD 档位保留编码设置。着陆后
+将开关短暂转至 HOLD 档位，等待 15 秒，然后关闭 IFF 主开关和雷达电源旋钮，以此在断电的情况下保留编码
+。
 
-Illumination of the IFF warning light and MASTER CAUTION light can be caused by internal
-component failure, failure to respond to a valid interrogation, or a zeroized code.
+IFF 告警灯和 MASTER CAUTION 灯亮起的原因可能是内部部件故障、未能对有效问询做出响应或编码擦除。
 
-### Monitor-Radiation Test Switch
+### 监控-辐射测试开关
 
-This switch has three positions, RAD TEST, MON and OUT. It is intended for tests by
-the ground crew and should be set to OUT and not used during flight.
+开关有三个档位：RAD TEST、MON 和 OUT。开关用于地勤人员进行测试，机组应将开关设置到 OUT 档位，飞行期
+间不得使用。
 
-### Identification of Position Switch
+### 位置识别开关
 
-The Identification switch is a three position toggle switch used to provide momentary identification
-of position.
+识别开关是一个三档位切换开关，用于提供短时位置识别。
 
-| Position | Operation                                                                                                                                                                                     |
-| -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| IDENT    | Allows the system to respond with identification of position replies in all modes that are being used. The response is continued for a 15 to 30 second duration after the switch is released. |
-| OUT      | Disables identification of position capability.                                                                                                                                               |
-| MIC      | Same as positioning the switch to IDENT, except that the UHF microphone button must be used to trigger the identification.                                                                    |
+| 档位  | 操作                                                                               |
+| ----- | ---------------------------------------------------------------------------------- |
+| IDENT | 允许系统在所有正在使用的模式下执行位置识别回复。松开开关后，响应持续 15 至 30 秒。 |
+| OUT   | 禁用位置识别功能。                                                                 |
+| MIC   | 与将开关拨至到 IDENT 档位功能相同，但必须使用 UHF 传声按钮来触发识别。             |
 
-## DCU-94A Stores Control-Monitor Panel
+## DCU-94A 挂载控制-监控面板
 
 ![DCU94](../../../img/pilot_dcu_panel.jpg)
 
-This panel is used to control and test the separate release circuit system for
-nuclear stores.
+该面板用于控制和测试核挂载的独立投放电路系统。
 
-Nuclear stores are separated from the regular release system to prevent
-accidental release.
+核挂载与常规投放系统隔离，以防止意外投放核武。
 
-> 💡 This is not simulated in-game.
+> 💡 游戏中未模拟。
 
-## Temperature Control
+## 温度控制
 
 ![PilTemp](../../../img/pilot_temp_control.jpg)
 
-The knob can be used with the switch in the AUTO position and
-allows the pilot to set the temperature inside both cockpits
-from COLD to HOT for crew comfort.
+旋钮可在开关处于 AUTO 档位时使用，飞行员可从 COLD 到 HOT 设置两个驾驶舱内的温度，以保证机组人员的舒
+适性。
 
-Should the AUTO system fail, the switch can be placed in either
-a manual mode.
+如果自动系统故障，开关可以拨至手动模式。
 
-The center position of the switch turns the system off.
+开关拨至中立档位将关闭系统。
 
-## Cockpit Lighting Control Panel
+## 驾驶舱照明控制面板
 
 ![PilCockLights](../../../img/pilot_cockpit_lights.jpg)
 
-The Cockpit Lighting Control Panel provides control of all panel edge lighting,
-flight instrument panel lighting, the console floodlights, the white floodlights
-found under the canopy sill over each console, and also includes the Warning
-Light Test/Standby Compass Light switch.
+驾驶舱照明控制面板中包括控制所有面板边缘照明、飞行仪表板照明、控制台泛光灯、每个位于控制台上方的白
+色泛光灯以及告警灯测试/备用罗盘灯的开关。
 
-For further information about lighting see
-the [lighting chapter.](../../../systems/lighting.md#interior-lighting)
+关于照明的详细信息请阅读 [照明章节。](../../../systems/lighting.md#interior-lighting)
 
-### White Floodlight
+### 白色泛光灯
 
-The White Floodlight switch acts independent of all other controls on the panel,
-and is either ON or OFF. It activates a separate emergency floodlight (also
-called Thunderstorm Light) that illuminates the cockpit in white.
+白色泛光灯开关独立于面板上的所有其它控制开关/旋钮进行工作，可以拨至 ON 或 OFF 档位。开关将打开一个
+单独的应急泛光灯（也称为灯），以白光照亮驾驶舱。
 
-### Instrument Panel Knob
+### 仪表板旋钮
 
-This knob controls the background illumination of the instrument panel,
-as well as edge lighting for most of its gauges.
+仪表板旋钮可控制仪表板的背光以及大部分仪表的边缘照明。
 
-> 💡 The main flight instruments are controlled via the
-> [Flight Instrument Brightness Knob](../weapon_management.md#flight-instrument-brightness-knob)
-> instead.
+> 💡 主要飞行仪表通过 >
+> [飞行仪表亮度旋钮](../weapon_management.md#flight-instrument-brightness-knob) > 进行控制。
 
-### Console Knob
+### 控制台旋钮
 
-The Console Light Control Knob, with range from OFF to BRT, controls the
-illumination level for the left and right console.
+控制台照明控制旋钮的可从 OFF 转动到 BRT，用于控制左右控制台的照明亮度。
 
-### Console Floodlight
+### 控制台泛光灯
 
-This switch controls the lighting level of red floodlights
-providing general lighting for the consoles. Three settings are available: DIM, MED and BRT.
+控制台泛光灯开关用来控制控制台整体照明红色泛光灯的亮度。有三个档位可供选择，分别是： DIM、MED 和
+BRT。
 
-> 💡 To turn them off, place the switch in DIM
-> and the Console Knob in OFF.
+> 💡 如需关闭红色泛光灯，将开关拨至 DIM > 并将控制台旋钮转至 OFF。
 
-> 💡 Floodlights for the Instrument Panel are found on the [right wall](wall.md#instrument-flood).
+> 💡 仪表板泛光灯照明控制位于 [右侧防火墙中](wall.md#instrument-flood)。
 
-### Warning Light Test Switch
+### 告警灯测试开关
 
-The Warning Light Test Switch (Marked WARN LT TEST) is a three-position switch;
-in the WARN LT TEST position, confirms function of the various emergency
-indicators in the cockpit.
+告警灯测试开关（标为 WARN LT TEST）是一个三档位开关；在 WARN LT TEST 档位，可确认驾驶舱内各种应急指
+示灯是否正常工作。
 
-In the STBY COMP position, it illuminates the light
-for the [Standby Compass](../../pilot/overhead_indicators.md#standby-magnetic-compass).
+在 STBY COMP 档位，系统将打开
+[备用罗盘](../../pilot/overhead_indicators.md#standby-magnetic-compass) 灯光。
 
-Both functions are deactivated when the switch is placed in the OFF position.
+当开关拨至 OFF 档位时，上述两项功能都将被停用。

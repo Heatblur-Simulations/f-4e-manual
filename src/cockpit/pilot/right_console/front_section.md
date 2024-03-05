@@ -1,269 +1,214 @@
-# Front Section
+# 前部
 
-The front section of the right console is dominated by
-communication and navigation controls.
+右侧控制台的前部主要由通信和导航控制开关和按钮组成。
 
-## Master Caution Reset
+## 主注意复位
 
 ![MCRst](../../../img/pilot_master_caution_reset.jpg)
 
-Used to extinguish [telelight panel](../../../systems/emergency.md#telelight-panel) warnings and
-the [Master Caution warning](../../../systems/emergency.md#master-caution) lamp
-once the necessary action has been taken. In the event a fault has not been
-effectively corrected, pressing the Master Caution Reset button will not turn
-the respective warning off.
+用于在采取必要行动后熄灭 [远传信号灯面板](../../../systems/emergency.md#telelight-panel) 告警和
+[主注意告警](../../../systems/emergency.md#master-caution) 灯。如果未能有效故障排除，按下主注意复位
+按钮也不会关闭对应的告警。
 
-## TACAN Control Panel
+## TACAN 控制面板
 
 ![FrontTCN](../../../img/pilot_tacan.jpg)
 
-The [TACAN](../../../systems/nav_com/tacan.md) Control Panel is used to enter the
-desired [TACAN](../../../systems/nav_com/tacan.md) channel, mode, and
-audible volume for the monitoring of said channel by the aircrew. The panel is
-duplicated in both cockpits, and the panel in command of
-the [TACAN](../../../systems/nav_com/tacan.md) receiver is
-selected with the NAV CMD button of the Communication Control Panel.
+[TACAN](../../../systems/nav_com/tacan.md) 控制面板用于输入所需的
+[TACAN](../../../systems/nav_com/tacan.md) 波道、模式和音量，以便机组守听波道。两个驾驶舱中都有控制
+面板，机组可通过通信控制面板上的 NAV CMD 按钮选择控制 [TACAN](../../../systems/nav_com/tacan.md) 接
+收机的面板。
 
-### Channel Knobs
+### 波道旋钮
 
-On the control panel there are two Navigation Channel Control knobs, with the
-left controlling the first two digits of the channel value (hundreds and tens),
-and the right controls the single unit (ones) values. The right knob also
-includes an outer ring which sets the X or Y value for the
-desired [TACAN](../../../systems/nav_com/tacan.md)
-channel.
+控制面板上有两个导航波道控制旋钮，左侧控制波道值的前两位数（百和十），右侧控制单位数（一）值。右侧
+旋钮还包括一个外环，用于设置所需的 [TACAN](../../../systems/nav_com/tacan.md) 波道的 X 或 Y 波段。
 
-### Test Button and Lamp
+### 测试按钮和灯光
 
-Between these two knobs is the TEST button, which performs the ground testing
-cycle after warmup, and can also be used to perform an in-flight confidence test
-of the system's performance.
+这两个旋钮之间是 TEST 按钮，用于执行预热后的地面测试循环，也可用于对系统性能进行飞行信心测试。
 
-The lamp above the button illuminates to indicate test status.
+按钮上方的灯亮起指示测试状态。
 
-See [7.19.4 Navigation test chapter](../../../procedures/bit_tests/navigation_tests.md#tacan-test)
-for further information.
+详见 [7.19.4 导航测试章节](../../../procedures/bit_tests/navigation_tests.md#tacan-test)。
 
-### Volume Knob
+### 音量旋钮
 
-To the upper right, the VOL knob is available to set the desired audio level for
-the received [TACAN](../../../systems/nav_com/tacan.md) station.
+右上方的音量旋钮可用于设置接收到的 [TACAN](../../../systems/nav_com/tacan.md) 台的音量。
 
-### Function Selector
+### 功能选择旋钮
 
-The [TACAN](../../../systems/nav_com/tacan.md) Function Selector Knob determines the presentation
-and type of
-information provided on
-the [HSI,](../../pilot/flight_director_group.md#horizontal-situation-indicator) [ADI](../../pilot/flight_director_group.md#attitude-director-indicator),
-and [BDHI,](../../wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi)
-respectively.
+[TACAN](../../../systems/nav_com/tacan.md) 功能选择旋钮分别决定在
+[HSI](../../pilot/flight_director_group.md#horizontal-situation-indicator)、[ADI](../../pilot/flight_director_group.md#attitude-director-indicator),
+和 [BDHI](../../wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi) 上提供的信息类型
+和显示方式。
 
-| Name    | Description                                                                                                                                                                                                                                                                                                                                                                    |
-|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| OFF     | The [TACAN](../../../systems/nav_com/tacan.md) receiver is de-energized and offline.                                                                                                                                                                                                                                                                                           |
-| REC     | The [TACAN](../../../systems/nav_com/tacan.md) receiver is active, providing bearing information on the [HSI](../../pilot/flight_director_group.md#horizontal-situation-indicator), [BDHI](../../wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi), and [ADI](../../pilot/flight_director_group.md#attitude-director-indicator).                              |
-| T/R     | Both the receive and transmit functions of the [TACAN](../../../systems/nav_com/tacan.md) are active, which provide bearing and nautical mile range information for the [HSI](../../pilot/flight_director_group.md#horizontal-situation-indicator) and [BDHI](../../wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi).                                        |
-| A/A REC | The [TACAN](../../../systems/nav_com/tacan.md) receiver decodes bearing information from compliant aircraft for the [HSI](../../pilot/flight_director_group.md#horizontal-situation-indicator), [BDHI](../../wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi), and [ADI](../../pilot/flight_director_group.md#attitude-director-indicator) steering display. |
-| A/A TR  | The [TACAN](../../../systems/nav_com/tacan.md) receiver receives both bearing and slant range information in nautical miles from the transmitting aircraft, providing this on the [HSI](../../pilot/flight_director_group.md#horizontal-situation-indicator) and [BDHI](../../wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi).                              |
+| 名称    | 描述                                                                                                                                                                                                                                                                                                                                  |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| OFF     | [TACAN](../../../systems/nav_com/tacan.md) 接收机断电并脱机。                                                                                                                                                                                                                                                                         |
+| REC     | [TACAN](../../../systems/nav_com/tacan.md) 接收机通电，在 [HSI](../../pilot/flight_director_group.md#horizontal-situation-indicator)、[BDHI](../../wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi) 和 [ADI](../../pilot/flight_director_group.md#attitude-director-indicator) 中提供方位信息。                     |
+| T/R     | 激活[TACAN](../../../systems/nav_com/tacan.md) 的收发功能，将为 [HSI](../../pilot/flight_director_group.md#horizontal-situation-indicator)、[BDHI](../../wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi) 和 [ADI](../../pilot/flight_director_group.md#attitude-director-indicator) 提供海里为单位的距离信息。     |
+| A/A REC | [TACAN](../../../systems/nav_com/tacan.md) 接收机解码兼容飞机传输的方位信息并提供给 [HSI](../../pilot/flight_director_group.md#horizontal-situation-indicator)、[BDHI](../../wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi) 和 [ADI](../../pilot/flight_director_group.md#attitude-director-indicator) 转向显示。 |
+| A/A TR  | [TACAN](../../../systems/nav_com/tacan.md) 接收机接受飞机传输的方位和距离信息并在 [HSI](../../pilot/flight_director_group.md#horizontal-situation-indicator) 和 [BDHI](../../wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi) 中显示。                                                                              |
 
-> 💡 Air to Air [TACAN](../../../systems/nav_com/tacan.md) functionality requires the channel to be
-> set 63 channels above or below the cooperating aircraft, but on the same range- X or Y. So a
-> tanker on 123Y should be set to 60Y in the F-4.
+> 💡 空对空 [TACAN](../../../systems/nav_com/tacan.md) 功能要求将波道 > 设置为高于或低于协作飞机
+> 63，但波段相同 - X 或 Y。即，一架 > 加油机在 123Y，F-4 应当设置为 60Y。
 
-## Communication Control Panel
+## 通信控制面板
 
 ![CCP](../../../img/pilot_comm_control_panel.jpg)
 
-The Communication Control Panel provides selection and mode of
-the [UHF radio](../../../systems/nav_com/uhf.md) in the aircraft.
+飞行员可在通信控制面板中操作 [UHF 电台](../../../systems/nav_com/uhf.md) 开关和模式。
 
-### Command Buttons
+### 指令按钮
 
-The panel is duplicated in both cockpits, and control over the
-radio is determined through pushing the COMM CMD Button in the respective seat;
-the button will illuminate green in the seat in priority. In the same fashion,
-the NAV CMD button dictates which seat has control of the [TACAN](../../../systems/nav_com/tacan.md)
-settings; its
-button will also illuminate on the panel of the seat that has command (control)
-of the system.
+两个驾驶舱中的面板是相同的，通过按下各自驾驶舱中的 COMM CMD 按钮来决定电台的控制权；亮绿灯表示为优
+先的驾驶舱。同样，NAV CMD 按钮决定了哪个驾驶舱可以控制 [TACAN](../../../systems/nav_com/tacan.md)
+设置；拥有系统指挥（控制）权的驾驶舱将量绿灯表示。
 
-### Radio Volume
+### 电台音量
 
-Beneath the COMM CMD button is the radio volume for the respective seat.
+COMM CMD 按钮下方是对应驾驶舱的无线电台音量调整旋钮。
 
-### Squelch Switch
+### 静噪开关
 
-Close to the NAV CMD button is the Squelch switch, which enables or disables receiver
-squelch.
+靠近 NAV CMD 按钮的是静噪开关，用于启用或禁用接收机静噪。
 
-### Frequency and Channels
+### 频率和波道
 
-The A-3-2-T Selector knob sets the first digit of the manually selected frequency
-(3 or 2) of the [UHF radio](../../../systems/nav_com/uhf.md).
+A-3-2-T 选择旋钮设置 [UHF 无线电台](../../../systems/nav_com/uhf.md) 手动选择频率（3 或 2）的首位数
+字。
 
-> 💡 Due to engine limitations, modes A and T,
-> belonging to the HAVE-Quick functionality, are not simulated.
+> 💡 由于模拟器的限制，未模拟属于 HAVE-Quick 功能的 > 模式 A 和 T。
 
-The four Frequency Selection Knobs work in concert with the A-3-2-T knob and
-Preset/Manual switch. Frequencies are entered beginning with the 3 or 2
-selection on the A-3-2-T Selector, and can be entered from 225.00 to 399.975 MHz
-in increments of 0.025. With Preset/Manual in the Manual position, the UHF radio
-is directly set to the displayed channel. In the Preset position, the set
-channels can be entered into the COMM CHAN memory, with the desired position
-selected with the Comm Channel Control knob - the smaller knob to the left of the
-Preset/Manual switch, and displayed in the COMM CHAN window. Channels are stored
-in the displayed channel preset with the SET pushbutton. Once stored, channels
-are directly selected using the Comm Channel Control knob with the Preset/Manual
-switch in the Preset position.
+四个频率选择旋钮与 A-3-2-T 旋钮和预设/手动开关协同工作。从 A-3-2-T 选择旋钮上的 3 或 2 开始输入频率
+，频率输入区间为 225.00 至 399.975 MHz，增量为 0.025。当预设/手动开关处于手动档位时，UHF 电台将直接
+设置到显示出的波道。在预设档位，可以将设定的波道输入 COMM CHAN 存储器中，并通过通信波道控制旋钮（预
+设/手动开关左侧较小的旋钮）选择所需的档位，然后显示在 COMM CHAN 窗口中。使用 SET 按钮可将波道存储到
+显示出的预设波道中。存储波道后，可在预设/手动开关处于预设档位时使用通信波道控制旋钮直接选择预设波道
+。
 
-Directly underneath the Comm Channel Control Knob is the Aux Channel Knob and
-Indicator. This knob is used to access 20 common preset channels that cannot be
-changed from in the cockpit.
+位于通信波道控制旋钮正下方是辅助波道旋钮和指示灯。控制旋钮用于访问 20 个无法在驾驶舱内更改的常用预
+设波道。
 
-The Aux Volume Control knob on the lower right of the panel
-raises and lowers the volume of the Aux receiver channel.
+面板右下方的辅助音量控制旋钮可以提高或降低辅助接收机通道的音量。
 
-### Tone Button
+### 音调按钮
 
-The Tone Pushbutton is used for transmission of a Time of Day (TOD) signal along with a tone
-to friendly aircraft requiring a Time of Day update for proper HAVE-Quick functionality.
+音调按钮用于向需要更新日分时的友机传输日分时 (TOD) 信号和音调，以确保 HAVE-Quick 功能正常运行。
 
-> 💡 Due to engine limitations, the tone button,
-> belonging to the HAVE-Quick functionality, is not simulated.
+> 💡 由于模拟器的限制，未模拟属于 HAVE-Quick 功能的 > 音调按钮。
 
-### Comm Function Selector
+### 通信功能旋钮
 
-The Comm Function Selector Knob determines the current configuration of the
-radio system.
+通信功能选择旋钮决定无线电台系统的当前配置。
 
-| Name      | Description                                                                |
-|-----------|----------------------------------------------------------------------------|
-| OFF       | All UHF Radios off.                                                        |
-| T/R ADF   | Comm receiver - comm reception.                                            |
-|           | Comm transmitter - comm transmission.                                      |
-|           | Comm guard receiver - standby.                                             |
-|           | Aux receiver - ADF reception.                                              |
-| T/R+G ADF | Comm receiver - comm reception.                                            |
-|           | Comm transmitter - comm transmission.                                      |
-|           | Comm guard receiver - guard reception.                                     |
-|           | Aux receiver - ADF reception.                                              |
-| ADF+G CMD | Comm receiver - ADF reception.                                             |
-|           | Comm transmitter - comm transmission. ADF interrupted during transmission. |
-|           | Comm guard receiver - guard reception on ADF antenna.                      |
-|           | Aux receiver- comm reception.                                              |
-| ADF+G     | Comm receiver - ADF reception.                                             |
-|           | Comm transmitter - comm transmission. ADF interrupted during transmission. |
-|           | Comm guard receiver - standby.                                             |
-|           | Aux receiver- guard reception.                                             |
-| Guard ADF | Comm receiver - guard reception.                                           |
-|           | Comm transmitter - guard transmission.                                     |
-|           | Comm guard receiver - standby.                                             |
-|           | Aux receiver - ADF reception.                                              |
+| 名称      | 描述                                         |
+| --------- | -------------------------------------------- |
+| OFF       | 所有 UHF 电台关闭。                          |
+| T/R ADF   | 通信接收机 - 接收通信。                      |
+|           | 通信发射机 - 通信传输。                      |
+|           | 通信救生接收机 - 待机                        |
+|           | 辅助接收机 - 接收 ADF。                      |
+| T/R+G ADF | 通信接收机 - 接收通信。                      |
+|           | 通信发射机 - 通信传输。                      |
+|           | 通信救生接收机 - 接收救生通信。              |
+|           | 辅助接收机 - 接收 ADF。                      |
+| ADF+G CMD | 通信接收机 - 接收 ADF。                      |
+|           | 通信发射机 - 通信传输。传输时中断 ADF 。     |
+|           | 通信救生接收机 - 使用 ADF 天线接收救生通信。 |
+|           | 辅助接收机- 接收通信。                       |
+| ADF+G     | 通信接收机 - 接收 ADF。                      |
+|           | 通信发射机 - 通信传输。传输时中断 ADF 。     |
+|           | 通信救生接收机 - 待机                        |
+|           | 辅助接收机- 接收救生通信。                   |
+| Guard ADF | 通信接收机 - 接收救生通信。                  |
+|           | 通信发射机 - 传输救生。                      |
+|           | 通信救生接收机 - 待机                        |
+|           | 辅助接收机 - 接收 ADF。                      |
 
-## Utility Panel (Right)
+## 公用面板（右侧）
 
 ![pilot_utility_panel](../../../img/pilot_utility_panel.jpg)
 
-The utility panel features an emergency vent handle for releasing over pressure in the cockpit.
-Furthermore, it features the Defog/Foot Heat Lever as well as the Generator control switches.
+公用面板上有一个应急通风手柄，用于释放驾驶舱内过高的压力。此外，面板还配有除雾/腿部加热杆以及发电机
+控制开关。
 
-## Cockpit Pressure
+## 驾驶舱压力
 
 ![Emergency Vent Handle](../../../img/pilot_cabin_pressure_gauge.jpg)
 
-### Cockpit Altitude Gauge
+### 座舱高度表
 
-Displays the current pressure inside the cockpit as a means of equivalent effective
-cabin altitude above mean sea level in 1000 of feet.
+显示驾驶舱内的当前气压，以 1000 英尺为单位表示平均海平面以上的等效有效座舱高度。
 
-That is, if the gauge reads 5, the pressure inside the cabin is equivalent to an altitude
-of 5000 ft altitude MSL.
+也就是说，如果压力表读数为 5，则座舱内的压力相当于在海拔 5000 英尺（MSL）处。
 
-To prevent sickness and hypoxia, the pressure should be observed and oxygen
-supply adjusted accordingly:
+为防止疾病和缺氧，应观察压力并相应调整供氧：
 
-| Pressure Range      | Description                                  |
-|---------------------|----------------------------------------------|
-| below 13000 ft      | Breath regular air                           |
-| 13000 ft - 40000 ft | Breath Oxygen through mask                   |
-| 40000 ft - 62000 ft | Breath pressurized Oxygen through mask       |
-| above 62000 ft      | Need to wear a pressure suit (not available) |
+| 压力区间                | 描述                     |
+| ----------------------- | ------------------------ |
+| 低于 13000 英尺         | 正常呼吸空气             |
+| 13000 英尺 - 40000 英尺 | 通过氧气面罩吸氧         |
+| 40000 英尺 - 62000 英尺 | 通过氧气面罩呼吸加压氧气 |
+| 超过 62000 英尺         | 需要穿戴代偿服（不可用） |
 
-See [Oxygen Chapter](../../../systems/utility.md#oxygen-system) for more information.
+详见 [氧气章节](../../../systems/utility.md#oxygen-system)。
 
-### Emergency Vent Handle
+### 应急通风手柄
 
 ![pilot_emergency_vent_handle](../../../img/pilot_emergency_vent_handle.jpg)
 
-A plug that can be pulled to release cockpit pressure. Putting it back in will
-seal the cabin again.
+可拔出插塞，用于释放座舱压力。将其塞回原位即可再次密封座舱。
 
-Without pressurization, the effective cabin altitude will be identical to the
-current altitude. Which, if flying at high altitudes, can result in hypoxia.
+如果没有进行座舱增压，有效座舱高度将与当前高度相同。如果在高空飞行，可能会导致缺氧。
 
-Should only be used if the pressurization system is malfunctioning and reads
-abnormal values, or to eliminate smoke and fumes from the cockpit. Descend to safe altitudes before
-activating.
+只有在增压系统发生故障并读出异常值，或为了消除驾驶舱内的雾气时才可使用。拔出插塞前应下降到安全高度
+。
 
-## Defog/Foot Heat Lever
+## 除雾/腿部加热杆
 
 ![Defog](../../../img/pilot_defog_lever.jpg)
 
-Provides pilot selectable volume of warm air to the windshield for de-icing purposes or footwell
-recesses for comfort or visibility.
+选择风挡吹风的暖风量来除冰，或提高腿部舒适度或能见度。
 
-It is possible, through selection of cold temperature settings,
-particularly on humid days, for the air conditioning system to deliver air at temperatures well
-below the dew-point, with resultant cockpit fogging. This fog can be dissipated by selecting a
-slightly warmer temperature.
+如选择低温设置，特别是在潮湿的日子里，空调系统有可能以远低于露点的温度送风，从而导致驾驶舱起雾。选
+择稍高的送风温度可以消除雾气。
 
-When operating in high humidity conditions, it is recommended that a
-warmer than normal temperature be selected, prior to starting the takeoff run, to preclude the
-possibility of cockpit fogging as thrust is increased. Should cockpit fogging occur, the quickest
-means of eliminating this condition is by activating the emergency vent knob.
+在高湿度条件下作业时，建议在开始起飞滑跑前选择比正常温度更高的温度，以降低在增加推力时驾驶舱出现起
+雾的可能性。如果驾驶舱起雾，最快的消除方法是启动应急通风旋钮。
 
-During cruise
-operations, prior to letdown, place the temperature control knob in the 2 o’clock position and the
-Defog/Foot Heat Lever to defog, to increase the defog temperature for windshield and canopy
-preheating. For airplanes without slats, if the flaps are lowered for letdown and fogging persists,
-retract the flaps or increase power (use speed brakes as necessary to maintain airspeed) to provide
-higher defogging air flow.
+在巡航作业期间，在下高之前，将温度控制旋钮置于 2 点钟方向，并将除雾/腿部加热杆拨至除雾档位，以提高
+除雾温度来对风挡和座舱盖进行预热。对于没有装备缝翼的飞机，如果放下襟翼进行下高并且雾气仍然存在，则
+应收上襟翼或增加推力（必要时使用减速板以保持空速），以提供更高的除雾气流。
 
-## Rain Removal Switch
+## 除雨开关
 
-If activated, bleed air from the engine is rerouted around the canopy
-to blow away any rain drops.
+启动除雨后，发动机引气将被导入座舱盖周围来吹走雨水。
 
-The system should not be used during dry conditions, as the hot air will
-heat up the windshield. If the glass reaches critical temperatures,
-the _WINDSHIELD TEMP HI_ warning on
-the [telelight panel](../../../systems/emergency.md#telelight-panel) will illuminate.
-In this case, the switch should be turned OFF immediately.
+飞行员不应在干燥条件下使用除雨系统，因为热空气会加热风挡玻璃。如果玻璃达到临界温度
+，[远传信号灯面板](../../../systems/emergency.md#telelight-panel) 中的*WINDSHIELD TEMP HI* 告警灯将
+会亮起。在这种情况下，应立即关闭开关。
 
-## Pitot Heat Switch
+## 皮托管加热开关
 
-Heats the pitot tube on the nose of the aircraft to prevent icing and thus
-erroneous sensor readings for all major flight instruments.
+加热位于机头的皮托管防止结冰，避免所有主要飞行仪表的传感器读数出错。
 
-For normal operations, this should always be activated prior to takeoff.
-But not left ON while on the ground for longer than one minute to prevent
-damage due to overheating.
+正常操作时，应始终在起飞前激活加热。但在地面上开启加热时间不得超过一分钟，以防过热导致皮托管损坏。
 
-See [3.1.1 Pitot-Static System](../../../systems/flight_controls_gear/primary_flight_instruments.md#pitot-static-system)
-for details.
+详见
+[3.1.1 皮托静压系统](../../../systems/flight_controls_gear/primary_flight_instruments.md#pitot-static-system)。
 
-## Generator Control Switches
+## 发动机控制开关
 
 ![GenCtl](../../../img/pilot_generator_switches.jpg)
 
-Control of each engine's respective electrical generator is provided by an
-individual switch.
+每台发动机的发电机有一个单独的控制开关。
 
-| Name          | Description                                                                        |
-|---------------|------------------------------------------------------------------------------------|
-| ON            | Generator is driven by engine accessory power and applied to electrical bus.       |
-| OFF           | Generator is offline.                                                              |
-| ON (EXTERNAL) | External power is supplied through generator bus connection for pre-startup needs. |
+| 名称          | 描述                                             |
+| ------------- | ------------------------------------------------ |
+| ON            | 发电机由 J79 发动机驱动并向总线供电。            |
+| OFF           | 发电机脱机。                                     |
+| ON (EXTERNAL) | 地面电源通过发电机总线供电来提供起动前用电所需。 |
 
-For further information see
-the [3.8 Electrics chapter.](../../../systems/electrics.md#generator-control-switches)
+更多信息参见 [3.8 电气章节。](../../../systems/electrics.md#generator-control-switches)

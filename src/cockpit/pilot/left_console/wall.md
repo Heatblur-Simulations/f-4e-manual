@@ -1,99 +1,89 @@
-# Left Wall
+# 左侧防火墙
 
-## SAI Panel
+## SAI 面板
 
 ![sai_panel](../../../img/pilot_sai_panel.jpg)
 
-The panel provides a circuit breaker and a knob to control the brightness for
-the [Standby Attitude Indicator.](../../pilot/flight_director_group.md#standby-attitude-indicator)
+面板上有一个断路器和一个用于控制
+[备用姿态仪](../../pilot/flight_director_group.md#standby-attitude-indicator) 亮度的旋钮
 
-## Eject Light/Switch
+## 弹射灯/开关
 
 ![PilEjectLight](../../../img/pilot_eject_light.jpg)
 
-Pressed by the pilot in an emergency condition requiring ejection from the
-aircraft, which illuminates the [EJECT lamp](../../../systems/emergency.md#eject-light) in the rear
-cockpit warning the WSO to prepare for immediate ejection.
+飞行员在紧急情况下需要弹射时按下该按钮，后座的
+[EJECT 灯](../../../systems/emergency.md#eject-light) 亮起，警告 WSO 准备立即弹射。
 
-Also lights up when the WSO presses their
-respective [Eject Light](../../../systems/emergency.md#eject-light) to warn the Pilot for ejection.
+WSO 按下其开关时，同样会使前座的 [EJECT 灯](../../../systems/emergency.md#eject-light) 亮起来警告飞
+行员准备好弹射。
 
-## Slats/Flaps Control Panel
+## 缝翼/襟翼控制面板
 
 ![FlapSlatPan](../../../img/pilot_slats_flaps_control_panel.jpg)
 
-A three position switch (NORM, OUT, OUT AND DOWN) to the rear of the panel
-provides normal operation functions of
-the [Slats/Flaps System.](../../../systems/flight_controls_gear/flight_controls.md#slats-flap-system)
-These functions are relative
-to [landing gear position,](../../../systems/flight_controls_gear/gear_ground_handling.md) and are
-noted as follows:
+位于面板后部的三档位开关（NORM、OUT 和 OUT AND DOWN）提供
+[缝翼/襟翼系统](../../../systems/flight_controls_gear/flight_controls.md#slats-flap-system) 的正常
+操作功能，系统操作和 [起落架位置](../../../systems/flight_controls_gear/gear_ground_handling.md) 相
+关，按以下制度工作：
 
-### Nose Gear UP
+### 前轮收起
 
-| Name         | Description                                                                                                                    |
-|--------------|--------------------------------------------------------------------------------------------------------------------------------|
-| NORM         | Flaps up, slats operate as function of [AoA.](../../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system) |
-| OUT          | Slats extend.                                                                                                                  |
-| OUT AND DOWN | Slats and flaps extend (wheels light flashing until landing gear is down.                                                      |
+| 名称         | 描述                                                                                                           |
+| ------------ | -------------------------------------------------------------------------------------------------------------- |
+| NORM         | 襟翼收上，缝翼随[仰角](../../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system) 操作。 |
+| OUT          | 伸出缝翼。                                                                                                     |
+| OUT AND DOWN | 伸出缝翼和襟翼（起落架灯闪烁直到放下起落架）。                                                                 |
 
-### Nose Gear DOWN
+### 前轮放下
 
-| Name         | Description                                                                                                                    |
-|--------------|--------------------------------------------------------------------------------------------------------------------------------|
-| NORM         | Flaps up, slats operate as function of [AoA.](../../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system) |
-| OUT          | Slats and flaps extend.                                                                                                        |
-| OUT AND DOWN | Slats and flaps extend.                                                                                                        |
+| 名称         | 描述                                                                                                           |
+| ------------ | -------------------------------------------------------------------------------------------------------------- |
+| NORM         | 襟翼收上，缝翼随[仰角](../../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system) 操作。 |
+| OUT          | 伸出缝翼和襟翼。                                                                                               |
+| OUT AND DOWN | 伸出缝翼和襟翼。                                                                                               |
 
 ![SlatsRelative](../../../img/SlatsRelative.jpg)
 
-### Emergency Slats/Flaps Handle
+### 应急缝翼/襟翼手柄
 
-Also included is
-the [Emergency Slats/Flaps Extension handle,](../../../systems/flight_controls_gear/flight_controls.md#slats-flap-system)
-marked in yellow and black, at the top of the box. This handle is pulled to force high
-pressure air into the slats/flaps actuation system, causing them to deploy in
-event of control system failure.
+控制盒的顶部还包括一个黄黑相间的
+[应急缝翼/襟翼放下手柄](../../../systems/flight_controls_gear/flight_controls.md#slats-flap-system)
+。拉动该手柄可将高压空气注入缝翼/襟翼作动系统，使其在控制系统发生故障时放下。
 
-## Canopy Control Switch
+## 座舱盖控制开关
 
 ![PilCanSel](../../../img/pilot_canopy_control_switch.jpg)
 
-Used to open (aft) or close (forward) the pilot canopy.
+用于开（向后）或关（向前）飞行员座舱盖。
 
-## Extra Picture Switch
+## 附加图像开关
 
 ![ExtraPic](../../../img/pilot_extra_picture_switch.jpg)
 
-Provision to operate the KB-18 gun camera without the release of weapons, the
-Extra Picture switch starts the camera at the selected rate.
+设置在不投放武器的情况下操作 KB-18 照相枪，附加图像开关以选定的速率启动摄影机。
 
-## Gun Camera Switch
+## 照相枪开关
 
 ![Gun Camera Switch](../../../img/pilot_gun_camera_switch.jpg)
 
-Activates the gun camera, which will run until the switch is placed to off, or
-actuation of bomb button or the second trigger detent once the pre-programmed overrun
-time is completed.
+激活照相枪，在将开关置于 OFF 档位或在按下航弹投放按钮/扳机第二段触发预设的超时时间结束前，照相枪将
+保持运行。
 
-## Slats Override Switch
+## 缝翼超控开关
 
 ![Slats Override Switch](../../../img/pilot_slats_override_switch.jpg)
 
-Two-position guarded switch with IN and NORM positions. In NORM, slats operate
-normally as a function of the slats flaps switch
-or [AoA.](../../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system) When IN
-selected, slats
-will retract and remain retracted. Selection of IN illuminates SLATS IN light on
-[telelight panel](../../../systems/emergency.md#telelight-panel)
-and [Master Caution lamp.](../../../systems/emergency.md#master-caution)
+双位带保护开关，有 IN 和 NORM 两个档位。在 NORM 档位，缝翼随襟缝翼开关
+或[迎角](../../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system) 动作。 当
+选择 IN 时，缝翼将收起并保持收起状态。选择 IN 时
+，[远传信号灯面板](../../../systems/emergency.md#telelight-panel) 上的 “SLATS IN” 指示灯和
+[主注意灯](../../../systems/emergency.md#master-caution) 亮起
 
-## Armament Safety Override Switch
+## 武器安全超控开关
 
 ![Armament Safety Override Switch](../../../img/pilot_armament_override.jpg)
 
-If pressed and
-the [landing gear handle](../../../systems/flight_controls_gear/gear_ground_handling.md#landing-gear-control-handle)
-is placed down, overrides the armament safety.
+[起落架手柄](../../../systems/flight_controls_gear/gear_ground_handling.md#landing-gear-control-handle)
+处在放下档位且按下按钮时，超控武器安全。
 
-This allows for example to fire [the gun](../../../stores/guns.md) while on ground.
+例如按下按钮将允许 [航炮](../../../stores/guns.md) 在地面开火。
