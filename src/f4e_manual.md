@@ -1,4 +1,4 @@
-# F-4E 手册
+# F-4E 中文手册
 
 <!-- markdownlint-disable MD033 -->
 <img class="line_art_logo" alt="F4 Line Art" width="200" src="img/f4line_black.svg">
@@ -20,7 +20,7 @@
 
 <!-- markdown-link-check-disable -->
 文档可以 [在线](https://f4.manuals.heatblur.se/),
-as [PDF 版本](https://github.com/Heatblur-Simulations/f-4e-manual/releases),
+[PDF 版本](https://github.com/Heatblur-Simulations/f-4e-manual/releases),
 嵌入游戏内离线网页或开源项目 [GitHub](https://github.com/Heatblur-Simulations/f-4e-manual) 查看。
 <!-- markdown-link-check-enable -->
 

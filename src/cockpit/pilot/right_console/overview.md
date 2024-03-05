@@ -1,4 +1,4 @@
-# Right Console
+# 右侧控制台
 
 ![右侧控制台](../../../img/pilot_right_console.jpg)
 
