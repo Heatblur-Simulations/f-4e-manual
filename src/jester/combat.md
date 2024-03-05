@@ -27,7 +27,7 @@ selecting `Radar > Operation > Go Cold` in the UI.
 When using the radar, Jesters generally differentiates between three phases:
 
 - Regular Search
-- Focussed Search
+- Focused Search
 - Lock
 
 The phases are commanded and switched by the pilot using the Context Action.
@@ -54,12 +54,12 @@ cursor always on the radar return.
 
 | Duration | Context Action                              |
 | -------- | ------------------------------------------- |
-| Short    | Enter **Focussed Search** on current target |
+| Short    | Enter **Focused Search** on current target |
 | Long     | Select Next Target                          |
 
-### Focussed Search
+### Focused Search
 
-When focussed on a contact, Jester will always keep the antenna pointing at him,
+When focused on a contact, Jester will always keep the antenna pointing at him,
 as well as commanding the radar into a narrow view.
 
 This mode can be understood as _"Track While Scan"_, where Jester keeps the
@@ -77,11 +77,11 @@ During a lock, Jester works the radar to keep the lock as long as possible.
 
 | Duration | Context Action                                  |
 | -------- | ----------------------------------------------- |
-| Short    | Drop lock, back to **Focussed Search**          |
+| Short    | Drop lock, back to **Focused Search**          |
 | Long     | Drop lock and focus, back to **Regular Search** |
 
 > 💡 To lock and attack a contact as fast as possible while in **Regular
-> Search**, double tap the context action to skip the **Focussed Search** and
+> Search**, double tap the context action to skip the **Focused Search** and
 > proceed to **Lock** immediately.
 
 ### Dogfight
@@ -146,11 +146,11 @@ for details.
 
 | Context               | Duration | Action                                          |
 | --------------------- | :------: | ----------------------------------------------- |
-| BVR - Regular Search  |    •     | Enter **Focussed Search** on current target     |
+| BVR - Regular Search  |    •     | Enter **Focused Search** on current target     |
 |                       |    ▄     | Select Next Target                              |
-| BVR - Focussed Search |    •     | **Lock** current target                         |
+| BVR - Focused Search |    •     | **Lock** current target                         |
 |                       |    ▄     | Drop focus, back to **Regular Search**          |
-| BVR - Lock            |    •     | Drop lock, back to **Focussed Search**          |
+| BVR - Lock            |    •     | Drop lock, back to **Focused Search**          |
 |                       |    ▄     | Drop lock and focus, back to **Regular Search** |
 | Dogfight              |    •     | Lock contact ahead if it shows a return         |
 |                       |    ▄     | Exit CAGE mode                                  |
