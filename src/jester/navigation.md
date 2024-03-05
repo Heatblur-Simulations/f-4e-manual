@@ -55,6 +55,8 @@ The format is `H DD MM H DDD MM`,
 
 A valid example could be `N 45 32 E 047 12` or `S 05 55 W 105 00`.
 
+> 💡 Spaces are optional, `N4532E04712` is also valid.
+
 ## Operation
 
 Jester navigates by utilizing a technique called **leapfrogging**. The aircraft
