@@ -1,48 +1,41 @@
-# Right Wall
+# 右侧防火墙
 
-The right wall has auxiliary switches for testing and starting the aircraft.
+右侧防火墙上包括用于测试和起动飞机的辅助开关。
 
-## Canopy Manual Unlock Handle
+## 座舱盖手动解锁手柄
 
 ![Canopy Manual Unlock Handle](../../../img/wso_manual_unlock_handle.jpg)
 
-The manual unlock
-handle is used in the event of [pneumatic system](../../../systems/pneumatics.md) failure.
+手动解锁手柄用于在 [气动系统](../../../systems/pneumatics.md) 失效时使用。
 
-The handle, when pulled aft, unlocks the canopy so that it may be pushed open. Before manual
-unlocking of the canopy, the normal control lever must be placed in the OPEN position.
+向后拉动手柄解锁座舱盖，从而允许手动推开座舱盖。在手动解锁座舱盖之前，必须将正常控制杆置于 OPEN 档
+位。
 
-For normal operation, the handle should be left in the forward position.
+正常操作时，应将手柄置于向前档位。
 
-If the canopy is not properly locked, the _CANOPY UNLOCKED_
-warning light on
-the [telelight panel](../../../systems/emergency.md#telelight-panel)
-illuminates.
+如果座舱盖未能正确锁定，[远传信号灯面板](../../../systems/emergency.md#telelight-panel) 中的
+_CANOPY UNLOCKED_ 告警灯将会亮起。
 
-## Ground Test Panel
+## 地面测试面板
 
 ![wso_right_wall](../../../img/wso_ground_test_control_panel.jpg)
 
-### Battery Bypass
+### 电池旁通
 
-When toggled ON, de-energizes the battery relay, disconnecting the battery from
-the essential 28-volt de bus and ceasing charging. Particularly used in
-suspected cases of thermal runaway.
+拨至 ON 档位时，电池继电器断开，使电池断开与应急 28 伏直流总线的连接并停止充电。特别适用于可疑的热
+失控情况。
 
-### Autopilot Ground Test
+### 自动驾驶地面测试
 
-The autopilot ground test switch, located on the No. 2 circuit breaker panel, connects external
-electrical power to the [AFCS](../../../systems/flight_controls_gear/flight_controls.md#auotmatic-flight-control-system-afcs)
-circuits. It disengages if there's a loss of external power or when a
-generator comes online. When operating on external power, the AFCS circuit can be de-energized by
-placing the switch in the NORM (down) position.
+自动驾驶地面测试开关位于 2 号断路器面板上，将地面电源连接至
+[AFCS](../../../systems/flight_controls_gear/flight_controls.md#auotmatic-flight-control-system-afcs)
+电路。如果地面电源断电或发电机上线，开关将回到正常档位。使用地面电源时，可将开关置于 NORM（向下）档
+位，使 AFCS 电路断电。
 
-### Instrument Ground Power
+### 仪表地面电源
 
-In the TEST position, connects external electrical power to the instrument buses
-(115/200 volt ac, 28 volt ac, and 14 volt ac), contingent upon the generator
-switches being set to EXT ON.
+在 TEST 档位，地面电源将连接至仪表总线（115/200 伏交流、28 伏交流和 14 伏交流），取决于发电机开关是
+否设置到 EXT ON 档位。
 
-This can be used during a cold-start after applying ground power and before starting the engines,
-to already setup the aircraft and operate some systems that require
-power on these buses.
+在冷启动过程中，接通地面电源后以及发动机起动前使用该功能，以便设置好飞机，并操作一些需要上述总线通
+电的系统。

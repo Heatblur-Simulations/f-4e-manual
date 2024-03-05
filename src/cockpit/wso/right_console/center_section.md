@@ -1,149 +1,112 @@
-# Center Section
+# 中部
 
-The center section of the right console is dominated by
-the [WRCS](../../../systems/weapon_systems/wrcs.md) panel for weapon delivery. For more detailed
-information see the [WRCS chapter](../../../systems/weapon_systems/wrcs.md).
+右侧控制台的中部主要为用于武器投放的 [WRCS](../../../systems/weapon_systems/wrcs.md) 面板。更多详细
+信息请参阅 [WRCS 章节](../../../systems/weapon_systems/wrcs.md)。
 
-## Weapon Release Computer Set (WRCS) Panel
+## 武器投放计算机套件 (WRCS) 面板
 
 ![wso_weapon_release_computer_set_panel](../../../img/wso_wrcs_panel.jpg)
 
-### Target Distance Controls
+### 目标距离旋钮
 
-A pair of four position drum roller windows with matching analog knobs. The top
-window references distances in the North-South orientation (with the first
-roller marked N/S), and the lower window references distances in the East-West
-orientation (with the first roller marked E/W).
+一对四位数滚筒窗口以及相应的机械旋钮。上部窗口为南北方向的基准距离（首位滚筒标记为 N/S），下部窗口
+为东西方向的基准距离（首位滚筒标记为 E/W）。
 
-The rollers reference the distance shown in increments of 100 feet, thus a
-distance of offset in the East direction for 4000' would be entered as E0040.
+滚筒以 100 英尺为增量显示基准距离，因此向东偏移 4000 英尺的距离将输入为 E0040。
 
-The rollers do function in an analog fashion, thus fractions of 100' can be
-attained by moderating the last roller accordingly; as an example, a value of
-250 feet would be attained with the space between the 2 and 3 value halfway in
-the window in the last digit position.
+滚筒以机械方式工作，因此可以通过调整最后一位滚筒来实现十位数调节；例如，在最后一位数滚筒中，调整到
+2 和 3 值之间的空隙可以实现距离 250 英尺。
 
-### Target/IP Altitude Control
+### 目标/IP 高度控制
 
-A three position drum roller window with matching analog knob used to enter the
-altitude of either the Radar initial Point or the actual target itself, and is referenced in
-increments of 100'. Fractional values can be entered as described previously.
-This value can be changed once Radar Initial Point (RIP) or Visual Ingress Point (VIP) is
-properly defined to increase release system accuracy.
+三位数滚筒式窗口以及相应的机械旋钮，用于输入雷达起始点或实际目标自身的高度，基准距离以 100 英尺为增
+量。如前所述，可以实现十位数距离调整。在正确确定好雷达起始点 (RIP) 或目视进入点 (VIP)后，WSO 就可以
+更改这一数值来提高投放系统的精度。
 
-### Drag Coefficient Control
+### 阻力系数控制
 
-Used to enter the drag coefficient value for the weapon being used from the
-bombing tables for the intended release mode.
+根据投弹表中输入所用武器的阻力系数并用于预想的投放模式。
 
-> 🚧 Lookup tables will soon be provided. However,
-> the [bombing calculator](../../../dcs/bombing_computer.md)
-> provides working solutions for all weapons regardless.
+> 🚧 很快就会提供投弹表。不过，[轰炸计算器](../../../dcs/bombing_computer.md) > 提供了所有武器的有
+> 效解算数据。
 
-### Release Advance Control
+### 投放提前控制
 
-Used to advance the release signal given from the [WRCS](../../../systems/weapon_systems/wrcs.md) to
-the fire control system relative to the WRCS target
-point, in any duration from 0 to 999 milliseconds. Also functions in conjunction
-with [ARBCS/LABS](../../../systems/weapon_systems/arbcs.md) programmed release
-timing.
+用于设置相对 WRCS 目标点的 [WRCS](../../../systems/weapon_systems/wrcs.md) 投放信号发送提前时间，持
+续时间为 0 至 999 毫秒。还可结合 [ARBCS/LABS](../../../systems/weapon_systems/arbcs.md) 编程投放定
+时一起使用。
 
-This can be used to spread out a bombing run over a target area,
-for example to place the 3-th bomb of a 10-bomb salvo on the target.
+可用于分散对目标区域的轰炸，例如将齐投的 10 枚炸弹中第 3 枚投向目标。
 
-The release advance control can be calculated with
-the [bombing calculator](../../../dcs/bombing_computer.md).
+可使用 [投弹计算器](../../../dcs/bombing_computer.md) 来计算投放提前控制。
 
-### Release Range Control
+### 投放距离控制
 
-Used to manually set bomb range in accordance with the weapon's bomb release
-schedule entry in the bomb tables.
+用于根据投弹表中武器的炸弹投放制度手动设置炸弹投放距离。
 
-The range can be calculated with
-the [bombing calculator](../../../dcs/bombing_computer.md).
+可在 [投弹计算器](../../../dcs/bombing_computer.md) 中计算投放距离。
 
-### WRCS BIT Knob
+### WRCS BIT 旋钮
 
-A six position knob utilized to perform BIT checks against the
-individual [WRCS](../../../systems/weapon_systems/wrcs.md)
-delivery modes. The BIT check is performed by selecting the desired mode for
-testing, pressing the knob for five seconds, then pressing the Freeze button on
-the Cursor Control Panel while keeping the BIT knob held down to confirm
-function.
+六档位旋钮，用于对各种 [WRCS](../../../systems/weapon_systems/wrcs.md) 投放模式进行 BIT 检查。进行
+BIT 检查时，需要选择需要测试的模式，按下旋钮 5 秒钟，然后按下光标控制面板上的冻结按钮，同时按住 BIT
+旋钮以确认正常工作。
 
-See [WRCS BITs](../../../procedures/bit_tests/wrcs.md) for details.
+详见 [WRCS BIT](../../../procedures/bit_tests/wrcs.md)。
 
-## Cursor Control Panel
+## 光标控制面板
 
 ![wso_cursor_control_panel](../../../img/wso_cursor_control_panel.jpg)
 
-Used for [WRCS](../../../systems/weapon_systems/wrcs.md) radar bombing mode target entry. Functions
-only with [MAP-PPI](../../../systems/radar/operation.md#map-mode-ppi) mode selected and
-applicable bombing mode selected on
-the [Delivery Mode Knob](../../../cockpit/pilot/weapon_management.md#delivery-mode-knob).
+用于输入 [WRCS](../../../systems/weapon_systems/wrcs.md) 雷达轰炸模式目标。仅在选择了
+[MAP-PPI](../../../systems/radar/operation.md#map-mode-ppi) 模式并在 [投放模式旋钮] 上选择了适用的
+轰炸模式时生效。
 
-### Freeze Button
+### 冻结按钮
 
-Used in air to ground bombing with the [WRCS](../../../systems/weapon_systems/wrcs.md) to initiate
-velocity tracking of the
-aircraft from the [INS,](../../../systems/nav_com/ins.md) as well as maintain a hold of the target
-position defined by the Along Track and Cross Track cursor gates, thus defining the Radar initial
-Point.
-The button illuminates, and remains lit, until the reset button
-is pressed, or another delivery mode is selected.
+在使用 [WRCS](../../../systems/weapon_systems/wrcs.md) 进行空对地轰炸时，使用
+[INS](../../../systems/nav_com/ins.md) 取得飞机的速度跟踪，并保持由纵向和横向距离光标门标定的目标位
+置，从而确定雷达起始点。在按下重置按钮或选择其他投放模式之前，该按钮一直亮着。
 
-### Target Insert Button
+### 目标插入按钮
 
-Inserts the North-South and East-West offset values entered into
-the [WRCS](../../../systems/weapon_systems/wrcs.md)
-control panel into the [WRCS](../../../systems/weapon_systems/wrcs.md) computer, performing the
-offset against the Radar initial Point
-defined by the Along Track and Cross Track cursor gates and currently tracked
-with the Freeze Button. This offset inclusion performs a shift of the Along
-Track and Cross Track cursors to define the actual target defined by
-the [WRCS](../../../systems/weapon_systems/wrcs.md)
-offsets on the radar scope. This action initiates target steering information
-from the [WRCS](../../../systems/weapon_systems/wrcs.md) to the navigational displays.
+将 [WRCS](../../../systems/weapon_systems/wrcs.md) 控制面板中输入的南北和东西偏置值插入
+[WRCS](../../../systems/weapon_systems/wrcs.md) 计算机，执行相对雷达起始点（由纵向和横向距离光标标
+定以及冻结按钮保持的当前跟踪的目标）的偏置。偏置包含移动纵向和横向距离光标来确定
+[WRCS](../../../systems/weapon_systems/wrcs.md) 计算出的实际目标在雷达显示器中所处的位置。完成插入
+后 [WRCS] 将发送目标转向信息至导航显示器。
 
-The [Pave Spike](../../../systems/weapon_systems/pave_spike/overview.md)
-system also utilizes the Target Insert functionality for its Memory Mode.
+[Pave Spike](../../../systems/weapon_systems/pave_spike/overview.md) 系统的记忆模式同样也用到目标插
+入功能。
 
-### Reset Button
+### 复位按钮
 
-Pressing the Reset Button drops the currently tracked ground target location
-from [WRCS](../../../systems/weapon_systems/wrcs.md) computer memory, returns the Along and Cross
-Track cursors to their default positions, and resets the velocity tracking system values to zero.
+按下复位按钮后，[WRCS](../../../systems/weapon_systems/wrcs.md) 计算机内存中当前跟踪的地面目标位置
+将被删除，纵向和横向距离光标将恢复到默认位置，速度跟踪系统值将复位归零。
 
-### Along Track Wheel
+### 纵向距离拨轮
 
-Used to define relative range of the aircraft to the Radar initial Point, using an
-expanding/contracting hemisphere cursor on the radar display. This hemisphere
-presents true range to the target via the hemispherical PPI projection, thus
-allowing the Radar initial Point to be detected in an offset approach to the target. Close
-approximation of range to the Radar initial Point should be prepared first with the Along Track
-wheel prior to using the Cross Track Wheel for best system accuracy- ie, the
-cursor should be placed below the intended Radar initial Point return on the radar scope, and
-the Cross Track wheel brought to the return point.
+用于确定雷达起始点相对飞机距离，雷达显示器上使用一个可扩展/收缩的半球形光标表示。半球形光标通过半球
+形 PPI 投影显示目标的真实距离，使得飞机可以在偏置接近目标时探测到雷达起始点。如需最大化系统精度
+，WSO 应在使用横向距离拨轮之前，首先使用纵向距离拨轮来确定好雷达起始点的近似距离，即应将光标置于雷
+达显示器上预想雷达起始点回波的下方，然后使用横向距离拨轮转回到起始点回波。
 
-### Cross Track Wheel
+### 横向距离拨轮
 
-Used to define the heading to the Radar initial Point on the radar display in PPI mode,
-presented as a vertical line. The intersection of the Along Track and Cross
-Track cursors defines the Radar initial Point when the Freeze button is pressed.
+用于在 PPI 模式下确定雷达显示器上雷达起始点的航向，以垂线的形式显示。按下冻结按钮时，纵向距离和横向
+距离光标的交点即为雷达起始点。
 
-## Nuclear Stores Consent Switch
+## 核武许可开关
 
 ![wso_nuclear_stores_consent_switch](../../../img/wso_nuclear_consent_switch.jpg)
 
-Used to arm nuclear stores. In the SAFE position, release is inhibited. REL
-allows releasing stores unarmed, while REL/ARM allows dropping nuclear stores
-armed.
+用来解除核武保险。在 SAFE 档位，将禁止投放。REL 允许未解除保险的核武挂载，而 REL/ARM 档位将允许投放
+解除保险的核武。
 
-## Skyspot Mode
+## Skyspot 模式
 
 ![Skyspot Mode](../../../img/wso_skyspot_switch.jpg)
 
-On the outer right side of the right console is a switch which would allow
-to select the mode of the Combat Skyspot system used for ground-directed bombing.
+这个位于右侧控制台的右侧靠外的开关可以选择用于对地轰炸的 Combat Skyspot 系统的模式。
 
-The system was never installed on this variant of the F-4E.
+在这一批次的 F-4E 中从未安装该系统。

@@ -1,68 +1,53 @@
-# Stick and Seat
+# 驾驶杆和座椅
 
-## Stick
+## 驾驶杆
 
 ![Stick](../../img/wso_stick.jpg)
 
-A control stick is provided in both cockpits, with near-uniform switchology
-between the two.
+两个驾驶舱中都有驾驶杆并且开关几乎一致。
 
-The stick can be hidden by clicking on its base.
+点击底座可隐藏驾驶杆。
 
-### Trim Hat
+### 配平苦力帽
 
-A Trim Control is found on both sticks to provide force reduction and minor
-flight path correction in the pitch and roll axis.
+两个驾驶舱的驾驶杆中有配平控制来降低向杆施加的力最小化俯仰和横滚轴飞行路径修正。
 
-### Trigger and Bomb Button
+### 扳机与航弹按钮
 
-Weapons are deliverable through both a 2-stage Trigger (for air-to-air missiles
-and the gun) and a Bomb Release Button.
+机组可通过两段式扳机（空空导弹和航炮）以及航弹投放按钮来投放武器。
 
-The first stage of the trigger activates the gun camera for recording forward
-footage.
+按下扳机第一段将激活照相枪录制。
 
-### Nose Wheel Steering Button
+### 前轮转向按钮
 
-Both sticks carry a Nose Wheel Steering (NWS) button that doubles as a radar
-auto-acquisition control for the radar in visual range combat, and sensor focus
-control for video-directed air to ground weapons.
+两根驾驶杆中包括一个前轮转向（NWS）按钮，可在视距内空战时执行雷达自动截获控制，以及在使用电视制导空
+对地武器时，控制传感器焦点。
 
-Holding the button down permits the crew member to steer the aircraft using the
-rudder pedals. See
-[3.1.3 Gear & Ground handling, Nose Gear Steering section](../../systems/flight_controls_gear/gear_ground_handling.md#nose-gear-steering)
-for details.
+按住按钮接通前轮转向来使用方向舵脚蹬控制飞机滑行轨迹。详见 [3.1.3 起落架 & 地面操控，前轮转向部分]
 
-### Emergency Quick Release Lever
+### 应急快速释放杆
 
-An Emergency Quick Release lever on each stick is available to immediately
-deactivate the anti-skid system, the automatic
-flight control system (AFCS), stability augmentation (STAB AUG) and the aileron-rudder
-interconnect (ARI).
+两个驾驶舱中的应急快速释放杆可立刻停用防滑系统、自动飞行控制系统（AFCS）、增稳（STAB AUG）和副翼-方
+向舵交联系统（ARI）。
 
-See
-[3.1.3 Gear & Ground handling, Anti-Skid section](../../systems/flight_controls_gear/gear_ground_handling.md#emergency-quick-release-lever)
-for details.
+详见
+[3.1.3 起落架 & 地面操控，防滑部分](../../systems/flight_controls_gear/gear_ground_handling.md#emergency-quick-release-lever)。
 
-## Seat
+## 座椅
 
 ![Seat](../../img/wso_seat.jpg)
 
-The seat allows the crew to eject out of the plane by pulling either the cord
-between the legs or above the head.
+机组人员可以拉动两腿之间或头部上方的拉环弹射出飞机。
 
-See the [3.13 Emergency system section](../../systems/emergency.md#ejection-seats) for details
-on the seat and ejection mechanism.
+关于弹射座椅和弹射机构的详细介绍请阅读
+[3.13 应急系统部分](../../systems/emergency.md#ejection-seats) 。
 
-### Seat Position
+### 座椅位置
 
 ![Seat Switch](../../img/wso_seat_adjustment.jpg)
 
-The vertical position of the seat can be changed in either direction for about
-5cm using this spring-loaded switch on the right side of the seat.
+飞行员可使用座椅右侧的弹簧复位开关来在垂直方向上在 ±5cm 行程内调整调整座椅位置。
 
-For landing, it is advisable to put the seat in the most upward position for
-better visibility.
+在着陆时，建议调整至最高位来取得更好地能见度。
 
-Operation of the motor must be limited to 30 seconds within 10 minutes to
-prevent it from overheating and breaking.
+为防止电机过热和断裂，操作座椅调节的时间每 10 分钟内只能操作 30 秒。
