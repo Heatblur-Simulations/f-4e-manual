@@ -1002,8 +1002,9 @@ firing parameters are met. These lights do not illuminate when in visual interce
 or Air-to-Ground modes.</p>
 <h2 id="air-refueling-lights"><a class="header" href="#air-refueling-lights">Air Refueling Lights</a></h2>
 <p><img src="cockpit/pilot/../../img/pilot_aar_lights.jpg" alt="AARLights" /></p>
-<p>Provide status of the <a href="cockpit/pilot/../../systems/utility.html#air-refueling-system">Air Refueling System</a> while
-in use.</p>
+<p>Provide status of the
+<a href="cockpit/pilot/../../systems/engines_and_fuel_systems/fuel_system.html#air-refueling-system">Air Refueling System</a>
+while in use.</p>
 <div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
 <tr><td>READY</td><td>Illuminates when air refuel receptacle is fully extended. Turns off when boom is locked or receptacle retracted.</td></tr>
 <tr><td>DISENGAGED</td><td>Illuminates when boom disengages during cycle, and remains lit until refueling system is reset.</td></tr>
@@ -2913,7 +2914,7 @@ footage.</p>
 (<num>4</num>) located on the left side of the stick. It is a dual-role control
 that performs the boom disconnect function its name implies, as well as a number
 of weapon selection functions.</p>
-<p>See <a href="cockpit/pilot/../../systems/utility.html#air-refueling-release-button">3.7 Utility Systems</a>
+<p>See <a href="cockpit/pilot/../../systems/engines_and_fuel_systems/fuel_system.html#air-refueling-release-button">3.2.2. Fuel System</a>
 for details.</p>
 <h3 id="nose-wheel-steering-button"><a class="header" href="#nose-wheel-steering-button">Nose Wheel Steering Button</a></h3>
 <p>Both sticks carry a Nose Wheel Steering (NWS or also NGS) button (<num>5</num>)
@@ -4749,9 +4750,9 @@ video-directed <a href="systems/flight_controls_gear/../../stores/air_to_ground/
 <a href="systems/flight_controls_gear/gear_ground_handling.html#emergency-anti-skid-quick-release-lever">Emergency Quick Release lever (<num>6</num>)</a>
 on each stick is available to immediately deactivate the anti-skid system, the automatic
 flight control system, stability augmentation and the aileron-rudder
-interconnect. Unique to the front cockpit control stick is
-the <a href="systems/flight_controls_gear/../utility.html#air-refueling-release-button">Air Refueling Release Button (<num>4</num>)</a> - a dual-role
-control that performs the boom disconnect function its name implies, as well as
+interconnect. Unique to the front cockpit control stick is the
+<a href="systems/flight_controls_gear/../engines_and_fuel_systems/fuel_system.html#air-refueling-release-button">Air Refueling Release Button (<num>4</num>)</a>,
+a dual-role control that performs the boom disconnect function its name implies, as well as
 a number of weapon selection functions.</p>
 <p>Also, unique to the front cockpit stick is a force transducer, to allow the pilot
 fine adjustment control of the AFCS with the autopilot functionality engaged. In the event the force
@@ -5551,6 +5552,64 @@ stays on and the fuel gauge is not going up for at least one or two minutes.</p>
 <p>When air-to-air refueling, or when refueling on the ground and the tanks have
 reached a full condition, the External Tanks Full lamps, found under the canopy
 bow, will light.</p>
+<h2 id="air-refueling-system"><a class="header" href="#air-refueling-system">Air Refueling System</a></h2>
+<p><img src="systems/engines_and_fuel_systems/../../img/ext_air_to_air_refuel.jpg" alt="f4_ext_air_to_air_refuel" /></p>
+<p>For air-to-air refueling, the F-4E uses a receptacle system compatible with high
+pressure USAF-style boom refueling. With this system, fuel can be delivered to
+the Phantom at a rate of up to 3900 lbs per minute. Fuel received is delivered
+into fuselage cell 2, then equalized through the rest of the aircraft cells,
+wing tanks, and, if installed and selected, external tanks.</p>
+<div class="table-wrapper"><table><thead><tr><th>Boom Reach</th><th>Boom Marks</th></tr></thead><tbody>
+<tr><td><img src="systems/engines_and_fuel_systems/../../img/aar_box.jpg" alt="AAR Box" /></td><td><img src="systems/engines_and_fuel_systems/../../img/aar_boom.jpg" alt="Boom Marks" /></td></tr>
+</tbody></table>
+</div>
+<blockquote>
+<p>💡 Fully refueling takes roughly between one and three minutes.</p>
+</blockquote>
+<p><img src="systems/engines_and_fuel_systems/../../img/pilot_fuel_control_panel.jpg" alt="pilot_fuel_panel" /></p>
+<h3 id="air-refuel-switch"><a class="header" href="#air-refuel-switch">Air Refuel Switch</a></h3>
+<p>Preparation for air refueling is performed by toggling the Air Refuel Switch (<num>4</num>) to
+EXTEND; doing so extends the receptacle, illuminates the receptacle visual
+lamps, depressurizes the fuel cells, activates the transfer pumps to
+redistribute received fuel for CG maintenance, and activates the air refuel
+READY lamp. RETRACT is used to lower the receptacle and return pressurization
+and normal function to the tanks.</p>
+<p>If, during AAR, the boom disconnects and the DISENGAGED light illuminates, this
+switch has to be flipped to RETRACT and back to EXTEND to reset the system and
+allow the boom to connect again.</p>
+<h3 id="refuel-selection-switch"><a class="header" href="#refuel-selection-switch">Refuel Selection Switch</a></h3>
+<p>The two-position Refuel Selection Switch (<num>5</num>) provides options for two modes of
+refueling: internal fuselage and internal wing tanks (INT ONLY), and ALL TANKS,
+used to include external tanks in the refueling operation.</p>
+<h3 id="ready-light"><a class="header" href="#ready-light">Ready Light</a></h3>
+<p><img src="systems/engines_and_fuel_systems/../../img/pilot_aar_lights.jpg" alt="pilot_aar_lights" /></p>
+<p>With the receptacle extended and tanks depressurized, the READY lamp illuminates
+to notify the pilot refueling can begin. The lamp will turn off when the boom is
+connected to the receptacle, or the receptacle is lowered by the RETRACT command
+on the Air Refuel Switch.</p>
+<h3 id="disengaged-light"><a class="header" href="#disengaged-light">Disengaged Light</a></h3>
+<p>Should the boom separate from the receptacle, the DISENGAGED lamp will illuminate. In the event of a
+DISENGAGED signal, the system must be reset to continue refueling. The system must be reset by
+toggling the air refuel switch.</p>
+<h3 id="air-refueling-release-button-1"><a class="header" href="#air-refueling-release-button-1">Air Refueling Release Button</a></h3>
+<p><img src="systems/engines_and_fuel_systems/../../img/pilot_stick_aar_button.jpg" alt="pilot_aar_release_button" /></p>
+<p>On the front seat control stick is the Air Refueling Release Button. Its primary
+purpose is to release the receptacle from the boom in the event of a manual
+refueling cycle (one in which the boom operator cannot force a disconnect
+remotely), or perform a disengagement on demand based on flight conditions or
+emergency situation. Pressing the button will disengage the boom, and illuminate
+the DISENGAGED lamp.</p>
+<h3 id="air-refuel-recpt-circuit-breaker"><a class="header" href="#air-refuel-recpt-circuit-breaker">AIR REFUEL RECPT Circuit Breaker</a></h3>
+<p><img src="systems/engines_and_fuel_systems/../../img/wso_cb_air_refuel.jpg" alt="wso_air_refuel_recpt_cb" /></p>
+<p>In the event of a DISENGAGED situation during air refueling, the system is reset
+either by cycling the Air Refuel Switch or by using the AIR REFUEL RECPT circuit breaker,
+found on the No 2 circuit breaker panel in the rear cockpit - right side, fourth column,
+top breaker.</p>
+<h3 id="external-tanks-full-lights"><a class="header" href="#external-tanks-full-lights">External Tanks Full Lights</a></h3>
+<p>Three indicators- L.H. FULL, CTR. FULL, and R.H. FULL (Left Hand, Center, Right
+Hand) lamps provide confirmation that the external tanks have been filled during
+the air refueling process. The lamps will remain lit until the air refueling
+receptacle retracted.</p>
 <h2 id="fuel-dump-system"><a class="header" href="#fuel-dump-system">Fuel Dump System</a></h2>
 <p><img src="systems/engines_and_fuel_systems/../../img/fuel_dumping.jpg" alt="InternalWingFuelDump" /></p>
 <p>Fuel from the wings can be dumped directly, rather than requiring transfer into
@@ -6586,60 +6645,6 @@ canopy seal to seal the canopies for cockpit pressurization.
 The canopy seals are automatically inflated and deflated
 upon opening and closing of the canopies by using <a href="systems/bleed_air.html">bleed air system</a>.</p>
 <p><img src="systems/../img/pilot_canopy_handle.jpg" alt="pilot_canopy_handles" /></p>
-<h2 id="air-refueling-system"><a class="header" href="#air-refueling-system">Air Refueling System</a></h2>
-<p><img src="systems/../img/ext_air_to_air_refuel.jpg" alt="f4_ext_air_to_air_refuel" /></p>
-<p>For air-to-air refueling, the F-4E uses a receptacle system compatible with high
-pressure USAF-style boom refueling. With this system, fuel can be delivered to
-the Phantom at a rate of up to 3900 lbs per minute. Fuel received is delivered
-into fuselage cell 2, then equalized through the rest of the aircraft cells,
-wing tanks, and, if installed and selected, external tanks.</p>
-<blockquote>
-<p>💡 Fully refueling takes roughly between one and three minutes.</p>
-</blockquote>
-<p><img src="systems/../img/pilot_fuel_control_panel.jpg" alt="pilot_fuel_panel" /></p>
-<h3 id="air-refuel-switch"><a class="header" href="#air-refuel-switch">Air Refuel Switch</a></h3>
-<p>Preparation for air refueling is performed by toggling the Air Refuel Switch (<num>4</num>) to
-EXTEND; doing so extends the receptacle, illuminates the receptacle visual
-lamps, depressurizes the fuel cells, activates the transfer pumps to
-redistribute received fuel for CG maintenance, and activates the air refuel
-READY lamp. RETRACT is used to lower the receptacle and return pressurization
-and normal function to the tanks.</p>
-<p>If, during AAR, the boom disconnects and the DISENGAGED light illuminates, this
-switch has to be flipped to RETRACT and back to EXTEND to reset the system and
-allow the boom to connect again.</p>
-<h3 id="refuel-selection-switch"><a class="header" href="#refuel-selection-switch">Refuel Selection Switch</a></h3>
-<p>The two-position Refuel Selection Switch (<num>5</num>) provides options for two modes of
-refueling: internal fuselage and internal wing tanks (INT ONLY), and ALL TANKS,
-used to include external tanks in the refueling operation.</p>
-<h3 id="ready-light"><a class="header" href="#ready-light">Ready Light</a></h3>
-<p><img src="systems/../img/pilot_aar_lights.jpg" alt="pilot_aar_lights" /></p>
-<p>With the receptacle extended and tanks depressurized, the READY lamp illuminates
-to notify the pilot refueling can begin. The lamp will turn off when the boom is
-connected to the receptacle, or the receptacle is lowered by the RETRACT command
-on the Air Refuel Switch.</p>
-<h3 id="disengaged-light"><a class="header" href="#disengaged-light">Disengaged Light</a></h3>
-<p>Should the boom separate from the receptacle, the DISENGAGED lamp will illuminate. In the event of a
-DISENGAGED signal, the system must be reset to continue refueling. The system must be reset by
-toggling the air refuel switch.</p>
-<h3 id="air-refueling-release-button-1"><a class="header" href="#air-refueling-release-button-1">Air Refueling Release Button</a></h3>
-<p><img src="systems/../img/pilot_stick_aar_button.jpg" alt="pilot_aar_release_button" /></p>
-<p>On the front seat control stick is the Air Refueling Release Button. Its primary
-purpose is to release the receptacle from the boom in the event of a manual
-refueling cycle (one in which the boom operator cannot force a disconnect
-remotely), or perform a disengagement on demand based on flight conditions or
-emergency situation. Pressing the button will disengage the boom, and illuminate
-the DISENGAGED lamp.</p>
-<h3 id="air-refuel-recpt-circuit-breaker"><a class="header" href="#air-refuel-recpt-circuit-breaker">AIR REFUEL RECPT Circuit Breaker</a></h3>
-<p><img src="systems/../img/wso_cb_air_refuel.jpg" alt="wso_air_refuel_recpt_cb" /></p>
-<p>In the event of a DISENGAGED situation during air refueling, the system is reset
-either by cycling the Air Refuel Switch or by using the AIR REFUEL RECPT circuit breaker,
-found on the No 2 circuit breaker panel in the rear cockpit - right side, fourth column,
-top breaker.</p>
-<h3 id="external-tanks-full-lights"><a class="header" href="#external-tanks-full-lights">External Tanks Full Lights</a></h3>
-<p>Three indicators- L.H. FULL, CTR. FULL, and R.H. FULL (Left Hand, Center, Right
-Hand) lamps provide confirmation that the external tanks have been filled during
-the air refueling process. The lamps will remain lit until the air refueling
-receptacle retracted.</p>
 <h2 id="windshield-rain-removal"><a class="header" href="#windshield-rain-removal">Windshield Rain Removal</a></h2>
 <p><img src="systems/../img/pilot_rain_removal_switch.jpg" alt="pilot_rain_removal" /></p>
 <p>To clear precipitation, placing the Rain Removal Switch to ON will direct bleed
@@ -11111,12 +11116,15 @@ tanker to connect the boom, for example by saying</p>
 <blockquote>
 <p>"<em>Move 5 feet forward.</em>"</p>
 </blockquote>
-<p><img src="jester/../img/aar_box.jpg" alt="AAR Box" /></p>
+<p><img src="jester/../img/aar_connected.jpg" alt="AAR Connected" /></p>
 <p>Once connected, he will look up and focus on the booms colored marks. Jester
 calls out whenever the pilot is drifting too much in either direction, indicated
 by the boom showing the yellow or red marks.</p>
 <p>The perfect mark in the middle is called the <em>donut</em>.</p>
-<p><img src="jester/../img/aar_boom.jpg" alt="Boom Marks" /></p>
+<p><img src="jester/../img/aar_boom_ingame.jpg" alt="Boom Marks" /></p>
+<p>See
+<a href="jester/../systems/engines_and_fuel_systems/fuel_system.html#air-refueling-system">3.2.2. Air Refueling System</a>
+for details on how to perform AAR.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="crew-chief"><a class="header" href="#crew-chief">Crew Chief</a></h1>
 <p><img src="crew_chief/../img/crew_chief.jpg" alt="crew chief" /></p>
 <!-- https://nara.getarchive.net/media/ -->
