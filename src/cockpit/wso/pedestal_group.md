@@ -1,205 +1,173 @@
-# Pedestal Group
+# 底座组
 
-This area behind the stick contains the radar screen,
-as well as the controls for the targeting pod.
+驾驶杆后面的区域包含雷达屏幕以及瞄准吊舱的控制开关/按钮。
 
 ![wso_dscg_knobs_above](../../img/wso_dscg_knobs_above.jpg)
 
 ![wso_dscg_and_pedestal_panel](../../img/wso_pedestal_group_overview.jpg)
 
-## Digital Scan Converter Group (DSCG)
+## 数字扫描转换器组 (DSCG)
 
 ![wso_dscg_controls](../../img/wso_dscg_controls.jpg)
 
-The DSCG displays radar, weapon and targeting pod video footage.
+DSCG 用于显示雷达、武器和瞄准吊舱的视频。
 
-The glare shield cover can be removed by clicking on it.
+点击防眩罩即可将其取下。
 
-### Grid Knob
+### 方格旋钮
 
-This knob, located on the top left above the glare shield, controls
-brightness of the display grid on the visual field of the DSCG display;
-clockwise increases brightness, counterclockwise decreases.
+方格旋钮位于防眩罩左上方，用于控制 DSCG 显示屏视野中显示方格的亮度；顺时针转动增加亮度，逆时针转动
+降低亮度。
 
-### Scale Knob
+### 标度旋钮
 
-Located on the top right, above the glare shield, controls brightness of the
-bezel range scales surrounding the DSCG display;
-clockwise increases brightness, counterclockwise decreases.
+位于 DSCG 右上方，旋钮控制 DSCG 显示屏周围板面距离标度的亮度；顺时针转动增加亮度，逆时针转动降低亮
+度。
 
-### H - Home on Jam Lamp
+### H - 干扰源寻的灯
 
-Light inside the top left corner of the glare shield, illuminates
-when the radar has achieved angle tracking in Home on Jam mode.
+位于防眩罩内侧左上角的指示灯，当雷达在干扰源寻的模式下实现角跟踪时亮起。
 
-### T - Track Lamp
+### T - 跟踪灯
 
-Light inside the top right corner of the glare shield, illuminates when a
-standard radar lock on is achieved. Will go out in the event
-the radar falls back to memorized range and rate information should the lock be
-lost.
+位于防眩罩内侧右上角的指示灯，在实现标准雷达锁定时亮起。如果脱锁，雷达将回退到记忆距离和速度信息，
+此时指示灯将熄灭。
 
-### Cursor RNG (Range)
+### 光标 RNG (距离)
 
-Increases (clockwise) and decreases (counterclockwise) the relative brightness
-of the hemispherical Along Track range cursor in MAP PPI and Beacon PPI modes on
-both displays (WSO and Pilot).
+在 MAP PPI 和 信标 PPI 模式下，增加（顺时针）和降低（逆时针）半球形纵向距离光标的相对亮度，设置对两
+个显示屏（WSO 和 飞行员）生效。
 
-### Cursor OFS (Offset)
+### 光标 OFS (偏置)
 
-Increases (clockwise) and decreases (counterclockwise) the relative brightness
-of the Cross Track cursor in the MAP PPI and Beacon PPI modes on both displays
-(WSO and Pilot).
+在 MAP PPI 和 信标 PPI 模式下，增加（顺时针）和降低（逆时针）横向光标的相对亮度，设置对两个显示屏
+（WSO 和 飞行员）生效。
 
-### Contrast Knob - CONTR
+### 对比度旋钮 - CONTR
 
-Controls relative contrast level of DSCG display; clockwise increases contrast,
-counterclockwise reduces contrast.
+旋钮用来控制 DSCG 显示屏的相对对比度；顺时针方向转动来增加对比度，逆时针方向降低对比度。
 
-### Brightness Knob
+### 亮度旋钮
 
-Increases (clockwise) and decreases (counterclockwise) the brightness of the
-overall scope display.
+增加（顺时针）和降低（逆时针）显示器整体的显示亮度。
 
-### Mode Knob
+### 模式旋钮
 
-Sets the current mode of the DSCG components.
+设置 DSCG 部件当前的模式。
 
-| Name      | Description                                                                                                                   |
-| --------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| OFF       | Turns off DSCG display and de-powers all DSCG components.                                                                     |
-| STBY      | Powers DSCG components, DSCG display remains off. Used for takeoff and landing.                                               |
-| DSCG TEST | Displays a test search display image with 8 shades of grey to confirm normal operation. Select Range 10 for proper sizing.    |
-| RDR BIT   | Provides [BIT sequence](../../procedures/bit_tests/radar_air_to_air.md) test grids for calibration of radar performance.      |
-| RDR       | Used for radar display functionality in all employment modes.                                                                 |
-| TV        | Used for TV raster imagery with EO weapons, as well as [targeting pods](../../systems/weapon_systems/pave_spike/overview.md). |
+| 名称      | 描述                                                                                                          |
+| --------- | ------------------------------------------------------------------------------------------------------------- |
+| OFF       | 关闭 DSCG 显示器并断开所有 DSCG 部件的电源。                                                                  |
+| STBY      | 为 DSCG 部件通电，DSCG 显示器保持关闭。起降作业时使用。                                                       |
+| DSCG TEST | 显示带有 8 种灰色阴影的测试搜索显示图来确认正常工作。选择距离 10 来确保图片显示大小合适。                     |
+| RDR BIT   | 提供用于校正雷达性能的[BIT 序列](../../procedures/bit_tests/radar_air_to_air.md) 测试方格。                   |
+| RDR       | 在所有使用模式下雷达显示正常工作的所选档位。                                                                  |
+| TV        | 用于显示 EO（光电）武器以及的[瞄准吊舱](../../systems/weapon_systems/pave_spike/overview.md) 的 TV 光栅图像。 |
 
-## Target Designator Control Set
+## 目标指定控制套件
 
 ![target_des_panel](../../img/wso_target_designator_controls.jpg)
 
-This is the main panel to interact with
-the [Pave Spike Targeting Pod](../../systems/weapon_systems/pave_spike/overview.md).
+这是与 [Pave Spike 瞄准吊舱](../../systems/weapon_systems/pave_spike/overview.md) 进行交互的主面板
+。
 
-### Reticle brightness
+### 十字亮度
 
-Controls contrast of the TV reticle from black (full counter-clockwise) to green
-(full clockwise). Should be set to attain maximum contrast in the display window
-during the designation and attack procedure.
+控制 TV 十字的对比度，调节区间可从黑色（逆时针方向转动到最大档位）到绿色（顺时针方向转动到最大档位
+）。在指定和攻击过程中，应将调整好十字和背景的对比度最大化可读性。
 
-### Boresight knobs
+### 瞄准轴旋钮
 
-Three knobs to control the boresight position of the pod in azimuth, elevation
-and roll within 2.5 degrees in either direction.
+三个旋钮可控制吊舱瞄准轴的位置，分别对应 ±2.5 度方位、仰角以及横滚角度。
 
-Azimuth and Elevation can best be calibrated in the 12-VIS mode, while roll is
-best calibrated in 9-VIS.
+方位和仰角在 12-VIS 模式下可取得最佳校正效果，横滚则为 9-VIS 模式下。
 
-> 💡 Normally the Pod is correctly calibrated by the ground crew before getting
-> into the plane, but can drift due to combat damage or high G maneuvers in which case a recalibration
-> by the WSO is needed.
+> 💡 通常情况下，地勤人员会在上 > 飞机前正确校正吊舱，但由于战斗损伤或大过载机动，吊舱可能会发生漂
+> 移，在这种情况下，WSO 需要重新校正 > 吊舱。
 
-### Stow Button
+### 收起按钮
 
-Alternating presses un-stows and stows the Pave Spike pod head. The head is
-stowed when the button is illuminated.
+交替按下可伸出和收起 Pave Spike 吊舱镜头。按钮亮起时，镜头收起。
 
-When un-stowed, the pod will move accordingly to the selected acquisition mode.
+伸出镜头时，吊舱将根据选定捕获模式进行移动。
 
-To prevent damage to the system, the pod must be stowed during takeoff, landing
-and any High-G maneuvers.
+为防止损伤系统，必须在起降以及大过载机动期间收起吊舱。
 
-> 🟡 CAUTION: The stowed position is held electrically
-> only and without power, the pod swings freely and gets damaged when forcefully
-> bumped into its gimbal limits.
+> 🟡 注意：收起位置仅靠电力 > 来保持，在没有电源的情况下，吊舱会自由摆动，如果用力 > 撞击到环架的极
+> 限位置，吊舱将会受损。
 
-### Laser Ready Select Button
+### 激光就绪选择按钮
 
-Enables designator laser firing if illuminated after pressing.
+如果按下按钮后亮起，将启用指示器激光照射。
 
-Light remains off if interlocks (nose gear up and all pod functions working)
-inhibit use. Subsequent press deactivates laser system.
+如果在互锁条件下（前轮收上并且所有吊舱功能正常）禁止使用，灯光将保持熄灭。再次按下将停用激光系统。
 
-### Power On Button
+### 通电按钮
 
-Applies power to the targeting pod when pressed and released. Selected again to
-power off targeting pod. Button lamp will turn off once head is stowed.
+按下并松开时为瞄准吊舱供电。再次选择则断开瞄准吊舱电源。镜头收起后，按钮灯将熄灭。
 
-To prevent damage to the system, whenever equipped, power to the system should
-be turned on even when not using the pod.
+为防止系统受损，只要挂载，即使在不使用吊舱时也应打开系统电源。
 
-### BIT Selector Button
+### BIT 选择按钮
 
-Pressed to advance to the desired [BIT](../../systems/weapon_systems/pave_spike/other.md#bits) mode
-as displayed in the adjacent window.
+按下按钮来进入所需的 [BIT](../../systems/weapon_systems/pave_spike/other.md#bits) 模式，BIT 模式将
+在相邻的窗口显示。
 
-[BIT 1](../../systems/weapon_systems/pave_spike/other.md#bit-1) is the regular mode of the pod and
-must be selected for normal operations.
+[BIT 1]是吊舱的常规模式，必须选择该模式才能正常工作。
 
-### Light Brightness Knob
+### 灯光亮度旋钮
 
-Controls brightness of all lamps on this panel, except the Overheat lamp.
+控制该面板上所有灯光的亮度，过热灯除外。
 
-### Reject/Override Button
+### 断开/超控按钮
 
-When the pod detects a too huge discrepancy between the laser measured slant
-range and the INS based computed ranged, it automatically rejects former and
-prefers latter.
+当吊舱探测到激光测得的斜距与 INS 计算出的距离相差太大时，它会自动放弃前者，选用后者。
 
-In this case, the button can be used to force the use of the laser measured
-slant range instead.
+在这种情况下，可以使用按钮来强制使用激光测得的斜距。
 
-### Acquisition Mode Selector Switch
+### 捕获模式选择开关
 
-Three position switch determining the pods main operation mode.
+一个三档位开关，用来决定吊舱的主工作模式。
 
-| Name                                         | Description                                                                                                                                                                         |
-|----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 12-VIS                                       | Slaves LOS parallel to the optical sight pipper.                                                                                                                                    |
-| [WRCS](../../systems/weapon_systems/wrcs.md) | Slaves LOS to the [WRCS](../../systems/weapon_systems/wrcs.md) cursors unless [WRCS](../../systems/weapon_systems/wrcs.md) integration is deactivated; reverts to 12-VIS otherwise. |
-| 9-VIS                                        | Slaves LOS to 90 degrees below FRL and rolled 90 degrees left.                                                                                                                      |
+| 名称                                         | 描述                                                                                                                                                        |
+| -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 12-VIS                                       | 吊舱 LOS 平行隶属至光学瞄准具准星。                                                                                                                         |
+| [WRCS](../../systems/weapon_systems/wrcs.md) | 除非停用[WRCS](../../systems/weapon_systems/wrcs.md) 一体化，否则 LOS 将隶属至 [WRCS](../../systems/weapon_systems/wrcs.md) 光标；其它情况下将恢复到 12-VIS |
+| 9-VIS                                        | 将 LOS 隶属至 FRL 下方 90 度处并向左横滚 90 度。                                                                                                            |
 
-### WRCS Out
+### WRCS 脱机
 
-If lit, the [WRCS](../../systems/weapon_systems/wrcs.md) is not integrated into the pod and
-functionalities requiring its integration are not available.
+如果亮起，表示 [WRCS](../../systems/weapon_systems/wrcs.md) 未与吊舱进行一体化，无法使用一体化的功
+能。
 
-Can be pressed to manually disengage or engage integration, unless it was
-disintegrated by other means.
+除非是通过其它方式解除一体化，否则 WSO 可以按下按钮来手动断开或接通一体化。
 
-### BIT Status Indicator
+### BIT 状态指示器
 
-Illuminates based on completion of the selected BIT process; GO confirms
-functionality, MALF shows [BIT](../../procedures/bit_tests/overview.md) failure for a given test
-cycle.
+根据所选 BIT 序列的通过情况亮起；GO 确认正常工作，MALF 表示特定测试循环的
+[BIT](../../procedures/bit_tests/overview.md) 未通过。
 
-### Overheat Lamp
+### 过热灯
 
-The OVHT lamp illuminates to indicate an overheat condition in the pod.
+OVHT 灯亮起表示吊舱处于过热状态。
 
-To prevent damage, turn off the pod and give it some time to cool before further
-use. Ignoring the lamp will cause parts of the pod to melt, damaging it
-irreparably.
+为防止受损，请关闭吊舱，冷却一段时间后再继续使用。忽略 OVHT 灯会导致吊舱零件融化，造成无法修复的损
+坏。
 
-To prolong use of the pod and prevent overheating, limit slow and low-level
-flight, as well as continuous use of the laser. As a rule-of-thumb, do not use
-the laser for longer than 15 minutes without allowing for cooling between uses.
-Limit continued slow and low level flight while operating the pod to 30 minutes.
-For extreme outside temperatures, adjust the limits accordingly.
+为延长吊舱的使用时间并防止出现过热，应避免低空低速飞行以及连续使用激光。根据经验，在两次使用之间没
+有进行冷却的情况下，连续使用激光的时间不要超过 15 分钟。在操作吊舱时，将持续低空低速飞行的时间限制
+在 30 分钟以内。对于极端的室外温度，请相应调整时限。
 
-### INS Out
+### INS 脱机
 
-If lit, the [INS](../../systems/nav_com/ins.md) is not integrated into the pod and functionalities
-requiring its integration are not available.
+亮起表示 [INS](../../systems/nav_com/ins.md) 未与吊舱进行一体化，无法使用一体化的功能。
 
-Can be pressed to manually disengage or engage integration, unless it was
-disintegrated by other means.
+除非是通过其它方式解除一体化，否则 WSO 可以按下按钮来手动断开或接通一体化。
 
-## Rudder Pedal Adjustment Crank
+## 方向舵脚蹬调整转轮
 
 ![wso_pedal_crank](../../img/wso_rudder_adjust.jpg)
 
-Used to adjust ergonomic position of the rudder pedals forward or back from the
-WSO.
+用于前后调整方向舵脚蹬到合适的位置。
 
-Requires 12 full turns to move the pedals across the entire range.
+调整到对向最大行程之间需要转动 12 次转轮。

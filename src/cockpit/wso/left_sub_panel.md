@@ -1,205 +1,169 @@
-# Left Sub-Panel
+# 左侧子面板
 
 ![wso_left_sub_panel](../../img/wso_left_sub_panel.jpg)
 
-## Gun Camera Switch
+## 照相枪开关
 
 ![wso_gun_cam_aal_video_select](../../img/wso_avtr_bar.jpg)
 
-Activates recording of gun camera footage.
+激活照相枪录制。
 
-## Air to Air Light
+## 空对空灯
 
-Illuminates when [CAGE](../../stores/air_to_air/acm_modes.md) mode activated; pressing the light
-reverts the radar to the original operating condition prior
-to CAGE entry.
+当激活 [CAGE](../../stores/air_to_air/acm_modes.md) 模式时亮起；按下灯光来使雷达返回进入 CAGE 前的
+原操作模式。
 
-## Video Select Button
+## 视频选择按钮
 
-Push button that alternates between WEAPON, such
-as [AGM-65 Mavericks](../../stores/air_to_ground/missiles/maverick.md),
-and [targeting pod (ASQ-153)](../../systems/weapon_systems/pave_spike/overview.md) television video
-on the radar scope display when in TV mode.
+当 TV 模式时，在 WEAPON——例如 [AGM-65 “幼畜”](../../stores/air_to_ground/missiles/maverick.md) 和
+[瞄准吊舱 (ASQ-153)](../../systems/weapon_systems/pave_spike/overview.md) 之间切换雷达显示器显示的
+视频。
 
-## AVTR Control
+## AVTR 控制
 
-Controls the Airborne Video Tape recorder system which records the intercom
-sound, as well as the rear radar screen.
+控制可记录内话声音以及后座雷达屏幕的机载录像机。
 
-For further information about the Recorder system see [9.5 Recorder](../../dcs/recorders.md).
+录像系统的详细信息请阅读 [9.6 录像机](../../dcs/recorders.md) 章节。
 
-### AVTR Switch
+### AVTR 开关
 
-With the switch in the RECORD position, footage is recorded on the cassette and
-the RCD light illuminates. The STANDBY position pauses recording, while the OFF
-position will additionally automatically unthread the tape back to the beginning
-after 10 seconds.
+当开关处于 RECORD 档位时，录像将被录制在磁带上并且 RCD 指示灯亮起。开关拨至 STANDBY 档位将暂停录制
+，在开关拨至 OFF 档位 10 秒钟后系统会自动将磁带倒转回到首端。
 
-### AVTR Tape Timer
+### AVTR 磁带计时器
 
-The cassette can record up to 20 minutes of footage, indicated in the small
-display labelled MINUTES.
+磁带可录制时间最长可达 20 分钟，剩余录制时间在标有 MINUTES 的小窗口中指示。
 
-### EOT Light
+### EOT 灯
 
-Once the end of the tape has been reached, the EOT light illuminates and the
-tape must be unthreaded before it can record again.
+EOT 指示灯亮起表示到达磁带的末端，必须先将磁带倒转回首端，然后才能再次录制。
 
-### RCD Light
+### RCD 灯
 
-Lit to indicate the AVTR system currently recording.
+亮起表示 AVTR 正在录制。
 
-## Emergency Landing Gear Handle
+## 以及起落架手柄
 
 ![wso_emergency_handles](../../img/wso_emergency_handles.jpg)
 
-Deploys the landing gear using a pair of compressed air bottles; handle cannot
-retract gear, only deploy in an emergency.
+使用一对压缩气瓶来放下起落架；手柄不能用来收上起落架，仅在应急情况下放下起落架。
 
-## Emergency Brake Handle
+## 应急刹车手柄
 
-In an emergency, discharges a portion of the brake system hydraulic accumulator
-to provide emergency braking. Contains a limited number of applications.
+在应急情况下，将液压蓄压器的部分压力释放到刹车系统中来进行应急刹车。制动操作的次数有限。
 
-## APX-80 Control Panel
+## APX-80 控制面板
 
 ![apx_80](../../img/wso_apx_80.jpg)
 
-The AN/APX-80 combines the IFF Interrogator System APX-76 and the Combat-Tree
-system APX-81A. It is used to identify whether an aircraft is friendly or
-hostile.
+AN/APX-80 结合了 IFF 问询器系统 APX-76 和“战斗树”系统 APX-81A。AN/APX-80 用于识别飞机是友机或敌机。
 
-See [Interrogator Systems](../../systems/identification_systems.md#interrogator-systems)
-for details.
+详见 [问询器系统](../../systems/identification_systems.md#interrogator-systems)。
 
-### Code Buttons
+### 编码按钮
 
-The first digit of the code display indicates the current IFF mode, which can be
-either of:
+编码显示屏的第一位数字表示当前的 IFF 模式，可以是以下任一种模式：
 
-- Off (white square)
-- Mode 1
-- Mode 2
-- Mode 3
-- Mode 4/A
-- Mode 4/B
+- Off (白块) - 模式 1 - 模式 2 - 模式 3 - 模式 4/A - 模式 4/B
 
-> 💡 In DCS, only Mode 4 (either A or B) is effective and can be used for
-> interrogation.
+> 💡 在 DCS 中，只有模式 4 ( A 或 B 其中一个) 有效并且可被用于 > 问询。
 
-The other four digits are used to set the IFF code to interrogate for Modes 1
-to 3.
+其它四位数字用于设置 IFF 编码来在模式 1 至 3 进行问询。
 
-The buttons below and above the display are used to decrement and increment the
-corresponding setting respectively.
+位于显示器下方和上方的按钮分别用于减少和增加相应的设置。
 
-### Challenge Lamp
+### 问询灯
 
-This dimmable push-to-test lamp illuminates to indicate IFF active interrogation
-with the APX-76 system.
+这种可调光的按下测试灯亮起时，表示正在使用 APX-76 系统进行 IFF 主动询问。
 
-### Test/Challenge Code
+### 测试/问询编码
 
-If set to OFF, the APX-76 interrogation system is powered off. In the CHALLENGE
-position, it can be used to interrogate.
+如果开关设置到 OFF 档位，则关闭 APX-76 问询系统电源。开关拨至 CHALLENGE 档位时，可用于问询。
 
-TEST is used to test the system. If the lamp above lights up, the test was
-successful.
+TEST 档位用于测试系统。如果上面的指示灯亮起，则表示测试通过。
 
-### Anti-Jam
+### 抗干扰
 
-This switch could be used for anti jammer measurements on some systems, but was
-never installed and connected on this variant of the F-4E.
+开关可用于某些系统的抗干扰机措施，但在该批次的 F-4E 中从未安装并连接到抗干扰措施。
 
-### Test/Challenge Lamp
+### 测试/问询灯
 
-This dimmable push-to-test lamp illuminates to indicate active interrogation
-with the APX-81A Combat-Tree system.
+这种可调光的按下测试灯亮起时，表示正在使用 APX-81A “战斗树”系统进行主动询问。
 
-### Test Button
+### 测试按钮
 
-Starts the built-in test of the APX-81A Combat-Tree system.
+开始 APX-81A “战斗树”系统的机内自检程序。
 
-### Mode 2
+### 模式 2
 
-Used to set Combat-Tree Mode 2 either in ACTIVE, PASSIVE or OFF types.
+用来将“战斗树”模式 2 设置至 ACTIVE、PASSIVE 或 OFF 类型。
 
-### Mode 3
+### 模式 3
 
-Used to set Combat-Tree Mode 3 either in ACTIVE, PASSIVE or OFF types.
+用来将“战斗树”模式 3 设置至 ACTIVE、PASSIVE 或 OFF 类型。
 
-### Mode 4
+### 模式 4
 
-Used to set Combat-Tree Mode 4 into ALARM or OVERRIDE types.
+用来将“战斗树”模式 4 设置至 ALARM 或 OVERRIDE 类型。
 
-This functionality was never installed and connected on this variant of the
-F-4E.
+在该批次的 F-4E 中从未安装并连接到这一功能。
 
-## WSO Oxygen Regulator Panel
+## WSO 氧气调节杆面板
 
 ![wso_oxygen_regulator_panel](../../img/wso_oxygen_regulator.jpg)
 
-### Supply Lever
+### 供氧杆
 
-Two position switch (ON and OFF) activating flow of oxygen to the mask.
-For further information see [3.7 Utility chapter, Oxygen section](../../systems/utility.md#oxygen-system).
+用于激活面罩氧气流量的二档位开关（ON 和 OFF）。详见
+[3.7 公用章节，氧气部分](../../systems/utility.md#oxygen-system)。
 
-### Diluter Lever
+### 稀释杆
 
-A two-position diluter lever, in the center of the regulator
-panel, controls the mixture of air and oxygen.
+二档位稀释杆，位于调节面板的中部，用来控制氧气和空气混合。
 
-For a proportional amount of air to oxygen, the NORMAL
-OXYGEN position should be selected.
+若要使空气与氧气成比例混合，则应选择 NORMAL OXYGEN 档位。
 
-For pure oxygen, the
-100% OXYGEN position should be selected. This setting is preferable
-if fire, toxic smoke or fumes occur in the cockpit.
+需要纯氧呼吸时，应该选择 100% OXYGEN 档位。如果驾驶舱内发生火灾、出现有毒烟雾或烟尘，最好使用该档位
+。
 
-### Emergency Flow Control Switch
+### 应急流量控制开关
 
-Three position switch which permits selection of NORMAL (standard supply),
-EMERGENCY pressure (100% oxygen with continuous positive pressure) or
-TEST MASK (positive pressure to test the face mask for leaks).
+开关总共有三个档位可供选择，分别是，NORMAL（正常供养）、 EMERGENCY 压力（纯氧以及持续正压）或 TEST
+MASK（正压来测试面罩气密性）。
 
-The lever should remain in the center (NORMAL) position at all times,
-unless an unscheduled pressure increase is required.
+控制杆应始终保持在中立（NORMAL）档位，除非需要特意增加压力。
 
-### Flow Indicator
+### 流量指示器
 
-Alternates between black and white with each aircrew member breath to indicate
-oxygen flow (white indicates inhalation).
+机组进行呼吸时，黑白交替显示来指示氧气流量（白色表示吸入）。
 
-### Oxygen Pressure Gauge
+### 氧气压力表
 
-Indicates oxygen supply pressure from 0 to 500 psi.
+显示供氧压力，显示区间为 0 到 500 psi。
 
-For further information see [3.7 Utility chapter, Oxygen section](../../systems/utility.md#oxygen-system).
+详见 [3.7 公用章节，氧气部分](../../systems/utility.md#oxygen-system)。
 
-## Landing Gear/Flap Indicator Panel
+## 起落架/襟翼指示器面板
 
 ![wso_landing_gear_flap_indicator](../../img/wso_landing_gear_flap_indicator.jpg)
 
-Displays current status of landing gear, flaps, and slat position.
+显示当前起落架的状态、襟翼和缝翼的位置。
 
-### Landing Gear
+### 起落架
 
-Status noted with the word UP (up), a barber pole illustration (in transition),
-or an icon of a wheel (down) relative to current position.
+用 UP（上）字样、斜条纹图案（过渡）或“机轮”图标（下）标注起落架当前的状态。
 
-See the [3.1.3 Landing gear chapter](../../systems/flight_controls_gear/gear_ground_handling.md) for
-more information.
+详见 [3.1.3 起落架章节](../../systems/flight_controls_gear/gear_ground_handling.md) 。
 
-### Slats
+### 缝翼
 
-Status noted with the word IN and OUT.
+使用 IN 和 OUT 字样标注当前状态。
 
-### Flaps
+### 襟翼
 
-Status noted with the word UP (flaps up) or (DN) (down). When transitioning, may
-show a barber pole illustration. When transitioning back to the UP position, the
-indicator does not change until the flaps are fully retracted.
+使用 UP（襟翼收上） 和 DOWN（襟翼放下） 字样标注当前状态。在过渡时，可能会显示斜条纹图案。当过渡回
+UP 档位时，在襟翼完全收上前指示器不会发生变化。
 
-See
-the [3.1.2 FLight Controls & AFCS, Slats and Flaps section](../../systems/flight_controls_gear/flight_controls.md#slats-flap-system)
-for more information.
+详见
+[3.1.2 飞行控制设备 & AFCS、缝翼和襟翼部分](../../systems/flight_controls_gear/flight_controls.md#slats-flap-system)
+。
