@@ -221,6 +221,7 @@ and released.</p>
 <p>In certain situations, such as during landing, on the ground or when performing
 AAR, the radar will be in Standby mode. This can also be commanded manually by
 selecting <code>Radar &gt; Operation &gt; Go Cold</code> in the UI.</p>
+<p><img src="../img/jradar_operation_options.jpg" alt="Select Operation Mode" /></p>
 <p>When using the radar, Jesters generally differentiates between three phases:</p>
 <ul>
 <li>Regular Search</li>
@@ -240,8 +241,10 @@ pilot.</p>
 at any time through the UI (this action can also be bound directly to a key).
 Should the situation require, the player can manually set a zone for Jester to
 scan outside of his regular pattern through the UI.</p>
+<p><img src="../img/jradar_select_zone.jpg" alt="Select Scan Zone" /></p>
 <p>Jester will indicate the highest priority target by moving and keeping the
 cursor always on the radar return.</p>
+<p><img src="../img/jradar_regular_search_cursor.jpg" alt="Cursor On Target" /></p>
 <div class="table-wrapper"><table><thead><tr><th>Duration</th><th>Context Action</th></tr></thead><tbody>
 <tr><td>Short</td><td>Enter <strong>Focused Search</strong> on current target</td></tr>
 <tr><td>Long</td><td>Select Next Target</td></tr>
@@ -253,6 +256,7 @@ as well as commanding the radar into a narrow view.</p>
 <p>This mode can be understood as <em>"Track While Scan"</em>, where Jester keeps the
 radar on a specific contact, while still scanning the surrounding space,
 identifying and calling out any new contact spotted.</p>
+<p><img src="../img/jradar_focused_search.jpg" alt="Focused Search" /></p>
 <div class="table-wrapper"><table><thead><tr><th>Duration</th><th>Context Action</th></tr></thead><tbody>
 <tr><td>Short</td><td><strong>Lock</strong> current target</td></tr>
 <tr><td>Long</td><td>Drop focus, back to <strong>Regular Search</strong></td></tr>
@@ -260,6 +264,10 @@ identifying and calling out any new contact spotted.</p>
 </div>
 <h3 id="lock"><a class="header" href="#lock">Lock</a></h3>
 <p>During a lock, Jester works the radar to keep the lock as long as possible.</p>
+<p><img src="../img/jradar_locked.jpg" alt="Locked Target" /></p>
+<p>The UI also allows selecting a target to lock manually without using context
+action.</p>
+<p><img src="../img/jradar_lock_target_manually.jpg" alt="Lock Target Manually" /></p>
 <div class="table-wrapper"><table><thead><tr><th>Duration</th><th>Context Action</th></tr></thead><tbody>
 <tr><td>Short</td><td>Drop lock, back to <strong>Focused Search</strong></td></tr>
 <tr><td>Long</td><td>Drop lock and focus, back to <strong>Regular Search</strong></td></tr>
@@ -286,15 +294,21 @@ any close contact.</p>
 Delivery Mode Knob, the <strong>Context Action</strong> can be used to command Jester to lock
 the ground return after placing the nose on the target. A subsequent press will
 unlock the target again.</p>
-<p>This way, ground target can be attacked effectively during a dive. The pilot places
-the reticle on the target, commands Jester to lock the return and then pulls up
-while holding down the Bomb Button. Weapons will be released automatically shortly after.</p>
+<p><img src="../img/jester_dive_toss_prepare.jpg" alt="Pipper on Target" /></p>
+<p>This way, ground target can be attacked effectively during a dive. The pilot
+places the reticle on the target, commands Jester to lock the return and then
+pulls up while holding down the Bomb Button. Weapons will be released
+automatically shortly after.</p>
+<p><img src="../img/jester_dive_toss_locked.jpg" alt="Ground Return Locked" /></p>
 <h2 id="pave-spike"><a class="header" href="#pave-spike">Pave Spike</a></h2>
 <p>If equipped, Jester will ensure the targeting pod is ready for a 12-VIS dive
 attack when required.</p>
 <p>This can also be commanded manually by selecting either
 <code>Air To Ground &gt; Pave Spike &gt; Operation &gt; Standby</code> or
 <code>Air To Ground &gt; Pave Spike &gt; Operation &gt; Ready</code> in the UI.</p>
+<p><img src="../img/jpod_operation_options.jpg" alt="Operation Options" /></p>
+<p>Additionally, the UI allows the pilot to change the laser code used by Pave
+Spike.</p>
 <p>The pilot can command Jester to focus on operating the targeting pod by
 selecting TGT FIND on the Delivery Mode Knob.</p>
 <blockquote>
@@ -304,6 +318,7 @@ are mutually exclusive.</p>
 <h3 id="12-vis-dive"><a class="header" href="#12-vis-dive">12-VIS Dive</a></h3>
 <p>Pressing the <strong>Context Action</strong> will command Jester to lock the ground target
 next to the reticle. A subsequent press will unlock the target again.</p>
+<p><img src="../img/jpod_12_vis_dive_lock.jpg" alt="Pipper on Target" /></p>
 <p>This can be used effectively in 12-VIS mode where the pilot points the nose on
 the target in a short dive. After locking the target, the pilot can pull out of
 the dive and either keep observing the target through the pod, or start an
