@@ -11,6 +11,8 @@ While lacking a fuel gauge in his cockpit, he will observe the clock and the
 pilots flying style to remind him about checking the fuel level or consumption
 when forgetting to leave the Fuel Dump switch activated.
 
+![Jester Fuel Check](../img/jester_fuel_check.jpg)
+
 Jester is able to assess and report battle damage to a certain degree and much
 more.
 

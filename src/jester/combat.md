@@ -24,6 +24,8 @@ In certain situations, such as during landing, on the ground or when performing
 AAR, the radar will be in Standby mode. This can also be commanded manually by
 selecting `Radar > Operation > Go Cold` in the UI.
 
+![Select Operation Mode](../img/jradar_operation_options.jpg)
+
 When using the radar, Jesters generally differentiates between three phases:
 
 - Regular Search
@@ -49,13 +51,17 @@ at any time through the UI (this action can also be bound directly to a key).
 Should the situation require, the player can manually set a zone for Jester to
 scan outside of his regular pattern through the UI.
 
+![Select Scan Zone](../img/jradar_select_zone.jpg)
+
 Jester will indicate the highest priority target by moving and keeping the
 cursor always on the radar return.
 
-| Duration | Context Action                              |
-| -------- | ------------------------------------------- |
+![Cursor On Target](../img/jradar_regular_search_cursor.jpg)
+
+| Duration | Context Action                             |
+| -------- | ------------------------------------------ |
 | Short    | Enter **Focused Search** on current target |
-| Long     | Select Next Target                          |
+| Long     | Select Next Target                         |
 
 ### Focused Search
 
@@ -66,6 +72,8 @@ This mode can be understood as _"Track While Scan"_, where Jester keeps the
 radar on a specific contact, while still scanning the surrounding space,
 identifying and calling out any new contact spotted.
 
+![Focused Search](../img/jradar_focused_search.jpg)
+
 | Duration | Context Action                         |
 | -------- | -------------------------------------- |
 | Short    | **Lock** current target                |
@@ -75,9 +83,16 @@ identifying and calling out any new contact spotted.
 
 During a lock, Jester works the radar to keep the lock as long as possible.
 
+![Locked Target](../img/jradar_locked.jpg)
+
+The UI also allows selecting a target to lock manually without using context
+action.
+
+![Lock Target Manually](../img/jradar_lock_target_manually.jpg)
+
 | Duration | Context Action                                  |
 | -------- | ----------------------------------------------- |
-| Short    | Drop lock, back to **Focused Search**          |
+| Short    | Drop lock, back to **Focused Search**           |
 | Long     | Drop lock and focus, back to **Regular Search** |
 
 > 💡 To lock and attack a contact as fast as possible while in **Regular
@@ -106,9 +121,14 @@ Delivery Mode Knob, the **Context Action** can be used to command Jester to lock
 the ground return after placing the nose on the target. A subsequent press will
 unlock the target again.
 
-This way, ground target can be attacked effectively during a dive. The pilot places
-the reticle on the target, commands Jester to lock the return and then pulls up
-while holding down the Bomb Button. Weapons will be released automatically shortly after.
+![Pipper on Target](../img/jester_dive_toss_prepare.jpg)
+
+This way, ground target can be attacked effectively during a dive. The pilot
+places the reticle on the target, commands Jester to lock the return and then
+pulls up while holding down the Bomb Button. Weapons will be released
+automatically shortly after.
+
+![Ground Return Locked](../img/jester_dive_toss_locked.jpg)
 
 ## Pave Spike
 
@@ -118,6 +138,11 @@ attack when required.
 This can also be commanded manually by selecting either
 `Air To Ground > Pave Spike > Operation > Standby` or
 `Air To Ground > Pave Spike > Operation > Ready` in the UI.
+
+![Operation Options](../img/jpod_operation_options.jpg)
+
+Additionally, the UI allows the pilot to change the laser code used by Pave
+Spike.
 
 The pilot can command Jester to focus on operating the targeting pod by
 selecting TGT FIND on the Delivery Mode Knob.
@@ -129,6 +154,8 @@ selecting TGT FIND on the Delivery Mode Knob.
 
 Pressing the **Context Action** will command Jester to lock the ground target
 next to the reticle. A subsequent press will unlock the target again.
+
+![Pipper on Target](../img/jpod_12_vis_dive_lock.jpg)
 
 This can be used effectively in 12-VIS mode where the pilot points the nose on
 the target in a short dive. After locking the target, the pilot can pull out of
@@ -144,15 +171,15 @@ for details.
 
 ## Context Action Overview
 
-| Context               | Duration | Action                                          |
-| --------------------- | :------: | ----------------------------------------------- |
-| BVR - Regular Search  |    •     | Enter **Focused Search** on current target     |
-|                       |    ▄     | Select Next Target                              |
+| Context              | Duration | Action                                          |
+| -------------------- | :------: | ----------------------------------------------- |
+| BVR - Regular Search |    •     | Enter **Focused Search** on current target      |
+|                      |    ▄     | Select Next Target                              |
 | BVR - Focused Search |    •     | **Lock** current target                         |
-|                       |    ▄     | Drop focus, back to **Regular Search**          |
-| BVR - Lock            |    •     | Drop lock, back to **Focused Search**          |
-|                       |    ▄     | Drop lock and focus, back to **Regular Search** |
-| Dogfight              |    •     | Lock contact ahead if it shows a return         |
-|                       |    ▄     | Exit CAGE mode                                  |
-| Pave Spike            |          | Lock/Unlock target next to reticle              |
-| Dive Toss             |          | Lock/Unlock ground return                       |
+|                      |    ▄     | Drop focus, back to **Regular Search**          |
+| BVR - Lock           |    •     | Drop lock, back to **Focused Search**           |
+|                      |    ▄     | Drop lock and focus, back to **Regular Search** |
+| Dogfight             |    •     | Lock contact ahead if it shows a return         |
+|                      |    ▄     | Exit CAGE mode                                  |
+| Pave Spike           |          | Lock/Unlock target next to reticle              |
+| Dive Toss            |          | Lock/Unlock ground return                       |
