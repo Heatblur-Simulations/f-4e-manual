@@ -5,10 +5,12 @@ a virtual browser can be opened (by default <kbd>RCTRL</kbd>+<kbd>V</kbd>).
 
 ![Virtual Browser UI](../img/virtual_browser.jpg)
 
-The browser enables users to watch tutorial videos, read documentation provided by
-third parties, listen to a music playlist while flying, or also playing some browser games.
+The browser enables users to
 
-![Play Games](../img/virtual_browser_mario.jpg)
+* watch tutorial videos,
+* read documentation provided by third parties,
+* listen to a music playlist while flying,
+* or also playing some browser games and much more.
 
 The UI is embedded in-game, can be resized and moved around. Buttons on the
 top left corner allow for quick navigation.
