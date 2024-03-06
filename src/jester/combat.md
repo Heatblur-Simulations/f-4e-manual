@@ -123,7 +123,7 @@ unlock the target again.
 
 ![Pipper on Target](../img/jester_dive_toss_prepare.jpg)
 
-This way, ground target can be attacked effectively during a dive. The pilot
+This way, ground targets can be attacked effectively during a dive. The pilot
 places the reticle on the target, commands Jester to lock the return and then
 pulls up while holding down the Bomb Button. Weapons will be released
 automatically shortly after.
@@ -181,5 +181,5 @@ for details.
 |                      |    ▄     | Drop lock and focus, back to **Regular Search** |
 | Dogfight             |    •     | Lock contact ahead if it shows a return         |
 |                      |    ▄     | Exit CAGE mode                                  |
-| Pave Spike           |          | Lock/Unlock target next to reticle              |
 | Dive Toss            |          | Lock/Unlock ground return                       |
+| Pave Spike           |          | Lock/Unlock target next to reticle              |
