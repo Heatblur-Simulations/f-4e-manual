@@ -186,3 +186,21 @@ for details.
 |                      |    ▄     | Exit CAGE mode                                  |
 | Dive Toss            |          | Lock/Unlock ground return                       |
 | Pave Spike           |          | Lock/Unlock target next to reticle              |
+
+## Bombing Preparation
+
+To prepare a bombing run, both pilot and WSO have to enter several settings
+throughout the cockpit.
+
+For Jester, this includes the WRCS panel, such as the **Release Range**,
+**Target Altitude** or **Release Advance**, as well as the LABS angles and
+timers.
+
+To prepare Jester for a bombing run, use the
+[Bombing Computer](../dcs/bombing_computer.md) tool and transfer the solution by
+utilizing the **Tell Jester** button.
+
+![Tell Jester UI](../img/jester_bombing_table.jpg)
+
+Once activated, Jester will do his part in preparing the aircraft for the
+desired attack.
