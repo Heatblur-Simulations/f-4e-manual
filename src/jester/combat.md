@@ -26,7 +26,7 @@ selecting `Radar > Operation > Go Cold` in the UI.
 
 ![Select Operation Mode](../img/jradar_operation_options.jpg)
 
-When using the radar, Jesters generally differentiates between three phases:
+When using the radar, Jester generally differentiates between three phases:
 
 - Regular Search
 - Focused Search
@@ -53,8 +53,11 @@ scan outside of his regular pattern through the UI.
 
 ![Select Scan Zone](../img/jradar_select_zone.jpg)
 
+He will then scan this zone for a while first before proceeding back to his
+regular pattern.
+
 Jester will indicate the highest priority target by moving and keeping the
-cursor always on the radar return.
+cursor always on the corresponding radar return.
 
 ![Cursor On Target](../img/jradar_regular_search_cursor.jpg)
 
