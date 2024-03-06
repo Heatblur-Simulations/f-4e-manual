@@ -3,7 +3,7 @@
 The Phantom's fuel system is duplicated; that is, their pump and feed
 arrangement is the same for both the left and right engines, and they share the
 same set of fuel cells. Internal fuselage fuel between all 7 cells and the wing
-tanks is just over 12,000 lbs of JP-4. With two external 315 gallon wing tanks,
+tanks is just over 12,000 lbs of JP-4. With two external 370 gallon wing tanks,
 that value increases to over 16,800 lbs. Adding the centerline 600 gallon tank
 will bring the aircraft total fuel state to just under 20,800 lbs of fuel.
 

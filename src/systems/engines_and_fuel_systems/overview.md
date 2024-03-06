@@ -10,6 +10,6 @@ engine cranking during starting.
 
 It also features an internal fuel system comprising interconnected
 cells in the fuselage and two internal wing tanks. External fuel can be carried
-in two wing-mounted 315-gallon tanks and a 600-gallon fuselage-mounted tank.
+in two wing-mounted 370-gallon tanks and a 600-gallon fuselage-mounted tank.
 
 ![Wing Tanks In-Flight](../../img/wing_tanks_flight.jpg)
