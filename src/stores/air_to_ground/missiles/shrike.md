@@ -49,7 +49,7 @@ current target area, and if multiple missiles are to be launched, a release
 advance time setting. The WRCS receives both data from the missile regarding
 look angle from the missile, along with corrected look angle from the INS; the
 selection for which data to use is performed with the DF REJ switch, and should
-in most all cases be left said position.
+in most cases be left said position.
 
 Look angle and estimated range available, the WRCS will provide guidance
 instruction using the needles on the ADI. Once oriented in the dive angle, the

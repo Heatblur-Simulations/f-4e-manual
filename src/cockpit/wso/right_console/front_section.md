@@ -133,7 +133,7 @@ using the [WRCS](../../../systems/weapon_systems/wrcs.md) release range data.
 
 ### TGT FIND Switch
 
-The two position switch (<num>2</num>) is Used to combine the delivery functionality ofu
+The two position switch (<num>2</num>) is Used to combine the delivery functionality of
 the [ARBCS/LABS](../../../systems/weapon_systems/arbcs.md) system with the
 [WRCS](../../../systems/weapon_systems/wrcs.md) TGT FIND mode. NORM is selected for the standard
 function of the WRCS without LABS delivery capability. Selecting HOLD and
