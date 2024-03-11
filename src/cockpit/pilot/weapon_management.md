@@ -151,21 +151,21 @@ for air-to-air weapons (including the gun). The next mode, DIRECT, is used for
 video-directed weapons such as the AGM-65 and as a direct delivery bombing mode.
 The full series of positions is as follows, clockwise from the left:
 
-| Name                                                                                             | Description                                                                                       |
-|--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| [TOSS](../../stores/air_to_ground/bombs/employment.md#instantaneous-over-the-shoulder---inst-os) | Instantaneous Over the Shoulder                                                                   |
-| [LOFT](../../stores/air_to_ground/bombs/employment.md#loft)                                      | Loft                                                                                              |
-| [O/S](../../stores/air_to_ground/bombs/employment.md#timed-over-the-shoulder---timed-os)         | (Timed) Over the Shoulder                                                                         |
-| [T LAD](../../stores/air_to_ground/bombs/employment.md#timed-low-angle-drogue-delivery---t-ladd) | Timed LADD (Low Angle Drogue Delivery)                                                            |
-| [TL](../../stores/air_to_ground/bombs/employment.md#timed-level---tl)                            | Timed Level                                                                                       |
-| OFF                                                                                              | Off (Air-to-Air)                                                                                  |
-| [DIRECT](../../stores/air_to_ground/bombs/employment.md#direct)                                  | Manual Direct                                                                                     |
-| [TGT FIND](../../stores/air_to_ground/bombs/employment.md#target-find---tgt-find)                | Target Find (Nav mode and [Pave Spike](../../systems/weapon_systems/pave_spike/overview.md) only) |
-| [DT](../../stores/air_to_ground/bombs/employment.md#dive-toss---dt)                              | Dive Toss                                                                                         |
-| [DL](../../stores/air_to_ground/bombs/employment.md#dive-laydown---dl)                           | Dive Laydown                                                                                      |
-| [L](../../stores/air_to_ground/bombs/employment.md#laydown---l)                                  | Laydown                                                                                           |
-| [OFF SET](../../stores/air_to_ground/bombs/employment.md#offset)                                 | Offset Bomb                                                                                       |
-| [AGM-45](../../stores/air_to_ground/missiles/shrike.md)                                          | [AGM-45 Shrike](../../stores/air_to_ground/missiles/shrike.md)                                    |
+| Name                                                                                                 | Description                                                                                       |
+|------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| [INST O/S](../../stores/air_to_ground/bombs/employment.md#instantaneous-over-the-shoulder---inst-os) | Instantaneous Over the Shoulder                                                                   |
+| [LOFT](../../stores/air_to_ground/bombs/employment.md#loft)                                          | Loft                                                                                              |
+| [O/S](../../stores/air_to_ground/bombs/employment.md#timed-over-the-shoulder---timed-os)             | (Timed) Over the Shoulder                                                                         |
+| [T LAD](../../stores/air_to_ground/bombs/employment.md#timed-low-angle-drogue-delivery---t-ladd)     | Timed LADD (Low Angle Drogue Delivery)                                                            |
+| [TL](../../stores/air_to_ground/bombs/employment.md#timed-level---tl)                                | Timed Level                                                                                       |
+| OFF                                                                                                  | Off (Air-to-Air)                                                                                  |
+| [DIRECT](../../stores/air_to_ground/bombs/employment.md#direct)                                      | Manual Direct                                                                                     |
+| [TGT FIND](../../stores/air_to_ground/bombs/employment.md#target-find---tgt-find)                    | Target Find (Nav mode and [Pave Spike](../../systems/weapon_systems/pave_spike/overview.md) only) |
+| [DT](../../stores/air_to_ground/bombs/employment.md#dive-toss---dt)                                  | Dive Toss                                                                                         |
+| [DL](../../stores/air_to_ground/bombs/employment.md#dive-laydown---dl)                               | Dive Laydown                                                                                      |
+| [L](../../stores/air_to_ground/bombs/employment.md#laydown---l)                                      | Laydown                                                                                           |
+| [OFF SET](../../stores/air_to_ground/bombs/employment.md#offset)                                     | Offset Bomb                                                                                       |
+| [AGM-45](../../stores/air_to_ground/missiles/shrike.md)                                              | [AGM-45 Shrike](../../stores/air_to_ground/missiles/shrike.md)                                    |
 
 For further information see
 [4.3 Air-to-Ground weaponry chapter.](../../stores/air_to_ground/overview.md)
