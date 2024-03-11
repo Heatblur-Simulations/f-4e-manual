@@ -76,7 +76,7 @@ through maintaining a centered horizontal needle during the entire bombing run, 
 the ADI reverts back to the previous function once the bomb button is released after the last
 intended munition for the run has been dropped.
 
-## Instantaneous Over the Shoulder - TOSS
+## Instantaneous Over the Shoulder - INST O/S
 
 Further, derived from the Timed O/S mode, Instantaneous Over the Shoulder bombing
 provides the same combined attack/escape profile as the former against targets
@@ -194,7 +194,7 @@ Visual Identification Point, and initiation of the navigation assistance is
 performed with a direct flyover of the VIP. In an instrument conditions attack,
 the IP is called the RIP - the Radar Identification Point, and acquisition of
 this point using a radar lock in MAP-PPI mode generates a navigation
-solution to the target. When chosen during planning, he VIP or RIP's position relative to
+solution to the target. When chosen during planning, the VIP or RIP's position relative to
 the target determines a pair of offset values (hence the name of the mode); one
 in the North/South axis, the other East/West. Both offsets are noted in feet,
 and the maximum amount of offset in each axis is 99,900', or 16.44 nautical
@@ -220,7 +220,7 @@ cause interference damage. To alleviate this, perform the following:
 
 1. Note the approach altitude above MSL.
 2. Subtract the approach altitude MSL from the RIP altitude above MSL.
-3. Subtract the resulting value found in b from the approach altitude.
+3. Subtract the resulting value found in 2. from the approach altitude.
 
 The resulting value is used for the target altitude value, and the pilot flies
 the planned approach attitude during the target freeze and insert operations as
@@ -333,7 +333,7 @@ The system will automatically release the bombs when the parameters for the ball
 
 ### Target Find INS Update
 
-[INS](../../../systems/nav_com/ins.md) update is performed using offsets again a convenient VIP or
+[INS](../../../systems/nav_com/ins.md) update is performed using offsets against a convenient VIP or
 RIP, with the target location being where the INS update occurs.
 The INS update switch should
 be placed in SET, and the latitude and longitude coordinates of the target
