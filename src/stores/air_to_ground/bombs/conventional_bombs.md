@@ -1,70 +1,61 @@
-# Conventional Bombs
+# 通用航弹
 
-## Mk 80 Series
+## Mk 80 系列
 
 ![mk80s](../../../img/mk80s.jpg)
 
-The Phantom II's bread and butter in the air to ground role, the Mk 80 series
-conventional bombs were first dropped in combat over North Vietnam. The F-4E is
-able to deliver the 500 lb Mk 82, the 1000 lb Mk 83, and 2000 lb Mk 84. Of note
-is the selectable drag option Mk 82 variant known as Snakeye. With the
-selectable fin arrangement on the round, the deployable fins remain in position
-in the low drag profile, and deploy as a cruciform aerobraking device in the
-high drag setting. This change in setting is managed with the Nose/Tail Arming
-switch.
+在空对地任务中，“鬼怪”II 的主力装备为 Mk 80 系列常规炸弹——在越南北部的战斗中首次投放该系列航弹
+。F-4E 能够投放 500 磅 Mk 82，1000 磅 Mk 83 和 2000 磅 Mk 84。值得注意的是阻力可选的 Mk 82 衍生型——
+又名“蛇眼”。这种炸弹配备了可选择的尾翼布置，在低阻选项时尾翼保持收起，在高阻设置中将展开成为十字气
+动减速装置。机组可通过头部/尾部解除保险开关来管理使用高/低阻设置。
 
-### Variants
+### 型号
 
-Available conventional unguided bombs are:
+可用的通用航弹为：
 
-| Variant       | Warhead | Description     |
-| ------------- | ------: | --------------- |
-| Mk-81         |  250 lb | Low Drag        |
-| Mk-82         |  500 lb | Low Drag        |
-| Mk-82 AIR     |  500 lb | High Drag Chute |
-| Mk-82 Snakeye |  500 lb | High Drag       |
-| Mk-83         | 1000 lb | Low Drag        |
-| Mk-84         | 2000 lb | Low Drag        |
-| M-117         |  750 lb | Low Drag        |
+| 型号         |  战斗部 | 描述       |
+| ------------ | ------: | ---------- |
+| Mk-81        |  250 磅 | 低阻       |
+| Mk-82        |  500 磅 | 低阻       |
+| Mk-82 AIR    |  500 磅 | 高阻减速伞 |
+| Mk-82 “蛇眼” |  500 磅 | 高阻       |
+| Mk-83        | 1000 磅 | 低阻       |
+| Mk-84        | 2000 磅 | 低阻       |
+| M-117        |  750 磅 | 低阻       |
 
-## Anti-Tank Cluster Bombs - Mk 20 Rockeye
+## 反坦克集束炸弹 - Mk 20 “石眼”
 
 ![mk40s](../../../img/mk40s.jpg)
 
-Carrying 247 Mk 118 anti-tank bomblets, the Mk 20 Rockeye is used to deliver
-said potency across a wide dispersal area. The Mk 20 has a base schedule
-dispersal time depending on variant (4 seconds in the Mod 2 variant, and 1.2
-seconds in the Mod 3), along with a ground crew selectable option time that is
-programmed prior to takeoff. In concert, once over the target area the pilot can
-select the necessary option through the Nose/Tail Arming switch, and deliver the
-weapon with the profile most suited to the target.
+携带 247 枚 Mk 118 反坦克子弹药的 Mk 20 “石眼” 用于大面积布撒子弹药来提高杀伤效能。Mk 20 根据型号拥
+有基础布撒时间制度（Mod 2 型为 4 秒，Mod 3 型为 1.2 秒），以及由地勤人员在起飞前进行编程的可选预设
+时间。这样一来，在飞机进入目标区域后，飞行员可以通过头部/尾部解除保险开关选择必要的选项，并以最适合
+目标的方式投放武器即可。
 
-### CBU Variants
+### CBU 型号
 
-Available cluster bombs are:
+可用集束炸弹包括：
 
-| Variant | Amount | Description      |
-| ------- | -----: | ---------------- |
-| Mk-20   |    247 | HEAT             |
-| CBU-52B |    220 | HE               |
-| CBU-87  |    202 | Combined Effects |
+| 型号    | 数量 | 描述     |
+| ------- | ---: | -------- |
+| Mk-20   |  247 | HEAT     |
+| CBU-52B |  220 | HE       |
+| CBU-87  |  202 | 复合效应 |
 
-## BDU Series Training Bombs
+## BDU 系列训练弹
 
 ![bdu33](../../../img/bdu33.jpg)
 
-Depending on the training requirements and range needs, the Phantom II can carry
-the BDU-33 25 lb training bomb, the BDU-45 500 lb training bomb, or the BDU-50
-500 lb training bomb, in either low or high drag configuration, to simulate the
-carriage and release profile of standard Mk 82 and Snakeye rounds.
+根据训练要求和靶场的需求，“鬼怪”II 可以携带 BDU-33 25 磅训练弹、BDU-45 500 磅训练弹或 BDU-50 500 磅
+训练弹，这些训练弹可以使用高/低阻配置来模拟携带标准 Mk 82 和“蛇眼”炸弹以及投放剖面。
 
-### BDU Variants
+### BDU 型号
 
-Available variants of the BDU family include:
+可用 BDU 家族型号包括：
 
-| Variant | Warhead | Description  |
-| ------- | ------: | ------------ |
-| 33      |   25 lb | Low Drag     |
-| 50 HD   |  500 lb | High Drag    |
-| 50 LD   |  500 lb | Low Drag     |
-| 45 LG   |  500 lb | Laser Guided |
+| 型号  | 战斗部 | 描述     |
+| ----- | -----: | -------- |
+| 33    |  25 磅 | 低阻     |
+| 50 HD | 500 磅 | 高阻     |
+| 50 LD | 500 磅 | 低阻     |
+| 45 LG | 500 磅 | 激光制导 |

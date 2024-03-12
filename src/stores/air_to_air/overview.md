@@ -1,18 +1,14 @@
-# Air to Air
+# 空对空
 
-The F-4E Phantom II stands as an enduring testament to aerial supremacy, owing much of its
-reputation to its formidable air-to-air capabilities.
+F-4E “鬼怪”II 战斗机作为不朽的空中霸主，其盛名在很大程度上归功于其强大的空对空作战能力。
 
-The [AIM-7 Sparrow missile](./aim_7.md) takes center stage in the Phantom II's air-to-air
-capabilities. Comprising a substantial portion of the F-4E's air-to-air armament,
-the [Sparrow's](./aim_7.md) radar-guided system allows pilots to engage adversaries before they
-enter the visual horizon.
+[AIM-7 “麻雀”导弹](./aim_7.md) 在 F-4E “鬼怪” II 战斗机的空对空能力中占据核心地位。作为 F-4E 空对空
+武器库的重要组成部分，[“麻雀”的](./aim_7.md) 的雷达制导系统使得飞行员能够在敌机进入视距之前进行攻击
+。
 
 ![real_life_aim_7](../../img/real_life_aim_7_hawaii.jpg)
 
-In close-quarters engagements, the F-4E relies on the [AIM-9 Sidewinder,](./aim_9.md) a short-range,
-infrared-guided missile celebrated for its agility and responsiveness. Constituting a vital
-component of the Phantom II's air-to-air weaponry, the Sidewinder excels in the intense and dynamic
-scenarios of dogfights.
+在近距离格斗中，F-4E 依赖于 AIM-9 “响尾蛇”导弹，“响尾蛇”一种近程、红外制导导弹，以其敏捷性和响应速
+度而著称。作为鬼怪 II 空对空武器库的重要组成部分，“响尾蛇”导弹在紧张且多变的空战场景中表现出色。
 
 ![real_life_aim_9](../../img/real_life_AIM-9.jpg)

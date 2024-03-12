@@ -1,69 +1,50 @@
-# AIM-9 Sidewinder
+# AIM-9 “响尾蛇”
 
 ![aim9](../../img/aim9.jpg)
 
-Entering service with the United States Navy in 1956, and finally accepted by
-the United States Air Force in 1964, the short range, infrared seeking AIM-9
-Sidewinder is considered by most to be the world's first truly effective air to
-air guided missile. Beginning with the AIM-9B and maintaining compatibility to
-the AIM-9M in US service, the Sidewinder provided the Phantom II with a capable
-close-in weapon system against rapidly maneuvering opponents.
+短程、红外制导 AIM-9 "响尾蛇"导弹于 1956 年入役美国海军，并于 1964 年被美国空军正式接收，人们普遍认
+为它是世界上第一种真正有效的制导空对空导弹。从 AIM-9B 开始，一直到 AIM-9M ，“响尾蛇”在美国服役期间
+的保持着充分的兼容性，“响尾蛇”为“鬼怪”II 提供了一种能够攻击快速机动敌机的武器系统。
 
-Employment of the AIM-9 can be performed with or without a radar lock, and is
-initiated by selecting Master Arm to ON and selecting the Throttle Pinky Switch
-to the center position for Heat. The HEAT lamp on the Head Up Display will
-illuminate, and available AIM-9 missiles will illuminate on the Missile Status
-Panel. The Optical Sight should be selected to A/A, and the reticle will
-stabilize at the Radar Boresight Line, which is the boresight location for the
-Sidewinders on the rails.
+AIM-9 可以在有或没有雷达锁定的情况下的使用，飞行员需要将主军械开关拨至 ON 并将油门握把中的小指开关
+拨至中间档位（Heat）来准备使用“响尾蛇”。此时平视显示器上的 HEAT 灯将亮起，导弹状态面板上可用的
+AIM-9 导弹也将亮起。飞行员应将光学瞄准具设置到 A/A 模式，准星将在稳定在雷达轴线上——响尾蛇在挂架导轨
+上的瞄准轴线。
 
-Should a radar lock be achieved, the sight will display the range bar on the
-right side as previously described, with 20,000' indicated at the top, and
-3,000' range indicated at the bottom. With a radar lock on, the radar will
-display a pair of strobes signifying Rmax and Rmin for the Sidewinder against
-the target under current launch conditions.
+如果雷达锁定一个目标，瞄准具将如前所示在右侧显示距离条，顶部表示 20000 英尺，底部表示 3000 英尺的距
+离。在雷达锁定时，雷达将显示一对表示在当前发射条件下，“响尾蛇”的最大发射距离（Rmax）和最小发射距离
+（Rmin）射线。
 
 ![radar_screen_heat_missile_lock](../../img/radar_screen_heat_missile_lock.jpg)
 
-> 💡 The AIM-9 does not receive a guidance handoff from
-> the APQ-120 like on later aircraft to direct the seeker's look angle. Instead,
-> the ASE circle presents the aim dot against the target to bring it to the RBL.
+> 💡 AIM-9 不像后续的飞机那样从 APQ-120 接收制导切换信号来为导引头提供指向，相反，ASE 圆将瞄准点对
+> 准目标，来将目标带到 RBL 上。
 
-Centering the aim dot in the ASE aligns the target to the RBL, thus allowing for
-rapid acquisition by the seeker of the selected AIM-9. Once the missile's tone
-changes to signify lock, the pilot can then hold down the AAR button on the grip to
-allow for Sidewinder self-track (seeker uncage); this function allows the seeker
-to maintain acquisition of the target (noted by the shifted audio tone), while
-permitting maneuver of the aircraft to a better aspect angle or range solution
-prior to launch if the situation allows. The amount of maneuver available to a
-given Sidewinder type is based on the variant, and should be considered before
-making the selection.
+将瞄准点置于 ASE 圆的中心除可使目标对准雷达轴线（RBL），从而允许选择的 AIM-9 导引头可快速捕获目标。
+一旦导弹的音调改变提示锁定目标，飞行员便可以按住驾驶杆上的 AAR 按钮，以允许响尾蛇自跟踪（导引头解锁
+）；这个功能允许导引头保持捕获目标（通过音调变化来指示），同时在发射前如果条件允许，这可让飞机机动
+到更好的角度或距离来发射导弹。飞行员应该根据对应的“响尾蛇”型号来选择机动量。
 
-## Launch Sequence
+## 发射顺序
 
 ![ext_weapons_launch_sequence_ir](../../img/ext_launch_seq_heat.jpg)
 
-Once the desired firing solution is attained, the AIM-9 is launched using the
-trigger.
+进入理想发射位置后，按下扳机来发射 AIM-9。
 
-AIM-9 Launch Sequence:
+AIM-9 发射顺序：
 
-1. Left Outboard
-2. Right Outboard
-3. Left Inboard
-4. Right Inboard
+1. 左外侧 2. 右外侧 3. 左内侧 4. 右内侧
 
-## Variants
+## 衍生型
 
-The following variants of the AIM-9 family are available for this variant of the
-Phantom:
+-E 型“鬼怪”，可用的 AIM-9 家族衍生型包括：
 
-| Variant   | Description                                                                                                                                                                                                          |
-|-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| B         | First operational version of the Sidewinder family, entering service in the 1950s. It utilized an infrared homing seeker for target acquisition and tracking, making it a heat-seeking missile.                      |
-| J         | Featuring enhanced guidance and performance characteristics. It retained the infrared homing seeker but had improved sensitivity and better resistance to countermeasures.                                           |
-| JULI      | Variant of the AIM-9J developed by Israel. It featured modifications to meet specific operational requirements.                                                                                                      |
-| L         | Significant upgrade with improved infrared homing capabilities, allowing for better target discrimination. It introduced all-aspect targeting, meaning it could engage targets from any angle, not just from behind. |
-| M         | Improved guidance and counter-countermeasures capabilities. It had enhanced maneuverability and improved target-tracking algorithms, making it more effective in combat situations.                                  |
-| P         | Developed for export and used by various nations. It featured improvements over earlier models in terms of reliability and seeker performance.                                                                       |
-| Captive M | Non-functional version used for training and testing purposes.                                                                                                                                                       |
+| 衍生型号  | 描述                                                                                                                                         |
+| --------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| B         | “响尾蛇”家族的首个实用版本，于 1950 年开始服役。它采用了红外制导导引头进行目标捕获和跟踪，因此是一种热寻的导弹。                             |
+| J         | 该型号的制导和性能特性得到增强。J 型保留了红外制导导引头，但提高了灵敏度和抗干扰能力。                                                       |
+| JULI      | 由以色列开发的 AIM-9J 的衍生型。进行了修改，以满足特定的作战需求。                                                                           |
+| L         | 一次重大升级，改进了红外制导能力，使得目标区分能力更强。L 型加入全向锁定能力，意味着 -L 可以从任何角度攻击司机，而不仅仅是从后半球进行攻击。 |
+| M         | 改进了制导和提高抗干扰能力。具有更好的机动性和改进目标跟踪算法，使其在战斗情况下更为有效。                                                   |
+| P         | 为贸易研发的型号，被多个国家使用。相比早期型号，它在可靠性和导引头性能方面都有所改进。                                                       |
+| Captive M | 无功能，用于训练和测试。                                                                                                                     |

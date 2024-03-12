@@ -75,7 +75,7 @@ WSO 可转动旋钮来调光或按下按钮进行测试。
 
 详情请见 [雷达告警接收机](../../systems/defensive_systems/radar_warning_receiver.md) 章节。
 
-### 面板对比度开关
+### 目标对比度开关
 
 用来选择 [AGM-65A “幼畜” 和 AGM-65B “幼畜”](../../stores/air_to_ground/missiles/maverick.md) 导引头
 截获所使用的合适的对比度条件。

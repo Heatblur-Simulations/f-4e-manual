@@ -1,31 +1,24 @@
-# Rockets
+# 航箭
 
-## Mk 4 Series 2.75 Folding Fin Aerial Rockets - FFAR
+## Mk 4 系列 2.75 折叠翼航空火箭弹 - FFAR
 
 ![lau3](../../img/ext_f4_rockets.jpg)
 
-Also known as the Mighty Mouse, the Mk 4 series of unguided aerial rockets
-originated as an air-to-air weapon. Given the rocket's undirected nature,
-tendency for wide dispersion in salvo usage, and overall poor performance in its
-intended role - most notably an incident in which over 200 rounds were fired by a
-pair of F-89 Scorpions in a failed attempt to down an un-commanded target drone,
-the Mighty Mouse was wholly unfit for purpose. However, the rocket's peculiar
-traits were ingeniously capitalized upon by transitioning it to the role of an
-air to ground area effect weapon.
+绰号“太空飞鼠”，Mk 4 系列非制导航空火箭弹起初被设计作为空对空武器。但鉴于火箭的无法制导特性，齐射时
+的宽散布倾向，以及在其设定角色中的总体表现不佳——尤其是在一次著名的事件后——其中两架 F-89 蝎式战斗机
+发射了 200 多枚航箭，试图击落一个不受控的靶机，但未能成功，说明“太空飞鼠”完全不适合其原设计用途。不
+过工程师利用航箭的这一特性，巧妙地将其转变为十分有效的空对地区域压制武器。
 
-Having become a useful tool, the original Mk 4's capability was expanded upon
-with a wide array of warheads, including smoke, anti-personnel flechette, and
-those used by the USAF on the Phantom - the M156 White Phosphorous, Mk 1 High
-Explosive, and the Mk 5 High Explosive Anti Tank. Depending on the hardpoint
-location and configuration, up to 3 LAU-3 pod launchers can be installed per
-hardpoint, each carrying 19 FFARs.
+在证明了其作为武器的价值后，原先的 Mk 4 进一步扩展了包括烟雾弹、反人员钢箭和美国空军在“鬼怪”上使用
+的——M156 白磷弹、Mk 1 高爆弹和 Mk 5 高爆反坦克战斗部。根据硬点的位置和配置，每个硬点最多可以安装 3
+个 LAU-3 火箭发射器，每个发射器携带 19 枚 FFAR。
 
-## Variants
+## 型号
 
-Available variants include:
+可用型号包括：
 
-| Variant        | Description                                |
-| -------------- | ------------------------------------------ |
-| White Phosphor | For marking target areas                   |
-| HE             | Against infantry and light armored targets |
-| HEAT           | Against armored targets, such as vehicles  |
+| 型号 | 描述                   |
+| ---- | ---------------------- |
+| 白磷 | 标记目标区域           |
+| HE   | 打击步兵和轻型装甲目标 |
+| HEAT | 攻击装甲目标，如车辆   |

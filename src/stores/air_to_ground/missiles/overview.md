@@ -1,15 +1,12 @@
-# Missiles
+# 导弹
 
-Among the Phantom II's lethal armament are the AGM-65 Maverick and AGM-45 Shrike missiles, each
-playing a distinct role in the aircraft's capacity to engage ground targets and neutralize enemy
-threats.
+AGM-65 “幼畜”和 AGM-45 “百舌鸟” 两款导弹也位列 “鬼怪”II 的致命武器库中，两种导弹在攻击地面目标和消
+除敌方威胁方面各有所长。
 
-The [AGM-65 Maverick](maverick.md), a precision-guided air-to-ground missile, uses its versatile
-guidance systems, including electro-optical and infrared seekers, to allow pilots to engage a
-variety of ground-based threats.
+[AGM-65 “幼畜”](maverick.md)，一种精确制导空对地导弹，利用其多功能制导系统，包括电光和红外导引头，
+允许飞行员打击各种地面威胁。
 
-The [AGM-45 Shrike](shrike.md) missile takes on a specialized role in Suppression of Enemy Air
-Defenses (SEAD). Designed to seek out and neutralize enemy radar installations, the Shrike is an
-anti-radiation missile that targets radar-emitting threats.
+[AGM-45 “百舌鸟”](shrike.md) 导弹在专职于担任防空压制（SEAD）任务。它旨在寻找并消除敌方雷达设施，“
+百舌鸟”是一款针对雷达辐射威胁的反辐射导弹。
 
 ![Maverick Shot](../../../img/maverick_shot.jpg)

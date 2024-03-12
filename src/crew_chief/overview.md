@@ -1,134 +1,95 @@
-# Crew Chief
+# 机工长
 
 ![crew chief](../img/crew_chief.jpg)
+
 <!-- https://nara.getarchive.net/media/ -->
 
-Crew chief (often called "Chief") is the main technician
-who is responsible for the assigned aircraft when it's on the ground.
-This important role involves not only keeping the aircraft in good shape
-by conducting maintenance, but also preparing it for flight.
-The preparation for take off begins long before the aircraft crew arrives,
-but the chief also directly assists the crew during startup and shutdown.
+机工长（通常被称为“Chief”）是负责飞机地面工作的主要技术人员。这个重要角色不仅涉及飞机维护，也包括为
+飞行做准备。起飞前的准备工作早在机组到达之前就开始了，但机务长也会直接协助机组进行开车和关车。
 
-> 💡 Never upset your crew chief. Make sure you operate your aircraft
-> properly and take good care of it, or you will be scrubbing tires
-> and packing chutes for the rest of your flying career.
+> 💡 永远不要惹恼你的机组长。确保正确操作飞机 > 并妥善照料，否则你将在剩余的飞行生涯中一直负责清洗
+> 轮胎 > 和装备降落伞。
 
-## Features
+## 功能
 
-Our F-4 crew chief has expertise in many fields including:
+F-4 机工长掌握着多个领域的专业知识，其中包括：
 
-* External power (provided by ground cart)
-* External air (provided by ground cart)
-* Engine start cartridges
-* Wheel chocks
-* Boarding ladder and boarding steps
-* Conducting different ground checks (listed below)
+- 地面电源（由电源车提供）
+- 地面气源（由气源车提供）
+- 发动机起动药柱
+- 轮挡
+- 登机梯和登机踏板进行不同的地面检查（如下列所示）
 
 ![Ground Cart](../img/ground_cart_connected.jpg)
 
-## Ground Checks
+## 地面检查
 
-### Overview
+### 总览
 
-The F-4 [procedures](../procedures/overview.md) include several ground checks, which objective is to
-make sure that certain systems are working and set correctly.
-Our F-4 crew chief can assist the pilot during following checks:
+F-4 的 [程序](../procedures/overview.md) 包括几项地面检查，进行地面检查目的是确保某些系统正常工作和
+设置正确。我们的 F-4 机工长可以在以下检查中协助飞行员：
 
-* **Spoiler Actuator**
-* Air Refuelling Door
-* Speed Brakes
-* Slats and Flaps
-* **Flight Controls**
-* **Trim**
-* Tail Hook
-* **Pitot Heat**
+- **扰流板作动筒**
+- 受油门
+- 减速板
+- 缝翼和襟翼
+- **飞行操纵系统**
+- **配平**
+- 拦阻钩
+- **皮托管加热**
 
-Some of them are triggered automatically
-(e.g. when the chief notices speed brakes extending/retracting, he will announce it).
-More advanced checks (**bold ones**) have to be initiated manually.
+其中一些检查会自动触发（例如当机工长注意到减速板展开/收起时，会进行告知）。更高级的检查（**加粗部
+分**）需要手动发起。
 
-Some of them can also be conducted without crew chief, by acquiring visual confirmation from the WSO,
-but not all of them because of the limited visibility from the cockpit.
+其中一些项目可以在无机工长协助的情况下执行，例如由 WSO 来目视确认，但受限于驾驶舱视野并非全部项目都
+可以做到。
 
-### Details
+### 详细信息
 
-More advanced checks are explained here in detail:
+以下是更高级的检查功能详解：
 
-* Spoiler Actuator Check - With the right/left engine operating, slowly deflect
-control stick approximately 1 inch to the left/right.
-Have ground crew or rear seat occupant verify
-that the spoiler does not fully deflect and that it
-returns to a flush position when the stick is
-returned to neutral. Abort if the spoiler check is
-not good.
+扰流板作动筒 - 在左/右发动机开车的情况下，缓慢向左或向右压杆 1 英寸。让机工长或后座核实扰流板未完全
+偏转，并在驾驶杆中立时放下至机翼齐平位置。如果扰流板检查结果不正常，终止任务。
 
-* Flight Controls Check -
-Ground crew should confirm all flight control
-positions. Slats and Flaps should be OUT AND DOWN.
+- 飞行操纵检查 - 地勤人员应当检查所有操纵面位置。缝翼和襟翼应在 OUT AND DOWN 档位。
 
-  * Control stick - PULL FULL AFT AND RELEASE
-    * Movement forward should be smooth and free
-    of any restriction. The stick may not return to
-    the full forward position. The stick should move
-    forward at least to the ½ travel position and
-    further movement toward the stop should
-    require no more than one pound push force.
-  * Rudder - CHECK FULL TRAVEL LEFT AND RIGHT
-  * Ailerons/ARI - CHECK
-    * Move control stick full left. Observe left spoiler
-    up, right aileron down and rudder slightly left.
-    Engage yaw stab aug. Observe rudder move
-    further left. Depress emergency quick release
-    lever. Observe rudder move toward neutral.
-    Release emergency quick release lever,
-    neutralize stick and disengage yaw stab aug.
-    * Repeat check substituting right for left.
+  - 驾驶杆 - 向后拉完全杆并释放 _ 驾驶杆回中应当平滑且无任何限制。驾驶杆不应移动到完全向前的位置，
+    驾驶杆应当向前移动至 ½ 行程位置处并且应当不需要使用超过 1 磅的杆力来进一步压杆至停止位。 _ 方向
+    舵 - 检查向左或向右移动行程完整 _ 副翼/ARI - 检查 _ 向左压满杆。观察左侧扰流板伸出，右侧副翼向
+    下偏转以及方向舵稍微向左偏转。 接通偏航增稳。观察方向舵进一步向左移动。按下应急快速释放杆。观察
+    方向舵回归中位。松开应急快速释放杆，归中驾驶杆并断开偏航增稳。 \* 向右压杆重复上述检查步骤。
 
-> 💡 After TO 1F-4-1081, the MASTER
-> CAUTION and CHK HYD GAGES lights may
-> illuminate momentarily during this check. If
-> pressure recovers without delay, disregard this
-> indication.
+> 💡 在 TO 1F-4-1081 批次后，检查过程中 MASTER > CAUTION 和 CHK HYD GAGES 指示灯可能 > 会短暂亮起。
+> 如果 > 立刻熄灭，忽略 > 指示灯。
 
-* Trim Check - Check operation of the trim
-indicator. Receive a signal from the ground
-crew/rear cockpit occupant that the ailerons and
-rudder are **set at neutral**.
+- 配平检查 - 检查配平指示器。接收地勤人员/WSO 发出的副翼和扰流板 **设置到中立** 信号。
+- 皮托管加热 - 将 **皮托管加热设置到 ON** 并等待地勤人员确认已加热。确认完毕后，将 **皮托管加热设置
+  到 OFF 档位**。
 
-* Pitot Heat Check - Set the **pitot heat to ON** and wait for the ground crew to confirm it's warm.
-After that, put the **pitot heat to OFF**.
+> 🟡 注意：在地面作业时皮托管加热不能使用超过 1 分钟。
 
-> 🟡 CAUTION: Pitot heat should not be used for more than 1
-> minute during ground operations.
+## 通信
 
-## Communication
+两名机组成员可通过两种方式来和机工长取得通信：
 
-Both crew-members can communicate with the chief using one of two methods:
+- 内话 - 机工长的头戴使用类似飞行员和 WSO 之间的双向通信连接线连接到
+  了[内话系统](../systems/nav_com/intercom.md)
+- 手势信号 - 机组通过使用手势与机工长进行单向沟通；当使用这种方法时，机工长的功能将受限；玩家将能够
+  请求进行简单的动作，比如移除轮挡，但机工长不会协助进行目视检查
 
-* Intercom - crew chief's headset is connected to the aircraft [intercom system](../systems/nav_com/intercom.md)
-using a cord providing 2-way communication similar to the communication between Pilot and WSO
-* Hand signals - the aircraft crew communicates with the chief in 1-way fashion using hand signals;
-when this method is used, the crew chief features are limited;
-you will be able to ask for the simpler actions like the wheel chocks removal
-but the crew chief won't help you in conducting visual checks
+这两种模式下玩家都可以通过 Jester 转盘中的“机工长”菜单进行与机工长的通信。飞机必须位于友方机场并保
+持静止，该菜单才会出现。
 
-In both modes you can communicate with the crew chief using Jester wheel **"Crew Chief"** menu.
-The aircraft has to be stationary and located on a friendly airfield for the menu to be available.
+如果正确设置好内话系统且通电，将激活内话模式，否则将使用手势信号模式，并在“机工长”菜单中显示 "(手势
+信号)" 以表明正在使用手势信号进行沟通。
 
-If the intercom system is set up correctly and powered up, the intercom mode will be active,
-otherwise hand signals mode will be used and
-the "(hand signals)" will be added to the "Crew Chief" menu name to indicate that.
+> 💡 由于外部内话系统与 WSO 的传声器和耳机并联连接，地勤人员和 WSO 同时进行传输可能会相互干扰。> 此
+> 外，WSO 的功能选择开关必须设为 **HOT MIC** 来实现飞机与地面通信。
 
-> 💡 Since the external intercom is wired in parallel with the WSO's microphone and headset,
-> the ground crew and WSO can block each other during simultaneous transmissions.
-> In addition, the WSO's function selector switch must be in **HOT MIC** to allow
-> aircraft to ground communications.
-
-Keep in mind that you can verify the 2-way communication
-by using "Comms Check" option.
+请记住玩家可以通过 “Comms Check” 选项来核实双向通信。
 
 ![crew chief menu](../img/crew_chief_menu.jpg)
+
 <!-- ![crew chief menu (hand signals)](../img/crew_chief_menu_hand_signals.jpg) -->
 
-> 🚧 This chapter is under construction.
+> 🚧 本章节仍在编写中。

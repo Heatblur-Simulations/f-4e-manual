@@ -1,108 +1,72 @@
-# AGM-65 Maverick
+# AGM-65 “幼畜”
 
 ![agm65](../../../img/agm65.jpg)
 
-Entering service in 1972, the AGM-65 air to surface missile provided the Phantom
-II with a direct-fire long range weapon, capable of destroying armor, mechanized
-infantry, and other targets with electro-optical, and later - infrared imaged,
-accuracy.
+于 1972 年入役的 AGM-65 空对地导弹为“鬼怪”II 提供了一种直接射击的远程武器，能够使用光电以及后续的红
+外成像以高精度摧毁装甲、机械化步兵和其它目标。
 
-The F-4E was capable of carrying up to six between the two inboard
-wing pylons. The AGM-65 Maverick has an approximate maximum range of 12 nautical miles.
+F-4E 能够在两个内侧机翼挂架之间携带多达六枚 AGM-65 “幼畜”导弹。“幼畜” 导弹的最大射程大约为 12 海里
+。
 
-Employment of the Maverick is shared between both cockpits, with the pilot
-responsible for stores and mode selection, and initial seeker placement. From
-the point the seeker head is stabilized on the intended target area, either crew
-member can direct the final intended contrast target.
+两个驾驶舱都可以使用“幼畜”，飞行员负责挂载和模式选择，以及导引头的初始指向。在将导引头稳定对准预计
+目标区域时，任意一名机组成员都将可以指定最终将攻击的对比度目标。
 
-## Variants
+## 型号
 
-Available variants include:
+可用型号包括：
 
-| Variant | Description                          |
-|---------|--------------------------------------|
-| A       | TV-Guided                            |
-| B       | TV-Guided with a narrower FOV than A |
-| D       | IR-Guided                            |
+| 型号 | 描述                    |
+| ---- | ----------------------- |
+| A    | 电视制导                |
+| B    | 电视制导但视场比 A 更窄 |
+| D    | 红外制导                |
 
-## Employment
+## 武器投放
 
-To utilize a Maverick of any variant, the pilot begins by pressing the
-applicable Station Select buttons, and setting Master Arm to On. The pilot then
-must select Direct on the Delivery Mode Knob, and the TV position on the Weapon
-Select Knob.
+对任意型号的“幼畜”，需要飞行员按下对应的挂点选择按钮，开启主军械开关才能使用。飞行员必须将投放模式
+旋钮转至直接并且武器选择旋钮转至 TV 档位。
 
-When selected to TV, the 3-minute missile gyro warmup sequence initiates; it is
-suggested to start the stopwatch to the left of the Multiple Weapon Panel as a
-means to avoid disturbing this sequence. Once the warmup has completed, the
-lower amber ARM indicators on the Station Select buttons will illuminate.
-Failure to permit this gyro cycle can potentially damage the guidance unit of
-the missiles aboard. During this warmup period, it is helpful to set the
-optical sight to A/G mode, and enter a depression of 45 mils, so that the sight
-alignment be that of the missile seeker. This way, the pilot can put the target on the pipper
-and it will be within the weapons view.
+选择 TV 档位后，导弹陀螺仪的 3 分钟预热序列将开始；建议开始位于左侧子面板的秒表，以避免干扰此序列。
+预热完成后，挂点选择按钮中位于下方的琥珀色 ARM 指示灯将亮起。中断陀螺预热序列完成可能会损坏挂载导弹
+的制导装置。在预热期间，将光学瞄准具设置为 A/G 模式，并输入 45 密位下压角有助于将瞄准具对准导引头。
+这样，飞行员可以将准星指向目标，同时目标将处在武器视场内。
 
-| No Lock                                                  | Locked on Target                                   | Narrow View and Locked                                     |
+| 未锁定                                                   | 锁定目标                                           | 窄视场并锁定目标                                           |
 | -------------------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------- |
 | ![maverick_unlocked](../../../img/maverick_unlocked.jpg) | ![maverick_locked](../../../img/maverick_lock.jpg) | ![maverick_lock_zoom](../../../img/maverick_lock_zoom.jpg) |
 
-Once the warmup has completed, the crew may activate their displays for viewing
-seeker video; the pilot selects the TV position on the Scope Display Select
-switch on the Pedestal panel, and the WSO places the radar display mode knob to
-TV and the Video Select Switch to WEAPON instead of ASQ.
+在预热完成后，机组成员可以激活对应的显示器来查看导引头视频；飞行员需要在底座组中将屏幕显示源开关拨
+至 TV 档位，而 WSO 将底座组模式旋钮转至 TV，并将视频选择开关从 ASQ 切换到 WEAPON 。
 
-With the displays activated, the pilot maneuvers the aircraft to position the
-sight reticle over the target area, and either crew member can then press their
-respective flight stick trigger to initiate video. With video active, command of
-the missile seeker is controlled by the crew member who activated the video
-signal, as follows:
+随着显示器调至显示 TV，飞行员需要操纵飞机将瞄准具准星对准目标区域，然后任意一名机组成员可以按下他们
+各自的驾驶杆扳机来激活视频显示。视频激活后，导弹导引头的控制权将由激活视频信号的机组成员控制，如下
+所述：
 
-### Pilot
+### 飞行员
 
-With the pipper over the target area, pressing and holding the AAR button
-enables track slewing with the Forward Hand Control stick inboard from the
-throttle. Once the seeker crosshair is over the intended target, releasing the
-AAR button performs a lock-on of the missile to the contrast area under the
-crosshair. If the missile seeker fails to achieve lock on the correct target,
-the lock can be broken by squeezing the trigger again, bringing the missile
-seeker back to its boresight position, and then reattempting the lock with the
-AAR button. Should the target not appear to have enough contrast versus the
-surrounding background, the contrast can be swapped from black hot to white-hot,
-or vice versa, using the Target Contrast Switch on the Pedestal panel. Leaving
-the switch in the Auto position allows the seeker to attempt to determine the
-best option for contrast.
+当准星位于目标区域上方时，按住 AAR 按钮可以使用油门握把内侧前手控杆来移动跟踪门。在导引头十字位于预
+定目标上方后，松开 AAR 按钮将执行导弹锁定十字下方的对比度区域。如果导弹导引头未能锁定正确的目标，可
+以通过再次扣动扳机来脱锁，将导弹导引头带回到其瞄准轴位，然后用 AAR 按钮重新尝试锁定。如果目标与周围
+背景的对比度不足，可以使用底座组上的目标对比度开关将对比度从黑热切换到白热，或反之。将开关置于自动
+档位，允许导引头尝试确定最佳对比度选项。
 
-Should a missile appear to not be functioning correctly, it can be rejected to
-the next round in the release sequence using the TGT/MSL REJ switch.
+如果导弹疑似无法正常工作，可以使用 TGT/MSL REJ 开关将其撤销至发射序列中的下一枚导弹。
 
-Once lock on the correct target is attained, the missile is launched using the
-bomb button. To initiate lock on of the next target, the process is started over
-with the squeezing of the trigger.
+一旦锁定正确的目标，使用投弹按钮来发射导弹。如需锁定下一个目标，从扣动扳机开始重复锁定程序。
 
-With the above in mind for the electro-optical AGM-65A and B, the AGM-65D has a
-few minor alterations to the procedure. The seeker of the 65D has two FOV
-settings, wide and narrow, and initial video signal is provided in the wide
-setting. In this setting, a quartet of L shaped brackets define the region of
-the display that will be zoomed in upon selecting the narrow field of view.
-Pressing the trigger a second time changes the video to the narrow setting,
-allowing for a more precise selection of the target.
+相对使用光电的 AGM-65A 和 B，AGM-65D 在程序上有一些小的调整。65D 的导引头有两个视场（FOV）设置，宽
+和窄，初始视频信号在宽设置下。在此设置中，一组 L 形括号将用来指示窄视场下的可见区域。再次按下扳机将
+视频更改为窄视场从而更精确地选择目标。
 
 ### WSO
 
-The WSO performs the same sequence of actions for the seeker guidance, and can
-initiate video upon pilot confirmation of pipper location using the trigger of
-his own flight stick in the rear cockpit. From this point, the WSO uses the
-antenna hand control stick to manage the seeker head placement, lock, and in
-the case of AGM-65D employment FoV controls. Rather than pressing and holding
-the AAR button to activate slew, the WSO selects the half-action trigger
-position, and then slews the seeker using the cursor control.
+WSO 使用相同的动作顺序来进行导引头捕获，并且可以在飞行员确认准星位置后使用后座自己的驾驶杆来激活视
+频。在激活视频后，WSO 使用天线手控杆来管理导引头指向、锁定以及在使用 AGM-65D 时的视场（FoV）。WSO
+需要按下扳机第一段，而非按住 AAR 按钮来激活导引头转动，然后使用光标控制来移动导引头。
 
-Once the applicable target is under the crosshair, lock is achieved using the
-full action command. Should the WSO need to change 65D FoV to narrow, a
-subsequent press of half action will do so. The WSO can change the contrast mode
-with the Contrast Switch on the left side console next to the radar display
-panel. And, once lock is achieved, the WSO can fire the missile using the
-Missile Launch button found on his flight stick - in the same position as the
-Bomb Release button on the front stick.
+在将所需的目标置于十字下方后，使用扳机第二段来锁定目标。如果 WSO 需要变更 65D 的视场至窄视场，再次
+按下扳机第一段将可变更视场。WSO 可使用位于左侧控制台中雷达显示面板旁的对比度开关来变更对比度模式。
+在锁定目标后，WSO 可用使用其驾驶杆中的导弹发射按钮——和飞行员驾驶杆的航弹投放按钮的位置相同——来发射
+导弹。
 
 ![agm65delivery](../../../img/agm65delivery.jpg)

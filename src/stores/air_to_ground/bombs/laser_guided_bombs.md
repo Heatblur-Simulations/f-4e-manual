@@ -1,23 +1,20 @@
-# Laser Guided Bombs
+# 激光制导炸弹
 
-## GBU-10, 12, and 24
+## GBU-10、12 和 24
 
 ![GBUs](../../../img/gbus.jpg)
 
-Built around the Mk 80 series of conventional bombs, the Paveway series
-precision bomb kits install a guidance section and directional maneuvering fin
-section to the Mk 82 (GBU-12) and Mk 84 (GBU-10 and 24) general purpose rounds,
-respectively. Utilizing the Pave Spike laser targeting pod or buddy lasing, the
-Paveway's resulting performance delivered a substantial increase to the
-Phantom's bombing accuracy, with the later GBU-24's larger fin arrangement
-providing greater glide range for the 2000 lb round over the original GBU-10.
+基于 Mk 80 系列通用航弹改装而来，宝石路系列精确炸弹套件分别为 Mk 82（GBU-12）和 Mk 84（GBU-10 和
+24）通用航弹安装了制导部分和方向操纵前翼部分。通过使用 Pave Spike 激光瞄准吊舱或伙伴照射，宝石路为“
+鬼怪”的轰炸精度带来了显著提升，其中较新的 GBU-24 较大的前翼布局为 2000 磅航弹提供了比原始 GBU-10 更
+远的滑翔距离。
 
-## Variants
+## 型号
 
-Available variants of the GBU family include:
+可用的 GBU 家族型号包括：
 
-| Variant | Warhead |
-| ------- | ------: |
-| 10      | 2000 lb |
-| 12      |  500 lb |
-| 24 A/B  | 2000 lb |
+| 型号   |  战斗部 |
+| ------ | ------: |
+| 10     | 2000 磅 |
+| 12     |  500 磅 |
+| 24 A/B | 2000 磅 |

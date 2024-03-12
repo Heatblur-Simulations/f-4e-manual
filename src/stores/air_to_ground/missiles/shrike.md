@@ -1,141 +1,91 @@
-# AGM-45 Shrike Anti-Radiation Missile
+# AGM-45 "百舌鸟"反辐射导弹
 
 ![agm45](../../../img/agm45.jpg)
 
-The Sparrow-derived AGM-45 Shrike is an early attempt at an anti-radiation
-missile for the suppression of enemy air defense (SEAD) role. Mating a
-frequency-tuned seeker with the rocket body of an AIM-7, the Shrike provided the
-United States Navy, and later the United States Air Force, with a standoff
-option for the engagement of enemy SAM radars. While nominally effective, in
-practice the Shrike was a difficult weapon to employ properly, given its limited
-range, low speed, and primary engagement mode that left the launching aircraft
-within lethal envelopes of most opposing air defense systems. Further reducing
-its potency was a small warhead, meaning that in most instances only the
-emitting antenna itself was damaged, rather than the vehicle it was mounted to.
+从"麻雀"导弹衍生而来的 AGM-45 "百舌鸟"是一种早期反辐射导弹，用于在担任防空压制（SEAD）角色时使用。
+通过将调谐频率导引头与 AIM-7 的火箭发动机相结合，"百舌鸟"为美国海军，后来是美国空军，提供了一种防区
+外攻击敌方 SAM 雷达的选项。虽然名义上有效，但实际上，鉴于其有限的射程、低速和主要的交战模式使得载机
+处在大多数敌方防空系统的致命射程内，"百舌鸟"是一种难以正确使用的武器。进一步降低其效能的是小战斗部
+，这意味着在大多数情况下，只能损伤发射天线本身，而不是安装天线的车辆。
 
-While limited in most respects, the Shrike received a number of upgrades over
-its lifetime, lasting in service from the mid-60s in Vietnam, until just after
-the Gulf War, through better engines and additional seeker updates for later SAM
-systems. The Shrike was put into use by two foreign users - the Israeli Air
-Force, who also modified it for a ground-launched version, and through
-clandestine means with the RAF during the Falklands War.
+尽管在大多数方面都有限制，但"百舌鸟"在其服役期内接受了多次升级，从 60 年代中期在越南服役，直到海湾
+战争之后不久，在此期间通过更好的发动机和额外的导引头更新使其能够应对后续的 SAM 系统。世界范围内还有
+两个外国客户也在使用"百舌鸟" - 以色列空军将其修改为地面发射版本，以及皇家空军通过秘密手段在马岛战争
+期间使用。
 
-## Variants
+## 型号
 
-Only the A variant can be equipped on this version of the Phantom.
+在本批次的鬼怪中，仅能装备 -A 型“百舌鸟”。
 
-## Employment
+## 武器投放
 
-The AGM-45 has three separate launch modes available: AGM-45 (WRCS), LOFT, and
-DIRECT.
+AGM-45 有三种不同的投放模式：AGM-45 (WRCS)、LOFT 和 DIRECT。
 
-### AGM-45 (WRCS Mode)
+### AGM-45 (WRCS 模式)
 
-Used only with the AGM-45 in conjunction with the WRCS, this mode is the primary
-means of employment of the Shrike. The mode is based around a high altitude
-attack profile, and depends on the pre-programmed weapon engagement envelope of
-the AGM-45 stored within the WRCS. This profile, in conjunction with current
-aircraft state information from the INS and a signal provided by the receiver in
-the missile - having detecting an emitter of the type its attuned to, define a
-flight path and release envelope for optimum probability of the missile reaching
-the target.
+仅将 AGM-45 结合 WRCS 一起使用，这种模式是“百舌鸟”的主要使用手段。WRCS 模式基于高空攻击剖面，并依赖
+于存储在 WRCS 中的 AGM-45 预编程武器攻击包线来投放。在高空剖面，结合 INS 提供的当前飞机状态信息和导
+弹接收机提供的信号——探测到到其调谐的辐射源类型后，将确定飞行路径和投放剖面，以最大化导弹命中目标的
+概率。
 
-With the WRCS mode selected to AGM-45, the run is initiated by arming a station
-select button for a hardpoint carrying an AGM-45 missile. Doing so activates the
-missile's receiver, and upon emitter acquisition will provide the aforementioned
-information signal to the WRCS. The WSO should enter a target altitude value
-into the computer control panel, if necessary, using a mean value for the
-current target area, and if multiple missiles are to be launched, a release
-advance time setting. The WRCS receives both data from the missile regarding
-look angle from the missile, along with corrected look angle from the INS; the
-selection for which data to use is performed with the DF REJ switch, and should
-in most all cases be left said position.
+将 WRCS 模式切至 AGM-45，攻击程序将从选择挂载了 AGM-45 导弹的挂点选择按钮来开始。按下挂点按钮后，将
+激活导弹的及手机，并且前述的截获辐射源信息信号将提供至 WRCS。如有必要，WSO 应在计算机控制面板中输入
+目标高度值，使用当前目标区域的平均值，如果要发射多枚导弹，还需设置投放提前控制。WRCS 接收来自导弹自
+身的视线角度以及来自 INS 的修正视线角度的数据；使用 DF REJ 开关选择使用哪种数据，在大多数情况下都应
+保持该档位。
 
-Look angle and estimated range available, the WRCS will provide guidance
-instruction using the needles on the ADI. Once oriented in the dive angle, the
-horizontal range to target will be provided on the HSI and BDHI, so long as the
-INS position is selected for navigation mode.
+提供视线角度和估算射程后，WRCS 将使用 ADI 中的指针提供引导。只要为导航模式选择了 INS 档位，在朝向俯
+冲角度后，HSI 和 BDHI 将提供目标的水平距离。
 
-When the aircraft's orientation is correct and the ADI needles are centered,
-once the aircraft is within missile range, one of the indexer lights will
-illuminate based on the detected range to target to instruct the pilot as to the
-required release maneuver - dive, level, or pull-up. At this time, the pilot can
-press and hold the bomb release button to initiate the attack. Once the release
-range is attained in the instructed profile, the missile will be launched.
+当飞机朝向正确且 ADI 指针居中，一旦飞机进入导弹射程内，其中一个分度器灯光将会根据探测到的目标距离亮
+起来指示飞行员执行投放机动 - 俯冲、水平或拉起。此时，飞行员可以按住航弹投放按钮来开始攻击。抵达指示
+剖面中的发射距离时，系统将发射导弹。
 
-> 💡 Special note must be made of the importance of maintaining the ADI needles
-> centered, especially the vertical azimuth relationship. Because the orientation
-> of the missile itself when installed on the wing can cause offset of its
-> receiver to occur when the aircraft is banked, preparation of the attack may
-> require repeated adjustments with wings brought to level every few seconds to
-> make certain the aircraft is pointing at the emitter.
+> 💡 特别需要注意的是，保持 ADI 指针居中的重要性，尤其是垂直方位角关系。因为导弹本身安装在机翼上时
+> 的指向 > ，在飞机带坡度时可能导致接收机偏移，飞行员 > 可能需要每隔几秒就将机翼调整到水平来准备攻
+> 击，以确保飞机指向辐射源。
 
 ![agm_45_commands](../../../img/agm_45_commands.jpg) _Commands of the AGM-45 Shrike in WRCS mode_
 
-#### Pull-up
+#### 拉起
 
-The Pull-up instruction is guidance for the pilot to initiate a steady rotation
-back to the horizon, and, if desired, continue into a steady climb state until
-range requirements are met and the missile is launched. The pilot can choose to
-either bring the aircraft to near level and stop, or pull further into a low
-climb profile. When the aircraft is approximately 5 seconds away from release,
-the level indicator will illuminate, directing the pilot to maintain the current
-orientation until the Shrike is away.
+拉起指引将引导飞行员开始稳定地压低机头回地平线，并如果需要，继续保持稳定的爬升状态，直到满足射程要
+求并发射导弹。飞行员可以选择将飞机调整到接近水平然后停止，或者进一步进入小角度爬升剖面。当飞机大约
+在发射前 5 秒时，水平指示灯将亮起，指导飞行员保持当前朝向，直到发射“百舌鸟”。
 
-#### Dive
+#### 俯冲
 
-The dive command in the WRCS mode occurs only when the attack is initiated very
-close to the target. The situation and proximity to the SAM installation must be
-considered prior to attack commitment with the pickle button, as any response by
-the battery has a high probability of arriving before the missile can
-potentially kill the emitter. The dive command, once followed, will then be
-followed with the level indicator once missile launch imminent.
+在 WRCS 模式下的俯冲指令仅在攻击距离目标非常近时才会发出。在按住 pickle button（航弹投放按钮）开始
+攻击前必须考虑 SAM 设施的情况和接近程度，因为阵地极有可能在导弹命中辐射源之前做出回应。执行完俯冲指
+令后，紧接着的在导弹发射在即的水平指示。
 
-#### Level
+#### 水平
 
-The level instruction is less of a directive than a confirmation of impending
-launch. Depending on the initial attack setup, the level signal may immediately
-occur, or occur quite soon after one of the other two instructions. From that
-point, it is simply required that the pilot maintain the current state for best
-chance of missile success.
+水平指令并非一种指令，更接近于一种即将发射的确认。根据初始攻击设置，水平信号可能会立即出现，或在另
+外两个指令之一出现之后紧跟其后。出现水平指令后，飞行员只需要保持当前状态飞行来提高导弹命中率即可。
 
-### Loft
+### 上仰发射
 
-The Loft attack profile of the Shrike is like a loft bombing attack, utilizing
-the weapon lookup tables to define a suitable IP to release distance, the
-necessary release angle, and the time from IP to pull-up is determined by the
-lookup table speed versus the IP to release distance.
+"百舌鸟"的上仰攻击剖面类似于上仰轰炸，利用武器查找表确定合适的 IP 到投放距离、必要的投放角度，以及
+从 IP 到拉起的时间将根据查找表空速与起始点到投放距离确定。
 
-One key difference in the Loft mode versus the WRCS employment modes for the
-Shrike is the primary usage of the NORM mode rather than DF REJ; this places the
-missile's receiver in the role of the azimuth guidance directive on the ADI
-rather than the INS. The ADI's vertical needle will appear when the AGM-45
-position is selected on the pedestal switch.
+上仰模式与 WRCS 发射模式的一个关键区别在于上仰中主要使用 NORM 模式而不是 DF REJ；这使得导弹的接收机
+将在 ADI 中担任方位引导指令的角色，而非 INS 提供信息。当在底座组上选择 AGM-45 档位时，ADI 中的垂直
+指针会出现。
 
-The attack is performed like a loft bombing profile; the Phantom is flown over
-the IP at the intended altitude and airspeed, with the bomb release button being
-held from the point of flyover. The countdown timer initiates, the horizontal
-ADI bar appears to maintain level flight, and the pull-up lamp illuminates. When
-the pull-up timer runs out, the pull-up lamp will turn off, the sight reticle will
-turn off, and the horizontal ADI bar will move to display G load as normal for
-the pull-up maneuver; a correct profile will keep both ADI bars centered. When
-the aircraft achieves the programmed release angle, the missile will launch.
-Once launch has occurred, the pull-up lamp and sight reticle will illuminate
-again, and the horizontal ADI bar will stow.
+攻击程序和上仰轰炸剖面相似；“鬼怪”在预定的高度和空速下飞过起始点，从飞越点后开始持续按住航弹投放按
+钮。倒计时计时器启动，水平 ADI 指针出现以辅助保持水平飞行，拉起灯亮起。当上仰计时器结束时，拉起灯将
+熄灭，瞄准具准星将会消失，水平 ADI 指针将移动来指示拉起机动所需的过载；在正确的飞行剖面中两根 ADI
+指针都将保持中立。当飞机达到预编程的发射角度时，系统将发射导弹。在导弹发射后，拉起灯和瞄准具准星将
+再次亮起，ADI 水平指针将收起。
 
-![manual_loft_bombing](../../../img/loft.jpg) _Example of the Loft bombing, the procedure stays the
-same for the AGM-45 Shrike_
+![manual_loft_bombing](../../../img/loft.jpg) _上仰轰炸示例，程序和 AGM-45"百舌鸟"保持一致_
 
-### Direct Mode
+### 直接模式
 
-Direct mode employment of the AGM-45 is dependent on the crew knowing the
-precise location of the target SAM emitter; while it can be utilized as a
-fallback method in event of a WRCS system failure, the need for at least 10
-degrees of dive angle against the targe for successful delivery places a premium
-on being able to plan the attack against a specific point on the ground.
+在机组知道目标 SAM 辐射源的精确位置的情况下，可以使用 AGM-45 的直接发射模式；虽然在 WRCS 系统故障的
+情况下可以作为备选方法使用，但为了成功发射需要至少 10 度的俯冲角度对准目标，来提高目标命中率。
 
-To employ the weapon in Direct mode, the crew confirms receipt of emitter audio,
-and initiates a dive to center the ADI needles at the target. The crew should
-then check the dive chart for angle and AGL, and the pilot should maneuver into
-that orientation, maintaining a centered vertical ADI needle. From that point,
-the bomb release button is pressed and held until the Shrike is fired.
+如需在直接模式下发射武器，机组人员需要确认收到辐射源音频，并开始俯冲以使 ADI 指针对准目标。然后，机
+组人员应检查俯冲图表以确定角度和 AGL（离地高度），飞行员应操纵飞机进入对应指向，保持垂直 ADI 指针居
+中。在进入攻击航向后，在"百舌鸟"发射前按住航弹投放按钮。

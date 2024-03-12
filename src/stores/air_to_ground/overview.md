@@ -1,13 +1,11 @@
-# Air to Ground
+# 空对地
 
-The F-4E Phantom II's air-to-ground capabilities are marked by a commitment to precision and
-versatility. Armed with a diverse array of munitions, ranging from
-traditional [unguided bombs](bombs/conventional_bombs.md) to
-sophisticated [precision-guided missiles](missiles/overview.md), the Phantom II is equipped to
-undertake a variety of ground attack missions.
+F-4E 鬼怪 II 战机可执行精确打击和各种打击任务，有着不俗的空对地能力。F-4E 有着从传统的
+[非制导炸弹](bombs/conventional_bombs.md) 到先进的 [精确制导导弹](missiles/overview.md) 等多样化的
+武器，这使得“鬼怪” II 能够执行多种地面攻击任务。
 
-Integral to the F-4E's air-to-ground arsenal are guided munitions used for precision strike.
-[Laser-guided bombs (LGBs)](bombs/laser_guided_bombs.md) and other precision-guided munitions enable
-the Phantom II to engage high-value and strategically important targets with unparalleled accuracy.
+F-4E 的空对地武器库中不可或缺的一部分是用于精确打击的制导弹药
+。[激光制导炸弹(LGB)](bombs/laser_guided_bombs.md) 和其它精确制导武器使得“鬼怪”II 能够以无与伦比的
+准确性打击高价值和重要战略目标。
 
 ![dcs_ext_gun_firing](../../img/ext_f4_redkite_rocket_attack.jpg)

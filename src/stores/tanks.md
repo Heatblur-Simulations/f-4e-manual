@@ -1,20 +1,16 @@
-# Tanks
+# 副油箱
 
 ![Wing Tanks](../img/wing_tanks_loaded.jpg)
 
-To extend reach, the Phantom can equip up to three external fuel tanks,
-nicknamed _Sargent Fletcher Tanks_:
+为扩大航程，“鬼怪”最多可挂载三个副油箱——绰号 _Sargent Fletcher 油箱_：
 
-- 1x 600 gallons external centerline
-- 2x 370 gallons external wing tank
+- 1x 600 加仑中线副油箱 - 2x 370 加仑机翼副油箱
 
-They can also all be loaded simultaneously, increasing the total amount of
-fuel from 12896 lb without any tanks to a striking 21606 lb, doubling the reach.
+三个副油箱可同时挂载，来从不挂载副油箱时的 12896 磅增加到惊人的 21606 磅燃油总量，使燃油量增加了近
+一倍。
 
 ![Center Tank](../img/center_tank_loaded_cold_start.jpg)
 
-With one center tank loaded, the total amount is 16796 lb,
-while with both wing tanks it is 17706 lb.
+挂载一各中线副油箱时，燃油总量为 16796 磅，在挂载两个机翼副油箱时，燃油总量为 17706 磅。
 
-See the [3.2.2. Fuel chapter](../systems/engines_and_fuel_systems/fuel_system.md) for
-details on how to operate the tanks.
+详见 [3.2.2. 燃油章节](../systems/engines_and_fuel_systems/fuel_system.md) 来查看如何使用副油箱。

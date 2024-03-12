@@ -1,88 +1,70 @@
-# Weapons & Stores
+# 武器 & 挂载
 
-As a cornerstone of air forces around the globe, the F-4E's effectiveness is not
-only attributed to its advanced avionics and airframe design but also to its
-formidable array of weapons and stores.
+作为各国空军的基石，F-4E 的作战效能不仅得益于其先进的航电设备和机身设计，还得益于其强大的武器和挂载
+。
 
-The F-4E features three main types of [Air-to-Air](./air_to_air/overview.md)
-Weaponry including Heat-Seeking Missiles with the [AIM-9](./air_to_air/aim_9.md)
-in different [variants,](./air_to_air/aim_9.md#variants) the semi-active radar
-homing missile [AIM-7](./air_to_air/aim_7.md) in different
-[variants](./air_to_air/aim_7.md#variants) and a
-[M61A1 Vulcan cannon](./guns.md#internal-cannon-m61a1-vulcan) that can be used
-against Air and Ground Targets.
+F-4E 主要装备三种 [空对空](./air_to_air/overview.md) 武器，包括不同
+[衍生型](./air_to_air/aim_9.md#variants) 的 [AIM-9](./air_to_air/aim_9.md) 红外制导导弹、不同
+[衍生型](./air_to_air/aim_7.md#variants) 的 [AIM-7](./air_to_air/aim_7.md) 半主动雷达制导导弹以及可
+用于打击空中和地面目标的 [M61A1 火神航炮](./guns.md#internal-cannon-m61a1-vulcan)。
 
-The aircraft can be armed with a variety of
-[bombs](./air_to_ground/bombs/overview.md),
-[rockets](./air_to_ground/rockets.md), and
-[guided munitions](./air_to_ground/missiles/overview.md) to engage and
-neutralize ground targets. Precision-guided munitions, such as
-[laser-guided bombs](./air_to_ground/bombs/laser_guided_bombs.md), enable the
-Phantom II to strike high-value targets with precision, minimizing collateral
-damage and maximizing mission success.
+飞机可挂载各种 [航弹](./air_to_ground/bombs/overview.md) 、[航箭](./air_to_ground/rockets.md) 和
+[制导武器](./air_to_ground/missiles/overview.md) ，来攻击和消灭地面目标。精确制导武器，如
+[激光制导炸弹](./air_to_ground/bombs/laser_guided_bombs.md)，赋予“鬼怪”精确打击高价值目标的能力，最
+大限度地减少附带伤害，最大限度地提高任务成功率。
 
-In addition to its lethal armament, the F-4E can be configured with
-[external fuel tanks](./tanks.md) to extend its operational range. The aircraft
-can also carry specialized stores, including
-[targeting pods](./pods.md#anavq-23-pave-spike) and
-[electronic warfare (EW) systems](./pods.md#alq-131-ecm-pod).
+除致命武器外，F-4E 还可挂载 [副油箱](./tanks.md) 来延长其航程。“鬼怪”还可携带专用挂载，包括
+[瞄准吊舱](./pods.md#anavq-23-pave-spike) 和 [电子战（EW）系统](./pods.md#alq-131-ecm-pod)。
 
-## Loadout
+## 挂载
 
-The following diagram gives an overview of all stores that can be loaded on the
-stations.
+下图囊括了可挂载在挂点上的所有挂载。
 
-> 💡 In practice, not all combinations might be possible, as there are a lot of
-> technical factors resulting in restrictions.
+> 💡 因为有很多 > 技术因素造成限制，实际上并非所有的组合都可能实现。
 
 ![Station Overview](../img/stations.jpg)
 
-| Store / Station |  9  |  8  |  7  |  6  |  5  |  4  |  3  |  2  |  1  | Total |
-| --------------- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | ----: |
-| AIM-9           |     | (2) |     |     |     |     |     | (2) |     |     4 |
-| AIM-7           |     |     |  1  |  1  |     |  1  |  1  |     |     |     4 |
-| AGM-45          |  1  |  1  |     |     |     |     |     |  1  |  1  |     4 |
-| AGM-65          |     |  3  |     |     |     |     |     |  3  |     |     6 |
-| AGM-12          |     |  1  |     |     |     |     |     |  1  |     |     2 |
-| MK-81           |  6  |  3  |     |     |  6  |     |     |  3  |  6  |    24 |
-| MK-82           |  6  |  3  |     |     |  6  |     |     |  3  |  6  |    24 |
-| Mk-83           |  2  |  3  |     |     |  3  |     |     |  3  |  2  |    13 |
-| Mk-84           |  1  |     |     |     |  1  |     |     |     |  1  |     3 |
-| M117            |  4  |  3  |     |     |     |     |     |  3  |  4  |    14 |
-| Mk-20           |  6  |  3  |     |     |  6  |     |     |  3  |  6  |    24 |
-| CBU-52          |  3  |  2  |     |     |     |     |     |  2  |  3  |    10 |
-| CBU-87          |  3  |  2  |     |     |  4  |     |     |  2  |  3  |    14 |
-| GBU-10          |  1  |  1  |     |     |     |     |     |  1  |  1  |     4 |
-| GBU-12          |  1  |  2  |     |     |     |     |     |  2  |  1  |     6 |
-| GBU-24          |  1  |  1  |     |     |     |     |     |  1  |  1  |     4 |
-| BDU-33          |  6  |     |     |     |  6  |     |     |     |  6  |    18 |
-| BDU-50          |  6  |  3  |     |     |  6  |     |     |  3  |  6  |    24 |
-| BDU-45          |     |  2  |     |     |     |     |     |  2  |     |     4 |
-| BLU-107         |     |  3  |     |     |  6  |     |     |  3  |     |    12 |
-| AGM-62          |     |  1  |     |     |     |     |     |  1  |     |     2 |
-| GBU-8           |     |  1  |     |     |     |     |     |  1  |     |     2 |
-| GBU-15          |     |  1  |     |     |     |     |     |  1  |     |     2 |
-| FFAR (×19)      |  3  |  3  |     |     |  3  |     |     |  3  |  3  |   285 |
-| SUU-23          |  1  |     |     |     |  1  |     |     |     |  1  |     3 |
-| ALQ-131         |     |  1  |     |     |     |  1  |     |  1  |     |     3 |
-| AN/AVQ-23       |     |     |     |     |     |  1  |     |     |     |     1 |
-| AN/ALE-40       |     | (1) |     |     |     |     |     | (1) |     |     2 |
-| Fuel Tank       |  1  |     |     |     |     |  1  |     |     |  1  |     3 |
+| 挂载 / 挂点 |  9  |  8  |  7  |  6  |  5  |  4  |  3  |  2  |  1  | 总数 |
+| ----------- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | ---: |
+| AIM-9       |     | (2) |     |     |     |     |     | (2) |     |    4 |
+| AIM-7       |     |     |  1  |  1  |     |  1  |  1  |     |     |    4 |
+| AGM-45      |  1  |  1  |     |     |     |     |     |  1  |  1  |    4 |
+| AGM-65      |     |  3  |     |     |     |     |     |  3  |     |    6 |
+| AGM-12      |     |  1  |     |     |     |     |     |  1  |     |    2 |
+| MK-81       |  6  |  3  |     |     |  6  |     |     |  3  |  6  |   24 |
+| MK-82       |  6  |  3  |     |     |  6  |     |     |  3  |  6  |   24 |
+| Mk-83       |  2  |  3  |     |     |  3  |     |     |  3  |  2  |   13 |
+| Mk-84       |  1  |     |     |     |  1  |     |     |     |  1  |    3 |
+| M117        |  4  |  3  |     |     |     |     |     |  3  |  4  |   14 |
+| Mk-20       |  6  |  3  |     |     |  6  |     |     |  3  |  6  |   24 |
+| CBU-52      |  3  |  2  |     |     |     |     |     |  2  |  3  |   10 |
+| CBU-87      |  3  |  2  |     |     |  4  |     |     |  2  |  3  |   14 |
+| GBU-10      |  1  |  1  |     |     |     |     |     |  1  |  1  |    4 |
+| GBU-12      |  1  |  2  |     |     |     |     |     |  2  |  1  |    6 |
+| GBU-24      |  1  |  1  |     |     |     |     |     |  1  |  1  |    4 |
+| BDU-33      |  6  |     |     |     |  6  |     |     |     |  6  |   18 |
+| BDU-50      |  6  |  3  |     |     |  6  |     |     |  3  |  6  |   24 |
+| BDU-45      |     |  2  |     |     |     |     |     |  2  |     |    4 |
+| BLU-107     |     |  3  |     |     |  6  |     |     |  3  |     |   12 |
+| AGM-62      |     |  1  |     |     |     |     |     |  1  |     |    2 |
+| GBU-8       |     |  1  |     |     |     |     |     |  1  |     |    2 |
+| GBU-15      |     |  1  |     |     |     |     |     |  1  |     |    2 |
+| FFAR (×19)  |  3  |  3  |     |     |  3  |     |     |  3  |  3  |  285 |
+| SUU-23      |  1  |     |     |     |  1  |     |     |     |  1  |    3 |
+| ALQ-131     |     |  1  |     |     |     |  1  |     |  1  |     |    3 |
+| AN/AVQ-23   |     |     |     |     |     |  1  |     |     |     |    1 |
+| AN/ALE-40   |     | (1) |     |     |     |     |     | (1) |     |    2 |
+| 副油箱      |  1  |     |     |     |     |  1  |     |     |  1  |    3 |
 
-In general, stations 3, 4, 6 and 7 can be used to load Air-To-Air Missiles, or
-also Jammer and Targeting Pods.
+一般来说，3、4、6 和 7 号挂点可用于挂载空对空导弹，也可挂载干扰机和瞄准吊舱。
 
-Air-To-Ground Ordnance is mostly carrier on pylons 1, 2, 5, 8 and 9.
+空对地武器主要挂载在 1 号、2 号、5 号、8 号和 9 号挂架上。
 
-Pylons 2 and 8 are special, since they can be equipped with the
-Special-Weapons-Adapter (SWA) and have additional attach-points on their sides
-(labelled 2L, 2R, 8L, 8R) for loading AIM-9 Sidewinder missiles without
-occupying the entire pylon.
+2 号和 8 号挂架比较特殊，因为它们可以装备特殊武器适配器（SWA），并在侧面有额外的连接点（标有
+2L、2R、8L、8R）来挂载 AIM-9 “响尾蛇”导弹，而无需占用整个挂架。
 
-> 💡 AIM-9 Sidewinder can be loaded onto pylon 2 and 8 additionally to other
-> ordnance. Hence, it is still possible to equip for example a Maverick on the
-> same pylon.
+> 💡 AIM-9 “响尾蛇”挂载在 2 号和 8 号挂架的同时，还可携带 > 其它空对地武器。因此，在同一挂架上仍可
+> 携带“幼畜”等 > 武器。
 
-Further, AN/ALE-40 Countermeasure Dispensers can be attached to the aft section
-of Pylon 2 and 8. Allowing the aircraft to carry a mix between 120 chaff and 60
-flares in total.
+此外，“鬼怪”还可在 2 号和 8 号挂架的后部安装 AN/ALE-40 对抗措施布撒器。飞机可以在总共 120 发箔条和
+60 发红外干扰弹之间混合携带对抗措施。

@@ -1,155 +1,103 @@
-# AIM-7 Sparrow
+# AIM-7 "麻雀"
 
 ![aim7](../../img/aim7.jpg)
 
-The AIM-7 is a semi active radar missile with a maximum launch range of approx.
-26 nautical miles.
+AIM-7 是一款半主动雷达制导导弹，最大发射距离约 26 海里。
 
-Originally designated the AAM-N-6 Sparrow III, the AIM-7 Sparrow saw initial
-service entry with the United States Navy in 1958. Unlike the beam-riding AIM-7A
-(AAM-N-2 Sparrow I), which required the launching aircraft to maintain boresight
-on the target for the flyout of the weapon, the semi-active radar homing AIM-7C
-could effectively engage a maneuvering target well off boresight, so long as the
-designating aircraft's radar could maintain a lock during the missile's
-intercept. The AIM-7C quickly gave way to the 7D, which saw a number of kills
-over Vietnam, and the 7E, which scored the majority of the type's kills in
-Southeast Asia. Additionally, the F-4E saw compatibility with the AIM-7F and
-AIM-7M.
+最初被命名为 AAM-N-6 “麻雀” III，AIM-7 “麻雀”导弹于 1958 年开始在美国海军服役。与采用波束制导需要载
+机在武器飞行过程中保持瞄准轴对准目标的 AIM-7A（AAM-N-2 “麻雀” I）不同，只要载机雷达能在导弹截击过程
+中保持锁定，半主动雷达制导的 AIM-7C 就能够有效地攻击在瞄准轴之外进行机动的目标。AIM-7C 很快被 7D 取
+代，7D 在越南战争中取得了数架击落战果，而 7E 则在东南亚取得了该型号大部分的击落记录。此外，F-4E 还
+兼容 AIM-7F 和 AIM-7M 导弹。
 
-Utilization of the AIM-7 begins with tuning the onboard rounds, performed with
-the
-[RDR MSL switch](../../cockpit/pilot/weapon_management.md#radar-missile-power-switch)
-, selecting it into the CW ON position. This tuning process takes approximately
-one minute, and can be initiated once power has been applied for at least one
-minute to the radar (any position out of OFF) in most operating environments
-(ambient temperature below 90 degrees F). The missiles are properly tuned when
-the
-[missile status light](../../cockpit/pilot/weapon_management.md#missile-status-lights)
-(RDR) is illuminated in each station carrying a Sparrow missile for at least one
-minute. After successful tuning, the
-[RDR MSL switch](../../cockpit/pilot/weapon_management.md#radar-missile-power-switch)
-can be returned to the STBY (Standby) position. The status lamps will turn off
-once returned to STBY. Once in the combat area, the
-[RDR MSL switch](../../cockpit/pilot/weapon_management.md#radar-missile-power-switch)
-should be returned to the CW ON position, to maintain proper missile tuning
-state during the engagement.
+使用 AIM-7 将从导弹进行调谐开始，飞行员可通过操作
+[RDR MSL 开关](../../cockpit/pilot/weapon_management.md#radar-missile-power-switch) ，将其拨至 CW
+ON 档位开始调谐。一旦雷达电源开启至少一分钟（OFF 外的任何档位）就可以在大多数作业环境中（环境温度低
+于 90°F）开始调谐，导弹调谐进程大约需要一分钟。当各个挂有“麻雀”导弹的挂架的
+[导弹状态灯](../../cockpit/pilot/weapon_management.md#missile-status-lights) (RDR) 亮起至少一分钟后
+，则表示导弹已正确调谐。调谐完毕后，可将 [RDR MSL 开关] 拨回 STBY（待机）档位。在开关拨回至 STBY 后
+状态灯便会熄灭。一旦进入战斗区域
+，[RDR MSL 开关](../../cockpit/pilot/weapon_management.md#radar-missile-power-switch) 应该拨至 CW
+ON 档位以便在攻击过程中保持正确的导弹调谐状态。
 
-## Employment
+## 武器使用
 
-To employ an AIM-7, the
-[optical sight](../../cockpit/pilot/dscg_controls.md#sight-mode-knob) should be
-placed into the A/A position, which stabilizes the Reticle at the Radar
-Boresight Line in the window. The roll tabs function to provide the pilot with
-relative roll attitude guidance in instrument conditions (weather or nighttime),
-and the right side of the 50 mil diameter circle (outer) functions as a range
-bar when a radar lock is achieved against a target, displaying ranges up to
-20,000' (top) to 3000' (bottom), with 12,000' signified at the 3 o-clock
-position. It is also possible to employ an AIM-7 using the ACM Mode via pressing
-the Cage Button first and than pressing the CAA Button to accomplish a lock.
+如需使用 AIM-7，[光学瞄准具](../../cockpit/pilot/dscg_controls.md#sight-mode-knob) 应该置于 A/A 档
+位，此时准星将稳定在雷达轴线上。横滚标签可在仪表气象条件下（天气或夜间）为飞行员提供相对横滚姿态引
+导，而 50 密位圆圈（外圈）右侧作为距离条，在雷达锁定目标后使用，显示的距离为上方的 20000 英尺到下方
+的 3000 英尺，3 点钟的符号表示 12000 英尺。飞行员还可以通过按下 CAGE 按钮，然后按下 CAA 按钮锁定一
+个目标来在 ACM 模式使用 AIM-7。
 
 ![range_bar_radar_guided_missile](../../img/radar_missile_lock.jpg)
 
-When radar lock against a target is achieved with AIM-7 selected, a pair of
-strobes surround the locked target in azimuth. Identified as Rmax and Rmax 2,
-they represent effective ranges against a 1 G target (Rmax), and a high rate
-maneuvering target based on altitude (Rmax 2, representing 8G up to 20k, 6G to
-35k, and 4G above 35,000'). When a missile is launched, the Rmax 2 strobe falls
-to the bottom of the display, and begins driving upwards towards the target
-lock; this functions as a missile flyout timer. When the timer reaches the
-locked target, it can be assumed the missile has arrived. The display does not
-provide Rmin, but instead reverts to a break X warning superimposed over the
-radar image should Rmin be attained for a Sparrow launch.
+当选定 AIM-7 时使用雷达锁定了一个目标时，在方位角上将出现一对射线包围锁定的目标。这两个射线表示
+Rmax 和 Rmax 2，它们代表了针对 1G 目标的有效发射距离（Rmax），以及根据高度的高速机动目标的有效发射
+距离（Rmax 2，代表高达 20k 英尺的 8G，至 35k 的 6G，以及 35000 英尺以上的 4G 英尺）。当导弹发射时
+，Rmax 2 射线会降显示器的底部，并开始向上运动接近目标锁定的位置；这一功能用作导弹飞行计时器。当计时
+器到达被锁定的目标时，可以假设导弹已命中目标。显示器不提供 Rmin 信息，但是如果达到了“麻雀”导弹的
+Rmin，显示器会转换为一个叠加在雷达图像上的脱离 X 警告。
 
 ![radar_screen_radar_missile_lock](../../img/radar_screen_radar_missile_lock.jpg)
 
-Prior to engagement, a determination must be made as to whether or not the
-missile [interlocks](../../cockpit/pilot/weapon_management.md#interlock-switch)
-will be kept in, or positioned out. The interlocks preclude an AIM-7 shot when
-outside of effective firing parameters, those being the missile in range
-(illuminating the
-[IN RANGE light](../../cockpit/pilot/dscg_controls.md#in-range-light)), the
-target aim dot within the ASE (Allowable Steering Error) circle on the radar
-display, and the radar display mode out of VI (Vis-Ident mode).
+在攻击前，必须决定是否保持导弹 [互锁](../../cockpit/pilot/weapon_management.md#interlock-switch) 是
+接通还是关闭。互锁功能将防止 AIM-7 在超出有效发射参数的情况下发射，有效发射参数包括导弹处于发射距离
+内（[IN RANGE 灯](../../cockpit/pilot/dscg_controls.md#in-range-light) 亮起），目标瞄准点位于雷达显
+示的 ASE（允许转向误差）圈内，以及雷达显示模式非 VI（目视识别模式）。
 
-With the [interlocks](../../cockpit/pilot/weapon_management.md#interlock-switch)
-in, should any of the three aforementioned restrictions be met - target out of
-range, aim dot outside the ASE, or the radar left in VI, a trigger actuation
-will not cause the release of a missile. With
-[interlocks](../../cockpit/pilot/weapon_management.md#interlock-switch) out, an
-AIM-7 will be released no matter the condition of the three interlocks.
+当接通 [互锁](../../cockpit/pilot/weapon_management.md#interlock-switch) 时，如果遇到前述的三个限制
+条件之一——目标超出发射距离、瞄准点位于 ASE 外，或雷达保持在 VI 模式，扣动扳机将不会使导弹发射。当断
+开 [互锁](../../cockpit/pilot/weapon_management.md#interlock-switch) 时，无论是否满足三个限制条件，
+系统都将发射 AIM-7。
 
-When parameters are met, the
-[SHOOT lamps](../../cockpit/pilot/overhead_indicators.md#shoot-lights) will
-illuminate. Found in both cockpits, these lights reinforce the condition of good
-launch conditions for the AIM-7. In the event a target enters a main beam
-clutter situation (aspect angle between 81 and 99 degrees and lower than 5
-degrees above the horizon), the lights will turn off, even though the interlock
-requirements are met. Maneuver should be utilized to bring the target outside
-this region prior to launch.
+满足发射参数后，[SHOOT 灯](../../cockpit/pilot/overhead_indicators.md#shoot-lights) 将会亮起。两个
+驾驶舱中都有 SHOOT 灯，灯光进一步强化了 AIM-7 发射条件好的提示。如果目标进入主瓣杂波（态势在 81 至
+99 度之间且低于地平线+5 度），即使满足了互锁要求，指示灯也会熄灭。应通过机动使目标脱离该区域后再进
+行发射。
 
-At the point of engagement, AIM-7 missiles are selected using the Pinky Switch
-on the outboard (left) throttle arm, selecting the forward position. This
-illuminates the RADAR lamp on the
-[Head Up Display panel](../../cockpit/pilot/weapon_management.md#head-up-display-indicators).
+在攻击敌机时，向前拨动位于外侧（左侧）油门握把的小指开关选择 AIM-7 导弹。选定后
+[平视显示器面板](../../cockpit/pilot/weapon_management.md#head-up-display-indicators) 中的 RADAR 灯
+将会亮起。
 
-Before employing the AIM-7E Sparrow, a delay of four seconds should be given if
-the
-[Master Arm switch](../../cockpit/pilot/weapon_management.md#master-arm-switch)
-is set in the ON position prior to radar lock on, or a delay of two seconds if
-the
-[Master Arm switch](../../cockpit/pilot/weapon_management.md#master-arm-switch)
-is set to ON after radar lock on. This is due to the set-in period of the
-missile speed-gate. With the AIM-7F, this delay is reduced to two seconds with
-[Master Arm switch](../../cockpit/pilot/weapon_management.md#master-arm-switch)
-On prior to lock, or immediately after selecting
-[Master Arm switch](../../cockpit/pilot/weapon_management.md#master-arm-switch)
-to On if lock on was achieved first. Should these delays not be adhered to, the
-missile may fail to track because of improper target doppler injection.
+如果在雷达锁定到目标之前已将主军械开关拨至 ON，在使用 AIM-7E “麻雀”导弹之前应等待四秒；如果是在雷达
+锁定到目标后将主军械开关拨至 ON，则只需等待两秒。这是导弹速度门的设置周期所导致的时间延时。对于
+AIM-7F，如果在锁定前打开主军械，则延时减少到两秒；如果是在雷达锁定到目标后打开主军械开关，则可以立
+即发射导弹。如果不遵守延时规则，由于目标多普勒注入不当，导弹可能无法跟踪目标。
 
-With the target in parameters or
-[interlocks](../../cockpit/pilot/weapon_management.md#interlock-switch) out,
-pressing the trigger fires off an AIM-7. A second AIM-7 can be fired immediately
-at the same target, if desired, by releasing, then squeezing the trigger a
-second time- holding it on the second actuation.
+当目标在参数内或断开 [互锁](../../cockpit/pilot/weapon_management.md#interlock-switch) 时，按下扳机
+会发射 AIM-7。如有需要，可以立即对同一目标发射第二枚 AIM-7，只需松开然后再次扣动扳机——在第二次操作
+时保持住即可。
 
-## Launch Sequence
+## 发射顺序
 
 ![ext_launch_sequence_radar](../../img/ext_launch_seq_radar.jpg)
 
-The launch sequence for the AIM-7 missile is (in aircraft orientation)
+AIM-7 导弹的发射序列为（按飞机朝向）：
 
-1. Left Forward Station
-2. Right Forward Station
-3. Left Rear Station
-4. Right Rear Station
+1. 左前挂点 2. 右前挂点 3. 左后挂点 4. 右后挂点
 
-In the event of a centerline store or tank precluding forward missile release,
-the
-[CL TK lamp](../../cockpit/pilot/weapon_management.md#centerline-tank-aboard-light)
-will illuminate. Rear missiles may still be fired, and the forward missiles may
-be fired if the centerline tank is dropped or MER is jettisoned. The lamp also
-illuminates in the event of a BRU-5/A in the centerline position, however, a
-missile can be launched in that condition. The Aero-27 precludes any release,
-even if the round has been dropped.
+如果中线挂载或副油箱阻碍了前部挂点的导弹的发射
+，[CL TK 灯](../../cockpit/pilot/weapon_management.md#centerline-tank-aboard-light) 将会亮起。后部
+的导弹仍然可以发射，在抛弃中线副油箱或 MER 后，前部挂点的导弹也可以发射。在中线安装 BRU-5/A 时，CL
+TK 指示灯也会亮起，但在这种情况下仍然可以发射导弹。Aero-27 挂架会完全阻碍所有挂点正常发射，即使挂架
+中的武器已投放也是如此。
 
-## Variants
+## 衍生型
 
-The following variants of the AIM-7 family are available for this variant of the
-Phantom:
+-E 型“鬼怪”，可用的 AIM-7 家族衍生型包括：
 
-| Type | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 7E   | The E variant was an early version of the Sparrow missile, entering service in the 1960s, which uses proportional navigation and Semi Active Radar Homing to guide.                                                                                                                                                                                                                                                                                                                                     |
-| 7E2  | Changes were made to improve the performance in close range dogfight situations, at the expense of energy retention in longer ranged engagements. Fuzing time is also reduced allowing for proper fuzing in close engagements.                                                                                                                                                                                                                                                                          |
-| 7F   | The F Sparrow was upgraded to be solid state, have a higher performance two stage motor (boost and sustainer) and have improved electronics including the ability to coast targets through the main lobe clutter and altitude lines. These changes also make the seeker able to detect targets from further range and with increased countermeasure resistance and track using both continuous wave and pulse doppler guidance signals unlike the E, E2 and E3 which can only guide on continuous wave. |
-| 7M   | The M was the first inverse mono-pulse sparrow providing increased tracking precision, it also has improved motor performance and electronics, including improved clutter and countermeasure rejection. The M like all sparrows can also guide using continuous wave, at a degraded tracking precision.                                                                                                                                                                                                 |
+| 类型 | 描述                                                                                                                                                                                                                                                                                                                      |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 7E   | E 型是“麻雀”导弹的早期版本，于 1960 年代开始服役，采用比例制导和半主动雷达制导。                                                                                                                                                                                                                                          |
+| 7E2  | 对 -E 进行了改进，来提升在近距离空战中的性能，改进以牺牲在视距外空战中的存能为代价。此外，引信时间也被缩短，以便在近距离空战中在合适的时机触发。                                                                                                                                                                          |
+| 7F   | F 型“麻雀”导弹升级采用了固态设计，拥有更高性能的双脉冲发动机（助推发动机和主发动机）和改进后的电气系统，包括能够在主瓣杂波和高度线杂波中追踪目标的能力。这些变化还使得导引头能够在更远的距离探测到目标，并且具有更强的抗干扰能力，可以使用连续波和脉冲多普勒制导信号进行追踪，不像 E、E2 和 E3 型只能依靠连续波进行制导。 |
+| 7M   | M 型是第一款采用逆单脉冲技术的“麻雀”导弹，提供了更高的追踪精度。-M 还改进了发动机性能和电气系统，包括改善的杂波和对抗措施抑制能力。像所有“麻雀”导弹一样，M 型也可以使用连续波进行制导，但追踪精度会有所降低。                                                                                                             |
 
-Below is a very basic comparative summary of each sparrow's performance in some
-general areas, whereas 🟩 means _good_, 🟨 _fair_ and 🟥 _poor_.
+以下表格是对各型“麻雀”导弹在一些常规领域中，性能的简单比较总结，其中 🟩 表 _良好_, 🟨 _中等_ 以及
+🟥 _差_。
 
-| Type    | Seeker | Range | Dogfight | Countermeasure Resist / Clutter Rejection |
-| ------- | ------ | ----- | -------- | ----------------------------------------- |
-| AIM-7E  | 🟥     | 🟨    | ❌       | 🟥                                        |
-| AIM-7E2 | 🟥     | 🟥    | ✅       | 🟥                                        |
-| AIM-7F  | 🟨     | 🟩    | ✅       | 🟨                                        |
-| AIM-7M  | 🟩     | 🟩    | ✅       | 🟩                                        |
+| 类型    | 导引头 | 发射距离 | 格斗 | 抗干扰 / 杂波抑制 |
+| ------- | ------ | -------- | ---- | ----------------- |
+| AIM-7E  | 🟥     | 🟨       | ❌   | 🟥                |
+| AIM-7E2 | 🟥     | 🟥       | ✅   | 🟥                |
+| AIM-7F  | 🟨     | 🟩       | ✅   | 🟨                |
+| AIM-7M  | 🟩     | 🟩       | ✅   | 🟩                |

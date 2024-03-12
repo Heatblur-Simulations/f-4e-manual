@@ -1,116 +1,78 @@
-# Guns
+# 航炮
 
-## Internal Cannon M61A1 Vulcan
+## 内置 M61A1 “火神”航炮
 
 ![m61](../img/m61.jpg)
 
-The General Electric M61 Vulcan cannon finally went to war as an integral part
-of the Phantom with the advent of the F-4E, with the nose profile and APQ-120
-modified to fit the weapon. Carrying 639 rounds in the internal drum, the
-six-barreled Gatling style rotary cannon provides a user-selectable rate of fire
-from 4000 to 6000 rounds per minute, delivering a muzzle velocity in excess of
-3,450 ft/s, with armor piercing incendiary and high explosive incendiary round
-options available. Useful in both air-to-air and air to ground roles, the Vulcan
-was used for four confirmed kills by the USAF over Vietnam with the F-4E.
+随着 F-4E 的出现，通用电气公司的 M61 “火神” 航炮终于作为“鬼怪”战斗的一部分投入了战场，F-4E 机头外形
+和 APQ-120 经过了修改来适配航炮的安装。这种六管加特林式旋转航炮的内部弹鼓可携带 639 发炮弹，用户可
+选择每分钟 4000 至 6000 发的射速，炮口初速超过 3450 英尺/秒，并且配有穿甲燃烧弹和高爆燃烧弹弹种选择
+。“火神”航炮进行空对空，也可用于空对地攻击，F-4E 曾在越南上空有着四架火神航炮击落的确认战绩。
 
-To utilize the M61,
-the [GUN station select switch](../cockpit/pilot/weapon_management.md#station-select-buttons)
-must be selected, the [Master Arm](../cockpit/pilot/weapon_management.md#master-arm-switch)
-must be ON, and
-the [Gun selection](../cockpit/pilot/weapon_management.md#head-up-display-indicators)
-on the Pinky Switch (Aft) must be actuated. This will illuminate the GUN lamp on the Head Up
-Display.
+如需使用 M61，必须选择
+[GUN 挂点选择按钮](../cockpit/pilot/weapon_management.md#station-select-buttons)、[主军械](../cockpit/pilot/weapon_management.md#master-arm-switch)
+必须处于打开状态，并且必须拨到小指开关（向后）上的
+[航炮选择](../cockpit/pilot/weapon_management.md#head-up-display-indicators)。完成后平视显示器上的
+GUN 灯将亮起。
 
-For air-to-air usage,
-the [optical sight](../cockpit/pilot/dscg_controls.md#sight-mode-knob)
-should be selected to A/A mode. In air-to-air mode, the optical sight functions as a lead computing
-optical sighting (LCOS), thus maneuvering in both elevation and azimuth relative to a radar
-locked target, or a default 1000' range setting in the event of no lock. With a
-lock, the range bar presentation is relative to 6700' just to the left of the
-tick at the 1 o-clock position, down to 1000' at the 6 o-clock position.
+空对空使用航炮时，[光学瞄准具](../cockpit/pilot/dscg_controls.md#sight-mode-knob) 应设置为 A/A 模式
+。在空对空模式下，光学瞄准具使用计算提前角的光学瞄准（LCOS）功能，因此可相对于雷达锁定的目标进行俯
+仰和偏航机动，或在未锁定的情况下使用默认的 1000 英尺距离设置。在有雷达锁定的情况下，距离条将相对
+6700 英尺（1 点钟方向上刻度的左侧）到 1000 英尺（6 点钟方向）间显示。
 
 ![radar_gun_lock](../img/radar_gun_lock.jpg)
 
-For air to ground use,
-the optical sight should be selected to A/G mode, the
-[Delivery Mode knob](../cockpit/pilot/weapon_management.md#delivery-mode-knob)
-should be set in the OFF or Direct mode, and the desired
-[sight depression mil setting](../cockpit/pilot/dscg_controls.md#reticle-depression-knob)
-be entered for the intended attack profile.
-Depression is set relative from the Fuselage Reference Line (FRL). While
-Depression will lower the reticle in elevation, there is no azimuth drift due to
-relative aircraft motion.
+空对地使用航炮时，应将光学瞄准具选择到 A/G 模式、将
+[投放模式旋钮](../cockpit/pilot/weapon_management.md#delivery-mode-knob) 设置到 OFF 或 Direct 模式
+，并为预计攻击剖面输入所需的
+[瞄准具下压密位设置](../cockpit/pilot/dscg_controls.md#reticle-depression-knob)。下压设置的基准为机
+身基准线（FRL）。虽然下压会降低准星的仰角，但准星不会因飞机的相对运动而产生方位偏移。
 
-Gun rate is controlled with
-the [Rate switch](../cockpit/pilot/pedestal_group.md#rate-of-fire-switch)
-on the Pedestal panel, and is
-selectable as High (6000 rounds per minute) or Low (4000 rounds per minute).
-Also on the Pedestal panel is
-the [gun rounds remaining indicator](../cockpit/pilot/pedestal_group.md#rounds-remaining-indicator).
+航炮射速由底座组上的 [射速开关](../cockpit/pilot/pedestal_group.md#rate-of-fire-switch) 进行控制，
+可选择高射速（每分钟 6000 发）或低射速（每分钟 4000 发）模式。底座组上还有
+[航炮弹药计数器](../cockpit/pilot/pedestal_group.md#rounds-remaining-indicator)。
 
-Of note is
-the [Auto Clear](../cockpit/pilot/pedestal_group.md#auto-clear-switch)
-function; the cannon will fire approximately between 5
-and 11 rounds from the point the pilot has released the trigger to clear all
-bolt actions in the cannon; this spin-down takes approximately one second, and
-the gun cannot be fired again during this operation. While the Pedestal panel
-carries the Auto Clear switch, this switch does not have any control over the
-internal M61A1 cannon, and can only deactivate round clearance for podded
-external cannon installations.
+有一点值得注意的是 [自动清膛](../cockpit/pilot/pedestal_group.md#auto-clear-switch)功能；从飞行员松
+开扳机开始，航炮将发射大约 5 至 11 发炮弹，来使航炮完成清膛动作；这一停转过程大约需要 1 秒钟，在此
+操作过程中，航炮无法再次开火。虽然底座组上装有自动清膛开关，但该开关对内置 M61A1 航炮没有任何控制作
+用，只能停用航炮吊舱的清膛功能。
 
 ![ext_gun_door_open](../img/ext_f4_gun.jpg)
 
-## External Cannon Pods SUU-16/A and SUU-23/A
+## 航炮吊舱 SUU-16/A 和 SUU-23/A
 
 ![SUU pods](../img/suupods.jpg)
 
-Built to both provide gun capability to aircraft that did not mount them
-internally, and to increase available direct fire in the close air support
-mission, the SUU-16/A and SUU-23/A gun pods were both built around the M61A1 and
-a 1200 round ammunition load. Both pods are fixed-rate at 6000 rounds per
-minute, and up to three can be concurrently installed and driven by the fire
-control system; while up to five can be loaded for ferry purposes, and
-promotional images have shown such a configuration, only three can be activated.
+SUU-16/A 和 SUU-23/A 航炮吊舱皆围绕 M61A1 和 1200 载弹量指标制造，既能为没有内置航炮的飞机提供航炮
+能力，又能在近距离空中支援任务中增加可用的直射火力。这两种吊舱的射速固定在每分钟 6000 发，最多可同
+时安装三个吊舱，并由火控系统驱动；虽然最多可在转场时挂载五个吊舱，宣传图片也展示了这种配置，但火控
+系统只能启动三个吊舱。
 
-> 💡 The inner wing pylons 2 and 8 are not wired to operate the pods.
-> Only the center station and the outer wing pylons can fire the guns.
+> 💡 机翼内侧 2 号和 8 号挂载未接入操作吊舱的线路。> 仅中央挂点和外侧机翼挂载能操作航炮吊舱。
 
-The primary difference between the -16/A and -23/A pods are their method of
-power; the former using a ram air turbine arrangement to drive its motor, while
-the latter is internally powered. This difference had an effect on relative
-utility - while the -23/A could be fired at any airspeed, thus allowing it to be
-loaded onto slower aircraft, the -16/A's ram air turbine required a minimum
-speed of 300 knots to fire, and only reached its optimum performance above 400
-knots. Both pods have an auto-clear function for safety, which cause rounds
-loaded in the breeches to be released back into the ammo bin, which does entail
-a momentary delay of one to two seconds prior to being able to fire the pod
-again.
+-16/A 和 -23/A 吊舱的主要区别在于其驱动方式；前者使用冲压空气涡轮装置驱动其马达，而后者则采用内部动
+力。动力源的差异对相对实用性产生了影响——23/A 可以在任意空速下发射炮弹，因此可以挂载在空速较低的飞机
+上，而 -16/A 的冲压空气涡轮最低空速需要 300 节才能发射炮弹，只有空速在 400 节以上才能取得最佳性能。
+为了安全起见，两种吊舱都有自动清膛功能，可将装入炮闩的炮弹释放回弹鼓，但在再次发射炮弹之前会有一到
+两秒钟的短暂延时。
 
-Activation of the SUU pods are performed by selecting their respective [Station
-Select buttons](../cockpit/pilot/weapon_management.md#station-select-buttons),
-and placing the [Delivery Mode knob](../cockpit/pilot/weapon_management.md#delivery-mode-knob)
-in OFF or
-Direct. [The Weapon Selector knob](../cockpit/pilot/weapon_management.md#weapon-selector-knob)
-can be in any position other than TV or ARM, unless CAGE mode is
-activated. The desired [Auto Clear setting](../cockpit/pilot/pedestal_group.md#auto-clear-switch)
-should be selected, and [Master Arm](../cockpit/pilot/weapon_management.md#master-arm-switch)
-set to ON to activate the pod. On the SUU-16, the Master Arm activation deploys the
-ram air turbine.
+飞行员可通过选择对应的
+[挂点选择按钮](../cockpit/pilot/weapon_management.md#station-select-buttons)，并将
+[投放模式旋钮](../cockpit/pilot/weapon_management.md#delivery-mode-knob) 转至 OFF 或 Direct 档位来
+激活 SUU 吊舱。除激活 CAGE 模式外
+，[武器选择钮](../cockpit/pilot/weapon_management.md#weapon-selector-knob) 可以置于 TV 或 ARM 以外
+的任何档位。飞行员应设置 [自动清膛](../cockpit/pilot/pedestal_group.md#auto-clear-switch) ，并将
+[主军械](../cockpit/pilot/weapon_management.md#master-arm-switch) 设置到 ON 来激活吊舱。对于
+SUU-16，主军械拨至 ON 后将启动冲压空气涡轮。
 
-Installed, the guns are boresight along the Fuselage Reference Line. Thus,
-with the [optical sight](../cockpit/pilot/dscg_controls.md#sight-mode-knob)
-in air to air mode, the rounds will fall in accordance
-with reticle center, just as the main cannon- only with the natural offset of
-their respective pylon position, thus allowing for effective natural gunnery, if
-only affected by a moderate increase in resulting CEP. In the same fashion, in
-air to ground mode, the SUU pods observe the same performance relative to the
-reticle depression schedule as the internal cannon, again, with their respective
-offsets from centerline and CEP increase.
+航炮吊舱沿机身基准线进行校靶安装。因此，在
+[光学瞄准具](../cockpit/pilot/dscg_controls.md#sight-mode-knob) 处在空对空模式下，炮弹将与内置航炮
+一样飞向准星中间处，只是对应的挂架位置会自然偏移，这样就可以进行有效的自然炮击，如果只是受到导致
+CEP 适度增加的影响的话。同样，在空对地模式下，SUU 吊舱与内部加农炮一样，在各自偏离中心线和 CEP 增加
+的情况下，相对于瞄准镜凹陷时间表具有相同的性能。
 
-To safe the gun pods after combat, prior to deactivating [Master
-Arm](../cockpit/pilot/weapon_management.md#master-arm-switch),
-the [Auto Clear](../cockpit/pilot/pedestal_group.md#auto-clear-switch)
-switch should be placed into the Auto Clear position, the trigger squeezed
-momentarily, and the respective [Station
-Select buttons](../cockpit/pilot/weapon_management.md#station-select-buttons)
-pushed to off. On the SUU-16, this will close the ram air turbine.
+如需在战斗后将航炮吊舱设置到安全模式，在将
+[主军械](../cockpit/pilot/weapon_management.md#master-arm-switch) 拨至 OFF 前，将
+[自动清膛](../cockpit/pilot/pedestal_group.md#auto-clear-switch) 开关拨至 Auto Clear 档位，短暂按下
+扳机并按下对应的 [挂点选择按钮](../cockpit/pilot/weapon_management.md#station-select-buttons) 到
+OFF 档位。对于 SUU-16，操作完成后将关闭冲压空气涡轮。
