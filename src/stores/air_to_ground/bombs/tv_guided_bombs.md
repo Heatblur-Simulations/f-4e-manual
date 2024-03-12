@@ -1,63 +1,51 @@
-# TV Guided Bombs
+# 电视制导炸弹
 
 ![Phantom loaded with two Walleyes](../../../img/walleyes_loaded.jpg)
 
-The F-4E Phantom II was equipped with TV-guided bombs, notably the GBU-8 and
-AGM-62 Walleye, enhancing its precision strike capabilities.
+F-4E “鬼怪”II 配备了电视制导炸弹，特别是 GBU-8 和 AGM-62 “白星眼”，增强了“鬼怪”的精确打击能力。
 
-The GBU-8, also known as the "HOBOS" (Homing Bomb System), and the AGM-62
-Walleye are both electro-optical, TV-guided glide bombs. They are
-precision-guided munition equipped with a television camera in their nose.
+GBU-8，也被称为 “HOBOS”（寻的炸弹系统），以及 AGM-62 “白星眼” 都是电视制导滑翔炸弹，属于精确制导武
+器，其头部装有电视摄像头。
 
-Both can be steered after being launched via a data-link interface, leading to
-pinpoint precision and increasing the F-4E's effectiveness in attacking
-well-defended and high-value targets, providing a "man-in-the-loop" guidance
-solution.
+两个炸弹都可以通过数据链路接口在发射后进行遥控，实现精确打击并提高 F-4E 在攻击有良好防御的高价值目
+标时的作战效能，提供了“人在回路”制导解决方案。
 
-> 💡 The earlier DSCG variant does not support the data-link interface. Thus, it
-> can launch the weapons only in a backup mode _"Lock-On Before Launch"_ similar
-> to Mavericks, without any manual steering after launch.
+> 💡 早期的 DSCG 型战机不支持数据链路接口。因此，它只能在备用模式下—— _“射前锁定”_ ——类似于“幼畜”导
+> 弹来发射武器，发射后无法进行手动遥控。
 
-Both the GBU-8 and AGM-62 Walleye were crucial additions to the F-4E's arsenal,
-enhancing its ability to conduct precise strikes with reduced collateral damage.
-These TV-guided bombs showcased the adaptability of the F-4E Phantom II in
-integrating advanced munitions to meet evolving mission requirements.
+GBU-8 和 AGM-62 “白星眼”的加入对 F-4E 的武器库来说至关重要，两种炸弹增强了“鬼怪”执行精确打击并减少
+附带损伤的能力。这些电视制导炸弹的加入展示了 F-4E “鬼怪”II 在整合先进武器以满足不断发展的任务需求方
+面的适应性。
 
-## Variants
+## 型号
 
-Available TV guided bombs include:
+可用电视制导炸弹包括：
 
-| Variant           | Warhead | Description               |
-| ----------------- | ------: | ------------------------- |
-| AGM-62 Walleye I  | 1000 lb |                           |
-| AGM-62 Walleye II | 2000 lb | improved seeker and range |
-| GBU-8 HOBOS       |  800 lb |                           |
-| GBU-15            | 2000 lb | extended range            |
+| 型号               |  战斗部 | 描述             |
+| ------------------ | ------: | ---------------- |
+| AGM-62 “白星眼” I  | 1000 磅 |                  |
+| AGM-62 “白星眼” II | 2000 磅 | 改进导引头和射程 |
+| GBU-8 HOBOS        |  800 磅 |                  |
+| GBU-15             | 2000 磅 | 增程             |
 
-## Employment
+## 武器投放
 
-Only the pilot can lock and launch these weapons. To release either bomb, select
-the corresponding stations, put the Weapon Selector to TV and the Delivery Mode
-Knob to DIRECT.
+在 F-4 中，只有飞行员可以锁定并发射电视制导炸弹。要投放任何一种电视制导炸弹，选择相应的挂点、将武器
+选择旋钮转到 TV 并将投放模式旋钮设置为 DIRECT。
 
-Enable the TV mode for the DSCG screen and press the trigger. This activates the
-sensor and video feed will be displayed on the screen.
+启用 DCSG 显示器 TV 模式并按下扳机。完成后将激活传感器并且视频源将显示在显示器中。
 
 ![HOBOS Screen Symbology](../../../img/hobos_screen_symbology.jpg)
 
-The camera sensor can not be moved. Place the crosshair in the general direction
-of the target area, or in case of launching in _"Lock-On Before Launch"_-mode,
-directly over the target. Press and hold down the trigger to command a lock.
+机组无法转动摄像机传感器，飞行员需要将十字置于目标区域大致方向上，或在 _“射前锁定”_ 模式下，直接置
+于目标上方。按住扳机来指令进行锁定。
 
 ![HOBOS Release](../../../img/walleye_seeker_symbology.jpg)
 
-Once locked, a black square is added to the symbology, indicating the seeker
-head position.
+锁定后，显示器中将出现黑色方块标识符，指示导引头位置。
 
-Then, press and hold the bomb button for a few seconds. The weapon automatically
-releases when the target is within range.
+接下来，按住数秒航弹投放按钮，此时系统将在进入投放距离时自动投放武器。
 
-> 💡 Effective range varies a lot with release altitude and speed. If the
-> weapons do not release, climb and increase speed.
+> 💡 有效射程随着投放高度和空速的不同而有很大变化。如果 > 没有投放武器，应爬升并提高空速。
 
 ![HOBOS Release](../../../img/hobos_release.jpg)

@@ -1,33 +1,27 @@
-# AGM-12 Bullpup
+# AGM-12 "小斗犬"
 
 ![Bullpup](../../../img/bullpup.jpg)
 
-The AGM-12, nicknamed Bullpup, is a guided short-range air-to-ground missile
-that can be steered manually by the crew.
+AGM-12，绰号小斗犬，是一种可由机组人员手动遥控的制导型近程空对地导弹。
 
-Steering commands are send via radio by utilizing the lower UHF
-antenna of the Phantom.
+转向指令通过“鬼怪”的下部 UHF 天线来发射。
 
-It was the first of its kind that reached series production and was used in
-service during the early 1960s until it was later supplanted by the
-[AGM-62 Walleye](../bombs/tv_guided_bombs.md).
+AGM-12 是同种类首次批量生产的武器，于 1960 年代初期开始服役，直到后来被 AGM-62 “白星眼”所取代。
 
-## Variants
+## 型号
 
-Available variants include:
+可用型号包括：
 
-| Variant | Warhead | Description              |
-| ------- | ------: | ------------------------ |
-| A       |  250 lb |                          |
-| B       | 1000 lb | improved motor and range |
+| 型号 |  战斗部 | 描述                 |
+| ---- | ------: | -------------------- |
+| A    |  250 磅 |                      |
+| B    | 1000 磅 | 改进火箭发动机和射程 |
 
-## Employment
+## 武器投放
 
-To setup the aircraft for launching a Bullpup, ensure the relevant station is
-armed, the Weapon Selector is in the AGM-12 position and the Video Selector set
-to WEAPON. Also make sure the screen is turned on and set to TV.
+如需设置好飞机发射“小斗犬”，确保相关挂点解除保险、武器选择旋钮拨至 AGM-12 档位并且视频选择按钮设置
+到 WEAPON。同时还要确保显示器打开并切换到 TV。
 
-After launch, the weapon can be steered either by the pilot using the mini-stick
-next to the throttle, or by the WSO using the Antenna Hand Control Stick.
+导弹发射后，飞行员可以通过使用油门握把旁的迷你控制杆来遥控，或者由 WSO 使用天线手控杆来遥控导弹。
 
-> 🚧 This section is under construction.
+> 🚧 该部分正在施工中。
