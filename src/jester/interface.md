@@ -1,78 +1,73 @@
-# Interface
+# 界面
 
-Jesters user interface allows for easy communication and access to various
-settings mid-flight, conveniently even during high stress situations.
+Jester 的用户界面允许在飞行中轻松通信以及访问各种设置，即使在高压环境下也很方便。
 
-## Wheel
+## 转盘
 
 ![Wheel UI](../img/jester_wheel_ui.jpg)
 
-The main interface to interact with Jester consists of a circular menu with several sub-menus.
+Jester 交互的主界面由一个带有数级子菜单的环形菜单组成。
 
-Confirming an option, such as the highlighted _AN/ARC-164_, will enter its sub-menu, giving access
-to more related options.
+确认一个选项，比如突出显示的 _UHF 无线电台_ ，点击后将进入子菜单，将访问更多相关选项。
 
-In some cases, options are also presented on an outer menu.
+在某些情况下，选项也会在外圈菜单上显示。
 
 ![Wheel Outer Menu](../img/jester_wheel_submenu.jpg)
 
-The UI also supports direct text-entry when applicable, for example to enter
-the coordinates of a new waypoint. For this, full keyboard control is allowed.
+在适用的菜单中，UI 还支持直接文本输入，例如输入新航路点的坐标。玩家在这种情况下可以使用完整的键盘控
+制。
 
-> 💡 While focused on a text-field, input is disabled to DCS.
+> 💡 当聚焦在文本段落时，DCS 的设备输入将被禁用。
 
 ![Wheel Text-Entry](../img/jester_wheel_text_entry.jpg)
 
-### Wheel Controls
+如需确认并发送数据，再次选择选项（示例中为 LAT/LONG）即可。
 
-The Jester Wheel can be opened or closed by pressing <kbd>A</kbd>.
+### 转盘控制按键
 
-The entire UI is accessible via mouse by left-clicking options or clicking
-on the center area of circle to navigate back.
+**短按** <kbd>A</kbd> 即可开关 Jester 转盘。
 
-Options can also be bound directly to keyboard or other input devices. The default hotkeys to access
-the options are <kbd>LCTRL</kbd> + <kbd>1</kbd> through <kbd>LCTRL</kbd> + <kbd>8</kbd>.
+玩家可以通过鼠标左键点击选项来访问 UI 菜单或点击圆圈中心区域来返回上级菜单。
 
-Options on the outer ring are selectable via:
+玩家也可以将选项直接绑定到键盘或其它输入设备上。访问选项的默认热键是 <kbd>LCTRL</kbd> +
+<kbd>1</kbd> 到 <kbd>LCTRL</kbd> + <kbd>8</kbd> 。
 
-* <kbd>Q</kbd> - move cursor CCW
-* <kbd>W</kbd> - confirm selection under cursor
-* <kbd>E</kbd> - move cursor CW
+位于外圈的选项可通过以下按键选择：
 
-Additionally, the cursor can also be moved freely either via an assignable axis for a mini-stick,
-or via head-tracking by holding down <kbd>LCTRL</kbd> + <kbd>A</kbd> and then moving the view.
-Releasing <kbd>LCTRL</kbd> + <kbd>A</kbd> will confirm the selection under the cursor.
+- <kbd>Q</kbd> - 逆时针转动光标 - <kbd>W</kbd> - 确认选择光标下方的选项 - <kbd>E</kbd> - 顺时针转动
+  光标
+
+此外，玩家还可以将光标分配给迷你摇杆的轴来自由移动，或者通过 **长按** <kbd>A</kbd> 键然后移动视角来
+用头部跟踪选择。松开 <kbd>A</kbd> 键将确认光标下的选项。
 
 ![Head Tracking Cursor](../img/jester_wheel_head_tracking.jpg)
 
-## Dialog
+> 💡 如有需要，大多数动作可以单独进行绑定。详见
+> [9.1. 控制设备](../dcs/controls.md#jester--chief-commands)。
 
-Jester can pro-actively ask the pilot questions. In this case, a menu with
-actions pops up at the bottom of the screen.
+## 对话
 
-Most actions are temporary and expire if not engaged with, in which case
-Jester will either ignore the question or will assume a reasonable response.
+Jester 可以主动向飞行员提问。在这种情况下，一个带有操作选项的弹出菜单将显示在屏幕底部。
 
-It is possible for up to 3 actions to be available at the same time, the pilot can
-then select which question to engage with.
+对话中的大多数操作是有时限的，如果不即使进行交互，它们将会过期，在这种情况下，Jester 要么忽略这个问
+题或自选一个合理的回应。
+
+同时最多出现 3 个操作选项，飞行员可以选择要互动的问题。
 
 ![Dialog Selection](../img/jester_dialog_ui.jpg)
 
-Once selected, multiple responses are available. Some can also lead to follow-up
-questions.
+选择好问题后，将会出现多个回答选项。选择某些选项可能将引出后续的问题。
 
 ![Dialog Selection](../img/jester_dialog_qa.jpg)
 
-### Dialog Controls
+### 对话控制按键
 
-The entire dialog UI is accessible via mouse by left-clicking options.
+玩家可以通过点击鼠标左键来访问对话 UI。
 
-To engage in a dialog, it is also possible to use either of
-<kbd>Q</kbd>, <kbd>W</kbd> or <kbd>E</kbd>, respectively.
+玩家还可以使用键盘 <kbd>Q</kbd>、<kbd>W</kbd> 或 <kbd>E</kbd> 来进行问题对话互动。
 
-Responses can also be bound directly to keyboard or other input devices. The default hotkeys to access
-the options are <kbd>LCTRL</kbd> + <kbd>1</kbd> through <kbd>LCTRL</kbd> + <kbd>4</kbd>.
+回复选项也可以直接绑定到键盘或其它输入设备上。访问选项的默认热键是 <kbd>LCTRL</kbd> + <kbd>1</kbd>
+到 <kbd>LCTRL</kbd> + <kbd>4</kbd>。
 
-Additionally, the cursor can also be moved freely either via an assignable axis for a mini-stick,
-or via head-tracking by holding down <kbd>LCTRL</kbd> + <kbd>A</kbd> and then moving the view.
-Releasing <kbd>LCTRL</kbd> + <kbd>A</kbd> will confirm the selection under the cursor.
+此外，玩家还可以将光标分配给迷你摇杆的轴来自由移动，或者通过 **长按** <kbd>A</kbd> 键然后移动视角来
+用头部跟踪选择。松开 <kbd>A</kbd> 键将确认光标下的选项。
