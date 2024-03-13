@@ -39,11 +39,12 @@ lower amber ARM indicators on the Station Select buttons will illuminate.
 Failure to permit this gyro cycle can potentially damage the guidance unit of
 the missiles aboard. During this warmup period, it is helpful to set the
 optical sight to A/G mode, and enter a depression of 45 mils, so that the sight
-alignment be that of the missile seeker. This way, the pilot can put the target on the pipper
+alignment be that of the missile seeker. This way, the pilot can put the target on the
+pipper
 and it will be within the weapons view.
 
 | No Lock                                                  | Locked on Target                                   | Narrow View and Locked                                     |
-| -------------------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------- |
+|----------------------------------------------------------|----------------------------------------------------|------------------------------------------------------------|
 | ![maverick_unlocked](../../../img/maverick_unlocked.jpg) | ![maverick_locked](../../../img/maverick_lock.jpg) | ![maverick_lock_zoom](../../../img/maverick_lock_zoom.jpg) |
 
 Once the warmup has completed, the crew may activate their displays for viewing
@@ -68,7 +69,8 @@ the lock can be broken by squeezing the trigger again, bringing the missile
 seeker back to its boresight position, and then reattempting the lock with the
 ARR button. Should the target not appear to have enough contrast versus the
 surrounding background, the contrast can be swapped from black hot to white-hot,
-or vice versa, using the Target Contrast Switch on the inboard Engine Control Panel. Leaving
+or vice versa, using the Target Contrast Switch on the inboard Engine Control Panel.
+Leaving
 the switch in the Auto position allows the seeker to attempt to determine the
 best option for contrast.
 
@@ -100,8 +102,8 @@ position, and then slews the seeker using the cursor control.
 Once the applicable target is under the crosshair, lock is achieved using the
 full action command. Should the WSO need to change 65D FoV to narrow, a
 subsequent press of half action will do so. The WSO can change the contrast mode
-with the Contrast Switch on the left side console next to the radar display
-panel. And, once lock is achieved, the WSO can fire the missile using the
+with the Contrast Switch on RWR Panel on the right side. And, once lock is
+achieved, the WSO can fire the missile using the
 Missile Launch button found on his flight stick - in the same position as the
 Bomb Release button on the front stick.
 
