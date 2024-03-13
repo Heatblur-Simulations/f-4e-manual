@@ -1,8 +1,164 @@
-# Combat
+# 战斗
 
-> 🚧 This section is under construction.
->
-> * A2A interface
-> * A2G interface
-> * Controls
-> * How to employ weapons with Jester
+Jester 在战斗情况下的协助通常分为两部分：在尚未进入高强度作业环境时，通过 Jester 转盘提供的选项以及
+例如在格斗中在需要快速行动的情况下使用的智能联想动作。
+
+联想动作（默认按键 <kbd>V</kbd>）允许在下述场景飞行员与 WSO 之间进行直观的合作和交流：
+
+- Pave Spike - 投放模式旋钮选定 TGT FIND - 俯冲改出 - 投放模式旋钮选定 DT 或 DL - 格斗 - CAGE 模
+  式 - 视距外 - 其它
+
+长按和短按有着不同的联想动作含义。
+
+## 雷达
+
+在飞行过程中，Jester 将不断操作雷达并搜索目标。
+
+在某些情况下，例如在着陆、地面或执行 AAR 时，雷达将处于待机模式。玩家也可以通过在 UI 中选择
+`Radar > Operation > Go Cold` 来手动指令进入待机。
+
+![Select Operation Mode](../img/jradar_operation_options.jpg)
+
+使用雷达时，Jester 通常区分三个阶段：
+
+- 常规搜索 - 聚焦搜索 - 锁定
+
+由飞行员使用联想动作来指令和切换不同阶段。
+
+此外，Jester 在格斗中的行为会有所不同，这由飞行员进入 CAGE 模式来指示。
+
+### 常规搜索
+
+常规搜索为 Jester 默认阶段。他将自动指向不同的高度和距离来对飞机前方的整个空间进行扫描。
+
+Jester 将自动识别任何新的接触并将其报告给飞行员。
+
+如果需要，玩家可以随时通过 UI 手动请求 Jester 执行 IFF 问询（这个动作也可以直接绑定到按键上）。如果
+情况需要，玩家可以通过 UI 手动设置一个区域让 Jester 扫描常规搜索外的区域。
+
+![Select Scan Zone](../img/jradar_select_zone.jpg)
+
+设置好后，Jester 将先扫描该区域一段时间，之后再回到常规搜索。
+
+Jester 将通过移动并始终将光标保持在相应的雷达回波上来指示最高优先级的目标。
+
+![Cursor On Target](../img/jradar_regular_search_cursor.jpg)
+
+| 持续时间 | 联想动作                   |
+| -------- | -------------------------- |
+| 短按     | 在当前目标进入**聚焦搜索** |
+| 长按     | 选择下一目标               |
+
+### 聚焦搜索
+
+当聚焦于一个接触时，Jester 将始终保持天线指向这个接触，并将指令雷达至窄视场。
+
+可以将这种模式理解为 _“边跟踪边扫描”_ ，其中 Jester 将雷达保持在特定目标上，同时仍然扫描周围空间，
+识别并标注任何新发现的接触。
+
+![Focused Search](../img/jradar_focused_search.jpg)
+
+| 持续时间 | 联想动作                   |
+| -------- | -------------------------- |
+| 短按     | **锁定** 当前目标          |
+| 长按     | 取消聚焦，返回**常规搜索** |
+
+### 锁定
+
+在锁定时，Jester 将操作雷达来尽可能保持锁定。
+
+![Locked Target](../img/jradar_locked.jpg)
+
+玩家还可以使用 UI 来在不使用联想动作的情况下选择锁定一个目标。
+
+![Lock Target Manually](../img/jradar_lock_target_manually.jpg)
+
+| 持续时间 | 联想动作                         |
+| -------- | -------------------------------- |
+| 短按     | 解除锁定，返回**常规搜索**       |
+| 长按     | 解除锁定和聚焦，返回**常规搜索** |
+
+> 💡 在 **常规搜索** 中，如需尽快锁定并攻击一个解除，可以双击联想动作来跳过 **聚焦搜索** 并立即进入
+> **锁定** 阶段。
+
+### 格斗
+
+当飞行员激活 CAGE 模式时，Jester 将进入视距内的情景。
+
+在此模式下，雷达会自动瞄准前方，Jester 将能够锁定回波。
+
+此外，飞行员可以进入 CAA 模式，系统将自动锁定任何近距离接触。
+
+| 持续时间 | 联想动作               |
+| -------- | ---------------------- |
+| 短按     | 锁定前方出现回波的接触 |
+| 长按     | 退出 CAGE 模式         |
+
+## 俯冲改出
+
+在进行俯冲改出或俯冲铺投攻击时，通过在投放模式旋钮上选择 DT 或 DL 来指示 Jester 进入联想动作，玩家
+可在机头对准目标后使用 **联想动作** 命令 Jester 锁定地面回波。再次按下目标解锁。
+
+![Pipper on Target](../img/jester_dive_toss_prepare.jpg)
+
+通过这种方式，可以在俯冲中高效的攻击地面目标。飞行员将准星放置目标上，命令 Jester 锁定回波，然后在
+按住投弹按钮的同时拉起即可。系统随后将自动投放武器。
+
+![Ground Return Locked](../img/jester_dive_toss_locked.jpg)
+
+## Pave Spike
+
+如果挂载了瞄准吊舱，Jester 将确保需要进行 12-VIS 俯冲攻击时，瞄准吊舱准备就绪。
+
+玩家还可以通过 UI 中的 `Air To Ground > Pave Spike > Operation > Standby` 或
+`Air To Ground > Pave Spike > Operation > Ready` 来手动指令准备好瞄准吊舱。
+
+![Operation Options](../img/jpod_operation_options.jpg)
+
+此外，飞行员还可用通过 UI 更改 Pave Spike 使用的激光编码。
+
+飞行员可以通过将投放模式旋钮转至 TGT FIND 来指令 Jester 专注操作瞄准吊舱。
+
+> 💡 由于 DSCG 限制，不可同时操作 Pave Spike 和雷达系统。
+
+### 12-VIS 俯冲
+
+按下 **联想动作** 将指令 Jester 锁定准星旁边的地面目标。再次按下将解锁。
+
+![Pipper on Target](../img/jpod_12_vis_dive_lock.jpg)
+
+在 12-VIS 模式中使用十分高效，飞行员在短俯冲中将机头指向目标，锁定目标后，飞行员可以改出，然后继续
+通过吊舱观察目标或者开始攻击。详见
+[4.3.3.4. 武器投放](../stores/air_to_ground/bombs/employment.md#target-find---tgt-find)。
+
+> 🚧 Jester 操作 Pave Spike 将在抢先体验期间扩展。为克服当前的限制，飞行员将获得提供临时绑定来控制
+> WSO 的天线手控杆。这将使得飞行员更有效地使用瞄准吊舱。
+
+## 联想动作总览
+
+| 联想             | 持续时间 | 动作                             |
+| ---------------- | :------: | -------------------------------- |
+| BVR - 常规搜索   |    •     | 在当前目标进入**聚焦搜索**       |
+|                  |    ▄     | 选择下一目标                     |
+| BVR - 聚焦搜索后 |    •     | **锁定** 当前目标                |
+|                  |    ▄     | 取消聚焦，返回**常规搜索**       |
+| BVR - 锁定       |    •     | 解除锁定，返回**常规搜索**       |
+|                  |    ▄     | 解除锁定和聚焦，返回**常规搜索** |
+| 格斗             |    •     | 锁定前方出现回波的接触           |
+|                  |    ▄     | 退出 CAGE 模式                   |
+| 俯冲改出         |          | 锁定/解锁地面回波                |
+| Pave Spike       |          | 锁定/解锁准星旁的目标            |
+
+## 轰炸准备
+
+飞行员和 WSO 需要在整个驾驶舱中设置多个开关/旋钮来准备好执行轰炸。
+
+Jester 将准备 WRCS 面板相关的设置，如 **投放距离**、**目标高度** 或 **投放提前设置** ，以及 LABS 角
+度和计时器。
+
+如需通过 Jester 来执行轰炸，使用 [轰炸计算器](../dcs/bombing_computer.md) 工具并通过点击 **Tell
+Jester** 将解算移交给 Jester。
+
+![Tell Jester UI](../img/jester_bombing_table.jpg)
+
+按下按钮后，Jester 将会准备好攻击模式所需的设置。
