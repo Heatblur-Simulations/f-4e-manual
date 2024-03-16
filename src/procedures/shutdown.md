@@ -12,9 +12,10 @@
 | 6.      | Air Refuel Switch          | EXTEND if AAR was done |
 | **7.**  | **Right Throttle**         | **OFF**                |
 | 8.      | AVTR Tape                  | REMOVE                 |
-| 10.     | Spoiler Actuator           | CHECK (RIGHT)🔧        |
-| **11.** | **Left Throttle**          | **OFF**                |
-| **12.** | **Engine Master Switches** | **OFF**                |
+| 9.      | Spoiler Actuator           | CHECK (RIGHT)🔧        |
+| **10.** | **Left Throttle**          | **OFF**                |
+| **11.** | **Engine Master Switches** | **OFF**                |
+
 <!-- 18. APU reject switch — NORMAL (some aircraft) -->
 
 ## Engine Shutdown (WSO)
@@ -29,8 +30,8 @@
 
 ## Before Leaving Cockpit
 
-| Step | System                            | Action                          |
-|------|-----------------------------------|---------------------------------|
-| 1.   | (P-WSO) All Switches and Controls | OFF                             |
-| 2.   | (P-WSO) Oxygen Diluter            | 100%                            |
-<!-- | | 1.5.                              | (P-WSO) Face curtain safety pin | INSTALLED | -->
+| Step | System                            | Action |
+|------|-----------------------------------|--------|
+| 1.   | (P-WSO) All Switches and Controls | OFF    |
+| 2.   | (P-WSO) Oxygen Diluter            | 100%   |
+ <!-- |                                   | 1.5.   | (P-WSO) Face curtain safety pin | INSTALLED | -->

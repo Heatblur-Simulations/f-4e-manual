@@ -119,7 +119,7 @@ manually by the pilot whenever rearming.
 Two switches to control [AGM-45 Shrikes](../../stores/air_to_ground/missiles/shrike.md)
 settings.
 
-### TGT/MLS Reject Switch
+### TGT/MSL Reject Switch
 
 ![pilot_shrike_tgt_reject](../../img/pilot_tgt_missile_reject.jpg)
 

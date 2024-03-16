@@ -23,7 +23,7 @@
 | 3    | SEEKER                 | SLEW OVER TGT       |
 | 4    | ARR BUTTON             | RELEASE TO LOCK TGT |
 | 5    | (P OR WSO) BOMB BUTTON | PRESS AND HOLD      |
-| 6    | FOR NEXT MISSILE       | REPEAT STEP 2 TO 3  |
+| 6    | FOR NEXT MISSILE       | REPEAT STEP 2 TO 5  |
 
 ### WSO
 
@@ -33,4 +33,4 @@
 | 2    | SEEKER                 | SLEW OVER TGT          |
 | 3    | ACTION SWITCH          | FA/RELEASE TO LOCK TGT |
 | 4    | (P OR WSO) BOMB BUTTON | PRESS AND HOLD         |
-| 5    | FOR NEXT MISSILE       | REPEAT STEP 2 TO 3     |
+| 5    | FOR NEXT MISSILE       | REPEAT STEP 2 TO 4     |
