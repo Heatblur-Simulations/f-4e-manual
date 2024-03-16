@@ -2234,7 +2234,7 @@ manually by the pilot whenever rearming.</p>
 <h2 id="shrike-controls"><a class="header" href="#shrike-controls">Shrike Controls</a></h2>
 <p>Two switches to control <a href="cockpit/pilot/../../stores/air_to_ground/missiles/shrike.html">AGM-45 Shrikes</a>
 settings.</p>
-<h3 id="tgtmls-reject-switch"><a class="header" href="#tgtmls-reject-switch">TGT/MLS Reject Switch</a></h3>
+<h3 id="tgtmsl-reject-switch"><a class="header" href="#tgtmsl-reject-switch">TGT/MSL Reject Switch</a></h3>
 <p><img src="cockpit/pilot/../../img/pilot_tgt_missile_reject.jpg" alt="pilot_shrike_tgt_reject" /></p>
 <p>Dual purpose switch to control <a href="cockpit/pilot/../../stores/air_to_ground/missiles/maverick.html">Mavericks</a>
 and <a href="cockpit/pilot/../../stores/air_to_ground/missiles/shrike.html">Shrikes</a>.</p>
@@ -7744,7 +7744,7 @@ be described below.</p>
 </div>
 <p>On the top right corner of the radar screen is an
 <a href="systems/radar/interface.html#track-light-t">engraved T</a> symbol which illuminates if a range
-track condition is present.</p>
+track condition is present. This is only found on the WSO Screen.</p>
 <h3 id="angle-track"><a class="header" href="#angle-track">Angle Track</a></h3>
 <p>The Angle Tracking circuit steers the antenna to keep the target centered. It
 does so by making use of feedhorn nutation (conical scan). The antenna steers
@@ -7790,7 +7790,7 @@ the system will consider it a jamming condition and enter Home On Jam. The range
 track circuit goes into memory mode, the angle track circuit continues to
 operate and track the jamming target in elevation and azimuth.</p>
 <p><img src="systems/radar/../../img/radar_home_on_jam.jpg" alt="Home On Jam" /></p>
-<p>The Home On Jam condition is also indicated by the engraved H on the DSCG and
+<p>The Home On Jam condition is also indicated by the engraved H on the WSO DSCG and
 the last zero digit of the closure velocity is replaced by a H along with the
 closure rate flashing.</p>
 <h2 id="spotlight"><a class="header" href="#spotlight">Spotlight</a></h2>
@@ -7826,7 +7826,8 @@ missile envelope. There are three possible strobe types.</p>
 <p><img src="systems/radar/../../img/radar_target_in_rmax.jpg" alt="Target in Rmax" /></p>
 <p>All ranges are calculated for the point the Trigger is pressed and hold down
 for release, not the point where the actual release signal is send a few seconds
-later. This means if the missile envelope is met on the display, then the Trigger can be pressed and
+later. This means if the missile envelope is met on the display, then the Trigger can be
+pressed and
 the envelope will be valid for missile launch.</p>
 <h3 id="allowable-steering-error-ase-circle"><a class="header" href="#allowable-steering-error-ase-circle">Allowable Steering Error (ASE) Circle</a></h3>
 <p>The allowable steering error indicates the maximum lead or lag at which the
@@ -12006,7 +12007,7 @@ ensure slats extend together. Decrease AOA below
 <tr><td></td><td>c. Fuel Quantity/Transfer Switches</td><td>CHECK</td></tr>
 <tr><td></td><td>d. STBY Compass</td><td>CHECK</td></tr>
 <tr><td></td><td>e. Circuit Breakers</td><td>CHECK</td></tr>
-<tr><td>4.</td><td>Anti-Ice Switch</td><td>AS REQUIRED</td></tr>
+<tr><td>5.</td><td>Anti-Ice Switch</td><td>AS REQUIRED</td></tr>
 </tbody></table>
 </div><!-- 2.5. (P-WSO) Survival kit selector switch - AS REQUIRED --><div style="break-before: page; page-break-before: always;"></div><h1 id="landing"><a class="header" href="#landing">Landing</a></h1>
 <p>This chapter describes landing techniques.</p>
@@ -12394,9 +12395,9 @@ maintain a 1500 to 2500 feet per minute climb.</li>
 <tr><td>6.</td><td>Air Refuel Switch</td><td>EXTEND if AAR was done</td></tr>
 <tr><td><strong>7.</strong></td><td><strong>Right Throttle</strong></td><td><strong>OFF</strong></td></tr>
 <tr><td>8.</td><td>AVTR Tape</td><td>REMOVE</td></tr>
-<tr><td>10.</td><td>Spoiler Actuator</td><td>CHECK (RIGHT)🔧</td></tr>
-<tr><td><strong>11.</strong></td><td><strong>Left Throttle</strong></td><td><strong>OFF</strong></td></tr>
-<tr><td><strong>12.</strong></td><td><strong>Engine Master Switches</strong></td><td><strong>OFF</strong></td></tr>
+<tr><td>9.</td><td>Spoiler Actuator</td><td>CHECK (RIGHT)🔧</td></tr>
+<tr><td><strong>10.</strong></td><td><strong>Left Throttle</strong></td><td><strong>OFF</strong></td></tr>
+<tr><td><strong>11.</strong></td><td><strong>Engine Master Switches</strong></td><td><strong>OFF</strong></td></tr>
 </tbody></table>
 </div><!-- 18. APU reject switch — NORMAL (some aircraft) -->
 <h2 id="engine-shutdown-wso"><a class="header" href="#engine-shutdown-wso">Engine Shutdown (WSO)</a></h2>
@@ -12413,7 +12414,7 @@ maintain a 1500 to 2500 feet per minute climb.</li>
 <tr><td>1.</td><td>(P-WSO) All Switches and Controls</td><td>OFF</td></tr>
 <tr><td>2.</td><td>(P-WSO) Oxygen Diluter</td><td>100%</td></tr>
 </tbody></table>
-</div><!-- | | 1.5.                              | (P-WSO) Face curtain safety pin | INSTALLED | -->
+</div> <!-- |                                   | 1.5.   | (P-WSO) Face curtain safety pin | INSTALLED | -->
 <div style="break-before: page; page-break-before: always;"></div><h1 id="scramble"><a class="header" href="#scramble">Scramble</a></h1>
 <blockquote>
 <p>🚧 This section is under construction.</p>
@@ -12581,7 +12582,7 @@ normal procedure should be used.</p>
 <tr><td>3</td><td>SEEKER</td><td>SLEW OVER TGT</td></tr>
 <tr><td>4</td><td>ARR BUTTON</td><td>RELEASE TO LOCK TGT</td></tr>
 <tr><td>5</td><td>(P OR WSO) BOMB BUTTON</td><td>PRESS AND HOLD</td></tr>
-<tr><td>6</td><td>FOR NEXT MISSILE</td><td>REPEAT STEP 2 TO 3</td></tr>
+<tr><td>6</td><td>FOR NEXT MISSILE</td><td>REPEAT STEP 2 TO 5</td></tr>
 </tbody></table>
 </div>
 <h3 id="wso-4"><a class="header" href="#wso-4">WSO</a></h3>
@@ -12590,7 +12591,7 @@ normal procedure should be used.</p>
 <tr><td>2</td><td>SEEKER</td><td>SLEW OVER TGT</td></tr>
 <tr><td>3</td><td>ACTION SWITCH</td><td>FA/RELEASE TO LOCK TGT</td></tr>
 <tr><td>4</td><td>(P OR WSO) BOMB BUTTON</td><td>PRESS AND HOLD</td></tr>
-<tr><td>5</td><td>FOR NEXT MISSILE</td><td>REPEAT STEP 2 TO 3</td></tr>
+<tr><td>5</td><td>FOR NEXT MISSILE</td><td>REPEAT STEP 2 TO 4</td></tr>
 </tbody></table>
 </div><div style="break-before: page; page-break-before: always;"></div><h1 id="agm-12-bullpup-1"><a class="header" href="#agm-12-bullpup-1">AGM-12 Bullpup</a></h1>
 <h2 id="agm-12-bullpup-launch"><a class="header" href="#agm-12-bullpup-launch">AGM-12 Bullpup launch</a></h2>
@@ -13660,7 +13661,7 @@ broken track/replay files.</p>
 <h2 id="disable-multicrew-controls-input-when-joining-as-wso"><a class="header" href="#disable-multicrew-controls-input-when-joining-as-wso">Disable Multicrew Controls Input When Joining as WSO</a></h2>
 <p>If checked, when joining as WSO in multiplayer with a human pilot, your local
 controls inputs (stick, rudder pedals and throttle) will be ignored by default.
-You can toogle your local input back with assigned keybind.</p>
+You can toggle your local input back with assigned keybind.</p>
 <h2 id="jester-landing-callouts"><a class="header" href="#jester-landing-callouts">Jester Landing Callouts</a></h2>
 <p>If enabled, Jester will assist the pilot during landing by calling out aircraft
 altitude, similar as seen in civilian aviation.</p>
