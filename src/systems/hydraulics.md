@@ -1,84 +1,54 @@
-# Hydraulics
+# 液压系统
 
-The hydraulic power system of the F-4E consists of three, completely
-independent, closed hydraulic systems:
+F-4E 的液压动力系统由三个完全独立的闭环液压系统组成：
 
-* Power Control System 1 (PC-1)
-* Power Control System 2 (PC-2)
-* Utility System
+- 动力控制系统 1（PC-1）
+- 动力控制系统 2（PC-2）
+- 公用系统
 
-The systems have an operating pressure of approximately 3000 psi
-and are pressurized any time the engines are running.
+该系统的运行压力大约为 3000PSI，当发动机运行时即加压。
 
-Ailerons, spoilers, and the stabilator have two hydraulic actuators.
-The PC systems are the primary hydraulic delivery to the flight control systems,
-with PC-1 powering the left side of the aircraft, and PC-2
-powering the right; these supply pressure to one of the two actuators on each flight control surface.
-PC-1 is using left engine pump and PC-2 is using right engine pump.
+副翼、扰流板和安定面均有一对液压作动器。PC（动力控制）系统作为供给飞控系统的主要液压源，由 PC-1 为
+飞机左半侧提供动力、PC-2 为飞机右半侧；这些液压源也分别给左右侧每个飞控操纵面的两个作动器之一供压
+。PC-1 和 PC-2 自身则分别由左侧和右侧发动机液压泵供压。
 
-The Utility Hydraulic System is pressurized by a hydraulic pump on each engine. To prevent the
-utility hydraulic pumps from resonating, check valves
-with different operating pressures are installed on the
-pump output lines. As a result, the right engine utility
-hydraulic pump will deliver 2775 ±225 psi at idle rpm,
-and the left engine utility hydraulic pump will deliver
-approximately 3000 ±250 psi at idle rpm.
-The Utility System supplies hydraulic
-pressure to all aircraft systems (which need hydraulic pressure) except the stabilator actuator.
-It drives the second actuator on every flight
-control surface (except stabilator), acting as both a power assist and backup.
+公用液压系统则由两台发动机各自的一个液压泵加压。为了防止公用液压泵产生共振，各个泵出口管路上都安装
+了具有不同工作压力的单向阀。因此，右发公用液压泵在右发处在慢车转速时提供 2775±225PSI 的压力，而左发
+公用液压泵则在左发慢车转速时提供 3000±250PSI 的压力。公用液压系统除了安定面作动器外，将向飞机所有系
+统（需要液压的系统）进行供压。公用液压还驱动所有操纵面的次要作动器（安定面除外），同时作为液压助力
+和 PC 液压失效时的备份系统使用。
 
-The first stabilator actuator is powered through PC-1 and the second one by PC-2.
-Additionally on aircraft after *TO 1F-4-903*,
-an Stabilator Auxiliary Power Unit (APU)
-is installed to provide backup hydraulic pressure for
-longitudinal control. An electrically driven hydraulic
-pump pressurizes the APU system to 1700 ±100 psi. The
-APU supplies pressure to the PC-1 side of the stabilator
-if PC-1 pressure drops below 1000 psi.
+安定面的主要作动器则分别由 PC-1 和 PC-2 供压。另外，在 _TO 1F-4-903_ 之后的飞机上额外装有一套安定面
+辅助动力装置（APU）以作为飞机纵向控制的液压备份。一台电动液压泵将 APU 系统增压至 1700±100PSI。当
+PC-1 压力降至 1000PSI 以下时，APU 将为安定面 PC-1 侧供压。
 
-> 💡 The PC-1, PC-2, and Utility hydraulic system
-> are independent of each other; therefore, each
-> aileron and spoiler has two independent sources
-> of hydraulic pressure and one system functions as
-> a backup for the other.
+> 💡 PC-1、PC-2 和公用液压系统互相独立；因此，每个副翼和扰流板拥有两套独立液压源和一套独立的备份液
+> 压源。
 
 ![manual_hydraulics_diagram](../img/manual_hydraulics_diagram.jpg)
 
-## Hydraulic Pressure Indicators
+## 液压压力表
 
 ![HydPress](../img/pilot_hydraulic_pressure.jpg)
 
-On the [pedestal panel](../cockpit/pilot/pedestal_group.md) in the front cockpit is a pair of
-[Hydraulic Pressure Indicators](../cockpit/pilot/pedestal_group.md#hydraulic-pressure-indicators).
-One for the PC systems and the other for the Utility system. The PC system gauge has two
-pointers, labeled PC-1 and PC-2. Nominal operating power for all three systems
-is 3000 ±250 PSI.
+在座舱前侧的 [底座组](../cockpit/pilot/pedestal_group.md) 有一对
+[液压压力表](../cockpit/pilot/pedestal_group.md#hydraulic-pressure-indicators)。其中一个指示 PC 系
+统，另一个则指示公用液压系统压力。PC 系统压力表上有两枚指针，分别标有 PC-1 和 PC-2。全部三个系统的
+标称工作压力 3000 ±250 PSI。
 
-## Hydraulic Systems Indicator Lights
+## 液压系统指示灯
 
 ![pilot_hydraulic_system_lights](../img/pilot_hydraulic_systems_indicator_lights.jpg)
 
-In the event of a pressure loss on PC-1 or PC-2 or the Utility system below 1500 PSI, or a detected
-definite pump failure, CHK HYD GAGES will illuminate on
-the telelight panel along with
-the Master Caution warning.
+当 PC-1、PC-2 或公用液压系统中任意系统的压力低于 1500PSI，或者确定检测到液压泵故障时，位于远传信号
+灯面板的 CHK HYD GAGES 指示灯和主注意灯都将亮起。
 
-> 💡 In the event of a Utility system failure on the right side, no apparent pressure loss will be
-> shown to underline the illumination of the CHK HYD GAGES light, whereas a left side failure will
-> show a loss of 200 PSI or more on the Utility system pressure indicator. In any case, if the
-> pressure recovers back to above 1750 PSI, the CHK HYD GAGES light will turn off. In the event of a
-> Utility system failure on the right side, no apparent pressure loss will display to
-> match the CHK HYD GAGES light, whereas a left side failure will show a loss of
-> 200 PSI or more on the Utility system pressure indicator. In the event system
-> pressure recovers back to above 1750 PSI, the CHK HYD GAGES light will turn off.
+> 💡 当右侧的公用液压系统失效时，CHK HYD GAGES 灯亮起的同时压力表指数不会有明显降低，而左侧的公用液
+> 压失效时仪表将显示 200 PSI 或更高的减压。如果系统压力恢复到 1750 PSI 以上，CHK HYD GAGES 灯将熄灭
+> 。
 
-With a CHK HYD GAGES warning, the Master Caution can be cleared by resetting; however, be aware that
-if the CHK HYD GAGES light is still on at that certain moment, a subsequent hydraulic system failure
-will not re-trigger the Master Caution warning, with the consequence of not taking notice.
+在 CHK HYD GAGES 灯亮起时，机组可以通告复位来清除主注意；然而请注意，如复位主注意灯，液压系统再次发
+生故障不会重新使主注意灯亮起，因此可能不会引起机组注意。
 
-Also, the Master Caution and CHK HYD
-GAGES lights can illuminate momentarily during extension of the
-landing gear, or during intense maneuvering due to system load. In such situations, check the
-pressure indicators: should they return to nominal values, disregard the warnings as they will reset
-momentarily.
+并且，主注意灯和 CHK HYD GAGES 灯在起落架放下期间、或在激烈机动时由于系统负荷可能会短暂亮起。在此情
+况下，请检查液压压力表：若液压回到标称值，则可无视告警灯，不久后灯光会自行熄灭。

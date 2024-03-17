@@ -1,139 +1,113 @@
-# Identification Systems
+# 敌我识别系统
 
-The aircraft is equipped with a set of interrogator systems AN/APX-76, -80A and -81A,
-as well as with a transponder to react to interrogations from other aircraft.
+飞机配备了一套 AN/APX-76、-80A 和 -81A 问询系统，以及一台应答机来响应其它飞机的敌我识别问询。
 
-The interrogator can be controlled by the WSO with a panel
-on the [left sub-panel](../cockpit/wso/left_sub_panel.md#apx-80-control-panel).
-The transponder is set up by the pilot on
-the [right console](../cockpit/pilot/right_console/center_section.md#iff-control-panel).
+问询系统由 WSO 使用位于 [左侧子面板](../cockpit/wso/left_sub_panel.md#apx-80-control-panel) 上的面
+板来控制。应答机由飞行员在
+[右侧控制台](../cockpit/pilot/right_console/center_section.md#iff-control-panel) 上控制。
 
-## Transponder System
+## 应答器系统
 
 ![pilot_iff_control_panel](../img/pilot_iff_panel.jpg)
 
-The transponder automatically responds to challenges from surface or airborne radar sets
-and serves supplementary purposes such as providing momentary identification of position upon
-request and transmitting a specially coded response to indicate an emergency.
+应答机会自动恢复地面或机载雷达套件的问询，并起到辅助飞行员提供信息的作用，例如应要求提供临时位置识
+别，以及发送特殊编码的回应来宣告紧急情况。
 
-The system operates by
-receiving coded interrogation signals and transmitting coded response signals to the source of the
-challenge, with a proper reply indicating the target is friendly.
+应答机系统的工作原理是接收经过编码的问询信号，并向问询信号源发送经过编码的应答信号——正确进行应答则
+将表明本机为友机。
 
-The system features four modes. Mode 1, Mode 2, and Mode 3/A—are provided
-for security identification, personal identification, and traffic identification, respectively.
+该系统拥有四种模式。模式 1、模式 2 和模式 3/A，其分别用于安全识别、个人识别和交通识别。
 
-Mode 4 is controlled through the interrogator panel by the WSO.
-Codes for Modes 1 and 3/A can be set in the cockpit, while the code
-for Mode 2 must be set on the ground, ranging from 0000 to 7777.
+模式 4 由 WSO 通过问询面板控制。模式 1 和 模式 3/A 的编码可在驾驶舱内设置，而模式 2 的编码必须在地
+面上设置，区间从 0000 到 7777。
 
-> 💡 Due to engine limitations, the settings on the panel have no effect for DCS.
-> However, they are exposed to external tools, such as SRS.
+> 💡 由于游戏引擎的限制，这些面板上的设置对 DCS 没有影响。> 但是，它们留有对外部工具的接口，例如
+> SRS。
 
-### Self Test operation
+### 自检
 
-To self test Modes 2 and 3/A, place the master switch to NORM and hold the switch for the desired
-test mode to the upper position. If the test light on the IFF control panel illuminates, this
-indicates the mode is operating properly.
+若要对模式 2 和 3/A 进行自检，需将主开关置于 NORM 档位，并将所需测试模式的开关按在上方位置。如果
+IFF 控制面板上的测试灯亮起，则表明模式运行正常。
 
-Mode 1 and Mode C do not have self testing capabilities.
+模式 1 和模式 C 无自检能力。
 
-### Normal Operation
+### 正常操作
 
-To operate the IFF system, start by rotating the master switch to STBY. After an approximate
-80-second warmup delay, the system receives full power, but interrogations are blocked.
+如需操作 IFF 系统，首先要将主开关旋转到 STBY 档位。经过大约 80 秒的预热延迟后，系统将完整通电，但屏
+蔽问询功能。
 
-Set the Mode 1, Mode 2, Mode 3/A, Mode 4, and Mode C switches as directed,
-along with the Mode 1 and Mode 3/A code selector switches and Mode 4 function switch.
-Set the master switch to NORM to make the system
-ready for operation on the selected modes. If the master switch is rotated from OFF directly to an
-operating mode, it also has to go through the warmup period first before it is fully operational.
+按指示设置模式 1、模式 2、模式 3/A、模式 4 和模式 C 开关，以及模式 1 和模式 3/A 编码选择开关和模式
+4 功能开关。将主开关调至 NORM 档位，使系统可以在所选模式下运行。如果直接将主开关从 OFF 转到工作模式
+，也必须先经过预热才能完全投入运行。
 
-#### Interrogation of Position
+#### 位置问询
 
-For Interrogation of Position (I/P) switch operation,
-place the I/P switch in the IDENT position or place it in the MIC position
-and press the UHF microphone. The IFF system responds with special I/P signals.
+如需使位置识别（I/P）开关工作，将 I/P 开关拨至 IDENT 档位或将其拨至 MIC 并按下 UHF 传声。IFF 系统将
+使用特殊 I/P 信号进行应答。
 
-If the IFF warning
-light and MASTER CAUTION light come on momentarily, check the Mode 4 selector switch ON and the
-master switch NORMAL. Repeated illumination of the MASTER CAUTION light may be stopped only by
-placing the master switch OFF, resulting in the loss of all IFF capability, or by placing the Mode 4
-function switch to ZERO. Before or during flight, if the master switch is placed OFF, the IFF and
-MASTER CAUTION lights will not illuminate upon interrogation.
+如果 IFF 告警灯和 MASTER CAUTION 灯短暂亮起，请检查 Mode 4 选择开关是否打开并且主开关设置为
+NORMAL。MASTER CAUTION 灯重复亮起只能通过将主开关转至 OFF 来停止，这将导致丧失所有 IFF 功能，或者将
+Mode 4 功能开关拨至 ZERO。在飞行前或飞行中，如果主开关拨至 OFF，在被询问时 IFF 和 MASTER CAUTION 灯
+不会亮起。
 
-Normal IFF operation will be
-available, after an 80-second warm-up, when the master switch is again placed to NORMAL. If the Mode
-4 function switch is placed to ZERO, the IFF light will come on steady, and the MASTER CAUTION may
-then be reset. Mode 4 will not be available during the remainder of the flight.
+再次将主开关转至 NORMAL 时，经过 80 秒的预热后，IFF 将出现正常工作。如果 Mode 4 功能开关拨至
+ZERO，IFF 灯将常亮，然后即可复位 MASTER CAUTION。在后续的飞行期间，Mode 4 将不可用。
 
-### Emergency Operation
+### 应急操作
 
-Upon ejection from either cockpit, the IFF emergency operation automatically becomes active.
+从任意驾驶舱启动弹射，系统将自动激活 IFF 应急操作。
 
-If the master switch is in the OFF position before ejection, the system will
-begin operation after an
-approximate 80-second delay.
+如果在弹射前主开关处于 OFF 档位，系统将在大约 80 秒延迟后开始操作。
 
-In an emergency, rotate the master switch to EMER. The replies for
-Modes 1 and 2 are special emergency signals of the codes selected on the applicable dials, while
-Mode 3/A replies are special emergency signals of code 7700.
+在应急情况下，将主开关旋转至 EMER。模式 1 和模式 2 应答将为所选拨轮上的特殊紧急信号码，而模式 3/A
+应答为特殊应急信号码 7700。
 
-## Interrogator Systems
+## 问询系统
 
 ![WSO APX Control Panel](../img/wso_apx_80.jpg)
 
-The Phantom combines three systems, AN/APX-76, -80A and -81A, for interrogating and
-challenging other aircraft to detect whether they are friend or foe.
+“鬼怪”结合了三套系统：AN/APX-76、-80A 和 -81A，用于问询其它飞机，以便进行敌我识别。
 
-### Operation
+### 操作
 
-Controls are combined on a panel, accessible to the WSO on the left sub-panel area.
+控制开关/按钮都位于 WSO 的左侧子面板中，便于操作。
 
-The interrogation mode is set on the first roller-display and can be set to
-OFF or Mode 1, 2, 3, 4/A or 4/B.
+问询模式在第一个滚轮显示器中进行设置，可以设置为 OFF 或模式 1、2、3、4/A 或 4/B。
 
-> 💡 In DCS, only Mode 4 (either A or B) is effective and can be used for
-> interrogation.
+> 💡 在 DCS 中，只有模式 4（A 或 B）是有效的，可以用于问询。
 
-The other four digits are used to set the IFF code to interrogate for Modes 1
-to 3.
+其他四位数字用于为模式 1 到 3 设置 IFF 编码。
 
-Regular interrogation based on transponder codes is accomplished by the AN/APX-76 system.
+基于应答机编码的常规问询通告 AN/APX-76 系统完成。
 
-Additionally, the AN/APX-81A Combat-Tree system can identify targets beyond
-their transponder responses, enabling to identify likely-hostile aircraft.
+此外，AN/APX-81A 战斗树系统可以识别超出其应答机响应的目标，使得能够识别可能具有敌意的飞机。
 
-Once setup, interrogation can be initiated by pressing the
-Challenge Button on the Antenna Hand Control Stick.
+设置完毕后，通过按天线手控杆上的问询按钮即可开始询问。
 
 ![Challenge Button](../img/wso_antenna_hand_control_challenge_button.jpg)
 
-The radar screen will now display lines next to each radar return if
-it was able to detect that a contact is friendly.
+问询后雷达显示器将在识别为友机的目标回波旁显示线条。
 
-> 🚧 This section is under construction.
+> 🚧 本部分正在施工中。 >
 >
-> * Switchology, how to enable either mode, details
-> * Radar picture and link to radar section with further details
+> - Switchology, how to enable either mode, details > \* Radar picture and link to radar section
+>   with further details
 
-### Indications
+### 指示
 
-#### Challenge Lights
+#### 问询灯
 
-The control panel features two lamps that indicate active interrogation
-by either interrogation system:
+控制面板上有两个灯，分别指示两个问询系统的主动问询状态：
 
-* TEST/CHAL lamp in lower left corner - active APX-81A Combat-Tree Interrogation
-* CHAL lamp in upper right corner - active APX-76 Interrogation
+- 左下角的 TEST/CHAL 灯 - 激活 APX-81A “战斗树”问询
+- 右上角 CHAL 灯 - 激活 APX-76 问询
 
-#### Activity Lights
+#### 激活灯
 
 ![APX Activity Lights](../img/wso_apx_81_light.jpg)
 
-Right next to either AoA Indexer in the WSO cockpit is a light that indicates activity
-detected by the APX-81A Combat Tree system.
+位于 WSO 驾驶舱仰角分度器的是 APX-81A “战斗树”系统的指示灯，在探测到主动照射时亮起。
 
-Illuminated each time the system detects being interrogated by other aircraft.
+系统每探测到其它飞机问询本机时亮起一次。
 
-> 💡 Due to DCS limitations, the activity lights are not simulated in-game.
+由于 DCS 限制，游戏中未模拟该功能。
