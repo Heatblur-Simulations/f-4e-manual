@@ -1,221 +1,220 @@
-# Acronyms and Abbreviations
+    # 首字母缩写和简称
 
 ## A
 
-| Abbreviation | Definition                                      |
+| 缩写 | 定义                                      |
 |--------------|-------------------------------------------------|
-| AC           | Aerodynamic center                              |
-| ACM          | Air Combat Maneuvering                          |
-| ac           | Alternating current                             |
-| ADCS         | Air Data Computer Set                           |
-| ADI          | Attitude Director Indicator                     |
-| AFC          | Automatic Frequency Control                     |
-| AFCS         | Automatic Flight Control System                 |
-| AGC          | Automatic Gain Control                          |
-| AHRS         | Attitude Heading Reference System               |
-| AJB          | Airborne, Electro-Mechanical, Bombing           |
-| AOA          | Angle of Attack                                 |
-| APA          | Airborne, Radar, Auxiliary Assembly             |
-| APN          | Airborne, Radar, Navigational Aid               |
-| APQ          | Airborne, Radar, Special Purpose                |
-| APU          | Auxiliary Power Unit                            |
-| AR           | Air Refueling                                   |
-| ARI          | Aileron Rudder Interconnect                     |
-| ARC          | Airborne, Radio, Control                        |
-| ASA          | Airborne, Special Type, Auxiliary Assembly      |
-| ASE          | Allowable Steering Error                        |
-| ASN          | Airborne, Special Type, Navigational Aid        |
-| ASQ          | Airborne, Special Type, Combination of Purposes |
-| AVTR         | Airborne Video Tape Recorder                    |
-| AWW          | Airborne, Armament, Control                     |
+| AC           | 气动中心                              |
+| ACM          | 空战格斗                          |
+| ac           | 交流电流                            |
+| ADCS         | 大气数据计算机套件                           |
+| ADI          | 姿态指引指示器                     |
+| AFC          | 自动频率控制                    |
+| AFCS         | 自动飞行控制系统                 |
+| AGC          | 自动增益控制                          |
+| AHRS         | 姿态航向基准系统               |
+| AJB          | 机载电–机械轰炸           |
+| AOA          | 迎角                                 |
+| APA          | 机载雷达-辅助组件             |
+| APN          | 机载雷达-导航辅助               |
+| APQ          | 机载雷达-特殊用途                |
+| APU          | 辅助动力装置                            |
+| AR           | 空中受油                                   |
+| ARI          | 副翼-方向舵交联系统                     |
+| ARC          | 机载无线电台控制                        |
+| ASA          | 机载特殊类型辅助组件      |
+| ASE          | 转向误差许可                        |
+| ASN          | 机载特殊类型导航辅助        |
+| ASQ          | 机载特殊类型多用途 |
+| AVTR         | 机载录像机                    |
+| AWW          | 机载武器控制                     |
 
 ## B
 
-| Abbreviation | Definition                         |
+| 缩写 | 定义                         |
 |--------------|------------------------------------|
-| BDHI         | Bearing Distance Heading Indicator |
-| BIT          | Built-In Test                      |
-| BST          | Boresight                          |
+| BDHI         | 方位-距离-航向指示器 |
+| BIT          | 机内自检                      |
+| BST          | 瞄准轴                          |
 
 ## C
 
-| Abbreviation | Definition                              |
+| 缩写 | 定义                              |
 |--------------|-----------------------------------------|
-| CAA          | Computer Automatic Acquisition          |
-| CADC         | Central Air Data Computer               |
-| CAP          | Combat Air Patrol                       |
-| CAS          | Calibrated Airspeed                     |
-| CG           | Center of Gravity                       |
-| CIT          | Compressor Inlet Temperature            |
-| CNI          | Communication Navigation Identification |
-| CSD          | Constant Speed Drive                    |
+| CAA          | 计算机自动截获          |
+| CADC         | 中央大气数据计算机               |
+| CAP          | 空中战斗巡逻                       |
+| CAS          | 校正空速                     |
+| CG           | 重心                       |
+| CIT          | 压气机进口温度            |
+| CNI          | 通信导航识别 |
+| CSD          | 恒速驱动装置                    |
 
 ## D
 
-| Abbreviation | Definition                      |
+| 缩写 | 定义                      |
 |--------------|---------------------------------|
-| dc           | Direct current                  |
-| DSCG         | Digital Scan Converter Group    |
-| DCU          | Douglas Control Unit            |
-| DMAS         | Digital Modular Avionics System |
-| DME          | Distance Measuring Equipment    |
-| DR           | Dead Reckoning                  |
-| DVST         | Direct View Storage Tube        |
+| dc           | 直流电流                  |
+| DSCG         | 道格拉斯控制装置    |
+| DCU          | 道格拉斯控制装置            |
+| DMAS         | 数字模块化航电系统 |
+| DME          | 测距装置    |
+| DR           | 航位推算                  |
+| DVST         | 直视存储管        |
 
 ## E
 
-| Abbreviation | Definition                   |
+| 缩写 | 定义                   |
 |--------------|------------------------------|
-| EAS          | Equivalent Airspeed          |
-| ECM          | Electronic Countermeasure(s) |
-| EGT          | Exhaust Gas Temperature      |
+| EAS          | 当量空速          |
+| ECM          | 电子对抗 |
+| EGT          | 排气温度      |
 
 ## F
 
-| Abbreviation | Definition   |
+| 缩写 | 定义   |
 |--------------|--------------|
-| FL           | Flight Level |
+| FL           | 高度层 |
 
 ## G
 
-| Abbreviation | Definition               |
+| 缩写 | 定义               |
 |--------------|--------------------------|
-| G            | Gravity                  |
-| GCA          | Ground Control Approach  |
-| GCI          | Ground Control Intercept |
-| gpm          | Gallon per minute        |
+| G            | 重力                  |
+| GCA          | 地面控制进近  |
+| GCI          | 地面控制拦截 |
+| gpm          | 加仑每分        |
 
 ## H
 
-| Abbreviation | Definition                                                          |
+| 缩写 | 定义                                                          |
 |--------------|---------------------------------------------------------------------|
-| Hangfire     | A delay or failure of an article of ordinance after being triggered |
-| Hang Start   | A start that results in a stagnated rpm and temperature             |
-| Hot Start    | A start that exceeds normal starting temperatures                   |
-| HSI          | Horizontal Situation Indicator                                      |
-| Hz           | Hertz                                                               |
+| Hangfire     | 触发对地武器后出现延时或失效 |
+| Hang Start   | 导致转速和温度不上升的起动             |
+| Hot Start    | 超过正常起动温度的起动                   |
+| HSI          | 水平状态指示器                                      |
+| Hz           | 赫兹                                                               |
 
 ## I
 
-| Abbreviation | Definition                           |
+| 缩写 | 定义                           |
 |--------------|--------------------------------------|
-| IP           | Identification Point                 |
-| IAS          | Indicated Airspeed                   |
-| IFF          | Identification Friend or Foe         |
-| IFR          | Instrument Flight Rules              |
-| ILS          | Instrument Landing System            |
-| IMC          | Instrument Meteorological Conditions |
-| IR           | Infrared                             |
-| I/P          | Identification of Position           |
+| IP           | 识别点                 |
+| IAS          | 指示空速                   |
+| IFF          | 敌我识别         |
+| IFR          | 仪表飞行规则              |
+| ILS          | 仪表着陆系统            |
+| IMC          | 仪表气象条件 |
+| IR           | 红外                             |
+| I/P          | 位置识别           |
 
 ## J
 
-| Abbreviation | Definition     |
+| 缩写 | 定义     |
 |--------------|----------------|
-| JP           | Jet Propulsion |
+| JP           | 喷气推进 |
 
 ## K
 
-| Abbreviation | Definition |
+| 缩写 | 定义 |
 |--------------|------------|
-| KTS          | Knots      |
+| KTS          | 节      |
 
 ## L
 
-| Abbreviation | Definition                   |
+| 缩写 | 定义                   |
 |--------------|------------------------------|
-| LABS         | Low Altitude Bombing System  |
-| LCOSS        | Lead Computing Optical Sight |
-| LE           | Leading Edge                 |
-| LOX          | Liquid Oxygen                |
-| Lpm          | Liters per minute            |
+| LABS         | 低空轰炸系统  |
+| LCOSS        | 计算提前角的光学瞄准 |
+| LE           | 前缘                 |
+| LOX          | 液氧                |
+| Lpm          | 升每分            |
 
 ## M
 
-| Abbreviation | Definition                                                     |
+| 缩写 | 定义                                                     |
 |--------------|----------------------------------------------------------------|
-| MAC          | Mean Aerodynamic Chord                                         |
-| MIL          | Military                                                       |
-| Misfire      | A permanent failure of an article of ordinance being triggered |
-| MSDG         | Multiple Sensor Display Group                                  |
-| MSL          | Mean Sea Level                                                 |
+| MAC          | 平均空气动力弦                                         |
+| MIL          | 军用                                                       |
+| Misfire      | 触发对地武器后出现永久性故障 |
+| MSDG         | 多传感器显示组                                  |
+| MSL          | 平均海平面高                                                 |
 
 ## N
 
-| Abbreviation | Definition               |
+| 缩写 | 定义               |
 |--------------|--------------------------|
-| N/A          | Not applicable           |
-| N/E          | Not established          |
-| NMPP         | Nautical Miles Per Pound |
+| N/A          | 不适用           |
+| N/E          | 未创建          |
+| NMPP         | 磅每海里 |
 
 ## O
 
-| Abbreviation | Definition              |
+| 缩写 | 定义              |
 |--------------|-------------------------|
-| OAT          | Outside Air Temperature |
+| OAT          | 外部气温 |
 
 ## P
 
-| Abbreviation | Definition                 |
+| 缩写 | 定义                 |
 |--------------|----------------------------|
-| P            | Pilot                      |
-| PC           | Power Control              |
-| PDVL         | Pull Down Vent Line        |
-| PLB          | Personnel locator beacon   |
-| prf          | Pulse repetition frequency |
-| psi          | Pounds per square inch     |
+| P            | 飞行员                      |
+| PC           | 电力控制              |
+| PDVL         | 下拉通风孔控制线        |
+| PLB          | 人员定位信标   |
+| prf          | 脉冲重复频率 |
+| psi          | 磅力每平方英寸     |
 
 ## Q
 
-| Abbreviation | Definition            |
+| 缩写 | 定义            |
 |--------------|-----------------------|
-| q            | Dynamic Pressure, psf |
+| q            | 动压 |
 
 ## R
 
-| Abbreviation | Definition                  |
+| 缩写 | 定义                  |
 |--------------|-----------------------------|
-| RADAR        | Radio Detection and Ranging |
-| rf           | Radio Frequency             |
-| rpm          | Revolutions Per Minute      |
-| RWR          | Radar Warning Receiver      |
+| RADAR        | 雷达 |
+| rf           | 无线电频率             |
+| rpm          | 转/分      |
+| RWR          | 雷达告警接收机      |
 
 ## S
 
-| Abbreviation | Definition                    |
+| 缩写 | 定义                    |
 |--------------|-------------------------------|
-| SID          | Standard Instrument Departure |
-| SPC          | Static Pressure Compensator   |
+| SID          | 标准仪表离场 |
+| SPC          | 静压补偿器   |
 
 ## T
 
-| Abbreviation | Definition                                   |
+| 缩写 | 定义                                   |
 |--------------|----------------------------------------------|
-| TACAN        | Tactical Air Navigation                      |
-| TAS          | True Airspeed                                |
-| TE           | Trailing Edge                                |
-| TISEO        | Target Identification System Electro-Optical |
-| TMN          | True Mach Number                             |
+| TACAN        | 战术空中导航                      |
+| TAS          | 真空速                                |
+| TE           | 后缘                                |
+| TISEO        | 光电目标识别系统 |
+| TMN          | 真马赫数                             |
 
 ## U
 
-| Abbreviation | Definition           |
+| 缩写 | 定义           |
 |--------------|----------------------|
-| UHF          | Ultra High Frequency |
+| UHF          | 特高频 |
 
 ## V
 
-| Abbreviation | Definition                                     |
+| 缩写 | 定义                                     |
 |--------------|------------------------------------------------|
-| VFR          | Visual Flight Rules                            |
-| VHF          | Very High Frequency                            |
-| VMC          | Visual Meteorological Conditions               |
-| Vn           | Velocity Acceleration Relationship             |
-| VORTAC       | Very High Frequency —- Omni Range and Tactical |
-|              | Air Navigation                                 |
+| VFR          | 目视飞行规则                            |
+| VHF          | 甚高频                            |
+| VMC          | 目视气象条件               |
+| Vn           | 速度加速度关系             |
+| VORTAC       | 甚高频全向信标-战术空中导航系统                                 |
 
 ## W
 
-| Abbreviation | Definition             |
+| 缩写 | 定义             |
 |--------------|------------------------|
-| WSO          | Weapons System Officer |
+| WSO          | 武器系统官 |

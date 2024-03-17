@@ -85,7 +85,7 @@ TEST MASK（正压来测试面罩气密性）。
 
 ![PilOutEng](../../../img/pilot_outboard_engine_control.jpg)
 
-### 发动机防病开关
+### 发动机防冰开关
 
 用于控制 [除冰功能](../../../systems/engines_and_fuel_systems/engines.md#engine-anti-icing-system)
 的二档位开关（DE-ICE 和 NORMAL）。开关拨至 DE-ICE 档位时，启用除冰气流，NORMAL 档位禁用系统。

@@ -1,33 +1,20 @@
-# Pneumatics
+# 气动
 
 ![manual_pneumatic_diagram](../img/manual_pneumatic_diagram.jpg)
 
-The pneumatic system provides high pressure air for the
-normal and emergency operation of the canopies, and the
-emergency operation of the landing gear and slats flaps.
-Air for the pneumatic system is drawn from the engine
-bleed air supply, via the electronic equipment cooling
-system, and is compressed by a hydraulic motor driven air
-compressor. A pneumatic pressure sensor in the system
-moisture separator opens a hydraulic shutoff valve, to
-activate the air compressor, when the system pressure
-falls below 2750 +50 -0 psi. When the pneumatic system
-pressure builds to 3100 +100 -50 psi, the pneumatic
-pressure sensor closes the hydraulic shutoff valve which
-de-activates the air compressor. Normal system
-pressure range is from 2650 to 3300 psi due to pressure
-transmitter and pressure gage tolerances.
+气动系统为驾驶舱盖的正常和应急操作，以及起落架、缝翼和襟翼的应急操作提供高压空气。气动系统的空气通
+过电子设备冷却系统从发动机引气源吸入，并由液压马达驱动的空气压缩机进行压缩。当系统压力低于 2750 +50
+-0 时，系统汽水分离器中的气动压力传感器会打开液压关断阀，以启动空气压缩机。当气动系统压力达到 3100
++100 -50 psi 时，气动压力传感器关闭液压关断阀来停用空气压缩机。由于压力变送器和压力表的公差，正常系
+统压力范围为 2650 至 3300psi。
 
-The pressurized air from the air compressor is
-then fed into the different tanks which can
-supply it to several systems:
+来自空气压缩机的压缩空气随后被送入不同的气瓶，气瓶可以为多个系统提供压缩空气：
 
-* Canopies
-* Landing gear (in emergency mode)
-* Slats and flaps (in emergency mode)
+- 座舱盖
+- 起落架（应急模式）
+- 副翼和襟翼（应急模式）
 
-A [Pneumatic Pressure Indicator](../cockpit/pilot/pedestal_group.md#pneumatic-pressure-indicator)
-is found on the front cockpit pedestal panel.
-It indicates manifold pressure of the system.
+[气压压力表](../cockpit/pilot/pedestal_group.md#pneumatic-pressure-indicator) 位于飞行员驾驶舱底座
+组，它指示系统的集合管压力。
 
 ![Pneumatics](../img/pilot_pneumatic.jpg)
