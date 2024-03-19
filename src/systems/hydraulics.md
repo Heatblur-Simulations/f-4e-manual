@@ -70,8 +70,7 @@ the Master Caution warning.
 > pressure recovers back to above 1750 PSI, the CHK HYD GAGES light will turn off. In the event of a
 > Utility system failure on the right side, no apparent pressure loss will display to
 > match the CHK HYD GAGES light, whereas a left side failure will show a loss of
-> 200 PSI or more on the Utility system pressure indicator. In the event system
-> pressure recovers back to above 1750 PSI, the CHK HYD GAGES light will turn off.
+> 200 PSI or more on the Utility system pressure indicator.
 
 With a CHK HYD GAGES warning, the Master Caution can be cleared by resetting; however, be aware that
 if the CHK HYD GAGES light is still on at that certain moment, a subsequent hydraulic system failure
