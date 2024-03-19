@@ -29,7 +29,7 @@ A ground speed indicator is provided in the rear cockpit, with a range from 0 to
 1999 knots. Ground speed signal is provided by the Navigation Computer, with the source
 dependent on INS function. If the INS is online, the ground speed value calculated
 is based on the provided velocity, and can display correct information as low as
-0 knots. When the INS is , the air data computer performs a calculation
+0 knots. When the INS is offline, the air data computer performs a calculation
 using crew-entered wind information, which can cause errors of up to 150
 displaying while the aircraft is on the ground with the parking brake set.
 If failed, the rollers will be stuck on their position.
