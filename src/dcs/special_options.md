@@ -92,7 +92,7 @@ and possibly achieve higher FPS.
 
 If checked, when joining as WSO in multiplayer with a human pilot, your local
 controls inputs (stick, rudder pedals and throttle) will be ignored by default.
-You can toogle your local input back with assigned keybind.
+You can toggle your local input back with assigned keybind.
 
 ## Jester Landing Callouts
 

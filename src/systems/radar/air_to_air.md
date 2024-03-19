@@ -75,7 +75,7 @@ be described below.
 
 On the top right corner of the radar screen is an
 [engraved T](interface.md#track-light-t) symbol which illuminates if a range
-track condition is present.
+track condition is present. This is only found on the WSO Screen.
 
 ### Angle Track
 
@@ -133,7 +133,7 @@ operate and track the jamming target in elevation and azimuth.
 
 ![Home On Jam](../../img/radar_home_on_jam.jpg)
 
-The Home On Jam condition is also indicated by the engraved H on the DSCG and
+The Home On Jam condition is also indicated by the engraved H on the WSO DSCG and
 the last zero digit of the closure velocity is replaced by a H along with the
 closure rate flashing.
 
@@ -180,7 +180,8 @@ missile envelope. There are three possible strobe types.
 
 All ranges are calculated for the point the Trigger is pressed and hold down
 for release, not the point where the actual release signal is send a few seconds
-later. This means if the missile envelope is met on the display, then the Trigger can be pressed and
+later. This means if the missile envelope is met on the display, then the Trigger can be
+pressed and
 the envelope will be valid for missile launch.
 
 ### Allowable Steering Error (ASE) Circle

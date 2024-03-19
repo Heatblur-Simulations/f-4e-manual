@@ -134,7 +134,7 @@ approximately 1.5 G, and as G forces reach or exceed this level, air flows into 
 proportionally. The suit stays inflated in relation to constant G forces and begins to deflate as G
 forces decrease.
 
-A manual inflation button in the anti-G suit control valve enables the crewman to manually inflate
+A manual inflation button in the anti-G suit control valve enables the crew to manually inflate
 the suit for system checks or fatigue relief. A pressure relief valve within the system activates at
 approximately 11 psi, serving as a safety backup in case of malfunction. The system operates
 automatically whenever an engine is running, ensuring continuous support for the wearer during

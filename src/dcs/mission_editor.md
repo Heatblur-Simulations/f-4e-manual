@@ -105,6 +105,12 @@ the alignment data.
 See the [INS section](../systems/nav_com/ins.md#heading-memory-alignment) for
 details on how to execute a stored alignment.
 
+## Allow Night Vision Goggles
+
+Although F-4E crews never actually operated with NVGs, this option
+allows mission designers to create modern or fictional scenarios where Phantom
+crews might have access to such devices.
+
 ## TACAN Options
 
 Allows to set the TACAN channel and band set when spawning initially.
@@ -134,6 +140,10 @@ simultaneously.
 See the
 [AN/ALE-40 system](../systems/defensive_systems/countermeasures.md#chaff-double-cd)
 for details.
+
+## IFF Mode 2 Options
+
+Allows to preselect a Mode 2 code for the IFF system.
 
 ## Radio Options
 
