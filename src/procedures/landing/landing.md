@@ -1,3 +1,3 @@
-# Landing
+# 着陆
 
-This chapter describes landing techniques.
+本章节将介绍着陆技术。

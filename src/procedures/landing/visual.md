@@ -1,275 +1,123 @@
-# Visual Landing
+# 目视着陆
 
-## Descent / Before Landing
+## 下高/着陆前
 
-The Descent/Before Landing check should be
-accomplished above 10,000 feet AGL and at a time when
-mission/flight demands are not critical. Prior to
-performing a rapid descent, the windshield and canopy
-surfaces should be preheated to prevent the formation of
-frost or fog. If it becomes necessary to dump fuel during a
-descent, thrust settings in excess of 85% rpm may be
-required to ensure rapid inflight dumping.
+下高/着陆前检查应在 10000 英尺 AGL 上完成，并在非任务/飞行关键时候进行。在执行快速下高前，应为风挡
+和座舱盖表面加温，以防止出现霜冻或雾气。如果在下高过程中需要放油，可能需要将推力设置中 85% RPM 以上
+以确保快速空中放油。
 
-> 💡 Due to limited forward visibility, it is advisable to raise
-> the seat up before entering the pattern.
+> 💡 由于前向视野不佳，建议在进入起落航线前抬高座椅。
 
-## Landing Technique
+## 着陆技术
 
-For a normal landing, fly the pattern as illustrated in
-figure. Enter the pattern as local policy dictates.
+按照图示执行起落航线来正常着陆。根据当地政策来进入起落航线。
 
 ![Landing Pattern](../../img/landing_pattern.jpg)
 
-> 🔴 WARNING: If high angles of attack develop during the turn
-> to downwind, the rudder should be used as a
-> primary means of rollout since adverse yaw may
-> be introduced by the use of ailerons. Altitude may
-> be insufficient for recovery if uncontrolled flight
-> is encountered.
+> 🔴 警告：如果在转向三边期间出现大迎角，应主要使用方向舵作为的改平手段，因为使用副翼可能会引入不利
+> 的偏航。如果遇到失控飞行，高度可能不足以改出。
 
-Avoid buffet throughout the landing pattern. Adjust
-power, as necessary, to attain allowable gear lowering
-airspeed. Extend landing gear and slats and flaps in level
-flight on downwind. Actual flap extension may not occur
-until slowing to 210 knots. Ensure slats out-flaps down
-prior to initiating turn to base leg. The optimum indicated
-AOA for approach is 19.2 units, and is adequate for all
-gross weight and normal slat flap configurations. The
-AOA aural tone system provides an audible cue to
-maintain an on-speed approach (steady tone played at medium pitch).
-During very gusty flight
-conditions, full aileron may not be sufficient to correct a
-wing low condition. When landing in gusty or crosswind
-conditions, with wake turbulence, with high internal fuel
-load (aft CG), or with an abnormal configuration (slats in,
-asymmetric slats or slats partially extended), a 17 unit
-AOA approach is recommended. A transition to ON
-SPEED and a flared landing will reduce the touchdown
-speed. The AOA indexer and aural tone indications
-remain unaffected. Establish and maintain On Speed
-angle-of-attack on the base leg or final approach,
-adjusting pitch attitude to maintain AOA and power to
-maintain desired glide slope/rate of descent. Cross-check
-computed airspeed and On Speed AOA to detect gross
-errors in AOA. When the aircraft reaches 20 to 30 feet
-altitude above the ground, ground effect will tend to rotate
-the aircraft in the nose-down direction. Maintaining pitch
-attitude will result in transition to a slightly slow
-indication at touch-down which is desired. Flying a 2 1/2°
-to 3° glide slope will produce an approach rate of descent
-of about 700 feet per minute. Sink rate at touchdown will
-be appreciably reduced by ground effect.
+在整个着陆过程中避免遭遇抖振。根据需要调整推力，来降低至放下起落架的限制空速。在三边水平飞行时放下
+起落架、缝翼和襟翼。襟翼可能要在减速到 210 节时才会真正放下。确保在开始转进四边之前，缝翼伸出、襟翼
+放下。最佳进近迎角为 19.2 个单位——适用于所有总重和正常的缝翼/襟翼构型。迎角音频提示系统将提供听觉提
+示，以帮助飞行员保持最佳进近迎角进近（稳定中音）。在阵风的飞行条件下，副翼全偏转可能不足以修正单边
+机翼压低的情况。在阵风或侧风条件、尾流紊流、高内油装载（重心偏后）或非正常构型（缝翼收起、非对称缝
+翼或缝翼部分伸出）下着陆时，建议采用 17 个单位 AOA 进近。转换为最佳进近迎角并执行拉飘着陆将降低接地
+空速，此时迎角分度器和音频提示指示无影响。在四边或最后进近时，建立并维持最佳进近迎角，调整俯仰姿态
+来保持迎角，调整推力以保持预期的下滑道/下降率。交叉检查计算出的空速和最佳进近迎角，以检查迎角是否存
+在严重误差。当飞机离地仅 20 至 30 英尺时，地面效应导致飞机压机头。保持俯仰姿态将进入所需的稍慢空速
+指示。执行 2 1/2° 至 3° 下滑道时，下降率大约在每分钟 700 英尺。地面效应将显著减少接地时的下降率。
 
-> 🟡 CAUTION: Flying a steeper than normal final approach or
-> not maintaining pitch attitude when entering
-> ground effect, can cause touchdown sink rates to
-> exceed the design limit of the main landing gear
-> struts.
-<!-- (Refer to section V for touchdown sink
-rates vs gross weight limitations.) -->
+> 🟡 注意：采用更高下降率/下滑道的最后进近，或在进入地效前未能保持俯仰姿态，可能导致接地时下降率超
+> 出起落架支柱设计限制。
 
-At touchdown, reduce power to idle and deploy drag chute.
-Use full aft stick to help decelerate. Use rudder and
-ailerons for directional control down to 70 knots then use
-differential braking. Nose gear steering should not be
-required for directional control in light crosswind
-conditions. However, if rudder, aileron, and/or
-differential braking are not effective in maintaining
-directional control, use nose gear steering as required.
-Engage nose gear steering only with the rudder at or near
-neutral.
+<!-- (Refer to section V for touchdown sink rates vs gross weight limitations.) -->
 
-> 🔴 WARNING: Nose gear steering malfunctions can cause loss of
-> directional control if engaged at high ground
-> speed; therefore, it should not be engaged above
-> taxi speed unless required to maintain directional
-> control during crosswind landing conditions. If no
-> response is noted or unscheduled steering
-> responses are detected when engaging nose gear
-> steering, disengage immediately and do not
-> reengage.
+在接地时，将油门减至慢车并放减速伞。向后满杆帮助减速。在空速降至 70 节前使用方向舵和副翼进行航向控
+制，然后使用差动刹车。在轻微侧风条件下，通常不需要使用前轮转向来控制航向。然而，如果方向舵、副翼和/
+或差动刹车不能很好的保持航向，根据需要使用前轮转向。只有在方向舵处在或接近中立位置时，才能接通前轮
+转向。
 
-During braking, cycling of the anti-skid system can be
-detected by a change in longitudinal deceleration. Cycling
-may not be apparent when braking at high speed
-immediately after landing, with drag chute failure, or
-with a wet or icy runway. Do not misinterpret this as
-anti-skid failure.
+> 🔴 警告：前轮转向在高地速时功能失常可能会导致失去航向控制；因此，除非在侧风着陆条件下需要维持航向
+> 控制，否则不应在超过滑行速度时接通前轮转向。如果在接通前轮转向时无响应，或出现非预期转向响应，应
+> 立即断开转向，并且不再重新接通。
 
-## No-Flap Landing
+在刹车过程中，可以通过纵向减速的变化来感觉到防滑系统循环工作。当在着陆后立即在高空速下刹车、遇到减
+速伞故障或在湿滑或结冰的跑道上刹车时，防滑系统的循环工作可能不明显。不要误解为防滑系统故障。
 
-Refer to [EMERGENCY PROCEDURES](../../emergency_procedures/overwiew.md)
+## 无襟翼着陆
+
+参考 [以及程序](../../emergency_procedures/overwiew.md)
+
 <!-- TODO: add specific procedure link -->
 
-## Short Field Landing
+## 短距离野战机场着陆
 
-Short field landings require that normal final approach
-procedures be followed with precision and the aircraft be
-touched down as close to the end of the runway as safety
-permits. Full aft stick throughout the landing roll
-increases both aerodynamic drag and wheel brake
-effectiveness. Apply maximum braking by fully
-depressing the brake pedals to the pedal stops as soon as
-the nose gear is on the ground and nose gear steering is
-engaged. Nose gear steering should be used to maintain
-runway alignment and supplemented with differential
-braking only if required.
+短距离野战机场着陆要求精确遵循正常最后进近程序，并在确保安全的同时尽可能在跑道的末端部分着陆。在整
+个着陆滑跑过程中，向后满杆将增加气动阻力和轮胎刹车的效果。在前轮接地并且接通前轮转向后，立即将刹车
+踏板踩到底以实现最大制动力。飞行员应使用前轮转向来保持对准跑道中线，只在必要时辅以差动刹车。
 
-Operation on the AM-2 aluminum mat is similar to that
-conducted on a concrete runway of equivalent size.
-Arrestment should be regarded as an emergency
-procedure. However, since the aircraft is fully suitable for
-arrested landings, extremely adverse meteorological or
-operational conditions may warrant consideration of
-landing into a suitable approach-end arresting gear.
+在 AM-2 铝垫板跑道上的操作与在同等尺寸的混凝土跑道上的操作相似。应将使用拦阻装置视为紧急程序。然而
+，飞机设计适用于拦阻着陆，在极端气象条件或作业条件下，值得考虑使用机场拦阻装置进行着陆。
 
-## Crosswind Landing (Dry Runway)
+## 侧风着陆 (干跑道)
 
-Carefully compensate for crosswind in the traffic pattern
-to guard against undershooting or overshooting the final
-turn. Fly the final approach course with the aircraft
-ground track properly aligned with the runway. The
-crosswind may be compensated for either by using the
-wing low method, the crab method, or a combination of the
-two. When using the wing low method, the ARI can be
-overpowered by use of the rudder pedals or the ARI can be
-disengaged by pulling the rudder trim circuit breaker. If
-the crab method is employed, the aircraft heading should
-be aligned with the runway just prior to touchdown. After
-touchdown, use rudder, aileron and spoiler, and nose gear
-steering as required to maintain directional control.
-Crosswind effect on the aircraft is not severe; however,
-rudder, differential braking, and/or nose gear steering
-must be used as required to maintain alignment with the
-runway. Use of the drag chute intensifies the weather
-vane effect for any given deployment condition. The
-weather vane effect increases as the forward velocity of
-the aircraft decreases, therefore, if the drag chute is to be
-used, it should be used at the initial portion rather than
-the latter portion of the landing roll. This also assures use
-of the drag chute in the speed region where it is most
-effective. If the drag chute is used and excessive
-weathervaning is encountered, jettison drag chute. Since
-the nose gear will rapidly assume a position relative to the
-rudder pedals, nose gear steering should be initiated with
-the rudder pedals at or near the neutral position. For this
-reason the use of nose gear steering is advocated early in
-the landing roll rather than at a time when large amounts
-of rudder are required to hold the aircraft aligned on the
-runway. Keep in mind that only really tiny amounts of nose gear steering should be used as there is
-a high risk of a nose gear steering hardover. The most important aspect of directional control
-under crosswind conditions is keeping the aircraft
-precisely aligned with the runway rather than trying to
-correct back to the runway centerline after it has deviated.
+在飞起落航线中，小心补偿侧风，以防止在转进五边时飞偏（OVER 或 UNDER）。在最后进近过程中，应确保飞机
+地面航迹正确对准跑道。侧风可以通过使用侧滑、蟹行或两者的结合来补偿。使用侧滑法时，使用方向舵脚蹬可
+能导致 ARI 输入过大或通过方向舵配平断路器来断开 ARI。如果采用蟹行法，应在接地前将飞机航向调整至对准
+跑道中线。接地后，根据需要使用方向舵、副翼、扰流板和前轮转向保持航向控制。虽然侧风对飞机的影响不大
+，但仍要按需要使用方向舵、差动刹车和/或前轮转向来保持对准跑道中线。使用减速伞会加剧所有给定放伞条件
+下的风向标效应。风向标效应随飞机前向空速的降低而增加，因此，如果要使用减速伞，应在着陆滑跑的前期而
+不是后期使用，这也确保了在最有效的空速区域内使用减速伞。如果使用减速伞并且风向标现象过于明显，应抛
+弃减速伞。由于前轮会迅速转至方向舵脚蹬的输入位置，因此飞行员应在方向舵脚蹬接近中立位置时接通前轮转
+向。因此，建议在着陆滑跑前期而不是需要大幅度脚蹬输入方才能保持飞机对准跑道中线时使用前轮转向。请记
+住，因为前轮转向很可能过度转向，所以请小幅度使用前轮转向。在侧风条件下，航向控制中的要点是保持飞机
+精确对准跑道中线而非在偏离后进行修正。
 
 ![Crosswind Landing Guide](../../img/landing_crosswind.jpg)
 
-## Wet or Icy Runway Landing
+## 湿滑或结冰的跑道
 
-Wet or icy runway conditions pose severe problems in
-directional control and braking effectiveness. On wet
-runways, these problems are primarily the result of
-hydroplaning where the tire rides on a thin layer of water
-and produces little or no traction. The probability of
-hydroplaning increases with increased water depth,
-increased ground speed, decreased tire pressure and
-decreased tire tread depth and is also affected by runway
-surface texture and tire tread design. Hydroplaning can
-occur on runways which appear only damp if severe
-braking is applied at high speeds. Hydroplaning and glare
-ice present essentially the same problems. Due to the
-reduced directional control, all landings on a wet or icy
-runway should be made utilizing a crosswind technique.
-Refer to the Crosswind Landing Guide (figure 2-7) to
-determine the advisability of making an approach-end
-engagement. The pilot should also consider the
-desirability of delaying the landing to permit the runway
-to dry or diverting to another field. Gross weight should be
-reduced to the minimum practicable. Plan the pattern to
-be well established on final with the aircraft tracking
-straight down the runway centerline with an ON SPEED
-indication. Use a wings - level crab, if required, to
-maintain the track. Establish the rate of descent at 800
-fpm (slightly steeper than normal) and plan to touchdown
-on the centerline within the first 500 feet. Make a firm
-touchdown (500-600 fpm) while maintaining the
-wings-level crab. Immediately after touchdown retard the
-throttles to idle. Do not attempt to align the aircraft
-heading with the runway as this will result in a drift off
-the runway if the aircraft is sliding or hydroplaning.
-Maintain full forward stick to increase nosewheel
-traction. As wheel cornering capability overcomes
-aerodynamic effects the aircraft will align itself with the
-runway. Do not attempt to hasten this process. When the
-aircraft heading is aligned with the runway centerline,
-deploy the drag chute. Be prepared to jettison the drag
-chute if the weathervaning effect interferes with
-maintaining the track straight down the runway
-centerline. Nose gear steering is the primary method of
-directional control and should be utilized as early as
-possible. Nose gear steering should be engaged only with
-the rudder pedals at or near neutral. When directional
-control is firmly established utilize maximum anti-skid
-braking. Brake pedals must be fully depressed to achieve
-maximum deceleration. At high speeds the braking
-potential will be very low and little deceleration will be
-felt. As braking potential increases with decreasing speed,
-the anti-skid system will increase deceleration
-accordingly. Unless the pilot is familiar with the variables
-in braking potential, the low deceleration at high speed
-may be mistakenly interpreted as a brake or anti-skid
-failure.
+湿滑或结冰的跑道条件会严重影响飞机的航向控制和刹车效果。在湿跑道上，这些问题主要是由于滑水效应引起
+的，即轮胎在薄薄的水层上滑行，几乎无法产生牵引力。滑水的可能性随着水深的增加、地速的升高、胎压的降
+低以及胎面深度的减少而增加，同时也受到跑道表面质地和胎面设计的影响。即便跑道只是略显潮湿，如果在高
+速下重刹车，也可能发生滑水现象。滑水和光滑冰面所呈现的问题基本相同。由于航向控制力降低，在湿滑或结
+冰的跑道上着陆时，应采用侧风程序。请参阅《侧风着陆指南》（图 2-7），以确定是否能够在跑道末端进行接
+地。飞行员还应考虑推迟着陆以等待跑道干燥，或备降至其他机场。这种情况下，飞行员应将飞机的总重降至最
+低限度。计划好航线以便在最后阶段建立稳定姿态，确保飞机保持最佳进近迎角并沿跑道中心线直线前进。若有
+需要，使用蟹行进近来维持航迹。将下降率保持在每分钟 800 英尺（略高于正常操作），并计划在前 500 英尺
+内在跑道中线着陆。保持蟹行进近，扎实接地（下降率 500-600 英尺/分钟）。着陆后立即将油门收到慢车。若
+飞机侧滑或发生滑水效应，不要试图调整飞机航向对准跑道，这将导致飞机偏离跑道。保持向前推杆，以增加前
+轮的牵引力。当轮胎的转向能力克服气动效应时，飞机将自行对准跑道。不要试图加速这一过程。当飞机航向对
+准跑道中线后，放减速伞。若风向标效应干扰保持直线航迹，准备好抛弃减速伞。上述情况下，主要通过前轮转
+向控制航向，飞行员应尽早接通前轮转向。只有在方向舵脚蹬处于或接近中立位置时，才能启用接通前轮转向。
+当能够稳定航向控制时，要实现最短制动距离，使用防滑且必须完全踩下脚蹬刹车踏板。在空速较高时，制动力
+会非常低，几乎感受不到减速，随着空速降低，制动力将增加，防滑系统也会相应提高减速效果。除非飞行员熟
+悉制动的各种变量，否则在空速较高时制动力减弱可能会被误解为刹车或防滑系统故障。
 
-> 🟡 CAUTION: Rubber deposits on the last 2000 feet of wet
-> runway make directional control a difficult
-> problem even at very low speeds. Braking should
-> be started in sufficient time so as not to require
-> excessive braking on the last portion of the
-> runway.
+> 🟡 注意：湿跑道最后 2000 英尺处的橡胶沉积物，即使在非常低的地速下，也会使航向控制成为一个棘手的问
+> 题。应及时开始刹车，以避免在跑道末段需要额外的刹车。
 
-## Heavy Gross Weight Landing
+## 重载着陆
 
-The heavy gross weight landing pattern is the same as the
-basic pattern shown in figure 2-6 with the exception that
-it should be expanded slightly to compensate for the lower
-maneuvering capability of the heavy gross weight aircraft
-at low speeds. As in the normal pattern, an on-speed
-indication on the indexer will provide the optimum angle
-of attack and airspeed for the aircraft in the landing
-configuration for both level flight and maneuvering flight.
-Refer to Performance Data, appendix A, for airspeed
-versus gross weight at approach AOA.
+重载起落航线与图 2-6 中展示的基本起落航线相同，但需要适当进行扩展，以补偿重载飞机在低空速时的机动能
+力减弱。与正常起落航线一样，分度器上的最佳进近迎角指示将为飞机在着陆构型下，水平飞行和机动飞行时提
+供最佳迎角和空速。请参考附录 A 中的性能数据，了解进近迎角时的空速与总重的关系。
 
-## Go-Around
+## 复飞
 
-Any decision to go around should be made as early as
-possible. When the decision to go around is made,
-smoothly increase thrust to military (afterburner if
-required). Do not attempt to rotate the nose or stop
-rate-of-descent until adequate airspeed is built up.
-Continue to use the on speed indication as the optimum
-angle of attack until level flight is attained. As airspeed
-increases, establish normal takeoff attitude, retract gear
-when a positive rate of climb is established, retract slats
-and flaps at a safe airspeed (180 knots minimum) and go
-around. Rudder jumps may occur during flap retraction
-with lateral stick input. For a closed pattern, accomplish
-a climbing 180° turn to roll out on downwind at 220 to 250
-knots. Refer to Go-Around, figure 2-8. During go-around
-a rapid trim change is required to preclude high forward
-stick forces.
+任何复飞的决定应尽早做出。一旦做出复飞决定，就应平稳地将推力加至军推（如需则使用加力）。在获得足够
+空速前，不要尝试抬机头或停止下降。继续使用最佳进近迎角指示来保持最佳迎角，直到恢复水平飞行。随着空
+速的增加，建立正常起飞姿态，确认爬升率为正后收起起落架，在安全的空速（至少 180 节）收起缝翼和襟翼并
+复飞。在收上襟翼时，若有横向杆输入，可能会出现方向舵抖动。执行本场起降航线时，完成一个 180° 爬升转
+弯，以 220 至 250 节空速在三边改平。参见《复飞》，图 2-8。在复飞过程中，需要迅速进行配平调整，以避
+免向前压杆力过大。
 
-> 🔴 WARNING: Do not exceed 18 units AOA during go-around
-> with gear retracted.
+> 🔴 警告：在起落架收起复飞过程中，迎角不可超过 18 个单位。
 
-## Touch-And-Go
+## 连续起落
 
-After making a normal approach and touchdown,
-smoothly advance throttles to full military power. Apply
-aft stick until the nose rotates 10° to 12° of pitch attitude
-maintaining this attitude until the aircraft is flying. When
-definitely airborne retract the gear, followed by the flaps
-as the aircraft accelerates through 180 knots minimum.
+在执行正常进近和接地后，平稳地将油门推至军推。向后拉杆直至机头抬至 10° 至 12° 俯仰姿态，并保持此姿
+态直到飞机离地。当确认飞机离地后，收起起落架，随后在飞机加速到最低 180 节时收起襟翼。
 
 ![Go-Around](../../img/go_around.jpg)

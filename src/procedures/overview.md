@@ -1,27 +1,21 @@
-# Normal Procedures
+# 正常程序
 
-This chapter contains standard procedures for operating the F-4E Phantom II.
+本章节包括 F-4E“鬼怪”II 操作的标准程序。
 
-The aircrew procedures through the [Before Taxi](taxi.md#before-taxi) paragraph
-are separated into individual procedures for the **pilot** and **weapon system
-officer**. These separate procedures allow the individual crew-member to perform
-the checks without requiring him to read the checks performed by the other
-crew-member. The remaining procedures are combined and are coded for applicable
-crew-member action. Items coded **(P-WSO)** are applicable to both the pilot and
-weapon system officer. Items coded **(WSO)** are applicable to the weapon system
-officer only, and items **not coded** are applicable to the pilot only.
+**飞行员** 和 **武器系统官** 在 [“滑行前”](taxi.md#before-taxi) 一节中的程序被分为各自独立的操作步
+骤。这种分开的程序设计，使得各个机组成员可以执行检查，而无需阅读其他机组成员的检查内容。其余的程序
+则是合并的，并且根据适用的机组成员进行了编码标记。标记为 **（P-WSO）** 的项目适用于飞行员和武器系统
+官。标记为 **（WSO）** 的项目仅适用于武器系统官，而 **未进行标记** 的项目则仅适用于飞行员。
 
-> 💡 Real procedures and checklists evolved over time. The procedures provided
-> in this manual are based on a time range around the 80s and tailored to our
-> simulation of the Phantom specifically. Procedures provided in other resources
-> may differ slightly.
+> 💡 现实的程序和检查单会随时间演变。本手册中提供的程序基于 80 年代时期左右，并专门针对我们鬼怪模拟
+> 进行了定制。其它资源中提供的程序可能会略有不同。
 
-Here is an explanation of the symbology used:
+标记的使用解释：
 
-| Symbol   | Description                                                                      |
-| -------- | -------------------------------------------------------------------------------- |
-| **Bold** | step is necessary to be performed                                                |
-| 🔧       | step involves or may involve [crew chief](../crew_chief/overview.md) interaction |
-| ⚡       | step **cannot** be performed when **battery start** is made                      |
+| 标记     | 描述                                                               |
+| -------- | ------------------------------------------------------------------ |
+| **加粗** | 条目必须执行。                                                     |
+| 🔧       | 表示该步骤涉及或可能涉及[机工长](../crew_chief/overview.md) 交互。 |
+| ⚡       | 表示该步骤**使用电瓶起动** 时 **无法执行** 。                      |
 
 ![real_life_crew_with_manual](../img/real_life_crew_with_manual.jpg)

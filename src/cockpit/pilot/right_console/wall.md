@@ -37,7 +37,7 @@
 
 面板中包括七个断路器，负责飞行操纵面和其它对飞机安全操作来说十分重要的系统。
 
-- AIL Feel-Trim（副翼感受配平） - STAB Feel-Trim（安定面感受配平） - Speed Brake（减速板） -
+- AIL Feel-Trim（副翼感受配平） - STAB Feel-Trim（平尾感受配平） - Speed Brake（减速板） -
   Landing Gear（起落架） - Flaps（机翼） - Trim Controls（配平控制开关） - Rudder Trim（方向舵配平
   ）
 
