@@ -1,200 +1,99 @@
-# Takeoff
+# 起飞
 
-## Normal Takeoff
+## 正常起飞
 
-The slats out-flaps down position is recommended for all
-takeoffs. After line-up on the runway and completing
-necessary pre-takeoff checks, engines can be run to 85%
-with brakes held and nose gear steering engaged to ensure
-nose gear alignment. With both engines
-operating in excess of 85% and the brakes locked, there is
-a possibility of rotating the tires on the wheel rims or
-skidding the tires. Check for normal rpm response and
-approximate readings of 450°C EGT, 4000 pph fuel flow, ¼
-nozzles, and 30-40 psi oil pressure. After releasing brakes,
-advance both throttles rapidly to full military power and
-check rpm, exhaust temperatures and nozzle position.
-WSO check the ramps fully retracted. If an afterburner
-takeoff is desired, shift the throttles into the afterburner
-detent and advance full forward for max thrust. Maintain
-directional control with nose gear steering or rudder as
-required. The rudder becomes effective for steering at
-approximately 70 knots. Wheel braking should not be used
-for directional control during takeoff roll. Nose gear
-steering should be disengaged when rudder steering
-becomes effective. If it becomes necessary to re-engage
-nose gear steering at the higher speeds, rudder pedals
-should be returned to neutral prior to engagement since
-rudder displacement necessary for rudder steering will
-generally be excessive for nose gear steering. Sufficient aft
-stick should be applied prior to nose wheel liftoff speed to
-attain the desired pitch attitude. As the nose rises, pitch
-attitude must be controlled to maintain a 10° to 12° (first
-pitch mark) nose high attitude for aircraft fly-off. Caution
-must be exercised to preclude over-rotation due to
-excessive aft stick rate or an extended takeoff roll due to
-late lift-off. The basic takeoff attitude should be held
-during acceleration and transition to a clean
-configuration. Trim change and control action during this
-period are normal. The AUX AIR DOORS, WHEELS, and
-MASTER CAUTION lights may illuminate momentarily
-as the landing gear and flaps are retracted.
+所有的起飞，推荐使用前缘缝翼伸出、襟翼放下档位。在机场跑道上对准中线并完成必要的起飞前检查后，可以
+在踩住刹车、接通前轮转向的情况下，将发动机推力增至 85%，以确保前轮对齐。当两台发动机的运转超过
+85%，并且刹车锁定时，可能会导致轮胎在轮圈上转动或打滑。检查转速反应是否正常，大约 450°C 的
+EGT、4000 磅/小时的燃油流量、¼ 喷口位置和 30-40 psi 的滑油压力。松开刹车后，迅速将油门推至全军推档
+位，并检查转速、排气温度和喷口位置。武器系统官需检查进气道斜板是否完全收起。如果需要使用加力起飞，
+将油门挡位推至加力限位，并推至最前以获得最大推力。按需使用前轮转向或用方向舵来保持航向控制。方向舵
+转向在大约 70 节时开始生效。起飞滑跑时不应使用轮胎刹车来进行方向控制。当方向舵转向升效时，应该停用
+前轮转向。如果在较高空速下需要重新接通前轮转向，应先将方向舵脚蹬回到中立位置，因为方向舵转向所需的
+脚蹬偏转角度通常对前轮转向来说过大。在胎轮空速前，应适当向后拉杆，以达到所需的俯仰姿态。随着机头抬
+高，飞行员必须控制俯仰姿态来维持 10° 至 12°（第一个俯仰标记）的机头姿态来让飞机离地。飞行员需谨慎操
+作，以避免由于过度后拉杆或起飞滑跑过长过晚离地而导致过度抬头。在加速过程中和过渡到干净构型时，应保
+持基本起飞姿态。在此期间的配平变化和操纵动作是正常的。收起起落架和襟翼时，AUX AIR DOORS、WHEELS 和
+MASTER CAUTION 灯可能会短暂亮起。
 
-> 🟡 CAUTION: Rapid full aft movement of the stick between
-> takeoff airspeed and 30 knots below takeoff
-> airspeed may result in the stabilator hitting the
-> runway with the possibility of stabilator actuator
-> damage.
+> 🟡 注意：在起飞空速和低于起飞空速 30 节之间，快速向后拉驾驶杆至最大行程，可能会导致安定面撞击跑道
+> ，从而可能导致作动器损坏。
 
 ![Takeoff](../../img/takeoff.jpg)
 
-## No-Flap Takeoff
+## 无襟翼起飞
 
-No-flap takeoffs are not recommended. However, if it is
-determined that no-flap takeoffs must be performed to
-satisfy mission requirements, aircrews should be aware
-that takeoff roll and airspeed will be increased and: the
-takeoff attitude will be slightly steeper. Stabilator
-effectiveness is considerably increased and extreme
-caution must be exercised to prevent over-rotation which
-could result in the stabilator striking the runway.
+不推荐执行无襟翼起飞。然而，如果出于任务需求必须进行无襟翼起飞，飞行人员应当意识到，起飞滑跑的距离
+和空速将会增加，且起飞姿态会稍微陡峭一些。安定面的效果将大幅增强，必须极为小心操纵，以避免过度俯仰
+，这可能导致安定面撞击跑道。
 
-> 🔴 WARNING: Due to increased stabilator authority with the
-> flaps up, aircraft rotation can be initiated at
-> lower than normal airspeeds and over-rotation is
-> a definite possibility. If it appears that
-> over-rotation is occurring, positive control
-> movement (stick forward) must be taken to
-> prevent the stabilator from contacting the
-> runway and/or loss of aircraft control.
+> 🔴 警告：由于在襟翼收上的情况下，安定面的权限增加，飞机的抬机头可以在低于正常空速下开始，而且过度
+> 抬机头很可能出现。如果出现过度抬机头的迹象，必须主动采取动作（向前推驾驶杆），以防止安定面撞击跑
+> 道和/或失去控制。
 
-## Minimum Run / Heavy Gross Weight Takeoff
+## 短距离/重载起飞
 
-A minimum run/heavy gross weight takeoff (aircraft over
-55,500 pounds) is accomplished in the same manner as a
-normal takeoff with the following exceptions: It is
-recommended that all minimum run/heavy gross weight
-takeoffs be made with afterburner. During the takeoff-run,
-full aft stick must be applied prior to reaching 80 knots. As
-the aircraft starts to rotate, the stick should be adjusted to
-maintain 10° to 12° pitch attitude for aircraft fly-off. The
-possibility of a main landing gear tire failure increases
-with an extended takeoff ground run under heavy gross
-weight conditions. Nose wheel liftoff speed and takeoff
-speed is increased during heavy gross weight conditions.
-In the event of an aborted takeoff, it must be remembered
-that stopping distance is greatly increased as abort speed
-increases.
+对于短距离/重载起飞（飞机总重量超过 55500 磅）的情况，其执行方式与正常起飞基本相同，但有以下几点例
+外：建议所有短距离/重载起飞均使用加力。在起飞滑行过程中，空速必须在达到 80 节之前向后拉满杆。当飞机
+开始抬头时，应调整驾驶杆以保持 10° 至 12° 的俯仰姿态来让飞机离地。在重载条件下，如果地面滑跑时间过
+长，主起落架轮胎爆裂的可能性会增加。重载条件下，抬轮空速和起飞空速都会增加。在中断起飞的情况下，必
+须记住，随着中断起飞的空速增加，刹停距离会大大增长。
 
-> 🟡 CAUTION: With a combination of light gross weight and aft
-> CG, the minimum run takeoff technique (i.e., full
-> aft stick prior to reaching 80 knots) produces
-> rapid pitch rates during nose rotation. This
-> combination can exist when the radar package
-> and nose gun (or equivalent ballast) are not
-> installed.
+> 🟡 注意：在轻载和重心偏后的组合条件下，采用短距离起飞技术（即在达到 80 节之前向后拉满杆）会在抬机
+> 头时俯仰率将升高。在未安装雷达设备和航炮（或等效配重）时可能出现这种情况。
 
-## Crosswind Takeoff
+## 侧风起飞
 
-Under crosswind conditions, the aircraft tends to weather
-vane into the wind. The weathervaning tendency can be
-easily controlled with nose gear steering. As forward speed
-increases, weathervaning tendency decreases. At speeds
-above 70 knots rudder effectiveness will normally be
-sufficient to maintain directional control. After the nose is
-lifted to takeoff attitude, the aircraft will have a tendency
-to drift toward the downwind side of the runway.
-Therefore, when a long time period is expected between
-nose lift-off and aircraft fly-off, or when the crosswind
-effect is particularly severe, nose lift-off can be delayed
-accordingly. Under normal operational conditions this
-action should not be required. As the aircraft leaves the
-ground, it should be crabbed into the wind, wings level, to
-maintain runway alignment. Takeoff in gusty crosswind
-or severe wake turbulence conditions can result in an
-abrupt wing low attitude at or near lift-off. When these
-conditions are anticipated, use higher than computed
-takeoff speed to provide additional lateral control after
-lift-off.
+在侧风条件下，飞机倾向于像风向标那样转向顶风。这种进入顶风的倾向可以通过前轮转向来轻松控制。随着前
+向空速的增加，转向顶风的倾向会减小。在空速超过 70 节后，通常可用使用方向舵来维持航向控制。当抬轮到
+起飞姿态后，飞机将有向跑道三边漂移的倾向。因此，当预测从抬轮到飞机离地之间的时间差较长时，或者当侧
+风影响特别严重时，可以相应地延后抬轮。在正常操作条件下，通常不需要采取这种措施。当飞机离地后，应该
+将其调整为顶风姿态，机翼水平，以保持对准跑道。在阵风侧风或严重尾流紊流条件下起飞，可能会导致在离地
+时或接近离地时突然出现一侧机翼压低的姿态。当预测碰到这些条件时，使用超出计算出的起飞空速离地，以便
+提供额外的航向控制。
 
-## After Takeoff
+## 飞机升空后
 
-When the aircraft is definitely airborne:
+在确认飞机升空后：
 
-Retract the gear. Check that the landing gear position indicators
-display the word UP, and that the landing gear
-handle warning light is out.
+收上起落架。检查起落架位置展示其显示 UP 字样，并且起落架手柄告警灯熄灭。
 
-> 🟡 CAUTION: The landing gear and gear doors should be
-> completely up and locked before the gear limit
-> airspeed of 250 knots is reached, otherwise,
-> excessive air loads may damage the landing gear
-> mechanism and prevent subsequent operation.
+> 🟡 注意：在到达起落架限制空速 250 节前，起落架及其舱门应完全收上并锁定，否则，高速气流将损坏起落
+> 架机构并导致后续操纵出现问题。
 
-Set slats and flaps to NORM.
-Check that slat flap indicators display IN and UP.
-Rudder jumps may occur during flap retraction
-with a lateral stick input. If an audible
-(noticeable in head phones) chattering associated
-with slat flap and utility hydraulic pressure
-indicator fluctuating in unison occurs during
-slats flaps retraction, maintain airspeed below
-250 knots and cycle slats flaps. If slat chatter
-occurs during maneuvering at altitude, it may
-require opposite slats positioning from where
-chatter occurs. If chatter persists, extend slats
-flaps and land as soon as practical. If cycling (slats
-repositioning) eliminates chatter, continue
-mission and make an appropriate entry in AF
-Form 781.
+将翼和襟翼设置到 NORM 档位。检查缝翼和襟翼指示器分别显示“IN”和“UP”。在襟翼收上过程中如果有横向杆输
+入，可能会出现方向舵抖动。如果在缝翼和襟翼收上期间，听见缝翼和襟翼发出（在头戴耳机中明显）啸叫声，
+并伴随公用液压压力指示器一起波动，此时应保持空速在 250 节以下，并循环收放缝翼和襟翼。如果在高空机动
+飞行中出现缝翼啸叫声，可能需要将缝翼设置到与发出啸叫声相反的档位上。如果啸叫声持续存在，应伸出缝翼
+并放下襟翼，并尽快着陆。如果循环操作（重新定位缝翼）消除了啸叫声，可以继续执行任务，并在美军航空表
+格 AF Form 781 中做适当记录。
 
-## Climb
+## 爬升
 
-A simplified climb can be made by maintaining a 10° to 12°
-(first pitch mark) nose high attitude until reaching 350
-knots and then vary pitch as necessary to maintain 350
-knots until reaching cruise Mach/TAS. Vary pitch as
-necessary to maintain cruise Mach/TAS until reaching
-cruise altitude. A simplified Maximum thrust climb, at
-normal gross weights, can be made by maintaining a 10°
-to 12° nose high attitude until reaching 350 knots and then
-vary pitch as necessary to maintain 350 knots until
-reaching Mach 0.9. Vary the pitch attitude as necessary to
-maintain Mach 0.9 until reaching cruise altitude.
+简化爬升程序，通过保持 10° 至 12°（第一个俯仰标记）姿态，直到空速到达 350 节，然后根据需要调整俯仰
+角以保持空速在 350 节，直到达到巡航马赫数/真空速。在达到巡航高度之前，根据需要调整俯仰角以维持巡航
+马赫数/真空速。在正常总重下，可以通过保持 10° 至 12° 姿态进行最大推力爬升，直到空速到达 350 节，然
+然后根据需要调整俯仰角以保持空速在 350 节，直到达到 0.9 马赫。在达到巡航高度之前，根据需要调整俯仰
+角以维持 0.9 马赫。
 
-> 💡 During the climb, it may be necessary to place the
-> antenna selector switch to the LWR position to
-> maintain ground communication.
+在爬升过程中，可能需要将天线选择开关置于 LWR 档位来保持地面通信。
 
-## Rig Check
+## 构型检查
 
-A rig check shall be performed if an out-of-rig or
-unintentional asymmetric load condition is suspected and
-before maximum-performance/high-AOA maneuvering.
-With all axes of the stab aug engaged, center the rear
-cockpit ball and check that aircraft does not roll more than
-2°/second with ailerons and spoilers trimmed neutral. Ifa
-large amount of lateral trim (equivalent to more than 1
-inch aileron down at 350 knots) is required to prevent roll,
-an out-of-rig, malfunctioning stab aug, or asymmetrical
-load condition exists. Do not maneuver at high angle of
-attack if this condition exists.
+如果怀疑出现了非对称挂载或非正常构型（out-of-rig）情况，或在进行最高性能/大迎角机动前，应执行构型检
+查（rig check）。在接通所有增稳轴的情况下，保持 WSO 驾驶舱的侧滑球居中，并检查飞机在副翼和扰流板配
+平后的情况下，横滚率不超过每秒 2°。如果为了防止飞机横滚，需要进行大量的横向配平（相当于在 350 节时
+超过 1 英寸副翼偏转），则表明存在非正常构型、增稳系统故障或非对称挂载条件。如果存在这种情况，不要在
+大迎角下进行机动飞行。
 
 ## Stab Aug Check
 
-A stab aug check shall be performed before
-maximum-performance/high-AOA maneuvering. Do not
-perform maximum performance maneuvers if any of the
-following checks are unsatisfactory.
+在进行最高性能/大迎角机动飞行前，应对增稳执行检查。如果不满足以下任何检查结果，不要执行最高性能机动
+。
 
-1. Pull nose up with 2G acceleration and release the
-   stick. Aircraft should stabilize in one cycle.
-2. Yaw aircraft to one ball width and release rudder.
-   Aircraft should stabilize in one cycle.
-3. Roll to 30-45° bank and release stick. Aircraft
-   should maintain bank angle. Roll to level flight
-   and release stick. Aircraft should maintain wings
-   level.
-4. Gradually increase AOA through 11 1/2 units and
-   ensure slats extend together. Decrease AOA below
-   10 1/2 units and ensure slats retract together.
+1. 以 2G 的加速度向上拉起机头，并松开驾驶杆。飞机应在一个循环内稳定下来。
+2. 让飞机偏航至一个侧滑球宽，并松开方向舵脚蹬。飞机应在一个循环内稳定下来。
+3. 横滚至 30-45° 坡度并松开驾驶杆。飞机应保持该坡度。横滚至水平飞行并松开驾驶杆。飞机应保持机翼水平
+   。
+4. 逐渐增加迎角至 11 1/2 个单位，并确保缝翼伸出。将迎角降低至 10 1/2 个单位以下，并同时确保缝翼收回
+   。
