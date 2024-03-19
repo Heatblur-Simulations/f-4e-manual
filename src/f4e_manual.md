@@ -26,5 +26,5 @@ open-source project at GitHub.
 <!-- markdown-link-check-enable -->
 
 > 🚧 The manual is a **work in progress** and will continue to be expanded and improved
-> until the Phantom releases for early access this Winter. Access to
+> until the Phantom releases for early access. Access to
 > the open-source repository on GitHub and the PDF version will be made available later.
