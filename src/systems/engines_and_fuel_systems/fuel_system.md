@@ -1,127 +1,94 @@
-# Fuel System
+# 燃油系统
 
-The Phantom's fuel system is duplicated; that is, their pump and feed
-arrangement is the same for both the left and right engines, and they share the
-same set of fuel cells. Internal fuselage fuel between all 7 cells and the wing
-tanks is just over 12,000 lbs of JP-4. With two external 315 gallon wing tanks,
-that value increases to over 16,800 lbs. Adding the centerline 600 gallon tank
-will bring the aircraft total fuel state to just under 20,800 lbs of fuel.
+鬼怪战斗机的燃油系统是对称的；即，左右发动机的泵和供油布置是相同的，它们共享同一组油箱。机身内部的
+7 个油箱和机翼油箱的 JP-4 燃油总量略超过 12000 磅。加上两个 315 加仑机翼副油箱，这个数值将超过
+16800 磅。再加上 600 加仑中线副油箱，飞机的燃油总量将接近 20800 磅。
 
-## Transfer Sequence
+## 输油顺序
 
 ![f4_fuel_system](../../img/f4_fuel_system.jpg)
 
-The F-4 carries two internal wing tanks, along with seven fuel cells down the
-length of the fuselage, with cell 1 resting just behind the aft cockpit, and the
-remaining cells numbered in order to the rear of the aircraft. Cell 1 is the
-feed cell for the engines; cells 4 and 6 each carry a hydraulic and an electric
-transfer pump to supply fuel to cells 1 and 2. The remaining fuselage cells
-perform a gravity feed into cells 1, 4, or 6. Cell 3 feeds cell 4 and 5, cell 2
-feeds cell 1 and cell 7 feeds cell 6. With this arrangement, center of gravity
-balance is maintained along the centerline. Cell 7 is the last cell to initiate
-transfer in the sequence, and does not begin until the total fuel in cells 1 and
-2 fall below 1800 lbs.
+F-4 中的 7 组油箱沿机身从前到后分布，并且机翼中还有两个油箱，其中 1 油箱位于 WSO 驾驶舱正后方，其余
+油箱按顺序编号直到飞机的尾部。1 油箱是发动机的供油油箱；4 和 6 油箱各装有一个液压和一个电动输油泵，
+用于向 1 和 2 油箱供油。其余机身油箱通过重力向 1、4 或 6 油箱供油。3 油箱向 4 和 5 油箱供油，2 油箱
+向 1 油箱供油，7 油箱向 6 油箱供油。通过这种用油顺序，将保持飞机沿中心线的重心平衡。直到 1 和 2 油
+箱中的燃油总量降至 1800 磅以下，7 油箱才开始转输。
 
-Fuel transfer from the wing and external tanks is performed by bleed air
-pressurization once airborne; they will not transfer until the aircraft is off
-the ground. Internal wing tank fuel is transferred into fuselage cells 1 and 3,
-whereas fuel from external tanks are balanced between cells 1, 3, and 5.
+机翼和副油箱中的燃油在升空后使用引气加压来转输；只有飞机离地后才会转输。机翼油箱中的燃油转输到 1 和
+3 油箱，而副油箱中的燃油在 1、3 和 5 油箱之间转输保持平衡。
 
-## Internal Wing Transfer Switch
+## 机翼油箱输油开关
 
 ![InternalWingTransfer](../../img/pilot_internal_wing_transfer.jpg)
 
-Should it be necessary, a two position switch is available to turn off transfer
-from the wing internal tanks. Found on the Fuel Control Panel, the Internal Wing
-Transfer Switch can be toggled between NORMAL and STOP TRANS.
+如有必要，可以使用二档位开关来关闭机翼油箱输油。开关位置在燃油控制面板中，一共有 NORMAL 和 STOP
+TRANS 两个档位可供使用。
 
-## External Transfer Switch
+## 副油箱输油开关
 
 ![ExternalTransferSwitch](../../img/pilot_external_transfer_switch.jpg)
 
-External tank transfer is controlled by the External Transfer Switch; found on
-the Fuel Control Panel, the switch has three positions: CENTER, OFF, and OUTBD
-(Outboard), with OUTBD referring to the wing external tanks.
+机组可通过副油箱输油开关来控制副油箱输油；副油箱输油开关位于燃油控制面板上，开关有三个档位
+：CENTER、OFF 和 OUTBD（外侧），其中 OUTBD 指机翼副油箱。
 
-It is not possible to transfer from the wing tanks and external tanks at the
-same time. If both are selected, the external tanks will take priority.
+飞机不能同时从机翼油箱和副油箱输油，如果同时选择了这两个油箱输油，飞机将优先使用副油箱。
 
-## Fuel Boost System
+## 燃油增压系统
 
 ![BoostInd](../../img/pilot_boost_pump_indicators.jpg)
 
-Flow from Cell 1 to the engines is performed by a pair of boost pumps. The pumps
-are installed at the bottom of the tank to provide fuel in the event of a
-negative G excursion. The function of these pumps can be confirmed on the Fuel
-Boost Pump Pressure Indicators found in the front cockpit. Engine idle pump flow
-rate is 30 PSI, ±5 pounds. To confirm a ground check, a pair of Boost Pump Check
-switches are found on the fuel control panel. Holding one of these switches in
-the CHECK position will perform an engine shutdown, and provide feedback on the
-respective Pressure Indicator.
+1 油箱供油由一对升压油泵提供。升压油泵安装在油箱底部，以便在负过载情况下供油。飞行员可通过位于驾驶
+舱中的升压油泵压力表来确认油泵正常工作。在慢车时，压力为 30 ±5 PSI。若有需要，可使用位于飞行员驾驶
+舱中燃油控制面板中的一对升压油泵检查开关来执行地面检查。将其中一个开关保持在 CHECK 档位将关断发动机
+，并在对应压力表中提供反馈 。
 
-## Fuel Quantity Indication System
+## 油量指示系统
 
-## Fuel Level Low Warning Light
+## 燃油量低告警灯
 
 ![pilot_fuel_low](../../img/pilot_fuel_level_low.jpg)
 
-When the sensor in Cell 2 detects a fuel weight of less than 1650 ±200 lbs, the
-FUEL LEVEL LOW warning will illuminate on the front
-cockpit telelight panel.
-This illumination is independent of the Fuel Quantity Indication System, and can
-be indicative of a transfer failure.
+当 2 油箱中的传感器探测到油量少于 1650 ±200 磅时，位于飞行员驾驶舱，远传信号灯面板中 FUEL LEVEL LOW
+告警灯将会亮起。FUEL LEVEL LOW 告警灯独立于燃油量指示系统，亮起还可能表示输油功能失常。
 
-## External Tanks Fuel Lights
+## 副油箱燃油灯
 
 ![pilot_external_fuel_tanks](../../img/pilot_external_tanks_fuel_lights.jpg)
 
-Any time an external fuel tank is detected to not be flowing fuel into the
-fuselage, a respective light will illuminate on the telelight panel - L EXT FUEL, CTR EXT FUEL, or R
-EXT FUEL. These lights will only illuminate for the respective external transfer - that is, if OUTBD
-is selected, CTR EXT FUEL cannot illuminate, and vice versa. Because transfer can occur
-intermittently due to flow from the tanks exceeding engine fuel consumption, the warning lamp is not
-immediately indicative of an empty external tank, and should be checked against
-the quantity indication system. Further, the lamps will illuminate when the air
-refuel switch is set to EXTEND, with the ALL TANKS setting selected.
+在当传感器探测到副油箱未输油至机身油箱后，远传信号灯面板中对应的指示灯将亮起——L EXT FUEL、CTR EXT
+FUEL 或 R EXT FUEL。这些指示灯只会在选择了对应的副油箱输油时亮起，比如，选择了 OUTBD 档位的话，CTR
+EXT FUEL 灯就不会亮起，反之亦然。这是因为在油箱输油流量超过发动机耗油量时，系统可能会间歇性地进行输
+油，告警灯无法立刻指示副油箱耗尽，且应与油量指示系统进行交叉核实。
 
-> 💡 To confirm that the tanks are empty fly calm and level and watch if the light
-> stays on and the fuel gauge is not going up for at least one or two minutes.
+> 💡 请在水平直线飞行状态时检查油箱是否消耗完毕，并观察指示灯是否常量并且油量表在一到二分钟内没有上
+> 涨。
 
-When air-to-air refueling, or when refueling on the ground and the tanks have
-reached a full condition, the External Tanks Full lamps, found under the canopy
-bow, will light.
+在进行空中受油时，或在地面加油时，在油箱加满后，位于抬头指示器中的副油箱满指示灯将会亮起。
 
-## Fuel Dump System
+## 放油系统
 
 ![InternalWingFuelDump](../../img/fuel_dumping.jpg)
 
-Fuel from the wings can be dumped directly, rather than requiring transfer into
-the fuselage, using the Wing Fuel Dump Switch.
+飞行员通过机翼放油开关来控制放油，机翼油箱可直接放油而无需输油至机身再进行放油。
 
 ![InternalWingFuelDump](../../img/pilot_fuel_dump_switch.jpg)
 
-This switch, when selected to
-DUMP, will release fuel from the internal wing tanks at their dump lines at the
-wing fold trailing edge. Flow rate is dependent on power setting and attitude,
-higher engine RPM and positive pitch increases dump speed, whereas lower RPM and
-a nose low condition reduces dump speed.
+将开关拨到 DUMP 档位时，系统将通过位于机翼折叠后缘处的放油管来放出机翼油箱中的油。放油速度取决于油
+门设置和高度，高发动机 RPM 和正俯仰角将加快放油速度，低 RPM 以及俯冲姿态的放油速度将减慢。
 
-> 💡 In level flight at 85% RPM, the dump
-> flow rate is roughly 650 pounds per minute. Leading to the entire fuel being
-> dumped after roughly 15 minutes.
+> 💡 在平飞且发动机转速设置到 85% RPM 的情况下，放油速度大约在 650 磅每分钟。燃油放空大约需要 15 分
+> 钟。
 
-## Fuel Venting System
+## 燃油通气系统
 
-To prevent issues with overpressure, the aircraft provides a venting system.
+为防止超压，飞机装有一套通气系统。
 
-Should an overpressure condition occur, tanks will vent fuel until the pressure
-is corrected.
+如果出现超压，系统将自动进行通气来修正油箱压力。
 
-The process is fully automated. External tanks vent into the internal wing tanks and
-all other cells are connected to the vent mast below the rudder.
+通气操作是全自动完成。机翼副油箱的通气导管与机翼油箱放油管相连，其它所有油箱通气导管都连接至方向舵
+下方的通气架。
 
-> 💡 Under normal conditions, overpressure only occurs momentarily whenever the internal
-> wing fuel tanks are pressurized and made ready for transfer.
-> This is the case whenever the gear is retracted or the AAR door is closed.
+> 💡 在正常条件下，只有机翼油箱被加压并准备进行输油时才会短暂出现超压。在收起起落架或受油门关闭的时
+> 候才会出现这种情况。
 
 ![Fuel Venting](../../img/fuel_venting.jpg)
