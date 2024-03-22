@@ -201,8 +201,9 @@ To prevent issues with overpressure, the aircraft provides a venting system.
 Should an overpressure condition occur, tanks will vent fuel until the pressure
 is corrected.
 
-The process is fully automated. External tanks vent into the internal wing tanks and
-all other cells are connected to the vent mast below the rudder.
+The process is fully automated. External wing tanks vent through the
+fuel dump system, while all other cells are connected to the vent
+mast below the rudder.
 
 > 💡 Under normal conditions, overpressure only occurs momentarily whenever the internal
 > wing fuel tanks are pressurized and made ready for transfer.
