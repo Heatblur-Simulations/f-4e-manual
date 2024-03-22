@@ -182,7 +182,9 @@ AFCS 拥有自动俯仰配平功能，配平功能将尝试在纵向配平飞机
 
 <!-- OPERATIONAL PRECAUTIONS -->
 
-<!-- * Because the stability augmentation system can misinterpret roll oscillation in high AoA maneuvering and inadvertently invoke adverse roll, it is suggested to disable the Roll channel prior to aerobatics or combat to alleviate this possibility. -->
+<!-- * Because the stability augmentation system can misinterpret roll oscillation in high AoA 
+maneuvering and inadvertently invoke adverse roll, it is suggested to 
+disable the Roll channel prior to aerobatics or combat to alleviate this possibility. -->
 
 ## 襟缝翼系统
 
