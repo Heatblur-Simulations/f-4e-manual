@@ -1,8 +1,7 @@
-# Systems Overview
+# 系统总览
 
-This chapter gives detailed in-sights and explanations into all major systems of the Phantom.
+本章将深入了解并解释"鬼怪"战机的所有主要系统。
 
-From the engine system to fuel flow, control surfaces, how to navigate, use the radar and
-weapons effectively, or the insights of INS alignments and its gyro system.
+从发动机系统到油流、操纵面、如何导航、如何有效使用雷达和武器，或对 INS 对准及其陀螺系统进行深入了解。
 
 ![Pilot Pit Front](../img/ext_f4_sunset.jpg)

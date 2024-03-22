@@ -45,7 +45,7 @@ AGM-45 有三种不同的投放模式：AGM-45 (WRCS)、LOFT 和 DIRECT。
 > 的指向 > ，在飞机带坡度时可能导致接收机偏移，飞行员 > 可能需要每隔几秒就将机翼调整到水平来准备攻
 > 击，以确保飞机指向辐射源。
 
-![agm_45_commands](../../../img/agm_45_commands.jpg) _Commands of the AGM-45 Shrike in WRCS mode_
+![agm_45_commands](../../../img/agm_45_commands.jpg) _WRCS 模式下，AGM-45 "百舌鸟"的指令_
 
 #### 拉起
 

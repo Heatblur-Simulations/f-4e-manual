@@ -1,166 +1,120 @@
-# Landing Gear System and Ground Handling Controls
+# 起落架系统和地面操纵控制系统
 
-The F-4 Phantom uses a conventional tricycle landing gear arrangement, driven by
-the Utility hydraulic system. The Landing gear is electronically controlled and hydraulically
-actuated by the utility hydraulic system. Accidential retraction of the landing gear when the
-aircraft is on the ground is prevented by safety switches on the main gear. The gear is locked down
-by internal finger latches which require hydraulic pressure to release. The automatic disable of the
-nose gear steering and anti-skid system is realized by scissor switches located in the landing gear
-bays. In the event Utility hydraulics are offline, an emergency extension system using compressed
-air is available to lower the gear for landing.
+F-4 鬼怪使用传统的三点式起落架布局，起落架收放由公用液压系统驱动。起落架采用电控并通过公用液压系统
+进行作动。主起落架上的安全开关可防止飞机在地面时意外收起起落架。起落架通过钩锁进行锁定，需要液压压
+力才能放下。位于起落架轮舱内的接近开关用来自动禁用前轮转向和防滑系统功能。如果公用液压系统离线，可
+用压缩空气的应急放下系统来放下起落架进行着陆。
 
 ![ext_view_gears](../../img/ext_f4_wheel_well.jpg)
 
-## Landing Gear Control Handle
+## 起落架控制手柄
 
 ![GearHandle](../../img/pilot_landing_gear_handle.jpg)
 
-The Landing Gear Control Handle is found on the left instrument panel in the
-front cockpit, with a red wheel-shaped knob for identification.
+起落架控制手柄位于飞行员驾驶舱中的左仪表板上，手柄制作成红色滚轮形状开关来方便识别。
 
-## Landing Gear Emergency Extension Handles
+## 应急放下起落架手柄
 
 ![wso_emergency_landing_gear_handles](../../img/wso_emergency_handles.jpg)
 
-Emergency landing gear extension is driven by a pair of compressed air bottles
-carrying sufficient charge for lowering the gear one time. The emergency extension
-is commanded in the front cockpit is performed using the Gear Control Handle;
-pulling the handle aft in any position releases the compressed air into the
-landing gear hydraulic system, forcing the gear doors to open and the gear to
-lower and lock. Extension can also be performed in an emergency from the back
-seat using a handle on the left sub-panel marked EMERG LDG GEAR. Pulling this
-handle performs the same action as pulling the front cockpit gear control handle
-aft.
+应急放下起落架系统由一对装有足够压缩空气的气瓶组成，这些气瓶的压力足够放下一回起落架。在飞行员驾驶
+舱中，通过起落架控制手柄来执行应急放下操作；在任意档位向后拉动手柄都将释放压缩空气进入起落架液压系
+统，迫使轮舱舱门打开，起落架放下并锁定。在紧急情况下，后座也可以通过左侧子面板上标有“EMERG LDG
+GEAR”的手柄来执行应急放下动作，拉动手柄的效果和在飞行员驾驶舱中相同。
 
-## Landing Gear Warning Lights
+## 起落架告警灯
 
 ![pilot_wheels_light](../../img/pilot_dscg_wheels_light.jpg)
 
-In the upper left corner of the front cockpit instrument panel is a WHEELS
-warning lamp that illuminates when the aircraft is below 230 knots without the
-landing gear lowered. Selecting the gears down or up when the WHEELS lamp is
-illuminated will cause a warning lamp installed in the Landing Gear Control
-handle to light up red.
+在飞行员驾驶舱仪表板的左上角有一个 WHEELS 告警灯，当飞机空速低于 230 节且起落架未放下时警告灯将亮起
+。在 WHEELS 告警灯亮起时选择放下或收起起落架，将会导致安装在起落架控制手柄中的告警灯亮起红色灯光。
 
-## Landing Gear Position Indicators
+## 起落架位置指示器
 
 ![GearPos](../../img/pilot_landing_gear_position_indicators.jpg)
 
-Status indicators for the landing gear system are found in both cockpits on the
-left sub-panel. The indicators are three windows, one for each gear station. The
-position of the gear are shown in their respective windows with the word UP when
-up and doors are closed, a barber pole (angled white and black bars) when the
-gear and doors are in transition either closing or opening, and the illustration
-of a wheel when the gears are down and locked.
+起落架系统的位置指示器位于两名机组驾驶舱中的左侧子面板上。指示器有三个窗口，对应三个起落架。窗口显
+示对应的起落架的档位，当起落架收起且轮舱舱门关闭时显示“UP”字样，当起落架和轮舱舱门在关闭或打开过程
+中时显示条状纹（白黑斜条纹），当起落架放下并锁定时显示机轮图案。
 
-## Nose Gear Steering
+## 前轮转向
 
 ![pilot_nose_gear_steering_button](../../img/pilot_nose_gear_steering.jpg)
 
-Nose Gear Steering is actuated using the referenced button on the control stick
-in either cockpit. Holding the button down permits the crew member to steer the
-aircraft using the rudder. Steering limit of the nose gear is 70 degrees from
-centerline in both directions.
+通过位于任意驾驶舱中驾驶杆上的基准按钮来激活。按住按钮将允许机组使用脚蹬来进行转向。前轮转向的限制
+为从中心线向两侧偏转 70 度。
 
-Rudder steering becomes effective at approximately 70 knots. At this
-speed Nose Gear Steering should be disengaged and not be used any further.
+方向舵转向在大约在 70 节时生效。在此速度下，应断开前轮转向且不再使用。
 
-## Wheel Brakes
+## 机轮刹车
 
-Differential steering is provided with weight on wheels using rudder pedal
-deflection. Assistance in braking performance is provided by an included
-Anti-Skid System, which engages with the aircraft over 30 knots. Braking
-function is delayed by the Anti-Skid System on landing until the right main gear
-has been in contact with the ground for 3 seconds, or the wheels reach 50 knots
-of rotational speed.
+机轮负重时，可以通过偏转方向舵脚蹬来实现差动转向。在飞机轮速超过 30 节时，防滑系统将提供刹车性能辅
+助。防滑系统包含延迟启用刹车功能，在右侧主起落架接地 3 秒，或轮速到 50 节时，才可使用刹车。
 
-## Anti-Skid System
+## 防滑系统
 
-The electronically controlled anti-skid system
-provides anti-skid protection at wheel speeds over 30 knots. The system detects the start of a skid
-and releases the brake pressure in proportion to skid severity. Below 30 knots the anti-skid
-protection is not available and braking is in direct proportion to the brake pedal movement. The
-system has a built-in touchdown protection feature that prevents braking until 3 seconds after
-weight is sensed on the right main gear or wheel spin up to 50 knots. It should be noted that a low
-coefficient of friction between the runway and tires (as it occurs during Aquaplaning or on icy
-runways) may lead to the wheels not spinning up or cause them to slow below 30 knots wheel speed
-after spin-up. In this case the system falsely detects the aircraft speed below 30 knots and reverts
-to manual braking.
+在轮速超过 30 节时，电控防滑系统将为机组提供防滑保护。系统检测到打滑时，会根据打滑的严重程度按比例
+地松开刹车。在 30 节以下，系统将自动断开防滑，刹车力度将和脚蹬偏转度成比例关系。系统内还包括了一个
+接地保护功能，该功能会在右侧主起落架接地 3 秒，或轮速到 50 节之前禁用刹车。请注意，跑道和轮胎之间的
+摩擦系数低（如在积水或冰面跑道）可能导致轮子不旋转或转速低于 30 节。在这种情况下，系统会错误地检测
+到飞机速度低于 30 节，并恢复到手动制动模式。
 
-### Anti-Skid Control Switch
+### 防滑控制开关
 
 ![AntiSkidSwitch](../../img/pilot_anti_skid_switch.jpg)
 
-Next to the oxygen quantity gauge in the front cockpit is the Anti-Skid Control
-Switch, which is used to turn the system ON or OFF.
+防滑控制开关位于飞行员驾驶舱中，氧气储量表的旁边，飞行员可以使用控制开关来开启或关闭防滑系统。
 
-### Anti-Skid Inoperative Light
+### ANTI-SKID INOPERATIVE 灯
 
 ![AntiSkidSwitch](../../img/pilot_anti_skid_light.jpg)
 
-Found on the front cockpit left console, the ANTI-SKID INOPERATIVE light will
-indicate when the Anti-Skid Switch is set to OFF, the Emergency Quick Release
-Lever is pressed, or there is a system issue.
+在飞行员驾驶舱左侧控制台上，当防滑开关设置为 OFF、按下应急快速释放杆，或系统出现问题时，ANTI-SKID
+INOPERATIVE 指示灯将会亮起。
 
-### Emergency Quick Release Lever
+### 应急快速释放杆
 
 ![pilot_emergency_anti_skid_lever](../../img/pilot_emergency_quick_release.jpg)
 
-Should the Anti-Skid system appear to malfunction during a rollout, the system
-can be immediately disengaged by holding down the Quick Release Lever found on
-the control sticks in either cockpit. This will illuminate ANTI-SKID INOPERATIVE
-warning.
+如果怀疑防滑系统在滑行过程中功能失常，机组可以通过按住驾驶杆上的应急快速释放杆来立即断开防滑系统。
+断开防滑系统后 ANTI-SKID INOPERATIVE 告警灯将会亮起。
 
-## Emergency Hydraulic Brake System
+## 应急液压刹车系统
 
 ![EmergencyHydraulicBrakeSystem](../../img/pilot_emergency_brake_handle.jpg)
 
-In the event of a Utility hydraulic system failure, emergency differential
-braking is provided by pulling the Emergency Brake Handle on the lower left side
-of the instrument panel in either cockpit. Doing so forces hydraulic pressure
-from a reserve accumulator, and provides enough power for approximately 10 brake
-applications.
+如果公用液压系统出现故障，机组可以通过拉动位于驾驶舱仪表板左下方的应急刹车手柄来进行应急差动刹车。
+拉动手柄使用备用蓄压器中的压力来进行刹车，备用蓄压器的压力足够使用大约 10 次刹车。
 
-## Arresting Hook System
+## 拦阻钩系统
 
 ![ArrestingHook](../../img/pilot_tail_hook_lever.jpg)
 
-The Phantom carries a retractable arresting hook for ground stopping in
-emergency takeoff and landing situations that will reach the strip overrun.
-Placing the Arresting Hook Handle in the front cockpit into the DOWN position
-will lower the hook in approximately five seconds. Lowering the hook will
-illuminate a red warning lamp in the Hook Handle, and illuminate the HOOK DOWN
-warning on the telelight panel.
+鬼怪装备有可收放拦阻钩，可在应急中断起飞和着陆情况下使用，以免飞机冲出跑道升降带。将飞行员驾驶舱中
+的拦阻钩手柄拨到放下档位后，拦阻钩将在大约五秒内放下。放下拦阻钩后手柄中的红色告警灯将会亮起，并且
+远传信号灯面板中的 HOOK DOWN 告警灯将会亮起。
 
-The system is not intended to be used for carrier operations.
+该拦阻钩系统并非用于舰上作业。
 
 ![ext_arresting_hook_out](../../img/ext_hook_shot.jpg)
 
-## Drag Chute System
+## 减速伞系统
 
 ![DragChuteHandle](../../img/pilot_drag_chute_handle.jpg)
 
-The F-4E has an available Drag Chute to reduce landing roll as necessary. The
-chute can also be used for spin recovery. Deployment of the chute is performed
-by rotating the handle found in the front cockpit. The chute is drawn from its
-door with a smaller pilot chute. Once the chute has deployed and performed
-sufficient braking action or the aircraft has recovered into a controllable
-state, the chute is jettisoned by pressing the button and pulling the handle
-back, then lowering it. This action releases the chute cables and allows it to
-pull free.
+F-4E 装备有减速伞以在必要时减少着陆滑跑的距离。减速伞也可用于尾旋改出。旋转位于飞行员驾驶舱中的手柄
+来放出减速伞。减速伞通过一个较小的引导伞将其从伞舱中拉出。一旦放出减速伞并充分减速，或飞机已恢复到
+可控状态，通过按下按钮接着抽出手柄然后放下来弃伞，完成后会释放伞绳，让其自由脱落。
 
-Do not use the Chute in excess of 200 Knots IAS while landing.
+着陆时不要在指示空速（IAS）超过 200 节时使用减速伞。
 
-For spin recovery the Chute can be used by pushing the stick full forward, putting ailerons and
-rudder in a neutral position and deploying the chute.
+在尾旋改出时，可以通过前压满杆，中立副翼和方向舵并放减速伞来进行改出。
 
 ![ext_drag_chute_out](../../img/ext_drag_chute.jpg)
 
-## Wing Fold System
+## 机翼折叠系统
 
 ![ext_wings_folded](../../img/f4_folded_wings.jpg)
 
-The F-4E includes a wing fold system to assist in maintenance and ground
-handling. Unlike prior models, the wing fold apparatus on the F-4E is un-powered,
-and requires ground crew members to manually move the outboard panels with the
-fold control activated to release the locking mechanism.
+F-4E 中装有机翼折叠系统，来方便进行维修和地面拖动。与之前的型号不同，F-4E 的机翼折叠装置无动力源，
+需要地勤人员在激活折叠控制来松开锁定机构后，手动移动外侧机翼。
