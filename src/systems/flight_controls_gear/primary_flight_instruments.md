@@ -1,282 +1,142 @@
-# Primary Flight Instruments
+# 主要飞行仪表
 
-The Primary flight instruments include every instrument needed for basic flight of the F-4E.
-Included are the True Airspeed Indicator (TAS), the ground speed indicator, Accelerometers,
-combined Airspeed and Mach Indicators, radar and barometric Altimeters, a backup magnetic compass,
-vertical velocity indicators, different turn and slip indicators as well as cockpit attitude
-indicators.
+F-4E“鬼怪”战机的主要飞行仪表包括了所有进行基本飞行必要的仪表。其中包括真空速表（TAS）、地速指示器、加速度表、空速马赫数表、雷达和气压高度表、备用罗盘、垂直速度表、转弯侧滑仪以及驾驶舱姿态指示器。
 
-## True Airspeed Indicators
+## 真空速表
 
 ![TASInd](../../img/pilot_true_airspeed_indicator.jpg)
 
-True Airspeed Indicators are provided in both cockpits, and carry a calibrated
-range from 150 to 1500 knots. The velocity signal is calculated in the Air Data Computer,
-based on the temperature and pressures input. While the indicators can read as low as 0 knots,
-the lack of calibration below the stated range means values less than 150 knots
-are inaccurate. At high rates of airspeed change, there may be a lag of up to
-±10 knots in measurement. During normal operation, an error up to ±5 knots
-may be present. If failed, the rollers will be stuck on their position.
+两个驾驶舱中都装有真空速表，有效读数区间在150节到1500节。虽然仪表的读数低至0节，但由于低于有效读数区间，150节以下的数值是不准确的。在空速变化较快的情况下，测量值可能会有高达±10节的滞后。
 
-The rear True Airspeed Indicator is removed for DMAS equipment in aircraft so
-configured; however, TAS is provided as a DMAS function.
+在装备了DMAS设备的飞机中，后座的真空速表被移除；然而，DMAS功能仍然可提供真空速信息。
 
-## Ground Speed Indicator
+## 地速表
 
 ![wso_ground_speed_indicator](../../img/wso_ground_speed_indicator.jpg)
 
-A ground speed indicator is provided in the rear cockpit, with a range from 0 to
-1999 knots. Ground speed signal is provided by the Navigation Computer, with the source
-dependent on INS function. If the is INS online, the ground speed value calculated
-is based on the provided velocity, and can display correct information as low as
-0 knots. When the INS is offline, the air data computer performs a calculation
-using crew-entered wind information, which can cause errors of up to 150
-displaying while the aircraft is on the ground with the parking brake set.
-If failed, the rollers will be stuck on their position.
+后座中装有地速表，显示区间在0到1999节。地速由导航计算机提供，具体来源取决于惯性导航系统（INS）的功能。如果INS在线，计算得出的地速值基于INS提供的速度，即使在0节时也能显示正确信息。当INS离线时，大气数据计算机将使用机组输入的风速信息进行计算，这可能导致飞机处在地面并且已设置停放刹车的情况下，显示误差高达150节。
 
-With DMAS installed, the rear ground speed indicator is removed, as GS is a DMAS
-function.
+安装了DMAS后，后座的地速表被移除，因为提供地速是DMAS的功能之一。
 
-## Accelerometers
+## 加速度表
 
 ![GGauge](../../img/pilot_accelerator.jpg)
 
-Both cockpits retain accelerometers for monitoring G load; the accelerometers
-carry 3 needles - one for current G loading, and a positive and negative G
-loading needle for the highest load G-load detected since the accelerometer was
-reset. To reset the gauge, the PUSH TO SET button will return the recording
-pointers to positive 1 G.
+两个驾驶舱都保留了加速度表，用于监控过载值；加速度表有3根指针——一根显示当前G值，另外两个分别显示自加速度计复位以来检测到的最高正过载和负过载。如需复位仪表，按下“PUSH TO SET”按钮将会使记录指针回到正1G位置。
 
-## Airspeed/Mach Indicators
+## 空速/马赫数表
 
 ![MachInd](../../img/pilot_airspeed_mach_indicator.jpg)
 
-Purely mechanical instruments that use total pressure from the Pitot-Static system
-and static pressure from the Air Data Computer, previously corrected by the Static
-Pressure Compensator.
+纯机械仪表，使用皮托管静态系统的全压和大气数据计算机的静压，由静压补偿器校正进行现实。
 
-The airspeed indicator component of this instrument functions by measuring the dynamic
-air pressure, which is the difference between the total and the static pressure.
-This dynamic pressure is closely related to the square of the aircraft's airspeed.
-Inside the indicator, there is a diaphragm or aneroid capsule that reacts to changes
-in this dynamic pressure. As the aircraft's speed varies, this diaphragm expands or
-contracts accordingly. These mechanical movements are then converted into a reading
-displayed on the airspeed dial, showing the aircraft's velocity relative to the air
-around it.
+仪表的空速表组件通过测量动压——即全压与静压之间的差。这个动压与飞机空速的平方密切相关。仪表内部有一个膜片或无液胶囊，对动压的变化作出反应。随着飞机空速的变化，膜片相应地膨胀或收缩。然后，这些机械运动被转换成显示在空速表盘上的读数，显示出飞机相对于周围空气的速度。
 
-The Mach number is determined in a manner akin to measuring airspeed, primarily through
-the comparison of dynamic and static air pressures. This comparison reveals the aircraft's
-speed relative to the speed of sound.
+马赫数的确定方式类似于测量空速，主要是通过比较动态和静压。马赫数表将显示飞机空速与声速的比值。
 
-Found in both cockpits is a combination Airspeed/Mach indicator. The indicators
-provide a fixed airspeed scale at the middle of the indicator, reading values
-from 80 to 850 knots, and a rotating Mach number scale to the outside,
-with readings from 0.4 to 2.5 Mach. A two position push-and-rotate knob offers both an airspeed
-index with a functional range between 80 and 195 knots, and a Mach index pointer
-with a range between 225 knots and 850 knots. A small friction error of the needle,
-up to 5 kts might sometimes be noticed.
+两个驾驶舱中都配备了空速/马赫数表。仪表中有固定的空速刻度，读数区间在80节到850节，并在外侧有一个旋转的马赫数刻度，读数区间在0.4马赫到2.5马赫。仪表上的两档推拉旋钮可用来设置空速游标，可在80节到195节之间调整，以及马赫数游标——调整区间在225节到850节之间。
 
-If failed, both the airspeed needle and the mach scale will be stuck in their remaining position.
-Mean time to failure is 1000 hours.
+如果仪表故障，空速指针和马赫数刻度都将卡在他们的最后所处的位置。仪表的平均故障间隔时间为1000小时。
 
-## Altimeter
+## 高度表
 
 ![Altimeter](../../img/pilot_baro_altitude.jpg)
 
-An AAU-19 Type of altimeter, may operate in both electric - based on corrected electric
-static pressure signal from the Altitude Encoder, or mechanical (STBY) mode - from
-Air Data Computer, previously corrected by the Static Pressure Compensator.
-The errors tolerance of the instrument is ±3 knots below 80kts and ±5 knots above that airspeed.
+AAU-19 型高度表，可在两种模式下工作——基于来自高度编码器的校正静压信号，或机械式（STBY）模式——经过静压补偿器校正的大气数据计算机输入。仪表的误差为80节以下±3节，80节以上±5节。
 
-In STBY mode, the altimeter operates based on an aneroid barometer, featuring a flexible
-metal capsule known as an aneroid wafer. This wafer expands or contracts with changes
-in external air pressure. As the aircraft ascends, the decrease in air pressure causes
-the wafer to expand. Conversely, during descent, the increased air pressure leads
-to the wafer's contraction. These mechanical movements are translated via a system
-of springs and levers, resulting in the movement of the altimeter's needle and rollers.
-The altimeter can be calibrated to the current sea level pressure for accurate altitude
-readings.
+在 STBY 模式下，高度表基于空盒气压表工作，其内部有一个密封的金属胶囊，称为无液胶囊片。随着外部气压的变化，这个金属胶囊会相应地膨胀或收缩。随着飞机的爬升，气压的下降导致胶囊膨胀。相反，在下降过程中，气压的增加导致胶囊收缩。这些机械运动通过弹簧和杠杆系统转换，使高度表的指针和滚筒的运动。机组可将高度表校正至大气海平面压力来确保读数准确。
 
-In the primary mode of operation, the altimeter utilizes an electric servo mechanism
-to achieve a precise indication.
+在主要操作模式下，高度表使用一个电动伺服机构来实现准确显示高度。
 
-Devices in both cockpits provide a functional range from 0 to 80,000 feet. To
-the outside of the indicator is a pointer scale, gradation in 50 foot units with
-markings every 100 feet (from 1 to 10). Left of center is the counter,
-increasing and decreasing in value in thousand foot increments on the black pair
-of rollers, hundred foot increments on the white. Barometric scale adjustment
-can be performed using a dial. A three position switch provides the RESET
-function for the altimeter to draw signals from the air data computer for normal
-operation, and the STBY (standby) option to only use the pneumatic pressure to
-determine altitude. Standby mode is noted with a red flag in the indicator. In
-the event of an altimeter or air data computer failure in normal operation, the
-STBY flag will appear, and cannot be reset. This can also be followed by
-warnings on the telelight panel.
+两个驾驶舱的高度表显示区间在0到80000英尺。仪表外圈一个指针刻度，每50英尺一个刻度标记，每100英尺（从1到10）标有数字标记。位于左侧中部是计数器，在黑色的一对滚筒上以千英尺为单位增减，白色的滚筒上以百英尺为单位增减。机组可以使用旋钮来调整基准气压。仪表中的三档位开关用于对高度表进行RESET，以便从大气数据计算机中取得正确的数据来正常工作， STBY档位仅使用气压来确定高度。进入备用模式时仪表将显示红色警示旗。如果在正常工作时，大气数据计算机或高度表中出现故障，STBY旗将出现，并且无法进行复位。同时远传信号灯面板中的告警灯可能会亮起。
 
-Common failures of the device include:
+设备常见故障包括:
 
-- Altimeter Stuck: total damage, all indications are frozen
-- Electric Servo Failed: the device is forced to turn to the STBY (pressure) mode of operation.
-- Needle Stuck: needle remains in its position
-- Altitude Rollers Stuck: altitude rollers remain in their position
-- Reference Pressure Rollers Stuck: reference pressure rollers remain in their position
-- Reference Pressure Knob Broken: rotating the knob has no effect on the device
-- Three Position Switch Broken: rotating the switch has no effect on the device
+- 高度表卡住:完全损坏，所有指示都失效 
+- 电动伺服失效:设备被迫进入STBY(压力)操作模式。
+- 指针卡死:指针不动。
+- 高度滚筒卡死:高度滚筒不动。
+- 基准压力滚筒卡死:基准压力滚筒不动。
+- 基准压力旋钮故障:自动旋钮对设备没有影响。
+- 三挡开关故障:转动开关对设备没有影响
 
-## Magnetic Compass
+## 备用罗盘
 
 ![StbyMagComp](../../img/pilot_standby_magnetic_compass.jpg)
 
-A magnetic compass is provided in each cockpit for use in the event of a
-navigation or electrical system failure.
+每个驾驶舱都装有备用罗盘，以便在导航或电力系统故障时使用。
 
-Due to its design, the compass is subject to several errors. Firstly, it exhibits
-a degree of inertia, which often results in a lagging indication. As a result,
-oscillations of the needle and its swinging movements may frequently be observed.
+由于它的设计，罗盘容易出现一些误差。首先，它有一定程度的惯性，这往往导致指示滞后。因此，可以经常观察到指针在振荡以及摆动运动。
 
-To maintain alignment with the Earth's gravity field, it can rotate about 10 degrees
-in both the pitch and roll axes. However, because the Earth's magnetic field lines are not
-parallel to its surface, the needle tends to 'dip' slightly upward or downward towards the
-magnetic poles. This 'dipping' effect causes errors, particularly noticeable during turns
-and acceleration.
+为了保持和地球重力垂线垂直，罗盘可以在俯仰轴和滚轴上转动约10度。然而，由于地球的磁场线与地球表面并不平行，指针倾向于向磁极略微向上或向下“倾斜”。特别是在转弯和加速时，这种“倾斜”效应会导致显示错误。
 
-In the northern hemisphere, the compass will lag when turning from north and
-lead when turning towards north. The opposite is true in the southern hemisphere.
+在北半球，罗盘从北向起转会滞后，向北方向转去时超前。南半球的情况正好相反。
 
-When accelerating
-on east or west headings in the northern hemisphere, the compass will erroneously turn towards
-the north, and while decelerating, it will turn towards the south. In the southern hemisphere,
-the opposite effects occur during acceleration and deceleration.
+当在北半球当沿东/西方向加速时，罗盘会错误地向北转动；而在减速时，则会向南转动。在南半球，效果相反。
 
-## Vertical Velocity Indicators (VVI)
+## 垂直速度表 (VVI)
 
 ![VVI](../../img/pilot_vertical_velocity_indicator.jpg)
 
-VVI Indicators are provided in both cockpits, and show the rate of climb or
-descent (in feet per minute) of the aircraft, calculated via atmospheric pressure
-change using the pneumatically corrected static pressure from the Air Data Computer.
+每个驾驶舱都装有垂直速度表，用来显示飞机的爬升或下降速度，VVI通过静压系统计算气压变化得出。
 
-The device consists of a diaphragm housed within a sealed case. Both the diaphragm
-and the space surrounding it are connected to the aircraft's static pressure source.
-However, the diaphragm is designed with a calibrated leak, causing the pressure inside
-it to change more slowly than that of the surrounding area. This intentional delay results
-in a pressure differential between the inside and outside of the diaphragm. The VVI translates
-this pressure difference into mechanical movement of a needle, which then displays
-the aircraft's rate of climb or descent.
+该装置由一个密封内的隔膜组成。隔膜及其周围的空间都连接到飞机的静压源。然而，隔膜设计有一个校准漏孔，导致其内部的压力变化比周围区域的压力变化更慢。这种设计的延迟导致隔膜内部和外部之间出现的压力差。VVI将这种压力差转化为指针的机械运动，然后显示飞机的爬升或下降速度。
 
-Due to its design, the rate of climb or descent displayed on the indicator is subject to a slight
-delay compared to the aircraft's actual vertical movement. This lag in the F-4 ranges between
-4 and 7 seconds. The gauge, which measures between -6,000 and 6,000 feet per minute, can have
-a positional error of up to 50 fpm, scale errors of up to 300 fpm for rates nearing 5,000 fpm,
-and friction errors of a maximum of ±150 fpm. In case of failure, the indicator may become stuck,
-or one of its leaks may become clogged. If the Pressure Leak is blocked, the needle will gradually
-move to a 0 fpm indication as the pressures equalize and remain constant. Conversely, if the
-calibrated leak is clogged, the delayed pressure will not change, causing the needle to move with
-altitude changes, similar to an altimeter, but quickly reaching its operational limits.
-The mean time between failures for this instrument is 1,000 hours.
+由于设计原因，与飞机的实际垂直运动速度相比，仪表上显示的爬升或下降速度会有轻微的延迟。F-4 的滞后时间在4到7秒之间。仪表的测量范围在-6000至6000英尺/分钟（FPM），且其位置误差最多可达50 fpm，当速度接近5000 fpm时，刻度误差可达300 fpm，摩擦误差最大可达±150 fpm。仪表出现故障时，仪表可能卡死，或由于其中一个气压进出被堵塞导致。如果静压被堵塞，当压力差平衡并保持不变时，指针将逐渐移动到0 fpm。相反，如果漏孔被堵塞，延迟压力将不会改变，导致指针随着高度变化移动，类似于高度表，但很快达到其工作极限。仪表的平均故障间隔时间为1000小时。
 
-## Radar Altimeter
+## 雷达高度表
 
 ![RadAlt](../../img/pilot_radar_altitude.jpg)
 
-Found in the front cockpit, the Radar Altimeter has a functional range of 0 to
-5000 feet above ground level. The radar altimeter functions from 0 to 30 degrees
-in bank angle, or 0 to 35 degrees angle in pitch. The dial scale reads from 0 to
-5000 feet, and the system includes a red low altitude warning light that
-illuminates when the aircraft is detected below a pilot-set altitude.
+在前座，雷达高度表的工作区间在0到5000英尺AGL。雷达高度表在0到30度坡度或0到35度的俯仰角内可正常工作。刻度盘读数从0读到100英尺，系统包括一个红色低高度警告灯，当飞机探测到低于飞行员设定的高度时亮起。
 
-Activation and setting of the radar altimeter warning height is done with the
-same knob; turning the knob clockwise initially activates the indicator,
-removing the displayed OFF flag; continuing to rotate the knob moves the
-reference marker that will determine the altitude which triggers the low
-altitude warning. A self-test, initiated by pressing the function control
-switch, shows 35 ±15 feet. Above 5000 feet or with unreliable signals, the
-pointer hides behind a mask, showing the OFF flag. The OFF appears also when
-power is lost; the indicator will then present the last altitude detected above
-ground level at the time of this occurring.
+开启和设置雷达高度表低高度告警通过同一旋钮完成；顺时针转动旋钮将首先开启仪表， 开启后OFF旗将被移除；继续旋转旋钮将移动基准游标，游标的位置决定触发低高度告警的高度。按下功能控制开关来启动自检功能，自检显示的读数为35±15英尺。当高于5000英尺或信号不可靠时，指针会隐藏在挡板后面并显示OFF旗。OFF旗在断电时也会出现；此时，仪表将显示最后探测到的离地高度。
 
-## Turn and Slip Indicators
+## 转弯侧滑仪
 
-| Pilot                                                               | WSO                                                   |
-|---------------------------------------------------------------------|-------------------------------------------------------|
+
+| 飞行员                                                              | WSO                                                   |
+| ------------------------------------------------------------------- | ----------------------------------------------------- |
 | ![Pilot_turn_and_slip](../../img/pilot_turn_and_slip_indicator.jpg) | ![WSO_turn_and_slip](../../img/wso_4_minute_turn.jpg) |
 
-In the front cockpit, a turn and slip indicator is added to the ADI on the
-instrument panel; while the needle provides correct direction of turn,
-based on the signal from a Rate Gyroscope in the AJB-7 system, it does
-not provide proper turn rate information.
+在前座，仪表板上的 ADI 中增加了一个转弯侧滑仪；指针信号来自 AJB-7 系统速率陀螺提供的数据来显示正确的转向方向，但它并不提供正确的转弯速度信息。
 
-A conventional 4-minute turn and slip indicator with its own conventional
-horizontally mounted gyro is found on the rear cockpit panel.
+在后座驾驶舱面板上，则安装了一个传统的4分钟转弯侧滑仪。
 
-To execute a controlled turn (360° in 4 minutes), place the vertical needle of the rear
-turn indicator over one of the marks on either side (turn rate of 1.5 degrees per second)
-and ensure the slip indicator at the bottom is centered to prevent over- or under-turning
-due to incorrect bank.
+如需执行一个标准转弯（360°转弯用时4分钟），使垂直指针对准转弯侧滑仪任一侧（每秒转弯1.5度），并确保底部的侧滑球居中，以防止由于不正确的坡度导致转向过度或不足。
 
-## Rear Cockpit Attitude Indicator
+## 后座姿态仪
 
 ![Wso_rear_cockpit_attitude_indicator](../../img/wso_adi.jpg)
 
-The AJB-7 provides attitude information to the Attitude Indicator found on the
-rear cockpit instrument panel regardless of the Reference System Selector Switch
-position. A trim knob provides the ability to adjust the attitude sphere to
-reference the aircraft correctly. Should power be disconnected from the
-indicator or AJB-7, the OFF flag will display.
+无论基准系统选择开关处在哪个档位，AJB-7 都将为后座仪表板上的姿态仪提供姿态信息。仪表中的调平旋钮用于调整姿态球以正确反应机身的姿态。如果仪表或 AJB-7 断电，仪表中将显示OFF旗。
 
-The device operates electronically and features two servos: a pitch servo and a roll servo.
-The pitch indication is limited to a range of ±90 degrees, while the roll indication
-allows for continuous movement throughout the entire 360-degree circle. In the event
-of a servo failure (with a mean time between failures of 800 hours), the affected servo
-will become stuck in its last position or direction.
+仪表采用电动并配备了两个伺服电机：一个俯仰伺服电机和一个横滚伺服电机。俯仰指示限制在±90度内，而横滚指示允许在整个360度的圆圈内连续转动。如果伺服系统发生故障(平均故障间隔时间为800小时)，受影响的伺服系统将卡在其最后所处位置或方向上。
 
-## Pitot-Static System
+## 皮托静压管系统
 
 ![ext_pitot_tube](../../img/ext_pitot_tube.jpg)
 
-The Pitot-Static system provides impact and static pressure to flight
-instrumentation, the Air Data Computer, and airspeed-driven switches.
-A single pitot tube, mounted on the aircraft, provides the total pressure
-reading, while static pressure is measured by two static ports situated
-on a single boom on the aircraft's nose. Both the pitot tube and static ports
-are prone to blockages caused by ice accumulation. To alleviate icing of the pitot head,
-a Pitot Heat Switch is found in the front cockpit right console.
+皮托静压管系统为飞行仪表、大气数据计算机以及由空速驱动的开关提供全压和静压。飞机装有一个皮托管，可提供全压读数，而静压是通过位于机头皮托管上的两个静压孔测得的。皮托管和静压孔都容易因积冰导致阻塞。为了防皮托管结冰，在前座的右侧控制台上设有一个皮托管加热开关。
 
-> 🟡 CAUTION: The Pitot Heat switch should always be turned on before takeoff but not for
-> longer than one minute as it could damage the instrument.
+> 🟡 CAUTION: 皮托管加热开关应在起飞前保持打开，但不要打开超过一分钟，因为长时间加热可能导致皮托管损坏。
 
-## Air Data Computer System
+## 大气数据计算机
 
-Using a variety of static, attitude, and environmental inputs, the Air Data
-Computer (ADC) provides the pneumatic and electrical inputs to primary flight instruments,
-AFCS, Fire Control System, Air Induction System, the INS, the LCOSS, navigational computer,
-and manages the variable bypass bell mouth system for the engines. Flight
-through weather such as ice or rain can induce errors in the performance of
-these systems until the condition has cleared, and this should be taken into
-account.
+大气数据计算机利用各种静态、姿态和环境输入，为 AFCS、火控系统、发动机引气系统、惯性导航系统（INS）、LCOSS、导航计算机提供气动和电信号输入，并管理发动机的可变收敛放气系统。穿越如冰雹或雨雪等天气环境可能会导致这些系统性能出现误差。直到条件消除为止，飞行员应注意这点。
 
 ![ADC scheme](../../img/air_data_comp_scheme.jpg)
 
-## Static Pressure Compensator
+## 静压补偿器
 
 ![pilot_cadc_switch](../../img/pilot_static_pressure_switch.jpg)
 
 ![pilot_cadc_switch](../../img/pilot_static_corr_off_light.jpg)
 
-The Static Pressure Compensator (SPC) performs correction of altimeter lag
-caused by rapid altitude change. The SPC must be reset after engine startup on
-each flight; this is performed using the CADC switch near the throttles by
-selecting RESET CORR, then selecting NORM. Should an issue occur during flight
-causing a STATIC CORR OFF warning, an attempt to reset the SPC can be performed
-with RESET CORR. Should the STATIC CORR OFF warning fail to clear, care must be
-taken in all diving maneuvers, as substantial altimeter lag will occur.
+静压补偿器（SPC）用于修正由高度快速变化引发的高度表滞后。每次飞行时，在起动发动机后都必须对SPC进行复位；通过选择油门握把附近的CADC开关，选择RESET CORR，然后选择NORM来复位SPC。如果在飞行时出现问题导致STATIC CORR OFF灯亮起，可以尝试使用RESET CORR进行复位。如果未能消除STATIC CORR OFF灯，在后续的所有俯冲机动中都必须格外小心，因为仪表将出现明显的高度滞后。
 
 ## ALT ENCODER OUT Light
 
-The Altitude Encoder Unit provides precise (to 100 feet) altitude data to the
-IFF for Mode C traffic control, as well as performs the correction relative to
-the pneumatic input at the altimeter. Should the SPC be offline, the ALT ENCODER
-OUT light will also illuminate to confirm lagged altimeter performance, and
-potential Mode C issues.
+高度编码器装置向Mode C空管控制提供精确（到100英尺）的高度数据，并执行相对于高度表气动输入的数据修正。如果SPC脱机，ALT ENCODER OUT灯也会亮起，以确认高度表滞后和可能的Mode C问题。
 
 ![pilot_alt_encoder_out](../../img/pilot_alt_encoder_out.jpg)
