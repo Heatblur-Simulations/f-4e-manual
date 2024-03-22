@@ -1,252 +1,187 @@
-# Engines
+# 发动机
 
 ![real_life_engine_disassembled](../../img/real_life_engine_dis.jpg)
 
-The F-4E Phantom is powered by two J79-GE-17 engines built by General Electric,
-with a rated static sea-level power delivery of 11,870 pounds of thrust in Mil,
-and 17,900 pounds in afterburner. The engines have provision for both assisted
-pneumatic start at fields with an available cart, or via a propellant cartridge
-to initiate spin-up. Similarly, the engines can utilize the aircraft's internal
-battery for initial power, or connection with an external power cart.
+F-4E“鬼怪”II 由通用电气公司制造的两台 J79-GE-17 发动机提供动力，在静态海平面状态下的军推推力为
+11870 磅，在加力燃烧下的推力为 17900 磅。发动机可以使用机场气源车起动或通过推进剂药柱来让发动机起旋
+。同样地，发动机可以使用飞机的内部电池或连接地面电源进行初期供电。
 
-> 💡 When the engines are off they make a rattling noise as the respective blades rattle in their
-> holders. This is called windmilling.
+> 💡 当发动机关车时，安装在轮盘上的各叶片将因为风车效应发出哒哒声。
 
-## Fuel Flow Indicators
+## 燃油流量表
 
 ![FFI](../../img/pilot_fuel_flow.jpg)
 
-Each engine has a fuel flow indicator found in the front cockpit instrument.
+在飞行员驾驶舱仪表板上，每台发动机都有一个的燃油流量表。
 
-The indicators read in thousands
-of pounds per hour, from 0 to 12. The indicators provide flow rate up to Mil power; when afterburner
-is engaged, a separate fuel delivery system is used to provide fuel directly to the
-afterburner stage, and the flow rate is approximately 4 times the value shown. The engine
-speed is also controlled by the fuel flow, so a change in fuel flow can be directly observed if the
-throttles are moved.
+燃油流量表以千磅每小时为单位显示，显示区间从 0 到 12。燃油流量表提供到军推及以下时的流量读数；当开
+启加力燃烧后，飞机使用独立的燃油输送系统直接向加力燃烧室段提供燃油，此时流量大约是显示值的 4 倍。发
+动机转速也受燃油流量控制，因此如果移动油门握把，可以直接观察到燃油流量的变化。
 
-Fuel Flow should not exceed 1200 pph at lightoff and 800 to 1500 pph at idle operations. Fuel
-consumption for Engine start is approximately 65 pounds per Engine.
+点火时的燃油流量不应超过 1200 磅每小时，在慢车时应在 800 至 1500 磅每小时之间。每台发动机起动大约需
+要消耗 65 磅燃油。
 
-## Oil System
+## 滑油系统
 
 ![manual_engine_oil_system](../../img/manual_engine_oil_system.jpg)
 
-Each engine is equipped with a completely self-contained, dry sump, full pressure oil system. The
-oil supply to the lubrication system is interrupted during negative G-flight due to the inability of
-the scavenge pumps to recover oil from the sumps and gear boxes. The Engine Oil system is used for
-lubrication, variable nozzle positioning and constant speed drive unit operation. The standpipes
-which supply the three systems utilizing engine oil are in the reservoir such that the pipe for the
-constant speed drive unit is the highest, the one for the nozzle control is the next highest, and
-the lubricating system pipe is the lowest. This arrangement is to prevent a critical system failure
-if one of the circuits leak. If a leak in the constant speed rive unit would occur it will probably
-cause a failure of that system only, while a leak in the nozzle control system may cause failure of
-that system and the constant speed drive unit. Oil is also supplied directly from the reservoir to
-the constant speed drive unit, where it is used as both the control and final drive medium for
-controlling generator speed. The lubrication element of the oil pump supplies oil to cool and
-lubricate bearings, gears and other rubbing or moving parts in the engine. Lubricating oil is also
-circulated through the engine-driven generator for cooling purposes.
+每台发动机都配备了完全独立的干槽、全流式滑油系统。由于在负 G 飞行中，回油泵无法从集油池和齿轮箱中回
+油，导致滑油系统供油中断。发动机滑油系统用于润滑、可变喷口定位以及恒速驱动装置工作。使用发动机滑油
+的三个系统的供油管道位于油箱中，其中恒速驱动装置的供油管道位于最高处，喷口控制的供油管道次之，润滑
+系统的供油管道位于最低处，这样排列是为了防止如果其中一个回路泄漏导致严重的系统故障。如果恒速驱动装
+置发生泄漏，可能只会导致该系统故障，而喷口控制系统出现泄漏可能导致该系统和恒速驱动装置出现故障。滑
+油也直接从滑油箱泵送给恒速驱动装置，在装置内滑油将被用作控制和最终驱动介质，用于控制发电机转速。供
+油泵的润滑元件供油来为轴承、齿轮和发动机中的其它摩擦或移动部件提供冷却和润滑。滑油还流经机械驱动式
+发电机回路以用于冷却。
 
-### Oil Pressure Indicators
+### 滑油压力表
 
 ![OilPress](../../img/pilot_engine_oil.jpg)
 
-Oil pressure indicators are on the front cockpit pedestal panel, and calibrated from 0 to 100 PSI.
-Important values are:
+滑油压力表位于飞行员驾驶舱的底座面板上，量程为 0 至 100 PSI。重要的数值包括：
 
-* 12 psi - Minimum at idle RPM
-* 30-60 psi - In-flight military
-* 35 psi - Static minimum at military thrust
-* 60 psi - Maximum
+- 12 PSI：慢车 RPM 时的最低油压
+- 30-60 PSI：飞行中的军推油压区间
+- 35 PSI：静态时军推的最低油压
+- 60 PSI：最大油压
 
-## Variable Duct Ramp
+## 可调风管斜板
 
-Optimization of air to the engines is performed by a Variable Duct Ramp system
-directed by the Automatic Duct Control (ADC); this optimization uses a pair of variable ramps to
-decelerate incoming air to subsonic for best engine performance. In the event
-limits are exceeded for inlet temperature, the Duct Temperature High Indicator
-Light (DUCT TEMP HI) on the telelight panel will illuminate. Permitting the issue to continue can
-cause permanent engine damage.
+F-4E 战机中由自动风管控制（ADC）指令的可调风管斜板系统将对进入发动机的空气进行优化；系统使用一对可
+调斜板将进入的空气减速到亚音速，以优化发动机性能。如果进口温度超限，远传信号灯面板中的风管温度过高
+（DUCT TEMP HI）指示灯将会亮起。如果问题持续存在，可能会导致发动机出现永久性损坏。
 
-## Starting System
+## 起动系统
 
-### Pneumatic Mode Starting
+### 气动模式起动
 
 ![ext_cart](../../img/ext_ground_cart.jpg)
 
-The pneumatic mode is the primary starting mode for all
-normal and routine operations.
-In this mode the Phantom utilizes an auxiliary start cart that
-turns the starter turbine, cranking the engine.
+气动模式是所有正常和常规作业中的主要起动模式。在气动模式下，战机将使用保障车来辅助转动起动涡轮，带
+动发动机。
 
-The cart is operated by the crew chief, see the
-[Crew Chief chapter](../../crew_chief/overview.md)
-for more information about how to interact and request air supply.
+保障车由机工长进行操作，请参阅[机工长章节](../../crew_chief/overview.md)了解更多关于如何互动和请求
+地面气源的信息。
 
-### Cartridge Mode Starting
+### 药柱起动
 
 ![f_4_cartridge_start](../../img/f_4_cartridge_start.jpg)
 
-Cartridge mode is considered an alternate method of
-starting supplied for operational and emergency needs. A propellant
-charge is used to turn the starter turbine, which in turn cranks the engine
-to initiate startup. Cartridge ignition is controlled by the engine start switch
-providing the respective engine master switch is on.
+药柱模式用作满足操作和应急需求的备选起动方法。药柱模式使用推进剂药柱来转动起动涡轮，进而带动发动机
+以起动发动机。在对应的发动机主开关开启后，使用发动机起动开关来控制药柱点火。
 
-> 💡 To avoid possible irritation caused by cartridge exhaust smoke/gases,
-> it may be advisable to close canopies and select 100% oxygen during start cycle.
+> 💡 为了避免药柱排气烟雾/气体可能引起的刺激，建议在起动期间关闭座舱盖并选择 100%氧气。
 
-Cartridges can be installed by the crew chief, see the
-[Crew Chief chapter](../../crew_chief/overview.md)
-for how to interact and request cartridges installation.
+药柱由机工长安装，请参阅[机工长](../../crew_chief/overview.md)章节，了解如何互动和请求安装药柱。
 
-> 🔴 WARNING: Cartridges are explosive and, unless fired, must not be
-> forgotten to be removed.
-> Under no circumstances will the aircraft be flown
-> with unfired cartridges in the starter.
+> 🔴 警告：药柱是爆炸物，除非已经点火，否则必须将其取出。在任何情况下，都不得携带未点火的药柱飞行。
 
-### Start Switch
+### 起动开关
 
 ![StartSwitch](../../img/pilot_engine_start_switch.jpg)
 
-Used only for cartridge start, selecting L or R ignites the cartridge installed for
-the respective engine.
+仅用于药柱起动，选择左（L）或右（R）将点燃安装在对应发动机中的药柱。
 
-### Ignition System
+### 点火系统
 
 ![IgnitionButtons](../../img/pilot_ignition_button.jpg)
 
-The -17E/G engine is equipped with one 28 volt, low energy ignition unit and one 28 volt high energy
-unit that improves ground starts in cold weather and air starts using alternate fuel. The main
-ignition system produces an electrical arc which ignites the atomized fuel-air mixture in the fourth
-and fifth combustion chambers. The remaining eight combustion chambers are ignited through the
-crossfire tubes. Pressing the ignition button causes the spark plugs to discharge, igniting the
-fuel-air mixture as the throttle is moved from OFF to IDLE during engine start. The spark plugs only
-fire while the spring-loaded ignition button is held.
+-17E/G 发动机配备了一个 28 伏的低能点火装置和一个 28 伏的高能点火装置，这有助于在寒冷天气下在地面启
+动以及使用备用燃料进行空中启动。主点火系统产生电火花，点燃第四和第五燃烧室中雾化的油气混合物。其余
+八个燃烧室通过联焰管点燃。按下点火按钮会使点火电嘴放电，在发动机起动过程中，将油门从关断档位移至慢
+车档位时点燃油气混合物。只有在按住弹簧复位的点火按钮时点火电嘴才会放电。
 
-### Afterburner Ingition System
+### 加力燃烧室点火系统
 
-The afterburner ignition system consists of the torch igniter, a spark plug and an afterburner
-ignition switch. When the throttle is moved into the afterburner detent, the afterburner ignition
-switch closes, and the spark plug supplies a continuous arc. Ignition and torch igniter fuel flow
-are maintained until the throttle is removed from the afterburner detent.
+加力燃烧室点火系统由火炬式点火器、点火电嘴和加力燃烧室点火开关组成。当油门移入加力档位时，加力燃烧
+室点火开关关闭，点火电嘴连续放电。在将油门移出加力档位前，系统将一直保持点火和火炬点火器燃油流量。
 
-### Engine Anti-Icing System
+### 发动机防冰系统
 
 ![EngineDeIcing](../../img/pilot_anti_ice_switch.jpg)
 
-Using
-the Anti-Icing Switch
-set to DE-ICE, bleed air from stage 17 is distributed to ports installed in the compressor face area
-of the engines. This system does not perform de-icing functions, but is to be activated prior to ice
-formation. As high Mach speeds provide enough friction heat to the air stream to deny icing in the
-compressor stage, usage of the Anti-Icing System is unnecessary and can cause engine damage.
+将防冰开关设置到 DE-ICE 档位时，系统将 17 级压气机引气分配到安装在发动机压气机进口处的端口防止压气
+机结冰。系统并不执行除冰功能，飞行员应在冰形成之前激活系统。由于在高马赫下提供了足够的摩擦热量给气
+流加热，阻止压气机段结冰，此时激活防冰系统是不必要的，且可能导致发动机损坏。
 
-The system should be turned on in turbulent air and thunderstorms, or when a rise in Exhaust Gas
-temperature is noted by the pilot as this is an indication for an engine icing condition.
+在湍流和雷暴中，或当飞行员注意到排气温度上升时（这是发动机结冰条件的一个迹象），应该打开防冰系统。
 
-### Anti-Ice Indicator Lights
+### 防冰指示灯
 
 ![pilot_anti_ice_indicator_lights](../../img/pilot_anti_ice_indicators.jpg)
 
-Activation of the Anti-Icing system will illuminate two lights on the telelight panel, L ANTI-ICE On
-and R ANTI-ICE On. A failure of the anti-icing system with the Anti-Icing Switch set to NORMAL will
-also light these telelight indicators as a warning. If the aircraft is above Mach 1.2 when this
-occurs, immediate speed reduction is necessary to prevent engine loss. Because of the warning
-function for the ANTI-ICE ON lamps, a condition that illuminates them will
-provide a MASTER CAUTION warning.
+激活防冰系统后远传信号灯面板中的 L ANTI-ICE On（左侧防冰开启）和 R ANTI-ICE On（右侧防冰开启）。如
+果将防冰开关设置到 NORMAL 档位，但防冰系统出现故障，这些信号灯也会亮起以警告出现故障。如果在飞机空
+速超过 1.2 马赫的情况下出现信号灯亮起，必须立即减速以防止发动机受损。由于 ANTI-ICE ON 灯的告警功能
+，在灯光亮起时 MASTER CAUTION 灯也会随之亮起。
 
-## Controls and Indicators
+## 控制开关/按钮和仪表
 
-### Exhaust Nozzle Control Unit
+### 喷口控制装置
 
-Throttle position, nozzle position feedback and exhaust gas temperature are utilized to schedule the
-correct nozzle area. During engine operation in the sub-mil region, the nozzle area is primarily a
-function of throttle angle and nozzle position feedback. The nozzle is scheduled to approximately
-7/8th open at idle and the area is decreased as the throttle is advanced toward the military power
-position. However, during a rapid throttle burst from below 79% rpm to 98% rpm, a control alternator
-supplies engine speed information to the temperature amplifier, which in turn schedules engine speed
-inputs as a function of temnperature limiting. This signal prevents the primary nozzle from closing
-beyond a preset position, permitting a rapid increase in engine rpm that could damage the engine.
-During engine operation in the military and afterburner region, it becomes necessary to limit the
-nozzle schedule as established by the throttle angle and nozzle feedback to prohibit exhaust gas
-temperature from exceeding engine design limits and damaging the engine.
+油门位置、喷口位置反馈和排气温度用于调定正确的喷口面积。发动机在军推前的工作区间时，喷口面积主要随
+油门角度和喷口位置反馈变化而变化。在慢车时，喷口被调整至大约张开 7/8，随着油门向军推推动，喷口面积
+将逐渐减小。然而，在油门设置从低于 79%RPM 时突增到 98%RPM，一个为温度放大器提供发动机转速信息的控制
+交流发电机，将反向调定发动机转速输入随温度限制变化。这个信号将阻止主喷口闭合超过预设位置，从而让发
+动机转速迅速升高，这种情况可能会导致发动机受损。发动机在军推和加力区间工作时，需要限制由油门角度和
+喷口反馈建立的喷口制度，以防止排气温度超过发动机设计限制并导致发动机受损。
 
-### Exhaust Nozzle Position Indicators
+### 喷口位置表
 
 ![NPI](../../img/pilot_nozzle_position.jpg)
 
-Directed by the Exhaust Nozzle Control Unit, the paired primary (the convergent,
-inner nozzle) and secondary (the divergent, outer nozzle) are actuated
-independently on a schedule to maximize outlet performance versus exhaust gas
-temperature. When idle, the engine nozzle will be roughly 7/8ths open, reducing
-in size as the throttle approaches MIL. During operation in the MIL and AB
-regions, the Control Unit moderates the nozzle size relative to throttle
-position and received EGT to maintain temperatures within design limit.
+由尾喷口控制装置驱动的一对主要喷口（收敛的内喷口）和次要喷口（扩散的外喷口）根据制度独立作动来在给
+定排气温度下最大化排气性能。当发动机处在慢车状态时，发动机喷口将张开 7/8，随着油门向军推推动，喷口
+面积将逐渐减小。在军推和加力区间操作期间，控制装置根据油门位置和接收到的 EGT 调节喷口开闭来保持温度
+在设计限制内。
 
-To monitor the current position of the nozzles relative to each other, as well
-as EGTs, an indicator
-is provided with calibrations from CLOSE to OPEN in four increments. The nozzle indicators enable
-the pilot to make a comparison of nozzle position between engines and are also used to establish a
-relationship between nozzle position and exhaust gas temperature, as well as nozzle position and
-throttle settings.
+驾驶舱中装有一个喷口位置表来方便飞行员监控当前主次喷口的相对位置以及 EGT，其刻度从“闭合”到“张开”划
+分成四个。喷口位置表使飞行员能够比较两台发动机的喷口位置，并用于建立喷口位置与排气温度之间的关系，
+以及喷口位置与油门设置之间的关系。
 
-Normal settings would be OPEN with the engines off until IDLE, 3/4 to 1/2 with
-engines in IDLE and 1/4 for MIL power. MAX power will not change the indicator.
+正常设置应该为发动机关车时喷口处于张开状态，到慢车后喷口在 3/4 到 1/2 之间，军推时喷口在 1/4。最大
+推力不会发生变化。
 
-### Engine Master Switches
+### 发动机主开关
 
 ![EngineMasterSwitches](../../img/pilot_engine_master_switches.jpg)
 
-A pair of two-position Engine Master Switches are found on the front cockpit left console on
-the inboard engine control panel. Selecting ON powers the fuel boost and transfer pumps for the
-respective engine; this will occur whether the aircraft is connected to external auxiliary power or
-not, as doing so without will connect the aircraft battery to the pump circuits.
+在飞行员驾驶舱左侧控制台的内侧发动机控制面板上，有一对二档位的发动机主开关。选择 ON 会启动相应发动
+机的升压油泵和输油泵；无论飞机是否连接地面电源，都会启动泵，因为如果没有连接地面电源，油泵电路将接
+入飞机电池进行操作。
 
-As the Engine Master Switches arm the fuel shutoff valves, to properly shut down the engines without
-external power it is necessary to return the throttles to the cutoff position prior to turning
-the Engine Master Switches off, otherwise the valves will remain open.
+由于发动机主开关可使燃油关断阀关闭，因此在没有地面电源的情况下要正确关闭发动机，必须在关闭发动机主
+开关之前将油门握把移动至关断档位，否则阀门将保持打开状态。
 
-### Throttles
+### 油门
 
 ![Throttles](../../img/pilot_throttle.jpg)
 
-Paired throttles are provided in both cockpits for engine thrust control. In normal use, movement of
-the throttles from IDLE to OFF will perform fuel cutoff; to prevent inadvertent engine shutdown, a
-pair of finger lifts are provided to lock out the OFF position without performing this actuation.
-Afterburner is attained by shifting the throttles outboard (left) at the MIL stop, then pushing them
-forward.
+两个驾驶舱都一对油门用于控制发动机推力。在正常使用中，将油门从慢车移至关断档位将切断燃油；为了防止
+意外关闭发动机，油门握把上装有一对指抬装置来将握把限制在关断行程外。通过在军推限位向外侧（左侧）移
+动握把，然后向前推，即可进入加力推力。
 
-The rear cockpit throttles are connected to the front throttles in such a fashion that only the
-pilot can start the engines or enter the afterburner range; the WSO can reduce throttles out
-of the afterburner region back into MIL operation and lower. While the rear throttles can be shifted
-from OFF without pilot assistance, return to OFF for shutdown requires pilot engagement of the
-finger lifts.
+WSO 驾驶舱的油门握把与飞行员驾驶舱中油门握把连接的方式使得只有飞行员可以起动发动机或进入加力推力区
+间； WSO 可以将油门从加力推力区间收回到军推和更低的位置。尽管 WSO 驾驶舱的油门可以在没有飞行员协助
+的情况下移出关断档位，但需要飞行员使用指抬装置来关断停车。
 
-In the event of opposing commands on the throttle arms between seats, the rear
-throttles will be disconnected from the front throttles to prevent damage to
-the linkage. This condition may cause a reduction in afterburner authority from the front throttle
-pair. Resetting the throttle linkage is performed by placing the front throttles at the IDLE or MIL
-stop and moving the rear throttles in the opposite direction to which the disconnect occurred.
+如果两个驾驶舱中的油门握把出现相反的指令，WSO 驾驶舱的油门握把将断开与飞行员驾驶舱中的油门握把连接
+，以防止传动机构损坏。这种情况可能会导致从飞行员的油门握把在加力推力区间的权限降低。通过将飞行员油
+门握把置于慢车或军推，并将 WSO 驾驶舱油门握把向飞行员油门握把方向移动来重新设置油门连接。
 
-The rear throttles only hold a microphone button and speed brake switch.
+WSO 驾驶舱油门握把上仅包括传声按钮和减速板开关。
 
-### Tachometers
+### 转速表
 
 ![Tach](../../img/pilot_rpm.jpg)
 
-Both engines are provided with tachometers on the right side of the front
-cockpit instrument panel, and the right side of the rear cockpit instrument panel.
-The tachometers will function without external power.
+在飞行员驾驶舱中仪表板的右侧，两台发动机都配备有一枚转速表。转速表无需地面电源即可工作。
 
-### Exhaust Gas Temperature Indicators
+### 排气温度表
 
 ![EGT](../../img/pilot_egt.jpg)
 
-Exhaust Gas Temperature Indicators are found on the front cockpit instrument panel.
-The indicators have two pointers each: a large pointer for the 0 to 12 scale referencing 100 degrees
-centigrade, and a smaller pointer on a separate scale with 0 to 10 referencing 10 degrees
-centigrade. Measuring for these values is performed upon exit of the turbine. For normal operations
-the exhaust gas temperature should not be less than 250°C and should not exceed more than 540°C. If
-an overtemperature Event occurs the throttle should be returned to the off position. If that is not
-possible the respective engine master switch should be turned off.
+排气温度表位于飞行员驾驶舱中的仪表板上。每个仪表中含有两个指针：一个大指针，指示刻度从 0 到 12，单
+位为 100 摄氏度；一个小指针，指示刻度从 0 到 10，单位为 10 摄氏度。排气温度在涡轮出口后方测得。在正
+常工作中，排气温度不应低于 250°C，不应超过 540°C。如果发生超温事件，应将油门收回至关断档位。如果无
+法执行，应关闭对应的发动机主开关。
