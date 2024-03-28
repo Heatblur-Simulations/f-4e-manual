@@ -1,0 +1,130 @@
+# Radar
+
+During flight, Jester will constantly operate the radar and search for contacts.
+
+In certain situations, such as during landing, on the ground or when performing
+AAR, the radar will be in Standby mode. This can also be commanded manually by
+selecting `Radar > Operation > Go Cold` in the UI.
+
+![Select Operation Mode](../../img/jradar_operation_options.jpg)
+
+When using the radar, Jester generally differentiates between two phases:
+
+- Scan
+- Lock
+
+The phases are commanded and switched by the pilot using the Context Action.
+
+Additionally, Jester will behave differently during a dogfight, indicated by the
+pilot entering CAGE mode.
+
+## Scan
+
+This is the default phase Jester will be in. He will automatically point the
+antenna at different altitudes and ranges in order to scan the entire space
+ahead of the aircraft.
+
+Jester will automatically identify any new contact and call them out to the
+pilot.
+
+If desired, the player can request Jester to perform an IFF challenge manually
+at any time through the UI (this action can also be bound directly to a key).
+Should the situation require, the player can manually set a zone for Jester to
+scan outside of his regular pattern through the UI.
+
+![Select Scan Zone](../../img/jradar_select_zone.jpg)
+
+He will then scan this zone for a while first before proceeding back to his
+regular pattern.
+
+Likewise, the display range and scan type (wide or narrow) to be used during
+scanning can be selected as well.
+
+![Select Display Settings](../../img/jradar_select_display.jpg)
+
+### Target Selection
+
+Whenever a bandit becomes a threat (closer than 25 nm), Jester automatically
+**selects** the target by moving and keeping the cursor on the corresponding
+radar return.
+
+The player can command target selection at any time by using the context
+actions. This way, targets outside of the threat-range can be selected as well.
+
+![Cursor On Target](../../img/jradar_scan_cursor_on_target.jpg)
+
+Whenever a target within threat-range is selected, Jester will **focus** them,
+stop the regular search pattern, automatically enter Narrow View and point the
+antenna at the target in order to maximize tracking quality.
+
+![Focussed On Target](../../img/jradar_focus.jpg)
+
+This mode can be understood as _"Track While Scan"_, where Jester keeps the
+radar on a specific contact, while still scanning the surrounding space,
+identifying and calling out any new contact spotted.
+
+Context actions only allow selection of hostile aircraft. Should the situation
+require, other targets can always be focused directly through the UI instead.
+
+![Focussed On Target](../../img/jradar_ui_focus.jpg)
+
+Automatic target selection and focus behavior can be deactivated in the UI. This
+can be useful if flying through a hostile zone, expecting contacts, while not
+wanting to engage them and instead keep an overview and continuing the scan
+pattern. For example when having an escort of fighters that will take care of
+the bandits instead.
+
+![Deactivate Auto-Focus](../../img/jradar_operation_options.jpg)
+
+### Context Action
+
+| Duration | Context Action                         |
+| -------- | -------------------------------------- |
+| •        | **Lock** the currently selected target |
+| ▄        | Select next target                     |
+| ••       | Reset target selection                 |
+
+Unless only a single bandit shows on the screen, locking via • (short) requires
+prior target selection. Either automatically through Jester or by using ▄
+(long). In an ambiguous situation, pressing • (short) will first select the
+target with highest priority.
+
+Pressing •• (double) will reset the currently selected target and return Jester
+to his standard behavior of automatically selecting the highest threat, if any.
+Should one desire to ignore a target within threat range, automatic target focus
+has to be deactivated through the UI first. •• (double) can then be pressed to
+deselect the target.
+
+## Lock
+
+During a lock, Jester works the radar to keep the lock as long as possible.
+
+![Locked Target](../../img/jradar_locked.jpg)
+
+The UI also allows selecting a target to lock manually without using context
+action.
+
+![Lock Target Manually](../../img/jradar_ui_lock.jpg)
+
+If a contact should drop while Jester attempts to lock it, he will wait a few
+seconds for the radar return to reappear.
+
+| Duration | Context Action                          |
+| -------- | --------------------------------------- |
+| •        | Drop lock, but keep target in **focus** |
+| ▄ , ••   | Drop lock and focus                     |
+
+## Dogfight
+
+A within-visual-range situation is entered by the pilot activating CAGE mode.
+
+In this mode, the radar is automatically boresighted forward and Jester will be
+able to lock a return.
+
+Further, the pilot can enter CAA mode where the system will automatically lock
+any close contact.
+
+| Duration | Context Action               |
+| -------- | ---------------------------- |
+| •        | Lock or Unlock contact ahead |
+| ▄ , ••   | Exit CAGE mode               |
