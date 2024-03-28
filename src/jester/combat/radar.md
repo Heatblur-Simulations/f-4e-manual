@@ -114,6 +114,10 @@ seconds for the radar return to reappear.
 | •        | Drop lock, but keep target in **focus** |
 | ▄ , ••   | Drop lock and focus                     |
 
+> 💡 Should a lock be faulty and Jester does not notice it (for example odd
+> movement of the steering dot, or unexpected closure rate readouts), press • to
+> unlock and then • again to attempt to lock the target again.
+
 ## Dogfight
 
 A within-visual-range situation is entered by the pilot activating CAGE mode.
