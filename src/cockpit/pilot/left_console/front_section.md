@@ -126,7 +126,8 @@ communication- UPR (upper) or LWR (lower).
 The Upper position should be used for take-off and
 landing since the lower antenna could interfere with the anti-skid wheel speed sensor and thus
 create a malfunction in the anti-skid system. The lower antenna could also interfere with the nose
-gear steering whilst transmitting.
+gear steering whilst transmitting. This happens due to electromagnetic interference radiating from
+the lower UHF antenna.
 
 ### LCOSS Switch
 

@@ -60,8 +60,8 @@ negative G excursion. The function of these pumps can be confirmed on the Fuel
 Boost Pump Pressure Indicators found in the front cockpit. Engine idle pump flow
 rate is 30 PSI, ±5 pounds. To confirm a ground check, a pair of Boost Pump Check
 switches are found on the fuel control panel. Holding one of these switches in
-the CHECK position will perform an engine shutdown, and provide feedback on the
-respective Pressure Indicator.
+the CHECK position will perform an engine shutdown due to the shutoff valve
+being opened, and provide feedback on the respective Pressure Indicator.
 
 ## Fuel Quantity Indication System
 
@@ -129,7 +129,7 @@ allow the boom to connect again.
 
 ### Refuel Selection Switch
 
-The two-position Refuel Selection Switch (<num>5</num>) provides options for two modes of
+The two-position Refuel Selection Switch (<num>3</num>) provides options for two modes of
 refueling: internal fuselage and internal wing tanks (INT ONLY), and ALL TANKS,
 used to include external tanks in the refueling operation.
 

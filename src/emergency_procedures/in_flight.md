@@ -35,7 +35,7 @@
 | 1.   | Throttle                           | OFF            |
 | 2.   | Ignition button                    | HOLD DEPRESSED |
 | 3.   | Throttle                           | IDLE           |
-| 4.   | RPM, EGT, oil pressire & fuel flow | MONITOR        |
+| 4.   | RPM, EGT, oil pressure & fuel flow | MONITOR        |
 
 ### MECHANICAL MALFUNCTION
 
@@ -75,7 +75,7 @@ If neither engine starts:
 | Step | System/Condition         | Action                                                                                                                                                        |
 |------|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 3.   | Fuel status              | CHECK                                                                                                                                                         |
-| 4.   | Engine master switchs    | CHECK ON                                                                                                                                                      |
+| 4.   | Engine master switches   | CHECK ON                                                                                                                                                      |
 | 5.   | Either throttle          | OFF                                                                                                                                                           |
 | 6.   | Other engine             | AIRSTART                                                                                                                                                      |
 | 7.   | Remaining engine         | AIRSTART                                                                                                                                                      |
@@ -127,7 +127,7 @@ If stall does not clear:
 | 4. | Inlet ramps                        | CHECK FULLY RETRACTED |
 | 5. | Ignition button                    | HOLD PRESSED          |
 | 6. | Throttle                           | IDLE                  |
-| 7. | RPM, EGT, oil pressire & fuel flow | MONITOR               |
+| 7. | RPM, EGT, oil pressure & fuel flow | MONITOR               |
 | 8. | Generator switch                   | ON                    |
 
 ## GLIDE DISTANCE

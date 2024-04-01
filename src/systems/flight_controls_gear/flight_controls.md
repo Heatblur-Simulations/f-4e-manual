@@ -134,7 +134,7 @@ Emergency stores release.
 ![ARIfuse](../../img/pilot_ari.jpg)
 
 > 💡 To permanently disengage the ARI, the circuit
-> breaker on the left utility panel must be pulled
+> breaker on the left sub panel must be pulled
 > and the Yaw STAB AUG switch must be disengaged.
 > Pulling the circuit breaker with the switch
 > still engaged will still provide 5° of ARI rudder
@@ -311,7 +311,7 @@ disengaged.
 The PITCH AUG OFF indicator light on the telelight
 panel illuminates together with the MASTER CAUTION
 light when the Pitch STAB AUG switch is not engaged
-despite the aircraft being powered.
+and the aircraft being powered.
 
 Depressing the master caution reset button extinguishes the MASTER
 CAUTION light. However, the PITCH AUG OFF light

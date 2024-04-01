@@ -9,9 +9,10 @@ various settings for manual bomb delivery.
 
 ![wso_eject_light](../../img/wso_eject_light.jpg)
 
-Pressed by the WSO in an emergency condition requiring ejection from the
-aircraft, which illuminates the [EJECT lamp](../../systems/emergency.md#eject-light) in the front
-cockpit warning the Pilot to prepare for immediate ejection.
+The EJECT light provides a positive visual command from the pilot to the
+WSO to prepare for ejection. The light is controlled only from the front Cockpit.
+If the [EJECT lamp](../../systems/emergency.md#eject-light) in the front
+cockpit is pressed it signals the WSO to prepare for immediate ejection.
 
 Also lights up when the Pilot presses their respective Eject Light to warn the
 WSO for ejection.
