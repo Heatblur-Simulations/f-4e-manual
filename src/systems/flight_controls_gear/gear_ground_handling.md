@@ -59,7 +59,7 @@ of a wheel when the gears are down and locked.
 
 Nose Gear Steering (NGS or also NWS) is actuated using the referenced button on the control stick
 in either cockpit. Holding the button down permits the crew member to steer the
-aircraft using the rudder. Steering limit of the nose gear is 70 degrees from
+aircraft using the rudder pedals. Steering limit of the nose gear is 70 degrees from
 centerline in both directions.
 
 Rudder steering becomes effective at approximately 70 knots. At this
