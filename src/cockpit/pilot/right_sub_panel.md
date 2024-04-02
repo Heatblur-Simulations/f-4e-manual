@@ -81,5 +81,6 @@ those that do not will be noted.
 Hidden behind a bundle of cables to the right of the telelight panel are two
 circuit breakers controlling lights.
 
-The upper one (<num>1</num>) is responsible for powering the primary instrument lights, while
-the lower circuit breaker (<num>2</num>) powers all indicator and warning lights.
+The upper one (<num>1</num>) is responsible for powering the instrument panel and
+console backlighting, while the lower circuit breaker (<num>2</num>) powers all
+indicator and warning lights.
