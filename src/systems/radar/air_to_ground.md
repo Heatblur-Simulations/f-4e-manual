@@ -2,8 +2,8 @@
 
 Radar operation air-to-ground includes the AIR-GRD mode and RDR-PPI and MAP-PPI.
 
-AIR-GRD mode is used as a form of radar ranging for WRCS DT. RDR-PPI and MAP-PPI
-are used for WRCS offset bomb and target find modes.
+AIR-GRD mode is used as a form of radar ranging for the WRCS Dive Toss mode.
+RDR-PPI and MAP-PPI are used for WRCS offset bomb and target find modes.
 
 ## Air-To-Ground Ranging
 
@@ -14,7 +14,7 @@ radar boresight while also being stabilized in drift, this drift correction can
 be removed by setting Drift Out on the [Stab Switch](interface.md#stab-switch)
 in-case of INS malfunction.
 
-![Ground Mode during Divetoss](../../img/radar_ground_mode_dt.jpg)
+![Ground Mode during Dive Toss](../../img/radar_ground_mode_dt.jpg)
 
 AIR-GRD mode disables [Angle Track](interface.md#angle-track) operation and only
 uses [Range Track](interface.md#range-track). Once locked on the main lobe
@@ -25,6 +25,10 @@ identified the pilot should make a 10 to 40 degree dive towards the target. The
 receiver gain should be reduced to produce a clutter signal of approximately 1/2
 nmi. This is done to prevent erroneous track of sidelobes which would result in
 incorrect ranging information.
+
+When locking the return, the cursor should be placed roughly
+at the center of the echo. Flying shallow angles will stretch the return further,
+requiring locking roughly one third of the return instead.
 
 The AIR-GRD acquisition procedure is as follows:
 
