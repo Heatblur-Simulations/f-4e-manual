@@ -128,11 +128,13 @@ Challenge Button on the Antenna Hand Control Stick.
 ![Challenge Button](../img/wso_antenna_hand_control_challenge_button.jpg)
 
 The radar screen will now display lines above and below a radar return if
-it was able to detect that a contact is friendly.
+it was able to detect that a contact is friendly. A single line is shown above the
+return if the transponder is set to a compatible mode, but the code differs.
+This is usually the case for civilian aircraft.
 
 ![Radar with friendly contacts](../img/radar_iff_friendly.jpg)
 
-> 🚧 This section is under construction.
+> 🚧 The Combat-Tree system will be made available later during Early-Access.
 
 ### Indications
 

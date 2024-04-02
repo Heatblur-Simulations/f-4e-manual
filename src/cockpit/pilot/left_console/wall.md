@@ -16,9 +16,6 @@ Pressed by the pilot in an emergency condition requiring ejection from the
 aircraft, which illuminates the [EJECT lamp](../../../systems/emergency.md#eject-light) in the rear
 cockpit warning the WSO to prepare for immediate ejection.
 
-Also lights up when the WSO presses their
-respective [Eject Light](../../../systems/emergency.md#eject-light) to warn the Pilot for ejection.
-
 ## Slats/Flaps Control Panel
 
 ![FlapSlatPan](../../../img/pilot_slats_flaps_control_panel.jpg)
