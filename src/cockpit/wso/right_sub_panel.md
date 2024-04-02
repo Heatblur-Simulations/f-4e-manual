@@ -10,12 +10,12 @@ various settings for manual bomb delivery.
 ![wso_eject_light](../../img/wso_eject_light.jpg)
 
 The EJECT light provides a positive visual command from the pilot to the
-WSO to prepare for ejection. The light is controlled only from the front Cockpit.
+WSO to prepare for ejection. The light is controlled only from the front cockpit.
 If the [EJECT lamp](../../systems/emergency.md#eject-light) in the front
 cockpit is pressed it signals the WSO to prepare for immediate ejection.
 
-Also lights up when the Pilot presses their respective Eject Light to warn the
-WSO for ejection.
+> 💡 Only the pilot can signal ejection. If the WSO presses the light,
+> it serves as a lamp test only and does not trigger the pilots lamp as well.
 
 ## KY-28 Controls
 
