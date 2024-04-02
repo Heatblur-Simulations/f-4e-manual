@@ -33,33 +33,40 @@
 | 3.     | Slats & Flaps | NORM (180 knots MIN) |
 | 4.     | Throttles     | AS REQUIRED          |
 
+## Landing
+
+| Step   | System                           | Action            |
+|--------|----------------------------------|-------------------|
+| 1.     | Above runway                     | Gently flare      |
+| 2.     | At touchdown                     | Throttles to IDLE |
+| **3.** | **Drag Chute**                   | **DEPLOY**        |
+| **4.** | **Wheel Brake (below 70 knots)** | **ENGAGE**        |
+
 ## After Landing
 
-| Step    | System                           | Action              |
-|---------|----------------------------------|---------------------|
-| **1.**  | **Drag Chute**                   | **DEPLOY**          |
-| **2.**  | **Wheel Brake (below 70 knots)** | **ENGAGE**          |
-| **3.**  | **Anti Skid (below 30 knots)**   | **OFF**             |
-| 4.      | Cockpit Pressure                 | CHECK               |
-| **5.**  | **Ejection Handle**              | **SAFE**            |
-| **6.**  | **Landing/Taxi Light**           | **AS REQUIRED**     |
-| 7.      | Slats & Flaps                    | NORM                |
-| **8.**  | **Drag Chute**                   | **JETTISON**        |
-| 9.      | Mode 4 Sel                       | HOLD                |
-| **10.** | **ECM/ALE/RWR/APX-76**           | **OFF**             |
-| **11.** | **Radar/CW Power**               | **OFF**             |
-| 12.     | STAB AUG Switches                | OFF                 |
-| 13.     | Internal Wing Dump               | NORMAL              |
-| 14.     | VOR/ILS Control Panel            | OFF                 |
-| 15.     | Engine Anti-Ice                  | NORMAL              |
-| 16.     | Radar Altimeter                  | OFF                 |
-| 17.     | STAB Trim                        | 1-3 units NOSE DOWN |
-| **18.** | **Reference Sel Switch**         | **STBY**            |
-| 19.     | Rain Removal                     | OFF                 |
-| **20.** | **Pitot Heat**                   | **OFF**             |
-| 21.     | IFF                              | OFF                 |
-| 22.     | Temperature                      | FULL HOT            |
-| 23.     | Defog Handle                     | DEFOG               |
-| 24.     | TACAN                            | OFF                 |
-| 25.     | Formation Lights                 | OFF                 |
-| 26.     | Sight Shutter                    | CLOSED              |
+| Step    | System                     | Action              |
+|---------|----------------------------|---------------------|
+| 1.      | Anti Skid (below 30 knots) | OFF                 |
+| 2.      | Cockpit Pressure           | CHECK               |
+| **3.**  | **Ejection Handle**        | **SAFE**            |
+| 4.      | Landing/Taxi Light         | AS REQUIRED         |
+| 5.      | Slats & Flaps              | NORM                |
+| **6.**  | **Drag Chute**             | **JETTISON**        |
+| 7.      | Mode 4 Sel                 | HOLD                |
+| **8.**  | **ECM/ALE/RWR/APX-76**     | **OFF**             |
+| **9.**  | **Radar/CW Power**         | **OFF**             |
+| 10.     | STAB AUG Switches          | OFF                 |
+| 11.     | Internal Wing Dump         | NORMAL              |
+| 12.     | VOR/ILS Control Panel      | OFF                 |
+| 13.     | Engine Anti-Ice            | NORMAL              |
+| 14.     | Radar Altimeter            | OFF                 |
+| 15.     | STAB Trim                  | 1-3 units NOSE DOWN |
+| **16.** | **Reference Sel Switch**   | **STBY**            |
+| 17.     | Rain Removal               | OFF                 |
+| **18.** | **Pitot Heat**             | **OFF**             |
+| 19.     | IFF                        | OFF                 |
+| 20.     | Temperature                | FULL HOT            |
+| 21.     | Defog Handle               | DEFOG               |
+| 22.     | TACAN                      | OFF                 |
+| 23.     | Formation Lights           | OFF                 |
+| 24.     | Sight Shutter              | CLOSED              |
