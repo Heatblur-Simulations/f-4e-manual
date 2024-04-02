@@ -43,12 +43,11 @@ Gs.
 
 ## Roll Breakout Point
 
-Percentage of stick input after which the AFCS system will recognize
-the pilot stick was moved from neutral trim position
-(force transducer switches closed). This
-will affect the AFCS roll channel operation and prevent it from
-fighting your roll input.
-For more info see [Force Transducer](../systems/flight_controls_gear/flight_controls.md#force-transducer).
+Percentage of stick input after which the AFCS system will recognize the pilot
+stick was moved from neutral trim position (force transducer switches closed).
+This will affect the AFCS roll channel operation and prevent it from fighting
+your roll input. For more info see
+[Force Transducer](../systems/flight_controls_gear/flight_controls.md#force-transducer).
 
 ## Afterburner Detent
 
@@ -74,19 +73,15 @@ previous pilot did not properly return everything back to their initial
 positions. To ensure a correct startup, the crew hence must check and confirm
 each switch in the proper position before following a cold-start procedure.
 
-## Performance Balancer
+## Use Multithreading for Main Simulation
 
-Under normal conditions, the systems and components in the aircraft are
-simulated with a fixed update-rate.
+With this option checked, the main simulation of the aircraft and its components
+is computed in parallel by utilizing multiple threads.
 
-With this option checked, the update rate of some less important systems (such
-as animations) is scaled dynamically based on the current CPU usage. This means
-that if the system has a hard time keeping high FPS, the rate on which less
-important systems are simulated is dynamically tuned down to stress the CPU less
-and possibly achieve higher FPS.
+This can significantly improve performance if bound by the CPU.
 
-> 🟡 CAUTION: Due to dynamic nature of this system, having it enabled might result in
-> broken track/replay files.
+> 🟡 CAUTION: The feature is experimental. Simulation stability and correctness
+> can suffer.
 
 ## Disable Multicrew Controls Input When Joining as WSO
 
@@ -100,3 +95,18 @@ If enabled, Jester will assist the pilot during landing by calling out aircraft
 altitude, similar as seen in civilian aviation.
 
 > 💡 Real Phantom WSOs did not assist during landing.
+
+## HB UI Resolution Override
+
+User interface elements, such as the Jester Wheel, the manual, virtual browser
+and others are scaled and positioned via a fixed resolution that must match the
+resolution of the in-game surface they are rendered on.
+
+With the option unchecked, this resolution is automatically determined based on
+screen settings. However, in certain situations, especially when using VR or
+having a multi-monitor setup, this automatic detection might fail and compute an
+incorrect resolution.
+
+Should UI elements be misplaced, for example the Jester Wheel not being centered
+or even cut off, check this setting and edit the resolution manually until the
+UI is displayed properly.
