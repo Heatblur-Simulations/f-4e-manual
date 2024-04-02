@@ -203,8 +203,8 @@
                     <main>
                         <h1 id="air-to-ground-radar-operation"><a class="header" href="#air-to-ground-radar-operation">Air to Ground Radar Operation</a></h1>
 <p>Radar operation air-to-ground includes the AIR-GRD mode and RDR-PPI and MAP-PPI.</p>
-<p>AIR-GRD mode is used as a form of radar ranging for WRCS DT. RDR-PPI and MAP-PPI
-are used for WRCS offset bomb and target find modes.</p>
+<p>AIR-GRD mode is used as a form of radar ranging for the WRCS Dive Toss mode.
+RDR-PPI and MAP-PPI are used for WRCS offset bomb and target find modes.</p>
 <h2 id="air-to-ground-ranging"><a class="header" href="#air-to-ground-ranging">Air-To-Ground Ranging</a></h2>
 <p>AIR-GRD mode is available when the <a href="interface.html#radar-modes-mode">Mode Knob</a> is
 positioned in the AIR-GRD position. AIR-GRD is used for air-to-ground ranging
@@ -212,7 +212,7 @@ and is available only in AI ranges. In this mode the antenna is fixed to the
 radar boresight while also being stabilized in drift, this drift correction can
 be removed by setting Drift Out on the <a href="interface.html#stab-switch">Stab Switch</a>
 in-case of INS malfunction.</p>
-<p><img src="../../img/radar_ground_mode_dt.jpg" alt="Ground Mode during Divetoss" /></p>
+<p><img src="../../img/radar_ground_mode_dt.jpg" alt="Ground Mode during Dive Toss" /></p>
 <p>AIR-GRD mode disables <a href="interface.html#angle-track">Angle Track</a> operation and only
 uses <a href="interface.html#range-track">Range Track</a>. Once locked on the main lobe
 clutter (ground radar echo), it will be tracked in range.</p>
@@ -221,6 +221,9 @@ identified the pilot should make a 10 to 40 degree dive towards the target. The
 receiver gain should be reduced to produce a clutter signal of approximately 1/2
 nmi. This is done to prevent erroneous track of sidelobes which would result in
 incorrect ranging information.</p>
+<p>When locking the return, the cursor should be placed roughly
+at the center of the echo. Flying shallow angles will stretch the return further,
+requiring locking roughly one third of the return instead.</p>
 <p>The AIR-GRD acquisition procedure is as follows:</p>
 <ol>
 <li>Adjust receiver gain to reduce clutter signal to 1/2 nmi.</li>
