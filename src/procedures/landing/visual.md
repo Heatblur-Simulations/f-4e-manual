@@ -20,6 +20,7 @@ For a normal landing, fly the pattern as illustrated in
 figure. Enter the pattern as local policy dictates.
 
 ![Landing Pattern](../../img/landing_pattern.jpg)
+
 ![Landing Pattern 2](../../img/landing_pattern_2.jpg)
 
 > 🔴 WARNING: If high angles of attack develop during the turn

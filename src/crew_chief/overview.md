@@ -38,14 +38,16 @@ The F-4 [procedures](../procedures/overview.md) include several ground checks, w
 make sure that certain systems are working and set correctly.
 Our F-4 crew chief can assist the pilot during following checks:
 
+* **Pitot Heat**
 * **Spoiler Actuator**
 * Air Refuelling Door
 * Speed Brakes
 * Slats and Flaps
 * **Flight Controls**
+* **ARI Disengage**
+* **Stab Aug**
 * **Trim**
 * Tail Hook
-* **Pitot Heat**
 
 Some of them are triggered automatically
 (e.g. when the chief notices speed brakes extending/retracting, he will announce it).
@@ -58,52 +60,75 @@ but not all of them because of the limited visibility from the cockpit.
 
 More advanced checks are explained here in detail:
 
-* Spoiler Actuator Check - With the right/left engine operating, slowly deflect
-control stick approximately 1 inch to the left/right.
+#### Pitot Heat Check
+
+Set the **pitot heat to ON** and wait for the ground crew
+to confirm it's warm. After that, put the **pitot heat to OFF**.
+
+> 🟡 CAUTION: Pitot heat should not be used for more than 1
+> minute during ground operations.
+
+#### Spoiler Actuator Check
+
+With the right/left engine operating, **slowly deflect
+control stick approximately 1 inch to the left/right**.
 Have ground crew or rear seat occupant verify
 that the spoiler does not fully deflect and that it
 returns to a flush position when the stick is
 returned to neutral. Abort if the spoiler check is
 not good.
 
-* Flight Controls Check -
+#### Flight Controls Check
+
 Ground crew should confirm all flight control
-positions. Slats and Flaps should be OUT AND DOWN.
+positions. Slats and Flaps should be **OUT AND DOWN**.
 
-  * Control stick - PULL FULL AFT AND RELEASE
-    * Movement forward should be smooth and free
-    of any restriction. The stick may not return to
-    the full forward position. The stick should move
-    forward at least to the ½ travel position and
-    further movement toward the stop should
-    require no more than one pound push force.
-  * Rudder - CHECK FULL TRAVEL LEFT AND RIGHT
-  * Ailerons/ARI - CHECK
-    * Move control stick full left. Observe left spoiler
-    up, right aileron down and rudder slightly left.
-    Engage yaw stab aug. Observe rudder move
-    further left. Depress emergency quick release
-    lever. Observe rudder move toward neutral.
-    Release emergency quick release lever,
-    neutralize stick and disengage yaw stab aug.
-    * Repeat check substituting right for left.
+* Pitch trim - 1 TO 3 UNITS NOSE DOWN
+* Control stick - PULL FULL AFT AND RELEASE
+  * Movement forward should be smooth and free
+  of any restriction. The stick may not return to
+  the full forward position. The stick should move
+  forward at least to the ½ travel position and
+  further movement toward the stop should
+  require no more than one pound push force.
+* Rudder - CHECK FULL TRAVEL LEFT AND RIGHT
+* Ailerons/ARI - CHECK
+  * Move control stick full left. Observe left spoiler
+  up, right aileron down and rudder slightly left.
+  Engage yaw stab aug. Observe rudder move
+  further left. Depress emergency quick release
+  lever. Observe rudder move toward neutral.
+  Release emergency quick release lever,
+  neutralize stick and disengage yaw stab aug.
+  Repeat check substituting right for left.
 
-> 💡 After TO 1F-4-1081, the MASTER
+> 💡 The MASTER
 > CAUTION and CHK HYD GAGES lights may
 > illuminate momentarily during this check. If
 > pressure recovers without delay, disregard this
 > indication.
 
-* Trim Check - Check operation of the trim
-indicator. Receive a signal from the ground
-crew/rear cockpit occupant that the ailerons and
-rudder are **set at neutral**.
+#### ARI Disengage Check
 
-* Pitot Heat Check - Set the **pitot heat to ON** and wait for the ground crew to confirm it's warm.
-After that, put the **pitot heat to OFF**.
+Depress emergency quick release lever. Move stick full right and left.
+Observe no rudder movement. Release emergency quick release lever.
 
-> 🟡 CAUTION: Pitot heat should not be used for more than 1
-> minute during ground operations.
+#### Stab Aug Check
+
+Engage each axis of stab aug individually.
+Observe no movement of any control surface (¼
+inch allowable). If an aileron/spoiler deflects
+during roll stab aug engagement, it may take up
+to 4 seconds to resettle after roll stab aug is
+disengaged. Allow enough time for the
+aileron/spoiler to resettle before reengaging roll
+stab aug to check the other aileron/spoiler.
+
+#### Trim Check
+
+Check operation of the trim indicator.
+Receive a signal from the ground crew/rear cockpit
+occupant that the ailerons and rudder are **set at neutral**.
 
 ## Communication
 
@@ -128,8 +153,7 @@ the "(hand signals)" will be added to the "Crew Chief" menu name to indicate tha
 > In addition, the WSO's function selector switch must be in **HOT MIC** to allow
 > aircraft to ground communications.
 
-Keep in mind that you can verify the 2-way communication
-by using "Comms Check" option.
+You can verify the 2-way communication by using "Comms Check" option.
 
 ![crew chief menu](../img/crew_chief_menu.jpg)
 <!-- ![crew chief menu (hand signals)](../img/crew_chief_menu_hand_signals.jpg) -->
