@@ -1,6 +1,6 @@
 # Lead computing optical sight system (LCOSS)
 
-![f4_lcoss_caged](../../img/f4_lcoss_caged.jpg) 
+![f4_lcoss_caged](../../img/f4_lcoss_caged.jpg)
 
 The lead computing optical sight system or short LCOSS, is used to establish a visual
 sight
@@ -68,7 +68,7 @@ respect to the fixed index tabs, indicates the angle between the ground track an
 to the target. In every other mode of operation the roll tabs indicate the aircraft roll
 attitude, supplied by the INS.
 
-| Roll tab left roll                                          | Roll tab right roll                                           |   
+| Roll tab left roll                                          | Roll tab right roll                                           |
 |-------------------------------------------------------------|---------------------------------------------------------------|
 | ![f4_lcoss_roll_tab_left](../../img/f4_lcoss_left_roll.jpg) | ![f4_lcoss_roll_tab_right](../../img/f4_lcoss_right_roll.jpg) |
 

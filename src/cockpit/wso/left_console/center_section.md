@@ -244,7 +244,7 @@ A rotary switch knob (<num>7</num>) that controls the amount of dispensed chaff.
 | OFF  | Chaff system inactive.                                                                                                                                                         |
 | SGL  | A single **burst** commanded when dispense button pressed.                                                                                                                     |
 | MULT | A **salvo** commanded according to [programmer](../../../systems/defensive_systems/countermeasures.md#programmer---pilot-cockpit)  when either dispense button pressed.        |
-| PROG | Multiple **salvos** commanded according to [programmer](../../../systems/defensive_systems/countermeasures.md#programmer---pilot-cockpit) when either dispense button pressed. |   
+| PROG | Multiple **salvos** commanded according to [programmer](../../../systems/defensive_systems/countermeasures.md#programmer---pilot-cockpit) when either dispense button pressed. |
 
 ### Flare Mode Knob
 
