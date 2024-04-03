@@ -52,16 +52,17 @@
 | 10.  | Pitch attitude             | MAINTAIN 10° to 12°      |
 | 11.  | Trim                       | AS REQUIRED              |
 
-## After Takeoff
+## After Takeoff - Climb
 
-### Climb
+| Step   | System            | Action                        |
+|--------|-------------------|-------------------------------|
+| **1.** | **Gear**          | **UP**                        |
+| **2.** | **Slats & Flaps** | **NORM (180 knots MIN)**      |
+| 3.     | Pitch             | ADJUST 10°-12° TILL 350 KIAS  |
+| 4.     | Airspeed          | ADJUST PITCH TO HOLD 350 KIAS |
+| 5.     | Heading           | ACCORDING TO FLIGHT PLAN      |
 
-| Step   | System            | Action                   |
-|--------|-------------------|--------------------------|
-| **1.** | **Gear**          | **UP**                   |
-| **2.** | **Slats & Flaps** | **NORM (180 knots MIN)** |
-
-### Cruise
+## Cruise
 
 | Step | System                              | Action      |
 |------|-------------------------------------|-------------|

@@ -19,7 +19,7 @@ Five position rotary switch (<num>1</num>) controlling power state of the
 [APQ-120 Radar.](../../../systems/radar/overview.md)
 
 | Name | Description                                                                                                                        |
-| ---- | ---------------------------------------------------------------------------------------------------------------------------------- |
+|------|------------------------------------------------------------------------------------------------------------------------------------|
 | OFF  | Powers radar off.                                                                                                                  |
 | TEST | Applies voltage to control monitor power and provides [BIT-test](../../../procedures/bit_tests/overview.md) functions 1 through 6. |
 | STBY | Power applied to radar, remains in a non-transmitting standby state.                                                               |
@@ -86,7 +86,8 @@ estimated correct speed-gate for the Sparrow when not tracking.
 
 ![Receiver Gain Knob](../../../img/wso_radar_receiver_gain.jpg)
 
-Coarse (outer ring, <num>8</num>) and Fine (inner knob, <num>7</num>) gain control for the radar
+Coarse (outer ring, <num>8</num>) and Fine (inner knob, <num>7</num>) gain control for the
+radar
 receiver. Larger values result in more noise and can cause display to become
 saturated. Lower values may result in lower detection ranges.
 
@@ -110,7 +111,7 @@ access specific mode functionality in conjunction with the Mode knob. The types
 are as follows:
 
 | Name     | Description                                                                                                   |
-| -------- | ------------------------------------------------------------------------------------------------------------- |
+|----------|---------------------------------------------------------------------------------------------------------------|
 | B WIDE   | Selects 120 degree B-sweep for search. Half-action places the sweep under manual Antenna Hand Control stick.  |
 | B NAR    | Selects a 45 degree B-sweep sector for search, which is manually shifted with the Antenna Hand Control stick. |
 | PPI WIDE | Selects a 120 degree wide plan position indicator sweep for MAP mode.                                         |
@@ -138,7 +139,7 @@ Three position switch (<num>11</num>) controlling radar pulse width and pulse
 repetition frequency (PRF).
 
 | Name  | Description                                                                                                           |
-| ----- | --------------------------------------------------------------------------------------------------------------------- |
+|-------|-----------------------------------------------------------------------------------------------------------------------|
 | AUTO  | Uses Power Level Mode Switching to determine best Pulse selection. Selects short pulse is used for acquire and track. |
 | LONG  | Wide pulse width and low PRF, allowing maximum range detection; no track automatic pulse adjustment.                  |
 | SHORT | Narrow pulse width with high PRF for increased close range performance.                                               |
@@ -153,7 +154,7 @@ A six position rotary switch (<num>14</num>) that determines the current base
 mode of operation of the radar.
 
 | Name    | Description                                                                                                                                                                                                  |
-| ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | BST     | Air-to-Air boresight with antenna aligned radar boresight line and optical sight with sight in A/A.                                                                                                          |
 | RDR     | Search Mode with Feedhorn Nutation (wider beam-width) mode.                                                                                                                                                  |
 | MAP     | Search Mode without Feedhorn Nutation (narrower beam-width)                                                                                                                                                  |
@@ -238,22 +239,23 @@ They are automatically set by the ground crew when rearming.
 
 A rotary switch knob (<num>7</num>) that controls the amount of dispensed chaff.
 
-| Name | Description                                                                 |
-| ---- | --------------------------------------------------------------------------- |
-| OFF  | Chaff system inactive.                                                      |
-| SGL  | A single burst commanded when dispense button pressed.                      |
-| MULT | A salvo commanded according to program when either dispense button pressed. |
+| Name | Description                                                                                                                                                                    |
+|------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| OFF  | Chaff system inactive.                                                                                                                                                         |
+| SGL  | A single **burst** commanded when dispense button pressed.                                                                                                                     |
+| MULT | A **salvo** commanded according to [programmer](../../../systems/defensive_systems/countermeasures.md#programmer---pilot-cockpit)  when either dispense button pressed.        |
+| PROG | Multiple **salvos** commanded according to [programmer](../../../systems/defensive_systems/countermeasures.md#programmer---pilot-cockpit) when either dispense button pressed. |
 
 ### Flare Mode Knob
 
 A rotary switch knob (<num>4</num>) that controls the amount of dispensed
 flares.
 
-| Name | Description                                                                 |
-| ---- | --------------------------------------------------------------------------- |
-| OFF  | Flare system inactive.                                                      |
-| SGL  | A single burst commanded when dispense button pressed.                      |
-| MULT | A salvo commanded according to program when either dispense button pressed. |
+| Name | Description                                                                                                                                                            |
+|------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| OFF  | Flare system inactive.                                                                                                                                                 |
+| SGL  | A single **burst** commanded when dispense button pressed.                                                                                                             |
+| PROG | A **salvo** commanded according to [programmer](../../../systems/defensive_systems/countermeasures.md#programmer---pilot-cockpit) when either dispense button pressed. |
 
 ### Indicator Lights
 
