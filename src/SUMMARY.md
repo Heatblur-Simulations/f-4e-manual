@@ -79,6 +79,7 @@
     - [AWRU](./systems/weapon_systems/awru.md)
     - [WRCS](./systems/weapon_systems/wrcs.md)
     - [ARBCS](./systems/weapon_systems/arbcs.md)
+    - [LCOSS](./systems/weapon_systems/lcoss.md)
     - [Pave Spike](./systems/weapon_systems/pave_spike/overview.md)
       - [Electrics](./systems/weapon_systems/pave_spike/electrics.md)
       - [Integrations](./systems/weapon_systems/pave_spike/integrations.md)
