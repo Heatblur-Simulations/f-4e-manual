@@ -2,9 +2,12 @@
 
 ![f4_lcoss_caged](../../img/pilot_awru.jpg) TODO change
 
-The lead computing optical sight system or short LCOSS, is used to establish a visual sight
-reference to either air-to-air or air-to-ground weapons delivery. A red reticle is projected on a
-combining glass. The LCOSS features seven different modes that can be selected via the Sight Mode
+The lead computing optical sight system or short LCOSS, is used to establish a visual
+sight
+reference to either air-to-air or air-to-ground weapons delivery. A red reticle is
+projected on a
+combining glass. The LCOSS features seven different modes that can be selected via the
+Sight Mode
 Knob.
 
 ## LCOSS Controls
@@ -28,8 +31,10 @@ The sight mode knob selects the mode of operations which are the following:
 
 ![f4_lcoss_reticle_depression]()
 
-The reticle can be depressed by rotating the reticle depression knob until the readout (in one-mil
-increments) shows the desired sight setting. The Reticle cannot be positioned manually in azimuth.
+The reticle can be depressed by rotating the reticle depression knob until the readout (in
+one-mil
+increments) shows the desired sight setting. The Reticle cannot be positioned manually in
+azimuth.
 
 ### Reticle intensity control
 
@@ -41,13 +46,24 @@ Rotating the reticle intensity control knob changes the brightness of the reticl
 
 ![f4_lcoss_shutter_lever]()
 
-The shutter control lever is a two position lever with positions of CL (closed) and OPEN. In the CL
+The shutter control lever is a two position lever with positions of CL (closed) and OPEN.
+In the CL
 position a shutter is placed between the optical light source and the combining glass thus
-preventing damage to the optics from bright sunlight. In the OPEN position the shutter is removed
+preventing damage to the optics from bright sunlight. In the OPEN position the shutter is
+removed
 and the reticle will be displayed.
 
 ## Reticle Image
 
-The reticle image that is projected onto the combining glass is composed of a fixed reticle, roll
-reference tabs, and a range bar. The fixed reticle consists of 2-mil diameter pipper located in the
+The reticle image that is projected onto the combining glass is composed of a fixed
+reticle, roll
+reference tabs, and a range bar. The fixed reticle consists of 2-mil diameter pipper
+located in the
 center of a 25-mil diameter segmented circle, and a 50-mil diameter completed circle.
+
+The roll reference tabs rotate about the 50-mil circle. The roll reference tabs have two
+seperate functions. During the offset bombing mode and the target finding mode the roll
+tabs provide steering information from the WRCS. The position of the roll tabs, with
+respect to the fixed index tabs, indicates the angle between the ground track and course
+to the target. In every other mode of operation the roll tabs indicate the aircraft roll
+attitude, supplied by the INS.
