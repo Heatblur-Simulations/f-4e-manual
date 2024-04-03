@@ -1,27 +1,29 @@
 # Preparation for Flight and Interior Inspection
 
-> 💡 If a battery start is to be made, those checks requiring electrical power will have to be
+> 💡 If a battery start is to be made, those checks requiring electrical power will have to
+> be
 > performed after the engines have been started.
 
 ## WSO
 
 ### Before Electrical Power (WSO)
 
-| Step | System                            | Action     |
-|------|-----------------------------------|------------|
-| 1.   | AN/ALE-40 Chaff Dispenser         | OFF        |
-| 2.   | Throttles                         | AFT        |
-| 3.   | UHF radio                         | OFF        |
-| 4.   | AVTR Switch                       | OFF        |
-| 5.   | Radar power                       | OFF        |
-| 6.   | DSCG                              | OFF        |
-| 7.   | ECM equipment                     | OFF        |
-| 8.   | INS                               | OFF        |
-| 9.   | Nuclear store consent switch      | SAFE       |
-| 10.  | Nav computer                      | OFF        |
-| 11.  | Battery bypass switch             | OFF        |
-| 12.  | Circuit breaker panels            | CHECK      |
-| 13.  | Publications and flight data      | CHECK      |
+| Step | System                       | Action |
+|------|------------------------------|--------|
+| 1.   | Helmet                       | PUT ON |
+| 2.   | AN/ALE-40 Chaff Dispenser    | OFF    |
+| 3.   | Throttles                    | AFT    |
+| 4.   | UHF radio                    | OFF    |
+| 5.   | AVTR Switch                  | OFF    |
+| 6.   | Radar power                  | OFF    |
+| 7.   | DSCG                         | OFF    |
+| 8.   | ECM equipment                | OFF    |
+| 9.   | INS                          | OFF    |
+| 10.  | Nuclear store consent switch | SAFE   |
+| 11.  | Nav computer                 | OFF    |
+| 12.  | Battery bypass switch        | OFF    |
+| 13.  | Circuit breaker panels       | CHECK  |
+| 14.  | Publications and flight data | CHECK  |
 
 ### After electrical power (WSO)
 
@@ -156,30 +158,31 @@ Takes roughly 2 minutes 15 seconds.
 
 | Step | System                                                                                                                                                         | Action                                        |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| 1.   | Lower ejection handle guard                                                                                                                                    | UP                                            |
-| 2.   | Generator switches                                                                                                                                             | OFF                                           |
-| 3.   | AN/ALE-40 flare select switch                                                                                                                                  | NORMAL                                        |
-| 4.   | Internal wing dump switch                                                                                                                                      | NORM                                          |
-| 5.   | Throttles                                                                                                                                                      | OFF                                           |
-| 6.   | External stores emergency release                                                                                                                              | CHECK NO YELLOW SHOWING INSIDE CIRCULAR GUARD |
-| 7.   | Landing gear handle                                                                                                                                            | IN & DOWN                                     |
-| 8.   | Missile jettison selector                                                                                                                                      | OFF                                           |
-| 9.   | Armament Switches                                                                                                                                              | OFF/SAFE                                      |
-| 10.  | Pitot Heat                                                                                                                                                     | OFF                                           |
-| 11.  | Battery                                                                                                                                                        | CHECK                                         |
+| 1.   | Helmet                                                                                                                                                         | PUT ON                                        |
+| 2.   | Lower ejection handle guard                                                                                                                                    | UP                                            |
+| 3.   | Generator switches                                                                                                                                             | OFF                                           |
+| 4.   | AN/ALE-40 flare select switch                                                                                                                                  | NORMAL                                        |
+| 5.   | Internal wing dump switch                                                                                                                                      | NORM                                          |
+| 6.   | Throttles                                                                                                                                                      | OFF                                           |
+| 7.   | External stores emergency release                                                                                                                              | CHECK NO YELLOW SHOWING INSIDE CIRCULAR GUARD |
+| 8.   | Landing gear handle                                                                                                                                            | IN & DOWN                                     |
+| 9.   | Missile jettison selector                                                                                                                                      | OFF                                           |
+| 10.  | Armament Switches                                                                                                                                              | OFF/SAFE                                      |
+| 11.  | Pitot Heat                                                                                                                                                     | OFF                                           |
+| 12.  | Battery                                                                                                                                                        | CHECK                                         |
 |      | To determine battery relay closure turn on Engine Master switch and check for proper positioning of gear and slats flaps position indicators.                  |                                               |
-| 12.  | Engine Master Switches                                                                                                                                         | OFF                                           |
-| 13.  | Formation Lights                                                                                                                                               | OFF                                           |
-| 14.  | Emergency attitude reference system circuit breaker                                                                                                            | IN                                            |
-| 15.  | UHF Radio                                                                                                                                                      | OFF                                           |
-| 16.  | Reference system selector                                                                                                                                      | STBY                                          |
-| 17.  | Publications and flight data                                                                                                                                   | CHECK                                         |
-| 18.  | Gun Camera magazine                                                                                                                                            | INSTALL                                       |
-| 19.  | Gun Camera dust cover                                                                                                                                          | STOW (with 780 equipment)                     |
-| 20.  | External Power                                                                                                                                                 | ON🔧                                          |
-| 21.  | External Power                                                                                                                                                 | CHECK ON                                      |
-| 22.  | Generator switches                                                                                                                                             | EXT ON                                        |
-| 23.  | Transformer-rectifier                                                                                                                                          | CHECK ⚡                                       |
+| 13.  | Engine Master Switches                                                                                                                                         | OFF                                           |
+| 14.  | Formation Lights                                                                                                                                               | OFF                                           |
+| 15.  | Emergency attitude reference system circuit breaker                                                                                                            | IN                                            |
+| 16.  | UHF Radio                                                                                                                                                      | OFF                                           |
+| 17.  | Reference system selector                                                                                                                                      | STBY                                          |
+| 18.  | Publications and flight data                                                                                                                                   | CHECK                                         |
+| 19.  | Gun Camera magazine                                                                                                                                            | INSTALL                                       |
+| 20.  | Gun Camera dust cover                                                                                                                                          | STOW (with 780 equipment)                     |
+| 21.  | External Power                                                                                                                                                 | ON🔧                                          |
+| 22.  | External Power                                                                                                                                                 | CHECK ON                                      |
+| 23.  | Generator switches                                                                                                                                             | EXT ON                                        |
+| 24.  | Transformer-rectifier                                                                                                                                          | CHECK ⚡                                       |
 |      | Both transformer-rectifiers operating if the landing gear indicators indicate gear down with the Engine master switches OFF and the generator switches in EXT. |                                               |
 
 ### Interior Inspection (Pilot)
