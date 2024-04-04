@@ -100,7 +100,7 @@ saturated. Lower values may result in lower detection ranges.
 The three position switch (<num>9</num>) selects range tracking type for use in
 heavy clutter environments, or automatic tracking under normal circumstances.
 
-[See Radar Track Switch Section for more details](../../../systems/radar/interface.md#scan-switch)
+[See Radar Track Switch Section for more details](../../../systems/radar/interface.md#track-switch)
 
 ### Display Knob
 
