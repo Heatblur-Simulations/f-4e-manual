@@ -71,6 +71,7 @@ attitude, supplied by the INS.
 | Roll tab left roll                                          | Roll tab right roll                                           |
 |-------------------------------------------------------------|---------------------------------------------------------------|
 | ![f4_lcoss_roll_tab_left](../../img/f4_lcoss_left_roll.jpg) | ![f4_lcoss_roll_tab_right](../../img/f4_lcoss_right_roll.jpg) |
+| _1 left roll tab, 2 center roll tab, 3 right roll tab_      | _1 left roll tab, 2 center roll tab, 3 right roll tab_        |
 
 The range bar is semicircular and appears on the inside of
 the 50-mil circle only when a target has been acquired by radar lockon. The instantaneous
