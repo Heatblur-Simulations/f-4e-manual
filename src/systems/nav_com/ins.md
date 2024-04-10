@@ -21,11 +21,11 @@ eliminate a gimbal lock in outer roll/azimuth gimbal alignment.
 Installed on the platform are a pair of G-200 two-axis gyros, with the upper
 gyro axis aligned for spin on the north-south axis while the lower gyro aligns
 for east-west spin; torque detection in each gyro tracks the perpendicular axes -
-ergo, the high gimbal detects east/west rotation, while the low gyro detects
+ergo, the high gyro   detects east/west rotation, while the low gyro detects
 north/south rotation. In this way, rotation in all three dimensions are
 represented. The gyros are floated, and proper operation can only take place
 once the fluid has attained operating temperature (160 degrees F); the system is
-effectively climate controlled across the altitude operating range of the
+effectively temperature controlled across the altitude operating range of the
 Phantom. A series of precision magnetic torquers provide localization movement,
 while acceleration pick-offs function within a separate electromagnetic field
 perform the actual data capture from the displacements of the gyroscopes.
