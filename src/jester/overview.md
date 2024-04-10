@@ -10,6 +10,6 @@ that you can focus on flying the plane and employing weapons.
 
 His key responsibilities are
 
-- operating the radar,
-- controlling the targeting pod and
-- assisting with navigation.
+- operating the radar
+- controlling the targeting pod
+- assisting with navigation
