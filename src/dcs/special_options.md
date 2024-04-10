@@ -110,3 +110,25 @@ incorrect resolution.
 Should UI elements be misplaced, for example the Jester Wheel not being centered
 or even cut off, check this setting and edit the resolution manually until the
 UI is displayed properly.
+
+## Jester UI Allow Head-Tracking
+
+![Radio Menu](../img/special_options_jester_ui_head_tracking.jpg)
+
+When checked, the Jester UI allows moving the cursor simply by moving the
+in-game character head. Can be disabled if no convenient head-tracking
+equipment, such as TrackIR or VR, is available.
+
+> 💡 Tracking options are chosen dynamically based on movement. Even if
+> head-tracking is enabled, other options such as using the mouse or assigning
+> the cursor to an axis are also still available.
+
+The dropdown allows selection of the head-tracking behavior:
+
+- Center - the view-origin is at the aircraft center
+- Dynamic - the view-origin is where the UI was opened
+
+Selecting _Center_ requires looking forward when operating the UI, whereas
+_Dynamic_ allows using head-tracking from any view position. However, _Dynamic_
+can lead to having to chase the cursor when closing and re-opening the UI
+frequently.

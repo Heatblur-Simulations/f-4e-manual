@@ -28,7 +28,7 @@ To confirm and send the data, select the option (LAT/LONG in this case) again.
 
 ### Wheel Controls
 
-The Jester Wheel can be opened or closed by pressing <kbd>A</kbd> **short**.
+The Jester Wheel can be opened or closed by pressing <kbd>A</kbd>.
 
 The entire UI is accessible via mouse by left-clicking options or clicking on
 the center area of circle to navigate back.
@@ -44,11 +44,15 @@ Options on the outer ring are selectable via:
 - <kbd>E</kbd> - move cursor CW
 
 Additionally, the cursor can also be moved freely either via an assignable axis
-for a mini-stick, or via head-tracking by holding down <kbd>A</kbd> **long** and
-then moving the view. Releasing <kbd>A</kbd> will confirm the selection under
-the cursor.
+for a mini-stick, or via head-tracking. See
+[9.2 Special Options](../dcs/special_options.md#jester-ui-allow-head-tracking)
+for configuring head-tracking.
 
 ![Head Tracking Cursor](../img/jester_wheel_head_tracking.jpg)
+
+When moving the cursor without the mouse, pressing <kbd>A</kbd> **short** will
+confirm the selection under the cursor, while <kbd>A</kbd> **long** can then be
+used to close the UI.
 
 > 💡 Most individual actions also offer a direct bind, if desired. See
 > [9.1. Controls](../dcs/controls.md#jester--chief-commands) for details.
@@ -83,6 +87,9 @@ default hotkeys to access the options are <kbd>LCTRL</kbd> + <kbd>1</kbd>
 through <kbd>LCTRL</kbd> + <kbd>4</kbd>.
 
 Additionally, the cursor can also be moved freely either via an assignable axis
-for a mini-stick, or via head-tracking by holding down <kbd>A</kbd> **long** and
-then moving the view. Releasing <kbd>A</kbd> will confirm the selection under
-the cursor.
+for a mini-stick, or via head-tracking. See
+[9.2 Special Options](../dcs/special_options.md#jester-ui-allow-head-tracking)
+for configuring head-tracking.
+
+When moving the cursor without the mouse, pressing <kbd>A</kbd> will confirm the
+selection under the cursor.
