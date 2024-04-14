@@ -8,12 +8,12 @@
 
 飞行仪表照明亮度面板中有六个旋钮，可用来单独改变 **两个驾驶舱中** 的指示器照明亮度：
 
-- [空速马赫数表](../../pilot/flight_director_group.md#airspeed-and-mach-indicator) -
-  [姿态指引指示器](../../pilot/flight_director_group.md#attitude-director-indicator) -
-  [迎角指示器](../../pilot/flight_director_group.md#angle-of-attack-indicator) -
-  [垂直速度表](../../pilot/flight_director_group.md#vertical-velocity-indicator) -
-  [高度表](../../pilot/flight_director_group.md#altimeter) -
-  [水平状态显示器](../../pilot/flight_director_group.md#horizontal-situation-indicator)
+- [空速马赫数表](../../pilot/flight_director_group.md#airspeed-and-mach-indicator)
+- [姿态指引指示器](../../pilot/flight_director_group.md#attitude-director-indicator)
+- [迎角指示器](../../pilot/flight_director_group.md#angle-of-attack-indicator)
+- [垂直速度表](../../pilot/flight_director_group.md#vertical-velocity-indicator)
+- [高度表](../../pilot/flight_director_group.md#altimeter)
+- [水平状态显示器](../../pilot/flight_director_group.md#horizontal-situation-indicator)
 
 使用 [飞行仪表照明旋钮](../weapon_management.md#flight-instrument-brightness-knob) 来控制所有仪表的
 基础亮度。
@@ -37,9 +37,13 @@
 
 面板中包括七个断路器，负责飞行操纵面和其它对飞机安全操作来说十分重要的系统。
 
-- AIL Feel-Trim（副翼感受配平） - STAB Feel-Trim（平尾感受配平） - Speed Brake（减速板） -
-  Landing Gear（起落架） - Flaps（机翼） - Trim Controls（配平控制开关） - Rudder Trim（方向舵配平
-  ）
+- AIL Feel-Trim（副翼感受配平）
+- STAB Feel-Trim（平尾感受配平）
+- Speed Brake（减速板）
+- Landing Gear（起落架）
+- Flaps（襟翼）
+- Trim Controls（配平控制开关）
+- Rudder Trim（方向舵配平）
 
 如果断路器弹出，那么相应的系统将被断电，也就无法继续工作。
 

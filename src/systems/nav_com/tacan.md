@@ -1,71 +1,53 @@
-# TACAN (Tactical Air Navigation) System
+# TACAN（战术空中导航系统）系统
 
 ![external_tacan_antenna](../../img/ext_f4_tacan_antenna.jpg)
 
-Bearing and range information to transmitting stations is provided by the TACAN
-system. The TACAN system can receive information from ground stations as far as
-390 miles, and air-to-air TACAN equipped aircraft to 200 miles. The TACAN system
-provides the identity of the transmitting station and the dependability of the
-signal received. Course deviation is calculated and displayed on navigation
-systems set in TACAN mode. If a TACAN signal is invalid, a warning is displayed.
-In the event of a signal loss, the system continues providing range tracking for
-15 seconds, and bearing tracking for 3 seconds. The system will perform a
-self-test after a signal loss to confirm function on the control panel. Two
-TACAN antennas are provided, and signal switching is automatic to maintain the
-best signal.
+TACAN 系统可提供发射台的方位和距离信息，系统接收地面台信息的距离最远可达 390 英里，空对空塔康设备的
+接收距离可达 200 英里，除此之外系统可提供塔康台的识别和接收信号的可靠性功能。将导航功能设置到 TACAN
+后，导航系统将计算并显示航线偏差。如果 TACAN 信号无效，则会显示警示旗，当信号丢失，系统将继续提供
+15 秒的距离跟踪和 3 秒的方位跟踪。信号丢失后，系统将执行自检，并在控制面板中显示来确认系统正常工作
+。系统配有两根 TACAN 天线，可自动切换以保持最佳信号接收。
 
-## TACAN Controls
+## TACAN 控制
 
 ![tacan_general](../../img/pilot_tacan.jpg)
 
-TACAN controls are found on the navigation control panel in each cockpit.
+TACAN 控制开关/按钮位于各驾驶舱的导航控制面板上。
 
-### Navigation Command Button and Indicator
+### 导航指令按钮和指示灯
 
-The NAV CMD button and indicator performs a command authority switch between the
-two cockpits, and are found in the upper right corner of the Communication
-Control Panel. A green light illuminates to the left of the button in the
-cockpit that has control of the navigation system.
+NAV CMD 按钮和指示灯用于在两个驾驶舱之间进行指令权限切换，NAV CMD 按钮位于通信控制面板的右上角。取
+得导航系统控制权的驾驶舱，按钮左侧会亮起绿灯。
 
-- Mode Selector Knob,
-- BRG/DIST Selector Switch, and
-- Navigation Function Selector
+- 模式选择旋钮，
+- BRG/DIST 选择开关，以及
+- 导航功能选择旋钮
 
-As detailed in the Flight Director Group section, the Mode Selector, BRG/DIST
-Selector, and Navigation Function Selector determine the presentation of TACAN
-information on the HSI, the ADI, and the BDHI.
+如飞行指引指示器组部分所述，模式选择旋钮、BRG/DIST 选择开关和导航功能选择旋钮决定了 HSI、ADI 和
+BDHI 上是否显示 TACAN 信息。
 
-### Navigation Channel Control Knobs
+### 导航波道控制旋钮
 
-On the TACAN Control Panel beneath the channel window, a pair of knobs set the
-desired TACAN channel. The left knob controls the tens and hundreds digits of the
-channel. The right knob selects the units of the operating channel, and the
-outer knob sets the X or Y channel; both X and Y have 126 available channels.
-While the indicator can show 127, 128, and 129, these values are nonfunctional.
+在 TACAN 控制面板的波道窗口下方，一对旋钮可用于设置所需的 TACAN 波道。左侧旋钮控制波道的十位数和百
+位数。右侧旋钮选择操作波道的个位数，外旋钮设置 X 或 Y 波段；X 和 Y 有 126 个可用频道。虽然指示器可
+以显示到 127、128 和 129，但这些波道数值是无功能的。
 
-### TACAN Function Selector Knob
+## 塔康功能选择旋钮
 
-- OFF: the TACAN system is de-energized
-- REC: only the receiver is energized, and the system receives and decodes
-  bearing signals from the TACAN station and provides bearing information for
-  the HSI, BDHI, and ADI displays.
-- T/R: the TACAN generates distance information along with bearing; the distance
-  is then added to the HSI and BDHI, provided in nautical miles.
-- A/A REC: the TACAN receives and displays bearing information for the HSI,
-  BDHI, and ADI steering display from an aircraft providing a TACAN beacon
-  signal. The channel selected must be 63 channels above or below the
-  transmitting aircraft beacon, on the same X or Y channel range; for example, a
-  tanker transmitting on 83X will be received on 20X.
-- A/A TR: the TACAN interrogates the equipped aircraft beacon to add range
-  information to the HSI and BDHI. The channel selection method remains the same
-  as A/A REC.
+- OFF：TACAN 系统断电
+- REC：仅接收机通电，系统接收并解码来自 TACAN 台的方位信号，并为 HSI、BDHI 和 ADI 显示器提供方位信
+  息。
+- T/R：TACAN 在生成方位信息的同时生成距离信息；然后以海里为单位将距离信息添加到 HSI 和 BDHI 中。
+- A/A REC：TACAN 从提供 TACAN 信标信号的飞机上接收方位信息并显示在 HSI、BDHI 和 ADI 转向指示上。所
+  选波道必须和发射载机信标间隔 63 个波道，且在相同的 X 或 Y 波段；例如，在 83X 波道上发射信号的加油
+  机将可以被在 20X 波道上的接收机接收到。
+- A/A TR：TACAN 问询载机信标，将距离信息添加到 HSI 和 BDHI 中。波道选择方法与 A/A REC 相同。
 
-### Navigation Volume Control Knob
+### 导航音量控制旋钮
 
-The NAV VOL knob controls the headset audible volume of the received TACAN
-station.
+NAV VOL 旋钮用来控制接收到的 TACAN 台在头戴中播放的音量。
 
-### TACAN Test Button
+### TACAN 测试按钮
 
-The Tacan test button may be used to test the TACAN System. For a detailed procedure see
-the [Navigation Test Procedure](../../procedures/bit_tests/navigation_tests.md).
+Tacan 测试按钮可用于测试 TACAN 系统。详细步骤请参阅
+[导航测试程序](../../procedures/bit_tests/navigation_tests.md)。

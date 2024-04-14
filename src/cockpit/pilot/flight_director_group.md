@@ -33,7 +33,7 @@
 于[迎角](../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system) 探头位于前起
 落架舱门上，起落架放下时气流会受到干扰，因此在给定值下，飞机的实际
 [迎角](../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system) 比指示值高出约
-1 个单位，最佳进近迎角比正常慢 5 节。 knots slower than the given value.
+1 个单位，最佳进近迎角比正常慢 5 节。
 
 当指示器电源因电气系统配置或损坏而断开时，指示器表面的窗口中将显示 OFF 旗。迎角指示器包含开启分度器
 灯和启动失速警告振动器的开关。
@@ -61,7 +61,7 @@
 包括姿态球、转弯指示器、转向杆、微型飞机、下滑道指针、旗和俯仰调平旋钮。它可显示所选基准系统的俯仰
 、坡度和航向，并可通过调平旋钮调整俯仰。转向指示器依赖
 于[AN/AJB-7 系统](../../systems/weapon_systems/arbcs.md) 的陀螺仪。转向杆为飞行指引仪提供航向拦截、
-导航和 [ILS] (../../systems/nav_com/vor_ils.md)进近引导。下滑道指针可在
+导航和[ILS](../../systems/nav_com/vor_ils.md)进近引导。下滑道指针可在
 [ILS](../../systems/nav_com/vor_ils.md) 进近时提供垂直引导信息。
 
 ## 标记信标灯
@@ -169,7 +169,7 @@ OFF 档位。
 | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | [VOR](../../systems/nav_com/vor_ils.md)/[TAC](../../systems/nav_com/tacan.md) | HSI 显示[VOR](../../systems/nav_com/vor_ils.md) 台的及磁方位和 [TACAN](../../systems/nav_com/tacan.md) 台的距离。 |
 | [TAC](../../systems/nav_com/tacan.md)                                         | HSI 显示[TACAN](../../systems/nav_com/tacan.md) 台的距离及磁方位。                                                |
-| ADF/[TAC](../../systems/nav_com/tacan.md)                                     | HSI 显示 ADF 台的及磁方位以及[TACAN](../../systems/nav_com/tacan.md) 台的距离。                                   |
+| ADF/[TAC](../../systems/nav_com/tacan.md)                                     | HSI 显示 ADF 台的距离和磁方位以及[TACAN](../../systems/nav_com/tacan.md) 台的距离。                                   |
 | NAV COMP                                                                      | HSI 显示由导航计算机提供的（例如航路点）方位和距离。                                                              |
 
 ### 模式选择旋钮显示功能
