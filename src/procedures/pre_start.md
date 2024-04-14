@@ -179,10 +179,9 @@ Takes roughly 2 minutes 15 seconds.
 | 18.  | Publications and flight data                                                                                                                                   | CHECK                                         |
 | 19.  | Gun Camera magazine                                                                                                                                            | INSTALL                                       |
 | 20.  | Gun Camera dust cover                                                                                                                                          | STOW (with 780 equipment)                     |
-| 21.  | External Power                                                                                                                                                 | ON🔧                                          |
-| 22.  | External Power                                                                                                                                                 | CHECK ON                                      |
-| 23.  | Generator switches                                                                                                                                             | EXT ON                                        |
-| 24.  | Transformer-rectifier                                                                                                                                          | CHECK ⚡                                       |
+| 21.  | External Power                                                                                                                                                 | ON🔧 AND CHECK ON                             |
+| 22.  | Generator switches                                                                                                                                             | EXT ON                                        |
+| 23.  | Transformer-rectifier                                                                                                                                          | CHECK ⚡                                       |
 |      | Both transformer-rectifiers operating if the landing gear indicators indicate gear down with the Engine master switches OFF and the generator switches in EXT. |                                               |
 
 ### Interior Inspection (Pilot)
