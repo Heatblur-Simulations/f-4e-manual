@@ -59,14 +59,15 @@ BIT 检查时，需要选择需要测试的模式，按下旋钮 5 秒钟，然�
 ![wso_cursor_control_panel](../../../img/wso_cursor_control_panel.jpg)
 
 用于输入 [WRCS](../../../systems/weapon_systems/wrcs.md) 雷达轰炸模式目标。仅在选择了
-[MAP-PPI](../../../systems/radar/operation.md#map-mode-ppi) 模式并在 [投放模式旋钮] 上选择了适用的
-轰炸模式时生效。
+[MAP-PPI](../../../systems/radar/operation.md#map-mode-ppi) 模式并在
+[投放模式旋钮](../../../cockpit/pilot/weapon_management.md#delivery-mode-knob) 上选择了适用的轰炸模
+式时生效。
 
 ### 冻结按钮
 
 在使用 [WRCS](../../../systems/weapon_systems/wrcs.md) 进行空对地轰炸时，使用
 [INS](../../../systems/nav_com/ins.md) 取得飞机的速度跟踪，并保持由纵向和横向距离光标门标定的目标位
-置，从而确定雷达起始点。在按下重置按钮或选择其他投放模式之前，该按钮一直亮着。
+置，从而确定雷达起始点。在按下复位按钮或选择其它投放模式之前，该按钮将保持亮起。
 
 ### 目标插入按钮
 

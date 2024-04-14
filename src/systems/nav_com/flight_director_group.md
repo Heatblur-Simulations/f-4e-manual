@@ -1,192 +1,133 @@
-# Flight Director Group
+# 飞行指引指示器组
 
 ![pilot_flight_director_group](../../img/pilot_flight_director_group_overview_numbered.jpg)
 
-Accurate course navigation is provided by
-the Flight Director Group, which includes the Flight Director Computer (1), the Horizontal Situation
-Indicator (HSI) (2) along with the Navigation Function Selector Panel (3), the Attitude Director
-Indicator (ADI) (4), in the front cockpit, and the
-Bearing Distance Heading Indicator (BDHI) (5) together with the Navigation Mode Selector Switch (6)
-in the rear cockpit.
+飞行指引指示器组可为飞行员提供准确的航线导航，其中包括飞行指引计算机 (1)、水平状态显示器 (HSI) (2)
+和导航功能选择面板 (3)、前座的姿态指引指示器 (ADI) (4)，以及后座的方位距离航向指示器 (BDHI) (5) 和
+导航模式选择开关 (6)。
 
 ![wso_nav_mode_selector](../../img/wso_flight_director_group_small_overview.jpg)
 
-## Navigation Function Selector Panel
+## 导航功能选择面板
 
 ![pilot_nav_function_selector](../../img/pilot_nav_function_selector.jpg)
 
-Found on the front cockpit instrument panel, the Navigation Function Selector Panel has two knobs -
-a Bearing/Distance Selector Knob and a Mode Selector Knob.
-Stacked on the Mode Selector Knob is the Flight Director Switch.
+导航功能选择面板位于前座仪表板上，有两个旋钮——一个方位/距离选择旋钮和一个模式选择旋钮。叠加在模式选
+择钮上的是飞行指引开关。
 
-### Bearing Distance Selector Knob (BRG/DIST)
+### 方位距离选择钮 (BRG/DIST)
 
-The Bearing Distance Selector Knob sets the bearing pointer and range indication
-displays on the HSI.
-Positions are VOR/TAC, TAC, ADF/TAC, and NAV COMP.
+方位距离选择旋钮设置 HSI 中的方位指针和距离指示。有几个档位分别为：VOR/TAC、TAC、ADF/TAC 和 NAV
+COMP。
 
-In VOR/TAC mode, magnetic and relative bearing to the [VOR](vor_ils.md)
-station and range to the [TACAN](tacan.md) station are provided on
-the [HSI](../../cockpit/pilot/flight_director_group.md#horizontal-situation-indicator) bearing
-pointer and range indicator.
+在 VOR/TAC 模式下，HSI 方位指针和距离指示器上会显示 VOR 台的及磁方位和 [TACAN](tacan.md) 台的距离。
 
-With TAC mode, magnetic and relative bearing and range to the selected TACAN
-station are displayed.
+在 TAC 模式下，将显示 TACAN 台的距离及磁方位。
 
-In ADF/TAC mode, magnetic and relative bearing to the selected ADF station and
-range to the TACAN station are displayed.
+在 ADF/TAC 模式下，显示选定 ADF 台的距离和磁方位以及 TACAN 台的距离。
 
-And in NAV COMP mode, magnetic and relative bearing and range are provided to
-the destination set in the navigation computer.
+在 NAV COMP 模式下，将提供导航计算机中设定的目标的磁方位及距离。
 
-### Mode Selector Knob (MODE) and Flight Director Switch
+### 模式选择旋钮（MODE）和飞行指引开关
 
-The Mode Selector Knob controls the remaining informational displays on
-the HSI (outer knob), as well as the pitch and bank steering bars on the ADI (inner knob
-labelled FD). The mode selector knob operates independently of the bearing pointer and range
-indicator, and the selector positions are [VOR/ILS](vor_ils.md), [TAC](tacan.md), NAV COMP, and HDG.
-Navigation modes set by this knob will be indicated by an illuminated word message when the
-instrument panel lights are on; available mode word messages are TAC (TACAN), NAV
-(navigation computer), [UHF](uhf.md) (ADF), MAN (HDG entry), ILS (instrument landing
-system), and TGT (target). TGT illuminates that the WSO has provided a target
-entry and pressed TGT on the Cursor Control Panel.
+模式选择旋钮控制 HSI 上的其余信息显示（外侧旋钮），以及 ADI 上的俯仰和坡度转向杆（写有 FD 标签的内
+侧旋钮）。模式选择旋钮的操作独立于方位指针和距离指示器，档位
+为[VOR/ILS](vor_ils.md)、[TAC](tacan.md)、NAV COMP 和 HDG。当仪表板指示灯亮起时，通过该旋钮设置的导
+航模式将以亮起的文字消息表示；可用的模式文字消息有 TAC（塔康）、NAV（导航计算机）、[UHF](uhf.md)
+（ADF）模式、MAN（HDG 输入模式）、ILS（仪表着陆系统）和 TGT（目标模式）。TGT 灯亮表示 WSO 已使用目
+标插入并按下光标控制面板上的 TGT 按钮。
 
-The Flight Director Switch toggles the Flight Director Computer pitch
-and bank angle steering clues, visible on
-the [ADI](../../cockpit/pilot/flight_director_group.md#attitude-director-indicator). Selecting OFF
-removes these bars from view.
+飞行指引开关可切换飞行指引计算机俯仰和坡度转向杆，飞行员可在
+[ADI](../../cockpit/pilot/flight_director_group.md#attitude-director-indicator) 中看到转向杆。选择
+OFF 则将禁用这些转向杆。
 
-In VOR/ILS, if a VOR frequency is selected,
-the HSI Course Set knob is used to set the VOR radial. Once
-set, the HSI Deviation Indicator shows current deviation from the selected course.
-If an ILS frequency was selected, the localizer signal will be shown on the deviation indicator.
+在 VOR/ILS 模式下，如果选择了 VOR 频率，那么 HSI 航线设置旋钮用来设置 VOR 径向。设置完成后，HSI 偏
+差指示器将显示当前与所选航线的偏差。如果选择的是 ILS 频率，偏差指示器将显示航向信标的信号。
 
-TACAN mode presents navigation information to the currently selected TACAN
-beacon.
-To provide full information, the Bearing/Distance Switch should be set to TAC.
-The HSI course arrow and course selector window are set using the Course Set knob to
-the desired TACAN course. Once set, the HSI Deviation Indicator and aircraft symbol
-provide the top-down display relative to the set course, with a maximum
-deviation deflection of ±5 degrees. The HSI Heading Set knob is used to set a
-desired TACAN course for bank steering presentation on the ADI. As the bank steering
-is based on the heading marker position, if it is not set properly, bank steering on the ADI will
-not be correct to intercept the desired course. A To-From indicator displays when the mode selector
-is in TACAN or VOR/ILS mode when either are tuned and received; once the
-course is intercepted, the indication references whether the current course is taking the
-aircraft to or from the tuned station.
+TACAN 模式提供向当前选定的塔康信标导航的信息。如需获取完整的信息，应将方位/距离开关设置为 TAC 档位
+。使用航线设置旋钮将 HSI 航线箭头和航线选择窗口设置到所需的 TACAN 航线。设置完成后，HSI 偏差指示器
+和飞机符号将以俯视视角显示设置航线的相关信息，最大显示偏差为 ±5 度。HSI 航向设置旋钮用于设置所需的
+塔康航线，ADI 中将显示坡度转向杆引导飞向航线。由于坡度转向基于航向标记位置，如果设置不当，按 ADI 上
+的坡度转向指示飞行将无法正确截取所需的航线。当模式选择处于 TACAN 或 VOR/ILS 模式时，一旦调谐并接收
+到信号，向-背台指示器将提供转向信息；一旦截获航线，指示器就会显示当前航线是引导飞机向或背离调谐的地
+面台。
 
-The NAV COMP Mode displays magnetic ground track on the HSI course arrow and the HSI course
-selector window relative to the current navigation computer fix. The ADI bank
-steering bar provides steering information to direct an approach to the command
-heading.
+NAV COMP 模式将在 HSI 航线箭头和 HSI 航线选择窗口上显示相对于当前导航计算机定位点的磁地面航迹。ADI
+坡度转向杆将提供转向信息，引导飞向指令的航向。
 
-With HDG mode active, the HSI course arrow and deviation are slaved to the lubber
-line and aircraft magnetic heading. The HSI course selector window displays the
-current selected magnetic heading, which is adjusted using the Heading Set knob.
-The given course information is applied for
-an ADI bank steering command.
+启用 HDG 模式后，HSI 航线箭头和偏差将隶属至准线和飞机磁航向。HSI 航线选择窗口显示当前选定的磁航向，
+可使用航向设置旋钮进行调整。设置的航线信息将用于 ADI 坡度转向指令。
 
-## Horizontal Situation Indicator (HSI)
+## 水平状态显示器（HSI）
 
 ![pilot_horizontal_situation_indicator](../../img/pilot_hsi.jpg)
 
 ![HSI](../../img/hsi.jpg)
 
-The Horizontal Situation Indicator displays a top-down plan view of current
-navigation, with cues provided relative to the selected navigation mode selector
-position. It interacts closely with several navigational aids like VOR, TACAN, ADF,
-and the aircraft's Navigation Computer (NAV COMP).
+水平状态显示器根据当前导航模式以俯视平面视角，并根据导航模式选择旋钮的当前档位提供提示。它与
+VOR、TACAN、ADF 和飞机导航计算机（NAV COMP）等助航设备密切协同。
 
-The Bearing Pointer and Range Indicator on the HSI display the bearing and distance
-to the navigation aid selected via the Bearing Distance Selector Knob.
-The Navigation Mode Selector governs the functionality of the heading marker,
-course arrow, and the course deviation indicator, which includes a to-from arrow.
-Both these controls – the Bearing Distance Selector and the Navigation Mode Selector – have
-a direct impact on the illumination of specific mode indicator lights on the HSI.
+HSI 上的方位指针和距离指示器，根据方位距离选择旋钮择的档位显示助航设备的方位和距离。导航模式选择旋
+钮控制航向标记、航向箭头和偏差指示器的功能，其中包括一个向-背台箭头。方位距离选择旋钮和导航模式选择
+钮这两个控制旋钮都直接影响 HSI 中的特定模式指示灯是否亮起。
 
-The compass card in the HSI is driven by heading input from the AJB-7 system. It rotates
-to align the aircraft's magnetic heading directly under the lubber line at the top of the
-instrument, assuming the signal received is accurate and reliable.
+HSI 界面中的罗盘由 AJB-7 系统的航向输入来驱动工作。如果接收到的信号准确可靠，方位圈将转动并对准位于
+仪表顶部的准线来显示飞机的磁航向。
 
-The Bearing pointer indicates magnetic bearing to a given VOR, TACAN or NAV COMP station,
-depending on the BRG/DIST switch selection. Providing the compass card is giving good information,
-this bearing is also relative. However, if there are inaccuracies in the magnetic heading,
-to navigate towards the selected destination, the aircraft should be steered not by centering
-the arrow on the lubber line, but by following the heading indicated by the arrow using
-the magnetic compass. If a UHF (ADF) signal is tuned, the bearing pointer consistently shows
-the heading in relative terms.
+根据 BRG/DIST 开关的选择，方位指针指示到指定 VOR、TACAN 或 NAV COMP 台的磁航向。如果方位圈提供的信
+息正确，方位指针也将提供准确指向。但是，如果磁航向不准确，要导航到所选目标，则不应将箭头对准准线，
+而应使用磁罗盘按照箭头指示的航向飞行。如果调谐到 UHF（ADF）信号，方位指针将始终显示相对航向。
 
-The command heading marker provides as a desired heading reference for the Flight Director.
-To obtain correct steering, the marker must be manually set in all but Nav Comp modes (then
-it's automatically set). The steering clues are visible on the ADI bank steering bar.
+指令航向标记为飞行指引指示器提供所需的航向基准。要正确进行转向，必须在除 NAV COMP 模式（之后该标记
+将被自动设置）外的所有模式下手动设置标记。在 ADI 坡度转向杆上可以看到转向提示。
 
-The deflection of the Deviation Indicator in VOR and TACAN modes indicate the deviation of the
-aircraft from the selected course (visible on the Course rollers and Course Arrow).
-Is indicates how far is the aircraft off the selected track. 2.5 deg per dot, maximally
-up to 5 deg.
+在 VOR 和 TACAN 模式下，偏差指示器偏转表示飞机偏离所选航线的（可在航线滚筒和航线箭头上看到）。它表
+示飞机偏离所选航迹的程度。 每个点对应 2.5 度，最大 5 度。
 
 ![Course Deviation](../../img/hsi_course_deviation.jpg)
 
-In ILS mode, the HSI displays deviation from the localizer signal. This indication is more precise,
-as the needle is more sensitive to deviations in that mode. Notably, this reading is independent
-of the selected course, providing direct feedback on the aircraft's alignment with the ILS
-approach path.
+在 ILS 模式下，HSI 显示与航向信标信号的偏差。在 ILS 模式下指示更为精确，因为在该模式下指针对偏差更
+为敏感。值得注意的是，该读数与所选航线无关，而是直接反映飞机对准 ILS 进场路径的情况。
 
-## Attitude Director Indicator (ADI)
+## 姿态指引指示器（ADI）
 
 ![pilot_attitude_director_indicator](../../img/pilot_attitude_director_indicator.jpg)
 
 ![ADI Scheme](../../img/adi_scheme.jpg)
 
-The ADI provides command steering to intercept selected headings, [TACAN](tacan.md)
-stations, tracks, [VOR](vor_ils.md) radials, or navigation computer destinations. Bank
-steering instruction is presented using the bank steering bar, which can
-reference angles up to 35 degrees, at 90 degrees of heading deviation. Any heading errors
-less than that will produce a bank correction of something less than 35 degrees. If a quick
-intercept or a bank angle in excess of 35 degrees is desired, the bank steering must
-be disregarded during the turn.
+ADI 提供转向指令，以拦截选定的航向、[TACAN](tacan.md) 台、航迹、[VOR](vor_ils.md) 径向或导航计算机
+目标。ADI 使用坡度转向杆来提供坡度转向引导，最大可在 90 度航向偏差时提供最高 35 度坡度指示。航向偏
+差小于 90 度时，坡度修正指示都将小于 35 度。如果需要快速拦截或使用超过 35 度坡度，则必须在转弯时忽
+略坡度转向杆。
 
-The system initiates an approximate 50-degree straight-line intercept towards the desired
-track until the aircraft is within 15 degrees of it. Beyond this point, it transitions
-to an asymptotic approach to align with the track. For a faster intercept, it might be necessary
-to disregard the bank steering signal.
+在飞机与航线偏差小于 15 度以内之前，系统开始将以大约 50 度的直线飞向所需航线。偏差小于 15 度后，系
+统过渡至使用渐进接近来方便对准航线。若要更快地拦截，飞行员可能需要忽略坡度转向信号。
 
 ![Bank Steering Intercept](../../img/bank_steering_intercept.jpg)
 
-When the Heading Set knob has been used to enter the correct target heading, the
-intercept presentation is accurate within a 60 degree field of a TACAN course,
-or 90 degrees for a VOR radial. Additionally, a Glide-slope Pointer is provided
-for relative glide-slope position indication during an ILS approach.
+当使用航向设置旋钮输入正确的目标航向时，在 TACAN 航线偏差小于 60 度弧线以及 VOR 径向线偏差 90 度弧
+线内，ADI 将提供可靠的转向信息。此外，在 ILS 进近过程中，ADI 还提供一个下滑道指针，用于在 ILS 进近
+时指示相对下滑道位置。
 
-> 💡 The Heading Marker must be manually aligned with the desired heading (except in NAV COMP mode)
-> to ensure correct bank steering guidance. However, due to wind drift, this bank steering
-> may not always keep the aircraft precisely on a TACAN or VOR track. In such scenarios,
-> manual adjustments for wind correction are required for the Heading Marker setting to maintain
-> the correct course.
+💡 飞行员必须手动将航向标记对准所需航向（NAV COMP 模式除外）以确保坡度转向信息正确。然而，由于风漂
+，坡度转向可能无法始终使飞机准确地保持在塔康或 VOR 航迹上。在这种情况下， 飞行员需要手动修正风偏，
+以保持正确的弧线。
 
-Upon startup of the ADI, an OFF warning flag will be displayed until the AN/AJB-7 gyro has aligned.
-This can also appear due to power loss or a signal failure. The flag does not present if a system
-failure occurs outside of the AN/AJB-7.
+在启动 ADI 时，OFF 旗将在 AN/AJB-7 陀螺仪对准完成前显示在仪表中。断电或信号故障也会导致出现这种情况
+。如果系统故障发生在 AN/AJB-7 之外，则不会显示 OFF 旗。
 
-## Bearing Distance Heading Indicator (BDHI)
+## 方位距离航向指示器 (BDHI)
 
 ![wso_bearing_distance_heading_indicator](../../img/wso_bdhi.jpg)
 
-The Bearing Distance Heading Indicator (BDHI)
-displays navigation information using two needles, referred to as the No. 1 and No. 2 pointers,
-which receive inputs controlled by the WSO Navigation Mode Selector Switch.
+方位距离航向指示器 (BDHI) 通过两个指针（1 号和 2 号指针）显示导航信息，这两个指针指示的信息由 WSO
+导航模式选择开关所选档位来决定。
 
-When the upper position is selected to [TACAN](tacan.md)/ADF/UHF, the no. 1 pointer
-indicates UHF bearing, and the no. 2 pointer indicates the TACAN bearing. If
-there is no TACAN signal, both pointers indicate the ADF bearing.
+选择上方 [TACAN](tacan.md)/ADF/UHF 档位时，1 号指针指示 UHF 方位，2 号指针表示 TACAN 方位。如果没有
+TACAN 信号，则两个指针均指示 ADF 方位。
 
-With the middle position selected - [VOR](vor_ils.md)/TAC, the no. 1 pointer indicates
-the VOR
-bearing, the no. 2 pointer indicates the TACAN bearing, and the range indicator
-provides distance to the TACAN station. In the absence of a TACAN signal,
-both
-pointers indicate the VOR station.
+选择中间档位——[VOR](vor_ils.md)/TAC 时，1 号指针指示 VOR 方位，2 号指针指示 TACAN 方位，距离指示器
+显示与 TACAN 台的距离。在没有 TACAN 信号的情况下，两个指针均指示 VOR 台方位。
 
-In the lower position, NAV COMP, the no. 1 pointer indicates bearing to the
-navigation computer target coordinates, and the no. 2 pointer indicates magnetic
-ground track. The range indicator notes distance to the target coordinates.
+选择下方的 NAV COMP 档位，1 号指针指示导航计算机中目标坐标的方位，2 号指针指示磁地面航迹。距离指示
+器显示目标坐标的距离。

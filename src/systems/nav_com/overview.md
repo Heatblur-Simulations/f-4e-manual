@@ -1,19 +1,14 @@
-# Navigation & Communication
+# 导航 & 通信
 
-The [AN/ASN-63 Inertial Navigation System (INS)](./ins.md) equips the F-4E aircrew and integrated
-weapons delivery system with real-time accurate positional, velocity, attitude, and heading
-information.
+[AN/ASN-63 惯性导航系统 (INS)](./ins.md) 为 F-4E 机组人员和一体化武器投放系统提供精确的实时位置、速
+度、姿态和航向信息。
 
-The [UHF communication system](./uhf.md) in the aircraft is modified to support
-both [crypto](./encryption.md) and conventional voice transmission and reception.
-The [intercom system](./intercom.md) and [UHF transceiver](./uhf.md) are adapted for
-operational compatibility with the [KY-28 speech security unit.](./encryption.md)
+飞机上的 [UHF 通信系统](./uhf.md) 经过改装，可同时支持 [加密](./encryption.md) 和常规话音收发
+。[内话系统](./intercom.md) 和 [UHF 收发器] 同样进行了改装来适配
+[KY-28 保密话音装置。](./encryption.md) 进行工作
 
-The [VHF Omnidirectional Range Instrument Landing System (VOR/ILS)](./vor_ils.md) furnishes accurate
-bearing and course deviation information through a ground station transmitter. This system enables
-the aircraft to utilize precision landing approach and descent capabilities at fields equipped with
-a localizer.
+[VHF 全向信标仪表着陆系统 (VOR/ILS)](./vor_ils.md) 通过地面台发射机提供准确的方位和航线偏差信息。系
+统可使飞机在配有航向信标的机场获得精确进近和下高能力。
 
-The [Tactical Air Navigation (TACAN)](./tacan.md) system offers bearing and range information to
-transmitting stations, with a reception range of up to 390 miles from ground stations and 200 miles
-for air-to-air [TACAN-equipped](./tacan.md) aircraft.
+[战术空中助航 (TACAN)](./tacan.md) 系统向发射台提供方位和距离信息，由地面台传输的信号接收距离可达
+390 英里，[机载 TACAN](./tacan.md) 的信号接收距离可达 200 英里。

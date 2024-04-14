@@ -1,95 +1,63 @@
-# KY-28 Speech Security Unit
+# KY-28 保密话音装置
 
-## Speech Security Unit KY-28
+## 保密话音装置 KY-28
 
-The UHF communication system is capable of providing either conventional or
-crypto voice transmission and reception. Both UHF and intercom systems can be
-used in combination with the KY-28 Speech Security Unit, if so desired in a
-tactical or hostile environment. The KY-28 can either cipher outgoing voice
-transmissions or decipher received voice transmissions, however these functions
-cannot be performed simultaneously. The crew can choose between plain or cipher
-mode of operation. In the cipher mode operation the KY-28 converts voice inputs
-through the microphone into crypto transmissions and deciphers crypto replies
-that are being received to the crews headsets. In the plain mode operation the
-UHF functions as a conventional voice transceiver.
+UHF 通信系统能够提供传统的或加密的话音传输和接收功能。如果在战术或敌对环境中，UHF 和内话系统都可以
+结合 KY-28 保密话音装置使用。KY-28 可以对发出的话音传输进行加密，或者对收到的话音传输进行解密，但是
+这些功能不能同时执行。机组人员可以选择使用明文或密文工作模式。在密文工作模式中，KY-28 通过传声器将
+话音输入转换为加密传输，并将收到的加密回复解密到机组人员的头戴中。在明文模式操作中，UHF 充当传统的
+话音收发器。
 
-## KY-28 Controls and Indicators
+## KY-28 控制开关/按钮和显示
 
 ![KY28Mode](../../img/pilot_ky_28.jpg)
 
-The KY-28 is controlled by the KY-28 control panel and respectively the
-conventional UHF or Intercom controls. Both front and rear cockpit instrument
-panels display mode lights for either mode. If the mode light P is illuminated
-the KY-28 and UHF/Intercom is operated in plain mode. If the mode light C is
-illuminated the KY-28 and UHF/intercom is operated in the cipher mode.
+KY-28 通过 KY-28 控制面板以及传统的 UHF 或内话控制开关进行控制。前后驾驶舱的仪表板上都会显示每种模
+式的指示灯。如果模式灯 P 亮起，表示 KY-28 和 UHF/内话正在以明文模式运行。如果模式灯 C 亮起，则表示
+KY-28 和 UHF/内话正在以密文模式运行。
 
-## KY-28 Control Panel
+## KY-28 控制面板
 
 ![wso_ky_28](../../img/wso_ky_28_control_panel.jpg)
 
-The KY-28 control panel is in the rear cockpit. It has a power knob, a mode switch and a code
-zeroize button. The power knob provides power to the KY-28 and can be set to either OFF, ON or RLY (
-relay). The KY-28 is not powered in the OFF position. It is powered in the ON and RLY positions. If
-a direct communication between KY units is desired, the ON position is to be selected.
+KY-28 控制面板位于后舱。面板中有一个电源旋钮、一个模式开关和一个清零按钮。电源旋钮用来控制 KY-28 电
+源，可以设置为 OFF、ON 或 RLY（中继）单位。当旋钮在 OFF 档位时，KY-28 断电。在 ON 和中继档位时
+，KY-28 供电。如果希望 KY 装置之间进行直接通信，则应选择 ON 档位。
 
-> 💡 RLY would provide the ability to use the KY-28 as a retransmission facility,
-> which is not modeled in DCS.
+💡 RLY 档位使 KY-28 可以作为转播设备，DCS 中未模拟。
 
-The mode switch can be set to either P (plain) or C (cipher)
-operating modes. To change modes the switch has to be pulled outwards. If the
-KY-28 is powered and the mode switch is set to the C position, the UHF
-transmitter is automatically selected for front cockpit transmissions. Pressing
-the zeroize button neutralizes the preset code in the KY-28. The zeroize button
-is guarded and should only be used in emergencies or after aircraft shutdown if
-required. As the code can only be set on the ground, pressing the zeroize button
-during flight makes the cipher mode inoperable for the crew for the remainder of
-the flight.
+模式开关可以设置为 P（明文）或 C（密文）工作模式。要调整工作模式，需要向外抽出开关。如果 KY-28 已经
+通电，并且模式开关设置在 C 档位，那么 UHF 发射器会自动被选定用于飞行员驾驶舱传输。按下清零按钮会清
+除 KY-28 中的预设编码。清零按钮带有保护盖，只应在应急情况下或在飞机关车后根据需要使用。由于编码只能
+在地面进行设置，因此在飞行中按下清零按钮会使机组人员在剩余飞行时间内无法使用密文模式。
 
-> 💡 To permit conventional UHF communications the mode must be set to P
-> (plain) even if the KY-28 power knob is in the OFF position. If the mode is set
-> to C (cipher), conventional UHF communication is inhibited in both the front and
-> rear cockpit. An exception to this is transmission and reception on guard or aux
-> receivers, as these are not affected by the cipher mode.
+💡 如需使用传统的 UHF 通信，即使 KY-28 的电源旋钮处于 OFF 档位，模式开关也必须设置为 P（明文）。如
+果模式设置为 C（密文），则会在前后舱中禁用传统的 UHF 通信。但是救生或辅助接收机上的传输和接收，不受
+开关设置的影响。
 
-## KY-28 Modes of Operation
+## KY-28 工作模式
 
-All transmitted and received signals are routed through the KY-28 unit. When the
-KY-28 mode is set to P (plain), the UHF transceiver operates in the conventional
-voice manner, whether the KY-28 is powered or not.
+所有传输和接收的信号都会路由通过 KY-28 装置。当 KY-28 模式设置为 P（明文）时，无论 KY-28 是否供电
+，UHF 收发器都以传统的话音方式工作。
 
-To operate the UHF transceiver in the KY-28s C (cipher) mode, the KY-28 has to
-be powered. When operating in the cipher mode, the KY-28 unit functions in
-either standby, receive, or transmit.
+要使用 KY-28 的 C（密文）模式操作 UHF 收发器，机组必须为 KY-28 通电。在密文模式下操作时，KY-28 装置
+可处于待机、接收或传输状态。
 
-All KY-28 units remain in the STANDBY condition until either the microphone
-button is actuated or a sync preamble is received. Once transmission or
-reception of the crypto message has been completed the KY-28 automatically
-reverts to the standby condition. While the KY-28 is in the standby condition
-the radio equipment also functions as a traditional receiver as all incoming
-non-crypto transmissions are passed directly to the headsets.
+所有 KY-28 装置在激活传声开关或接收到信号之前，都将保持在待机状态。一旦完成密文消息的传输或接收
+，KY-28 会自动回到待机状态。当 KY-28 处于待机状态时，电台设备也会像传统接收机一样工作，所有传入的非
+密文传输都会直接传递到头戴中。
 
-The unit switches to the cipher RECEIVE condition whenever a sync preamble is
-received. The sync preamble is generated by other KY-8, KY-28 or KY-38 units
-when the transmitting stations operator actuates the microphone button. The sync
-preamble ensures that all units in the network are in the cipher receive
-condition. The enciphered message is received immediately after the sync
-preamble signal and the message is decoded by the KY-28 and passed to the
-aircrew headsets in the form of plain language.
+每当接收到前同步码时，KY-28 会切换到密文接收状态。前同步码是由其它 KY-8、KY-28 或 KY-38 装置在收发
+机操作员使用传声开关时生成的。前同步码确保网络中的所有装置都处于密文接收状态。紧随前同步码其后的是
+将被接收的加密消息，并且 KY-28 将消息解码并以明文的形式播放至机组头戴中。
 
-When the UHF microphone button is set to the UHF position, the KY-28 switches to
-the TRANSMIT condition. The sync preamble signal is transmitted to all receiving
-KY stations to switch to the cipher receive condition. After actuating the
-microphone button, a brief tone is heard in the aircrew headsets. The tone
-signal indicates that the sync preamble signal has been completed and
-transmitted, after which the KY-28 is ready to transmit the crews voice input.
-When the mic button is released again, the KY-28 reverts to the standby
-condition. The WSO must select UHF communications with the radio selector switch
-to transmit ciphered messages. The UHF transmitter is automatically selected for
-front cockpit transmissions if the KY-28 is operated in mode C.
+当 UHF 传声开关拨至 UHF 档位时，KY-28 会切换到传输状态。前同步码将被传输到所有能接收的 KY 设备来将
+其切换到密文接收状态。在激活传输开关之后，机组人员将在头戴中会听到一个提示单音。这个提示单音表示前
+同步码已经生成并传输，之后 KY-28 准备好传输机组人员的话音输入。当再次松开传声开关时，KY-28 将恢复到
+待机状态。WSO 必须使用无线电台选择开关来选择 UHF 通信来传输加密消息。如果 KY-28 在 C 模式下工作
+，UHF 发射器将被自动选定至由飞行员驾驶舱进行传输。
 
-> 💡 With the C (cipher) mode selected, the transmit condition overrides the
-> cipher receive condition. Hence during cipher receive operation the UHF
-> microphone button should not be actuated until the incoming message has been
-> completed.
+💡 选择 C（密文）模式后，传输状态会超控密文接收状态。因此，在密文接收操作期间，在消息接收完成之前，
+不应拨动 UHF 传声开关。
 
-For operations procedure see [Chapter KY-28 Operations](../../procedures/ky_28_operations.md).
+相关操作程序，请参见 [KY-28 操作章节](../../procedures/ky_28_operations.md).

@@ -38,7 +38,7 @@
 - 3250-3400 - 如果稳定超出 3250，必须在表格 781 记录
 - 3400 - 最大值
 
-详见 [3.5 Hydraulics chapter](../../systems/hydraulics.md)。
+详见 [3.5 液压章节](../../systems/hydraulics.md)。
 
 ## 气压压力表
 
@@ -52,7 +52,7 @@
 - 3300-3500 - 注意区
 - 3500 - 最大
 
-详见 [3.6 Pneumatics chapter](../../systems/pneumatics.md)。
+详见 [3.6 气动章节](../../systems/pneumatics.md)。
 
 ## 屏幕显示源开关
 
