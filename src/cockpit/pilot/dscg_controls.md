@@ -118,7 +118,7 @@ dot in the ASE circle. See the [3.10 Radar System](../../systems/radar/overview.
 
 ![Wheels](../../img/pilot_dscg_wheels_light.jpg)
 
-The WHEELS lamp (<num>2</num>) illuminates when the aircraft slows below flaps blow-up speed
+The WHEELS light (<num>1</num>) illuminates when the aircraft slows below flaps blow-up speed
 (roughly 230 knots, dependent on altitude)
 with [the gear](../../systems/flight_controls_gear/gear_ground_handling.md) still raised.
 In this situation, the aircraft assumes the intention is to land and the light illuminates
