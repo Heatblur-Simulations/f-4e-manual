@@ -360,7 +360,7 @@ Spike** and **Pave Tack**.
 Of particular note is the installation of the Digital Modular Avionics System,
 or **DMAS**. DMAS was a complete replacement of the Phantom's navigation
 computer, inertial navigation set, and the WRCS, which used LORAN (**Lo**ng
-**Ra**nge Navigation) radio signals to accurately define the aircraft's position
+**Ra**nge **N**avigation) radio signals to accurately define the aircraft's position
 anywhere in the world. The inclusion of DMAS provided a substantial improvement
 in the F-4E's navigation options and weapon release precision, and an expansion
 of the Phantom's delivery mode capabilities.
