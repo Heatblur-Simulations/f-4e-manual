@@ -24,7 +24,8 @@ W prefix on the range sets the relative bearing direction.
 
 The final ALT RANGE entry is for target altitude- whether the target or RIP
 (Radar Identification Point) elevation as MSL, or the target/RIP's pressure
-altitude.
+altitude. In Laydown mode the entry refers to the distance between the IP and
+the target in hundreds of feet.
 
 Entries for North/South and East/West are in 100 foot increments, and a maximum
 value of up to 99,900 feet may be entered for these distances. The ALT RANGE

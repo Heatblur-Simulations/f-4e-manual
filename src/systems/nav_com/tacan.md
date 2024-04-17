@@ -37,11 +37,11 @@ information on the HSI, the ADI, and the BDHI.
 
 ### Navigation Channel Control Knobs
 
-On the TACAN Control Panel beneath the channel window, a pair of knobs (7, 4 and 3) set the
-desired TACAN channel. The left knob (<num>7</num>) controls the tens and hundreds digits of the
-channel. The right knob (<num>4</num>) selects the units of the operating channel, and the
-outer knob (<num>3</num>) sets the X or Y channel; both X and Y have 126 available channels.
-While the indicator can show 127, 128, and 129, these values are nonfunctional.
+On the TACAN Control Panel beneath the channel window, a pair of knobs (<num>7</num>, <num>4</num>
+and <num>3</num>) set the desired TACAN channel. The left knob (<num>7</num>) controls the tens and
+hundreds digits of the channel. The right knob (<num>4</num>) selects the units of the operating
+channel, and the outer knob (<num>3</num>) sets the X or Y channel; both X and Y have 126 available
+channels. While the indicator can show 127, 128, and 129, these values are nonfunctional.
 
 ### TACAN Function Selector Knob
 
@@ -67,5 +67,6 @@ station.
 
 ### TACAN Test Button
 
-The Tacan test button (<num>6</num>) may be used to test the TACAN System. For a detailed procedure see
+The Tacan test button (<num>6</num>) may be used to test the TACAN System. For a detailed procedure
+see
 the [Navigation Test Procedure](../../procedures/bit_tests/navigation_tests.md).
