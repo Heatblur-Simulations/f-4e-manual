@@ -1,478 +1,360 @@
-# Radar Interface
+# 雷达界面
 
-The radar system can be setup by the WSO with two panels on the left console,
-the Radar Set Control Panel and the Control Monitor Panel.
+WSO 可以通过左侧控制台上的两个面板设置雷达系统，即雷达套件控制面板和控制监控面板。
 
-Radar returns are displayed on the DSCG screen, while the Antenna Hand Control
-stick on the right console of the WSO cockpit can be used to operate the radar.
+雷达回波显示在 DSCG 屏幕上，而 WSO 驾驶舱右侧控制台上的天线手控杆可用于操作雷达。
 
-## Radar Set Control Panel
+## 雷达套件控制面板
 
 ![wso_radar_control_panel](../../img/wso_radar_panel.jpg)
 
-### Power
+### 电源旋钮
 
 ![Power Knob](../../img/wso_radar_power_switch.jpg)
 
-| Name | Description                                                                                                                     |
-| ---- | ------------------------------------------------------------------------------------------------------------------------------- |
-| OFF  | Powers radar off.                                                                                                               |
-| TEST | Applies voltage to control monitor power and provides [BIT-test](../../procedures/bit_tests/overview.md) functions 1 through 6. |
-| STBY | Power applied to radar, remains in a non-transmitting standby state.                                                            |
-| OPR  | System is fully operational.                                                                                                    |
-| EMER | Overrides the time delay, pressure, and temperature restrictions to allow radar operation.                                      |
+| 选项名称 | 描述                                                                             |
+| -------- | -------------------------------------------------------------------------------- |
+| OFF      | 雷达关闭。                                                                       |
+| TEST     | 向控制显示器供电，并提供[BIT](../../procedures/bit_tests/overview.md) 功能 1-6。 |
+| STBY     | 雷达通电，保持无发射待机状态。                                                   |
+| OPR      | 系统完整工作。                                                                   |
+| EMER     | 超控延时、压力和温度限制，允许雷达工作。                                         |
 
-Initial powering of the APQ-120 starts by placing the Radar Power Knob into TEST
-or STBY (Standby). The warmup cycle requires 3 minutes from selecting either
-setting, and confirmation of this process is shown via the Control Monitor Meter
-on the Monitor Panel; after 30 seconds from cycling power, the gauge will
-display a value of roughly 250Vdc; from the point the needle shows power at this
-nominal value, the warmup procedure will be 2.5 minutes.
+将雷达电源旋钮转至 TEST 或 STBY 档位，即会为 APQ-120 通电。在选择任意档位后，雷达将需要 3 分钟预热
+周期，通过监控面板上的监控仪表显示来确认预热进程；在通电 30 秒后，仪表将显示大约 250 伏直流电数值；
+从指针在此标称值上显示电流开始，预热程序剩下 2.5 分钟。
 
-After 3 minutes, the radar can safely be placed into OPR (Operate) for
-employment of the radar, BIT testing can be performed in TEST mode, or the radar
-can be left in STBY for the safety of crew and others on the ground.
+3 分钟后，雷达可以安全地进入 OPR（工作）来使用雷达，或者可以切换到 TEST 模式以进行 BIT，也可以将雷
+达留在 STBY 模式来确保地勤人员安全或其它位于地面的人员。
 
-In the event of an emergency situation requiring immediate operation of the
-radar, EMER can be selected; See the
-[Magnetron and Klystron](operation.md#magnetron-and-klystron) section for more
-details.
+在应急情况下需要立即操作雷达时，可以选择 EMER 档位；更多详细信息，请参阅
+[磁控管和速调管](operation.md#磁控管和速调管) 部分。
 
-### Range
+### 距离旋钮
 
 ![Range Knob](../../img/wso_radar_range_switch.jpg)
 
-Range control sets the range of the radar, note there are some modes where the
-range settings available are restricted or forced to a specific setting.
+距离控制用于设置显示器的显示距离，请注意，在某些模式下，可用的距离设置被限制或强制为特定设置。
 
-Current Radar Set range will illuminate the respective indicator
-[range lamp](../../cockpit/pilot/dscg_controls.md#range-lights), as well as
-display the numerical value on the DSCG display in the upper left.
+当前雷达距离设置将会使对应的 [距离灯](../../cockpit/pilot/dscg_controls.md#距离灯) 亮起，并在 DSCG
+显示器左上角上显示数值。
 
 ![pilot_dscg_range_lights](../../img/pilot_dscg_range_lights.jpg)
 
-Values up to 50 nmi are indicated as Air-Intercept (AI) are available for
-[Automatic Tracking](operation.md#track) and, 100 nmi and 200 nmi settings are
-available for [Spotlight](operation.md#spotlight).
+雷达在 [自动跟踪](operation.md#跟踪) 下最远可设置为 50 海里，在这个距离内旋钮带有空空拦截（AI）标记
+， 而在 [聚束](operation.md#聚束) 下则可以设置为 100 和 200 海里。
 
-### Polarization Control
+### 极化控制
 
-The polarization of the radio frequency energy can be changed using the
-polarization control. In normal operation the LIN setting is used which produces
-linearly polarized light in the vertical direction relative to the antenna, this
-minimizes ground returns as many types of ground clutter are less reflective to
-vertically polarized light. However because the antenna is not roll stabilized
-increased return intensity may be seen when rolling the aircraft.
+WSO 可以使用极化控制来改变电磁波的极化。在正常操作中，使用 LIN 模式，线极化设置在相对天线垂直方向上
+产生线性极化波束，来最大限度地减少地面回波，这是因为许多类型的地面杂波对垂直极化波的反射较小。然而
+，由于天线无横滚稳定，在横滚时可以观察到地面杂波增大。
 
-Both CIR 1 and CIR 2 are circularly polarized positions. Precipitation is less
-reflective to circularly polarized light, so CIR 1 and CIR 2 can aid in
-minimizing clutter in rain or fog.
+CIR1 和 CIR2 都是圆极化波。降水不易反射圆极化波，因此 CIR 1 和 CIR 2 可以帮助最大限度地减少雨或雾反
+射的杂波。
 
-The polarization is set using the quarter waveplate in the feedhorn which causes
-the [continuous wave emissions](operation.md#klystron) to be polarized as
-described above. This makes only CIR 1 compatible with launching sparrows as the
-sparrow rear antenna cannot receive counterclockwise polarized light.
+使用喇叭馈源中的 1/4 波片来设置极化，这使得[连续波发射](operation.md#速调管) 能按照上述方式极化。这
+种极化方式使得只有 CIR 1 能用于发射“麻雀”——因为“麻雀”尾部天线无法接收左旋极化。
 
-| Selection | Description                                                                                                        |
-| --------- | ------------------------------------------------------------------------------------------------------------------ |
-| LIN       | RF energy is lineally polarized in a vertical orientation. [AIM-7](../../stores/air_to_air/aim_7.md) can be fired. |
-| CIR 1     | RF energy is circularly polarized clockwise. AIM-7 can be fired.                                                   |
-| CIR 2     | RF energy is circularly counterclockwise. AIM-7 cannot be fired.                                                   |
+| 选项  | 描述                                                                            |
+| ----- | ------------------------------------------------------------------------------- |
+| LIN   | 电磁波在垂直方向上线性极化。可以发射[AIM-7](../../stores/air_to_air/aim_7.md)。 |
+| CIR 1 | 电磁波顺时针圆极化。可以发射 AIM-7。                                            |
+| CIR 2 | 电磁波逆时针圆极化。无法发射 AIM-7。                                            |
 
-> 💡 Only LIN and CIR 1 modes can be used with the Sparrow, a Sparrow launched
-> using CIR 2 will not guide.
+💡 只有 LIN 和 CIR 1 模式可以使用 AIM-7 “麻雀”导弹。当在 CIR 2 模式下发射“麻雀”时，导弹不制导。
 
-### Maneuver Switch
+### 机动开关
 
 ![Maneuver Switch](../../img/wso_radar_maneuver_switch.jpg)
 
-The maneuver switch is used to specify the tracking response to target
-accelerations.
+机动开关用于指定对目标加速度的跟踪响应。
 
-| Selection | Description                                                                                        |
-| --------- | -------------------------------------------------------------------------------------------------- |
-| LOW G     | Default position. Limits tracking accelerations to reduce response to countermeasures and clutter. |
-| HI G      | Allows track loop to respond with any acceleration.                                                |
+| 选项  | 描述                                                                |
+| ----- | ------------------------------------------------------------------- |
+| LOW G | 默认档位。限制跟踪加速度，以减少对对抗措施和杂波的反应。            |
+| HI G  | 移除 LOW G 限制功能并允许距离跟踪环路响应空战中可能出现的高加速度。 |
 
-HI G is forced when
-[Computer Automatic Acquisition](operation.md#computer-automatic-acquisition-mode-caa)
-is used.
+当使用 [计算机自动截获](operation.md#计算机自动截获模式-caa) 时，强制进入 HI G 模式。
 
-### Scan Switch
+### 扫描开关
 
 ![Bar Scan Switch](../../img/wso_radar_bar_scan_switch.jpg)
 
-The scan switch specifies the number of elevation bars used in search.
+扫描开关用于指定搜索中使用的扫描线数。
 
-| Selection | Description                                                        | Total Vertical Coverage (degrees) |
-| --------- | ------------------------------------------------------------------ | --------------------------------- |
-| 1 Bar     | Scans along radar plane.                                           | 6.7 (3.7 without nutation)        |
-| 2 Bar     | Scan alternates between 1.875 degrees above/below the radar plane. | 10.45                             |
+| 选项  | 描述                                       | 总垂直覆盖范围（度）     |
+| ----- | ------------------------------------------ | ------------------------ |
+| 1 Bar | 仅沿雷达平面扫描                           | 6.7 (在无章动情况下 3.7) |
+| 2 Bar | 在雷达平面上方/下方 1.875 度之间交替扫描。 | 10.45                    |
 
-1 Bar Scan is automatically commanded when MAP is selected on the
-[Radar Mode Knob](#radar-modes-mode). For BST, AIR-GND and CAGE conditions scan
-switch position is not relevant.
+当 [雷达模式旋钮](#雷达模式-mode-旋钮) 转至 MAP 时，自动指令进行 1 BAR 扫描。对于 BST、AIR-GND 和
+CAGE 状态，扫描开关档位无功能。
 
-### Aspect
+### 态势旋钮
 
 ![Aspect Knob](../../img/wso_radar_aspect_knob.jpg)
 
-The aspect knob is used to provide the
-[Sparrow](../../stores/air_to_air/aim_7.md) with a simulated doppler signal when
-**no lock** is achieved to aid with sparrow speed gate lock-on when sparrow is
-to be fired in boresight. When the radar is tracking, the calculated (or manual
-if in manual) closure is used to set a narrow sparrow speed gate +/- 150 kts
-around the closure for the sparrow to search when launched.
+态势旋钮用于需要在瞄准轴 **无锁定** 的情况下向 [麻雀导弹](../../stores/air_to_air/aim_7.md) 提供模
+拟多普勒信号来辅助导引头跟踪速度门预定信号并发射导弹。当雷达进行跟踪时，计算的（或手动的，如果是手
+动模式下）接近率将被用于在接近率周围为麻雀设置一个 +/-150 节 窄速度门 ，来让麻雀在发射后进行搜索。
 
-The aspect knob also controls the display mode of the DSCG numeric output while
-the radar is is in track.
+当雷达处于跟踪状态时，态势旋钮还可控制 DSCG 数字输出的显示模式。
 
-See below the display and speed get settings for the various positions of the
-aspect knob, with Vc indicating selected closure velocity for the speed gate,
-where TAS is the aircraft true airspeed.
+请参阅下表中不同的态势旋钮档位所对应的显示和速度门设置，Vc 表示选定的速度门接近率，其中 TAS 是飞机
+的真空速。
 
-| Selection | DSCG Display     | Sparrow Speed Gate Setting (Vc) |
-| --------- | ---------------- | ------------------------------- |
-| WIDE      | Closure Velocity | Entire Spectrum                 |
-| NOSE      | Altitude         | TAS + 450 +/- 150 kts           |
-| FWD       | Aspect           | TAS + 240 +/- 150 kts           |
-| AFT       | Closure Velocity | TAS - 240 +/- 150 kts           |
-| TAIL      | Heading          | 0 +/- 150 kts                   |
+| 选项 | DSCG 显示内容 | 麻雀速度门设置(Vc)   |
+| ---- | ------------- | -------------------- |
+| WIDE | 接近率        | 全频谱               |
+| NOSE | 高度          | TAS + 450 +/- 150 节 |
+| FWD  | 态势          | TAS + 240 +/- 150 节 |
+| AFT  | 接近率        | TAS - 240 +/- 150 节 |
+| TAIL | 航向          | 0 +/- 150 节         |
 
-Closure Velocity - Displayed in knots with positive values indicating closing
-and negative values indicating opening.
+接近 - 以节为单位显示，正值表示接近，负值表示离开。
 
-Altitude - Displayed in hundreds of feet (with the last digit always zero) for
-example 20,000 MSL would be displayed as 200.
+高度 - 以百英尺为单位显示（最后一位数字始终为零），例如 20000 MSL 将显示为 200。
 
-Aspect - Angle off the tail of the target aircraft to the shooter (own ship),
-this means if the target is flying directly away is 0 degrees and directly
-towards is 180 degrees. Left is shown by negative values and right by positive
-values.
+目标态势 - 目标飞机机尾与发射机（本机）的夹角，0 度表示本机处在目标正后方，180 度为正前方。处在目标
+左边用负值表示，右边用正值表示。
 
-Heading - Heading is displayed in degrees from 000 - 360 with the last digit
-always zero.
+航向 - 航向以 000-360 度为单位显示，最后一位数字始终为零。
 
-### Receiver Gain (RCVR GAIN)
+### 接收机增益（RCVR GAIN）
 
 ![Receiver Gain Knob](../../img/wso_radar_receiver_gain.jpg)
 
-The stacked RCVR GAIN potentiometers FINE on top and COARSE on the bottom,
-provide the ability to adjust the receiver gain. FINE is used for small
-adjustments and COARSE is used for large adjustments. For more information see
-[Gain Control](operation.md#gain-control) section.
+RCVR 增益旋钮采用分层设计，下层粗调节，上层精调节，来调节接收器增益。精调节用于小幅调整，粗调节用于
+大幅调整。有关更多信息，请阅读 [增益控制](operation.md#增益控制)部分。
 
-### Track Switch
+### 跟踪开关
 
 ![Track Switch](../../img/wso_radar_track_switch.jpg)
 
-Track switch alters [range tracking](operation.md#range-track) settings. The
-default position is AUTO which operates normal range tracking with
-[Home on Jam](operation.md#home-on-jam) if jamming is detected. Home on jam can
-be disabled (if jamming is erroneously detected) by setting the track switch to
-AOJ OUT. Lastly if required manual range tracking can be used by setting MANUAL
-at which point the [MAN Vc](operation.md#manual-vc-man-vc) knob position will be
-used to set the tracking gate closure velocity.
+跟踪开关用于调整 [距离跟踪](operation.md#距离跟踪) 设置。默认档位为 AUTO，该档位下使用正常距离跟踪
+，在探测到干扰后，将进入 [干扰源寻的](operation.md#干扰源寻的)。跟踪开关 设置到 AOJ OUT 后可以禁用
+HOJ 模式（如果错误地探测到干扰）。最后，如果需要，可以通过设置到 MANUAL 来使用手动距离跟踪，此时
+[MAN Vc](#手动接近率-man-vc) 旋钮将用于设置跟踪门接近率。
 
-### Display Knob
+### 显示旋钮
 
 ![Display Knob](../../img/wso_radar_display_knob.jpg)
 
-The DSCG can display returns in B-Scope or Plan Position Indicator (PPI)
-display.
+DSCG 可以 B 显或平面位置显示器（PPI）显示回波。
 
-In B-Scope the horizontal axis of the display indicates azimuth, and the
-vertical axis represents slant range.
+在 B 显中，显示器的横轴表示方位，纵轴表示斜距。
 
-In PPI the horizontal axis is distance to the left and right of the aircraft,
-with the vertical axis representing distance along the track of the aircraft.
+在 PPI 中，横轴表示到飞机左右的横向距离，纵轴表示沿着飞机航迹的纵向距离。
 
-There are also two Sweep Settings NAR and WIDE, NAR is a narrow 45 degree sweep
-and WIDE is a full 120 degree sweep. See
-[Automatic Search](operation.md#automatic-search) for more.
+还有两种扫描设置——NAR 和 WIDE，NAR 是窄 45 度扫描，WIDE 是全 120 度扫掠。有关详细信息，请参
+阅[自动搜索](operation.md#自动搜索)。
 
-The display can also be directed to provide course guidance for a Vis Ident (VI)
-intercept profile against a locked target.
+显示器也可用于显示锁定目标的目视识别（VI）拦截剖面的航线引导。
 
-### Manual Vc (MAN Vc)
+### 手动接近率（MAN Vc）
 
 ![Manual Vc Knob](../../img/wso_radar_man_vc.jpg)
 
-The MAN Vc switch is a 12 position used to set a closure velocity for
-[manual range tracking](operation.md#range-track). The 1,2 two positions
-counter-clockwise set an opening velocity of 100 and 200 knots respectively. The
-0 to 9 positions clockwise set a closure velocity from 0 to 900 knots.
+MAN Vc 开关是一个 12 档位开关，用于设置 [手动距离跟踪](operation.md#距离跟踪) 的接近率。1、2 两个逆
+时针档位分别设定 100 节和 200 节的离开速度。0 到 9 顺时针档位用来设置 0 到 900 节接近率。
 
-Closing refers to an target decreasing in range and opening refers to a target
-increasing in range.
+接近是指距离缩短的目标，离开是指距离增加的目标。
 
-### Pulse Switch
+### 脉冲开关
 
 ![Pulse Switch](../../img/wso_radar_pulse_switch.jpg)
 
-The pulse switch sets the pulse and pulse repetition frequency for the radar
-set. See the [Pulse Setting](operation.md#pulse-setting) for more information.
+脉冲开关设置雷达套件的脉冲和脉冲重复频率。有关更多信息，请参阅 [脉冲设置](operation.md#脉冲设置)。
 
-In [AIR-GRD](#air-grd-air-to-ground-position) mode and
-[Computer Automatic Acquisition](operation.md#computer-automatic-acquisition-mode-caa),
-the pulse switch is disabled automatically and SHORT pulse is commanded.
+在 [AIR-GRD](#air-grd-空对地-档位) 和 [计算机自动截获](operation.md#计算机自动截获模式-caa) 模式下
+，系统自动禁用脉冲开关，并指令使用 SHORT（短）脉冲。
 
-## Radar Modes (MODE)
+## 雷达模式（MODE）旋钮
 
 ![Mode Knob](../../img/wso_radar_mode_knob.jpg)
 
-Specific radar operating modes are dependent on the radar mode knob but also
-several other conditions and switches. For a comprehensive description of the
-radar operation see the
-[Radar Operation (General)](operation.md#radar-operation-general),
-[Radar Operation (Air-To-Air)](operation.md#radar-operation-air-to-air),
-[Radar Operation (Air-To-Ground)](operation.md#radar-operation-air-to-ground)
+具体的雷达工作模式取决于雷达模式旋钮，以及其它几种条件和开关。有关雷达操作的全面介绍，请阅读
+[雷达操作（整体）](operation.md#radar-operation-general)、[雷达操
+作[空对空](operation.md#空对空操作) 、[雷达操作（空对地）](operation.md#空对地操作)
 
-This section will briefly cover each of the positions of the radar mode knob and
-link to the relevant sections below.
+这部分将简要介绍雷达模式旋钮的各个档位，并链接到下面的相关部分。
 
-### BST (Boresight) Position
+### BST（瞄准轴）档位
 
-BST forces the radar into the
-[boresight](operation.md#boresight-and-cage-condition) state. This is used when
-the target is spotted visually or a [Sparrow](../../stores/air_to_air/aim_7.md)
-is to be fired without radar tracking.
+BST 强制雷达进入[瞄准轴](operation.md#瞄准轴和锁定状态) 状态。当目视发现目标或在没有雷达跟踪的情况
+下发射 [麻雀](../../stores/air_to_air/aim_7.md)时，使用 BST 模式。
 
-### RDR (Radar) Position
+### RDR（雷达）档位
 
-RDR position puts the radar in
-[Automatic Search](operation.md#automatic-search).
+RDR 档位将雷达置于 [自动搜索](operation.md#自动搜索)。
 
-### MAP Position
+### MAP 档位
 
-MAP position is identical to the RDR position puts the radar in
-[Automatic Search](operation.md#automatic-search), with the exception that
-nutation is disabled and the 2 bar search pattern is not available.
+MAP 档位与 RDR 档位相同，将雷达置于 [自动搜索](operation.md#自动搜索)，但是章动被禁用，并且 2 线栅
+状扫描不可用。
 
-### AIR GRD (Air to Ground) Position
+### AIR GRD（空对地）档位
 
-AIR-GRD position is similar to the boresight position with the following
-exceptions:
+AIR-GRD 档位与瞄准轴档位相似，但具有以下区别：
 
-- Angle Track is Disabled while Tracking.
-- Antenna is Always Fixed to the boresight with drift stabilization.
+- 跟踪时禁用角跟踪。
+- 天线始终固定在带有漂移稳定的瞄准轴上。
 
-### BEACON Position
+### BEACON 档位
 
-BEACON may be used with any Display Knob position other than VI, as desired.
-BEACON does not display radar echos and instead listens for transponder
-responses from specific beacon equipment.
+BEACON 可根据需要与 VI 以外的任何显示旋钮档位一起使用。BEACON 不显示雷达回波，而是监听特定信标设备
+的应答机响应。
 
-### TV Position
+### TV 档位
 
-The TV Radar Mode setting is not used on DSCG aircraft; this is superseded by
-the TV display option on the DSCG panel itself, and the TV display option in the
-pilot's cockpit.
+DSCG 飞机不使用 TV 雷达模式设置；该设置被 DSCG 面板上的 TV 显示选项和飞行员驾驶舱内的 TV 显示选项所
+取代。
 
-> 💡 [AIM-7](../../stores/air_to_air/aim_7.md) missiles detune and cannot be
-> re-tuned with the Radar Mode Knob in TV.
+💡 [AIM-7](../../stores/air_to_air/aim_7.md) 导弹去调谐时，不能在雷达模式旋钮处于 TV 档位时重新调谐
+。
 
-### Skin Track Lamp (SKIN TRK)
+### 蒙皮跟踪灯（SKIN TRK）
 
-The Skin Track Lamp illuminates when an automatically achieved lock-on is
-established and held by the radar. This coincides with the T symbol being lit on
-the DSCG panel. A manually tracked, AOJ, or HOJ track condition will not
-illuminate this lamp (or the DSCG panel T).
+当雷达建立并保持自动锁定时，蒙皮跟踪灯亮起。跟踪灯与 DSCG 面板上的 T 符号灯一同亮起。手动跟踪、AOJ
+或 HOJ 跟踪状态下灯光不会亮起（或 DSCG 面板 T）。
 
-## FCS Control Monitor Panel
+## FCS 控制监控面板
 
-The Control Monitor Panel's primary purpose is to access the built-in
-diagnostics of the APQ-120. Additionally, the panel mounts auxiliary controls
-for the system - the Vc Switch and Stab Switch, and the Temp monitoring lamp.
+控制监控面板的主要用途是访问 APQ-120 的机内诊断。此外，面板中还安装了系统的辅助控制开关——Vc 开关、
+稳定开关以及温度灯。
 
-### Coords Light
+### Coords 灯
 
-This lamp is not used with the APQ-120.
+APQ-120 不使用该灯光。
 
-### Temp Lamp
+### 温度灯
 
-The TEMP Lamp provides a visual indication of an overheat situation in the
-APQ-120 avionics bays. Should the lamp illuminate, the radar must be powered off
-immediately to preclude damaging the equipment. Should circumstances require the
-radar be used during a temperature warning, the lamp should be monitored for
-continued illumination, and the radar shut off as soon as possible.
+TEMP 灯提供 APQ-120 航电设备舱过热情况的视觉指示。如果指示灯亮起，必须立即关闭雷达电源，以防止设备
+损坏。如果情况需要在温度告警期间使用雷达，应监控指示灯是否持续亮起，并尽快关闭雷达。
 
-### Meter Selector Knob
+### 仪表选择旋钮
 
-A sixteen-position rotary knob used in conjunction with the Meter Switch to test
-various voltages, currents, and signals generated by the internals of the radar,
-independently and in conjunction with the Built-In-Test system. Each position is
-dual purpose, noted with two sets of values; when the Meter Switch is in the
-VOLT position, the inner rim of the knob is active, delivering the specified
-voltage of the selected position. In the SIGNALS position of the Meter Switch,
-the outer current or signal value is tested.
+一个十六位旋钮，与仪表开关一起使用，独立地或与机内自检系统一起来测试雷达内部的各种电压、电流和信号
+。每个档位都有两种功能，各档位标有两中数值；当仪表开关处于 VOLT（电压）档位时，使用旋钮的内圈功能，
+提供选定档位的指定电压。在仪表开关处在 SIGNALS（信号）档位时，使用旋钮的外圈功能，测试电流或信号值
+。
 
-### Monitor Meter
+### 监控仪表
 
-The Monitor Meter displays voltages, current, and signals relative to the
-current settings of the Meter Selector knob in conjunction with the Meter
-Switch, or the current Built-In Test setting.
+监控仪表提供电压、电流和信号指示，显示数值由仪表开关的档位和仪表选择选择旋钮的设置决定。
 
-Voltages are confirmed beginning with the -250 position of the Selector knob and
-the Meter Switch in VOLT, and will indicate in the "1" region of the gauge
-approximately thirty seconds after radar power-on, signifying correct voltage
-delivery. After this power-up, the monitor meter will indicate in the "1" region
-for nominal function if the voltages delivered are correct. The +35 selection is
-an exception to this rule, as the value for correct function is 2.0 or greater.
+从选择旋钮的-250 档位开始，仪表开关设置为 VOLT 来确认电压，在雷达通电后约 30 秒后仪表指向“1”区域则
+表示电压输送正确。通电后，如果提供的电压正确，监控仪表将指向“1”区域来提供标称功能。+35 为例外，正确
+的值为 2.0 或更高。
 
-In SIGNALS mode, the RX1-RX4 crystal current are functioning correctly with a
-return in the XTAL region.
+在 SIGNALS 模式下，RX1-RX4 晶体电流正常工作，并返回 XTAL 区域。
 
-The EX1 and 2 test electrical frequency control crysals, and are also nominal
-when XTAL is returned.
+EX1 和 2 测试电气频率控制晶体，标称值同样为返回 XTAL。
 
-The magnetron, tested in MAG, long pulse operation is confirmed with a return of
-1.4 to 1.8, and short pulse operation is correct with a value of 0.9 to 1.15.
+MAG 档位测试磁控管，长脉冲操作以返回 1.4 到 1.8 确认，短脉冲操作以 0.9 到 1.15 为准。
 
-KLY, which tests the CW transmitter, should find a value of 0.25 to 1.25 when
-radiating correctly.
+测试 CW 发射机的 KLY 档位在正确发射时应得到 0.25 到 1.25 读数。
 
-TP 1 tests the temperature and pressure interlocks, and indicates 1 when the
-interlocks are closed and functioning.
+TP 1 测试温度和压力互锁，并在联锁关闭时指示 1 区域。
 
-TP 2 confirms waveguide pressure, and a value of 1 is correct.
+TP 2 用来确认波导压力，正常时显示值为 1。
 
-In LOB, the meter needle will travel roughly between 1.5 to 2.8 as a function of
-antenna nutation.  
-Lastly, the LIN and CIR selectors confirm proper linear and circular pulse
-performance; they only register a value of 1 for a transmission of vertical or
-clockwise-rotating polarity energy. That is, they do not return a value in CIR
-pulse (counter-clockwise) mode.
+在 LOB 档位，随天线章动变化，表针将大致在 1.5 至 2.8 之间移动。最后，LIN 和 CIR 档位确认正常的线和
+圆脉冲性能；在发射电磁波为垂直或右旋极化时，表针将指向 1 区域，也就是说，左旋极化下不返回值。
 
-### APQ-120 Built-In Test Knob
+### APQ-120 机内自检旋钮
 
-Confirmation of proper system performance is performed using the various options
-on the Control Monitor Panel; specific test modes are defined using the Test
-Knob.
+使用控制监控面板上的各种选项确认系统性能是否正常；使用测试旋钮来进入特定的测试模式。
 
-### Meter Switch
+### 仪表开关
 
-Tied to the Meter Selector knob, the two position switch defines which value of
-the Meter Selector Knob is being tested - VOLT for the inner ring voltage
-values, SIGNALS for the outer ring current and signal values.
+仪表选择旋钮结合使用的二档位开关，用于定义仪表选择旋钮所选用的数值——VOLT 表示内圈电压值，SIGNALS 表
+示外圈电流和信号值。
 
-### Vc Switch
+### Vc 开关
 
-With selections of 900 and 2700, the switch is used to scale the Vc gap as
-displayed in F-4Es with the DVST installed, with the newer DSCG installed, the
-switch must remain in the 2700 position at all times for to ensure correct
-reading on the display.
+选择 900 和 2700 时，在安装 DVST 的 F-4E 中，开关用来缩放 Vc 间隙，在较新的 DSCG 机型中，开关必须始
+终保持在 2700 档位，以确保显示器上的读数正确。
 
-### Stab Switch
+### stab 开关
 
-The STAB switch controls the antenna pitch and roll stabilization modes. The
-default NOR (normal) position maintains stabilization in both channels, and INS
-system drift compensation is further applied in specific modes (AIR-GND). In
-STAB OUT the stabilization of pitch, roll, and INS drift is removed from the
-radar antenna. DRIFT OUT maintains pitch and roll stabilization, while removing
-the INS drift compensation in modes which use it.
+STAB 开关控制天线仰角和横滚稳定模式。默认 NOR（正常）档位在两个通道中保持相对稳定，在特定模式
+（AIR-GND）下将进一步使用 INS 系统漂移补偿。在 STAB OUT 下，系统消除雷达天线中的俯仰、横滚和 INS 漂
+移的相对稳定。DRIFT OUT 保持俯仰和横滚相对稳定，但在使用 INS 漂移补偿的模式中移除漂移补偿。
 
-## Digital Scan Converter Group
+## 数字扫描转换器组
 
-The Digital Scan Converter Group (DSCG) provides an integrated display system of
-the F-4E's radar and electro-optical systems. The system is composed of the
-front and rear seat scopes, and is driven by the Indicator Control Unit (ICU)
-which performs conversion of radar and video signals, along with the application
-of information and fire control cueing symbology.
+数字扫描转换器组（DSCG）用作 F-4E 雷达和光电系统的一体化显示系统。该系统由前后座显示器组成，由指示
+器控制装置（ICU）进行驱动——该装置执行雷达和视频信号的转换，以及应用信息和火控指引标识符。
 
-### Grid Knob
+### 方格旋钮
 
-The Grid knob controls brightness of the display field grid.
+方格旋钮控制显示屏视野中显示方格的亮度。
 
-### HOJ Light (H)
+### HOJ 灯（H）
 
-The HOJ light illuminates to provide indication that the radar has transitioned
-to an angle tracking HOJ operation, using only memorized range and range rate
-information if a jamming condition is detected.
+如果探测到干扰条件，HOJ 指示灯亮起，表示雷达转换至角跟踪 HOJ 工作，仅使用记忆距离和接近率信息。
 
-### Scale
+### 标度旋钮
 
-The Scale knob controls brightness of the angle and elevation scales surrounding
-the DSCG display field.
+位于 DSCG 右上方，旋钮控制 DSCG 显示屏周围板面距离标度的亮度。
 
-### Track Light (T)
+### 跟踪灯（T）
 
-The Track light illuminates to confirm an angle and range-based lock-on against
-a target. Same as the SKIN TRK light. See [Track](operation.md#track) for more
-information.
+跟踪灯亮起表示实现标准雷达跟踪。与 SKIN TRK 灯相同。有关详细信息，请参阅 [跟踪](operation.md#跟踪)
+部分。
 
-### Contrast (CONTR)
+### 对比度（CONTR）旋钮
 
-The Contrast knob controls relative DSCG display contrast.
+对比度旋钮控制 DSCG 显示的相对对比度。
 
-### Range (RNG)
+### 距离旋钮（RNG）
 
-The Range knob controls brightness of the range cursor in PPI modes.
+距离旋钮控制 PPI 模式下距离光标的亮度。
 
-### Brightness (BRT)
+### 亮度旋钮（BRT）
 
-The Brightness knob controls the brightness of the overall DSCG display.
+亮度旋钮控制 DSCG 显示屏的整体亮度。
 
-### Offset (OFS)
+### 偏置旋钮（OFS）
 
-The Offset knob controls brightness of the offset cursor line in PPI modes.
+偏置旋钮控制 PPI 模式下偏置光标线的亮度。
 
-### DSCG Mode Knob
+### DSCG 模式旋钮
 
-The DSCG Mode knob is used to select the current mode of the display.
+DSCG 模式旋钮用于选择当前显示的模式。
 
-- OFF removes all power from the display, ceasing all DSCG functionality.
+- OFF 将断开显示器的所有电源，停止所有 DSCG 功能。
+- STBY（待机）将 DSCG 置于预热模式；在此过程中无显示。
+- DSCG TEST 显示测试区域，以确认显示功能是否正常。DSCG 显示带有 8 种灰色阴影的测试搜索显示图，以确
+  认正确工作和对比度。在进入该模式进行测试之前，应选择距离 10 来确保阴影区域的显示大小合适。
+- RDR BIT 为机内自检模式，与雷达一起使用，用于校正雷达通过 DSCG ICU 提供的信号。
+- RDR 档位是所有使用模式下雷达显示正常工作的所选档位。- TV 档位是显示光电武器（“幼畜”/Pave Spike）
+  和 TISEO 的模式。
 
-- STBY (Standby) places the DSCG in its warmup mode; no display occurs during
-  this process.
+## 天线手控杆
 
-- DSCG TEST displays a dest field to confirm proper display function. The DSCG
-  display field shows a search display with eight shades of grey to confirm
-  proper operation and contrast. Prior to entry of this mode for testing, Range
-  10 should be selected for correct sizing of the shaded fields.
+天线手控杆是仅 WSO 驾驶舱安装的摇杆；雷达控制集成在了手控杆中来在空对空模式下，对雷达显示器上的截获
+符号进行距离（前后）和方位（左右）定位控制，还可控制 AGM-65 “幼畜” 和 Pave Spike 导引头/EO 传感器的
+指向。此外，手控杆包括天线仰角控制拨轮——用来控制天线的仰角——通过 DSCG 显示器中的 EL 射线显示；仰角
+扫描的上下移动角度显示为 ±60 度。
 
-- RDR BIT is a built-in test mode that functions in conjunction with the radar
-  for calibration of the signals provided from the radar with the DSCG's ICU.
+天线手控杆的食指位置是一个动作开关；动作开关时一个二档位开关，一级限位为扳机第一段，完全按下为扳机
+第二段。在空对空模式下，扳机第一段显示距离射线，允许将距离对准目标回波来实现自动锁定，或选择手动锁
+定所要求的 MAN Vc 速率。通过调整号距离射线并围住目标回波后，扣动扳机第二段来取得自动锁定，或开始对
+预定目标进行手动角跟踪。
 
-- RDR is the operational mode for use with the APQ-120.
+关于 [AGM-65 “幼畜”](../../stores/air_to_ground/missiles/maverick.md)扳机第一段和第二段的交互在 AGM
+使用部分中详细说明。
 
-- TV is the display mode used for EO weapons (Maverick/Pave Spike) and TISEO.
+## 距离 (VISIDENT) 指示器
 
-## Antenna Hand Controller
+距离指示器用于近距离 VID 拦截剖面时使用，显示 2 英里（12000 英尺）以内的精确雷达距离信息和 9000 英
+尺以内的接近率信息。一旦指示器跳到 9，即为准确接近率信息。仪表在 VI、B NAR 和 B WIDE 显示模式下工作
+；指示器在空对地模式下无功能。
 
-The Antenna Hand Controller is a joystick found only in the WSO cockpit on the
-right console; the joystick integrates with the radar to perform range (fore and
-aft) and azimuth (left and right) positional control of the acquisition symbol
-on the radar display in the air-to-air modes, as well as seeker/EO sensor
-direction with Maverick and Pave Spike. Additionally, the joystick includes the
-Antenna Elevation Control thumbwheel, which controls the elevation angle of the
-antenna, displayed via the EL strobe on the DSCG display; this elevation scan is
-limited in both up and down movement to 60 degrees.
+## 空对空按钮
 
-In the index finger position of the Antenna Hand Controller is the Action
-Switch; a two-position switch designated half-action in the first detent, and
-full-action with full engagement. In air-to- air modes, half-action initiates
-visibility of the range strobe, allowing for proper range alignment with a
-target return for automatic lock-on, or selection of MAN Vc rates required for a
-manual lock. With proper bracketing and range strobe adjustment, full-action
-attempts the automatic lock-on, or initiates manual angle tracking of the
-intended target.
-
-The interaction of half- and full-action for the
-[AGM-65 Maverick](../../stores/air_to_ground/missiles/maverick.md) is detailed
-in the section on AGM employment.
-
-## Range VISIDENT Indicator
-
-The Range Indicator is used for close range VID intercept profiles, providing
-range information out to two miles and range rate information from inside of
-9000'. The information is confirmed as radar-accurate once the range indicator
-jumps to 9. The gauge functions in the VI, B NAR, and B WIDE display modes; the
-indicator does not function in air to ground modes.
-
-## Air to Air Button
-
-The Air to Air button is a button and a light with the primary function of
-confirming entry into CAGE mode. When the crew desires to disengage CAGE mode,
-the WSO can press the light (which also functions as a button) to exit CAGE mode
-and revert to the current selected settings from the Radar Control Set.
+空对空按钮是一个按钮和指示灯，主要功能是确认进入 CAGE 模式。当机组人员希望退出 CAGE 模式时，WSO 可
+以按下指示灯（也可作为按钮）来退出 CAGE 模式，并恢复至当前雷达控制套件选定的设置。

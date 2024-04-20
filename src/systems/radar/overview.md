@@ -1,38 +1,23 @@
-# Radar system
+# 雷达系统
 
 ![Radar Dish](../../img/radar_dish_nose.jpg)
 
-A continuation of the F-4C's -100 and the 4D's 109, the Westinghouse AN/APQ-120
-Fire Control Radar is a solid state pulse radar providing the F-4E with air to
-air intercept functionality, air to ground mapping, ground target reference
-provision to the LABS and WRCS bombing systems, as well as radar beacon
-capability. The APQ-120 also functions as the display system for TISEO and TV
-guided weapon imagery, and is integrated with the
-[APX-80 interrogation system](../identification_systems.md#interrogator-systems).
+由西屋公司开发的 AN/APQ-120 火控雷达是 F-4C 的 -100 和 4D 的 109 的后续型号，APQ-120 是一种固态脉冲
+雷达，为 F-4E 提供空对空拦截功能、空对地测绘、为 LABS 和 WRCS 轰炸系统提供地面目标参考以及雷达信标
+功能。APQ-120 还可作为 TISEO 和 TV 制导武器图像的显示系统，并且雷达中还集成了
+[APX-80 问询系统](../identification_systems.md#问询系统)。
 
-The primary conversion from the APQ-109 to APQ-120 included a reduction in the
-number of field replaceable units in the nose, as well as the reduction in their
-size; whereas the -109 had been a hybrid in its movement towards solid state
-hardware (primarily in the low voltage processing sections), the 120 was a fully
-solid-state system. While this update reduced the space overhead and weight for
-the system, the modification of the F-4 nose to include the
-[M61 cannon](../../stores/guns.md#internal-cannon-m61a1-vulcan) required a
-reduction in antenna size, causing a marginal decrease in overall detection
-range. However, when taken with the increase in system reliability and reduced
-maintenance, the tradeoff was considered acceptable.
+从 APQ-109 到 APQ-120 的主要转换包括减少机头中可现场可换件数量以及缩小其尺寸；-109 在向固态硬件（主
+要是低电压处理部分）方面采用混合使用，而 120 则是一种全固态系统。虽然这种更新减少了系统的空间开销和
+重量，但由于要在 F-4 机头上安装 [M61 航炮](../../stores/guns.md#内置-m61a1-火神航炮)，因此天线尺寸
+也需要进行缩小，这导致总体探测距离略有下降。但是，如果考虑到系统可靠性的提高和维护的减少，这种折衷
+是可以接受的。
 
-Starting with production of the F-4E block 60, and retrofitted to selected
-earlier block aircraft, was the addition of the Digital Scan Converter Group
-display. The inclusion of DSCG increased the overall ease of handling the
-APQ-120 by adding additional information on the display directly, including
-current radar range setting and the calculated range rate value against the
-current acquired target. Further, clarity of the display in all lighting
-conditions was improved by rendering the radar reference grids directly as part
-of the displayed image, rather than the previously used markings on the DVST
-glass. In addition, DSCG provided the ability of the two crew members to utilize
-the displays independently; previously, the WSO had control over which mode both
-the DVST and front seat repeater display would show. With DSCG, the pilot could
-utilize TISEO or TV air to ground weapons while the WSO maintained a scan
-pattern or found a ground reference point and inserted it into the WRCS.
+从 F-4E 60 批次开始的产品，并在部分早期批次上加装了数字扫描转换器组显示器。 DSCG 可直接在显示屏上增
+加了额外的信息，包括当前雷达距离设置和根据当前截获的目标计算出的接近率，从而提高了 APQ-120 的整体易
+用性。此外，通过将雷达参考方格直接作为显示图像的一部分，而不是像先前型号在 DVST 玻璃上绘制标记，雷
+达图像在所有照明条件下的显示清晰度都得到了提高。此外，DSCG 可让两名机组人员能够独立使用显示器；在先
+前型号，WSO 可以控制 DVST 和前座复显显示的模式，有了 DSCG，飞行员可以使用 TISEO 或 TV 空对地武器，
+而 WSO 则可以同时保持栅状扫描或找到地面参考点并将其插入 WRCS。
 
 ![radar_screen](../../img/radar_screen.jpg)
