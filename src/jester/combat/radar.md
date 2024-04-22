@@ -80,13 +80,13 @@ the bandits instead.
 
 | Duration | Context Action                         |
 | -------- | -------------------------------------- |
-| •        | **Lock** the currently selected target |
-| ▄        | Select next target                     |
+| •        | Select next target                     |
+| ▄        | **Lock** the currently selected target |
 | ••       | Reset target selection                 |
 
-Unless only a single bandit shows on the screen, locking via • (short) requires
-prior target selection. Either automatically through Jester or by using ▄
-(long). In an ambiguous situation, pressing • (short) will first select the
+Unless only a single bandit shows on the screen, locking via ▄ (long) requires
+prior target selection. Either automatically through Jester or by using •
+(short). In an ambiguous situation, pressing ▄ (long) will first select the
 target with highest priority.
 
 Pressing •• (double) will reset the currently selected target and return Jester
@@ -111,12 +111,12 @@ seconds for the radar return to reappear.
 
 | Duration | Context Action                          |
 | -------- | --------------------------------------- |
-| •        | Drop lock, but keep target in **focus** |
-| ▄ , ••   | Drop lock and focus                     |
+| •, ▄     | Drop lock, but keep target in **focus** |
+| ••       | Drop lock and focus                     |
 
 > 💡 Should a lock be faulty and Jester does not notice it (for example odd
-> movement of the steering dot, or unexpected closure rate readouts), press • to
-> unlock and then • again to attempt to lock the target again.
+> movement of the steering dot, or unexpected closure rate readouts), press ▄ to
+> unlock and then ▄ again to attempt to lock the target again.
 
 ## Dogfight
 
@@ -130,5 +130,5 @@ any close contact.
 
 | Duration | Context Action               |
 | -------- | ---------------------------- |
-| •        | Lock or Unlock contact ahead |
-| ▄ , ••   | Exit CAGE mode               |
+| •, ▄     | Lock or Unlock contact ahead |
+| ••       | Exit CAGE mode               |
