@@ -127,7 +127,7 @@ The AUTO setting enables the power-level mode switching (PLMS) described below.
 ### Power Level Mode Switching
 
 Power Level Mode Switching automatically selects the LONG or SHORT, and Narrow
-Band or Back Bias, amplifiers depending on several conditions such as target
+Band or Back Bias amplifiers depending on several conditions such as target
 range, echo strength or noise signal.
 
 ## Gain Control
