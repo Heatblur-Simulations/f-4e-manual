@@ -85,7 +85,7 @@ WIDE 和 NARROW 视场。
 
 ### 动作开关（扳机）
 
-使用二段式扳机来锁定面板。具体行为取决于当前是在控制
+使用二段式扳机来锁定目标。具体行为取决于当前是在控制
 [雷达](../../../systems/radar/overview.md)、[武器](../../../stores/overview.md) 或是
 [瞄准吊舱](../../../systems/weapon_systems/pave_spike/overview.md)。
 
