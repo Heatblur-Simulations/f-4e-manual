@@ -284,7 +284,7 @@ Boresight can be entered either by moving the
 [Mode Knob](interface.md#radar-modes-mode) to BST or by depressing the CAGE
 button on the throttle. The latter enters a cage condition which is very similar
 to boresight entered through BST, with the exception that the cage condition
-limits the range to 5 nmi and forces the manuever setting into the HI position.
+limits the range to 5 nmi and forces the maneuver setting into the HI position.
 
 When in boresight, the antenna is fixed along the radar boresight line and the
 radar returns are displayed on the scope as in an acquisition mode. Acquisition
