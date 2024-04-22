@@ -199,7 +199,7 @@ A-3-2-T 选择旋钮设置 [UHF 无线电台](../../../systems/nav_com/uhf.md) �
 详见
 [3.1.1 皮托静压系统](../../../systems/flight_controls_gear/primary_flight_instruments.md#pitot-static-system)。
 
-## 发动机控制开关
+## 发电机控制开关
 
 ![GenCtl](../../../img/pilot_generator_switches.jpg)
 
