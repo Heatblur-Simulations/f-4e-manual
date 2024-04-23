@@ -131,4 +131,5 @@ The dropdown allows selection of the head-tracking behavior:
 Selecting _Center_ requires looking forward when operating the UI, whereas
 _Dynamic_ allows using head-tracking from any view position. However, _Dynamic_
 can lead to having to chase the cursor when closing and re-opening the UI
-frequently.
+frequently. Also, the _Dynamic_ option is less meaningful in VR, as the UI
+elements are then all rendered on the front always.
