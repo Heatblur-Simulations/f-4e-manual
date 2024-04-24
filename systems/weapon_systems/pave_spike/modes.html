@@ -242,6 +242,11 @@ integration is deactivated.</p>
 <p>Once the target, or general target area, has been found using the acquisition
 modes, the WSO can enter Track-mode by pressing the trigger on the Antenna Hand
 Control to either Half or Full Action.</p>
+<blockquote>
+<p>💡 It is necessary for the trigger to go through the full sequence of for
+example <em>Released</em> to <em>Half Action</em> and back to <em>Half Action</em> in order to
+enter Track-mode.</p>
+</blockquote>
 <p>In this mode, the Antenna Stick can be moved to slew the pod LOS. Operating the
 laser is only available in this mode, and can be activated by pressing the
 trigger on the Antenna Stick to Full Action.</p>
@@ -259,14 +264,14 @@ the WSO on the WRCS panel.</p>
 <p>Without a WRCS integration, a target altitude of 0 is assumed, degrading the
 stabilization.</p>
 <blockquote>
-<p>💡 The pod is not capable of computing a slant range for targets above
-the own aircraft altitude (for example when attacking up-hill). Since that is
-measured using the barometric altitude, depending on the pressure-setting, this
-can lead to erratic behavior during hot days when flying low. Problematic
-situations like this were commonly referred to as <em>Idiot mode</em>, as the tracking
-system started to behave very odd and it was very difficult to restore proper
-behavior. The crew often had to deactivate the INS integration temporarily in
-order to disable the automatic tracking.</p>
+<p>💡 The pod is not capable of computing a slant range for targets above the own
+aircraft altitude (for example when attacking up-hill). Since that is measured
+using the barometric altitude, depending on the pressure-setting, this can
+lead to erratic behavior during hot days when flying low. Problematic
+situations like this were commonly referred to as <em>Idiot mode</em>, as the
+tracking system started to behave very odd and it was very difficult to
+restore proper behavior. The crew often had to deactivate the INS integration
+temporarily in order to disable the automatic tracking.</p>
 </blockquote>
 <h2 id="memory-mode"><a class="header" href="#memory-mode">Memory Mode</a></h2>
 <p>Whenever a target-insert signal is send, the system activates the Memory-mode,
@@ -284,8 +289,8 @@ target-insert button.</p>
 its gimbal limits, it will automatically initiate a target-insert signal and
 send its current target position to the WRCS.</p>
 <blockquote>
-<p>💡 If the laser is currently firing, it will automatically be stopped
-when hitting a limit.</p>
+<p>💡 If the laser is currently firing, it will automatically be stopped when
+hitting a limit.</p>
 </blockquote>
 <p>This signal then also causes the pod to enter Memory-mode, in which case it will
 continue to follow the position now memorized by the WRCS.</p>
