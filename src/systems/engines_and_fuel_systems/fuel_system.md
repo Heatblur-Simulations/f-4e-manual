@@ -223,3 +223,6 @@ system, while all other cells are connected to the vent mast below the rudder.
 > the case whenever the gear is retracted or the AAR door is closed.
 
 ![Fuel Venting](../../img/f4_ext_farting.jpg)
+
+> 💡 Fuel venting can also occur when flying slow and inverted, due to strong
+> negative G forces.
