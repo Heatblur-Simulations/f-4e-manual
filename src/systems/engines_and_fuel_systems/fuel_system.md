@@ -225,4 +225,4 @@ system, while all other cells are connected to the vent mast below the rudder.
 ![Fuel Venting](../../img/f4_ext_farting.jpg)
 
 > 💡 Fuel venting can also occur when flying slow and inverted, due to strong
-> negative G forces.
+> negative G forces. This can often be seen during aerobatics.
