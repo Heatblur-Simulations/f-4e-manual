@@ -111,6 +111,15 @@ Should UI elements be misplaced, for example the Jester Wheel not being centered
 or even cut off, check this setting and edit the resolution manually until the
 UI is displayed properly.
 
+## Jester UI Allow Mouse Controls
+
+When checked, the Jester UI allows interaction with the mouse moving it over
+items and left clicking.
+
+The option can be disabled if for example only head-tracking is preferred and
+the automatic mouse detection is perhaps triggering too often, e.g. when having
+placed the mouse on the arm of the chair.
+
 ## Jester UI Allow Head-Tracking
 
 ![Radio Menu](../img/special_options_jester_ui_head_tracking.jpg)
