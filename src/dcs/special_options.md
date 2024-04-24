@@ -142,3 +142,6 @@ _Dynamic_ allows using head-tracking from any view position. However, _Dynamic_
 can lead to having to chase the cursor when closing and re-opening the UI
 frequently. Also, the _Dynamic_ option is less meaningful in VR, as the UI
 elements are then all rendered on the front always.
+
+> 💡 Jester Dialogs always use the _Center_ type, requiring to look
+> forward.
