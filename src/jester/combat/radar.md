@@ -137,3 +137,7 @@ To lock a target in CAGE mode, press • (short) or ▄ (long) once ready. Jeste
 will now automatically lock the first target return he can identify. If no
 target could be found within a few seconds, Jester will abort the process and •
 or ▄ have to be used again.
+
+> 💡 Targets have to be within 5 degrees of the boresight or a lock attempt
+> would result in a bad lock. When Jester does not lock the return yet, it is
+> because he is waiting for the pilot to put it within that zone first.
