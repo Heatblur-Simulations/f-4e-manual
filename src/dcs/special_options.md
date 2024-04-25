@@ -73,16 +73,6 @@ previous pilot did not properly return everything back to their initial
 positions. To ensure a correct startup, the crew hence must check and confirm
 each switch in the proper position before following a cold-start procedure.
 
-## Use Multithreading for Main Simulation
-
-With this option checked, the main simulation of the aircraft and its components
-is computed in parallel by utilizing multiple threads.
-
-This can significantly improve performance if bound by the CPU.
-
-> 🟡 CAUTION: The feature is experimental. Simulation stability and correctness
-> can suffer.
-
 ## Disable Multicrew Controls Input When Joining as WSO
 
 If checked, when joining as WSO in multiplayer with a human pilot, your local
