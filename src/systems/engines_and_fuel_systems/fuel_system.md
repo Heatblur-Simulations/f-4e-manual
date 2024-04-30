@@ -34,6 +34,12 @@ When the aircraft reaches a low fuel state automatic fuel transfer activates,
 forcing valves from internal wing and external tanks open regardless of what has
 been selected on the panel.
 
+> 💡 Automatic fuel transfer, once activated, can only be deactivated again by
+> cycling the Air Refuel Switch. This is important, as most switches on the fuel
+> system panel are ignored while activated. An indication for the automatic
+> transfer being active are all three external tank fuel lights being lit
+> regardless of their actual status.
+
 ## Internal Wing Transfer Switch
 
 ![InternalWingTransfer](../../img/pilot_internal_wing_transfer.jpg)
