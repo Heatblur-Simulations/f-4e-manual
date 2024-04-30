@@ -19,7 +19,7 @@ Both the COMM and AUX receivers have the capability to
 process ADF signals, which can be displayed on the Horizontal Situation Indicator (HSI)
 or Bearing Distance Heading Indicator (BDHI). The AUX frequencies are set by the unit radio
 maintenance shop, set for the frequencies that are needed for the area of operations. In-Game you
-can set them through the [9.8 Mission Editor Settings](../../dcs/mission_editor.md).
+can set them through the [9.9 Mission Editor Settings](../../dcs/mission_editor.md).
 
 Two blade antennas, one upper and one lower, as well as an ADF antenna, are provided.
 Once the antenna mode is set for the primary channel, the AUX receives signals from the other
