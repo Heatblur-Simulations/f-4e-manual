@@ -52,7 +52,7 @@ seeker video; the pilot selects the TV position on the Scope Display Select
 switch on the Pedestal panel, and the WSO places the DSCG display mode knob to
 TV and the Video Select Switch to WEAPON instead of ASQ.
 
-> 💡 To start the TV feed, the flight stick trigger has to be pressed, otherwise the 
+> 💡 To start the TV feed, the flight stick trigger has to be pressed, otherwise the
 > screen stays blank.
 
 With the displays activated, the pilot maneuvers the aircraft to position the
