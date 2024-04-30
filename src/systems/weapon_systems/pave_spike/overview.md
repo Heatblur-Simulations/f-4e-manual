@@ -51,7 +51,7 @@ time to release from maximally 15 seconds.
 The cues also indicate various situations related to laser operation.
 
 | Indication    | T0                                    | TTG                                     |
-|---------------|---------------------------------------|-----------------------------------------|
+| ------------- | ------------------------------------- | --------------------------------------- |
 | not shown     | not in TRACK mode                     | not in TRACK mode                       |
 | steady        | commanded to fire laser (full action) | firing laser, accepted range            |
 | flashing fast | not commanded to fire laser           | not firing laser or target too far away |
@@ -150,9 +150,8 @@ From left to right, top to bottom, it provides the WSO with:
 
 - Reticle Brightness Knob (<num>1</num>) - change the reticle from black to
   green
-- Az/El/Roll Boresight Knobs (<num>2</num>,<num>3</num>,<num>4</num>) - adjust the boresight
-  position of the pod
-  within ±2.5 degrees
+- Az/El/Roll Boresight Knobs (<num>2</num>,<num>3</num>,<num>4</num>) - adjust
+  the boresight position of the pod within ±2.5 degrees
 - Stow Button (<num>5</num>) - Stow or Un-stow the pod
 - Laser Ready Button (<num>6</num>) - Arm or Disarm the laser
 - Power On Button (<num>7</num>) - Turn the pod on or off
@@ -181,12 +180,26 @@ with the Antenna Hand Control, or Antenna Stick.
 ![pave_spike_antenna_hand_control](../../../img/wso_antenna_hand_control_overview.jpg)
 
 The Challenge Button (<num>1</num>) is used to zoom in or out, while the 2-stage
-trigger (<num>3</num>) is used to switch between modes and fire the laser. The Slider (<num>2</num>)
-does not feature any functionality with the Pave Spike.
+trigger (<num>3</num>) is used to switch between modes and fire the laser. The
+Slider (<num>2</num>) does not feature any functionality with the Pave Spike.
 
 > 💡 Controls are **not** inverted. Moving the stick up also moves the view up
 > (_pitch up_).
 
-> 💡 The pods math is fairly limited, do not move the reticle
-> above the aircraft datum line (looking up) or controls will invert and the
-> pod is unable to compute target coordinates properly.
+> 💡 The pods math is fairly limited, do not move the reticle above the aircraft
+> datum line (looking up) or controls will invert and the pod is unable to
+> compute target coordinates properly.
+
+The trigger functions slightly different if used for the Pave Spike, compared to
+the radar or also some other aircraft. To fire the laser, instead of perhaps
+holding the trigger down, one has to complete the sequence and move the trigger
+through all its stages forth and back, i.e. from _Released_ to _Half Action_, to
+_Full Action_, back to _Half Action_ and _Released_. Completing this sequence
+will toggle the laser on or off. To enter track mode, one has to complete the
+sequence _Released_ to _Half Action_ and back to _Released_. Holding the trigger
+at any point will not actuate the linked action.
+
+> 💡 Ensure to bind controls so that the trigger goes through this full
+> sequence. For example, only binding _Released_ and _Full Action_ would miss
+> _Half Action_ and not work properly. For physical 2-stage triggers, use the
+> corresponding 2-stage binds.

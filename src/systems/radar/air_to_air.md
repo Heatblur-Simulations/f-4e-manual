@@ -297,6 +297,9 @@ target. If that is the case, the pilot must position the target on the gunsight 
 the WSO can select an appropriate [aspect setting](interface.md#aspect). The
 Sparrow can now be fired.
 
+> 💡 Targets need to be within a 5 degree zone or an attempted lock will likely
+> result in a bad lock.
+
 ### Cage Condition
 
 The cage condition is a close combat mode which can be entered at any time by

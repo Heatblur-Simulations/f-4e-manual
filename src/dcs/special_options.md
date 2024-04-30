@@ -73,16 +73,6 @@ previous pilot did not properly return everything back to their initial
 positions. To ensure a correct startup, the crew hence must check and confirm
 each switch in the proper position before following a cold-start procedure.
 
-## Use Multithreading for Main Simulation
-
-With this option checked, the main simulation of the aircraft and its components
-is computed in parallel by utilizing multiple threads.
-
-This can significantly improve performance if bound by the CPU.
-
-> 🟡 CAUTION: The feature is experimental. Simulation stability and correctness
-> can suffer.
-
 ## Disable Multicrew Controls Input When Joining as WSO
 
 If checked, when joining as WSO in multiplayer with a human pilot, your local
@@ -111,6 +101,15 @@ Should UI elements be misplaced, for example the Jester Wheel not being centered
 or even cut off, check this setting and edit the resolution manually until the
 UI is displayed properly.
 
+## Jester UI Allow Mouse Controls
+
+When checked, the Jester UI allows interaction with the mouse moving it over
+items and left clicking.
+
+The option can be disabled if for example only head-tracking is preferred and
+the automatic mouse detection is perhaps triggering too often, e.g. when having
+placed the mouse on the arm of the chair.
+
 ## Jester UI Allow Head-Tracking
 
 ![Radio Menu](../img/special_options_jester_ui_head_tracking.jpg)
@@ -131,4 +130,8 @@ The dropdown allows selection of the head-tracking behavior:
 Selecting _Center_ requires looking forward when operating the UI, whereas
 _Dynamic_ allows using head-tracking from any view position. However, _Dynamic_
 can lead to having to chase the cursor when closing and re-opening the UI
-frequently.
+frequently. Also, the _Dynamic_ option is less meaningful in VR, as the UI
+elements are then all rendered on the front always.
+
+> 💡 Jester Dialogs always use the _Center_ type, requiring to look
+> forward.

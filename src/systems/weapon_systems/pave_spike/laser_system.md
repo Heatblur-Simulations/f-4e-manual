@@ -29,6 +29,11 @@ Once ready, the laser is fired during track mode by pressing full action on the
 Antenna Stick. The status of the laser operation is indicated by the cues on the
 display being steady or flashing.
 
+> 💡 It is necessary for the trigger to go through the full sequence of
+> _Released_ to _Half Action_, to _Full Action_, back to _Half Action_ and
+> _Released_ in order to actuate the laser. In particular, do not hold down the
+> trigger but release it again.
+
 | Indication    | T0                                    | TTG                                     |
 | ------------- | ------------------------------------- | --------------------------------------- |
 | not shown     | not in TRACK mode                     | not in TRACK mode                       |
@@ -52,6 +57,7 @@ In practice, laser measured range is much more accurate than the slant range
 computed by the system. Hence, pilots developed a habit of always hitting the
 button whenever they fired the laser.
 
-> 💡 This habit can lead to trouble during shallow attacks, such as when flying low altitude,
-> where a small input can quickly lead to the slant range measured by the laser being very off.
-> And hence cause the stabilization to drift off quickly.
+> 💡 This habit can lead to trouble during shallow attacks, such as when flying
+> low altitude, where a small input can quickly lead to the slant range measured
+> by the laser being very off. And hence cause the stabilization to drift off
+> quickly.

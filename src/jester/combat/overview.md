@@ -20,12 +20,12 @@ if clicked twice (double-click).
 
 | Context    | Duration | Action                              |
 | ---------- | :------: | ----------------------------------- |
-| BVR - Scan |    •     | **Lock** selected target            |
-|            |    ▄     | Select next target                  |
+| BVR - Scan |    •     | Select next target                  |
+|            |    ▄     | **Lock** selected target            |
 |            |    ••    | Reset target selection              |
-| BVR - Lock |    •     | Drop lock, but keep target in focus |
-|            |  ▄ , ••  | Drop lock and focus                 |
-| Dogfight   |    •     | Lock/Unlock contact ahead           |
-|            |  ▄ , ••  | Exit CAGE mode                      |
+| BVR - Lock |   •, ▄   | Drop lock, but keep target in focus |
+|            |    ••    | Drop lock and focus                 |
+| Dogfight   |   •, ▄   | Lock/Unlock contact ahead           |
+|            |    ••    | Exit CAGE mode                      |
 | Dive Toss  |          | Lock/Unlock ground return           |
 | Pave Spike |          | Lock/Unlock target next to reticle  |
