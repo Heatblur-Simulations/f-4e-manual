@@ -25,19 +25,19 @@ the target under current launch conditions.
 
 ![radar_screen_heat_missile_lock](../../img/radar_screen_heat_missile_lock.jpg)
 
-> 💡 The AIM-9 does not receive a guidance handoff from
-> the APQ-120 like on later aircraft to direct the seeker's look angle. Instead,
-> the ASE circle presents the aim dot against the target to bring it to the RBL.
+> 💡 The AIM-9 does not receive a guidance handoff from the APQ-120 like on
+> later aircraft to direct the seeker's look angle. Instead, the ASE circle
+> presents the aim dot against the target to bring it to the RBL.
 
 Centering the aim dot in the ASE aligns the target to the RBL, thus allowing for
 rapid acquisition by the seeker of the selected AIM-9. Once the missile's tone
-changes to signify lock, the pilot can then hold down the ARR button on the grip to
-allow for Sidewinder self-track (seeker uncage); this function allows the seeker
-to maintain acquisition of the target (noted by the shifted audio tone), while
-permitting maneuver of the aircraft to a better aspect angle or range solution
-prior to launch if the situation allows. The amount of maneuver available to a
-given Sidewinder type is based on the variant, and should be considered before
-making the selection.
+changes to signify lock, the pilot can then hold down the ARR button on the grip
+to allow for Sidewinder self-track (seeker uncage); this function allows the
+seeker to maintain acquisition of the target (noted by the shifted audio tone),
+while permitting maneuver of the aircraft to a better aspect angle or range
+solution prior to launch if the situation allows. The amount of maneuver
+available to a given Sidewinder type is based on the variant, and should be
+considered before making the selection.
 
 ## Launch Sequence
 
@@ -59,11 +59,13 @@ The following variants of the AIM-9 family are available for this variant of the
 Phantom:
 
 | Variant   | Description                                                                                                                                                                                                          |
-|-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | B         | First operational version of the Sidewinder family, entering service in the 1950s. It utilized an infrared homing seeker for target acquisition and tracking, making it a heat-seeking missile.                      |
 | J         | Featuring enhanced guidance and performance characteristics. It retained the infrared homing seeker but had improved sensitivity and better resistance to countermeasures.                                           |
 | JULI      | Variant of the AIM-9J developed by Germany. It featured modifications to meet specific operational requirements.                                                                                                     |
 | L         | Significant upgrade with improved infrared homing capabilities, allowing for better target discrimination. It introduced all-aspect targeting, meaning it could engage targets from any angle, not just from behind. |
 | M         | Improved guidance and counter-countermeasures capabilities. It had enhanced maneuverability and improved target-tracking algorithms, making it more effective in combat situations.                                  |
 | P         | Developed for export and used by various nations. It featured improvements over earlier models in terms of reliability and seeker performance.                                                                       |
+| P-3       | Improves the P version by using a reduced-smoke motor and improving the guidance system. Base of the swedish RB-24J missile.                                                                                         |
+| P-5       | Further improves counter-countermeasures capabilities, as seen in the M version. Base of the swedish RB-24L missile.                                                                                                 |
 | Captive M | Non-functional version used for training and testing purposes.                                                                                                                                                       |

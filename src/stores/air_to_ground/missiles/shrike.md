@@ -22,7 +22,8 @@ clandestine means with the RAF during the Falklands War.
 
 ## Variants
 
-Only the A variant can be equipped on this version of the Phantom.
+Only the A version can be equipped on this version of the Phantom. However, the
+A version comes in a regular and a _Dive Modified_ variant.
 
 ## Employment
 
@@ -48,8 +49,8 @@ into the computer control panel, if necessary, using a mean value for the
 current target area, and if multiple missiles are to be launched, a release
 advance time setting. The WRCS receives both data from the missile regarding
 look angle from the missile, along with corrected look angle from the INS; the
-selection for which data to use is performed with the TGT/MSL Rej switch, that should,
-in most cases, be left in the DF REJ position.
+selection for which data to use is performed with the TGT/MSL Rej switch, that
+should, in most cases, be left in the DF REJ position.
 
 Look angle and estimated range available, the WRCS will provide guidance
 instruction using the needles on the ADI. Once oriented in the dive angle, the
@@ -64,26 +65,27 @@ press and hold the bomb release button to initiate the attack. Once the release
 range is attained in the instructed profile, the missile will be launched.
 
 > 💡 Special note must be made of the importance of maintaining the ADI needles
-> centered, especially the vertical azimuth relationship. Because the orientation
-> of the missile itself when installed on the wing can cause offset of its
-> receiver to occur when the aircraft is banked, preparation of the attack may
-> require repeated adjustments with wings brought to level every few seconds to
-> make certain the aircraft is pointing at the emitter.
+> centered, especially the vertical azimuth relationship. Because the
+> orientation of the missile itself when installed on the wing can cause offset
+> of its receiver to occur when the aircraft is banked, preparation of the
+> attack may require repeated adjustments with wings brought to level every few
+> seconds to make certain the aircraft is pointing at the emitter.
 
-![agm_45_commands](../../../img/agm_45_commands.jpg) _Commands of the AGM-45 Shrike in
-WRCS mode_
+![agm_45_commands](../../../img/agm_45_commands.jpg) _Commands of the AGM-45
+Shrike in WRCS mode_
 
 #### Pull-up
 
-The Pull-up command light indicates that the aircraft is at some range where the Pull-up
-maneuver must be flown to get a release signal. After pickle and with the indexer light
-indicating Pull-up, the Pull-up instruction is guidance for the pilot to initiate a steady
-rotation back to the horizon, and, if desired, continue into a steady climb state until
-range requirements are met and the missile is launched. The pilot can choose to
-either bring the aircraft to near level and stop, or pull further into a low
-climb profile. When the aircraft is approximately 5 seconds away from release,
-the level indicator will illuminate, directing the pilot to maintain the current
-orientation until the Shrike is away.
+The Pull-up command light indicates that the aircraft is at some range where the
+Pull-up maneuver must be flown to get a release signal. After pickle and with
+the indexer light indicating Pull-up, the Pull-up instruction is guidance for
+the pilot to initiate a steady rotation back to the horizon, and, if desired,
+continue into a steady climb state until range requirements are met and the
+missile is launched. The pilot can choose to either bring the aircraft to near
+level and stop, or pull further into a low climb profile. When the aircraft is
+approximately 5 seconds away from release, the level indicator will illuminate,
+directing the pilot to maintain the current orientation until the Shrike is
+away.
 
 #### Dive
 
@@ -119,24 +121,23 @@ The attack is performed like a loft bombing profile; the Phantom is flown over
 the IP at the intended altitude and airspeed, with the bomb release button being
 held from the point of flyover. The countdown timer initiates, the horizontal
 ADI bar appears to maintain level flight, and the pull-up lamp illuminates. When
-the pull-up timer runs out, the pull-up lamp will turn off, the sight reticle will
-turn off, and the horizontal ADI bar will move to display G load as normal for
-the pull-up maneuver; a correct profile will keep both ADI bars centered. When
-the aircraft achieves the programmed release angle, the missile will launch.
-Once launch has occurred, the pull-up lamp and sight reticle will illuminate
-again, and the horizontal ADI bar will stow.
+the pull-up timer runs out, the pull-up lamp will turn off, the sight reticle
+will turn off, and the horizontal ADI bar will move to display G load as normal
+for the pull-up maneuver; a correct profile will keep both ADI bars centered.
+When the aircraft achieves the programmed release angle, the missile will
+launch. Once launch has occurred, the pull-up lamp and sight reticle will
+illuminate again, and the horizontal ADI bar will stow.
 
-![manual_loft_bombing](../../../img/loft.jpg) _Example of the Loft bombing, the procedure
-stays the
-same for the AGM-45 Shrike_
+![manual_loft_bombing](../../../img/loft.jpg) _Example of the Loft bombing, the
+procedure stays the same for the AGM-45 Shrike_
 
 ### Direct Mode
 
 Direct mode employment of the AGM-45 is dependent on the crew knowing the
 precise location of the target SAM emitter; while it can be utilized as a
 fallback method in event of a WRCS system failure, the need for at least 10
-degrees of dive angle against the target for successful delivery places a premium
-on being able to plan the attack against a specific point on the ground.
+degrees of dive angle against the target for successful delivery places a
+premium on being able to plan the attack against a specific point on the ground.
 
 To employ the weapon in Direct mode, the crew confirms receipt of emitter audio,
 and initiates a dive to center the ADI needles at the target. The crew should

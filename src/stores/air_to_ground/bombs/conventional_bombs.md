@@ -32,28 +32,6 @@ Available conventional unguided bombs are:
 > The nose fuze arms the bomb, while the tail fuze puts the bomb into High Drag if set
 > and Low Drag if not set.
 
-## Anti-Tank Cluster Bombs - Mk 20 Rockeye
-
-![mk40s](../../../img/mk40s.jpg)
-
-Carrying 247 Mk 118 anti-tank bomblets, the Mk 20 Rockeye is used to deliver
-said potency across a wide dispersal area. The Mk 20 has a base schedule
-dispersal time depending on variant (4 seconds in the Mod 2 variant, and 1.2
-seconds in the Mod 3), along with a ground crew selectable option time that is
-programmed prior to takeoff. In concert, once over the target area the pilot can
-select the necessary option through the Nose/Tail Arming switch, and deliver the
-weapon with the profile most suited to the target.
-
-### CBU Variants
-
-Available cluster bombs are:
-
-| Variant | Amount | Description      |
-| ------- | -----: | ---------------- |
-| Mk-20   |    247 | HEAT             |
-| CBU-52B |    220 | HE               |
-| CBU-87  |    202 | Combined Effects |
-
 ## BDU Series Training Bombs
 
 ![bdu33](../../../img/bdu33.jpg)
@@ -73,14 +51,3 @@ Available variants of the BDU family include:
 | 50 HD   |  500 lb | High Drag    |
 | 50 LD   |  500 lb | Low Drag     |
 | 45 LG   |  500 lb | Laser Guided |
-
-## SUU-25 Target Marker Flares
-
-![Illumination Flares](../../../img/illum_flares.jpg)
-
-Container loaded with 8 parachute illumination flares for marking target areas or
-providing battlefield illumination at night.
-
-To employ, select DIRECT Delivery Mode and RKTS & DISP on the Weapon Selector Knob.
-Release them directly over the target area. The flares last for around 4 minutes and
-should be dropped below 5000ft (1500m) AGL if battlefield illumination is desired.
