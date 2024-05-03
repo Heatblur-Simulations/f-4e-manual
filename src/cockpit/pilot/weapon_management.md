@@ -182,13 +182,13 @@ tuning status of radar guided weapons. Positions are as follows:
 | Name        | Description                                                                                   |
 |-------------|-----------------------------------------------------------------------------------------------|
 | AGM-12      | [AGM-12 Bullpup](../../stores/air_to_ground/missiles/bullpup.md)                              |
-| BOMBS       | Bombs (all types).                                                                            |
+| BOMBS       | Bombs (all types including CBUs).                                                             |
 | RKTS & DISP | Rockets and dispensers.                                                                       |
 | ARM         | Anti-Radiation Missile ([AGM-45 Shrike](../../stores/air_to_ground/missiles/shrike.md)).      |
 | TV          | Electro-optical weapons ([AGM-65 Maverick](../../stores/air_to_ground/missiles/maverick.md)). |
 | C           | Not used; may be utilized as an OFF position.                                                 |
 | B           | Like AIR TO AIR switch in rear cockpit, cancels CAGE requirement.                             |
-| A           | Simultaneous release mode for CBU, rockets, or dispensers; bombs do not release.              |
+| A           | Backup mode that simultaneously releases CBUs, rockets, or dispensers; bombs do not release.  |
 
 ## Aircraft Weapons Release Unit
 
