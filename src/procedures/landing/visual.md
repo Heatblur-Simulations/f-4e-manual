@@ -99,6 +99,11 @@ immediately after landing, with drag chute failure, or
 with a wet or icy runway. Do not misinterpret this as
 anti-skid failure.
 
+> 💡 Drag chute should not be dropped on the runway or a taxiway.
+> A popular technique is to leave it on the side of a taxiway
+> by appropriately orienting the aircraft, inflating the chute
+> with the engines and then releasing it in the desired direction.
+
 ## No-Flap Landing
 
 Refer to [EMERGENCY PROCEDURES](../../emergency_procedures/overwiew.md)
