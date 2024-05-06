@@ -86,7 +86,7 @@ See [3.9. Interior Lighting](../../systems/lighting.md#interior-lighting) for
 details.
 
 > 🚧 The flight instrument lighting is currently linked to the
-> [Instrument Panel Knob](../cockpit/pilot/right_console/center_section.md#instrument-panel-knob)
+> [Instrument Panel Knob](./right_console/center_section.md#instrument-panel-knob)
 > on the right console instead. The correct controls will be made available
 > later during Early-Access.
 
