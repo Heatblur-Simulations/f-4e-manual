@@ -133,5 +133,13 @@ can lead to having to chase the cursor when closing and re-opening the UI
 frequently. Also, the _Dynamic_ option is less meaningful in VR, as the UI
 elements are then all rendered on the front always.
 
-> 💡 Jester Dialogs always use the _Center_ type, requiring to look
-> forward.
+> 💡 Jester Dialogs always use the _Center_ type, requiring to look forward.
+
+## Radar Stick for Cursor
+
+When checked, the binds mapped to control the
+[Antenna Hand Control](../cockpit/wso/right_console/front_section.md#antenna-hand-control)
+can also be used to move the cursor used for Offset Bombing and similar, making
+binding the two
+[Track Wheels](../cockpit/wso/right_console/center_section.md#along-track-wheel)
+obsolete.
