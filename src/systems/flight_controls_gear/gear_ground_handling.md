@@ -154,6 +154,11 @@ Do not use the Chute in excess of 200 Knots IAS while landing.
 For spin recovery the Chute can be used by pushing the stick full forward, putting ailerons and
 rudder in a neutral position and deploying the chute.
 
+> 💡 Drag chute should not be dropped on the runway or a taxiway.
+> A popular technique is to leave it on the side of a taxiway
+> by appropriately orienting the aircraft, inflating the chute
+> with the engines and then releasing it in the desired direction.
+
 ![ext_drag_chute_out](../../img/ext_drag_chute.jpg)
 
 ## Wing Fold System
