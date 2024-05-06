@@ -1103,7 +1103,7 @@ located on the right wall.</p>
 details.</p>
 <blockquote>
 <p>🚧 The flight instrument lighting is currently linked to the
-<a href="cockpit/pilot/../cockpit/pilot/right_console/center_section.html#instrument-panel-knob">Instrument Panel Knob</a>
+<a href="cockpit/pilot/./right_console/center_section.html#instrument-panel-knob">Instrument Panel Knob</a>
 on the right console instead. The correct controls will be made available
 later during Early-Access.</p>
 </blockquote>
@@ -3631,7 +3631,7 @@ Cockpit control unit and
 of ten per second until dispensers are empty, so long as flaps and speed brakes
 are retracted.</p>
 <blockquote>
-<p>💡 After around 10 seconds, all countermeasure have been dispensed.</p>
+<p>💡 After around 10 seconds, all flares have been dispensed.</p>
 </blockquote>
 <h3 id="counters"><a class="header" href="#counters">Counters</a></h3>
 <p>Indicate quantity of chaff (<num>3</num>) and flare (<num>6</num>) cartridges
@@ -8386,7 +8386,7 @@ calculate accurate delivery.</p>
 <p>The BIT control is used to confirm go/no-go status of the WRCS. The BIT system
 checks individual bomb modes individually, and effectivity of the given setting
 is confirmed by selecting the desired mode, pushing the center of the knob PUSH
-FOR BIT for five seconds, then pressing the FREEZE button in conjunction wih the
+FOR BIT for five seconds, then pressing the FREEZE button in conjunction with the
 PUSH FOR BIT button. Confirmation of mode performance will be displayed as GO or
 NO-GO. Should a mode be checked a subsequent time during a flight and a NO-GO
 response is received, it can be disregarded.</p>
@@ -8409,8 +8409,8 @@ ALONG TRACK and CROSS TRACK cursors to shift from the RIP to the offset target.
 Once selected, target steering information is provided from the WRCS to the
 BDHI, ADI, HSI, and optical sight. In the AGM-45 missile mode, the AoA Indexers
 will provide maneuver commands for level, dive, or climb requirements to align
-for seeker acquisition. Further, unless the WRCS Tone switch is disabled on the
-ARBCS panel, an audio tone will be triggered from the point of bomb release
+for seeker acquisition. Further, unless the Pull up tone switch is disabled on the
+LABS panel, an audio tone will be triggered from the point of bomb release
 button press until the first bomb releases from the aircraft; this function is
 nominally for training purposes, as it can preclude other system audio volume.</p>
 <h2 id="weapon-delivery-panel-1"><a class="header" href="#weapon-delivery-panel-1">Weapon Delivery Panel</a></h2>
@@ -8884,7 +8884,7 @@ hitting a limit.</p>
 continue to follow the position now memorized by the WRCS.</p>
 <p>Additionally, the signal will also be send if the pod is deselected, i.e.</p>
 <ul>
-<li>Video Select Switch - Weapon, or</li>
+<li>Video Select Button - Weapon, or</li>
 <li>WSO DSCG Mode - not TV (for example switching to Radar)</li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="laser-system"><a class="header" href="#laser-system">Laser System</a></h1>
@@ -9363,7 +9363,7 @@ personnel or damage to the aircraft.</p>
 </blockquote>
 <!-- The master dispenser safety pin must be
 installed at all times when loading, unloading or maintaining the system. -->
-<h3 id="flare-pyrotechnic-squibs"><a class="header" href="#flare-pyrotechnic-squibs">Flare Pyrotechnic Squibs</a></h3>
+<h3 id="chaffflare-pyrotechnic-squibs"><a class="header" href="#chaffflare-pyrotechnic-squibs">Chaff/Flare Pyrotechnic Squibs</a></h3>
 <p>The chaff pyrotechnic squibs are installed immediately prior to use and are
 stored separately from the chaff cartridges. They are metal encased and
 electrically fired.</p>
@@ -9432,9 +9432,9 @@ superimposed around the emitter's symbol. In the event the pilot wishes to defin
 emitter as the target, the Handoff button is pressed and held to cycle the priority diamond through
 the various emitters. Once the desired emitter is focused upon and surrounded with the diamond, the
 button can be released, and the priority symbol will remain latched with that emitter, with audio
-from the selected emitter played through the intercom, and the double carat (&lt;&gt;) symbol on the
+from the selected emitter played through the intercom, and the double caret (&lt;&gt;) symbol on the
 button illuminated to signify latched mode. With a latched diamond focus emitter, the system will
-remain focused on said emitter until the signal is either lost, the crew elects another focus
+remain focused on said emitter until the signal is either lost, the crew selects another focus
 emitter with the Handoff button, or the button is pressed momentarily to return to normal floating
 diamond threat priority mode.</p>
 <p><img src="systems/defensive_systems/../../img/pilot_rwr_handoff.jpg" alt="pilot_rwr_handoff" /></p>
@@ -9464,12 +9464,10 @@ and any emitter groups the system defines as being eligible for the expanded pre
 for three seconds on the RWR display before reverting back to the standard view.</p>
 <h3 id="system-test-onsys-test"><a class="header" href="#system-test-onsys-test">System Test (ON/SYS TEST)</a></h3>
 <p>The system power on test (<num>8</num>) provides a three band (1 low, 2 mid, 3 high) check in all
-four
-quadrants for proper sensitivity, along with a three angle (45, 135, and 315) confirmation of
+four quadrants for proper sensitivity, along with an angle confirmation of 225 degree
 relative bearing for diagnostic purposes. The test sequence begins with 1s in all four quadrants,
-with the upper left value in a diamond (signifying a heading of 45, which is displayed on the
-panel); the second and third continue this process, cycling band 2 with the lower right in the
-diamond (for 135), and band 3 with the upper left 3 in the diamond (for 315). The tests are
+with the lower left value in a diamond (signifying a heading of 225, which is displayed on the
+panel); the second and third continue this process, cycling band 2 and band 3. The tests are
 accompanied with a sequence of tones for adjustment of audio monitoring level.</p>
 <h3 id="unknown-u"><a class="header" href="#unknown-u">Unknown (U)</a></h3>
 <p>When an emitter is detected that does not have a catalog entry, but is recognized by received power,
@@ -11096,7 +11094,8 @@ coordinates of a new waypoint. For this, full keyboard control is allowed.</p>
 <p><img src="jester/../img/jester_wheel_text_entry.jpg" alt="Wheel Text-Entry" /></p>
 <p>To confirm and send the data, select the option (LAT/LONG in this case) again.</p>
 <h3 id="wheel-controls"><a class="header" href="#wheel-controls">Wheel Controls</a></h3>
-<p>The Jester Wheel can be opened or closed by pressing <kbd>A</kbd>.</p>
+<p>The Jester Wheel can be opened by pressing <kbd>A</kbd> short and closed by pressing <kbd>
+A</kbd> long.</p>
 <p>The entire UI is accessible via mouse by left-clicking options or clicking on
 the center area of circle to navigate back.</p>
 <p>Options can also be bound directly to keyboard or other input devices. The
