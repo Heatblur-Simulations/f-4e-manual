@@ -101,7 +101,9 @@ Should UI elements be misplaced, for example the Jester Wheel not being centered
 or even cut off, check this setting and edit the resolution manually until the
 UI is displayed properly.
 
-## Jester UI Allow Mouse Controls
+## Jester UI
+
+### Allow Mouse Controls
 
 When checked, the Jester UI allows interaction with the mouse moving it over
 items and left clicking.
@@ -110,7 +112,7 @@ The option can be disabled if for example only head-tracking is preferred and
 the automatic mouse detection is perhaps triggering too often, e.g. when having
 placed the mouse on the arm of the chair.
 
-## Jester UI Allow Head-Tracking
+### Allow Head-Tracking
 
 ![Radio Menu](../img/special_options_jester_ui_head_tracking.jpg)
 
@@ -134,6 +136,29 @@ frequently. Also, the _Dynamic_ option is less meaningful in VR, as the UI
 elements are then all rendered on the front always.
 
 > 💡 Jester Dialogs always use the _Center_ type, requiring to look forward.
+
+#### Max Angle
+
+Defines the angle (in degrees) the head has to be moved off-center to reach the
+corners of the UI.
+
+In other words, reducing this value from its default of 10° makes head-tracking
+more sensitive to head movement, while increasing it will reduce the
+sensitivity.
+
+> 💡 VR users might find a lower angle more comfortable, since the head-to-game
+> translation is normally 1:1 in VR.
+
+#### Deadzone
+
+Defines the angle (in degrees) the head has to be moved off-center to for the UI
+to recognize head-movement and engage head-tracking.
+
+If the head is moved less than the deadzone (0.5° by default), the cursor is
+automatically set to the center instead and not moved.
+
+> 💡 Users playing with a high and very sensitive head-to-game translation might
+> find it useful to increase this value slightly.
 
 ## Radar Stick for Cursor
 
