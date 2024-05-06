@@ -37,6 +37,8 @@ change illumination intensity on the following indicators for **both cockpits**:
 The base intensity of all indicators is controlled with the
 [Flight Instrument Light knob](../weapon_management.md#flight-instrument-brightness-knob).
 
+> 🚧 These knobs will be made available later during Early-Access.
+
 ## Formation and Indexer Lights Control Panel
 
 ![FormLights](../../../img/pilot_formation_lights_panel.jpg)
