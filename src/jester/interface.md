@@ -28,7 +28,8 @@ To confirm and send the data, select the option (LAT/LONG in this case) again.
 
 ### Wheel Controls
 
-The Jester Wheel can be opened or closed by pressing <kbd>A</kbd>.
+The Jester Wheel can be opened by pressing <kbd>A</kbd> short and closed by pressing <kbd>
+A</kbd> long.
 
 The entire UI is accessible via mouse by left-clicking options or clicking on
 the center area of circle to navigate back.

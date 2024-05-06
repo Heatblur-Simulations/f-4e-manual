@@ -114,5 +114,5 @@ continue to follow the position now memorized by the WRCS.
 
 Additionally, the signal will also be send if the pod is deselected, i.e.
 
-- Video Select Switch - Weapon, or
+- Video Select Button - Weapon, or
 - WSO DSCG Mode - not TV (for example switching to Radar)

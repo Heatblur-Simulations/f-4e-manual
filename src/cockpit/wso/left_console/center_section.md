@@ -226,7 +226,7 @@ Guarded by a cover (<num>2</num>), when positioned ON, dispenses flares at rate
 of ten per second until dispensers are empty, so long as flaps and speed brakes
 are retracted.
 
-> 💡 After around 10 seconds, all countermeasure have been dispensed.
+> 💡 After around 10 seconds, all flares have been dispensed.
 
 ### Counters
 
