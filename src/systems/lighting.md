@@ -1,250 +1,217 @@
-# Lighting Equipment
+# 照明设备
 
-## Exterior Lighting
+## 机外照明
 
-![ext_lights](../img/ext_lights.jpg)
+![ext_lights](../img/ext_f4_lighting_overview.jpg)
 
-Exterior lights on the F-4E include position lights found on the wings and tail,
-join-up lights on the wings, fuselage lights, the anti collision light, and the
-inflight refueling receptacle light; the control for these are found on the
-right console. Additional in-flight lighting is provided by the formation
-lights, which have a separate set of controls above the right console. Further
-lighting is available for landing and taxi when the gear are lowered, and the
-controls for these are found on the left sub-panel.
+F-4E 的机外照明包括位于机翼和垂尾的航行灯、翼尖会合灯、机身灯和防撞灯和受油口灯；这些灯光的控制开关
+可在右侧控制台中找到。此外，F-4E 还可以使用编队灯进行空中照明，其在右侧控制台上方右单独的一组控制开
+关/旋钮。放下起落架后，着陆和滑行时还可获得更多照明，这些照明的控制开关位于左侧子面板上。
 
-![pilot_exterior_lights_panel](../img/pilot_ext_lights_panel.jpg) _Pilot
-Exterior Lighting Panel_
+![pilot_exterior_lights_panel](../img/pilot_ext_lights_panel.jpg) _Pilot Exterior Lighting Panel_
 
-### Position and Join-Up Lights
+### 航行和会合灯
 
-![pos_lights](../img/pos_lights.jpg)
+![pos_lights](../img/ext_f4_pos_and_join_anti_col_lights.jpg)
 
-The wing and join-up lights are controlled by a single switch, with options for
-OFF, DIM, and BRT. These lights do not have a flash function. The tail light is
-controlled by the Flasher Switch in STEADY or FLASH position.
+机翼和会合灯由单个开关进行控制，档位有 OFF、DIM 和 BRT。这些灯光无闪烁功能。垂尾灯可将闪光器开关拨
+至 STEADY 或 FLASH 档位进行控制。
 
-### Anti-Collision and Fuselage Lights
+### 防撞灯和机身灯
 
-![fus_light_top](../img/fus_light_top.jpg)
-![fus_light_bottom](../img/fus_light_bottom.jpg)
+| 顶部机身灯                                             | 底部机身灯                                                   |
+| ------------------------------------------------------ | ------------------------------------------------------------ |
+| ![fus_light_top](../img/ext_f4_fuselage_light_top.jpg) | ![fus_light_bottom](../img/ext_f4_fuselage_light_bottom.jpg) |
 
-Three white anti-collision lights are found behind the rear cockpit canopy, and
-one below each of the engine intakes.
+在后座驾驶舱座舱盖的后方装有三个机身灯，其中每台发动机的进口下方有一盏。
 
-![anti_col_light](../img/anti_col_light.jpg)
+![anti_col_light](../img/ext_f4_anti_col_light.jpg)
 
-A red anti-collision light is found on the vertical stabilizer.
+垂尾上则为红色防撞灯。
 
-These are all controlled by the three position FUS switch, which can be set to
-OFF, DIM, and BRT. The red light on the stabilizer only illuminates when this
-switch is selected to BRT. The fuselage lights only function with the Flasher
-Switch in STEADY or FLASH, and cycle when in the latter setting.
+这些防撞灯都由三档位机身开关(1) 进行控制，可设置档位为 OFF、DIM 和 BRT。位于垂尾的红色
+防撞灯仅在开关选择 BRT 时亮起。机身灯仅在闪光器开关设置到 STEADY 或 FLASH 档位时生效，并跟随档位设
+置进行闪烁常亮变化。
 
-### Landing and Taxi Lights
+### 着陆和滑行灯
 
-The landing and taxi lights are found on the nose gear door, and only illuminate
-when the gear are in the down position.
+![landing_and_taxi_lgihts_ext](../img/ext_f4_landing_gear_lights.jpg)
 
-### In-Flight-Refueling Receptacle Lights
+着陆和滑行灯安装在前轮轮舱盖上，仅在起落架放下时可亮起。
 
-To assist operators with boom alignment, lights illuminating the IFR receptacle
-will power on when it is raised by placing the Air Refuel Switch into EXTEND.
+### 受油口灯
 
-### Formation Lights
+将空中加油开关置于 EXTEND 档位，受油口抬起时，受油口灯将亮起来辅助加油机硬管操作员进行空加操作。
 
-![formation_lights](../img/formation_lights.jpg)
+### 编队灯
 
-Electroluminescent formation lighting is found along the fuselage, wing tips,
-and vertical stabilizer. These are activated using the control panel above the
-right console, and have options for ON, OFF, and MOM (for momentary).
+![formation_lights](../img/ext_f4_formation_lights.jpg)
 
-## Interior Lighting
+电致发光编队灯沿机身、翼尖和垂尾进行安装。编队灯使用右侧控制台上方的控制面板进行控制，有 ON、OFF 和
+MOM（自复位）档位。
 
-Interior lighting consists of several floodlights, panel back-lighting, gauge
-edge lighting, and several dimmable warning and indicator lamps.
+## 机内照明
 
-Both cockpits are fully night-capable and have separate controls for adjusting
-brightness.
+机内照明由数个泛光灯、面板背光照明、仪表边缘照明和数个可调告警和指示灯灯光组成。
 
-Most controls for interior lighting can be found at the aft end of the right
-consoles.
+两个驾驶舱都有完整夜间作业能力以及有单独的控制开关/旋钮来调整亮度。
 
-| Pilot                                                  | WSO                                                    |
-|--------------------------------------------------------|--------------------------------------------------------|
+大多数机内照明控制开关/旋钮位于右侧控制台的后部。
+
+| 飞行员                                                 | WSO                                                    |
+| ------------------------------------------------------ | ------------------------------------------------------ |
 | ![pilot_int_lighting](../img/pilot_cockpit_lights.jpg) | ![wso_int_lighting](../img/wso_cockpit_lights_aft.jpg) |
 
-### Floodlights
+### 泛光灯
 
-For general cockpit illumination, the aircraft features several red floodlights
-and also a battery-powered white floodlight.
+用于常规驾驶舱照明，飞机配备了多个红色泛光灯和一个电池供电的白色泛光灯。
 
 ![pilot_interior_lighting_night](../img/pilot_interior_lighting_night.jpg)
 
-#### White Floodlight
+#### 白色泛光灯
 
-The White Floodlight switch acts independent of all other controls on the panel,
-and is either ON or OFF. It activates a separate emergency floodlight (also
-called _Thunderstorm Light_) that illuminates the cockpit in white. The lamp is
-energized through the Battery Bus to ensure it is always operational, even in
-case of total power loss.
+白色泛光灯开关（1 飞行员，4 WSO）可独立于所有其它面板中的控制开关进行工作，开关有 ON 或 OFF 两个档
+位。开关拨至 ON 将打开一个单独的应急泛光灯（也称为 _雷暴灯_）来用白光照亮驾驶舱。白色泛光灯灯通过电
+池总线供电，以确保即使在完全断电的情况下也能保持工作。
 
-> 🟡 CAUTION: Do not forget to turn off the light before parking the aircraft for a
-> longer time, as it will otherwise drain the battery.
+🟡 注意：在长时间停放飞机前别忘了关掉灯光，否则将耗光电池电量。
 
-#### Red Floodlights
+#### 红色泛光灯
 
-Red floodlights can be switched individually for the consoles and the instrument
-panel. Controls are found on the right console and the right wall.
+控制台和仪表板的红色泛光灯可单独开关。控制开关位于右侧控制台和右侧墙板上。
 
 ![Red Floodlight Switches](../img/pilot_floodlight_switches.jpg)
 
-> 💡 The WSO has no controls for the instrument floodlight. The light is also
-> controlled by the pilots switch on the right wall.
+💡 WSO 没有仪表泛光灯的控制开关。WSO 仪表泛光灯由飞行员右侧墙板上的开关进行控制。
 
-All three positions of the switches are powered by different buses to ensure
-maximal availability:
+开关的所有三个档位都由不同的总线供电，以确保最大的可用性：
 
-| Lamp   | Bus                   |
-|--------|-----------------------|
-| Bright | Essential 28V DC Bus  |
-| Medium | Left Main 14V AC Bus  |
-| Dim    | Left Main 115V AC Bus |
+| 灯光   | 总线              |
+| ------ | ----------------- |
+| Bright | 应急 28V DC 总线  |
+| Medium | 左主 14V AC 总线  |
+| Dim    | 左主 115V AC 总线 |
 
-> 💡 Floodlights are turned off by selecting the DIM position and
-> moving the Console Brightness knob to OFF.
+💡 选择 DIM 档位并将控制台亮度旋钮转至 OFF，即可关闭泛光灯。
 
-### Panel Lighting
+### 面板照明
 
-To ensure that all panels and gauges are readable during night, back- and
-edge-lighting can be enabled by either crew-member individually for the consoles
-and instrument panel.
+为确保所有面板和仪表在夜间也可读，任意一名机组人员都可单独启用控制台和仪表板的背光和边缘照明。
 
 ![Back-lighting](../img/backlighting.jpg)
 
-Controls are located on the right console.
+控制开关全都位于右侧控制台上。
 
 ![Back-lighting Controls](../img/pilot_cockpit_lights_knobs.jpg)
 
-Console lighting is provided by the Left Main 115V AC bus, while instrument
-panel lighting is powered through the Right Main 115V AC bus.
+控制台照明由左主 115V AC 母线提供电力，而仪表板照明由右主 115V AC 母线供电。
 
-### Flight Instrument Lighting
+### 飞行仪表照明
 
-Additionally to general panel lighting, the brightness for the following six
-flight instruments can be controlled individually by the pilot using the Flight
-Instrument Brightness Knob on the front panel, and the six knobs on the right
-wall.
+除了常规面板照明外，飞行员还可以使用前面板上的飞行仪表亮度旋钮和右侧墙板上的六个旋钮单独控制以下六
+个飞行仪表的亮度。
 
-- AoA Indicator
-- Airspeed Indicator
+- 迎角指示器
+- 空速表
 - HSI
 - ADI
 - VVI
-- Altimeter
+- 高度表
 
-| Flight Instrument Brightness                                                  | Flight Instrument Light Intensity                                                      |
-|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| 飞行仪表亮度                                                                  | 飞行仪表灯光亮度                                                                       |
+| ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | ![Flight Brightness Knob](../img/pilot_flight_instrument_brightness_knob.jpg) | ![Flight Instrument Lights Intensity Panel](../img/pilot_flight_instrument_lights.jpg) |
 
-The Flight Brightness Knob acts as master control. On the fully CCW position,
-lighting of all six instruments is turned off.
+飞行仪表亮度旋钮作为主控制使用。在转动到最大逆时针档位时，所有六个仪表照明将关闭。
 
-The knobs on the wall can be used to tweak brightness for instruments
-individually, where the fully CCW position turns them off and moving the knob CW
-progressively increases brightness until it reaches the level dictated by the
-Flight Brightness Knob.
+墙板的旋钮用来单独调整仪表的亮度，转动到最大逆时针档位时将关闭照明，顺时针转动来逐步增加亮度，直到
+到达飞行仪表亮度旋钮决定的最高亮度。
 
-> 💡 The WSO has no controls for the instrument lighting. Instead, the
-> brightness is also controlled by the pilots knobs.
+💡 WSO 驾驶舱没有仪表照明的控制开关，而是全部由飞行员进行控制。
 
-### Warning and Indicator Brightness
+🚧 飞行仪表照明目前与右侧控制台上的
+[仪表版旋钮](../cockpit/pilot/right_console/center_section.md#instrument-panel-knob) 相连。正确的控
+制旋钮将在抢先体验后期中提供。
 
-Additionally to controlling Flight Instrument Brightness, the pilots Flight
-Brightness Knob also controls the intensity of all warning and indicator lamps
-in both cockpits.
+### 告警和指示器亮度
 
-In the fully CCW position, all indications are given at full brightness. Moving
-the knob out of this position will result in dimmed lamp intensity. No variable
-brightness setting is available.
+除了控制飞行仪表亮度外，飞行仪表亮度旋钮还可控制两个驾驶舱内所有告警灯和指示器灯的亮度。
 
-Some lamps, such as the Fire and Overheat lights are excluded from the circuit
-and will always show at full brightness.
+在转动到最大逆时针档位时，所有指示将提供最高亮度。将旋钮往回转动时将降低灯光亮度。旋钮无亮度可调设
+置功能。
 
-> 💡 Warning and Indicator lamps can not be turned off fully, only a bright or
-> dimmed setting is available.
+某些灯光，例如失火和过热灯处在控制电路外，将始终以最高亮度显示。
 
-> 💡 The SHOOT lights have no dimmed setting and are turned off entirely when the knob
-> is moved out of the fully CCW position.
+💡 告警和指示器灯无法完全关闭，只能设置为亮或暗。
 
-### Rotate-To-Dim Lamps
+💡 SHOOT 灯无调光设置，将在旋钮移出 OFF 档位时完全关闭。
 
-Both cockpits feature multiple lamps that can be dimmed individually by rotating
-the lamp. Rotation will move a shutter in front of the lamp, resulting in a
-reduced intensity.
+### 转动调光灯
 
-Some of those lamps can also be pushed-to-test.
+两个驾驶舱都有多盏灯，可以通过转动灯泡来单独调光。转动时，灯前面的光栅会移动，从而降低灯的亮度。
 
-For the pilot, these lamps include:
+其中一些灯还可以按下来进行测试。
 
-| Name            | Location              |
-|-----------------|-----------------------|
-| CMS Indicator   | Left Console          |
-| Flare Indicator | Left Console          |
-| Recorder        | Left Sub-Panel        |
-| Marker Beacon   | Flight Director Group |
-| Pull-Up         | Overhead Indicators   |
-| KY-28 Mode P    | Right Sub-Panel       |
-| KY-28 Mode C    | Right Sub-Panel       |
-| Radio Command   | Right Console         |
-| TACAN Command   | Right Console         |
-| IFF Reply       | Right Console         |
-| IFF Test        | Right Console         |
+飞行员驾驶舱中，这些灯光为：
 
-The WSO cockpit has the following rotate-to-dim lamps:
+| 名称             | 位置             |
+| ---------------- | ---------------- |
+| CMS 指示灯       | 左侧控制台       |
+| 红外干扰弹指示灯 | 左侧控制台       |
+| 录制灯           | 左侧子面板       |
+| 指点信标灯       | 飞行指引指示器组 |
+| 拉起灯           | 抬头指示器       |
+| KY-28 模式 P     | 右侧子面板       |
+| KY-28 模式 C     | 右侧子面板       |
+| 电台指令         | 右侧控制台       |
+| TACAN 指令       | 右侧控制台       |
+| IFF 应答         | 右侧控制台       |
+| IFF 测试         | 右侧控制台       |
 
-| Name                  | Location           |
-|-----------------------|--------------------|
-| Radio Command         | Left Console       |
-| TACAN Command         | Left Console       |
-| Chaff Indicator       | Left Console       |
-| Flare Indicator       | Left Console       |
-| APX Challenge         | Left Sub-Panel     |
-| Combat-Tree Challenge | Left Sub-Panel     |
-| Marker Beacon         | Upfront Indicators |
-| KY-28 Mode P          | Upfront Indicators |
-| KY-28 Mode C          | Upfront Indicators |
-| INS Align             | Right Console      |
-| INS Heat              | Right Console      |
+WSO 驾驶舱中有以下可转动进行调光的灯：
 
-### Other
+| 名称         | 位置         |
+| ------------ | ------------ |
+| 电台指令     | 左侧控制台   |
+| TACAN 指令   | 左侧控制台   |
+| 箔条指示灯   | 左侧控制台   |
+| 红外指示灯   | 左侧控制台   |
+| APX 问询     | 左侧子面板   |
+| 战斗树问询   | 左侧子面板   |
+| 指点信标     | 前上方指示器 |
+| KY-28 模式 P | 前上方指示器 |
+| KY-28 模式 C | 前上方指示器 |
+| INS 对准     | 右侧控制台   |
+| INS 加热     | 右侧控制台   |
 
-Some panels and systems have individual lighting controls not tied to the
-general console or instrument brightness knobs.
+### 其它
 
-For the pilot, these additional brightness controls are:
+一些面板和系统有独立的照明控制，与常规控制台或仪表亮度旋钮无关。
 
-| Name                    | Location          |
-|-------------------------|-------------------|
-| SAI                     | Left Wall         |
-| Station Lamps           | Weapon Management |
-| Range Indicator Display | Weapon Management |
-| HUD Reticle             | DSCG Controls     |
-| DSCG Screen             | DSCG Controls     |
-| DSCG Scale              | DSCG Controls     |
-| RWR Display             | Right Main Panel  |
-| RWR Buttons             | Right Main Panel  |
-| Standby Compass Light   | Right Console     |
-| AoA Indexer             | Right Wall        |
+飞行员驾驶舱中，这些额外的亮度控制开关/旋钮为：
 
-While the WSOs brightness controls are as follows:
+| 名称       | 位置               |
+| ---------- | ------------------ |
+| SAI        | 左侧墙板           |
+| 挂点灯     | 武器管理           |
+| 距离灯     | 武器管理           |
+| HUD 准星   | DSCG 控制开关/按钮 |
+| DSCG 屏幕  | DSCG 控制开关/按钮 |
+| DSCG 标度  | DSCG 控制开关/按钮 |
+| RWR 显示器 | 右侧主面板         |
+| RWR 按钮   | 右侧主面板         |
+| 备用罗盘灯 | 右侧控制台         |
+| AoA 分度器 | 右侧墙板           |
 
-| Name                  | Location           |
-|-----------------------|--------------------|
-| RWR Display           | Upfront Indicators |
-| RWR Buttons           | Upfront Indicators |
-| Standby Compass Light | Right Console      |
-| AoA Indexer           | Right Console      |
-| DSCG Screen           | Pedestal Group     |
-| DSCG Scale            | Pedestal Group     |
-| Pave Spike Reticle    | Pedestal Group     |
-| Pave Spike Panel      | Pedestal Group     |
+WSO 的亮度控制开关/旋钮如下：
+
+| 名称            | 位置         |
+| --------------- | ------------ |
+| RWR 显示器      | 前上方指示器 |
+| RWR 按钮        | 前上方指示器 |
+| 备用罗盘灯      | 右侧控制台   |
+| AoA 分度器      | 右侧控制台   |
+| DSCG 屏幕       | 底座组       |
+| DSCG 标度       | 底座组       |
+| Pave Spike 准星 | 底座组       |
+| Pave Spike 面板 | 底座组       |

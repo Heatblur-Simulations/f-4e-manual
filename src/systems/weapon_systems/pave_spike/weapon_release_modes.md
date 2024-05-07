@@ -1,45 +1,40 @@
-# Weapon Release Modes
+# 武器投放模式
 
-The pod offers two additional weapon release modes:
+吊舱还提供额外两种武器投放模式：
 
-- WRCS Auto Mode
-- ROR (Release on Range)
+- WRCS 自动模式
+- ROR（到距离投放）
 
-## Auto Mode
+## 自动模式
 
-The main method of weapon delivery with the pod is the WRCS automatic release
-mode.
+WRCS 自动投放模式是吊舱的主要武器投放方式。
 
-The WRCS has to be integrated with the pod for it to be available, and the pilot
-must select TGT FIND as delivery mode, as well as WRCS on the range indicator.
+WRCS 必须与吊舱一体化后才能使用，飞行员必须选择 TGT FIND 作为投放模式，并在距离指示器上选择 WRCS。
 
 ![pave_spike_weapon_sel_tgt_find](../../../img/pave_spike_weapon_sel_tgt_find.jpg)
 ![pave_spike_range_mode_wrcs](../../../img/pave_spike_range_mode_wrcs.jpg)
 
-This mode works the same as the Dive Toss mode of the WRCS, just that it will
-use the pods computed slant range and target instead.
+该模式的工作原理与 WRCS 的俯冲改出模式相同，只是它将使用吊舱计算出的斜距和目标。
 
 ![wrcs_auto_release_procedure](../../../img/wrcs_auto_release_procedure.jpg)
 
-The TTG cue will move down and meet the T0 cue to indicate the time to release
-from maximally 15 seconds.
+TTG 提示符会向下移动并与 T0 提示符相交，TTg 最长指示 15 秒剩余时间。
 
 ![TTg moves down to T0](../../../img/ttg_moes_to_tt0.jpg)
 
 ## ROR
 
-Release on range is mostly a backup mode. The pilot must select TGT FIND as
-delivery mode, and ROR on the range indicator.
+到距离投放主要作为备份模式。飞行员必须选择 TGT FIND 作为投放模式，并在距离指示器上选择 ROR 来使用
+ROR。
 
 ![pave_spike_weapon_sel_tgt_find](../../../img/pave_spike_weapon_sel_tgt_find.jpg)
 ![pave_spike_range_mode_ror](../../../img/pave_spike_range_mode_ror.jpg)
 
-Weapons will be released automatically, as soon as the computed slant range is
-less than the set desired release range. The range is configured on the range
-indicator, by setting the mode to SET and rotating the knob below the display.
+当计算的斜距小于设定的预计投放距离后，系统将自动投放武器。预计投放距离可在距离指示器上配置，通过将
+模式设置为 SET 并转动显示器下方的旋钮。
 
 ![pave_spike_ror_controls](../../../img/pave_spike_ror_controls.jpg)
 
-Best results are achieved during level flight.
+平飞时投放效果最佳。
 
 ![ror_auto_release_procedure](../../../img/ror_auto_release_procedure.jpg)

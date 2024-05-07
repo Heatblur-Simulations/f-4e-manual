@@ -1,38 +1,34 @@
-# Integrations
+# 一体化
 
-## INS integration
+## INS 一体化
 
-During normal operation, the pod is connected with the INS. This can be disabled
-manually by pressing the INS OUT push button.
+正常工作时，吊舱与 INS 相连。WSO 可按下 INS OUT 按钮来手动禁用一体化。
 
 ![ins_out_lamp](../../../img/wso_target_designator_ins_button.jpg)
 
-With INS disabled, the following functions are **not available**:
+禁用 INS 后，以下功能 **不可用** ：
 
-- Automatic target stabilization during Track-mode
-- Roll-stabilization during 12-VIS Acquisition-mode
-- Slant range computation
-- WRCS integration
+- 跟踪模式下的自动目标稳定
+- 12-VIS 捕获模式下的横滚稳定
+- 斜距计算- WRCS 一体化
 
-## WRCS integration
+## WRCS 一体化
 
-During normal operation, the pod is connected with the WRCS. This can be
-disabled manually by pressing the WRCS OUT push button.
+正常工作时，吊舱与 WRCS 相连。WSO 可按下 WRCS OUT 按钮来手动禁用一体化。
 
 ![wrcs_out_lamp](../../../img/wso_target_designator_wrcs_button.jpg)
 
-Also, the WRCS is disabled automatically without INS integration, or if
-currently not in DIRECT or TGT FIND weapon mode.
+此外，在没有 INS 一体化或者当前不在 DIRECT 或 TGT FIND 武器模式下，WRCS 会被自动禁用。
 
 ![pave_spike_weapon_sel](../../../img/pilot_delivery_mode_knob_pave_spike.jpg)
 
-With WRCS disabled, the following functions are **not available**:
+当 WRCS 不可用，以下功能 **不可用** ：
 
-- WRCS Acquisition mode
-- Memory mode
-- WRCS Automatic Weapon Release
+- WRCS 捕获模式
+- 记忆模式
+- WRCS 自动武器投放
 
-And some functions are degraded, but **still available**:
+并且一些功能将降级，但 **仍然可用** ：
 
-- Slant range computation
-- Automatic target stabilization during Track-mode
+- 斜距计算
+- 跟踪模式下的自动目标稳定

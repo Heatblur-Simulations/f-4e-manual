@@ -1,114 +1,83 @@
-# Modes
+# 模式
 
-Prior to being able to designate a target, one has to visually acquire the
-general target area and put the LOS in the vicinity. This is done by using one
-of three acquisition modes:
+在指定目标之前，必须先目视捕获大致的目标区域，并将 LOS 置于附近。这通过使用三种捕获模式中的一种来实
+现：
 
-- 12-VIS
-- 9-VIS
-- WRCS
+- 12-VIS- 9-VIS- WRCS
 
-The modes can be selected by the WSO, using the Acquisition Mode Switch.
+这些模式由 WSO 通过捕获模式开关选择。
 
 ![acq_mode_switch](../../../img/wso_target_designator_acq_switch.jpg)
 
-## Visual modes
+## 目视模式
 
-In 12-VIS and 9-VIS, the LOS is set to a fix position.
+在 12-VIS 和 9-VIS 模式中，LOS 被设置在固定位置。
 
-- 12-VIS: 0 degrees roll, -2 degrees elevation, looking slightly nose down
-- 9-VIS: -90 degrees roll (CW), -90 degrees elevation (down), looking left
+- 12-VIS: 0 度横滚，-2 度仰角，指向略微向下
+- 9-VIS: -90 度横滚（CW），-90 度仰角（向下），左视
 
-12-VIS can be a great way to find targets of opportunity, as it allows the pilot
-to put a target directly on the nose. The position also corresponds to the caged
-HUD reticle. Additionally, if the INS is integrated with the pod, 12-VIS is
-roll-stabilized.
+12-VIS 是寻找随遇目标的好方法，因为它允许飞行员将机头指向目标。其位置也与锁定的 HUD 准星相对应。此
+外，如果将 INS 与吊舱一体化在一起，12-VIS 还能实现横滚稳定。
 
-The use of 9-VIS is very limited. It is intended to aid in acquiring a target
-while observing an area in a turn. The target has to be put on the extension of
-the left wing. However, in practice it is very difficult to maintain a turn in
-such an attitude.
+9-VIS 的使用非常有限。它的目的是在飞机转弯观察区域时帮助捕获目标。目标必须放在左侧机翼的延长线上。
+然而，在实践中很难保持这种姿态转弯。
 
-## WRCS mode
+## WRCS 模式
 
-The main mode to acquire targets is the WRCS mode, in which the LOS is set to
-the current WRCS target. This usually corresponds to the cursor on the radar
-screen, but can also be set manually by the WSO. This enables the crew to spot a
-target, or general target area, by using the radar or entering known coordinates
-and then slewing the pod to this destination. If no specific target has been
-inserted, the WRCS usually defaults to the aircraft position, resulting in the
-pod looking straight down.
+WRCS 模式为捕获目标的主要模式，其中 LOS 设置为当前的 WRCS 目标——通常与雷达屏幕上的光标相对应，但也
+可由 WSO 手动设置。这样，机组人员就可以通过雷达或输入已知坐标来发现目标或指向大致目标区域，然后将吊
+舱转动到该目标。如果没有插入特定目标，WRCS 通常会默认为飞机位置，使吊舱正指下方。
 
-> 💡 The WRCS mode automatically falls back to the 12-VIS mode in case the WRCS
-> integration is deactivated.
+💡 当 WRCS 一体化被停用后，系统将自动从 WRCS 模式退回至 12-VIS 模式。
 
-## Track mode
+## 跟踪模式
 
-Once the target, or general target area, has been found using the acquisition
-modes, the WSO can enter Track-mode by pressing the trigger on the Antenna Hand
-Control to either Half or Full Action.
+一旦目标，或大致的目标区域，通过使用捕获模式被找到，WSO 可通过按下天线手控上的扳机至第一段或第二段
+来进入跟踪模式。
 
-In this mode, the Antenna Stick can be moved to slew the pod LOS. Operating the
-laser is only available in this mode, and can be activated by pressing the
-trigger on the Antenna Stick to Full Action.
+在这种模式下，可以移动天线手控杆来移动吊舱 LOS。WSO 只能在这种模式下操作激光，可以通过按下天线手控
+杆上的扳机第二段来照射。
 
-Track mode is indicated by the T0 and TTG cues becoming visible on the display.
-They also indicate the status during laser operation.
+T0 和 TTG 提示在显示器上可见时表示进入跟踪模式。它们还用于指示操作激光期间的状态。
 
-If the INS is integrated with the pod, the image will automatically be space
-stabilized on the computed target position. Be aware that the stabilization is
-rudimentary and needs constant correction with the stick for the target to be
-kept centered.
+如果 INS 与吊舱一体化，图像将自动空间稳定在计算的目标位置上。注意，这种稳定功能很初级，需要不断用手
+控杆进行修正，才能使目标保持在十字中心。
 
-The stabilization is mostly based on the measured slant range. Accurate slant
-range can be obtained by firing the laser. Alternatively, it is computed based
-on the aircraft barometric altitude and the target altitude, which can be set by
-the WSO on the WRCS panel.
+稳定主要是基于测量的斜距。通过发射激光可以获得精确的斜距。或者，它也可根据飞机气压高度和目标高度来
+计算得出——可由 WSO 在 WRCS 面板上设置。
 
 ![pave_spike_wrcs_target_alt](../../../img/wso_wrcs_panel_target_altitude.jpg)
 
-Without a WRCS integration, a target altitude of 0 is assumed, degrading the
-stabilization.
+没有 WRCS 一体化，系统则将假定目标高度为 0，这将导致稳定性能降低。
 
-> 💡 The pod is not capable of computing a slant range for targets above
-> the own aircraft altitude (for example when attacking up-hill). Since that is
-> measured using the barometric altitude, depending on the pressure-setting, this
-> can lead to erratic behavior during hot days when flying low. Problematic
-> situations like this were commonly referred to as _Idiot mode_, as the tracking
-> system started to behave very odd and it was very difficult to restore proper
-> behavior. The crew often had to deactivate the INS integration temporarily in
-> order to disable the automatic tracking.
+💡 吊舱不能计算高于本机高度的目标的斜距(例如当目标位于相对本机更高的山坡上时)。由于斜距是根据气压高
+度测量的，取决于气压设置，这可能导致在炎热天气低空飞行时吊舱变得飘忽不定。碰到这种情况通常被称为
+_白痴模式_，因为跟踪系统开始表现得非常奇怪，很难恢复到正常行为。机组人员经常不得不暂时停用 INS 一体
+化，从而禁用自动跟踪。
 
-## Memory Mode
+## 记忆模式
 
-Whenever a target-insert signal is send, the system activates the Memory-mode,
-provided it is currently in Track-mode and the WRCS integration is active.
+只要发送了目标插入信号，当前处于跟踪模式并且 WRCS 一体化处于激活状态，系统就会激活记忆模式。
 
-In this mode, the line of sight is slaved to the current WRCS target, even if it
-is outside of the pods gimbal limits and cannot be displayed currently. The mode
-acts very similar to the WRCS-Acquisition mode.
+在这种模式下，即使目标在吊舱环架限制之外且目前无法显示，吊舱视线都将隶属至当前 WRCS 目标。该模式与
+WRCS 捕获模式非常相似。
 
-The memory mode has to be left explicitly again, by either pressing half or full
-action on the Antenna Stick.
+WSO 必须通过按下天线手控上扳机第一或第二段来再次正确离开记忆模式。
 
-### Target Insert
+### 目标插入
 
-A target-insert signal is usually initiated by the WSO pressing the
-target-insert button.
+目标插入信号通常由 WSO 按下目标插入按钮启动。
 
 ![wrcs_target_insert_button](../../../img/wso_cursor_control_panel_target_insert_button.jpg)
 
-However, when the pod is currently in Track-mode and is maneuvered outside of
-its gimbal limits, it will automatically initiate a target-insert signal and
-send its current target position to the WRCS.
+然而，当吊舱目前处于跟踪模式并转动至其环架限制外时，它将自动发出目标插入信号并将其当前目标位置发送
+给 WRCS。
 
-> 💡 If the laser is currently firing, it will automatically be stopped
-> when hitting a limit.
+💡 如果激光正在照射，系统会在到达某一极限后将自动停止照射。
 
-This signal then also causes the pod to enter Memory-mode, in which case it will
-continue to follow the position now memorized by the WRCS.
+目标插入信号还将使吊舱进入记忆模式，在这种情况下，镜头将继续跟随 WRCS 现在存储的位置。
 
-Additionally, the signal will also be send if the pod is deselected, i.e.
+此外，如果取消选择吊舱，信号也将被发送，即.
 
-- Video Select Switch - Weapon, or
-- WSO DSCG Mode - not TV (for example switching to Radar)
+- 视频选择按钮 - 武器或
+- WSO DSCG 模式 - 非 TV 模式(例如切换到雷达模式)

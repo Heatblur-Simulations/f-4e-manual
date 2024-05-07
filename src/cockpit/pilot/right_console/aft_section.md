@@ -12,7 +12,7 @@
 [BDHI](../../wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi) 等仪表输出精确的方
 位角，还要向后座的 [姿态仪、](../../wso/upfront_indicators.md#attitude-indicator)
 [自动驾驶](../../../systems/flight_controls_gear/flight_controls.md#auotmatic-flight-control-system-afcs)
-和 [轰炸计算机](../../../systems/weapon_systems/wrcs.md) 输出准确的方位
+和 [投弹计算机](../../../systems/weapon_systems/wrcs.md) 输出准确的方位
 
 ### 模式选择旋钮
 

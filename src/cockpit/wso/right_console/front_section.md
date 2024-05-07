@@ -103,7 +103,7 @@ WIDE 和 NARROW 视场。
 
 ### ACTIVATE 开关
 
-仅在按下目标插入按钮后可用，将开关拨至 ON 将为武器投放计算机的回路通电，来在使用
+仅在按下目标插入按钮后可用，将开关拨至 ON 将为武器投放计算机的回路通电，来使用
 [WRCS](../../../systems/weapon_systems/wrcs.md) 投放距离数据执行
 [LABS](../../../systems/weapon_systems/arbcs.md) 投弹。
 

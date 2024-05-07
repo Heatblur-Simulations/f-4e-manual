@@ -8,14 +8,15 @@
 
 ![range_indicator](../../img/pilot_overhead_range_indicator.jpg)
 
-面板为飞行员提供由 [铺路钉](../../systems/weapon_systems/pave_spike/overview.md) 瞄准吊舱测得的斜距
-读数 (x100 英尺)。
+面板为飞行员提供由 [pave spike](../../systems/weapon_systems/pave_spike/overview.md) 瞄准吊舱测得的
+斜距读数 (x100 英尺)。
 
-按下测试按钮后(3)，屏幕将显示 888。测试按钮下方的旋钮(4)用于控制读数的亮度。
+按下测试按钮后(3)，屏幕将显示 888。测试按钮下方的旋钮(5)用于控制读数的亮度。
 
 模式旋钮(1)允许飞行员选择其中一个吊舱可用的武器投放模式：
 
-- [WRCS](../../systems/weapon_systems/wrcs.md) - 自动投放 - ROR - 距离投放
+- [WRCS](../../systems/weapon_systems/wrcs.md) - 自动投放
+- ROR - 到距离投放
 
 在 SET 档位，屏幕将显示 ROR 模式使用的预计投放距离。在读数下方旋钮(4)可用于调整距离。
 
@@ -56,7 +57,7 @@ GUARD/ADF 时 G 或 A-3-2-T 开关设置到 A 时显示 A。
 
 > 💡 在暗模式下，SHOOT 灯将完全关闭。
 
-飞行仪表灯还可以通过右防火墙上的
+飞行仪表灯还可以通过右墙板上的
 [飞行仪表灯亮度面板](right_console/wall.md#flight-instrument-lights-intensity-panel) 来单独进行控制
 。
 
@@ -94,7 +95,7 @@ GUARD/ADF 时 G 或 A-3-2-T 开关设置到 A 时显示 A。
 如果位于其上方的飞行仪表亮度旋钮设置到最大逆时针档位，飞行仪表亮度旋钮将超控调光旋钮以及挂点选择按
 钮将始终保持最亮。
 
-> 💡 调光旋钮能调整的亮度区间有限。
+💡 调光旋钮能调整的亮度区间有限。
 
 ## 主军械开关
 
@@ -113,7 +114,7 @@ GUARD/ADF 时 G 或 A-3-2-T 开关设置到 A 时显示 A。
 
 | 名称                                                                                                 | 描述                                                                                     |
 | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| [INST O/S](../../stores/air_to_ground/bombs/employment.md#instantaneous-over-the-shoulder---inst-os) | 瞬时越肩                                                                                 |
+| [INST O/S](../../stores/air_to_ground/bombs/employment.md#instantaneous-over-the-shoulder---inst-os) | 实时越肩                                                                                 |
 | [LOFT](../../stores/air_to_ground/bombs/employment.md#loft)                                          | 上仰                                                                                     |
 | [O/S](../../stores/air_to_ground/bombs/employment.md#timed-over-the-shoulder---timed-os)             | (计时) 越肩                                                                              |
 | [T LAD](../../stores/air_to_ground/bombs/employment.md#timed-low-angle-drogue-delivery---t-ladd)     | 计时 LADD (低角度伞投)                                                                   |
@@ -122,8 +123,8 @@ GUARD/ADF 时 G 或 A-3-2-T 开关设置到 A 时显示 A。
 | [DIRECT](../../stores/air_to_ground/bombs/employment.md#direct)                                      | 手动直接                                                                                 |
 | [TGT FIND](../../stores/air_to_ground/bombs/employment.md#target-find---tgt-find)                    | 目标搜寻 (仅限导航模式和[铺路钉](../../systems/weapon_systems/pave_spike/overview.md) ） |
 | [DT](../../stores/air_to_ground/bombs/employment.md#dive-toss---dt)                                  | 俯冲改出投弹                                                                             |
-| [DL](../../stores/air_to_ground/bombs/employment.md#dive-laydown---dl)                               | 俯冲低空投弹                                                                             |
-| [L](../../stores/air_to_ground/bombs/employment.md#laydown---l)                                      | 低空投弹                                                                                 |
+| [DL](../../stores/air_to_ground/bombs/employment.md#dive-laydown---dl)                               | 俯冲铺投                                                                                 |
+| [L](../../stores/air_to_ground/bombs/employment.md#laydown---l)                                      | 铺投                                                                                     |
 | [OFF SET](../../stores/air_to_ground/bombs/employment.md#offset)                                     | 偏置投弹                                                                                 |
 | [AGM-45](../../stores/air_to_ground/missiles/shrike.md)                                              | [AGM-45 “百舌鸟”](../../stores/air_to_ground/missiles/shrike.md)                         |
 

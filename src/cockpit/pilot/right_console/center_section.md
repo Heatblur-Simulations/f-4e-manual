@@ -173,7 +173,7 @@ BRT。
 
 > 💡 如需关闭红色泛光灯，将开关拨至 DIM > 并将控制台旋钮转至 OFF。
 
-> 💡 仪表板泛光灯照明控制位于 [右侧防火墙中](wall.md#instrument-flood)。
+> 💡 仪表板泛光灯照明控制位于 [右侧墙板中](wall.md#instrument-flood)。
 
 ### 告警灯测试开关
 

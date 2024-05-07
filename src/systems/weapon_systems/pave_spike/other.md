@@ -1,166 +1,131 @@
-# Other
+# 其它
 
-## Stowing
+## 收起镜头
 
-After turning on the system, the pod can be un-stowed by pressing the STOW push
-button.
+打开系统后，按下 STOW 按钮即可伸出镜头。
 
 ![stow_lamp](../../../img/wso_target_designator_stow_button.jpg)
 
-When un-stowed, the pod moves according to the current selections and
-automatically goes into the WIDE FOV.
+伸出镜头时，吊舱根据当前选择移动，并自动进入宽视场模式。
 
-In the stowed position, the camera is rotated upwards and a cover is moved in
-front of it. This protects the camera from stones and other hazards during taxi,
-takeoff or low level flight.
+在收起位，镜头转动至朝上，保护盖移动至镜头前。这可以避免在滑行、起飞和低空飞行时免受石块和其它危险
+源损坏镜头。
 
 ![pave_spike_stowed](../../../img/pave_spike_stowed.jpg)
 
-The stow-procedure takes about 5 seconds, with the light indicating the current
-status.
+收起过程需要约 5 秒钟完成，指示灯会显示当前状态。
 
-> 🟡 CAUTION: The stow-position is held electrically and can not be held without
-> power. Un-powered, the pod swings freely with force. Taking off without first
-> applying power to the pod, or flying with the pod being powered off, will cause
-> the pod to leave the stow position. Outside of the stow position, the system
-> will get damaged through hazards and whenever it is forcefully moved into its
-> gimbal limits. Damage will not only offset the boresight position, but also
-> affect other properties, such as movement speed and similar.
+🟡 注意：系统通过电力将镜头保持在收起位，没有电源则无法保持。在未通电的情况下，吊舱会受力而自由摆动
+。在未先给吊舱通电的情况下起飞，或在吊舱断电的情况下飞行，将导致吊舱离开收起位。在收起位外，系统将
+因异物或其它原因被强行将其移动到环架的极限位置而受损。这种损伤不仅会导致瞄准轴位置偏移，还会影响其
+它属性，如移动速度等。
 
-## Cooling
+## 冷却系统
 
-The targeting pod has a cooling system installed in the rear section, which
-automatically cools the pod by external airflow.
+瞄准吊舱后部安装有冷却系统，可利用外部气流自动冷却吊舱。
 
 ![pave_spike_cooling](../../../img/pave_spike_cooling.jpg)
 
-In general, the system is capable of keeping the pods temperature within limits
-during all normal operation.
+一般来说，在所有正常操作过程中，系统都能将吊舱温度控制在限制内。
 
-However, if the temperature gets out of control, the Overheat lamp will
-illuminate.
+但是，如果温度失控，过热灯将会亮起。
 
 ![overheat_lamp](../../../img/wso_target_designator_ins_button.jpg)
 
-In this case, make sure to turn off the pod immediately and give it some time to
-cool down first. Ignoring the lamp will cause parts of the pod to melt, damaging
-it irreparably.
+在这种情况下，确保立即关闭吊舱，并给它一些时间进行冷却。忽视指示灯会导致吊舱的部分融化，对其造成不
+可逆的损伤。
 
-A broken pod is generally indicated by the MALF lamp going on and the display
-being all black.
+MALF 灯亮起和显示器全黑通常表示吊舱受损。
 
 ![pave_spike_melted](../../../img/pave_spike_melted.jpg)
 
-To prolong use of the pod and prevent overheating, limit slow and low-level
-flight, as well as continuous use of the laser.
+为了延长吊舱使用寿命和防止过热，不要低速和低空飞行，以及连续使用激光。
 
-> 🟡 CAUTION: As a rule-of-thumb, do not use
-> the laser for longer than 15 minutes without allowing for cooling between uses.
-> Limit continued slow and low level flight while operating the pod to 30 minutes.
-> For extreme outside temperatures, adjust the limits accordingly.
+🟡 注意：根据经验法则，在两次使用之间不进行冷却的情况下，不要使用激光超过 15 分钟。在操作吊舱时，持
+续低空低速飞行的时间不要超过 30 分钟。 对于极端的外部温度，请相应地调整限制。
 
-## BITs
+## 机内自检
 
-The pod has 5 built-in tests, with BIT 1 being the actual mode used during
-normal operation. They can be activated and switched through by clicking the BIT
-button below the display. The GO/MALF lights show the result of the BIT:
+吊舱有 5 个机内自检，BIT 1 是在正常操作期间使用的实际模式。WSO 可以通过点击显示器下方的 BIT 按钮来
+激活和切换 BIT。GO/MALF 灯显示 BIT 的结果:
 
-- GO - test was successful
-- MALF - test detected a failure
+- GO - 自检成功
+- MALF - 检测到故障
 
-During normal operation, activated through BIT 1, neither of the lights are
-illuminated.
+在正常操作期间，通过激活 BIT 1 将保持两盏灯熄灭。
 
 ### BIT 0
 
-All lights on the Target Designator Set Control illuminate with full brightness.
-The pod does not need to be powered up for this test.
+目标指示器套件控制上的所有灯都以最大亮度亮起。BIT 0 不需要为吊舱通电。
 
 ![pave_spike_self_test](../../../img/pave_spike_self_test.jpg)
 
-GO/MALF do not indicate test results in this mode.
+GO/MALF 灯在此模式下不指示测试结果。
 
 ### BIT 1
 
-The circuits are energized and monitored. If any voltage reading is abnormal,
-MALF illuminates.
+回路通电并进行监控。如果任何电压读数异常，MALF 灯将亮起。
 
-GO does not illuminate in this mode.
+GO 灯指示在此模式下不亮起。
 
-This is the standard operational mode. The pod can be used normally and the
-system will continuously monitor the status.
+这是标准的工作模式。吊舱可以正常使用，系统会持续监控吊舱状态。
 
 ### BIT 2
 
-The system simulates track functionality, simulating all inputs, altitude and
-range data.
+系统将模拟跟踪功能，模拟所有输入、高度和距离数据。
 
-After about 15 seconds, the test is finished with either GO or MALF
-illuminating.
+约 15 秒后，测试完成，GO 或 MALF 灯将亮起。
 
-> 💡 For the test to be successful, the aircraft must not be moving, the pod must be
-> un-stowed and INS must be integrated.
+💡 要成功完成测试，飞机必须保持静止，吊舱必须处在伸出状态，INS 必须一体化。
 
 ### Bit 3
 
-This tests the laser energy level. The pod moves to a special position where it
-looks inside itself, such that the laser fires against a special sensor mounted
-inside the pod.
+这是对激光能量水平的测试。吊舱将移动到一个特殊的位置来指向内部，之后对安装在吊舱内部的一个特殊传感
+器照射激光。
 
-The pod must be un-stowed and a valid laser code must have been entered, as well
-as the LASER READY button being pushed in. The nose gear guard is ignored during
-the test, allowing the use of the laser on ground.
+吊舱必须处于伸出状态，必须输入有效的激光编码，并按下激光就绪按钮。在测试期间系统将忽略前轮保护，允
+许在地面上使用激光。
 
-Once the pod has reached the test position, the WSO must press and hold the
-Reject/Override button to start firing the laser. The laser stops firing when
-the button is released.
+一旦吊舱转到测试位，WSO 必须按下并按住断开/超控按钮来开始照射激光。当松开按钮后，激光将停止照射。
 
 ![reject_override_button](../../../img/wso_target_designator_reject_button.jpg)
 
-When the laser fires, a 5 second test program starts, with the sensor measuring
-the laser energy. After the 5 second test, either GO or MALF illuminate to
-indicate whether the energy level was above the required minimum.
+当照射激光后，系统将开始一个 5 秒的测试程序，传感器测量激光能量。在 5 秒的测试完成后，GO 或 MALF 灯
+亮起，指示是否高于所需的最低能量水平。
 
-To pilot can assist in telling the WSO that the test position has been reached,
-as indicated by the Azimuth-Elevation Indicator.
+飞行员可以通过方位角-仰角指示器帮助告知 WSO 吊舱是否已到测试位。
 
 ![pave_spike_bit_3_az_el](../../../img/pave_spike_bit_3_az_el.jpg)
 
 ### Bit 4
 
-The system tests the ranging computation by feeding a simulated laser slant
-range of 2100 ft (±200). The pilot can confirm this using the Range Indicator
-readout.
+系统通过输入一个 2100 英尺(±200)的模拟激光斜距来测试测距计算功能。飞行员可以通过距离指示器的读数来
+确认。
 
 ![pave_spike_bit_4_range](../../../img/pave_spike_bit_4_range.jpg)
 
-After about 8 to 14 seconds, the test is finished and either GO or MALF is lit.
+大约 8 到 14 秒后，测试完成，GO 或 MALF 灯亮起。
 
-## Upgrades
+## 升级
 
-Based on crew feedback, the Pave Spike targeting pod received two major
-upgrades, which are available as separate selectable weapon in DCS.
+根据机组反馈，Pave Spike 瞄准吊舱获得了两个主要升级——可作为单独的武器挂载在 DCS 中选用。
 
-### Smart-Track
+### 智能跟踪
 
-TCTO 518, known as the Smart-Track upgrade, aims at removing the requirement to
-press the Reject/Override button to force the laser measured slant range in
-situations in which the computed slant range was usually too inaccurate.
+TCTO 518，被称为 Smart-Track 升级，旨在计算出的斜距通常过于不准确的情况下，不再需要按下断开/超控按
+钮来强制使用激光测量的斜距。
 
 ![reject_override_button](../../../img/wso_target_designator_reject_button.jpg)
 
-With the upgrade, the system will automatically accept the laser slant range
-whenever the pods elevation gimbal is above -7.5 degrees. I.e. in shallow
-angles, for example during 12-VIS mode or low altitude attacks.
+升级后，在吊舱视线仰角高于-7.5 度时，系统将自动接受激光斜距，即在小角度，比如在 12-VIS 模式或低空攻
+击时使用吊舱。
 
-### Fast-Track
+### 快速跟踪
 
-The popular upgrade TCTO 519 overhauls the pods gimbal motors, increasing the
-movement speed from 15 dps to 60 dps.
+普遍升级项目 TCTO 519 全面改进了吊舱环架电机，将移动速度从每秒 15 度提高到每秒 60 度。
 
-> 💡 At this speed, the targeting pod is capable of tracking a target during low
-> altitude high speed flight, such as overflights at 1,000 ft with 500 knots.
+💡 在这个速度下，瞄准吊舱能够在低空高速飞行期间跟踪目标，例如在 1000 英尺以 500 节的空速飞越目标。
 
-## Checklists
+## 检查单
 
-For Checklists see the [Pave Spike procedure chapter](../../../procedures/pave_spike.md#turn-on).
+检查单参考 [Pave Spike 程序章节](../../../procedures/pave_spike.md#turn-on)。

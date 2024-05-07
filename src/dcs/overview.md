@@ -1,9 +1,8 @@
 # DCS
 
-This chapter contains systems, settings and interfaces specific to
-the simulation of the Phantom inside DCS.
+本章包含在 DCS 中 “鬼怪” 特有的系统、设置和接口模拟。
 
-Of special note is a [modding guide](modding/overview.md) and explanation available
-to [mission designers](mission_editor.md).
+特别值得注意的是 [编辑指南](modding/overview.md) 和提供给
+[任务设计人](mission_editor.md) 的介绍。
 
 ![Helicopter with Anime Livery](../img/livery_helo.jpg)

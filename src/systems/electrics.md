@@ -1,287 +1,268 @@
-# Electrics
+# 电气
 
-The F-4E derives electrical power from a pair of AC generators driven by the [J79
-engines](../systems/engines_and_fuel_systems/engines.md), a pair of AC to DC transformers, and a
-battery for electrical functions
-with the engines offline. In addition, the Phantom
-II can receive external
-electrical power from ground crew. The two generator arrangement, while normally
-working independently, includes a bus tie that can connect both buses together
-to draw power from a single generator in case of failure.
+F-4E 的电力一对由 [J79 发动机](../systems/engines_and_fuel_systems/engines.md) 驱动的交流发电机、一
+对交流变直流变压器和一个电池——用于在发动机脱机时提供电力。此外，“鬼怪” II 还可以接收地勤人员提供的
+地电。两台发电机通常是独立工作的，但也包括一个总线汇流条，可将两条总线连接在一起，以便在发生故障时
+从一台发电机获取电力。
 
-## Generator Indicator Lights
+## 发动机指示灯
 
 ![GenInd](../img/pilot_generator_lights.jpg)
 
-Three warning indicators are found on the generator indicator panel: LH GEN OUT,
-RH GEN OUT, and BUS TIE OPEN. The respective GEN OUT warning will illuminate in
-the event the generator in question fails. The indication of BUS TIE OPEN is an
-acknowledgement that a single functioning generator is providing power to the
-entire aircraft. In the event of a generator failure, the Master Caution will
-also illuminate. However, in case both generators fail, no GEN OUT light will illuminate.
+发电机指示灯面板上有三个警告指示灯：LH GEN OUT、RH GEN OUT 和 BUS TIE OPEN。当相关发电机发生故障时
+，相应的 GEN OUT 告警将亮起。BUS TIE OPEN 指示表示一台正常工作的发电机正在为整架飞机供电。如果发电
+机发生故障，主注意也会亮起。但是，如果两台发电机都发生故障，则 GEN OUT 灯不会亮起。
 
-## Generator Control Switches
+## 发电机控制开关
 
 ![GenCtl](../img/pilot_generator_switches.jpg)
 
-A pair of Generator Control Switches are found on the right console, one for each engine. These
-three position switches - ON (Forward), OFF, ON External (Aft) - control the state of each
-respective generator. In the event of a possible generator failure, selecting OFF for
-the generator that is believed to be offline will cause the power bus to provide electricity from
-the remaining generator to the other half of the electrical system. The External On setting is used
-for ground handling purposes when connected to external power, and provides electric power to all
-instruments, except the CNI and the AFCS.
+在右侧控制台上每台发动机各有一枚发电机控制开关。这三档位开关——ON（前）、OFF、ON External（后）——分
+别控制每个发电机的状态。在发电机可能出现故障的情况下，选择 OFF 档位来关闭故障发电机，则电源总线将从
+其余发电机向另一半电气系统供电。当连接地面电源时，选择 ON External 来进行地面作业，并为除 CNI 和
+AFCS 以外的所有仪表供电。
 
-## Instrument Ground Power Switch
+## 仪表地面电源开关
 
 ![InstrumentGroundPowerSwitch](../img/wso_ground_test_control_panel.jpg)
 
-Power from an external source to the instrument buses (115/200 volt ac, 28 volt
-ac, and 14 volt ac), can be provided by the Instrument Ground Power Switch (if
-the generator switches are set to EXT ON), found on the right wall in the
-rear cockpit. Once external electrical power is disengaged or an engine
-generator comes online, it will switch off.
+WSO 可在连接地面电源时（如果发电机控制开关设置为 EXT ON）通过仪表地面电源开关来选择为仪表总线
+（115/200 伏交流、28 伏交流和 14 伏交流）供电可，开关位于后座右侧墙板上。一旦地电断开或发动机发电机
+上线，开关就会回到 OFF 档位。
 
-## Bus System
+## 总线系统
 
 ![manual_electric_system_diagram](../img/manual_electric_system_diagram.jpg)
 
-The battery and generators power several buses which then route current to the relevant systems:
+电池和发电机为多条总线供电，总线接着再将电流输送到相关系统：
 
-- Left Main AC Bus
-- Right Main AC Bus
-- Instrument AC Bus
-- Warning Light AC Bus
-- Main DC Bus
-- Essential DC Bus
-- Armament DC Bus
-- Battery Bus
+- 左主 AC 总线
+- 右主 AC 总线
+- 仪表 AC 总线
+- 告警灯 AC 总线
+- 主 DC 总线
+- 应急 DC 总线
+- 武器 DC 总线
+- 电池总线
 
-## Circuit Breakers
+## 断路器
 
-From the buses, power is first routed through Circuit Breakers before they
-reach the actual systems.
+在达到实际使用系统前，总线输送的电源将先通过断路器。
 
-> 💡 Due to engine limitations, CBs in the WSO cockpit are currently not accessible.
+💡 由于引擎限制，WSO 驾驶舱中的 CB 暂时无法访问。
 
-Most circuit breakers are placed in the WSO pit on either wall, with the exception
-of one panel in the pilot pit, housing breakers for the flight control surfaces
-and similar crucial systems.
+大多数断路器都安装在 WSO 机舱的两侧墙板上，只有一个面板安装在飞行员驾驶舱中，其中包括飞行操作面和类
+似关键系统的断路器。
 
-### Pilot Panel
+### 飞行员面板
 
 ![pilot_cb_panel](../img/pilot_circuit_breakers.jpg)
 
-Located on the right wall of the pilot cockpit, this panel contains
-seven circuit breakers responsible for flight control surfaces and
-other systems important for safe operation of the aircraft.
+该面板位于飞行员驾驶舱的右侧墙板上，包含 7 个断路器，负责飞行操作面和对飞机安全操作至关重要的其它系
+统。
 
-- AIL Feel-Trim
-- STAB Feel-Trim
-- Speed Brake
-- Landing Gear
-- Flaps
-- Trim Controls
-- Rudder Trim
+- AIL Feel-Trim（副翼感受配平）
+- STAB Feel-Trim（平尾感受配平）
+- Speed Brake（减速板）
+- Landing Gear（起落架）
+- Flaps（襟翼）
+- Trim Controls（配平控制开关）
+- Rudder Trim（方向舵配平）
 
-### Lighting Panel
+### 照明面板
 
 ![pilot_light_cbs](../img/pilot_light_cb.jpg)
 
-Hidden behind a bundle of cables to the right of the telelight panel in the Pilot
-cockpit are two circuit breakers controlling lights.
+在飞行员驾驶舱远传信号灯面板右侧的一捆电缆后面，隐藏着两个控制灯光的断路器。
 
-The upper one is responsible for powering the primary instrument lights, while
-the lower circuit breaker powers all indicator and warning lights.
+位于上方的断路器负责为主要仪表灯供电，而低处的断路器则为所有指示灯和告警灯供电。
 
-### CB Panel 1
+### CB 面板 1
 
 ![WSO CB Panel 1](../img/wso_cb_panel_1.jpg)
 
-Front section of right wall in WSO cockpit.
+WSO 驾驶舱右侧墙板的前部。
 
-Has the circuit breakers for all stations, the armament and weapon system.
+包括所有挂点、武器和武器系统的断路器。
 
-### CB Panel 2
+### CB 面板 2
 
 ![WSO CB Panel 2](../img/wso_cb_panel_2.jpg)
 
-Center section of right wall in WSO cockpit.
+WSO 驾驶舱右侧墙板的中部。
 
-Mostly responsible for Engine and Hydraulics operation.
+主要负责发动机和液压系统的操作。
 
-### CB Panel 3
+### CB 面板 3
 
 ![WSO CB Panel 3](../img/wso_cb_panel_3.jpg)
 
-Aft section of right wall in WSO cockpit.
+WSO 驾驶舱右侧墙板的后部。
 
-Contains breakers for auxiliary functions, such as Anti-Icing or the Arresting Hook.
+例如防冰或拦阻钩等辅助功能的断路器。
 
-### CB Panel 4
+### CB 面板 4
 
 ![WSO CB Panel 4](../img/wso_cb_panel_4.jpg)
 
-Aft section of left wall in WSO cockpit.
+WSO 驾驶舱左侧墙板的后部。
 
-Master controls of power coming through all buses, the flight computer and targeting pod.
+控制通过所有总线、飞行计算机和瞄准吊舱的电源的主控制断路器。
 
-### CB Panel 7
+### CB 面板 7
 
 ![WSO CB Panel 7](../img/wso_cb_panel_7.jpg)
 
-Next to the right rudder pedal in WSO cockpit.
+位于 WSO 驾驶舱右方向舵脚蹬旁。
 
-Hidden behind a cover, this panel houses all breakers for the ECM and Jamming equipment.
+隐藏在盖板后方，面板包括所有 ECM 和干扰设备的断路器。
 
-## Failures and Emergency Power Distribution
+## 故障和应急电源分配
 
-In the event of damage to the Airplane and loss of either the left and/or right generator, as well
-as the Main 28 Volt DC Bus there are several different systems that are inoperative for the
-respective bus.
+如果飞机受损，失去左侧和/或右侧发电机以及主 28 伏直流母线，则相应母线上的数个不同系统将无法工作。
 
-### Left Hand Generator Out - Bus Tie Open
+### 左手发电机脱机 - Bus Tie Open
 
-If the left-hand generator stops working the following systems won't work:
+如果左手发电机停止工作，以下系统将无法正常工作：
 
-| _**Critical Systems**_ | _**Non-Critical Systems**_                     |
-|------------------------|------------------------------------------------|
-| Anti-Ice System        | AN/ARW 77 (Used to fire AGM-12 Bullpup)        |
-| Anti-Skid System       | Anti-Collision Light (one filament)            |
-| Afterburner Ignition   | DSCG                                           |
-| INS Heater             | ECM Pods                                       |
-| Landing light          | Equipment cooling (e.g. Pave Spike)            |
-|                        | Fuselage lights                                |
-|                        | Front Cockpit console lights                   |
-|                        | Front Cockpit red instrument floodlights (DIM) |
-|                        | Lead Computing Optical Sight                   |
-|                        | Left-hand 28V Transformer                      |
-|                        | Left-hand fuel boost pump                      |
-|                        | Left-hand missile firing                       |
-|                        | Left-hand missile power                        |
-|                        | Left-hand transformer rectifier                |
-|                        | No. 4 Electrical fuel transfer pump            |
-|                        | Nose gun                                       |
-|                        | Radar                                          |
-|                        | Radar Scope Camera                             |
-|                        | Red console floodlights                        |
-|                        | Right-hand missile power                       |
-|                        | Seat adjust                                    |
-|                        | AGM-45 Shrike guidance                         |
-|                        | Target designator (Pave Spike)                 |
-|                        | Utility light                                  |
-|                        | Utility Power AC                               |
-|                        | Wing and Tail light DIM                        |
-|                        | WRCS Power                                     |
+| _**关键系统**_ | _**非关键系统**_                     |
+| -------------- | ------------------------------------ |
+| 防冰系统       | AN/ARW 77 (用来发射 AGM-12 “小斗犬”) |
+| 防滑系统       | 防撞灯 (单丝)                        |
+| 加力燃烧室点火 | DSCG                                 |
+| INS 加热器     | ECM 吊舱                             |
+| 着陆灯         | 设备冷却 (比如 Pave Spike)           |
+|                | 机身灯                               |
+|                | 前座控制台灯光                       |
+|                | 前座红色仪表泛光灯 (DIM)             |
+|                | 计算提前角的光学瞄准具               |
+|                | 左手 28V 变压器                      |
+|                | 左手升压油泵                         |
+|                | 左手导弹发射                         |
+|                | 左手导弹电源                         |
+|                | 左手变压器-整流器                    |
+|                | No. 4 电动输油泵                     |
+|                | 机头航炮                             |
+|                | 雷达                                 |
+|                | 雷达屏幕相机                         |
+|                | 红色控制台泛光灯                     |
+|                | 右手导弹电源                         |
+|                | 座椅调节                             |
+|                | AGM-45 “百舌鸟”制导                  |
+|                | 目标指示器 (Pave Spike)              |
+|                | 通用/地图照明灯                      |
+|                | 共用电源 AC                          |
+|                | 机翼和垂尾灯 DIM                     |
+|                | WRCS 电源                            |
 
-### Right Hand Generator Out - Bus Tie Open
+### 右手发电机脱机 - Bus Tie Open
 
-If the right-hand generator stops working the following systems do not work:
+如果右手发电机停止工作，以下系统将无法正常工作：
 
-| _**Critical Systems**_          | _**Non-Critical Systems**_                    |
-|---------------------------------|-----------------------------------------------|
-| Airspeed Pitot Heater           | ADF                                           |
-| AOA Probe Heater                | Aileron feel trim                             |
-| Bellmouth Pitot Heater          | Aileron rudder interconnect                   |
-| Cockpit heat and venting        | ALR-46 Radar Warning System                   |
-| Fuel quantity indicator         | Altitude Encoder                              |
-| IFF                             | Anti-Collision light (one filament)           |
-| Rear cockpit ci heading pointer | APR-36/37 Radar Receiver                      |
-| TACAN                           | APX 80 Air-to-Air IFF                         |
-| VOR: Bearing Pointers           | Armament power                                |
-|                                 | Autopilot                                     |
-|                                 | Auxiliary receiver                            |
-|                                 | CADC                                          |
-|                                 | ECM Pods                                      |
-|                                 | Formation lights                              |
-|                                 | Front cockpit instrument lights               |
-|                                 | Gunsight Camera                               |
-|                                 | In-Flight-Refuel (IFR) receptacle floodlights |
-|                                 | Left Engine ramp control                      |
-|                                 | No.6 Electric fuel transfer pump              |
-|                                 | Oxygen Gage                                   |
-|                                 | Radar altimeter                               |
-|                                 | Right Engine ramp control                     |
-|                                 | Right-hand 28V transformer                    |
-|                                 | Right-hand fuel boost pump                    |
-|                                 | Right-hand transformer rectifier              |
-|                                 | Stability augmentation                        |
-|                                 | Taxi light                                    |
-|                                 | Windshield temp sensing                       |
-|                                 | Wing and Tail Light BRT                       |
+| _**关键系统**_         | _**非关键系统**_        |
+| ---------------------- | ----------------------- |
+| 皮托管加热器           | ADF                     |
+| AOA 管加热器           | 副翼感受配平            |
+| 收敛放气皮托加热器     | 副翼-方向舵交联         |
+| 驾驶舱加热和通风       | ALR-46 雷达告警系统     |
+| 燃油油量表             | 高度编码器              |
+| IFF                    | 防撞灯 (单丝)           |
+| 后座航线指示器航向指针 | APR-36/37 雷达接收机    |
+| TACAN                  | APX 80 空对空 IFF       |
+| VOR: 方位指针          | 武器电源                |
+|                        | 自动驾驶                |
+|                        | 辅助接收机              |
+|                        | CADC                    |
+|                        | ECM 吊舱                |
+|                        | 编队灯                  |
+|                        | 前座仪表灯光            |
+|                        | 航炮准星照相枪          |
+|                        | 空中受油 (IFR) 口泛光灯 |
+|                        | 左发斜板控制            |
+|                        | No.6 电动输油泵         |
+|                        | 氧气储量表              |
+|                        | 雷达高度表              |
+|                        | 右发斜板控制            |
+|                        | 右手 28V 变压器         |
+|                        | 右手升压油泵            |
+|                        | 右手变压器-整流器       |
+|                        | 增稳                    |
+|                        | 滑行灯                  |
+|                        | 风挡温度感测            |
+|                        | 机翼和垂尾灯 BRT        |
 
-### Main 28 Volt DC Bus Out
+### 主 28 伏 DC 总线断电
 
-If the Main 28 Volt DC Bus stops working the following systems do not work:
+如果主 28 伏 DC 总线断电，以下系统将无法正常工作：
 
-| _**Critical Systems**_                | _**Non-Critical Systems**_               |
-|---------------------------------------|------------------------------------------|
-| Anti-Skid                             | ACM IN-RANGE and SHOOT lights            |
-| Bus Tie Relay (BUS TIE OPEN light ON) | ADF                                      |
-| Cockpit heat and venting              | Aileron Rudder Interconnect              |
-| Internal wing fuel dump               | Airborne Video Tape Recorder (AVTR)      |
-| Landing and Taxi lights               | ALE-40 Countermeasure Dispenser          |
-| Nose Wheel Steering                   | Altimeter Vibrator                       |
-| TACAN                                 | APR-36/37 Radar Receiver                 |
-| Turn & Slip Indicator (Rear Cockpit)  | APX 80 A/A IFF                           |
-|                                       | Arresting Hook (only the up operation)   |
-|                                       | AUX Air doors                            |
-|                                       | AUX receiver                             |
-|                                       | Conventional Weapons Release             |
-|                                       | Combat Documentation Cameras             |
-|                                       | DSCG                                     |
-|                                       | ECM Control                              |
-|                                       | ECM Pods                                 |
-|                                       | Engine Variable Bellmouth                |
-|                                       | Equipment cooling control                |
-|                                       | Fuselage, Anti-Collision and Tail lights |
-|                                       | Gunsight Camera                          |
-|                                       | Lead Computing Optical Sight             |
-|                                       | Left-hand fuel boost pump                |
-|                                       | Missile firing                           |
-|                                       | No.4 Electrical fuel transfer pump       |
-|                                       | No.6 Electrical fuel transfer pump       |
-|                                       | Nose Gun                                 |
-|                                       | Pneumatic compressor                     |
-|                                       | Radar                                    |
-|                                       | Radar Altimeter                          |
-|                                       | Rain Removal                             |
-|                                       | Radar Scope Camera                       |
-|                                       | Right-hand Fuel boost pump               |
-|                                       | Rudder Trim/Bellmouth control            |
-|                                       | Speed brake                              |
-|                                       | Special Weapons Centerline Interlock Arm |
-|                                       | Station select and Station select lights |
-|                                       | Stabilator Position indicator            |
-|                                       | Target Designator (Pave Spike)           |
-|                                       | Utility power                            |
-|                                       | VGH Recorder Power                       |
-|                                       | Walleye indent power                     |
-|                                       | Warning lights (DIM)                     |
-|                                       | WRCS Power                               |
+| _**关键系统**_                         | _**非关键系统**_            |
+| -------------------------------------- | --------------------------- |
+| 防滑                                   | ACM IN-RANGE 和 SHOOT 灯    |
+| 总线汇流条继电器 (BUS TIE OPEN 灯亮起) | ADF                         |
+| 驾驶舱加热和通风                       | 副翼-方向舵交联             |
+| 机翼放油                               | 机载录像机 (AVTR)           |
+| 着陆和滑行灯                           | ALE-40 对抗措施布撒器       |
+| 前轮转向                               | 高度表振动器                |
+| TACAN                                  | APR-36/37 雷达接收机        |
+| 转弯侧滑仪 (后座)                      | APX 80 A/A IFF              |
+|                                        | 拦阻钩 (仅限收上操作)       |
+|                                        | AUX 气门                    |
+|                                        | AUX 接收机                  |
+|                                        | 传统武器投放                |
+|                                        | 战斗档案相机                |
+|                                        | DSCG                        |
+|                                        | ECM 控制                    |
+|                                        | ECM 吊舱                    |
+|                                        | 发动机可变收敛放气          |
+|                                        | 设备冷却控制                |
+|                                        | 机身、防撞和垂尾灯          |
+|                                        | 航炮准星照相枪              |
+|                                        | 计算提前角的光学瞄准具      |
+|                                        | 左手升压油泵                |
+|                                        | 导弹发射                    |
+|                                        | No.4 电动输油泵             |
+|                                        | No.6 电动输油泵             |
+|                                        | 机头航炮                    |
+|                                        | 气动压缩机                  |
+|                                        | 雷达                        |
+|                                        | 雷达高度表                  |
+|                                        | 除雨                        |
+|                                        | 雷达屏幕相机                |
+|                                        | 右手升压油泵                |
+|                                        | 方向舵配平/可变收敛放气控制 |
+|                                        | 减速板                      |
+|                                        | 特殊武器中线互锁解除保险    |
+|                                        | 挂点选择和挂点选择灯        |
+|                                        | 平尾配平指示器              |
+|                                        | 目标指示器 (Pave Spike)     |
+|                                        | 共用电源                    |
+|                                        | VGH 录像机电源              |
+|                                        | “白星眼” indent 电源        |
+|                                        | 告警灯 (DIM)                |
+|                                        | WRCS 电源                   |
 
-### Battery Power Only
+### 仅电池电源
 
-If only Battery Power is available the following systems will still work:
+如果仅电池电源可用，下述系统将继续工作：
 
-| _**Critical Systems**_                                 | _**Non-Critical Systems**_                 |
-|--------------------------------------------------------|--------------------------------------------|
-| AOA Indicator                                          | All Stores EMER jettison                   |
-| EGT Indicators                                         | AOA Aural Tone Generator                   |
-| Ejection Light                                         | Fuel Control                               |
-| EMER Attitude Indicator                                | Fuel Valve Power                           |
-| Engine Fire and Overheat Detection (Test Functions)    | Front Cockpit Instrument Floodlights (BRT) |
-| External Wing Fuel transfer (Control)                  | Guard Receiver                             |
-| Flaps/Slats control                                    | KY-28                                      |
-| Flaps/Slats Position Indicator                         | Missile Fairing                            |
-| Fuel Quantity Indicator                                | Missile Jettison                           |
-| In-Flight-Refueling                                    | Nozzle Position Indicator                  |
-| ILS: CDI, Glide Slope Indicators, Audio, Marker Beacon | Outboard Station jettison                  |
-| Intercom                                               | Special Weapons Centerline Interlock Safe  |
-| Internal Wing Fuel transfer (Control)                  | Special Weapons Unlock                     |
-| Landing Gear Control                                   | Trim Control                               |
-| Landing Gear Position Indicator                        |                                            |
-| Left and Right Main Ignition                           |                                            |
-| Stabilator Feel Trim                                   |                                            |
-| VOR: CDI, TO-From and Audio                            |                                            |
-| White Flood light                                      |                                            |
+| _**关键系统**_                         | _**非关键系统**_     |
+| -------------------------------------- | -------------------- |
+| 迎角指示器                             | 所有挂载应急抛弃     |
+| EGT 表                                 | 迎角音调提示发生器   |
+| 弹射灯                                 | 燃油控制             |
+| 应急姿态仪                             | 燃油阀门电源         |
+| 发动机或在和过热探测（测试功能）       | 前座仪表泛光灯 (BRT) |
+| 机翼副油箱输油 (控制)                  | 应急接收机           |
+| 襟翼/缝翼控制                          | KY-28                |
+| 缝翼/襟翼指示器                        | 导弹发射             |
+| 燃油油量表                             | 导弹抛弃             |
+| 空中受油                               | 喷口位置表           |
+| ILS: CDI、下滑道指示器、音频、指点信标 | 外侧挂点抛弃         |
+| 内话                                   | 特殊武器中线互锁安全 |
+| 机翼油箱输油 (控制)                    | 特殊武器解锁         |
+| 起落架控制                             | 配平控制             |
+| 起落架位置指示器                       |                      |
+| 左右主点火                             |                      |
+| 平尾感受配平                           |                      |
+| VOR: CDI、向-背和音频                  |                      |
+| 白色泛光灯                             |                      |

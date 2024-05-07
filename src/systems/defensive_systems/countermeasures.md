@@ -1,287 +1,210 @@
-# Countermeasures
+# 对抗措施
 
-## AN/ALE-40 Countermeasures System
+## AN/ALE-40 对抗措施系统
 
 ![ext_cm_dispense](../../img/ext_flares.jpg)
 
-The AN/ALE-40 countermeasures dispenser set provides the capability of
-dispensing RR-170 A/AL chaff cartridges and MJU-7/B infrared flare cartridges.
-The system consists of four dispenser slots located on the
-inboard armament pylons (2 on each) as well as cockpit controls.
+AN/ALE-40 对抗措施布撒器套件可投放 RR-170A/AL 箔条和 MJU-7/B 红外干扰弹。这套系统由 4 个位于翼下内
+侧挂架上的布撒器槽（每边两个）和驾驶舱控制开关/按钮组成。
 
-The pilot cockpit contains a programmer,
-a flares select switch with two lamps
-and a dispense button located on the throttle.
-The WSO pit has a cockpit control unit (CCU).
+飞行员驾驶舱内有一个编程器——一个红外干扰弹选择开关以及两盏灯，以及油门握把上的一枚布撒按钮。WSO 座
+舱内有一个驾驶舱控制装置（CCU）。
 
-The main circuit breaker for the AN/ALE-40 is located on
-the No. 4 Circuit Breaker Panel above the aft left console in the WSO cockpit.
+AN/ALE-40 的主断路器位于 WSO 驾驶舱左侧控制台后方的 4 号断路器面板上。
 
 ![cm_dispenser](../../img/cm_dispenser.jpg)
 
-| Dispenser Configuration | Description                          |
-|-------------------------|--------------------------------------|
-| No payload               | Dispensers installed without payload |
-| 120 chaff               | Only chaff loaded                    |
-| 60 chaff + 30 flare     | 60 chaff and 30 flares loaded        |
-| 90 chaff + 15 flare     | 90 chaff and 15 flares loaded        |
-| 30 flare                | Only flares loaded                   |
+| 布撒器设置        | 描述                             |
+| ----------------- | -------------------------------- |
+| 未装载            | 只安装布撒器，未装载对抗措施     |
+| 120 箔条          | 只装载箔条（120 发）             |
+| 60 箔条 + 30 红外 | 装载 60 发箔条和 30 发红外干扰弹 |
+| 90 箔条 + 15 红外 | 装载 90 发箔条和 15 发红外干扰弹 |
+| 30 红外           | 只装载红外干扰弹（30 发）        |
 
-## General operation
+## 正常操作
 
-Operation of the AN/ALE-40 is controlled from both the
-front and rear cockpit. The CCU initiates the various
-modes of operation. The programmer will generate the firing commands in
-different combinations.
+AN/ALE-40 可由前座舱和后座舱控制进行操作。CCU 启动各种操作模式。编程器将以不同的组合方式生成发射指
+令。
 
-The pylon mounted dispensers will convert the firing
-commands to individually sequenced firing signals. If the operation mode is set
-to chaff, the dispensing will start in the left pylon dispenser and then
-transfer the dispensing signals to the right pylon dispenser upon depletion of
-stores in the left dispenser. If the operation mode is set to flare, dispensing
-will start in the right pylon master dispenser and upon depletion of stores the
-sequencer switch will transfer the dispensing signal to the left master
-dispenser. Flares can also be jettisoned from their dispensers at a rate of 10
-flares per second by activating the ripple switch located on the CCU.
+安装在挂架上的布撒器将发射指令转换为单独的发射信号序列。若工作模式设置为箔条，则会先从左侧挂架布撒
+器开始，在左侧布撒器对抗措施耗尽后，接着布撒切换至右侧挂架布撒器。如果工作模式设置为红外干扰弹，则
+会先从右侧挂架主布撒器开始，在右侧布撒器对抗措施耗尽后，系统序列将布撒信号切换至左侧挂架主布撒器。
+启动 CCU 中的连投开关即可以 10 发每秒的速度布撒红外干扰弹。
 
-Dispensing of countermeasures can be initiated
-by either the pilot (Button on the Throttle)
-or the WSO (Dispense Button or Ripple Switch on the CCU).
+对抗措施可通过飞行员（油门握把上的按钮）或者 WSO（投放按钮或 CCU 上的连投开关）布撒。
 
-Countermeasures will be dispensed according to Flares Select Switch, CCU and Programmer settings.
+对抗措施将根据红外干扰弹选择开关，CCU 和编程器设置来布撒。
 
-Chaff and Flare programs are divided into two categories:
+箔条和红外干扰弹程序分为两类:
 
-* BURST - single dispense signal
-* SALVO - group of bursts
+- BURST - 单次布撒信号
+- SALVO - 一组齐射
 
-> 💡 To dispense countermeasures, flaps and speed brakes have to be retracted.
+💡 要布撒对抗措施，必须收上襟翼和减速板。
 
-## Cockpit Control Unit (CCU) - WSO Cockpit
+## 驾驶舱控制装置(CCU) - WSO 座舱
 
 ![wso_an_ale_40_panel.jpg](../../img/wso_an_ale_40.jpg)
 
-The Cockpit Control Unit (CCU) is installed on the left console of the rear
-cockpit. It consists of two mode knobs, two
-counters and two indicator lights (one for chaff and one for flare),
-as well as a guarded ripple switch and a dispense button.
+CCU (驾驶舱控制装置)安装在后座的左侧控制台上。CCU 由两个模式旋钮，两个计数器和两个指示灯(一个用于箔
+条，一个用于红外干扰弹)，以及一个带保护盖的连投开关和一个布撒按钮组成。
 
-The CCU issues signals which are sent to the programmer or directly to the dispensers,
-depending on selected modes.
+根据所选择的模式 CCU 发出的信号被发送到编程器或直接发送到布撒器。
 
-### Chaff Mode Knob
+### 箔条模式旋钮
 
-With the chaff select switch in the NORMAL position and flaps and speed brakes retracted, the
-switch positions function as follows. For every dispense button press:
+当箔条选择开关处于 NORMAL 档位，襟翼和减速板收上时，旋钮档位的功能如下。每次按下布撒按钮时:
 
-* OFF - No dispenses, as the chaff system is **inactive**.
-* SGL - A **single** chaff is dispensed.
-* MULT - Chaff dispensed according to **CHAFF BURST** settings of the Programmer.
-* PROG - Chaff dispensed according to **CHAFF BURST** and **CHAFF SALVO** settings of the Programmer.
+- OFF - 无布撒，因为箔条系统是 **停用** 状态。
+- SGL - 布撒 **单发** 箔条。
+- MULT - 根据编程器的 **CHAFF BURST** 设置布撒箔条。
+- PROG - 根据编程器的 **CHAFF BURST** 和 **CHAFF SALVO** 设置布撒箔条。
 
-> 💡 When Chaff Double mode is selected in the
-[Mission Editor](../../dcs/mission_editor.md#chaff-double-dispense),
-> twice as many chaff will be released in every mode
-> (2 chaff for every single chaff dispense signal).
-> The counter is then set to half the number of total chaff cartridges loaded to indicate
-> the number of remaining dispenses, i.e. not the cartridges.
+💡 当在 [任务编辑器](../../dcs/mission_editor.md#chaff-double-dispense) 中选择双箔条模式时，在每种
+模式下将布撒两倍的箔条(每一个箔条布撒信号布撒 2 枚箔条)。然后将计数器设置为装载的总箔条弹药数的一半
+来指示剩余可布撒的数量，即，非总箔条数量。
 
-### Flare Mode Knob
+### 红外干扰弹模式旋钮
 
-With the flare select switch in the NORMAL position and flaps and speed brakes retracted,
-the switch  positions function as follows. For every dispense button press:
+当红外干扰弹选择开关处于 NORMAL 档位，襟翼和减速板收上时，旋钮档位的功能如下。每次按下布撒按钮时:
 
-* OFF - No dispenses, as the flare system is **inactive**.
-* SGL - A **single** flare is dispensed.
-* PROG - Flares dispensed according to **FLARE BURST** settings of the Programmer.
+- OFF - 无布撒，因为红外干扰弹系统是 **停用** 状态。
+- SGL - 布撒 **单发** 红外干扰弹。
+- MULT - 根据编程器的 **FLARE BURST** 设置布撒红外干扰弹。
 
-### Chaff and Flare Counters
+### 箔条和红外干扰弹计数器
 
-There are two subtraction counters, one for the chaff system and one for the
-flare system. They indicate the quantity of remaining chaff and flare cartridges.
+CCU 中有两个计数器，一个用于箔条系统，一个用于红外干扰弹系统。它们显示剩余箔条和红外干扰弹的弹药数
+量。
 
-### Chaff and Flare Indicator Lights
+### 箔条和红外干扰弹指示灯
 
-Both the flare and the chaff system have one green indicator light each.
-Whenever a mode (other than OFF) is selected on the respective mode knob,
-the corresponding indicator light will illuminate.
+红外干扰弹和箔条系统各有一个绿色指示灯。只要在相应的模式旋钮上选择了一种模式（除 OFF 外）时，相应的
+指示灯将亮起。
 
-> 💡 Both chaff and flare can be used simultaneously provided a mixed
-> chaff and flare loadout is used.
+💡 只要混合装载箔条红外干扰弹，即可同时使用箔条和红外干扰弹。
 
-### Ripple Switch
+### 连投开关
 
-The ripple switch is guarded. When the guard is lifted and the switch is activated,
-it will initiate flare dispensing regardless of the position of any other
-switches or mode knobs in the countermeasures system (if the flaps and the speed
-brakes are retracted). The flares will be dispensed at a rate of 10 flares per
-second until both left and right pylon dispensers are empty.
+连投开关带有保护盖，当抬起保护盖，并且激活开关时，无论对抗措施系统中任何其它开关或模式旋钮所处的档
+位（当襟翼和减速板收上），都将启动红外干扰弹布撒。红外干扰弹弹将以每秒 10 发的速度布撒，直到左右挂
+架的布撒器消耗殆尽。
 
-### Dispense Button
+### 布撒按钮
 
-The dispense button, when pressed, initiates chaff/flare
-dispensing as selected by the CCU and
-Programmer provided the flaps and speed brakes are
-retracted and the chaff/flare mode knobs are in
-any position other than OFF.
+当襟翼和减速板收起，箔条/红外干扰弹模式旋钮处在 OFF 外的任何档位，按下布撒按钮时，系统将根据 CCU 和
+编程器的选择，开始箔条/红外干扰弹布撒。
 
-## Programmer - Pilot Cockpit
+## 编程器 - 飞行员驾驶舱
 
 ![pilot_an_ale_40_programmer](../../img/pilot_an_ale_40_programmer.jpg)
 
-The AN/ALE-40 Programmer contains the controls and circuitry used to send
-specific fire commands to the chaff and flare dispensers. The following settings
-are adjustable:
+AN/ALE-40 编程器包括用于向箔条和红外干扰弹布撒器发送特定发射指令的控制开关/按钮和电路。以下设置可调
+:
 
-| Category    | Knob     | Values                       | Description                      |
-|-------------|----------|------------------------------|----------------------------------|
-| CHAFF BURST | COUNT    | 1, 2, 3, 4, 6, 8 (units)     | quantity of bursts (per salvo)   |
-|             | INTERVAL | 0.1, 0.2, 0.3, 0.4           | time interval between each burst |
-| CHAFF SALVO | COUNT    | 1, 2, 4, 8, C (continuous)   | number of salvos                 |
-|             | INTERVAL | 1, 2, 3, 4, 5, 8, R (random) | time interval between each salvo |
-| FLARE BURST | COUNT    | 1, 2, 4, 8, C (continuous)   | quantity of bursts               |
-|             | INTERVAL | 3, 4, 6, 8, 10               | time interval between each burst |
+| 类别     | 旋钮     | 数值                           | 解释                   |
+| -------- | -------- | ------------------------------ | ---------------------- |
+| 箔条连投 | COUNT    | 1, 2, 3, 4, 6, 8 (单位数量)    | 连投的数量 (每次齐射)  |
+|          | INTERVAL | 0.1, 0.2, 0.3, 0.4             | 两次连投之间的时间间隔 |
+| 箔条齐射 | COUNT    | 1, 2, 4, 8, C (连续布撒)       | 齐射次数               |
+|          | INTERVAL | 1, 2, 3, 4, 5, 8, R (随机间隔) | 两次齐射间的时间间隔   |
+| 红外连投 | COUNT    | 1, 2, 4, 8, C (持续布撒)       | 单次连投的数量         |
+|          | INTERVAL | 3, 4, 6, 8, 10                 | 两次连投之间的时间间隔 |
 
-> 💡 All intervals are expressed in seconds.
+> 💡 所有间隔都以秒表示。
 
-## Fuel System Control Panel - Pilot Cockpit
+## 燃油系统控制面板 -飞行员驾驶舱
 
 ![pilot_an_ale_40_switch](../../img/pilot_an_ale_40_lights.jpg)
 
-### Flares Select Switch
+### 红外干扰弹选择开关
 
-If the flares select switch is in the **NORMAL** position, it arms the
-countermeasures dispenser system and allows for chaffs and flares to be
-dispensed as set by the CCU and the programmer by pressing either dispense
-button.
+如果红外干扰弹选择开关处于 **NORMAL** 档位，将开启对抗措施布撒器系统，并允许根据 CCU 和编程器的设置
+，按下任意布撒按钮来布撒箔条和红外干扰弹。
 
-If the flares select switch is in the **FLARES** position it only affects the front
-cockpit dispense button by ignoring all switches and knobs in the
-countermeasures system, provided that the flaps and speed brakes are retracted.
-This allows the pilot to dispense a single flare each time he presses the
-dispense button. Rear cockpit dispense functions are unaffected by the switch
-position.
+如果红外干扰弹选择开关在 **FLARES** 档位，只要襟翼和减速板收起，系统将使前座布撒按钮忽略所有对抗措
+施系统中的开关和旋钮设置。这使得飞行员每次按下布撒按钮时都将布撒一枚红外干扰弹。后座布撒功能不受开
+关档位的影响。
 
-### AN/ALE-40 Power On Indicator Light (Green)
+### AN/ALE-40 通电指示灯（绿色）
 
-This green light illuminates when the Flares
-Select switch is set to NORMAL and at least one of the chaff and flare mode
-knobs are in any position other than OFF.
+当红外干扰弹选择开关位于 Normal 档位时，且箔条或红外干扰弹模式任一旋钮处在 OFF 外的任何档位时亮起。
 
-### Flares Indicator Light (Amber)
+### 红外干扰弹指示灯（琥珀色）
 
-This amber indicator illuminates when the Flares Select
-switch is set to FLARES.
+当红外干扰弹选择开关设置为 FLARES 时，琥珀色指示灯亮起。
 
-When illuminated, flares can be dispensed by pressing
-the front cockpit dispense button regardless of programmer and CCU settings,
-provided the flaps and speed brakes are retracted.
+当指示灯亮起时，只要襟翼和减速板收起，无论编程器和 CCU 设置如何，只要按下前座布撒按钮，即可以布撒红
+外干扰弹。
 
-## Dispense Button (Pilot Cockpit)
+## 布撒按钮（飞行员驾驶舱）
 
 ![pilot_throttle_cm_dispense](../../img/pilot_dispense_button.jpg)
 
-When pressing the dispense button chaff/flare dispensing is initiated as set on
-the CCU and AN/ALE-40 programmer if the flaps and speed brakes are retracted and
-the flares select switch is set to NORMAL. Additionally single unit flare
-dispensing can be initiated by a single button press if the flares select switch
-is set to FLARES.
+如果襟翼和减速板收起并且红外干扰弹选择开关设置为 NORMAL，当按下布撒按钮时，系统将根据 CCU 和
+AN/ALE-40 编程器上的设置开始箔条/红外干扰弹布撒。此外，如果红外干扰弹选择开关设置为 FLARES，按下按
+钮将布撒单发红外干扰弹。
 
-## AN/ALE-40 Dispensers
+## AN/ALE-40 布撒器
 
 ![cm_dispenser](../../img/cm_dispenser.jpg)
 
-The AN/ALE-40 countermeasures dispensers are divided into two distinct dispenser
-configurations. The master (outboard) dispenser contains the electronics and
-sequencer switch for both dispensers on each pylon and is installed on the
-outboard side of the inboard armament pylons. The slave (inboard) dispenser is
-installed on the inboard side of the inboard armament pylons and is connected to
-the master dispenser by an interconnect cable. The aircraft can be configured
-either with four chaff payload modules on all four dispensers or two chaff
-payload modules on the slave dispensers and two flare payload modules on the
-master dispensers. Only chaff payload modules can be installed on the slave
-dispensers; flare payload modules can only be installed on the master
-dispensers.
+AN/ALE-40 对抗措施布撒器分为两个不同的布撒器配置。主(挂架外侧)布撒器包括安装在翼下内侧武器挂架上的
+两个布撒器中的电子设备和序列开关。副(挂架内侧)布撒器安装在翼下内侧武器挂架的内侧，并通过连接电缆连
+接到主布撒器。飞机可选用四个箔条模块在所有四个布撒器上，或两个箔条模块在副布撒器上和两个红外干扰弹
+模块在主布撒器上配置。副布撒器上只能安装箔条模块；红外干扰弹模块只能安装在主布撒器上。
 
-### Master Dispenser Assembly
+### 主布撒器组件
 
-> 💡 Operation of the master dispenser assembly is done automatically by the
-> ground crew in DCS, according to the AN/ALE-40 loadout selected in the loadout
-> menu.
+💡 根据地勤菜单中选择的 AN/ALE-40 挂载，DCS 中的地勤人员自动完成主布撒器组件的操作。
 
-One master dispenser assembly is installed on the outboard side of each inboard
-armament pylon. It consists of a sequencer switch, a breech assembly, a
-RESET/OPERATE circuit breaker switch, a payload control switch, a safety pin
-switch with safety pin and warning streamer and relevant electrical circuitry.
-The sequencer switch converts the firing commands into individual firing signals
-for each pyrotechnic squib in both the master and slave dispensers. The breech
-assembly provides the interface to mount the chaff or flare payload modules.
-Insertion of the safety pin removes electrical power to both pylon mounted
-dispensers. After a full chaff or flare module has been loaded, the
-RESET/OPERATE switch is placed in OPERATE. The chaff or flare sections will fire
-in sequence. After flight, if a partial load of chaff or flares remains, the
-switch should be left in OPERATE. If the switch is moved to RESET, the empty
-chaff or flare stations have to be stepped through before loaded stations will
-fire. The payload selector switch positions C (chaff) and F (flare) only define
-the master dispenser mode of deployment and are set automatically in DCS
-according to the selected loadout.
+主布撒器组件安装在各个机翼内侧武器挂架的外侧。组件由序列开关、一个安装底座组件、一个 RESET/OPERATE
+断路器开关、挂载控制开关、带安全销和警告飘带的安全销开关和相关电路组成。序列开关将发射指令转换为单
+独的主、副布撒器中各发火管使用的发射信号。安装底座组件提供安装箔条或红外干扰弹模块的接口。插入安全
+销将断开安装在挂架上的布撒器的电源。在安装好所有箔条或红外干扰弹模块后，地勤需要将 RESET/OPERATE 开
+关拨至 OPERATE 档位。箔条或红外干扰弹部分将按序列进行布撒。航后，如果仍有部分箔条或红外干扰弹剩余，
+开关应留在 OPERATE 档位。如果开关被移到 RESET 档位，必须在发射现有干扰弹前跳过空箔条/红外干扰弹槽位
+。挂载控制开关 C(箔条)和 F(红外)档位仅决定主布撒器的布撒模式，并且在 DCS 中将根据所选挂载自动进行设
+置。
 
-### Slave Dispenser Assembly
+### 副布撒器组件
 
-> 💡 The payload selector switch position is by default set to CS (chaff single dispense).
-> However, it can also be set to CD (chaff double dispense
-> via the [Mission Editor](../../dcs/mission_editor.md#chaff-double-dispense).
+💡 挂载选择开关默认设置为 CS(箔条单发布撒)档位。然而，它也可以通过
+[任务编辑器](../../dcs/mission_editor.md#chaff-double-dispense) 设置为 CD (箔条双发布撒)。
 
-One slave dispenser assembly is installed on the inboard side of each inboard
-armament pylon. It contains a payload selector switch to set either chaff single
-or chaff double dispense, a breech assembly and relevant electrical circuitry.
-If the payload selector switch is left in the default CS position, one chaff
-cartridge will be dispensed for each chaff burst commanded. If the payload
-selector switch is set to the CD position, two chaff cartridges will be
-dispensed simultaneously, one from each dispenser, for each chaff burst
-commanded. The breech assembly provides the interface to mount the chaff payload
-module.
+每个机翼内侧武器挂架的内侧安装一个副布撒器组件。组件包含一个挂载选择开关——用于设置箔条单发布撒或双
+发布撒、安装底座组件和相关电路。如果挂载选择开关留在默认的 CS 档位，则每个箔条布撒指令将布撒单发箔
+条。如果将挂载选择开关设置到 CD 档位，则将每次箔条连投指令中，同时布撒两枚箔条，每个布撒器各布撒一
+枚。安装底座组件提供安装箔条模块的接口。
 
-### Flare Housing Adapter
+### 红外干扰弹外壳适配器
 
-The flare housing adapter is installed between the master dispenser assembly and
-the flare payload module. The wedge shaped adapter ensures that the flares will
-be ejected aft and down from the aircraft. It cannot be mounted to the slave
-dispenser.
+红外干扰弹外壳适配器安装在主布撒器组件和红外干扰弹挂载模块之间。楔状适配器确保红外干扰弹将弹向飞机
+的后下方。适配器无法安装到副布撒器上。
 
-### Chaff Payload Module and Cartridges
+### 箔条挂载模块和弹药
 
-The chaff payload module is attached to the master or slave dispenser breech
-assembly with four quick release fasteners. The chaff cartridge consists of a
-basic plastic sleeve, chaff dipoles and a plastic end cap. When dispensed the
-chaff dipoles are ejected from the sleeves and leave the disposable sleeve and
-empty squib case behind. The cartridge base provides a recess for the chaff
-pyrotechnic squib.
+箔条挂载模块使用四个快卸止锁件连接到主或副布撒器安装底座组件。箔条弹药由基本的塑料外壳、偶极子和塑
+料端盖组成。当布撒时，箔条偶极子从套筒中弹出，留下一次性套筒和空的发火管匣。弹药底座留有箔条发火管
+槽位。
 
-> 🔴 WARNING: Accidental discharge of chaff cartridges can cause injury to
-> personnel or damage to the aircraft.
-<!-- The master dispenser safety pin must be
-installed at all times when loading, unloading or maintaining the system. -->
+🔴 警告：意外布撒箔条可能导致人员受伤或飞机受损。
 
-### Flare Payload Module and Cartridges
+<!-- 在装卸或维护系统时，必须始终插入主布撒器安全销。 -->
 
-The flare payload module can only be installed on the master dispenser assembly.
-The flare housing adapter serves as the interface. The flare cartridge consists
-of a metal outer sleeve, a flare element, a safe-ing and initiation device and a
-plastic end cap. An indentation in the cartridge base allows for proper flare
-installation.
+### 红外干扰弹挂载模块和弹药
 
-> 🔴 WARNING: Accidental discharge of flare cartridges can cause injury to
-> personnel or damage to the aircraft.
-<!-- The master dispenser safety pin must be
-installed at all times when loading, unloading or maintaining the system. -->
+使用红外干扰弹外壳适配器作为接口，红外干扰弹挂载模块只能安装在主布撒器组件上。红外干扰弹弹药由金属
+外壳、红外干扰弹元件、安全和起燃装置和塑料端盖组成。在弹药底座处有一圈凹槽方便正确安装干扰弹。
 
-### Flare Pyrotechnic Squibs
+🔴 警告：意外布撒红外干扰弹可能导致人员受伤或飞机受损。
 
-The chaff pyrotechnic squibs are installed immediately prior to use and are
-stored separately from the chaff cartridges. They are metal encased and
-electrically fired.
+<!-- 在装卸或维护系统时，必须始终插入主布撒器安全销。 -->
 
-The flare pyrotechnic squibs are larger in diameter and have an O-ring groove.
-They are installed immediately prior to use and are stored separately from the
-flare cartridges.
+### 箔条/红外干扰弹发火管
+
+箔条发火管在使用前一刻安装，并与箔条弹药分开存放。发火管为金属外壳，并使用电击发。
+
+红外干扰弹发火管直径较大，并有一个 O 型圈槽。它们在使用前一刻安装，存放时则与红外干扰弹弹药分开存储
+。
