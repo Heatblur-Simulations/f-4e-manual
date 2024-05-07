@@ -1,12 +1,9 @@
-# Defensive Systems
+# 防御系统
 
-The F-4E features up
-to 4 AN/ALE-40 Countermeasure dispense Pods. The
-[AN/ALE-40 Countermeasure dispense Pods](./countermeasures.md) are used by a
-variety of US Aircraft.
+F-4E 可最多配备 4 个 AN/ALE-40 对抗措施布撒吊舱。[AN/ALE-40 对抗措施布撒吊舱](./countermeasures.md)
+在各型美制军机中都有使用。
 
-Also found on the F-4E is the [ALR-46 Radar Warning Receiver](radar_warning_receiver.md) (
-subsequently RWR) is the F-4E's passive situational awareness system for detection of airborne and
-surface-to-air radar threats.
+F-4E 中的 [ALR-46 雷达告警接收机](radar_warning_receiver.md) （也就是后续的 RWR）为被动态势感知系统
+，用于探测机载和面对空雷达威胁。
 
-For extended protection and radar jamming it can also carry the [ALQ-131 ECM Pod](ecm.md).
+F-4E 还可携带 [ALQ-131 ECM 吊舱](ecm.md) 来增强保护以及干扰雷达。

@@ -1,14 +1,13 @@
-# Imprint
+# 版权说明
 
-Heatblur Simulations\
-Subsidiary of Rental Punkt Suprema sp. z.o.o.\
+Heatblur Simulations™\
 Ulica Wrzosowa 11, 72-602, Świnoujście, Poland
 
-Contact: <support@heatblur.se>
+联系: <support@heatblur.se>，[中文手册反馈](https://space.bilibili.com/12508032)
 
 <https://store.heatblur.com/>
 
-## The Heatblur F-4E Team
+## Heatblur F-4E 团队
 
 Nicholas Dackard, Creative Director and Lead Artist\
 Krzysztof Sobczak, Technical Director and Lead Programmer\
