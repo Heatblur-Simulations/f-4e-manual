@@ -1,130 +1,103 @@
-# Multiple Weapons System
+# 多武器系统
 
-The Multiple Weapons System is designed to provide a single point of management
-for all stores deliverable by the F-4 with regards to arming, pylon activation,
-delivery mode, and selective jettison. While specific weapons may have
-additional controls elsewhere in the cockpit on a case by case basis, all of the
-noted functions are driven by this panel on the left forward console in the
-front cockpit.
+多武器系统旨在将 F-4 所有可投放的挂载进行集中管理，包括引信、挂架激活、投放模式，以及选择性抛弃。虽
+然有些武器将视情况可能在驾驶舱其它面板中有额外的控制开关/按钮，不过上述所有功能都在位于前座左侧子面
+板上的武器管理面板进行控制。
 
-## Nose/Tail ARM Switch
+## 头部/尾部解除保险开关
 
 ![pilot_nose_tail_arm](../../img/pilot_nose_tail_arming.jpg)
 
-Beginning from the top of the panel, the four way Nose/Tail ARM switch selects
-the solenoids for arming wire capture on MERs and TERs, which then arm the fuzes
-at the point of release. Additionally, the switch position can also dictate
-in-flight high/low drag release mode for retarded bombs such as the [Mk 82
-Snakeye](../../stores/air_to_ground/bombs/conventional_bombs.md).
+从面板顶部开始，一个头部/尾部解除保险开关用于控制 MER 和 TER 的解除保险电磁开关——开关将在投放弹药时
+让引信进入待爆状态。此外，开关的档位还可决定例如
+[Mk 82 蛇眼](../../stores/air_to_ground/bombs/conventional_bombs.md) 等高阻炸弹的高/低阻投放模式。
 
-| Name      | Description                                                                       |
-|-----------|-----------------------------------------------------------------------------------|
-| SAFE      | No arming solenoids activate; bombs release without fuzing enabled.               |
-| NOSE      | Forward and center position solenoids activate to hold arming lanyards.           |
-| TAIL      | Aft position solenoids activate to hold arming lanyards.                          |
-| NOSE/TAIL | Forward, center, and aft position solenoids all activate to hold arming lanyards. |
+| 档位      | 描述                                         |
+| --------- | -------------------------------------------- |
+| SAFE      | 不激活解除保险电磁开关，航弹投出时引信安全。 |
+| NOSE      | 前、中部电磁开关激活来拉住解除保险短索。     |
+| TAIL      | 后部电磁开关激活来拉住解除保险短索。         |
+| NOSE/TAIL | 前、中和后部电磁开关激活来拉住解除保险短索。 |
 
-MER-10 and TER-9 racks include an automatic stepper mode function to
-automatically bypass stations that have already released munitions. To set this
-function, when the BOMBS mode of the Weapon Select Knob is chosen, the Nose/Tail
-switch must be in the NOSE or the NOSE & TAIL position for release signals to be
-delivered through installed MERs and TERs and bypass empty positions; if the
-system is set in TAIL, an additional release pulse(s) must be applied using the
-bomb switch to cycle through the empty stations. Usage of the MER-10A and TER-9A
-circumvent this requirement.
+MER-10 与 TER-9 挂架拥有自动步进模式，可以自动跳过已投放过武器的挂点。飞行员需要将武器选择旋钮选中
+BOMBS 档位，头/尾解除保险开关必须在 NOSE 或者 NOSE & TAIL 档位，才能启用这项功能让投放信号传输到安
+装的 MER 与 TER 挂架，并跳过空挂点。头/尾解除保险开关在 TAIL 档位时，则需要多按一下投弹按钮（或多次
+）来反复跳过空挂点。使用 MER-10A 与 TER-9A 时可无视此要求。
 
-RKTS and DISP bypass empty stations automatically.
+RKTS 与 DISP 将会自动绕过空挂点。
 
-## Station Select Buttons
+## 挂点选择按钮
 
 ![pilot_station_select_buttons](../../img/pilot_station_select_buttons.jpg)
 
-With the station select buttons it is possible to select the different armaments on the respective
-stations. This does not constitute air-to-air weaponry.
+使用挂点选择按钮可以在对应挂点上选择不同的武器，但不包括空对空武器。
 
-## Mode Selection - Delivery Mode Knob
+## 模式选择—投弹模式旋钮
 
 ![pilot_delivery_mode_knob](../../img/pilot_delivery_mode_knob.jpg)
 
-Release mode is set using the Delivery Mode Knob. Values to the left of OFF
-employ the AN/AJB-7 Attitude Reference and Combing Computer
-Set ([ARBCS](../../systems/weapon_systems/arbcs.md)),
-whereas
-values to the right of DIRECT employ the Weapon Release Computer
-Set ([WRCS](../../systems/weapon_systems/arbcs.md)).
-DIRECT is the manual release mode. TGT FIND functions as a navigational mode,
-and cannot provide a weapon release signal to the fire control, thus can be
-considered in practice a "safe" position.
+飞行员通过投放模式旋钮设置投放模式。OFF 以左的档位使用 AN/AJB-7 姿态基准与投弹计算机组
+([ARBCS](../../systems/weapon_systems/arbcs.md))，而 DIRECT 以右的档位使用武器投放计算机套件
+([WRCS](../../systems/weapon_systems/arbcs.md))。DIRECT 为手动投放模式。TGT FIND 作为导航模式使用，
+无法向火控提供武器投放信号，因此实际使用中可作为“安全”档位使用。
 
-The values, clockwise from the left, are as follows:
+从左侧开始按顺时针转动旋钮，功能如下：
 
-| Name     | Description                                                            | System                                                                                        |
-|----------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
-| INST O/S | Instantaneous Over the Shoulder                                        | [ARBCS](../../systems/weapon_systems/arbcs.md) |
-| LOFT     | Loft                                                                   | [ARBCS](../../systems/weapon_systems/arbcs.md) |
-| O/S      | (Timed) Over the Shoulder                                              | [ARBCS](../../systems/weapon_systems/arbcs.md) |
-| T LAD    | Timed LADD (Low Angle Drogue Delivery)                                 | [ARBCS](../../systems/weapon_systems/arbcs.md) |
-| TL       | Timed Level                                                            | [ARBCS](../../systems/weapon_systems/arbcs.md) |
-| OFF      | Off                                                                    |                                                                                               |
-| DIRECT   | Manual                                                                 |                                                                                               |
-| TGT FIND | Target Find (Navigation and [Pave Spike](pave_spike/overview.md) only) | [WRCS](../../systems/weapon_systems/wrcs.md)   |
-| DT       | Dive Toss                                                              | [WRCS](../../systems/weapon_systems/wrcs.md)   |
-| DL       | Dive Laydown                                                           | [WRCS](../../systems/weapon_systems/wrcs.md)   |
-| L        | Laydown                                                                | [WRCS](../../systems/weapon_systems/wrcs.md)   |
-| OFFSET   | Offset Bomb                                                            | [WRCS](../../systems/weapon_systems/wrcs.md)   |
-| AGM-45   | AGM-45 Delivery                                                        | [WRCS](../../systems/weapon_systems/wrcs.md)   |
+| 档位     | 描述                                                           | 系统                                           |
+| -------- | -------------------------------------------------------------- | ---------------------------------------------- |
+| INST O/S | 实时越肩（Instantaneous Over the Shoulder）                    | [ARBCS](../../systems/weapon_systems/arbcs.md) |
+| LOFT     | 上仰                                                           | [ARBCS](../../systems/weapon_systems/arbcs.md) |
+| O/S      | （计时）越肩 (Timed) Over the Shoulder                         | [ARBCS](../../systems/weapon_systems/arbcs.md) |
+| T LAD    | 计时 LADD (低角度伞投)                                         | [ARBCS](../../systems/weapon_systems/arbcs.md) |
+| TL       | 计时平投（Timed Level）                                        | [ARBCS](../../systems/weapon_systems/arbcs.md) |
+| OFF      | 关闭                                                           |                                                |
+| DIRECT   | 手动直接                                                       |                                                |
+| TGT FIND | 目标搜寻 (仅限导航模式和[Pave Spike](pave_spike/overview.md)） | [WRCS](../../systems/weapon_systems/wrcs.md)   |
+| DT       | 俯冲改出投弹（Dive Toss）                                      | [WRCS](../../systems/weapon_systems/wrcs.md)   |
+| DL       | 俯冲铺投（Dive Laydown）                                       | [WRCS](../../systems/weapon_systems/wrcs.md)   |
+| L        | 铺投（Laydown）                                                | [WRCS](../../systems/weapon_systems/wrcs.md)   |
+| OFFSET   | 偏置投弹                                                       | [WRCS](../../systems/weapon_systems/wrcs.md)   |
+| AGM-45   | AGM-45 投放                                                    | [WRCS](../../systems/weapon_systems/wrcs.md)   |
 
-## Weapon Selector Knob
+## 武器选择旋钮
 
 ![pilot_weapon_selector_knob](../../img/pilot_weapon_selector_knob.jpg)
 
-The Weapon Selector Knob is used to designate the type of weapon to be used
+武器选择旋钮用于指定使用武器的种类
 
-| Name        | Description                                                                                     |
-|-------------|-------------------------------------------------------------------------------------------------|
-| RKTS & DISP | [Rockets](../../stores/air_to_ground/rockets.md) and dispensers. Arms AWRU release circuitry.   |
-| ARM         | [AGM-45 Shrike](../../stores/air_to_ground/missiles/shrike.md)                                  |
-| TV          | [AGM-65 Maverick](../../stores/air_to_ground/missiles/maverick.md) and other EO guided weapons. |
-| C           | Open/unused. May be utilized as an OFF selection.                                               |
-| B           | Same function as AIR-TO-AIR button in rear cockpit.                                             |
-| A           | Munitions with internally-set intervalometers (CBUs or spray containers).                       |
-| AGM 12      | [AGM-12 Bullpup](../../stores/air_to_ground/missiles/bullpup.md).                               |
-| BOMBS       | [Bombs](../../stores/air_to_ground/bombs/conventional_bombs.md). Arms AWRU release circuitry.   |
+| 档位        | 描述                                                                                 |
+| ----------- | ------------------------------------------------------------------------------------ |
+| RKTS & DISP | [航箭](../../stores/air_to_ground/rockets.md) 与布撒器。激活 AWRU 投放电路。         |
+| ARM         | [AGM-45"百舌鸟"](../../stores/air_to_ground/missiles/shrike.md)                      |
+| TV          | [AGM-65 幼畜](../../stores/air_to_ground/missiles/maverick.md) 与其它光电制导武器。  |
+| C           | 开路/不使用。可作为 OFF 档使用。                                                     |
+| B           | 与后座 AIR-TO-AIR 按钮的作用相同。                                                   |
+| A           | 内置定时控制器的武器（CBU 或布撒器）。                                               |
+| AGM 12      | [AGM-12 “小斗犬”](../../stores/air_to_ground/missiles/bullpup.md).                   |
+| BOMBS       | [航弹](../../stores/air_to_ground/bombs/conventional_bombs.md)。激活 AWRU 投放电路。 |
 
-## Centerline Tank Aboard Light
+## 中线副油箱抛弃灯
 
 ![pilot_centerline_tank_aboard](../../img/pilot_centerline_tank_aboard_light.jpg)
 
-The [forward AIM-7 missiles](../../stores/air_to_air/aim_7.md)
-can be
-inhibited from launch under certain centerline
-conditions due to possible separation issues or chance of igniting the contents
-of the centerline position. The CL tank light will illuminate if such a possible
-condition exists. The conditions that can cause this are as follows:
+由于潜在分离问题或可能点燃中线挂载问题，[前部 AIM-7 导弹](../../stores/air_to_air/aim_7.md) 在特定
+中线挂点配置下会被禁止发射。如果满足禁止发射的条件，中线副油箱抛弃灯将亮起，这些条件如下：
 
-1. Fuel Tank or MER; the forward Sparrows cannot be launched. The CL tank light
-   will shut off if the tank or MER is jettisoned, allowing launch or jettison.
+1. 油箱或 MER：前部麻雀不能发射。抛离副油箱或 MER 后中线副油箱抛弃灯熄灭，可以发射或抛弃麻雀。
+2. 挂载单枚炸弹的 BRU-5/A：中线副油箱抛弃灯亮起。前部麻雀可以发射或被抛弃，不过在武器远离机身前应尽
+   量减少横滚动作。
+3. 装有中线解除保险装置的 Aero-27/A：中线副油箱抛弃灯亮起，但除非在飞行前拆除它，否则前部 AIM-7 不
+   能发射或被抛弃。
 
-2. BRU-5/A with single bomb; the CL tank light will illuminate. Forward position
-   Sparrows can be launched or jettisoned, however, attention should be paid to
-   eliminate lateral roll movements until the launched weapon is clear.
+## 互锁开关（INTLK）
 
-3. Aero-27/A with Centerline Arming Unit. The CL tank light will illuminate,
-   however the forward position AIM-7s cannot be jettisoned or released until
-   this is removed post-flight.
+火控系统在满足有效参数前会禁止 AIM-7 发射，此功能由 INTLK 开关控制。选择 IN 档位时，只有在满足下列
+条件时，扣动扳机才会发射导弹：
 
-## Interlock Switch
+1. IN RANGE 灯亮起
+2. 目标瞄准点在 AES 圆（允许转向误差）内
+3. 雷达旋钮不在 VI 模式
 
-The fire control system provides an inhibitor option for AIM-7 launches to
-confirm valid parameters are met, and is accessed with the INTLK switch. With IN
-selected, the missile will not release upon trigger down should any of the
-following not be the case:
+INTLK 开关处于 OUT 档位时，可随时发射 中线副油箱抛弃灯，无需考虑当前目标是否满足发射参数。
 
-1. The IN RANGE lamp illuminated
-2. The target aim dot within the ASE (Allowable Steering Error) circle
-3. The radar knob is not in VI mode
-
-With the INTLK switch in OUT, the AIM-7 can be launched at any time, no matter
-the condition of the current parameters against the target.
-
-The INTLK switch provides no function for AIM-9 launch.
+INTLK 开关不影响 AIM-9 发射。

@@ -1,11 +1,9 @@
-# Recorders
+# 录像设备
 
-The aircraft is equipped with multiple recording devices, such as the AVTR or
-the Gun Camera.
+飞机上配备了多种录像设备，如 AVTR 或照相枪。
 
-They are capable of recording in-game footage, which is accessible outside of
-the game in the **Saved Games** folder. A possible path might for example look
-like:
+它们可以录制游戏中的画面，这些画面可以在游戏外的 **保存的游戏** 文件夹中访问。
+例如，可能的路径如下T
 
 `C:\Users\John Doe\Saved Games\DCS.openbeta\F-4E\recorders\`
 

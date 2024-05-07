@@ -1,52 +1,37 @@
-# Aircraft Weapons Release Unit (AWRU)
+# 机载武器投放装置（AWRU）
 
 ![pilot_awru](../../img/pilot_awru.jpg)
 
-Used in the BOMBS and RKTS & DISP weapon modes, the AWRU provides interval and
-quantity controls for munition delivery. The AWRU has both a manual and
-automatic mode, and the resulting function is accessed with the appropriate
-settings.
+在 BOMBS 和 RKTS & DISP 武器模式下，系统将使用 AWRU，AWRU 为武器投放提供间隔和数量控制。AWRU 有手动
+和自动两种模式，可通过对应设置访问相应功能。
 
-The Interval Knob contains 14 values, providing base interval timing of release
-pulses while the bomb release button is held from 1/20th of a second (.05) to 1
-second. This value can have a 10x multiplier applied to it using the INTRVL
-Switch. In the NORM mode of the INTRVL switch, the release will apply as on the
-Interval Knob, whereas when selected to x10, the 10x multiplier will apply - for
-example, 1 second in NORM would become an interval of 10 seconds in x10 mode.
+间隔旋钮有 14 个档位，用来在按住航弹投放按钮时，提供投放脉冲的间隔的基本数值，从 1/20 秒（.05）到 1
+秒不等。使用 INTRVL 开关可将基本数值乘以 10 倍。INTRVL 开关在 NORM 档位时，使用间隔旋钮时间设置，选
+择 x10 档位时，基本数值将乘 10，例如，在 NORM 档位下的 1 秒间隔在 x10 档位下将变为 10 秒间隔。
 
-The Quantity Knob sets the total number of munitions dropped during a bomb
-release hold, and applies the manual or automatic release functions based on the
-value selected.
+数量旋钮用来设置按住航弹投放按钮时投出的弹药总数，并根据所选数值应用手动或自动投放功能。
 
-## Single-Manual: 1
+## 单发手动：1
 
-In the 1 position, the AWRU is placed into manual mode. One munition will be
-dropped on each bomb release press, with releases across multiple selected
-stations dropping in a left-right-left pattern. The bomb release button must be
-released, then pressed a subsequent time, to release another round.
+在 1 档位，AWRU 处于手动模式。每按一次航弹投放按钮就投放一枚弹药，选中多个挂点投放时以左-右-左-右的
+方式进行。按下航弹投放按钮后要松开，再按下才能再投一枚弹药。
 
-## Single-Ripple: 2-18
+## 单次连投：2-18
 
-In numerical positions 2-18, up to the total number of selected munitions will
-be dropped according to the Interval setting. As an example, with a QTY of 6 and
-an interval of .20, six bombs will be dropped, one every 2/10ths of a second
-from the press of the bomb release button. The sequence will reset upon button
-release, allowing subsequent ripples of the same quantity to be dropped.
+在数字 2 至 18 档位，可按照间隔设置投出所选数量的弹药。例如，数量设置为 6，间隔设置为.20 时，按下航
+弹投放按钮后，6 枚航弹将以每 2/10 秒一枚的间隔依次投出。按钮松开后，序列将被重置，开始下一轮相同数
+量连投。
 
-## Single-Continuous: C
+## 单发连续：C
 
-In position C, the quantity of weapons is dictated by how long the bomb release
-button is held. The ripple will apply the set interval, releasing one munition
-each pulse, until the bomb button is released.
+在”C“位，武器投放的数量取决于按住航弹投放按钮的时间。连续投放中将根据设置间隔，每次脉冲投放一枚弹药
+，直到投弹按钮松开。
 
-## Pairs-Manual: P
+## 成对手动：P
 
-Position P places the AWRU into pairs mode. With multiple stations selected,
-each time the bomb button is pressed, a weapon will be released from each
-station.
+在 P 档位，AWRU 进入成对模式。选中多个挂点时，每按一次投弹按钮，每个挂点都将分别投放一枚弹药。
 
-## Salvo: S
+## 齐射：S（Salvo）
 
-In the S position, the AWRU enters into salvo mode, functioning like
-Pairs-Manual with single rounds released from each station, but using the set
-interval value to release multiple salvos until the bomb button is released.
+在 S 档位，AWRU 进入齐射模式，像成对手动一样，每个挂点分别投放一枚弹药，但还会根据设定间隔值投出多
+次齐射，直到投弹按钮松开。

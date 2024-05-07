@@ -1,153 +1,110 @@
-# Weapon Release Computer Set (WRCS)
+# 武器投放计算机套件（WRCS）
 
 ![ext_bombs_dropping](../../img/ext_f4_wrcs.jpg)
 
-Provision for the F-4E to perform accurate level and dive munition delivery is
-provided by the AN/ASQ-91 WRCS. The WRCS inputs are set with the associated
-panels in the cockpits, and these commands, along with INS data and radar target
-ranging, are used by the ballistic computer to provide the release signal.
+AN/ASQ-91 WRCS 赋予了 F-4E 精确执行水平与俯冲武器投送的能力。通过驾驶舱内的相关面板对 WRCS 进行输入
+，这些指令与 INS 数据以及雷达目标测距一道，经由弹道计算机处理生成投放信号。
 
 ![wso_wrcs_panel](../../img/wso_wrcs_panel.jpg)
 
-## Target Range Controls
+## 目标距离控制旋钮
 
-The Computer Control Panel found in the rear cockpit has three TARGET entry
-controls, two RELEASE entries, and a bomb DRAG COEFFICIENT entry setting, as
-well as a [BIT](../../procedures/bit_tests/wrcs.md) control knob for system function check. Target
-entry is relative to the predetermined IP.
+后座中的计算机控制面板包含三个目标输入控制旋钮、两个投放控制、一个炸弹阻力系数输入设置，还有一枚用
+于检查系统功能的 [BIT](../../procedures/bit_tests/wrcs.md) 控制旋钮。目标输入的数值以预设 IP 为参照
+。
 
-The upper range control input is for North/South, and selection of relative
-bearing is noted by the N or S prefix at the start.
+上方的距离控制输入为南北距离，相对方位的选择由 N 或 S 前缀表示。
 
-The middle range control input is for East/West, and like the previous, the E or
-W prefix on the range sets the relative bearing direction.
+中间的距离控制输入为东西距离，与上一项一样，使用 E 或 W 前缀设置相对方位朝向。
 
-The final ALT RANGE entry is for target altitude- whether the target or RIP
-(Radar Identification Point) elevation as MSL, or the target/RIP's pressure
-altitude.
+最底下的高度输入（ALT RANGE）控制目标高度，可以是目标或雷达起始点（RIP）的平均海平面高度（MSL）或者
+气压高度。
 
-Entries for North/South and East/West are in 100 foot increments, and a maximum
-value of up to 99,900 feet may be entered for these distances. The ALT RANGE
-entry has a maximum of 24,900 in 100 foot increments.
+东西和南北输入以 100 英尺为增量，距离的最大数值为 99900 英尺。高度输入增量同样为 100 英尺，最大值
+24900 英尺。
 
-> 💡 The WRCS can be damaged if the ALT RANGE entry is greater
-> than the aircraft's current MSL (x100) in TGT FIND and OFFSET BOMB modes.
+💡 在 TGT FIND 与 OFFSET BOMB 模式中，若输入的高度大于飞机当前的 MSL（×100），则 WRCS 可能会损坏。
 
-## Release Range Control
+## 投放距离控制
 
-The Release Range control is used to manually set bomb range in tens of feet,
-and is accessible in the Laydown, Dive Laydown, and Offset Bombing modes. The
-maximum setting is 9990 feet (999x10), and when used in a WRCS/AJB-7 integrated
-delivery, the actual range can be as high as 99,900'.
+投放距离控制用于手动设置炸弹射程，间隔 10 英尺，可在 "铺投"、“俯冲铺投”、“偏置”投弹模式下使用。输入
+最大值为 9990 英尺（999x10），当其用于 WRCS/AJB-7 一体化投放时，实际距离可高达 99900 英尺。
 
-The Rg control should not be set to the same value as the target range control.
-Otherwise, the bomb rack delay may release late, or not at all.
+距离控制不应与目标距离控制设定为同样的值。否则，炸弹可能过晚投出，或根本无法投出。
 
-## Release Advance Control
+## 投放提前控制
 
-Operative in all WRCS and WRCS/LABS integrated motes, the Release Advance
-Control works in conjunction with the AWRU to advance the release signal in
-milliseconds. Whereas the AWRU Intervalometer setting triggers the release pulse
-sequence from the moment the bomb release button is pressed, when the Release
-Advance Control is applied in a WRCS driven delivery, the specific bomb location
-in a multiple ripple sequence can be calculated in advance, allowing the most
-effective spread possible across a given target.
+投放提前控制在所有 WRCS 与 WRCS/LABS 一体化模式中都将生效，其与 AWRU 配合工作，以毫秒为单位将投放信
+号提前。其中 AWRU 定时控制器被设置为会在按下投弹按钮时开始发出投放脉冲序列，在使用 WRCS 的投放中启
+用投放提前设置时，可以提前计算连投中航弹具体的位置，来让航弹以最高效的散布方式落在目标周边。
 
-As an example, an AWRU single-ripple quantity release of 4 is selected with an
-interval of 120 milliseconds. To place the third bomb in the ripple on target,
-the following equation is used:
+举个例子，若设置 AWRU 为单次连投，数量 4 发，间隔 120 毫秒。若要将其中的第三发炸弹丢到目标上，则应
+使用如下公式：
 
 \\[ RA = I_R \cdot (N_{Tgt} - 1) \\]
 
-where
+式中
 
-- \\( RA \\) = Release Advance Setting, milliseconds
-- \\( I_R \\) = AWRU Release Intervalometer setting, milliseconds
-- \\( T\_{Tgt} \\) = Impact Sequence number of bomb desired on target
+- \\( RA \\) = 投放提前控制，毫秒
+- \\( I_R \\) = AWRU 投放间隔设置，毫秒
+- \\( T\_{Tgt} \\) = 投到目标上的炸弹是序列中的第几发
 
 \\[ RA = 120 \cdot (3 - 1) \\]
 
-Thus, for this release, we would set the value of RA to 240 msec. This would
-produce a spread of two bombs ahead of target, one on the calculated target
-point, and one behind.
+可得，对于这次投弹，RA 值应设为 240 毫秒。炸弹分布将会是 2 枚落在目标前面，1 枚正中计算目标点，一枚
+落在目标后方。
 
-The maximum setting for the Release Advance Control is 999 milliseconds. A calculator to calculate
-the Release advance in-game is provided with
-the [bombing calculator](../../dcs/bombing_computer.md). You can open and close it by pressing
-<kbd>RCTRL</kbd>+<kbd>B</kbd> in game.
+投放提前控制的最大值是 999 毫秒。玩家可以使用游戏内置的 [轰炸计算器](../../dcs/bombing_computer.md)
+来计算投放提前值。玩家可以在游戏中按 <kbd>RCTRL</kbd>+<kbd>B</kbd> 来开关计算器它。
 
-## Drag Coefficient Control
+## 阻力系数控制
 
-Used only in the Dive Toss Mode, this entry is a bias factor prepared for the
-ballistic computer to compensate for actual bomb trajectory. The maximum setting
-for this value is 9.99.
+此设置仅在俯冲改出投弹模式中使用，用于向弹道计算机输入偏移因数来补偿实际航弹弹道。此设置的最大值是
+9.99.
 
-### Ballistic Computer
+## 弹道计算机
 
-The ballistic computer is not directly accessed by the flight crew, but instead
-pre-set based on the configured loadout by the ground crew to add the necessary
-ejection bias factors. The computer uses these pre-set bias factors in
-conjunction with a coefficient setting for munition drag in the Dive Toss mode to
-calculate accurate delivery.
+弹道计算机不能直接由机组访问，而是由地勤根据挂载配置进行预设，输入必要的弹射偏移因数。在俯冲改出模
+式中，计算机使用这些预设的偏移因数结合阻力系数设定来更精确地计算投放。
 
-## WRCS Built-In-Test (BIT)
+## WRCS 机内自检（BIT）
 
-The BIT control is used to confirm go/no-go status of the WRCS. The BIT system
-checks individual bomb modes individually, and effectivity of the given setting
-is confirmed by selecting the desired mode, pushing the center of the knob PUSH
-FOR BIT for five seconds, then pressing the FREEZE button in conjunction wih the
-PUSH FOR BIT button. Confirmation of mode performance will be displayed as GO or
-NO-GO. Should a mode be checked a subsequent time during a flight and a NO-GO
-response is received, it can be disregarded.
+BIT 控制用于确认 WRCS 的 go/no-go 状态，BIT 系统单独检查各投弹模式。若要检查某一模式的有效性，选择
+所需模式，按下旋钮中心（PUSH FOR BIT）5 秒钟，然后在按下旋钮中心的同时按下 FREEZE 按钮来进行确认。
+模式性能确认的结果将显示为 GO 或 NO-GO。如果在飞行过程中再次检查某一模式时收到 NO-GO 响应，则可将其
+忽略。
 
-## Cursor Control Panel
+## 光标控制面板
 
 ![wso_cursor_control_panel](../../img/wso_cursor_control_panel.jpg)
 
-The Cursor Control Panel provides the controls needed for TARGET FIND and OFFSET
-bombing modes. The panel has two wheels named ALONG TRACK and CROSS TRACK,
-which is used in the MAP-PPI mode to position their respective cursors over the
-Radar Identification Point (from this point denoted as RIP). The ALONG TRACK
-control, which presents relative range to the RIP, also includes an internal
-switch enabling the cursor instructions to be acknowledged by the WRCS ballistic
-computer, and must therefore be the first applied command in the target
-insertion sequence.
+光标控制面板为机组提供目标搜寻（TARGET FIND）与偏置（OFFSET）投弹模式所需控制开关/按钮。面板上有纵
+向距离与横向距离两个拨轮，用于在 MAP-PPI 模式中将对应光标移动至雷达识别点（从现在开始我们将其称为
+RIP）上。纵向距离控制可调整 RIP 的相对距离，此外还包括让 WRCS 弹道计算机接收光标指令的内部开关，因
+此在目标插入过程中应首先使用此拨轮。
 
-Once the ALONG TRACK (range hemisphere) and CROSS TRACK (vertical line) cursors
-are aligned over the RIP, the FREEZE button is pressed to initiate WRCS ground
-path tracking of the specified point. The button remains illuminated until the
-RESET button is pressed or another bombing mode is selected.
+纵向距离（距离半球）与横向距离（垂线）光标都对准 RIP 后，按下 FREEZE 按钮来开始对选定点进行 WRCS 地
+面路径跟踪。在按下 RESET 按钮或选中其它投弹模式之前按钮保持亮起。
 
-With WRCS ground tracking initiated, the TARGET INSERT button is pressed for the
-ALONG TRACK and CROSS TRACK cursors to shift from the RIP to the offset target.
-Once selected, target steering information is provided from the WRCS to the
-BDHI, ADI, HSI, and optical sight. In the AGM-45 missile mode, the AoA Indexers
-will provide maneuver commands for level, dive, or climb requirements to align
-for seeker acquisition. Further, unless the WRCS Tone switch is disabled on the
-ARBCS panel, an audio tone will be triggered from the point of bomb release
-button press until the first bomb releases from the aircraft; this function is
-nominally for training purposes, as it can preclude other system audio volume.
+开始 WRCS 地面跟踪后，按下目标插入（TARGET INSERT）按钮来让纵向距离与横向距离光标从 RIP 移动到偏置
+目标点。选定后，WRCS 为 BDHI、ADI、HSI 以及光学瞄准具提供目标转向信息。在 AGM-45 导弹模式下，迎角指
+示器将提供水平、俯冲、拉起的机动指令来满足导引头截获要求。此外，除非在 LABS 面板中用拉起音调提示开
+关将其禁用，否则提示音会从按下航弹投放按钮开始播放直到投出第一枚航弹；此功能名义上是为了训练用途，
+因为它可以排除停用系统的音频音量。
 
-## Weapon Delivery Panel
+## 武器投放面板
 
 ![wso_weapon_delivery_panel](../../img/wso_weapon_delivery_panel.jpg)
 
-The Weapon Delivery Panel permits the aircrew to use the WRCS TGT FIND functions
-in LABS (ARBCS) modes - those found on the left side of the pilot's Delivery Mode
-Knob.
+武器投放面板允许机组人员使用 LABS（ARBCS）模式的 WRCS 目标搜寻（TGT FIND）功能——即前座投放模式旋钮
+左半边的功能。
 
-The TGT FIND switch on the panel functions the same as the TGT FIND mode on the
-Delivery Mode Knob. The Delivery Mode Knob overrides this switch in any mode
-outside of TGT FIND, and should be set back to NORM. The HOLD position energizes
-the target finding circuits in conjunction with any LABS or DIRECT mode the pilot
-selects.
+面板上的 TGT FIND 开关与投放模式旋钮上的 TGT FIND 档位功能相同。在 TGT FIND 以外的任何模式下，投放
+模式旋钮的设置都会超控该开关的设置，此时应将其拨回 NORM 档位。飞行员选定任意 LABS 模式或者 DIRECT
+模式时，开关拨至 HOLD 档位将使目标搜寻电路通电。
 
-The RANGE Switch is functional in any WRCS mode requiring a Release Range
-setting. The NORM position applies the noted x10 multiplier on the displayed
-Release setting, whereas selecting x100 applies a multiplier of 100 to the
-counter value.
+RANGE 开关在任何需要投放距离设置的 WRCS 模式中生效。NORM 档位下，显示的投放设置将乘以标准系数 x10；
+选择 x100 时，显示数值将乘 100。
 
-The ACTIVATE Switch triggers the prerequisite activation signals to the LABS
-circuits once the aircraft has passed within the Release Range. The switch
-should only be placed in ON after target insert has been pressed and the ALONG
-TRACK and CROSS TRACK cursors have transitioned to the target.
+ACTIVATE 开关在飞机进入投放距离后，将向 LABS 电路发送先决激活信号。仅应在按下目标插入按钮过后、且纵
+向与横向光标都移动到目标上之后将其拨至 ON 档位。
