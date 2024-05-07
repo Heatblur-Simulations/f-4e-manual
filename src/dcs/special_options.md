@@ -34,6 +34,13 @@ to pull the stick with.
 This effect is mostly seen when controlling the aircraft during high G maneuvers
 and can prevent accidentally pulling extreme Gs.
 
+> 💡 As an example, in certain situations it would require beyond human strength
+> to pull the stick all the way back. With this set, when pulling the real
+> joystick beyond that limit, the in-game flight stick is limited and not pulled
+> equally aft. This also prevents for example accidentally pulling 20 G and
+> instantly blacking out, just because the real joystick has no, or reduced,
+> force feedback.
+
 ## Stick Force Blending
 
 When maximum movement of the stick would result in excessive forces being
