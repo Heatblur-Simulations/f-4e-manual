@@ -86,8 +86,15 @@ The variance system at initial spawn can be turned off with this checkbox, if
 desired. Components will then start with their mean value μ, without any
 variance.
 
+That is, with the option checked the setting for condition, as well as wear and
+tear are ignored and disabled. The aircraft will spawn with all properties set
+exactly as specified by the manufacturer and according to documentation, without
+any variance.
+
 This is especially interesting for competitions, where both sides should start
-with the same conditions for fairness.
+with the same conditions for fairness. Or when performing tests and computing
+performance charts, where the aircraft should always start with the exact same
+values.
 
 > 💡 Even the reference aircraft is still subject to wear and tear during
 > flight. In a competition, if you pull high Gs, your aircraft's component
@@ -107,9 +114,9 @@ details on how to execute a stored alignment.
 
 ## Allow Night Vision Goggles
 
-Although F-4E crews never actually operated with NVGs, this option
-allows mission designers to create modern or fictional scenarios where Phantom
-crews might have access to such devices.
+Although F-4E crews never actually operated with NVGs, this option allows
+mission designers to create modern or fictional scenarios where Phantom crews
+might have access to such devices.
 
 ## TACAN Options
 
@@ -151,20 +158,20 @@ The editor allows to preset all 18 COMM and 20 AUX channels of the UHF radio:
 
 ![UHF Presets](../img/me_radio_presets.jpg)
 
-It is possible to set up a station in the Mission Editor for use in ADF navigation.
-To do this, a unit, such as a ground station, needs to be placed on the map. This unit
-should then execute a command to tune into the desired AM frequency
-(_Perform Command > Set Frequency_). Finally, the unit must transmit a message continuously
-throughout the mission, which requires setting the message to loop
-(_Perform Command > Transmit Message_).
+It is possible to set up a station in the Mission Editor for use in ADF
+navigation. To do this, a unit, such as a ground station, needs to be placed on
+the map. This unit should then execute a command to tune into the desired AM
+frequency (_Perform Command > Set Frequency_). Finally, the unit must transmit a
+message continuously throughout the mission, which requires setting the message
+to loop (_Perform Command > Transmit Message_).
 
 ![ADF Station](../img/me_adf.jpg)
 
 Also, radio frequency parameters to read currently active UHF Radio frequencies
 are provided for mission triggers:
 
-| Parameter | Description                           |
-|-----------|---------------------------------------|
+| Parameter   | Description           |
+| ----------- | --------------------- |
 | `COMM_FREQ` | Comm frequency in MHz |
 | `AUX_FREQ`  | Aux frequency in MHz  |
 
