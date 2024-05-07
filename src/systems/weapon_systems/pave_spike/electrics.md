@@ -1,14 +1,10 @@
-# Electrics
+# 电气系统
 
-The Pave Spike draws its power through 4 circuit breakers on the
-[No. 4 CB Panel](../../../systems/electrics.md#cb-panel-4)
-(WSO, left wall). They forward current from the left main AC bus and the main DC
-bus.
+Pave Spike 通过 [4 号断路器面板](../../../systems/electrics.md#cb-panel-4)（WSO，左侧墙板）上的 4
+个断路器供电。左侧主 AC 母线和主 DC 母线的电流将流经断路器。
 
 ![pave_spike_cbs](../../../img/wso_cb_panel_tgt_des.jpg)
 
-All panels of the system are powered directly through the pod, and hence will be
-turned off if the Pave Spike targeting pod is not equipped.
+系统的所有面板都直接通过吊舱供电，因此，如果没有挂载 Pave Spike 瞄准吊舱，系统的所有面板都将断电。
 
-> 💡 It is not required to turn on the pod itself in order for power to be routed
-> through the pod to the panels.
+💡 无需打开吊舱本身来使电力通过吊舱输送到面板。

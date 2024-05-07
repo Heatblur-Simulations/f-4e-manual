@@ -1,57 +1,47 @@
-# Laser System
+# 激光系统
 
-The laser can only be operated in the Track-mode and serves two purposes:
+激光只能在跟踪模式下使用，其有两种用途：
 
-- Guiding laser guided weapons on a target,
-- and accurate slant range measurement.
+- 为激光制导武器提供制导飞向目标，
+- 以及精确测量斜距。
 
-Slant range is, besides weapon impact calculations, used for the automatic
-target stabilization in Track-mode. If not measured with the laser, it is
-computed based on inaccurate INS and WRCS data, resulting in a degradation of
-the system.
+除武器命中计算外，斜距还用于跟踪模式下的自动目标稳定。如果不使用激光测距，则要根据不准确的 INS 和
+WRCS 数据进行计算，从而导致系统性能降低。
 
-The laser can be used when the LASER READY lamp is illuminated.
+当 LASER READY 灯亮起时，即可使用激光。
 
 ![laser_ready_lamp](../../../img/wso_target_designator_laser_button.jpg)
 
-To setup the laser, a valid code has to first be entered on the Laser Coder
-Control panel and transferred to the pod by pressing the Enter-Button. Make sure
-that the NO GO light does not remain illuminated.
+如需设置激光，首先必须在激光编码器控制面板上输入一个有效的编码，然后按输入按钮将编码传输到吊舱中。
+确保 NO GO 指示灯不再亮起。
 
 ![laser_coder_control](../../../img/wso_laser_code_control.jpg)
 
-The LASER READY push button has to be pushed in for the laser to be armed.
+WSO 必须按下激光就绪按钮，才能解除激光保险。
 
-Additionally, the laser is guarded by the nose gear position, which has to be
-fully retracted to prevent accidental use on the ground.
+此外，激光还受到前轮位置的保护，前轮必须完全收起才可使用激光，以防止在地面上意外使用。
 
-Once ready, the laser is fired during track mode by pressing full action on the
-Antenna Stick. The status of the laser operation is indicated by the cues on the
-display being steady or flashing.
+准备就绪后，在跟踪模式下按下天线杆上的扳机第二段即可发射激光。激光操作的状态由显示屏上的提示符常亮
+或闪烁来指示。
 
-| Indication    | T0                                    | TTG                                     |
-| ------------- | ------------------------------------- | --------------------------------------- |
-| not shown     | not in TRACK mode                     | not in TRACK mode                       |
-| steady        | commanded to fire laser (full action) | firing laser, accepted range            |
-| flashing fast | not commanded to fire laser           | not firing laser or target too far away |
-| flashing slow |                                       | firing laser, but range rejected        |
+| 指示     | T0                     | TTG                  |
+| -------- | ---------------------- | -------------------- |
+| 不显示   | 未进入跟踪模式         | 未进入跟踪模式       |
+| 常亮     | 指令照射激光(二段扳机) | 照射激光，距离有效   |
+| 快速闪烁 | 未指令激光照射         | 未照射激光或目标太远 |
+| 慢速闪烁 |                        | 照射激光，但距离无效 |
 
-The T0 cue indicates intention to fire the laser, while the TTG cue represents
-the outcome of the laser usage.
+T0 提示表示是否指令发射激光，而 TTG 提示则代表使用激光的结果。
 
-The slant range measured by the laser is compared to the slant range computed
-based on INS and WRCS data. If it is not within ±20% percent of that value, it
-is rejected. This is indicated by TTG flashing slow.
+激光测量的斜距将与基于 INS 和 WRCS 数据计算的斜距进行比较。如果不在测得值的 ±20%范围内，则拒绝此数
+据。TTG 慢速闪烁表示拒绝使用数据。
 
-The system can be forced to use the laser range regardless, by pressing the
-Reject/Override Button.
+WSO 可通过按下断开/超控按钮来使系统强制使用激光测距。
 
 ![reject_override_button](../../../img/wso_target_designator_reject_button.jpg)
 
-In practice, laser measured range is much more accurate than the slant range
-computed by the system. Hence, pilots developed a habit of always hitting the
-button whenever they fired the laser.
+在实际应用中，激光测得的距离要比系统计算的斜距精确得多。因此，飞行员养成了每次照射激光时始终按下按
+钮的习惯。
 
-> 💡 This habit can lead to trouble during shallow attacks, such as when flying low altitude,
-> where a small input can quickly lead to the slant range measured by the laser being very off.
-> And hence cause the stabilization to drift off quickly.
+💡 这种习惯可以导致在小角度俯冲攻击时出现问题，例如在低空飞行时，一个小的输入会迅速导致激光测量的斜
+距失准，从而导致镜头开始漂移。

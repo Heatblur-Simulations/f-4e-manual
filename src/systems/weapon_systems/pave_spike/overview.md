@@ -2,172 +2,143 @@
 
 ![pave_spike_pod](../../../img/ext_f4_pavespike.jpg)
 
-The AN/AVQ-23 Pave Spike targeting pod is the successor of the AN/AVQ-10 Pave
-Knife and predecessor of the AN/AVQ-26 Pave Tack pod. It entered service in 1974
-and was replaced from 1982 to 1989 by the Pave Tack pod. It provides a slew-able
-TV image for spotting ground targets and can fire laser for determining range
-information and to guide laser guided weapons.
+AN/AVQ-23 Pave Spike 瞄准吊舱是 AN/AVQ-10 Pave Knife 的后继型号，也是 AN/AVQ-26 Pave Tack 吊舱的前
+身。AN/AVQ-23 于 1974 年开始服役，1982 年至 1989 年被 Pave Tack 吊舱取代。AN/AVQ-23 为机组提供可移
+动 TV 图像来搜索地面目标，并可发射激光来取得距离信息和为激光制导武器提供制导。
 
 ![pave_spike_screen_example](../../../img/pave_spike_screen_example.jpg)
 
-The line of sight can be controlled by the WSO, using the Antenna Hand Control.
-The camera image is displayed on the DSCG scope and can be viewed by both, the
-Pilot and the WSO independently.
+WSO 可使用天线手控来控制视线。镜头图像显示将在 DSCG 显示器上，飞行员和 WSO 均可各自独立查看图像。
 
-## Targeting Pod
+## 瞄准吊舱
 
-The system has an optical camera for daylight operation with one level of
-optical zoom, for a wide and narrow (4x) field of view.
+该系统有一个用于昼间操作的光学镜头，具有一级光学变焦，可提供宽视场和窄(4 倍)视场。
 
-Limitations for the pods gimbals are
+吊舱环架的限制为
 
-- Roll: -160 to +110 degrees
-- Pitch: -160 to +15 degrees
-- Yaw: -15 to +15 degrees
+- 横滚: -160 度至+110 度
+- 俯仰: -160 度至+15 度
+- 偏航: -15 度至+15 度
 
 ![pave_spike_roll_limit](../../../img/pave_spike_roll_limit.jpg)
 ![pave_spike_elev_limit](../../../img/pave_spike_elev_limit.jpg)
 
-## Symbology
+## 标识符
 
-The TV image mainly consists of a reticle. The reticle rotates clockwise to
-indicate the pods current elevation. At a 90 degree rotation, the pod is looking
-straight down. If the reticle is almost upside down, the pod reached its gimbal
-limit for the elevation (160 degrees).
+TV 图像主要由一个十字准星组成十字准星顺时针旋转以指示吊舱当前的仰角。旋转 90 度时，吊舱是垂直向下。
+如果十字准星几乎翻转，吊舱达到了仰角(160 度)的环架极限。
 
-The wide field of view is indicated by a circle around the reticle.
+宽视场模式由一个包围十字准星的圆环指示。
 
-On the left, the image displays two cues:
+在左边，图像显示了两个提示符:
 
-- Time To Go Cue (TTg)
-- Release Cue (T0)
+- 剩余时间 (TTg)
+- 投放提示 (T0)
 
-During weapon operation, TTg moves down until it intersects T0, indicating the
-time to release from maximally 15 seconds.
+在武器操作过程中，TTg 向下移动直到与 T0 相交，TTg 最长指示 15 秒剩余时间。
 
 ![pave_spike_symbology](../../../img/pave_spike_symbology.jpg)
 ![pave_spike_symbology_fov](../../../img/pave_spike_symbology_fov.jpg)
 
-The cues also indicate various situations related to laser operation.
+这些提示符还指示与激光操作有关的各种状态。
 
-| Indication    | T0                                    | TTG                                     |
-| ------------- | ------------------------------------- | --------------------------------------- |
-| not shown     | not in TRACK mode                     | not in TRACK mode                       |
-| steady        | commanded to fire laser (full action) | firing laser, accepted range            |
-| flashing fast | not commanded to fire laser           | not firing laser or target too far away |
-| flashing slow |                                       | firing laser, but range rejected        |
+| 指示     | T0                     | TTG                  |
+| -------- | ---------------------- | -------------------- |
+| 不显示   | 未进入跟踪模式         | 未进入跟踪模式       |
+| 常亮     | 指令照射激光(二段扳机) | 照射激光，距离有效   |
+| 快速闪烁 | 未指令激光照射         | 未照射激光或目标太远 |
+| 慢速闪烁 |                        | 照射激光，但距离无效 |
 
-## Controls
+## 控制开关/按钮
 
-The Pave Spike is mostly interacted with by the WSO, while the Pilot has
-indicators assisting in keeping the pods line of sight within its limits.
+Pave Spike 主要由 WSO 操作，而飞行员则有指示器协助，将吊舱视线保持在环架限制内。
 
-The entire system, known as AN/ASQ-153 Electro-Optical Target Designator System,
-consists of:
+整个系统被称为 AN/ASQ-153 光电目标指示系统，包括:
 
-- Range Indicator (Pilot)
-- Azimuth-Elevation Indicator (Pilot)
-- Laser Coder Control (WSO)
-- Target Designator Set Control (WSO)
+- 距离指示器(飞行员)
+- 方位-仰角指示器(飞行员)
+- 激光编码器控制(WSO)
+- 目标指示器套件控制(WSO)
 
-While the display is shown on the DSCG screens in both cockpits.
+而图像可显示在两个驾驶舱的 DSCG 屏幕上。
 
 ![Pilot System Overview](../../../img/eotgt_pilot_overview.jpg)
 ![WSO System Overview](../../../img/eotgt_wso_overview.jpg)
 
-### Azimuth-Elevation Indicator
+### 方位-仰角指示器
 
-The Azimuth-Elevation Indicator is the main instrument for the pilot to assess
-the pods current attitude in order to keep the line of sight within the
-operational limits.
+方位-仰角指示器是飞行员评估吊舱当前姿态的主要仪表，来保持吊舱视线处在操作限制内。
 
 ![EOLos](../../../img/pilot_los_indicator.jpg)
 
-The needle shows the pods roll position from -160 (CW) to +110 (CCW) degrees.
+指针显示吊舱的横滚角，显示区间从 -160° (顺时针) 到 +110° (逆时针) 。
 
-Three flags indicate the elevation:
+有三枚旗帜用来指示仰角：
 
-- green: -120 to -155 degrees
-- yellow: -155 to -160 degrees
-- red: -160 or beyond degrees
+- 绿: -120 至-155 度
+- 黄:-155 至-160 度
+- 红:-160 或更高度数
 
-> 💡 If the needle is kept within the green labelled range and neither the yellow or
-> red flag are shown, the view will not be obstructed by the pod or the aircraft.
+💡 如果指针保持在绿区内，且未显示黄旗或红旗，则镜头未被吊舱本身或飞机遮挡。
 
-### Range Indicator
+### 距离指示器
 
-This panel provides the pilot with a readout of the slant range measured by the
-Pave Spike (x100 ft).
+面板为飞行员提供由 Pave Spike 瞄准吊舱测得的斜距读数 (x100 英尺)。
 
 ![range_indicator](../../../img/pilot_overhead_range_indicator.jpg)
 
-When the Test-Button (3) is pressed, the display shows 888, the knob underneath it (5)
-controls the brightness of the readout.
+按下测试按钮后(3)，屏幕将显示 888。测试按钮下方的旋钮(5)用于控制读数的亮度。
 
-The Mode-Knob (1) allows the pilot to select one of two weapon delivery modes
-available with the pod:
+模式旋钮(1)允许飞行员选择其中一个吊舱可用的武器投放模式：
 
-- WRCS - Automatic Delivery
-- ROR - Release on Range
+- WRCS - 自动投放
+- ROR - 距离投放
 
-In the SET position, the display shows the desired release range used in the ROR
-mode. The knob below the readout (4) can be used to adjust this range.
+SET 档位，屏幕将显示 ROR 模式使用的预计投放距离。在读数下方旋钮(4)可用于调整距离。
 
-### Laser Coder Control
+### 激光编码器控制
 
-The WSO can set the laser code used by the targeting pod by using the four small
-push-buttons (1) on this panel. Each press will advance the corresponding digit by
-one. Once a code has been set, it can be transferred to the Pave Spike by
-pressing the Enter-Button (2) to the right.
+WSO 可以通过面板上的四个小按钮(1)设置瞄准吊舱使用的激光编码。每按一次，相应的数字将加一。设置好编码
+后，按下右侧的 ENTER 按钮(2)即可将其传输至 Pave Spike。
 
 ![laser_coder_control](../../../img/wso_laser_code_control.jpg)
 
-The Laser Coder system starts validating the entered code, this process takes
-about 5 seconds. If the NO-GO lamp is lit, the code is invalid.
+验证输入的编码大约需要 5 秒钟。如果 NO-GO 指示灯亮起，则表示编码无效。
 
-> 💡 Codes directly relate to lasers frequencies, resulting in them having to be
-> between 1111 and 1788 and not use digits 0 or 9 in order to be valid.
+💡 编码与激光频率直接相关，因此编码必须介于 1111 和 1788 之间，并且无数字 0 或 9 才能生效。
 
-When power is applied to the system, it automatically initiates a transfer of
-the currently set code.
+系统通电后，会自动开始传输当前设置的编码。
 
-### Target Designator Control Set
+### 目标指示器套件设置
 
-This is the main panel to interact with the targeting pod.
+这是与 Pave Spike 瞄准吊舱进行交互的主面板 。
 
 ![target_des_panel](../../../img/wso_target_designator_controls.jpg)
 
-From left to right, top to bottom, it provides the WSO with:
+从左到右，从上到下，它为 WSO 提供:
 
-- Reticle Brightness Knob (1) - change the reticle from black to green
-- Az/El/Roll Boresight Knobs (2,3,4) - adjust the boresight position of the pod within
-  ±2.5 degrees
-- Stow Button (5) - Stow or Un-stow the pod
-- Laser Ready Button (6) - Arm or Disarm the laser
-- Power On Button (7) - Turn the pod on or off
-- Currently selected BIT, with push button to advance the BIT (8)
-- Light Brightness Knob (9) - adjust brightness of all lights on this panel (except
-  the Overheat lamp)
-- Reject/Override Button (10) - Force the use of the laser slant range
-- Acquisition Mode Switch (11) - Select the Acquisition Mode (12-VIS, WRCS or 9-VIS)
-- WRCS Out Button (12) - Toggle WRCS integration with the pod
-- GO/MALF Lamp (13) - Indicates BIT results
-- INS Out Button (and Overheat lamp) (14) - Toggle INS integration with the pod
+- 十字亮度旋钮(1) -将十字从黑色调整为绿色
+- Az/El/Roll 瞄准轴旋钮(2,3,4) - 在 ±2.5 度范围内调整瞄准轴位置
+- STOW 按钮(5) - 伸出和收起吊舱镜头
+- 激光就绪按钮(6) - 开启或解除激光保险
+- 通电按钮(7) - 打开或关闭吊舱
+- 当前选择的 BIT，按下按钮(8)来进入所需的 BIT 模式
+- 亮度旋钮(9) - 控制该面板上所有灯光的亮度，过热灯除外。
+- 断开/超控按钮(10) - 强制使用激光测得的斜距。
+- 捕获模式开关(11) - 选择捕获模式（12-VIS、WRCS 或 9-VIS）
+- WRCS 脱机按钮(12) - 手动断开或接通 WRCS 与吊舱一体化
+- GO/MALF 灯(13) - 指示 BIT 结果
+- INS 脱机（和过热灯）(14) - 断开或接通 INS 与吊舱一体化
 
-The lamps generally indicate the current status, while the push buttons can be
-used as a manual command. For example, pressing the Laser Ready Button is not
-enough for the laser to actually be ready. The lamp will only be lit if all
-other conditions, such as a valid laser code being set, are met.
+指示灯一般指示当前状态，而按下按钮可以当作手动指令使用。例如，按下激光就绪按钮并不足以使激光真正准
+备好。只有满足所有其它条件，例如设置有效的激光编码，指示灯才会亮起。
 
-### Antenna Hand Control
+### 天线手控
 
-During Track mode, the WSO can manually slew and correct the pods line of sight
-with the Antenna Hand Control, or Antenna Stick.
+在跟踪模式下，WSO 可以用天线手控（天线杆）手动移动和修正吊舱的视线。
 
 ![pave_spike_antenna_hand_control](../../../img/wso_antenna_hand_control.jpg)
 
-The Challenge Button (1) is used to zoom in or out, while the 2-stage trigger (3) is
-used to switch between modes and fire the laser.
+问询按钮(1)用于放大或缩小视场，而二段扳机(3)用于在模式之间切换并照射激光。
 
-> 💡 Controls are **not** inverted. Moving the stick up also
-> moves the view up (_pitch up_).
+💡 控制逻辑 **不是** 反转的。向后拉动天线杆会向上移动视线(_pitch up_)。
