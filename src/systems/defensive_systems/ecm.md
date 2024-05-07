@@ -1,80 +1,57 @@
-# Electronic Countermeasure
+# 电子对抗
 
-The Phantom can be equipped with ECM pods capable of jamming radar signals to
-protect it from getting tracked by other aircraft or radar guided missiles.
+“鬼怪”可以装备能够干扰雷达信号的 ECM 吊舱来自我保护不被其它飞机或雷达制导导弹跟踪。
 
-During its service, it saw a number of pods with different capabilities.
+在其服役期间，它拥有了许多具有不同功能的吊舱。
 
-Early pods such as the AN/ALQ-71 or AN/ALQ-87 have been used effectively during
-the Vietnam war. During mid 1970s, mostly AN/ALQ-119 and AN/ALQ-131 have been in
-service.
+AN/ALQ-71 或 AN/ALQ-87 等早期吊舱在越南战争中得到了充分的应用。在 70 年代中期，最常见的 AN/ALQ-119
+和 AN/ALQ-131 开始服役。
 
-The Phantom supports ECM pods on the two inboard pylons (stations 4 and 6) and
-the inner wing pylons (stations 2 and 8). However, the ECM signals are connected
-in a chain on each side respectively, only allowing control of one jammer pod
-per side. Additionally, many pods have restrictions only allowing them to be
-loaded on a some specific pylons. For example, AN/ALQ-119 and AN/ALQ-131 may not
-be equipped on the right inboard pylon (station 6).
+“鬼怪”支持在两个机腹挂架（4 号和 6 号挂点）和机翼内侧挂架（2 号和 8 号挂点）上安装 ECM 吊舱。不过，
+两侧的 ECM 信号分别以链式连接，每侧只能控制一个干扰吊舱。此外，许多吊舱都有限制，只能装载在特定的挂
+架上。例如，AN/ALQ-119 和 AN/ALQ-131 就不能安装在右侧机腹挂架（6 号挂点）上。
 
-> 💡 Due to engine limitations, we can not affect the effectiveness
-> of the Phantoms jammers.
-> Equipping multiple pods does not increase their strength or coverage.
+💡 由于游戏引擎的限制，我们无法影响“鬼怪”干扰机的效果。 装备多个吊舱不会增加它们的强度或覆盖范围。
 
-## Controls
+## 控制开关/按钮
 
 ![ecm](../../img/wso_ecm_control_panel.jpg)
 
-The electronic counter-measurement systems are all controlled by
-the WSO via controls on the right sub-panel.
+电子对抗系统全部由 WSO 通过右侧子面板上的控制开关/按钮来进行控制。
 
-The controls are duplicated for any pod carried on the left stations (4 or 2)
-and for the right stations (6 and 8) respectively.
+WSO 将使用同样的控制开关/按钮来对左侧挂点（4 或 2）和右侧挂点（6 和 8）上挂载的任何吊舱进行控制。
 
-Interpretation of the modes, techniques and exact operation of the lights
-depend on the loaded jammer model.
+干扰灯的模式、技术和具体操作取决于所挂载的干扰机型号。
 
-Generally, the jammers differentiate between two modes or techniques that can be used.
-Both of which usually have a warmup phase indicated by the Standby Lights on the panel.
+通常，干扰机会有两种可用的模式或技术。两者通常都有一个预热阶段，由面板上的待机灯指示是否正在预热。
 
-The knob can be used to place either technique in Standby or, once ready,
-activate transmission (XMIT 1, XMIT 2, BOTH).
+转动旋钮使任意技术进入待机状态，或者一旦准备就绪，就开始发射(XMIT 1、XMIT 2、BOTH)。
 
-Some jammers models can also detect that they are actively jamming an enemy radar,
-indicated by the AI light.
+一些干扰机型号也可以探测到他们正在主动干扰敌方雷达——此时 AI 灯亮起表示正在干扰。
 
-### Reset Button and Lamp
+### 复位按钮和指示灯
 
 ![ecm](../../img/wso_ecm_reset_button.jpg)
 
-The reset lamp, if lit, indicates a fault in the jammer system.
-Flashing indicates an overheating condition, in which case the pod
-should be turned off to prevent damage.
+如果复位灯亮起，则表示干扰机系统出现故障。闪烁表示过热，在这种情况下，应关闭吊舱以防止吊舱受损。
 
-In case of a fault, the reset button can be pressed to reset the
-jammer system (similar to turning it OFF and back ON), in which case it will
-run through the warmup period again. If the fault could be cleared, the light will go off.
+如果出现故障，可以按复位按钮来复位干扰机系统(类似于将其关闭并重新打开)，在这种情况下，它将再次通过
+一次预热期。如果故障能排除，指示灯将会熄灭。
 
 ## AN/ALQ-131
 
 ![AN/ALQ-131](../../img/jammer_131.jpg)
 
-In service between 1970 and 1990; may not be equipped on the right inboard station 6.
+AN/ALQ-131 在 1970 年至 1990 年期间服役；可能并未在右内侧 6 号挂点。
 
-Technique 1 and 2 are identical and require a warmup period of around 3 minutes
-before being activated.
+ALQ-131 中技术 1 和技术 2 是相同的，在发射前需要大约 3 分钟的预热时间。
 
-> 💡 The warmup logic is hardwired - flipping the pod off and on, or having a
-> short loss of power, will result in the full warmup period being required again before use.
+💡 预热逻辑是固定的——关开吊舱，或有短暂的断电，将导致在再次使用前需要进行完整的预热。
 
-Standby lamps illuminate to indicate that warmup phase has finished and the
-technique is ready to be activated.
+待机灯亮起表明预热阶段已经结束，准备好发射。
 
-The pod can overheat, in which case the fault lamp will illuminate.
-In this case, make sure to set the mode to Standby immediately and give it some time to
-cool down first. Ignoring the lamp will cause parts of the pod to melt, damaging
-it irreparably.
+吊舱可能过热，在这种情况下，故障灯将亮起。过热导致故障灯亮起后，请立即将模式设置为待机，并给它一些
+时间冷却。忽视指示灯会导致吊舱部分融化，对其造成不可逆的损伤。
 
-> 🟡 CAUTION: As a rule-of-thumb, do not transmit
-> for longer than 20 minutes without allowing for cooling between uses.
-> Limit continued slow and low level flight while operating the jammer to 30 minutes.
-> For extreme outside temperatures, adjust the limits accordingly.
+🟡 警告：根据经验，在两次使用之间不进行冷却的情况下，发射时间不要超过 20 分钟。不要在启用干扰机时持
+续低空低速飞行超过 30 分钟。 对于极端的外部温度，请相应地调整限制时间。
