@@ -76,14 +76,15 @@ shifted forward or aft using the
 [Release Advance Control](../../../../cockpit/wso/right_console/center_section.md#release-advance-control).
 
 > 💡 Release Advance can be computed easily using the
-> [Bombing Calculator Tool](../../../dcs/bombing_computer.md).
+> [Bombing Calculator Tool](../../../../dcs/bombing_computer.md).
 
 For offset attacks, the offset is entered as distance in N/S and E/W direction
 to the reference point (IP, VIP, RIP) using the
 [Target Distance Controls](../../../../cockpit/wso/right_console/center_section.md#target-distance-controls).
 
 > 💡 Target Distance in N/S and E/W can be converted from direct distance and
-> heading using the [Bombing Calculator Tool](../../../dcs/bombing_computer.md).
+> heading using the
+> [Bombing Calculator Tool](../../../../dcs/bombing_computer.md).
 
 Certain modes, such as DL and L require entering the range to the target from a
 precomputed point. This can be done using the
@@ -106,6 +107,6 @@ desired speed and altitude of the aircraft, as well as the desired release
 angle.
 
 > 💡 Pull-Up timer values can be computed using the
-> [Bombing Calculator Tool](../../../dcs/bombing_computer.md).
+> [Bombing Calculator Tool](../../../../dcs/bombing_computer.md).
 
 Further, modes TL and T LAD utilize a release-timer.
