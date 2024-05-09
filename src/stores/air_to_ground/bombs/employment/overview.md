@@ -64,7 +64,7 @@ it using the
 [Drag Coefficient Control](../../../../cockpit/wso/right_console/center_section.md#drag-coefficient-control).
 
 > 💡 Drag coefficient numbers can be computed with the
-> [Bombing Calculator Tool](../../../dcs/bombing_computer.md). The kneeboard
+> [Bombing Calculator Tool](../../../../dcs/bombing_computer.md). The kneeboard
 > also provides tables lookup tables.
 
 With the exception of the DT mode, it is necessary to enter the altitude of the

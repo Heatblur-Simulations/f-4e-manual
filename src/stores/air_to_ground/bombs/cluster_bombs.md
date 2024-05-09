@@ -69,7 +69,8 @@ signal to all selected pylons on each press of the Bomb Button.
 
 Technically, all bombing modes on the
 [Delivery Mode Knob](../../../cockpit/pilot/weapon_management.md#delivery-mode-knob)
-are supported, see the [4.3.3.6. Employment](employment.md) section for details.
+are supported, see the [4.3.3.6. Employment](employment/overview.md) section for
+details.
 
 However, since bomblets are often deployed by a timed fuze, best results are
 achieved if they are dropped directly above the target area with laydown modes

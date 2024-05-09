@@ -30,5 +30,5 @@ Or also when employing [rockets](../../rockets.md) or special ordnance such as
 > well as various mil-settings for sight depression in various situations.
 
 > 💡 Similar to Laydown (L) mode, the
-> [Bombing Calculator Tool](../../../dcs/bombing_computer.md) can compute sight
+> [Bombing Calculator Tool](../../../../dcs/bombing_computer.md) can compute sight
 > depression values for attacks at given distances to a target.

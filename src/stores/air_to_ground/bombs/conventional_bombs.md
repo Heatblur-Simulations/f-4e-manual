@@ -54,7 +54,8 @@ The conventional bombs are deployed using the BOMBS setting on the
 
 All bombing modes on the
 [Delivery Mode Knob](../../../cockpit/pilot/weapon_management.md#delivery-mode-knob)
-are supported, see the [4.3.3.6. Employment](employment.md) section for details.
+are supported, see the [4.3.3.6. Employment](employment/overview.md) section for
+details.
 
 > 💡 MK-82 Air and Snakeye can be switched between Low and High drag
 > configuration depending on the

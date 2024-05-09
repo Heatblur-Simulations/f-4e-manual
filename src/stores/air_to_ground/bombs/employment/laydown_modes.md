@@ -18,7 +18,7 @@ over the target when at the IP. That way, as soon as the pipper is over the
 target, the Bomb Button can be held down and weapons will impact.
 
 > 💡 The correct sight depression can be computed using the
-> [Bombing Calculator Tool](../../../dcs/bombing_computer.md).
+> [Bombing Calculator Tool](../../../../dcs/bombing_computer.md).
 
 ![laydown](../../../../img/laydown.jpg)
 

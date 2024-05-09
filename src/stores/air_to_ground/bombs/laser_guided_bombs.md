@@ -31,9 +31,10 @@ GBUs are deployed using the BOMBS setting on the
 
 Technically, all bombing modes on the
 [Delivery Mode Knob](../../../cockpit/pilot/weapon_management.md#delivery-mode-knob)
-are supported, see the [4.3.3.6. Employment](employment.md) section for details.
+are supported, see the [4.3.3.6. Employment](employment/overview.md) section for
+details.
 
 However, unless guided by another aircraft,
-[TGT FIND](employment.md#target-find---tgt-find) in combination with a
-[Pave Spike](../../../systems/weapon_systems/pave_spike/overview.md) targeting
-pod is the main mode to employ GBUs with.
+[TGT FIND](employment/accurate_modes.md#target-find---tgt-find) in combination
+with a [Pave Spike](../../../systems/weapon_systems/pave_spike/overview.md)
+targeting pod is the main mode to employ GBUs with.

@@ -83,7 +83,7 @@ vertical
 Sight,
 [BDHI](../../../../cockpit/wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi),
 and
-[HSI](../../....//cockpit/pilot/flight_director_group.md#horizontal-situation-indicator)
+[HSI](../../../../cockpit/pilot/flight_director_group.md#horizontal-situation-indicator)
 navigation aids will all show offset from the calculated release point, as well
 as target range on the HSI and BDHI.
 
@@ -158,7 +158,7 @@ simultaneously, just like a VIP attack.
 
 ## Practice
 
-If no [Pave Spike](../../../systems/weapon_systems/pave_spike/overview.md)
+If no [Pave Spike](../../../../systems/weapon_systems/pave_spike/overview.md)
 targeting pod is installed, the TGT FIND mode can be used as a practice mode for
 OFFSET.
 
