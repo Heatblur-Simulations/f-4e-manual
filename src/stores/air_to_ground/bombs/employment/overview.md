@@ -1,4 +1,4 @@
-# Employment
+# Bomb Employment
 
 The Phantom has a wide range of weapon modes to employ bombs. Most modes require
 the WSO to make inputs into the
