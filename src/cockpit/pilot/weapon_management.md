@@ -7,12 +7,12 @@ settings, such as arming missiles or selecting the bomb delivery mode. It
 features a true airspeed indicator (<num>1</num>), a Head Up Display Indicator
 (<num>2</num>), a flight instrument brightness knob (<num>3</num>), the
 nose/tail arming switch (<num>4</num>), the station select buttons
-(<num>5</num>), the master arm switch (<num>6</num>), the delivery mode knob (<num>7</num>), the
-weapon selector knob (<num>8</num>), the missile status lights (<num>9</num>), the
-radar missile power switch (<num>10</num>), the centerline tank aboard light
-(<num>11</num>), the interlock switch (<num>12</num>), the selective jettison
-control (<num>16</num>) and the AWRU controls (<num>13</num>, <num>14</num> and
-<num>15</num>).
+(<num>5</num>), the master arm switch (<num>6</num>), the delivery mode knob
+(<num>7</num>), the weapon selector knob (<num>8</num>), the missile status
+lights (<num>9</num>), the radar missile power switch (<num>10</num>), the
+centerline tank aboard light (<num>11</num>), the interlock switch
+(<num>12</num>), the selective jettison control (<num>16</num>) and the AWRU
+controls (<num>13</num>, <num>14</num> and <num>15</num>).
 
 ## Range Indicator
 
@@ -45,7 +45,7 @@ control as well as the current selected air-to-air weapon based on the position
 of the pinky switch on the left throttle handle.
 
 | Name  | Description                                                     |
-|-------|-----------------------------------------------------------------|
+| ----- | --------------------------------------------------------------- |
 | RADAR | Illuminates when a radar-guided air to air missile is selected. |
 | HEAT  | Illuminates when an IR-guided air to air missile is selected.   |
 | GUN   | Illuminates when the nose gun is selected.                      |
@@ -100,14 +100,15 @@ thus making them live. This function also controls selective low/high drag
 capability for retarded bombs.
 
 | Name      | Description                                                                       |
-|-----------|-----------------------------------------------------------------------------------|
+| --------- | --------------------------------------------------------------------------------- |
 | SAFE      | No arming solenoids activate; bombs release without fuzing enabled.               |
 | NOSE      | Forward and center position solenoids activate to hold arming lanyards.           |
 | TAIL      | Aft position solenoids activate to hold arming lanyards.                          |
 | NOSE/TAIL | Forward, center, and aft position solenoids all activate to hold arming lanyards. |
 
-For example, MK-82 Air or Snakeye variants will only detonate if the nose fuze is selected and
-switch between high drag configuration with the tail fuze set and low drag if not set.
+For example, MK-82 Air or Snakeye variants will only detonate if the nose fuze
+is selected and switch between high drag configuration with the tail fuze set
+and low drag if not set.
 
 ## Station Select Buttons
 
@@ -151,26 +152,26 @@ weapon release type. Split into two halves, the left side of the dial references
 ARBCS (Altitude Reference and Bombing Computer Set) delivery modes, while the
 right side provides automated release functions using the WRCS (Weapon Release
 Computer Set) with possible tie-in to the navigation computer, depending on
-mode. At the 11  o'clock position is the OFF position, which is utilized
-for air-to-air weapons (including the gun). The next mode, DIRECT, is used for
+mode. At the 11 o'clock position is the OFF position, which is utilized for
+air-to-air weapons (including the gun). The next mode, DIRECT, is used for
 video-directed weapons such as the AGM-65 and as a direct delivery bombing mode.
 The full series of positions is as follows, clockwise from the left:
 
-| Name                                                                                                 | Description                                                                                       |
-|------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| [INST O/S](../../stores/air_to_ground/bombs/employment.md#instantaneous-over-the-shoulder---inst-os) | Instantaneous Over the Shoulder                                                                   |
-| [LOFT](../../stores/air_to_ground/bombs/employment.md#loft)                                          | Loft                                                                                              |
-| [O/S](../../stores/air_to_ground/bombs/employment.md#timed-over-the-shoulder---timed-os)             | (Timed) Over the Shoulder                                                                         |
-| [T LAD](../../stores/air_to_ground/bombs/employment.md#timed-low-angle-drogue-delivery---t-ladd)     | Timed LADD (Low Angle Drogue Delivery)                                                            |
-| [TL](../../stores/air_to_ground/bombs/employment.md#timed-level---tl)                                | Timed Level                                                                                       |
-| OFF                                                                                                  | Off (Air-to-Air)                                                                                  |
-| [DIRECT](../../stores/air_to_ground/bombs/employment.md#direct)                                      | Manual Direct                                                                                     |
-| [TGT FIND](../../stores/air_to_ground/bombs/employment.md#target-find---tgt-find)                    | Target Find (Nav mode and [Pave Spike](../../systems/weapon_systems/pave_spike/overview.md) only) |
-| [DT](../../stores/air_to_ground/bombs/employment.md#dive-toss---dt)                                  | Dive Toss                                                                                         |
-| [DL](../../stores/air_to_ground/bombs/employment.md#dive-laydown---dl)                               | Dive Laydown                                                                                      |
-| [L](../../stores/air_to_ground/bombs/employment.md#laydown---l)                                      | Laydown                                                                                           |
-| [OFF SET](../../stores/air_to_ground/bombs/employment.md#offset)                                     | Offset Bomb                                                                                       |
-| [AGM-45](../../stores/air_to_ground/missiles/shrike.md)                                              | [AGM-45 Shrike](../../stores/air_to_ground/missiles/shrike.md)                                    |
+| Name                                                                                                                 | Description                                                                                       |
+| -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| [INST O/S](../../stores/air_to_ground/bombs/employment/lofting_tossing.md#instantaneous-over-the-shoulder---inst-os) | Instantaneous Over the Shoulder                                                                   |
+| [LOFT](../../stores/air_to_ground/bombs/employment/lofting_tossing.md#loft)                                          | Loft                                                                                              |
+| [O/S](../../stores/air_to_ground/bombs/employment/lofting_tossing.md#timed-over-the-shoulder---os)                   | (Timed) Over the Shoulder                                                                         |
+| [T LAD](../../stores/air_to_ground/bombs/employment/lofting_tossing.md#timed-low-angle-drogue-delivery---t-ladd)     | Timed LADD (Low Angle Drogue Delivery)                                                            |
+| [TL](../../stores/air_to_ground/bombs/employment/level_release.md#timed-level---tl)                                  | Timed Level                                                                                       |
+| OFF                                                                                                                  | Off (Air-to-Air)                                                                                  |
+| [DIRECT](../../stores/air_to_ground/bombs/employment/manual_release.md#manual-release---direct)                      | Manual Direct                                                                                     |
+| [TGT FIND](../../stores/air_to_ground/bombs/employment/accurate_modes.md#target-find---tgt-find)                     | Target Find (Nav mode and [Pave Spike](../../systems/weapon_systems/pave_spike/overview.md) only) |
+| [DT](../../stores/air_to_ground/bombs/employment/accurate_modes.md#dive-toss---dt)                                   | Dive Toss                                                                                         |
+| [DL](../../stores/air_to_ground/bombs/employment/laydown_modes.md#dive-laydown---dl)                                 | Dive Laydown                                                                                      |
+| [L](../../stores/air_to_ground/bombs/employment/laydown_modes.md#laydown---l)                                        | Laydown                                                                                           |
+| [OFF SET](../../stores/air_to_ground/bombs/employment/offset_delivery.md#offset-delivery---offset)                   | Offset Bomb                                                                                       |
+| [AGM-45](../../stores/air_to_ground/missiles/shrike.md)                                                              | [AGM-45 Shrike](../../stores/air_to_ground/missiles/shrike.md)                                    |
 
 For further information see
 [4.3 Air-to-Ground weaponry chapter.](../../stores/air_to_ground/overview.md)
@@ -185,7 +186,7 @@ weapon firing unless a CAGE signal is active. ARM and TV positions do not affect
 tuning status of radar guided weapons. Positions are as follows:
 
 | Name        | Description                                                                                   |
-|-------------|-----------------------------------------------------------------------------------------------|
+| ----------- | --------------------------------------------------------------------------------------------- |
 | AGM-12      | [AGM-12 Bullpup](../../stores/air_to_ground/missiles/bullpup.md)                              |
 | BOMBS       | Bombs (all types).                                                                            |
 | RKTS & DISP | Rockets and dispensers.                                                                       |
@@ -315,7 +316,7 @@ parameter interlocks can prevent an AIM-7 from being launched when the trigger
 is pulled.
 
 | Name | Description                                                                                       |
-|------|---------------------------------------------------------------------------------------------------|
+| ---- | ------------------------------------------------------------------------------------------------- |
 | IN   | Interlocks engaged; range limits, ASE limits, or radar not in visual intercept inhibits launch.   |
 | OUT  | Interlocks override; AIM-7 will fire when trigger is pulled even when no launch condition is met. |
 
@@ -330,7 +331,7 @@ The pilot selects the desired position by rotating the knob and then presses the
 button on its front to jettison the selected stores.
 
 | Name     | Description                                                                                                                                                                                                     |
-|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | OFF      | Safes PUSH TO JETT button on the Selective Jettison Control Panel.                                                                                                                                              |
 | STORES   | Releases all MER/TER, single carried, LAU-88 mounted rounds, or drop tanks currently selected on the station buttons upon PUSH TO JETT.                                                                         |
 | L/R FWD  | Jettisons [AIM-7](../../stores/air_to_air/aim_7.md) from respective position on PUSH TO JETT. Inhibited if CL TK ON.                                                                                            |

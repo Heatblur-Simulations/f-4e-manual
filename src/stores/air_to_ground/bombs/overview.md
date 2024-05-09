@@ -10,7 +10,7 @@ that includes the [MK-82, MK-83, and MK-84.](./conventional_bombs.md#mk-80-serie
 These [unguided bombs](./conventional_bombs.md) have been mainstays in military
 
 For missions requiring widespread target coverage, the F-4E Phantom II can be configured to carry
-[cluster bombs.](./conventional_bombs.md#cbu-variants) These munitions disperse smaller bomblets
+[cluster bombs.](./cluster_bombs.md) These munitions disperse smaller bomblets
 over a designated area, effectively saturating the target zone.
 
 The F-4E can be armed with [laser-guided bombs,](./laser_guided_bombs.md) such as
