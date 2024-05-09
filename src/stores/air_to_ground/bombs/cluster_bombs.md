@@ -53,3 +53,25 @@ velocity fragments in a radial pattern.
 In the case of the CBU-2/A and CBU-2B/A, the carried BLU-3 bomblets are loaded
 with steel balls suitable even for unarmored vehicles. The CBU-1A/A, carrying
 BLU-4B bomblets, is loaded with anti-personnel shrapnel material.
+
+## Employment
+
+With the exception of the CBU-1 and CBU-2, cluster bombs are deployed using the
+BOMBS setting on the
+[Weapon Selector Knob](../../../cockpit/pilot/weapon_management.md#weapon-selector-knob).
+
+The CBU-1/-2 however, are dispensers that technically have more similarities
+with a rocket launcher than they have with a conventional bomb. The setting RKTS
+& DISP has to be used to employ them properly.
+
+The A setting can also be used as a backup mode which will send a single pulse
+signal to all selected pylons on each press of the Bomb Button.
+
+Technically, all bombing modes on the
+[Delivery Mode Knob](../../../cockpit/pilot/weapon_management.md#delivery-mode-knob)
+are supported, see the [4.3.3.6. Employment](employment.md) section for details.
+
+However, since bomblets are often deployed by a timed fuze, best results are
+achieved if they are dropped directly above the target area with laydown modes
+DL or L. Modes DT and TGT FIND, as well as Direct, TL or OFFSET can also be used
+effectively.

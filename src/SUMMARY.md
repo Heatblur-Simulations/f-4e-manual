@@ -110,7 +110,7 @@
       - [Laser Guided Bombs](./stores/air_to_ground/bombs/laser_guided_bombs.md)
       - [TV Guided Bombs](./stores/air_to_ground/bombs/tv_guided_bombs.md)
       - [Other](./stores/air_to_ground/bombs/other.md)
-      - [Employment](./stores/air_to_ground/bombs/employment.md)
+      - [Employment](./stores/air_to_ground/bombs/employment/overview.md)
   - [Pods](./stores/pods.md)
   - [Tanks](./stores/tanks.md)
 - [Jester](./jester/overview.md)
