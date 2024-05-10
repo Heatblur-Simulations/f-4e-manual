@@ -104,7 +104,7 @@ MOM（自复位）档位。
 
 ![Back-lighting Controls](../img/pilot_cockpit_lights_knobs.jpg)
 
-控制台照明由左主 115V AC 母线提供电力，而仪表板照明由右主 115V AC 母线供电。
+控制台照明由左主 115V AC 总线提供电力，而仪表板照明由右主 115V AC 总线供电。
 
 ### 飞行仪表照明
 
