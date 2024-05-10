@@ -1,7 +1,7 @@
 # 电气系统
 
 Pave Spike 通过 [4 号断路器面板](../../../systems/electrics.md#cb-panel-4)（WSO，左侧墙板）上的 4
-个断路器供电。左侧主 AC 母线和主 DC 母线的电流将流经断路器。
+个断路器供电。左侧主 AC 总线和主 DC 总线的电流将流经断路器。
 
 ![pave_spike_cbs](../../../img/wso_cb_panel_tgt_des.jpg)
 

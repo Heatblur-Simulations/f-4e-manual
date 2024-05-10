@@ -1,98 +1,140 @@
-# Special Options
+# 专用设置
 
-The Phantom offers several options that can be set within the _Special Option_
-menu in DCS.
+鬼怪在 DCS 中有数个选项可在 _专用设置_ 菜单中进行设置。
 
 ![Special Option Menu](../img/special_options.jpg)
 
-## Radio Menu and PTT Behavior
+## 无线电菜单和 PTT 行为
 
 ![Radio Menu](../img/special_options_radio_menu.jpg)
 
-Dropdown to select the behavior of the push to talk bind for the radio.
+下拉式菜单来选择按键通话的行为。
 
-| Option          | Close Menu | Menu must be open | Export Voice |
-| --------------- | ---------- | ----------------- | ------------ |
-| Default         | ❌         | ❌                | ✅           |
-| Open Menu       | ❌         | ✅                | ✅           |
-| Hide on Release | ✅         | ❌                | ✅           |
-| No Export       | ❌         | ❌                | ❌           |
+| 选项     | 关闭菜单 | 菜单必须打开 | 导出话音 |
+| -------- | -------- | ------------ | -------- |
+| 默认     | ❌       | ❌           | ✅       |
+| 打开菜单 | ❌       | ✅           | ✅       |
+| 松开隐藏 | ✅       | ❌           | ✅       |
+| 不导出   | ❌       | ❌           | ❌       |
 
-The columns have the following effects:
+各列有以下作用：
 
-- Close Menu - when releasing the key, the DCS communication menu is
-  automatically closed
-- Menu must be open - the key only works when the DCS communication menu is
-  currently open
-- Export Voice - when pressed down, voice is exported to tools like SRS
+- 关闭菜单 - 松开按键后，DCS 通信菜单将自动关闭
+- 菜单必须打开 - 只有当 DCS 通信菜单当前打开时，按键才起作用
+- 导出话音 - 按下后，话音将导出到 SRS 等工具中
 
-## Stick Deflection Limit
+## 驾驶杆最大杆力偏转限制
 
-Limits the maximum force in lbf (Pound-Force), i.e. strength, the pilot is able
-to pull the stick with.
+限制飞行员拉动驾驶杆的最大力（磅力），即力度。
 
-This effect is mostly seen when controlling the aircraft during high G maneuvers
-and can prevent accidentally pulling extreme Gs.
+效果主要体现在大过载机动过程中操纵飞机时，可以防止意外拉出极大过载。
 
-## Stick Force Blending
+💡 例如，在某些情况下，将驾驶杆一直向后拉需要超出人力。有了这一设置，当真实驾驶杆的拉力超过这一极限
+时，游戏中的飞行驾驶杆就会受到限制，无法再向后移动。这样还能避免意外拉到 20 G 并立即昏迷的情况，因
+为真实驾驶杆没有或减少了力反馈。
 
-When maximum movement of the stick would result in excessive forces being
-generated, having this activated will scale down the generated force to improve
-handling precision, but also can help to prevent accidentally pulling extreme
-Gs.
+## 杆力调配
 
-## Roll Breakout Point
+当驾驶杆移动到最大行程会导致产生过大的力时，激活此功能将减小产生的力，从而提高操纵精度，同时也有助
+于防止意外拉出极大的过载。
 
-Percentage of stick input after which the Roll and Trim system will recognize
-pilot input and stop overwriting and fighting it.
+## 横滚临界点
 
-## Afterburner Detent
+调整 AFCS 系统开始识别飞行员驾驶杆从中立配平位置（力传感器开关关闭）移动的驾驶杆输入百分比。这将影
+响 AFCS 横滚通道的工作，防止其对抗玩家的横滚输入。
 
-Two options to define at which point of the physical hardware throttle input (0
-to 100%) the aircraft will light the afterburner.
+## 加力推力限位
 
-That is, if set to 80%, the MIL power range of the aircraft will be commanded
-between 0% and 80% of your physical throttle, while the remaining 20% will
-control the afterburner range.
+两个选项，用于定义在物理硬件油门输入的某一点（0 至 100%），飞机将开启加力燃烧室。
 
-The deadzone option can be used to split the points in the range at which the
-afterburner will be turned on and off. For example, setting 2% for the deadzone
-and 80% for the detent results in afterburner activation at 82% and deactivation
-at 78% of throttle input.
+也就是说，如果设置为 80%，飞机的军推动力区间将在物理油门的 0% 至 80% 之间，而剩余的 20% 将控制加力
+燃烧室区间。
 
-## Randomize System Inputs
+死区选项可用于分割后加力燃烧室的开启和关闭点。例如，将死区设置为 2%，将限位点设置为 80%，则加力燃烧
+室将在油门输入的 82% 处开启，78% 处关闭。
 
-When unchecked, during cold start all switches and knobs will be in their
-initial OFF positions. Allowing for a quick start by just following procedures.
+## 进入未启动飞机时随机化系统开关位置
 
-When checked, switch positions will be randomized during cold-start, as if the
-previous pilot did not properly return everything back to their initial
-positions. To ensure a correct startup, the crew hence must check and confirm
-each switch in the proper position before following a cold-start procedure.
+未勾选时，在冷启动过程中，所有开关和旋钮都将处于初始关闭档位。只需按程序操作即可快速起动。
 
-## Performance Balancer
+如果勾选，就像之前的飞行员没有正确地将所有开关返回到初始档位一样，冷启动期间开关档位将随机变化。因
+此，为确保正确起动，机组人员必须在执行冷启动程序之前检查并确认每个开关处在正确的档位。
 
-Under normal conditions, the systems and components in the aircraft are
-simulated with a fixed update-rate.
+## 以 WSO 加入驾驶舱时禁用多人机组控制设备输入
 
-With this option checked, the update rate of some less important systems (such
-as animations) is scaled dynamically based on the current CPU usage. This means
-that if the system has a hard time keeping high FPS, the rate on which less
-important systems are simulated is dynamically tuned down to stress the CPU less
-and possibly achieve higher FPS.
+如果勾选选项，在多人游戏中以 WSO 加入真人飞行员一起飞行时，玩家的本地操纵设备输入（驾驶杆、方向舵脚
+蹬和油门）将被默认忽略。玩家可以使用指定的键绑定切换回本地输入。
 
-> 🟡 CAUTION: Due to dynamic nature of this system, having it enabled might result in
-> broken track/replay files.
+## Jester 着陆标注
 
-## Disable WSO Multi-Crew Controls
+如果启用，Jester 将在着陆时通过标注飞机高度来协助飞行员，与民航中的情况类似。
 
-When checked, when playing as WSO in Multiplayer with a human pilot, any stick
-and throttle input will be deactivated to prevent accidentally messing with the
-pilot and screwing up the flight.
+💡 现实世界中的鬼怪 WSO 不会在着陆时提供协助。
 
-## Jester Landing Callouts
+## HB UI 分辨率超控
 
-If enabled, Jester will assist the pilot during landing by calling out aircraft
-altitude, similar as seen in civilian aviation.
+如 Jester 转盘、手册、虚拟浏览器等用户界面元素的缩放和定位是通过一个固定的分辨率来实现的，该分辨率
+必须与游戏界面的分辨率相匹配。
 
-> 💡 Real Phantom WSOs did not assist during landing.
+如果不选中该选项，分辨率将根据屏幕设置自动决定。不过，在某些情况下，尤其是使用 VR 或多显示器设置时
+，自动检测可能会失效并计算出错误的分辨率。
+
+如果 UI 元素出现错位，例如 Jester 转盘没有居中，甚至被切断，请检查此设置并手动调整分辨率，直到 UI
+能正确显示。
+
+## Jester UI
+
+### 允许使用鼠标控制 Jester UI
+
+勾选选项后，允许使用鼠标在 Jester UI 项目上移动和左键点击进行交互。
+
+如果只希望使用头部跟踪以及鼠标自动检测又过于频繁，例如当鼠标放在椅子扶手上时，则可以禁用该选项。
+
+### Jester UI 允许头部跟踪
+
+![Radio Menu](../img/special_options_jester_ui_head_tracking.jpg)
+
+选中后，Jester UI 允许通过移动游戏中人物模型的头部来移动光标。如果没有方便的头部跟踪设备（如
+TrackIR 或 VR），则可以禁用。
+
+💡 跟踪选项根据移动方式来动态选择。即使启用了头部追踪功能，仍可使用如使用鼠标或将光标分配到某个轴上
+之类的其它选项。
+
+下拉菜单中可选择头部跟踪行为：
+
+- 中心 - 视角原点位于飞机中心
+- 动态 - 视角原点位于 UI 打开的位置
+
+选择 _中心_ 需要在操作 UI 时看向前方而 _动态_ 允许从任何视角位置使用头部跟踪。不过， _动态_ 选项会
+导致在频繁关闭和重新打开 UI 时不得不寻找光标。此外， _动态_ 选项在 VR 中的意义不大，因为此时 UI 的
+所有元素都会呈现在前方。
+
+💡 Jester 问答框始终使用中心类型，要求向前看。
+
+#### Max Angle
+
+Defines the angle (in degrees) the head has to be moved off-center to reach the corners of the UI.
+
+In other words, reducing this value from its default of 10° makes head-tracking more sensitive to
+head movement, while increasing it will reduce the sensitivity.
+
+> 💡 VR users might find a lower angle more comfortable, since the head-to-game > translation is
+> normally 1:1 in VR.
+
+#### Deadzone
+
+Defines the angle (in degrees) the head has to be moved off-center to for the UI to recognize
+head-movement and engage head-tracking.
+
+If the head is moved less than the deadzone (0.5° by default), the cursor is automatically set to
+the center instead and not moved.
+
+> 💡 Users playing with a high and very sensitive head-to-game translation might > find it useful
+> to increase this value slightly.
+
+## Radar Stick for Cursor
+
+When checked, the binds mapped to control the
+[Antenna Hand Control](../cockpit/wso/right_console/front_section.md#antenna-hand-control) can also
+be used to move the cursor used for Offset Bombing and similar, making binding the two
+[Track Wheels](../cockpit/wso/right_console/center_section.md#along-track-wheel) obsolete.
