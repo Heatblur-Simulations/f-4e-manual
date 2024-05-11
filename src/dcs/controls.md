@@ -79,7 +79,7 @@ binds of throttle and stick axis.
 
 ### Pilot
 
-THe pilot should focus at binding the major flight controls, as well as combat
+The pilot should focus at binding the major flight controls, as well as combat
 relevant switches.
 
 #### Flight Controls
