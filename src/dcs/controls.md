@@ -75,7 +75,8 @@ When just getting started, a common question is which controls one should
 generally bind and have accessible without using the mouse, besides the obvious
 binds of throttle and stick axis.
 
-> 💡 Items marked **bold** are highly recommended to be bound.
+> 💡 Items marked **bold** are highly recommended to be bound. _Italic_ sections
+> are suggestions of which positions to bind.
 
 ### Pilot
 
@@ -86,14 +87,14 @@ relevant switches.
 
 - **Stick**
 - **Throttle**
-- **Trim Controls**
+- **Trim Controls** _(4 + 2)_
 - Landing Gear
-- Flaps/Slats
-- Airbrake
+- Flaps/Slats _(Norm, Out, Out & Down)_
+- Airbrake _(Out, Stop, In)_
 - Eject
 - **Nose Gear Steering / Auto Acquisition Button**
-- **Drag Chute**
-- Seat Controls
+- **Drag Chute** _(Deploy, Cut)_
+- Seat Controls _(Up, Down)_
 
 #### Startup
 
@@ -101,7 +102,7 @@ To execute the cold-start sequence, binds of interest are:
 
 - Crew Chief Command: Air Source > Load Starter Cartridges
 - Start Engine Switch Left/Right (fires up Starter Cartridges)
-- Generator Left/Right
+- Generator Left/Right _(On, Off, Ext)_
 - Left/Right Engine Master Switch
 - **Left/Right Engine Ignition**
 - Left/Right Engine Idle Detent
@@ -110,23 +111,23 @@ To execute the cold-start sequence, binds of interest are:
 
 - **Trigger**
 - **Bomb Button**
-- **Weapon Slew**
-- **Pinky Switch**
+- **Weapon Slew** _(4)_
+- **Pinky Switch** _(Gun, Heat, Radar)_
 - **CAGE Button**
 - **Nose Gear Steering / Auto Acquisition Button**
-- DSCG Mode
+- DSCG Mode _(Radar, Off, TV)_
 - Bombing Tool
 - **Dispense Countermeasures**
-- HUD Mode
-- Delivery Mode
-- Weapon Selector
+- HUD Mode _(CW, CCW)_
+- Delivery Mode _(CW, CCW)_
+- Weapon Selector _(CW, CCW)_
 
 #### Navigation
 
-- **Microphone Switch**
-- Navigation Input
-- Navigation Mode
-- COM Channel
+- **Microphone Switch** _(UHF, ICS)_
+- Navigation Input _(Next)_
+- Navigation Mode _(Next)_
+- COM Channel _(Inc, Dec)_
 - AFCS Switch
 - ALT Hold Switch
 - AAR Release Switch
@@ -145,17 +146,17 @@ pod.
 #### Radar & Pave Spike
 
 - **Antenna Hand Control**
-- **Antenna Hand Control Trigger**
-- **Antenna Elevation**
+- **Antenna Hand Control Trigger** _(Half Action, Full Action)_
+- **Antenna Elevation** _(Inc, Dec)_
 - **Antenna Hand Control Challenge Button**
-- Screen Mode
+- Screen Mode _(CW, CCW)_
 
 #### Radar Controls
 
-- **Radar Receiver Gain**
-- Radar Range
-- Target Aspect
-- Radar Mode
+- **Radar Receiver Gain** _(Inc, Dec)_
+- Radar Range _(CW, CCW)_
+- Target Aspect _(Next)_
+- Radar Mode _(CW, CCW)_
 
 #### Combat Relevant
 
@@ -164,10 +165,10 @@ pod.
 - Air to Air (CAGE) Mode
 - **Freeze Button**
 - Insert Target Button
-- Move Cursor (Along/Cross Track)
+- Move Cursor (Along/Cross Track) _(Inc, Dec)_
 
 #### Navigation Controls
 
-- **Microphone Switch**
-- COM Channel
-- **Navigation Function**
+- **Microphone Switch** _(UHF, ICS)_
+- COM Channel _(Inc, Dec)_
+- **Navigation Function** _(CW, CCW)_
