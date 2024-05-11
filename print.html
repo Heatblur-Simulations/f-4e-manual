@@ -8751,10 +8751,8 @@ will toggle the laser on or off. To enter track mode, one has to complete the
 sequence <em>Released</em> to <em>Half Action</em> and back to <em>Released</em>. Holding the trigger
 at any point will not actuate the linked action.</p>
 <blockquote>
-<p>💡 Ensure to bind controls so that the trigger goes through this full
-sequence. For example, only binding <em>Released</em> and <em>Full Action</em> would miss
-<em>Half Action</em> and not work properly. For physical 2-stage triggers, use the
-corresponding 2-stage binds.</p>
+<p>💡 Our provided binds make sure to execute the sequence properly. For physical
+2-stage triggers, use the corresponding 2-stage binds.</p>
 </blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="electrics-1"><a class="header" href="#electrics-1">Electrics</a></h1>
 <p>The Pave Spike draws its power through 4 circuit breakers on the
@@ -14120,9 +14118,10 @@ to <a href="dcs/mission_editor.html">mission designers</a>.</p>
 <p><img src="dcs/../img/phantom_livery.jpg" alt="Creative Painting on a Phantom" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="controls-2"><a class="header" href="#controls-2">Controls</a></h1>
 <p><img src="dcs/../img/controls_overview.jpg" alt="Controls Overview" /></p>
-<p>Available control binds for the Phantom are exhaustive. For any switch, knob or button, you can
-choose between direct position-binds, increment or decrement binds, a toggle or next option,
-special binds for 2-way or 3-way switches and assignable axis.</p>
+<p>Available control binds for the Phantom are exhaustive. For any switch, knob or
+button, you can choose between direct position-binds, increment or decrement
+binds, a toggle or next option, special binds for 2-way or 3-way switches and
+assignable axis.</p>
 <p>In total, both cockpits feature around 1000 assignable binds and 200 axis each.</p>
 <p>As example, the <strong>Speed Brake</strong> switch provides 8 binds:</p>
 <ul>
@@ -14138,40 +14137,138 @@ special binds for 2-way or 3-way switches and assignable axis.</p>
 spring-loaded and will return to center once released.</p>
 <p>Binds <strong>[Aft]</strong> and <strong>[Forward]</strong> are directional binds that move the switch
 from the current position into the given direction.</p>
-<p><strong>[Next]</strong> is similar,
-but will not stop at the last position and wrap over to the first position again.
-Likewise, 2-way switches provide a <strong>[Toggle]</strong> bind that flips the switch between
-either position.</p>
-<p>The <strong>(3-way up)</strong>-bind is intended to be used with actual 3-way hardware switches,
-such as present on many external devices.
-They send a signal on either position (up and down), but no signal on the center position.
-Hence, the bind will return the switch back to the center when no signal is send.</p>
+<p><strong>[Next]</strong> is similar, but will not stop at the last position and wrap over to
+the first position again. Likewise, 2-way switches provide a <strong>[Toggle]</strong> bind
+that flips the switch between either position.</p>
+<p>The <strong>(3-way up)</strong>-bind is intended to be used with actual 3-way hardware
+switches, such as present on many external devices. They send a signal on either
+position (up and down), but no signal on the center position. Hence, the bind
+will return the switch back to the center when no signal is send.</p>
 <blockquote>
 <p>💡 The <strong>(3-way down)</strong>-bind is skipped for the Speed Brake, since it would be
 identical with the spring-loaded <strong>Out (Hold)</strong>-bind.</p>
 </blockquote>
-<p>All binds are generally assigned at least two searchable categories,
-the <strong>system</strong> the bind belongs to and its <strong>location</strong> in the cockpit.
-The <strong>Master Arm</strong> switch for example has categories:</p>
+<p>All binds are generally assigned at least two searchable categories, the
+<strong>system</strong> the bind belongs to and its <strong>location</strong> in the cockpit. The <strong>Master
+Arm</strong> switch for example has categories:</p>
 <ul>
 <li>Weapons</li>
 <li>Main Panel</li>
 <li>Weapon Selection Panel</li>
 </ul>
 <h2 id="sim-pit"><a class="header" href="#sim-pit">Sim-Pit</a></h2>
-<p>Additionally to regular binds, special <strong>[SimPit]</strong>-binds are provided that allow controlling
-any switch or knob via an axis input.</p>
-<p>For example, a switch with 2 positions ON and OFF can be controlled with an axis,
-while the switch changes its position as soon as the axis is pushed beyond its center position.</p>
-<p>This is especially useful for builders of cockpit replicas, working mainly
-with hardware switches whose electronic components send normalized inputs
-through the entire movement range.</p>
+<p>Additionally to regular binds, special <strong>[SimPit]</strong>-binds are provided that
+allow controlling any switch or knob via an axis input.</p>
+<p>For example, a switch with 2 positions ON and OFF can be controlled with an
+axis, while the switch changes its position as soon as the axis is pushed beyond
+its center position.</p>
+<p>This is especially useful for builders of cockpit replicas, working mainly with
+hardware switches whose electronic components send normalized inputs through the
+entire movement range.</p>
 <h2 id="jester--chief-commands"><a class="header" href="#jester--chief-commands">Jester &amp; Chief Commands</a></h2>
 <p>Direct binds to control Jester and Crew Chief commands are provided especially
-for mission designers or users of voice recognition software, such as <strong>VoiceAttack</strong>.</p>
+for mission designers or users of voice recognition software, such as
+<strong>VoiceAttack</strong>.</p>
 <p><img src="dcs/../img/jester_commands_binds.jpg" alt="Jester Commands" /></p>
 <p>This allows use of the corresponding actions directly via a bind instead of
 using the UI to select them.</p>
+<h2 id="binding-guide"><a class="header" href="#binding-guide">Binding Guide</a></h2>
+<p>When just getting started, a common question is which controls one should
+generally bind and have accessible without using the mouse, besides the obvious
+binds of throttle and stick axis.</p>
+<blockquote>
+<p>💡 Items marked <strong>bold</strong> are highly recommended to be bound.</p>
+</blockquote>
+<h3 id="pilot-8"><a class="header" href="#pilot-8">Pilot</a></h3>
+<p>THe pilot should focus at binding the major flight controls, as well as combat
+relevant switches.</p>
+<h4 id="flight-controls"><a class="header" href="#flight-controls">Flight Controls</a></h4>
+<ul>
+<li><strong>Stick</strong></li>
+<li><strong>Throttle</strong></li>
+<li><strong>Trim Controls</strong></li>
+<li>Landing Gear</li>
+<li>Flaps/Slats</li>
+<li>Airbrake</li>
+<li>Eject</li>
+<li><strong>Nose Gear Steering / Auto Acquisition Button</strong></li>
+<li><strong>Drag Chute</strong></li>
+<li>Seat Controls</li>
+</ul>
+<h4 id="startup-2"><a class="header" href="#startup-2">Startup</a></h4>
+<p>To execute the cold-start sequence, binds of interest are:</p>
+<ul>
+<li>Crew Chief Command: Air Source &gt; Load Starter Cartridges</li>
+<li>Start Engine Switch Left/Right (fires up Starter Cartridges)</li>
+<li>Generator Left/Right</li>
+<li>Left/Right Engine Master Switch</li>
+<li><strong>Left/Right Engine Ignition</strong></li>
+<li>Left/Right Engine Idle Detent</li>
+</ul>
+<h4 id="combat-1"><a class="header" href="#combat-1">Combat</a></h4>
+<ul>
+<li><strong>Trigger</strong></li>
+<li><strong>Bomb Button</strong></li>
+<li><strong>Weapon Slew</strong></li>
+<li><strong>Pinky Switch</strong></li>
+<li><strong>CAGE Button</strong></li>
+<li><strong>Nose Gear Steering / Auto Acquisition Button</strong></li>
+<li>DSCG Mode</li>
+<li>Bombing Tool</li>
+<li><strong>Dispense Countermeasures</strong></li>
+<li>HUD Mode</li>
+<li>Delivery Mode</li>
+<li>Weapon Selector</li>
+</ul>
+<h4 id="navigation-1"><a class="header" href="#navigation-1">Navigation</a></h4>
+<ul>
+<li><strong>Microphone Switch</strong></li>
+<li>Navigation Input</li>
+<li>Navigation Mode</li>
+<li>COM Channel</li>
+<li>AFCS Switch</li>
+<li>ALT Hold Switch</li>
+<li>AAR Release Switch</li>
+</ul>
+<h4 id="jester-1"><a class="header" href="#jester-1">Jester</a></h4>
+<ul>
+<li><strong>Jester UI Action</strong></li>
+<li><strong>Jester Context Action</strong></li>
+</ul>
+<h3 id="wso-6"><a class="header" href="#wso-6">WSO</a></h3>
+<p>For the WSO it is optional to bind flight controls such as the flight stick.
+Controls should be focused at operating the Radar and the Pave Spike targeting
+pod.</p>
+<h4 id="radar--pave-spike"><a class="header" href="#radar--pave-spike">Radar &amp; Pave Spike</a></h4>
+<ul>
+<li><strong>Antenna Hand Control</strong></li>
+<li><strong>Antenna Hand Control Trigger</strong></li>
+<li><strong>Antenna Elevation</strong></li>
+<li><strong>Antenna Hand Control Challenge Button</strong></li>
+<li>Screen Mode</li>
+</ul>
+<h4 id="radar-controls"><a class="header" href="#radar-controls">Radar Controls</a></h4>
+<ul>
+<li><strong>Radar Receiver Gain</strong></li>
+<li>Radar Range</li>
+<li>Target Aspect</li>
+<li>Radar Mode</li>
+</ul>
+<h4 id="combat-relevant"><a class="header" href="#combat-relevant">Combat Relevant</a></h4>
+<ul>
+<li><strong>Dispense Countermeasures</strong></li>
+<li>Video Select</li>
+<li>Air to Air (CAGE) Mode</li>
+<li><strong>Freeze Button</strong></li>
+<li>Insert Target Button</li>
+<li>Move Cursor (Along/Cross Track)</li>
+</ul>
+<h4 id="navigation-controls"><a class="header" href="#navigation-controls">Navigation Controls</a></h4>
+<ul>
+<li><strong>Microphone Switch</strong></li>
+<li>COM Channel</li>
+<li><strong>Navigation Function</strong></li>
+</ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="special-options"><a class="header" href="#special-options">Special Options</a></h1>
 <p>The Phantom offers several options that can be set within the <em>Special Option</em>
 menu in DCS.</p>
@@ -14718,7 +14815,7 @@ on servers that disabled their file-integrity-check.</p>
 <p>💡 Let us know if you create a cool mod that you think should make
 its way into the module!</p>
 </blockquote>
-<h2 id="jester-1"><a class="header" href="#jester-1">Jester</a></h2>
+<h2 id="jester-2"><a class="header" href="#jester-2">Jester</a></h2>
 <p>Jester is fully open to modding. Please see the <a href="dcs/modding/jester/overview.html">Jester API</a> for details.</p>
 <h2 id="manual"><a class="header" href="#manual">Manual</a></h2>
 <!-- markdown-link-check-disable -->
@@ -14749,7 +14846,7 @@ PNT_Marker_Beacon;cockpit.html#marker_beacon
 PNT_VOR_Light;cockpit.html#vor_light
 </code></pre>
 <p>The URL, for example <code>cockpit.html#fire_test_button</code>, is then loaded in the Manual-Browser.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="jester-2"><a class="header" href="#jester-2">Jester</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="jester-3"><a class="header" href="#jester-3">Jester</a></h1>
 <p>Jester is fully open to modding via a Lua-API. Any feature and functionality of Jester
 has been written by using this API.</p>
 <p><img src="dcs/modding/jester/../../../img/jester_ai_code.jpg" alt="Jester" /></p>
