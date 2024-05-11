@@ -28,7 +28,7 @@ F-4 在任务编辑器中有数个专用选项。
 例如，上述电机的 σ 值为 3%，约为每秒 60 度，这意味着绝大多数瞄准吊舱将使用能以每秒 58 至 62 度之间
 移动仰角环架的电机。
 
-💡 误差是双向的，玩家的鬼怪也可能比它应有的速度更快。
+> 💡 误差是双向的，玩家的鬼怪也可能比它应有的速度更快。
 
 ### 飞机状态
 
@@ -67,78 +67,70 @@ F-4 在任务编辑器中有数个专用选项。
 也就是说，勾选选项后，状态设置以及磨损都将被忽略和禁用。飞机启动时的所有属性都将完全按照资料与制造
 商的规定进行设置，不会有任何误差。
 
-基准飞机在比赛中尤为重要，为了公平起见，比赛双方应在相同的状态下开始比赛。或者在进行测试和计算性能
+基准飞机在赛事中尤为重要，为了公平起见，比赛双方应在相同的状态下开始比赛。或者在进行测试和计算性能
 曲线时，飞机应始终以完全相同的数值开始。
 
-💡 即使是基准飞机，在飞行过程中也会出现磨损。在比赛中，如果拉大过载，玩家的飞机的组件属性就会与对手
-产生差异。
+> 💡 即使是基准飞机，在飞行过程中也会出现磨损。在赛事活动中，如果拉大过载，玩家的飞机的组件属性就会
+> 与对手产生差异。
 
-## INS Reference Alignment Stored
+## INS 预存航向对准
 
-This checkbox allows significant reduction of the time needed for a proper INS alignment during
-cold-start.
+通过这一复选框可以大大减少冷启动时正确对准 INS 所需的时间。
 
-Therefore, the ground crew would previously have started the aircraft and executed a full
-alignment, then shut it down again, while memorizing parts of the alignment data.
+因此，地勤人员需要提前起动飞机并执行完整的对准，然后再次关闭飞机，同时存储部分对准数据。
 
-See the [INS section](../systems/nav_com/ins.md#heading-memory-alignment) for details on how to
-execute a stored alignment.
+详见 [INS 部分](../systems/nav_com/ins.md#heading-memory-alignment) 来学习如何执行预存航向对准。
 
-## Allow Night Vision Goggles
+## 允许使用夜视仪
 
-Although F-4E crews never actually operated with NVGs, this option allows mission designers to
-create modern or fictional scenarios where Phantom crews might have access to such devices.
+虽然 F-4E 机组实际上从未使用过 NVG，但该选项允许任务设计者创建现代或虚构的场景，让 鬼怪机组可以使用
+此类设备。
 
-## TACAN Options
+## TACAN 选项
 
-Allows to set the TACAN channel and band set when spawning initially.
+允许在部署刚开始时设置塔康波道和波段。
 
-## VOR/ILS Options
+## VOR/ILS 选项
 
-Allows to set the VOR/ILS frequency when spawning initially.
+允许在部署刚开始时设置 VOR/ILS 频率。
 
-## KY-28 Encryption Key
+## KY-28 加密密钥
 
-Allows to set the encryption key used by the KY-28 communication encryption system.
+允许设置 KY-28 密话系统使用的加密密钥。
 
-This setting is especially important when using tools such as ED-VOIP or SRS that simulate
-encryption while using the radio equipment.
+当使用 ED-VOIP 或 SRS 等工具模拟电台设备加密时，该设置尤为重要。
 
-See the [KY-28 System](../systems/nav_com/encryption.md) for details.
+详见 [KY-28 系统](../systems/nav_com/encryption.md)。
 
-## Chaff Double Dispense
+## 双箔条布撒
 
-An option available to the ground-crew on the AN/ALE-40 countermeasure dispensers.
+提供给地勤人员的一个 AN/ALE-40 对抗措施布撒器可用选项。
 
-When selected, each signal to release chaff instead releases chaff on both sides simultaneously.
+勾选后，每个箔条布撒信号将同时在两侧布撒箔条。
 
-See the [AN/ALE-40 system](../systems/defensive_systems/countermeasures.md#chaff-double-cd) for
-details.
+详见 [AN/ALE-40 系统](../systems/defensive_systems/countermeasures.md#chaff-double-cd)。
 
-## IFF Mode 2 Options
+## IFF 模式 2 选项
 
-Allows to preselect a Mode 2 code for the IFF system.
+允许预选 IFF 系统模式 2 的编码。
 
-## Radio Options
+## 电台选项
 
-The editor allows to preset all 18 COMM and 20 AUX channels of the UHF radio:
+编辑器允许预设 UHF 电台的所有 18 个 COMM 和 20 个 AUX 波道的频率：
 
 ![UHF Presets](../img/me_radio_presets.jpg)
 
-It is possible to set up a station in the Mission Editor for use in ADF navigation. To do this, a
-unit, such as a ground station, needs to be placed on the map. This unit should then execute a
-command to tune into the desired AM frequency (_Perform Command > Set Frequency_). Finally, the
-unit must transmit a message continuously throughout the mission, which requires setting the
-message to loop (_Perform Command > Transmit Message_).
+任务设计者可以在任务编辑器中设置一个台来用于 ADF 导航。为此，需要在地图上放置一个单位，如地面台。然
+后，该设备应执行命令调谐到所需的 AM 频率（执行命令 > 设置频率）。最后，该设备必须在整个任务期间持续
+发送信息，这就需要将信息设置为循环（执行命令 > 发送消息）。
 
 ![ADF Station](../img/me_adf.jpg)
 
-Also, radio frequency parameters to read currently active UHF Radio frequencies are provided for
-mission triggers:
+并且，任务触发器还提供了读取当前激活的 UHF 电台频率的无线电频率参数：
 
-| Parameter   | Description           |
-| ----------- | --------------------- |
-| `COMM_FREQ` | Comm frequency in MHz |
-| `AUX_FREQ`  | Aux frequency in MHz  |
+| 参数        | 描述              |
+| ----------- | ----------------- |
+| `COMM_FREQ` | Comm 频率单位 MHz |
+| `AUX_FREQ`  | Aux 频率单位 MHz  |
 
 ![UHF Parameters](../img/me_freq_triggers.jpg)
