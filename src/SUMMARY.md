@@ -162,6 +162,7 @@
     - [WRCS BIT Procedures](./procedures/bit_tests/wrcs.md)
     - [Navigation Test Procedures](./procedures/bit_tests/navigation_tests.md)
     - [Optical Sight BIT Procedure](./procedures/bit_tests/optical_sight.md)
+  - [Mission Planning](./procedures/mission_planning.md)
 - [Emergency Procedures](./emergency_procedures/overwiew.md)
   - [Inflight](./emergency_procedures/in_flight.md)
   - [Landing](./emergency_procedures/landing.md)
