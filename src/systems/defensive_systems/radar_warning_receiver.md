@@ -14,6 +14,8 @@ function of received power versus known output.
 
 ![pilot_rwr_with_contacts](../../img/rwr_with_contacts.jpg)
 
+> 🚧 The ALR-46 is currently installed in the housing of a APR-36 earlier RWR model.
+
 The resulting processed threat signal is then presented on the RWR's CRT display, with bearing to
 the emitter shown on the display with the top relative to the nose (12 o'clock) and the bottom the
 tail (6 o'clock), and with proximity to center relative to the system's calculation of the level of
