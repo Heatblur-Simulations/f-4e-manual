@@ -13866,42 +13866,34 @@ system</a> and the <a href="procedures/bit_tests/../../systems/nav_com/vor_ils.h
 <blockquote>
 <p>🚧 This section is under construction.</p>
 </blockquote>
-<p>Optimum use of the aircraft to obtain maximum
-performance with minimum fuel consumption requires
-careful preflight planning for the mission. The planning of
-a mission involves many things which are beyond the
-scope of this publication. As used here, mission planning
-will cover certain key phases of a mission and explain the
-use of performance charts.</p>
-<p>The following sample Counter Air mission demonstrates
-features of performance data. Although
-the sample problem does not cover the many mission
-capabilities of the aircraft, it familiarizes the aircrew
-with the use of performance data so that any mission may be
-preflight planned in a short time.</p>
-<p>The sample problem illustrates, through a graphical
-solution, how performance charts can be integrated to
-form a complete mission flight plan. The steps used to
-develop such a plot are shown with the problem.</p>
+<p>Optimum use of the aircraft to obtain maximum performance with minimum fuel
+consumption requires careful preflight planning for the mission. The planning of
+a mission involves many things which are beyond the scope of this publication.
+As used here, mission planning will cover certain key phases of a mission and
+explain the use of performance charts.</p>
+<p>The following sample Counter Air mission demonstrates features of performance
+data. Although the sample problem does not cover the many mission capabilities
+of the aircraft, it familiarizes the aircrew with the use of performance data so
+that any mission may be preflight planned in a short time.</p>
+<p>The sample problem illustrates, through a graphical solution, how performance
+charts can be integrated to form a complete mission flight plan. The steps used
+to develop such a plot are shown with the problem.</p>
 <h2 id="counter-air-mission-profile"><a class="header" href="#counter-air-mission-profile">Counter Air Mission Profile</a></h2>
-<p>Perform maximum thrust takeoff and climb at military
-thrust. Cruise at optimum altitude and maximum range
-speed to a combat zone 500 miles from the air base. Drop
-external tanks when empty. Perform combat
-maneuvering at maximum thrust for the full duration —
-allowed by return and landing fuel requirements. Missiles
-and gun rounds are assumed to be expended at the end of
-the combat period. Return to the airfield at optimum
-altitude and airspeed. Descend at maximum range
-descent, arriving at the destination with 2000 pounds
-landing fuel reserve. The Counter Air Mission Overview
-and the Sample Mission Plan depict the overall mission plan.</p>
+<p>Perform maximum thrust takeoff and climb at military thrust. Cruise at optimum
+altitude and maximum range speed to a combat zone 500 miles from the air base.
+Drop external tanks when empty. Perform combat maneuvering at maximum thrust for
+the full duration — allowed by return and landing fuel requirements. Missiles
+and gun rounds are assumed to be expended at the end of the combat period.
+Return to the airfield at optimum altitude and airspeed. Descend at maximum
+range descent, arriving at the destination with 2000 pounds landing fuel
+reserve. The Counter Air Mission Overview and the Sample Mission Plan depict the
+overall mission plan.</p>
 <h2 id="mission-data"><a class="header" href="#mission-data">Mission Data</a></h2>
 <p>Configuration</p>
 <ul>
 <li>(4) AIM-9 Missiles, Pylons and Launchers</li>
 <li>(4) AIM-7D Missiles</li>
-<li>(1)Nosegun (639 rounds ammo)</li>
+<li>(1) Nose-gun (639 rounds ammo)</li>
 <li>(2) 370 Gallon External Wing Tanks</li>
 <li>(1) 600 Gallon Centerline Tank</li>
 <li>Useable Fuel (includes external tanks) 20,768 pounds</li>
@@ -14390,16 +14382,19 @@ Gs.</p>
 system will recognize the pilot stick was moved from neutral trim position
 (force transducer switches closed).</p>
 <p>This will affect the AFCS roll and pitch channel operation and prevent it from
-fighting your input. That is, when moving the stick beyond this deadzone,
-the AFCS understands that the pilot wants to take control and the AFCS will stop
+fighting your input. That is, when moving the stick beyond this deadzone, the
+AFCS understands that the pilot wants to take control and the AFCS will stop
 trying to correct the movement. The roll breakout will temporarily disable the
 roll stab aug as well as bank angle hold and heading hold. The pitch breakout
 will temporarily disable the pitch attitude hold as well altitude hold.</p>
-<p>This deadzone is "on top" of the DCS axis deadzone so the higher basic deadzone you
-have on your axis the less AFCS breakout deadzone is recommended. Keep in mind that
-setting low values while having your basic deadzone also low can result in some of
-the autopilot functions not engaging even when you let go of the stick because
-the stick may still be not perfectly neutral.</p>
+<blockquote>
+<p>💡 This deadzone is <em>"on top"</em> of the DCS axis deadzone so the higher basic
+deadzone set on the axis, the smaller the AFCS breakout deadzone should be
+set. Keep in mind that setting low values, such as 0%, while having an already
+low basic deadzone can result in some of the autopilot functions not engaging
+even when letting go the stick because the stick may still be not perfectly
+neutral.</p>
+</blockquote>
 <p>Default values are 1% for roll and 2% for pitch.</p>
 <p>For more info see
 <a href="dcs/../systems/flight_controls_gear/flight_controls.html#force-transducer">Force Transducer</a>.</p>
@@ -14875,7 +14870,7 @@ for details.</p>
 <h2 id="iff-mode-2-options"><a class="header" href="#iff-mode-2-options">IFF Mode 2 Options</a></h2>
 <p>Allows to preselect a Mode 2 code for the IFF system.</p>
 <h2 id="laser-options"><a class="header" href="#laser-options">Laser Options</a></h2>
-<p>Allows to preselect a laser code for targeting pod and laser-guided weapons.</p>
+<p>Allows to preselect a laser code for the targeting pod and laser-guided weapons.</p>
 <h2 id="radio-options"><a class="header" href="#radio-options">Radio Options</a></h2>
 <p>The editor allows to preset all 18 COMM and 20 AUX channels of the UHF radio:</p>
 <p><img src="dcs/../img/me_radio_presets.jpg" alt="UHF Presets" /></p>
