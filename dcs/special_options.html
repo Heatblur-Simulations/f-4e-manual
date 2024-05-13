@@ -241,11 +241,14 @@ force feedback.</p>
 generated, having this activated will scale down the generated force to improve
 handling precision, but also can help to prevent accidentally pulling extreme
 Gs.</p>
-<h2 id="roll-breakout-point"><a class="header" href="#roll-breakout-point">Roll Breakout Point</a></h2>
+<h2 id="afcs-breakout-deadzone"><a class="header" href="#afcs-breakout-deadzone">AFCS Breakout Deadzone</a></h2>
 <p>Percentage of stick input after which the AFCS system will recognize the pilot
-stick was moved from neutral trim position (force transducer switches closed).
-This will affect the AFCS roll channel operation and prevent it from fighting
-your roll input. For more info see
+stick was moved from neutral trim position (force transducer switches closed).</p>
+<p>This will affect the AFCS roll and pitch channel operation and prevent it from
+fighting your roll input. That is, when moving the stick beyond this deadzone,
+the AFCS understands that the pilot wants to take control and the AFCS will stop
+trying to correct the movement.</p>
+<p>For more info see
 <a href="../systems/flight_controls_gear/flight_controls.html#force-transducer">Force Transducer</a>.</p>
 <h2 id="afterburner-detent"><a class="header" href="#afterburner-detent">Afterburner Detent</a></h2>
 <p>Two options to define at which point of the physical hardware throttle input (0
