@@ -154,7 +154,7 @@ Allows to preselect a Mode 2 code for the IFF system.
 
 ## Laser Options
 
-Allows to preselect a laser code for targeting pod and laser-guided weapons.
+Allows to preselect a laser code for the targeting pod and laser-guided weapons.
 
 ## Radio Options
 
