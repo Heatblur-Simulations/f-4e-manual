@@ -70,16 +70,6 @@ afterburner will be turned on and off. For example, setting 2% for the deadzone
 and 80% for the detent results in afterburner activation at 82% and deactivation
 at 78% of throttle input.
 
-## Randomize System Inputs at Cold Start
-
-When unchecked, during cold start all switches and knobs will be in their
-initial OFF positions. Allowing for a quick start by just following procedures.
-
-When checked, switch positions will be randomized during cold-start, as if the
-previous pilot did not properly return everything back to their initial
-positions. To ensure a correct startup, the crew hence must check and confirm
-each switch in the proper position before following a cold-start procedure.
-
 ## Disable Multicrew Controls Input When Joining as WSO
 
 If checked, when joining as WSO in multiplayer with a human pilot, your local
@@ -175,3 +165,11 @@ can also be used to move the cursor used for Offset Bombing and similar, making
 binding the two
 [Track Wheels](../cockpit/wso/right_console/center_section.md#along-track-wheel)
 obsolete.
+
+## FFB Gain
+
+For users with force-feedback sticks, this setting can be used to adjust the
+gain of the forces per axis.
+
+The default setting is 100% for Roll and Pitch axis. Greater values will
+increase the force used by the stick, while smaller values will decrease it.
