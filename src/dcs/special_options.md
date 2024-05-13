@@ -48,12 +48,17 @@ generated, having this activated will scale down the generated force to improve
 handling precision, but also can help to prevent accidentally pulling extreme
 Gs.
 
-## Roll Breakout Point
+## AFCS Breakout Deadzone
 
 Percentage of stick input after which the AFCS system will recognize the pilot
 stick was moved from neutral trim position (force transducer switches closed).
-This will affect the AFCS roll channel operation and prevent it from fighting
-your roll input. For more info see
+
+This will affect the AFCS roll and pitch channel operation and prevent it from
+fighting your roll input. That is, when moving the stick beyond this deadzone,
+the AFCS understands that the pilot wants to take control and the AFCS will stop
+trying to correct the movement.
+
+For more info see
 [Force Transducer](../systems/flight_controls_gear/flight_controls.md#force-transducer).
 
 ## Afterburner Detent
