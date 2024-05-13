@@ -23,5 +23,3 @@
 [PDF 版本](https://github.com/Heatblur-Simulations/f-4e-manual/releases),
 嵌入游戏内离线网页或开源项目 [GitHub](https://github.com/Heatblur-Simulations/f-4e-manual) 方式查看。
 <!-- markdown-link-check-enable -->
-
-> 🚧 手册 **正在施工中** 。
