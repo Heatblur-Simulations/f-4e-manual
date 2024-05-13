@@ -193,3 +193,56 @@ The DIM knob (<num>12</num>) on the ALR-46 control panel manages the brightness 
 illuminated
 control buttons; turning the knob clockwise increases the brightness, counter-clockwise reduces the
 brightness.
+
+## Symbology
+
+The ALR-46 features a limited number of symbols for the different radar threats. The following
+symbols can stand for the different threats.
+
+| Symbol                                                                                                         | Threat |
+|----------------------------------------------------------------------------------------------------------------|--------|
+| ![rwr_one_symbol.jpg](../../img/rwr_one_symbol.jpg)                                                            |        |
+| ![rwr_two_symbol.jpg](../../img/rwr_two_symbol.jpg)                                                            |        |
+| ![rwr_two_slashed_symbol.jpg](../../img/rwr_two_slashed_symbol.jpg)                                            |        |
+| ![rwr_three_symbol.jpg](../../img/rwr_three_symbol.jpg)                                                        |        |
+| ![rwr_four_symbol.jpg](../../img/rwr_four_symbol.jpg)                                                          |        |
+| ![rwr_five_symbol.jpg](../../img/rwr_five_symbol.jpg)                                                          |        |
+| ![rwr_six_symbol.jpg](../../img/rwr_six_symbol.jpg)                                                            |        |
+| ![rwr_seven_symbol.jpg](../../img/rwr_seven_symbol.jpg)                                                        |        |
+| ![rwr_eight_symbol.jpg](../../img/rwr_eight_symbol.jpg)                                                        |        |
+| ![rwr_eight_slashed.jpg](../../img/rwr_eight_slashed.jpg)                                                      |        |
+| ![rwr_nine_symbol.jpg](../../img/rwr_nine_symbol.jpg)                                                          |        |
+| ![rwr_ten_symbol.jpg](../../img/rwr_ten_symbol.jpg)                                                            |        |
+| ![rwr_eleven_symbol.jpg](../../img/rwr_eleven_symbol.jpg)                                                      |        |
+| ![rwr_twelve_symbol.jpg](../../img/rwr_twelve_symbol.jpg)                                                      |        |
+| ![rwr_15_symbol.jpg](../../img/rwr_15_symbol.jpg)                                                              |        |
+| ![rwr_15_slashed_symbol.jpg](../../img/rwr_15_slashed_symbol.jpg)                                              |        |
+| ![rwr_19_symbol.jpg](../../img/rwr_19_symbol.jpg)                                                              |        |
+| ![rwr_19_slashed_symbol.jpg](../../img/rwr_19_slashed_symbol.jpg)                                              |        |
+| ![rwr_a_symbol.jpg](../../img/rwr_a_symbol.jpg)                                                                |        |
+| ![rwr_a_one_dot_symbol.jpg](../../img/rwr_a_one_dot_symbol.jpg) |        |
+| ![rwr_a_two_dot_symbol.jpg](../../img/rwr_a_two_dot_symbol.jpg)                                                |        |
+| ![rwr_a_three_dot_symbol.jpg](../../img/rwr_a_three_dot_symbol.jpg)                                            |        |
+| ![rwr_c_symbol.jpg](../../img/rwr_c_symbol.jpg)                                                                |        |
+| ![rwr_c_slashed_symbol.jpg](../../img/rwr_c_slashed_symbol.jpg)                                                |        |
+| ![rwr_e_symbol.jpg](../../img/rwr_e_symbol.jpg)                                                                |        |
+| ![rwr_f_symbol.jpg](../../img/rwr_f_symbol.jpg)                                                                |        |
+| ![rwr_g_symbol.jpg](../../img/rwr_g_symbol.jpg)                                                                |        |
+| ![rwr_h_symbol.jpg](../../img/rwr_h_symbol.jpg)                                                                |        |
+| ![rwr_l_symbol.jpg](../../img/rwr_l_symbol.jpg)                                                                |        |
+| ![rwr_r_symbol.jpg](../../img/rwr_r_symbol.jpg)                                                                |        |
+| ![rwr_p_slashed_symbol.jpg](../../img/rwr_p_slashed_symbol.jpg)                                                |        |
+| ![rwr_r_symbol.jpg](../../img/rwr_r_symbol.jpg)                                                                |        |
+| ![rwr_s_symbol.jpg](../../img/rwr_s_symbol.jpg)                                                                |        |
+| ![rwr_t_symbol.jpg](../../img/rwr_t_symbol.jpg)                                                                |        |
+| ![rwr_u_one_dot_symbol.jpg](../../img/rwr_u_one_dot_symbol.jpg)                                                |        |
+| ![rwr_u_two_dot_symbol.jpg](../../img/rwr_u_two_dot_symbol.jpg)                                                |        |
+| ![rwr_u_three_dot_symbol.jpg](../../img/rwr_u_three_dot_symbol.jpg)                                            |        |
+| ![rwr_ship_symbol.jpg](../../img/rwr_ship_symbol.jpg)                                                          |        |
+| ![rwr_flat_triangle_symbol.jpg](../../img/rwr_flat_triangle_symbol.jpg)                                        |        |
+| ![rwr_triangle_symbol.jpg](../../img/rwr_triangle_symbol.jpg)                                                  |        |
+| ![rwr_two_triangle_symbol.jpg](../../img/rwr_two_triangle_symbol.jpg)                                          |        |
+| ![rwr_half_circle_symbol.jpg](../../img/rwr_half_circle_symbol.jpg)                                            |        |
+| ![rwr_two_dots_symbol.jpg](../../img/rwr_two_dots_symbol.jpg)                                                  |        |
+| ![rwr_dot_symbol.jpg](../../img/rwr_dot_symbol.jpg)                                                            |        |
+| ![rwr_half_line_circle_symbol.jpg](../../img/rwr_half_line_circle_symbol.jpg)                                  |        |
