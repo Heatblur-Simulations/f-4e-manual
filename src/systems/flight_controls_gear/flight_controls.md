@@ -76,7 +76,7 @@ a number of weapon selection functions.
 
 Also, unique to the front cockpit stick is a force transducer, to allow the pilot
 fine adjustment control of the AFCS with the autopilot functionality engaged. In the event the force
-applied to the stick exceeds the AFCS breakout limit, autopilot will be turned off.
+applied to the stick exceeds the AFCS breakout limit, autopilot will be temporarily turned off.
 
 ## Aileron-Spoiler Control and Stabilator Control Feel and Trim Systems
 

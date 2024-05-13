@@ -50,13 +50,24 @@ Gs.
 
 ## AFCS Breakout Deadzone
 
-Percentage of stick input after which the AFCS system will recognize the pilot
-stick was moved from neutral trim position (force transducer switches closed).
+Percentage of stick input (separate for roll and pitch) after which the AFCS
+system will recognize the pilot stick was moved from neutral trim position
+(force transducer switches closed).
 
 This will affect the AFCS roll and pitch channel operation and prevent it from
-fighting your roll input. That is, when moving the stick beyond this deadzone,
+fighting your input. That is, when moving the stick beyond this deadzone,
 the AFCS understands that the pilot wants to take control and the AFCS will stop
-trying to correct the movement.
+trying to correct the movement. The roll breakout will temporarily disable the
+roll stab aug as well as bank angle hold and heading hold. The pitch breakout
+will temporarily disable the pitch attitude hold as well altitude hold.
+
+This deadzone is "on top" of the DCS axis deadzone so the higher basic deadzone you
+have on your axis the less AFCS breakout deadzone is recommended. Keep in mind that
+setting low values while having your basic deadzone also low can result in some of
+the autopilot functions not engaging even when you let go of the stick because
+the stick may still be not perfectly neutral.
+
+Default values are 1% for roll and 2% for pitch.
 
 For more info see
 [Force Transducer](../systems/flight_controls_gear/flight_controls.md#force-transducer).
