@@ -34,7 +34,7 @@ requirements.
 Available TV guided bombs include:
 
 | Variant              | Warhead | Description               |
-|----------------------|--------:|---------------------------|
+| -------------------- | ------: | ------------------------- |
 | AGM-62 Walleye I     | 1000 lb |                           |
 | AGM-62 Walleye II ER | 2000 lb | extended range            |
 | GBU-8 HOBOS          | 2000 lb |                           |
@@ -42,8 +42,14 @@ Available TV guided bombs include:
 
 ## Employment
 
-After the three-minute warmup either bomb is released by, selecting the corresponding stations,
-putting the Weapon Selector to TV and the Delivery Mode Knob to DIRECT.
+During the three-minute warmup period, it is helpful to set the optical sight to
+A/G mode, and enter a depression of **17 mils**, so that the sight alignment be
+that of the missile seeker. This way, the pilot can put the target on the pipper
+and it will be within the weapons view.
+
+After the warmup either bomb is released by, selecting the corresponding
+stations, putting the Weapon Selector to TV and the Delivery Mode Knob to
+DIRECT.
 
 Enable the TV mode for the DSCG screen and press the trigger. This activates the
 sensor and video feed will be displayed on the screen.
@@ -70,8 +76,9 @@ head position.
 
 Then, press and hold the bomb button for a few seconds to release the weapon.
 
-> 💡 Effective range varies a lot with release altitude and speed. The release mechanism does not
-> check if the ordnance is within parameters. To reduce the risk of the weapon missing its target,
-> prefer launching it from increased altitude and speed.
+> 💡 Effective range varies a lot with release altitude and speed. The release
+> mechanism does not check if the ordnance is within parameters. To reduce the
+> risk of the weapon missing its target, prefer launching it from increased
+> altitude and speed.
 
 ![HOBOS Release](../../../img/hobos_release.jpg)
