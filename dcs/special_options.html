@@ -280,7 +280,8 @@ altitude, similar as seen in civilian aviation.</p>
 <blockquote>
 <p>💡 Real Phantom WSOs did not assist during landing.</p>
 </blockquote>
-<h2 id="hb-ui-resolution-override"><a class="header" href="#hb-ui-resolution-override">HB UI Resolution Override</a></h2>
+<h2 id="hb-ui"><a class="header" href="#hb-ui">HB UI</a></h2>
+<h3 id="resolution-override"><a class="header" href="#resolution-override">Resolution Override</a></h3>
 <p>User interface elements, such as the Jester Wheel, the manual, virtual browser
 and others are scaled and positioned via a fixed resolution that must match the
 resolution of the in-game surface they are rendered on.</p>
@@ -291,6 +292,15 @@ incorrect resolution.</p>
 <p>Should UI elements be misplaced, for example the Jester Wheel not being centered
 or even cut off, check this setting and edit the resolution manually until the
 UI is displayed properly.</p>
+<h3 id="offset"><a class="header" href="#offset">Offset</a></h3>
+<p>Allows to horizontally displace the UI. Positive values shift it to the right,
+negative values to the left.</p>
+<p>Normally, this should be kept at the default value of 0 px. However, in certain
+cases (e.g. when using VR and setting it to render on the LEFT or RIGHT eye,
+while having the checkbox for <em>"Use DCS System Resolution"</em> not checked) it is
+possible that the UI gets cut off. This setting then allows to move the UI back
+into view, but therefore giving up proper alignment on the UI, such as the
+Jester UI being centered on the screen.</p>
 <h2 id="jester-ui"><a class="header" href="#jester-ui">Jester UI</a></h2>
 <h3 id="allow-mouse-controls"><a class="header" href="#allow-mouse-controls">Allow Mouse Controls</a></h3>
 <p>When checked, the Jester UI allows interaction with the mouse moving it over
