@@ -2944,7 +2944,7 @@ between the two.</p>
 <p>A Trim Control (<num>1</num>) is found on both sticks to provide force reduction
 and minor flight path correction in the pitch and roll axis.</p>
 <h3 id="trigger-and-bomb-button"><a class="header" href="#trigger-and-bomb-button">Trigger and Bomb Button</a></h3>
-<p>Weapons are deliverable through both a 2-stage Trigger (<num>3</num>) (for
+<p>Weapons are deliverable through both a trigger switch (<num>3</num>) (for
 air-to-air missiles and the gun) and a Bomb Release Button (<num>2</num>).</p>
 <p>The first stage of the trigger activates the gun camera for recording forward
 footage.</p>
@@ -9409,12 +9409,11 @@ the brightness, counter-clockwise lowers the brightness.</p>
 rotary knobs for controlling the system's volume and panel brightness.</p>
 <h3 id="priorityopen"><a class="header" href="#priorityopen">Priority/Open</a></h3>
 <p>The ALR-46 defaults on power-up to OPEN mode (<num>1</num>), which presents up to 16 threats on the
-display at
-one time, depending on how many emitters are visible and current system settings (Search, LOW ALT,
-etc.). In the event the crew requires immediate prioritization of the most pressing threats in a
-saturated environment, the PRIORITY button can be pressed to display the five emitters the system
-deems the most dangerous. When pressed, the OPEN illumination will swap to the PRIORITY position,
-and revert back upon selection back to OPEN.</p>
+display atone time, depending on how many emitters are visible and current system settings (Search,
+LOW ALT, etc.). In the event the crew requires immediate prioritization of the most pressing threats
+in a saturated environment, the PRIORITY button can be pressed to display the five emitters the
+system deems the most dangerous. When pressed, the OPEN illumination will swap to the PRIORITY
+position, and revert back upon selection back to OPEN.</p>
 <h3 id="s-search"><a class="header" href="#s-search">S (Search)</a></h3>
 <p>By default, the ALR-46 is programmed to prioritize and display emitters tied to weapons that can
 engage and destroy the aircraft. However, missions will require monitoring of early warning and
@@ -9460,11 +9459,10 @@ and is confirmed as the active mode with the illuminated LOW ALT descriptor on t
 <h3 id="target-separate-tgt-sep"><a class="header" href="#target-separate-tgt-sep">Target Separate (TGT SEP)</a></h3>
 <p>In the event of a number of emitters being detected at such close proximity that the symbology
 overlaps on the RWR display, the Target Separation button (<num>7</num>) provides the option to
-expand
-symbology on the display from emitters in the same area to allow for clarity on the type and number
-of radars being detected. Pressing the button triggers the lower TGT SEP illumination on the button,
-and any emitter groups the system defines as being eligible for the expanded presentation will do so
-for three seconds on the RWR display before reverting back to the standard view.</p>
+expand symbology on the display from emitters in the same area to allow for clarity on the type and
+number of radars being detected. Pressing the button triggers the lower TGT SEP illumination on the
+button, and any emitter groups the system defines as being eligible for the expanded presentation
+will do so for three seconds on the RWR display before reverting back to the standard view.</p>
 <h3 id="system-test-onsys-test"><a class="header" href="#system-test-onsys-test">System Test (ON/SYS TEST)</a></h3>
 <p>The system power on test (<num>8</num>) provides a three band (1 low, 2 mid, 3 high) check in all
 four quadrants for proper sensitivity, along with an angle confirmation of 225 degree
@@ -9475,9 +9473,8 @@ accompanied with a sequence of tones for adjustment of audio monitoring level.</
 <h3 id="unknown-u"><a class="header" href="#unknown-u">Unknown (U)</a></h3>
 <p>When an emitter is detected that does not have a catalog entry, but is recognized by received power,
 duration, and pulse as being a possible threat, the U indicator on the Unknown button (<num>9</num>)
-will
-flash. Pressing the button will provide a U symbol on the RWR CRT at the correct azimuth position
-for reference and monitoring.</p>
+will flash. Pressing the button will provide a U symbol on the RWR CRT at the correct azimuth
+position for reference and monitoring.</p>
 <p>The default condition of the Unknown button is with the U symbol illuminated, but steady.</p>
 <h3 id="activity-power"><a class="header" href="#activity-power">Activity Power</a></h3>
 <p>In the event SAM guidance commands are detected, the ACTIVITY button (<num>10</num>) will
@@ -9517,10 +9514,63 @@ ALR-46. Turning
 the knob clockwise increases the audio volume, turning counter-clockwise lowers the audio volume.</p>
 <h3 id="dim-knob-dimmer"><a class="header" href="#dim-knob-dimmer">DIM Knob (Dimmer)</a></h3>
 <p>The DIM knob (<num>12</num>) on the ALR-46 control panel manages the brightness setting of the
-illuminated
-control buttons; turning the knob clockwise increases the brightness, counter-clockwise reduces the
-brightness.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="electronic-countermeasure"><a class="header" href="#electronic-countermeasure">Electronic Countermeasure</a></h1>
+illuminated control buttons; turning the knob clockwise increases the brightness, counter-clockwise
+reduces the brightness.</p>
+<h2 id="symbology-1"><a class="header" href="#symbology-1">Symbology</a></h2>
+<p>The ALR-46 features a limited number of symbols for the different radar threats. The following
+symbols can stand for the different threats. The ALR-46 can save up to three files containing threat
+tables. Those three files contain either a Training set, a Land or a Sea set. The Training file is
+not in use at the moment. The land file contains all land and air based threats while the sea file
+contains all sea and air based threats. The Pilot can switch between the training and land file by
+simply pressing the SYS TEST (<num>8</num>) and within a one second timespan press the TGT
+SEP (<num>7</num>) button. A T symbol will be displayed within the lower portion of azimuth when the
+training file is selected. To switch to the sea file simply press the SYS TEST (<num>8</num>) button
+and within a one second timespan press the Unknown (<num>9</num>) button. When the sea file is
+selected a ship symbol will be displayed in the lower half of azimuth.</p>
+<h3 id="land-and-air-based-threats"><a class="header" href="#land-and-air-based-threats">Land and Air based Threats</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Symbol</th><th>Possible threat</th></tr></thead><tbody>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_two_symbol.jpg" alt="rwr_two_symbol.jpg" /></td><td>SA-2 S-75 "Fan Song" TR</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_two_slashed_symbol.jpg" alt="rwr_two_slashed_symbol.jpg" /></td><td>SA-2 S-75 RD-75 Amazonka RF</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_three_symbol.jpg" alt="rwr_three_symbol.jpg" /></td><td>SA-3 S-125 "Low Blow" TR</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_five_symbol.jpg" alt="rwr_five_symbol.jpg" /></td><td>SA-5 S-200 "Square Pair" TR</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_six_symbol.jpg" alt="rwr_six_symbol.jpg" /></td><td>SA-6 Kub "Straight Flush" TR</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_seven_symbol.jpg" alt="rwr_seven_symbol.jpg" /></td><td>HQ-7 TR</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_eight_symbol.jpg" alt="rwr_eight_symbol.jpg" /></td><td>Osa 9A33 ln</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_ten_symbol.jpg" alt="rwr_ten_symbol.jpg" /></td><td>SA-10 S-300PS "Flap Lid"</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_eleven_symbol.jpg" alt="rwr_eleven_symbol.jpg" /></td><td>SA-11 9K37 Buk</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_15_symbol.jpg" alt="rwr_15_symbol.jpg" /></td><td>SA-15 9K331 Tor</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_19_symbol.jpg" alt="rwr_19_symbol.jpg" /></td><td>SA-19 2k22M Tunguska</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_a_symbol.jpg" alt="rwr_a_symbol.jpg" /></td><td>ZSU-23-4 Shilka</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_a_one_dot_symbol.jpg" alt="rwr_a_one_dot_symbol.jpg" /></td><td>Fire Can SON-9</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_a_three_dot_symbol.jpg" alt="rwr_a_three_dot_symbol.jpg" /></td><td>Gepard, C-RAM Phalanx</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_h_symbol.jpg" alt="rwr_h_symbol.jpg" /></td><td>MIM-23 Hawk</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_p_slashed_symbol.jpg" alt="rwr_p_slashed_symbol.jpg" /></td><td>MIM-104 Patriot</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_r_symbol.jpg" alt="rwr_r_symbol.jpg" /></td><td>Rapier, Roland</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_s_symbol.jpg" alt="rwr_s_symbol.jpg" /></td><td>SA-6 Kub "Straight Flush" SR, Roland SR, C-Ram Phalanx SR, PPRU-1 "Dog Ear", HQ-7 SR, Hawk CWAR, NASAMS, Rapier Dagger, SA-11 Snow Drift, SA-10 "Big Bird", S-300PS 40B6MD SR</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_flat_triangle_symbol.jpg" alt="rwr_flat_triangle_symbol.jpg" /></td><td>E-2D Hawkeye, E-3C Sentry, A-50</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_triangle_symbol.jpg" alt="rwr_triangle_symbol.jpg" /></td><td>F-14, F-15C, F-15E, F-16, F-18C, JF-17, M-2000C, Mig-29, SU-27, MiG-31, Tornado IDS/GR4</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_two_triangle_symbol.jpg" alt="rwr_two_triangle_symbol.jpg" /></td><td>F-1, AJS-37, F-4E, MiG-19, MiG-21, MiG-23, F-5E-3</td></tr>
+</tbody></table>
+</div>
+<h3 id="sea-and-air-based-threats"><a class="header" href="#sea-and-air-based-threats">Sea and Air based Threats</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Symbol</th><th>Possible threat</th></tr></thead><tbody>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_four_symbol.jpg" alt="rwr_four_symbol.jpg" /></td><td>Rezky, Albatros</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_six_symbol.jpg" alt="rwr_six_symbol.jpg" /></td><td>Battlecruiser Pyotr Velikiy, Cruiser Moskva, Type 052C Destroyer</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_seven_symbol.jpg" alt="rwr_seven_symbol.jpg" /></td><td>Type 054A Frigate, Type 052B Destroyer</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_nine_symbol.jpg" alt="rwr_nine_symbol.jpg" /></td><td>Frigate Neustrashimy, CV 1143.5 Kuznetsov</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_a_one_dot_symbol.jpg" alt="rwr_a_one_dot_symbol.jpg" /></td><td>La Combattante II</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_a_two_dot_symbol.jpg" alt="rwr_a_two_dot_symbol.jpg" /></td><td>Type 071, Leander Class</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_a_three_dot_symbol.jpg" alt="rwr_a_three_dot_symbol.jpg" /></td><td>Ropucha Class</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_c_symbol.jpg" alt="rwr_c_symbol.jpg" /></td><td>CVN-71 Theodore Roosevelt, CVN-72 Abraham Lincoln, CVN-73 George Washington, CVN-74 John C Stennis, CVN-75 Harry S. Truman, USS Forrestral, LHA Tarrawa</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_g_symbol.jpg" alt="rwr_g_symbol.jpg" /></td><td>O.H. Perry</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_l_symbol.jpg" alt="rwr_l_symbol.jpg" /></td><td>Leander Class</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_p_slashed_symbol.jpg" alt="rwr_p_slashed_symbol.jpg" /></td><td>Ticonderoga, USS Arleigh Burke</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_s_symbol.jpg" alt="rwr_s_symbol.jpg" /></td><td>Rezky Head Net SR, Neustrashimy SR, Invincible SR, Leander SR, Slava Class SR, Kuznetsov SR, Ropucha SR</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_flat_triangle_symbol.jpg" alt="rwr_flat_triangle_symbol.jpg" /></td><td>E-2D Hawkeye, E-3C Sentry, A-50</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_triangle_symbol.jpg" alt="rwr_triangle_symbol.jpg" /></td><td>F-14, F-15C, F-15E, F-16, F-18C, JF-17, M-2000C, Mig-29, SU-27, MiG-31, Tornado IDS/GR4</td></tr>
+<tr><td><img src="systems/defensive_systems/../../img/rwr_two_triangle_symbol.jpg" alt="rwr_two_triangle_symbol.jpg" /></td><td>F-1, AJS-37, F-4E, MiG-19, MiG-21, MiG-23, F-5E-3</td></tr>
+</tbody></table>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="electronic-countermeasure"><a class="header" href="#electronic-countermeasure">Electronic Countermeasure</a></h1>
 <p>The Phantom can be equipped with ECM pods capable of jamming radar signals to
 protect it from getting tracked by other aircraft or radar guided missiles.</p>
 <p>During its service, it saw a number of pods with different capabilities.</p>
@@ -11553,7 +11603,7 @@ pilot.</p>
 at any time through the UI (this action can also be bound directly to a key).
 Should the situation require, the player can manually set a zone for Jester to
 scan outside of his regular pattern through the UI.</p>
-<p><img src="jester/combat/../../img/jradar_select_zone.jpg" alt="Select Scan Zone" /></p>
+<p><img src="jester/combat/../../img/f4_jester_scan_zones.jpg" alt="Select Scan Zone" /></p>
 <p>He will then scan this zone for a while first before proceeding back to his
 regular pattern.</p>
 <p>Likewise, the display range and scan type (wide or narrow) to be used during
