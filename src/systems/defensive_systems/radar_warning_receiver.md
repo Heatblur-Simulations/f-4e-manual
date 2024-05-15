@@ -49,12 +49,11 @@ rotary knobs for controlling the system's volume and panel brightness.
 ### Priority/Open
 
 The ALR-46 defaults on power-up to OPEN mode (<num>1</num>), which presents up to 16 threats on the
-display at
-one time, depending on how many emitters are visible and current system settings (Search, LOW ALT,
-etc.). In the event the crew requires immediate prioritization of the most pressing threats in a
-saturated environment, the PRIORITY button can be pressed to display the five emitters the system
-deems the most dangerous. When pressed, the OPEN illumination will swap to the PRIORITY position,
-and revert back upon selection back to OPEN.
+display atone time, depending on how many emitters are visible and current system settings (Search,
+LOW ALT, etc.). In the event the crew requires immediate prioritization of the most pressing threats
+in a saturated environment, the PRIORITY button can be pressed to display the five emitters the
+system deems the most dangerous. When pressed, the OPEN illumination will swap to the PRIORITY
+position, and revert back upon selection back to OPEN.
 
 ### S (Search)
 
@@ -114,11 +113,10 @@ and is confirmed as the active mode with the illuminated LOW ALT descriptor on t
 
 In the event of a number of emitters being detected at such close proximity that the symbology
 overlaps on the RWR display, the Target Separation button (<num>7</num>) provides the option to
-expand
-symbology on the display from emitters in the same area to allow for clarity on the type and number
-of radars being detected. Pressing the button triggers the lower TGT SEP illumination on the button,
-and any emitter groups the system defines as being eligible for the expanded presentation will do so
-for three seconds on the RWR display before reverting back to the standard view.
+expand symbology on the display from emitters in the same area to allow for clarity on the type and
+number of radars being detected. Pressing the button triggers the lower TGT SEP illumination on the
+button, and any emitter groups the system defines as being eligible for the expanded presentation
+will do so for three seconds on the RWR display before reverting back to the standard view.
 
 ### System Test (ON/SYS TEST)
 
@@ -133,9 +131,8 @@ accompanied with a sequence of tones for adjustment of audio monitoring level.
 
 When an emitter is detected that does not have a catalog entry, but is recognized by received power,
 duration, and pulse as being a possible threat, the U indicator on the Unknown button (<num>9</num>)
-will
-flash. Pressing the button will provide a U symbol on the RWR CRT at the correct azimuth position
-for reference and monitoring.
+will flash. Pressing the button will provide a U symbol on the RWR CRT at the correct azimuth
+position for reference and monitoring.
 
 The default condition of the Unknown button is with the U symbol illuminated, but steady.
 
@@ -190,59 +187,53 @@ the knob clockwise increases the audio volume, turning counter-clockwise lowers 
 ### DIM Knob (Dimmer)
 
 The DIM knob (<num>12</num>) on the ALR-46 control panel manages the brightness setting of the
-illuminated
-control buttons; turning the knob clockwise increases the brightness, counter-clockwise reduces the
-brightness.
+illuminated control buttons; turning the knob clockwise increases the brightness, counter-clockwise
+reduces the brightness.
 
 ## Symbology
 
 The ALR-46 features a limited number of symbols for the different radar threats. The following
 symbols can stand for the different threats.
 
-| Symbol                                                                                                         | Threat |
-|----------------------------------------------------------------------------------------------------------------|--------|
-| ![rwr_one_symbol.jpg](../../img/rwr_one_symbol.jpg)                                                            |        |
-| ![rwr_two_symbol.jpg](../../img/rwr_two_symbol.jpg)                                                            |        |
-| ![rwr_two_slashed_symbol.jpg](../../img/rwr_two_slashed_symbol.jpg)                                            |        |
-| ![rwr_three_symbol.jpg](../../img/rwr_three_symbol.jpg)                                                        |        |
-| ![rwr_four_symbol.jpg](../../img/rwr_four_symbol.jpg)                                                          |        |
-| ![rwr_five_symbol.jpg](../../img/rwr_five_symbol.jpg)                                                          |        |
-| ![rwr_six_symbol.jpg](../../img/rwr_six_symbol.jpg)                                                            |        |
-| ![rwr_seven_symbol.jpg](../../img/rwr_seven_symbol.jpg)                                                        |        |
-| ![rwr_eight_symbol.jpg](../../img/rwr_eight_symbol.jpg)                                                        |        |
-| ![rwr_eight_slashed.jpg](../../img/rwr_eight_slashed.jpg)                                                      |        |
-| ![rwr_nine_symbol.jpg](../../img/rwr_nine_symbol.jpg)                                                          |        |
-| ![rwr_ten_symbol.jpg](../../img/rwr_ten_symbol.jpg)                                                            |        |
-| ![rwr_eleven_symbol.jpg](../../img/rwr_eleven_symbol.jpg)                                                      |        |
-| ![rwr_twelve_symbol.jpg](../../img/rwr_twelve_symbol.jpg)                                                      |        |
-| ![rwr_15_symbol.jpg](../../img/rwr_15_symbol.jpg)                                                              |        |
-| ![rwr_15_slashed_symbol.jpg](../../img/rwr_15_slashed_symbol.jpg)                                              |        |
-| ![rwr_19_symbol.jpg](../../img/rwr_19_symbol.jpg)                                                              |        |
-| ![rwr_19_slashed_symbol.jpg](../../img/rwr_19_slashed_symbol.jpg)                                              |        |
-| ![rwr_a_symbol.jpg](../../img/rwr_a_symbol.jpg)                                                                |        |
-| ![rwr_a_one_dot_symbol.jpg](../../img/rwr_a_one_dot_symbol.jpg) |        |
-| ![rwr_a_two_dot_symbol.jpg](../../img/rwr_a_two_dot_symbol.jpg)                                                |        |
-| ![rwr_a_three_dot_symbol.jpg](../../img/rwr_a_three_dot_symbol.jpg)                                            |        |
-| ![rwr_c_symbol.jpg](../../img/rwr_c_symbol.jpg)                                                                |        |
-| ![rwr_c_slashed_symbol.jpg](../../img/rwr_c_slashed_symbol.jpg)                                                |        |
-| ![rwr_e_symbol.jpg](../../img/rwr_e_symbol.jpg)                                                                |        |
-| ![rwr_f_symbol.jpg](../../img/rwr_f_symbol.jpg)                                                                |        |
-| ![rwr_g_symbol.jpg](../../img/rwr_g_symbol.jpg)                                                                |        |
-| ![rwr_h_symbol.jpg](../../img/rwr_h_symbol.jpg)                                                                |        |
-| ![rwr_l_symbol.jpg](../../img/rwr_l_symbol.jpg)                                                                |        |
-| ![rwr_r_symbol.jpg](../../img/rwr_r_symbol.jpg)                                                                |        |
-| ![rwr_p_slashed_symbol.jpg](../../img/rwr_p_slashed_symbol.jpg)                                                |        |
-| ![rwr_r_symbol.jpg](../../img/rwr_r_symbol.jpg)                                                                |        |
-| ![rwr_s_symbol.jpg](../../img/rwr_s_symbol.jpg)                                                                |        |
-| ![rwr_t_symbol.jpg](../../img/rwr_t_symbol.jpg)                                                                |        |
-| ![rwr_u_one_dot_symbol.jpg](../../img/rwr_u_one_dot_symbol.jpg)                                                |        |
-| ![rwr_u_two_dot_symbol.jpg](../../img/rwr_u_two_dot_symbol.jpg)                                                |        |
-| ![rwr_u_three_dot_symbol.jpg](../../img/rwr_u_three_dot_symbol.jpg)                                            |        |
-| ![rwr_ship_symbol.jpg](../../img/rwr_ship_symbol.jpg)                                                          |        |
-| ![rwr_flat_triangle_symbol.jpg](../../img/rwr_flat_triangle_symbol.jpg)                                        |        |
-| ![rwr_triangle_symbol.jpg](../../img/rwr_triangle_symbol.jpg)                                                  |        |
-| ![rwr_two_triangle_symbol.jpg](../../img/rwr_two_triangle_symbol.jpg)                                          |        |
-| ![rwr_half_circle_symbol.jpg](../../img/rwr_half_circle_symbol.jpg)                                            |        |
-| ![rwr_two_dots_symbol.jpg](../../img/rwr_two_dots_symbol.jpg)                                                  |        |
-| ![rwr_dot_symbol.jpg](../../img/rwr_dot_symbol.jpg)                                                            |        |
-| ![rwr_half_line_circle_symbol.jpg](../../img/rwr_half_line_circle_symbol.jpg)                                  |        |
+### Land and Air based Threats
+
+| Symbol                                                                  | Possible threat                                                                                                                                                               |
+|-------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![rwr_two_symbol.jpg](../../img/rwr_two_symbol.jpg)                     | SA-2 S-75 "Fan Song" TR                                                                                                                                                       |
+| ![rwr_two_slashed_symbol.jpg](../../img/rwr_two_slashed_symbol.jpg)     | SA-2 S-75 RD-75 Amazonka RF                                                                                                                                                   |
+| ![rwr_three_symbol.jpg](../../img/rwr_three_symbol.jpg)                 | SA-3 S-125 "Low Blow" TR                                                                                                                                                      |
+| ![rwr_five_symbol.jpg](../../img/rwr_five_symbol.jpg)                   | SA-5 S-200 "Square Pair" TR                                                                                                                                                   |
+| ![rwr_six_symbol.jpg](../../img/rwr_six_symbol.jpg)                     | SA-6 Kub "Straight Flush" TR                                                                                                                                                  |
+| ![rwr_seven_symbol.jpg](../../img/rwr_seven_symbol.jpg)                 | HQ-7 TR                                                                                                                                                                       |
+| ![rwr_eight_symbol.jpg](../../img/rwr_eight_symbol.jpg)                 | Osa 9A33 ln                                                                                                                                                                   |
+| ![rwr_ten_symbol.jpg](../../img/rwr_ten_symbol.jpg)                     | SA-10 S-300PS "Flap Lid"                                                                                                                                                      |
+| ![rwr_eleven_symbol.jpg](../../img/rwr_eleven_symbol.jpg)               | SA-11 9K37 Buk                                                                                                                                                                |
+| ![rwr_15_symbol.jpg](../../img/rwr_15_symbol.jpg)                       | SA-15 9K331 Tor                                                                                                                                                               |
+| ![rwr_19_symbol.jpg](../../img/rwr_19_symbol.jpg)                       | SA-19 2k22M Tunguska                                                                                                                                                          |
+| ![rwr_a_symbol.jpg](../../img/rwr_a_symbol.jpg)                         | ZSU-23-4 Shilka                                                                                                                                                               |
+| ![rwr_a_one_dot_symbol.jpg](../../img/rwr_a_one_dot_symbol.jpg)         | Fire Can SON-9                                                                                                                                                                |
+| ![rwr_a_three_dot_symbol.jpg](../../img/rwr_a_three_dot_symbol.jpg)     | Gepard, C-RAM Phalanx                                                                                                                                                         |
+| ![rwr_h_symbol.jpg](../../img/rwr_h_symbol.jpg)                         | MIM-23 Hawk                                                                                                                                                                   |
+| ![rwr_p_slashed_symbol.jpg](../../img/rwr_p_slashed_symbol.jpg)         | MIM-104 Patriot                                                                                                                                                               |
+| ![rwr_r_symbol.jpg](../../img/rwr_r_symbol.jpg)                         | Rapier, Roland                                                                                                                                                                |
+| ![rwr_s_symbol.jpg](../../img/rwr_s_symbol.jpg)                         | SA-6 Kub "Straight Flush" SR, Roland SR, C-Ram Phalanx SR, PPRU-1 "Dog Ear", HQ-7 SR, Hawk CWAR, NASAMS, Rapier Dagger, SA-11 Snow Drift, SA-10 "Big Bird", S-300PS 40B6MD SR |
+| ![rwr_flat_triangle_symbol.jpg](../../img/rwr_flat_triangle_symbol.jpg) | E-2D Hawkeye, E-3C Sentry, A-50                                                                                                                                               |
+| ![rwr_triangle_symbol.jpg](../../img/rwr_triangle_symbol.jpg)           | F-14, F-15C, F-15E, F-16, F-18C, JF-17, M-2000C, Mig-29, SU-27, MiG-31, Tornado IDS/GR4                                                                                       |
+| ![rwr_two_triangle_symbol.jpg](../../img/rwr_two_triangle_symbol.jpg)   | F-1, AJS-37, F-4E, MiG-19, MiG-21, MiG-23, F-5E-3                                                                                                                             |
+
+### Sea based Threats
+
+| Symbol                                                              | Possible threat                                                                                                                                         |
+|---------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![rwr_four_symbol.jpg](../../img/rwr_four_symbol.jpg)               | Rezky, Albatros                                                                                                                                         |
+| ![rwr_six_symbol.jpg](../../img/rwr_six_symbol.jpg)                 | Battlecruiser Pyotr Velikiy, Cruiser Moskva, Type 052C Destroyer                                                                                        |
+| ![rwr_seven_symbol.jpg](../../img/rwr_seven_symbol.jpg)             | Type 054A Frigate, Type 052B Destroyer                                                                                                                  |
+| ![rwr_nine_symbol.jpg](../../img/rwr_nine_symbol.jpg)               | Frigate Neustrashimy, CV 1143.5 Kuznetsov                                                                                                               |
+| ![rwr_a_one_dot_symbol.jpg](../../img/rwr_a_one_dot_symbol.jpg)     | La Combattante II                                                                                                                                       |
+| ![rwr_a_two_dot_symbol.jpg](../../img/rwr_a_two_dot_symbol.jpg)     | Type 071, Leander Class                                                                                                                                 |
+| ![rwr_a_three_dot_symbol.jpg](../../img/rwr_a_three_dot_symbol.jpg) | Ropucha Class                                                                                                                                           |
+| ![rwr_c_symbol.jpg](../../img/rwr_c_symbol.jpg)                     | CVN-71 Theodore Roosevelt, CVN-72 Abraham Lincoln, CVN-73 George Washington, CVN-74 John C Stennis, CVN-75 Harry S. Truman, USS Forrestral, LHA Tarrawa |
+| ![rwr_g_symbol.jpg](../../img/rwr_g_symbol.jpg)                     | O.H. Perry                                                                                                                                              |
+| ![rwr_l_symbol.jpg](../../img/rwr_l_symbol.jpg)                     | Leander Class                                                                                                                                           |
+| ![rwr_p_slashed_symbol.jpg](../../img/rwr_p_slashed_symbol.jpg)     | Ticonderoga, USS Arleigh Burke                                                                                                                          |
+| ![rwr_s_symbol.jpg](../../img/rwr_s_symbol.jpg)                     | Rezky Head Net SR, Neustrashimy SR, Invincible SR, Leander SR, Slava Class SR, Kuznetsov SR, Ropucha SR                                                 |

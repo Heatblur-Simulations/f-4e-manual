@@ -16,7 +16,7 @@ and minor flight path correction in the pitch and roll axis.
 
 ### Trigger and Bomb Button
 
-Weapons are deliverable through both a 2-stage Trigger (<num>3</num>) (for
+Weapons are deliverable through both a trigger switch (<num>3</num>) (for
 air-to-air missiles and the gun) and a Bomb Release Button (<num>2</num>).
 
 The first stage of the trigger activates the gun camera for recording forward
