@@ -20,11 +20,7 @@
 
 <!-- markdown-link-check-disable -->
 This document is available [online](https://f4.manuals.heatblur.se/),
-as PDF version,
+as [PDF version](https://github.com/Heatblur-Simulations/f-4e-manual/releases),
 embedded in-game as offline website and can be contributed to as
-open-source project at GitHub.
+open-source project at [GitHub](https://github.com/Heatblur-Simulations/f-4e-manual).
 <!-- markdown-link-check-enable -->
-
-> 🚧 The manual is a **work in progress** and will continue to be expanded and improved
-> until the Phantom releases for early access. Access to
-> the open-source repository on GitHub and the PDF version will be made available later.

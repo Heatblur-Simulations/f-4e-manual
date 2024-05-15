@@ -152,6 +152,10 @@ for details.
 
 Allows to preselect a Mode 2 code for the IFF system.
 
+## Laser Options
+
+Allows to preselect a laser code for the targeting pod and laser-guided weapons.
+
 ## Radio Options
 
 The editor allows to preset all 18 COMM and 20 AUX channels of the UHF radio:
