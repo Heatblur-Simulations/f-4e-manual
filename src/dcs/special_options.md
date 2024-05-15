@@ -100,7 +100,9 @@ altitude, similar as seen in civilian aviation.
 
 > 💡 Real Phantom WSOs did not assist during landing.
 
-## HB UI Resolution Override
+## HB UI
+
+### Resolution Override
 
 User interface elements, such as the Jester Wheel, the manual, virtual browser
 and others are scaled and positioned via a fixed resolution that must match the
@@ -114,6 +116,18 @@ incorrect resolution.
 Should UI elements be misplaced, for example the Jester Wheel not being centered
 or even cut off, check this setting and edit the resolution manually until the
 UI is displayed properly.
+
+### Offset
+
+Allows to horizontally displace the UI. Positive values shift it to the right,
+negative values to the left.
+
+Normally, this should be kept at the default value of 0 px. However, in certain
+cases (e.g. when using VR and setting it to render on the LEFT or RIGHT eye,
+while having the checkbox for _"Use DCS System Resolution"_ not checked) it is
+possible that the UI gets cut off. This setting then allows to move the UI back
+into view, but therefore giving up proper alignment on the UI, such as the
+Jester UI being centered on the screen.
 
 ## Jester UI
 
