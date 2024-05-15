@@ -193,7 +193,15 @@ reduces the brightness.
 ## Symbology
 
 The ALR-46 features a limited number of symbols for the different radar threats. The following
-symbols can stand for the different threats.
+symbols can stand for the different threats. The ALR-46 can save up to three files containing threat
+tables. Those three files contain either a Training set, a Land or a Sea set. The Training file is
+not in use at the moment. The land file contains all land and air based threats while the sea file
+contains all sea and air based threats. The Pilot can switch between the training and land file by
+simply pressing the SYS TEST (<num>8</num>) and within a one second timespan press the TGT
+SEP (<num>7</num>) button. A T symbol will be displayed within the lower portion of azimuth when the
+training file is selected. To switch to the sea file simply press the SYS TEST (<num>8</num>) button
+and within a one second timespan press the Unknown (<num>9</num>) button. When the sea file is
+selected a ship symbol will be displayed in the lower half of azimuth.
 
 ### Land and Air based Threats
 
@@ -221,19 +229,22 @@ symbols can stand for the different threats.
 | ![rwr_triangle_symbol.jpg](../../img/rwr_triangle_symbol.jpg)           | F-14, F-15C, F-15E, F-16, F-18C, JF-17, M-2000C, Mig-29, SU-27, MiG-31, Tornado IDS/GR4                                                                                       |
 | ![rwr_two_triangle_symbol.jpg](../../img/rwr_two_triangle_symbol.jpg)   | F-1, AJS-37, F-4E, MiG-19, MiG-21, MiG-23, F-5E-3                                                                                                                             |
 
-### Sea based Threats
+### Sea and Air based Threats
 
-| Symbol                                                              | Possible threat                                                                                                                                         |
-|---------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![rwr_four_symbol.jpg](../../img/rwr_four_symbol.jpg)               | Rezky, Albatros                                                                                                                                         |
-| ![rwr_six_symbol.jpg](../../img/rwr_six_symbol.jpg)                 | Battlecruiser Pyotr Velikiy, Cruiser Moskva, Type 052C Destroyer                                                                                        |
-| ![rwr_seven_symbol.jpg](../../img/rwr_seven_symbol.jpg)             | Type 054A Frigate, Type 052B Destroyer                                                                                                                  |
-| ![rwr_nine_symbol.jpg](../../img/rwr_nine_symbol.jpg)               | Frigate Neustrashimy, CV 1143.5 Kuznetsov                                                                                                               |
-| ![rwr_a_one_dot_symbol.jpg](../../img/rwr_a_one_dot_symbol.jpg)     | La Combattante II                                                                                                                                       |
-| ![rwr_a_two_dot_symbol.jpg](../../img/rwr_a_two_dot_symbol.jpg)     | Type 071, Leander Class                                                                                                                                 |
-| ![rwr_a_three_dot_symbol.jpg](../../img/rwr_a_three_dot_symbol.jpg) | Ropucha Class                                                                                                                                           |
-| ![rwr_c_symbol.jpg](../../img/rwr_c_symbol.jpg)                     | CVN-71 Theodore Roosevelt, CVN-72 Abraham Lincoln, CVN-73 George Washington, CVN-74 John C Stennis, CVN-75 Harry S. Truman, USS Forrestral, LHA Tarrawa |
-| ![rwr_g_symbol.jpg](../../img/rwr_g_symbol.jpg)                     | O.H. Perry                                                                                                                                              |
-| ![rwr_l_symbol.jpg](../../img/rwr_l_symbol.jpg)                     | Leander Class                                                                                                                                           |
-| ![rwr_p_slashed_symbol.jpg](../../img/rwr_p_slashed_symbol.jpg)     | Ticonderoga, USS Arleigh Burke                                                                                                                          |
-| ![rwr_s_symbol.jpg](../../img/rwr_s_symbol.jpg)                     | Rezky Head Net SR, Neustrashimy SR, Invincible SR, Leander SR, Slava Class SR, Kuznetsov SR, Ropucha SR                                                 |
+| Symbol                                                                  | Possible threat                                                                                                                                         |
+|-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![rwr_four_symbol.jpg](../../img/rwr_four_symbol.jpg)                   | Rezky, Albatros                                                                                                                                         |
+| ![rwr_six_symbol.jpg](../../img/rwr_six_symbol.jpg)                     | Battlecruiser Pyotr Velikiy, Cruiser Moskva, Type 052C Destroyer                                                                                        |
+| ![rwr_seven_symbol.jpg](../../img/rwr_seven_symbol.jpg)                 | Type 054A Frigate, Type 052B Destroyer                                                                                                                  |
+| ![rwr_nine_symbol.jpg](../../img/rwr_nine_symbol.jpg)                   | Frigate Neustrashimy, CV 1143.5 Kuznetsov                                                                                                               |
+| ![rwr_a_one_dot_symbol.jpg](../../img/rwr_a_one_dot_symbol.jpg)         | La Combattante II                                                                                                                                       |
+| ![rwr_a_two_dot_symbol.jpg](../../img/rwr_a_two_dot_symbol.jpg)         | Type 071, Leander Class                                                                                                                                 |
+| ![rwr_a_three_dot_symbol.jpg](../../img/rwr_a_three_dot_symbol.jpg)     | Ropucha Class                                                                                                                                           |
+| ![rwr_c_symbol.jpg](../../img/rwr_c_symbol.jpg)                         | CVN-71 Theodore Roosevelt, CVN-72 Abraham Lincoln, CVN-73 George Washington, CVN-74 John C Stennis, CVN-75 Harry S. Truman, USS Forrestral, LHA Tarrawa |
+| ![rwr_g_symbol.jpg](../../img/rwr_g_symbol.jpg)                         | O.H. Perry                                                                                                                                              |
+| ![rwr_l_symbol.jpg](../../img/rwr_l_symbol.jpg)                         | Leander Class                                                                                                                                           |
+| ![rwr_p_slashed_symbol.jpg](../../img/rwr_p_slashed_symbol.jpg)         | Ticonderoga, USS Arleigh Burke                                                                                                                          |
+| ![rwr_s_symbol.jpg](../../img/rwr_s_symbol.jpg)                         | Rezky Head Net SR, Neustrashimy SR, Invincible SR, Leander SR, Slava Class SR, Kuznetsov SR, Ropucha SR                                                 |
+| ![rwr_flat_triangle_symbol.jpg](../../img/rwr_flat_triangle_symbol.jpg) | E-2D Hawkeye, E-3C Sentry, A-50                                                                                                                         |
+| ![rwr_triangle_symbol.jpg](../../img/rwr_triangle_symbol.jpg)           | F-14, F-15C, F-15E, F-16, F-18C, JF-17, M-2000C, Mig-29, SU-27, MiG-31, Tornado IDS/GR4                                                                 |
+| ![rwr_two_triangle_symbol.jpg](../../img/rwr_two_triangle_symbol.jpg)   | F-1, AJS-37, F-4E, MiG-19, MiG-21, MiG-23, F-5E-3                                                                                                       |
