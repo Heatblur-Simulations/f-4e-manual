@@ -190,48 +190,48 @@ Here are some general tips & tricks as created by testers during the testing pha
 - Adjust the volume of DCS to suit the audio hardware you are using.
 
 - Press "Pause" whenever you need to interrupt the lesson; the simulation pauses
-completely.
+  completely.
 
 - Press "Active Pause" whenever you want to check something but want the simulation to
-continue running.
+  continue running.
 
 - You can skip playing the audio and text instructions if you carry out the corresponding
-action before the instructor has finished speaking, or - if this is intended for the
-corresponding step - simply press the key "Spacebar". Note that the aircraft system
-status must be set according to the instructions in order to be able to continue with
-the next step.
+  action before the instructor has finished speaking, or - if this is intended for the
+  corresponding step - simply press the key "Spacebar". Note that the aircraft system
+  status must be set according to the instructions in order to be able to continue with
+  the next step.
 
 - You can jump back one step in a task. You can do this via the communication menu > F10
-Other ... "Back to step #". This is possible for most of the steps. The aircraft status
-is then automatically reset to the appropriate status. Please give the simulation a
-little time to adjust everything accordingly.
+  Other ... "Back to step #". This is possible for most of the steps. The aircraft status
+  is then automatically reset to the appropriate status. Please give the simulation a
+  little time to adjust everything accordingly.
 
 - You can jump to the beginning of a task. This works via the communication menu > F10
-Other ... "Back to procedure introduction". This is possible for many tasks. The
-aircraft status is then automatically reset to the appropriate status. Please give the
-simulation a little time to adjust everything accordingly.
+  Other ... "Back to procedure introduction". This is possible for many tasks. The
+  aircraft status is then automatically reset to the appropriate status. Please give the
+  simulation a little time to adjust everything accordingly.
 
 - If you don't need the automatically displayed checklists, you can hide them via the
-communication menu > F10 Other ... "Disable pictures".
+  communication menu > F10 Other ... "Disable pictures".
 
 - If you don't need help in the form of yellow frames around cockpit elements, you can
-hide them via the communication menu > F10 Other ... "Disable highlights".
+  hide them via the communication menu > F10 Other ... "Disable highlights".
 
 - You can show the DCS internal kneeboard at any time. Flip back a few pages and you will
-find the lesson related checklists there too, they are exactly the same as those that
-can be displayed automatically.
+  find the lesson related checklists there too, they are exactly the same as those that
+  can be displayed automatically.
 
 ### Here are some special tips for lesson 01
 
 - Task 4:
-Let the instructor speak to the end of each instruction, there is enough time for the
-actions to be carried out.
+  Let the instructor speak to the end of each instruction, there is enough time for the
+  actions to be carried out.
 
 - Task 4: Step 4b)
-Be careful when opening the fuel, this should not be done before 10% RPM! If you see the
-EGT rising above 700°C, immediately cut off the fuel by moving the throttle lever to the
-"OFF" position. Note: engine parameters may vary slightly depending on the environmental
-conditions. Only the EGT value is to be monitored very closely!
+  Be careful when opening the fuel, this should not be done before 10% RPM! If you see the
+  EGT rising above 700°C, immediately cut off the fuel by moving the throttle lever to the
+  "OFF" position. Note: engine parameters may vary slightly depending on the environmental
+  conditions. Only the EGT value is to be monitored very closely!
 
 ### Emergencies
 
@@ -249,26 +249,26 @@ If you are absolutely stuck in the lesson, you should take the following steps o
 other:
 
 - Stay calm; the two most important pilot rules apply:
-  1. Aviate, navigate, communicate.
-  2. Don't crash, and above all: don't break anything!
+    1. Aviate, navigate, communicate.
+    2. Don't crash, and above all: don't break anything!
 
 - Check whether everything in the aircraft is actually set up as required according to the
-checklist/procedure. If necessary, go up the list a few steps and again check each step
-individually, starting from the top by asking yourself: What is written in the book? >
-How did I set it up?
+  checklist/procedure. If necessary, go up the list a few steps and again check each step
+  individually, starting from the top by asking yourself: What is written in the book? >
+  How did I set it up?
 
 - If that doesn't help:
-Jump back one, or even more steps (how to do this is explained above)
+  Jump back one, or even more steps (how to do this is explained above)
 
 - If that doesn't help either:
-Jump back to the beginning of the procedure (how to do this is explained above)
+  Jump back to the beginning of the procedure (how to do this is explained above)
 
 - If all that doesn't help:
-  - Quit the mission and save the DEBRIEFING (log-file) and the TRACK (trk-file) in the
-  debriefing screen
-  - If you suspect a bug, you can open a new ticker in the Phantom area of the DCS
-  Forum. Note: The more information there is, the more likely we are to find errors.
-  - In any case, we recommend to restart DCS and load the mission again. Sorry for that!
+    - Quit the mission and save the DEBRIEFING (log-file) and the TRACK (trk-file) in the
+      debriefing screen
+    - If you suspect a bug, you can open a new ticker in the Phantom area of the DCS
+      Forum. Note: The more information there is, the more likely we are to find errors.
+    - In any case, we recommend to restart DCS and load the mission again. Sorry for that!
 
 ## Lesson 02 - Taxi
 
@@ -332,17 +332,23 @@ The tasks for this lesson are:
 The basic tips are the same as for Lesson 01 (see above).
 Here are some special tips for lesson 02:
 
+- Task 2 > Introduction
+Observe that the audio containing the taxi clearance by ATC is played through your UHF radio.
+Therefore, if you turn off or tune down the volume of the radio, or route the audio signals to some
+other audio device tuned down in volume, you might not hear the call correctly. In any way, the
+spoken text can be read on the upper right corner of the screen, and the lesson continues.
+
 - Task 2 > Step 1a)
-Use the power levers very gently! Once the aircraft started rolling, pull back the power
-levers to idle and carefully control the taxi speed using minimum power together with
-the wheel brakes.
+  Use the power levers very gently! Once the aircraft started rolling, pull back the power
+  levers to idle and carefully control the taxi speed using minimum power together with
+  the wheel brakes.
 
 - Task 1 > Step 7)
-The flight controls check can be omitted in case it becomes too difficult. Use the FIRE
-TEST BUTTON on the instrument panel before or during performing this check to skip it.
-The reason for this is that for this check a few things have to be done in parallel:
-  - Listening to our instructor
-  - Performing the inputs on the flight control system (movements and button/switch
-  presses/settings)
-  - Listening to the confirmation given by the crew chief
-  - Pressing "Spacebar" after receiving the crew chief's confirmation
+  The flight controls check can be omitted in case it becomes too difficult. Use the FIRE
+  TEST BUTTON on the instrument panel before or during performing this check to skip it.
+  The reason for this is that for this check a few things have to be done in parallel:
+    - Listening to our instructor
+    - Performing the inputs on the flight control system (movements and button/switch
+      presses/settings)
+    - Listening to the confirmation given by the crew chief
+    - Pressing "Spacebar" after receiving the crew chief's confirmation
