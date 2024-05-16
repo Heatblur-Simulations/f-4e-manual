@@ -18,6 +18,8 @@ top left corner allow for quick navigation.
 > 💡 The virtual browser is feature-rich and supports almost the entire set of HTML 5.
 > See [HTML 5 Test Result](https://html5test.co/s/?b40343682d61460f) for a detailed list.
 
+> 🚧 The Virtual Browser is temporarily disabled and will be made available later again.
+
 ## Session
 
 Session data is memorized and saved locally in a folder like
