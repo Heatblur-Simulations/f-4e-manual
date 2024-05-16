@@ -327,7 +327,6 @@ The tasks for this lesson are:
 
 - Task 2: Taxi to holding point RWY 07.
 
-
 ### Lesson 02 - Tips & tricks
 
 The basic tips are the same as for Lesson 01 (see above).
