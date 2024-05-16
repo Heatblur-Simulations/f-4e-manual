@@ -22,8 +22,7 @@ clandestine means with the RAF during the Falklands War.
 
 ## Variants
 
-Only the A version can be equipped on this version of the Phantom. However, the
-A version comes in a regular and a _Dive Modified_ variant.
+Only the A version can be equipped on this version of the Phantom.
 
 ## Employment
 
