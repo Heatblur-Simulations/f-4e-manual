@@ -177,6 +177,7 @@
   - [Recorders](./dcs/recorders.md)
   - [Character](./dcs/character.md)
   - [Mission Editor](./dcs/mission_editor.md)
+  - [Training Missions](./dcs/training_missions.md)
   - [Modding](./dcs/modding/overview.md)
     - [Jester](./dcs/modding/jester/overview.md)
       - [Voice Files](./dcs/modding/jester/voice_files.md)
