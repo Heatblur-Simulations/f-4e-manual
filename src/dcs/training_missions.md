@@ -322,7 +322,9 @@ tasks are divided into individual steps, whereby the steps go hand in hand with 
 items in the procedure.
 
 The tasks for this lesson are:
+
 - Task 1: Check the aircraft before moving on own power.
+
 - Task 2: Taxi to holding point RWY 07.
 
 
@@ -340,12 +342,8 @@ the wheel brakes.
 The flight controls check can be omitted in case it becomes too difficult. Use the FIRE
 TEST BUTTON on the instrument panel before or during performing this check to skip it.
 The reason for this is that for this check a few things have to be done in parallel:
-
   - Listening to our instructor
-  
   - Performing the inputs on the flight control system (movements and button/switch
   presses/settings)
-  
   - Listening to the confirmation given by the crew chief
-  
   - Pressing "Spacebar" after receiving the crew chief's confirmation
