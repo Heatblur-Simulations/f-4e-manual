@@ -38,7 +38,6 @@ Available TV guided bombs include:
 | AGM-62 Walleye I     | 1000 lb |                           |
 | AGM-62 Walleye II ER | 2000 lb | extended range            |
 | GBU-8 HOBOS          | 2000 lb |                           |
-| GBU-15               | 2000 lb | extended range, data-link |
 
 ## Employment
 
