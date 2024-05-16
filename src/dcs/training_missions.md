@@ -1,11 +1,13 @@
 # Training Missions
 
 ## Lessons
+
 These missions, we like to call them "lessons", have been designed in such a way that, as a
 beginner, you are explained everything important that you need for a successful start with
 your new F-4E Phantom II.
 
 ## Goals
+
 The stated goal of these lessons is that after completing them once or several times, you can
 say: "Hey, I think I now know how this thing works (again)".
 You can use the lessons as "initial training" or as so-called "recurrent training". Whenever
@@ -13,12 +15,14 @@ you haven't flown for a long time and need a refresher. By the way: We recommend
 every 90 days at least ...
 
 ## Demarcation
+
 First of all, it should be said that the lessons require a certain level of knowledge and
 basic flying skills. In the lessons we don't explain flying, but rather the aircraft, its
 systems and their usage, and the behavior. The lessons may therefore be understood as a kind
 of "interactive type training in the cockpit seat" and not as "basic flying training".
 
 ## Procedures
+
 We have depicted the most important "normal procedures" of the aircraft and have based
 ourselves very much on reality. These procedures should also be based as closely as possible
 on the real procedures, although we were already aware that not everything would be possible
@@ -127,6 +131,7 @@ Dodge 11 (you, at parking position #25)
 All Dodge flights complete familiarization and training flights at the airfield.
 
 ### Aircraft
+
 Your aircraft is "cold & dark" on the ramp number #25, the nose is pointed towards the runway,
 and is prepared and fully fueled.
 
@@ -225,6 +230,7 @@ EGT rising above 700°C, immediately cut off the fuel by moving the throttle lev
 conditions. Only the EGT value is to be monitored very closely!
 
 ### Emergencies
+
 There are situations in which the logic of the lesson no longer works properly for some
 unknown reason. Fortunately, this only happens very rarely! This usually results in the help
 boxes no longer being shown or hidden correctly, or the logic circuits no longer reacting
@@ -319,6 +325,7 @@ The tasks for this lesson are:
 
 
 ### Tips & tricks
+
 The basic tips are the same as for Lesson 01 (see above).
 Here are some special tips for lesson 02:
 
