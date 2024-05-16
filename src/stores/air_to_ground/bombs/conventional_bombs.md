@@ -25,6 +25,7 @@ Available conventional unguided bombs are:
 | Mk-82 Snakeye |  500 lb | Low/High Drag       |
 | Mk-83         | 1000 lb | Low Drag            |
 | Mk-84         | 2000 lb | Low Drag            |
+| Mk-84 AIR     | 2000 lb | High Drag Chute     |
 | M-117         |  750 lb | Low Drag            |
 
 ## BDU Series Training Bombs
