@@ -88,7 +88,7 @@ studying the manual; that's not explicitly forbidden!
 
 ## Lesson 01 - Startup
 
-### Kobuleti airfield
+### Lesson 01 - Kobuleti airfield
 
 The airfield has a picturesque location between the mountains to the south and the Black Sea
 to the west. Here is a photo of the airfield, taken a month ago from a helicopter, looking S-
@@ -104,7 +104,7 @@ including supersonic flights.
 
 ![training_area](../img/Georgia_Training_Area.jpg)
 
-### Weather
+### Lesson 01 - Weather
 
 The weather has been very bad in the last few days. A persistent Black-sea depression had
 brought a lot of rain. However, stabilization occurred last night and morning. Drier air
@@ -116,7 +116,7 @@ to be expected.
 
 ![weather_kobuleti](../img/Lesson01_Kobuleti_WX.jpg)
 
-### Slots
+### Lesson 01 - Slots
 
 Your fellow pilots got the first slots, your turn comes a little later. The airfield is a very
 noisy environment, so wait until the jets that are currently positioned on the runway have
@@ -130,7 +130,7 @@ Dodge 22 (AI, at the start)
 Dodge 11 (you, at parking position #25)
 All Dodge flights complete familiarization and training flights at the airfield.
 
-### Aircraft
+### Lesson 01 - Aircraft
 
 Your aircraft is "cold & dark" on the ramp number #25, the nose is pointed towards the runway,
 and is prepared and fully fueled.
@@ -155,14 +155,15 @@ what I'm doing...".
 Don't worry, your instructor, who is also your WSO for today's flight, will guide you through
 the lesson!
 
-### Audio & text
+### Lesson 01 - Audio & text
+
 Your instructor speaks from the back seat, always listen carefully. Assume that everything he
 says is important. As an aid, all of the text he speaks is displayed at the top right of the
 screen. If you don't notice or understand something, you can always read it above. The texts
 remain visible on the screen for a maximum of 1000 seconds until they either disappear by
 themselves or are replaced by new texts.
 
-### Tasks & steps
+### Lesson 01 - Tasks & steps
 
 The lessons are divided into tasks, which are based on the names of the procedures. These
 tasks are divided into individual steps, whereby the steps go hand in hand with the individual
@@ -174,7 +175,7 @@ The tasks for this lesson are:
 - Task 3: Prepare the aircraft for engine start.
 - Task 4: Start the engines.
 
-### Tips & tricks
+### Lesson 01 - Tips & tricks
 
 It rarely happens that you get stuck in a procedure, or you don't know exactly what to do
 next.
@@ -217,7 +218,7 @@ hide them via the communication menu > F10 Other ... "Disable highlights".
 find the lesson related checklists there too, they are exactly the same as those that
 can be displayed automatically.
 
-### Here are some special tips for lesson 01:
+### Here are some special tips for lesson 01
 
 - Task 4:
 Let the instructor speak to the end of each instruction, there is enough time for the
@@ -248,12 +249,10 @@ other:
   1. Aviate, navigate, communicate.
   2. Don't crash, and above all: don't break anything!
 
-
 - Check whether everything in the aircraft is actually set up as required according to the
 checklist/procedure. If necessary, go up the list a few steps and again check each step
 individually, starting from the top by asking yourself: What is written in the book? >
 How did I set it up?
-
 
 - If that doesn't help:
 Jump back one, or even more steps (how to do this is explained above)
@@ -268,16 +267,16 @@ Jump back to the beginning of the procedure (how to do this is explained above)
   Forum. Note: The more information there is, the more likely we are to find errors.
   - In any case, we recommend to restart DCS and load the mission again. Sorry for that!
 
-## Lesson 02 - Taxi    
+## Lesson 02 - Taxi
 
-### Weather
+### Lesson 02 - Weather
 
 The weather changes slowly but noticeably. The clouds start breaking up, and the forcast
 regarding the ground-level haze was correct. Wind speed and direction haven't changed so far.
 
 ![weather_lesson2](../img/Lesson02_Kobuleti_WX.jpg)
 
-### Slots
+### Lesson 02 - Slots
 
 Slots haven't changed.
 Dodge 31 (AI, already on ground, refuelling)
@@ -287,7 +286,7 @@ Dodge 22 (AI, at the start)
 Dodge 11 (you, at parking position #25)
 All Dodge flights complete familiarization and training flights at the airfield.
 
-### Aircraft
+### Lesson 02 - Aircraft
 
 Your aircraft is already "hot on the ramp number #25" with both engines running, the nose is
 pointed towards the runway. All aircraft systems are set to the positions in which you left in
@@ -305,7 +304,7 @@ removed.
 
 ![lesson2_crew_chief_assistant](../img/Lesson02_Crew_chief_assistant_Ramp_no25.jpg)
 
-### Audio & text
+### Lesson 02 - Audio & text
 
 Your instructor speaks from the back seat, always listen carefully. Assume that everything he
 says is important. As an aid, all of the text he speaks is displayed at the top right of the
@@ -313,7 +312,7 @@ screen. If you don't notice or understand something, you can always read it abov
 remain visible on the screen for a maximum of 1000 seconds until they either disappear by
 themselves or are replaced by new texts.
 
-### Tasks & steps
+### Lesson 02 - Tasks & steps
 
 The lessons are divided into tasks, which are based on the names of the procedures. These
 tasks are divided into individual steps, whereby the steps go hand in hand with the individual
@@ -324,7 +323,7 @@ The tasks for this lesson are:
 - Task 2: Taxi to holding point RWY 07.
 
 
-### Tips & tricks
+### Lesson 02 - Tips & tricks
 
 The basic tips are the same as for Lesson 01 (see above).
 Here are some special tips for lesson 02:
