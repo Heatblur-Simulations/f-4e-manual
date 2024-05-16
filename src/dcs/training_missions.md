@@ -333,10 +333,10 @@ The basic tips are the same as for Lesson 01 (see above).
 Here are some special tips for lesson 02:
 
 - Task 2 > Introduction
-Observe that the audio containing the taxi clearance by ATC is played through your UHF radio.
-Therefore, if you turn off or tune down the volume of the radio, or route the audio signals to some
-other audio device tuned down in volume, you might not hear the call correctly. In any way, the
-spoken text can be read on the upper right corner of the screen, and the lesson continues.
+  Observe that the audio containing the taxi clearance by ATC is played through your UHF radio.
+  Therefore, if you turn off or tune down the volume of the radio, or route the audio signals to some
+  other audio device tuned down in volume, you might not hear the call correctly. In any way, the
+  spoken text can be read on the upper right corner of the screen, and the lesson continues.
 
 - Task 2 > Step 1a)
   Use the power levers very gently! Once the aircraft started rolling, pull back the power
