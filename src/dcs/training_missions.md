@@ -249,8 +249,8 @@ If you are absolutely stuck in the lesson, you should take the following steps o
 other:
 
 - Stay calm; the two most important pilot rules apply:
-    1. Aviate, navigate, communicate.
-    2. Don't crash, and above all: don't break anything!
+  1. Aviate, navigate, communicate.
+  2. Don't crash, and above all: don't break anything!
 
 - Check whether everything in the aircraft is actually set up as required according to the
   checklist/procedure. If necessary, go up the list a few steps and again check each step
@@ -264,11 +264,11 @@ other:
   Jump back to the beginning of the procedure (how to do this is explained above)
 
 - If all that doesn't help:
-    - Quit the mission and save the DEBRIEFING (log-file) and the TRACK (trk-file) in the
+  - Quit the mission and save the DEBRIEFING (log-file) and the TRACK (trk-file) in the
       debriefing screen
-    - If you suspect a bug, you can open a new ticker in the Phantom area of the DCS
+  - If you suspect a bug, you can open a new ticker in the Phantom area of the DCS
       Forum. Note: The more information there is, the more likely we are to find errors.
-    - In any case, we recommend to restart DCS and load the mission again. Sorry for that!
+  - In any case, we recommend to restart DCS and load the mission again. Sorry for that!
 
 ## Lesson 02 - Taxi
 
@@ -347,8 +347,8 @@ Here are some special tips for lesson 02:
   The flight controls check can be omitted in case it becomes too difficult. Use the FIRE
   TEST BUTTON on the instrument panel before or during performing this check to skip it.
   The reason for this is that for this check a few things have to be done in parallel:
-    - Listening to our instructor
-    - Performing the inputs on the flight control system (movements and button/switch
+  - Listening to our instructor
+  - Performing the inputs on the flight control system (movements and button/switch
       presses/settings)
-    - Listening to the confirmation given by the crew chief
-    - Pressing "Spacebar" after receiving the crew chief's confirmation
+  - Listening to the confirmation given by the crew chief
+  - Pressing "Spacebar" after receiving the crew chief's confirmation
