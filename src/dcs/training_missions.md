@@ -171,8 +171,11 @@ items in the procedure.
 The tasks for this lesson are:
 
 - Task 1: Check the aircraft and essential switches before applying external power.
+
 - Task 2: Perform the internal inspection of the aircraft.
+
 - Task 3: Prepare the aircraft for engine start.
+
 - Task 4: Start the engines.
 
 ### Lesson 01 - Tips & tricks
@@ -332,12 +335,17 @@ Here are some special tips for lesson 02:
 Use the power levers very gently! Once the aircraft started rolling, pull back the power
 levers to idle and carefully control the taxi speed using minimum power together with
 the wheel brakes.
+
 - Task 1 > Step 7)
 The flight controls check can be omitted in case it becomes too difficult. Use the FIRE
 TEST BUTTON on the instrument panel before or during performing this check to skip it.
 The reason for this is that for this check a few things have to be done in parallel:
+
   - Listening to our instructor
+  
   - Performing the inputs on the flight control system (movements and button/switch
   presses/settings)
+  
   - Listening to the confirmation given by the crew chief
+  
   - Pressing "Spacebar" after receiving the crew chief's confirmation
