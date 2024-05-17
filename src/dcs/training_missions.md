@@ -391,6 +391,7 @@ are divided into individual steps, whereby the steps go hand in hand with the in
 the procedure.
 
 The tasks for this lesson are:
+
 - Task 1: Check aircraft while being positioned at the holding point for RWY 07.
 - Task 2: Line-up the aircraft on RWY 07
 - Task 3: Check essential aircraft systems while being lined up on runway 07
@@ -402,6 +403,7 @@ The tasks for this lesson are:
 
 The basic tips are the same as for Lesson 01 (see above).
 Here are some special tips for lesson 03:
+
 - Task 1 > Steps 4a) - 4e)
 The flight controls check only requires to check if the stick is moving freely (at least 50%
 of the stick deflection must be made). You can also check the rudders, but this is not
