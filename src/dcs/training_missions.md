@@ -357,6 +357,8 @@ Here are some special tips for lesson 02:
 
 ### Lesson 03 - Weather
 
+![lesson03_weather](../img/Lesson03_Kobuleti_WX.jpg)
+
 The weather is changing noticeably with every minute. The clouds continue breaking up, and the
 ground-level haze is still there. Wind speed and direction haven't changed so far.
 
@@ -371,6 +373,8 @@ Dodge 11 (you, at the holding point for runway 07)
 All Dodge flights complete familiarization and training flights at the airfield.
 
 ### Lesson 03 - Aircraft
+
+![lesson03_aircraft_slot](../img/Lesson03_Slot_Holdingpoint_RWY07.jpg)
 
 Your aircraft is already "hot on the holding point for runway 07" with both engines running, the
 nose is pointed towards the runway. All aircraft systems are set to the positions in which you
