@@ -14,7 +14,7 @@
 | 6.      | Slats & Flaps                         | CHECK🔧                    |
 | 7.      | Flight Controls                       | CHECK🔧                    |
 | **8.**  | **Slats & Flaps**                     | **NORM**                    |
-| 9.      | ARI Disengage                         | CHECK🔧 (use paddle)       |
+| 9.      | ARI Disengage                         | CHECK🔧                    |
 | 10.     | STAB AUG Switches                     | ENGAGE AND CHECK🔧         |
 | **11.** | **Reference Sys Select**              | **PRIM (INS in NAV)**       |
 | 12.     | Compass Mode Control Knob             | SYNC                        |
