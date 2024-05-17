@@ -70,6 +70,9 @@ will temporarily disable the pitch attitude hold as well altitude hold.
 
 Default values are 1% for roll and 2% for pitch.
 
+> 💡 To check wheter the breakout is currently activated you can use the controls
+indicator and look for the text below it.
+
 For more info see
 [Force Transducer](../systems/flight_controls_gear/flight_controls.md#force-transducer).
 
