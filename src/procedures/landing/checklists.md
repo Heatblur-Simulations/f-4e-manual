@@ -48,7 +48,7 @@
 |---------|----------------------------|---------------------|
 | 1.      | Anti Skid (below 30 knots) | OFF                 |
 | 2.      | Cockpit Pressure           | CHECK               |
-| **3.**  | **Ejection Handle**        | **SAFE**            |
+| 3.      | Ejection Handle            | SAFE (not applicable) |
 | 4.      | Landing/Taxi Light         | AS REQUIRED         |
 | 5.      | Slats & Flaps              | NORM                |
 | **6.**  | **Drag Chute**             | **JETTISON**        |
