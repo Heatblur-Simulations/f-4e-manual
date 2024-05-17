@@ -352,3 +352,113 @@ Here are some special tips for lesson 02:
       presses/settings)
   - Listening to the confirmation given by the crew chief
   - Pressing "Spacebar" after receiving the crew chief's confirmation
+
+## Lesson 03 - Normal Takeoff
+
+### Lesson 03 - Weather
+
+![lesson03_weather](../img/Lesson03_Kobuleti_WX.jpg)
+
+The weather is changing noticeably with every minute. The clouds continue breaking up, and the
+ground-level haze is still there. Wind speed and direction haven't changed so far.
+
+### Lesson 03 - Slots
+
+Slots haven't changed.
+Dodge 31 (AI, already on ground)
+Dodge 41 (AI, already on ground)
+Dodge 21 (AI, already on ground)
+Dodge 22 (AI, already on ground)
+Dodge 11 (you, at the holding point for runway 07)
+All Dodge flights complete familiarization and training flights at the airfield.
+
+### Lesson 03 - Aircraft
+
+![lesson03_aircraft_slot](../img/Lesson03_Slot_Holdingpoint_RWY07.jpg)
+
+Your aircraft is already "hot on the holding point for runway 07" with both engines running, the
+nose is pointed towards the runway. All aircraft systems are set to the positions in which you
+left in the previous lesson.
+
+### Lesson 03 - Audio & text
+
+Your instructor speaks from the back seat, always listen carefully. Assume that everything he says
+is important. As an aid, all of the text he speaks is displayed at the top right of the screen. If
+you don't notice or understand something, you can always read it above. The texts remain visible
+on the screen for a maximum of 1000 seconds until they either disappear by themselves or are
+replaced by new texts.
+
+### Lesson 03 - Tasks & steps
+
+The lessons are divided into tasks, which are based on the names of the procedures. These tasks
+are divided into individual steps, whereby the steps go hand in hand with the individual items in
+the procedure.
+
+The tasks for this lesson are:
+
+- Task 1: Check aircraft while being positioned at the holding point for RWY 07.
+- Task 2: Line-up the aircraft on RWY 07
+- Task 3: Check essential aircraft systems while being lined up on runway 07
+- Task 4: Perform a normal take-off (slats & flaps "out" & "down") on RWY 07
+- Task 5: Perform a normal climb at 350kts or M0.9, whichever is lower following TP1, TP2, TP3
+- Task 6: Perform cruise check
+
+### Lesson 03 - Tips & tricks
+
+The basic tips are the same as for Lesson 01 (see above).
+Here are some special tips for lesson 03:
+
+- Task 1 > Steps 4a) - 4e)
+The flight controls check only requires to check if the stick is moving freely (at least 50%
+of the stick deflection must be made). You can also check the rudders, but this is not
+required by that step.
+- Task 1 > Step 10)
+Having the MASTER CAUTION alert active indicates something is or at least was wrong. So
+reset it, then check if it stays out.
+
+- Task 2 > Step 1)
+Observe that the audio containing the line-up clearance by ATC is played through your UHF
+radio. Therefore, if you turn off or tune down the volume of the radio, or route the audio
+signals to some other audio device tuned down in volume, you might not hear the call
+correctly. In any way, the spoken text can be read on the upper right corner of the screen,
+and the lesson continues.
+- Task 4 > Introduction
+Observe that the audio containing the take-off clearance by ATC is played through your UHF
+radio. Therefore, if you turn off or tune down the volume of the radio, or route the audio
+signals to some other audio device tuned down in volume, you might not hear the call
+correctly. In any way, the spoken text can be read on the upper right corner of the screen,
+and the lesson continues.
+- Task 4 > Step 5)
+For beginners, we recommend to perform the first take-off without afterburner (just MIL
+power, which means 100% rpm without afterburner), despite we know that taking off with
+afterburner is a ton of fun. The reason behind is, that you will then be able to hear all
+call-outs of your instructor, because the time needed for the take-off is long enough.
+Whenever you think you manage all steps by heart that are necessary for a safe take-off
+without any instructions, go for a take-off with afterburner. Please don't tell our SME's
+that this text exists at all, and never tell someone that you have followed the
+recommendation ...
+- Task 4 > Step 8)
+In DCS, with the current wind situation (no cross wind component), it is really not
+necessary to use the nose gear steering. You will only be reminded by the instructor in case
+you use the nose gear steering above 70 knots.
+- Task 4 > Step 11)
+
+Pitch trim is best done in a number of quick pulses instead of one long press to avoid over-
+trimming.
+
+- Task 4 > Steps 13)
+Make sure to have flaps retracted before reaching 250 knots, but there is a certain safety
+buffer and they should not be damaged at exactly 250 knots.
+- Task 5 > Step 1)
+Make sure to fly a heading of about 064° and climb after lift-off.
+Make sure to fly at an airspeed of not more than 350 knots.
+Fly a shallow climb when using no afterburner (about 10° pitch angle).
+Fly a steep climb when using afterburner (about 30° pitch angle).
+- After reaching a certain altitude and airspeed with gear and flaps up, the lesson is
+accomplished. You may continue the climb following the route which is commanded by your
+instructor.
+If you are lost in space somehow, go to the F-10 map, click on your aircraft, and then see
+the planned route. You may then follow it more easily.
+- Task 6 > Step 1d)
+There is currently no way of comparing the values on both altimeters. This step was kept in
+the procedure just in case you need it when operating with a real WSO in the rear seat.
