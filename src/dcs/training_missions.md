@@ -81,10 +81,10 @@ possible.
 
 This section is limited to the description of the first 4 lessons:
 
-+ Lesson 01 - Startup
-+ Lesson 02 - Taxi
-+ Lesson 03 - Normal Takeoff
-+ Lesson 04 - Visual approach
+- Lesson 01 - Startup
+- Lesson 02 - Taxi
+- Lesson 03 - Normal Takeoff
+- Lesson 04 - Visual approach
 
 ## Lesson 01 - Startup
 
