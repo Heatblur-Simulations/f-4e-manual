@@ -3,8 +3,8 @@
 ## Lessons
 
 These missions, we like to call them "lessons", have been designed in such a way that, as a
-beginner, you are explained everything important that you need for a successful start with
-your new F-4E Phantom II.
+beginner, everything important that you need for a successful start with your new F-4E Phantom II is
+explained.
 
 ## Goals
 
@@ -14,12 +14,28 @@ You can use the lessons as "initial training" or as so-called "recurrent trainin
 you haven't flown for a long time and need a refresher. By the way: We recommend a refresher
 every 90 days at least ...
 
-## Demarcation
+Please note, that the lessons require a certain level of knowledge and basic flying skills. In the
+lessons we don't explain flying as such, but rather the aircraft, its systems and their usage, and
+the behavior. The lessons may therefore be understood as a kind of "interactive type training in the
+cockpit seat" and not as "basic flying training".
 
-First of all, it should be said that the lessons require a certain level of knowledge and
-basic flying skills. In the lessons we don't explain flying, but rather the aircraft, its
-systems and their usage, and the behavior. The lessons may therefore be understood as a kind
-of "interactive type training in the cockpit seat" and not as "basic flying training".
+## Your way through
+
+Due to the design, systems and age of the jet, it has many pecularities. Precise application of
+system knowledge in daily duty on this wonderful aircraft is the key to success. With the F-4E
+Phantom II you will be challenged in so many ways. So be ready! We leave it up to you whether you
+want to get in the air immediately without studying the manual, or whether you want to read upon it
+before your first flight ...
+
+Decide for yourself!
+
+If you want to fly immediately, the training lessons will provide you with enough knowledge to
+successfully complete these flights. You can even study this section or other parts of the manual
+during your flights; this is another innovation in the DCS F-4E Phantom II. The lessons can be
+paused at any time if necessary. Of course, you are welcome to practice multi-tasking and fly at the
+same time as studying the manual; that's not explicitly forbidden! Learning by doing is the basic
+strategy for the training lessons, but you will be required to read through the manual and carefully
+study the systems if you want to become a real pro.
 
 ## Procedures
 
@@ -36,55 +52,39 @@ them had to be changed, shortened, or omitted entirely. Nevertheless, for exampl
 simulated putting on the helmet (including sun protection visor and sun glasses), an immersive
 innovation in DCS.
 
-Here is an example of the "BEFORE INTERIOR INSPECTION" procedure. It shows a few steps left
-out for speeding up the lesson. Its about Task 1, steps 1 to 3. It shows 3 steps, with step 2
-consisting of 3 sub-steps with step b) left out, and with step 3 consisting of 5 sub-step with
-steps c) and d) left out.
-
-![missions_checklist_example](../img/procedure_example.jpg)
-
 ## Our way
 
-We thought a lot about how best to explain such a complex aircraft during training missions.
-Where do you start, where do you end? How detailed should it be so that a "nerd" doesn't miss
-anything, how superficial can it be so that a "leisure gamer" doesn't lose interest? How
-exactly is it checked whether the player is adhering to the guidelines and the planned route?
-A basic idea at Heatblur has always been to get the player "in the air" as quickly as
-possible, without them having to spend hours watching introductory videos or studying thick
-books. All of this caused us a lot of headaches...
+We thought a lot about how best to explain the operation of such a complex aircraft with training
+missions. Where do you start, where do you end? How detailed should it be so that a "nerd" doesn't
+miss anything, how superficial can it be so that a "leisure gamer" doesn't lose interest? How tight
+are the checks whether the player is adhering to the procedures and the planned flight route? A
+basic idea at Heatblur has always been to get players "in the air" as quickly as possible, without
+them having to spend hours watching introductory videos or studying thick books. All of this caused
+us a lot of headaches...
 
-In any case, we spared no expense, effort and discussions to serve both types of players more
-or less "equally". As you can imagine, such a project is not entirely trivial, and you have to
-make a lot of compromises when designing the lessons. You have to say to hardliners: "Hey,
-this might be too complicated for the player and not really relevant to the simulation, even
-if it would be cool!" You have to convince other team members to do things they personally
-don't like: Hey, that's exactly what we need, but a little different please!
-Fortunately, we had professional help from SME's (real former Phantom pilots and weapons
-systems officers). They helped us with many decisions and accelerated the production process
-with their knowledge and experience. Conversely, they slapped us on the wrist if we didn't do
+In any case, we spared no expense, effort and discussions to serve both types of players more or
+less "equally". As you can imagine, such a project is not entirely trivial, and you have to make a
+lot of compromises when designing the lessons. Sometimes, you have to tell hardliners: "Hey, this
+might be too complicated for the players and not really relevant to the simulation, eventhough it
+would be extra cool!" You have to convince other team members to do things they personally don't
+like: Hey, that's exactly what the players need, but a little different please!
+
+Fortunately, we had professional help from SME's (real former Phantom pilots and weapons systems
+officer and even instructors). These guys helped us with so many decisions, and spiced the product
+with their knowledge and experience. Conversely, they slapped us on the wrist if we left out
 something they thought was important.
 
 In a complex development process that such a high-quality DCS module requires, there are many
-obstacles and limitations, but also many opportunities and possibilities. That's why we made
-it a point right from the start to present the handling of the aircraft's systems as
-comprehensively as possible.
+obstacles and limitations, but also many opportunities and possibilities. That's why we made it a
+point right from the start to present the handling of the aircraft's systems as comprehensively as
+possible.
 
-## Your way
+This section is limited to the description of the first 4 lessons:
 
-Due to the design, systems and age of the jet, it has many "idiosyncrasies". The precise
-application of system knowledge in your - hopefully - daily operations is the key to success.
-With the F-4E Phantom II you will be challenged in many ways:
-So be ready!
-
-We leave it up to you whether you want to get "in the air" immediately and without studying
-the manual in detail, or whether you want to read up on it before your first flight:
-Decide for yourself!
-
-If you want to fly immediately, the training lessons will provide you with enough knowledge to
-successfully complete these flights. You can even study the manual during the flight; this is
-another innovation in the DCS F-4E Phantom II. The lessons can be paused at any time if
-necessary. Of course, you are welcome to practice multi-tasking and fly at the same time as
-studying the manual; that's not explicitly forbidden!
++ Lesson 01 - Startup
++ Lesson 02 - Taxi
++ Lesson 03 - Normal Takeoff
++ Lesson 04 - Visual approach
 
 ## Lesson 01 - Startup
 
@@ -106,7 +106,7 @@ including supersonic flights.
 
 ### Lesson 01 - Weather
 
-The weather has been very bad in the last few days. A persistent Black-sea depression had
+The weather has been very bad in the last few days. A persistent Black Sea depression had
 brought a lot of rain. However, stabilization occurred last night and morning. Drier air
 masses flow in from the east. The mid-level cloud layer is expected to break up. The weather
 forecast predicts that the clouds will no longer be a problem in about an hour and the
@@ -118,10 +118,11 @@ to be expected.
 
 ### Lesson 01 - Slots
 
-Your fellow pilots got the first slots, your turn comes a little later. The airfield is a very
-noisy environment, so wait until the jets that are currently positioned on the runway have
-taken off before starting the lesson. Then the noise level should be somewhat tolerable...
-hopefully at least.
+Your fellow pilots will begin their flights immediately, your flight a little later. The airfield is
+a very noisy environment, so wait until the jets currently positioned on the runway have taken off
+before beginning with the lesson. Then the noise level should be somewhat tolerable... hopefully at
+least.
+
 Currently registered for this afternoon:
 Dodge 31 (AI, already in the air)
 Dodge 41 (AI, already in the air)
@@ -132,13 +133,13 @@ All Dodge flights complete familiarization and training flights at the airfield.
 
 ### Lesson 01 - Aircraft
 
-Your aircraft is "cold & dark" on the ramp number #25, the nose is pointed towards the runway,
-and is prepared and fully fueled.
+Your aircraft is "cold & dark" on the ramp #25, the nose is pointed towards the runway, and is
+prepared and fully fueled. The Dash-60 ground power unit is already in place left of your jet.
 
 ![lesson1_hangar_view](../img/Lesson01_Slot_Ramp_no25.jpg)
 
-The technician responsible for the aircraft ("crew chief") is already in front of your
-aircraft and waiting to support you. You can communicate with him using the Jester menu > CREW
+The technician responsible for the aircraft, also called the "crew chief", is already in front of
+your aircraft and waiting to support you. You can communicate with him using the Jester menu > CREW
 CHIEF.
 
 ![lesson1_crew_chief](../img/Lesson01_Crew_chief_Ramp_no25.jpg)
@@ -148,9 +149,8 @@ unit.
 
 ![lesson1_crew_chief_assistant](../img/Lesson01_Crew_chief_assistant_Ramp_no25.jpg)
 
-You've just sat down in the ejection seat and are starting to check the cockpit, and you may
-be thinking to yourself, "Damn, I'm blown away by everything I see, but I guess I don't know
-what I'm doing...".
+You've just sat down in the ejection seat and are starting to check the cockpit. You may be saying
+to yourself  "Damn, I'm blown away by everything I see, but I guess I don't know what I'm doing...".
 
 Don't worry, your instructor, who is also your WSO for today's flight, will guide you through
 the lesson!
@@ -162,6 +162,9 @@ says is important. As an aid, all of the text he speaks is displayed at the top 
 screen. If you don't notice or understand something, you can always read it above. The texts
 remain visible on the screen for a maximum of 1000 seconds until they either disappear by
 themselves or are replaced by new texts.
+
+Note that whenever you missed one of the text messages, you can access the message log by pressing
+the key "Escape" and then selecting MESSAGES HISTORY and read after.
 
 ### Lesson 01 - Tasks & steps
 
@@ -196,7 +199,7 @@ Here are some general tips & tricks as created by testers during the testing pha
   continue running.
 
 - You can skip playing the audio and text instructions if you carry out the corresponding
-  action before the instructor has finished speaking, or - if this is intended for the
+  action before the instructor has finished speaking them, or - if this is intended for the
   corresponding step - simply press the key "Spacebar". Note that the aircraft system
   status must be set according to the instructions in order to be able to continue with
   the next step.
@@ -249,8 +252,8 @@ If you are absolutely stuck in the lesson, you should take the following steps o
 other:
 
 - Stay calm; the two most important pilot rules apply:
-  1. Aviate, navigate, communicate.
-  2. Don't crash, and above all: don't break anything!
+    1. Aviate, navigate, communicate.
+    2. Don't crash, and above all: don't break anything!
 
 - Check whether everything in the aircraft is actually set up as required according to the
   checklist/procedure. If necessary, go up the list a few steps and again check each step
@@ -264,11 +267,11 @@ other:
   Jump back to the beginning of the procedure (how to do this is explained above)
 
 - If all that doesn't help:
-  - Quit the mission and save the DEBRIEFING (log-file) and the TRACK (trk-file) in the
+    - Quit the mission and save the DEBRIEFING (log-file) and the TRACK (trk-file) in the
       debriefing screen
-  - If you suspect a bug, you can open a new ticker in the Phantom area of the DCS
+    - If you suspect a bug, you can open a new ticker in the Phantom area of the DCS
       Forum. Note: The more information there is, the more likely we are to find errors.
-  - In any case, we recommend to restart DCS and load the mission again. Sorry for that!
+    - In any case, we recommend to restart DCS and load the mission again. Sorry for that!
 
 ## Lesson 02 - Taxi
 
@@ -291,19 +294,18 @@ All Dodge flights complete familiarization and training flights at the airfield.
 
 ### Lesson 02 - Aircraft
 
-Your aircraft is already "hot on the ramp number #25" with both engines running, the nose is
-pointed towards the runway. All aircraft systems are set to the positions in which you left in
-the previous lesson.
+Your aircraft is already "hot on the ramp #25" with both engines running, the nose is pointed
+towards the runway. All aircraft systems are set to the positions in which you left in the previous
+lesson. The Dash-60 ground power unit is already removed.
 
 ![lesson_02_ramp](../img/Lesson02_Slot_Ramp_no25.jpg)
 
-The "crew chief" has changed his position to front right of your aircraft and is waiting to
+The "crew chief" has changed his position to forward right of your aircraft and is waiting to
 support you.
 
 ![lesson2_crew_chief](../img/Lesson02_Crew_chief_Ramp_no25.jpg)
 
-His assistant is standing by on your front left side. The Dash-60 ground power unit is already
-removed.
+His assistant is standing by on your forward left side.
 
 ![lesson2_crew_chief_assistant](../img/Lesson02_Crew_chief_assistant_Ramp_no25.jpg)
 
@@ -334,7 +336,8 @@ Here are some special tips for lesson 02:
 
 - Task 2 > Introduction
   Observe that the audio containing the taxi clearance by ATC is played through your UHF radio.
-  Therefore, if you turn off or tune down the volume of the radio, or route the audio signals to some
+  Therefore, if you turn off or tune down the volume of the radio, or route the audio signals to
+  some
   other audio device tuned down in volume, you might not hear the call correctly. In any way, the
   spoken text can be read on the upper right corner of the screen, and the lesson continues.
 
@@ -347,11 +350,17 @@ Here are some special tips for lesson 02:
   The flight controls check can be omitted in case it becomes too difficult. Use the FIRE
   TEST BUTTON on the instrument panel before or during performing this check to skip it.
   The reason for this is that for this check a few things have to be done in parallel:
-  - Listening to our instructor
-  - Performing the inputs on the flight control system (movements and button/switch
+    - Listening to our instructor
+    - Performing the inputs on the flight control system (movements and button/switch
       presses/settings)
-  - Listening to the confirmation given by the crew chief
-  - Pressing "Spacebar" after receiving the crew chief's confirmation
+    - Listening to the confirmation given by the crew chief
+    - Pressing "Spacebar" after receiving the crew chief's confirmation
+- Task 2 > Introduction
+  Observe that the audio containing the taxi clearance by ATC is played through your UHF radio.
+  Therefore, if you turn off or tune down the volume of the radio, or route the audio signals to
+  some other audio device tuned down in volume, you might not hear the call correctly. In any
+  way, the spoken text can be read on the upper right corner of the screen, and the lesson
+  continues.
 
 ## Lesson 03 - Normal Takeoff
 
@@ -409,56 +418,56 @@ The basic tips are the same as for Lesson 01 (see above).
 Here are some special tips for lesson 03:
 
 - Task 1 > Steps 4a) - 4e)
-The flight controls check only requires to check if the stick is moving freely (at least 50%
-of the stick deflection must be made). You can also check the rudders, but this is not
-required by that step.
+  The flight controls check only requires to check if the stick is moving freely (at least 50%
+  of the stick deflection must be made). You can also check the rudders, but this is not
+  required by that step.
 - Task 1 > Step 10)
-Having the MASTER CAUTION alert active indicates something is or at least was wrong. So
-reset it, then check if it stays out.
+  Having the MASTER CAUTION alert active indicates something is or at least was wrong. So
+  reset it, then check if it stays out.
 
 - Task 2 > Step 1)
-Observe that the audio containing the line-up clearance by ATC is played through your UHF
-radio. Therefore, if you turn off or tune down the volume of the radio, or route the audio
-signals to some other audio device tuned down in volume, you might not hear the call
-correctly. In any way, the spoken text can be read on the upper right corner of the screen,
-and the lesson continues.
+  Observe that the audio containing the line-up clearance by ATC is played through your UHF
+  radio. Therefore, if you turn off or tune down the volume of the radio, or route the audio
+  signals to some other audio device tuned down in volume, you might not hear the call
+  correctly. In any way, the spoken text can be read on the upper right corner of the screen,
+  and the lesson continues.
 - Task 4 > Introduction
-Observe that the audio containing the take-off clearance by ATC is played through your UHF
-radio. Therefore, if you turn off or tune down the volume of the radio, or route the audio
-signals to some other audio device tuned down in volume, you might not hear the call
-correctly. In any way, the spoken text can be read on the upper right corner of the screen,
-and the lesson continues.
+  Observe that the audio containing the take-off clearance by ATC is played through your UHF
+  radio. Therefore, if you turn off or tune down the volume of the radio, or route the audio
+  signals to some other audio device tuned down in volume, you might not hear the call
+  correctly. In any way, the spoken text can be read on the upper right corner of the screen,
+  and the lesson continues.
 - Task 4 > Step 5)
-For beginners, we recommend to perform the first take-off without afterburner (just MIL
-power, which means 100% rpm without afterburner), despite we know that taking off with
-afterburner is a ton of fun. The reason behind is, that you will then be able to hear all
-call-outs of your instructor, because the time needed for the take-off is long enough.
-Whenever you think you manage all steps by heart that are necessary for a safe take-off
-without any instructions, go for a take-off with afterburner. Please don't tell our SME's
-that this text exists at all, and never tell someone that you have followed the
-recommendation ...
+  For beginners, we recommend to perform the first take-off without afterburner (just MIL
+  power, which means 100% rpm without afterburner), despite we know that taking off with
+  afterburner is a ton of fun. The reason behind is, that you will then be able to hear all
+  call-outs of your instructor, because the time needed for the take-off is long enough.
+  Whenever you think you manage all steps by heart that are necessary for a safe take-off
+  without any instructions, go for a take-off with afterburner. Please don't tell our SME's
+  that this text exists at all, and never tell someone that you have followed the
+  recommendation ...
 - Task 4 > Step 8)
-In DCS, with the current wind situation (no cross wind component), it is really not
-necessary to use the nose gear steering. You will only be reminded by the instructor in case
-you use the nose gear steering above 70 knots.
+  In DCS, with the current wind situation (no cross wind component), it is really not
+  necessary to use the nose gear steering. You will only be reminded by the instructor in case
+  you use the nose gear steering above 70 knots.
 - Task 4 > Step 11)
 
 Pitch trim is best done in a number of quick pulses instead of one long press to avoid over-
 trimming.
 
 - Task 4 > Steps 13)
-Make sure to have flaps retracted before reaching 250 knots, but there is a certain safety
-buffer and they should not be damaged at exactly 250 knots.
+  Make sure to have flaps retracted before reaching 250 knots, but there is a certain safety
+  buffer and they should not be damaged at exactly 250 knots.
 - Task 5 > Step 1)
-Make sure to fly a heading of about 064° and climb after lift-off.
-Make sure to fly at an airspeed of not more than 350 knots.
-Fly a shallow climb when using no afterburner (about 10° pitch angle).
-Fly a steep climb when using afterburner (about 30° pitch angle).
+  Make sure to fly a heading of about 064° and climb after lift-off.
+  Make sure to fly at an airspeed of not more than 350 knots.
+  Fly a shallow climb when using no afterburner (about 10° pitch angle).
+  Fly a steep climb when using afterburner (about 30° pitch angle).
 - After reaching a certain altitude and airspeed with gear and flaps up, the lesson is
-accomplished. You may continue the climb following the route which is commanded by your
-instructor.
-If you are lost in space somehow, go to the F-10 map, click on your aircraft, and then see
-the planned route. You may then follow it more easily.
+  accomplished. You may continue the climb following the route which is commanded by your
+  instructor.
+  If you are lost in space somehow, go to the F-10 map, click on your aircraft, and then see
+  the planned route. You may then follow it more easily.
 - Task 6 > Step 1d)
-There is currently no way of comparing the values on both altimeters. This step was kept in
-the procedure just in case you need it when operating with a real WSO in the rear seat.
+  There is currently no way of comparing the values on both altimeters. This step was kept in
+  the procedure just in case you need it when operating with a real WSO in the rear seat.
