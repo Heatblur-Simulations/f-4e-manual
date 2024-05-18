@@ -451,7 +451,6 @@ Here are some special tips for lesson 03:
   necessary to use the nose gear steering. You will only be reminded by the instructor in case
   you use the nose gear steering above 70 knots.
 - Task 4 > Step 11)
-
 Pitch trim is best done in a number of quick pulses instead of one long press to avoid over-
 trimming.
 
