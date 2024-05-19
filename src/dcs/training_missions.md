@@ -267,11 +267,11 @@ other:
   Jump back to the beginning of the procedure (how to do this is explained above)
 
 - If all that doesn't help:
-  - Quit the mission and save the DEBRIEFING (log-file) and the TRACK (trk-file) in the
+    - Quit the mission and save the DEBRIEFING (log-file) and the TRACK (trk-file) in the
       debriefing screen
-  - If you suspect a bug, you can open a new ticker in the Phantom area of the DCS
+    - If you suspect a bug, you can open a new ticker in the Phantom area of the DCS
       Forum. Note: The more information there is, the more likely we are to find errors.
-  - In any case, we recommend to restart DCS and load the mission again. Sorry for that!
+    - In any case, we recommend to restart DCS and load the mission again. Sorry for that!
 
 ## Lesson 02 - Taxi
 
@@ -350,11 +350,11 @@ Here are some special tips for lesson 02:
   The flight controls check can be omitted in case it becomes too difficult. Use the FIRE
   TEST BUTTON on the instrument panel before or during performing this check to skip it.
   The reason for this is that for this check a few things have to be done in parallel:
-  - Listening to our instructor
-  - Performing the inputs on the flight control system (movements and button/switch
+    - Listening to our instructor
+    - Performing the inputs on the flight control system (movements and button/switch
       presses/settings)
-  - Listening to the confirmation given by the crew chief
-  - Pressing "Spacebar" after receiving the crew chief's confirmation
+    - Listening to the confirmation given by the crew chief
+    - Pressing "Spacebar" after receiving the crew chief's confirmation
 - Task 2 > Introduction
   Observe that the audio containing the taxi clearance by ATC is played through your UHF radio.
   Therefore, if you turn off or tune down the volume of the radio, or route the audio signals to
@@ -446,13 +446,17 @@ Here are some special tips for lesson 03:
   without any instructions, go for a take-off with afterburner. Please don't tell our SME's
   that this text exists at all, and never tell someone that you have followed the
   recommendation ...
+- Take-off:
+  Before taking off, go through the takeoff procedure. You need to remember the items by heart:
+  No NGS after 70 knots / Full aft stick by 80 knots / Hold 10 to 12° nose up / Raise the gear &
+  flaps as soon as airborne / Trim as needed
 - Task 4 > Step 8)
   In DCS, with the current wind situation (no cross wind component), it is really not
   necessary to use the nose gear steering. You will only be reminded by the instructor in case
   you use the nose gear steering above 70 knots.
 - Task 4 > Step 11)
-Pitch trim is best done in a number of quick pulses instead of one long press to avoid over-
-trimming.
+  Pitch trim is best done in a number of quick pulses instead of one long press to avoid over-
+  trimming.
 
 - Task 4 > Steps 13)
   Make sure to have flaps retracted before reaching 250 knots, but there is a certain safety
@@ -470,3 +474,127 @@ trimming.
 - Task 6 > Step 1d)
   There is currently no way of comparing the values on both altimeters. This step was kept in
   the procedure just in case you need it when operating with a real WSO in the rear seat.
+
+## Lesson 04 - Visual approach
+
+### Lesson 04 - Weather
+
+The weather has become pretty nice. The clouds have disappeared more or less, and the ground-level
+haze is less visible due to the quickly rising temperature. Wind speed and direction still haven't
+changed so far.
+
+![lesson04_kobuleti_wx](../img/Lesson04_Kobuleti_WX.jpg)
+
+### Lesson 04 - Slots
+
+Slots haven't changed.
+#1 Dodge 31 (AI, already on ground)
+#2 Dodge 41 (AI, already on ground)
+#3 Dodge 21 (AI, already on ground)
+#4 Dodge 22 (AI, already on ground)
+#5 Dodge 11 (you, in-flight inbound turnpoint 7)
+All Dodge flights complete familiarization and training flights at the airfield.
+
+### Lesson 04 - Aircraft
+
+Your aircraft is already "in flight" inbound turnpoint 7 at 22,000ft altitude at Mach 0.7. All
+systems are set in a way as they would be after a typical air-to-air training, thus it will be
+required to prepare the aircraft for the upcoming approach and landing.
+
+![lesson_04_slot](../img/Lesson04_Slot_In-Flight.jpg)
+
+### Lesson 04 - Audio & text
+
+Your instructor speaks from the back seat, always listen carefully. Assume that everything he says
+is important. As an aid, all of the text he speaks is displayed at the top right of the screen. If
+you don't notice or understand something, you can always read it above. The texts remain visible on
+the screen for a maximum of 1000 seconds until they either disappear by themselves or are replaced
+by new texts.
+
+### Lesson 04 - Tasks & steps
+
+The lessons are divided into tasks, which are based on the names of the procedures. These tasks are
+divided into individual steps, whereby the steps go hand in hand with the individual items in the
+procedure.
+
+The tasks for this lesson are:
+
+- Task 1: Check aircraft for landing while in cruise flight.
+- Task 2: Prepare the aircraft for landing while in the downwind RWY 07.
+- Task 3: Land the aircraft on RWY 07.
+- Task 4: Secure the aircraft while taxiing back to the parking position PRK 25.
+
+### Lesson 04 - Tips & tricks
+
+The basic tips are the same as for Lesson 01 (see above).
+Here are some special tips for lesson 04:
+
+- Trim the jet:
+  Pitch trim is best done in a number of quick pulses instead of one long press to avoid
+  over-trimming.
+- Autopilot:
+  Use the autopilot modes "attitude hold" and "altitude hold" whenever you think you need your hands
+  free. The system is a great assistant, so use it!
+- DME distances:
+  DME distance information is shown on the lower left corner of the HSI.
+
+![lesson04_dme_distance](../img/Lesson04_HSI_DME.jpg)
+
+- HSI course settings:
+  The course setting can be changed with the COURSE SET KNOB on the lower right corner of the HSI:
+
+![lesson04_hsi_course](../img/Lesson04_HSI_HDG.jpg)
+
+- Task 1 > Step 4:
+  If you can't reach the COMM Antenna Select Switch, move the throttles back for a moment.
+
+![lesson04_comm_antenna](../img/Lesson04_COMM_Antenna_switch.jpg)
+
+- Task 1 > Step 8:
+  The transition altitude in this particular region is 4,000m (13,120 ft), and the transition level
+  is
+  flight level 140 (FL140, which is 14,000 feet). When you descend through 14,000 feet, you have to
+  set your altimeter to the value of the local QNH (which today is 29.84 in/HG). It's no big deal if
+  you forget about that, it is not relevant for the outcome of the lesson.
+- PENETRATION / DESCENT:
+  Follow the instructions as good as possible. You may engage the attitude hold autopilot during
+  descent and focus on airspeed and power management. Don't forget to set the QNH once passing the
+  transition level (in this case 14,000 feet).
+- PENETRATION / TURN:
+  Fly a shallow left turn. If you have already reached 2,500 feet altitude, good. If you are still
+  higher, continue descending during the left turn until reaching 2500 feet. Keep an eye on your
+  sink
+  rate. Fly smoothly, and don't work hard on the stick. Intercept radial 064 as good as you can in
+  order to align on the runway heading. Treat her like a lady, and think ahead! Use the F-10 map if
+  you got lost in space. Don't rush into Batumi airspace.
+  Landing permission is already given. You are the last flight approaching the airfield for the next
+  two hours.
+- Task 2:
+  Remember these five items by heart: GEAR / FLAPS / HYDRAULIC PRESSURE / WARNING LIGHTS / ANTI SKID
+- Task 3:
+  If you fly correct airspeeds, all instructions can be heard until the end. If you rush, the
+  timeline
+  becomes compressed and the sequence of events then may become overwhelming.
+  During the approach continuously cross check Pitch / Power / Trim. Look out for the runway, adjust
+  your heading with slight roll maneuvers if necessary. Rise the seat in case you have troubles
+  seeing
+  the runway at higher angles of attack. Fly gently, follow the instructions, and think ahead!
+- Go-around:
+  In case you have the slightest doubt that you cannot manage a safe landing: GO AROUND. Fly the
+  missed approach procedure by entering a short left hand traffic pattern at 1500 feet at 250 knots.
+  Take your time, be patient with yourself, don't rush and keep an eye on airspeed and altitude!
+- Landing / flare:
+  The aircraft was not certified for carrier landings. If you don't flare before touchdown at a 2°
+  to 3° approach path, you WILL slam the aircraft into the runway. This causes wear to the wheels
+  and the landing gear legs, but nothing more. You may decide on your own if you want to flare just
+  a bit to decrease the sink rate slightly. Sink rates above 5 m/s might damage the landing gear
+  though.
+- Landing / touchdown:
+  Make sure to stay aligned with the centerline using rudder only. Prepare yourself to deploy the
+  drag chute, which stabilizes the aircraft during the landing roll. Taxi to the end of the runway
+  and then leave it to the right side!
+- Taxi:
+  Follow the marshaller after leaving the runway. If you struggle performing the "After landing
+  procedure " while taxiing, you may stop the aircraft on the taxi way for that. The car though
+  will not stop. When finished with the procedure, continue taxiing to your initial parking
+  position, nose pointed towards shelter "25", and stop there.
