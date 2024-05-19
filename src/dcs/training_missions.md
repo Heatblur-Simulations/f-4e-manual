@@ -174,11 +174,8 @@ items in the procedure.
 The tasks for this lesson are:
 
 - Task 1: Check the aircraft and essential switches before applying external power.
-
 - Task 2: Perform the internal inspection of the aircraft.
-
 - Task 3: Prepare the aircraft for engine start.
-
 - Task 4: Start the engines.
 
 ### Lesson 01 - Tips & tricks
@@ -189,37 +186,28 @@ next.
 Here are some general tips & tricks as created by testers during the testing phase:
 
 - Initially, wait until the other jets have taken off before beginning with the lesson.
-
 - Adjust the volume of DCS to suit the audio hardware you are using.
-
 - Press "Pause" whenever you need to interrupt the lesson; the simulation pauses
   completely.
-
 - Press "Active Pause" whenever you want to check something but want the simulation to
   continue running.
-
 - You can skip playing the audio and text instructions if you carry out the corresponding
   action before the instructor has finished speaking them, or - if this is intended for the
   corresponding step - simply press the key "Spacebar". Note that the aircraft system
   status must be set according to the instructions in order to be able to continue with
   the next step.
-
 - You can jump back one step in a task. You can do this via the communication menu > F10
   Other ... "Back to step #". This is possible for most of the steps. The aircraft status
   is then automatically reset to the appropriate status. Please give the simulation a
   little time to adjust everything accordingly.
-
 - You can jump to the beginning of a task. This works via the communication menu > F10
   Other ... "Back to procedure introduction". This is possible for many tasks. The
   aircraft status is then automatically reset to the appropriate status. Please give the
   simulation a little time to adjust everything accordingly.
-
 - If you don't need the automatically displayed checklists, you can hide them via the
   communication menu > F10 Other ... "Disable pictures".
-
 - If you don't need help in the form of yellow frames around cockpit elements, you can
   hide them via the communication menu > F10 Other ... "Disable highlights".
-
 - You can show the DCS internal kneeboard at any time. Flip back a few pages and you will
   find the lesson related checklists there too, they are exactly the same as those that
   can be displayed automatically.
@@ -229,7 +217,6 @@ Here are some general tips & tricks as created by testers during the testing pha
 - Task 4:
   Let the instructor speak to the end of each instruction, there is enough time for the
   actions to be carried out.
-
 - Task 4: Step 4b)
   Be careful when opening the fuel, this should not be done before 10% RPM! If you see the
   EGT rising above 700°C, immediately cut off the fuel by moving the throttle lever to the
