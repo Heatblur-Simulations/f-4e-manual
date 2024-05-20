@@ -58,7 +58,7 @@ This is especially useful for builders of cockpit replicas, working mainly with
 hardware switches whose electronic components send normalized inputs through the
 entire movement range.
 
-## Jester & Chief Commands
+## Jester & Crew Chief Commands
 
 Direct binds to control Jester and Crew Chief commands are provided especially
 for mission designers or users of voice recognition software, such as
@@ -71,7 +71,7 @@ using the UI to select them.
 
 ## Binding Guide
 
-When just getting started, a common question is which controls one should
+When just getting started, a common question is which fundamental controls one should
 generally bind and have accessible without using the mouse, besides the obvious
 binds of throttle and stick axis.
 
@@ -100,19 +100,22 @@ relevant switches.
 
 To execute the cold-start sequence, binds of interest are:
 
+- Crew Chief Command: External Power > Connect
+- Crew Chief Command: Air Source > Connect to Right/Left Engine
+- Crew Chief Command: Air Source > Start/Stop Airflow
 - Crew Chief Command: Air Source > Load Starter Cartridges
-- Start Engine Switch Left/Right (fires up Starter Cartridges)
-- Generator Left/Right _(On, Off, Ext)_
-- Left/Right Engine Master Switch
-- **Left/Right Engine Ignition**
-- Left/Right Engine Idle Detent
+- Start Engine Switch Right/Left (fires up Starter Cartridges)
+- Generator Right/Left _(On, Off, Ext)_
+- Right/Left Engine Master Switch
+- **Right/Left Engine Ignition**
+- Right/Left Engine Idle Detent
 
 #### Combat
 
-- **Trigger**
+- **Trigger (2nd stage)**
 - **Bomb Button**
 - **Weapon Slew** _(4)_
-- **Pinky Switch** _(Gun, Heat, Radar)_
+- **Pinky Switch** _(Gun, Heat, Radar, Reject)_
 - **CAGE Button**
 - **Nose Gear Steering / Auto Acquisition Button**
 - DSCG Mode _(Radar, Off, TV)_
@@ -124,13 +127,16 @@ To execute the cold-start sequence, binds of interest are:
 
 #### Navigation
 
-- **Microphone Switch** _(UHF, ICS)_
 - Navigation Input _(Next)_
 - Navigation Mode _(Next)_
-- COM Channel _(Inc, Dec)_
 - AFCS Switch
 - ALT Hold Switch
 - AAR Release Switch
+
+#### Communication
+
+- **Microphone Switch** _(UHF, ICS)_
+- COMM Channel _(Inc, Dec)_
 
 #### Jester
 
@@ -172,3 +178,29 @@ pod.
 - **Microphone Switch** _(UHF, ICS)_
 - COM Channel _(Inc, Dec)_
 - **Navigation Function** _(CW, CCW)_
+
+### Real Controls
+
+Here are the pictures of the real aircraft controls gathered for reference.
+For more detailed information see associated subchapters of
+[2. Cockpit Overview](../cockpit/overview.md) by using the respective hyperlinks.
+
+#### [Pilot Stick](../cockpit/pilot/stick_seat.md#stick)
+
+![Pilot Stick](../img/pilot_stick.jpg)
+
+#### [Pilot Throttle](../cockpit/pilot/left_console/front_section.md#throttles)
+
+![Pilot Throttle](../img/pilot_throttle.jpg)
+
+#### [WSO Stick](../cockpit/wso/stick_seat.md#stick)
+
+![WSO Stick](../img/wso_stick.jpg)
+
+#### [WSO Throttle](../cockpit/wso/left_console/center_section.md#throttles)
+
+![WSO Throttle](../img/wso_throttles.jpg)
+
+#### [WSO Antenna Hand Control](../cockpit/wso/right_console/front_section.md#antenna-hand-control)
+
+![WSO Antenna Hand Control](../img/wso_antenna_hand_control_overview.jpg)
