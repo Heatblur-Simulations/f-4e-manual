@@ -70,8 +70,8 @@ will temporarily disable the pitch attitude hold as well altitude hold.
 
 Default values are 1% for roll and 2% for pitch.
 
-> 💡 To check wheter the breakout is currently activated you can use the controls
-indicator and look for the text below it.
+> 💡 To check wheter the breakout is currently activated you can use the
+> controls indicator and look for the text below it.
 
 For more info see
 [Force Transducer](../systems/flight_controls_gear/flight_controls.md#force-transducer).
@@ -207,3 +207,16 @@ gain of the forces per axis.
 
 The default setting is 100% for Roll and Pitch axis. Greater values will
 increase the force used by the stick, while smaller values will decrease it.
+
+## Lower Simulation Update Rate
+
+This **experimental option** allows reducing the update rate of the majority of
+the planes components.
+
+Doing so may reduce the stress on the CPU, improving game performance for
+machines that are bottlenecked by their CPU.
+
+However, it can also result in not only visual cuts, such as animations running
+slower, but will also cause some systems to degrade. For example the Pave Spike,
+running slower, can not update its ground stabilization algorithm fast enough
+anymore. So ticking this option can cause issues and lead to bugs.
