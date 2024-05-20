@@ -38,3 +38,12 @@ However, unless guided by another aircraft,
 [TGT FIND](employment/accurate_modes.md#target-find---tgt-find) in combination
 with a [Pave Spike](../../../systems/weapon_systems/pave_spike/overview.md)
 targeting pod is the main mode to employ GBUs with.
+
+The laser code used by bombs can be set on the ground by the
+[Crew Chief](../../../crew_chief/overview.md). The laser used for guiding with
+the Pave Spike is set on the
+[Laser Coder Control](../../../cockpit/wso/right_console/front_section.md#laser-coder-control)
+by the WSO.
+
+> 🚧 New options to set laser codes directly while loading weapons through the
+> re-arming menu will be supported soon.
