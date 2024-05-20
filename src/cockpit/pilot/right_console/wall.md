@@ -72,7 +72,7 @@ other systems important for safe operation of the aircraft.
 - STAB Feel-Trim (<num>2</num>)
 - Speed Brake (<num>3</num>)
 - Landing Gear (<num>4</num>)
-- Flaps ((<num>5</num>))
+- Flaps (<num>5</num>)
 - Trim Controls (<num>6</num>)
 - Rudder Trim (<num>7</num>)
 
