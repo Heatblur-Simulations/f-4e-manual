@@ -254,11 +254,11 @@ other:
   Jump back to the beginning of the procedure (how to do this is explained above)
 
 - If all that doesn't help:
-  - Quit the mission and save the DEBRIEFING (log-file) and the TRACK (trk-file) in the
+    - Quit the mission and save the DEBRIEFING (log-file) and the TRACK (trk-file) in the
       debriefing screen
-  - If you suspect a bug, you can open a new ticker in the Phantom area of the DCS
+    - If you suspect a bug, you can open a new ticker in the Phantom area of the DCS
       Forum. Note: The more information there is, the more likely we are to find errors.
-  - In any case, we recommend to restart DCS and load the mission again. Sorry for that!
+    - In any case, we recommend to restart DCS and load the mission again. Sorry for that!
 
 ## Lesson 02 - Taxi
 
@@ -337,11 +337,11 @@ Here are some special tips for lesson 02:
   The flight controls check can be omitted in case it becomes too difficult. Use the FIRE
   TEST BUTTON on the instrument panel before or during performing this check to skip it.
   The reason for this is that for this check a few things have to be done in parallel:
-  - Listening to our instructor
-  - Performing the inputs on the flight control system (movements and button/switch
+    - Listening to our instructor
+    - Performing the inputs on the flight control system (movements and button/switch
       presses/settings)
-  - Listening to the confirmation given by the crew chief
-  - Pressing "Spacebar" after receiving the crew chief's confirmation
+    - Listening to the confirmation given by the crew chief
+    - Pressing "Spacebar" after receiving the crew chief's confirmation
 - Task 2 > Introduction
   Observe that the audio containing the taxi clearance by ATC is played through your UHF radio.
   Therefore, if you turn off or tune down the volume of the radio, or route the audio signals to
@@ -571,11 +571,11 @@ Here are some special tips for lesson 04:
   missed approach procedure by entering a short left hand traffic pattern at 1500 feet at 250 knots.
   Take your time, be patient with yourself, don't rush and keep an eye on airspeed and altitude!
 - Landing / flare:
-  The aircraft was not certified for carrier landings. If you don't flare before touchdown at a 2°
+  The aircraft was certified for carrier landings. If you don't flare before touchdown at a 2°
   to 3° approach path, you WILL slam the aircraft into the runway. This causes wear to the wheels
   and the landing gear legs, but nothing more. You may decide on your own if you want to flare just
-  a bit to decrease the sink rate slightly. Sink rates above 5 m/s might damage the landing gear
-  though.
+  a bit to decrease the sink rate slightly. Sink rates above 3 to 4 m/s (600 to 700 ft/min)
+  depending on weight, might damage the landing gear though.
 - Landing / touchdown:
   Make sure to stay aligned with the centerline using rudder only. Prepare yourself to deploy the
   drag chute, which stabilizes the aircraft during the landing roll. Taxi to the end of the runway
