@@ -162,6 +162,8 @@ mode of operation of the radar.
 | BEACON  | Radar receives and displays signals from ground or airborne beacon transponders for navigation.                                                                                                              |
 | TV      | Not used with DSCG. De-tunes [AIM-7](../../../stores/air_to_air/aim_7.md) if selected, preventing Sparrows from guiding.                                                                                     |
 
+> 💡 Beacons are currently not implemented in DCS and thus can't be used
+
 [See Mode Knob Section for more details](../../../systems/radar/interface.md#radar-modes-mode)
 
 ### Skin Track Light
