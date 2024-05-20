@@ -11468,14 +11468,16 @@ for configuring head-tracking.</p>
 selection under the cursor.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="navigation"><a class="header" href="#navigation">Navigation</a></h1>
 <p><img src="jester/../img/map_2.jpg" alt="real_life_crew_with_map" /></p>
-<p>Navigation with Jester revolves around managing turn points for up to two flight
-plans.</p>
+<p>Navigation with Jester revolves around managing turn points for two flight plans:
+the Primary Flight Plan and the Secondary Flight Plan. Both can be edited and followed
+by Jester in the same manner, although Primary Flight Plan is considered the main
+one and the Secondary Flight Plan serves as a backup.</p>
 <h2 id="flight-plan"><a class="header" href="#flight-plan">Flight Plan</a></h2>
 <p>A flight plan consists of multiple turn points. They can be inserted, deleted or
 edited by the player through the UI, map or mission editor.</p>
 <p><img src="jester/../img/jester_nav_edit_turn_points.jpg" alt="Edit Turn Points" /></p>
 <p>If the mission has assigned the aircraft a series of waypoints through the
-mission editor, this will be available by default as the first flight plan.</p>
+mission editor, this will be available by default as the Primary Flight Plan.</p>
 <h3 id="map-marker"><a class="header" href="#map-marker">Map Marker</a></h3>
 <p>Using the <kbd>F10</kbd> map view in DCS, players can create named markers on
 the map simply by double clicking the desired position after selecting <strong>Mark
@@ -11485,8 +11487,7 @@ Label</strong> at the top row in the UI.</p>
 flight plan.</p>
 <p><img src="jester/../img/jester_nav_map_markers_ui.jpg" alt="Select Map Marker" /></p>
 <h3 id="tune-asset"><a class="header" href="#tune-asset">Tune Asset</a></h3>
-<p>The UI offers a list of nearby assets, such as ships, tankers or ground stations
-with radio capabilities.</p>
+<p>The UI offers a list of nearby assets, such as ships, tankers or ground stations.</p>
 <p>Their current position can be imported as turn point directly.</p>
 <blockquote>
 <p>💡 For moving assets like tankers, their actual position might vary from the
@@ -11527,19 +11528,20 @@ corresponding indication on the HSI.</p>
 <h3 id="divert"><a class="header" href="#divert">Divert</a></h3>
 <p>Besides following the flight plan, Jester is capable of diverting to a different
 unplanned turn point using <strong>TGT 1</strong>.</p>
-<p>Through the UI, players can switch between using TGT 1 (deviate) and TGT 2
-(flight plan) at any time.</p>
+<p>Through the UI, players can switch between the diversion (TGT1) and flight plan
+(TGT2) at any time.</p>
 <p><img src="jester/../img/jester_nav_divert_option.jpg" alt="Divert Option" /></p>
 <h3 id="pause--resume-route"><a class="header" href="#pause--resume-route">Pause &amp; Resume Route</a></h3>
 <p>An active flight plan is indicated by the UI using an asterisk <code>*</code> next to the
 current turn point.</p>
 <p>Automatic turn point switching can be temporarily disabled per turn point using
-the <strong>Toggle Hold At</strong> option. Turn points designated for holding are marked
+the <strong>Holding</strong> option. Turn points designated for holding are marked
 with a <code>h</code>.</p>
-<p><img src="jester/../img/jester_nav_turn_point_modifiers.jpg" alt="Turn Point Modifiers" /></p>
-<p>When a flight plan has been paused, for example because the pilot deviated to a
-different point using TGT 1, they can be reactivated through the UI again by
-using the <strong>Resume Flight Plan</strong> option.</p>
+<p><img src="jester/../img/jester_nav_resume_flightplan.jpg" alt="Turn Point Modifiers" /></p>
+<p><img src="jester/../img/jester_nav_holding.jpg" alt="Turn Point Holding" /></p>
+<p>When a flight plan has been paused, for example, because the pilot diverted to a
+different point (using TGT 1), it can be reactivated through the UI again by
+using the <strong>Go To/Resume</strong> option.</p>
 <p>This also offers the possibility to skip turn points by jumping directly to any
 turn point in its sequence, as well as returning to previous points or resuming
 from a point designated for holding.</p>
