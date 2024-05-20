@@ -14448,8 +14448,8 @@ neutral.</p>
 </blockquote>
 <p>Default values are 1% for roll and 2% for pitch.</p>
 <blockquote>
-<p>💡 To check wheter the breakout is currently activated you can use the controls
-indicator and look for the text below it.</p>
+<p>💡 To check wheter the breakout is currently activated you can use the
+controls indicator and look for the text below it.</p>
 </blockquote>
 <p>For more info see
 <a href="dcs/../systems/flight_controls_gear/flight_controls.html#force-transducer">Force Transducer</a>.</p>
@@ -14555,6 +14555,15 @@ obsolete.</p>
 gain of the forces per axis.</p>
 <p>The default setting is 100% for Roll and Pitch axis. Greater values will
 increase the force used by the stick, while smaller values will decrease it.</p>
+<h2 id="lower-simulation-update-rate"><a class="header" href="#lower-simulation-update-rate">Lower Simulation Update Rate</a></h2>
+<p>This <strong>experimental option</strong> allows reducing the update rate of the majority of
+the planes components.</p>
+<p>Doing so may reduce the stress on the CPU, improving game performance for
+machines that are bottlenecked by their CPU.</p>
+<p>However, it can also result in not only visual cuts, such as animations running
+slower, but will also cause some systems to degrade. For example the Pave Spike,
+running slower, can not update its ground stabilization algorithm fast enough
+anymore. So ticking this option can cause issues and lead to bugs.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="embedded-manual"><a class="header" href="#embedded-manual">Embedded Manual</a></h1>
 <p><img src="dcs/../img/ingame_manual.jpg" alt="Embedded Manual" /></p>
 <p>This manual is embedded into the game and can be read while flying.</p>
