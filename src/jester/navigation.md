@@ -2,8 +2,10 @@
 
 ![real_life_crew_with_map](../img/map_2.jpg)
 
-Navigation with Jester revolves around managing turn points for up to two flight
-plans.
+Navigation with Jester revolves around managing turn points for two flight plans:
+the Primary Flight Plan and the Secondary Flight Plan. Both can be edited and followed
+by Jester in the same manner, although Primary Flight Plan is considered the main
+one and the Secondary Flight Plan serves as a backup.
 
 ## Flight Plan
 
@@ -13,7 +15,7 @@ edited by the player through the UI, map or mission editor.
 ![Edit Turn Points](../img/jester_nav_edit_turn_points.jpg)
 
 If the mission has assigned the aircraft a series of waypoints through the
-mission editor, this will be available by default as the first flight plan.
+mission editor, this will be available by default as the Primary Flight Plan.
 
 ### Map Marker
 
@@ -30,8 +32,7 @@ flight plan.
 
 ### Tune Asset
 
-The UI offers a list of nearby assets, such as ships, tankers or ground stations
-with radio capabilities.
+The UI offers a list of nearby assets, such as ships, tankers or ground stations.
 
 Their current position can be imported as turn point directly.
 
@@ -87,8 +88,8 @@ corresponding indication on the HSI.
 Besides following the flight plan, Jester is capable of diverting to a different
 unplanned turn point using **TGT 1**.
 
-Through the UI, players can switch between using TGT 1 (deviate) and TGT 2
-(flight plan) at any time.
+Through the UI, players can switch between the diversion (TGT1) and flight plan
+(TGT2) at any time.
 
 ![Divert Option](../img/jester_nav_divert_option.jpg)
 
@@ -98,14 +99,16 @@ An active flight plan is indicated by the UI using an asterisk `*` next to the
 current turn point.
 
 Automatic turn point switching can be temporarily disabled per turn point using
-the **Toggle Hold At** option. Turn points designated for holding are marked
+the **Holding** option. Turn points designated for holding are marked
 with a `h`.
 
-![Turn Point Modifiers](../img/jester_nav_turn_point_modifiers.jpg)
+![Turn Point Modifiers](../img/jester_nav_resume_flightplan.jpg)
 
-When a flight plan has been paused, for example because the pilot deviated to a
-different point using TGT 1, they can be reactivated through the UI again by
-using the **Resume Flight Plan** option.
+![Turn Point Holding](../img/jester_nav_holding.jpg)
+
+When a flight plan has been paused, for example, because the pilot diverted to a
+different point (using TGT 1), it can be reactivated through the UI again by
+using the **Go To/Resume** option.
 
 This also offers the possibility to skip turn points by jumping directly to any
 turn point in its sequence, as well as returning to previous points or resuming
