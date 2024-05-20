@@ -32,7 +32,7 @@
 |         | f. Hydraulic Pressure        | WITHIN LIMITS       |
 | **8.**  | **Right Generator**          | **ON**              |
 | 9.      | Spoiler Actuator             | CHECK (LEFT)🔧      |
-| 10.     | Air Refueling door           | CHECK🔧             |
+| 10.     | Air Refueling door           | CHECK🔧 (if required) |
 | **11.** | **Left Engine**              | **START PER STEPS 1-8** |
 | 12.     | Right Generator              | CYCLE OFF/ON     |
 | 13.     | Bus Tie Open Light           | OUT                 |
