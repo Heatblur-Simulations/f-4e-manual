@@ -2,6 +2,8 @@
 
 > 🚧 This section is under construction.
 
+![Mission Planning](../img/planning.jpg)
+
 Optimum use of the aircraft to obtain maximum performance with minimum fuel
 consumption requires careful preflight planning for the mission. The planning of
 a mission involves many things which are beyond the scope of this publication.
@@ -47,7 +49,7 @@ Sure, here's your information converted into Markdown tables:
 Takeoff:
 
 | Parameter          | Value            |
-| ------------------ | ---------------- |
+|--------------------|------------------|
 | Wind               | Calm             |
 | Pressure altitude  | 2000 Ft          |
 | Temperature        | +38.5°C          |
@@ -61,7 +63,7 @@ Takeoff:
 Landing:
 
 | Parameter         | Value   |
-| ----------------- | ------- |
+|-------------------|---------|
 | Wind              | 020°/10 |
 | Pressure altitude | 2000 Ft |
 | Temperature       | +20°C   |
