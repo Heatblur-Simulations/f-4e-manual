@@ -1,5 +1,8 @@
 # Liveries
 
+*"We got them in two-tone gray. We got them in two-tone green.
+We can get them in hot fuchsia pink."*
+
 Creating Liveries for our F-4E can be tedious work.
 
 Typically, the largest chunk of time goes into researching on the web and in

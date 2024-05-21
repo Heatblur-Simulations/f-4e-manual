@@ -1,5 +1,10 @@
 # Engines and Fuel System
 
+*"This baby will go, and old Smokey will never catch it,
+because it's got a state-of-the-art fuzz buster inside.
+Now, it's not legal in all countries, but I'll tell you what,
+Cal won't tell, no siree."*
+
 The F-4E Phantom II is equipped with two
 [General Electric J79-GE-17A/F engines](./engines.md). A turbine-type starter,
 powered by external air or the expanding gases of a solid
