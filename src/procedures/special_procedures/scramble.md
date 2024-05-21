@@ -1,7 +1,5 @@
 # Scramble
 
-> 🚧 This section is under construction.
-
 The following scramble procedures assume that the
 following actions have been completed prior to the aircraft
 being placed on an alert status (subject to scramble type

@@ -29,6 +29,10 @@ Our F-4 crew chief has expertise in many fields including:
 
 ![Ground Cart](../img/ground_cart_connected.jpg)
 
+*"We'll throw in a start cart, boarding ladder, extra drag chutes.
+Inspect your burner cans, change your hydraulic fluid, top off your liquid oxygen,
+take SOAP samples and clean the canopies."*
+
 ## Ground Checks
 
 ### Overview
