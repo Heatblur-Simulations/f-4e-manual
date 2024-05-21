@@ -16,7 +16,7 @@ Among his responsibilities are:
 
 - providing assistance during take off, aerial refueling and landing
 - assisting with navigation
-- helping you operate the countermeasures
+- helping in operating the countermeasures
 - operating the radar
 - controlling the targeting pod
 
