@@ -63,4 +63,3 @@ details.
 > [Fuze Arm Switch](../../../systems/weapon_systems/multiple_weapons_system.md#nosetail-arm-switch).
 > The nose fuze arms the bomb, while the tail fuze puts the bomb into High Drag
 > if set and Low Drag if not set.
-
