@@ -1,7 +1,7 @@
 # Liveries
 
-*"We got them in two-tone gray. We got them in two-tone green.
-We can get them in hot fuchsia pink."*
+_"We got them in two-tone gray. We got them in two-tone green.
+We can get them in hot fuchsia pink."_
 
 Creating Liveries for our F-4E can be tedious work.
 

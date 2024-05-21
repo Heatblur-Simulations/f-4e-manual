@@ -6,9 +6,9 @@ The F-4 has several special options selectable in the Mission Editor.
 
 ## Condition and Wear
 
-*"And I'll tell you what, since Cal's on it,
+_"And I'll tell you what, since Cal's on it,
 it's only flown on approved cross-countrys and drill weekends.
-Mint condition, folks, no over-Gs."*
+Mint condition, folks, no over-Gs."_
 
 All components of the aircraft simulate wear individually, yielding a unique
 experience on each spawn, but also based on how the F-4 is flown.
