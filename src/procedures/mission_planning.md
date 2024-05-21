@@ -1,8 +1,11 @@
 # Mission Planning
 
-> 🚧 This section is under construction.
-
 ![Mission Planning](../img/planning.jpg)
+*Captain Joe Fagan, left, and First Lieutenant Randy Chow prepare flight plans prior
+to a "mission" in their F-4G Phantom II Advanced Wild Weasel aircraft simulator.
+PHOTO from November 84 AIRMAN Magazine*
+
+> 🚧 This section is under construction.
 
 Optimum use of the aircraft to obtain maximum performance with minimum fuel
 consumption requires careful preflight planning for the mission. The planning of
