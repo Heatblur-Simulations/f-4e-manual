@@ -19,5 +19,6 @@ Among his responsibilities are:
 - helping in operating the countermeasures
 - operating the radar
 - controlling the targeting pod
+- spotting other aircraft and missiles
 
 and more...
