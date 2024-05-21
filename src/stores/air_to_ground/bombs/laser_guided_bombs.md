@@ -21,3 +21,29 @@ Available variants of the GBU family include:
 | 10      | 2000 lb |
 | 12      |  500 lb |
 | 24 A/B  | 2000 lb |
+
+The laser guided BDU-45 LG can be used for training purposes.
+
+## Employment
+
+GBUs are deployed using the BOMBS setting on the
+[Weapon Selector Knob](../../../cockpit/pilot/weapon_management.md#weapon-selector-knob).
+
+Technically, all bombing modes on the
+[Delivery Mode Knob](../../../cockpit/pilot/weapon_management.md#delivery-mode-knob)
+are supported, see the [4.3.3.6. Employment](employment/overview.md) section for
+details.
+
+However, unless guided by another aircraft,
+[TGT FIND](employment/accurate_modes.md#target-find---tgt-find) in combination
+with a [Pave Spike](../../../systems/weapon_systems/pave_spike/overview.md)
+targeting pod is the main mode to employ GBUs with.
+
+The laser code used by bombs can be set on the ground by the
+[Crew Chief](../../../crew_chief/overview.md). The laser used for guiding with
+the Pave Spike is set on the
+[Laser Coder Control](../../../cockpit/wso/right_console/front_section.md#laser-coder-control)
+by the WSO.
+
+> 🚧 New options to set laser codes directly while loading weapons through the
+> re-arming menu will be supported soon.

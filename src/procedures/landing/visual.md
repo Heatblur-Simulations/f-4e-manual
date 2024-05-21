@@ -1,5 +1,8 @@
 # Visual Landing
 
+![Landing](../../img/landing_2.jpg)
+*An Air Force Reserve F-4 Phantom II aircraft lands during Exercise GUNSMOKE '85*
+
 ## Descent / Before Landing
 
 The Descent/Before Landing check should be
@@ -98,6 +101,11 @@ may not be apparent when braking at high speed
 immediately after landing, with drag chute failure, or
 with a wet or icy runway. Do not misinterpret this as
 anti-skid failure.
+
+> 💡 Drag chute should not be dropped on the runway or a taxiway.
+> A popular technique is to leave it on the side of a taxiway
+> by appropriately orienting the aircraft, inflating the chute
+> with the engines and then releasing it in the desired direction.
 
 ## No-Flap Landing
 

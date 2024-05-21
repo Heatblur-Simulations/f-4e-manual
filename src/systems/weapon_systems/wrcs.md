@@ -96,7 +96,7 @@ calculate accurate delivery.
 The BIT control is used to confirm go/no-go status of the WRCS. The BIT system
 checks individual bomb modes individually, and effectivity of the given setting
 is confirmed by selecting the desired mode, pushing the center of the knob PUSH
-FOR BIT for five seconds, then pressing the FREEZE button in conjunction wih the
+FOR BIT for five seconds, then pressing the FREEZE button in conjunction with the
 PUSH FOR BIT button. Confirmation of mode performance will be displayed as GO or
 NO-GO. Should a mode be checked a subsequent time during a flight and a NO-GO
 response is received, it can be disregarded.
@@ -124,8 +124,8 @@ ALONG TRACK and CROSS TRACK cursors to shift from the RIP to the offset target.
 Once selected, target steering information is provided from the WRCS to the
 BDHI, ADI, HSI, and optical sight. In the AGM-45 missile mode, the AoA Indexers
 will provide maneuver commands for level, dive, or climb requirements to align
-for seeker acquisition. Further, unless the WRCS Tone switch is disabled on the
-ARBCS panel, an audio tone will be triggered from the point of bomb release
+for seeker acquisition. Further, unless the Pull up tone switch is disabled on the
+LABS panel, an audio tone will be triggered from the point of bomb release
 button press until the first bomb releases from the aircraft; this function is
 nominally for training purposes, as it can preclude other system audio volume.
 

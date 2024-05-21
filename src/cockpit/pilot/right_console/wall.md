@@ -37,6 +37,8 @@ change illumination intensity on the following indicators for **both cockpits**:
 The base intensity of all indicators is controlled with the
 [Flight Instrument Light knob](../weapon_management.md#flight-instrument-brightness-knob).
 
+> 🚧 These knobs will be made available later during Early-Access.
+
 ## Formation and Indexer Lights Control Panel
 
 ![FormLights](../../../img/pilot_formation_lights_panel.jpg)
@@ -70,7 +72,7 @@ other systems important for safe operation of the aircraft.
 - STAB Feel-Trim (<num>2</num>)
 - Speed Brake (<num>3</num>)
 - Landing Gear (<num>4</num>)
-- Flaps ((<num>5</num>))
+- Flaps (<num>5</num>)
 - Trim Controls (<num>6</num>)
 - Rudder Trim (<num>7</num>)
 

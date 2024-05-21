@@ -83,5 +83,5 @@ pressure indicators: should they return to nominal values, disregard the warning
 momentarily.
 
 ![Hydraulics repair](../img/hydraulics.jpg)
-<!-- https://nara.getarchive.net/media/
-technical-sergeant-tsgt-rossell-powell-of-the-347th-electronic-maintenance-ebeeb6 -->
+*Technical Sergeant (TSGT) Rossell Powell of the 347th Electronic Maintenance Squadron finds a leaking
+hydraulic connection on an F-4 Phantom II aircraft during an aircraft battle damage repair exercise*

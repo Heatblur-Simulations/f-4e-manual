@@ -160,6 +160,11 @@ Flight Brightness Knob.
 > 💡 The WSO has no controls for the instrument lighting. Instead, the
 > brightness is also controlled by the pilots knobs.
 
+> 🚧 The flight instrument lighting is currently linked to the
+> [Instrument Panel Knob](../cockpit/pilot/right_console/center_section.md#instrument-panel-knob)
+> on the right console instead. The correct controls will be made available
+> later during Early-Access.
+
 ### Warning and Indicator Brightness
 
 Additionally to controlling Flight Instrument Brightness, the pilots Flight

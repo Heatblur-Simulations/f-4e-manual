@@ -34,6 +34,13 @@ to pull the stick with.
 This effect is mostly seen when controlling the aircraft during high G maneuvers
 and can prevent accidentally pulling extreme Gs.
 
+> 💡 As an example, in certain situations it would require beyond human strength
+> to pull the stick all the way back. With this set, when pulling the real
+> joystick beyond that limit, the in-game flight stick is limited and not pulled
+> equally aft. This also prevents for example accidentally pulling 20 G and
+> instantly blacking out, just because the real joystick has no, or reduced,
+> force feedback.
+
 ## Stick Force Blending
 
 When maximum movement of the stick would result in excessive forces being
@@ -41,12 +48,32 @@ generated, having this activated will scale down the generated force to improve
 handling precision, but also can help to prevent accidentally pulling extreme
 Gs.
 
-## Roll Breakout Point
+## AFCS Breakout Deadzone
 
-Percentage of stick input after which the AFCS system will recognize the pilot
-stick was moved from neutral trim position (force transducer switches closed).
-This will affect the AFCS roll channel operation and prevent it from fighting
-your roll input. For more info see
+Percentage of stick input (separate for roll and pitch) after which the AFCS
+system will recognize the pilot stick was moved from neutral trim position
+(force transducer switches closed).
+
+This will affect the AFCS roll and pitch channel operation and prevent it from
+fighting your input. That is, when moving the stick beyond this deadzone, the
+AFCS understands that the pilot wants to take control and the AFCS will stop
+trying to correct the movement. The roll breakout will temporarily disable the
+roll stab aug as well as bank angle hold and heading hold. The pitch breakout
+will temporarily disable the pitch attitude hold as well altitude hold.
+
+> 💡 This deadzone is _"on top"_ of the DCS axis deadzone so the higher basic
+> deadzone set on the axis, the smaller the AFCS breakout deadzone should be
+> set. Keep in mind that setting low values, such as 0%, while having an already
+> low basic deadzone can result in some of the autopilot functions not engaging
+> even when letting go the stick because the stick may still be not perfectly
+> neutral.
+
+Default values are 1% for roll and 2% for pitch.
+
+> 💡 To check wheter the breakout is currently activated you can use the
+> controls indicator and look for the text below it.
+
+For more info see
 [Force Transducer](../systems/flight_controls_gear/flight_controls.md#force-transducer).
 
 ## Afterburner Detent
@@ -63,16 +90,6 @@ afterburner will be turned on and off. For example, setting 2% for the deadzone
 and 80% for the detent results in afterburner activation at 82% and deactivation
 at 78% of throttle input.
 
-## Randomize System Inputs at Cold Start
-
-When unchecked, during cold start all switches and knobs will be in their
-initial OFF positions. Allowing for a quick start by just following procedures.
-
-When checked, switch positions will be randomized during cold-start, as if the
-previous pilot did not properly return everything back to their initial
-positions. To ensure a correct startup, the crew hence must check and confirm
-each switch in the proper position before following a cold-start procedure.
-
 ## Disable Multicrew Controls Input When Joining as WSO
 
 If checked, when joining as WSO in multiplayer with a human pilot, your local
@@ -86,7 +103,9 @@ altitude, similar as seen in civilian aviation.
 
 > 💡 Real Phantom WSOs did not assist during landing.
 
-## HB UI Resolution Override
+## HB UI
+
+### Resolution Override
 
 User interface elements, such as the Jester Wheel, the manual, virtual browser
 and others are scaled and positioned via a fixed resolution that must match the
@@ -101,7 +120,21 @@ Should UI elements be misplaced, for example the Jester Wheel not being centered
 or even cut off, check this setting and edit the resolution manually until the
 UI is displayed properly.
 
-## Jester UI Allow Mouse Controls
+### Offset
+
+Allows to horizontally displace the UI. Positive values shift it to the right,
+negative values to the left.
+
+Normally, this should be kept at the default value of 0 px. However, in certain
+cases (e.g. when using VR and setting it to render on the LEFT or RIGHT eye,
+while having the checkbox for _"Use DCS System Resolution"_ not checked) it is
+possible that the UI gets cut off. This setting then allows to move the UI back
+into view, but therefore giving up proper alignment on the UI, such as the
+Jester UI being centered on the screen.
+
+## Jester UI
+
+### Allow Mouse Controls
 
 When checked, the Jester UI allows interaction with the mouse moving it over
 items and left clicking.
@@ -110,7 +143,7 @@ The option can be disabled if for example only head-tracking is preferred and
 the automatic mouse detection is perhaps triggering too often, e.g. when having
 placed the mouse on the arm of the chair.
 
-## Jester UI Allow Head-Tracking
+### Allow Head-Tracking
 
 ![Radio Menu](../img/special_options_jester_ui_head_tracking.jpg)
 
@@ -133,5 +166,57 @@ can lead to having to chase the cursor when closing and re-opening the UI
 frequently. Also, the _Dynamic_ option is less meaningful in VR, as the UI
 elements are then all rendered on the front always.
 
-> 💡 Jester Dialogs always use the _Center_ type, requiring to look
-> forward.
+> 💡 Jester Dialogs always use the _Center_ type, requiring to look forward.
+
+#### Max Angle
+
+Defines the angle (in degrees) the head has to be moved off-center to reach the
+corners of the UI.
+
+In other words, reducing this value from its default of 10° makes head-tracking
+more sensitive to head movement, while increasing it will reduce the
+sensitivity.
+
+> 💡 VR users might find a lower angle more comfortable, since the head-to-game
+> translation is normally 1:1 in VR.
+
+#### Deadzone
+
+Defines the angle (in degrees) the head has to be moved off-center to for the UI
+to recognize head-movement and engage head-tracking.
+
+If the head is moved less than the deadzone (0.5° by default), the cursor is
+automatically set to the center instead and not moved.
+
+> 💡 Users playing with a high and very sensitive head-to-game translation might
+> find it useful to increase this value slightly.
+
+## Radar Stick for Cursor
+
+When checked, the binds mapped to control the
+[Antenna Hand Control](../cockpit/wso/right_console/front_section.md#antenna-hand-control)
+can also be used to move the cursor used for Offset Bombing and similar, making
+binding the two
+[Track Wheels](../cockpit/wso/right_console/center_section.md#along-track-wheel)
+obsolete.
+
+## FFB Gain
+
+For users with force-feedback sticks, this setting can be used to adjust the
+gain of the forces per axis.
+
+The default setting is 100% for Roll and Pitch axis. Greater values will
+increase the force used by the stick, while smaller values will decrease it.
+
+## Lower Simulation Update Rate
+
+This **experimental option** allows reducing the update rate of the majority of
+the planes components.
+
+Doing so may reduce the stress on the CPU, improving game performance for
+machines that are bottlenecked by their CPU.
+
+However, it can also result in not only visual cuts, such as animations running
+slower, but will also cause some systems to degrade. For example the Pave Spike,
+running slower, can not update its ground stabilization algorithm fast enough
+anymore. So ticking this option can cause issues and lead to bugs.

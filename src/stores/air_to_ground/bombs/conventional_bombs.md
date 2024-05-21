@@ -25,12 +25,8 @@ Available conventional unguided bombs are:
 | Mk-82 Snakeye |  500 lb | Low/High Drag       |
 | Mk-83         | 1000 lb | Low Drag            |
 | Mk-84         | 2000 lb | Low Drag            |
+| Mk-84 AIR     | 2000 lb | High Drag Chute     |
 | M-117         |  750 lb | Low Drag            |
-
-> 💡 MK-82 Air and Snakeye can be switched between Low and High drag configuration depending
-> on the [Fuze Arm Switch](../../../systems/weapon_systems/multiple_weapons_system.md#nosetail-arm-switch).
-> The nose fuze arms the bomb, while the tail fuze puts the bomb into High Drag if set
-> and Low Drag if not set.
 
 ## BDU Series Training Bombs
 
@@ -51,3 +47,20 @@ Available variants of the BDU family include:
 | 50 HD   |  500 lb | High Drag    |
 | 50 LD   |  500 lb | Low Drag     |
 | 45 LG   |  500 lb | Laser Guided |
+
+## Employment
+
+The conventional bombs are deployed using the BOMBS setting on the
+[Weapon Selector Knob](../../../cockpit/pilot/weapon_management.md#weapon-selector-knob).
+
+All bombing modes on the
+[Delivery Mode Knob](../../../cockpit/pilot/weapon_management.md#delivery-mode-knob)
+are supported, see the [4.3.3.6. Employment](employment/overview.md) section for
+details.
+
+> 💡 MK-82 Air and Snakeye can be switched between Low and High drag
+> configuration depending on the
+> [Fuze Arm Switch](../../../systems/weapon_systems/multiple_weapons_system.md#nosetail-arm-switch).
+> The nose fuze arms the bomb, while the tail fuze puts the bomb into High Drag
+> if set and Low Drag if not set.
+

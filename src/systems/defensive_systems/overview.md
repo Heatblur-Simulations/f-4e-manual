@@ -12,3 +12,5 @@ surface-to-air radar threats.
 For extended protection and radar jamming it can also carry the [ALQ-131 ECM Pod](ecm.md).
 
 ![Pilot sihouette](../../img/pilot_silhouette.jpg)
+*An F-4E Phantom II pilot is silhouetted in the cockpit
+of his aircraft as he prepares for a mission during Exercise TEAM SPIRIT'86*

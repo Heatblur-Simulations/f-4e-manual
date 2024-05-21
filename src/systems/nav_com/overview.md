@@ -19,4 +19,6 @@ transmitting stations, with a reception range of up to 390 miles from ground sta
 for air-to-air [TACAN-equipped](./tacan.md) aircraft.
 
 ![real_life_crew_with_map](../../img/map_1.jpg)
+*CPT Mark Wright, an F-4E Phantom II pilot of the 336th Tactical Fighter Squadron,
+charts a map during the exercise Crested Cap*
 <!-- ![real_life_crew_with_map](../../img/map_2.jpg) -->

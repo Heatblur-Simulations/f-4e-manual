@@ -16,7 +16,7 @@
 | 10.     | Warning Lights             | TEST                               |
 | 11.     | Defog & Temperature        | AS REQUIRED                        |
 | 12.     | (WSO) Command Selector     | AS BRIEFED                         |
-| **13.** | **(P-WSO) Ejection Seats** | **ARM**                            |
+| 13.     | (P-WSO) Ejection Seats     | ARM (not applicable)               |
 
 ### After Runway Line-Up
 

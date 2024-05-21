@@ -19,7 +19,7 @@ etched the Phantom into the collective memory of the nations that flew it,
 leaving an enduring legacy in the skies it once dominated.
 
 ![real_life_f_4e_greece_lands_in_riat](../img/real_life_greek_phantom_lands_riat.jpg)
-_(Hellenic Air Force RF-4E Phantom II lands at RIAT 2008, UK)_
+_Hellenic Air Force RF-4E Phantom II lands at RIAT 2008, UK_
 
 ## Israel
 
@@ -54,7 +54,7 @@ leased airframes outright, this offer was ultimately rejected.
 ## Japan
 
 ![JASDF F-4 starting](../img/JASDF_F-4_Phantoms.jpg)
-_(F-4EJ Kais of the JASDF of the 8th Hikōtai taking off in 2002, US Navy Photo)_
+_F-4EJ Kais of the JASDF of the 8th Hikōtai taking off in 2002, US Navy Photo_
 
 With permission of the US State Department and license terms with McDonnell
 Douglas, Mitsubishi Heavy Industries would build the F-4E locally, designated as
@@ -123,7 +123,7 @@ mid-2030s.
 ## Germany
 
 ![F-4Fs german air force 1998](../img/F-4Fs_JG74_1998.jpg)
-_(F-4Fs of the German Air Force in 1998, USAF Photo)_
+_F-4Fs of the German Air Force in 1998, USAF Photo_
 
 Primarily an F-4F and RF-4E customer - the largest F-4 export recipient with 263
 delivered overseas, Germany would purchase 10 F-4Es to be based in the United

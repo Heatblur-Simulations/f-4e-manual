@@ -1,6 +1,11 @@
 # Radar system
 
+*"I'll tell you what, it's got a fine radar inside, the APQ-120,
+you can get a skin paint on a skeeter 200 miles, or a stealth fighter."*
+
 ![Radar Dish](../../img/radar_dish_nose.jpg)
+*A technician works on the AN/APQ-120(V) fire control radar in the nose
+of a 3rd Tactical Fighter Wing F-4E Phantom II aircraft*
 
 The Westinghouse AN/APQ-120 Fire Control Radar, a continuation of the F-4C's
 -100 and the 4D's 109, is a solid state pulse radar providing the F-4E with air

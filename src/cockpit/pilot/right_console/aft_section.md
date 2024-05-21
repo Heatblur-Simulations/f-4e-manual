@@ -120,11 +120,9 @@ primarily controlled by the WSO and records the intercom sound, as well as the
 rear radar screen.
 
 Footage is recorded on a standard u-matic S cassette, which can be removed and
-replaced using the EJECT Button on the top left of the box. The UNTHREAD button
-(<num>2</num>) next to it is used to unthread the tape of the cassette back to
-the start, causing it to overwrite previously recorded footage.
-
-> 💡 Cassette ejection (<num>1</num>) is currently not simulated.
+replaced using the EJECT Button (<num>1</num>) on the top left of the box. The
+UNTHREAD button (<num>2</num>) next to it is used to unthread the tape of the
+cassette back to the start, causing it to overwrite previously recorded footage.
 
 The cassette can record up to 20 minutes, indicated on the small display
 labelled ELAPSED TIME (<num>3</num>).

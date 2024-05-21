@@ -199,7 +199,5 @@ will toggle the laser on or off. To enter track mode, one has to complete the
 sequence _Released_ to _Half Action_ and back to _Released_. Holding the trigger
 at any point will not actuate the linked action.
 
-> 💡 Ensure to bind controls so that the trigger goes through this full
-> sequence. For example, only binding _Released_ and _Full Action_ would miss
-> _Half Action_ and not work properly. For physical 2-stage triggers, use the
-> corresponding 2-stage binds.
+> 💡 Our provided binds make sure to execute the sequence properly. For physical
+> 2-stage triggers, use the corresponding 2-stage binds.

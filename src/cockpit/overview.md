@@ -12,3 +12,6 @@ and explained briefly, while giving context to the functions.
 More in-depth details on the various systems and consequences of using a switch
 beyond their brief explanation are available in the
 [3. Systems Overview Chapter](../systems/overview.md).
+
+_"Step right up there and take a look.
+We got all kinds of amenities on these babies."_

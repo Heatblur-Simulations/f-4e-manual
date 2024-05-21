@@ -279,7 +279,7 @@ installation.
 <!-- The master dispenser safety pin must be
 installed at all times when loading, unloading or maintaining the system. -->
 
-### Flare Pyrotechnic Squibs
+### Chaff/Flare Pyrotechnic Squibs
 
 The chaff pyrotechnic squibs are installed immediately prior to use and are
 stored separately from the chaff cartridges. They are metal encased and

@@ -1,9 +1,8 @@
 # Crew Chief
 
 ![crew chief](../img/crew_chief.jpg)
-<!-- https://nara.getarchive.net/media/ -->
-<!-- https://nara.getarchive.net/media/
-maj-strangler-an-f-4-phantom-ii-aircraft-pilot-speaks-to-his-crew-chief-about-05dea4 -->
+*A crew chief signals to the pilot of an RF-4C Phantom II aircraft to stop the aircraft after
+taxing into parking position.  The aircraft is being used in support of Exercise FUERZAS UNIDAS PERU'87*
 
 Crew chief (often called "Chief") is the main technician
 who is responsible for the assigned aircraft when it's on the ground.
@@ -30,6 +29,10 @@ Our F-4 crew chief has expertise in many fields including:
 
 ![Ground Cart](../img/ground_cart_connected.jpg)
 
+*"We'll throw in a start cart, boarding ladder, extra drag chutes.
+Inspect your burner cans, change your hydraulic fluid, top off your liquid oxygen,
+take SOAP samples and clean the canopies."*
+
 ## Ground Checks
 
 ### Overview
@@ -46,7 +49,7 @@ Our F-4 crew chief can assist the pilot during following checks:
 * **Flight Controls**
 * **ARI Disengage**
 * **Stab Aug**
-* **Trim**
+* **Trim Neutral**
 * Tail Hook
 
 Some of them are triggered automatically
@@ -80,8 +83,8 @@ not good.
 
 #### Flight Controls Check
 
-Ground crew should confirm all flight control
-positions. Slats and Flaps should be **OUT AND DOWN**.
+**The Crew Chief should confirm all flight control
+positions.** Slats and Flaps should be **OUT AND DOWN**.
 
 * Pitch trim - 1 TO 3 UNITS NOSE DOWN
 * Control stick - PULL FULL AFT AND RELEASE
@@ -91,13 +94,16 @@ positions. Slats and Flaps should be **OUT AND DOWN**.
   forward at least to the ½ travel position and
   further movement toward the stop should
   require no more than one pound push force.
-* Rudder - CHECK FULL TRAVEL LEFT AND RIGHT
+  (Chief should report stabilator positions)
+* Rudder - CHECK FULL TRAVEL LEFT AND RIGHT (Chief should report rudder positions)
 * Ailerons/ARI - CHECK
-  * Move control stick full left. Observe left spoiler
+  * Move control stick full left. Confirm left spoiler
   up, right aileron down and rudder slightly left.
-  Engage yaw stab aug. Observe rudder move
-  further left. Depress emergency quick release
-  lever. Observe rudder move toward neutral.
+  Engage yaw stab aug. Confirm rudder move
+  further left (Chief should report "KICK").
+  Depress emergency quick release
+  lever. Confirm rudder move toward neutral
+  (Chief should report).
   Release emergency quick release lever,
   neutralize stick and disengage yaw stab aug.
   Repeat check substituting right for left.
@@ -110,21 +116,22 @@ positions. Slats and Flaps should be **OUT AND DOWN**.
 
 #### ARI Disengage Check
 
-Depress emergency quick release lever. Move stick full right and left.
-Observe no rudder movement. Release emergency quick release lever.
+Set Slats & Flaps to NORM. Move stick full right and left.
+Confirm no rudder movement (Chief should report).
 
 #### Stab Aug Check
 
 Engage each axis of stab aug individually.
-Observe no movement of any control surface (¼
-inch allowable). If an aileron/spoiler deflects
+Confirm no movement of any control surface
+(¼ inch allowable) (Chief should report).
+If an aileron/spoiler deflects
 during roll stab aug engagement, it may take up
 to 4 seconds to resettle after roll stab aug is
 disengaged. Allow enough time for the
 aileron/spoiler to resettle before reengaging roll
 stab aug to check the other aileron/spoiler.
 
-#### Trim Check
+#### Trim Neutral Check
 
 Check operation of the trim indicator.
 Receive a signal from the ground crew/rear cockpit
@@ -142,11 +149,12 @@ you will be able to ask for the simpler actions like the wheel chocks removal
 but the crew chief won't help you in conducting visual checks
 
 In both modes you can communicate with the crew chief using Jester wheel **"Crew Chief"** menu.
-The aircraft has to be stationary and located on a friendly airfield for the menu to be available.
+The aircraft has to be stationary.
 
-If the intercom system is set up correctly and powered up, the intercom mode will be active,
+If the intercom system is set up correctly and powered up and the wheel chocks are placed,
+the intercom mode will be active,
 otherwise hand signals mode will be used and
-the "(hand signals)" will be added to the "Crew Chief" menu name to indicate that.
+the "(hand signals)" text will be added to the "Crew Chief" menu name to indicate that.
 
 > 💡 Since the external intercom is wired in parallel with the WSO's microphone and headset,
 > the ground crew and WSO can block each other during simultaneous transmissions.
@@ -156,4 +164,7 @@ the "(hand signals)" will be added to the "Crew Chief" menu name to indicate tha
 You can verify the 2-way communication by using "Comms Check" option.
 
 ![crew chief menu](../img/crew_chief_menu.jpg)
-<!-- ![crew chief menu (hand signals)](../img/crew_chief_menu_hand_signals.jpg) -->
+
+![crew chief](../img/crew_chief_2.jpg)
+*MAJ Strangler, an F-4 Phantom II aircraft pilot, speaks to his crew chief
+about the readiness of the aircraft*

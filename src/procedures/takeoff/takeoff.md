@@ -1,5 +1,9 @@
 # Takeoff
 
+![Takeoff Photo](../../img/takeoff_real.jpg)
+*A right front view of an F-4 Phantom II aircraft taking off
+from Shiraz Air Base during exercise Cento*
+
 ## Normal Takeoff
 
 The slats out-flaps down position is recommended for all

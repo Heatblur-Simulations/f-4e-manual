@@ -32,7 +32,7 @@ at any time through the UI (this action can also be bound directly to a key).
 Should the situation require, the player can manually set a zone for Jester to
 scan outside of his regular pattern through the UI.
 
-![Select Scan Zone](../../img/jradar_select_zone.jpg)
+![Select Scan Zone](../../img/f4_jester_scan_zones.jpg)
 
 He will then scan this zone for a while first before proceeding back to his
 regular pattern.

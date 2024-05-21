@@ -29,7 +29,7 @@ This can be used effectively in 12-VIS mode where the pilot points the nose on
 the target in a short dive. After locking the target, the pilot can pull out of
 the dive and either keep observing the target through the pod, or start an
 attack. See
-[4.3.3.4. Employment](../../stores/air_to_ground/bombs/employment.md#target-find---tgt-find)
+[4.3.3.4. Employment](../../stores/air_to_ground/bombs/employment/accurate_modes.md#target-find---tgt-find)
 for details.
 
 > 🚧 Jester Pave Spike operation will be expanded throughout Early Access. To
