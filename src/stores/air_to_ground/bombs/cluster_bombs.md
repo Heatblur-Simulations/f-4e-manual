@@ -25,14 +25,14 @@ weapon with the profile most suited to the target.
 
 ## CBU-52B
 
-![mk40s](../../../img/cbu_52.jpg)
+![cbu52b](../../../img/f4_ext_cbu_52b.jpg)
 
 Cluster bomb using a SUU-30 submunitions dispenser loaded with 220 BLU-61A/B
 anti-personnel and anti-material incendiary high explosive fragmentation bombs.
 
 ## CBU-87
 
-![mk40s](../../../img/cbu_87.jpg)
+![cbu87](../../../img/f4_ext_cbu_87.jpg)
 
 Free falling bomb consisting of a SUU-65B canister with a timed fuze. Carries
 202 BLU-97/B submunitions.
@@ -44,7 +44,7 @@ anti-personnel, anti-material and also anti-armor.
 
 ## CBU-1, CBU-2
 
-![CBU-1 and -2](../../../img/cbu_1_2.jpg)
+![CBU-1 and -2](../../../img/f4_ext_cbu1_2.jpg)
 
 Dispensers with 19 tubes each loaded with either 27 BLU-4B, 19 BLU-3 or 22
 BLU-3B HE bomblets. Upon impact with the ground, each bomblet discharges high
