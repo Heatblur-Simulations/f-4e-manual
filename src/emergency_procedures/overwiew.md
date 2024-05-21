@@ -51,6 +51,10 @@ and should be thoroughly understood by all aircrew:
 See the [Definitions](../intro/definitions.md) for an explanation of the symbology used.
 
 ![real_life_crew_with_manual](../img/reading_1.jpg)
+*Captain (CPT) Drew Nelson, F-4E Phantom II aircraft pilot, and Lieutenant (LT) Steven Skinner,
+weapons officer, both of the 336th Tactical Fighter Squadron, checks maintenance log on thier
+aircraft during Exercise AMALGAM CHIEF'88.  The exercise is a test of the Air Force's ability to
+intercept enemy missiles and aircraft in the event of an attack on the continental United States*
 
 > 💡 This section contains only the most important emergency procedures.
 

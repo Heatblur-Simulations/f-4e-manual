@@ -1,6 +1,8 @@
 # Engines
 
 ![real_life_engine_disassembled](../../img/real_life_engine_dis.jpg)
+*Korean specialists and Air Force maintenance technicians remove
+an engine from an F-4 Phantom II aircraft at the F-4 maintenance depot*
 
 The F-4E Phantom is powered by two J79-GE-17 engines built by General Electric,
 with a rated static sea-level power delivery of 11,870 pounds of thrust in Mil,
