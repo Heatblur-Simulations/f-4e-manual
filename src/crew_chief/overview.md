@@ -1,9 +1,8 @@
 # Crew Chief
 
 ![crew chief](../img/crew_chief.jpg)
-<!-- https://nara.getarchive.net/media/ -->
-<!-- https://nara.getarchive.net/media/
-maj-strangler-an-f-4-phantom-ii-aircraft-pilot-speaks-to-his-crew-chief-about-05dea4 -->
+*A crew chief signals to the pilot of an RF-4C Phantom II aircraft to stop the aircraft after
+taxing into parking position.  The aircraft is being used in support of Exercise FUERZAS UNIDAS PERU'87*
 
 Crew chief (often called "Chief") is the main technician
 who is responsible for the assigned aircraft when it's on the ground.
@@ -161,4 +160,7 @@ the "(hand signals)" text will be added to the "Crew Chief" menu name to indicat
 You can verify the 2-way communication by using "Comms Check" option.
 
 ![crew chief menu](../img/crew_chief_menu.jpg)
-<!-- ![crew chief menu (hand signals)](../img/crew_chief_menu_hand_signals.jpg) -->
+
+![crew chief](../img/crew_chief_2.jpg)
+*MAJ Strangler, an F-4 Phantom II aircraft pilot, speaks to his crew chief
+about the readiness of the aircraft*

@@ -1,5 +1,8 @@
 # Visual Landing
 
+![Landing](../../img/landing_2.jpg)
+*An Air Force Reserve F-4 Phantom II aircraft lands during Exercise GUNSMOKE '85*
+
 ## Descent / Before Landing
 
 The Descent/Before Landing check should be

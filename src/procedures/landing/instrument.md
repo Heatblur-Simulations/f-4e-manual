@@ -1,5 +1,7 @@
 # Instrument Approach and Landing
 
+![WSO Cockpit At Night](../../img/wso_cockpit_night.jpg)
+
 ## Holding / Loiter
 
 Holding patterns or loitering flight may be flown at most

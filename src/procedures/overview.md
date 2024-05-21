@@ -19,3 +19,5 @@ officer only, and items **not coded** are applicable to the pilot only.
 See the [Definitions](../intro/definitions.md) for an explanation of the symbology used.
 
 ![real_life_crew_with_manual](../img/real_life_crew_with_manual.jpg)
+*Ground crewmen from the 37th Tactical Fighter Wing perform maintenance
+on an F-4 Phantom II aircraft during Exercise Gallant Eagle '82*

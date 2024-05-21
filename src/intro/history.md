@@ -3,7 +3,7 @@
 ## 1953-1958: Development Phase (F3H to AH-1 and F4H)
 
 ![real_life_f4_mockup_with_missiles](../img/real_life_f4_mockup_with_aim_7.jpg)
-_(Mockup of the F-4 with AIM-7 Missiles)_
+*Mockup of the F-4 with AIM-7 Missiles*
 
 The developmental onset of the **F-4 Phantom II** began in the aftermath of
 McDonnell's loss in the US Navy's 1953 **Day Fighter Competition** - the victor
@@ -59,8 +59,8 @@ unsolicited proposals from Grumman, Douglas, and North American, and provided
 McDonnell with a $38 million dollar contract for two flying examples of the
 Demon follow on - internally designated as the **AH-1**.
 
-![McDonnell F3H-G Mockup](../img/F3HG.jpg) _(McDonnell F3H-G mockup; US Navy
-photo)_
+![McDonnell F3H-G Mockup](../img/F3HG.jpg)
+*McDonnell F3H-G mockup; US Navy photo*
 
 ### AH-1
 
@@ -97,7 +97,7 @@ Navy preliminary evaluation, and noted for having more refined airframe handling
 in most regimes.
 
 ![f-4h_aboard_the_uss_independence](../img/f-4h_aboard_uss_independence.jpg)
-_(F-4H aboard the USS Independence in 1960; US Navy photo)_
+*F-4H aboard the USS Independence in 1960; US Navy photo*
 
 But as the Evaluation continued, it was found that McDonnell's Phantom II
 countered the Crusader III where it mattered: in **combat capability**. The Navy
@@ -129,8 +129,8 @@ point of entry. While the Air Force entertained McDonnell representatives in
 discussion about a new ground attack airframe, the service actually had interest
 in the Sparrow-dealing F4H as a replacement for the **F-106**.
 
-The Air Defense Command requested an evaluation in 1961 known as _Project High
-Speed_, which once again proved the Phantom II superior to a challenger in the
+The Air Defense Command requested an evaluation in 1961 known as *Project High
+Speed*, which once again proved the Phantom II superior to a challenger in the
 interceptor role. In light of the findings, Navy offered a bombing demonstration
 for Air Force representatives of the Tactical Air Command, making special note
 of the successful air to ground trials with the Phantom's multiple ejector
@@ -140,15 +140,15 @@ series - with a VX-5 F4H-1 accurately delivering twenty-two 500 lb bombs in
 spectacular fashion, the stage was set for a Navy/McDonnell tactical aviation
 coup.
 
-![f_4_dropping_bombs](../img/real_life_f_4_dropping_bombs.jpg) _F-4E Phantom II
-of the 347th Tactical Fighter Wing airdropping six 500-lb Mark 82s_
+![f_4_dropping_bombs](../img/real_life_f_4_dropping_bombs.jpg)
+*F-4E Phantom II of the 347th Tactical Fighter Wing airdropping six 500-lb Mark 82s*
 
 The inauguration of the Kennedy administration in January 1961 didn't hurt
 matters; Kennedy brought in former Ford Motor Company president Robert McNamara
 as Secretary of Defense. With an eye for optimization - sometimes to a fault,
 the performance of McDonnell's F4H was seen as a standout to capitalize upon in
-light of the administration's new conventional doctrine of _"Flexible
-Response"_; no longer would nuclear deterrence be the primary backstop of the
+light of the administration's new conventional doctrine of *"Flexible
+Response"*; no longer would nuclear deterrence be the primary backstop of the
 US' promise to NATO.
 
 While McNamara desired for the Navy's **A-7** and the Air Force's **F-111** to
@@ -157,8 +157,8 @@ least five years out to operational capability; the Phantom existed, provided
 outstanding performance immediately, and could quickly raise the desired 50%
 increase in conventional force structure the White House expected for the Air
 Force. Pressure from all sides - the White House, Congress, McDonnell, and
-foreign interest, ultimately defeated the USAF's resistance to an airframe _"not
-made here"_, and by January 1962 the USAF's budget had **Phantoms on order from the
+foreign interest, ultimately defeated the USAF's resistance to an airframe *"not
+made here"*, and by January 1962 the USAF's budget had **Phantoms on order from the
 Tactical Air Command**; the Air Defense Command, which had started the Air
 Force's investigation into the Phantom, would be left with the **F-106**.
 
@@ -190,7 +190,7 @@ involvement in **Vietnam**, beginning in December of 1964.
 ## 1965-1974: Backtracking with Haste - Vietnam (F-4D and F-4E)
 
 ![F-4_dropping_over_Vietnam](../img/F-4B_VF-111_dropping_bombs_on_Vietnam.jpg)
-_(F-4B dropping bombs over Vietnam; US Navy Photo)_
+*F-4B dropping bombs over Vietnam; US Navy Photo*
 
 The Phantom's initial deployments to Southeast Asia delivered a number of
 firsts - the first officially **confirmed MiG-17 kill** with the AIM-9
@@ -214,7 +214,7 @@ computer, and the APX-80 "Combat Tree" IFF system. Further additions would
 include automatic fuel transfer and a new sight, the ASG-22. Combat
 survivability would be reinforced with the APS-107 RHAW and ECM pod
 compatibility, along with new ejection seats. Yet, the service's desire to put
-its own _"made here"_ flourish on the type continued, inauspiciously culminating
+its own *"made here"* flourish on the type continued, inauspiciously culminating
 in the integration of the **AIM-4 Falcon** with the F-4D model.
 
 #### AIM-9 vs AIM-4
@@ -240,8 +240,8 @@ direct target impact for the missile's warhead to detonate, whereas the AIM-9
 carried a proximity fuze; any Sidewinder that got close to its target was a
 threat to kill.
 
-![f4_over_vietnam](../img/F-4Ds_435th_TFS_over_Vietnam.jpg) _(F-4D of the 435th
-TFS over Vietnam)_
+![f4_over_vietnam](../img/F-4Ds_435th_TFS_over_Vietnam.jpg)
+*F-4D of the 435th TFS over Vietnam*
 
 With initial F-4D deliveries to the 8th TFW in May of 1967, the performance of
 the new configuration was quickly met with derision. The employment envelope was
@@ -300,7 +300,7 @@ bounce, or the need to swap between weapons on the fly - looking away from the
 threat was time-consuming and dangerous.
 
 With the modification, a pair of override switches were added to the outboard
-throttle grip. The first, the _"pinky"_ switch, placed control of the gun,
+throttle grip. The first, the *"pinky"* switch, placed control of the gun,
 Sidewinder, and Sparrow in one of three positions, while the second, on the
 forward face of the grip, switched weapons modes immediately between air-to-air
 and air to ground; the pilot would now have immediate access to his air-to-air
@@ -317,8 +317,8 @@ controls required to access full ARBCS programming.
 Further reinforcement of crew initiative was the installation of TISEO - the
 Target Identification System Electro-Optical, in 1974.
 
-![real_life_f_4_with_tiseo](../img/real_life_f_4_tiseo.jpg) _An F-4E Phantom II
-with a TISEO mounted on left wing above the blue practice bombs_
+![real_life_f_4_with_tiseo](../img/real_life_f_4_tiseo.jpg)
+*An F-4E Phantom II with a TISEO mounted on left wing above the blue practice bombs*
 
 Consisting of a 4x/10x camera installed in the left wing, TISEO provided visual
 identification of distant, radar-locked targets, enabling the AIM-7 Sparrow to
@@ -393,7 +393,7 @@ Beyond the F-4E, several Phantom variants have been build for various purposes.
 |    D    | Modernization and improved air to ground capabilities       |      C       | 1965         |
 |    E    | Further improvements, better radar and nose gun             |      D       | 1965         |
 |    F    | Slimmed down export variation used by Germany               |      E       | 1973         |
-|    G    | _Wild Weasel_ upgrade to locate and fight SAM systems       |      E       | 1976         |
+|    G    | *Wild Weasel* upgrade to locate and fight SAM systems       |      E       | 1976         |
 |    J    | US Navy variation for carrier operation                     |      B       | 1966         |
 |    K    | Royal Navy variation with a different engine                |      J       | 1966         |
 |    M    | Royal Air Force variation with a different engine           |      J       | 1966         |
