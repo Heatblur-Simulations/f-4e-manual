@@ -33,13 +33,14 @@
 }
 
 .content main {
-  padding-left: 3.236em;
-  padding-right: 3.236em;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .page {
   background-color: var(--content-page-bg) !important;
   padding-left: 0px;
+  padding-right: 0px;
 }
 
 .menu-bar {
@@ -181,7 +182,19 @@ ol.chapter {
   max-width: 250px;
 }
 
+#content table th:first-child {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
 num {
   color: var(--num-color);
   font-weight: bold;
+}
+
+.table-wrapper{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
