@@ -1,4 +1,7 @@
-# Electronic Countermeasure
+# Electronic Countermeasures
+
+*"It's got ECM, it's got ECCM, IBM,
+folk, we'll give you M&Ms"*
 
 The Phantom can be equipped with ECM pods capable of jamming radar signals to
 protect it from getting tracked by other aircraft or radar guided missiles.
