@@ -209,6 +209,20 @@ You can also bind it to a desired button in the controls tab.</p>
 <p><img src="../img/bombing_table.jpg" alt="manual_bombing_calculator_warnings" /></p>
 <h2 id="bombing-table"><a class="header" href="#bombing-table">Bombing Table</a></h2>
 <h3 id="input"><a class="header" href="#input">Input</a></h3>
+<h4 id="mode-of-delivery"><a class="header" href="#mode-of-delivery">Mode of Delivery</a></h4>
+<p>The first thing that should be selected is the Mode of delivery. You can choose between the
+following modes depending on your attack run.</p>
+<ul>
+<li>Direct</li>
+<li>Dive Toss (DT)</li>
+<li>TGT Find</li>
+<li>Dive Laydown (DL)</li>
+<li>Laydown (L)</li>
+<li>Offset</li>
+<li>Loft</li>
+<li>Over-the-shoulder (O/S)</li>
+<li>Over-the-shoulder instantaneous (O/S INST)</li>
+</ul>
 <h4 id="type-of-bomb"><a class="header" href="#type-of-bomb">Type of bomb</a></h4>
 <p>At the Type of bomb selection you can choose which ordinance you want to drop.
 Always choose the correct ordinance to get correct results. You can select out
@@ -224,14 +238,14 @@ of the following selection:</p>
 <li>MK-82 Snakeye (SNK)</li>
 <li>BLU-107</li>
 </ul>
-<h4 id="run-in-altitude"><a class="header" href="#run-in-altitude">Run-in Altitude</a></h4>
-<p>Sets the altitude at which you want to start your bombing run. The run-in
-altitude must be held from the identification point till bomb release. You can set it
-in increments of 100ft per click.</p>
 <h4 id="run-in-speed"><a class="header" href="#run-in-speed">Run-in Speed</a></h4>
 <p>Sets the speed at which you want to fly from the ingress point to bomb release.
 The speed is the true air speed and can be set in increments of 5 knots per
 click.</p>
+<h4 id="run-in-altitude"><a class="header" href="#run-in-altitude">Run-in Altitude</a></h4>
+<p>Sets the altitude at which you want to start your bombing run. The run-in
+altitude must be held from the identification point till bomb release. You can set it
+in increments of 100ft per click.</p>
 <h4 id="distance-ip---target"><a class="header" href="#distance-ip---target">Distance IP &lt;-&gt; Target</a></h4>
 <p>Sets the distance between the identification point and the target point. You can select
 from either setting it in nautical miles with a 0.1 nautical miles increment or
@@ -240,12 +254,17 @@ is in 100ft per click. Unit conversion also converts your actual input.</p>
 <h4 id="target-altitude"><a class="header" href="#target-altitude">Target altitude</a></h4>
 <p>Sets the target altitude in feet above msl. You can set it in increments of 10ft
 per click.</p>
+<h4 id="dive-angle"><a class="header" href="#dive-angle">Dive Angle</a></h4>
+<p>Sets the desired dive angle for the attack run. Can be set in 1° increments per click. Needs to be
+set in Direct and Dive Toss mode.</p>
 <h4 id="loft-angle"><a class="header" href="#loft-angle">Loft angle</a></h4>
-<p>Sets the desired lofting angle for the attack run. You can set it in 1°
+<p>Sets the desired lofting angle for the attack run. Can be set it in 1°
 increments per click. Only used for LABS modes.</p>
 <p>Must also be set in the LABS panel.</p>
 <p><img src="../img/wso_release_angle.jpg" alt="LABS panel" /></p>
 <h3 id="output"><a class="header" href="#output">Output</a></h3>
+<p>In general the Bombing Calculator will only give you the Output you need to set for the selected
+attack run.</p>
 <h4 id="pull-up-timer"><a class="header" href="#pull-up-timer">Pull-up timer</a></h4>
 <p>Gives you the calculated pull-up timer in seconds that the WSO can put in the
 <a href="../systems/weapon_systems/arbcs.html#bombing-timers">ARBCS</a> computer.</p>
@@ -259,12 +278,23 @@ increments per click. Only used for LABS modes.</p>
 <p>This can be put into the sight depression knob in order to align the reticle
 with the target for a manual MIL bombing solution.</p>
 <p><img src="../img/pilot_dscg_reticle_depression_knob.jpg" alt="Sight Depression" /></p>
+<h4 id="drag-coefficient"><a class="header" href="#drag-coefficient">Drag Coefficient</a></h4>
+<p>Gives you the Drag Coefficient that the WSO then can set in
+the <a href="../systems/weapon_systems/wrcs.html#release-range-control">WRCS</a> panel.</p>
+<p><img src="../img/wso_wrcs_panel_drag_coefficient.jpg" alt="drag_coefficient" /></p>
+<h4 id="ns-wrcs-and-ew-wrcs"><a class="header" href="#ns-wrcs-and-ew-wrcs">N/S WRCS and E/W WRCS</a></h4>
+<p>Gives you the calculated offset distance values that the WSO then can set in
+the <a href="../systems/weapon_systems/wrcs.html#release-range-control">WRCS</a> panel.</p>
+<p><img src="../img/wso_wrcs_panel_northing_easting.jpg" alt="wso_northing_easting" /></p>
 <h3 id="controls"><a class="header" href="#controls">Controls</a></h3>
 <h4 id="clear"><a class="header" href="#clear">Clear</a></h4>
 <p>Resets all inputs to standard values.</p>
 <h4 id="save"><a class="header" href="#save">Save</a></h4>
 <p>Saves the actual solution under the Bombing Solutions tab at the end of the
 page.</p>
+<h4 id="tell-jester-and-tell-jester-and-close"><a class="header" href="#tell-jester-and-tell-jester-and-close">Tell Jester and Tell Jester and close</a></h4>
+<p>With this button the values calculated by the bombing calculator can be transferred to Jester. He
+will either confirm the input or tell you "can't do" when the input is not correct.</p>
 <h2 id="pattern"><a class="header" href="#pattern">Pattern</a></h2>
 <p>Lets you put in values to calculate a
 <a href="../systems/weapon_systems/wrcs.html#release-advance-control">release advance</a>.</p>
@@ -288,13 +318,13 @@ that the WSO can put in.</p>
 <h2 id="bombing-solution"><a class="header" href="#bombing-solution">Bombing Solution</a></h2>
 <p>Shows the last saved bombing solutions. The line shows the inputs as following:</p>
 <ul>
+<li>Mode of Delivery</li>
 <li>Type of bomb</li>
 <li>Run-in Altitude</li>
 <li>Run-in Speed</li>
-<li><a href="../systems/weapon_systems/arbcs.html">Pull-Up Timer</a></li>
-<li><a href="../systems/weapon_systems/wrcs.html#release-range-control">Release Range</a></li>
-<li><a href="../cockpit/pilot/dscg_controls.html#reticle-depression-knob">Sight Depression</a></li>
 </ul>
+<p>Depending on mode it will also save the corresponding solutions that are needed to fly the attack
+run.</p>
 <h2 id="example-run"><a class="header" href="#example-run">Example run</a></h2>
 <p>This is a step-by-step guide for an example loft bombing run with 12 Mk-82s. In
 our case we want the fourth bomb to hit the target. The first three should hit
@@ -330,24 +360,29 @@ in the upper left corner of the map.</p>
 </blockquote>
 <p><img src="../img/map_target_elevation.jpg" alt="map_target_elevation" /></p>
 <h3 id="solution"><a class="header" href="#solution">Solution</a></h3>
-<p><img src="../img/bombing_table_example.jpg" alt="bombing_calculator_numbered" /></p>
+<p><img src="../img/f4_bombing_calc_example.jpg" alt="bombing_calculator_numbered" /></p>
 <p>Now that we have all needed values from the map we will put those in the bombing
 calculator.</p>
-<p>(<num>1</num>) Here we select the type of our bomb. In our case Mk-82s.</p>
-<p>(<num>2</num>) For our run-in altitude we want it to be at 3000 ft above MSL.</p>
+<p>(<num>1</num>) Here we can select the mode of delivery which is LOFT in our example.</p>
+<p>(<num>2</num>) Here we select the type of our bomb. In our case Mk-82s.</p>
 <p>(<num>3</num>) We want to do our run-in at 350 knots true Airspeed.</p>
-<p>(<num>4</num>) We measured the distance between our Ingress Point and target
+<p>(<num>4</num>) For our run-in altitude we want it to be at 3000 ft above MSL.</p>
+<p>(<num>5</num>) We measured the distance between our Ingress Point and target
 earlier at the second step. Now we will put that in.</p>
-<p>(<num>5</num>) We got our target altitude from the F10 map and can put it in
+<p>(<num>6</num>) We got our target altitude from the F10 map and can put it in
 now.</p>
-<p>(<num>6</num>) We want our Loft Angle to be at 30°, we put that in.</p>
-<p>(<num>7</num>) The bombing calculator now gives us back the Pull-Up Timer that
-the WSO can than put in at a later step.</p>
-<p>(<num>8</num>) We want to drop our bombs with a release Interval of 0.15
+<p>(<num>7</num>) We want our Loft Angle to be at 30°, we put that in.</p>
+<p>(<num>8</num>) The bombing calculator now gives us back the Pull-Up Timer that
+the WSO can than put in at a later step. Alternatively it can be transferred via the "Tell Jester
+and close" or the "Tell Jester" Button.</p>
+<p>(<num>9</num>) The bombing calculator also gives us the Pullup Range. This is only as pilot
+information.</p>
+<p>(<num>10</num>) Further as a pilot information the bombing calculator gives us our release range.</p>
+<p>(<num>11</num>) We want to drop our bombs with a release Interval of 0.15
 seconds, so we put that in</p>
-<p>(<num>9</num>) As we decided on the beginning we want the fourth bomb to be on
+<p>(<num>12</num>) As we decided on the beginning we want the fourth bomb to be on
 the target.</p>
-<p>(<num>10</num>) In the release advance window the bombing calculator now gives
+<p>(<num>13</num>) In the release advance window the bombing calculator now gives
 us the value that the WSO can put in later.</p>
 <h3 id="setup"><a class="header" href="#setup">Setup</a></h3>
 <p>Now the WSO can put in the Loft Angle at the release angle, the pull-up timer at
