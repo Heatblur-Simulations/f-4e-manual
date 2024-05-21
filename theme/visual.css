@@ -33,14 +33,26 @@
 }
 
 .content main {
-  padding-left: 3%;
-  padding-right: 3%;
+  padding-left: 3.236em;
+  padding-right: 3.236em;
 }
 
 .page {
   background-color: var(--content-page-bg) !important;
   padding-left: 0px;
-  padding-right: 0px;
+}
+
+@media only screen and (max-width: 500px) {
+  .content main {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  
+  .page {
+    background-color: var(--content-page-bg) !important;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 
 .menu-bar {
@@ -192,9 +204,9 @@ num {
   font-weight: bold;
 }
 
-.table-wrapper{
+/* .table-wrapper{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: flex-start;
-}
+} */
