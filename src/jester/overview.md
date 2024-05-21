@@ -12,7 +12,7 @@ that you can focus on doing that pilot stuff.
 
 ![Jester Crew](../img/ext_f4_jester.jpg)
 
-His key responsibilities are:
+Among his responsibilities are:
 
 - providing assistance during take off, aerial refueling and landing
 - assisting with navigation
