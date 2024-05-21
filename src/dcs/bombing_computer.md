@@ -13,6 +13,21 @@ You can also bind it to a desired button in the controls tab.
 
 ### Input
 
+#### Mode of Delivery
+
+The first thing that should be selected is the Mode of delivery. You can choose between the
+following modes depending on your attack run.
+
+- Direct
+- Dive Toss (DT)
+- TGT Find
+- Dive Laydown (DL)
+- Laydown (L)
+- Offset
+- Loft
+- Over-the-shoulder (O/S)
+- Over-the-shoulder instantaneous (O/S INST)
+
 #### Type of bomb
 
 At the Type of bomb selection you can choose which ordinance you want to drop.
@@ -29,17 +44,17 @@ of the following selection:
 - MK-82 Snakeye (SNK)
 - BLU-107
 
-#### Run-in Altitude
-
-Sets the altitude at which you want to start your bombing run. The run-in
-altitude must be held from the identification point till bomb release. You can set it
-in increments of 100ft per click.
-
 #### Run-in Speed
 
 Sets the speed at which you want to fly from the ingress point to bomb release.
 The speed is the true air speed and can be set in increments of 5 knots per
 click.
+
+#### Run-in Altitude
+
+Sets the altitude at which you want to start your bombing run. The run-in
+altitude must be held from the identification point till bomb release. You can set it
+in increments of 100ft per click.
 
 #### Distance IP <-> Target
 
@@ -53,9 +68,14 @@ is in 100ft per click. Unit conversion also converts your actual input.
 Sets the target altitude in feet above msl. You can set it in increments of 10ft
 per click.
 
+#### Dive Angle
+
+Sets the desired dive angle for the attack run. Can be set in 1° increments per click. Needs to be
+set in Direct and Dive Toss mode.
+
 #### Loft angle
 
-Sets the desired lofting angle for the attack run. You can set it in 1°
+Sets the desired lofting angle for the attack run. Can be set it in 1°
 increments per click. Only used for LABS modes.
 
 Must also be set in the LABS panel.
@@ -63,6 +83,9 @@ Must also be set in the LABS panel.
 ![LABS panel](../img/wso_release_angle.jpg)
 
 ### Output
+
+In general the Bombing Calculator will only give you the Output you need to set for the selected
+attack run.
 
 #### Pull-up timer
 
@@ -87,6 +110,20 @@ with the target for a manual MIL bombing solution.
 
 ![Sight Depression](../img/pilot_dscg_reticle_depression_knob.jpg)
 
+#### Drag Coefficient
+
+Gives you the Drag Coefficient that the WSO then can set in
+the [WRCS](../systems/weapon_systems/wrcs.md#release-range-control) panel.
+
+![drag_coefficient](../img/wso_wrcs_panel_drag_coefficient.jpg)
+
+#### N/S WRCS and E/W WRCS
+
+Gives you the calculated offset distance values that the WSO then can set in
+the [WRCS](../systems/weapon_systems/wrcs.md#release-range-control) panel.
+
+![wso_northing_easting](../img/wso_wrcs_panel_northing_easting.jpg)
+
 ### Controls
 
 #### Clear
@@ -97,6 +134,11 @@ Resets all inputs to standard values.
 
 Saves the actual solution under the Bombing Solutions tab at the end of the
 page.
+
+#### Tell Jester and Tell Jester and close
+
+With this button the values calculated by the bombing calculator can be transferred to Jester. He
+will either confirm the input or tell you "can't do" when the input is not correct.
 
 ## Pattern
 
@@ -135,12 +177,13 @@ that the WSO can put in.
 
 Shows the last saved bombing solutions. The line shows the inputs as following:
 
+- Mode of Delivery
 - Type of bomb
 - Run-in Altitude
 - Run-in Speed
-- [Pull-Up Timer](../systems/weapon_systems/arbcs.md)
-- [Release Range](../systems/weapon_systems/wrcs.md#release-range-control)
-- [Sight Depression](../cockpit/pilot/dscg_controls.md#reticle-depression-knob)
+
+Depending on mode it will also save the corresponding solutions that are needed to fly the attack
+run.
 
 ## Example run
 
@@ -188,35 +231,43 @@ down to 30 ft since the bombing calculator can only take values of tens.
 
 ### Solution
 
-![bombing_calculator_numbered](../img/bombing_table_example.jpg)
+![bombing_calculator_numbered](../img/f4_bombing_calc_example.jpg)
 
 Now that we have all needed values from the map we will put those in the bombing
 calculator.
 
-(<num>1</num>) Here we select the type of our bomb. In our case Mk-82s.
+(<num>1</num>) Here we can select the mode of delivery which is LOFT in our example.
 
-(<num>2</num>) For our run-in altitude we want it to be at 3000 ft above MSL.
+(<num>2</num>) Here we select the type of our bomb. In our case Mk-82s.
 
 (<num>3</num>) We want to do our run-in at 350 knots true Airspeed.
 
-(<num>4</num>) We measured the distance between our Ingress Point and target
+(<num>4</num>) For our run-in altitude we want it to be at 3000 ft above MSL.
+
+(<num>5</num>) We measured the distance between our Ingress Point and target
 earlier at the second step. Now we will put that in.
 
-(<num>5</num>) We got our target altitude from the F10 map and can put it in
+(<num>6</num>) We got our target altitude from the F10 map and can put it in
 now.
 
-(<num>6</num>) We want our Loft Angle to be at 30°, we put that in.
+(<num>7</num>) We want our Loft Angle to be at 30°, we put that in.
 
-(<num>7</num>) The bombing calculator now gives us back the Pull-Up Timer that
-the WSO can than put in at a later step.
+(<num>8</num>) The bombing calculator now gives us back the Pull-Up Timer that
+the WSO can than put in at a later step. Alternatively it can be transferred via the "Tell Jester
+and close" or the "Tell Jester" Button.
 
-(<num>8</num>) We want to drop our bombs with a release Interval of 0.15
+(<num>9</num>) The bombing calculator also gives us the Pullup Range. This is only as pilot
+information.
+
+(<num>10</num>) Further as a pilot information the bombing calculator gives us our release range.
+
+(<num>11</num>) We want to drop our bombs with a release Interval of 0.15
 seconds, so we put that in
 
-(<num>9</num>) As we decided on the beginning we want the fourth bomb to be on
+(<num>12</num>) As we decided on the beginning we want the fourth bomb to be on
 the target.
 
-(<num>10</num>) In the release advance window the bombing calculator now gives
+(<num>13</num>) In the release advance window the bombing calculator now gives
 us the value that the WSO can put in later.
 
 ### Setup
