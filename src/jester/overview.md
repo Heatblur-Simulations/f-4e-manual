@@ -14,7 +14,7 @@ that you can focus on doing that pilot stuff.
 
 His key responsibilities are:
 
-- providing assitance during take off, aerial refueling, and landing
+- providing assitance during take off, aerial refueling and landing
 - assisting with navigation
 - helping you operate the countermeasures
 - operating the radar
