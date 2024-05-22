@@ -156,7 +156,7 @@ If you got stuck in a lesson, you should take the following actions:
   - Quit the mission and save the DEBRIEFING (log-file) and the TRACK (trk-file) in the
     debriefing screen
   - If you suspect a bug, please open a new ticker in the DCS forum > Heatblur Simulations >
-    Phantom area using this link: https://forum.dcs.world/forum/919-dcs-f-4-phantom/. Please
+    Phantom area using this link: <https://forum.dcs.world/forum/919-dcs-f-4-phantom/>. Please
     add as much information as possible in order to help us finding a possible issue. Thank
     you for your support!
   - In any case, we recommend to restart DCS and load the mission again. Sorry for that!
@@ -263,7 +263,7 @@ The tasks for this lesson are:
   EGT rising above 700°C, immediately cut off the fuel by moving the throttle lever to the
   "OFF" position. Note: engine parameters may vary slightly depending on the environmental
   conditions. Only the EGT value is to be monitored very closely!
-- 
+
 ## Lesson 02 - Taxi
 
 ### Lesson 02 - Weather
@@ -326,7 +326,6 @@ items in the procedure. The tasks for this lesson are:
 
 Here are some special tips for lesson 02:
 
-
 - Task 1 > Step 7:
   The flight controls check can be omitted in case it becomes too difficult. Use the FIRE
   TEST BUTTON on the instrument panel before or during performing this check to skip it. The
@@ -337,7 +336,7 @@ Here are some special tips for lesson 02:
   - Listening to the confirmation given by the crew chief
   - Pressing "Spacebar" after receiving the crew chief's confirmation
 
-- Task 1 > Step 7f & 7h: The crew chief will not respond when you set the rudder to the neutral 
+- Task 1 > Step 7f & 7h: The crew chief will not respond when you set the rudder to the neutral
 position.
 
 - Task 2 > Introduction:
@@ -491,6 +490,7 @@ changed so far.
 ### Lesson 04 - Slots
 
 Slots haven't changed.
+
 - Dodge 31 (AI, already on ground)
 - Dodge 41 (AI, already on ground)
 - Dodge 21 (AI, already on ground)
