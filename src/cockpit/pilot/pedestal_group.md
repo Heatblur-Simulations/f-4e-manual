@@ -128,7 +128,8 @@ and [Shrikes](../../stores/air_to_ground/missiles/shrike.md).
 
 For Mavericks, the spring-loaded TGT/MSL REJ position cycles through the available
 Mavericks currently selected and armed. If six Mavericks are equipped the station with the uncaged
-and active Maverick is cycled. To cycle the other station simply de-arm the other station. The DF
+and active Maverick is cycled. To cycle the other station simply de-arm the active station, and
+select the other. The DF
 REJ position has no function.
 
 For Shrikes, TGT/MSL REJ turns off the weapon seeker entirely until released.
