@@ -127,7 +127,9 @@ Dual purpose switch to control [Mavericks](../../stores/air_to_ground/missiles/m
 and [Shrikes](../../stores/air_to_ground/missiles/shrike.md).
 
 For Mavericks, the spring-loaded TGT/MSL REJ position cycles through the available
-Mavericks currently selected and armed. The DF REJ position has no function.
+Mavericks currently selected and armed. If six Mavericks are equipped the station with the uncaged
+and active Maverick is cycled. To cycle the other station simply de-arm the other station. The DF
+REJ position has no function.
 
 For Shrikes, TGT/MSL REJ turns off the weapon seeker entirely until released.
 The DF REJ position selects the WRCS mode for receiving a solution, while the center position
