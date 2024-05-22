@@ -14,7 +14,7 @@ You can use the lessons as "initial training" or as so-called "recurrent trainin
 you haven't flown for a long time and need a refresher. By the way: We recommend a refresher
 every 90 days at least ...
 
-Please note, that the lessons require a certain level of knowledge and basic flying skills. In the
+Please note that the lessons require a certain level of knowledge and basic flying skills. In the
 lessons we don't explain flying as such, but rather the aircraft, its systems and their usage, and
 the behavior. The lessons may therefore be understood as a kind of "interactive type training in the
 cockpit seat" and not as "basic flying training".
@@ -41,7 +41,7 @@ study the systems if you want to become a real pro.
 
 We have depicted the most important "normal procedures" of the aircraft and have based the lessons
 very much on reality. These procedures should also be based as closely as possible on the real
-procedures,  although we  were aware that it wouldn't be possible to implement everything in the
+procedures, although we were aware that it wouldn't be possible to implement everything in the
 simulation. Think, for example, of the ejection seat harness, the oxygen mask and its test, the
 transponder, the IFF system, or similar systems. Some steps are left out because they are already
 set correctly after spawning the aircraft and to really speed up the lesson to get you in the air;
@@ -127,7 +127,7 @@ Here are some general tips & tricks as created by testers during the testing pha
 ## Emergencies
 
 There are situations in which the triggers of a lesson no longer work properly for some unknown
-reason. Fortunately, this only happens very rarely! This usually results in the  highlights (the
+reason. Fortunately, this only happens very rarely! This usually results in the highlights (the
 yellow helper boxes) no longer being shown or hidden correctly, or the logic circuits no longer
 reacting correctly to events in the simulation. We experienced this ourselves during the testing
 phase and would like to at least inform you about it here and now.
@@ -199,11 +199,10 @@ least.
 
 Currently registered sorties for this afternoon:
 
-- Dodge 31 (AI, already in the air)
-- Dodge 41 (AI, already in the air)
-- Dodge 21 (AI, at the start)
-- Dodge 22 (AI, at the start)
-- Dodge 11 (you, at parking position #25)
+- #1 Dodge 41 (AI, already in the air)
+- #2 Dodge 31 (AI, already in the air)
+- #3 Dodge 21 & 22 (AI, at the start)
+- #4 Dodge 11 (you, at parking position #25)
 
 All Dodge flights complete familiarization and training flights at the airfield.
 
@@ -277,11 +276,10 @@ regarding the ground-level haze was correct. Wind speed and direction haven't ch
 
 Slots haven't changed.
 
-- Dodge 31 (AI, already on ground, refuelling)
-- Dodge 41 (AI, already on ground, refuelling)
-- Dodge 21 (AI, at the start)
-- Dodge 22 (AI, at the start)
-- Dodge 11 (you, at parking position #25)
+- #1 Dodge 41 (AI, already on ground, refuelling)
+- #2 Dodge 31 (AI, already on ground, refuelling)
+- #3 Dodge 21 & 22 (AI, at the start)
+- #4 Dodge 11 (you, at parking position #25)
 
 All Dodge flights complete familiarization and training flights at the airfield.
 
@@ -337,7 +335,7 @@ Here are some special tips for lesson 02:
   - Pressing "Spacebar" after receiving the crew chief's confirmation
 
 - Task 1 > Step 7f & 7h: The crew chief will not respond when you set the rudder to the neutral
-position.
+  position.
 
 - Task 2 > Introduction:
   Observe that the audio containing the taxi clearance by ATC is played through your UHF
@@ -364,11 +362,10 @@ ground-level haze is still there. Wind speed and direction haven't changed so fa
 
 Slots haven't changed.
 
-- Dodge 31 (AI, already on ground)
-- Dodge 41 (AI, already on ground)
-- Dodge 21 (AI, already on ground)
-- Dodge 22 (AI, already on ground)
-- Dodge 11 (you, at the holding point for runway 07)
+- #1 Dodge 41 (AI, already on ground)
+- #2 Dodge 31 (AI, already on ground)
+- #3 Dodge 21 & 22 (AI, already on ground)
+- #4 Dodge 11 (you, at the holding point for runway 07)
 
 All Dodge flights complete familiarization and training flights at the airfield.
 
@@ -398,14 +395,14 @@ the procedure. The tasks for this lesson are:
 
 - Task 1: Check aircraft while being positioned at the holding point for RWY 07.
 - Task 2: Line-up the aircraft on RWY 07
-- Task 3: Check essential aircraft systems while being lined up on runway 07
+- Task 3: Check essential aircraft systems while being lined up on RWY 07
 - Task 4: Perform a normal take-off (slats & flaps "out" & "down") on RWY 07
-- Task 5: Perform a normal climb at 350kts or M0.9, whichever is lower following TP1, TP2, TP3
-- Task 6: Perform cruise check
+- Task 5: Perform a normal climb at 350kts or M0.9 (whichever is reached first), by following
+  turnpoints 1, 2 and 3.
+- Task 6: Perform cruise checks.
 
 ### Lesson 03 - Tips & tricks
 
-The basic tips are the same as for Lesson 01 (see above).
 Here are some special tips for lesson 03:
 
 - Task 1 > Steps 4a - 4e:
@@ -444,11 +441,10 @@ Here are some special tips for lesson 03:
 - Take-off:
   Before taking off, go through the takeoff procedure. You need to remember the items by heart:
   - No NGS after 70 knots
-  - Full aft stick by 80 knots
-  - Hold 10 to 12° nose up
-  - Raise the gear &
-    flaps as soon as airborne
-  - Trim as needed
+  - Full aft STICK by 80 knots
+  - Hold 10 to 12° NOSE UP
+  - Raise the GEAR & FLAPS as soon as airborne
+  - TRIM as needed
 
 - Task 4 > Step 8:
   In DCS, with the current wind situation (no cross wind component), it is really not
@@ -491,11 +487,10 @@ changed so far.
 
 Slots haven't changed.
 
-- Dodge 31 (AI, already on ground)
-- Dodge 41 (AI, already on ground)
-- Dodge 21 (AI, already on ground)
-- Dodge 22 (AI, already on ground)
-- Dodge 11 (you, in-flight inbound turnpoint 7)
+- #1 Dodge 41 (AI, already on ground)
+- #2 Dodge 31 (AI, already on ground)
+- #3 Dodge 21 & 22 (AI, already on ground)
+- #4 Dodge 11 (you, in-flight inbound turnpoint 7)
 
 All Dodge flights complete familiarization and training flights at the airfield.
 
