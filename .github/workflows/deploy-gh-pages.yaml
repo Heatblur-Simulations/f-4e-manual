@@ -19,7 +19,7 @@ jobs:
           token: ${{ secrets.GH_PAGES_DEPLOY_BOT_PAT }}
 
       - name: Setup mdBook
-        uses: peaceiris/actions-mdbook@v2
+        uses: peaceiris/actions-mdbook@v2.0.0
         with:
           mdbook-version: "latest"
       - run: mdbook build
