@@ -1,6 +1,6 @@
 # Interesting Links
 
-![a](../img/briefing.jpg)
+![Photo of a briefing](../img/briefing.jpg)
 *Pilots of F-4 Phantom II aircraft, 35th Tactical Fighter Wing,
 listen to a briefing on flight plans during exercise Team Spirit (Coronet Spray)*
 
@@ -14,7 +14,7 @@ listen to a briefing on flight plans during exercise Team Spirit (Coronet Spray)
 
 [Episode IV - RADAR Pt. 1 - Basics and Theory](https://www.youtube.com/watch?v=s2YY2gQ76cw)
 
-## Old documentaries and training videos
+## Historic documentaries and training videos
 
 [The Fabulous Phantom](https://www.youtube.com/watch?v=BgWPyiseBu8)
 
