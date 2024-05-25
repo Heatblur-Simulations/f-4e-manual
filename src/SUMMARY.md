@@ -189,5 +189,6 @@
       - [Wheel UI](./dcs/modding/jester/wheel_ui.md)
       - [Dialog UI](./dcs/modding/jester/dialog_ui.md)
     - [Liveries](./dcs/modding/liveries.md)
+- [Links](./links/links.md)
 - [Abbreviations](./abbreviations.md)
 - [Imprint](./imprint.md)
