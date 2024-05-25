@@ -179,11 +179,6 @@ under manual control. Stability augmentation can be
 engaged individually or in any combination for pitch, roll,
 or yaw axis.
 
-> 💡 The pilot may feel the STAB system partially fighting their input as it
-> tries to smooth it out, this can especially result in roll fighting or
-> roll rebound effects. In such a case, the pilot may deactivate the STAB system
-> for the offending channel specifically.
-
 The **AFCS mode** of operation maintains any
 aircraft heading and/or attitude selected within the AFCS
 limits and corrects for any deviation from the selected
@@ -191,8 +186,7 @@ heading or attitude of the aircraft within the AFCS limits.
 The AFCS switch (<num>2</num>) can be engaged with only
 the Pitch STAB AUG switch engaged; however, to provide full
 AFCS operation, all three STAB AUG switches must be
-engaged. The **Altitude Hold Mode** of operation (<num>3</num>) holds any altitude
-selected while in the **AFCS mode**.
+engaged.
 
 The AFCS system can be engaged and hold maneuvers and
 attitudes within a range of ±70° pitch, 70° in bank and 360°
@@ -212,6 +206,17 @@ gear steering button. If the airplane attitude is greater
 than ± 5° from wings level when the AFCS switch is
 engaged, then the airplane will maintain the bank attitude at
 the time of engagement.
+
+The **Altitude Hold mode** of operation (<num>3</num>) holds
+any altitude selected while in the **AFCS mode**.
+
+> 💡 Altimeter fluctuations while accelerating
+> through the transonic range (0.9 to 1.0 Mach) will produce
+> transient fluctuations which, although not violent, may
+> cause the reference altitude to slip. Engaging the altitude
+> hold mode in climbs greater than 1000 feet per minute
+> may result in a reference altitude other than the engage
+> altitude.
 
 ### Force Transducer
 
@@ -365,17 +370,9 @@ basic airplane.
 > that point, violent transients may be
 > encountered.
 
-> 💡 Do not operate the manual trim button while in the
-> AFCS mode unless the AUTOPILOT PITCH
-> TRIM light is illuminated. Use a small amount of
-> manual trim to extinguish the AUTOPILOT
-> PITCH TRIM light.
-
-> 💡 To change altitude when operating in Altitude
-> Hold, use the control stick. This disengages the
-> Altitude Hold circuits and the Altitude Hold switch
-> moves to OFF. Re-engage Altitude Hold at the
-> new altitude if desired.
+> 🔴 WARNING: When selecting the AFCS mode, have hand on
+> control stick to counteract any abrupt control
+> movements in the event of an AFCS malfunction.
 
 > 💡 The AFCS is disengaged when the Emergency
 > Quick Release Lever on the control stick is
@@ -384,12 +381,50 @@ basic airplane.
 > depressed but returns to operation when the lever
 > is released.
 
-<!-- OPERATIONAL PRECAUTIONS -->
+### Operational Precautions
 
-<!-- * Because the stability augmentation system can misinterpret roll oscillation in
-high AoA maneuvering and inadvertently invoke adverse roll, it is suggested to
-disable the Roll channel prior to aerobatics or combat to alleviate this
-possibility. -->
+#### Roll Reversal
+
+There is a possibility of a condition called roll reversal occurring when
+operating the automatic flight control system in the AFCS mode. This condition
+occurs infrequently and is apparent only when attempting small changes in bank
+angle. Roll reversal is associated with a small out-of-trim condition in the
+lateral channel, and is apparent as a slow rolling of the airplane in the
+opposite direction of the stick force. If, for instance, the airplane is out of
+trim laterally to the left when the AFCS mode is engaged, roll reversal may occur
+when right stick forces are applied. A roll reversal situation may be caused by
+operating the manual lateral trim button while in the AFCS mode, followed by
+small stick forces being applied opposite to the direction of the trim. There is
+a possibility of roll reversal occurring even if the airplane has been trimmed
+prior to engaging the AFCS mode, and the manual trim button has not been touched.
+This condition is caused by changes in airplane trim accompanying changed flight
+conditions. In view of the above, the following instructions should be observed:
+
+1. Trim airplane in stability augmentation mode before engaging AFCS mode.
+2. Do not operate manual lateral trim while the AFCS mode is engaged. If roll
+reversal is encountered due to change in flight condition; disengage roll,
+retrim, then reengage.
+
+#### Pitch oscilattions
+
+When using the altitude hold mode, the aircraft may experience pitch oscillations
+in the transonic regions due to fluctuations in the air data computer airspeed
+system. The nature of these oscillations vary from stick pumping to divergent pitch
+oscillations. It is recommended that if pitch oscillations occur at transonic speeds,
+the following corrective steps be attempted:
+
+1. AFCS switch – DISENGAGE
+2. Static pressure compensator switch – OFF
+3. AFCS switch – ENGAGE
+4. Engage altitude hold mode
+
+If the oscillations persist after the above action, or if they are encountered at supersonic speeds:
+
+1. Disengage altitude hold mode.
+
+> 🔴 WARNING: Divergent pitch oscillations should not be allowed to develop.
+> If any divergent pitch activity is noted, corrective action should be taken
+> immediately.
 
 ## Slats Flap System
 
