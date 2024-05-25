@@ -14,7 +14,7 @@ listen to a briefing on flight plans during exercise Team Spirit (Coronet Spray)
 
 [Episode IV - RADAR Pt. 1 - Basics and Theory](https://www.youtube.com/watch?v=s2YY2gQ76cw)
 
-## Historic documentaries and training videos
+## Historical documentaries and training videos
 
 [The Fabulous Phantom](https://www.youtube.com/watch?v=BgWPyiseBu8)
 
