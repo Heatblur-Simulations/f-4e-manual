@@ -7,12 +7,12 @@ and a guard receiver (at 243 MHz).
 Control over these systems is facilitated by two control panels, one located in each cockpit.
 The panel that is currently active assumes full command over the radio operations.
 
-The COMM unit is capable of receiving and transmitting on a wide range of manually
+The COMM unit is capable of **receiving and transmitting** on a wide range of manually
 selected frequencies, totaling 3500, or it can operate on 18 preset channels. This
 functionality covers a frequency range from 225.0 MHz to 399.95 MHz.
 
 On the other hand,
-the AUX unit is designed to receive signals on 20 preset frequency channels, ranging
+the AUX unit is designed to **receive** signals on 20 preset frequency channels, ranging
 from 265.0 MHz to 284.9 MHz.
 
 Both the COMM and AUX receivers have the capability to
@@ -27,6 +27,8 @@ antenna.
 
 > 💡 The COMM and AUX preset channels and ADF stations may be set in
 > [mission editor](../../dcs/mission_editor.md#radio-options).
+
+> 💡 The AUX unit is receive-only, you can only use the COMM unit to transmit.
 
 ## Comm Control Panel
 
@@ -50,6 +52,10 @@ light (<num>9</num>)
 illuminates in the cockpit with control next to the button. Either cockpit can
 take control, or if already in control, press the button to provide control of
 the radio to the other seat.
+
+> 💡 Since you can only transmit on the COMM unit, it might be useful
+> to set up the second frequency you want to transmit on in the WSO pit
+> and then use the COMM CMD button to quickly switch between active frequencies.
 
 ### UHF Volume Control
 
