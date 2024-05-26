@@ -10,7 +10,7 @@
 Jester 将准备 WRCS 面板相关的设置，如 **投放距离**、**目标高度** 或 **投放提前设置** ，以及 LABS 角
 度和计时器。
 
-如需通过 Jester 来执行轰炸，使用 [轰炸计算器](../dcs/bombing_computer.md) 工具并通过点击 **Tell
+如需通过 Jester 来执行轰炸，使用 [轰炸计算器](../../dcs/bombing_computer.md) 工具并通过点击 **Tell
 Jester** 将解算移交给 Jester。
 
 ![Tell Jester UI](../../img/jester_bombing_table.jpg)
