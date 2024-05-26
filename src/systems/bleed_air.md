@@ -1,16 +1,9 @@
-# Bleed Air System
+# 引气系统
 
-The bleed air system supplies high temperature, high
-pressure air from the engines to the boundary layer
-control system (on aircraft without slats), the cabin air
-conditioning system, and the fuel cell pressurization
-system. Control of the bleed air flow, temperature and
-pressure is initiated and regulated by the requirements of
-each system. The system utilizes engine compressor bleed
-air tapped off the 17th stage compressor. Normally, both
-engines supply the air for the operation of these systems,
-but when necessary, single engine operation will supply
-sufficient air for their operation.
+引气系统从发动机中获得高温高压空气，提供给边界层控制系统（若无前缘缝翼）、座舱空调系统和燃油加压系
+统。引气空气流量、温度和压力根据各系统自身需求启动和调节。该系统的引气来自发动机的第 17 级压缩扇。
+通常情况下，两台发动机共同为这些系统供气，但必要时也可以由一台发动机单独供气。
+
 <!-- straight from the flight manual -->
 
 ![bleed air system](../img/bleed_air_system.jpg)
