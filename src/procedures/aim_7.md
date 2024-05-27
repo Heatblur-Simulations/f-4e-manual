@@ -3,7 +3,7 @@
 ## AIM-7E Tuneup
 
 | Step | System                     | Action         |
-|------|----------------------------|----------------|
+| ---- | -------------------------- | -------------- |
 | 1.   | RADAR MISSILE POWER SWITCH | CW ON          |
 |      | a. RDR tuned lights        | STDY FOR 4 MIN |
 | 2.   | RADAR MISSILE POWER SWITCH | STBY           |
@@ -12,7 +12,7 @@
 ## AIM-7F Tuneup
 
 | Step | System                     | Action           |
-|------|----------------------------|------------------|
+| ---- | -------------------------- | ---------------- |
 | 1.   | RADAR MISSILE POWER SWITCH | CW OFF FOR 1 MIN |
 | 2.   | RADAR MISSILE POWER SWITCH | CW ON            |
 |      | a. RDR tuned lights        | ON               |
@@ -24,7 +24,7 @@
 ### WSO
 
 | Step | System          | Action           |
-|------|-----------------|------------------|
+| ---- | --------------- | ---------------- |
 | 1.   | RADAR POWER     | OPR              |
 | 2.   | RADAR MODE      | RDR,MAP-B OR BST |
 | 3.   | POLAR SWITCH    | LIN OR CIR 1     |
@@ -35,12 +35,12 @@
 ### Pilot
 
 | Step | System                       | Action                       |
-|------|------------------------------|------------------------------|
+| ---- | ---------------------------- | ---------------------------- |
 | 1.   | RADAR MISSILE POWER SWITCH   | CW ON                        |
 |      | a. RDR tuned lights          | ON                           |
 | 2.   | MISSILE INTERLOCK SWITCH     | AS REQUIRED                  |
 | 3.   | SIGHT MODE                   | A/A                          |
-| 4.   | GUNS/MISSILE SWITCH          | RADAR                        |
+| 4.   | GUNS/MISSILE SWITCH          | HEAT (OR AS REQUIRED)        |
 |      | a. Head-up RADAR light       | ON                           |
 | 5.   | MASTER ARM                   | ON                           |
 |      | a. Head-up ARM light         | ON                           |
@@ -49,6 +49,7 @@
 |      | a. CAGE Button               | PRESS                        |
 |      | b. Align target in Boresight |                              |
 |      | c. Nosewheel steering Button | PRESS TO ACCOMPLISH CAA LOCK |
-| 7.   | IN-RANGE LIGHTS              | ON                           |
-| 8.   | SHOOT LIGHTS                 | ON                           |
-| 9.   | TRIGGER                      | SQUEEZE AND RELEASE          |
+| 7.   | GUNS/MISSILE SWITCH          | RADAR                        |
+| 8.   | IN-RANGE LIGHTS              | ON                           |
+| 9.   | SHOOT LIGHTS                 | ON                           |
+| 10.  | TRIGGER                      | SQUEEZE AND RELEASE          |
