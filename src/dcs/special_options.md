@@ -243,3 +243,10 @@ However, it can also result in not only visual cuts, such as animations running
 slower, but will also cause some systems to degrade. For example the Pave Spike,
 running slower, can not update its ground stabilization algorithm fast enough
 anymore. So ticking this option can cause issues and lead to bugs.
+
+## Lower HB UI Refresh Rate
+
+When checked, all HB UI elements are rendered at a significantly lower rate.
+
+This can help improving performance while HB UI elements are shown by reducing
+CPU load. However, it can also cause UI animations to not look smooth anymore.
