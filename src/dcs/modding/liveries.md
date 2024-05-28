@@ -91,7 +91,7 @@ Until the feature and its UI is fully available at a later point during Early
 Access, some of its features can already be accessed directly by modifying the
 `description.lua` file of your Livery.
 
-Here's a snipped of the area you need to look at:
+Here's a snippet of the area you need to look at:
 
 ```lua
 custom_args =
