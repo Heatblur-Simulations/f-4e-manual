@@ -16,6 +16,9 @@ The browser enables users to
 The UI is embedded in-game, can be resized and moved around. Buttons on the top
 left corner allow for quick navigation.
 
+> 💡 To allow free browsing select **Full** for the
+> [Special Option](special_options.md#domain-access) _HB UI Domain Access_.
+
 ## Session
 
 Session data is memorized and saved locally in a folder like
@@ -28,25 +31,3 @@ If required, sound level of the browser can be controlled via the volume mixer
 provided by Windows through the **HeatblurUi.exe** entry.
 
 ![Volume Control](../img/virtual_browser_volume_control.jpg)
-
-## Whitelist
-
-The Virtual Browser, by default only allows websites that pass a
-domain-whitelist filter.
-
-The whitelist is automatically created at
-
-`C:\Users\John Doe\Saved Games\DCS_F4E\hbui_whitelist.txt`
-
-when launching the Phantom for the first time.
-
-To unlock the full browser experience, uncomment the line `#.+`, so that it is
-just `.+`. That will cause any website to pass the filter.
-
-![Whitelist](../img/hbui_whitelist.jpg)
-
-Note that removing rules from the list can lock you out of using certain
-features, for example an [Olympus](https://github.com/Pax1601/DCSOlympus)
-powered live-editor.
-
-> 💡 The whitelist applies to all HB UI elements, not just the Virtual Browser.

@@ -132,10 +132,28 @@ possible that the UI gets cut off. This setting then allows to move the UI back
 into view, but therefore giving up proper alignment on the UI, such as the
 Jester UI being centered on the screen.
 
-### Offline Mode
+### Domain Access
 
-When checked, the [Virtual Browser](virtual_browser.md), as well as any other HB
-UI features and elements that require an active online connection are disabled.
+![Domain Access Types](../img/hb_ui_domain_access_option.jpg)
+
+Defines which domains the HB UI is allowed to access.
+
+**Full** allows for free browsing, allowing to visit any website with the
+[Virtual Browser](virtual_browser.md).
+
+The default option **Whitelist** defines which sites can be accessed by using a
+whitelist file. Only domains passing the rules setup in the file are allowed.
+The default rules are setup to support all HB UI features and a hand full of
+useful websites for the Virtual Browser, such as _YouTube_.
+
+This file is automatically created at
+
+`C:\Users\John Doe\Saved Games\DCS_F4E\hbui_whitelist.txt`
+
+when launching the Phantom for the first time.
+
+Selecting **Offline** will disable the Virtual Browser and any other HB UI
+features and elements that require an active online connection.
 
 ## Jester UI
 
