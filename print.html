@@ -21,10 +21,6 @@
         <link rel="stylesheet" href="css/print.css" media="print">
 
         <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
         <link rel="stylesheet" href="fonts/fonts.css">
 
@@ -38,9 +34,6 @@
         <link rel="stylesheet" href="theme/hb_light.css">
         <link rel="stylesheet" href="theme/hb_dark.css">
         <link rel="stylesheet" href="theme/pdf.css">
-
-        <!-- MathJax -->
-        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     </head>
     <body class="sidebar-visible no-js">
     <div id="body-container">
@@ -7833,7 +7826,7 @@ the gain it may take a few scans for the image to adjust the level correctly.</p
 in track. The gain is adjusted automatically using the target within the range
 tracking gate to provide a consistent target signal for tracking.</p>
 <h2 id="sensitivity-time-control-stc"><a class="header" href="#sensitivity-time-control-stc">Sensitivity Time Control (STC)</a></h2>
-<p>The strength of a radar echo falls off with \( 1 / r^4 \) where <strong>r</strong> is the
+<p>The strength of a radar echo falls off with <code>1 / r^4</code> where <strong>r</strong> is the
 range. This means on a normal display the brightness of the radar returns will
 get dimmer with distance.</p>
 <p>For ground mapping the APQ-120 counteracts this effect. With the
@@ -7868,7 +7861,7 @@ along the radar boresight line.</p>
 <tr><td>a</td><td>Range Display</td><td>Shows current selected or forced range</td></tr>
 <tr><td>b</td><td>Radar Cursor</td><td>The radar cursor is used to select targets and displays the current selected range and azimuth. It is moved by the Antenna Hand Control.</td></tr>
 <tr><td>c</td><td>Antenna Elevation</td><td>Shows antenna elevation (in degrees) relative to the radar plane, or aircraft if the <a href="systems/radar/interface.html#stab-switch">Stab Switch</a> is in OUT. This can be moved with the Antenna Hand Control elevation wheel.</td></tr>
-<tr><td>d</td><td>Radar Grid</td><td>Left and right vertical lines show 30 degrees left and 30 degrees right. This measurement is relative to the radar plane with the <a href="systems/radar/interface.html#stab-switch">Stab Switch</a> in NOR or DRIFT OUT and relative to the aircraft with the <a href="systems/radar/interface.html#stab-switch">Stab Switch</a> in OUT. Each horizontal line marks a scale where the gaps are \( 1/5 \) of the current range setting of the display.</td></tr>
+<tr><td>d</td><td>Radar Grid</td><td>Left and right vertical lines show 30 degrees left and 30 degrees right. This measurement is relative to the radar plane with the <a href="systems/radar/interface.html#stab-switch">Stab Switch</a> in NOR or DRIFT OUT and relative to the aircraft with the <a href="systems/radar/interface.html#stab-switch">Stab Switch</a> in OUT. Each horizontal line marks a scale where the gaps are <code>1/5</code> of the current range setting of the display.</td></tr>
 <tr><td>e</td><td>Horizon Line</td><td>Shows the horizon line, only present with <a href="systems/radar/interface.html#stab-switch">Stab Switch</a> in NOR or DRIFT OUT</td></tr>
 </tbody></table>
 </div>
@@ -8412,14 +8405,14 @@ effective spread possible across a given target.</p>
 <p>As an example, an AWRU single-ripple quantity release of 4 is selected with an
 interval of 120 milliseconds. To place the third bomb in the ripple on target,
 the following equation is used:</p>
-<p>\[ RA = I_R \cdot (N_{Tgt} - 1) \]</p>
+<p><img src="systems/weapon_systems/../../img/release_advance_formula.jpg" alt="Release Advance Formula" /></p>
 <p>where</p>
 <ul>
-<li>\( RA \) = Release Advance Setting, milliseconds</li>
-<li>\( I_R \) = AWRU Release Intervalometer setting, milliseconds</li>
-<li>\( N_{Tgt} \) = Impact Sequence number of bomb desired on target</li>
+<li><code>RA</code> = Release Advance Setting, milliseconds</li>
+<li><code>I_R</code> = AWRU Release Intervalometer setting, milliseconds</li>
+<li><code>N_Tgt</code> = Impact Sequence number of bomb desired on target</li>
 </ul>
-<p>\[ RA = 120 \cdot (3 - 1) \]</p>
+<p><img src="systems/weapon_systems/../../img/release_advance_formula_example.jpg" alt="Release Advance Formula" /></p>
 <p>Thus, for this release, we would set the value of RA to 240 msec. This would
 produce a spread of two bombs ahead of target, one on the calculated target
 point, and one behind.</p>
@@ -16865,9 +16858,7 @@ Daria Kurhuzova, Administrative Assistant</p>
 
         <script>
         window.addEventListener('load', function() {
-            MathJax.Hub.Register.StartupHook('End', function() {
-                window.setTimeout(window.print, 100);
-            });
+            window.setTimeout(window.print, 100);
         });
         </script>
 
