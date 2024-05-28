@@ -24,6 +24,6 @@ listen to a briefing on flight plans during exercise Team Spirit (Coronet Spray)
 
 [Ambassadors in Blue](https://www.youtube.com/watch?v=X_JNL1egQKI)
 
-<!-- ## Other
+## Other
 
-[Cal Worthington F4s](https://www.youtube.com/watch?v=pg8-mx4KGK8) -->
+[Cal Worthington F4s](https://www.youtube.com/watch?v=pg8-mx4KGK8)
