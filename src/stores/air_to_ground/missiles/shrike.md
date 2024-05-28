@@ -26,8 +26,24 @@ Only the A version can be equipped on this version of the Phantom.
 
 ## Employment
 
-The AGM-45 has three separate launch modes available: AGM-45 (WRCS), LOFT, and
-DIRECT.
+The AGM-45 has three separate launch modes available: (WRCS) AGM-45, (LABS) LOFT, and
+(WRCS) DIRECT.
+
+### Basic cockpit setup
+
+Before any AGM-45 Shrike can be employed a few things have to be set in the cockpit by the pilot:
+
+1. Select the station for the Shrike you want to employ via
+   the [station select buttons](../../../cockpit/pilot/weapon_management.md#station-select-buttons)
+2. Select ARM on
+   the [weapon select knob](../../../cockpit/pilot/weapon_management.md#weapon-selector-knob)
+3. Select one of the three available modes of the Shrike via
+   the [delivery mode knob](../../../cockpit/pilot/weapon_management.md#delivery-mode-knob)
+4. (optional) Turn
+   the [flight director](../../../cockpit/pilot/flight_director_group.md#navigation-function-selector-panel)
+   on for ADI needle guidance
+5. (optional) Turn the LCOSS to A/G
+6. Turn [MASTER ARM](../../../cockpit/pilot/weapon_management.md#master-arm-switch) on
 
 ### AGM-45 (WRCS Mode)
 
@@ -103,6 +119,10 @@ occur, or occur quite soon after one of the other two instructions. From that
 point, it is simply required that the pilot maintain the current state for best
 chance of missile success.
 
+#### WRCS AGM-45 Employment
+
+> 💡The WRCS mode is currently WIP and will the employment will be described once it is ready
+
 ### Loft
 
 The Loft attack profile of the Shrike is like a loft bombing attack, utilizing
@@ -130,6 +150,13 @@ illuminate again, and the horizontal ADI bar will stow.
 ![manual_loft_bombing](../../../img/loft.jpg) _Example of the Loft bombing, the
 procedure stays the same for the AGM-45 Shrike_
 
+#### LABS Loft Employment
+
+This mode works exactly the same as it would for bombs so pre-planning is necessary. Select an IP
+calculate the timers and fly the same attack profile as for Loft bombing. Note that in this mode
+the Loft seeker of the AGM-45 Shrike needs to sense a differential pressure of 1 Bar and needs to
+sense a barometric height of over 18,000ft to arm itself and start searching.
+
 ### Direct Mode
 
 Direct mode employment of the AGM-45 is dependent on the crew knowing the
@@ -143,3 +170,16 @@ and initiates a dive to center the ADI needles at the target. The crew should
 then check the dive chart for angle and AGL, and the pilot should maneuver into
 that orientation, maintaining a centered vertical ADI needle. From that point,
 the bomb release button is pressed and held until the Shrike is fired.
+
+#### WRCS Direct Employment
+
+For a direct employment all the pilot has to do is center the needles on the ADI and press the bomb
+release button. The Shrike will fire within one second after pressing the bomb release button. Be
+aware that the Shrike will have the least amount of range in direct mode and should be fired very
+near to the target. A dive angle of 20 degree or more is recommended.
+
+### Seekerheads
+
+The following seekerheads can be used to track the corresponding radars:
+
+![f4_shrike_seekerheads](../../../img/f4_shrike_seeker_table.jpg)
