@@ -20,7 +20,7 @@ additional-js = [
     'js/jquery-3.7.1.min.js',
     'js/extra.js'
 ]
-mathjax-support = true
+mathjax-support = false
 
 [output.html.fold]
 enable = true
