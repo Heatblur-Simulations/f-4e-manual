@@ -10335,8 +10335,23 @@ clandestine means with the RAF during the Falklands War.</p>
 <h2 id="variants-2"><a class="header" href="#variants-2">Variants</a></h2>
 <p>Only the A version can be equipped on this version of the Phantom.</p>
 <h2 id="employment-2"><a class="header" href="#employment-2">Employment</a></h2>
-<p>The AGM-45 has three separate launch modes available: AGM-45 (WRCS), LOFT, and
-DIRECT.</p>
+<p>The AGM-45 has three separate launch modes available: (WRCS) AGM-45, (LABS) LOFT, and
+(WRCS) DIRECT.</p>
+<h3 id="basic-cockpit-setup"><a class="header" href="#basic-cockpit-setup">Basic cockpit setup</a></h3>
+<p>Before any AGM-45 Shrike can be employed a few things have to be set in the cockpit by the pilot:</p>
+<ol>
+<li>Select the station for the Shrike you want to employ via
+the <a href="stores/air_to_ground/missiles/../../../cockpit/pilot/weapon_management.html#station-select-buttons">station select buttons</a></li>
+<li>Select ARM on
+the <a href="stores/air_to_ground/missiles/../../../cockpit/pilot/weapon_management.html#weapon-selector-knob">weapon select knob</a></li>
+<li>Select one of the three available modes of the Shrike via
+the <a href="stores/air_to_ground/missiles/../../../cockpit/pilot/weapon_management.html#delivery-mode-knob">delivery mode knob</a></li>
+<li>(optional) Turn
+the <a href="stores/air_to_ground/missiles/../../../cockpit/pilot/flight_director_group.html#navigation-function-selector-panel">flight director</a>
+on for ADI needle guidance</li>
+<li>(optional) Turn the LCOSS to A/G</li>
+<li>Turn <a href="stores/air_to_ground/missiles/../../../cockpit/pilot/weapon_management.html#master-arm-switch">MASTER ARM</a> on</li>
+</ol>
 <h3 id="agm-45-wrcs-mode"><a class="header" href="#agm-45-wrcs-mode">AGM-45 (WRCS Mode)</a></h3>
 <p>Used only with the AGM-45 in conjunction with the WRCS, this mode is the primary
 means of employment of the Shrike. The mode is based around a high altitude
@@ -10400,6 +10415,10 @@ launch. Depending on the initial attack setup, the level signal may immediately
 occur, or occur quite soon after one of the other two instructions. From that
 point, it is simply required that the pilot maintain the current state for best
 chance of missile success.</p>
+<h4 id="wrcs-agm-45-employment"><a class="header" href="#wrcs-agm-45-employment">WRCS AGM-45 Employment</a></h4>
+<blockquote>
+<p>💡The WRCS mode is currently WIP and will the employment will be described once it is ready</p>
+</blockquote>
 <h3 id="loft"><a class="header" href="#loft">Loft</a></h3>
 <p>The Loft attack profile of the Shrike is like a loft bombing attack, utilizing
 the weapon lookup tables to define a suitable IP to release distance, the
@@ -10422,6 +10441,11 @@ launch. Once launch has occurred, the pull-up lamp and sight reticle will
 illuminate again, and the horizontal ADI bar will stow.</p>
 <p><img src="stores/air_to_ground/missiles/../../../img/loft.jpg" alt="manual_loft_bombing" /> <em>Example of the Loft bombing, the
 procedure stays the same for the AGM-45 Shrike</em></p>
+<h4 id="labs-loft-employment"><a class="header" href="#labs-loft-employment">LABS Loft Employment</a></h4>
+<p>This mode works exactly the same as it would for bombs so pre-planning is necessary. Select an IP
+calculate the timers and fly the same attack profile as for Loft bombing. Note that in this mode
+the Loft seeker of the AGM-45 Shrike needs to sense a differential pressure of 1 Bar and needs to
+sense a barometric height of over 18,000ft to arm itself and start searching.</p>
 <h3 id="direct-mode"><a class="header" href="#direct-mode">Direct Mode</a></h3>
 <p>Direct mode employment of the AGM-45 is dependent on the crew knowing the
 precise location of the target SAM emitter; while it can be utilized as a
@@ -10433,6 +10457,14 @@ and initiates a dive to center the ADI needles at the target. The crew should
 then check the dive chart for angle and AGL, and the pilot should maneuver into
 that orientation, maintaining a centered vertical ADI needle. From that point,
 the bomb release button is pressed and held until the Shrike is fired.</p>
+<h4 id="wrcs-direct-employment"><a class="header" href="#wrcs-direct-employment">WRCS Direct Employment</a></h4>
+<p>For a direct employment all the pilot has to do is center the needles on the ADI and press the bomb
+release button. The Shrike will fire within one second after pressing the bomb release button. Be
+aware that the Shrike will have the least amount of range in direct mode and should be fired very
+near to the target. A dive angle of 20 degree or more is recommended.</p>
+<h3 id="seekerheads"><a class="header" href="#seekerheads">Seekerheads</a></h3>
+<p>The following seekerheads can be used to track the corresponding radars:</p>
+<p><img src="stores/air_to_ground/missiles/../../../img/f4_shrike_seeker_table.jpg" alt="f4_shrike_seekerheads" /></p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="agm-65-maverick"><a class="header" href="#agm-65-maverick">AGM-65 Maverick</a></h1>
 <p><img src="stores/air_to_ground/missiles/../../../img/agm65.jpg" alt="agm65" /></p>
 <p>Entering service in 1972, the AGM-65 air to surface missile provided the Phantom
@@ -10535,7 +10567,6 @@ Phantom.</p>
 <p>It was the first of its kind that reached series production and was used in
 service during the early 1960s until it was later supplanted by the
 <a href="stores/air_to_ground/missiles/../bombs/tv_guided_bombs.html">AGM-62 Walleye</a>.</p>
-<p>From version</p>
 <h2 id="variants-4"><a class="header" href="#variants-4">Variants</a></h2>
 <p>Available variants include:</p>
 <div class="table-wrapper"><table><thead><tr><th>Variant</th><th style="text-align: right">Warhead</th><th>Description</th></tr></thead><tbody>
@@ -10545,14 +10576,23 @@ service during the early 1960s until it was later supplanted by the
 </tbody></table>
 </div>
 <h2 id="employment-4"><a class="header" href="#employment-4">Employment</a></h2>
-<p>To setup the aircraft for launching a Bullpup, ensure the relevant station is
-armed, the Weapon Selector is in the AGM-12 position and the Video Selector set
-to WEAPON. Also make sure the screen is turned on and set to TV.</p>
-<p>After launch, the weapon can be steered either by the pilot using the mini-stick
-next to the throttle, or by the WSO using the Antenna Hand Control Stick.</p>
-<blockquote>
-<p>🚧 This section is under construction.</p>
-</blockquote>
+<p><img src="stores/air_to_ground/missiles/../../../img/f4_ext_bullpup_fired.jpg" alt="bullpup_fired" /></p>
+<h3 id="basic-cockpit-setup-1"><a class="header" href="#basic-cockpit-setup-1">Basic cockpit setup</a></h3>
+<p>Before any AGM-12 Bullpup can be employed a few things have to be set in the cockpit by the pilot:</p>
+<ol>
+<li>Select the station for the AGM-12 Bullpup via
+the <a href="stores/air_to_ground/missiles/../../../cockpit/pilot/weapon_management.html#station-select-buttons">station select buttons</a></li>
+<li>Select AGM-12 on
+the <a href="stores/air_to_ground/missiles/../../../cockpit/pilot/weapon_management.html#weapon-selector-knob">weapon select knob</a></li>
+<li>Select Direct on
+the <a href="stores/air_to_ground/missiles/../../../cockpit/pilot/weapon_management.html#delivery-mode-knob">delivery mode knob</a></li>
+<li>(optional) Turn the LCOSS to A/G</li>
+<li>Turn <a href="stores/air_to_ground/missiles/../../../cockpit/pilot/weapon_management.html#master-arm-switch">MASTER ARM</a> on</li>
+</ol>
+<p>To launch the AGM-12 Bullpup the only thing left to do is to put the reticle on the target and press
+and hold the bomb release button until the missile has left the rail.After launch, the weapon can be
+steered either by the pilot using the mini-stick next to the throttle, or by the WSO using the
+Antenna Hand Control Stick.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="rockets"><a class="header" href="#rockets">Rockets</a></h1>
 <h2 id="mk-4-series-275-folding-fin-aerial-rockets---ffar"><a class="header" href="#mk-4-series-275-folding-fin-aerial-rockets---ffar">Mk 4 Series 2.75 Folding Fin Aerial Rockets - FFAR</a></h2>
 <p><img src="stores/air_to_ground/../../img/ext_f4_rockets.jpg" alt="lau3" /></p>
@@ -15329,32 +15369,31 @@ possible.</p>
 next.</p>
 <p>Here are some general tips &amp; tricks as created by testers during the testing phase:</p>
 <ul>
-<li>Initially, wait until the other jets have taken off before beginning with the lesson.</li>
-<li>Adjust the volume of DCS to suit the audio hardware you are using.</li>
-<li>Press "Pause" whenever you need to interrupt the lesson; the simulation pauses
-completely.</li>
-<li>Press "Active Pause" whenever you want to check something but want the simulation to
-continue running.</li>
-<li>You can skip playing the audio and text instructions if you carry out the corresponding
-action before the instructor has finished speaking them, or - if this is intended for the
-corresponding step - simply press the key "Spacebar". Note that the aircraft system
-status must be set according to the instructions in order to be able to continue with
-the next step.</li>
-<li>You can jump back one step in a task. You can do this via the communication menu &gt; F10
-Other ... "Back to step #". This is possible for most of the steps. The aircraft status
-is then automatically reset to the appropriate status. Please give the simulation a
-little time to adjust everything accordingly.</li>
-<li>You can jump to the beginning of a task. This works via the communication menu &gt; F10
-Other ... "Back to procedure introduction". This is possible for many tasks. The
-aircraft status is then automatically reset to the appropriate status. Please give the
-simulation a little time to adjust everything accordingly.</li>
-<li>If you don't need the automatically displayed checklists, you can hide them via the
-communication menu &gt; F10 Other ... "Disable pictures".</li>
-<li>If you don't need help in the form of yellow frames around cockpit elements, you can
-hide them via the communication menu &gt; F10 Other ... "Disable highlights".</li>
-<li>You can show the DCS internal kneeboard at any time. Flip back a few pages and you will
-find the lesson related checklists there too, they are exactly the same as those that
-can be displayed automatically.</li>
+<li>For lessons starting on the ground, the noise might be very loud. You have three options:
+<ul>
+<li>Wait until the other jets have taken off before beginning with the lesson.</li>
+<li>You are allowed to close the canopy whenever you need to (default binding is LCTRL+C), despite
+the F-4 usually closes it very lately</li>
+<li>Adjust the audio volume of DCS to suit the autio hardware you are using.</li>
+</ul>
+</li>
+<li>If you have troubles with a very dark cockpit, a few things can be done:
+<ul>
+<li>Use the internal cockpit illumination on the COCKPIT LIGHTS panel (right side):
+<ul>
+<li>The CONSOLE OFF/BRT knob</li>
+<li>The INSTR PANEL knob</li>
+<li>The CONSOLE FLOOD light switch</li>
+<li>The INST FLOOD light switch</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><img src="dcs/../img/training_mission_cockpit_lights.jpg" alt="training_tips_illumination_pic" /></p>
+<ul>
+<li>Set the SYSTEM option "Cockpit Global Illumination" to ON</li>
+<li>Set the SYSTEM option "Gamma" to 2.0 or higher values.</li>
 </ul>
 <h2 id="emergencies"><a class="header" href="#emergencies">Emergencies</a></h2>
 <p>There are situations in which the triggers of a lesson no longer work properly for some unknown
