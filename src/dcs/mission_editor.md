@@ -7,7 +7,7 @@ The F-4 has several special options selectable in the Mission Editor.
 ## Condition and Wear
 
 _"And I'll tell you what, since Cal's on it,
-it's only flown on approved cross-countrys and drill weekends.
+it's only flown on approved cross-countries and drill weekends.
 Mint condition, folks, no over-Gs."_
 
 All components of the aircraft simulate wear individually, yielding a unique
@@ -76,6 +76,9 @@ in practice. Values beyond, such as 500%, can be used to represent scenarios in
 which pilots are forced to fly an aircraft that operates exceptionally below its
 expected performance level. It is still somewhat usable, nothing is straight out
 broken, but components just do not behave within acceptable parameters anymore.
+
+> 💡 Values beyond 100% cannot be set in the Mission Editor,
+> but are achievable in-flight.
 
 For the Pave Spike motor this means that, when set to 100% wear, its speed
 variance σ will additionally increase by 20%. Assuming a good initial starting

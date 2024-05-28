@@ -47,8 +47,6 @@ Configuration
 
 ## Mission Factors
 
-Sure, here's your information converted into Markdown tables:
-
 Takeoff:
 
 | Parameter          | Value            |

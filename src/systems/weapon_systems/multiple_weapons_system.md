@@ -50,7 +50,7 @@ stations. This does not constitute air-to-air weaponry.
 ![pilot_delivery_mode_knob](../../img/pilot_delivery_mode_knob.jpg)
 
 Release mode is set using the Delivery Mode Knob. Values to the left of OFF
-employ the AN/AJB-7 Attitude Reference and Combing Computer
+employ the AN/AJB-7 Attitude Reference and Bombing Computer
 Set ([ARBCS](../../systems/weapon_systems/arbcs.md)),
 whereas
 values to the right of DIRECT employ the Weapon Release Computer

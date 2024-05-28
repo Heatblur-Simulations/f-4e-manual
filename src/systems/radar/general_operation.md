@@ -167,7 +167,7 @@ tracking gate to provide a consistent target signal for tracking.
 
 ## Sensitivity Time Control (STC)
 
-The strength of a radar echo falls off with \\( 1 / r^4 \\) where **r** is the
+The strength of a radar echo falls off with `1 / r^4` where **r** is the
 range. This means on a normal display the brightness of the radar returns will
 get dimmer with distance.
 

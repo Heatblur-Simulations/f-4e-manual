@@ -58,15 +58,15 @@ As an example, an AWRU single-ripple quantity release of 4 is selected with an
 interval of 120 milliseconds. To place the third bomb in the ripple on target,
 the following equation is used:
 
-\\[ RA = I_R \cdot (N_{Tgt} - 1) \\]
+![Release Advance Formula](../../img/release_advance_formula.jpg)
 
 where
 
-- \\( RA \\) = Release Advance Setting, milliseconds
-- \\( I_R \\) = AWRU Release Intervalometer setting, milliseconds
-- \\( N\_{Tgt} \\) = Impact Sequence number of bomb desired on target
+- `RA` = Release Advance Setting, milliseconds
+- `I_R` = AWRU Release Intervalometer setting, milliseconds
+- `N_Tgt` = Impact Sequence number of bomb desired on target
 
-\\[ RA = 120 \cdot (3 - 1) \\]
+![Release Advance Formula](../../img/release_advance_formula_example.jpg)
 
 Thus, for this release, we would set the value of RA to 240 msec. This would
 produce a spread of two bombs ahead of target, one on the calculated target
