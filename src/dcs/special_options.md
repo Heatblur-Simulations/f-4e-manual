@@ -132,6 +132,11 @@ possible that the UI gets cut off. This setting then allows to move the UI back
 into view, but therefore giving up proper alignment on the UI, such as the
 Jester UI being centered on the screen.
 
+### Offline Mode
+
+When checked, the [Virtual Browser](virtual_browser.md), as well as any other HB
+UI features and elements that require an active online connection are disabled.
+
 ## Jester UI
 
 ### Allow Mouse Controls
