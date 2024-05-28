@@ -97,32 +97,22 @@ next.
 
 Here are some general tips & tricks as created by testers during the testing phase:
 
-- Initially, wait until the other jets have taken off before beginning with the lesson.
-- Adjust the volume of DCS to suit the audio hardware you are using.
-- Press "Pause" whenever you need to interrupt the lesson; the simulation pauses
-  completely.
-- Press "Active Pause" whenever you want to check something but want the simulation to
-  continue running.
-- You can skip playing the audio and text instructions if you carry out the corresponding
-  action before the instructor has finished speaking them, or - if this is intended for the
-  corresponding step - simply press the key "Spacebar". Note that the aircraft system
-  status must be set according to the instructions in order to be able to continue with
-  the next step.
-- You can jump back one step in a task. You can do this via the communication menu > F10
-  Other ... "Back to step #". This is possible for most of the steps. The aircraft status
-  is then automatically reset to the appropriate status. Please give the simulation a
-  little time to adjust everything accordingly.
-- You can jump to the beginning of a task. This works via the communication menu > F10
-  Other ... "Back to procedure introduction". This is possible for many tasks. The
-  aircraft status is then automatically reset to the appropriate status. Please give the
-  simulation a little time to adjust everything accordingly.
-- If you don't need the automatically displayed checklists, you can hide them via the
-  communication menu > F10 Other ... "Disable pictures".
-- If you don't need help in the form of yellow frames around cockpit elements, you can
-  hide them via the communication menu > F10 Other ... "Disable highlights".
-- You can show the DCS internal kneeboard at any time. Flip back a few pages and you will
-  find the lesson related checklists there too, they are exactly the same as those that
-  can be displayed automatically.
+- For lessons starting on the ground, the noise might be very loud. You have three options:
+  - Wait until the other jets have taken off before beginning with the lesson.
+  - You are allowed to close the canopy whenever you need to (default binding is LCTRL+C), despite
+    the F-4 usually closes it very lately
+  - Adjust the audio volume of DCS to suit the autio hardware you are using.
+- If you have troubles with a very dark cockpit, a few things can be done:
+  - Use the internal cockpit illumination on the COCKPIT LIGHTS panel (right side):
+    - The CONSOLE OFF/BRT knob
+    - The INSTR PANEL knob
+    - The CONSOLE FLOOD light switch
+    - The INST FLOOD light switch
+
+![training_tips_illumination_pic](../img/training_mission_cockpit_lights.jpg)
+
+- Set the SYSTEM option "Cockpit Global Illumination" to ON
+- Set the SYSTEM option "Gamma" to 2.0 or higher values.
 
 ## Emergencies
 
