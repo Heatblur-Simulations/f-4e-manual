@@ -108,11 +108,11 @@ Here are some general tips & tricks as created by testers during the testing pha
     - The INSTR PANEL knob
     - The CONSOLE FLOOD light switch
     - The INST FLOOD light switch
-    
+
 ![training_tips_illumination_pic](../img/training_mission_cockpit_lights.jpg)
 
-  - Set the SYSTEM option "Cockpit Global Illumination" to ON
-  - Set the SYSTEM option "Gamma" to 2.0 or higher values.
+- Set the SYSTEM option "Cockpit Global Illumination" to ON
+- Set the SYSTEM option "Gamma" to 2.0 or higher values.
 
 ## Emergencies
 
