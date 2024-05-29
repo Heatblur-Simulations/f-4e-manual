@@ -155,6 +155,16 @@ when launching the Phantom for the first time.
 Selecting **Offline** will disable the Virtual Browser and any other HB UI
 features and elements that require an active online connection.
 
+### Theme
+
+![UI Theme](../img/special_option_hb_ui_theme.jpg)
+
+Allows to select which color theme is used by the UI. All UI elements support a
+light and a dark theme.
+
+The default option **AUTO** will pick the theme dynamically based on the in-game
+time. Light during the day and Dark for a night mission.
+
 ## Jester UI
 
 ### Allow Mouse Controls
