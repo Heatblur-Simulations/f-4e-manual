@@ -132,6 +132,29 @@ possible that the UI gets cut off. This setting then allows to move the UI back
 into view, but therefore giving up proper alignment on the UI, such as the
 Jester UI being centered on the screen.
 
+### Domain Access
+
+![Domain Access Types](../img/hb_ui_domain_access_option.jpg)
+
+Defines which domains the HB UI is allowed to access.
+
+**Full** allows for free browsing, allowing to visit any website with the
+[Virtual Browser](virtual_browser.md).
+
+The default option **Whitelist** defines which sites can be accessed by using a
+whitelist file. Only domains passing the rules setup in the file are allowed.
+The default rules are setup to support all HB UI features and a hand full of
+useful websites for the Virtual Browser, such as _YouTube_.
+
+This file is automatically created at
+
+`C:\Users\John Doe\Saved Games\DCS_F4E\hbui_whitelist.txt`
+
+when launching the Phantom for the first time.
+
+Selecting **Offline** will disable the Virtual Browser and any other HB UI
+features and elements that require an active online connection.
+
 ## Jester UI
 
 ### Allow Mouse Controls
@@ -220,3 +243,10 @@ However, it can also result in not only visual cuts, such as animations running
 slower, but will also cause some systems to degrade. For example the Pave Spike,
 running slower, can not update its ground stabilization algorithm fast enough
 anymore. So ticking this option can cause issues and lead to bugs.
+
+## Lower HB UI Refresh Rate
+
+When checked, all HB UI elements are rendered at a significantly lower rate.
+
+This can help improving performance while HB UI elements are shown by reducing
+CPU load. However, it can also cause UI animations to not look smooth anymore.
