@@ -224,6 +224,17 @@ automatically set to the center instead and not moved.
 > 💡 Users playing with a high and very sensitive head-to-game translation might
 > find it useful to increase this value slightly.
 
+#### Origin Angle Y-Offset
+
+Defines the offset (in degrees) to displace the center point of head-tracking
+vertically. Positive values shift it up, negative values down. The default
+setting is 0°.
+
+This setting can be useful if the center point should not be properly lined up
+with the natural forward view. That is, when opening the menu from a natural
+head position and the cursor already shows a displacement instead of being
+centered, tweaking this setting mitigates the issue.
+
 ## Radar Stick for Cursor
 
 When checked, the binds mapped to control the
