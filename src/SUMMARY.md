@@ -179,6 +179,7 @@
   - [Grease Pencil](./dcs/grease_pencil.md)
   - [Virtual Browser](./dcs/virtual_browser.md)
   - [Recorders](./dcs/recorders.md)
+  - [Tape Player](./dcs/tape_player.md)
   - [Character](./dcs/character.md)
   - [Mission Editor](./dcs/mission_editor.md)
   - [Training Missions](./dcs/training_missions.md)
