@@ -1,5 +1,8 @@
 # Startup
 
+If you skipped the Preparation for Flight and Interior Inspection, remember to
+put on the helmet. And you might want to connect the ground power too.
+
 ## Before starting engines (Both)
 
 | Step | System            | Action                   |
