@@ -26,8 +26,8 @@ AGM-12 是同种类首次批量生产的武器，于 1960 年代初期开始服�
 
 在发射 AGM-12 "小斗犬" 前，飞行员需要在驾驶舱设置几项开关：
 
-1. 通过[挂点选择按钮](../../../cockpit/pilot/weapon_management.md#挂点选择按钮)选择 AGM-12 "小斗犬"
-   挂点
+1. 通过[挂点选择按钮](../../../cockpit/pilot/weapon_management.md#挂点选择按钮)选择挂载了 AGM-12 "
+   小斗犬" 的挂点
 2. 在[武器选择旋钮](../../../cockpit/pilot/weapon_management.md#武器选择旋钮) 选择 AGM-12
 3. 在[投放模式旋钮](../../../cockpit/pilot/weapon_management.md#投放模式旋钮)选择直接
 4. (可选) 将 LCOSS 设置到 A/G
