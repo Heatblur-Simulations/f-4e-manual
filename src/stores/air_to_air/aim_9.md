@@ -71,19 +71,19 @@ Phantom:
 | Captive M | Non-functional version used for training and testing purposes.                                                                                                                                                       |
 
 Below is a basic comparative summary of each Sidewinder's performance in some
-general areas, whereas 🟩 means _good_, 🟨 _fair_ and 🟥 _poor_.
+general areas, whereas ✔️ means _good_, ⚠️ _fair_ and ❌ _poor_.
 
 | Type      | Lock-Tone | Uncage | Aspect | Maneuverability | CM Resist | Motor |
 | --------- | --------- | ------ | ------ | --------------- | --------- | ----- |
-| B         | ❌        | ❌     | Rear   | 🟥              | 🟥        | 🟥    |
-| J         | ❌        | ✅     | Rear   | 🟨              | 🟨        | 🟥    |
-| JULI      | ✅        | ✅     | All    | 🟨              | 🟩        | 🟨    |
-| L         | ✅        | ✅     | All    | 🟩              | 🟩        | 🟩    |
-| M         | ✅        | ✅     | All    | 🟩              | 🟩        | 🟩    |
-| P         | ❌        | ✅     | Rear   | 🟨              | 🟨        | 🟥    |
-| P-3       | ❌        | ✅     | Rear   | 🟨              | 🟨        | 🟨    |
-| P-5       | ✅        | ✅     | All    | 🟨              | 🟩        | 🟨    |
-| Captive M | ✅        | ✅     | All    | 🟩              | 🟩        | 🟩    |
+| B         | ❌        | ❌     | Rear   | ❌            | ❌        | ❌    |
+| J         | ❌        | ✔️     | Rear   | ⚠️            | ⚠️        | ❌    |
+| JULI      | ✔️        | ✔️     | All    | ⚠️            | ✔️        | ⚠️    |
+| L         | ✔️        | ✔️     | All    | ✔️            | ✔️        | ✔️    |
+| M         | ✔️        | ✔️     | All    | ✔️            | ✔️        | ✔️    |
+| P         | ❌        | ✔️     | Rear   | ⚠️            | ⚠️        | ❌    |
+| P-3       | ❌        | ✔️     | Rear   | ⚠️            | ⚠️        | ⚠️    |
+| P-5       | ✔️        | ✔️     | All    | ⚠️            | ✔️        | ⚠️    |
+| Captive M | ✔️        | ✔️     | All    | ✔️            | ✔️        | ✔️    |
 
 Some variants have a null-seeker. These missiles do not produce a tone when
 fully aligned with a target. This can lead to confusion, thinking the missile

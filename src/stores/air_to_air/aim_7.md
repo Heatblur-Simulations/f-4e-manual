@@ -145,14 +145,14 @@ Phantom:
 | 7M   | The M was the first inverse mono-pulse Sparrow providing increased tracking precision, it also has improved motor performance and electronics, including improved clutter and countermeasure rejection. The M like all Sparrows can also guide using continuous wave, at a degraded tracking precision.                                                                                                                                                                                                 |
 
 Below is a very basic comparative summary of each Sparrow's performance in some
-general areas, whereas 🟩 means _good_, 🟨 _fair_ and 🟥 _poor_.
+general areas, whereas ✔️ means _good_, ⚠️ _fair_ and ❌ _poor_.
 
 | Type    | Seeker | Range | Dogfight | Countermeasure Resist / Clutter Rejection |
 | ------- | ------ | ----- | -------- | ----------------------------------------- |
-| AIM-7E  | 🟥     | 🟨    | ❌       | 🟥                                        |
-| AIM-7E2 | 🟥     | 🟥    | ✅       | 🟥                                        |
-| AIM-7F  | 🟨     | 🟩    | ✅       | 🟨                                        |
-| AIM-7M  | 🟩     | 🟩    | ✅       | 🟩                                        |
+| AIM-7E  | ❌     | ⚠️    | ❌       | ❌                                        |
+| AIM-7E2 | ❌     | ❌    | ✔️       | ❌                                        |
+| AIM-7F  | ⚠️     | ✔️    | ✔️       | ⚠️                                        |
+| AIM-7M  | ✔️     | ✔️    | ✔️       | ✔️                                        |
 
 > 💡 Technically, the E2 has the same maximal range than the E.
 > However, due to its maneuvering-behavior, that range lessens for anything but a dead straight shot.
