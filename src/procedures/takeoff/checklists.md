@@ -1,81 +1,89 @@
-# Takeoff Checklists
+# 起飞检查单
 
-## Before Takeoff (Pilot)
+## 起飞前 (飞行员)
 
-| Step    | System                 | Action                    |
-|---------|------------------------|---------------------------|
-| 1.      | Optical Sight          | CHECK                     |
-| 2.      | Internal Wing Transfer | NORMAL                    |
-| **3.**  | **STAB AUG Switches**  | **ENGAGE**                |
-| 4.      | Flight Controls        | UNRESTRICTED (WSO confirm)|
-| 5.      | Slats & Flaps          | CHECK OUT & DOWN          |
-| 6.      | Anti-Ice               | AS REQUIRED               |
-| 7.      | STAB Trim              | CHECK 1-3 UNITS NOSE DOWN |
-| 8.      | Fuel Quantity          | CHECK                     |
-| **9.**  | **(P-WSO) Canopies**   | **CLOSE & CHECK (WSO then Pilot)** |
-| 10.      | Warning Lights         | TEST                     |
-| 11.     | Defog & Temperature    | AS REQUIRED               |
-| 12.     | (WSO) Command Selector | AS BRIEFED                |
-| **13.** | **(P-WSO) Ejection Seats**| **ARM**                |
 
-### After Runway Line-Up
+| 步骤   | 系统                   | 动作                             |
+| ------ | ---------------------- | -------------------------------- |
+| 1.     | 光学瞄准具             | 检查                             |
+| 2.     | 机翼输油               | NORMAL                           |
+| **3.** | **增稳开关**           | **接通**                         |
+| 4.     | 飞行操纵设备           | 自由移动 (WSO 确认)              |
+| 5.     | 缝翼和襟翼             | 检查在 OUT & DOWN                |
+| 6.     | 防冰                   | 按需                             |
+| 7.     | 平尾配平               | 检查 1-3 个单位压机头            |
+| 8.     | 油量                   | 检查                             |
+| **9.** | **(P-WSO) 座舱盖**     | **关闭并检查 (WSO, 接着飞行员)** |
+| 10.    | 告警灯                 | 测试                             |
+| 11.    | 除雾 & 温度            | 按需                             |
+| 12.    | (WSO) 弹射指令选择手柄 | 按照简报                         |
+| 13.    | (P-WSO) 弹射座椅       | ARM (不适用)                     |
 
-| Step   | System            | Action             |
-|--------|-------------------|--------------------|
-| 1.     | External Transfer | AS DESIRED         |
-| **2.** | **Anti Skid**     | **ON & LIGHT OUT** |
-| 3.     | Compass Heading   | CHECK              |
-| **4.** | **Pitot Heat**    | **ON**             |
-| 5.     | IFF               | AS REQUIRED        |
-| 6.     | (P-WSO) Circuit Breakers | CHECK IN    |
-| 7.     | Warning Lights    | CHECK              |
+### 进跑道后
+
+
+| 步骤   | 系统           | 动作              |
+| ------ | -------------- | ----------------- |
+| 1.     | 副油箱输油     | 按需              |
+| **2.** | **防滑**       | **打开 & 灯光熄灭** |
+| 3.     | 罗盘航向       | 检查              |
+| **4.** | **皮托管加热** | **ON**            |
+| 5.     | IFF            | 按需              |
+| 6.     | (P-WSO) 断路器 | 检查推入          |
+| 7.     | 告警灯         | 检查              |
+
 <!-- 8. Radar altimeter - OFF (after TO 1F-4-1262) -->
 
-## Normal Takeoff
+## 正常起飞
 
-| Step | System                                                                                      | Action                       |
-|------|---------------------------------------------------------------------------------------------|------------------------------|
-| 1.   | Wheel Brakes                                                                                | APPLY                        |
-| 2.   | Throttle                                                                                    | 85% RPM MAX                  |
-| 3.   | Engine gauges                                                                               | CHECK                        |
-|      | a. Exhaust gas temperature                                                                  | 450°C                        |
-|      | b. Fuel flow                                                                                | 4000 pph                     |
-|      | c. Nozzles                                                                                  | 1/4                          |
-|      | d. Oil pressure                                                                             | 30-40 psi                    |
-| 4.   | Wheel brakes                                                                                | RELEASE                      |
-| 5.   | Throttle                                                                                    | MIL                          |
-| 6.   | Engine gauges                                                                               | CHECK                        |
-| 7.   | Throttle                                                                                    | AFTERBURNER (IF DESIRED)     |
-| 8.   | Nose gear steering                                                                          | DISENGAGE at 70 KNOTS        |
-| 9.   | Stick                                                                                       | MOVE AFT at 80 KNOTS         |
-| 10.  | Pitch attitude                                                                              | MAINTAIN 10° to 12°          |
-| 11.  | Trim                                                                                        | AS REQUIRED                  |
 
-## After Takeoff
+| 步骤 | 系统        | 动作             |
+| ---- | ----------- | ---------------- |
+| 1.   | 机轮刹车    | 踩下             |
+| 2.   | 油门握把    | 85% RPM 最大     |
+| 3.   | 发动机仪表  | 检查             |
+|      | a. 排温     | 450°C           |
+|      | b. 燃油流量 | 4000 pph         |
+|      | c. 喷口     | 1/4              |
+|      | d. 滑油压力 | 30-40 psi        |
+| 4.   | 机轮刹车    | 松开             |
+| 5.   | 油门握把    | 军推             |
+| 6.   | 发动机仪表  | 检查             |
+| 7.   | 油门握把    | 加力 (如果需要)  |
+| 8.   | 前轮转向    | 70节以上禁止使用 |
+| 9.   | 驾驶杆      | 80节时拉杆       |
+| 10.  | 俯仰姿态    | 保持10°到12°   |
+| 11.  | 配平        | 按需             |
 
-### Climb
+## 起飞后 - 爬升
 
-| Step   | System            | Action                   |
-|--------|-------------------|--------------------------|
-| **1.** | **Gear**          | **UP**                   |
-| **2.** | **Slats & Flaps** | **NORM (180 knots MIN)** |
 
-### Cruise
+| 步骤   | 系统           | 动作                         |
+| ------ | -------------- | ---------------------------- |
+| **1.** | **起落架**     | **收上**                     |
+| **2.** | **缝翼和襟翼** | **NORM (最低180节)**         |
+| 3.     | 俯仰           | 调整到10-12°直到空速到350节 |
+| 4.     | 空速           | 调整俯仰姿态保持350节        |
+| 5.     | 航向           | 跟随飞行计划                 |
 
-| Step | System                              | Action      |
-|------|-------------------------------------|-------------|
-| 1.   | (P-WSO) Altimeters                  |             |
-|      |                                     | SET         |
-|      |                                     | CHECK STBY  |
-|      |                                     | RESET       |
-|      |                                     | COMPARE     |
-| 2.   | Radar Altimeter                     | AS REQUIRED |
-| 3.   | (WSO) Command Selector              | AS BRIEFED  |
-| 4.   | (P-WSO) Ops Check                   |             |
-|      | a. Oxygen Quantity/Pressure/Blinker | CHECK       |
-|      | b. Cockpit Pressure                 | CHECK       |
-|      | c. Fuel Quantity/Transfer Switches  | CHECK       |
-|      | d. STBY Compass                     | CHECK       |
-|      | e. Circuit Breakers                 | CHECK       |
-| 4.   | Anti-Ice Switch                     | AS REQUIRED |
+## 巡航
+
+
+| 步骤 | 系统                      | 动作     |
+| ---- | ------------------------- | -------- |
+| 1.   | (P-WSO) 高度表            |          |
+|      |                           | 设置     |
+|      |                           | 检查STBY |
+|      |                           | 复位     |
+|      |                           | 对比     |
+| 2.   | 雷达高度表                | 按需     |
+| 3.   | (WSO) 弹射指令选择手柄    | 按简报   |
+| 4.   | (P-WSO) 功能检查          |          |
+|      | a. 氧气储量、压力和指示器 | 检查     |
+|      | b. 座舱高度               | 检查     |
+|      | c. 油量/输油开关          | 检查     |
+|      | d. 备用罗盘               | 检查     |
+|      | e. 断路器                 | 检查     |
+| 5.   | 防冰开关                  | 按需     |
+
 <!-- 2.5. (P-WSO) Survival kit selector switch - AS REQUIRED -->
