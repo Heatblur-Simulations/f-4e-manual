@@ -1,70 +1,60 @@
-# Taxi
+# 滑行
 
-## Before Taxi
+## 滑行前
 
-### Pilot
+### 飞行员
 
-| Step    | System                                | Action                      |
-| ------- | ------------------------------------- | --------------------------- |
-| 1.      | COMM & NAV Equipment                  | ON & CHECK                  |
-| 2.      | IFF                                   | STANDBY                     |
-| **3.**  | **Radar Altimeter**                   | **ON**                      |
-| **4.**  | **Altimeter & SPC**                   | **SET & CHECK**             |
-|         | **a. Barometric Scale**               | **SET QNH**                 |
-|         | **b. SPC**                            | **RESET CORR**              |
-|         | **c. BARO Altimeter**                 | **HOLD RESET 3 SEC**        |
-| 5.      | Speed Brakes                          | CHECK🔧                    |
-| 6.      | Slats & Flaps                         | CHECK🔧                    |
-| 7.      | Flight Controls                       | CHECK🔧                    |
-| **8.**  | **Slats & Flaps**                     | **NORM**                    |
-| 9.      | ARI Disengage                         | CHECK🔧                    |
-| 10.     | STAB AUG Switches                     | ENGAGE AND CHECK🔧         |
-| **11.** | **Reference Sys Select**              | **PRIM (if INS in NAV)**    |
-| **12.** | **Compass Mode Control Knob**         | **SYNC**                    |
-| 13.     | AFCS                                  | CHECK (if required)         |
-| 14.     | STAB AUG Switches                     | DISENGAGE                   |
-| **15.** | **Trim**                              | **CHECK🔧 & SET**          |
-|         |                                       | **1-3 UNITS NOSE DOWN**     |
-| 16.     | Slats & flaps                         | OUT & DOWN🔧               |
-| **17.** | **Optical Sight**                     | **STBY/CAGE**               |
-| 18.     | Pneumatic Pressure                    | CHECK                       |
-| 19.     | IFF                                   | CHECK                       |
-| 20.     | Radar Altimeter                       | CHECK & SET                 |
-| **21.** | **Wheel chocks**                      | **REMOVE**🔧               |
+| 步骤    | 系统             | 动作                     |
+| ------- | ---------------- | ------------------------ |
+| 1.      | 通信和导航设备   | 打开并检查               |
+| 2.      | IFF              | 待机                     |
+| **3.**  | **雷达高度表**   | **打开并检查**           |
+| **4.**  | **高度表 & SPC** | **设置并检查**           |
+| 5.      | 减速板           | 检查 🔧                  |
+| 6.      | 缝翼和襟翼       | 检查 🔧                  |
+| 7.      | 飞行操纵设备     | 检查 🔧                  |
+| **8.**  | **缝翼和襟翼**   | **NORM**                 |
+| 9.      | ARI 断开         | 检查 🔧                  |
+| 10.     | 增稳开关         | 接通并检查 🔧            |
+| **11.** | **基准系统选择** | **PRIM (INS 在 NAV 时)** |
+| 12.     | 罗盘模式选择旋钮 | SYNC                     |
+| 13.     | AFCS             | 检查 (如有需要)          |
+| 14.     | 增稳开关         | 断开                     |
+| **15.** | **配平**         | **检查 🔧 & 设置**       |
+|         |                  | **1-3 单位压机头**       |
+| 16.     | 缝翼和襟翼       | OUT & DOWN🔧             |
+| **17.** | **光学瞄准具**   | **STBY/CAGE**            |
+| 18.     | 气压压力         | 检查                     |
+| 19.     | IFF              | 检查                     |
+| 20.     | 雷达高度表       | 检查并设置               |
+| **21.** | **轮挡**         | **移除**🔧               |
 
-> 🟡 CAUTION: Do not move aircraft with INS in ALIGN mode.
+> 🟡 注意: INS 在 ALIGN 模式时不要移动飞机。
 
 ### WSO
 
-| Step   | System                | Action                |
-| ------ | --------------------- | --------------------- |
-| 1.     | Interior Check        | COMPLETE              |
-| 2.     | COMM & NAV Equipment  | ON & CHECK            |
-| **3.** | **Target Designator** | **POWER ON & STOWED** |
-| 4.     | Radar BIT Checks      | INITIATE              |
-| 5.     | WRCS BIT Checks       | INITIATE              |
-| 6.     | NAV Computer Mode     | AS DESIRED            |
-| **7.** | **Altimeter & SPC**   | **SET & CHECK**       |
+| 步骤   | 系统             | 动作                |
+| ------ | ---------------- | ------------------- |
+| 1.     | 舱内检查         | 完成                |
+| 2.     | 通信和导航设备   | 打开并检查          |
+| **3.** | **目标指示器**   | **通电 & 镜头收起** |
+| 4.     | 雷达 BIT 检查    | 开始                |
+| 5.     | WRCS BIT 检查    | 开始                |
+| 6.     | 导航计算机模式   | 按需                |
+| **7.** | **高度表 & SPC** | **设置并检查**      |
 
-## Taxiing
+## 滑行时
 
-| Step   | System                 | Action             |
-|--------|------------------------|--------------------|
-| 1.     | Wheel Brakes           | TEST               |
-| **2.** | **Nose Gear Steering** | **ENGAGE & CHECK** |
-| 3.     | (P-WSO) Flight Instruments | CHECK          |
-| 4.     | (P-WSO) Oxygen Diluter | AS REQUIRED        |
+| 步骤   | 系统             | 动作            |
+| ------ | ---------------- | --------------- |
+| 1.     | 机轮刹车         | 测试            |
+| **2.** | **前轮转向**     | **接通 & 检查** |
+| 3.     | (P-WSO) 飞行仪表 | 检查            |
+| 4.     | (P-WSO) 氧气     | 按需            |
 
-> 🟡 CAUTION: Taxi with canopies full open or full closed; with
-> the canopies open, maintain taxi speeds below 60
-> knots to prevent damage to the canopy operating
-> mechanism.
+> 🟡 注意：在座舱盖全开或全关情况下滑行；座舱盖全开时，保持滑行速度低于 60 节放置损伤座舱盖操作机构
+> 。
 
-> 🟡 CAUTION: Adequate distance between aircraft must be
-> maintained during formation taxi. An open
-> canopy may be damaged by engine exhaust blast.
+> 🟡 注意：编队滑行时，飞机之间必须保持足够的间距。座舱盖打开的情况下可能会因发动机排气吹袭而损坏。
 
-> 🟡 CAUTION: While taxiing during high gross weight
-> conditions, the turning radius should be
-> increased to relieve excessive side loads on the
-> main landing gear struts, wheels, and tires.
+> 🟡 注意：在高总重状态下滑行时，应增大转弯半径，以减轻主起落架支柱、机轮和轮胎承受的侧向过载。

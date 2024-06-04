@@ -1,65 +1,72 @@
-# Landing Checklists
+# 着陆检查单
 
-## Descent / Before Landing
+## 下高 / 着陆前
 
-| Step   | System                     | Action        |
-|--------|----------------------------|---------------|
-| 1.     | Defog & Temperature        | AS DESIRED    |
-| 2.     | ALE-40 Flares/Norm Switch  | NORMAL        |
-| **3.** | **STAB AUG Switches**      | **ENGAGED**   |
-| 4.     | COMM Antenna Select Switch | UPR           |
-| **5.** | **Landing/Taxi Light**     | **LANDING**   |
-| 6.     | Armament Switches          | OFF/SAFE/STOW |
-| 7.     | Sight                      | STBY/CAGE     |
-| 8.     | Radar & BARO Altimeter     | SET           |
-| 9.     | Fuel                       | CHECK         |
+| 步骤   | 系统                     | 动作          |
+| ------ | ------------------------ | ------------- |
+| 1.     | 除雾 & 温度              | 按需          |
+| 2.     | ALE-40红外干扰弹选择开关 | NORMAL        |
+| **3.** | **增稳开关**             | **接通**      |
+| 4.     | 通信天线选择开关         | UPR           |
+| **5.** | **着陆/滑行灯**          | **LANDING**   |
+| 6.     | 武器开关                 | OFF/SAFE/STOW |
+| 7.     | 瞄准具                   | STBY/CAGE     |
+| 8.     | 雷达 & 气压高度表        | 设置          |
+| 9.     | 燃油                     | 检查          |
 
-## In Pattern (below 210 knots)
+## 起落航线内 (低于 210 节)
 
-| Step   | System             | Action             |
-|--------|--------------------|--------------------|
-| **1.** | **Gear**           | **DOWN**           |
-| **2.** | **Slats & Flaps**  | **OUT & DOWN**     |
-| 3.     | Hydraulic Pressure | CHECK              |
-| 4.     | Warning Lights     | CHECK              |
-| **5.** | **Anti Skid**      | **ON & LIGHT OUT** |
+| 步骤   | 系统          | 动作                |
+| ------ | ------------- | ------------------- |
+| **1.** | **起落架**    | **放下**            |
+| **2.** | **缝翼/襟翼** | **OUT & DOWN**      |
+| 3.     | 液压压力      | 检查                |
+| 4.     | 告警灯        | 检查                |
+| **5.** | **防滑**      | **打开 & 灯光熄灭** |
 
-## Missed Approach
+## 复飞
 
-| Step   | System        | Action               |
-|--------|---------------|----------------------|
-| **1.** | **Throttles** | **MILITARY OR AB**   |
-| **2.** | **Gear**      | **UP**               |
-| 3.     | Slats & Flaps | NORM (180 knots MIN) |
-| 4.     | Throttles     | AS REQUIRED          |
+| 步骤   | 系统         | 动作             |
+| ------ | ------------ | ---------------- |
+| **1.** | **油门握把** | **军推或加力**   |
+| **2.** | **起落架**   | **收上**         |
+| 3.     | 缝翼/襟翼    | NORM (最低180节) |
+| 4.     | 油门握把     | 按需             |
 
-## After Landing
+## 着陆
 
-| Step    | System                           | Action              |
-|---------|----------------------------------|---------------------|
-| **1.**  | **Drag Chute**                   | **DEPLOY**          |
-| **2.**  | **Wheel Brake (below 70 knots)** | **ENGAGE**          |
-| **3.**  | **Anti Skid (below 30 knots)**   | **OFF**             |
-| 4.      | Cockpit Pressure                 | CHECK               |
-| **5.**  | **Ejection Handle**              | **SAFE**            |
-| **6.**  | **Landing/Taxi Light**           | **AS REQUIRED**     |
-| 7.      | Slats & Flaps                    | NORM                |
-| **8.**  | **Drag Chute**                   | **JETTISON**        |
-| 9.      | Mode 4 Sel                       | HOLD                |
-| **10.** | **ECM/ALE/RWR/APX-76**           | **OFF**             |
-| **11.** | **Radar/CW Power**               | **OFF**             |
-| 12.     | STAB AUG Switches                | OFF                 |
-| 13.     | Internal Wing Dump               | NORMAL              |
-| 14.     | VOR/ILS Control Panel            | OFF                 |
-| 15.     | Engine Anti-Ice                  | NORMAL              |
-| 16.     | Radar Altimeter                  | OFF                 |
-| 17.     | STAB Trim                        | 1-3 units NOSE DOWN |
-| **18.** | **Reference Sel Switch**         | **STBY**            |
-| 19.     | Rain Removal                     | OFF                 |
-| **20.** | **Pitot Heat**                   | **OFF**             |
-| 21.     | IFF                              | OFF                 |
-| 22.     | Temperature                      | FULL HOT            |
-| 23.     | Defog Handle                     | DEFOG               |
-| 24.     | TACAN                            | OFF                 |
-| 25.     | Formation Lights                 | OFF                 |
-| 26.     | Sight Shutter                    | CLOSED              |
+| 步骤   | 系统                    | 动作             |
+| ------ | ----------------------- | ---------------- |
+| 1.     | 跑道上空                | 轻轻拉飘         |
+| 2.     | 接地时                  | 油门握把收到慢车 |
+| **3.** | **减速伞**              | **放伞**         |
+| **4.** | **机轮刹车 (低于70节)** | **踩下**         |
+
+## 着陆后
+
+| 步骤    | 系统                   | 动作          |
+| ------- | ---------------------- | ------------- |
+| 1.      | 防滑(低于30节)         | OFF           |
+| 2.      | 座舱高度               | 检查          |
+| 3.      | 弹射拉环               | 安全 (不适用) |
+| 4.      | 着陆/滑行灯            | 按需          |
+| 5.      | 缝翼/襟翼              | NORM          |
+| **6.**  | **减速伞**             | **弃伞**      |
+| 7.      | 模式 4 选择开关        | HOLD          |
+| **8.**  | **ECM/ALE/RWR/APX-76** | **关闭**      |
+| **9.**  | **雷达/CW电源**        | **关闭**      |
+| 10.     | 增稳开关               | 关闭          |
+| 11.     | 机翼放油               | NORMAL        |
+| 12.     | VOR/ILS控制面板        | 关闭          |
+| 13.     | 发动机防冰             | NORMAL        |
+| 14.     | 雷达高度表             | 关闭          |
+| 15.     | 平尾配平               | 1-3个单位     |
+| **16.** | **基准系统选择开关**   | **STBY**      |
+| 17.     | 除雨                   | 关闭          |
+| **18.** | **皮托管加热**         | **OFF**       |
+| 19.     | IFF                    | OFF           |
+| 20.     | 温度                   | 最热          |
+| 21.     | 除雾手柄               | DEFOG         |
+| 22.     | TACAN                  | 关闭          |
+| 23.     | 编队灯                 | 关闭          |
+| 24.     | 瞄准具光               | 关闭          |

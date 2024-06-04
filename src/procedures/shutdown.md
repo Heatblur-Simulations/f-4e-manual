@@ -1,36 +1,38 @@
-# Shutdown
+# 关车
 
-## Engine Shutdown (Pilot)
+## 发动机关车 (飞行员)
 
-| Step    | System                     | Action           |
-|---------|----------------------------|------------------|
-| 1.      | Wheels                     | CHOCKED🔧        |
-| 2.      | UHF Radio                  | OFF              |
-| 3.      | Ejection Seat              | RAISE            |
-| 4.      | Defog Handle               | FULL AFT         |
-| 5.      | Temperature                | 12 O'CLOCK       |
-| 6.      | Air Refuel Switch          | EXTEND  (if AAR) |
-| **7.**  | **Right Throttle**         | **OFF**          |
-| 8.      | AVTR Tape                  | REMOVE           |
-| 10.     | Spoiler Actuator           | CHECK (RIGHT)🔧  |
-| **11.** | **Left Throttle**          | **OFF**          |
-| **12.** | **Engine Master Switches** | **OFF**          |
+| 步骤    | 系统             | 动作              |
+| ------- | ---------------- | ----------------- |
+| 1.      | 机轮             | 放置轮挡🔧        |
+| 2.      | UHF 电台         | 关闭              |
+| 3.      | 弹射座椅         | 升起              |
+| 4.      | 除雾/腿部加热杆  | 最大向后          |
+| 5.      | 温度             | 12 点方向         |
+| 6.      | 受油开关         | 如完成 AAR 则伸出 |
+| **7.**  | **右侧油门握把** | **关断**          |
+| 8.      | AVTR 录像带      | 移除              |
+| 9.      | 扰流板作动筒     | 检查 (右侧)🔧     |
+| **10.** | **左侧油门握把** | **关断**          |
+| **11.** | **发动机主开关** | **关闭**          |
+
 <!-- 18. APU reject switch — NORMAL (some aircraft) -->
 
-## Engine Shutdown (WSO)
+## 发动机关车 (WSO)
 
-| Step | System            | Action |
-|------|-------------------|--------|
-| 1.   | UHF Radio         | OFF    |
-| 2.   | Ejection Seat     | RAISE  |
-| 3.   | INS               | OFF    |
-| 4.   | NAV Computer      | OFF    |
-| 5.   | Target Designator | OFF    |
+| 步骤 | 系统       | 动作 |
+| ---- | ---------- | ---- |
+| 1.   | UHF 电台   | 关闭 |
+| 2.   | 弹射座椅   | 升起 |
+| 3.   | INS        | OFF  |
+| 4.   | 导航计算机 | OFF  |
+| 5.   | 目标指示器 | OFF  |
 
-## Before Leaving Cockpit
+## 离开驾驶舱前
 
-| Step | System                            | Action                          |
-|------|-----------------------------------|---------------------------------|
-| 1.   | (P-WSO) All Switches and Controls | OFF                             |
-| 2.   | (P-WSO) Oxygen Diluter            | 100%                            |
-<!-- | | 1.5.                              | (P-WSO) Face curtain safety pin | INSTALLED | -->
+| 步骤 | 系统                       | 动作 |
+| ---- | -------------------------- | ---- |
+| 1.   | (P-WSO) 所有开关和控制按钮 | 关闭 |
+| 2.   | (P-WSO) 氧气稀释杆         | 100% |
+
+<!-- |                                   | 1.5.   | (P-WSO) Face curtain safety pin | INSTALLED | -->

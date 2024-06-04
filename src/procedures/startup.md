@@ -1,104 +1,41 @@
-# Startup
+# 起动
 
-## Before starting engines (Both)
+## 发动机起动前 (前后座)
 
-| Step | System            | Action                   |
-|------|-------------------|--------------------------|
-| 1.   | Seat pins         | CHECK REMOVED AND STOWED |
-| 2.   | Fore and Aft Area | CLEAR                    |
-| 3.   | Fire Guard        | POSTED                   |
-| 4.   | Throttles         | OFF                      |
+| 步骤 | 系统     | 动作           |
+| ---- | -------- | -------------- |
+| 1.   | 座椅插销 | 检查移除并收起 |
+| 2.   | 前后区域 | 净空           |
+| 3.   | 消防员   | 就位           |
+| 4.   | 油门握把 | 关断           |
 
-## Starting engines (Pilot)
+## 起动发动机 (飞行员)
 
-| Step    | System                       | Action              |
-|---------|------------------------------|---------------------|
-| **1.**  | **External Air source**      | **CONNECT RIGHT**🔧 |
-| **2.**  | **Engine Master Switches**   | **ON**              |
-| **3.**  | **External airflow**         | **ON**🔧            |
-| **4.**  | **At 10% RPM**               |                     |
-|         | **a. Right Ignition Button** | **PRESS AND HOLD**  |
-|         | **b. Right Throttle**        | **HALF THEN IDLE**  |
-| **5.**  | **At Lightoff (EGT INCR)**   |                     |
-|         | **a. Right Ignition Button** | **RELEASE**         |
-| **6.**  | **At 45% RPM**               |                     |
-|         | **a. External airflow**      | **STOP**🔧          |
-| 7.      | Check Parameters             |                     |
-|         | a. Exhaust Gas Temperature   | 220 - 420 degrees   |
-|         | b. Fuel Flow Indicator       | 800 - 1400 pph      |
-|         | c. Idle RPM                  | 65 plus minus 1%    |
-|         | d. Right Boost Pump          | 30 plus minus 5 PSI |
-|         | e. Oil Pressure              | 12 - 50 PSI         |
-|         | f. Hydraulic Pressure        | WITHIN LIMITS       |
-| **8.**  | **Right Generator**          | **ON**              |
-| 9.      | Spoiler Actuator             | CHECK (LEFT)🔧      |
-| 10.     | Air Refueling door           | CHECK🔧             |
-| **11.** | **Start Left Engine**        | **PER STEPS 1 - 9** |
-| 12.     | Right Generator              | CYCLE ON/OFF/ON     |
-| 13.     | Bus Tie Open Light           | OUT                 |
-| **14.** | **External Air**             | **DISCONNECT**🔧    |
-| **15.** | **External Power**           | **DISCONNECT**🔧    |
-| 16.     | Interior Check               | COMPLETE            |
-
-## After electrical power (WSO)
-
-| Step   | System                 | Action         |
-|--------|------------------------|----------------|
-| 1.     | Navigation Computer    | SET            |
-|        | **a. NAV Comp Mode**   | **STBY**       |
-|        | b. Wind Counters       | SET            |
-|        | c. Variation Counter   | SET            |
-|        | d. POS Update Switch   | NORM           |
-|        | e. Present POS Counter | SET            |
-|        | f. Target Counters     | SET FOR TGT 2  |
-|        | g. NAV Comp Mode       | RESET          |
-|        | h. NAV Comp Mode       | STBY           |
-|        | i. Target Counters     | SET FOR TGT 1  |
-| **2.** | **INS Alignment**      | **AS DESIRED** |
-
-### INS Full Gyrocompass Alignment (WSO)
-
-Time depends on ambient temperature and BATH alignment accuracy.
-
-| Step | System         | Action   |
-|------|----------------|----------|
-| 1.   | NAV Comp Mode  | STBY     |
-| 2.   | INS Power Knob | STBY     |
-| 3.   | Gyro Heat Up   | WAIT     |
-|      | a. HEAT Light  | OUT      |
-| 4.   | INS Power Knob | ALIGN    |
-| 5.   | Alignment      | WAIT     |
-|      | a. ALIGN Light | FLASHING |
-| 6.   | INS Power Knob | NAV      |
-| 7.   | INS Light      | OUT      |
-
-### INS Fast BATH Alignment (WSO)
-
-Takes roughly 2 minutes 15 seconds.
-
-| Step | System         | Action |
-|------|----------------|--------|
-| 1.   | NAV Comp Mode  | STBY   |
-| 3.   | INS Power Knob | STBY   |
-| 4.   | INS Power Knob | ALIGN  |
-| 5.   | Alignment      | WAIT   |
-|      | a. HEAT Light  | IGNORE |
-|      | b. ALIGN Light | STEADY |
-| 6.   | INS Power Knob | NAV    |
-| 7.   | INS Light      | OUT    |
-
-### INS Stored Heading Alignment (WSO)
-
-Takes roughly 2 minutes 15 seconds.
-
-| Step | System            | Action    |
-|------|-------------------|-----------|
-| 1.   | NAV Comp Mode     | STBY      |
-| 2.   | Align Mode Switch | HDG MEM   |
-| 3.   | INS Power Knob    | ALIGN     |
-| 4.   | Alignment         | WAIT      |
-|      | a. HEAT Light     | IGNORE    |
-|      | b. ALIGN Light    | FLASHING  |
-| 5.   | INS Power Knob    | NAV       |
-| 6.   | INS Light         | OUT       |
-| 7.   | Align Mode Switch | GYRO COMP |
+| 步骤    | 系统                  | 动作                   |
+| ------- | --------------------- | ---------------------- |
+| **1.**  | **地面气源**          | **连接右发**🔧         |
+| **2.**  | **发动机主开关**      | **ON**                 |
+| **3.**  | **供气**              | **吹气**🔧             |
+| **4.**  | **在 10% RPM**        |                        |
+|         | **a. 右发点火按钮**   | **按住**               |
+|         | **b. 右侧油门握把**   | **行程一半再收回慢车** |
+| **5.**  | **起燃时 (EGT 升高)** |                        |
+|         | **a. 右发点火按钮**   | **松开**               |
+| **6.**  | **在 45% RPM**        |                        |
+|         | **a. 地面气源**       | **停止吹气**🔧         |
+| 7.      | 检查参数              |                        |
+|         | a. 排温               | 220 - 420 °C          |
+|         | b. 燃油流量表         | 800 - 1400 pph         |
+|         | c. 慢车 RPM           | 65 ± 1%               |
+|         | d. 右升压油泵         | 30 ± 5 PSI            |
+|         | e. 滑油压力           | 12 - 50 PSI            |
+|         | f. 液压压力           | 限制内                 |
+| **8.**  | **右发电机**          | **ON**                 |
+| 9.      | 扰流板作动筒          | 检查 (左)🔧            |
+| 10.     | 受油门                | 检查🔧 (如有需要)      |
+| **11.** | **左发**              | **重复步骤 1-8**       |
+| 12.     | 右发电机              | OFF/ON 循环拨动        |
+| 13.     | Bus Tie Open 灯       | 熄灭                   |
+| **14.** | **地面气源**          | **断开**🔧             |
+| **15.** | **地面电源**          | **断开**🔧             |
+| 16.     | 舱内检查              | 完成                   |

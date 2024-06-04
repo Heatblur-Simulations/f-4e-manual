@@ -1,252 +1,309 @@
-# Preparation for Flight and Interior Inspection
+# 飞行准备以及舱内检查
 
-> 💡 If a battery start is to be made, those checks requiring electrical power will have to be
-> performed after the engines have been started.
-
-Designations used:
-
-* The ⚡ icon means that the given step **cannot** be performed when battery start is made.
+> 💡 如果使用电池起动，则必须在发动机起动后再进行需要电力的检查。
 
 ## WSO
 
-### Before Electrical Power (WSO)
+### 通电前 (WSO)
 
-| Step | System                            | Action     |
-|------|-----------------------------------|------------|
-| 1.   | AN/ALE-40 Chaff Dispenser         | OFF        |
-|      | a. Chaff mode switch              | OFF        |
-|      | b. Flare mode switch              | OFF        |
-|      | c. Ripple switch                  | OFF        |
-| 2.   | Throttles                         | AFT        |
-| 3.   | UHF radio                         | OFF        |
-| 4.   | AVTR Switch                       | OFF        |
-| 5.   | Radar power                       | OFF        |
-| 6.   | DSCG                              | OFF        |
-| 7.   | ECM equipment                     | OFF        |
-| 8.   | INS                               | OFF        |
-| 9.   | Navigational computer set control | SET        |
-|      | a. Mode selector knob             | AS DESIRED |
-|      | b. INS knob                       | SYS OFF    |
-| 10.  | Nuclear store consent switch      | SAFE       |
-| 11.  | Nav computer                      | OFF        |
-| 12.  | Battery bypass switch             | OFF        |
-| 13.  | Circuit breaker panels            | CHECK      |
-| 14.  | Publications and flight data      | CHECK      |
+| 步骤 | 系统                 | 动作 |
+| ---- | -------------------- | ---- |
+| 1.   | 头盔                 | 戴上 |
+| 2.   | AN/ALE-40 箔条布撒器 | OFF  |
+| 3.   | 油门                 | 向后 |
+| 4.   | UHF 电台             | OFF  |
+| 5.   | AVTR 开关            | OFF  |
+| 6.   | 雷达电源             | OFF  |
+| 7.   | DSCG                 | OFF  |
+| 8.   | ECM 设备             | OFF  |
+| 9.   | INS                  | OFF  |
+| 10.  | 核武许可开关         | SAFE |
+| 11.  | 导航计算机           | OFF  |
+| 12.  | 电池旁通开关         | OFF  |
+| 13.  | 断路器面板           | 检查 |
+| 14.  | 文档和飞行数据       | 检查 |
 
-### Interior Check (WSO)
+### 通电后 (WSO)
 
-| Step | System                                                  | Action               |
-|------|---------------------------------------------------------|----------------------|
-| 1.   | Rudder pedals                                           | ADJUST               |
-| 2.   | Ejection seat height                                    | ADJUST               |
-| 3.   | Stick grip and boot                                     | CHECK                |
-| 4.   | Communication-Navigation control panel                  | SET                  |
-|      | a. Communication frequency control knobs                | AS REQUIRED          |
-|      | b. Communication channel control knob                   | AS REQUIRED          |
-|      | c. Mode select switch                                   | AS REQUIRED          |
-|      | d. Communication Volume control knob                    | AS DESIRED           |
-|      | e. Auxiliary channel control knob                       | AS REQUIRED          |
-|      | f. Auxiliary volume control knob                        | AS DESIRED           |
-|      | g. COMM-AUX Pushbutton                                  | TR + G - ADF         |
-|      | h. Navigation volume control knobs                      | AS REQUIRED          |
-|      | i. TACAN function selector knob                         | OFF                  |
-|      | j. Communication command button                         | AS DESIRED           |
-|      | k. Navigation command button                            | AS DESIRED           |
-| 5.   | VOR/ILS/marker beacon volume                            | AS DESIRED           |
-| 6.   | Emergency slats flaps handle                            | FORWARD              |
-| 7.   | Intercom control panel                                  | SET                  |
-|      | a. Volume control                                       | AS DESIRED           |
-|      | b. Amplifier select knob                                | NORM                 |
-|      | c. Function selector switch                             | HOT MIC              |
-| 8.   | Emergency gear handle                                   | IN AND SECURE        |
-| 9.   | Emergency brake handle                                  | IN AND SECURE        |
-| 10.  | Slats flaps position indicators                         | GEAR DOWN INDICATION |
-| 11.  | Canopy emergency jettison handle                        | FORWARD              |
-| 12.  | Radar scope                                             | SECURE               |
-| 13.  | Attitude indicator                                      | CHECK AND SET⚡       |
-|      | a. Rotate pitch trim knob to check travel (-10° to +5°) |
-|      | b. Set horizon bar level with miniature aircraft        |                      |
-| 14.  | Clock                                                   | WIND AND SET         |
-| 15.  | Accelerometer                                           | SET                  |
-| 16.  | Navigation function selector switch                     | AS DESIRED           |
-| 17.  | Digital display indicator lamp button                   | PRESS                |
-| 18.  | Navigational computer set control lamp button           | PRESS                |
-| 19.  | KY-28 power selector knob                               | OFF                  |
-| 20.  | KY-28 mode selector                                     | P                    |
-| 21.  | Canopy manual unlock handle                             | FORWARD              |
-| 22.  | Aural tone                                              | AS REQUIRED          |
-| 23.  | Cockpit lights control knob                             | AS REQUIRED          |
-|      | a. White floodlight switch                              | OFF                  |
-|      | b. Instrument panel lights control knob                 | AS REQUIRED          |
-|      | c. Console lights control knob                          | AS REQUIRED          |
-|      | d. Standby compass light switch                         | AS REQUIRED          |
-|      | e. Console floodlight switch                            | AS REQUIRED          |
-|      | f. Indexer lights control knob                          | AS REQUIRED          |
-| 24.  | Warning and indicator lights                            | TEST⚡                |
-| 25.  | Intercom system                                         | CHECK                |
-| 26.  | Oxygen quantity gage                                    | CHECK⚡               |
-|      | Check quantity sufficient and OFF flag not visible.     |
-| 27.  | Oxygen supply system                                    | CHECK AND SET        |
+| 步骤   | 系统                  | 动作         |
+| ------ | --------------------- | ------------ |
+| **1.** | **仪表地面电源开关**  | \*拨动\*\*⚡ |
+| 2.     | 导航计算机            | 设置         |
+|        | **a. 导航计算机模式** | **STBY**     |
+|        | b. 风向风速计数器     | 设置         |
+|        | c. 磁差计数器         | 设置         |
+|        | d. 位置更新开关       | NORM         |
+|        | e. 当前位置计数器     | 设置         |
+|        | f. 目标计数器         | 设置到 TGT 2 |
+|        | g. 导航计算机模式     | RESET        |
+|        | h. 导航计算机模式     | STBY         |
+|        | i. 目标计数器         | 设置到 TGT 1 |
+| **3.** | **INS 对准**          | **按需**     |
 
-## Pilot
+> 💡 为避免断电可能导致出现 INS NO-GO 指示，确保 INS 在发电机开关拨至 ON 时未进入 ALIGN 模式。如果
+> 出现电力中断，将电源控制旋钮转至 OFF 档位。当电力恢复后，重新从 OFF 转至 ALIGN 前中途请短暂停留在
+> STBY 档位。
 
-### Before Interior Inspection (Pilot)
+### INS 完整陀螺罗盘对准 (WSO)
 
-| Step | System                                                                                                                                                         | Action                                        |
-|------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| 1.   | External Power                                                                                                                                                 | ON🔧                                          |
-| 2.   | Lower ejection handle guard                                                                                                                                    | UP                                            |
-| 3.   | Generator switches                                                                                                                                             | OFF                                           |
-| 4.   | AN/ALE-40 flare select switch                                                                                                                                  | NORMAL                                        |
-| 5.   | Internal wing dump switch                                                                                                                                      | NORM                                          |
-| 6.   | Throttles                                                                                                                                                      | OFF                                           |
-| 7.   | External stores emergency release                                                                                                                              | CHECK NO YELLOW SHOWING INSIDE CIRCULAR GUARD |
-| 8.   | Landing gear handle                                                                                                                                            | IN & DOWN                                     |
-| 9.   | Missile jettison selector                                                                                                                                      | OFF                                           |
-| 10.  | Armament Switches                                                                                                                                              | OFF/SAFE                                      |
-| 11.  | Pitot Heat                                                                                                                                                     | OFF                                           |
-| 12.  | Battery                                                                                                                                                        | CHECK                                         |
-|      | To determine battery relay closure turn on Engine Master switch and check for proper positioning of gear and slats flaps position indicators.                  |
-| 13.  | Engine Master Switches                                                                                                                                         | OFF                                           |
-| 14.  | Formation Lights                                                                                                                                               | OFF                                           |
-| 15.  | Emergency attitude reference system circuit breaker                                                                                                            | IN                                            |
-| 16.  | UHF Radio                                                                                                                                                      | OFF                                           |
-| 17.  | Reference system selector                                                                                                                                      | STBY                                          |
-| 18.  | Publications and flight data                                                                                                                                   | CHECK                                         |
-| 19.  | Gun Camera magazine                                                                                                                                            | INSTALL                                       |
-| 20.  | Gun Camera dust cover                                                                                                                                          | STOW (with 780 equipment)                     |
-| 21.  | External Power                                                                                                                                                 | CHECK ON                                      |
-| 22.  | Generator switches                                                                                                                                             | EXT ON                                        |
-| 23.  | Transformer-rectifier                                                                                                                                          | CHECK ⚡                                       |
-|      | Both transformer-rectifiers operating if the landing gear indicators indicate gear down with the Engine master switches OFF and the generator switches in EXT. |
+对准所需时间取决于环境温度和 BATH 对准精度。
 
-### Interior Inspection (Pilot)
+| 步骤 | 系统             | 动作  |
+| ---- | ---------------- | ----- |
+| 1.   | 导航计算机模式   | STBY  |
+| 2.   | INS 电源控制旋钮 | STBY  |
+| 3.   | 陀螺仪加热       | 等待  |
+|      | a. HEAT 灯       | 熄灭  |
+| 4.   | INS 电源控制旋钮 | ALIGN |
+| 5.   | 对准             | 等待  |
+|      | a. ALIGN 灯      | 闪烁  |
+| 6.   | INS 电源控制旋钮 | NAV   |
+| 7.   | INS 灯           | 熄灭  |
 
-| Step | System                                                                                                                                                                                                                                                                                                                             | Action                                    |
-|------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|
-| 1.   | Rudder Pedals                                                                                                                                                                                                                                                                                                                      | ADJUST                                    |
-| 2.   | Ejection Seat Height                                                                                                                                                                                                                                                                                                               | ADJUST ⚡                                  |
-| 3.   | Stick grip and boot                                                                                                                                                                                                                                                                                                                | CHECK                                     |
-|      | Check Stick grip firmly attached to stick and stick boot in place with no tears                                                                                                                                                                                                                                                    |                                           |
-| 4.   | Auxiliary armament control panel                                                                                                                                                                                                                                                                                                   | SET                                       |
-|      | a. Gyro Switch                                                                                                                                                                                                                                                                                                                     | NORM                                      |
-|      | b. Aural tone control knob                                                                                                                                                                                                                                                                                                         | LOW                                       |
-|      | c. Boarding Steps position indicator                                                                                                                                                                                                                                                                                               | PROTRUDING                                |
-| 5.   | Slats override switch                                                                                                                                                                                                                                                                                                              | NORM                                      |
-| 6.   | Intercom control panel                                                                                                                                                                                                                                                                                                             | SET                                       |
-|      | a. Volume control                                                                                                                                                                                                                                                                                                                  | AS DESIRED                                |
-|      | b. Amplifier select knob                                                                                                                                                                                                                                                                                                           | NORM                                      |
-|      | c. Function selector switch                                                                                                                                                                                                                                                                                                        | HOT MIC                                   |
-| 7.   | ALE-40 flares switch                                                                                                                                                                                                                                                                                                               | NORMAL                                    |
-| 8.   | Fuel control panel                                                                                                                                                                                                                                                                                                                 | SET                                       |
-|      | a. Internal wing transfer switch                                                                                                                                                                                                                                                                                                   | NORMAL                                    |
-|      | b. Internal wing dump switch                                                                                                                                                                                                                                                                                                       | NORM                                      |
-|      | c. Refuel select switch                                                                                                                                                                                                                                                                                                            | ALL TANKS                                 |
-|      | d. External transfer switch                                                                                                                                                                                                                                                                                                        | AS REQUIRED                               |
-|      | e. Air refuel switch                                                                                                                                                                                                                                                                                                               | RETRACT                                   |
-| 9.   | Stab Aug Switches                                                                                                                                                                                                                                                                                                                  | OFF                                       |
-| 10.  | Boost Pumps                                                                                                                                                                                                                                                                                                                        | CHECK⚡                                    |
-|      | Actuate left boost pump check switch observe that the left boost pump pressure indicator reads 30 ±5 PSI. Allow 3 seconds after release of the left switch, then repeat with right boost pump. Ensure that the test switches return to NORMAL                                                                                      |                                           |
-| 11.  | VOR/ILS Panel                                                                                                                                                                                                                                                                                                                      | SET                                       |
-|      | a. Volume control knob                                                                                                                                                                                                                                                                                                             | AS DESIRED                                |
-|      | b. Marker volume knob                                                                                                                                                                                                                                                                                                              | AS DESIRED                                |
-|      | c. Frequency                                                                                                                                                                                                                                                                                                                       | AS DESIRED                                |
-|      | d. VOR/MKR test switch                                                                                                                                                                                                                                                                                                             | TEST⚡                                     |
-| 12.  | Slats/Flaps switch                                                                                                                                                                                                                                                                                                                 | AS REQUIRED                               |
-|      | Slats/Flaps switch should correspond with indicators                                                                                                                                                                                                                                                                               |                                           |
-| 13.  | Emergency Slats/Flaps handle                                                                                                                                                                                                                                                                                                       | FORWARD                                   |
-| 14.  | Drag Chute control handle                                                                                                                                                                                                                                                                                                          | DOWN AND SECURE                           |
-| 15.  | Speed brake switch                                                                                                                                                                                                                                                                                                                 | IN                                        |
-| 16.  | Throttle friction lever                                                                                                                                                                                                                                                                                                            | SET DESIRED                               |
-| 17.  | Comm Antenna Select Switch                                                                                                                                                                                                                                                                                                         | UPR                                       |
-|      | Anti-skid may malfunction while transmitting on the lower antenna due to electromagnetic interference.                                                                                                                                                                                                                             |                                           |
-| 18.  | Engine Anti-icing switch                                                                                                                                                                                                                                                                                                           | NORMAL                                    |
-| 19.  | Anti-Skid                                                                                                                                                                                                                                                                                                                          | CHECK⚡                                    |
-|      | a. Anti-Skid switch on                                                                                                                                                                                                                                                                                                             | LIGHT OFF                                 |
-|      | b. Emergency quick release lever                                                                                                                                                                                                                                                                                                   | DEPRESS/LIGHT ON AND RELEASE LIGHT OFF    |
-|      | c. Anti-Skid Switch off                                                                                                                                                                                                                                                                                                            | LIGHT ON                                  |
-| 20.  | ARI circuit breaker                                                                                                                                                                                                                                                                                                                | IN                                        |
-| 21.  | Landing and taxi lights switch                                                                                                                                                                                                                                                                                                     | OFF                                       |
-| 22.  | Slats flaps position indicator                                                                                                                                                                                                                                                                                                     | SELECTED POSITION                         |
-| 23.  | Landing gear position indicators                                                                                                                                                                                                                                                                                                   | GEAR DOWN INDICATION                      |
-| 24.  | Emergency brake control handle                                                                                                                                                                                                                                                                                                     | IN AND SECURE                             |
-| 25.  | Canopy emergency jettison handle                                                                                                                                                                                                                                                                                                   | FORWARD                                   |
-| 26.  | Multiple weapons control panel                                                                                                                                                                                                                                                                                                     | SET                                       |
-|      | a. Master Arm Switch                                                                                                                                                                                                                                                                                                               | SAFE                                      |
-|      | b. Delivery mode knob                                                                                                                                                                                                                                                                                                              | OFF                                       |
-|      | c. Weapon select knob                                                                                                                                                                                                                                                                                                              | C                                         |
-|      | d. Radar missile power switch                                                                                                                                                                                                                                                                                                      | OFF                                       |
-|      | e. Selective jettison knob                                                                                                                                                                                                                                                                                                         | OFF                                       |
-|      | f. Interlock switch                                                                                                                                                                                                                                                                                                                | IN                                        |
-|      | g. CL TK Light                                                                                                                                                                                                                                                                                                                     | ON IF CENTERLINE TANK IS INSTALLED        |
-| 27.  | Accelerometer                                                                                                                                                                                                                                                                                                                      | SET                                       |
-| 28.  | Flight Instrument Light Control                                                                                                                                                                                                                                                                                                    | AS REQUIRED                               |
-| 29.  | Clock                                                                                                                                                                                                                                                                                                                              | WIND AND SET                              |
-| 30.  | Optical sight reticle                                                                                                                                                                                                                                                                                                              | CHECK                                     |
-| 31.  | Film magazine/dust cover                                                                                                                                                                                                                                                                                                           | SECURE                                    |
-| 32.  | ADI                                                                                                                                                                                                                                                                                                                                | CHECK AND SET⚡                            |
-|      | a. Rotate pitch trim knob to check travel (-10° +5° minimum)                                                                                                                                                                                                                                                                       |                                           |
-|      | b. Set horizon bar level with miniature Aircraft                                                                                                                                                                                                                                                                                   |                                           |
-| 33.  | Emergency attitude Indicator                                                                                                                                                                                                                                                                                                       | CHECK                                     |
-|      | a. Cage and do not lock                                                                                                                                                                                                                                                                                                            |                                           |
-|      | b. Set miniature aircraft level with horizon bar                                                                                                                                                                                                                                                                                   |                                           |
-| 34.  | Navigation function selector panel                                                                                                                                                                                                                                                                                                 | SET                                       |
-|      | a. Bearing distance selector switch                                                                                                                                                                                                                                                                                                | AS DESIRED                                |
-|      | b. Mode selector knob                                                                                                                                                                                                                                                                                                              | AS DESIRED                                |
-| 35.  | Fire warning lights                                                                                                                                                                                                                                                                                                                | TEST                                      |
-fuel quantity
-| 36.  | Canopy manual unlock handle                                                                                                                                                                                                                                                                                                        | FORWARD                                   |
-| 37.  | Arresting hook handle                                                                                                                                                                                                                                                                                                              | UP                                        |
-| 38.  | Communication-Navigation control panel                                                                                                                                                                                                                                                                                             | SET                                       |
-|      | a. Communication frequency control knobs                                                                                                                                                                                                                                                                                           | AS REQUIRED                               |
-|      | b. Communication channel control knob                                                                                                                                                                                                                                                                                              | AS REQUIRED                               |
-|      | c. Mode select switch                                                                                                                                                                                                                                                                                                              | AS REQUIRED                               |
-|      | d. Communication Volume control knob                                                                                                                                                                                                                                                                                               | AS DESIRED                                |
-|      | e. Auxiliary channel control knob                                                                                                                                                                                                                                                                                                  | AS REQUIRED                               |
-|      | f. Auxiliary volume control knob                                                                                                                                                                                                                                                                                                   | AS DESIRED                                |
-|      | g. COMM-AUX Pushbutton                                                                                                                                                                                                                                                                                                             | TR + G - ADF                              |
-|      | h. Navigation volume control knobs                                                                                                                                                                                                                                                                                                 | AS REQUIRED                               |
-|      | i. TACAN function selector knob                                                                                                                                                                                                                                                                                                    | OFF                                       |
-|      | j. Communication command button                                                                                                                                                                                                                                                                                                    | AS DESIRED                                |
-|      | k. Navigation command button                                                                                                                                                                                                                                                                                                       | AS DESIRED                                |
-| 38.  | Emergency vent knob                                                                                                                                                                                                                                                                                                                | IN                                        |
-| 40.  | Rain removal switch                                                                                                                                                                                                                                                                                                                | OFF                                       |
-| 41.  | Pitot heat                                                                                                                                                                                                                                                                                                                         | CHECK ⚡ 🔧                                |
-| 42.  | Defog-foot heat control handle                                                                                                                                                                                                                                                                                                     | AS DESIRED                                |
-| 43.  | IFF Mode IV function switch                                                                                                                                                                                                                                                                                                        | AS DESIRED                                |
-| 44.  | IFF Master control knob                                                                                                                                                                                                                                                                                                            | OFF                                       |
-| 45.  | Circuit breakers                                                                                                                                                                                                                                                                                                                   | CHECK                                     |
-| 46.  | Temperature control knob                                                                                                                                                                                                                                                                                                           | OFF                                       |
-|      | a. Temperature control knob                                                                                                                                                                                                                                                                                                        | AS DESIRED                                |
-|      | b. Mode selector switch                                                                                                                                                                                                                                                                                                            | AUTO                                      |
-| 47.  | DCU-94/A bomb control monitor panel                                                                                                                                                                                                                                                                                                | SET                                       |
-|      | a. Station selector switches                                                                                                                                                                                                                                                                                                       | AFT                                       |
-|      | b. Master release lock switch                                                                                                                                                                                                                                                                                                      | AFT                                       |
-|      | c. Option selector knob                                                                                                                                                                                                                                                                                                            | OFF                                       |
-| 48.  | Cockpit lights control knob                                                                                                                                                                                                                                                                                                        | AS REQUIRED                               |
-|      | a. White floodlight switch                                                                                                                                                                                                                                                                                                         | OFF                                       |
-|      | b. Instrument panel lights control knob                                                                                                                                                                                                                                                                                            | AS REQUIRED                               |
-|      | c. Console lights control knob                                                                                                                                                                                                                                                                                                     | AS REQUIRED                               |
-|      | d. Standby compass light switch                                                                                                                                                                                                                                                                                                    | AS REQUIRED                               |
-|      | e. Console floodlight switch                                                                                                                                                                                                                                                                                                       | AS REQUIRED                               |
-|      | f. Indexer lights control knob                                                                                                                                                                                                                                                                                                     | AS REQUIRED                               |
-| 49.  | Warning and Indicator lights                                                                                                                                                                                                                                                                                                       | TEST⚡                                     |
-| 50.  | Instrument flood lights                                                                                                                                                                                                                                                                                                            | OFF                                       |
-| 51.  | Aural stall warning volume                                                                                                                                                                                                                                                                                                         | AS DESIRED                                |
-| 52.  | Compass control panel                                                                                                                                                                                                                                                                                                              |                                           |
-|      | a. Latitude compensator                                                                                                                                                                                                                                                                                                            | SET                                       |
-|      | b. Mode control knob                                                                                                                                                                                                                                                                                                               | SLAVED                                    |
-|      | c. Synchronization indicator                                                                                                                                                                                                                                                                                                       | CHECK                                     |
-| 53.  | Exterior lights control panel                                                                                                                                                                                                                                                                                                      | SET                                       |
-|      | a. Fuselage lights switch                                                                                                                                                                                                                                                                                                          | AS REQUIRED                               |
-|      | b. Wing lights switch                                                                                                                                                                                                                                                                                                              | AS REQUIRED                               |
-|      | c. Tail lights switch                                                                                                                                                                                                                                                                                                              | AS REQUIRED                               |
-|      | d. Exterior lights flasher switch                                                                                                                                                                                                                                                                                                  | AS REQUIRED                               |
-|      | e. Formation lights control knob                                                                                                                                                                                                                                                                                                   | AS REQUIRED                               |
-| 54.  | Instrument lights intensity control panel                                                                                                                                                                                                                                                                                          | SET                                       |
-| 55.  | Intercom System                                                                                                                                                                                                                                                                                                                    | CHECK                                     |
-| 56.  | Oxygen quantity gage                                                                                                                                                                                                                                                                                                               | CHECK (Cannot be done with battery start) |
-|      | Check quantity sufficient, OFF flag not visible, OXYGEN LOW light extinguished. Press oxygen test button and check OXYGEN LOW light and MASTER CAUTION light illuminate at 1 litre. Notify rear crewmember, if applicable that test is in progress. |                                           |
-| 57.  | Oxygen supply system                                                                                                                                                                                                                                                                                                               | CHECK AND SET                             |
+### INS 快速 BATH 对准 (WSO)
 
-<!-- APU system - CHECK (Cannot be done with battery start) -->
+花费大约 2 分 15 秒。
+
+| 步骤 | 系统             | 动作  |
+| ---- | ---------------- | ----- |
+| 1.   | 导航计算机模式   | STBY  |
+| 3.   | INS 电源控制旋钮 | STBY  |
+| 4.   | INS 电源控制旋钮 | ALIGN |
+| 5.   | 对准             | 等待  |
+|      | a. HEAT 灯       | 忽略  |
+|      | b. ALIGN 灯      | 常亮  |
+| 6.   | INS 电源控制旋钮 | NAV   |
+| 7.   | INS 灯           | 熄灭  |
+
+### INS 预存航向对准 (WSO)
+
+花费大约 2 分 15 秒。
+
+| 步骤 | 系统             | 动作      |
+| ---- | ---------------- | --------- |
+| 1.   | 导航计算机模式   | STBY      |
+| 2.   | 对准模式开关     | HDG MEM   |
+| 3.   | INS 电源控制旋钮 | ALIGN     |
+| 4.   | 对准             | 等待      |
+|      | a. HEAT 灯       | 忽略      |
+|      | b. ALIGN 灯      | 闪烁      |
+| 5.   | INS 电源控制旋钮 | NAV       |
+| 6.   | INS 灯           | 熄灭      |
+| 7.   | 对准模式开关     | GYRO COMP |
+
+### 舱内检查 (WSO)
+
+| 步骤 | 系统                                       | 动作           |
+| ---- | ------------------------------------------ | -------------- |
+| 1.   | 方向舵脚蹬                                 | 调整           |
+| 2.   | 弹射座椅高度                               | 调整           |
+| 3.   | 驾驶杆和杆套                               | 检查           |
+| 4.   | 通信导航控制面板                           | 设置           |
+|      | a. 通信频率控制旋钮                        | 按需           |
+|      | b. 通信波道控制旋钮                        | 按需           |
+|      | c. 模式选择开关                            | 按需           |
+|      | d. 通信音量控制旋钮                        | 按需           |
+|      | e. 辅助波道控制旋钮                        | 按需           |
+|      | f. 辅助音量控制旋钮                        | 按需           |
+|      | g. COMM-AUX 按钮                           | TR + G - ADF   |
+|      | h. 导航音量控制旋钮                        | 按需           |
+|      | i. TACAN 功能选择旋钮                      | OFF            |
+|      | j. 通信指令按钮                            | 按需           |
+|      | k. 导航指令按钮                            | 按需           |
+| 5.   | VOR/ILS/指点信标音量                       | 按需           |
+| 6.   | 紧急缝翼/襟翼手柄                          | 向前           |
+| 7.   | 内话控制面板                               | 设置           |
+|      | a. 音量控制                                | 按需           |
+|      | b. 放大器选择旋钮                          | NORM           |
+|      | c. 功能选择开关                            | HOT MIC        |
+| 8.   | 应急起落架手柄                             | 推入锁好       |
+| 9.   | 应急刹车手柄                               | 推入锁好       |
+| 10.  | 襟缝翼位置指示器                           | 起落架放下指示 |
+| 11.  | 座舱盖应急抛弃手柄                         | 向前           |
+| 12.  | 雷达显示器                                 | 关闭           |
+| 13.  | 姿态仪                                     | 检查并设置 ⚡  |
+|      | a. 旋转俯仰调平旋钮以检查行程(-10° 到 +5°) |                |
+|      | b. 设置小飞机对准地平线                    |                |
+| 14.  | 时钟                                       | 上发条并对时   |
+| 15.  | 加速度表                                   | 设置           |
+| 16.  | 导航功能选择开关                           | 按需           |
+| 17.  | 数字显示器指示灯按钮                       | 按下           |
+| 18.  | 导航计算机组控制灯按钮                     | 按下           |
+| 19.  | KY-28 电源选择旋钮                         | OFF            |
+| 20.  | KY-28 模式选择开关                         | P              |
+| 21.  | 座舱盖手动解锁手柄                         | 向前           |
+| 22.  | 音调提示                                   | 按需           |
+| 23.  | 驾驶舱照明控制旋钮                         | 按需           |
+|      | a. 白色泛光灯开关                          | OFF            |
+|      | b. 仪表板灯光控制旋钮                      | 按需           |
+|      | c. 控制台灯光控制旋钮                      | 按需           |
+|      | d. 备用罗盘灯光开关                        | 按需           |
+|      | e. 控制台泛光灯开关                        | 按需           |
+|      | f. 分度器灯控制旋钮                        | 按需           |
+| 24.  | 告警和指示灯                               | 测试 ⚡        |
+| 25.  | 内话系统                                   | 检查           |
+| 26.  | 氧气储量表                                 | 检查 ⚡        |
+|      | 检查储量是否充足且 OFF 标志不可见。        |                |
+| 27.  | 供氧系统                                   | 检查并设置     |
+
+## 飞行员
+
+### 舱内检查前(飞行员)
+
+| 步骤 | 系统                                                                                                | 动作                       |
+| ---- | --------------------------------------------------------------------------------------------------- | -------------------------- |
+| 1.   | 头盔                                                                                                | 戴上                       |
+| 2.   | 下部弹射手柄保护                                                                                    | 抬起（不适用）             |
+| 3.   | 发电机开关                                                                                          | OFF                        |
+| 4.   | AN/ALE-40 红外干扰弹选择开关                                                                        | NORMAL                     |
+| 5.   | 机翼放油开关                                                                                        | NORM                       |
+| 6.   | 油门                                                                                                | 关断                       |
+| 7.   | 挂载应急抛弃                                                                                        | 检查圆形盖板内侧看不到黄色 |
+| 8.   | 起落架手柄                                                                                          | 推入并放下                 |
+| 9.   | 选择抛弃控制旋钮                                                                                    | OFF                        |
+| 10.  | 主军械开关                                                                                          | OFF/SAFE                   |
+| 11.  | 皮托管加热                                                                                          | OFF                        |
+| 12.  | 电池                                                                                                | 检查                       |
+|      | 打开发动机主开关确认起落架和缝翼/襟翼指示器显示正确以检查电池继电器闭合正常                         |                            |
+| 13.  | 发动机主开关                                                                                        | OFF                        |
+| 14.  | 编队灯                                                                                              | OFF                        |
+| 15.  | 应急姿态基准系统断路器                                                                              | 推入                       |
+| 16.  | UHF 电台                                                                                            | OFF                        |
+| 17.  | 基准系统选择开关                                                                                    | STBY                       |
+| 18.  | 文档和飞行数据                                                                                      | 检查                       |
+| 19.  | 照相枪胶卷                                                                                          | 安装                       |
+| 20.  | 照相枪防尘罩                                                                                        | 收起 (如装备 780 )         |
+| 21.  | 地面电源                                                                                            | 打开 🔧 并检查打开         |
+| 22.  | 发电机开关                                                                                          | EXT ON                     |
+| 23.  | 变压器-整流器                                                                                       | 检查 ⚡                    |
+|      | 发动机主开关在 OFF、发电机开关处于 EXT 以及起落架指示器显示起落架放下时，两台变压器整流器都在工作。 |                            |
+
+### 舱内检查 (飞行员)
+
+| 步骤 | 系统                                                                                                                                                       | 动作                        |
+| ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
+| 1.   | 方向舵脚蹬                                                                                                                                                 | 调整                        |
+| 2.   | 弹射座椅高度                                                                                                                                               | 调整 ⚡                     |
+| 3.   | 驾驶杆和杆套                                                                                                                                               | 检查                        |
+|      | 检查驾驶杆是否牢固地连接到底座杆，杆套是否到位，没有破损                                                                                                   |                             |
+| 4.   | 辅助武器控制面板                                                                                                                                           | 设置                        |
+|      | a. 陀螺仪开关                                                                                                                                              | NORM                        |
+|      | b. 音调提示控制旋钮                                                                                                                                        | LOW                         |
+|      | c. 登机梯指示器                                                                                                                                            | 升起                        |
+| 5.   | 缝翼超控开关                                                                                                                                               | NORM                        |
+| 6.   | 内话控制面板                                                                                                                                               | 设置                        |
+|      | a. 音量控制                                                                                                                                                | 按需                        |
+|      | b. 放大器选择旋钮                                                                                                                                          | NORM                        |
+|      | c. 功能选择开关                                                                                                                                            | HOT MIC                     |
+| 7.   | ALE-40 红外干扰弹选择开关                                                                                                                                  | NORMAL                      |
+| 8.   | 燃油控制面板                                                                                                                                               | 设置                        |
+|      | a. 机翼输油开关                                                                                                                                            | NORMAL                      |
+|      | b.机翼放油开关                                                                                                                                             | NORM                        |
+|      | c. 加油选择开关                                                                                                                                            | ALL TANKS                   |
+|      | d. 副油箱输油开关                                                                                                                                          | 按需                        |
+|      | e. 空中加油开关                                                                                                                                            | RETRACT                     |
+| 9.   | 增稳开关                                                                                                                                                   | OFF                         |
+| 10.  | 升压油泵                                                                                                                                                   | 检查 ⚡                     |
+|      | 拨动左升压油泵检查开关，观察左升压油泵指示器读数为 30±5 PSI。松开左开关后等待 3 秒，然后重复检查右升压油泵。然后确保测试开关回到 NORMAL 位                 |                             |
+| 11.  | VOR/ILS 面板                                                                                                                                               | 设置                        |
+|      | a. 音量控制旋钮                                                                                                                                            | 按需                        |
+|      | b. 信标音量旋钮                                                                                                                                            | 按需                        |
+|      | c. 频率                                                                                                                                                    | 按需                        |
+|      | d. VOR/MKR 测试开关                                                                                                                                        | 测试 ⚡                     |
+| 12.  | 缝翼/襟翼开关                                                                                                                                              | 按需                        |
+|      | 襟翼/缝翼开关应和指示器显示一致                                                                                                                            |                             |
+| 13.  | 应急缝翼/襟翼手柄                                                                                                                                          | 向前                        |
+| 14.  | 减速伞控制手柄                                                                                                                                             | 放下锁好                    |
+| 15.  | 减速板开关                                                                                                                                                 | IN                          |
+| 16.  | 油门阻力杆                                                                                                                                                 | 按需设定                    |
+| 17.  | 通信天线选择开关                                                                                                                                           | UPR                         |
+|      | 当使用下部天线传输信号时防滑系统可能会由于电磁干扰出现功能失常。                                                                                           |                             |
+| 18.  | 发动机防冰开关                                                                                                                                             | NORMAL                      |
+| 19.  | 防滑                                                                                                                                                       | 检查 ⚡                     |
+|      | a. 防滑开关打开                                                                                                                                            | 灯灭                        |
+|      | b. 应急快速释放杆                                                                                                                                          | 按下灯亮以及松开灯灭        |
+|      | c. 防滑开关关闭                                                                                                                                            | 灯亮                        |
+| 20.  | ARI 断路器                                                                                                                                                 | 接通                        |
+| 21.  | 着陆滑行灯开关                                                                                                                                             | OFF                         |
+| 22.  | 缝翼/襟翼指示器                                                                                                                                            | 与设置档位一致              |
+| 23.  | 起落架位置指示器                                                                                                                                           | 指示起落架放下              |
+| 24.  | 应急刹车控制手柄                                                                                                                                           | 收起锁好                    |
+| 25.  | 座舱盖应急抛弃手柄                                                                                                                                         | 向前                        |
+| 26.  | 多武器控制面板                                                                                                                                             | 设置                        |
+|      | a. 主军械开关                                                                                                                                              | 安全                        |
+|      | b. 投放模式旋钮                                                                                                                                            | OFF                         |
+|      | c. 武器选择旋钮                                                                                                                                            | C                           |
+|      | d. 雷达弹电源开关                                                                                                                                          | OFF                         |
+|      |                                                                                                                                                            | e. 选择抛弃旋钮             |
+|      | f. 互锁开关                                                                                                                                                | IN                          |
+|      | g. CL TK 灯                                                                                                                                                | 如果安装中线副油箱则亮起    |
+| 27.  | 加速度表                                                                                                                                                   | 设置                        |
+| 28.  | 飞行仪表灯光控制                                                                                                                                           | 按需                        |
+| 29.  | 时钟                                                                                                                                                       | 上发条并对时                |
+| 30.  | 光学瞄准具准星                                                                                                                                             | 检查                        |
+| 31.  | 录像胶卷/防尘罩                                                                                                                                            | 安装到位                    |
+| 32.  | ADI                                                                                                                                                        | 检查并设置 ⚡               |
+|      | a. 旋转俯仰调平旋钮以检查行程(最少 -10° 到 +5°)                                                                                                            |                             |
+|      | b. 设置小飞机对准地平线                                                                                                                                    |                             |
+| 33.  | 备用姿态仪                                                                                                                                                 | 检查                        |
+|      | a. 调平且不要锁定                                                                                                                                          |                             |
+|      | b. 设置小飞机对准地平线                                                                                                                                    |                             |
+| 34.  | 导航功能选择面板                                                                                                                                           | 设置                        |
+|      | a. 方位距离选择旋钮                                                                                                                                        | 按需                        |
+|      | b. 模式选择旋钮                                                                                                                                            | 按需                        |
+| 35.  | 失火/过热告警灯                                                                                                                                            | 测试                        |
+| 36.  | 座舱盖手动解锁手柄                                                                                                                                         | 向前                        |
+| 37.  | 阻拦钩手柄                                                                                                                                                 | 收上                        |
+| 38.  | 通信导航控制面板                                                                                                                                           | 设置                        |
+|      | a. 通信频率控制旋钮                                                                                                                                        | 按需                        |
+|      | b. 通信波道控制旋钮                                                                                                                                        | 按需                        |
+|      | c. 模式选择开关                                                                                                                                            | 按需                        |
+|      | d. 通信音量控制旋钮                                                                                                                                        | 按需                        |
+|      | e. 辅助波道控制旋钮                                                                                                                                        | 按需                        |
+|      | f. 辅助音量控制旋钮                                                                                                                                        | 按需                        |
+|      | g. COMM-AUX 按钮                                                                                                                                           | TR + G - ADF                |
+|      | h. 导航音量控制旋钮                                                                                                                                        | 按需                        |
+|      | i. TACAN 功能选择旋钮                                                                                                                                      | OFF                         |
+|      | j. 通信指令按钮                                                                                                                                            | 按需                        |
+|      | k. 导航指令按钮                                                                                                                                            | 按需                        |
+| 38.  | 应急通风手柄                                                                                                                                               | 塞入                        |
+| 40.  | 除雨开关                                                                                                                                                   | OFF                         |
+| 41.  | 皮托管加热                                                                                                                                                 | 检查 ⚡ 🔧                  |
+| 42.  | 除雾/腿部加热杆                                                                                                                                            | 按需                        |
+| 43.  | IFF 模式 4 功能开关                                                                                                                                        | 按需                        |
+| 44.  | IFF 主控制旋钮                                                                                                                                             | OFF                         |
+| 45.  | 断路器                                                                                                                                                     | 检查                        |
+| 46.  | 温度控制面板                                                                                                                                               | OFF                         |
+|      | a. 温度控制旋钮                                                                                                                                            | 按需                        |
+|      | b. 模式选择开关                                                                                                                                            | AUTO                        |
+| 47.  | DCU-94/A 航弹控制监视面板                                                                                                                                  | 设置                        |
+|      | a. 挂点选择开关                                                                                                                                            | 向后                        |
+|      | b. 主投放锁定开关                                                                                                                                          | 向后                        |
+|      | c. 选项选择旋钮                                                                                                                                            | OFF                         |
+| 48.  | 驾驶舱灯光控制旋钮                                                                                                                                         | 按需                        |
+|      | a. 白色泛光灯开关                                                                                                                                          | OFF                         |
+|      | b. 仪表板灯光控制旋钮                                                                                                                                      | 按需                        |
+|      | c. 控制台灯光控制旋钮                                                                                                                                      | 按需                        |
+|      | d. 备用罗盘灯开关                                                                                                                                          | 按需                        |
+|      | e. 控制台泛光灯开关                                                                                                                                        | 按需                        |
+|      | f. 分度器灯控制旋钮                                                                                                                                        | 按需                        |
+| 49.  | 警告和指示灯                                                                                                                                               | 测试 ⚡                     |
+| 50.  | 仪表板泛光灯                                                                                                                                               | OFF                         |
+| 51.  | 音调提示失速警告音量                                                                                                                                       | 按需                        |
+| 52.  | 罗盘控制面板                                                                                                                                               |                             |
+|      | a. 纬度补偿器                                                                                                                                              | 设置                        |
+|      | b. 模式控制旋钮                                                                                                                                            | SLAVED                      |
+|      | c. 同步指示器                                                                                                                                              | 检查                        |
+| 53.  | 机外照明控制面板                                                                                                                                           | 设置                        |
+|      | a. 机身灯开关                                                                                                                                              | 按需                        |
+|      | b. 机翼灯开关                                                                                                                                              | 按需                        |
+|      | c. 垂尾灯开关                                                                                                                                              | 按需                        |
+|      | d. 闪光器开关                                                                                                                                              | 按需                        |
+|      | e. 编队灯控制旋钮                                                                                                                                          | 按需                        |
+| 54.  | 仪表灯亮度控制面板                                                                                                                                         | 设置                        |
+| 55.  | 内话系统                                                                                                                                                   | 检查                        |
+| 56.  | 氧气储量表                                                                                                                                                 | 检查 (使用电池起动时不可用) |
+|      | 检查余量是否充足，OFF 旗不可见，OXYGEN LOW 灯熄灭。按压氧气测试按钮并检查在 1 升时 OXYGEN LOW 光和 MASTER CAUTION 灯亮起。条件允许时通知后座正在进行测试。 |                             |
+| 57.  | 供氧系统                                                                                                                                                   | 检查并设置                  |
+
+<!-- APU系统 - 检查 (使用电池起动时不可用) -->
