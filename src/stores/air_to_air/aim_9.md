@@ -71,19 +71,19 @@ Phantom:
 | Captive M | Non-functional version used for training and testing purposes.                                                                                                                                                       |
 
 Below is a basic comparative summary of each Sidewinder's performance in some
-general areas, whereas ✔️ means _good_, ⚠️ _fair_ and ❌ _poor_.
+general areas, whereas <span style="color:green">▲</span> means _good_, <span style="color:yellow">⬤</span> _fair_ and <span style="color:red">▼</span> _poor_.
 
 | Type      | Lock-Tone | Uncage | Aspect | Maneuverability | CM Resist | Motor |
 | --------- | --------- | ------ | ------ | --------------- | --------- | ----- |
-| B         | ❌        | ❌     | Rear   | ❌            | ❌        | ❌    |
-| J         | ❌        | ✔️     | Rear   | ⚠️            | ⚠️        | ❌    |
-| JULI      | ✔️        | ✔️     | All    | ⚠️            | ✔️        | ⚠️    |
-| L         | ✔️        | ✔️     | All    | ✔️            | ✔️        | ✔️    |
-| M         | ✔️        | ✔️     | All    | ✔️            | ✔️        | ✔️    |
-| P         | ❌        | ✔️     | Rear   | ⚠️            | ⚠️        | ❌    |
-| P-3       | ❌        | ✔️     | Rear   | ⚠️            | ⚠️        | ⚠️    |
-| P-5       | ✔️        | ✔️     | All    | ⚠️            | ✔️        | ⚠️    |
-| Captive M | ✔️        | ✔️     | All    | ✔️            | ✔️        | ✔️    |
+| B         | <span style="color:red">▼</span>        | <span style="color:red">▼</span>     | Rear   | <span style="color:red">▼</span>            | <span style="color:red">▼</span>        | <span style="color:red">▼</span>    |
+| J         | <span style="color:red">▼</span>        | <span style="color:green">▲</span>     | Rear   | <span style="color:yellow">⬤</span>            | <span style="color:yellow">⬤</span>        | <span style="color:red">▼</span>    |
+| JULI      | <span style="color:green">▲</span>        | <span style="color:green">▲</span>     | All    | <span style="color:yellow">⬤</span>            | <span style="color:green">▲</span>        | <span style="color:yellow">⬤</span>    |
+| L         | <span style="color:green">▲</span>        | <span style="color:green">▲</span>     | All    | <span style="color:green">▲</span>            | <span style="color:green">▲</span>        | <span style="color:green">▲</span>    |
+| M         | <span style="color:green">▲</span>        | <span style="color:green">▲</span>     | All    | <span style="color:green">▲</span>            | <span style="color:green">▲</span>        | <span style="color:green">▲</span>    |
+| P         | <span style="color:red">▼</span>        | <span style="color:green">▲</span>     | Rear   | <span style="color:yellow">⬤</span>            | <span style="color:yellow">⬤</span>        | <span style="color:red">▼</span>    |
+| P-3       | <span style="color:red">▼</span>        | <span style="color:green">▲</span>     | Rear   | <span style="color:yellow">⬤</span>            | <span style="color:yellow">⬤</span>        | <span style="color:yellow">⬤</span>    |
+| P-5       | <span style="color:green">▲</span>        | <span style="color:green">▲</span>     | All    | <span style="color:yellow">⬤</span>            | <span style="color:green">▲</span>        | <span style="color:yellow">⬤</span>    |
+| Captive M | <span style="color:green">▲</span>        | <span style="color:green">▲</span>     | All    | <span style="color:green">▲</span>            | <span style="color:green">▲</span>        | <span style="color:green">▲</span>    |
 
 Some variants have a null-seeker. These missiles do not produce a tone when
 fully aligned with a target. This can lead to confusion, thinking the missile

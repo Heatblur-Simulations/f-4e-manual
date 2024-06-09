@@ -145,14 +145,14 @@ Phantom:
 | 7M   | The M was the first inverse mono-pulse Sparrow providing increased tracking precision, it also has improved motor performance and electronics, including improved clutter and countermeasure rejection. The M like all Sparrows can also guide using continuous wave, at a degraded tracking precision.                                                                                                                                                                                                 |
 
 Below is a very basic comparative summary of each Sparrow's performance in some
-general areas, whereas ✔️ means _good_, ⚠️ _fair_ and ❌ _poor_.
+general areas, whereas <span style="color:green">▲</span> means _good_, <span style="color:yellow">⬤</span> _fair_ and <span style="color:red">▼</span> _poor_.
 
 | Type    | Seeker | Range | Dogfight | Countermeasure Resist / Clutter Rejection |
 | ------- | ------ | ----- | -------- | ----------------------------------------- |
-| AIM-7E  | ❌     | ⚠️    | ❌       | ❌                                        |
-| AIM-7E2 | ❌     | ❌    | ✔️       | ❌                                        |
-| AIM-7F  | ⚠️     | ✔️    | ✔️       | ⚠️                                        |
-| AIM-7M  | ✔️     | ✔️    | ✔️       | ✔️                                        |
+| AIM-7E  | <span style="color:red">▼</span>     | <span style="color:yellow">⬤</span>    | <span style="color:red">▼</span>       | <span style="color:red">▼</span>                                        |
+| AIM-7E2 | <span style="color:red">▼</span>     | <span style="color:red">▼</span>    | <span style="color:green">▲</span>       | <span style="color:red">▼</span>                                        |
+| AIM-7F  | <span style="color:yellow">⬤</span>     | <span style="color:green">▲</span>    | <span style="color:green">▲</span>       | <span style="color:yellow">⬤</span>                                        |
+| AIM-7M  | <span style="color:green">▲</span>     | <span style="color:green">▲</span>    | <span style="color:green">▲</span>       | <span style="color:green">▲</span>                                        |
 
 > 💡 Technically, the E2 has the same maximal range than the E.
 > However, due to its maneuvering-behavior, that range lessens for anything but a dead straight shot.
