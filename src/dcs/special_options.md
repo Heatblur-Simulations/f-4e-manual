@@ -132,6 +132,39 @@ possible that the UI gets cut off. This setting then allows to move the UI back
 into view, but therefore giving up proper alignment on the UI, such as the
 Jester UI being centered on the screen.
 
+### Domain Access
+
+![Domain Access Types](../img/hb_ui_domain_access_option.jpg)
+
+Defines which domains the HB UI is allowed to access.
+
+**Full** allows for free browsing, allowing to visit any website with the
+[Virtual Browser](virtual_browser.md).
+
+The default option **Whitelist** defines which sites can be accessed by using a
+whitelist file. Only domains passing the rules setup in the file are allowed.
+The default rules are setup to support all HB UI features and a hand full of
+useful websites for the Virtual Browser, such as _YouTube_.
+
+This file is automatically created at
+
+`C:\Users\John Doe\Saved Games\DCS_F4E\hbui_whitelist.txt`
+
+when launching the Phantom for the first time.
+
+Selecting **Offline** will disable the Virtual Browser and any other HB UI
+features and elements that require an active online connection.
+
+### Theme
+
+![UI Theme](../img/special_option_hb_ui_theme.jpg)
+
+Allows to select which color theme is used by the UI. All UI elements support a
+light and a dark theme.
+
+The default option **AUTO** will pick the theme dynamically based on the in-game
+time. Light during the day and Dark for a night mission.
+
 ## Jester UI
 
 ### Allow Mouse Controls
@@ -191,6 +224,17 @@ automatically set to the center instead and not moved.
 > 💡 Users playing with a high and very sensitive head-to-game translation might
 > find it useful to increase this value slightly.
 
+#### Origin Angle Y-Offset
+
+Defines the offset (in degrees) to displace the center point of head-tracking
+vertically. Positive values shift it up, negative values down. The default
+setting is 0°.
+
+This setting can be useful if the center point should not be properly lined up
+with the natural forward view. That is, when opening the menu from a natural
+head position and the cursor already shows a displacement instead of being
+centered, tweaking this setting mitigates the issue.
+
 ## Radar Stick for Cursor
 
 When checked, the binds mapped to control the
@@ -220,3 +264,10 @@ However, it can also result in not only visual cuts, such as animations running
 slower, but will also cause some systems to degrade. For example the Pave Spike,
 running slower, can not update its ground stabilization algorithm fast enough
 anymore. So ticking this option can cause issues and lead to bugs.
+
+## Lower HB UI Refresh Rate
+
+When checked, all HB UI elements are rendered at a significantly lower rate.
+
+This can help improving performance while HB UI elements are shown by reducing
+CPU load. However, it can also cause UI animations to not look smooth anymore.

@@ -69,3 +69,25 @@ Phantom:
 | P-3       | Improves the P version by using a reduced-smoke motor and improving the guidance system. Base of the swedish RB-24J missile.                                                                                         |
 | P-5       | Further improves counter-countermeasures capabilities, as seen in the M version. Base of the swedish RB-24L missile.                                                                                                 |
 | Captive M | Non-functional version used for training and testing purposes.                                                                                                                                                       |
+
+Below is a basic comparative summary of each Sidewinder's performance in some
+general areas, whereas 🟩 means _good_, 🟨 _fair_ and 🟥 _poor_.
+
+| Type      | Lock-Tone | Uncage | Aspect | Maneuverability | CM Resist | Motor |
+| --------- | --------- | ------ | ------ | --------------- | --------- | ----- |
+| B         | ❌        | ❌     | Rear   | 🟥              | 🟥        | 🟥    |
+| J         | ❌        | ✅     | Rear   | 🟨              | 🟨        | 🟥    |
+| JULI      | ✅        | ✅     | All    | 🟨              | 🟩        | 🟨    |
+| L         | ✅        | ✅     | All    | 🟩              | 🟩        | 🟩    |
+| M         | ✅        | ✅     | All    | 🟩              | 🟩        | 🟩    |
+| P         | ❌        | ✅     | Rear   | 🟨              | 🟨        | 🟥    |
+| P-3       | ❌        | ✅     | Rear   | 🟨              | 🟨        | 🟨    |
+| P-5       | ✅        | ✅     | All    | 🟨              | 🟩        | 🟨    |
+| Captive M | ✅        | ✅     | All    | 🟩              | 🟩        | 🟩    |
+
+Some variants have a null-seeker. These missiles do not produce a tone when
+fully aligned with a target. This can lead to confusion, thinking the missile
+does not track while it is actually locked perfectly on the target.
+
+The AIM-9B is unable to uncage in order to dynamically track a target that is
+not on its boresight.
