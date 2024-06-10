@@ -1,8 +1,8 @@
 # Startup
 
 > 💡 If [Pre-Start procedures](pre_start.md) were skipped,
-> crew should remember to put on the helmets and connect
-> the ground power (unless battery start is made).
+> crew should remember to put on the **helmets** and connect
+> the **ground power** (unless battery start is made).
 
 ## Before starting engines (Both)
 
