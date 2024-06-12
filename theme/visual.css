@@ -204,6 +204,10 @@ num {
   font-weight: bold;
 }
 
+pdf {
+  display: none;
+}
+
 /* .table-wrapper{
   display: flex;
   flex-direction: column;
