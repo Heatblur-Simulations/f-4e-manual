@@ -35,6 +35,10 @@
   --num-color: #fe640b;
 }
 
+.pdf pdf {
+  display: block !important;
+}
+
 /* Code Style */
 .pdf :is(.admonition):is(.admonish-hint, .admonish-important, .admonish-tip) {
   border-color: #df8e1d;
