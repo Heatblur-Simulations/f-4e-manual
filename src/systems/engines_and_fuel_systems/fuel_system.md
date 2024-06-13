@@ -132,7 +132,9 @@ wing tanks, and, if installed and selected, external tanks.
 > actual rate in practice is highly dynamic and depends on the tanks that can
 > still take fuel. Refuel Rate is bottlenecked by the pipe layout and their
 > dimensions. For example, being down to just the left and right external tank
-> will rather result in a refuel rate of 1400 lbs per minute.
+> will rather result in a refuel rate of 1400 lbs per minute. Refueling internal
+> tanks 1-7 takes about one to two minutes. Also filling up the wing tanks and
+> external tanks will take additional four to five minutes.
 
 | Boom Reach                        | Boom Marks                            |
 | --------------------------------- | ------------------------------------- |
