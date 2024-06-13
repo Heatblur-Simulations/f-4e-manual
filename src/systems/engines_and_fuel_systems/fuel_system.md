@@ -128,6 +128,12 @@ the Phantom at a rate of up to 3900 lbs per minute. Fuel received is delivered
 into fuselage cell 2, then equalized through the rest of the aircraft cells,
 wing tanks, and, if installed and selected, external tanks.
 
+> 💡 While the maximal supported refuel rate is about 3900 lbs per minute, the
+> actual rate in practice is highly dynamic and depends on the tanks that can
+> still take fuel. Refuel Rate is bottlenecked by the pipe layout and their
+> dimensions. For example, being down to just the left and right external tank
+> will rather result in a refuel rate of 1400 lbs per minute.
+
 | Boom Reach                        | Boom Marks                            |
 | --------------------------------- | ------------------------------------- |
 | ![AAR Box](../../img/aar_box.jpg) | ![Boom Marks](../../img/aar_boom.jpg) |
