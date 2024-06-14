@@ -153,7 +153,7 @@ Takes roughly 2 minutes 15 seconds.
 
 ## Pilot
 
-### Before Interior Inspection (Pilot)
+### Before Interior Check (Pilot)
 
 | Step | System                                                                                                                                                         | Action                                        |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
@@ -183,7 +183,7 @@ Takes roughly 2 minutes 15 seconds.
 | 23.  | Transformer-rectifier                                                                                                                                          | CHECK ⚡                                       |
 |      | Both transformer-rectifiers operating if the landing gear indicators indicate gear down with the Engine master switches OFF and the generator switches in EXT. |                                               |
 
-### Interior Inspection (Pilot)
+### Interior Check (Pilot)
 
 | Step | System                                                                                                                                                                                                                                              | Action                                    |
 |------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|
