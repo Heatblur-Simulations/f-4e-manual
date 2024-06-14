@@ -132,25 +132,24 @@ Takes roughly 2 minutes 15 seconds.
 |      | b. Set horizon bar level with miniature aircraft        |                      |
 | 14.  | Clock                                                   | WIND AND SET         |
 | 15.  | Accelerometer                                           | SET                  |
-| 16.  | Navigation function selector switch                     | AS DESIRED           |
-| 17.  | Digital display indicator lamp button                   | PRESS                |
-| 18.  | Navigational computer set control lamp button           | PRESS                |
-| 19.  | KY-28 power selector knob                               | OFF                  |
-| 20.  | KY-28 mode selector                                     | P                    |
-| 21.  | Canopy manual unlock handle                             | FORWARD              |
-| 22.  | Aural tone                                              | AS REQUIRED          |
-| 23.  | Cockpit lights control knob                             | AS REQUIRED          |
+| 16.  | Navigational computer set control lamp button           | PRESS                |
+| 17.  | KY-28 power selector knob                               | OFF                  |
+| 18.  | KY-28 mode selector                                     | P                    |
+| 29.  | Canopy manual unlock handle                             | FORWARD              |
+| 20.  | Aural tone                                              | AS REQUIRED          |
+| 21.  | Cockpit lights control knob                             | AS REQUIRED          |
 |      | a. White floodlight switch                              | OFF                  |
 |      | b. Instrument panel lights control knob                 | AS REQUIRED          |
 |      | c. Console lights control knob                          | AS REQUIRED          |
 |      | d. Standby compass light switch                         | AS REQUIRED          |
 |      | e. Console floodlight switch                            | AS REQUIRED          |
 |      | f. Indexer lights control knob                          | AS REQUIRED          |
-| 24.  | Warning and indicator lights                            | TEST⚡                |
-| 25.  | Intercom system                                         | CHECK                |
-| 26.  | Oxygen quantity gage                                    | CHECK⚡               |
+| 22.  | Warning and indicator lights                            | TEST⚡                |
+| 23.  | Intercom system                                         | CHECK                |
+| 24.  | Oxygen quantity gage                                    | CHECK⚡               |
 |      | Check quantity sufficient and OFF flag not visible.     |                      |
-| 27.  | Oxygen supply system                                    | CHECK AND SET        |
+| 25.  | Oxygen supply system                                    | CHECK AND SET        |
+| 26.  | RWR Systems                                             | CHECK THEN OFF⚡     |
 
 ## Pilot
 
@@ -250,7 +249,7 @@ Takes roughly 2 minutes 15 seconds.
 | 31.  | Film magazine/dust cover                                                                                                                                                                                                                            | SECURE                                    |
 | 32.  | ADI                                                                                                                                                                                                                                                 | CHECK AND SET⚡                            |
 |      | a. Rotate pitch trim knob to check travel (-10° +5° minimum)                                                                                                                                                                                        |                                           |
-|      | b. Set horizon bar level with miniature Aircraft                                                                                                                                                                                                    |                                           |
+|      | b. Set horizon bar level with miniature aircraft                                                                                                                                                                                                    |                                           |
 | 33.  | Emergency attitude Indicator                                                                                                                                                                                                                        | CHECK                                     |
 |      | a. Cage and do not lock                                                                                                                                                                                                                             |                                           |
 |      | b. Set miniature aircraft level with horizon bar                                                                                                                                                                                                    |                                           |
@@ -311,5 +310,5 @@ Takes roughly 2 minutes 15 seconds.
 | 56.  | Oxygen quantity gage                                                                                                                                                                                                                                | CHECK (Cannot be done with battery start) |
 |      | Check quantity sufficient, OFF flag not visible, OXYGEN LOW light extinguished. Press oxygen test button and check OXYGEN LOW light and MASTER CAUTION light illuminate at 1 litre. Notify rear crewmember, if applicable that test is in progress. |                                           |
 | 57.  | Oxygen supply system                                                                                                                                                                                                                                | CHECK AND SET                             |
-
-<!-- APU system - CHECK (Cannot be done with battery start) -->
+| 58.  | RWR Systems                                                                                                                                                                                                                                         | CHECK THEN OFF⚡                           |
+| 59.  | EJECT Light                                                                                                                                                                                                                                         | CHECK                                     |
