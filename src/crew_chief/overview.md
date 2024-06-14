@@ -25,7 +25,6 @@ Our F-4 crew chief has expertise in many fields including:
 * Wheel chocks
 * Boarding ladder and boarding steps
 * Conducting different ground checks (listed below)
-* Weapon settings and adjustments
 
 ![Ground Cart](../img/ground_cart_connected.jpg)
 
