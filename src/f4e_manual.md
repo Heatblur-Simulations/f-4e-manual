@@ -19,8 +19,15 @@
 11. [Imprint](imprint.md)
 
 <!-- markdown-link-check-disable -->
-This document is available [online](https://f4.manuals.heatblur.se/),
-as [PDF version](https://github.com/Heatblur-Simulations/f-4e-manual/releases),
-embedded in-game as offline website and can be contributed to as
-open-source project at [GitHub](https://github.com/Heatblur-Simulations/f-4e-manual).
+
+This document is available [online](https://f4.manuals.heatblur.se/), as
+[PDF version](https://github.com/Heatblur-Simulations/f-4e-manual/releases),
+embedded in-game as offline website and can be contributed to as open-source
+project at [GitHub](https://github.com/Heatblur-Simulations/f-4e-manual).
+
 <!-- markdown-link-check-enable -->
+
+<pdf>
+💡 The PDF version has limited support and might be outdated. For the full experience,
+prefer using the <a href="https://f4.manuals.heatblur.se/">online version</a>.
+</pdf>
