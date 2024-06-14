@@ -132,7 +132,7 @@ Takes roughly 2 minutes 15 seconds.
 |      | b. Set horizon bar level with miniature aircraft        |                      |
 | 14.  | Clock                                                   | WIND AND SET         |
 | 15.  | Accelerometer                                           | SET                  |
-| 16.  | Navigational computer set control lamp button           | PRESS                |
+| 16.  | Navigation computer function selector knob              | AS DESIRED           |
 | 17.  | KY-28 power selector knob                               | OFF                  |
 | 18.  | KY-28 mode selector                                     | P                    |
 | 29.  | Canopy manual unlock handle                             | FORWARD              |
@@ -149,7 +149,7 @@ Takes roughly 2 minutes 15 seconds.
 | 24.  | Oxygen quantity gage                                    | CHECK⚡               |
 |      | Check quantity sufficient and OFF flag not visible.     |                      |
 | 25.  | Oxygen supply system                                    | CHECK AND SET        |
-| 26.  | RWR Systems                                             | CHECK THEN OFF⚡     |
+| 26.  | RWR Systems                                             | CHECK THEN OFF⚡      |
 
 ## Pilot
 
@@ -158,7 +158,7 @@ Takes roughly 2 minutes 15 seconds.
 | Step | System                                                                                                                                                         | Action                                        |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | 1.   | Helmet                                                                                                                                                         | PUT ON                                        |
-| 2.   | Lower ejection handle guard                                                                                                                                    | UP (not applicable)                             |
+| 2.   | Lower ejection handle guard                                                                                                                                    | UP (not applicable)                           |
 | 3.   | Generator switches                                                                                                                                             | OFF                                           |
 | 4.   | AN/ALE-40 flare select switch                                                                                                                                  | NORMAL                                        |
 | 5.   | Internal wing dump switch                                                                                                                                      | NORM                                          |
