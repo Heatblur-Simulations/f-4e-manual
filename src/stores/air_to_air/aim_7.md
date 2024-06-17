@@ -138,21 +138,22 @@ The following variants of the AIM-7 family are available for this variant of the
 Phantom:
 
 | Type | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| ---- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 7E   | The E variant was an early version of the Sparrow missile, entering service in the 1960s, which uses proportional navigation and Semi Active Radar Homing to guide.                                                                                                                                                                                                                                                                                                                                     |
 | 7E2  | Changes were made to improve the performance in close range dogfight situations, at the expense of energy retention in longer ranged engagements. Fuzing time is also reduced allowing for proper fuzing in close engagements.                                                                                                                                                                                                                                                                          |
 | 7F   | The F Sparrow was upgraded to be solid state, have a higher performance two stage motor (boost and sustainer) and have improved electronics including the ability to coast targets through the main lobe clutter and altitude lines. These changes also make the seeker able to detect targets from further range and with increased countermeasure resistance and track using both continuous wave and pulse doppler guidance signals unlike the E, E2 and E3 which can only guide on continuous wave. |
 | 7M   | The M was the first inverse mono-pulse Sparrow providing increased tracking precision, it also has improved motor performance and electronics, including improved clutter and countermeasure rejection. The M like all Sparrows can also guide using continuous wave, at a degraded tracking precision.                                                                                                                                                                                                 |
 
 Below is a very basic comparative summary of each Sparrow's performance in some
-general areas, whereas 🟩 means _good_, 🟨 _fair_ and 🟥 _poor_.
+general areas, whereas 🟢 means _good_, 🟨 _fair_ and 🔺 _poor_.
 
 | Type    | Seeker | Range | Dogfight | Countermeasure Resist / Clutter Rejection |
 | ------- | ------ | ----- | -------- | ----------------------------------------- |
-| AIM-7E  | 🟥     | 🟨    | ❌       | 🟥                                        |
-| AIM-7E2 | 🟥     | 🟥    | ✅       | 🟥                                        |
-| AIM-7F  | 🟨     | 🟩    | ✅       | 🟨                                        |
-| AIM-7M  | 🟩     | 🟩    | ✅       | 🟩                                        |
+| AIM-7E  | 🔺     | 🟨    | 🔺       | 🔺                                        |
+| AIM-7E2 | 🔺     | 🔺    | 🟢       | 🔺                                        |
+| AIM-7F  | 🟨     | 🟢    | 🟢       | 🟨                                        |
+| AIM-7M  | 🟢     | 🟢    | 🟢       | 🟢                                        |
 
-> 💡 Technically, the E2 has the same maximal range than the E.
-> However, due to its maneuvering-behavior, that range lessens for anything but a dead straight shot.
+> 💡 Technically, the E2 has the same maximal range than the E. However, due to
+> its maneuvering-behavior, that range lessens for anything but a dead straight
+> shot.
