@@ -83,7 +83,7 @@ general areas, whereas 🟢 means _good_, 🟨 _fair_ and 🔺 _poor_.
 | P         | 🔺        | 🟢     | Rear   | 🟨              | 🟨        | 🔺    |
 | P-3       | 🔺        | 🟢     | Rear   | 🟨              | 🟨        | 🟨    |
 | P-5       | 🟢        | 🟢     | All    | 🟨              | 🟢        | 🟨    |
-| Captive M | 🟢        | 🟢     | All    | 🟢              | 🟢        | 🟢    |
+| Captive M | 🟢        | 🟢     | All    | ❌              | 🟢        | ❌    |
 
 Some variants have a null-seeker. These missiles do not produce a tone when
 fully aligned with a target. This can lead to confusion, thinking the missile
