@@ -122,8 +122,8 @@ UI is displayed properly.
 
 ### Offset
 
-Allows to horizontally displace the UI. Positive values shift it to the right,
-negative values to the left.
+Allows to displace the UI horizontally and vertically. Positive values shift it
+to the right or down, negative values to the left or up.
 
 Normally, this should be kept at the default value of 0 px. However, in certain
 cases (e.g. when using VR and setting it to render on the LEFT or RIGHT eye,
