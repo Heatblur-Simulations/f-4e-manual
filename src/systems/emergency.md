@@ -101,7 +101,7 @@ initiation, and the pilot one-second later.
 In the event of loss of intercom power, the pilot can warn the WSO to prepare
 for ejection by pressing the EJECT switch found on the left canopy sill forward
 of the flap switch. This illuminates a pair of warning lamps found on the rear
-cockpit indicator panel. This can also be done by the WSO to warn the Pilot of an ejection.
+cockpit indicator panel.
 
 ![pilot_eject_light](../img/pilot_eject_light.jpg)
 
