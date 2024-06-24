@@ -15,8 +15,8 @@ and exchange between Pilot and WSO based on the following contexts:
 - Dogfight - CAGE mode
 - Beyond Visual Range - other
 
-The context action can change semantics if pressed only momentarily, if hold or
-if clicked twice (double-click).
+The context action can change semantics if pressed only momentarily (•),
+if hold (▄) or if clicked twice (••, double-click).
 
 | Context    | Duration | Action                              |
 | ---------- | :------: | ----------------------------------- |

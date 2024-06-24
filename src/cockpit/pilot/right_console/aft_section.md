@@ -129,3 +129,6 @@ labelled ELAPSED TIME (<num>3</num>).
 
 See [9.6 DCS Recorders](../../../dcs/recorders.md) for details on how to access
 the footage.
+
+> 💡 Our simulation of the AVTR also doubles as music player, see
+> [Tape Player](../../../dcs/tape_player.md) for details.

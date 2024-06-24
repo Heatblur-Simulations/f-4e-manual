@@ -70,7 +70,7 @@ will temporarily disable the pitch attitude hold as well altitude hold.
 
 Default values are 1% for roll and 2% for pitch.
 
-> 💡 To check wheter the breakout is currently activated you can use the
+> 💡 To check whether the breakout is currently activated you can use the
 > controls indicator and look for the text below it.
 
 For more info see
@@ -122,8 +122,8 @@ UI is displayed properly.
 
 ### Offset
 
-Allows to horizontally displace the UI. Positive values shift it to the right,
-negative values to the left.
+Allows to displace the UI horizontally and vertically. Positive values shift it
+to the right or down, negative values to the left or up.
 
 Normally, this should be kept at the default value of 0 px. However, in certain
 cases (e.g. when using VR and setting it to render on the LEFT or RIGHT eye,
@@ -154,6 +154,16 @@ when launching the Phantom for the first time.
 
 Selecting **Offline** will disable the Virtual Browser and any other HB UI
 features and elements that require an active online connection.
+
+### Theme
+
+![UI Theme](../img/special_option_hb_ui_theme.jpg)
+
+Allows to select which color theme is used by the UI. All UI elements support a
+light and a dark theme.
+
+The default option **AUTO** will pick the theme dynamically based on the in-game
+time. Light during the day and Dark for a night mission.
 
 ## Jester UI
 
@@ -213,6 +223,17 @@ automatically set to the center instead and not moved.
 
 > 💡 Users playing with a high and very sensitive head-to-game translation might
 > find it useful to increase this value slightly.
+
+#### Origin Angle Y-Offset
+
+Defines the offset (in degrees) to displace the center point of head-tracking
+vertically. Positive values shift it up, negative values down. The default
+setting is 0°.
+
+This setting can be useful if the center point should not be properly lined up
+with the natural forward view. That is, when opening the menu from a natural
+head position and the cursor already shows a displacement instead of being
+centered, tweaking this setting mitigates the issue.
 
 ## Radar Stick for Cursor
 

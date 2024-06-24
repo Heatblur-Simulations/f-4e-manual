@@ -16,7 +16,7 @@ Each press (<num>1</num>) will advance the corresponding digit by one.
 Codes directly relate to laser frequencies, resulting in them having to be
 between 1111 and 1788 and not use digits 0 or 9 in order to be valid.
 
-> 💡 Weapon laser codes can be adjusted by the [Crew Chief](../../../crew_chief/overview.md),
+> 💡 Weapon laser codes can be adjusted in the Mission Editor or during rearming,
 > the default code used is 1688.
 
 ### Enter Button
