@@ -117,7 +117,7 @@ In the event a missile launch is detected by way of discrete SAM guidance comman
 the MISSILE LAUNCH indications in this button (<num>4</num>) will illuminate, and a circle is
 superimposed
 around the threat emitter defined as guiding the inbound weapon. Pressing the button
-will initiate the built-in-test which provides launch audio through the intercom.
+will initiate the built-in-test which provides [launch audio](#launch-audio) through the intercom.
 
 > 💡 Keep in mind that ALR-46 can detect missile launches only from certain systems.
 
