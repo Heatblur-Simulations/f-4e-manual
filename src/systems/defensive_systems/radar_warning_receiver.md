@@ -119,6 +119,8 @@ superimposed
 around the threat emitter defined as guiding the inbound weapon. Pressing the button
 will initiate the built-in-test which provides launch audio through the intercom.
 
+> 💡 Keep in mind that ALR-46 can detect missile launches only from certain systems.
+
 ![pilot_rwr_missile_launch](../../img/rwr_launch_light.jpg)
 
 #### Altitude
