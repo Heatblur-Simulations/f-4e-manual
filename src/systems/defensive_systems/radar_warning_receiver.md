@@ -223,16 +223,14 @@ completely off.
 
 The synthetic launch tone generated
 when an emitter goes into launch state is called *launch
-audio* or *ML interrupt audio*. It consists ofapproximately
+audio* or *ML interrupt audio*. It consists of approximately
 seven beeps in 1.5 seconds of a 1 kHz tone generator in the
 signal processor. Only one launch audio is generated per
 launch; i.e., after approximately seven beeps, no launch
-audio is heard from that emitter. The indicator-control
-AUDIO control can adjust volume from maximum to full
-off.
+audio is heard from that emitter.
 
 Volume of the launch audio is controlled by the main
-RWR audio knob as well as dedicated ML audio knob in each.
+RWR audio knob as well as dedicated ML audio knob in each cockpit.
 The resultant volume is a function of both knobs positions.
 
 ## Symbology
