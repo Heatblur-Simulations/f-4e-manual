@@ -9,6 +9,8 @@ air guided missile. Beginning with the AIM-9B and maintaining compatibility to
 the AIM-9M in US service, the Sidewinder provided the Phantom II with a capable
 close-in weapon system against rapidly maneuvering opponents.
 
+## Employment
+
 Employment of the AIM-9 can be performed with or without a radar lock, and is
 initiated by selecting Master Arm to ON and selecting the Throttle Pinky Switch
 to the center position for Heat. The HEAT lamp on the Head Up Display will
@@ -91,3 +93,15 @@ does not track while it is actually locked perfectly on the target.
 
 The AIM-9B is unable to uncage in order to dynamically track a target that is
 not on its boresight.
+
+## Smokewinders
+
+For airshows, the aircraft can also be equipped with Smoke Generators fitted
+inside Sidewinder dummies, called _Smokewinders_.
+
+![Smokewinders](../../img/smokewinder.jpg)
+
+The generator activates or deactivates the smoke upon receiving a Weapon Release signal.
+That is, select HEAT, MASTER ARM and then pull the trigger.
+
+Available smoke colors are red, green, blue, white, yellow and orange.
