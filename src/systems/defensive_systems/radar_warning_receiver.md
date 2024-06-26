@@ -28,6 +28,9 @@ diamond functionality, with the ALR-46 defining priority. In the event of possib
 threat emitter (concurrent with the illumination of the ACTIVITY and/or MISSILE LAUNCH buttons), the
 event is signified by a circle around the emitter symbol.
 
+> 🚧 Keep in mind that the simulation is still being improved
+> so the behaviour of the device along with the sounds is expected to change.
+
 ## ALR-46 Controls
 
 ### RWR Display Intensity Knob
