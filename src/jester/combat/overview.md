@@ -18,14 +18,14 @@ and exchange between Pilot and WSO based on the following contexts:
 The context action can change semantics if pressed only momentarily (•),
 if hold (▄) or if clicked twice (••, double-click).
 
-| Context    | Duration | Action                              |
-| ---------- | :------: | ----------------------------------- |
-| BVR - Scan |    •     | Select next target                  |
-|            |    ▄     | **Lock** selected target            |
-|            |    ••    | Reset target selection              |
-| BVR - Lock |   •, ▄   | Drop lock, but keep target in focus |
-|            |    ••    | Drop lock and focus                 |
-| Dogfight   |   •, ▄   | Lock/Unlock contact ahead           |
-|            |    ••    | Exit CAGE mode                      |
-| Dive Toss  |          | Lock/Unlock ground return           |
-| Pave Spike |          | Lock/Unlock target next to reticle  |
+| Context    | Duration   | Action                              |
+| ---------- | :--------: | ----------------------------------- |
+| BVR - Scan |    •       | Select next target                  |
+|            |    ▄       | **Lock** selected target            |
+|            |    ••      | Reset target selection              |
+| BVR - Lock |   • or ▄   | Drop lock, but keep target in focus |
+|            |    ••      | Drop lock and focus                 |
+| Dogfight   |   • or ▄   | Lock/Unlock contact ahead           |
+|            |    ••      | Exit CAGE mode                      |
+| Dive Toss  |            | Lock/Unlock ground return           |
+| Pave Spike |            | Lock/Unlock target next to reticle  |
