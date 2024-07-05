@@ -11753,19 +11753,20 @@ and exchange between Pilot and WSO based on the following contexts:</p>
 <ul>
 <li>Pave Spike - TGT FIND selected on the Delivery Mode Knob</li>
 <li>Dive Toss - DT or DL selected on the Delivery Mode Knob</li>
-<li>Dogfight - CAGE mode</li>
+<li>Dogfight - CAGE or BORESIGHT mode</li>
 <li>Beyond Visual Range - other</li>
 </ul>
-<p>The context action can change semantics if pressed only momentarily (•),
-if hold (▄) or if clicked twice (••, double-click).</p>
+<p>The context action can change semantics if pressed only momentarily (•), if hold
+(▄) or if clicked twice (••, double-click).</p>
 <div class="table-wrapper"><table><thead><tr><th>Context</th><th style="text-align: center">Duration</th><th>Action</th></tr></thead><tbody>
 <tr><td>BVR - Scan</td><td style="text-align: center">•</td><td>Select next target</td></tr>
 <tr><td></td><td style="text-align: center">▄</td><td><strong>Lock</strong> selected target</td></tr>
 <tr><td></td><td style="text-align: center">••</td><td>Reset target selection</td></tr>
 <tr><td>BVR - Lock</td><td style="text-align: center">• or ▄</td><td>Drop lock, but keep target in focus</td></tr>
 <tr><td></td><td style="text-align: center">••</td><td>Drop lock and focus</td></tr>
-<tr><td>Dogfight</td><td style="text-align: center">• or ▄</td><td>Lock/Unlock contact ahead</td></tr>
-<tr><td></td><td style="text-align: center">••</td><td>Exit CAGE mode</td></tr>
+<tr><td>Dogfight</td><td style="text-align: center">•</td><td>Select Next Target Aspect</td></tr>
+<tr><td></td><td style="text-align: center">▄</td><td>Lock/Unlock contact ahead</td></tr>
+<tr><td></td><td style="text-align: center">••</td><td>Exit CAGE or BORESIGHT mode</td></tr>
 <tr><td>Dive Toss</td><td style="text-align: center"></td><td>Lock/Unlock ground return</td></tr>
 <tr><td>Pave Spike</td><td style="text-align: center"></td><td>Lock/Unlock target next to reticle</td></tr>
 </tbody></table>
@@ -11857,24 +11858,51 @@ movement of the steering dot, or unexpected closure rate readouts), press ▄ to
 unlock and then ▄ again to attempt to lock the target again.</p>
 </blockquote>
 <h2 id="dogfight"><a class="header" href="#dogfight">Dogfight</a></h2>
-<p>A within-visual-range situation is entered by the pilot activating CAGE mode.</p>
+<p>A within-visual-range situation is entered by the pilot activating CAGE or
+BORESIGHT mode.</p>
+<p>CAGE is entered by pressing the CAGE Button on the throttle, BORESIGHT can be
+selected from the Jester Wheel.</p>
 <p>In this mode, the radar is automatically boresighted forward and Jester will be
 able to lock a return.</p>
 <p>Further, the pilot can enter CAA mode where the system will automatically lock
 any close contact.</p>
 <div class="table-wrapper"><table><thead><tr><th>Duration</th><th>Context Action</th></tr></thead><tbody>
-<tr><td>•, ▄</td><td>Lock or Unlock contact ahead</td></tr>
-<tr><td>••</td><td>Exit CAGE mode</td></tr>
+<tr><td>•</td><td>Select Next Target Aspect</td></tr>
+<tr><td>▄</td><td>Lock or Unlock contact ahead</td></tr>
+<tr><td>••</td><td>Exit CAGE or BORESIGHT mode</td></tr>
 </tbody></table>
 </div>
-<p>To lock a target in CAGE mode, press • (short) or ▄ (long) once ready. Jester
-will now automatically lock the first target return he can identify. If no
-target could be found within a few seconds, Jester will abort the process and •
-or ▄ have to be used again.</p>
+<p>To lock a target in CAGE mode, press ▄ (long) once ready. Jester will now
+automatically lock the first target return he can identify. If no target could
+be found within a few seconds, Jester will abort the process and ▄ has to be
+used again.</p>
 <blockquote>
 <p>💡 Targets have to be within 5 degrees of the boresight or a lock attempt
 would result in a bad lock. When Jester does not lock the return yet, it is
 because he is waiting for the pilot to put it within that zone first.</p>
+</blockquote>
+<h3 id="target-aspect"><a class="header" href="#target-aspect">Target Aspect</a></h3>
+<p>To enable no-lock "flood" shots with the Sparrow, the pilot can tell Jester the
+targets aspect.</p>
+<p><img src="jester/combat/../../img/jwheel_boresight_option.jpg" alt="Boresight Target Aspect" /></p>
+<p>With the correct setting selected, a Sparrow can be launched and should be able
+to track the target without first obtaining a radar lock.</p>
+<p>The options can only be used if either in BORESIGHT or CAGE mode, using Context
+Action • (short) will toggle between all aspect settings in order:</p>
+<ul>
+<li>NOSE (default)</li>
+<li>FORWARD</li>
+<li>AFT</li>
+<li>TAIL</li>
+<li>WIDE</li>
+</ul>
+<p>The default option is NOSE, to enable fast reaction to a threat coming straight
+at the Phantom.</p>
+<blockquote>
+<p>💡 Due to the difficulty of selecting the correct aspect, as well as the
+target moving and hence changing its aspect after launch, such attacks
+generally provide a rather low hit probability. However, it can be the only
+option in certain situations, such as very low altitude fights.</p>
 </blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="pave-spike-1"><a class="header" href="#pave-spike-1">Pave Spike</a></h1>
 <p>If equipped, Jester will ensure the targeting pod is ready for a 12-VIS dive
