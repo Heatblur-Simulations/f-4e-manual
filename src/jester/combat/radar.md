@@ -120,7 +120,11 @@ seconds for the radar return to reappear.
 
 ## Dogfight
 
-A within-visual-range situation is entered by the pilot activating CAGE mode.
+A within-visual-range situation is entered by the pilot activating CAGE or
+BORESIGHT mode.
+
+CAGE is entered by pressing the CAGE Button on the throttle, BORESIGHT can be
+selected from the Jester Wheel.
 
 In this mode, the radar is automatically boresighted forward and Jester will be
 able to lock a return.
@@ -130,14 +134,42 @@ any close contact.
 
 | Duration | Context Action               |
 | -------- | ---------------------------- |
-| •, ▄     | Lock or Unlock contact ahead |
-| ••       | Exit CAGE mode               |
+| •        | Select Next Target Aspect    |
+| ▄        | Lock or Unlock contact ahead |
+| ••       | Exit CAGE or BORESIGHT mode  |
 
-To lock a target in CAGE mode, press • (short) or ▄ (long) once ready. Jester
-will now automatically lock the first target return he can identify. If no
-target could be found within a few seconds, Jester will abort the process and •
-or ▄ have to be used again.
+To lock a target in CAGE mode, press ▄ (long) once ready. Jester will now
+automatically lock the first target return he can identify. If no target could
+be found within a few seconds, Jester will abort the process and ▄ has to be
+used again.
 
 > 💡 Targets have to be within 5 degrees of the boresight or a lock attempt
 > would result in a bad lock. When Jester does not lock the return yet, it is
 > because he is waiting for the pilot to put it within that zone first.
+
+### Target Aspect
+
+To enable no-lock "flood" shots with the Sparrow, the pilot can tell Jester the
+targets aspect.
+
+![Boresight Target Aspect](../../img/jwheel_boresight_option.jpg)
+
+With the correct setting selected, a Sparrow can be launched and should be able
+to track the target without first obtaining a radar lock.
+
+The options can only be used if either in BORESIGHT or CAGE mode, using Context
+Action • (short) will toggle between all aspect settings in order:
+
+- NOSE (default)
+- FORWARD
+- AFT
+- TAIL
+- WIDE
+
+The default option is NOSE, to enable fast reaction to a threat coming straight
+at the Phantom.
+
+> 💡 Due to the difficulty of selecting the correct aspect, as well as the
+> target moving and hence changing its aspect after launch, such attacks
+> generally provide a rather low hit probability. However, it can be the only
+> option in certain situations, such as very low altitude fights.
