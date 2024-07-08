@@ -36,6 +36,7 @@
 
 | Abbreviation | Definition                         |
 |--------------|------------------------------------|
+| BATH         | Best Available True Heading        |
 | BDHI         | Bearing Distance Heading Indicator |
 | BIT          | Built-In Test                      |
 | BST          | Boresight                          |
