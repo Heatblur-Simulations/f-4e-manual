@@ -111,7 +111,7 @@ Takes roughly 2 minutes 15 seconds.
 |      | d. Communication Volume control knob                    | AS DESIRED           |
 |      | e. Auxiliary channel control knob                       | AS REQUIRED          |
 |      | f. Auxiliary volume control knob                        | AS DESIRED           |
-|      | g. COMM-AUX Pushbutton                                  | TR + G - ADF         |
+|      | g. COMM function selector knob                          | TR + G - ADF         |
 |      | h. Navigation volume control knobs                      | AS REQUIRED          |
 |      | i. TACAN function selector knob                         | OFF                  |
 |      | j. Communication command button                         | AS DESIRED           |
@@ -266,7 +266,7 @@ Takes roughly 2 minutes 15 seconds.
 |      | d. Communication Volume control knob                                                                                                                                                                                                                | AS DESIRED                                |
 |      | e. Auxiliary channel control knob                                                                                                                                                                                                                   | AS REQUIRED                               |
 |      | f. Auxiliary volume control knob                                                                                                                                                                                                                    | AS DESIRED                                |
-|      | g. COMM-AUX Pushbutton                                                                                                                                                                                                                              | TR + G - ADF                              |
+|      | g. COMM function selector knob                                                                                                                                                                                                                              | TR + G - ADF                              |
 |      | h. Navigation volume control knobs                                                                                                                                                                                                                  | AS REQUIRED                               |
 |      | i. TACAN function selector knob                                                                                                                                                                                                                     | OFF                                       |
 |      | j. Communication command button                                                                                                                                                                                                                     | AS DESIRED                                |
