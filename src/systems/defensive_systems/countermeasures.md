@@ -50,7 +50,7 @@ or the WSO (Dispense Button or Ripple Switch on the CCU).
 
 Countermeasures will be dispensed according to Flares Select Switch, CCU and Programmer settings.
 
-Chaff and Flare programs are divided into two categories:
+They are two important definitions to know when setting up the countermeasures:
 
 * BURST - single dispense signal
 * SALVO - group of bursts
@@ -138,7 +138,7 @@ are adjustable:
 
 | Category    | Knob                    | Values                       | Description                      |
 |-------------|-------------------------|------------------------------|----------------------------------|
-| CHAFF BURST | COUNT (<num>4</num>)    | 1, 2, 3, 4, 6, 8 (units)     | quantity of bursts (per salvo)   |
+| CHAFF BURST | COUNT (<num>4</num>)    | 1, 2, 3, 4, 6, 8             | quantity of bursts (per salvo)   |
 |             | INTERVAL (<num>1</num>) | 0.1, 0.2, 0.3, 0.4           | time interval between each burst |
 | CHAFF SALVO | COUNT   (<num>5</num>)  | 1, 2, 4, 8, C (continuous)   | number of salvos                 |
 |             | INTERVAL (<num>2</num>) | 1, 2, 3, 4, 5, 8, R (random) | time interval between each salvo |
@@ -167,9 +167,8 @@ position.
 
 ### AN/ALE-40 Power On Indicator Light (Green)
 
-This green light illuminates (<num>1</num>) when the Flares
-Select switch is set to NORMAL and at least one of the chaff and flare mode
-knobs are in any position other than OFF.
+This green light illuminates (<num>1</num>) when at least one of the chaff and flare mode
+knobs on the CCU is in any position other than OFF.
 
 ### Flares Indicator Light (Amber)
 
@@ -177,8 +176,7 @@ This amber indicator (<num>2</num>) illuminates when the Flares Select
 switch is set to FLARES.
 
 When illuminated, flares can be dispensed by pressing
-the front cockpit dispense button regardless of programmer and CCU settings,
-provided the flaps and speed brakes are retracted.
+the front cockpit dispense button regardless of programmer and CCU settings.
 
 ## Dispense Button (Pilot Cockpit)
 
