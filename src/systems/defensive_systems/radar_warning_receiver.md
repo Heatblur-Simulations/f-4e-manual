@@ -275,13 +275,16 @@ selected a ship symbol will be displayed in the lower half of azimuth.
 | ![rwr_flat_triangle_symbol.jpg](../../img/rwr_flat_triangle_symbol.jpg) | E-2D Hawkeye, E-3C Sentry, A-50                                                                                                                                               |
 | ![rwr_triangle_symbol.jpg](../../img/rwr_triangle_symbol.jpg)           | F-14, F-15C, F-15E, F-16, F-18C, JF-17, M-2000C, Mig-29, SU-27, MiG-31, Tornado IDS/GR4                                                                                       |
 | ![rwr_two_triangle_symbol.jpg](../../img/rwr_two_triangle_symbol.jpg)   | F-1, AJS-37, F-4E, MiG-19, MiG-21, MiG-23, F-5E-3                                                                                                                             |
+| ![rwr_u_one_dot_symbol.jpg](../../img/rwr_u_one_dot_symbol.jpg)         | Unknown (Low band)                                                                                                                                                            |
+| ![rwr_u_two_dot_symbol.jpg](../../img/rwr_u_two_dot_symbol.jpg)         | Unknown (Medium band)                                                                                                                                                         |
+| ![rwr_u_three_dot_symbol.jpg](../../img/rwr_u_three_dot_symbol.jpg)     | Unknown (High band)                                                                                                                                                           |
 
 ### Sea and Air based Threats
 
 | Symbol                                                                  | Possible threat                                                                                                                                         |
 |-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![rwr_four_symbol.jpg](../../img/rwr_four_symbol.jpg)                   | Rezky, Albatros                                                                                                                                         |
-| ![rwr_six_symbol.jpg](../../img/rwr_six_symbol.jpg)                     | Battlecruiser Pyotr Velikiy, Cruiser Moskva, Type 052C Destroyer, Frigate Neustrashimy                                                                                      |
+| ![rwr_six_symbol.jpg](../../img/rwr_six_symbol.jpg)                     | Battlecruiser Pyotr Velikiy, Cruiser Moskva, Type 052C Destroyer, Frigate Neustrashimy                                                                  |
 | ![rwr_seven_symbol.jpg](../../img/rwr_seven_symbol.jpg)                 | Type 054A Frigate, Type 052B Destroyer                                                                                                                  |
 | ![rwr_nine_symbol.jpg](../../img/rwr_nine_symbol.jpg)                   | CV 1143.5 Kuznetsov                                                                                                                                     |
 | ![rwr_a_one_dot_symbol.jpg](../../img/rwr_a_one_dot_symbol.jpg)         | La Combattante II                                                                                                                                       |
@@ -295,3 +298,6 @@ selected a ship symbol will be displayed in the lower half of azimuth.
 | ![rwr_flat_triangle_symbol.jpg](../../img/rwr_flat_triangle_symbol.jpg) | E-2D Hawkeye, E-3C Sentry, A-50                                                                                                                         |
 | ![rwr_triangle_symbol.jpg](../../img/rwr_triangle_symbol.jpg)           | F-14, F-15C, F-15E, F-16, F-18C, JF-17, M-2000C, Mig-29, SU-27, MiG-31, Tornado IDS/GR4                                                                 |
 | ![rwr_two_triangle_symbol.jpg](../../img/rwr_two_triangle_symbol.jpg)   | F-1, AJS-37, F-4E, MiG-19, MiG-21, MiG-23, F-5E-3                                                                                                       |
+| ![rwr_u_one_dot_symbol.jpg](../../img/rwr_u_one_dot_symbol.jpg)         | Unknown (Low band)                                                                                                                                      |
+| ![rwr_u_two_dot_symbol.jpg](../../img/rwr_u_two_dot_symbol.jpg)         | Unknown (Medium band)                                                                                                                                   |
+| ![rwr_u_three_dot_symbol.jpg](../../img/rwr_u_three_dot_symbol.jpg)     | Unknown (High band)                                                                                                                                     |
