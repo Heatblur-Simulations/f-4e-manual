@@ -99,31 +99,25 @@ The A-3-2-T Selector knob (<num>5</num>) sets the first digit of the manually se
 The four Frequency Selection Knobs work in concert with the A-3-2-T knob and
 Preset/Manual switch. Frequencies are entered beginning with the 3 or 2
 selection on the A-3-2-T Selector, and can be entered from 225.00 to 399.975 MHz
-in increments of 0.025. With Preset/Manual in the Manual position, the UHF radio
-is directly set to the displayed channel. In the Preset position, the set
-channels can be entered into the COMM CHAN memory, with the desired position
-selected with the Comm Channel Control knob - the smaller knob to the left of the
-Preset/Manual switch, and displayed in the COMM CHAN window. Channels are stored
-in the displayed channel preset with the SET pushbutton. Once stored, channels
-are directly selected using the Comm Channel Control knob with the Preset/Manual
-switch in the Preset position.
+in increments of 0.025.
+With the Preset/Manual switch (<num>4<num>) in the Manual position, the UHF radio is directly set to the displayed channel. In the Preset position, the set
+channels can be entered into the COMM CHAN memory, with the desired position selected with the Comm Channel Control knob (<num>12<num>) - the smaller knob to the left of the Preset/Manual switch, and displayed in the COMM CHAN window.
+Channels can be stored in the displayed channel preset with the SET pushbutton. Once stored, channels are directly selected using the Comm Channel Control knob with the Preset/Manual switch in the Preset position.
 
-Directly underneath the Comm Channel Control Knob is the Aux Channel Knob (<num>4</num>) and
+Directly underneath the Comm Channel Control Knob is the Aux Channel Knob (<num>13</num>) and
 Indicator. This knob is used to access 20 common preset channels that cannot be
-changed from in the cockpit.
+changed in the cockpit.
 
 The Aux Volume Control knob (<num>1</num>) on the lower right of the panel
-raises and lowers the volume of the Aux receiver channel (12 and 13).
+raises and lowers the volume of the Aux receiver channel.
 
 The Set button (<num>14</num>) can be used to save the channel frequency that is currently selected
-by the
-Frequency knobs. The frequency will be saved as the currently selected channel.
+by the Frequency knobs. The frequency will be saved as the currently selected channel.
 
 ### Tone Button
 
 The Tone Pushbutton (<num>3</num>) is used for transmission of a Time of Day (TOD) signal along with
-a tone
-to friendly aircraft requiring a Time of Day update for proper HAVE-Quick functionality.
+a tone to friendly aircraft requiring a Time of Day update for proper HAVE-Quick functionality.
 
 > 💡 Due to engine limitations, the tone button,
 > belonging to the HAVE-Quick functionality, is not simulated.
