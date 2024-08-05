@@ -100,9 +100,12 @@ The four Frequency Selection Knobs work in concert with the A-3-2-T knob and
 Preset/Manual switch. Frequencies are entered beginning with the 3 or 2
 selection on the A-3-2-T Selector, and can be entered from 225.00 to 399.975 MHz
 in increments of 0.025.
-With the Preset/Manual switch (<num>4<num>) in the Manual position, the UHF radio is directly set to the displayed channel. In the Preset position, the set
-channels can be entered into the COMM CHAN memory, with the desired position selected with the Comm Channel Control knob (<num>12<num>) - the smaller knob to the left of the Preset/Manual switch, and displayed in the COMM CHAN window.
-Channels can be stored in the displayed channel preset with the SET pushbutton. Once stored, channels are directly selected using the Comm Channel Control knob with the Preset/Manual switch in the Preset position.
+With the Preset/Manual switch (<num>4<num>) in the Manual position, the UHF radio is directly set to the 
+displayed channel. In the Preset position, the set channels can be entered into the COMM CHAN memory, with
+the desired position selected with the Comm Channel Control knob (<num>12<num>) (the smaller knob to the
+left of the Preset/Manual switch), and displayed in the COMM CHAN window. Channels can be stored in the
+displayed channel preset with the SET pushbutton. Once stored, channels are directly selected using the 
+Comm Channel Control knob with the Preset/Manual switch in the Preset position.
 
 Directly underneath the Comm Channel Control Knob is the Aux Channel Knob (<num>13</num>) and
 Indicator. This knob is used to access 20 common preset channels that cannot be
