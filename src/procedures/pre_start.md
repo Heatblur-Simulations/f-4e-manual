@@ -124,32 +124,33 @@ Takes roughly 2 minutes 15 seconds.
 |      | c. Function selector switch                             | HOT MIC              |
 | 8.   | Emergency gear handle                                   | IN AND SECURE        |
 | 9.   | Emergency brake handle                                  | IN AND SECURE        |
-| 10.  | Slats flaps position indicators                         | GEAR DOWN INDICATION |
-| 11.  | Canopy emergency jettison handle                        | FORWARD              |
-| 12.  | Radar scope                                             | SECURE               |
-| 13.  | Attitude indicator                                      | CHECK AND SET⚡       |
+| 10.  | Slats flaps position indicators                         | IN AND UP INDICATION |
+| 11.  | Gear position indicators                                | GEAR DOWN INDICATION |
+| 12.  | Canopy emergency jettison handle                        | FORWARD              |
+| 13.  | Radar scope                                             | SECURE               |
+| 14.  | Attitude indicator                                      | CHECK AND SET⚡       |
 |      | a. Rotate pitch trim knob to check travel (-10° to +5°) |                      |
 |      | b. Set horizon bar level with miniature aircraft        |                      |
-| 14.  | Clock                                                   | WIND AND SET         |
-| 15.  | Accelerometer                                           | SET                  |
-| 16.  | Navigation computer function selector knob              | AS DESIRED           |
-| 17.  | KY-28 power selector knob                               | OFF                  |
-| 18.  | KY-28 mode selector                                     | P                    |
-| 29.  | Canopy manual unlock handle                             | FORWARD              |
-| 20.  | Aural tone                                              | AS REQUIRED          |
-| 21.  | Cockpit lights control knob                             | AS REQUIRED          |
+| 15.  | Clock                                                   | WIND AND SET         |
+| 16.  | Accelerometer                                           | SET                  |
+| 17.  | Navigation computer function selector knob              | AS DESIRED           |
+| 18.  | KY-28 power selector knob                               | OFF                  |
+| 19.  | KY-28 mode selector                                     | P                    |
+| 20.  | Canopy manual unlock handle                             | FORWARD              |
+| 21.  | Aural tone                                              | AS REQUIRED          |
+| 22.  | Cockpit lights control knob                             | AS REQUIRED          |
 |      | a. White floodlight switch                              | OFF                  |
 |      | b. Instrument panel lights control knob                 | AS REQUIRED          |
 |      | c. Console lights control knob                          | AS REQUIRED          |
 |      | d. Standby compass light switch                         | AS REQUIRED          |
 |      | e. Console floodlight switch                            | AS REQUIRED          |
 |      | f. Indexer lights control knob                          | AS REQUIRED          |
-| 22.  | Warning and indicator lights                            | TEST⚡                |
-| 23.  | Intercom system                                         | CHECK                |
-| 24.  | Oxygen quantity gage                                    | CHECK⚡               |
+| 23.  | Warning and indicator lights                            | TEST⚡                |
+| 24.  | Intercom system                                         | CHECK                |
+| 25.  | Oxygen quantity gage                                    | CHECK⚡               |
 |      | Check quantity sufficient and OFF flag not visible.     |                      |
-| 25.  | Oxygen supply system                                    | CHECK AND SET        |
-| 26.  | RWR Systems                                             | CHECK THEN OFF⚡      |
+| 26.  | Oxygen supply system                                    | CHECK AND SET        |
+| 27.  | RWR Systems                                             | CHECK THEN OFF⚡      |
 
 ## Pilot
 

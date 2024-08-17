@@ -86,7 +86,7 @@ between 0% and 80% of your physical throttle, while the remaining 20% will
 control the afterburner range.
 
 The deadzone option can be used to split the points in the range at which the
-afterburner will be turned on and off. For example, setting 2% for the deadzone
+afterburner will be turned on and off. For example, setting 20‰ for the deadzone
 and 80% for the detent results in afterburner activation at 82% and deactivation
 at 78% of throttle input.
 
