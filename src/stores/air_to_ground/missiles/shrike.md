@@ -158,13 +158,14 @@ near to the target. A dive angle of 20 degree or more is recommended.
 
 ### Seekerheads
 
-The following seeker heads can be used to track the corresponding REDFOR radars:
+The following seeker heads can be used to track the corresponding Warsaw Pact land based SAM and EWR
+system radars:
 
 ![f4_shrike_seekerheads](../../../img/f4_shrike_seeker_table.jpg)
 
 > 💡 Note: This seeker head data is accurate as of the 18th of August, 2024.
 
-| Seeker      | SA-2 | SA-3 | SA-5 | SA-6 | SA-8 | SA-10 | SA-11 | SA-15 | SA-19 | DE  |
+| Seeker      | SA-2 | SA-3 | SA-5 | SA-6 | SA-8 | SA-10 | SA-11 | SA-15 | SA-19 | EWR |
 | ----------- | :--: | :--: | :--: | :--: | :--: | :---: | :---: | :---: | :---: | :-: |
 | Mk 22       |  TR  |      |      |  TR  |      |       |       |  STR  |  STR  | DE  |
 | Mk 23       |  TR  |      |  SR  |      |      | TS/BB |  STR  |       |  STR  |     |
@@ -177,10 +178,91 @@ The following seeker heads can be used to track the corresponding REDFOR radars:
 | Mk 49 Mod 1 |  TR  |  TR  |      |  TR  |  TR  |  CS   |  STR  |       |       |     |
 | Mk 50       |  TR  |      |  SR  |      |      |  TS   |       |       |  STR  | DE  |
 
-- SR: Search Radar
-- TR: Tracking Radar
-- STR: Search and Tracking Radar
 - BB: Big Bird
 - CS: Clam Shell
 - TS: Tin Shield
 - DE: Dog Ear
+- TAR: Tall Rack
+- BS: Box Spring
+- BL: Bar Lock
+- SN: Side Net
+- 2S: Two Spot
+
+Combined NATO and Warsaw Pact Anti-Aircraft Artillery (AAA) radars:
+
+| Seeker      | Shilka | Gepard | M163 VADS | C-RAM |
+| ----------- | :----: | :----: | :-------: | ----- |
+| Mk 22       |        |        |           |       |
+| Mk 23       |        |        |           |       |
+| Mk 24.5     |        |        |           |       |
+| Mk 24.34    |        |        |           |       |
+| Mk 25       |        |        |           |       |
+| Mk 36       |        |        |           |       |
+| Mk 37       |        |        |           |       |
+| Mk 49 Mod 0 |        |        |           |       |
+| Mk 49 Mod 1 |        |        |           |       |
+| Mk 50       |        |        |           |       |
+
+NATO land based SAM system radars and EWRs:
+
+| Seeker      | Hawk | Patriot | Rapier | Roland | NASAMS |
+| ----------- | :--: | :-----: | :----: | :----: | :----: |
+| Mk 22       |      |         |        |        |        |
+| Mk 23       |      |         |        |        |        |
+| Mk 24.5     |      |         |        |        |        |
+| Mk 24.34    |      |         |        |        |        |
+| Mk 25       |      |         |        |        |        |
+| Mk 36       |      |         |        |        |        |
+| Mk 37       |      |         |        |        |        |
+| Mk 49 Mod 0 |      |         |        |        |        |
+| Mk 49 Mod 1 |      |         |        |        |        |
+| Mk 50       |      |         |        |        |        |
+
+Warsaw Pact and Chinese Naval Threats:
+
+| Seeker      | Kirov | Slava | Kuznetsov | Krivak | Grisha | Type 052B | Type 052C | Type 054A |
+| ----------- | :---: | :---: | :-------: | :----: | :----: | :-------: | :-------: | :-------: |
+| Mk 22       |       |       |           |        |        |           |           |           |
+| Mk 23       |       |       |           |        |        |           |           |           |
+| Mk 24.5     |       |       |           |        |        |           |           |           |
+| Mk 24.34    |       |       |           |        |        |           |           |           |
+| Mk 25       |       |       |           |        |        |           |           |           |
+| Mk 36       |       |       |           |        |        |           |           |           |
+| Mk 37       |       |       |           |        |        |           |           |           |
+| Mk 49 Mod 0 |       |       |           |        |        |           |           |           |
+| Mk 49 Mod 1 |       |       |           |        |        |           |           |           |
+| Mk 50       |       |       |           |        |        |           |           |           |
+
+US Naval Threats:
+
+| Seeker      | Ticonderoga | Arleigh Burke | Oliver Hazard Perry | Nimitz |
+| ----------- | :---------: | :-----------: | :-----------------: | :----: |
+| Mk 22       |             |               |                     |        |
+| Mk 23       |             |               |                     |        |
+| Mk 24.5     |             |               |                     |        |
+| Mk 24.34    |             |               |                     |        |
+| Mk 25       |             |               |                     |        |
+| Mk 36       |             |               |                     |        |
+| Mk 37       |             |               |                     |        |
+| Mk 49 Mod 0 |             |               |                     |        |
+| Mk 49 Mod 1 |             |               |                     |        |
+| Mk 50       |             |               |                     |        |
+
+Other NATO Naval Threats:
+
+| Seeker      | Ticonderoga | Arleigh Burke | Oliver Hazard Perry | Nimitz |
+| ----------- | :---------: | :-----------: | :-----------------: | :----: |
+| Mk 22       |             |               |                     |        |
+| Mk 23       |             |               |                     |        |
+| Mk 24.5     |             |               |                     |        |
+| Mk 24.34    |             |               |                     |        |
+| Mk 25       |             |               |                     |        |
+| Mk 36       |             |               |                     |        |
+| Mk 37       |             |               |                     |        |
+| Mk 49 Mod 0 |             |               |                     |        |
+| Mk 49 Mod 1 |             |               |                     |        |
+| Mk 50       |             |               |                     |        |
+
+- SR: Search Radar
+- TR: Tracking Radar
+- STR: Search and Tracking Radar
