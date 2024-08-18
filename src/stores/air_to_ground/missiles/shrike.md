@@ -156,12 +156,10 @@ release button. The Shrike will fire within one second after pressing the bomb r
 aware that the Shrike will have the least amount of range in direct mode and should be fired very
 near to the target. A dive angle of 20 degree or more is recommended.
 
-### Seekerheads
+### Seeker Heads
 
 The following seeker heads can be used to track the corresponding Warsaw Pact land based SAM and EWR
 system radars:
-
-![f4_shrike_seekerheads](../../../img/f4_shrike_seeker_table.jpg)
 
 > 💡 Note: This seeker head data is accurate as of the 18th of August, 2024.
 
