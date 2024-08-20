@@ -285,7 +285,7 @@ The Radar Missile Power Switch provides power to the klystron continuous wave
 tuning drive which is responsible for tuning the Sparrows to the correct
 continuous wave carrier frequency for guidance.
 
-When switched out of the OFF position, power is applied to the circuit 30
+When the radar power knob is out of the OFF position, power is applied to the circuit 30
 seconds after this selection.
 
 The STBY position maintains warmup power to the missiles and continuous wave
