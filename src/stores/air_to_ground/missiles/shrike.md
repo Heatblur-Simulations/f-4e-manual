@@ -158,16 +158,38 @@ near to the target. A dive angle of 20 degree or more is recommended.
 
 ### Seeker Heads
 
-The following seeker heads can be used to track the corresponding Warsaw Pact land based SAM and EWR
-system radars:
+The AGM-45 has 10 seeker heads, which each target a specific emitter radio frequency, to select
+from. This means some preparation is required prior to flight in order to be properly prepared to
+engage the threats effectively. The following seeker heads tables are provided so your missions can
+be planned accordingly.
 
-> 💡 Note: This seeker head data is accurate as of the 18th of August, 2024. For the SA-2/3/5, the
-> Flat Face radar can be used as the search radar for all 3 systems.
+> 💡 This seeker head data is accurate as of patch 2.9.7.59074
+
+#### Seeker RF Limit Table
+
+| Seeker       | Lower RF Limit (GHz) | Upper RF Limit (GHz) |
+| ------------ | :------------------: | :------------------: |
+| Mk 22        |         4.8          |         5.2          |
+| Mk 23        |          2           |          4           |
+| Mk 24 Mod 5  |         2.65         |         3.15         |
+| Mk 24 Mod 34 |         2.5          |         3.5          |
+| Mk 25        |          4           |          6           |
+| Mk 36        |         7.9          |         9.6          |
+| Mk 37        |         0.8          |          1           |
+| Mk 49 Mod 0  |          6           |          10          |
+| Mk 49 Mod 1  |          6           |          10          |
+| Mk 50        |          2           |          6           |
+
+General Key:
 
 - SR: Search Radar
 - TR: Tracking Radar
 - STR: Search and Tracking Radar
 - RF: Rangefinder
+
+#### Land-based Threats
+
+##### Warsaw Pact land-based SAM and EWR system radars
 
 | Seeker       | SA-2  | SA-3 | SA-5  | SA-6  | SA-8 | SA-10 | SA-11 | SA-13 | SA-15 | SA-19 | EWR |
 | ------------ | :---: | :--: | :---: | :---: | :--: | :---: | :---: | :---: | :---: | :---: | :-: |
@@ -182,28 +204,31 @@ system radars:
 | Mk 49 Mod 1  | TR/RF |  TR  |  TR   |  TR   | STR  |  CS   | SR/TR |  TR   |       |       |     |
 | Mk 50        | TR/RF |      | TS/TR |       |      |  TS   |       |  TR   |       | SR/TR | DE  |
 
-- BB: Big Bird
-- CS: Clam Shell
+> 💡The SA-2/3/5 all can use the same Flat Face search radar with the SA-5 having the option of
+> using the Tin Shield as a search radar as well.
+
+- BB: Big Bird (SA-10 Search Radar)
+- CS: Clam Shell (SA-10 Search Radar)
 - DE: Dog Ear
 - FF: Flat Face (SA-2/3/5 Search Radar)
 - TS: Tin Shield (SA-5/10 Search Radar)
 
-Chinese land-based SAM Threats:
+##### Chinese land-based SAM Threats
 
-| Seeker      | CH-SA-4 (HQ-7) |
-| ----------- | :------------: |
-| Mk 22       |                |
-| Mk 23       |                |
-| Mk 24.5     |                |
-| Mk 24.34    |                |
-| Mk 25       |                |
-| Mk 36       |     SR/TR      |
-| Mk 37       |                |
-| Mk 49 Mod 0 |     SR/TR      |
-| Mk 49 Mod 1 |     SR/TR      |
-| Mk 50       |                |
+| Seeker       | CH-SA-4 (HQ-7) |
+| ------------ | :------------: |
+| Mk 22        |                |
+| Mk 23        |                |
+| Mk 24 Mod 5  |                |
+| Mk 24 Mod 34 |                |
+| Mk 25        |                |
+| Mk 36        |     SR/TR      |
+| Mk 37        |                |
+| Mk 49 Mod 0  |     SR/TR      |
+| Mk 49 Mod 1  |     SR/TR      |
+| Mk 50        |                |
 
-Combined NATO and Warsaw Pact Anti-Aircraft Artillery (AAA) radars:
+##### Combined NATO and Warsaw Pact Anti-Aircraft Artillery (AAA) radars
 
 | Seeker       | Shilka | Fire Can | Gepard | M163 VADS | C-RAM |
 | ------------ | :----: | :------: | :----: | :-------: | ----- |
@@ -218,7 +243,7 @@ Combined NATO and Warsaw Pact Anti-Aircraft Artillery (AAA) radars:
 | Mk 49 Mod 1  |        |    SR    |        |           |       |
 | Mk 50        |        |    SR    |   TR   |           |       |
 
-NATO land based SAM system radars and EWRs:
+##### NATO land-based SAM system radars and EWRs
 
 | Seeker       | Hawk | Patriot | Rapier | Roland | NASAMS |
 | ------------ | :--: | :-----: | :----: | :----: | :----: |
@@ -227,68 +252,87 @@ NATO land based SAM system radars and EWRs:
 | Mk 24 Mod 5  |      |         |   TR   |        |        |
 | Mk 24 Mod 34 |      |         |   TR   |        |        |
 | Mk 25        |      |   STR   |   TR   |        |        |
-| Mk 36        |  TR  |         |   TR   |        |        |
+| Mk 36        |  TR  |         |   TR   |   TR   |   SR   |
 | Mk 37        |  SR  |         |   TR   |        |        |
 | Mk 49 Mod 0  |      |         |   TR   |        |        |
 | Mk 49 Mod 1  |      |         |   TR   |        |        |
 | Mk 50        |      |   STR   |   TR   |        |        |
 
-Warsaw Pact and Chinese Naval Threats:
+#### Naval Threats
 
-| Seeker      | Kirov | Slava | Kuznetsov | Krivak | Grisha | Type 052B | Type 052C | Type 054A |
-| ----------- | :---: | :---: | :-------: | :----: | :----: | :-------: | :-------: | :-------: |
-| Mk 22       |  TR   |       |           |        |   Y    |           |           |     Y     |
-| Mk 23       |  TR   |       |           |        |   Y    |           |           |     Y     |
-| Mk 24.5     |  TR   |       |           |        |   Y    |           |           |     Y     |
-| Mk 24.34    |  TR   |       |           |        |   Y    |           |           |     Y     |
-| Mk 25       |       |       |           |        |        |           |           |           |
-| Mk 36       |       |       |           |        |        |           |           |           |
-| Mk 37       |       |       |           |        |        |           |           |           |
-| Mk 49 Mod 0 |       |       |           |        |        |           |           |           |
-| Mk 49 Mod 1 |       |       |           |        |        |           |           |           |
-| Mk 50       |       |       |           |        |        |           |           |           |
+> 💡 Ship classes, and not individual ships, are listed where ships are identical.
 
-US Naval Threats:
+##### Soviet Naval Threats
 
-| Seeker      | Ticonderoga | Arleigh Burke | Oliver Hazard Perry | Nimitz | Forrestal |
-| ----------- | :---------: | :-----------: | :-----------------: | :----: | :-------: |
-| Mk 22       |             |               |                     |        |           |
-| Mk 23       |             |               |                     |        |           |
-| Mk 24.5     |             |               |                     |        |           |
-| Mk 24.34    |             |               |                     |        |           |
-| Mk 25       |             |               |                     |        |           |
-| Mk 36       |             |               |                     |        |           |
-| Mk 37       |             |               |                     |        |           |
-| Mk 49 Mod 0 |             |               |                     |        |           |
-| Mk 49 Mod 1 |             |               |                     |        |           |
-| Mk 50       |             |               |                     |        |           |
+| Seeker       | Kirov | Slava | Kuznetsov | Molniya | Grisha | Steregushchiy | Neustrashimy |
+| ------------ | :---: | :---: | :-------: | :-----: | :----: | :-----------: | :----------: |
+| Mk 22        |  TR   |  TR   |    TR     |         |   TR   |      TR       |      TR      |
+| Mk 23        | SR/TR | SR/TR |   SR/TR   |  SR/TR  |   TR   |      TR       |    SR/TR     |
+| Mk 24 Mod 5  | SR/TR |  TR   |   SR/TR   |  SR/TR  |   TR   |      TR       |    SR/TR     |
+| Mk 24 Mod 34 |  TR   |  TR   |    TR     |         |   TR   |      TR       |      TR      |
+| Mk 25        |  TR   |  TR   |    TR     |         |   TR   |      TR       |      TR      |
+| Mk 36        | SR/TR | SR/TR |   SR/TR   |  SR/TR  |   TR   |      TR       |    SR/TR     |
+| Mk 37        |  TR   |  TR   |    TR     |         |   TR   |      TR       |      TR      |
+| Mk 49 Mod 0  |  TR   |  TR   |    TR     |         | SR/TR  |     SR/TR     |      TR      |
+| Mk 49 Mod 1  |  TR   |  TR   |    TR     |         | SR/TR  |     SR/TR     |      TR      |
+| Mk 50        | SR/TR | SR/TR |   SR/TR   |  SR/TR  |   TR   |      TR       |    SR/TR     |
 
-British Naval Threats:
+##### Chinese Naval Threats
 
-| Seeker      | Ariande | Arleigh Burke | Oliver Hazard Perry | Nimitz | Forrestal |
-| ----------- | :-----: | :-----------: | :-----------------: | :----: | :-------: |
-| Mk 22       |         |               |                     |        |           |
-| Mk 23       |         |               |                     |        |           |
-| Mk 24.5     |         |               |                     |        |           |
-| Mk 24.34    |         |               |                     |        |           |
-| Mk 25       |         |               |                     |        |           |
-| Mk 36       |         |               |                     |        |           |
-| Mk 37       |         |               |                     |        |           |
-| Mk 49 Mod 0 |         |               |                     |        |           |
-| Mk 49 Mod 1 |         |               |                     |        |           |
-| Mk 50       |         |               |                     |        |           |
+| Seeker       | Type 052B | Type 052C | Type 054A | Type 071 |
+| ------------ | :-------: | :-------: | :-------: | :------: |
+| Mk 22        |    TR     |           |    TR     |          |
+| Mk 23        |   SR/TR   |   SR/TR   |   SR/TR   |          |
+| Mk 24 Mod 5  |    TR     |   SR/TR   |    TR     |          |
+| Mk 24 Mod 34 |    TR     |           |    TR     |          |
+| Mk 25        |    TR     |           |    TR     |          |
+| Mk 36        |   SR/TR   |   SR/TR   |   SR/TR   |          |
+| Mk 37        |    TR     |           |    TR     |          |
+| Mk 49 Mod 0  |    TR     |           |    TR     |          |
+| Mk 49 Mod 1  |    TR     |           |    TR     |          |
+| Mk 50        |   SR/TR   |   SR/TR   |   SR/TR   |          |
 
-Other Naval Threats
+##### US Naval Threats
 
-| Seeker      | de Mayo | Arleigh Burke | Oliver Hazard Perry | Nimitz | Forrestal |
-| ----------- | :-----: | :-----------: | :-----------------: | :----: | :-------: |
-| Mk 22       |   TR    |               |                     |        |           |
-| Mk 23       |   TR    |               |                     |        |           |
-| Mk 24.5     |   TR    |               |                     |        |           |
-| Mk 24.34    |   TR    |               |                     |        |           |
-| Mk 25       |         |               |                     |        |           |
-| Mk 36       |         |               |                     |        |           |
-| Mk 37       |         |               |                     |        |           |
-| Mk 49 Mod 0 |         |               |                     |        |           |
-| Mk 49 Mod 1 |         |               |                     |        |           |
-| Mk 50       |         |               |                     |        |           |
+| Seeker       | Ticonderoga | Arleigh Burke | Oliver Hazard Perry | Forrestal | Nimitz | Tarawa |
+| ------------ | :---------: | :-----------: | :-----------------: | :-------: | :----: | :----: |
+| Mk 22        |             |               |         TR          |           |   TR   |        |
+| Mk 23        |             |               |         TR          |           |   TR   |        |
+| Mk 24 Mod 5  |             |               |         TR          |           |   TR   |        |
+| Mk 24 Mod 34 |             |               |         TR          |           |   TR   |        |
+| Mk 25        |             |               |         TR          |           |   TR   |        |
+| Mk 36        |     TR      |      TR       |         TR          |           |   TR   |        |
+| Mk 37        |    SR/TR    |     SR/TR     |        SR/TR        |           |   TR   |        |
+| Mk 49 Mod 0  |             |               |         TR          |           |   TR   |        |
+| Mk 49 Mod 1  |             |               |         TR          |           |   TR   |        |
+| Mk 50        |             |               |         TR          |           |   TR   |        |
+
+##### British Naval Threats
+
+| Seeker       | Leander | Castle | Invincible |
+| ------------ | :-----: | ------ | ---------- |
+| Mk 22        |   TR    |        |            |
+| Mk 23        |   TR    |        |            |
+| Mk 24 Mod 5  |   TR    |        |            |
+| Mk 24 Mod 34 |   TR    |        |            |
+| Mk 25        |   TR    |        |            |
+| Mk 36        |   TR    |        |            |
+| Mk 37        |   TR    |        |            |
+| Mk 49 Mod 0  |   TR    |        |            |
+| Mk 49 Mod 1  |   TR    |        |            |
+| Mk 50        |   TR    |        |            |
+
+##### Other Naval Threats
+
+| Seeker       | Veinticinco de Mayo | Condell | Tiger |
+| ------------ | :-----------------: | :-----: | :---: |
+| Mk 22        |                     |         |       |
+| Mk 23        |        SR/TR        |         |       |
+| Mk 24 Mod 5  |                     |         |       |
+| Mk 24 Mod 34 |                     |         |       |
+| Mk 25        |                     |         |       |
+| Mk 36        |                     |         |       |
+| Mk 37        |                     |         |       |
+| Mk 49 Mod 0  |                     |         |       |
+| Mk 49 Mod 1  |                     |         |       |
+| Mk 50        |        SR/TR        |         |       |
