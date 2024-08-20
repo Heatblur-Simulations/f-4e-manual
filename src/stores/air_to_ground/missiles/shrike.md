@@ -167,18 +167,18 @@ be planned accordingly.
 
 #### Seeker RF Limit Table
 
-| Seeker       | Lower RF Limit (GHz) | Upper RF Limit (GHz) |
-| ------------ | :------------------: | :------------------: |
-| Mk 22        |         4.8          |         5.2          |
-| Mk 23        |          2           |          4           |
-| Mk 24 Mod 5  |         2.65         |         3.15         |
-| Mk 24 Mod 34 |         2.5          |         3.5          |
-| Mk 25        |          4           |          6           |
-| Mk 36        |         7.9          |         9.6          |
-| Mk 37        |         0.8          |          1           |
-| Mk 49 Mod 0  |          6           |          10          |
-| Mk 49 Mod 1  |          6           |          10          |
-| Mk 50        |          2           |          6           |
+| Seeker       | Primary Targets                     | Lower RF Limit (GHz) | Upper RF Limit (GHz) |
+| ------------ | ----------------------------------- | :------------------: | :------------------: |
+| Mk 22        | Fan Song (SA-2 TR)                  |         4.8          |         5.2          |
+| Mk 23        | Fan Song, Fire Can, Tin Shield      |          2           |          4           |
+| Mk 24 Mod 5  | Fire Can, Tin Shield                |         2.65         |         3.15         |
+| Mk 24 Mod 34 | Fire Can, Tin Shield                |         2.5          |         3.5          |
+| Mk 25        | Fan Song (SA-2 TR)                  |          4           |          6           |
+| Mk 36        | Low Blow (SA-3 TR)                  |         7.9          |         9.6          |
+| Mk 37        | Flat Face                           |         0.8          |          1           |
+| Mk 49 Mod 0  | Low Blow, Straight Flush (SA-6 STR) |          6           |          10          |
+| Mk 49 Mod 1  | Low Blow, Straight Flush (SA-6 STR) |          6           |          10          |
+| Mk 50        | Various                             |          2           |          6           |
 
 General Key:
 
@@ -193,18 +193,18 @@ General Key:
 
 | Seeker       | SA-2  | SA-3 | SA-5  | SA-6  | SA-8 | SA-10 | SA-11 | SA-13 | SA-15 | SA-19 | EWR |
 | ------------ | :---: | :--: | :---: | :---: | :--: | :---: | :---: | :---: | :---: | :---: | :-: |
-| Mk 22        | TR/RF |      |  TR   | SR/TR |      |       |       |  TR   |  SR   |       | DE  |
+| Mk 22        | TR/RF |      |  TR   | SR/TR |      |       |       |  TR   | SR/TR |       | DE  |
 | Mk 23        | TR/RF |      |  TS   |       |      | TS/BB |       |  TR   |       | SR/TR |     |
 | Mk 24 Mod 5  | TR/RF |      |  TS   |       |      |  TS   |       |  TR   |       | SR/TR |     |
 | Mk 24 Mod 34 | TR/RF |      |  TS   |       |      |  TS   |       |  TR   |       |       |     |
-| Mk 25        | TR/RF |      |  TR   | SR/TR |      |       |       |  TR   |  STR  |       | DE  |
+| Mk 25        | TR/RF |      |  TR   | SR/TR |      |       |       |  TR   | SR/TR |       | DE  |
 | Mk 36        | TR/RF |  TR  |  TR   |  TR   |      | CS/TR | SR/TR |  TR   |       |       |     |
 | Mk 37        | FF/RF |  FF  | FF/TR |       |      |       |       |  TR   |       |       |     |
 | Mk 49 Mod 0  | TR/RF |  TR  |  TR   |  TR   | STR  |  CS   | SR/TR |  TR   |       |       |     |
 | Mk 49 Mod 1  | TR/RF |  TR  |  TR   |  TR   | STR  |  CS   | SR/TR |  TR   |       |       |     |
 | Mk 50        | TR/RF |      | TS/TR |       |      |  TS   |       |  TR   |       | SR/TR | DE  |
 
-> 💡The SA-2/3/5 all can use the same Flat Face search radar with the SA-5 having the option of
+> 💡 The SA-2/3/5 all can use the same Flat Face search radar with the SA-5 having the option of
 > using the Tin Shield as a search radar as well.
 
 - BB: Big Bird (SA-10 Search Radar)
@@ -264,18 +264,18 @@ General Key:
 
 ##### Soviet Naval Threats
 
-| Seeker       | Kirov | Slava | Kuznetsov | Molniya | Grisha | Steregushchiy | Neustrashimy |
-| ------------ | :---: | :---: | :-------: | :-----: | :----: | :-----------: | :----------: |
-| Mk 22        |  TR   |  TR   |    TR     |         |   TR   |      TR       |      TR      |
-| Mk 23        | SR/TR | SR/TR |   SR/TR   |  SR/TR  |   TR   |      TR       |    SR/TR     |
-| Mk 24 Mod 5  | SR/TR |  TR   |   SR/TR   |  SR/TR  |   TR   |      TR       |    SR/TR     |
-| Mk 24 Mod 34 |  TR   |  TR   |    TR     |         |   TR   |      TR       |      TR      |
-| Mk 25        |  TR   |  TR   |    TR     |         |   TR   |      TR       |      TR      |
-| Mk 36        | SR/TR | SR/TR |   SR/TR   |  SR/TR  |   TR   |      TR       |    SR/TR     |
-| Mk 37        |  TR   |  TR   |    TR     |         |   TR   |      TR       |      TR      |
-| Mk 49 Mod 0  |  TR   |  TR   |    TR     |         | SR/TR  |     SR/TR     |      TR      |
-| Mk 49 Mod 1  |  TR   |  TR   |    TR     |         | SR/TR  |     SR/TR     |      TR      |
-| Mk 50        | SR/TR | SR/TR |   SR/TR   |  SR/TR  |   TR   |      TR       |    SR/TR     |
+| Seeker       | Kirov | Slava | Kuznetsov | Molniya | Grisha | Krivak | Neustrashimy | Ropucha |
+| ------------ | :---: | :---: | :-------: | :-----: | :----: | :----: | :----------: | :-----: |
+| Mk 22        |  TR   |  TR   |    TR     |         |   TR   |   TR   |      TR      |         |
+| Mk 23        | SR/TR | SR/TR |   SR/TR   |  SR/TR  |   TR   |   TR   |    SR/TR     |         |
+| Mk 24 Mod 5  | SR/TR |  TR   |   SR/TR   |  SR/TR  |   TR   |   TR   |    SR/TR     |         |
+| Mk 24 Mod 34 |  TR   |  TR   |    TR     |         |   TR   |   TR   |      TR      |         |
+| Mk 25        |  TR   |  TR   |    TR     |         |   TR   |   TR   |      TR      |         |
+| Mk 36        | SR/TR | SR/TR |   SR/TR   |  SR/TR  |   TR   |   TR   |    SR/TR     |         |
+| Mk 37        |  TR   |  TR   |    TR     |         |   TR   |   TR   |      TR      |         |
+| Mk 49 Mod 0  |  TR   |  TR   |    TR     |         | SR/TR  | SR/TR  |      TR      |         |
+| Mk 49 Mod 1  |  TR   |  TR   |    TR     |         | SR/TR  | SR/TR  |      TR      |         |
+| Mk 50        | SR/TR | SR/TR |   SR/TR   |  SR/TR  |   TR   |   TR   |    SR/TR     |         |
 
 ##### Chinese Naval Threats
 
