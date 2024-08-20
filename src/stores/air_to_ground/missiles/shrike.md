@@ -232,16 +232,16 @@ General Key:
 
 | Seeker       | Shilka | Fire Can | Gepard | M163 VADS | C-RAM |
 | ------------ | :----: | :------: | :----: | :-------: | ----- |
-| Mk 22        |        |    SR    |        |           |       |
-| Mk 23        |        |    SR    | SR/TR  |           |       |
-| Mk 24 Mod 5  |        |    SR    | SR/TR  |           |       |
-| Mk 24 Mod 34 |        |    SR    |        |           |       |
-| Mk 25        |        |    SR    |        |           |       |
-| Mk 36        |        |    SR    |        |           |       |
-| Mk 37        |        |    SR    |        |           |       |
-| Mk 49 Mod 0  |        |    SR    |        |           |       |
-| Mk 49 Mod 1  |        |    SR    |        |           |       |
-| Mk 50        |        |    SR    |   TR   |           |       |
+| Mk 22        |        |    TR    |        |           |       |
+| Mk 23        |        |    TR    | SR/TR  |           |       |
+| Mk 24 Mod 5  |        |    TR    | SR/TR  |           |       |
+| Mk 24 Mod 34 |        |    TR    |        |           |       |
+| Mk 25        |        |    TR    |        |           |       |
+| Mk 36        |        |    TR    |        |           |       |
+| Mk 37        |        |    TR    |        |           |       |
+| Mk 49 Mod 0  |        |    TR    |        |           |       |
+| Mk 49 Mod 1  |        |    TR    |        |           |       |
+| Mk 50        |        |    TR    |   TR   |           |       |
 
 ##### NATO land-based SAM system radars and EWRs
 
