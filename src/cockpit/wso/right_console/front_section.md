@@ -27,9 +27,9 @@ the ENTER button (<num>2</num>) to the right.
 When power is applied to the system, it automatically initiates a transfer of
 the currently set code.
 
-### No Go Lamp
+### No Go Light
 
-Validation of an entered code takes about 5 seconds. If the NO-GO lamp is lit,
+Validation of an entered code takes about 5 seconds. If the NO-GO light is lit,
 the code is invalid.
 
 ## Inertial Navigation Control Panel
@@ -58,26 +58,29 @@ Knob positions (<num>2</num>) are:
 | Name                                                       | Description                                                                                                                                                                                                                                                                                                                  |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | OFF                                                        | System off.                                                                                                                                                                                                                                                                                                                  |
-| STBY                                                       | Standby- power is applied to the heaters and temperature control system, and initiates Coarse alignment (if [GYRO COMP](../../../systems/nav_com/ins.md#gyrocompass-alignment) is selected on the toggle).                                                                                                                   |
+| STBY                                                       | Power is applied to the heaters and temperature control system, and initiates Coarse alignment (if [GYRO COMP](../../../systems/nav_com/ins.md#gyrocompass-alignment) is selected on the toggle).                                                                                                                   |
 | [ALIGN](../../../systems/nav_com/ins.md#alignment-options) | Performs fine platform and gyro leveling and [BATH](../../../systems/nav_com/ins.md#best-available-true-heading) (or [HDG MEM](../../../systems/nav_com/ins.md#heading-memory-alignment)) alignment. Then, if available, performs [Gyro-compassing](../../../systems/nav_com/ins.md#gyrocompass-alignment) (Fine) Alignment. |
 | NAV                                                        | Activates the INS for navigation function, performance of which is based on the alignment quality.                                                                                                                                                                                                                           |
 
-### HEAT Lamp
+### HEAT Light
 
-The HEAT lamp (<num>4</num>) illuminates when the system is placed into STBY mode, and remains
-illuminated for 2 minutes after the gyros have reached operating temperature.
-The system will not allow Gyro-compassing alignment if switched out of STBY
-before this lamp has shut off.
+The HEAT Light (<num>4</num>) starts illuminating when the system is placed into STBY mode.
+For Stored Heading Memory type alignment, the light remains illuminated until the gyros have
+reached operating temperature.
+For Gyro Compass type alignment, the light remains illuminated until the gyros have reached
+operating temperature and then continues to be lit for an additional 110 seconds.
+Note: The indication is available only in STBY and ALIGN modes, and that the system will not allow
+Gyro-compassing alignment if switched out of STBY before this light has shut off.
 
-### ALIGN Lamp
+### ALIGN Light
 
-The ALIGN lamp (<num>3</num>) provides
-current [INS alignment](../../../systems/nav_com/ins.md#alignment-options)
-through illuminating
-steady ([BATH alignment](../../../systems/nav_com/ins.md#best-available-true-heading) complete), or
-flashing at the completion of [GYRO COMP](../../../systems/nav_com/ins.md#gyrocompass-alignment)
+The ALIGN Light (<num>3</num>) provides
+the current status of the [INS alignment](../../../systems/nav_com/ins.md#alignment-options)
+by illuminating
+steady when [BATH alignment](../../../systems/nav_com/ins.md#best-available-true-heading) is complete,
+or flashing at the completion of [GYRO COMP](../../../systems/nav_com/ins.md#gyrocompass-alignment)
 or [HDG MEM](../../../systems/nav_com/ins.md#heading-memory-alignment)
-alignment.
+alignments.
 
 ## Antenna Hand Control
 
