@@ -4093,8 +4093,8 @@ the default code used is 1688.</p>
 the ENTER button (<num>2</num>) to the right.</p>
 <p>When power is applied to the system, it automatically initiates a transfer of
 the currently set code.</p>
-<h3 id="no-go-lamp"><a class="header" href="#no-go-lamp">No Go Lamp</a></h3>
-<p>Validation of an entered code takes about 5 seconds. If the NO-GO lamp is lit,
+<h3 id="no-go-light"><a class="header" href="#no-go-light">No Go Light</a></h3>
+<p>Validation of an entered code takes about 5 seconds. If the NO-GO light is lit,
 the code is invalid.</p>
 <h2 id="inertial-navigation-control-panel"><a class="header" href="#inertial-navigation-control-panel">Inertial Navigation Control Panel</a></h2>
 <p><img src="cockpit/wso/right_console/../../../img/wso_ins_panel.jpg" alt="wso_ins_control_panel" /></p>
@@ -4114,24 +4114,27 @@ alignment.</p>
 <p>Knob positions (<num>2</num>) are:</p>
 <div class="table-wrapper"><table><thead><tr><th>Name</th><th>Description</th></tr></thead><tbody>
 <tr><td>OFF</td><td>System off.</td></tr>
-<tr><td>STBY</td><td>Standby- power is applied to the heaters and temperature control system, and initiates Coarse alignment (if <a href="cockpit/wso/right_console/../../../systems/nav_com/ins.html#gyrocompass-alignment">GYRO COMP</a> is selected on the toggle).</td></tr>
+<tr><td>STBY</td><td>Power is applied to the heaters and temperature control system, and initiates Coarse alignment (if <a href="cockpit/wso/right_console/../../../systems/nav_com/ins.html#gyrocompass-alignment">GYRO COMP</a> is selected on the toggle).</td></tr>
 <tr><td><a href="cockpit/wso/right_console/../../../systems/nav_com/ins.html#alignment-options">ALIGN</a></td><td>Performs fine platform and gyro leveling and <a href="cockpit/wso/right_console/../../../systems/nav_com/ins.html#best-available-true-heading">BATH</a> (or <a href="cockpit/wso/right_console/../../../systems/nav_com/ins.html#heading-memory-alignment">HDG MEM</a>) alignment. Then, if available, performs <a href="cockpit/wso/right_console/../../../systems/nav_com/ins.html#gyrocompass-alignment">Gyro-compassing</a> (Fine) Alignment.</td></tr>
 <tr><td>NAV</td><td>Activates the INS for navigation function, performance of which is based on the alignment quality.</td></tr>
 </tbody></table>
 </div>
-<h3 id="heat-lamp"><a class="header" href="#heat-lamp">HEAT Lamp</a></h3>
-<p>The HEAT lamp (<num>4</num>) illuminates when the system is placed into STBY mode, and remains
-illuminated for 2 minutes after the gyros have reached operating temperature.
-The system will not allow Gyro-compassing alignment if switched out of STBY
-before this lamp has shut off.</p>
-<h3 id="align-lamp"><a class="header" href="#align-lamp">ALIGN Lamp</a></h3>
-<p>The ALIGN lamp (<num>3</num>) provides
-current <a href="cockpit/wso/right_console/../../../systems/nav_com/ins.html#alignment-options">INS alignment</a>
-through illuminating
-steady (<a href="cockpit/wso/right_console/../../../systems/nav_com/ins.html#best-available-true-heading">BATH alignment</a> complete), or
-flashing at the completion of <a href="cockpit/wso/right_console/../../../systems/nav_com/ins.html#gyrocompass-alignment">GYRO COMP</a>
+<h3 id="heat-light"><a class="header" href="#heat-light">HEAT Light</a></h3>
+<p>The HEAT Light (<num>4</num>) starts illuminating when the system is placed into STBY mode.
+For Stored Heading Memory type alignment, the light remains illuminated until the gyros have
+reached operating temperature.
+For Gyro Compass type alignment, the light remains illuminated until the gyros have reached
+operating temperature and then continues to be lit for an additional 110 seconds.
+Note: The indication is available only in STBY and ALIGN modes, and that the system will not allow
+Gyro-compassing alignment if switched out of STBY before this light has shut off.</p>
+<h3 id="align-light"><a class="header" href="#align-light">ALIGN Light</a></h3>
+<p>The ALIGN Light (<num>3</num>) provides
+the current status of the <a href="cockpit/wso/right_console/../../../systems/nav_com/ins.html#alignment-options">INS alignment</a>
+by illuminating
+steady when <a href="cockpit/wso/right_console/../../../systems/nav_com/ins.html#best-available-true-heading">BATH alignment</a> is complete,
+or flashing at the completion of <a href="cockpit/wso/right_console/../../../systems/nav_com/ins.html#gyrocompass-alignment">GYRO COMP</a>
 or <a href="cockpit/wso/right_console/../../../systems/nav_com/ins.html#heading-memory-alignment">HDG MEM</a>
-alignment.</p>
+alignments.</p>
 <h2 id="antenna-hand-control"><a class="header" href="#antenna-hand-control">Antenna Hand Control</a></h2>
 <p><img src="cockpit/wso/right_console/../../../img/wso_antenna_hand_control_overview.jpg" alt="Antenna Hand Control" /></p>
 <p>Joystick which integrates with the <a href="cockpit/wso/right_console/../../../systems/radar/overview.html">radar</a> to perform
