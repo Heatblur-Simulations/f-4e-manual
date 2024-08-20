@@ -67,9 +67,9 @@ Knob positions (<num>2</num>) are:
 The HEAT Light (<num>4</num>) starts illuminating when the system is placed into STBY mode.
 For Stored Heading Memory type alignment, the light remains illuminated until the gyros have
 reached operating temperature.
-For Gyro Compass type alignment, the light remains illuminated until the gyros have reached 
+For Gyro Compass type alignment, the light remains illuminated until the gyros have reached
 operating temperature and then continues to be lit for an additional 110 seconds.
-Note: The indication is available only in STBY and ALIGN modes, and that the system will not allow 
+Note: The indication is available only in STBY and ALIGN modes, and that the system will not allow
 Gyro-compassing alignment if switched out of STBY before this light has shut off.
 
 ### ALIGN Light
@@ -77,8 +77,8 @@ Gyro-compassing alignment if switched out of STBY before this light has shut off
 The ALIGN Light (<num>3</num>) provides
 the current status of the [INS alignment](../../../systems/nav_com/ins.md#alignment-options)
 by illuminating
-steady when [BATH alignment](../../../systems/nav_com/ins.md#best-available-true-heading) is complete, or
-flashing at the completion of [GYRO COMP](../../../systems/nav_com/ins.md#gyrocompass-alignment)
+steady when [BATH alignment](../../../systems/nav_com/ins.md#best-available-true-heading) is complete,
+or flashing at the completion of [GYRO COMP](../../../systems/nav_com/ins.md#gyrocompass-alignment)
 or [HDG MEM](../../../systems/nav_com/ins.md#heading-memory-alignment)
 alignments.
 
