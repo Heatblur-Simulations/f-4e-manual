@@ -32,8 +32,8 @@ AGM-45 有三种不同的投放模式：AGM-45 (WRCS)、LOFT（LABS） 和 DIREC
    式
 4. (可选) 打开[飞行指引](../../../cockpit/pilot/flight_director_group.md#导航功能选择面板)来使用
    ADI 引导
-5. (可选) 将 LCOSS 转至 A/G 6.
-   将[主军械开关](../../../cockpit/pilot/weapon_management.md#主军械开关)拨至 ON
+5. (可选) 将 LCOSS 转至 A/G
+6. 将[主军械开关](../../../cockpit/pilot/weapon_management.md#主军械开关)拨至 ON
 
 ### AGM-45 (WRCS 模式)
 
