@@ -32,8 +32,8 @@ AGM-45 有三种不同的投放模式：AGM-45 (WRCS)、LOFT（LABS） 和 DIREC
    式
 4. (可选) 打开[飞行指引](../../../cockpit/pilot/flight_director_group.md#导航功能选择面板)来使用
    ADI 引导
-5. (可选) 将 LCOSS 转至 A/G
-6. 将[主军械开关](../../../cockpit/pilot/weapon_management.md#主军械开关)拨至 ON
+5. (可选) 将 LCOSS 转至 A/G 6.
+   将[主军械开关](../../../cockpit/pilot/weapon_management.md#主军械开关)拨至 ON
 
 ### AGM-45 (WRCS 模式)
 
@@ -48,7 +48,7 @@ AGM-45 有三种不同的投放模式：AGM-45 (WRCS)、LOFT（LABS） 和 DIREC
 导弹自身的视线角度以及来自 INS 的修正后的视线角度的数据；使用 TGT/MSL 断开开关选择使用哪种数据，在
 大多数情况下都应保持 DF REJ 档位。
 
-提供视线角度和估算射程后，WRCS 将使用 ADI 中的指针提供引导。只要为导航模式选择了 INS 档位，在朝向俯
+提供视线角度和估算射程后，WRCS 将使用 ADI 中的指针来提供引导。只要导航模式选择了 INS 档位，在朝向俯
 冲角度后，HSI 和 BDHI 将提供目标的水平距离。
 
 当飞机朝向正确且 ADI 指针居中，一旦飞机进入导弹射程内，其中一个分度器灯光将会根据探测到的目标距离亮
@@ -124,6 +124,178 @@ Bar 的压差，并需要感测到气压高度超过 18000 英尺时才能开启
 
 ### 导引头
 
-下述导引头可用于跟踪对应的雷达：
+AGM-45 有 10 种导引头可选，每个导引头覆盖一个特定的波段。这意味着玩家需要在航前做一些准备，来更高效
+地攻击雷达威胁。我们为玩家提供了以下导引头表格，来方便玩家相应的进行任务规划。
 
-![f4_shrike_seekerheads](../../../img/f4_shrike_seeker_table.jpg)
+> 💡 导引头数据最后更新对应 2.9.7.59263.
+
+#### 导引头射频限制表
+
+| 导引头       | 主要目标                | 射频下限 (GHz) | 射频上限 (GHz) |
+| ------------ | ----------------------- | :------------: | :------------: |
+| Mk 22        | 扇歌 (SA-2 TR)          |      4.8       |      5.2       |
+| Mk 23        | 扇歌、火罐、锡盾        |       2        |       4        |
+| Mk 24 Mod 5  | 火罐、锡盾              |      2.65      |      3.15      |
+| Mk 24 Mod 34 | 火罐、锡盾              |      2.5       |      3.5       |
+| Mk 25        | 扇歌 (SA-2 TR)          |       4        |       6        |
+| Mk 36        | 低击 (SA-3 TR)          |      7.9       |      9.6       |
+| Mk 37        | 平面                    |      0.8       |       1        |
+| Mk 49 Mod 0  | 低击、同花顺 (SA-6 STR) |       6        |       10       |
+| Mk 49 Mod 1  | 低击、同花顺 (SA-6 STR) |       6        |       10       |
+| Mk 50        | 各种雷达设施            |       2        |       6        |
+
+缩写代指：
+
+- SR: 搜索雷达
+- TR: 跟踪雷达
+- STR: 搜索跟踪雷达
+- RF: 测距雷达
+
+#### 陆基威胁
+
+##### 华约陆基 SAM 和 EWR 系统雷达
+
+| 导引头       | SA-2  | SA-3 | SA-5  | SA-6  | SA-8 | SA-10 | SA-11 | SA-13 | SA-15 | SA-19 | EWR |
+| ------------ | :---: | :--: | :---: | :---: | :--: | :---: | :---: | :---: | :---: | :---: | :-: |
+| Mk 22        | TR/RF |      |  TR   | SR/TR |      |       |       |  TR   | SR/TR |       | DE  |
+| Mk 23        | TR/RF |      |  TS   |       |      | TS/BB |       |  TR   |       | SR/TR |     |
+| Mk 24 Mod 5  | TR/RF |      |  TS   |       |      |  TS   |       |  TR   |       | SR/TR |     |
+| Mk 24 Mod 34 | TR/RF |      |  TS   |       |      |  TS   |       |  TR   |       |       |     |
+| Mk 25        | TR/RF |      |  TR   | SR/TR |      |       |       |  TR   | SR/TR |       | DE  |
+| Mk 36        | TR/RF |  TR  |  TR   |  TR   |      | CS/TR | SR/TR |  TR   |       |       |     |
+| Mk 37        | FF/RF |  FF  | FF/TR |       |      |       |       |  TR   |       |       |     |
+| Mk 49 Mod 0  | TR/RF |  TR  |  TR   |  TR   | STR  |  CS   | SR/TR |  TR   |       |       |     |
+| Mk 49 Mod 1  | TR/RF |  TR  |  TR   |  TR   | STR  |  CS   | SR/TR |  TR   |       |       |     |
+| Mk 50        | TR/RF |      | TS/TR |       |      | TS/BB |       |  TR   |       | SR/TR | DE  |
+
+> 💡 SA-2/3/5 都可以使用相同的“平面”搜索雷达，SA-5 还可以选择使用“锡盾”作为搜索雷达。
+
+- BB: 大鸟 (SA-10 搜索雷达)
+- CS: 贝壳 (SA-10 搜索雷达)
+- DE: 狗耳
+- FF: 平面 (SA-2/3/5 搜索雷达)
+- TS: 锡盾 (SA-5/10 搜索雷达)
+
+##### 中国陆基 SAM 威胁
+
+| 导引头       | CH-SA-4 (HQ-7) |
+| ------------ | :------------: |
+| Mk 22        |                |
+| Mk 23        |                |
+| Mk 24 Mod 5  |                |
+| Mk 24 Mod 34 |                |
+| Mk 25        |                |
+| Mk 36        |     SR/TR      |
+| Mk 37        |                |
+| Mk 49 Mod 0  |     SR/TR      |
+| Mk 49 Mod 1  |     SR/TR      |
+| Mk 50        |                |
+
+##### NATO 和华约高射炮（AAA）雷达组合
+
+| 导引头       | 石勒喀河 | 火罐 | 猎豹  | M163 VADS | C-RAM |
+| ------------ | :------: | :--: | :---: | :-------: | ----- |
+| Mk 22        |          |  TR  |       |           |       |
+| Mk 23        |          |  TR  | SR/TR |           |       |
+| Mk 24 Mod 5  |          |  TR  | SR/TR |           |       |
+| Mk 24 Mod 34 |          |  TR  |       |           |       |
+| Mk 25        |          |  TR  |       |           |       |
+| Mk 36        |          |  TR  |       |           |       |
+| Mk 37        |          |  TR  |       |           |       |
+| Mk 49 Mod 0  |          |  TR  |       |           |       |
+| Mk 49 Mod 1  |          |  TR  |       |           |       |
+| Mk 50        |          |  TR  |  TR   |           |       |
+
+##### NATO 陆基 SAM 系统雷达和 EWR
+
+| 导引头       | 霍克 | 爱国者 | 轻剑 | 罗兰德 | NASAMS |
+| ------------ | :--: | :----: | :--: | :----: | :----: |
+| Mk 22        |      |  STR   |  TR  |        |        |
+| Mk 23        |      |        |  TR  |        |        |
+| Mk 24 Mod 5  |      |        |  TR  |        |        |
+| Mk 24 Mod 34 |      |        |  TR  |        |        |
+| Mk 25        |      |  STR   |  TR  |        |        |
+| Mk 36        |  TR  |        |  TR  |   TR   |   SR   |
+| Mk 37        |  SR  |        |  TR  |        |        |
+| Mk 49 Mod 0  |      |        |  TR  |        |        |
+| Mk 49 Mod 1  |      |        |  TR  |        |        |
+| Mk 50        |      |  STR   |  TR  |        |        |
+
+#### 海军威胁
+
+> 💡 如果舰船相同，则只列出单级，而不是单艘舰船。
+
+##### 苏联海军威胁
+
+| 导引头       | 基洛夫 | 光荣  | 库兹涅佐夫 | 毒蜘蛛 | 格里莎 | 克里瓦克 | 不惧  | 蟾蜍 |
+| ------------ | :----: | :---: | :--------: | :----: | :----: | :------: | :---: | :--: |
+| Mk 22        |   TR   |  TR   |     TR     |        |   TR   |    TR    |  TR   |      |
+| Mk 23        | SR/TR  | SR/TR |   SR/TR    | SR/TR  |   TR   |    TR    | SR/TR |      |
+| Mk 24 Mod 5  | SR/TR  |  TR   |   SR/TR    | SR/TR  |   TR   |    TR    | SR/TR |      |
+| Mk 24 Mod 34 |   TR   |  TR   |     TR     |        |   TR   |    TR    |  TR   |      |
+| Mk 25        |   TR   |  TR   |     TR     |        |   TR   |    TR    |  TR   |      |
+| Mk 36        | SR/TR  | SR/TR |   SR/TR    | SR/TR  |   TR   |    TR    | SR/TR |      |
+| Mk 37        |   TR   |  TR   |     TR     |        |   TR   |    TR    |  TR   |      |
+| Mk 49 Mod 0  |   TR   |  TR   |     TR     |        | SR/TR  |  SR/TR   |  TR   |      |
+| Mk 49 Mod 1  |   TR   |  TR   |     TR     |        | SR/TR  |  SR/TR   |  TR   |      |
+| Mk 50        | SR/TR  | SR/TR |   SR/TR    | SR/TR  |   TR   |    TR    | SR/TR |      |
+
+##### 中国海军威胁
+
+| 导引头       | Type 052B | Type 052C | Type 054A | Type 071 |
+| ------------ | :-------: | :-------: | :-------: | :------: |
+| Mk 22        |    TR     |           |    TR     |          |
+| Mk 23        |   SR/TR   |   SR/TR   |   SR/TR   |          |
+| Mk 24 Mod 5  |    TR     |   SR/TR   |    TR     |          |
+| Mk 24 Mod 34 |    TR     |           |    TR     |          |
+| Mk 25        |    TR     |           |    TR     |          |
+| Mk 36        |   SR/TR   |   SR/TR   |   SR/TR   |          |
+| Mk 37        |    TR     |           |    TR     |          |
+| Mk 49 Mod 0  |    TR     |           |    TR     |          |
+| Mk 49 Mod 1  |    TR     |           |    TR     |          |
+| Mk 50        |   SR/TR   |   SR/TR   |   SR/TR   |          |
+
+##### 美国海军威胁
+
+| 导引头       | 提康德罗加 | 阿利.伯克 | 佩里  | 福莱斯特 | 尼米兹 | 塔拉瓦 |
+| ------------ | :--------: | :-------: | :---: | :------: | :----: | :----: |
+| Mk 22        |            |           |  TR   |          |   TR   |        |
+| Mk 23        |            |           |  TR   |          |   TR   |        |
+| Mk 24 Mod 5  |            |           |  TR   |          |   TR   |        |
+| Mk 24 Mod 34 |            |           |  TR   |          |   TR   |        |
+| Mk 25        |            |           |  TR   |          |   TR   |        |
+| Mk 36        |     TR     |    TR     |  TR   |          |   TR   |        |
+| Mk 37        |   SR/TR    |   SR/TR   | SR/TR |          |   TR   |        |
+| Mk 49 Mod 0  |            |           |  TR   |          |   TR   |        |
+| Mk 49 Mod 1  |            |           |  TR   |          |   TR   |        |
+| Mk 50        |            |           |  TR   |          |   TR   |        |
+
+##### 英国海军威胁
+
+| 导引头       | 利安得 | 城堡 | 无敌号 |
+| ------------ | :----: | ---- | ------ |
+| Mk 22        |   TR   |      |        |
+| Mk 23        |   TR   |      |        |
+| Mk 24 Mod 5  |   TR   |      |        |
+| Mk 24 Mod 34 |   TR   |      |        |
+| Mk 25        |   TR   |      |        |
+| Mk 36        |   TR   |      |        |
+| Mk 37        |   TR   |      |        |
+| Mk 49 Mod 0  |   TR   |      |        |
+| Mk 49 Mod 1  |   TR   |      |        |
+| Mk 50        |   TR   |      |        |
+
+##### 其它海军威胁
+
+| 导引头       | 五月二十五日号航空母舰 | 康德尔海军上将号 | 虎级巡洋舰 |
+| ------------ | :--------------------: | :--------------: | :--------: |
+| Mk 22        |                        |                  |            |
+| Mk 23        |         SR/TR          |                  |            |
+| Mk 24 Mod 5  |                        |                  |            |
+| Mk 24 Mod 34 |                        |                  |            |
+| Mk 25        |                        |                  |            |
+| Mk 36        |                        |                  |            |
+| Mk 37        |                        |                  |            |
+| Mk 49 Mod 0  |                        |                  |            |
+| Mk 49 Mod 1  |                        |                  |            |
+| Mk 50        |         SR/TR          |                  |            |
