@@ -4,8 +4,14 @@
 
 One of the most accurate and easiest bombing modes to use is Dive Toss.
 
-It requires no specific setup or planning and can hence also be used for targets
-of opportunity. It requires a direct line of sight.
+It only requires direct line of sight and for the correct drag coeficient
+input to the WRCS. By default, you can use most mk80 series of bombs thanks
+to their low drag coeficient.
+
+By default, a 45 degree dive, should see consistent results with the default
+settings, using mk80 series bombs. (Mk82, Mk84, Mk81, mk83)
+
+The bombing calculator, can be used to obtain the correct drag coeficcient.
 
 The pilot flies a dive attack on the target while the WSO obtains accurate
 target range information using the radar. Once the target is designated, the
