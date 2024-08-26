@@ -11206,14 +11206,12 @@ angle.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="accurate-modes"><a class="header" href="#accurate-modes">Accurate Modes</a></h1>
 <h2 id="dive-toss---dt"><a class="header" href="#dive-toss---dt">Dive Toss - DT</a></h2>
 <p>One of the most accurate and easiest bombing modes to use is Dive Toss.</p>
-<p>It requires no specific setup or planning and can hence also be used for targets
-of opportunity. It requires a direct line of sight.</p>
+<p>It requires a direct line of sight and computing the right drag coefficient
+value for the WRCS.</p>
 <p>The pilot flies a dive attack on the target while the WSO obtains accurate
 target range information using the radar. Once the target is designated, the
 pilot simple holds down the Bomb Button and begins to gently pull out of the
 dive. Weapons automatically release at the right moment during the maneuver.</p>
-<p><img src="stores/air_to_ground/bombs/employment/../../../../img/divetoss.jpg" alt="Dive Toss 1" /></p>
-<p><img src="stores/air_to_ground/bombs/employment/../../../../img/divetoss2.jpg" alt="Dive Toss 2" /></p>
 <p>Dive Toss uses the <a href="stores/air_to_ground/bombs/employment/../../../../systems/weapon_systems/wrcs.html">WRCS</a> and
 <a href="stores/air_to_ground/bombs/employment/../../../../systems/radar/overview.html">radar</a> tracking, in conjunction with
 other aircraft sensors, to calculate the release solution in real time. The
@@ -11221,6 +11219,16 @@ target can be approached from any direction, airspeed, and dive angle, and the
 WRCS computes the proper release point relative to the acquired track, munition
 drag coefficient setting, and any release advance control input (in conjunction
 with <a href="stores/air_to_ground/bombs/employment/../../../../systems/weapon_systems/awru.html">AWRU</a> settings).</p>
+<blockquote>
+<p>💡 Since for a lot of dive attack profiles the drag coefficient value barely
+changes (e.g. dropping conventional bombs from medium altitude, high speed and
+steep angles), Dive Toss can be a very forgiving mode that is suitable to be
+used against targets of opportunity with little setup or planning.</p>
+<p>The <a href="stores/air_to_ground/bombs/employment/../../../../dcs/bombing_computer.html">Bombing Calculator Tool</a> can be used
+to compute the appropriate Drag Coefficient value.</p>
+</blockquote>
+<p><img src="stores/air_to_ground/bombs/employment/../../../../img/divetoss.jpg" alt="Dive Toss 1" /></p>
+<p><img src="stores/air_to_ground/bombs/employment/../../../../img/divetoss2.jpg" alt="Dive Toss 2" /></p>
 <h3 id="procedure"><a class="header" href="#procedure">Procedure</a></h3>
 <p>To perform a Dive Toss attack, the
 <a href="stores/air_to_ground/bombs/employment/../../../../systems/radar/overview.html">radar</a> must be set in AIR-GRD mode, with
