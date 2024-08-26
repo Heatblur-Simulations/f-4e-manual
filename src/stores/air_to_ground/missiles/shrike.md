@@ -163,7 +163,7 @@ from. This means some preparation is required prior to flight in order to be pro
 engage the threats effectively. The following seeker heads tables are provided so your missions can
 be planned accordingly.
 
-> 💡 This seeker head data is accurate as of patch 2.9.7.59074
+> 💡 This seeker head data was last updated for 2.9.7.59263.
 
 #### Seeker RF Limit Table
 
@@ -202,7 +202,7 @@ General Key:
 | Mk 37        | FF/RF |  FF  | FF/TR |       |      |       |       |  TR   |       |       |     |
 | Mk 49 Mod 0  | TR/RF |  TR  |  TR   |  TR   | STR  |  CS   | SR/TR |  TR   |       |       |     |
 | Mk 49 Mod 1  | TR/RF |  TR  |  TR   |  TR   | STR  |  CS   | SR/TR |  TR   |       |       |     |
-| Mk 50        | TR/RF |      | TS/TR |       |      |  TS   |       |  TR   |       | SR/TR | DE  |
+| Mk 50        | TR/RF |      | TS/TR |       |      | TS/BB |       |  TR   |       | SR/TR | DE  |
 
 > 💡 The SA-2/3/5 all can use the same Flat Face search radar with the SA-5 having the option of
 > using the Tin Shield as a search radar as well.
