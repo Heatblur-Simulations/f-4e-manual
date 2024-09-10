@@ -11844,16 +11844,60 @@ for configuring head-tracking.</p>
 selection under the cursor.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="navigation"><a class="header" href="#navigation">Navigation</a></h1>
 <p><img src="jester/../img/map_2.jpg" alt="real_life_crew_with_map" /></p>
-<p>Navigation with Jester revolves around managing turn points for two flight plans:
-the Primary Flight Plan and the Secondary Flight Plan. Both can be edited and followed
-by Jester in the same manner, although Primary Flight Plan is considered the main
-one and the Secondary Flight Plan serves as a backup.</p>
+<p>Navigation with Jester revolves around managing turn points for two flight
+plans: the Primary Flight Plan and the Secondary Flight Plan. Both can be edited
+and followed by Jester in the same manner, although Primary Flight Plan is
+considered the main one and the Secondary Flight Plan serves as a backup.</p>
 <h2 id="flight-plan"><a class="header" href="#flight-plan">Flight Plan</a></h2>
-<p>A flight plan consists of multiple turn points. They can be inserted, deleted or
-edited by the player through the UI, map or mission editor.</p>
-<p><img src="jester/../img/jester_nav_edit_turn_points.jpg" alt="Edit Turn Points" /></p>
+<p>A flight plan consists of waypoints. They can be inserted, deleted or edited by
+the player through the UI, map or mission editor.</p>
+<p><img src="jester/../img/jester_nav_edit_turn_points.jpg" alt="Edit Waypoints" /></p>
 <p>If the mission has assigned the aircraft a series of waypoints through the
 mission editor, this will be available by default as the Primary Flight Plan.</p>
+<p>Each waypoint in the flight plan can be designated as one of several special
+types. These designations will influence Jesters actions and the phrases he uses
+as one approach the waypoint. The types are:</p>
+<ul>
+<li><strong>Turn Point (default)</strong>: This is the standard waypoint type. Jester will
+automatically switch to the next waypoint when the aircraft is within 2
+nautical miles (NM) of the turn point, as indicated by his BDHI.</li>
+<li><strong>Nav Fix (VIP - Visual Identification Point)</strong>: Jester will perform an INS
+(Inertial Navigation System) position update when flying over this point. He
+will report the distance to the VIP 10NM and 5NM in advance. Before reaching
+the VIP, Jester will input the necessary coordinates into the Navigation
+Computer, set the Navigation Computer Position Update Switch to FIX, and then
+execute the update when flying over the visual reference point. It is
+important to note that the pilot must fly over the visual reference, not the
+INS-indicated point. Jester will adjust the INS coordinates at the VIP, and
+the success of the fix depends on how accurately the visual flyby matches the
+reference point. Afterward, Jester will report whether the update was
+successful or if the aircraft was too far from the point (in which case the
+flyby must be repeated). Upon a successful fix, Jester will switch to the next
+waypoint.</li>
+<li><strong>Initial Point (IP)</strong>: Jester will report the distance to the IP (15NM, 10NM,
+5NM, and 2NM in advance) and provide a reminder when the aircraft is within
+2NM. Once past the IP, he will switch to the next waypoint.</li>
+<li><strong>Target (TGT)</strong>: Similar to the IP, but with different phrases, suited target
+area. Jester will update the pilot as the aircraft approaches the point (10NM,
+5NM, and 2NM in advance), and switch to the next waypoint once past the
+target.</li>
+<li><strong>Fence In (F-IN)</strong> and <strong>Fence Out (F-OUT)</strong>: These waypoints function
+similarly to the IP and Target types, but with additional tasks.</li>
+<li><strong>Homebase (HB)</strong> and <strong>Alternate (ALT)</strong>: These are designated landing
+points. Jester will not automatically switch to the next waypoint at these
+points, and he will report as the aircraft approaches the Homebase.</li>
+<li><strong>Combat Air Patrol (CAP)</strong> The first waypoint designated as CAP will be saved
+as <em>CAP1</em>, and the second will be saved as <em>CAP2</em>, regardless of their
+positions in the flight plan. Jester will ask how long the pilot intends to
+remain on station at <em>CAP1</em>. He will then cycle between <em>CAP1</em> and <em>CAP2</em>
+until the designated CAP time expires, after which he will switch to the next
+waypoint following <em>CAP2</em> in the flight plan. There can be several
+<em>CAP1</em>-<em>CAP2</em> pairs.</li>
+</ul>
+<blockquote>
+<p>🚧 For <em>Fence In</em> and <em>Fence Out</em>, Jester will later also guide the pilot
+through specific checklists.</p>
+</blockquote>
 <h3 id="map-marker"><a class="header" href="#map-marker">Map Marker</a></h3>
 <p>Using the <kbd>F10</kbd> map view in DCS, players can create named markers on
 the map simply by double clicking the desired position after selecting <strong>Mark
@@ -11863,7 +11907,8 @@ Label</strong> at the top row in the UI.</p>
 flight plan.</p>
 <p><img src="jester/../img/jester_nav_map_markers_ui.jpg" alt="Select Map Marker" /></p>
 <h3 id="tune-asset"><a class="header" href="#tune-asset">Tune Asset</a></h3>
-<p>The UI offers a list of nearby assets, such as ships, tankers or ground stations.</p>
+<p>The UI offers a list of nearby assets, such as ships, tankers or ground
+stations.</p>
 <p>Their current position can be imported as turn point directly.</p>
 <blockquote>
 <p>💡 For moving assets like tankers, their actual position might vary from the
@@ -11911,8 +11956,8 @@ unplanned turn point using <strong>TGT 1</strong>.</p>
 <p>An active flight plan is indicated by the UI using an asterisk <code>*</code> next to the
 current turn point.</p>
 <p>Automatic turn point switching can be temporarily disabled per turn point using
-the <strong>Holding</strong> option. Turn points designated for holding are marked
-with a <code>h</code>.</p>
+the <strong>Holding</strong> option. Turn points designated for holding are marked with a
+<code>h</code>.</p>
 <p><img src="jester/../img/jester_nav_resume_flightplan.jpg" alt="Turn Point Modifiers" /></p>
 <p><img src="jester/../img/jester_nav_holding.jpg" alt="Turn Point Holding" /></p>
 <p>When a flight plan has been paused, for example, because the pilot diverted to a
@@ -15536,9 +15581,8 @@ movement.</p>
 <p>The F-4 has several special options selectable in the Mission Editor.</p>
 <p><img src="dcs/../img/mission_editor_special_options.jpg" alt="Special Options" /></p>
 <h2 id="condition-and-wear"><a class="header" href="#condition-and-wear">Condition and Wear</a></h2>
-<p><em>"And I'll tell you what, since Cal's on it,
-it's only flown on approved cross-countries and drill weekends.
-Mint condition, folks, no over-Gs."</em></p>
+<p><em>"And I'll tell you what, since Cal's on it, it's only flown on approved
+cross-countries and drill weekends. Mint condition, folks, no over-Gs."</em></p>
 <p>All components of the aircraft simulate wear individually, yielding a unique
 experience on each spawn, but also based on how the F-4 is flown.</p>
 <p>It is generally differentiated between <strong>Condition</strong> and the <strong>Wear and Tear</strong>,
@@ -15594,8 +15638,8 @@ which pilots are forced to fly an aircraft that operates exceptionally below its
 expected performance level. It is still somewhat usable, nothing is straight out
 broken, but components just do not behave within acceptable parameters anymore.</p>
 <blockquote>
-<p>💡 Values beyond 100% cannot be set in the Mission Editor,
-but are achievable in-flight.</p>
+<p>💡 Values beyond 100% cannot be set in the Mission Editor, but are achievable
+in-flight.</p>
 </blockquote>
 <p>For the Pave Spike motor this means that, when set to 100% wear, its speed
 variance σ will additionally increase by 20%. Assuming a good initial starting
@@ -15671,6 +15715,24 @@ are provided for mission triggers:</p>
 </tbody></table>
 </div>
 <p><img src="dcs/../img/me_freq_triggers.jpg" alt="UHF Parameters" /></p>
+<h2 id="flight-plan-preparation"><a class="header" href="#flight-plan-preparation">Flight Plan Preparation</a></h2>
+<p>The waypoints set in the Mission Editor will automatically be loaded into
+Jesters Primary Flight Plan. Special waypoint types can be assigned by adding
+specific capitalized phrases to the waypoint's name field. Recognized phrases
+are:</p>
+<ul>
+<li><strong>VIP</strong> (Nav Fix)</li>
+<li><strong>IP</strong></li>
+<li><strong>TGT</strong> (Target)</li>
+<li><strong>F-IN</strong> (Fence In)</li>
+<li><strong>F-OUT</strong> (Fence Out)</li>
+<li><strong>HB</strong> (Homebase)</li>
+<li><strong>ALT</strong> (Alternate)</li>
+<li><strong>CAP</strong></li>
+</ul>
+<p><img src="dcs/../img/me_waypoints_defining.jpg" alt="TGT Waypoint" /></p>
+<p>See <a href="dcs/../jester/navigation.html#flight-plan">5.2. Jester Navigation</a> for details on
+how these waypoint types influence Jesters behavior.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="training-missions"><a class="header" href="#training-missions">Training Missions</a></h1>
 <h2 id="lessons"><a class="header" href="#lessons">Lessons</a></h2>
 <p>These missions, we like to call them "lessons", have been designed in such a way that, as a
