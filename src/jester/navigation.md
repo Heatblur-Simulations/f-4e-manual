@@ -17,6 +17,41 @@ edited by the player through the UI, map or mission editor.
 If the mission has assigned the aircraft a series of waypoints through the
 mission editor, this will be available by default as the Primary Flight Plan.
 
+Each turn point in the flight plan can be designated as one of several special
+types. These designations will influence Jester's actions and the phrases he uses
+as you approach the waypoint. The types are:
+
+- **Default (Turn Point)** This is the standard waypoint type. Jester will
+  automatically switch to the next waypoint when the aircraft is within 2 nautical
+  miles (NM) of the turn point, as indicated by his BDHI.
+- **Nav Fix (VIP - Visual Identification Point)** Jester will perform an INS
+  (Inertial Navigation System) position update when flying over this point. He will
+  report the distance to the VIP 10NM and 5NM in advance. Before reaching the VIP,
+  Jester will input the necessary coordinates into the Navigation Computer, set the
+  Navigation Computer Position Update Switch to FIX, and then execute the update when
+  flying over the visual reference point. It is important to note that you must fly over
+  the visual reference, not the INS-indicated point. Jester will adjust the INS coordinates
+  at the VIP, and the success of the fix depends on how accurately the visual flyby matches
+  the reference point. Afterward, Jester will report whether the update was successful
+  or if the aircraft was too far from the point (in which case the flyby must be repeated).
+  Upon a successful fix, Jester will switch to the next waypoint.
+- **IP (Initial Point)** Jester will report the distance to the IP
+  (15NM, 10NM, 5NM, and 2NM in advance) and provide a reminder when the aircraft is within 2NM.
+  Once past the IP, he will switch to the next waypoint.
+- **Target** Similar to the IP, but with different phrases, suited target area.
+  Jester will update you as you approach (10NM, 5NM, and 2NM in advance),
+  and switch to the next waypoint once past the target.
+- **Fence In** and **Fence Out** These waypoints function similarly to the IP and Target types,
+  but with additional tasks. Later, a checklist for operations at these points will be added.  
+- **Homebase** and **Alternate** These are designated landing points. Jester will
+  not automaticallyswitch to the next waypoint at these points,
+  and he will report as the aircraft approaches Homebese.
+- **CAP (Combat Air Patrol)** The first waypoint designated as CAP will be saved as CAP1,
+  and the second will be saved as CAP2, regardless of their positions in the flight plan.
+  Jester will ask how long you intend to remain on station at CAP1. He will then cycle
+  between CAP1 and CAP2 until the designated CAP time expires, after which he will switch
+  to the next waypoint following CAP2 in the flight plan.
+
 ### Map Marker
 
 Using the <kbd>F10</kbd> map view in DCS, players can create named markers on
