@@ -6,9 +6,8 @@ The F-4 has several special options selectable in the Mission Editor.
 
 ## Condition and Wear
 
-_"And I'll tell you what, since Cal's on it,
-it's only flown on approved cross-countries and drill weekends.
-Mint condition, folks, no over-Gs."_
+_"And I'll tell you what, since Cal's on it, it's only flown on approved
+cross-countries and drill weekends. Mint condition, folks, no over-Gs."_
 
 All components of the aircraft simulate wear individually, yielding a unique
 experience on each spawn, but also based on how the F-4 is flown.
@@ -77,8 +76,8 @@ which pilots are forced to fly an aircraft that operates exceptionally below its
 expected performance level. It is still somewhat usable, nothing is straight out
 broken, but components just do not behave within acceptable parameters anymore.
 
-> 💡 Values beyond 100% cannot be set in the Mission Editor,
-> but are achievable in-flight.
+> 💡 Values beyond 100% cannot be set in the Mission Editor, but are achievable
+> in-flight.
 
 For the Pave Spike motor this means that, when set to 100% wear, its speed
 variance σ will additionally increase by 20%. Assuming a good initial starting
@@ -190,9 +189,10 @@ are provided for mission triggers:
 
 ## Flight Plan Preparation
 
-The waypoints set in the Mission Editor will automatically be loaded into Jester's
-Primary Flight Plan. You can assign special waypoint types directly in the Mission Editor
-by adding specific capitalized phrases to the waypoint's name field:
+The waypoints set in the Mission Editor will automatically be loaded into
+Jesters Primary Flight Plan. Special waypoint types can be assigned by adding
+specific capitalized phrases to the waypoint's name field. Recognized phrases
+are:
 
 - **VIP** (Nav Fix)
 - **IP**
@@ -203,4 +203,7 @@ by adding specific capitalized phrases to the waypoint's name field:
 - **ALT** (Alternate)
 - **CAP**
 
-![Waypoint ME Definition](../img/me_waypoints_defining.jpg)
+![TGT Waypoint](../img/me_waypoints_defining.jpg)
+
+See [5.2. Jester Navigation](../jester/navigation.md#flight-plan) for details on
+how these waypoint types influence Jesters behavior.
