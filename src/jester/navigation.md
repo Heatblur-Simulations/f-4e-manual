@@ -50,7 +50,7 @@ as you approach the waypoint. The types are:
   and the second will be saved as CAP2, regardless of their positions in the flight plan.
   Jester will ask how long you intend to remain on station at CAP1. He will then cycle
   between CAP1 and CAP2 until the designated CAP time expires, after which he will switch
-  to the next waypoint following CAP2 in the flight plan.
+  to the next waypoint following CAP2 in the flight plan. There can be several CAP1-CAP2 pairs.
 
 ### Map Marker
 
