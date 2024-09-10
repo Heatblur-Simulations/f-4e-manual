@@ -187,3 +187,20 @@ are provided for mission triggers:
 | `AUX_FREQ`  | Aux frequency in MHz  |
 
 ![UHF Parameters](../img/me_freq_triggers.jpg)
+
+## Flight Plan Preparation
+
+The waypoints set in the Mission Editor will automatically be loaded into Jester's
+Primary Flight Plan. You can assign special waypoint types directly in the Mission Editor
+by adding specific capitalized phrases to the waypoint's name field:
+
+- **VIP** (Nav Fix)
+- **IP**
+- **TGT** (Target)
+- **F-IN** (Fence In)
+- **F-OUT** (Fence Out)
+- **HB** (Homebase)
+- **ALT** (Alternate)
+- **CAP**
+
+![Waypoint ME Definition](../img/me_waypoints_defining.jpg)
