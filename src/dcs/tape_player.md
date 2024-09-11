@@ -56,3 +56,8 @@ Note that it is necessary for DCS that each song is also set up as a
 To add your own songs, simply put them into the above folder and create the
 corresponding SDEF file. Make sure to restart DCS, as sounds are loaded during
 start of the game.
+
+> 💡 If you have trouble getting a custom song to work, try out the file format
+> **OGG** for the sound file. Also make sure the file names do not contain any
+> special Unicode characters, such as `·` or `你好`, DCS tends to crash on
+> those.
