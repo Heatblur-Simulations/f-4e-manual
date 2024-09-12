@@ -46,7 +46,7 @@ A/G mode, and enter a depression of **17 mils**, so that the sight alignment be
 that of the missile seeker. This way, the pilot can put the target on the pipper
 and it will be within the weapons view.
 
-After the warmup either bomb is released by, selecting the corresponding
+After the warmup, either bomb is released by selecting the corresponding
 stations, putting the Weapon Selector to TV and the Delivery Mode Knob to
 DIRECT.
 
