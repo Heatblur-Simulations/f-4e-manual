@@ -2,10 +2,13 @@
 
 ![DSCG Controls](../../img/pilot_dscg_overview.jpg)
 
-The Digital Scan Converter Group (DSCG) refers to the screen used to display radar data
-and video feed of TV weapons or targeting pods.
-The DSCG replaces the Direct View Storage Tube radar scopes which could not
-interact with the digital interfaces.
+The Digital Scan Converter Group (DSCG) refers to the screen used to display
+radar data and video feed of TV weapons or targeting pods. The DSCG replaces the
+Direct View Storage Tube radar scopes which could not interact with the digital
+interfaces.
+
+> 💡 The selector for the video source is found on the
+> [Pedestal Group](pedestal_group.md#screen-source-switch).
 
 ## Reticle Intensity/Scale Knob
 

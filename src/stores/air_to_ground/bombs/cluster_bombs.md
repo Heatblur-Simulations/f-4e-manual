@@ -2,14 +2,15 @@
 
 Available cluster bombs are:
 
-| Variant  | Sub-Munition | Amount | Description      |
-| -------- | ------------ | -----: | ---------------- |
-| Mk-20    | Mk 118       |    247 | HEAT             |
-| CBU-52B  | BLU-61A/B    |    220 | HE               |
-| CBU-87   | BLU-97/B     |    202 | Combined Effects |
-| CBU-1A/A | BLU-4B       |    513 | HE               |
-| CBU-2/A  | BLU-3        |    361 | HE               |
-| CBU-2B/A | BLU-3B       |    418 | HE               |
+| Variant  | Sub-Munition | Amount | Description               |
+| -------- | ------------ | -----: | ------------------------- |
+| Mk-20    | Mk 118       |    247 | HEAT                      |
+| CBU-52B  | BLU-61A/B    |    220 | HE                        |
+| CBU-87   | BLU-97/B     |    202 | Combined Effects          |
+| CBU-1A/A | BLU-4B       |    513 | HE                        |
+| CBU-2/A  | BLU-3        |    361 | HE                        |
+| CBU-2B/A | BLU-3B       |    418 | HE                        |
+| BL-755   | Mk 1         |    147 | HEAT, used by german F-4F |
 
 ## Mk 20 Rockeye
 
@@ -53,6 +54,18 @@ velocity fragments in a radial pattern.
 In the case of the CBU-2/A and CBU-2B/A, the carried BLU-3 bomblets are loaded
 with steel balls suitable even for unarmored vehicles. The CBU-1A/A, carrying
 BLU-4B bomblets, is loaded with anti-personnel shrapnel material.
+
+## BL-755
+
+![BL-755](../../../img/bl_755.jpg)
+
+Cluster bomb divided into 7 bays, each containing 21 submunitions equipped with
+a shaped charge HEAT warhead for armor penetration.
+
+After release, submunitions are dispensed and scattered using an inflatable bag.
+
+The weapon was used extensively during the Falklands War by the Royal Air Force.
+It was also used by the German Air Force, including the F-4F.
 
 ## Employment
 

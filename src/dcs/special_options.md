@@ -70,7 +70,7 @@ will temporarily disable the pitch attitude hold as well altitude hold.
 
 Default values are 1% for roll and 2% for pitch.
 
-> 💡 To check wheter the breakout is currently activated you can use the
+> 💡 To check whether the breakout is currently activated you can use the
 > controls indicator and look for the text below it.
 
 For more info see
@@ -86,7 +86,7 @@ between 0% and 80% of your physical throttle, while the remaining 20% will
 control the afterburner range.
 
 The deadzone option can be used to split the points in the range at which the
-afterburner will be turned on and off. For example, setting 2% for the deadzone
+afterburner will be turned on and off. For example, setting 20‰ for the deadzone
 and 80% for the detent results in afterburner activation at 82% and deactivation
 at 78% of throttle input.
 
@@ -122,8 +122,8 @@ UI is displayed properly.
 
 ### Offset
 
-Allows to horizontally displace the UI. Positive values shift it to the right,
-negative values to the left.
+Allows to displace the UI horizontally and vertically. Positive values shift it
+to the right or down, negative values to the left or up.
 
 Normally, this should be kept at the default value of 0 px. However, in certain
 cases (e.g. when using VR and setting it to render on the LEFT or RIGHT eye,

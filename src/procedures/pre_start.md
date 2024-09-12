@@ -111,7 +111,7 @@ Takes roughly 2 minutes 15 seconds.
 |      | d. Communication Volume control knob                    | AS DESIRED           |
 |      | e. Auxiliary channel control knob                       | AS REQUIRED          |
 |      | f. Auxiliary volume control knob                        | AS DESIRED           |
-|      | g. COMM-AUX Pushbutton                                  | TR + G - ADF         |
+|      | g. COMM function selector knob                          | TR + G - ADF         |
 |      | h. Navigation volume control knobs                      | AS REQUIRED          |
 |      | i. TACAN function selector knob                         | OFF                  |
 |      | j. Communication command button                         | AS DESIRED           |
@@ -124,42 +124,42 @@ Takes roughly 2 minutes 15 seconds.
 |      | c. Function selector switch                             | HOT MIC              |
 | 8.   | Emergency gear handle                                   | IN AND SECURE        |
 | 9.   | Emergency brake handle                                  | IN AND SECURE        |
-| 10.  | Slats flaps position indicators                         | GEAR DOWN INDICATION |
-| 11.  | Canopy emergency jettison handle                        | FORWARD              |
-| 12.  | Radar scope                                             | SECURE               |
-| 13.  | Attitude indicator                                      | CHECK AND SET⚡       |
+| 10.  | Slats flaps position indicators                         | IN AND UP INDICATION |
+| 11.  | Gear position indicators                                | GEAR DOWN INDICATION |
+| 12.  | Canopy emergency jettison handle                        | FORWARD              |
+| 13.  | Radar scope                                             | SECURE               |
+| 14.  | Attitude indicator                                      | CHECK AND SET⚡       |
 |      | a. Rotate pitch trim knob to check travel (-10° to +5°) |                      |
 |      | b. Set horizon bar level with miniature aircraft        |                      |
-| 14.  | Clock                                                   | WIND AND SET         |
-| 15.  | Accelerometer                                           | SET                  |
-| 16.  | Navigation function selector switch                     | AS DESIRED           |
-| 17.  | Digital display indicator lamp button                   | PRESS                |
-| 18.  | Navigational computer set control lamp button           | PRESS                |
-| 19.  | KY-28 power selector knob                               | OFF                  |
-| 20.  | KY-28 mode selector                                     | P                    |
-| 21.  | Canopy manual unlock handle                             | FORWARD              |
-| 22.  | Aural tone                                              | AS REQUIRED          |
-| 23.  | Cockpit lights control knob                             | AS REQUIRED          |
+| 15.  | Clock                                                   | WIND AND SET         |
+| 16.  | Accelerometer                                           | SET                  |
+| 17.  | Navigation computer function selector knob              | AS DESIRED           |
+| 18.  | KY-28 power selector knob                               | OFF                  |
+| 19.  | KY-28 mode selector                                     | P                    |
+| 20.  | Canopy manual unlock handle                             | FORWARD              |
+| 21.  | Aural tone                                              | AS REQUIRED          |
+| 22.  | Cockpit lights control knob                             | AS REQUIRED          |
 |      | a. White floodlight switch                              | OFF                  |
 |      | b. Instrument panel lights control knob                 | AS REQUIRED          |
 |      | c. Console lights control knob                          | AS REQUIRED          |
 |      | d. Standby compass light switch                         | AS REQUIRED          |
 |      | e. Console floodlight switch                            | AS REQUIRED          |
 |      | f. Indexer lights control knob                          | AS REQUIRED          |
-| 24.  | Warning and indicator lights                            | TEST⚡                |
-| 25.  | Intercom system                                         | CHECK                |
-| 26.  | Oxygen quantity gage                                    | CHECK⚡               |
+| 23.  | Warning and indicator lights                            | TEST⚡                |
+| 24.  | Intercom system                                         | CHECK                |
+| 25.  | Oxygen quantity gage                                    | CHECK⚡               |
 |      | Check quantity sufficient and OFF flag not visible.     |                      |
-| 27.  | Oxygen supply system                                    | CHECK AND SET        |
+| 26.  | Oxygen supply system                                    | CHECK AND SET        |
+| 27.  | RWR Systems                                             | CHECK THEN OFF⚡      |
 
 ## Pilot
 
-### Before Interior Inspection (Pilot)
+### Before Interior Check (Pilot)
 
 | Step | System                                                                                                                                                         | Action                                        |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | 1.   | Helmet                                                                                                                                                         | PUT ON                                        |
-| 2.   | Lower ejection handle guard                                                                                                                                    | UP (not applicable)                             |
+| 2.   | Lower ejection handle guard                                                                                                                                    | UP (not applicable)                           |
 | 3.   | Generator switches                                                                                                                                             | OFF                                           |
 | 4.   | AN/ALE-40 flare select switch                                                                                                                                  | NORMAL                                        |
 | 5.   | Internal wing dump switch                                                                                                                                      | NORM                                          |
@@ -184,7 +184,7 @@ Takes roughly 2 minutes 15 seconds.
 | 23.  | Transformer-rectifier                                                                                                                                          | CHECK ⚡                                       |
 |      | Both transformer-rectifiers operating if the landing gear indicators indicate gear down with the Engine master switches OFF and the generator switches in EXT. |                                               |
 
-### Interior Inspection (Pilot)
+### Interior Check (Pilot)
 
 | Step | System                                                                                                                                                                                                                                              | Action                                    |
 |------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|
@@ -250,7 +250,7 @@ Takes roughly 2 minutes 15 seconds.
 | 31.  | Film magazine/dust cover                                                                                                                                                                                                                            | SECURE                                    |
 | 32.  | ADI                                                                                                                                                                                                                                                 | CHECK AND SET⚡                            |
 |      | a. Rotate pitch trim knob to check travel (-10° +5° minimum)                                                                                                                                                                                        |                                           |
-|      | b. Set horizon bar level with miniature Aircraft                                                                                                                                                                                                    |                                           |
+|      | b. Set horizon bar level with miniature aircraft                                                                                                                                                                                                    |                                           |
 | 33.  | Emergency attitude Indicator                                                                                                                                                                                                                        | CHECK                                     |
 |      | a. Cage and do not lock                                                                                                                                                                                                                             |                                           |
 |      | b. Set miniature aircraft level with horizon bar                                                                                                                                                                                                    |                                           |
@@ -267,7 +267,7 @@ Takes roughly 2 minutes 15 seconds.
 |      | d. Communication Volume control knob                                                                                                                                                                                                                | AS DESIRED                                |
 |      | e. Auxiliary channel control knob                                                                                                                                                                                                                   | AS REQUIRED                               |
 |      | f. Auxiliary volume control knob                                                                                                                                                                                                                    | AS DESIRED                                |
-|      | g. COMM-AUX Pushbutton                                                                                                                                                                                                                              | TR + G - ADF                              |
+|      | g. COMM function selector knob                                                                                                                                                                                                                              | TR + G - ADF                              |
 |      | h. Navigation volume control knobs                                                                                                                                                                                                                  | AS REQUIRED                               |
 |      | i. TACAN function selector knob                                                                                                                                                                                                                     | OFF                                       |
 |      | j. Communication command button                                                                                                                                                                                                                     | AS DESIRED                                |
@@ -311,5 +311,5 @@ Takes roughly 2 minutes 15 seconds.
 | 56.  | Oxygen quantity gage                                                                                                                                                                                                                                | CHECK (Cannot be done with battery start) |
 |      | Check quantity sufficient, OFF flag not visible, OXYGEN LOW light extinguished. Press oxygen test button and check OXYGEN LOW light and MASTER CAUTION light illuminate at 1 litre. Notify rear crewmember, if applicable that test is in progress. |                                           |
 | 57.  | Oxygen supply system                                                                                                                                                                                                                                | CHECK AND SET                             |
-
-<!-- APU system - CHECK (Cannot be done with battery start) -->
+| 58.  | RWR Systems                                                                                                                                                                                                                                         | CHECK THEN OFF⚡                           |
+| 59.  | Eject light                                                                                                                                                                                                                                         | CHECK                                     |

@@ -19,12 +19,12 @@ member can direct the final intended contrast target.
 
 Available variants include:
 
-| Variant | Warhead | Description                             |
-| ------- | ------: | --------------------------------------- |
-| A       |  462 lb | TV-Guided                               |
-| B       |  462 lb | TV-Guided with a narrower FOV than A    |
-| D       |  485 lb | IR-Guided                               |
-| G       |  675 lb | IR-Guided, optimized for larger targets |
+| Variant | Warhead | Field Of View | Description                             |
+| ------- | ------: | ------------- | --------------------------------------- |
+| A       |  462 lb | Wide          | TV-Guided                               |
+| B       |  462 lb | Narrow        | TV-Guided                               |
+| D       |  485 lb | Wide & Narrow | IR-Guided                               |
+| G       |  675 lb | Wide & Narrow | IR-Guided, optimized for larger targets |
 
 ## Employment
 

@@ -126,7 +126,7 @@ crossfire tubes. Pressing the ignition button causes the spark plugs to discharg
 fuel-air mixture as the throttle is moved from OFF to IDLE during engine start. The spark plugs only
 fire while the spring-loaded ignition button is held.
 
-### Afterburner Ingition System
+### Afterburner Ignition System
 
 The afterburner ignition system consists of the torch igniter, a spark plug and an afterburner
 ignition switch. When the throttle is moved into the afterburner detent, the afterburner ignition

@@ -24,6 +24,14 @@ Pod for electronic countermeasures, such as jamming radars and radar
 guided missiles. See the
 [ECM section](../systems/defensive_systems/ecm.md) for more.
 
+## AN/ASQ-T50 TCTS ACMI Pod
+
+![acmi_pod](../img/acmi_pod.jpg)
+
+Pod used to record in-flight data for training and later analysis.
+
+> 🚧 The pod is currently visual only and has no function.
+
 ## ALE-40 Dispenser
 
 ![cm_dispenser](../img/cm_dispenser.jpg)

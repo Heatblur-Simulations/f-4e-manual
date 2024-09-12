@@ -90,7 +90,7 @@ relevant switches.
 - **Trim Controls** _(4 + 2)_
 - Landing Gear
 - Flaps/Slats _(Norm, Out, Out & Down)_
-- Airbrake _(Out, Stop, In)_
+- Speed Brake _(Out, Stop, In)_
 - Eject
 - **Nose Gear Steering / Auto Acquisition Button**
 - **Drag Chute** _(Deploy, Cut)_
