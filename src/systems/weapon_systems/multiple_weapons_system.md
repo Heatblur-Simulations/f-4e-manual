@@ -14,18 +14,19 @@ front cockpit.
 Beginning from the top of the panel, the four way Nose/Tail ARM switch selects
 the solenoids for arming wire capture on MERs and TERs, which then arm the fuzes
 at the point of release. Additionally, the switch position can also dictate
-in-flight high/low drag release mode for retarded bombs such as the [Mk 82
-Snakeye](../../stores/air_to_ground/bombs/conventional_bombs.md).
+in-flight high/low drag release mode for retarded bombs such as the
+[Mk 82 Snakeye](../../stores/air_to_ground/bombs/conventional_bombs.md).
 
 | Name      | Description                                                                       |
-|-----------|-----------------------------------------------------------------------------------|
+| --------- | --------------------------------------------------------------------------------- |
 | SAFE      | No arming solenoids activate; bombs release without fuzing enabled.               |
 | NOSE      | Forward and center position solenoids activate to hold arming lanyards.           |
 | TAIL      | Aft position solenoids activate to hold arming lanyards.                          |
 | NOSE/TAIL | Forward, center, and aft position solenoids all activate to hold arming lanyards. |
 
-For example, MK-82 Air or Snakeye variants will only detonate if the nose fuze is selected and
-switch between high drag configuration with the tail fuze set and low drag if not set.
+For example, MK-82 Air or Snakeye variants will only detonate if the nose fuze
+is selected and switch between high drag configuration with the tail fuze set
+and low drag if not set.
 
 MER-10 and TER-9 racks include an automatic stepper mode function to
 automatically bypass stations that have already released munitions. To set this
@@ -42,34 +43,33 @@ RKTS and DISP bypass empty stations automatically.
 
 ![pilot_station_select_buttons](../../img/pilot_station_select_buttons.jpg)
 
-With the station select buttons it is possible to select the different armaments on the respective
-stations. This does not constitute air-to-air weaponry.
+With the station select buttons it is possible to select the different armaments
+on the respective stations. This does not constitute air-to-air weaponry.
 
 ## Mode Selection - Delivery Mode Knob
 
 ![pilot_delivery_mode_knob](../../img/pilot_delivery_mode_knob.jpg)
 
 Release mode is set using the Delivery Mode Knob. Values to the left of OFF
-employ the AN/AJB-7 Attitude Reference and Bombing Computer
-Set ([ARBCS](../../systems/weapon_systems/arbcs.md)),
-whereas
-values to the right of DIRECT employ the Weapon Release Computer
-Set ([WRCS](../../systems/weapon_systems/arbcs.md)).
-DIRECT is the manual release mode. TGT FIND functions as a navigational mode,
-and cannot provide a weapon release signal to the fire control, thus can be
-considered in practice a "safe" position.
+employ the AN/AJB-7 Attitude Reference and Bombing Computer Set
+([ARBCS](../../systems/weapon_systems/arbcs.md)), whereas values to the right of
+DIRECT employ the Weapon Release Computer Set
+([WRCS](../../systems/weapon_systems/arbcs.md)). DIRECT is the manual release
+mode. TGT FIND functions as a navigational mode, and cannot provide a weapon
+release signal to the fire control, thus can be considered in practice a "safe"
+position.
 
 The values, clockwise from the left, are as follows:
 
-| Name     | Description                                                            | System                                                                                        |
-|----------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| Name     | Description                                                            | System                                         |
+| -------- | ---------------------------------------------------------------------- | ---------------------------------------------- |
 | INST O/S | Instantaneous Over the Shoulder                                        | [ARBCS](../../systems/weapon_systems/arbcs.md) |
 | LOFT     | Loft                                                                   | [ARBCS](../../systems/weapon_systems/arbcs.md) |
 | O/S      | (Timed) Over the Shoulder                                              | [ARBCS](../../systems/weapon_systems/arbcs.md) |
 | T LAD    | Timed LADD (Low Angle Drogue Delivery)                                 | [ARBCS](../../systems/weapon_systems/arbcs.md) |
 | TL       | Timed Level                                                            | [ARBCS](../../systems/weapon_systems/arbcs.md) |
-| OFF      | Off                                                                    |                                                                                               |
-| DIRECT   | Manual                                                                 |                                                                                               |
+| OFF      | Off                                                                    |                                                |
+| DIRECT   | Manual                                                                 |                                                |
 | TGT FIND | Target Find (Navigation and [Pave Spike](pave_spike/overview.md) only) | [WRCS](../../systems/weapon_systems/wrcs.md)   |
 | DT       | Dive Toss                                                              | [WRCS](../../systems/weapon_systems/wrcs.md)   |
 | DL       | Dive Laydown                                                           | [WRCS](../../systems/weapon_systems/wrcs.md)   |
@@ -98,23 +98,25 @@ The Weapon Selector Knob is used to designate the type of weapon to be used
 
 ![pilot_centerline_tank_aboard](../../img/pilot_centerline_tank_aboard_light.jpg)
 
-The [forward AIM-7 missiles](../../stores/air_to_air/aim_7.md)
-can be
-inhibited from launch under certain centerline
-conditions due to possible separation issues or chance of igniting the contents
-of the centerline position. The CL tank light will illuminate if such a possible
-condition exists. The conditions that can cause this are as follows:
+The [forward AIM-7 missiles](../../stores/air_to_air/aim_7.md) can be inhibited
+from launch under certain centerline conditions due to possible separation
+issues or chance of igniting the contents of the centerline position. The CL
+tank light will illuminate if such a possible condition exists. The conditions
+that can cause this are as follows:
 
-1. Fuel Tank or MER; the forward Sparrows cannot be launched. The CL tank light
-   will shut off if the tank or MER is jettisoned, allowing launch or jettison.
+1. Fuel Tank, MER or TER racks: The forward Sparrows cannot be launched. The CL
+   tank light will shut off if the tank or MER is jettisoned, allowing launch or
+   jettison of the Sparrows.
 
-2. BRU-5/A with single bomb; the CL tank light will illuminate. Forward position
-   Sparrows can be launched or jettisoned; however, attention should be paid to
-   eliminate lateral roll movements until the launched weapon is clear.
+2. BRU-5/A connector with a single bomb or a gun-pod: The CL tank light will
+   illuminate; however forward position Sparrows can still be launched or
+   jettisoned. Attention should be paid to eliminate lateral roll movements
+   until the launched weapon is clear.
 
-3. Aero-27/A with Centerline Arming Unit. The CL tank light will illuminate;
-   however, the forward position AIM-7s cannot be jettisoned or released until
-   this is removed post-flight.
+3. Aero-27/A connector with Centerline Arming Unit (used for nuclear ordnance):
+   The CL tank light will illuminate. However, the forward position AIM-7s
+   cannot be jettisoned or released until the entire unit is removed manually
+   post-flight.
 
 ## Interlock Switch
 
