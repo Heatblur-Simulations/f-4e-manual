@@ -301,3 +301,10 @@ selected a ship symbol will be displayed in the lower half of azimuth.
 | ![rwr_u_one_dot_symbol.jpg](../../img/rwr_u_one_dot_symbol.jpg)         | Unknown (Low band)                                                                                                                                      |
 | ![rwr_u_two_dot_symbol.jpg](../../img/rwr_u_two_dot_symbol.jpg)         | Unknown (Medium band)                                                                                                                                   |
 | ![rwr_u_three_dot_symbol.jpg](../../img/rwr_u_three_dot_symbol.jpg)     | Unknown (High band)                                                                                                                                     |
+
+### Missiles
+
+| Symbol                                                                  | Possible threat                                                                        |
+|-------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| ![rwr_corr_msl.jpg](../../img/rwr_corr_msl.jpg)                   | correlated missile                                                                              |
+| ![rwr_uncorr_msl.jpg](../../img/rwr_uncorr_msl.jpg)                     | uncorrelated missile |

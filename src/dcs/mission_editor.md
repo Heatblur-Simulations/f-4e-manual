@@ -181,7 +181,7 @@ Also, radio frequency parameters to read currently active UHF Radio frequencies
 are provided for mission triggers:
 
 | Parameter   | Description           |
-| ----------- | --------------------- |
+|-------------|-----------------------|
 | `COMM_FREQ` | Comm frequency in MHz |
 | `AUX_FREQ`  | Aux frequency in MHz  |
 
@@ -207,3 +207,117 @@ are:
 
 See [5.2. Jester Navigation](../jester/navigation.md#flight-plan) for details on
 how these waypoint types influence Jesters behavior.
+
+## SetCommands
+
+The F-4E features a list of set commands that can be used by mission makers. All commands are
+executed silently as in Jester will neither deny nor confirm any commands. The SetCommands with
+the Command ID, name and Values can be found in the table below:
+
+| Command ID | Name                        | Value                          |
+|------------|-----------------------------|--------------------------------|
+| 20010      | Jester_silent               | 0-1                            |
+| 20011      | Jester_pause                | 0-1                            |
+| 20015      | Jester_tune_ARC_164_channel | 0.XX                           |
+| 20016      | Jester_tune_TACAN_channel   | s0.XXXY                        |
+| 20017      | Jester_deviate_to_tgt_zone  | 0.XX                           |
+| 20018      | Jester_add_wpt_after        | 0.TTXXY                        |
+| 20020      | Jester_resume_flightplan    | 0.XXY                          |
+| 20021      | Jester_designate_wpt        | 0.DXXY                         |
+| 20022      | Jester_set_cap_time         | 0.XX                           |
+| 20023      | Jester_eject_WSO            | 0-1                            |
+| 20025      | Jester_unlock_tgt           | 0-1                            |
+| 20026      | Jester_radar_power          | 0.00 - 1.00 in 0.2 increments  |
+| 20027      | Jester_radar_polar          | 0-1                            |
+| 20028      | Jester_radar_range          | 0.00 - 1.00 in 0.2 increments  |
+| 20029      | Jester_radar_maneuver       | 0-1                            |
+| 20030      | Jester_radar_scan           | 0-1                            |
+| 20031      | Jester_radar_aspect         | 0.00 - 1.00 in 0.2 increments  |
+| 20032      | Jester_radar_rcvr_fine      | 0.00 - 1.00                    |
+| 20033      | Jester_radar_rcvr_coarse    | 0.00 - 1.00                    |
+| 20034      | Jester_radar_track          | 0.00 - 1.00 in 0.33 increments |
+| 20035      | Jester_radar_display        | 0.00 - 1.00 in 0.2 increments  |
+| 20036      | Jester_radar_man_vc         | 0.00 - 1.00 in 0.1 increments  |
+| 20037      | Jester_radar_pulse          | 0-1                            |
+| 20038      | Jester_radar_mode           | 0.00 - 1.00 in 0.2 increments  |
+| 20039      | Jester_dispense             | 0-1                            |
+| 20040      | Jester_air_to_air           | 0-1                            |
+| 20041      | Jester_video_select         | 0-1                            |
+| 20042      | Jester_context_short        | 0-1                            |
+| 20043      | Jester_context_long         | 0-1                            |
+| 20044      | Jester_context_double       | 0-1                            |
+| 20045      | Jester_set_laser_code       | 0.XXXX                         |
+| 20046      | Jester_set_wrcs_drag        | 0.XXX                          |
+| 20047      | Jester_set_wrcs_alt_range   | 0.XXX                          |
+| 20048      | Jester_set_wrcs_ew_dist     | s0.XXX                         |
+| 20049      | Jester_set_wrcs_ns_dist     | s0.XXX                         |
+| 20050      | Jester_set_wrcs_advance     | 0.XXX                          |
+| 20051      | Jester_set_wrcs_range       | 0.XXX                          |
+
+### Usage of SetCommands
+
+This chapter will explain the use of the different SetCommands that have more complex values.
+
+#### Jester_tune_ARC_164_channel
+
+The value follows the format "0.XX," where "XX" is the two-digit channel number.
+
+#### Jester_tune_TACAN_channel
+
+The value follows the format "s0.XXXY," where "s" is an optional minus sign. Use negative values for
+A/A (Air-to-Air) and positive for T/R (Transmit/Receive). "XXX" represents the three-digit channel
+number, with leading zeros required for channels below 100. "Y" indicates the mode: "0" for X-mode
+and "1" for Y-mode. For example, "0.0630" corresponds to channel 63X in T/R mode, while "-0.0081"
+indicates channel 8Y in A/A mode.
+
+#### Jester_deviate_to_tgt_zone
+
+The value follows the format "0.XX," where "XX" is the WaypointZone number. Note that the trigger
+zone must be named "WaypointZone." For example, "0.02" corresponds to "WaypointZone02."
+
+#### Jester_add_wpt_after
+
+The value follows the format "0.TTXXY," where "TT" is the waypoint zone number, "XX" is the waypoint
+number, and "Y" is the flight plan number.
+
+#### Jester_resume_flightplan
+
+The value follows the format "0.XXY," where "XX" is the waypoint number (e.g., "01" for waypoint
+1, "12" for waypoint 12), and "Y" is the flight plan number (default is 1 if not specified).
+Examples include "0.05," which refers to turn point 5 in flight plan 1, and "0.102," which refers to
+turn point 10 in flight plan 2.
+
+#### Jester_designate_wpt
+
+The value follows the format "0.DXXY," where "D" is the waypoint designation, "XX" is the waypoint
+number (e.g., "01" for waypoint 1, "12" for waypoint 12), and "Y" is the flight plan number (default
+is 1 if not specified). The waypoint designations are as follows:
+
+- 0 -> Default
+- 1 -> CAP
+- 2 -> IP
+- 3 -> Target
+- 4 -> VIP
+- 5 -> Silent VIP
+- 6 -> Fence IN
+- 7 -> Fence Out
+- 8 -> Homebase
+- 9 -> Alternate
+
+For example, "0.005" indicates turn point 5 in flight plan 1 with a Default designation, while "
+0.3102" represents turn point 10 in flight plan 2 with a Target designation.
+
+#### Jester_set_cap_time
+
+The value sets the CAP time for the active CAP pair in the format "0.XX," where "XX" represents the
+number of minutes. For example, "0.05" corresponds to 5 minutes, and "0.12" corresponds to 12
+minutes.
+
+#### WRCS Entries and Laser Code
+
+The WRCS Entries are used from 0.999 to 0.000 where 0.999 is the biggest value the WRCS can feature.
+For Jester_set_wrcs_ew_dist and Jester_set_wrcs_ns_dist the s is for - . When a negative value is
+entered it will put in West or South values respectively.
+
+The laser code can be set by entering a valid laser code for XXXX. Note that Jester will not enter
+invalid codes and will not respond in any way other than not entering the laser code.
