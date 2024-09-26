@@ -258,8 +258,6 @@ the Command ID, name and Values can be found in the table below:
 
 This chapter will explain the use of the different SetCommands that have more complex values.
 
-![set_commands_me.jpg](../img/set_commands_me.jpg)
-
 #### Jester_tune_ARC_164_channel
 
 The value follows the format "0.XX," where "XX" is the two-digit channel number.
