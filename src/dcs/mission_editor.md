@@ -320,4 +320,4 @@ For Jester_set_wrcs_ew_dist and Jester_set_wrcs_ns_dist the s is for - . When a 
 entered it will put in West or South values respectively.
 
 The laser code can be set by entering a valid laser code for XXXX. Note that Jester will not enter
-invalid codes and will not respond in any way other than not entering the laser code. 
+invalid codes and will not respond in any way other than not entering the laser code.

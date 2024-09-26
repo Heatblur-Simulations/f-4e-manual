@@ -304,7 +304,7 @@ selected a ship symbol will be displayed in the lower half of azimuth.
 
 ### Missiles
 
-| Symbol                                                                  | Possible threat                                                                        |
-|-------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| ![rwr_corr_msl.jpg](../../img/rwr_corr_msl.jpg)                   | correlated missile                                                                              |
-| ![rwr_uncorr_msl.jpg](../../img/rwr_uncorr_msl.jpg)                     | uncorrelated missile |
+| Symbol                                              | Possible threat      |
+|-----------------------------------------------------|----------------------|
+| ![rwr_corr_msl.jpg](../../img/rwr_corr_msl.jpg)     | correlated missile   |
+| ![rwr_uncorr_msl.jpg](../../img/rwr_uncorr_msl.jpg) | uncorrelated missile |
