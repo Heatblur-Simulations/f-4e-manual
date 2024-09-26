@@ -338,6 +338,99 @@ are:</p>
 <p><img src="../img/me_waypoints_defining.jpg" alt="TGT Waypoint" /></p>
 <p>See <a href="../jester/navigation.html#flight-plan">5.2. Jester Navigation</a> for details on
 how these waypoint types influence Jesters behavior.</p>
+<h2 id="setcommands"><a class="header" href="#setcommands">SetCommands</a></h2>
+<p>The F-4E features a list of set commands that can be used by mission makers. All commands are
+executed silently as in Jester will neither deny nor confirm any commands. The SetCommands with
+the Command ID, name and Values can be found in the table below:</p>
+<div class="table-wrapper"><table><thead><tr><th>Command ID</th><th>Name</th><th>Value</th></tr></thead><tbody>
+<tr><td>20010</td><td>Jester_silent</td><td>0-1</td></tr>
+<tr><td>20011</td><td>Jester_pause</td><td>0-1</td></tr>
+<tr><td>20015</td><td>Jester_tune_ARC_164_channel</td><td>0.XX</td></tr>
+<tr><td>20016</td><td>Jester_tune_TACAN_channel</td><td>s0.XXXY</td></tr>
+<tr><td>20017</td><td>Jester_deviate_to_tgt_zone</td><td>0.XX</td></tr>
+<tr><td>20018</td><td>Jester_add_wpt_after</td><td>0.TTXXY</td></tr>
+<tr><td>20020</td><td>Jester_resume_flightplan</td><td>0.XXY</td></tr>
+<tr><td>20021</td><td>Jester_designate_wpt</td><td>0.DXXY</td></tr>
+<tr><td>20022</td><td>Jester_set_cap_time</td><td>0.XX</td></tr>
+<tr><td>20023</td><td>Jester_eject_WSO</td><td>0-1</td></tr>
+<tr><td>20025</td><td>Jester_unlock_tgt</td><td>0-1</td></tr>
+<tr><td>20026</td><td>Jester_radar_power</td><td>0.00 - 1.00 in 0.2 increments</td></tr>
+<tr><td>20027</td><td>Jester_radar_polar</td><td>0-1</td></tr>
+<tr><td>20028</td><td>Jester_radar_range</td><td>0.00 - 1.00 in 0.2 increments</td></tr>
+<tr><td>20029</td><td>Jester_radar_maneuver</td><td>0-1</td></tr>
+<tr><td>20030</td><td>Jester_radar_scan</td><td>0-1</td></tr>
+<tr><td>20031</td><td>Jester_radar_aspect</td><td>0.00 - 1.00 in 0.2 increments</td></tr>
+<tr><td>20032</td><td>Jester_radar_rcvr_fine</td><td>0.00 - 1.00</td></tr>
+<tr><td>20033</td><td>Jester_radar_rcvr_coarse</td><td>0.00 - 1.00</td></tr>
+<tr><td>20034</td><td>Jester_radar_track</td><td>0.00 - 1.00 in 0.33 increments</td></tr>
+<tr><td>20035</td><td>Jester_radar_display</td><td>0.00 - 1.00 in 0.2 increments</td></tr>
+<tr><td>20036</td><td>Jester_radar_man_vc</td><td>0.00 - 1.00 in 0.1 increments</td></tr>
+<tr><td>20037</td><td>Jester_radar_pulse</td><td>0-1</td></tr>
+<tr><td>20038</td><td>Jester_radar_mode</td><td>0.00 - 1.00 in 0.2 increments</td></tr>
+<tr><td>20039</td><td>Jester_dispense</td><td>0-1</td></tr>
+<tr><td>20040</td><td>Jester_air_to_air</td><td>0-1</td></tr>
+<tr><td>20041</td><td>Jester_video_select</td><td>0-1</td></tr>
+<tr><td>20042</td><td>Jester_context_short</td><td>0-1</td></tr>
+<tr><td>20043</td><td>Jester_context_long</td><td>0-1</td></tr>
+<tr><td>20044</td><td>Jester_context_double</td><td>0-1</td></tr>
+<tr><td>20045</td><td>Jester_set_laser_code</td><td>0.XXXX</td></tr>
+<tr><td>20046</td><td>Jester_set_wrcs_drag</td><td>0.XXX</td></tr>
+<tr><td>20047</td><td>Jester_set_wrcs_alt_range</td><td>0.XXX</td></tr>
+<tr><td>20048</td><td>Jester_set_wrcs_ew_dist</td><td>s0.XXX</td></tr>
+<tr><td>20049</td><td>Jester_set_wrcs_ns_dist</td><td>s0.XXX</td></tr>
+<tr><td>20050</td><td>Jester_set_wrcs_advance</td><td>0.XXX</td></tr>
+<tr><td>20051</td><td>Jester_set_wrcs_range</td><td>0.XXX</td></tr>
+</tbody></table>
+</div>
+<h3 id="usage-of-setcommands"><a class="header" href="#usage-of-setcommands">Usage of SetCommands</a></h3>
+<p>This chapter will explain the use of the different SetCommands that have more complex values.</p>
+<h4 id="jester_tune_arc_164_channel"><a class="header" href="#jester_tune_arc_164_channel">Jester_tune_ARC_164_channel</a></h4>
+<p>The value follows the format "0.XX," where "XX" is the two-digit channel number.</p>
+<h4 id="jester_tune_tacan_channel"><a class="header" href="#jester_tune_tacan_channel">Jester_tune_TACAN_channel</a></h4>
+<p>The value follows the format "s0.XXXY," where "s" is an optional minus sign. Use negative values for
+A/A (Air-to-Air) and positive for T/R (Transmit/Receive). "XXX" represents the three-digit channel
+number, with leading zeros required for channels below 100. "Y" indicates the mode: "0" for X-mode
+and "1" for Y-mode. For example, "0.0630" corresponds to channel 63X in T/R mode, while "-0.0081"
+indicates channel 8Y in A/A mode.</p>
+<h4 id="jester_deviate_to_tgt_zone"><a class="header" href="#jester_deviate_to_tgt_zone">Jester_deviate_to_tgt_zone</a></h4>
+<p>The value follows the format "0.XX," where "XX" is the WaypointZone number. Note that the trigger
+zone must be named "WaypointZone." For example, "0.02" corresponds to "WaypointZone02."</p>
+<h4 id="jester_add_wpt_after"><a class="header" href="#jester_add_wpt_after">Jester_add_wpt_after</a></h4>
+<p>The value follows the format "0.TTXXY," where "TT" is the waypoint zone number, "XX" is the waypoint
+number, and "Y" is the flight plan number.</p>
+<h4 id="jester_resume_flightplan"><a class="header" href="#jester_resume_flightplan">Jester_resume_flightplan</a></h4>
+<p>The value follows the format "0.XXY," where "XX" is the waypoint number (e.g., "01" for waypoint
+1, "12" for waypoint 12), and "Y" is the flight plan number (default is 1 if not specified).
+Examples include "0.05," which refers to turn point 5 in flight plan 1, and "0.102," which refers to
+turn point 10 in flight plan 2.</p>
+<h4 id="jester_designate_wpt"><a class="header" href="#jester_designate_wpt">Jester_designate_wpt</a></h4>
+<p>The value follows the format "0.DXXY," where "D" is the waypoint designation, "XX" is the waypoint
+number (e.g., "01" for waypoint 1, "12" for waypoint 12), and "Y" is the flight plan number (default
+is 1 if not specified). The waypoint designations are as follows:</p>
+<ul>
+<li>0 -&gt; Default</li>
+<li>1 -&gt; CAP</li>
+<li>2 -&gt; IP</li>
+<li>3 -&gt; Target</li>
+<li>4 -&gt; VIP</li>
+<li>5 -&gt; Silent VIP</li>
+<li>6 -&gt; Fence IN</li>
+<li>7 -&gt; Fence Out</li>
+<li>8 -&gt; Homebase</li>
+<li>9 -&gt; Alternate</li>
+</ul>
+<p>For example, "0.005" indicates turn point 5 in flight plan 1 with a Default designation, while "
+0.3102" represents turn point 10 in flight plan 2 with a Target designation.</p>
+<h4 id="jester_set_cap_time"><a class="header" href="#jester_set_cap_time">Jester_set_cap_time</a></h4>
+<p>The value sets the CAP time for the active CAP pair in the format "0.XX," where "XX" represents the
+number of minutes. For example, "0.05" corresponds to 5 minutes, and "0.12" corresponds to 12
+minutes.</p>
+<h4 id="wrcs-entries-and-laser-code"><a class="header" href="#wrcs-entries-and-laser-code">WRCS Entries and Laser Code</a></h4>
+<p>The WRCS Entries are used from 0.999 to 0.000 where 0.999 is the biggest value the WRCS can feature.
+For Jester_set_wrcs_ew_dist and Jester_set_wrcs_ns_dist the s is for - . When a negative value is
+entered it will put in West or South values respectively.</p>
+<p>The laser code can be set by entering a valid laser code for XXXX. Note that Jester will not enter
+invalid codes and will not respond in any way other than not entering the laser code.</p>
 
                     </main>
 
