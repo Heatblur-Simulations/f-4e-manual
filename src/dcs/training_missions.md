@@ -100,16 +100,16 @@ next.
 Here are some general tips & tricks as created by testers during the testing phase:
 
 - For lessons starting on the ground, the noise might be very loud. You have three options:
-    - Wait until the other jets have taken off before beginning with the lesson.
-    - You are allowed to close the canopy whenever you need to (default binding is LCTRL+C), despite
-      the F-4 usually closes it very lately
-    - Adjust the audio volume of DCS to suit the autio hardware you are using.
+  - Wait until the other jets have taken off before beginning with the lesson.
+  - You are allowed to close the canopy whenever you need to (default binding is LCTRL+C), despite
+    the F-4 usually closes it very lately
+  - Adjust the audio volume of DCS to suit the autio hardware you are using.
 - If you have troubles with a very dark cockpit, a few things can be done:
-    - Use the internal cockpit illumination on the COCKPIT LIGHTS panel (right side):
-        - The CONSOLE OFF/BRT knob
-        - The INSTR PANEL knob
-        - The CONSOLE FLOOD light switch
-        - The INST FLOOD light switch
+  - Use the internal cockpit illumination on the COCKPIT LIGHTS panel (right side):
+    - The CONSOLE OFF/BRT knob
+    - The INSTR PANEL knob
+    - The CONSOLE FLOOD light switch
+    - The INST FLOOD light switch
 
 ![training_tips_illumination_pic](../img/training_mission_cockpit_lights.jpg)
 
@@ -145,13 +145,13 @@ If you got stuck in a lesson, you should take the following measures:
   menu > F-10 Other ...).
 
 - If all that doesn't help:
-    - Quit the mission and save the DEBRIEFING (log-file) and the TRACK (trk-file) in the
-      debriefing screen
-    - If you suspect a bug, please open a new ticker in the DCS forum > Heatblur Simulations >
-      Phantom area using this link: <https://forum.dcs.world/forum/919-dcs-f-4-phantom/>. Please
-      add as much information as possible in order to help us finding a possible issue. Thank
-      you for your support!
-    - In any case, we recommend to restart DCS and fly the mission again. Sorry for that!
+  - Quit the mission and save the DEBRIEFING (log-file) and the TRACK (trk-file) in the
+    debriefing screen
+  - If you suspect a bug, please open a new ticker in the DCS forum > Heatblur Simulations >
+    Phantom area using this link: <https://forum.dcs.world/forum/919-dcs-f-4-phantom/>. Please
+    add as much information as possible in order to help us finding a possible issue. Thank
+    you for your support!
+  - In any case, we recommend to restart DCS and fly the mission again. Sorry for that!
 
 ## Training area: Kobuleti (UG5X) airfield
 
@@ -416,11 +416,11 @@ Here are some special tips for lesson 02:
   The flight controls check can be omitted in case it becomes too difficult. Use the FIRE
   TEST BUTTON on the instrument panel before or during performing this check to skip it. The
   reason for this is that for this check a few things have to be done in parallel:
-    - Listening to our instructor
-    - Performing the inputs on the flight control system (movements and button/switch
-      presses/settings)
-    - Listening to the confirmation given by the crew chief
-    - Pressing "Spacebar" after receiving the crew chief's confirmation
+  - Listening to our instructor
+  - Performing the inputs on the flight control system (movements and button/switch
+    presses/settings)
+  - Listening to the confirmation given by the crew chief
+  - Pressing "Spacebar" after receiving the crew chief's confirmation
 
 - Task 1 > Step 7f & 7h: The crew chief will not respond when you set the rudder to the neutral
   position.
@@ -528,11 +528,11 @@ Here are some special tips for lesson 03:
 
 - Take-off:
   Before taking off, go through the takeoff procedure. You need to remember the items by heart:
-    - No NGS after 70 knots
-    - Full aft STICK by 80 knots
-    - Hold 10 to 12° NOSE UP
-    - Raise the GEAR & FLAPS as soon as airborne
-    - TRIM as needed
+  - No NGS after 70 knots
+  - Full aft STICK by 80 knots
+  - Hold 10 to 12° NOSE UP
+  - Raise the GEAR & FLAPS as soon as airborne
+  - TRIM as needed
 
 - Task 4 > Step 8:
   In DCS, with the current wind situation (no cross wind component), it is really not
