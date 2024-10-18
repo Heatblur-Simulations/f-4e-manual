@@ -282,7 +282,7 @@ Therefore, a new temporary ramp position, which is located directly on the
 threshold runway 07, was established. You will take off from that location and then divert to
 Tiblisi.
 
-![lesson_01b_temporary_ramp_rwy07](../img/Lesson_01b_temporary_ramp_position.jpg)
+![lesson_01b_temporary_ramp_rwy07](../img/Lesson01b_temporary_ramp_position.jpg)
 
 All other registered sorties for this afternoon have been cancelled.
 
