@@ -12,20 +12,21 @@ The stated goal of these lessons is that after completing them once or several t
 say: "Hey, I think I now know how this thing works (again)".
 You can use the lessons as "initial training" or as so-called "recurrent training". Whenever
 you haven't flown for a long time and need a refresher. By the way: We recommend a refresher
-every 90 days at least ...
+every 90 days at least.
 
-Please note that the lessons require a certain level of knowledge about DCS and also some basic flying skills. In the
+Please note that the lessons require a certain level of knowledge about DCS and also some basic
+flying skills. In the
 lessons we don't explain flying as such, but rather the aircraft, its systems and their usage, and
 the behavior. The lessons may therefore be understood as a kind of "interactive type training in the
 cockpit" and not as a "basic flying training".
 
-## Your way through ...
+## Your way through
 
 Due to the design, systems and age of the jet, it has many pecularities. Precise application of
 system knowledge in daily duty on this wonderful aircraft is the key to success. With the F-4E
 Phantom II you will be challenged in so many ways. So be ready! We leave it up to you whether you
 want to get in the air immediately without studying the manual, or whether you want to read upon it
-before your first flight ...
+before your first flight.
 
 Decide for yourself!
 
@@ -52,7 +53,7 @@ them had to be changed, shortened, or omitted entirely. Nevertheless, for exampl
 simulated putting on the helmet (including sun protection visor and sun glasses), an immersive
 innovation in DCS.
 
-## Our way through ...
+## Our way through
 
 We thought a lot about how best to explain the operation of such a complex aircraft with training
 missions. Where do you start, where do you end? How detailed should it be so that a "nerd" doesn't
@@ -60,7 +61,7 @@ miss anything, how superficial can it be so that a "leisure gamer" doesn't lose 
 are the checks whether the player is adhering to the procedures and the planned flight route? A
 basic idea at Heatblur has always been to get players "in the air" as quickly as possible, without
 them having to spend hours watching introductory videos or studying thick books. All of this caused
-us a lot of headaches...
+us a lot of headaches.
 
 In any case, we spared no expense, effort and discussions to serve both types of players more or
 less "equally". As you can imagine, such a project is not entirely trivial, and you have to make a
@@ -99,16 +100,16 @@ next.
 Here are some general tips & tricks as created by testers during the testing phase:
 
 - For lessons starting on the ground, the noise might be very loud. You have three options:
-  - Wait until the other jets have taken off before beginning with the lesson.
-  - You are allowed to close the canopy whenever you need to (default binding is LCTRL+C), despite
-    the F-4 usually closes it very lately
-  - Adjust the audio volume of DCS to suit the autio hardware you are using.
+    - Wait until the other jets have taken off before beginning with the lesson.
+    - You are allowed to close the canopy whenever you need to (default binding is LCTRL+C), despite
+      the F-4 usually closes it very lately
+    - Adjust the audio volume of DCS to suit the autio hardware you are using.
 - If you have troubles with a very dark cockpit, a few things can be done:
-  - Use the internal cockpit illumination on the COCKPIT LIGHTS panel (right side):
-    - The CONSOLE OFF/BRT knob
-    - The INSTR PANEL knob
-    - The CONSOLE FLOOD light switch
-    - The INST FLOOD light switch
+    - Use the internal cockpit illumination on the COCKPIT LIGHTS panel (right side):
+        - The CONSOLE OFF/BRT knob
+        - The INSTR PANEL knob
+        - The CONSOLE FLOOD light switch
+        - The INST FLOOD light switch
 
 ![training_tips_illumination_pic](../img/training_mission_cockpit_lights.jpg)
 
@@ -117,7 +118,7 @@ Here are some general tips & tricks as created by testers during the testing pha
 
 ## Lesson got stuck
 
-There are situations in which the triggers of a lesson no longer work properly for some reason. 
+There are situations in which the triggers of a lesson no longer work properly for some reason.
 Fortunately, this only happens very rarely! This usually results in the highlights (the
 yellow helper boxes) no longer being shown or hidden correctly, or the logic circuits no longer
 reacting correctly to events in the simulation. We experienced this ourselves during the testing
@@ -136,19 +137,21 @@ If you got stuck in a lesson, you should take the following measures:
   "What is written in the procedure/checklist/book?" and "How did I set it up?"
 
 - If that doesn't help:
-  Jump back one - or if necessary - a few steps (if that lesson supports jumping back via the comms menu > F-10 Other ...).
+  Jump back one - or if necessary - a few steps (if that lesson supports jumping back via the comms
+  menu > F-10 Other ...).
 
 - If that doesn't help either:
-  Jump back to the beginning of the procedure (if that lesson supports jumping back via the comms menu > F-10 Other ...).
+  Jump back to the beginning of the procedure (if that lesson supports jumping back via the comms
+  menu > F-10 Other ...).
 
 - If all that doesn't help:
-  - Quit the mission and save the DEBRIEFING (log-file) and the TRACK (trk-file) in the
-    debriefing screen
-  - If you suspect a bug, please open a new ticker in the DCS forum > Heatblur Simulations >
-    Phantom area using this link: <https://forum.dcs.world/forum/919-dcs-f-4-phantom/>. Please
-    add as much information as possible in order to help us finding a possible issue. Thank
-    you for your support!
-  - In any case, we recommend to restart DCS and fly the mission again. Sorry for that!
+    - Quit the mission and save the DEBRIEFING (log-file) and the TRACK (trk-file) in the
+      debriefing screen
+    - If you suspect a bug, please open a new ticker in the DCS forum > Heatblur Simulations >
+      Phantom area using this link: <https://forum.dcs.world/forum/919-dcs-f-4-phantom/>. Please
+      add as much information as possible in order to help us finding a possible issue. Thank
+      you for your support!
+    - In any case, we recommend to restart DCS and fly the mission again. Sorry for that!
 
 # Training area: Kobuleti (UG5X) airfield
 
@@ -161,7 +164,8 @@ including supersonic flights.
 ![training_area](../img/Georgia_Training_Area.jpg)
 
 The airfield has a picturesque location between the mountains to the south and the Black Sea
-to the west. Here is a photo of the airfield, taken a month ago from a helicopter, looking in direction S-W.
+to the west. Here is a photo of the airfield, taken a month ago from a helicopter, looking in
+direction S-W.
 
 ![kobuleti_airfield](../img/Kobuleti_Airfield.jpg)
 
@@ -202,18 +206,21 @@ prepared and fully fueled. The Dash-60 ground power unit is already in place lef
 
 The technician responsible for the aircraft, also called the "crew chief", is already in front of
 your aircraft and waiting to support you. You can communicate with him using the Jester menu > CREW
-CHIEF. Don' confuse the "crew chief" with Jester. Sometimes they sound very similar when heard 
+CHIEF. Don' confuse the "crew chief" with Jester. Sometimes they sound very similar when heard
 over the intercom, but in fact you are dealing with two different persons!
 
 ![lesson01a_crew_chief](../img/Lesson01_Crew_chief_Ramp_no25.jpg)
 
-By the way, the crew chief's assistant is standing by on your left side, next to the Dash-60 ground power
-unit. He is operating the unit, and everything you request is in fact done by him, while the crew chief
+By the way, the crew chief's assistant is standing by on your left side, next to the Dash-60 ground
+power
+unit. He is operating the unit, and everything you request is in fact done by him, while the crew
+chief
 is directing, monitoring and the person in charge.
 
 ![lesson01a_crew_chief_assistant](../img/Lesson01_Crew_chief_assistant_Ramp_no25.jpg)
 
-You've just sat down on the ejection seat and are starting to check the cockpit. You may be thinking:
+You've just sat down on the ejection seat and are starting to check the cockpit. You may be
+thinking:
 "Damn, I'm totally blown away by what I see, but I guess I don't know what I'm doing ...".
 
 Don't worry, your instructor, who is also your WSO for today's flight, will guide you through
@@ -269,9 +276,11 @@ of moisture and heavy evaporation from the sun is to be expected.
 
 ### Lesson 01b - Slots
 
-Caused by an accident on the taxiway "S" just before your flight, it was decided to close the taxiway.
-Therefore, a new temporary ramp position, which is located directly on the 
-threshold runway 07, was established. You will take off from that location and then divert to Tiblisi.
+Caused by an accident on the taxiway "S" just before your flight, it was decided to close the
+taxiway.
+Therefore, a new temporary ramp position, which is located directly on the
+threshold runway 07, was established. You will take off from that location and then divert to
+Tiblisi.
 
 ![lesson_01b_temporary_ramp_rwy07](../img/Lesson_01b_temporary_ramp_position.jpg)
 
@@ -279,7 +288,8 @@ All other registered sorties for this afternoon have been cancelled.
 
 ### Lesson 01b - Aircraft
 
-Your aircraft was pushed to the new temporary ramp position. It is "cold & dark", the nose is pointed 
+Your aircraft was pushed to the new temporary ramp position. It is "cold & dark", the nose is
+pointed
 towards the runway, and it is prepared and half fueled.
 The Dash-60 ground power unit is already in place left of your jet.
 
@@ -287,21 +297,25 @@ The Dash-60 ground power unit is already in place left of your jet.
 
 The technician responsible for the aircraft, also called the "crew chief", is already in front of
 your aircraft and waiting to support you. You can communicate with him using the Jester menu > CREW
-CHIEF. Don' confuse the "crew chief" with Jester. Sometimes they sound very similar when heard 
+CHIEF. Don' confuse the "crew chief" with Jester. Sometimes they sound very similar when heard
 over the intercom, but in fact you are dealing with two different persons!
 
 ![lesson_01b_crew_chief](../img/Lesson01b_crew_chief_at_temporary_ramp_position.jpg)
 
-By the way, the crew chief's assistant is standing by on your left side, next to the Dash-60 ground power
-unit. He is operating the unit, and everything you request is in fact done by him, while the crew chief
+By the way, the crew chief's assistant is standing by on your left side, next to the Dash-60 ground
+power
+unit. He is operating the unit, and everything you request is in fact done by him, while the crew
+chief
 is directing, monitoring and the person in charge.
 
 ![lesson_01b_crew_chief_assistant](../img/Lesson01b_crew_chief_assistant_at_temporary_ramp_position.jpg)
 
-You've just sat down on the rear ejection seat and are starting to check the cockpit. You may be thinking:
+You've just sat down on the rear ejection seat and are starting to check the cockpit. You may be
+thinking:
 "Damn, I'm totally blown away by what I see, but I guess I don't know what I'm doing ...".
 
-Don't worry, your instructor, who is also your PILOT for today's flight, will guide you through the lesson!
+Don't worry, your instructor, who is also your PILOT for today's flight, will guide you through the
+lesson!
 
 ### Lesson 01b - Audio & text
 
@@ -332,7 +346,7 @@ The tasks for this lesson are:
 - Task 10: Accomplish the "AFTER RUNWAY LINE-UP" procedure
 - Task 11: Accomplish the "TAKEOFF" procedure
 - Task 12: Accomplish the "AFTER TAKEOFF - CLIMB" procedure
- 
+
 ### Lesson 01b - Tips & tricks
 
 Here are some special tips for lesson 01b:
@@ -404,11 +418,11 @@ Here are some special tips for lesson 02:
   The flight controls check can be omitted in case it becomes too difficult. Use the FIRE
   TEST BUTTON on the instrument panel before or during performing this check to skip it. The
   reason for this is that for this check a few things have to be done in parallel:
-  - Listening to our instructor
-  - Performing the inputs on the flight control system (movements and button/switch
-    presses/settings)
-  - Listening to the confirmation given by the crew chief
-  - Pressing "Spacebar" after receiving the crew chief's confirmation
+    - Listening to our instructor
+    - Performing the inputs on the flight control system (movements and button/switch
+      presses/settings)
+    - Listening to the confirmation given by the crew chief
+    - Pressing "Spacebar" after receiving the crew chief's confirmation
 
 - Task 1 > Step 7f & 7h: The crew chief will not respond when you set the rudder to the neutral
   position.
@@ -516,11 +530,11 @@ Here are some special tips for lesson 03:
 
 - Take-off:
   Before taking off, go through the takeoff procedure. You need to remember the items by heart:
-  - No NGS after 70 knots
-  - Full aft STICK by 80 knots
-  - Hold 10 to 12° NOSE UP
-  - Raise the GEAR & FLAPS as soon as airborne
-  - TRIM as needed
+    - No NGS after 70 knots
+    - Full aft STICK by 80 knots
+    - Hold 10 to 12° NOSE UP
+    - Raise the GEAR & FLAPS as soon as airborne
+    - TRIM as needed
 
 - Task 4 > Step 8:
   In DCS, with the current wind situation (no cross wind component), it is really not
