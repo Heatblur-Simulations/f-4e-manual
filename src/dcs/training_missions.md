@@ -268,10 +268,10 @@ Here are some special tips for lesson 01a:
   "IDLE" position, but became stuck a bit too far forward.
   Therefore, please make sure that your real throttle levers are able to move the throttle levers
    in the sim over the whole range:
-   + "MAX" (which is 100% RPM with full afterburner)
-   + "MIL" (which is 100% RPM without afterburner)
-   + "IDLE" (which is 65% RPM)
-   + "OFF" (which is fuel shut off)
+  - "MAX" (which is 100% RPM with full afterburner)
+  - "MIL" (which is 100% RPM without afterburner)
+  - "IDLE" (which is 65% RPM)
+  - "OFF" (which is fuel shut off)
 - Task 4 > Step "STARTING ENGINES PROCEDURE" checklist:
   Make sure all controls are still set to their commanded positions, which have been set in all the
   other procedures before. Users reported problems about advancing, because they accidentally set
