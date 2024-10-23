@@ -260,6 +260,22 @@ Here are some special tips for lesson 01a:
   EGT rising above 700°C, immediately cut off the fuel by moving the throttle lever to the
   "OFF" position. Note: engine parameters may vary slightly depending on the environmental
   conditions, but only the EGT value must be monitored closely!
+- Task 4 > Step 4c:
+  Make sure you pull the throttle lever in the simulation back to "IDLE" position in order for
+  the lesson logic to continue. The background is the following: Users reported about problems
+  when performing this step. In all cases reported so far, the real throttle lever was pulled
+  back to (its) IDLE position, but the throttle lever in the simulation did not reach the
+  "IDLE" position, but became stuck a bit too far forward.
+  Therefore, please make sure that your real throttle levers are able to move the throttle levers
+   in the sim over the whole range:
+  - "MAX" (which is 100% RPM with full afterburner)
+  - "MIL" (which is 100% RPM without afterburner)
+  - "IDLE" (which is 65% RPM)
+  - "OFF" (which is fuel shut off)
+- Task 4 > Step "STARTING ENGINES PROCEDURE" checklist:
+  Make sure all controls are still set to their commanded positions, which have been set in all the
+  other procedures before. Users reported problems about advancing, because they accidentally set
+  some controls to unexpected/false positions.
 
 ## Lesson 01b - (WSO) Startup
 
