@@ -305,22 +305,19 @@ All other registered sorties for this afternoon have been cancelled.
 ### Lesson 01b - Aircraft
 
 Your aircraft was pushed to the new temporary ramp position. It is "cold & dark", the nose is
-pointed
-towards the runway, and it is prepared and half fueled.
+pointed towards the runway, and it is prepared and half fueled.
 The Dash-60 ground power unit is already in place left of your jet.
 
 ![lesson_01b_ramp](../img/Lesson01b_jet_at_temporary_ramp_position.jpg)
 
-The technician responsible for the aircraft, also called the "crew chief", is already in front of
-your aircraft and waiting to support you. You can communicate with him using the Jester menu > CREW
-CHIEF. Don' confuse the "crew chief" with Jester. Sometimes they sound very similar when heard
-over the intercom, but in fact you are dealing with two different persons!
+The technician responsible for the aircraft, also called the "crew chief", is already waiting 
+in front of the aircraft and waiting to support the pilot. You will hear him on the intercom.
 
 ![lesson_01b_crew_chief](../img/Lesson01b_crew_chief_at_temporary_ramp_position.jpg)
 
 By the way, the crew chief's assistant is standing by on your left side, next to the Dash-60 ground
-power unit. He is operating the unit, and everything you request is in fact done by him, while the
-crew chief is directing, monitoring and the person in charge.
+power unit. He is operating the unit, and everything the pilot request is in fact done by him,
+while the crew chief is directing, monitoring and the person in charge.
 
 ![lesson_01b_crew_chief_assistant](../img/Lesson01b_crew_chief_assistant_at_temporary_ramp_position.jpg)
 
@@ -328,7 +325,7 @@ You've just sat down on the rear ejection seat and are starting to check the coc
 thinking:
 "Damn, I'm totally blown away by what I see, but I guess I don't know what I'm doing ...".
 
-Don't worry, your instructor, who is also your PILOT for today's flight, will guide you through the
+Don't worry, your instructor, who is also your pilot for today's flight, will guide you through the
 lesson!
 
 ### Lesson 01b - Audio & text
@@ -365,7 +362,10 @@ The tasks for this lesson are:
 
 Here are some special tips for lesson 01b:
 
-To be done.
+- Task 1:
+  This task is to be accomplished by you alone, without big guidance from the pilot. Only for 
+  a few steps he will say something, mostly these are steps that you just have to confirm.
+  Otherwise, he is busy on his own checklists ...
 
 ## Lesson 02 - (PILOT) Taxi
 
