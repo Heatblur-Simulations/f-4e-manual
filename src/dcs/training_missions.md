@@ -310,7 +310,7 @@ The Dash-60 ground power unit is already in place left of your jet.
 
 ![lesson_01b_ramp](../img/Lesson01b_jet_at_temporary_ramp_position.jpg)
 
-The technician responsible for the aircraft, also called the "crew chief", is already waiting 
+The technician responsible for the aircraft, also called the "crew chief", is already waiting
 in front of the aircraft and waiting to support the pilot. You will hear him on the intercom.
 
 ![lesson_01b_crew_chief](../img/Lesson01b_crew_chief_at_temporary_ramp_position.jpg)
@@ -363,7 +363,7 @@ The tasks for this lesson are:
 Here are some special tips for lesson 01b:
 
 - Task 1:
-  This task is to be accomplished by you alone, without big guidance from the pilot. Only for 
+  This task is to be accomplished by you alone, without big guidance from the pilot. Only for
   a few steps he will say something, mostly these are steps that you just have to confirm.
   Otherwise, he is busy on his own checklists ...
 
