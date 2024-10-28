@@ -458,7 +458,7 @@ Next to clicking switches, Jester can react to events send either from C++ or
 also from within Lua. The system follows a simple observer/listener pattern:
 
 ```lua
-ListenTo("go_silent", function(task)
+ListenTo("go_silent", "Radar", function(task)
   task:Click("Radar Power", "STBY")
 end)
 ```
