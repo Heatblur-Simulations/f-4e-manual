@@ -75,6 +75,10 @@ When just getting started, a common question is which fundamental controls one s
 generally bind and have accessible without using the mouse, besides the obvious
 binds of throttle and stick axis.
 
+Within DCS these binds are categorized as **Essentials** to make finding them easier.
+
+![Essential Category](../img/bind_category_essentials.jpg)
+
 > 💡 Items marked **bold** are highly recommended to be bound. _Italic_ sections
 > are suggestions of which positions to bind.
 
