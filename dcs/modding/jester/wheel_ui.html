@@ -240,7 +240,7 @@ Wheel.AddItem(waypoint_menu, {"Navigation"})
 Wheel.SetMenuInfo(current_waypoint, {"Navigation", "Select Waypoint"})
 </code></pre>
 <p>To react to a selected action, listen to the corresponding event:</p>
-<pre><code class="language-lua">ListenTo("select_tgt_1", function(task)
+<pre><code class="language-lua">ListenTo("select_tgt_1", "Navigation", function(task)
   -- Component interface
   task:Click("Nav Panel Function", "TARGET_1")
 

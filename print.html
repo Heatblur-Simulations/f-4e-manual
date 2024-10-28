@@ -16954,7 +16954,7 @@ more about a specific switch and how it reacts to values.</p>
 <h2 id="events"><a class="header" href="#events">Events</a></h2>
 <p>Next to clicking switches, Jester can react to events send either from C++ or
 also from within Lua. The system follows a simple observer/listener pattern:</p>
-<pre><code class="language-lua">ListenTo("go_silent", function(task)
+<pre><code class="language-lua">ListenTo("go_silent", "Radar", function(task)
   task:Click("Radar Power", "STBY")
 end)
 </code></pre>
@@ -17060,7 +17060,7 @@ Wheel.AddItem(waypoint_menu, {"Navigation"})
 Wheel.SetMenuInfo(current_waypoint, {"Navigation", "Select Waypoint"})
 </code></pre>
 <p>To react to a selected action, listen to the corresponding event:</p>
-<pre><code class="language-lua">ListenTo("select_tgt_1", function(task)
+<pre><code class="language-lua">ListenTo("select_tgt_1", "Navigation", function(task)
   -- Component interface
   task:Click("Nav Panel Function", "TARGET_1")
 
@@ -17130,7 +17130,7 @@ via:</p>
 Dialog.Push(fuel_check_dialog)
 </code></pre>
 <p>To react to a selected option, listen to the corresponding event:</p>
-<pre><code class="language-lua">ListenTo("fuel_low_rtb", function(task)
+<pre><code class="language-lua">ListenTo("fuel_low_rtb", "Navigation", function(task)
   -- Component interface
   task:Click("Nav Panel Function", "TARGET_1")
 

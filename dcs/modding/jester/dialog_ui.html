@@ -237,7 +237,7 @@ via:</p>
 Dialog.Push(fuel_check_dialog)
 </code></pre>
 <p>To react to a selected option, listen to the corresponding event:</p>
-<pre><code class="language-lua">ListenTo("fuel_low_rtb", function(task)
+<pre><code class="language-lua">ListenTo("fuel_low_rtb", "Navigation", function(task)
   -- Component interface
   task:Click("Nav Panel Function", "TARGET_1")
 

@@ -535,7 +535,7 @@ more about a specific switch and how it reacts to values.</p>
 <h2 id="events"><a class="header" href="#events">Events</a></h2>
 <p>Next to clicking switches, Jester can react to events send either from C++ or
 also from within Lua. The system follows a simple observer/listener pattern:</p>
-<pre><code class="language-lua">ListenTo("go_silent", function(task)
+<pre><code class="language-lua">ListenTo("go_silent", "Radar", function(task)
   task:Click("Radar Power", "STBY")
 end)
 </code></pre>
