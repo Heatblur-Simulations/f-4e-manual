@@ -25,7 +25,7 @@ To swap the cassettes, the AVTR first has to be turned off by setting its mode
 to OFF. Then, the EJECT button can be pressed to open the cassette holder.
 
 Once the cassette is out, it can be swapped by clicking on it. Insert the
-cassette back by left clicking the holder.
+cassette back by left-clicking the holder.
 
 With the music tape loaded, songs can be played by setting the mode switch to
 RECORD. The RECORDER ON lamp next to the pilots left knee indicates the status
