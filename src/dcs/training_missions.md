@@ -103,7 +103,7 @@ Here are some general tips & tricks as created by testers during the testing pha
   - Wait until the other jets have taken off before beginning with the lesson.
   - You are allowed to close the canopy whenever you need to (default binding is LCTRL+C), despite
     the F-4 usually closes it very lately
-  - Adjust the audio volume of DCS to suit the autio hardware you are using.
+  - Adjust the audio volume of DCS to suite the audio hardware you are using.
 - If you have troubles with a very dark cockpit, a few things can be done:
   - Use the internal cockpit illumination on the COCKPIT LIGHTS panel (right side):
     - The CONSOLE OFF/BRT knob
@@ -115,6 +115,7 @@ Here are some general tips & tricks as created by testers during the testing pha
 
 - Set the SYSTEM option "Cockpit Global Illumination" to ON
 - Set the SYSTEM option "Gamma" to 2.0 or higher values.
+- Set the SYSTEM option "Shadows" off as the very last resort.
 
 ## Lesson got stuck
 
