@@ -296,7 +296,7 @@ Caused by an accident on the taxiway "S" just before your flight, it was decided
 taxiway.
 Therefore, a new temporary ramp position, which is located directly on the
 threshold runway 07, was established. You will take off from that location and then divert to
-Tiblisi.
+Vaziani.
 
 ![lesson_01b_temporary_ramp_rwy07](../img/Lesson01b_temporary_ramp_position.jpg)
 
