@@ -86,11 +86,11 @@ We hope you like what you have in hands now!
 
 This section is limited to the description of the first 5 lessons:
 
-- Lesson 01a - (PILOT) Startup
-- Lesson 01b - (WSO) Startup
-- Lesson 02 - (PILOT) Taxi
-- Lesson 03 - (PILOT) Normal Takeoff
-- Lesson 04 - (PILOT) Visual approach
+- [Lesson 01a - (PILOT) Startup](./training_missions.md#Lesson 01a - (PILOT) Startup)
+- [Lesson 01b - (WSO) Startup](./training_missions.md#Lesson 01b - (WSO) Startup)
+- [Lesson 02 - (PILOT) Taxi](./training_missions.md#Lesson 02 - (PILOT) Taxi)
+- [Lesson 03 - (PILOT) Normal Takeoff](./training_missions.md#Lesson 03 - (PILOT) Normal Takeoff)
+- [Lesson 04 - (PILOT) Visual approach](./training_missions.md#Lesson 04 - (PILOT) Visual approach)
 
 ## General Tips & Tricks
 
