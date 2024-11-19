@@ -28,9 +28,6 @@ diamond functionality, with the ALR-46 defining priority. In the event of possib
 threat emitter (concurrent with the illumination of the ACTIVITY and/or MISSILE LAUNCH buttons), the
 event is signified by a circle around the emitter symbol.
 
-> 🚧 Keep in mind that the simulation is still being improved
-> so the behaviour of the device along with the sounds is expected to change.
-
 ## ALR-46 Controls
 
 ### RWR Display Intensity Knob
@@ -308,3 +305,51 @@ selected a ship symbol will be displayed in the lower half of azimuth.
 |-----------------------------------------------------|----------------------|
 | ![rwr_corr_msl.jpg](../../img/rwr_corr_msl.jpg)     | correlated missile   |
 | ![rwr_uncorr_msl.jpg](../../img/rwr_uncorr_msl.jpg) | uncorrelated missile |
+
+## Threat Indications
+
+Due to weapon systems all operating very differently, the RWR indications always
+have to be interpreted individually per threat platform. This requires
+understanding how the expected threats work, how they guide missiles, if they
+have separate search and tracking radars and similar.
+
+The following table gives an overview how the RWR indicates certain events for
+commonly faced threats.
+
+> 💡 Symbols `S` and `U` require activating the **SEARCH** and **UNKNOWN** mode
+> respectively to be shown on the screen.
+
+Actual missile launches can only be detected by the presence of C/D band
+guidance signals, indicated by the **LAUNCH** lamp. This is the case for some
+SAM systems. Some actively guided radar missiles can be identified individually
+and will be shown with specific Missile systems.
+
+Beyond those clear indications, missile launches are often preceded by the
+target platform activating a specific tracking-radar or significantly increasing
+its PRF, which the RWR often picks up and plays a _New-Guy_ tone for (3 short
+beeps). Activating **HANDOFF** mode often makes the high pitched PRF tone
+clearly audible.
+
+### Land
+
+| Threat | Search | Lock | Launch |
+| ------ | ------ | ---- | ------ |
+| SA-5   | U      | 5    | ❌     |
+| SA-8   | U      | 8    | 🟢     |
+| SA-10  | S      | 10   | ❌     |
+| SA-13  | U      | ❌   | ❌     |
+
+### Sea
+
+| Threat | Search | Lock | Launch |
+| ------ | ------ | ---- | ------ |
+| Rezky  | U      | 8    | 🟢     |
+
+### Air
+
+| Threat | Search | Lock       | Launch               |
+| ------ | ------ | ---------- | -------------------- |
+| MIG-21 | 🟢     | PRF change | ❌                   |
+| MIG-23 | 🟢     | PRF change | ❌                   |
+| MIG-29 | 🟢     | PRF change | R-77 🟢, other ❌    |
+| F-16   | 🟢     | PRF change | AIM-120 🟢, other ❌ |
