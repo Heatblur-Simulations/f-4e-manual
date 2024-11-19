@@ -188,10 +188,6 @@ is presented on the display with a diamond superimposed by its symbol; this is c
 diamond functionality, with the ALR-46 defining priority. In the event of possible engagement by a
 threat emitter (concurrent with the illumination of the ACTIVITY and/or MISSILE LAUNCH buttons), the
 event is signified by a circle around the emitter symbol.</p>
-<blockquote>
-<p>🚧 Keep in mind that the simulation is still being improved
-so the behaviour of the device along with the sounds is expected to change.</p>
-</blockquote>
 <h2 id="alr-46-controls"><a class="header" href="#alr-46-controls">ALR-46 Controls</a></h2>
 <h3 id="rwr-display-intensity-knob"><a class="header" href="#rwr-display-intensity-knob">RWR Display Intensity Knob</a></h3>
 <p>Found adjacent to the RWR situation display in the lower left corner of the panel, the Intensity
@@ -414,6 +410,47 @@ selected a ship symbol will be displayed in the lower half of azimuth.</p>
 <div class="table-wrapper"><table><thead><tr><th>Symbol</th><th>Possible threat</th></tr></thead><tbody>
 <tr><td><img src="../../img/rwr_corr_msl.jpg" alt="rwr_corr_msl.jpg" /></td><td>correlated missile</td></tr>
 <tr><td><img src="../../img/rwr_uncorr_msl.jpg" alt="rwr_uncorr_msl.jpg" /></td><td>uncorrelated missile</td></tr>
+</tbody></table>
+</div>
+<h2 id="threat-indications"><a class="header" href="#threat-indications">Threat Indications</a></h2>
+<p>Due to weapon systems all operating very differently, the RWR indications always
+have to be interpreted individually per threat platform. This requires
+understanding how the expected threats work, how they guide missiles, if they
+have separate search and tracking radars and similar.</p>
+<p>The following table gives an overview how the RWR indicates certain events for
+commonly faced threats.</p>
+<blockquote>
+<p>💡 Symbols <code>S</code> and <code>U</code> require activating the <strong>SEARCH</strong> and <strong>UNKNOWN</strong> mode
+respectively to be shown on the screen.</p>
+</blockquote>
+<p>Actual missile launches can only be detected by the presence of C/D band
+guidance signals, indicated by the <strong>LAUNCH</strong> lamp. This is the case for some
+SAM systems. Some actively guided radar missiles can be identified individually
+and will be shown with specific Missile systems.</p>
+<p>Beyond those clear indications, missile launches are often preceded by the
+target platform activating a specific tracking-radar or significantly increasing
+its PRF, which the RWR often picks up and plays a <em>New-Guy</em> tone for (3 short
+beeps). Activating <strong>HANDOFF</strong> mode often makes the high pitched PRF tone
+clearly audible.</p>
+<h3 id="land"><a class="header" href="#land">Land</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Threat</th><th>Search</th><th>Lock</th><th>Launch</th></tr></thead><tbody>
+<tr><td>SA-5</td><td>U</td><td>5</td><td>❌</td></tr>
+<tr><td>SA-8</td><td>U</td><td>8</td><td>🟢</td></tr>
+<tr><td>SA-10</td><td>S</td><td>10</td><td>❌</td></tr>
+<tr><td>SA-13</td><td>U</td><td>❌</td><td>❌</td></tr>
+</tbody></table>
+</div>
+<h3 id="sea"><a class="header" href="#sea">Sea</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Threat</th><th>Search</th><th>Lock</th><th>Launch</th></tr></thead><tbody>
+<tr><td>Rezky</td><td>U</td><td>8</td><td>🟢</td></tr>
+</tbody></table>
+</div>
+<h3 id="air"><a class="header" href="#air">Air</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Threat</th><th>Search</th><th>Lock</th><th>Launch</th></tr></thead><tbody>
+<tr><td>MIG-21</td><td>🟢</td><td>PRF change</td><td>❌</td></tr>
+<tr><td>MIG-23</td><td>🟢</td><td>PRF change</td><td>❌</td></tr>
+<tr><td>MIG-29</td><td>🟢</td><td>PRF change</td><td>R-77 🟢, other ❌</td></tr>
+<tr><td>F-16</td><td>🟢</td><td>PRF change</td><td>AIM-120 🟢, other ❌</td></tr>
 </tbody></table>
 </div>
                     </main>
