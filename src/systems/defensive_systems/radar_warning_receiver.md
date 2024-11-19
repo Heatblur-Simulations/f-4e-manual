@@ -310,25 +310,25 @@ selected a ship symbol will be displayed in the lower half of azimuth.
 
 Due to weapon systems all operating very differently, the RWR indications always
 have to be interpreted individually per threat platform. This requires
-understanding how the expected threats work, how they guide missiles, if they
-have separate search and tracking radars and similar.
+understanding how the expected threats work, how they guide missiles, whether
+they have separate search and tracking radars or similar.
 
-The following table gives an overview how the RWR indicates certain events for
+The following table gives an overview on how the RWR indicates certain events for
 commonly faced threats.
-
-> 💡 Symbols `S` and `U` require activating the **SEARCH** and **UNKNOWN** mode
-> respectively to be shown on the screen.
 
 Actual missile launches can only be detected by the presence of C/D band
 guidance signals, indicated by the **LAUNCH** lamp. This is the case for some
 SAM systems. Some actively guided radar missiles can be identified individually
-and will be shown with specific Missile systems.
+and will be shown with specific Missile symbols.
 
 Beyond those clear indications, missile launches are often preceded by the
 target platform activating a specific tracking-radar or significantly increasing
 its PRF, which the RWR often picks up and plays a _New-Guy_ tone for (3 short
 beeps). Activating **HANDOFF** mode often makes the high pitched PRF tone
 clearly audible.
+
+> 💡 Symbols **S** and **U** require activating the **SEARCH** and **UNKNOWN** mode
+> respectively to be shown on the screen.
 
 ### Land
 
