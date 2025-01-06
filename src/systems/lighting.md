@@ -85,9 +85,9 @@ and also a battery-powered white floodlight.
 
 #### White Floodlight
 
-The White Floodlight switch (1 Pilot, 4 WSO) acts independent of all other controls on the panel,
-and is either ON or OFF. It activates a separate emergency floodlight (also
-called _Thunderstorm Light_) that illuminates the cockpit in white. The lamp is
+The White Floodlight switch (<num>1</num> Pilot, <num>4</num> WSO) acts independent of all
+other controls on the panel, and is either ON or OFF. It activates a separate emergency floodlight
+(also called _Thunderstorm Light_) that illuminates the cockpit in white. The lamp is
 energized through the Battery Bus to ensure it is always operational, even in
 case of total power loss.
 
