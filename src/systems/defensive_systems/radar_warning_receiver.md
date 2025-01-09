@@ -323,7 +323,7 @@ and will be shown with specific Missile symbols.
 
 Beyond those clear indications, missile launches are often preceded by the
 target platform activating a specific tracking-radar or significantly increasing
-its PRF, which the RWR often picks up and plays a _New-Guy_ tone for (3 short
+its PRF, which the RWR often picks up and plays a **New-Guy** tone for (3 short
 beeps). Activating **HANDOFF** mode often makes the high pitched PRF tone
 clearly audible.
 

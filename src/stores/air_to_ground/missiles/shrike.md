@@ -105,7 +105,42 @@ current state for best chance of missile success.
 
 #### WRCS AGM-45 Employment
 
-> 💡The WRCS mode is currently WIP and will the employment will be described once it is ready
+To effectively employ the AGM-45 Shrike in WRCS mode, begin by selecting AGM-45 as the delivery mode
+using the delivery mode knob. With the delivery mode configured, arm the hardpoint carrying the
+Shrike missile by pressing the corresponding Station Select Button. This action activates the
+missile’s onboard receiver, which begins scanning for emitters that match its pre-programmed
+parameters.
+
+Once the missile’s receiver detects a matching emitter, the WRCS begins calculating the optimal
+flight path and release envelope. This process relies on real-time data from the missile’s receiver
+and the aircraft’s INS, ensuring precise guidance. Confirm that emitter lock has been achieved by
+checking the relevant cockpit indicators before proceeding with the attack.
+
+Follow the WRCS-provided guidance carefully, using the ADI needles to adjust your orientation and
+the HSI and BDHI to monitor horizontal range to the target. As the aircraft aligns with the
+calculated trajectory, watch for one of the indexer lights to illuminate. Each light corresponds to
+a specific release maneuver:
+
+- If the Pull-up Light illuminates, begin a steady pull-up maneuver to meet the release parameters.
+  Rotate the aircraft smoothly back toward the horizon and, if necessary, continue into a shallow
+  climb profile.
+
+- If the Dive Light illuminates, initiate a controlled dive toward the target. This typically occurs
+  when the attack is initiated close to the target, so ensure you are prepared to commit quickly, as
+  proximity to the emitter increases the risk of enemy retaliation.
+
+- The Level Light indicates that the aircraft is in the correct orientation for missile release. In
+  some cases, this light may illuminate immediately or shortly after another maneuver, confirming
+  that you are ready for launch.
+
+When the conditions are correct and the indexer light confirms the appropriate release profile,
+press and hold the Bomb Release Button to initiate the missile launch sequence. Maintain the
+aircraft’s orientation as instructed until the Shrike is released from the hardpoint.
+
+One key consideration when employing the Shrike is that its success depends on the emitter remaining
+active. If the target emitter ceases operation, the missile may lose guidance and fail to reach its
+target. As such, timing and situational awareness are essential, especially when multiple missiles
+are deployed.
 
 ### Loft
 
@@ -168,7 +203,7 @@ be planned accordingly.
 #### Seeker RF Limit Table
 
 | Seeker       | Primary Targets                     | Lower RF Limit (GHz) | Upper RF Limit (GHz) |
-| ------------ | ----------------------------------- | :------------------: | :------------------: |
+|--------------|-------------------------------------|:--------------------:|:--------------------:|
 | Mk 22        | Fan Song (SA-2 TR)                  |         4.8          |         5.2          |
 | Mk 23        | Fan Song, Fire Can, Tin Shield      |          2           |          4           |
 | Mk 24 Mod 5  | Fire Can, Tin Shield                |         2.65         |         3.15         |
@@ -192,7 +227,7 @@ General Key:
 ##### Warsaw Pact land-based SAM and EWR system radars
 
 | Seeker       | SA-2  | SA-3 | SA-5  | SA-6  | SA-8 | SA-10 | SA-11 | SA-13 | SA-15 | SA-19 | EWR |
-| ------------ | :---: | :--: | :---: | :---: | :--: | :---: | :---: | :---: | :---: | :---: | :-: |
+|--------------|:-----:|:----:|:-----:|:-----:|:----:|:-----:|:-----:|:-----:|:-----:|:-----:|:---:|
 | Mk 22        | TR/RF |      |  TR   | SR/TR |      |       |       |  TR   | SR/TR |       | DE  |
 | Mk 23        | TR/RF |      |  TS   |       |      | TS/BB |       |  TR   |       | SR/TR |     |
 | Mk 24 Mod 5  | TR/RF |      |  TS   |       |      |  TS   |       |  TR   |       | SR/TR |     |
@@ -216,7 +251,7 @@ General Key:
 ##### Chinese land-based SAM Threats
 
 | Seeker       | CH-SA-4 (HQ-7) |
-| ------------ | :------------: |
+|--------------|:--------------:|
 | Mk 22        |                |
 | Mk 23        |                |
 | Mk 24 Mod 5  |                |
@@ -231,7 +266,7 @@ General Key:
 ##### Combined NATO and Warsaw Pact Anti-Aircraft Artillery (AAA) radars
 
 | Seeker       | Shilka | Fire Can | Gepard | M163 VADS | C-RAM |
-| ------------ | :----: | :------: | :----: | :-------: | ----- |
+|--------------|:------:|:--------:|:------:|:---------:|-------|
 | Mk 22        |        |    TR    |        |           |       |
 | Mk 23        |        |    TR    | SR/TR  |           |       |
 | Mk 24 Mod 5  |        |    TR    | SR/TR  |           |       |
@@ -246,7 +281,7 @@ General Key:
 ##### NATO land-based SAM system radars and EWRs
 
 | Seeker       | Hawk | Patriot | Rapier | Roland | NASAMS |
-| ------------ | :--: | :-----: | :----: | :----: | :----: |
+|--------------|:----:|:-------:|:------:|:------:|:------:|
 | Mk 22        |      |   STR   |   TR   |        |        |
 | Mk 23        |      |         |   TR   |        |        |
 | Mk 24 Mod 5  |      |         |   TR   |        |        |
@@ -265,7 +300,7 @@ General Key:
 ##### Soviet Naval Threats
 
 | Seeker       | Kirov | Slava | Kuznetsov | Molniya | Grisha | Krivak | Neustrashimy | Ropucha |
-| ------------ | :---: | :---: | :-------: | :-----: | :----: | :----: | :----------: | :-----: |
+|--------------|:-----:|:-----:|:---------:|:-------:|:------:|:------:|:------------:|:-------:|
 | Mk 22        |  TR   |  TR   |    TR     |         |   TR   |   TR   |      TR      |         |
 | Mk 23        | SR/TR | SR/TR |   SR/TR   |  SR/TR  |   TR   |   TR   |    SR/TR     |         |
 | Mk 24 Mod 5  | SR/TR |  TR   |   SR/TR   |  SR/TR  |   TR   |   TR   |    SR/TR     |         |
@@ -280,7 +315,7 @@ General Key:
 ##### Chinese Naval Threats
 
 | Seeker       | Type 052B | Type 052C | Type 054A | Type 071 |
-| ------------ | :-------: | :-------: | :-------: | :------: |
+|--------------|:---------:|:---------:|:---------:|:--------:|
 | Mk 22        |    TR     |           |    TR     |          |
 | Mk 23        |   SR/TR   |   SR/TR   |   SR/TR   |          |
 | Mk 24 Mod 5  |    TR     |   SR/TR   |    TR     |          |
@@ -295,7 +330,7 @@ General Key:
 ##### US Naval Threats
 
 | Seeker       | Ticonderoga | Arleigh Burke | Oliver Hazard Perry | Forrestal | Nimitz | Tarawa |
-| ------------ | :---------: | :-----------: | :-----------------: | :-------: | :----: | :----: |
+|--------------|:-----------:|:-------------:|:-------------------:|:---------:|:------:|:------:|
 | Mk 22        |             |               |         TR          |           |   TR   |        |
 | Mk 23        |             |               |         TR          |           |   TR   |        |
 | Mk 24 Mod 5  |             |               |         TR          |           |   TR   |        |
@@ -310,7 +345,7 @@ General Key:
 ##### British Naval Threats
 
 | Seeker       | Leander | Castle | Invincible |
-| ------------ | :-----: | ------ | ---------- |
+|--------------|:-------:|--------|------------|
 | Mk 22        |   TR    |        |            |
 | Mk 23        |   TR    |        |            |
 | Mk 24 Mod 5  |   TR    |        |            |
@@ -325,7 +360,7 @@ General Key:
 ##### Other Naval Threats
 
 | Seeker       | Veinticinco de Mayo | Condell | Tiger |
-| ------------ | :-----------------: | :-----: | :---: |
+|--------------|:-------------------:|:-------:|:-----:|
 | Mk 22        |                     |         |       |
 | Mk 23        |        SR/TR        |         |       |
 | Mk 24 Mod 5  |                     |         |       |
