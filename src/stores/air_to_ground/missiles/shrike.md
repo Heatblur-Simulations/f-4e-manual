@@ -233,8 +233,8 @@ General Key:
 | ------------ | :-----: | :--: | :-----: | :--: | :--: | :----------: | :---: | :---: | :-------: | :---: | :--: |
 | Mk 22        | (TR)/RF |      |   TR    |      |      |              |       | (TR)  |    TR     |       |  DE  |
 | Mk 23        |  TR/RF  |      | (TS)/TR |      |      | (TS)/(BB)/CS |  SR   |  TR   |   (SR)    | (SR)  |      |
-| Mk 24 Mod 5  |  TR/RF  |      | (TS)/TR |      |      |   (TS)/CS    |       |  TR   |           |  SR   |      |
-| Mk 24 Mod 34 |  TR/RF  |      | (TS)/TR |      |      |   (TS)/CS    |       |  TR   |           |  SR   |      |
+| Mk 24 Mod 5  |  TR/RF  |      | (TS)/TR |      |      |     (TS)     |       |  TR   |           |  SR   |      |
+| Mk 24 Mod 34 |  TR/RF  |      | (TS)/TR |      |      |  (TS)/BB/CS  |       |  TR   |           |  SR   |      |
 | Mk 25        | (TR)/RF |      |   TR    |      |      |              |       | (TR)  |    TR     |       |  DE  |
 | Mk 36        |  TR/RF  | (TR) |   TR    | (TR) |      |      TR      |  TR   |  TR   |           |       |      |
 | Mk 37        | (FF)/RF | (FF) | (FF)/TR |  SR  |  SR  |              |       |  TR   |           |       |      |
