@@ -222,24 +222,25 @@ General Key:
 - STR: Search and Tracking Radar
 - RF: Rangefinder
 
-> 💡 ~~Strikethroughed~~ radars = tone and needles are NOT provided but missiles still track.
+> 💡 Radars not within parenthesis = tone and needles are NOT provided but missile still tracks
+> radar.
 
 #### Land-based Threats
 
 ##### Warsaw Pact land-based SAM and EWR system radars
 
-| Seeker       |   SA-2    | SA-3 |   SA-5    |  SA-6  |   SA-8    |    SA-10     | SA-11  | SA-13  | SA-15  | SA-19  |  EWR   |
-| ------------ | :-------: | :--: | :-------: | :----: | :-------: | :----------: | :----: | :----: | :----: | :----: | :----: |
-| Mk 22        | TR~~/RF~~ |      |  ~~TR~~   |        |           |              |        |   TR   | ~~TR~~ |        | ~~DE~~ |
-| Mk 23        | ~~TR/RF~~ |      |    TS     |        |           | TS/BB~~/CS~~ | ~~SR~~ | ~~TR~~ |   SR   |   SR   |        |
-| Mk 24 Mod 5  | ~~TR/RF~~ |      |    TS     |        |           |      TS      |        | ~~TR~~ |        | ~~SR~~ |        |
-| Mk 24 Mod 34 | ~~TR/RF~~ |      |    TS     |        |           |  TS~~/CS~~   |        | ~~TR~~ |        |        |        |
-| Mk 25        | TR~~/RF~~ |      |  ~~TR~~   |        |           |              |        |   TR   | ~~TR~~ |        | ~~DE~~ |
-| Mk 36        | ~~TR/RF~~ |  TR  |  ~~TR~~   |   TR   |           |    ~~TR~~    | ~~TR~~ | ~~TR~~ |        |        |        |
-| Mk 37        | FF~~/RF~~ |  FF  | FF~~/TR~~ | ~~SR~~ | ~~SR/TR~~ |              |        | ~~TR~~ |        |        |        |
-| Mk 49 Mod 0  | ~~TR/RF~~ |  TR  |    TR     |   TR   |           |              |   TR   | ~~TR~~ |        |        |        |
-| Mk 49 Mod 1  | ~~TR/RF~~ |  TR  |    TR     |   TR   |           |              |   TR   | ~~TR~~ |        |        |        |
-| Mk 50        | TR~~/RF~~ |      | TS~~/TR~~ |        |           | TS/BB~~/CS~~ | ~~SR~~ |   TR   | SR/TR  |   SR   |   DE   |
+| Seeker       |  SA-2   | SA-3 |  SA-5   | SA-6 | SA-8 |    SA-10     | SA-11 | SA-13 |   SA-15   | SA-19 | EWR  |
+| ------------ | :-----: | :--: | :-----: | :--: | :--: | :----------: | :---: | :---: | :-------: | :---: | :--: |
+| Mk 22        | (TR)/RF |      |   TR    |      |      |              |       | (TR)  |    TR     |       |  DE  |
+| Mk 23        |  TR/RF  |      | (TS)/TR |      |      | (TS)/(BB)/CS |  SR   |  TR   |   (SR)    | (SR)  |      |
+| Mk 24 Mod 5  |  TR/RF  |      | (TS)/TR |      |      |   (TS)/CS    |       |  TR   |           |  SR   |      |
+| Mk 24 Mod 34 |  TR/RF  |      | (TS)/TR |      |      |   (TS)/CS    |       |  TR   |           |  SR   |      |
+| Mk 25        | (TR)/RF |      |   TR    |      |      |              |       | (TR)  |    TR     |       |  DE  |
+| Mk 36        |  TR/RF  | (TR) |   TR    | (TR) |      |      TR      |  TR   |  TR   |           |       |      |
+| Mk 37        | (FF)/RF | (FF) | (FF)/TR |  SR  |  SR  |              |       |  TR   |           |       |      |
+| Mk 49 Mod 0  |  TR/RF  | (TR) |  (TR)   | (TR) |      |      TR      | (TR)  |  TR   |           |       |      |
+| Mk 49 Mod 1  |  TR/RF  | (TR) |  (TR)   | (TR) |      |      TR      | (TR)  |  TR   |           |       |      |
+| Mk 50        | (TR)/RF |      | (TS)/TR |      |      | (TS)/(BB)/CS |  SR   | (TR)  | (SR)/(TR) | (SR)  | (DE) |
 
 > 💡 The SA-2/3/5 all can use the same Flat Face search radar with the SA-5 having the option of
 > using the Tin Shield as a search radar as well.
@@ -267,33 +268,33 @@ General Key:
 
 ##### Combined NATO and Warsaw Pact Anti-Aircraft Artillery (AAA) radars
 
-| Seeker       | Shilka | Fire Can |  Gepard   | M163 VADS | C-RAM |
-| ------------ | :----: | :------: | :-------: | :-------: | :---: |
-| Mk 22        |        |  ~~TR~~  |           |           |       |
-| Mk 23        |        |    TR    | ~~SR/TR~~ |           |       |
-| Mk 24 Mod 5  |        |    TR    | ~~SR/TR~~ |           |       |
-| Mk 24 Mod 34 |        |    TR    |           |           |       |
-| Mk 25        |        |  ~~TR~~  |           |           |       |
-| Mk 36        |        |  ~~TR~~  |           |           |       |
-| Mk 37        |        |  ~~TR~~  |           |           |       |
-| Mk 49 Mod 0  |        |  ~~TR~~  |           |           |       |
-| Mk 49 Mod 1  |        |  ~~TR~~  |           |           |       |
-| Mk 50        |        |    TR    |  ~~TR~~   |           |       |
+| Seeker       | Shilka | Fire Can | Gepard | M163 VADS | C-RAM |
+| ------------ | :----: | :------: | :----: | :-------: | ----- |
+| Mk 22        |        |    TR    |        |           |       |
+| Mk 23        |        |   (TR)   | SR/TR  |           |       |
+| Mk 24 Mod 5  |        |   (TR)   | SR/TR  |           |       |
+| Mk 24 Mod 34 |        |   (TR)   |        |           |       |
+| Mk 25        |        |    TR    |        |           |       |
+| Mk 36        |        |    TR    |        |           |       |
+| Mk 37        |        |    TR    |        |           |       |
+| Mk 49 Mod 0  |        |    TR    |        |           |       |
+| Mk 49 Mod 1  |        |    TR    |        |           |       |
+| Mk 50        |        |   (TR)   |   TR   |           |       |
 
 ##### NATO land-based SAM system radars and EWRs
 
-| Seeker       |   Hawk    | Patriot | Rapier | Roland | NASAMS |
-| ------------ | :-------: | :-----: | :----: | :----: | :----: |
-| Mk 22        |  ~~TR~~   | ~~STR~~ | ~~SR~~ |        |        |
-| Mk 23        |  ~~TR~~   |         | ~~SR~~ |        |        |
-| Mk 24 Mod 5  |  ~~TR~~   |         | ~~SR~~ |        |        |
-| Mk 24 Mod 34 |  ~~TR~~   |         | ~~SR~~ |        |        |
-| Mk 25        |  ~~TR~~   | ~~STR~~ |   SR   |        |        |
-| Mk 36        |  ~~TR~~   |         | ~~SR~~ | ~~TR~~ |   SR   |
-| Mk 37        | ~~SR/TR~~ |         | ~~SR~~ |        |        |
-| Mk 49 Mod 0  |  ~~TR~~   |         | ~~SR~~ |        |        |
-| Mk 49 Mod 1  |  ~~TR~~   |         | ~~SR~~ |        |        |
-| Mk 50        |  ~~TR~~   | ~~STR~~ |   SR   |        |        |
+| Seeker       | Hawk  | Patriot | Rapier | Roland | NASAMS |
+| ------------ | :---: | :-----: | :----: | :----: | :----: |
+| Mk 22        |  TR   |   STR   |   SR   |        |        |
+| Mk 23        |  TR   |         |   SR   |        |        |
+| Mk 24 Mod 5  |  TR   |         |   SR   |        |        |
+| Mk 24 Mod 34 |  TR   |         |   SR   |        |        |
+| Mk 25        |  TR   |   STR   |  (SR)  |        |        |
+| Mk 36        |  TR   |         |   SR   |   TR   |  (SR)  |
+| Mk 37        | SR/TR |         |   SR   |        |        |
+| Mk 49 Mod 0  |  TR   |         |   SR   |        |        |
+| Mk 49 Mod 1  |  TR   |         |   SR   |        |        |
+| Mk 50        |  TR   |   STR   |  (SR)  |        |        |
 
 #### Naval Threats
 
