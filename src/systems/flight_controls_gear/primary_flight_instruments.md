@@ -245,8 +245,9 @@ on a single boom on the aircraft's nose. Both the pitot tube and static ports
 are prone to blockages caused by ice accumulation. To alleviate icing of the pitot head,
 a Pitot Heat Switch is found in the front cockpit right console.
 
-> 🟡 CAUTION: The Pitot Heat switch should always be turned on before takeoff but not for
-> longer than one minute as it could damage the instrument.
+> 🟡 CAUTION: The Pitot Heat switch should always be turned on before takeoff as it may result in flight control 
+> issues caused by bellows freezing, as well as airspeed or altimeter issues, but shouldn't be allowed to run
+> longer than one minute on the ground as it could damage the instrument.
 
 ## Air Data Computer System
 
