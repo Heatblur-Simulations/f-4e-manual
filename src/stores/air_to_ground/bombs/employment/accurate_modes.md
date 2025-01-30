@@ -9,7 +9,7 @@ value for the WRCS.
 
 The pilot flies a dive attack on the target while the WSO obtains accurate
 target range information using the radar. Once the target is designated, the
-pilot simple holds down the Bomb Button and begins to gently pull out of the
+pilot simply holds down the Bomb Button and begins to gently pull out of the
 dive. Weapons automatically release at the right moment during the maneuver.
 
 Dive Toss uses the [WRCS](../../../../systems/weapon_systems/wrcs.md) and
