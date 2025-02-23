@@ -18,7 +18,7 @@ If the mission has assigned the aircraft a series of waypoints through the
 mission editor, this will be available by default as the Primary Flight Plan.
 
 Each waypoint in the flight plan can be designated as one of several special
-types. These designations will influence Jesters actions and the phrases he uses
+types. These designations will influence Jesters actions and the dialog phrases he uses
 as one approach the waypoint. The types are:
 
 - **Turn Point (default)**: This is the standard waypoint type. Jester will
@@ -49,7 +49,7 @@ as one approach the waypoint. The types are:
 - **Homebase (HB)** and **Alternate (ALT)**: These are designated landing
   points. Jester will not automatically switch to the next waypoint at these
   points, and he will report as the aircraft approaches the Homebase.
-- **Combat Air Patrol (CAP)** The first waypoint designated as CAP will be saved
+- **Combat Air Patrol (CAP)**: The first waypoint designated as CAP will be saved
   as _CAP1_, and the second will be saved as _CAP2_, regardless of their
   positions in the flight plan. Jester will ask how long the pilot intends to
   remain on station at _CAP1_. He will then cycle between _CAP1_ and _CAP2_
