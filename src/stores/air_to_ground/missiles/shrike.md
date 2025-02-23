@@ -169,8 +169,8 @@ same for the AGM-45 Shrike_
 
 This mode works exactly the same as it would for bombs so pre-planning is necessary. Select an IP
 calculate the timers and fly the same attack profile as for Loft bombing. Note that in this mode the
-Loft seeker of the AGM-45 Shrike needs to sense a differential pressure of 1 Bar and needs to sense
-a barometric height of over 18,000ft to arm itself and start searching.
+sensor of the AGM-45 Shrike needs to sense a differential pressure of 1 psi and needs to sense
+a barometric height below 18,000ft to arm itself and start guidance.
 
 ### Direct Mode
 
