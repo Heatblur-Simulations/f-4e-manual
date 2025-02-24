@@ -90,16 +90,27 @@ local AssistAAR = Class(Behavior) -- inherits from Behavior
 ## Debugging
 
 Unfortunately, we do not have any Lua debugger setup. One has to rely on caveman
-debugging with prints:
+debugging with prints.
+
+To aid in that, Jester offers an in-game console UI (<kbd>RCTRL</kbd>+<kbd>L</kbd>).
+This console displays any string logged via `Log(...)`.
+
+Further, it offers a console prompt allowing execution of Lua code.
+
+![jester_console_hello_world](../../../img/jester_console_hello_world.jpg)
+
+The prompt can also be used to inspect the running code, for example by entering
+a command such as
 
 ```lua
-print("hello world")
-print("Person:", person)
-print("Check:", foo, bar, baz)
+Log(GetJester().behaviors[require('radar.MoveRadarAntenna')].current_antenna_degrees.value)
 ```
 
-Which can then be seen in console. Note that it might be necessary to
-periodically call `io.flush()` to actually see the prints.
+![jester_console_inspect](../../../img/jester_console_inspect.jpg)
+
+> 🚧 HB UI does not support the full keyboard yet, for example `().[]:"'` cannot be entered.
+> It is thus recommended to prepare the prompt in an external text editor and simply
+> copy-paste it into the UI instead.
 
 We also provide a Lua playground in `WizardJester.lua`, which is always executed
 directly on startup.
