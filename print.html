@@ -15791,6 +15791,11 @@ executed a full alignment, then shut it down again, while memorizing parts of
 the alignment data.</p>
 <p>See the <a href="dcs/../systems/nav_com/ins.html#heading-memory-alignment">INS section</a> for
 details on how to execute a stored alignment.</p>
+<h2 id="allow-jester-modifications"><a class="header" href="#allow-jester-modifications">Allow Jester Modifications</a></h2>
+<p>If checked, players can customize their Jester with user made mods.
+See chapter <a href="dcs/modding/jester/lua_api.html#user-mods">9.12.1.2 Lua API</a> for details.</p>
+<p>Unchecked, any Jester mods will be ignored and the player automatically
+uses the original Jester behavior.</p>
 <h2 id="allow-night-vision-goggles"><a class="header" href="#allow-night-vision-goggles">Allow Night Vision Goggles</a></h2>
 <p>Although F-4E crews never actually operated with NVGs, this option allows
 mission designers to create modern or fictional scenarios where Phantom crews
@@ -16638,6 +16643,10 @@ PNT_VOR_Light;cockpit.html#vor_light
 <p>Jester is fully open to modding via a Lua-API. Any feature and functionality of Jester
 has been written by using this API.</p>
 <p><img src="dcs/modding/jester/../../../img/jester_ai_code.jpg" alt="Jester" /></p>
+<blockquote>
+<p>💡 Mission designers can enforce an unmodified Jester.
+See chapter <a href="dcs/modding/jester/../../mission_editor.html#allow-jester-modifications">9.10. Mission Editor</a> for details.</p>
+</blockquote>
 <p>The Jester AI primarily consists of:</p>
 <ul>
 <li>logic - written with the <a href="dcs/modding/jester/lua_api.html">Lua-API</a></li>
@@ -16678,7 +16687,7 @@ when Jester is in a stressed mood. <code>HI</code> files might for example have 
 screaming instead of talking calm.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="lua-api"><a class="header" href="#lua-api">Lua API</a></h1>
 <p>This gives a quick overview of Lua, which Jester is primarily coded in; and
-explains the Jester API itself.</p>
+explains the Jester API itself, as well as how to create custom mods.</p>
 <h2 id="get-started-with-lua"><a class="header" href="#get-started-with-lua">Get started with Lua</a></h2>
 <p>Useful links:</p>
 <ul>
@@ -16761,6 +16770,37 @@ directly on startup.</p>
 <p>It is also possible to edit Lua files while DCS runs, without restarting the
 game. Simply edit a LUA file and then reload the DCS mission with
 <kbd>CTRL</kbd>+<kbd>R</kbd> and the new Lua file will be effective.</p>
+<h2 id="user-mods"><a class="header" href="#user-mods">User Mods</a></h2>
+<h3 id="add-content"><a class="header" href="#add-content">Add content</a></h3>
+<p>Custom Jester logic is placed in the <strong>Saved Games</strong> folder, within the <code>jester\mods</code> subfolder.
+The full path might for example look like:</p>
+<p><code>C:\Users\John Doe\Saved Games\DCS_F4E\jester\mods</code></p>
+<p>Any Lua file placed in this folder will be made available and can be loaded
+through for example <code>require 'MyFile'</code> within Lua.</p>
+<p>Any Lua file placed in the subfolder <code>jester\mods\init</code> will not only be made available,
+but also be executed when spawning into the aircraft. This mechanism allows
+announcing your custom content and adding it to Jester through a callback register called <code>mod_init</code>:</p>
+<pre><code class="language-lua">-- Place this in a LUA file in jester\mods\init
+mod_init[#mod_init+1] = function(jester)
+  -- Executed at spawn, use 'jester' to register your logic
+  Log("Hello World!")
+end
+</code></pre>
+<blockquote>
+<p>💡 When the <code>jester\mods</code> folder does not exist, it will be automatically created
+on first spawn of the aircraft. Further, the folder will be pre-populated with
+a simple <code>ExampleMod</code>.</p>
+</blockquote>
+<h3 id="replace-content"><a class="header" href="#replace-content">Replace content</a></h3>
+<p>Existing behavior of Jester can be replaced by simply adding a Lua file under
+the same name than the original file you want to replace to the <code>jester\mods</code> folder.</p>
+<p>For example, in order to replace <code>MoveRadarAntenna.lua</code>
+(e.g. <code>G:\DCS World OpenBeta\Mods\aircraft\F-4E\Jester\radar\MoveRadarAntenna.lua</code>) with custom logic,
+place a file that is called <code>MoveRadarAntenna.lua</code> as well into the modding folder
+(e.g. <code>C:\Users\John Doe\Saved Games\DCS_F4E\jester\mods\radar\MoveRadarAntenna.lua</code>).</p>
+<p>Now, when the existing logic tries to load this file using <code>require 'radar.MoveRadarAntenna'</code>,
+your custom file will be prioritized and loaded instead. To get back the original behavior,
+simply delete your custom file.</p>
 <h2 id="jester-api"><a class="header" href="#jester-api">Jester API</a></h2>
 <p>Jesters logic is divided into 6 layers of abstraction:</p>
 <ul>
@@ -16771,7 +16811,7 @@ game. Simply edit a LUA file and then reload the DCS mission with
 <li>Task</li>
 <li>Action</li>
 </ul>
-<p>Code is placed in the Mod-Folder, for example:</p>
+<p>The original logic is located in the DCS Mod-Folder, for example:</p>
 <p><code>G:\DCS World OpenBeta\Mods\aircraft\F-4E\Jester</code></p>
 <h3 id="example"><a class="header" href="#example">Example</a></h3>
 <p>As an example that touches most of the layers, we want to create a feature that
