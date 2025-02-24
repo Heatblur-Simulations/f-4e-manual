@@ -35,6 +35,7 @@
   --mobile-nav-border: rgba(0, 0, 0, 0.1);
   --mobile-nav-shadow: rgba(0, 0, 0, 0.5);
   --color-scheme: dark;
+  --num-color: orange;
 
   --menu-affix: #2e3a5c;
   --menu-main-chapter-active: #2e3a5c;
@@ -142,13 +143,6 @@
 .hb_dark .hljs-keyword,
 .hb_dark .javascript .hljs-function {
   color: #b294bb;
-}
-
-.hb_dark .hljs {
-  display: block;
-  overflow-x: auto;
-  background: #1d1f21;
-  color: #c5c8c6;
 }
 
 .hb_dark .coffeescript .javascript,

@@ -42,6 +42,19 @@
   padding-left: 0px;
 }
 
+@media only screen and (max-width: 500px) {
+  .content main {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  
+  .page {
+    background-color: var(--content-page-bg) !important;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
 .menu-bar {
   margin-left: 0px !important;
   max-width: var(--content-max-width) !important;
@@ -180,3 +193,24 @@ ol.chapter {
 #content table td {
   max-width: 250px;
 }
+
+#content table th:first-child {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+num {
+  color: var(--num-color);
+  font-weight: bold;
+}
+
+pdf {
+  display: none;
+}
+
+/* .table-wrapper{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+} */
