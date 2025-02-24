@@ -1,7 +1,7 @@
 # Lua API
 
 This gives a quick overview of Lua, which Jester is primarily coded in; and
-explains the Jester API itself.
+explains the Jester API itself, as well as how to create custom mods.
 
 ## Get started with Lua
 
@@ -119,6 +119,48 @@ It is also possible to edit Lua files while DCS runs, without restarting the
 game. Simply edit a LUA file and then reload the DCS mission with
 <kbd>CTRL</kbd>+<kbd>R</kbd> and the new Lua file will be effective.
 
+## User Mods
+
+### Add content
+
+Custom Jester logic is placed in the **Saved Games** folder, within the `jester\mods` subfolder.
+The full path might for example look like:
+
+`C:\Users\John Doe\Saved Games\DCS_F4E\jester\mods`
+
+Any Lua file placed in this folder will be made available and can be loaded
+through for example `require 'MyFile'` within Lua.
+
+Any Lua file placed in the subfolder `jester\mods\init` will not only be made available,
+but also be executed when spawning into the aircraft. This mechanism allows
+announcing your custom content and adding it to Jester through a callback register called `mod_init`:
+
+```lua
+-- Place this in a LUA file in jester\mods\init
+mod_init[#mod_init+1] = function(jester)
+  -- Executed at spawn, use 'jester' to register your logic
+  Log("Hello World!")
+end
+```
+
+> 💡 When the `jester\mods` folder does not exist, it will be automatically created
+> on first spawn of the aircraft. Further, the folder will be pre-populated with
+> a simple `ExampleMod`.
+
+### Replace content
+
+Existing behavior of Jester can be replaced by simply adding a Lua file under
+the same name than the original file you want to replace to the `jester\mods` folder.
+
+For example, in order to replace `MoveRadarAntenna.lua`
+(e.g. `G:\DCS World OpenBeta\Mods\aircraft\F-4E\Jester\radar\MoveRadarAntenna.lua`) with custom logic,
+place a file that is called `MoveRadarAntenna.lua` as well into the modding folder
+(e.g. `C:\Users\John Doe\Saved Games\DCS_F4E\jester\mods\radar\MoveRadarAntenna.lua`).
+
+Now, when the existing logic tries to load this file using `require 'radar.MoveRadarAntenna'`,
+your custom file will be prioritized and loaded instead. To get back the original behavior,
+simply delete your custom file.
+
 ## Jester API
 
 Jesters logic is divided into 6 layers of abstraction:
@@ -130,7 +172,7 @@ Jesters logic is divided into 6 layers of abstraction:
 - Task
 - Action
 
-Code is placed in the Mod-Folder, for example:
+The original logic is located in the DCS Mod-Folder, for example:
 
 `G:\DCS World OpenBeta\Mods\aircraft\F-4E\Jester`
 
