@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="{{ language }}" class="{{ default_theme }}" dir="{{ text_direction }}">
+<html lang="{{ language }}" class="{{ default_theme }} sidebar-visible" dir="{{ text_direction }}">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -33,10 +33,6 @@
         {{/if}}
 
         <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{{ path_to_root }}FontAwesome/css/font-awesome.css">
         {{#if copy_fonts}}
         <link rel="stylesheet" href="{{ path_to_root }}fonts/fonts.css">
@@ -47,24 +43,25 @@
         <link rel="stylesheet" href="{{ path_to_root }}tomorrow-night.css">
         <link rel="stylesheet" href="{{ path_to_root }}ayu-highlight.css">
 
+        {{#if mathjax_support}}
+        <!-- MathJax -->
+        <script src="{{ path_to_root }}js/MathJax_2.7.1.js"></script>
+        {{/if}}
         <!-- Custom theme stylesheets -->
         {{#each additional_css}}
         <link rel="stylesheet" href="{{ ../path_to_root }}{{ this }}">
         {{/each}}
 
-        {{#if mathjax_support}}
-        <!-- MathJax -->
-        <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-        {{/if}}
-    </head>
-    <body class="sidebar-visible no-js">
-    <div id="body-container">
         <!-- Provide site root to javascript -->
         <script>
             var path_to_root = "{{ path_to_root }}";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "{{ preferred_dark_theme }}" : "{{ default_theme }}";
         </script>
-
+        <!-- Start loading toc.js asap -->
+        <script src="{{ path_to_root }}toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
         <script>
             try {
@@ -86,19 +83,16 @@
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
-            var html = document.querySelector('html');
+            const html = document.documentElement;
             html.classList.remove('{{ default_theme }}')
             html.classList.add(theme);
-            var body = document.querySelector('body');
-            body.classList.remove('no-js')
-            body.classList.add('js');
+            html.classList.add("js");
         </script>
 
         <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            var body = document.querySelector('body');
             var sidebar = null;
             var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
@@ -108,42 +102,23 @@
                 sidebar = 'hidden';
             }
             sidebar_toggle.checked = sidebar === 'visible';
-            body.classList.remove('sidebar-visible');
-            body.classList.add("sidebar-" + sidebar);
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <div class="menu-logo"><img src="/img/f4line.svg"></div>
-
-                {{#toc}}{{/toc}}
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="{{ path_to_root }}toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
             </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
-        <!-- Track and set sidebar scroll position -->
-        <script>
-            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
-            sidebarScrollbox.addEventListener('click', function(e) {
-                if (e.target.tagName === 'A') {
-                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
-                }
-            }, { passive: true });
-            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
-            sessionStorage.removeItem('sidebar-scroll');
-            if (sidebarScrollTop) {
-                // preserve sidebar scroll position when navigating via links within sidebar
-                sidebarScrollbox.scrollTop = sidebarScrollTop;
-            } else {
-                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
-                var activeSection = document.querySelector('#sidebar .active');
-                if (activeSection) {
-                    activeSection.scrollIntoView({ block: 'center' });
-                }
-            }
-        </script>
-
         <div id="page-wrapper" class="page-wrapper">
+
             <div class="page">
                 {{> header}}
                 <div id="menu-bar-hover-placeholder"></div>
@@ -159,10 +134,9 @@
                             <li role="none"><button role="menuitem" class="theme" id="hb_light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="hb_dark">Dark</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="pdf">(PDF)</button></li>
-
                         </ul>
                         {{#if search_enabled}}
-                        <button id="search-toggle" class="icon-button" type="button" title="Search (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
                             <i class="fa fa-search"></i>
                         </button>
                         {{/if}}
@@ -251,7 +225,7 @@
                         {{#next}}
                             <!-- Navigation button at bottom -->
                             <a rel="next prefetch" href="{{ path_to_root }}{{link}}" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i><span class="nav-chapters-text">Prev</span>
+                                <i class="fa fa-angle-right"></i><span class="nav-chapters-text">Next</span>
                             </a>
                             <!-- Navigation button on the right, not displayed, but needed for Aria nav -->
                             <a rel="next prefetch" href="{{ path_to_root }}{{link}}" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">

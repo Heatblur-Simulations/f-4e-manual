@@ -32,6 +32,11 @@
   --mobile-nav-bg-active: rgb(218, 218, 218);
   --mobile-nav-border: rgba(0, 0, 0, 0.1);
   --mobile-nav-shadow: rgba(255, 255, 255, 0.5);
+  --num-color: #fe640b;
+}
+
+.pdf pdf {
+  display: block !important;
 }
 
 /* Code Style */
