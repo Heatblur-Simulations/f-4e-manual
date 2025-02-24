@@ -5,6 +5,9 @@ has been written by using this API.
 
 ![Jester](../../../img/jester_ai_code.jpg)
 
+> 💡 Mission designers can enforce an unmodified Jester.
+> See chapter [9.10. Mission Editor](../../mission_editor.md#allow-jester-modifications) for details.
+
 The Jester AI primarily consists of:
 
 * logic - written with the [Lua-API](lua_api.md)

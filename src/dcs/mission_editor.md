@@ -118,6 +118,14 @@ the alignment data.
 See the [INS section](../systems/nav_com/ins.md#heading-memory-alignment) for
 details on how to execute a stored alignment.
 
+## Allow Jester Modifications
+
+If checked, players can customize their Jester with user made mods.
+See chapter [9.12.1.2 Lua API](modding/jester/lua_api.md#user-mods) for details.
+
+Unchecked, any Jester mods will be ignored and the player automatically
+uses the original Jester behavior.
+
 ## Allow Night Vision Goggles
 
 Although F-4E crews never actually operated with NVGs, this option allows
