@@ -16741,13 +16741,21 @@ local AssistAAR = Class(Behavior) -- inherits from Behavior
 </code></pre>
 <h2 id="debugging"><a class="header" href="#debugging">Debugging</a></h2>
 <p>Unfortunately, we do not have any Lua debugger setup. One has to rely on caveman
-debugging with prints:</p>
-<pre><code class="language-lua">print("hello world")
-print("Person:", person)
-print("Check:", foo, bar, baz)
+debugging with prints.</p>
+<p>To aid in that, Jester offers an in-game console UI (<kbd>RCTRL</kbd>+<kbd>L</kbd>).
+This console displays any string logged via <code>Log(...)</code>.</p>
+<p>Further, it offers a console prompt allowing execution of Lua code.</p>
+<p><img src="dcs/modding/jester/../../../img/jester_console_hello_world.jpg" alt="jester_console_hello_world" /></p>
+<p>The prompt can also be used to inspect the running code, for example by entering
+a command such as</p>
+<pre><code class="language-lua">Log(GetJester().behaviors[require('radar.MoveRadarAntenna')].current_antenna_degrees.value)
 </code></pre>
-<p>Which can then be seen in console. Note that it might be necessary to
-periodically call <code>io.flush()</code> to actually see the prints.</p>
+<p><img src="dcs/modding/jester/../../../img/jester_console_inspect.jpg" alt="jester_console_inspect" /></p>
+<blockquote>
+<p>🚧 HB UI does not support the full keyboard yet, for example <code>().[]:"'</code> cannot be entered.
+It is thus recommended to prepare the prompt in an external text editor and simply
+copy-paste it into the UI instead.</p>
+</blockquote>
 <p>We also provide a Lua playground in <code>WizardJester.lua</code>, which is always executed
 directly on startup.</p>
 <p>It is also possible to edit Lua files while DCS runs, without restarting the
