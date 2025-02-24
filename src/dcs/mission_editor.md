@@ -126,6 +126,10 @@ See chapter [9.12.1.2 Lua API](modding/jester/lua_api.md#user-mods) for details.
 Unchecked, any Jester mods will be ignored and the player automatically
 uses the original Jester behavior.
 
+> 💡 This option is decoupled from DCS Integration Check (IC) system.
+> That is, you can for example enforce IC on your server, while at the same time
+> allowing users to mod their Jester.
+
 ## Allow Night Vision Goggles
 
 Although F-4E crews never actually operated with NVGs, this option allows
