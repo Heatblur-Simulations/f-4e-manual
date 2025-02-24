@@ -9,11 +9,14 @@ $.fn.onClassChange = function(cb) {
   });
 }
 
+// Disabled for now, because it causes page-changes when clicking the chapter collapse/expand button as well
+/*
 $("li.chapter-item").on("click", function (e) {
   // When clicking next to the anchor in the nav bar, click the anchor as well
   e.stopPropagation();
   $(this).find("a")[0].click();
 });
+*/
 
 $("div.menu-logo img, h1.menu-title").on("click", function (e) {
   // When clicking logo or title text, click main chapter link
@@ -34,3 +37,13 @@ $(document).ready(function() {
 })
 
 $("html").onClassChange((el, newClass) => ensureLogoVisible());
+
+window.setTheme = function setTheme(theme_id) {
+  $("button.theme#" + theme_id).click();
+}
+
+window.enableGameMode = function enableGameMode() {
+  $("#theme-toggle").hide(); // Themes switch automatically based on in-game time
+  $(".right-buttons").hide(); // Print, PDF, GitHub, Edit Buttons
+  $(".menu-logo").hide(); // Logo on the sidebar uses absolute path and hence is broken in-game
+}

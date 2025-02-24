@@ -15,18 +15,20 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - uses: actions/checkout@v4.1.1
+        with:
+          token: ${{ secrets.GH_PAGES_DEPLOY_BOT_PAT }}
 
       - name: Setup mdBook
-        uses: peaceiris/actions-mdbook@v1.2.0
+        uses: peaceiris/actions-mdbook@v2.0.0
         with:
-          mdbook-version: "latest"
+          mdbook-version: "0.4.42"
       - run: mdbook build
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3.9.3
+        uses: peaceiris/actions-gh-pages@v4.0.0
         if: ${{ github.ref == 'refs/heads/master' }}
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.GH_PAGES_DEPLOY_BOT_PAT }}
           publish_dir: ./book/html
           publish_branch: html
           cname: f4.manuals.heatblur.se
