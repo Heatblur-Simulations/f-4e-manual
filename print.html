@@ -16807,6 +16807,16 @@ place a file that is called <code>MoveRadarAntenna.lua</code> as well into the m
 <p>Now, when the existing logic tries to load this file using <code>require 'radar.MoveRadarAntenna'</code>,
 your custom file will be prioritized and loaded instead. To get back the original behavior,
 simply delete your custom file.</p>
+<blockquote>
+<p>🟡 CAUTION: It is not possible to replace any files from the following folders:</p>
+<ul>
+<li>base</li>
+<li>memory</li>
+<li>senses</li>
+<li>stats</li>
+</ul>
+<p>Attempting to do so results in a warning message being shown and all Jester mods getting disabled.</p>
+</blockquote>
 <h2 id="jester-api"><a class="header" href="#jester-api">Jester API</a></h2>
 <p>Jesters logic is divided into 6 layers of abstraction:</p>
 <ul>
