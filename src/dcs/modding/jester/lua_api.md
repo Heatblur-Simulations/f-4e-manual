@@ -161,6 +161,15 @@ Now, when the existing logic tries to load this file using `require 'radar.MoveR
 your custom file will be prioritized and loaded instead. To get back the original behavior,
 simply delete your custom file.
 
+> 🟡 CAUTION: It is not possible to replace any files from the following folders:
+>
+> - base
+> - memory
+> - senses
+> - stats
+>
+> Attempting to do so results in a warning message being shown and all Jester mods getting disabled.
+
 ## Jester API
 
 Jesters logic is divided into 6 layers of abstraction:
