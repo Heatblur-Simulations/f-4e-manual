@@ -35,6 +35,11 @@
   --num-color: #fe640b;
 }
 
+.pdf .content main {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
 .pdf pdf {
   display: block !important;
 }
