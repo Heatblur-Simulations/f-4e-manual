@@ -371,6 +371,11 @@ the type withdrawn from active duty service. US Air National Guard units would
 maintain the type until the mid-90s, with various units seeing them replaced by
 other types as appropriate for their respective missions and locations.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cjQl3OLgwwM?si=W8r-54On71t13gEP"
+title="F-4 Phantom II Documentary (1987)" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## The F-4E Phantom II Today
 
 Of all Phantom models, the F-4E was the most numerous version that has been

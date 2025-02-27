@@ -18,6 +18,11 @@ The phases are commanded and switched by the pilot using the Context Action.
 Additionally, Jester will behave differently during a dogfight, indicated by the
 pilot entering CAGE mode.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0rIbt3GPbso?si=FutGOKAZdAlsv_bZ"
+title="DCS F-4 Phantom - Air to Air Jester Guide" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Scan
 
 This is the default phase Jester will be in. He will automatically point the
@@ -173,3 +178,8 @@ at the Phantom.
 > target moving and hence changing its aspect after launch, such attacks
 > generally provide a rather low hit probability. However, it can be the only
 > option in certain situations, such as very low altitude fights.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/krnmdPE_xUc?si=2EFeiSNCdhcDosk2"
+title="DCS F-4E - Boresight Mode, AIM-7 & Speedgates [Essential]" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

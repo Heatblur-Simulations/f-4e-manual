@@ -1,5 +1,10 @@
 # General Radar Operation
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x5oJUPPo8zQ?si=WExXfuPLpjgwQviK"
+title="Interpret the Smudges - DCS F-4E Phantom II Radar Introduction" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Magnetron and Klystron
 
 ![Radar Antenna Feedhorn](../../img/radar_antenna_feedhorn.jpg)

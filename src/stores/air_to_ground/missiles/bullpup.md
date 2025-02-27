@@ -12,6 +12,11 @@ It was the first of its kind that reached series production and was used in
 service during the early 1960s until it was later supplanted by the
 [AGM-62 Walleye](../bombs/tv_guided_bombs.md).
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xvLxZSb5dHc?si=RfY8ouhPHuarxRUL"
+title="DCS F-4E Phantom: AGM-12 Bullpups" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Variants
 
 Available variants include:

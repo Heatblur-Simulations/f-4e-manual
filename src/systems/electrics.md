@@ -9,6 +9,11 @@ electrical power from ground crew. The two generator arrangement, while normally
 working independently, includes a bus tie that can connect both buses together
 to draw power from a single generator in case of failure.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7FK2KzCHk1E?si=9gBRVQutut4lDa3K"
+title="F-4E Electrical and Lighting Systems | DCS World" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Generator Indicator Lights
 
 ![GenInd](../img/pilot_generator_lights.jpg)

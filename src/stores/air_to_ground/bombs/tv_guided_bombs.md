@@ -29,6 +29,11 @@ collateral damage. These TV-guided bombs showcased the adaptability of the F-4E
 Phantom II in integrating advanced munitions to meet evolving mission
 requirements.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ko1OaDN4Y5g?si=SgfKXHcAs_l_XzmP"
+title="F-4E Bombing Tutorial - AGM62 Walleye" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Variants
 
 Available TV guided bombs include:

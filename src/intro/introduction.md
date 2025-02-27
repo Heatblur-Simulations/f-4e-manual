@@ -63,3 +63,8 @@ In the name of the entire Heatblur Team,\
 _Nicholas Dackard, Heatblur Simulations, CEO and Founder_
 
 ![Phantom flying](../img/phantom_flying_wide.jpg)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6b6DKfTsc7c?si=brMJfwl6w0z1km5w"
+title="DCS: F-4E PHANTOM II - LAUNCH TRAILER" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

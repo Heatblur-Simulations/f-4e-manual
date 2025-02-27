@@ -1,5 +1,10 @@
 # Taxi
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rmiTivwVlIk?si=R23kcuVHzcpjXQxi"
+title="Taxi & Takeoff Tutorial for the DCS F-4E Phantom by Heatblur" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Before Taxi
 
 ### Pilot

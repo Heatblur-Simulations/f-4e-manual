@@ -41,6 +41,11 @@ solution prior to launch if the situation allows. The amount of maneuver
 available to a given Sidewinder type is based on the variant, and should be
 considered before making the selection.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cdEnnWH3VTA?si=Swkt85oudtjBZDGE"
+title="Air to Air Weapons Set up and Employment | DCS World F-4 Phantom" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Launch Sequence
 
 ![ext_weapons_launch_sequence_ir](../../img/ext_launch_seq_heat.jpg)

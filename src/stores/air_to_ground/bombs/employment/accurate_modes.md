@@ -59,6 +59,11 @@ At the point where the bomb computed trajectory will intersect the target, the
 [WRCS](../../../../systems/weapon_systems/wrcs.md) provides the release signal,
 dropping rounds based on the settings chosen for number and interval.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-eHZRXwmELY?si=3GDLzXoZRFRXoiR1"
+title="How to (Actually) Drop Bombs In The F-4E" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Target Find - TGT FIND
 
 Target Find was originally just a utility mode derived from OFFSET mode; where
@@ -87,3 +92,8 @@ solution are met.
 > 💡 TGT FIND with the Pave Spike is comparable to CCRP modes in newer aircraft.
 > Designate the target with the pod, hold down the bomb button and weapons
 > automatically release at the right moment.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FZNtAqOZGgA?si=sbQ7nQk2CZcFV6iA"
+title="DCS: F-4E Phantom: Pave Spike + Laser guided bombs Tutorial" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

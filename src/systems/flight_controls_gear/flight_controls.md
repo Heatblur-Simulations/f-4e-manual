@@ -14,6 +14,11 @@ rudder pedals. Secondary controls are
 [trailing edge flaps](./flight_controls.md#slats-flap-system),
 and wing mounted [speed brakes](./flight_controls.md#speed-brakes).
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EXsTlmokAlQ?si=QZfuCaOXcLmS9g1Z"
+title="F-0005 Flight Control Systems for the F-4" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Bobweights vs. Bellows
 
 Linkages between stick, control surfaces and interactions with the trim system,

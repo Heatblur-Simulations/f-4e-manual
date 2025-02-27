@@ -42,6 +42,11 @@ pod looking straight down.
 > 💡 The WRCS mode automatically falls back to the 12-VIS mode in case the WRCS
 > integration is deactivated.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kNsCHg5YZyU?si=INDz-ybqpRbVwMsN"
+title="DCS: F-4E Phantom - Pave Spike - Coordinates" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Track mode
 
 Once the target, or general target area, has been found using the acquisition
@@ -82,6 +87,11 @@ stabilization.
 > tracking system started to behave very odd and it was very difficult to
 > restore proper behavior. The crew often had to deactivate the INS integration
 > temporarily in order to disable the automatic tracking.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O5Sdfbeuj0U?si=bNw2pKfrzehRq-P6"
+title="DCS: F-4E Phantom - Pave Spike - Tracking" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Memory Mode
 

@@ -15,6 +15,11 @@ responsible for stores and mode selection, and initial seeker placement. From
 the point the seeker head is stabilized on the intended target area, either crew
 member can direct the final intended contrast target.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A4m8lyxbCVw?si=j7zYMHmHzk1OF6dJ"
+title="DCS F-4E Phantom: AGM-65 Maverick Tutorial" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Variants
 
 Available variants include:

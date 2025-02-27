@@ -6,6 +6,11 @@ the Radar Set Control Panel and the Control Monitor Panel.
 Radar returns are displayed on the DSCG screen, while the Antenna Hand Control
 stick on the right console of the WSO cockpit can be used to operate the radar.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S_bIbU4Yoto?si=5SARcw1-VCX2tnGH"
+title="DCS F-4E Air-to-Air I: First Steps" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Radar Set Control Panel
 
 ![wso_radar_control_panel](../../img/wso_radar_panel.jpg)
@@ -157,6 +162,11 @@ where TAS is the aircraft's true airspeed.
 * Heading: Heading is displayed in degrees from 000 to 360 with the last digit
   always zero.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zQ5IFHlr1tk?si=mvz_wU5nxxapIETS"
+title="Aspect Angle - Air Combat Bite-sized" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Receiver Gain (RCVR GAIN)
 
 ![Receiver Gain Knob](../../img/wso_radar_receiver_gain.jpg)
@@ -216,6 +226,11 @@ set an **opening velocity** of 100 and 200 knots respectively. The clockwise pos
 
 Closing refers to an target decreasing in range, while opening are targets
 increasing in range.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kgLdXx9Ysjk?si=L1nsRS3YbTLJr1uK"
+title="Closure rate (Vc) - Air Combat Bite-sized" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Pulse Switch
 
@@ -527,6 +542,11 @@ jumps to 9.
 
 The gauge functions in the VI, B NAR, and B WIDE display modes; the
 indicator does not function in air to ground modes.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aWU3PS4AcgQ?si=py1V-jdKNHoqK6OG"
+title="DCS F-4E Air-to-Air III: VISIDENT" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Air to Air Button
 

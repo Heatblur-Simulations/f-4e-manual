@@ -30,6 +30,11 @@ antenna.
 
 > 💡 The AUX unit is receive-only, you can only use the COMM unit to transmit.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oCm9Vn9Oqeg?si=9yHUuX_tdni32wPJ"
+title="Preset Radio Channels in the F-4 Phantom | DCS World" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Comm Control Panel
 
 ![pilot_uhf_control_panel](../../img/pilot_comm_control_panel.jpg)

@@ -18,6 +18,11 @@ The Quantity Knob sets the total number of munitions dropped during a bomb
 release hold, and applies the manual or automatic release functions based on the
 value selected.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u9Bk291JiFE?si=nV8ufQ3xSwopXU6p"
+title="Setting Your Ripple Timing in the F-4 | DCS World" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Single-Manual: 1
 
 In the 1 position, the AWRU is placed into manual mode. One munition will be

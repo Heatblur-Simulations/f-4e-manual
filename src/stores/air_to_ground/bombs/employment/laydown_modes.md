@@ -40,6 +40,11 @@ BOMBS or RKTS & DISP (for dispensers like CBU-1 and CBU-2 only).
 As the pipper crosses the target, the bomb button should be held until the set
 spread of munitions has released.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/46I5HOzLh-o?si=qm0LGG1Gefmdono2"
+title="F-4E Bombing Tutorial - Laydown Mode" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Dive Laydown - DL
 
 This mode is a variation of the regular Laydown mode, where the target is

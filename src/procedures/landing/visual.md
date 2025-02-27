@@ -19,6 +19,11 @@ required to ensure rapid inflight dumping.
 
 ## Landing Technique
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vhIj_udzGUY?si=HAf50jUz3TFlFwzL"
+title="Landing & Shutdown Tutorial for the F-4E Phantom by Heatblur in DCS World" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 For a normal landing, fly the pattern as illustrated in
 figure. Enter the pattern as local policy dictates.
 

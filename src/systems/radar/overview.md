@@ -7,6 +7,11 @@ you can get a skin paint on a skeeter 200 miles, or a stealth fighter."*
 *A technician works on the AN/APQ-120(V) fire control radar in the nose
 of a 3rd Tactical Fighter Wing F-4E Phantom II aircraft*
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s2YY2gQ76cw?si=iM_6_X8QK31sh0BM"
+title="DCS: F-4E - Episode IV - RADAR Pt. 1 - Basics and Theory" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 The Westinghouse AN/APQ-120 Fire Control Radar, a continuation of the F-4C's
 -100 and the 4D's 109, is a solid state pulse radar providing the F-4E with air
 to air intercept functionality, air to ground mapping, ground target reference
