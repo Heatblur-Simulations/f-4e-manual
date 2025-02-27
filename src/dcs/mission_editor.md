@@ -4,6 +4,11 @@ The F-4 has several special options selectable in the Mission Editor.
 
 ![Special Options](../img/mission_editor_special_options.jpg)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AeYEjXhausw?si=nUfM3bu4pYuV7i6Z"
+title="Mission Editor Tips and Tricks for the F-4E Phantom" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Condition and Wear
 
 _"And I'll tell you what, since Cal's on it, it's only flown on approved

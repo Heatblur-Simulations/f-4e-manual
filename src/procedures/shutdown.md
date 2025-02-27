@@ -1,5 +1,10 @@
 # Shutdown
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vhIj_udzGUY?si=EauhQVTsacRKWSHp&amp;start=722"
+title="Landing & Shutdown Tutorial for the F-4E Phantom by Heatblur in DCS World" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Engine Shutdown (Pilot)
 
 | Step    | System                     | Action                 |

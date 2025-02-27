@@ -6,6 +6,11 @@ from Shiraz Air Base during exercise Cento*
 
 ## Normal Takeoff
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rmiTivwVlIk?si=0wP_qSG72m0Rpfse&amp;start=304"
+title="Taxi & Takeoff Tutorial for the DCS F-4E Phantom by Heatblur" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 The slats out-flaps down position is recommended for all
 takeoffs. After line-up on the runway and completing
 necessary pre-takeoff checks, engines can be run to 85%

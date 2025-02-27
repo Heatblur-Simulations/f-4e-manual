@@ -4,6 +4,11 @@
 > crew should remember to put on the **helmets** and connect
 > the **ground power** (unless battery start is made).
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9wU2kljC3mw?si=epBUUQf_gitxiWa2"
+title="F-4E Phantom Cold Start Tutorial in DCS World" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Before starting engines (Both)
 
 | Step | System            | Action                   |

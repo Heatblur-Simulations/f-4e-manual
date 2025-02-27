@@ -14,6 +14,11 @@ The line of sight can be controlled by the WSO, using the Antenna Hand Control.
 The camera image is displayed on the DSCG scope and can be viewed by both, the
 Pilot and the WSO independently.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FZNtAqOZGgA?si=NF-cch48e-RkmHRy"
+title="DCS: F-4E Phantom: Pave Spike + Laser guided bombs Tutorial" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Targeting Pod
 
 The system has an optical camera for daylight operation with one level of

@@ -1,5 +1,10 @@
 # Lighting Equipment
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7FK2KzCHk1E?si=MbOBaDOhxENF70yY&amp;start=1102"
+title="F-4E Electrical and Lighting Systems | DCS World" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Exterior Lighting
 
 ![ext_lights](../img/ext_f4_lighting_overview.jpg)

@@ -73,6 +73,11 @@ operation. While the Pedestal panel carries the Auto Clear switch, this switch
 does not have any control over the internal M61A1 cannon, and can only
 deactivate round clearance for podded external cannon installations.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5MVEo8qQc9I?si=yz78SGRyx0gQgkp1"
+title="F-4E Phantom Air To Air Gun Guide | DCS" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Sight Depression
 
 For air to ground employment of the internal gun, the following sight
@@ -111,6 +116,11 @@ knots. Both pods have an auto-clear function for safety, which cause rounds
 loaded in the breeches to be released back into the ammo bin, which does entail
 a momentary delay of one to two seconds prior to being able to fire the pod
 again.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aUJxr-czk94?si=LK1lXwXPBlcYktua"
+title="F-4E Phantom: Air To Ground Gun Pods Quick Guide | DCS" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### External Employment
 

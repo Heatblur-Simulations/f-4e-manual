@@ -8,6 +8,11 @@ on the [left sub-panel](../cockpit/wso/left_sub_panel.md#apx-80-control-panel).
 The transponder is set up by the pilot on
 the [right console](../cockpit/pilot/right_console/center_section.md#iff-control-panel).
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H_Gkn_Re548?si=QVjKK29KbDhpPh0l"
+title="How To Use the IFF in the F-4E Phantom | DCS World" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Transponder System
 
 ![pilot_iff_control_panel](../img/pilot_iff_panel.jpg)

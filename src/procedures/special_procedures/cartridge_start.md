@@ -17,6 +17,11 @@ during start cycle.
 > power applied. If a malfunction in safety circuits
 > occurs, serious injury could result.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qsYmA_ndc9U?si=X5CW_T85UwazoweW&amp;start=583"
+title="Learn to Cold Start the DCS F-4 Phantom Quickly!" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 | Step    | System                         | Action                       |
 |---------|--------------------------------|------------------------------|
 | **1.**  | **Engine master switches**     | **ON**                       |

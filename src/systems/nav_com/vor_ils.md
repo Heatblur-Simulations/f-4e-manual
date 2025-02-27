@@ -32,6 +32,11 @@ vertical deviations are presented on the Course Indicator.
 The typical maximum deviations are ±2.5 degrees for the localizer and ±0.7 degrees
 for the glide-slope.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0fQRn_9fC3c?si=GPJAuCtfy3YUhAaa"
+title="F-4 Phantom | Zero-Visibility ILS Landing | DCS" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Marker Beacons
 
 If Marker Beacons are positioned along the approach path, the aircraft's system will audibly

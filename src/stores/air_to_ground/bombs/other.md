@@ -26,3 +26,8 @@ models).
 To employ, select DIRECT Delivery Mode, BOMBS on the Weapon Selector Knob, and have the desired
 interval and quantity for the runway length. Release them directly over the target area at around
 500ft (150m) AGL to allow for adequate parachute release timing.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yxxAtVcIBeg?si=ANwU3wgpsFA1xdnx"
+title="DCS F-4E Phantom II Durandal Anti Runway Bomb" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

@@ -4,6 +4,11 @@ Radar operation for Air-To-Air includes the RDR-B and MAP-B modes, along with
 the BST mode. RDR-B and MAP-B can be used with automatic search and BST mode can
 be used as a close range mode to cue a target on the boresight.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fQVMWn5AfIE?si=oPSyCqubACwH4GYb"
+title="F-4E: Stop struggling in Air-to-Air" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Automatic Search
 
 During automatic search, the antenna moves back and forth in the radar plane.
@@ -34,6 +39,11 @@ Below shows the usual symbology present in Automatic Search and Boresight Modes.
 | c    | Antenna Elevation | Shows antenna elevation (in degrees) relative to the radar plane, or aircraft if the [Stab Switch](interface.md#stab-switch) is in OUT. This can be moved with the Antenna Hand Control elevation wheel.                                                                                                                                                                                           |
 | d    | Radar Grid        | Left and right vertical lines show 30 degrees left and 30 degrees right. This measurement is relative to the radar plane with the [Stab Switch](interface.md#stab-switch) in NOR or DRIFT OUT and relative to the aircraft with the [Stab Switch](interface.md#stab-switch) in OUT. Each horizontal line marks a scale where the gaps are `1/5` of the current range setting of the display. |
 | e    | Horizon Line      | Shows the horizon line, only present with [Stab Switch](interface.md#stab-switch) in NOR or DRIFT OUT                                                                                                                                                                                                                                                                                              |
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-_oGXnEfyOs?si=5_YbDn9i-zt-aaIX"
+title="DCS F-4E APQ-120 - Radar Cross-Section and Detection range" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Acquisition
 
@@ -137,6 +147,11 @@ The Home On Jam condition is also indicated by the engraved H on the WSO DSCG an
 the last zero digit of the closure velocity is replaced by a H along with the
 closure rate flashing.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vWZdx80szrI?si=2NpjXEZeiwxmf-Hr"
+title="DCS F-4E APQ-120 - Jamming effects" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Spotlight
 
 In the 100 and 200 mile ranges, a procedure known as Spotlight can be used to
@@ -215,6 +230,11 @@ types:
    maneuvers.
 
 ![manual_radar_air_to_ground_mode](../../img/aim_dot_steering.jpg)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZZJ8sprm-Ws?si=jSteM5NIHwmnIay8"
+title="DCS F-4E Air-to-Air II: Aim Dot Intercept" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Shoot/In Range Lights
 

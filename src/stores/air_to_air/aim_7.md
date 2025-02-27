@@ -34,6 +34,11 @@ once returned to STBY. Once in the combat area, the
 should be returned to the CW ON position, to maintain proper missile tuning
 state during the engagement.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cdEnnWH3VTA?si=Swkt85oudtjBZDGE"
+title="Air to Air Weapons Set up and Employment | DCS World F-4 Phantom" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Employment
 
 To employ an AIM-7, the

@@ -7,6 +7,11 @@ tanks is just over 12,000 lbs of JP-4. With two external 370 gallon wing tanks,
 that value increases to over 16,800 lbs. Adding the centerline 600 gallon tank
 will bring the aircraft total fuel state to just under 20,800 lbs of fuel.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2u2yLEM1iHM?si=5a47nAUGCE7PZUip"
+title="F-4E Fuel Systems Guide | DCS World" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Transfer Sequence
 
 ![f4_fuel_system](../../img/f4_fuel_system.jpg)
@@ -143,6 +148,11 @@ wing tanks, and, if installed and selected, external tanks.
 > 💡 Fully refueling takes roughly between one and three minutes.
 
 ![pilot_fuel_panel](../../img/pilot_fuel_control_panel.jpg)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nLNVyxVZAiw?si=bEah6gsO2qFGV3eC"
+title="DCS F-4E Phantom II Air to Air Refuelling Tutorial" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Air Refuel Switch
 

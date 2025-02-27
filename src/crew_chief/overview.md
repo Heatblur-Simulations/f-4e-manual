@@ -58,6 +58,11 @@ More advanced checks (**bold ones**) have to be initiated manually.
 Some of them can also be conducted without crew chief, by acquiring visual confirmation from the WSO,
 but not all of them because of the limited visibility from the cockpit.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9wU2kljC3mw?si=epBUUQf_gitxiWa2"
+title="F-4E Phantom Cold Start Tutorial in DCS World" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Details
 
 More advanced checks are explained here in detail:
