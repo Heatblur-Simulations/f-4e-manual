@@ -280,7 +280,7 @@ selected a ship symbol will be displayed in the lower half of azimuth.
 
 | Symbol                                                                  | Possible threat                                                                                                                                         |
 |-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![rwr_four_symbol.jpg](../../img/rwr_four_symbol.jpg)                   | Rezky, Albatros                                                                                                                                         |
+| ![rwr_four_symbol.jpg](../../img/rwr_four_symbol.jpg)                   | Rezky, Grisha                                                                                                                                         |
 | ![rwr_six_symbol.jpg](../../img/rwr_six_symbol.jpg)                     | Battlecruiser Pyotr Velikiy, Cruiser Moskva, Type 052C Destroyer, Frigate Neustrashimy                                                                  |
 | ![rwr_seven_symbol.jpg](../../img/rwr_seven_symbol.jpg)                 | Type 054A Frigate, Type 052B Destroyer                                                                                                                  |
 | ![rwr_nine_symbol.jpg](../../img/rwr_nine_symbol.jpg)                   | CV 1143.5 Kuznetsov                                                                                                                                     |
