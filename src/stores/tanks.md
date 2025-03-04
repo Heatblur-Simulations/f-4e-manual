@@ -18,3 +18,9 @@ while with both wing tanks it is 17706 lb.
 
 See the [3.2.2. Fuel chapter](../systems/engines_and_fuel_systems/fuel_system.md) for
 details on how to operate the tanks.
+
+> 💡 External tanks can be jettisoned using the
+> [Selective Jettison Control](../cockpit/pilot/weapon_management.md#selective-jettison-control)
+> in the **STORES** position in combination with selecting the respective pylons using the
+> [Station Select Buttons](../cockpit/pilot/weapon_management.md#station-select-buttons)
+> (e.g. _CTR_, _LO_ or _RO_).
