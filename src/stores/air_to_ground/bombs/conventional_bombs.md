@@ -17,17 +17,18 @@ switch.
 
 Available conventional unguided bombs are:
 
-| Variant       | Warhead | Description                    |
-| ------------- | ------: | ------------------------------ |
-| Mk-81         |  250 lb | Low Drag                       |
-| Mk-82         |  500 lb | Low Drag                       |
-| Mk-82 AIR     |  500 lb | Low/High Drag Chute            |
-| Mk-82 Snakeye |  500 lb | Low/High Drag                  |
-| Mk-83         | 1000 lb | Low Drag                       |
-| Mk-84         | 2000 lb | Low Drag                       |
-| Mk-84 AIR     | 2000 lb | High Drag Chute                |
-| M-117         |  750 lb | Low Drag                       |
-| SAMP-250      |  550 lb | Low Drag, used by german F-4EF |
+| Variant       | Warhead | Description                     |
+| ------------- | ------: | ------------------------------- |
+| Mk-81         |  250 lb | Low Drag                        |
+| Mk-82         |  500 lb | Low Drag                        |
+| Mk-82 AIR     |  500 lb | Low/High Drag Chute             |
+| Mk-82 Snakeye |  500 lb | Low/High Drag                   |
+| Mk-83         | 1000 lb | Low Drag                        |
+| Mk-84         | 2000 lb | Low Drag                        |
+| Mk-84 AIR     | 2000 lb | High Drag Chute                 |
+| M-117         |  750 lb | Low Drag                        |
+| SAMP-250 LD   |  550 lb | Low Drag, used by german F-4EF  |
+| SAMP-250 HD   |  550 lb | High Drag, used by german F-4EF |
 
 ## BDU Series Training Bombs
 
