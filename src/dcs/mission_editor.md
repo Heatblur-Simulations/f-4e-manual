@@ -222,6 +222,8 @@ are:
 
 ![TGT Waypoint](../img/me_waypoints_defining.jpg)
 
+The phrase **HOLD** enables the _Holding option_ for the waypoint.
+
 See [5.2. Jester Navigation](../jester/navigation.md#flight-plan) for details on
 how these waypoint types influence Jesters behavior.
 
