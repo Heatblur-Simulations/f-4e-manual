@@ -17049,6 +17049,12 @@ simply delete your custom file.</p>
 </ul>
 <p>Attempting to do so results in a warning message being shown and all Jester mods getting disabled.</p>
 </blockquote>
+<h2 id="jester-modding-repository"><a class="header" href="#jester-modding-repository">Jester Modding Repository</a></h2>
+<p>To share mods with others or propose integration of mods into the base game, content can be
+uploaded to the public repository
+<a href="https://github.com/Heatblur-Simulations/jester-modding">Heatblur-Simulations/jester-modding</a>.</p>
+<p>This repository also contains the source files of Jester to aid modders in learning the Api,
+but also to enable modification of existing logic.</p>
 <h2 id="jester-api"><a class="header" href="#jester-api">Jester API</a></h2>
 <p>Jesters logic is divided into 6 layers of abstraction:</p>
 <ul>
@@ -17275,6 +17281,13 @@ indicate an absolute path.</p>
 <p>The returned value is a wrapper <code>Property</code> object. Access to the underlying
 value (in this case a <code>LReal</code> with unit <code>Pounds</code>) is given by
 <code>GetProperty(...).value</code>.</p>
+<p>See the <code>properties_snapshot.json</code> file in the
+<a href="https://github.com/Heatblur-Simulations/jester-modding">Heatblur-Simulations/jester-modding</a>
+repository for a full list of all readable properties.</p>
+<p><img src="dcs/modding/jester/../../../img/properties_snapshot.jpg" alt="properties_snapshot" /></p>
+<blockquote>
+<p>💡 Open the file with a browser to skim and search through it.</p>
+</blockquote>
 <h3 id="observations-and-senses"><a class="header" href="#observations-and-senses">Observations and Senses</a></h3>
 <p>Additionally to direct property access, Jester has an Observation-System. The
 system allows to make frequently used data accessible in an easy way, or also to
