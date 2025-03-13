@@ -170,6 +170,15 @@ simply delete your custom file.
 >
 > Attempting to do so results in a warning message being shown and all Jester mods getting disabled.
 
+## Jester Modding Repository
+
+To share mods with others or propose integration of mods into the base game, content can be
+uploaded to the public repository
+[Heatblur-Simulations/jester-modding](https://github.com/Heatblur-Simulations/jester-modding).
+
+This repository also contains the source files of Jester to aid modders in learning the Api,
+but also to enable modification of existing logic.
+
 ## Jester API
 
 Jesters logic is divided into 6 layers of abstraction:
@@ -441,6 +450,14 @@ indicate an absolute path.
 The returned value is a wrapper `Property` object. Access to the underlying
 value (in this case a `LReal` with unit `Pounds`) is given by
 `GetProperty(...).value`.
+
+See the `properties_snapshot.json` file in the
+[Heatblur-Simulations/jester-modding](https://github.com/Heatblur-Simulations/jester-modding)
+repository for a full list of all readable properties.
+
+![properties_snapshot](../../../img/properties_snapshot.jpg)
+
+> 💡 Open the file with a browser to skim and search through it.
 
 ### Observations and Senses
 
