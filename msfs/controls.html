@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>MSFS - Heatblur F-4E Phantom II</title>
+        <title>Controls - Heatblur F-4E Phantom II</title>
 
 
         <!-- Custom HTML head -->
@@ -133,7 +133,7 @@
                         <a href="https://github.com/Heatblur-Simulations/f-4e-manual" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
-                        <a href="https://github.com/Heatblur-Simulations/f-4e-manual/edit/master/src/msfs/overview.md" title="Suggest an edit" aria-label="Suggest an edit">
+                        <a href="https://github.com/Heatblur-Simulations/f-4e-manual/edit/master/src/msfs/controls.md" title="Suggest an edit" aria-label="Suggest an edit">
                             <i id="git-edit-button" class="fa fa-edit"></i>
                         </a>
 
@@ -162,60 +162,77 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="msfs"><a class="header" href="#msfs">MSFS</a></h1>
-<p>This chapter covers systems, settings and interfaces specific to the simulation
-of the Phantom inside Microsoft Flight Simulator.</p>
-<p><img src="../img/okinawa_msfs.jpg" alt="Creative Painting on a Phantom" /></p>
-<h2 id="pre-flight"><a class="header" href="#pre-flight">Pre-Flight</a></h2>
-<p>Prior to entering the aircraft, the crew can go around the plane and inspect it
-for flight readiness, check control surfaces or remove safety pins.</p>
+                        <h1 id="controls"><a class="header" href="#controls">Controls</a></h1>
+<p>The cockpit is fully interactive; every switch, button and knob can be
+interacted with.</p>
+<p>Additionally, MSFS allows binding commonly used commands directly to physical
+hardware, such as joysticks or throttles.</p>
 <blockquote>
-<p>🚧 Details and picture of the pre-flight mode.</p>
+<p>🚧 Example picture of the controls UI.</p>
 </blockquote>
-<h2 id="navigation"><a class="header" href="#navigation">Navigation</a></h2>
-<p>The Phantom carries multiple systems designed specifically for communication and
-navigation with military systems.</p>
-<p>To improve integration with MSFS and civilian systems, the aircraft was slightly
-adjusted where applicable.</p>
-<h3 id="radio"><a class="header" href="#radio">Radio</a></h3>
-<p>The UHF Radio carried by the F-4E normally operates in the military frequency
-range from 225.0 MHz to 399.95 MHz.</p>
-<p>For MSFS the radio was adopted to instead cover the civilian range from 100 MHz
-to 199.95 MHz.</p>
-<h3 id="vorils"><a class="header" href="#vorils">VOR/ILS</a></h3>
-<blockquote>
-<p>🚧 Details of changes. What about NDB?</p>
-</blockquote>
-<h2 id="weapons"><a class="header" href="#weapons">Weapons</a></h2>
-<p>The aircraft can be equipped with <strong>cosmetic-only</strong> weapons through a loadout
-selection interface.</p>
-<blockquote>
-<p>🚧 Details and picture of the loadout UI.</p>
-</blockquote>
-<p>Due to engine limitations, combat related systems are currently not available.
-This includes for example:</p>
-<ul>
-<li>Multiple Weapons System</li>
-<li>AWRU</li>
-<li>WRCS</li>
-<li>ARBCS</li>
-<li>AN/ALE-40</li>
-<li>Nose Gun</li>
-<li>Radar</li>
-<li>Pave Spike Targeting Pod</li>
-<li>DSCG</li>
-<li>RWR</li>
-</ul>
-
+<p>The following table shows which common binds are connected to which control in
+the cockpit.</p>
+<div class="table-wrapper"><table><thead><tr><th>Function</th><th>Bind</th></tr></thead><tbody>
+<tr><td>Throttle Cutoff (Left)</td><td>CONDITION LEVER 1 CUT OFF</td></tr>
+<tr><td>Throttle Cutoff (Right)</td><td>CONDITION LEVER 2 CUT OFF</td></tr>
+<tr><td>Throttle Idle (Left)</td><td>CONDITION LEVER 1 LOW IDLE</td></tr>
+<tr><td>Throttle Idle (Right)</td><td>CONDITION LEVER 2 LOW IDLE</td></tr>
+<tr><td>Engine Ignition (Left)</td><td>SET TURBINE 1 IGNITION SWITCH</td></tr>
+<tr><td>Engine Ignition (Right)</td><td>SET TURBINE 2 IGNITION SWITCH</td></tr>
+<tr><td>Speedbrakes Extend</td><td>EXTEND SPOILERS</td></tr>
+<tr><td>Speedbrakes Retract</td><td>RETRACT SPOILERS</td></tr>
+<tr><td>Speedbrakes Inc</td><td>INCREMENT SPOILERS</td></tr>
+<tr><td>Speedbrakes Dec</td><td>DECREMENT SPOILERS</td></tr>
+<tr><td>Speedbrakes Toggle</td><td>TOGGLE SPOILERS</td></tr>
+<tr><td>Drag Chute Deploy</td><td>ARM AUTO SPOILERS</td></tr>
+<tr><td>Drag Chute Release</td><td>DISARM AUTO SPOILERS</td></tr>
+<tr><td>Engine Master Switch (Left)</td><td>SET ENGINE MASTER 1</td></tr>
+<tr><td>Engine Master Switch (Right)</td><td>SET ENGINE MASTER 2</td></tr>
+<tr><td>Engine Master Switch (Left) - Toggle</td><td>TOGGLE ENGINE MASTER 1</td></tr>
+<tr><td>Engine Master Switch (Right) - Toggle</td><td>TOGGLE ENGINE MASTER 2</td></tr>
+<tr><td>Gear Up</td><td>GEAR UP</td></tr>
+<tr><td>Gear Down</td><td>GEAR DOWN</td></tr>
+<tr><td>Gear Toggle</td><td>GEAR TOGGLE</td></tr>
+<tr><td>Flaps/Slats Up</td><td>FLAPS 1</td></tr>
+<tr><td>Flaps/Slats Out</td><td>FLAPS 2</td></tr>
+<tr><td>Flaps/Slats Out &amp; Down</td><td>FLAPS 3</td></tr>
+<tr><td>Flaps/Slats Inc</td><td>DECREASE FLAPS</td></tr>
+<tr><td>Flaps/Slats Dec</td><td>INCREASE FLAPS</td></tr>
+<tr><td>NWS Button</td><td>SET STEERING</td></tr>
+<tr><td>Emergency Quick Release Lever</td><td>SET AUTOPILOT DISENGAGE</td></tr>
+<tr><td>Trim Pitch Up</td><td>ELEVATOR TRIM UP</td></tr>
+<tr><td>Trim Pitch Down</td><td>ELEVATOR TRIM DOWN</td></tr>
+<tr><td>Trim Roll Left</td><td>AILERON TRIM LEFT</td></tr>
+<tr><td>Trim Roll Right</td><td>AILERON TRIM RIGHT</td></tr>
+<tr><td>Trim Yaw Left</td><td>RUDDER TRIM LEFT</td></tr>
+<tr><td>Trim Yaw Right</td><td>RUDDER TRIM RIGHT</td></tr>
+<tr><td>Pitot Heat</td><td>SET PITOT HEAT</td></tr>
+<tr><td>Pitot Heat On</td><td>PITOT HEAT ON</td></tr>
+<tr><td>Pitot Heat Off</td><td>PITOT HEAT OFF</td></tr>
+<tr><td>Pitot Heat Toggle</td><td>TOGGLE PITOT HEAT</td></tr>
+<tr><td>AFCS Switch On</td><td>AUTOPILOT ATTITUDE HOLD ON</td></tr>
+<tr><td>AFCS Switch Off</td><td>AUTOPILOT ATTITUDE HOLD OFF</td></tr>
+<tr><td>ALT Switch On</td><td>AUTOPILOT ALTITUDE HOLD ON</td></tr>
+<tr><td>ALT Switch Off</td><td>AUTOPILOT ALTITUDE HOLD OFF</td></tr>
+<tr><td>Altimeter Pressure Dec</td><td>INCREASE ALTIMETER</td></tr>
+<tr><td>Altimeter Pressure Inc</td><td>DECREASE ALTIMETER</td></tr>
+<tr><td>Heading Bug Inc</td><td>INCREASE HEADING BUG</td></tr>
+<tr><td>Heading Bug Dec</td><td>DECREASE HEADING BUG</td></tr>
+<tr><td>Course Bug Inc</td><td>PFD COURSE INCREASE</td></tr>
+<tr><td>Course Bug Dec</td><td>PFD COURSE DECREASE</td></tr>
+<tr><td>Engine Anti-Ice - Toggle</td><td>TOGGLE ANTI ICE</td></tr>
+<tr><td>Anti-Skid - Toggle</td><td>TOGGLE ANTI SKID BRAKES</td></tr>
+</tbody></table>
+</div>
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Navigation button at bottom -->
-                            <a rel="prev" href="../dcs/modding/liveries.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../msfs/overview.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i><span class="nav-chapters-text">Prev</span>
                             </a>
 
-                            <a rel="next prefetch" href="../msfs/controls.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="../links/links.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <span class="nav-chapters-text">Next</span><i class="fa fa-angle-right"></i>
                             </a>
 
@@ -223,20 +240,20 @@ This includes for example:</p>
                     </nav>
                     <nav class="nav-wide-wrapper" aria-label="Page navigation">
                             <!-- Navigation button at bottom -->
-                            <a rel="prev" href="../dcs/modding/liveries.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../msfs/overview.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i><span class="nav-chapters-text">Prev</span>
                             </a>
                             <!-- Navigation button on the left, not displayed, but needed for Aria nav -->
-                            <a rel="prev" href="../dcs/modding/liveries.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../msfs/overview.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <span class="nav-chapters-text">Next</span><i class="fa fa-angle-left"></i>
                             </a>
 
                             <!-- Navigation button at bottom -->
-                            <a rel="next prefetch" href="../msfs/controls.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="../links/links.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i><span class="nav-chapters-text">Next</span>
                             </a>
                             <!-- Navigation button on the right, not displayed, but needed for Aria nav -->
-                            <a rel="next prefetch" href="../msfs/controls.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="../links/links.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <span class="nav-chapters-text">Next</span><i class="fa fa-angle-right"></i>
                             </a>
                     </nav>
