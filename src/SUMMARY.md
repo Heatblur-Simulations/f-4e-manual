@@ -191,6 +191,7 @@
       - [Dialog UI](./dcs/modding/jester/dialog_ui.md)
     - [Liveries](./dcs/modding/liveries.md)
 - [MSFS](./msfs/overview.md)
+  - [Controls](./msfs/controls.md)
 - [Links](./links/links.md)
 - [Abbreviations](./abbreviations.md)
 - [Imprint](./imprint.md)
