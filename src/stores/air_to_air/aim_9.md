@@ -33,13 +33,14 @@ the target under current launch conditions.
 
 Centering the aim dot in the ASE aligns the target to the RBL, thus allowing for
 rapid acquisition by the seeker of the selected AIM-9. Once the missile's tone
-changes to signify lock, the pilot can then hold down the ARR button on the grip
-to allow for Sidewinder self-track (seeker uncage); this function allows the
-seeker to maintain acquisition of the target (noted by the shifted audio tone),
-while permitting maneuver of the aircraft to a better aspect angle or range
-solution prior to launch if the situation allows. The amount of maneuver
-available to a given Sidewinder type is based on the variant, and should be
-considered before making the selection.
+changes to signify lock, the pilot can then hold down the
+[ARR button](../../cockpit/pilot/stick_seat.md#air-refueling-release-button) on
+the grip to allow for Sidewinder self-track (seeker uncage); this function
+allows the seeker to maintain acquisition of the target (noted by the shifted
+audio tone), while permitting maneuver of the aircraft to a better aspect angle
+or range solution prior to launch if the situation allows. The amount of
+maneuver available to a given Sidewinder type is based on the variant, and
+should be considered before making the selection.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cdEnnWH3VTA?si=Swkt85oudtjBZDGE"
 title="Air to Air Weapons Set up and Employment | DCS World F-4 Phantom" frameborder="0"
@@ -106,7 +107,7 @@ inside Sidewinder dummies, called _Smokewinders_.
 
 ![Smokewinders](../../img/smokewinder.jpg)
 
-The generator activates or deactivates the smoke upon receiving a Weapon Release signal.
-That is, select HEAT, MASTER ARM and then pull the trigger.
+The generator activates or deactivates the smoke upon receiving a Weapon Release
+signal. That is, select HEAT, MASTER ARM and then pull the trigger.
 
 Available smoke colors are red, green, blue, white, yellow and orange.

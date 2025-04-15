@@ -68,7 +68,8 @@ signal, as follows:
 
 ### Pilot
 
-With the pipper over the target area, pressing and holding the ARR button
+With the pipper over the target area, pressing and holding the
+[ARR button](../../cockpit/pilot/stick_seat.md#air-refueling-release-button)
 enables track slewing with the Forward Hand Control stick inboard from the
 throttle. Once the seeker crosshair is over the intended target, releasing the
 ARR button performs a lock-on of the missile to the contrast area under the
