@@ -48,6 +48,17 @@ generated, having this activated will scale down the generated force to improve
 handling precision, but also can help to prevent accidentally pulling extreme
 Gs.
 
+## Stick neutral position smoothing period
+
+Smooths forces applied by the aircraft systems that move the sticks neutral
+position (see
+[Bobweights vs. Bellows](../systems/flight_controls_gear/flight_controls.md#bobweights-vs-bellows)).
+The higher the selected time period, the less impact do these systems have on
+the sticks movements.
+
+This makes it easier for users of non-force-feedback hardware to react to sudden
+changes of the sticks neutral position and generally achieve more stable flight.
+
 ## AFCS Breakout Deadzone
 
 Percentage of stick input (separate for roll and pitch) after which the AFCS
