@@ -1,4 +1,10 @@
+--all these sections would be better if given more context--
 # AGM-45 Missile
+
+The checklist below shows the necessary actions that are need to be taken inside the cockpit. 
+In order to have a better understanding of the AGM-45 Shrike missile employment methods 
+please refer to the sections [4.3.3.1 AGM-45 Shrike](http://f4.manuals.heatblur.se/stores/air_to_ground/missiles/shrike.html#agm-45-shrike-anti-radiation-missile)
+and [4.3.3.6.5 Lofting and Tossing](https://f4.manuals.heatblur.se/stores/air_to_ground/bombs/employment/lofting_tossing.html)
 
 ## AGM-45 Tuneup
 
