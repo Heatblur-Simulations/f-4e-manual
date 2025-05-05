@@ -1,14 +1,16 @@
 # AGM-45 Missile
 
-The checklist below shows the necessary actions that are needed to be taken inside the cockpit. 
-In order to have a better understanding of the AGM-45 Shrike missile employment methods 
-please refer to the sections [4.3.3.1 AGM-45 Shrike](http://f4.manuals.heatblur.se/stores/air_to_ground/missiles/shrike.html#agm-45-shrike-anti-radiation-missile)
-and [4.3.3.6.5 Lofting and Tossing](https://f4.manuals.heatblur.se/stores/air_to_ground/bombs/employment/lofting_tossing.html)
+The checklist below shows the necessary actions that are needed to be taken
+inside the cockpit. In order to have a better understanding of the AGM-45 Shrike
+missile employment methods please refer to the sections
+[4.3.3.1 AGM-45 Shrike](../stores/air_to_ground/missiles/shrike.md#agm-45-shrike-anti-radiation-missile)
+and
+[4.3.3.6.5 Lofting and Tossing](../stores/air_to_ground/bombs/employment/lofting_tossing.md)
 
 ## AGM-45 Tuneup
 
 | Step | System                 | Action         |
-|------|------------------------|----------------|
+| ---- | ---------------------- | -------------- |
 | 1    | (WSO) INS MODE         | NAV            |
 | 2    | SIGHT MODE             | A/G            |
 | 3    | (WSO) BOMBING TIMER    | SET            |
@@ -32,7 +34,7 @@ and [4.3.3.6.5 Lofting and Tossing](https://f4.manuals.heatblur.se/stores/air_to
 ## AGM-45 Launch
 
 | Step | System                        | Action |
-|------|-------------------------------|--------|
+| ---- | ----------------------------- | ------ |
 | 1    | MASTER ARM SWITCH             | ARM    |
 | 2    | ADI VERTICAL DIRECTOR POINTER | NULL   |
 | 3    | BOMB BUTTON                   | PRESS  |
