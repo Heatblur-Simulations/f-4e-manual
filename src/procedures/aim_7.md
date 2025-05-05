@@ -1,5 +1,13 @@
 # AIM-7 Missile
 
+The checklists below outline the required cockpit procedures 
+for the employment of the AIM-7 Sparrow missile. 
+In order to have a better understanding of the missile 
+employment methods, launch sequence and its variants 
+please refer to the section [4.2.1 AIM-7 Sparrow](../../stores/air_to_air/aim_7.md)
+of this manual.
+
+
 ## AIM-7E Tuneup
 
 | Step | System                     | Action         |
