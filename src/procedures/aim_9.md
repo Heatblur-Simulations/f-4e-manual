@@ -1,7 +1,7 @@
 # AIM-9 Missile
 
 The checklists below outline the required cockpit procedures for the employment of the AIM-9 Sidewinder missile. 
-In order to have a better understanding of the missile employment methods. launch sequence and its variants
+In order to have a better understanding of the missile employment methods, launch sequence and its variants
 please refer to the section [4.2.2 AIM-9 Sidewinder](../stores/air_to_air/aim_9.md)
 
 ## AIM-9 Launch
