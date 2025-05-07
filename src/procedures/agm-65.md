@@ -1,5 +1,12 @@
 # AGM-65 Missile
 
+The checklists below outline the required cockpit procedures for
+the employment of the AGM-65 Maverick missile. 
+In order to have a better understanding of the missile employment,
+its variants and a more comprehensive description of the actions 
+needed to be taken by the Pilot and WSO, please refer to the section
+[4.3.1.2 AGM-65 Maverick](/../stores/air_to_ground/missiles/maverick.md) of this manual.
+
 ## AGM-65 Tuneup
 
 | Step | System                          | Action         |
