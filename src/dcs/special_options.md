@@ -255,13 +255,21 @@ binding the two
 [Track Wheels](../cockpit/wso/right_console/center_section.md#along-track-wheel)
 obsolete.
 
-## FFB Gain
+## Force Feedback
+
+### Gain
 
 For users with force-feedback sticks, this setting can be used to adjust the
 gain of the forces per axis.
 
 The default setting is 100% for Roll and Pitch axis. Greater values will
 increase the force used by the stick, while smaller values will decrease it.
+
+### Force OFF
+
+When checked, the stick behavior will be that of a non-FFB stick. That is, even
+if there is a FFB stick connected or the "_Use FFB_" checkbox in the general DCS
+settings is checked.
 
 ## Lower Simulation Update Rate
 

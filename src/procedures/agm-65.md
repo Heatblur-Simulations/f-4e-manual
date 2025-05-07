@@ -1,16 +1,15 @@
 # AGM-65 Missile
 
-The checklists below outline the required cockpit procedures for
-the employment of the AGM-65 Maverick missile. 
-In order to have a better understanding of the missile employment,
-its variants and a more comprehensive description of the actions 
-needed to be taken by the Pilot and WSO, please refer to the section
-[4.3.1.2 AGM-65 Maverick](../stores/air_to_ground/missiles/maverick.md) of this manual.
+The checklists below outline the required cockpit procedures for the employment
+of the AGM-65 Maverick missile. In order to have a better understanding of the
+missile employment, its variants and a more comprehensive description of the
+actions needed to be taken by the Pilot and WSO, please refer to section
+[4.3.1.2 AGM-65 Maverick](../stores/air_to_ground/missiles/maverick.md).
 
 ## AGM-65 Tuneup
 
 | Step | System                          | Action         |
-|------|---------------------------------|----------------|
+| ---- | ------------------------------- | -------------- |
 | 1    | OPTICAL SIGHT                   | SET            |
 |      | a. Sight mode                   | A/G            |
 |      | b. Reticle depression           | 45 MILS        |
@@ -24,7 +23,7 @@ needed to be taken by the Pilot and WSO, please refer to the section
 ### Pilot
 
 | Step | System                 | Action              |
-|------|------------------------|---------------------|
+| ---- | ---------------------- | ------------------- |
 | 1    | PIPPER POSITION        | OVER TARGET         |
 | 2    | ARR BUTTON             | PRESS AND HOLD      |
 | 3    | SEEKER                 | SLEW OVER TGT       |
@@ -35,7 +34,7 @@ needed to be taken by the Pilot and WSO, please refer to the section
 ### WSO
 
 | STEP | System                 | Action                 |
-|------|------------------------|------------------------|
+| ---- | ---------------------- | ---------------------- |
 | 1    | ACTION SWITCH          | HALF ACTION            |
 | 2    | SEEKER                 | SLEW OVER TGT          |
 | 3    | ACTION SWITCH          | FA/RELEASE TO LOCK TGT |
