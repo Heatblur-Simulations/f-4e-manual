@@ -1,5 +1,7 @@
 # EO-Guided Bombs
 
+For more details, please refer to chapter [4.3.3.4 TV Guided Bombs](../stores/air_to_ground/bombs/tv_guided_bombs.md).
+
 ## GBU-8 HOBOS and AGM-62 Walleye 1/2 Tune-Up
 
 | Step | System                | Action         |
