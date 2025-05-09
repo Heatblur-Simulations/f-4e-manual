@@ -1,6 +1,6 @@
 # AGM-12 Bullpup
 
-For more details, please refer to chapter [4.3.1.4 AGM-12 Bullpup](../stores/air_to_ground/missiles/bullpup.md)
+For more details, please refer to chapter [4.3.1.4 AGM-12 Bullpup](../stores/air_to_ground/missiles/bullpup.md).
 
 ## AGM-12 Bullpup launch
 
