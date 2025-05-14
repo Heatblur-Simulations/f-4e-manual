@@ -1,5 +1,8 @@
 # Bomb Delivery - Dive Toss and Dive Laydown
 
+For more details, please refer to chapters [4.3.3.6.1 Accurate Modes – Dive Toss](../stores/air_to_ground/bombs/employment/accurate_modes.md)
+and [4.3.3.6.4 Laydown Modes – Dive Laydown](../stores/air_to_ground/bombs/employment/laydown_modes.md)
+
 | Step | System                             | Action          |
 |------|------------------------------------|-----------------|
 | 1    | SIGHT MODE                         | A/G             |
