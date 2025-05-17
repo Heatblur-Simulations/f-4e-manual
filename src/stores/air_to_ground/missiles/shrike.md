@@ -196,6 +196,20 @@ release button. The Shrike will fire within one second after pressing the bomb r
 aware that the Shrike will have the least amount of range in direct mode and should be fired very
 near to the target. A dive angle of 20 degree or more is recommended.
 
+### Seeker Profiles
+The AGM-45 can have two seperate seeker profiles: Loft and Direct, selectable in the rearmament
+menu. These control how soon after launch the missiles control surfaces can actuate.
+
+Loft: When firing the missile, control surfaces are locked until the altitude of the missile
+descends below the initial launch altitude. This prevents unecessary loss of energy due to the 
+bang-bang control surfaces of the Shrike.
+
+Direct: The missile is able to maneuver towards an emitter almost immediately when fired off the
+rail, drastically decreasing its effective range.
+
+> 💡 Loft profile is preferred in WRCS AGM-45 mode due to the ability to engage outside the range
+> of many short-range SAM systems
+
 ### Seeker Heads
 
 The AGM-45 has 10 seeker heads, which each target a specific emitter radio frequency, to select
