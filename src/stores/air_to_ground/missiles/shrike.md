@@ -196,6 +196,30 @@ release button. The Shrike will fire within one second after pressing the bomb r
 aware that the Shrike will have the least amount of range in direct mode and should be fired very
 near to the target. A dive angle of 20 degree or more is recommended.
 
+### Steering Profiles
+
+The weapon itself can be configured for two different steering profiles called _Loft_
+and _Direct_ (not to be confused with the attack profiles available to employ them).
+
+These control when the missiles control surfaces can be actuated after launch.
+
+#### Loft Steering
+
+When firing the missile, control surfaces are locked until the missile descended below the
+initial launch altitude.
+
+This prevents unnecessary loss of energy due to the bang-bang control surfaces of the weapon.
+
+> 💡 Loft steering can often be utilized to engage short-range SAM systems
+> outside of their engagement range.
+
+#### Direct Steering
+
+Control surfaces can be actuated almost immediately after launching, allowing the missile
+to maneuver towards the target emitter right after launch.
+
+This gives the weapon a shorter reaction time towards threats.
+
 ### Seeker Heads
 
 The AGM-45 has 10 seeker heads, which each target a specific emitter radio frequency, to select
