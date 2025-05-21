@@ -1,7 +1,10 @@
 # Bomb Delivery - Laydown
 
+For details, refer to chapter
+[4.3.3.6.4 Laydown](../../stores/air_to_ground/bombs/employment/laydown_modes.md).
+
 | Step | System                         | Action          |
-|------|--------------------------------|-----------------|
+| ---- | ------------------------------ | --------------- |
 | 1    | SIGHT MODE                     | A/G             |
 | 2    | DELIVERY MODE KNOB             | LAYDOWN(L)      |
 | 3    | RETICLE DEPRESSION KNOB        | SET(IF REQ)     |
