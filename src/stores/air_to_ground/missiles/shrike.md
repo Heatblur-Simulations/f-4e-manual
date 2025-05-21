@@ -194,16 +194,29 @@ release button. The Shrike will fire within one second after pressing the bomb r
 aware that the Shrike will have the least amount of range in direct mode and should be fired very
 near to the target. A dive angle of 20 degree or more is recommended.
 
-> 💡 The choice of attack profile in the loadout menu will determine when the guidance will enable
-> on the AGM-45. With the "Loft Attack" attack profile, the guidance will enable when the missile's
-> barometric altimeter detects a pressure increase of 1 psi AND the missile's barometric altimeter
-> senses that the missile is below 18,000ft MSL. With the "Direct Attack" attack profile, the
-> guidance will unlock approximately 3 seconds after launch. Selection of the improper attack
-> profile might cause the AGM-45 to miss the target due to lack of energy (due to the bang-bang
-> guidance activating too early) or overshooting the target (guidance doesn't enable in time).
-> Selection of the "Loft Attack" attack profile is strongly recommended when employing the Shrike in
-> the (WRCS) AGM-45 and (LABS) LOFT modes. The "Direct Attack" attack profile is only preferred with
-> the (WRCS) DIRECT mode.
+### Steering Profiles
+
+The weapon itself can be configured for two different steering profiles called _Loft_
+and _Direct_ (not to be confused with the attack profiles available to employ them).
+
+These control when the missiles control surfaces can be actuated after launch.
+
+#### Loft Steering
+
+When firing the missile, control surfaces are locked until the missile descended below the
+initial launch altitude.
+
+This prevents unnecessary loss of energy due to the bang-bang control surfaces of the weapon.
+
+> 💡 Loft steering can often be utilized to engage short-range SAM systems
+> outside of their engagement range.
+
+#### Direct Steering
+
+Control surfaces can be actuated almost immediately after launching, allowing the missile
+to maneuver towards the target emitter right after launch.
+
+This gives the weapon a shorter reaction time towards threats.
 
 ### Seeker Heads
 

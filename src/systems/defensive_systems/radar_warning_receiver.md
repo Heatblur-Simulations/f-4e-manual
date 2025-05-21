@@ -288,9 +288,9 @@ will be displayed in the lower half of azimuth.
 | ![rwr_h_symbol.jpg](../../img/rwr_h_symbol.jpg)                         | MIM-23 Hawk                                                                                                                                                                   |
 | ![rwr_p_slashed_symbol.jpg](../../img/rwr_p_slashed_symbol.jpg)         | MIM-104 Patriot                                                                                                                                                               |
 | ![rwr_r_symbol.jpg](../../img/rwr_r_symbol.jpg)                         | Rapier, Roland                                                                                                                                                                |
-| ![rwr_s_symbol.jpg](../../img/rwr_s_symbol.jpg)                         | SA-6 Kub "Straight Flush" SR, Roland SR, C-Ram Phalanx SR, PPRU-1 "Dog Ear", HQ-7 SR, Hawk CWAR, NASAMS, Rapier Dagger, SA-11 Snow Drift, SA-10 "Big Bird", S-300PS 40B6MD SR |
+| ![rwr_s_symbol.jpg](../../img/rwr_s_symbol.jpg)                         | SA-6 Kub "Straight Flush" SR, Roland SR, C-RAM Phalanx SR, PPRU-1 "Dog Ear", HQ-7 SR, Hawk CWAR, NASAMS, Rapier Dagger, SA-11 Snow Drift, SA-10 "Big Bird", S-300PS 40B6MD SR |
 | ![rwr_flat_triangle_symbol.jpg](../../img/rwr_flat_triangle_symbol.jpg) | E-2D Hawkeye, E-3C Sentry, A-50                                                                                                                                               |
-| ![rwr_triangle_symbol.jpg](../../img/rwr_triangle_symbol.jpg)           | F-14, F-15C, F-15E, F-16, F-18C, JF-17, M-2000C, Mig-29, SU-27, MiG-31, Tornado IDS/GR4                                                                                       |
+| ![rwr_triangle_symbol.jpg](../../img/rwr_triangle_symbol.jpg)           | F-14, F-15C, F-15E, F-16, F-18C, JF-17, M-2000C, MiG-29, Su-27, MiG-31, Tornado IDS/GR4                                                                                       |
 | ![rwr_two_triangle_symbol.jpg](../../img/rwr_two_triangle_symbol.jpg)   | F-1, AJS-37, F-4E, MiG-19, MiG-21, MiG-23, F-5E-3                                                                                                                             |
 | ![rwr_u_one_dot_symbol.jpg](../../img/rwr_u_one_dot_symbol.jpg)         | Unknown (Low band)                                                                                                                                                            |
 | ![rwr_u_two_dot_symbol.jpg](../../img/rwr_u_two_dot_symbol.jpg)         | Unknown (Medium band)                                                                                                                                                         |
@@ -313,7 +313,7 @@ will be displayed in the lower half of azimuth.
 | ![rwr_p_slashed_symbol.jpg](../../img/rwr_p_slashed_symbol.jpg)         | Ticonderoga, USS Arleigh Burke                                                                                                                          |
 | ![rwr_s_symbol.jpg](../../img/rwr_s_symbol.jpg)                         | Rezky Head Net SR, Neustrashimy SR, Invincible SR, Leander SR, Slava Class SR, Kuznetsov SR, Ropucha SR                                                 |
 | ![rwr_flat_triangle_symbol.jpg](../../img/rwr_flat_triangle_symbol.jpg) | E-2D Hawkeye, E-3C Sentry, A-50                                                                                                                         |
-| ![rwr_triangle_symbol.jpg](../../img/rwr_triangle_symbol.jpg)           | F-14, F-15C, F-15E, F-16, F-18C, JF-17, M-2000C, Mig-29, SU-27, MiG-31, Tornado IDS/GR4                                                                 |
+| ![rwr_triangle_symbol.jpg](../../img/rwr_triangle_symbol.jpg)           | F-14, F-15C, F-15E, F-16, F-18C, JF-17, M-2000C, MiG-29, Su-27, MiG-31, Tornado IDS/GR4                                                                 |
 | ![rwr_two_triangle_symbol.jpg](../../img/rwr_two_triangle_symbol.jpg)   | F-1, AJS-37, F-4E, MiG-19, MiG-21, MiG-23, F-5E-3                                                                                                       |
 | ![rwr_u_one_dot_symbol.jpg](../../img/rwr_u_one_dot_symbol.jpg)         | Unknown (Low band)                                                                                                                                      |
 | ![rwr_u_two_dot_symbol.jpg](../../img/rwr_u_two_dot_symbol.jpg)         | Unknown (Medium band)                                                                                                                                   |
@@ -323,8 +323,8 @@ will be displayed in the lower half of azimuth.
 
 | Symbol                                              | Possible threat      |
 | --------------------------------------------------- | -------------------- |
-| ![rwr_corr_msl.jpg](../../img/rwr_corr_msl.jpg)     | correlated missile   |
-| ![rwr_uncorr_msl.jpg](../../img/rwr_uncorr_msl.jpg) | uncorrelated missile |
+| ![rwr_corr_msl.jpg](../../img/rwr_corr_msl.jpg)     | Correlated missile   |
+| ![rwr_uncorr_msl.jpg](../../img/rwr_uncorr_msl.jpg) | Uncorrelated missile |
 
 ## Threat Indications
 
@@ -347,30 +347,83 @@ its PRF, which the RWR often picks up and plays a **New-Guy** tone for (3 short
 beeps). Activating **HANDOFF** mode often makes the high pitched PRF tone
 clearly audible.
 
+> 💡 The presence of a tracking radar does not necessarily indicate
+a lock, that the weapon platform intents to shoot or that the own aircraft is
+the target. However, in practice this is very often the case.
+
 > 💡 Symbols **S** and **U** require activating the **SEARCH** and **UNKNOWN**
 > mode respectively to be shown on the screen.
 
 ### Land
 
-| Threat | Search | Lock | Launch |
-| ------ | ------ | ---- | ------ |
-| SA-5   | U      | 5    | ❌     |
-| SA-8   | U      | 8    | 🟢     |
-| SA-10  | S      | 10   | ❌     |
-| SA-11  | S      | 11   | ❌     |
-| SA-13  | U      | ❌   | ❌     |
+| Threat  | Search        | Track/Lock | Launch                        |
+| ------- | ------------- | ---------- | ----------------------------- |
+| SA-2    | S             | 2          | 🟢                            |
+| SA-3    | S             | 3          | 🟢                            |
+| SA-5    | S             | 5          | ❌                            |
+| SA-6    | S             | 6          | 🟢                            |
+| HQ-7    | S             | 7          | ❌                            |
+| SA-8    | U             | 8          | 🟢                            |
+| SA-10   | S             | 10         | ❌                            |
+| SA-11   | S             | 11         | ❌                            |
+| SA-13   | U             | ❌         | ❌                            |
+| SA-15   | U             | 15         | 🟢                            |
+| SA-19   | U             | 19         | ❌                            |
+| Hawk    | S (CWAR Only) | H          | ❌                            |
+| Patriot | P             | PRF change | ❌                            |
+| Rapier  | S             | R          | ❌                            |
+| NASAMS  | S             | ❌         | AIM-120 tracking 🟢, other ❌ |
 
 ### Sea
 
-| Threat | Search | Lock | Launch |
-| ------ | ------ | ---- | ------ |
-| Rezky  | U      | 8    | 🟢     |
+> 💡 Majority of naval vessels have multiple radars for their multiple weapon
+> systems. Only some of them are included in the RWR's threat library, therefore
+> only the highest priority threat is shown in the lock column in the table
+> below.
+
+| Threat              | Search                     | Lock | Launch |
+| ------------------- | -------------------------- | ---- | ------ |
+| Rezky               | S (Multiple radars some U) | 8    | 🟢     |
+| Kirov               | S (Multiple radars some U) | 6    | ❌     |
+| Slava               | S (Multiple radars some U) | 8    | 🟢     |
+| Kuznetsov           | S (Multiple radars some U) | 9    | ❌     |
+| Molniya             | U                          | 8    | 🟢     |
+| Grisha              | U                          | 8    | 🟢     |
+| Neustrashimy        | S (Multiple radars some U) | 9    | ❌     |
+| Ropucha             | U                          | A    | ❌     |
+| Type 052B           | S (Multiple radars some U) | 7    | ❌     |
+| Type 052C           | U                          | 6    | ❌     |
+| Type 054A           | U                          | 7    | ❌     |
+| Type 071            | U                          | A    | ❌     |
+| Ticonderoga         | P                          | P    | ❌     |
+| Arleigh Burke       | P                          | P    | ❌     |
+| Oliver Hazard Perry | U                          | G    | ❌     |
+| Forrestal           | U                          | C    | ❌     |
+| Nimitz              | U                          | C    | ❌     |
+| Tarawa              | U                          | C    | ❌     |
+| La Combattante II   | U                          | A    | ❌     |
+| Leander             | S (Multiple radars some U) | L    | 🟢     |
+| Castle              | U                          | ❌   | ❌     |
+| Invincible          | S (Multiple radars some U) | ❌   | ❌     |
+| Veinticinco de Mayo | U                          | ❌   | ❌     |
+| Condell             | U                          | ❌   | ❌     |
+| Tiger               | U                          | ❌   | ❌     |
 
 ### Air
 
-| Threat | Search | Lock       | Launch               |
-| ------ | ------ | ---------- | -------------------- |
-| MIG-21 | 🟢     | PRF change | ❌                   |
-| MIG-23 | 🟢     | PRF change | ❌                   |
-| MIG-29 | 🟢     | PRF change | R-77 🟢, other ❌    |
-| F-16   | 🟢     | PRF change | AIM-120 🟢, other ❌ |
+| Threat              | Search | Lock       | Launch                        |
+| ------------------- | ------ | ---------- | ----------------------------- |
+| MiG-19              | 🟢     | PRF change | ❌                            |
+| MiG-21              | 🟢     | PRF change | ❌                            |
+| MiG-23              | 🟢     | PRF change | ❌                            |
+| MiG-29              | 🟢     | PRF change | R-77 tracking 🟢, other ❌    |
+| Su-27/30/33/34/J-11 | 🟢     | PRF change | R-77 tracking 🟢, other ❌    |
+| JF-17               | 🟢     | PRF change | ❌                            |
+| F-4                 | 🟢     | PRF change | ❌                            |
+| F-5                 | 🟢     | PRF change | ❌                            |
+| F-14                | 🟢     | PRF change | AIM-54 tracking 🟢, other ❌  |
+| F-15                | 🟢     | PRF change | AIM-120 tracking 🟢, other ❌ |
+| F-16                | 🟢     | PRF change | AIM-120 tracking 🟢, other ❌ |
+| F-18                | 🟢     | PRF change | AIM-120 tracking 🟢, other ❌ |
+| Mirage F1           | 🟢     | PRF change | ❌                            |
+| Mirage 2000C        | 🟢     | PRF change | ❌                            |

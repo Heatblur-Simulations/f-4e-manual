@@ -1,7 +1,10 @@
 # Bomb Delivery - Direct
 
+For more details, refer to chapter
+[4.3.3.6.6 Manual Release](../../stores/air_to_ground/bombs/employment/manual_release.md).
+
 | Step | System                     | Action          |
-|------|----------------------------|-----------------|
+| ---- | -------------------------- | --------------- |
 | 1    | OPTICAL SIGHT              | SET             |
 |      | a. Sight mode              | A/G             |
 |      | b. Reticle depression knob | SET             |
