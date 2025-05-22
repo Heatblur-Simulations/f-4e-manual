@@ -226,6 +226,8 @@ missile to maneuver towards the target emitter almost immediately after launch.
 
 Selection of the "Direct Attack" attack profile is only preferred when using the (WRCS) DIRECT mode.
 
+> 💡 Direct Attack can be utilized when engaging SAM systems during a quick low level popup attack.
+
 ### Seeker Heads
 
 The AGM-45 has 10 seeker heads, which each target a specific emitter radio frequency, to select
