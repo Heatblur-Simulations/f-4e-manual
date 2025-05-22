@@ -173,9 +173,7 @@ same for the AGM-45 Shrike_
 #### LABS Loft Employment
 
 This mode works exactly the same as it would for bombs so pre-planning is necessary. Select an IP
-calculate the timers and fly the same attack profile as for Loft bombing. Note that in this mode the
-sensor of the AGM-45 Shrike needs to sense a differential pressure of 1 psi and needs to sense
-a barometric height below 18,000ft to arm itself and start guidance.
+calculate the timers and fly the same attack profile as for Loft bombing.
 
 ### Direct Mode
 
@@ -227,7 +225,7 @@ from. This means some preparation is required prior to flight in order to be pro
 engage the threats effectively. The following seeker heads tables are provided so your missions can
 be planned accordingly.
 
-> 💡 This seeker head data is accurate as of patch 2.9.12.5336.1
+> 💡 This seeker head data is accurate as of patch 2.9.16.10523
 
 #### Seeker RF Limit Table
 
@@ -251,8 +249,9 @@ General Key:
 - STR: Search and Tracking Radar
 - RF: Rangefinder
 
-> 💡 Radars not within parenthesis = tone and needles are NOT provided but missile still tracks
-> radar.
+> 💡 For the tables below, the radars that are not within parenthesis means that they DO NOT provide
+> tone and needles but missile still track the specified radar. If the radar is within parenthesis,
+> they DO provide tone and needles as well as track the specified radar.
 
 #### Land-based Threats
 
@@ -260,15 +259,15 @@ General Key:
 
 | Seeker       |  SA-2   | SA-3 |  SA-5   | SA-6 | SA-8 |    SA-10     | SA-11 | SA-13 |   SA-15   | SA-19 | EWR  |
 | ------------ | :-----: | :--: | :-----: | :--: | :--: | :----------: | :---: | :---: | :-------: | :---: | :--: |
-| Mk 22        | (TR)/RF |      |   TR    |      |      |              |       | (TR)  |    TR     |       |  DE  |
+| Mk 22        | (TR)/RF |      |   TR    |      |      |              |       | (TR)  |    TR     |       | (DE) |
 | Mk 23        |  TR/RF  |      | (TS)/TR |      |      | (TS)/(BB)/CS |  SR   |  TR   |   (SR)    | (SR)  |      |
 | Mk 24 Mod 5  |  TR/RF  |      | (TS)/TR |      |      |     (TS)     |       |  TR   |           |  SR   |      |
-| Mk 24 Mod 34 |  TR/RF  |      | (TS)/TR |      |      |  (TS)/BB/CS  |       |  TR   |           |  SR   |      |
-| Mk 25        | (TR)/RF |      |   TR    |      |      |              |       | (TR)  |    TR     |       |  DE  |
-| Mk 36        |  TR/RF  | (TR) |   TR    | (TR) |      |      TR      |  TR   |  TR   |           |       |      |
+| Mk 24 Mod 34 |  TR/RF  |      | (TS)/TR |      |      | (TS)/(BB)/CS |       |  TR   |           |  SR   |      |
+| Mk 25        | (TR)/RF |      |   TR    |      |      |              |       | (TR)  |    TR     |       | (DE) |
+| Mk 36        |  TR/RF  | (TR) |   TR    | (TR) |      |      TR      | (TR)  |  TR   |           |       |      |
 | Mk 37        | (FF)/RF | (FF) | (FF)/TR |  SR  |  SR  |              |       |  TR   |           |       |      |
-| Mk 49 Mod 0  |  TR/RF  | (TR) |  (TR)   | (TR) |      |      TR      | (TR)  |  TR   |           |       |      |
-| Mk 49 Mod 1  |  TR/RF  | (TR) |  (TR)   | (TR) |      |      TR      | (TR)  |  TR   |           |       |      |
+| Mk 49 Mod 0  |  TR/RF  | (TR) |  (TR)   | (TR) |      |     (TR)     | (TR)  |  TR   |           |       |      |
+| Mk 49 Mod 1  |  TR/RF  | (TR) |  (TR)   | (TR) |      |     (TR)     | (TR)  |  TR   |           |       |      |
 | Mk 50        | (TR)/RF |      | (TS)/TR |      |      | (TS)/(BB)/CS |  SR   | (TR)  | (SR)/(TR) | (SR)  | (DE) |
 
 > 💡 The SA-2/3/5 all can use the same Flat Face search radar with the SA-5 having the option of
