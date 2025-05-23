@@ -1,5 +1,8 @@
 # Bomb Delivery - LABS, TGT FIND and OFFSET
 
+For more details, refer to chapters [4.3.3.6.1 Accurate Modes - Target Find](../../stores/air_to_ground/bombs/employment/accurate_modes.md)
+and [4.3.3.6.2 Offset Delivery](../../stores/air_to_ground/bombs/employment/offset_delivery.md).
+
 | Step | System                                | Action                                                               |
 | ---- | ------------------------------------- | -------------------------------------------------------------------- |
 | 1    | Sight mode knob                       | A/G                                                                  |
