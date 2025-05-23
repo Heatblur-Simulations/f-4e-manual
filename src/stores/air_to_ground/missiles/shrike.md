@@ -49,7 +49,7 @@ Before any AGM-45 Shrike can be employed a few things have to be set in the cock
 ### AGM-45 (WRCS Mode)
 
 Used only with the AGM-45 in conjunction with the WRCS, this mode is the primary means of employment
-of the Shrike. The mode is based around a high altitude attack profile, and depends on the
+of the Shrike. The mode is based around a high altitude employment profile, and depends on the
 pre-programmed weapon engagement envelope of the AGM-45 stored within the WRCS. This profile, in
 conjunction with current aircraft state information from the INS and a signal provided by the
 receiver in the missile - having detecting an emitter of the type its attuned to, define a flight
@@ -149,7 +149,7 @@ are deployed.
 
 ### Loft
 
-The Loft attack profile of the Shrike is like a loft bombing attack, utilizing the weapon lookup
+The Loft employment profile of the Shrike is like a loft bombing attack, utilizing the weapon lookup
 tables to define a suitable IP to release distance, the necessary release angle, and the time from
 IP to pull-up is determined by the lookup table speed versus the IP to release distance.
 
@@ -173,7 +173,7 @@ same for the AGM-45 Shrike_
 #### LABS Loft Employment
 
 This mode works exactly the same as it would for bombs so pre-planning is necessary. Select an IP
-calculate the timers and fly the same attack profile as for Loft bombing.
+calculate the timers and fly the same employment profile as for Loft bombing.
 
 ### Direct Mode
 
@@ -207,13 +207,16 @@ These control when the missile's guidance will initiate after launch.
 
 #### Loft Attack
 
-With "Loft Attack", the guidance will initiate when the missile's barometric altimeter detects a
-pressure increase of 1 psi AND the missile's barometric altimeter senses that the missile is below
-18,000ft MSL.
+With _Loft Attack_, the guidance will initiate when the missile's barometric altimeter detects that:
+
+- There is a pressure increase of 1 psi
+- The missile is below 18,000ft MSL.
+
+> 💡 A pressure increase of 1 psi is roughly a decrease in altitude of 1000-3000ft.
 
 This prevents unnecessary loss of energy due to the bang-bang guidance method of the weapon.
 
-Selection of the "Loft Attack" attack profile is strongly recommended when employing the Shrike in
+Selection of the _Loft Attack_ attack profile is strongly recommended when employing the Shrike in
 the (WRCS) AGM-45 and (LABS) LOFT modes.
 
 > 💡 Loft Attack can often be utilized to engage short-range and medium-range SAM systems outside of
@@ -221,12 +224,13 @@ the (WRCS) AGM-45 and (LABS) LOFT modes.
 
 #### Direct Attack
 
-With "Direct Attack", guidance will initiate approximately 3 seconds after launch, allowing the
+With _Direct Attack_, guidance will initiate approximately 3 seconds after launch, allowing the
 missile to maneuver towards the target emitter almost immediately after launch.
 
-Selection of the "Direct Attack" attack profile is only preferred when using the (WRCS) DIRECT mode.
+Selection of the _Direct Attack_ attack profile is only preferred when using the (WRCS) DIRECT mode.
 
-> 💡 Direct Attack can be utilized when engaging SAM systems during a quick low level popup attack.
+> 💡 _Direct Attack_ can be utilized when engaging SAM systems during a quick low level popup
+> attack.
 
 ### Seeker Heads
 
