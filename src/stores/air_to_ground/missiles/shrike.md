@@ -49,7 +49,7 @@ Before any AGM-45 Shrike can be employed a few things have to be set in the cock
 ### AGM-45 (WRCS Mode)
 
 Used only with the AGM-45 in conjunction with the WRCS, this mode is the primary means of employment
-of the Shrike. The mode is based around a high altitude attack profile, and depends on the
+of the Shrike. The mode is based around a high altitude employment profile, and depends on the
 pre-programmed weapon engagement envelope of the AGM-45 stored within the WRCS. This profile, in
 conjunction with current aircraft state information from the INS and a signal provided by the
 receiver in the missile - having detecting an emitter of the type its attuned to, define a flight
@@ -149,7 +149,7 @@ are deployed.
 
 ### Loft
 
-The Loft attack profile of the Shrike is like a loft bombing attack, utilizing the weapon lookup
+The Loft employment profile of the Shrike is like a loft bombing attack, utilizing the weapon lookup
 tables to define a suitable IP to release distance, the necessary release angle, and the time from
 IP to pull-up is determined by the lookup table speed versus the IP to release distance.
 
@@ -173,7 +173,7 @@ same for the AGM-45 Shrike_
 #### LABS Loft Employment
 
 This mode works exactly the same as it would for bombs so pre-planning is necessary. Select an IP
-calculate the timers and fly the same attack profile as for Loft bombing.
+calculate the timers and fly the same employment profile as for Loft bombing.
 
 ### Direct Mode
 
@@ -194,29 +194,43 @@ release button. The Shrike will fire within one second after pressing the bomb r
 aware that the Shrike will have the least amount of range in direct mode and should be fired very
 near to the target. A dive angle of 20 degree or more is recommended.
 
-### Steering Profiles
+### Attack Profiles
 
-The weapon itself can be configured for two different steering profiles called _Loft_
-and _Direct_ (not to be confused with the attack profiles available to employ them).
+The missile itself can be configured for two different attack profiles called _Loft Attack_ and
+_Direct Attack_ (not to be confused with the employment profiles available to employ them).
 
-These control when the missiles control surfaces can be actuated after launch.
+These control when the missile's guidance will initiate after launch.
 
-#### Loft Steering
+> 💡 Selection of the improper attack profile might cause the AGM-45 to miss the target due to lack
+> of energy (ex: the bang-bang guidance activating too early) or overshooting the target (ex:
+> guidance doesn't enable in time).
 
-When firing the missile, control surfaces are locked until the missile descended below the
-initial launch altitude.
+#### Loft Attack
 
-This prevents unnecessary loss of energy due to the bang-bang control surfaces of the weapon.
+With _Loft Attack_, the guidance will initiate when the missile's barometric altimeter detects that:
 
-> 💡 Loft steering can often be utilized to engage short-range SAM systems
-> outside of their engagement range.
+- There is a pressure increase of 1 psi
+- The missile is below 18,000ft MSL.
 
-#### Direct Steering
+> 💡 A pressure increase of 1 psi is roughly a decrease in altitude of 1000-3000ft.
 
-Control surfaces can be actuated almost immediately after launching, allowing the missile
-to maneuver towards the target emitter right after launch.
+This prevents unnecessary loss of energy due to the bang-bang guidance method of the weapon.
 
-This gives the weapon a shorter reaction time towards threats.
+Selection of the _Loft Attack_ attack profile is strongly recommended when employing the Shrike in
+the (WRCS) AGM-45 and (LABS) LOFT modes.
+
+> 💡 Loft Attack can often be utilized to engage short-range and medium-range SAM systems outside of
+> their engagement range.
+
+#### Direct Attack
+
+With _Direct Attack_, guidance will initiate approximately 3 seconds after launch, allowing the
+missile to maneuver towards the target emitter almost immediately after launch.
+
+Selection of the _Direct Attack_ attack profile is only preferred when using the (WRCS) DIRECT mode.
+
+> 💡 _Direct Attack_ can be utilized when engaging SAM systems during a quick low level popup
+> attack.
 
 ### Seeker Heads
 
