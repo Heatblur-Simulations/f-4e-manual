@@ -202,7 +202,7 @@ on for ADI needle guidance</li>
 </ol>
 <h3 id="agm-45-wrcs-mode"><a class="header" href="#agm-45-wrcs-mode">AGM-45 (WRCS Mode)</a></h3>
 <p>Used only with the AGM-45 in conjunction with the WRCS, this mode is the primary means of employment
-of the Shrike. The mode is based around a high altitude attack profile, and depends on the
+of the Shrike. The mode is based around a high altitude employment profile, and depends on the
 pre-programmed weapon engagement envelope of the AGM-45 stored within the WRCS. This profile, in
 conjunction with current aircraft state information from the INS and a signal provided by the
 receiver in the missile - having detecting an emitter of the type its attuned to, define a flight
@@ -290,7 +290,7 @@ active. If the target emitter ceases operation, the missile may lose guidance an
 target. As such, timing and situational awareness are essential, especially when multiple missiles
 are deployed.</p>
 <h3 id="loft"><a class="header" href="#loft">Loft</a></h3>
-<p>The Loft attack profile of the Shrike is like a loft bombing attack, utilizing the weapon lookup
+<p>The Loft employment profile of the Shrike is like a loft bombing attack, utilizing the weapon lookup
 tables to define a suitable IP to release distance, the necessary release angle, and the time from
 IP to pull-up is determined by the lookup table speed versus the IP to release distance.</p>
 <p>One key difference in the Loft mode versus the WRCS employment modes for the Shrike is the primary
@@ -309,7 +309,7 @@ sight reticle will illuminate again, and the horizontal ADI bar will stow.</p>
 same for the AGM-45 Shrike</em></p>
 <h4 id="labs-loft-employment"><a class="header" href="#labs-loft-employment">LABS Loft Employment</a></h4>
 <p>This mode works exactly the same as it would for bombs so pre-planning is necessary. Select an IP
-calculate the timers and fly the same attack profile as for Loft bombing.</p>
+calculate the timers and fly the same employment profile as for Loft bombing.</p>
 <h3 id="direct-mode"><a class="header" href="#direct-mode">Direct Mode</a></h3>
 <p>Direct mode employment of the AGM-45 is dependent on the crew knowing the precise location of the
 target SAM emitter; while it can be utilized as a fallback method in event of a WRCS system failure,
@@ -324,22 +324,39 @@ needle. From that point, the bomb release button is pressed and held until the S
 release button. The Shrike will fire within one second after pressing the bomb release button. Be
 aware that the Shrike will have the least amount of range in direct mode and should be fired very
 near to the target. A dive angle of 20 degree or more is recommended.</p>
-<h3 id="steering-profiles"><a class="header" href="#steering-profiles">Steering Profiles</a></h3>
-<p>The weapon itself can be configured for two different steering profiles called <em>Loft</em>
-and <em>Direct</em> (not to be confused with the attack profiles available to employ them).</p>
-<p>These control when the missiles control surfaces can be actuated after launch.</p>
-<h4 id="loft-steering"><a class="header" href="#loft-steering">Loft Steering</a></h4>
-<p>When firing the missile, control surfaces are locked until the missile descended below the
-initial launch altitude.</p>
-<p>This prevents unnecessary loss of energy due to the bang-bang control surfaces of the weapon.</p>
+<h3 id="attack-profiles"><a class="header" href="#attack-profiles">Attack Profiles</a></h3>
+<p>The missile itself can be configured for two different attack profiles called <em>Loft Attack</em> and
+<em>Direct Attack</em> (not to be confused with the employment profiles available to employ them).</p>
+<p>These control when the missile's guidance will initiate after launch.</p>
 <blockquote>
-<p>💡 Loft steering can often be utilized to engage short-range SAM systems
-outside of their engagement range.</p>
+<p>💡 Selection of the improper attack profile might cause the AGM-45 to miss the target due to lack
+of energy (ex: the bang-bang guidance activating too early) or overshooting the target (ex:
+guidance doesn't enable in time).</p>
 </blockquote>
-<h4 id="direct-steering"><a class="header" href="#direct-steering">Direct Steering</a></h4>
-<p>Control surfaces can be actuated almost immediately after launching, allowing the missile
-to maneuver towards the target emitter right after launch.</p>
-<p>This gives the weapon a shorter reaction time towards threats.</p>
+<h4 id="loft-attack"><a class="header" href="#loft-attack">Loft Attack</a></h4>
+<p>With <em>Loft Attack</em>, the guidance will initiate when the missile's barometric altimeter detects that:</p>
+<ul>
+<li>There is a pressure increase of 1 psi</li>
+<li>The missile is below 18,000ft MSL.</li>
+</ul>
+<blockquote>
+<p>💡 A pressure increase of 1 psi is roughly a decrease in altitude of 1000-3000ft.</p>
+</blockquote>
+<p>This prevents unnecessary loss of energy due to the bang-bang guidance method of the weapon.</p>
+<p>Selection of the <em>Loft Attack</em> attack profile is strongly recommended when employing the Shrike in
+the (WRCS) AGM-45 and (LABS) LOFT modes.</p>
+<blockquote>
+<p>💡 Loft Attack can often be utilized to engage short-range and medium-range SAM systems outside of
+their engagement range.</p>
+</blockquote>
+<h4 id="direct-attack"><a class="header" href="#direct-attack">Direct Attack</a></h4>
+<p>With <em>Direct Attack</em>, guidance will initiate approximately 3 seconds after launch, allowing the
+missile to maneuver towards the target emitter almost immediately after launch.</p>
+<p>Selection of the <em>Direct Attack</em> attack profile is only preferred when using the (WRCS) DIRECT mode.</p>
+<blockquote>
+<p>💡 <em>Direct Attack</em> can be utilized when engaging SAM systems during a quick low level popup
+attack.</p>
+</blockquote>
 <h3 id="seeker-heads"><a class="header" href="#seeker-heads">Seeker Heads</a></h3>
 <p>The AGM-45 has 10 seeker heads, which each target a specific emitter radio frequency, to select
 from. This means some preparation is required prior to flight in order to be properly prepared to
