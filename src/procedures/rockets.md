@@ -1,5 +1,7 @@
 # Rockets
 
+For more details, refer to chapter [4.3.2 Rockets](../../stores/air_to_ground/rockets.md)
+
 ## Rocket Firing
 
 | Step | System                      | Action           |
