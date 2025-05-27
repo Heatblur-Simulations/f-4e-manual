@@ -172,9 +172,11 @@ simply delete your custom file.
 
 ## Jester Modding Repository
 
+<!-- markdown-link-check-disable -->
 To share mods with others or propose integration of mods into the base game, content can be
 uploaded to the public repository
 [Heatblur-Simulations/jester-modding](https://github.com/Heatblur-Simulations/jester-modding).
+<!-- markdown-link-check-enable -->
 
 This repository also contains the source files of Jester to aid modders in learning the Api,
 but also to enable modification of existing logic.
