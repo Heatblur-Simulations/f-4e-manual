@@ -297,31 +297,31 @@ General Key:
 
 | Seeker       | CH-SA-4 (HQ-7) |
 | ------------ | :------------: |
-| Mk 22        |                |
-| Mk 23        |                |
-| Mk 24 Mod 5  |                |
-| Mk 24 Mod 34 |                |
-| Mk 25        |                |
-| Mk 36        |       SR       |
-| Mk 37        |                |
-| Mk 49 Mod 0  |       SR       |
-| Mk 49 Mod 1  |       SR       |
-| Mk 50        |                |
+| Mk 22        |       TR       |
+| Mk 23        |    (SR)/TR     |
+| Mk 24 Mod 5  |       TR       |
+| Mk 24 Mod 34 |       TR       |
+| Mk 25        |       TR       |
+| Mk 36        |       TR       |
+| Mk 37        |       TR       |
+| Mk 49 Mod 0  |       TR       |
+| Mk 49 Mod 1  |       TR       |
+| Mk 50        |    (SR)/TR     |
 
 ##### Combined NATO and Warsaw Pact Anti-Aircraft Artillery (AAA) radars
 
 | Seeker       | Shilka | Fire Can | Gepard | M163 VADS | C-RAM |
 | ------------ | :----: | :------: | :----: | :-------: | ----- |
 | Mk 22        |        |    TR    |        |           |       |
-| Mk 23        |        |   (TR)   | SR/TR  |           |       |
-| Mk 24 Mod 5  |        |   (TR)   | SR/TR  |           |       |
+| Mk 23        |        |   (TR)   |   SR   |           |       |
+| Mk 24 Mod 5  |        |   (TR)   |   SR   |           |       |
 | Mk 24 Mod 34 |        |   (TR)   |        |           |       |
 | Mk 25        |        |    TR    |        |           |       |
 | Mk 36        |        |    TR    |        |           |       |
 | Mk 37        |        |    TR    |        |           |       |
 | Mk 49 Mod 0  |        |    TR    |        |           |       |
 | Mk 49 Mod 1  |        |    TR    |        |           |       |
-| Mk 50        |        |   (TR)   |   TR   |           |       |
+| Mk 50        |        |   (TR)   |   SR   |           |       |
 
 ##### NATO land-based SAM system radars and EWRs
 
