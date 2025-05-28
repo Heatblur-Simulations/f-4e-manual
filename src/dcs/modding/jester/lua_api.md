@@ -453,9 +453,11 @@ The returned value is a wrapper `Property` object. Access to the underlying
 value (in this case a `LReal` with unit `Pounds`) is given by
 `GetProperty(...).value`.
 
+<!-- markdown-link-check-disable -->
 See the `properties_snapshot.json` file in the
 [Heatblur-Simulations/jester-modding](https://github.com/Heatblur-Simulations/jester-modding)
 repository for a full list of all readable properties.
+<!-- markdown-link-check-enable -->
 
 ![properties_snapshot](../../../img/properties_snapshot.jpg)
 
