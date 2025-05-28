@@ -1,5 +1,7 @@
 # KY-28 Operations
 
+For more details, refer to chapter [3.3.7 KY-28 Encription](../systems/nav_com/encryption.md).
+
 ## Prelaunch
 
 | Step | System                       | Action                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
