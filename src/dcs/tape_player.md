@@ -61,3 +61,8 @@ start of the game.
 > **OGG** for the sound file. Also make sure the file names do not contain any
 > special Unicode characters, such as `·` or `你好`, DCS tends to crash on
 > those.
+>
+> To speedup loading times DCS introduced a song cache. Unfortunately, this
+> mechanism disables the ability to load custom songs. Either replace the
+> existing soundtracks with yours (so that they share the same name), or
+> manually delete the sound cache file `sdef.tar`.
