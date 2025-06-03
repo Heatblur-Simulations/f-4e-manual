@@ -17,11 +17,6 @@ additional seeker updates for later SAM systems. The Shrike was put into use by 
 the Israeli Air Force, who also modified it for a ground-launched version, and through clandestine
 means with the RAF during the Falklands War.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uGuUEdmtbl8?si=F9SuNHhhRCrovTIv"
-title="The proper way to employ AMG-45 Shrikes - DCS F-4E Tutorial" frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 ## Variants
 
 Only the A version can be equipped on this version of the Phantom.
