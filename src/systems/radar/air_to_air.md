@@ -317,18 +317,23 @@ target. If that is the case, the pilot must position the target on the gunsight 
 the WSO can select an appropriate [aspect setting](interface.md#aspect). The
 Sparrow can now be fired.
 
-> 💡 Targets need to be within a 5 degree zone or an attempted lock will likely
+> 💡 Targets need to be within a 5-degree zone, or an attempted lock will likely
 > result in a bad lock.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/krnmdPE_xUc?si=vbXN8f1dDDsRO8K6"
+title="DCS F-4E - Boresight Mode, AIM-7 and Speedgates" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Cage Condition
 
 The cage condition is a close combat mode which can be entered at any time by
-depressing the CAGE Button on the pilot throttle. This by default puts the radar
+depressing the CAGE Button on the pilot throttle. This, by default, puts the radar
 into boresight as described above.
 
 ![Cage Mode](../../img/radar_cage_mode.jpg)
 
-When the cage condition is present the following changes happen:
+When the cage condition is present, the following changes happen:
 
 - Air-To-Air light in the rear pit illuminates.
 - Trigger control is transferred to the air-to-air weapons (including when ARM
@@ -338,7 +343,7 @@ When the cage condition is present the following changes happen:
 
 If a track condition exists before the CAGE Button is pressed and the pinky
 switch on the throttle is in RADAR or HEAT, the radar breaks track and returns
-to boresight. If pinky switch is in GUNS, the lock is not broken.
+to boresight. If the pinky switch is in GUNS, the lock is not broken.
 
 Cage mode can be exited from either cockpit. The pilot can place the Weapon
 Select Knob into or out of the B position. If the pilot leaves the Weapon Select
@@ -347,7 +352,7 @@ cage mode by pressing the [Air To Air Button](interface.md#air-to-air-button).
 
 ### Computer Automatic Acquisition Mode (CAA)
 
-Once in Cage mode, the radar can be selected in to Computer Automatic
+Once in Cage mode, the radar can be selected into Computer Automatic
 Acquisition using the Nose Gear Steering button on the stick.
 
 In CAA, the radar enters a vertical-oriented scan pattern 78 degrees in height
