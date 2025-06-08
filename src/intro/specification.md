@@ -18,4 +18,4 @@
 
 ![f_4_assembly](../img/f_4_assembly.jpg)
 *US F-4J airframes undergoing modification and upgrade to F-4J(UK)
-standard at NARF (Naval Air Rework Facility) at NORIS (North Island) San Diego, California*
+standard at NARF (Naval Air Rework Facility) at NORIS (North Island), San Diego, California*
