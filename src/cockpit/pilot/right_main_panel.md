@@ -2,7 +2,7 @@
 
 ![RMP](../../img/pilot_right_main_panel_overview.jpg)
 
-The right main panel offers a good overview of all needed engine data as well as of your defensive
+The right main panel offers a good overview of all the needed engine data as well as of your defensive
 Radar warning receiver (RWR). There is also the fuel gauge (<num>1</num>) and the fire warning
 lights (<num>4</num>)
 located on it. Also found on the right main panel are the master caution light (<num>3</num>), the
@@ -23,7 +23,7 @@ The knob controls the brightness of the display.
 
 Below is a box with several knobs to operate the system.
 
-For further information and button explanation see the
+For further information and button explanation, see the
 [Radar Warning Receiver](../../systems/defensive_systems/radar_warning_receiver.md) chapter.
 
 ## Azimuth-Elevation Indicator
@@ -35,7 +35,7 @@ instrument for the pilot to assess the current attitude of
 the [Pave Spike](../../systems/weapon_systems/pave_spike/overview.md)
 Targeting Pod in order to keep the line of sight within the operational limits.
 
-The needle shows the pods roll position from -160° (CW) to +110° (CCW).
+The needle shows the pod's roll position from -160° (CW) to +110° (CCW).
 
 Three flags indicate the elevation:
 
@@ -44,7 +44,7 @@ Three flags indicate the elevation:
 - red: -160° or beyond
 
 If the needle is kept within the green labelled range and neither the yellow or
-red flag are shown, the view will not be obstructed by the pod or the aircraft.
+red flags are shown, the view will not be obstructed by the pod or the aircraft.
 
 ## Master Caution Light
 
@@ -63,10 +63,10 @@ panel.
 When pressed, this button tests for functionality of the FIRE and OVRHT lamps.
 Under normal conditions, all four lights should light up as long as the button
 is pressed down. If a lamp does not light up, it is likely broken and cannot be
-trusted on indicating a fire condition anymore.
+trusted to indicate a fire condition anymore.
 
 The button can also be used in conjunction with the Warning Lights Test switch
-to confirm detection and continuity performance of the fire and overheat warning
+to confirm the detection and continuity performance of the fire and overheat warning
 systems.
 
 Holding the Warning Lights Test switch in the WARN TEST position, then
@@ -88,7 +88,7 @@ nozzle section (OVRHT).
 ![JPInd](../../img/pilot_fuel_indicator.jpg)
 
 The Fuel Quantity Indicator provides two different indications of total usable
-internal fuel to confirm proper transfer function between the seven internal
+internal fuel to confirm the proper transfer function between the seven internal
 fuel cells, as well as any external loaded tanks.
 
 On the upper half, it displays the total **fuselage fuel** with a white tape
@@ -108,7 +108,7 @@ The example has the counter reading 0590, indicating 5900 lb of internal fuel.
 
 As a general guidance, Bingo fuel is around 4000 pounds, while Joker fuel is at 6000 lb.
 
-For more detailed information see
+For more detailed information, see
 [3.2.2 Fuel system chapter](../../systems/engines_and_fuel_systems/fuel_system.md).
 
 ## Fuel Flow Gauges
@@ -147,5 +147,5 @@ engine on their respective side, to confirm balanced nozzle position and
 scheduling relative to throttle position. The gauge provides four zones relative
 to the nozzles being in their fully open configuration (needle fully left), or their maximum closed
 configuration (needle fully right). At idle, the indication will be roughly 7/8ths
-open, and schedules down as throttle is increased. Position in the afterburner
+open, and schedules down as the throttle is increased. Position in the afterburner
 region will moderate to maintain safe EGT levels.
