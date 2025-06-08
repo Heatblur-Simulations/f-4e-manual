@@ -2,7 +2,7 @@
 
 The pilot cockpit is divided into a front section, containing all instruments
 and weapon controls, as well as the radar screen; the left console area with
-engine, control surfaces and navigation related settings; the pedestal group
+engine, control surfaces and navigation-related settings; the pedestal group
 holding auxiliary information; and the right console area with communication and
 lighting controls.
 
