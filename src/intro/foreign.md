@@ -8,9 +8,9 @@ it was natural that it would be the model with the furthest reach.
 Amidst the ever-evolving landscape of military technology, foreign operators of
 the F-4E undertook comprehensive upgrades and modernization efforts. These
 initiatives were aimed at extending the aircraft's service life and enhancing
-its combat capabilities. The F-4E, with its powerful
-engines, evolved to meet the demands of contemporary warfare, solidifying its
-place as a venerable platform in the arsenals of its adoptive nations.
+its combat capabilities. The F-4E, with its powerful engines, evolved to meet
+the demands of contemporary warfare, solidifying its place as a venerable
+platform in the arsenals of its adoptive nations.
 
 The F-4E Phantom II's foreign service was not merely a chapter in the history of
 military aviation, but a saga that unfolded across continents and through the
@@ -46,25 +46,25 @@ limited time basis. Twenty-four F-4Es were provided to the RAAF on a lease basis
 by the United States as a stopgap measure due to delays in deliveries of the
 F-111C.
 
-The F-4E would operate in Australian service for just three years, from September 
-1970 to 1973. Australian aircrews were impressed with the Phantom's
+The F-4E would operate in Australian service for just three years, from
+September 1970 to 1973. Australian aircrews were impressed with the Phantom's
 performance for their needs, and while the US offered to let the RAAF buy the
 leased airframes outright, this offer was ultimately rejected.
 
 ## Japan
 
-![JASDF F-4 starting](../img/JASDF_F-4_Phantoms.jpg)
-_F-4EJ Kais of the JASDF of the 8th Hikōtai taking off in 2002, US Navy Photo_
+![JASDF F-4 starting](../img/JASDF_F-4_Phantoms.jpg) _F-4EJ Kais of the JASDF of
+the 8th Hikōtai taking off in 2002, US Navy Photo_
 
 With permission from the US State Department and license terms with McDonnell
 Douglas, Mitsubishi Heavy Industries would build the F-4E locally, designated as
 the F-4EJ. The -4EJ would be provided compatibility with Japanese-built weapons,
-but the omission of the refuelling probe and AJB-7 bombing computer due to treaty
-restrictions on the JASDF.
+but the omission of the refuelling probe and AJB-7 bombing computer due to
+treaty restrictions on the JASDF.
 
 The -4EJ was updated as the 'Kai' in 1984, receiving the APG-66J radar and ASM-1
-and - 2 anti-shipping missiles. The F-4EJ would serve Japan for over 40 years, with
-the final examples being withdrawn in March of 2021.
+and - 2 anti-shipping missiles. The F-4EJ would serve Japan for over 40 years,
+with the final examples being withdrawn in March of 2021.
 
 ## Iran
 
@@ -122,8 +122,8 @@ mid-2030s.
 
 ## Germany
 
-![F-4Fs german air force 1998](../img/F-4Fs_JG74_1998.jpg)
-_F-4Fs of the German Air Force in 1998, USAF Photo_
+![F-4Fs german air force 1998](../img/F-4Fs_JG74_1998.jpg) _F-4Fs of the German
+Air Force in 1998, USAF Photo_
 
 Primarily an F-4F and RF-4E customer - the largest F-4 export recipient with 263
 delivered overseas, Germany would purchase 10 F-4Es to be based in the United
@@ -145,8 +145,8 @@ the intention of withdrawing it in 2024.
 ## Egypt
 
 The final F-4E export customer, Egypt, received purchasing rights through its
-peace treaty with Israel and the Peace Pharaoh agreement; rather than newly build
-airframes, Egypt received 35 former USAF aircraft.
+peace treaty with Israel and the Peace Pharaoh agreement; rather than newly
+build airframes, Egypt received 35 former USAF aircraft.
 
 The Phantom was ultimately a precursor towards the nation's purchase of the
 F-16, and went through initial difficulties in servicing by their maintenance
