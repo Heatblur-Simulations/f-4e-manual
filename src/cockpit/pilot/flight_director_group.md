@@ -32,7 +32,7 @@ A self-test, initiated by pressing the function control switch, shows 35ft.
 
 ![pilot_air_speed_mach_indicator](../../img/pilot_airspeed_mach_indicator.jpg)
 
-The combination airspeed and mach number indicator shows airspeed readings below
+The combination airspeed and Mach number indicator shows airspeed readings below
 200 knots, and include Mach numbers on the outer ring at high speed. The indicator uses a
 single
 pointer over a fixed airspeed scale, marked from 80 to 850 knots, with a moving
@@ -49,7 +49,7 @@ refers to
 the Mach scale. Both move along dynamically according to the Airspeed. The (<num>3</num>)
 area
 refers to the
-airspeed scale before the mach scale starts.
+airspeed scale before the Mach scale starts.
 
 ## Angle of Attack Indicator
 
@@ -101,7 +101,7 @@ show unusual gyrations on the attitude director indicator due to initial
 erection. Rapid turns (above 15° per minute) may temporarily disrupt accurate
 heading information and automatic synchronization of heading information. If the heading
 information doesn't resync itself after flying straight and level again for
-approximately 20 seconds a manual synchronization is required. This can be done by flying
+approximately 20 seconds, a manual synchronization is required. This can be done by flying
 in a straight and level flight for about 20 seconds and turning
 the [Mode Selector Knob](../pilot/right_console/aft_section.md#mode-selector-knob) to the
 spring-loaded SYNC position for approximately 3 seconds.
@@ -197,8 +197,8 @@ Shows the distance (<num>2</num>) to the selected TACAN station or NAV COMP dest
 
 Several lights (<num>7</num>) indicate the active navigation mode:
 
-* VOR: Indicates that the VOR/ILS mode is selected and a VOR frequency selected.
-* ILS: Indicates that the VOR/ILS mode is selected and an ILS frequency selected.
+* VOR: Indicates that the VOR/ILS mode is selected and a VOR frequency is selected.
+* ILS: Indicates that the VOR/ILS mode is selected and an ILS frequency is selected.
 * TAC: Shows that TACAN mode is active.
 * NAV: Illuminates when the Navigation Computer mode is in use.
 * MAN: Indicates that the Heading Mode is selected.
@@ -214,17 +214,15 @@ and
 100 foot increments around the face (<num>5</num>). The altimeter has an absolute range of
 80,000 feet. The altimeter includes a barometric scale (<num>3</num>) for setting local
 pressure with the knob (<num>1</num>) on the indicator. Works in either electric (normal
-operation mode) or pneumatic (STBY) mode, switchable via a spring-loaded three
-position switch (<num>2</num>) labelled RESET and STBY. When held in RESET for more than 3
-seconds
-the system
-will be reset and moved out of STBY.
+operation mode) or pneumatic (STBY) mode, switchable via a spring-loaded three-position
+switch (<num>2</num>) labelled RESET and STBY. When held in RESET for more than 3
+seconds, the system will be reset and moved out of STBY.
 
 ## Vertical Velocity Indicator
 
 ![VVI](../../img/pilot_vertical_velocity_indicator.jpg)
 
-Provides rate of climb or descent via the static pressure system referenced in
+Provides the rate of climb or descent via the static pressure system referenced in
 thousands of feet per minute.
 
 ## Standby Attitude Indicator
