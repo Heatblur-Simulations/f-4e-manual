@@ -10,7 +10,7 @@ and [navigation](../../../systems/nav_com/overview.md) related settings.
 
 ### Internal Wing Dump Switch
 
-Two position switch (<num>1</num>) which, when placed in DUMP, closes off the wing fuel cells
+Two-position switch (<num>1</num>) which, when placed in DUMP, closes off the wing fuel cells
 from transfer into the fuselage fuel cells and dumps fuel from the valves at the
 wing fold trailing edge. Placing the switch back to the NORM position closes the
 dump valves and reconnects the wing cells for transfer to the fuselage.
@@ -19,11 +19,11 @@ The entire fuel is dumped in roughly 15 minutes.
 
 ### Internal Wing Transfer Switch
 
-A two position switch (<num>2</num>) which controls flow of wing cell stored fuel to the
+A two-position switch (<num>2</num>) which controls the flow of wing cell stored fuel to the
 fuselage fuel tanks; NORMAL permits transfer, whereas STOP TRANS ceases flow
 from the wings to the fuselage feed tanks.
 
-Transfer only occurs without weight on wheels and if the internal tanks have
+Transfer only occurs without weight on wheels, and if the internal tanks have
 reached a certain fuel level already.
 
 ### Refueling Select Switch
@@ -35,7 +35,7 @@ internal (INT ONLY) or all tanks (ALL).
 
 ### Air Refueling Switch
 
-Two position toggle switch (<num>4</num>) used for extending (EXTEND) and retracting (RETRACT)
+Two-position toggle switch (<num>4</num>) used for extending (EXTEND) and retracting (RETRACT)
 the air-to-air refueling door. Placing the switch into EXTEND also illuminates the
 air-to-air refueling receptacle lamp to assist the tanker boom operator.
 
@@ -50,7 +50,7 @@ currently
 transferring fuel to the fuselage tanks: CENTER (centerline tank), OFF (none),
 or OUTBD (outboard wing tanks).
 
-Transfer only occurs without weight on wheels and if the internal tanks have
+Transfer only occurs without weight on wheels, and if the internal tanks have
 reached a certain fuel level already.
 
 It is not possible to transfer from the wing tanks and external tanks at the
@@ -58,7 +58,7 @@ same time. If both are selected, the external tanks will take priority.
 
 ### Boost Pump Check Switches
 
-A pair of two position spring-loaded switches (<num>6</num>) are provided to confirm function
+A pair of two-position spring-loaded switches (<num>6</num>) is provided to confirm the function
 of the fuel boost pumps. Can only be checked with the engine master switches
 OFF. Holding either switch will energize the respective boost pump, thus showing
 a positive pressure value on the fuel pressure indicator.
@@ -71,7 +71,7 @@ a positive pressure value on the fuel pressure indicator.
 
 The nav vol knob (<num>1</num>) controls the volume
 of [the VOR/ILS audio system](../../../systems/nav_com/vor_ils.md) that indicates being tuned to the
-desired frequency by repeating the morse code identifier of the selected station.
+desired frequency by repeating the Morse code identifier of the selected station.
 
 Must be moved out of the full CCW position to provide power to [the VOR/ILS
 system](../../../systems/nav_com/vor_ils.md).
@@ -103,7 +103,7 @@ See [VOR/ILS Test](../../../procedures/bit_tests/navigation_tests.md#vorils-test
 
 Three two-position switches (<num>1</num>) enable individual channels
 of [stability augmentation](../../../systems/flight_controls_gear/flight_controls.md#automatic-flight-control-system-afcs---anasa-32)
-for Yaw, Roll, and Pitch. ENGAGE (forward) sets the respective chanel stability
+for Yaw, Roll, and Pitch. ENGAGE (forward) sets the respective channel stability
 augmentation on.
 
 See [3.1.2 Flight Controls & AFCS](../../../systems/flight_controls_gear/flight_controls.md) for
@@ -123,4 +123,4 @@ a rapid control input.
 
 The two position switch (<num>3</num>) activates the altitude hold function of
 the [AFCS](../../../systems/flight_controls_gear/flight_controls.md#auotmatic-flight-control-system-afcs)
-which will maintain current baromertic altitude.
+which will maintain the current barometric altitude.
