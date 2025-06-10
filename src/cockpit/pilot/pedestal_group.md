@@ -15,7 +15,7 @@ pressure gauge (<num>8</num>).
 ![GGauge](../../img/pilot_accelerator.jpg)
 
 Calibrated from negative 4 to positive 10 in units of G, with three pointers -
-one for current applied load, the other two show maximum positive and negative G
+one for the current applied load, the other two show maximum positive and negative G
 applied during the flight. Pressing the PUSH TO SET button will reset the
 maximum position indicators to 1 G.
 
@@ -23,9 +23,9 @@ maximum position indicators to 1 G.
 
 ![OilPress](../../img/pilot_engine_oil.jpg)
 
-A pair of engine oil pressure indicators are provided, one for each engine,
+A pair of engine oil pressure indicators is provided, one for each engine,
 calibrated from 0 to 100 PSI. Engine oil is used for lubrication, variable
-nozzle positioning, and constant speed drive unit
+nozzle positioning, and a constant speed drive unit
 operation. Important values are:
 
 * 12 PSI - Minimum at idle RPM
@@ -33,20 +33,20 @@ operation. Important values are:
 * 35 PSI - Static minimum at military thrust
 * 60 PSI - Maximum
 
-For further information see
+For further information, see
 [3.2.1 Engines chapter](../../systems/engines_and_fuel_systems/engines.md).
 
-## Hydraulic pressure Indicators
+## Hydraulic Pressure Indicators
 
 ![HydPress](../../img/pilot_hydraulic_pressure.jpg)
 
-Two hydraulic pressure indicators are installed. The one on the right, references the Utility
+Two hydraulic pressure indicators are installed. The one on the right references the Utility
 Hydraulic System pressure, while the left one references the PC-1 and PC-2
-Hydraulic Systems; the latter includes two needles, which are marked accordingly.
+Hydraulic Systems. The latter includes two needles, which are marked accordingly.
 Pressure transmitters, one for
 each system, convert pressure impulses to electrical
-impulses which, in turn, are supplied to the indicators.
-Nominal operating power for all three systems
+impulses, which, in turn, are supplied to the indicators.
+Nominal operating pressure for all three systems
 is 3000 ±250 PSI. Other important values are:
 
 * 2000-2750 - Normal with rapid control movement
@@ -54,26 +54,26 @@ is 3000 ±250 PSI. Other important values are:
 * 3250-3400 - If pressure exceeds 3250 steady state, and entry must be logged on form 781
 * 3400 - Maximum
 
-For further information see [3.5 Hydraulics chapter](../../systems/hydraulics.md).
+For further information, see [3.5 Hydraulics chapter](../../systems/hydraulics.md).
 
 ## Pneumatic Pressure Indicator
 
 ![Pneumatic Pressure Indicator](../../img/pilot_pneumatic.jpg)
 
-Shows manifold pressure of the pneumatic system
-measured by the pressure transmitter which supplies
+Shows the manifold pressure of the pneumatic system
+measured by the pressure transmitter, which supplies
 electrical inputs to the indicator.
-Keep in mind it doesn't show individual
+Keep in mind that it doesn't show individual
 emergency pneumatic bottle pressures.
 Normal system pressure range is from 2650 to 3300 psi
-due to pressure transmitter and pressure gage tolerances.
+due to pressure transmitter and pressure gauge tolerances.
 
 Other important values are:
 
 * 3300-3500 - Caution area
 * 3500 - Maximum
 
-For further information see the [3.6 Pneumatics chapter](../../systems/pneumatics.md).
+For further information, see the [3.6 Pneumatics chapter](../../systems/pneumatics.md).
 
 ## Screen Source Switch
 
@@ -101,7 +101,7 @@ setting (4000 rounds per minute).
 ![pilot_pedestral_group_auto_clear_switch](../../img/pilot_clear_switch.jpg)
 
 The cannon will fire approximately between 5 and 11 rounds from the point the pilot has released the
-trigger to clear all bolt actions in the cannon. This spin-down takes approximately one second
+trigger to clear all bolt actions in the cannon. This spin-down takes approximately one second,
 during which the gun cannot be fired again during this operation. This only applies to externally
 carried gun pods and not to the main gun.
 
@@ -127,14 +127,14 @@ Dual purpose switch to control [Mavericks](../../stores/air_to_ground/missiles/m
 and [Shrikes](../../stores/air_to_ground/missiles/shrike.md).
 
 For Mavericks, the spring-loaded TGT/MSL REJ position cycles through the available
-Mavericks currently selected and armed. If six Mavericks are equipped the station with the uncaged
-and active Maverick is cycled. To cycle the other station simply de-arm the active station, and
+Mavericks that are currently selected and armed. If six Mavericks are equipped, the station with the uncaged
+and active Maverick is cycled. To cycle to the other station, simply de-arm the active station and
 select the other. The DF
 REJ position has no function.
 
 For Shrikes, TGT/MSL REJ turns off the weapon seeker entirely until released.
 The DF REJ position selects the WRCS mode for receiving a solution, while the center position
-uses the weapons own, less accurate seeker system instead.
+uses the weapon's own, less accurate seeker system instead.
 
 ### Band Switch
 
@@ -149,7 +149,7 @@ by [Shrikes](../../stores/air_to_ground/missiles/shrike.md).
 
 ![PedAdjust](../../img/pilot_pedal_adjust.jpg)
 
-Used to adjust ergonomic position of the rudder pedals forward or back from the
+Used to adjust the ergonomic position of the rudder pedals forward or back from the
 pilot.
 
 Requires 38 full turns to move the pedals across the entire range.
