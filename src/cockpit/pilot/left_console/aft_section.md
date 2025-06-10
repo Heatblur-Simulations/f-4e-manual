@@ -7,9 +7,9 @@ and [countermeasure](../../../systems/defensive_systems/countermeasures.md) cont
 
 ![BoardStepsLadder](../../../img/pilot_boarding_steps_indicator.jpg)
 
-Used to visually confirm the integrated boarding steps state. With
+Used to visually confirm the state of the integrated boarding steps. With
 the white post up, steps are stowed, whereas steps are deployed if post
-is down and flush with panel recess. The boarding steps and ladder is moved
+is down and flush with the panel recess. The boarding steps and ladder are moved
 by the [crew chief](../../../crew_chief/overview.md).
 
 ## Intercom System Control Panel
@@ -19,7 +19,7 @@ by the [crew chief](../../../crew_chief/overview.md).
 ### Volume Control Knob
 
 The volume control knob (<num>1</num>) is turned clockwise to increase audio between cockpits, and
-counterclockwise to decrease audio between cockpits on
+counterclockwise to decrease the audio between the cockpits on
 the [Intercom](../../../systems/nav_com/intercom.md).
 
 ### Amplifier Select Knob
@@ -49,11 +49,11 @@ The function selector switch (<num>3</num>) has three positions:
 
 The panel features 6 knobs to
 control [chaff and flare](../../../systems/defensive_systems/countermeasures.md#anale-40-countermeasures-system)
-dispensing as well as two lamps and a switch.
+dispensing, as well as two lamps and a switch.
 
 ### Knobs
 
-They are two important definitions to know when setting up the countermeasures:
+There are two important definitions to know when setting up the countermeasures:
 
 * BURST - single dispense signal
 * SALVO - group of bursts
@@ -76,10 +76,10 @@ Using the six knobs placed on the programmer you can adjust following parameters
 The flares select switch (<num>9</num>) controls how countermeasures will be released when the
 pilot presses the dispense button.
 
-In the NORMAL setting, countermeasure are released according to combined settings of the
+In the NORMAL setting, countermeasures are released according to the combined settings of the
 [CCU](../../wso/left_console/center_section.md#anale-40-cockpit-control-unit-ccu) and the Programmer.
 
-FLARES position allows the pilot to dispense single flare with each dispense button press
+FLARES position allows the pilot to dispense a single flare with each dispense button press
 regardless of CCU and Programmer settings.
 
 ### Power On Indicator Light
