@@ -45,7 +45,7 @@ will cause errors by doubling drift compensation due to INS corrections.
 ### Set Heading Control Knob
 
 Push-to-turn knob (<num>1</num>), spring-loaded to return to the center, permits
-manual adjustment of the azimuth, crucial when operating in the DG mode.
+the manual adjustment of the azimuth, crucial when operating in the DG mode.
 
 ### Sync Indicator
 
@@ -63,7 +63,7 @@ This panel contains controls connected to most of the exterior lighting:
 - 3 fuselage lights (white)
 - anti-collision tail light with 2 lamps (red)
 
-Three switches labelled Fuselage, Tail and Wing control brightness of the lights
+Three switches labelled Fuselage, Tail and Wing control the brightness of the lights
 between BRT (Bright), DIM and OFF.
 
 To ensure lights are available even in case of power failure conditions, the BRT
@@ -76,7 +76,7 @@ and DIM selections are routed through different buses:
 | Anti-Col 1 | Right Main 14V AC Bus |
 | Anti-Col 2 | Left Main 14V AC Bus  |
 
-For further information about the lighting see the
+For further information about the lighting, see the
 [3.9 lighting chapter.](../../../systems/lighting.md#exterior-lighting)
 
 ### Fuselage Switch
@@ -99,7 +99,7 @@ the two join-up lights on the wingtips.
 
 ### Flasher Switch
 
-A three position switch (<num>2</num>) that can be set to OFF, STEADY or FLASH
+A three-position switch (<num>2</num>) that can be set to OFF, STEADY or FLASH
 to additionally control the setting for:
 
 - one of the two anti-collision lamps
@@ -119,18 +119,18 @@ The AVTR system is installed in the rear section to the right of the seat. It is
 primarily controlled by the WSO and records the intercom sound, as well as the
 rear radar screen.
 
-Footage is recorded on a standard u-matic S cassette, which can be removed and
+Footage is recorded on a standard U-matic S cassette, which can be removed and
 replaced using the EJECT Button (<num>1</num>) on the top left of the box. The
 UNTHREAD button (<num>2</num>) next to it is used to unthread the tape of the
 cassette back to the start, causing it to overwrite previously recorded footage.
 
-The cassette can record up to 20 minutes, indicated on the small display
+The cassette can record up to 20 minutes, as indicated on the small display
 labelled ELAPSED TIME (<num>3</num>).
 
 See [9.6 DCS Recorders](../../../dcs/recorders.md) for details on how to access
 the footage.
 
-> 💡 Our simulation of the AVTR also doubles as music player, see
+> 💡 Our simulation of the AVTR also doubles as a music player, see
 > [Tape Player](../../../dcs/tape_player.md) for details.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rXz41sNfD9U?si=GoQNcYvQuaP-qNcM"
