@@ -7,13 +7,13 @@ The center area of the right console contains IFF and lighting controls.
 ![IFF](../../../img/pilot_iff_panel.jpg)
 
 As opposed to the Interrogator panel in the WSO cockpit, this panel provides
-the pilot with the ability to adjust the IFF transponder of the own aircraft.
+the pilot with the ability to adjust the IFF transponder of their own aircraft.
 Which would then be picked up by interrogators in other aircraft.
 
 > 💡 Due to engine limitations, the settings on the panel have no effect for DCS.
 > However, they are exposed to external tools, such as SRS.
 
-For further explanation see
+For further explanation, see
 the [IFF System controls chapter](../../../systems/identification_systems.md#iff-controls-and-indicators).
 
 ### Master switch
@@ -44,7 +44,7 @@ The three position Mode 2 Selector switch (<num>6</num>) controls the mode 2 ope
 
 | Position | Operation                                                            |
 |----------|----------------------------------------------------------------------|
-| M-2      | Self test position. Light illuminates if mode is operating properly. |
+| M-2      | Self-test position. Light illuminates if Mode is operating properly. |
 | ON       | Enables Mode 2 for operation.                                        |
 | Out      | Disables Mode 2                                                      |
 
@@ -54,7 +54,7 @@ The three position Mode 3/A Selector switch (<num>6</num>) controls the mode 3/A
 
 | Position | Operation                                                            |
 |----------|----------------------------------------------------------------------|
-| M-3/A    | Self test position. Light illuminates if mode is operating properly. |
+| M-3/A    | Self-test position. Light illuminates if Mode is operating properly. |
 | ON       | Enables Mode 3/A for operation.                                      |
 | Out      | Disables Mode 3/A                                                    |
 
@@ -102,8 +102,8 @@ the AUDIO or LIGHT position.
 The Mode 4 function switch (<num>4</num>) has positions of ZERO, B, A, and HOLD.
 
 In the A position, the transponder
-responds to Mode 4 interrogations with the same setting as set into the A position, and in the B
-position, it responds to interrogations with the same code setting as set into the B position. If
+responds to Mode 4 interrogations with the same setting as set in the A position, and in the B
+position, it responds to interrogations with the same code setting as set in the B position. If
 the switch is in the wrong position for the code being interrogated (e.g., in A with B
 interrogation), the IFF warning light and MASTER CAUTION light will not activate.
 
@@ -126,15 +126,15 @@ the ground crew and should be set to OUT and not used during flight.
 
 ### Identification of Position Switch
 
-The Identification switch (<num>9</num>) is a three position toggle switch used to provide momentary
+The Identification switch (<num>9</num>) is a three-position toggle switch used to provide momentary
 identification
 of position.
 
-| Position | Operation                                                                                                                                                                                     |
-|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| IDENT    | Allows the system to respond with identification of position replies in all modes that are being used. The response is continued for a 15 to 30 second duration after the switch is released. |
-| OUT      | Disables identification of position capability.                                                                                                                                               |
-| MIC      | Same as positioning the switch to IDENT, except that the UHF microphone button must be used to trigger the identification.                                                                    |
+| Position | Operation                                                                                                                                                                                      |
+|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| IDENT    | Allows the system to respond with identification of position replies in all modes that are being used. The response is continued for a 15 to 30 seconds duration after the switch is released. |
+| OUT      | Disables identification of position capability.                                                                                                                                                |
+| MIC      | Same as positioning the switch to IDENT, except that the UHF microphone button must be used to trigger the identification.                                                                     |
 
 ## DCU-94A Stores Control-Monitor Panel
 
@@ -170,7 +170,7 @@ flight instrument panel lighting, the console floodlights, the white floodlights
 found under the canopy sill over each console, and also includes the Warning
 Light Test/Standby Compass Light switch.
 
-For further information about lighting see
+For further information about lighting, see
 the [lighting chapter](../../../systems/lighting.md#interior-lighting).
 
 ### White Floodlight
@@ -191,7 +191,7 @@ as well as edge lighting for most of its gauges.
 ### Console Knob
 
 The Console Light Control Knob (<num>5</num>), with range from OFF to BRT, controls the
-illumination level for the left and right console.
+illumination level for the left and right consoles.
 
 ### Console Floodlight
 
@@ -206,7 +206,7 @@ providing general lighting for the consoles. Three settings are available: DIM, 
 ### Warning Light Test Switch
 
 The Warning Light Test Switch (<num>4</num>) (Marked WARN LT TEST) is a three-position switch;
-in the WARN LT TEST position, confirms function of the various emergency
+in the WARN LT TEST position, confirms the function of the various emergency
 indicators in the cockpit.
 
 In the STBY COMP position, it illuminates the light
