@@ -6,7 +6,7 @@
    viewBox="0 0 860.5221 1239.1913"
    version="1.1"
    sodipodi:docname="favicon.svg"
-   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -20,13 +20,13 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
-     inkscape:zoom="1.4856463"
-     inkscape:cx="430.11582"
-     inkscape:cy="619.59564"
-     inkscape:window-width="3840"
-     inkscape:window-height="2080"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
+     inkscape:zoom="0.43915175"
+     inkscape:cx="473.64038"
+     inkscape:cy="601.15894"
+     inkscape:window-width="1512"
+     inkscape:window-height="847"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
      inkscape:window-maximized="1"
      inkscape:current-layer="c" />
   <defs
@@ -35,15 +35,20 @@
        id="style1">.d{stroke-width:7.8191px;}.d,.e{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;}.e{stroke-width:7.9484px;}</style>
   </defs>
   <g
-     id="c">
+     id="c"
+     style="display:inline">
+    <path
+       style="display:inline;fill:#343131"
+       d="M 3.111459,799.64497 C 428.34419,1234.2121 428.34419,1234.2121 428.34419,1234.2121 L 856.68839,798.60782 430.4185,6.2229181 Z"
+       id="path8" />
     <polygon
        class="e"
-       points="430.2611 3.9742 856.5479 800.8414 430.2611 1235.2171 3.9742 800.8414 430.2611 3.9742"
+       points="856.5479,800.8414 430.2611,1235.2171 3.9742,800.8414 430.2611,3.9742 "
        id="polygon6"
-       style="fill:#000000;fill-opacity:0.27247706" />
+       style="display:inline" />
     <path
        class="d"
-       d="m430.261,171.1233l-27.8191,270.1377-127.382,171.3068v-20.1882l-143.4878,197.3517,149.3218-21.9591c.015-.0022.0298-.0059.0441-.0111l101.0056-36.5962,2.9283,78.3326h24.1587l21.2303,153.0048v50.5136"
+       d="M 430.261,171.1233 402.4419,441.261 275.0599,612.5678 V 592.3796 L 131.5721,789.7313 280.8939,767.7722 c 0.015,-0.002 0.0298,-0.006 0.0441,-0.0111 l 101.0056,-36.5962 2.9283,78.3326 h 24.1587 l 21.2303,153.0048 v 50.5136"
        id="path1" />
     <polyline
        class="d"
@@ -51,7 +56,7 @@
        id="polyline1" />
     <path
        class="d"
-       d="m402.442,441.261l-121.1308,325.4478c-.0861.2314-.4279.1765-.4372-.0702l-5.814-154.0707"
+       d="M 402.442,441.261 281.3112,766.7088 c -0.0861,0.2314 -0.4279,0.1765 -0.4372,-0.0702 L 275.06,612.5679"
        id="path2" />
     <polyline
        class="d"
@@ -63,14 +68,14 @@
        id="polyline3" />
     <line
        class="d"
-       x1="458.5082"
-       y1="441.261"
-       x2="411.5912"
-       y2="356.5749"
+       x1="458.50821"
+       y1="441.26099"
+       x2="411.59119"
+       y2="356.57489"
        id="line3" />
     <path
        class="d"
-       d="m430.261,171.1233l27.8191,270.1377,127.382,171.3068v-20.1882s143.4878,197.3517,143.4878,197.3517l-149.3218-21.9591c-.015-.0022-.0298-.0059-.0441-.0111l-101.0056-36.5962-2.9283,78.3326h-24.1587s-21.2303,153.0048-21.2303,153.0048v50.5136"
+       d="m 430.261,171.1233 27.8191,270.1377 127.382,171.3068 v -20.1882 c 0,0 143.4878,197.3517 143.4878,197.3517 L 579.6281,767.7722 c -0.015,-0.002 -0.0298,-0.006 -0.0441,-0.0111 l -101.0056,-36.5962 -2.9283,78.3326 h -24.1587 c 0,0 -21.2303,153.0048 -21.2303,153.0048 v 50.5136"
        id="path3" />
     <polyline
        class="d"
@@ -78,7 +83,7 @@
        id="polyline4" />
     <path
        class="d"
-       d="m458.0801,441.261l121.1308,325.4478c.0861.2314.4279.1765.4372-.0702l5.814-154.0707"
+       d="m 458.0801,441.261 121.1308,325.4478 c 0.0861,0.2314 0.4279,0.1765 0.4372,-0.0702 l 5.814,-154.0707"
        id="path4" />
     <polyline
        class="d"
@@ -87,6 +92,7 @@
     <polyline
        class="d"
        points="458.0801 441.261 437.1589 723.0065 465.199 728.5295 430.261 471.2763 475.65 444.2419"
-       id="polyline6" />
+       id="polyline6"
+       style="display:inline" />
   </g>
 </svg>
