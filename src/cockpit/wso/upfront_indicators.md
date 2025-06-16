@@ -54,17 +54,17 @@ Two lamp indicator illustrating current KY-28 operating mode- P (<num>1</num>) i
 (unencrypted) mode transmission, whereas C (<num>2</num>) indicates cipher (encrypted) mode
 transmission.
 
-> 💡 UHF communications require the system be in Plain mode, even
-> with system power off, barring usage and monitoring of guard channel.
+> 💡 UHF communications require the system to be in Plain mode, even
+> with the system power off, barring usage and monitoring of the guard channel.
 
 ## Master Caution Light
 
 ![wso_master_caution](../../img/wso_master_caution.jpg)
 
 A repeater of the front cockpit [Master Caution light](../../systems/emergency.md#master-caution),
-provides warning to the WSO that a caution condition exists and
+provides a warning to the WSO that a caution condition exists and
 the [telelight panel](../../systems/emergency.md#telelight-panel) needs to be checked
-for cause to rectify the situation.
+for a cause in order to rectify the situation.
 
 > 💡 There is no separate reset button for the WSO. The Pilot has to
 > reset the Master Caution if it occurs.
@@ -88,7 +88,7 @@ The knob on the lower left controls the brightness of the display.
 
 Left to it is a box with several knobs to operate the system.
 
-For further information and button explanation see the
+For further information and button explanation, see the
 [Radar Warning Receiver](../../systems/defensive_systems/radar_warning_receiver.md) chapter.
 
 ### Target Contrast Switch
@@ -118,12 +118,12 @@ the WSO about being under attack.
 ![AoA](../../img/wso_aoa_indexer.jpg)
 
 A pair of indicators to the left and right that provide quick
-confirmation of current aircraft AoA state based on illuminated
+confirmation of the current aircraft AoA state based on illuminated
 position and color.
 
 ![AoA_table](../../img/AoA_table.jpg)
 
-Can also indicate weapon steering cues and an aural tone system backs
+Can also indicate weapon steering cues, and an aural tone system backs
 up the indication with audible cues.
 See [Angle of Attack System](../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system)
 for details.
@@ -164,7 +164,7 @@ The stopwatch needles are reset by pressing the top right button again.
 
 ![GGauge](../../img/wso_accelerometer.jpg)
 
-Calibrated from negative 4 to positive 10 in units of G, with three pointers - one for current
+Calibrated from negative 4 to positive 10 in units of G, with three pointers - one for the current
 applied load, the other two show maximum positive and negative G applied during the flight. Pressing
 the PUSH TO SET button will reset the maximum position indicators to 1 G.
 
@@ -198,8 +198,8 @@ Selects the respective mode for the two BDHI needles.
 ![wso_ground_speed_indicator](../../img/wso_ground_speed_indicator.jpg)
 
 Provides the aircraft's ground speed in knots, and is calibrated from 0 to 1999
-knots. Requires INS for accurate presentation. If INS off, can register any
-value of up to 150 knots when motionless on ground.
+knots. Requires INS for accurate presentation. If INS is off, it can register any
+value of up to 150 knots when motionless on the ground.
 
 ## True Airspeed Indicator
 
@@ -220,7 +220,7 @@ COMM function is set as GUARD/ADF, or A when the A-3-2-T switch is in A.
 
 ![VVI](../../img/wso_vertical_velocity_indicator.jpg)
 
-Provides rate of climb or descent via the static pressure system referenced in
+Provides the rate of climb or descent via the static pressure system referenced in
 thousands of feet per minute.
 
 ## Altimeter
@@ -236,7 +236,7 @@ Works in either electric (normal
 operation mode) or pneumatic (STBY) mode, switchable via a spring-loaded three
 position switch (<num>2</num>) labelled RESET and STBY.
 
-When held in RESET for more than 3 seconds the system will
+When held in RESET for more than 3 seconds, the system will
 be reset and moved out of STBY.
 
 ## Attitude Indicator
@@ -256,7 +256,7 @@ indicator or AHRS, the OFF flag will display.
 
 ![MachInd](../../img/wso_airspeed_mach_indicator.jpg)
 
-The combination airspeed and mach number indicator shows airspeed readings below
+The combination of airspeed and Mach number indicator shows airspeed readings below
 200 knots, and include Mach numbers on the outer ring at high speed. The indicator uses a single
 pointer over a fixed airspeed scale, marked from 80 to 850 knots, with a moving
 Mach scale presenting from Mach 0.4 to 2.5.
@@ -266,18 +266,18 @@ is available with the knob (<num>4</num>) on the face of the gauge, with speed r
 available between 80 and 195 knots, and the Mach index pointer being able to be
 set between the 225 knot and 850 knot regions relative to the airspeed gauge.
 
-The (<num>1</num>) needle and the inner ring refers to the airspeed in knots. The (<num>2</num>)
+The (<num>1</num>) needle and the inner ring refer to the airspeed in knots. The (<num>2</num>)
 needle and the respective
-outer ring refers to the Mach scale. Both move along dynamically according to the Airspeed.
+outer ring refer to the Mach scale. Both move along dynamically according to the Airspeed.
 The (<num>3</num>)
-area refers to the airspeed scale before the mach scale starts.
+area refers to the airspeed scale before the Mach scale starts.
 
 ## Bearing Distance Heading Indicator (BDHI)
 
 ![wso_bearing_distance_heading_indicator](../../img/wso_bdhi.jpg)
 
 The Bearing Distance Heading Indicator, or BDHI, presents navigation information
-as entered by the WSO, provided with two needles (termed the No 1 and No 2
+as entered by the WSO, provided with two needles (termed the No. 1 and No. 2
 pointers).
 See [Navigation Mode Selector Switch](upfront_indicators.md#navigation-mode-selector-switch) for
 Needle Explanation.
@@ -293,10 +293,10 @@ provides distance to the TACAN station. In the absence of a TACAN signal, both
 pointers indicate the VOR station.
 
 In the lower position, NAV COMP, the no. 1 pointer indicates bearing to the
-navigation computer target coordinates, and the no. 2 pointer indicates magnetic
+navigation computer target coordinates, and the No. 2 pointer indicates magnetic
 ground track.
 
-A vertical readout (<num>3</num>), the range indicator notes distance to the selected target
+A vertical readout (<num>3</num>), the range indicator notes the distance to the selected target
 depending
 on the Navigation Mode Selector Switch.
 
@@ -312,11 +312,11 @@ and 105% for full afterburner.
 
 ![wso_canopy_unlocked_ins_out__radar_cni](../../img/wso_warning_lights.jpg)
 
-Illuminates when canopy is unlocked. To reset the lamp close and lock the rear canopy.
+Illuminates when the canopy is unlocked. To reset the lamp, close and lock the rear canopy.
 
 ## Inertial Nav Sys Out Lamp
 
-Illuminates when INS system is in a failure state. To reset the INS refer to
+Illuminates when the INS system is in a failure state. To reset the INS, refer to
 the [3.3.2 Inertial Navigation System chapter](../../systems/nav_com/ins.md).
 
 ## Radar CNI Cool Off Lamp
@@ -325,9 +325,9 @@ Illuminates to indicate an over-temperature situation in the avionics cooling
 system, most likely caused by a bleed air duct failure.
 
 If the light is illuminated, reduce the
-airspeed and wait 15 seconds. Then press the CNI cooling reset button next to it.
+airspeed and wait 15 seconds. Then, press the CNI cooling reset button next to it.
 
-Should the light stay illuminated remain at reduced power and speed and land
+Should the light stay illuminated, remain at reduced power and speed and land
 as soon as practical.
 
 ## Cooling Reset Button
