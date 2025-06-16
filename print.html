@@ -5603,6 +5603,10 @@ will bring the aircraft total fuel state to just under 20,800 lbs of fuel.</p>
 title="F-4E Fuel Systems Guide | DCS World" frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<blockquote>
+<p>💡 The <a href="systems/engines_and_fuel_systems/../../dcs/efb.html#fuel-page">EFB</a> provides a Fuel page, giving detailed
+insights into the system mid-flight.</p>
+</blockquote>
 <h2 id="transfer-sequence"><a class="header" href="#transfer-sequence">Transfer Sequence</a></h2>
 <p><img src="systems/engines_and_fuel_systems/../../img/f4_fuel_system.jpg" alt="f4_fuel_system" /></p>
 <p>The F-4 carries two internal wing tanks, along with seven fuel cells down the
@@ -6880,6 +6884,10 @@ to draw power from a single generator in case of failure.</p>
 title="F-4E Electrical and Lighting Systems | DCS World" frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<blockquote>
+<p>💡 The <a href="systems/../dcs/efb.html#electrics-page">EFB</a> provides an Electrics page, giving detailed
+insights into the system mid-flight.</p>
+</blockquote>
 <h2 id="generators"><a class="header" href="#generators">Generators</a></h2>
 <p>The two generators are driven hydraulically by oil pressure supplied from the respective engine.
 They supply 3-phase AC power, aiming for 115V at 8000 RPM. Each generator is capable of handling
@@ -15986,6 +15994,94 @@ the bombing timers and the release advance in the release advance in the WRCS.</
 <p>Now you only need to fly the maneuver for the Loft delivery as precise as
 possible to make sure you hit the target right. The more precise you fly, the
 more precise your bombing run will be.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="efb"><a class="header" href="#efb">EFB</a></h1>
+<p>The Electronic Flight Bag (EFB) provides both the pilot and the WSO detailed
+insights on the aircraft's internal systems.</p>
+<p>It can be opened and closed by default with <kbd>RCTRL</kbd>+<kbd>I</kbd>.
+Further, the pilot can also access it by clicking on the data-case on the left
+side behind the seat.</p>
+<p><img src="dcs/../img/data_case.jpg" alt="Data-Case" /></p>
+<blockquote>
+<p>💡 Mission designers can toggle allowing the use of the EFB in the
+<a href="dcs/../dcs/mission_editor.html#allow-use-of-efb">Mission Editor</a>.</p>
+</blockquote>
+<h2 id="fuel-page"><a class="header" href="#fuel-page">Fuel Page</a></h2>
+<p>The fuel page provides details on the
+<a href="dcs/../systems/engines_and_fuel_systems/fuel_system.html">Fuel system</a>.</p>
+<p><img src="dcs/../img/efb_fuel_normal.jpg" alt="Fuel Page, normal" /></p>
+<p>Each tank is shown with its individual fuel state (fuel left measured in lb).
+The tank on the top is cell 1, which is supplying the engines with fuel.</p>
+<p>The numbers on the top left indicate total fuel and fuel flow to the left and
+right engine respectively.</p>
+<h3 id="pumps"><a class="header" href="#pumps">Pumps</a></h3>
+<p>The 6 fuel pumps are indicated by impeller symbols. For cell 4 and 6 the symbols
+indicate from left to right the electric and the hydraulic pump respectively.</p>
+<h3 id="flow"><a class="header" href="#flow">Flow</a></h3>
+<p><img src="dcs/../img/efb_fuel_dump.jpg" alt="Fuel Page, dumping" /></p>
+<p>Fuel flow is indicated by dashed pipes. A closed valve shows a red rectangle,
+blocking flow through the pipe.</p>
+<h3 id="flags"><a class="header" href="#flags">Flags</a></h3>
+<p>Further, the following flags can be displayed in the lower left corner:</p>
+<ul>
+<li>AAR; the door for
+<a href="dcs/../systems/engines_and_fuel_systems/fuel_system.html#air-refueling-system">air-to-air-refueling</a>
+is open</li>
+<li>DUMP;
+<a href="dcs/../systems/engines_and_fuel_systems/fuel_system.html#fuel-dump-system">fuel dumping</a>
+is active</li>
+<li>AUTO-XFER; the system for
+<a href="dcs/../systems/engines_and_fuel_systems/fuel_system.html#transfer-sequence">automatic-transfer</a>
+is active (a low fuel emergency system)</li>
+</ul>
+<h2 id="electrics-page"><a class="header" href="#electrics-page">Electrics Page</a></h2>
+<p>The electrics page provides details on the
+<a href="dcs/../systems/electrics.html">Electrics system</a>.</p>
+<p><img src="dcs/../img/efb_electrics_normal.jpg" alt="Electrics Page, normal" /></p>
+<p>The upper half displays the power sources: the left and right generator,
+external power and the battery. Consumers consisting of buses are on the lower
+half.</p>
+<h3 id="wires"><a class="header" href="#wires">Wires</a></h3>
+<p>Wires connecting the generators and buses indicate if and how power is supplied,
+with color representing the rating:</p>
+<ul>
+<li>Red; 3-phased 115V AC</li>
+<li>Green; 1-phased 14/28V AC</li>
+<li>Blue; 1-phased 28V DC</li>
+</ul>
+<h3 id="transformers"><a class="header" href="#transformers">Transformers</a></h3>
+<p>The auto-transformers converting between different ratings are shown with <code>A</code>
+symbols (colored red if offline or damaged). The two Transformer-rectifiers
+providing DC power are displayed in a similar way.</p>
+<h3 id="power-1"><a class="header" href="#power-1">Power</a></h3>
+<p>Generators and buses show their exact voltages and loads in text (load is
+measured in Watt for the generators and Ampere for the buses). Further, the
+generators have a black horizontal filling indicating the current total load
+versus the maximum rated load (30.000 W).</p>
+<p>In a similar fashion buses indicate their current total load versus the expected
+maximum load (buses are not protected, so this can go beyond 100%).
+Additionally, buses have vertical bars on the right side visualizing the
+deviation from the target voltage. The ideal setting is in the center. If the
+bar is below center, the bus has under-voltage. Above center means over-voltage.</p>
+<h3 id="generators-1"><a class="header" href="#generators-1">Generators</a></h3>
+<p>Generators also indicate fault states, such as under-voltage, over-voltage or
+under-frequency as red flags. The number above them shows the oil pressure in
+PSI driving the generators, yielding the RPM shown in their top right corner.</p>
+<h4 id="controller-1"><a class="header" href="#controller-1">Controller</a></h4>
+<p>The box between both generators represents the generator controller, taking care
+of syncing the generators and governing the BUS TIE.</p>
+<p><img src="dcs/../img/efb_electrics_left_offline.jpg" alt="Electrics Page, Left Gen Offline" /></p>
+<p>The upper half shows the deviation of the generators frequency in Hertz. The
+horizontal bar displays this from -1 Hz to +1 Hz from left to right, with 0 Hz
+being in the center.</p>
+<p>The lower half visualizes the phase difference between both generators (in
+degrees). Therefore, the three white bars placed at 0°, 120° and 240°
+respectively represent the phase of one generator as static reference, while the
+red areas show the offset to that reference by the other generator.</p>
+<p>A <strong>NO SYNC</strong> flag indicates that the differences between both generators are
+still too large. If the flag is not shown, the controller synchronizes both
+generators in an attempt to reduce the delta values.</p>
+<p>If both, the frequency and the phase differences are close to zero, the
+controller allows connecting the BUS TIE to balance load between them.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="grease-pencil"><a class="header" href="#grease-pencil">Grease Pencil</a></h1>
 <p>Both crew members can use a grease pencil to draw on the side of their canopy.</p>
 <p>The interface can be opened by clicking on the corresponding spot on the right
@@ -16243,6 +16339,10 @@ uses the original Jester behavior.</p>
 That is, you can for example enforce IC on your server, while at the same time
 allowing users to mod their Jester.</p>
 </blockquote>
+<h2 id="allow-use-of-efb"><a class="header" href="#allow-use-of-efb">Allow use of EFB</a></h2>
+<p>If checked, players can access the <a href="dcs/../dcs/efb.html">EFB</a>, giving insights into the
+aircraft's internal systems. For example the fuel state in each tank.</p>
+<p>The Electronic Flight Bag is a fictional feature for this aircraft.</p>
 <h2 id="allow-night-vision-goggles"><a class="header" href="#allow-night-vision-goggles">Allow Night Vision Goggles</a></h2>
 <p>Although F-4E crews never actually operated with NVGs, this option allows
 mission designers to create modern or fictional scenarios where Phantom crews
