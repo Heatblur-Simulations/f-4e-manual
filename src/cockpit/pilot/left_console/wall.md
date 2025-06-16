@@ -103,3 +103,9 @@ the [landing gear handle](../../../systems/flight_controls_gear/gear_ground_hand
 is placed down, it overrides the armament safety.
 
 This allows, for example, to fire [the gun](../../../stores/guns.md) while on the ground.
+
+## Data-Case
+
+![Armament Safety Override Switch](../../../img/data_case.jpg)
+
+Allows opening and closing the [EFB](../../../dcs/efb.md).
