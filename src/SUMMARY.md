@@ -176,6 +176,7 @@
   - [Special Options](./dcs/special_options.md)
   - [Embedded Manual](./dcs/embedded_manual.md)
   - [Bombing Computer](./dcs/bombing_computer.md)
+  - [EFB](./dcs/efb.md)
   - [Grease Pencil](./dcs/grease_pencil.md)
   - [Virtual Browser](./dcs/virtual_browser.md)
   - [Recorders](./dcs/recorders.md)

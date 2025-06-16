@@ -14,6 +14,9 @@ title="F-4E Electrical and Lighting Systems | DCS World" frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+> 💡 The [EFB](../dcs/efb.md#electrics-page) provides an Electrics page, giving detailed
+> insights into the system mid-flight.
+
 ## Generators
 
 The two generators are driven hydraulically by oil pressure supplied from the respective engine.

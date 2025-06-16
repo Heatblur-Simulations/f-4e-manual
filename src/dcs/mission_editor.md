@@ -135,6 +135,13 @@ uses the original Jester behavior.
 > That is, you can for example enforce IC on your server, while at the same time
 > allowing users to mod their Jester.
 
+## Allow use of EFB
+
+If checked, players can access the [EFB](../dcs/efb.md), giving insights into the
+aircraft's internal systems. For example the fuel state in each tank.
+
+The Electronic Flight Bag is a fictional feature for this aircraft.
+
 ## Allow Night Vision Goggles
 
 Although F-4E crews never actually operated with NVGs, this option allows

@@ -12,6 +12,9 @@ title="F-4E Fuel Systems Guide | DCS World" frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+> 💡 The [EFB](../../dcs/efb.md#fuel-page) provides a Fuel page, giving detailed
+> insights into the system mid-flight.
+
 ## Transfer Sequence
 
 ![f4_fuel_system](../../img/f4_fuel_system.jpg)
