@@ -14,18 +14,35 @@ title="F-4E Electrical and Lighting Systems | DCS World" frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Generator Indicator Lights
+## Generators
 
-![GenInd](../img/pilot_generator_lights.jpg)
+The two generators are driven hydraulically by oil pressure supplied from the respective engine.
+They supply 3-phase AC power, aiming for 115V at 8000 RPM. Each generator is capable of handling
+the load of the entire aircraft alone, rated for 30.000 W.
 
-Three warning indicators are found on the generator indicator panel: LH GEN OUT,
-RH GEN OUT, and BUS TIE OPEN. The respective GEN OUT warning will illuminate in
-the event the generator in question fails. The indication of BUS TIE OPEN is an
-acknowledgement that a single functioning generator is providing power to the
-entire aircraft. In the event of a generator failure, the Master Caution will
-also illuminate. However, in case both generators fail, no GEN OUT light will illuminate.
+### Principle
 
-## Generator Control Switches
+![animation](../img/simple_3_phase_generator_anim.gif)
+
+### Regulators
+
+Both generators are regulated to supply 150±2.5 V on all 3 phases. Further, should a generator fail
+to supply the target voltage, under- and over-voltage protections are enabled which put the
+respective generator offline to prevent damage to the systems.
+
+### Controller
+
+A controller system monitors and tweaks both generators to allow syncing them.
+Therefore, both generators need to rotate at the same frequency and at the same offset,
+so that the signals of all 3 phases match.
+
+The system kicks in when the generators frequency error is within 6 Hz and the phases are
+135° or less apart from each other.
+
+Once frequency and phases line up, the generators are synced and the controller allows parallel
+operation of both generators, balancing the load between them. This is achieved through the **BUS TIE**.
+
+### Generator Control Switches
 
 ![GenCtl](../img/pilot_generator_switches.jpg)
 
@@ -37,7 +54,73 @@ the remaining generator to the other half of the electrical system. The External
 for ground handling purposes when connected to external power, and provides electric power to all
 instruments, except the CNI and the AFCS.
 
-## Instrument Ground Power Switch
+### Generator Indicator Lights
+
+![GenInd](../img/pilot_generator_lights.jpg)
+
+Three warning indicators are found on the generator indicator panel: LH GEN OUT,
+RH GEN OUT, and BUS TIE OPEN. The respective GEN OUT warning will illuminate in
+the event the generator in question fails. The indication of BUS TIE OPEN is an
+acknowledgement that a single functioning generator is providing power to the
+entire aircraft. In the event of a generator failure, the Master Caution will
+also illuminate. However, in case both generators fail, no GEN OUT light will illuminate.
+
+## Battery
+
+The aircraft is equipped with a nickel cadmium battery that has a capacity of around 11 Ah.
+
+The battery is always powered and connected to the Battery Bus. Some crucial systems,
+such as the EJECT light or the white floodlight are connected to this bus and hence available
+even on a cold aircraft or after loss of both generators.
+
+The battery can be used to provide power to the DC system. Buses on that system are rated for 28V
+while the battery typically is able to only provide around 26V, or even lower if less capacity is left.
+
+During normal operations the DC system is supplied with power by the generators and the
+battery is instead recharged.
+
+## Bus System
+
+![manual_electric_system_diagram](../img/manual_electric_system_diagram.jpg)
+
+The battery and generators power several buses which then route current to the relevant systems.
+
+The bus system consists of three groups:
+
+- AC system
+  - Main group
+    - Left Main 115V AC Bus
+    - Left Main 28V AC Bus
+    - Left Main 14V AC Bus
+    - Right Main 115V AC Bus
+    - Right Main 28V AC Bus
+  - Instrument group
+    - Instrument 115V AC Bus
+    - Instrument 28V AC Bus
+    - Instrument 14V AC Bus
+    - Warning Light 28V AC Bus
+    - Warning Light 14V AC Bus
+- DC system group
+  - Main 28V DC Bus
+  - Essential 28V DC Bus
+  - Armament 28V DC Bus
+  - Battery DC Bus
+
+The three 115V buses operate on 3-phase AC power, coming straight from the generators.
+The AC buses running on lower voltage (28V and 14V) are single-phased and supplied by auto-transformers
+that transform the 3-phase 115V AC from the generators down to the required voltage.
+
+The two Warning Light buses are powered directly through the respective Instrument buses.
+
+Power for the DC system is supplied by the generators through two transformer-rectifiers,
+converting the 3-phase 115V AC to single-phased 28V DC.
+
+The AC and DC system both feature a BUS TIE that allows the other generator
+to supply power for both circuits should one generator fail.
+
+> 💡 Each generator is capable of providing enough load to power the entire aircraft.
+
+### Instrument Ground Power Switch
 
 ![InstrumentGroundPowerSwitch](../img/wso_ground_test_control_panel.jpg)
 
@@ -46,21 +129,6 @@ ac, and 14 volt ac), can be provided by the Instrument Ground Power Switch (<num
 the generator switches are set to EXT ON), found on the right wall in the
 rear cockpit. Once external electrical power is disengaged or an engine
 generator comes online, it will switch off.
-
-## Bus System
-
-![manual_electric_system_diagram](../img/manual_electric_system_diagram.jpg)
-
-The battery and generators power several buses which then route current to the relevant systems:
-
-- Left Main AC Bus
-- Right Main AC Bus
-- Instrument AC Bus
-- Warning Light AC Bus
-- Main DC Bus
-- Essential DC Bus
-- Armament DC Bus
-- Battery Bus
 
 ## Circuit Breakers
 
