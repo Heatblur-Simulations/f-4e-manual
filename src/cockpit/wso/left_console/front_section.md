@@ -7,7 +7,7 @@
 ### Volume Control Knob
 
 Turned clockwise (<num>1</num>) to increase audio between cockpits, and
-counterclockwise to decrease audio between cockpits on the
+counterclockwise to decrease the audio between the cockpits on the
 [intercom](../../../systems/nav_com/intercom.md).
 
 ### Function Selector Switch
@@ -53,7 +53,7 @@ the light should be monitored regularly.
 
 A sixteen position rotary knob (<num>1</num>) used in conjunction with the Test
 Knob, with each position having two values- an outer SIGNAL value, and an inner
-VOLT value. Selection of which value determined by the Meter Switch.
+VOLT value. The selection of which value is determined by the Meter Switch.
 
 ### Monitor Meter
 
@@ -75,11 +75,11 @@ below; procedural functionality is found in the applicable BIT test section
 
 | Name    | Description                                                                                 |
 | ------- | ------------------------------------------------------------------------------------------- |
-| 0       | Displays standard B scope presentation to confirm all elements functioning correctly.       |
+| 0       | Displays standard B scope presentation to confirm all elements are functioning correctly.       |
 | 1       | Confirms break lock timing delay, AIM-7 tuning status, and Range lamp status function.      |
 | 2       | Confirms proper AIM-7 head position aim and SHORT pulse function against two targets.       |
 | 3       | Confirms angle tracking performance against a locked target that rotates inside ASE circle. |
-| 4       | Used while lock achieved in another mode, confirms HOJ and AOJ functionality.               |
+| 4       | Used while lock is achieved in another mode, confirms HOJ and AOJ functionality.               |
 | 5       | Checks range rate, lead angle, CAA, and PLMS function.                                      |
 | 6       | Confirms proper AIM-7 attack display and interlock function.                                |
 | 7       | not available                                                                               |
@@ -101,7 +101,7 @@ outer ring of SIGNAL reference values.
 
 ![Vc Switch](../../../img/wso_control_meter_vc_switch.jpg)
 
-A two position switch (<num>5</num>) that changes the scale factor of the range
+A two-position switch (<num>5</num>) that changes the scale factor of the range
 rate presentation. DSCG aircraft must leave the switch in 2700, else the Vc
 presentation will be in error.
 
