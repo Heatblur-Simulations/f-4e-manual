@@ -64,7 +64,7 @@ respectively.
 
 ![CCP](../../../img/wso_comm_control_panel.jpg)
 
-The Communication Control Panel provides selection and mode of the
+The Communication Control Panel provides a selection and mode of the
 [UHF radio](../../../systems/nav_com/uhf.md) in the aircraft.
 
 ### Command Buttons
@@ -162,10 +162,10 @@ configuration of the radio system.
 ![Cockpit Altitude Gauge](../../../img/wso_cabin_pressure.jpg)
 
 Displays the current pressure inside the cockpit as a means of equivalent
-effective cabin altitude above mean sea level in 1000 of feet.
+effective cabin altitude above mean sea level in thousands of feet.
 
 That is, if the gauge reads 5, the pressure inside the cabin is equivalent to an
-altitude of 5000 ft altitude MSL.
+altitude of 5000 ft MSL.
 
 To prevent sickness and hypoxia, the pressure should be observed and oxygen
 supply adjusted accordingly:
