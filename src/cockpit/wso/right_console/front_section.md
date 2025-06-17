@@ -7,7 +7,7 @@ The front area contains controls for weapon delivery and the [INS](../../../syst
 ![laser_coder_control](../../../img/wso_laser_code_control.jpg)
 
 The WSO can set the laser code used by the targeting pod by using the four small
-push-buttons on this panel.
+push buttons on this panel.
 
 ### Code Buttons
 
@@ -16,8 +16,8 @@ Each press (<num>1</num>) will advance the corresponding digit by one.
 Codes directly relate to laser frequencies, resulting in them having to be
 between 1111 and 1788 and not use digits 0 or 9 in order to be valid.
 
-> 💡 Weapon laser codes can be adjusted in the Mission Editor or during rearming,
-> the default code used is 1688.
+> 💡 Weapon laser codes can be adjusted in the Mission Editor or during rearming.
+> The default code used is 1688.
 
 ### Enter Button
 
@@ -69,8 +69,8 @@ For Stored Heading Memory type alignment, the light remains illuminated until th
 reached operating temperature.
 For Gyro Compass type alignment, the light remains illuminated until the gyros have reached
 operating temperature and then continues to be lit for an additional 110 seconds.
-Note: The indication is available only in STBY and ALIGN modes, and that the system will not allow
-Gyro-compassing alignment if switched out of STBY before this light has shut off.
+Note: The indication is available only in STBY and ALIGN modes, and the system will not allow
+Gyro-compassing alignment if switched out of STBY before this light shuts off.
 
 ### ALIGN Light
 
@@ -89,7 +89,7 @@ alignments.
 Joystick which integrates with the [radar](../../../systems/radar/overview.md) to perform
 range (fore and aft) and azimuth (left and right) positional control of the
 acquisition symbol on the radar
-display in the air-to-air modes, as well as seeker/EO sensor direction
+display in the air-to-air modes, as well as the seeker/EO sensor direction
 with [AGM-65 Maverick](../../../stores/air_to_ground/missiles/maverick.md)
 and [Pave Spike](../../../systems/weapon_systems/pave_spike/overview.md).
 
@@ -100,7 +100,7 @@ angle of the radar antenna, displayed via the EL strobe on the DSCG display.
 
 ### Challenge Button
 
-If controlling the radar the button (<num>1</num>) initiates an IFF interrogation.
+If controlling the radar, the button (<num>1</num>) initiates an IFF interrogation.
 
 For the [Pave Spike targeting pod](../../../systems/weapon_systems/pave_spike/overview.md), it
 instead toggles the field of view between WIDE and NARROW.
@@ -128,7 +128,7 @@ This is only accessible to ground crew personnel.
 
 ### ACTIVATE Switch
 
-The two position switch (<num>1</num>) is only available after the Target Insert button is pressed,
+The two-position switch (<num>1</num>) is only available after the Target Insert button is pressed,
 placing the
 switch to ON provides power to the weapon release computer's circuits for
 a [LABS](../../../systems/weapon_systems/arbcs.md) release
@@ -136,7 +136,7 @@ using the [WRCS](../../../systems/weapon_systems/wrcs.md) release range data.
 
 ### TGT FIND Switch
 
-The two position switch (<num>2</num>) is Used to combine the delivery functionality of
+The two-position switch (<num>2</num>) is used to combine the delivery functionality of
 the [ARBCS/LABS](../../../systems/weapon_systems/arbcs.md) system with the
 [WRCS](../../../systems/weapon_systems/wrcs.md) TGT FIND mode. NORM is selected for the standard
 function of the WRCS without LABS delivery capability. Selecting HOLD and
@@ -160,7 +160,7 @@ combined knobs to control volume.
 
 ### Canopy/Low Altitude Warning
 
-The cubic knob (<num>1</num>) sets audio level for canopy open and low altitude voice warnings.
+The cubic knob (<num>1</num>) sets audio level for canopy open and low-altitude voice warnings.
 
 This system is not installed on this variant of the F-4E.
 
