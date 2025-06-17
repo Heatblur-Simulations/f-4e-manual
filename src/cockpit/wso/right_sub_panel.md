@@ -2,7 +2,7 @@
 
 ![wso_right_sub](../../img/wso_right_sub_panel.jpg)
 
-The right sub panel contains controls for jamming, encryption and various
+The right sub-panel contains controls for jamming, encryption and various
 settings for manual bomb delivery.
 
 ## Eject Light/Switch
@@ -15,13 +15,13 @@ the [EJECT lamp](../../systems/emergency.md#eject-light) in the front cockpit is
 pressed it signals the WSO to prepare for immediate ejection.
 
 > 💡 Only the pilot can signal ejection. If the WSO presses the light, it serves
-> as a lamp test only and does not trigger the pilots lamp as well.
+> as a lamp test only, and does not trigger the pilot's lamp as well.
 
 ## KY-28 Controls
 
 ![wso_ky_28](../../img/wso_ky_28_control_panel.jpg)
 
-Controls for the KY-28 encryption system. For further information see the
+Controls for the KY-28 encryption system. For further information, see the
 [Encryption chapter](../../systems/nav_com/encryption.md).
 
 ## ECM Controls
@@ -30,10 +30,10 @@ Controls for the KY-28 encryption system. For further information see the
 
 Controls for the electronic counter-measurement and jamming system.
 
-The left panel is connected to any pods carried on left stations, the right
+The left panel is connected to any pods carried on the left stations, the right
 panel to stations on the right.
 
-Interpretation of the modes, techniques and exact operation of the lights depend
+The interpretation of the modes, techniques and exact operation of the lights depends
 on the loaded jammer model. See the
 [ECM section](../../systems/defensive_systems/ecm.md) for details.
 
@@ -41,7 +41,7 @@ on the loaded jammer model. See the
 
 ![ecm](../../img/wso_ecm_mode_knob.jpg)
 
-The rotary dial (1, 4) the mode of the jammer to operate in:
+The rotary dial (1, 4) is the mode of the jammer to operate in:
 
 | Mode   | Description                                             |
 | ------ | ------------------------------------------------------- |
@@ -49,14 +49,14 @@ The rotary dial (1, 4) the mode of the jammer to operate in:
 | STBY   | Starting the warmup, no transmission (200s for ALQ-131) |
 | XMIT 1 | Transmitting and jamming using technique 1              |
 | XMIT 2 | Transmitting and jamming using technique 2              |
-| BOTH   | Transmitting and jamming using technique 1 and 2        |
+| BOTH   | Transmitting and jamming using techniques 1 and 2        |
 
 Use on the ground is prohibited since it could otherwise endanger personnel.
 
 ### STBY Lights
 
 The two lights (3 and 6, upper white ones) indicate that the corresponding
-jammer technique is done warming up and can now be used by switching to XMIT.
+jammer technique is done warming up, and can now be used by switching to XMIT.
 
 The warmup period is roughly 200s for the ALQ-131 pod.
 
@@ -82,7 +82,7 @@ turned off to prevent damage.
 
 In case of a fault, the reset button can be pressed to reset the jammer system
 (similar to turning it OFF and back ON), in which case it will run through the
-warmup period again. If the fault could be cleared, the light will go off.
+warmup period again. If the fault could be cleared, the light would go off.
 
 ## Bomb Release Angle Computer
 
@@ -93,23 +93,23 @@ Used to enter the required angle values for
 control (<num>1</num>) may be set from 0 to 89.9 degrees, and the High Angle
 control (<num>2</num>) may be set from 70 to 179.9 degrees.
 
-The high Angle control is used for
+The high-angle control is used for
 [over-the-shoulder bombing,](../../stores/air_to_ground/bombs/employment/lofting_tossing.md#instantaneous-over-the-shoulder---inst-os)
-whilst low angle is used for
+whilst the low-angle is used for
 [LOFT bombing](../../stores/air_to_ground/bombs/employment/lofting_tossing.md#loft).
-For calculations of the angles see the
+For calculations of the angles, see the
 [bombing calculator](../../dcs/bombing_computer.md).
 
 ## Bombing Timers
 
 ![wso_release_timers](../../img/wso_bombing_timer.jpg)
 
-Entry of applicable timing for pull-up signal or release are performed with the
+Entry of the applicable timing for the pull-up signal or release is performed with the
 Bombing Timers.
 
 The Pull-up timer (<num>1</num>) may be set from 0 to 60 seconds, and the
 Release timer (<num>2</num>) may be set from 0 to 30 seconds. Minimum increment
-for each timer is 0.1 seconds. Both values are shown by two three digit rollers
+for each timer is 0.1 seconds. Both values are shown by two three-digit rollers
 (<num>3</num>) above the knobs.
 
 The Bombing timers may be used for every
