@@ -234,7 +234,7 @@ from. This means some preparation is required prior to flight in order to be pro
 engage the threats effectively. The following seeker heads tables are provided so your missions can
 be planned accordingly.
 
-> 💡 This seeker head data is accurate as of patch 2.9.16.10523
+<!-- This seeker head data is accurate as of patch 2.9.17 -->
 
 #### Seeker RF Limit Table
 
@@ -266,18 +266,18 @@ General Key:
 
 ##### Warsaw Pact land-based SAM and EWR system radars
 
-| Seeker       |  SA-2   | SA-3 |  SA-5   | SA-6 | SA-8 |    SA-10     | SA-11 | SA-13 |   SA-15   | SA-19 | EWR  |
-| ------------ | :-----: | :--: | :-----: | :--: | :--: | :----------: | :---: | :---: | :-------: | :---: | :--: |
-| Mk 22        | (TR)/RF |      |   TR    |      |      |              |       | (TR)  |    TR     |       | (DE) |
-| Mk 23        |  TR/RF  |      | (TS)/TR |      |      | (TS)/(BB)/CS |  SR   |  TR   |   (SR)    | (SR)  |      |
-| Mk 24 Mod 5  |  TR/RF  |      | (TS)/TR |      |      |     (TS)     |       |  TR   |           |  SR   |      |
-| Mk 24 Mod 34 |  TR/RF  |      | (TS)/TR |      |      | (TS)/(BB)/CS |       |  TR   |           |  SR   |      |
-| Mk 25        | (TR)/RF |      |   TR    |      |      |              |       | (TR)  |    TR     |       | (DE) |
-| Mk 36        |  TR/RF  | (TR) |   TR    | (TR) |      |      TR      | (TR)  |  TR   |           |       |      |
-| Mk 37        | (FF)/RF | (FF) | (FF)/TR |  SR  |  SR  |              |       |  TR   |           |       |      |
-| Mk 49 Mod 0  |  TR/RF  | (TR) |  (TR)   | (TR) |      |     (TR)     | (TR)  |  TR   |           |       |      |
-| Mk 49 Mod 1  |  TR/RF  | (TR) |  (TR)   | (TR) |      |     (TR)     | (TR)  |  TR   |           |       |      |
-| Mk 50        | (TR)/RF |      | (TS)/TR |      |      | (TS)/(BB)/CS |  SR   | (TR)  | (SR)/(TR) | (SR)  | (DE) |
+| Seeker       |  SA-2   | SA-3 | SA-5 | SA-6 | SA-8 |    SA-10     | SA-11 | SA-13 |   SA-15   | SA-19 | EWR  |
+| ------------ | :-----: | :--: | :--: | :--: | :--: | :----------: | :---: | :---: | :-------: | :---: | :--: |
+| Mk 22        | (TR)/RF |      |      |      |      |              |       | (TR)  |    TR     |       | (DE) |
+| Mk 23        |   RF    |      | (TS) |      |      | (TS)/(BB)/CS |  SR   |  TR   |   (SR)    | (SR)  |      |
+| Mk 24 Mod 5  |   RF    |      | (TS) |      |      |     (TS)     |       |  TR   |           |  SR   |      |
+| Mk 24 Mod 34 |   RF    |      | (TS) |      |      | (TS)/(BB)/CS |       |  TR   |           |  SR   |      |
+| Mk 25        | (TR)/RF |      |      |      |      |              |       | (TR)  |    TR     |       | (DE) |
+| Mk 36        |   RF    | (TR) |      | (TR) |      |      TR      | (TR)  |  TR   |           |       |      |
+| Mk 37        | (FF)/RF | (FF) | (FF) |  SR  |  SR  |              |       |  TR   |           |       |      |
+| Mk 49 Mod 0  |   RF    | (TR) | (TR) | (TR) |      |     (TR)     | (TR)  |  TR   |           |       |      |
+| Mk 49 Mod 1  |   RF    | (TR) | (TR) | (TR) |      |     (TR)     | (TR)  |  TR   |           |       |      |
+| Mk 50        | (TR)/RF |      | (TS) |      |      | (TS)/(BB)/CS |  SR   | (TR)  | (SR)/(TR) | (SR)  | (DE) |
 
 > 💡 The SA-2/3/5 all can use the same Flat Face search radar with the SA-5 having the option of
 > using the Tin Shield as a search radar as well.
