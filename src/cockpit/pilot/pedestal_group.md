@@ -144,7 +144,8 @@ center position uses the weapon's own, less accurate seeker system instead.
 Allows to select the band range picked up by
 [Shrikes](../../stores/air_to_ground/missiles/shrike.md).
 
-> 💡 Not all variants support band switching.
+> 💡 DCS does not include any Shrike variant
+> that does support band switching.
 
 ## Rudder Pedal Adjustment Crank
 
