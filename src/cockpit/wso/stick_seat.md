@@ -12,7 +12,7 @@ The stick can be hidden by clicking on its base.
 ### Trim Hat
 
 A Trim Control (<num>1</num>) is found on both sticks to provide force reduction
-and minor flight path correction in the pitch and roll axis.
+and minor flight path correction in the pitch and roll axes.
 
 ### Trigger and Bomb Button
 
@@ -26,7 +26,7 @@ footage.
 
 Both sticks carry a Nose Wheel Steering (NWS or also NGS) button (<num>4</num>)
 that doubles as a radar auto-acquisition control for the radar in visual range
-combat, and sensor focus control for video-directed air to ground weapons.
+combat, and sensor focus control for video-directed air-to-ground weapons.
 
 Holding the button down permits the crew member to steer the aircraft using the
 rudder pedals. See
@@ -66,5 +66,5 @@ The vertical position of the seat can be changed in either direction for about
 For landing, it is advisable to put the seat in the most upward position for
 better visibility.
 
-Operation of the motor must be limited to 30 seconds within 10 minutes to
+The operation of the motor must be limited to 30 seconds within 10 minutes to
 prevent it from overheating and breaking.
