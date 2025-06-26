@@ -18,7 +18,7 @@ orientation (with the first roller marked E/W).
 The rollers reference the distance shown in increments of 100 feet, thus a
 distance of offset in the East direction for 4000' would be entered as E0040.
 
-The rollers do function in an analog fashion, thus fractions of 100' can be
+The rollers do function in an analogue fashion, thus fractions of 100' can be
 attained by moderating the last roller accordingly; as an example, a value of
 250 feet would be attained with the space between the 2 and 3 value halfway in
 the window in the last digit position.
@@ -28,7 +28,7 @@ the window in the last digit position.
 A three position drum roller window (<num>3</num>) with matching analog knob used to enter the
 altitude of either the Radar initial Point or the actual target itself, and is referenced in
 increments of 100'. Fractional values can be entered as described previously.
-This value can be changed once Radar Identification Point (RIP) or Visual Identification Point (VIP)
+This value can be changed once the Radar Identification Point (RIP) or the Visual Identification Point (VIP)
 is properly defined to increase release system accuracy.
 
 ### Drag Coefficient Control
@@ -51,7 +51,7 @@ with [ARBCS/LABS](../../../systems/weapon_systems/arbcs.md) programmed release
 timing.
 
 This can be used to spread out a bombing run over a target area,
-for example to place the 3-th bomb of a 10-bomb salvo on the target.
+for example, to place the 3-th bomb of a 10-bomb salvo on the target.
 
 The release advance control can be calculated with
 the [bombing calculator](../../../dcs/bombing_computer.md).
@@ -93,7 +93,7 @@ velocity tracking of the
 aircraft from the [INS,](../../../systems/nav_com/ins.md) as well as maintain a hold of the target
 position defined by the Along Track and Cross Track cursor gates, thus defining the Radar initial
 Point.
-The button illuminates, and remains lit, until the reset button
+The button illuminates and remains lit until the reset button
 is pressed, or another delivery mode is selected.
 
 ### Target Insert Button
@@ -120,7 +120,7 @@ Track cursors to their default positions, and resets the velocity tracking syste
 
 ### Along Track Wheel
 
-The Along Track wheel (<num>4</num>) is used to define relative range of the aircraft to the Radar
+The Along Track wheel (<num>4</num>) is used to define the relative range of the aircraft to the Radar
 initial
 Point, using an expanding/contracting hemisphere cursor on the radar display. This hemisphere
 presents true range to the target via the hemispherical PPI projection, thus
@@ -128,7 +128,7 @@ allowing the Radar initial Point to be detected in an offset approach to the tar
 approximation of range to the Radar initial Point should be prepared first with the Along Track
 wheel prior to using the Cross Track Wheel for best system accuracy- ie, the
 cursor should be placed below the intended Radar initial Point return on the radar scope, and
-the Cross Track wheel brought to the return point.
+the Cross Track wheel be brought to the return point.
 
 ### Cross Track Wheel
 
