@@ -10,7 +10,7 @@ enter the visual horizon.
 
 ![real_life_aim_7](../../img/real_life_aim_7_hawaii.jpg)
 
-In close-quarters engagements, the F-4E relies on the [AIM-9 Sidewinder,](./aim_9.md) a short-range,
+In close-quarters engagements, the F-4E relies on the [AIM-9 Sidewinder,](./aim_9.md), a short-range,
 infrared-guided missile celebrated for its agility and responsiveness. Constituting a vital
 component of the Phantom II's air-to-air weaponry, the Sidewinder excels in the intense and dynamic
 scenarios of dogfights.

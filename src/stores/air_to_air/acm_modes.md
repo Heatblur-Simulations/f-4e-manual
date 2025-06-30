@@ -36,6 +36,11 @@ in B, it does not preclude a later entry into Cage mode.
 
 ![pilot_weapon_selector_knob](../../img/pilot_weapon_selector_b_pos.jpg)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uCc29oPhlfk?si=WB1O7htGsAC-Z3hH"
+title="Air to Air Acquire and Lock Basics in the F-4 Phantom | DCS World" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Computer Automatic Acquisition Mode (CAA)
 
 ![CAA](../../img/CAA.jpg)

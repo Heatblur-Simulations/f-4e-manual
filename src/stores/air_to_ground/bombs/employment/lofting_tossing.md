@@ -83,6 +83,11 @@ proper rate for maximum accuracy. Control of the ADI by the
 [AN/AJB-7](../../../../systems/weapon_systems/arbcs.md) is maintained until the
 pilot releases the bomb button after the last desired munition is released.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p3Z4T1n69Rg?si=tG8GbYwbeepg_fU9"
+title="F-4E Bombing Tutorial - Loft Mode" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Timed Low Angle Drogue Delivery - T LAD(D)
 
 Conceived as a delivery method for tactical nuclear bombs, Timed Low Angle

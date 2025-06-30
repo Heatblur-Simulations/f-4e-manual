@@ -14,13 +14,13 @@ the [Standby Attitude Indicator.](../../pilot/flight_director_group.md#standby-a
 
 Pressed by the pilot in an emergency condition requiring ejection from the
 aircraft, which illuminates the [EJECT lamp](../../../systems/emergency.md#eject-light) in the rear
-cockpit warning the WSO to prepare for immediate ejection.
+cockpit, warning the WSO to prepare for immediate ejection.
 
 ## Slats/Flaps Control Panel
 
 ![FlapSlatPan](../../../img/pilot_slats_flaps_control_panel.jpg)
 
-A three position switch (<num>1</num>) (NORM, OUT, OUT AND DOWN) to the rear of the panel
+A three-position switch (<num>1</num>) (NORM, OUT, OUT AND DOWN) to the rear of the panel
 provides normal operation functions of
 the [Slats/Flaps System.](../../../systems/flight_controls_gear/flight_controls.md#slats-flap-system)
 These functions are relative
@@ -79,7 +79,7 @@ Extra Picture switch starts the camera at the selected rate.
 ![Gun Camera Switch](../../../img/pilot_gun_camera_switch.jpg)
 
 Activates the gun camera, which will run until the switch is placed to off, or
-actuation of bomb button or the second trigger detent once the pre-programmed overrun
+actuation of the bomb button or the second trigger detent once the pre-programmed overrun
 time is completed.
 
 ## Slats Override Switch
@@ -89,7 +89,7 @@ time is completed.
 Two-position guarded switch with IN and NORM positions. In NORM, slats operate
 normally as a function of the slats flaps switch
 or [AoA.](../../../systems/flight_controls_gear/flight_controls.md#angle-of-attack-system) When IN
-selected, slats
+is selected, slats
 will retract and remain retracted. Selection of IN illuminates SLATS IN light on
 [telelight panel](../../../systems/emergency.md#telelight-panel)
 and [Master Caution lamp.](../../../systems/emergency.md#master-caution)
@@ -100,6 +100,12 @@ and [Master Caution lamp.](../../../systems/emergency.md#master-caution)
 
 If pressed and
 the [landing gear handle](../../../systems/flight_controls_gear/gear_ground_handling.md#landing-gear-control-handle)
-is placed down, overrides the armament safety.
+is placed down, it overrides the armament safety.
 
-This allows for example to fire [the gun](../../../stores/guns.md) while on ground.
+This allows, for example, to fire [the gun](../../../stores/guns.md) while on the ground.
+
+## Data-Case
+
+![Armament Safety Override Switch](../../../img/data_case.jpg)
+
+Allows opening and closing the [EFB](../../../dcs/efb.md).

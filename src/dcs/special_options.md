@@ -48,6 +48,17 @@ generated, having this activated will scale down the generated force to improve
 handling precision, but also can help to prevent accidentally pulling extreme
 Gs.
 
+## Stick neutral position smoothing period
+
+Smooths forces applied by the aircraft systems that move the sticks neutral
+position (see
+[Bobweights vs. Bellows](../systems/flight_controls_gear/flight_controls.md#bobweights-vs-bellows)).
+The higher the selected time period, the less impact do these systems have on
+the sticks movements.
+
+This makes it easier for users of non-force-feedback hardware to react to sudden
+changes of the sticks neutral position and generally achieve more stable flight.
+
 ## AFCS Breakout Deadzone
 
 Percentage of stick input (separate for roll and pitch) after which the AFCS
@@ -244,13 +255,21 @@ binding the two
 [Track Wheels](../cockpit/wso/right_console/center_section.md#along-track-wheel)
 obsolete.
 
-## FFB Gain
+## Force Feedback
+
+### Gain
 
 For users with force-feedback sticks, this setting can be used to adjust the
 gain of the forces per axis.
 
 The default setting is 100% for Roll and Pitch axis. Greater values will
 increase the force used by the stick, while smaller values will decrease it.
+
+### Force OFF
+
+When checked, the stick behavior will be that of a non-FFB stick. That is, even
+if there is a FFB stick connected or the "_Use FFB_" checkbox in the general DCS
+settings is checked.
 
 ## Lower Simulation Update Rate
 

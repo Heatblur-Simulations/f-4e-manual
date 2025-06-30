@@ -5,6 +5,11 @@ The pod offers two additional weapon release modes:
 - WRCS Auto Mode
 - ROR (Release on Range)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ow9wJj-uOzQ?si=U0zyR6QClPim_tl-"
+title="DCS: F-4E Phantom - Pave Spike - Release Modes" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Auto Mode
 
 The main method of weapon delivery with the pod is the WRCS automatic release

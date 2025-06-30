@@ -1,7 +1,12 @@
 # Bomb Delivery - Dive Toss and Dive Laydown
 
+For details refer to chapters
+[4.3.3.6.1 Dive Toss](../../stores/air_to_ground/bombs/employment/accurate_modes.md)
+and
+[4.3.3.6.4 Dive Laydown](../../stores/air_to_ground/bombs/employment/laydown_modes.md).
+
 | Step | System                             | Action          |
-|------|------------------------------------|-----------------|
+| ---- | ---------------------------------- | --------------- |
 | 1    | SIGHT MODE                         | A/G             |
 | 2    | DELIVERY MODE KNOB                 | DT / DL         |
 | 3    | HSI MODE SWITCHES                  | NAV COMP        |
@@ -22,9 +27,9 @@
 
 ## Dive on Target (DT ONLY)
 
-| Step | System                       | Action       |
-|------|------------------------------|--------------|
-| 1    | (WSO) RECEIVER GAIN          | MIN          |
-| 2    | (WSO) LOCK ON TGT (CALL OUT) |              |
+| Step | System                       | Action             |
+| ---- | ---------------------------- | ------------------ |
+| 1    | (WSO) RECEIVER GAIN          | MIN                |
+| 2    | (WSO) LOCK ON TGT (CALL OUT) |                    |
 | 3    | BOMB BUTTON (PRESS AND HOLD) | AFTER BOMB RELEASE |
-| 4    | BOMB BUTTON (RELEASE)        |              |
+| 4    | BOMB BUTTON (RELEASE)        |                    |

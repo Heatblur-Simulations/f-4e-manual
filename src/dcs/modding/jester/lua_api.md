@@ -1,7 +1,7 @@
 # Lua API
 
 This gives a quick overview of Lua, which Jester is primarily coded in; and
-explains the Jester API itself.
+explains the Jester API itself, as well as how to create custom mods.
 
 ## Get started with Lua
 
@@ -90,16 +90,27 @@ local AssistAAR = Class(Behavior) -- inherits from Behavior
 ## Debugging
 
 Unfortunately, we do not have any Lua debugger setup. One has to rely on caveman
-debugging with prints:
+debugging with prints.
+
+To aid in that, Jester offers an in-game console UI (<kbd>RCTRL</kbd>+<kbd>L</kbd>).
+This console displays any string logged via `Log(...)`.
+
+Further, it offers a console prompt allowing execution of Lua code.
+
+![jester_console_hello_world](../../../img/jester_console_hello_world.jpg)
+
+The prompt can also be used to inspect the running code, for example by entering
+a command such as
 
 ```lua
-print("hello world")
-print("Person:", person)
-print("Check:", foo, bar, baz)
+Log(GetJester().behaviors[require('radar.MoveRadarAntenna')].current_antenna_degrees.value)
 ```
 
-Which can then be seen in console. Note that it might be necessary to
-periodically call `io.flush()` to actually see the prints.
+![jester_console_inspect](../../../img/jester_console_inspect.jpg)
+
+> 🚧 HB UI does not support the full keyboard yet, for example `().[]:"'` cannot be entered.
+> It is thus recommended to prepare the prompt in an external text editor and simply
+> copy-paste it into the UI instead.
 
 We also provide a Lua playground in `WizardJester.lua`, which is always executed
 directly on startup.
@@ -107,6 +118,68 @@ directly on startup.
 It is also possible to edit Lua files while DCS runs, without restarting the
 game. Simply edit a LUA file and then reload the DCS mission with
 <kbd>CTRL</kbd>+<kbd>R</kbd> and the new Lua file will be effective.
+
+## User Mods
+
+### Add content
+
+Custom Jester logic is placed in the **Saved Games** folder, within the `jester\mods` subfolder.
+The full path might for example look like:
+
+`C:\Users\John Doe\Saved Games\DCS_F4E\jester\mods`
+
+Any Lua file placed in this folder will be made available and can be loaded
+through for example `require 'MyFile'` within Lua.
+
+Any Lua file placed in the subfolder `jester\mods\init` will not only be made available,
+but also be executed when spawning into the aircraft. This mechanism allows
+announcing your custom content and adding it to Jester through a callback register called `mod_init`:
+
+```lua
+-- Place this in a LUA file in jester\mods\init
+mod_init[#mod_init+1] = function(jester)
+  -- Executed at spawn, use 'jester' to register your logic
+  Log("Hello World!")
+end
+```
+
+> 💡 When the `jester\mods` folder does not exist, it will be automatically created
+> on first spawn of the aircraft. Further, the folder will be pre-populated with
+> a simple `ExampleMod`.
+
+### Replace content
+
+Existing behavior of Jester can be replaced by simply adding a Lua file under
+the same name than the original file you want to replace to the `jester\mods` folder.
+
+For example, in order to replace `MoveRadarAntenna.lua`
+(e.g. `G:\DCS World OpenBeta\Mods\aircraft\F-4E\Jester\radar\MoveRadarAntenna.lua`) with custom logic,
+place a file that is called `MoveRadarAntenna.lua` as well into the modding folder
+(e.g. `C:\Users\John Doe\Saved Games\DCS_F4E\jester\mods\radar\MoveRadarAntenna.lua`).
+
+Now, when the existing logic tries to load this file using `require 'radar.MoveRadarAntenna'`,
+your custom file will be prioritized and loaded instead. To get back the original behavior,
+simply delete your custom file.
+
+> 🟡 CAUTION: It is not possible to replace any files from the following folders:
+>
+> - base
+> - memory
+> - senses
+> - stats
+>
+> Attempting to do so results in a warning message being shown and all Jester mods getting disabled.
+
+## Jester Modding Repository
+
+<!-- markdown-link-check-disable -->
+To share mods with others or propose integration of mods into the base game, content can be
+uploaded to the public repository
+[Heatblur-Simulations/jester-modding](https://github.com/Heatblur-Simulations/jester-modding).
+<!-- markdown-link-check-enable -->
+
+This repository also contains the source files of Jester to aid modders in learning the Api,
+but also to enable modification of existing logic.
 
 ## Jester API
 
@@ -119,7 +192,7 @@ Jesters logic is divided into 6 layers of abstraction:
 - Task
 - Action
 
-Code is placed in the Mod-Folder, for example:
+The original logic is located in the DCS Mod-Folder, for example:
 
 `G:\DCS World OpenBeta\Mods\aircraft\F-4E\Jester`
 
@@ -380,6 +453,16 @@ The returned value is a wrapper `Property` object. Access to the underlying
 value (in this case a `LReal` with unit `Pounds`) is given by
 `GetProperty(...).value`.
 
+<!-- markdown-link-check-disable -->
+See the `properties_snapshot.json` file in the
+[Heatblur-Simulations/jester-modding](https://github.com/Heatblur-Simulations/jester-modding)
+repository for a full list of all readable properties.
+<!-- markdown-link-check-enable -->
+
+![properties_snapshot](../../../img/properties_snapshot.jpg)
+
+> 💡 Open the file with a browser to skim and search through it.
+
 ### Observations and Senses
 
 Additionally to direct property access, Jester has an Observation-System. The
@@ -458,7 +541,7 @@ Next to clicking switches, Jester can react to events send either from C++ or
 also from within Lua. The system follows a simple observer/listener pattern:
 
 ```lua
-ListenTo("go_silent", function(task)
+ListenTo("go_silent", "Radar", function(task)
   task:Click("Radar Power", "STBY")
 end)
 ```

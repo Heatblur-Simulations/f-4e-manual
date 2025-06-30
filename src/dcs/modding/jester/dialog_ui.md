@@ -74,7 +74,7 @@ Dialog.Push(fuel_check_dialog)
 To react to a selected option, listen to the corresponding event:
 
 ```lua
-ListenTo("fuel_low_rtb", function(task)
+ListenTo("fuel_low_rtb", "Navigation", function(task)
   -- Component interface
   task:Click("Nav Panel Function", "TARGET_1")
 

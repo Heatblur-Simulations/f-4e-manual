@@ -39,6 +39,11 @@ static friction in the motion capture assembly.
 
 ![manual_ins_diagram](../../img/manual_ins_diagram.jpg)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JVzSWqVzbKk?si=c5tjmYIAc-I5xYS3"
+title="Back to Basics - INS, Drift, and Navigation" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Navigational Computer and Output Signal Distribution
 
 The respective captured motion signals from the gyroscopes and accelerometers
@@ -240,6 +245,11 @@ back to Target 2 will maintain said location value, easily accessed. This will m
 position into Target 2, from which it will be easily accessible by just switching the knob back to
 Target 2 at any time.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n2O-LigZpyk?si=DVuwon21RvWF7pAD"
+title="F-4E-45MC - Bullseye & Nav References (INS Navigation)" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 The other common technique was "leapfrogging":
 
 1. On startup, the second waypoint would be stored in Target 2 memory (entry on
@@ -262,6 +272,11 @@ rear pilot the ability to immediately switch to Target 1 for a quick check of
 relative position to another location of interest if required, or an in-flight
 detour (such as to a tanker track), then return back to the next stored waypoint
 for navigation.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qLsjU9eWUuU?si=tVeTT6lNM7f7I3hm"
+title="F-4E-45MC - 'Leap Frog' Operations (INS Navigation)" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## In Flight Updating
 
@@ -295,6 +310,11 @@ latitude and 4 in longitude, the FIX position must be held at least 3 seconds
 prior to the aircraft directly passing the fix location. Further, the switch
 actuation from SET to FIX must be smooth and direct, as there is a half second
 time delay in the computer in the pass-through of NORMAL.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CIxeyF0ax4s?si=o5NiWBxIbGRkL9B7&amp;start=106"
+title="DCS World - F-4E WSO INS Navigation Guide" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Air Data Mode Update
 

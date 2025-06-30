@@ -58,7 +58,7 @@ the knob.
 
 The fuze cap (<num>1</num>) contains the fuze.
 
-For further information on the lighting see
+For further information on the lighting, see
 the [3.9 Lighting chapter.](../../../systems/lighting.md)
 
 ## Circuit Breaker Panel
@@ -66,7 +66,7 @@ the [3.9 Lighting chapter.](../../../systems/lighting.md)
 ![pilot_cb_panel](../../../img/pilot_circuit_breakers.jpg)
 
 Contains seven circuit breakers responsible for flight control surfaces and
-other systems important for safe operation of the aircraft.
+other systems important for the safe operation of the aircraft.
 
 - AIL Feel-Trim (<num>1</num>)
 - STAB Feel-Trim (<num>2</num>)
@@ -106,7 +106,7 @@ on the left wall.
 The three position switch (<num>3</num>) controls the lamps illuminating the instrument panels
 in **both cockpits** simultaneously in red light.
 
-For further information on the lighting see
+For further information on the lighting, see
 the [3.9 Lighting chapter.](../../../systems/lighting.md)
 
 ### ML Audio

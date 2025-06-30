@@ -2,20 +2,63 @@
 
 ![real_life_crew_with_map](../img/map_2.jpg)
 
-Navigation with Jester revolves around managing turn points for two flight plans:
-the Primary Flight Plan and the Secondary Flight Plan. Both can be edited and followed
-by Jester in the same manner, although Primary Flight Plan is considered the main
-one and the Secondary Flight Plan serves as a backup.
+Navigation with Jester revolves around managing turn points for two flight
+plans: the Primary Flight Plan and the Secondary Flight Plan. Both can be edited
+and followed by Jester in the same manner, although Primary Flight Plan is
+considered the main one and the Secondary Flight Plan serves as a backup.
 
 ## Flight Plan
 
-A flight plan consists of multiple turn points. They can be inserted, deleted or
-edited by the player through the UI, map or mission editor.
+A flight plan consists of waypoints. They can be inserted, deleted or edited by
+the player through the UI, map or mission editor.
 
-![Edit Turn Points](../img/jester_nav_edit_turn_points.jpg)
+![Edit Waypoints](../img/jester_nav_edit_turn_points.jpg)
 
 If the mission has assigned the aircraft a series of waypoints through the
 mission editor, this will be available by default as the Primary Flight Plan.
+
+Each waypoint in the flight plan can be designated as one of several special
+types. These designations will influence Jesters actions and the dialog phrases he uses
+as one approach the waypoint. The types are:
+
+- **Turn Point (default)**: This is the standard waypoint type. Jester will
+  automatically switch to the next waypoint when the aircraft is within 2
+  nautical miles (NM) of the turn point, as indicated by his BDHI.
+- **Nav Fix (VIP - Visual Identification Point)**: Jester will perform an INS
+  (Inertial Navigation System) position update when flying over this point. He
+  will report the distance to the VIP 10NM and 5NM in advance. Before reaching
+  the VIP, Jester will input the necessary coordinates into the Navigation
+  Computer, set the Navigation Computer Position Update Switch to FIX, and then
+  execute the update when flying over the visual reference point. It is
+  important to note that the pilot must fly over the visual reference, not the
+  INS-indicated point. Jester will adjust the INS coordinates at the VIP, and
+  the success of the fix depends on how accurately the visual flyby matches the
+  reference point. Afterward, Jester will report whether the update was
+  successful or if the aircraft was too far from the point (in which case the
+  flyby must be repeated). Upon a successful fix, Jester will switch to the next
+  waypoint.
+- **Initial Point (IP)**: Jester will report the distance to the IP (15NM, 10NM,
+  5NM, and 2NM in advance) and provide a reminder when the aircraft is within
+  2NM. Once past the IP, he will switch to the next waypoint.
+- **Target (TGT)**: Similar to the IP, but with different phrases, suited target
+  area. Jester will update the pilot as the aircraft approaches the point (10NM,
+  5NM, and 2NM in advance), and switch to the next waypoint once past the
+  target.
+- **Fence In (F-IN)** and **Fence Out (F-OUT)**: These waypoints function
+  similarly to the IP and Target types, but with additional tasks.
+- **Homebase (HB)** and **Alternate (ALT)**: These are designated landing
+  points. Jester will not automatically switch to the next waypoint at these
+  points, and he will report as the aircraft approaches the Homebase.
+- **Combat Air Patrol (CAP)**: The first waypoint designated as CAP will be saved
+  as _CAP1_, and the second will be saved as _CAP2_, regardless of their
+  positions in the flight plan. Jester will ask how long the pilot intends to
+  remain on station at _CAP1_. He will then cycle between _CAP1_ and _CAP2_
+  until the designated CAP time expires, after which he will switch to the next
+  waypoint following _CAP2_ in the flight plan. There can be several
+  _CAP1_-_CAP2_ pairs.
+
+> 🚧 For _Fence In_ and _Fence Out_, Jester will later also guide the pilot
+> through specific checklists.
 
 ### Map Marker
 
@@ -32,7 +75,8 @@ flight plan.
 
 ### Tune Asset
 
-The UI offers a list of nearby assets, such as ships, tankers or ground stations.
+The UI offers a list of nearby assets, such as ships, tankers or ground
+stations.
 
 Their current position can be imported as turn point directly.
 
@@ -99,8 +143,8 @@ An active flight plan is indicated by the UI using an asterisk `*` next to the
 current turn point.
 
 Automatic turn point switching can be temporarily disabled per turn point using
-the **Holding** option. Turn points designated for holding are marked
-with a `h`.
+the **Holding** option. Turn points designated for holding are marked with a
+`h`.
 
 ![Turn Point Modifiers](../img/jester_nav_resume_flightplan.jpg)
 

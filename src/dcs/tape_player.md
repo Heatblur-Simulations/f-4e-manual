@@ -25,7 +25,7 @@ To swap the cassettes, the AVTR first has to be turned off by setting its mode
 to OFF. Then, the EJECT button can be pressed to open the cassette holder.
 
 Once the cassette is out, it can be swapped by clicking on it. Insert the
-cassette back by left clicking the holder.
+cassette back by left-clicking the holder.
 
 With the music tape loaded, songs can be played by setting the mode switch to
 RECORD. The RECORDER ON lamp next to the pilots left knee indicates the status
@@ -56,3 +56,13 @@ Note that it is necessary for DCS that each song is also set up as a
 To add your own songs, simply put them into the above folder and create the
 corresponding SDEF file. Make sure to restart DCS, as sounds are loaded during
 start of the game.
+
+> 💡 If you have trouble getting a custom song to work, try out the file format
+> **OGG** for the sound file. Also make sure the file names do not contain any
+> special Unicode characters, such as `·` or `你好`, DCS tends to crash on
+> those.
+>
+> To speedup loading times DCS introduced a song cache. Unfortunately, this
+> mechanism disables the ability to load custom songs. Either replace the
+> existing soundtracks with yours (so that they share the same name), or
+> manually delete the sound cache file `sdef.tar`.

@@ -14,6 +14,11 @@ battery for initial power, or connection with an external power cart.
 > 💡 When the engines are off they make a rattling noise as the respective blades rattle in their
 > holders. This is called windmilling.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_ryUr2pI_RU?si=jEPlaZySPxLdpm9c"
+title="The Heart of a Phantom, the GE J-79 - F-4 Phantom" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Fuel Flow Indicators
 
 ![FFI](../../img/pilot_fuel_flow.jpg)

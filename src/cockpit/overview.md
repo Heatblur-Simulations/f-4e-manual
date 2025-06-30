@@ -5,7 +5,7 @@
 Greetings, _phabulous_ Crewmen! Get ready for an in-depth look into the cockpit
 of the F-4E Phantom II by Heatblur.
 
-The following chapter gives a detailed overview of the Pilots cockpit, as well
+The following chapter gives a detailed overview of the pilot's cockpit, as well
 as the Weapons Systems Officer (WSO) Pit. Each single switch will be outlined
 and explained briefly, while giving context to the functions.
 

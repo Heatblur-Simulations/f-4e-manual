@@ -15,16 +15,21 @@ responsible for stores and mode selection, and initial seeker placement. From
 the point the seeker head is stabilized on the intended target area, either crew
 member can direct the final intended contrast target.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A4m8lyxbCVw?si=j7zYMHmHzk1OF6dJ"
+title="DCS F-4E Phantom: AGM-65 Maverick Tutorial" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Variants
 
 Available variants include:
 
-| Variant | Warhead | Description                             |
-| ------- | ------: | --------------------------------------- |
-| A       |  462 lb | TV-Guided                               |
-| B       |  462 lb | TV-Guided with a narrower FOV than A    |
-| D       |  485 lb | IR-Guided                               |
-| G       |  675 lb | IR-Guided, optimized for larger targets |
+| Variant | Warhead | Field Of View | Description                             |
+| ------- | ------: | ------------- | --------------------------------------- |
+| A       |  462 lb | Wide          | TV-Guided                               |
+| B       |  462 lb | Narrow        | TV-Guided                               |
+| D       |  485 lb | Wide & Narrow | IR-Guided                               |
+| G       |  675 lb | Wide & Narrow | IR-Guided, optimized for larger targets |
 
 ## Employment
 
@@ -63,7 +68,8 @@ signal, as follows:
 
 ### Pilot
 
-With the pipper over the target area, pressing and holding the ARR button
+With the pipper over the target area, pressing and holding the
+[ARR button](../../../cockpit/pilot/stick_seat.md#air-refueling-release-button)
 enables track slewing with the Forward Hand Control stick inboard from the
 throttle. Once the seeker crosshair is over the intended target, releasing the
 ARR button performs a lock-on of the missile to the contrast area under the

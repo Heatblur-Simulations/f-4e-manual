@@ -1,9 +1,12 @@
 # Pave Spike Operations
 
+For more details, refer to chapter
+[3.12.6 Pave Spike](../systems/weapon_systems/pave_spike/overview.md).
+
 ## Turn on
 
 | Step | Action                                                     | Button                                                    |
-|------|------------------------------------------------------------|-----------------------------------------------------------|
+| ---- | ---------------------------------------------------------- | --------------------------------------------------------- |
 | 1    | Ensure power to the aircraft (main AC bus and main DC bus) |                                                           |
 | 2    | Ensure corresponding CBs are not pulled                    | No. 4 CB Panel, WSO left wall                             |
 | 3    | POWER ON Button (WSO, Target Designator Set Control)       | Press and confirm lamp lit                                |

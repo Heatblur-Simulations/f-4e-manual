@@ -4,7 +4,7 @@
 
 The Digital Scan Converter Group (DSCG) refers to the screen used to display
 radar data and video feed of TV weapons or targeting pods. The DSCG replaces the
-Direct View Storage Tube radar scopes which could not interact with the digital
+Direct View Storage Tube radar scopes, which could not interact with the digital
 interfaces.
 
 > 💡 The selector for the video source is found on the
@@ -52,8 +52,8 @@ The rotary knob (<num>12</num>) selects the mode of operation for the gun-sight.
 | OFF   | Turns the system off.                                                                                                                                                                 |
 | STBY  | Warms up the system. Reticle remains off.                                                                                                                                             |
 | CAGE  | Reticle is displayed and caged at the radar boresight line (RBL). This is used for [takeoff](../../procedures/takeoff/takeoff.md) and [landing](../../procedures/landing/landing.md). |
-| A/G   | Selects air to ground mode. Manual set depression is referenced from the fuselage reference line (FRL).                                                                               |
-| A/A   | Selects air to air lead computing mode. Position is set by the gyro, range, and CADC, and can be caged.                                                                               |
+| A/G   | Selects air-to-ground mode. Manual set depression is referenced from the fuselage reference line (FRL).                                                                               |
+| A/A   | Selects air-to-air lead computing mode. Position is set by the gyro, range, and CADC, and can be caged.                                                                               |
 | BIT 1 | System self test [mode 1](../../procedures/bit_tests/optical_sight.md).                                                                                                               |
 | BIT 2 | System self test [mode 2](../../procedures/bit_tests/optical_sight.md).                                                                                                               |
 
@@ -74,10 +74,10 @@ Two function (pushbutton inside of knob) control (<num>3</num>) of the front sco
 
 Dual knob control (<num>6</num>) of the front scope display settings.
 
-| Name   | Description                                                           |
-|--------|-----------------------------------------------------------------------|
-| BRT    | Controls relative brightness of the front scope display.              |
-| HOR LN | Adjusts relative horizon line shown on radar scopes in both cockpits. |
+| Name   | Description                                                               |
+|--------|---------------------------------------------------------------------------|
+| BRT    | Controls the relative brightness of the front scope display.              |
+| HOR LN | Adjusts the relative horizon line shown on radar scopes in both cockpits. |
 
 ## INT Tab
 
@@ -85,7 +85,7 @@ Dual knob control (<num>6</num>) of the front scope display settings.
 
 The INT tab (<num>7</num>) rotates around the display to alter the relative darkness of the
 radar display, permitting the pilot to adjust the scope relative to ambient
-light. With the INT tab a polarization filter is rotated over the scope.
+light. With the INT tab, a polarization filter is rotated over the scope.
 
 ## Red Tab
 
@@ -105,15 +105,15 @@ is within range parameters.
 ![HoldAlt](../../img/pilot_dscg_hold_alt_light.jpg)
 
 The HOLD ALT light (<num>10</num>) illuminates as an instruction to the pilot from the fire
-control system to maintain current altitude to assist in a snap-up intercept
+control system to maintain the current altitude to assist in a snap-up intercept
 situation against a target above the fighter. The predicates are:
 
 - A range greater than the weapon can make,
-- Altitude in excess than 32,000 feet, and
+- Altitude in excess of 32,000 feet, and
 - The locked target is greater than 8,000 feet above the fighter.
 
 When the HOLD ALT light is on, the fighter should be flown to center the
-steering dot relative to azimuth of the ASE circle. When the HOLD ALT light
+steering dot relative to the azimuth of the ASE circle. When the HOLD ALT light
 turns off, the fighter should then snap up in pitch to fully center the steering
 dot in the ASE circle. See the [3.10 Radar System](../../systems/radar/overview.md) for more.
 
@@ -131,5 +131,5 @@ to suggest lowering the gear.
 
 ![RngLights](../../img/pilot_dscg_range_lights.jpg)
 
-The Range Lights (<num>9</num>) illuminate relative to range settings selected by the WSO.
+The Range Lights (<num>9</num>) illuminate relative to the range settings selected by the WSO.
 Range is provided in the upper right corner of the DSCG scope.

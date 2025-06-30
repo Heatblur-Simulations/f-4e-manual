@@ -6,18 +6,19 @@ These missions, we like to call them "lessons", have been designed in such a way
 beginner, everything important that you need for a successful start with your new F-4E Phantom II is
 explained.
 
-## Goals
+## Lesson goals
 
 The stated goal of these lessons is that after completing them once or several times, you can
 say: "Hey, I think I now know how this thing works (again)".
 You can use the lessons as "initial training" or as so-called "recurrent training". Whenever
 you haven't flown for a long time and need a refresher. By the way: We recommend a refresher
-every 90 days at least ...
+every 90 days at least.
 
-Please note that the lessons require a certain level of knowledge and basic flying skills. In the
+Please note that the lessons require a certain level of knowledge about DCS and also some basic
+flying skills. In the
 lessons we don't explain flying as such, but rather the aircraft, its systems and their usage, and
 the behavior. The lessons may therefore be understood as a kind of "interactive type training in the
-cockpit seat" and not as "basic flying training".
+cockpit" and not as a "basic flying training".
 
 ## Your way through
 
@@ -25,7 +26,7 @@ Due to the design, systems and age of the jet, it has many pecularities. Precise
 system knowledge in daily duty on this wonderful aircraft is the key to success. With the F-4E
 Phantom II you will be challenged in so many ways. So be ready! We leave it up to you whether you
 want to get in the air immediately without studying the manual, or whether you want to read upon it
-before your first flight ...
+before your first flight.
 
 Decide for yourself!
 
@@ -52,7 +53,7 @@ them had to be changed, shortened, or omitted entirely. Nevertheless, for exampl
 simulated putting on the helmet (including sun protection visor and sun glasses), an immersive
 innovation in DCS.
 
-## Our way
+## Our way through
 
 We thought a lot about how best to explain the operation of such a complex aircraft with training
 missions. Where do you start, where do you end? How detailed should it be so that a "nerd" doesn't
@@ -60,7 +61,7 @@ miss anything, how superficial can it be so that a "leisure gamer" doesn't lose 
 are the checks whether the player is adhering to the procedures and the planned flight route? A
 basic idea at Heatblur has always been to get players "in the air" as quickly as possible, without
 them having to spend hours watching introductory videos or studying thick books. All of this caused
-us a lot of headaches...
+us a lot of headaches.
 
 In any case, we spared no expense, effort and discussions to serve both types of players more or
 less "equally". As you can imagine, such a project is not entirely trivial, and you have to make a
@@ -83,16 +84,17 @@ We hope you like what you have in hands now!
 
 ## Lessons Overview
 
-This section is limited to the description of the first 4 lessons:
+This section is limited to the description of the first 5 lessons:
 
-- Lesson 01 - Startup
-- Lesson 02 - Taxi
-- Lesson 03 - Normal Takeoff
-- Lesson 04 - Visual approach
+- [Lesson 01a - (PILOT) Startup](./training_missions.md#lesson-01a---pilot-startup)
+- [Lesson 01b - (WSO) Startup](./training_missions.md#lesson-01b---wso-startup)
+- [Lesson 02 - (PILOT) Taxi](./training_missions.md#lesson-02---pilot-taxi)
+- [Lesson 03 - (PILOT) Normal Takeoff](./training_missions.md#lesson-03---pilot-normal-takeoff)
+- [Lesson 04 - (PILOT) Visual approach](./training_missions.md#lesson-04---pilot-visual-approach)
 
-## General Tips and Tricks
+## General Tips & Tricks
 
-It rarely happens that you get stuck in a procedure, or you don't know exactly what to do
+It rarely happens that you get stuck in a procedure, or you don't know what to do
 next.
 
 Here are some general tips & tricks as created by testers during the testing phase:
@@ -101,7 +103,7 @@ Here are some general tips & tricks as created by testers during the testing pha
   - Wait until the other jets have taken off before beginning with the lesson.
   - You are allowed to close the canopy whenever you need to (default binding is LCTRL+C), despite
     the F-4 usually closes it very lately
-  - Adjust the audio volume of DCS to suit the autio hardware you are using.
+  - Adjust the audio volume of DCS to suite the audio hardware you are using.
 - If you have troubles with a very dark cockpit, a few things can be done:
   - Use the internal cockpit illumination on the COCKPIT LIGHTS panel (right side):
     - The CONSOLE OFF/BRT knob
@@ -113,34 +115,35 @@ Here are some general tips & tricks as created by testers during the testing pha
 
 - Set the SYSTEM option "Cockpit Global Illumination" to ON
 - Set the SYSTEM option "Gamma" to 2.0 or higher values.
+- Set the SYSTEM option "Shadows" off as the very last resort.
 
-## Emergencies
+## Lesson got stuck
 
-There are situations in which the triggers of a lesson no longer work properly for some unknown
-reason. Fortunately, this only happens very rarely! This usually results in the highlights (the
+There are situations in which the triggers of a lesson no longer work properly for some reason.
+Fortunately, this only happens very rarely! This usually results in the highlights (the
 yellow helper boxes) no longer being shown or hidden correctly, or the logic circuits no longer
 reacting correctly to events in the simulation. We experienced this ourselves during the testing
-phase and would like to at least inform you about it here and now.
+phase from time to time, and we would like to at least inform you about here and now.
 
 The influence of the time acceleration function on the stability of the lessons is not documented,
 but to be on the safe side we advise against using the time acceleration function.
 
-If you got stuck in a lesson, you should take the following actions:
+If you got stuck in a lesson, you should take the following measures:
 
-- Stay calm! The two most important pilot rules apply:
-  1. Aviate, navigate, communicate.
-  2. Don't crash, and above all: don't break anything!
+- Stay calm!
 
 - Check whether everything in the aircraft is actually set up as required according to the
-  checklist/procedure. If necessary, go up the list a few steps and again check each step
-  individually, starting from the top by asking yourself: What is written in the book? >
-  How did I set it up?
+  checklist/procedure. If necessary, check each of the previous steps individually and carefull,
+  starting from the top by asking yourself the following questions:
+  "What is written in the procedure/checklist/book?" and "How did I set it up?"
 
 - If that doesn't help:
-  Jump back one, or even more steps (how to do this is explained above)
+  Jump back one - or if necessary - a few steps (if that lesson supports jumping back via the comms
+  menu > F-10 Other ...).
 
 - If that doesn't help either:
-  Jump back to the beginning of the procedure (how to do this is explained above)
+  Jump back to the beginning of the procedure (if that lesson supports jumping back via the comms
+  menu > F-10 Other ...).
 
 - If all that doesn't help:
   - Quit the mission and save the DEBRIEFING (log-file) and the TRACK (trk-file) in the
@@ -149,43 +152,42 @@ If you got stuck in a lesson, you should take the following actions:
     Phantom area using this link: <https://forum.dcs.world/forum/919-dcs-f-4-phantom/>. Please
     add as much information as possible in order to help us finding a possible issue. Thank
     you for your support!
-  - In any case, we recommend to restart DCS and load the mission again. Sorry for that!
+  - In any case, we recommend to restart DCS and fly the mission again. Sorry for that!
 
-## Lesson 01 - Startup
+## Training area: Kobuleti (UG5X) airfield
 
-### Lesson 01 - Kobuleti airfield
-
-The airfield has a picturesque location between the mountains to the south and the Black Sea
-to the west. Here is a photo of the airfield, taken a month ago from a helicopter, looking S-
-W.
-
-![kobuleti_airfield](../img/Kobuleti_Airfield.jpg)
-
-The entire F-4E Phantom II training for your year (July 1995 syllabus) will be held in Kobuleti.
+The entire F-4E Phantom II training will be held in Kobuleti in Georgia.
 The choice fell on an airfield in the Caucasus region for understandable reasons, as this map is
-delivered with DCS as standard. The designated training areas in the south of Georgia (designated
+delivered with DCS as standard. The training areas in the south of Georgia (designated
 as "Training Area W" and "Training Area E") offer a sufficiently large playground for training,
 including supersonic flights.
 
 ![training_area](../img/Georgia_Training_Area.jpg)
 
-### Lesson 01 - Weather
+The airfield has a picturesque location between the mountains to the south and the Black Sea
+to the west. Here is a photo of the airfield, taken a month ago from a helicopter, looking in
+direction S-W.
 
-The weather has been very bad in the last few days. A persistent Black Sea depression had brought a
-lot of rain. However, stabilization occurred last night and morning. Dry air mass flows in from the
+![kobuleti_airfield](../img/Kobuleti_Airfield.jpg)
+
+## Lesson 01a - (PILOT) Startup
+
+### Lesson 01a - Weather
+
+The weather has been bad in the last few days. A persistent Black Sea depression had brought a
+lot of rain. However, stabilization occurred last night because dry air mass flows in from the
 east. The mid-level cloud layer is expected to break up. The weather forecast predicts that the
 clouds will no longer be a problem in about an hour and the temperature will rise quickly due to
 strong sunshine. However, ground-level haze is still to be expected as the ground has stored a lot
 of moisture and heavy evaporation from the sun is to be expected.
 
-![weather_kobuleti](../img/Lesson01_Kobuleti_WX.jpg)
+![lesson01b_weather_kobuleti](../img/Lesson01_Kobuleti_WX.jpg)
 
-### Lesson 01 - Slots
+### Lesson 01a - Slots
 
 Your fellow pilots will begin their flights immediately, your flight a little later. The airfield is
-a very noisy environment, so wait until the jets currently positioned on the runway have taken off
-before beginning with the lesson. Then the noise level should be somewhat tolerable... hopefully at
-least.
+a very noisy environment, so wait until the jets positioned on the runway have taken off
+before beginning with your lesson. Then the noise level should be somewhat tolerable ... hopefully.
 
 Currently registered sorties for this afternoon:
 
@@ -196,31 +198,36 @@ Currently registered sorties for this afternoon:
 
 All Dodge flights complete familiarization and training flights at the airfield.
 
-### Lesson 01 - Aircraft
+### Lesson 01a - Aircraft
 
 Your aircraft is "cold & dark" on the ramp #25, the nose is pointed towards the runway, and is
 prepared and fully fueled. The Dash-60 ground power unit is already in place left of your jet.
 
-![lesson1_hangar_view](../img/Lesson01_Slot_Ramp_no25.jpg)
+![lesson01a_hangar_view](../img/Lesson01_Slot_Ramp_no25.jpg)
 
 The technician responsible for the aircraft, also called the "crew chief", is already in front of
 your aircraft and waiting to support you. You can communicate with him using the Jester menu > CREW
-CHIEF.
+CHIEF. Don' confuse the "crew chief" with Jester. Sometimes they sound very similar when heard
+over the intercom, but in fact you are dealing with two different persons!
 
-![lesson1_crew_chief](../img/Lesson01_Crew_chief_Ramp_no25.jpg)
+![lesson01a_crew_chief](../img/Lesson01_Crew_chief_Ramp_no25.jpg)
 
-By the way, his assistant is standing by on your left side, next to the Dash-60 ground power
-unit.
+By the way, the crew chief's assistant is standing by on your left side, next to the Dash-60 ground
+power
+unit. He is operating the unit, and everything you request is in fact done by him, while the crew
+chief
+is directing, monitoring and the person in charge.
 
-![lesson1_crew_chief_assistant](../img/Lesson01_Crew_chief_assistant_Ramp_no25.jpg)
+![lesson01a_crew_chief_assistant](../img/Lesson01_Crew_chief_assistant_Ramp_no25.jpg)
 
-You've just sat down in the ejection seat and are starting to check the cockpit. You may be saying
-to yourself  "Damn, I'm blown away by everything I see, but I guess I don't know what I'm doing...".
+You've just sat down on the ejection seat and are starting to check the cockpit. You may be
+thinking:
+"Damn, I'm totally blown away by what I see, but I guess I don't know what I'm doing ...".
 
 Don't worry, your instructor, who is also your WSO for today's flight, will guide you through
 the lesson!
 
-### Lesson 01 - Audio & text
+### Lesson 01a - Audio & text
 
 Your instructor speaks from the back seat, always listen carefully. Assume that everything he says
 is important. As an aid, all of the text he speaks is displayed at the top right of the screen. If
@@ -230,7 +237,7 @@ the screen for a maximum of 1000 seconds until it either disappears or is replac
 Note that whenever you missed one of the text messages, you can access the message log by pressing
 the key "Escape" and then selecting MESSAGES HISTORY and read after.
 
-### Lesson 01 - Tasks & steps
+### Lesson 01a - Tasks & steps
 
 The lessons are divided into tasks, which are based on the names of the procedures. These
 tasks are divided into individual steps, whereby the steps go hand in hand with the individual
@@ -238,11 +245,13 @@ items in the procedure.
 The tasks for this lesson are:
 
 - Task 1: Check the aircraft and essential switches before applying external power.
-- Task 2: Perform the internal inspection of the aircraft.
+- Task 2: Perform the "Internal inspection" of the aircraft.
 - Task 3: Prepare the aircraft for engine start.
 - Task 4: Start the engines.
 
-### Here are some special tips for lesson 01
+### Lesson 01a - Tips & tricks
+
+Here are some special tips for lesson 01a:
 
 - Task 4:
   Let the instructor speak to the end of each instruction, there is enough time for the
@@ -251,9 +260,127 @@ The tasks for this lesson are:
   Be careful when opening the fuel, this should not be done before 10% RPM! If you see the
   EGT rising above 700°C, immediately cut off the fuel by moving the throttle lever to the
   "OFF" position. Note: engine parameters may vary slightly depending on the environmental
-  conditions. Only the EGT value is to be monitored very closely!
+  conditions, but only the EGT value must be monitored closely!
+- Task 4 > Step 4c:
+  Make sure you pull the throttle lever in the simulation back to "IDLE" position in order for
+  the lesson logic to continue. The background is the following: Users reported about problems
+  when performing this step. In all cases reported so far, the real throttle lever was pulled
+  back to (its) IDLE position, but the throttle lever in the simulation did not reach the
+  "IDLE" position, but became stuck a bit too far forward.
+  Therefore, please make sure that your real throttle levers are able to move the throttle levers
+   in the sim over the whole range:
+  - "MAX" (which is 100% RPM with full afterburner)
+  - "MIL" (which is 100% RPM without afterburner)
+  - "IDLE" (which is 65% RPM)
+  - "OFF" (which is fuel shut off)
+- Task 4 > Step "STARTING ENGINES PROCEDURE" checklist:
+  Make sure all controls are still set to their commanded positions, which have been set in all the
+  other procedures before. Users reported problems about advancing, because they accidentally set
+  some controls to unexpected/false positions.
 
-## Lesson 02 - Taxi
+## Lesson 01b - (WSO) Startup
+
+### Lesson 01b - Weather
+
+The weather has been bad in the last few days. A persistent Black Sea depression had brought a
+lot of rain. However, stabilization occurred last night because dry air mass flows in from the
+east. The mid-level cloud layer is expected to break up. The weather forecast predicts that the
+clouds will no longer be a problem in about an hour and the temperature will rise quickly due to
+strong sunshine. However, ground-level haze is still to be expected as the ground has stored a lot
+of moisture and heavy evaporation from the sun is to be expected.
+
+![lesson_01b_weather_kobuleti](../img/Lesson01b_Kobuleti_WX.jpg)
+
+### Lesson 01b - Slots
+
+Caused by an accident on the taxiway "S" just before your flight, it was decided to close the
+taxiway.
+Therefore, a new temporary ramp position, which is located directly on the
+threshold runway 07, was established. You will take off from that location and then divert to
+Vaziani.
+
+![lesson_01b_temporary_ramp_rwy07](../img/Lesson01b_temporary_ramp_position.jpg)
+
+All remaining sorties for this afternoon will take-off from there.
+
+### Lesson 01b - Aircraft
+
+Your aircraft was pushed to the new temporary ramp position. It is "cold & dark", the nose is
+pointed towards the runway, and it is prepared and half fueled.
+The Dash-60 ground power unit is already in place left of your jet.
+
+![lesson_01b_ramp](../img/Lesson01b_jet_at_temporary_ramp_position.jpg)
+
+The technician responsible for the aircraft, also called the "crew chief", is already waiting
+in front of the aircraft and waiting to support the pilot. You will hear him on the intercom.
+
+![lesson_01b_crew_chief](../img/Lesson01b_crew_chief_at_temporary_ramp_position.jpg)
+
+By the way, the crew chief's assistant is standing by on your left side, next to the Dash-60 ground
+power unit. He is operating the unit, and everything the pilot request is in fact done by him,
+while the crew chief is directing, monitoring and the person in charge.
+
+![lesson_01b_crew_chief_assistant](../img/Lesson01b_crew_chief_assistant_at_temporary_ramp_position.jpg)
+
+You've just sat down on the rear ejection seat and are starting to check the cockpit. You may be
+thinking:
+"Damn, I'm totally blown away by what I see, but I guess I don't know what I'm doing ...".
+
+Don't worry, your instructor, who is also your pilot for today's flight, will guide you through the
+lesson!
+
+### Lesson 01b - Audio & text
+
+Your instructor speaks from the front seat, always listen carefully. Assume that everything he says
+is important. As an aid, all of the text he speaks is displayed at the top right of the screen. If
+you don't notice or understand something, you can always read it above. The text remains visible on
+the screen for a maximum of 1000 seconds until it either disappears or is replaced by new text.
+
+Note that whenever you missed one of the text messages, you can access the message log by pressing
+the key "Escape" and then selecting MESSAGES HISTORY and read after.
+
+### Lesson 01b - Tasks & steps
+
+The lessons are divided into tasks, which are based on the names of the procedures. These
+tasks are divided into individual steps, whereby the steps go hand in hand with the individual
+items in the procedure.
+The tasks for this lesson are:
+
+- Task 01: Accomplish the "BEFORE ELECTRICAL POWER" procedure
+- Task 02: Accomplish the "AFTER ELECTRICAL POWER" procedure
+- Task 03: Accomplish the "INTERIOR CHECK" procedure
+- Task 04: Accomplish the "BEFORE STARTING ENGINES" procedure
+- Task 05: Monitor the "STARTING ENGINES" procedure
+- Task 06: Accomplish the "INS FULL GYROCOMPASS ALIGNMENT" procedure
+- Task 07: Accomplish the "BEFORE TAXI" procedure
+- Task 08: Accomplish the "TAXI" procedure
+- Task 09: Accomplish the "BEFORE TAKEOFF" procedure
+- Task 10: Accomplish the "AFTER RUNWAY LINE-UP" procedure
+- Task 11: Accomplish the "TAKEOFF" procedure
+- Task 12: Accomplish the "AFTER TAKEOFF - CLIMB" procedure
+
+### Lesson 01b - Tips & tricks
+
+Here are some special tips for lesson 01b:
+
+- Task 1:
+  This task is to be accomplished by you alone, without big guidance from the pilot. Only for
+  a few steps he will say something, mostly these are steps that you just have to confirm.
+  Otherwise, he is busy on his own checklists ...
+- Task 5 (engine start):
+  Make sure you pull the throttle lever in the simulation back to "IDLE" position in order for
+  the lesson logic to continue. The background is the following: Users reported about problems
+  when performing this step. In all cases reported so far, the real throttle lever was pulled
+  back to (its) IDLE position, but the throttle lever in the simulation did not reach the
+  "IDLE" position, but became stuck a bit too far forward.
+  Therefore, please make sure that your real throttle levers are able to move the throttle levers
+   in the sim over the whole range:
+  - "MAX" (which is 100% RPM with full afterburner)
+  - "MIL" (which is 100% RPM without afterburner)
+  - "IDLE" (which is 65% RPM)
+  - "OFF" (which is fuel shut off)
+
+## Lesson 02 - (PILOT) Taxi
 
 ### Lesson 02 - Weather
 
@@ -339,7 +466,7 @@ Here are some special tips for lesson 02:
   levers to idle and carefully control the taxi speed using minimum power together with
   the wheel brakes.
 
-## Lesson 03 - Normal Takeoff
+## Lesson 03 - (PILOT) Normal Takeoff
 
 ### Lesson 03 - Weather
 
@@ -463,7 +590,7 @@ Here are some special tips for lesson 03:
   There is currently no way of comparing the values on both altimeters. This step was kept in
   the procedure just in case you need it when operating with a real WSO in the rear seat.
 
-## Lesson 04 - Visual approach
+## Lesson 04 - (PILOT) Visual approach
 
 ### Lesson 04 - Weather
 

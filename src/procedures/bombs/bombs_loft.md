@@ -1,5 +1,8 @@
 # Bomb Delivery - Loft
 
+For more details, refer to chapter
+[4.3.3.6.5 Lofting and Tossing](../../stores/air_to_ground/bombs/employment/lofting_tossing.md).
+
 | Step | System                 | Action          |
 | ---- | ---------------------- | --------------- |
 | 1    | (WSO) ACTIVATE SWITCH  | NORMAL          |

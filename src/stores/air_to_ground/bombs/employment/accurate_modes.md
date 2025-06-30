@@ -4,17 +4,13 @@
 
 One of the most accurate and easiest bombing modes to use is Dive Toss.
 
-It requires no specific setup or planning and can hence also be used for targets
-of opportunity. It requires a direct line of sight.
+It requires a direct line of sight and computing the right drag coefficient
+value for the WRCS.
 
 The pilot flies a dive attack on the target while the WSO obtains accurate
 target range information using the radar. Once the target is designated, the
 pilot simple holds down the Bomb Button and begins to gently pull out of the
 dive. Weapons automatically release at the right moment during the maneuver.
-
-![Dive Toss 1](../../../../img/divetoss.jpg)
-
-![Dive Toss 2](../../../../img/divetoss2.jpg)
 
 Dive Toss uses the [WRCS](../../../../systems/weapon_systems/wrcs.md) and
 [radar](../../../../systems/radar/overview.md) tracking, in conjunction with
@@ -23,6 +19,18 @@ target can be approached from any direction, airspeed, and dive angle, and the
 WRCS computes the proper release point relative to the acquired track, munition
 drag coefficient setting, and any release advance control input (in conjunction
 with [AWRU](../../../../systems/weapon_systems/awru.md) settings).
+
+> 💡 Since for a lot of dive attack profiles the drag coefficient value barely
+> changes (e.g. dropping conventional bombs from medium altitude, high speed and
+> steep angles), Dive Toss can be a very forgiving mode that is suitable to be
+> used against targets of opportunity with little setup or planning.
+>
+> The [Bombing Calculator Tool](../../../../dcs/bombing_computer.md) can be used
+> to compute the appropriate Drag Coefficient value.
+
+![Dive Toss 1](../../../../img/divetoss.jpg)
+
+![Dive Toss 2](../../../../img/divetoss2.jpg)
 
 ### Procedure
 
@@ -50,6 +58,11 @@ maximum precision.
 At the point where the bomb computed trajectory will intersect the target, the
 [WRCS](../../../../systems/weapon_systems/wrcs.md) provides the release signal,
 dropping rounds based on the settings chosen for number and interval.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-eHZRXwmELY?si=3GDLzXoZRFRXoiR1"
+title="How to (Actually) Drop Bombs In The F-4E" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Target Find - TGT FIND
 
@@ -79,3 +92,8 @@ solution are met.
 > 💡 TGT FIND with the Pave Spike is comparable to CCRP modes in newer aircraft.
 > Designate the target with the pod, hold down the bomb button and weapons
 > automatically release at the right moment.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FZNtAqOZGgA?si=sbQ7nQk2CZcFV6iA"
+title="DCS: F-4E Phantom: Pave Spike + Laser guided bombs Tutorial" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

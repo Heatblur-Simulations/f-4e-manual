@@ -75,10 +75,12 @@ release timing and count should be selected on the
 
 The Offset Visual IP attack commences on overflight of the VIP, with the
 aircraft at the desired release altitude and speed; as the aircraft overflies
-the VIP, the WSO simultaneously presses the Freeze Signal and Target Insert
-Signal buttons on the Cursor Control Panel; doing so initiates
-[INS](../../../../systems/nav_com/ins.md) target tracking. At this time, the
-vertical
+the VIP, the WSO presses the Freeze Signal button, followed by the Target Insert
+Signal button on the Cursor Control Panel; doing so initiates
+[INS](../../../../systems/nav_com/ins.md) target tracking. _Freeze_ memorizes
+the position under the radar cursor, which by default is the current aircraft
+position. _Insert_ then applies the entered offset data onto the memorized
+position to designate the target coordinates. At this time, the vertical
 [ADI](../../../../cockpit/pilot/flight_director_group.md#attitude-director-indicator),
 Sight,
 [BDHI](../../../../cockpit/wso/upfront_indicators.md#bearing-distance-heading-indicator-bdhi),

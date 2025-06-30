@@ -1,7 +1,7 @@
 # Front Section
 
 The front section of the left console houses the oxygen panel,
-throttle and engine related controls.
+throttle and engine-related controls.
 
 ## Left Utility Panel
 
@@ -38,8 +38,8 @@ This system is not installed on this variant of the F-4E.
 
 ### Supply Lever
 
-Two position switch (<num>6</num>) (ON and OFF) activating flow of oxygen to the mask.
-For further information see
+Two-position switch (<num>6</num>) (ON and OFF) activating flow of oxygen to the mask.
+For further information, see
 [3.7 Utility chapter, Oxygen section](../../../systems/utility.md#oxygen-system).
 
 ### Diluter Lever
@@ -56,7 +56,7 @@ if fire, toxic smoke or fumes occur in the cockpit.
 
 ### Emergency Lever
 
-Three position switch (<num>4</num>) which permits selection of NORMAL (standard supply),
+Three-position switch (<num>4</num>) which permits selection of NORMAL (standard supply),
 EMERGENCY pressure (100% oxygen with continuous positive pressure) or
 TEST MASK (positive pressure to test the face mask for leaks).
 
@@ -72,20 +72,20 @@ oxygen flow (white indicates inhalation).
 
 The oxygen pressure gauge (<num>7</num>) indicates oxygen supply pressure from 0 to 500 psi.
 
-For further information
+For further information,
 see [3.7 Utility chapter, Oxygen section](../../../systems/utility.md#oxygen-system).
 
 ### Oxygen Quantity Gauge
 
 The oxygen quantity gauge (<num>2</num>) has a range from
 0 to 10 liters. Loss of electrical power
-is indicated by appearance of a power off flag on the
+is indicated by the appearance of a power off flag on the
 instrument face.
 
 ### Oxygen Quantity Test Button
 
 The button (<num>1</num>) is used to test operation of the front
-and rear cockpit gauges along with operation of the low-oxygen
+and rear cockpit gauges, along with the operation of the low-oxygen
 warning system.
 
 With the button pressed, both gauge
@@ -115,7 +115,7 @@ controlling [de-icing function.](../../../systems/engines_and_fuel_systems/engin
 When in DE-ICE, the anti-icing air flow is enabled. In NORMAL, no anti-icing is provided.
 
 The system should only be used below high-mach numbers.
-At high-mach speeds the compressor inlet temperature is
+At high-mach speeds, the compressor inlet temperature is
 enough to prevent ice from building up.
 
 ### Communications Antenna Select Switch
@@ -141,7 +141,7 @@ The switch is a leftover and not connected.
 
 ### DVST Switch
 
-A two position switch (<num>4</num>) that selects which radar system is installed on this aircraft.
+A two-position switch (<num>4</num>) that selects which radar system is installed on this aircraft.
 
 - APS-107
 - APQ-120
@@ -174,11 +174,11 @@ the [AGM-65A Maverick and AGM-65B Maverick](../../../stores/air_to_ground/missil
 Three position switch (<num>2</num>) with automatic return to center used to start the
 respective engine using the cartridge (if loaded), left or right.
 See [engine system chapter](../../../systems/engines_and_fuel_systems/engines.md#cartridge-mode-starting)
-for further detail on when to use the cartridge start.
+for further details on when to use the cartridge start.
 
 ### CADC Static Pressure Compensator Correction Switch
 
-Three position switch (<num>3</num>), momentary in the RESET CORR position, used to correct or
+Three-position switch (<num>3</num>), momentary in the RESET CORR position, used to correct or
 disengage the Static Pressure Compensation of the altimeter, thus eliminating,
 or invoking, altimeter lag from rapid altitude changes.
 
@@ -192,15 +192,15 @@ or invoking, altimeter lag from rapid altitude changes.
 
 ![EngineMasterSwitches](../../../img/pilot_engine_master_switches.jpg)
 
-A pair of two position lever lock switches (<num>4</num>), separated by a guard to alleviate
+A pair of two-position lever lock switches (<num>4</num>), separated by a guard to alleviate
 erroneous command of the wrong switch, connects electrical power to the engine
 boost and transfer pumps for the respective engine when placed in the ON
 (forward) position. The connection to electrical power is external if the
-aircraft is connected to a ground crew provided generator, or the aircraft's
-battery if no external power available. Switching them to OFF (aft) position
+aircraft is connected to a ground crew-provided generator or the aircraft's
+battery if no external power is available. Switching them to OFF (aft) position
 will engage the fuel shutoff valves so long as the aircraft is not solely
 running on the internal electrical bus; otherwise, the valves will remain open,
-unless the engine throttle is placed into the cutoff position. For further Information see
+unless the engine throttle is placed into the cutoff position. For further Information, see
 [3.2.1 engines chapter](../../../systems/engines_and_fuel_systems/engines.md).
 
 ### Rudder Trim Switch
@@ -215,13 +215,13 @@ when pressed to the respective side, left or right.
 
 The throttle arrangement for each engine in the F-4E Phantom II is located on the front and rear
 cockpit left console. Mechanical linkage transmits throttle movement to the engine fuel control. A
-friction adjusting lever allows customization of throttle friction. Afterburner initiation occurs by
+friction-adjusting lever allows customization of throttle friction. Afterburner initiation occurs by
 shifting the throttles outboard and moving forward from the MIL position. The Afterburner gate can
 be adjusted in the special options of the module.
 
 Throttle movement is smooth and continuous, with afterburner modulation possible throughout the
-range. Moving throttles from IDLE to OFF closes the fuel shutoff valve, stopping fuel flow. To
-transition from OFF to IDLE or MIL, advance the throttles straight forward. Shifting throttles
+range. Moving the throttles from IDLE to OFF closes the fuel shutoff valve, stopping fuel flow. To
+transition from OFF to IDLE or MIL, advance the throttles straight forward. Shifting the throttles
 outboard allows movement from MIL to MAX, enabling forward motion in the afterburner range. For
 further information
 see [3.1.2 Engines chapter](../../../systems/engines_and_fuel_systems/engines.md#throttles).
@@ -265,14 +265,14 @@ air-to-air weapon relative to the Pinky Switch. For
 the [optical sight](../../../cockpit/pilot/dscg_controls.md#sight-mode-knob),
 the command activates the respective elevation and azimuth tracking, roll mark, and
 range functions of the reticle for the chosen weapon, without the pilot having
-to remove a hand from throttle or stick to swap the sight mode or weapon control
+to remove a hand from the throttle or stick to swap the sight mode or weapon control
 panel functions.
 
 ### Dispense Button
 
 ![pilot_throttle_cm_dispense](../../../img/pilot_dispense_button.jpg)
 
-When pressing the dispense button (<num>6</num>) chaff/flare dispensing is initiated as set on
+When pressing the dispense button (<num>6</num>), chaff/flare dispensing is initiated as set on
 [the CCU](../../../systems/defensive_systems/countermeasures.md#anale-40-countermeasures-system)
 and [AN/ALE-40 programmer](../../../systems/defensive_systems/countermeasures.md#anale-40-countermeasures-system)
 if the flaps and speed brakes are retracted and the flares select switch is set to NORMAL.
@@ -284,10 +284,10 @@ is set to FLARES.
 
 ![pilot_speed_brake](../../../img/pilot_speed_brake.jpg)
 
-The Speed Brakes are actuated by a three position switch (<num>4</num>) found on the inboard
+The Speed Brakes are actuated by a three-position switch (<num>4</num>) found on the inboard
 throttle in both cockpits. Either switch will actuate the brakes. The positions
 are Out, Stop, and In; the Out position is momentary and reverts back to Stop when released.
-For further information see
+For further information, see
 [3.1.2 Flight Control Surfaces chapter](../../../systems/flight_controls_gear/flight_controls.md#speed-brakes).
 
 ### Mic Switch
@@ -296,15 +296,15 @@ For further information see
 
 The microphone switch (<num>2</num>) for the [Intercom System](../../../systems/nav_com/intercom.md)
 is the aft
-position on the inboard throttle grip in both cockpits. When using the intercom, all audio sans the
-pull-up tone, stall warning, and ECM are reduced (same as RADIO OVERRIDE). In the fwd position the
-switch will enable transmitting over radio.
+position on the inboard throttle grip in both cockpits. When using the intercom, all audio, sans the
+pull-up tone, stall warning, and ECM, is reduced (same as RADIO OVERRIDE). In the fwd position, the
+switch will enable transmitting over the radio.
 
 ### Pinky Switch
 
 ![pilot_pinky_switch](../../../img/pilot_throttle_pinky_switch.jpg)
 
-The guns/missile (pinky switch) is a four position switch (<num>7</num>) which performs the weapon
+The guns/missile (pinky switch) is a four-position switch (<num>7</num>) which performs the weapon
 select function
 for guns(aft), radar(fwd) and heat missiles(center) and performs station select functions(up) for
 the heat missile. The UP position is a spring-loaded position.

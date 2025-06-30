@@ -24,19 +24,19 @@ clockwise increases brightness, counterclockwise decreases.
 
 ### Scale Knob
 
-Located on the top right, above the glare shield, controls brightness of the
+Located on the top right, above the glare shield, controls the brightness of the
 bezel range scales surrounding the DSCG display;
 clockwise increases brightness, counterclockwise decreases.
 
 ### H - Home on Jam Lamp
 
-Light inside the top left corner of the glare shield, illuminates
+Light inside the top left corner of the glare shield, it illuminates
 when the radar has achieved angle tracking in Home on Jam mode.
 
 ### T - Track Lamp
 
-Light inside the top right corner of the glare shield, illuminates when a
-standard radar lock on is achieved. Will go out in the event
+Light inside the top right corner of the glare shield, it illuminates when a
+standard radar lock-on is achieved. Will go out in the event
 the radar falls back to memorized range and rate information should the lock be
 lost.
 
@@ -101,8 +101,8 @@ and roll within 2.5 degrees in either direction.
 Azimuth and Elevation can best be calibrated in the 12-VIS mode, while roll is
 best calibrated in 9-VIS.
 
-> 💡 Normally the Pod is correctly calibrated by the ground crew before getting
-> into the plane, but can drift due to combat damage or high G maneuvers in which case a
+> 💡 Normally, the Pod is correctly calibrated by the ground crew before getting
+> into the plane, but can drift due to combat damage or high G maneuvers, in which case a
 > recalibration
 > by the WSO is needed.
 
@@ -114,7 +114,7 @@ for details.
 Alternating presses (<num>5</num>) un-stows and stows the Pave Spike pod head. The head is
 stowed when the button is illuminated.
 
-When un-stowed, the pod will move accordingly to the selected acquisition mode.
+When unstowed, the pod will move accordingly to the selected acquisition mode.
 
 To prevent damage to the system, the pod must be stowed during takeoff, landing
 and any High-G maneuvers.
@@ -128,15 +128,15 @@ and any High-G maneuvers.
 Pushing the button (<num>6</num>) enables designator laser firing if illuminated after pressing.
 
 Light remains off if interlocks (nose gear up and all pod functions working)
-inhibit use. Subsequent press deactivates laser system.
+inhibit use. Subsequent press deactivates the laser system.
 
 ### Power On Button
 
 Applies (<num>7</num>) power to the targeting pod when pressed and released. Selected again to
-power off targeting pod. Button lamp will turn off once head is stowed.
+power off the targeting pod. The button lamp will turn off once the head is stowed.
 
 To prevent damage to the system, whenever equipped, power to the system should
-be turned on even when not using the pod.
+be turned on even when the pod is not in use.
 
 ### BIT Selector Button
 
@@ -156,15 +156,15 @@ lamp.
 ### Reject/Override Button
 
 When the pod detects a too huge discrepancy between the laser measured slant
-range and the INS based computed ranged, it automatically rejects former and
-prefers latter.
+range and the INS-based computed ranged, it automatically rejects the former and
+prefers the latter.
 
 In this case, the button (<num>10</num>) can be used to force the use of the laser measured
 slant range instead.
 
 ### Acquisition Mode Selector Switch
 
-Three position switch (<num>11</num>) determining the pods main operation mode.
+Three-position switch (<num>11</num>) determining the pod's main operation mode.
 
 | Name                                         | Description                                                                                                                                                                         |
 |----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -195,10 +195,10 @@ To prevent damage, turn off the pod and give it some time to cool before further
 use. Ignoring the lamp will cause parts of the pod to melt, damaging it
 irreparably.
 
-To prolong use of the pod and prevent overheating, limit slow and low-level
-flight, as well as continuous use of the laser. As a rule-of-thumb, do not use
+To prolong the use of the pod and prevent overheating, limit slow and low-level
+flight, as well as continuous use of the laser. As a rule of thumb, do not use
 the laser for longer than 15 minutes without allowing for cooling between uses.
-Limit continued slow and low level flight while operating the pod to 30 minutes.
+Limit continued slow and low-level flight while operating the pod to 30 minutes.
 For extreme outside temperatures, adjust the limits accordingly.
 
 ### INS Out
@@ -213,7 +213,7 @@ disintegrated by other means.
 
 ![wso_pedal_crank](../../img/wso_rudder_adjust.jpg)
 
-Used to adjust ergonomic position of the rudder pedals forward or back from the
+Used to adjust the ergonomic position of the rudder pedals forward or back from the
 WSO.
 
 Requires 12 full turns to move the pedals across the entire range.

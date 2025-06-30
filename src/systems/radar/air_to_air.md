@@ -4,6 +4,11 @@ Radar operation for Air-To-Air includes the RDR-B and MAP-B modes, along with
 the BST mode. RDR-B and MAP-B can be used with automatic search and BST mode can
 be used as a close range mode to cue a target on the boresight.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fQVMWn5AfIE?si=oPSyCqubACwH4GYb"
+title="F-4E: Stop struggling in Air-to-Air" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Automatic Search
 
 During automatic search, the antenna moves back and forth in the radar plane.
@@ -34,6 +39,11 @@ Below shows the usual symbology present in Automatic Search and Boresight Modes.
 | c    | Antenna Elevation | Shows antenna elevation (in degrees) relative to the radar plane, or aircraft if the [Stab Switch](interface.md#stab-switch) is in OUT. This can be moved with the Antenna Hand Control elevation wheel.                                                                                                                                                                                           |
 | d    | Radar Grid        | Left and right vertical lines show 30 degrees left and 30 degrees right. This measurement is relative to the radar plane with the [Stab Switch](interface.md#stab-switch) in NOR or DRIFT OUT and relative to the aircraft with the [Stab Switch](interface.md#stab-switch) in OUT. Each horizontal line marks a scale where the gaps are `1/5` of the current range setting of the display. |
 | e    | Horizon Line      | Shows the horizon line, only present with [Stab Switch](interface.md#stab-switch) in NOR or DRIFT OUT                                                                                                                                                                                                                                                                                              |
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-_oGXnEfyOs?si=5_YbDn9i-zt-aaIX"
+title="DCS F-4E APQ-120 - Radar Cross-Section and Detection range" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Acquisition
 
@@ -137,6 +147,11 @@ The Home On Jam condition is also indicated by the engraved H on the WSO DSCG an
 the last zero digit of the closure velocity is replaced by a H along with the
 closure rate flashing.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vWZdx80szrI?si=2NpjXEZeiwxmf-Hr"
+title="DCS F-4E APQ-120 - Jamming effects" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Spotlight
 
 In the 100 and 200 mile ranges, a procedure known as Spotlight can be used to
@@ -215,6 +230,11 @@ types:
    maneuvers.
 
 ![manual_radar_air_to_ground_mode](../../img/aim_dot_steering.jpg)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZZJ8sprm-Ws?si=jSteM5NIHwmnIay8"
+title="DCS F-4E Air-to-Air II: Aim Dot Intercept" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Shoot/In Range Lights
 
@@ -297,18 +317,23 @@ target. If that is the case, the pilot must position the target on the gunsight 
 the WSO can select an appropriate [aspect setting](interface.md#aspect). The
 Sparrow can now be fired.
 
-> 💡 Targets need to be within a 5 degree zone or an attempted lock will likely
+> 💡 Targets need to be within a 5-degree zone, or an attempted lock will likely
 > result in a bad lock.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/krnmdPE_xUc?si=vbXN8f1dDDsRO8K6"
+title="DCS F-4E - Boresight Mode, AIM-7 and Speedgates" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Cage Condition
 
 The cage condition is a close combat mode which can be entered at any time by
-depressing the CAGE Button on the pilot throttle. This by default puts the radar
+depressing the CAGE Button on the pilot throttle. This, by default, puts the radar
 into boresight as described above.
 
 ![Cage Mode](../../img/radar_cage_mode.jpg)
 
-When the cage condition is present the following changes happen:
+When the cage condition is present, the following changes happen:
 
 - Air-To-Air light in the rear pit illuminates.
 - Trigger control is transferred to the air-to-air weapons (including when ARM
@@ -318,7 +343,7 @@ When the cage condition is present the following changes happen:
 
 If a track condition exists before the CAGE Button is pressed and the pinky
 switch on the throttle is in RADAR or HEAT, the radar breaks track and returns
-to boresight. If pinky switch is in GUNS, the lock is not broken.
+to boresight. If the pinky switch is in GUNS, the lock is not broken.
 
 Cage mode can be exited from either cockpit. The pilot can place the Weapon
 Select Knob into or out of the B position. If the pilot leaves the Weapon Select
@@ -327,7 +352,7 @@ cage mode by pressing the [Air To Air Button](interface.md#air-to-air-button).
 
 ### Computer Automatic Acquisition Mode (CAA)
 
-Once in Cage mode, the radar can be selected in to Computer Automatic
+Once in Cage mode, the radar can be selected into Computer Automatic
 Acquisition using the Nose Gear Steering button on the stick.
 
 In CAA, the radar enters a vertical-oriented scan pattern 78 degrees in height

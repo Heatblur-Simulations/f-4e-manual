@@ -75,7 +75,7 @@ respectively.
 
 ![CCP](../../../img/pilot_comm_control_panel.jpg)
 
-The Communication Control Panel provides selection and mode of
+The Communication Control Panel provides the selection and mode of
 the [UHF radio](../../../systems/nav_com/uhf.md) in the aircraft.
 
 ### Command Buttons
@@ -95,7 +95,7 @@ Beneath the COMM CMD button is the radio volume (<num>11</num>) for the respecti
 
 ### Squelch Switch
 
-Close to the NAV CMD button is the Squelch switch (<num>6</num>), which enables or disables receiver
+Close to the NAV CMD button is the Squelch switch (<num>6</num>), which enables or disables the receiver
 squelch.
 
 ### Frequency and Channels
@@ -171,7 +171,7 @@ radio system.
 
 ![pilot_utility_panel](../../../img/pilot_utility_panel.jpg)
 
-The utility panel features an emergency vent handle for releasing over pressure in the cockpit.
+The utility panel features an emergency vent handle for releasing overpressure in the cockpit.
 Furthermore, it features the Defog/Foot Heat Lever as well as the Generator control switches.
 
 ## Cooling Reset Button
@@ -187,7 +187,7 @@ Resets the CNI cooling system.
 ### Cockpit Altitude Gauge
 
 Displays the current pressure inside the cockpit as a means of equivalent effective
-cabin altitude above mean sea level in 1000 of feet.
+cabin altitude above mean sea level in thousands of feet.
 
 That is, if the gauge (<num>2</num>) reads 5, the pressure inside the cabin is equivalent to an
 altitude
@@ -215,7 +215,7 @@ seal the cabin again.
 Without pressurization, the effective cabin altitude will be identical to the
 current altitude. Which, if flying at high altitudes, can result in hypoxia.
 
-Should only be used if the pressurization system is malfunctioning and reads
+It should only be used if the pressurization system is malfunctioning and reads
 abnormal values, or to eliminate smoke and fumes from the cockpit. Descend to safe altitudes before
 activating.
 
@@ -233,22 +233,22 @@ below the dew-point, with resultant cockpit fogging. This fog can be dissipated 
 slightly warmer temperature.
 
 When operating in high humidity conditions, it is recommended that a
-warmer than normal temperature be selected, prior to starting the takeoff run, to preclude the
+temperature warmer than normal is selected, prior to starting the takeoff run, to preclude the
 possibility of cockpit fogging as thrust is increased. Should cockpit fogging occur, the quickest
 means of eliminating this condition is by activating the emergency vent knob.
 
 During cruise
 operations, prior to letdown, place the temperature control knob in the 2 o’clock position and the
-Defog/Foot Heat Lever to defog, to increase the defog temperature for windshield and canopy
+Defog/Foot Heat Lever to defog, to increase the defog temperature for the windshield and canopy
 preheating. For airplanes without slats, if the flaps are lowered for letdown and fogging persists,
 retract the flaps or increase power (use speed brakes as necessary to maintain airspeed) to provide
 higher defogging air flow.
 
 ## Rain Removal Switch
 
-If the two position switch (<num>3</num>) is activated, bleed air from the engine is rerouted around
+If the two-position switch (<num>3</num>) is activated, bleed air from the engine is rerouted around
 the canopy
-to blow away any rain drops.
+to blow away any raindrops.
 
 The system should not be used during dry conditions, as the hot air will
 heat up the windshield. If the glass reaches critical temperatures,
@@ -283,5 +283,5 @@ by an individual switch.
 | OFF           | Generator is offline.                                                               |
 | ON (EXTERNAL) | External power is supplied through generator bus connection for pre-startup needs.  |
 
-For further information see
+For further information, see
 the [3.8 Electrics chapter.](../../../systems/electrics.md#generator-control-switches)

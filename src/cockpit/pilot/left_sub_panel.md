@@ -33,7 +33,7 @@ gear up, down for gear down.
 Pulling the handle out will actuate the Emergency Mode and release the gear by
 using a pair of compressed air bottles.
 
-> 💡 The gear can not be retracted on ground.
+> 💡 The gear can not be retracted on the ground.
 
 ## Landing Gear Position Indicators
 
@@ -58,8 +58,8 @@ in transition.
 
 ![BoostInd](../../img/pilot_boost_pump_indicators.jpg)
 
-A pair of indicators provide confirmation of fuel boost pump operation.
-Indicators are calibrated 0 to 5, which must be multiplied by 10 to read in
+A pair of indicators provides confirmation of fuel boost pump operation.
+Indicators are calibrated from 0 to 5, which must be multiplied by 10 to read in
 current PSI.
 
 ## Stabilator Trim Indicator
@@ -83,7 +83,7 @@ down and locked for the switch to function
 ![EmerRel](../../img/pilot_external_stores_emergency_release.jpg)
 
 Also called the "_panic button_", the External Stores Emergency Release will
-immediately perform separation of all stores, without [air-to-air
+immediately perform the separation of all stores, without [air-to-air
 weapons](../../stores/air_to_air/overview.md) or special weapons.
 
 ## Aileron Rudder Interconnect (ARI) Circuit Breaker
@@ -102,6 +102,6 @@ for further information.
 ![EBrake](../../img/pilot_emergency_brake_handle.jpg)
 
 Pulling this handle activates the Emergency Hydraulic Brake System, dumping the remaining pressure
-of the hydraulic accumulator in to the brake system for a limited number of brake applications. Note
+of the hydraulic accumulator into the brake system for a limited number of brake applications. Note
 that differential braking will work as normal, but will also serve to exhaust hydraulic pressure
 more quickly.

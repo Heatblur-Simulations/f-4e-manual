@@ -2,7 +2,7 @@
 
 ![aim7](../../img/aim7.jpg)
 
-The AIM-7 is a semi active radar missile with a maximum launch range of approx.
+The AIM-7 is a semi-active radar missile with a maximum launch range of approx.
 26 nautical miles.
 
 Originally designated the AAM-N-6 Sparrow III, the AIM-7 Sparrow saw initial
@@ -31,8 +31,13 @@ minute. After successful tuning, the
 can be returned to the STBY (Standby) position. The status lamps will turn off
 once returned to STBY. Once in the combat area, the
 [RDR MSL switch](../../cockpit/pilot/weapon_management.md#radar-missile-power-switch)
-should be returned to the CW ON position, to maintain proper missile tuning
+should be returned to the CW ON position to maintain a proper missile tuning
 state during the engagement.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cdEnnWH3VTA?si=Swkt85oudtjBZDGE"
+title="Air to Air Weapons Set up and Employment | DCS World F-4 Phantom" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Employment
 
@@ -43,20 +48,20 @@ Boresight Line in the window. The roll tabs function to provide the pilot with
 relative roll attitude guidance in instrument conditions (weather or nighttime),
 and the right side of the 50 mil diameter circle (outer) functions as a range
 bar when a radar lock is achieved against a target, displaying ranges up to
-20,000' (top) to 3000' (bottom), with 12,000' signified at the 3 o-clock
+20,000' (top) to 3000' (bottom), with 12,000' signified at the 3 o'clock
 position. It is also possible to employ an AIM-7 using the ACM Mode via pressing
-the Cage Button first and than pressing the CAA Button to accomplish a lock.
+the Cage Button first, and then pressing the CAA Button to accomplish a lock.
 
 ![range_bar_radar_guided_missile](../../img/radar_missile_lock.jpg)
 
 When radar lock against a target is achieved with AIM-7 selected, a pair of
-strobes surround the locked target in azimuth. Identified as Rmax and Rmax 2,
-they represent effective ranges against a 1 G target (Rmax), and a high rate
+strobes surrounds the locked target in azimuth. Identified as Rmax and Rmax 2,
+they represent effective ranges against a 1 G target (Rmax), and a high-rate
 maneuvering target based on altitude (Rmax 2, representing 8G up to 20k, 6G to
 35k, and 4G above 35,000'). When a missile is launched, the Rmax 2 strobe falls
 to the bottom of the display, and begins driving upwards towards the target
 lock; this functions as a missile flyout timer. When the timer reaches the
-locked target, it can be assumed the missile has arrived. The display does not
+locked target, it can be assumed that the missile has arrived. The display does not
 provide Rmin, but instead reverts to a break X warning superimposed over the
 radar image should Rmin be attained for a Sparrow launch.
 
@@ -64,7 +69,7 @@ radar image should Rmin be attained for a Sparrow launch.
 
 Prior to engagement, a determination must be made as to whether or not the
 missile [interlocks](../../cockpit/pilot/weapon_management.md#interlock-switch)
-will be kept in, or positioned out. The interlocks preclude an AIM-7 shot when
+will be kept in or positioned out. The interlocks preclude an AIM-7 shot when
 outside of effective firing parameters, those being the missile in range
 (illuminating the
 [IN RANGE light](../../cockpit/pilot/dscg_controls.md#in-range-light)), the
@@ -72,7 +77,7 @@ target aim dot within the ASE (Allowable Steering Error) circle on the radar
 display, and the radar display mode out of VI (Vis-Ident mode).
 
 With the [interlocks](../../cockpit/pilot/weapon_management.md#interlock-switch)
-in, should any of the three aforementioned restrictions be met - target out of
+in, should any of the three aforementioned restrictions are met - target out of
 range, aim dot outside the ASE, or the radar left in VI, a trigger actuation
 will not cause the release of a missile. With
 [interlocks](../../cockpit/pilot/weapon_management.md#interlock-switch) out, an
@@ -110,7 +115,7 @@ With the target in parameters or
 [interlocks](../../cockpit/pilot/weapon_management.md#interlock-switch) out,
 pressing the trigger fires off an AIM-7. A second AIM-7 can be fired immediately
 at the same target, if desired, by releasing, then squeezing the trigger a
-second time- holding it on the second actuation.
+second time, holding it on the second actuation.
 
 ## Launch Sequence
 
@@ -139,10 +144,10 @@ Phantom:
 
 | Type | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 7E   | The E variant was an early version of the Sparrow missile, entering service in the 1960s, which uses proportional navigation and Semi Active Radar Homing to guide.                                                                                                                                                                                                                                                                                                                                     |
-| 7E2  | Changes were made to improve the performance in close range dogfight situations, at the expense of energy retention in longer ranged engagements. Fuzing time is also reduced allowing for proper fuzing in close engagements.                                                                                                                                                                                                                                                                          |
-| 7F   | The F Sparrow was upgraded to be solid state, have a higher performance two stage motor (boost and sustainer) and have improved electronics including the ability to coast targets through the main lobe clutter and altitude lines. These changes also make the seeker able to detect targets from further range and with increased countermeasure resistance and track using both continuous wave and pulse doppler guidance signals unlike the E, E2 and E3 which can only guide on continuous wave. |
-| 7M   | The M was the first inverse mono-pulse Sparrow providing increased tracking precision, it also has improved motor performance and electronics, including improved clutter and countermeasure rejection. The M like all Sparrows can also guide using continuous wave, at a degraded tracking precision.                                                                                                                                                                                                 |
+| 7E   | The E variant was an early version of the Sparrow missile, entering service in the 1960s, which uses proportional navigation and Semi-Active Radar Homing to guide.                                                                                                                                                                                                                                                                                                                                     |
+| 7E2  | Changes were made to improve the performance in close range dogfight situations, at the expense of energy retention in longer ranged engagements. Fuzing time is also reduced, allowing for proper fuzing in close engagements.                                                                                                                                                                                                                                                                          |
+| 7F   | The F Sparrow was upgraded to be solid state, have a higher-performance two-stage motor (boost and sustainer) and have improved electronics, including the ability to coast targets through the main lobe clutter and altitude lines. These changes also make the seeker able to detect targets from further range and with increased countermeasure resistance and track using both continuous wave and pulse doppler guidance signals, unlike the E, E2 and E3, which can only guide on continuous wave. |
+| 7M | The M was the first inverse mono-pulse Sparrow, providing increased tracking precision. It also has improved motor performance and electronics, including improved clutter and countermeasure rejection. The M, like all Sparrows, can also guide using continuous wave, at a degraded tracking precision.                                                                                                                                                                                                 |
 
 Below is a very basic comparative summary of each Sparrow's performance in some
 general areas, whereas 🟢 means _good_, 🟨 _fair_ and 🔺 _poor_.
@@ -154,6 +159,6 @@ general areas, whereas 🟢 means _good_, 🟨 _fair_ and 🔺 _poor_.
 | AIM-7F  | 🟨     | 🟢    | 🟢       | 🟨                                        |
 | AIM-7M  | 🟢     | 🟢    | 🟢       | 🟢                                        |
 
-> 💡 Technically, the E2 has the same maximal range than the E. However, due to
-> its maneuvering-behavior, that range lessens for anything but a dead straight
+> 💡 Technically, the E2 has the same maximal range as the E. However, due to
+> its maneuvering behavior, the range lessens for anything but a dead straight
 > shot.
