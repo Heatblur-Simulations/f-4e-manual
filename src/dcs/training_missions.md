@@ -22,7 +22,7 @@ cockpit" and not as a "basic flying training".
 
 ## Your way through
 
-Due to the design, systems and age of the jet, it has many pecularities. Precise application of
+Due to the design, systems and age of the jet, it has many peculiarities. Precise application of
 system knowledge in daily duty on this wonderful aircraft is the key to success. With the F-4E
 Phantom II you will be challenged in so many ways. So be ready! We leave it up to you whether you
 want to get in the air immediately without studying the manual, or whether you want to read upon it
@@ -66,7 +66,7 @@ us a lot of headaches.
 In any case, we spared no expense, effort and discussions to serve both types of players more or
 less "equally". As you can imagine, such a project is not entirely trivial, and you have to make a
 lot of compromises when designing the lessons. Sometimes, you have to tell hardliners: "Hey, this
-might be too difficult for the players and not really relevant to the simulation, eventhough it
+might be too difficult for the players and not really relevant to the simulation, even though it
 would be extra cool!" You have to convince other team members to do things they personally don't
 like: Hey, that's exactly what the players need, but a little different please!
 
@@ -114,45 +114,47 @@ Here are some general tips & tricks as created by testers during the testing pha
 ![training_tips_illumination_pic](../img/training_mission_cockpit_lights.jpg)
 
 - Set the SYSTEM option "Cockpit Global Illumination" to ON
-- Set the SYSTEM option "Gamma" to 2.0 or higher values.
+- Set the SYSTEM option "Gamma" to 2.2 or higher values.
 - Set the SYSTEM option "Shadows" off as the very last resort.
+
+## Time acceleration
+
+The influence of the time acceleration function on the stability of the lessons is not documented properly,
+but to be on the safe side we advise against using the time acceleration function because anyway the lessons
+do not contain phases in which nothing happens for a long time.
 
 ## Lesson got stuck
 
-There are situations in which the triggers of a lesson no longer work properly for some reason.
-Fortunately, this only happens very rarely! This usually results in the highlights (the
-yellow helper boxes) no longer being shown or hidden correctly, or the logic circuits no longer
-reacting correctly to events in the simulation. We experienced this ourselves during the testing
-phase from time to time, and we would like to at least inform you about here and now.
+There are situations in which you feel the lesson does not continue, no no longer works properly for some reason.
+Fortunately, this happens very rarely!
 
-The influence of the time acceleration function on the stability of the lessons is not documented,
-but to be on the safe side we advise against using the time acceleration function.
-
-If you got stuck in a lesson, you should take the following measures:
+Nevertheless, if you got stuck in a lesson, you should take the following measures:
 
 - Stay calm!
 
 - Check whether everything in the aircraft is actually set up as required according to the
-  checklist/procedure. If necessary, check each of the previous steps individually and carefull,
+  checklist/procedure. If necessary, check each of the previous steps individually and carefully,
   starting from the top by asking yourself the following questions:
   "What is written in the procedure/checklist/book?" and "How did I set it up?"
+  A good example is the Slats/Flaps Control Switch, which often causes trouble;
+  it has three distinct positions ("OFF", "SLATS OUT", "SLATS OUT & FLAPS DOWN"), not only two!
 
 - If that doesn't help:
-  Jump back one - or if necessary - a few steps (if that lesson supports jumping back via the comms
-  menu > F-10 Other ...).
+  Jump back one - or if necessary - a few steps (if that lesson supports jumping back via the COMMS
+  menu > F-10 Other ...). Not all procedures/steps allow for jumping back.
 
 - If that doesn't help either:
-  Jump back to the beginning of the procedure (if that lesson supports jumping back via the comms
-  menu > F-10 Other ...).
+  Jump back to the beginning of the procedure (if that lesson supports jumping back via the COMMS
+  menu > F-10 Other ...). Not all procedures/steps allow for jumping back.
 
 - If all that doesn't help:
   - Quit the mission and save the DEBRIEFING (log-file) and the TRACK (trk-file) in the
     debriefing screen
   - If you suspect a bug, please open a new ticker in the DCS forum > Heatblur Simulations >
-    Phantom area using this link: <https://forum.dcs.world/forum/919-dcs-f-4-phantom/>. Please
-    add as much information as possible in order to help us finding a possible issue. Thank
-    you for your support!
-  - In any case, we recommend to restart DCS and fly the mission again. Sorry for that!
+    Phantom > Problems area using this link: <https://forum.dcs.world/forum/1237-bugs-problems/>.
+    Please add as much information as possible in order to help us finding a possible issue.
+    Thank you in advance for your efforts!
+  - In any case, we recommend to fly the mission again. Sorry for that!
 
 ## Training area: Kobuleti (UG5X) airfield
 
@@ -384,7 +386,7 @@ Here are some special tips for lesson 01b:
 
 ### Lesson 02 - Weather
 
-The weather changes slowly but noticeably. The clouds start breaking up, and the forcast
+The weather changes slowly but noticeably. The clouds start breaking up, and the forecast
 regarding the ground-level haze was correct. Wind speed and direction haven't changed so far.
 
 ![weather_lesson2](../img/Lesson02_Kobuleti_WX.jpg)
@@ -393,8 +395,8 @@ regarding the ground-level haze was correct. Wind speed and direction haven't ch
 
 Slots haven't changed.
 
-- #1 Dodge 41 (AI, already on ground, refuelling)
-- #2 Dodge 31 (AI, already on ground, refuelling)
+- #1 Dodge 41 (AI, already on ground, refueling)
+- #2 Dodge 31 (AI, already on ground, refueling)
 - #3 Dodge 21 & 22 (AI, at the start)
 - #4 Dodge 11 (you, at parking position #25)
 
@@ -584,7 +586,7 @@ Here are some special tips for lesson 03:
 - After reaching a certain altitude and airspeed with gear and flaps up, the lesson is
   accomplished. You may continue the climb following the route which is commanded by your
   instructor. If you got "lost in space", open up the F-10 map, click on your aircraft, and
-  observe the planned flightroute; you may then follow it more easily.
+  observe the planned route; you may then follow it more easily.
 
 - Task 6 > Step 1d:
   There is currently no way of comparing the values on both altimeters. This step was kept in
@@ -705,9 +707,9 @@ Here are some special tips for lesson 04:
   to 3° approach path, you WILL slam the aircraft into the runway. This causes wear to the wheels
   and the landing gear legs, but nothing more. You may decide on your own if you want to flare just
   a bit to decrease the sink rate slightly. Sink rates above 3 to 4 m/s (600 to 700 ft/min)
-  depending on weight, might damage the landing gear though.
+  depending on mass, might damage the landing gear though.
 - Landing / touchdown:
-  Make sure to stay aligned with the centerline using rudder only. Prepare yourself to deploy the
+  Make sure to stay aligned with the center-line using rudder only. Prepare yourself to deploy the
   drag chute, which stabilizes the aircraft during the landing roll. Taxi to the end of the runway
   and then leave it to the right side!
 - Taxi:
