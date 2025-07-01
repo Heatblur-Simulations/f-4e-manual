@@ -292,16 +292,16 @@ General Key:
 
 | Seeker       | CH-SA-4 (HQ-7) |
 | ------------ | :------------: |
-| Mk 22        |       TR       |
-| Mk 23        |    (SR)/TR     |
-| Mk 24 Mod 5  |       TR       |
-| Mk 24 Mod 34 |       TR       |
-| Mk 25        |       TR       |
-| Mk 36        |       TR       |
-| Mk 37        |       TR       |
-| Mk 49 Mod 0  |       TR       |
-| Mk 49 Mod 1  |       TR       |
-| Mk 50        |    (SR)/TR     |
+| Mk 22        |                |
+| Mk 23        |      (SR)      |
+| Mk 24 Mod 5  |       SR       |
+| Mk 24 Mod 34 |                |
+| Mk 25        |                |
+| Mk 36        |                |
+| Mk 37        |                |
+| Mk 49 Mod 0  |                |
+| Mk 49 Mod 1  |                |
+| Mk 50        |      (SR)      |
 
 ##### Combined NATO and Warsaw Pact Anti-Aircraft Artillery (AAA) radars
 
@@ -339,33 +339,33 @@ General Key:
 
 ##### Soviet Naval Threats
 
-| Seeker       |  Kirov  |  Slava  | Kuznetsov | Molniya | Grisha  | Krivak  | Neustrashimy | Ropucha |
-| ------------ | :-----: | :-----: | :-------: | :-----: | :-----: | :-----: | :----------: | :-----: |
-| Mk 22        |   TR    |  (TR)   |    TR     |         |   TR    |   TR    |     (TR)     |         |
-| Mk 23        | (SR/TR) | (SR/TR) |  (SR/TR)  |  SR/TR  |  (TR)   |  (TR)   |   (SR/TR)    |         |
-| Mk 24 Mod 5  |  SR/TR  |   TR    |   SR/TR   |  SR/TR  |   TR    |  (TR)   |   (SR/TR)    |         |
-| Mk 24 Mod 34 |  (TR)   |  (TR)   |   (TR)    |         |   TR    |  (TR)   |      TR      |         |
-| Mk 25        |   TR    |   TR    |    TR     |         |   TR    |   TR    |      TR      |         |
-| Mk 36        | (SR/TR) | (SR/TR) |  (SR/TR)  |  SR/TR  |   TR    |  (TR)   |   (SR/TR)    |         |
-| Mk 37        |   TR    |   TR    |    TR     |         |   TR    |   TR    |      TR      |         |
-| Mk 49 Mod 0  |  (TR)   |  (TR)   |   (TR)    |         | (SR/TR) | (SR/TR) |     (TR)     |         |
-| Mk 49 Mod 1  |  (TR)   |  (TR)   |   (TR)    |         | (SR/TR) | (SR/TR) |     (TR)     |         |
-| Mk 50        | (SR/TR) | (SR/TR) |  (SR/TR)  |  SR/TR  |  (TR)   |  (TR)   |   (SR/TR)    |         |
+| Seeker       |   Kirov   |   Slava   | Kuznetsov | Molniya |  Grisha   |  Krivak   | Neustrashimy | Ropucha |
+| ------------ | :-------: | :-------: | :-------: | :-----: | :-------: | :-------: | :----------: | :-----: |
+| Mk 22        |    TR     |   (TR)    |    TR     |         |    TR     |    TR     |     (TR)     |         |
+| Mk 23        | (SR)/(TR) | (SR)/(TR) | (SR)/(TR) |  SR/TR  |   (TR)    |   (TR)    |  (SR)/(TR)   |         |
+| Mk 24 Mod 5  |   SR/TR   |    TR     |   SR/TR   |  SR/TR  |    TR     |   (TR)    |  (SR)/(TR)   |         |
+| Mk 24 Mod 34 |   (TR)    |   (TR)    |   (TR)    |         |    TR     |   (TR)    |      TR      |         |
+| Mk 25        |    TR     |    TR     |    TR     |         |    TR     |    TR     |      TR      |         |
+| Mk 36        | (SR)/(TR) | (SR)/(TR) | (SR)/(TR) |  SR/TR  |    TR     |   (TR)    |  (SR)/(TR)   |         |
+| Mk 37        |    TR     |    TR     |    TR     |         |    TR     |    TR     |      TR      |         |
+| Mk 49 Mod 0  |   (TR)    |   (TR)    |   (TR)    |         | (SR)/(TR) | (SR)/(TR) |     (TR)     |         |
+| Mk 49 Mod 1  |   (TR)    |   (TR)    |   (TR)    |         | (SR)/(TR) | (SR)/(TR) |     (TR)     |         |
+| Mk 50        | (SR)/(TR) | (SR)/(TR) | (SR)/(TR) |  SR/TR  |   (TR)    |   (TR)    |  (SR)/(TR)   |         |
 
 ##### Chinese Naval Threats
 
 | Seeker       | Type 052B | Type 052C | Type 054A | Type 071 |
 | ------------ | :-------: | :-------: | :-------: | :------: |
-| Mk 22        |    TR     |           |    TR     |          |
-| Mk 23        |  (SR/TR)  |  (SR/TR)  |  (SR/TR)  |          |
-| Mk 24 Mod 5  |    TR     |   SR/TR   |    TR     |          |
-| Mk 24 Mod 34 |   (TR)    |           |   (TR)    |          |
-| Mk 25        |    TR     |           |    TR     |          |
-| Mk 36        |   SR/TR   |   SR/TR   |   SR/TR   |          |
-| Mk 37        |    TR     |           |    TR     |          |
-| Mk 49 Mod 0  |    SR     |           |    SR     |          |
-| Mk 49 Mod 1  |   (SR)    |           |   (SR)    |          |
-| Mk 50        |  (SR/TR)  |  (SR/TR)  |  (SR/TR)  |          |
+| Mk 22        |           |           |           |          |
+| Mk 23        |   (SR)    |   (SR)    |   (SR)    |          |
+| Mk 24 Mod 5  |           |    SR     |           |          |
+| Mk 24 Mod 34 |           |           |           |          |
+| Mk 25        |           |           |           |          |
+| Mk 36        |    TR     |    SR     |    TR     |          |
+| Mk 37        |           |           |           |          |
+| Mk 49 Mod 0  |   (TR)    |           |   (TR)    |          |
+| Mk 49 Mod 1  |   (TR)    |           |   (TR)    |          |
+| Mk 50        |   (SR)    |   (SR)    |   (SR)    |          |
 
 ##### US Naval Threats
 
@@ -377,7 +377,7 @@ General Key:
 | Mk 24 Mod 34 |             |               |         TR          |           |  (TR)  |        |
 | Mk 25        |             |               |         TR          |           |   TR   |        |
 | Mk 36        |    (TR)     |     (TR)      |         TR          |           |   TR   |        |
-| Mk 37        |   (SR/TR)   |     SR/TR     |        SR/TR        |           |   TR   |        |
+| Mk 37        |  (SR)/(TR)  |     SR/TR     |        SR/TR        |           |   TR   |        |
 | Mk 49 Mod 0  |             |               |        (TR)         |           |   TR   |        |
 | Mk 49 Mod 1  |             |               |        (TR)         |           |   TR   |        |
 | Mk 50        |             |               |         TR          |           |  (TR)  |        |
@@ -402,7 +402,7 @@ General Key:
 | Seeker       | Veinticinco de Mayo | Condell | Tiger |
 | ------------ | :-----------------: | :-----: | :---: |
 | Mk 22        |                     |         |       |
-| Mk 23        |       (SR/TR)       |         |       |
+| Mk 23        |      (SR)/(TR)      |         |       |
 | Mk 24 Mod 5  |                     |         |       |
 | Mk 24 Mod 34 |                     |         |       |
 | Mk 25        |                     |         |       |
@@ -410,4 +410,4 @@ General Key:
 | Mk 37        |                     |         |       |
 | Mk 49 Mod 0  |                     |         |       |
 | Mk 49 Mod 1  |                     |         |       |
-| Mk 50        |       (SR/TR)       |         |       |
+| Mk 50        |      (SR)/(TR)      |         |       |
