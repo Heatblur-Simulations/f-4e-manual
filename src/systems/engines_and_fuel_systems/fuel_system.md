@@ -5,8 +5,6 @@
 370 加仑机翼副油箱，这个数值将超过 16800 磅。再加上 600 加仑中线副油箱，飞机的燃
 油总量将接近 20800 磅。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2u2yLEM1iHM?si=5a47nAUGCE7PZUip" title="F-4E Fuel Systems Guide | DCS World" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 > 💡 [EFB](../../dcs/efb.md#fuel-page) 包括一个燃油页面，可让玩家深入了解系统工
 > 作状态。
 
@@ -116,8 +114,6 @@ EXT FUEL、CTR EXT FUEL 或 R EXT FUEL。这些指示灯只会在选择了对应
 > 💡 加满花费大约一到三分钟。
 
 ![pilot_fuel_panel](../../img/pilot_fuel_control_panel.jpg)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nLNVyxVZAiw?si=bEah6gsO2qFGV3eC" title="DCS F-4E Phantom II Air to Air Refuelling Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### 空中加油开关
 
