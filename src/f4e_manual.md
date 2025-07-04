@@ -27,6 +27,10 @@ This document is available [online](https://f4.manuals.heatblur.se/), as
 embedded in-game as offline website and can be contributed to as open-source
 project at [GitHub](https://github.com/Heatblur-Simulations/f-4e-manual).
 
+> 💡 This manual provides comprehensive details on the F-4E Phantom. For a more
+> hands-on approach it is recommended to check out
+> [Chuck's Guide](https://chucksguides.com/aircraft/dcs/f-4e/) as well.
+
 <!-- markdown-link-check-enable -->
 
 <pdf>
