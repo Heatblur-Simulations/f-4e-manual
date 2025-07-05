@@ -39,13 +39,12 @@
 除开上述符号，页面左下角还会显示以下告示旗：
 
 - AAR; 受油门在
-  [空加作业](../systems/engines_and_fuel_systems/fuel_system.md##空中受油系统)
-  时打开
-- DUMP; 激活
-  [放油](../systems/engines_and_fuel_systems/fuel_system.md##放油系统)
+  [空加作业](../systems/engines_and_fuel_systems/fuel_system.md#空中受油系统) 时
+  打开
+- DUMP; 激活 [放油](../systems/engines_and_fuel_systems/fuel_system.md#放油系统)
 - AUTO-XFER; 系统激活
-  [自动转输](../systems/engines_and_fuel_systems/fuel_system.md###输油顺序) （燃
-  油量低应急系统）
+  [自动转输](../systems/engines_and_fuel_systems/fuel_system.md#输油顺序) （燃油
+  量低应急系统）
 
 ## 电力页面
 
