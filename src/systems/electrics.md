@@ -5,8 +5,6 @@ F-4E 的电力一对由 [J79 发动机](../systems/engines_and_fuel_systems/engi
 外，“鬼怪” II 还可以接收地勤人员提供的地电。两台发电机通常是独立工作的，但也包括
 一个总线汇流条，可将两条总线连接在一起，以便在发生故障时从一台发电机获取电力。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7FK2KzCHk1E?si=9gBRVQutut4lDa3K" title="F-4E Electrical and Lighting Systems | DCS World" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 > 💡 [EFB](../../dcs/efb.md##电力页面) 包括一个电力页面，可让玩家深入了解系统工
 > 作状态。
 
