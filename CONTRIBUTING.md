@@ -15,9 +15,11 @@ helping you finalize your pull requests.
 
 ## Legal yada yada
 
+<!-- markdown-link-check-disable -->
 The manual is published under the
-[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+[CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans).
 Please make sure you understand its terms.
+<!-- markdown-link-check-enable -->
 
 Additionally, by submitting a PR and contributing to the project, you transfer
 the rights you hold to your own contribution to Heatblur Simulations. That is,
@@ -27,13 +29,14 @@ the above license.
 ## Ground Rules
 
 <!-- markdown-link-check-disable -->
+
 - Create [issues](https://github.com/Heatblur-Simulations/f-4e-manual/issues)
   for any major changes and enhancements that you wish to make, as well as for
   reporting any sort of bugs. For more light-hearted talks, you can use
   [discussions](https://github.com/Heatblur-Simulations/f-4e-manual/discussions).
   Discuss things transparently and get community feedback.
 - Be welcoming to newcomers and encourage diverse new contributors from all
-  backgrounds.
+backgrounds.
 <!-- markdown-link-check-enable -->
 
 ## Your First Contribution
@@ -42,6 +45,7 @@ Unsure where to begin contributing to the manual? You can start by looking
 through these labels!
 
 <!-- markdown-link-check-disable-next-line -->
+
 - [good first issue](https://github.com/Heatblur-Simulations/f-4e-manual/issues/?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22),
   issues which should only require a few minor changes.
 
@@ -50,7 +54,7 @@ will assign it to you.
 
 Working on your first Pull Request? You can check these resources:
 
-- <http://makeapullrequest.com/>
+- [Make a Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 - <http://www.firsttimersonly.com/>
 
 At this point, you're ready to make your changes! Feel free to ask for help;
@@ -61,9 +65,11 @@ everyone is a beginner at first! 🎉
 ### Create an issue
 
 <!-- markdown-link-check-disable -->
+
 Before creating a new issue, make sure to
 [search](https://github.com/Heatblur-Simulations/f-4e-manual/issues?q=is%3Aissue)
 for existing issues first.
+
 <!-- markdown-link-check-enable -->
 
 If the issue already exists, comment on it saying that you intend to work on it,
@@ -105,11 +111,13 @@ consider checking these resources:
 ### Create a pull request
 
 <!-- markdown-link-check-disable -->
+
 When you are done, you will create a
 [pull request](https://github.com/Heatblur-Simulations/f-4e-manual/pulls) to
 request feedback from the rest of the community. At this point, your
 contribution will be automatically tested and then checked by a member of the
 Heatblur Team.
+
 <!-- markdown-link-check-enable -->
 
 Each pull request should be clear, concise, and informative. Please consider
