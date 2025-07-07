@@ -15,9 +15,11 @@ helping you finalize your pull requests.
 
 ## Legal yada yada
 
+<!-- markdown-link-check-disable -->
 The manual is published under the
 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans).
 Please make sure you understand its terms.
+<!-- markdown-link-check-enable -->
 
 Additionally, by submitting a PR and contributing to the project, you transfer
 the rights you hold to your own contribution to Heatblur Simulations. That is,
