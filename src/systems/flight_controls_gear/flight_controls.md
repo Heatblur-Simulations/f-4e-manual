@@ -38,7 +38,7 @@ fin.
 ![Bellows Inlet](../../img/ext_f4_anti_col_light.jpg)
 
 The bellows pull the stick aft depending on the relative airspeed.
-For example, when going hands of stick and the aircraft unintentionally departing
+For example, when going hands off stick and the aircraft unintentionally departing
 nose down, airspeed increases and the bellows system pulls the stick aft, naturally
 causing the aircraft to pitch up and stabilize in level flight again.
 
