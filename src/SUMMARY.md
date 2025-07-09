@@ -49,7 +49,7 @@
 - [系统总览](./systems/overview.md)
   - [飞行操纵系统和设备](./systems/flight_controls_gear/overview.md)
     - [主要飞行仪表](./systems/flight_controls_gear/primary_flight_instruments.md)
-    - [飞行操纵设备 & AFCS](./systems/flight_controls_gear/flight_controls.md)
+    - [飞行操纵系统](./systems/flight_controls_gear/flight_controls.md)
     - [起落架和地面操纵](./systems/flight_controls_gear/gear_ground_handling.md)
   - [发动机 & 燃油系统](./systems/engines_and_fuel_systems/overview.md)
     - [发动机](./systems/engines_and_fuel_systems/engines.md)
