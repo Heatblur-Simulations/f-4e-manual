@@ -9,8 +9,6 @@
 为[前缘襟翼/缝翼](./flight_controls.md#slats-flap-system)、[后缘缝翼](./flight_controls.md#slats-flap-system)和
 安装在机翼上的[减速板](./flight_controls.md#speed-brakes)。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EXsTlmokAlQ?si=QZfuCaOXcLmS9g1Z" title="F-0005 Flight Control Systems for the F-4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 ## 摆重与膜盒
 
 驾驶杆和操纵面的连接、与配平系统相互作用以及 AFCS，各种力的复杂组合并形成相互平
