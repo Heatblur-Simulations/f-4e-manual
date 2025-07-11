@@ -33,38 +33,78 @@ Available variants include:
 
 ## Employment
 
+Mavericks require a three-minute period to warm up the equipment. This starts as
+soon as electric power is connected to the aircraft. By the time the aircraft is
+airborne, they are typically ready to use.
+
 To utilize a Maverick of any variant, the pilot begins by pressing the
 applicable Station Select buttons, and setting Master Arm to On. The pilot then
 must select Direct on the Delivery Mode Knob, and the TV position on the Weapon
 Select Knob.
 
-When selected to TV, the 3-minute missile gyro warmup sequence initiates; it is
-suggested to start the stopwatch to the left of the Multiple Weapon Panel as a
-means to avoid disturbing this sequence. Once the warmup has completed, the
-lower amber ARM indicators on the Station Select buttons will illuminate.
-Failure to permit this gyro cycle can potentially damage the guidance unit of
-the missiles aboard. During this warmup period, it is helpful to set the optical
-sight to A/G mode, and enter a depression of **45 mils**, so that the sight
-alignment be that of the missile seeker. This way, the pilot can put the target
-on the pipper and it will be within the weapons view.
+### Gyro
+
+As soon as the TV position is selected on the
+[Weapon Selector Knob](../../../cockpit/pilot/weapon_management.md#weapon-selector-knob),
+the missiles gyros start to spin up. This process takes around **three
+minutes**. Should the knob be moved out of the TV position, the gyros begin to
+spin down after a short amount of time.
+
+It is necessary to wait until the gyros are fully spin up before uncaging the
+missile.
+
+> 🟡 There is no safety preventing the pilot to uncage the missile beforehand.
+> This leads to the camera being slaved to the gyros while not fully spun up
+> yet. Depending on how much the gyros have been spun up already, this can
+> either cause heavy jitter on the image, or even destroy the camera equipment
+> as it is forcefully bumped into its gimbals.
+
+A missile with broken TV sensor can be manually skipped by using the
+[TGT/MSL REJ Switch](../../../cockpit/pilot/pedestal_group.md#tgtmsl-reject-switch).
+
+The ARM lights on the
+[Station Select Buttons](../../../cockpit/pilot/weapon_management.md#station-select-buttons)
+are used to indicate safe operation of the Mavericks. When ARM is lit, the gyros
+have spun up fully and the weapon can safely be uncaged and used.
+
+> 💡 The ARM lights are hardwired to always start a 3-minute timer whenever the
+> [Weapon Selector Knob](../../../cockpit/pilot/weapon_management.md#weapon-selector-knob)
+> is moved into the TV position. Hence, if the knob is only moved out of the
+> position shortly, the ARM lights will not illuminate before the timer has
+> passed again. The gyros however, will not spin down instantly. It is generally
+> safe to ignore the ARM light if the TV position was only left for a few
+> seconds.
+
+### General Procedure
+
+It is helpful to set the optical sight to A/G mode, and enter a depression of
+**45 mils**, so that the sight alignment be that of the missile seeker. This
+way, the pilot can put the target on the pipper and it will be within the
+weapons view.
 
 | No Lock                                                  | Locked on Target                                   | Narrow View and Locked                                     |
 | -------------------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------- |
 | ![maverick_unlocked](../../../img/maverick_unlocked.jpg) | ![maverick_locked](../../../img/maverick_lock.jpg) | ![maverick_lock_zoom](../../../img/maverick_lock_zoom.jpg) |
 
-Once the warmup has completed, the crew may activate their displays for viewing
-seeker video; the pilot selects the TV position on the Scope Display Select
-switch on the Pedestal panel, and the WSO places the DSCG display mode knob to
-TV and the Video Select Switch to WEAPON instead of ASQ.
+The crew may activate their displays for viewing the seeker video; the pilot
+selects the TV position on the Scope Display Select switch on the Pedestal
+panel, and the WSO places the DSCG display mode knob to TV and the Video Select
+Switch to WEAPON instead of ASQ.
 
-> 💡 To start the TV feed, the flight stick trigger has to be pressed, otherwise
-> the screen stays blank.
+The pilot maneuvers the aircraft to position the sight reticle over the target
+area, and either crew member can then press their respective flight stick
+trigger to initiate video.
 
-With the displays activated, the pilot maneuvers the aircraft to position the
-sight reticle over the target area, and either crew member can then press their
-respective flight stick trigger to initiate video. With video active, command of
-the missile seeker is controlled by the crew member who activated the video
-signal, as follows:
+> 💡 To start the TV feed, the flight stick trigger has to be pressed. This
+> causes the cover in front of the camera to be blown off. With the cover still
+> attached, the screen stays blank.
+
+With the video active, the seeker can be uncaged and controlled by pressing the
+flight stick trigger once. This has to be repeated each time the weapon was
+deselected, entering a mechanical cage again.
+
+Command of the missile seeker is controlled by the crew member who activated the
+video signal as follows:
 
 ### Pilot
 

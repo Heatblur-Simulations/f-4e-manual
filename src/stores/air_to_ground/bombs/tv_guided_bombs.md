@@ -38,22 +38,34 @@ referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Available TV guided bombs include:
 
-| Variant              | Warhead | Description               |
-| -------------------- | ------: | ------------------------- |
-| AGM-62 Walleye I     | 1000 lb |                           |
-| AGM-62 Walleye II ER | 2000 lb | extended range            |
-| GBU-8 HOBOS          | 2000 lb |                           |
+| Variant              | Warhead | Description    |
+| -------------------- | ------: | -------------- |
+| AGM-62 Walleye I     | 1000 lb |                |
+| AGM-62 Walleye II ER | 2000 lb | extended range |
+| GBU-8 HOBOS          | 2000 lb |                |
 
 ## Employment
 
-During the three-minute warmup period, it is helpful to set the optical sight to
-A/G mode, and enter a depression of **17 mils**, so that the sight alignment be
-that of the missile seeker. This way, the pilot can put the target on the pipper
-and it will be within the weapons view.
+TV weapons require a three-minute period to warm up the equipment. This starts
+as soon as electric power is connected to the aircraft. By the time the aircraft
+is airborne, they are typically ready to use.
 
-After the warmup, either bomb is released by selecting the corresponding
-stations, putting the Weapon Selector to TV and the Delivery Mode Knob to
-DIRECT.
+It is helpful to set the optical sight to A/G mode, and enter a depression of
+**17 mils**, so that the sight alignment be that of the missile seeker. This
+way, the pilot can put the target on the pipper and it will be within the
+weapons view.
+
+Either bomb is released by selecting the corresponding stations, putting the
+Weapon Selector to TV and the Delivery Mode Knob to DIRECT.
+
+> 💡 The ARM lights on the
+> [Station Select Buttons](../../../cockpit/pilot/weapon_management.md#station-select-buttons)
+> are hardwired to always start a 3-minute timer whenever the
+> [Weapon Selector Knob](../../../cockpit/pilot/weapon_management.md#weapon-selector-knob)
+> is moved into the TV position. Hence, if the knob is only moved out of the
+> position shortly, the ARM lights will not illuminate before the timer has
+> passed again. The bombs however, can be used regardless, ignoring the ARM
+> light.
 
 Enable the TV mode for the DSCG screen and press the trigger. This activates the
 sensor and video feed will be displayed on the screen.
