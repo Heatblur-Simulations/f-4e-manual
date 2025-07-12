@@ -137,13 +137,13 @@ Button on the Antenna Hand Control Stick or moving the Test/Challenge Switch
 (<num>2</num>) to the CHAL CODE position.
 
 > 💡 The Test/Challenge switch will only send a challenge via the AN/APX-76
-> system, while the Challenge Button includes an interrogation by Combat-Tree if
-> activated.
+> system, while the Challenge Button includes an interrogation by Combat-Tree,
+> if activated.
 
 ![Challenge Button](../img/wso_antenna_hand_control_challenge_button.jpg)
 
 The radar screen presents the results of the interrogation with lines around the
-aircraft position:
+contacts position:
 
 - line above; the aircraft has a matching transponder mode
 - line below; the aircraft has a matching transponder code
@@ -165,7 +165,7 @@ During the test, the system will inject two artificial transponder responses at
 ranges 3.5 NM and 4.5 NM.
 
 The test is successful if the challenge lamp (<num>1</num>) illuminates and the
-DSCG screen shows two lines at the corresponding distance that span over the
+DSCG screen shows two lines at the corresponding distances that span over the
 entire screen.
 
 ![Radar with IFF Test](../img/radar_iff_test.jpg)
@@ -173,8 +173,9 @@ entire screen.
 ### AN/APX-81A Combat-Tree
 
 Combat-Tree is designed to spoof hostile IFF transponders by sending
-interrogation requests compatible these systems. The hostile transponder will
-then send back a response, revealing the position of the aircraft.
+interrogation requests compatible with these systems.
+The hostile transponder will then send back a response, revealing the
+position of the aircraft.
 
 > 💡 Spoofable systems that can be exploited by the AN/APX-81A can be configured
 > in the [Mission Editor](../dcs/mission_editor.md#combat-tree-spoofable).
