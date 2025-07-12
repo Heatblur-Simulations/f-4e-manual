@@ -3109,11 +3109,12 @@ for details.</p>
 </blockquote>
 <h2 id="apx-81a-activity-lights"><a class="header" href="#apx-81a-activity-lights">APX-81A Activity Lights</a></h2>
 <p><img src="cockpit/wso/../../img/wso_apx_81_light.jpg" alt="Activity Light" /></p>
-<p>Right next to either AoA Indexer is a light that indicates activity
-detected by the APX-81A Combat Tree system.</p>
-<p>Illuminated each time the system detects being interrogated by other aircraft.</p>
+<p>Right next to either AoA Indexer in the WSO cockpit is a light that indicates
+activity detected by the APX-81A Combat Tree system.</p>
+<p>Illuminated each time the system detects IFF responses by hostile aircraft.</p>
 <blockquote>
-<p>💡 Due to engine limitations, this is not simulated in-game.</p>
+<p>💡 Due to engine limitations, the activity lights only illuminate if a
+transponder responds to a Combat-Tree challenge send by the own aircraft.</p>
 </blockquote>
 <h2 id="range-visident-indicator"><a class="header" href="#range-visident-indicator">Range (VISIDENT) Indicator</a></h2>
 <p><img src="cockpit/wso/../../img/wso_range_indicator.jpg" alt="Range Indicator" /></p>
@@ -3296,8 +3297,8 @@ hostile.</p>
 <p>See <a href="cockpit/wso/../../systems/identification_systems.html#interrogator-systems">Interrogator Systems</a>
 for details.</p>
 <h3 id="code-buttons"><a class="header" href="#code-buttons">Code Buttons</a></h3>
-<p>The first digit of the code display (<num>3</num>) indicates the current IFF mode, which can be
-either of:</p>
+<p>The first digit of the code display (<num>3</num>) indicates the current mode
+for the AN/APX-76 interrogator. It can be either of:</p>
 <ul>
 <li>Off (white square)</li>
 <li>Mode 1</li>
@@ -3315,13 +3316,13 @@ to 3.</p>
 <p>The buttons below and above the display are used to decrement and increment the
 corresponding setting, respectively.</p>
 <h3 id="challenge-lamp"><a class="header" href="#challenge-lamp">Challenge Lamp</a></h3>
-<p>This dimmable push-to-test lamp (<num>1</num>) illuminates to indicate IFF active interrogation
+<p>This dimmable push-to-test lamp (<num>1</num>) illuminates to indicate active interrogation
 with the APX-76 system.</p>
 <h3 id="testchallenge-code"><a class="header" href="#testchallenge-code">Test/Challenge Code</a></h3>
-<p>Switch (<num>2</num>) that, if set to OFF, turns off the APX-76 interrogation system. In the CHALLENGE
-position, it can be used to interrogate.</p>
-<p>TEST is used to test the system. If the lamp above lights up, the test was
-successful.</p>
+<p>Setting the switch (<num>2</num>) to the CHALLENGE position will send interrogation
+challenges by the AN/APX-76 system.</p>
+<p>TEST initiates a test of the system, see
+<a href="cockpit/wso/../../systems/identification_systems.html#test">AN/APX-76 Test</a> for details.</p>
 <h3 id="anti-jam"><a class="header" href="#anti-jam">Anti-Jam</a></h3>
 <p>This switch (<num>7</num>) could be used for anti-jammer measurements on some systems, but was
 never installed and connected on this variant of the F-4E.</p>
@@ -3329,11 +3330,14 @@ never installed and connected on this variant of the F-4E.</p>
 <p>This dimmable push-to-test lamp (<num>6</num>) illuminates to indicate active interrogation
 with the APX-81A Combat-Tree system.</p>
 <h3 id="test-button"><a class="header" href="#test-button">Test Button</a></h3>
-<p>The push button starts the built-in test of the APX-81A Combat-Tree system.</p>
+<p>The push button starts the built-in test of the APX-81A Combat-Tree system,
+see <a href="cockpit/wso/../../systems/identification_systems.html#self-test">AN_APX-81A Test</a> for details.</p>
 <h3 id="mode-2"><a class="header" href="#mode-2">Mode 2</a></h3>
 <p>This switch (<num>5</num>) is used to set Combat-Tree Mode 2 to either ACTIVE, PASSIVE or OFF types.</p>
+<p>The ACTIVE position is required to use the system.</p>
 <h3 id="mode-3"><a class="header" href="#mode-3">Mode 3</a></h3>
 <p>This switch (<num>5</num>) is used to set Combat-Tree Mode 3 to either ACTIVE, PASSIVE or OFF types.</p>
+<p>The ACTIVE position is required to use the system.</p>
 <h3 id="mode-4"><a class="header" href="#mode-4">Mode 4</a></h3>
 <p>This switch (<num>4</num>) is used to set Combat-Tree Mode 4 into ALARM or OVERRIDE types.</p>
 <p>This functionality was never installed and connected on this variant of the
@@ -6600,131 +6604,181 @@ completed.</p>
 </blockquote>
 <p>For operations procedure see <a href="systems/nav_com/../../procedures/ky_28_operations.html">Chapter KY-28 Operations</a>.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="identification-systems"><a class="header" href="#identification-systems">Identification Systems</a></h1>
-<p>The aircraft is equipped with a set of interrogator systems AN/APX-76, -80A and -81A,
-as well as with a transponder to react to interrogations from other aircraft.</p>
-<p>The interrogator can be controlled by the WSO with a panel
-on the <a href="systems/../cockpit/wso/left_sub_panel.html#apx-80-control-panel">left sub-panel</a>.
-The transponder is set up by the pilot on
-the <a href="systems/../cockpit/pilot/right_console/center_section.html#iff-control-panel">right console</a>.</p>
+<p>The aircraft is equipped with a set of interrogator systems AN/APX-76, -80A and
+-81A, as well as with a transponder to react to interrogations from other
+aircraft.</p>
+<p>The interrogator can be controlled by the WSO with a panel on the
+<a href="systems/../cockpit/wso/left_sub_panel.html#apx-80-control-panel">left sub-panel</a>. The
+transponder is set up by the pilot on the
+<a href="systems/../cockpit/pilot/right_console/center_section.html#iff-control-panel">right console</a>.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/H_Gkn_Re548?si=QVjKK29KbDhpPh0l"
 title="How To Use the IFF in the F-4E Phantom | DCS World" frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <h2 id="transponder-system"><a class="header" href="#transponder-system">Transponder System</a></h2>
 <p><img src="systems/../img/pilot_iff_panel.jpg" alt="pilot_iff_control_panel" /></p>
-<p>The transponder automatically responds to challenges from surface or airborne radar sets
-and serves supplementary purposes such as providing momentary identification of position upon
-request and transmitting a specially coded response to indicate an emergency.</p>
-<p>The system operates by
-receiving coded interrogation signals and transmitting coded response signals to the source of the
-challenge, with a proper reply indicating the target is friendly.</p>
-<p>The system features four modes. Mode 1, Mode 2, and Mode 3/A—are provided
-for security identification, personal identification, and traffic identification, respectively.</p>
-<p>Mode 4 is controlled through the interrogator panel by the WSO.
-Codes for Modes 1 and 3/A can be set in the cockpit, while the code
-for Mode 2 must be set on the ground, ranging from 0000 to 7777.</p>
+<p>The transponder automatically responds to challenges from surface or airborne
+radar sets and serves supplementary purposes such as providing momentary
+identification of position upon request and transmitting a specially coded
+response to indicate an emergency.</p>
+<p>The system operates by receiving coded interrogation signals and transmitting
+coded response signals to the source of the challenge, with a proper reply
+indicating the target is friendly.</p>
+<p>The system features four modes. Mode 1, Mode 2, and Mode 3/A—are provided for
+security identification, personal identification, and traffic identification,
+respectively.</p>
+<p>Mode 4 is controlled through the interrogator panel by the WSO. Codes for Modes
+1 and 3/A can be set in the cockpit, while the code for Mode 2 must be set on
+the ground, ranging from 0000 to 7777.</p>
 <blockquote>
-<p>💡 Due to engine limitations, the settings on the panel have no effect for DCS.
-However, they are exposed to external tools, such as SRS.</p>
+<p>💡 Due to engine limitations, the settings on the panel have no effect for
+DCS. However, they are exposed to external tools, such as SRS.</p>
 </blockquote>
 <h3 id="self-test-operation"><a class="header" href="#self-test-operation">Self Test operation</a></h3>
-<p>To self test Modes 2 and 3/A, place the master switch (<num>1</num>) to NORM and hold the switch for
-the
-desired test mode to the upper position. If the test light on the IFF control panel illuminates,
-this indicates the mode is operating properly.</p>
+<p>To self test Modes 2 and 3/A, place the master switch (<num>1</num>) to NORM and
+hold the switch for the desired test mode to the upper position. If the test
+light on the IFF control panel illuminates, this indicates the mode is operating
+properly.</p>
 <p>Mode 1 and Mode C do not have self testing capabilities.</p>
 <h3 id="normal-operation-1"><a class="header" href="#normal-operation-1">Normal Operation</a></h3>
-<p>To operate the IFF system, start by rotating the master switch (<num>1</num>) to STBY. After an
-approximate
-80-second warmup delay, the system receives full power, but interrogations are blocked.</p>
-<p>Set the Mode 1, Mode 2, Mode 3/A, Mode 4, and Mode C switches (<num>6</num>) as directed,
-along with the Mode 1 and Mode 3/A code selector switches (<num>10</num>) and Mode 4 function
-switch (<num>8</num>).
-Set the master switch (<num>1</num>) to NORM to make the system
-ready for operation on the selected modes. If the master switch (<num>1</num>) is rotated from OFF
-directly to
-an operating mode, it also has to go through the warmup period first before it is fully operational.</p>
+<p>To operate the IFF system, start by rotating the master switch (<num>1</num>) to
+STBY. After an approximate 80-second warmup delay, the system receives full
+power, but interrogations are blocked.</p>
+<p>Set the Mode 1, Mode 2, Mode 3/A, Mode 4, and Mode C switches (<num>6</num>) as
+directed, along with the Mode 1 and Mode 3/A code selector switches
+(<num>10</num>) and Mode 4 function switch (<num>8</num>). Set the master switch
+(<num>1</num>) to NORM to make the system ready for operation on the selected
+modes. If the master switch (<num>1</num>) is rotated from OFF directly to an
+operating mode, it also has to go through the warmup period first before it is
+fully operational.</p>
 <h4 id="interrogation-of-position"><a class="header" href="#interrogation-of-position">Interrogation of Position</a></h4>
-<p>For Interrogation of Position (I/P) switch operation,
-place the I/P switch (<num>9</num>) in the IDENT position or place it in the MIC position
-and press the UHF microphone. The IFF system responds with special I/P signals.</p>
-<p>If the IFF warning
-light and MASTER CAUTION light come on momentarily, check the Mode 4 selector switch (<num>8</num>)
-ON and the
-master switch (<num>1</num>) NORMAL. Repeated illumination of the MASTER CAUTION light may be
-stopped only by
-placing the master switch (<num>1</num>) OFF, resulting in the loss of all IFF capability, or by
-placing the
-Mode 4 function switch (<num>8</num>) to ZERO. Before or during flight, if the master switch
-(<num>1</num>) is placed OFF,
-the IFF and MASTER CAUTION lights will not illuminate upon interrogation.</p>
-<p>Normal IFF operation will be
-available, after an 80-second warm-up, when the master switch (<num>1</num>) is again placed to
-NORMAL. If the
-Mode 4 function switch (<num>8</num>) is placed to ZERO, the IFF light will come on steady, and the
-MASTER
-CAUTION may
-then be reset. Mode 4 will not be available during the remainder of the flight.</p>
+<p>For Interrogation of Position (I/P) switch operation, place the I/P switch
+(<num>9</num>) in the IDENT position or place it in the MIC position and press
+the UHF microphone. The IFF system responds with special I/P signals.</p>
+<p>If the IFF warning light and MASTER CAUTION light come on momentarily, check the
+Mode 4 selector switch (<num>8</num>) ON and the master switch (<num>1</num>)
+NORMAL. Repeated illumination of the MASTER CAUTION light may be stopped only by
+placing the master switch (<num>1</num>) OFF, resulting in the loss of all IFF
+capability, or by placing the Mode 4 function switch (<num>8</num>) to ZERO.
+Before or during flight, if the master switch (<num>1</num>) is placed OFF, the
+IFF and MASTER CAUTION lights will not illuminate upon interrogation.</p>
+<p>Normal IFF operation will be available, after an 80-second warm-up, when the
+master switch (<num>1</num>) is again placed to NORMAL. If the Mode 4 function
+switch (<num>8</num>) is placed to ZERO, the IFF light will come on steady, and
+the MASTER CAUTION may then be reset. Mode 4 will not be available during the
+remainder of the flight.</p>
 <h3 id="emergency-operation"><a class="header" href="#emergency-operation">Emergency Operation</a></h3>
-<p>Upon ejection from either cockpit, the IFF emergency operation automatically becomes active.</p>
-<p>If the master switch (<num>1</num>) is in the OFF position before ejection, the system will
-begin operation after an
-approximate 80-second delay.</p>
-<p>In an emergency, rotate the master switch (<num>1</num>) to EMER. The replies for
-Modes 1 and 2 are special emergency signals of the codes selected on the applicable dials, while
-Mode 3/A replies are special emergency signals of code 7700.</p>
+<p>Upon ejection from either cockpit, the IFF emergency operation automatically
+becomes active.</p>
+<p>If the master switch (<num>1</num>) is in the OFF position before ejection, the
+system will begin operation after an approximate 80-second delay.</p>
+<p>In an emergency, rotate the master switch (<num>1</num>) to EMER. The replies
+for Modes 1 and 2 are special emergency signals of the codes selected on the
+applicable dials, while Mode 3/A replies are special emergency signals of
+code 7700.</p>
 <h2 id="interrogator-systems"><a class="header" href="#interrogator-systems">Interrogator Systems</a></h2>
 <p><img src="systems/../img/wso_apx_80.jpg" alt="WSO APX Control Panel" /></p>
-<p>The Phantom combines three systems, AN/APX-76, -80A and -81A, for interrogating and
-challenging other aircraft to detect whether they are friend or foe.</p>
-<p>The AN/APX-76 system enables regular interrogation with friendly transponder systems.</p>
-<p>Further, the US reverse-engineered some Soviet transponder systems actively used between
-1960 and 1980 enough to be able to develop the spoofing system AN/APX-81A <em>Combat-Tree</em>.
-Combat-Tree sends compatible interrogation requests to Soviet systems which they would identify
-as friendly systems, hence sending back a valid response.
-This allows the Phantom to not only identify friendly systems,
+<p>The Phantom combines three systems, AN/APX-76, -80A and -81A, for interrogating
+and challenging other aircraft to detect whether they are friend or foe.</p>
+<p>The AN/APX-76 system enables regular interrogation with friendly transponder
+systems.</p>
+<p>Further, the US reverse-engineered some Soviet transponder systems actively used
+between 1960 and 1980 enough to be able to develop the spoofing system
+AN/APX-81A <em>Combat-Tree</em>. Combat-Tree sends compatible interrogation requests to
+Soviet systems which they would identify as friendly systems, hence sending back
+a valid response. This allows the Phantom to not only identify friendly systems,
 but also some likely-hostile aircraft.</p>
 <blockquote>
-<p>💡 Soviets quickly realized the problem and patched their IFF transponder systems, while
-also encrypting the communication to prevent another breach.</p>
+<p>💡 Soviets quickly realized the problem and patched their IFF transponder
+systems, while also encrypting the communication to prevent another breach.</p>
 </blockquote>
-<h3 id="operation"><a class="header" href="#operation">Operation</a></h3>
-<p>Controls are combined on a panel, accessible to the WSO on the left sub-panel area.</p>
-<p>The interrogation mode is set on the first roller-display and can be set to
-OFF or Mode 1, 2, 3, 4/A or 4/B.</p>
+<p>Controls are combined on a panel, accessible to the WSO on the left sub-panel
+area.</p>
+<p>The upper half consists of controls for the AN/APX-76 system, while the lower
+half controls the AN/APX-81A.</p>
+<h3 id="anapx-76"><a class="header" href="#anapx-76">AN/APX-76</a></h3>
+<p>To challenge friendly or civilian aircraft using the AN/APX-76, the WSO sets the
+interrogation mode on the first roller-display. It can be set to either OFF, or
+Mode 1, 2, 3, 4/A or 4/B (<num>3</num>).</p>
 <blockquote>
 <p>💡 In DCS, only Mode 4 (either A or B) is effective and can be used for
-interrogation.</p>
+interrogation using the AN/APX-76.</p>
 </blockquote>
-<p>The other four digits are used to set the IFF code to interrogate for Modes 1
-to 3.</p>
-<p>Once setup, interrogation can be initiated by pressing the
-Challenge Button on the Antenna Hand Control Stick.</p>
-<p><img src="systems/../img/wso_antenna_hand_control_challenge_button.jpg" alt="Challenge Button" /></p>
-<p>The radar screen will now display lines above and below a radar return if
-it was able to detect that a contact is friendly. A single line is shown above the
-return if the transponder is set to a compatible mode, but the code differs.
-This is usually the case for civilian aircraft.</p>
-<p><img src="systems/../img/radar_iff_friendly.jpg" alt="Radar with friendly contacts" /></p>
+<p>The other four digits are used to set the IFF code to interrogate for Modes 1 to
+3 (<num>3</num>). The code for Mode 4/A and 4/B is set by the ground personal.</p>
+<p>Once setup, interrogation can be initiated by either pressing the Challenge
+Button on the Antenna Hand Control Stick or moving the Test/Challenge Switch
+(<num>2</num>) to the CHAL CODE position.</p>
 <blockquote>
-<p>🚧 The Combat-Tree system will be made available later during Early-Access.</p>
+<p>💡 The Test/Challenge switch will only send a challenge via the AN/APX-76
+system, while the Challenge Button includes an interrogation by Combat-Tree if
+activated.</p>
 </blockquote>
-<h3 id="indications-1"><a class="header" href="#indications-1">Indications</a></h3>
-<h4 id="challenge-lights"><a class="header" href="#challenge-lights">Challenge Lights</a></h4>
-<p>The control panel features two lamps that indicate active interrogation
-by either interrogation system:</p>
+<p><img src="systems/../img/wso_antenna_hand_control_challenge_button.jpg" alt="Challenge Button" /></p>
+<p>The radar screen presents the results of the interrogation with lines around the
+aircraft position:</p>
 <ul>
-<li>TEST/CHAL lamp in lower left corner - active APX-81A Combat-Tree Interrogation</li>
-<li>CHAL lamp in upper right corner - active APX-76 Interrogation</li>
+<li>line above; the aircraft has a matching transponder mode</li>
+<li>line below; the aircraft has a matching transponder code</li>
 </ul>
+<blockquote>
+<p>💡 In DCS, a line above and below the contact means it is friendly. A single
+line represents a neutral, e.g. civilian, aircraft.</p>
+</blockquote>
+<p><img src="systems/../img/radar_iff_friendly.jpg" alt="Radar with friendly contacts" /></p>
+<p>Each time the AN/APX-76 is sending an interrogation, the challenge light
+(<num>1</num>) illuminates.</p>
+<h4 id="test"><a class="header" href="#test">Test</a></h4>
+<p>The interrogation system can be tested by holding the Test/Challenge Switch
+(<num>2</num>) in the TEST position.</p>
+<p>During the test, the system will inject two artificial transponder responses at
+ranges 3.5 NM and 4.5 NM.</p>
+<p>The test is successful if the challenge lamp (<num>1</num>) illuminates and the
+DSCG screen shows two lines at the corresponding distance that span over the
+entire screen.</p>
+<p><img src="systems/../img/radar_iff_test.jpg" alt="Radar with IFF Test" /></p>
+<h3 id="anapx-81a-combat-tree"><a class="header" href="#anapx-81a-combat-tree">AN/APX-81A Combat-Tree</a></h3>
+<p>Combat-Tree is designed to spoof hostile IFF transponders by sending
+interrogation requests compatible these systems. The hostile transponder will
+then send back a response, revealing the position of the aircraft.</p>
+<blockquote>
+<p>💡 Spoofable systems that can be exploited by the AN/APX-81A can be configured
+in the <a href="systems/../dcs/mission_editor.html#combat-tree-spoofable">Mission Editor</a>.</p>
+</blockquote>
+<p>The system is activated by moving both, the Mode 2 and Mode 3 switch
+(<num>5</num>) to the ACTIVE position.</p>
+<p>Once setup, interrogation can be initiated by pressing the Challenge Button on
+the Antenna Hand Control Stick.</p>
+<blockquote>
+<p>💡 If AN/APX-76 is setup, pressing the Challenge Button will also send an
+interrogation request by AN/APX-76.</p>
+</blockquote>
+<p>Responses to a spoofed request are indicated by a single line above the contact.</p>
+<p><img src="systems/../img/radar_iff_hostile.jpg" alt="Radar with hostile contacts" /></p>
+<blockquote>
+<p>💡 The indication is identical to responses to an AN/APX-76 interrogation with
+only a matching transponder mode, but different code. To differentiate to
+which challenge the response belongs, it is necessary to either deactivate one
+interrogation system, or to send a AN/APX-76-only challenge by using the
+Test/Challenge Switch (<num>2</num>) in the CHAL CODE position and compare
+results.</p>
+</blockquote>
+<p>Each time the AN/APX-81A is sending an interrogation, the TEST/CHAL light
+(<num>6</num>) illuminates.</p>
 <h4 id="activity-lights"><a class="header" href="#activity-lights">Activity Lights</a></h4>
 <p><img src="systems/../img/wso_apx_81_light.jpg" alt="APX Activity Lights" /></p>
-<p>Right next to either AoA Indexer in the WSO cockpit is a light that indicates activity
-detected by the APX-81A Combat Tree system.</p>
+<p>Right next to either AoA Indexer in the WSO cockpit is a light that indicates
+activity detected by the APX-81A Combat Tree system.</p>
 <p>Illuminated each time the system detects IFF responses by hostile aircraft.</p>
 <blockquote>
-<p>💡 Due to engine limitations, the activity lights are not simulated in-game.</p>
+<p>💡 Due to engine limitations, the activity lights only illuminate if a
+transponder responds to a Combat-Tree challenge send by the own aircraft.</p>
 </blockquote>
+<h4 id="self-test"><a class="header" href="#self-test">Self-Test</a></h4>
+<p>The Test button (<num>6</num>) can be used to initiate a self-test of the
+Combat-Tree system.</p>
+<p>The test is successful if the TEST/CHAL lamp (<num>6</num>) right next to the
+button illuminates.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="hydraulics"><a class="header" href="#hydraulics">Hydraulics</a></h1>
 <p><img src="systems/../img/manual_hydraulics_diagram.jpg" alt="manual_hydraulics_diagram" /></p>
 <p>The hydraulic power system of the F-4E consists of three, completely
@@ -12448,7 +12502,7 @@ longitude);</li>
 <p>💡 Spaces are optional, <code>N4532E04712</code> is also valid.</p>
 </blockquote>
 <p><img src="jester/../img/jester_nav_enter_latlon.jpg" alt="Enter Coordinates" /></p>
-<h2 id="operation-1"><a class="header" href="#operation-1">Operation</a></h2>
+<h2 id="operation"><a class="header" href="#operation">Operation</a></h2>
 <p>Jester navigates by utilizing a technique called <strong>leapfrogging</strong>. The aircraft
 only provides a single slot to memorize a waypoint (called <strong>TGT 2</strong>).</p>
 <h3 id="planned-route"><a class="header" href="#planned-route">Planned Route</a></h3>
@@ -12551,7 +12605,11 @@ ahead of the aircraft.</p>
 pilot.</p>
 <p>If desired, the player can request Jester to perform an IFF challenge manually
 at any time through the UI (this action can also be bound directly to a key).
-Should the situation require, the player can manually set a zone for Jester to
+This includes options to either interrogate with both, the
+<a href="jester/combat/../../systems/identification_systems.html#anapx-76">AN/APX-76</a> and the
+<a href="jester/combat/../../systems/identification_systems.html#anapx-81a-combat-tree">AN/APX-81A Combat-Tree system</a>,
+or to use the AN/APX-76 only.</p>
+<p>Should the situation require, the player can manually set a zone for Jester to
 scan outside of his regular pattern through the UI.</p>
 <p><img src="jester/combat/../../img/f4_jester_scan_zones.jpg" alt="Select Scan Zone" /></p>
 <p>He will then scan this zone for a while first before proceeding back to his
@@ -16385,23 +16443,47 @@ the alignment data.</p>
 <p>See the <a href="dcs/../systems/nav_com/ins.html#heading-memory-alignment">INS section</a> for
 details on how to execute a stored alignment.</p>
 <h2 id="allow-jester-modifications"><a class="header" href="#allow-jester-modifications">Allow Jester Modifications</a></h2>
-<p>If checked, players can customize their Jester with user made mods.
-See chapter <a href="dcs/modding/jester/lua_api.html#user-mods">9.12.1.2 Lua API</a> for details.</p>
-<p>Unchecked, any Jester mods will be ignored and the player automatically
-uses the original Jester behavior.</p>
+<p>If checked, players can customize their Jester with user made mods. See chapter
+<a href="dcs/modding/jester/lua_api.html#user-mods">9.12.1.2 Lua API</a> for details.</p>
+<p>Unchecked, any Jester mods will be ignored and the player automatically uses the
+original Jester behavior.</p>
 <blockquote>
-<p>💡 This option is decoupled from DCS Integration Check (IC) system.
-That is, you can for example enforce IC on your server, while at the same time
-allowing users to mod their Jester.</p>
+<p>💡 This option is decoupled from DCS Integration Check (IC) system. That is,
+you can for example enforce IC on your server, while at the same time allowing
+users to mod their Jester.</p>
 </blockquote>
 <h2 id="allow-use-of-efb"><a class="header" href="#allow-use-of-efb">Allow use of EFB</a></h2>
-<p>If checked, players can access the <a href="dcs/../dcs/efb.html">EFB</a>, giving insights into the
-aircraft's internal systems. For example the fuel state in each tank.</p>
+<p>If checked, players can access the <a href="dcs/../dcs/efb.html">EFB</a>, giving insights into
+the aircraft's internal systems. For example the fuel state in each tank.</p>
 <p>The Electronic Flight Bag is a fictional feature for this aircraft.</p>
 <h2 id="allow-night-vision-goggles"><a class="header" href="#allow-night-vision-goggles">Allow Night Vision Goggles</a></h2>
 <p>Although F-4E crews never actually operated with NVGs, this option allows
 mission designers to create modern or fictional scenarios where Phantom crews
 might have access to such devices.</p>
+<h2 id="combat-tree-spoofable"><a class="header" href="#combat-tree-spoofable">Combat-Tree Spoofable</a></h2>
+<p>Selects which transponder systems can be spoofed by the
+<a href="dcs/../systems/identification_systems.html#anapx-81a-combat-tree">Combat-Tree system</a>.</p>
+<ul>
+<li>All; any hostile aircraft can be spoofed</li>
+<li>Historical; any aircraft that was equipped with a reverse-engineered
+transponder system can be exploited</li>
+<li>None; Combat-Tree has no effect</li>
+</ul>
+<p>The <em>Historical</em> setting applies to the following aircraft in DCS:</p>
+<ul>
+<li>MiG-15</li>
+<li>MiG-19</li>
+<li>MiG-21</li>
+<li>MiG-23</li>
+<li>Su-17</li>
+<li>Tu-142</li>
+<li>Yak-40</li>
+<li>KA-27</li>
+</ul>
+<blockquote>
+<p>💡 Due to engine limitations it is not possible for the affected aircraft to
+evade Combat-Tree by for example deactivating their transponder.</p>
+</blockquote>
 <h2 id="tacan-options"><a class="header" href="#tacan-options">TACAN Options</a></h2>
 <p>Allows to set the TACAN channel and band set when spawning initially.</p>
 <h2 id="vorils-options"><a class="header" href="#vorils-options">VOR/ILS Options</a></h2>
@@ -16462,9 +16544,10 @@ are:</p>
 <p>See <a href="dcs/../jester/navigation.html#flight-plan">5.2. Jester Navigation</a> for details on
 how these waypoint types influence Jesters behavior.</p>
 <h2 id="setcommands"><a class="header" href="#setcommands">SetCommands</a></h2>
-<p>The F-4E features a list of set commands that can be used by mission makers. All commands are
-executed silently as in Jester will neither deny nor confirm any commands. The SetCommands with
-the Command ID, name and Values can be found in the table below:</p>
+<p>The F-4E features a list of set commands that can be used by mission makers. All
+commands are executed silently as in Jester will neither deny nor confirm any
+commands. The SetCommands with the Command ID, name and Values can be found in
+the table below:</p>
 <div class="table-wrapper"><table><thead><tr><th>Command ID</th><th>Name</th><th>Value</th></tr></thead><tbody>
 <tr><td>20010</td><td>Jester_silent</td><td>0-1</td></tr>
 <tr><td>20011</td><td>Jester_pause</td><td>0-1</td></tr>
@@ -16506,31 +16589,36 @@ the Command ID, name and Values can be found in the table below:</p>
 </tbody></table>
 </div>
 <h3 id="usage-of-setcommands"><a class="header" href="#usage-of-setcommands">Usage of SetCommands</a></h3>
-<p>This chapter will explain the use of the different SetCommands that have more complex values.</p>
+<p>This chapter will explain the use of the different SetCommands that have more
+complex values.</p>
 <p><img src="dcs/../img/set_commands_me.jpg" alt="set_commands_me.jpg" /></p>
 <h4 id="jester_tune_arc_164_channel"><a class="header" href="#jester_tune_arc_164_channel">Jester_tune_ARC_164_channel</a></h4>
 <p>The value follows the format "0.XX," where "XX" is the two-digit channel number.</p>
 <h4 id="jester_tune_tacan_channel"><a class="header" href="#jester_tune_tacan_channel">Jester_tune_TACAN_channel</a></h4>
-<p>The value follows the format "s0.XXXY," where "s" is an optional minus sign. Use negative values for
-A/A (Air-to-Air) and positive for T/R (Transmit/Receive). "XXX" represents the three-digit channel
-number, with leading zeros required for channels below 100. "Y" indicates the mode: "0" for X-mode
-and "1" for Y-mode. For example, "0.0630" corresponds to channel 63X in T/R mode, while "-0.0081"
+<p>The value follows the format "s0.XXXY," where "s" is an optional minus sign. Use
+negative values for A/A (Air-to-Air) and positive for T/R (Transmit/Receive).
+"XXX" represents the three-digit channel number, with leading zeros required for
+channels below 100. "Y" indicates the mode: "0" for X-mode and "1" for Y-mode.
+For example, "0.0630" corresponds to channel 63X in T/R mode, while "-0.0081"
 indicates channel 8Y in A/A mode.</p>
 <h4 id="jester_deviate_to_tgt_zone"><a class="header" href="#jester_deviate_to_tgt_zone">Jester_deviate_to_tgt_zone</a></h4>
-<p>The value follows the format "0.XX," where "XX" is the WaypointZone number. Note that the trigger
-zone must be named "WaypointZone." For example, "0.02" corresponds to "WaypointZone02."</p>
+<p>The value follows the format "0.XX," where "XX" is the WaypointZone number. Note
+that the trigger zone must be named "WaypointZone." For example, "0.02"
+corresponds to "WaypointZone02."</p>
 <h4 id="jester_add_wpt_after"><a class="header" href="#jester_add_wpt_after">Jester_add_wpt_after</a></h4>
-<p>The value follows the format "0.TTXXY," where "TT" is the waypoint zone number, "XX" is the waypoint
-number, and "Y" is the flight plan number.</p>
+<p>The value follows the format "0.TTXXY," where "TT" is the waypoint zone number,
+"XX" is the waypoint number, and "Y" is the flight plan number.</p>
 <h4 id="jester_resume_flightplan"><a class="header" href="#jester_resume_flightplan">Jester_resume_flightplan</a></h4>
-<p>The value follows the format "0.XXY," where "XX" is the waypoint number (e.g., "01" for waypoint
-1, "12" for waypoint 12), and "Y" is the flight plan number (default is 1 if not specified).
-Examples include "0.05," which refers to turn point 5 in flight plan 1, and "0.102," which refers to
-turn point 10 in flight plan 2.</p>
+<p>The value follows the format "0.XXY," where "XX" is the waypoint number (e.g.,
+"01" for waypoint 1, "12" for waypoint 12), and "Y" is the flight plan number
+(default is 1 if not specified). Examples include "0.05," which refers to turn
+point 5 in flight plan 1, and "0.102," which refers to turn point 10 in flight
+plan 2.</p>
 <h4 id="jester_designate_wpt"><a class="header" href="#jester_designate_wpt">Jester_designate_wpt</a></h4>
-<p>The value follows the format "0.DXXY," where "D" is the waypoint designation, "XX" is the waypoint
-number (e.g., "01" for waypoint 1, "12" for waypoint 12), and "Y" is the flight plan number (default
-is 1 if not specified). The waypoint designations are as follows:</p>
+<p>The value follows the format "0.DXXY," where "D" is the waypoint designation,
+"XX" is the waypoint number (e.g., "01" for waypoint 1, "12" for waypoint 12),
+and "Y" is the flight plan number (default is 1 if not specified). The waypoint
+designations are as follows:</p>
 <ul>
 <li>0 -&gt; Default</li>
 <li>1 -&gt; CAP</li>
@@ -16543,18 +16631,21 @@ is 1 if not specified). The waypoint designations are as follows:</p>
 <li>8 -&gt; Homebase</li>
 <li>9 -&gt; Alternate</li>
 </ul>
-<p>For example, "0.005" indicates turn point 5 in flight plan 1 with a Default designation, while "
-0.3102" represents turn point 10 in flight plan 2 with a Target designation.</p>
+<p>For example, "0.005" indicates turn point 5 in flight plan 1 with a Default
+designation, while " 0.3102" represents turn point 10 in flight plan 2 with a
+Target designation.</p>
 <h4 id="jester_set_cap_time"><a class="header" href="#jester_set_cap_time">Jester_set_cap_time</a></h4>
-<p>The value sets the CAP time for the active CAP pair in the format "0.XX," where "XX" represents the
-number of minutes. For example, "0.05" corresponds to 5 minutes, and "0.12" corresponds to 12
-minutes.</p>
+<p>The value sets the CAP time for the active CAP pair in the format "0.XX," where
+"XX" represents the number of minutes. For example, "0.05" corresponds to 5
+minutes, and "0.12" corresponds to 12 minutes.</p>
 <h4 id="wrcs-entries-and-laser-code"><a class="header" href="#wrcs-entries-and-laser-code">WRCS Entries and Laser Code</a></h4>
-<p>The WRCS Entries are used from 0.999 to 0.000 where 0.999 is the biggest value the WRCS can feature.
-For Jester_set_wrcs_ew_dist and Jester_set_wrcs_ns_dist the s is for - . When a negative value is
-entered it will put in West or South values respectively.</p>
-<p>The laser code can be set by entering a valid laser code for XXXX. Note that Jester will not enter
-invalid codes and will not respond in any way other than not entering the laser code.</p>
+<p>The WRCS Entries are used from 0.999 to 0.000 where 0.999 is the biggest value
+the WRCS can feature. For Jester_set_wrcs_ew_dist and Jester_set_wrcs_ns_dist
+the s is for - . When a negative value is entered it will put in West or South
+values respectively.</p>
+<p>The laser code can be set by entering a valid laser code for XXXX. Note that
+Jester will not enter invalid codes and will not respond in any way other than
+not entering the laser code.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="training-missions"><a class="header" href="#training-missions">Training Missions</a></h1>
 <h2 id="lessons"><a class="header" href="#lessons">Lessons</a></h2>
 <p>These missions, we like to call them "lessons", have been designed in such a way
