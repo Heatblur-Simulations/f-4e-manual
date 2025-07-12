@@ -134,12 +134,13 @@ for details.
 
 ![Activity Light](../../img/wso_apx_81_light.jpg)
 
-Right next to either AoA Indexer is a light that indicates activity
-detected by the APX-81A Combat Tree system.
+Right next to either AoA Indexer in the WSO cockpit is a light that indicates
+activity detected by the APX-81A Combat Tree system.
 
-Illuminated each time the system detects being interrogated by other aircraft.
+Illuminated each time the system detects IFF responses by hostile aircraft.
 
-> 💡 Due to engine limitations, this is not simulated in-game.
+> 💡 Due to engine limitations, the activity lights only illuminate if a
+> transponder responds to a Combat-Tree challenge send by the own aircraft.
 
 ## Range (VISIDENT) Indicator
 

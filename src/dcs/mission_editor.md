@@ -125,20 +125,20 @@ details on how to execute a stored alignment.
 
 ## Allow Jester Modifications
 
-If checked, players can customize their Jester with user made mods.
-See chapter [9.12.1.2 Lua API](modding/jester/lua_api.md#user-mods) for details.
+If checked, players can customize their Jester with user made mods. See chapter
+[9.12.1.2 Lua API](modding/jester/lua_api.md#user-mods) for details.
 
-Unchecked, any Jester mods will be ignored and the player automatically
-uses the original Jester behavior.
+Unchecked, any Jester mods will be ignored and the player automatically uses the
+original Jester behavior.
 
-> 💡 This option is decoupled from DCS Integration Check (IC) system.
-> That is, you can for example enforce IC on your server, while at the same time
-> allowing users to mod their Jester.
+> 💡 This option is decoupled from DCS Integration Check (IC) system. That is,
+> you can for example enforce IC on your server, while at the same time allowing
+> users to mod their Jester.
 
 ## Allow use of EFB
 
-If checked, players can access the [EFB](../dcs/efb.md), giving insights into the
-aircraft's internal systems. For example the fuel state in each tank.
+If checked, players can access the [EFB](../dcs/efb.md), giving insights into
+the aircraft's internal systems. For example the fuel state in each tank.
 
 The Electronic Flight Bag is a fictional feature for this aircraft.
 
@@ -147,6 +147,30 @@ The Electronic Flight Bag is a fictional feature for this aircraft.
 Although F-4E crews never actually operated with NVGs, this option allows
 mission designers to create modern or fictional scenarios where Phantom crews
 might have access to such devices.
+
+## Combat-Tree Spoofable
+
+Selects which transponder systems can be spoofed by the
+[Combat-Tree system](../systems/identification_systems.md#anapx-81a-combat-tree).
+
+- All; any hostile aircraft can be spoofed
+- Historical; any aircraft that was equipped with a reverse-engineered
+  transponder system can be exploited
+- None; Combat-Tree has no effect
+
+The _Historical_ setting applies to the following aircraft in DCS:
+
+- MiG-15
+- MiG-19
+- MiG-21
+- MiG-23
+- Su-17
+- Tu-142
+- Yak-40
+- KA-27
+
+> 💡 Due to engine limitations it is not possible for the affected aircraft to
+> evade Combat-Tree by for example deactivating their transponder.
 
 ## TACAN Options
 
@@ -205,7 +229,7 @@ Also, radio frequency parameters to read currently active UHF Radio frequencies
 are provided for mission triggers:
 
 | Parameter   | Description           |
-|-------------|-----------------------|
+| ----------- | --------------------- |
 | `COMM_FREQ` | Comm frequency in MHz |
 | `AUX_FREQ`  | Aux frequency in MHz  |
 
@@ -236,12 +260,13 @@ how these waypoint types influence Jesters behavior.
 
 ## SetCommands
 
-The F-4E features a list of set commands that can be used by mission makers. All commands are
-executed silently as in Jester will neither deny nor confirm any commands. The SetCommands with
-the Command ID, name and Values can be found in the table below:
+The F-4E features a list of set commands that can be used by mission makers. All
+commands are executed silently as in Jester will neither deny nor confirm any
+commands. The SetCommands with the Command ID, name and Values can be found in
+the table below:
 
 | Command ID | Name                        | Value                          |
-|------------|-----------------------------|--------------------------------|
+| ---------- | --------------------------- | ------------------------------ |
 | 20010      | Jester_silent               | 0-1                            |
 | 20011      | Jester_pause                | 0-1                            |
 | 20015      | Jester_tune_ARC_164_channel | 0.XX                           |
@@ -282,7 +307,8 @@ the Command ID, name and Values can be found in the table below:
 
 ### Usage of SetCommands
 
-This chapter will explain the use of the different SetCommands that have more complex values.
+This chapter will explain the use of the different SetCommands that have more
+complex values.
 
 ![set_commands_me.jpg](../img/set_commands_me.jpg)
 
@@ -292,34 +318,38 @@ The value follows the format "0.XX," where "XX" is the two-digit channel number.
 
 #### Jester_tune_TACAN_channel
 
-The value follows the format "s0.XXXY," where "s" is an optional minus sign. Use negative values for
-A/A (Air-to-Air) and positive for T/R (Transmit/Receive). "XXX" represents the three-digit channel
-number, with leading zeros required for channels below 100. "Y" indicates the mode: "0" for X-mode
-and "1" for Y-mode. For example, "0.0630" corresponds to channel 63X in T/R mode, while "-0.0081"
+The value follows the format "s0.XXXY," where "s" is an optional minus sign. Use
+negative values for A/A (Air-to-Air) and positive for T/R (Transmit/Receive).
+"XXX" represents the three-digit channel number, with leading zeros required for
+channels below 100. "Y" indicates the mode: "0" for X-mode and "1" for Y-mode.
+For example, "0.0630" corresponds to channel 63X in T/R mode, while "-0.0081"
 indicates channel 8Y in A/A mode.
 
 #### Jester_deviate_to_tgt_zone
 
-The value follows the format "0.XX," where "XX" is the WaypointZone number. Note that the trigger
-zone must be named "WaypointZone." For example, "0.02" corresponds to "WaypointZone02."
+The value follows the format "0.XX," where "XX" is the WaypointZone number. Note
+that the trigger zone must be named "WaypointZone." For example, "0.02"
+corresponds to "WaypointZone02."
 
 #### Jester_add_wpt_after
 
-The value follows the format "0.TTXXY," where "TT" is the waypoint zone number, "XX" is the waypoint
-number, and "Y" is the flight plan number.
+The value follows the format "0.TTXXY," where "TT" is the waypoint zone number,
+"XX" is the waypoint number, and "Y" is the flight plan number.
 
 #### Jester_resume_flightplan
 
-The value follows the format "0.XXY," where "XX" is the waypoint number (e.g., "01" for waypoint
-1, "12" for waypoint 12), and "Y" is the flight plan number (default is 1 if not specified).
-Examples include "0.05," which refers to turn point 5 in flight plan 1, and "0.102," which refers to
-turn point 10 in flight plan 2.
+The value follows the format "0.XXY," where "XX" is the waypoint number (e.g.,
+"01" for waypoint 1, "12" for waypoint 12), and "Y" is the flight plan number
+(default is 1 if not specified). Examples include "0.05," which refers to turn
+point 5 in flight plan 1, and "0.102," which refers to turn point 10 in flight
+plan 2.
 
 #### Jester_designate_wpt
 
-The value follows the format "0.DXXY," where "D" is the waypoint designation, "XX" is the waypoint
-number (e.g., "01" for waypoint 1, "12" for waypoint 12), and "Y" is the flight plan number (default
-is 1 if not specified). The waypoint designations are as follows:
+The value follows the format "0.DXXY," where "D" is the waypoint designation,
+"XX" is the waypoint number (e.g., "01" for waypoint 1, "12" for waypoint 12),
+and "Y" is the flight plan number (default is 1 if not specified). The waypoint
+designations are as follows:
 
 - 0 -> Default
 - 1 -> CAP
@@ -332,20 +362,23 @@ is 1 if not specified). The waypoint designations are as follows:
 - 8 -> Homebase
 - 9 -> Alternate
 
-For example, "0.005" indicates turn point 5 in flight plan 1 with a Default designation, while "
-0.3102" represents turn point 10 in flight plan 2 with a Target designation.
+For example, "0.005" indicates turn point 5 in flight plan 1 with a Default
+designation, while " 0.3102" represents turn point 10 in flight plan 2 with a
+Target designation.
 
 #### Jester_set_cap_time
 
-The value sets the CAP time for the active CAP pair in the format "0.XX," where "XX" represents the
-number of minutes. For example, "0.05" corresponds to 5 minutes, and "0.12" corresponds to 12
-minutes.
+The value sets the CAP time for the active CAP pair in the format "0.XX," where
+"XX" represents the number of minutes. For example, "0.05" corresponds to 5
+minutes, and "0.12" corresponds to 12 minutes.
 
 #### WRCS Entries and Laser Code
 
-The WRCS Entries are used from 0.999 to 0.000 where 0.999 is the biggest value the WRCS can feature.
-For Jester_set_wrcs_ew_dist and Jester_set_wrcs_ns_dist the s is for - . When a negative value is
-entered it will put in West or South values respectively.
+The WRCS Entries are used from 0.999 to 0.000 where 0.999 is the biggest value
+the WRCS can feature. For Jester_set_wrcs_ew_dist and Jester_set_wrcs_ns_dist
+the s is for - . When a negative value is entered it will put in West or South
+values respectively.
 
-The laser code can be set by entering a valid laser code for XXXX. Note that Jester will not enter
-invalid codes and will not respond in any way other than not entering the laser code.
+The laser code can be set by entering a valid laser code for XXXX. Note that
+Jester will not enter invalid codes and will not respond in any way other than
+not entering the laser code.

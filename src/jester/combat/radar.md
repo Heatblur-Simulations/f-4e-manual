@@ -34,6 +34,11 @@ pilot.
 
 If desired, the player can request Jester to perform an IFF challenge manually
 at any time through the UI (this action can also be bound directly to a key).
+This includes options to either interrogate with both, the
+[AN/APX-76](../../systems/identification_systems.md#anapx-76) and the
+[AN/APX-81A Combat-Tree system](../../systems/identification_systems.md#anapx-81a-combat-tree),
+or to use the AN/APX-76 only.
+
 Should the situation require, the player can manually set a zone for Jester to
 scan outside of his regular pattern through the UI.
 

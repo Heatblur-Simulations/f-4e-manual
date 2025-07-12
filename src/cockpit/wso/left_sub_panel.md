@@ -81,8 +81,8 @@ for details.
 
 ### Code Buttons
 
-The first digit of the code display (<num>3</num>) indicates the current IFF mode, which can be
-either of:
+The first digit of the code display (<num>3</num>) indicates the current mode
+for the AN/APX-76 interrogator. It can be either of:
 
 - Off (white square)
 - Mode 1
@@ -102,16 +102,16 @@ corresponding setting, respectively.
 
 ### Challenge Lamp
 
-This dimmable push-to-test lamp (<num>1</num>) illuminates to indicate IFF active interrogation
+This dimmable push-to-test lamp (<num>1</num>) illuminates to indicate active interrogation
 with the APX-76 system.
 
 ### Test/Challenge Code
 
-Switch (<num>2</num>) that, if set to OFF, turns off the APX-76 interrogation system. In the CHALLENGE
-position, it can be used to interrogate.
+Setting the switch (<num>2</num>) to the CHALLENGE position will send interrogation
+challenges by the AN/APX-76 system.
 
-TEST is used to test the system. If the lamp above lights up, the test was
-successful.
+TEST initiates a test of the system, see
+[AN/APX-76 Test](../../systems/identification_systems.md#test) for details.
 
 ### Anti-Jam
 
@@ -125,15 +125,20 @@ with the APX-81A Combat-Tree system.
 
 ### Test Button
 
-The push button starts the built-in test of the APX-81A Combat-Tree system.
+The push button starts the built-in test of the APX-81A Combat-Tree system,
+see [AN_APX-81A Test](../../systems/identification_systems.md#self-test) for details.
 
 ### Mode 2
 
 This switch (<num>5</num>) is used to set Combat-Tree Mode 2 to either ACTIVE, PASSIVE or OFF types.
 
+The ACTIVE position is required to use the system.
+
 ### Mode 3
 
 This switch (<num>5</num>) is used to set Combat-Tree Mode 3 to either ACTIVE, PASSIVE or OFF types.
+
+The ACTIVE position is required to use the system.
 
 ### Mode 4
 
