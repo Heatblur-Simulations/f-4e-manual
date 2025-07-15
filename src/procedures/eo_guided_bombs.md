@@ -9,7 +9,7 @@ For more details, please refer to chapter
 | ---- | --------------------- | -------------- |
 | 1    | OPTICAL SIGHT         | SET            |
 |      | a. Sight mode         | A/G            |
-|      | b. Reticle depression | 17 MILS        |
+|      | b. Reticle depression | 22 MILS        |
 | 2    | WEAPON SELECT KNOB    | TV             |
 | 3    | DELIVERY MODE KNOB    | DIRECT         |
 | 4    | STATION SELECT BUTTON | SELECT STATION |

@@ -51,7 +51,7 @@ as soon as electric power is connected to the aircraft. By the time the aircraft
 is airborne, they are typically ready to use.
 
 It is helpful to set the optical sight to A/G mode, and enter a depression of
-**17 mils**, so that the sight alignment be that of the missile seeker. This
+**22 mils**, so that the sight alignment be that of the missile seeker. This
 way, the pilot can put the target on the pipper and it will be within the
 weapons view.
 
