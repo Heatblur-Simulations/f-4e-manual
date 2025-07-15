@@ -369,18 +369,18 @@ General Key:
 
 ##### US Naval Threats
 
-| Seeker       | Ticonderoga | Arleigh Burke | Oliver Hazard Perry | Forrestal | Nimitz | Tarawa |
-| ------------ | :---------: | :-----------: | :-----------------: | :-------: | :----: | :----: |
-| Mk 22        |             |               |         TR          |           |   TR   |        |
-| Mk 23        |             |               |         TR          |           |  (TR)  |        |
-| Mk 24 Mod 5  |             |               |         TR          |           |  (TR)  |        |
-| Mk 24 Mod 34 |             |               |         TR          |           |  (TR)  |        |
-| Mk 25        |             |               |         TR          |           |   TR   |        |
-| Mk 36        |    (TR)     |     (TR)      |         TR          |           |   TR   |        |
-| Mk 37        |  (SR)/(TR)  |     SR/TR     |        SR/TR        |           |   TR   |        |
-| Mk 49 Mod 0  |             |               |        (TR)         |           |   TR   |        |
-| Mk 49 Mod 1  |             |               |        (TR)         |           |   TR   |        |
-| Mk 50        |             |               |         TR          |           |  (TR)  |        |
+| Seeker       | Ticonderoga | Arleigh Burke | Oliver Hazard Perry | Forrestal | Nimitz  | Tarawa |
+| ------------ | :---------: | :-----------: | :-----------------: | :-------: | :-----: | :----: |
+| Mk 22        |             |               |         TR          |           |   TR    |        |
+| Mk 23        |             |               |         TR          |           | (SR)/TR |        |
+| Mk 24 Mod 5  |             |               |         TR          |           | (SR)/TR |        |
+| Mk 24 Mod 34 |             |               |         TR          |           | (SR)/TR |        |
+| Mk 25        |             |               |         TR          |           |   TR    |        |
+| Mk 36        |    (TR)     |     (TR)      |         TR          |           |   TR    |        |
+| Mk 37        |  (SR)/(TR)  |     SR/TR     |        SR/TR        |           |  SR/TR  |        |
+| Mk 49 Mod 0  |             |               |        (TR)         |           |   TR    |        |
+| Mk 49 Mod 1  |             |               |        (TR)         |           |   TR    |        |
+| Mk 50        |             |               |         TR          |           | (SR)/TR |        |
 
 ##### British Naval Threats
 
@@ -399,15 +399,15 @@ General Key:
 
 ##### Other Naval Threats
 
-| Seeker       | Veinticinco de Mayo | Condell | Tiger |
-| ------------ | :-----------------: | :-----: | :---: |
-| Mk 22        |                     |         |       |
-| Mk 23        |      (SR)/(TR)      |         |       |
-| Mk 24 Mod 5  |                     |         |       |
-| Mk 24 Mod 34 |                     |         |       |
-| Mk 25        |                     |         |       |
-| Mk 36        |                     |         |       |
-| Mk 37        |                     |         |       |
-| Mk 49 Mod 0  |                     |         |       |
-| Mk 49 Mod 1  |                     |         |       |
-| Mk 50        |      (SR)/(TR)      |         |       |
+| Seeker       | Veinticinco de Mayo | Condell | Tiger | La Combattante IIa |
+| ------------ | :-----------------: | :-----: | :---: | :----------------: |
+| Mk 22        |                     |         |       |                    |
+| Mk 23        |        (SR)         |         |       |                    |
+| Mk 24 Mod 5  |                     |         |       |                    |
+| Mk 24 Mod 34 |                     |         |       |                    |
+| Mk 25        |                     |         |       |         SR         |
+| Mk 36        |                     |         |       |         TR         |
+| Mk 37        |                     |         |       |                    |
+| Mk 49 Mod 0  |                     |         |       |         TR         |
+| Mk 49 Mod 1  |                     |         |       |         TR         |
+| Mk 50        |        (SR)         |         |       |        (SR)        |
