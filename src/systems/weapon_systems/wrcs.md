@@ -46,8 +46,9 @@ AN/ASQ-91 WRCS 赋予了 F-4E 精确执行水平与俯冲武器投送的能力�
 
 式中
 
-- `RA` = 投放提前控制，毫秒 - `I_R` = AWRU 投放间隔设置，毫秒 - `N_Tgt` = 投到目标上的炸弹是序列中
-  的第几发
+- `RA` = 投放提前控制，毫秒
+- `I_R` = AWRU 投放间隔设置，毫秒
+- `N_Tgt` = 投到目标上的炸弹是序列中的第几发
 
 ![Release Advance Formula](../../img/release_advance_formula_example.jpg)
 
