@@ -399,15 +399,15 @@ General Key:
 
 ##### Other Naval Threats
 
-| Seeker       | Veinticinco de Mayo | Condell | Tiger | La Combattante IIa |
-| ------------ | :-----------------: | :-----: | :---: | :----------------: |
-| Mk 22        |                     |         |       |                    |
-| Mk 23        |        (SR)         |         |       |                    |
-| Mk 24 Mod 5  |                     |         |       |                    |
-| Mk 24 Mod 34 |                     |         |       |                    |
-| Mk 25        |                     |         |       |         SR         |
-| Mk 36        |                     |         |       |         TR         |
-| Mk 37        |                     |         |       |                    |
-| Mk 49 Mod 0  |                     |         |       |         TR         |
-| Mk 49 Mod 1  |                     |         |       |         TR         |
-| Mk 50        |        (SR)         |         |       |        (SR)        |
+| Seeker       | Veinticinco de Mayo | Condell | Tiger/La Combattante IIa |
+| ------------ | :-----------------: | :-----: | :----------------------: |
+| Mk 22        |                     |         |                          |
+| Mk 23        |        (SR)         |         |                          |
+| Mk 24 Mod 5  |                     |         |                          |
+| Mk 24 Mod 34 |                     |         |                          |
+| Mk 25        |                     |         |            SR            |
+| Mk 36        |                     |         |            TR            |
+| Mk 37        |                     |         |                          |
+| Mk 49 Mod 0  |                     |         |                          |
+| Mk 49 Mod 1  |                     |         |                          |
+| Mk 50        |        (SR)         |         |           (SR)           |
