@@ -178,6 +178,18 @@ time. Light during the day and Dark for a night mission.
 
 ## Jester UI
 
+### Animation Speed
+
+The value is applied as factor to certain animations in the Jester UI, such as
+the closing and opening of the wheel or the blinking when selecting an item.
+
+The default speed is given by `1.0`. Values above that speed up the animations,
+values below `1.0` slow it down. The allowed range is `0.01` to `1000`.
+
+> 💡 Using a value such as `1000` effectively disables the animations.
+> While negatively impacting the visual experience, this can help
+> if the UI does not feel responsive enough.
+
 ### Allow Mouse Controls
 
 When checked, the Jester UI allows interaction with the mouse moving it over

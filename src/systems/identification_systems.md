@@ -173,9 +173,8 @@ entire screen.
 ### AN/APX-81A Combat-Tree
 
 Combat-Tree is designed to spoof hostile IFF transponders by sending
-interrogation requests compatible with these systems.
-The hostile transponder will then send back a response, revealing the
-position of the aircraft.
+interrogation requests compatible with these systems. The hostile transponder
+will then send back a response, revealing the position of the aircraft.
 
 > 💡 Spoofable systems that can be exploited by the AN/APX-81A can be configured
 > in the [Mission Editor](../dcs/mission_editor.md#combat-tree-spoofable).
@@ -189,16 +188,16 @@ the Antenna Hand Control Stick.
 > 💡 If AN/APX-76 is setup, pressing the Challenge Button will also send an
 > interrogation request by AN/APX-76.
 
-Responses to a spoofed request are indicated by a single line above the contact.
+Responses to a spoofed request are indicated by a single line below the contact.
 
 ![Radar with hostile contacts](../img/radar_iff_hostile.jpg)
 
-> 💡 The indication is identical to responses to an AN/APX-76 interrogation with
-> only a matching transponder mode, but different code. To differentiate to
-> which challenge the response belongs, it is necessary to either deactivate one
-> interrogation system, or to send a AN/APX-76-only challenge by using the
-> Test/Challenge Switch (<num>2</num>) in the CHAL CODE position and compare
-> results.
+> 💡 The indication is almost identical to responses to an AN/APX-76
+> interrogation with only a matching transponder mode, but different code. To
+> differentiate to which challenge the response belongs, it is necessary to
+> either deactivate one interrogation system, or to send a AN/APX-76-only
+> challenge by using the Test/Challenge Switch (<num>2</num>) in the CHAL CODE
+> position and compare results.
 
 Each time the AN/APX-81A is sending an interrogation, the TEST/CHAL light
 (<num>6</num>) illuminates.
