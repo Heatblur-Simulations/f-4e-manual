@@ -20,7 +20,7 @@ Explosive, and the Mk 5 High Explosive Anti Tank. Depending on the hardpoint
 location and configuration, up to 3 LAU-3 pod launchers can be installed per
 hardpoint, each carrying 19 FFARs.
 
-## Variants
+### Variants
 
 Available variants include:
 
@@ -29,6 +29,19 @@ Available variants include:
 | White Phosphor | For marking target areas                   |
 | HE             | Against infantry and light armored targets |
 | HEAT           | Against armored targets, such as vehicles  |
+
+## Mk 71 Series 5'' Zunis
+
+![zunis](../../img/zunis_launching.jpg)
+
+The Mk 71 Zuni is a 5 inch Folding Fin Aerial Rocket (FFAR) that can be equipped
+with a variety of motors and warheads. It is typically launched from a LAU-10
+pod, holding 4 rockets.
+
+The rocket is currently equipped with the Mk 63 **HE/FRAG** warhead.
+
+The weapon was not employed by the F-4E historically, but served as crucial
+ordnance for Navy variants and the german F-4F versions.
 
 ## Employment
 

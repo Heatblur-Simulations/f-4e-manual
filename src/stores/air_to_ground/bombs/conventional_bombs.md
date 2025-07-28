@@ -27,8 +27,8 @@ Available conventional unguided bombs are:
 | Mk-84         | 2000 lb | Low Drag                        |
 | Mk-84 AIR     | 2000 lb | High Drag Chute                 |
 | M-117         |  750 lb | Low Drag                        |
-| SAMP-250 LD   |  550 lb | Low Drag, used by german F-4EF  |
-| SAMP-250 HD   |  550 lb | High Drag, used by german F-4EF |
+| SAMP-250 LD   |  550 lb | Low Drag, used by german F-4F   |
+| SAMP-250 HD   |  550 lb | High Drag, used by german F-4F  |
 
 ## BDU Series Training Bombs
 
