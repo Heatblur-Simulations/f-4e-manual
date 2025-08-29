@@ -143,7 +143,6 @@ work correctly.
 > 💡 When a persistent aircraft is loaded, or when the persistent aircraft state
 > is initialized via the keybind, a message will appear on screen.
 
-
 ## HB UI
 
 ### Resolution Override

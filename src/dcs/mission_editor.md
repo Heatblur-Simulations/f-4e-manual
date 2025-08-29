@@ -138,7 +138,7 @@ values.
 > properties will deviate from your opponents.
 
 > 💡 This selection overrides the 'Persistent Aircraft' option from
->  the special options menu.
+> the special options menu.
 
 ### Persistent
 
@@ -146,7 +146,7 @@ If a matching save file is found, loads the saved aircraft state. This
 includes wear, condition, and all other properties.
 
 > 💡 This selection overrides the 'Persistent Aircraft' option from
->  the special options menu.
+> the special options menu.
 
 ## Persistent Aircraft Key
 
