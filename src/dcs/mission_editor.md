@@ -46,6 +46,19 @@ of moving the elevation gimbal between 58 and 62 degrees per second.
 > 💡 Variance goes in both directions, your Phantom can also be faster than it
 > is supposed to be.
 
+Condition and wear also change the chance of random failures.
+Each component has a mean operating time. At spawn, an expected lifetime is
+drawn at random around that mean. Higher wear and lower condition make failures
+more likely.
+
+When you spawn a new **Random** aircraft, each component’s wear is drawn by
+using its own lifetime, the aircraft’s overall hours, and the global wear
+setting. Subcomponents can end up with different wear than their parent
+component.
+
+If a **Persistent** aircraft is loaded, wear and condition for each component
+are read from the saved aircraft.
+
 ### Aircraft Condition
 
 An aircraft's condition generally refers to its factory and production quality.
@@ -89,9 +102,22 @@ variance σ will additionally increase by 20%. Assuming a good initial starting
 condition, the motor will at that point likely operate between 45 and 75 degrees
 per second.
 
+A worn or poor condition aircraft can also feel sluggish. For example, needles
+may move slower, or engines may make less power.
+
 ![Crashed Phantom](../img/broken_phantom_crash.jpg)
 
-### Reference Aircraft
+## Aircraft Type On Spawn
+
+Dropdown to select which aircraft state is used at spawn.
+
+### Random
+
+Generates a new unique aircraft. Condition and wear are applied. Each component
+gets its own randomly drawn wear based on its lifetime and the aircraft’s
+overall wear and condition.
+
+### Reference
 
 The variance system at initial spawn can be turned off with this checkbox, if
 desired. Components will then start with their mean value μ, without any
@@ -110,6 +136,27 @@ values.
 > 💡 Even the reference aircraft is still subject to wear and tear during
 > flight. In a competition, if you pull high Gs, your aircraft's component
 > properties will deviate from your opponents.
+
+> 💡 This selection overrides the 'Persistent Aircraft' option from
+>  the special options menu.
+
+### Persistent
+
+If a matching save file is found, loads the saved aircraft state. This
+includes wear, condition, and all other properties.
+
+> 💡 This selection overrides the 'Persistent Aircraft' option from
+>  the special options menu.
+
+## Persistent Aircraft Key
+
+Text box to set the save name (key) for persistent aircraft.
+
+Enter a short text with letters and numbers, for example `campaign_1`. When
+**Persistent** is selected in _Aircraft Type On Spawn_, this key is used to read
+and save that aircraft’s state (wear, condition, properties, etc.). Use the same
+key across missions in one campaign to keep a single shared airframe. Use
+different keys to keep separate saves, like game save slots.
 
 ## INS Reference Alignment Stored
 
