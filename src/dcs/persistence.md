@@ -10,7 +10,8 @@ missions.
 
 The aircraft state includes all its properties, as well as its components
 [wear, tear and condition](mission_editor.md#condition-and-wear). This also
-includes positions of switches and knobs.
+includes positions of switches and knobs. Damaged components are automatically
+repaired between flights.
 
 > 💡 Depending on the spawn type, the ground crew might change some switches and
 > knobs while preparing the aircraft for the pilot in advance.
@@ -24,7 +25,7 @@ or after a crash).
 A persisted aircraft is saved as file located in the **Saved Games** folder. A
 possible path might for example look like:
 
-`C:\Users\John Doe\Saved Games\DCS_F4E`
+`C:\Users\John Doe\Saved Games\DCS_F4E\cache\persistent_ac`
 
 The name of the file is the _aircraft key_ used to identify a particular
 persisted aircraft.
