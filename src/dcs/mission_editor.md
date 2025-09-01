@@ -108,6 +108,11 @@ Dropdown to select which aircraft state is used at spawn.
 Generates a new unique aircraft. Condition and wear settings
 are applied as chosen.
 
+If the user enabled aircraft persistence in their
+[Special Options](special_options.md#persistent-aircraft-by-livery-and-tail-number)
+and the aircraft matches a previously saved aircraft,
+the persisted aircraft will be loaded instead.
+
 ### Reference
 
 The aircraft used in this flight is the _reference aircraft_.
@@ -132,6 +137,9 @@ aircraft, saving its state for a subsequent flight. And if a matching state
 could already be found, it will also load this persisted aircraft for this flight.
 
 See [9.6. Persistence](persistence.md) for details.
+
+> 💡 This overrules persistence settings made by the user,
+> see [9.2. Special Options](special_options.md#persistent-aircraft-by-livery-and-tail-number).
 
 ## Persistent Aircraft Key
 

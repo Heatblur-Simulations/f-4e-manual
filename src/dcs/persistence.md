@@ -10,8 +10,8 @@ missions.
 
 The aircraft state includes all its properties, as well as its components
 [wear, tear and condition](mission_editor.md#condition-and-wear). This also
-includes positions of switches and knobs. Damaged components are automatically
-repaired between flights.
+includes positions of switches and knobs. Damaged components are **automatically
+repaired** between flights.
 
 > 💡 Depending on the spawn type, the ground crew might change some switches and
 > knobs while preparing the aircraft for the pilot in advance.

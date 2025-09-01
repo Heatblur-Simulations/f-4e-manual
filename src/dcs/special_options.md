@@ -125,6 +125,9 @@ tail-number results in this particular aircraft being loaded again.
 
 See [9.6. Persistence](persistence.md) for details.
 
+> 💡 Mission authors can overrule this setting,
+> see [9.12. Mission Editor](mission_editor.md#persistent).
+
 ## HB UI
 
 ### Resolution Override
