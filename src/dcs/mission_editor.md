@@ -46,18 +46,10 @@ of moving the elevation gimbal between 58 and 62 degrees per second.
 > 💡 Variance goes in both directions, your Phantom can also be faster than it
 > is supposed to be.
 
-Condition and wear also change the chance of random failures.
+Condition and wear also change the chance of failures.
 Each component has a mean operating time. At spawn, an expected lifetime is
-drawn at random around that mean. Higher wear and lower condition make failures
+drawn around that mean. Higher wear and lower condition make failures
 more likely.
-
-When you spawn a new **Random** aircraft, each component’s wear is drawn by
-using its own lifetime, the aircraft’s overall hours, and the global wear
-setting. Subcomponents can end up with different wear than their parent
-component.
-
-If a **Persistent** aircraft is loaded, wear and condition for each component
-are read from the saved aircraft.
 
 ### Aircraft Condition
 
@@ -103,7 +95,7 @@ condition, the motor will at that point likely operate between 45 and 75 degrees
 per second.
 
 A worn or poor condition aircraft can also feel sluggish. For example, needles
-may move slower, or engines may make less power.
+may move slower, or engines may produce less power.
 
 ![Crashed Phantom](../img/broken_phantom_crash.jpg)
 
@@ -113,20 +105,16 @@ Dropdown to select which aircraft state is used at spawn.
 
 ### Random
 
-Generates a new unique aircraft. Condition and wear are applied. Each component
-gets its own randomly drawn wear based on its lifetime and the aircraft’s
-overall wear and condition.
+Generates a new unique aircraft. Condition and wear settings
+are applied as chosen.
 
 ### Reference
 
-The variance system at initial spawn can be turned off with this checkbox, if
-desired. Components will then start with their mean value μ, without any
-variance.
+The aircraft used in this flight is the _reference aircraft_.
 
-That is, with the option checked the setting for condition, as well as wear and
-tear are ignored and disabled. The aircraft will spawn with all properties set
-exactly as specified by the manufacturer and according to documentation, without
-any variance.
+This effectively ignores the settings for condition, as well as wear and
+tear. The aircraft will spawn with all properties set exactly as specified by the
+manufacturer and according to documentation, without any variance.
 
 This is especially interesting for competitions, where both sides should start
 with the same conditions for fairness. Or when performing tests and computing
@@ -137,26 +125,24 @@ values.
 > flight. In a competition, if you pull high Gs, your aircraft's component
 > properties will deviate from your opponents.
 
-> 💡 This selection overrides the 'Persistent Aircraft' option from
-> the special options menu.
-
 ### Persistent
 
-If a matching save file is found, loads the saved aircraft state. This
-includes wear, condition, and all other properties.
+Enables the aircraft persistence system. This starts tracking this particular
+aircraft, saving its state for a subsequent flight. And if a matching state
+could already be found, it will also load this persisted aircraft for this flight.
 
-> 💡 This selection overrides the 'Persistent Aircraft' option from
-> the special options menu.
+See [9.6. Persistence](persistence.md) for details.
 
 ## Persistent Aircraft Key
 
-Text box to set the save name (key) for persistent aircraft.
+This text box allows entering the name (also known as _Aircraft Key_) for the
+aircraft to be saved and loaded by the persistency system.
 
-Enter a short text with letters and numbers, for example `campaign_1`. When
-**Persistent** is selected in _Aircraft Type On Spawn_, this key is used to read
-and save that aircraft’s state (wear, condition, properties, etc.). Use the same
+Enter a short text with letters and numbers, for example `campaign_1`. Use the same
 key across missions in one campaign to keep a single shared airframe. Use
-different keys to keep separate saves, like game save slots.
+different keys to represent different persisted aircraft.
+
+See [9.6. Persistence](persistence.md) for details.
 
 ## INS Reference Alignment Stored
 

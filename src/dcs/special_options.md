@@ -116,32 +116,14 @@ altitude, similar as seen in civilian aviation.
 
 ## Persistent Aircraft (by livery and tail number)
 
-When checked, enables saving and loading a persistent aircraft keyed by its
-current livery and tail number.
+When checked, enables the aircraft persistence system.
+Allowing to save and load aircraft state across flights.
 
-Use the keybind 'Initialize Persistent Aircraft State' to start tracking the
-current aircraft. Once initialized, the aircraft is saved when exiting the
-mission on the ground (and not after a crash). In any later mission, selecting
-the same livery and tail number will load the same aircraft.
+The bind **Initialize Persistent Aircraft State** is used initially to start tracking the current aircraft.
+Any subsequent mission flown with the same combination of livery and
+tail-number results in this particular aircraft being loaded again.
 
-You can maintain any number of livery–tail number combinations.
-
-The Mission Editor settings **Reference Aircraft** and **Persistent aircraft**
-(with or without a key) will override this option.
-
-By same aircraft it is meant that the airplane’s properties, behavior, wear,
-and quality match the saved state.
-
-If the aircraft suffered damage previously, damaged components are considered
-repaired at spawn.
-
-Cockpit switch and knob positions may not always persist. If the ground crew
-(during shutdown) or the pilot (during startup, e.g. hot start) would normally
-check or change a control, that procedure takes precedence so all spawn types
-work correctly.
-
-> 💡 When a persistent aircraft is loaded, or when the persistent aircraft state
-> is initialized via the keybind, a message will appear on screen.
+See [9.6. Persistence](persistence.md) for details.
 
 ## HB UI
 
