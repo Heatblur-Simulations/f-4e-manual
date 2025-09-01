@@ -46,8 +46,8 @@ aircraft state.
 The user can setup persistency in their Special Settings by checking
 [Persistent Aircraft (by livery and tail number)](special_options.md#persistent-aircraft-by-livery-and-tail-number).
 
-The bind **Initialize Persistent Aircraft State** must be pressed on first use
-to start tracking this particular aircraft.
+The bind **Initialize Persistent Aircraft State** (<kbd>LCTRL</kbd>+<kbd>P</kbd>)
+must be pressed on first use to start tracking this particular aircraft.
 
 The aircraft is tracked by its livery and tail number. Any subsequent mission
 flown with the same combination of livery and tail number, while aircraft

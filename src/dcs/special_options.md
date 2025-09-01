@@ -119,9 +119,10 @@ altitude, similar as seen in civilian aviation.
 When checked, enables the aircraft persistence system.
 Allowing to save and load aircraft state across flights.
 
-The bind **Initialize Persistent Aircraft State** is used initially to start tracking the current aircraft.
-Any subsequent mission flown with the same combination of livery and
-tail-number results in this particular aircraft being loaded again.
+The bind **Initialize Persistent Aircraft State** (<kbd>LCTRL</kbd>+<kbd>P</kbd>)
+is used initially to start tracking the current aircraft. Any subsequent mission
+flown with the same combination of livery and tail-number results in this particular
+aircraft being loaded again.
 
 See [9.6. Persistence](persistence.md) for details.
 
