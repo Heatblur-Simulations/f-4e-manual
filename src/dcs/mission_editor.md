@@ -46,6 +46,11 @@ of moving the elevation gimbal between 58 and 62 degrees per second.
 > 💡 Variance goes in both directions, your Phantom can also be faster than it
 > is supposed to be.
 
+Condition and wear also change the chance of failures.
+Each component has a mean operating time. At spawn, an expected lifetime is
+drawn around that mean. Higher wear and lower condition make failures
+more likely.
+
 ### Aircraft Condition
 
 An aircraft's condition generally refers to its factory and production quality.
@@ -89,18 +94,32 @@ variance σ will additionally increase by 20%. Assuming a good initial starting
 condition, the motor will at that point likely operate between 45 and 75 degrees
 per second.
 
+A worn or poor condition aircraft can also feel sluggish. For example, needles
+may move slower, or engines may produce less power.
+
 ![Crashed Phantom](../img/broken_phantom_crash.jpg)
 
-### Reference Aircraft
+## Aircraft Type On Spawn
 
-The variance system at initial spawn can be turned off with this checkbox, if
-desired. Components will then start with their mean value μ, without any
-variance.
+Dropdown to select which aircraft state is used at spawn.
 
-That is, with the option checked the setting for condition, as well as wear and
-tear are ignored and disabled. The aircraft will spawn with all properties set
-exactly as specified by the manufacturer and according to documentation, without
-any variance.
+### Random
+
+Generates a new unique aircraft. Condition and wear settings
+are applied as chosen.
+
+If the user enabled aircraft persistence in their
+[Special Options](special_options.md#persistent-aircraft-by-livery-and-tail-number)
+and the aircraft matches a previously saved aircraft,
+the persisted aircraft will be loaded instead.
+
+### Reference
+
+The aircraft used in this flight is the _reference aircraft_.
+
+This effectively ignores the settings for condition, as well as wear and
+tear. The aircraft will spawn with all properties set exactly as specified by the
+manufacturer and according to documentation, without any variance.
 
 This is especially interesting for competitions, where both sides should start
 with the same conditions for fairness. Or when performing tests and computing
@@ -110,6 +129,28 @@ values.
 > 💡 Even the reference aircraft is still subject to wear and tear during
 > flight. In a competition, if you pull high Gs, your aircraft's component
 > properties will deviate from your opponents.
+
+### Persistent
+
+Enables the aircraft persistence system. This starts tracking this particular
+aircraft, saving its state for a subsequent flight. And if a matching state
+could already be found, it will also load this persisted aircraft for this flight.
+
+See [9.6. Persistence](persistence.md) for details.
+
+> 💡 This overrules persistence settings made by the user,
+> see [9.2. Special Options](special_options.md#persistent-aircraft-by-livery-and-tail-number).
+
+## Persistent Aircraft Key
+
+This text box allows entering the name (also known as _Aircraft Key_) for the
+aircraft to be saved and loaded by the persistency system.
+
+Enter a short text with letters and numbers, for example `campaign_1`. Use the same
+key across missions in one campaign to keep a single shared airframe. Use
+different keys to represent different persisted aircraft.
+
+See [9.6. Persistence](persistence.md) for details.
 
 ## INS Reference Alignment Stored
 

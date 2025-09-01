@@ -114,6 +114,20 @@ altitude, similar as seen in civilian aviation.
 
 > 💡 Real Phantom WSOs did not assist during landing.
 
+## Persistent Aircraft (by livery and tail number)
+
+When checked, enables the aircraft persistence system.
+Allowing to save and load aircraft state across flights.
+
+The bind **Initialize Persistent Aircraft State** is used initially to start tracking the current aircraft.
+Any subsequent mission flown with the same combination of livery and
+tail-number results in this particular aircraft being loaded again.
+
+See [9.6. Persistence](persistence.md) for details.
+
+> 💡 Mission authors can overrule this setting,
+> see [9.12. Mission Editor](mission_editor.md#persistent).
+
 ## HB UI
 
 ### Resolution Override
