@@ -15777,6 +15777,17 @@ altitude, similar as seen in civilian aviation.</p>
 <blockquote>
 <p>💡 Real Phantom WSOs did not assist during landing.</p>
 </blockquote>
+<h2 id="persistent-aircraft-by-livery-and-tail-number"><a class="header" href="#persistent-aircraft-by-livery-and-tail-number">Persistent Aircraft (by livery and tail number)</a></h2>
+<p>When checked, enables the aircraft persistence system.
+Allowing to save and load aircraft state across flights.</p>
+<p>The bind <strong>Initialize Persistent Aircraft State</strong> is used initially to start tracking the current aircraft.
+Any subsequent mission flown with the same combination of livery and
+tail-number results in this particular aircraft being loaded again.</p>
+<p>See <a href="dcs/persistence.html">9.6. Persistence</a> for details.</p>
+<blockquote>
+<p>💡 Mission authors can overrule this setting,
+see <a href="dcs/mission_editor.html#persistent">9.12. Mission Editor</a>.</p>
+</blockquote>
 <h2 id="hb-ui"><a class="header" href="#hb-ui">HB UI</a></h2>
 <h3 id="resolution-override"><a class="header" href="#resolution-override">Resolution Override</a></h3>
 <p>User interface elements, such as the Jester Wheel, the manual, virtual browser
@@ -16214,6 +16225,54 @@ still too large. If the flag is not shown, the controller synchronizes both
 generators in an attempt to reduce the delta values.</p>
 <p>If both, the frequency and the phase differences are close to zero, the
 controller allows connecting the BUS TIE to balance load between them.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="persistence"><a class="header" href="#persistence">Persistence</a></h1>
+<p>The module features a persistence system that allows saving the aircraft's
+current state, making it available for a subsequent flight - even across
+missions.</p>
+<blockquote>
+<p>💡 Aircraft persistence can be a great feature for <strong>campaign builders</strong>,
+simulating that the pilot has to re-use the same aircraft across several
+missions of the campaign.</p>
+</blockquote>
+<p><img src="dcs/../img/f4_in_hangar.jpg" alt="F4 in Hangar" /></p>
+<p>The aircraft state includes all its properties, as well as its components
+<a href="dcs/mission_editor.html#condition-and-wear">wear, tear and condition</a>. This also
+includes positions of switches and knobs. Damaged components are <strong>automatically
+repaired</strong> between flights.</p>
+<blockquote>
+<p>💡 Depending on the spawn type, the ground crew might change some switches and
+knobs while preparing the aircraft for the pilot in advance.</p>
+</blockquote>
+<p>With persistence enabled, the state of the aircraft will be automatically saved
+when the aircraft is <strong>successfully left on ground</strong> (for example not in-flight
+or after a crash).</p>
+<h2 id="aircraft-key"><a class="header" href="#aircraft-key">Aircraft Key</a></h2>
+<p>A persisted aircraft is saved as file located in the <strong>Saved Games</strong> folder. A
+possible path might for example look like:</p>
+<p><code>C:\Users\John Doe\Saved Games\DCS_F4E\cache\persistent_ac</code></p>
+<p>The name of the file is the <em>aircraft key</em> used to identify a particular
+persisted aircraft.</p>
+<p>These keys are either automatically generated based on <strong>Livery</strong> and <strong>Tail
+Number</strong> of the aircraft, or set explicitly by the author of a mission through
+Mission Editor settings.</p>
+<h2 id="enable"><a class="header" href="#enable">Enable</a></h2>
+<p>There are two ways to enable the persistence system to save and load the
+aircraft state.</p>
+<h3 id="special-setting"><a class="header" href="#special-setting">Special Setting</a></h3>
+<p>The user can setup persistency in their Special Settings by checking
+<a href="dcs/special_options.html#persistent-aircraft-by-livery-and-tail-number">Persistent Aircraft (by livery and tail number)</a>.</p>
+<p>The bind <strong>Initialize Persistent Aircraft State</strong> must be pressed on first use
+to start tracking this particular aircraft.</p>
+<p>The aircraft is tracked by its livery and tail number. Any subsequent mission
+flown with the same combination of livery and tail number, while aircraft
+persistence is enabled, will load this particular aircraft.</p>
+<h3 id="mission-editor"><a class="header" href="#mission-editor">Mission Editor</a></h3>
+<p>The author of a mission can overrule any user made special settings for their
+mission by enabling or disabling the persistence systems through Mission Editor
+settings.</p>
+<p>The option <a href="dcs/mission_editor.html#persistent">Spawn Type: Persistent</a> enables the
+system and <a href="dcs/mission_editor.html#persistent-aircraft-key">Persistent Aircraft Key</a>
+is used determine which particular tracked aircraft is flown in this mission.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="grease-pencil"><a class="header" href="#grease-pencil">Grease Pencil</a></h1>
 <p>Both crew members can use a grease pencil to draw on the side of their canopy.</p>
 <p>The interface can be opened by clicking on the corresponding spot on the right
@@ -16363,7 +16422,7 @@ currently in First-Person-View (<kbd>F1</kbd>).</p>
 <p><img src="dcs/../img/selfie_shot.jpg" alt="Selfie Shot" /></p>
 <p>Additionally, another special bind exists to freeze the character model
 movement.</p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="mission-editor"><a class="header" href="#mission-editor">Mission Editor</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="mission-editor-1"><a class="header" href="#mission-editor-1">Mission Editor</a></h1>
 <p>The F-4 has several special options selectable in the Mission Editor.</p>
 <p><img src="dcs/../img/mission_editor_special_options.jpg" alt="Special Options" /></p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AeYEjXhausw?si=nUfM3bu4pYuV7i6Z"
@@ -16400,6 +16459,10 @@ of moving the elevation gimbal between 58 and 62 degrees per second.</p>
 <p>💡 Variance goes in both directions, your Phantom can also be faster than it
 is supposed to be.</p>
 </blockquote>
+<p>Condition and wear also change the chance of failures.
+Each component has a mean operating time. At spawn, an expected lifetime is
+drawn around that mean. Higher wear and lower condition make failures
+more likely.</p>
 <h3 id="aircraft-condition"><a class="header" href="#aircraft-condition">Aircraft Condition</a></h3>
 <p>An aircraft's condition generally refers to its factory and production quality.
 For example, during war times a factory might run out of supplies and reduce
@@ -16435,15 +16498,23 @@ in-flight.</p>
 variance σ will additionally increase by 20%. Assuming a good initial starting
 condition, the motor will at that point likely operate between 45 and 75 degrees
 per second.</p>
+<p>A worn or poor condition aircraft can also feel sluggish. For example, needles
+may move slower, or engines may produce less power.</p>
 <p><img src="dcs/../img/broken_phantom_crash.jpg" alt="Crashed Phantom" /></p>
-<h3 id="reference-aircraft"><a class="header" href="#reference-aircraft">Reference Aircraft</a></h3>
-<p>The variance system at initial spawn can be turned off with this checkbox, if
-desired. Components will then start with their mean value μ, without any
-variance.</p>
-<p>That is, with the option checked the setting for condition, as well as wear and
-tear are ignored and disabled. The aircraft will spawn with all properties set
-exactly as specified by the manufacturer and according to documentation, without
-any variance.</p>
+<h2 id="aircraft-type-on-spawn"><a class="header" href="#aircraft-type-on-spawn">Aircraft Type On Spawn</a></h2>
+<p>Dropdown to select which aircraft state is used at spawn.</p>
+<h3 id="random"><a class="header" href="#random">Random</a></h3>
+<p>Generates a new unique aircraft. Condition and wear settings
+are applied as chosen.</p>
+<p>If the user enabled aircraft persistence in their
+<a href="dcs/special_options.html#persistent-aircraft-by-livery-and-tail-number">Special Options</a>
+and the aircraft matches a previously saved aircraft,
+the persisted aircraft will be loaded instead.</p>
+<h3 id="reference"><a class="header" href="#reference">Reference</a></h3>
+<p>The aircraft used in this flight is the <em>reference aircraft</em>.</p>
+<p>This effectively ignores the settings for condition, as well as wear and
+tear. The aircraft will spawn with all properties set exactly as specified by the
+manufacturer and according to documentation, without any variance.</p>
 <p>This is especially interesting for competitions, where both sides should start
 with the same conditions for fairness. Or when performing tests and computing
 performance charts, where the aircraft should always start with the exact same
@@ -16453,6 +16524,22 @@ values.</p>
 flight. In a competition, if you pull high Gs, your aircraft's component
 properties will deviate from your opponents.</p>
 </blockquote>
+<h3 id="persistent"><a class="header" href="#persistent">Persistent</a></h3>
+<p>Enables the aircraft persistence system. This starts tracking this particular
+aircraft, saving its state for a subsequent flight. And if a matching state
+could already be found, it will also load this persisted aircraft for this flight.</p>
+<p>See <a href="dcs/persistence.html">9.6. Persistence</a> for details.</p>
+<blockquote>
+<p>💡 This overrules persistence settings made by the user,
+see <a href="dcs/special_options.html#persistent-aircraft-by-livery-and-tail-number">9.2. Special Options</a>.</p>
+</blockquote>
+<h2 id="persistent-aircraft-key"><a class="header" href="#persistent-aircraft-key">Persistent Aircraft Key</a></h2>
+<p>This text box allows entering the name (also known as <em>Aircraft Key</em>) for the
+aircraft to be saved and loaded by the persistency system.</p>
+<p>Enter a short text with letters and numbers, for example <code>campaign_1</code>. Use the same
+key across missions in one campaign to keep a single shared airframe. Use
+different keys to represent different persisted aircraft.</p>
+<p>See <a href="dcs/persistence.html">9.6. Persistence</a> for details.</p>
 <h2 id="ins-reference-alignment-stored"><a class="header" href="#ins-reference-alignment-stored">INS Reference Alignment Stored</a></h2>
 <p>This checkbox allows significant reduction of the time needed for a proper INS
 alignment during cold-start.</p>

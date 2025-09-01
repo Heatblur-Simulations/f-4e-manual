@@ -198,6 +198,10 @@ of moving the elevation gimbal between 58 and 62 degrees per second.</p>
 <p>💡 Variance goes in both directions, your Phantom can also be faster than it
 is supposed to be.</p>
 </blockquote>
+<p>Condition and wear also change the chance of failures.
+Each component has a mean operating time. At spawn, an expected lifetime is
+drawn around that mean. Higher wear and lower condition make failures
+more likely.</p>
 <h3 id="aircraft-condition"><a class="header" href="#aircraft-condition">Aircraft Condition</a></h3>
 <p>An aircraft's condition generally refers to its factory and production quality.
 For example, during war times a factory might run out of supplies and reduce
@@ -233,15 +237,23 @@ in-flight.</p>
 variance σ will additionally increase by 20%. Assuming a good initial starting
 condition, the motor will at that point likely operate between 45 and 75 degrees
 per second.</p>
+<p>A worn or poor condition aircraft can also feel sluggish. For example, needles
+may move slower, or engines may produce less power.</p>
 <p><img src="../img/broken_phantom_crash.jpg" alt="Crashed Phantom" /></p>
-<h3 id="reference-aircraft"><a class="header" href="#reference-aircraft">Reference Aircraft</a></h3>
-<p>The variance system at initial spawn can be turned off with this checkbox, if
-desired. Components will then start with their mean value μ, without any
-variance.</p>
-<p>That is, with the option checked the setting for condition, as well as wear and
-tear are ignored and disabled. The aircraft will spawn with all properties set
-exactly as specified by the manufacturer and according to documentation, without
-any variance.</p>
+<h2 id="aircraft-type-on-spawn"><a class="header" href="#aircraft-type-on-spawn">Aircraft Type On Spawn</a></h2>
+<p>Dropdown to select which aircraft state is used at spawn.</p>
+<h3 id="random"><a class="header" href="#random">Random</a></h3>
+<p>Generates a new unique aircraft. Condition and wear settings
+are applied as chosen.</p>
+<p>If the user enabled aircraft persistence in their
+<a href="special_options.html#persistent-aircraft-by-livery-and-tail-number">Special Options</a>
+and the aircraft matches a previously saved aircraft,
+the persisted aircraft will be loaded instead.</p>
+<h3 id="reference"><a class="header" href="#reference">Reference</a></h3>
+<p>The aircraft used in this flight is the <em>reference aircraft</em>.</p>
+<p>This effectively ignores the settings for condition, as well as wear and
+tear. The aircraft will spawn with all properties set exactly as specified by the
+manufacturer and according to documentation, without any variance.</p>
 <p>This is especially interesting for competitions, where both sides should start
 with the same conditions for fairness. Or when performing tests and computing
 performance charts, where the aircraft should always start with the exact same
@@ -251,6 +263,22 @@ values.</p>
 flight. In a competition, if you pull high Gs, your aircraft's component
 properties will deviate from your opponents.</p>
 </blockquote>
+<h3 id="persistent"><a class="header" href="#persistent">Persistent</a></h3>
+<p>Enables the aircraft persistence system. This starts tracking this particular
+aircraft, saving its state for a subsequent flight. And if a matching state
+could already be found, it will also load this persisted aircraft for this flight.</p>
+<p>See <a href="persistence.html">9.6. Persistence</a> for details.</p>
+<blockquote>
+<p>💡 This overrules persistence settings made by the user,
+see <a href="special_options.html#persistent-aircraft-by-livery-and-tail-number">9.2. Special Options</a>.</p>
+</blockquote>
+<h2 id="persistent-aircraft-key"><a class="header" href="#persistent-aircraft-key">Persistent Aircraft Key</a></h2>
+<p>This text box allows entering the name (also known as <em>Aircraft Key</em>) for the
+aircraft to be saved and loaded by the persistency system.</p>
+<p>Enter a short text with letters and numbers, for example <code>campaign_1</code>. Use the same
+key across missions in one campaign to keep a single shared airframe. Use
+different keys to represent different persisted aircraft.</p>
+<p>See <a href="persistence.html">9.6. Persistence</a> for details.</p>
 <h2 id="ins-reference-alignment-stored"><a class="header" href="#ins-reference-alignment-stored">INS Reference Alignment Stored</a></h2>
 <p>This checkbox allows significant reduction of the time needed for a proper INS
 alignment during cold-start.</p>
