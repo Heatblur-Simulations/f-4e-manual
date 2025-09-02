@@ -160,6 +160,7 @@
   - [Embedded Manual](./dcs/embedded_manual.md)
   - [Bombing Computer](./dcs/bombing_computer.md)
   - [EFB](./dcs/efb.md)
+  - [状态留存](./dcs/persistence.md)
   - [蜡笔](./dcs/grease_pencil.md)
   - [虚拟浏览器](./dcs/virtual_browser.md)
   - [录像设备](./dcs/recorders.md)
