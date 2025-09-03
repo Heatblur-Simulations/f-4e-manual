@@ -322,16 +322,16 @@ General Key:
 
 | Seeker       | Hawk  | Patriot | Rapier | Roland | NASAMS | IRIS-T SLM |
 | ------------ | :---: | :-----: | :----: | :----: | :----: | :--------: |
-| Mk 22        |  TR   |   STR   |   SR   |        |        |    STR     |
+| Mk 22        |  TR   |   STR   |   SR   |        |        |   (STR)    |
 | Mk 23        |  TR   |         |   SR   |        |        |            |
 | Mk 24 Mod 5  |  TR   |         |   SR   |        |        |            |
 | Mk 24 Mod 34 |  TR   |         |   SR   |        |        |            |
-| Mk 25        |  TR   |   STR   |  (SR)  |        |        |    STR     |
+| Mk 25        |  TR   |   STR   |  (SR)  |        |        |   (STR)    |
 | Mk 36        |  TR   |         |   SR   |   TR   |  (SR)  |            |
 | Mk 37        | SR/TR |         |   SR   |        |        |            |
 | Mk 49 Mod 0  |  TR   |         |   SR   |        |        |            |
 | Mk 49 Mod 1  |  TR   |         |   SR   |        |        |            |
-| Mk 50        |  TR   |   STR   |  (SR)  |        |        |    STR     |
+| Mk 50        |  TR   |   STR   |  (SR)  |        |        |   (STR)    |
 
 #### Naval Threats
 
