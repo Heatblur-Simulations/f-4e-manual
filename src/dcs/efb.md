@@ -12,6 +12,87 @@ side behind the seat.
 > 💡 Mission designers can toggle allowing the use of the EFB in the
 > [Mission Editor](../dcs/mission_editor.md#allow-use-of-efb).
 
+## Engine Page
+
+The engine page provides details on both
+[Engines](../systems/engines_and_fuel_systems/engines.md).
+
+![Engine Page, afterburner](../img/efb_engine_afterburner.jpg)
+
+### Gearbox
+
+The top left shows the current RPM of the gear shaft that rotates the compressor,
+as well as the turbine assembly.
+
+`NG` (Gas Generator Speed) represents the speed at which the compressor
+section rotates, expressed in percentage of the desired maximum.
+
+The shaft in the center of the engine also visually rotates accordingly.
+
+### Inlet
+
+The inlet area visualizes outside airflow, quantized in lb/s and
+displays its temperature.
+
+### Compressor
+
+Airflow is visualized as it moves through the 17 compressor stages.
+Its temperature at the end of the last stage is shown,
+as well as the compression ratio.
+
+### Combustion Chamber
+
+The chambers generally have three states:
+
+* Unlit
+* Lit
+* Surge (e.g. during a compressor stall)
+
+Further, an ignition spark is shown to confirm correct operation of the igniter
+plugs operated during initial engine ignition.
+
+The temperature of the mixture is displayed as it leaves the chambers.
+
+### Afterburner
+
+The afterburner section consists of a spray bar that injects more
+fuel into the air (visualized as yellow cones), as well as a
+torch that ignites the mixture.
+
+The air temperature is shown right after the torch.
+
+### Exhaust
+
+The last section shows the final exhaust temperature, as well as the
+thrust produced by the engine.
+
+### Engine Fuel System
+
+Between both engines is a representation of the system feeding both engines with fuel.
+
+It features the Fuel Cell 1 with its current amount of fuel, as well as both
+fuel boost pumps. The pumps are colored red should they be deactivated.
+
+> 💡 The fuel in tank 1 is not the total fuel remaining, tank 1 is
+> constantly refilled from the remaining fuel tanks.
+
+Right after the boost pumps is the Engine Fuel Shutoff Valve,
+shut if the respective throttle is in the OFF position.
+
+From there, fuel is further boosted by a pump and reaches the combustion chambers.
+These pumps are controlled by the Engine Master Switches.
+
+Further, a two valves and another pump for each engine are used to
+optionally supply fuel to the Afterburner Spray Bars, as well as to the Torch.
+
+### Oil
+
+The engines use oil as lubricant, coolant fluid, as well as hydraulic fluid
+to operate the nozzles. For that, both feature a tank with 4 gallons of oil.
+
+Should the oil leak and the tanks deplete, pressure to operate the nozzles will drop
+and eventually the engine will suffer severe and irreparable damage.
+
 ## Fuel Page
 
 The fuel page provides details on the
