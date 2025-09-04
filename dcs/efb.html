@@ -172,6 +172,60 @@ side behind the seat.</p>
 <p>💡 Mission designers can toggle allowing the use of the EFB in the
 <a href="../dcs/mission_editor.html#allow-use-of-efb">Mission Editor</a>.</p>
 </blockquote>
+<h2 id="engine-page"><a class="header" href="#engine-page">Engine Page</a></h2>
+<p>The engine page provides details on both
+<a href="../systems/engines_and_fuel_systems/engines.html">Engines</a>.</p>
+<p><img src="../img/efb_engine_afterburner.jpg" alt="Engine Page, afterburner" /></p>
+<h3 id="gearbox"><a class="header" href="#gearbox">Gearbox</a></h3>
+<p>The top left shows the current RPM of the gear shaft that rotates the compressor,
+as well as the turbine assembly.</p>
+<p><code>NG</code> (Gas Generator Speed) represents the speed at which the compressor
+section rotates, expressed in percentage of the desired maximum.</p>
+<p>The shaft in the center of the engine also visually rotates accordingly.</p>
+<h3 id="inlet"><a class="header" href="#inlet">Inlet</a></h3>
+<p>The inlet area visualizes outside airflow, quantized in lb/s and
+displays its temperature.</p>
+<h3 id="compressor"><a class="header" href="#compressor">Compressor</a></h3>
+<p>Airflow is visualized as it moves through the 17 compressor stages.
+Its temperature at the end of the last stage is shown,
+as well as the compression ratio.</p>
+<h3 id="combustion-chamber"><a class="header" href="#combustion-chamber">Combustion Chamber</a></h3>
+<p>The chambers generally have three states:</p>
+<ul>
+<li>Unlit</li>
+<li>Lit</li>
+<li>Surge (e.g. during a compressor stall)</li>
+</ul>
+<p>Further, an ignition spark is shown to confirm correct operation of the igniter
+plugs operated during initial engine ignition.</p>
+<p>The temperature of the mixture is displayed as it leaves the chambers.</p>
+<h3 id="afterburner"><a class="header" href="#afterburner">Afterburner</a></h3>
+<p>The afterburner section consists of a spray bar that injects more
+fuel into the air (visualized as yellow cones), as well as a
+torch that ignites the mixture.</p>
+<p>The air temperature is shown right after the torch.</p>
+<h3 id="exhaust"><a class="header" href="#exhaust">Exhaust</a></h3>
+<p>The last section shows the final exhaust temperature, as well as the
+thrust produced by the engine.</p>
+<h3 id="engine-fuel-system"><a class="header" href="#engine-fuel-system">Engine Fuel System</a></h3>
+<p>Between both engines is a representation of the system feeding both engines with fuel.</p>
+<p>It features the Fuel Cell 1 with its current amount of fuel, as well as both
+fuel boost pumps. The pumps are colored red should they be deactivated.</p>
+<blockquote>
+<p>💡 The fuel in tank 1 is not the total fuel remaining, tank 1 is
+constantly refilled from the remaining fuel tanks.</p>
+</blockquote>
+<p>Right after the boost pumps is the Engine Fuel Shutoff Valve,
+shut if the respective throttle is in the OFF position.</p>
+<p>From there, fuel is further boosted by a pump and reaches the combustion chambers.
+These pumps are controlled by the Engine Master Switches.</p>
+<p>Further, a two valves and another pump for each engine are used to
+optionally supply fuel to the Afterburner Spray Bars, as well as to the Torch.</p>
+<h3 id="oil"><a class="header" href="#oil">Oil</a></h3>
+<p>The engines use oil as lubricant, coolant fluid, as well as hydraulic fluid
+to operate the nozzles. For that, both feature a tank with 4 gallons of oil.</p>
+<p>Should the oil leak and the tanks deplete, pressure to operate the nozzles will drop
+and eventually the engine will suffer severe and irreparable damage.</p>
 <h2 id="fuel-page"><a class="header" href="#fuel-page">Fuel Page</a></h2>
 <p>The fuel page provides details on the
 <a href="../systems/engines_and_fuel_systems/fuel_system.html">Fuel system</a>.</p>
