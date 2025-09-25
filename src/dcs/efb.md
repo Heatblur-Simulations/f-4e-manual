@@ -122,13 +122,13 @@ blocking flow through the pipe.
 
 Further, the following flags can be displayed in the lower left corner:
 
-- AAR; the door for
+* AAR; the door for
   [air-to-air-refueling](../systems/engines_and_fuel_systems/fuel_system.md#air-refueling-system)
   is open
-- DUMP;
+* DUMP;
   [fuel dumping](../systems/engines_and_fuel_systems/fuel_system.md#fuel-dump-system)
   is active
-- AUTO-XFER; the system for
+* AUTO-XFER; the system for
   [automatic-transfer](../systems/engines_and_fuel_systems/fuel_system.md#transfer-sequence)
   is active (a low fuel emergency system)
 
@@ -148,9 +148,9 @@ half.
 Wires connecting the generators and buses indicate if and how power is supplied,
 with color representing the rating:
 
-- Red; 3-phased 115V AC
-- Green; 1-phased 14/28V AC
-- Blue; 1-phased 28V DC
+* Red; 3-phased 115V AC
+* Green; 1-phased 14/28V AC
+* Blue; 1-phased 28V DC
 
 ### Transformers
 
