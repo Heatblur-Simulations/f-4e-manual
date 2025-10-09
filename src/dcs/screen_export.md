@@ -166,6 +166,10 @@ at `2715x1527`, combined that makes a virtual monitor resolution of `6555x2160`.
 
 ![Multi-Monitor Setup](../img/screen_export_multi_monitor_resolutions.jpg)
 
+The exact arrangement is defined in the Windows Display Settings:
+
+![Windows Settings](../img/screen_export_windows_monitor.jpg)
+
 In the setup-file, one has to now define several viewports for DCS. This tells
 the game where on the virtual monitor to render which scene. The format looks as
 follows:
