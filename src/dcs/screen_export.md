@@ -4,10 +4,10 @@ DCS offers exporting and arranging in-game screens on multi-monitor setups. For
 example displaying the content of the DSCG screen on a second monitor.
 
 ![Setup with exported RWR](../img/screen_export_f4_rwr.jpg) (_Setup with RWR
-exported on a small monitor_)
+exported to a small monitor_)
 
-This allows for making great setups, especially when owning some smaller extra
-monitors; and is especially useful for SimPit builders.
+This allows for making great setups, in particular when owning some smaller
+extra monitors; and is especially useful for SimPit builders.
 
 ![SimPit Example](../img/screen_export_simpit.jpg)
 
