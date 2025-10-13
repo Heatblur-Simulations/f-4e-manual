@@ -141,12 +141,14 @@ The switch is a leftover and not connected.
 
 ### DVST Switch
 
-A two-position switch (<num>4</num>) that selects which radar system is installed on this aircraft.
+A two-position switch (<num>4</num>) that would select
+which system displays their output on the DVST screen.
 
-- APS-107
-- APQ-120
+- APS-107, an older RWR system
+- APQ-120, the radar system
 
-The switch is a leftover and not connected.
+The switch is a leftover and not connected on aircraft equipped
+with the DSCG instead of the previous DVST screen.
 
 ## Inboard Engine Control Panel
 
