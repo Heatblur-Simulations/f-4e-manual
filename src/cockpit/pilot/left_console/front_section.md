@@ -131,13 +131,14 @@ the lower UHF antenna.
 
 ### LCOSS Switch
 
-A two position switch (<num>3</num>) that selects which computer system is installed on this
-aircraft.
+A two position switch (<num>3</num>) that would select which 
+system displays their output on the gunsights combining glass.
 
-- ARS-107
-- ASG-26
+- ARS-107, an older RWR system
+- ASG-26, the F-4Es original gunsight system
 
-The switch is a leftover and not connected.
+The switch is a leftover and was only used on 
+aircraft equipped with the APS-107 RWR system.
 
 ### DVST Switch
 
