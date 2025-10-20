@@ -60,7 +60,9 @@ missile.
 > as it is forcefully bumped into its gimbals.
 
 A missile with broken TV sensor can be manually skipped by using the
-[TGT/MSL REJ Switch](../../../cockpit/pilot/pedestal_group.md#tgtmsl-reject-switch).
+[TGT/MSL REJ Switch](../../../cockpit/pilot/pedestal_group.md#tgtmsl-reject-switch)
+or by deselecting the pylon, depending on whether one wants to skip to another
+missile on the same pylon or another.
 
 The ARM lights on the
 [Station Select Buttons](../../../cockpit/pilot/weapon_management.md#station-select-buttons)
@@ -123,7 +125,8 @@ Panel. Leaving the switch in the Auto position allows the seeker to attempt to
 determine the best option for contrast.
 
 Should a missile appear to not be functioning correctly, it can be rejected to
-the next round in the release sequence using the TGT/MSL REJ switch.
+the next round in the release sequence using the TGT/MSL REJ switch, provided
+it is on the same pylon. Otherwise, the pylon needs to be deselected first.
 
 Once lock on the correct target is attained, the missile is launched using the
 bomb button. To initiate lock on of the next target, the process is started over
