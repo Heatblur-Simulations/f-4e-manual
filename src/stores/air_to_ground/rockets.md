@@ -38,7 +38,7 @@ The Mk 71 Zuni is a 5 inch Folding Fin Aerial Rocket (FFAR) that can be equipped
 with a variety of motors and warheads. It is typically launched from a LAU-10
 pod, holding 4 rockets.
 
-The rocket is currently equipped with the Mk 63 **HE/FRAG** warhead.
+The rocket is currently equipped with the Mk 24 **HE/FRAG** warhead.
 
 The weapon was not employed by the F-4E historically, but served as crucial
 ordnance for Navy variants and the german F-4F versions.
