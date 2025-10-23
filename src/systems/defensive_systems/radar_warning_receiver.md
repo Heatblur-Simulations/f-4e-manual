@@ -298,12 +298,14 @@ will be displayed in the lower half of azimuth.
 
 ### Sea and Air based Threats
 
+<!-- markdownlint-disable MD013 -->
+
 | Symbol                                                                  | Possible threat                                                                                                                                         |
-| ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![rwr_four_symbol.jpg](../../img/rwr_four_symbol.jpg)                   | Rezky, Albatros                                                                                                                                         |
 | ![rwr_six_symbol.jpg](../../img/rwr_six_symbol.jpg)                     | Battlecruiser Pyotr Velikiy, Type 052C Destroyer, Frigate Neustrashimy                                                                                  |
 | ![rwr_seven_symbol.jpg](../../img/rwr_seven_symbol.jpg)                 | Type 054A Frigate, Type 052B Destroyer                                                                                                                  |
-| ![rwr_nine_symbol.jpg](../../img/rwr_nine_symbol.jpg)                   | CV 1143.5 Kuznetsov, Cruiser Moskva, Project 22160 with Tor-M2KM                                                                                        |     |
+| ![rwr_nine_symbol.jpg](../../img/rwr_nine_symbol.jpg)                   | CV 1143.5 Kuznetsov, Cruiser Moskva, Project 22160 with Tor-M2KM                                                                                        |
 | ![rwr_a_two_dot_symbol.jpg](../../img/rwr_a_two_dot_symbol.jpg)         | Type 071, Leander Class                                                                                                                                 |
 | ![rwr_a_three_dot_symbol.jpg](../../img/rwr_a_three_dot_symbol.jpg)     | Ropucha Class, Project 22160                                                                                                                            |
 | ![rwr_c_symbol.jpg](../../img/rwr_c_symbol.jpg)                         | CVN-71 Theodore Roosevelt, CVN-72 Abraham Lincoln, CVN-73 George Washington, CVN-74 John C Stennis, CVN-75 Harry S. Truman, USS Forrestral, LHA Tarrawa |
@@ -317,6 +319,8 @@ will be displayed in the lower half of azimuth.
 | ![rwr_u_one_dot_symbol.jpg](../../img/rwr_u_one_dot_symbol.jpg)         | Unknown (Low band)                                                                                                                                      |
 | ![rwr_u_two_dot_symbol.jpg](../../img/rwr_u_two_dot_symbol.jpg)         | Unknown (Medium band)                                                                                                                                   |
 | ![rwr_u_three_dot_symbol.jpg](../../img/rwr_u_three_dot_symbol.jpg)     | Unknown (High band)                                                                                                                                     |
+
+<!-- markdownlint-enable MD013 -->
 
 ### Missiles
 
