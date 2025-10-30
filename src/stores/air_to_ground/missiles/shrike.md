@@ -372,15 +372,15 @@ General Key:
 | Seeker       | Ticonderoga | Arleigh Burke | Oliver Hazard Perry | Forrestal | Nimitz  | Tarawa |
 | ------------ | :---------: | :-----------: | :-----------------: | :-------: | :-----: | :----: |
 | Mk 22        |             |               |         TR          |           |   TR    |        |
-| Mk 23        |             |               |         TR          |           | (SR)/TR |        |
-| Mk 24 Mod 5  |             |               |         TR          |           | (SR)/TR |        |
-| Mk 24 Mod 34 |             |               |         TR          |           | (SR)/TR |        |
-| Mk 25        |             |               |         TR          |           |   TR    |        |
+| Mk 23        |             |               |         TR          |   (SR)    | (SR)/TR |        |
+| Mk 24 Mod 5  |             |               |         TR          |   (SR)    | (SR)/TR |        |
+| Mk 24 Mod 34 |             |               |         TR          |   (SR)    | (SR)/TR |        |
+| Mk 25        |             |               |         TR          |   (SR)    |   TR    |        |
 | Mk 36        |    (TR)     |     (TR)      |         TR          |           |   TR    |        |
 | Mk 37        |  (SR)/(TR)  |     SR/TR     |        SR/TR        |           |  SR/TR  |        |
 | Mk 49 Mod 0  |             |               |        (TR)         |           |   TR    |        |
 | Mk 49 Mod 1  |             |               |        (TR)         |           |   TR    |        |
-| Mk 50        |             |               |         TR          |           | (SR)/TR |        |
+| Mk 50        |             |               |         TR          |   (SR)    | (SR)/TR |        |
 
 ##### British Naval Threats
 
