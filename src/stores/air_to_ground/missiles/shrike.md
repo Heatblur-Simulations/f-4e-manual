@@ -234,7 +234,7 @@ from. This means some preparation is required prior to flight in order to be pro
 engage the threats effectively. The following seeker heads tables are provided so your missions can
 be planned accordingly.
 
-<!-- This seeker head data is accurate as of patch 2.9.17 -->
+<!-- This seeker head data is accurate as of patch 2.9.21 -->
 
 #### Seeker RF Limit Table
 
@@ -266,18 +266,18 @@ General Key:
 
 ##### Warsaw Pact land-based SAM and EWR system radars
 
-| Seeker       |  SA-2   | SA-3 | SA-5 | SA-6 | SA-8 |    SA-10     | SA-11 | SA-13 | SA-15 (Tor-M1) | SA-15 (Tor-M2) | SA-19 | SA-22 | EWR  |
-| ------------ | :-----: | :--: | :--: | :--: | :--: | :----------: | :---: | :---: | :------------: | :------------: | :---: | :---: | :--: |
-| Mk 22        | (TR)/RF |      |      |      |      |              |       | (TR)  |       TR       |                |       |       | (DE) |
-| Mk 23        |   RF    |      | (TS) |      |      | (TS)/(BB)/CS |  SR   |  TR   |      (SR)      |       SR       | (SR)  |  SR   |      |
-| Mk 24 Mod 5  |   RF    |      | (TS) |      |      |     (TS)     |       |  TR   |                |       SR       |  SR   |  SR   |      |
-| Mk 24 Mod 34 |   RF    |      | (TS) |      |      | (TS)/(BB)/CS |       |  TR   |                |       SR       |  SR   |  SR   |      |
-| Mk 25        | (TR)/RF |      |      |      |      |              |       | (TR)  |       TR       |                |       |       | (DE) |
-| Mk 36        |   RF    | (TR) |      | (TR) |      |      TR      | (TR)  |  TR   |                |                |       |  TR   |      |
-| Mk 37        | (FF)/RF | (FF) | (FF) |  SR  |  SR  |              |       |  TR   |                |                |       |       |      |
-| Mk 49 Mod 0  |   RF    | (TR) | (TR) | (TR) |      |     (TR)     | (TR)  |  TR   |                |                |       |  TR   |      |
-| Mk 49 Mod 1  |   RF    | (TR) | (TR) | (TR) |      |     (TR)     | (TR)  |  TR   |                |                |       |  TR   |      |
-| Mk 50        | (TR)/RF |      | (TS) |      |      | (TS)/(BB)/CS |  SR   | (TR)  |   (SR)/(TR)    |      (SR)      | (SR)  | (SR)  | (DE) |
+| Seeker       |  SA-2   | SA-3 | SA-5 |   SA-6    | SA-8 |    SA-10     | SA-11 | SA-13 | SA-15 (Tor-M1) | SA-15 (Tor-M2) | SA-19 | SA-22 | EWR  |
+| ------------ | :-----: | :--: | :--: | :-------: | :--: | :----------: | :---: | :---: | :------------: | :------------: | :---: | :---: | :--: |
+| Mk 22        | (TR)/RF |      |      |           |      |              |       | (TR)  |       TR       |                |       |       | (DE) |
+| Mk 23        |   RF    |      | (TS) |           |      | (TS)/(BB)/CS |  SR   |  TR   |      (SR)      |      (SR)      | (SR)  | (SR)  |      |
+| Mk 24 Mod 5  |   RF    |      | (TS) |           |      |     (TS)     |       |  TR   |                |       SR       |  SR   |  SR   |      |
+| Mk 24 Mod 34 |   RF    |      | (TS) |           |      | (TS)/(BB)/CS |       |  TR   |                |      (SR)      |  SR   | (SR)  |      |
+| Mk 25        | (TR)/RF |      |      |           |      |              |       | (TR)  |       TR       |                |       |       | (DE) |
+| Mk 36        |   RF    | (TR) |      |  SR/(TR)  |      |      TR      | (TR)  |  TR   |                |                |       |  TR   |      |
+| Mk 37        | (FF)/RF | (FF) | (FF) |           |  SR  |              |       |  TR   |                |                |       |       |      |
+| Mk 49 Mod 0  |   RF    | (TR) | (TR) | (SR)/(TR) |      |     (TR)     | (TR)  |  TR   |                |                |       |  TR   |      |
+| Mk 49 Mod 1  |   RF    | (TR) | (TR) | (SR)/(TR) |      |     (TR)     | (TR)  |  TR   |                |                |       |  TR   |      |
+| Mk 50        | (TR)/RF |      | (TS) |           |      | (TS)/(BB)/CS |  SR   | (TR)  |   (SR)/(TR)    |      (SR)      | (SR)  | (SR)  | (DE) |
 
 > 💡 The SA-2/3/5 all can use the same Flat Face search radar with the SA-5 having the option of
 > using the Tin Shield as a search radar as well.
@@ -322,7 +322,7 @@ General Key:
 
 | Seeker       | Hawk  | Patriot | Rapier | Roland | NASAMS | IRIS-T SLM |
 | ------------ | :---: | :-----: | :----: | :----: | :----: | :--------: |
-| Mk 22        |  TR   |   STR   |   SR   |        |        |   (STR)    |
+| Mk 22        |  TR   |   STR   |   SR   |        |        |    STR     |
 | Mk 23        |  TR   |         |   SR   |        |        |            |
 | Mk 24 Mod 5  |  TR   |         |   SR   |        |        |            |
 | Mk 24 Mod 34 |  TR   |         |   SR   |        |        |            |
@@ -346,11 +346,11 @@ General Key:
 | Mk 24 Mod 5  |   SR/TR   |    TR     |   SR/TR   |  SR/TR  |    TR     |   (TR)    |  (SR)/(TR)   |         |               |             SR             |
 | Mk 24 Mod 34 |   (TR)    |   (TR)    |   (TR)    |         |    TR     |   (TR)    |      TR      |         |               |             SR             |
 | Mk 25        |    TR     |    TR     |    TR     |         |    TR     |    TR     |      TR      |         |               |                            |
-| Mk 36        | (SR)/(TR) | (SR)/(TR) | (SR)/(TR) |  SR/TR  |    TR     |   (TR)    |  (SR)/(TR)   |         |     SR/TR     |           SR/TR            |
+| Mk 36        | (SR)/(TR) | (SR)/(TR) | (SR)/(TR) |  SR/TR  |    TR     |   (TR)    |  (SR)/(TR)   |         |    (SR)/TR    |          (SR)/TR           |
 | Mk 37        |    TR     |    TR     |    TR     |         |    TR     |    TR     |      TR      |         |               |                            |
-| Mk 49 Mod 0  |   (TR)    |   (TR)    |   (TR)    |         | (SR)/(TR) | (SR)/(TR) |     (TR)     |         |     SR/TR     |           SR/TR            |
-| Mk 49 Mod 1  |   (TR)    |   (TR)    |   (TR)    |         | (SR)/(TR) | (SR)/(TR) |     (TR)     |         |     SR/TR     |           SR/TR            |
-| Mk 50        | (SR)/(TR) | (SR)/(TR) | (SR)/(TR) |  SR/TR  |   (TR)    |   (TR)    |  (SR)/(TR)   |         |               |            (SR)            |
+| Mk 49 Mod 0  |   (TR)    |   (TR)    |   (TR)    |         | (SR)/(TR) | (SR)/(TR) |     (TR)     |         |   (SR)/(TR)   |         (SR)/(TR)          |
+| Mk 49 Mod 1  |   (TR)    |   (TR)    |   (TR)    |         | (SR)/(TR) | (SR)/(TR) |     (TR)     |         |   (SR)/(TR)   |         (SR)/(TR)          |
+| Mk 50        | (SR)/(TR) | (SR)/(TR) | (SR)/(TR) |  SR/TR  |   (TR)    |   (TR)    |  (SR)/(TR)   |         |               |             SR             |
 
 ##### Chinese Naval Threats
 

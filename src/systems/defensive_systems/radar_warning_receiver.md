@@ -233,55 +233,59 @@ be displayed in the lower half of azimuth.
 
 ### Land and Air based Threats
 
-| Symbol                                                                  | Possible threat                                                                                                                                                               |
-| ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![rwr_two_symbol.jpg](../../img/rwr_two_symbol.jpg)                     | SA-2 S-75 "Fan Song" TR                                                                                                                                                       |
-| ![rwr_two_slashed_symbol.jpg](../../img/rwr_two_slashed_symbol.jpg)     | SA-2 S-75 RD-75 Amazonka RF                                                                                                                                                   |
-| ![rwr_three_symbol.jpg](../../img/rwr_three_symbol.jpg)                 | SA-3 S-125 "Low Blow" TR                                                                                                                                                      |
-| ![rwr_five_symbol.jpg](../../img/rwr_five_symbol.jpg)                   | SA-5 S-200 "Square Pair" TR                                                                                                                                                   |
-| ![rwr_six_symbol.jpg](../../img/rwr_six_symbol.jpg)                     | SA-6 Kub "Straight Flush" TR                                                                                                                                                  |
-| ![rwr_seven_symbol.jpg](../../img/rwr_seven_symbol.jpg)                 | HQ-7 TR                                                                                                                                                                       |
-| ![rwr_eight_symbol.jpg](../../img/rwr_eight_symbol.jpg)                 | Osa 9A33 ln                                                                                                                                                                   |
-| ![rwr_ten_symbol.jpg](../../img/rwr_ten_symbol.jpg)                     | SA-10 S-300PS "Flap Lid"                                                                                                                                                      |
-| ![rwr_eleven_symbol.jpg](../../img/rwr_eleven_symbol.jpg)               | SA-11 9K37 Buk                                                                                                                                                                |
-| ![rwr_15_symbol.jpg](../../img/rwr_15_symbol.jpg)                       | SA-15 9K331 Tor                                                                                                                                                               |
-| ![rwr_19_symbol.jpg](../../img/rwr_19_symbol.jpg)                       | SA-19 2k22M Tunguska                                                                                                                                                          |
-| ![rwr_a_symbol.jpg](../../img/rwr_a_symbol.jpg)                         | ZSU-23-4 Shilka                                                                                                                                                               |
-| ![rwr_a_one_dot_symbol.jpg](../../img/rwr_a_one_dot_symbol.jpg)         | Fire Can SON-9                                                                                                                                                                |
-| ![rwr_a_three_dot_symbol.jpg](../../img/rwr_a_three_dot_symbol.jpg)     | Gepard, C-RAM Phalanx                                                                                                                                                         |
-| ![rwr_h_symbol.jpg](../../img/rwr_h_symbol.jpg)                         | MIM-23 Hawk                                                                                                                                                                   |
-| ![rwr_p_slashed_symbol.jpg](../../img/rwr_p_slashed_symbol.jpg)         | MIM-104 Patriot                                                                                                                                                               |
-| ![rwr_r_symbol.jpg](../../img/rwr_r_symbol.jpg)                         | Rapier, Roland                                                                                                                                                                |
-| ![rwr_s_symbol.jpg](../../img/rwr_s_symbol.jpg)                         | SA-6 Kub "Straight Flush" SR, Roland SR, C-RAM Phalanx SR, PPRU-1 "Dog Ear", HQ-7 SR, Hawk CWAR, NASAMS, Rapier Dagger, SA-11 Snow Drift, SA-10 "Big Bird", S-300PS 40B6MD SR |
-| ![rwr_flat_triangle_symbol.jpg](../../img/rwr_flat_triangle_symbol.jpg) | E-2D Hawkeye, E-3C Sentry, A-50                                                                                                                                               |
-| ![rwr_triangle_symbol.jpg](../../img/rwr_triangle_symbol.jpg)           | F-14, F-15C, F-15E, F-16, F-18C, JF-17, M-2000C, MiG-29, Su-27, MiG-31, Tornado IDS/GR4                                                                                       |
-| ![rwr_two_triangle_symbol.jpg](../../img/rwr_two_triangle_symbol.jpg)   | F-1, AJS-37, F-4E, MiG-19, MiG-21, MiG-23, F-5E-3                                                                                                                             |
-| ![rwr_u_one_dot_symbol.jpg](../../img/rwr_u_one_dot_symbol.jpg)         | Unknown (Low band)                                                                                                                                                            |
-| ![rwr_u_two_dot_symbol.jpg](../../img/rwr_u_two_dot_symbol.jpg)         | Unknown (Medium band)                                                                                                                                                         |
-| ![rwr_u_three_dot_symbol.jpg](../../img/rwr_u_three_dot_symbol.jpg)     | Unknown (High band)                                                                                                                                                           |
+<!-- markdownlint-disable MD013 -->
+
+| Symbol                                                                  | Possible threat                                                                                                                                                                                             |
+| ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![rwr_two_symbol.jpg](../../img/rwr_two_symbol.jpg)                     | SA-2 S-75 "Fan Song" TR                                                                                                                                                                                     |
+| ![rwr_two_slashed_symbol.jpg](../../img/rwr_two_slashed_symbol.jpg)     | SA-2 S-75 RD-75 Amazonka RF                                                                                                                                                                                 |
+| ![rwr_three_symbol.jpg](../../img/rwr_three_symbol.jpg)                 | SA-3 S-125 "Low Blow" TR                                                                                                                                                                                    |
+| ![rwr_five_symbol.jpg](../../img/rwr_five_symbol.jpg)                   | SA-5 S-200 "Square Pair" TR                                                                                                                                                                                 |
+| ![rwr_six_symbol.jpg](../../img/rwr_six_symbol.jpg)                     | SA-6 Kub "Straight Flush" TR                                                                                                                                                                                |
+| ![rwr_seven_symbol.jpg](../../img/rwr_seven_symbol.jpg)                 | HQ-7 TR                                                                                                                                                                                                     |
+| ![rwr_eight_symbol.jpg](../../img/rwr_eight_symbol.jpg)                 | Osa 9A33 ln                                                                                                                                                                                                 |
+| ![rwr_ten_symbol.jpg](../../img/rwr_ten_symbol.jpg)                     | SA-10 S-300PS "Flap Lid"                                                                                                                                                                                    |
+| ![rwr_eleven_symbol.jpg](../../img/rwr_eleven_symbol.jpg)               | SA-11 9K37 Buk                                                                                                                                                                                              |
+| ![rwr_15_symbol.jpg](../../img/rwr_15_symbol.jpg)                       | SA-15 9K331 Tor, SA-15B 9K332 Tor-M2                                                                                                                                                                        |
+| ![rwr_19_symbol.jpg](../../img/rwr_19_symbol.jpg)                       | SA-19 2k22M Tunguska                                                                                                                                                                                        |
+| ![rwr_a_symbol.jpg](../../img/rwr_a_symbol.jpg)                         | ZSU-23-4 Shilka                                                                                                                                                                                             |
+| ![rwr_a_one_dot_symbol.jpg](../../img/rwr_a_one_dot_symbol.jpg)         | Fire Can SON-9                                                                                                                                                                                              |
+| ![rwr_a_three_dot_symbol.jpg](../../img/rwr_a_three_dot_symbol.jpg)     | Gepard, C-RAM Phalanx                                                                                                                                                                                       |
+| ![rwr_h_symbol.jpg](../../img/rwr_h_symbol.jpg)                         | MIM-23 Hawk                                                                                                                                                                                                 |
+| ![rwr_p_slashed_symbol.jpg](../../img/rwr_p_slashed_symbol.jpg)         | MIM-104 Patriot, SA-22 Pantsir                                                                                                                                                                              |
+| ![rwr_r_symbol.jpg](../../img/rwr_r_symbol.jpg)                         | Roland                                                                                                                                                                                                      |
+| ![rwr_s_symbol.jpg](../../img/rwr_s_symbol.jpg)                         | SA-5/10 "Tin Shield", SA-6 Kub "Straight Flush" SR, Roland SR, C-RAM Phalanx SR, PPRU-1 "Dog Ear", HQ-7 SR, Hawk CWAR, NASAMS, Rapier Dagger, SA-11 Snow Drift, SA-10 "Big Bird" & "Clam Shell", IRIS-T SLM |
+| ![rwr_flat_triangle_symbol.jpg](../../img/rwr_flat_triangle_symbol.jpg) | E-3C Sentry, A-50                                                                                                                                                                                           |
+| ![rwr_triangle_symbol.jpg](../../img/rwr_triangle_symbol.jpg)           | F-14, F-15C, F-15E, F-16, F-18C, JF-17, M-2000C, MiG-29, Su-27, MiG-31                                                                                                                                      |
+| ![rwr_two_triangle_symbol.jpg](../../img/rwr_two_triangle_symbol.jpg)   | F-1, AJS-37, F-4E, MiG-19, MiG-21, MiG-23, F-5E-3, Tornado IDS/GR4                                                                                                                                          |
+| ![rwr_uncorrelated_missile.jpg](../../img/rwr_uncorr_msl.jpg)           | AIM-54, AIM-120, SD-10, R-77                                                                                                                                                                                |
+| ![rwr_u_one_dot_symbol.jpg](../../img/rwr_u_one_dot_symbol.jpg)         | Unknown (Low band)                                                                                                                                                                                          |
+| ![rwr_u_two_dot_symbol.jpg](../../img/rwr_u_two_dot_symbol.jpg)         | Unknown (Medium band)                                                                                                                                                                                       |
+| ![rwr_u_three_dot_symbol.jpg](../../img/rwr_u_three_dot_symbol.jpg)     | Unknown (High band)                                                                                                                                                                                         |
 
 ### Sea and Air based Threats
 
 | Symbol                                                                  | Possible threat                                                                                                                                         |
 | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![rwr_four_symbol.jpg](../../img/rwr_four_symbol.jpg)                   | Rezky, Albatros                                                                                                                                         |
-| ![rwr_six_symbol.jpg](../../img/rwr_six_symbol.jpg)                     | Battlecruiser Pyotr Velikiy, Cruiser Moskva, Type 052C Destroyer, Frigate Neustrashimy                                                                  |
-| ![rwr_seven_symbol.jpg](../../img/rwr_seven_symbol.jpg)                 | Type 054A Frigate, Type 052B Destroyer                                                                                                                  |
-| ![rwr_nine_symbol.jpg](../../img/rwr_nine_symbol.jpg)                   | CV 1143.5 Kuznetsov                                                                                                                                     |
-| ![rwr_a_one_dot_symbol.jpg](../../img/rwr_a_one_dot_symbol.jpg)         | La Combattante II                                                                                                                                       |
-| ![rwr_a_two_dot_symbol.jpg](../../img/rwr_a_two_dot_symbol.jpg)         | Type 071, Leander Class                                                                                                                                 |
+| ![rwr_four_symbol.jpg](../../img/rwr_four_symbol.jpg)                   | Rezky, Pyotr Velikiy, Albatros, Neustrashimy                                                                                                            |
+| ![rwr_six_symbol.jpg](../../img/rwr_six_symbol.jpg)                     | CV 1143.5 Kuznetsov, Battlecruiser Pyotr Velikiy, Type 052B & 052C Destroyer, Type 054A Frigate, Type 071, Frigate Neustrashimy                         |
+| ![rwr_seven_symbol.jpg](../../img/rwr_seven_symbol.jpg)                 | Type 054A Frigate, Type 052B Destroyer, Type 071                                                                                                        |
+| ![rwr_nine_symbol.jpg](../../img/rwr_nine_symbol.jpg)                   | CV 1143.5 Kuznetsov, Cruiser Moskva, Molniya, Project 22160, Project 22160 with Tor-M2KM,                                                               |
+| ![rwr_a_two_dot_symbol.jpg](../../img/rwr_a_two_dot_symbol.jpg)         | Leander Class                                                                                                                                           |
 | ![rwr_a_three_dot_symbol.jpg](../../img/rwr_a_three_dot_symbol.jpg)     | Ropucha Class                                                                                                                                           |
 | ![rwr_c_symbol.jpg](../../img/rwr_c_symbol.jpg)                         | CVN-71 Theodore Roosevelt, CVN-72 Abraham Lincoln, CVN-73 George Washington, CVN-74 John C Stennis, CVN-75 Harry S. Truman, USS Forrestral, LHA Tarrawa |
 | ![rwr_g_symbol.jpg](../../img/rwr_g_symbol.jpg)                         | O.H. Perry                                                                                                                                              |
-| ![rwr_l_symbol.jpg](../../img/rwr_l_symbol.jpg)                         | Leander Class                                                                                                                                           |
 | ![rwr_p_slashed_symbol.jpg](../../img/rwr_p_slashed_symbol.jpg)         | Ticonderoga, USS Arleigh Burke                                                                                                                          |
 | ![rwr_s_symbol.jpg](../../img/rwr_s_symbol.jpg)                         | Rezky Head Net SR, Neustrashimy SR, Invincible SR, Leander SR, Slava Class SR, Kuznetsov SR, Ropucha SR                                                 |
-| ![rwr_flat_triangle_symbol.jpg](../../img/rwr_flat_triangle_symbol.jpg) | E-2D Hawkeye, E-3C Sentry, A-50                                                                                                                         |
-| ![rwr_triangle_symbol.jpg](../../img/rwr_triangle_symbol.jpg)           | F-14, F-15C, F-15E, F-16, F-18C, JF-17, M-2000C, MiG-29, Su-27, MiG-31, Tornado IDS/GR4                                                                 |
-| ![rwr_two_triangle_symbol.jpg](../../img/rwr_two_triangle_symbol.jpg)   | F-1, AJS-37, F-4E, MiG-19, MiG-21, MiG-23, F-5E-3                                                                                                       |
+| ![rwr_flat_triangle_symbol.jpg](../../img/rwr_flat_triangle_symbol.jpg) | E-3C Sentry, A-50                                                                                                                                       |
+| ![rwr_triangle_symbol.jpg](../../img/rwr_triangle_symbol.jpg)           | F-14, F-15C, F-15E, F-16, F-18C, JF-17, M-2000C, MiG-29, Su-27, MiG-31                                                                                  |
+| ![rwr_two_triangle_symbol.jpg](../../img/rwr_two_triangle_symbol.jpg)   | F-1, AJS-37, F-4E, MiG-19, MiG-21, MiG-23, F-5E-3, Tornado IDS/GR4                                                                                      |
+| ![rwr_uncorrelated_missile.jpg](../../img/rwr_uncorr_msl.jpg)           | AIM-54, AIM-120, SD-10, R-77                                                                                                                            |
 | ![rwr_u_one_dot_symbol.jpg](../../img/rwr_u_one_dot_symbol.jpg)         | Unknown (Low band)                                                                                                                                      |
 | ![rwr_u_two_dot_symbol.jpg](../../img/rwr_u_two_dot_symbol.jpg)         | Unknown (Medium band)                                                                                                                                   |
 | ![rwr_u_three_dot_symbol.jpg](../../img/rwr_u_three_dot_symbol.jpg)     | Unknown (High band)                                                                                                                                     |
+
+<!-- markdownlint-enable MD013 -->
 
 ### Missiles
 
@@ -328,17 +332,19 @@ high pitched PRF tone clearly audible.
 | SA-2    | S             | 2          | 🟢                            |
 | SA-3    | S             | 3          | 🟢                            |
 | SA-5    | S             | 5          | ❌                            |
-| SA-6    | S             | 6          | 🟢                            |
+| SA-6    | S             | 6          | ❌                            |
 | HQ-7    | S             | 7          | ❌                            |
-| SA-8    | U             | 8          | 🟢                            |
+| SA-8    | U             | 8          | ❌                            |
 | SA-10   | S             | 10         | ❌                            |
 | SA-11   | S             | 11         | ❌                            |
 | SA-13   | U             | ❌         | ❌                            |
 | SA-15   | U             | 15         | 🟢                            |
 | SA-19   | U             | 19         | ❌                            |
+| SA-22   | U             | P          | ❌                            |
 | Hawk    | S (CWAR Only) | H          | ❌                            |
 | Patriot | P             | PRF change | ❌                            |
-| Rapier  | S             | R          | ❌                            |
+| Rapier  | S             | ❌         | ❌                            |
+| Roland  | S             | R          | ❌                            |
 | NASAMS  | S             | ❌         | AIM-120 tracking 🟢, other ❌ |
 
 ### Sea
@@ -347,33 +353,35 @@ high pitched PRF tone clearly audible.
 > them are included in the RWR's threat library, therefore only the highest priority threat is shown
 > in the lock column in the table below.
 
-| Threat              | Search                     | Lock | Launch |
-| ------------------- | -------------------------- | ---- | ------ |
-| Rezky               | S (Multiple radars some U) | 4    | 🟢     |
-| Kirov               | S (Multiple radars some U) | 6    | ❌     |
-| Slava               | S (Multiple radars some U) | 6    | 🟢     |
-| Kuznetsov           | S (Multiple radars some U) | 9    | ❌     |
-| Molniya             | U                          | 8    | 🟢     |
-| Grisha              | U                          | 8    | 🟢     |
-| Neustrashimy        | S (Multiple radars some U) | 9    | ❌     |
-| Ropucha             | U                          | A    | ❌     |
-| Type 052B           | S (Multiple radars some U) | 7    | ❌     |
-| Type 052C           | U                          | 6    | ❌     |
-| Type 054A           | U                          | 7    | ❌     |
-| Type 071            | U                          | A    | ❌     |
-| Ticonderoga         | P                          | P    | ❌     |
-| Arleigh Burke       | P                          | P    | ❌     |
-| Oliver Hazard Perry | U                          | G    | ❌     |
-| Forrestal           | U                          | C    | ❌     |
-| Nimitz              | U                          | C    | ❌     |
-| Tarawa              | U                          | C    | ❌     |
-| La Combattante II   | U                          | A    | ❌     |
-| Leander             | S (Multiple radars some U) | L    | 🟢     |
-| Castle              | U                          | ❌   | ❌     |
-| Invincible          | S (Multiple radars some U) | ❌   | ❌     |
-| Veinticinco de Mayo | U                          | ❌   | ❌     |
-| Condell             | U                          | ❌   | ❌     |
-| Tiger               | U                          | ❌   | ❌     |
+| Threat                     | Search                     | Lock | Launch |
+| -------------------------- | -------------------------- | ---- | ------ |
+| Rezky                      | S (Multiple radars some U) | 4    | ❌     |
+| Kirov                      | S (Multiple radars some U) | 4/6  | ❌     |
+| Slava                      | S (Multiple radars some U) | 6/9  | ❌     |
+| Kuznetsov                  | S (Multiple radars some U) | 6    | ❌     |
+| Molniya                    | U (Multiple radars some U) | 9    | ❌     |
+| Grisha                     | S (Multiple radars some U) | 4    | ❌     |
+| Neustrashimy               | S (Multiple radars some U) | 4/6  | ❌     |
+| Ropucha                    | S (Multiple radars some U) | 4    | ❌     |
+| Project 22160              | 9                          | 9    | ❌     |
+| Project 22160 with Tor-M2M | 9                          | 9    | ❌     |
+| Type 052B                  | S (Multiple radars some U) | 6/7  | ❌     |
+| Type 052C                  | U                          | 6    | ❌     |
+| Type 054A                  | U                          | 7    | ❌     |
+| Type 071                   | U                          | 6/7  | ❌     |
+| Ticonderoga                | P                          | P    | ❌     |
+| Arleigh Burke              | P                          | P    | ❌     |
+| Oliver Hazard Perry        | G                          | G    | ❌     |
+| Forrestal                  | U                          | C    | ❌     |
+| Nimitz                     | U                          | C    | ❌     |
+| Tarawa                     | U                          | C    | ❌     |
+| La Combattante II          | U                          | U    | ❌     |
+| Leander                    | S (Multiple radars some U) | A..  | 🟢     |
+| Castle                     | U                          | ❌   | ❌     |
+| Invincible                 | S (Multiple radars some U) | ❌   | ❌     |
+| Veinticinco de Mayo        | U                          | ❌   | ❌     |
+| Condell                    | U                          | ❌   | ❌     |
+| Tiger                      | U                          | ❌   | ❌     |
 
 ### Air
 
@@ -384,7 +392,7 @@ high pitched PRF tone clearly audible.
 | MiG-23              | 🟢     | PRF change | ❌                            |
 | MiG-29              | 🟢     | PRF change | R-77 tracking 🟢, other ❌    |
 | Su-27/30/33/34/J-11 | 🟢     | PRF change | R-77 tracking 🟢, other ❌    |
-| JF-17               | 🟢     | PRF change | ❌                            |
+| JF-17               | 🟢     | PRF change | SD-10 tracking 🟢, other ❌   |
 | F-4                 | 🟢     | PRF change | ❌                            |
 | F-5                 | 🟢     | PRF change | ❌                            |
 | F-14                | 🟢     | PRF change | AIM-54 tracking 🟢, other ❌  |

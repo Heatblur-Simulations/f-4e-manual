@@ -185,6 +185,7 @@
   - [Character](./dcs/character.md)
   - [Mission Editor](./dcs/mission_editor.md)
   - [Training Missions](./dcs/training_missions.md)
+  - [Screen Export](./dcs/screen_export.md)
   - [Modding](./dcs/modding/overview.md)
     - [Jester](./dcs/modding/jester/overview.md)
       - [Voice Files](./dcs/modding/jester/voice_files.md)

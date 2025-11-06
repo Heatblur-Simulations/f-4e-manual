@@ -105,7 +105,7 @@ Each commit should be small, self-contained, and should solve only one problem.
 
 Each commit name and message should be clear, concise, and informative: Please
 consider checking these resources:
-[writing a commit message](https://chris.beams.io/posts/git-commit/) and
+[writing a commit message](https://www.w3schools.com/git/git_commit.asp) and
 [writing a good commit message](https://dev.to/chrissiemhrk/git-commit-message-5e21)
 
 ### Create a pull request

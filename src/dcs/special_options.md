@@ -178,6 +178,10 @@ This file is automatically created at
 
 when launching the Phantom for the first time.
 
+> 💡 Deleting the file will lead to it being recreated on the next launch.
+> That way, one can have it updated to the newest set of rules -
+> should there have been any changes.
+
 Selecting **Offline** will disable the Virtual Browser and any other HB UI
 features and elements that require an active online connection.
 
