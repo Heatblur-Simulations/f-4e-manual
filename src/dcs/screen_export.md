@@ -83,7 +83,7 @@ UIMainView = {
 }
 
 function reconfigure_for_unit(unit_type)
-  if unit_type == "F-14A-135-GR" or unit_type == "F-14B" then
+  if unit_type == "F-14B" or unit_type == "F-14A-135-GR" or unit_type == "F-14A-135-GR-Early" then
     F14_VDI = {
       x = 1016,
       y = 1450,
@@ -222,7 +222,7 @@ type:
 
 ```lua
 function reconfigure_for_unit(unit_type)
-  if unit_type == "F-14A-135-GR" or unit_type == "F-14B" then
+  if unit_type == "F-14B" or unit_type == "F-14A-135-GR" or unit_type == "F-14A-135-GR-Early" then
     ...
   elseif unit_type == "M-2000C" then
     ...
