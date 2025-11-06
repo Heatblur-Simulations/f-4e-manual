@@ -38,8 +38,8 @@ the Telelight Panel list.
 MASTER CAUTION can be deactivated by the pilot pressing the reset button on the
 right console. However, it is important to note that pressing MASTER CAUTION
 does not clear a warning on the telelight panel; instead, the warning will
-remain until rectified. Should a second event occur in a system already giving a
-telelight warning, MASTER CAUTION will not illuminate a second time.
+remain until rectified. Should an additional event occur that requires attention,
+MASTER CAUTION will illuminate again.
 
 ### Warning Light Test Circuit
 
