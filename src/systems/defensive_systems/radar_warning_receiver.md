@@ -174,9 +174,7 @@ ALR-46 控制面板上的亮度旋钮(<num>12</num>)用来管理背光按钮的�
 ALR-46 内置了有限的符号数量来对应不同的雷达威胁。下列符号可代表不同的威胁。ALR-46 最多可保存三个包
 含有威胁表的威胁文件。
 
-- 地面文件（默认）- 地面和机载威胁
-- 水面 - 水面和机载威胁
-- 训练文件 - 额外可配置威胁（默认空白）
+- 地面文件（默认） - 地面和机载威胁 - 水面 - 水面和机载威胁 - 训练文件 - 额外可配置威胁（默认空白）
 
 飞行员只需按下 SYS TEST (<num>8</num>)，并在一秒内按下 TGT SEP (<num>7</num>) 按钮，即可在地面和训
 练文件之间切换。选定训练文件时，方位指示器底部将显示 T 符号。如需切换到水面文件，只需按下 SYS TEST
@@ -185,55 +183,59 @@ ALR-46 内置了有限的符号数量来对应不同的雷达威胁。下列符�
 
 ### 地面和机载威胁
 
-| 符号                                                                    | 可能威胁                                                                                                                                          |
-| ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![rwr_two_symbol.jpg](../../img/rwr_two_symbol.jpg)                     | SA-2 S-75 "扇歌" TR                                                                                                                               |
-| ![rwr_two_slashed_symbol.jpg](../../img/rwr_two_slashed_symbol.jpg)     | SA-2 S-75 RD-75 亚马森卡 RF                                                                                                                       |
-| ![rwr_three_symbol.jpg](../../img/rwr_three_symbol.jpg)                 | SA-3 S-125 "偷袭" TR                                                                                                                              |
-| ![rwr_five_symbol.jpg](../../img/rwr_five_symbol.jpg)                   | SA-5 S-200 "双正方形" TR                                                                                                                          |
-| ![rwr_six_symbol.jpg](../../img/rwr_six_symbol.jpg)                     | SA-6 Kub "同花顺" TR                                                                                                                              |
-| ![rwr_seven_symbol.jpg](../../img/rwr_seven_symbol.jpg)                 | HQ-7 TR                                                                                                                                           |
-| ![rwr_eight_symbol.jpg](../../img/rwr_eight_symbol.jpg)                 | 黄蜂 9A33 ln                                                                                                                                      |
-| ![rwr_ten_symbol.jpg](../../img/rwr_ten_symbol.jpg)                     | SA-10 S-300PS "活动板"                                                                                                                            |
-| ![rwr_eleven_symbol.jpg](../../img/rwr_eleven_symbol.jpg)               | SA-11 9K37 山毛榉                                                                                                                                 |
-| ![rwr_15_symbol.jpg](../../img/rwr_15_symbol.jpg)                       | SA-15 9K331 道尔                                                                                                                                  |
-| ![rwr_19_symbol.jpg](../../img/rwr_19_symbol.jpg)                       | SA-19 2k22M 通古斯卡                                                                                                                              |
-| ![rwr_a_symbol.jpg](../../img/rwr_a_symbol.jpg)                         | ZSU-23-4 石勒喀河                                                                                                                                 |
-| ![rwr_a_one_dot_symbol.jpg](../../img/rwr_a_one_dot_symbol.jpg)         | 火罐 SON-9                                                                                                                                        |
-| ![rwr_a_three_dot_symbol.jpg](../../img/rwr_a_three_dot_symbol.jpg)     | 猎豹, C-RAM 密集阵                                                                                                                                |
-| ![rwr_h_symbol.jpg](../../img/rwr_h_symbol.jpg)                         | MIM-23 霍克                                                                                                                                       |
-| ![rwr_p_slashed_symbol.jpg](../../img/rwr_p_slashed_symbol.jpg)         | MIM-104 爱国者                                                                                                                                    |
-| ![rwr_r_symbol.jpg](../../img/rwr_r_symbol.jpg)                         | 轻剑, 罗兰德                                                                                                                                      |
-| ![rwr_s_symbol.jpg](../../img/rwr_s_symbol.jpg)                         | SA-6 库班河 "同花顺" SR, 罗兰德 SR, C-Ram 密集阵 SR, PPRU-1 "狗耳", HQ-7 SR, 霍克 CWAR, NASAMS, 轻剑, SA-11 雪堆, SA-10 "大鸟", S-300PS 40B6MD SR |
-| ![rwr_flat_triangle_symbol.jpg](../../img/rwr_flat_triangle_symbol.jpg) | E-2D 鹰眼, E-3C 望楼, A-50                                                                                                                        |
-| ![rwr_triangle_symbol.jpg](../../img/rwr_triangle_symbol.jpg)           | F-14, F-15C, F-15E, F-16, F-18C, JF-17, M-2000C, Mig-29, SU-27, MiG-31, 狂风 IDS/GR4                                                              |
-| ![rwr_two_triangle_symbol.jpg](../../img/rwr_two_triangle_symbol.jpg)   | F-1, AJS-37, F-4E, MiG-19, MiG-21, MiG-23, F-5E-3                                                                                                 |
-| ![rwr_u_one_dot_symbol.jpg](../../img/rwr_u_one_dot_symbol.jpg)         | 不明 (低波段)                                                                                                                                     |
-| ![rwr_u_two_dot_symbol.jpg](../../img/rwr_u_two_dot_symbol.jpg)         | 不明 (中波段)                                                                                                                                     |
-| ![rwr_u_three_dot_symbol.jpg](../../img/rwr_u_three_dot_symbol.jpg)     | 不明 (高波段)                                                                                                                                     |
+<!-- markdownlint-disable MD013 -->
+
+| 符号                                                                  | 可能威胁                                                                                                                                                            |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![rwr_two_symbol.jpg](../../img/rwr_two_symbol.jpg)                   | SA-2 S-75 "扇歌" TR                                                                                                                                                 |
+| ![rwr_two_slashed_symbol.jpg](../../img/rwr_two_slashed_symbol.jpg)   | SA-2 S-75 RD-75 “亚马森卡” RF                                                                                                                                       |
+| ![rwr_three_symbol.jpg](../../img/rwr_three_symbol.jpg)               | SA-3 S-125 "偷袭" TR                                                                                                                                                |
+| ![rwr_five_symbol.jpg](../../img/rwr_five_symbol.jpg)                 | SA-5 S-200 "双正方形" TR                                                                                                                                            |
+| ![rwr_six_symbol.jpg](../../img/rwr_six_symbol.jpg)                   | SA-6 Kub "同花顺" TR                                                                                                                                                |
+| ![rwr_seven_symbol.jpg](../../img/rwr_seven_symbol.jpg)               | HQ-7 TR                                                                                                                                                             |
+| ![rwr_eight_symbol.jpg](../../img/rwr_eight_symbol.jpg)               | 黄蜂 9A33 ln                                                                                                                                                        |
+| ![rwr_ten_symbol.jpg](../../img/rwr_ten_symbol.jpg)                   | SA-10 S-300PS "活动板"                                                                                                                                              |
+| ![rwr_eleven_symbol.jpg](../../img/rwr_eleven_symbol.jpg)             | SA-11 9K37 “山毛榉”                                                                                                                                                 |
+| ![rwr_15_symbol.jpg](../../img/rwr_15_symbol.jpg)                     | SA-15 9K331 道尔, SA-15B 9K332 道尔-M2                                                                                                                              |
+| ![rwr_19_symbol.jpg](../../img/rwr_19_symbol.jpg)                     | SA-19 2k22M “通古斯卡”                                                                                                                                              |
+| ![rwr_a_symbol.jpg](../../img/rwr_a_symbol.jpg)                       | ZSU-23-4 “石勒喀河”                                                                                                                                                 |
+| ![rwr_a_one_dot_symbol.jpg](../../img/rwr_a_one_dot_symbol.jpg)       | “火罐” SON-9                                                                                                                                                        |
+| ![rwr_a_three_dot_symbol.jpg](../../img/rwr_a_three_dot_symbol.jpg)   | 猎豹, C-RAM 密集阵                                                                                                                                                  |
+| ![rwr_h_symbol.jpg](../../img/rwr_h_symbol.jpg)                       | MIM-23 霍克                                                                                                                                                         |
+| ![rwr_p_slashed_symbol.jpg](../../img/rwr_p_slashed_symbol.jpg)       | MIM-104 爱国者, SA-22 铠甲                                                                                                                                          |
+| ![rwr_r_symbol.jpg](../../img/rwr_r_symbol.jpg)                       | 罗兰德                                                                                                                                                              |
+| ![rwr_s_symbol.jpg](../../img/rwr_s_symbol.jpg)                       | SA-5/10 “锡盾”, SA-6 库班河 "同花顺" SR, 罗兰德 SR, C-Ram 密集阵 SR, PPRU-1 "狗耳", HQ-7 SR, 霍克 CWAR, NASAMS, 轻剑, SA-11 雪堆, SA-10 "大鸟" & "轰鸣", IRIS-T SLM |
+| ![rwr_h_symbol.jpg](../../img/rwr_h_symbol.jpg)                       | E-3C 望楼, A-50                                                                                                                                                     |
+| ![rwr_triangle_symbol.jpg](../../img/rwr_triangle_symbol.jpg)         | F-14, F-15C, F-15E, F-16, F-18C, JF-17, M-2000C, MiG-29, Su-27, MiG-31                                                                                              |
+| ![rwr_two_triangle_symbol.jpg](../../img/rwr_two_triangle_symbol.jpg) | F-1, AJS-37, F-4E, MiG-19, MiG-21, MiG-23, F-5E-3, 狂风 IDS/GR4                                                                                                     |
+| ![rwr_uncorrelated_missile.jpg](../../img/rwr_uncorr_msl.jpg)         | AIM-54, AIM-120, SD-10, R-77                                                                                                                                        |
+| ![rwr_u_one_dot_symbol.jpg](../../img/rwr_u_one_dot_symbol.jpg)       | 不明 (低波段)                                                                                                                                                       |
+| ![rwr_u_two_dot_symbol.jpg](../../img/rwr_u_two_dot_symbol.jpg)       | 不明 (中波段)                                                                                                                                                       |
+| ![rwr_u_three_dot_symbol.jpg](../../img/rwr_u_three_dot_symbol.jpg)   | 不明 (高波段)                                                                                                                                                       |
 
 ### 水面和机载威胁
 
 | 符号                                                                    | 可能威胁                                                                                                                           |
 | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| ![rwr_four_symbol.jpg](../../img/rwr_four_symbol.jpg)                   | 克里瓦克 II, 格里莎级                                                                                                              |
-| ![rwr_six_symbol.jpg](../../img/rwr_six_symbol.jpg)                     | 战巡彼得大帝, 巡洋舰莫斯科, 052C 型驱逐舰, 不惧护卫舰                                                                              |
-| ![rwr_seven_symbol.jpg](../../img/rwr_seven_symbol.jpg)                 | 054A 型护卫舰, 052B 型驱逐舰                                                                                                       |
-| ![rwr_nine_symbol.jpg](../../img/rwr_nine_symbol.jpg)                   | CV 1143.5 库兹涅佐夫                                                                                                               |
-| ![rwr_a_one_dot_symbol.jpg](../../img/rwr_a_one_dot_symbol.jpg)         | 斗士 II                                                                                                                            |
-| ![rwr_a_two_dot_symbol.jpg](../../img/rwr_a_two_dot_symbol.jpg)         | 071 型, 利安德级                                                                                                                   |
+| ![rwr_four_symbol.jpg](../../img/rwr_four_symbol.jpg)                   | 克里瓦克, 战巡彼得大帝, 格里沙, 不惧                                                                                               |
+| ![rwr_six_symbol.jpg](../../img/rwr_six_symbol.jpg)                     | CV 1143.5 库兹涅佐夫, 战巡彼得大帝, 052B & 052C 型驱逐舰, 054A 型护卫舰,, 071 型, 不惧                                             |
+| ![rwr_seven_symbol.jpg](../../img/rwr_seven_symbol.jpg)                 | 054A 型护卫舰, 052B 型驱逐舰, 071 型                                                                                               |
+| ![rwr_six_symbol.jpg](../../img/rwr_six_symbol.jpg)                     | CV 1143.5 库兹涅佐夫, 巡洋舰莫斯科, 毒蜘蛛级, 22160 型巡逻舰, 22160 型巡逻舰带道尔 M2KM                                            |
+| ![rwr_a_two_dot_symbol.jpg](../../img/rwr_a_two_dot_symbol.jpg)         | 利安德级                                                                                                                           |
 | ![rwr_a_three_dot_symbol.jpg](../../img/rwr_a_three_dot_symbol.jpg)     | 蟾蜍级                                                                                                                             |
 | ![rwr_c_symbol.jpg](../../img/rwr_c_symbol.jpg)                         | CVN-71 西奥多.罗斯福, CVN-72 亚伯拉罕.林肯, CVN-73 乔治.华盛顿, CVN-74 约翰.C.斯坦尼斯, CVN-75 哈利.S.杜鲁门, 福莱斯特号, 塔拉瓦号 |
 | ![rwr_g_symbol.jpg](../../img/rwr_g_symbol.jpg)                         | 佩里                                                                                                                               |
-| ![rwr_l_symbol.jpg](../../img/rwr_l_symbol.jpg)                         | 利安德级                                                                                                                           |
 | ![rwr_p_slashed_symbol.jpg](../../img/rwr_p_slashed_symbol.jpg)         | 提康德罗加级, 阿利伯克级                                                                                                           |
 | ![rwr_s_symbol.jpg](../../img/rwr_s_symbol.jpg)                         | 克里瓦克 II 级 SR, 不惧 SR, 无敌级 SR, 利安德级 SR, 光荣级 SR, 库兹涅佐夫 SR, 蟾蜍级 SR                                            |
-| ![rwr_flat_triangle_symbol.jpg](../../img/rwr_flat_triangle_symbol.jpg) | E-2D 鹰眼, E-3C 望楼, A-50                                                                                                         |
-| ![rwr_triangle_symbol.jpg](../../img/rwr_triangle_symbol.jpg)           | F-14, F-15C, F-15E, F-16, F-18C, JF-17, M-2000C, Mig-29, SU-27, MiG-31, 狂风 IDS/GR4                                               |
-| ![rwr_two_triangle_symbol.jpg](../../img/rwr_two_triangle_symbol.jpg)   | F-1, AJS-37, F-4E, MiG-19, MiG-21, MiG-23, F-5E-3                                                                                  |
+| ![rwr_flat_triangle_symbol.jpg](../../img/rwr_flat_triangle_symbol.jpg) | E-3C 望楼, A-50                                                                                                                    |
+| ![rwr_triangle_symbol.jpg](../../img/rwr_triangle_symbol.jpg)           | F-14, F-15C, F-15E, F-16, F-18C, JF-17, M-2000C, MiG-29, Su-27, MiG-31                                                             |
+| ![rwr_two_triangle_symbol.jpg](../../img/rwr_two_triangle_symbol.jpg)   | F-1, AJS-37, F-4E, MiG-19, MiG-21, MiG-23, F-5E-3, 狂风 IDS/GR4                                                                    |
+| ![rwr_uncorrelated_missile.jpg](../../img/rwr_uncorr_msl.jpg)           | AIM-54, AIM-120, SD-10, R-77                                                                                                       |
 | ![rwr_u_one_dot_symbol.jpg](../../img/rwr_u_one_dot_symbol.jpg)         | 不明 (低波段)                                                                                                                      |
 | ![rwr_u_two_dot_symbol.jpg](../../img/rwr_u_two_dot_symbol.jpg)         | 不明 (中波段)                                                                                                                      |
 | ![rwr_u_three_dot_symbol.jpg](../../img/rwr_u_three_dot_symbol.jpg)     | 不明 (高波段)                                                                                                                      |
+
+<!-- markdownlint-enable MD013 -->
 
 ### 导弹
 
@@ -272,17 +274,19 @@ RWR 只能在探测到存在 C/D 波段制导信号时来指示辐射源实际�
 | SA-2   | S             | 2         | 🟢                       |
 | SA-3   | S             | 3         | 🟢                       |
 | SA-5   | S             | 5         | ❌                       |
-| SA-6   | S             | 6         | 🟢                       |
+| SA-6   | S             | 6         | ❌                       |
 | HQ-7   | S             | 7         | ❌                       |
-| SA-8   | U             | 8         | 🟢                       |
+| SA-8   | U             | 8         | ❌                       |
 | SA-10  | S             | 10        | ❌                       |
 | SA-11  | S             | 11        | ❌                       |
 | SA-13  | U             | ❌        | ❌                       |
 | SA-15  | U             | 15        | 🟢                       |
 | SA-19  | U             | 19        | ❌                       |
+| SA-22  | U             | P         | ❌                       |
 | 霍克   | S (仅限 CWAR) | H         | ❌                       |
 | 爱国者 | P             | PRF 变化  | ❌                       |
-| 轻剑   | S             | R         | ❌                       |
+| 轻剑   | S             | ❌        | ❌                       |
+| 罗兰德 | S             | R         | ❌                       |
 | NASAMS | S             | ❌        | AIM-120 跟踪 🟢，其它 ❌ |
 
 ### 舰载
@@ -290,33 +294,35 @@ RWR 只能在探测到存在 C/D 波段制导信号时来指示辐射源实际�
 > 💡 大部分海军资产存在多个武器系统和多个雷达。在这其中只有一部分在 RWR 的威胁数据库内，因此下表的
 > 锁定栏仅显示最高优先级威胁。
 
-| 威胁             | 搜索                 | 锁定 | 发射 |
-| ---------------- | -------------------- | ---- | ---- |
-| 克里瓦克 II 级   | S (多个雷达某些为 U) | 4    | 🟢   |
-| 基洛夫级         | S (个雷达某些为 U)   | 6    | ❌   |
-| 光荣级           | S (多个雷达某些为 U) | 6    | 🟢   |
-| 库兹涅佐夫       | S (多个雷达某些为 U) | 9    | ❌   |
-| 毒蜘蛛级         | U                    | 8    | 🟢   |
-| 格里莎级         | U                    | 8    | 🟢   |
-| 不惧级           | S (多个雷达某些为 U) | 9    | ❌   |
-| 蟾蜍级           | U                    | A    | ❌   |
-| Type 052B        | S (多个雷达某些为 U) | 7    | ❌   |
-| 052C 型          | U                    | 6    | ❌   |
-| 054A 型          | U                    | 7    | ❌   |
-| 071 型           | U                    | A    | ❌   |
-| 提康德罗加       | P                    | P    | ❌   |
-| 阿利伯克         | P                    | P    | ❌   |
-| 佩里             | U                    | G    | ❌   |
-| 福莱斯特         | U                    | C    | ❌   |
-| 尼米兹           | U                    | C    | ❌   |
-| 塔拉瓦           | U                    | C    | ❌   |
-| 斗士 II          | U                    | A    | ❌   |
-| 利安德           | S (多个雷达某些为 U) | L    | 🟢   |
-| 城堡级           | U                    | ❌   | ❌   |
-| 无敌号           | S (多个雷达某些为 U) | ❌   | ❌   |
-| 五月二十五日号   | U                    | ❌   | ❌   |
-| 康德尔海军上将号 | U                    | ❌   | ❌   |
-| Tiger            | U                    | ❌   | ❌   |
+| 威胁                      | 搜索                 | 锁定 | 发射 |
+| ------------------------- | -------------------- | ---- | ---- |
+| 克里瓦克 II 级            | S (多个雷达某些为 U) | 4    | ❌   |
+| 基洛夫级                  | S (个雷达某些为 U)   | 4/6  | ❌   |
+| 光荣级                    | S (多个雷达某些为 U) | 6/9  | ❌   |
+| 库兹涅佐夫                | S (多个雷达某些为 U) | 6    | ❌   |
+| 毒蜘蛛级                  | S (个雷达某些为 U)   | 9    | ❌   |
+| 格里沙                    | S (个雷达某些为 U)   | 4    | ❌   |
+| 不惧级                    | S (多个雷达某些为 U) | 4/6  | ❌   |
+| 蟾蜍级                    | S (个雷达某些为 U)   | 4    | ❌   |
+| 22160 型                  | 9                    | 9    | ❌   |
+| 22160 型巡逻舰带道尔 M2KM | 9                    | 9    | ❌   |
+| Type 052B                 | S (多个雷达某些为 U) | 6/7  | ❌   |
+| 052C 型                   | U                    | 6    | ❌   |
+| 054A 型                   | U                    | 7    | ❌   |
+| 071 型                    | U                    | 6/7  | ❌   |
+| 提康德罗加                | P                    | P    | ❌   |
+| 阿利伯克                  | P                    | P    | ❌   |
+| 佩里                      | G                    | G    | ❌   |
+| 福莱斯特                  | U                    | C    | ❌   |
+| 尼米兹                    | U                    | C    | ❌   |
+| 塔拉瓦                    | U                    | C    | ❌   |
+| 斗士 II                   | U                    | U    | ❌   |
+| 利安德                    | S (多个雷达某些为 U) | A..  | 🟢   |
+| 城堡级                    | U                    | ❌   | ❌   |
+| 无敌号                    | S (多个雷达某些为 U) | ❌   | ❌   |
+| 五月二十五日号            | U                    | ❌   | ❌   |
+| 康德尔海军上将号          | U                    | ❌   | ❌   |
+| Tiger                     | U                    | ❌   | ❌   |
 
 ### 机载
 
@@ -327,7 +333,7 @@ RWR 只能在探测到存在 C/D 波段制导信号时来指示辐射源实际�
 | MIG-23              | 🟢   | PRF 变化 | ❌                       |
 | MIG-29              | 🟢   | PRF 变化 | R-77 跟踪 🟢, 其它 ❌    |
 | Su-27/30/33/34/J-11 | 🟢   | PRF 变化 | R-77 跟踪 🟢, 其它 ❌    |
-| JF-17               | 🟢   | PRF 变化 | ❌                       |
+| JF-17               | 🟢   | PRF 变化 | SD-10 跟踪 🟢, 其它 ❌   |
 | F-4                 | 🟢   | PRF 变化 | ❌                       |
 | F-5                 | 🟢   | PRF 变化 | ❌                       |
 | F-14                | 🟢   | PRF 变化 | AIM-54 跟踪 🟢, 其它 ❌  |
