@@ -274,9 +274,9 @@ General Key:
 | Mk 24 Mod 34 |   RF    |      | (TS) |           |      | (TS)/(BB)/CS |       |  TR   |                |      (SR)      |  SR   | (SR)  |      |
 | Mk 25        | (TR)/RF |      |      |           |      |              |       | (TR)  |       TR       |                |       |       | (DE) |
 | Mk 36        |   RF    | (TR) |      |  SR/(TR)  |      |      TR      | (TR)  |  TR   |                |                |       |  TR   |      |
-| Mk 37        | (FF)/RF | (FF) | (FF) |           |  SR  |              |       |  TR   |                |                |       |       |      |
-| Mk 49 Mod 0  |   RF    | (TR) | (TR) | (SR)/(TR) |      |     (TR)     | (TR)  |  TR   |                |                |       |  TR   |      |
-| Mk 49 Mod 1  |   RF    | (TR) | (TR) | (SR)/(TR) |      |     (TR)     | (TR)  |  TR   |                |                |       |  TR   |      |
+| Mk 37        | (FF)/RF | (FF) | (FF) |           |      |              |       |  TR   |                |                |       |       |      |
+| Mk 49 Mod 0  |   RF    | (TR) | (TR) | (SR)/(TR) | (SR) |     (TR)     | (TR)  |  TR   |                |                |       |  TR   |      |
+| Mk 49 Mod 1  |   RF    | (TR) | (TR) | (SR)/(TR) | (SR) |     (TR)     | (TR)  |  TR   |                |                |       |  TR   |      |
 | Mk 50        | (TR)/RF |      | (TS) |           |      | (TS)/(BB)/CS |  SR   | (TR)  |   (SR)/(TR)    |      (SR)      | (SR)  | (SR)  | (DE) |
 
 > 💡 The SA-2/3/5 all can use the same Flat Face search radar with the SA-5 having the option of
@@ -372,15 +372,15 @@ General Key:
 | Seeker       | Ticonderoga | Arleigh Burke | Oliver Hazard Perry | Forrestal | Nimitz  | Tarawa |
 | ------------ | :---------: | :-----------: | :-----------------: | :-------: | :-----: | :----: |
 | Mk 22        |             |               |         TR          |           |   TR    |        |
-| Mk 23        |             |               |         TR          |           | (SR)/TR |        |
-| Mk 24 Mod 5  |             |               |         TR          |           | (SR)/TR |        |
-| Mk 24 Mod 34 |             |               |         TR          |           | (SR)/TR |        |
-| Mk 25        |             |               |         TR          |           |   TR    |        |
+| Mk 23        |             |               |         TR          |   (SR)    | (SR)/TR |        |
+| Mk 24 Mod 5  |             |               |         TR          |   (SR)    | (SR)/TR |        |
+| Mk 24 Mod 34 |             |               |         TR          |   (SR)    | (SR)/TR |        |
+| Mk 25        |             |               |         TR          |   (SR)    |   TR    |        |
 | Mk 36        |    (TR)     |     (TR)      |         TR          |           |   TR    |        |
 | Mk 37        |  (SR)/(TR)  |     SR/TR     |        SR/TR        |           |  SR/TR  |        |
 | Mk 49 Mod 0  |             |               |        (TR)         |           |   TR    |        |
 | Mk 49 Mod 1  |             |               |        (TR)         |           |   TR    |        |
-| Mk 50        |             |               |         TR          |           | (SR)/TR |        |
+| Mk 50        |             |               |         TR          |   (SR)    | (SR)/TR |        |
 
 ##### British Naval Threats
 
