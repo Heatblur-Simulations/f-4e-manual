@@ -67,16 +67,18 @@ will increase from 3% to 8%, causing majority of pods to be produced with a
 speed between 55 and 65 degrees per second instead.
 
 Quality scale (meaning):
-- 0% — Works but degraded. Performance clearly worse; still does the job;
+
+- **0%**: Works but degraded. Performance clearly worse; still does the job;
   high chance of faults.
-- 25% — Poor wartime build. Substitute materials, loose tolerances; quirks are obvious.
-- 50% — Mediocre subcontractor. Near spec in places; small issues may be hard to
+- **25%**: Poor wartime build. Substitute materials, loose tolerances; quirks are obvious.
+- **50%**: Mediocre subcontractor. Near spec in places; small issues may be hard to
   notice in routine flight.
-- 75% — Slightly below standard. Minor imperfections; effects are subtle.
-- 90% — Standard western build. Typical service jet quality.
-- 100% — Showroom/prototype grade. Best-of-fleet specimen.
+- **75%**: Slightly below standard. Minor imperfections; effects are subtle.
+- **90%**: Standard western build. Typical service jet quality.
+- **100%**: Showroom/prototype grade. Best-of-fleet specimen.
 
 Condition also affects how components are serviced when the aircraft is created or repaired:
+
 - Good quality (>85%): Worn components are replaced with new parts (no initial wear).
 - Decent quality (>50%): Worn components are replaced or properly serviced,
   reducing the chance of failure in the next flight.
@@ -85,7 +87,7 @@ Condition also affects how components are serviced when the aircraft is created 
 
 > 💡 Very low condition does not guarantee manufacturer-acceptable limits.
 > At 0%, parts still work but are noticeably degraded. The aircraft remains
-> usable and operational, but combat effectiveness may be reduced, 
+> usable and operational, but combat effectiveness may be reduced,
 > handling may feel rougher and failures are highly probable.
 
 ### Aircraft Wear and Tear
