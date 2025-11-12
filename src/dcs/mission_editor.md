@@ -56,7 +56,8 @@ more likely.
 An aircraft's condition generally refers to its factory and production quality.
 For example, during war times a factory might run out of supplies and reduce
 their acceptance criteria during production, generally increasing variance in
-individual component performance.
+individual component performance. Aircraft condition also reflects service/maintenance
+quality over time.
 
 Mission designers can control this aspect with the **Aircraft Condition**
 slider, indicating quality from 0% (poor quality) to 100% (high quality).
@@ -65,9 +66,27 @@ For the Pave Spike motor this means that, when set to 0%, its speed variance σ
 will increase from 3% to 8%, causing majority of pods to be produced with a
 speed between 55 and 65 degrees per second instead.
 
-Aircraft condition will always still be within limits that a manufacturer might
-find reasonably acceptable. The aircraft is always still fully functional and
-operational.
+Quality scale (meaning):
+- 0% — Works but degraded. Performance clearly worse; still does the job;
+  high chance of faults.
+- 25% — Poor wartime build. Substitute materials, loose tolerances; quirks are obvious.
+- 50% — Mediocre subcontractor. Near spec in places; small issues may be hard to
+  notice in routine flight.
+- 75% — Slightly below standard. Minor imperfections; effects are subtle.
+- 90% — Standard western build. Typical service jet quality.
+- 100% — Showroom/prototype grade. Best-of-fleet specimen.
+
+Condition also affects how components are serviced when the aircraft is created or repaired:
+- Good quality (>85%): Worn components are replaced with new parts (no initial wear).
+- Decent quality (>50%): Worn components are replaced or properly serviced,
+  reducing the chance of failure in the next flight.
+- Poor quality (<50%): Servicing is inconsistent; the lower the quality, the less likely
+  a worn component is replaced. Residual wear may remain and failures are more likely.
+
+> 💡 Very low condition does not guarantee manufacturer-acceptable limits.
+> At 0%, parts still work but are noticeably degraded. The aircraft remains
+> usable and operational, but combat effectiveness may be reduced, 
+> handling may feel rougher and failures are highly probable.
 
 ### Aircraft Wear and Tear
 
@@ -103,7 +122,7 @@ may move slower, or engines may produce less power.
 
 Dropdown to select which aircraft state is used at spawn.
 
-### Random
+### Default
 
 Generates a new unique aircraft. Condition and wear settings
 are applied as chosen.
@@ -306,45 +325,48 @@ commands are executed silently as in Jester will neither deny nor confirm any
 commands. The SetCommands with the Command ID, name and Values can be found in
 the table below:
 
-| Command ID | Name                        | Value                          |
-| ---------- | --------------------------- | ------------------------------ |
-| 20010      | Jester_silent               | 0-1                            |
-| 20011      | Jester_pause                | 0-1                            |
-| 20015      | Jester_tune_ARC_164_channel | 0.XX                           |
-| 20016      | Jester_tune_TACAN_channel   | s0.XXXY                        |
-| 20017      | Jester_deviate_to_tgt_zone  | 0.XX                           |
-| 20018      | Jester_add_wpt_after        | 0.TTXXY                        |
-| 20020      | Jester_resume_flightplan    | 0.XXY                          |
-| 20021      | Jester_designate_wpt        | 0.DXXY                         |
-| 20022      | Jester_set_cap_time         | 0.XX                           |
-| 20023      | Jester_eject_WSO            | 0-1                            |
-| 20025      | Jester_unlock_tgt           | 0-1                            |
-| 20026      | Jester_radar_power          | 0.00 - 1.00 in 0.2 increments  |
-| 20027      | Jester_radar_polar          | 0-1                            |
-| 20028      | Jester_radar_range          | 0.00 - 1.00 in 0.2 increments  |
-| 20029      | Jester_radar_maneuver       | 0-1                            |
-| 20030      | Jester_radar_scan           | 0-1                            |
-| 20031      | Jester_radar_aspect         | 0.00 - 1.00 in 0.2 increments  |
-| 20032      | Jester_radar_rcvr_fine      | 0.00 - 1.00                    |
-| 20033      | Jester_radar_rcvr_coarse    | 0.00 - 1.00                    |
-| 20034      | Jester_radar_track          | 0.00 - 1.00 in 0.33 increments |
-| 20035      | Jester_radar_display        | 0.00 - 1.00 in 0.2 increments  |
-| 20036      | Jester_radar_man_vc         | 0.00 - 1.00 in 0.1 increments  |
-| 20037      | Jester_radar_pulse          | 0-1                            |
-| 20038      | Jester_radar_mode           | 0.00 - 1.00 in 0.2 increments  |
-| 20039      | Jester_dispense             | 0-1                            |
-| 20040      | Jester_air_to_air           | 0-1                            |
-| 20041      | Jester_video_select         | 0-1                            |
-| 20042      | Jester_context_short        | 0-1                            |
-| 20043      | Jester_context_long         | 0-1                            |
-| 20044      | Jester_context_double       | 0-1                            |
-| 20045      | Jester_set_laser_code       | 0.XXXX                         |
-| 20046      | Jester_set_wrcs_drag        | 0.XXX                          |
-| 20047      | Jester_set_wrcs_alt_range   | 0.XXX                          |
-| 20048      | Jester_set_wrcs_ew_dist     | s0.XXX                         |
-| 20049      | Jester_set_wrcs_ns_dist     | s0.XXX                         |
-| 20050      | Jester_set_wrcs_advance     | 0.XXX                          |
-| 20051      | Jester_set_wrcs_range       | 0.XXX                          |
+| Command ID | Name                            | Value                          |
+| ---------- | ------------------------------- | ------------------------------ |
+| 20010      | Jester_silent                   | 0-1                            |
+| 20011      | Jester_pause                    | 0-1                            |
+| 20015      | Jester_tune_ARC_164_channel     | 0.XX                           |
+| 20016      | Jester_tune_TACAN_channel       | s0.XXXY                        |
+| 20017      | Jester_deviate_to_tgt_zone      | 0.XX                           |
+| 20018      | Jester_add_wpt_after            | 0.TTXXY                        |
+| 20020      | Jester_resume_flightplan        | 0.XXY                          |
+| 20021      | Jester_designate_wpt            | 0.DXXY                         |
+| 20022      | Jester_set_cap_time             | 0.XX                           |
+| 20023      | Jester_eject_WSO                | 0-1                            |
+| 20025      | Jester_unlock_tgt               | 0-1                            |
+| 20026      | Jester_radar_power              | 0.00 - 1.00 in 0.2 increments  |
+| 20027      | Jester_radar_polar              | 0-1                            |
+| 20028      | Jester_radar_range              | 0.00 - 1.00 in 0.2 increments  |
+| 20029      | Jester_radar_maneuver           | 0-1                            |
+| 20030      | Jester_radar_scan               | 0-1                            |
+| 20031      | Jester_radar_aspect             | 0.00 - 1.00 in 0.2 increments  |
+| 20032      | Jester_radar_rcvr_fine          | 0.00 - 1.00                    |
+| 20033      | Jester_radar_rcvr_coarse        | 0.00 - 1.00                    |
+| 20034      | Jester_radar_track              | 0.00 - 1.00 in 0.33 increments |
+| 20035      | Jester_radar_display            | 0.00 - 1.00 in 0.2 increments  |
+| 20036      | Jester_radar_man_vc             | 0.00 - 1.00 in 0.1 increments  |
+| 20037      | Jester_radar_pulse              | 0-1                            |
+| 20038      | Jester_radar_mode               | 0.00 - 1.00 in 0.2 increments  |
+| 20039      | Jester_dispense                 | 0-1                            |
+| 20040      | Jester_air_to_air               | 0-1                            |
+| 20041      | Jester_video_select             | 0-1                            |
+| 20042      | Jester_context_short            | 0-1                            |
+| 20043      | Jester_context_long             | 0-1                            |
+| 20044      | Jester_context_double           | 0-1                            |
+| 20045      | Jester_set_laser_code           | 0.XXXX                         |
+| 20046      | Jester_set_wrcs_drag            | 0.XXX                          |
+| 20047      | Jester_set_wrcs_alt_range       | 0.XXX                          |
+| 20048      | Jester_set_wrcs_ew_dist         | s0.XXX                         |
+| 20049      | Jester_set_wrcs_ns_dist         | s0.XXX                         |
+| 20050      | Jester_set_wrcs_advance         | 0.XXX                          |
+| 20051      | Jester_set_wrcs_range           | 0.XXX                          |
+| 20052      | Jester_set_comms_command        | 0-1                            |
+| 20053      | Jester_set_tacan_command        | 0-1                            |
+| 20054      | Jester_tune_ARC_164_AUX_channel | 0.XX                           |
 
 ### Usage of SetCommands
 
@@ -354,6 +376,10 @@ complex values.
 ![set_commands_me.jpg](../img/set_commands_me.jpg)
 
 #### Jester_tune_ARC_164_channel
+
+The value follows the format "0.XX," where "XX" is the two-digit channel number.
+
+#### Jester_tune_ARC_164_AUX_channel
 
 The value follows the format "0.XX," where "XX" is the two-digit channel number.
 

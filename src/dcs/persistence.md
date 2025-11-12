@@ -16,7 +16,9 @@ includes positions of switches and knobs. Damaged components are **automatically
 repaired** between flights.
 
 > 💡 Depending on the spawn type, the ground crew might change some switches and
-> knobs while preparing the aircraft for the pilot in advance.
+> knobs while preparing the aircraft for the pilot in advance. Important switches
+> are placed in their correct initial positions, regardless of how the player
+> left them previously.
 
 With persistence enabled, the state of the aircraft will be automatically saved
 when the aircraft is **successfully left on ground** (for example not in-flight
@@ -62,3 +64,11 @@ settings.
 The option [Spawn Type: Persistent](mission_editor.md#persistent) enables the
 system and [Persistent Aircraft Key](mission_editor.md#persistent-aircraft-key)
 is used determine which particular tracked aircraft is flown in this mission.
+
+> 💡 If the livery and/or tail number is changed in-game via the Rearm menu,
+> the aircraft will not automatically load the persistent state for the new choice.
+> Press **Reload Aircraft** (<kbd>LCTRL</kbd>+<kbd>R</kbd>) bind to load the state for the newly selected
+> livery/tail number. Reloading the aircraft will return cockpit switches and knobs
+> to their initialization state.
+> It is recommended to change livery/tail number and reload at the very beginning
+> of the flight.
