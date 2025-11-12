@@ -16444,7 +16444,9 @@ includes positions of switches and knobs. Damaged components are <strong>automat
 repaired</strong> between flights.</p>
 <blockquote>
 <p>💡 Depending on the spawn type, the ground crew might change some switches and
-knobs while preparing the aircraft for the pilot in advance.</p>
+knobs while preparing the aircraft for the pilot in advance. Important switches
+are placed in their correct initial positions, regardless of how the player
+left them previously.</p>
 </blockquote>
 <p>With persistence enabled, the state of the aircraft will be automatically saved
 when the aircraft is <strong>successfully left on ground</strong> (for example not in-flight
@@ -16476,6 +16478,15 @@ settings.</p>
 <p>The option <a href="dcs/mission_editor.html#persistent">Spawn Type: Persistent</a> enables the
 system and <a href="dcs/mission_editor.html#persistent-aircraft-key">Persistent Aircraft Key</a>
 is used determine which particular tracked aircraft is flown in this mission.</p>
+<blockquote>
+<p>💡 If the livery and/or tail number is changed in-game via the Rearm menu,
+the aircraft will not automatically load the persistent state for the new choice.
+Press <strong>Reload Aircraft</strong> (<kbd>LCTRL</kbd>+<kbd>R</kbd>) bind to load the state for the newly selected
+livery/tail number. Reloading the aircraft will return cockpit switches and knobs
+to their initialization state.
+It is recommended to change livery/tail number and reload at the very beginning
+of the flight.</p>
+</blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="grease-pencil"><a class="header" href="#grease-pencil">Grease Pencil</a></h1>
 <p>Both crew members can use a grease pencil to draw on the side of their canopy.</p>
 <p>The interface can be opened by clicking on the corresponding spot on the right
@@ -16670,15 +16681,38 @@ more likely.</p>
 <p>An aircraft's condition generally refers to its factory and production quality.
 For example, during war times a factory might run out of supplies and reduce
 their acceptance criteria during production, generally increasing variance in
-individual component performance.</p>
+individual component performance. Aircraft condition also reflects service/maintenance
+quality over time.</p>
 <p>Mission designers can control this aspect with the <strong>Aircraft Condition</strong>
 slider, indicating quality from 0% (poor quality) to 100% (high quality).</p>
 <p>For the Pave Spike motor this means that, when set to 0%, its speed variance σ
 will increase from 3% to 8%, causing majority of pods to be produced with a
 speed between 55 and 65 degrees per second instead.</p>
-<p>Aircraft condition will always still be within limits that a manufacturer might
-find reasonably acceptable. The aircraft is always still fully functional and
-operational.</p>
+<p>Quality scale (meaning):</p>
+<ul>
+<li><strong>0%</strong>: Works but degraded. Performance clearly worse; still does the job;
+high chance of faults.</li>
+<li><strong>25%</strong>: Poor wartime build. Substitute materials, loose tolerances; quirks are obvious.</li>
+<li><strong>50%</strong>: Mediocre subcontractor. Near spec in places; small issues may be hard to
+notice in routine flight.</li>
+<li><strong>75%</strong>: Slightly below standard. Minor imperfections; effects are subtle.</li>
+<li><strong>90%</strong>: Standard western build. Typical service jet quality.</li>
+<li><strong>100%</strong>: Showroom/prototype grade. Best-of-fleet specimen.</li>
+</ul>
+<p>Condition also affects how components are serviced when the aircraft is created or repaired:</p>
+<ul>
+<li>Good quality (&gt;85%): Worn components are replaced with new parts (no initial wear).</li>
+<li>Decent quality (&gt;50%): Worn components are replaced or properly serviced,
+reducing the chance of failure in the next flight.</li>
+<li>Poor quality (&lt;50%): Servicing is inconsistent; the lower the quality, the less likely
+a worn component is replaced. Residual wear may remain and failures are more likely.</li>
+</ul>
+<blockquote>
+<p>💡 Very low condition does not guarantee manufacturer-acceptable limits.
+At 0%, parts still work but are noticeably degraded. The aircraft remains
+usable and operational, but combat effectiveness may be reduced,
+handling may feel rougher and failures are highly probable.</p>
+</blockquote>
 <h3 id="aircraft-wear-and-tear"><a class="header" href="#aircraft-wear-and-tear">Aircraft Wear and Tear</a></h3>
 <p>Additionally to production quality, components can degrade during service based
 on time since the last overhaul, external factors like temperature and weather,
@@ -16706,7 +16740,7 @@ may move slower, or engines may produce less power.</p>
 <p><img src="dcs/../img/broken_phantom_crash.jpg" alt="Crashed Phantom" /></p>
 <h2 id="aircraft-type-on-spawn"><a class="header" href="#aircraft-type-on-spawn">Aircraft Type On Spawn</a></h2>
 <p>Dropdown to select which aircraft state is used at spawn.</p>
-<h3 id="random"><a class="header" href="#random">Random</a></h3>
+<h3 id="default"><a class="header" href="#default">Default</a></h3>
 <p>Generates a new unique aircraft. Condition and wear settings
 are applied as chosen.</p>
 <p>If the user enabled aircraft persistence in their
@@ -16895,6 +16929,9 @@ the table below:</p>
 <tr><td>20049</td><td>Jester_set_wrcs_ns_dist</td><td>s0.XXX</td></tr>
 <tr><td>20050</td><td>Jester_set_wrcs_advance</td><td>0.XXX</td></tr>
 <tr><td>20051</td><td>Jester_set_wrcs_range</td><td>0.XXX</td></tr>
+<tr><td>20052</td><td>Jester_set_comms_command</td><td>0-1</td></tr>
+<tr><td>20053</td><td>Jester_set_tacan_command</td><td>0-1</td></tr>
+<tr><td>20054</td><td>Jester_tune_ARC_164_AUX_channel</td><td>0.XX</td></tr>
 </tbody></table>
 </div>
 <h3 id="usage-of-setcommands"><a class="header" href="#usage-of-setcommands">Usage of SetCommands</a></h3>
@@ -16902,6 +16939,8 @@ the table below:</p>
 complex values.</p>
 <p><img src="dcs/../img/set_commands_me.jpg" alt="set_commands_me.jpg" /></p>
 <h4 id="jester_tune_arc_164_channel"><a class="header" href="#jester_tune_arc_164_channel">Jester_tune_ARC_164_channel</a></h4>
+<p>The value follows the format "0.XX," where "XX" is the two-digit channel number.</p>
+<h4 id="jester_tune_arc_164_aux_channel"><a class="header" href="#jester_tune_arc_164_aux_channel">Jester_tune_ARC_164_AUX_channel</a></h4>
 <p>The value follows the format "0.XX," where "XX" is the two-digit channel number.</p>
 <h4 id="jester_tune_tacan_channel"><a class="header" href="#jester_tune_tacan_channel">Jester_tune_TACAN_channel</a></h4>
 <p>The value follows the format "s0.XXXY," where "s" is an optional minus sign. Use
