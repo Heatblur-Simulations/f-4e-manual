@@ -64,7 +64,7 @@ title="How to (Actually) Drop Bombs In The F-4E" frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ff-874bghek"
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ff-874bghek?si=BhGhYx3MM5FW3z59"
 title="DCS: F4E WSO Dive Toss/Dive Laydown Tutorial" frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
