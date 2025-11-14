@@ -179,6 +179,11 @@ will then send back a response, revealing the position of the aircraft.
 > 💡 Spoofable systems that can be exploited by the AN/APX-81A can be configured
 > in the [Mission Editor](../dcs/mission_editor.md#combat-tree-spoofable).
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Gk3CLJB3dNY?si=D7Q7bRf00jEX05iT"
+title="DCS F-4E Phantom II APX-81 Combat Tree Tutorial! | The Game Changer Over Vietnam!" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 The system is activated by moving both, the Mode 2 and Mode 3 switch
 (<num>5</num>) to the ACTIVE position.
 
