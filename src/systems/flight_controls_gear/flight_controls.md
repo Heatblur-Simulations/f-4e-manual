@@ -176,6 +176,11 @@ operation, **stability augmentation** and **AFCS**.
 > its sub-mode in which the aircraft attitude and/or heading
 > is held and altitude hold can be activated.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4ubA7UuQ5vw?si=Ga5Ym_cnLGLzJiy2"
+title="DCS: F-4E Automatic Flight Control System (AFCS) Tutorial" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 **Stability augmentation** improves airplane stability in pitch, roll,
 and yaw. It opposes any change of attitude but does not
 return the airplane to a given attitude or ground track.

@@ -6,6 +6,11 @@ folk, we'll give you M&Ms"*
 The Phantom can be equipped with ECM pods capable of jamming radar signals to
 protect it from getting tracked by other aircraft or radar guided missiles.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CK-gaIUW0Co?si=Mb6up8RG2Us7U1ZD"
+title="DCS: F-4E Countermeasures and ECM Tutorial (Pilot, Jester, WSO)" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 During its service, it saw a number of pods with different capabilities.
 
 Early pods such as the AN/ALQ-71 or AN/ALQ-87 have been used effectively during
