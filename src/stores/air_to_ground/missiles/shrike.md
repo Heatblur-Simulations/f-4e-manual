@@ -264,18 +264,18 @@ AGM-45 有 10 种导引头可选，每个导引头覆盖一个特定的波段。
 
 ##### NATO 陆基 SAM 系统雷达和 EWR
 
-| 导引头       | 霍克  | 爱国者 | 轻剑 | 罗兰德 | NASAMS | IRIS-T SLM |
-| ------------ | :---: | :----: | :--: | :----: | :----: | :--------: |
-| Mk 22        |  TR   |  STR   |  SR  |        |        |    STR     |
-| Mk 23        |  TR   |        |  SR  |        |        |            |
-| Mk 24 Mod 5  |  TR   |        |  SR  |        |        |            |
-| Mk 24 Mod 34 |  TR   |        |  SR  |        |        |            |
-| Mk 25        |  TR   |  STR   | (SR) |        |        |   (STR)    |
-| Mk 36        |  TR   |        |  SR  |   TR   |  (SR)  |            |
-| Mk 37        | SR/TR |        |  SR  |        |        |            |
-| Mk 49 Mod 0  |  TR   |        |  SR  |        |        |            |
-| Mk 49 Mod 1  |  TR   |        |  SR  |        |        |            |
-| Mk 50        |  TR   |  STR   | (SR) |        |        |   (STR)    |
+| 导引头       | 霍克 | 爱国者 | 轻剑 | 罗兰德 | NASAMS | IRIS-T SLM |
+| ------------ | :--: | :----: | :--: | :----: | :----: | :--------: |
+| Mk 22        |      |  STR   |  SR  |        |        |    STR     |
+| Mk 23        |      |        |  SR  |        |        |            |
+| Mk 24 Mod 5  |      |        |  SR  |        |        |            |
+| Mk 24 Mod 34 |      |        |  SR  |        |        |            |
+| Mk 25        |      |  STR   | (SR) |        |        |   (STR)    |
+| Mk 36        |  TR  |        |  SR  |   TR   |  (SR)  |            |
+| Mk 37        |  SR  |        |  SR  |        |        |            |
+| Mk 49 Mod 0  |      |        |  SR  |        |        |            |
+| Mk 49 Mod 1  |      |        |  SR  |        |        |            |
+| Mk 50        |      |  STR   | (SR) |        |        |   (STR)    |
 
 #### 海军威胁
 
