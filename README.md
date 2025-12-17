@@ -20,7 +20,6 @@ PDF versions are available from the
 <!-- markdown-link-check-disable -->
 Markdown is supported widely by most IDEs and text editors. We recommend
 [VSC](https://code.visualstudio.com/) and any JetBrains IDE, such as
-[Fleet](https://www.jetbrains.com/fleet/),
 [IntelliJ](https://www.jetbrains.com/idea/) or
 [CLion](https://www.jetbrains.com/clion/).
 <!-- markdown-link-check-enable -->
