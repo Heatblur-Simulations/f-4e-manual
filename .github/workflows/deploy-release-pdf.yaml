@@ -18,7 +18,7 @@ jobs:
         uses: peaceiris/actions-mdbook@v2.0.0
         with:
           mdbook-version: "0.4.42"
-      - run: cargo install mdbook-pdf
+      - run: cargo install --git https://github.com/Heatblur-Simulations/mdbook-pdf
       - run: mdbook build
 
       - name: Rename PDF

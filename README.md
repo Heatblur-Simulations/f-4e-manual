@@ -45,8 +45,9 @@ browser at [localhost:3000](http://localhost:3000/), it automatically updates
 whenever the contents change.
 <!-- markdown-link-check-enable -->
 
-To build the PDF locally, use `cargo install mdbook-pdf` first. Then, when running `mdbook build`,
-the PDF will be created in `book/pdf`.
+To build the PDF locally, use
+`cargo install --git https://github.com/Heatblur-Simulations/mdbook-pdf` first.
+Then, when running `mdbook build`, the PDF will be created in `book/pdf`.
 
 ## GH Pages
 
