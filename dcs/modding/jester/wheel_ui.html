@@ -176,6 +176,21 @@ interactions are handled in <code>main.js</code>.</p>
 relevant for the C++ to JS communication.</p>
 <p>The method <code>hb_send_proxy</code> is used to send commands to C++, such as notifying it
 that an action has been clicked.</p>
+<h2 id="translations"><a class="header" href="#translations">Translations</a></h2>
+<p>The wheel and all other HB UI elements support localization.
+See the subfolder <code>l10n</code> for details.</p>
+<p>Translations are provided through simple files via the language code, for example <code>l10n/cn.js</code>:</p>
+<pre><code class="language-json">translations["cn"] = {
+    "Press": "按下",
+    "UHF Radio": "UHF 电台",
+    "Radio": "电台",
+    ...
+}
+</code></pre>
+<blockquote>
+<p>💡 You can add translations for other languages by simply modifying one of the existing files
+and then sending it to us. We will verify it and then gladly add it to the module! 👍</p>
+</blockquote>
 <h2 id="lua"><a class="header" href="#lua">Lua</a></h2>
 <p>The wheel is essentially a menu-tree. Each menu consists of up to 8 items. An
 item might be final or contain another sub-menu. Additionally, a sub-menu can
