@@ -185,6 +185,21 @@ when launching the Phantom for the first time.
 Selecting **Offline** will disable the Virtual Browser and any other HB UI
 features and elements that require an active online connection.
 
+### Language
+
+Dropdown to select the language used for all HB UI elements. Available are:
+
+- English
+- Chinese (_中文_)
+- German (_Deutsch_)
+
+Affects for example the Jester UI, the Bombing Tool, but also the
+in-game version of this Manual and more.
+
+> 💡 If you are interested in making translations for other languages,
+> please head over to the [Modding Section](modding/jester/wheel_ui.md#translations),
+> thanks! 👍
+
 ### Theme
 
 ![UI Theme](../img/special_option_hb_ui_theme.jpg)
