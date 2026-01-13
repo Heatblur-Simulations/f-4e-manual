@@ -322,16 +322,16 @@ General Key:
 
 | Seeker       | Hawk | Patriot | Rapier | Roland | NASAMS | IRIS-T SLM |
 | ------------ | :--: | :-----: | :----: | :----: | :----: | :--------: |
-| Mk 22        |      |   STR   |   SR   |        |        |    STR     |
-| Mk 23        |      |         |   SR   |        |        |            |
-| Mk 24 Mod 5  |      |         |   SR   |        |        |            |
-| Mk 24 Mod 34 |      |         |   SR   |        |        |            |
-| Mk 25        |      |   STR   |  (SR)  |        |        |   (STR)    |
-| Mk 36        |  TR  |         |   SR   |   TR   |  (SR)  |            |
-| Mk 37        |  SR  |         |   SR   |        |        |            |
-| Mk 49 Mod 0  |      |         |   SR   |        |        |            |
-| Mk 49 Mod 1  |      |         |   SR   |        |        |            |
-| Mk 50        |      |   STR   |  (SR)  |        |        |   (STR)    |
+| Mk 22        |      |   STR   |        |        |        |    STR     |
+| Mk 23        |      |         |        |        |        |            |
+| Mk 24 Mod 5  |      |         |        |        |        |            |
+| Mk 24 Mod 34 |      |         |        |        |        |            |
+| Mk 25        |      |   STR   |        |        |        |   (STR)    |
+| Mk 36        |  TR  |         |        |   TR   |  (SR)  |            |
+| Mk 37        |  SR  |         |        |        |        |            |
+| Mk 49 Mod 0  |      |         |        |        |        |            |
+| Mk 49 Mod 1  |      |         |        |        |        |            |
+| Mk 50        |      |   STR   |        |        |        |   (STR)    |
 
 #### Naval Threats
 
@@ -342,15 +342,15 @@ General Key:
 | Seeker       |   Kirov   |   Slava   | Kuznetsov | Molniya |  Grisha   |  Krivak   | Neustrashimy | Ropucha | Project 22160 | Project 22160 with Tor-M2M |
 | ------------ | :-------: | :-------: | :-------: | :-----: | :-------: | :-------: | :----------: | :-----: | :-----------: | :------------------------: |
 | Mk 22        |    TR     |   (TR)    |    TR     |         |    TR     |    TR     |     (TR)     |         |               |                            |
-| Mk 23        | (SR)/(TR) | (SR)/(TR) | (SR)/(TR) |  SR/TR  |   (TR)    |   (TR)    |  (SR)/(TR)   |         |               |             SR             |
+| Mk 23        | (SR)/(TR) | (SR)/(TR) | (SR)/(TR) |  SR/TR  |   (TR)    |   (TR)    |  (SR)/(TR)   |  (SR)   |               |             SR             |
 | Mk 24 Mod 5  |   SR/TR   |    TR     |   SR/TR   |  SR/TR  |    TR     |   (TR)    |  (SR)/(TR)   |         |               |             SR             |
 | Mk 24 Mod 34 |   (TR)    |   (TR)    |   (TR)    |         |    TR     |   (TR)    |      TR      |         |               |             SR             |
 | Mk 25        |    TR     |    TR     |    TR     |         |    TR     |    TR     |      TR      |         |               |                            |
-| Mk 36        | (SR)/(TR) | (SR)/(TR) | (SR)/(TR) |  SR/TR  |    TR     |   (TR)    |  (SR)/(TR)   |         |    (SR)/TR    |          (SR)/TR           |
+| Mk 36        | (SR)/(TR) | (SR)/(TR) | (SR)/(TR) |  SR/TR  |    TR     |   (TR)    |  (SR)/(TR)   |   SR    |    (SR)/TR    |          (SR)/TR           |
 | Mk 37        |    TR     |    TR     |    TR     |         |    TR     |    TR     |      TR      |         |               |                            |
-| Mk 49 Mod 0  |   (TR)    |   (TR)    |   (TR)    |         | (SR)/(TR) | (SR)/(TR) |     (TR)     |         |   (SR)/(TR)   |         (SR)/(TR)          |
-| Mk 49 Mod 1  |   (TR)    |   (TR)    |   (TR)    |         | (SR)/(TR) | (SR)/(TR) |     (TR)     |         |   (SR)/(TR)   |         (SR)/(TR)          |
-| Mk 50        | (SR)/(TR) | (SR)/(TR) | (SR)/(TR) |  SR/TR  |   (TR)    |   (TR)    |  (SR)/(TR)   |         |               |             SR             |
+| Mk 49 Mod 0  |   (TR)    |   (TR)    |   (TR)    |         | (SR)/(TR) | (SR)/(TR) |     (TR)     |   SR    |   (SR)/(TR)   |         (SR)/(TR)          |
+| Mk 49 Mod 1  |   (TR)    |   (TR)    |   (TR)    |         | (SR)/(TR) | (SR)/(TR) |     (TR)     |   SR    |   (SR)/(TR)   |         (SR)/(TR)          |
+| Mk 50        | (SR)/(TR) | (SR)/(TR) | (SR)/(TR) |  SR/TR  |   (TR)    |   (TR)    |  (SR)/(TR)   |  (SR)   |               |             SR             |
 
 ##### Chinese Naval Threats
 
