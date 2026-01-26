@@ -23,6 +23,27 @@ The delivery modes can be roughly categorized into:
 | Lofting and Tossing | LOFT, O/S, INST O/S, T LAD | keep distance to target                              |
 | Manual              | DIRECT                     | backup, classic mil-based bombing                    |
 
+## Ballistics
+
+The Phantom lacks a digital interface telling its computer which weapons it has
+loaded. For the WRCS to know how a weapon will ballistically behave, the crew
+has to enter a
+[Drag Coefficient](../../../../systems/weapon_systems/wrcs.md#drag-coefficient-control).
+
+This coefficient not only depends on the **type** of bomb, but also on release
+parameters such as the **relative altitude** above the target, the **release
+speed**, as well as the **release angle**.
+
+These parameters play a crucial role in **all delivery modes** in the Phantom.
+For the weapon to behave according to the setup drag coefficient value it is
+important that the crew pre-plans these parameters and then also matches the
+parameter during execution of the attack.
+
+> 💡 Certain weapons and attack profiles generally provide more leeway than
+> others. As a rule of thumb, releasing low drag bombs from lower altitudes at
+> steeper dive angles will be more forgiving than releasing high drag bombs from
+> high altitudes and speeds at shallow angles.
+
 ## Pilot
 
 After setting the desired delivery mode on the
