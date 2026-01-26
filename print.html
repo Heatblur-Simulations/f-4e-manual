@@ -11848,6 +11848,24 @@ attack and to tell Jester to prepare the aircraft for this profile.</p>
 <tr><td>Manual</td><td>DIRECT</td><td>backup, classic mil-based bombing</td></tr>
 </tbody></table>
 </div>
+<h2 id="ballistics"><a class="header" href="#ballistics">Ballistics</a></h2>
+<p>The Phantom lacks a digital interface telling its computer which weapons it has
+loaded. For the WRCS to know how a weapon will ballistically behave, the crew
+has to enter a
+<a href="stores/air_to_ground/bombs/employment/../../../../systems/weapon_systems/wrcs.html#drag-coefficient-control">Drag Coefficient</a>.</p>
+<p>This coefficient not only depends on the <strong>type</strong> of bomb, but also on release
+parameters such as the <strong>relative altitude</strong> above the target, the <strong>release
+speed</strong>, as well as the <strong>release angle</strong>.</p>
+<p>These parameters play a crucial role in <strong>all delivery modes</strong> in the Phantom.
+For the weapon to behave according to the setup drag coefficient value it is
+important that the crew pre-plans these parameters and then also matches the
+parameter during execution of the attack.</p>
+<blockquote>
+<p>💡 Certain weapons and attack profiles generally provide more leeway than
+others. As a rule of thumb, releasing low drag bombs from lower altitudes at
+steeper dive angles will be more forgiving than releasing high drag bombs from
+high altitudes and speeds at shallow angles.</p>
+</blockquote>
 <h2 id="pilot-1"><a class="header" href="#pilot-1">Pilot</a></h2>
 <p>After setting the desired delivery mode on the
 <a href="stores/air_to_ground/bombs/employment/../../../../cockpit/pilot/weapon_management.html#delivery-mode-knob">Delivery Mode Knob</a>,
@@ -12191,7 +12209,7 @@ CBUs or high drag bombs.</p>
 <p>In this mode, the target is designated by means of a distance to a point prior
 to the target (IP). Once over that point, the Bomb Button is held down and
 weapons automatically release after passing the setup release range.</p>
-<p>As a visual aid, the sight should be depressed in a way that it will be exactly
+<p>As a visual aid, the sight can be depressed in a way that it will be exactly
 over the target when at the IP. That way, as soon as the pipper is over the
 target, the Bomb Button can be held down and weapons will impact.</p>
 <blockquote>
@@ -12200,18 +12218,28 @@ target, the Bomb Button can be held down and weapons will impact.</p>
 </blockquote>
 <p><img src="stores/air_to_ground/bombs/employment/../../../../img/laydown.jpg" alt="laydown" /></p>
 <h3 id="procedure---l"><a class="header" href="#procedure---l">Procedure - L</a></h3>
-<p>Setup for the Laydown attack requires the bombing table target range and
-altitude above target to be entered on the
-<a href="stores/air_to_ground/bombs/employment/../../../../systems/weapon_systems/wrcs.html">WRCS</a> panel.</p>
-<p>The Optical Sight should be set to the depression noted from the tables in
-Air-to-Ground mode, and the approach to the target should be flown at the true
-airspeed (or ground speed) listed in the bombing tables for the parameters,
-wings level</p>
+<p>Setup for the Laydown attack requires two inputs to be entered on the
+<a href="stores/air_to_ground/bombs/employment/../../../../systems/weapon_systems/wrcs.html">WRCS</a> panel:</p>
+<ul>
+<li><a href="stores/air_to_ground/bombs/employment/../../../../cockpit/wso/right_console/center_section.html#targetip-altitude-control">Target Range (TGT ALT/RANGE)</a>,
+the distance between the IP and the target</li>
+<li><a href="stores/air_to_ground/bombs/employment/../../../../cockpit/wso/right_console/center_section.html#release-range-control">Release Range</a>,
+the computed distance traveled after which bombs will be released</li>
+</ul>
+<p>Once overflying the IP, Bomb Button should be held down until release. From that
+moment on, the WRCS computes the traveled distance with the aid of the INS. Once
+this distance reaches the configured Release Range, weapons are automatically
+released.</p>
+<p>There are various ways to determine that one is over the IP, for example through
+visual identification, by using navigation equipment like TACAN, through a radio
+call or also through trigonometry based on Optical Sight depression.</p>
+<p>To utilize the Optical Sight, it can be be depressed to a mil-setting
+corresponding to it overlapping the target position when over the IP. If this
+procedure is used, Bomb Button is held the moment the pipper crosses the target,
+confirming the aircraft's position over the IP.</p>
 <p>The <a href="stores/air_to_ground/bombs/employment/../../../../systems/weapon_systems/awru.html">AWRU</a> and WRCS Release Advance
 settings should be entered as desired, and the Weapon Select Knob placed in
 BOMBS or RKTS &amp; DISP (for dispensers like CBU-1 and CBU-2 only).</p>
-<p>As the pipper crosses the target, the bomb button should be held until the set
-spread of munitions has released.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/46I5HOzLh-o?si=qm0LGG1Gefmdono2"
 title="F-4E Bombing Tutorial - Laydown Mode" frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
