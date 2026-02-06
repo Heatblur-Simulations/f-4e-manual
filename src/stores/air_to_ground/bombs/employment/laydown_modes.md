@@ -13,7 +13,7 @@ In this mode, the target is designated by means of a distance to a point prior
 to the target (IP). Once over that point, the Bomb Button is held down and
 weapons automatically release after passing the setup release range.
 
-As a visual aid, the sight should be depressed in a way that it will be exactly
+As a visual aid, the sight can be depressed in a way that it will be exactly
 over the target when at the IP. That way, as soon as the pipper is over the
 target, the Bomb Button can be held down and weapons will impact.
 
@@ -24,21 +24,31 @@ target, the Bomb Button can be held down and weapons will impact.
 
 ### Procedure - L
 
-Setup for the Laydown attack requires the bombing table target range and
-altitude above target to be entered on the
-[WRCS](../../../../systems/weapon_systems/wrcs.md) panel.
+Setup for the Laydown attack requires two inputs to be entered on the
+[WRCS](../../../../systems/weapon_systems/wrcs.md) panel:
 
-The Optical Sight should be set to the depression noted from the tables in
-Air-to-Ground mode, and the approach to the target should be flown at the true
-airspeed (or ground speed) listed in the bombing tables for the parameters,
-wings level
+- [Target Range (TGT ALT/RANGE)](../../../../cockpit/wso/right_console/center_section.md#targetip-altitude-control),
+  the distance between the IP and the target
+- [Release Range](../../../../cockpit/wso/right_console/center_section.md#release-range-control),
+  the computed distance traveled after which bombs will be released
+
+Once overflying the IP, Bomb Button should be held down until release. From that
+moment on, the WRCS computes the traveled distance with the aid of the INS. Once
+this distance reaches the configured Release Range, weapons are automatically
+released.
+
+There are various ways to determine that one is over the IP, for example through
+visual identification, by using navigation equipment like TACAN, through a radio
+call or also through trigonometry based on Optical Sight depression.
+
+To utilize the Optical Sight, it can be be depressed to a mil-setting
+corresponding to it overlapping the target position when over the IP. If this
+procedure is used, Bomb Button is held the moment the pipper crosses the target,
+confirming the aircraft's position over the IP.
 
 The [AWRU](../../../../systems/weapon_systems/awru.md) and WRCS Release Advance
 settings should be entered as desired, and the Weapon Select Knob placed in
 BOMBS or RKTS & DISP (for dispensers like CBU-1 and CBU-2 only).
-
-As the pipper crosses the target, the bomb button should be held until the set
-spread of munitions has released.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/46I5HOzLh-o?si=qm0LGG1Gefmdono2"
 title="F-4E Bombing Tutorial - Laydown Mode" frameborder="0"

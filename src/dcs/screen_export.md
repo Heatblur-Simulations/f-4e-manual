@@ -34,6 +34,9 @@ The F-4E currently supports this feature for the following screens:
 > - `F4E_EoTgtDesignatorSystem_BitDisplay`
 > - `F4E_EoTgtDesignatorSystem_RangeIndicator`
 > - `F4E_UhfRadio_FrequencyChannelIndicator`
+>
+> Depending on which screens are exported it can currently cause a bug with
+> textures bleeding onto the center of the screen (around the HUD).
 
 Of special interest are also programs such as
 [Helios](https://github.com/HeliosVirtualCockpit/Helios/wiki) which simplify the
