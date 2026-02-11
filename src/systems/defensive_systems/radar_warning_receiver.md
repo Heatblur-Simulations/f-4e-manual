@@ -270,7 +270,7 @@ be displayed in the lower half of azimuth.
 | ![rwr_four_symbol.jpg](../../img/rwr_four_symbol.jpg)                   | Rezky, Pyotr Velikiy, Albatros, Neustrashimy                                                                                                            |
 | ![rwr_six_symbol.jpg](../../img/rwr_six_symbol.jpg)                     | CV 1143.5 Kuznetsov, Battlecruiser Pyotr Velikiy, Type 052B & 052C Destroyer, Type 054A Frigate, Type 071, Frigate Neustrashimy                         |
 | ![rwr_seven_symbol.jpg](../../img/rwr_seven_symbol.jpg)                 | Type 054A Frigate, Type 052B Destroyer, Type 071                                                                                                        |
-| ![rwr_nine_symbol.jpg](../../img/rwr_nine_symbol.jpg)                   | CV 1143.5 Kuznetsov, Cruiser Moskva, Molniya, Project 22160, Project 22160 with Tor-M2KM,                                                               |
+| ![rwr_nine_symbol.jpg](../../img/rwr_nine_symbol.jpg)                   | CV 1143.5 Kuznetsov, Cruiser Moskva, Molniya, Project 22160, Project 22160 with Tor-M2KM, Type 021-1                                                    |
 | ![rwr_a_two_dot_symbol.jpg](../../img/rwr_a_two_dot_symbol.jpg)         | Leander Class                                                                                                                                           |
 | ![rwr_a_three_dot_symbol.jpg](../../img/rwr_a_three_dot_symbol.jpg)     | Ropucha Class                                                                                                                                           |
 | ![rwr_c_symbol.jpg](../../img/rwr_c_symbol.jpg)                         | CVN-71 Theodore Roosevelt, CVN-72 Abraham Lincoln, CVN-73 George Washington, CVN-74 John C Stennis, CVN-75 Harry S. Truman, USS Forrestral, LHA Tarrawa |
@@ -365,6 +365,7 @@ high pitched PRF tone clearly audible.
 | Ropucha                    | S (Multiple radars some U) | 4    | ❌     |
 | Project 22160              | 9                          | 9    | ❌     |
 | Project 22160 with Tor-M2M | 9                          | 9    | ❌     |
+| Type 021-1                 | 9                          | 9    | ❌     |
 | Type 052B                  | S (Multiple radars some U) | 6/7  | ❌     |
 | Type 052C                  | U                          | 6    | ❌     |
 | Type 054A                  | U                          | 7    | ❌     |
