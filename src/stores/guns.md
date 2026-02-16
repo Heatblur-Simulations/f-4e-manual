@@ -117,6 +117,13 @@ loaded in the breeches to be released back into the ammo bin, which does entail
 a momentary delay of one to two seconds prior to being able to fire the pod
 again.
 
+Before being able to fire, both pods first have to spin up a motor. This process
+takes about 20 to 30 seconds and is initiated by selecting the corresponding
+[Station Select button](../cockpit/pilot/weapon_management.md#station-select-buttons).
+
+> 💡 There is no indication in the cockpit as to whether the motor has already
+> spun up fully, so make sure to select the station prior to engaging threats.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aUJxr-czk94?si=LK1lXwXPBlcYktua"
 title="F-4E Phantom: Air To Ground Gun Pods Quick Guide | DCS" frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -137,6 +144,10 @@ should be selected, and
 [Master Arm](../cockpit/pilot/weapon_management.md#master-arm-switch) set to ON
 to activate the pod. On the SUU-16, the Master Arm activation deploys the ram
 air turbine.
+
+> 💡 After energizing the gun-pod by using the Station Select button, 20-30s
+> have to pass before the pod is ready to fire. De-energizing the pod will cause
+> its motor to gradually spin down again.
 
 Installed, the guns are boresight along the Fuselage Reference Line. Thus, with
 the [optical sight](../cockpit/pilot/dscg_controls.md#sight-mode-knob) in air to
