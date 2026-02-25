@@ -7,7 +7,28 @@
 The pilot and WSO character can be customized through an in-game menu, for
 example selecting one of the many available helmets.
 
-> 🚧 Character customization will be made available later during Early-Access.
+> 🚧 A dedicated Character customization UI will be made available later during
+> Early-Access.
+
+Additionally, there are binds accessible to switch through the available
+options.
+
+![Customization Binds](../img/character_customizer_binds.jpg)
+
+### Options
+
+Customization options currently include:
+
+- Helmet
+  - HGU-2
+  - HGU-55
+- Headgear
+  - (none)
+  - Aviator Glasses
+- Body (6 types)
+- Gloves
+  - Black
+  - White
 
 ## Selfie Mode
 
@@ -24,7 +45,7 @@ The camera can then be moved for example to the front via standard DCS controls:
 - <kbd>RCtrl</kbd> + <kbd>RShift</kbd> + <kbd>4</kbd> (Numpad): Move left
 - <kbd>RCtrl</kbd> + <kbd>RShift</kbd> + <kbd>6</kbd> (Numpad): Move right
 - <kbd>RCtrl</kbd> + <kbd>RShift</kbd> + <kbd>/</kbd> (Numpad): Move forward
-- <kbd>RCtrl</kbd> + <kbd>RShift</kbd> + <kbd>*</kbd> (Numpad): Move aft
+- <kbd>RCtrl</kbd> + <kbd>RShift</kbd> + <kbd>\*</kbd> (Numpad): Move aft
 
 The view can be turned back to face the pilot by using <kbd>LAlt</kbd> +
 <kbd>C</kbd> and then using the mouse.
