@@ -86,6 +86,9 @@ Also called the "_panic button_", the External Stores Emergency Release will
 immediately perform the separation of all stores, without [air-to-air
 weapons](../../stores/air_to_air/overview.md) or special weapons.
 
+To operate it the gear handle must be in the UP position,
+or the Ground Safety Override Button must be depressed.
+
 ## Aileron Rudder Interconnect (ARI) Circuit Breaker
 
 ![ARI Fuse](../../img/pilot_ari.jpg)
