@@ -144,10 +144,10 @@ munitions, external tanks, and any pods subject to jettison. Sparrow and
 Sidewinder missiles, along with all pylons, will remain in place. Pushing the
 button will show the yellow paint inside its recess to confirm its actuation.
 Performing the actuation disengages external fuel tank transfer automatically,
-permitting proper flow of internal wing tanks without further pilot action. The
-button is active so long as the aircraft gear is up, or, in the event of a
-forward gear handle failure, so long as the rear gear handle remains IN, and
-weight is off wheels.
+permitting proper flow of internal wing tanks without further pilot action.
+
+The button is active so long as the aircraft gear handle is up, or,
+the ground safety override switch is depressed.
 
 ### Selective Jettison
 
