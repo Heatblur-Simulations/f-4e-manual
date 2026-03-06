@@ -54,3 +54,9 @@ The view can be turned back to face the pilot by using <kbd>LAlt</kbd> +
 
 Additionally, another special bind exists to freeze the character model
 movement.
+
+By default, the cameras movement area is restricted to avoid glitching the view
+during normal flight (for example when moving the head into a panel during VR).
+This restriction can be lifted by editing
+`<DCS Install Folder>/Mods/aircraft/F-4E/Entry/Views.lua`, allowing moving the
+camera anywhere in the cockpit.
