@@ -137,7 +137,7 @@ For Shrikes, TGT/MSL REJ turns off the weapon seeker entirely until released.
 The DF REJ position selects the WRCS mode for receiving a solution, while the
 center position uses the weapon's own, less accurate seeker system instead.
 
-> 🚧 The TGT/MSL REJ switch functionality for Shrikes has not been fully implemented and is subject to change.
+> 🚧 Due to engine limitations the TGT/MSL REJ switch functionality for Shrikes is not available.
 
 ### Band Switch
 
