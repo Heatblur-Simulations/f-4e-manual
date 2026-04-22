@@ -153,7 +153,7 @@ usage of the NORM mode rather than DF REJ; this places the missile's receiver in
 azimuth guidance directive on the ADI rather than the INS. The ADI's vertical needle will appear
 when the AGM-45 position is selected on the pedestal switch which is the NORM position.
 
-> 🚧 The TGT/MSL REJ switch functionality for Shrikes has not been fully implemented and is subject to change.
+> 🚧 Due to engine limitations the TGT/MSL REJ switch functionality for Shrikes is not available.
 
 The attack is performed like a loft bombing profile; the Phantom is flown over the IP at the
 intended altitude and airspeed, with the bomb release button being held from the point of flyover.
