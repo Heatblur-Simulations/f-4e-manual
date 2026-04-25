@@ -91,7 +91,9 @@ depressions should be used.
 |  1500 ft | 425 - 450 KCAS |   10 - 15° |      50 - 55 mil |
 |  1000 ft | 425 - 450 KCAS |   10 - 15° |      40 - 45 mil |
 
-## External Cannon Pods SUU-16/A and SUU-23/A
+## External Cannon Pods
+
+### SUU-16/A and SUU-23/A
 
 ![SUU pods](../img/suupods.jpg)
 
@@ -124,14 +126,28 @@ takes about 20 to 30 seconds and is initiated by selecting the corresponding
 > 💡 There is no indication in the cockpit as to whether the motor has already
 > spun up fully, so make sure to select the station prior to engaging threats.
 
+### GPU-5
+
+![GPU-5 pod](../img/gpu5.jpg)
+
+Inspired by the mighty GAU-8/A Avenger cannon of the A-10, this pod houses the
+smaller brother GAU-13/A 4-barrel autocannon. It is one of the most powerful
+cannons ever built, providing 353 rounds of 30mm ammunition, firing at a rate of
+2400 rounds per minute. Enough for roughly 5 quick bursts.
+
+The pod can only be mounted on the centerline station and has a motor spin up
+time of roughly half a second before it can be used. Due to a pneumatic drive
+unit installed on the rear, it does not require any external power and can be
+used right away.
+
+### External Employment
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aUJxr-czk94?si=LK1lXwXPBlcYktua"
 title="F-4E Phantom: Air To Ground Gun Pods Quick Guide | DCS" frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### External Employment
-
-Activation of the SUU pods are performed by selecting their respective
+Activation of external gun pods are performed by selecting their respective
 [Station Select buttons](../cockpit/pilot/weapon_management.md#station-select-buttons),
 and placing the
 [Delivery Mode knob](../cockpit/pilot/weapon_management.md#delivery-mode-knob)
@@ -145,9 +161,9 @@ should be selected, and
 to activate the pod. On the SUU-16, the Master Arm activation deploys the ram
 air turbine.
 
-> 💡 After energizing the gun-pod by using the Station Select button, 20-30s
-> have to pass before the pod is ready to fire. De-energizing the pod will cause
-> its motor to gradually spin down again.
+> 💡 For the SUU-16/A and SUU-23/A, after energizing the gun-pod by using the
+> Station Select button 20-30s have to pass before the pod is ready to fire.
+> De-energizing the pod will cause its motor to gradually spin down again.
 
 Installed, the guns are boresight along the Fuselage Reference Line. Thus, with
 the [optical sight](../cockpit/pilot/dscg_controls.md#sight-mode-knob) in air to

@@ -68,6 +68,7 @@ stations.
 | FFAR (×19)      |  3  |  3  |     |     |  3  |     |     |  3  |  3  |   285 |
 | Zuni (×4)       |  3  |  3  |     |     |     |     |     |  3  |  3  |    48 |
 | SUU-23          |  1  |     |     |     |  1  |     |     |     |  1  |     3 |
+| GPU-5           |     |     |     |     |  1  |     |     |     |     |     1 |
 | SUU-25 (x8)     |  2  |     |     |     |  2  |     |     |     |  2  |    48 |
 | ALQ-131         |     |  1  |     |     |     |  1  |     |  1  |     |     3 |
 | AN/AVQ-23       |     |     |     |     |     |  1  |     |     |     |     1 |
@@ -162,7 +163,6 @@ variant and might still be added in the future.
 | GBU-11                  |         |
 | GBU-12A                 |         |
 | GBU-15                  | DMAS    |
-| GPU-5 Gunpod            |         |
 | MXU-658 Travel Pod      |         |
 | ALQ-101                 |         |
 | ALQ-119                 |         |

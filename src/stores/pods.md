@@ -4,9 +4,15 @@
 
 ![SUU Pods](../img/suupods.jpg)
 
-External gun pods holding 1200 rounds of ammunition, firing at a rate of 6000
-rounds per minute. See the [gun section](guns.md#external-cannon-pods-suu-16a-and-suu-23a)
-for more.
+External gun pods holding 1200 rounds of 20mm ammunition, firing at a rate of 6000
+rounds per minute. See the [gun section](guns.md#suu-16a-and-suu-23a) for more.
+
+## GPU-5 Gun Pod
+
+![GPU-5 Pod](../img/gpu5.jpg)
+
+External gun pods holding 353 rounds of 30mm ammunition, firing at a rate of 2400
+rounds per minute. See the [gun section](guns.md#gpu-5) for more.
 
 ## AN/AVQ-23 Pave Spike
 
@@ -20,9 +26,8 @@ during daylight-conditions and using a laser to guide weapons on target. See the
 
 ![ext_alq_131_ecm_pod](../img/jammer_131.jpg)
 
-Pod for electronic countermeasures, such as jamming radars and radar
-guided missiles. See the
-[ECM section](../systems/defensive_systems/ecm.md) for more.
+Pod for electronic countermeasures, such as jamming radars and radar guided
+missiles. See the [ECM section](../systems/defensive_systems/ecm.md) for more.
 
 ## AN/ASQ-T50 TCTS ACMI Pod
 
@@ -37,4 +42,5 @@ Pod used to record in-flight data for training and later analysis.
 ![cm_dispenser](../img/cm_dispenser.jpg)
 
 Countermeasure dispensers holding chaff and flare. See the
-[countermeasures section](../systems/defensive_systems/countermeasures.md) for more.
+[countermeasures section](../systems/defensive_systems/countermeasures.md) for
+more.

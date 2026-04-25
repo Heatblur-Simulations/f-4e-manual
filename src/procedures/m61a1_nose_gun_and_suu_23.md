@@ -1,9 +1,9 @@
 # M61A1 Nose gun and SUU-23
 
 The checklist below outlines the required cockpit procedures for the employment
-of the M61A1 Vulcan Nose gun, the SUU-16/A and SUU-23/A External Cannon Pods. In
-order to have a better understanding of their employment please refer to section
-[4.1 Guns](../stores/guns.md).
+of the M61A1 Vulcan Nose gun, and External Cannon pods such as for example the
+SUU-16/A and SUU-23/A. In order to have a better understanding of their
+employment please refer to section [4.1 Guns](../stores/guns.md).
 
 ## Pilot
 
