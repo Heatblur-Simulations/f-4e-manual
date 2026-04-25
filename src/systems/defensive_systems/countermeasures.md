@@ -87,7 +87,8 @@ switch positions function as follows. For every dispense button press:
   Programmer.
 
 > 💡 When Chaff Double mode is selected in the
-[Mission Editor](../../dcs/mission_editor.md#chaff-double-dispense),
+[Mission Editor](../../dcs/mission_editor.md#chaff-double-dispense)
+> or through the [Crew Chief](../../crew_chief/overview.md),
 > twice as many chaff will be released in every mode
 > (2 chaff for every single chaff dispense signal).
 > The counter is then set to half the number of total chaff cartridges loaded to indicate
@@ -236,7 +237,8 @@ according to the selected loadout.
 
 > 💡 The payload selector switch position is by default set to CS (chaff single dispense).
 > However, it can also be set to CD (chaff double dispense
-> via the [Mission Editor](../../dcs/mission_editor.md#chaff-double-dispense).
+> via the [Mission Editor](../../dcs/mission_editor.md#chaff-double-dispense)
+> or by asking the [Crew Chief](../../crew_chief/overview.md) on the ground.
 
 One slave dispenser assembly is installed on the inboard side of each inboard
 armament pylon. It contains a payload selector switch to set either chaff single

@@ -262,7 +262,8 @@ simultaneously.
 
 See the
 [AN/ALE-40 system](../systems/defensive_systems/countermeasures.md#chaff-double-cd)
-for details.
+for details. Can also be set through the [Crew Chief](../crew_chief/overview.md)
+on the ground.
 
 ## IFF Mode 2 Options
 
