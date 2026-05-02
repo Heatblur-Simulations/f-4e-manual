@@ -1,13 +1,15 @@
-$.fn.onClassChange = function(cb) {
+$.fn.onClassChange = function (cb) {
   return $(this).each((_, el) => {
-    new MutationObserver(mutations => {
-      mutations.forEach(mutation => cb && cb(mutation.target, mutation.target.className));
+    new MutationObserver((mutations) => {
+      mutations.forEach(
+        (mutation) => cb && cb(mutation.target, mutation.target.className),
+      );
     }).observe(el, {
       attributes: true,
-      attributeFilter: ['class'] // only listen for class attribute changes 
+      attributeFilter: ["class"], // only listen for class attribute changes
     });
   });
-}
+};
 
 // Disabled for now, because it causes page-changes when clicking the chapter collapse/expand button as well
 /*
@@ -32,18 +34,42 @@ function ensureLogoVisible() {
   $("img.line_art_logo").attr("src", logo);
 }
 
-$(document).ready(function() {
-  ensureLogoVisible();
-})
+function swapLightDarkModeImages() {
+  $("img").each(function () {
+    const e = $(this);
+    const src = e.attr("src");
+    const useDark = $("html").hasClass("hb_dark");
 
-$("html").onClassChange((el, newClass) => ensureLogoVisible());
+    if (!src) {
+      return;
+    }
+
+    if (useDark && src.includes("img/light/")) {
+      e.attr("src", src.replace("img/light/", "img/dark/"));
+    }
+
+    if (!useDark && src.includes("img/dark/")) {
+      e.attr("src", src.replace("img/dark/", "img/light/"));
+    }
+  });
+}
+
+$(document).ready(function () {
+  ensureLogoVisible();
+  swapLightDarkModeImages();
+});
+
+$("html").onClassChange((el, newClass) => {
+  ensureLogoVisible();
+  swapLightDarkModeImages();
+});
 
 window.setTheme = function setTheme(theme_id) {
   $("button.theme#" + theme_id).click();
-}
+};
 
 window.enableGameMode = function enableGameMode() {
   $("#theme-toggle").hide(); // Themes switch automatically based on in-game time
   $(".right-buttons").hide(); // Print, PDF, GitHub, Edit Buttons
   $(".menu-logo").hide(); // Logo on the sidebar uses absolute path and hence is broken in-game
-}
+};
