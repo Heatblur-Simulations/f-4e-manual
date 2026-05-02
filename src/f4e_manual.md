@@ -1,7 +1,7 @@
 # F-4E Manual
 
 <!-- markdownlint-disable MD033 -->
-<img class="line_art_logo" alt="F4 Line Art" width="200" src="img/f4line_black.svg">
+<img class="line_art_logo" alt="F4 Line Art" width="200" src="img/light/f4line.svg">
 <!-- markdownlint-enable MD033 -->
 
 ## Contents
