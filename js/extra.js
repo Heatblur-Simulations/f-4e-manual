@@ -26,14 +26,6 @@ $("div.menu-logo img, h1.menu-title").on("click", function (e) {
   $("ol.chapter").children(":first").click();
 });
 
-function ensureLogoVisible() {
-  var logo = "img/f4line_black.svg";
-  if ($("html").hasClass("hb_dark")) {
-    logo = "img/f4line.svg";
-  }
-  $("img.line_art_logo").attr("src", logo);
-}
-
 function swapLightDarkModeImages() {
   $("img").each(function () {
     const e = $(this);
@@ -55,12 +47,10 @@ function swapLightDarkModeImages() {
 }
 
 $(document).ready(function () {
-  ensureLogoVisible();
   swapLightDarkModeImages();
 });
 
 $("html").onClassChange((el, newClass) => {
-  ensureLogoVisible();
   swapLightDarkModeImages();
 });
 
