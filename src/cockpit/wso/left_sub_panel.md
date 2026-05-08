@@ -91,11 +91,8 @@ for the AN/APX-76 interrogator. It can be either of:
 - Mode 4/A
 - Mode 4/B
 
-> 💡 In DCS, only Mode 4 (either A or B) is effective and can be used for
-> interrogation.
-
 The other four digits are used to set the IFF code to interrogate for Mode 1
-to 3.
+to 3. For Mode 1 the two rightmost digits should be used.
 
 The buttons below and above the display are used to decrement and increment the
 corresponding setting, respectively.

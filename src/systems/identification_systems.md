@@ -27,20 +27,23 @@ The system operates by receiving coded interrogation signals and transmitting
 coded response signals to the source of the challenge, with a proper reply
 indicating the target is friendly.
 
-The system features four modes. Mode 1, Mode 2, and Mode 3/A—are provided for
+The system features four modes. Mode 1, Mode 2, and Mode 3 are provided for
 security identification, personal identification, and traffic identification,
 respectively.
 
-Mode 4 is controlled through the interrogator panel by the WSO. Codes for Modes
-1 and 3/A can be set in the cockpit, while the code for Mode 2 must be set on
-the ground, ranging from 0000 to 7777.
+Codes for Modes 1 and 3 can be set in the cockpit, while the code for Mode 2
+must be set on the ground, ranging from 0000 to 7777. Mode 1 is limited to two
+digits 00 to 77.
+
+The codes for Mode 4 are automatically inserted by Ground Crew before flight,
+the Crew Chief can be asked to insert them on demand as well.
 
 > 💡 Due to engine limitations, the settings on the panel have no effect for
 > DCS. However, they are exposed to external tools, such as SRS.
 
 ### Self Test operation
 
-To self test Modes 2 and 3/A, place the master switch (<num>1</num>) to NORM and
+To self test Modes 2 and 3, place the master switch (<num>1</num>) to NORM and
 hold the switch for the desired test mode to the upper position. If the test
 light on the IFF control panel illuminates, this indicates the mode is operating
 properly.
@@ -53,8 +56,8 @@ To operate the IFF system, start by rotating the master switch (<num>1</num>) to
 STBY. After an approximate 80-second warmup delay, the system receives full
 power, but interrogations are blocked.
 
-Set the Mode 1, Mode 2, Mode 3/A, Mode 4, and Mode C switches (<num>6</num>) as
-directed, along with the Mode 1 and Mode 3/A code selector switches
+Set the Mode 1, Mode 2, Mode 3, Mode 4, and Mode C switches (<num>6</num>) as
+directed, along with the Mode 1 and Mode 3 code selector switches
 (<num>10</num>) and Mode 4 function switch (<num>8</num>). Set the master switch
 (<num>1</num>) to NORM to make the system ready for operation on the selected
 modes. If the master switch (<num>1</num>) is rotated from OFF directly to an
@@ -67,6 +70,8 @@ For Interrogation of Position (I/P) switch operation, place the I/P switch
 (<num>9</num>) in the IDENT position or place it in the MIC position and press
 the UHF microphone. The IFF system responds with special I/P signals.
 
+#### Warning Light
+
 If the IFF warning light and MASTER CAUTION light come on momentarily, check the
 Mode 4 selector switch (<num>8</num>) ON and the master switch (<num>1</num>)
 NORMAL. Repeated illumination of the MASTER CAUTION light may be stopped only by
@@ -76,10 +81,21 @@ Before or during flight, if the master switch (<num>1</num>) is placed OFF, the
 IFF and MASTER CAUTION lights will not illuminate upon interrogation.
 
 Normal IFF operation will be available, after an 80-second warm-up, when the
-master switch (<num>1</num>) is again placed to NORMAL. If the Mode 4 function
-switch (<num>8</num>) is placed to ZERO, the IFF light will come on steady, and
-the MASTER CAUTION may then be reset. Mode 4 will not be available during the
-remainder of the flight.
+master switch (<num>1</num>) is again placed to NORMAL.
+
+#### M4 Zero/Hold
+
+The codes for Mode 4 are automatically erased on shutdown, when the IFF system
+loses power. This can also be commanded by moving the Mode 4 function switch
+(<num>8</num>) into the ZERO position and holding it there for approximately 5
+seconds. Once zeroed, the IFF warning light will illuminate and Mode 4 will not
+be available during the remainder of the flight.
+
+Codes can be inserted again by the Ground Crew. The HOLD position of the Mode 4
+function switch is inoperative on the DSCG variant of the F-4E and was added
+later for the DMAS only. Holding the switch in that position for 15 seconds will
+retain the mode 4 codes during the next shutdown, preventing them from
+automatically getting zeroed.
 
 ### Emergency Operation
 
@@ -91,7 +107,7 @@ system will begin operation after an approximate 80-second delay.
 
 In an emergency, rotate the master switch (<num>1</num>) to EMER. The replies
 for Modes 1 and 2 are special emergency signals of the codes selected on the
-applicable dials, while Mode 3/A replies are special emergency signals of
+applicable dials, while Mode 3 replies are special emergency signals of
 code 7700.
 
 ## Interrogator Systems
@@ -125,9 +141,6 @@ half controls the AN/APX-81A.
 To challenge friendly or civilian aircraft using the AN/APX-76, the WSO sets the
 interrogation mode on the first roller-display. It can be set to either OFF, or
 Mode 1, 2, 3, 4/A or 4/B (<num>3</num>).
-
-> 💡 In DCS, only Mode 4 (either A or B) is effective and can be used for
-> interrogation using the AN/APX-76.
 
 The other four digits are used to set the IFF code to interrogate for Modes 1 to
 3 (<num>3</num>). The code for Mode 4/A and 4/B is set by the ground personal.
