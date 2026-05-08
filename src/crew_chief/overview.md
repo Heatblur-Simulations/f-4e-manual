@@ -25,6 +25,7 @@ Our F-4 crew chief has expertise in many fields including:
 * Wheel chocks
 * Boarding ladder and boarding steps
 * CMS Dispenser configurations
+* Inserting valid Mode 4 keys for the IFF transponder
 * Conducting different ground checks (listed below)
 
 ![Ground Cart](../img/ground_cart_connected.jpg)
