@@ -107,24 +107,24 @@ being modified and not representing the simulated variant (test aircraft,
 aircraft operated by other countries), or the ordnance also simply only being
 put on the pylon without it being operable.
 
-| Ordnance           | Explanation                         |
-| ------------------ | ----------------------------------- |
-| AIM-9X             | Too late                            |
-| AIM-7C             | Too early                           |
-| AIM-7MH/P          | Never carried                       |
-| AIM-120            | Modification (AUP, F-4F)            |
-| AAM-3              | Modification (F-4EJ)                |
-| AAM-4              | Modification (F-4EJ)                |
-| AGM-65L/H/K/E/F    | Modification                        |
-| AGM-78             | Modification (Kurnass, F-4G)        |
-| AGM-88             | F-4G                                |
-| AGM-142            | Modification (Kurnass, Terminator)  |
-| MK-83 AIR          | Never carried                       |
-| B61 Nuclear        | Compatible, but no nuclear ordnance |
-| ALQ-87             | Too early                           |
-| ALQ-184            | Tests only and F-4G                 |
-| AN/AAQ-14 Lantirn  | Never carried                       |
-| AN/AAQ-28 Litening | Modification (Terminator, AUP)      |
+| Ordnance           | Explanation                                               |
+| ------------------ | --------------------------------------------------------- |
+| AIM-9X             | Too late                                                  |
+| AIM-7C             | Too early                                                 |
+| AIM-7MH/P          | Never carried                                             |
+| AIM-120            | Modification (AUP, F-4F)                                  |
+| AAM-3              | Modification (F-4EJ)                                      |
+| AAM-4              | Modification (F-4EJ Kai ADTW developmental aircraft only) |
+| AGM-65L/H/K/E/F    | Modification                                              |
+| AGM-78             | Modification (Kurnass, F-4G)                              |
+| AGM-88             | F-4G                                                      |
+| AGM-142            | Modification (Kurnass, Terminator)                        |
+| MK-83 AIR          | Never carried                                             |
+| B61 Nuclear        | Compatible, but no nuclear ordnance                       |
+| ALQ-87             | Too early                                                 |
+| ALQ-184            | Tests only and F-4G                                       |
+| AN/AAQ-14 Lantirn  | Never carried                                             |
+| AN/AAQ-28 Litening | Modification (Terminator, AUP)                            |
 
 ### Loadout Limitations
 
