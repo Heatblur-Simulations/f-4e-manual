@@ -41,12 +41,12 @@ the Head Up Display.
 
 For air-to-air usage, the
 [optical sight](../cockpit/pilot/dscg_controls.md#sight-mode-knob) should be
-selected to A/A mode. In air-to-air mode, the optical sight functions as a lead
-computing optical sighting (LCOS), thus maneuvering in both elevation and
-azimuth relative to a radar locked target, or a default 1000' range setting in
-the event of no lock. With a lock, the range bar presentation is relative to
-6700' just to the left of the tick at the 1 o-clock position, down to 1000' at
-the 6 o-clock position.
+selected to A/A mode. In air-to-air mode, the optical sight functions as a
+[lead computing optical sighting (LCOS)](../systems/weapon_systems/lcoss.md),
+thus maneuvering in both elevation and azimuth relative to a radar locked
+target, or a default 1000' range setting in the event of no lock. With a lock,
+the range bar presentation is relative to 6700' just to the left of the tick at
+the 1 o-clock position, down to 1000' at the 6 o-clock position.
 
 ![radar_gun_lock](../img/radar_gun_lock.jpg)
 
@@ -79,6 +79,15 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Sight Depression
+
+The gun is mounted at 2.75° below the Fuselage Reference Line (FRL) and
+calibrated by ground crew about 0.75° to 1° up to harmonize the gun at a
+distance of 2250ft in front of the aircraft. This calibration has the bullet
+stream fly along the Radar Boresight Line (RBL) for its effective range with
+maximum effect at 2250ft. The harmonization point also lines up with the gun
+cross (35-mil depressed pipper, CAGED sight).
+
+![Schematic](../img/gun_calibration_schematic.jpg)
 
 For air to ground employment of the internal gun, the following sight
 depressions should be used.
