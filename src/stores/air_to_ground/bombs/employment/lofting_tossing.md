@@ -195,6 +195,11 @@ In this mode, setting up an IP and a timer are not needed. Instead, the target
 is designated by pressing the Bomb Button once over the target and executing the
 pull-up maneuver shortly after.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_cIqwKZs_bQ?si=fI1idwLOKbTxVEw9"
+title="DCS F-4E | The Most Useless Bombing in DCS | Over the Shoulder" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ### Procedure - INST O/S
 
 Similar to Timed O/S, a desired release angle over 90° has to be configured.
