@@ -84,6 +84,7 @@ general areas, whereas 🟢 means _good_, 🟨 _fair_ and 🔺 _poor_.
 | Type      | Lock-Tone | Uncage | Aspect | Maneuverability | CM Resist | Motor |
 | --------- | --------- | ------ | ------ | --------------- | --------- | ----- |
 | B         | 🔺        | 🔺     | Rear   | 🔺              | 🔺        | 🔺    |
+| E         | 🔺        | 🟢     | Rear   | 🔺              | 🟨        | 🔺    |
 | J         | 🔺        | 🟢     | Rear   | 🟨              | 🟨        | 🔺    |
 | JULI      | 🟢        | 🟢     | All    | 🟨              | 🟢        | 🟨    |
 | L         | 🟢        | 🟢     | All    | 🟢              | 🟢        | 🟢    |

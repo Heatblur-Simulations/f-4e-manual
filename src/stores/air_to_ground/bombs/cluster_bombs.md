@@ -7,10 +7,12 @@ Available cluster bombs are:
 | Mk-20    | Mk 118       |    247 | HEAT                      |
 | CBU-52B  | BLU-61A/B    |    220 | HE                        |
 | CBU-87   | BLU-97/B     |    202 | Combined Effects          |
+| BL-755   | Mk 1         |    147 | HEAT, used by german F-4F |
 | CBU-1A/A | BLU-4B       |    513 | HE                        |
 | CBU-2/A  | BLU-3        |    361 | HE                        |
 | CBU-2B/A | BLU-3B       |    418 | HE                        |
-| BL-755   | Mk 1         |    147 | HEAT, used by german F-4F |
+| CBU-7/A  | BLU-18/B     |   1200 | HE, anti-personnel only   |
+| CBU-38/A | BLU-49/B     |     40 | HE, unarmed vehicles      |
 
 ## Mk 20 Rockeye
 
@@ -43,18 +45,6 @@ their spread while falling. Upon impact, they have a combined shaped charge,
 fragmentation and incendiary effect, which makes them suitable for
 anti-personnel, anti-material and also anti-armor.
 
-## CBU-1, CBU-2
-
-![CBU-1 and -2](../../../img/f4_ext_cbu1_2.jpg)
-
-Dispensers with 19 tubes each loaded with either 27 BLU-4B, 19 BLU-3 or 22
-BLU-3B HE bomblets. Upon impact with the ground, each bomblet discharges high
-velocity fragments in a radial pattern.
-
-In the case of the CBU-2/A and CBU-2B/A, the carried BLU-3 bomblets are loaded
-with steel balls suitable even for unarmored vehicles. The CBU-1A/A, carrying
-BLU-4B bomblets, is loaded with anti-personnel shrapnel material.
-
 ## BL-755
 
 ![BL-755](../../../img/bl_755.jpg)
@@ -67,15 +57,44 @@ After release, submunitions are dispensed and scattered using an inflatable bag.
 The weapon was used extensively during the Falklands War by the Royal Air Force.
 It was also used by the German Air Force, including the F-4F.
 
+## Dispensers
+
+Cluster Bombs that stay on the pylon and release their submunitions directly,
+usually requires directly overflying the target.
+
+### CBU-1, CBU-2
+
+![CBU-1 and -2](../../../img/f4_ext_cbu1_2.jpg)
+
+Dispensers with 19 tubes each loaded with either 27 BLU-4B, 19 BLU-3 or 22
+BLU-3B HE bomblets. Upon impact with the ground, each bomblet discharges high
+velocity fragments in a radial pattern.
+
+In the case of the CBU-2/A and CBU-2B/A, the carried BLU-3 bomblets are loaded
+with steel balls suitable even for unarmored vehicles. The CBU-1A/A, carrying
+BLU-4B bomblets, is loaded with anti-personnel shrapnel material.
+
+### CBU-7/A, CBU-38/A
+
+![CBU-7](../../../img/cbu_7a.jpg)
+
+SUU-13/A dispensers with 40 tubes loaded with either 30 BLU-18/B (in case of the
+CBU-7/A), or one BLU-49/B (for the CBU-38/A) bomblets in each tube. For the
+CBU-7/A this makes 1200 bomblets per dispenser.
+
+The BLU-18/B are small aluminum wedge-shaped anti-personnel HE submunitions,
+while the BLU-49/B HE charges can also be used effectively against unarmed
+vehicles.
+
 ## Employment
 
-With the exception of the CBU-1 and CBU-2, cluster bombs are deployed using the
-BOMBS setting on the
+With the exception of the dispensers (e.g. CBU-1 and similar), cluster bombs are
+deployed using the BOMBS setting on the
 [Weapon Selector Knob](../../../cockpit/pilot/weapon_management.md#weapon-selector-knob).
 
-The CBU-1/-2 however, are dispensers that technically have more similarities
-with a rocket launcher than they have with a conventional bomb. The setting RKTS
-& DISP has to be used to employ them properly.
+The dispensers however, technically have more similarities with a rocket
+launcher than they have with a conventional bomb. The setting RKTS & DISP has to
+be used to employ them properly.
 
 The A setting can also be used as a backup mode which will send a single pulse
 signal to all selected pylons on each press of the Bomb Button.
