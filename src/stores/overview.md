@@ -164,6 +164,7 @@ variant and might still be added in the future.
 | GBU-11                  |         |
 | GBU-12A                 |         |
 | GBU-15                  | DMAS    |
+| SAMSON Decoy            |         |
 | MXU-658 Travel Pod      |         |
 | ALQ-101                 |         |
 | ALQ-119                 |         |
