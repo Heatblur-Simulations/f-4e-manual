@@ -29,7 +29,8 @@ cassette back by left-clicking the holder.
 
 With the music tape loaded, songs can be played by setting the mode switch to
 RECORD. The RECORDER ON lamp next to the pilots left knee indicates the status
-and rotating it will adjust the volume.
+and rotating it will adjust the volume for the pilot. The WSOs volume can be
+adjusted by rotating the KY-28 P-Light dimmable lamp.
 
 The AVTR shows the soundtrack currently playing on its display for Elapsed Time,
 e.g. `M01` for the first track. Tracks can be skipped by using either the
