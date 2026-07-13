@@ -43,7 +43,7 @@ stations.
 | AIM-9           |     | (2) |     |     |     |     |     | (2) |     |     4 |
 | AGM-12          |  1  |  1  |     |     |     |     |     |  1  |  1  |     4 |
 | AGM-45          |  1  |  1  |     |     |     |     |     |  1  |  1  |     4 |
-| AGM-62          |  1  |     |     |     |     |     |     |  1  |     |     2 |
+| AGM-62          |  1  |  1  |     |     |     |     |     |  1  |  1  |     4 |
 | AGM-65          |     |  3  |     |     |     |     |     |  3  |     |     6 |
 | MK-81           |  6  |  3  |     |     |  6  |     |     |  3  |  6  |    24 |
 | MK-82           |  6  |  3  |     |     |  6  |     |     |  3  |  6  |    24 |
@@ -63,7 +63,7 @@ stations.
 | GBU-12          |  1  |  2  |     |     |     |     |     |  2  |  1  |     6 |
 | GBU-24          |  1  |  1  |     |     |     |     |     |  1  |  1  |     4 |
 | BDU-33          |  6  |  3  |     |     |  6  |     |     |  3  |  6  |    24 |
-| BDU-45          |  1  |  2  |     |     |     |     |     |  2  |  1  |     6 |
+| BDU-45LG        |  1  |  2  |     |     |     |     |     |  2  |  1  |     6 |
 | BDU-50          |  6  |  3  |     |     |  6  |     |     |  3  |  6  |    24 |
 | BLU-107         |     |  3  |     |     |  6  |     |     |  3  |     |    12 |
 | GBU-8           |  1  |  1  |     |     |     |     |     |  1  |  1  |     4 |
@@ -78,35 +78,35 @@ stations.
 | AN/ALE-40       |     | (1) |     |     |     |     |     | (1) |     |     2 |
 | Fuel Tank       |  1  |     |     |     |  1  |     |     |     |  1  |     3 |
 
-In general, stations 3, 4, 6 and 7 can be used to load Air-To-Air Missiles, or
-also Jammer and Targeting Pods.
+In general, stations 3, 4, 6, and 7 can be used to load Air-To-Air Missiles, or
+also, Jammer and Targeting Pods.
 
-Air-To-Ground Ordnance is mostly carrier on pylons 1, 2, 5, 8 and 9.
+Air-To-Ground Ordnance is mostly carried on pylons 1, 2, 5, 8, and 9.
 
 Pylons 2 and 8 are special, since they can be equipped with the
 Special-Weapons-Adapter (SWA) and have additional attach-points on their sides
 (labelled 2L, 2R, 8L, 8R) for loading AIM-9 Sidewinder missiles without
 occupying the entire pylon.
 
-> 💡 AIM-9 Sidewinder can be loaded onto pylon 2 and 8 additionally to other
-> ordnance. Hence, it is still possible to equip for example a Maverick on the
+> 💡 AIM-9 Sidewinder can be loaded onto pylons 2 and 8 additionally to other
+> ordnance. Hence, it is still possible to equip, for example, a Maverick on the
 > same pylon.
 
 Further, AN/ALE-40 Countermeasure Dispensers can be attached to the aft section
-of Pylon 2 and 8. Allowing the aircraft to carry a mix between 120 chaff and 30
-flares in total.
+of Pylons 2 and 8. Allowing the aircraft to carry a mix of up to 120 chaff, or
+60 chaff and 30 flares in total.
 
 ## Unavailable Weapons
 
-In the following various weapons are listed that the simulated variant of the
+In the following, various weapons are listed that the simulated variant of the
 F-4E is not able to equip.
 
-The reasons for this can be manifold, for example the laser guidance kit of a
+The reasons for this can be manifold, for example, the laser guidance kit of a
 bomb making it too long to fit on a wing pylon without being in the way of the
-flaps movement range. Or also the aircraft never being able to operate a
-specific weapon despite pictures showing it on a pylon; but that aircraft either
+Flaps movement range. Or also the aircraft never being able to operate a
+specific weapon despite pictures showing it on a pylon, but that aircraft either
 being modified and not representing the simulated variant (test aircraft,
-aircraft operated by other countries), or the ordnance also simply only being
+aircraft operated by other countries), or the ordnance also simply being
 put on the pylon without it being operable.
 
 | Ordnance           | Explanation                                               |
@@ -131,8 +131,8 @@ put on the pylon without it being operable.
 ### Loadout Limitations
 
 While some ordnance can be used with the jet, some specific loadout combinations
-might not be supported. Usually this is due to clearance issues, for example
-with the gear doors, flaps or speedbrakes.
+might not be supported. Usually this is due to clearance issues, for example,
+with the gear doors, flaps, or speedbrakes.
 
 | Ordnance  | Stations | Clearance   |
 | --------- | -------- | ----------- |
