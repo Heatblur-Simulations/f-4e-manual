@@ -63,7 +63,7 @@ stations.
 | GBU-12          |  1  |  2  |     |     |     |     |     |  2  |  1  |     6 |
 | GBU-24          |  1  |  1  |     |     |     |     |     |  1  |  1  |     4 |
 | BDU-33          |  6  |  3  |     |     |  6  |     |     |  3  |  6  |    24 |
-| BDU-45LG        |  1  |  2  |     |     |     |     |     |  2  |  1  |     6 |
+| BDU-45          |  1  |  2  |     |     |     |     |     |  2  |  1  |     6 |
 | BDU-50          |  6  |  3  |     |     |  6  |     |     |  3  |  6  |    24 |
 | BLU-107         |     |  3  |     |     |  6  |     |     |  3  |     |    12 |
 | GBU-8           |  1  |  1  |     |     |     |     |     |  1  |  1  |     4 |
@@ -106,8 +106,8 @@ bomb making it too long to fit on a wing pylon without being in the way of the
 Flaps movement range. Or also the aircraft never being able to operate a
 specific weapon despite pictures showing it on a pylon, but that aircraft either
 being modified and not representing the simulated variant (test aircraft,
-aircraft operated by other countries), or the ordnance also simply being
-put on the pylon without it being operable.
+aircraft operated by other countries), or the ordnance also simply being put on
+the pylon without it being operable.
 
 | Ordnance           | Explanation                                               |
 | ------------------ | --------------------------------------------------------- |
