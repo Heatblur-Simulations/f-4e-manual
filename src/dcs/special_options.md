@@ -192,6 +192,7 @@ Dropdown to select the language used for all HB UI elements. Available are:
 - English
 - Chinese (_中文_)
 - German (_Deutsch_)
+- Korean (_한국어_)
 
 Affects for example the Jester UI, the Bombing Tool, but also the
 in-game version of this Manual and more.
