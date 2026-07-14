@@ -191,8 +191,14 @@ digits 00 to 77.</p>
 <p>The codes for Mode 4 are automatically inserted by Ground Crew before flight,
 the Crew Chief can be asked to insert them on demand as well.</p>
 <blockquote>
-<p>💡 Due to engine limitations, the settings on the panel have no effect for
-DCS. However, they are exposed to external tools, such as SRS.</p>
+<p>💡 The Phantom features a full IFF simulation. In DCS this system also works
+with any other cooperating aircraft, such as the M-2000C, F1, JF-17, C-130,
+F-15E, Harrier and more. Other aircraft, or AI-controlled aircraft fall back
+to coalition based interrogation, assuming the Phantoms transponder to always
+be enabled and set to the correct M4 code for the current coaliton, ignoring
+the real state of the transponder. See chapter
+<a href="../dcs/mission_editor.html#iff">Mission Editor</a> for options on AI-controlled
+aircraft.</p>
 </blockquote>
 <h3 id="self-test-operation"><a class="header" href="#self-test-operation">Self Test operation</a></h3>
 <p>To self test Modes 2 and 3, place the master switch (<num>1</num>) to NORM and
@@ -283,12 +289,18 @@ if activated.</p>
 <p>The radar screen presents the results of the interrogation with lines around the
 contacts position:</p>
 <ul>
-<li>line above; the aircraft has a matching transponder mode</li>
-<li>line below; the aircraft has a matching transponder code</li>
+<li>line above; the aircraft has a matching transponder mode (likely friendly, or
+at least neutral)</li>
+<li>line below; the aircraft has a matching transponder code (likely friendly)</li>
 </ul>
 <blockquote>
-<p>💡 In DCS, a line above and below the contact means it is friendly. A single
-line represents a neutral, e.g. civilian, aircraft.</p>
+<p>💡 The Phantom features a full IFF simulation. In DCS this system also works
+with any other cooperating aircraft, such as the M-2000C, F1, JF-17, C-130,
+F-15E, Harrier and more. Other aircraft, or AI-controlled aircraft fall back
+to coalition based transponders, the Phantoms interrogator then assumes their
+transponder to be set to the correct codes for their corresponding coalition.
+See chapter <a href="../dcs/mission_editor.html#iff">Mission Editor</a> for options on
+AI-controlled aircraft.</p>
 </blockquote>
 <p><img src="../img/radar_iff_friendly.jpg" alt="Radar with friendly contacts" /></p>
 <p>Each time the AN/APX-76 is sending an interrogation, the challenge light
@@ -340,8 +352,11 @@ position and compare results.</p>
 activity detected by the APX-81A Combat Tree system.</p>
 <p>Illuminated each time the system detects IFF responses by hostile aircraft.</p>
 <blockquote>
-<p>💡 Due to engine limitations, the activity lights only illuminate if a
-transponder responds to a Combat-Tree challenge send by the own aircraft.</p>
+<p>💡 Due to engine limitations, the activity lights can only capture signals
+send by transponders of aircraft with a full IFF simulation cooperating with
+that of the Phantom, such as the M-2000C, F1, JF-17, C-130, F-15E, Harrier and
+more. For other aircraft, the lights only illuminate if a transponder responds
+to a Combat-Tree challenge send by the own aircraft.</p>
 </blockquote>
 <h4 id="self-test"><a class="header" href="#self-test">Self-Test</a></h4>
 <p>The Test button (<num>6</num>) can be used to initiate a self-test of the

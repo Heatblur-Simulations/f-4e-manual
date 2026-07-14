@@ -6779,8 +6779,14 @@ digits 00 to 77.</p>
 <p>The codes for Mode 4 are automatically inserted by Ground Crew before flight,
 the Crew Chief can be asked to insert them on demand as well.</p>
 <blockquote>
-<p>💡 Due to engine limitations, the settings on the panel have no effect for
-DCS. However, they are exposed to external tools, such as SRS.</p>
+<p>💡 The Phantom features a full IFF simulation. In DCS this system also works
+with any other cooperating aircraft, such as the M-2000C, F1, JF-17, C-130,
+F-15E, Harrier and more. Other aircraft, or AI-controlled aircraft fall back
+to coalition based interrogation, assuming the Phantoms transponder to always
+be enabled and set to the correct M4 code for the current coaliton, ignoring
+the real state of the transponder. See chapter
+<a href="systems/../dcs/mission_editor.html#iff">Mission Editor</a> for options on AI-controlled
+aircraft.</p>
 </blockquote>
 <h3 id="self-test-operation"><a class="header" href="#self-test-operation">Self Test operation</a></h3>
 <p>To self test Modes 2 and 3, place the master switch (<num>1</num>) to NORM and
@@ -6871,12 +6877,18 @@ if activated.</p>
 <p>The radar screen presents the results of the interrogation with lines around the
 contacts position:</p>
 <ul>
-<li>line above; the aircraft has a matching transponder mode</li>
-<li>line below; the aircraft has a matching transponder code</li>
+<li>line above; the aircraft has a matching transponder mode (likely friendly, or
+at least neutral)</li>
+<li>line below; the aircraft has a matching transponder code (likely friendly)</li>
 </ul>
 <blockquote>
-<p>💡 In DCS, a line above and below the contact means it is friendly. A single
-line represents a neutral, e.g. civilian, aircraft.</p>
+<p>💡 The Phantom features a full IFF simulation. In DCS this system also works
+with any other cooperating aircraft, such as the M-2000C, F1, JF-17, C-130,
+F-15E, Harrier and more. Other aircraft, or AI-controlled aircraft fall back
+to coalition based transponders, the Phantoms interrogator then assumes their
+transponder to be set to the correct codes for their corresponding coalition.
+See chapter <a href="systems/../dcs/mission_editor.html#iff">Mission Editor</a> for options on
+AI-controlled aircraft.</p>
 </blockquote>
 <p><img src="systems/../img/radar_iff_friendly.jpg" alt="Radar with friendly contacts" /></p>
 <p>Each time the AN/APX-76 is sending an interrogation, the challenge light
@@ -6928,8 +6940,11 @@ position and compare results.</p>
 activity detected by the APX-81A Combat Tree system.</p>
 <p>Illuminated each time the system detects IFF responses by hostile aircraft.</p>
 <blockquote>
-<p>💡 Due to engine limitations, the activity lights only illuminate if a
-transponder responds to a Combat-Tree challenge send by the own aircraft.</p>
+<p>💡 Due to engine limitations, the activity lights can only capture signals
+send by transponders of aircraft with a full IFF simulation cooperating with
+that of the Phantom, such as the M-2000C, F1, JF-17, C-130, F-15E, Harrier and
+more. For other aircraft, the lights only illuminate if a transponder responds
+to a Combat-Tree challenge send by the own aircraft.</p>
 </blockquote>
 <h4 id="self-test"><a class="header" href="#self-test">Self-Test</a></h4>
 <p>The Test button (<num>6</num>) can be used to initiate a self-test of the
@@ -16936,16 +16951,15 @@ of moving the elevation gimbal between 58 and 62 degrees per second.</p>
 <p>💡 Variance goes in both directions, your Phantom can also be faster than it
 is supposed to be.</p>
 </blockquote>
-<p>Condition and wear also change the chance of failures.
-Each component has a mean operating time. At spawn, an expected lifetime is
-drawn around that mean. Higher wear and lower condition make failures
-more likely.</p>
+<p>Condition and wear also change the chance of failures. Each component has a mean
+operating time. At spawn, an expected lifetime is drawn around that mean. Higher
+wear and lower condition make failures more likely.</p>
 <h3 id="aircraft-condition"><a class="header" href="#aircraft-condition">Aircraft Condition</a></h3>
 <p>An aircraft's condition generally refers to its factory and production quality.
 For example, during war times a factory might run out of supplies and reduce
 their acceptance criteria during production, generally increasing variance in
-individual component performance. Aircraft condition also reflects service/maintenance
-quality over time.</p>
+individual component performance. Aircraft condition also reflects
+service/maintenance quality over time.</p>
 <p>Mission designers can control this aspect with the <strong>Aircraft Condition</strong>
 slider, indicating quality from 0% (poor quality) to 100% (high quality).</p>
 <p>For the Pave Spike motor this means that, when set to 0%, its speed variance σ
@@ -16955,26 +16969,30 @@ speed between 55 and 65 degrees per second instead.</p>
 <ul>
 <li><strong>0%</strong>: Works but degraded. Performance clearly worse; still does the job;
 high chance of faults.</li>
-<li><strong>25%</strong>: Poor wartime build. Substitute materials, loose tolerances; quirks are obvious.</li>
-<li><strong>50%</strong>: Mediocre subcontractor. Near spec in places; small issues may be hard to
-notice in routine flight.</li>
+<li><strong>25%</strong>: Poor wartime build. Substitute materials, loose tolerances; quirks
+are obvious.</li>
+<li><strong>50%</strong>: Mediocre subcontractor. Near spec in places; small issues may be hard
+to notice in routine flight.</li>
 <li><strong>75%</strong>: Slightly below standard. Minor imperfections; effects are subtle.</li>
 <li><strong>90%</strong>: Standard western build. Typical service jet quality.</li>
 <li><strong>100%</strong>: Showroom/prototype grade. Best-of-fleet specimen.</li>
 </ul>
-<p>Condition also affects how components are serviced when the aircraft is created or repaired:</p>
+<p>Condition also affects how components are serviced when the aircraft is created
+or repaired:</p>
 <ul>
-<li>Good quality (&gt;85%): Worn components are replaced with new parts (no initial wear).</li>
+<li>Good quality (&gt;85%): Worn components are replaced with new parts (no initial
+wear).</li>
 <li>Decent quality (&gt;50%): Worn components are replaced or properly serviced,
 reducing the chance of failure in the next flight.</li>
-<li>Poor quality (&lt;50%): Servicing is inconsistent; the lower the quality, the less likely
-a worn component is replaced. Residual wear may remain and failures are more likely.</li>
+<li>Poor quality (&lt;50%): Servicing is inconsistent; the lower the quality, the
+less likely a worn component is replaced. Residual wear may remain and
+failures are more likely.</li>
 </ul>
 <blockquote>
-<p>💡 Very low condition does not guarantee manufacturer-acceptable limits.
-At 0%, parts still work but are noticeably degraded. The aircraft remains
-usable and operational, but combat effectiveness may be reduced,
-handling may feel rougher and failures are highly probable.</p>
+<p>💡 Very low condition does not guarantee manufacturer-acceptable limits. At
+0%, parts still work but are noticeably degraded. The aircraft remains usable
+and operational, but combat effectiveness may be reduced, handling may feel
+rougher and failures are highly probable.</p>
 </blockquote>
 <h3 id="aircraft-wear-and-tear"><a class="header" href="#aircraft-wear-and-tear">Aircraft Wear and Tear</a></h3>
 <p>Additionally to production quality, components can degrade during service based
@@ -17004,16 +17022,16 @@ may move slower, or engines may produce less power.</p>
 <h2 id="aircraft-type-on-spawn"><a class="header" href="#aircraft-type-on-spawn">Aircraft Type On Spawn</a></h2>
 <p>Dropdown to select which aircraft state is used at spawn.</p>
 <h3 id="default"><a class="header" href="#default">Default</a></h3>
-<p>Generates a new unique aircraft. Condition and wear settings
-are applied as chosen.</p>
+<p>Generates a new unique aircraft. Condition and wear settings are applied as
+chosen.</p>
 <p>If the user enabled aircraft persistence in their
 <a href="dcs/special_options.html#persistent-aircraft-by-livery-and-tail-number">Special Options</a>
-and the aircraft matches a previously saved aircraft,
-the persisted aircraft will be loaded instead.</p>
+and the aircraft matches a previously saved aircraft, the persisted aircraft
+will be loaded instead.</p>
 <h3 id="reference"><a class="header" href="#reference">Reference</a></h3>
 <p>The aircraft used in this flight is the <em>reference aircraft</em>.</p>
-<p>This effectively ignores the settings for condition, as well as wear and
-tear. The aircraft will spawn with all properties set exactly as specified by the
+<p>This effectively ignores the settings for condition, as well as wear and tear.
+The aircraft will spawn with all properties set exactly as specified by the
 manufacturer and according to documentation, without any variance.</p>
 <p>This is especially interesting for competitions, where both sides should start
 with the same conditions for fairness. Or when performing tests and computing
@@ -17027,17 +17045,18 @@ properties will deviate from your opponents.</p>
 <h3 id="persistent"><a class="header" href="#persistent">Persistent</a></h3>
 <p>Enables the aircraft persistence system. This starts tracking this particular
 aircraft, saving its state for a subsequent flight. And if a matching state
-could already be found, it will also load this persisted aircraft for this flight.</p>
+could already be found, it will also load this persisted aircraft for this
+flight.</p>
 <p>See <a href="dcs/persistence.html">9.6. Persistence</a> for details.</p>
 <blockquote>
-<p>💡 This overrules persistence settings made by the user,
-see <a href="dcs/special_options.html#persistent-aircraft-by-livery-and-tail-number">9.2. Special Options</a>.</p>
+<p>💡 This overrules persistence settings made by the user, see
+<a href="dcs/special_options.html#persistent-aircraft-by-livery-and-tail-number">9.2. Special Options</a>.</p>
 </blockquote>
 <h2 id="persistent-aircraft-key"><a class="header" href="#persistent-aircraft-key">Persistent Aircraft Key</a></h2>
 <p>This text box allows entering the name (also known as <em>Aircraft Key</em>) for the
 aircraft to be saved and loaded by the persistency system.</p>
-<p>Enter a short text with letters and numbers, for example <code>campaign_1</code>. Use the same
-key across missions in one campaign to keep a single shared airframe. Use
+<p>Enter a short text with letters and numbers, for example <code>campaign_1</code>. Use the
+same key across missions in one campaign to keep a single shared airframe. Use
 different keys to represent different persisted aircraft.</p>
 <p>See <a href="dcs/persistence.html">9.6. Persistence</a> for details.</p>
 <h2 id="ins-reference-alignment-stored"><a class="header" href="#ins-reference-alignment-stored">INS Reference Alignment Stored</a></h2>
@@ -17131,6 +17150,27 @@ are provided for mission triggers:</p>
 </tbody></table>
 </div>
 <p><img src="dcs/../img/me_freq_triggers.jpg" alt="UHF Parameters" /></p>
+<h2 id="iff"><a class="header" href="#iff">IFF</a></h2>
+<p>The Phantom features a full IFF simulation compatible with cooperating aircraft,
+such as the the M-2000C, F1, JF-17, C-130, F-15E, Harrier and more.</p>
+<p>For other aircraft, or AI-controlled aircraft, mission creators can pre-set
+transponder codes by <strong>giving units a name following specific patterns</strong>:</p>
+<ul>
+<li>Set M1 code: <code>#IFF_M1=[0-7][0-3]</code>, example <code>#IFF_M1=62</code></li>
+<li>Set M2 code: <code>#IFF_M2=[0-7][0-7][0-7][0-7]</code>, example <code>#IFF_M2=1301</code></li>
+<li>Set M3 code: <code>#IFF_M3=[0-7][0-7][0-7][0-7]</code>, example <code>#IFF_M3=6374</code></li>
+<li>M4 is always enabled and set to the valid A code for the current coalition</li>
+</ul>
+<p>A LotATC inspired style supporting setting all codes at once also works:</p>
+<ul>
+<li><code>[@#]IFF:(xx)[yyyy]zzzzAA</code>, to set M1 code <code>xx</code>, M2 code <code>yyyy</code>, M3 code
+<code>zzzz</code>. M4 must be set to <code>FR</code> to work</li>
+</ul>
+<p>Examples:</p>
+<ul>
+<li><code>#IFF:(23)[1200]4321FR</code></li>
+<li><code>@IFF:(71)[7777]0001FR</code></li>
+</ul>
 <h2 id="flight-plan-preparation"><a class="header" href="#flight-plan-preparation">Flight Plan Preparation</a></h2>
 <p>The waypoints set in the Mission Editor will automatically be loaded into
 Jesters Primary Flight Plan. Special waypoint types can be assigned by adding
