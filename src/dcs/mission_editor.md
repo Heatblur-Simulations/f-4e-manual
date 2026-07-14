@@ -46,18 +46,17 @@ of moving the elevation gimbal between 58 and 62 degrees per second.
 > 💡 Variance goes in both directions, your Phantom can also be faster than it
 > is supposed to be.
 
-Condition and wear also change the chance of failures.
-Each component has a mean operating time. At spawn, an expected lifetime is
-drawn around that mean. Higher wear and lower condition make failures
-more likely.
+Condition and wear also change the chance of failures. Each component has a mean
+operating time. At spawn, an expected lifetime is drawn around that mean. Higher
+wear and lower condition make failures more likely.
 
 ### Aircraft Condition
 
 An aircraft's condition generally refers to its factory and production quality.
 For example, during war times a factory might run out of supplies and reduce
 their acceptance criteria during production, generally increasing variance in
-individual component performance. Aircraft condition also reflects service/maintenance
-quality over time.
+individual component performance. Aircraft condition also reflects
+service/maintenance quality over time.
 
 Mission designers can control this aspect with the **Aircraft Condition**
 slider, indicating quality from 0% (poor quality) to 100% (high quality).
@@ -70,25 +69,29 @@ Quality scale (meaning):
 
 - **0%**: Works but degraded. Performance clearly worse; still does the job;
   high chance of faults.
-- **25%**: Poor wartime build. Substitute materials, loose tolerances; quirks are obvious.
-- **50%**: Mediocre subcontractor. Near spec in places; small issues may be hard to
-  notice in routine flight.
+- **25%**: Poor wartime build. Substitute materials, loose tolerances; quirks
+  are obvious.
+- **50%**: Mediocre subcontractor. Near spec in places; small issues may be hard
+  to notice in routine flight.
 - **75%**: Slightly below standard. Minor imperfections; effects are subtle.
 - **90%**: Standard western build. Typical service jet quality.
 - **100%**: Showroom/prototype grade. Best-of-fleet specimen.
 
-Condition also affects how components are serviced when the aircraft is created or repaired:
+Condition also affects how components are serviced when the aircraft is created
+or repaired:
 
-- Good quality (>85%): Worn components are replaced with new parts (no initial wear).
+- Good quality (>85%): Worn components are replaced with new parts (no initial
+  wear).
 - Decent quality (>50%): Worn components are replaced or properly serviced,
   reducing the chance of failure in the next flight.
-- Poor quality (<50%): Servicing is inconsistent; the lower the quality, the less likely
-  a worn component is replaced. Residual wear may remain and failures are more likely.
+- Poor quality (<50%): Servicing is inconsistent; the lower the quality, the
+  less likely a worn component is replaced. Residual wear may remain and
+  failures are more likely.
 
-> 💡 Very low condition does not guarantee manufacturer-acceptable limits.
-> At 0%, parts still work but are noticeably degraded. The aircraft remains
-> usable and operational, but combat effectiveness may be reduced,
-> handling may feel rougher and failures are highly probable.
+> 💡 Very low condition does not guarantee manufacturer-acceptable limits. At
+> 0%, parts still work but are noticeably degraded. The aircraft remains usable
+> and operational, but combat effectiveness may be reduced, handling may feel
+> rougher and failures are highly probable.
 
 ### Aircraft Wear and Tear
 
@@ -126,20 +129,20 @@ Dropdown to select which aircraft state is used at spawn.
 
 ### Default
 
-Generates a new unique aircraft. Condition and wear settings
-are applied as chosen.
+Generates a new unique aircraft. Condition and wear settings are applied as
+chosen.
 
 If the user enabled aircraft persistence in their
 [Special Options](special_options.md#persistent-aircraft-by-livery-and-tail-number)
-and the aircraft matches a previously saved aircraft,
-the persisted aircraft will be loaded instead.
+and the aircraft matches a previously saved aircraft, the persisted aircraft
+will be loaded instead.
 
 ### Reference
 
 The aircraft used in this flight is the _reference aircraft_.
 
-This effectively ignores the settings for condition, as well as wear and
-tear. The aircraft will spawn with all properties set exactly as specified by the
+This effectively ignores the settings for condition, as well as wear and tear.
+The aircraft will spawn with all properties set exactly as specified by the
 manufacturer and according to documentation, without any variance.
 
 This is especially interesting for competitions, where both sides should start
@@ -155,20 +158,21 @@ values.
 
 Enables the aircraft persistence system. This starts tracking this particular
 aircraft, saving its state for a subsequent flight. And if a matching state
-could already be found, it will also load this persisted aircraft for this flight.
+could already be found, it will also load this persisted aircraft for this
+flight.
 
 See [9.6. Persistence](persistence.md) for details.
 
-> 💡 This overrules persistence settings made by the user,
-> see [9.2. Special Options](special_options.md#persistent-aircraft-by-livery-and-tail-number).
+> 💡 This overrules persistence settings made by the user, see
+> [9.2. Special Options](special_options.md#persistent-aircraft-by-livery-and-tail-number).
 
 ## Persistent Aircraft Key
 
 This text box allows entering the name (also known as _Aircraft Key_) for the
 aircraft to be saved and loaded by the persistency system.
 
-Enter a short text with letters and numbers, for example `campaign_1`. Use the same
-key across missions in one campaign to keep a single shared airframe. Use
+Enter a short text with letters and numbers, for example `campaign_1`. Use the
+same key across missions in one campaign to keep a single shared airframe. Use
 different keys to represent different persisted aircraft.
 
 See [9.6. Persistence](persistence.md) for details.
@@ -297,6 +301,29 @@ are provided for mission triggers:
 | `AUX_FREQ`  | Aux frequency in MHz  |
 
 ![UHF Parameters](../img/me_freq_triggers.jpg)
+
+## IFF
+
+The Phantom features a full IFF simulation compatible with cooperating aircraft,
+such as the the M-2000C, F1, JF-17, C-130, F-15E, Harrier and more.
+
+For other aircraft, or AI-controlled aircraft, mission creators can pre-set
+transponder codes by **giving units a name following specific patterns**:
+
+- Set M1 code: `#IFF_M1=[0-7][0-3]`, example `#IFF_M1=62`
+- Set M2 code: `#IFF_M2=[0-7][0-7][0-7][0-7]`, example `#IFF_M2=1301`
+- Set M3 code: `#IFF_M3=[0-7][0-7][0-7][0-7]`, example `#IFF_M3=6374`
+- M4 is always enabled and set to the valid A code for the current coalition
+
+A LotATC inspired style supporting setting all codes at once also works:
+
+- `[@#]IFF:(xx)[yyyy]zzzzAA`, to set M1 code `xx`, M2 code `yyyy`, M3 code
+  `zzzz`. M4 must be set to `FR` to work
+
+Examples:
+
+- `#IFF:(23)[1200]4321FR`
+- `@IFF:(71)[7777]0001FR`
 
 ## Flight Plan Preparation
 
