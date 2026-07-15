@@ -3,16 +3,47 @@
     display: none;
   }
   #sidebar-toggle-anchor:checked ~ .page-wrapper .nav-wrapper {
-    display: block;
+    display: grid;
   }
 }
 
+.nav-wrapper {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.nav-wrapper .previous {
+  grid-column: 1;
+  justify-self: start;
+}
+
+.nav-wrapper .next {
+  grid-column: 2;
+  justify-self: end;
+}
+
 .mobile-nav-chapters {
+  /* Flex is a better way to control the centered layout of the icon and text
+   * given this is a button a not wrapping text */
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-inline: 10px;
+  padding-bottom: 3px;
+  /* Force the line-height to come in at 32px -> 32/40 = 0.8 */
+  line-height: 0.8em;
+  /* Disable the built in 90px width */
+  width: auto;
   background-color: var(--mobile-nav-bg);
   border: 1px solid var(--mobile-nav-border);
   box-shadow: 0px 1px 2px -1px var(--mobile-nav-shadow) inset,
     0px -2px 0px 0px var(--mobile-nav-border) inset;
   text-decoration: none !important;
+}
+
+.mobile-nav-chapters .fa {
+  display: block;
+  /* Force the icons to come in at 24px -> 24/40 = 0.6 */
+  font-size: 0.6em;
 }
 
 .mobile-nav-chapters:hover {
@@ -179,10 +210,8 @@ ol.section ol {
 }
 
 .nav-chapters-text {
+  display: block;
   font-size: 0.5em;
-  vertical-align: middle;
-  margin: 0 7px;
-  padding-bottom: 6px;
   color: var(--icons) !important;
 }
 
