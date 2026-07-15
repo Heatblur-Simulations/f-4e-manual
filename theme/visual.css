@@ -1,8 +1,8 @@
 @media only screen and (max-width: 5000px) {
-  #sidebar-toggle-anchor:checked ~ .page-wrapper .nav-wide-wrapper {
+  #mdbook-sidebar-toggle-anchor:checked ~ .page-wrapper .nav-wide-wrapper {
     display: none;
   }
-  #sidebar-toggle-anchor:checked ~ .page-wrapper .nav-wrapper {
+  #mdbook-sidebar-toggle-anchor:checked ~ .page-wrapper .nav-wrapper {
     display: grid;
   }
 }
@@ -26,8 +26,7 @@
    * given this is a button a not wrapping text */
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding-inline: 10px;
+  gap: 2px;
   padding-bottom: 3px;
   /* Force the line-height to come in at 32px -> 32/40 = 0.8 */
   line-height: 0.8em;
@@ -40,10 +39,25 @@
   text-decoration: none !important;
 }
 
-.mobile-nav-chapters .fa {
+.mobile-nav-chapters.previous {
+  padding-inline: 5px 10px;
+}
+
+.mobile-nav-chapters.next {
+  padding-inline: 10px 5px;
+}
+
+.mobile-nav-chapters .fa-svg {
   display: block;
   /* Force the icons to come in at 24px -> 24/40 = 0.6 */
-  font-size: 0.6em;
+  font-size: 0.45em;
+  width: 18px;
+  height: 18px;
+  margin-top: 1px;
+}
+
+.mobile-nav-chapters .fa-svg svg {
+  display: block;
 }
 
 .mobile-nav-chapters:hover {
@@ -128,17 +142,17 @@ ol.section ol {
   padding-left: 1em !important;
 }
 
-.section .chapter-item {
+.section .chapter-item > .chapter-link-wrapper {
   font-size: 90%;
 }
 
-.chapter-item.affix {
+.chapter-item.affix > .chapter-link-wrapper {
   font-size: 100% !important;
   text-transform: uppercase;
-  padding-left: 0px !important;
+  padding-inline-start: 0 !important;
 }
 
-.chapter-item.affix a {
+.chapter-item.affix > .chapter-link-wrapper > a:first-child {
   display: flex;
   margin: 0 auto;
 }
@@ -148,15 +162,19 @@ ol.section ol {
 }
 
 .chapter li.chapter-item {
-  padding-top: 0.4045em;
-  padding-bottom: 0.4045em;
-  padding-left: 1.618em;
   line-height: 1.5em;
   margin-block-start: 0px;
 }
 
-.chapter li.chapter-item.affix {
-  padding-left: 0px !important;
+.chapter li.chapter-item > .chapter-link-wrapper {
+  padding-top: 0.4045em;
+  padding-bottom: 0.4045em;
+  padding-inline-start: 1.618em;
+  line-height: 1.5em;
+}
+
+.chapter li.chapter-item.affix > .chapter-link-wrapper {
+  padding-inline-start: 0 !important;
 }
 
 .section {
@@ -169,12 +187,12 @@ ol.section ol {
   font-weight: bold;
   line-height: 18px;
 }
-.chapter .chapter-item.expanded {
+.chapter .chapter-item.expanded > .chapter-link-wrapper {
   font-weight: bold;
   font-size: 14.4px;
 }
 
-.section .chapter-item.expanded a {
+.section .chapter-item.expanded > .chapter-link-wrapper > a {
   font-weight: bold;
   font-size: 14.4px;
 }
@@ -219,11 +237,11 @@ ol.chapter {
   margin-top: 0px;
 }
 
-#content table td {
+#mdbook-content table td {
   max-width: 250px;
 }
 
-#content table th:first-child {
+#mdbook-content table th:first-child {
   padding-left: 0.5em;
   padding-right: 0.5em;
 }
