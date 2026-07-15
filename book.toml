@@ -3,7 +3,6 @@ title = "Heatblur F-4E Phantom II"
 description = "Manual of the F-4E Phantom by Heatblur Simulations."
 authors = ["Heatblur Simulations", "Contributions from the Community"]
 language = "en"
-multilingual = false
 
 [output.html]
 git-repository-url = "https://github.com/Heatblur-Simulations/f-4e-manual"
@@ -21,6 +20,11 @@ additional-js = [
     'js/extra.js'
 ]
 mathjax-support = false
+smart-punctuation = false
+definition-lists = false
+admonitions = false
+hash-files = false
+sidebar-header-nav = false
 
 [output.html.fold]
 enable = true

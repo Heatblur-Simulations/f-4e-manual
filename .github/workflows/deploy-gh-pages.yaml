@@ -21,7 +21,7 @@ jobs:
       - name: Setup mdBook
         uses: peaceiris/actions-mdbook@v2.0.0
         with:
-          mdbook-version: "0.4.42"
+          mdbook-version: "0.5.4"
       - run: mdbook build
 
       - name: Deploy

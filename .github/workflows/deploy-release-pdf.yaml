@@ -1,9 +1,9 @@
 name: Build and Deploy mdBook PDF
 
-on: 
+on:
   push:
     tags:
-    - '*'
+      - "*"
 
 permissions:
   contents: write
@@ -17,8 +17,8 @@ jobs:
       - name: Setup mdBook
         uses: peaceiris/actions-mdbook@v2.0.0
         with:
-          mdbook-version: "0.4.42"
-      - run: cargo install --git https://github.com/Heatblur-Simulations/mdbook-pdf
+          mdbook-version: "0.5.4"
+      - run: cargo install mdbook-pdf --version 0.1.13 --locked
       - run: mdbook build
 
       - name: Rename PDF
