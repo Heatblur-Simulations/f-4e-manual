@@ -42,7 +42,7 @@ the Crew Chief can be asked to insert them on demand as well.
 > with any other cooperating aircraft, such as the M-2000C, F1, JF-17, C-130,
 > F-15E, Harrier and more. Other aircraft, or AI-controlled aircraft fall back
 > to coalition based interrogation, assuming the Phantoms transponder to always
-> be enabled and set to the correct M4 code for the current coaliton, ignoring
+> be enabled and set to the correct M4 code for the current coalition, ignoring
 > the real state of the transponder. See chapter
 > [Mission Editor](../dcs/mission_editor.md#iff) for options on AI-controlled
 > aircraft.
