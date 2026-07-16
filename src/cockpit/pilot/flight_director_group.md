@@ -263,7 +263,7 @@ the ADI; the OFF position has the switch aligned vertically.
 
 ### Mode Selector Knob Display Functions
 
-![ModeSelectorKnobTable](../../img/ModeSelectorKnobTable.jpg)
+![ModeSelectorKnobTable](../../img/modeselectorknobtable.jpg)
 
 ## VOR Lamp
 

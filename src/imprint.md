@@ -36,6 +36,6 @@ Daria Kurhuzova, Administrative Assistant
 
 ### See You In The Skies
 
-![f4e_vapor_shot](img/Vapes_06.jpg)
+![f4e_vapor_shot](img/vapes_06.jpg)
 
 <!-- https://www.youtube.com/watch?v=pg8-mx4KGK8 -->

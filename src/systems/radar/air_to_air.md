@@ -373,7 +373,7 @@ the pinky switch on the throttle.
 | Heat            | Center (0 deg)  |
 | Radar           | Right (+15 deg) |
 
-![manual_caa](../../img/CAA.jpg)
+![manual_caa](../../img/caa.jpg)
 
 To exit CAA, the pilot can select position B on the Weapon Select Knob, or the
 WSO can push the Air-To-Air button. Should a radar lock be in place at the time

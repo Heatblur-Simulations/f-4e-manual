@@ -43,7 +43,7 @@ noted as follows:
 | OUT          | Slats and flaps extend.                                                                                                        |
 | OUT AND DOWN | Slats and flaps extend.                                                                                                        |
 
-![SlatsRelative](../../../img/SlatsRelative.jpg)
+![SlatsRelative](../../../img/slatsrelative.jpg)
 
 ### Emergency Slats/Flaps Handle
 

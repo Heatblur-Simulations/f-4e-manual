@@ -43,7 +43,7 @@ referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Computer Automatic Acquisition Mode (CAA)
 
-![CAA](../../img/CAA.jpg)
+![CAA](../../img/caa.jpg)
 
 Once in Cage mode, the radar can be selected in to Computer Automatic
 Acquisition using

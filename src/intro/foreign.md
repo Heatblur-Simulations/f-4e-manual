@@ -53,7 +53,7 @@ leased airframes outright, this offer was ultimately rejected.
 
 ## Japan
 
-![JASDF F-4 starting](../img/JASDF_F-4_Phantoms.jpg) _F-4EJ Kais of the JASDF of
+![JASDF F-4 starting](../img/jasdf_f-4_phantoms.jpg) _F-4EJ Kais of the JASDF of
 the 8th Hikōtai taking off in 2002, US Navy Photo_
 
 With permission from the US State Department and license terms with McDonnell
@@ -122,7 +122,7 @@ mid-2030s.
 
 ## Germany
 
-![F-4Fs german air force 1998](../img/F-4Fs_JG74_1998.jpg) _F-4Fs of the German
+![F-4Fs german air force 1998](../img/f-4fs_jg74_1998.jpg) _F-4Fs of the German
 Air Force in 1998, USAF Photo_
 
 Primarily an F-4F and RF-4E customer - the largest F-4 export recipient with 263
@@ -131,7 +131,7 @@ States for the type conversion of their aircrews training alongside USAF units.
 
 ## South Korea
 
-![real_life_f4_korean_crewchief_american_pilot](../img/real_life_f4_korea_TEAM_SPIRIT_86.jpg)
+![real_life_f4_korean_crewchief_american_pilot](../img/real_life_f4_korea_team_spirit_86.jpg)
 _A Korean Air Force crew chief helps a 497th Tactical Fighter Squadron pilot
 into the cockpit of his F-4E during Exercise TEAM SPIRIT 1986_
 

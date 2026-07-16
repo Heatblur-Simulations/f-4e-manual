@@ -121,7 +121,7 @@ A pair of indicators to the left and right that provide quick
 confirmation of the current aircraft AoA state based on illuminated
 position and color.
 
-![AoA_table](../../img/AoA_table.jpg)
+![AoA_table](../../img/aoa_table.jpg)
 
 Can also indicate weapon steering cues, and an aural tone system backs
 up the indication with audible cues.

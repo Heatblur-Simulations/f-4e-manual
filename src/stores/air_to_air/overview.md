@@ -15,4 +15,4 @@ infrared-guided missile celebrated for its agility and responsiveness. Constitut
 component of the Phantom II's air-to-air weaponry, the Sidewinder excels in the intense and dynamic
 scenarios of dogfights.
 
-![real_life_aim_9](../../img/real_life_AIM-9.jpg)
+![real_life_aim_9](../../img/real_life_aim-9.jpg)
