@@ -47,3 +47,143 @@ jobs:
         with:
           persist-credentials: false
       - uses: gaurav-nelson/github-action-markdown-link-check@1.0.15
+
+  markdown-blacklist-check:
+    name: "Markdown Blacklist Check"
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4.1.1
+        with:
+          persist-credentials: false
+
+      - name: Check for blacklisted phrases
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          failed=0
+
+          # Add blacklisted phrases here
+          BLACKLIST=(
+            "</br>"
+          )
+
+          while IFS= read -r -d '' file; do
+            for phrase in "${BLACKLIST[@]}"; do
+              if grep -Fq "$phrase" "$file"; then
+                echo "::error file=$file::Found blacklisted phrase '$phrase' in file: $file"
+                failed=1
+              fi
+            done
+          done < <(find src -type f -name "*.md" -print0)
+
+          exit $failed
+
+  lowercase-filenames:
+    name: "Lowercase Filenames"
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4.1.1
+        with:
+          persist-credentials: false
+
+      - name: Validate filenames
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          failed=0
+
+          while IFS= read -r -d '' file; do
+            # Skip the one allowed exception
+            if [[ "$file" == "src/SUMMARY.md" ]]; then
+              continue
+            fi
+
+            lowercase=$(printf '%s' "$file" | tr '[:upper:]' '[:lower:]')
+
+            if [[ "$file" != "$lowercase" ]]; then
+              echo "::error file=$file::Path must be entirely lowercase: $file"
+              failed=1
+            fi
+          done < <(find src -type f -print0)
+
+          exit $failed
+
+  image-check:
+    name: "Image Checks"
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4.1.1
+        with:
+          persist-credentials: false
+
+      - name: Validate images
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          MAX_SIZE=$((150 * 1024))
+
+          # Files allowed to exceed 150 KB
+          EXCEPTIONS=(
+            #"src/img/large-example-diagram.jpg"
+          )
+
+          is_exception() {
+            local file="$1"
+            for exception in "${EXCEPTIONS[@]}"; do
+              [[ "$file" == "$exception" ]] && return 0
+            done
+            return 1
+          }
+
+          failed=0
+
+          # Validate all images under src/img
+          while IFS= read -r -d '' file; do
+            filename=$(basename "$file")
+
+            # Check extension (case-sensitive)
+            case "$filename" in
+              *.jpg|*.svg|*.gif)
+                ;;
+              *)
+                echo "::error file=$file::Invalid extension for file: $file. Only .jpg, .svg, and .gif are allowed."
+                failed=1
+                continue
+                ;;
+            esac
+
+            # Check file size unless exempt
+            if ! is_exception "$file"; then
+              size=$(stat -c%s "$file")
+              if (( size > MAX_SIZE )); then
+                echo "::error file=$file::File exceeds size limit: $file is ${size} bytes (> ${MAX_SIZE} bytes)."
+                failed=1
+              fi
+            fi
+          done < <(find src/img -type f -print0)
+
+          # Ensure every file in src/img/light has a counterpart in src/img/dark
+          while IFS= read -r -d '' file; do
+            rel="${file#src/img/light/}"
+            if [[ ! -f "src/img/dark/$rel" ]]; then
+              echo "::error file=$file::Missing matching counterpart for $file: src/img/dark/$rel"
+              failed=1
+            fi
+          done < <(find src/img/light -type f -print0)
+
+          # Ensure every file in src/img/dark has a counterpart in src/img/light
+          while IFS= read -r -d '' file; do
+            rel="${file#src/img/dark/}"
+            if [[ ! -f "src/img/light/$rel" ]]; then
+              echo "::error file=$file::Missing matching counterpart for $file: src/img/light/$rel"
+              failed=1
+            fi
+          done < <(find src/img/dark -type f -print0)
+
+          exit $failed
