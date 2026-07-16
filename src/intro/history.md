@@ -59,7 +59,7 @@ unsolicited proposals from Grumman, Douglas, and North American, and provided
 McDonnell with a $38 million contract for two flying examples of the
 Demon follow-on - internally designated as the **AH-1**.
 
-![McDonnell F3H-G Mockup](../img/F3HG.jpg)
+![McDonnell F3H-G Mockup](../img/f3hg.jpg)
 *McDonnell F3H-G mockup; US Navy photo*
 
 ### AH-1
@@ -189,7 +189,7 @@ involvement in **Vietnam**, beginning in December of 1964.
 
 ## 1965-1974: Backtracking with Haste - Vietnam (F-4D and F-4E)
 
-![F-4_dropping_over_Vietnam](../img/F-4B_VF-111_dropping_bombs_on_Vietnam.jpg)
+![F-4_dropping_over_Vietnam](../img/f-4b_vf-111_dropping_bombs_on_vietnam.jpg)
 *F-4B dropping bombs over Vietnam; US Navy Photo*
 
 The Phantom's initial deployments to Southeast Asia delivered a number of
@@ -240,7 +240,7 @@ direct target impact for the missile's warhead to detonate, whereas the AIM-9
 carried a proximity fuze; any Sidewinder that got close to its target was a
 threat to kill.
 
-![f4_over_vietnam](../img/F-4Ds_435th_TFS_over_Vietnam.jpg)
+![f4_over_vietnam](../img/f-4ds_435th_tfs_over_vietnam.jpg)
 *F-4D of the 435th TFS over Vietnam*
 
 With initial F-4D deliveries to the 8th TFW in May of 1967, the performance of

@@ -179,13 +179,13 @@ this map is delivered with DCS as standard. The training areas in the south of
 Georgia (designated as "Training Area W" and "Training Area E") offer a
 sufficiently large playground for training, including supersonic flights.
 
-![training_area](../img/Georgia_Training_Area.jpg)
+![training_area](../img/georgia_training_area.jpg)
 
 The airfield has a picturesque location between the mountains to the south and
 the Black Sea to the west. Here is a photo of the airfield, taken a month ago
 from a helicopter, looking in direction S-W.
 
-![kobuleti_airfield](../img/Kobuleti_Airfield.jpg)
+![kobuleti_airfield](../img/kobuleti_airfield.jpg)
 
 ## Lesson 01a - (PILOT) Startup
 
@@ -199,7 +199,7 @@ problem in about an hour and the temperature will rise quickly due to strong
 sunshine. However, ground-level haze is still to be expected as the ground has
 stored a lot of moisture and heavy evaporation from the sun is to be expected.
 
-![lesson01b_weather_kobuleti](../img/Lesson01_Kobuleti_WX.jpg)
+![lesson01b_weather_kobuleti](../img/lesson01_kobuleti_wx.jpg)
 
 ### Lesson 01a - Slots
 
@@ -223,7 +223,7 @@ Your aircraft is "cold & dark" on the ramp #25, the nose is pointed towards the
 runway, and is prepared and fully fueled. The Dash-60 ground power unit is
 already in place left of your jet.
 
-![lesson01a_hangar_view](../img/Lesson01_Slot_Ramp_no25.jpg)
+![lesson01a_hangar_view](../img/lesson01_slot_ramp_no25.jpg)
 
 The technician responsible for the aircraft, also called the "crew chief", is
 already in front of your aircraft and waiting to support you. You can
@@ -231,14 +231,14 @@ communicate with him using the Jester menu > CREW CHIEF. Don' confuse the "crew
 chief" with Jester. Sometimes they sound very similar when heard over the
 intercom, but in fact you are dealing with two different persons!
 
-![lesson01a_crew_chief](../img/Lesson01_Crew_chief_Ramp_no25.jpg)
+![lesson01a_crew_chief](../img/lesson01_crew_chief_ramp_no25.jpg)
 
 By the way, the crew chief's assistant is standing by on your left side, next to
 the Dash-60 ground power unit. He is operating the unit, and everything you
 request is in fact done by him, while the crew chief is directing, monitoring
 and the person in charge.
 
-![lesson01a_crew_chief_assistant](../img/Lesson01_Crew_chief_assistant_Ramp_no25.jpg)
+![lesson01a_crew_chief_assistant](../img/lesson01_crew_chief_assistant_ramp_no25.jpg)
 
 You've just sat down on the ejection seat and are starting to check the cockpit.
 You may be thinking: "Damn, I'm totally blown away by what I see, but I guess I
@@ -313,7 +313,7 @@ problem in about an hour and the temperature will rise quickly due to strong
 sunshine. However, ground-level haze is still to be expected as the ground has
 stored a lot of moisture and heavy evaporation from the sun is to be expected.
 
-![lesson_01b_weather_kobuleti](../img/Lesson01b_Kobuleti_WX.jpg)
+![lesson_01b_weather_kobuleti](../img/lesson01b_kobuleti_wx.jpg)
 
 ### Lesson 01b - Slots
 
@@ -322,7 +322,7 @@ to close the taxiway. Therefore, a new temporary ramp position, which is located
 directly on the threshold runway 07, was established. You will take off from
 that location and then divert to Vaziani.
 
-![lesson_01b_temporary_ramp_rwy07](../img/Lesson01b_temporary_ramp_position.jpg)
+![lesson_01b_temporary_ramp_rwy07](../img/lesson01b_temporary_ramp_position.jpg)
 
 All remaining sorties for this afternoon will take-off from there.
 
@@ -332,20 +332,20 @@ Your aircraft was pushed to the new temporary ramp position. It is "cold &
 dark", the nose is pointed towards the runway, and it is prepared and half
 fueled. The Dash-60 ground power unit is already in place left of your jet.
 
-![lesson_01b_ramp](../img/Lesson01b_jet_at_temporary_ramp_position.jpg)
+![lesson_01b_ramp](../img/lesson01b_jet_at_temporary_ramp_position.jpg)
 
 The technician responsible for the aircraft, also called the "crew chief", is
 already waiting in front of the aircraft and waiting to support the pilot. You
 will hear him on the intercom.
 
-![lesson_01b_crew_chief](../img/Lesson01b_crew_chief_at_temporary_ramp_position.jpg)
+![lesson_01b_crew_chief](../img/lesson01b_crew_chief_at_temporary_ramp_position.jpg)
 
 By the way, the crew chief's assistant is standing by on your left side, next to
 the Dash-60 ground power unit. He is operating the unit, and everything the
 pilot request is in fact done by him, while the crew chief is directing,
 monitoring and the person in charge.
 
-![lesson_01b_crew_chief_assistant](../img/Lesson01b_crew_chief_assistant_at_temporary_ramp_position.jpg)
+![lesson_01b_crew_chief_assistant](../img/lesson01b_crew_chief_assistant_at_temporary_ramp_position.jpg)
 
 You've just sat down on the rear ejection seat and are starting to check the
 cockpit. You may be thinking: "Damn, I'm totally blown away by what I see, but I
@@ -416,7 +416,7 @@ The weather changes slowly but noticeably. The clouds start breaking up, and the
 forecast regarding the ground-level haze was correct. Wind speed and direction
 haven't changed so far.
 
-![weather_lesson2](../img/Lesson02_Kobuleti_WX.jpg)
+![weather_lesson2](../img/lesson02_kobuleti_wx.jpg)
 
 ### Lesson 02 - Slots
 
@@ -436,16 +436,16 @@ nose is pointed towards the runway. All aircraft systems are set to the
 positions in which you left in the previous lesson. The Dash-60 ground power
 unit is already removed.
 
-![lesson_02_ramp](../img/Lesson02_Slot_Ramp_no25.jpg)
+![lesson_02_ramp](../img/lesson02_slot_ramp_no25.jpg)
 
 The "crew chief" has changed his position to forward right of your aircraft and
 is waiting to support you.
 
-![lesson2_crew_chief](../img/Lesson02_Crew_chief_Ramp_no25.jpg)
+![lesson2_crew_chief](../img/lesson02_crew_chief_ramp_no25.jpg)
 
 His assistant is standing by on your forward left side.
 
-![lesson2_crew_chief_assistant](../img/Lesson02_Crew_chief_assistant_Ramp_no25.jpg)
+![lesson2_crew_chief_assistant](../img/lesson02_crew_chief_assistant_ramp_no25.jpg)
 
 ### Lesson 02 - Audio & text
 
@@ -504,7 +504,7 @@ Here are some special tips for lesson 02:
 
 ### Lesson 03 - Weather
 
-![lesson03_weather](../img/Lesson03_Kobuleti_WX.jpg)
+![lesson03_weather](../img/lesson03_kobuleti_wx.jpg)
 
 The weather is changing noticeably with every minute. The clouds continue
 breaking up, and the ground-level haze is still there. Wind speed and direction
@@ -523,7 +523,7 @@ All Dodge flights complete familiarization and training flights at the airfield.
 
 ### Lesson 03 - Aircraft
 
-![lesson03_aircraft_slot](../img/Lesson03_Slot_Holdingpoint_RWY07.jpg)
+![lesson03_aircraft_slot](../img/lesson03_slot_holdingpoint_rwy07.jpg)
 
 Your aircraft is already "hot on the holding point for runway 07" with both
 engines running, the nose is pointed towards the runway. All aircraft systems
@@ -635,7 +635,7 @@ The weather has become pretty nice. The clouds have disappeared more or less,
 and the ground-level haze is less visible due to the quickly rising temperature.
 Wind speed and direction still haven't changed so far.
 
-![lesson04_kobuleti_wx](../img/Lesson04_Kobuleti_WX.jpg)
+![lesson04_kobuleti_wx](../img/lesson04_kobuleti_wx.jpg)
 
 ### Lesson 04 - Slots
 
@@ -655,7 +655,7 @@ Mach 0.7. All systems are set in a way as they would be after a typical
 air-to-air training, thus it will be required to prepare the aircraft for the
 upcoming approach and landing.
 
-![lesson_04_slot](../img/Lesson04_Slot_In-Flight.jpg)
+![lesson_04_slot](../img/lesson04_slot_in-flight.jpg)
 
 ### Lesson 04 - Audio & text
 
@@ -695,17 +695,17 @@ Here are some special tips for lesson 04:
 - DME distances: DME distance information is shown on the lower left corner of
   the HSI.
 
-![lesson04_dme_distance](../img/Lesson04_HSI_DME.jpg)
+![lesson04_dme_distance](../img/lesson04_hsi_dme.jpg)
 
 - HSI course settings: The course setting can be changed with the COURSE SET
   KNOB on the lower right corner of the HSI:
 
-![lesson04_hsi_course](../img/Lesson04_HSI_HDG.jpg)
+![lesson04_hsi_course](../img/lesson04_hsi_hdg.jpg)
 
 - Task 1 > Step 4: If you can't reach the COMM Antenna Select Switch, move the
   throttles back for a moment.
 
-![lesson04_comm_antenna](../img/Lesson04_COMM_Antenna_switch.jpg)
+![lesson04_comm_antenna](../img/lesson04_comm_antenna_switch.jpg)
 
 - Task 1 > Step 8: The transition altitude in this particular region is 4,000m
   (13,120 ft), and the transition level is flight level 140 (FL140, which is

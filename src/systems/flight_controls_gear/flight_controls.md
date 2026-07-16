@@ -450,7 +450,7 @@ The [three switch positions](../../cockpit/pilot/left_console/wall.md#slatsflaps
 Norm, Out, and Out and Down, and the resulting command can be moderated based on whether or not the
 landing gear is being deployed.
 
-![SlatsRelative](../../img/SlatsRelative.jpg)
+![SlatsRelative](../../img/slatsrelative.jpg)
 
 Norm is the standard in-flight position, locking the Flaps and automatically
 programming the Slat deployment as a function of AoA.
@@ -562,8 +562,8 @@ lowered.
 
 ## Aural Tone System
 
-![manual_aural_tone_chart_slats_in](../../img/AoA_aural_tone_chart_slats_in_or_gear_down.jpg)
-![manual_aural_tone_chart_slats_out](../../img/AoA_aural_tone_chart_slats_out_and_landing_gear_up.jpg)
+![manual_aural_tone_chart_slats_in](../../img/aoa_aural_tone_chart_slats_in_or_gear_down.jpg)
+![manual_aural_tone_chart_slats_out](../../img/aoa_aural_tone_chart_slats_out_and_landing_gear_up.jpg)
 
 The Aural Tone System provides audible feedback in maneuvering flight and during
 landing configuration. Beginning above 15 units AoA with gear down, and 21 units
