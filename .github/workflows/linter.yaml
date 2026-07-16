@@ -6,6 +6,7 @@ permissions:
   contents: read
 
 jobs:
+  # Regression test `mdbook build`
   mdbook-build:
     name: "mdBook Build"
     runs-on: ubuntu-latest
@@ -25,6 +26,7 @@ jobs:
           test -s book/html/index.html
           test -s book/pdf/output.pdf
 
+  # Regular Markdown linting
   markdown-linter:
     name: "Markdown Linter"
     runs-on: ubuntu-latest
@@ -39,6 +41,7 @@ jobs:
           files: .
           config_file: .markdownlint.yaml
 
+  # Check for broken links in Markdown files
   markdown-link-check:
     name: "Markdown Link Checker"
     runs-on: ubuntu-latest
@@ -48,6 +51,7 @@ jobs:
           persist-credentials: false
       - uses: gaurav-nelson/github-action-markdown-link-check@1.0.15
 
+  # Check for forbidden phrases in Markdown files
   markdown-blacklist-check:
     name: "Markdown Blacklist Check"
     runs-on: ubuntu-latest
@@ -80,6 +84,10 @@ jobs:
 
           exit $failed
 
+  # All files should be lowercase to avoid issues on case-sensitive filesystems
+  # It is not technically a requirement but issues like naming a file "FOO.jpg" and
+  # then referencing it as "foo.jpg" do not immediately show up but will later fail
+  # the pipeline silently.
   lowercase-filenames:
     name: "Lowercase Filenames"
     runs-on: ubuntu-latest
@@ -148,6 +156,9 @@ jobs:
             filename=$(basename "$file")
 
             # Check extension (case-sensitive)
+            # To avoid issues we only allow .jpg, .svg and .gif for now.
+            # No .png or .bmp for example. Also no .JPG or similar case variants.
+            # It is not technically a requirement and we can adjust this list if needed.
             case "$filename" in
               *.jpg|*.svg|*.gif)
                 ;;
@@ -159,6 +170,8 @@ jobs:
             esac
 
             # Check file size unless exempt
+            # We limit image sizes to support for example mobile users and speed up page loading times.
+            # Also, if file sizes are too large, the PDF action eventually crashes due to out of memory.
             if ! is_exception "$file"; then
               size=$(stat -c%s "$file")
               if (( size > MAX_SIZE )); then
@@ -169,6 +182,9 @@ jobs:
           done < <(find src/img -type f -print0)
 
           # Ensure every file in src/img/light has a counterpart in src/img/dark
+          # The light/dark system is meant to provide pics that are swapped based on theme.
+          # So any entry should be present in all themes always,
+          # or not be put under the light/dark folders to begin with.
           while IFS= read -r -d '' file; do
             rel="${file#src/img/light/}"
             if [[ ! -f "src/img/dark/$rel" ]]; then
