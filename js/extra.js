@@ -46,8 +46,22 @@ function swapLightDarkModeImages() {
   });
 }
 
+function scrollToUrlAnchor() {
+  if (!location.hash) {
+	return;
+  }
+
+  const id = decodeURIComponent(location.hash.slice(1));
+  const el = document.getElementById(id) || document.getElementsByName(id)[0];
+
+  if (el) {
+	el.scrollIntoView();
+  }
+}
+
 $(document).ready(function () {
   swapLightDarkModeImages();
+  scrollToUrlAnchor();
 });
 
 $("html").onClassChange((el, newClass) => {
