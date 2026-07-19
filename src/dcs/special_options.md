@@ -116,18 +116,26 @@ altitude, similar as seen in civilian aviation.
 
 ## Persistent Aircraft (by livery and tail number)
 
-When checked, enables the aircraft persistence system.
-Allowing to save and load aircraft state across flights.
+When checked, enables the aircraft persistence system. Allowing to save and load
+aircraft state across flights.
 
-The bind **Initialize Persistent Aircraft State** (<kbd>LCTRL</kbd>+<kbd>P</kbd>)
-is used initially to start tracking the current aircraft. Any subsequent mission
-flown with the same combination of livery and tail-number results in this particular
-aircraft being loaded again.
+The bind **Initialize Persistent Aircraft State**
+(<kbd>LCTRL</kbd>+<kbd>P</kbd>) is used initially to start tracking the current
+aircraft. Any subsequent mission flown with the same combination of livery and
+tail-number results in this particular aircraft being loaded again.
 
 See [9.6. Persistence](persistence.md) for details.
 
-> 💡 Mission authors can overrule this setting,
-> see [9.12. Mission Editor](mission_editor.md#persistent).
+> 💡 Mission authors can overrule this setting, see
+> [9.12. Mission Editor](mission_editor.md#persistent).
+
+## Tinted Visor Effect
+
+When checked, lowering the visor of the helmet will add a graphical tint effect
+to help against bright lighting conditions. The option is by default disabled.
+
+The bind _Helmet Visor Tint Effect_ can be used to change the setting in the
+cockpit at any time.
 
 ## HB UI
 
@@ -178,9 +186,9 @@ This file is automatically created at
 
 when launching the Phantom for the first time.
 
-> 💡 Deleting the file will lead to it being recreated on the next launch.
-> That way, one can have it updated to the newest set of rules -
-> should there have been any changes.
+> 💡 Deleting the file will lead to it being recreated on the next launch. That
+> way, one can have it updated to the newest set of rules - should there have
+> been any changes.
 
 Selecting **Offline** will disable the Virtual Browser and any other HB UI
 features and elements that require an active online connection.
@@ -194,11 +202,11 @@ Dropdown to select the language used for all HB UI elements. Available are:
 - German (_Deutsch_)
 - Korean (_한국어_)
 
-Affects for example the Jester UI, the Bombing Tool, but also the
-in-game version of this Manual and more.
+Affects for example the Jester UI, the Bombing Tool, but also the in-game
+version of this Manual and more.
 
-> 💡 If you are interested in making translations for other languages,
-> please head over to the [Modding Section](modding/jester/wheel_ui.md#translations),
+> 💡 If you are interested in making translations for other languages, please
+> head over to the [Modding Section](modding/jester/wheel_ui.md#translations),
 > thanks! 👍
 
 ### Theme
@@ -221,9 +229,9 @@ the closing and opening of the wheel or the blinking when selecting an item.
 The default speed is given by `1.0`. Values above that speed up the animations,
 values below `1.0` slow it down. The allowed range is `0.01` to `1000`.
 
-> 💡 Using a value such as `1000` effectively disables the animations.
-> While negatively impacting the visual experience, this can help
-> if the UI does not feel responsive enough.
+> 💡 Using a value such as `1000` effectively disables the animations. While
+> negatively impacting the visual experience, this can help if the UI does not
+> feel responsive enough.
 
 ### Allow Mouse Controls
 
