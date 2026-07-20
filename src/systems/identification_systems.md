@@ -39,7 +39,7 @@ The codes for Mode 4 are automatically inserted by Ground Crew before flight,
 the Crew Chief can be asked to insert them on demand as well.
 
 > 💡 The Phantom features a full IFF simulation. In DCS this system also works
-> with any other cooperating aircraft, such as the M-2000C, F1, JF-17, C-130,
+> with any other cooperating aircraft, such as the M-2000C, F1, JF-17,
 > F-15E, Harrier and more. Other aircraft, or AI-controlled aircraft fall back
 > to coalition based interrogation, assuming the Phantoms transponder to always
 > be enabled and set to the correct M4 code for the current coalition, ignoring
@@ -169,7 +169,7 @@ contacts position:
 - line below; the aircraft has a matching transponder code (likely friendly)
 
 > 💡 The Phantom features a full IFF simulation. In DCS this system also works
-> with any other cooperating aircraft, such as the M-2000C, F1, JF-17, C-130,
+> with any other cooperating aircraft, such as the M-2000C, F1, JF-17,
 > F-15E, Harrier and more. Other aircraft, or AI-controlled aircraft fall back
 > to coalition based transponders, the Phantoms interrogator then assumes their
 > transponder to be set to the correct codes for their corresponding coalition.
@@ -243,7 +243,7 @@ Illuminated each time the system detects IFF responses by hostile aircraft.
 
 > 💡 Due to engine limitations, the activity lights can only capture signals
 > send by transponders of aircraft with a full IFF simulation cooperating with
-> that of the Phantom, such as the M-2000C, F1, JF-17, C-130, F-15E, Harrier and
+> that of the Phantom, such as the M-2000C, F1, JF-17, F-15E, Harrier and
 > more. For other aircraft, the lights only illuminate if a transponder responds
 > to a Combat-Tree challenge send by the own aircraft.
 

@@ -305,7 +305,7 @@ are provided for mission triggers:
 ## IFF
 
 The Phantom features a full IFF simulation compatible with cooperating aircraft,
-such as the the M-2000C, F1, JF-17, C-130, F-15E, Harrier and more.
+such as the the M-2000C, F1, JF-17, F-15E, Harrier and more.
 
 For other aircraft, or AI-controlled aircraft, mission creators can pre-set
 transponder codes by **giving units a name following specific patterns**:
