@@ -1,0 +1,8 @@
+{
+  "name": "f-4e-manual",
+  "private": true,
+  "scripts": {
+    "build": "node i18n/build.js",
+    "serve": "node i18n/serve.js"
+  }
+}

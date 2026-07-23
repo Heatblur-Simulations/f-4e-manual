@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - "master"
+  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -22,7 +23,8 @@ jobs:
         uses: peaceiris/actions-mdbook@v2.0.0
         with:
           mdbook-version: "0.5.4"
-      - run: mdbook build
+      - run: cargo install mdbook-pdf --version 0.1.13 --locked
+      - run: node i18n/build.js
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4.0.0

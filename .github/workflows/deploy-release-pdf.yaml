@@ -19,17 +19,16 @@ jobs:
         with:
           mdbook-version: "0.5.4"
       - run: cargo install mdbook-pdf --version 0.1.13 --locked
-      - run: mdbook build
+      - run: node i18n/build.js
 
-      - name: Rename PDF
-        run: mv book/pdf/output.pdf book/pdf/f4e_manual.pdf
-
-      - name: Release PDF
+      - name: Release PDFs
         uses: ncipollo/release-action@v1.14.0
         with:
           artifactErrorsFailBuild: true
-          artifacts: "book/pdf/f4e_manual.pdf"
+          artifacts: "book/pdf/*.pdf"
           artifactContentType: "application/pdf"
           generateReleaseNotes: true
           omitBody: true
           omitName: true
+          allowUpdates: true
+          replacesArtifacts: true

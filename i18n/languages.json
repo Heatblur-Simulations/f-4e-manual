@@ -1,0 +1,20 @@
+[
+  {
+    "code": "en",
+    "mdbookLang": "en",
+    "name": "English",
+    "native": "English",
+    "title": "Heatblur F-4E Phantom II",
+    "pdfName": "f4e_manual_en.pdf",
+    "default": true
+  },
+  {
+    "code": "fr",
+    "mdbookLang": "fr",
+    "name": "French",
+    "native": "Français",
+    "title": "Heatblur F-4E Phantom II",
+    "pdfName": "f4e_manual_fr.pdf",
+    "default": false
+  }
+]
