@@ -1,0 +1,37 @@
+# KY-28 Opérations
+
+Pour plus de détails, reportez-vous au chapitre
+[3.3.7 KY-28 Chiffrement](../systems/nav_com/encryption.md).
+
+## Prélancement
+
+| Étape | Système | Actions |
+| ---- | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1 | KY-28 Power | OFF et commutateur de mode réglé sur P |
+| 2 | Code Setting | Déterminez qu'un code approprié a été défini par un personnel qualifié en équipement de sécurité vocale. Dans DCS et en combinaison avec SRS (Simple Radio), cela se fait via le menu de communication de l'équipe au sol dans le menu de communications DCS.                                                                                                                                                                                                                                                                                                                                                       |
+| 3 | UHF Radio | ON |
+| 4 | Mode Switch | P |
+| 5 | Power Knob | ON |
+| 6 | Ground Test | Si un test au sol de l'équipement est souhaité, établissez des communications radio bidirectionnelles en texte clair sur la radio vocale en clair avec une station distante appropriée et demandez une vérification de l'équipement. (Dans DCS, un autre joueur est nécessaire) |
+| 7 | Mode Switch | C |
+| 8 | Alarm Check | Le KY-28 effectuera une vérification automatique de l'alarme lorsque le commutateur de mode est réglé sur C et que le bouton d'alimentation est réglé sur On. La vérification se poursuivra pendant environ 2 secondes après la mise sous tension. Pendant ce temps, une tonalité constante et ininterrompue de 1 200 Hz est entendue dans les casques. Une fois le contrôle réussi, la tonalité de 1 200 Hz est interrompue à une fréquence de 2,3 Hz.                                                                                                                                                                                                                                   |
+| 9 | Clear Interrupted Tone | Positionnez momentanément le bouton du microphone sur UHF pour effacer la tonalité interrompue. Lorsque le bouton du microphone est relâché, le KY-28 revient à l'état de veille et est prêt pour l'émission ou la réception. Si l'unité ne réussit pas le contrôle d'alarme, la tonalité constante de 1 200 Hz continue et toute opération de chiffrement ultérieure est inhibée.                                                                                                                                                                                                                                                |
+| 10 | Alarm Check Failure | Remarque : Si le KY-28 échoue au contrôle d'alarme, le bouton d'alimentation doit être réglé sur OFF et le commutateur de mode sur P (plain) pour activer les communications UHF conventionnelles.                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| 11 | Transmit Ciphered Messages | Pour transmettre des messages chiffrés, positionnez le bouton du microphone sur UHF et attendez qu'une tonalité momentanée se fasse entendre avant la saisie vocale. Avec le bouton d'alimentation réglé sur ON, la tonalité momentanée est retardée de 0,5 seconde après avoir appuyé sur le bouton du microphone. Pendant ce temps, une vérification du cryptage est effectuée et le préambule de synchronisation est transmis aux stations réceptrices. Si la vérification du cryptage échoue, une tonalité de 1 200 Hz interrompue à une fréquence de 2,3 Hz est présentée dans les casques et la transmission du cryptage n'est pas possible. Si la vérification du cryptage réussit, une tonalité momentanée se fait entendre dans les casques. |
+| 12 | Cipher Radio Communications | Une fois la tonalité momentanée entendue, établissez des communications radio chiffrées bidirectionnelles avec une station coopérante et vérifiez la lisibilité et la force du signal et/ou transmettez votre message. En relâchant le bouton du microphone, le KY-28 reviendra à l'état de veille. La transmission simultanée par deux stations ou plus sur la même fréquence n'est pas possible et peut entraîner des messages tronqués ou une perte de synchronisation.                                                                                                                                                          |
+| 13 | Resume Normal Communications | Reprenez les communications normales non cryptographiques si vous le souhaitez à tout moment en réglant le commutateur de mode sur P (plain).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| 14 | In-Flight Check | Remarque : Les procédures ci-dessus peuvent être utilisées pour effectuer une vérification en vol de l'équipement.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+## Post-lancement
+
+| Étape | Système | Actions |
+| ---- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1 | Equipment Operation | L'équipement de sécurité vocale doit être utilisé conformément aux instructions.                                                                                                                     |
+| 2 | **Avertissement :** | Si ZEROIZE est enfoncé pendant le vol, la communication cryptée n'est pas possible. Le code ne peut être réinitialisé (ou modifié) que via le menu de communication de l'équipe au sol après l'atterrissage. |
+
+## Après l'atterrissage
+
+| Étape | Système | Actions |
+| ---- | ------------------- | ------ |
+| 1 | Zeroize as briefed. |        |
+| 2 | Power Off | OFF |
