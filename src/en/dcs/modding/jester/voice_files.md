@@ -29,7 +29,7 @@ preload = false
 
 ## Variations
 
-![Sound Variations](../../img/../../img/jester_sound_variations.jpg)
+![Sound Variations](../../../img/jester_sound_variations.jpg)
 
 When placing multiple sound files with the same name, suffixed by an incrementing number,
 DCS will automatically play any of the files randomly.

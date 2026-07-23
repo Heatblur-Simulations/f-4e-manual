@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>__BOOK_TITLE__</title>
+<style>
+  :root { --bg: #ffffff; --fg: #404040; --card-bg: #e6e9ef; --card-border: #9ca0b0; --accent: #1e66f5; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1d1f21; --fg: #d9d9d9; --card-bg: #282c2f; --card-border: #4c4f51; --accent: #58a6ff; }
+  }
+  html, body { height: 100%; margin: 0; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main { text-align: center; padding: 2rem; }
+  h1 { font-weight: 600; margin-bottom: 1.5rem; }
+  .lang-options { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+  .lang-option {
+    display: block;
+    min-width: 10rem;
+    padding: 0.9rem 1.5rem;
+    border-radius: 0.4rem;
+    border: 1px solid var(--card-border);
+    background: var(--card-bg);
+    color: var(--fg);
+    text-decoration: none;
+    font-size: 1.05rem;
+    transition: border-color 0.15s ease;
+  }
+  .lang-option:hover { border-color: var(--accent); color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>__BOOK_TITLE__</h1>
+  <div class="lang-options">
+        __LANGUAGE_LINKS__
+  </div>
+</main>
+<script>
+  // Redirect straight through if a language was already picked, otherwise
+  // suggest (never force) the browser's language.
+  (function () {
+    var available = __LANGUAGE_JSON__;
+    var saved = localStorage.getItem('hb-manual-lang');
+    if (saved && available.indexOf(saved) !== -1) {
+      location.replace('./' + saved + '/');
+      return;
+    }
+    var browserLang = (navigator.language || '__DEFAULT_LANG__').slice(0, 2);
+    if (available.indexOf(browserLang) !== -1) {
+      location.replace('./' + browserLang + '/');
+    }
+  })();
+  document.querySelectorAll('.lang-option').forEach(function (el) {
+    el.addEventListener('click', function () {
+      localStorage.setItem('hb-manual-lang', el.dataset.lang);
+    });
+  });
+</script>
+</body>
+</html>
