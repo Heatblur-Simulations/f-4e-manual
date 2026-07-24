@@ -89,17 +89,6 @@ cross (35-mil depressed pipper, CAGED sight).
 
 ![Schematic](../img/gun_calibration_schematic.jpg)
 
-For air to ground employment of the internal gun, the following sight
-depressions should be used.
-
-| Altitude |          Speed | Dive Angle | Sight Depression |
-| -------: | -------------: | ---------: | ---------------: |
-|  3000 ft | 425 - 450 KCAS |   10 - 15° |    100 - 110 mil |
-|  2500 ft | 425 - 450 KCAS |   10 - 15° |      80 - 90 mil |
-|  2000 ft | 425 - 450 KCAS |   10 - 15° |           70 mil |
-|  1500 ft | 425 - 450 KCAS |   10 - 15° |      50 - 55 mil |
-|  1000 ft | 425 - 450 KCAS |   10 - 15° |      40 - 45 mil |
-
 ## External Cannon Pods
 
 ### SUU-16/A and SUU-23/A
@@ -174,15 +163,13 @@ air turbine.
 > Station Select button 20-30s have to pass before the pod is ready to fire.
 > De-energizing the pod will cause its motor to gradually spin down again.
 
-Installed, the guns are boresight along the Fuselage Reference Line. Thus, with
-the [optical sight](../cockpit/pilot/dscg_controls.md#sight-mode-knob) in air to
-air mode, the rounds will fall in accordance with reticle center, just as the
-main cannon- only with the natural offset of their respective pylon position,
-thus allowing for effective natural gunnery, if only affected by a moderate
-increase in resulting CEP. In the same fashion, in air to ground mode, the SUU
-pods observe the same performance relative to the reticle depression schedule as
-the internal cannon, again, with their respective offsets from centerline and
-CEP increase.
+Installed, the guns are boresight along the Radar Boresight Line (RBL). The
+rounds will fall in accordance with reticle center, just as the main cannon-
+only with the natural offset of their respective pylon position, thus allowing
+for effective natural gunnery, if only affected by a moderate increase in
+resulting CEP. In the same fashion, in air to ground mode, the SUU pods observe
+the same performance relative to the reticle depression schedule as the internal
+cannon, again, with their respective offsets from centerline and CEP increase.
 
 To safe the gun pods after combat, prior to deactivating
 [Master Arm](../cockpit/pilot/weapon_management.md#master-arm-switch), the
@@ -191,16 +178,3 @@ be placed into the Auto Clear position, the trigger squeezed momentarily, and
 the respective
 [Station Select buttons](../cockpit/pilot/weapon_management.md#station-select-buttons)
 pushed to off. On the SUU-16, this will close the ram air turbine.
-
-### External Sight Depression
-
-For air to ground employment of the external gun pods, the following sight
-depressions should be used.
-
-| Altitude |          Speed | Dive Angle | Sight Depression |
-| -------: | -------------: | ---------: | ---------------: |
-|  3000 ft | 425 - 450 KCAS |   10 - 15° |      80 - 85 mil |
-|  2500 ft | 425 - 450 KCAS |   10 - 15° |           65 mil |
-|  2000 ft | 425 - 450 KCAS |   10 - 15° |           50 mil |
-|  1500 ft | 425 - 450 KCAS |   10 - 15° |           30 mil |
-|  1000 ft | 425 - 450 KCAS |   10 - 15° |      10 - 15 mil |
