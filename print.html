@@ -17728,6 +17728,15 @@ altitude, similar as seen in civilian aviation.</p>
 <blockquote>
 <p>💡 Real Phantom WSOs did not assist during landing.</p>
 </blockquote>
+<h2 id="jester-subtitles"><a class="header" href="#jester-subtitles">Jester Subtitles</a></h2>
+<p>If enabled, each time Jester speaks subtitles will be shown on screen.</p>
+<p><label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="img/jester_subtitles.jpg" alt="Subtitles"><span class="img-wrapper"><img src="img/jester_subtitles.jpg" alt="Subtitles"></span></label></p>
+<p>Optionally, a portrait of Jester is shown. Available options include:</p>
+<ul>
+<li>Off</li>
+<li>On, with portrait (<strong>Default</strong>)</li>
+<li>On, without portrait</li>
+</ul>
 <h2 id="persistent-aircraft-by-livery-and-tail-number"><a class="header" href="#persistent-aircraft-by-livery-and-tail-number">Persistent Aircraft (by livery and tail number)</a></h2>
 <p>When checked, enables the aircraft persistence system. Allowing to save and load
 aircraft state across flights.</p>
@@ -19870,22 +19879,24 @@ PNT_VOR_Light;cockpit.html#vor_light
 <p>The URL, for example <code>cockpit.html#fire_test_button</code>, is then loaded in the Manual-Browser.</p>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="jester-3"><a class="header" href="#jester-3">Jester</a></h1>
-<p>Jester is fully open to modding via a Lua-API. Any feature and functionality of Jester
-has been written by using this API.</p>
+<p>Jester is fully open to modding via a Lua-API. Any feature and functionality of
+Jester has been written by using this API.</p>
 <p><label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="img/jester_ai_code.jpg" alt="Jester"><span class="img-wrapper"><img src="img/jester_ai_code.jpg" alt="Jester"></span></label></p>
 <blockquote>
-<p>💡 Mission designers can enforce an unmodified Jester.
-See chapter <a href="#allow-jester-modifications">9.10. Mission Editor</a> for details.</p>
+<p>💡 Mission designers can enforce an unmodified Jester. See chapter
+<a href="#allow-jester-modifications">9.10. Mission Editor</a> for
+details.</p>
 </blockquote>
 <p>The Jester AI primarily consists of:</p>
 <ul>
 <li>logic - written with the <a href="#lua-api">Lua-API</a></li>
-<li>user interface - embedded websites for the <a href="#wheel-ui">Wheel</a> and <a href="#dialog-ui">Dialogs</a></li>
+<li>user interface - embedded websites for the <a href="#wheel-ui">Wheel</a>,
+<a href="#dialog-ui">Dialogs</a> and <a href="#subtitle-ui">Subtitles</a></li>
 <li>sounds - see <a href="#voice-files">Voice Files</a></li>
 </ul>
 <blockquote>
-<p>💡 Let us know if you create a cool Jester mod that you think should make
-its way into the module!</p>
+<p>💡 Let us know if you create a cool Jester mod that you think should make its
+way into the module!</p>
 </blockquote>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="voice-files"><a class="header" href="#voice-files">Voice Files</a></h1>
@@ -20544,6 +20555,34 @@ Dialog.Push(fuel_check_dialog)
   end)
 end)
 </code></pre>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="subtitle-ui"><a class="header" href="#subtitle-ui">Subtitle UI</a></h1>
+<p>Jesters subtitles are shown in a web-based frontend that also offers an API
+exposed to Lua for showing any text. It also features full localization.</p>
+<p><label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="img/jester_subtitles.jpg" alt="Subtitles"><span class="img-wrapper"><img src="img/jester_subtitles.jpg" alt="Subtitles"></span></label></p>
+<h2 id="frontend-2"><a class="header" href="#frontend-2">Frontend</a></h2>
+<p>The frontend is a plain HTML website defined in</p>
+<p><code>f-4e\ModFolders\Mods\aircraft\F-4E\UI\JesterSubtitle</code></p>
+<p>Opening <code>index.html</code> in a browser shows the interface filled with a placeholder
+text.</p>
+<p>The website can be edited freely, changes are visible after reloading DCS
+(<kbd>SHIFT</kbd>+<kbd>R</kbd>).</p>
+<h2 id="lua-2"><a class="header" href="#lua-2">Lua</a></h2>
+<p>To show custom text, the following methods are defined and exported to Lua:</p>
+<pre><code class="language-lua">Subtitle.ShowText(text, duration, showPortrait)
+Subtitle.ShowFor(text)
+</code></pre>
+<p>As an example a Jester mod could write</p>
+<pre><code class="language-lua">Subtitle.ShowText("Hello World!", s(5), true)
+</code></pre>
+<p>and that would show the UI with the given text for 5 seconds, including Jesters
+portrait.</p>
+<blockquote>
+<p>💡 Users can still configure in their
+<a href="#jester-subtitles">Special Options</a> whether the UI or
+Jesters Portrait is allowed to begin with, the LUA functions respect this
+choice.</p>
+</blockquote>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="liveries"><a class="header" href="#liveries">Liveries</a></h1>
 <p><em>"We got them in two-tone gray. We got them in two-tone green.
