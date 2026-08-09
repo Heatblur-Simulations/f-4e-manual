@@ -19,7 +19,8 @@ means with the RAF during the Falklands War.
 
 ## Variants
 
-Only the A version can be equipped on this version of the Phantom.
+Available versions include the A and B variant. The AGM-45B has roughly double the
+engagement range compared to the A.
 
 ## Employment
 

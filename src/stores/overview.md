@@ -153,7 +153,6 @@ variant and might still be added in the future.
 | AIM-9D                  |         |
 | AIM-7E-3                |         |
 | AIM-4                   |         |
-| AGM-45(B)               |         |
 | BLU-1 Napalm            |         |
 | BLU-27 Napalm           |         |
 | MJU-1 Chaff Bomb        |         |
