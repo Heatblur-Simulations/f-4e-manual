@@ -476,6 +476,39 @@ As of now, most of them are _WIP_.
 local isAirborne = GetJester().awareness:GetObservation("airborne") or false
 ```
 
+### Sixth Sense
+
+Jester can access variables exposed from DCS via the C++ JesterSixthSense system.
+For Example:
+`all_map_markers` is a Lua array/table containing MapMarker objects.
+Each element is userdata with the following exposed type:
+```lua
+sol.hb::jester::JesterSixthSense::MapMarker
+```
+The userdata currently exposes these properties through its metatable:
+```lua
+marker.author
+marker.text
+marker.longitude
+marker.id
+marker.creation_time
+marker.latitude
+```
+Typical structure:
+```lua
+all_map_markers = {
+  [1] = <MapMarker userdata>,
+  [2] = <MapMarker userdata>,
+  [3] = <MapMarker userdata>,
+  ...
+}
+```
+
+The objects also provide a __pairs metamethod, so `pairs(marker)` may be used to enumerate the properties exposed by the SOL binding. However, the object itself is userdata, so printing it directly will only produce a memory-address representation such as:
+```lua
+userdata: 0x0248a8ded020
+```
+
 ## Interactions
 
 One key aspect of Jester is that he can interact with the cockpit by clicking
